@@ -1,0 +1,74 @@
+From version 0.3.13 smplayer can change its icons at runtime.
+
+In Preferences->Interface you'll find an option for changing the icon set.
+
+In this document I'm going to explain how that option works and how you
+can create your own icon set.
+
+smplayer will look for a directory for icons. The directory may be
+/usr/local/share/smplayer/icons/ or something like that. You can know it
+by looking at the first lines of the smplayer log:
+
+[code]
+This is smplayer v. 0.3.13 running on Linux
+Qt v. 3.3.3
+ * application path: '/usr/bin'
+ * data path: '/usr//share/smplayer/'
+ * translation path: '/usr//share/smplayer/translations/'
+ * doc path: '/usr//share/doc/packages/smplayer/'
+ * icon path: '/usr//share/smplayer/icons/'
+[/code]
+
+Well, under the icons/ directory there can be other subdirectories. Each
+subdirectory contains an icon set. The name of the directory will be the
+name of the icon set (the name which will be shown in the Preferences
+dialog).
+
+Inside that directory there'll be the *.png files that smplayer will
+load if the user choose that icon set.
+
+To create your own icon set, just create a subdirectory under icons/
+with the name you want. Inside store your icons with the same names that
+they have in icons-png/ in the sources.
+
+It's not necessary that the icons were the same size as the original
+ones, but smplayer can resize some of them.
+
+It's not necessary either that you create a replacement for all icons.
+If a icon is not there, smplayer will use the default icon.
+
+In the other hand smplayer could try to load a icon that it's not even
+in the default icon set. So your icon set could even provide icons for
+menu options that the default icon set doesn't have.
+
+Currently smplayer searches for these additional icons:
+
+edit.png
+gamma.png
+open_playlist.png
+xrecents.png
+frame_step.png
+speed.png
+compact.png
+deinterlace.png
+video_filters.png
+equalizer.png
+ontop.png
+audio_track.png
+audio_filters.png
+audio_channels.png
+stereo_mode.png
+audio_down.png
+audio_up.png
+delay_down.png
+delay_up.png
+delay_down.png
+delay_up.png
+sub_up.png
+sub_down.png
+angle.png
+file_codecs.png
+frame_counter.png
+osd.png
+qt.png
+

@@ -1,0 +1,41 @@
+A feature that has been repeatedly asked is at last available in version
+0.4.15: configurable key shortcuts.
+
+Here it's a brief explanation.
+The actions editor is located in Preferences->Mouse & keyboard. There
+you'll see a table with all actions.
+
+There are 4 columns. The first one will be used to display warnings if
+there are repeated shortcuts.
+The 2nd one shows the current shortcut, which you can change.
+The 3rd column shows the description. This is normally the text that
+appears in menus. Maybe some descriptions, without their menus, aren't
+very clear, so I added in column 4 the internal name of the action.
+
+
+How to change a shortcut:
+This is different if you use Qt 3 or Qt 4.
+
+With Qt 3 it's very easy. Just click on the shortcut cell, and now press
+the key (or combination of keys) that you want to be the new shortcut.
+And the name of the key will appear. To delete a shortcut, right click
+with the mouse and choose "Clear".
+
+With Qt 4 it's no so easy. Double click on the shortcut cell you want to
+change, and then edit the shortcut text as a normal text.
+Setting a shortcut for key "A" or "F4" is easy, but maybe you can't
+figure out the name of all keys (specially if your language is not
+English). Here (http://doc.trolltech.com/4.2/qt.html#Key-enum) you can
+see the list of key names in Qt (you have to type what is after "Qt::Key_")
+BTW, the name of the Enter key is actually "Return".
+
+When you click on the Ok or Apply buttons, the new shortcuts will be
+used (and saved to the configuration file). On the the hand if you
+select Cancel all changes will be lost.
+
+It's also possible to save the list of shortcuts to a file (with
+extension "keys"), and load it later (what you really save or load
+is the current contents of the edition table).
+
+The *.keys files are just plain text. Each line has two fields separated
+by a tab: the action name, and the shortcut.

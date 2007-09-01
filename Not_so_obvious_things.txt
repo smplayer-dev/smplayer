@@ -1,0 +1,91 @@
+Not so obvious things
+
+There's still no manual or help in smplayer.
+
+So I think I should explain some things that are not so obvious.
+
+[list]
+
+[*] Stop button. Pressing the Stop button once stops the video. If you
+press Play, the video will resume at the same point. But if you press
+Stop twice the time position is reset to 0, so Play will start the video
+from the beginning.
+
+[*]The pause button. The first time you click on it, the video is
+paused. The following times it will step to the next frame. This
+behavior only occurs with the pause button, not with the pause option in
+the menu.
+
+[*]Double clicking in the video window toggles fullscreen.
+
+[*]The Esc key can be used to exit from fullscreen mode.
+
+[*]The O key switches OSD modes (the same way mplayer does)
+
+[*]The option Open->URL doesn't check if you really typed a URL. What
+you type is passed to mplayer. So you may use this option to play not
+supported yet media, for instance TV channels, VCD, or anything
+supported by mplayer.
+
+[*]You can use the mouse wheel to go forward or backward.
+
+[*]If you want to make a screenshot of smplayer, with a video playing
+(for example to show it to your friends so they can see how wonderful
+smplayer is ;) ) you have to select "x11" as video driver. Otherwise
+you'll get a blue window instead of video. In Windows you have to select
+"directx:noaccel", which does not appears in the combo, you have to type
+it.
+
+[*]Probably you'll have noticed that when you select some options the
+video window goes black for a moment and then resumes. This is because
+smplayer has to stop mplayer and start it again (with new options) and
+cannot be avoided.
+
+[*]If you play a DVD you'll see that smplayer won't save the settings
+(audio, subtitles and so on), so if you play it again later you will
+have to select your desired options again. Some time ago, smplayer did
+save the settings for DVDs but I removed it. Reasons: resuming playback
+at the same point is not possible (mplayer fault, it doesn't report the
+actual current time) and the disc had to be read twice, one for
+identifying it and other for starting playback. That could be very slow.
+
+[*]If your locale is set to spanish (es_ES) smplayer will display the
+messages in Spanish. smplayer can be translated to other languages
+easily.
+
+[*]Deinterlace. mplayer has a lot of deinterlace filters. I have chosen
+3 for smplayer: [list]
+
+ [*]Lowpass5 (pp=l5). Works well most of the time, even with divx videos
+ which have been bad deinterlaced. But this filter produces some "ghost"
+ effect in movement scenes.
+
+ [*]Yadif. It seems it works very well with mpeg files at full
+ resolution. No ghosting, but some times the movement is not smooth. The
+ bad part is that uses a lot of CPU.
+
+ [*]Linear Blend (pp=lb). Produces a lot of ghosting and blurs the
+ image.[/list]
+
+[*]Video filters:[list]
+
+ [*]Autodetect phase.  Most movies and TV series (in PAL world) are not
+ interlaced but progressive. But maybe in the computer they may seem
+ interlaced (this happens to me sometimes with my dvd recorder). It
+ seems that those videos have a field changed or shifted or something
+ like that. "Autodetect phase" fixes it (-vf phase=A).
+
+ [*] Denoise. This filter removes noise from the image, making it
+ cleaner. But it could also remove a lot of details...
+
+ [*] Deblock. If the blocks of a video are very noticeable this filter
+ could help a little bit.
+
+ [*] Dering. Actually I don't know what this filter does...
+
+ [*] Add noise. Add a little bit of noise to the image. Can be useful to
+ "cover" the blocks with noise or after a denoise, so the image doesn't
+ look so extremely clean.
+
+[/list]
+[/list]
