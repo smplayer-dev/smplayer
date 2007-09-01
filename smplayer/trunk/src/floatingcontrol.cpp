@@ -38,11 +38,7 @@ public:
 MyToolButton::MyToolButton( QWidget * parent ) : QToolButton(parent) 
 {
 	setAutoRaise(true);
-/*
-#if QT_VERSION >= 0x040000
 	setUsesBigPixmap(true);
-#endif
-*/
 }
 
 
