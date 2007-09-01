@@ -1,0 +1,137 @@
+(Original text from the forum. I'll format it later for HTML)
+
+[b]1) Sometimes I read SMPlayer, others MPlayer, what are they? are they the same?[/b]
+
+No, they are two different applications. MPlayer is a multimedia player developed initially for linux and then ported to other OS. It's very good, it plays almost every everything, and it has for instance a lot of filters and so on. But most users may find it hard to use it. 
+Fortunately MPlayer can work together with another application (the video window can be embedded in the other application GUI, it obeys commands sent by the application).
+So SMPlayer is just a front-end which uses MPlayer to actually play the videos.
+
+SMPlayer is the window you see, the menus, the preferences dialog... (along with other things you don't see, like functions to control MPlayer). But SMPlayer knows nothing about playing files. It doesn't even know what a codec is.
+
+MPlayer on the other hand, opens the files, decodes them, displays the video and plays the audio. Subtitles are also read, parsed and displayed on screen by MPlayer.
+
+[b]2) DVD menus, where are they?[/b]
+
+Currently MPlayer doesn't support DVD menus... 
+Well, in fact it does if compiled with dvdnav support. The last time I tested it, it didn't work quite well. Anyway I'll test it again using a more up-to-date libdvdnav and I'll see if it's possible to add support for it in SMPlayer.
+
+Anyway, even there are no DVD menus, you can still select your desired title, chapter, audio track, subtitles... in the SMPlayer menus.
+
+[b]3) Output drivers (directx, xv, x11, gl, alsa, oss...) what are they? Which one is the best?[/b]
+
+MPlayer has several output drivers, for video and sound. SMPlayer allows you to select the one you want among all of them (Preferences->General).
+
+For video it's recommended that you use xv (linux) or directx (windows). They use hardware acceleration and give the best performance.
+
+The inconvenience about directx for Windows Vista users is that it disables Aero. 
+
+x11 and directx:noaccel are drivers without hardware acceleration. They give the worst performance. Moreover directx:noaccel gives a bad quality in fullscreen mode.
+
+gl and gl2 will use 3D acceleration from the graphic card. They will give better performance than directx:noaccel and x11 but no so much as directx or xv. gl/gl2 can be useful for Windows Vista users.
+
+For sound, you should usually use oss or alsa in linux. I don't like esd or arts, they use to use more CPU.
+
+In windows the sound drivers are dsound and win32. I read that dsound can cause sometimes audio-video sync problems. If you notice that problem try win32 instead.
+
+Other drivers allows you to save the video as image files or write the sound to the disk. These drivers are not officially supported by SMPlayer. Use them only if you know what you're doing.
+
+[b]4) I have a NVidia card and gl/gl2 doesn't work, why?[/b]
+
+It seems to be a problem with the NVidia cards or their drivers on Windows. gl/gl2 does work when using the real MPlayer window, but not when the video is embedded in another application.
+There's no known fix. The only thing you can do is either use directx instead of gl/gl2 or check the option to use the MPlayer window in Preferences->Advanced.
+
+[b]5) Is it possible to have the playlist inside the main window?[/b]
+
+It was intended that the playlist was inside the main window. But currently there are problems with it, so the code for it is disabled. If you're curious you can enable it by changing this line in src/config.h:
+#define DOCK_PLAYLIST 0
+to
+#define DOCK_PLAYLIST 1
+and recompiling.
+
+[b]6) I try to make a screenshot but the option is disabled, why?[/b]
+
+You didn't choose a folder for storing the screenshots. Do it in Preferences->General, and the screenshot option will be enabled.
+
+[b]7) I try to change the audio track but it doesn't work, the audio remains the same. I have to stop the video and play it again to actually change audio. Why?[/b]
+
+With some formats (ike mp4 or ogm), MPlayer can't change the audio track at runtime. By unchecking the option "Fast audio track switching" you'll be able to change the audio in those formats.
+
+[b]8) How can I change the key shortcuts?[/b]
+
+Preferences->Keyboard and mouse. You'll be able to change most key shortcuts.
+
+[b]9) I've read something about Qt, what's that?[/b]
+
+SMPlayer is being developed by using Qt, which is a C++ library that allows cross-platform development. The same source code can be compiled on Windows, Linux and Mac OS. 
+More info: http://trolltech.com/products/qt
+
+[b]10) With some video formats I only get audio, but not video. Why? Do I need some codecs?[/b]
+
+MPlayer can player most common formats "out of the box". But for codecs that haven't been yet implemented natively, it's necessary to install a package with binary codecs. You can get it from the [url=http://www.mplayerhq.hu/design7/dload.html]MPlayer download page[/url].
+
+On Windows, install the codecs in the mplayer/codecs subdirectory. On linux distros the package may be available as a regular package, maybe with the name of w32codecs or something like that.
+
+[b]11) What's the difference between Open->Close and Open->Quit? Do they do the same?[/b]
+
+If the option "Show icon in system tray" (in menu Options) is not checked, then yes, the two options do the same: quit the application.
+
+But if that option is enabled, then Open->Close will just hide the application (and stop the current file), but SMPlayer is still running. Open->Quit really quits the application, no matter if the system tray icon is enabled or not.
+
+[b]12) How can I play an audio CD?[/b]
+
+Not implemented yet, but I expect to add support for audio CDs before version 0.6.0.
+[b]Update:[/b] added support for audio CDs in version  0.5.18.
+
+[b]13) Where is the bookmark?[/b]
+
+Not implemented yet.
+
+[b]14) I try to play a file but nothing happens. Why?[/b]
+
+Probably MPlayer couldn't play the file. Open the mplayer log (Options->View logs->mplayer), you'll probably find an error message in the latest lines.
+
+On Windows is quite common that some MPlayer builds fail because they have been compiled with no support for some feature that SMPlayer tries to use. The error message could give you a clue. If it complains about cache, try disabling the cache in Preferences->Performance. If it complains about fontconfig try to use a ttf font instead of a system font.
+
+[b]15) When I open the preferences dialog for first time it takes some secs to show, why?[/b]
+
+In that moment SMPlayer calls MPlayer to get some info from it (the output drivers, for instance). It happens the same with Options->View info and properties.
+
+[b]16) There's a video equalizer, but why isn't there an audio equalizer?[/b]
+
+The video equalizer was easy to do because MPlayer has slave commands to change brightness, contrast and so on at runtime. But I'm afraid it doesn't have similar commands for audio, so this can't be done. 
+
+[b]17) Are you going to add support for TV?[/b]
+
+That would be nice, but TV support is not planned for now. First, currently I don't have a TV card, and second, MPlayer in Windows has no support for TV, so I prefer to focus on features that work on both OS.
+
+[b]18) A lot of menu options make the video to go blank for a moment. Why?[/b]
+
+Some options require to stop the MPlayer process and start it again with new parameters. That's why playing interrupts for a moment.
+
+[b]19) In Windows sometimes SMPlayer freezes, the video stops but the audio keeps repeating the same once and again. Why?[/b]
+
+http://www.phpbbplanet.com/smplayer/viewtopic.php?t=75
+
+[b]20) SMPlayer crashed, but the audio didn't stop, why?[/b]
+
+SMPlayer crashed, but MPlayer is still running. Kill the MPlayer process in the task manager.
+
+Anyway if SMPlayer crashes, it's a serious bug that should be fixed. Report it.
+
+[b]21) The option to play a VCD is disabled, why?[/b]
+
+This option is disabled in Windows because MPlayer in Windows doesn't support VCDs yet. But you can still play the videos in the disc, with Open->File, and then playing the *.dat files you'll see in the disc.
+
+[b]22) When I'm playing a playlist, when a file ends SMPlayer doesn't play the next file automatically, why?[/b]
+
+Probably your MPlayer is translated into another language. SMPlayer looks for some English texts in the output of MPlayer. In this case it looks for "Exiting... (End of file)". As MPlayer displays the messages in another language SMPlayer fails and won't work properly. Unfortunately the language of MPlayer can't be changed without recompiling it.
+But recents versions of SMPlayer allow to change the messages that it should look for (Preferences->Advanced->MPlayer language).
+
+[b]23) What version of MPlayer is recommended?[/b]
+
+SMPlayer requires at least MPlayer 1.0rc1. It hasn't been tested with older releases, and it uses some options only available from 1.0rc1, like -vf screenshot or -ass.
+If you use an older version and see that something doesn't work as it should, before reporting a bug I suggest to update MPlayer.
+
+Anyway I recommend to use a svn MPlayer. There are several things that have been improved from version 1.0rc1. For instance now you can change the audio language in avi files, seeking works better in flv and ogm (and maybe other formats). One thing that has really been improved is the SSA/ASS library for subtitles.
+
+In the [url=http://www.mplayerhq.hu/design7/dload.html]MPlayer download page[/url] you can get a svn tar.bz2 ready to compile. And compiling it is very easy (in linux, I mean...)

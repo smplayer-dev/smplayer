@@ -1,0 +1,18 @@
+Source: smplayer
+Section: graphics
+Priority: extra
+Maintainer: Ricardo Villalba <rvm@escomposlinux.org>
+Build-Depends: debhelper (>= 5), libqt4-dev
+Standards-Version: 3.7.2
+
+Package: smplayer
+Architecture: any
+Depends: ${shlibs:Depends}, mplayer | mplayer-nogui
+Recommends: smplayer-themes
+Description: A great front-end for MPlayer
+ SMPlayer intends to be a complete front-end for MPlayer, from basic features
+ like playing videos, DVDs, and VCDs to more advanced features like support
+ for MPlayer filters and more. One of the main features is the ability to
+ remember the state of a played file, so when you play it later it will resume
+ at the same point and with the same settings. smplayer is developed with
+ the Qt toolkit, so it's multi-platform.

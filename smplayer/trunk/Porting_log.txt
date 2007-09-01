@@ -1,0 +1,566 @@
+Porting to Qt 4 log:
+
+Broken things:
+ * ?
+
+[b]Version 0.5.40[/b]
+ * Ported the drag&drop in main window.
+ * The file properties dialog was still using a Q3GroupBox. Fixed. 
+   Now smplayer won't be linked anymore to the qt3support library :)
+ * Ported the code to embed the playlist in the main window.
+   It's not compiled by default because there are still some things to fix
+   but you can try it, it works better than before (there's even an animation
+   when you move the playlist to the top area). To do it change the
+   value of DOCK_PLAYLIST to 1 in config.h before compiling.
+ * Reduced the number of warnings when compiling with QT3_SUPPORT_WARNINGS. 
+   This change is very error-prone.
+
+[b]Version 0.5.30-qt4-0820[/b]
+ * Updated the Romanian, German, Polish and Ukrainian translations.
+ * Now the maximum value for volume is 100 instead of 99.
+ * Ported Open->Recent files. And some fixes: now if the list is empty
+   the submenu won't appear. You can also set the max. number of items in
+   the list to 0 in Preferences->Interface.
+ * Ported the rest of menus: audio and subtitle track selection, 
+   title, chapter and angle submenus. I left this for the end for a reason:
+   it was to be the hardest part and very error-prone. So test it, 
+   it wouldn't be strange if there are crashes or weird things. BTW, 
+   the angle submenu is completely untested (I don't have any multi-angle DVD).
+
+[b]Version 0.5.30-qt4-0819[/b]
+ * Updated the Japanese translation.
+ * Undone something with submenus. I realized there's an easy way.
+ * Ported Video->Denoise.
+ * Ported Video->Size. Now you can add shortcuts for these options. But
+   unfortunately an old problem previously fixed comes back: if you select
+   an already selected option it will do nothing. That means that if you
+   resize the window manually and then select Video->Size->100% it won't
+   resize to the original size. I'll try to fix it in the future.
+ * Ported Video->Deinterlace.
+ * Ported Audio->Channels.
+ * Ported Audio->Stereo mode.
+ * Ported Video->Aspect ratio.
+ * Added the denoise filters into the Video->Filters menu.
+
+[b]Version 0.5.30-qt4-0818[/b]
+ * Updated the Ukrainian translation.
+ * Continuing with the boring task of porting the menus.
+ * Created myactiongroup, to make easy creating menus where only one of
+   the options should be checked.
+ * Now the menu Options->OSD uses this new system. And the good thing is
+   that options can have shortcuts.
+
+[b]Version 0.5.30-qt4-0817[/b]
+ * Updated the French translation.
+ * Actions' editor: only save or load actions with a name.
+ * Ported the floating control.
+ * baseguiplus and defaultgui almost ported.
+ * A few changes in basegui. Still a lot of work to do with the menus.
+
+[b]Version 0.5.30-qt4-0816[/b]
+ * Started to port the main window. There's a lot of things to do. Today 
+   I've just made it to compile and a few other changes to make it show 
+   the toolbars properly. WARNING: there might be something broken.
+ * The action's editor shows now QActions, instead of Q3Actions, as the
+   main window now uses QActions.
+
+[b]Version 0.5.29-qt4-0815[/b]
+ * Updated the Traditional Chinese, German, Ukrainian, Russian and
+   Simplified Chinese translations.
+ * The icons in File properties->Info didn't appear. Fixed.
+ * Renamed the icons starting with letter "x". For example, "xnext.png" is
+   now "next.png". Anyway if an icon with the new name is not found it will
+   still look for an icon with the old name to keep compatibility with
+   the icon's themes.
+
+[b]Version 0.5.29-qt4-0814[/b]
+ * Updated the French, German and Polish translations.
+ * Changed the behavior of "Use postprocessing" and "Volume normalization"
+   in Preferences->General. Previously if you check "Use postprocessing" for
+   instance, then all videos will use postprocessing, no matter of the 
+   setting in Video->Filter->Postprocessing. Now this specifies the
+   default setting for new videos. If checked, all new videos you open
+   will have the option Video->Filter->Postprocessing enabled but you 
+   [b]can[/b] disable it if you want. Previously this wasn't possible.
+   I think this behavior is more consistent.
+ * Ported images.h/images.cpp and moved to the new resource system.
+   Right now the only thing still to be ported is the main window.
+
+[b]Version 0.5.29-qt4-0813[/b]
+ * Updated the Romanian translation.
+ * Added a new option for the config file: restore_pos_after_fullscreen (in
+   section [Preferences]). If its value is "true" then the main window will
+   save the current position on screen and restore it again when exiting
+   from fullscreen mode. The default value is "true" for Windows and "false"
+   for Linux. Change it if the main window moves up or down after exiting
+   from fullscreen mode.
+ * (By user request) Added a new option in Preferences->Interface: 
+   "Remember position and size" (of the main window). Checked by default.
+ * (By user request) Added two new optins in Preferences->General->Video & audio:
+   "Direct rendering" and "Double buffering".
+
+[b]Version 0.5.29-qt4-0812[/b]
+ * Updated the Japanese and French translations.
+ * Trying to reduce warnings when compiling with QT3_SUPPORT_WARNINGS. 
+   There's still a lot. This requires a lot of changes, simple in most of cases,
+   but there's always the possibility that something could break.
+
+[b]Version 0.5.29-qt4-0811[/b]
+ * (Playlist) Ported the drag&drop. Easier than expected, less code than
+   with Qt 3 and no extra code needed to support Firefox.
+ * Some small changes in playlist: no alternating row colors (doesn't look
+   good in Windows), bigger icons in the table.
+ * So the port of the playlist is finished.
+ * Internal changes in core.
+
+[b]Version 0.5.29-qt4-0810[/b]
+ * (Playlist) Using now a QTableWidget. This is the area where the items of 
+   the list are shown. Please test if everything is ok (moving items, 
+   selecting items, deleting selected items...).
+   Still to port the drag&drop code.
+ * (Windows) When changing the audio track, mplayer doesn't keep the volume 
+   (it's louder). Added a workaround, smplayer will restore the volume just 
+   after the change of the audio track.
+
+[b]Version 0.5.29-qt4-0809[/b]
+ * Updated the German, Polish, Russian and Ukrainian translations.
+ * I started to port the playlist. Ported things: the toolbar, the actions, 
+   and the popup menu. (See the "broken things" above).
+   Other minor changes: Q3ValueList -> QList, Q3TextStream -> QTextStream 
+   (I hope not, but there's the possibility that something has broken).
+   Now the playlist is not a QMainWindow, but a QWidget (previosly I had to
+   use a QMainWindow because in Qt 3 is not possible to add a toolbar 
+   to a normal widget, now at last I can do what I initially wanted).
+   You'll see that now the playlist looks slightly different.
+   Still to port: the list view (which will be the hardest part) and 
+   drag&drop.
+ * Fixed a bug in the playlist. The "length" field of the items was incorrectly
+   read when loaded from the config file.
+
+[b]Version 0.5.29-qt4-0808[/b]
+ * Added the updated qt_fr.qm sent by Kud Gray.
+ * Now "make clean" will only delete the smplayer_*.qm files in the translation
+   folder, to keep the qt_*.qm ones.
+ * (Linux) Try to load first the qt_*.qm from the smplayer translation path, 
+   and if that fails then try to load from the Qt translation path (previosly
+   it was the opposite).
+ * Ported timeslider.h, timeslider.cpp and some small changes in other files.
+ * Now the moc_*.cpp files are included in the *.cpp files. This reduces the
+   compilation time. In my computer, previosly it took about 2 minutes, now
+   it takes 1:30. This also made me find serious mistakes in some headers.
+ * Added shortcuts in the General, Drives and Performance sections in
+   preferences. (Translators are gonna "love" this change...)
+
+[b]Version 0.5.29-qt4-0807[/b]
+ * Updated the Chinese (zh_CN), Ukrainian, German, Polish and French 
+   translations.
+ * Removed obsolete translations in the *.ts files.
+ * Compiled again without option to change style. It still causes crashes.
+
+[b]Version 0.5.29-qt4-0804[/b]
+ * Updated the German and Ukrainian translations.
+ * The message "Screenshot taken..." is not displayed in the OSD if the
+   video is in pause. This is to prevent that the video advances one frame.
+ * Some changes in the about dialog. 
+ * Changes in some ui files.
+ * Added shortcuts in the Interface and Mouse sections in Preferences.
+
+[b]Version 0.5.29-qt4-0803[/b]
+ * Updated the German translation.
+ * Trying to keep pause after taking a screenshot.
+ * Moved options for volume from Preferences->Interface to 
+   General->Video & audio (which required to redesign the Interface section).
+ * Hidden the option "Use -subfont" as it seems that new SVN releases of 
+   mplayer don't require it. Also that option is not documented in the manpage.
+
+[b]Version 0.5.29-qt4-0801[/b]
+ * Updated the German translation.
+ * (Windows) Added some code to prevent that the monitor turns off when
+   watching a video. (Not tested yet).
+ * Disabled some code in helper.cpp, as it's not needed anymore.
+ * Renamed preferencesdialog2 to preferencesdialog.
+
+[b]Version 0.5.29-qt4-0730[/b]
+ * Updated the French translation.
+ * Some small, but important fixes for Windows.
+ * New option for command line that I think it could be very useful: -action
+   This option passes the specified action to an already running instance.
+   For instance, you're watching a video in smplayer, then you type:
+   [i]smplayer -action pause[/i] and the video will be paused.
+   [i]smplayer -action fullscreen[/i] will toggle the video to fullscreen.
+   This will allow to control smplayer with a remote control.
+   You can see a list of all available actions in "Preferences->Keyboard and
+   mouse". Under the "Name" column in the shortcut editor you've got all 
+   action's names.
+   When using -action all other parameters (except ini-path) are ignored.
+   So it you want to open a movie and enter in fullscreen, this is NOT valid:
+   [i]smplayer movie.avi -action fullscreen[/i]
+   But you can do it in two steps:
+   [i]smplayer movie.avi[/i]
+   [i]smplayer -action fullscreen[/i]
+   The exit code will be 0 if the -action option is successful and -1 
+   if there's an error.
+
+[b]Version 0.5.29-qt4-0729[/b]
+ * Updated the Polish translation.
+ * Fix: if the mplayer path is a relative path, don't convert it to an
+   absolute one. Otherwise smplayer may not work in external devices as
+   it might not find mplayer.
+ * Single instance: ported the server, and deleted old code. 
+   And now changes in the server (Preferences->Interface) doesn't require 
+   to restart the application.
+ * Some fixes with the style stuff in Preferences->Interface. 
+   BTW, it seems that changing style still crashes the app from time to 
+   time, a Qt bug?
+
+[b]Version 0.5.29-qt4-0727[/b]
+ * Updated the Japanese, Russian, German, Ukrainian and French translations.
+ * Set the new option dont_change_volume to false as default, as it seems that
+   mplayer in windows starts to play all videos with a very high volume.
+ * If the name of the executable (without extension) is "smplayer_portable"
+   then the option -ini-path will be activated (that means that smplayer 
+   will look for the config file in the app path).
+ * The volume icon in Preferences->Interface is hidden so the dialog is not
+   so wider.
+ * Some changes in the widgets of Preferences->Interface. Enabled the
+   changing of style again.
+ * I started to document some of the classes for doxygen.
+
+[b]Version 0.5.29-qt4-0725[/b]
+ * Properly fixed a problem with a signal.
+ * Got rid of the QTextStream in myclient.cpp.
+ * By user request: added a new option in Preferences->Interface: 
+   Change volume on every file. If checked SMPlayer will remember the
+   volume of every file, and will be restored when played again. For new
+   files the default volume will be used. That was the normal behavior until
+   now. The new thing is if you uncheck it. In this case SMPlayer will never
+   change the volume when a file is loaded. Problem: on startup SMPlayer 
+   won't know the current volume value, the volume slider will be wrong.
+
+[b]Version 0.5.29-qt4-0724-2[/b]
+ * More fixes in myclient.cpp.
+ * Fix: when a video finished and a 2nd one starts to play from the playlist,
+   the setting for not repainting the window background was ignored.
+
+[b]Version 0.5.29-qt4-0724[/b]
+ * Some fixes in myclient. Now uses UTF-8 to encode the texts, the timeout
+   is set to 200 ms. 
+   Anyway I'm not sure this is properly done. For instance if it tries to read 
+   a line from the server just before sending the data, only the first line is 
+   sent, the rest is lost.
+ * Fix: if you don't pass any file to the 2nd instance, it won't show.
+ * Fix: tray icon: it will remember again if the main window was hidden on
+   startup.
+
+[b]Version 0.5.29-qt4-0723[/b]
+ * Updated the German, Polish and Ukrainian translations.
+ * Started to port the network stuff (for the single instance). Implemented
+   a blocking client. This makes things a lot easier. Previously this was
+   done in a main window, which waited hidden until knowing if it can show
+   (no other running instance) or quit. Now the connection to another instance
+   is done in main.cpp with 2 or 3 lines or code, and before creating the
+   main window. This is *much faster*. Now the file passed to the running
+   instance starts to play almost instantaneously.
+   The code (myclient.h, myclient.cpp) is quite simple and does few checks, 
+   and I don't even know if it is a correctly implemented.
+   I'll try to improve it (this is the first time I use QTcpSocket, and
+   the 2nd time I do something relative to networking).
+   There's a problem, though. For simplicity the main window always shows.
+   This is a problem if you use to leave smplayer running in the system
+   tray for the whole session, as when you enter in the next session the main
+   window of smplayer will be visible. I'll try to fix it in the future.
+
+[b]Version 0.5.29-qt4-0722[/b]
+ * Updated the Romanian, Russian and Ukrainian translations.
+ * Bug fix: exit from fullscreen when playing an audio file.
+ * Bug fix: the end of file is signaling once the process has finished.
+ * In the info window, not it prints the absolute file path, instead of
+   the directory only.
+ * Bug fix: the size of the main window might be much bigger than it should
+   when playing a file passed through command line. I think this is fixed now.
+   The problem was that the file begins to play when the main window
+   is not shown yet. Anyway this part of the code is a mess and has to
+   be fixed.
+
+[b]Version 0.5.29-qt4-0720[/b]
+ * Fix with the myprocess stuff. A connection was not made. This could
+   make that the screensaver weren't turned on.
+ * Some changes in mplayerwindow. Now it knows when a video starts or stops
+   so it could manage clearing or not the video background. This was previously
+   done in core. It also has a fix, now the video background stops repainting
+   just *before* the mplayer process starts, instead of doing it when it 
+   already has started. This could fix that the video window could still get 
+   black sometimes.
+ * Shortcut editor: the new dialog for editing key shortcuts comes back.
+   The problems are not fixed, you can't enter yet keys like "Tab" but for 
+   those cases I've added a button "Capture". When toggled it will try to 
+   capture the shortcut (as before), otherwise you can freely edit the shortcut
+   as a regular text.
+
+[b]Version 0.5.29-qt4-0718[/b]
+ * Updated the Polish and German translations.
+ * Now inforeader and mplayerprocess uses the new myprocess. This is an 
+   important change. MyProcess is a class which inherits from QProcess 
+   (the Qt4 one, of course, although it provides some compatibility functions, 
+   like addArgument(), otherwise I would have to make a lot of changes in 
+   core.cpp). It provides a special working mode for Windows: the output of
+   mplayer is sent to a temporary file and read from it. I hope this could
+   improve performance under Windows.
+
+[b]Version 0.5.29-qt4-0716[/b]
+ * Updated the Ukrainian, Japanese and Russian translations.
+ * Started to write myprocess class. But this is done separately in a 
+   testing program.
+ * Fix: now reading the info about video, audio drivers, codecs and demuxers 
+   is done in a language independent way (it looks for tags like 
+   "ID_VIDEO_OUTPUTS" instead of English text).
+
+[b]Version 0.5.29-qt4-0714-1[/b]
+ * Updated the German translation.
+ * Tried to fix the AltGr issue but I have also realized that the Tab key
+   can't be entered so I think it's best to go back definitely to the old 
+   method. Retrieved the old intro text for preferences.
+ * make clean deletes the file src/Makefile, as this file is generated 
+   by qmake.
+
+[b]Version 0.5.29-qt4-0713[/b]
+ * Updated the German, Polish and Ukrainian translations.
+ * In the action editor the AltGr key is not detected properly. So it's not
+   possible to enter keys such as "#" or "@" as shortcuts. Until I fix it,
+   I'm going back to the old method to enter keys.
+
+[b]Version 0.5.29-qt4-0710[/b]
+ * Updated the Russian translation.
+ * Now changing a key shortcut in the actions' editor is much easier. Now you 
+   double click or press enter on a shortcut (you can do it in any column)
+   and a dialog will appear to ask you for the new shortcut. In this dialog
+   you press the key or combination of keys that you want to assign to the
+   shortcut. If you want to delete, just click on the Clear button.
+   Note: this has been done by using some code from Edyuk 
+   (http://www.edyuk.org)
+   Note 2: it's possible that some keys are not caught properly. In that case
+   report it.
+
+[b]Version 0.5.29-qt4-0709[/b]
+ * The priority option in preferences was broken. Fixed.
+ * Still some changes in the action editor.
+
+[b]Version 0.5.29-qt4-0708[/b]
+ * Updated the zh_CN, German and Turkish translations.
+ * Bug fix: now the info about the demuxer, audio and video codec are updated
+   after a restart of the mplayer process.
+ * Ported the shortcuts' editor, by using a QTableWidget instead of a Q3Table.
+   This has been a very hard task (and in fact it's not completely finished 
+   yet), as there are a lot of differences between Q3Table and QTableWidget. 
+   Moreover QTableWidget is more prone to crashes as it requires the use of 
+   pointers all around.
+ * Updated the shorcuts/default.keys as the previous one lacked the action 
+   "quit".
+
+[b]Version 0.5.29-qt4-0706-2[/b]
+ * New feature: on startup smplayer will try to create two directories:
+   $HOME/.smplayer and $HOME/.smplayer/screenshots
+   Now the configuration file will be stored in $HOME/.smplayer/
+   If you want to keep your configuration just copy 
+   $HOME/.config/RVM/smplayer.ini to $HOME/.smplayer/
+   And obviously the directory $HOME/.smplayer/screenshots will be 
+   used to store the screenshots (this also fulfills an old request).
+   This change affects also Windows! Not compiled yet on Windows but 
+   according to the Qt docs the directories will be 
+   C:/Documents and Settings/Username/.smplayer and
+   C:/Documents and Settings/Username/.smplayer/screenshots
+ * Updated the Polish translation.
+
+[b]Version 0.5.29-qt4-0706-1[/b]
+ * Started to use the new (and more complicated) method in Qt 4 for 
+   retranslating the texts. While doing this I have found a bug: the vertical
+   texts in the video equalizer doesn't appear when the language is Japanese,
+   Chinese or Georgian (it worked with Qt 3 but it seems that it never worked
+   with Qt 4). Until I find a fix, as a work around I added a tooltip
+   so the user could know what's each control for.
+ * The problem with texts in buttons in QDialogButtonGroups, which are not 
+   retranslated, seems to be fixed in Qt 4.3. I'm still using Qt 4.2.3 so I
+   added a work around for Qt 4.2.
+ * Added "buddies" (or key accelerators) in the Advanced section in preferences. 
+   I'm afraid this breaks the translations but it's something that has to 
+   be done. I'll add them too in the other sections.
+
+[b]Version 0.5.29-qt4-0705[/b]
+ * Now the qt translation file is loaded too when the user changes the language
+   in the preferences dialog (unfortunately it seems that the strings in 
+   buttons are not updated at runtime, so you'll need to restart the program
+   to have a full translation).
+   This is what it will be done:
+   First it will try to load the qt translation from the Qt translation folder, 
+   if that fails then it will try to load it from the smplayer translation 
+   folder. This would allow smplayer to use non official Qt translations for 
+   other languages, without having to install them in the Qt directories.
+   In Windows it will just look for the translations in the smplayer 
+   translation folder, as most windows users won't have Qt installed.
+ * Made some changes in the actions editor to avoid corruption of the key
+   shortcuts. The corruption happened because the shortcuts were translated
+   (for example, the shortcut "Ctrl+Right" was translated to "Ctrl+Derecha" 
+   in Spanish) but when a language change occurs at runtime, the new language 
+   don't understand the shortcuts. This has been fixed not allowing the 
+   shortcuts to be translated.
+ * Using a QDialogButtonGroup in the file properties dialog.
+   The QDialogButtonBox shows the Ok, Cancel... buttons in different ways
+   according to the current style. The best way to see the difference is
+   to use the Cleanlooks style: smplayer -style cleanlooks
+ * Updated the Ukrainian, German, Polish and Russian translations.
+
+[b]Version 0.5.29-qt4-0704[/b]
+ * Added a bat file (compile_windows.bat) to make easier the compilation in
+   windows.
+ * Updated the German and Japanese translations.
+ * Renamed some ui files.
+ * Using a QDialogButtonGroup in the about dialog.
+ * Try to load the qt translation file. This way texts directly generated
+   by the Qt library (ok and cancel buttons, the file dialog...) will also be 
+   translated (if a translation is available for your language). Currently it
+   will try to load the *.qm file from the Qt translation path 
+   (querying QLibraryInfo). It should work on linux but I don't know if 
+   it will work on windows.
+   Note: currently the language for this translations can't be change 
+   at run-time.
+
+[b]Version 0.5.29-qt4-0703[/b]
+ * Updated the German and Polish translations.
+ * Some fixes with the new help window in preferences.
+ * To save some space in the tar.gz, now the *.qm files won't be distributed,
+   as they can be generated by lrelease. So now the Makefile will try to create
+   those files. By default it will call to lrelease (which should be included
+   in the Qt development package). In (k)ubuntu this tool is named lrelease-qt4,
+   you can pass it to Makefile this way:
+   make LRELEASE=lrelease-qt4
+ * Removed the old preferences code in basegui.
+ * Ported main.cpp (and removed the KDE 3 code).
+ * Improved inputdvddirectory. Now using automatic connections, and a buttonbox
+   for the Ok and cancel buttons (if you're using the cleanlooks style you'll
+   see the difference).
+ * Using automatic connections in the logwindow. So I think now all the *.ui
+   files are properly ported to Qt 4.
+
+[b]Version 0.5.29-qt4-0702-2[/b]
+ * Updated the Polish translation.
+ * Added the "whatsthis" help again to the preferences dialog. So now the
+   preferences dialog recovers whole functionality.
+ * And something new: the "help" button works. It will display all 
+   "whatsthis" messages in a single page. There's not help for everything yet.
+ * Moved the old preferences stuff to old-preferences directory. Now the
+   old preferences dialog is not compiled any more.
+   So the new preferecences dialog is mostly finished.
+
+[b]Version 0.5.29-qt4-0702-1[/b]
+ * Updated the German and Polish translations.
+ * The advanced section is also available in the preferences dialog.
+   So now all sections are available again. Although it looks like before,
+   the preferences dialog has completely been rewritten, so there could be
+   bugs. So please test it, and report if you find any problem.
+
+[b]Version 0.5.29-qt4-0701-2[/b]
+ * Updated the German translation.
+ * The performance section is now available in the preferences dialog.
+ * Added the keyboard & mouse section too.
+ * Added the subtitle section. And now using the new QFontComboBox to
+   select the system font. BTW, I've just realized that the QFontComboBox
+   was added in Qt 4.2. So that means that now SMPlayer requires at least 
+   Qt 4.2.
+
+[b]Version 0.5.29-qt4-0701-1[/b]
+ * Updated the Ukrainian, German, Russian and Polish translations.
+ * The interface section is available in the preferences dialog. I added this
+   section first because I needed to test the language and iconset change.
+
+[b]Version 0.5.29-qt4-0630-2[/b]
+ * The first two sections (General and Drives) in the new preferences dialog
+   should now be fully functional, although testing is needed. It's very
+   easy that I could have forgotten to copy some code from the old dialog 
+   and some options might not work as expected. So testing would be very
+   appreciatted.
+ * Switched to the new Qt 4 automatic connections in FilePropertiesDialog.
+
+[b]Version 0.5.29-qt4-0630-1[/b]
+ * Made InfoReader a little bit smarter. Now it calls mplayer by its own, and
+   PreferencesDialog and FilePropertiesDialog ask it for the info 
+   (available drivers, codecs...), so this is not done anymore by BaseGui.
+ * Now the new preferences dialog is used if compiled with 
+   #define NEW_PREFERENCES_DIALOG 1 (in config.h)
+   Otherwise the old dialog will be used to keep things working.
+
+[b]Version 0.5.29-qt4-0629-2[/b]
+ * Updated the German translation.
+ * Created the file create_deb.sh, specially for Ubunty users. If you run it,
+   it would create a deb package.
+ * Started to write the new preferences dialog. When finished it will look like
+   the old one, but internally each section will be a separate widget, so it 
+   will be easier to maintain. This new dialog is hidden, if you want to
+   see it press Ctrl+6.
+
+[b]Version 0.5.29-qt4-0629-1[/b]
+ * Updated the pt_PT translation.
+ * filepropertiesdialog.cpp: replaced the Q3ListBox with QListWidget. So
+   this file is completely ported.
+ * mplayerprocess: changed the Qt headers but still using Q3Process.
+ * Ported global.h and global.cpp.
+ * The link in the "about" dialog at last works (if Qt >= 4.2).
+ * Fix: use setAutoFillBackground() only if Qt >= 4.1.
+ * Now the option "Don't repaint the video background" is checked by default
+   in linux.
+
+[b]Version 0.5.29-qt4-0628[/b]
+ * Updated the Ukrainian and Russian translations.
+ * Ported (partially) inforeader.h and inforeader.cpp. Now using QLists
+   instead of Q3ValueLists. Still using Q3Process though.
+ * Ported eqslider.h, eqslider.cpp, eqsliderbase.ui, verticaltext.h,
+   verticaltext.cpp, videoequalizer.h and videoequalizer.cpp. All of this is
+   the video equalizer.
+ * Ported seekwidget.h, seekwidget.cpp and seekwidgetbase.ui. This provides
+   the widget that allows to change the seeking times in Preferences->Interface.
+ * Ported preferencesdialogbase.ui and made some small changes in 
+   preferencesdialog.h/preferencesdialog.cpp to make it compile. Still using
+   a lot of Qt 3 widgets. This is the preferences dialog and it's huge. 
+   I'll change them later because I thought about to split it in modules.
+ * Ported mplayerwindow.cpp and mplayerwindow.h. This is the widget used
+   for the video.
+
+[b]Version qt4-0627[/b]
+ * Updated the French translation, using the one sent by Kud Gray.
+ * Ported inputdvddirectory.h, inputdvddirectory.cpp and 
+   inputdvddirectorybase.ui (first ui ported, not easy to port these files...).
+   This dialog appears when the user select Open->DVD from folder.
+ * Ported logwindow.h, logwindow.cpp and logwindowbase.ui. This is the
+   widget used to display the mplayer/smplayer logs.
+ * Ported (partially) filepropertiesdialog.h, filepropertiesdialog.cpp,
+   and filepropertiesdialogbase.ui. Still using Q3ListBox.
+   This dialog appears with Options->View info and properties.
+
+[b]Version qt4-0626-1[/b]
+ * Updated the Polish translation.
+ * Ported trackdata.h, trackdata.cpp, tracks.h, tracks.cpp, encoding.h,
+   encoding.cpp, mediadata.h, mediadata.cpp, mediasettings.h, 
+   mediasettings.cpp, preferences.h, preferences.cpp, recents.h, recents.cpp,
+   translator.h and translator.cpp (only renamed headers needed).
+ * Ported subtracks.h and subtracks.cpp. It was necessary to change a 
+   Q3ValueList with QList. Don't know if this could have unexpected results.
+   This class stores the subtitle tracks and it's responsible for checking if
+   any of the subtitles matches the user's favourite language.
+
+[b]Version qt4-0625-1[/b]
+ * Updated the German and Polish translations.
+ (Let's start with the easiest...)
+ * Removed the prep section in Makefile, and the conv2qt4.sh and conv2qt4.bat
+   in src/ as they won't be needed anymore.
+ * Ported filedialog.h and filedialog.cpp. Removed all KDE 3 code.
+   These files contains all open/save dialogs. Now using the Qt 4 dialogs,
+   which are a little bit nicer (in linux).
+ * Ported aboutdialog.h and aboutdialog.cpp. This is the "About SMPlayer"
+   dialog. 
+   Note: the link at the bottom still doesn't work.
+ * Ported core.h and core.cpp. Only the Qt headers have been changed. 
+   It seems no other change is required.
+ * Ported infofile.h and infofile.cpp. Only the Qt headers were changed.
+   This class creates the info text you can see in Options->View info and
+   properties (Information tab).
+ * Ported desktopinfo.h and desktopinfo.cpp. Only the Qt headers were needed
+   to change.

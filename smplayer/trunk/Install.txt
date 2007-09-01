@@ -1,0 +1,173 @@
+This document explains how to compile and install smplayer.
+
+Compiling smplayer should be easy. It only depends on Qt. Since version
+0.5.40 it can only be compiled with Qt 4.2 or greater.
+
+*******************************************************************************
+NOTE: the rest of the document is not updated yet. So please read only
+how to compile it with Qt 4. Also compilation with KDE support is not possible
+(all KDE code has been removed, so there'll be no difference at all)
+*******************************************************************************
+
+First I'll explain how to do it in Linux. After that there's how to do it
+in Windows.
+
+1) Compiling with Qt 3
+2) Compiling with Qt 4
+3) Differences between Qt 3 and Qt 4
+4) Compiling with Qt 3 + KDE 3 support
+5) Changing installation path
+6) How to make a rpm package
+7) How to make a deb package
+8) How to compile in Windows
+
+
+1) Compiling with Qt 3
+----------------------
+UPDATE: this section is obsolete.
+
+Be sure you have installed the Qt 3 development package. Its name maybe
+qt3-devel, libqt3-dev or something similar.
+
+Uncompress the source code, open a console (konsole or similar) and cd
+to the smplayer-0.5.x directory. Type "make". That's it.
+If compilation fails, be sure QTDIR points to the right path.
+
+To install it, type: "make install". That will install smplayer in
+/usr/local.
+
+You may run it without install it if you want to. It won't find the 
+translation files and other required files, but you'll be able to take a 
+look at it before installing.
+
+To uninstall it, just type "make uninstall".
+
+
+2) Compiling with Qt 4
+----------------------
+smplayer is being developed with Qt 3, but it's possible to compile it with
+Qt 4.
+
+Be sure you have installed the Qt 4 development package. Its name maybe
+qt4-devel, libqt4-dev or similar. Some distros have a separate 
+qt3support package, install it too.
+
+Uncompress the source code, open a console (konsole or similar) and enter
+in the smplayer-0.5.x directory.
+
+Type "make". With a little bit of lucky, that's all.
+
+But it may fail. Don't worry.
+
+If it fails it is probably because the Qt 3 qmake has been used instead of
+the Qt 4 one. It seems that some distros (ubuntu for example) have renamed that
+tool to qmake-qt4. Others may have installed in another directory.
+Look at the contents of the qt4-devel package (or whatever its name is) and
+find out where it is.
+
+Now type something like this (just examples):
+make QMAKE=qmake-qt4
+or
+make QMAKE=/usr/share/qt4/bin/qmake
+
+Once it is compiled you can install it with "make install". That will install 
+smplayer in /usr/local.
+
+
+3) Differences between Qt 3 and Qt 4
+------------------------------------
+UPDATE: this section is obsolete.
+
+You may be wondering if smplayer will have any difference if it is compiled
+with Qt 3 or Qt 4. smplayer is basically a Qt 3 application, so differences 
+are very small but there are a few. 
+
+smplayer compiled with Qt 4 has an option to dock the application in the
+system tray (requires Qt 4.2). Anyway it's possible to have this feature
+too with Qt 3, if compiled with KDE support.
+
+The way of changing key shortcuts is different (it's easier with Qt 3). 
+Please read Configurable_shortcuts.txt.
+
+
+4) Compiling with Qt 3 + KDE 3 support
+--------------------------------------
+UPDATE: this section is obsolete.
+
+smplayer only needs Qt 3 to work, but additionally you can compile it with
+KDE support. There will be two differences: the KDE open dialogs will be used
+instead of the Qt ones, and there will be an option to allow you to dock
+the application in the system tray.
+
+Of course you will need the KDE development package installed.
+
+Instead of just typing "make" you'll have to type "make KDE_SUPPORT=1". The 
+Makefile will try to find the KDE include and lib directories. If it fails
+you can pass them in the command line. Example:
+
+make KDE_SUPPORT=1 KDE_INCLUDE_PATH=/opt/kde3/include KDE_LIB_PATH=/opt/kde3/lib
+
+
+5) Changing installation path
+-----------------------------
+By default smplayer will be installed in /usr/local. You can change it by
+using PREFIX and DESTDIR.
+
+Examples:
+make PREFIX=/usr
+make PREFIX=/usr install
+
+That would install smplayer under /usr.
+
+DESTDIR will be useful for package maintainers.
+
+make PREFIX=/usr
+make PREFIX=/usr DESTDIR=/tmp/ install
+
+That would compile smplayer for /usr but in fact it will be installed in
+/tmp/usr/
+
+
+6) How to make a rpm package
+----------------------------
+Maybe there is an easier way, but this is how I do it (SuSE 9.2):
+Copy the file smplayer-0.5.x.tar.gz to /usr/src/packages/SOURCES/ (or just 
+make a link)
+Copy the file smplayer.spec from the sources to /usr/src/packages/SPECS/
+Go to /usr/src/packages/SPECS/ and type "rpmbuild -bb smplayer.spec"
+After the compilation, the *.rpm will be in /usr/src/packages/RPMS/i586/
+
+
+7) How to make a deb package
+----------------------------
+First of all be sure you have the package fakeroot installed.
+Enter in smplayer-0.5.x. If the directory debian/ doesn't exists, rename
+debian-rvm to debian.
+Now type "dpkg-buildpackage -rfakeroot".
+The deb package will be created in the parent directory.
+
+UPDATE: the easy way to create a a deb package is just to run the script
+create_deb.sh.
+
+
+8) How to compile in Windows
+----------------------------
+You need Qt for windows. Go to 
+http://www.trolltech.com/developer/downloads/qt/windows and download 
+qt-win-opensource-4.2.3-mingw.exe (about 50 MB). Install it.
+
+During installation it will ask you for mingw, check the option to download 
+mingw.
+Now uncompress the package smplayer-0.5.x.tar.gz wherever you want (*.tar.gz
+files can be opened with Winrar, Winzip or 7z, for example).
+
+Now go to Start -> Programs -> Qt by Trolltech v4.2.3 (Opensource) and select
+Qt 4.2.3 Command Prompt.
+
+UPDATE:
+Now type there "cd c:\smplayer-0.5.x\" (or wherever you uncompressed it)
+
+Now type "compile_windows.bat". That will start the compilation, it should take 
+a few minutes. After that you'll have a smplayer.exe under the src/release/ 
+subdirectory.
+

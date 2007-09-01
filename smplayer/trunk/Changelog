@@ -1,0 +1,2002 @@
+[b]Version 0.5.48[/b]
+ * Updated the Russian and Japanese translations.
+ * Now smplayer will also look for icon themes in $HOME/.smplayer/themes. 
+   In the case a theme is both in the user directory and the system directory
+   (usually /usr/share/smplayer/themes) it will look first in the user
+   directory. If the icon is not there then it will look in the system
+   directory.
+ * Under linux the buttons for color selection (Preferences->Subtitles) now
+   look better.
+
+[b]Version 0.5.47[/b]
+ * Updated the Russian, German, French and Romanian translations.
+ * Now the helping messages (for -help) are formated automatically by a 
+   function, making easy to translate these messages. I apologize for 
+   yesterday's madness. As compensation I have adapted myself the translations
+   I received today.
+   There's nothing more new in this version, but I release it so other 
+   translators don't go crazy.
+
+[b]Version 0.5.46[/b]
+ * Added the option -playlist for command line. This option should be
+   prepended in front of a filename (URL or whatever). This option will make
+   mplayer to treat the file as a playlist. This option has nothing to do 
+   with smplayer's playlist! In fact smplayer won't have any control over
+   the playlist at all. For smplayer it will just be like a single file.
+ * Added the option -help for command line. It will show a helping message.
+   BTW, the translators will have a challenge, as keeping the formating
+   is not easy. (Take a look at the Spanish translation).
+ * Added the option -close-at-end command line. The main window will be
+   closed when the file/playlist finishes.
+
+[b]Version 0.5.45[/b]
+ * Updated the Ukrainian and German translations.
+ * The playlist check in the open URL dialog works. If checked the option 
+   -playlist will be added to the mplayer command line. (Internally some text
+    will be appended to the URL, so smplayer can recognize it. This may seem
+    ugly (and it is) but allows to add the URL to a playlist or to the recent
+    files menu, and it will still work).
+ * Added an icon to the open URL dialog (url_big.png).
+ * Added two options for the config file: [i]enable_audiocd_on_windows[/i] and
+   [i]enable_vcd_on_windows[/i]. It seems that mplayer on Windows doesn't have
+   support for VCDs and Audio CDs (at least not the build supplied with 
+   smplayer). Setting these options to "true" will enable the entries in the
+   open menu.
+
+[b]Version 0.5.44[/b]
+ * Updated the Polish, German and French translations.
+ * When trying to stop a video, the mplayer process will be killed if it
+   doesn't finish within 3 seconds.
+ * New dialog to enter a URL (the playlist check doesn't work yet).
+ * Don't load actions from playlist to the actions' editor as it seems
+   they are already there from the main window (in Qt 4.3 they appear twice).
+
+[b]Version 0.5.43[/b]
+ * Updated the Italian translation.
+ * Small fix for Windows in the fullscreen code.
+ * Removed the "&" characters in the description of the actions in the
+   actions' editor.
+ * Using less deprecated functions.
+
+[b]Version 0.5.42[/b]
+ * Serious bug: a lot of actions were missing in the actions' editor. Fixed.
+ * More improvements with the playlist embedded in the main window: now it
+   should be properly hidden/shown when toggling compact and fullscreen mode, 
+   and when clicking on the systray icon. Also the playlist button in toolbar
+   (and menu) should be updated when the playlist is closed by clicking
+   on its close button. But you'll see that now the main window is not
+   resized when the playlist is shown or hidden. I left this problem for the
+   end (it's not trivial). Anyway you can press CTRL-1 to force a resize.
+   This code is not compiled by default yet. If you want to see it, 
+   change the value of DOCK_PLAYLIST to 1 in config.h before compiling.
+
+[b]Version 0.5.41[/b]
+ * Updated the Ukrainian and Russian translations.
+ * Fixed the problem with the Video->Size menu. All options will work now
+   no matter of the previous selection.
+ * Some changes in Install.txt, just to mark some obsolete sections and
+   make clear that it can only be compiled with Qt >= 4.2.
+
+[b]Version 0.5.40[/b]
+ * Ported to Qt 4. Easy to say but it took almost 2 months, and it's not
+   completely finished yet (still using some deprecated functions).
+
+ Some other changes since version 0.5.21 (for details read the Porting_log):
+
+ * Now the option "Don't repaint the video background" is checked by default
+   in linux.
+ * Created the file create_deb.sh, specially for Ubunty users. If you run it,
+   it would create a deb package.
+ * Added a bat file (compile_windows.bat) to make easier the compilation in
+   windows.
+ * New button in the preferences dialog: Help. It will display some help
+   about the options in the current section.
+ * Now the configuration file will be in $HOME/.smplayer/smplayer.ini and 
+   $HOME/.smplayer/screenshots will be used as the default directory to
+   save the screenshots.
+ * Bug fix: now the info about the demuxer, audio and video codec are updated
+   after a restart of the mplayer process.
+ * Fix: now reading the info about video, audio drivers, codecs and demuxers
+   is done in a language independent way (it looks for tags like
+   "ID_VIDEO_OUTPUTS" instead of English text).
+ * Now changing a key shortcut in the actions' editor is much easier. Now you 
+   double click or press enter on a shortcut (you can do it in any column)
+   and a dialog will appear to ask you for the new shortcut. In this dialog
+   you press the key or combination of keys that you want to assign to the
+   shortcut. If you want to delete, just click on the Clear button.
+   Note: this has been done by using some code from Edyuk 
+   (http://www.edyuk.org)
+ * By user request: added a new option in Preferences->Interface: 
+   Change volume on every file. If checked SMPlayer will remember the
+   volume of every file, and will be restored when played again. For new
+   files the default volume will be used. That was the normal behavior until
+   now. The new thing is if you uncheck it. In this case SMPlayer will never
+   change the volume when a file is loaded. Problem: on startup SMPlayer 
+   won't know the current volume value, the volume slider will be wrong.
+ * New option for command line that I think it could be very useful: -action
+   This option passes the specified action to an already running instance.
+   For instance, you're watching a video in smplayer, then you type:
+   [i]smplayer -action pause[/i] and the video will be paused.
+   [i]smplayer -action fullscreen[/i] will toggle the video to fullscreen.
+   This will allow to control smplayer with a remote control.
+   You can see a list of all available actions in "Preferences->Keyboard and
+   mouse". Under the "Name" column in the shortcut editor you've got all 
+   action's names.
+   When using -action all other parameters (except ini-path) are ignored.
+   So it you want to open a movie and enter in fullscreen, this is NOT valid:
+   [i]smplayer movie.avi -action fullscreen[/i]
+   But you can do it in two steps:
+   [i]smplayer movie.avi[/i]
+   [i]smplayer -action fullscreen[/i]
+   The exit code will be 0 if the -action option is successful and -1 
+   if there's an error.
+ * In Windows, along with the screensaver, the monitor power off will be
+   disabled too.
+ * (By user request) Added a new option in Preferences->Interface: 
+   "Remember position and size" (of the main window). Checked by default.
+ * (By user request) Added two new optins in Preferences->General->Video & audio:
+   "Direct rendering" and "Double buffering".
+ * Changed the behavior of "Use postprocessing" and "Volume normalization"
+   in Preferences->General. Previously if you check "Use postprocessing" for
+   instance, then all videos will use postprocessing, no matter of the
+   setting in Video->Filter->Postprocessing. Now this specifies the
+   default setting for new videos. If checked, all new videos you open
+   will have the option Video->Filter->Postprocessing enabled but you
+   [b]can[/b] disable it if you want. Previously this wasn't possible.
+   I think this behavior is more consistent.
+ * Almost all options in menus can have a shortcut.
+ * Now the maximum value for volume is 100 instead of 99.
+ * Recent files menu: now if the list is empty the submenu won't appear. 
+   You can also set the max. number of items in the list to 0 in 
+   Preferences->Interface.
+ * Compilation time has been reduced.
+
+[b]Version 0.5.21[/b]
+ * Updated the Brazilian Portuguese translation.
+ * Moved the video and audio sections in Preferences->General to a new
+   tab, and moved also the font section in Subtitles to another tab, to
+   try to make the preferences dialog smaller.
+
+[b]Version 0.5.20[/b]
+ * Updated the German, Ukrainian, Portuguese and Romanian translations.
+ * Now it will exit from compact mode before playing an audio file. Otherwise
+   the GUI would not have any menus or buttons at all.
+ * Temporary fix: in playlist, the latest_dir won't be changed when adding
+   multiple files, to avoid that wrong paths with dvd:, vcd:... could be 
+   used. 
+
+[b]Version 0.5.19[/b]
+ * Updated the German and Polish translations.
+ * (Windows) The priority of the SMPlayer process is changed accordingly
+   to the priority of MPlayer (SMPlayer will try to run with higher priority).
+   Note: not much tested.
+ * As a lot of people have complained, I changed "Brazilian Portuguese" and
+   "Portuguese from Portugal" to "Portuguese - Brazil" and 
+   "Portuguese - Portugal".
+
+[b]Version 0.5.18[/b]
+ * Updated the Russian translation.
+ * Added support for audio CDs (only tested with one disc) so please 
+   test yourself and report problems. Test also if VCD and DVD still work
+   properly.
+   Note: I don't know if this option will work on Windows, I never
+   could play an audio CD with the Windows version of MPlayer.
+
+[b]Version 0.5.17[/b]
+ * Updated the Brazilian Portuguese, Slovak, Ukrainian, German and 
+   Portuguese from Portugal translations.
+ * Now QCoreApplication::arguments () will be used to read the arguments from
+   command line if Qt > 4.1. On NT-based Windows this should allow the program 
+   to get the right characters if the filename contains characters from other
+   alphabets. 
+
+[b]Version 0.5.16[/b]
+ * Updated the Ukrainian and Polish translations.
+ * Added two new translations: Romanian and Portuguese from Portugal.
+
+[b]Version 0.5.15[/b]
+ * Updated the Russian, Italian, Swedish, German, Ukrainian, Polish and
+   Simplified-Chinese translations.
+ * (By user request) Added an option in Preferences->General to enable the 
+   postprocessing filter for all videos.
+
+[b]Version 0.5.14[/b]
+ * Updated the Swedish, Ukrainian and Polish translations.
+ * I think for volume normalization it's best to have a global option, so
+   I added a volume normalization option in Preferences->General. If checked
+   the volnorm filter will be used for all files.
+ * Added an option in Preferences->General to set the maximum amplification
+   level for softvol. By default 110. Valid range 10-10000.
+
+[b]Version 0.5.13[/b]
+ * Updated the Ukrainian, German and Polish translations.
+ * (By user request) Now the mouse wheel can be configured to zoom the video
+   (Preferences->Keyboard and mouse->Mouse).
+   Note: compatibility couldn't be kept, if you have previosly changed the 
+   behavior of the mouse wheel you'll need to change it again.
+ * Now the options in the menu Video->Size will always be executed even if the
+   option is already selected. Useful if you resized the window. Also added
+   shortcuts for Size->100% and Size->200% (Ctrl+1 and Ctrl+2) and I'm very
+   sorry but these shortcuts can't be changed (and these shortcuts will only
+   work if the menu is visible).
+ * (By user request) Added the option Audio->Filters->Volume normalization.
+   Note: this option only affects the current file, if you want the filter 
+   to be used for all files add "volnorm" to the audio filters field in 
+   Preferences->Advanced.
+ * (By user request) Clicking in the system tray icon with the mouse middle
+   button pauses/unpauses the file.
+ * Now tooltips for QActions are explicitly created, to try to work around 
+   a bug in Qt 4.3.
+
+[b]Version 0.5.12[/b]
+ * Updated the Swedish, German and Ukrainian translations (although changes
+   I've just made could have broken them...)
+ * Reorganized a little bit the preferences dialog, by using several tab
+   widgets. This prevents that sections grow to much.
+ * Better explained the "MPlayer language" section (I hope) and added
+   regular expressions for Spanish, Italian, German and French in the 
+   comboboxes, taken from the MPlayer translation files (completely
+   untested!).
+
+[b]Version 0.5.11[/b]
+ * Updated the Ukrainian and German translations.
+ * Shortcuts for previous and next items in playlist didn't work in main
+   window. Fixed.
+ * Added an option in Preferences->Subtitles to use the new -subfont option
+   in MPlayer. In the future SMPlayer will try to autodetect when this option
+   is needed.
+ * Added in Preferences a new section: MPlayer language, where the user can
+   change some of the texts that SMPlayer looks for. Intended in case that 
+   MPlayer displays its messages in another language. (Unfortunately MPlayer
+   can't change language at runtime).
+
+[b]Version 0.5.10[/b]
+ * Moved the denoise submenu inside the video filter menu.
+ * (By user request) Added the option "AC3/DTS pass-through S/PDIF" in 
+   Preferences->General. It will simply add "-afm hwac3" to the command line.
+ * Renamed "Yadif (mode 0)" to "Yadif (normal)", and "Yadif (mode 1)" to
+   "Yadif (double framerate)".
+
+[b]Version 0.5.9[/b]
+ * Updated the Swedish, German, Ukrainian and Polish translations.
+ * The application was probably getting the wrong screen resolution if 
+   a virtual desktop was enabled. I hope this is fixed now.
+
+[b]Version 0.5.8[/b]
+ * Updated the Italian, Simplified-Chinese and Swedish translations.
+ * Added two new options in the Video->Deinterlace menu: kerndeint and
+   yadif (mode 1). The latter option should give a much more fluid motion than
+   the normal yadif option, but you need a really fast computer, as this
+   option uses a lot of CPU.
+   Some videos require to change the field dominance to work properly, so an 
+   option for this will be added in the future. Meanwhile you can pass the
+   option -field-dominance to mplayer if you need it.
+
+[b]Version 0.5.7[/b]
+ * Added *.ac3 to the list of audio filters in the open dialogs.
+ * On startup, if the previous height of the window is less than 200, then
+   the window is resized to the default size.
+ * Updated the Polish and German translations.
+ * Updated the instructions to make a deb package in Install.txt.
+
+[b]Version 0.5.6[/b]
+ * Updated the German and Ukrainian translations.
+ * Changed the buttons in the floating control from QPushButtons to 
+   QToolButtons.
+ * Added an option in Preferences to enable or disable the cache.
+   (Cache could be disabled by setting it to 0, but this is clearer).
+   The cache is [b]disabled[/b] by default, as it seems this option 
+   causes some trouble with some video formats. As a side effect now
+   videos start to play faster.
+
+[b]Version 0.5.5[/b]
+ * Added in the audio menu an option to load an external audio file (and 
+   another one to unload it). This allows to watch movies on which the
+   audio track is in an external file (mp3, wav...).
+   Note: if you play the movie again later, you'll see two audio tracks
+   in the menus (the original one, and the external one), but changing
+   tracks doesn't work. Strange things may happen if you do it.
+ * Added the option "dont_use_eq_options" in the config file, ([preferences]
+   section). If set to true, smplayer won't pass the options -brightness,
+   -contrast, -hue, and -saturation to mplayer. It seems that some graphic
+   cards don't support them or have some kind of problem with them.
+ * Updated the German translation.
+ * Added an empty icon for gamma (to prevent this slider to be higher than the
+   rest).
+
+[b]Version 0.5.4[/b]
+ * The size of the floating control can be changed, editing the config file.
+   Option floating_control_width under the [default_gui] section. The value
+   is a percentage (100 = all screen width, 50 = half of the screen width).
+   By default, 100.
+ * The size and position of the main window will be remembered.
+ * (Qt 4) The balloon that remembers you that the program is already running
+   in the system tray will be shown only 5 times.
+
+[b]Version 0.5.3[/b]
+ * Updated the Polish and Russian translations.
+ * New fullscreen control widget, smaller than the previous one. If using Qt 4
+   it's better not to use the CleanLooks style, its buttons are huge and look
+   awful in this widget.
+ * Fixed bug #1729705 (I hope). This has required a lot of changes, so other
+   bugs may appear.
+
+[b]Version 0.5.2[/b]
+ * Updated the German and Ukrainian translations.
+ * (Qt 4) Option Open->Close, now it exits from fullscreen mode before closing 
+   the window.
+ * Now most options in the subtitle menu are disabled if there's none subtitle 
+   selected.
+ * If the option Play->Repeat is enabled, files will start to play from
+   the beginning.
+ * (By user request) Now it's possible to choose the path of the ini file.
+   This is done by the -ini-path command line option. Example:
+   smplayer -ini-path /tmp
+   will try to read the configuration from /tmp/smplayer.ini.
+   The path is optional, if none is passed then it will use the application
+   path, so "smplayer -ini-path" will read the configuration from smplayer.ini
+   in the application path.
+   This feature requires Qt 4. The option -ini-path (and the optional argument)
+   will be ignored if compiled with Qt 3. This option won't work either with
+   KDE support (and in this case you'll get an error if you try to use the
+   -ini-path option).
+ * Assigned the keys F5 and F6 for show_main_toolbar and show_language_toolbar,
+   and updated shortcuts/default.keys with the new keys.
+
+[b]Version 0.5.1[/b]
+ * Updated the Traditional Chinese and Bulgarian translations.
+ * Now the title bar shows "file name - SMPlayer", instead of 
+   "SMPlayer - file name".
+ * MPlayer can be compiled to display its texts in another language, but 
+   SMPlayer requires the texts to be in English. Unfortunately it's not 
+   possible to change the MPlayer language without recompiling. This is a 
+   problem. As a work-around I've made some of the internal regular expressions 
+   configurable (by editing the config file).  
+   rx_endoffile should specify the text that MPlayer outputs when a file has
+   arrived to the end (by default "^Exiting... \\(End of file\\)"). If SMPlayer
+   fails to catch this text, the playlist won't work properly.
+   rx_novideo should specify the text that MPlayer outputs when a file has
+   no video, by default "^Video: no video". If SMPlayer fails to catch this 
+   text, the video window won't be hidden when playing sound files.
+   There are other English texts which SMPlayer looks for, but they are far
+   less important (most of them are just simply displayed on the status bar).
+ * (By user request) Created an action to change the window from normal size 
+   to double size and vice versa (this new action doesn't appear in any of the 
+   menus, it's handled by a key shortcut, by default CTRL+D).
+   The best way would be to add key shortcuts to all Video->Size suboptions,
+   but it's not possible for the moment (I actually can add shortcuts but 
+   they won't be configurable).
+ * It seems that it's not a good idea to have the debian subdirectory in the
+   sources, as it can conflict with the one made by package maintainers.
+   As a quick solution, for now I've just renamed it to debian-rvm. If you want
+   to create a deb package with dpkg-buildpackage, just rename it back to 
+   debian.
+
+[b]Version 0.5.0[/b]
+ * Updated the Italian, German and Ukrainian translations.
+
+[b]Version 0.4.30[/b]
+ * Updated the Japanese and Serbian translations.
+ * Added the Traditional Chinese translation.
+ * debian/control: now depends on mplayer | mplayer-nogui
+ * Install.txt: explained how to create a deb package.
+
+[b]Version 0.4.29[/b]
+ * Fixed bug #1725272 (the LCD in the floating control didn't show the hours).
+ * Added the debian subdirectory (created in a kubuntu 7.04). This way it's
+   possible to create a deb package.
+ * Updated the German and Ukrainian translations.
+
+[b]Version 0.4.28[/b]
+ * Written the documents Install.txt and Release_notes.txt, and updated
+   Readme.txt.
+ * Updated the Polish translation.
+ * Added the Serbian translation.
+
+[b]Version 0.4.27[/b]
+ * Applied patch to fix bug #1703280.
+ * Now the tooltip in the system tray icon should display the same as the window
+   title.
+
+[b]Version 0.4.26[/b]
+ * Updated the Ukrainian, German, Polish, Dutch, Chinese and Turkish 
+   translations.
+
+[b]Version 0.4.25[/b]
+ * Not providing a default for SSA/ASS style override, as this setting may
+   affect real SSA/ASS subtitles. Added a "whatsthis" help for this field.
+ * Now DESTDIR is used in the Makefile to select the installation directory, 
+   and changed the smplayer.spec to use it.
+ * Updated the Ukrainian and German translations.
+
+[b]Version 0.4.24[/b]
+ * Updated the Italian and Polish translations.
+ * Added support for SSA/ASS style override (-ass-force-style option in 
+   mplayer). As there are a lot of options for styles, I just simply added a 
+   line edit so you can enter the styles you want. This option may be very 
+   useful with srt/sub files when using the SSA/ASS library, as subtitles may 
+   look much nicer.
+   By default, it will use "Bold=1,Outline=2,Shadow=2" which provides a 
+   nice black shadow.
+   Info about these styles can be found at:
+   http://www.perlfu.co.uk/projects/asa/ass-specs.doc (look at chapter 5)
+
+[b]Version 0.4.23[/b]
+ * Updated the Turkish, German, Ukrainian, Swedish and Polish translations.
+ * Moved all translations to a subdir: src/translations.
+   And if TRANSLATION_PATH is not defined on compilation, smplayer will look
+   for translations in application_path/translations/ (this is intended for 
+   Windows).
+ * Changed the default colorkey to 0x020202 (this really was the old colorkey).
+ * Made the colorkey field in preferences editable, so there's two ways to
+   set the colorkey: typing it yourself or selecting a color in the color
+   dialog. Warning: currently no check is performed on the typed value. If
+   the value is invalid it would return 0 (black).
+   The value must be in hexadecimal, this way: #RRGGBB, where RR, GG
+   and BB are the red, green and blue components of the color.
+
+[b]Version 0.4.22[/b]
+ * Updated the German translation.
+ * (Playlist) After removing the selected items, it tries to keep the cursor 
+    on the same row it was before (previosly the cursor was always moved to 
+    the 1st row).
+ * Made the rest of actions translatable.
+ * Added an option in the preferences dialog (subtitles tab) to select the
+   default position of the subtitles. 100 means the bottom of the video window
+   while 0 mean the top.
+ * The colorkey is configurable now. Preferences->Advanced.
+
+[b]Version 0.4.21[/b]
+ * Updated the Turkish translation.
+ * Parses the StreamTitle line from Shoutcast streams, and displays it in the
+   info window and title bar.
+
+[b]Version 0.4.20[/b]
+ * Updated the Japanese, Czech, Polish, Italian and Chinese translations.
+ * Floating control: don't assume that in fullscreen mode the screen starts 
+   at 0x0 (it might be on a 2nd monitor). This may fix the problem on which the
+   floating control may show on the wrong monitor. 
+ * Playlist: the playlist is now only marked as "modified" only when changed
+   by the user (and not when smplayer adds items to it, for instance, the
+   files loaded from command line).
+ * (By user request) New option in preferences (config file only): 
+   initial_panscan_factor. It specifies the default zoom value all new videos 
+   will have (by default 1.0).
+
+[b]Version 0.4.19[/b]
+ * Updated the German and Russian translations.
+ * Changed the colorkey. The one in 0.4.18 didn't work on Windows with
+   directx.
+ * Added a system tray icon if compiled with Qt 3 and KDE support.
+
+[b]Version 0.4.18[/b]
+ * Updated the Swedish, German and Ukrainian translations.
+ * Qt 4: now the time and volume sliders should work better. Previously
+   it wasn't easy to drag the slider's handle if it was bigger than usual.
+   Now the actual size of the handle is taken into account so dragging should
+   work as expected.
+
+[b]Version 0.4.17[/b]
+ * Updated the Ukrainian, German, Russian, Polish and Bulgarian translations.
+ * Added the Swedish translation.
+ * Now you can open several files through command line: 
+   smplayer video1.avi video2.avi music.mp3
+   or
+   smplayer *.mp3
+   The first file will be opened by a function which is able to handle *.m3u
+   files and directories. The rest will simply be added to the playlist.
+   As this feature has required important changes, it might have introduced bugs.
+   Report if you notice something strange.
+ * Fixed a bug in the playlist. The first item played wasn't marked sometimes 
+   as played.
+
+[b]Version 0.4.16[/b]
+ * Updated the Chinese and Russian translations.
+ * Added support for the sub_step command (in the Subtitles menu). This allow 
+   you to move to the previous or next subtitle line in the subtitle files. 
+   It can help you to synchronize the subtitles.
+   Note: this setting is not saved, reasons: 1) if you need to use these 
+   options maybe it's because the subtitle file has a serious sinchronization 
+   problem and you'll probably have to adjust the subtitles several times, 
+   2) it's not easy to do it.
+ * At last the "+10 seconds", "+1 minute"... options in the menus show the
+   actual time to jump (if you modified the default values in preferences).
+
+[b]Version 0.4.15[/b]
+ * Updated the Italian translation.
+ * Server commands: the playlist functions now work with Qt 4.
+ * The function of the mouse buttons are configurable again. With this smplayer
+   retrieves all functionality from 0.4.7.
+
+[b]Version 0.4.14[/b]
+ * Updated the Polish, Ukrainian and German translations.
+ * The function command in server should work again. If you don't know
+   what I'm talking about, do "telnet localhost 8000" (or the port configured 
+   in preferences) and type "list functions". This feature allows to control
+   smplayer remotely. Note: I've just realized that the playlist functions
+   currently don't work if using Qt 4.
+
+[b]Version 0.4.13[/b]
+ * Updated the German, Russian and Chinese translations.
+ * Added the Turkish translation.
+ * Actions editor: checking for conflicts, now it will only beep due to
+   conflicts after editing a shortcut. This prevents beeps when entering
+   in the preferences dialog, which can be confuse for the user.
+ * Actions editor: now it will display error message if the key shortcut
+   file can't be saved or loaded.
+ * Actions editor: Shortcuts are shown left aligned.
+ * I spent some time writing a widget which would allow to enter a shortcut
+   just pressing the key (or combination of keys), instead of typing it.
+   I took some code from qt-3 designer, and yes, it works pretty well.
+   But at the end I'm not using it... it doesn't work well with qt 4 (some
+   keys can't be entered, like Tab or the cursors). And moreover with qt 3
+   it isn't really possible to enter all keys. For instance with a Spanish 
+   keyboard it seems impossible to enter the key ">".
+   But in case you want to try it yourself, edit the file actionseditor.cpp and
+   change the line 
+   #define USE_KEYCHOOSER 0
+   to
+   #define USE_KEYCHOOSER 1
+
+[b]Version 0.4.12[/b]
+ * The actions editor is now in the preferences dialog.
+ * Now smplayer will look for icons in a directory named "themes" instead
+   of "icons" (defined with THEMES_PATH in Makefile). This is because in the 
+   future there might be more things besides icons. 
+ * smplayer will look for key shortcuts files in a directory named "shortcuts"
+   (SHORTCUTS_PATH in Makefile).
+ * Updated the German, Russian and Ukrainian translations.
+
+[b]Version 0.4.11[/b]
+ * Fixed a bug in actions editor: default shortcuts were lost on first run.
+   If you used 0.4.10 edit the config file and delete the [actions] section.
+ * More improvements in actions editor. Now it's possible to save the actions
+   to a external file, and load it. It also checks for conflicts (the same
+   shortcut assigned to other actions).
+ * Removed the src/icons directory. Icons will be in another package 
+   (and current Makefile is broken, don't try "make install").
+
+[b]Version 0.4.10[/b]
+ * Actions editor: now the actions are saved and loaded to the config file.
+
+[b]Version 0.4.9[/b]
+ * Fixed a segfault when selected Open->Quit (Qt 4).
+ * Using UTF-8 for all QTextStreams in server.cpp and client.cpp.
+ * Updated the Russian, Ukrainian, Chinese, Polish, Dutch and Italian 
+   translations.
+ * More improvements on the actions editor. Better code for Qt 4, and 
+   now it shows the icon and name of the action, along with the description.
+   The actions editor is far to be finished so it's hidden. If you want to see 
+   it, press G. You can change the shortcuts by double clicking in the 
+   shortcuts cell. The new shortcuts you define will work for the current
+   session, but they won't be saved.
+
+[b]Version 0.4.8[/b]
+ * Updated the German translation.
+ * Using now QActions for all key shortcuts.
+ * Started to write the actions editor.
+
+[b]Version 0.4.7[/b]
+ * Updated the Polish, German, Ukrainian and Italian translations.
+ * As the panscan feature seems to work well, even in Windows, I added 
+   a new submenu "Panscan" in the Video menu. The videos should also remember 
+   the zoom value.
+
+[b]Version 0.4.6[/b]
+ * Experimental pan&scan feature. It's possible to move the video window
+   (left, right, up and down) and also zoom it. You increase zoom with key
+   "E" and decrease with "W". You can move the window with ALT + cursor keys.
+   This is experimental, just to test if this can be done. The settings
+   are not saved anywhere, in fact resizing the window resets all values
+   to the defaults. 
+   Note: the zoom affects the OSD too, including subtitles.
+
+[b]Version 0.4.5[/b]
+ * The fix in 0.4.4 actually brokes smplayer on Windows. The video disappears
+   when the video is resized. So now this is an option that can be enabled
+   or disabled (Preferences->Advanced, Don't repaint the background of the 
+   video window). This option is Off by default, as it works well in linux 
+   with Qt 3 and on Windows with Qt 4. If you use Qt 4 on linux and have the 
+   problem mentioned in the 0.4.4 changelog, you may check this option and see
+   if it helps.
+
+[b]Version 0.4.4[/b]
+ * Updated the Slovak, German, Ukrainian and Polish translations.
+ * A very important fix (at least for me). Now when the main window is
+   resized the video should not flicker at all (I made this specially for
+   Qt 4, where the flicker was very annoying, but at the end the result is
+   much better with Qt 3). The most important is that this fixes a repaint
+   problem with Qt 4. Sometimes the video window got black (totally or 
+   partially) when closing another window (or menu) that was over it (I could
+   reproduce it by entering in the preferences dialog, and changing the 
+   language).
+   I don't know if someone else had this problem (I didn't get any report
+   about it), but it happened to me and it was really annoying. Now this
+   is FIXED!!!
+
+[b]Version 0.4.3[/b]
+ * On startup the toolbars always appeared even if they were hidden in the
+   previous session. Fixed (I hope).
+ * Changes in playlist: now if the playlist has been changed, it will ask you
+   to save it before loading a another playlist. It will also ask you if
+   you try to open a dvd or vcd, because that clears the playlist.
+   It won't ask you when you close the application, because the current
+   playlist is saved to the config file and so it will retrieved on startup.
+ * Merged the info window and advanced file settings in one thing: 
+   "View info & properties".
+ * Updated the German translation.
+
+[b]Version 0.4.2[/b]
+ * If in compact mode, on startup the toolbars were visible. Fixed.
+ * Some improvements on the playlist docked in the main window, but there
+   are still some issues. I'm afraid this can't be completely fixed until the 
+   application is ported to Qt 4.
+
+[b]Version 0.4.1[/b]
+ * Updated the Chinese, Russian, Italian, German, Ukrainian and Polish
+   translations.
+ * Some options in menus didn't update the name after a language change. Fixed.
+ * Some improvements in the tray icon: 
+    - If the main window is hidden, it will became visible just before playing 
+      a video. Now this works too with the (playlist) next and previous options. 
+    - The tray icon shows a tooltip with the name of the current file.
+    - Added two options to the context menu: playlist and preferences.
+ * The playlist saves to the config file the current playlist just before
+   quiting and loads again on startup.
+ * Renamed the Exit option to Close. If the system tray icon is not activated
+   then the Close option finishes the application. But if the system tray icon 
+   is activated then it just hides it. The Quit option always finishes the 
+   application, no matter if the tray icon is activated or not (the Quit 
+   option doesn't show if Qt < 4.2).
+
+[b]Version 0.4.0[/b]
+ Initially version 0.4.0 was to be released once the key shortcuts were
+ configurable. But as it seems it still takes some time for that, and 
+ considering that I've implemented some things actually planned for future
+ versions (VCD, system tray icon) I change to 0.4.0 now (even though I've just
+ implemented the system tray icon and it may have bugs).
+ Main objective for 0.5.0 is still configurable shortcuts, and I expect it to
+ be soon, very soon.
+
+ * More improvements in tray icon. Just test it. Remember that you need to
+   compile at least with Qt 4.2. I think this feature is now quite usable.
+   There's a known problem, though, the next and previous options in the
+   context menu don't force a show() in the main window. This is ok for music.
+   But if it's a video then the main window won't appear until you make
+   visible yourself.
+ * The main window only shows once on startup, that prevents that the main 
+   window can be seen for a little moment without toolbars.
+ * The width of the floating control can be configured (for now just by 
+   editing the configuration file, look for floating_control_width, the value is
+   the desired width in %, by default 75%).
+ * Now if you select Open->VCD and the cdrom device is not configured, a
+   warning will show and then the preferences dialog will open so you can
+   configure it.
+ * Disabled style switching again, because it crashes with Qt 4 (I find
+   Qt 4 more unstable than Qt 3...)
+ * Updated the Ukrainian and Bulgarian translations.
+
+[b]Version 0.3.45[/b]
+ * Updated the Ukrainian, German and Russian translations.
+ * Some improvements in the tray icon. Now it has a new context menu,
+   and it saves its state (mainly if the main window is visible or not) 
+   to recover it on startup. Unfortunately it doesn't work well if the
+   single instance option is activated.
+   And if you click on the close button the application will hide but it
+   will still running in the tray.
+
+[b]Version 0.3.44[/b]
+ * Added the Bulgarian translation.
+ * Updated the Polish translation.
+ * Qt 4: Made the repaint of the mplayer window more or less like Qt 3.
+   At least this seems to fix some small cuts in the audio when resizing.
+   But still the window is getting black after changing the language in
+   preferences. I don't know why.
+   Report if you find problems with this (more flickering than before or 
+   something).
+ * Started to implement the system tray icon. You need Qt 4.2 to see it.
+
+[b]Version 0.3.43[/b]
+ * Updated the Dutch translation.
+ * When DOCK_PLAYLIST is set 1, the playlist was always shown when exiting from
+   fullscreen, even if it was hidden previously. Fixed.
+ * Qt 4: now the time (and volume) slider go to the point you click on the bar.
+ * Windows: the playlist was always above the main window. This should be
+   fixed now. The VCD option in the Open menu is disabled, as mplayer in
+   Windows doesn't support VCDs yet. Anyway you can watch VCDs by opening the
+   *.dat files you'll see in the drive.
+ * STYLE_SWITCHING option in config.h activated by default now. This will
+   allow you to switch the Qt style at runtime (Preferences->Interface).
+   This option wasn't enabled by default because it seems it had some issues
+   (some colors might not be correct). Anyway I let you to test it.
+
+[b]Version 0.3.42[/b]
+ * VCD support has triggered a problem. If title #1 of a VCD (or DVD) can't
+   be played, the GUI doesn't get the info of the rest of titles (which
+   probably could be played). Now the application detects that case and
+   passes that info.
+ * Now when a VCD or DVD start to play, all titles are added to the playlist
+   (clearing all previous contents), so when a title finishes the next one 
+   will be played.
+ * I think those 2 previous things can improve DVD support. Because it seems
+   that a lot of people got confused when the first title of a DVD didn't
+   play, even thinking that smplayer can't play DVDs at all. Now if the
+   first title fails the 2nd will be played. Anyway I couldn't test this,
+   because I don't have any DVD which first title doesn't play.
+ * Added the option vcd_initial_title for preferences (this is a config
+   option, it's not in the preferences dialog yet). It specifies the
+   title number which should be played when you select Open->VCD. By 
+   default 2.
+ * And added support for VCDs in other parts of the code. For instance
+   the info window recognizes VCDs and displays a different icon for them.
+   Or you can play a VCD through command line: [i]smplayer vcd://3[/i] (will 
+   play title #3), or just simply [i]smplayer vcd:[/i] (which is the same
+   as selecting Open->VCD).
+ * Now the option Video->Aspect ratio->Autodetect will use the aspect
+   ratio of the mplayer window, instead of the file aspect rato. That makes
+   that some filters could work better. (Anyway I don't know if this could have
+   any secondary effect...)
+ * Renamed the icon them Test as Oxygen.
+
+[b]Version 0.3.41[/b]
+ * Updated the Hungarian translation.
+ * Started the VCD stuff. Now you can play VCD's. But... to implement this
+   feature I used a VCD created by k3b with 2 videoclips. mplayer reports
+   that there are 3 titles in the disc. The first one can't be played
+   (maybe it has control info or something), but that makes that smplayer
+   doesn't get the info about available titles. To "fix" it smplayer will
+   start to play all VCDs from title 2 (instead of 1) but of course I'm not
+   sure if it is safe to assume that all discs (in mplayer) start at title 2.
+   So if you have a lot of VCDs, please test. 
+   BTW, I think mplayer on Windows doesn't support VCDs...
+
+[b]Version 0.3.40[/b]
+ * Added a new icon theme "Silk" created by ilGaspa 
+   (http://www.phpbbplanet.com/smplayer/viewtopic.php?t=116)
+ * Added another icon theme "MacLike", by Charles Barcza.
+ * Updated the Ukrainian and German translations.
+ * Qt 4: The video equalizer lost its icons everytime an icon theme change was
+   made. Fixed.
+ * It seems that drag&drop didn't work with filenames with non-latin1 
+   characters if the drag was made from Konqueror. It seems the problem that
+   kde encodes the filenames using the current locale but Qt expects
+   to be in UTF-8. Now drag&drop from Konqueror should work but it's required
+   to compile smplayer with kde support.
+   Of course, if your system's encoding is UTF-8 then there's not problem at all.
+ * Tried to avoid the use of double slashes (/usr//share...) in paths. 
+
+[b]Version 0.3.39[/b]
+ * Updated the Czech, Polish, French, German and Spanish translations.
+ * KDE support fixes: now the embedded icons should show again. Now you
+   can pass a filename to open from command line.
+ * Changes in Makefile. if "make KDE_SUPPORT=1" doesn't work for you,
+   edit the Makefile and change the kde paths. 
+   You also can pass the paths through command line, example:
+   make KDE_SUPPORT=1 KDE_INCLUDE_PATH=/usr/include/kde
+
+[b]Version 0.3.38[/b]
+ * Moved most of the single instance stuff to another class (CSManager). That
+   simplifies the BaseGui code.
+ * Fixed an old bug. If the server which smplayer tries to connect to 
+   on startup doesn't respond anything, smplayer will wait and wait... 
+   forever. Now it waits 4 seconds, after that smplayer starts and reports 
+   to the user about the problem, and disables the single instance option.
+ * KDE dialogs: now the Qt filters are converted to the KDE format. Now
+   the KDE dialogs should work.
+ * Now you can compile smplayer with KDE support just by typing:
+   make KDE_SUPPORT=1
+ * Updated the Japanese, Russian and Czech translations.
+
+[b]Version 0.3.37[/b]
+ * Set the focus to video window after the user has selected an audio or
+   subtitle from the toolbar.
+ * Now the video should keep paused the when switching to fullscreen mode.
+ * Finally I could compile smplayer with kde support. Now smplayer can
+   show the kde open dialogs. But it seems that the filter parameter is not
+   fully compatible with the Qt dialogs, so some of the dialogs could be
+   useless. I'll try to fix it anyway. There are also other problems:
+   the embedded icons don't show, you'll have to use any other icon set.
+   And for some reason the application path is changed to /usr/bin so
+   smplayer could have problems finding its files.
+   If you want to test it, edit the smplayer.pro and look for "KDE_SUPPORT"
+   and uncomment the 3 lines (and change the kde paths...). I'll try to
+   make it easier in future releases. Ah, don't forget to compile with Qt 3.
+ * Updated the Polish translation.
+
+[b]Version 0.3.36[/b]
+ * Improved a little bit the new subtitles' code. If you're watching a
+   video with subtitles and you load a new subtitle file, smplayer will
+   try to keep using the same subtitle if it is still present (you may
+   think that it would better to select the subtitle from the file that
+   user has loaded, but it's impossible to know which one it is).
+   The same would happen if you unload the subtitle file, smplayer will 
+   try to keep the previous selected subtitle, if it's one of the available
+   subtitles. If it's not, the none subtitle will be selected.
+   On the other hand, if you load a subtitle file to a video which didn't
+   have any subtitle, then smplayer may select one subtitle, according to
+   the preferences settings (if subtitle autoload is activated, it will
+   select the first one or the user's preferred language if found).
+ * Now you can drag directories to the playlist. It will add all files
+   in it (it's not recursive, it won't add files in subdirectories).
+ * Now you can open DVD iso files. Just simply select the *.iso file
+   in the Open->File dialog. You can also drag it to the main window or
+   playlist. The file must have the extension iso to be identified. If the
+   image has another extension there's another way to open it, select
+   Open->DVD from folder. This dialog will only allow you to choose a
+   directory but you can type after it the filename.
+ * Updated the German and Georgian translations.
+
+[b]Version 0.3.35[/b]
+ * Almost all subtitle code has been rewritten. I think that now it's much
+   better. For instance, now you can load a idx/sub file and you'll be able 
+   to select among all languages that the file provides. You can have a 
+   mkv file with embedded subtitles, load an idx/sub file (or srt, sub...) 
+   and all subtitles will be available.
+   There's also a new option in the subtitles menu to unload the previous
+   subtitle file you might have loaded.
+   This new code is still under testing, and it could have bugs. If you
+   see something strange, please report.
+ * Updated the Ukrainian, Czech, Georgian, Polish, Russian and Chinese 
+   translations.
+
+[b]Version 0.3.34[/b]
+ * Updated the Dutch, Ukrainian, German, Polish and Italian translations.
+ * Added the Czech translation by Martin Dvořák.
+ * Some cosmetic changes: new about dialog, and now the language combo
+   in preferences displays the language name, along with the ISO code.
+
+[b]Version 0.3.33[/b]
+ * Changes in playlist: converted the buttons and menus to QAction's. This
+   has required to make the playlist a QMainWindow (it was a QWidget before).
+ * And added again the previous and next buttons to main window.
+ * Updated the German translation.
+
+[b]Version 0.3.32[/b]
+ * Updated the Russian and Polish translations.
+ * Added options to hide the toolbars (in the Options menu).
+
+[b]Version 0.3.31[/b]
+ * Created a new floating control widget. This time it's not a toolbar so
+   I hope that this finally fixes the problems with the floating control.
+
+[b]Version 0.3.30[/b]
+ * Updated the Polish, Hungarian and Chinese translations.
+ * Some people report that the control widget doesn't appear where it 
+   should but a little bit above the bottom. I tried to fix it by reparenting
+   the widget and changing the flags. It seems to work well with Qt 3, but
+   with Qt 4 it does really strange things: the widget is huge. Resize doesn't
+   work or crashed the program. So finally the code is disabled (even for
+   Qt 3). If you wanna to test it: edit the config.h and set 
+   REPARENT_CONTROLWIDGET to 1 (and recompile).
+
+[b]Version 0.3.29[/b]
+ * Updated the German translation.
+ * Fixed a crash when using Qt 4 with the new control widget.
+ * Now the control widget displays over the video, not moving it.
+ * You can now drag a subtitle file to the main window.
+ * Tried to use the kde open dialog, unsuccessfully.
+
+[b]Version 0.3.28[/b]
+ * Updated the German, Polish and Ukrainian translations.
+ * Updated the French translation by David <goondy@free.fr>
+ * Now the control widget is only one toolbar, but if it gets too small
+   it will replaced by another widget with less buttons. 
+
+[b]Version 0.3.21 - 0.3.27[/b]
+ * A lot of internal changes: now QAction's are used for most of the menus,
+   constants have been changed to enums. Due to the amount of changes it's
+   possible that something could have broken. Please test it, specially 
+   audio and subtitle selection, aspect ratio options, and well... everything
+   in the menus...
+ * The Gui class has been divided into BaseGui and DefaultGui. The intention
+   of this it to allow to create alternative GUI's easily (when I say GUI in 
+   fact I mean the main window). The DefaultGui is less than 300 lines of code.
+ * The new GUI has been written from scratch and it has some toolbars. This
+   GUI has been written today in a few hours and it's not finished yet.
+   Unfortunately the "controlwidget over the video" from previous releases
+   has not been implemented yet in this GUI.
+ * Updated the Italian, German, Hungarian and Russian translations.
+ * Added the Georgian translation.
+
+[b]Version 0.3.20[/b]
+ * Added new icon themes by Charles Barcza.
+ * Updated the German and Polish translations.
+ * The controlwidget over the video now it seems that works too with Qt 3,
+   so now it's activated by default. Please test it.
+ * The priority options in preferences are hidden too in Qt 4 (priority is
+   for Windows only).
+ * Removed the old fullscreen code.
+
+[b]Version 0.3.19[/b]
+ * Updated the Chinese, Ukrainian, Russian, German and Polish translations.
+ * It seems that some videos don't start at sec. 0 so now smplayer will
+   try to get the starting time and subtract that time from the current time.
+   That's need for the -ss option to work properly with those videos.
+ * Set some "buddies" in filepreferencesdialog so it can be used with the
+   keyboard.
+ * Some internal changes and small fixes.
+ * New compilation option in config.h: CONTROLWIDGET_OVER_VIDEO
+   If set to 1, the controlwidget will be shown in fullscreen
+   *over* the video (not moving the video) when the user move the mouse
+   to the bottom area of the screen.
+   Now if someone knows how to get rid of the KDE taskbar that appears at
+   the same time...
+
+[b]Version 0.3.18[/b]
+ * Icon sets: The logo didn't change in the title bar of some windows. Fixed.
+ * (Qt 3 only) Time slider: now the slider goes to the point the user has 
+   clicked on. The volume slider has the same behavior.  
+ * Now it's possible to choose a preferred language for subtitles. 
+   (Only tested with two mkv files).
+ * Added more "whatsthis" help in Preferences (Performance tab). Texts copied 
+   from mplayer manpage.
+ * Now the info window shows some icons, according to the media type 
+   (video, audio, dvd, url). I'm afraid these icons are not customizable.
+
+[b]Version 0.3.17[/b]
+ * Updated the Polish, German and Ukrainian translations.
+ * Added support for Qt 4 stylesheets. Now the icons sets, along with the
+   *.png files, can contain a file named "style.qss". If that file exists
+   smplayer will load it (the Test/ subdirectory includes one, based on a Qt 
+   example). This allows to change color, size, style... of all Qt widgets
+   (see screenshots). This feature requires Qt 4.2.
+   The qss file is quite similar to a HTML css file. Detailed info:
+   http://doc.trolltech.com/4.2/stylesheet.html
+
+[b]Version 0.3.16[/b]
+ * Updated the Hungarian, German and Italian translations.
+ * Added the Brazilian portuguese translation.
+ * Added new icon theme blackPanther-Light by Charles Barcza.
+ * Added a new option: Video->Size. This is a global option. If you set it
+   for instance to 150%, all videos will be played at 150% of their original 
+   size. 
+   (This option won't work if checked "Advanced->Run mplayer in its 
+   own window").
+
+[b]Version 0.3.15b[/b]
+ * Updated the Hungarian translation.
+ * Added icon theme blackPanther-VistaLike by Charles Barcza.
+
+[b]Version 0.3.15[/b]
+ * Updated the German, Ukrainian and Polish translations.
+ * Fixed a bug. Now you can pass a folder through command line. If it doesn't
+   contain the video_ts folder, the contents of the directory will be added
+   to the playlist.
+ * Options->View info now shows more info about audio tracks and subtitles.
+ * Created a new icon set: "Play" which changes some icons and adds some
+   more. Just an example that shows that's possible to add new icons not
+   present in the default set.
+
+[b]Version 0.3.14[/b]
+ * Updated the Ukrainian, Russian, Polish, Chinese, Italian and Japanese 
+   translations.
+ * Fixed a problem with the new icon set feature in Windows (the icon path 
+   wasn't right).
+ * Fixed some bugs with the "initial volume" widgets in preferences.
+ * Process communication: the 2nd instance will send to the 1st instance
+   the filename to be open encoded in UTF-8.
+ * New option in preferences (General) to select a preferred audio language
+   for videos with multiple audio tracks. See the "whatsthis" help to know
+   more about this new option.
+
+[b]Version 0.3.13[/b]
+ * Updated the Ukrainian, German and Russian translations.
+ * Made the apply preferences a little bit smarter. Now the mplayer process
+   will be restarted only if needed. For example, changing the video output
+   or the cache settings require mplayer to be restarted, but changing the
+   language or the mouse button function does not.
+   There are a lot of options in the preferences dialog and I'm not tested 
+   all of them. Report if some setting is ignored or something.
+ * Now you can change the language of the application at runtime. This has
+   required a lot of changes. Report if some string has been left untranslated.
+ * Configurable icons. Now smplayer can load icon sets. In 
+   Preferences->Interface you'll find an option to select an iconset.
+   Currently there are two: Default (the default embeded iconset) and Test
+   (for testing, I've used the oxygen icons gathered by adrian5632)
+
+[b]Version 0.3.12[/b]
+ * Added the Ukrainian translation.
+ * Updated the German and Polish translations.
+ * Added the option Video->Stay on top. This is a global option.
+ * Added Preferences->Interface->Language.
+ * Moved the logs stuff from Advanced to a new tab.
+
+[b]Version 0.3.11[/b]
+ * Updated the Hungarian and Russian translations.
+ * Sometimes when a video is played, smplayer doesn't get any info about it
+   (you can notice because the aspect ratio may be wrong, length is 0, 
+   resolution is 0x0, no info about subtitles...). I think this happens
+   when a video is restarting but you open a new one before restarting 
+   is finished (usually happens with internet streams, where a video can
+   take some time to start to play). I think that now this problem is
+   fixed, although I'm not completely sure as this bug is quite difficult to
+   reproduce.
+ * Now you can force the usage of a different language (translation).
+   smplayer currently tries to use the translation file according to your
+   locale. Now you can change the language by editing the configuration file
+   and change the value of the option "language" (under the [Preferences] 
+   section). Example: [i]language=es[/i] will display the messages in Spanish, 
+   [i]language=fr[/i] will display them in French, [i]language=zh_CN[/i] will 
+   display them in Chinese and so on.
+
+[b]Version 0.3.10[/b]
+ * Updated the German, Polish, Dutch, Italian, Russian and Chinese translations.
+ * Bug fixed: if "fast seek to chapters in dvds" was checked, the -cache
+   option wasn't used for internet streams.
+ * Some options for logs added (Preferences->Advanced). Now you can disable 
+   the mplayer or smplayer logs. There's also an option to filter the 
+   smplayer output. Added too "what's this" help for these new options.
+
+[b]Version 0.3.9[/b]
+ * Updated the German, Hungarian, Russian and Spanish translations.
+ * Internal change: made pref (Preferences) a global object (I hope not, 
+   but this change could have broken something...) This is needed
+   for the following:
+ * A long awaited feature: you can save defaults for the video equalizer.
+   Two buttons have been added to the video equalizer: "reset", will reset
+   all controls to 0. "Set as default value" will store the current values
+   and they will be used for new videos.
+ * Fixed bug #1694644.
+
+[b]Version 0.3.8[/b]
+ * Added the Japanese and Dutch translations.
+ * Updated the German, Italian, Polish and Slovak translations.
+ * Added the option EXTERNAL_SLEEP in config.h (this is a compilation option,
+   if you change it, you'll have to recompile). If set to 1, smplayer
+   will use the function usleep from unistd.h instead of QThread::msleep()
+   It can be useful if your Qt doesn't have QThread support.
+ * I started to add some (what's this) help in the preferences dialog. 
+   Drag the question mark in the title bar to a field and a text
+   will appear explaining what's that option for. Currently only works
+   in the General tab.
+
+[b]Version 0.3.7[/b]
+ * Updated the German translation.
+ * Made changes to try to fix a compilation error in Windows (qmake bug)
+ * Added a "Clear" option in the recent files menu, to clear the list.
+ * Added an option in Play menu, to repeat (loop) the current file. This
+   is a global option. If activated, when the video ends, it will start to 
+   play again.
+   As an unintended feature, if the video didn't start from the beginning, when
+   repetition starts it won't start from the beginning but from the point
+   it previously started. An example will explain it better: you have a 2 
+   minute video, you play it with the repeat option off. When it gets to 
+   1 minute you stop it and set the repeat option on. The video will resume 
+   play from minute 1. When the video gets to minute 2 (end of video) it 
+   will start to play again from minute 1.
+   As I said, this is unintended, but I leave this way because maybe someone
+   could find it useful.
+
+[b]Version 0.3.6[/b]
+ * Updated Polish, Italian, Chinese and Russian translations.
+ * All icons are now png files.
+ * Using the option -nofs for the mplayer command line.
+
+[b]Version 0.3.5[/b]
+ * Fixed a serious bug if using Qt 3. The key shortcuts were saved to a
+   different file and not loaded.
+ * Started to move from xpm icons to png. Right now a mix of both types
+   is used. All icons in the preferences dialog are now png. Some of
+   the icons in playlist are png too. But most of the icons in the main
+   window are still xpm. As a test I changed the smplayer logo (which in
+   fact is a Vista-Inspirate icon) with a new one designed by 
+   Charles Barcza.
+
+[b]Version 0.3.4[/b]
+ * Updated the German translation.
+ * Now you can choose the function of the mouse wheel: media seeking or
+   volume control.
+
+[b]Version 0.3.3[/b]
+ * Updated the Italian, German, Polish and Chinese translations.
+ * 10s, 1m and 10m seek can be configured: Preferences->GUI. 
+   Note: the previous fixed values (10s, 1m, 10m) still appear in the menus 
+   and tooltips. I'll fix it soon.
+ * Mouse left click and double click functions can be configured
+   in Preferences->GUI. 
+   Note: the left click function is executed too when double clicking. I'll
+   try to fix it, for now I recommend to use one of the two mouse functions,
+   not both.
+ * The initial volume can be configured in Preferences->GUI.
+
+[b]Version 0.3.2[/b]
+ * Added the Polish translation.
+ * Removed obsolete texts from all translations.
+ * Added in preferences an option to select the maximum number of
+   items that the "recent files" menu should have. And added too a
+   button to clear the list.
+ * Renamed the Misc section in preferences to GUI. And moved non GUI items that
+   were in this section to others.
+ * Added some icons in the preferences dialog.
+ * Changed some icons.
+
+[b]Version 0.3.1[/b]
+ * Updated the German, Italian, Russian and Hungarian translations.
+ * Added some contributed files to the contrib subdirectory.
+ * Added the uninstall section in the Makefile.
+ * Added a smplayer_en_US.ts. Currently it's empty. Can be used to
+   correct the english text, and also can be used to start a translation
+   to other language.
+
+[b]Version 0.3.0[/b]
+ This release has only one small fix, but I change the version number to
+ 0.3.0. I think it's time.
+ * The code in mplayerprocess for Windows wasn't used. Now it should be fixed.
+ * Updated the German translation.
+ * Updated the instructions to compile smplayer in README.txt.
+
+[b]Version 0.2.44[/b]
+ * Added the Hungarian translation.
+ * Some changes in mplayerprocess.cpp, to make it a little faster.
+ * A new interesting feature has been added: remember, smplayer install
+   a server to listen a port (8000 by default) initially to communicate to 
+   other instances. But now that server will understand some more commands.
+   You can connect with it with "telnet localhost 8000" and type "help".
+   For now you can pass any of the key functions. For instance the
+   command "function pause", will pause the movie that smplayer is playing.
+   "function fullscreen" will toggle fullscreen mode. You can get a list
+   of all available functions with "list functions".
+   This feature will allow other people to write small programs or scripts
+   to control smplayer remotely (from another computer) or from a remote control.
+
+[b]Version 0.2.43[/b]
+ * Not converting to local 8 bit encoding. It seems that Qt already does, so
+   doing twice only cause trouble.
+ * Using QString::fromLocal8Bit() instead of 
+   QTextCodec::codecForLocale()->toUnicode(). I think it's the same... 
+ * Updated the Russian translation.
+ * If unchecked the option for remembering media settings, now the settings
+   are not really saved to config file (previously they were saved but not
+   loaded).
+ * Activated by default for Windows, an alternative code in mplayerprocess
+   which seems to be faster, and can fix some slow down problems.
+
+[b]Version 0.2.42[/b]
+ * Updated the Chinese and Russian translations.
+ * Convert filename, subtitle filename, and dvd device name to local 8 bit
+   encoding before pass them to mplayer. I don't know if this will fix
+   something or break something.
+ * Some changes in mplayerprocess, trying to fix a problem in Windows, but
+   unfortunately it's not fixed yet.
+
+[b]Version 0.2.41[/b]
+ * Mouse left click and double click will work now only in the video window.
+ * Modified the Makefile to make possible to compile with Qt 4 from the
+   source root. ("make prep" will adapt the code for Qt 4 and "make"
+   will compile it). You may need to change the QMAKE variable.
+ * Write some experimental code intented to fix a problem in Windows.
+   Not compiled by default.
+
+[b]Version 0.2.40[/b]
+ * Updated the Slovak and German translations.
+ * On Windows smplayer saves position and size of the main window to
+   be restored after exiting from fullscreen mode.
+ * Mouse left click and double click, configurable. For now only by editing
+   the configuration file (look for left_click_function and 
+   double_click_function). Valid values are any of the key functions (the
+   list of key functions appears at the beginning of the smplayer log).
+   Example: left_click_function=PAUSE
+   Currently there's a problem: double click executes also the left click 
+   function.
+ * Changed the DVD and CD icons in preferences.
+
+[b]Version 0.2.39[/b]
+ * Added the Russian translation.
+ * Now the dvd and cdrom devices have no default. If the user tries to
+   play a dvd before configure it, a message box will show requesting
+   him to configure it. After that the preferences dialog will be
+   shown, with the drive's tab selected.
+ * By the way, I've added some icons to the drive's configuration.
+
+[b]Version 0.2.38[/b]
+ * Added the Simplified-Chinese translation.
+ * Removed some extra trailing spaces in some phrases.
+ * Added copyright text to the new files.
+
+[b]Version 0.2.37[/b]
+ * Updated Italian & German translations.
+ * Added setActiveWindow() too besides raise();
+ * Raised the time that smplayer waits to mplayer process to finished. 
+   Sometimes it's needed to call mplayer to get some info (available
+   output drivers, codecs and so on). There's a problem about terminating
+   that process: if we just wait until the process is finished there's
+   the possibility that smplayer freezes if the mplayer process does.
+   For that reason smplayer waits, but only some time. After that smplayer
+   kills the mplayer process. That time was about 1 second, but sometimes
+   (specially for the first run) mplayer takes more time. Now smplayer
+   will wait as much 10 seconds.
+
+[b]Version 0.2.36[/b]
+ * Improved the single instance stuff. Now it seems it works with Qt 4, too.
+   Added a few commands to the server. So now you can talk to it using 
+   telnet.
+ * Added some options in the preferences dialog. You can activate or disable
+   the single instance feature, and set the port that the server will use.
+   IMPORTANT: the single instance is disabled by default!
+   Changes in any of these options require smplayer to be restarted.
+ * Added the French translation. It's not complete yet.
+
+[b]Version 0.2.35[/b]
+ * Started to write the single instance stuff. Now when smplayer starts
+   it sets a server to listen to a port (by default 8000). When a new
+   instance is run it tries to connect to that port. If it has success it
+   tries to verify that it's really smplayer behind that port. After that it
+   sends to the first instance the file that the user wants to open (if any)
+   and closes. The first instance opens the video.
+   You can change the default port in the configuration file (look for 
+   connection_port). Sorry I didn't have time to add an option in the 
+   preferences dialog.
+   This works in Qt 3 but fails in Qt 4. I don't know why, by an unknown
+   reason the server in the first instance doesn't receive the open 
+   command that the client in the 2nd instance sends. 
+   It's too late, I'lltry to fix it tomorrow. By the way, this is the first 
+   time I write code relative to sockets, ports, servers, clients... so someone
+   more experienced is welcome to take a look to the code and to try to fix it.
+
+[b]Version 0.2.34[/b]
+ * Internal changes: moved Images and Keys to global.
+ * Key shortcuts are loaded from config file. That means the now it's possible
+   to change key shortcuts.
+ * Preferences are saved when user press Ok or Apply in the preferences dialog.
+ * Moved the "Include subtitles on screenshots" from General to Subtitles tab.
+ * Fixed a bug with -cache and fast dvd chapter switch. The cache was disabled
+   even if not playing a dvd.
+
+[b]Version 0.2.33[/b]
+ * Made settings a global object. A lot of internal changes, something
+   could have broken.
+
+[b]Version 0.2.32[/b]
+ * Fixed a little bug in playlist. 
+ * No flickering at all in the video when opening menus in Windows.
+ * Rewritten keys.h, keys.cpp. Key shortcuts are saved.
+
+[b]Version 0.2.31[/b]
+ * Added the Italian translation made by Giancarlo Scola.
+ * Now drag&drop urls works with Firefox, if compiled with Qt 3. 
+   It already worked with Qt 4!
+   As a secondary effect now plain text can be dropped into smplayer (Qt 3 only).
+ * New option: Options->Show frame counter. If checked the current frame
+   will be displayed in the status bar. Don't work properly with some formats.
+
+[b]Version 0.2.30[/b]
+ * Ok, I've just found out how to disable double buffering in a widget.
+   So the blinking problem with Qt is definitely fixed now (I hope).
+
+[b]Version 0.2.29[/b]
+ * In linux, using Qt 4, the video window has an annoying blink every time a
+   menu is open. As a quick fix I'm disabling double buffering. That fixes
+   that problem, but now some widgets may be displayed not completely drawn.
+ * Updated the German translation.
+
+[b]Version 0.2.28[/b]
+ * Now you can drag&drop urls from a web browser. You can test it dragging
+   the urls on this page: http://smplayer.sourceforge.net/streams.html
+ * Added the option "include subtitles on screenshots" in Preferences. If 
+   checked subtitles will appear on screenshots taken with the option
+   Video->Screenshot. Otherwise subtitles won't appear on screenshots.
+
+[b]Version 0.2.27[/b]
+ * Fixed a problem with the "frame step" option. Sometimes instead of one
+   frame it could advance 2 (or more?) frames.
+ * Added the option Open->Playlist (it was already possible to open a playlist
+   from the Open->File, but well, this way will be easier). A dialog will 
+   allow you to open a m3u or m3u8 playlist. The playlist will be loaded and 
+   will start to play, but the playlist window won't be opened (not because 
+   I wanted that way, just because it was easier...)
+ * In fullscreen mode, when you drag the time slider, the "jump to..." message
+   will be displayed in the OSD.
+
+[b]Version 0.2.26[/b]
+ * Fixed some problems with the new fullscreen mode, so now it's the default.
+   Please test it!
+ * Added an option who people with wide screens can find useful: 
+   16:9 letterbox. If you play for instance a 2.35:1 movie, this option
+   will add black borders to fit 16:9. The interesting thing is that subtitles
+   will appear in the bottom border.
+
+[b]Version 0.2.25[/b]
+ * Made the "experimental fullscreen mode" the default one and delete the
+   the old code.
+ * Written a new experimental fullscreen mode ;)
+   To test it you have to edit the file config.h and change the
+   FULLSCREEN_WITH_MAINWINDOW 0
+   to
+   FULLSCREEN_WITH_MAINWINDOW 1
+   and recompile.
+   With this option, the fullscreen mode will be made through the main window
+   (hiding the menu bar, control widget and status bar)
+   In this mode if you move the mouse near the bottom of the screen
+   the control widget will be shown, and if you move it near the top
+   the menu bar will appear.
+   Problem: I couldn't hide everything, two grey lines appear, one on
+   the top, the other on the bottom... that's why this option is set
+   to 0 by default.
+   I hope I can fix it in the future...
+
+[b]Version 0.2.24[/b]
+ * Added the Slovak translation by Peter Mendel.
+ * Hopefully fixed a compilation error in Qt 4 under linux.
+ * The playlist broke in one of the recent changes: items didn't
+   start to play from the beginning. Fixed.
+ * Now if the shuffle button is ON in the playlist, playing will always 
+   start from a random item (not the first).
+ * Parse the ID_SUBTITLE_ID tag.
+ * Try to call initializeMenus() and updateWidgets() only when needed.
+   initializeMenus() seems to be causing problems (crashes) in Qt 4 if
+   it modifies the same menu we've just used. Now initializeMenus() is called
+   only once the video has started to play, not before. 
+   I hope not, but this change may have broken something. Testing needed.
+   initializeMenus() is responsible of creating the audio, subtitle, dvd title 
+   and chapter switching menus. updateWidgets() is responsible of updating 
+   the widgets (like setting the mute button on/off), but also of keeping 
+   the menus updated (setting the check mark on activated options).
+
+[b]Version 0.2.23[/b]
+ * I've realized that the latest mplayer builds for Windows don't play a dvd
+   if the dvd-device ends with "/" (-dvd-device E:/ will fail). The same
+   happens with folders (C:/Videos/My DVD/ will fail, C:/Videos/My DVD 
+   will work). So now smplayer removes those trailing "/".
+
+[b]Version 0.2.22[/b]
+ * Improved support for playing dvds from folders. In order to properly
+   identify these dvd folders, I invented a protocol. In mplayer you
+   should use something like this: mplayer dvd://1. That would play
+   the first title of the dvd. You can use that too with smplayer:
+   smplayer dvd://1. But now you can add after it a folder, this way:
+   smplayer dvd://1:/tmp/movies/dvd5 (where dvd5 is a directory
+   which contains at least video_ts).
+   smplayer dvd://2:/tmp/movies/dvd5 will play title 2.
+   You can pass the directory only (forgeting the dvd://number)
+   smplayer /tmp/movies/dvd5
+ * Open->Directory will autodetect if the selected directory contains
+   a ripped dvd (currently it only checks if it contains a video_ts) and
+   in that case will play the dvd instead of adding the individual files
+   to the playlist.
+ * Drag&drop also works. You can drag a folder to the main window.
+   If it contains a dvd it will play it, otherwise the files
+   of the directory will be added to the playlist.
+ * Accidentally you can also drag a folder containing a dvd to the
+   playlist and it will work.
+
+[b]Version 0.2.21[/b]
+ * Playing a DVD from a folder: make things even clearer. Removed
+   the stuff in preferences and added "Open->DVD from folder". It'll ask
+   you for a directory where video_ts and audio_ts should be (it seems that
+   it also work if you select the directory with the *.vob and *.ifo files).
+   So now "Open->DVD" will only play real DVDs in your dvd drive.
+ * Added a Open->Directory option. It will add the files in the chosen
+   directory (not recursively) to the playlist (after clearing it) and start 
+   playing the first item. To fix: it will start playing always the first item 
+   even if the shuffle button in the playlist is on.
+
+[b]Version 0.2.20[/b]
+ * Fixes a silly bug with -brightness 0. I changed -contrast 0 instead of
+   brightness...
+ * Now subtitles appear on screenshots.
+ * It has always been possible to play ripped dvds from hard disc,
+   but for making things clearer, I've added in the preferences dialog
+   some options to select a directory from hard disc which should 
+   contain the video_ts (and audio_ts). 
+
+[b]Version 0.2.19[/b]
+ * The brightness issue in mplayer (windows) is giving me a headache.
+   Remember: the image is brighter than it should in windows (directx)
+   with -brightness 0. As a work-around I set the soft video equalizer
+   as default, but that conflicts with others video output drivers as
+   gl or directx:noaccel.
+   So going back. The soft video equalizer is not the default, and to
+   prevent the bright image -brightness 0 will not be used in Windows.
+ * Added a new option in preferences: fast audio track switching. This is
+   the default. If unchecked, audio track switching will restart mplayer,
+   which is a little bit slow, but that should make possible to switch audio
+   tracks in containers apart from avi, mpeg and mkv.
+
+[b]Version 0.2.18[/b]
+ * Reordered the recent files stuff. I hope this fixed the crash problem
+   with Qt 4.
+ * Now the default encoding for subtitles is ISO-8859-1 instead of latin1
+   (it's the same encoding, just a name change, so it can be found in
+   the new encoding list).
+ * Renamed the videoequalizer2 to videoequalizer.
+ * The inforeader won't wait the mplayer process to finish for ever. It'll
+   wait for some seconds and if the mplayer process is not finished then 
+   it will kill it. This way if the mplayer process for some reason hangs, 
+   smplayer won't do the same.
+ * Disable software video equalizer (-vf eq2) when using gl or gl2 as
+   video output driver, as they seem to be incompatible.
+ * The file passed through the command line is now send to the new open
+   function with autodetection of media type. That means that you can
+   pass a local file, a dvd (in the form of dvd://1, dvd://2...), a
+   playlist (*.m3u or *.m3u8), or stream. 
+
+[b]Version 0.2.17[/b]
+ * Added a stereo mode menu, where you can select: stereo, left channel or
+   right channel. According to mplayer manpage this seems to be only for 
+   MP2/MP3.
+ * At last added a "recent files" menu. Currently it shows the 10 recent
+   files opened. 
+
+[b]Version 0.2.16[/b]
+ * It seems that the new way of changing dvd chapters doesn't work well
+   in Windows, so now it's disabled by default but you can activate it
+   in the preferences dialog.
+ * The shift key is now ignored, and can't be used as modifier for key
+   shortcuts.
+ * Added in the preferences dialog a combobox to select the encoding
+   of the subtitles.
+
+[b]Version 0.2.15[/b]
+ * Added in the preferences dialog an option to autosync audio/video.
+   This is what the manpage of mplayer says about it:
+       -autosync <factor>
+              Gradually adjusts the A/V sync based  on  audio  delay  measure-
+              ments.   Specifying  -autosync  0, the default, will cause frame
+              timing to be based entirely on audio delay measurements.  Speci-
+              fying  -autosync  1 will do the same, but will subtly change the
+              A/V correction algorithm.  An uneven video framerate in a  movie
+              which  plays  fine  with -nosound can often be helped by setting
+              this to an integer value greater than 1.  The higher the  value,
+              the  closer the timing will be to -nosound.  Try -autosync 30 to
+              smooth out problems with sound drivers which do not implement  a
+              perfect  audio delay measurement.  With this value, if large A/V
+              sync offsets occur, they will only take about 1 or 2 seconds  to
+              settle  out.   This delay in reaction time to sudden A/V offsets
+              should be the only side-effect of turning this  option  on,  for
+              all sound drivers.
+ * Now the info window updates in realtime. And the filename will be
+   displayed in smplayer window title.
+ * New functions: prev and next chapter (keys ! and @) It should work with
+   dvd chapters and matroshka chapters.
+ * Now selecting a dvd chapter is much much faster (now mplayer is not
+   restarted).
+   Note: this new method doesn't work at least with the version of mplayer 
+   I'm using (dev-SVN-r21937) if -cache is used in the command line.
+   If it happens to you too, the work-around is to set the cache to 0
+   in the preferences dialog.
+
+[b]Version 0.2.14[/b]
+ * On Windows the option to use the software video equalizer will be
+   check by default (when running for first time), as a work-around
+   for the bright image problem.
+ * As suggested by Amnon82 in the forum, added a menu for selecting
+   the number of audio channels (mplayer will try to used the specified
+   number of channels, but it will depend on the media). Options are:
+     default (the -channels options will not be passed to mplayer)
+     stereo (2 channels)
+     4.0 Surround (4 channels)
+     5.1 Surround (6 channels)
+ * Added a debugging message identifying the OS on which it's running
+   (currently only linux and windows), the version of smplayer and
+   the version of Qt.
+
+[b]Version 0.2.13[/b]
+ * Fixed a crash when trying to open a file being created by mencoder.
+ * Catch the "Generating Index" message from mplayer and display it in
+   status bar.
+ * The key shortcuts work in compact mode.
+ * Disabled fullscreen mode when another window (playlist, preferences...) is
+   open.
+ * Added the Options submenu to the popup menu (right click menu).
+ * Added key shortcuts for cycling through audio and subtitle tracks:
+   audio assigned to key j. subtitle assigned temporary to h.
+
+[b]Version 0.2.12[/b]
+ * Using showFullScreen() instead of a normal show() for fullscreen.
+ * Compact mode hides the menu bar too. And moved the option from
+   the Options menu to the Video menu. Added a key shortcut: Ctrl-C.
+   TODO: now it seems that other key shortcuts (like Ctrl-F to open a file)
+   don't work in this mode, at least with Qt 3.
+
+[b]Version 0.2.11[/b]
+ * Some fixes in the new code for fullscreen. Now (at least in Windows)
+   changing to fullscreen mode should be very smooth (no blinks).
+ * New info window (Options->View info).
+
+[b]Version 0.2.10[/b]
+ * New fullscreen mode. Using now a widget which has a parent instead of
+   of a widget with no parent.
+ * Added a "compact mode". In this mode, the status bar and the control
+   widget are hidden.
+ * Added a config.h where you can change some defines which modifies the
+   behavior of some things. For instance, "DOCK_PLAYLIST 1" makes the
+   playlist to be embedded in the main window.
+
+[b]Version 0.2.9[/b]
+ * Just a very small change: when going to fullscreen mode, the function
+   Gui::toggleFullscreen was called twice (I think it's because button->setOn 
+   emits a signal). Now it's still called twice but now the function checks 
+   if there's really something to do.
+
+[b]Version 0.2.8[/b]
+ * Hopefully fixed two ancient bugs in Windows: the mplayer log with 
+   blank lines and in some menus the accel letter didn't show underlined.
+ * Added accels for all options in the menus. Unfortunately this change
+   breaks the translations of the menus.
+
+[b]Version 0.2.7[/b]
+ * Fixed a bug in Windows. In the playlist, the symbol "/" was
+   replaced with "\" in internet streams (mms:\\.... instead of
+   (mms://...), avoiding them to play.
+
+[b]Version 0.2.6[/b]
+ * Added the postprocessing filter (-vf pp) with autoq. The autoq value
+   can be changed in Preferences->Performance. By default: 6 (the highest).
+   The postprocessing filter can be selected in Video->Filters->Postprocessing.
+   This filter may "improve" the video quality.
+
+[b]Version 0.2.5[/b]
+ * The new equalizer was broken in Qt 4. I hope I fixed it.
+ * Now when saving a playlist, if you typed a name without extension
+   smplayer will add it for you (.m3u).
+ * Updated the German translation.
+
+[b]Version 0.2.4[/b]
+ * Replaced the video equalizer with a better looking one.
+
+[b]Version 0.2.3[/b]
+ * Load m3u8 files from Open->File (and from command line).
+ * Convert strings from mplayer output to unicode from system locale.
+   That should allow smplayer to read properly non latin1 text in 
+   mplayer output. 
+ * Replaced in code all qDebug(...latin1()) with qDebug(...utf8().data()). 
+   This way non latin1 characters shouldn't be lost in logs.
+ * Now playlist tries to use relative paths when saving the playlist.
+
+[b]Version 0.2.2[/b]
+ * When loading a playlist, comments (lines starting with #) are ignored.
+ * Now smplayer can load and save m3u8 files (same as m3u but in UTF-8).
+ * Rewritten the "remove selected items" code in playlist.
+ * Replaced all float's with double's. I hope this hasn't broken anything...
+
+[b]Version 0.2.1[/b]
+ * Convert strings from system locale to unicode, in arguments passed
+   from command line and when reading (and saving) m3u files.
+
+[b]Version 0.2.0[/b]
+ * Now when you add a file or files to the playlist, only the
+   filename appears, not the whole path.
+ * Added a shortcut for playlist: Ctrl-L
+ * Added shortcuts for previous and next in playlist: < and > 
+ * Updated the German translation.
+
+[b]Version 0.1.20[/b]
+ * Now if the directory for screenshots is empty, the option 
+   -vf-add screenshot will not be passed to mplayer. This lets smplayer
+   to work with old versions of mplayer which don't have that filter.
+ * More improvements in the playlist: added a play button (will play
+   the selected item). Added a popup menu (right click), with 3 options:
+   play, remove selected and edit. The last option lets you edit the
+   name that will be shown in the playlist for the selected file. 
+   With this, I think the playlist is almost finished.
+
+[b]Version 0.1.19[/b]
+ * In playlist, the Add->Files and Add->Directory update the last directory
+   used for playlist.
+ * Added some icons in Preferences dialog.
+ * Added icons for playlist's repeat & shuffle buttons (they are ugly: 
+   I did them myself...)
+ * Added two new buttons in playlist: up and down. You can use them
+   to move items up and down in the list.
+
+[b]Version 0.1.18[/b]
+ * Now the shuffle option in playlist should work.
+ * The playlist saves the state of the repeat & shuffle buttons and
+   also the size of the window.
+
+[b]Version 0.1.17[/b]
+ * Some fixes in the video equalizer.
+ * Now Open->URL remembers the last url.
+ * Playlist remembers the last directory used.
+ * Some fixes in the spec file.
+
+[b]Version 0.1.16[/b]
+ * Added a video equalizer.
+
+[b]Version 0.1.15[/b]
+ * If "main window resize method" was "never" and you played an audio file
+   and the a video file, the video window didn't show. Fixed.
+ * Some other small fixes.
+
+[b]Version 0.1.14[/b]
+ * Now the minimum step in sub delay and audio delay is 100 ms (not 200).
+ * Now streams can be passed through the command line.
+ * Fixed a crash when duration of a file was less than 0.
+
+[b]Version 0.1.13[/b]
+ * Playlist accepts drops. Dropped files will be added to the playlist.
+ * Added two button to the playlist: repeat and shuffle. Repeat works,
+   shuffle not yet.
+ * Now the subtitle menu (for *.srt, *.sub...) shows the name of the files
+   (was in 0.1.12 but I forgot to mention).
+ * Small changes and fixes.
+ * Updated the German translation.
+
+[b]Version 0.1.12[/b]
+ * Added a reset button in demuxer / video & audio codec selection. Clicking
+   that button will select the original option. Useful if you don't 
+   remember which one was it.
+ * Changes in fullscreen mode. Now fullscreen is a global setting.
+   This allows to view all videos in the playlist in fullscreen mode,
+   without switching to window mode everytime a video finished.
+ * Also added in the preferences a new option: "Start videos in fullscreen".
+   If checked all videos you open will be played in fullscreen.
+
+[b]Version 0.1.11[/b]
+ * Added a new dialog for configuring advanced settings for the current
+   file. You may type additional options to be passed to mplayer (and
+   also video and audio filters). This options are only for the current
+   file, and they will be saved among the rest of the file settings.
+   That way you could for example, add a crop filter and that filter
+   will be used everytime you load that file.
+   There's also the possibility of choosing the demuxer, video codec and
+   audio codec. Most of the time you won't need them, but in the case
+   one file gives you some trouble with the video or audio maybe you can
+   fix it by selecting another codec.
+
+[b]Version 0.1.9[/b]
+ * Now you can load idx/sub subtitles. Select the *.idx in the open
+   subtitle dialog.
+ * Updated the German translation.
+
+[b]Version 0.1.8[/b]
+ * Now the main window accepts drags. So you can drag a video and it will
+   be played. If dragged more than a file, all of them will be added to
+   the playlist (the playlist is cleared first).
+
+[b]Version 0.1.7[/b]
+ * Well, it was hard to know why the mplayer process had finished 
+   (end of file, stopped by user, stopped by the program). Fool of me,
+   mplayer says in its output. So now I catch the "Exiting... (end of file)"
+   message, so I really hope that the problems that this was giving me
+   have fixed for ever.
+ * Added support for matroska chapters. In order to work the file MUST
+   have the extension *.mkv.
+ * Not allow to add repeated files in playlist.
+ * Changes in Makefile: now "make install" works.
+ * Created a spec file.
+
+[b]Version 0.1.6[/b]
+ * Fixed a bug that produced a segmentation fault on startup.
+ * Windows/Qt 4: when I file finished playing, playlist wasn't noticed,so
+   next file didn't start to play. Fixed (I hope...)
+ * Added support for monitor aspect correction.
+
+[b]Version 0.1.5[/b]
+ * More improvements in the playlist. Added some icons among other things.
+ * Added 3 new buttons in the main window: playlist, previous and next.
+ * Updated the German translation.
+ * Updated the Spanish translation.
+
+[b]Version 0.1.4[/b]
+ * Now you can pass a m3u file from the command line.
+ * Playlist: Added options to add files or a whole directory (it will add 
+   everything that's there, even non playable files!
+   Added options to remove the selected items or to clear the whole list.
+
+[b]Version 0.1.3[/b]
+ * Added the German translation (by Henrikx)
+ * Some fixes in the playlist
+
+[b]Version 0.1.2[/b]
+ * Open->File, if you open a m3u it will passed to the playlist.
+ * Now smplayer gets more info about the files (title, artist, album...).
+   This is displayed in Options->View info but it's also used for the
+   playlist.
+ * Now it's possible to add and remove items in the playlist. The add
+   button adds the current file loaded by smplayer. The remove button
+   removes the selected items.
+ * Added an indicator for the file which is playing (currently the 
+   indicator is very simple "->", in the future will be an icon).
+
+[b]Version 0.1.1[/b]
+ * Changed the version scheme.
+ * At last I have learnt how to pass defines to the Makefile created by qmake.
+ * Changed the way of getting icons (images.h / images.cpp)
+
+[b]Version 0.1-070208.13[/b]
+ * Added to the config file the option initial_volume, which will be
+the initial volume when smplayer starts.
+
+[b]Version 0.1-070208.12[/b]
+ * Now when a new file is loaded the volume is not changed.
+ * Save in playlist works (although it's a little bit useless, there
+   are not options to add files to the playlist)
+
+[b]Version 0.1-20070208-2[/b]
+ * Rewrite the playlist using a QTable instead of a QListView.
+ * For proper installation in linux, the following defines will be
+   taken into account:
+   DATA_PATH must be set to the directory where the data files (currently
+   only input.conf) are installed.
+   TRANSLATION_PATH must be set to the directory where translations (*.qm) are
+   installed.
+   DOC_PATH must be set to the directory where the documentation is installed
+   (currently there are no documentation)
+   What I don't know yet is how to pass those defines to the Makefile.
+
+[b]Version 070207-12[/b]
+ * Started the playlist. Currently is very limited. You can load
+a m3u file and it will be played (it must cointain absolute paths). 
+Double click on a item plays that file. Streams are also supported.
+
+[b]Version 070206-2[/b]
+ * Reduced a little bit the size of button's icons.
+ * New action "PLAY_PAUSE" set to MediaPlay key.
+
+[b]Version 070204-12[/b]
+ * Fixed a funny bug. Sometimes when a video is about to finish, it started
+   to play again from the beginning.
+ * Put the basis for configurable key shortcuts.
+ * Added some key shortcuts: Alt+1 & Alt+2 change gamma. 
+   Ctrl+F = Open->File, Ctrl+U = Open->URL, Ctrl+X = Open->Exit.
+   Ctrl+I = Options->View Info, Ctrl+P = Options->Preferences.
+ * Added support for multimedia keys: 
+   MediaPlay = Pause (and resume Play)
+   MediaStop = Stop
+   MediaNext = +10 secs
+   MediaPrev = -10 secs
+   But I don't have a multimedia keyboard, so this is untested...
+
+[b]Version 070202-2[/b]
+ * Some changes in the preferences dialog.
+ * Added an option to select the Qt style to use.
+
+[b]Version 070201-2[/b]
+ * Added an option to select your CDROM drive. This setting is currently
+not used for anything, but in the future it will used for playing VCDs.
+ * One of the main feature of smplayer is the ability to remember the
+settings (audio track, subtitles, filters selected...) of every file
+smplayer has opened. Now I have added two options to disable it. One of them
+will disable it completely, smplayer will remember nothing. The other
+just will make smplayer to not remember the time pos, so every file
+will start playing always from the beginning.
+
+[b]Version 070131-11[/b]
+ * Added a new page in the preferences dialog: Performance, with the
+following options:
+  - Priority (only for windows)
+  - Allow frame drop (-framedrop)
+  - Allow hard frame drop (-hardframedrop)
+
+[b]Version 070131-2[/b]
+As expected the ASS color buttons didn't change color in Windows (or Qt 4).
+I think now this is fixed.
+
+[b]Version 070130-2[/b]
+ * Now you can change the color of the SSA/ASS subtitles.
+
+[b]Version 070129-3[/b]
+Arrggg, I've just realized that the volume wasn't remembered. Fixed, I hope.
+
+[b]Version 070129-2[/b]
+ * Volume and mute: changing the volume unmutes.
+ * Now the time slider should work much better. It should work either
+   dragging it or clicking in any part of the bar. Furthermore now
+   while dragging it, it displays the time you would go. 
+
+[b]Version 070128-11[/b]
+ * Added two new options to the preferences dialog:
+   - Use software video equalizer (-vf-add eq2)
+   - Use software volume control (-softvol)
+ * Now the status bar shows the total time too.
+ * More or less fixed a conflict with mute and setting the volume.
+
+[b]Version 070128-2[/b]
+ * Fixed a bug with the screenshot feature.
+ * Now the video window hides if there's no video (audio only file or
+   using the mplayer window).
+
+[b]Version 070127-11[/b]
+ * Double click on the video window toggles fullscreen.
+ * Added an option to take screenshots. You must set first a directory
+ for saving these screenshots, in the preferences dialog.
+
+[b]Version 070127-2[/b]
+ * Added two new options to the "Aspect ratio" sub-menu: 
+    - 5:4 
+    - 16:10 
+ * New log window, with buttons to save the log to a file or copy the
+ text to the clipboard. 
+ * Some fixes in the time slider.
+
+[b]Version 070125-11[/b]
+
+ * Added two new video filters: 
+ - Dering 
+ - Add noise (which adds a little bit of noise to the image)
+
+[b]Version 070125-2[/b]
+* Added some video filters: 
+ - denoise (normal) = hqdn3d 
+ - denoise (soft) = hqdn3d=2:1:2 (I find the default hqdn3d too strong) 
+- deblock = pp=vb/hb
+
+[b]Version 070124-11[/b]
+* Now you can scroll through the video by using the mouse wheel. By
+default every wheel event will advance +30 or -30 seconds. This value
+can be change in the preferences dialog. Setting to 0 disables this
+feature.
+
+[b]Version 070124-2[/b]
+* Added 3 new options to the preferences dialog: 
+
+- disable screensaver 
+- resize method 
+- mplayer cache 
+
+Now I think all options in the config file can be set through the
+preferences dialog.
+
+[b]Version 070123[/b]
+* Some changes in the preferences dialog:
+
+- Now a combobox allows you to select your CD/DVD device. In linux some
+usual names are used (/dev/dvd, /dvd/cdrom, etc.). In windows it should
+display the drive's letters (C: D: etc) but I haven't tested yet.
+
+- Now the user can choose the video and audio drivers from a list (shows
+all available drivers in your mplayer).
+
+[img]http://www.uploadfile.info/uploads/64e14ba167.jpg[/img]
+
+[b]Version 070122-11[/b]
+* Found an easier way to change the background color in Qt 4. The
+visible change is that now the background in statusbar will be black as
+in Qt 3. 
+* When clicked with the mouse right button to pop up the context menu,
+the main window stopped receiving keyboard events. I hope this is fix
+now. 
+* Changed some icons.
+
+[b]Version 070122-2[/b]
+* Now the screensaver in windows is disabled during playback (the
+screensaver is disabled in x11 too since some versions ago). 
+* Now the mouse cursor disappears over the video window if it's not
+moved for some seconds, and appears again when it's moved.
+
+[b]Version 070121-11[/b]
+* The option autoload_sub=false didn't work. Fixed (I hope). 
+* Added more options to the preferences dialog. It's a little bit ugly
+but all options should work.
+
+[b]Version 070121-2[/b]
+* Started to write the preferences dialog. There's a lot of work to do,
+but the options that appears in it should work.
+
+The subtitles' page is almost complete!
+
+[img]http://www.uploadfile.info/uploads/f57fc459d3.jpg[/img]
+
+[b]Version 070119-2[/b]
+* Well, I removed that horrible logo I made the other day and now I used
+some icons from
+[url=http://www.kde-look.org/content/show.php?content=31585]Vista-Inspirate[/url].
+* Some new options for the [preferences] section in config file:
+
+[b]resize_method=(int)[/b]
+
+This options controls the way the main window should resize. The possible values are:
+
+0 : the main window never resizes. The user is the only one allowed to
+resize the window.
+1 : the main window resizes every time it's needed (this is the
+default).
+2 : the main window resizes only after loading a new video, but not
+after restarting mplayer. That means that if the user resizes the
+window, the new size will be respected (until a new video is loaded).
+
+
+[b]mplayer_additional_options=(string)[/b]
+
+Here you can pass other options to mplayer. The options should be
+separated by spaces. If a option requires a filename, this should NOT
+contain spaces.
+
+Example:
+mplayer_additional_options=-flip -softvol
+
+Be carefully, some options could interfere with the ones smplayer uses.
+
+[b]mplayer_additional_video_filters=(string][/b]
+
+Here you can add additional video filters. They should be separated by
+",". Don't use spaces!
+
+Example:
+mplayer_additional_video_filters=hqdn3d,pp=vb/hb
+
+
+[b]mplayer_additional_audio_filters=(string][/b]
+
+The same but for audio.
+Example:
+
+mplayer_additional_audio_filters=volnorm,equalizer=11:11:10:5:0:-12:0:5:12:12
+
+* I also made a (incompatible) change in the way the file preferences
+are stored in the config file. That means that this version won't
+remember your previous file settings.
+
+[b]Version 070117-12[/b]
+
+* Well, I think the only visible change is the option Options->View
+info, which shows some info about the current video. 
+* There are some changes in the configuration file (~/.qt/smplayerrc): 
+
+vo=(string) 
+
+vo is the video output driver. It already existed before. But now I
+change the default value. Previously the default value was "directx" for
+windows, "xv" for the rest. 
+
+Now there is no default. If vo is empty, smplayer would get the info
+from mplayer, and will save it in the config file. 
+That (theorically) would allow smplayer to run in other OS where maybe
+"xv" doesn't even exist. 
+
+Added the option 
+ao=(string) 
+
+audio output driver, with the same behavior of vo. 
+
+And finally, added the option subcp, which allows to select the font
+encoding for subtitles.
+
+[b]Version 070117-2[/b]
+* Fixed a bug when parsing the A: V: line. Big big numbers weren't read
+correctly.
+* Added some options for the configuration file:
+
+font_autoscale= (int)
+font_textscale= (int) 
+
+use_fontconfig= (bool)
+font_name= (string)
+font_file= (string)
+
+font_autoscale and font_textscale are the equivalents to
+-subfont-autoscale and -subfont-text-scale in mplayer.
+
+If use_fontconfig is true then the font used for subtitles will be
+font_name. Example:
+
+use_fontconfig=true
+font_name=Utopia
+
+In the case use_fontconfig is false, then it will try to use font_file
+(which has to be a full path to a ttf font). Example:
+
+use_fontconfig=false
+font_file=/home/ricardo/.fonts/comicbd.ttf
+
+So now you can get something like this:
+[img]http://www.uploadfile.info/uploads/c2e06dd51a.jpg[/img]
+
+Of course, all of this will be easier when I write the preferences
+dialog.
+
+[b]Version 070116-2[/b]
+* Added options for changing playback speed.
+
+[b]Version 070115-1[/b]
+* Just a very small fix with the mute option. It wasn't been remebered
+between mplayer resets and audio track switches.
+
+[b]Version 070114-2[/b]
+* Fixed (I hope) a bug relative to subtitles. smplayer didn't remember
+that you had selected the "none" subtitle and always loaded the first
+available subtitle. Now, when you load a video for first time it will
+load the first available subtitle but if you change to "none" it should
+remember the next time you open the same video. 
+ 
+* Added and option to select angle in DVDs. Unfortunately I don't have a
+multiangle dvd, so this option is untested. Can anyone tell me if it
+really works? 
+  
+* For audio, chapter, title and angle menus: added an <empty> item if
+the menu is empty.
+
+* Added a button to mute. And two nice icons borrowed from kplayer... 
+
+[img]http://www.uploadfile.info/uploads/ac23679650.jpg[/img]

@@ -1,0 +1,79 @@
+Would you like to see smplayer translated to your own language?
+
+Making a translation is easy. 
+
+You need a tool called "Linguist". 
+
+In linux it should be in qt-devel, libqt-dev (or similar) or in its own
+package (maybe as qt-linguist).
+
+In windows it's included in the Qt opensource edition. But this package
+is very large, about ~50 MB size (it includes all necessary to compile
+Qt applications). To make things easier I created a small zip which
+contains Linguist only (~ 4 MB). You can get it
+[url=http://downloads.sourceforge.net/smplayer/Linguist.zip?use_mirror=osdn]here[/url].
+This package doesn't include the documentation, but you can consult it
+on-line, [url=http://doc.trolltech.com/4.2/linguist-translators.html]here[/url].
+
+[img]http://smplayer.sourceforge.net/screenshots2/linguist2.jpg[/img]
+
+Now run linguist, and open one of the *.ts files included in the source
+code of smplayer, for instance smplayer_es.ts.
+
+You will see the original source text in English and the translated one.
+Just make the translation to your language.
+
+If you prefer to start with an empty file (no translations) you can get this 
+file (http://smplayer.sourceforge.net/linux/download/smplayer_empty_0.4.15.zip)
+
+You'll have to press Ctrl+Enter in every translation to check it as
+"done" (it will appear with a green check mark). Phrases not marked as
+"done" will appear with a yellow question mark, and the translation
+won't be used.
+
+Just remember to save it later with a different name. If you translate
+to italian, save it as smplayer_it.ts.
+
+Two important things to know:
+
+ * Some strings have variables: %1, %2 and so on. Examples: "The file %1
+already exists", "Copying %1 to %2".  Those variables will be replaced
+at runtime with a filename, a number or something else (you'll know from
+the context). You may change the order of the variables if your language
+needs it.
+
+ * Accelerators: in some texts you will see something like this:
+"&Open". At runtime it will appear with the O underlined:
+[b][u]O[/u]pen[/b]. That means that the O key will be used as a key
+accelerator. But probably in your language the "open" word doesn't have
+a O. In Spanish for instance "open" is "abrir". So you will have to
+choose a new letter for the accelerator: &Abrir, but it can also be
+A&brir or Ab&rir, or whatever you want. But you have to take care of not
+repeating the same accel for different options in the same menu
+(Linguist will warn you with a red exclamation mark)
+
+Once you have finished the translation you'll probably want it to see in
+smplayer. In linguist select Open->Release and that will create a *.qm
+file. Copy it to wherever you have the smplayer executable and that's
+it.
+
+The last step is to send me the translation (the *.ts file). I will add
+to the source code and your translation will available for everyone.
+
+If you later want to update your translation, just get from time to time
+the smplayer sources, open the ts file in linguist and translate the new
+phrases.
+
+It seems a lot of people is having problems to find my e-mail address...
+(it's on the about dialog). 
+
+You can send your translations to: rvm@escomposlinux.org 
+
+By the way, if you're planning to make a translation maybe it's a good
+idea if you first tell me or announce it here, to avoid duplications. 
+
+And something else: I'm releasing new versions almost every day (maybe
+because I don't know how to use a svn), but of course it's not necessary
+that you update your translation so often. Maybe once a week, or once
+every two weeks or once a month... as you like :)
+

@@ -1,0 +1,38 @@
+SMPlayer 0.5.0 release notes.
+
+This document is intented for people updating from version 0.3.0.
+I'll try to enumerate the most important changes:
+
+ * New GUI. Now there are toolbars, the control at the bottom is different
+   (and it changes if the window is made smaller), the icons can be changed
+   (several icon themes are available). In fullscreen mode the floating 
+   control that appears when you move the mouse to the bottom of the screen is 
+   new too and this time the video doesn't resize when it shows.
+ * Configurable key shortcuts. A shortcut editor has been added, it's 
+   located at "Preferences->Mouse & keyboard". Please read 
+   Configurable_shortcuts.txt.
+ * Support for VCD. Now you can also play VCD discs. (This feature doesn't 
+   work on Windows, as currently MPlayer on Windows has no support for VCD yet)
+ * System tray icon. Now it's possible to leave SMPlayer running in the
+   system tray. This feature requires Qt 4.2. It works in Linux 
+   (all window managers that implement the freedesktop.org system tray 
+   specification, including recent versions of KDE and GNOME) and Windows.
+   It's also possible to have this feature with Qt 3, if SMPlayer is compiled
+   with KDE support. By the way...
+ * Added support for KDE 3. Optionally SMPlayer can be compiled with KDE 
+   support. It will use the KDE open dialogs, and there will be an option to
+   dock the application in the system tray.
+ * Added some new functions, like pan&scan, stay on top, set the size of
+   the window...
+ * Improved support for subtitles. For instance, now you can load a idx/sub 
+   file and you'll be able to select among all languages that the file 
+   provides. You can have a mkv file with embedded subtitles, load an idx/sub 
+   file (or srt, sub...) and all subtitles will be available. 
+ * New translations. SMPlayer 0.5.0 is translated (totally or partially) to 
+   the following languages:
+   Bulgarian, Czech, German, Spanish, French, Hungarian, Italian, Japanese,
+   Georgian, Dutch, Polish, Brazilian Portuguese, Russian, Slovak, Serbian,
+   Swedish, Turkish, Ukrainian, Simplified-Chinese and Traditional Chinese.
+   By the way, now it's possible to change the language at run-time.
+
+For a detailed list of changes you can read the Changelog file.
