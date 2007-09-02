@@ -28,6 +28,7 @@
 
 #include "timeslider.h"
 #include "images.h"
+#include "helper.h"
 
 
 class MyToolButton : public QToolButton {
@@ -38,7 +39,7 @@ public:
 MyToolButton::MyToolButton( QWidget * parent ) : QToolButton(parent) 
 {
 	setAutoRaise(true);
-	setUsesBigPixmap(true);
+	setIconSize( QSize(32,32) );
 }
 
 
@@ -64,11 +65,10 @@ FloatingControl::FloatingControl( QWidget * parent )
 #if NEW_CONTROLWIDGET
 	time_label = new QLabel(this);
 	time_label->setAlignment(Qt::AlignVCenter | Qt::AlignHCenter);
-    #if QT_VERSION >= 0x040100
 	time_label->setAutoFillBackground(TRUE);
-	#endif
-	time_label->setPaletteBackgroundColor( QColor(0,0,0) );
-    time_label->setPaletteForegroundColor( QColor(255,255,255) );
+
+	Helper::setBackgroundColor( time_label, QColor(0,0,0) );
+	Helper::setForegroundColor( time_label, QColor(255,255,255) );
 	time_label->setText( "00:00:00" );
 	time_label->setFrameShape( QFrame::Panel );
 	time_label->setFrameShadow( QFrame::Sunken );
@@ -77,11 +77,10 @@ FloatingControl::FloatingControl( QWidget * parent )
 	lcd->setNumDigits(10); // maximum time with 10 digits is 9999:59:59
 	lcd->setFrameShape( QFrame::WinPanel );
 	lcd->setFrameShadow( QFrame::Sunken );
-    #if QT_VERSION >= 0x040100
 	lcd->setAutoFillBackground(TRUE);
-	#endif
-	lcd->setPaletteBackgroundColor( QColor(0,0,0) );
-	lcd->setPaletteForegroundColor( QColor(200,200,200) );
+
+	Helper::setBackgroundColor( lcd, QColor(0,0,0) );
+	Helper::setForegroundColor( lcd, QColor(200,200,200) );
 	lcd->setSegmentStyle( QLCDNumber::Flat );
 	lcd->setSizePolicy( QSizePolicy::Expanding, QSizePolicy::Fixed);
 #endif

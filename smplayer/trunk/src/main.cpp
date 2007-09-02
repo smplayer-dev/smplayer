@@ -162,7 +162,8 @@ void printHelp(QString parameter, QString help) {
 
 void showHelp(QString app_name) {
 	printf( "%s\n", formatText(QObject::tr("Usage: %1 [-ini-path [directory]] "
-                        "[-action action_name] [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] "
+                        "[-send-action action_name] [-actions action_list "
+                        "[-close-at-end] [-help|--help|-h|-?] [[-playlist] media] "
                         "[[-playlist] media]...").arg(app_name), 80).toLocal8Bit().data() );
 
 	printHelp( "-ini-path", QObject::tr(
@@ -170,12 +171,20 @@ void showHelp(QString app_name) {
         "(smplayer.ini). If directory is omitted, the application "
         "directory will be used.") );
 
-	printHelp( "-action", QObject::tr(
+	printHelp( "-send-action", QObject::tr(
 		"tries to make a connection to another running instance "
-        "and send to it the specified action. Example: -action pause "
+        "and send to it the specified action. Example: -send-action pause "
         "The rest of options (if any) will be ignored and the "
         "application will exit. It will return 0 on success or -1 "
         "on failure.") );
+
+	printHelp( "-actions", QObject::tr(
+		"action_list is a list of actions separated by spaces. "
+		"The actions will be executed just after loading the file (if any) "
+		"in the same order you entered. For checkable actions you can pass "
+		"true or false as parameter. Example: "
+		"-actions \"fullscreen compact true\". Quotes are necessary in "
+		"case you pass more than one action.") );
 
 	printHelp( "-close-at-end", QObject::tr(
 		"the main window will be closed when the file/playlist finishes.") );
@@ -183,7 +192,7 @@ void showHelp(QString app_name) {
 	printHelp( "-help", QObject::tr(
 		"will show this message and then will exit.") );
 
-	printHelp( "media", QObject::tr(
+	printHelp( QObject::tr("media"), QObject::tr(
 		"'media' is any kind of file that SMPlayer can open. It can "
         "be a local file, a DVD (e.g. dvd://1), an Internet stream "
         "(e.g. mms://....) or a local playlist in format m3u. "
@@ -215,6 +224,7 @@ int main( int argc, char ** argv )
 	QString ini_path="";
 	QStringList files_to_play;
 	QString action; // Action to be passed to running instance
+	QString actions_list; // Actions to be run on startup
 
 	QString app_name = QFileInfo(a.applicationFilePath()).baseName();
 	qDebug("main: app name: %s", app_name.toUtf8().data());
@@ -247,13 +257,22 @@ int main( int argc, char ** argv )
 				}
 			}
 			else
-			if (argument == "-action") {
-				//qDebug( "ini_path: %d %d", n+1, arg_count );
+			if (argument == "-send-action") {
 				if (n+1 < arg_count) {
 					n++;
 					action = a.arguments()[n];
 				} else {
-					printf("Error: expected parameter for -action\r\n");
+					printf("Error: expected parameter for -send-action\r\n");
+					return -1;
+				}
+			}
+			else
+			if (argument == "-actions") {
+				if (n+1 < arg_count) {
+					n++;
+					actions_list = a.arguments()[n];
+				} else {
+					printf("Error: expected parameter for -actions\r\n");
 					return -1;
 				}
 			}
@@ -344,6 +363,8 @@ int main( int argc, char ** argv )
 
 	if (!w->startHidden() || !files_to_play.isEmpty() ) w->show();
 	if (!files_to_play.isEmpty()) w->openFiles(files_to_play);
+
+	if (!actions_list.isEmpty()) w->runActions(actions_list);
 
 	a.connect( &a, SIGNAL( lastWindowClosed() ), &a, SLOT( quit() ) );
 

@@ -608,7 +608,7 @@ Voulez-vous l&apos;écraser ?</translation>
         <translation>4:3 &amp;à 16:9</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1674"/>
+        <location filename="../basegui.cpp" line="1672"/>
         <source>&amp;None</source>
         <translation>Aucu&amp;n</translation>
     </message>
@@ -733,74 +733,74 @@ Voulez-vous l&apos;écraser ?</translation>
         <translation>SMPlayer - SMPlayer log</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1791"/>
+        <location filename="../basegui.cpp" line="1789"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;vide&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2065"/>
+        <location filename="../basegui.cpp" line="2063"/>
         <source>Video</source>
         <translation>Vidéo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2228"/>
+        <location filename="../basegui.cpp" line="2226"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2068"/>
+        <location filename="../basegui.cpp" line="2066"/>
         <source>Playlists</source>
         <translation>Listes de lecture</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2229"/>
+        <location filename="../basegui.cpp" line="2227"/>
         <source>All files</source>
         <translation>Tous les fichiers</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2226"/>
+        <location filename="../basegui.cpp" line="2224"/>
         <source>Choose a file</source>
         <translation>Choisir un fichier</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2101"/>
+        <location filename="../basegui.cpp" line="2099"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Information</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2104"/>
+        <location filename="../basegui.cpp" line="2102"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Les lecteurs CD/DVD ne sont pas encore configurés.
 La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassiez maintenant.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2178"/>
+        <location filename="../basegui.cpp" line="2176"/>
         <source>Choose a directory</source>
         <translation>Choisir un dossier</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2213"/>
+        <location filename="../basegui.cpp" line="2211"/>
         <source>Subtitles</source>
         <translation>Sous-titres</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2240"/>
+        <location filename="../basegui.cpp" line="2238"/>
         <source>About Qt</source>
         <translation>A propos de Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2487"/>
+        <location filename="../basegui.cpp" line="2525"/>
         <source>Playing %1</source>
         <translation>Lecture de %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2488"/>
+        <location filename="../basegui.cpp" line="2526"/>
         <source>Pause</source>
         <translation>Pause</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2489"/>
+        <location filename="../basegui.cpp" line="2527"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
@@ -1134,22 +1134,22 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="327"/>
+        <location filename="../defaultgui.cpp" line="326"/>
         <source>Welcome to SMPlayer</source>
         <translation>Bienvenue dans SMPlayer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="348"/>
+        <location filename="../defaultgui.cpp" line="347"/>
         <source>Volume</source>
         <translation>Volume</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="350"/>
+        <location filename="../defaultgui.cpp" line="349"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="351"/>
+        <location filename="../defaultgui.cpp" line="350"/>
         <source>Subtitle</source>
         <translation>Sous-titres</translation>
     </message>
@@ -1159,17 +1159,17 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
         <translation type="obsolete">Liste de lecture</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="341"/>
+        <location filename="../defaultgui.cpp" line="340"/>
         <source>&amp;Main toolbar</source>
         <translation>Barre d&apos;outils pri&amp;ncipale</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="342"/>
+        <location filename="../defaultgui.cpp" line="341"/>
         <source>&amp;Language toolbar</source>
         <translation>Barre de &amp;langues</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="344"/>
+        <location filename="../defaultgui.cpp" line="343"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Barre d&apos;outils</translation>
     </message>
@@ -3115,12 +3115,12 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation>Sous-titres</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="279"/>
+        <location filename="../prefsubtitles.cpp" line="275"/>
         <source>Choose a ttf file</source>
         <translation>Choisir un fichier ttf</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="281"/>
+        <location filename="../prefsubtitles.cpp" line="277"/>
         <source>Truetype Fonts</source>
         <translation>Polices truetype</translation>
     </message>
@@ -3305,17 +3305,17 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation>Styles :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="309"/>
+        <location filename="../prefsubtitles.cpp" line="305"/>
         <source>Subtitle position</source>
         <translation>Position du sous-titrage</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="312"/>
+        <location filename="../prefsubtitles.cpp" line="308"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
         <translation>Cette option spécifie la position des sous-titres par rapport à la fenêtre. &lt;i&gt;100&lt;/i&gt; veut dire le bas, et &lt;i&gt;0&lt;/i&gt; le haut.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="314"/>
+        <location filename="../prefsubtitles.cpp" line="310"/>
         <source>SSA/ASS styles</source>
         <translation>Styles SSA/ASS</translation>
     </message>
@@ -3356,42 +3356,42 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../helper.cpp" line="198"/>
+        <location filename="../helper.cpp" line="199"/>
         <source>1 second</source>
         <translation>1 seconde</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="200"/>
+        <location filename="../helper.cpp" line="201"/>
         <source>%1 seconds</source>
         <translation>%1 secondes</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="213"/>
+        <location filename="../helper.cpp" line="214"/>
         <source>%1 minutes</source>
         <translation>%1 minutes</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="218"/>
+        <location filename="../helper.cpp" line="219"/>
         <source>%1 minutes and %2 seconds</source>
         <translation>%1 minutes and %2 secondes</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="205"/>
+        <location filename="../helper.cpp" line="206"/>
         <source>1 minute</source>
         <translation>1 minute</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="208"/>
+        <location filename="../helper.cpp" line="209"/>
         <source>1 minute and 1 second</source>
         <translation>1 minute and 1 seconde</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="210"/>
+        <location filename="../helper.cpp" line="211"/>
         <source>1 minute and %1 seconds</source>
         <translation>1 minute and %1 secondes</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="216"/>
+        <location filename="../helper.cpp" line="217"/>
         <source>%1 minutes and 1 second</source>
         <translation>%1 minutes and 1 seconde</translation>
     </message>
@@ -3460,32 +3460,52 @@ Si -playlist est utilisée, cela veut dire que SMPlayer passera l&apos;informati
     <message>
         <location filename="../main.cpp" line="166"/>
         <source>Usage: %1 [-ini-path [directory]] [-action action_name] [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation>Usage : %1 [-ini-path [dossier]] [-action nom_action] [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
+        <translation type="obsolete">Usage : %1 [-ini-path [dossier]] [-action nom_action] [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="171"/>
+        <location filename="../main.cpp" line="172"/>
         <source>specifies the directory for the configuration file (smplayer.ini). If directory is omitted, the application directory will be used.</source>
         <translation>spécifie le dossier pour le fichier de configuration (smplayer.ini).</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="178"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
-        <translation>essaye de faire une connexion avec une autre instance et lui envoie l&apos;action spécifiée. Exemple : -action pause Le reste des options (s&apos;il y en a) seront ignorés et l&apos;application quittera. Cela retournera 0 si succès, et -1 si erreur.</translation>
+        <translation type="obsolete">essaye de faire une connexion avec une autre instance et lui envoie l&apos;action spécifiée. Exemple : -action pause Le reste des options (s&apos;il y en a) seront ignorés et l&apos;application quittera. Cela retournera 0 si succès, et -1 si erreur.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="181"/>
+        <location filename="../main.cpp" line="190"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>la fenêtre principale sera fermée lorsque le fichier ou la liste de lecture sera fini(e).</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="184"/>
+        <location filename="../main.cpp" line="193"/>
         <source>will show this message and then will exit.</source>
         <translation>montrera un message et quittera.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="192"/>
+        <location filename="../main.cpp" line="201"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation>&apos;media&apos; est le format de fichier que peut ouvrir SMPlayer. Il peut être local (dvd://1), externe comme un Stream internet (mms://...) ou une liste de lecture (format m3u). Si -playlist est utilisée, cela veut dire que SMPlayer passera l&apos;information à MPlayer. Alors c&apos;est MPlayer qui tiendra la liste de lectue, pas SMPlayer.</translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="167"/>
+        <source>Usage: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="179"/>
+        <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="187"/>
+        <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="195"/>
+        <source>media</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -22,6 +22,7 @@
 #include "images.h"
 #include "global.h"
 #include "desktopinfo.h"
+#include "helper.h"
 
 #include <QLabel>
 #include <QTimer>
@@ -142,21 +143,15 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	offset_y = 0;
 	zoom_factor = 1.0;
 
-	#if QT_VERSION >= 0x040100
-	setAutoFillBackground(TRUE);
-	#endif
-	setBackgroundColor( QColor(0,0,0) );
+	setAutoFillBackground(true);
+	Helper::setBackgroundColor( this, QColor(0,0,0) );
 
 	mplayerlayer = new MplayerLayer( this );
-	#if QT_VERSION >= 0x040100
 	mplayerlayer->setAutoFillBackground(TRUE);
-	#endif
 
 	logo = new QLabel( mplayerlayer );
-	#if QT_VERSION >= 0x040100
 	logo->setAutoFillBackground(TRUE);
-	#endif
-	logo->setBackgroundColor( QColor(0,0,0) );
+	Helper::setBackgroundColor( logo, QColor(0,0,0) );
 
 	QVBoxLayout * mplayerlayerLayout = new QVBoxLayout( mplayerlayer );
 	mplayerlayerLayout->addWidget( logo, 0, Qt::AlignHCenter | Qt::AlignVCenter );
@@ -177,7 +172,7 @@ MplayerWindow::~MplayerWindow() {
 }
 
 void MplayerWindow::setColorKey( QColor c ) {
-	mplayerlayer->setBackgroundColor( c );
+	Helper::setBackgroundColor( mplayerlayer, c );
 }
 
 void MplayerWindow::retranslateStrings() {

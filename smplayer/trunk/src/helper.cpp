@@ -24,6 +24,7 @@
 #include <QRegExp>
 #include <QDir>
 #include <QTextCodec>
+#include <QWidget>
 #include "config.h"
 
 #include <QLibraryInfo>
@@ -263,6 +264,18 @@ QString Helper::colorToRGB(unsigned int color) {
 
 	QString s;
 	return s.sprintf("%02x%02x%02x", c.red(), c.green(), c.blue() );
+}
+
+void Helper::setForegroundColor(QWidget * w, const QColor & color) {
+	QPalette p = w->palette(); 
+	p.setColor(w->foregroundRole(), color); 
+	w->setPalette(p);
+}
+
+void Helper::setBackgroundColor(QWidget * w, const QColor & color) {
+	QPalette p = w->palette(); 
+	p.setColor(w->backgroundRole(), color); 
+	w->setPalette(p);
 }
 
 QString Helper::changeSlashes(QString filename) {

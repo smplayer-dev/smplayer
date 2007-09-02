@@ -23,7 +23,8 @@
 #include <QString>
 #include <QStringList>
 
-class Q3Process;
+class QWidget;
+class QColor;
 
 class Helper 
 {
@@ -67,6 +68,12 @@ public:
 
 	static QString colorToRGBA(unsigned int color);
 	static QString colorToRGB(unsigned int color);
+
+	//! Changes the foreground color of the specified widget
+	static void setForegroundColor(QWidget * w, const QColor & color);
+
+	//! Changes the background color of the specified widget
+	static void setBackgroundColor(QWidget * w, const QColor & color);
 
 	//! Change filenames like "C:/Program Files/" to "C:\Program Files\"
 	static QString changeSlashes(QString filename);

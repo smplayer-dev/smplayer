@@ -468,7 +468,7 @@ Do you want to overwrite?</source>
         <translation>アスペクト比(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1674"/>
+        <location filename="../basegui.cpp" line="1672"/>
         <source>&amp;None</source>
         <translation>なし(&amp;N)</translation>
     </message>
@@ -718,74 +718,74 @@ Do you want to overwrite?</source>
         <translation>SMPlayer のバージョン情報(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1791"/>
+        <location filename="../basegui.cpp" line="1789"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;空&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2065"/>
+        <location filename="../basegui.cpp" line="2063"/>
         <source>Video</source>
         <translation>ビデオ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2228"/>
+        <location filename="../basegui.cpp" line="2226"/>
         <source>Audio</source>
         <translation>オーディオ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2068"/>
+        <location filename="../basegui.cpp" line="2066"/>
         <source>Playlists</source>
         <translation>プレイリスト</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2229"/>
+        <location filename="../basegui.cpp" line="2227"/>
         <source>All files</source>
         <translation>すべてのファイル</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2226"/>
+        <location filename="../basegui.cpp" line="2224"/>
         <source>Choose a file</source>
         <translation>ファイルを選択します</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2101"/>
+        <location filename="../basegui.cpp" line="2099"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - 情報</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2104"/>
+        <location filename="../basegui.cpp" line="2102"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CDROM / DVD ドライブがまだ構成されていません。
 構成ダイアログが今すぐ表示されます、そうすることができます。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2178"/>
+        <location filename="../basegui.cpp" line="2176"/>
         <source>Choose a directory</source>
         <translation>ディレクトリを選択します</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2213"/>
+        <location filename="../basegui.cpp" line="2211"/>
         <source>Subtitles</source>
         <translation>字幕</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2240"/>
+        <location filename="../basegui.cpp" line="2238"/>
         <source>About Qt</source>
         <translation>Qt のバージョン情報</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2487"/>
+        <location filename="../basegui.cpp" line="2525"/>
         <source>Playing %1</source>
         <translation>%1 を再生中</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2488"/>
+        <location filename="../basegui.cpp" line="2526"/>
         <source>Pause</source>
         <translation>一時停止</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2489"/>
+        <location filename="../basegui.cpp" line="2527"/>
         <source>Stop</source>
         <translation>停止</translation>
     </message>
@@ -1124,22 +1124,22 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="327"/>
+        <location filename="../defaultgui.cpp" line="326"/>
         <source>Welcome to SMPlayer</source>
         <translation>SMPlayer へようこそ</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="348"/>
+        <location filename="../defaultgui.cpp" line="347"/>
         <source>Volume</source>
         <translation>音量</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="350"/>
+        <location filename="../defaultgui.cpp" line="349"/>
         <source>Audio</source>
         <translation>オーディオ</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="351"/>
+        <location filename="../defaultgui.cpp" line="350"/>
         <source>Subtitle</source>
         <translation>字幕</translation>
     </message>
@@ -1149,17 +1149,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="obsolete">プレイリスト</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="341"/>
+        <location filename="../defaultgui.cpp" line="340"/>
         <source>&amp;Main toolbar</source>
         <translation>メイン ツール バー(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="342"/>
+        <location filename="../defaultgui.cpp" line="341"/>
         <source>&amp;Language toolbar</source>
         <translation>言語ツール バー(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="344"/>
+        <location filename="../defaultgui.cpp" line="343"/>
         <source>&amp;Toolbars</source>
         <translation>ツール バー(&amp;T)</translation>
     </message>
@@ -3105,27 +3105,27 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>字幕</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="279"/>
+        <location filename="../prefsubtitles.cpp" line="275"/>
         <source>Choose a ttf file</source>
         <translation>Ttf ファイルを選択します</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="281"/>
+        <location filename="../prefsubtitles.cpp" line="277"/>
         <source>Truetype Fonts</source>
         <translation>Truetype フォント</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="309"/>
+        <location filename="../prefsubtitles.cpp" line="305"/>
         <source>Subtitle position</source>
         <translation>字幕の位置</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="312"/>
+        <location filename="../prefsubtitles.cpp" line="308"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
         <translation>このオプションはビデオ ウィンドウ上の字幕の位置を指定します。&lt;i&gt;100&lt;/i&gt; は最下を意味しますが、&lt;i&gt;0&lt;/i&gt; は最上を意味します。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="314"/>
+        <location filename="../prefsubtitles.cpp" line="310"/>
         <source>SSA/ASS styles</source>
         <translation>SSA/ASS スタイル</translation>
     </message>
@@ -3346,72 +3346,72 @@ The drop-down lists may provide already made regular expression for several lang
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../helper.cpp" line="198"/>
+        <location filename="../helper.cpp" line="199"/>
         <source>1 second</source>
         <translation>1 秒</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="200"/>
+        <location filename="../helper.cpp" line="201"/>
         <source>%1 seconds</source>
         <translation>%1 秒</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="213"/>
+        <location filename="../helper.cpp" line="214"/>
         <source>%1 minutes</source>
         <translation>%1 分</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="218"/>
+        <location filename="../helper.cpp" line="219"/>
         <source>%1 minutes and %2 seconds</source>
         <translation>%1 分と %2 秒</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="205"/>
+        <location filename="../helper.cpp" line="206"/>
         <source>1 minute</source>
         <translation>1 分</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="208"/>
+        <location filename="../helper.cpp" line="209"/>
         <source>1 minute and 1 second</source>
         <translation>1 分と 2 秒</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="210"/>
+        <location filename="../helper.cpp" line="211"/>
         <source>1 minute and %1 seconds</source>
         <translation>1 分と %1 秒</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="216"/>
+        <location filename="../helper.cpp" line="217"/>
         <source>%1 minutes and 1 second</source>
         <translation>%1 分と 1 秒</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="166"/>
         <source>Usage: %1 [-ini-path [directory]] [-action action_name] [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation>使用法: %1 [-ini-path [ディレクトリ]] [-action アクション名] [-close-at-end] [-help|--help|-h|-?] [[-playlist] メディア] [[-playlist] メディア]...</translation>
+        <translation type="obsolete">使用法: %1 [-ini-path [ディレクトリ]] [-action アクション名] [-close-at-end] [-help|--help|-h|-?] [[-playlist] メディア] [[-playlist] メディア]...</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="171"/>
+        <location filename="../main.cpp" line="172"/>
         <source>specifies the directory for the configuration file (smplayer.ini). If directory is omitted, the application directory will be used.</source>
         <translation>構成ファイルのディレクトリを指定します (smplayer.ini)。ディレクトリが省略されている場合、アプリケーション ディレクトリが使用されます。</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="178"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
-        <translation>別の起動への接続の作成と指定された動作の送信を試行します。例: -action pause 残りのオプションは (もしあれば) 無視されてアプリケーションは終了します。成功時には 0 または 失敗時には -1 を返します。</translation>
+        <translation type="obsolete">別の起動への接続の作成と指定された動作の送信を試行します。例: -action pause 残りのオプションは (もしあれば) 無視されてアプリケーションは終了します。成功時には 0 または 失敗時には -1 を返します。</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="184"/>
+        <location filename="../main.cpp" line="193"/>
         <source>will show this message and then will exit.</source>
         <translation>このメッセージを表示して次に終了します。</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="192"/>
+        <location filename="../main.cpp" line="201"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation>&apos;メディア&apos; は SMPlayer が開くことのできるファイルのすべてのものです。ローカル ファイル、DVD (例えば dvd://1)、インターネット ストリーム (例えば mms://....) またはフォーマット m3u のローカル プレイリストにできます。-playlist オプションが使用されている場合、それは MPlayer が SMPlayer ではなく、プレイリストをハンドルするように、SMPlayer が MPlayer へ -playlist オプションを渡すことを意味します。</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="181"/>
+        <location filename="../main.cpp" line="190"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>メイン ウィンドウはファイル/プレイリストの完了時に閉じられます。</translation>
     </message>
@@ -3419,6 +3419,26 @@ The drop-down lists may provide already made regular expression for several lang
         <location filename="../main.cpp" line="81"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>これは %2 で起動中の SMPlayer v. %1 です</translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="167"/>
+        <source>Usage: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="179"/>
+        <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="187"/>
+        <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="195"/>
+        <source>media</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

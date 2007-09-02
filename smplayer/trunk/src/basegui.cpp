@@ -1104,10 +1104,8 @@ void BaseGui::createPanel() {
 	panel->setFocusPolicy( Qt::StrongFocus );
 
 	// panel
-	#if QT_VERSION >= 0x040100
 	panel->setAutoFillBackground(TRUE);
-	#endif
-	panel->setBackgroundColor( QColor(0,0,0) );
+	Helper::setBackgroundColor( panel, QColor(0,0,0) );
 }
 
 void BaseGui::createPreferencesDialog() {
@@ -2355,6 +2353,46 @@ void BaseGui::processFunction(QString function) {
 			action->toggle();
 		else
 			action->trigger();
+	}
+}
+
+void BaseGui::runActions(QString actions) {
+	qDebug("BaseGui::runActions");
+
+	QAction * action;
+	QStringList l = actions.split(" ");
+
+	for (int n = 0; n < l.count(); n++) {
+		QString a = l[n];
+		QString par = "";
+
+		if ( (n+1) < l.count() ) {
+			if ( (l[n+1].toLower() == "true") || (l[n+1].toLower() == "false") ) {
+				par = l[n+1].toLower();
+				n++;
+			}
+		}
+
+		action = ActionsEditor::findAction(this, a);
+		if (!action) action = ActionsEditor::findAction(playlist, a);
+
+		if (action) {
+			qDebug("BaseGui::runActions: running action: '%s' (par: '%s')",
+                   a.toUtf8().data(), par.toUtf8().data() );
+
+			if (action->isCheckable()) {
+				if (par.isEmpty()) {
+					action->toggle();
+				} else {
+					action->setChecked( (par == "true") );
+				}
+			}
+			else {
+				action->trigger();
+			}
+		} else {
+			qWarning("BaseGui::runActions: action: '%s' not found",a.toUtf8().data());
+		}
 	}
 }
 
