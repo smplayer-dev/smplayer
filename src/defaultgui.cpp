@@ -313,15 +313,14 @@ void DefaultGui::createStatusBar() {
 	frame_display->setText("88888888");
 	frame_display->setMinimumSize(frame_display->sizeHint());
 
-    #if QT_VERSION >= 0x040100
 	statusBar()->setAutoFillBackground(TRUE);
-	#endif
-	statusBar()->setPaletteBackgroundColor( QColor(0,0,0) );
-	statusBar()->setPaletteForegroundColor( QColor(255,255,255) );
-	time_display->setPaletteBackgroundColor( QColor(0,0,0) );
-	time_display->setPaletteForegroundColor( QColor(255,255,255) );
-	frame_display->setPaletteBackgroundColor( QColor(0,0,0) );
-	frame_display->setPaletteForegroundColor( QColor(255,255,255) );
+
+	Helper::setBackgroundColor( statusBar(), QColor(0,0,0) );
+	Helper::setForegroundColor( statusBar(), QColor(255,255,255) );
+	Helper::setBackgroundColor( time_display, QColor(0,0,0) );
+	Helper::setForegroundColor( time_display, QColor(255,255,255) );
+	Helper::setBackgroundColor( frame_display, QColor(0,0,0) );
+	Helper::setForegroundColor( frame_display, QColor(255,255,255) );
 	statusBar()->setSizeGripEnabled(FALSE);
 
     statusBar()->showMessage( tr("Welcome to SMPlayer") );

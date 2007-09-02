@@ -208,9 +208,7 @@ void PrefSubtitles::setAssColor( unsigned int color ) {
 	colorButton->setStyleSheet( "border-width: 1px; border-style: solid; border-color: #000000; background: #" + Helper::colorToRGB(ass_color) + ";");
 #else
 	//colorButton->setAutoFillBackground(true);
-	QPalette p = colorButton->palette(); 
-	p.setColor(colorButton->backgroundRole(), color); 
-	colorButton->setPalette(p);
+	Helper::setBackgroundColor( colorButton, color );
 #endif
 }
 
@@ -225,9 +223,7 @@ void PrefSubtitles::setAssBorderColor( unsigned int color ) {
 	borderButton->setStyleSheet( "border-width: 1px; border-style: solid; border-color: #000000; background: #" + Helper::colorToRGB(ass_border_color) + ";");
 #else
 	//borderButton->setAutoFillBackground(true);
-	QPalette p = borderButton->palette(); 
-	p.setColor(borderButton->backgroundRole(), color); 
-	borderButton->setPalette(p);
+	Helper::setBackgroundColor( borderButton, color );
 #endif
 }
 

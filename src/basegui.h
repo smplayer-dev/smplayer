@@ -58,6 +58,11 @@ public:
 	void setExitOnFinish(bool b) { exit_on_finish = b; };
 	bool exitOnFinish() { return exit_on_finish; };
 
+	//! Execute all actions in \a actions. The actions should be
+	//! separated by spaces. Checkable actions could have a parameter:
+	//! true or false.
+	void runActions(QString actions);
+
 public slots:
 	virtual void open(QString file); // Generic open, autodetect type.
     virtual void openFile();

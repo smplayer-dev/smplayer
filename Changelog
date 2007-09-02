@@ -1,3 +1,29 @@
+[b]Version 0.5.49[/b]
+ * Updated the Polish and Ukrainian translations.
+ * Fixed warnings about using deprecated setBackgroundColor.
+ * Renamed command line option -action to -send-action. This option will
+   try to send the specified action to another running instance of smplayer,
+   after that it will quit.
+ * Added a new option for command line: -actions. As opposite to -send-action,
+   this option will run the actions in the same instance. There could be
+   several actions, separated by spaces (and enclosed in quotes). Examples:
+   [i]smplayer video.avi -actions fullscreen[/i] (the file video.avi will be
+   loaded, and just after that fullscreen mode will be toggled).
+   [i]smplayer video.avi -actions "extrastereo_filter on_top"[/i] (will load
+   the video, and then the extrastereo filter and the stay on top options 
+   will be toggled.
+   "Toggled" means: if the option was previosly enabled now it will disabled
+   and vice versa. If you want to be sure that an option will be on or off
+   you can pass "true" or "false" as parameter:
+   [i]smplayer video.avi -actions "on_top true"[/i] (the option Video->Stay on
+   top will be checked, no matter the previous state).
+   [i]smplayer -actions "show_language_toolbar false"[/i] (will hide the 
+   language toolbar)
+   Some actions are not checkable, like open_vcd, double_speed... In that case 
+   you shouldn't use "true" or "false". But if you do it will be ignored.
+   If you make a mistake and enter an action that doesn't exists, you'll get
+   a warning (in the logs or in console) and it'll be ignored.
+
 [b]Version 0.5.48[/b]
  * Updated the Russian and Japanese translations.
  * Now smplayer will also look for icon themes in $HOME/.smplayer/themes. 
