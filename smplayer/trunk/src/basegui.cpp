@@ -2761,10 +2761,10 @@ void BaseGui::changeStyleSheet(QString style) {
 void BaseGui::loadActions() {
 	qDebug("BaseGui::loadActions");
 	ActionsEditor::loadFromConfig(this, settings);
-/*	ActionsEditor::loadFromConfig(playlist, settings); */
+	ActionsEditor::loadFromConfig(playlist, settings);
 
 	actions_list = ActionsEditor::actionsNames(this);
-/*	actions_list += ActionsEditor::actionsNames(playlist); */
+	actions_list += ActionsEditor::actionsNames(playlist);
 
 	//if (server)
 		server->setActionsList( actions_list );
@@ -2774,7 +2774,7 @@ void BaseGui::saveActions() {
 	qDebug("BaseGui::saveActions");
 
 	ActionsEditor::saveToConfig(this, settings);
-/*	ActionsEditor::saveToConfig(playlist, settings); */
+	ActionsEditor::saveToConfig(playlist, settings);
 }
 
 // Language change stuff
