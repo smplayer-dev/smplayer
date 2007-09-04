@@ -216,7 +216,7 @@ void Preferences::reset() {
 	enable_vcd_on_windows = false;
 	enable_audiocd_on_windows = false;
 
-	close_on_finish = true;
+	close_on_finish = false;
 }
 
 void Preferences::save() {
