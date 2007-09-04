@@ -76,8 +76,7 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	: QMainWindow( parent, flags ),
 		last_second(0),
 		near_top(false),
-		near_bottom(false),
-		exit_on_finish(false)
+		near_bottom(false)
 {
 	setWindowTitle( "SMPlayer" );
 
@@ -466,6 +465,10 @@ void BaseGui::createActions() {
 	connect( incSubStepAct, SIGNAL(activated()),
              core, SLOT(incSubStep()) );
 
+	useAssAct = new MyAction(this, "use_ass_lib");
+	useAssAct->setCheckable(true);
+	connect( useAssAct, SIGNAL(toggled(bool)), core, SLOT(changeUseAss(bool)) );
+
 	// Menu Options
 	showPlaylistAct = new MyAction( QKeySequence("Ctrl+L"), this, "show_playlist" );
 	showPlaylistAct->setCheckable( true );
@@ -791,6 +794,7 @@ void BaseGui::retranslateStrings() {
                            tr("&Previous line in subtitles") );
 	incSubStepAct->change( Images::icon("inc_sub_step"), 
                            tr("N&ext line in subtitles") );
+	useAssAct->change( Images::icon("use_ass_lib"), tr("Use SSA/&ASS library") );
 
 	// Menu Options
 	showPlaylistAct->change( Images::icon("playlist"), tr("&Playlist") );
@@ -1297,6 +1301,8 @@ void BaseGui::createMenus() {
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(decSubStepAct);
 	subtitlesMenu->addAction(incSubStepAct);
+	subtitlesMenu->addSeparator();
+	subtitlesMenu->addAction(useAssAct);
 
 	// BROWSE MENU
 	// Titles submenu
@@ -1425,8 +1431,9 @@ void BaseGui::showPreferencesDialog() {
 
 	pref_dialog->mod_input()->actions_editor->clear();
 	pref_dialog->mod_input()->actions_editor->addActions(this);
+#if !DOCK_PLAYLIST
 	pref_dialog->mod_input()->actions_editor->addActions(playlist);
-
+#endif
 	pref_dialog->show();
 }
 
@@ -1926,6 +1933,8 @@ void BaseGui::updateWidgets() {
                              (QFileInfo(pref->screenshot_directory).isDir()) );
 	screenshotAct->setEnabled( valid_directory );
 
+	// Use ass lib
+	useAssAct->setChecked( pref->use_ass_subtitles );
 
 	// Enable or disable subtitle options
 	bool e = !(core->mset.current_sub_id == MediaSettings::SubNone);
@@ -2512,11 +2521,19 @@ void BaseGui::exitFullscreenOnStop() {
 	}
 }
 
+void BaseGui::setCloseOnFinish(bool b) { 
+	pref->close_on_finish = b; 
+}
+
+bool BaseGui::closeOnFinish() { 
+	return pref->close_on_finish; 
+}
+
 void BaseGui::playlistHasFinished() {
 	qDebug("BaseGui::playlistHasFinished");
 	exitFullscreenOnStop();
 
-	if (exitOnFinish()) exitAct->trigger();
+	if (closeOnFinish()) exitAct->trigger();
 }
 
 void BaseGui::displayState(Core::State state) {
@@ -2761,10 +2778,14 @@ void BaseGui::changeStyleSheet(QString style) {
 void BaseGui::loadActions() {
 	qDebug("BaseGui::loadActions");
 	ActionsEditor::loadFromConfig(this, settings);
+#if !DOCK_PLAYLIST
 	ActionsEditor::loadFromConfig(playlist, settings);
+#endif
 
 	actions_list = ActionsEditor::actionsNames(this);
+#if !DOCK_PLAYLIST
 	actions_list += ActionsEditor::actionsNames(playlist);
+#endif
 
 	//if (server)
 		server->setActionsList( actions_list );
@@ -2774,7 +2795,9 @@ void BaseGui::saveActions() {
 	qDebug("BaseGui::saveActions");
 
 	ActionsEditor::saveToConfig(this, settings);
+#if !DOCK_PLAYLIST
 	ActionsEditor::saveToConfig(playlist, settings);
+#endif
 }
 
 // Language change stuff

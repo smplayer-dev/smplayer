@@ -55,8 +55,8 @@ public:
 	/* Return true if the window shouldn't show on startup */
 	virtual bool startHidden() { return false; };
 
-	void setExitOnFinish(bool b) { exit_on_finish = b; };
-	bool exitOnFinish() { return exit_on_finish; };
+	void setCloseOnFinish(bool b);
+	bool closeOnFinish();
 
 	//! Execute all actions in \a actions. The actions should be
 	//! separated by spaces. Checkable actions could have a parameter:
@@ -281,6 +281,7 @@ protected:
 	MyAction * incSubPosAct;
 	MyAction * incSubStepAct;
 	MyAction * decSubStepAct;
+	MyAction * useAssAct;
 
 	// Menu Options
 	MyAction * showPlaylistAct;
@@ -456,8 +457,6 @@ private:
 	// when exiting from fullscreen mode.
 	QPoint win_pos;
 	QSize win_size;
-
-	bool exit_on_finish;
 };
     
 #endif

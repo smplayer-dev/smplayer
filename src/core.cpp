@@ -592,7 +592,7 @@ void Core::playNewFile(QString file, int seek) {
 
 
 void Core::restartPlay() {
-	we_are_restarting = TRUE;
+	we_are_restarting = true;
 	initPlaying();
 }
 
@@ -1668,7 +1668,7 @@ void Core::toggleRepeat(bool b) {
 	qDebug("Core::toggleRepeat: %d", b);
 	if ( pref->loop != b ) {
 		pref->loop = b;
-		restartPlay();
+		if (proc->isRunning()) restartPlay();
 	}
 }
 
@@ -2432,6 +2432,14 @@ void Core::decPanscan() {
 	changePanscan( mset.panscan_factor - 0.10 );
 }
 
+void Core::changeUseAss(bool b) {
+	qDebug("Core::changeUseAss: %d", b);
+
+	if (pref->use_ass_subtitles != b) {
+		pref->use_ass_subtitles = b;
+		if (proc->isRunning()) restartPlay();
+	}
+}
 
 void Core::displayMessage(QString text) {
 	qDebug("Core::displayMessage");

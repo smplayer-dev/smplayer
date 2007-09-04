@@ -194,6 +194,8 @@ public slots:
 	void decPanscan();
 	void resetPanscan();
 
+	void changeUseAss(bool);
+
     // Pass a command to mplayer by stdin:
     void tellmp(const QString & command);
 

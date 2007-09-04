@@ -359,7 +359,7 @@ int main( int argc, char ** argv )
 	}
 
 	DefaultGui * w = new DefaultGui(0);
-	w->setExitOnFinish( close_at_end );
+	if (close_at_end) w->setCloseOnFinish( true );
 
 	if (!w->startHidden() || !files_to_play.isEmpty() ) w->show();
 	if (!files_to_play.isEmpty()) w->openFiles(files_to_play);
