@@ -1,3 +1,16 @@
+[b]Version 0.5.50[/b]
+ * Updated the German, Ukrainian and Japanese translations.
+ * I hope, fixed a problem with the playlist actions not showing (or
+   appearing duplicated) in the actions editor. Now it works ok with Qt 4.2.3 
+   but I won't be sure the problem is really fixed until I test it with Qt 4.3.
+ * Added the option Subtitles->Use SSA/ASS library, to make easy to enable
+   or disable the use of the ass lib without having to open the 
+   preferences dialog.
+ * Added new option in Preferences->General: Close when finished. If checked,
+   the main window will be closed when the current file/playlist finishes.
+   Now the command line option -close-at-end just will enable that option.
+ * Added shortcuts in the Preferences->Subtitles dialog.
+
 [b]Version 0.5.49[/b]
  * Updated the Polish and Ukrainian translations.
  * Fixed warnings about using deprecated setBackgroundColor.

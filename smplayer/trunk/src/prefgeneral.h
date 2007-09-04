@@ -74,6 +74,9 @@ protected:
 	void setSubtitleLang(QString lang);
 	QString subtitleLang();
 
+	void setCloseOnFinish(bool b);
+	bool closeOnFinish();
+
 	// Tab video and audio
 	void setEq2(bool b);
 	bool eq2();

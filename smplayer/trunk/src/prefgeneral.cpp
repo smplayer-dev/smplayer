@@ -70,6 +70,7 @@ void PrefGeneral::setData(Preferences * pref) {
 	setDontRememberTimePos( pref->dont_remember_time_pos );
 	setAudioLang( pref->audio_lang );
 	setSubtitleLang( pref->subtitle_lang );
+	setCloseOnFinish( pref->close_on_finish );
 
 	setEq2( pref->use_soft_video_eq );
 	setSoftVol( pref->use_soft_vol );
@@ -101,6 +102,8 @@ void PrefGeneral::getData(Preferences * pref) {
 
 	pref->audio_lang = audioLang();
     pref->subtitle_lang = subtitleLang();
+
+	pref->close_on_finish = closeOnFinish();
 
 	TEST_AND_SET(pref->use_soft_video_eq, eq2());
 	TEST_AND_SET(pref->use_soft_vol, softVol());
@@ -199,6 +202,14 @@ QString PrefGeneral::subtitleLang() {
 	return subtitle_lang_edit->text();
 }
 
+void PrefGeneral::setCloseOnFinish(bool b) {
+	close_on_finish_check->setChecked(b);
+}
+
+bool PrefGeneral::closeOnFinish() {
+	return close_on_finish_check->isChecked();
+}
+
 void PrefGeneral::setEq2(bool b) {
 	eq2_check->setChecked(b);
 }
@@ -209,8 +220,6 @@ bool PrefGeneral::eq2() {
 
 void PrefGeneral::setSoftVol(bool b) {
 	softvol_check->setChecked(b);
-	//amplification_label->setEnabled(b);
-	//softvol_max_spin->setEnabled(b);
 }
 
 bool PrefGeneral::softVol() {
@@ -383,6 +392,10 @@ void PrefGeneral::createHelp() {
            "This field accepts regular expressions. Example: <b>es|esp|spa</b> "
            "will select the subtitle stream if it matches with <i>es</i>, "
            "<i>esp</i> or <i>spa</i>.") );
+
+	setWhatsThis(close_on_finish_check, tr("Close when finished"),
+		tr("If this option is checked, the main window will be automatically "
+		   "closed when the current file/playlist finishes.") );
 
 	setWhatsThis(eq2_check, tr("Software video equalizer"),
 		tr("You can check this option if video equalizer is not supported by "

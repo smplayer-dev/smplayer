@@ -221,6 +221,9 @@ public:
 
 	bool enable_vcd_on_windows;
 	bool enable_audiocd_on_windows;
+
+	//! Close the main window when a file or playlist finish
+	bool close_on_finish;
 };
 
 #endif
