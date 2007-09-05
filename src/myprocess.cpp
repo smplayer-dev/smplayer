@@ -19,7 +19,13 @@
 #include "myprocess.h"
 
 #ifdef Q_OS_WIN
+
+#if QT_VERSION < 0x040300
 #define USE_TEMP_FILE 1
+#else
+#define USE_TEMP_FILE 0
+#endif
+
 #else
 #define USE_TEMP_FILE 0
 #endif
