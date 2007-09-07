@@ -1,3 +1,50 @@
+[b]Version 0.5.53[/b]
+ * Some fixes in the code to add the file to play in the playlist.
+ * Some more improvements on the playlist embedded in the main window: 
+   now the main window resizes when the playlist is docked/undocked.
+   It also remembers its state on startup.
+   For first time this code will be compiled as default so other people could
+   test it. Anyway there's two known issues: the main window doesn't resize
+   properly when playing an audio file (no video window) and the playlist 
+   is undocked (maybe another Qt 4.2.3 bug?). And to avoid some problems when
+   exiting from fullscreen, the playlist is made floatable when entering in
+   fullscreen mode.
+   How to use it? The playlist will appear by default docked in the bottom area. 
+   You can move it to the top area if you want, or make it floatable
+   by dragging it outside the window. You can dock it again by dragging the
+   playlist to the bottom or top areas of the main window (there's also
+   a button in the title bar for this).
+ * Added a help message about the option "It's a playlist" in Open->URL.
+
+[b]Version 0.5.52[/b]
+ * Updated the Russian translation.
+ * Fix in the open URL dialog: the text should be selected now.
+ * Fix for Qt 4.3.1 under Windows: after playing an audio file the video window
+   didn't show when playing a video.
+ * Experimental: add file to be opened in the playlist (deleting the whole
+   playlist first). This prevents that when a file finishes, an item from an
+   old playlist starts to play.
+ * Added a context menu for when clicking on a toolbar.
+
+[b]Version 0.5.51[/b]
+ * Updated the Chinese (zh_CN), French, Romanian, German, Ukrainian and
+   Polish translations.
+ * By mistake, the new option "close when finish" was enabled by default.
+   Now that option will be disabled by default.
+ * (Windows) When using Qt 4.3, inforeader fails, it can't read the output
+   of mplayer. That means there won't be info about the codecs, demuxers,
+   output drivers... I don't know why that happens, but disabling redirection
+   of the mplayer output to a temporary file makes it to work again.
+   I also realized that QProcess in Qt 4.3 works much better, so it's not
+   necessary to send the mplayer output to a temporary file. So now if
+   compiled with Qt 4.3 it won't use temporary files, fixing the problem with
+   inforeader. Still there's a problem, if compiled with Qt 4.2.3 but using
+   the Qt 4.3 dll's, the problem will still be present. Unless...
+ * Now inforeader uses QProcess (not myprocess), so now it shouldn't be 
+   affected by the problem metioned before.
+ * It doesn't try to create the app home directory ($HOME/.smplayer) if 
+   -ini-path is used.
+
 [b]Version 0.5.50[/b]
  * Updated the German, Ukrainian and Japanese translations.
  * I hope, fixed a problem with the playlist actions not showing (or

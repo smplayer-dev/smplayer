@@ -25,6 +25,10 @@ InputURL::InputURL( QWidget* parent, Qt::WindowFlags f )
 	setupUi(this);
 	url_icon->setPixmap( Images::icon("url_big") );
 	url_edit->setFocus();
+
+	playlist_check->setWhatsThis( 
+		tr("If this option is checked, the URL will be treated as a playlist: "
+        "it will be opened as text and will play the URLs in it.") );
 }
 
 InputURL::~InputURL() {
@@ -32,6 +36,7 @@ InputURL::~InputURL() {
 
 void InputURL::setURL(QString url) {
 	url_edit->setText(url);
+	url_edit->selectAll();
 }
 
 QString InputURL::url() {

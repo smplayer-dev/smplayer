@@ -16,28 +16,16 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _PLAYLIST_DOCK_H_
-#define _PLAYLIST_DOCK_H_
+#include "version.h"
 
-#include <QDockWidget>
+#define USE_SVN_VERSIONS 0
 
-class PlaylistDock : public QDockWidget 
-{
-	Q_OBJECT
-
-public:
-	PlaylistDock ( QWidget * parent = 0, Qt::WindowFlags flags = 0 );
-	~PlaylistDock();
-
-signals:
-	void closed();
-	void docked();
-	void undocked();
-
-protected:
-	virtual void closeEvent( QCloseEvent * event );
-	virtual void showEvent ( QShowEvent * event );
-	virtual void hideEvent ( QHideEvent * event );
-};
-
+#if !USE_SVN_VERSIONS
+#define VERSION "0.5.53"
+#else
+#define VERSION "0.5.51 + SVN revision xxxx"
 #endif
+
+const char * smplayerVersion() {
+	return VERSION;
+}

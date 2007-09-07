@@ -68,7 +68,8 @@ HEADERS	+= config.h \
 	defaultgui.h
 
 
-SOURCES	+= global.cpp \
+SOURCES	+= version.cpp \
+	global.cpp \
 	helper.cpp \
 	translator.cpp \
 	subtracks.cpp \

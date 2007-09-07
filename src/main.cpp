@@ -78,7 +78,7 @@ void myMessageOutput( QtMsgType type, const char *msg ) {
 
 void showInfo() {
 	printf( "%s\n", QObject::tr("This is SMPlayer v. %1 running on %2")
-            .arg(VERSION)
+            .arg(smplayerVersion())
 #ifdef Q_OS_LINUX
            .arg("Linux")
 #else
@@ -201,14 +201,7 @@ void showHelp(QString app_name) {
         "handle the playlist, not SMPlayer.") );
 }
 
-int main( int argc, char ** argv ) 
-{
-	QApplication a( argc, argv );
-
-	QString app_path = a.applicationDirPath();
-	Helper::setAppPath(app_path);
-	//qDebug( "main: application path: '%s'", app_path.toUtf8().data());
-
+void createHomeDirectory() {
 	// Create smplayer home directories
 	if (!QFile::exists(Helper::appHomePath())) {
 		QDir d;
@@ -220,6 +213,15 @@ int main( int argc, char ** argv )
 			qWarning("main: can't create %s", s.toUtf8().data());
 		}
 	}
+}
+
+int main( int argc, char ** argv ) 
+{
+	QApplication a( argc, argv );
+
+	QString app_path = a.applicationDirPath();
+	Helper::setAppPath(app_path);
+	//qDebug( "main: application path: '%s'", app_path.toUtf8().data());
 
 	QString ini_path="";
 	QStringList files_to_play;
@@ -303,6 +305,7 @@ int main( int argc, char ** argv )
 		}
 	}
 
+	if (ini_path.isEmpty())	createHomeDirectory();
 
 	global_init(ini_path);
 

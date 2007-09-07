@@ -504,7 +504,7 @@ bool Playlist::save_m3u(QString file) {
 		QString filename;
 
 		stream << "#EXTM3U" << "\n";
-		stream << "# Playlist created by SMPlayer " << VERSION << " \n";
+		stream << "# Playlist created by SMPlayer " << smplayerVersion() << " \n";
 
 		PlaylistItemList::iterator it;
 		for ( it = pl.begin(); it != pl.end(); ++it ) {
@@ -750,6 +750,10 @@ void Playlist::addFiles(QStringList files) {
 	updateView();
 
 	qDebug( " * latest_dir: '%s'", latest_dir.toUtf8().data() );
+}
+
+void Playlist::addFile(QString file) {
+	addFiles( QStringList() << file );
 }
 
 void Playlist::addDirectory() {

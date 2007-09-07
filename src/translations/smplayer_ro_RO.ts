@@ -467,7 +467,7 @@ Do you want to overwrite?</source>
         <translation>Raport &amp;aspect</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1679"/>
+        <location filename="../basegui.cpp" line="1682"/>
         <source>&amp;None</source>
         <translation>Fă&amp;ră</translation>
     </message>
@@ -717,74 +717,74 @@ Do you want to overwrite?</source>
         <translation>Despre &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1796"/>
+        <location filename="../basegui.cpp" line="1799"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;gol&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2072"/>
+        <location filename="../basegui.cpp" line="2093"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2235"/>
+        <location filename="../basegui.cpp" line="2261"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2075"/>
+        <location filename="../basegui.cpp" line="2096"/>
         <source>Playlists</source>
         <translation>Liste_titluri</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2236"/>
+        <location filename="../basegui.cpp" line="2262"/>
         <source>All files</source>
         <translation>Toate fişierele</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2233"/>
+        <location filename="../basegui.cpp" line="2259"/>
         <source>Choose a file</source>
         <translation>Alegere fişier</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2108"/>
+        <location filename="../basegui.cpp" line="2134"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Informaţii</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2111"/>
+        <location filename="../basegui.cpp" line="2137"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Driverele pentru CDROM/DVD nu sunt configurate încă.
 O fereastră de dialog va fi afişată pentru a putea face configurarea.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2185"/>
+        <location filename="../basegui.cpp" line="2211"/>
         <source>Choose a directory</source>
         <translation>Alegere director</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2220"/>
+        <location filename="../basegui.cpp" line="2246"/>
         <source>Subtitles</source>
         <translation>Subtitrări</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2247"/>
+        <location filename="../basegui.cpp" line="2273"/>
         <source>About Qt</source>
         <translation>Despre Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2542"/>
+        <location filename="../basegui.cpp" line="2573"/>
         <source>Playing %1</source>
         <translation>Redare %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2543"/>
+        <location filename="../basegui.cpp" line="2574"/>
         <source>Pause</source>
         <translation>Pauză</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2544"/>
+        <location filename="../basegui.cpp" line="2575"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
@@ -1046,28 +1046,28 @@ O fereastră de dialog va fi afişată pentru a putea face configurarea.</transl
     <message>
         <location filename="../basegui.cpp" line="797"/>
         <source>Use SSA/&amp;ASS library</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilizează biblioteca SSA/&amp;ASS</translation>
     </message>
 </context>
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="128"/>
+        <location filename="../baseguiplus.cpp" line="131"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer încă funcţionează de aici</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="149"/>
+        <location filename="../baseguiplus.cpp" line="152"/>
         <source>S&amp;how icon in system tray</source>
         <translation>A&amp;fişază iconiţă în system tray</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="160"/>
+        <location filename="../baseguiplus.cpp" line="163"/>
         <source>&amp;Hide</source>
         <translation>&amp;Ascunde</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="162"/>
+        <location filename="../baseguiplus.cpp" line="165"/>
         <source>&amp;Restore</source>
         <translation>&amp;Restaurare_fereastră</translation>
     </message>
@@ -1077,12 +1077,12 @@ O fereastră de dialog va fi afişată pentru a putea face configurarea.</transl
         <translation type="obsolete">Fişiere &amp;recente</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="148"/>
+        <location filename="../baseguiplus.cpp" line="151"/>
         <source>&amp;Quit</source>
         <translation>Î&amp;nchide program</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="154"/>
+        <location filename="../baseguiplus.cpp" line="157"/>
         <source>Playlist</source>
         <translation>Listă_Titluri</translation>
     </message>
@@ -1128,22 +1128,22 @@ O fereastră de dialog va fi afişată pentru a putea face configurarea.</transl
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="326"/>
+        <location filename="../defaultgui.cpp" line="337"/>
         <source>Welcome to SMPlayer</source>
         <translation>Bun venit la SMPlayer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="347"/>
+        <location filename="../defaultgui.cpp" line="358"/>
         <source>Volume</source>
         <translation>Volum</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="349"/>
+        <location filename="../defaultgui.cpp" line="360"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="350"/>
+        <location filename="../defaultgui.cpp" line="361"/>
         <source>Subtitle</source>
         <translation>Subtitrare</translation>
     </message>
@@ -1153,17 +1153,17 @@ O fereastră de dialog va fi afişată pentru a putea face configurarea.</transl
         <translation type="obsolete">Listă_Titluri</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="340"/>
+        <location filename="../defaultgui.cpp" line="351"/>
         <source>&amp;Main toolbar</source>
         <translation>&amp;Bară_principală  unelte</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="341"/>
+        <location filename="../defaultgui.cpp" line="352"/>
         <source>&amp;Language toolbar</source>
         <translation>Bară_unelte &amp;limbă</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="343"/>
+        <location filename="../defaultgui.cpp" line="354"/>
         <source>&amp;Toolbars</source>
         <translation>B&amp;are_unelte</translation>
     </message>
@@ -1632,6 +1632,11 @@ Example: resample=44100:0:0,volnorm</source>
         <source>It&apos;s a &amp;playlist</source>
         <translation>Este o &amp;listă de titluri</translation>
     </message>
+    <message>
+        <location filename="../inputurl.cpp" line="31"/>
+        <source>If this option is checked, the URL will be treated as a playlist: it will be opened as text and will play the URLs in it.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>LogWindow</name>
@@ -1756,17 +1761,17 @@ Doriţi suprascrierea?</translation>
         <translation>Selectaţi unul sau mai multe fişiere pentru a le deschide</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="757"/>
+        <location filename="../playlist.cpp" line="761"/>
         <source>Choose a directory</source>
         <translation>Alegere director</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="915"/>
+        <location filename="../playlist.cpp" line="919"/>
         <source>Edit name</source>
         <translation>Editare nume</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="916"/>
+        <location filename="../playlist.cpp" line="920"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Tastaţi numele care va fi afişat în Listă pentru acest fişier:</translation>
     </message>
@@ -2549,17 +2554,17 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="396"/>
         <source>Close when finished</source>
-        <translation type="unfinished"></translation>
+        <translation>Închide după terminare</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="398"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă această opţiune este selectată, fereastra principală se va închide automat după redarea fişierului/listei de titluri.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="324"/>
         <source>&amp;Close when finished</source>
-        <translation type="unfinished"></translation>
+        <translation>În&amp;chide după terminare</translation>
     </message>
 </context>
 <context>
@@ -3316,77 +3321,77 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefsubtitles.ui" line="56"/>
         <source>Au&amp;toload subtitles files (*.srt, *.sub...):</source>
-        <translation type="unfinished"></translation>
+        <translation>Încărcare au&amp;tomată fişiere subtitrări (*.srt, *.sub...):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="69"/>
         <source>S&amp;elect first available subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;electează prima subtitrare disponibilă</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="114"/>
         <source>&amp;Default subtitle encoding:</source>
-        <translation type="unfinished"></translation>
+        <translation>Co&amp;dificarea implicită subtitrare:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="172"/>
         <source>Default &amp;position of the subtitles on screen</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Poziţionarea implicită a subtitrării pe ecran</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="281"/>
         <source>&amp;Include subtitles on screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Include subtitrarea în captura de ecran</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="288"/>
         <source>&amp;Use -subfont option (required by recent MPlayer releases)</source>
-        <translation type="unfinished"></translation>
+        <translation>Foloseşte opţi&amp;unea -subfont (cerinţă impusă de versiunile recente ale Mplayer)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="336"/>
         <source>&amp;TTF font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Caractere &amp;TTF:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="353"/>
         <source>Sea&amp;rch...</source>
-        <translation type="unfinished"></translation>
+        <translation>Căuta&amp;re...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="380"/>
         <source>S&amp;ystem font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Caractere imp&amp;licite ale sistemului:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="412"/>
         <source>A&amp;utoscale:</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;utoscalare:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="465"/>
         <source>S&amp;cale:</source>
-        <translation type="unfinished"></translation>
+        <translation>Di&amp;mensiune:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="530"/>
         <source>&amp;Use SSA/ASS library for subtitle rendering</source>
-        <translation type="unfinished"></translation>
+        <translation>Foloseşte biblioteca SSA/ASS pentru randarea s&amp;ubtitrării</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="548"/>
         <source>&amp;Text color:</source>
-        <translation type="unfinished"></translation>
+        <translation>Culoare &amp;text:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="590"/>
         <source>&amp;Border color:</source>
-        <translation type="unfinished"></translation>
+        <translation>Culoare c&amp;henar:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="663"/>
         <source>St&amp;yles:</source>
-        <translation type="unfinished"></translation>
+        <translation>St&amp;il:</translation>
     </message>
 </context>
 <context>
@@ -3573,22 +3578,22 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../main.cpp" line="167"/>
         <source>Usage: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilizare: %1 [-ini-path [director]] [-action numele_acţiunii] [-actions listă_acţiuni [-close-at-end] [-help|--help|-h|-?] [[-playlist] tip_media] [[-playlist] tip_media]...</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="179"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
-        <translation type="unfinished"></translation>
+        <translation>încearcă să stabilească legătura cu altă sesiune care şi să trimită către aceasta comanda specificată. Exemplu: -action pause Restul opţiunilor (dacă există) vor fi ignorate şi aplicaţia se va închide. Se va returna 0 în caz de reuşită şi -1 în caz de eşec.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="187"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
-        <translation type="unfinished"></translation>
+        <translation>listă_acţiuni este o enumerare de acţiuni (comenzi) separate de spaţii. Comenzile vor fi executate imediat după încărcarea fişierului media (dacă există vreunul) în aceeaşi ordine în care au fost scrise. Pentru comenzile ce pot fi bifate se pot pune ca parametrii true sau false. Exemplu: -actions &quot;fullscreen compact true&quot;. Ghilimelele sunt necesare în cazul în care scrieţi mai mult de o acţiune (comandă).</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="195"/>
         <source>media</source>
-        <translation type="unfinished"></translation>
+        <translation>tip_media</translation>
     </message>
 </context>
 <context>

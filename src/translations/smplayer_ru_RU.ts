@@ -573,7 +573,7 @@ Do you want to overwrite?</source>
         <translation>4:3 &amp;к 16:9</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1679"/>
+        <location filename="../basegui.cpp" line="1682"/>
         <source>&amp;None</source>
         <translation>&amp;Ничего</translation>
     </message>
@@ -688,74 +688,74 @@ Do you want to overwrite?</source>
         <translation>SMPlayer - отчеты smplayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1796"/>
+        <location filename="../basegui.cpp" line="1799"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;ничего&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2072"/>
+        <location filename="../basegui.cpp" line="2093"/>
         <source>Video</source>
         <translation>Видео</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2235"/>
+        <location filename="../basegui.cpp" line="2261"/>
         <source>Audio</source>
         <translation>Звук</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2075"/>
+        <location filename="../basegui.cpp" line="2096"/>
         <source>Playlists</source>
         <translation>Список</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2236"/>
+        <location filename="../basegui.cpp" line="2262"/>
         <source>All files</source>
         <translation>Все файлы</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2233"/>
+        <location filename="../basegui.cpp" line="2259"/>
         <source>Choose a file</source>
         <translation>Выбрать файл</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2108"/>
+        <location filename="../basegui.cpp" line="2134"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Информация</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2111"/>
+        <location filename="../basegui.cpp" line="2137"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Приводы CD/DVD еще не настроены.
 Вы сможете сделать это в диалоге настроек этих устройст.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2185"/>
+        <location filename="../basegui.cpp" line="2211"/>
         <source>Choose a directory</source>
         <translation>Выбрать каталог</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2220"/>
+        <location filename="../basegui.cpp" line="2246"/>
         <source>Subtitles</source>
         <translation>Субтитры</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2247"/>
+        <location filename="../basegui.cpp" line="2273"/>
         <source>About Qt</source>
         <translation>О Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2542"/>
+        <location filename="../basegui.cpp" line="2573"/>
         <source>Playing %1</source>
         <translation>Воспроизводится %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2543"/>
+        <location filename="../basegui.cpp" line="2574"/>
         <source>Pause</source>
         <translation>Пауза</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2544"/>
+        <location filename="../basegui.cpp" line="2575"/>
         <source>Stop</source>
         <translation>Стоп</translation>
     </message>
@@ -1002,38 +1002,38 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="797"/>
         <source>Use SSA/&amp;ASS library</source>
-        <translation type="unfinished"></translation>
+        <translation>Испол&amp;ьзовать библиотеку SSA/ASS</translation>
     </message>
 </context>
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="128"/>
+        <location filename="../baseguiplus.cpp" line="131"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer запущен</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="149"/>
+        <location filename="../baseguiplus.cpp" line="152"/>
         <source>S&amp;how icon in system tray</source>
         <translation>&amp;Показать пиктограмму в системном лотке</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="160"/>
+        <location filename="../baseguiplus.cpp" line="163"/>
         <source>&amp;Hide</source>
         <translation>&amp;Убрать</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="162"/>
+        <location filename="../baseguiplus.cpp" line="165"/>
         <source>&amp;Restore</source>
         <translation>&amp;Восстановить</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="148"/>
+        <location filename="../baseguiplus.cpp" line="151"/>
         <source>&amp;Quit</source>
         <translation>В&amp;ыход</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="154"/>
+        <location filename="../baseguiplus.cpp" line="157"/>
         <source>Playlist</source>
         <translation>Список</translation>
     </message>
@@ -1079,37 +1079,37 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="326"/>
+        <location filename="../defaultgui.cpp" line="337"/>
         <source>Welcome to SMPlayer</source>
         <translation>Добро пожаловать в SMPlayer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="347"/>
+        <location filename="../defaultgui.cpp" line="358"/>
         <source>Volume</source>
         <translation>Громкость</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="349"/>
+        <location filename="../defaultgui.cpp" line="360"/>
         <source>Audio</source>
         <translation>Звук</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="350"/>
+        <location filename="../defaultgui.cpp" line="361"/>
         <source>Subtitle</source>
         <translation>Субтитры</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="340"/>
+        <location filename="../defaultgui.cpp" line="351"/>
         <source>&amp;Main toolbar</source>
         <translation>&amp;Главная панель</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="341"/>
+        <location filename="../defaultgui.cpp" line="352"/>
         <source>&amp;Language toolbar</source>
         <translation>&amp;Языковая панель</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="343"/>
+        <location filename="../defaultgui.cpp" line="354"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Панели</translation>
     </message>
@@ -1583,6 +1583,11 @@ Example: resample=44100:0:0,volnorm</source>
         <source>It&apos;s a &amp;playlist</source>
         <translation>&amp;Cписок воспроизведения</translation>
     </message>
+    <message>
+        <location filename="../inputurl.cpp" line="31"/>
+        <source>If this option is checked, the URL will be treated as a playlist: it will be opened as text and will play the URLs in it.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>LogWindow</name>
@@ -1707,17 +1712,17 @@ Do you want to overwrite?</source>
         <translation>Выберите один или более файлов</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="757"/>
+        <location filename="../playlist.cpp" line="761"/>
         <source>Choose a directory</source>
         <translation>Выбрать каталог</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="915"/>
+        <location filename="../playlist.cpp" line="919"/>
         <source>Edit name</source>
         <translation>Изменить имя</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="916"/>
+        <location filename="../playlist.cpp" line="920"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Введите имя, которое будет соответствовать в списке этому файлу:</translation>
     </message>
@@ -2395,17 +2400,17 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="396"/>
         <source>Close when finished</source>
-        <translation type="unfinished"></translation>
+        <translation>Закрыть по окончанию воспроизведения</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="398"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если выбрано, то главное окно будет автоматически закрыто по окончанию воспроизведения файла или списка.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="324"/>
         <source>&amp;Close when finished</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Закрыть по окончанию воспроизведения</translation>
     </message>
 </context>
 <context>
@@ -2930,11 +2935,6 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Шрифты Truetype</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="13"/>
-        <source>Form</source>
-        <translation type="obsolete">Форма</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="32"/>
         <source>&amp;Subtitles</source>
         <translation>Су&amp;бтитры</translation>
@@ -2943,16 +2943,6 @@ The drop-down lists may provide already made regular expression for several lang
         <location filename="../prefsubtitles.ui" line="44"/>
         <source>Autoload</source>
         <translation>Автооткрытие</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="53"/>
-        <source>Autoload subtitles files (*.srt, *.sub...):</source>
-        <translation type="obsolete">Автозагрузка субтитров (*.srt, *.sub...):</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="63"/>
-        <source>Select first available subtitle</source>
-        <translation type="obsolete">Использовать первые доступные субтитры</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
@@ -2970,19 +2960,9 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Все субтитры каталога</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="108"/>
-        <source>Default subtitle encoding:</source>
-        <translation type="obsolete">Кодировка субтитров по умолчанию:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="160"/>
         <source>Position</source>
         <translation>Позиция</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="163"/>
-        <source>Default position of the subtitles on screen</source>
-        <translation type="obsolete">Расположение субтитров на экране по-умолчанию</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="220"/>
@@ -3000,16 +2980,6 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Низ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="269"/>
-        <source>Include subtitles on screenshots</source>
-        <translation type="obsolete">Включать субтитры в снимки экрана</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="276"/>
-        <source>Use -subfont option (required by recent MPlayer releases)</source>
-        <translation type="obsolete">Использовать параметр -subfont (требуется последними версиями MPlayer)</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="312"/>
         <source>&amp;Font</source>
         <translation>&amp;Шрифт</translation>
@@ -3020,21 +2990,6 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Шрифт</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="324"/>
-        <source>TTF font:</source>
-        <translation type="obsolete">Шрифт TTF:</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="341"/>
-        <source>Search...</source>
-        <translation type="obsolete">Поиск...</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="368"/>
-        <source>System font:</source>
-        <translation type="obsolete">Системный шрифт:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="387"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
         <translation>Выберите шрифт для субтитров (и OSD):</translation>
@@ -3043,11 +2998,6 @@ The drop-down lists may provide already made regular expression for several lang
         <location filename="../prefsubtitles.ui" line="400"/>
         <source>Size</source>
         <translation>Размер</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="400"/>
-        <source>Autoscale:</source>
-        <translation type="obsolete">Автомасштабирование:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="426"/>
@@ -3070,11 +3020,6 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Пропорционально к диагонали клипа</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="450"/>
-        <source>Scale:</source>
-        <translation type="obsolete">Масштаб:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="505"/>
         <source>SSA/&amp;ASS library</source>
         <translation>SSA/ASS &amp;библиотека</translation>
@@ -3085,29 +3030,9 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Библиотека SSA/ASS позволяет отображать SSA/ASS субтитры и дорожки Matroska. Также она может быть использована для отрисовки других типов (srt, sub) сусбтитров.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="512"/>
-        <source>Use SSA/ASS library for subtitle rendering</source>
-        <translation type="obsolete">Использовать библиотеку SSA/ASS для отрисовки субтитров</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="530"/>
-        <source>Text color:</source>
-        <translation type="obsolete">Цвет текста:</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="569"/>
-        <source>Border color:</source>
-        <translation type="obsolete">Цвет края:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="639"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
         <translation>Здесь можно указать стиль SSA/ASS субтитров. Также можно настроить отрисовку srt и sub субтитров с помощью библиотеки SSA/ASS.&lt;br&gt;Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt; {2 or 4?}</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="639"/>
-        <source>Styles:</source>
-        <translation type="obsolete">Стили:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="305"/>
@@ -3127,77 +3052,77 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefsubtitles.ui" line="56"/>
         <source>Au&amp;toload subtitles files (*.srt, *.sub...):</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Автозагрузка субтитров (*.srt, *.sub...):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="69"/>
         <source>S&amp;elect first available subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Загружать &amp;первый доступный файл субтитров</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="114"/>
         <source>&amp;Default subtitle encoding:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Кодировка субтитров по-умолчанию:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="172"/>
         <source>Default &amp;position of the subtitles on screen</source>
-        <translation type="unfinished"></translation>
+        <translation>По&amp;ложение субтитров на экране по-умолчанию</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="281"/>
         <source>&amp;Include subtitles on screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Сохранять субтиры на снимках</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="288"/>
         <source>&amp;Use -subfont option (required by recent MPlayer releases)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Использовать параметр -subfont (требуется последними версиями MPlayer)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="336"/>
         <source>&amp;TTF font:</source>
-        <translation type="unfinished"></translation>
+        <translation>TTF &amp;шрифт:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="353"/>
         <source>Sea&amp;rch...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Поиск...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="380"/>
         <source>S&amp;ystem font:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Системный шрифт:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="412"/>
         <source>A&amp;utoscale:</source>
-        <translation type="unfinished"></translation>
+        <translation>А&amp;втомасштабирование:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="465"/>
         <source>S&amp;cale:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Масштаб:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="530"/>
         <source>&amp;Use SSA/ASS library for subtitle rendering</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Использовать для отрисовки субтитров библиотеку SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="548"/>
         <source>&amp;Text color:</source>
-        <translation type="unfinished"></translation>
+        <translation>Цвет &amp;текста:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="590"/>
         <source>&amp;Border color:</source>
-        <translation type="unfinished"></translation>
+        <translation>Цвет &amp;кромки:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="663"/>
         <source>St&amp;yles:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Стиль:</translation>
     </message>
 </context>
 <context>
@@ -3276,19 +3201,9 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>%1 минут и 1 секунда</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="166"/>
-        <source>Usage: %1 [-ini-path [directory]] [-action action_name] [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="obsolete">Параметры: %1 [-ini-path [directory]] [-action action_name] [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
-    </message>
-    <message>
         <location filename="../main.cpp" line="172"/>
         <source>specifies the directory for the configuration file (smplayer.ini). If directory is omitted, the application directory will be used.</source>
         <translation>определяет каталог с файлом конфигурации (smplayer.ini). Если путь не указан, то будет будет производиться поиск в каталоге программы.</translation>
-    </message>
-    <message>
-        <location filename="../main.cpp" line="178"/>
-        <source>tries to make a connection to another running instance and send to it the specified action. Example: -action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
-        <translation type="obsolete">связь и выполнене операций на удаленном приложении. Пример: -action pause Остальные параметра (если они есть) будут игнорироваться и приложение будет закрыто. Значение вывода зависит от результата: 0, если успешно или -1, если нет.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="190"/>
@@ -3314,22 +3229,22 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../main.cpp" line="167"/>
         <source>Usage: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="unfinished"></translation>
+        <translation>Использование: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="179"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
-        <translation type="unfinished"></translation>
+        <translation>Попытка соединения с удаленной машиной и выполнение заданного действия. Пример:  -send-action pause Остальные параметры (если есть) будут игнорироваться и приложение будет закрыто. При успешном выполнении задачи вывод - 0, или 1 в обратном случае.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="187"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
-        <translation type="unfinished"></translation>
+        <translation>action_list - это список действий разделенный пробелами. Эти действия будут выполняться после загрузки файла в заданной вами последовательности. Для действий с переменными значениями можно использовать true или false  в качестве параметров. Например: -actions &quot;fullscreen compact true&quot;. Кавычки необходимы в случае, если используется более одного действия.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="195"/>
         <source>media</source>
-        <translation type="unfinished"></translation>
+        <translation>медия</translation>
     </message>
 </context>
 <context>

@@ -1,5 +1,5 @@
 %define name    smplayer
-%define version 0.5.50
+%define version 0.5.53
 %define release rvm
 
 Name:           %{name}

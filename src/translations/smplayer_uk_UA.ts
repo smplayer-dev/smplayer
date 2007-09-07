@@ -438,7 +438,7 @@ Do you want to overwrite?</source>
         <translation>&amp;Співвідношення сторін</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1679"/>
+        <location filename="../basegui.cpp" line="1682"/>
         <source>&amp;None</source>
         <translation>&amp;Нічого</translation>
     </message>
@@ -688,74 +688,74 @@ Do you want to overwrite?</source>
         <translation>Про &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1796"/>
+        <location filename="../basegui.cpp" line="1799"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;нічого&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2072"/>
+        <location filename="../basegui.cpp" line="2093"/>
         <source>Video</source>
         <translation>Відео</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2235"/>
+        <location filename="../basegui.cpp" line="2261"/>
         <source>Audio</source>
         <translation>Звук</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2075"/>
+        <location filename="../basegui.cpp" line="2096"/>
         <source>Playlists</source>
         <translation>Список</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2236"/>
+        <location filename="../basegui.cpp" line="2262"/>
         <source>All files</source>
         <translation>Всі файли</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2233"/>
+        <location filename="../basegui.cpp" line="2259"/>
         <source>Choose a file</source>
         <translation>Вибрати файл</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2108"/>
+        <location filename="../basegui.cpp" line="2134"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Інформація</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2111"/>
+        <location filename="../basegui.cpp" line="2137"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Приводи CD/DVD еще не налаштовані.
 Ви зможете зробити це у діалозі налаштувань цих пристроїв.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2185"/>
+        <location filename="../basegui.cpp" line="2211"/>
         <source>Choose a directory</source>
         <translation>Вибрати теку</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2220"/>
+        <location filename="../basegui.cpp" line="2246"/>
         <source>Subtitles</source>
         <translation>Субтитри</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2247"/>
+        <location filename="../basegui.cpp" line="2273"/>
         <source>About Qt</source>
         <translation>Про Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2542"/>
+        <location filename="../basegui.cpp" line="2573"/>
         <source>Playing %1</source>
         <translation>Відтворюється %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2543"/>
+        <location filename="../basegui.cpp" line="2574"/>
         <source>Pause</source>
         <translation>Пауза</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2544"/>
+        <location filename="../basegui.cpp" line="2575"/>
         <source>Stop</source>
         <translation>Стоп</translation>
     </message>
@@ -1002,38 +1002,38 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="797"/>
         <source>Use SSA/&amp;ASS library</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовувати бібліотеку SSA/&amp;ASS</translation>
     </message>
 </context>
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="128"/>
+        <location filename="../baseguiplus.cpp" line="131"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer все ще працює тут</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="149"/>
+        <location filename="../baseguiplus.cpp" line="152"/>
         <source>S&amp;how icon in system tray</source>
         <translation>В&amp;ідображати іконку в системному треї</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="160"/>
+        <location filename="../baseguiplus.cpp" line="163"/>
         <source>&amp;Hide</source>
         <translation>&amp;Сховати</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="162"/>
+        <location filename="../baseguiplus.cpp" line="165"/>
         <source>&amp;Restore</source>
         <translation>&amp;Відновити</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="148"/>
+        <location filename="../baseguiplus.cpp" line="151"/>
         <source>&amp;Quit</source>
         <translation>&amp;Вихід</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="154"/>
+        <location filename="../baseguiplus.cpp" line="157"/>
         <source>Playlist</source>
         <translation>Список</translation>
     </message>
@@ -1079,37 +1079,37 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="326"/>
+        <location filename="../defaultgui.cpp" line="337"/>
         <source>Welcome to SMPlayer</source>
         <translation>Ласкаво просимо до SMPlayer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="347"/>
+        <location filename="../defaultgui.cpp" line="358"/>
         <source>Volume</source>
         <translation>Гучність</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="349"/>
+        <location filename="../defaultgui.cpp" line="360"/>
         <source>Audio</source>
         <translation>Звук</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="350"/>
+        <location filename="../defaultgui.cpp" line="361"/>
         <source>Subtitle</source>
         <translation>Субтитри</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="340"/>
+        <location filename="../defaultgui.cpp" line="351"/>
         <source>&amp;Main toolbar</source>
         <translation>&amp;Головна панель</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="341"/>
+        <location filename="../defaultgui.cpp" line="352"/>
         <source>&amp;Language toolbar</source>
         <translation>&amp;Панель мов</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="343"/>
+        <location filename="../defaultgui.cpp" line="354"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Панелі</translation>
     </message>
@@ -1583,6 +1583,11 @@ Example: resample=44100:0:0,volnorm</source>
         <source>It&apos;s a &amp;playlist</source>
         <translation>&amp;Список</translation>
     </message>
+    <message>
+        <location filename="../inputurl.cpp" line="31"/>
+        <source>If this option is checked, the URL will be treated as a playlist: it will be opened as text and will play the URLs in it.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>LogWindow</name>
@@ -1707,17 +1712,17 @@ Do you want to overwrite?</source>
         <translation>Виберіть один чи більше файлів</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="757"/>
+        <location filename="../playlist.cpp" line="761"/>
         <source>Choose a directory</source>
         <translation>Вибрати теку</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="915"/>
+        <location filename="../playlist.cpp" line="919"/>
         <source>Edit name</source>
         <translation>Змінити ім&apos;я</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="916"/>
+        <location filename="../playlist.cpp" line="920"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Введіть ім&apos;я, котре буде відповідати у списку цьому файлу:</translation>
     </message>
@@ -2395,17 +2400,17 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="396"/>
         <source>Close when finished</source>
-        <translation type="unfinished"></translation>
+        <translation>Вийти по закінченню</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="398"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ця опція активує автоматичний вихід з програми по закінченню відтворення файлу чи списку.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="324"/>
         <source>&amp;Close when finished</source>
-        <translation type="unfinished"></translation>
+        <translation>Вийти по &amp;закінченню</translation>
     </message>
 </context>
 <context>
@@ -2930,11 +2935,6 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Шрифти Truetype</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="13"/>
-        <source>Form</source>
-        <translation type="obsolete">Форма</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="32"/>
         <source>&amp;Subtitles</source>
         <translation>&amp;Субтитри</translation>
@@ -2943,16 +2943,6 @@ The drop-down lists may provide already made regular expression for several lang
         <location filename="../prefsubtitles.ui" line="44"/>
         <source>Autoload</source>
         <translation>Автовідкриття</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="53"/>
-        <source>Autoload subtitles files (*.srt, *.sub...):</source>
-        <translation type="obsolete">Автозавантаження субтитрів (*.srt, *.sub...):</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="63"/>
-        <source>Select first available subtitle</source>
-        <translation type="obsolete">Вибрати перші доступні субтитри</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
@@ -2970,19 +2960,9 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Всі субтитри теки</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="108"/>
-        <source>Default subtitle encoding:</source>
-        <translation type="obsolete">Кодування субтитрів за умовчанням:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="160"/>
         <source>Position</source>
         <translation>Позиція</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="163"/>
-        <source>Default position of the subtitles on screen</source>
-        <translation type="obsolete">Позиція субтитрів на екрані за замовчанням</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="220"/>
@@ -3000,16 +2980,6 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Низ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="269"/>
-        <source>Include subtitles on screenshots</source>
-        <translation type="obsolete">Включати субтитри у знімки екрану</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="276"/>
-        <source>Use -subfont option (required by recent MPlayer releases)</source>
-        <translation type="obsolete">Використовувати опцію -subfont (потрібен для останніх релізів MPlayer)</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="312"/>
         <source>&amp;Font</source>
         <translation>&amp;Шрифти</translation>
@@ -3020,21 +2990,6 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Шрифт</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="324"/>
-        <source>TTF font:</source>
-        <translation type="obsolete">Шрифт TTF:</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="341"/>
-        <source>Search...</source>
-        <translation type="obsolete">Пошук...</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="368"/>
-        <source>System font:</source>
-        <translation type="obsolete">Системний шрифт:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="387"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
         <translation>Виберіть шрифт для субтитрів (та OSD):</translation>
@@ -3043,11 +2998,6 @@ The drop-down lists may provide already made regular expression for several lang
         <location filename="../prefsubtitles.ui" line="400"/>
         <source>Size</source>
         <translation>Розмір</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="400"/>
-        <source>Autoscale:</source>
-        <translation type="obsolete">Автомасштабування:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="426"/>
@@ -3070,11 +3020,6 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Пропорційно до діагоналі клипу</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="450"/>
-        <source>Scale:</source>
-        <translation type="obsolete">Масштаб:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="505"/>
         <source>SSA/&amp;ASS library</source>
         <translation>Бібліотека SSA/&amp;ASS</translation>
@@ -3085,29 +3030,9 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Нова бібліотека SSA/ASS забезпечує хорошу стилізацію субтитрів для зовнішніх файлів субтитрів SSA/ASS та треків Matroska. Але це також буде використовуватись для рендерінгу файлів інших форматів, таких як SUB та SRT.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="512"/>
-        <source>Use SSA/ASS library for subtitle rendering</source>
-        <translation type="obsolete">Використовувати бібліотеку SSA/ASS для рендерингу субтитрів</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="530"/>
-        <source>Text color:</source>
-        <translation type="obsolete">Колір тексту:</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="569"/>
-        <source>Border color:</source>
-        <translation type="obsolete">Колір краю:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="639"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
         <translation>Тут Вы можете вказати стилі для субтитрів SSA/ASS. Також може використовуватися для точного налаштування відображення субтитрів SRT і SUB библиотекою SSA/ASS. Приклад: &lt;b&gt; Bold=1, Outline=2, Shadow=4 &lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="639"/>
-        <source>Styles:</source>
-        <translation type="obsolete">Стилі:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="305"/>
@@ -3127,77 +3052,77 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefsubtitles.ui" line="56"/>
         <source>Au&amp;toload subtitles files (*.srt, *.sub...):</source>
-        <translation type="unfinished"></translation>
+        <translation>Ав&amp;тозавантаження субтитрів (*.srt, *.sub...):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="69"/>
         <source>S&amp;elect first available subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Вибрати &amp;перші доступні субтитри</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="114"/>
         <source>&amp;Default subtitle encoding:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Кодування субтитрів за умовчанням:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="172"/>
         <source>Default &amp;position of the subtitles on screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Позиція субтитрів на &amp;екрані за умовчанням</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="281"/>
         <source>&amp;Include subtitles on screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Включати субтитри до знімків екрану</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="288"/>
         <source>&amp;Use -subfont option (required by recent MPlayer releases)</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовувати &amp;опцію -subfont (потрібна для останніх версій MPlayer)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="336"/>
         <source>&amp;TTF font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Шрифт &amp;TTF:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="353"/>
         <source>Sea&amp;rch...</source>
-        <translation type="unfinished"></translation>
+        <translation>По&amp;шук...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="380"/>
         <source>S&amp;ystem font:</source>
-        <translation type="unfinished"></translation>
+        <translation>С&amp;истемний шрифт:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="412"/>
         <source>A&amp;utoscale:</source>
-        <translation type="unfinished"></translation>
+        <translation>Авто&amp;масштабування:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="465"/>
         <source>S&amp;cale:</source>
-        <translation type="unfinished"></translation>
+        <translation>М&amp;асштаб:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="530"/>
         <source>&amp;Use SSA/ASS library for subtitle rendering</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовувати бібліотеку SSA/ASS для &amp;рендерингу субтитрів</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="548"/>
         <source>&amp;Text color:</source>
-        <translation type="unfinished"></translation>
+        <translation>Колір &amp;тексту:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="590"/>
         <source>&amp;Border color:</source>
-        <translation type="unfinished"></translation>
+        <translation>Колір &amp;краю:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="663"/>
         <source>St&amp;yles:</source>
-        <translation type="unfinished"></translation>
+        <translation>Сти&amp;лі:</translation>
     </message>
 </context>
 <context>

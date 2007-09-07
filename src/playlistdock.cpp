@@ -28,8 +28,27 @@ PlaylistDock::~PlaylistDock() {
 
 void PlaylistDock::closeEvent( QCloseEvent * /*event*/ ) {
 	qDebug("PlaylistDock::closeEvent");
-	emit dockClosed();
+	emit closed();
 }
+
+void PlaylistDock::showEvent( QShowEvent * /* event */ ) {
+	qDebug("PlaylistDock::showEvent: isFloating: %d", isFloating() );
+
+	if (!isFloating()) {
+		qDebug(" docked");
+		emit docked();
+	}
+}
+
+void PlaylistDock::hideEvent( QHideEvent * /* event */ ) {
+	qDebug("PlaylistDock::hideEvent: isFloating: %d", isFloating() );
+
+	if (!isFloating()) {
+		qDebug(" undocked");
+		emit undocked();
+	}
+}
+
 
 #include "moc_playlistdock.cpp"
 

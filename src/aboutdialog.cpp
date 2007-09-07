@@ -73,7 +73,7 @@ AboutDialog::AboutDialog(QWidget * parent, Qt::WindowFlags f)
 
 	intro->setText( 
 		"<b>SMPlayer</b> &copy; 2006-2007 RVM &lt;rvm@escomposlinux.org&gt;<br><br>"
-		"<b>" + tr("Version: %1").arg(VERSION) + "</b><br>" +
+		"<b>" + tr("Version: %1").arg(smplayerVersion()) + "</b><br>" +
 /*
 #if KDE_SUPPORT
         tr("Compiled with KDE support") + "<br>" +
