@@ -66,6 +66,9 @@ protected slots:
 #if DOCK_PLAYLIST
 	virtual void showPlaylist(bool b);
 	void playlistClosed();
+
+	void stretchWindow();
+	void shrinkWindow();
 #endif
 
 protected:
@@ -89,6 +92,7 @@ protected:
 #if DOCK_PLAYLIST
     PlaylistDock * playlistdock;
 	bool fullscreen_playlist_was_visible;
+	bool fullscreen_playlist_was_floating;
 	bool compact_playlist_was_visible;
 #endif
 

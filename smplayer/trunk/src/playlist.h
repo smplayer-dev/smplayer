@@ -95,6 +95,7 @@ public slots:
 	virtual void addFiles();
 	virtual void addDirectory();
 
+	virtual void addFile(QString file);
 	virtual void addFiles(QStringList files);
 	virtual void addDirectory(QString dir);
 

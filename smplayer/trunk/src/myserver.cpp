@@ -28,7 +28,7 @@ Connection::Connection(QTcpSocket * s)
 	//connect(s, SIGNAL(disconnected()), this, SLOT(deleteLater()));
 	connect(s, SIGNAL(readyRead()), this, SLOT(readData()));
 
-	sendText("SMPlayer " VERSION);
+	sendText(QString("SMPlayer %1").arg(smplayerVersion()));
 	sendText("Type help for a list of commands");
 }
 
@@ -60,7 +60,7 @@ void Connection::parseLine(QString str) {
 
 
 	if (str.toLower() == "hello") {
-		sendText("Hello, this is SMPlayer " VERSION);
+		sendText(QString("Hello, this is SMPlayer %1").arg(smplayerVersion()));
 	}
 	else
 	if (str.toLower() == "help") {

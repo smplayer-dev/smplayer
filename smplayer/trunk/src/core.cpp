@@ -502,7 +502,7 @@ void Core::openDVD(QString dvd_url) {
 
 	if (proc->isRunning()) {
 		stopMplayer();
-		we_are_restarting = FALSE;
+		we_are_restarting = false;
 	}
 
 	// Save data of previous file:
@@ -528,7 +528,7 @@ void Core::openStream(QString name) {
 
 	if (proc->isRunning()) {
 		stopMplayer();
-		we_are_restarting = FALSE;
+		we_are_restarting = false;
 	}
 
 	// Save data of previous file:
@@ -551,7 +551,7 @@ void Core::playNewFile(QString file, int seek) {
 
 	if (proc->isRunning()) {
 		stopMplayer();
-		we_are_restarting = FALSE;
+		we_are_restarting = false;
 	}
 
 	// Save data of previous file:
@@ -771,7 +771,7 @@ void Core::finishRestart() {
 	}
 #endif
 
-	we_are_restarting = FALSE;
+	we_are_restarting = false;
 
 #if !SUBTITLES_BY_INDEX
 	if (mset.external_subtitles.isEmpty()) {

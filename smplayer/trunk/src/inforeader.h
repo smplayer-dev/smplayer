@@ -23,8 +23,13 @@
 #include <QObject>
 #include <QList>
 
-class MyProcess;
+#define USE_QPROCESS 1
 
+#if USE_QPROCESS
+class QProcess;
+#else
+class MyProcess;
+#endif
 
 class InfoData {
 
@@ -75,7 +80,11 @@ protected:
 	void list();
 
 protected:
+#if USE_QPROCESS
+	QProcess * proc;
+#else
 	MyProcess * proc;
+#endif
 	QString mplayerbin;
 
 	InfoList vo_list;

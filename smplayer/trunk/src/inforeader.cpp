@@ -21,10 +21,15 @@
 #include <QApplication>
 #include <QRegExp>
 
-#include "myprocess.h"
 #include "helper.h"
 #include "global.h"
 #include "preferences.h"
+
+#if USE_QPROCESS
+#include <QProcess>
+#else
+#include "myprocess.h"
+#endif
 
 #define NOME 0
 #define VO 1
@@ -48,10 +53,15 @@ InfoReader::InfoReader( QString mplayer_bin, QObject * parent )
 {
 	mplayerbin = mplayer_bin;
 
+#if USE_QPROCESS
+	proc = new QProcess(this);
+	proc->setProcessChannelMode( QProcess::MergedChannels );
+#else
 	proc = new MyProcess(this);
 
 	connect( proc, SIGNAL(lineAvailable(QByteArray)), 
              this, SLOT(readLine(QByteArray)) );
+#endif
 }
 
 InfoReader::~InfoReader() {
@@ -184,9 +194,43 @@ void InfoReader::readLine(QByteArray line) {
 	}
 }
 
-
+#if USE_QPROCESS
 bool InfoReader::run(QString options) {
 	qDebug("InfoReader::run: '%s'", options.toUtf8().data());
+	qDebug("InfoReader::run: using QProcess");
+
+	if (proc->state() == QProcess::Running) {
+		qWarning("InfoReader::run: process already running");
+		return false;
+	}
+
+	QStringList args = options.split(" ");
+
+	proc->start(mplayerbin, args);
+	if (!proc->waitForStarted()) {
+		qWarning("InfoReader::run: process can't start!");
+		return false;
+	}
+
+	//Wait until finish
+	proc->waitForFinished();
+
+	qDebug("InfoReader::run : terminating");
+
+	QByteArray ba;
+	while (proc->canReadLine()) {
+		ba = proc->readLine();
+		ba.replace("\n", "");
+		ba.replace("\r", "");
+		readLine( ba );
+	}
+
+	return true;
+}
+#else
+bool InfoReader::run(QString options) {
+	qDebug("InfoReader::run: '%s'", options.toUtf8().data());
+	qDebug("InfoReader::run: using myprocess");
 
 	if (proc->isRunning()) {
 		qWarning("InfoReader::run: process already running");
@@ -197,7 +241,7 @@ bool InfoReader::run(QString options) {
 
 	proc->addArgument(mplayerbin);
 
-	QStringList args = options.split(" "); //QStringList::split(" ", options);
+	QStringList args = options.split(" ");
 	QStringList::Iterator it = args.begin();
 	while( it != args.end() ) {
 		proc->addArgument( (*it) );
@@ -217,5 +261,6 @@ bool InfoReader::run(QString options) {
 
 	return true;
 }
+#endif
 
 #include "moc_inforeader.cpp"

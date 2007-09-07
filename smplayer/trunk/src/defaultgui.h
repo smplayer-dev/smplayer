@@ -48,6 +48,7 @@ public slots:
 
 protected:
 	virtual void retranslateStrings();
+	virtual QMenu * createPopupMenu();
 
 	void createStatusBar();
 	void createMainToolBars();

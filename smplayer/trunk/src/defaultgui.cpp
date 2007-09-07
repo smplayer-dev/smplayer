@@ -113,8 +113,16 @@ void DefaultGui::createMenus() {
 	optionsMenu->addMenu(toolbar_menu);
 }
 
+QMenu * DefaultGui::createPopupMenu() {
+	QMenu * m = new QMenu(this);
+	m->addAction(showMainToolbarAct);
+	m->addAction(showLanguageToolbarAct);
+	return m;
+}
+
 void DefaultGui::createMainToolBars() {
 	toolbar1 = new QToolBar( this );
+	toolbar1->setObjectName("toolbar1");
 	toolbar1->setMovable(false);
 	addToolBar(Qt::TopToolBarArea, toolbar1);
 
@@ -135,6 +143,7 @@ void DefaultGui::createMainToolBars() {
 	toolbar1->addAction(playNextAct);
 
 	toolbar2 = new QToolBar( this );
+	toolbar2->setObjectName("toolbar2");
 	toolbar2->setMovable(false);
 	addToolBar(Qt::TopToolBarArea, toolbar2);
 
@@ -155,6 +164,7 @@ void DefaultGui::createMainToolBars() {
 
 void DefaultGui::createControlWidgetMini() {
 	controlwidget_mini = new QToolBar( this );
+	controlwidget_mini->setObjectName("controlwidget_mini");
 	//controlwidget_mini->setResizeEnabled(false);
 	controlwidget_mini->setMovable(false);
 	//addDockWindow(controlwidget_mini, Qt::DockBottom );
@@ -202,6 +212,7 @@ void DefaultGui::createControlWidgetMini() {
 
 void DefaultGui::createControlWidget() {
 	controlwidget = new QToolBar( this );
+	controlwidget->setObjectName("controlwidget");
 	//controlwidget->setResizeEnabled(false);
 	controlwidget->setMovable(false);
 	//addDockWindow(controlwidget, Qt::DockBottom );

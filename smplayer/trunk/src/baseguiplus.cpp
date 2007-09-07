@@ -84,12 +84,15 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags )
 #if DOCK_PLAYLIST
 	// Playlistdock
 	playlistdock = new PlaylistDock(this);
+	playlistdock->setObjectName("playlist");
 	playlistdock->setWidget(playlist);
 	playlistdock->setAllowedAreas(Qt::TopDockWidgetArea | Qt::BottomDockWidgetArea);
 	addDockWidget(Qt::BottomDockWidgetArea, playlistdock);
 	playlistdock->hide();
 
-	connect( playlistdock, SIGNAL(dockClosed()), this, SLOT(playlistClosed()) );
+	connect( playlistdock, SIGNAL(closed()), this, SLOT(playlistClosed()) );
+	connect( playlistdock, SIGNAL(docked()), this, SLOT(stretchWindow()) );
+	connect( playlistdock, SIGNAL(undocked()), this, SLOT(shrinkWindow()) );
 #endif
 
 	retranslateStrings();
@@ -151,7 +154,7 @@ void BaseGuiPlus::retranslateStrings() {
 	updateShowAllAct();
 
 #if DOCK_PLAYLIST
-    playlistdock->setCaption( tr("Playlist") );
+    playlistdock->setWindowTitle( tr("Playlist") );
 #endif
 }
 
@@ -172,6 +175,10 @@ void BaseGuiPlus::saveConfig() {
 	set->setValue( "show_tray_icon", showTrayAct->isChecked() );
 	set->setValue( "mainwindow_visible", isVisible() );
 
+#if DOCK_PLAYLIST
+	set->setValue( "toolbars_state", saveState() );
+#endif
+
 	set->endGroup();
 }
 
@@ -187,6 +194,10 @@ void BaseGuiPlus::loadConfig() {
 	//tray->setVisible( show_tray_icon );
 
 	mainwindow_visible = set->value("mainwindow_visible", true).toBool();
+
+#if DOCK_PLAYLIST
+	restoreState( set->value( "toolbars_state" ).toByteArray() );
+#endif
 
 	set->endGroup();
 
@@ -295,6 +306,8 @@ void BaseGuiPlus::aboutToEnterFullscreen() {
 
 #if DOCK_PLAYLIST
 	fullscreen_playlist_was_visible = playlistdock->isVisible();
+	//fullscreen_playlist_was_floating = playlistdock->isFloating();
+	playlistdock->setFloating(true);
 	playlistdock->hide();
 #endif
 }
@@ -305,8 +318,10 @@ void BaseGuiPlus::aboutToExitFullscreen() {
 	BaseGui::aboutToExitFullscreen();
 
 #if DOCK_PLAYLIST
-	if (fullscreen_playlist_was_visible)
+	if (fullscreen_playlist_was_visible) {
 		playlistdock->show();
+	}
+	//playlistdock->setFloating( fullscreen_playlist_was_floating );
 #endif
 }
 
@@ -343,6 +358,30 @@ void BaseGuiPlus::showPlaylist(bool b) {
 
 void BaseGuiPlus::playlistClosed() {
 	showPlaylistAct->setChecked(false);
+}
+
+void BaseGuiPlus::stretchWindow() {
+	qDebug("BaseGuiPlus::stretchWindow");
+
+	int new_height = height() + playlistdock->height();
+
+	//if (new_height > DesktopInfo::desktop_size(this).height()) 
+	//	new_height = DesktopInfo::desktop_size(this).height() - 20;
+
+	qDebug("BaseGuiPlus::stretchWindow: stretching: new height: %d", new_height);
+	resize( width(), new_height );
+
+	//resizeWindow(core->mset.win_width, core->mset.win_height);
+}
+
+void BaseGuiPlus::shrinkWindow() {
+	qDebug("BaseGuiPlus::shrinkWindow");
+
+	int new_height = height() - playlistdock->height();
+	qDebug("DefaultGui::shrinkWindow: shrinking: new height: %d", new_height);
+	resize( width(), new_height );
+
+	//resizeWindow(core->mset.win_width, core->mset.win_height);
 }
 
 #endif

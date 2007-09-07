@@ -1645,7 +1645,10 @@ void BaseGui::newMediaLoaded() {
 			playlist->addFiles(l);
 			//playlist->setModified(false); // Not a real playlist
 		}
-	}
+	} /*else {
+		playlist->clear();
+		playlist->addCurrentFile();
+	}*/
 }
 
 void BaseGui::showMplayerLog() {
@@ -1979,7 +1982,14 @@ void BaseGui::openRecent() {
 	if (a) {
 		int item = a->data().toInt();
 		qDebug("BaseGui::openRecent: %d", item);
-		open( recents->item(item) );
+		QString file = recents->item(item);
+
+		if (playlist->maybeSave()) {
+			playlist->clear();
+			playlist->addFile(file);
+
+			open( file );
+		}
 	}
 }
 
@@ -1995,7 +2005,12 @@ void BaseGui::open(QString file) {
 	} 
 	else {
 		// Let the core to open it, autodetecting the file type
-		core->open(file);
+		//if (playlist->maybeSave()) {
+		//	playlist->clear();
+		//	playlist->addFile(file);
+
+			core->open(file);
+		//}
 	}
 }
 
@@ -2057,7 +2072,13 @@ void BaseGui::openURL() {
 void BaseGui::openURL(QString url) {
 	if (!url.isEmpty()) {
 		pref->last_url = url;
-		core->openStream(url);
+
+		if (playlist->maybeSave()) {
+			core->openStream(url);
+
+			playlist->clear();
+			playlist->addFile(url);
+		}
 	}
 }
 
@@ -2099,7 +2120,12 @@ void BaseGui::openFile(QString file) {
 		}
 		else {
 			pref->latest_dir = QFileInfo(file).absolutePath();
-			core->openFile(file);
+			if (playlist->maybeSave()) {
+				core->openFile(file);
+
+				playlist->clear();
+				playlist->addFile(file);
+			}
 		}
 	}
 }
@@ -2456,7 +2482,12 @@ void BaseGui::dropEvent( QDropEvent *e ) {
 				openDirectory( files[0] );
 			} else {
 				//openFile( files[0] );
-				open( files[0] );
+				if (playlist->maybeSave()) {
+					playlist->clear();
+					playlist->addFile(files[0]);
+
+					open( files[0] );
+				}
 			}
 		} else {
 			playlist->clear();
@@ -2585,10 +2616,23 @@ void BaseGui::resizeWindow(int w, int h) {
 
 	if (!panel->isVisible()) {
 		//hide();
+/* #if QT_VERSION >= 0x040301 */
+		// Work-around for Qt 4.3.1
+#if DOCK_PLAYLIST
+		panel->show();
+		resize(600,600);
+#else
+		resize(300,300);
+		panel->show();
+#endif
+/*
+#else
 		panel->show();
 		QPoint p = pos();
 		adjustSize();
 		move(p);
+#endif
+*/
 		//show();
 	}
 

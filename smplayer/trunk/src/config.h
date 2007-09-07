@@ -44,7 +44,7 @@
 // if 1, the playlist will be docked in the main window, instead
 // of being a top level window
 
-#define DOCK_PLAYLIST 0
+#define DOCK_PLAYLIST 1
 
 
 // STYLE_SWITCHING
@@ -59,6 +59,7 @@
 // instead of QThread::msleep()
 // It can be useful if your Qt doesn't have QThread support.
 // Note: not much test it
+// Note 2: not used anymore
 
 #define EXTERNAL_SLEEP 0
 
