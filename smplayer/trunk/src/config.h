@@ -44,7 +44,7 @@
 // if 1, the playlist will be docked in the main window, instead
 // of being a top level window
 
-#define DOCK_PLAYLIST 1
+#define DOCK_PLAYLIST 0
 
 
 // STYLE_SWITCHING
