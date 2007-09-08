@@ -975,7 +975,7 @@ void Core::startMplayer( QString file, double seek )
 	if (mdat.type==TYPE_DVD) {
 		dvd_folder = Helper::dvdSplitFolder(file);
 		if (dvd_folder.isEmpty()) dvd_folder = pref->dvd_device;
-		if (dvd_folder.endsWith("/")) dvd_folder = dvd_folder.remove( dvd_folder.length()-1,1);
+		/* if (dvd_folder.endsWith("/")) dvd_folder = dvd_folder.remove( dvd_folder.length()-1,1); */
 		dvd_title = Helper::dvdSplitTitle(file);
 		file = "dvd://" + QString::number(dvd_title);
 	}
