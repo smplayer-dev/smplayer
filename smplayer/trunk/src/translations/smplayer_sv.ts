@@ -248,167 +248,167 @@ Vill du skriva över den?</translation>
 <context>
     <name>BaseGui</name>
     <message>
-        <location filename="../basegui.cpp" line="973"/>
+        <location filename="../basegui.cpp" line="979"/>
         <source>SMPlayer - mplayer log</source>
         <translation>SMPlayer - mplayer-logg</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="974"/>
+        <location filename="../basegui.cpp" line="980"/>
         <source>SMPlayer - smplayer log</source>
         <translation>SMPlayer - smplayer-logg</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="852"/>
+        <location filename="../basegui.cpp" line="858"/>
         <source>&amp;Open</source>
         <translation>&amp;Öppna</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="853"/>
+        <location filename="../basegui.cpp" line="859"/>
         <source>&amp;Play</source>
         <translation>&amp;Spela upp</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="854"/>
+        <location filename="../basegui.cpp" line="860"/>
         <source>&amp;Video</source>
         <translation>&amp;Video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="855"/>
+        <location filename="../basegui.cpp" line="861"/>
         <source>&amp;Audio</source>
         <translation>&amp;Ljud</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="856"/>
+        <location filename="../basegui.cpp" line="862"/>
         <source>&amp;Subtitles</source>
         <translation>&amp;Undertexter</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="857"/>
+        <location filename="../basegui.cpp" line="863"/>
         <source>&amp;Browse</source>
         <translation>&amp;Bläddra</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="858"/>
+        <location filename="../basegui.cpp" line="864"/>
         <source>Op&amp;tions</source>
         <translation>&amp;Inställningar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="859"/>
+        <location filename="../basegui.cpp" line="865"/>
         <source>&amp;Help</source>
         <translation>&amp;Hjälp</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="716"/>
+        <location filename="../basegui.cpp" line="721"/>
         <source>&amp;File...</source>
         <translation>&amp;Filer ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="717"/>
+        <location filename="../basegui.cpp" line="722"/>
         <source>D&amp;irectory...</source>
         <translation>&amp;Mapp ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="718"/>
+        <location filename="../basegui.cpp" line="723"/>
         <source>&amp;Playlist...</source>
         <translation>&amp;Spellista ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="721"/>
+        <location filename="../basegui.cpp" line="726"/>
         <source>&amp;DVD from drive</source>
         <translation>&amp;DVD från enhet</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="722"/>
+        <location filename="../basegui.cpp" line="727"/>
         <source>D&amp;VD from folder...</source>
         <translation>D&amp;VD från mapp ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="723"/>
+        <location filename="../basegui.cpp" line="728"/>
         <source>&amp;URL...</source>
         <translation>&amp;Webbadress ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="875"/>
+        <location filename="../basegui.cpp" line="881"/>
         <source>&amp;Clear</source>
         <translation>&amp;Töm</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="873"/>
+        <location filename="../basegui.cpp" line="879"/>
         <source>&amp;Recent files</source>
         <translation>&amp;Tidigare filer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="727"/>
+        <location filename="../basegui.cpp" line="732"/>
         <source>P&amp;lay</source>
         <translation>&amp;Spela upp</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="728"/>
+        <location filename="../basegui.cpp" line="733"/>
         <source>&amp;Pause</source>
         <translation>&amp;Paus</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="729"/>
+        <location filename="../basegui.cpp" line="734"/>
         <source>&amp;Stop</source>
         <translation>S&amp;topp</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="730"/>
+        <location filename="../basegui.cpp" line="735"/>
         <source>&amp;Frame step</source>
         <translation>St&amp;ega</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="740"/>
+        <location filename="../basegui.cpp" line="745"/>
         <source>&amp;Normal speed</source>
         <translation>&amp;Normal hastighet</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="741"/>
+        <location filename="../basegui.cpp" line="746"/>
         <source>&amp;Halve speed</source>
         <translation>&amp;Halv hastighet</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="742"/>
+        <location filename="../basegui.cpp" line="747"/>
         <source>&amp;Double speed</source>
         <translation>&amp;Dubbel hastighet</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="743"/>
+        <location filename="../basegui.cpp" line="748"/>
         <source>Speed &amp;-10%</source>
         <translation>Hastighet &amp;-10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="744"/>
+        <location filename="../basegui.cpp" line="749"/>
         <source>Speed &amp;+10%</source>
         <translation>Hastighet &amp;+10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="878"/>
+        <location filename="../basegui.cpp" line="884"/>
         <source>Sp&amp;eed</source>
         <translation>&amp;Hastighet</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="737"/>
+        <location filename="../basegui.cpp" line="742"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Upprepa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="747"/>
+        <location filename="../basegui.cpp" line="752"/>
         <source>&amp;Fullscreen</source>
         <translation>&amp;Helskärm</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="748"/>
+        <location filename="../basegui.cpp" line="753"/>
         <source>&amp;Compact mode</source>
         <translation>&amp;Kompakt läge</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="882"/>
+        <location filename="../basegui.cpp" line="888"/>
         <source>Si&amp;ze</source>
         <translation>S&amp;torlek</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="902"/>
+        <location filename="../basegui.cpp" line="908"/>
         <source>&amp;Autodetect</source>
         <translation>&amp;Autodetektera</translation>
     </message>
@@ -443,349 +443,349 @@ Vill du skriva över den?</translation>
         <translation type="obsolete">&amp;2.35:1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="909"/>
+        <location filename="../basegui.cpp" line="915"/>
         <source>4:3 &amp;Letterbox</source>
         <translation>4:3 &amp;Brevlåda</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="910"/>
+        <location filename="../basegui.cpp" line="916"/>
         <source>16:9 L&amp;etterbox</source>
         <translation>16:9 B&amp;revlåda</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="911"/>
+        <location filename="../basegui.cpp" line="917"/>
         <source>4:3 &amp;Panscan</source>
         <translation>4:3 &amp;Panscan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="912"/>
+        <location filename="../basegui.cpp" line="918"/>
         <source>4:3 &amp;to 16:9</source>
         <translation>4:3 &amp;till 16:9</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="888"/>
+        <location filename="../basegui.cpp" line="894"/>
         <source>&amp;Aspect ratio</source>
         <translation>&amp;Bildformat</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1682"/>
+        <location filename="../basegui.cpp" line="1691"/>
         <source>&amp;None</source>
         <translation>&amp;Ingen</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="915"/>
+        <location filename="../basegui.cpp" line="921"/>
         <source>&amp;Lowpass5</source>
         <translation>&amp;Lågpass5</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="918"/>
+        <location filename="../basegui.cpp" line="924"/>
         <source>Linear &amp;Blend</source>
         <translation>Linear &amp;Blend</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="891"/>
+        <location filename="../basegui.cpp" line="897"/>
         <source>&amp;Deinterlace</source>
         <translation>&amp;Deinterlace</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="762"/>
+        <location filename="../basegui.cpp" line="768"/>
         <source>&amp;Postprocessing</source>
         <translation>&amp;Efterbehandling</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="763"/>
+        <location filename="../basegui.cpp" line="769"/>
         <source>&amp;Autodetect phase</source>
         <translation>&amp;Autodetektera phase</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="764"/>
+        <location filename="../basegui.cpp" line="770"/>
         <source>&amp;Deblock</source>
         <translation>&amp;Deblock</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="765"/>
+        <location filename="../basegui.cpp" line="771"/>
         <source>De&amp;ring</source>
         <translation>De&amp;ring</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="766"/>
+        <location filename="../basegui.cpp" line="772"/>
         <source>Add n&amp;oise</source>
         <translation>Lägg till n&amp;oise</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="894"/>
+        <location filename="../basegui.cpp" line="900"/>
         <source>F&amp;ilters</source>
         <translation>F&amp;ilter</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="749"/>
+        <location filename="../basegui.cpp" line="754"/>
         <source>&amp;Equalizer</source>
         <translation>&amp;Equalizer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="750"/>
+        <location filename="../basegui.cpp" line="755"/>
         <source>&amp;Screenshot</source>
         <translation>&amp;Skärmdump</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="751"/>
+        <location filename="../basegui.cpp" line="756"/>
         <source>S&amp;tay on top</source>
         <translation>&amp;Alltid överst</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="926"/>
+        <location filename="../basegui.cpp" line="932"/>
         <source>&amp;Track</source>
         <translation>&amp;Spår</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="780"/>
+        <location filename="../basegui.cpp" line="786"/>
         <source>&amp;Extrastereo</source>
         <translation>&amp;Extrastereo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="781"/>
+        <location filename="../basegui.cpp" line="787"/>
         <source>&amp;Karaoke</source>
         <translation>&amp;Karaoke</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="929"/>
+        <location filename="../basegui.cpp" line="935"/>
         <source>&amp;Filters</source>
         <translation>&amp;Filter</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="938"/>
+        <location filename="../basegui.cpp" line="944"/>
         <source>&amp;Default</source>
         <translation>&amp;Standard</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="943"/>
+        <location filename="../basegui.cpp" line="949"/>
         <source>&amp;Stereo</source>
         <translation>&amp;Stereo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="940"/>
+        <location filename="../basegui.cpp" line="946"/>
         <source>&amp;4.0 Surround</source>
         <translation>&amp;4.0 Surround</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="941"/>
+        <location filename="../basegui.cpp" line="947"/>
         <source>&amp;5.1 Surround</source>
         <translation>&amp;5.1 Surround</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="932"/>
+        <location filename="../basegui.cpp" line="938"/>
         <source>&amp;Channels</source>
         <translation>&amp;Kanaler</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="944"/>
+        <location filename="../basegui.cpp" line="950"/>
         <source>&amp;Left channel</source>
         <translation>&amp;Vänster kanal</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="945"/>
+        <location filename="../basegui.cpp" line="951"/>
         <source>&amp;Right channel</source>
         <translation>&amp;Höger kanal</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="935"/>
+        <location filename="../basegui.cpp" line="941"/>
         <source>&amp;Stereo mode</source>
         <translation>S&amp;tereoläge</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="771"/>
+        <location filename="../basegui.cpp" line="777"/>
         <source>&amp;Mute</source>
         <translation>&amp;Ljud av</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="772"/>
+        <location filename="../basegui.cpp" line="778"/>
         <source>Volume &amp;-</source>
         <translation>Volym &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="773"/>
+        <location filename="../basegui.cpp" line="779"/>
         <source>Volume &amp;+</source>
         <translation>Volym &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="774"/>
+        <location filename="../basegui.cpp" line="780"/>
         <source>&amp;Delay -</source>
         <translation>&amp;Fördröjning -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="775"/>
+        <location filename="../basegui.cpp" line="781"/>
         <source>D&amp;elay +</source>
         <translation>F&amp;ördröjning +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="948"/>
+        <location filename="../basegui.cpp" line="954"/>
         <source>&amp;Select</source>
         <translation>&amp;Välj</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="785"/>
+        <location filename="../basegui.cpp" line="791"/>
         <source>&amp;Load...</source>
         <translation>&amp;Öppna ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="789"/>
+        <location filename="../basegui.cpp" line="795"/>
         <source>Delay &amp;-</source>
         <translation>Fördröjning &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="790"/>
+        <location filename="../basegui.cpp" line="796"/>
         <source>Delay &amp;+</source>
         <translation>Fördröjning &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="791"/>
+        <location filename="../basegui.cpp" line="797"/>
         <source>&amp;Up</source>
         <translation>&amp;Upp</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="792"/>
+        <location filename="../basegui.cpp" line="798"/>
         <source>&amp;Down</source>
         <translation>&amp;Ner</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="952"/>
+        <location filename="../basegui.cpp" line="958"/>
         <source>&amp;Title</source>
         <translation>&amp;Titel</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="955"/>
+        <location filename="../basegui.cpp" line="961"/>
         <source>&amp;Chapter</source>
         <translation>&amp;Kapitel</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="958"/>
+        <location filename="../basegui.cpp" line="964"/>
         <source>&amp;Angle</source>
         <translation>&amp;Vinkel</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="800"/>
+        <location filename="../basegui.cpp" line="806"/>
         <source>&amp;Playlist</source>
         <translation>&amp;Spellista</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="803"/>
+        <location filename="../basegui.cpp" line="809"/>
         <source>&amp;Show frame counter</source>
         <translation>Visa &amp;bildräknare</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="845"/>
+        <location filename="../basegui.cpp" line="851"/>
         <source>&amp;Disabled</source>
         <translation>&amp;Inaktiverad</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="846"/>
+        <location filename="../basegui.cpp" line="852"/>
         <source>&amp;Seek bar</source>
         <translation>&amp;Förloppsindikator</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="847"/>
+        <location filename="../basegui.cpp" line="853"/>
         <source>&amp;Time</source>
         <translation>&amp;Tid</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="848"/>
+        <location filename="../basegui.cpp" line="854"/>
         <source>Time + T&amp;otal time</source>
         <translation>Tid + T&amp;otal tid</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="962"/>
+        <location filename="../basegui.cpp" line="968"/>
         <source>&amp;OSD</source>
         <translation>Vis&amp;a på skärmen (OSD)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="965"/>
+        <location filename="../basegui.cpp" line="971"/>
         <source>&amp;View logs</source>
         <translation>Visa &amp;loggar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="804"/>
+        <location filename="../basegui.cpp" line="810"/>
         <source>P&amp;references</source>
         <translation>&amp;Inställningar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="811"/>
+        <location filename="../basegui.cpp" line="817"/>
         <source>About &amp;Qt</source>
         <translation>Om &amp;Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="812"/>
+        <location filename="../basegui.cpp" line="818"/>
         <source>About &amp;SMPlayer</source>
         <translation>Om &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1799"/>
+        <location filename="../basegui.cpp" line="1808"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;tom&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2093"/>
+        <location filename="../basegui.cpp" line="2105"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2261"/>
+        <location filename="../basegui.cpp" line="2273"/>
         <source>Audio</source>
         <translation>Ljud</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2096"/>
+        <location filename="../basegui.cpp" line="2108"/>
         <source>Playlists</source>
         <translation>Spellistor</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2262"/>
+        <location filename="../basegui.cpp" line="2274"/>
         <source>All files</source>
         <translation>Alla filer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2259"/>
+        <location filename="../basegui.cpp" line="2271"/>
         <source>Choose a file</source>
         <translation>Välj en fil</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2134"/>
+        <location filename="../basegui.cpp" line="2146"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Information</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2137"/>
+        <location filename="../basegui.cpp" line="2149"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Enheterna för cdrom/dvd är inte konfigurerade än.
 Nu visas konfigurationsdialogen så att du kan göra detta.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2211"/>
+        <location filename="../basegui.cpp" line="2223"/>
         <source>Choose a directory</source>
         <translation>Välj en mapp</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2246"/>
+        <location filename="../basegui.cpp" line="2258"/>
         <source>Subtitles</source>
         <translation>Undertexter</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2273"/>
+        <location filename="../basegui.cpp" line="2285"/>
         <source>About Qt</source>
         <translation>Om Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2573"/>
+        <location filename="../basegui.cpp" line="2585"/>
         <source>Playing %1</source>
         <translation>Spelar upp %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2574"/>
+        <location filename="../basegui.cpp" line="2586"/>
         <source>Pause</source>
         <translation>Paus</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2575"/>
+        <location filename="../basegui.cpp" line="2587"/>
         <source>Stop</source>
         <translation>Stopp</translation>
     </message>
@@ -805,248 +805,253 @@ Nu visas konfigurationsdialogen så att du kan göra detta.</translation>
         <translation type="obsolete">&amp;Soft</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="732"/>
+        <location filename="../basegui.cpp" line="737"/>
         <source>Play / Pause</source>
         <translation>Spela upp/Paus</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="733"/>
+        <location filename="../basegui.cpp" line="738"/>
         <source>Pause / Frame step</source>
         <translation>Paus/Stegning</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="787"/>
+        <location filename="../basegui.cpp" line="793"/>
         <source>U&amp;nload</source>
         <translation>&amp;Stäng</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="719"/>
+        <location filename="../basegui.cpp" line="724"/>
         <source>V&amp;CD</source>
         <translation>V&amp;CD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="724"/>
+        <location filename="../basegui.cpp" line="729"/>
         <source>C&amp;lose</source>
         <translation>&amp;Stäng</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="801"/>
+        <location filename="../basegui.cpp" line="807"/>
         <source>View &amp;info and properties...</source>
         <translation>Visa i&amp;nfo och egenskaper ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="753"/>
+        <location filename="../basegui.cpp" line="759"/>
         <source>Zoom &amp;-</source>
         <translation>Zoom &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="754"/>
+        <location filename="../basegui.cpp" line="760"/>
         <source>Zoom &amp;+</source>
         <translation>Zoom &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="755"/>
+        <location filename="../basegui.cpp" line="761"/>
         <source>&amp;Reset</source>
         <translation>&amp;Återställ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="756"/>
+        <location filename="../basegui.cpp" line="762"/>
         <source>Move &amp;left</source>
         <translation>Flytta till &amp;vänster</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="757"/>
+        <location filename="../basegui.cpp" line="763"/>
         <source>Move &amp;right</source>
         <translation>Flytta till &amp;höger</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="758"/>
+        <location filename="../basegui.cpp" line="764"/>
         <source>Move &amp;up</source>
         <translation>Flytta &amp;uppåt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="759"/>
+        <location filename="../basegui.cpp" line="765"/>
         <source>Move &amp;down</source>
         <translation>Flytta &amp;nedåt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="885"/>
+        <location filename="../basegui.cpp" line="891"/>
         <source>&amp;Pan &amp;&amp; scan</source>
         <translation>&amp;Pan &amp;&amp; scan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="794"/>
+        <location filename="../basegui.cpp" line="800"/>
         <source>&amp;Previous line in subtitles</source>
         <translation>&amp;Föregående rad</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="796"/>
+        <location filename="../basegui.cpp" line="802"/>
         <source>N&amp;ext line in subtitles</source>
         <translation>N&amp;ästa rad</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="991"/>
+        <location filename="../basegui.cpp" line="997"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="998"/>
+        <location filename="../basegui.cpp" line="1004"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="821"/>
+        <location filename="../basegui.cpp" line="827"/>
         <source>Dec volume (2)</source>
         <translation>Sänk vol (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="822"/>
+        <location filename="../basegui.cpp" line="828"/>
         <source>Inc volume (2)</source>
         <translation>Höj vol (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="825"/>
+        <location filename="../basegui.cpp" line="831"/>
         <source>Exit fullscreen</source>
         <translation>Avsluta helskärm</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="827"/>
+        <location filename="../basegui.cpp" line="833"/>
         <source>OSD - Next level</source>
         <translation>OSD - nästa nivå</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="828"/>
+        <location filename="../basegui.cpp" line="834"/>
         <source>Dec contrast</source>
         <translation>Minska kontrast</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="829"/>
+        <location filename="../basegui.cpp" line="835"/>
         <source>Inc contrast</source>
         <translation>Öka kontrast</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="830"/>
+        <location filename="../basegui.cpp" line="836"/>
         <source>Dec brightness</source>
         <translation>Minska ljusstyrka</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="831"/>
+        <location filename="../basegui.cpp" line="837"/>
         <source>Inc brightness</source>
         <translation>Öka ljusstyrka</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="832"/>
+        <location filename="../basegui.cpp" line="838"/>
         <source>Dec hue</source>
         <translation>Minska nyans</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="833"/>
+        <location filename="../basegui.cpp" line="839"/>
         <source>Inc hue</source>
         <translation>Öka nyans</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="834"/>
+        <location filename="../basegui.cpp" line="840"/>
         <source>Dec saturation</source>
         <translation>Minska färgmättnad</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="836"/>
+        <location filename="../basegui.cpp" line="842"/>
         <source>Dec gamma</source>
         <translation>Minska gamma</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="838"/>
+        <location filename="../basegui.cpp" line="844"/>
         <source>Next audio</source>
         <translation>Nästa ljudfil</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="839"/>
+        <location filename="../basegui.cpp" line="845"/>
         <source>Next subtitle</source>
         <translation>Nästa undertext</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="840"/>
+        <location filename="../basegui.cpp" line="846"/>
         <source>Next chapter</source>
         <translation>Nästa kapitel</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="841"/>
+        <location filename="../basegui.cpp" line="847"/>
         <source>Previous chapter</source>
         <translation>Föregående kapitel</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="835"/>
+        <location filename="../basegui.cpp" line="841"/>
         <source>Inc saturation</source>
         <translation>Öka färgmättnad</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="837"/>
+        <location filename="../basegui.cpp" line="843"/>
         <source>Inc gamma</source>
         <translation>Öka gamma</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="842"/>
+        <location filename="../basegui.cpp" line="848"/>
         <source>Toggle double size</source>
         <translation>Skifta dubbel storlek</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="776"/>
+        <location filename="../basegui.cpp" line="782"/>
         <source>&amp;Load external file...</source>
         <translation>&amp;Öppna extern fil...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="919"/>
+        <location filename="../basegui.cpp" line="925"/>
         <source>&amp;Kerndeint</source>
         <translation>&amp;Kerndeint</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="916"/>
+        <location filename="../basegui.cpp" line="922"/>
         <source>&amp;Yadif (normal)</source>
         <translation>&amp;Yadif (normal)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="917"/>
+        <location filename="../basegui.cpp" line="923"/>
         <source>Y&amp;adif (double framerate)</source>
         <translation>Y&amp;adif (dubbel framerate)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="815"/>
+        <location filename="../basegui.cpp" line="821"/>
         <source>&amp;Next</source>
         <translation>&amp;Nästa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="816"/>
+        <location filename="../basegui.cpp" line="822"/>
         <source>Pre&amp;vious</source>
         <translation>&amp;Föregående</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="782"/>
+        <location filename="../basegui.cpp" line="788"/>
         <source>Volume &amp;normalization</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="720"/>
+        <location filename="../basegui.cpp" line="725"/>
         <source>&amp;Audio CD</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="922"/>
+        <location filename="../basegui.cpp" line="928"/>
         <source>Denoise nor&amp;mal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="923"/>
+        <location filename="../basegui.cpp" line="929"/>
         <source>Denoise &amp;soft</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="921"/>
+        <location filename="../basegui.cpp" line="927"/>
         <source>Denoise o&amp;ff</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="797"/>
+        <location filename="../basegui.cpp" line="803"/>
         <source>Use SSA/&amp;ASS library</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="757"/>
+        <source>Flip i&amp;mage</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1091,37 +1096,37 @@ Nu visas konfigurationsdialogen så att du kan göra detta.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1803"/>
+        <location filename="../core.cpp" line="1826"/>
         <source>Brightness: %1</source>
         <translation>Ljusstyrka: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1812"/>
+        <location filename="../core.cpp" line="1835"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1820"/>
+        <location filename="../core.cpp" line="1843"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1828"/>
+        <location filename="../core.cpp" line="1851"/>
         <source>Hue: %1</source>
         <translation>Nyans: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1836"/>
+        <location filename="../core.cpp" line="1859"/>
         <source>Saturation: %1</source>
         <translation>Färgmättnad: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1950"/>
+        <location filename="../core.cpp" line="1973"/>
         <source>Volume: %1</source>
         <translation>Volym: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2418"/>
+        <location filename="../core.cpp" line="2441"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
@@ -2963,7 +2968,7 @@ Rullgardinslistorna kan erbjuda färdiggjorda reguljära uttryck på flera språ
         <translation type="unfinished">En cache kan förbättra prestanda för långsamma media.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="176"/>
+        <location filename="../prefperformance.cpp" line="186"/>
         <source>Allow frame drop</source>
         <translation type="unfinished">Tillåt &apos;frame drop&apos;</translation>
     </message>
@@ -2978,7 +2983,7 @@ Rullgardinslistorna kan erbjuda färdiggjorda reguljära uttryck på flera språ
         <translation type="unfinished">Synkronisering</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="183"/>
+        <location filename="../prefperformance.cpp" line="193"/>
         <source>Audio/video auto synchronization</source>
         <translation type="unfinished">Autosynkronisering av ljud/video</translation>
     </message>
@@ -2998,37 +3003,37 @@ Rullgardinslistorna kan erbjuda färdiggjorda reguljära uttryck på flera språ
         <translation type="obsolete">Snabbsökning till kapitel på DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="167"/>
+        <location filename="../prefperformance.cpp" line="177"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation type="unfinished">Ange processprioritering för MPlayer enligt de fördefinierade prioriteter tillgängliga under Windows.&lt;br&gt;&lt;b&gt;VARNING:&lt;/b&gt; Realtidsprioritet kan låsa systemet helt.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="170"/>
+        <location filename="../prefperformance.cpp" line="180"/>
         <source>&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option is for Windows only.</source>
         <translation type="unfinished">&lt;br&gt;&lt;b&gt;OBS:&lt;/b&gt; Detta alternativ gäller endast Windows.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="174"/>
+        <location filename="../prefperformance.cpp" line="184"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file or URL. Especially useful on slow media.</source>
         <translation type="unfinished">Detta alternativ anger hur mycket minne (i kB) som ska användas när en fil eller URL cachas i förväg. Speciellt användbart vid långsamma media.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="177"/>
+        <location filename="../prefperformance.cpp" line="187"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation type="unfinished">Strunta i att visa vissa bildrutor för att bibehålla bild-ljudsynkroniseringen på långsamma system.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="179"/>
+        <location filename="../prefperformance.cpp" line="189"/>
         <source>Allow hard frame drop</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="181"/>
+        <location filename="../prefperformance.cpp" line="191"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation type="unfinished">Hoppar över ännu fler bildrutor. Leder till distortion av bilden!</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="185"/>
+        <location filename="../prefperformance.cpp" line="195"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation type="unfinished">Anpassar gradvis ljud-bildsynkroniseringen baserat på mätningar av ljudfördröjning.</translation>
     </message>
@@ -3075,6 +3080,21 @@ Rullgardinslistorna kan erbjuda färdiggjorda reguljära uttryck på flera språ
     <message>
         <location filename="../prefperformance.ui" line="366"/>
         <source>Fast &amp;seek to chapters in dvds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="197"/>
+        <source>Create index if needed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="202"/>
+        <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="380"/>
+        <source>&amp;Create index if needed</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

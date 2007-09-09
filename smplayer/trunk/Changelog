@@ -1,3 +1,20 @@
+[b]Version 0.5.54[/b]
+ * Updated the German, Ukrainian and Romanian translations.
+ * Disabled again the playlist in main window as it has serious problems with
+   Qt 4.3.1 (at least in Windows).
+ * The trailing "/" in dvd device paths won't be removed. It seems that 
+   sometimes it's necessary. But be carefully, Windows users, when playing a
+   dvd from a folder in the hard disc the path shouldn't end in "/", that 
+   would make mplayer to fail.
+ * (By user request) Added "Video->Flip image" which flips the image 
+   upside-down. This option will affect the current video only, it's not
+   a global option.
+ * Now you can move the toolbars wherever you want.
+ * Added the option "Create index if needed" in Preferences->Performance.
+   The option will pass -idx to mplayer. From mplayer manpage:
+   "Rebuilds index of files if no index was found, allowing seeking.
+   Useful with broken/incomplete downloads, or badly created files."
+
 [b]Version 0.5.53[/b]
  * Some fixes in the code to add the file to play in the playlist.
  * Some more improvements on the playlist embedded in the main window: 

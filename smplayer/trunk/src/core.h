@@ -92,6 +92,9 @@ public slots:
 	void toggleRepeat();
 	void toggleRepeat(bool b);
 
+	void toggleFlip();
+	void toggleFlip(bool b);
+
 	// Audio filters
 	void toggleKaraoke();
 	void toggleKaraoke(bool b);

@@ -176,7 +176,7 @@ void BaseGuiPlus::saveConfig() {
 	set->setValue( "mainwindow_visible", isVisible() );
 
 #if DOCK_PLAYLIST
-	set->setValue( "toolbars_state", saveState() );
+	set->setValue( "playlist_and_toolbars_state", saveState() );
 #endif
 
 	set->endGroup();
@@ -196,7 +196,7 @@ void BaseGuiPlus::loadConfig() {
 	mainwindow_visible = set->value("mainwindow_visible", true).toBool();
 
 #if DOCK_PLAYLIST
-	restoreState( set->value( "toolbars_state" ).toByteArray() );
+	restoreState( set->value( "playlist_and_toolbars_state" ).toByteArray() );
 #endif
 
 	set->endGroup();

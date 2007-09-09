@@ -117,6 +117,8 @@ void Preferences::reset() {
 	audio_lang = "";
 	subtitle_lang = "";
 
+	use_idx = false;
+
 	dont_change_volume = false;
 
 	use_hwac3 = false;
@@ -280,6 +282,8 @@ void Preferences::save() {
 	set->setValue("audio_lang", audio_lang);
 	set->setValue("subtitle_lang", subtitle_lang);
 
+	set->setValue("use_idx", use_idx);
+
 	set->setValue("dont_change_volume", dont_change_volume );
 
 	set->setValue("use_hwac3", use_hwac3 );
@@ -439,6 +443,8 @@ void Preferences::load() {
 
 	audio_lang = set->value("audio_lang", audio_lang).toString();
 	subtitle_lang = set->value("subtitle_lang", subtitle_lang).toString();
+
+	use_idx = set->value("use_idx", use_idx).toBool();
 
 	dont_change_volume = set->value("dont_change_volume", dont_change_volume ).toBool();
 

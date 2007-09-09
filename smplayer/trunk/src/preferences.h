@@ -103,6 +103,8 @@ public:
 	QString audio_lang; 		// Preferred audio language
 	QString subtitle_lang;		// Preferred subtitle language
 
+	bool use_idx; //!< Use -idx
+
 	bool dont_change_volume; // Don't change volume on startup
 
 	bool use_hwac3; // -afm hwac3
