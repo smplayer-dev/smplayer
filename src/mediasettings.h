@@ -99,6 +99,8 @@ public:
 
 	double panscan_factor; // mplayerwindow zoom
 
+	bool flip; //!< Flip image
+
 	// This a property of the video and it should be
     // in mediadata, but we have to save it to preserve 
 	// this data among restarts.

@@ -71,6 +71,9 @@ protected:
 	void setFastAudioSwitching(bool b);
 	bool fastAudioSwitching();
 
+	void setUseIdx(bool);
+	bool useIdx();
+
 protected:
 	virtual void retranslateStrings();
 };

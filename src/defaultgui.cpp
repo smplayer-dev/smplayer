@@ -123,7 +123,7 @@ QMenu * DefaultGui::createPopupMenu() {
 void DefaultGui::createMainToolBars() {
 	toolbar1 = new QToolBar( this );
 	toolbar1->setObjectName("toolbar1");
-	toolbar1->setMovable(false);
+	//toolbar1->setMovable(false);
 	addToolBar(Qt::TopToolBarArea, toolbar1);
 
 	toolbar1->addAction(openFileAct);
@@ -144,7 +144,7 @@ void DefaultGui::createMainToolBars() {
 
 	toolbar2 = new QToolBar( this );
 	toolbar2->setObjectName("toolbar2");
-	toolbar2->setMovable(false);
+	//toolbar2->setMovable(false);
 	addToolBar(Qt::TopToolBarArea, toolbar2);
 
 	select_audio = new QPushButton( this );
@@ -614,15 +614,7 @@ void DefaultGui::saveConfig() {
 		set->setValue( "height", height() );
 	}
 
-#if DOCK_PLAYLIST
-	/*
-	qDebug("DefaultGui::saveConfig: playlist_visible: %d", playlist_visible);
-	set->setValue( "playlist_visible", playlist_visible );
-	if (playlist_visible) set->setValue( "height", height() - playlistdock->height() );
-
-	set->setValue( "playlist_floating", playlistdock->isFloating() );
-	*/
-#endif
+	set->setValue( "toolbars_state", saveState() );
 
 	set->endGroup();
 }
@@ -659,12 +651,7 @@ void DefaultGui::loadConfig() {
 		resize(width,height);
 	}
 
-#if DOCK_PLAYLIST
-	/*
-	playlist_visible = set->value( "playlist_visible", false ).toBool();
-	playlistdock->setFloating( set->value( "playlist_floating", false ).toBool() );
-	*/
-#endif
+	restoreState( set->value( "toolbars_state" ).toByteArray() );
 
 	set->endGroup();
 

@@ -68,6 +68,7 @@ void PrefPerformance::setData(Preferences * pref) {
 	setAutoSyncFactor( pref->autosync_factor );
 	setFastChapterSeeking( pref->fast_chapter_change );
 	setFastAudioSwitching( !pref->audio_change_requires_restart );
+	setUseIdx( pref->use_idx );
 }
 
 void PrefPerformance::getData(Preferences * pref) {
@@ -82,6 +83,7 @@ void PrefPerformance::getData(Preferences * pref) {
 	TEST_AND_SET(pref->autosync_factor, autoSyncFactor());
 	TEST_AND_SET(pref->fast_chapter_change, fastChapterSeeking());
 	pref->audio_change_requires_restart = !fastAudioSwitching();
+	TEST_AND_SET(pref->use_idx, useIdx());
 }
 
 void PrefPerformance::setCacheEnabled(bool b) {
@@ -156,6 +158,14 @@ bool PrefPerformance::fastAudioSwitching() {
 	return fastaudioswitching_check->isChecked();
 }
 
+void PrefPerformance::setUseIdx(bool b) {
+	idx_check->setChecked(b);
+}
+
+bool PrefPerformance::useIdx() {
+	return idx_check->isChecked();
+}
+
 void PrefPerformance::createHelp() {
 	clearHelp();
 
@@ -183,6 +193,13 @@ void PrefPerformance::createHelp() {
 	setWhatsThis(autosync_check, tr("Audio/video auto synchronization"),
 		tr("Gradually adjusts the A/V sync based on audio delay "
            "measurements.") );
+
+	setWhatsThis(idx_check, tr("Create index if needed"),
+		tr("Rebuilds index of files if no index was found, allowing seeking. "
+		   "Useful with broken/incomplete downloads, or badly created files. "
+           "This option only works if the underlying media supports "
+           "seeking (i.e. not with stdin, pipe, etc).<br> "
+           "Note: the creation of the index may take some time.") );
 
 }
 

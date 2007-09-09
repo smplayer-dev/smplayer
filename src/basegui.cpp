@@ -356,6 +356,11 @@ void BaseGui::createActions() {
 	connect( onTopAct, SIGNAL(toggled(bool)),
              this, SLOT(toggleStayOnTop(bool)) );
 
+	flipAct = new MyAction( this, "flip" );
+	flipAct->setCheckable( true );
+	connect( flipAct, SIGNAL(toggled(bool)),
+             core, SLOT(toggleFlip(bool)) );
+
 	// Submenu filter
 	postProcessingAct = new MyAction( this, "postprocessing" );
 	postProcessingAct->setCheckable( true );
@@ -749,6 +754,7 @@ void BaseGui::retranslateStrings() {
 	equalizerAct->change( Images::icon("equalizer"), tr("&Equalizer") );
 	screenshotAct->change( Images::icon("screenshot"), tr("&Screenshot") );
 	onTopAct->change( Images::icon("ontop"), tr("S&tay on top") );
+	flipAct->change( Images::icon("flip"), tr("Flip i&mage") );
 
 	decZoomAct->change( tr("Zoom &-") );
 	incZoomAct->change( tr("Zoom &+") );
@@ -1239,9 +1245,12 @@ void BaseGui::createMenus() {
 	videoMenu->addMenu(denoise_menu);
 	*/
 
+	videoMenu->addAction(flipAct);
+	videoMenu->addSeparator();
 	videoMenu->addAction(equalizerAct);
 	videoMenu->addAction(screenshotAct);
 	videoMenu->addAction(onTopAct);
+
 
     // AUDIO MENU
 
@@ -1930,6 +1939,9 @@ void BaseGui::updateWidgets() {
 
 	// Stay on top
 	onTopAct->setChecked( pref->stay_on_top );
+
+	// Flip
+	flipAct->setChecked( core->mset.flip );
 
 	// Screenshot option
 	bool valid_directory = ( (!pref->screenshot_directory.isEmpty()) &&

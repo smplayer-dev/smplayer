@@ -254,6 +254,7 @@ protected:
 	MyAction * equalizerAct;
 	MyAction * screenshotAct;
 	MyAction * onTopAct;
+	MyAction * flipAct;
 	MyAction * postProcessingAct;
 	MyAction * phaseAct;
 	MyAction * deblockAct;

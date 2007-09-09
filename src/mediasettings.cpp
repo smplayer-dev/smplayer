@@ -75,6 +75,8 @@ void MediaSettings::reset() {
 
 	starting_time = -1; // Not set yet.
 
+	flip = false;
+
 	forced_demuxer="";
     forced_video_codec="";
     forced_audio_codec="";
@@ -141,6 +143,8 @@ void MediaSettings::list() {
 	qDebug("  stereo_mode: %d", stereo_mode);
 
 	qDebug("  panscan_factor: %f", panscan_factor);
+
+	qDebug("  flip: %d", flip);
 
 	qDebug("  forced_demuxer: '%s'", forced_demuxer.toUtf8().data());
 	qDebug("  forced_video_codec: '%s'", forced_video_codec.toUtf8().data());
@@ -212,6 +216,8 @@ void MediaSettings::save() {
 
 	set->setValue( "panscan_factor", panscan_factor);
 
+	set->setValue( "flip", flip);
+
 	set->setValue( "forced_demuxer", forced_demuxer);
 	set->setValue( "forced_video_codec", forced_video_codec);
 	set->setValue( "forced_audio_codec", forced_audio_codec);
@@ -282,6 +288,8 @@ void MediaSettings::load() {
 	stereo_mode = set->value( "stereo_mode", stereo_mode).toInt();
 
 	panscan_factor = set->value( "panscan_factor", panscan_factor).toDouble();
+
+	flip = set->value( "flip", flip).toBool();
 
 	forced_demuxer = set->value( "forced_demuxer", forced_demuxer).toString();
 	forced_video_codec = set->value( "forced_video_codec", forced_video_codec).toString();

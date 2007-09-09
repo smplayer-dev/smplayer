@@ -1333,6 +1333,14 @@ void Core::startMplayer( QString file, double seek )
 	proc->addArgument("-osdlevel");
 	proc->addArgument( QString::number( pref->osd ) );
 
+	if (mset.flip) {
+		proc->addArgument("-flip");
+	}
+
+	if (pref->use_idx) {
+		proc->addArgument("-idx");
+	}
+
 	// Video filters:
 	// Phase
 	if (mset.phase_filter) {
@@ -1668,6 +1676,21 @@ void Core::toggleRepeat(bool b) {
 	qDebug("Core::toggleRepeat: %d", b);
 	if ( pref->loop != b ) {
 		pref->loop = b;
+		if (proc->isRunning()) restartPlay();
+	}
+}
+
+
+void Core::toggleFlip() {
+	qDebug("Core::toggleFlip");
+	toggleFlip( !mset.flip );
+}
+
+void Core::toggleFlip(bool b) {
+	qDebug("Core::toggleFlip: %d", b);
+
+	if (mset.flip != b) {
+		mset.flip = b;
 		if (proc->isRunning()) restartPlay();
 	}
 }
