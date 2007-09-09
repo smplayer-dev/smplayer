@@ -1106,37 +1106,37 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1826"/>
+        <location filename="../core.cpp" line="1835"/>
         <source>Brightness: %1</source>
         <translation>Luminosité : %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1835"/>
+        <location filename="../core.cpp" line="1844"/>
         <source>Contrast: %1</source>
         <translation>Contraste : %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1843"/>
+        <location filename="../core.cpp" line="1852"/>
         <source>Gamma: %1</source>
         <translation>Gamma : %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1851"/>
+        <location filename="../core.cpp" line="1860"/>
         <source>Hue: %1</source>
         <translation>Ton : %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1859"/>
+        <location filename="../core.cpp" line="1868"/>
         <source>Saturation: %1</source>
         <translation>Saturation : %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1973"/>
+        <location filename="../core.cpp" line="1982"/>
         <source>Volume: %1</source>
         <translation>Volume : %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2441"/>
+        <location filename="../core.cpp" line="2450"/>
         <source>Zoom: %1</source>
         <translation>Zoom : %1</translation>
     </message>
@@ -1725,164 +1725,164 @@ Voulez-vous le remplacer ?</translation>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="255"/>
+        <location filename="../playlist.cpp" line="256"/>
         <source>Name</source>
         <translation>Nom</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="255"/>
+        <location filename="../playlist.cpp" line="256"/>
         <source>Length</source>
         <translation>Durée</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="536"/>
+        <location filename="../playlist.cpp" line="537"/>
         <source>Choose a file</source>
         <translation>Choisir un fichier</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="549"/>
+        <location filename="../playlist.cpp" line="550"/>
         <source>Choose a filename</source>
         <translation>Choisir un nom de fichier</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="560"/>
+        <location filename="../playlist.cpp" line="561"/>
         <source>Confirm overwrite?</source>
         <translation>Confirmer remplacement ?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="732"/>
+        <location filename="../playlist.cpp" line="733"/>
         <source>Select one or more files to open</source>
         <translation>Selectionner un ou plusieurs fichiers à ouvrir</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="761"/>
+        <location filename="../playlist.cpp" line="762"/>
         <source>Choose a directory</source>
         <translation>Selectionner un dossier</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="562"/>
+        <location filename="../playlist.cpp" line="563"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Le fichier %1 existe déjà.
 Voulez vous l&apos;écraser?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="919"/>
+        <location filename="../playlist.cpp" line="920"/>
         <source>Edit name</source>
         <translation>Editer le nom</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="920"/>
+        <location filename="../playlist.cpp" line="921"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Tapez le nom qui sera affiché dans la playlist pour ce fichier :</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="260"/>
+        <location filename="../playlist.cpp" line="261"/>
         <source>&amp;Play</source>
         <translation>&amp;Lire</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="281"/>
+        <location filename="../playlist.cpp" line="282"/>
         <source>&amp;Edit</source>
         <translation>&amp;Editer</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="551"/>
+        <location filename="../playlist.cpp" line="552"/>
         <source>Playlists</source>
         <translation>Listes de lecture</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="734"/>
+        <location filename="../playlist.cpp" line="735"/>
         <source>All files</source>
         <translation>Tous les fichiers</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="257"/>
+        <location filename="../playlist.cpp" line="258"/>
         <source>&amp;Load</source>
         <translation>&amp;Charger</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="258"/>
+        <location filename="../playlist.cpp" line="259"/>
         <source>&amp;Save</source>
         <translation>&amp;Enregistrer</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="262"/>
+        <location filename="../playlist.cpp" line="263"/>
         <source>&amp;Next</source>
         <translation>&amp;Suivant</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="263"/>
+        <location filename="../playlist.cpp" line="264"/>
         <source>Pre&amp;vious</source>
         <translation>&amp;Précédent</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="265"/>
+        <location filename="../playlist.cpp" line="266"/>
         <source>Move &amp;up</source>
         <translation>&amp;Monter</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="266"/>
+        <location filename="../playlist.cpp" line="267"/>
         <source>Move &amp;down</source>
         <translation>&amp;Descendre</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="268"/>
+        <location filename="../playlist.cpp" line="269"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Répéter</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="269"/>
+        <location filename="../playlist.cpp" line="270"/>
         <source>S&amp;huffle</source>
         <translation>&amp;Aléatoire</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="272"/>
+        <location filename="../playlist.cpp" line="273"/>
         <source>Add &amp;current file</source>
         <translation>Ajouter le fichier &amp;courant</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="273"/>
+        <location filename="../playlist.cpp" line="274"/>
         <source>Add &amp;file(s)</source>
         <translation>Ajout de &amp;fichier(s)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="274"/>
+        <location filename="../playlist.cpp" line="275"/>
         <source>Add &amp;directory</source>
         <translation>Ajout d&apos;un &amp;dossier</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="277"/>
+        <location filename="../playlist.cpp" line="278"/>
         <source>Remove &amp;selected</source>
         <translation>Effacer la &amp;sélection</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="278"/>
+        <location filename="../playlist.cpp" line="279"/>
         <source>Remove &amp;all</source>
         <translation>&amp;Tout supprimer</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="291"/>
+        <location filename="../playlist.cpp" line="292"/>
         <source>SMPlayer - Playlist</source>
         <translation>SMPlayer - Liste de lecture</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="285"/>
+        <location filename="../playlist.cpp" line="286"/>
         <source>Add...</source>
         <translation>Ajouter...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="287"/>
+        <location filename="../playlist.cpp" line="288"/>
         <source>Remove...</source>
         <translation>Supprimer...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="581"/>
+        <location filename="../playlist.cpp" line="582"/>
         <source>Playlist modified</source>
         <translation>Playlist modifiée</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="582"/>
+        <location filename="../playlist.cpp" line="583"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Des changements ont été faits dans cette liste de lecture, voulez-vous enregistrer ?</translation>
     </message>
@@ -1902,25 +1902,25 @@ Voulez vous l&apos;écraser?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="13"/>
         <source>Form</source>
-        <translation>Forme</translation>
+        <translation type="obsolete">Forme</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="32"/>
+        <location filename="../prefadvanced.ui" line="29"/>
         <source>&amp;Advanced</source>
         <translation>&amp;Avancé</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="52"/>
+        <location filename="../prefadvanced.ui" line="49"/>
         <source>icon</source>
         <translation>Icône</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="107"/>
+        <location filename="../prefadvanced.ui" line="112"/>
         <source>Additional Options for MPlayer</source>
         <translation>Options additionnelles pour MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="119"/>
+        <location filename="../prefadvanced.ui" line="124"/>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
@@ -1929,7 +1929,7 @@ Celles-ci doivent être séparées d&apos;un espace.
 Exemple : -flip -nosound</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="181"/>
+        <location filename="../prefadvanced.ui" line="186"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
@@ -1938,7 +1938,7 @@ Séparez les par &quot;,&quot;. N&apos;utilisez pas d&apos;espace !
 Exemple : scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="243"/>
+        <location filename="../prefadvanced.ui" line="248"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
         <translation>Pour les filtres audios, même régle que pour les filtres vidéo.
@@ -1950,7 +1950,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
         <translation>Ne pas repeindre le fond de la fenêtre de la vidéo</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="368"/>
+        <location filename="../prefadvanced.ui" line="373"/>
         <source>&amp;Logs</source>
         <translation>&amp;Logs</translation>
     </message>
@@ -1965,17 +1965,17 @@ Exemple : resample=44100:0:0,volnorm</translation>
         <translation>Log de sortie SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="415"/>
+        <location filename="../prefadvanced.ui" line="420"/>
         <source>This option is mainly intended for debugging the application.</source>
         <translation>Cette option est principalement utile pour le débuggage.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="458"/>
+        <location filename="../prefadvanced.ui" line="463"/>
         <source>&amp;MPlayer language</source>
         <translation>Langue pour &amp;MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="470"/>
+        <location filename="../prefadvanced.ui" line="475"/>
         <source>SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br&gt;&lt;br&gt;
 The drop-down lists may provide already made regular expression for several languages.</source>
         <translation>SMPlayer a besoin de lire et décomposer la sortie de MPlayer et des fois, cela se fait sur un texte Anglais. Si vous utilisez un MPlayer traduit dans une autre langue, alors vous avez besoin de changer les textes pour que SMPlayer puisse les voir. (Techniquement, vous devriez entrer ces expressions)&lt;br&gt;&lt;br&gt;
@@ -2007,67 +2007,67 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation>Cette option permet de filtrer les messages qui seront stockées dans le log. Ici, vous pouvez écrire n&apos;importe quelle expression régulière.&lt;br&gt;Par exemple : &lt;i&gt;^Core::.*&lt;/i&gt; affichera seulement les lignes qui commencent par &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="62"/>
+        <location filename="../prefadvanced.ui" line="59"/>
         <source>&amp;Monitor aspect:</source>
         <translation>Aspect &amp;moniteur :</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="100"/>
+        <location filename="../prefadvanced.ui" line="105"/>
         <source>&amp;Run MPlayer in its own window</source>
         <translation>Lance&amp;r MPlayer dans sa propre fenêtre</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="142"/>
+        <location filename="../prefadvanced.ui" line="147"/>
         <source>&amp;Options:</source>
         <translation>&amp;Options :</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="204"/>
+        <location filename="../prefadvanced.ui" line="209"/>
         <source>V&amp;ideo filters:</source>
         <translation>Filtres V&amp;idéo :</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="265"/>
+        <location filename="../prefadvanced.ui" line="270"/>
         <source>Audio &amp;filters:</source>
         <translation>&amp;Filtres audio :</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="294"/>
+        <location filename="../prefadvanced.ui" line="299"/>
         <source>&amp;Colorkey:</source>
         <translation>&amp;Clé de couleur :</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="344"/>
+        <location filename="../prefadvanced.ui" line="349"/>
         <source>&amp;Don&apos;t repaint the background of the video window</source>
         <translation>Ne pas repeindre le fon&amp;d de la fenêtre de la vidéo</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="380"/>
+        <location filename="../prefadvanced.ui" line="385"/>
         <source>Log &amp;MPlayer output</source>
         <translation>Log de sortie &amp;MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="387"/>
+        <location filename="../prefadvanced.ui" line="392"/>
         <source>Log &amp;SMPlayer output</source>
         <translation>Log de sortie &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="425"/>
+        <location filename="../prefadvanced.ui" line="430"/>
         <source>&amp;Filter for SMPlayer logs:</source>
         <translation>&amp;Filtre pour les logs de SMPlayer :</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="484"/>
+        <location filename="../prefadvanced.ui" line="489"/>
         <source>&amp;End of file:</source>
         <translation>Fin du fichi&amp;er :</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="512"/>
+        <location filename="../prefadvanced.ui" line="502"/>
         <source>&amp;No video:</source>
         <translation>&amp;Pas de vidéo :</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="319"/>
+        <location filename="../prefadvanced.ui" line="324"/>
         <source>C&amp;hange...</source>
         <translation>C&amp;hanger...</translation>
     </message>
@@ -2085,7 +2085,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation>Pour le moment, SMPlayer ne détecte pas encore automatiquement les lecteurs CD ou DVD. Vous devez donc indiquer ici vos lecteurs. (Peuvent être identique).</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="149"/>
+        <location filename="../prefdrives.ui" line="157"/>
         <source>icon</source>
         <translation>Icône</translation>
     </message>
@@ -2125,7 +2125,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation>Sélectionnez le lecteur &amp;CD :</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="167"/>
+        <location filename="../prefdrives.ui" line="175"/>
         <source>Select your &amp;DVD device:</source>
         <translation>Sélectionnez le lecteur &amp;DVD :</translation>
     </message>
@@ -2651,7 +2651,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation>Clic &amp;gauche</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="238"/>
+        <location filename="../prefinput.ui" line="214"/>
         <source>&amp;Double click</source>
         <translation>&amp;Double-clic</translation>
     </message>
@@ -2809,27 +2809,27 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation>&amp;Interface</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="262"/>
+        <location filename="../prefinterface.ui" line="271"/>
         <source>Seeking</source>
         <translation>Navigation</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="381"/>
+        <location filename="../prefinterface.ui" line="390"/>
         <source>Never</source>
         <translation>Jamais</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="386"/>
+        <location filename="../prefinterface.ui" line="395"/>
         <source>Whenever it&apos;s needed</source>
         <translation>Si nécessaire</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="391"/>
+        <location filename="../prefinterface.ui" line="400"/>
         <source>Only after loading a new video</source>
         <translation>Seulement après le chargement d&apos;une nouvelle vidéo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="299"/>
+        <location filename="../prefinterface.ui" line="308"/>
         <source>Recent files</source>
         <translation>Fichiers récents</translation>
     </message>
@@ -2899,7 +2899,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation type="obsolete">Méthode de &amp;redimensionnement de la fenêtre principale</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="311"/>
+        <location filename="../prefinterface.ui" line="320"/>
         <source>Ma&amp;x. items</source>
         <translation>Nombre ma&amp;ximum</translation>
     </message>
@@ -2909,27 +2909,27 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation>St&amp;yle :</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="206"/>
+        <location filename="../prefinterface.ui" line="194"/>
         <source>Ico&amp;n set:</source>
         <translation>Icô&amp;ne :</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="193"/>
+        <location filename="../prefinterface.ui" line="181"/>
         <source>L&amp;anguage:</source>
         <translation>L&amp;angue :</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="350"/>
+        <location filename="../prefinterface.ui" line="359"/>
         <source>Main window</source>
         <translation>Fenêtre principale</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="362"/>
+        <location filename="../prefinterface.ui" line="371"/>
         <source>Auto&amp;resize:</source>
         <translation>&amp;Redimension  automatique :</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="399"/>
+        <location filename="../prefinterface.ui" line="408"/>
         <source>R&amp;emember position and size</source>
         <translation>S&amp;e rappeler de la position et de la taille</translation>
     </message>
@@ -3215,7 +3215,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation type="obsolete">Encodage par défaut des sous-titres :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="160"/>
+        <location filename="../prefsubtitles.ui" line="168"/>
         <source>Position</source>
         <translation>Position</translation>
     </message>
@@ -3225,17 +3225,17 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation type="obsolete">Position par défaut des sous-titres sur l&apos;écran</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="220"/>
+        <location filename="../prefsubtitles.ui" line="228"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="240"/>
+        <location filename="../prefsubtitles.ui" line="248"/>
         <source>Top</source>
         <translation>Haut</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="266"/>
+        <location filename="../prefsubtitles.ui" line="274"/>
         <source>Bottom</source>
         <translation>Bas</translation>
     </message>
@@ -3250,12 +3250,12 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation type="obsolete">Utiliser -subfont option (demandé par les récentes versions de MPlayer)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="312"/>
+        <location filename="../prefsubtitles.ui" line="320"/>
         <source>&amp;Font</source>
         <translation>&amp;Police</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="324"/>
+        <location filename="../prefsubtitles.ui" line="332"/>
         <source>Font</source>
         <translation>Police</translation>
     </message>
@@ -3275,12 +3275,12 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation type="obsolete">Police du système :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="387"/>
+        <location filename="../prefsubtitles.ui" line="388"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
         <translation>Sélectionner la police des sous-titres (et OSD) :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="400"/>
+        <location filename="../prefsubtitles.ui" line="416"/>
         <source>Size</source>
         <translation>Taille</translation>
     </message>
@@ -3290,22 +3290,22 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation type="obsolete">Echelle automatique :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="426"/>
+        <location filename="../prefsubtitles.ui" line="442"/>
         <source>No autoscale</source>
         <translation>Pas d&apos;échelle automatique</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="431"/>
+        <location filename="../prefsubtitles.ui" line="447"/>
         <source>Proportional to movie height</source>
         <translation>Proportionnel à la hauteur du film</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="436"/>
+        <location filename="../prefsubtitles.ui" line="452"/>
         <source>Proportional to movie width</source>
         <translation>Proportionnel à la largeur du film</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="441"/>
+        <location filename="../prefsubtitles.ui" line="457"/>
         <source>Proportional to movie diagonal</source>
         <translation>Proportionnel à la diagonale du film</translation>
     </message>
@@ -3315,12 +3315,12 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation type="obsolete">Echelle :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="505"/>
+        <location filename="../prefsubtitles.ui" line="521"/>
         <source>SSA/&amp;ASS library</source>
         <translation>Bibliothèque SSA/&amp;ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="517"/>
+        <location filename="../prefsubtitles.ui" line="533"/>
         <source>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</source>
         <translation>La nouvelle bibliothèque SSA/ASS fournira des sous-titres stylés pour les fichiers externes de sous-titres SSA/ASS et les pistes Matroska. Mais elle sera aussi  utilisée pour d&apos;autres formats comme des fichiers SUB et SRT.</translation>
     </message>
@@ -3340,7 +3340,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation type="obsolete">Couleur de bordure :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="639"/>
+        <location filename="../prefsubtitles.ui" line="655"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
         <translation>Ici, vous pouvez outrepasser les styles pour les sous-titres SSA/ASS. Vous pouvez aussi l&apos;utiliser pour ajuster le rendu des sous-titres SRT et SUB par la bibliothèque SSA/ASS. Exemple : &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</translation>
     </message>
@@ -3380,62 +3380,62 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation>Encodage par d&amp;éfaut des sous-titres :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="172"/>
+        <location filename="../prefsubtitles.ui" line="180"/>
         <source>Default &amp;position of the subtitles on screen</source>
         <translation>&amp;Position par défaut des sous-titres sur l&apos;écran</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="281"/>
+        <location filename="../prefsubtitles.ui" line="289"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>&amp;Inclure les sous-titres sur les captures d&apos;écran</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="288"/>
+        <location filename="../prefsubtitles.ui" line="296"/>
         <source>&amp;Use -subfont option (required by recent MPlayer releases)</source>
         <translation>&amp;Utiliser -subfont option (demandé par les récentes versions de MPlayer)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="336"/>
+        <location filename="../prefsubtitles.ui" line="344"/>
         <source>&amp;TTF font:</source>
         <translation>Police &amp;TTF : </translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="353"/>
+        <location filename="../prefsubtitles.ui" line="361"/>
         <source>Sea&amp;rch...</source>
         <translation>Reche&amp;rcher...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="380"/>
+        <location filename="../prefsubtitles.ui" line="381"/>
         <source>S&amp;ystem font:</source>
         <translation>Police du s&amp;ystème :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="412"/>
+        <location filename="../prefsubtitles.ui" line="428"/>
         <source>A&amp;utoscale:</source>
         <translation>Echelle a&amp;utomatique :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="465"/>
+        <location filename="../prefsubtitles.ui" line="481"/>
         <source>S&amp;cale:</source>
         <translation>E&amp;chelle :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="530"/>
+        <location filename="../prefsubtitles.ui" line="546"/>
         <source>&amp;Use SSA/ASS library for subtitle rendering</source>
         <translation>&amp;Utiliser SSA/AAS pour le rendu</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="548"/>
+        <location filename="../prefsubtitles.ui" line="564"/>
         <source>&amp;Text color:</source>
         <translation>Couleur du &amp;texte :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="590"/>
+        <location filename="../prefsubtitles.ui" line="606"/>
         <source>&amp;Border color:</source>
         <translation>Couleur de &amp;bordure :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="663"/>
+        <location filename="../prefsubtitles.ui" line="679"/>
         <source>St&amp;yles:</source>
         <translation>St&amp;yles :</translation>
     </message>

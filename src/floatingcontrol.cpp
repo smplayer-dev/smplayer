@@ -44,9 +44,9 @@ MyToolButton::MyToolButton( QWidget * parent ) : QToolButton(parent)
 
 
 FloatingControl::FloatingControl( QWidget * parent )
-	: QWidget( parent, Qt::WType_TopLevel | Qt::WStyle_Customize |
-                       Qt::WStyle_NoBorder | Qt::WStyle_StaysOnTop | 
-                       Qt::WX11BypassWM )
+	: QWidget( parent, Qt::Window | Qt::FramelessWindowHint | 
+                       Qt::WindowStaysOnTopHint | 
+                       Qt::X11BypassWindowManagerHint )
 {
 	play = new MyToolButton(this);
 	pause = new MyToolButton(this);

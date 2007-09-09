@@ -115,59 +115,59 @@
     <message>
         <location filename="../aboutdialog.cpp" line="115"/>
         <source>Serbian</source>
-        <translation type="unfinished"></translation>
+        <translation>Servisch</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="116"/>
         <source>Traditional Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Traditioneel Chinees</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="117"/>
         <source>Romanian</source>
-        <translation type="unfinished"></translation>
+        <translation>Roemeens</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="109"/>
         <source>Portuguese - Brazil</source>
-        <translation type="unfinished"></translation>
+        <translation>Portugees - Brazilië</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="118"/>
         <source>Portuguese - Portugal</source>
-        <translation type="unfinished"></translation>
+        <translation>Portugees - Portugal</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="83"/>
         <source>Compiled with Qt %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Gecompileerd met Qt %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="97"/>
         <source>%1, %2 and %3</source>
-        <translation type="unfinished"></translation>
+        <translation>%1, %2 en %3</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="104"/>
         <source>%1 and %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 en %2</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="129"/>
         <source>http://smplayer.sourceforge.net/en/windows/download.php</source>
         <comment>If the web page is translated into your language you can change the URL so it points to the download page in the translation.Otherwise leave as is.</comment>
-        <translation type="unfinished"></translation>
+        <translation>http://smplayer.sourceforge.net/en/windows/download.php</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="134"/>
         <source>http://smplayer.sourceforge.net/en/linux/download.php</source>
         <comment>If the web page is translated into your language you can change the URL so it points to the download page in the translation.Otherwise leave as is.</comment>
-        <translation type="unfinished"></translation>
+        <translation>http://smplayer.sourceforge.net/en/linux/download.php</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="151"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
 </context>
 <context>
@@ -242,7 +242,7 @@ Wil je het overschrijven?</translation>
     <message>
         <location filename="../actionseditor.cpp" line="173"/>
         <source>&amp;Change shortcut...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sneltoets aanpassen...</translation>
     </message>
 </context>
 <context>
@@ -413,32 +413,32 @@ Wil je het overschrijven?</translation>
         <translation>&amp;Automatisch detecteren</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="796"/>
+        <location filename="" line="0"/>
         <source>&amp;4:3</source>
         <translation type="obsolete">&amp;4:3</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="797"/>
+        <location filename="" line="0"/>
         <source>&amp;5:4</source>
         <translation type="obsolete">&amp;5:4</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="798"/>
+        <location filename="" line="0"/>
         <source>&amp;14:9</source>
         <translation type="obsolete">&amp;14:9</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="799"/>
+        <location filename="" line="0"/>
         <source>16:&amp;9</source>
         <translation type="obsolete">16:&amp;9</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="800"/>
+        <location filename="" line="0"/>
         <source>1&amp;6:10</source>
         <translation type="obsolete">1&amp;6:10</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="801"/>
+        <location filename="" line="0"/>
         <source>&amp;2.35:1</source>
         <translation type="obsolete">&amp;2.35:1</translation>
     </message>
@@ -790,17 +790,17 @@ Het configuratie dialoogvenster zal nu getoond worden, zodat je dit nu kan doen.
         <translation>Stop</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="793"/>
+        <location filename="" line="0"/>
         <source>De&amp;noise</source>
         <translation type="obsolete">De&amp;noise</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="815"/>
+        <location filename="" line="0"/>
         <source>N&amp;ormal</source>
         <translation type="obsolete">N&amp;ormaal</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="816"/>
+        <location filename="" line="0"/>
         <source>&amp;Soft</source>
         <translation type="obsolete">&amp;Zacht</translation>
     </message>
@@ -987,67 +987,67 @@ Het configuratie dialoogvenster zal nu getoond worden, zodat je dit nu kan doen.
     <message>
         <location filename="../basegui.cpp" line="848"/>
         <source>Toggle double size</source>
-        <translation type="unfinished"></translation>
+        <translation>Dubbele grootte</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="782"/>
         <source>&amp;Load external file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Extern bestand &amp;laden...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="925"/>
         <source>&amp;Kerndeint</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kerndeint</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="922"/>
         <source>&amp;Yadif (normal)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Yadif (normaal)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="923"/>
         <source>Y&amp;adif (double framerate)</source>
-        <translation type="unfinished"></translation>
+        <translation>Y&amp;adif (dubbele framerate)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="821"/>
         <source>&amp;Next</source>
-        <translation type="unfinished">&amp;Volgende</translation>
+        <translation>&amp;Volgende</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="822"/>
         <source>Pre&amp;vious</source>
-        <translation type="unfinished">V&amp;orige</translation>
+        <translation>V&amp;orige</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="788"/>
         <source>Volume &amp;normalization</source>
-        <translation type="unfinished"></translation>
+        <translation>Volume &amp;normalisatie</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="725"/>
         <source>&amp;Audio CD</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Audio cd</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="928"/>
         <source>Denoise nor&amp;mal</source>
-        <translation type="unfinished"></translation>
+        <translation>Denoise nor&amp;maal</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="929"/>
         <source>Denoise &amp;soft</source>
-        <translation type="unfinished"></translation>
+        <translation>Denoise &amp;zacht</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="927"/>
         <source>Denoise o&amp;ff</source>
-        <translation type="unfinished"></translation>
+        <translation>Denoise &amp;uit</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="803"/>
         <source>Use SSA/&amp;ASS library</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruik SSA/&amp;ASS bibliotheek</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="757"/>
@@ -1078,55 +1078,55 @@ Het configuratie dialoogvenster zal nu getoond worden, zodat je dit nu kan doen.
         <translation>&amp;Herstellen</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="134"/>
+        <location filename="" line="0"/>
         <source>&amp;Recent files</source>
         <translation type="obsolete">&amp;Recente bestanden</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="151"/>
         <source>&amp;Quit</source>
-        <translation type="unfinished">&amp;Afsluiten</translation>
+        <translation>&amp;Afsluiten</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="157"/>
         <source>Playlist</source>
-        <translation type="unfinished">Afspeellijst</translation>
+        <translation>Afspeellijst</translation>
     </message>
 </context>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1826"/>
+        <location filename="../core.cpp" line="1835"/>
         <source>Brightness: %1</source>
         <translation>Helderheid: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1835"/>
+        <location filename="../core.cpp" line="1844"/>
         <source>Contrast: %1</source>
         <translation>Contrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1843"/>
+        <location filename="../core.cpp" line="1852"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1851"/>
+        <location filename="../core.cpp" line="1860"/>
         <source>Hue: %1</source>
         <translation>Tint: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1859"/>
+        <location filename="../core.cpp" line="1868"/>
         <source>Saturation: %1</source>
         <translation>Verzadiging: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1973"/>
+        <location filename="../core.cpp" line="1982"/>
         <source>Volume: %1</source>
         <translation>Volume: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2441"/>
+        <location filename="../core.cpp" line="2450"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
@@ -1154,7 +1154,7 @@ Het configuratie dialoogvenster zal nu getoond worden, zodat je dit nu kan doen.
         <translation>Ondertitel</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="376"/>
+        <location filename="" line="0"/>
         <source>Playlist</source>
         <translation type="obsolete">Afspeellijst</translation>
     </message>
@@ -1287,7 +1287,7 @@ Het configuratie dialoogvenster zal nu getoond worden, zodat je dit nu kan doen.
     <message>
         <location filename="../eqslider.ui" line="25"/>
         <source>icon</source>
-        <translation type="unfinished">icoon</translation>
+        <translation>icoon</translation>
     </message>
 </context>
 <context>
@@ -1295,112 +1295,112 @@ Het configuratie dialoogvenster zal nu getoond worden, zodat je dit nu kan doen.
     <message>
         <location filename="../filepropertiesdialog.ui" line="14"/>
         <source>SMPlayer - File properties</source>
-        <translation type="unfinished">SMPlayer - Eigenschappen van bestand</translation>
+        <translation>SMPlayer - Eigenschappen van bestand</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="36"/>
         <source>&amp;Information</source>
-        <translation type="unfinished">&amp;Informatie</translation>
+        <translation>&amp;Informatie</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="56"/>
         <source>&amp;Demuxer</source>
-        <translation type="unfinished">&amp;Demuxer</translation>
+        <translation>&amp;Demuxer</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="68"/>
         <source>&amp;Select the demuxer that will be used for this file:</source>
-        <translation type="unfinished">&amp;Kies de demuxer die gebruikt moet worden voor dit bestand:</translation>
+        <translation>&amp;Kies de demuxer die gebruikt moet worden voor dit bestand:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="232"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished">&amp;Reset</translation>
+        <translation>&amp;Reset</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="118"/>
         <source>&amp;Video codec</source>
-        <translation type="unfinished">&amp;Video codec</translation>
+        <translation>&amp;Video codec</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="130"/>
         <source>&amp;Select the video codec:</source>
-        <translation type="unfinished">&amp;Kies de video codec:</translation>
+        <translation>&amp;Kies de video codec:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="180"/>
         <source>A&amp;udio codec</source>
-        <translation type="unfinished">A&amp;udio codec</translation>
+        <translation>A&amp;udio codec</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="192"/>
         <source>&amp;Select the audio codec:</source>
-        <translation type="unfinished">&amp;Kies de audio codec:</translation>
+        <translation>&amp;Kies de audio codec:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="242"/>
         <source>&amp;MPlayer options</source>
-        <translation type="unfinished">&amp;MPlayer opties</translation>
+        <translation>&amp;MPlayer opties</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="254"/>
         <source>Additional Options for MPlayer</source>
-        <translation type="unfinished">Extra opties voor MPlayer</translation>
+        <translation>Extra opties voor MPlayer</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="266"/>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation type="unfinished">Hier kan je extra opties meegeven aan MPlayer.
+        <translation>Hier kan je extra opties meegeven aan MPlayer.
 Schrijf ze gescheiden door spaties.
 Voorbeeld: -flip -nosound</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="289"/>
         <source>&amp;Options:</source>
-        <translation type="unfinished">&amp;Opties:</translation>
+        <translation>&amp;Opties:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="328"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
-        <translation type="unfinished">Je kan ook extra video filters meegeven.
+        <translation>Je kan ook extra video filters meegeven.
 De video filters moeten van elkaar gescheiden worden door &quot;,&quot;. Gebruik geen spaties!
 Voorbeeld: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="351"/>
         <source>V&amp;ideo filters:</source>
-        <translation type="unfinished">V&amp;ideo filters:</translation>
+        <translation>V&amp;ideo filters:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="390"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
-        <translation type="unfinished">En tot slot audio filters. Dezelfde regel als voor video filters.
+        <translation>En tot slot audio filters. Dezelfde regel als voor video filters.
 Voorbeeld: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="412"/>
         <source>Audio &amp;filters:</source>
-        <translation type="unfinished">Audio &amp;filters:</translation>
+        <translation>Audio &amp;filters:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="70"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>O</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="71"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Annuleren</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="72"/>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>OK</translation>
     </message>
 </context>
 <context>
@@ -1600,7 +1600,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../infofile.cpp" line="63"/>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>Bestand</translation>
     </message>
 </context>
 <context>
@@ -1613,17 +1613,17 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../inputdvddirectory.ui" line="13"/>
         <source>SMPlayer - Play a DVD from a folder</source>
-        <translation type="unfinished">SMPlayer - Speel een DVD vanuit een map</translation>
+        <translation>SMPlayer - Speel een DVD vanuit een map</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="39"/>
         <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation type="unfinished">Je kan een dvd vanaf je harde schijf afspelen. Kies gewoon de map die de submappen VIDEO_TS en AUDIO_TS bevat.</translation>
+        <translation>Je kan een dvd vanaf je harde schijf afspelen. Kies gewoon de map die de submappen VIDEO_TS en AUDIO_TS bevat.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="72"/>
         <source>Choose a directory...</source>
-        <translation type="unfinished">Kies een map...</translation>
+        <translation>Kies een map...</translation>
     </message>
 </context>
 <context>
@@ -1631,22 +1631,22 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../inputurl.ui" line="13"/>
         <source>SMPlayer - Enter URL</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - URL invoeren</translation>
     </message>
     <message>
         <location filename="../inputurl.ui" line="83"/>
         <source>&amp;URL:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;URL:</translation>
     </message>
     <message>
         <location filename="../inputurl.ui" line="49"/>
         <source>It&apos;s a &amp;playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit is een &amp;afspeellijst</translation>
     </message>
     <message>
         <location filename="../inputurl.cpp" line="31"/>
         <source>If this option is checked, the URL will be treated as a playlist: it will be opened as text and will play the URLs in it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Indien deze optie gemarkeerd is, dan zal de URL als een playlist verwerkt worden: het zal geopend worden als een tekstbestand en de URL&apos;s in het tekstbestand zullen afgespeeld worden.</translation>
     </message>
 </context>
 <context>
@@ -1681,7 +1681,7 @@ Wil je het overschrijven?</translation>
     <message>
         <location filename="../logwindow.cpp" line="72"/>
         <source>Logs</source>
-        <translation type="unfinished">Logs</translation>
+        <translation>Logs</translation>
     </message>
 </context>
 <context>
@@ -1689,190 +1689,190 @@ Wil je het overschrijven?</translation>
     <message>
         <location filename="../logwindowbase.ui" line="14"/>
         <source>Log Window</source>
-        <translation type="unfinished">Log Venster</translation>
+        <translation>Log Venster</translation>
     </message>
     <message>
         <location filename="../logwindowbase.ui" line="63"/>
         <source>Save</source>
-        <translation type="unfinished">Opslaan</translation>
+        <translation>Opslaan</translation>
     </message>
     <message>
         <location filename="../logwindowbase.ui" line="73"/>
         <source>Copy to clipboard</source>
-        <translation type="unfinished">Kopiëren naar klembord</translation>
+        <translation>Kopiëren naar klembord</translation>
     </message>
     <message>
         <location filename="../logwindowbase.ui" line="80"/>
         <source>Close</source>
-        <translation type="unfinished">Sluiten</translation>
+        <translation>Sluiten</translation>
     </message>
     <message>
         <location filename="../logwindowbase.ui" line="83"/>
         <source>&amp;Close</source>
-        <translation type="unfinished">&amp;Sluiten</translation>
+        <translation>&amp;Sluiten</translation>
     </message>
 </context>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="255"/>
+        <location filename="../playlist.cpp" line="256"/>
         <source>Name</source>
         <translation>Naam</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="255"/>
+        <location filename="../playlist.cpp" line="256"/>
         <source>Length</source>
         <translation>Lengte</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="260"/>
+        <location filename="../playlist.cpp" line="261"/>
         <source>&amp;Play</source>
         <translation>Af&amp;spelen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="281"/>
+        <location filename="../playlist.cpp" line="282"/>
         <source>&amp;Edit</source>
         <translation>Aan&amp;passen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="551"/>
+        <location filename="../playlist.cpp" line="552"/>
         <source>Playlists</source>
         <translation>Afspeellijsten</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="536"/>
+        <location filename="../playlist.cpp" line="537"/>
         <source>Choose a file</source>
         <translation>Kies een bestand</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="549"/>
+        <location filename="../playlist.cpp" line="550"/>
         <source>Choose a filename</source>
         <translation>Kies een bestandsnaam</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="560"/>
+        <location filename="../playlist.cpp" line="561"/>
         <source>Confirm overwrite?</source>
         <translation>Bevestig overschrijven?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="562"/>
+        <location filename="../playlist.cpp" line="563"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Het bestand bestaat al.
 Wil je het overschrijven?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="734"/>
+        <location filename="../playlist.cpp" line="735"/>
         <source>All files</source>
         <translation>Alle bestanden</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="732"/>
+        <location filename="../playlist.cpp" line="733"/>
         <source>Select one or more files to open</source>
         <translation>Kies één of meerdere bestanden om te openen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="761"/>
+        <location filename="../playlist.cpp" line="762"/>
         <source>Choose a directory</source>
         <translation>Kies een map</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="919"/>
+        <location filename="../playlist.cpp" line="920"/>
         <source>Edit name</source>
         <translation>Naam aanpassen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="920"/>
+        <location filename="../playlist.cpp" line="921"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Typ de naam waaronder dit bestand bekend zal staan in de afspeellijst:</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="257"/>
+        <location filename="../playlist.cpp" line="258"/>
         <source>&amp;Load</source>
         <translation>&amp;Laden</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="258"/>
+        <location filename="../playlist.cpp" line="259"/>
         <source>&amp;Save</source>
         <translation>&amp;Opslaan</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="262"/>
+        <location filename="../playlist.cpp" line="263"/>
         <source>&amp;Next</source>
         <translation>&amp;Volgende</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="263"/>
+        <location filename="../playlist.cpp" line="264"/>
         <source>Pre&amp;vious</source>
         <translation>V&amp;orige</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="265"/>
+        <location filename="../playlist.cpp" line="266"/>
         <source>Move &amp;up</source>
         <translation>Naar &amp;omhoog verplaatsen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="266"/>
+        <location filename="../playlist.cpp" line="267"/>
         <source>Move &amp;down</source>
         <translation>Naar &amp;beneden verplaatsen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="268"/>
+        <location filename="../playlist.cpp" line="269"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Herhalen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="269"/>
+        <location filename="../playlist.cpp" line="270"/>
         <source>S&amp;huffle</source>
         <translation>&amp;Willekeurig</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="272"/>
+        <location filename="../playlist.cpp" line="273"/>
         <source>Add &amp;current file</source>
         <translation>&amp;Huidig bestand toevoegen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="273"/>
+        <location filename="../playlist.cpp" line="274"/>
         <source>Add &amp;file(s)</source>
         <translation>&amp;Bestand(en) toevoegen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="274"/>
+        <location filename="../playlist.cpp" line="275"/>
         <source>Add &amp;directory</source>
         <translation>&amp;Map toevoegen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="277"/>
+        <location filename="../playlist.cpp" line="278"/>
         <source>Remove &amp;selected</source>
         <translation>Verwijder &amp;geselecteerde</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="278"/>
+        <location filename="../playlist.cpp" line="279"/>
         <source>Remove &amp;all</source>
         <translation>Verwijder &amp;alles</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="291"/>
+        <location filename="../playlist.cpp" line="292"/>
         <source>SMPlayer - Playlist</source>
         <translation>SMPlayer - Afspeellijst</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="285"/>
+        <location filename="../playlist.cpp" line="286"/>
         <source>Add...</source>
         <translation>Toevoegen...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="287"/>
+        <location filename="../playlist.cpp" line="288"/>
         <source>Remove...</source>
         <translation>Verwijderen...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="581"/>
+        <location filename="../playlist.cpp" line="582"/>
         <source>Playlist modified</source>
         <translation>Afspeellijst aangepast</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="582"/>
+        <location filename="../playlist.cpp" line="583"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Er zijn veranderingen gebeurd die nog niet zijn opgeslagen.
 Wil je de afspeellijst opslaan?</translation>
@@ -1883,183 +1883,184 @@ Wil je de afspeellijst opslaan?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="59"/>
         <source>Advanced</source>
-        <translation type="unfinished">Uitgebreid</translation>
+        <translation>Geavanceerd</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="72"/>
         <source>Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatisch</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="13"/>
+        <location filename="" line="0"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Formulier</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="32"/>
+        <location filename="../prefadvanced.ui" line="29"/>
         <source>&amp;Advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>Ge&amp;avanceerd</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="52"/>
+        <location filename="../prefadvanced.ui" line="49"/>
         <source>icon</source>
-        <translation type="unfinished">icoon</translation>
+        <translation>icoon</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="107"/>
+        <location filename="../prefadvanced.ui" line="112"/>
         <source>Additional Options for MPlayer</source>
-        <translation type="unfinished">Extra opties voor MPlayer</translation>
+        <translation>Extra opties voor MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="119"/>
+        <location filename="../prefadvanced.ui" line="124"/>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation type="unfinished">Hier kan je extra opties meegeven aan MPlayer.
+        <translation>Hier kan je extra opties meegeven aan MPlayer.
 Schrijf ze gescheiden door spaties.
 Voorbeeld: -flip -nosound</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="181"/>
+        <location filename="../prefadvanced.ui" line="186"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
-        <translation type="unfinished">Je kan ook extra video filters meegeven.
+        <translation>Je kan ook extra video filters meegeven.
 De video filters moeten van elkaar gescheiden worden door &quot;,&quot;. Gebruik geen spaties!
 Voorbeeld: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="243"/>
+        <location filename="../prefadvanced.ui" line="248"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
-        <translation type="unfinished">En tot slot audio filters. Dezelfde regel als voor video filters.
+        <translation>En tot slot audio filters. Dezelfde regel als voor video filters.
 Voorbeeld: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="265"/>
         <source>Don&apos;t repaint the background of the video window</source>
-        <translation type="unfinished">Geen repaint uitvoeren op de achtergrond van het videovenster</translation>
+        <translation>Geen repaint uitvoeren op de achtergrond van het videovenster</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="368"/>
+        <location filename="../prefadvanced.ui" line="373"/>
         <source>&amp;Logs</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Logs</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="270"/>
         <source>Log MPlayer output</source>
-        <translation type="unfinished">MPlayer uitvoer loggen</translation>
+        <translation>MPlayer uitvoer loggen</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="276"/>
         <source>Log SMPlayer output</source>
-        <translation type="unfinished">SMPlayer uitvoer loggen</translation>
+        <translation>SMPlayer uitvoer loggen</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="415"/>
+        <location filename="../prefadvanced.ui" line="420"/>
         <source>This option is mainly intended for debugging the application.</source>
-        <translation type="unfinished">Deze optie is vooral bedoeld om het programma te debuggen.</translation>
+        <translation>Deze optie is vooral bedoeld om het programma te debuggen.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="458"/>
+        <location filename="../prefadvanced.ui" line="463"/>
         <source>&amp;MPlayer language</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;MPlayer taal</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="470"/>
+        <location filename="../prefadvanced.ui" line="475"/>
         <source>SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br&gt;&lt;br&gt;
 The drop-down lists may provide already made regular expression for several languages.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer moet de uitvoer van MPlayer lezen en verwerken en daardoor is SMPlayer afhankelijk van Engelse tekst. Indien er gebruik gemaakt wordt van een anderstalige MPlayer moeten de onderstaande teksten veranderd worden. (Technisch gezien moet je reguliere expressies invoeren)&lt;br /&gt;&lt;br /&gt;
+De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="267"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="unfinished">Deze optie aanduiden kan flikkering verminderen, maar het kan mogelijk ook een foutieve weergave van de video veroorzaken.</translation>
+        <translation>Deze optie aanduiden kan flikkering verminderen, maar het kan mogelijk ook een foutieve weergave van de video veroorzaken.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="274"/>
         <source>If checked, smplayer will store the output of mplayer (you can see it in &lt;b&gt;Options-&gt;View logs-&gt;mplayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="unfinished">Vink deze optie aan om de uitvoer van mplayer op te slaan (je kan de uitvoer bekijken via &lt;b&gt;Opties-&gt;Bekijk logs-&gt;mplayer&lt;/b&gt;). In het geval van problemen kan deze log belangrijke informatie bevatten, dus het wordt aanbevolen om deze optie aan te vinken.</translation>
+        <translation>Vink deze optie aan om de uitvoer van mplayer op te slaan (je kan de uitvoer bekijken via &lt;b&gt;Opties-&gt;Bekijk logs-&gt;mplayer&lt;/b&gt;). In het geval van problemen kan deze log belangrijke informatie bevatten, dus het wordt aanbevolen om deze optie aan te vinken.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="281"/>
         <source>If this option is checked, smplayer will store the debugging messages that smplayer outputs (you can see the log in &lt;b&gt;Options-&gt;View logs-&gt;smplayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation type="unfinished">Vink deze optie aan om de debugberichten van smplayer op te slaan (je kan de berichten bekijken via &lt;b&gt;Opties-&gt;Bekijk logs-&gt;smplayer&lt;/b&gt;). Deze informatie kan heel nuttig zijn voor de ontwikkelaar indien je tegen bugs aanloopt.</translation>
+        <translation>Vink deze optie aan om de debugberichten van smplayer op te slaan (je kan de berichten bekijken via &lt;b&gt;Opties-&gt;Bekijk logs-&gt;smplayer&lt;/b&gt;). Deze informatie kan heel nuttig zijn voor de ontwikkelaar indien je tegen bugs aanloopt.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="283"/>
         <source>Filter for SMPlayer logs</source>
-        <translation type="unfinished"></translation>
+        <translation>Filter voor SMPlayer logs</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="287"/>
         <source>This option allows to filter the smplayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
-        <translation type="unfinished">Deze optie staat je toe om de smplayer berichten die in het log worden opgeslagen te filteren. Je kan hier eender welke reguliere expressie neerzetten.&lt;br&gt;Bijvoorbeeld: &lt;i&gt;^Core::.*&lt;/i&gt; zal alleen lijnen weergeven die beginnen met &lt;i&gt;Core::&lt;/i&gt;</translation>
+        <translation>Deze optie staat je toe om de smplayer berichten die in het log worden opgeslagen te filteren. Je kan hier eender welke reguliere expressie neerzetten.&lt;br&gt;Bijvoorbeeld: &lt;i&gt;^Core::.*&lt;/i&gt; zal alleen lijnen weergeven die beginnen met &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="62"/>
+        <location filename="../prefadvanced.ui" line="59"/>
         <source>&amp;Monitor aspect:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Monitor aspect:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="100"/>
+        <location filename="../prefadvanced.ui" line="105"/>
         <source>&amp;Run MPlayer in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Laat MPlayer videobestanden in een eigen venster afspelen</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="142"/>
+        <location filename="../prefadvanced.ui" line="147"/>
         <source>&amp;Options:</source>
-        <translation type="unfinished">&amp;Opties:</translation>
+        <translation>&amp;Opties:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="204"/>
+        <location filename="../prefadvanced.ui" line="209"/>
         <source>V&amp;ideo filters:</source>
-        <translation type="unfinished">V&amp;ideo filters:</translation>
+        <translation>V&amp;ideo filters:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="265"/>
+        <location filename="../prefadvanced.ui" line="270"/>
         <source>Audio &amp;filters:</source>
-        <translation type="unfinished">Audio &amp;filters:</translation>
+        <translation>Audio &amp;filters:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="294"/>
+        <location filename="../prefadvanced.ui" line="299"/>
         <source>&amp;Colorkey:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kleursleutel:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="344"/>
+        <location filename="../prefadvanced.ui" line="349"/>
         <source>&amp;Don&apos;t repaint the background of the video window</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Geen &apos;repaint&apos; uitvoeren op de achtergrond van het videovenster</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="380"/>
+        <location filename="../prefadvanced.ui" line="385"/>
         <source>Log &amp;MPlayer output</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;MPlayer uitvoer loggen</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="387"/>
+        <location filename="../prefadvanced.ui" line="392"/>
         <source>Log &amp;SMPlayer output</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;SMPlayer uitvoer loggen</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="425"/>
+        <location filename="../prefadvanced.ui" line="430"/>
         <source>&amp;Filter for SMPlayer logs:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Filter voor SMPlayer logs:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="484"/>
+        <location filename="../prefadvanced.ui" line="489"/>
         <source>&amp;End of file:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Einde van bestand:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="512"/>
+        <location filename="../prefadvanced.ui" line="502"/>
         <source>&amp;No video:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Geen video:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="319"/>
+        <location filename="../prefadvanced.ui" line="324"/>
         <source>C&amp;hange...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Aanpassen...</translation>
     </message>
 </context>
 <context>
@@ -2067,57 +2068,57 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefdrives.ui" line="29"/>
         <source>Drives</source>
-        <translation type="unfinished">Schijfstations</translation>
+        <translation>Schijfstations</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="41"/>
         <source>Currently SMPlayer does not autodetect cdrom or dvd devices. So in order to play cdroms or dvds you must first select here your cdrom and dvd drives (can be the same).</source>
-        <translation type="unfinished">SMPlayer detecteert momenteel niet automatisch cdrom of dvd apparaten. Dus om cdrom&apos;s of dvd&apos;s af te kunnen spelen moet je eerst hier je cdrom en dvd schijfstations instellen (kan hetzelfde zijn).</translation>
+        <translation>SMPlayer detecteert momenteel niet automatisch cdrom of dvd apparaten. Dus om cdrom&apos;s of dvd&apos;s af te kunnen spelen moet je eerst hier je cdrom en dvd schijfstations instellen (kan hetzelfde zijn).</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="149"/>
+        <location filename="../prefdrives.ui" line="157"/>
         <source>icon</source>
-        <translation type="unfinished">icoon</translation>
+        <translation>icoon</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="80"/>
+        <location filename="" line="0"/>
         <source>Select your CD device:</source>
         <translation type="obsolete">Kies CD apparaat:</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="164"/>
+        <location filename="" line="0"/>
         <source>Select your DVD device:</source>
         <translation type="obsolete">Kies DVD apparaat:</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="112"/>
         <source>CD device</source>
-        <translation type="unfinished"></translation>
+        <translation>cd apparaat</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="114"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kies het cd-rom apparaat. Het zal gebruikt worden om Video cd&apos;s (VCD&apos;s) en Audio cd&apos;s af te spelen.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="116"/>
         <source>DVD device</source>
-        <translation type="unfinished"></translation>
+        <translation>dvd apparaat</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="117"/>
         <source>Choose your DVD device. It will be used to play DVDs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kies het dvd apparaat. Het zal gebruikt worden om dvd films af te spelen.</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="80"/>
         <source>Select your &amp;CD device:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kies &amp;cd apparaat:</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="167"/>
+        <location filename="../prefdrives.ui" line="175"/>
         <source>Select your &amp;DVD device:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kies &amp;dvd apparaat:</translation>
     </message>
 </context>
 <context>
@@ -2125,422 +2126,422 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="43"/>
         <source>General</source>
-        <translation type="unfinished">Algemeen</translation>
+        <translation>Algemeen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="29"/>
         <source>&amp;General</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Algemeen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="41"/>
         <source>Paths</source>
-        <translation type="unfinished">Paden</translation>
+        <translation>Paden</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="76"/>
+        <location filename="" line="0"/>
         <source>Select...</source>
         <translation type="obsolete">Kiezen...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="96"/>
+        <location filename="" line="0"/>
         <source>Folder for storing screenshots:</source>
         <translation type="obsolete">Map om schermafdrukken in op te slaan:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="69"/>
+        <location filename="" line="0"/>
         <source>Search...</source>
         <translation type="obsolete">Zoeken...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="83"/>
+        <location filename="" line="0"/>
         <source>Select the MPlayer executable:</source>
         <translation type="obsolete">Kies het mplayer uitvoerbaar bestand:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="118"/>
         <source>Output drivers</source>
-        <translation type="unfinished">Uitvoer drivers</translation>
+        <translation>Uitvoer drivers</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="124"/>
+        <location filename="" line="0"/>
         <source>Video:</source>
         <translation type="obsolete">Video:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="261"/>
+        <location filename="" line="0"/>
         <source>Audio:</source>
         <translation type="obsolete">Audio:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="205"/>
         <source>Media settings</source>
-        <translation type="unfinished">Media instellingen</translation>
+        <translation>Media instellingen</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="239"/>
+        <location filename="" line="0"/>
         <source>Remember settings for all files (audio track, subtitles...)</source>
         <translation type="obsolete">Onthoud instellingen voor alle bestanden (audiospoor, ondertitels...)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="232"/>
+        <location filename="" line="0"/>
         <source>Don&apos;t remember time position (files start playing from the beginning)</source>
         <translation type="obsolete">Positie niet onthouden (bestanden starten met afspelen vanaf het begin)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="261"/>
         <source>Preferred audio and subtitles</source>
-        <translation type="unfinished">Voorkeur voor audio en ondertitels</translation>
+        <translation>Voorkeur voor audio en ondertitels</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="290"/>
+        <location filename="" line="0"/>
         <source>Subtitles:</source>
         <translation type="obsolete">Ondertitels:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="348"/>
         <source>&amp;Video and audio</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Video en audio</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="360"/>
         <source>Video</source>
-        <translation type="unfinished">Video</translation>
+        <translation>Video</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="347"/>
+        <location filename="" line="0"/>
         <source>Use software video equalizer</source>
         <translation type="obsolete">Gebruik software video equalizer</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="421"/>
         <source>Start videos in fullscreen</source>
-        <translation type="unfinished">Start videobestanden in volledig scherm</translation>
+        <translation>Start videobestanden in volledig scherm</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="425"/>
         <source>Disable screensaver</source>
-        <translation type="unfinished">Schermbeveiliging uitschakelen</translation>
+        <translation>Schermbeveiliging uitschakelen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="466"/>
         <source>Audio</source>
-        <translation type="unfinished">Audio</translation>
+        <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="500"/>
+        <location filename="" line="0"/>
         <source>Use software volume control</source>
         <translation type="obsolete">Gebruik software volumeregeling</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="322"/>
         <source>Select the mplayer executable</source>
-        <translation type="unfinished">Kies het mplayer uitvoerbaar bestand</translation>
+        <translation>Kies het mplayer uitvoerbaar bestand</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="325"/>
         <source>Executables</source>
-        <translation type="unfinished">Uitvoerbare bestanden (executables)</translation>
+        <translation>Uitvoerbare bestanden (executables)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="327"/>
         <source>All files</source>
-        <translation type="unfinished">Alle bestanden</translation>
+        <translation>Alle bestanden</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="338"/>
         <source>Select a directory</source>
-        <translation type="unfinished">Kies een map</translation>
+        <translation>Kies een map</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="348"/>
         <source>MPlayer executable</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer uitvoerbaar bestand</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="353"/>
         <source>Here you must specify the mplayer executable that smplayer will use.&lt;br&gt;smplayer requires at least mplayer 1.0rc1 (svn recommended).&lt;br&gt;&lt;b&gt;If this setting is wrong, smplayer won&apos;t be able to play anything!&lt;/b&gt;</source>
-        <translation type="unfinished">Hier moet je het mplayer uitvoerbaar bestand kiezen dat smplayer zal gebruiken.&lt;br /&gt;smplayer vereist ten minste mplayer 1.0rc1 (svn aanbevolen)&lt;br /&gt;&lt;b&gt;Als deze instelling foutief is, dan zal smplayer niets kunnen afspelen!&lt;/b&gt;</translation>
+        <translation>Hier moet je het mplayer uitvoerbaar bestand kiezen dat smplayer zal gebruiken.&lt;br /&gt;smplayer vereist ten minste mplayer 1.0rc1 (svn aanbevolen)&lt;br /&gt;&lt;b&gt;Als deze instelling foutief is, dan zal smplayer niets kunnen afspelen!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="355"/>
         <source>Screenshots folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Schermafdrukken map</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="358"/>
         <source>Here you can specify a folder where the screenshots taken by smplayer will be stored. If this field is empty the screenshot feature will be disabled.</source>
-        <translation type="unfinished">Hier kan je een map instellen waar de schermafdrukken die door smplayer genomen worden bewaard kunnen worden. Als dit veld leeg is zal de schermafdruk mogelijkheid uitgeschakeld worden.</translation>
+        <translation>Hier kan je een map instellen waar de schermafdrukken die door smplayer genomen worden bewaard kunnen worden. Als dit veld leeg is zal de schermafdruk mogelijkheid uitgeschakeld worden.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="360"/>
         <source>Video output driver</source>
-        <translation type="unfinished"></translation>
+        <translation>Video uitvoer driver</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="362"/>
         <source>Select the video output driver. Usually xv (linux) and directx (windows) provide the best performance.</source>
-        <translation type="unfinished">Kies de video uitvoer driver. Normaal gezien leveren xv (linux) en directx (windows) de beste prestaties.</translation>
+        <translation>Kies de video uitvoer driver. Normaal gezien leveren xv (linux) en directx (windows) de beste prestaties.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="364"/>
         <source>Audio output driver</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio uitvoer driver</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="365"/>
         <source>Select the audio output driver.</source>
-        <translation type="unfinished">Kies de audio uitvoer driver.</translation>
+        <translation>Kies de audio uitvoer driver.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="367"/>
         <source>Remember settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Instellingen onthouden</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="370"/>
         <source>Usually smplayer will remember the settings for each file you play (audio track selected, volume, filters...). Uncheck this option if you don&apos;t like this feature.</source>
-        <translation type="unfinished">Normaal gezien onthoudt smplayer de instellingen voor elk bestand dat je afspeelt (geselecteerd audio spoor, volume, filters...). Vink deze optie uit als je geen gebruik wilt maken van deze mogelijkheid.</translation>
+        <translation>Normaal gezien onthoudt smplayer de instellingen voor elk bestand dat je afspeelt (geselecteerd audio spoor, volume, filters...). Vink deze optie uit als je geen gebruik wilt maken van deze mogelijkheid.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="372"/>
         <source>Don&apos;t remember time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Tijdspositie niet onthouden</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="374"/>
         <source>If you check this option, smplayer will play all files from the beginning.</source>
-        <translation type="unfinished">Als je deze optie aanvinkt, dan zal SMPlayer alle bestanden vanaf het begin afspelen.</translation>
+        <translation>Als je deze optie aanvinkt, dan zal SMPlayer alle bestanden vanaf het begin afspelen.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="376"/>
         <source>Preferred audio language</source>
-        <translation type="unfinished"></translation>
+        <translation>Taalvoorkeur voor audiosporen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="384"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished">Hier kan je een taalvoorkeur instellen voor audiosporen. Wanneer een mediabestand met meerdere audiosporen wordt gevonden, dan zal smplayer trachten om uw taalvoorkeur te gebruiken.&lt;br&gt;Dit werkt alleen bij mediabestanden die informatie over de taal bij de audiosporen hebben, zoals dvd&apos;s of mkv-bestanden.&lt;br&gt;Dit veld accepteert reguliere expressies. Voorbeeld: &lt;b&gt;es|esp|spa&lt;/b&gt; zal het audiospoor selecteren indien het overeenkomt met &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; of &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Hier kan je een taalvoorkeur instellen voor audiosporen. Wanneer een mediabestand met meerdere audiosporen wordt gevonden, dan zal smplayer trachten om uw taalvoorkeur te gebruiken.&lt;br&gt;Dit werkt alleen bij mediabestanden die informatie over de taal bij de audiosporen hebben, zoals dvd&apos;s of mkv-bestanden.&lt;br&gt;Dit veld accepteert reguliere expressies. Voorbeeld: &lt;b&gt;es|esp|spa&lt;/b&gt; zal het audiospoor selecteren indien het overeenkomt met &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; of &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="386"/>
         <source>Preferred subtitle language</source>
-        <translation type="unfinished"></translation>
+        <translation>Taalvoorkeur voor ondertitels</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="394"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished">Hier kan je een taalvoorkeur instellen voor ingebedde ondertitelingen. Wanneer een mediabestand met meerdere ondertitelingssporen wordt gevonden, dan zal smplayer trachten om uw taalvoorkeur te gebruiken.&lt;br&gt;Dit werkt alleen bij mediabestanden die informatie over de taal bij de ondertitelingssporen hebben, zoals dvd&apos;s of mkv-bestanden.&lt;br&gt;Dit veld accepteert reguliere expressies. Voorbeeld: &lt;b&gt;es|esp|spa&lt;/b&gt; zal het ondertitelingsspoor selecteren indien het overeenkomt met &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; of &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Hier kan je een taalvoorkeur instellen voor ingebedde ondertitels. Wanneer een mediabestand met meerdere ondertitels wordt gevonden, dan zal smplayer trachten om uw taalvoorkeur te gebruiken.&lt;br&gt;Dit werkt alleen bij mediabestanden die informatie over de taal bij de ondertitels hebben, zoals dvd&apos;s of mkv-bestanden.&lt;br&gt;Dit veld accepteert reguliere expressies. Voorbeeld: &lt;b&gt;es|esp|spa&lt;/b&gt; zal het ondertitelingsspoor selecteren indien het overeenkomt met &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; of &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="400"/>
         <source>Software video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Software video equalizer</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="404"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
-        <translation type="unfinished">Je kan deze optie aanvinken als video equalizer niet wordt ondersteund door je grafische kaart of door de geselecteerde video uitvoer driver.&lt;br /&gt;&lt;b&gt;Let op:&lt;/b&gt; deze optie kan incompatibel zijn met sommige video uitvoer drivers.</translation>
+        <translation>Je kan deze optie aanvinken als video equalizer niet wordt ondersteund door je grafische kaart of door de geselecteerde video uitvoer driver.&lt;br /&gt;&lt;b&gt;Let op:&lt;/b&gt; deze optie kan incompatibel zijn met sommige video uitvoer drivers.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="423"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
-        <translation type="unfinished">Als je deze optie aanvinkt, dan zullen alle videobestanden starten in de modus volledig scherm.</translation>
+        <translation>Als je deze optie aanvinkt, dan zullen alle videobestanden starten in de modus volledig scherm.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="428"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option works only in X11 and Windows.</source>
-        <translation type="unfinished">Vink deze optie aan om de schermbeveiliging uit te schakelen tijdens het afspelen.&lt;br /&gt;De screensaver zal terug ingeschakeld worden wanneer het afspelen voltooid is.&lt;br /&gt;&lt;b&gt;Let op:&lt;/b&gt; Deze optie werkt alleen in X11 en Windows.</translation>
+        <translation>Vink deze optie aan om de schermbeveiliging uit te schakelen tijdens het afspelen.&lt;br /&gt;De screensaver zal terug ingeschakeld worden wanneer het afspelen voltooid is.&lt;br /&gt;&lt;b&gt;Let op:&lt;/b&gt; Deze optie werkt alleen in X11 en Windows.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="430"/>
         <source>Software volume control</source>
-        <translation type="unfinished"></translation>
+        <translation>Software volumeregeling</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="432"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
-        <translation type="unfinished">Vink deze optie aan om de software mixer te gebruiken, in plaats van de geluidskaart mixer.</translation>
+        <translation>Vink deze optie aan om de software mixer te gebruiken, in plaats van de geluidskaart mixer.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="406"/>
         <source>Postprocessing quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Kwaliteit van nabewerking</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="409"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
-        <translation type="unfinished">Dynamisch het niveau van nabewerking veranderen, rekening houdend met de beschikbare CPU tijd. Het nummer dat je instelt zal het maximum niveau zijn dat gebruikt zal worden. Gewoonlijk kan je hier een groot nummer gebruiken.</translation>
+        <translation>Dynamisch het niveau van nabewerking veranderen, rekening houdend met de beschikbare CPU tijd. Het nummer dat je instelt zal het maximum niveau zijn dat gebruikt zal worden. Gewoonlijk kan je hier een groot nummer gebruiken.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="434"/>
         <source>Change volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Volume aanpassen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="437"/>
         <source>If checked, SMPlayer will remember the volume for every file and will restore it when played again. For new files the default volume will be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als deze optie is aangevinkt, dan zal SMPlayer het geluidsniveau van elk bestand onthouden. Voor nieuwe bestanden wordt het standaard geluidsniveau gebruikt.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="460"/>
+        <location filename="" line="0"/>
         <source>Default volume:</source>
         <translation type="obsolete">Standaardvolume:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="531"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation>0</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="616"/>
         <source>&amp;Change volume on every file</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Volume bij elk bestand veranderen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="69"/>
         <source>&amp;Search...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zoek...</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="76"/>
         <source>S&amp;elect...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kiezen...</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="83"/>
         <source>Select the &amp;MPlayer executable:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kies het &amp;MPlayer uitvoerbaar bestand:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="99"/>
         <source>&amp;Folder for storing screenshots:</source>
-        <translation type="unfinished"></translation>
+        <translation>Map om &amp;schermafdrukken in op te slaan:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="130"/>
         <source>V&amp;ideo:</source>
-        <translation type="unfinished"></translation>
+        <translation>V&amp;ideo:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="174"/>
         <source>&amp;Audio:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Audio:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="244"/>
         <source>&amp;Don&apos;t remember time position (files start playing from the beginning)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tijdspositie niet onthouden (bestanden spelen af vanaf het begin)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="251"/>
         <source>&amp;Remember settings for all files (audio track, subtitles...)</source>
-        <translation type="unfinished"></translation>
+        <translation>I&amp;nstellingen voor alle bestanden onthouden (audiospoor, ondertitels...)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="273"/>
         <source>A&amp;udio:</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;udio:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="305"/>
         <source>Su&amp;btitles:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ondertitels:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="372"/>
         <source>&amp;Use software video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gebruik software video equalizer</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="410"/>
         <source>&amp;Quality:</source>
-        <translation type="unfinished"></translation>
+        <translation>K&amp;waliteit:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="449"/>
         <source>Start videos in &amp;fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Start videobestanden in &amp;volledig scherm</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="456"/>
         <source>Disable &amp;screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Schermbeveiliging uitschakelen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="502"/>
         <source>&amp;Default volume:</source>
-        <translation type="unfinished"></translation>
+        <translation>Standaard &amp;geluidsniveau:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="548"/>
         <source>Use s&amp;oftware volume control</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruikt s&amp;oftware volumeregeling</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="574"/>
         <source>Ma&amp;x. Amplification:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ma&amp;x. versterking:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="602"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;AC3/DTS pass-through S/PDIF</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="411"/>
         <source>Direct rendering</source>
-        <translation type="unfinished"></translation>
+        <translation>Direct rendering</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="414"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; May cause OSD/SUB corruption!</source>
-        <translation type="unfinished"></translation>
+        <translation>Als deze optie is aangevinkt, dan zal &apos;direct rendering&apos; ingeschakeld worden (wordt niet ondersteund door alle codecs en video uitvoer drivers)&lt;br /&gt;&lt;b&gt;WAARSCHUWING:&lt;/b&gt; Veroorzaakt mogelijk OSD/SUB corruptie!</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="416"/>
         <source>Double buffering</source>
-        <translation type="unfinished"></translation>
+        <translation>Double buffering</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="435"/>
         <source>D&amp;irect rendering</source>
-        <translation type="unfinished"></translation>
+        <translation>D&amp;irect rendering</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="442"/>
         <source>Dou&amp;ble buffering</source>
-        <translation type="unfinished"></translation>
+        <translation>Dou&amp;ble buffering</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="419"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;Double buffering&apos; verwijdert flikkering door twee frames in het geheugen te plaatsen, en slechts één frame te weergeven terwijl het andere gedecodeerd wordt. Als deze optie is uitgeschakeld kan het OSD negatief beïnvloed worden, maar vaak verwijdert het flikkering van het OSD.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="387"/>
         <source>&amp;Enable postprocessing by default</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nabewerking standaard inschakelen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="609"/>
         <source>Volume &amp;normalization by default</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Volume normalisatie standaard toepassen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="396"/>
         <source>Close when finished</source>
-        <translation type="unfinished"></translation>
+        <translation>Sluiten na afloop</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="398"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als deze optie is aangevinkt, dan zal het hoofdvenster automatisch gesloten worden wanneer het huidige bestand of de huidige afspeellijst is afgelopen.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="324"/>
         <source>&amp;Close when finished</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sluiten na afloop</translation>
     </message>
 </context>
 <context>
@@ -2548,72 +2549,72 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefinput.cpp" line="43"/>
         <source>Keyboard and mouse</source>
-        <translation type="unfinished"></translation>
+        <translation>Toetsenbord en muis</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="29"/>
         <source>&amp;Keyboard</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Toetsenbord</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="115"/>
         <source>icon</source>
-        <translation type="unfinished">icoon</translation>
+        <translation>icoon</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="70"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation type="unfinished">Hier kan je eender welke sneltoets instellen. Om een sneltoets aan te passen moet u op de desbetreffende cel dubbelklikken of typen terwijl de desbetreffende cel de focus heeft. Optioneel bestaat de mogelijkheid om uw sneltoetsen configuratie op te slaan zodat u het kan delen met andere mensen of zodat u het in een andere computer kan inladen.</translation>
+        <translation>Hier kan je eender welke sneltoets instellen. Om een sneltoets aan te passen moet u op de desbetreffende cel dubbelklikken of typen terwijl de desbetreffende cel de focus heeft. Optioneel bestaat de mogelijkheid om uw sneltoetsen configuratie op te slaan zodat u het kan delen met andere mensen of zodat u het in een andere computer kan inladen.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="95"/>
         <source>&amp;Mouse</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Muis</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="151"/>
         <source>Button functions:</source>
-        <translation type="unfinished">Knop functies:</translation>
+        <translation>Knop functies:</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="322"/>
         <source>Media seeking</source>
-        <translation type="unfinished">Media zoeken</translation>
+        <translation>Media zoeken</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="327"/>
         <source>Volume control</source>
-        <translation type="unfinished">Volumeregeling</translation>
+        <translation>Volumeregeling</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="332"/>
         <source>Zoom video</source>
-        <translation type="unfinished"></translation>
+        <translation>Video zoomen</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="63"/>
         <source>None</source>
-        <translation type="unfinished">Geen</translation>
+        <translation>Geen</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="67"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier kan je eender welke sneltoets instellen. Om een sneltoets aan te passen moet u op de desbetreffende cel dubbelklikken of de enter-toets indrukken terwijl de desbetreffende cel de focus heeft. Optioneel bestaat de mogelijkheid om uw sneltoetsen configuratie op te slaan zodat u het kan delen met andere mensen of zodat u het in een andere computer kan inladen.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="169"/>
         <source>&amp;Left click</source>
-        <translation type="unfinished"></translation>
+        <translation>Klik met &amp;linkermuisknop</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="238"/>
+        <location filename="../prefinput.ui" line="214"/>
         <source>&amp;Double click</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dubbelklikken</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="300"/>
         <source>&amp;Wheel function:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Wielfunctie:</translation>
     </message>
 </context>
 <context>
@@ -2621,267 +2622,267 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefinterface.cpp" line="72"/>
         <source>Interface</source>
-        <translation type="unfinished">Interface</translation>
+        <translation>Interface</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="81"/>
         <source>Bulgarian</source>
-        <translation type="unfinished">Bulgaars</translation>
+        <translation>Bulgaars</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="83"/>
         <source>Czech</source>
-        <translation type="unfinished">Tsjechisch</translation>
+        <translation>Tsjechisch</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="84"/>
         <source>German</source>
-        <translation type="unfinished">Duits</translation>
+        <translation>Duits</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="85"/>
         <source>Greek</source>
-        <translation type="unfinished">Grieks</translation>
+        <translation>Grieks</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="86"/>
         <source>English</source>
-        <translation type="unfinished">Engels</translation>
+        <translation>Engels</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="87"/>
         <source>Spanish</source>
-        <translation type="unfinished">Spaans</translation>
+        <translation>Spaans</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="89"/>
         <source>Finnish</source>
-        <translation type="unfinished">Fins</translation>
+        <translation>Fins</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="90"/>
         <source>French</source>
-        <translation type="unfinished">Frans</translation>
+        <translation>Frans</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="92"/>
         <source>Hungarian</source>
-        <translation type="unfinished">Hongaars</translation>
+        <translation>Hongaars</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="93"/>
         <source>Italian</source>
-        <translation type="unfinished">Italiaans</translation>
+        <translation>Italiaans</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="94"/>
         <source>Japanese</source>
-        <translation type="unfinished">Japans</translation>
+        <translation>Japans</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="95"/>
         <source>Georgian</source>
-        <translation type="unfinished">Georgisch</translation>
+        <translation>Georgisch</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="96"/>
         <source>Dutch</source>
-        <translation type="unfinished">Nederlands</translation>
+        <translation>Nederlands</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="97"/>
         <source>Polish</source>
-        <translation type="unfinished">Pools</translation>
+        <translation>Pools</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="98"/>
         <source>Portuguese - Brazil</source>
-        <translation type="unfinished"></translation>
+        <translation>Portugees - Brazilië</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="99"/>
         <source>Portuguese - Portugal</source>
-        <translation type="unfinished"></translation>
+        <translation>Portugees - Portugal</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="100"/>
         <source>Romanian</source>
-        <translation type="unfinished"></translation>
+        <translation>Roemeens</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="101"/>
         <source>Russian</source>
-        <translation type="unfinished">Russisch</translation>
+        <translation>Russisch</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="102"/>
         <source>Slovak</source>
-        <translation type="unfinished">Slowaak</translation>
+        <translation>Slowaak</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="103"/>
         <source>Serbian</source>
-        <translation type="unfinished"></translation>
+        <translation>Servisch</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="104"/>
         <source>Swedish</source>
-        <translation type="unfinished">Zweeds</translation>
+        <translation>Zweeds</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="105"/>
         <source>Turkish</source>
-        <translation type="unfinished">Turks</translation>
+        <translation>Turks</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="106"/>
         <source>Ukrainian</source>
-        <translation type="unfinished">Oekraïens</translation>
+        <translation>Oekraïens</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="107"/>
         <source>Simplified-Chinese</source>
-        <translation type="unfinished">Vereenvoudigd Chinees</translation>
+        <translation>Vereenvoudigd Chinees</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="108"/>
         <source>Traditional Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Traditioneel Chinees</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="115"/>
         <source>&lt;Autodetect&gt;</source>
-        <translation type="unfinished">&lt;Automatisch detecteren&gt;</translation>
+        <translation>&lt;Automatisch detecteren&gt;</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="157"/>
         <source>Default</source>
-        <translation type="unfinished">Standaard</translation>
+        <translation>Standaard</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="29"/>
         <source>&amp;Interface</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Interface</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="262"/>
+        <location filename="../prefinterface.ui" line="271"/>
         <source>Seeking</source>
-        <translation type="unfinished">Zoeken</translation>
+        <translation>Zoeken</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="381"/>
+        <location filename="../prefinterface.ui" line="390"/>
         <source>Never</source>
-        <translation type="unfinished">Nooit</translation>
+        <translation>Nooit</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="386"/>
+        <location filename="../prefinterface.ui" line="395"/>
         <source>Whenever it&apos;s needed</source>
-        <translation type="unfinished">Wanneer nodig</translation>
+        <translation>Wanneer nodig</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="391"/>
+        <location filename="../prefinterface.ui" line="400"/>
         <source>Only after loading a new video</source>
-        <translation type="unfinished">Alleen na het laden van een nieuw videobestand</translation>
+        <translation>Alleen na het laden van een nieuw videobestand</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="299"/>
+        <location filename="../prefinterface.ui" line="308"/>
         <source>Recent files</source>
-        <translation type="unfinished">Recente bestanden</translation>
+        <translation>Recente bestanden</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="354"/>
         <source>Language</source>
-        <translation type="unfinished">Taal</translation>
+        <translation>Taal</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="355"/>
         <source>Here you can change the language of the application.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier kan je de taal van het programma aanpassen.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="41"/>
         <source>Instances</source>
-        <translation type="unfinished"></translation>
+        <translation>Instanties</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="82"/>
         <source>Catalan</source>
-        <translation type="unfinished"></translation>
+        <translation>Catalaans</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="88"/>
         <source>Basque</source>
-        <translation type="unfinished"></translation>
+        <translation>Baskisch</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="91"/>
         <source>Galician</source>
-        <translation type="unfinished"></translation>
+        <translation>Galicisch</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="138"/>
         <source>&amp;Short jump</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Korte sprong</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="139"/>
         <source>&amp;Medium jump</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Middelmatige sprong</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="140"/>
         <source>&amp;Long jump</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lange sprong</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="141"/>
         <source>Mouse &amp;wheel jump</source>
-        <translation type="unfinished"></translation>
+        <translation>Muis&amp;wiel sprong</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="53"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Slechts één draaiende instantie van SMPlayer gebruiken</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="63"/>
         <source>SMPlayer will listen to this &amp;port to receive commands from other instances:</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer zal op deze &amp;poort luisteren om commando&apos;s van andere instanties te ontvangen:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="311"/>
+        <location filename="../prefinterface.ui" line="320"/>
         <source>Ma&amp;x. items</source>
-        <translation type="unfinished"></translation>
+        <translation>Ma&amp;x. items</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="155"/>
         <source>St&amp;yle:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Stijl:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="206"/>
+        <location filename="../prefinterface.ui" line="194"/>
         <source>Ico&amp;n set:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ico&amp;nen set:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="193"/>
+        <location filename="../prefinterface.ui" line="181"/>
         <source>L&amp;anguage:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Taal:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="350"/>
+        <location filename="../prefinterface.ui" line="359"/>
         <source>Main window</source>
-        <translation type="unfinished"></translation>
+        <translation>Hoofdvenster</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="362"/>
+        <location filename="../prefinterface.ui" line="371"/>
         <source>Auto&amp;resize:</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatisch &amp;herschalen:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="399"/>
+        <location filename="../prefinterface.ui" line="408"/>
         <source>R&amp;emember position and size</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Positie en grootte onthouden</translation>
     </message>
 </context>
 <context>
@@ -2889,187 +2890,187 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefperformance.cpp" line="43"/>
         <source>Performance</source>
-        <translation type="unfinished">Prestaties</translation>
+        <translation>Prestaties</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="29"/>
         <source>&amp;Performance</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Prestaties</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="41"/>
         <source>Priority</source>
-        <translation type="unfinished">Prioriteit</translation>
+        <translation>Prioriteit</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="53"/>
         <source>Select the priority for the MPlayer process.</source>
-        <translation type="unfinished">Kies de prioriteit van het MPlayer proces.</translation>
+        <translation>Kies de prioriteit van het MPlayer proces.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="74"/>
+        <location filename="" line="0"/>
         <source>Priority:</source>
         <translation type="obsolete">Prioriteit:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="85"/>
         <source>realtime</source>
-        <translation type="unfinished">realtime</translation>
+        <translation>realtime</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="90"/>
         <source>high</source>
-        <translation type="unfinished">hoog</translation>
+        <translation>hoog</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="95"/>
         <source>abovenormal</source>
-        <translation type="unfinished">hoger dan normaal</translation>
+        <translation>hoger dan normaal</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="100"/>
         <source>normal</source>
-        <translation type="unfinished">normaal</translation>
+        <translation>normaal</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="105"/>
         <source>belownormal</source>
-        <translation type="unfinished">lager dan normaal</translation>
+        <translation>lager dan normaal</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="110"/>
         <source>idle</source>
-        <translation type="unfinished">idle</translation>
+        <translation>idle</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="139"/>
         <source>Cache</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="220"/>
         <source>KB</source>
-        <translation type="unfinished">KB</translation>
+        <translation>KB</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="239"/>
         <source>Setting a cache may improve performance on slow media</source>
-        <translation type="unfinished">Een cache instellen kan prestaties verbeteren bij trage media</translation>
+        <translation>Een cache instellen kan prestaties verbeteren bij trage media</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="186"/>
         <source>Allow frame drop</source>
-        <translation type="unfinished">Frame drops toestaan</translation>
+        <translation>Frame drops toestaan</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="256"/>
+        <location filename="" line="0"/>
         <source>Allow hard frame drop (can lead to image distortion)</source>
         <translation type="obsolete">Harde frame drops toestaan (kan leiden tot beeldvervorming)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="266"/>
         <source>Synchronization</source>
-        <translation type="unfinished">Synchronisatie</translation>
+        <translation>Synchronisatie</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="193"/>
         <source>Audio/video auto synchronization</source>
-        <translation type="unfinished">Audio/video automatische synchronisatie</translation>
+        <translation>Audio/video automatische synchronisatie</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="309"/>
+        <location filename="" line="0"/>
         <source>Factor:</source>
         <translation type="obsolete">Factor:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="353"/>
+        <location filename="" line="0"/>
         <source>Fast audio track switching</source>
         <translation type="obsolete">Snelle audio spoor wisseling</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="360"/>
+        <location filename="" line="0"/>
         <source>Fast seek to chapters in dvds</source>
         <translation type="obsolete">Snel zoeken naar hoofdstukken bij dvds</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="177"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished">Prioriteit van het mplayer proces instellen volgens de vooraf gedefinieerde prioriteiten die beschikbaar zijn onder Windows.&lt;br&gt;&lt;b&gt;WAARSCHUWING:&lt;/b&gt; Gebruik van realtime prioriteit kan een systeem lockup veroorzaken.</translation>
+        <translation>Prioriteit van het mplayer proces instellen volgens de vooraf gedefinieerde prioriteiten die beschikbaar zijn onder Windows.&lt;br&gt;&lt;b&gt;WAARSCHUWING:&lt;/b&gt; Gebruik van realtime prioriteit kan een systeem lockup veroorzaken.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="180"/>
         <source>&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option is for Windows only.</source>
-        <translation type="unfinished">&lt;br&gt;&lt;b&gt;Opgelet:&lt;/b&gt; Deze optie is alleen voor Windows.</translation>
+        <translation>&lt;br&gt;&lt;b&gt;Opgelet:&lt;/b&gt; Deze optie is alleen voor Windows.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="184"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file or URL. Especially useful on slow media.</source>
-        <translation type="unfinished">Deze optie bepaalt hoeveel geheugen (in kBytes) gebruikt moet worden bij het precachen van een bestand of URL. Vooral handig bij trage media.</translation>
+        <translation>Deze optie bepaalt hoeveel geheugen (in kBytes) gebruikt moet worden bij het precachen van een bestand of URL. Vooral handig bij trage media.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="187"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
-        <translation type="unfinished">Sommige frames overslaan om A/V sync te behouden op trage systemen.</translation>
+        <translation>Sommige frames overslaan om A/V sync te behouden op trage systemen.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="189"/>
         <source>Allow hard frame drop</source>
-        <translation type="unfinished"></translation>
+        <translation>Harde frame drops toestaan</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="191"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
-        <translation type="unfinished">Meer intense frame dropping (breekt decodering). Leidt tot beeldvervorming!</translation>
+        <translation>Meer intense frame dropping (breekt decodering). Leidt tot beeldvervorming!</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="195"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
-        <translation type="unfinished">Geleidelijk A/V sync bijstellen, gebaseerd op audio delay metingen.</translation>
+        <translation>Geleidelijk A/V sync bijstellen, gebaseerd op audio delay metingen.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="71"/>
         <source>Priorit&amp;y:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pr&amp;ioriteit:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="194"/>
         <source>Si&amp;ze:</source>
-        <translation type="unfinished"></translation>
+        <translation>Groo&amp;tte:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="232"/>
         <source>&amp;Use cache</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gebruik cache</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="252"/>
         <source>&amp;Allow frame drop</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Frame drops toestaan</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="259"/>
         <source>Allow &amp;hard frame drop (can lead to image distortion)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Harde frame drops toestaan (kan leiden tot beeldvervorming)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="278"/>
         <source>Audio/&amp;video auto synchronization</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio/&amp;video automatische synchronisatie</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="312"/>
         <source>Fact&amp;or:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fact&amp;or:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="359"/>
         <source>&amp;Fast audio track switching</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Snel wisselen van audiospoor</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="366"/>
         <source>Fast &amp;seek to chapters in dvds</source>
-        <translation type="unfinished"></translation>
+        <translation>Snel &amp;zoeken naar hoofdstukken bij dvd&apos;s</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="197"/>
@@ -3092,277 +3093,277 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefsubtitles.cpp" line="50"/>
         <source>Subtitles</source>
-        <translation type="unfinished">Ondertitels</translation>
+        <translation>Ondertitels</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="275"/>
         <source>Choose a ttf file</source>
-        <translation type="unfinished">Kies een ttf bestand</translation>
+        <translation>Kies een ttf bestand</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="277"/>
         <source>Truetype Fonts</source>
-        <translation type="unfinished">Truetype Lettertypes</translation>
+        <translation>Truetype Lettertypes</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="32"/>
         <source>&amp;Subtitles</source>
-        <translation type="unfinished">O&amp;ndertitels</translation>
+        <translation>O&amp;ndertitels</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="44"/>
         <source>Autoload</source>
-        <translation type="unfinished">Automatisch laden</translation>
+        <translation>Automatisch laden</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="53"/>
+        <location filename="" line="0"/>
         <source>Autoload subtitles files (*.srt, *.sub...):</source>
         <translation type="obsolete">Automatisch ondertitels laden (*.srt, *.sub...):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="63"/>
+        <location filename="" line="0"/>
         <source>Select first available subtitle</source>
         <translation type="obsolete">Kies eerste ondertitel die beschikbaar is</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
         <source>Same name as movie</source>
-        <translation type="unfinished">Dezelfde naam als film</translation>
+        <translation>Dezelfde naam als film</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="82"/>
         <source>All subs containing movie name</source>
-        <translation type="unfinished">Alle ondertitels die de filmnaam bevatten</translation>
+        <translation>Alle ondertitels die de filmnaam bevatten</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="87"/>
         <source>All subs in directory</source>
-        <translation type="unfinished">Alle ondertitels in map</translation>
+        <translation>Alle ondertitels in map</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="108"/>
+        <location filename="" line="0"/>
         <source>Default subtitle encoding:</source>
         <translation type="obsolete">Standaard ondertitel encodering:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="160"/>
+        <location filename="../prefsubtitles.ui" line="168"/>
         <source>Position</source>
-        <translation type="unfinished">Plaatsing</translation>
+        <translation>Plaatsing</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="163"/>
+        <location filename="" line="0"/>
         <source>Default position of the subtitles on screen</source>
         <translation type="obsolete">Standaard plaatsing van ondertitels op het scherm</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="220"/>
+        <location filename="../prefsubtitles.ui" line="228"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="240"/>
+        <location filename="../prefsubtitles.ui" line="248"/>
         <source>Top</source>
-        <translation type="unfinished">Bovenaan</translation>
+        <translation>Bovenaan</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="266"/>
+        <location filename="../prefsubtitles.ui" line="274"/>
         <source>Bottom</source>
-        <translation type="unfinished">Onderaan</translation>
+        <translation>Onderaan</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="269"/>
+        <location filename="" line="0"/>
         <source>Include subtitles on screenshots</source>
         <translation type="obsolete">Ondertitels weergeven op schermafdrukken</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="312"/>
+        <location filename="../prefsubtitles.ui" line="320"/>
         <source>&amp;Font</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lettertype</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="324"/>
+        <location filename="../prefsubtitles.ui" line="332"/>
         <source>Font</source>
-        <translation type="unfinished">Lettertype</translation>
+        <translation>Lettertype</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="324"/>
+        <location filename="" line="0"/>
         <source>TTF font:</source>
         <translation type="obsolete">TTF lettertype:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="341"/>
+        <location filename="" line="0"/>
         <source>Search...</source>
         <translation type="obsolete">Zoeken...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="368"/>
+        <location filename="" line="0"/>
         <source>System font:</source>
         <translation type="obsolete">Systeemlettertype:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="387"/>
+        <location filename="../prefsubtitles.ui" line="388"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
-        <translation type="unfinished">Kies het lettertype dat gebruikt moet worden voor ondertitels (en OSD):</translation>
+        <translation>Kies het lettertype dat gebruikt moet worden voor ondertitels (en OSD):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="400"/>
+        <location filename="../prefsubtitles.ui" line="416"/>
         <source>Size</source>
-        <translation type="unfinished">Grootte</translation>
+        <translation>Grootte</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="400"/>
+        <location filename="" line="0"/>
         <source>Autoscale:</source>
         <translation type="obsolete">Automatisch schalen:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="426"/>
+        <location filename="../prefsubtitles.ui" line="442"/>
         <source>No autoscale</source>
-        <translation type="unfinished">Geen automatisch schaling</translation>
+        <translation>Geen automatische herschaling</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="431"/>
+        <location filename="../prefsubtitles.ui" line="447"/>
         <source>Proportional to movie height</source>
-        <translation type="unfinished">Evenredig met hoogte van film</translation>
+        <translation>Evenredig met hoogte van film</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="436"/>
+        <location filename="../prefsubtitles.ui" line="452"/>
         <source>Proportional to movie width</source>
-        <translation type="unfinished">Evenredig met breedte van film</translation>
+        <translation>Evenredig met breedte van film</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="441"/>
+        <location filename="../prefsubtitles.ui" line="457"/>
         <source>Proportional to movie diagonal</source>
-        <translation type="unfinished">Evenredig met diagonaal van film</translation>
+        <translation>Evenredig met diagonaal van film</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="450"/>
+        <location filename="" line="0"/>
         <source>Scale:</source>
         <translation type="obsolete">Schalen:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="505"/>
+        <location filename="../prefsubtitles.ui" line="521"/>
         <source>SSA/&amp;ASS library</source>
-        <translation type="unfinished"></translation>
+        <translation>SSA/&amp;ASS bibliotheek</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="517"/>
+        <location filename="../prefsubtitles.ui" line="533"/>
         <source>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</source>
-        <translation type="unfinished"></translation>
+        <translation>De nieuwe SSA/ASS bibliotheek levert mooie stijlvolle ondertitels voor externe SSA/ASS ondertitelbestanden en Matroska sporen. Maar het kan ook gebruikt worden voor andere formaten zoals SUB en SRT bestanden.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="512"/>
+        <location filename="" line="0"/>
         <source>Use SSA/ASS library for subtitle rendering</source>
         <translation type="obsolete">Gebruik SSA/ASS bibliotheek voor ondertitel rendering</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="530"/>
+        <location filename="" line="0"/>
         <source>Text color:</source>
         <translation type="obsolete">Tekstkleur:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="569"/>
+        <location filename="" line="0"/>
         <source>Border color:</source>
         <translation type="obsolete">Randkleur:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="639"/>
+        <location filename="../prefsubtitles.ui" line="655"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>De stijl voor SSA/ASS ondertitels kan hier aangepast worden. Het kan ook gebruikt worden om de rendering van SRT of SUB ondertitels te verfijnen door de SSA/ASS bibliotheek te gebruiken. Voorbeeld: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="639"/>
+        <location filename="" line="0"/>
         <source>Styles:</source>
         <translation type="obsolete">Stijlen:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="305"/>
         <source>Subtitle position</source>
-        <translation type="unfinished"></translation>
+        <translation>Ondertitel positie</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="308"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
-        <translation type="unfinished">Deze optie bepaalt de plaatsing van de ondertitels op het afspeelvenster. &lt;i&gt;100&lt;/i&gt; betekent onderaan en &lt;i&gt;0&lt;/i&gt; betekent bovenaan.</translation>
+        <translation>Deze optie bepaalt de positie van de ondertitels op het afspeelvenster. &lt;i&gt;100&lt;/i&gt; betekent onderaan en &lt;i&gt;0&lt;/i&gt; betekent bovenaan.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="310"/>
         <source>SSA/ASS styles</source>
-        <translation type="unfinished"></translation>
+        <translation>SSA/ASS stijlen</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="56"/>
         <source>Au&amp;toload subtitles files (*.srt, *.sub...):</source>
-        <translation type="unfinished"></translation>
+        <translation>Au&amp;tomatisch ondertitels inladen (*.srt, *.sub...):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="69"/>
         <source>S&amp;elect first available subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kies eerste beschikbare ondertitel</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="114"/>
         <source>&amp;Default subtitle encoding:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Standaard ondertiteling encodering:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="172"/>
+        <location filename="../prefsubtitles.ui" line="180"/>
         <source>Default &amp;position of the subtitles on screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Standaard &amp;positie voor ondertitels op het scherm</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="281"/>
+        <location filename="../prefsubtitles.ui" line="289"/>
         <source>&amp;Include subtitles on screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Ondertitels &amp;weergeven op schermafdrukken</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="288"/>
+        <location filename="../prefsubtitles.ui" line="296"/>
         <source>&amp;Use -subfont option (required by recent MPlayer releases)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gebruik -subfont optie (benodigd bij recente MPlayer uitgaves)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="336"/>
+        <location filename="../prefsubtitles.ui" line="344"/>
         <source>&amp;TTF font:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;TTF lettertype:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="353"/>
+        <location filename="../prefsubtitles.ui" line="361"/>
         <source>Sea&amp;rch...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zoek...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="380"/>
+        <location filename="../prefsubtitles.ui" line="381"/>
         <source>S&amp;ystem font:</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;ysteem lettertype:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="412"/>
+        <location filename="../prefsubtitles.ui" line="428"/>
         <source>A&amp;utoscale:</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;utomatische herschaling:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="465"/>
+        <location filename="../prefsubtitles.ui" line="481"/>
         <source>S&amp;cale:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Herschalen:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="530"/>
+        <location filename="../prefsubtitles.ui" line="546"/>
         <source>&amp;Use SSA/ASS library for subtitle rendering</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gebruik SSA/ASS bibliotheek om ondertitels te weergeven</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="548"/>
+        <location filename="../prefsubtitles.ui" line="564"/>
         <source>&amp;Text color:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tekstkleur:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="590"/>
+        <location filename="../prefsubtitles.ui" line="606"/>
         <source>&amp;Border color:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Randkleur:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="663"/>
+        <location filename="../prefsubtitles.ui" line="679"/>
         <source>St&amp;yles:</source>
-        <translation type="unfinished"></translation>
+        <translation>St&amp;ijlen:</translation>
     </message>
 </context>
 <context>
@@ -3370,32 +3371,32 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../preferencesdialog.cpp" line="112"/>
         <source>SMPlayer - Help</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Help</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="116"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>OK</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="117"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Annuleren</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="118"/>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>Toepassen</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="119"/>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Help</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.ui" line="13"/>
         <source>SMPlayer - Preferences</source>
-        <translation type="unfinished">SMPlayer - Voorkeuren</translation>
+        <translation>SMPlayer - Voorkeuren</translation>
     </message>
 </context>
 <context>
@@ -3443,47 +3444,47 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../main.cpp" line="172"/>
         <source>specifies the directory for the configuration file (smplayer.ini). If directory is omitted, the application directory will be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Specifieert de map voor het configuratiebestand (smplayer.ini). Als de map niet is ingevuld, dan wordt de map van het programma gebruikt.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="193"/>
         <source>will show this message and then will exit.</source>
-        <translation type="unfinished"></translation>
+        <translation>zal dit bericht tonen en daarna sluiten.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="201"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;media&apos; is elk soort bestand at SMPlayer kan openen. Het kan een lokaal bestand zijn, maar ook een dvd (bv. dvd://1), een internetstream (bv. mms://...) of een lokale playlist in het m3u formaat. Indien de -playlist optie wordt gebruikt, dan zal SMPlayer de -playlist optie doorgeven aan MPlayer, zodat MPlayer de afspeellijst kan verwerken in plaats van SMPlayer.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="190"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
-        <translation type="unfinished"></translation>
+        <translation>het hoofdvenster zal gesloten worden na afloop van het bestand of de afspeellijst.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="81"/>
         <source>This is SMPlayer v. %1 running on %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit is SMPlayer v. %1 draaiend op %2</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="167"/>
         <source>Usage: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruik: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="179"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
-        <translation type="unfinished"></translation>
+        <translation>probeert een verbinding naar een draaiende instantie van te maken en de gespecifieerde actie te sturen. Voorbeeld: -send-action pause; De rest van de opties (indien die er zijn) worden genegeerd en het programma zal stoppen. De functie geeft 0 terug bij een succesvolle actie of -1 wanneer de actie niet verstuurd kon worden.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="187"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
-        <translation type="unfinished"></translation>
+        <translation>action_list is een lijst van acties, gescheiden door spaties. De acties zullen uitgevoerd worden direct na het laden van het bestand in de volgorde waarin ze werden ingevoerd. Voor aan/uit acties kan de parameter true of false toegevoegd worden. Voorbeeld: -actions &quot;fullscreen compact true&quot;. Aanhalingstekens zijn nodig indien er meer dan één actie wordt ingevoerd.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="195"/>
         <source>media</source>
-        <translation type="unfinished"></translation>
+        <translation>media</translation>
     </message>
 </context>
 <context>
@@ -3491,12 +3492,12 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../seekwidget.ui" line="25"/>
         <source>icon</source>
-        <translation type="unfinished">icoon</translation>
+        <translation>icoon</translation>
     </message>
     <message>
         <location filename="../seekwidget.ui" line="43"/>
         <source>label</source>
-        <translation type="unfinished">label</translation>
+        <translation>label</translation>
     </message>
 </context>
 <context>
@@ -3504,27 +3505,27 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../shortcutgetter.cpp" line="257"/>
         <source>Modify shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Sneltoets aanpassen</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="280"/>
         <source>Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>Leegmaken</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="265"/>
         <source>Press the key combination you want to assign</source>
-        <translation type="unfinished"></translation>
+        <translation>Druk de toetsencombinatie in die je wil toewijzen</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="282"/>
         <source>Capture</source>
-        <translation type="unfinished"></translation>
+        <translation>Opvangen</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="283"/>
         <source>Capture keystrokes</source>
-        <translation type="unfinished"></translation>
+        <translation>Toetsencombinaties opvangen</translation>
     </message>
 </context>
 <context>

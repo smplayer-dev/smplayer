@@ -9,9 +9,6 @@
     <height>570</height>
    </rect>
   </property>
-  <property name="windowTitle" >
-   <string>Form</string>
-  </property>
   <property name="windowIcon" >
    <iconset/>
   </property>
@@ -70,7 +67,15 @@
           </widget>
          </item>
          <item>
-          <widget class="QComboBox" name="monitoraspect_combo" >
+          <widget class="MyComboBox" name="monitoraspect_combo" >
+           <property name="sizePolicy" >
+            <sizepolicy>
+             <hsizetype>5</hsizetype>
+             <vsizetype>0</vsizetype>
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
            <property name="editable" >
             <bool>true</bool>
            </property>
@@ -491,21 +496,6 @@ The drop-down lists may provide already made regular expression for several lang
          </property>
         </widget>
        </item>
-       <item row="1" column="1" >
-        <widget class="QComboBox" name="endoffile_combo" >
-         <property name="sizePolicy" >
-          <sizepolicy>
-           <hsizetype>3</hsizetype>
-           <vsizetype>0</vsizetype>
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="editable" >
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
        <item row="2" column="0" >
         <widget class="QLabel" name="textLabel3_6" >
          <property name="text" >
@@ -516,21 +506,6 @@ The drop-down lists may provide already made regular expression for several lang
          </property>
          <property name="buddy" >
           <cstring>novideo_combo</cstring>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="1" >
-        <widget class="QComboBox" name="novideo_combo" >
-         <property name="sizePolicy" >
-          <sizepolicy>
-           <hsizetype>7</hsizetype>
-           <vsizetype>0</vsizetype>
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="editable" >
-          <bool>true</bool>
          </property>
         </widget>
        </item>
@@ -550,12 +525,49 @@ The drop-down lists may provide already made regular expression for several lang
          </property>
         </spacer>
        </item>
+       <item row="1" column="1" >
+        <widget class="MyComboBox" name="endoffile_combo" >
+         <property name="sizePolicy" >
+          <sizepolicy>
+           <hsizetype>7</hsizetype>
+           <vsizetype>0</vsizetype>
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="editable" >
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1" >
+        <widget class="MyComboBox" name="novideo_combo" >
+         <property name="sizePolicy" >
+          <sizepolicy>
+           <hsizetype>7</hsizetype>
+           <vsizetype>0</vsizetype>
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="editable" >
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
       </layout>
      </widget>
     </widget>
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MyComboBox</class>
+   <extends>QComboBox</extends>
+   <header>mycombobox.h</header>
+  </customwidget>
+ </customwidgets>
  <tabstops>
   <tabstop>advanced_tab</tabstop>
   <tabstop>monitoraspect_combo</tabstop>

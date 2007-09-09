@@ -6,8 +6,8 @@ CONFIG	+= qt warn_on release
 QT += network
 #QT +=  opengl 
 
-DEFINES += QT3_SUPPORT
-DEFINES += QT3_SUPPORT_WARNINGS
+#DEFINES += QT3_SUPPORT
+#DEFINES += QT3_SUPPORT_WARNINGS
 
 RESOURCES = icons.qrc
 
@@ -39,6 +39,7 @@ HEADERS	+= config.h \
 	shortcutgetter.h \
 	actionseditor.h \
 	preferencesdialog.h \
+	mycombobox.h \
 	prefwidget.h \
 	prefgeneral.h \
 	prefdrives.h \
@@ -94,6 +95,7 @@ SOURCES	+= version.cpp \
 	shortcutgetter.cpp \
 	actionseditor.cpp \
 	preferencesdialog.cpp \
+	mycombobox.cpp \
 	prefwidget.cpp \
 	prefgeneral.cpp \
 	prefdrives.cpp \

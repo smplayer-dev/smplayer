@@ -38,14 +38,22 @@ void Recents::clear() {
 void Recents::add(QString s) {
 	qDebug("Recents::add: '%s'", s.toUtf8().data());
 
+	/*
 	QStringList::iterator it = l.find(s);
 	if (it != l.end()) l.erase(it);
 	l.prepend(s);
 
 	if (l.count() > max_items) l.erase(l.fromLast());
+	*/
 
-	//qDebug(" * current list:");
-	//list();
+	int pos = l.indexOf(s);
+	if (pos != -1) l.removeAt(pos);
+	l.prepend(s);
+
+	if (l.count() > max_items) l.removeLast();
+
+	qDebug(" * current list:");
+	list();
 }
 
 int Recents::count() {

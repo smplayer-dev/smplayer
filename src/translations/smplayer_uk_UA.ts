@@ -1007,7 +1007,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="757"/>
         <source>Flip i&amp;mage</source>
-        <translation type="unfinished"></translation>
+        <translation>Повернути з&amp;ображення</translation>
     </message>
 </context>
 <context>
@@ -1046,37 +1046,37 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1826"/>
+        <location filename="../core.cpp" line="1835"/>
         <source>Brightness: %1</source>
         <translation>Яскравість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1835"/>
+        <location filename="../core.cpp" line="1844"/>
         <source>Contrast: %1</source>
         <translation>Контрастість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1843"/>
+        <location filename="../core.cpp" line="1852"/>
         <source>Gamma: %1</source>
         <translation>Гама: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1851"/>
+        <location filename="../core.cpp" line="1860"/>
         <source>Hue: %1</source>
         <translation>Колір: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1859"/>
+        <location filename="../core.cpp" line="1868"/>
         <source>Saturation: %1</source>
         <translation>Насиченість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1973"/>
+        <location filename="../core.cpp" line="1982"/>
         <source>Volume: %1</source>
         <translation>Гучність: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2441"/>
+        <location filename="../core.cpp" line="2450"/>
         <source>Zoom: %1</source>
         <translation>Масштаб: %1</translation>
     </message>
@@ -1660,164 +1660,164 @@ Do you want to overwrite?</source>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="255"/>
+        <location filename="../playlist.cpp" line="256"/>
         <source>Name</source>
         <translation>Ім&apos;я</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="255"/>
+        <location filename="../playlist.cpp" line="256"/>
         <source>Length</source>
         <translation>Тривалість</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="260"/>
+        <location filename="../playlist.cpp" line="261"/>
         <source>&amp;Play</source>
         <translation>Від&amp;творення</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="281"/>
+        <location filename="../playlist.cpp" line="282"/>
         <source>&amp;Edit</source>
         <translation>&amp;Редагувати</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="551"/>
+        <location filename="../playlist.cpp" line="552"/>
         <source>Playlists</source>
         <translation>Список</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="536"/>
+        <location filename="../playlist.cpp" line="537"/>
         <source>Choose a file</source>
         <translation>Вибрати файл</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="549"/>
+        <location filename="../playlist.cpp" line="550"/>
         <source>Choose a filename</source>
         <translation>Виберіть ім&apos;я файлу</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="560"/>
+        <location filename="../playlist.cpp" line="561"/>
         <source>Confirm overwrite?</source>
         <translation>Перезаписати?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="562"/>
+        <location filename="../playlist.cpp" line="563"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Файл %1 існує.
 Перезаписати?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="734"/>
+        <location filename="../playlist.cpp" line="735"/>
         <source>All files</source>
         <translation>Всі файли</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="732"/>
+        <location filename="../playlist.cpp" line="733"/>
         <source>Select one or more files to open</source>
         <translation>Виберіть один чи більше файлів</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="761"/>
+        <location filename="../playlist.cpp" line="762"/>
         <source>Choose a directory</source>
         <translation>Вибрати теку</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="919"/>
+        <location filename="../playlist.cpp" line="920"/>
         <source>Edit name</source>
         <translation>Змінити ім&apos;я</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="920"/>
+        <location filename="../playlist.cpp" line="921"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Введіть ім&apos;я, котре буде відповідати у списку цьому файлу:</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="257"/>
+        <location filename="../playlist.cpp" line="258"/>
         <source>&amp;Load</source>
         <translation>&amp;Загрузити</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="258"/>
+        <location filename="../playlist.cpp" line="259"/>
         <source>&amp;Save</source>
         <translation>&amp;Зберегти</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="262"/>
+        <location filename="../playlist.cpp" line="263"/>
         <source>&amp;Next</source>
         <translation>&amp;Наступний</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="263"/>
+        <location filename="../playlist.cpp" line="264"/>
         <source>Pre&amp;vious</source>
         <translation>По&amp;передній</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="265"/>
+        <location filename="../playlist.cpp" line="266"/>
         <source>Move &amp;up</source>
         <translation>Змістити &amp;вгору</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="266"/>
+        <location filename="../playlist.cpp" line="267"/>
         <source>Move &amp;down</source>
         <translation>Змістити &amp;вниз</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="268"/>
+        <location filename="../playlist.cpp" line="269"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Повторювати</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="269"/>
+        <location filename="../playlist.cpp" line="270"/>
         <source>S&amp;huffle</source>
         <translation>П&amp;еремішати</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="272"/>
+        <location filename="../playlist.cpp" line="273"/>
         <source>Add &amp;current file</source>
         <translation>Додати &amp;поточний файл</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="273"/>
+        <location filename="../playlist.cpp" line="274"/>
         <source>Add &amp;file(s)</source>
         <translation>Додати &amp;файл(и)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="274"/>
+        <location filename="../playlist.cpp" line="275"/>
         <source>Add &amp;directory</source>
         <translation>Додати &amp;теку</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="277"/>
+        <location filename="../playlist.cpp" line="278"/>
         <source>Remove &amp;selected</source>
         <translation>Видалити &amp;вибране</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="278"/>
+        <location filename="../playlist.cpp" line="279"/>
         <source>Remove &amp;all</source>
         <translation>Видалити &amp;все</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="291"/>
+        <location filename="../playlist.cpp" line="292"/>
         <source>SMPlayer - Playlist</source>
         <translation>SMPlayer - Список</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="285"/>
+        <location filename="../playlist.cpp" line="286"/>
         <source>Add...</source>
         <translation>Додати...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="287"/>
+        <location filename="../playlist.cpp" line="288"/>
         <source>Remove...</source>
         <translation>Видалити...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="581"/>
+        <location filename="../playlist.cpp" line="582"/>
         <source>Playlist modified</source>
         <translation>Список змінено</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="582"/>
+        <location filename="../playlist.cpp" line="583"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Зміни в списку не збережено! Ви бажаєте зберегти?</translation>
     </message>
@@ -1837,25 +1837,25 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="13"/>
         <source>Form</source>
-        <translation>Форма</translation>
+        <translation type="obsolete">Форма</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="32"/>
+        <location filename="../prefadvanced.ui" line="29"/>
         <source>&amp;Advanced</source>
         <translation>&amp;Додатково</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="52"/>
+        <location filename="../prefadvanced.ui" line="49"/>
         <source>icon</source>
         <translation>піктограма</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="107"/>
+        <location filename="../prefadvanced.ui" line="112"/>
         <source>Additional Options for MPlayer</source>
         <translation>Додаткові опції для MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="119"/>
+        <location filename="../prefadvanced.ui" line="124"/>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
@@ -1864,7 +1864,7 @@ Example: -flip -nosound</source>
 Приклад: -flip -nosound</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="181"/>
+        <location filename="../prefadvanced.ui" line="186"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
@@ -1873,7 +1873,7 @@ Example: scale=512:-2,eq2=1.1</source>
 Приклад: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="243"/>
+        <location filename="../prefadvanced.ui" line="248"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
         <translation>Фільтри звуку. Використовуються аналогічно фільтрам відео.
@@ -1885,7 +1885,7 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>Не перемальовувати фон вікна відео</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="368"/>
+        <location filename="../prefadvanced.ui" line="373"/>
         <source>&amp;Logs</source>
         <translation>&amp;Звіти</translation>
     </message>
@@ -1900,17 +1900,17 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>Вихідний звіт SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="415"/>
+        <location filename="../prefadvanced.ui" line="420"/>
         <source>This option is mainly intended for debugging the application.</source>
         <translation>Ці опції, головним чином, потрібні щоб відладити програму.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="458"/>
+        <location filename="../prefadvanced.ui" line="463"/>
         <source>&amp;MPlayer language</source>
         <translation>Мова &amp;MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="470"/>
+        <location filename="../prefadvanced.ui" line="475"/>
         <source>SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br&gt;&lt;br&gt;
 The drop-down lists may provide already made regular expression for several languages.</source>
         <translation>SMPlayer повинен зчитати та розібрати вивід MPlayer, який як правило англійською мовою. Якщо у Вас MPlayer перекладений іншою мовою - Ви повинні змінити відображення тексту для SMPlayer. (Технічно Ви повинні вказати регулярний вираз)&lt;br&gt;&lt;br&gt;
@@ -1942,67 +1942,67 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Ця опція дозволяє фільтрувати повідомлення smplayer, які будуть збережені у звіті. Тут Ви можете написати будь-який регулярний вираз.&lt;br&gt;Наприклад: &lt;i&gt;^Core::.*&lt;/i&gt; відобразить лише строки, що починаються з &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="62"/>
+        <location filename="../prefadvanced.ui" line="59"/>
         <source>&amp;Monitor aspect:</source>
         <translation>&amp;Аспект монітора:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="100"/>
+        <location filename="../prefadvanced.ui" line="105"/>
         <source>&amp;Run MPlayer in its own window</source>
         <translation>&amp;Запускати MPlayer у власному вікні</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="142"/>
+        <location filename="../prefadvanced.ui" line="147"/>
         <source>&amp;Options:</source>
         <translation>&amp;Налаштування:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="204"/>
+        <location filename="../prefadvanced.ui" line="209"/>
         <source>V&amp;ideo filters:</source>
         <translation>Фільтри в&amp;ідео:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="265"/>
+        <location filename="../prefadvanced.ui" line="270"/>
         <source>Audio &amp;filters:</source>
         <translation>Фільтри &amp;звуку:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="294"/>
+        <location filename="../prefadvanced.ui" line="299"/>
         <source>&amp;Colorkey:</source>
         <translation>&amp;Код кольору:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="344"/>
+        <location filename="../prefadvanced.ui" line="349"/>
         <source>&amp;Don&apos;t repaint the background of the video window</source>
         <translation>&amp;Не перемальовувати фон вікна відео</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="380"/>
+        <location filename="../prefadvanced.ui" line="385"/>
         <source>Log &amp;MPlayer output</source>
         <translation>Відображення звіту &amp;MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="387"/>
+        <location filename="../prefadvanced.ui" line="392"/>
         <source>Log &amp;SMPlayer output</source>
         <translation>Відображення звіту &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="425"/>
+        <location filename="../prefadvanced.ui" line="430"/>
         <source>&amp;Filter for SMPlayer logs:</source>
         <translation>&amp;Фільтр для звітів SMPlayer:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="484"/>
+        <location filename="../prefadvanced.ui" line="489"/>
         <source>&amp;End of file:</source>
         <translation>&amp;Кінець файлу:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="512"/>
+        <location filename="../prefadvanced.ui" line="502"/>
         <source>&amp;No video:</source>
         <translation>&amp;Не відео:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="319"/>
+        <location filename="../prefadvanced.ui" line="324"/>
         <source>C&amp;hange...</source>
         <translation>З&amp;мінити...</translation>
     </message>
@@ -2020,7 +2020,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>На даний час SMPlayer не вміє самостійно знаходити CD чи DVD пристрої. Для програвання CD чи DVD вкажіть відповідні пристрої (може бути те ж саме).</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="149"/>
+        <location filename="../prefdrives.ui" line="157"/>
         <source>icon</source>
         <translation>піктограма</translation>
     </message>
@@ -2050,7 +2050,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Виберіть Ваш &amp;CD-пристрій:</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="167"/>
+        <location filename="../prefdrives.ui" line="175"/>
         <source>Select your &amp;DVD device:</source>
         <translation>Виберіть Ваш &amp;DVD-пристрій:</translation>
     </message>
@@ -2481,7 +2481,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>&amp;Клік лівою</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="238"/>
+        <location filename="../prefinput.ui" line="214"/>
         <source>&amp;Double click</source>
         <translation>&amp;Подвійний клік</translation>
     </message>
@@ -2639,27 +2639,27 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>&amp;Інтерфейс</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="262"/>
+        <location filename="../prefinterface.ui" line="271"/>
         <source>Seeking</source>
         <translation>Пошук</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="299"/>
+        <location filename="../prefinterface.ui" line="308"/>
         <source>Recent files</source>
         <translation>Останні файли</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="381"/>
+        <location filename="../prefinterface.ui" line="390"/>
         <source>Never</source>
         <translation>Ніколи</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="386"/>
+        <location filename="../prefinterface.ui" line="395"/>
         <source>Whenever it&apos;s needed</source>
         <translation>Коли це потрібно</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="391"/>
+        <location filename="../prefinterface.ui" line="400"/>
         <source>Only after loading a new video</source>
         <translation>Тільки після відкриття нового відео</translation>
     </message>
@@ -2724,7 +2724,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>SMPlayer буде очікувати звонішні запити для управління з цього &amp;порта:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="311"/>
+        <location filename="../prefinterface.ui" line="320"/>
         <source>Ma&amp;x. items</source>
         <translation>Мак&amp;симальний показник</translation>
     </message>
@@ -2734,27 +2734,27 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Ст&amp;иль:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="206"/>
+        <location filename="../prefinterface.ui" line="194"/>
         <source>Ico&amp;n set:</source>
         <translation>Встановити іко&amp;нки:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="193"/>
+        <location filename="../prefinterface.ui" line="181"/>
         <source>L&amp;anguage:</source>
         <translation>М&amp;ова:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="350"/>
+        <location filename="../prefinterface.ui" line="359"/>
         <source>Main window</source>
         <translation>Головне вікно</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="362"/>
+        <location filename="../prefinterface.ui" line="371"/>
         <source>Auto&amp;resize:</source>
         <translation>&amp;Розмір автоматично:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="399"/>
+        <location filename="../prefinterface.ui" line="408"/>
         <source>R&amp;emember position and size</source>
         <translation>З&amp;апам&apos;ятовувати положення та розмір</translation>
     </message>
@@ -2924,17 +2924,17 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefperformance.cpp" line="197"/>
         <source>Create index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>Створити індекс при потребі</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="202"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Відновлювати індекс файлів якщо не знайдено, дозволяючи прокрутку. Корисно при неповно/помилково завантажених чи створених з помилками файлах. Ця опція працює тільки якщо в даному медіа підтримується прокрутка (тобто не stdin, pipe та ін.). Примітка: створення індекса займає деякий час.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="380"/>
         <source>&amp;Create index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>Створити &amp;індекс при потребі</translation>
     </message>
 </context>
 <context>
@@ -2980,77 +2980,77 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Всі субтитри теки</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="160"/>
+        <location filename="../prefsubtitles.ui" line="168"/>
         <source>Position</source>
         <translation>Позиція</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="220"/>
+        <location filename="../prefsubtitles.ui" line="228"/>
         <source>0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="240"/>
+        <location filename="../prefsubtitles.ui" line="248"/>
         <source>Top</source>
         <translation>Верх</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="266"/>
+        <location filename="../prefsubtitles.ui" line="274"/>
         <source>Bottom</source>
         <translation>Низ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="312"/>
+        <location filename="../prefsubtitles.ui" line="320"/>
         <source>&amp;Font</source>
         <translation>&amp;Шрифти</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="324"/>
+        <location filename="../prefsubtitles.ui" line="332"/>
         <source>Font</source>
         <translation>Шрифт</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="387"/>
+        <location filename="../prefsubtitles.ui" line="388"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
         <translation>Виберіть шрифт для субтитрів (та OSD):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="400"/>
+        <location filename="../prefsubtitles.ui" line="416"/>
         <source>Size</source>
         <translation>Розмір</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="426"/>
+        <location filename="../prefsubtitles.ui" line="442"/>
         <source>No autoscale</source>
         <translation>Без автомасштабування</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="431"/>
+        <location filename="../prefsubtitles.ui" line="447"/>
         <source>Proportional to movie height</source>
         <translation>Пропорційно до висоти клипу</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="436"/>
+        <location filename="../prefsubtitles.ui" line="452"/>
         <source>Proportional to movie width</source>
         <translation>Пропорційно до ширини клипу</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="441"/>
+        <location filename="../prefsubtitles.ui" line="457"/>
         <source>Proportional to movie diagonal</source>
         <translation>Пропорційно до діагоналі клипу</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="505"/>
+        <location filename="../prefsubtitles.ui" line="521"/>
         <source>SSA/&amp;ASS library</source>
         <translation>Бібліотека SSA/&amp;ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="517"/>
+        <location filename="../prefsubtitles.ui" line="533"/>
         <source>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</source>
         <translation>Нова бібліотека SSA/ASS забезпечує хорошу стилізацію субтитрів для зовнішніх файлів субтитрів SSA/ASS та треків Matroska. Але це також буде використовуватись для рендерінгу файлів інших форматів, таких як SUB та SRT.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="639"/>
+        <location filename="../prefsubtitles.ui" line="655"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
         <translation>Тут Вы можете вказати стилі для субтитрів SSA/ASS. Також може використовуватися для точного налаштування відображення субтитрів SRT і SUB библиотекою SSA/ASS. Приклад: &lt;b&gt; Bold=1, Outline=2, Shadow=4 &lt;/b&gt;</translation>
     </message>
@@ -3085,62 +3085,62 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>&amp;Кодування субтитрів за умовчанням:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="172"/>
+        <location filename="../prefsubtitles.ui" line="180"/>
         <source>Default &amp;position of the subtitles on screen</source>
         <translation>Позиція субтитрів на &amp;екрані за умовчанням</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="281"/>
+        <location filename="../prefsubtitles.ui" line="289"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>&amp;Включати субтитри до знімків екрану</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="288"/>
+        <location filename="../prefsubtitles.ui" line="296"/>
         <source>&amp;Use -subfont option (required by recent MPlayer releases)</source>
         <translation>Використовувати &amp;опцію -subfont (потрібна для останніх версій MPlayer)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="336"/>
+        <location filename="../prefsubtitles.ui" line="344"/>
         <source>&amp;TTF font:</source>
         <translation>Шрифт &amp;TTF:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="353"/>
+        <location filename="../prefsubtitles.ui" line="361"/>
         <source>Sea&amp;rch...</source>
         <translation>По&amp;шук...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="380"/>
+        <location filename="../prefsubtitles.ui" line="381"/>
         <source>S&amp;ystem font:</source>
         <translation>С&amp;истемний шрифт:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="412"/>
+        <location filename="../prefsubtitles.ui" line="428"/>
         <source>A&amp;utoscale:</source>
         <translation>Авто&amp;масштабування:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="465"/>
+        <location filename="../prefsubtitles.ui" line="481"/>
         <source>S&amp;cale:</source>
         <translation>М&amp;асштаб:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="530"/>
+        <location filename="../prefsubtitles.ui" line="546"/>
         <source>&amp;Use SSA/ASS library for subtitle rendering</source>
         <translation>Використовувати бібліотеку SSA/ASS для &amp;рендерингу субтитрів</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="548"/>
+        <location filename="../prefsubtitles.ui" line="564"/>
         <source>&amp;Text color:</source>
         <translation>Колір &amp;тексту:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="590"/>
+        <location filename="../prefsubtitles.ui" line="606"/>
         <source>&amp;Border color:</source>
         <translation>Колір &amp;краю:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="663"/>
+        <location filename="../prefsubtitles.ui" line="679"/>
         <source>St&amp;yles:</source>
         <translation>Сти&amp;лі:</translation>
     </message>

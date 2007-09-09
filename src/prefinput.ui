@@ -176,30 +176,6 @@
              </property>
             </widget>
            </item>
-           <item row="0" column="1" colspan="3" >
-            <widget class="QComboBox" name="left_click_combo" >
-             <property name="sizePolicy" >
-              <sizepolicy>
-               <hsizetype>7</hsizetype>
-               <vsizetype>0</vsizetype>
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
-            </widget>
-           </item>
-           <item row="1" column="2" >
-            <widget class="QComboBox" name="double_click_combo" >
-             <property name="sizePolicy" >
-              <sizepolicy>
-               <hsizetype>7</hsizetype>
-               <vsizetype>0</vsizetype>
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
-            </widget>
-           </item>
            <item row="0" column="4" >
             <spacer>
              <property name="orientation" >
@@ -242,6 +218,30 @@
              </property>
              <property name="buddy" >
               <cstring>double_click_combo</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2" >
+            <widget class="MyComboBox" name="double_click_combo" >
+             <property name="sizePolicy" >
+              <sizepolicy>
+               <hsizetype>7</hsizetype>
+               <vsizetype>0</vsizetype>
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1" colspan="3" >
+            <widget class="MyComboBox" name="left_click_combo" >
+             <property name="sizePolicy" >
+              <sizepolicy>
+               <hsizetype>7</hsizetype>
+               <vsizetype>0</vsizetype>
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
              </property>
             </widget>
            </item>
@@ -363,6 +363,11 @@
    <class>ActionsEditor</class>
    <extends>QWidget</extends>
    <header>actionseditor.h</header>
+  </customwidget>
+  <customwidget>
+   <class>MyComboBox</class>
+   <extends>QComboBox</extends>
+   <header>mycombobox.h</header>
   </customwidget>
  </customwidgets>
  <resources/>

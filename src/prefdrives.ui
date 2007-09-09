@@ -88,7 +88,15 @@
             </widget>
            </item>
            <item>
-            <widget class="QComboBox" name="cdrom_device_combo" >
+            <widget class="MyComboBox" name="cdrom_device_combo" >
+             <property name="sizePolicy" >
+              <sizepolicy>
+               <hsizetype>5</hsizetype>
+               <vsizetype>0</vsizetype>
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
              <property name="editable" >
               <bool>true</bool>
              </property>
@@ -175,7 +183,15 @@
             </widget>
            </item>
            <item>
-            <widget class="QComboBox" name="dvd_device_combo" >
+            <widget class="MyComboBox" name="dvd_device_combo" >
+             <property name="sizePolicy" >
+              <sizepolicy>
+               <hsizetype>5</hsizetype>
+               <vsizetype>0</vsizetype>
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
              <property name="editable" >
               <bool>true</bool>
              </property>
@@ -224,6 +240,13 @@
   </layout>
  </widget>
  <layoutdefault spacing="6" margin="9" />
+ <customwidgets>
+  <customwidget>
+   <class>MyComboBox</class>
+   <extends>QComboBox</extends>
+   <header>mycombobox.h</header>
+  </customwidget>
+ </customwidgets>
  <tabstops>
   <tabstop>tabWidget</tabstop>
   <tabstop>cdrom_device_combo</tabstop>

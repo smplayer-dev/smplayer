@@ -175,18 +175,6 @@
            </property>
           </spacer>
          </item>
-         <item row="0" column="1" >
-          <widget class="QComboBox" name="language_combo" >
-           <property name="sizePolicy" >
-            <sizepolicy>
-             <hsizetype>5</hsizetype>
-             <vsizetype>0</vsizetype>
-             <horstretch>0</horstretch>
-             <verstretch>0</verstretch>
-            </sizepolicy>
-           </property>
-          </widget>
-         </item>
          <item row="0" column="0" >
           <widget class="QLabel" name="textLabel1_18" >
            <property name="text" >
@@ -213,21 +201,6 @@
            </property>
           </widget>
          </item>
-         <item row="1" column="1" >
-          <widget class="QComboBox" name="iconset_combo" >
-           <property name="sizePolicy" >
-            <sizepolicy>
-             <hsizetype>5</hsizetype>
-             <vsizetype>0</vsizetype>
-             <horstretch>0</horstretch>
-             <verstretch>0</verstretch>
-            </sizepolicy>
-           </property>
-          </widget>
-         </item>
-         <item row="2" column="1" >
-          <widget class="QComboBox" name="style_combo" />
-         </item>
          <item row="0" column="2" >
           <spacer>
            <property name="orientation" >
@@ -240,6 +213,42 @@
             </size>
            </property>
           </spacer>
+         </item>
+         <item row="0" column="1" >
+          <widget class="MyComboBox" name="language_combo" >
+           <property name="sizePolicy" >
+            <sizepolicy>
+             <hsizetype>5</hsizetype>
+             <vsizetype>0</vsizetype>
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1" >
+          <widget class="MyComboBox" name="iconset_combo" >
+           <property name="sizePolicy" >
+            <sizepolicy>
+             <hsizetype>5</hsizetype>
+             <vsizetype>0</vsizetype>
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1" >
+          <widget class="MyComboBox" name="style_combo" >
+           <property name="sizePolicy" >
+            <sizepolicy>
+             <hsizetype>5</hsizetype>
+             <vsizetype>0</vsizetype>
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
@@ -414,6 +423,11 @@
    <class>SeekWidget</class>
    <extends>QWidget</extends>
    <header>seekwidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>MyComboBox</class>
+   <extends>QComboBox</extends>
+   <header>mycombobox.h</header>
   </customwidget>
  </customwidgets>
  <resources/>
