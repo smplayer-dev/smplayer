@@ -138,7 +138,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QComboBox" name="vo_combo" >
+           <widget class="MyComboBox" name="vo_combo" >
             <property name="sizePolicy" >
              <sizepolicy>
               <hsizetype>7</hsizetype>
@@ -182,7 +182,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QComboBox" name="ao_combo" >
+           <widget class="MyComboBox" name="ao_combo" >
             <property name="sizePolicy" >
              <sizepolicy>
               <hsizetype>7</hsizetype>
@@ -642,6 +642,13 @@
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MyComboBox</class>
+   <extends>QComboBox</extends>
+   <header>mycombobox.h</header>
+  </customwidget>
+ </customwidgets>
  <tabstops>
   <tabstop>general_tab</tabstop>
   <tabstop>mplayerbin_edit</tabstop>

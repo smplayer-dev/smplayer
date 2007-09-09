@@ -1,3 +1,15 @@
+[b]Version 0.5.55[/b]
+ * Updated the Japanese, Polish, Ukrainian, German, Romanian and Dutch 
+   translations.
+ * The trailing "/" in dvd device paths will be removed again, but not
+   if used with drive letters (E:/ for instance). It seems that sometimes
+   it's necessary to enter the drive that way in order to play a DVD.
+ * Fixed all deprecated warnings. Now smplayer can be compiled without
+   QT3_SUPPORT defined. Still using deprecated signals (for instance
+   for QActions) but I've got no warnings about them so it'll be
+   difficult to fix unless I compile Qt with no Qt3 support at all 
+   (I guess).
+
 [b]Version 0.5.54[/b]
  * Updated the German, Ukrainian and Romanian translations.
  * Disabled again the playlist in main window as it has serious problems with

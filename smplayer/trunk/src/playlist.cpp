@@ -37,6 +37,7 @@
 #include <QDragEnterEvent>
 #include <QDropEvent>
 #include <QHeaderView>
+#include <QTextCodec>
 
 #include "mytablewidget.h"
 #include "myaction.h"

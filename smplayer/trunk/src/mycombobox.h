@@ -16,16 +16,33 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#include "version.h"
+#ifndef _MYCOMBOBOX_H_
+#define _MYCOMBOBOX_H_
 
-#define USE_SVN_VERSIONS 0
+#include <QComboBox>
+#include <QFontComboBox>
 
-#if !USE_SVN_VERSIONS
-#define VERSION "0.5.55"
-#else
-#define VERSION "0.5.51 + SVN revision xxxx"
+//! This class adds some Qt 3 compatibility functions which don't have a
+//! direct equivalent in Qt 4.
+
+class MyComboBox : public QComboBox
+{
+public:
+	MyComboBox( QWidget * parent = 0 );
+	~MyComboBox();
+
+	void setCurrentText ( const QString & text );
+	void insertStringList ( const QStringList & list, int index = -1 );
+};
+
+
+class MyFontComboBox : public QFontComboBox
+{
+public:
+	MyFontComboBox( QWidget * parent = 0 );
+	~MyFontComboBox();
+
+	void setCurrentText ( const QString & text );
+};
+
 #endif
-
-const char * smplayerVersion() {
-	return VERSION;
-}

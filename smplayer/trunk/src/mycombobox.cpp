@@ -16,16 +16,46 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#include "version.h"
+#include "mycombobox.h"
 
-#define USE_SVN_VERSIONS 0
+MyComboBox::MyComboBox( QWidget * parent ) : QComboBox(parent)
+{
+}
 
-#if !USE_SVN_VERSIONS
-#define VERSION "0.5.55"
-#else
-#define VERSION "0.5.51 + SVN revision xxxx"
-#endif
+MyComboBox::~MyComboBox() 
+{
+}
 
-const char * smplayerVersion() {
-	return VERSION;
+void MyComboBox::setCurrentText( const QString & text ) {
+	int i = findText(text);
+	if (i != -1)
+		setCurrentIndex(i);
+	else if (isEditable())
+		setEditText(text);
+	else
+		setItemText(currentIndex(), text);
+}
+
+void MyComboBox::insertStringList( const QStringList & list, int index ) {
+	insertItems((index < 0 ? count() : index), list);
+}
+
+
+
+MyFontComboBox::MyFontComboBox( QWidget * parent ) : QFontComboBox(parent)
+{
+}
+
+MyFontComboBox::~MyFontComboBox() 
+{
+}
+
+void MyFontComboBox::setCurrentText( const QString & text ) {
+	int i = findText(text);
+	if (i != -1)
+		setCurrentIndex(i);
+	else if (isEditable())
+		setEditText(text);
+	else
+		setItemText(currentIndex(), text);
 }

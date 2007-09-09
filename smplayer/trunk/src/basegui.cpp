@@ -288,7 +288,7 @@ void BaseGui::createActions() {
 	connect( rewind2Act, SIGNAL(activated()),
              core, SLOT(rewind()) );
 
-	rewind3Act = new MyAction( Qt::Key_Next, this, "rewind3" );
+	rewind3Act = new MyAction( Qt::Key_PageDown, this, "rewind3" );
 	connect( rewind3Act, SIGNAL(activated()),
              core, SLOT(fastrewind()) );
 
@@ -300,7 +300,7 @@ void BaseGui::createActions() {
 	connect( forward2Act, SIGNAL(activated()),
              core, SLOT(forward()) );
 
-	forward3Act = new MyAction( Qt::Key_Prior, this, "forward3" );
+	forward3Act = new MyAction( Qt::Key_PageUp, this, "forward3" );
 	connect( forward3Act, SIGNAL(activated()),
              core, SLOT(fastforward()) );
 
@@ -2736,18 +2736,10 @@ void BaseGui::toggleStayOnTop(bool b) {
 	QPoint old_pos = pos();
 
 	if (b) {
-		#if QT_VERSION >= 0x040000
-		setWindowFlags(Qt::WStyle_StaysOnTop);
-		#else
-		reparent(0, Qt::WStyle_StaysOnTop, pos() );
-		#endif
+		setWindowFlags(Qt::WindowStaysOnTopHint);
 	}
 	else {
-		#if QT_VERSION >= 0x040000
 		setWindowFlags(0);
-		#else
-		reparent(0, 0, pos() );
-		#endif
 	}
 
 	move(old_pos);

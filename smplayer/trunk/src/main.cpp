@@ -77,7 +77,7 @@ void myMessageOutput( QtMsgType type, const char *msg ) {
 }
 
 void showInfo() {
-	printf( "%s\n", QObject::tr("This is SMPlayer v. %1 running on %2")
+	QString s = QObject::tr("This is SMPlayer v. %1 running on %2")
             .arg(smplayerVersion())
 #ifdef Q_OS_LINUX
            .arg("Linux")
@@ -88,8 +88,10 @@ void showInfo() {
 		   .arg("Other OS")
 #endif
 #endif
-           .toLocal8Bit().data() );
+           ;
 
+	printf("%s\n", s.toLocal8Bit().data() );
+	qDebug("%s", s.toUtf8().data() );
 	qDebug("Qt v. " QT_VERSION_STR);
 
 	qDebug(" * application path: '%s'", Helper::appPath().toUtf8().data());
