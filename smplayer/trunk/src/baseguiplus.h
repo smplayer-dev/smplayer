@@ -94,6 +94,7 @@ protected:
 	bool fullscreen_playlist_was_visible;
 	bool fullscreen_playlist_was_floating;
 	bool compact_playlist_was_visible;
+	bool ignore_playlist_events;
 #endif
 
 };

@@ -44,7 +44,7 @@
 // if 1, the playlist will be docked in the main window, instead
 // of being a top level window
 
-#define DOCK_PLAYLIST 0
+#define DOCK_PLAYLIST 1
 
 
 // STYLE_SWITCHING
@@ -52,6 +52,11 @@
 // the Qt style
 
 #define STYLE_SWITCHING 1
+
+
+// New code to resize the main window
+
+#define NEW_RESIZE_CODE 1
 
 
 // EXTERNAL_SLEEP
