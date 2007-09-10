@@ -978,7 +978,7 @@ void Core::startMplayer( QString file, double seek )
 		// Remove trailing "/"
 		if (dvd_folder.endsWith("/")) {
 #ifdef Q_OS_WIN
-			QRegExp r("[A-Z]:/");
+			QRegExp r("^[A-Z]:/$");
 			int pos = r.indexIn(dvd_folder);
 			qDebug("Core::startMplayer: drive check: '%s': regexp: %d", dvd_folder.toUtf8().data(), pos);
 			if (pos == -1)
