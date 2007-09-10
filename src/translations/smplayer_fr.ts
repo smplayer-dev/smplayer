@@ -1062,7 +1062,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="757"/>
         <source>Flip i&amp;mage</source>
-        <translation type="unfinished"></translation>
+        <translation>Inverser l&apos;i&amp;mage</translation>
     </message>
 </context>
 <context>
@@ -1656,7 +1656,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../inputurl.cpp" line="31"/>
         <source>If this option is checked, the URL will be treated as a playlist: it will be opened as text and will play the URLs in it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si cette option est cochée, l&apos;URL sera traitée comme une liste de lecture : celà l&apos;ouvrira en tant que texte et jouera les URLs dedans.</translation>
     </message>
 </context>
 <context>
@@ -2575,7 +2575,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefgeneral.cpp" line="396"/>
         <source>Close when finished</source>
-        <translation>Fermer lorsque c&apos;est fini</translation>
+        <translation>Fermer l&apos;application lorsque le media est fini</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="398"/>
@@ -2585,7 +2585,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefgeneral.ui" line="324"/>
         <source>&amp;Close when finished</source>
-        <translation>&amp;Fermer lorsque c&apos;est fini</translation>
+        <translation>&amp;Fermer l&apos;application lorsque le media est fini</translation>
     </message>
 </context>
 <context>
@@ -3139,17 +3139,17 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefperformance.cpp" line="197"/>
         <source>Create index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>Créer un index si nécessaire</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="202"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Reconstruit l&apos;index des fichiers si aucun index a été trouvé, permettant la recherche. Très utile pour les fichiers cassés ou incomplets ou mal créés. Cette option ne marche que si le media supporte la recherche (par exemple sans stdin, pipe, etc). &lt;br&gt;Note : la création d&apos;index peut prendre un certain temps.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="380"/>
         <source>&amp;Create index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Créer un index si nécessaire</translation>
     </message>
 </context>
 <context>

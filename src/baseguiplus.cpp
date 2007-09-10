@@ -93,6 +93,8 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags )
 	connect( playlistdock, SIGNAL(closed()), this, SLOT(playlistClosed()) );
 	connect( playlistdock, SIGNAL(docked()), this, SLOT(stretchWindow()) );
 	connect( playlistdock, SIGNAL(undocked()), this, SLOT(shrinkWindow()) );
+
+	ignore_playlist_events = false;
 #endif
 
 	retranslateStrings();
@@ -175,9 +177,11 @@ void BaseGuiPlus::saveConfig() {
 	set->setValue( "show_tray_icon", showTrayAct->isChecked() );
 	set->setValue( "mainwindow_visible", isVisible() );
 
+/*
 #if DOCK_PLAYLIST
 	set->setValue( "playlist_and_toolbars_state", saveState() );
 #endif
+*/
 
 	set->endGroup();
 }
@@ -195,9 +199,11 @@ void BaseGuiPlus::loadConfig() {
 
 	mainwindow_visible = set->value("mainwindow_visible", true).toBool();
 
+/*
 #if DOCK_PLAYLIST
 	restoreState( set->value( "playlist_and_toolbars_state" ).toByteArray() );
 #endif
+*/
 
 	set->endGroup();
 
@@ -307,8 +313,12 @@ void BaseGuiPlus::aboutToEnterFullscreen() {
 #if DOCK_PLAYLIST
 	fullscreen_playlist_was_visible = playlistdock->isVisible();
 	//fullscreen_playlist_was_floating = playlistdock->isFloating();
-	playlistdock->setFloating(true);
+	//playlistdock->setFloating(true);
+	showPlaylistAct->setEnabled(false);
+	ignore_playlist_events = true;
 	playlistdock->hide();
+	//showPlaylistAct->setChecked(false);
+	//playlist_state = saveState();
 #endif
 }
 
@@ -322,6 +332,9 @@ void BaseGuiPlus::aboutToExitFullscreen() {
 		playlistdock->show();
 	}
 	//playlistdock->setFloating( fullscreen_playlist_was_floating );
+	//restoreState( playlist_state );
+	ignore_playlist_events = false;
+	showPlaylistAct->setEnabled(true);
 #endif
 }
 
@@ -362,6 +375,7 @@ void BaseGuiPlus::playlistClosed() {
 
 void BaseGuiPlus::stretchWindow() {
 	qDebug("BaseGuiPlus::stretchWindow");
+	if (ignore_playlist_events) return;
 
 	int new_height = height() + playlistdock->height();
 
@@ -376,6 +390,7 @@ void BaseGuiPlus::stretchWindow() {
 
 void BaseGuiPlus::shrinkWindow() {
 	qDebug("BaseGuiPlus::shrinkWindow");
+	if (ignore_playlist_events) return;
 
 	int new_height = height() - playlistdock->height();
 	qDebug("DefaultGui::shrinkWindow: shrinking: new height: %d", new_height);

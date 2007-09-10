@@ -1931,6 +1931,10 @@ void BaseGui::updateWidgets() {
 	//showPlaylistAct->setChecked( playlist->isVisible() );
 #endif
 
+#if DOCK_PLAYLIST
+	showPlaylistAct->setChecked( playlist->isVisible() );
+#endif
+
 	// Frame counter
 	frameCounterAct->setChecked( pref->show_frame_counter );
 
@@ -2335,8 +2339,9 @@ void BaseGui::toggleFullscreen(bool b) {
 		hide();
 		#endif
 
-		aboutToExitFullscreen();
 		showNormal();
+
+		aboutToExitFullscreen();
 
 		if (pref->restore_pos_after_fullscreen) {
 			move( win_pos );
@@ -2616,6 +2621,63 @@ void BaseGui::gotCurrentTime(double sec) {
 }
 
 
+#if NEW_RESIZE_CODE
+
+void BaseGui::resizeWindow(int w, int h) {
+	qDebug("BaseGui::resizeWindow: %d, %d", w, h);
+
+	static int cached_diff_width = 0;
+	static int cached_diff_height = 0;
+
+	// If fullscreen, don't resize!
+	if (pref->fullscreen) return;
+
+	if ( (pref->resize_method==Preferences::Never) && (panel->isVisible()) ) {
+		return;
+	}
+
+	if (!panel->isVisible()) panel->show();
+
+	if (pref->size_factor != 100) {
+		w = w * pref->size_factor / 100;
+		h = h * pref->size_factor / 100;
+	}
+
+	qDebug("Size to scale: %d, %d", w, h);
+
+	QSize video_size(w,h);
+
+	//panel->resize(w, h);
+	resize(w + cached_diff_width, h + cached_diff_height);
+
+	if ( panel->size() != video_size ) {
+		adjustSize();
+
+		qDebug(" temp window size: %d, %d", this->width(), this->height());
+		qDebug(" temp panel->size: %d, %d", 
+        	   panel->size().width(),  
+	           panel->size().height() );
+
+		int diff_width = this->width() - panel->width();
+		int diff_height = this->height() - panel->height();
+
+		resize(w + diff_width, h + diff_height);
+
+		cached_diff_width = diff_width;
+		cached_diff_height = diff_height;
+	}
+
+	qDebug("window size: %d, %d", this->width(), this->height());
+	qDebug("panel->size: %d, %d", 
+           panel->size().width(),  
+           panel->size().height() );
+	qDebug("mplayerwindow->size: %d, %d", 
+           mplayerwindow->size().width(),  
+           mplayerwindow->size().height() );
+}
+
+#else
+
 void BaseGui::resizeWindow(int w, int h) {
 	qDebug("BaseGui::resizeWindow: %d, %d", w, h);
 
@@ -2669,6 +2731,7 @@ void BaseGui::resizeWindow(int w, int h) {
 
 	mplayerwindow->setFocus(); // Needed?
 }
+#endif
 
 void BaseGui::hidePanel() {
 	qDebug("BaseGui::hidePanel");
