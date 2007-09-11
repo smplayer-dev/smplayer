@@ -130,6 +130,12 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
             showPlaylistAct, SLOT(setChecked(bool)) );
 #endif
 
+#if NEW_RESIZE_CODE
+	diff_size = QSize(0,0);
+	connect(core, SIGNAL(aboutToStartPlaying()),
+            this, SLOT(calculateDiff()));
+#endif
+
 	retranslateStrings();
 
 	setAcceptDrops(true);
@@ -845,7 +851,7 @@ void BaseGui::retranslateStrings() {
 	nextSubtitleAct->change( tr("Next subtitle") );
 	nextChapterAct->change( tr("Next chapter") );
 	prevChapterAct->change( tr("Previous chapter") );
-	doubleSizeAct->change( tr("Toggle double size") );
+	doubleSizeAct->change( tr("&Toggle double size") );
 
 	// Action groups
 	osdNoneAct->change( tr("&Disabled") );
@@ -1198,6 +1204,8 @@ void BaseGui::createMenus() {
 	// Size submenu
 	videosize_menu = new QMenu(this);
 	videosize_menu->addActions( sizeGroup->actions() );
+	videosize_menu->addSeparator();
+	videosize_menu->addAction(doubleSizeAct);
 	videoMenu->addMenu(videosize_menu);
 
 	// Panscan submenu
@@ -2626,9 +2634,6 @@ void BaseGui::gotCurrentTime(double sec) {
 void BaseGui::resizeWindow(int w, int h) {
 	qDebug("BaseGui::resizeWindow: %d, %d", w, h);
 
-	static int cached_diff_width = 0;
-	static int cached_diff_height = 0;
-
 	// If fullscreen, don't resize!
 	if (pref->fullscreen) return;
 
@@ -2643,37 +2648,58 @@ void BaseGui::resizeWindow(int w, int h) {
 		h = h * pref->size_factor / 100;
 	}
 
-	qDebug("Size to scale: %d, %d", w, h);
+	qDebug("BaseGui::resizeWindow: size to scale: %d, %d", w, h);
 
 	QSize video_size(w,h);
 
 	//panel->resize(w, h);
-	resize(w + cached_diff_width, h + cached_diff_height);
+	resize(w + diff_size.width(), h + diff_size.height());
 
 	if ( panel->size() != video_size ) {
 		adjustSize();
 
-		qDebug(" temp window size: %d, %d", this->width(), this->height());
-		qDebug(" temp panel->size: %d, %d", 
+		qDebug("BaseGui::resizeWindow: temp window size: %d, %d", this->width(), this->height());
+		qDebug("BaseGui::resizeWindow: temp panel->size: %d, %d", 
         	   panel->size().width(),  
 	           panel->size().height() );
 
 		int diff_width = this->width() - panel->width();
 		int diff_height = this->height() - panel->height();
 
-		resize(w + diff_width, h + diff_height);
+		if ((diff_width < 0) || (diff_height < 0)) {
+			qWarning("BaseGui::resizeWindow: invalid diff: %d, %d", diff_width, diff_height);
+			qWarning("BaseGui::resizeWindow: invalid diff: not resizing");
+		} else {
+			qDebug("BaseGui::resizeWindow: diff: %d, %d", diff_width, diff_height);
+			resize(w + diff_width, h + diff_height);
 
-		cached_diff_width = diff_width;
-		cached_diff_height = diff_height;
+			diff_size = QSize(diff_width, diff_height );
+		}
 	}
 
-	qDebug("window size: %d, %d", this->width(), this->height());
-	qDebug("panel->size: %d, %d", 
+	qDebug("BaseGui::resizeWindow: done: window size: %d, %d", this->width(), this->height());
+	qDebug("BaseGui::resizeWindow: done: panel->size: %d, %d", 
            panel->size().width(),  
            panel->size().height() );
-	qDebug("mplayerwindow->size: %d, %d", 
+	qDebug("BaseGui::resizeWindow: done: mplayerwindow->size: %d, %d", 
            mplayerwindow->size().width(),  
            mplayerwindow->size().height() );
+}
+
+void BaseGui::calculateDiff() {
+	qDebug("BaseGui::calculateDiff: diff_size: %d, %d", diff_size.width(), diff_size.height());
+
+//	if (diff_size == QSize(0,0)) {
+		int diff_width = width() - panel->width();
+		int diff_height = height() - panel->height();
+
+		if ((diff_width < 0) || (diff_height < 0)) {
+			qWarning("BaseGui::calculateDiff: invalid diff: %d, %d", diff_width, diff_height);
+		} else {
+			diff_size = QSize(diff_width, diff_height);
+			qDebug("BaseGui::calculateDiff: diff_size set to: %d, %d", diff_size.width(), diff_size.height());
+		}
+//	}
 }
 
 #else

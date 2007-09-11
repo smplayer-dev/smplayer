@@ -21,7 +21,7 @@
 #define USE_SVN_VERSIONS 0
 
 #if !USE_SVN_VERSIONS
-#define VERSION "0.5.56"
+#define VERSION "0.5.57"
 #else
 #define VERSION "0.5.51 + SVN revision xxxx"
 #endif
