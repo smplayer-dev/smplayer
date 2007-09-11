@@ -173,6 +173,10 @@ protected slots:
 	virtual void loadQss(QString filename);
 	virtual void changeStyleSheet(QString style);
 
+#if NEW_RESIZE_CODE
+	void calculateDiff(); //!< Updates diff_size
+#endif
+
 signals:
 	void frameChanged(int);
 	void timeChanged(double, int, QString);
@@ -458,6 +462,10 @@ private:
 	// when exiting from fullscreen mode.
 	QPoint win_pos;
 	QSize win_size;
+
+#if NEW_RESIZE_CODE
+	QSize diff_size;	//!< Main window size - panel size
+#endif
 };
     
 #endif

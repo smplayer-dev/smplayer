@@ -52,8 +52,8 @@ void Recents::add(QString s) {
 
 	if (l.count() > max_items) l.removeLast();
 
-	qDebug(" * current list:");
-	list();
+	//qDebug(" * current list:");
+	//list();
 }
 
 int Recents::count() {

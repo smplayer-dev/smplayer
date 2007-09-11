@@ -1,3 +1,14 @@
+[b]Version 0.5.57[/b]
+ * Fixes in the window resize code. Now resizes should be much smoother.
+   Only if you do something that alter the size of the window, like moving
+   a toolbar or docking the playlist, could produce some flickering if
+   you later change the video size using any of the options in the menu 
+   Video->Size. It also has to fix the problem that the window gets a very 
+   small that happens in Windows (although I couldn't test it).
+   Of course this is in linux using Qt 4.2.3. Will it work on Windows with
+   Qt 4.3.1?
+ * Added the action "Toggle double size" in Video->Size.
+
 [b]Version 0.5.56[/b]
  * Updated the French translation.
  * Fixed regular expression in core.cpp to identify the DVD drive letter.
