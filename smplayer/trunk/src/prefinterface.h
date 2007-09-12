@@ -87,6 +87,12 @@ protected:
 	void setSeeking4(int n);
 	int seeking4();
 
+	void setDefaultFont(QString font_desc);
+	QString defaultFont();
+
+protected slots:
+	void on_changeFontButton_clicked();
+
 protected:
 	virtual void retranslateStrings();
 

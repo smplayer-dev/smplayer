@@ -89,10 +89,8 @@ Playlist::Playlist( Core *c, QWidget * parent, Qt::WindowFlags f)
 	setSizePolicy( QSizePolicy::Minimum, QSizePolicy::Expanding );
 	adjustSize();
 #else
-	/*
-	//setSizePolicy( QSizePolicy::Maximum, QSizePolicy::Maximum );
-	setSizePolicy( QSizePolicy::Expanding, QSizePolicy::Preferred );
-	*/
+	//setSizePolicy( QSizePolicy::Maximum, QSizePolicy::Expanding );
+	//setSizePolicy( QSizePolicy::Expanding, QSizePolicy::Preferred );
 	setSizePolicy( QSizePolicy::Preferred, QSizePolicy::Preferred );
 #endif
 
@@ -1008,10 +1006,10 @@ void Playlist::saveSettings() {
 
 	set->setValue( "repeat", repeatAct->isChecked() );
 	set->setValue( "shuffle", shuffleAct->isChecked() );
-#if !DOCK_PLAYLIST
+//#if !DOCK_PLAYLIST
 	set->setValue( "window_width", size().width() );
 	set->setValue( "window_height", size().height() );
-#endif
+//#endif
 	set->setValue( "latest_dir", latest_dir );
 
 	set->endGroup();
@@ -1041,12 +1039,12 @@ void Playlist::loadSettings() {
 	repeatAct->setChecked( set->value( "repeat", repeatAct->isChecked() ).toBool() );
 	shuffleAct->setChecked( set->value( "shuffle", shuffleAct->isChecked() ).toBool() );
 
-#if !DOCK_PLAYLIST
+//#if !DOCK_PLAYLIST
 	QSize s;
 	s.setWidth( set->value( "window_width", size().width() ).toInt() );
 	s.setHeight( set->value( "window_height", size().height() ).toInt() );
 	resize( s );
-#endif
+//#endif
 
 	latest_dir = set->value( "latest_dir", latest_dir ).toString();
 

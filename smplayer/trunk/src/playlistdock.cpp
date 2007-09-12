@@ -21,6 +21,7 @@
 PlaylistDock::PlaylistDock(QWidget * parent, Qt::WindowFlags flags)
 	: QDockWidget(parent, flags)
 {
+	//setSizePolicy( QSizePolicy::Maximum, QSizePolicy::Expanding );
 }
 
 PlaylistDock::~PlaylistDock() {
