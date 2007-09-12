@@ -1462,6 +1462,12 @@ void BaseGui::applyNewPreferences() {
 
 	pref_dialog->getData(pref);
 
+	if (!pref->default_font.isEmpty()) {
+		QFont f;
+		f.fromString( pref->default_font );
+		qApp->setFont(f);
+	}
+
 	PrefInterface *interface = pref_dialog->mod_interface();
 	if (interface->recentsChanged()) {
 		recents->setMaxItems(pref->recents_max_items);
@@ -2115,7 +2121,8 @@ void BaseGui::openFile() {
     QString s = MyFileDialog::getOpenFileName(
                        this, tr("Choose a file"), pref->latest_dir, 
                        tr("Video") +" (*.avi *.mpg *.mpeg *.mkv *.wmv "
-                       "*.ogm *.vob *.flv *.mov *.ts *.rmvb *.mp4 *.iso);;" +
+                       "*.ogm *.vob *.flv *.mov *.ts *.rmvb *.mp4 "
+                       "*.iso *.dvr-ms);;" +
                        tr("Audio") +" (*.mp3 *.ogg *.wav *.wma *.ac3);;" +
                        tr("Playlists") +" (*.m3u *.m3u8);;" +
                        tr("All files") +" (*.*)" );
@@ -2656,7 +2663,7 @@ void BaseGui::resizeWindow(int w, int h) {
 	resize(w + diff_size.width(), h + diff_size.height());
 
 	if ( panel->size() != video_size ) {
-		adjustSize();
+		//adjustSize();
 
 		qDebug("BaseGui::resizeWindow: temp window size: %d, %d", this->width(), this->height());
 		qDebug("BaseGui::resizeWindow: temp panel->size: %d, %d", 
@@ -2666,12 +2673,14 @@ void BaseGui::resizeWindow(int w, int h) {
 		int diff_width = this->width() - panel->width();
 		int diff_height = this->height() - panel->height();
 
-		if ((diff_width < 0) || (diff_height < 0)) {
-			qWarning("BaseGui::resizeWindow: invalid diff: %d, %d", diff_width, diff_height);
-			qWarning("BaseGui::resizeWindow: invalid diff: not resizing");
+		int new_width = w + diff_width;
+		int new_height = h + diff_height;
+
+		if ((new_width < w) || (new_height < h)) {
+			qWarning("BaseGui::resizeWindow: invalid new size: %d, %d. Not resizing", new_width, new_height);
 		} else {
 			qDebug("BaseGui::resizeWindow: diff: %d, %d", diff_width, diff_height);
-			resize(w + diff_width, h + diff_height);
+			resize(new_width, new_height);
 
 			diff_size = QSize(diff_width, diff_height );
 		}

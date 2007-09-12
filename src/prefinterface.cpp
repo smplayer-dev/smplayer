@@ -25,6 +25,7 @@
 
 #include <QDir>
 #include <QStyleFactory>
+#include <QFontDialog>
 
 PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 	: PrefWidget(parent, f )
@@ -175,6 +176,8 @@ void PrefInterface::setData(Preferences * pref) {
 	setSeeking3(pref->seeking3);
 	setSeeking4(pref->seeking4);
 
+	setDefaultFont(pref->default_font);
+
 #if STYLE_SWITCHING
 	setStyle( pref->style );
 #endif
@@ -217,6 +220,8 @@ void PrefInterface::getData(Preferences * pref) {
 	pref->seeking2 = seeking2();
 	pref->seeking3 = seeking3();
 	pref->seeking4 = seeking4();
+
+	pref->default_font = defaultFont();
 
 #if STYLE_SWITCHING
     if ( pref->style != style() ) {
@@ -346,6 +351,29 @@ void PrefInterface::setSeeking4(int n) {
 
 int PrefInterface::seeking4() {
 	return seek4->time();
+}
+
+void PrefInterface::setDefaultFont(QString font_desc) {
+	default_font_edit->setText(font_desc);
+}
+
+QString PrefInterface::defaultFont() {
+	return default_font_edit->text();
+}
+
+void PrefInterface::on_changeFontButton_clicked() {
+	QFont f = qApp->font();
+
+	if (!default_font_edit->text().isEmpty()) {
+		f.fromString(default_font_edit->text());
+	}
+
+	bool ok;
+	f = QFontDialog::getFont( &ok, f, this);
+
+	if (ok) {
+		default_font_edit->setText( f.toString() );
+	}
 }
 
 void PrefInterface::createHelp() {

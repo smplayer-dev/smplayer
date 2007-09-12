@@ -226,6 +226,8 @@ public:
 
 	//! Close the main window when a file or playlist finish
 	bool close_on_finish;
+
+	QString default_font;
 };
 
 #endif

@@ -6,7 +6,7 @@
     <x>0</x>
     <y>0</y>
     <width>529</width>
-    <height>522</height>
+    <height>586</height>
    </rect>
   </property>
   <property name="windowIcon" >
@@ -35,6 +35,13 @@
        <property name="spacing" >
         <number>6</number>
        </property>
+       <item row="4" column="0" colspan="2" >
+        <widget class="Line" name="line" >
+         <property name="orientation" >
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
        <item row="2" column="0" colspan="2" >
         <widget class="QGroupBox" name="groupBox_3" >
          <property name="title" >
@@ -252,19 +259,6 @@
          </item>
         </layout>
        </item>
-       <item row="4" column="1" >
-        <spacer>
-         <property name="orientation" >
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeHint" >
-          <size>
-           <width>20</width>
-           <height>40</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
        <item rowspan="2" row="0" column="0" >
         <widget class="QGroupBox" name="groupBox_2" >
          <property name="title" >
@@ -412,6 +406,50 @@
          </layout>
         </widget>
        </item>
+       <item row="5" column="0" colspan="2" >
+        <layout class="QHBoxLayout" >
+         <property name="margin" >
+          <number>0</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_2" >
+           <property name="text" >
+            <string>Default font:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="default_font_edit" >
+           <property name="readOnly" >
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="changeFontButton" >
+           <property name="text" >
+            <string>&amp;Change...</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="6" column="0" colspan="2" >
+        <spacer>
+         <property name="orientation" >
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" >
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
       </layout>
      </widget>
     </widget>
@@ -420,14 +458,14 @@
  </widget>
  <customwidgets>
   <customwidget>
-   <class>SeekWidget</class>
-   <extends>QWidget</extends>
-   <header>seekwidget.h</header>
-  </customwidget>
-  <customwidget>
    <class>MyComboBox</class>
    <extends>QComboBox</extends>
    <header>mycombobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>SeekWidget</class>
+   <extends>QWidget</extends>
+   <header>seekwidget.h</header>
   </customwidget>
  </customwidgets>
  <resources/>

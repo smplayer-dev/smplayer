@@ -1,3 +1,16 @@
+[b]Version 0.5.58[/b]
+ * Updated the Polish, Ukrainian and Germantranslations.
+ * I hope the problems in Windows with the new code to resize the main 
+   window are fixed now.
+ * If the user selects the option to never resize the main window, the
+   main window won't be resized when the playlist is docked/undocked.
+ * The playlist is enabled again in fullscreen mode, although it will only
+   appear floating.
+ * Added dvr-ms to the list of extensions that the open dialog will show
+   for videos.
+ * Added an option in Preferences->Interface to change the default font of
+   the application.
+
 [b]Version 0.5.57[/b]
  * Fixes in the window resize code. Now resizes should be much smoother.
    Only if you do something that alter the size of the window, like moving

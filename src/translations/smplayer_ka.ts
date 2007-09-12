@@ -608,7 +608,7 @@ Do you want to overwrite?</source>
         <translation>4:3 -&gt; 16:9-&amp;ზე</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1699"/>
+        <location filename="../basegui.cpp" line="1705"/>
         <source>&amp;None</source>
         <translation>&amp;არაა</translation>
     </message>
@@ -733,73 +733,73 @@ Do you want to overwrite?</source>
         <translation>SMPlayer - smplayer-ის ჟურნალი</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1816"/>
+        <location filename="../basegui.cpp" line="1822"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;ცარიელია&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2117"/>
+        <location filename="../basegui.cpp" line="2123"/>
         <source>Video</source>
         <translation>ვიდეო</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2285"/>
+        <location filename="../basegui.cpp" line="2292"/>
         <source>Audio</source>
         <translation>აუდიო</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2120"/>
+        <location filename="../basegui.cpp" line="2127"/>
         <source>Playlists</source>
         <translation>რეპერტუარები</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2286"/>
+        <location filename="../basegui.cpp" line="2293"/>
         <source>All files</source>
         <translation>ყველა ფაილი</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2283"/>
+        <location filename="../basegui.cpp" line="2290"/>
         <source>Choose a file</source>
         <translation>აირჩიეთ ფაილი</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2158"/>
+        <location filename="../basegui.cpp" line="2165"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - ინფორმაცია</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2161"/>
+        <location filename="../basegui.cpp" line="2168"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CDROM / DVD ამძრავები ჯერ არ არის გამართული.(new line)კონფიგურაციის დიალოგი ახლა გამოჩნდება, შეგიძლიათ გამართოთ ისინი.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2235"/>
+        <location filename="../basegui.cpp" line="2242"/>
         <source>Choose a directory</source>
         <translation>აირჩიეთ დასტა</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2270"/>
+        <location filename="../basegui.cpp" line="2277"/>
         <source>Subtitles</source>
         <translation>სუბტიტრები</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2297"/>
+        <location filename="../basegui.cpp" line="2304"/>
         <source>About Qt</source>
         <translation>Qt-ს შესახებ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2598"/>
+        <location filename="../basegui.cpp" line="2605"/>
         <source>Playing %1</source>
         <translation>ვუკრავ %1-ს</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2599"/>
+        <location filename="../basegui.cpp" line="2606"/>
         <source>Pause</source>
         <translation>პაუზა</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2600"/>
+        <location filename="../basegui.cpp" line="2607"/>
         <source>Stop</source>
         <translation>შეჩერება</translation>
     </message>
@@ -1712,164 +1712,164 @@ Do you want to overwrite?</source>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="256"/>
+        <location filename="../playlist.cpp" line="254"/>
         <source>Name</source>
         <translation>დასახელება</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="256"/>
+        <location filename="../playlist.cpp" line="254"/>
         <source>Length</source>
         <translation>ხანგრძლივობა</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="261"/>
+        <location filename="../playlist.cpp" line="259"/>
         <source>&amp;Play</source>
         <translation>და&amp;კვრა</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="282"/>
+        <location filename="../playlist.cpp" line="280"/>
         <source>&amp;Edit</source>
         <translation>რ&amp;ედაქტირება</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="552"/>
+        <location filename="../playlist.cpp" line="550"/>
         <source>Playlists</source>
         <translation>რეპერტუარები</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="537"/>
+        <location filename="../playlist.cpp" line="535"/>
         <source>Choose a file</source>
         <translation>აირჩიეთ ფაილი</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="550"/>
+        <location filename="../playlist.cpp" line="548"/>
         <source>Choose a filename</source>
         <translation>აირჩიეთ ფაილის სახელი</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="561"/>
+        <location filename="../playlist.cpp" line="559"/>
         <source>Confirm overwrite?</source>
         <translation>დავადასტუროთ შეცვლა?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="563"/>
+        <location filename="../playlist.cpp" line="561"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>ფაილი %1 უკვე არსებობს.
 გსურთ მისი შეცვლა?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="735"/>
+        <location filename="../playlist.cpp" line="733"/>
         <source>All files</source>
         <translation>ყველა ფაილი</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="733"/>
+        <location filename="../playlist.cpp" line="731"/>
         <source>Select one or more files to open</source>
         <translation>გასახსნელად აირჩიეთ ერთი ან რამოდენიმე ფაილი</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="762"/>
+        <location filename="../playlist.cpp" line="760"/>
         <source>Choose a directory</source>
         <translation>აირჩიეთ დირექტორია</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="920"/>
+        <location filename="../playlist.cpp" line="918"/>
         <source>Edit name</source>
         <translation>სახელის რედაქტირება</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="921"/>
+        <location filename="../playlist.cpp" line="919"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>შეიყვანეთ სახელი რომელიც იქნება გამოსახული რეპერტუარიში ამ ფაილისთვის:</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="258"/>
+        <location filename="../playlist.cpp" line="256"/>
         <source>&amp;Load</source>
         <translation>ჩა&amp;ტვირთვა</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="259"/>
+        <location filename="../playlist.cpp" line="257"/>
         <source>&amp;Save</source>
         <translation>შენა&amp;ხვა</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="263"/>
+        <location filename="../playlist.cpp" line="261"/>
         <source>&amp;Next</source>
         <translation>&amp;შემდეგი</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="264"/>
+        <location filename="../playlist.cpp" line="262"/>
         <source>Pre&amp;vious</source>
         <translation>&amp;წინა</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="266"/>
+        <location filename="../playlist.cpp" line="264"/>
         <source>Move &amp;up</source>
         <translation>&amp;ზევით აწევა</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="267"/>
+        <location filename="../playlist.cpp" line="265"/>
         <source>Move &amp;down</source>
         <translation>&amp;ქვევით ჩაწევა</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="269"/>
+        <location filename="../playlist.cpp" line="267"/>
         <source>&amp;Repeat</source>
         <translation>გამეო&amp;რება</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="270"/>
+        <location filename="../playlist.cpp" line="268"/>
         <source>S&amp;huffle</source>
         <translation>არე&amp;ვა</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="273"/>
+        <location filename="../playlist.cpp" line="271"/>
         <source>Add &amp;current file</source>
         <translation>&amp;მიმდინარე ფაილის დამატება</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="274"/>
+        <location filename="../playlist.cpp" line="272"/>
         <source>Add &amp;file(s)</source>
         <translation>&amp;ფაილ(ებ)ის დამატება</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="275"/>
+        <location filename="../playlist.cpp" line="273"/>
         <source>Add &amp;directory</source>
         <translation>&amp;დირექტორიის დამატება</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="278"/>
+        <location filename="../playlist.cpp" line="276"/>
         <source>Remove &amp;selected</source>
         <translation>ა&amp;რჩეულის ამოღება</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="279"/>
+        <location filename="../playlist.cpp" line="277"/>
         <source>Remove &amp;all</source>
         <translation>ყველ&amp;ას ამოღება</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="292"/>
+        <location filename="../playlist.cpp" line="290"/>
         <source>SMPlayer - Playlist</source>
         <translation>SMPlayer - რეპერტუარი</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="286"/>
+        <location filename="../playlist.cpp" line="284"/>
         <source>Add...</source>
         <translation>დამატება...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="288"/>
+        <location filename="../playlist.cpp" line="286"/>
         <source>Remove...</source>
         <translation>ამოღება...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="582"/>
+        <location filename="../playlist.cpp" line="580"/>
         <source>Playlist modified</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="583"/>
+        <location filename="../playlist.cpp" line="581"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2603,142 +2603,142 @@ The drop-down lists may provide already made regular expression for several lang
 <context>
     <name>PrefInterface</name>
     <message>
-        <location filename="../prefinterface.cpp" line="72"/>
+        <location filename="../prefinterface.cpp" line="73"/>
         <source>Interface</source>
         <translation type="unfinished">ინტერფეისი</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="81"/>
+        <location filename="../prefinterface.cpp" line="82"/>
         <source>Bulgarian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="83"/>
+        <location filename="../prefinterface.cpp" line="84"/>
         <source>Czech</source>
         <translation type="unfinished">ჩეხური</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="84"/>
+        <location filename="../prefinterface.cpp" line="85"/>
         <source>German</source>
         <translation type="unfinished">გერმანული</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="85"/>
+        <location filename="../prefinterface.cpp" line="86"/>
         <source>Greek</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="86"/>
+        <location filename="../prefinterface.cpp" line="87"/>
         <source>English</source>
         <translation type="unfinished">ინგლისური</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="87"/>
+        <location filename="../prefinterface.cpp" line="88"/>
         <source>Spanish</source>
         <translation type="unfinished">ესპანური</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="89"/>
+        <location filename="../prefinterface.cpp" line="90"/>
         <source>Finnish</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="90"/>
+        <location filename="../prefinterface.cpp" line="91"/>
         <source>French</source>
         <translation type="unfinished">ფრანგული</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="92"/>
+        <location filename="../prefinterface.cpp" line="93"/>
         <source>Hungarian</source>
         <translation type="unfinished">უნგრული</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="93"/>
+        <location filename="../prefinterface.cpp" line="94"/>
         <source>Italian</source>
         <translation type="unfinished">იტალიური</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="94"/>
+        <location filename="../prefinterface.cpp" line="95"/>
         <source>Japanese</source>
         <translation type="unfinished">იაპონური</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="95"/>
+        <location filename="../prefinterface.cpp" line="96"/>
         <source>Georgian</source>
         <translation type="unfinished">ქართული</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="96"/>
+        <location filename="../prefinterface.cpp" line="97"/>
         <source>Dutch</source>
         <translation type="unfinished">ჰოლანდიური</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="97"/>
+        <location filename="../prefinterface.cpp" line="98"/>
         <source>Polish</source>
         <translation type="unfinished">პოლონური</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="98"/>
+        <location filename="../prefinterface.cpp" line="99"/>
         <source>Portuguese - Brazil</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="99"/>
+        <location filename="../prefinterface.cpp" line="100"/>
         <source>Portuguese - Portugal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="100"/>
+        <location filename="../prefinterface.cpp" line="101"/>
         <source>Romanian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="101"/>
+        <location filename="../prefinterface.cpp" line="102"/>
         <source>Russian</source>
         <translation type="unfinished">რუსული</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="102"/>
+        <location filename="../prefinterface.cpp" line="103"/>
         <source>Slovak</source>
         <translation type="unfinished">სლოვაკური</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="103"/>
+        <location filename="../prefinterface.cpp" line="104"/>
         <source>Serbian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="104"/>
+        <location filename="../prefinterface.cpp" line="105"/>
         <source>Swedish</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="105"/>
+        <location filename="../prefinterface.cpp" line="106"/>
         <source>Turkish</source>
         <translation type="unfinished">თურქული</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="106"/>
+        <location filename="../prefinterface.cpp" line="107"/>
         <source>Ukrainian</source>
         <translation type="unfinished">უკრაინული</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="107"/>
+        <location filename="../prefinterface.cpp" line="108"/>
         <source>Simplified-Chinese</source>
         <translation type="unfinished">გამარტივებული ჩინური</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="108"/>
+        <location filename="../prefinterface.cpp" line="109"/>
         <source>Traditional Chinese</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="115"/>
+        <location filename="../prefinterface.cpp" line="116"/>
         <source>&lt;Autodetect&gt;</source>
         <translation type="unfinished">&lt;ავტომატური&gt;</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="157"/>
+        <location filename="../prefinterface.cpp" line="158"/>
         <source>Default</source>
         <translation type="unfinished">ნაგულისხმები</translation>
     </message>
@@ -2748,123 +2748,133 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="271"/>
+        <location filename="../prefinterface.ui" line="265"/>
         <source>Seeking</source>
         <translation type="unfinished">გადასვლა</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="390"/>
+        <location filename="../prefinterface.ui" line="384"/>
         <source>Never</source>
         <translation type="unfinished">არასდროს</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="395"/>
+        <location filename="../prefinterface.ui" line="389"/>
         <source>Whenever it&apos;s needed</source>
         <translation type="unfinished">როდესაც საჭიროა</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="400"/>
+        <location filename="../prefinterface.ui" line="394"/>
         <source>Only after loading a new video</source>
         <translation type="unfinished">მხოლოდ ახალი ვიდეოს ჩატვირთვისას</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="308"/>
+        <location filename="../prefinterface.ui" line="302"/>
         <source>Recent files</source>
         <translation type="unfinished">წინა ფაილები</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="354"/>
+        <location filename="../prefinterface.cpp" line="382"/>
         <source>Language</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="355"/>
+        <location filename="../prefinterface.cpp" line="383"/>
         <source>Here you can change the language of the application.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="41"/>
+        <location filename="../prefinterface.ui" line="48"/>
         <source>Instances</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="82"/>
+        <location filename="../prefinterface.cpp" line="83"/>
         <source>Catalan</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="88"/>
+        <location filename="../prefinterface.cpp" line="89"/>
         <source>Basque</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="91"/>
+        <location filename="../prefinterface.cpp" line="92"/>
         <source>Galician</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="138"/>
+        <location filename="../prefinterface.cpp" line="139"/>
         <source>&amp;Short jump</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="139"/>
+        <location filename="../prefinterface.cpp" line="140"/>
         <source>&amp;Medium jump</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="140"/>
+        <location filename="../prefinterface.cpp" line="141"/>
         <source>&amp;Long jump</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="141"/>
+        <location filename="../prefinterface.cpp" line="142"/>
         <source>Mouse &amp;wheel jump</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="53"/>
+        <location filename="../prefinterface.ui" line="60"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="63"/>
+        <location filename="../prefinterface.ui" line="70"/>
         <source>SMPlayer will listen to this &amp;port to receive commands from other instances:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="320"/>
+        <location filename="../prefinterface.ui" line="314"/>
         <source>Ma&amp;x. items</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="155"/>
+        <location filename="../prefinterface.ui" line="162"/>
         <source>St&amp;yle:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="194"/>
+        <location filename="../prefinterface.ui" line="201"/>
         <source>Ico&amp;n set:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="181"/>
+        <location filename="../prefinterface.ui" line="188"/>
         <source>L&amp;anguage:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="359"/>
+        <location filename="../prefinterface.ui" line="353"/>
         <source>Main window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="371"/>
+        <location filename="../prefinterface.ui" line="365"/>
         <source>Auto&amp;resize:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="408"/>
+        <location filename="../prefinterface.ui" line="402"/>
         <source>R&amp;emember position and size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="420"/>
+        <source>Default font:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="434"/>
+        <source>&amp;Change...</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

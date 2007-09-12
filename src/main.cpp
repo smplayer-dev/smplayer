@@ -363,6 +363,12 @@ int main( int argc, char ** argv )
 		}
 	}
 
+	if (!pref->default_font.isEmpty()) {
+		QFont f;
+		f.fromString(pref->default_font);
+		a.setFont(f);
+	}
+
 	DefaultGui * w = new DefaultGui(0);
 	if (close_at_end) w->setCloseOnFinish( true );
 
