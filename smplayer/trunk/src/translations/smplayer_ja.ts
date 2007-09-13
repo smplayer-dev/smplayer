@@ -80,7 +80,7 @@
     <message>
         <location filename="../aboutdialog.cpp" line="120"/>
         <source>Logo designed by %1</source>
-        <translation>Logo designed by %1</translation>
+        <translation>ロゴ デザイン: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="139"/>
@@ -140,7 +140,7 @@
     <message>
         <location filename="../aboutdialog.cpp" line="83"/>
         <source>Compiled with Qt %1</source>
-        <translation>Compiled with Qt %1</translation>
+        <translation>Qt %1 でコンパイルされています</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="97"/>
@@ -156,13 +156,13 @@
         <location filename="../aboutdialog.cpp" line="129"/>
         <source>http://smplayer.sourceforge.net/en/windows/download.php</source>
         <comment>If the web page is translated into your language you can change the URL so it points to the download page in the translation.Otherwise leave as is.</comment>
-        <translation>http://smplayer.sourceforge.net/en/windows/download.php</translation>
+        <translation>http://smplayer.sourceforge.net/ja/windows/download.php</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="134"/>
         <source>http://smplayer.sourceforge.net/en/linux/download.php</source>
         <comment>If the web page is translated into your language you can change the URL so it points to the download page in the translation.Otherwise leave as is.</comment>
-        <translation>http://smplayer.sourceforge.net/en/linux/download.php</translation>
+        <translation>http://smplayer.sourceforge.net/ja/linux/download.php</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="151"/>
@@ -1057,7 +1057,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="872"/>
         <source>&amp;Toggle double size</source>
-        <translation type="unfinished"></translation>
+        <translation>ダブル サイズの切り替え(&amp;T)</translation>
     </message>
 </context>
 <context>
@@ -2931,12 +2931,12 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefinterface.ui" line="420"/>
         <source>Default font:</source>
-        <translation type="unfinished"></translation>
+        <translation>既定のフォント:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="434"/>
         <source>&amp;Change...</source>
-        <translation type="unfinished"></translation>
+        <translation>変更(&amp;C)...</translation>
     </message>
 </context>
 <context>
