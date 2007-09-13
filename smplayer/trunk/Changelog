@@ -1,5 +1,16 @@
+[b]Version 0.5.59[/b]
+ * Updated the Ukrainian translation.
+ * Bugfix: when passing only one file through command line, the file wasn't
+   added to the playlist.
+ * Added support for right to left languages. The arrow icons are reversed.
+   Has the play icon to be reversed too? I've done, but I'm not sure.
+   Unfortunately the jump-where-clicked feature in time (and volume) slider 
+   doesn't work well with RTL layout, so it's disabled in that case.
+   If you want to take a look, run "smplayer -reverse".
+ * By user request, added the total time in the floating control.
+
 [b]Version 0.5.58[/b]
- * Updated the Polish, Ukrainian and Germantranslations.
+ * Updated the Polish, Ukrainian and German translations.
  * I hope the problems in Windows with the new code to resize the main 
    window are fixed now.
  * If the user selects the option to never resize the main window, the
