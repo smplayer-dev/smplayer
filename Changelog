@@ -1,3 +1,7 @@
+[b]Version SVN $Revision$[/b]
+ * Updated the Ukrainian, German and Japanese translations.
+ * Now version.cpp returns the svn revision number.
+
 [b]Version 0.5.59[/b]
  * Updated the Ukrainian translation.
  * Bugfix: when passing only one file through command line, the file wasn't
