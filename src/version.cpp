@@ -23,7 +23,7 @@
 #if !USE_SVN_VERSIONS
 #define VERSION "0.5.59"
 #else
-#define VERSION "0.5.51 + SVN revision xxxx"
+#define SVN_REVISION "$Revision$"
 #endif
 
 const char * smplayerVersion() {
