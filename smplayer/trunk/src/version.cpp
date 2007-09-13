@@ -23,17 +23,13 @@
 #if !USE_SVN_VERSIONS
 #define VERSION "0.5.59"
 #else
-#define SVN_REVISION "$Revision$"
-#include <QRegExp>
+#include "svn_revision.h"
 #endif
 
-QString smplayerVersion() {
+const char * smplayerVersion() {
 #if USE_SVN_VERSIONS
-	QRegExp rx("\\$Revision: (\\d+) \\$");
-	QString v="Unknown";
-	if (rx.indexIn(SVN_REVISION)!=-1) v = "SVN r"+rx.cap(1);
-	return v;
+	return SVN_REVISION;
 #else
-	return QString(VERSION);
+	return VERSION;
 #endif
 }
