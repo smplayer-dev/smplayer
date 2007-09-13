@@ -38,6 +38,7 @@
 #include <QDropEvent>
 #include <QHeaderView>
 #include <QTextCodec>
+#include <QApplication>
 
 #include "mytablewidget.h"
 #include "myaction.h"
@@ -256,10 +257,20 @@ void Playlist::retranslateStrings() {
 	openAct->change( Images::icon("open"), tr("&Load") );
 	saveAct->change( Images::icon("save"), tr("&Save") );
 
-	playAct->change( Images::icon("play"), tr("&Play") );
+	playAct->change( tr("&Play") );
 
-	nextAct->change( Images::icon("next"), tr("&Next") );
-	prevAct->change( Images::icon("previous"), tr("Pre&vious") );
+	nextAct->change( tr("&Next") );
+	prevAct->change( tr("Pre&vious") );
+
+	if (qApp->isLeftToRight()) {
+		playAct->setIcon( Images::icon("play") );
+		nextAct->setIcon( Images::icon("next") );
+		prevAct->setIcon( Images::icon("previous") );
+	} else {
+		playAct->setIcon( Images::flippedIcon("play") );
+		nextAct->setIcon( Images::flippedIcon("next") );
+		prevAct->setIcon( Images::flippedIcon("previous") );
+	}
 
 	moveUpAct->change( Images::icon("up"), tr("Move &up") );
 	moveDownAct->change( Images::icon("down"), tr("Move &down") );
@@ -334,6 +345,13 @@ void Playlist::updateView() {
 }
 
 void Playlist::setCurrentItem(int current) {
+	QIcon play_icon;
+	if (qApp->isLeftToRight()) {
+		play_icon = Images::icon("play");
+	} else {
+		play_icon = Images::flippedIcon("play");
+	}
+
 	int old_current = current_item;
 	current_item = current;
 
@@ -346,7 +364,7 @@ void Playlist::setCurrentItem(int current) {
 	}
 
 	if ( (current_item >= 0) && (current_item < listView->rowCount()) ) {
-		listView->setIcon(current_item, COL_PLAY, Images::icon("play") );
+		listView->setIcon(current_item, COL_PLAY, play_icon );
 	}
 	//if (current_item >= 0) listView->selectRow(current_item);
 	if (current_item >= 0) {

@@ -735,12 +735,22 @@ void BaseGui::retranslateStrings() {
 	exitAct->change( Images::icon("close"), tr("C&lose") );
 
 	// Menu Play
-	playAct->change( Images::icon("play") , tr("P&lay") );
+	playAct->change( tr("P&lay") );
+	if (qApp->isLeftToRight()) 
+		playAct->setIcon( Images::icon("play") );
+	else
+		playAct->setIcon( Images::flippedIcon("play") );
+
 	pauseAct->change( Images::icon("pause"), tr("&Pause"));
 	stopAct->change( Images::icon("stop"), tr("&Stop") );
 	frameStepAct->change( Images::icon("frame_step"), tr("&Frame step") );
 
-	playOrPauseAct->change( Images::icon("play"), tr("Play / Pause") );
+	playOrPauseAct->change( tr("Play / Pause") );
+	if (qApp->isLeftToRight()) 
+		playOrPauseAct->setIcon( Images::icon("play") );
+	else
+		playOrPauseAct->setIcon( Images::flippedIcon("play") );
+
 	pauseAndStepAct->change( Images::icon("pause"), tr("Pause / Frame step") );
 
 	setJumpTexts(); // Texts for rewind*Act and forward*Act
@@ -824,8 +834,16 @@ void BaseGui::retranslateStrings() {
 	aboutThisAct->change( Images::icon("logo_small"), tr("About &SMPlayer") );
 
 	// Playlist
-	playNextAct->change( Images::icon("next"), tr("&Next") );
-	playPrevAct->change( Images::icon("previous"), tr("Pre&vious") );
+	playNextAct->change( tr("&Next") );
+	playPrevAct->change( tr("Pre&vious") );
+
+	if (qApp->isLeftToRight()) {
+		playNextAct->setIcon( Images::icon("next") );
+		playPrevAct->setIcon( Images::icon("previous") );
+	} else {
+		playNextAct->setIcon( Images::flippedIcon("next") );
+		playPrevAct->setIcon( Images::flippedIcon("previous") );
+	}
 
 
 	// Actions not in menus or buttons
@@ -995,19 +1013,31 @@ void BaseGui::retranslateStrings() {
 }
 
 void BaseGui::setJumpTexts() {
-	rewind1Act->change( Images::icon("rewind10s"), 
-                        tr("-%1").arg(Helper::timeForJumps(pref->seeking1)) );
-	rewind2Act->change( Images::icon("rewind1m"), 
-                        tr("-%1").arg(Helper::timeForJumps(pref->seeking2)) );
-	rewind3Act->change( Images::icon("rewind10m"), 
-                        tr("-%1").arg(Helper::timeForJumps(pref->seeking3)) );
+	rewind1Act->change( tr("-%1").arg(Helper::timeForJumps(pref->seeking1)) );
+	rewind2Act->change( tr("-%1").arg(Helper::timeForJumps(pref->seeking2)) );
+	rewind3Act->change( tr("-%1").arg(Helper::timeForJumps(pref->seeking3)) );
 
-	forward1Act->change( Images::icon("forward10s"),
-                         tr("+%1").arg(Helper::timeForJumps(pref->seeking1)) );
-	forward2Act->change( Images::icon("forward1m"),
-                         tr("+%1").arg(Helper::timeForJumps(pref->seeking2)) );
-	forward3Act->change( Images::icon("forward10m"),
-                         tr("+%1").arg(Helper::timeForJumps(pref->seeking3)) );
+	forward1Act->change( tr("+%1").arg(Helper::timeForJumps(pref->seeking1)) );
+	forward2Act->change( tr("+%1").arg(Helper::timeForJumps(pref->seeking2)) );
+	forward3Act->change( tr("+%1").arg(Helper::timeForJumps(pref->seeking3)) );
+
+	if (qApp->isLeftToRight()) {
+		rewind1Act->setIcon( Images::icon("rewind10s") );
+		rewind2Act->setIcon( Images::icon("rewind1m") );
+		rewind3Act->setIcon( Images::icon("rewind10m") );
+
+		forward1Act->setIcon( Images::icon("forward10s") );
+		forward2Act->setIcon( Images::icon("forward1m") );
+		forward3Act->setIcon( Images::icon("forward10m") );
+	} else {
+		rewind1Act->setIcon( Images::flippedIcon("rewind10s") );
+		rewind2Act->setIcon( Images::flippedIcon("rewind1m") );
+		rewind3Act->setIcon( Images::flippedIcon("rewind10m") );
+
+		forward1Act->setIcon( Images::flippedIcon("forward10s") );
+		forward2Act->setIcon( Images::flippedIcon("forward1m") );
+		forward3Act->setIcon( Images::flippedIcon("forward10m") );
+	}
 }
 
 void BaseGui::setWindowCaption(const QString & title) {
@@ -2049,7 +2079,12 @@ void BaseGui::openFiles(QStringList files) {
 	if (files.empty()) return;
 
 	if (files.count()==1) {
-		open(files[0]);
+		if (playlist->maybeSave()) {
+			playlist->clear();
+			playlist->addFile(files[0]);
+
+			open(files[0]);
+		}
 	} else {
 		if (playlist->maybeSave()) {
 			playlist->clear();

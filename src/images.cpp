@@ -102,3 +102,13 @@ QPixmap Images::icon(QString name, int size, bool png) {
 QPixmap Images::resize(QPixmap *p, int size) {
 	return QPixmap::fromImage( (*p).toImage().scaled(size,size,Qt::IgnoreAspectRatio,Qt::SmoothTransformation) );
 }
+
+QPixmap Images::flip(QPixmap *p) {
+	return QPixmap::fromImage( (*p).toImage().mirrored(true, false) );
+}
+
+QPixmap Images::flippedIcon(QString name, int size, bool png) {
+	QPixmap p = icon(name, size, png);
+	p = flip(&p);
+	return p;
+}

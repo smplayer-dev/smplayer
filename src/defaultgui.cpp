@@ -361,40 +361,6 @@ void DefaultGui::retranslateStrings() {
 	select_subtitle->setText( tr("Subtitle") );
 }
 
-/*
-void DefaultGui::showPlaylist(bool b) {
-	qDebug("DefaultGui::showPlaylist: %d", b);
-
-#if !DOCK_PLAYLIST
-	BaseGuiPlus::showPlaylist(b);
-#else
-	if (!b) {
-		playlistdock->hide();
-		if (!playlistdock->isFloating()) {
-			int new_height = height() - playlistdock->height();
-			qDebug("DefaultGui::showPlaylist: shrinking: new height: %d", new_height);
-			resize( width(), new_height );
-		}
-	}
-	else {
-		playlistdock->show();
-		if (!playlistdock->isFloating()) {
-			int new_height = height() + playlistdock->height();
-
-			//if (new_height > DesktopInfo::desktop_size(this).height()) 
-			//	new_height = DesktopInfo::desktop_size(this).height() - 20;
-
-			qDebug("DefaultGui::showPlaylist: stretching: new height: %d", new_height);
-			resize( width(), new_height );
-		}
-	}
-
-	playlist_visible = b;
-
-	//updateWidgets();
-#endif
-}
-*/
 
 void DefaultGui::displayTime(double sec, int perc, QString text) {
 	time_display->setText( text );
@@ -404,7 +370,8 @@ void DefaultGui::displayTime(double sec, int perc, QString text) {
 	//if (floating_control->isVisible()) {
 		floating_control->time->setPos(perc);
 #if NEW_CONTROLWIDGET
-		floating_control->time_label->setText( Helper::formatTime((int)sec) );
+		//floating_control->time_label->setText( Helper::formatTime((int)sec) );
+		floating_control->time_label->setText( text );
 #else
 		floating_control->lcd->display( Helper::formatTime((int)sec) );
 #endif

@@ -28,7 +28,10 @@ class Images
 
 public:
 	static QPixmap icon(QString name, int size=-1, bool png = true);
+	static QPixmap flippedIcon(QString name, int size=-1, bool png = true);
+
 	static QPixmap resize(QPixmap *p, int size=20);
+	static QPixmap flip(QPixmap *p);
 
 private:
 	//! Return the filename for the icon

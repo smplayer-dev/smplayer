@@ -141,9 +141,15 @@ void PrefInterface::retranslateStrings() {
 	seek3->setLabel( tr("&Long jump") );
 	seek4->setLabel( tr("Mouse &wheel jump") );
 
-	seek1->setIcon( Images::icon("forward10s") );
-	seek2->setIcon( Images::icon("forward1m") );
-	seek3->setIcon( Images::icon("forward10m") );
+	if (qApp->isLeftToRight()) {
+		seek1->setIcon( Images::icon("forward10s") );
+		seek2->setIcon( Images::icon("forward1m") );
+		seek3->setIcon( Images::icon("forward10m") );
+	} else {
+		seek1->setIcon( Images::flippedIcon("forward10s") );
+		seek2->setIcon( Images::flippedIcon("forward1m") );
+		seek3->setIcon( Images::flippedIcon("forward10m") );
+	}
 	seek4->setIcon( Images::icon("mouse_small") );
 
 	// Language combo

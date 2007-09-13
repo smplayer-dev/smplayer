@@ -25,6 +25,7 @@
 #include <QFrame>
 #include <QHBoxLayout>
 #include <QEvent>
+#include <QApplication>
 
 #include "timeslider.h"
 #include "images.h"
@@ -202,17 +203,30 @@ FloatingControl::~FloatingControl()
 void FloatingControl::retranslateStrings() {
 	int size = 22;
 
-	play->setIcon( Images::icon("play", size) );
 	pause->setIcon( Images::icon("pause", size) );
 	stop->setIcon( Images::icon("stop", size) );
 
-	forward1->setIcon( Images::icon("forward10s", size) );
-	forward2->setIcon( Images::icon("forward1m", size) );
-	forward3->setIcon( Images::icon("forward10m", size) );
+	if (qApp->isLeftToRight()) {
+		play->setIcon( Images::icon("play", size) );
 
-	rewind1->setIcon( Images::icon("rewind10s", size) );
-	rewind2->setIcon( Images::icon("rewind1m", size) );
-	rewind3->setIcon( Images::icon("rewind10m", size) );
+		forward1->setIcon( Images::icon("forward10s", size) );
+		forward2->setIcon( Images::icon("forward1m", size) );
+		forward3->setIcon( Images::icon("forward10m", size) );
+
+		rewind1->setIcon( Images::icon("rewind10s", size) );
+		rewind2->setIcon( Images::icon("rewind1m", size) );
+		rewind3->setIcon( Images::icon("rewind10m", size) );
+	} else {
+		play->setIcon( Images::flippedIcon("play", size) );
+
+		forward1->setIcon( Images::flippedIcon("forward10s", size) );
+		forward2->setIcon( Images::flippedIcon("forward1m", size) );
+		forward3->setIcon( Images::flippedIcon("forward10m", size) );
+
+		rewind1->setIcon( Images::flippedIcon("rewind10s", size) );
+		rewind2->setIcon( Images::flippedIcon("rewind1m", size) );
+		rewind3->setIcon( Images::flippedIcon("rewind10m", size) );
+	}
 
 	fullscreen->setIcon( Images::icon("fullscreen", size) );
 

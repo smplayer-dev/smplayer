@@ -24,6 +24,7 @@
 #include <QStyle>
 #include <QWheelEvent>
 #include <QMouseEvent>
+#include <QApplication>
 #endif
 
 #define DEBUG 0
@@ -52,6 +53,14 @@ void MySlider::mousePressEvent( QMouseEvent * e ) {
 			QSlider::mousePressEvent(e);
 	}
 #else
+	// FIXME:
+	// The code doesn't work well with right to left layout,
+	// so it's disabled.
+	if (qApp->isRightToLeft()) {
+		QSlider::mousePressEvent(e);
+		return;
+	}
+
 	int range = maximum()-minimum();
 	int pos = (e->x() * range) / width();
 	//qDebug( "width: %d x: %d", width(), e->x());
