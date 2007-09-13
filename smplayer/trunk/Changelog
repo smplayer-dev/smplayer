@@ -1,4 +1,4 @@
-[b]Version SVN $Revision$[/b]
+[b]Version 2007-09-13[/b]
  * Updated the Ukrainian, German and Japanese translations.
  * Now version.cpp returns the svn revision number.
 
