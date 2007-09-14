@@ -56,7 +56,7 @@
 
 // New code to resize the main window
 
-#define NEW_RESIZE_CODE 1
+#define NEW_RESIZE_CODE 0
 
 
 // EXTERNAL_SLEEP
