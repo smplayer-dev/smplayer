@@ -1,3 +1,9 @@
+[b]Version 2007-09-14[/b]
+ * Added a small program (getrev) to extract the SVN revision number. Intended
+   for Windows, where the script get_svn_revision.sh doesn't work.
+ * Compiling as default the old code to resize the main window, as it has been
+   reported that the new one doesn't work on some systems.
+
 [b]Version 2007-09-13[/b]
  * Updated the Ukrainian, German and Japanese translations.
  * Now version.cpp returns the svn revision number.
