@@ -1067,7 +1067,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="872"/>
         <source>&amp;Toggle double size</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Fixer en taille double</translation>
     </message>
 </context>
 <context>
@@ -2580,7 +2580,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefgeneral.cpp" line="396"/>
         <source>Close when finished</source>
-        <translation>Fermer l&apos;application lorsque le media est fini</translation>
+        <translation>Fermer l&apos;application lorsque media est fini de lire</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="398"/>
@@ -2590,7 +2590,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefgeneral.ui" line="324"/>
         <source>&amp;Close when finished</source>
-        <translation>&amp;Fermer l&apos;application lorsque le media est fini</translation>
+        <translation>&amp;Fermer l&apos;application lorsque media est fini de lire</translation>
     </message>
 </context>
 <context>
@@ -2941,12 +2941,12 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefinterface.ui" line="420"/>
         <source>Default font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Police par défaut :</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="434"/>
         <source>&amp;Change...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Changer...</translation>
     </message>
 </context>
 <context>
