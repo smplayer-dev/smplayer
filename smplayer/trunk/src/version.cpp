@@ -20,15 +20,15 @@
 
 #define USE_SVN_VERSIONS 1
 
-#if !USE_SVN_VERSIONS
 #define VERSION "0.5.59"
-#else
+
+#if USE_SVN_VERSIONS
 #include "svn_revision.h"
 #endif
 
 const char * smplayerVersion() {
 #if USE_SVN_VERSIONS
-	return SVN_REVISION;
+	return QByteArray(QByteArray(VERSION) + "+" + QByteArray(SVN_REVISION)).data();
 #else
 	return VERSION;
 #endif

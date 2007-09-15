@@ -117,6 +117,9 @@ protected:
 	void setDontChangeVolume(bool b);
 	bool dontChangeVolume();
 
+	void setAudioChannels(int ID);
+	int audioChannels();
+
 protected:
 	virtual void retranslateStrings();
 
