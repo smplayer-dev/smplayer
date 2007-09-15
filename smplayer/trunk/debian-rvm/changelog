@@ -1,3 +1,9 @@
+smplayer (0.5.59-SVN-r45) feisty; urgency=low
+
+  * New version
+
+ -- ricardo <ricardo@kubuntu>  Sat, 15 Sep 2007 10:54:50 +0200
+
 smplayer (0.5.59) unstable; urgency=low
 
   * Initial Release.
