@@ -50,9 +50,9 @@ clean:
 	-rm src/smplayer
 	-rm src/translations/smplayer_*.qm
 	-rm src/Makefile
-	cd getrev && make clean
-	-rm getrev/getrev
-	-rm getrev/Makefile
+#	cd getrev && $(QMAKE) && make clean
+#	-rm getrev/getrev
+#	-rm getrev/Makefile
 
 install: src/smplayer
 	-install -d $(DESTDIR)$(PREFIX)/bin/

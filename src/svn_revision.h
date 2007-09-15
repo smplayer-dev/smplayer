@@ -1,1 +1,1 @@
-#define SVN_REVISION "SVN-r44"
+#define SVN_REVISION "SVN-r45"
