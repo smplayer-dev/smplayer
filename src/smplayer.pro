@@ -13,6 +13,7 @@ RESOURCES = icons.qrc
 
 HEADERS	+= config.h \
 	constants.h \
+	svn_revision.h \
 	version.h \
 	global.h \
 	helper.h \

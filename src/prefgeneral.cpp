@@ -21,7 +21,7 @@
 #include "preferences.h"
 #include "filedialog.h"
 #include "images.h"
-
+#include "mediasettings.h"
 
 PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 	: PrefWidget(parent, f )
@@ -32,7 +32,13 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 	InfoReader * i = InfoReader::obj();
 	setDrivers( i->voList(), i->aoList() );
 
-	createHelp();
+	// Channels combo
+	channels_combo->addItem( "2", MediaSettings::ChStereo );
+	channels_combo->addItem( "4", MediaSettings::ChSurround );
+	channels_combo->addItem( "6", MediaSettings::ChFull51 );
+
+	//createHelp();
+	retranslateStrings();
 }
 
 PrefGeneral::~PrefGeneral()
@@ -51,6 +57,10 @@ void PrefGeneral::retranslateStrings() {
 	retranslateUi(this);
 
     initial_volume_label->setNum( initial_volume_slider->value() );
+
+	channels_combo->setItemText(0, tr("2 (Stereo)") );
+	channels_combo->setItemText(1, tr("4 (4.0 Surround)") );
+	channels_combo->setItemText(2, tr("6 (5.1 Surround)") );
 
     // Icons
 	/*
@@ -86,6 +96,7 @@ void PrefGeneral::setData(Preferences * pref) {
 
 	setInitialVolume( pref->initial_volume );
 	setDontChangeVolume( pref->dont_change_volume );
+	setAudioChannels( pref->initial_audio_channels );
 }
 
 void PrefGeneral::getData(Preferences * pref) {
@@ -119,6 +130,7 @@ void PrefGeneral::getData(Preferences * pref) {
 
 	pref->initial_volume = initialVolume();
 	pref->dont_change_volume = dontChangeVolume();
+	pref->initial_audio_channels = audioChannels();
 }
 
 void PrefGeneral::setDrivers(InfoList vo_list, InfoList ao_list) {
@@ -282,6 +294,23 @@ int PrefGeneral::initialVolume() {
 	return initial_volume_slider->value();
 }
 
+void PrefGeneral::setAudioChannels(int ID) {
+	int pos = channels_combo->findData(ID);
+	if (pos != -1) {
+		channels_combo->setCurrentIndex(pos);
+	} else {
+		qWarning("PrefGeneral::setAudioChannels: ID: %d not found in combo", ID);
+	}
+}
+
+int PrefGeneral::audioChannels() {
+	if (channels_combo->currentIndex() != -1) {
+		return channels_combo->itemData( channels_combo->currentIndex() ).toInt();
+	} else {
+		qWarning("PrefGeneral::audioChannels: no item selected");
+		return 0;
+	}
+}
 
 void PrefGeneral::setDontChangeVolume(bool b) {
 	change_volume_check->setChecked(!b);

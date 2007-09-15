@@ -19,6 +19,8 @@
 #include "preferences.h"
 #include "global.h"
 #include "helper.h"
+#include "mediasettings.h"
+
 #include <QSettings>
 #include <QFileInfo>
 #include <QRegExp>
@@ -123,21 +125,6 @@ void Preferences::reset() {
 
 	use_hwac3 = false;
 
-	vcd_initial_title = 2; // Most VCD's start at title #2
-
-	initial_volume = 40;
-	initial_contrast = 0;
-	initial_brightness = 0;
-	initial_hue = 0;
-	initial_saturation = 0;
-	initial_gamma = 0;
-
-	initial_panscan_factor = 1.0;
-	initial_sub_pos = 100; // 100%
-
-	initial_postprocessing = false;
-	initial_volnorm = false;
-
 	mplayer_additional_options="";
     mplayer_additional_video_filters="";
     mplayer_additional_audio_filters="";
@@ -221,6 +208,24 @@ void Preferences::reset() {
 	close_on_finish = false;
 
 	default_font = "";
+
+
+	vcd_initial_title = 2; // Most VCD's start at title #2
+
+	initial_volume = 40;
+	initial_contrast = 0;
+	initial_brightness = 0;
+	initial_hue = 0;
+	initial_saturation = 0;
+	initial_gamma = 0;
+
+	initial_panscan_factor = 1.0;
+	initial_sub_pos = 100; // 100%
+
+	initial_postprocessing = false;
+	initial_volnorm = false;
+
+	initial_audio_channels = MediaSettings::ChDefault;
 }
 
 void Preferences::save() {
@@ -292,18 +297,6 @@ void Preferences::save() {
 
 	set->setValue("vcd_initial_title", vcd_initial_title);
 
-	set->setValue("initial_volume", initial_volume);
-	set->setValue("initial_contrast", initial_contrast);
-	set->setValue("initial_brightness", initial_brightness);
-	set->setValue("initial_hue", initial_hue);
-	set->setValue("initial_saturation", initial_saturation);
-	set->setValue("initial_gamma", initial_gamma);
-
-	set->setValue("initial_panscan_factor", initial_panscan_factor);
-	set->setValue("initial_sub_pos", initial_sub_pos);
-
-	set->setValue("initial_volnorm", initial_volnorm);
-	set->setValue("initial_postprocessing", initial_postprocessing);
 
 	set->setValue("mplayer_additional_options", mplayer_additional_options);
 	set->setValue("mplayer_additional_video_filters", mplayer_additional_video_filters);
@@ -380,6 +373,27 @@ void Preferences::save() {
 	set->setValue("default_font", default_font);
 
 	set->endGroup();
+
+
+	set->beginGroup( "defaults");
+
+	set->setValue("initial_volume", initial_volume);
+	set->setValue("initial_contrast", initial_contrast);
+	set->setValue("initial_brightness", initial_brightness);
+	set->setValue("initial_hue", initial_hue);
+	set->setValue("initial_saturation", initial_saturation);
+	set->setValue("initial_gamma", initial_gamma);
+
+	set->setValue("initial_panscan_factor", initial_panscan_factor);
+	set->setValue("initial_sub_pos", initial_sub_pos);
+
+	set->setValue("initial_volnorm", initial_volnorm);
+	set->setValue("initial_postprocessing", initial_postprocessing);
+
+	set->setValue("initial_audio_channels", initial_audio_channels);
+
+	set->endGroup();
+
 }
 
 void Preferences::load() {
@@ -456,18 +470,6 @@ void Preferences::load() {
 
 	vcd_initial_title = set->value("vcd_initial_title", vcd_initial_title ).toInt();
 
-	initial_volume = set->value("initial_volume", initial_volume).toInt();
-	initial_contrast = set->value("initial_contrast", initial_contrast).toInt();
-	initial_brightness = set->value("initial_brightness", initial_brightness).toInt();
-	initial_hue = set->value("initial_hue", initial_hue).toInt();
-	initial_saturation = set->value("initial_saturation", initial_saturation).toInt();
-	initial_gamma = set->value("initial_gamma", initial_gamma).toInt();
-
-	initial_panscan_factor = set->value("initial_panscan_factor", initial_panscan_factor).toDouble();
-	initial_sub_pos = set->value("initial_sub_pos", initial_sub_pos).toInt();
-
-	initial_volnorm = set->value("initial_volnorm", initial_volnorm).toBool();
-	initial_postprocessing = set->value("initial_postprocessing", initial_postprocessing).toBool();
 
 	mplayer_additional_options = set->value("mplayer_additional_options", mplayer_additional_options).toString();
 	mplayer_additional_video_filters = set->value("mplayer_additional_video_filters", mplayer_additional_video_filters).toString();
@@ -542,6 +544,26 @@ void Preferences::load() {
 	close_on_finish = set->value("close_on_finish", close_on_finish).toBool();
 
 	default_font = set->value("default_font", default_font).toString();
+
+	set->endGroup();
+
+
+	set->beginGroup( "defaults");
+
+	initial_volume = set->value("initial_volume", initial_volume).toInt();
+	initial_contrast = set->value("initial_contrast", initial_contrast).toInt();
+	initial_brightness = set->value("initial_brightness", initial_brightness).toInt();
+	initial_hue = set->value("initial_hue", initial_hue).toInt();
+	initial_saturation = set->value("initial_saturation", initial_saturation).toInt();
+	initial_gamma = set->value("initial_gamma", initial_gamma).toInt();
+
+	initial_panscan_factor = set->value("initial_panscan_factor", initial_panscan_factor).toDouble();
+	initial_sub_pos = set->value("initial_sub_pos", initial_sub_pos).toInt();
+
+	initial_volnorm = set->value("initial_volnorm", initial_volnorm).toBool();
+	initial_postprocessing = set->value("initial_postprocessing", initial_postprocessing).toBool();
+
+	initial_audio_channels = set->value("initial_audio_channels", initial_audio_channels).toInt();
 
 	set->endGroup();
 

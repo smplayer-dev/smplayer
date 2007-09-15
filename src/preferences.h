@@ -111,23 +111,6 @@ public:
 
 	int vcd_initial_title;
 
-	// Initial values for some options
-	int initial_volume;
-	int initial_contrast;
-	int initial_brightness;
-	int initial_hue;
-	int initial_saturation;
-	int initial_gamma;
-
-	//! Default value for panscan (1.0 = no zoom)
-	double initial_panscan_factor;
-
-	//! Default value for position of subtitles on screen
-	//! 100 = 100% at the bottom
-	int initial_sub_pos;
-
-	bool initial_postprocessing; // global postprocessing filter
-	bool initial_volnorm;
 
 	// Let the user pass options to mplayer
 	QString mplayer_additional_options;
@@ -228,6 +211,27 @@ public:
 	bool close_on_finish;
 
 	QString default_font;
+
+
+	// Initial values for some options
+	int initial_volume;
+	int initial_contrast;
+	int initial_brightness;
+	int initial_hue;
+	int initial_saturation;
+	int initial_gamma;
+
+	//! Default value for panscan (1.0 = no zoom)
+	double initial_panscan_factor;
+
+	//! Default value for position of subtitles on screen
+	//! 100 = 100% at the bottom
+	int initial_sub_pos;
+
+	bool initial_postprocessing; // global postprocessing filter
+	bool initial_volnorm;
+
+	int initial_audio_channels;
 };
 
 #endif
