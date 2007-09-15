@@ -1,7 +1,9 @@
 [b]Version 2007-09-15[/b]
  * The script create_deb.sh changes the debian changelog so the SVN revision 
    number is added to the generated *.deb file.
- * Added new option "Channels by default" in Preferences->General->Audio
+ * Added new option "Channels by default" in Preferences->General->Audio.
+ * BTW, now the initial_* options in preferences are stored in its own
+   section "[default]" in the config file.
 
 [b]Version 2007-09-14[/b]
  * Added a small program (getrev) to extract the SVN revision number. Intended
