@@ -26,10 +26,10 @@
 #include "svn_revision.h"
 #endif
 
-const char * smplayerVersion() {
+QString smplayerVersion() {
 #if USE_SVN_VERSIONS
-	return QByteArray(QByteArray(VERSION) + "+" + QByteArray(SVN_REVISION)).data();
+	return QString(QString(VERSION) + "+" + QString(SVN_REVISION));
 #else
-	return VERSION;
+	return QString(VERSION);
 #endif
 }

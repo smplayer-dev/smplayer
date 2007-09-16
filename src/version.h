@@ -21,7 +21,7 @@
 
 #include <QString>
 
-const char * smplayerVersion();
+QString smplayerVersion();
 
 #endif
 
