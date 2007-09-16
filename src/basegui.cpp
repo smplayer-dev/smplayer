@@ -217,23 +217,23 @@ BaseGui::~BaseGui() {
 void BaseGui::createActions() {
 	// Menu File
 	openFileAct = new MyAction( QKeySequence("Ctrl+F"), this, "open_file" );
-	connect( openFileAct, SIGNAL(activated()),
+	connect( openFileAct, SIGNAL(triggered()),
              this, SLOT(openFile()) );
 
 	openDirectoryAct = new MyAction( this, "open_directory" );
-	connect( openDirectoryAct, SIGNAL(activated()),
+	connect( openDirectoryAct, SIGNAL(triggered()),
              this, SLOT(openDirectory()) );
 
 	openPlaylistAct = new MyAction( this, "open_playlist" );
-	connect( openPlaylistAct, SIGNAL(activated()),
+	connect( openPlaylistAct, SIGNAL(triggered()),
              playlist, SLOT(load()) );
 
 	openVCDAct = new MyAction( this, "open_vcd" );
-	connect( openVCDAct, SIGNAL(activated()),
+	connect( openVCDAct, SIGNAL(triggered()),
              this, SLOT(openVCD()) );
 
 	openAudioCDAct = new MyAction( this, "open_audio_cd" );
-	connect( openAudioCDAct, SIGNAL(activated()),
+	connect( openAudioCDAct, SIGNAL(triggered()),
              this, SLOT(openAudioCD()) );
 
 #ifdef Q_OS_WIN
@@ -243,19 +243,19 @@ void BaseGui::createActions() {
 #endif
 
 	openDVDAct = new MyAction( this, "open_dvd" );
-	connect( openDVDAct, SIGNAL(activated()),
+	connect( openDVDAct, SIGNAL(triggered()),
              this, SLOT(openDVD()) );
 
 	openDVDFolderAct = new MyAction( this, "open_dvd_folder" );
-	connect( openDVDFolderAct, SIGNAL(activated()),
+	connect( openDVDFolderAct, SIGNAL(triggered()),
              this, SLOT(openDVDFromFolder()) );
 
 	openURLAct = new MyAction( QKeySequence("Ctrl+U"), this, "open_url" );
-	connect( openURLAct, SIGNAL(activated()),
+	connect( openURLAct, SIGNAL(triggered()),
              this, SLOT(openURL()) );
 
 	exitAct = new MyAction( QKeySequence("Ctrl+X"), this, "close" );
-	connect( exitAct, SIGNAL(activated()), this, SLOT(closeWindow()) );
+	connect( exitAct, SIGNAL(triggered()), this, SLOT(closeWindow()) );
 
 	clearRecentsAct = new MyAction( this, "clear_recents" );
 	connect( clearRecentsAct, SIGNAL(triggered()), this, SLOT(clearRecentsList()) );
@@ -263,51 +263,51 @@ void BaseGui::createActions() {
 
 	// Menu Play
 	playAct = new MyAction( this, "play" );
-	connect( playAct, SIGNAL(activated()),
+	connect( playAct, SIGNAL(triggered()),
              core, SLOT(play()) );
 
 	playOrPauseAct = new MyAction( Qt::Key_MediaPlay, this, "play_or_pause" );
-	connect( playOrPauseAct, SIGNAL(activated()),
+	connect( playOrPauseAct, SIGNAL(triggered()),
              core, SLOT(play_or_pause()) );
 
 	pauseAct = new MyAction( Qt::Key_Space, this, "pause" );
-	connect( pauseAct, SIGNAL(activated()),
+	connect( pauseAct, SIGNAL(triggered()),
              core, SLOT(pause()) );
 
 	pauseAndStepAct = new MyAction( this, "pause_and_frame_step" );
-	connect( pauseAndStepAct, SIGNAL(activated()),
+	connect( pauseAndStepAct, SIGNAL(triggered()),
              core, SLOT(pause_and_frame_step()) );
 
 	stopAct = new MyAction( Qt::Key_MediaStop, this, "stop" );
-	connect( stopAct, SIGNAL(activated()),
+	connect( stopAct, SIGNAL(triggered()),
              core, SLOT(stop()) );
 
 	frameStepAct = new MyAction( Qt::Key_Period, this, "frame_step" );
-	connect( frameStepAct, SIGNAL(activated()),
+	connect( frameStepAct, SIGNAL(triggered()),
              core, SLOT(frameStep()) );
 
 	rewind1Act = new MyAction( Qt::Key_Left, this, "rewind1" );
-	connect( rewind1Act, SIGNAL(activated()),
+	connect( rewind1Act, SIGNAL(triggered()),
              core, SLOT(srewind()) );
 
 	rewind2Act = new MyAction( Qt::Key_Down, this, "rewind2" );
-	connect( rewind2Act, SIGNAL(activated()),
+	connect( rewind2Act, SIGNAL(triggered()),
              core, SLOT(rewind()) );
 
 	rewind3Act = new MyAction( Qt::Key_PageDown, this, "rewind3" );
-	connect( rewind3Act, SIGNAL(activated()),
+	connect( rewind3Act, SIGNAL(triggered()),
              core, SLOT(fastrewind()) );
 
 	forward1Act = new MyAction( Qt::Key_Right, this, "forward1" );
-	connect( forward1Act, SIGNAL(activated()),
+	connect( forward1Act, SIGNAL(triggered()),
              core, SLOT(sforward()) );
 
 	forward2Act = new MyAction( Qt::Key_Up, this, "forward2" );
-	connect( forward2Act, SIGNAL(activated()),
+	connect( forward2Act, SIGNAL(triggered()),
              core, SLOT(forward()) );
 
 	forward3Act = new MyAction( Qt::Key_PageUp, this, "forward3" );
-	connect( forward3Act, SIGNAL(activated()),
+	connect( forward3Act, SIGNAL(triggered()),
              core, SLOT(fastforward()) );
 
 	repeatAct = new MyAction( this, "repeat" );
@@ -317,23 +317,23 @@ void BaseGui::createActions() {
 
 	// Submenu Speed
 	normalSpeedAct = new MyAction( Qt::Key_Backspace, this, "normal_speed" );
-	connect( normalSpeedAct, SIGNAL(activated()),
+	connect( normalSpeedAct, SIGNAL(triggered()),
              core, SLOT(normalSpeed()) );
 
 	halveSpeedAct = new MyAction( Qt::Key_BraceLeft, this, "halve_speed" );
-	connect( halveSpeedAct, SIGNAL(activated()),
+	connect( halveSpeedAct, SIGNAL(triggered()),
              core, SLOT(halveSpeed()) );
 
 	doubleSpeedAct = new MyAction( Qt::Key_BraceRight, this, "double_speed" );
-	connect( doubleSpeedAct, SIGNAL(activated()),
+	connect( doubleSpeedAct, SIGNAL(triggered()),
              core, SLOT(doubleSpeed()) );
 
 	decSpeedAct = new MyAction( Qt::Key_BracketLeft, this, "dec_speed" );
-	connect( decSpeedAct, SIGNAL(activated()),
+	connect( decSpeedAct, SIGNAL(triggered()),
              core, SLOT(decSpeed()) );
 
 	incSpeedAct = new MyAction( Qt::Key_BracketRight, this, "inc_speed" );
-	connect( incSpeedAct, SIGNAL(activated()),
+	connect( incSpeedAct, SIGNAL(triggered()),
              core, SLOT(incSpeed()) );
 
 
@@ -354,7 +354,7 @@ void BaseGui::createActions() {
              this, SLOT(showEqualizer(bool)) );
 
 	screenshotAct = new MyAction( Qt::Key_S, this, "screenshot" );
-	connect( screenshotAct, SIGNAL(activated()),
+	connect( screenshotAct, SIGNAL(triggered()),
              core, SLOT(screenshot()) );
 
 	onTopAct = new MyAction( this, "on_top" );
@@ -401,27 +401,27 @@ void BaseGui::createActions() {
              core, SLOT(mute(bool)) );
 
 	decVolumeAct = new MyAction( Qt::Key_9, this, "dec_volume" );
-	connect( decVolumeAct, SIGNAL(activated()),
+	connect( decVolumeAct, SIGNAL(triggered()),
              core, SLOT(decVolume()) );
 
 	incVolumeAct = new MyAction( Qt::Key_0, this, "inc_volume" );
-	connect( incVolumeAct, SIGNAL(activated()),
+	connect( incVolumeAct, SIGNAL(triggered()),
              core, SLOT(incVolume()) );
 
 	decAudioDelayAct = new MyAction( Qt::Key_Minus, this, "dec_audio_delay" );
-	connect( decAudioDelayAct, SIGNAL(activated()),
+	connect( decAudioDelayAct, SIGNAL(triggered()),
              core, SLOT(decAudioDelay()) );
 
 	incAudioDelayAct = new MyAction( Qt::Key_Plus, this, "inc_audio_delay" );
-	connect( incAudioDelayAct, SIGNAL(activated()),
+	connect( incAudioDelayAct, SIGNAL(triggered()),
              core, SLOT(incAudioDelay()) );
 
 	loadAudioAct = new MyAction( this, "load_audio_file" );
-	connect( loadAudioAct, SIGNAL(activated()),
+	connect( loadAudioAct, SIGNAL(triggered()),
              this, SLOT(loadAudioFile()) );
 
 	unloadAudioAct = new MyAction( this, "unload_audio_file" );
-	connect( unloadAudioAct, SIGNAL(activated()),
+	connect( unloadAudioAct, SIGNAL(triggered()),
              core, SLOT(unloadAudioFile()) );
 
 
@@ -444,36 +444,36 @@ void BaseGui::createActions() {
 
 	// Menu Subtitles
 	loadSubsAct = new MyAction( this, "load_subs" );
-	connect( loadSubsAct, SIGNAL(activated()),
+	connect( loadSubsAct, SIGNAL(triggered()),
              this, SLOT(loadSub()) );
 
 #if SUBTITLES_BY_INDEX
 	unloadSubsAct = new MyAction( this, "unload_subs" );
-	connect( unloadSubsAct, SIGNAL(activated()),
+	connect( unloadSubsAct, SIGNAL(triggered()),
              core, SLOT(unloadSub()) );
 #endif
 
 	decSubDelayAct = new MyAction( Qt::Key_Z, this, "dec_sub_delay" );
-	connect( decSubDelayAct, SIGNAL(activated()),
+	connect( decSubDelayAct, SIGNAL(triggered()),
              core, SLOT(decSubDelay()) );
 
 	incSubDelayAct = new MyAction( Qt::Key_X, this, "inc_sub_delay" );
-	connect( incSubDelayAct, SIGNAL(activated()),
+	connect( incSubDelayAct, SIGNAL(triggered()),
              core, SLOT(incSubDelay()) );
 
 	decSubPosAct = new MyAction( Qt::Key_R, this, "dec_sub_pos" );
-	connect( decSubPosAct, SIGNAL(activated()),
+	connect( decSubPosAct, SIGNAL(triggered()),
              core, SLOT(decSubPos()) );
 	incSubPosAct = new MyAction( Qt::Key_T, this, "inc_sub_pos" );
-	connect( incSubPosAct, SIGNAL(activated()),
+	connect( incSubPosAct, SIGNAL(triggered()),
              core, SLOT(incSubPos()) );
 
 	decSubStepAct = new MyAction( Qt::Key_G, this, "dec_sub_step" );
-	connect( decSubStepAct, SIGNAL(activated()),
+	connect( decSubStepAct, SIGNAL(triggered()),
              core, SLOT(decSubStep()) );
 
 	incSubStepAct = new MyAction( Qt::Key_Y, this, "inc_sub_step" );
-	connect( incSubStepAct, SIGNAL(activated()),
+	connect( incSubStepAct, SIGNAL(triggered()),
              core, SLOT(incSubStep()) );
 
 	useAssAct = new MyAction(this, "use_ass_lib");
@@ -487,7 +487,7 @@ void BaseGui::createActions() {
              this, SLOT(showPlaylist(bool)) );
 
 	showPropertiesAct = new MyAction( QKeySequence("Ctrl+I"), this, "show_file_properties" );
-	connect( showPropertiesAct, SIGNAL(activated()),
+	connect( showPropertiesAct, SIGNAL(triggered()),
              this, SLOT(showFilePropertiesDialog()) );
 
 	frameCounterAct = new MyAction( this, "frame_counter" );
@@ -496,117 +496,117 @@ void BaseGui::createActions() {
              this, SLOT(toggleFrameCounter(bool)) );
 
 	showPreferencesAct = new MyAction( QKeySequence("Ctrl+P"), this, "show_preferences" );
-	connect( showPreferencesAct, SIGNAL(activated()),
+	connect( showPreferencesAct, SIGNAL(triggered()),
              this, SLOT(showPreferencesDialog()) );
 
 	// Submenu Logs
 	showLogMplayerAct = new MyAction( QKeySequence("Ctrl+M"), this, "show_mplayer_log" );
-	connect( showLogMplayerAct, SIGNAL(activated()),
+	connect( showLogMplayerAct, SIGNAL(triggered()),
              this, SLOT(showMplayerLog()) );
 
 	showLogSmplayerAct = new MyAction( QKeySequence("Ctrl+S"), this, "show_smplayer_log" );
-	connect( showLogSmplayerAct, SIGNAL(activated()),
+	connect( showLogSmplayerAct, SIGNAL(triggered()),
              this, SLOT(showLog()) );
 
 	// Menu Help
 	aboutQtAct = new MyAction( this, "about_qt" );
-	connect( aboutQtAct, SIGNAL(activated()),
+	connect( aboutQtAct, SIGNAL(triggered()),
              this, SLOT(helpAboutQt()) );
 
 	aboutThisAct = new MyAction( this, "about_smplayer" );
-	connect( aboutThisAct, SIGNAL(activated()),
+	connect( aboutThisAct, SIGNAL(triggered()),
              this, SLOT(helpAbout()) );
 
 	// Playlist
 	playNextAct = new MyAction(Qt::Key_Greater, this, "play_next");
-	connect( playNextAct, SIGNAL(activated()), playlist, SLOT(playNext()) );
+	connect( playNextAct, SIGNAL(triggered()), playlist, SLOT(playNext()) );
 
 	playPrevAct = new MyAction(Qt::Key_Less, this, "play_prev");
-	connect( playPrevAct, SIGNAL(activated()), playlist, SLOT(playPrev()) );
+	connect( playPrevAct, SIGNAL(triggered()), playlist, SLOT(playPrev()) );
 
 
 	// Move video window and zoom
 	moveUpAct = new MyAction(Qt::ALT | Qt::Key_Up, this, "move_up");
-	connect( moveUpAct, SIGNAL(activated()), mplayerwindow, SLOT(moveUp()) );
+	connect( moveUpAct, SIGNAL(triggered()), mplayerwindow, SLOT(moveUp()) );
 
 	moveDownAct = new MyAction(Qt::ALT | Qt::Key_Down, this, "move_down");
-	connect( moveDownAct, SIGNAL(activated()), mplayerwindow, SLOT(moveDown()) );
+	connect( moveDownAct, SIGNAL(triggered()), mplayerwindow, SLOT(moveDown()) );
 
 	moveLeftAct = new MyAction(Qt::ALT | Qt::Key_Left, this, "move_left");
-	connect( moveLeftAct, SIGNAL(activated()), mplayerwindow, SLOT(moveLeft()) );
+	connect( moveLeftAct, SIGNAL(triggered()), mplayerwindow, SLOT(moveLeft()) );
 
 	moveRightAct = new MyAction(Qt::ALT | Qt::Key_Right, this, "move_right");
-	connect( moveRightAct, SIGNAL(activated()), mplayerwindow, SLOT(moveRight()) );
+	connect( moveRightAct, SIGNAL(triggered()), mplayerwindow, SLOT(moveRight()) );
 
 	incZoomAct = new MyAction(Qt::Key_E, this, "inc_zoom");
-	connect( incZoomAct, SIGNAL(activated()), core, SLOT(incPanscan()) );
+	connect( incZoomAct, SIGNAL(triggered()), core, SLOT(incPanscan()) );
 
 	decZoomAct = new MyAction(Qt::Key_W, this, "dec_zoom");
-	connect( decZoomAct, SIGNAL(activated()), core, SLOT(decPanscan()) );
+	connect( decZoomAct, SIGNAL(triggered()), core, SLOT(decPanscan()) );
 
 	resetZoomAct = new MyAction(Qt::SHIFT | Qt::Key_E, this, "reset_zoom");
-	connect( resetZoomAct, SIGNAL(activated()), core, SLOT(resetPanscan()) );
+	connect( resetZoomAct, SIGNAL(triggered()), core, SLOT(resetPanscan()) );
 
 
 	// Actions not in menus or buttons
 	// Volume 2
 	decVolume2Act = new MyAction( Qt::Key_Slash, this, "dec_volume2" );
-	connect( decVolume2Act, SIGNAL(activated()), core, SLOT(decVolume()) );
+	connect( decVolume2Act, SIGNAL(triggered()), core, SLOT(decVolume()) );
 
 	incVolume2Act = new MyAction( Qt::Key_Asterisk, this, "inc_volume2" );
-	connect( incVolume2Act, SIGNAL(activated()), core, SLOT(incVolume()) );
+	connect( incVolume2Act, SIGNAL(triggered()), core, SLOT(incVolume()) );
 
 	// Exit fullscreen
 	exitFullscreenAct = new MyAction( Qt::Key_Escape, this, "exit_fullscreen" );
-	connect( exitFullscreenAct, SIGNAL(activated()), this, SLOT(exitFullscreen()) );
+	connect( exitFullscreenAct, SIGNAL(triggered()), this, SLOT(exitFullscreen()) );
 
 	nextOSDAct = new MyAction( Qt::Key_O, this, "next_osd");
-	connect( nextOSDAct, SIGNAL(activated()), core, SLOT(nextOSD()) );
+	connect( nextOSDAct, SIGNAL(triggered()), core, SLOT(nextOSD()) );
 
 	decContrastAct = new MyAction( Qt::Key_1, this, "dec_contrast");
-	connect( decContrastAct, SIGNAL(activated()), core, SLOT(decContrast()) );
+	connect( decContrastAct, SIGNAL(triggered()), core, SLOT(decContrast()) );
 
 	incContrastAct = new MyAction( Qt::Key_2, this, "inc_contrast");
-	connect( incContrastAct, SIGNAL(activated()), core, SLOT(incContrast()) );
+	connect( incContrastAct, SIGNAL(triggered()), core, SLOT(incContrast()) );
 
 	decBrightnessAct = new MyAction( Qt::Key_3, this, "dec_brightness");
-	connect( decBrightnessAct, SIGNAL(activated()), core, SLOT(decBrightness()) );
+	connect( decBrightnessAct, SIGNAL(triggered()), core, SLOT(decBrightness()) );
 
 	incBrightnessAct = new MyAction( Qt::Key_4, this, "inc_brightness");
-	connect( incBrightnessAct, SIGNAL(activated()), core, SLOT(incBrightness()) );
+	connect( incBrightnessAct, SIGNAL(triggered()), core, SLOT(incBrightness()) );
 
 	decHueAct = new MyAction(Qt::Key_5, this, "dec_hue");
-	connect( decHueAct, SIGNAL(activated()), core, SLOT(decHue()) );
+	connect( decHueAct, SIGNAL(triggered()), core, SLOT(decHue()) );
 
 	incHueAct = new MyAction( Qt::Key_6, this, "inc_hue");
-	connect( incHueAct, SIGNAL(activated()), core, SLOT(incHue()) );
+	connect( incHueAct, SIGNAL(triggered()), core, SLOT(incHue()) );
 
 	decSaturationAct = new MyAction( Qt::Key_7, this, "dec_saturation");
-	connect( decSaturationAct, SIGNAL(activated()), core, SLOT(decSaturation()) );
+	connect( decSaturationAct, SIGNAL(triggered()), core, SLOT(decSaturation()) );
 
 	incSaturationAct = new MyAction( Qt::Key_8, this, "inc_saturation");
-	connect( incSaturationAct, SIGNAL(activated()), core, SLOT(incSaturation()) );
+	connect( incSaturationAct, SIGNAL(triggered()), core, SLOT(incSaturation()) );
 
 	decGammaAct = new MyAction( Qt::ALT | Qt::Key_1, this, "dec_gamma");
-	connect( decGammaAct, SIGNAL(activated()), core, SLOT(decGamma()) );
+	connect( decGammaAct, SIGNAL(triggered()), core, SLOT(decGamma()) );
 
 	incGammaAct = new MyAction( Qt::ALT | Qt::Key_2, this, "inc_gamma");
-	connect( incGammaAct, SIGNAL(activated()), core, SLOT(incGamma()) );
+	connect( incGammaAct, SIGNAL(triggered()), core, SLOT(incGamma()) );
 
 	nextAudioAct = new MyAction( Qt::Key_H, this, "next_audio");
-	connect( nextAudioAct, SIGNAL(activated()), core, SLOT(nextAudio()) );
+	connect( nextAudioAct, SIGNAL(triggered()), core, SLOT(nextAudio()) );
 
 	nextSubtitleAct = new MyAction( Qt::Key_J, this, "next_subtitle");
-	connect( nextSubtitleAct, SIGNAL(activated()), core, SLOT(nextSubtitle()) );
+	connect( nextSubtitleAct, SIGNAL(triggered()), core, SLOT(nextSubtitle()) );
 
 	nextChapterAct = new MyAction( Qt::Key_At, this, "next_chapter");
-	connect( nextChapterAct, SIGNAL(activated()), core, SLOT(nextChapter()) );
+	connect( nextChapterAct, SIGNAL(triggered()), core, SLOT(nextChapter()) );
 
 	prevChapterAct = new MyAction( Qt::Key_Exclam, this, "prev_chapter");
-	connect( prevChapterAct, SIGNAL(activated()), core, SLOT(prevChapter()) );
+	connect( prevChapterAct, SIGNAL(triggered()), core, SLOT(prevChapter()) );
 
 	doubleSizeAct = new MyAction( Qt::CTRL | Qt::Key_D, this, "toggle_double_size");
-	connect( doubleSizeAct, SIGNAL(activated()), core, SLOT(toggleDoubleSize()) );
+	connect( doubleSizeAct, SIGNAL(triggered()), core, SLOT(toggleDoubleSize()) );
 
 	// Group actions
 
