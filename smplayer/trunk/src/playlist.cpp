@@ -152,25 +152,25 @@ void Playlist::createTable() {
 
 void Playlist::createActions() {
 	openAct = new MyAction(this, "pl_open", false);
-	connect( openAct, SIGNAL(activated()), this, SLOT(load()) );
+	connect( openAct, SIGNAL(triggered()), this, SLOT(load()) );
 
 	saveAct = new MyAction(this, "pl_save", false);
-	connect( saveAct, SIGNAL(activated()), this, SLOT(save()) );
+	connect( saveAct, SIGNAL(triggered()), this, SLOT(save()) );
 
 	playAct = new MyAction(this, "pl_play", false);
-	connect( playAct, SIGNAL(activated()), this, SLOT(playCurrent()) );
+	connect( playAct, SIGNAL(triggered()), this, SLOT(playCurrent()) );
 
 	nextAct = new MyAction(Qt::Key_N /*Qt::Key_Greater*/, this, "pl_next", false);
-	connect( nextAct, SIGNAL(activated()), this, SLOT(playNext()) );
+	connect( nextAct, SIGNAL(triggered()), this, SLOT(playNext()) );
 
 	prevAct = new MyAction(Qt::Key_P /*Qt::Key_Less*/, this, "pl_prev", false);
-	connect( prevAct, SIGNAL(activated()), this, SLOT(playPrev()) );
+	connect( prevAct, SIGNAL(triggered()), this, SLOT(playPrev()) );
 
 	moveUpAct = new MyAction(this, "pl_move_up", false);
-	connect( moveUpAct, SIGNAL(activated()), this, SLOT(upItem()) );
+	connect( moveUpAct, SIGNAL(triggered()), this, SLOT(upItem()) );
 
 	moveDownAct = new MyAction(this, "pl_move_down", false);
-	connect( moveDownAct, SIGNAL(activated()), this, SLOT(downItem()) );
+	connect( moveDownAct, SIGNAL(triggered()), this, SLOT(downItem()) );
 
 	repeatAct = new MyAction(this, "pl_repeat", false);
 	repeatAct->setCheckable(true);
@@ -180,24 +180,24 @@ void Playlist::createActions() {
 
 	// Add actions
 	addCurrentAct = new MyAction(this, "pl_add_current", false);
-	connect( addCurrentAct, SIGNAL(activated()), this, SLOT(addCurrentFile()) );
+	connect( addCurrentAct, SIGNAL(triggered()), this, SLOT(addCurrentFile()) );
 
 	addFilesAct = new MyAction(this, "pl_add_files", false);
-	connect( addFilesAct, SIGNAL(activated()), this, SLOT(addFiles()) );
+	connect( addFilesAct, SIGNAL(triggered()), this, SLOT(addFiles()) );
 
 	addDirectoryAct = new MyAction(this, "pl_add_directory", false);
-	connect( addDirectoryAct, SIGNAL(activated()), this, SLOT(addDirectory()) );
+	connect( addDirectoryAct, SIGNAL(triggered()), this, SLOT(addDirectory()) );
 
 	// Remove actions
 	removeSelectedAct = new MyAction(this, "pl_remove_selected", false);
-	connect( removeSelectedAct, SIGNAL(activated()), this, SLOT(removeSelected()) );
+	connect( removeSelectedAct, SIGNAL(triggered()), this, SLOT(removeSelected()) );
 
 	removeAllAct = new MyAction(this, "pl_remove_all", false);
-	connect( removeAllAct, SIGNAL(activated()), this, SLOT(removeAll()) );
+	connect( removeAllAct, SIGNAL(triggered()), this, SLOT(removeAll()) );
 
 	// Edit
 	editAct = new MyAction(this, "pl_edit", false);
-	connect( editAct, SIGNAL(activated()), this, SLOT(editCurrentItem()) );
+	connect( editAct, SIGNAL(triggered()), this, SLOT(editCurrentItem()) );
 }
 
 void Playlist::createToolbar() {

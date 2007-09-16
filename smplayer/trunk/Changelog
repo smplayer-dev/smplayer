@@ -1,3 +1,10 @@
+[b]Version 2007-09-16[/b]
+ * Replaced the QAction's activated() signal with triggered(). Now smplayer
+   runs without warnings in kubuntu with Qt 4.3. And I think now the port to
+   Qt 4 has really finished.
+   Anyway this is a delicated change, a small mistake and something could stop
+   working.
+
 [b]Version 2007-09-15[/b]
  * The script create_deb.sh changes the debian changelog so the SVN revision 
    number is added to the generated *.deb file.

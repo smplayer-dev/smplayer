@@ -47,7 +47,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags )
              this, SLOT(trayIconActivated(QSystemTrayIcon::ActivationReason)));
 
 	quitAct = new MyAction(this, "quit");
-    connect( quitAct, SIGNAL(activated()), this, SLOT(quit()) );
+    connect( quitAct, SIGNAL(triggered()), this, SLOT(quit()) );
 	openMenu->addAction(quitAct);
 
 	showTrayAct = new MyAction(this, "show_tray_icon" );
@@ -57,7 +57,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags )
 	optionsMenu->addAction(showTrayAct);
 
 	showAllAct = new MyAction(this, "restore/hide");
-	connect( showAllAct, SIGNAL(activated()),
+	connect( showAllAct, SIGNAL(triggered()),
              this, SLOT(toggleShowAll()) );
 
 	context_menu = new QMenu(this);
