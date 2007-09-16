@@ -4,6 +4,7 @@
    Qt 4 has really finished.
    Anyway this is a delicated change, a small mistake and something could stop
    working.
+ * Updated the Hungarian translation.
 
 [b]Version 2007-09-15[/b]
  * The script create_deb.sh changes the debian changelog so the SVN revision 
