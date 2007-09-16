@@ -2585,22 +2585,22 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="61"/>
         <source>2 (Stereo)</source>
-        <translation type="unfinished"></translation>
+        <translation>2 (ステレオ)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="62"/>
         <source>4 (4.0 Surround)</source>
-        <translation type="unfinished"></translation>
+        <translation>4 (4.0 サラウンド)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="63"/>
         <source>6 (5.1 Surround)</source>
-        <translation type="unfinished"></translation>
+        <translation>6 (5.1 サラウンド)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="486"/>
         <source>C&amp;hannels by default:</source>
-        <translation type="unfinished"></translation>
+        <translation>既定でのチャンネル(&amp;H):</translation>
     </message>
 </context>
 <context>
