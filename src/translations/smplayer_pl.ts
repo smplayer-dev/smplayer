@@ -2615,27 +2615,27 @@ trochę wyższą wartość.
     <message>
         <location filename="../prefgeneral.cpp" line="61"/>
         <source>2 (Stereo)</source>
-        <translation type="unfinished"></translation>
+        <translation>2 (Stereo)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="62"/>
         <source>4 (4.0 Surround)</source>
-        <translation type="unfinished"></translation>
+        <translation>4 (4.0 Surround)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="63"/>
         <source>6 (5.1 Surround)</source>
-        <translation type="unfinished"></translation>
+        <translation>6 (5.1 Surround)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="493"/>
         <source>C&amp;hannels by default:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Standardowo kanały:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="331"/>
         <source>&amp;Pause when minimized</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pauza gdy minimalizujesz</translation>
     </message>
 </context>
 <context>
@@ -2986,12 +2986,12 @@ trochę wyższą wartość.
     <message>
         <location filename="../prefinterface.ui" line="420"/>
         <source>Default font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Domyślna czcionka:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="434"/>
         <source>&amp;Change...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zmień...</translation>
     </message>
 </context>
 <context>
