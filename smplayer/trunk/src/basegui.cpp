@@ -2981,6 +2981,22 @@ void BaseGui::saveActions() {
 #endif
 }
 
+void BaseGui::showEvent( QShowEvent * ) {
+	qDebug("BaseGui::showEvent");
+
+	if ((pref->pause_when_hidden) && (core->state() == Core::Paused)) {
+		core->pause(); // Unpauses
+	}
+}
+
+void BaseGui::hideEvent( QHideEvent * ) {
+	qDebug("BaseGui::hideEvent");
+
+	if ((pref->pause_when_hidden) && (core->state() == Core::Playing)) {
+		core->pause();
+	}
+}
+
 // Language change stuff
 void BaseGui::changeEvent(QEvent *e) {
 	if (e->type() == QEvent::LanguageChange) {

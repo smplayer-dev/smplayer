@@ -212,6 +212,8 @@ public:
 
 	QString default_font;
 
+	//!< Pause the current file when the main window is not visible
+	bool pause_when_hidden; 
 
 	// Initial values for some options
 	int initial_volume;

@@ -81,6 +81,7 @@ void PrefGeneral::setData(Preferences * pref) {
 	setAudioLang( pref->audio_lang );
 	setSubtitleLang( pref->subtitle_lang );
 	setCloseOnFinish( pref->close_on_finish );
+	setPauseWhenHidden( pref->pause_when_hidden );
 
 	setEq2( pref->use_soft_video_eq );
 	setSoftVol( pref->use_soft_vol );
@@ -115,6 +116,7 @@ void PrefGeneral::getData(Preferences * pref) {
     pref->subtitle_lang = subtitleLang();
 
 	pref->close_on_finish = closeOnFinish();
+	pref->pause_when_hidden = pauseWhenHidden();
 
 	TEST_AND_SET(pref->use_soft_video_eq, eq2());
 	TEST_AND_SET(pref->use_soft_vol, softVol());
@@ -221,6 +223,15 @@ void PrefGeneral::setCloseOnFinish(bool b) {
 bool PrefGeneral::closeOnFinish() {
 	return close_on_finish_check->isChecked();
 }
+
+void PrefGeneral::setPauseWhenHidden(bool b) {
+	pause_if_hidden_check->setChecked(b);
+}
+
+bool PrefGeneral::pauseWhenHidden() {
+	return pause_if_hidden_check->isChecked();
+}
+
 
 void PrefGeneral::setEq2(bool b) {
 	eq2_check->setChecked(b);

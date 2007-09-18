@@ -1,3 +1,13 @@
+[b]Version 2007-09-18[/b]
+ * The playlist will be floating as default.
+ * (By user request) Added the option "Pause when minimized" in Preferences->
+   General. If checked, the current file will be paused when the main window
+   is hidden. When the main window is visible again play will resume.
+   Currently it has two problems: if the file was already paused before
+   hiding, smplayer won't remember it so when the main window is made visible
+   the file will be played. And this setting also affects audio files, which
+   maybe is not appropriate.
+
 [b]Version 2007-09-16[/b]
  * Replaced the QAction's activated() signal with triggered(). Now smplayer
    runs without warnings in kubuntu with Qt 4.3. And I think now the port to

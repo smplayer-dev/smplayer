@@ -209,6 +209,8 @@ void Preferences::reset() {
 
 	default_font = "";
 
+	pause_when_hidden = false;
+
 
 	vcd_initial_title = 2; // Most VCD's start at title #2
 
@@ -371,6 +373,8 @@ void Preferences::save() {
 	set->setValue("close_on_finish", close_on_finish);
 
 	set->setValue("default_font", default_font);
+
+	set->setValue("pause_when_hidden", pause_when_hidden);
 
 	set->endGroup();
 
@@ -544,6 +548,8 @@ void Preferences::load() {
 	close_on_finish = set->value("close_on_finish", close_on_finish).toBool();
 
 	default_font = set->value("default_font", default_font).toString();
+
+	pause_when_hidden = set->value("pause_when_hidden", pause_when_hidden).toBool();
 
 	set->endGroup();
 

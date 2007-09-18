@@ -77,6 +77,9 @@ protected:
 	void setCloseOnFinish(bool b);
 	bool closeOnFinish();
 
+	void setPauseWhenHidden(bool b);
+	bool pauseWhenHidden();
+
 	// Tab video and audio
 	void setEq2(bool b);
 	bool eq2();
