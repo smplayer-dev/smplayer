@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# This file is taken from the MPlayer sources, and adapted a little bit.
+# It gets the SVN revision number and then saves it in two files:
+# src/svn_revision.h and svn_revision.txt.
+
 test "$1" && extra="-$1"
 
 svn_revision=`LC_ALL=C svn info 2> /dev/null | grep Revision | cut -d' ' -f2`
