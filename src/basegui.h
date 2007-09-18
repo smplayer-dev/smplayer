@@ -193,6 +193,8 @@ signals:
 protected:
 	virtual void retranslateStrings();
 	virtual void changeEvent(QEvent * event);
+	virtual void hideEvent( QHideEvent * );
+	virtual void showEvent( QShowEvent * );
 
 	virtual void aboutToEnterFullscreen();
 	virtual void aboutToExitFullscreen();

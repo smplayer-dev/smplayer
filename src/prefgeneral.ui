@@ -326,6 +326,13 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="pause_if_hidden_check" >
+         <property name="text" >
+          <string>&amp;Pause when minimized</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <spacer>
          <property name="orientation" >
           <enum>Qt::Vertical</enum>

@@ -85,6 +85,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags )
 	// Playlistdock
 	playlistdock = new PlaylistDock(this);
 	playlistdock->setObjectName("playlist");
+	playlistdock->setFloating(true);
 	playlistdock->setWidget(playlist);
 	playlistdock->setAllowedAreas(Qt::TopDockWidgetArea | Qt::BottomDockWidgetArea);
 	addDockWidget(Qt::BottomDockWidgetArea, playlistdock);
