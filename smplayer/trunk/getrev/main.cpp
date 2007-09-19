@@ -18,14 +18,13 @@
 
 #include <QCoreApplication>
 #include <QProcess>
+#include <QFile>
 #include <stdio.h>
 #include <stdlib.h>
 
-int main( int argc, char ** argv )
-{
-	QCoreApplication a( argc, argv );
-
-	QString revision = "UNKNOWN";
+//! Tries to get the revision by running "svn info"
+QString get_from_svn_info() {
+	QString revision;
 
 	QProcess p;
 	p.setEnvironment( QStringList() << "LC_ALL=C" );
@@ -40,8 +39,79 @@ int main( int argc, char ** argv )
 		line = p.readLine();
 		if (rx.indexIn(line)!=-1) {
 			revision = rx.cap(1);
+			break;
 		}
 		//qDebug( line.data() );
+	}
+
+	return revision;
+}
+
+//! Looks for 'revision="number"' in .svn/entries
+QString get_from_entries_1() {
+	QString revision;
+
+	QFile f(".svn/entries");
+	QRegExp rx("revision=\"(\\d+)\"");
+	if ( f.open(QIODevice::ReadOnly) ) {
+		QByteArray line;
+		while (!f.atEnd()) {
+			line = f.readLine();
+			if (rx.indexIn(line)!=-1) {
+				revision = rx.cap(1);
+				break;
+			}
+			//qDebug( line.data() );
+		}
+	}
+
+	return revision;
+}
+
+//! Looks for 'dir' in .svn/entries
+//! the revision is in the next line
+QString get_from_entries_2() {
+	QString revision;
+
+	QFile f(".svn/entries");
+	//QFile f("/tmp/temp/entries");
+	QRegExp rx("^dir$");
+	if ( f.open(QIODevice::ReadOnly) ) {
+		QByteArray line;
+		while (!f.atEnd()) {
+			line = f.readLine();
+			line = line.simplified();
+			if (rx.indexIn(line)!=-1) {
+				// Next line
+				line = f.readLine();
+				revision = line.simplified();
+				break;
+			}
+			//qDebug( line.data() );
+		}
+	}
+
+	return revision;
+}
+
+int main( int argc, char ** argv )
+{
+	QCoreApplication a( argc, argv );
+
+	QString revision;
+
+	revision = get_from_svn_info();
+
+	if (revision.isEmpty()) {
+		revision = get_from_entries_1();
+
+		if (revision.isEmpty()) {
+			revision = get_from_entries_2();
+
+			if (revision.isEmpty()) {
+				revision = "UNKNOWN";
+			}
+		}
 	}
 
 	printf("#define SVN_REVISION \"SVN-r%s\"\n", revision.toLatin1().data());
