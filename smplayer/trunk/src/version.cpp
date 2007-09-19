@@ -18,7 +18,7 @@
 
 #include "version.h"
 
-//#define USE_SVN_VERSIONS 1
+#define USE_SVN_VERSIONS 1
 
 #define VERSION "0.5.60"
 
