@@ -2605,7 +2605,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="331"/>
         <source>&amp;Pause when minimized</source>
-        <translation type="unfinished"></translation>
+        <translation>最小化時に一時停止する(&amp;P)</translation>
     </message>
 </context>
 <context>
