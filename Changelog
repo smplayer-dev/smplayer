@@ -1,5 +1,8 @@
 (2007-09-19)
  * Updated the German translation.
+ * (Windows) Maybe a fix to avoid the video to pause when entering in 
+   fullscreen and the option "Pause when minimized" is enabled. Not tested
+   yet.
 
 (2007-09-18)
  * The playlist will be floating as default.

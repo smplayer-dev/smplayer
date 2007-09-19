@@ -2356,6 +2356,7 @@ void BaseGui::toggleFullscreen(bool b) {
 
 	if (b==pref->fullscreen) {
 		// Nothing to do
+		qDebug("BaseGui::toggleFullscreen: nothing to do, returning");
 		return;
 	}
 
@@ -2380,13 +2381,16 @@ void BaseGui::toggleFullscreen(bool b) {
 		aboutToEnterFullscreen();
 
 		#ifdef Q_OS_WIN
-		hide();
+		// Avoid the video to pause
+		if (!pref->pause_when_hidden) hide();
 		#endif
 
 		showFullScreen();
+
 	} else {
 		#ifdef Q_OS_WIN
-		hide();
+		// Avoid the video to pause
+		if (!pref->pause_when_hidden) hide();
 		#endif
 
 		showNormal();
@@ -2981,10 +2985,13 @@ void BaseGui::saveActions() {
 #endif
 }
 
+
 void BaseGui::showEvent( QShowEvent * ) {
 	qDebug("BaseGui::showEvent");
 
+	//qDebug("BaseGui::showEvent: pref->pause_when_hidden: %d", pref->pause_when_hidden);
 	if ((pref->pause_when_hidden) && (core->state() == Core::Paused)) {
+		qDebug("BaseGui::showEvent: unpausing");
 		core->pause(); // Unpauses
 	}
 }
@@ -2992,10 +2999,13 @@ void BaseGui::showEvent( QShowEvent * ) {
 void BaseGui::hideEvent( QHideEvent * ) {
 	qDebug("BaseGui::hideEvent");
 
+	//qDebug("BaseGui::hideEvent: pref->pause_when_hidden: %d", pref->pause_when_hidden);
 	if ((pref->pause_when_hidden) && (core->state() == Core::Playing)) {
+		qDebug("BaseGui::hideEvent: pausing");
 		core->pause();
 	}
 }
+
 
 // Language change stuff
 void BaseGui::changeEvent(QEvent *e) {
