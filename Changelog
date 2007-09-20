@@ -7,6 +7,8 @@
    playlist (nothing more will be done). If no other instance is found,
    this option won't do anything, the specified files will be opened as usual
    in a new instance.
+ * Removed the option Audio->Channels->Default, as the mplayer default 
+   is stereo.
 
 (2007-09-19)
  * Fix: Don't try to connect in main.cpp to another running instance if

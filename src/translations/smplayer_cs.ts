@@ -660,7 +660,7 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../basegui.cpp" line="980"/>
         <source>&amp;Default</source>
-        <translation>&amp;Výchozí</translation>
+        <translation type="obsolete">&amp;Výchozí</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="985"/>

@@ -555,7 +555,7 @@ Você quer sobregravá-lo?</translation>
     <message>
         <location filename="../basegui.cpp" line="980"/>
         <source>&amp;Default</source>
-        <translation>&amp;Padrão</translation>
+        <translation type="obsolete">&amp;Padrão</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="985"/>

@@ -650,7 +650,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="980"/>
         <source>&amp;Default</source>
-        <translation>S&amp;tandard</translation>
+        <translation type="obsolete">S&amp;tandard</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="985"/>

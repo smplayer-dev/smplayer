@@ -89,8 +89,8 @@ void MediaSettings::reset() {
 	mplayer_additional_video_filters="";
 	mplayer_additional_audio_filters="";
 
-	win_width=0;
-	win_height=0;
+	win_width=400;
+	win_height=300;
 }
 
 double MediaSettings::win_aspect() {
@@ -309,5 +309,8 @@ void MediaSettings::load() {
 	starting_time = set->value( "starting_time", starting_time ).toDouble();
 
 	/*set->endGroup();*/
+
+	// ChDefault not used anymore
+	if (audio_use_channels == ChDefault) audio_use_channels = ChStereo;
 }
 

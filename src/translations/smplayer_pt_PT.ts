@@ -555,7 +555,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../basegui.cpp" line="980"/>
         <source>&amp;Default</source>
-        <translation>Por &amp;defeito</translation>
+        <translation type="obsolete">Por &amp;defeito</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="985"/>

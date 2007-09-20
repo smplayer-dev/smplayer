@@ -650,7 +650,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="980"/>
         <source>&amp;Default</source>
-        <translation>&amp;ნაგულისხმები</translation>
+        <translation type="obsolete">&amp;ნაგულისხმები</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="985"/>

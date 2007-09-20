@@ -670,7 +670,7 @@ void BaseGui::createActions() {
 
 	// Audio channels
 	channelsGroup = new MyActionGroup(this);
-	channelsDefaultAct = new MyActionGroupItem(this, channelsGroup, "channels_default", MediaSettings::ChDefault);
+	/* channelsDefaultAct = new MyActionGroupItem(this, channelsGroup, "channels_default", MediaSettings::ChDefault); */
 	channelsStereoAct = new MyActionGroupItem(this, channelsGroup, "channels_stereo", MediaSettings::ChStereo);
 	channelsSurroundAct = new MyActionGroupItem(this, channelsGroup, "channels_surround", MediaSettings::ChSurround);
 	channelsFull51Act = new MyActionGroupItem(this, channelsGroup, "channels_ful51", MediaSettings::ChFull51);
@@ -977,7 +977,7 @@ void BaseGui::retranslateStrings() {
 	stereomode_menu->menuAction()->setText( tr("&Stereo mode") );
 	stereomode_menu->menuAction()->setIcon( Images::icon("stereo_mode") );
 
-	channelsDefaultAct->change( tr("&Default") );
+	/* channelsDefaultAct->change( tr("&Default") ); */
 	channelsStereoAct->change( tr("&Stereo") );
 	channelsSurroundAct->change( tr("&4.0 Surround") );
 	channelsFull51Act->change( tr("&5.1 Surround") );
