@@ -47,6 +47,7 @@ public:
 signals:
 	void receivedOpen(QString);
 	void receivedOpenFiles(QStringList);
+	void receivedAddFiles(QStringList);
 	void receivedFunction(QString);
 
 protected slots:
@@ -92,6 +93,9 @@ signals:
 
 	//! Emitted when the client request to open a list of files.
 	void receivedOpenFiles(QStringList);
+
+	//! Emitted when the client request to add a list of files to the playlist.
+	void receivedAddFiles(QStringList);
 
 	//! Emitted when the client request to perform an action.
 	void receivedFunction(QString);

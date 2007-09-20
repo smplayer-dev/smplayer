@@ -168,6 +168,7 @@ protected slots:
 	// Another instance request open a file
 	virtual void remoteOpen(QString file);
 	virtual void remoteOpenFiles(QStringList files);
+	virtual void remoteAddFiles(QStringList files);
 
 	// stylesheet
 	virtual void loadQss(QString filename);

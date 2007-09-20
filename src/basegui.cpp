@@ -170,6 +170,8 @@ void BaseGui::initializeGui() {
             this, SLOT(remoteOpen(QString)));
 	connect(server, SIGNAL(receivedOpenFiles(QStringList)),
             this, SLOT(remoteOpenFiles(QStringList)));
+	connect(server, SIGNAL(receivedAddFiles(QStringList)),
+            this, SLOT(remoteAddFiles(QStringList)));
 	connect(server, SIGNAL(receivedFunction(QString)),
             this, SLOT(processFunction(QString)));		
 
@@ -200,6 +202,16 @@ void BaseGui::remoteOpenFiles(QStringList files) {
 	openFiles(files);
 }
 
+void BaseGui::remoteAddFiles(QStringList files) {
+	qDebug("BaseGui::remoteAddFiles");
+	if (isMinimized()) showNormal();
+	if (!isVisible()) show();
+	raise();
+	activateWindow();
+
+	playlist->addFiles(files);
+	//open(files[0]);
+}
 
 BaseGui::~BaseGui() {
 	delete core; // delete before mplayerwindow, otherwise, segfault...

@@ -165,7 +165,8 @@ void printHelp(QString parameter, QString help) {
 void showHelp(QString app_name) {
 	printf( "%s\n", formatText(QObject::tr("Usage: %1 [-ini-path [directory]] "
                         "[-send-action action_name] [-actions action_list "
-                        "[-close-at-end] [-help|--help|-h|-?] [[-playlist] media] "
+                        "[-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] "
+                        "[[-playlist] media] "
                         "[[-playlist] media]...").arg(app_name), 80).toLocal8Bit().data() );
 
 	printHelp( "-ini-path", QObject::tr(
@@ -193,6 +194,12 @@ void showHelp(QString app_name) {
 
 	printHelp( "-help", QObject::tr(
 		"will show this message and then will exit.") );
+
+	printHelp( "-add-to-playlist", QObject::tr(
+		"if there's another instance running, the media will be added "
+        "to that instance's playlist. If there's no other instance, "
+        "this option will be ignored and the "
+        "files will be opened in a new instance.") );
 
 	printHelp( QObject::tr("media"), QObject::tr(
 		"'media' is any kind of file that SMPlayer can open. It can "
@@ -229,6 +236,7 @@ int main( int argc, char ** argv )
 	QStringList files_to_play;
 	QString action; // Action to be passed to running instance
 	QString actions_list; // Actions to be run on startup
+	bool add_to_playlist = false;
 
 	QString app_name = QFileInfo(a.applicationFilePath()).baseName();
 	qDebug("main: app name: %s", app_name.toUtf8().data());
@@ -293,6 +301,10 @@ int main( int argc, char ** argv )
 			if (argument == "-close-at-end") {
 				close_at_end = true;
 			}
+			else
+			if (argument == "-add-to-playlist") {
+				add_to_playlist = true;
+			}
 			else {
 				// File
 				if (QFile::exists( argument )) {
@@ -348,7 +360,7 @@ int main( int argc, char ** argv )
 			}
 			else	
 			if (!files_to_play.isEmpty()) {
-				if (c->sendFiles(files_to_play)) {
+				if (c->sendFiles(files_to_play, add_to_playlist)) {
 					qDebug("main: files sent successfully to the running instance");
 	    	        qDebug("main: exiting.");
 				} else {
