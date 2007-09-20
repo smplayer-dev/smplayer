@@ -789,17 +789,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Qt-ს შესახებ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2640"/>
+        <location filename="../basegui.cpp" line="2644"/>
         <source>Playing %1</source>
         <translation>ვუკრავ %1-ს</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2641"/>
+        <location filename="../basegui.cpp" line="2645"/>
         <source>Pause</source>
         <translation>პაუზა</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2642"/>
+        <location filename="../basegui.cpp" line="2646"/>
         <source>Stop</source>
         <translation>შეჩერება</translation>
     </message>

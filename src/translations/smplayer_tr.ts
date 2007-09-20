@@ -860,17 +860,17 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <translation>Qt Hakkında</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2640"/>
+        <location filename="../basegui.cpp" line="2644"/>
         <source>Playing %1</source>
         <translation>%1&apos;i oynatıyor</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2641"/>
+        <location filename="../basegui.cpp" line="2645"/>
         <source>Pause</source>
         <translation>Duraklat</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2642"/>
+        <location filename="../basegui.cpp" line="2646"/>
         <source>Stop</source>
         <translation>Durdur</translation>
     </message>

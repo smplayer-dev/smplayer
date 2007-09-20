@@ -1,5 +1,8 @@
 [b]Version 0.5.61[/b] (not released yet):
 
+(2007-09-20)
+ * Updated the Ukrainian translation.
+
 (2007-09-19)
  * Fix: Don't try to connect in main.cpp to another running instance if
    the single instance is disabled! That also means that the command line
