@@ -330,36 +330,39 @@ int main( int argc, char ** argv )
 		qDebug("main: files_to_play[%d]: '%s'", n, files_to_play[n].toUtf8().data());
 	}
 
-	// Single instance
-	MyClient *c = new MyClient(pref->connection_port);
-	//c->setTimeOut(1000);
-	if (c->openConnection()) {
-		qDebug("main: found another instance");
 
-		if (!action.isEmpty()) {
-			if (c->sendAction(action)) {
-				qDebug("main: action passed successfully to the running instance");
-			} else {
-				printf("Error: action couldn't be passed to the running instance");
+	if (pref->use_single_instance) {
+		// Single instance
+		MyClient *c = new MyClient(pref->connection_port);
+		//c->setTimeOut(1000);
+		if (c->openConnection()) {
+			qDebug("main: found another instance");
+
+			if (!action.isEmpty()) {
+				if (c->sendAction(action)) {
+					qDebug("main: action passed successfully to the running instance");
+				} else {
+					printf("Error: action couldn't be passed to the running instance");
+					return -1;
+				}
+			}
+			else	
+			if (!files_to_play.isEmpty()) {
+				if (c->sendFiles(files_to_play)) {
+					qDebug("main: files sent successfully to the running instance");
+	    	        qDebug("main: exiting.");
+				} else {
+					qDebug("main: files couldn't be sent to another instance");
+				}
+			}
+
+			return 0;
+
+		} else {
+			if (!action.isEmpty()) {
+				printf("Error: no running instance found\r\n");
 				return -1;
 			}
-		}
-		else	
-		if (!files_to_play.isEmpty()) {
-			if (c->sendFiles(files_to_play)) {
-				qDebug("main: files sent successfully to the running instance");
-    	        qDebug("main: exiting.");
-			} else {
-				qDebug("main: files couldn't be sent to another instance");
-			}
-		}
-
-		return 0;
-
-	} else {
-		if (!action.isEmpty()) {
-			printf("Error: no running instance found\r\n");
-			return -1;
 		}
 	}
 

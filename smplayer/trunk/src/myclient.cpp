@@ -24,6 +24,8 @@
 
 MyClient::MyClient(quint16 port, QObject * parent) : QObject(parent) 
 {
+	qDebug("MyClient::MyClient");
+
 	this->port = port;
 	timeout = 200;
 
