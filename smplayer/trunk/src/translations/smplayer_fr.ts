@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -3670,12 +3671,12 @@ Si -playlist est utilisée, cela veut dire que SMPlayer passera l&apos;informati
     <message>
         <location filename="../main.cpp" line="170"/>
         <source>Usage: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="unfinished"></translation>
+        <translation>Usage : %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="202"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si une autre instance est en cours, le media sera ajouté à la  liste de lecture de l&apos;instance. Si il n&apos;y a pas d&apos;autre instance, l&apos;option sera ignorée et les fichiers seront ouverts dans la nouvelle instance.</translation>
     </message>
 </context>
 <context>
