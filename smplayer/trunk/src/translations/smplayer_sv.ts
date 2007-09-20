@@ -555,7 +555,7 @@ Vill du skriva över den?</translation>
     <message>
         <location filename="../basegui.cpp" line="980"/>
         <source>&amp;Default</source>
-        <translation>&amp;Standard</translation>
+        <translation type="obsolete">&amp;Standard</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="985"/>

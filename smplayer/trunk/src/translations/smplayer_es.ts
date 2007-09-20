@@ -555,7 +555,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="980"/>
         <source>&amp;Default</source>
-        <translation>Por &amp;defecto</translation>
+        <translation type="obsolete">Por &amp;defecto</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="985"/>

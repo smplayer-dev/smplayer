@@ -645,7 +645,7 @@ Valóban felül akarja írni ?</translation>
     <message>
         <location filename="../basegui.cpp" line="980"/>
         <source>&amp;Default</source>
-        <translation>Alap&amp;értelmezett</translation>
+        <translation type="obsolete">Alap&amp;értelmezett</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="985"/>

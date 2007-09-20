@@ -555,7 +555,7 @@ Nadpisać?</translation>
     <message>
         <location filename="../basegui.cpp" line="980"/>
         <source>&amp;Default</source>
-        <translation>&amp;Domyślne</translation>
+        <translation type="obsolete">&amp;Domyślne</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="985"/>

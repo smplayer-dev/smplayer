@@ -555,7 +555,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../basegui.cpp" line="980"/>
         <source>&amp;Default</source>
-        <translation>Š&amp;tandard</translation>
+        <translation type="obsolete">Š&amp;tandard</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="985"/>

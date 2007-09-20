@@ -36,11 +36,6 @@ void MediaData::reset() {
 
 	novideo = FALSE;
 
-	// Some defaults in case file is only audio...
-    /*
-	video_width=200;
-    video_height=150;
-	*/
 	video_width=0;
     video_height=0;
     video_aspect= (double) 4/3;

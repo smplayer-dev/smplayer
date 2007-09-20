@@ -522,11 +522,6 @@ Do you want to overwrite?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="980"/>
-        <source>&amp;Default</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="985"/>
         <source>&amp;Stereo</source>
         <translation type="unfinished"></translation>

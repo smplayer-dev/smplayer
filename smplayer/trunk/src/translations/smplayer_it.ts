@@ -650,7 +650,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../basegui.cpp" line="980"/>
         <source>&amp;Default</source>
-        <translation>Pre&amp;definito</translation>
+        <translation type="obsolete">Pre&amp;definito</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="985"/>
