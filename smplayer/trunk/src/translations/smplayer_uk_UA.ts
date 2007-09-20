@@ -745,17 +745,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Про Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2640"/>
+        <location filename="../basegui.cpp" line="2644"/>
         <source>Playing %1</source>
         <translation>Відтворюється %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2641"/>
+        <location filename="../basegui.cpp" line="2645"/>
         <source>Pause</source>
         <translation>Пауза</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2642"/>
+        <location filename="../basegui.cpp" line="2646"/>
         <source>Stop</source>
         <translation>Стоп</translation>
     </message>
@@ -2415,27 +2415,27 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="61"/>
         <source>2 (Stereo)</source>
-        <translation type="unfinished"></translation>
+        <translation>2 (Стерео)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="62"/>
         <source>4 (4.0 Surround)</source>
-        <translation type="unfinished"></translation>
+        <translation>4 (4.0 оточення)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="63"/>
         <source>6 (5.1 Surround)</source>
-        <translation type="unfinished"></translation>
+        <translation>6 (5.1 оточення)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="493"/>
         <source>C&amp;hannels by default:</source>
-        <translation type="unfinished"></translation>
+        <translation>К&amp;анали за умовчанням:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="331"/>
         <source>&amp;Pause when minimized</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Пауза при мінімізації</translation>
     </message>
 </context>
 <context>

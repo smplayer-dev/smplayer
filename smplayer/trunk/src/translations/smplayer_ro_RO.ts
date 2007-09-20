@@ -774,17 +774,17 @@ O fereastră de dialog va fi afişată pentru a putea face configurarea.</transl
         <translation>Despre Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2640"/>
+        <location filename="../basegui.cpp" line="2644"/>
         <source>Playing %1</source>
         <translation>Redare %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2641"/>
+        <location filename="../basegui.cpp" line="2645"/>
         <source>Pause</source>
         <translation>Pauză</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2642"/>
+        <location filename="../basegui.cpp" line="2646"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>

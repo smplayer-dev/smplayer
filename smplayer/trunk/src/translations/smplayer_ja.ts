@@ -775,17 +775,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Qt のバージョン情報</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2640"/>
+        <location filename="../basegui.cpp" line="2644"/>
         <source>Playing %1</source>
         <translation>%1 を再生中</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2641"/>
+        <location filename="../basegui.cpp" line="2645"/>
         <source>Pause</source>
         <translation>一時停止</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2642"/>
+        <location filename="../basegui.cpp" line="2646"/>
         <source>Stop</source>
         <translation>停止</translation>
     </message>
