@@ -55,7 +55,7 @@ void Connection::parseLine(QString str) {
 	qDebug("Connection::parseLine: '%s'", str.toUtf8().data());
 
 	QRegExp rx_open("^open (.*)");
-	QRegExp rx_open_files("^open_files (.*)");
+	QRegExp rx_open_files("(^open_files|^add_files) (.*)");
 	QRegExp rx_function("^(function|f) (.*)");
 
 
@@ -91,21 +91,30 @@ void Connection::parseLine(QString str) {
 		emit receivedOpen(file);
 	} 
 	else
-	if (str.toLower() == "open_files_start") {
+	if ( (str.toLower() == "open_files_start") ||
+         (str.toLower() == "add_files_start") ) 
+	{
 		files_to_open.clear();
 		sendText("OK, send first file");
 	}
 	else
-	if (str.toLower() == "open_files_end") {
+	if ( (str.toLower() == "open_files_end") ||
+         (str.toLower() == "add_files_end") ) 
+	{
 		qDebug("Connection::parseLine: files_to_open:");
 		for (int n=0; n < files_to_open.count(); n++) 
 			qDebug("Connection::parseLine: %d: '%s'", n, files_to_open[n].toUtf8().data());
 		sendText("OK, sending files to GUI");
-		emit receivedOpenFiles(files_to_open);
+
+		if (str.toLower() == "open_files_end")
+			emit receivedOpenFiles(files_to_open);
+		else
+			emit receivedAddFiles(files_to_open);
 	}
 	else
 	if (rx_open_files.indexIn(str) > -1) {
-		QString file = rx_open_files.cap(1);
+		QString file = rx_open_files.cap(2);
+		qDebug("Connection::parseLine: file: '%s'", file.toUtf8().data());
 		files_to_open.append(file);
 		sendText("OK, file received");
 	}
@@ -139,6 +148,8 @@ void MyServer::newConnection_slot() {
             this, SIGNAL(receivedOpen(QString)));
 	connect(c, SIGNAL(receivedOpenFiles(QStringList)),
             this, SIGNAL(receivedOpenFiles(QStringList)));
+	connect(c, SIGNAL(receivedAddFiles(QStringList)),
+            this, SIGNAL(receivedAddFiles(QStringList)));
 	connect(c, SIGNAL(receivedFunction(QString)),
             this, SIGNAL(receivedFunction(QString)));
 }

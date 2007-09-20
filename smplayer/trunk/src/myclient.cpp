@@ -74,7 +74,7 @@ bool MyClient::openConnection() {
 }
 
 
-bool MyClient::sendFiles( const QStringList & files) {
+bool MyClient::sendFiles( const QStringList & files, bool addToPlaylist) {
 	QString line;
 
 	writeLine("open_files_start\r\n");
@@ -86,7 +86,12 @@ bool MyClient::sendFiles( const QStringList & files) {
 		line = readLine();
 		if (!line.startsWith("OK")) return false;
 	}
-	writeLine("open_files_end\r\n");
+
+	if (!addToPlaylist) 
+		writeLine("open_files_end\r\n");
+	else
+		writeLine("add_files_end\r\n");
+
 	writeLine("quit\r\n");
 
 	do {
