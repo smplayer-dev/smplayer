@@ -3603,12 +3603,12 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../main.cpp" line="170"/>
         <source>Usage: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="unfinished"></translation>
+        <translation>使用法: %1 [-ini-path [ディレクトリ]] [-send-action アクション名] [-actions アクションの一覧 [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] メディア] [[-playlist] メディア]...</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="202"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
-        <translation type="unfinished"></translation>
+        <translation>別の起動がある場合、メディアは起動のプレイリストに追加されます。その他の起動がない場合、このオプションは無視されてフィルは新しい起動で開かれます。</translation>
     </message>
 </context>
 <context>
