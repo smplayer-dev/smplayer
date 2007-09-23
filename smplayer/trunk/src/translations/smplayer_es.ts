@@ -1302,7 +1302,7 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../eqslider.ui" line="25"/>
         <source>icon</source>
-        <translation type="unfinished">icon</translation>
+        <translation>icon</translation>
     </message>
 </context>
 <context>
@@ -2410,7 +2410,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefgeneral.cpp" line="449"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cambia dinámicamente el nivel de postprocesado dependiendo del tiempo de CPU disponible. El número que especifique será el mínimo nivel usado. Normalmente puede usar un número grande. </translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="474"/>
@@ -2540,12 +2540,12 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefgeneral.cpp" line="451"/>
         <source>Direct rendering</source>
-        <translation type="unfinished"></translation>
+        <translation>Renderizado directo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="454"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; May cause OSD/SUB corruption!</source>
-        <translation type="unfinished"></translation>
+        <translation>Si está marcado, activa el renderizado directo (no está soportado por todos los codecs y salidas de vídeo)&lt;br&gt;&lt;b&gt;AVISO:&lt;/b&gt; ¡Puede causar corrupción en el OSD y subtítulos!</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="456"/>
@@ -2555,7 +2555,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefgeneral.ui" line="442"/>
         <source>D&amp;irect rendering</source>
-        <translation type="unfinished"></translation>
+        <translation>Renderizado d&amp;irecto</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="449"/>
@@ -2565,7 +2565,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefgeneral.cpp" line="459"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
-        <translation type="unfinished"></translation>
+        <translation>El doble buffer soluciona los problemas de parpadeo almacenando dos imáenes en memoria y mostrando una mientras decodifica la otra. Puede afectar al OSD negativamente, pero a menudo elimina el parpadeo del OSD.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="394"/>
@@ -3109,27 +3109,27 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefperformance.cpp" line="184"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file or URL. Especially useful on slow media.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opción especifica cuanta memoria se usará (en kBytes) cuando se rellene la cache para reproducir un fichero o una URL. Especialmente útil para medios lentos.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="187"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se salta la representación de algunas imágenes para mantener la sincronización audio/vídeo en sistemas lentos.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="189"/>
         <source>Allow hard frame drop</source>
-        <translation type="unfinished"></translation>
+        <translation>Permitir saltar aún más fotogramas</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="191"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
-        <translation type="unfinished"></translation>
+        <translation>Salto mayor de imágenes (puede romper la decodificación). ¡Puede corromper la imagen!</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="195"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajusta gradualmente la sincronización audio/vídeo basada en medidas de retardo de audio.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="71"/>
@@ -3184,7 +3184,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefperformance.cpp" line="202"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Reconstruye el índice de los archivos en los que no se encuentra, permitiendo búsquedas. Es útil con descargas rotas/incompletas, o archivos que están mal creados. Esta opción solo funciona si el medio soporta búsquedas (p.e. no con stdin, pipe, etc).&lt;br&gt;Nota: la creación del índice puede llevar algún tiempo.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="380"/>
