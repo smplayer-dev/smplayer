@@ -2681,7 +2681,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefgeneral.cpp" line="513"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. NOTE: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation>Définit le nombre de canauxaudio à utiliser.(défaut : 2). MPlayer demande audécodeur dedécoder l’audio sur le nombrerequis de canaux. Maintenant c’est audécodeur de satisfaire cettedemande.Généralement,c’est important seulement pour la lecture desvidéos avec de l’audio AC-3(comme les DVDs). Dans ce cas liba52 fait ledécodage pardéfaut et fusionne correctementl’audio dans le nombre requis de canaux.</translation>
+        <translation>Définit le nombre de canaux audio à utiliser. (défaut : 2). MPlayer demande au décodeur dedécoder l’audio sur le nombre requis de canaux. Maintenant c’est au décodeur de satisfaire cette demande. Généralement, c’est important seulement pour la lecture des vidéos avec de l’audio AC-3(comme les DVDs). Dans ce cas liba52 fait le décodage pardéfaut et fusionne correctementl’audio dans le nombre requis de canaux. NOTE: Cette option est comprise par les codecs (AC-3 uniquement), filtres (surround) et pilotes de sortie audio (OSS au moins).</translation>
     </message>
 </context>
 <context>
