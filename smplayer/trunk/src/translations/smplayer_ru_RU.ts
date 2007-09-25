@@ -693,69 +693,69 @@ Do you want to overwrite?</source>
         <translation>&lt;ничего&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2170"/>
+        <location filename="../basegui.cpp" line="2172"/>
         <source>Video</source>
         <translation>Видео</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2339"/>
+        <location filename="../basegui.cpp" line="2343"/>
         <source>Audio</source>
         <translation>Звук</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2174"/>
+        <location filename="../basegui.cpp" line="2176"/>
         <source>Playlists</source>
         <translation>Список</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2340"/>
+        <location filename="../basegui.cpp" line="2344"/>
         <source>All files</source>
         <translation>Все файлы</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2337"/>
+        <location filename="../basegui.cpp" line="2341"/>
         <source>Choose a file</source>
         <translation>Выбрать файл</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2212"/>
+        <location filename="../basegui.cpp" line="2216"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Информация</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2215"/>
+        <location filename="../basegui.cpp" line="2219"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Приводы CD/DVD еще не настроены.
 Вы сможете сделать это в диалоге настроек этих устройст.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2289"/>
+        <location filename="../basegui.cpp" line="2293"/>
         <source>Choose a directory</source>
         <translation>Выбрать каталог</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2324"/>
+        <location filename="../basegui.cpp" line="2328"/>
         <source>Subtitles</source>
         <translation>Субтитры</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2351"/>
+        <location filename="../basegui.cpp" line="2355"/>
         <source>About Qt</source>
         <translation>О Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2656"/>
+        <location filename="../basegui.cpp" line="2663"/>
         <source>Playing %1</source>
         <translation>Воспроизводится %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2657"/>
+        <location filename="../basegui.cpp" line="2664"/>
         <source>Pause</source>
         <translation>Пауза</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2658"/>
+        <location filename="../basegui.cpp" line="2665"/>
         <source>Stop</source>
         <translation>Стоп</translation>
     </message>
@@ -2103,12 +2103,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Видео</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="461"/>
+        <location filename="../prefgeneral.cpp" line="470"/>
         <source>Start videos in fullscreen</source>
         <translation>Открывать видео на весь экран</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="465"/>
+        <location filename="../prefgeneral.cpp" line="474"/>
         <source>Disable screensaver</source>
         <translation>Подавить скринсэйвер</translation>
     </message>
@@ -2218,52 +2218,52 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Здесь вы можете указать предпочитаемый язык для субтитров. Если проигрываемый фильм содержит субтитры на разных языках, то smplayer будет использовать те, которые соответствуют вашим предпочтениям.&lt;br&gt;Все сказанное верно для тех типов мультимедия, которые содержат информацию о языке субтитров, таких как DVD или mkv.&lt;br&gt;Также можно использовать регулярные выражения. Например: &lt;b&gt;es|esp|spa&lt;/b&gt; означает, что будут выбраны субтитры содержащие в названии языка &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="440"/>
+        <location filename="../prefgeneral.cpp" line="446"/>
         <source>Software video equalizer</source>
         <translation>Программный видео-эквалайзер</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="444"/>
+        <location filename="../prefgeneral.cpp" line="450"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>Вы можете поробывать эту опцию, если эквалайзер не поддерживается вашей видео-картой, или выбранным драйвером вывода видео.&lt;br&gt;&lt;b&gt;Обратите внимание:&lt;/b&gt;эта опция несовместима с некоторыми драйверами вывода видео.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="463"/>
+        <location filename="../prefgeneral.cpp" line="472"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>Если эта опция выбрана, все видео будет воспроизводиться &quot;На весь экран&quot; с самого начала.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="468"/>
+        <location filename="../prefgeneral.cpp" line="477"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option works only in X11 and Windows.</source>
         <translation>Выберите эту опцию, чтобы запретить хранитель экрана во время воспроизведения.&lt;br&gt;Как только воспроизведение будет закончено, хранитель экрана снова может быть запущен.&lt;br&gt;&lt;b&gt;Обратите внимание:&lt;/b&gt;Это возможно только в X11 и Windows.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="470"/>
+        <location filename="../prefgeneral.cpp" line="479"/>
         <source>Software volume control</source>
         <translation>Програмное управление громкостью</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="472"/>
+        <location filename="../prefgeneral.cpp" line="481"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>Попробуйте эту опцию для использования программного микшера вместо аппаратного.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="446"/>
+        <location filename="../prefgeneral.cpp" line="455"/>
         <source>Postprocessing quality</source>
         <translation>Качество постобработки</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="449"/>
+        <location filename="../prefgeneral.cpp" line="458"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>Динамическое изменение степени постпроцессинга в зависимости от количества свободного процессорного времени. Указанное вами число будет соответствовать максимальному уровню.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="474"/>
+        <location filename="../prefgeneral.cpp" line="496"/>
         <source>Change volume</source>
         <translation>Управление громкостью</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="477"/>
+        <location filename="../prefgeneral.cpp" line="499"/>
         <source>If checked, SMPlayer will remember the volume for every file and will restore it when played again. For new files the default volume will be used.</source>
         <translation>Если выбрано, то SMPlayer будет запоминать громкость каждого воспроизводимого файла и восстанавливать ее при повторном воспроизведении. Для новых файлов будет использоваться уровень громкости, принятый по-умолчанию.</translation>
     </message>
@@ -2368,17 +2368,17 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>&amp;AC3/DTS через S/PDIF</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="451"/>
+        <location filename="../prefgeneral.cpp" line="460"/>
         <source>Direct rendering</source>
         <translation>Прямой рендеринг</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="454"/>
+        <location filename="../prefgeneral.cpp" line="463"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>Если выбрано - включен прямой рендеринг (поддерживается не всеми кодеками и модулями видео вывода)&lt;br&gt;&lt;b&gt;ВНИМАНИЕ:&lt;/b&gt; Могут возникнуть проблемы с OSD/SUB!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="456"/>
+        <location filename="../prefgeneral.cpp" line="465"/>
         <source>Double buffering</source>
         <translation>Двойная буферизация</translation>
     </message>
@@ -2393,7 +2393,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Двойная &amp;буферизация</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="459"/>
+        <location filename="../prefgeneral.cpp" line="468"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>Двойная буферизация убирает мерцание кадров благодаря тому, что загружает в память два кадра и одновременно отображая один обрабатывает следующий. Выключение этого параметра может негативно сказаться на OSD.</translation>
     </message>
@@ -2445,6 +2445,76 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="331"/>
         <source>&amp;Pause when minimized</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="440"/>
+        <source>Pause when minimized</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="443"/>
+        <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, play will be resumed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="452"/>
+        <source>Enable postprocessing by default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="453"/>
+        <source>Posprocessing will be used by default on new open files.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="483"/>
+        <source>Max. Amplification</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="490"/>
+        <source>AC3/DTS pass-through S/PDIF</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="493"/>
+        <source>Volume normalization by default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="494"/>
+        <source>Maximizes the volume without distorting the sound.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="501"/>
+        <source>Default volume</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="502"/>
+        <source>Sets the initial volume that new files will use.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="504"/>
+        <source>Channels by default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="488"/>
+        <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="491"/>
+        <source>Uses hardware AC3 passthrough</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="513"/>
+        <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. NOTE: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

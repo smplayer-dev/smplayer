@@ -437,11 +437,20 @@ void PrefGeneral::createHelp() {
 		tr("If this option is checked, the main window will be automatically "
 		   "closed when the current file/playlist finishes.") );
 
+	setWhatsThis(pause_if_hidden_check, tr("Pause when minimized"),
+		tr("If this option is enabled, the file will be paused when the "
+           "main window is hidden. When the window is restored, play will be "
+           "resumed.") );
+
+	// Video/audio tab
 	setWhatsThis(eq2_check, tr("Software video equalizer"),
 		tr("You can check this option if video equalizer is not supported by "
            "your graphic card or the selected video output driver.<br>"
            "<b>Note:</b> this option can be incompatible "
            "with some video output drivers.") );
+
+	setWhatsThis(postprocessing_check, tr("Enable postprocessing by default"),
+		tr("Posprocessing will be used by default on new open files.") );
 
 	setWhatsThis(autoq_spin, tr("Postprocessing quality"),
 		tr("Dynamically changes the level of postprocessing depending on the "
@@ -471,10 +480,37 @@ void PrefGeneral::createHelp() {
 		tr("Check this option to use the software mixer, instead of "
            "using the sound card mixer.") );
 
+	setWhatsThis(softvol_max_spin, tr("Max. Amplification"),
+		tr("Sets the maximum amplification level in percent (default: 110). "
+           "A value of 200 will allow you to adjust the volume up to a "
+           "maximum of double the current level. With values below 100 the "
+           "initial volume (which is 100%) will be above the maximum, which "
+           "e.g. the OSD cannot display correctly.") );
+
+	setWhatsThis(hwac3_check, tr("AC3/DTS pass-through S/PDIF"),
+		tr("Uses hardware AC3 passthrough") );
+
+	setWhatsThis(volnorm_check, tr("Volume normalization by default"),
+		tr("Maximizes the volume without distorting the sound.") );
+
 	setWhatsThis(change_volume_check, tr("Change volume"),
 		tr("If checked, SMPlayer will remember the volume for every file "
            "and will restore it when played again. For new files the default "
            "volume will be used.") );
+
+	setWhatsThis(initial_volume_slider, tr("Default volume"),
+		tr("Sets the initial volume that new files will use.") );
+
+	setWhatsThis(channels_combo, tr("Channels by default"),
+		tr("Requests the number of playback channels. MPlayer "
+           "asks the decoder to decode the audio into as many channels as "
+           "specified. Then it is up to the decoder to fulfill the "
+           "requirement. This is usually only important when playing "
+           "videos with AC3 audio (like DVDs). In that case liba52 does "
+           "the decoding by default and correctly downmixes the audio "
+           "into the requested number of channels. "
+           "NOTE: This option is honored by codecs (AC3 only), "
+           "filters (surround) and audio output drivers (OSS at least).") );
 }
 
 #include "moc_prefgeneral.cpp"

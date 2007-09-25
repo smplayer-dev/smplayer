@@ -738,68 +738,68 @@ Do you want to overwrite?</source>
         <translation>&lt;ცარიელია&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2170"/>
+        <location filename="../basegui.cpp" line="2172"/>
         <source>Video</source>
         <translation>ვიდეო</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2339"/>
+        <location filename="../basegui.cpp" line="2343"/>
         <source>Audio</source>
         <translation>აუდიო</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2174"/>
+        <location filename="../basegui.cpp" line="2176"/>
         <source>Playlists</source>
         <translation>რეპერტუარები</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2340"/>
+        <location filename="../basegui.cpp" line="2344"/>
         <source>All files</source>
         <translation>ყველა ფაილი</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2337"/>
+        <location filename="../basegui.cpp" line="2341"/>
         <source>Choose a file</source>
         <translation>აირჩიეთ ფაილი</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2212"/>
+        <location filename="../basegui.cpp" line="2216"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - ინფორმაცია</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2215"/>
+        <location filename="../basegui.cpp" line="2219"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CDROM / DVD ამძრავები ჯერ არ არის გამართული.(new line)კონფიგურაციის დიალოგი ახლა გამოჩნდება, შეგიძლიათ გამართოთ ისინი.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2289"/>
+        <location filename="../basegui.cpp" line="2293"/>
         <source>Choose a directory</source>
         <translation>აირჩიეთ დასტა</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2324"/>
+        <location filename="../basegui.cpp" line="2328"/>
         <source>Subtitles</source>
         <translation>სუბტიტრები</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2351"/>
+        <location filename="../basegui.cpp" line="2355"/>
         <source>About Qt</source>
         <translation>Qt-ს შესახებ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2656"/>
+        <location filename="../basegui.cpp" line="2663"/>
         <source>Playing %1</source>
         <translation>ვუკრავ %1-ს</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2657"/>
+        <location filename="../basegui.cpp" line="2664"/>
         <source>Pause</source>
         <translation>პაუზა</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2658"/>
+        <location filename="../basegui.cpp" line="2665"/>
         <source>Stop</source>
         <translation>შეჩერება</translation>
     </message>
@@ -2197,12 +2197,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="obsolete">პროგრამული ვიდეოეკვალაიზერის გამოყენება</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="461"/>
+        <location filename="../prefgeneral.cpp" line="470"/>
         <source>Start videos in fullscreen</source>
         <translation type="unfinished">ვიდეოს მთელს ეკრანზე გაშვება</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="465"/>
+        <location filename="../prefgeneral.cpp" line="474"/>
         <source>Disable screensaver</source>
         <translation type="unfinished">ეკრანმზოგის გათიშვა</translation>
     </message>
@@ -2317,52 +2317,52 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished">აქ თქვენ შეგიძლიათ მიუთითოთ თქვენი პრიორიტეტული ენა სუბტიტრებისათვის. როდესაც აღმოჩენილი იქნება მატარებელი რამოდენიმე სუბტიტრით, smplayer ეცდება გამოიყენოს პრიორიტეტული ენა.&lt;br&gt;ეს პარაემეტრი იმუშავებს მხოლოდ იმ მატარებლებთან სადაც მითითებულია ინფორმაცია სუბტიტრების ენების შესახებ, როგორიცაა DVD ან mkv ფაილები.&lt;br&gt;შესაძლებელია რეგულარული გამოსახულებების შეყვანა. მაგალითად: &lt;b&gt;es|esp|spa&lt;/b&gt; აირჩევს აუდიონაკადს რომელიც ემთხვევა &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ან &lt;i&gt;spa&lt;/i&gt;-ს.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="440"/>
+        <location filename="../prefgeneral.cpp" line="446"/>
         <source>Software video equalizer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="444"/>
+        <location filename="../prefgeneral.cpp" line="450"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation type="unfinished">თქვენ შეგიძლიათ მონიშნოთ ეს პარამეტრი თუ თქვენს გრაფიკულ დაფას ან გამომყვან დრაივერს არ აქვს ვიდეოეკვალაიზერი.&lt;br&gt;&lt;b&gt;შენიშვნა:&lt;/b&gt; ეს პარამეტრში შეიძლება არათავსებადი აღმოჩნდეს ზოგიერთ გამომყვან დრაივერთან.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="463"/>
+        <location filename="../prefgeneral.cpp" line="472"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation type="unfinished">თუ ეს პარამეტრი მონიშნულია, მაშინ ყველა ვიდეო გაიშვებს სრულეკრანიან რეჟიმში.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="468"/>
+        <location filename="../prefgeneral.cpp" line="477"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option works only in X11 and Windows.</source>
         <translation type="unfinished">მონიშნეთ ეს პარამეტრი ეკრანმზოგის დაკვრის დროს გათიშვისთვის.&lt;br&gt;ეკრანმზოგი ისევ ჩაირთვება როდესაც დაკვრას დაასრულებთ.&lt;br&gt;&lt;b&gt;შენიშვნა:&lt;/b&gt; ეს პარამეტრი მუშაობს მხოლოდ X11-ში და Windows-ში.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="470"/>
+        <location filename="../prefgeneral.cpp" line="479"/>
         <source>Software volume control</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="472"/>
+        <location filename="../prefgeneral.cpp" line="481"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation type="unfinished">მონიშნეთ ეს პარამეტრი აუდიოდაფის მიქშერის მაგივრად პროგრამული მიქშერის გამოსაყენებლად.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="446"/>
+        <location filename="../prefgeneral.cpp" line="455"/>
         <source>Postprocessing quality</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="449"/>
+        <location filename="../prefgeneral.cpp" line="458"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation type="unfinished">დინამიურად ცვლის შემდგომი დამუშავების დონეს პროცესორის დატვირთვის მიხედვით. თქვენს მიერ მითითებული რიცხვი იქნება მაქსიმალური დონე. როგორც წესი უთითებენ რაღაც დიდ რიცხვს.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="474"/>
+        <location filename="../prefgeneral.cpp" line="496"/>
         <source>Change volume</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="477"/>
+        <location filename="../prefgeneral.cpp" line="499"/>
         <source>If checked, SMPlayer will remember the volume for every file and will restore it when played again. For new files the default volume will be used.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2472,17 +2472,17 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="451"/>
+        <location filename="../prefgeneral.cpp" line="460"/>
         <source>Direct rendering</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="454"/>
+        <location filename="../prefgeneral.cpp" line="463"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="456"/>
+        <location filename="../prefgeneral.cpp" line="465"/>
         <source>Double buffering</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2497,7 +2497,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="459"/>
+        <location filename="../prefgeneral.cpp" line="468"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2549,6 +2549,76 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="331"/>
         <source>&amp;Pause when minimized</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="440"/>
+        <source>Pause when minimized</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="443"/>
+        <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, play will be resumed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="452"/>
+        <source>Enable postprocessing by default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="453"/>
+        <source>Posprocessing will be used by default on new open files.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="483"/>
+        <source>Max. Amplification</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="490"/>
+        <source>AC3/DTS pass-through S/PDIF</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="493"/>
+        <source>Volume normalization by default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="494"/>
+        <source>Maximizes the volume without distorting the sound.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="501"/>
+        <source>Default volume</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="502"/>
+        <source>Sets the initial volume that new files will use.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="504"/>
+        <source>Channels by default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="488"/>
+        <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="491"/>
+        <source>Uses hardware AC3 passthrough</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="513"/>
+        <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. NOTE: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
