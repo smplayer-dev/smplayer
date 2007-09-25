@@ -6,6 +6,7 @@
    matched with a subtitle extension (*.rt), so it was tried to be loaded
    as a subtitle.
  * Added help messages for all options in Preferences->General.
+ * Updated the Dutch and Polish translations.
 
 (2007-09-23)
  * Updated the Romanian translation.

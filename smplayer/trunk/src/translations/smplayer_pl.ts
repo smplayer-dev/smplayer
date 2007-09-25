@@ -2279,7 +2279,7 @@ Aby odtwarzać z cdrom lub dvd musisz ustawić napęd cdrom i dvd (może być te
     <message>
         <location filename="../prefgeneral.cpp" line="490"/>
         <source>AC3/DTS pass-through S/PDIF</source>
-        <translation type="unfinished">AC3/DTS pass-through S/PDIF</translation>
+        <translation>AC3/DTS pass-through S/PDIF</translation>
     </message>
     <message>
         <location filename="" line="1769234796"/>
@@ -2640,66 +2640,71 @@ trochę wyższą wartość.
     <message>
         <location filename="../prefgeneral.cpp" line="440"/>
         <source>Pause when minimized</source>
-        <translation type="unfinished"></translation>
+        <translation>Pauza gdy minimalizujesz</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="443"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, play will be resumed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli opcja ta jest włączona, plik zostanie zapauzowany gdy okno główne jest ukryte. Gdy okno główne zostanie przywrócone, odtwaarzanie zostanie wznowione.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="452"/>
         <source>Enable postprocessing by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Włącz domyślne przetwarzanie końcowe</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="453"/>
         <source>Posprocessing will be used by default on new open files.</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Przetwarzanie końcowe będzie użyte domyślnie dla nowo otwartych plików.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="483"/>
         <source>Max. Amplification</source>
-        <translation type="unfinished"></translation>
+        <translation>Maksymalne wzmocnienie</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="493"/>
         <source>Volume normalization by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Domyślna normalizacja głośności</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="494"/>
         <source>Maximizes the volume without distorting the sound.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zwiększ głośność bez zniekształcenia dźwięku.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="501"/>
         <source>Default volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Domyślna głośność</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="502"/>
         <source>Sets the initial volume that new files will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ustaw początkową głośność dla nowych plików.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="504"/>
         <source>Channels by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Domyślnie kanały</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="488"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ustaw maksymalny poziom wzmocnienia w procentach (domyślnie: 110). Wartość 200 pozwoli wyregulować głośność do maksymalnie podwójnego bieżącego poziomu. Z wartościami poniżej 100 początkowa głośność (która wynosi 100%) będzie powyżej maksimum, której np. OSD nie wyświetli poprawnie. </translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="491"/>
         <source>Uses hardware AC3 passthrough</source>
-        <translation type="unfinished"></translation>
+        <translation>Użyj sprzętowego przejścia AC3 (AC3 passthrough)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="513"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. NOTE: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
+        <translation>Prośba o ilość kanałów odtwarzania. MPlayer pyta dekoder na jak wiele przewidzianych kanałów dekodować audio. Następnie żądanie to zostaje wykonane przez dekoder. Jest to istotne tylko gdy odtwarzane jest wideo z audio AC3 (takie jak DVD). W takim przypadku domyślnie dekoduje liba52 i poprawnie miksuje audio do wymaganych kanałów. NOTKA: Opcja ta działa tylko z kodekami (tylko AC3), filtrami (surround) i sterownikami wyjściowymi audio (co najmniej OSS).</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="453"/>
+        <source>Postprocessing will be used by default on new opened files.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3700,12 +3705,12 @@ obrazu). Może to powodować zniekształcenia obrazu!</translation>
     <message>
         <location filename="../main.cpp" line="170"/>
         <source>Usage: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="unfinished"></translation>
+        <translation>Użycie: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="202"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
-        <translation type="unfinished"></translation>
+        <translation>jeśli uruchomiona jest inna kopia programu, media zostaną dodane do jej listy odtwarzania. Jeśli nie ma innej kopii programu, opcja ta jest ignorowana i pliki zostana otwarte w nowej kopii programu.</translation>
     </message>
 </context>
 <context>
