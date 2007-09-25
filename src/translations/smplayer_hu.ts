@@ -643,7 +643,7 @@ Valóban felül akarja írni ?</translation>
         <translation>&amp;Sztereo Mód</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="980"/>
+        <location filename="../../../../../../usr/src/RPM/BUILD/smplayer-0.5.58/src/basegui.cpp" line="950"/>
         <source>&amp;Default</source>
         <translation type="obsolete">Alap&amp;értelmezett</translation>
     </message>
@@ -2540,13 +2540,13 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="493"/>
-        <source>C&amp;hannels by default:</source>
+        <location filename="../prefgeneral.ui" line="331"/>
+        <source>&amp;Pause when minimized</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="331"/>
-        <source>&amp;Pause when minimized</source>
+        <location filename="../prefgeneral.ui" line="493"/>
+        <source>C&amp;hannels by default:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3469,7 +3469,7 @@ Ez az opció adja meg, hogy mennyi memóriát (kBytekben) használjon az újrat�
         <translation>Ez az SMPlayer v. %1 ami %2 fut</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="169"/>
+        <location filename="../../../../../../usr/src/RPM/BUILD/smplayer-0.5.58/src/main.cpp" line="169"/>
         <source>Usage: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
         <translation type="obsolete">Használat: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>

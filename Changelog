@@ -1,5 +1,8 @@
 [b]Version 0.5.61[/b] (not released yet):
 
+(2007-09-25)
+ * Updated the Hungarian translation.
+
 (2007-09-23)
  * Updated the Romanian translation.
  * Added *.ra to the list of audio files. This fixes bug #1799930.
