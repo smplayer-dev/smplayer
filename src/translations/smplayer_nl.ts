@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1">
+<!DOCTYPE TS><TS version="1.1" language="nl">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -413,32 +413,32 @@ Wil je het overschrijven?</translation>
         <translation>&amp;Automatisch detecteren</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>&amp;4:3</source>
         <translation type="obsolete">&amp;4:3</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>&amp;5:4</source>
         <translation type="obsolete">&amp;5:4</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>&amp;14:9</source>
         <translation type="obsolete">&amp;14:9</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>16:&amp;9</source>
         <translation type="obsolete">16:&amp;9</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>1&amp;6:10</source>
         <translation type="obsolete">1&amp;6:10</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>&amp;2.35:1</source>
         <translation type="obsolete">&amp;2.35:1</translation>
     </message>
@@ -553,7 +553,7 @@ Wil je het overschrijven?</translation>
         <translation>&amp;Filters</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="980"/>
+        <location filename="../../../basegui.cpp" line="980"/>
         <source>&amp;Default</source>
         <translation type="obsolete">&amp;Standaard</translation>
     </message>
@@ -790,17 +790,17 @@ Het configuratie dialoogvenster zal nu getoond worden, zodat je dit nu kan doen.
         <translation>Stop</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>De&amp;noise</source>
         <translation type="obsolete">De&amp;noise</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>N&amp;ormal</source>
         <translation type="obsolete">N&amp;ormaal</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>&amp;Soft</source>
         <translation type="obsolete">&amp;Zacht</translation>
     </message>
@@ -985,7 +985,7 @@ Het configuratie dialoogvenster zal nu getoond worden, zodat je dit nu kan doen.
         <translation>Gamma verhogen</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="848"/>
+        <location filename="../../../basegui.cpp" line="848"/>
         <source>Toggle double size</source>
         <translation type="obsolete">Dubbele grootte</translation>
     </message>
@@ -1052,12 +1052,12 @@ Het configuratie dialoogvenster zal nu getoond worden, zodat je dit nu kan doen.
     <message>
         <location filename="../basegui.cpp" line="785"/>
         <source>Flip i&amp;mage</source>
-        <translation type="unfinished"></translation>
+        <translation>Draai a&amp;fbeelding</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="884"/>
         <source>&amp;Toggle double size</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zet dubbele grootte aan/uit</translation>
     </message>
 </context>
 <context>
@@ -1083,7 +1083,7 @@ Het configuratie dialoogvenster zal nu getoond worden, zodat je dit nu kan doen.
         <translation>&amp;Herstellen</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>&amp;Recent files</source>
         <translation type="obsolete">&amp;Recente bestanden</translation>
     </message>
@@ -1159,7 +1159,7 @@ Het configuratie dialoogvenster zal nu getoond worden, zodat je dit nu kan doen.
         <translation>Ondertitel</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Playlist</source>
         <translation type="obsolete">Afspeellijst</translation>
     </message>
@@ -1896,7 +1896,7 @@ Wil je de afspeellijst opslaan?</translation>
         <translation>Automatisch</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Form</source>
         <translation type="obsolete">Formulier</translation>
     </message>
@@ -2086,12 +2086,12 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>icoon</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Select your CD device:</source>
         <translation type="obsolete">Kies CD apparaat:</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Select your DVD device:</source>
         <translation type="obsolete">Kies DVD apparaat:</translation>
     </message>
@@ -2144,22 +2144,22 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>Paden</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Select...</source>
         <translation type="obsolete">Kiezen...</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Folder for storing screenshots:</source>
         <translation type="obsolete">Map om schermafdrukken in op te slaan:</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Search...</source>
         <translation type="obsolete">Zoeken...</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Select the MPlayer executable:</source>
         <translation type="obsolete">Kies het mplayer uitvoerbaar bestand:</translation>
     </message>
@@ -2169,12 +2169,12 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>Uitvoer drivers</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Video:</source>
         <translation type="obsolete">Video:</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Audio:</source>
         <translation type="obsolete">Audio:</translation>
     </message>
@@ -2184,12 +2184,12 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>Media instellingen</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Remember settings for all files (audio track, subtitles...)</source>
         <translation type="obsolete">Onthoud instellingen voor alle bestanden (audiospoor, ondertitels...)</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Don&apos;t remember time position (files start playing from the beginning)</source>
         <translation type="obsolete">Positie niet onthouden (bestanden starten met afspelen vanaf het begin)</translation>
     </message>
@@ -2199,7 +2199,7 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>Voorkeur voor audio en ondertitels</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Subtitles:</source>
         <translation type="obsolete">Ondertitels:</translation>
     </message>
@@ -2214,7 +2214,7 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Use software video equalizer</source>
         <translation type="obsolete">Gebruik software video equalizer</translation>
     </message>
@@ -2234,7 +2234,7 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Use software volume control</source>
         <translation type="obsolete">Gebruik software volumeregeling</translation>
     </message>
@@ -2389,7 +2389,7 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>Als deze optie is aangevinkt, dan zal SMPlayer het geluidsniveau van elk bestand onthouden. Voor nieuwe bestanden wordt het standaard geluidsniveau gebruikt.</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Default volume:</source>
         <translation type="obsolete">Standaardvolume:</translation>
     </message>
@@ -2551,27 +2551,27 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
     <message>
         <location filename="../prefgeneral.cpp" line="61"/>
         <source>2 (Stereo)</source>
-        <translation type="unfinished"></translation>
+        <translation>2 (Stereo)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="62"/>
         <source>4 (4.0 Surround)</source>
-        <translation type="unfinished"></translation>
+        <translation>4 (4.0 Surround)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="63"/>
         <source>6 (5.1 Surround)</source>
-        <translation type="unfinished"></translation>
+        <translation>6 (5.1 Surround)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="493"/>
         <source>C&amp;hannels by default:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Standaard kanalen:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="331"/>
         <source>&amp;Pause when minimized</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pauzeer wanneer geminimaliseerd</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="440"/>
@@ -2590,7 +2590,7 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="453"/>
-        <source>Posprocessing will be used by default on new open files.</source>
+        <source>Postprocessing will be used by default on new opened files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2599,8 +2599,18 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../prefgeneral.cpp" line="488"/>
+        <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefgeneral.cpp" line="490"/>
         <source>AC3/DTS pass-through S/PDIF</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="491"/>
+        <source>Uses hardware AC3 passthrough</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2626,16 +2636,6 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
     <message>
         <location filename="../prefgeneral.cpp" line="504"/>
         <source>Channels by default</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="488"/>
-        <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="491"/>
-        <source>Uses hardware AC3 passthrough</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2987,12 +2987,12 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
     <message>
         <location filename="../prefinterface.ui" line="420"/>
         <source>Default font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Standaard lettertype:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="434"/>
         <source>&amp;Change...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Verander...</translation>
     </message>
 </context>
 <context>
@@ -3018,7 +3018,7 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>Kies de prioriteit van het MPlayer proces.</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Priority:</source>
         <translation type="obsolete">Prioriteit:</translation>
     </message>
@@ -3073,7 +3073,7 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>Frame drops toestaan</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Allow hard frame drop (can lead to image distortion)</source>
         <translation type="obsolete">Harde frame drops toestaan (kan leiden tot beeldvervorming)</translation>
     </message>
@@ -3088,17 +3088,17 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>Audio/video automatische synchronisatie</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Factor:</source>
         <translation type="obsolete">Factor:</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Fast audio track switching</source>
         <translation type="obsolete">Snelle audio spoor wisseling</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Fast seek to chapters in dvds</source>
         <translation type="obsolete">Snel zoeken naar hoofdstukken bij dvds</translation>
     </message>
@@ -3185,17 +3185,17 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
     <message>
         <location filename="../prefperformance.cpp" line="197"/>
         <source>Create index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>Maak index wanneer nodig</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="202"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Herbouwt index van bestanden wanneer er geen index is gevonden, waardoor zoeken mogelijk is. Handig bij onderbroken/niet complete downloads, of slecht gemaakte bestanden. De optie werkt alleen als de onderliggende media zoeken ondersteunt (d.w.z. niet met stdin, pipe, etc).&lt;br&gt;Let op: het aanmaken van de index kan redelijk wat tijd in beslag nemen.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="380"/>
         <source>&amp;Create index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Maak index wanneer nodig</translation>
     </message>
 </context>
 <context>
@@ -3226,12 +3226,12 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>Automatisch laden</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Autoload subtitles files (*.srt, *.sub...):</source>
         <translation type="obsolete">Automatisch ondertitels laden (*.srt, *.sub...):</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Select first available subtitle</source>
         <translation type="obsolete">Kies eerste ondertitel die beschikbaar is</translation>
     </message>
@@ -3251,7 +3251,7 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>Alle ondertitels in map</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Default subtitle encoding:</source>
         <translation type="obsolete">Standaard ondertitel encodering:</translation>
     </message>
@@ -3261,7 +3261,7 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>Plaatsing</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Default position of the subtitles on screen</source>
         <translation type="obsolete">Standaard plaatsing van ondertitels op het scherm</translation>
     </message>
@@ -3281,7 +3281,7 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>Onderaan</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Include subtitles on screenshots</source>
         <translation type="obsolete">Ondertitels weergeven op schermafdrukken</translation>
     </message>
@@ -3296,17 +3296,17 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>Lettertype</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>TTF font:</source>
         <translation type="obsolete">TTF lettertype:</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Search...</source>
         <translation type="obsolete">Zoeken...</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>System font:</source>
         <translation type="obsolete">Systeemlettertype:</translation>
     </message>
@@ -3321,7 +3321,7 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>Grootte</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Autoscale:</source>
         <translation type="obsolete">Automatisch schalen:</translation>
     </message>
@@ -3346,7 +3346,7 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>Evenredig met diagonaal van film</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Scale:</source>
         <translation type="obsolete">Schalen:</translation>
     </message>
@@ -3361,17 +3361,17 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>De nieuwe SSA/ASS bibliotheek levert mooie stijlvolle ondertitels voor externe SSA/ASS ondertitelbestanden en Matroska sporen. Maar het kan ook gebruikt worden voor andere formaten zoals SUB en SRT bestanden.</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Use SSA/ASS library for subtitle rendering</source>
         <translation type="obsolete">Gebruik SSA/ASS bibliotheek voor ondertitel rendering</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Text color:</source>
         <translation type="obsolete">Tekstkleur:</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Border color:</source>
         <translation type="obsolete">Randkleur:</translation>
     </message>
@@ -3381,7 +3381,7 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>De stijl voor SSA/ASS ondertitels kan hier aangepast worden. Het kan ook gebruikt worden om de rendering van SRT of SUB ondertitels te verfijnen door de SSA/ASS bibliotheek te gebruiken. Voorbeeld: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="" line="0"/>
+        <location filename="../../../tmp" line="0"/>
         <source>Styles:</source>
         <translation type="obsolete">Stijlen:</translation>
     </message>
@@ -3577,7 +3577,7 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>Dit is SMPlayer v. %1 draaiend op %2</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="169"/>
+        <location filename="../../../main.cpp" line="169"/>
         <source>Usage: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
         <translation type="obsolete">Gebruik: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
@@ -3599,12 +3599,12 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
     <message>
         <location filename="../main.cpp" line="170"/>
         <source>Usage: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruik: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="202"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als er een instantie van het programma draait zal de media worden toegevoegd aan de speellijst van die instantie. Als er geen instantie draait zal deze optie worden genegeerd en dan worden de bestanden geopend in een nieuwe instantie van het programma.</translation>
     </message>
 </context>
 <context>

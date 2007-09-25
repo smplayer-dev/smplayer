@@ -450,7 +450,7 @@ void PrefGeneral::createHelp() {
            "with some video output drivers.") );
 
 	setWhatsThis(postprocessing_check, tr("Enable postprocessing by default"),
-		tr("Posprocessing will be used by default on new open files.") );
+		tr("Postprocessing will be used by default on new opened files.") );
 
 	setWhatsThis(autoq_spin, tr("Postprocessing quality"),
 		tr("Dynamically changes the level of postprocessing depending on the "

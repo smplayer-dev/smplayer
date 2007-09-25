@@ -2635,7 +2635,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefgeneral.cpp" line="453"/>
         <source>Posprocessing will be used by default on new open files.</source>
-        <translation>El postprocesado será usado por defecto en los nuevos ficheros que se abran.</translation>
+        <translation type="obsolete">El postprocesado será usado por defecto en los nuevos ficheros que se abran.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="483"/>
@@ -2681,6 +2681,11 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <location filename="../prefgeneral.cpp" line="513"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. NOTE: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation>Cambia el número de canales de reproducción. MPlayer pide al decodificador que decodifique el audio en tantos canales como se hayan especificado. Entonces depende del decodificador cumplir con la petición. Normalmente sólo es importante cuando se reproducen vídeos con audio AC3 (como los DVDs). En ese caso la liba52 realiza la decodificación por defecto y mezcla correctamente el audio en el número de canales que se han pedido. NOTA: Esta opción es respetada por los codecs (AC3 solo), filtros (surround) y controladores de audio (al menos OSS).</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="453"/>
+        <source>Postprocessing will be used by default on new opened files.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
