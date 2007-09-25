@@ -2066,6 +2066,8 @@ void BaseGui::openRecent() {
 }
 
 void BaseGui::open(QString file) {
+	qDebug("BaseGui::open: '%s'", file.toUtf8().data());
+
 	// If file is a playlist, open that playlist
 	QString extension = QFileInfo(file).suffix().toLower();
 	if ( (extension=="m3u") || (extension=="m3u8") ) {
@@ -2180,6 +2182,8 @@ void BaseGui::openFile() {
 }
 
 void BaseGui::openFile(QString file) {
+	qDebug("BaseGui::openFile: '%s'", file.toUtf8().data());
+
    if ( !file.isEmpty() ) {
 
 		//playlist->clear();
@@ -2555,9 +2559,10 @@ void BaseGui::dropEvent( QDropEvent *e ) {
 		if (files.count() == 1) {
 			QFileInfo fi( files[0] );
 
-			QRegExp ext_sub("srt|sub|ssa|ass|idx|txt|smi|rt|utf|aqt");
+			QRegExp ext_sub("^srt$|^sub$|^ssa$|^ass$|^idx$|^txt$|^smi$|^rt$|^utf$|^aqt$");
 			ext_sub.setCaseSensitivity(Qt::CaseInsensitive);
 			if (ext_sub.indexIn(fi.suffix()) > -1) {
+				qDebug( "BaseGui::dropEvent: loading sub: '%s'", files[0].toUtf8().data());
 				core->loadSub( files[0] );
 			}
 			else
@@ -2573,6 +2578,8 @@ void BaseGui::dropEvent( QDropEvent *e ) {
 				}
 			}
 		} else {
+			// More than one file
+			qDebug("BaseGui::dropEvent: adding files to playlist");
 			playlist->clear();
 			playlist->addFiles(files);
 			//openFile( files[0] );
