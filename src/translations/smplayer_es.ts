@@ -2685,7 +2685,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefgeneral.cpp" line="453"/>
         <source>Postprocessing will be used by default on new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>El postprocesado será usado por defecto en los nuevos ficheros que se abran.</translation>
     </message>
 </context>
 <context>
