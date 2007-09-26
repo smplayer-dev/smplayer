@@ -2760,6 +2760,46 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <source>&amp;Wheel function:</source>
         <translation>&amp;Función de la rueda:</translation>
     </message>
+    <message>
+        <location filename="../prefinput.cpp" line="138"/>
+        <source>Shortcut editor</source>
+        <translation>Editor de atajos</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="147"/>
+        <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
+        <translation>Esta tabla te permite cambiar los atajos del teclado para la mayoría de las acciones disponibles. Haz doble click o pulsa intro sobre una acción, o pulsa el botón &lt;b&gt;Modificar atajo&lt;/b&gt; para abrir el diálogo &lt;i&gt;Modificar atajo&lt;/i&gt;. Hay dos maneras de cambiar un atajo: si el botón &lt;b&gt;Capturar&lt;/b&gt; está activado, entonces simplemente presiona la nueva tecla o combinación de teclas que desees asignar para la acción (desafortunadamente no funciona con todas las teclas). Si el botón &lt;b&gt;Capturar&lt;/b&gt; está desactivado entonces puedes teclear el nombre completo de la tecla.</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="149"/>
+        <source>Left click</source>
+        <translation>Botón izquierdo</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="150"/>
+        <source>Select the action for left click on the mouse.</source>
+        <translation>Selecciona la acción para el botón izquierdo del ratón.</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="152"/>
+        <source>Double click</source>
+        <translation>Doble click</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="153"/>
+        <source>Select the action for double click on the mouse.</source>
+        <translation>Selecciona la acción para el doble click del ratón.</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="155"/>
+        <source>Wheel function</source>
+        <translation>Función de la rueda</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="156"/>
+        <source>Select the action for the mouse wheel.</source>
+        <translation>Selecciona la acción para la rueda del ratón.</translation>
+    </message>
 </context>
 <context>
     <name>PrefInterface</name>
@@ -3157,14 +3197,14 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <translation type="obsolete">Factor:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="353"/>
+        <location filename="../prefperformance.cpp" line="197"/>
         <source>Fast audio track switching</source>
-        <translation type="obsolete">Cambio rápido de pista de audio</translation>
+        <translation>Cambio rápido de pista de audio</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="360"/>
+        <location filename="../prefperformance.cpp" line="201"/>
         <source>Fast seek to chapters in dvds</source>
-        <translation type="obsolete">Selección rápida de capítulos en dvds</translation>
+        <translation>Selección rápida de capítulos en dvds</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="177"/>
@@ -3247,12 +3287,12 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <translation>&amp;Selección rápida de capítulos en dvds</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="197"/>
+        <location filename="../prefperformance.cpp" line="205"/>
         <source>Create index if needed</source>
         <translation>Crear un índice si es necesario</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="202"/>
+        <location filename="../prefperformance.cpp" line="210"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
         <translation>Reconstruye el índice de los archivos en los que no se encuentra, permitiendo búsquedas. Es útil con descargas rotas/incompletas, o archivos que están mal creados. Esta opción solo funciona si el medio soporta búsquedas (p.e. no con stdin, pipe, etc).&lt;br&gt;Nota: la creación del índice puede llevar algún tiempo.</translation>
     </message>
@@ -3260,6 +3300,16 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <location filename="../prefperformance.ui" line="380"/>
         <source>&amp;Create index if needed</source>
         <translation>Cr&amp;ear un índice si es necesario</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="199"/>
+        <source>If checked, it will try the fastest method to switch audio tracks but might not work with some formats.</source>
+        <translation>Si la opción está marcada se intentará usar el método más rápido para cambiar la pista de audio pero puede que no funcione con algunos formatos.</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="203"/>
+        <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
+        <translation>Si la opción está marcada se intentará usar el método más rápido para buscar capítulos pero puede no funcionar con algunos discos.</translation>
     </message>
 </context>
 <context>

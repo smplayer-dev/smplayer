@@ -194,6 +194,14 @@ void PrefPerformance::createHelp() {
 		tr("Gradually adjusts the A/V sync based on audio delay "
            "measurements.") );
 
+	setWhatsThis(fastaudioswitching_check, tr("Fast audio track switching"),
+		tr("If checked, it will try the fastest method to switch audio "
+           "tracks but might not work with some formats.") );
+
+	setWhatsThis(fast_chapter_check, tr("Fast seek to chapters in dvds"),
+		tr("If checked, it will try the fastest method to seek to chapters "
+           "but it might not work with some discs.") );
+
 	setWhatsThis(idx_check, tr("Create index if needed"),
 		tr("Rebuilds index of files if no index was found, allowing seeking. "
 		   "Useful with broken/incomplete downloads, or badly created files. "

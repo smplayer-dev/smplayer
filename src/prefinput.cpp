@@ -134,6 +134,26 @@ int PrefInput::wheelFunction() {
 
 void PrefInput::createHelp() {
 	clearHelp();
+
+	setWhatsThis(actions_editor, tr("Shortcut editor"),
+        tr("This table allows you to change the key shortcuts of most "
+           "available actions. Double click or press enter on a item, or "
+           "press the <b>Change shortcut</b> button to enter in the "
+           "<i>Modify shortcut</i> dialog. There are two ways to change a "
+           "shortcut: if the <b>Capture</b> button is on then just "
+           "press the new key or combination of keys that you want to "
+           "assign for the action (unfortunately this doesn't work for all "
+           "keys). If the <b>Capture</b> button is off "
+           "then you could enter the full name of the key.") );
+
+	setWhatsThis(left_click_combo, tr("Left click"),
+		tr("Select the action for left click on the mouse.") );
+
+	setWhatsThis(double_click_combo, tr("Double click"),
+		tr("Select the action for double click on the mouse.") );
+
+	setWhatsThis(wheel_function_combo, tr("Wheel function"),
+		tr("Select the action for the mouse wheel.") );
 }
 
 #include "moc_prefinput.cpp"
