@@ -2640,22 +2640,22 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="488"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Stabilirea nivelului maxim de amplificare în procente (implicit: 110). O valoare de 200 vă va permite ajustarea volumului până la o valoare maximă egală cu dublul valorii curente. Pentru o valoare sub 100 volumul initial (care este 100%) va fi peste valoarea maximă, iar în acest caz, de exemplu, OSD nu îl va afişa corect.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="491"/>
         <source>Uses hardware AC3 passthrough</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilizare procesare AC3 hardware</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="513"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. NOTE: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"></translation>
+        <translation>Cererea număruli de canale de redare. MPlayer cere decodorului să decodeze coloana sonoră în numărul de canale specificat. Apoi este treaba decodorului să realezeze acest lucru. Acest lucru este, de regulă, important numai atunci când se redau fişiere video cu coloana sonoră codată cu AC3 (precum DVD). În acst caz liba52 realizează implicit decodarea şi mixează corect sunetul în numărul de canale specificat. NOTĂ: Această opţiune este îndeplinită de codecuri (doar AC3), filtre (surround) şi driverele audio de ieşire (OSS cel puţin).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="453"/>
         <source>Postprocessing will be used by default on new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Postprocesarea va fi utilizată implicit pentru noile fişiere.</translation>
     </message>
 </context>
 <context>
@@ -2733,42 +2733,42 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefinput.cpp" line="138"/>
         <source>Shortcut editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Editor acces rapid</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="147"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
-        <translation type="unfinished"></translation>
+        <translation>Acest tabel vă permite modificarea tastelor de acces rapid pentru cele mai multe dintre acţiunile disponibile. Faceţi dublu clic sau apăsaţi tasta Enter pe un articol, sau apăsaţi butonul &lt;b&gt;Change shortcut&lt;/b&gt; pentru a intra în meniul dialog &lt;i&gt;Modify shortcut&lt;/i&gt;. Sunt două modalităţi de schimbare a tastelor de acces rapid: dacă butonul &lt;b&gt;Capture&lt;/b&gt; este activ atunci apăsaţi noua combinaţie de taste pe care doriţi să o desemnati pentru acţiunea  selectată (din nefericire această posibilitate nu este funcţională pentru toate tastele). Dacă butonul &lt;b&gt;Capture &lt;/b&gt; nu este activ atunci aţi putea introduce numele întreg al tastei.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="149"/>
         <source>Left click</source>
-        <translation type="unfinished"></translation>
+        <translation>Clic stânga</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="150"/>
         <source>Select the action for left click on the mouse.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectare acţiune pentru clic stânga cu mouse.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="152"/>
         <source>Double click</source>
-        <translation type="unfinished"></translation>
+        <translation>Dublu clic</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="153"/>
         <source>Select the action for double click on the mouse.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectare acţiune pentru dublu clic cu mouse.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="155"/>
         <source>Wheel function</source>
-        <translation type="unfinished"></translation>
+        <translation>Funcţie rotiţă</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="156"/>
         <source>Select the action for the mouse wheel.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectare acţiune pentru rotiţă mouse.</translation>
     </message>
 </context>
 <context>
@@ -3011,7 +3011,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefinterface.ui" line="314"/>
         <source>Ma&amp;x. items</source>
-        <translation type="unfinished"></translation>
+        <translation>Ma&amp;ximum de articole</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="162"/>
@@ -3164,12 +3164,12 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefperformance.cpp" line="197"/>
         <source>Fast audio track switching</source>
-        <translation type="unfinished">Comutare rapidă a coloanei sonore</translation>
+        <translation>Comutare rapidă a coloanei sonore</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="201"/>
         <source>Fast seek to chapters in dvds</source>
-        <translation type="unfinished">Căutare rapidă a capitolelor în dvd</translation>
+        <translation>Căutare rapidă a capitolelor în dvd</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="177"/>
@@ -3269,12 +3269,12 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefperformance.cpp" line="199"/>
         <source>If checked, it will try the fastest method to switch audio tracks but might not work with some formats.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă este selectată programul va încerca să aplice cea mai rapidă metodă de comutare a coloanelor sonore, dar este posibil să nu funcţioneze cu anumite formate.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="203"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă este selectată această opţiune, programul va încerca să aplice cea mai rapidă metodă de căutare a capitolelor, dar pentru anumite discuri poate să nu functioneze.</translation>
     </message>
 </context>
 <context>
