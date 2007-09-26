@@ -163,7 +163,7 @@ void printHelp(QString parameter, QString help) {
 }
 
 void showHelp(QString app_name) {
-	printf( "%s\n", formatText(QObject::tr("Usage: %1 [-ini-path [directory]] "
+	printf( "%s\n", formatText(QObject::tr("Usage: %1 [-ini-path directory] "
                         "[-send-action action_name] [-actions action_list "
                         "[-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] "
                         "[[-playlist] media] "
@@ -171,8 +171,7 @@ void showHelp(QString app_name) {
 
 	printHelp( "-ini-path", QObject::tr(
 		"specifies the directory for the configuration file "
-        "(smplayer.ini). If directory is omitted, the application "
-        "directory will be used.") );
+        "(smplayer.ini).") );
 
 	printHelp( "-send-action", QObject::tr(
 		"tries to make a connection to another running instance "
@@ -243,6 +242,10 @@ int main( int argc, char ** argv )
 	// If the name is smplayer_portable, activate the -ini_path by default
 	if (app_name.toLower() == "smplayer_portable") 	{
 		ini_path = Helper::appPath();
+	} 
+	else if (QFile::exists( Helper::appPath() + "/smplayer.ini" ) ) {
+		ini_path = Helper::appPath();
+		qDebug("Using existing %s", QString(Helper::appPath() + "/smplayer.ini").toUtf8().data());
 	}
 
 	bool close_at_end = false;
@@ -266,6 +269,9 @@ int main( int argc, char ** argv )
 				if (n+1 < arg_count) {
 					n++;
 					ini_path = a.arguments()[n];
+				} else {
+					printf("Error: expected parameter for -ini-path\r\n");
+					return -1;
 				}
 			}
 			else
