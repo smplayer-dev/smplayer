@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -2239,7 +2240,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="490"/>
         <source>AC3/DTS pass-through S/PDIF</source>
-        <translation type="unfinished">AC3/DTS direcţionat către S/PDIF</translation>
+        <translation>AC3/DTS direcţionat către S/PDIF</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="558"/>
@@ -2594,47 +2595,47 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="440"/>
         <source>Pause when minimized</source>
-        <translation type="unfinished"></translation>
+        <translation>Pauză la minimizare</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="443"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, play will be resumed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă opţiunea aceasta este selectată, fişierul va fi oprit când fereastra principală este minimizată. După ce fereastra este restaurată, redarea fişierului va fi reluată.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="452"/>
         <source>Enable postprocessing by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Activare  postprocesare implicită</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="483"/>
         <source>Max. Amplification</source>
-        <translation type="unfinished"></translation>
+        <translation>Amplificare maximă</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="493"/>
         <source>Volume normalization by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Normalizare implicită volum</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="494"/>
         <source>Maximizes the volume without distorting the sound.</source>
-        <translation type="unfinished"></translation>
+        <translation>Măreşte volumul fără a distorsiona sunetul.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="501"/>
         <source>Default volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Volum implicit</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="502"/>
         <source>Sets the initial volume that new files will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>Stabilire volum iniţial folosit pentru noile fişiere.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="504"/>
         <source>Channels by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Canale implicite</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="488"/>
