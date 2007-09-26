@@ -2982,14 +2982,14 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>按鈕功能:</translation>
     </message>
     <message>
-        <location filename="" line="135217804"/>
+        <location filename="../prefinput.cpp" line="149"/>
         <source>Left click</source>
-        <translation type="obsolete">左擊</translation>
+        <translation type="unfinished">左擊</translation>
     </message>
     <message>
-        <location filename="" line="135217804"/>
+        <location filename="../prefinput.cpp" line="152"/>
         <source>Double click</source>
-        <translation type="obsolete">雙擊</translation>
+        <translation type="unfinished">雙擊</translation>
     </message>
     <message>
         <location filename="" line="135217804"/>
@@ -3034,6 +3034,36 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefinput.ui" line="300"/>
         <source>&amp;Wheel function:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="138"/>
+        <source>Shortcut editor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="147"/>
+        <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="150"/>
+        <source>Select the action for left click on the mouse.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="153"/>
+        <source>Select the action for double click on the mouse.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="155"/>
+        <source>Wheel function</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="156"/>
+        <source>Select the action for the mouse wheel.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3528,14 +3558,14 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="obsolete">因子:</translation>
     </message>
     <message>
-        <location filename="" line="135217804"/>
+        <location filename="../prefperformance.cpp" line="197"/>
         <source>Fast audio track switching</source>
-        <translation type="obsolete">快速音軌切換</translation>
+        <translation type="unfinished">快速音軌切換</translation>
     </message>
     <message>
-        <location filename="" line="135217804"/>
+        <location filename="../prefperformance.cpp" line="201"/>
         <source>Fast seek to chapters in dvds</source>
-        <translation type="obsolete">在 DVD 裡快速定位章節</translation>
+        <translation type="unfinished">在 DVD 裡快速定位章節</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="177"/>
@@ -3618,18 +3648,28 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="197"/>
+        <location filename="../prefperformance.cpp" line="205"/>
         <source>Create index if needed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="202"/>
+        <location filename="../prefperformance.cpp" line="210"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="380"/>
         <source>&amp;Create index if needed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="199"/>
+        <source>If checked, it will try the fastest method to switch audio tracks but might not work with some formats.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="203"/>
+        <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
