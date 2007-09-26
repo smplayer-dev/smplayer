@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -2705,7 +2706,7 @@ trochę wyższą wartość.
     <message>
         <location filename="../prefgeneral.cpp" line="453"/>
         <source>Postprocessing will be used by default on new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Przetwarzanie końcowe będzie użyte domyślnie dla nowo otwartych plików.</translation>
     </message>
 </context>
 <context>
@@ -2783,42 +2784,42 @@ trochę wyższą wartość.
     <message>
         <location filename="../prefinput.cpp" line="138"/>
         <source>Shortcut editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Edytor skrótów klawiszowych</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="147"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tabela ta pozwala zmienić klawisz skrótu dla każdej dostępnej funkcji. Kliknij dwa razu lub wciśnij enter na pozycję, lub wybierz &lt;b&gt;Zmień klawisz skrótu&lt;/b&gt; w dialogu &lt;i&gt;Modyfikuj klawisz skrótu&lt;/i&gt;. Istnieją dwie metody zmiany klawisza skrótu: przez funkcję &lt;b&gt;Zrzut&lt;/b&gt; po prostu naciśnij nowy klawisz lub ich kombinację której chcesz przypisać odpowiednią funkcję (niestety nie działa to z wszystkimi klawiszami). Jeśli przycisk &lt;b&gt;Zrzut&lt;/b&gt; jest wyłączony wtedy możesz wpisać pełną nazwę klawisza.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="149"/>
         <source>Left click</source>
-        <translation type="unfinished"></translation>
+        <translation>Lewy przycisk myszki</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="150"/>
         <source>Select the action for left click on the mouse.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz funkcję dla lewego przycisku myszki.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="152"/>
         <source>Double click</source>
-        <translation type="unfinished"></translation>
+        <translation>Dwuklik myszki</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="153"/>
         <source>Select the action for double click on the mouse.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz funkcję dla dwukliku myszki.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="155"/>
         <source>Wheel function</source>
-        <translation type="unfinished"></translation>
+        <translation>Funkcje kółka</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="156"/>
         <source>Select the action for the mouse wheel.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz funkcję dla kółka myszki.</translation>
     </message>
 </context>
 <context>
@@ -3219,12 +3220,12 @@ trochę wyższą wartość.
     <message>
         <location filename="../prefperformance.cpp" line="197"/>
         <source>Fast audio track switching</source>
-        <translation type="unfinished">Szybkie przełączanie ścieżek audio</translation>
+        <translation>Szybkie przełączanie ścieżek audio</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="201"/>
         <source>Fast seek to chapters in dvds</source>
-        <translation type="unfinished">Szybkie szukanie rozdziałów w dvd</translation>
+        <translation>Szybkie szukanie rozdziałów w dvd</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="177"/>
@@ -3326,12 +3327,12 @@ obrazu). Może to powodować zniekształcenia obrazu!</translation>
     <message>
         <location filename="../prefperformance.cpp" line="199"/>
         <source>If checked, it will try the fastest method to switch audio tracks but might not work with some formats.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli jest zaznaczone to spróbuje użyć szybszej metody przełączania ścieżek audio, jednak może to nie działać z niektórymi formatami.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="203"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli jest zaznaczone to spróbuje użyć szybszej metody wyszukiwania rozdziałów, jednak może to nie działać z niektórymi dyskami.</translation>
     </message>
 </context>
 <context>
