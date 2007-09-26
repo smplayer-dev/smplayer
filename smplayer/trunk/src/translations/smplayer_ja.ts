@@ -1789,7 +1789,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="937"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
-        <translation>このファイルのためのプレイリストに表示する名前を入力します:</translation>
+        <translation>このファイルのプレイリストに表示する名前を入力します:</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="257"/>
@@ -2395,7 +2395,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="490"/>
         <source>AC3/DTS pass-through S/PDIF</source>
-        <translation type="unfinished">S/PDIF パス通過 AC3/DTS</translation>
+        <translation>AC3/DTS pass-through S/PDIF</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="558"/>
@@ -2610,67 +2610,67 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="440"/>
         <source>Pause when minimized</source>
-        <translation type="unfinished"></translation>
+        <translation>最小化時に一時停止する</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="443"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, play will be resumed.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションが有効の場合、ファイルはメイン ウィンドウが非表示のときに一時停止されます。ウィンドウが復元されると、再生は再開されます。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="452"/>
         <source>Enable postprocessing by default</source>
-        <translation type="unfinished"></translation>
+        <translation>既定で後処理を有効にする</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="483"/>
         <source>Max. Amplification</source>
-        <translation type="unfinished"></translation>
+        <translation>最大増幅</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="493"/>
         <source>Volume normalization by default</source>
-        <translation type="unfinished"></translation>
+        <translation>既定での音量の通常化</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="494"/>
         <source>Maximizes the volume without distorting the sound.</source>
-        <translation type="unfinished"></translation>
+        <translation>サウンドの歪曲なしで音量を最大化します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="501"/>
         <source>Default volume</source>
-        <translation type="unfinished"></translation>
+        <translation>既定の音量</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="502"/>
         <source>Sets the initial volume that new files will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>新しいファイルが使用する初期音量を設定します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="504"/>
         <source>Channels by default</source>
-        <translation type="unfinished"></translation>
+        <translation>既定でのチャンネル</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="488"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>パーセントで最大増幅レベルを設定します (既定: 110)。200 の値は最大で現在のレベルの倍へ音量を上方調整することを許可します。100 以下の値で初期音量 (100%) は例えば OSD を正しく表示できない、最大以上になります。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="491"/>
         <source>Uses hardware AC3 passthrough</source>
-        <translation type="unfinished"></translation>
+        <translation>ハードウェア AC3 passthrough を使用します</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="513"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. NOTE: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"></translation>
+        <translation>再生チャンネルの数を要求します。MPlayer は指定されただけの数のチャンネルにオーディオをデコードするようデコーダに要求します。次に要求が満たされるのはデコーダ次第です。これは通常 AC3 オーディオ (DVD のような) でビデオを再生するときのみ重要です。その場合には liba52 が既定でデコードして要求されたチャンネルの数にオーディオをダウンミックスします。注意: このオプションはコーデック (AC3 のみ)、フィルタ (サラウンド) およびオーディオ出力ドライバ (少なくとも OSS) によって尊重されています。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="453"/>
         <source>Postprocessing will be used by default on new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>後処理は新しく開かれるファイルで既定で使用されます。</translation>
     </message>
 </context>
 <context>
@@ -2748,42 +2748,42 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefinput.cpp" line="138"/>
         <source>Shortcut editor</source>
-        <translation type="unfinished"></translation>
+        <translation>ショートカット エディタ</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="147"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
-        <translation type="unfinished"></translation>
+        <translation>この表は利用可能な動作のキー ショートカットを変更することを許可します。&lt;i&gt;ショートカットの変更&lt;/i&gt; ダイアログに入るにはアイテムでダブルクリックするか enter を押すか、&lt;b&gt;ショートカットの変更&lt;/b&gt; ボタンを押します。ショートカットを変更する 2 つの方法があります: &lt;b&gt;キャプチャ&lt;/b&gt; ボタンがオンの場合は次に動作に割り当てしたい新しいキーまたはキーの組み合わせを押します。&lt;b&gt;キャプチャ&lt;/b&gt; ボタンがオフの場合は次にキーのフル ネームを入力できます。</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="149"/>
         <source>Left click</source>
-        <translation type="unfinished"></translation>
+        <translation>左クリック</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="150"/>
         <source>Select the action for left click on the mouse.</source>
-        <translation type="unfinished"></translation>
+        <translation>マウスでの左クリックの動作を選択します。</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="152"/>
         <source>Double click</source>
-        <translation type="unfinished"></translation>
+        <translation>ダブル クリック</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="153"/>
         <source>Select the action for double click on the mouse.</source>
-        <translation type="unfinished"></translation>
+        <translation>マウスでのダブル クリックの動作を選択します。</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="155"/>
         <source>Wheel function</source>
-        <translation type="unfinished"></translation>
+        <translation>ボタンの機能</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="156"/>
         <source>Select the action for the mouse wheel.</source>
-        <translation type="unfinished"></translation>
+        <translation>マウス ホイールの動作を選択します。</translation>
     </message>
 </context>
 <context>
@@ -3089,7 +3089,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefperformance.cpp" line="180"/>
         <source>&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option is for Windows only.</source>
-        <translation>&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; このオプションは Windows のみのためのものです。</translation>
+        <translation>&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; このオプションは Windows 用のみです。</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="139"/>
@@ -3219,12 +3219,12 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefperformance.cpp" line="197"/>
         <source>Fast audio track switching</source>
-        <translation type="unfinished">オーディオ トラックの高速切り替え</translation>
+        <translation>オーディオ トラックの高速切り替え</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="201"/>
         <source>Fast seek to chapters in dvds</source>
-        <translation type="unfinished">Dvd のチャプタを高速シークする</translation>
+        <translation>Dvd のチャプタを高速シークする</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="71"/>
@@ -3289,12 +3289,12 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefperformance.cpp" line="199"/>
         <source>If checked, it will try the fastest method to switch audio tracks but might not work with some formats.</source>
-        <translation type="unfinished"></translation>
+        <translation>チェックされている場合、オーディオ トラックを切り替えるのに最速の方法を試行しますがいくつかのフォーマットでは動作しない可能性があります。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="203"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
-        <translation type="unfinished"></translation>
+        <translation>チェックされている場合、チャプタをシークするのに最速の方法を試行しますがいくつかのディスクでは動作しない可能性があります。</translation>
     </message>
 </context>
 <context>
