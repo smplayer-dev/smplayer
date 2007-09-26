@@ -2,6 +2,10 @@
 
 (2007-09-26)
  * Updated the Polish translation.
+ * Now if a smplayer.ini is found on the application directory, it will be 
+   used to read and save the configuration (unless -ini-path is used).
+ * Now -ini-path requires a directory. -ini-path alone will fail and report
+   an error.
 
 (2007-09-25)
  * Updated the Hungarian translation.

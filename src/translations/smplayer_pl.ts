@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
-<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -3706,7 +3705,7 @@ obrazu). Może to powodować zniekształcenia obrazu!</translation>
     <message>
         <location filename="../main.cpp" line="175"/>
         <source>specifies the directory for the configuration file (smplayer.ini). If directory is omitted, the application directory will be used.</source>
-        <translation>określa katalog dla pliku konfiguracyjnego (smplayer.ini). Jeśli katalog jest pominięty, użyty zostanie katalog programu.</translation>
+        <translation type="obsolete">określa katalog dla pliku konfiguracyjnego (smplayer.ini). Jeśli katalog jest pominięty, użyty zostanie katalog programu.</translation>
     </message>
     <message>
         <location filename="" line="1769234796"/>
@@ -3714,17 +3713,17 @@ obrazu). Może to powodować zniekształcenia obrazu!</translation>
         <translation type="obsolete">próby wykonania połączenia z inną uruchomioną kopią programu i wysłania do niej określonej operacji. Na przykład: -action pause Reszta opcji (jeśli są) będą ignorowane i program zostanie zamknięty. Będzie zwracać 0 w przypadku powodzenia lub -1 przy niepowodzeniu.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="196"/>
+        <location filename="../main.cpp" line="195"/>
         <source>will show this message and then will exit.</source>
         <translation>pokaże się ta wiadomość i wtedy zostanie zamknięty.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="210"/>
+        <location filename="../main.cpp" line="209"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation>&apos;media&apos; to każdy plik, który SMPlayer jest w stanie otworzyć.Może to być plik lokalny, DVD (n.p. dvd://1), strumień internetowy (n.p. mms://1) lub lista odtwarzania w formacie m3u. Jeśli opcja -playlist jest użyta, oznacza to, że SMPlayer przeniesie opcję -playlist do MPlayer-a, więc MPlayer obsłuży listę odtwarzania.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="193"/>
+        <location filename="../main.cpp" line="192"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>okno główne zostanie zamknięte gdy zakończy się plik/lista odtwarzania.</translation>
     </message>
@@ -3739,29 +3738,39 @@ obrazu). Może to powodować zniekształcenia obrazu!</translation>
         <translation type="obsolete">Użycie: %1 [-ini-path [katalog]] [-send-action action_name] [-actions action_list [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="182"/>
+        <location filename="../main.cpp" line="181"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
         <translation>próby wykonania połączenia z inną uruchomioną kopią programu i wysłania do niej określonej operacji. Na przykład: -action pause Reszta opcji (jeśli są) będą ignorowane i program zostanie zamknięty. Będzie zwracać 0 w przypadku powodzenia lub -1 przy niepowodzeniu.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="190"/>
+        <location filename="../main.cpp" line="189"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
         <translation>action_list to lista poleceń oddzielonych spacją. Polecenia będą po prostu wykonywane po załadowaniu pliku (jeśli jest), we wpisanej wcześniej kolejności. Dla skontrolowanych poleceń możesz pominąć prawdę lub fałsz jako parametr. Na przykład: -actions &quot;fullscreen compact true&quot;.Cudzysłowy są niezbędne w przypadku pominięcia więcej niż jednego polecenia.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="204"/>
+        <location filename="../main.cpp" line="203"/>
         <source>media</source>
         <translation>media</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="170"/>
         <source>Usage: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation>Użycie: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
+        <translation type="obsolete">Użycie: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="202"/>
+        <location filename="../main.cpp" line="201"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>jeśli uruchomiona jest inna kopia programu, media zostaną dodane do jej listy odtwarzania. Jeśli nie ma innej kopii programu, opcja ta jest ignorowana i pliki zostana otwarte w nowej kopii programu.</translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="170"/>
+        <source>Usage: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="174"/>
+        <source>specifies the directory for the configuration file (smplayer.ini).</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

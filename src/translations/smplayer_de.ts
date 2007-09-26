@@ -3759,7 +3759,7 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
     <message>
         <location filename="../main.cpp" line="175"/>
         <source>specifies the directory for the configuration file (smplayer.ini). If directory is omitted, the application directory will be used.</source>
-        <translation>spezifiziert das Verzeichnis für die Konfiguration-Datei (smplayer.ini) Wenn das Verzeichnis ausgelassen wird, wird das Anwendungsverzeichnis benutzt. </translation>
+        <translation type="obsolete">spezifiziert das Verzeichnis für die Konfiguration-Datei (smplayer.ini) Wenn das Verzeichnis ausgelassen wird, wird das Anwendungsverzeichnis benutzt. </translation>
     </message>
     <message>
         <location filename="../../Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/main.cpp" line="178"/>
@@ -3767,17 +3767,17 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
         <translation type="obsolete">versucht, eine Beziehung zu einem anderen laufenden Prozeß herzustellen und zu ihm die spezifizierte Aktionen zu schicken. Beispiel: -action pause Die restlichen Optionen (falls vorhanden) werden ignoriert und die Anwendung beendet. Der Status bringt 0 für Erfolg oder -1 für Ausfall zurück.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="193"/>
+        <location filename="../main.cpp" line="192"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>Das Hauptfenster wird geschlossen wenn die Datei/Abspieliste benendet ist.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="196"/>
+        <location filename="../main.cpp" line="195"/>
         <source>will show this message and then will exit.</source>
         <translation>Zeigt diesen Hinweis und wird beendet.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="210"/>
+        <location filename="../main.cpp" line="209"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation>&apos;Media&apos; ist jede Art von Datei die SMPlayer öffnen kann. Das kann eine lokale Datei sein, eine DVD (e.g. dvd://1), ein Internetstream (e.g. mms://....) oder eine lokale Abspielliste im Format m3u. Wenn die Option Abspielliste in Gebrach ist, das heißt SMPlayer gibt die Abspiellisten-Option an MPlayer weiter, MPlayer verarbeitet die Abspielliste, nicht SMPlayer.</translation>
     </message>
@@ -3787,28 +3787,33 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
         <translation type="obsolete">Anwendung: %1 [-ini-path [Verzeichnis]] [-send-action action_name] [-actions Aktion_Liste [-close-at-end] [-help|--help|-h|-?] [[-playlist] Media] [[-playlist] Media]...</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="182"/>
+        <location filename="../main.cpp" line="181"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
         <translation>versucht, eine Beziehung zu einem anderen laufenden Prozeß herzustellen und zu ihm die spezifizierte Aktionen zu schicken. Beispiel: -action pause Die restlichen Optionen (falls vorhanden) werden ignoriert und die Anwendung beendet. Der Status bringt 0 für Erfolg oder -1 für Ausfall zurück.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="190"/>
+        <location filename="../main.cpp" line="189"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
         <translation>action_list ist eine Liste der Aktionen, die durch Leerzeichen (Space) getrennt werden. Die Aktionen werden gleich nach dem Laden der Datei (falls vorhanden) in dem Auftrag durchgeführt, der zuvor eingetragen wurde. Für wählbare Aktionen kann true (wahr) oder false (falsch) als Parameter angegeben werden. Beispiel:  -actions &quot;fullscreen compact true&quot;. Anführungsstriche müßen bei mehr als einer Aktion gesetzt werden.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="204"/>
+        <location filename="../main.cpp" line="203"/>
         <source>media</source>
         <translation>Media</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="170"/>
-        <source>Usage: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
+        <location filename="../main.cpp" line="201"/>
+        <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="202"/>
-        <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
+        <location filename="../main.cpp" line="170"/>
+        <source>Usage: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="174"/>
+        <source>specifies the directory for the configuration file (smplayer.ini).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
