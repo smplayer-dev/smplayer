@@ -1,5 +1,8 @@
 [b]Version 0.5.61[/b] (not released yet):
 
+(2007-09-26)
+ * Updated the Polish translation.
+
 (2007-09-25)
  * Updated the Hungarian translation.
  * Bugfix: Drag&drop didn't work with *.part files, as the extension
