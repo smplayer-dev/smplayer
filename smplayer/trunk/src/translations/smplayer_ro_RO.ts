@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -3773,12 +3774,12 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../main.cpp" line="170"/>
         <source>Usage: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilizare: %1 [-ini-path [director]] [send-action numele_acţiunii] [-actions listă_acţiuni [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] tip_media] [[-playlist] tip_media]...</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="174"/>
         <source>specifies the directory for the configuration file (smplayer.ini).</source>
-        <translation type="unfinished"></translation>
+        <translation>indică diretorul pentru fişierul de configurare (smplayer.ini).</translation>
     </message>
 </context>
 <context>
