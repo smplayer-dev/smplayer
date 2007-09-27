@@ -3011,7 +3011,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefinterface.ui" line="60"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
-        <translation>SMPlayer の 1 つの起動のみを使用する(&amp;U)</translation>
+        <translation>1 つのみの SMPlayer の起動を使用する(&amp;U)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="70"/>
@@ -3089,7 +3089,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefperformance.cpp" line="180"/>
         <source>&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option is for Windows only.</source>
-        <translation>&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; このオプションは Windows 用のみです。</translation>
+        <translation>&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; このオプションは Windows のみのためのものです。</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="139"/>
@@ -3728,12 +3728,12 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../main.cpp" line="170"/>
         <source>Usage: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="unfinished"></translation>
+        <translation>使用法: %1 [-ini-path ディレクトリ] [-send-action 動作名] [-actions 動作の一覧 [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] メディア] [[-playlist] メディア]...</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="174"/>
         <source>specifies the directory for the configuration file (smplayer.ini).</source>
-        <translation type="unfinished"></translation>
+        <translation>構成ファイル (smplayer.ini) のディレクトリを指定します。</translation>
     </message>
 </context>
 <context>
