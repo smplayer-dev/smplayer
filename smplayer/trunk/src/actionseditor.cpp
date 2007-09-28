@@ -93,6 +93,33 @@ void MyDelegate::setModelData(QWidget *editor, QAbstractItemModel *model,
 */
 
 
+QString ActionsEditor::shortcutsToString(QList <QKeySequence> shortcuts_list) {
+	QString accelText = "";
+
+	for (int n=0; n < shortcuts_list.count(); n++) {
+		accelText += shortcuts_list[n].toString();
+		if (n < (shortcuts_list.count()-1)) accelText += ", ";
+	}
+
+	return accelText;
+}
+
+QList <QKeySequence> ActionsEditor::stringToShortcuts(QString shortcuts) {
+	QList <QKeySequence> shortcuts_list;
+
+	QStringList l = shortcuts.split(',');
+
+	for (int n=0; n < l.count(); n++) {
+		//qDebug("%s", l[n].toUtf8().data());
+		QString s = QKeySequence( l[n].simplified() );
+		shortcuts_list.append( s );
+		//qDebug("ActionsEditor::stringToShortcuts: shortcut %d: '%s'", n, s.toUtf8().data());
+	}
+
+	return shortcuts_list;
+}
+
+
 #define COL_CONFLICTS 0
 #define COL_SHORTCUT 1
 #define COL_DESC 2
@@ -211,7 +238,9 @@ void ActionsEditor::updateView() {
 
 	for (int n=0; n < actionsList.count(); n++) {
 		action = static_cast<QAction*> (actionsList[n]);
-		accelText = action->shortcut().toString();
+
+		//accelText = action->shortcut().toString();
+		accelText = shortcutsToString( action->shortcuts() );
 
 		// Conflict column
 		QTableWidgetItem * i_conf = new QTableWidgetItem();
@@ -263,7 +292,19 @@ void ActionsEditor::applyChanges() {
 	for (int row = 0; row < (int)actionsList.size(); ++row) {
 		QAction *action = actionsList[row];
 		QTableWidgetItem *i = actionsTable->item(row, COL_SHORTCUT);
-		action->setShortcut(QKeySequence(i->text()));
+
+		action->setShortcuts( stringToShortcuts(i->text()) );
+		/*
+		QString shortcut = i->text().simplified();
+		if ( ( shortcut.count() > 1) && (shortcut.contains(',')) ) {
+			qDebug("ActionsEditor::applyChanges: multiple shortcuts detected");
+			action->setShortcuts( stringToShortcuts(shortcut) );
+		} else {
+			//action->setShortcut(QKeySequence(i->text()));
+			action->setShortcut(QKeySequence(shortcut));
+		}
+		*/
+		
 	}
 }
 
@@ -492,7 +533,8 @@ void ActionsEditor::saveToConfig(QObject *o, QSettings *set) {
 	for (int n=0; n < actions.count(); n++) {
 		action = static_cast<QAction*> (actions[n]);
 		if (!action->objectName().isEmpty()) {
-			QString accelText = action->shortcut().toString();
+			//QString accelText = action->shortcut().toString();
+			QString accelText = shortcutsToString(action->shortcuts());
 			set->setValue(action->objectName(), accelText);
 		}
     }
@@ -513,8 +555,11 @@ void ActionsEditor::loadFromConfig(QObject *o, QSettings *set) {
 	for (int n=0; n < actions.count(); n++) {
 		action = static_cast<QAction*> (actions[n]);
 		if (!action->objectName().isEmpty()) {
-			accelText = set->value(action->objectName(), action->shortcut().toString()).toString();
-			action->setShortcut(QKeySequence(accelText));
+			QString current = shortcutsToString(action->shortcuts());
+			accelText = set->value(action->objectName(), current).toString();
+			action->setShortcuts( stringToShortcuts( accelText ) );
+			//accelText = set->value(action->objectName(), action->shortcut().toString()).toString();
+			//action->setShortcut(QKeySequence(accelText));
 		}
     }
 

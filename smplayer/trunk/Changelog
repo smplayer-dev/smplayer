@@ -1,5 +1,17 @@
 [b]Version 0.5.61[/b] (not released yet):
 
+(2007-09-28)
+ * Now actions can have multiple shortcuts. That means that you can assign
+   several keys for the same action. To do this, in the "modify shortcut"
+   dialog in the actions editor, disable the "Capture" button and then
+   enter the keys names separated by commas. For example: "Space, A" (will
+   activate the action when pressed Space or A), "F, Ctrl+F, W" (will 
+   activate the action when pressed F or Ctrl+F or W).
+   Note 1: the menus (and tooltips) will only show the first shortcut.
+   Note 2: the actions editor won't be able to detect conflicts when entered
+   shortcuts this way. In case of a conflict (the same key assigned to
+   several actions) the key won't work.
+
 (2007-09-27)
  * Updated the Polish translation.
 

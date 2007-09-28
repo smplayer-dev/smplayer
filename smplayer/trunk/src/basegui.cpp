@@ -1216,6 +1216,7 @@ void BaseGui::createMenus() {
 	// PLAY MENU
 	playMenu->addAction(playAct);
 	playMenu->addAction(pauseAct);
+	/* playMenu->addAction(playOrPauseAct); */
 	playMenu->addAction(stopAct);
 	playMenu->addAction(frameStepAct);
 	playMenu->addSeparator();
