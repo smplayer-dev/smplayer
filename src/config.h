@@ -56,7 +56,12 @@
 
 // New code to resize the main window
 
-#define NEW_RESIZE_CODE 0
+#define NEW_RESIZE_CODE 1
+
+
+// Allow to use multiple shortcuts for actions
+
+#define USE_MULTIPLE_SHORTCUTS 1
 
 
 // EXTERNAL_SLEEP

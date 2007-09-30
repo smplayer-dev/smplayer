@@ -55,8 +55,10 @@ public:
 	static void saveToConfig(QObject *o, QSettings *set);
 	static void loadFromConfig(QObject *o, QSettings *set);
 
+#if USE_MULTIPLE_SHORTCUTS
 	static QString shortcutsToString(QList <QKeySequence> shortcuts_list);
 	static QList <QKeySequence> stringToShortcuts(QString shortcuts);
+#endif
 
 public slots:
 	void applyChanges();

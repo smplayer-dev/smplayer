@@ -1,5 +1,13 @@
 [b]Version 0.5.61[/b] (not released yet):
 
+(2007-09-30)
+ * Updated the German translation.
+ * Added USE_MULTIPLE_SHORTCUTS in config.h to enable or disable the new
+   code for multiple shortcuts (enabled by default).
+ * Deleted the actions inc_volume2 and dec_volume2 as now they are not 
+   necessary. Their shortcuts are now in increase_volume and decrease_volume.
+ * Activated again the new resize code.
+
 (2007-09-28)
  * Now actions can have multiple shortcuts. That means that you can assign
    several keys for the same action. To do this, in the "modify shortcut"
