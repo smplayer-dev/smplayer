@@ -412,11 +412,21 @@ void BaseGui::createActions() {
 	connect( muteAct, SIGNAL(toggled(bool)),
              core, SLOT(mute(bool)) );
 
+#if USE_MULTIPLE_SHORTCUTS
+	decVolumeAct = new MyAction( this, "decrease_volume" );
+	decVolumeAct->setShortcuts( ActionsEditor::stringToShortcuts("9,/") );
+#else
 	decVolumeAct = new MyAction( Qt::Key_9, this, "dec_volume" );
+#endif
 	connect( decVolumeAct, SIGNAL(triggered()),
              core, SLOT(decVolume()) );
 
+#if USE_MULTIPLE_SHORTCUTS
+	incVolumeAct = new MyAction( this, "increase_volume" );
+	incVolumeAct->setShortcuts( ActionsEditor::stringToShortcuts("0,*") );
+#else
 	incVolumeAct = new MyAction( Qt::Key_0, this, "inc_volume" );
+#endif
 	connect( incVolumeAct, SIGNAL(triggered()),
              core, SLOT(incVolume()) );
 
@@ -562,12 +572,13 @@ void BaseGui::createActions() {
 
 	// Actions not in menus or buttons
 	// Volume 2
+#if !USE_MULTIPLE_SHORTCUTS
 	decVolume2Act = new MyAction( Qt::Key_Slash, this, "dec_volume2" );
 	connect( decVolume2Act, SIGNAL(triggered()), core, SLOT(decVolume()) );
 
 	incVolume2Act = new MyAction( Qt::Key_Asterisk, this, "inc_volume2" );
 	connect( incVolume2Act, SIGNAL(triggered()), core, SLOT(incVolume()) );
-
+#endif
 	// Exit fullscreen
 	exitFullscreenAct = new MyAction( Qt::Key_Escape, this, "exit_fullscreen" );
 	connect( exitFullscreenAct, SIGNAL(triggered()), this, SLOT(exitFullscreen()) );
@@ -860,9 +871,10 @@ void BaseGui::retranslateStrings() {
 
 	// Actions not in menus or buttons
 	// Volume 2
+#if !USE_MULTIPLE_SHORTCUTS
 	decVolume2Act->change( tr("Dec volume (2)") );
 	incVolume2Act->change( tr("Inc volume (2)") );
-
+#endif
 	// Exit fullscreen
 	exitFullscreenAct->change( tr("Exit fullscreen") );
 

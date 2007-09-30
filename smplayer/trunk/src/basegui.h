@@ -308,8 +308,10 @@ protected:
 	MyAction * playNextAct;
 
 	// Actions not in menus
+#if !USE_MULTIPLE_SHORTCUTS
 	MyAction * decVolume2Act;
 	MyAction * incVolume2Act;
+#endif
 	MyAction * exitFullscreenAct;
 	MyAction * nextOSDAct;
 	MyAction * decContrastAct;
