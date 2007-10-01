@@ -3018,7 +3018,7 @@ void BaseGui::saveActions() {
 }
 
 
-void BaseGui::showEvent( QShowEvent * ) {
+void BaseGui::showEvent( QShowEvent *e ) {
 	qDebug("BaseGui::showEvent");
 
 	//qDebug("BaseGui::showEvent: pref->pause_when_hidden: %d", pref->pause_when_hidden);
@@ -3026,6 +3026,12 @@ void BaseGui::showEvent( QShowEvent * ) {
 		qDebug("BaseGui::showEvent: unpausing");
 		core->pause(); // Unpauses
 	}
+#ifdef Q_OS_WIN
+	// Work-around to fix a problem in Windows. The file should be restarted in order the video to show again.
+	if (e->spontaneous()) {
+		if ( ((pref->vo=="gl") || (pref->vo=="gl2")) && (core->state() == Core::Playing) ) core->restart();
+	}
+#endif
 }
 
 void BaseGui::hideEvent( QHideEvent * ) {
