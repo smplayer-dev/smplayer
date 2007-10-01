@@ -1523,14 +1523,14 @@ void BaseGui::applyNewPreferences() {
 		qApp->setFont(f);
 	}
 
-	PrefInterface *interface = pref_dialog->mod_interface();
-	if (interface->recentsChanged()) {
+	PrefInterface *_interface = pref_dialog->mod_interface();
+	if (_interface->recentsChanged()) {
 		recents->setMaxItems(pref->recents_max_items);
 		updateRecents();
 	}
-	if (interface->languageChanged()) need_update_language = true;
+	if (_interface->languageChanged()) need_update_language = true;
 
-	if (interface->iconsetChanged()) { 
+	if (_interface->iconsetChanged()) { 
 		need_update_language = true;
 		// Stylesheet
 		#if QT_VERSION >= 0x040200
@@ -1544,7 +1544,7 @@ void BaseGui::applyNewPreferences() {
 	}
 	else
 	{
-		bool server_requires_restart = interface->serverPortChanged();
+		bool server_requires_restart = _interface->serverPortChanged();
 		if (pref->use_single_instance && !server->isListening()) 
 			server_requires_restart=true;
 
@@ -1577,7 +1577,7 @@ void BaseGui::applyNewPreferences() {
 	updateWidgets(); // Update the screenshot action
 
 #if STYLE_SWITCHING
-	if (interface->styleChanged()) {
+	if (_interface->styleChanged()) {
 		qDebug( "selected style: '%s'", pref->style.toUtf8().data() );
 		if ( !pref->style.isEmpty()) {
 			qApp->setStyle( pref->style );
