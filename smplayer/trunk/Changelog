@@ -6,6 +6,8 @@
    found until now is to restart mplayer.
  * Try to keep the video paused when changing volume. It doesn't work well
    because of limitations of mplayer.
+ * Small fix: don't use the screenshot filter if the screenshot directory
+   entered by the user is not a real directory.
 
 (2007-09-30)
  * Updated the German translation.

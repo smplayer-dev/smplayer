@@ -1442,7 +1442,9 @@ void Core::startMplayer( QString file, double seek )
 	}
 
 	// Screenshot
-	if (!pref->screenshot_directory.isEmpty()) {
+	if ( (!pref->screenshot_directory.isEmpty()) && 
+        (QFileInfo(pref->screenshot_directory).isDir()) )
+	{
 		// Subtitles on screenshots
 		if (pref->subtitles_on_screenshots) {
 			if (pref->use_ass_subtitles) {
