@@ -1,5 +1,8 @@
 [b]Version 0.5.61[/b] (not released yet):
 
+(2007-10-02)
+ * Ported to Qt 4 the old code to handle subtitles. It seems we may need it.
+
 (2007-10-01)
  * Added a work-around to try to fix a problem in windows. When using gl/gl2,
    minimize the window, when restored the video is black. The only fix I
