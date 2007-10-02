@@ -1,5 +1,12 @@
 [b]Version 0.5.61[/b] (not released yet):
 
+(2007-10-01)
+ * Added a work-around to try to fix a problem in windows. When using gl/gl2,
+   minimize the window, when restored the video is black. The only fix I
+   found until now is to restart mplayer.
+ * Try to keep the video paused when changing volume. It doesn't work well
+   because of limitations of mplayer.
+
 (2007-09-30)
  * Updated the German translation.
  * Added USE_MULTIPLE_SHORTCUTS in config.h to enable or disable the new

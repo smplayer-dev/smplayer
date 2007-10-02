@@ -1972,7 +1972,7 @@ void Core::setVolume(int volume, bool force) {
 	if (mset.volume > 100 ) mset.volume = 100;
 	if (mset.volume < 0 ) mset.volume = 0;
 
-    tellmp("volume " + QString::number(volume) + " 1");
+    tellmp("pausing_keep volume " + QString::number(volume) + " 1");
 
 	//if (mset.mute) mute(TRUE);
 	mset.mute=FALSE;

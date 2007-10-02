@@ -3029,7 +3029,11 @@ void BaseGui::showEvent( QShowEvent *e ) {
 #ifdef Q_OS_WIN
 	// Work-around to fix a problem in Windows. The file should be restarted in order the video to show again.
 	if (e->spontaneous()) {
-		if ( ((pref->vo=="gl") || (pref->vo=="gl2")) && (core->state() == Core::Playing) ) core->restart();
+		if ( ((pref->vo=="gl") || (pref->vo=="gl2")) && 
+             (core->state() == Core::Playing) ) 
+		{
+			core->restart();
+		}
 	}
 #endif
 }
