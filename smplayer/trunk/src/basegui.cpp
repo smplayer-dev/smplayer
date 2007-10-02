@@ -1769,11 +1769,13 @@ void BaseGui::initializeMenus() {
 	}
 	subtitlestrack_menu->addActions( subtitleTrackGroup->actions() );
 #else
-	// FIXME: BROKEN, not ported to Qt 4
 	for (n=0; n < core->mdat.subtitles.numItems(); n++) {
-		qDebug("BaseGui::initializeMenus: n: %d", n);
-		subtitlestrack_menu->insertItem( core->mdat.subtitles.itemAt(n).displayName(), core->mdat.subtitles.itemAt(n).ID() );
+		QAction *a = new QAction(subtitleTrackGroup);
+		a->setCheckable(true);
+		a->setText(core->mdat.subtitles.itemAt(n).displayName());
+		a->setData(core->mdat.subtitles.itemAt(n).ID());
 	}
+	subtitlestrack_menu->addActions( subtitleTrackGroup->actions() );
 #endif
 
 	// Audio
@@ -1898,11 +1900,11 @@ void BaseGui::updateWidgets() {
 	// Disable the unload subs action if there's no external subtitles
 	unloadSubsAct->setEnabled( !core->mset.external_subtitles.isEmpty() );
 #else
-	// FIXME: BROKEN, not ported to Qt 4
 	// If using an external subtitles, disable the rest
 	bool b = core->mset.external_subtitles.isEmpty();
-    for (unsigned int n=1; n < subtitlestrack_menu->count(); n++) {
-		subtitlestrack_menu->setItemEnabled(subtitlestrack_menu->idAt(n),b);
+	QList <QAction *> l = subtitleTrackGroup->actions();
+	for (int n = 1; n < l.count(); n++) {
+		if (l[n]) l[n]->setEnabled(b);
 	}
 #endif
 	
