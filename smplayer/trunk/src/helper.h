@@ -83,6 +83,9 @@ public:
 
 	static bool directoryContainsDVD(QString directory);
 
+#ifdef Q_OS_WIN
+	static QString mplayer_intermediate(QString mplayer_bin);
+#endif
 
 private:
 	static QString logs;

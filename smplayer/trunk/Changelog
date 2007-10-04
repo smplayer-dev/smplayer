@@ -1,5 +1,9 @@
 [b]Version 0.5.61[/b] (not released yet):
 
+(2007-10-04)
+ * Added some code to use an intermediate program for mplayer, when using
+   Windows 98 and ME. Not tested yet. (Written in linux)
+
 (2007-10-02)
  * Ported to Qt 4 the old code to handle subtitles. It seems we may need it.
 
