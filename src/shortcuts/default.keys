@@ -31,14 +31,15 @@ compact	Ctrl+C
 equalizer	Ctrl+E
 screenshot	S
 on_top	
+flip	
 postprocessing	
 autodetect_phase	
 deblock	
 dering	
 add_noise	
 mute	M
-dec_volume	9
-inc_volume	0
+decrease_volume	9, /
+increase_volume	0, *
 dec_audio_delay	-
 inc_audio_delay	+
 load_audio_file	
@@ -54,6 +55,7 @@ dec_sub_pos	R
 inc_sub_pos	T
 dec_sub_step	G
 inc_sub_step	Y
+use_ass_lib	
 show_playlist	Ctrl+L
 show_file_properties	Ctrl+I
 frame_counter	
@@ -71,8 +73,6 @@ move_right	Alt+Right
 inc_zoom	E
 dec_zoom	W
 reset_zoom	Shift+E
-dec_volume2	/
-inc_volume2	*
 exit_fullscreen	Esc
 next_osd	O
 dec_contrast	1
@@ -112,7 +112,6 @@ deinterlace_yadif0
 deinterlace_yadif1	
 deinterlace_lb	
 deinterlace_kern	
-channels_default	
 channels_stereo	
 channels_surround	
 channels_ful51	
@@ -131,10 +130,8 @@ aspect_16:9_letterbox
 aspect_4:3_panscan	
 aspect_4:3_to_16:9	
 quit	
-show_try_icon	
+show_tray_icon	
 restore/hide	
-show_main_toolbar	F5
-show_language_toolbar	F6
 pl_open	
 pl_save	
 pl_play	
@@ -150,3 +147,5 @@ pl_add_directory
 pl_remove_selected	
 pl_remove_all	
 pl_edit	
+show_main_toolbar	F5
+show_language_toolbar	F6

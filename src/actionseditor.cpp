@@ -98,7 +98,7 @@ QString ActionsEditor::shortcutsToString(QList <QKeySequence> shortcuts_list) {
 	QString accelText = "";
 
 	for (int n=0; n < shortcuts_list.count(); n++) {
-		accelText += shortcuts_list[n].toString();
+		accelText += shortcuts_list[n].toString(QKeySequence::PortableText);
 		if (n < (shortcuts_list.count()-1)) accelText += ", ";
 	}
 
@@ -347,7 +347,7 @@ void ActionsEditor::editShortcut() {
 		QString result = d.exec( i->text() );
 
 		if (!result.isNull()) {
-		    QString accelText = QKeySequence(result).toString();
+		    QString accelText = QKeySequence(result).toString(QKeySequence::PortableText);
 			i->setText(accelText);
 			if (hasConflicts()) qApp->beep();
 		}
