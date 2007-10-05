@@ -775,17 +775,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Qt のバージョン情報</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2678"/>
+        <location filename="../basegui.cpp" line="2670"/>
         <source>Playing %1</source>
         <translation>%1 を再生中</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2679"/>
+        <location filename="../basegui.cpp" line="2671"/>
         <source>Pause</source>
         <translation>一時停止</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2680"/>
+        <location filename="../basegui.cpp" line="2672"/>
         <source>Stop</source>
         <translation>停止</translation>
     </message>
@@ -1101,37 +1101,37 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1851"/>
+        <location filename="../core.cpp" line="1853"/>
         <source>Brightness: %1</source>
         <translation>明るさ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1860"/>
+        <location filename="../core.cpp" line="1862"/>
         <source>Contrast: %1</source>
         <translation>コントラスト: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1868"/>
+        <location filename="../core.cpp" line="1870"/>
         <source>Gamma: %1</source>
         <translation>ガンマ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1876"/>
+        <location filename="../core.cpp" line="1878"/>
         <source>Hue: %1</source>
         <translation>色合い: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1884"/>
+        <location filename="../core.cpp" line="1886"/>
         <source>Saturation: %1</source>
         <translation>鮮やかさ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1998"/>
+        <location filename="../core.cpp" line="2000"/>
         <source>Volume: %1</source>
         <translation>音量: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2466"/>
+        <location filename="../core.cpp" line="2468"/>
         <source>Zoom: %1</source>
         <translation>拡大率: %1</translation>
     </message>
@@ -3676,12 +3676,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="obsolete">別の起動への接続の作成と指定された動作の送信を試行します。例: -action pause 残りのオプションは (もしあれば) 無視されてアプリケーションは終了します。成功時には 0 または 失敗時には -1 を返します。</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="195"/>
+        <location filename="../main.cpp" line="198"/>
         <source>will show this message and then will exit.</source>
         <translation>このメッセージを表示して次に終了します。</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="209"/>
+        <location filename="../main.cpp" line="212"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation>&apos;メディア&apos; は SMPlayer が開くことのできるファイルのすべてのものです。ローカル ファイル、DVD (例えば dvd://1)、インターネット ストリーム (例えば mms://....) またはフォーマット m3u のローカル プレイリストにできます。-playlist オプションが使用されている場合、それは MPlayer が SMPlayer ではなく、プレイリストをハンドルするように、SMPlayer が MPlayer へ -playlist オプションを渡すことを意味します。</translation>
     </message>
@@ -3711,7 +3711,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>action_list はスペースで区切られた動作の一覧です。動作は入力したのと同じ順序でファイル (もしあれば) の読み込み直後に実行されます。チェック可能な動作にはパラメータとして true または false を渡すことができます。例: -actions &quot;fullscreen compact true&quot;。引用符は 1 つ以上の動作を渡す場合に必要です。</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="203"/>
+        <location filename="../main.cpp" line="206"/>
         <source>media</source>
         <translation>メディア</translation>
     </message>
@@ -3721,19 +3721,29 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="obsolete">使用法: %1 [-ini-path [ディレクトリ]] [-send-action アクション名] [-actions アクションの一覧 [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] メディア] [[-playlist] メディア]...</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="201"/>
+        <location filename="../main.cpp" line="204"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>別の起動がある場合、メディアは起動のプレイリストに追加されます。その他の起動がない場合、このオプションは無視されてフィルは新しい起動で開かれます。</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="170"/>
         <source>Usage: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation>使用法: %1 [-ini-path ディレクトリ] [-send-action 動作名] [-actions 動作の一覧 [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] メディア] [[-playlist] メディア]...</translation>
+        <translation type="obsolete">使用法: %1 [-ini-path ディレクトリ] [-send-action 動作名] [-actions 動作の一覧 [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] メディア] [[-playlist] メディア]...</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="174"/>
         <source>specifies the directory for the configuration file (smplayer.ini).</source>
         <translation>構成ファイル (smplayer.ini) のディレクトリを指定します。</translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="170"/>
+        <source>Usage: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="195"/>
+        <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

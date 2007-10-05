@@ -745,17 +745,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>О Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2678"/>
+        <location filename="../basegui.cpp" line="2670"/>
         <source>Playing %1</source>
         <translation>Воспроизводится %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2679"/>
+        <location filename="../basegui.cpp" line="2671"/>
         <source>Pause</source>
         <translation>Пауза</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2680"/>
+        <location filename="../basegui.cpp" line="2672"/>
         <source>Stop</source>
         <translation>Стоп</translation>
     </message>
@@ -1051,37 +1051,37 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1851"/>
+        <location filename="../core.cpp" line="1853"/>
         <source>Brightness: %1</source>
         <translation>Яркость: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1860"/>
+        <location filename="../core.cpp" line="1862"/>
         <source>Contrast: %1</source>
         <translation>Контрастность: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1868"/>
+        <location filename="../core.cpp" line="1870"/>
         <source>Gamma: %1</source>
         <translation>Гамма: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1876"/>
+        <location filename="../core.cpp" line="1878"/>
         <source>Hue: %1</source>
         <translation>Цвет: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1884"/>
+        <location filename="../core.cpp" line="1886"/>
         <source>Saturation: %1</source>
         <translation>Насыщенность: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1998"/>
+        <location filename="../core.cpp" line="2000"/>
         <source>Volume: %1</source>
         <translation>Громкость: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2466"/>
+        <location filename="../core.cpp" line="2468"/>
         <source>Zoom: %1</source>
         <translation>Зум: %1</translation>
     </message>
@@ -3401,12 +3401,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>главное окно будет закрыто после окончания воспроизведения.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="195"/>
+        <location filename="../main.cpp" line="198"/>
         <source>will show this message and then will exit.</source>
         <translation>будет показанно это сообщение, после чего приложение закроется.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="209"/>
+        <location filename="../main.cpp" line="212"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation>&apos;media&apos; - это любой файл, который SMPlayer может открыть. Это может быть локальный файл, DVD (т.е. dvd://1), видео в интернет (т.е. mms://....) или список воспроизведения в формате m3u. Если используется опция -playlist, то SMPlayer передаст параметр -playlist MPlayer, так что MPlayer должен использовать
 функцию список воспроизведения, а не SMPlayer.</translation>
@@ -3432,23 +3432,28 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>action_list - это список действий разделенный пробелами. Эти действия будут выполняться после загрузки файла в заданной вами последовательности. Для действий с переменными значениями можно использовать true или false  в качестве параметров. Например: -actions &quot;fullscreen compact true&quot;. Кавычки необходимы в случае, если используется более одного действия.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="203"/>
+        <location filename="../main.cpp" line="206"/>
         <source>media</source>
         <translation>медия</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="201"/>
+        <location filename="../main.cpp" line="204"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.cpp" line="170"/>
-        <source>Usage: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.cpp" line="174"/>
         <source>specifies the directory for the configuration file (smplayer.ini).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="170"/>
+        <source>Usage: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="195"/>
+        <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -775,17 +775,17 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>Acerca de Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2678"/>
+        <location filename="../basegui.cpp" line="2670"/>
         <source>Playing %1</source>
         <translation>Reproduciendo %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2679"/>
+        <location filename="../basegui.cpp" line="2671"/>
         <source>Pause</source>
         <translation>Pausa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2680"/>
+        <location filename="../basegui.cpp" line="2672"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
@@ -1111,37 +1111,37 @@ Se mostrará a continuación el diálogo de configuración.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1851"/>
+        <location filename="../core.cpp" line="1853"/>
         <source>Brightness: %1</source>
         <translation>Brillo: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1860"/>
+        <location filename="../core.cpp" line="1862"/>
         <source>Contrast: %1</source>
         <translation>Contraste: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1868"/>
+        <location filename="../core.cpp" line="1870"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1876"/>
+        <location filename="../core.cpp" line="1878"/>
         <source>Hue: %1</source>
         <translation>Tono: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1884"/>
+        <location filename="../core.cpp" line="1886"/>
         <source>Saturation: %1</source>
         <translation>Saturación: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1998"/>
+        <location filename="../core.cpp" line="2000"/>
         <source>Volume: %1</source>
         <translation>Volumen: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2466"/>
+        <location filename="../core.cpp" line="2468"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
@@ -3769,12 +3769,12 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <translation type="obsolete">la ventana principal se cerrará cuando el fichero/lista de reproducción llege al final</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="195"/>
+        <location filename="../main.cpp" line="198"/>
         <source>will show this message and then will exit.</source>
         <translation>mostrará este mensaje.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="209"/>
+        <location filename="../main.cpp" line="212"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation>&apos;medio&apos; es cualquier tipo de archivo que SMPlayer pueda abrir. Puede ser un fichero local, un DVD (p.e. dvd://1), un stream de internet (p.e mms://....) o una lista de reproducción local en formato m3u. Si se usa la opción -playlist, SMPlayer pasará la opción -playlist a MPlayer, por tanto será MPlayer quien controle la lista de reproducción, y no SMPlayer.</translation>
     </message>
@@ -3809,7 +3809,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <translation>lista_de_acciones es una lista de acciones separada por espacios. Las acciones se ejecutarán justo después de cargar el fichero (si se especifica alguno) en el mismo orden en que se han introducido. Para aquellas acciones que se pueden activar o desactivar, se puede pasar true o false como parámetro. Ejemplo: -actions &quot;fullscreen compact true&quot;. Las comillas son necesarias si se pasa más de una acción.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="203"/>
+        <location filename="../main.cpp" line="206"/>
         <source>media</source>
         <translation>medio</translation>
     </message>
@@ -3819,19 +3819,29 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <translation type="obsolete">Mode de uso: %1 [-ini-path [directorio]] [-send-action nombre_de_acción] [-actions lista_de_acciones] [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] medio] [[-playlist] medio]...</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="201"/>
+        <location filename="../main.cpp" line="204"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>si hay otra instancia en ejecución, los ficheros se añadirán a la lista de reproducción de esa instancia. Si no hay ninguna otra instancia, esta opción será ignorada y los ficheros se abrirán en una nueva instancia.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="170"/>
         <source>Usage: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation>Mode de uso: %1 [-ini-path directorio] [-send-action nombre_de_acción] [-actions lista_de_acciones] [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] medio] [[-playlist] medio]...</translation>
+        <translation type="obsolete">Mode de uso: %1 [-ini-path directorio] [-send-action nombre_de_acción] [-actions lista_de_acciones] [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] medio] [[-playlist] medio]...</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="174"/>
         <source>specifies the directory for the configuration file (smplayer.ini).</source>
         <translation>especifica el directorio del fichero de configuración (smplayer.ini).</translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="170"/>
+        <source>Usage: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
+        <translation>Mode de uso: %1 [-ini-path [directorio]] [-send-action nombre_de_acción] [-actions lista_de_acciones] [-close-at-end]  [-no-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] medio] [[-playlist] medio]...</translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="195"/>
+        <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
+        <translation>la ventana principal no se cerrará cuando el fichero/lista de reproducción llege al final.</translation>
     </message>
 </context>
 <context>

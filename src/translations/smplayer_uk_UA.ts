@@ -745,17 +745,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Про Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2678"/>
+        <location filename="../basegui.cpp" line="2670"/>
         <source>Playing %1</source>
         <translation>Відтворюється %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2679"/>
+        <location filename="../basegui.cpp" line="2671"/>
         <source>Pause</source>
         <translation>Пауза</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2680"/>
+        <location filename="../basegui.cpp" line="2672"/>
         <source>Stop</source>
         <translation>Стоп</translation>
     </message>
@@ -1046,37 +1046,37 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1851"/>
+        <location filename="../core.cpp" line="1853"/>
         <source>Brightness: %1</source>
         <translation>Яскравість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1860"/>
+        <location filename="../core.cpp" line="1862"/>
         <source>Contrast: %1</source>
         <translation>Контрастість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1868"/>
+        <location filename="../core.cpp" line="1870"/>
         <source>Gamma: %1</source>
         <translation>Гама: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1876"/>
+        <location filename="../core.cpp" line="1878"/>
         <source>Hue: %1</source>
         <translation>Колір: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1884"/>
+        <location filename="../core.cpp" line="1886"/>
         <source>Saturation: %1</source>
         <translation>Насиченість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1998"/>
+        <location filename="../core.cpp" line="2000"/>
         <source>Volume: %1</source>
         <translation>Гучність: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2466"/>
+        <location filename="../core.cpp" line="2468"/>
         <source>Zoom: %1</source>
         <translation>Масштаб: %1</translation>
     </message>
@@ -3396,12 +3396,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>головне вікно закриється, коли скінчиться відтворення файлу чи списку.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="195"/>
+        <location filename="../main.cpp" line="198"/>
         <source>will show this message and then will exit.</source>
         <translation>відобразити це повідомлення та вийти.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="209"/>
+        <location filename="../main.cpp" line="212"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation>&apos;media&apos; будь-який файл, який SMPlayer може відкрити. Це може бути локальний файл, DVD (наприклад dvd://1), інтернет-потік (наприклад mms://....) чи локальний список у форматі m3u. Якщо буде використано опцю -playlist, то SMPlayer передасть опцію -playlist на MPlayer, таким чином список буде опрацьовувати не SMPlayer, а MPlayer.</translation>
     </message>
@@ -3421,23 +3421,28 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>action_list - перелік дій, розділених пробілами. Дії будуть виконані тільки після завантаження файлу (чи іншого) у порядку, вказаному вами. Для перевірки дії Ви можете передати переметр true чи false. Наприклад: -actions &quot;fullscreen compact true&quot;. Кавички потрібні, якщо Ви передаєте більше одного параметра.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="203"/>
+        <location filename="../main.cpp" line="206"/>
         <source>media</source>
         <translation>медіа</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="201"/>
+        <location filename="../main.cpp" line="204"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.cpp" line="170"/>
-        <source>Usage: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.cpp" line="174"/>
         <source>specifies the directory for the configuration file (smplayer.ini).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="170"/>
+        <source>Usage: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="195"/>
+        <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

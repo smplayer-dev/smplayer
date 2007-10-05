@@ -775,17 +775,17 @@ Het configuratie dialoogvenster zal nu getoond worden, zodat je dit nu kan doen.
         <translation>Over Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2678"/>
+        <location filename="../basegui.cpp" line="2670"/>
         <source>Playing %1</source>
         <translation>Afspelen van %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2679"/>
+        <location filename="../basegui.cpp" line="2671"/>
         <source>Pause</source>
         <translation>Pauze</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2680"/>
+        <location filename="../basegui.cpp" line="2672"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
@@ -1101,37 +1101,37 @@ Het configuratie dialoogvenster zal nu getoond worden, zodat je dit nu kan doen.
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1851"/>
+        <location filename="../core.cpp" line="1853"/>
         <source>Brightness: %1</source>
         <translation>Helderheid: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1860"/>
+        <location filename="../core.cpp" line="1862"/>
         <source>Contrast: %1</source>
         <translation>Contrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1868"/>
+        <location filename="../core.cpp" line="1870"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1876"/>
+        <location filename="../core.cpp" line="1878"/>
         <source>Hue: %1</source>
         <translation>Tint: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1884"/>
+        <location filename="../core.cpp" line="1886"/>
         <source>Saturation: %1</source>
         <translation>Verzadiging: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1998"/>
+        <location filename="../core.cpp" line="2000"/>
         <source>Volume: %1</source>
         <translation>Volume: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2466"/>
+        <location filename="../core.cpp" line="2468"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
@@ -3607,12 +3607,12 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation type="obsolete">Specifieert de map voor het configuratiebestand (smplayer.ini). Als de map niet is ingevuld, dan wordt de map van het programma gebruikt.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="195"/>
+        <location filename="../main.cpp" line="198"/>
         <source>will show this message and then will exit.</source>
         <translation>zal dit bericht tonen en daarna sluiten.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="209"/>
+        <location filename="../main.cpp" line="212"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation>&apos;media&apos; is elk soort bestand at SMPlayer kan openen. Het kan een lokaal bestand zijn, maar ook een dvd (bv. dvd://1), een internetstream (bv. mms://...) of een lokale playlist in het m3u formaat. Indien de -playlist optie wordt gebruikt, dan zal SMPlayer de -playlist optie doorgeven aan MPlayer, zodat MPlayer de afspeellijst kan verwerken in plaats van SMPlayer.</translation>
     </message>
@@ -3642,7 +3642,7 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>action_list is een lijst van acties, gescheiden door spaties. De acties zullen uitgevoerd worden direct na het laden van het bestand in de volgorde waarin ze werden ingevoerd. Voor aan/uit acties kan de parameter true of false toegevoegd worden. Voorbeeld: -actions &quot;fullscreen compact true&quot;. Aanhalingstekens zijn nodig indien er meer dan één actie wordt ingevoerd.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="203"/>
+        <location filename="../main.cpp" line="206"/>
         <source>media</source>
         <translation>media</translation>
     </message>
@@ -3652,18 +3652,23 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation type="obsolete">Gebruik: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="201"/>
+        <location filename="../main.cpp" line="204"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>Als er een instantie van het programma draait zal de media worden toegevoegd aan de speellijst van die instantie. Als er geen instantie draait zal deze optie worden genegeerd en dan worden de bestanden geopend in een nieuwe instantie van het programma.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="170"/>
-        <source>Usage: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
+        <location filename="../main.cpp" line="174"/>
+        <source>specifies the directory for the configuration file (smplayer.ini).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="174"/>
-        <source>specifies the directory for the configuration file (smplayer.ini).</source>
+        <location filename="../main.cpp" line="170"/>
+        <source>Usage: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="195"/>
+        <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
