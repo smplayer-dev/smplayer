@@ -1,5 +1,9 @@
 [b]Version 0.5.61[/b] (not released yet):
 
+(2007-10-05)
+ * Now the icon for Windows (smplayer.ico) is bigger (48x48).
+ * Updated the Chinese (zh_CN) translation.
+
 (2007-10-04)
  * Added some code to use an intermediate program for mplayer, when using
    Windows 98 and ME. Not tested yet. (Written in linux)
