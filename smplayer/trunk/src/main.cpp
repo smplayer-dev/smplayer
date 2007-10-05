@@ -165,7 +165,7 @@ void printHelp(QString parameter, QString help) {
 void showHelp(QString app_name) {
 	printf( "%s\n", formatText(QObject::tr("Usage: %1 [-ini-path directory] "
                         "[-send-action action_name] [-actions action_list "
-                        "[-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] "
+                        "[-close-at-end] [-no-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] "
                         "[[-playlist] media] "
                         "[[-playlist] media]...").arg(app_name), 80).toLocal8Bit().data() );
 
@@ -190,6 +190,9 @@ void showHelp(QString app_name) {
 
 	printHelp( "-close-at-end", QObject::tr(
 		"the main window will be closed when the file/playlist finishes.") );
+
+	printHelp( "-no-close-at-end", QObject::tr(
+		"the main window won't be closed when the file/playlist finishes.") );
 
 	printHelp( "-help", QObject::tr(
 		"will show this message and then will exit.") );
@@ -248,7 +251,7 @@ int main( int argc, char ** argv )
 		qDebug("Using existing %s", QString(Helper::appPath() + "/smplayer.ini").toUtf8().data());
 	}
 
-	bool close_at_end = false;
+	int close_at_end = -1; // -1 = not set, 1 = true, 0 false
 	bool show_help = false;
 
 	// Deleted KDE code
@@ -305,7 +308,11 @@ int main( int argc, char ** argv )
 			}
 			else
 			if (argument == "-close-at-end") {
-				close_at_end = true;
+				close_at_end = 1;
+			}
+			else
+			if (argument == "-no-close-at-end") {
+				close_at_end = 0;
 			}
 			else
 			if (argument == "-add-to-playlist") {
@@ -390,8 +397,11 @@ int main( int argc, char ** argv )
 		a.setFont(f);
 	}
 
+	if (close_at_end != -1) {
+		pref->close_on_finish = close_at_end;
+	}
+
 	DefaultGui * w = new DefaultGui(0);
-	if (close_at_end) w->setCloseOnFinish( true );
 
 	if (!w->startHidden() || !files_to_play.isEmpty() ) w->show();
 	if (!files_to_play.isEmpty()) w->openFiles(files_to_play);

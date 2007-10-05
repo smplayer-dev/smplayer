@@ -2657,19 +2657,11 @@ void BaseGui::exitFullscreenOnStop() {
 	}
 }
 
-void BaseGui::setCloseOnFinish(bool b) { 
-	pref->close_on_finish = b; 
-}
-
-bool BaseGui::closeOnFinish() { 
-	return pref->close_on_finish; 
-}
-
 void BaseGui::playlistHasFinished() {
 	qDebug("BaseGui::playlistHasFinished");
 	exitFullscreenOnStop();
 
-	if (closeOnFinish()) exitAct->trigger();
+	if (pref->close_on_finish) exitAct->trigger();
 }
 
 void BaseGui::displayState(Core::State state) {

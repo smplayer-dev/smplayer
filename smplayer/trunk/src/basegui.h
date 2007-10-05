@@ -55,9 +55,6 @@ public:
 	/* Return true if the window shouldn't show on startup */
 	virtual bool startHidden() { return false; };
 
-	void setCloseOnFinish(bool b);
-	bool closeOnFinish();
-
 	//! Execute all actions in \a actions. The actions should be
 	//! separated by spaces. Checkable actions could have a parameter:
 	//! true or false.
