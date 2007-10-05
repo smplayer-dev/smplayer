@@ -321,6 +321,7 @@ bool Helper::directoryContainsDVD(QString directory) {
 	return valid;
 }
 
+/*
 #ifdef Q_OS_WIN
 QString Helper::mplayer_intermediate(QString mplayer_bin) {
 	// Windows 98 and ME: call another program as intermediate
@@ -346,3 +347,5 @@ QString Helper::mplayer_intermediate(QString mplayer_bin) {
 	return "";
 }
 #endif
+*/
+

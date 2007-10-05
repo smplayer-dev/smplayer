@@ -3,6 +3,8 @@
 (2007-10-05)
  * Now the icon for Windows (smplayer.ico) is bigger (48x48).
  * Updated the Chinese (zh_CN) translation.
+ * Commented code to use an intermediate program for mplayer, 'cos it doesn't
+   work at all.
 
 (2007-10-04)
  * Added some code to use an intermediate program for mplayer, when using
