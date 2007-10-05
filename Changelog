@@ -7,6 +7,11 @@
    work at all.
  * Added new option for command line: -no-close-at-end, which is the opposite
    of -close-at-end.
+ * Added two new options for command line: -fullscreen and -no-fullscreen.
+   -fullscreen will play the video in fullscreen mode, while -no-fullscreen
+   will play it in window mode. For simplification these options just modify 
+   the option "Start videos in fullscreen" in Preferences->General->Video and 
+   audio.
 
 (2007-10-04)
  * Added some code to use an intermediate program for mplayer, when using

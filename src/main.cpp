@@ -165,7 +165,8 @@ void printHelp(QString parameter, QString help) {
 void showHelp(QString app_name) {
 	printf( "%s\n", formatText(QObject::tr("Usage: %1 [-ini-path directory] "
                         "[-send-action action_name] [-actions action_list "
-                        "[-close-at-end] [-no-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] "
+                        "[-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] "
+                        "[-add-to-playlist] [-help|--help|-h|-?] "
                         "[[-playlist] media] "
                         "[[-playlist] media]...").arg(app_name), 80).toLocal8Bit().data() );
 
@@ -193,6 +194,12 @@ void showHelp(QString app_name) {
 
 	printHelp( "-no-close-at-end", QObject::tr(
 		"the main window won't be closed when the file/playlist finishes.") );
+
+	printHelp( "-fullscreen", QObject::tr(
+		"the video will be played in fullscreen mode.") );
+
+	printHelp( "-no-fullscreen", QObject::tr(
+		"the video will be played in window mode.") );
 
 	printHelp( "-help", QObject::tr(
 		"will show this message and then will exit.") );
@@ -252,6 +259,7 @@ int main( int argc, char ** argv )
 	}
 
 	int close_at_end = -1; // -1 = not set, 1 = true, 0 false
+	int start_in_fullscreen = -1;
 	bool show_help = false;
 
 	// Deleted KDE code
@@ -313,6 +321,14 @@ int main( int argc, char ** argv )
 			else
 			if (argument == "-no-close-at-end") {
 				close_at_end = 0;
+			}
+			else
+			if (argument == "-fullscreen") {
+				start_in_fullscreen = 1;
+			}
+			else
+			if (argument == "-no-fullscreen") {
+				start_in_fullscreen = 0;
 			}
 			else
 			if (argument == "-add-to-playlist") {
@@ -399,6 +415,10 @@ int main( int argc, char ** argv )
 
 	if (close_at_end != -1) {
 		pref->close_on_finish = close_at_end;
+	}
+
+	if (start_in_fullscreen != -1) {
+		pref->start_in_fullscreen = start_in_fullscreen;
 	}
 
 	DefaultGui * w = new DefaultGui(0);
