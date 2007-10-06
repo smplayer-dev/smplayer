@@ -1057,7 +1057,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="896"/>
         <source>&amp;Toggle double size</source>
-        <translation>ダブル サイズの切り替え(&amp;T)</translation>
+        <translation>倍のサイズの切り替え(&amp;T)</translation>
     </message>
 </context>
 <context>
@@ -2535,7 +2535,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="463"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; May cause OSD/SUB corruption!</source>
-        <translation>チェックされている場合、直接描画をオンにします (すべてのコーデックとビデオ出力で対応してはいません)&lt;br&gt;&lt;b&gt;警告:&lt;/b&gt; OSD/SUB の破損を引き起こす可能性があります!</translation>
+        <translation>チェックされている場合、直接描画をオンにします (すべてのコーデックとビデオ出力によってはサポートされていません)&lt;br&gt;&lt;b&gt;警告:&lt;/b&gt; OSD/SUB の破損を引き起こす可能性があります!</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="465"/>
@@ -2615,7 +2615,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="443"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, play will be resumed.</source>
-        <translation>このオプションが有効の場合、ファイルはメイン ウィンドウが非表示のときに一時停止されます。ウィンドウが復元されると、再生は再開されます。</translation>
+        <translation>このオプションが有効の場合、ファイルはメイン ウィンドウが非表示であるときに一時停止されます。ウィンドウが復元されると、再生は再開されます。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="452"/>
@@ -3738,22 +3738,22 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../main.cpp" line="196"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
-        <translation type="unfinished"></translation>
+        <translation>メイン ウィンドウはファイル/プレイリストの完了時に閉じられません。</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="171"/>
         <source>Usage: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="unfinished"></translation>
+        <translation>使用法: %1 [-ini-path ディレクトリ] [-send-action 動作名] [-actions 動作の一覧 [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] メディア] [[-playlist] メディア]...</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="199"/>
         <source>the video will be played in fullscreen mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>ビデオは全画面表示モードで再生されます。</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="202"/>
         <source>the video will be played in window mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>ビデオはウィンドウ モードで再生されます。</translation>
     </message>
 </context>
 <context>
