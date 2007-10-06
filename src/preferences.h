@@ -234,6 +234,9 @@ public:
 	bool initial_volnorm;
 
 	int initial_audio_channels;
+
+	int initial_audio_track;
+	int initial_subtitle_track;
 };
 
 #endif

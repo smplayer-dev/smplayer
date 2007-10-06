@@ -2,6 +2,13 @@
 
 (2007-10-06)
  * Updated the Polish translation.
+ * Added two new options for the configuration file, in section [defaults]:
+   initial_audio_track and initial_subtitle_track. When a new file is played
+   the values of these options will be used to select the audio and subtitle
+   tracks. The first track is 0 (not 1). If the value is wrong, the first
+   track will be used. The default value for both options is 0.
+   Note: the "Preferred audio and subtitles" in Preferences->General will have
+   preference over these options.
 
 (2007-10-05)
  * Now the icon for Windows (smplayer.ico) is bigger (48x48).
