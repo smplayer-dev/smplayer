@@ -228,6 +228,9 @@ void Preferences::reset() {
 	initial_volnorm = false;
 
 	initial_audio_channels = MediaSettings::ChDefault;
+
+	initial_audio_track = 0;
+	initial_subtitle_track = 0;
 }
 
 void Preferences::save() {
@@ -395,6 +398,9 @@ void Preferences::save() {
 	set->setValue("initial_postprocessing", initial_postprocessing);
 
 	set->setValue("initial_audio_channels", initial_audio_channels);
+
+	set->setValue("initial_audio_track", initial_audio_track);
+	set->setValue("initial_subtitle_track", initial_subtitle_track);
 
 	set->endGroup();
 
@@ -570,6 +576,9 @@ void Preferences::load() {
 	initial_postprocessing = set->value("initial_postprocessing", initial_postprocessing).toBool();
 
 	initial_audio_channels = set->value("initial_audio_channels", initial_audio_channels).toInt();
+
+	initial_audio_track = set->value("initial_audio_track", initial_audio_track).toInt();
+	initial_subtitle_track = set->value("initial_subtitle_track", initial_subtitle_track).toInt();
 
 	set->endGroup();
 

@@ -60,6 +60,10 @@ int SubTracks::numItems() {
 	return subs.count();
 }
 
+bool SubTracks::existsItemAt(int n) {
+	return ((n > 0) && (n < numItems()));
+}
+
 int SubTracks::findLang(QString expr) {
 	qDebug( "SubTracks::findLang: '%s'", expr.toUtf8().data());
 	QRegExp rx( expr );
@@ -81,11 +85,14 @@ int SubTracks::findLang(QString expr) {
 
 // Return first subtitle or the user preferred (if found)
 // or none if there's no subtitles
-int SubTracks::selectOne(QString preferred_lang) {
+int SubTracks::selectOne(QString preferred_lang, int default_sub) {
 	int sub = MediaSettings::SubNone; 
 
 	if (numItems() > 0) {
 		sub = 0; // First subtitle
+		if (existsItemAt(default_sub)) {
+			sub = default_sub;
+		}
 
 		// Check if one of the subtitles is the user preferred.
 		if (!preferred_lang.isEmpty()) {

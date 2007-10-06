@@ -42,6 +42,8 @@ public:
 	void addID(int ID);
 
 	int numItems();
+	bool existsItemAt(int n);
+
 	TrackData itemAt(int n);
 	TrackData item(int ID);
 	int find(int ID);

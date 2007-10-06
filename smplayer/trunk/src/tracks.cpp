@@ -69,6 +69,10 @@ int TrackList::numItems() {
 	return tm.count();
 }
 
+bool TrackList::existsItemAt(int n) {
+	return ((n > 0) && (n < numItems()));
+}
+
 TrackData TrackList::itemAt(int n) {
 	return tm.values()[n];
 }

@@ -92,11 +92,13 @@ public:
 	bool changeFilename( SubData::Type t, int ID, QString filename );
 
 	int numItems();
+	bool existsItemAt(int n);
+
 	SubData itemAt(int n);
 	SubData findItem( SubData::Type t, int ID );
 
 	int findLang(QString expr);
-	int selectOne(QString preferred_lang);
+	int selectOne(QString preferred_lang, int default_sub=0);
 
 	void process(QString text);
 
