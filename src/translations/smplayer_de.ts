@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -3819,22 +3820,22 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
     <message>
         <location filename="../main.cpp" line="196"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Das Hauptfenster wird geschlossen wenn die Datei/Abspieliste benendet ist.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="171"/>
         <source>Usage: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebrauch: %1 [-ini-path Verzeichnis]] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="199"/>
         <source>the video will be played in fullscreen mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>das Video wird im Vollbildmodus abgespielt.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="202"/>
         <source>the video will be played in window mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>das Video wird im Fenstermodus abgespielt.</translation>
     </message>
 </context>
 <context>
