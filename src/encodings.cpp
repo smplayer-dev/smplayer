@@ -49,6 +49,7 @@ void Encodings::retranslate() {
 	l.append( tr( "Thai charset") + " (CP874)");
 	l.append( tr( "Cyrillic Windows") + " (CP1251)");
 	l.append( tr( "Slavic/Central European Windows") + " (CP1250)");
+	l.append( tr( "Arabic Windows") + " (CP1256)");
 }
 
 Encodings::~Encodings() {

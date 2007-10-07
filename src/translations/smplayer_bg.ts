@@ -1096,37 +1096,37 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1853"/>
+        <location filename="../core.cpp" line="1856"/>
         <source>Brightness: %1</source>
         <translation>Яркост: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1862"/>
+        <location filename="../core.cpp" line="1865"/>
         <source>Contrast: %1</source>
         <translation>Контраст: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1870"/>
+        <location filename="../core.cpp" line="1873"/>
         <source>Gamma: %1</source>
         <translation>Гама: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1878"/>
+        <location filename="../core.cpp" line="1881"/>
         <source>Hue: %1</source>
         <translation>Нюанс: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1886"/>
+        <location filename="../core.cpp" line="1889"/>
         <source>Saturation: %1</source>
         <translation>Наситеност: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2000"/>
+        <location filename="../core.cpp" line="2003"/>
         <source>Volume: %1</source>
         <translation>Сила на звука: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2468"/>
+        <location filename="../core.cpp" line="2471"/>
         <source>Zoom: %1</source>
         <translation>Мащаб: %1</translation>
     </message>
@@ -1280,6 +1280,11 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../encodings.cpp" line="51"/>
         <source>Slavic/Central European Windows</source>
         <translation>Славянски/Централна Европа Windows</translation>
+    </message>
+    <message>
+        <location filename="../encodings.cpp" line="52"/>
+        <source>Arabic Windows</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
