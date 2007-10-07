@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
-<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -2087,6 +2086,74 @@ Die Auswahl-Liste enthält evt.schon die regulären Ausdrücke.</translation>
     </message>
 </context>
 <context>
+    <name>PrefAssociations</name>
+    <message>
+        <location filename="../prefassociations.cpp" line="212"/>
+        <source>Warning</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.cpp" line="214"/>
+        <source>Not all files could be associated. Please check your security permissions and retry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.cpp" line="220"/>
+        <source>File Types</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.cpp" line="236"/>
+        <source>Select all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.cpp" line="237"/>
+        <source>Check all file types in the list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.cpp" line="240"/>
+        <source>Uncheck all file types in the list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.cpp" line="242"/>
+        <source>List of file types</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.ui" line="29"/>
+        <source>File types</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.ui" line="41"/>
+        <source>Media files handled by SMPlayer:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.ui" line="94"/>
+        <source>Select All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.ui" line="101"/>
+        <source>Select None</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.cpp" line="246"/>
+        <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.cpp" line="239"/>
+        <source>Select none</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>PrefDrives</name>
     <message>
         <location filename="../prefdrives.ui" line="29"/>
@@ -3610,27 +3677,27 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
 <context>
     <name>PreferencesDialog</name>
     <message>
-        <location filename="../preferencesdialog.cpp" line="112"/>
+        <location filename="../preferencesdialog.cpp" line="120"/>
         <source>SMPlayer - Help</source>
         <translation>SMPlayer - Hilfe</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="116"/>
+        <location filename="../preferencesdialog.cpp" line="124"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="117"/>
+        <location filename="../preferencesdialog.cpp" line="125"/>
         <source>Cancel</source>
         <translation>Abbrechen</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="118"/>
+        <location filename="../preferencesdialog.cpp" line="126"/>
         <source>Apply</source>
         <translation>Übernehmen</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="119"/>
+        <location filename="../preferencesdialog.cpp" line="127"/>
         <source>Help</source>
         <translation>Hilfe</translation>
     </message>

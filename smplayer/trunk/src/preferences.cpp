@@ -404,6 +404,10 @@ void Preferences::save() {
 
 	set->endGroup();
 
+
+	set->beginGroup("associations");
+	set->setValue("extensions", extensions); 
+	set->endGroup();
 }
 
 void Preferences::load() {
@@ -580,6 +584,11 @@ void Preferences::load() {
 	initial_audio_track = set->value("initial_audio_track", initial_audio_track).toInt();
 	initial_subtitle_track = set->value("initial_subtitle_track", initial_subtitle_track).toInt();
 
+	set->endGroup();
+
+
+	set->beginGroup("associations");
+	extensions = set->value("extensions").toString();
 	set->endGroup();
 
 	/*

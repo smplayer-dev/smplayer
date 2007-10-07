@@ -32,6 +32,7 @@ class PrefSubtitles;
 class PrefInterface;
 class PrefInput;
 class PrefAdvanced;
+class PrefAssociations;
 
 class Preferences;
 
@@ -42,7 +43,7 @@ class PreferencesDialog : public QDialog, public Ui::PreferencesDialog
 
 public:
 	enum Section { General=0, Drives=1, Performance=2,
-                   Subtitles=3, Gui=4, Mouse=5, Advanced=6 };
+                   Subtitles=3, Gui=4, Mouse=5, Advanced=6, Associations=7 };
 
 	PreferencesDialog( QWidget * parent = 0, Qt::WindowFlags f = 0 );
 	~PreferencesDialog();
@@ -87,6 +88,7 @@ protected:
 	PrefInterface * page_interface;
 	PrefInput * page_input;
 	PrefAdvanced * page_advanced;
+	PrefAssociations* page_associations; 
 
 	QTextBrowser * help_window;
 
