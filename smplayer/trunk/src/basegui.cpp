@@ -3020,6 +3020,7 @@ void BaseGui::showEvent( QShowEvent *e ) {
 		qDebug("BaseGui::showEvent: unpausing");
 		core->pause(); // Unpauses
 	}
+/*
 #ifdef Q_OS_WIN
 	// Work-around to fix a problem in Windows. The file should be restarted in order the video to show again.
 	if (e->spontaneous()) {
@@ -3030,6 +3031,7 @@ void BaseGui::showEvent( QShowEvent *e ) {
 		}
 	}
 #endif
+*/
 }
 
 void BaseGui::hideEvent( QHideEvent * ) {
