@@ -1194,7 +1194,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../encodings.cpp" line="33"/>
         <source>Slavic/Central European Languages</source>
-        <translation>スラブ/中央ヨーロッパ言語</translation>
+        <translation>スラブ語/中央ヨーロッパ言語</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="34"/>
@@ -1239,7 +1239,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../encodings.cpp" line="42"/>
         <source>Hebrew charsets</source>
-        <translation>ヘブライ文字セット</translation>
+        <translation>ヘブライ語文字セット</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="43"/>
@@ -1284,12 +1284,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../encodings.cpp" line="51"/>
         <source>Slavic/Central European Windows</source>
-        <translation>スラブ/中央ヨーロッパ言語 Windows</translation>
+        <translation>スラブ語/中央ヨーロッパ Windows</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="52"/>
         <source>Arabic Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>アラビア語 Windows</translation>
     </message>
 </context>
 <context>
@@ -1927,7 +1927,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="281"/>
         <source>If this option is checked, smplayer will store the debugging messages that smplayer outputs (you can see the log in &lt;b&gt;Options-&gt;View logs-&gt;smplayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation>このオプションがチェックされている場合、smplayer は smplayer が出力するデバッグ メッセージ (&lt;b&gt;オプション-&gt;ログの表示-&gt;smplayer&lt;/b&gt; でご覧できます) を格納します。この情報はバグを検索する場合に開発者のために非常に有用です。</translation>
+        <translation>このオプションがチェックされている場合、smplayer は smplayer が出力するデバッグ メッセージ (&lt;b&gt;オプション-&gt;ログの表示-&gt;smplayer&lt;/b&gt; でご覧できます) を格納します。この情報はバグを検索する場合に開発者に非常に有用です。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="283"/>
@@ -3094,7 +3094,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefperformance.cpp" line="180"/>
         <source>&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option is for Windows only.</source>
-        <translation>&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; このオプションは Windows のみのためのものです。</translation>
+        <translation>&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; このオプションは Windows 専用です。</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="139"/>
