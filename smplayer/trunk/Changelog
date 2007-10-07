@@ -9,6 +9,7 @@
    track will be used. The default value for both options is 0.
    Note: the "Preferred audio and subtitles" in Preferences->General will have
    preference over these options.
+ * Added "Arabic (CP1256)" to the list of encodings for subtitles.
 
 (2007-10-05)
  * Now the icon for Windows (smplayer.ico) is bigger (48x48).

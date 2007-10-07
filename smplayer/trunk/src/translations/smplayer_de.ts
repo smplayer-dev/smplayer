@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
-<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -1112,37 +1111,37 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1853"/>
+        <location filename="../core.cpp" line="1856"/>
         <source>Brightness: %1</source>
         <translation>Helligkeit: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1862"/>
+        <location filename="../core.cpp" line="1865"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1870"/>
+        <location filename="../core.cpp" line="1873"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1878"/>
+        <location filename="../core.cpp" line="1881"/>
         <source>Hue: %1</source>
         <translation>Farbe: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1886"/>
+        <location filename="../core.cpp" line="1889"/>
         <source>Saturation: %1</source>
         <translation>Sättigung: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2000"/>
+        <location filename="../core.cpp" line="2003"/>
         <source>Volume: %1</source>
         <translation>Lautstärke: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2468"/>
+        <location filename="../core.cpp" line="2471"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
@@ -1296,6 +1295,11 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
         <location filename="../encodings.cpp" line="51"/>
         <source>Slavic/Central European Windows</source>
         <translation>Slavisch/Zentral-Europäisches Windows</translation>
+    </message>
+    <message>
+        <location filename="../encodings.cpp" line="52"/>
+        <source>Arabic Windows</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
