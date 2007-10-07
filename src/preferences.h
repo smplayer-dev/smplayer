@@ -237,6 +237,8 @@ public:
 
 	int initial_audio_track;
 	int initial_subtitle_track;
+
+	QString extensions;		//registered extensions; comma-separated. eg. "avi,mpg,mpeg,mov,mkv"
 };
 
 #endif

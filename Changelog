@@ -1,5 +1,9 @@
 [b]Version 0.5.61[/b] (not released yet):
 
+(2007-10-07)
+ * (Windows) Added a new section in Preferences to associate file types with
+   SMPlayer. Patch by Florin Braghis (florin@libertv.ro).
+
 (2007-10-06)
  * Updated the Polish translation.
  * Added two new options for the configuration file, in section [defaults]:
