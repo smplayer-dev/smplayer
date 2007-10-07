@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -1299,7 +1300,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../encodings.cpp" line="52"/>
         <source>Arabic Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Arabe Windows</translation>
     </message>
 </context>
 <context>
