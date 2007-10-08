@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -1300,7 +1301,7 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../encodings.cpp" line="52"/>
         <source>Arabic Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Arabic Windows</translation>
     </message>
 </context>
 <context>
@@ -2100,67 +2101,67 @@ błąd w programie.
     <message>
         <location filename="../prefassociations.cpp" line="212"/>
         <source>Warning</source>
-        <translation type="unfinished"></translation>
+        <translation>Uwaga</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="214"/>
         <source>Not all files could be associated. Please check your security permissions and retry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie wszystkie pliki mogą zostać skojarzone. Sprawdź swoje uprawnienia dostępu do systemu plików i spróbuj ponownie.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="220"/>
         <source>File Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Rodzaj plików</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="236"/>
         <source>Select all</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz wszystko</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="237"/>
         <source>Check all file types in the list</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaznacz wszystkie rodzaje plików z listy</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="240"/>
         <source>Uncheck all file types in the list</source>
-        <translation type="unfinished"></translation>
+        <translation>Odznacz wszystkie rodzaje plików z listy</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="242"/>
         <source>List of file types</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista rodzaju plików</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="29"/>
         <source>File types</source>
-        <translation type="unfinished"></translation>
+        <translation>Rodzaj plików</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="41"/>
         <source>Media files handled by SMPlayer:</source>
-        <translation type="unfinished"></translation>
+        <translation>Rodzaj plików obsługiwanych przez SMPlayer:</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="94"/>
         <source>Select All</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz wszystko</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="101"/>
         <source>Select None</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie wybieraj nic</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="246"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaznacz rozszerzenia plików, które chciałbyś aby obsługiwał SMPlayer. Gdy naciśniesz Ok, zaznaczone pliki zostaną skojarzone z SMPlayer-em. Jeśli odznaczysz nośnik, skojarzenie plików zostanie przywrócone.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="239"/>
         <source>Select none</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie wybieraj nic</translation>
     </message>
 </context>
 <context>
