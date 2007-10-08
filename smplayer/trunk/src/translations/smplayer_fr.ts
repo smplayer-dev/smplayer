@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -2087,67 +2088,67 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefassociations.cpp" line="212"/>
         <source>Warning</source>
-        <translation type="unfinished"></translation>
+        <translation>Attention</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="214"/>
         <source>Not all files could be associated. Please check your security permissions and retry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Certains fichiers ne peuvent être associés. Vérifiez les droits de ceux-ci et réessayez.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="220"/>
         <source>File Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Types de fichier</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="236"/>
         <source>Select all</source>
-        <translation type="unfinished"></translation>
+        <translation>Tous les sélectionner</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="237"/>
         <source>Check all file types in the list</source>
-        <translation type="unfinished"></translation>
+        <translation>Vérifier tous les types de fichier dans la liste</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="240"/>
         <source>Uncheck all file types in the list</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne plus vérifier tous les types de fichiers dans la liste</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="242"/>
         <source>List of file types</source>
-        <translation type="unfinished"></translation>
+        <translation>Liste des types de fichiers</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="29"/>
         <source>File types</source>
-        <translation type="unfinished"></translation>
+        <translation>Types de fichiers</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="41"/>
         <source>Media files handled by SMPlayer:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fichiers associés à SMPlayer :</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="94"/>
         <source>Select All</source>
-        <translation type="unfinished"></translation>
+        <translation>Tous les sélectionner</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="101"/>
         <source>Select None</source>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionner aucun</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="246"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vérifier les formats de fichiers que vous voulez associer à SMPlayer. Lorsque vous cliquez sur &quot;Appliquer&quot;, les fichiers vérifiés seront associés à SMPlayer. Si vous souhaitez ne plus vérifier le type de fichier, alors l&apos;association de ce fichier sera restaurée.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="239"/>
         <source>Select none</source>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionner aucun</translation>
     </message>
 </context>
 <context>
