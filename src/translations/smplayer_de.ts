@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -2090,67 +2091,67 @@ Die Auswahl-Liste enthält evt.schon die regulären Ausdrücke.</translation>
     <message>
         <location filename="../prefassociations.cpp" line="212"/>
         <source>Warning</source>
-        <translation type="unfinished"></translation>
+        <translation>Warnung</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="214"/>
         <source>Not all files could be associated. Please check your security permissions and retry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nicht alle Dateitypen konnten assoziiert werden. Bitte die Sicheheitseinstellungen üperprüfen und erneut versuchen.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="220"/>
         <source>File Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateitypen</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="236"/>
         <source>Select all</source>
-        <translation type="unfinished"></translation>
+        <translation>Alles auswählen</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="237"/>
         <source>Check all file types in the list</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivieren aller Dateitypen in der Liste</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="240"/>
         <source>Uncheck all file types in the list</source>
-        <translation type="unfinished"></translation>
+        <translation>Deaktivieren aller Dateitypen in der Liste</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="242"/>
         <source>List of file types</source>
-        <translation type="unfinished"></translation>
+        <translation>Liste der Dateitypen</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="29"/>
         <source>File types</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateitypen</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="41"/>
         <source>Media files handled by SMPlayer:</source>
-        <translation type="unfinished"></translation>
+        <translation>Mediadateien die von SMPlayer verarbeitet werden:</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="94"/>
         <source>Select All</source>
-        <translation type="unfinished"></translation>
+        <translation>Alles auswählen</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="101"/>
         <source>Select None</source>
-        <translation type="unfinished"></translation>
+        <translation>Nichts auswählen</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="246"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivieren der Mediadateien, die mit SMPlayer assoziiert werden sollen. Anwenden anklicken, assoziiert die aktivierten Dateien mit SMPlayer. Deaktivierte Dateien werden wiederhergestellt.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="239"/>
         <source>Select none</source>
-        <translation type="unfinished"></translation>
+        <translation>Nichts auswählen</translation>
     </message>
 </context>
 <context>
