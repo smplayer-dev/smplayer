@@ -2187,7 +2187,7 @@ void BaseGui::openFile() {
                        tr("Video") +" (*.avi *.mpg *.mpeg *.mkv *.wmv "
                        "*.ogm *.vob *.flv *.mov *.ts *.rmvb *.mp4 "
                        "*.iso *.dvr-ms);;" +
-                       tr("Audio") +" (*.mp3 *.ogg *.wav *.wma *.ac3 *.ra);;" +
+                       tr("Audio") +" (*.mp3 *.ogg *.wav *.wma *.ac3 *.ra *.ape);;" +
                        tr("Playlists") +" (*.m3u *.m3u8);;" +
                        tr("All files") +" (*.*)" );
 
@@ -2355,7 +2355,7 @@ void BaseGui::loadAudioFile() {
 	QString s = MyFileDialog::getOpenFileName(
         this, tr("Choose a file"), 
 	    pref->latest_dir, 
-        tr("Audio") +" (*.mp3 *.ogg *.wav *.wma *.ac3 *.ra);;" +
+        tr("Audio") +" (*.mp3 *.ogg *.wav *.wma *.ac3 *.ra *.ape);;" +
         tr("All files") +" (*.*)" );
 
 	if (!s.isEmpty()) core->loadAudioFile(s);
