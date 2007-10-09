@@ -75,5 +75,6 @@
         <file>icons-png/type_vcd.png</file>
         <file>icons-png/type_video.png</file>
         <file>icons-png/url_big.png</file>
+        <file>icons-png/pref_associations.png</file>
     </qresource>
 </RCC>
