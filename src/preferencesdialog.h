@@ -21,6 +21,10 @@
 
 #include "ui_preferencesdialog.h"
 
+#ifdef Q_OS_WIN
+#define USE_ASSOCIATIONS 1
+#endif
+
 class QTextBrowser;
 class QPushButton;
 
@@ -88,7 +92,10 @@ protected:
 	PrefInterface * page_interface;
 	PrefInput * page_input;
 	PrefAdvanced * page_advanced;
+
+#if USE_ASSOCIATIONS
 	PrefAssociations* page_associations; 
+#endif
 
 	QTextBrowser * help_window;
 

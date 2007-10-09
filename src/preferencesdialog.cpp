@@ -27,7 +27,10 @@
 #include "prefinput.h"
 #include "prefsubtitles.h"
 #include "prefadvanced.h"
+
+#if USE_ASSOCIATIONS
 #include "prefassociations.h"
+#endif
 
 #include "preferences.h"
 
@@ -77,15 +80,13 @@ PreferencesDialog::PreferencesDialog(QWidget * parent, Qt::WindowFlags f)
 	page_input = new PrefInput;
 	addSection( page_input );
 
-	page_advanced = new PrefAdvanced;
-	addSection( page_advanced );
-
-	page_associations = NULL; 
-
-#ifdef Q_OS_WIN
+#if USE_ASSOCIATIONS
 	page_associations = new PrefAssociations;
 	addSection(page_associations);
 #endif
+
+	page_advanced = new PrefAdvanced;
+	addSection( page_advanced );
 
 	sections->setCurrentRow(General);
 
@@ -162,9 +163,10 @@ void PreferencesDialog::setData(Preferences * pref) {
 	page_input->setData(pref);
 	page_subtitles->setData(pref);
 	page_advanced->setData(pref);
-	
-	if (page_associations)
-		page_associations->setData(pref);
+
+#if USE_ASSOCIATIONS
+	page_associations->setData(pref);
+#endif
 }
 
 void PreferencesDialog::getData(Preferences * pref) {
@@ -176,8 +178,9 @@ void PreferencesDialog::getData(Preferences * pref) {
 	page_subtitles->getData(pref);
 	page_advanced->getData(pref);
 
-	if (page_associations)
-		page_associations->getData(pref); 
+#if USE_ASSOCIATIONS
+	page_associations->getData(pref);
+#endif
 }
 
 bool PreferencesDialog::requiresRestart() {

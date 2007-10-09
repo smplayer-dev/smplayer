@@ -2,6 +2,9 @@
 
 (2007-10-08)
  * Updated the Polish translation.
+ * Added new icon (pref_associations.png).
+ * Not compiling prefassociations and winfileassoc in linux, as they won't be
+   used, to save some bytes and some secs of compilation.
 
 (2007-10-07)
  * (Windows) Added a new section in Preferences to associate file types with

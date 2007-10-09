@@ -6,9 +6,6 @@ CONFIG	+= qt warn_on release
 QT += network
 #QT +=  opengl 
 
-#DEFINES += QT3_SUPPORT
-#DEFINES += QT3_SUPPORT_WARNINGS
-
 RESOURCES = icons.qrc
 
 HEADERS	+= config.h \
@@ -49,8 +46,6 @@ HEADERS	+= config.h \
 	prefinput.h \
 	prefsubtitles.h \
 	prefadvanced.h \
-	prefassociations.h \
-	winfileassoc.h \
 	filepropertiesdialog.h \
 	playlist.h \
 	playlistdock.h \
@@ -107,8 +102,6 @@ SOURCES	+= version.cpp \
 	prefinput.cpp \
 	prefsubtitles.cpp \
 	prefadvanced.cpp \
-	prefassociations.cpp \
-	winfileassoc.cpp \
 	filepropertiesdialog.cpp \
 	playlist.cpp \
 	playlistdock.cpp \
@@ -133,8 +126,7 @@ SOURCES	+= version.cpp \
 FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
         eqslider.ui seekwidget.ui inputurl.ui \
         preferencesdialog.ui prefgeneral.ui prefdrives.ui prefinterface.ui \
-        prefperformance.ui prefinput.ui prefsubtitles.ui prefadvanced.ui \
-		prefassociations.ui
+        prefperformance.ui prefinput.ui prefsubtitles.ui prefadvanced.ui
 
 TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_de.ts \
                translations/smplayer_sk.ts translations/smplayer_it.ts \
@@ -173,6 +165,10 @@ unix {
 }
 
 win32 {
+	HEADERS += 	prefassociations.h winfileassoc.h
+	SOURCES += 	prefassociations.cpp winfileassoc.cpp
+	FORMS += prefassociations.ui
+
 	RC_FILE = smplayer.rc
 	DEFINES += NO_DEBUG_ON_CONSOLE
 #	debug {
