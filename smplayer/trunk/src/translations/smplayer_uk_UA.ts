@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="uk">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -242,7 +243,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../actionseditor.cpp" line="202"/>
         <source>&amp;Change shortcut...</source>
-        <translation>&amp;Змінити комбінації клавіш...</translation>
+        <translation>&amp;Змінити комбінацію клавіш...</translation>
     </message>
 </context>
 <context>
@@ -521,11 +522,6 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="983"/>
         <source>&amp;Filters</source>
         <translation>&amp;Фільтри</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="980"/>
-        <source>&amp;Default</source>
-        <translation type="obsolete">&amp;За умовчанням</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="997"/>
@@ -1229,7 +1225,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../encodings.cpp" line="52"/>
         <source>Arabic Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Арабська Windows</translation>
     </message>
 </context>
 <context>
@@ -2012,67 +2008,67 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefassociations.cpp" line="212"/>
         <source>Warning</source>
-        <translation type="unfinished"></translation>
+        <translation>Попередження</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="214"/>
         <source>Not all files could be associated. Please check your security permissions and retry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Неможливо асоціювати жоден файл. Перевірте Ваші права доступу та спробуйте знову.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="220"/>
         <source>File Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Типи файлів</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="236"/>
         <source>Select all</source>
-        <translation type="unfinished"></translation>
+        <translation>Вибрати всі</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="237"/>
         <source>Check all file types in the list</source>
-        <translation type="unfinished"></translation>
+        <translation>Відмітити всі типи файлів в списку</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="240"/>
         <source>Uncheck all file types in the list</source>
-        <translation type="unfinished"></translation>
+        <translation>Зняти відмітки з усіх типів файлів у списку</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="242"/>
         <source>List of file types</source>
-        <translation type="unfinished"></translation>
+        <translation>Перелік всіх типів файлів</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="29"/>
         <source>File types</source>
-        <translation type="unfinished"></translation>
+        <translation>Типи файлів</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="41"/>
         <source>Media files handled by SMPlayer:</source>
-        <translation type="unfinished"></translation>
+        <translation>Файли медіа, які оброблюються SMPlayer:</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="94"/>
         <source>Select All</source>
-        <translation type="unfinished"></translation>
+        <translation>Вибрати все</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="101"/>
         <source>Select None</source>
-        <translation type="unfinished"></translation>
+        <translation>Не вибирати жодного</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="246"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Відзначте розширення файлів медіа, які ви хочете оброблювати SMPlayer. При застосуванні відзначені файли будуть асоційовані з SMPlayer. Якщо Ви знімете позначку типів медіа - асоціація файлів буде відновлена.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="239"/>
         <source>Select none</source>
-        <translation type="unfinished"></translation>
+        <translation>Не вибирати жодного</translation>
     </message>
 </context>
 <context>
@@ -2513,72 +2509,72 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="440"/>
         <source>Pause when minimized</source>
-        <translation type="unfinished"></translation>
+        <translation>Пауза при мінімізації</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="443"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, play will be resumed.</source>
-        <translation type="unfinished"></translation>
+        <translation>При активації цієї функції мінімізація головного вікна буде вмикати паузу. При відновленні вікна відтворення буде відновлено.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="452"/>
         <source>Enable postprocessing by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Увімкнути післяобробку за умовчанням</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="483"/>
         <source>Max. Amplification</source>
-        <translation type="unfinished"></translation>
+        <translation>Максимальна амплітуда</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="490"/>
         <source>AC3/DTS pass-through S/PDIF</source>
-        <translation type="unfinished"></translation>
+        <translation>Передача AC3/DTS на S/PDIF</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="493"/>
         <source>Volume normalization by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Нормалізація гучності за умовчанням</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="494"/>
         <source>Maximizes the volume without distorting the sound.</source>
-        <translation type="unfinished"></translation>
+        <translation>Максимізація гучності без спотворення звуку.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="501"/>
         <source>Default volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Гучність за умовчанням</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="502"/>
         <source>Sets the initial volume that new files will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>Встановити початкову гучність для всіх нових файлів.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="504"/>
         <source>Channels by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Канали за умовчанням</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="488"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Встановлює максимальний рівень збільшення в процентах (за умовчанням: 110). Значення 200 дозволить Вам зільшити гучність вдвічі від поточного значення. Значення менше 100 початкова гучність (тобто 100%) буде вище максимуму, який правильно відображається екранною індикацією.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="491"/>
         <source>Uses hardware AC3 passthrough</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовувати апаратну передачу AC3</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="513"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. NOTE: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"></translation>
+        <translation>Вказує кількість каналів для відтворення. MPlayer вказує декодеру декодувати звук на вказану кількість каналів. Це виконує сам декодер. Це, як правило, актуально лише для відтворення відео із звуком AC3 (як DVD). В цьому випадку liba52 декодує за умовчанням та правильно міксує звук в необхідну кількість каналів. ПРИМІТКА: Ця опція лише для кодеку (тільки AC3), фільтрів (розширення оточення) та драйверів виводу звуку (принаймні OSS).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="453"/>
         <source>Postprocessing will be used by default on new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Післяобробка буде використовуватись для всіх нових файлів.</translation>
     </message>
 </context>
 <context>
@@ -2656,42 +2652,42 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefinput.cpp" line="138"/>
         <source>Shortcut editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактор гарячих клавіш</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="147"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тут Ви можете змінити будь-яку доступну комбінацію клавіш. Двічі клацніть або натисніть ENTER на чарунку комбінації, чи натисніть кнопку &lt;b&gt;Змінити комбінацію клавіш&lt;/b&gt; для введення в діалозі &lt;i&gt;Змінити комбінацію&lt;/i&gt;. Є два способи змінити комбінацію: або натиснути кнопку &lt;b&gt;Захоплення&lt;/b&gt; і просто натиснути потрібну комбінацію клавіш (нажаль, не працює для всіх клавіш), або просто написати повну назву клавіш.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="149"/>
         <source>Left click</source>
-        <translation type="unfinished"></translation>
+        <translation>Клік лівою</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="150"/>
         <source>Select the action for left click on the mouse.</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть функцію кліку лівою для мишки.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="152"/>
         <source>Double click</source>
-        <translation type="unfinished"></translation>
+        <translation>Подвійний клік</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="153"/>
         <source>Select the action for double click on the mouse.</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть функцію подвійного кліку для мишки.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="155"/>
         <source>Wheel function</source>
-        <translation type="unfinished"></translation>
+        <translation>Функція колеса</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="156"/>
         <source>Select the action for the mouse wheel.</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть функцію колеса для мишки.</translation>
     </message>
 </context>
 <context>
@@ -3152,22 +3148,22 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefperformance.cpp" line="197"/>
         <source>Fast audio track switching</source>
-        <translation type="unfinished"></translation>
+        <translation>Швидке перемикання звукових доріжок</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="199"/>
         <source>If checked, it will try the fastest method to switch audio tracks but might not work with some formats.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо увімкнено - буде використовуватись найшвидший метод для перемикання звукових доріжок, але не працює з деякими форматами.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="201"/>
         <source>Fast seek to chapters in dvds</source>
-        <translation type="unfinished"></translation>
+        <translation>Швидкий пошук глав для DVD</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="203"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо увімкнено - буде використовуватись найшвидший метод для пошуку глав, але не працює з деякими дисками.</translation>
     </message>
 </context>
 <context>
@@ -3381,27 +3377,27 @@ The drop-down lists may provide already made regular expression for several lang
 <context>
     <name>PreferencesDialog</name>
     <message>
-        <location filename="../preferencesdialog.cpp" line="120"/>
+        <location filename="../preferencesdialog.cpp" line="121"/>
         <source>SMPlayer - Help</source>
         <translation>SMPlayer - Допомога</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="124"/>
+        <location filename="../preferencesdialog.cpp" line="125"/>
         <source>OK</source>
         <translation>Готово</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="125"/>
+        <location filename="../preferencesdialog.cpp" line="126"/>
         <source>Cancel</source>
         <translation>Відмінити</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="126"/>
+        <location filename="../preferencesdialog.cpp" line="127"/>
         <source>Apply</source>
         <translation>Застосувати</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="127"/>
+        <location filename="../preferencesdialog.cpp" line="128"/>
         <source>Help</source>
         <translation>Допомога</translation>
     </message>
@@ -3459,11 +3455,6 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Це SMPlayer v. %1 запущений на %2</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="175"/>
-        <source>specifies the directory for the configuration file (smplayer.ini). If directory is omitted, the application directory will be used.</source>
-        <translation type="obsolete">вказати теку з конфігураційним файлом (smplayer.ini). Якщо тека вказана - програма її буде використовувати.</translation>
-    </message>
-    <message>
         <location filename="../main.cpp" line="193"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>головне вікно закриється, коли скінчиться відтворення файлу чи списку.</translation>
@@ -3477,11 +3468,6 @@ The drop-down lists may provide already made regular expression for several lang
         <location filename="../main.cpp" line="219"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation>&apos;media&apos; будь-який файл, який SMPlayer може відкрити. Це може бути локальний файл, DVD (наприклад dvd://1), інтернет-потік (наприклад mms://....) чи локальний список у форматі m3u. Якщо буде використано опцю -playlist, то SMPlayer передасть опцію -playlist на MPlayer, таким чином список буде опрацьовувати не SMPlayer, а MPlayer.</translation>
-    </message>
-    <message>
-        <location filename="../main.cpp" line="169"/>
-        <source>Usage: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="obsolete">Використання: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="182"/>
@@ -3501,32 +3487,32 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../main.cpp" line="211"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
-        <translation type="unfinished"></translation>
+        <translation>якщо вже працює інший процес - медіа будуть додані до списку відтворення. Якщо не буде ніякого іншого процесу - ця опція ігнорується та файли відкриються в новому процесі.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="175"/>
         <source>specifies the directory for the configuration file (smplayer.ini).</source>
-        <translation type="unfinished"></translation>
+        <translation>вказує каналог розміщення файлу конфігурації (smplayer.ini).</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="196"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
-        <translation type="unfinished"></translation>
+        <translation>не закривати головне вікно після закінчення відтворення файлу чи списку.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="171"/>
         <source>Usage: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="unfinished"></translation>
+        <translation>Використання: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="199"/>
         <source>the video will be played in fullscreen mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>відтворювати відео на повний екран.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="202"/>
         <source>the video will be played in window mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>відтворювати відео у віконному режимі.</translation>
     </message>
 </context>
 <context>
