@@ -4,6 +4,8 @@
  * Added patch by LoRd_MuldeR for prefassociations.cpp and winfileassoc.cpp to
    make the file associations code compatible with SetFileAssoc.exe. It also
    adds an "Enqueue in SMPlayer" for the context menu. Not tested yet.
+ * Disable compact mode when the video window is hidden (playing an audio
+   file or using the mplayer window). I think this fixes bug #1812952.
 
 (2007-10-13)
  * Updated the Ukrainian translation.
