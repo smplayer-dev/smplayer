@@ -2713,7 +2713,12 @@ void BaseGui::resizeWindow(int w, int h) {
 		return;
 	}
 
-	if (!panel->isVisible()) panel->show();
+	if (!panel->isVisible()) {
+		panel->show();
+
+		// Enable compact mode
+		compactAct->setEnabled(true);
+	}
 
 	if (pref->size_factor != 100) {
 		w = w * pref->size_factor / 100;
@@ -2808,6 +2813,9 @@ void BaseGui::resizeWindow(int w, int h) {
 #endif
 */
 		//show();
+
+		// Enable compact mode
+		compactAct->setEnabled(true);
 	}
 
 	if (pref->size_factor != 100) {
@@ -2848,6 +2856,9 @@ void BaseGui::hidePanel() {
 		if (width > 580) width = 580;
 		resize( width, size().height() - panel->size().height() );
 		panel->hide();
+
+		// Disable compact mode
+		compactAct->setEnabled(false);
 	}
 }
 
