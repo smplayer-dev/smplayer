@@ -21,6 +21,7 @@
 
 #include "images.h"
 #include "global.h"
+#include "preferences.h"
 #include "desktopinfo.h"
 #include "helper.h"
 
@@ -378,22 +379,22 @@ void MplayerWindow::moveLayer( int offset_x, int offset_y ) {
 }
 
 void MplayerWindow::moveLeft() {
-	if (mplayerlayer->x()+mplayerlayer->width() > width() )
+	if ((pref->allow_video_movement) || (mplayerlayer->x()+mplayerlayer->width() > width() ))
 		moveLayer( -16, 0 );
 }
 
 void MplayerWindow::moveRight() {
-	if ( mplayerlayer->x() < 0 )
+	if ((pref->allow_video_movement) || ( mplayerlayer->x() < 0 ))
 		moveLayer( +16, 0 );
 }
 
 void MplayerWindow::moveUp() {
-	if (mplayerlayer->y()+mplayerlayer->height() > height() )
+	if ((pref->allow_video_movement) || (mplayerlayer->y()+mplayerlayer->height() > height() ))
 		moveLayer( 0, -16 );
 }
 
 void MplayerWindow::moveDown() {
-	if ( mplayerlayer->y() < 0 )
+	if ((pref->allow_video_movement) || ( mplayerlayer->y() < 0 ))
 		moveLayer( 0, +16 );
 }
 

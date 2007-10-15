@@ -444,6 +444,12 @@ void DefaultGui::aboutToEnterCompactMode() {
 	controlwidget_mini->hide();
 	toolbar1->hide();
 	toolbar2->hide();
+
+	/*
+	if (pref->resize_method == Preferences::Always) {
+		resizeWindow(core->mset.win_width, core->mset.win_height);
+	}
+	*/
 }
 
 void DefaultGui::aboutToExitCompactMode() {
