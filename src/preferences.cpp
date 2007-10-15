@@ -211,6 +211,8 @@ void Preferences::reset() {
 
 	pause_when_hidden = false;
 
+	allow_video_movement = false;
+
 
 	vcd_initial_title = 2; // Most VCD's start at title #2
 
@@ -378,6 +380,8 @@ void Preferences::save() {
 	set->setValue("default_font", default_font);
 
 	set->setValue("pause_when_hidden", pause_when_hidden);
+
+	set->setValue("allow_video_movement", allow_video_movement);
 
 	set->endGroup();
 
@@ -560,6 +564,8 @@ void Preferences::load() {
 	default_font = set->value("default_font", default_font).toString();
 
 	pause_when_hidden = set->value("pause_when_hidden", pause_when_hidden).toBool();
+
+	allow_video_movement = set->value("allow_video_movement", allow_video_movement).toBool();
 
 	set->endGroup();
 

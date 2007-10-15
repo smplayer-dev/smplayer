@@ -6,6 +6,8 @@
    adds an "Enqueue in SMPlayer" for the context menu. Not tested yet.
  * Disable compact mode when the video window is hidden (playing an audio
    file or using the mplayer window). I think this fixes bug #1812952.
+ * New option for the config file: allow_video_movement. If true the video
+   can be moved (Alt+cursors) even if not using zoom.
 
 (2007-10-13)
  * Updated the Ukrainian translation.

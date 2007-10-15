@@ -215,6 +215,9 @@ public:
 	//!< Pause the current file when the main window is not visible
 	bool pause_when_hidden; 
 
+	//!< Allow frre movement of the video window
+	bool allow_video_movement;
+
 	// Initial values for some options
 	int initial_volume;
 	int initial_contrast;
