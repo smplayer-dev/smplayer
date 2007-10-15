@@ -160,7 +160,7 @@ int PrefAssociations::ProcessAssociations(QStringList& current, QStringList& old
 {
 	int processed = 0; 
 
-	WinFileAssoc RegAssoc("SMPlayer.exe"); 
+	WinFileAssoc RegAssoc("MPlayerFileVideo"); 
 
 	//Restore unselected associations
 	for (int k = 0; k < old.count(); k++)
@@ -175,7 +175,7 @@ int PrefAssociations::ProcessAssociations(QStringList& current, QStringList& old
 	//Set current associations
 	if (current.count() > 0)
 	{
-		RegAssoc.CreateClassId(QApplication::applicationFilePath(), "SMPlayer Video Player");
+		RegAssoc.CreateClassId(QApplication::applicationFilePath(), "MPlayer Video File");
 
 		for (int k = 0; k < current.count(); k++)
 		{

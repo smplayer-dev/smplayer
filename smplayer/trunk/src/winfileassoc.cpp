@@ -54,16 +54,16 @@ bool WinFileAssoc::CreateFileAssociation(const QString& fileExtension)
 	//Save last ClassId from the extension class
 	QString KeyVal = RegCR.value("." + fileExtension + "/.").toString();
 	if (KeyVal != m_ClassId)
-		RegCR.setValue(BackupKeyName + "/OldClassId", KeyVal); 
+		RegCR.setValue("." + fileExtension + "/MPlayer_Backup", KeyVal); 
 
 	//Save last ProgId and Application values from the Exts key
 	KeyVal = RegCU.value(ExtKeyName + "/Progid").toString();
 	if (KeyVal != m_ClassId)
-		RegCR.setValue(BackupKeyName + "/OldProgId", KeyVal);
+		RegCR.setValue("." + fileExtension + "/MPlayer_Backup_ProgId", KeyVal);
 
 	KeyVal = RegCU.value(ExtKeyName + "/Application").toString(); 
 	if (KeyVal != m_ClassId) 
-		RegCR.setValue(BackupKeyName + "/OldApplication", KeyVal); 
+		RegCR.setValue("." + fileExtension + "/MPlayer_Backup_Application", KeyVal); 
 
 	//Create the associations
 	RegCR.setValue("." + fileExtension + "/.", m_ClassId); 		//Extension class
@@ -87,9 +87,9 @@ bool WinFileAssoc::RestoreFileAssociation(const QString& fileExtension)
 	QString ExtKeyName = QString("SOFTWARE/Microsoft/Windows/CurrentVersion/Explorer/FileExts/.%1").arg(fileExtension);
 
 	QString BackupKeyName = ClassesKeyName + "/" + fileExtension; 
-	QString OldProgId = RegCR.value(BackupKeyName + "/OldProgId").toString(); 
-	QString OldApp  = RegCR.value(BackupKeyName + "/OldApplication").toString(); 
-	QString OldClassId = RegCR.value(BackupKeyName + "/OldClassId").toString(); 
+	QString OldProgId = RegCR.value("." + fileExtension + "/MPlayer_Backup").toString(); 
+	QString OldApp  = RegCR.value("." + fileExtension + "/MPlayer_Backup_Application").toString(); 
+	QString OldClassId = RegCR.value("." + fileExtension + "/MPlayer_Backup_ProgId").toString(); 
 
 	//Restore old association
 	if (!OldProgId.isEmpty() && OldProgId != m_ClassId)
@@ -141,6 +141,9 @@ bool WinFileAssoc::CreateClassId(const QString& executablePath, const QString& f
 	RegCR.setValue(m_ClassId + "/shell/open/FriendlyAppName", friendlyName);
 	RegCR.setValue(m_ClassId + "/shell/open/command/.", QString("\"%1\" \"%2\"").arg(appPath, "%1"));
 	RegCR.setValue(m_ClassId + "/DefaultIcon/.", QString("\"%1\",0").arg(appPath));
+	//Add "Enqueue" command
+	RegCR.setValue(m_ClassId + "/shell/enqueue/.", "Enqueue in SMPlayer");
+	RegCR.setValue(m_ClassId + "/shell/enqueue/command/.", QString("\"%1\" -add-to-playlist \"%2\"").arg(appPath, "%1"));
 	return true; 
 }
 
@@ -154,6 +157,8 @@ bool WinFileAssoc::RemoveClassId()
 
 	RegCR.remove(m_ClassId + "/shell/open/FriendlyAppName");
 	RegCR.remove(m_ClassId + "/shell/open/command/.");
+	RegCR.remove(m_ClassId + "/shell/enqueue/command/.");
+	RegCR.remove(m_ClassId + "/shell/enqueue/.");
 	RegCR.remove(m_ClassId + "/DefaultIcon/.");
 	RegCR.remove(m_ClassId);
 	return true; 

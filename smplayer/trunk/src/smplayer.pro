@@ -162,6 +162,11 @@ unix {
   #	HEADERS += mysystemtrayicon.h
   #	SOURCES += mysystemtrayicon.cpp
   #}
+
+  #HEADERS += 	prefassociations.h winfileassoc.h
+  #SOURCES += 	prefassociations.cpp winfileassoc.cpp
+  #FORMS += prefassociations.ui
+
 }
 
 win32 {
