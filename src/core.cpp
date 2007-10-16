@@ -51,6 +51,16 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	just_loaded_external_subs = false;
 	just_unloaded_external_subs = false;
 
+	// Create file_settings
+	if (Helper::iniPath().isEmpty()) {
+		file_settings = new QSettings(QSettings::IniFormat, QSettings::UserScope,
+                                      QString(COMPANY), QString("smplayer_files") );
+	} else {
+		QString filename = Helper::iniPath() + "/smplayer_files.ini";
+		file_settings = new QSettings( filename, QSettings::IniFormat );
+		qDebug("Core::Core: file_settings: '%s'", filename.toUtf8().data());
+	}
+
     proc = new MplayerProcess(this);
 
 	connect( proc, SIGNAL(receivedCurrentSec(double)),
@@ -127,6 +137,7 @@ Core::~Core() {
     if (proc->isRunning()) stopMplayer();
     proc->terminate();
     delete proc;
+	delete file_settings;
 }
 
 void Core::setState(State s) {
@@ -159,9 +170,9 @@ void Core::restart() {
 bool Core::checkHaveSettingsSaved(QString group_name) {
 	qDebug("Core::checkHaveSettingsSaved: group_name: '%s'", group_name.toUtf8().data());
 
-	settings->beginGroup( group_name );
-	bool saved = settings->value( "saved", false ).toBool();
-	settings->endGroup();
+	file_settings->beginGroup( group_name );
+	bool saved = file_settings->value( "saved", false ).toBool();
+	file_settings->endGroup();
 
 	return saved;
 }
@@ -187,25 +198,25 @@ void Core::saveMediaInfo() {
 	}
 
 	if (!group_name.isEmpty()) {
-		settings->beginGroup( group_name );
-		settings->setValue( "saved", true);
+		file_settings->beginGroup( group_name );
+		file_settings->setValue( "saved", true);
 
 		/*mdat.save(*settings);*/
-		mset.save();
+		mset.save(file_settings);
 
-		settings->endGroup();
+		file_settings->endGroup();
 	}
 }
 
 void Core::loadMediaInfo(QString group_name) {
 	qDebug("Core::loadMediaInfo: '%s'", group_name.toUtf8().data() );
 
-	settings->beginGroup( group_name );
+	file_settings->beginGroup( group_name );
 
 	/*mdat.load(*settings);*/
-	mset.load();
+	mset.load(file_settings);
 
-	settings->endGroup();
+	file_settings->endGroup();
 }
 
 

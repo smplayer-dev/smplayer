@@ -101,6 +101,7 @@ void showInfo() {
 	qDebug(" * themes path: '%s'", Helper::themesPath().toUtf8().data());
 	qDebug(" * shortcuts path: '%s'", Helper::shortcutsPath().toUtf8().data());
 	qDebug(" * smplayer home path: '%s'", Helper::appHomePath().toUtf8().data());
+	qDebug(" * ini path: '%s'", Helper::iniPath().toUtf8().data());
 }
 
 QString formatText(QString s, int col) {
@@ -358,8 +359,6 @@ int main( int argc, char ** argv )
 	translator->load( pref->language );
 
 	showInfo();
-	// FIXME: this should be in showInfo() ?
-	qDebug(" * ini path: '%s'", ini_path.toUtf8().data());
 
 	if (show_help) {
 		showHelp(app_name);

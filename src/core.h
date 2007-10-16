@@ -27,6 +27,7 @@
 
 class MplayerProcess;
 class MplayerWindow;
+class QSettings;
 
 class Core : public QObject
 {
@@ -259,7 +260,8 @@ signals:
 
 protected:
     MplayerProcess * proc;
-    MplayerWindow *mplayerwindow;
+    MplayerWindow * mplayerwindow;
+	QSettings * file_settings;
     
 private:
 	// Some variables to proper restart

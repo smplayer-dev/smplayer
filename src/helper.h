@@ -44,6 +44,10 @@ public:
 	//! Return the user's home
 	static QString appHomePath();
 
+	static void setIniPath(QString path);
+	static QString iniPath();
+
+
 	// Format a time (hh:mm:ss)
 	static QString formatTime(int secs);
 
@@ -92,6 +96,7 @@ public:
 private:
 	static QString logs;
 	static QString app_path;
+	static QString ini_path;
 };
 
 #endif

@@ -1,5 +1,10 @@
 [b]Version 0.5.62[/b] (not released yet):
 
+(2007-10-15)
+ * Added clean_windows.bat, which deletes the compilation files.
+ * Now the settings for played files will be saved in an independent file:
+   ~/.smplayer/smplayer_files.ini (or under the directory set in -ini-path).
+
 (2007-10-14)
  * Added patch by LoRd_MuldeR for prefassociations.cpp and winfileassoc.cpp to
    make the file associations code compatible with SetFileAssoc.exe. It also

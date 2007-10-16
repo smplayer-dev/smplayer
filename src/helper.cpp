@@ -59,7 +59,7 @@ public:
 
 QString Helper::logs;
 QString Helper::app_path;
-
+QString Helper::ini_path;
 
 void Helper::setAppPath(QString path) {
 	app_path = path;
@@ -147,6 +147,19 @@ QString Helper::qtTranslationPath() {
 
 QString Helper::appHomePath() {
 	return QDir::homePath() + "/.smplayer";
+}
+
+void Helper::setIniPath(QString path) {
+	ini_path = path;
+}
+
+QString Helper::iniPath() {
+	if (!ini_path.isEmpty()) {
+		return ini_path;
+	} else {
+		if (QFile::exists(appHomePath())) return appHomePath();
+	}
+	return "";
 }
 
 QString Helper::filenameForPref(const QString & filename) {
