@@ -165,10 +165,10 @@ void MediaSettings::list() {
 	qDebug("  starting_time: %f", starting_time);
 }
 
-void MediaSettings::save() {
+void MediaSettings::save(QSettings * set) {
 	qDebug("MediaSettings::save");
 
-	QSettings * set = settings;
+	//QSettings * set = settings;
 
 	/*set->beginGroup( "mediasettings" );*/
 
@@ -238,10 +238,10 @@ void MediaSettings::save() {
 	/*set->endGroup();*/
 }
 
-void MediaSettings::load() {
+void MediaSettings::load(QSettings * set) {
 	qDebug("MediaSettings::load");
 
-	QSettings * set = settings;
+	//QSettings * set = settings;
 
 	/*set->beginGroup( "mediasettings" );*/
 

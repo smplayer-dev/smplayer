@@ -26,6 +26,7 @@
 #include <QString>
 #include <QSize>
 
+class QSettings;
 
 class MediaSettings {
 
@@ -133,8 +134,8 @@ public:
 
 
 	void list();
-	void save();
-	void load();
+	void save(QSettings * set);
+	void load(QSettings * set);
 };
 
 #endif

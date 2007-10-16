@@ -38,6 +38,18 @@ void global_init(const QString & ini_path) {
 	translator = new Translator();
 
 	// settings
+	Helper::setIniPath(ini_path);
+	if (Helper::iniPath().isEmpty()) {
+		settings = new QSettings(QSettings::IniFormat, QSettings::UserScope,
+    	                         QString(COMPANY), QString(PROGRAM) );
+	} else {
+		QString filename = Helper::iniPath() + "/smplayer.ini";
+		settings = new QSettings( filename, QSettings::IniFormat );
+		qDebug("global_init: config file: '%s'", filename.toUtf8().data());
+
+	}
+
+	/*
 	if (!ini_path.isEmpty()) {
 		QString file = ini_path + "/smplayer.ini";
 		settings = new QSettings( file, QSettings::IniFormat );
@@ -54,6 +66,7 @@ void global_init(const QString & ini_path) {
 		settings = new QSettings(QSettings::IniFormat, QSettings::UserScope,
     	                         QString(COMPANY), QString(PROGRAM) );
 	}
+	*/
 
 	// Preferences
 	pref = new Preferences();
