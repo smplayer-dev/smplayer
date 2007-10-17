@@ -113,6 +113,13 @@ QList <QKeySequence> ActionsEditor::stringToShortcuts(QString shortcuts) {
 	for (int n=0; n < l.count(); n++) {
 		//qDebug("%s", l[n].toUtf8().data());
 		QString s = QKeySequence( l[n].simplified() );
+		
+		//Work-around for Simplified-Chinese
+		s.replace( QString::fromUtf8("左"), "Left");
+		s.replace( QString::fromUtf8("下"), "Down");
+		s.replace( QString::fromUtf8("右"), "Right");
+		s.replace( QString::fromUtf8("上"), "Up");
+
 		shortcuts_list.append( s );
 		//qDebug("ActionsEditor::stringToShortcuts: shortcut %d: '%s'", n, s.toUtf8().data());
 	}
