@@ -1101,37 +1101,37 @@ Het configuratie dialoogvenster zal nu getoond worden, zodat je dit nu kan doen.
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1856"/>
+        <location filename="../core.cpp" line="1867"/>
         <source>Brightness: %1</source>
         <translation>Helderheid: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1865"/>
+        <location filename="../core.cpp" line="1876"/>
         <source>Contrast: %1</source>
         <translation>Contrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1873"/>
+        <location filename="../core.cpp" line="1884"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1881"/>
+        <location filename="../core.cpp" line="1892"/>
         <source>Hue: %1</source>
         <translation>Tint: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1889"/>
+        <location filename="../core.cpp" line="1900"/>
         <source>Saturation: %1</source>
         <translation>Verzadiging: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2003"/>
+        <location filename="../core.cpp" line="2014"/>
         <source>Volume: %1</source>
         <translation>Volume: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2471"/>
+        <location filename="../core.cpp" line="2482"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
@@ -3602,27 +3602,27 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
 <context>
     <name>PreferencesDialog</name>
     <message>
-        <location filename="../preferencesdialog.cpp" line="120"/>
+        <location filename="../preferencesdialog.cpp" line="121"/>
         <source>SMPlayer - Help</source>
         <translation>SMPlayer - Help</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="124"/>
+        <location filename="../preferencesdialog.cpp" line="125"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="125"/>
+        <location filename="../preferencesdialog.cpp" line="126"/>
         <source>Cancel</source>
         <translation>Annuleren</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="126"/>
+        <location filename="../preferencesdialog.cpp" line="127"/>
         <source>Apply</source>
         <translation>Toepassen</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="127"/>
+        <location filename="../preferencesdialog.cpp" line="128"/>
         <source>Help</source>
         <translation>Help</translation>
     </message>
@@ -3635,42 +3635,42 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../helper.cpp" line="199"/>
+        <location filename="../helper.cpp" line="212"/>
         <source>1 second</source>
         <translation>1 seconde</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="201"/>
+        <location filename="../helper.cpp" line="214"/>
         <source>%1 seconds</source>
         <translation>%1 seconden</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="214"/>
+        <location filename="../helper.cpp" line="227"/>
         <source>%1 minutes</source>
         <translation>%1 minuten</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="219"/>
+        <location filename="../helper.cpp" line="232"/>
         <source>%1 minutes and %2 seconds</source>
         <translation>%1 minuten en %2 seconden</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="206"/>
+        <location filename="../helper.cpp" line="219"/>
         <source>1 minute</source>
         <translation>1 minuut</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="209"/>
+        <location filename="../helper.cpp" line="222"/>
         <source>1 minute and 1 second</source>
         <translation>1 minuut en 1 seconde</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="211"/>
+        <location filename="../helper.cpp" line="224"/>
         <source>1 minute and %1 seconds</source>
         <translation>1 minuut en %1 seconden</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="217"/>
+        <location filename="../helper.cpp" line="230"/>
         <source>%1 minutes and 1 second</source>
         <translation>%1 minuten en 1 seconde</translation>
     </message>
@@ -3680,17 +3680,17 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation type="obsolete">Specifieert de map voor het configuratiebestand (smplayer.ini). Als de map niet is ingevuld, dan wordt de map van het programma gebruikt.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="205"/>
+        <location filename="../main.cpp" line="206"/>
         <source>will show this message and then will exit.</source>
         <translation>zal dit bericht tonen en daarna sluiten.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="219"/>
+        <location filename="../main.cpp" line="220"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation>&apos;media&apos; is elk soort bestand at SMPlayer kan openen. Het kan een lokaal bestand zijn, maar ook een dvd (bv. dvd://1), een internetstream (bv. mms://...) of een lokale playlist in het m3u formaat. Indien de -playlist optie wordt gebruikt, dan zal SMPlayer de -playlist optie doorgeven aan MPlayer, zodat MPlayer de afspeellijst kan verwerken in plaats van SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="193"/>
+        <location filename="../main.cpp" line="194"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>het hoofdvenster zal gesloten worden na afloop van het bestand of de afspeellijst.</translation>
     </message>
@@ -3705,17 +3705,17 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation type="obsolete">Gebruik: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="182"/>
+        <location filename="../main.cpp" line="183"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
         <translation>probeert een verbinding naar een draaiende instantie van te maken en de gespecifieerde actie te sturen. Voorbeeld: -send-action pause; De rest van de opties (indien die er zijn) worden genegeerd en het programma zal stoppen. De functie geeft 0 terug bij een succesvolle actie of -1 wanneer de actie niet verstuurd kon worden.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="190"/>
+        <location filename="../main.cpp" line="191"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
         <translation>action_list is een lijst van acties, gescheiden door spaties. De acties zullen uitgevoerd worden direct na het laden van het bestand in de volgorde waarin ze werden ingevoerd. Voor aan/uit acties kan de parameter true of false toegevoegd worden. Voorbeeld: -actions &quot;fullscreen compact true&quot;. Aanhalingstekens zijn nodig indien er meer dan één actie wordt ingevoerd.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="213"/>
+        <location filename="../main.cpp" line="214"/>
         <source>media</source>
         <translation>media</translation>
     </message>
@@ -3725,33 +3725,38 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation type="obsolete">Gebruik: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="211"/>
+        <location filename="../main.cpp" line="212"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>Als er een instantie van het programma draait zal de media worden toegevoegd aan de speellijst van die instantie. Als er geen instantie draait zal deze optie worden genegeerd en dan worden de bestanden geopend in een nieuwe instantie van het programma.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="175"/>
+        <location filename="../main.cpp" line="176"/>
         <source>specifies the directory for the configuration file (smplayer.ini).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="196"/>
+        <location filename="../main.cpp" line="197"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="171"/>
+        <location filename="../main.cpp" line="172"/>
         <source>Usage: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="199"/>
+        <location filename="../main.cpp" line="200"/>
         <source>the video will be played in fullscreen mode.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="202"/>
+        <location filename="../main.cpp" line="203"/>
         <source>the video will be played in window mode.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../winfileassoc.cpp" line="145"/>
+        <source>Enqueue in SMPlayer</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

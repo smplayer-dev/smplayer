@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
-<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -1113,37 +1112,37 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1856"/>
+        <location filename="../core.cpp" line="1867"/>
         <source>Brightness: %1</source>
         <translation>Jasność: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1865"/>
+        <location filename="../core.cpp" line="1876"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1873"/>
+        <location filename="../core.cpp" line="1884"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1881"/>
+        <location filename="../core.cpp" line="1892"/>
         <source>Hue: %1</source>
         <translation>Odcień: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1889"/>
+        <location filename="../core.cpp" line="1900"/>
         <source>Saturation: %1</source>
         <translation>Nasycenie: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2003"/>
+        <location filename="../core.cpp" line="2014"/>
         <source>Volume: %1</source>
         <translation>Głośność: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2471"/>
+        <location filename="../core.cpp" line="2482"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
@@ -3699,27 +3698,27 @@ obrazu). Może to powodować zniekształcenia obrazu!</translation>
 <context>
     <name>PreferencesDialog</name>
     <message>
-        <location filename="../preferencesdialog.cpp" line="120"/>
+        <location filename="../preferencesdialog.cpp" line="121"/>
         <source>SMPlayer - Help</source>
         <translation>SMPlayer-Pomoc</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="124"/>
+        <location filename="../preferencesdialog.cpp" line="125"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="125"/>
+        <location filename="../preferencesdialog.cpp" line="126"/>
         <source>Cancel</source>
         <translation>Anuluj</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="126"/>
+        <location filename="../preferencesdialog.cpp" line="127"/>
         <source>Apply</source>
         <translation>Zatwierdź</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="127"/>
+        <location filename="../preferencesdialog.cpp" line="128"/>
         <source>Help</source>
         <translation>Pomoc</translation>
     </message>
@@ -3732,42 +3731,42 @@ obrazu). Może to powodować zniekształcenia obrazu!</translation>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../helper.cpp" line="199"/>
+        <location filename="../helper.cpp" line="212"/>
         <source>1 second</source>
         <translation>1 sekunda</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="201"/>
+        <location filename="../helper.cpp" line="214"/>
         <source>%1 seconds</source>
         <translation>%1 sekund</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="214"/>
+        <location filename="../helper.cpp" line="227"/>
         <source>%1 minutes</source>
         <translation>%1 minut</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="219"/>
+        <location filename="../helper.cpp" line="232"/>
         <source>%1 minutes and %2 seconds</source>
         <translation>%1 minut i %2 sekund</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="206"/>
+        <location filename="../helper.cpp" line="219"/>
         <source>1 minute</source>
         <translation>1 minuta</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="209"/>
+        <location filename="../helper.cpp" line="222"/>
         <source>1 minute and 1 second</source>
         <translation>1 minuta i 1 sekunda</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="211"/>
+        <location filename="../helper.cpp" line="224"/>
         <source>1 minute and %1 seconds</source>
         <translation>1 minuta i %1 sekund</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="217"/>
+        <location filename="../helper.cpp" line="230"/>
         <source>%1 minutes and 1 second</source>
         <translation>%1 minut i 1 sekunda</translation>
     </message>
@@ -3787,17 +3786,17 @@ obrazu). Może to powodować zniekształcenia obrazu!</translation>
         <translation type="obsolete">próby wykonania połączenia z inną uruchomioną kopią programu i wysłania do niej określonej operacji. Na przykład: -action pause Reszta opcji (jeśli są) będą ignorowane i program zostanie zamknięty. Będzie zwracać 0 w przypadku powodzenia lub -1 przy niepowodzeniu.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="205"/>
+        <location filename="../main.cpp" line="206"/>
         <source>will show this message and then will exit.</source>
         <translation>pokaże się ta wiadomość i wtedy zostanie zamknięty.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="219"/>
+        <location filename="../main.cpp" line="220"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation>&apos;media&apos; to każdy plik, który SMPlayer jest w stanie otworzyć.Może to być plik lokalny, DVD (n.p. dvd://1), strumień internetowy (n.p. mms://1) lub lista odtwarzania w formacie m3u. Jeśli opcja -playlist jest użyta, oznacza to, że SMPlayer przeniesie opcję -playlist do MPlayer-a, więc MPlayer obsłuży listę odtwarzania.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="193"/>
+        <location filename="../main.cpp" line="194"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>okno główne zostanie zamknięte gdy zakończy się plik/lista odtwarzania.</translation>
     </message>
@@ -3812,17 +3811,17 @@ obrazu). Może to powodować zniekształcenia obrazu!</translation>
         <translation type="obsolete">Użycie: %1 [-ini-path [katalog]] [-send-action action_name] [-actions action_list [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="182"/>
+        <location filename="../main.cpp" line="183"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
         <translation>próby wykonania połączenia z inną uruchomioną kopią programu i wysłania do niej określonej operacji. Na przykład: -action pause Reszta opcji (jeśli są) będą ignorowane i program zostanie zamknięty. Będzie zwracać 0 w przypadku powodzenia lub -1 przy niepowodzeniu.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="190"/>
+        <location filename="../main.cpp" line="191"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
         <translation>action_list to lista poleceń oddzielonych spacją. Polecenia będą po prostu wykonywane po załadowaniu pliku (jeśli jest), we wpisanej wcześniej kolejności. Dla skontrolowanych poleceń możesz pominąć prawdę lub fałsz jako parametr. Na przykład: -actions &quot;fullscreen compact true&quot;.Cudzysłowy są niezbędne w przypadku pominięcia więcej niż jednego polecenia.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="213"/>
+        <location filename="../main.cpp" line="214"/>
         <source>media</source>
         <translation>media</translation>
     </message>
@@ -3832,7 +3831,7 @@ obrazu). Może to powodować zniekształcenia obrazu!</translation>
         <translation type="obsolete">Użycie: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="211"/>
+        <location filename="../main.cpp" line="212"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>jeśli uruchomiona jest inna kopia programu, media zostaną dodane do jej listy odtwarzania. Jeśli nie ma innej kopii programu, opcja ta jest ignorowana i pliki zostana otwarte w nowej kopii programu.</translation>
     </message>
@@ -3842,29 +3841,34 @@ obrazu). Może to powodować zniekształcenia obrazu!</translation>
         <translation type="obsolete">Użycie: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="175"/>
+        <location filename="../main.cpp" line="176"/>
         <source>specifies the directory for the configuration file (smplayer.ini).</source>
         <translation>określa katalog dla pliku konfiguracyjnego (smplayer.ini).</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="196"/>
+        <location filename="../main.cpp" line="197"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation>gdy zakończy się plik/lista odtwarzania okno główne nie zostanie zamknięte.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="171"/>
+        <location filename="../main.cpp" line="172"/>
         <source>Usage: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
         <translation>Użycie: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="199"/>
+        <location filename="../main.cpp" line="200"/>
         <source>the video will be played in fullscreen mode.</source>
         <translation>wideo będzie odtwarzane w trybie pełnego ekranu.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="202"/>
+        <location filename="../main.cpp" line="203"/>
         <source>the video will be played in window mode.</source>
         <translation>wideo będzie odtwarzane w trybie wyświetlania obrazu w oknie.</translation>
+    </message>
+    <message>
+        <location filename="../winfileassoc.cpp" line="145"/>
+        <source>Enqueue in SMPlayer</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

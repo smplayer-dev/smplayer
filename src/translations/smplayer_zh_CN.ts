@@ -1101,37 +1101,37 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1856"/>
+        <location filename="../core.cpp" line="1867"/>
         <source>Brightness: %1</source>
         <translation>亮度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1865"/>
+        <location filename="../core.cpp" line="1876"/>
         <source>Contrast: %1</source>
         <translation>对比度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1873"/>
+        <location filename="../core.cpp" line="1884"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1881"/>
+        <location filename="../core.cpp" line="1892"/>
         <source>Hue: %1</source>
         <translation>色调: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1889"/>
+        <location filename="../core.cpp" line="1900"/>
         <source>Saturation: %1</source>
         <translation>饱和度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2003"/>
+        <location filename="../core.cpp" line="2014"/>
         <source>Volume: %1</source>
         <translation>音量: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2471"/>
+        <location filename="../core.cpp" line="2482"/>
         <source>Zoom: %1</source>
         <translation>缩放: %1</translation>
     </message>
@@ -3636,27 +3636,27 @@ The drop-down lists may provide already made regular expression for several lang
 <context>
     <name>PreferencesDialog</name>
     <message>
-        <location filename="../preferencesdialog.cpp" line="120"/>
+        <location filename="../preferencesdialog.cpp" line="121"/>
         <source>SMPlayer - Help</source>
         <translation>SMPlayer - 帮助</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="124"/>
+        <location filename="../preferencesdialog.cpp" line="125"/>
         <source>OK</source>
         <translation>确定</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="125"/>
+        <location filename="../preferencesdialog.cpp" line="126"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="126"/>
+        <location filename="../preferencesdialog.cpp" line="127"/>
         <source>Apply</source>
         <translation>应用</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="127"/>
+        <location filename="../preferencesdialog.cpp" line="128"/>
         <source>Help</source>
         <translation>帮助</translation>
     </message>
@@ -3669,42 +3669,42 @@ The drop-down lists may provide already made regular expression for several lang
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../helper.cpp" line="199"/>
+        <location filename="../helper.cpp" line="212"/>
         <source>1 second</source>
         <translation>1 秒</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="201"/>
+        <location filename="../helper.cpp" line="214"/>
         <source>%1 seconds</source>
         <translation>%1 秒</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="214"/>
+        <location filename="../helper.cpp" line="227"/>
         <source>%1 minutes</source>
         <translation>%1 分钟</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="219"/>
+        <location filename="../helper.cpp" line="232"/>
         <source>%1 minutes and %2 seconds</source>
         <translation>%1 分钟 %2 秒钟</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="206"/>
+        <location filename="../helper.cpp" line="219"/>
         <source>1 minute</source>
         <translation>1 分钟</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="209"/>
+        <location filename="../helper.cpp" line="222"/>
         <source>1 minute and 1 second</source>
         <translation>1 分钟 1 秒钟</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="211"/>
+        <location filename="../helper.cpp" line="224"/>
         <source>1 minute and %1 seconds</source>
         <translation>1 分钟 %1 秒钟</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="217"/>
+        <location filename="../helper.cpp" line="230"/>
         <source>%1 minutes and 1 second</source>
         <translation>%1 分钟 1 秒钟</translation>
     </message>
@@ -3714,17 +3714,17 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="obsolete">指定配置文件(smplayer.ini)的目录。如果被忽略，将使用应用程序路径。</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="205"/>
+        <location filename="../main.cpp" line="206"/>
         <source>will show this message and then will exit.</source>
         <translation>将显现这条信息然后退出。</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="219"/>
+        <location filename="../main.cpp" line="220"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation>&apos;媒体&apos;是SMPlayer可以打开的任意一种文件格式。它可以是一个本地文件，DVD(例如 dvd://1)，流媒体(例如 mms://....) 或一个 m3u 格式的本地播放列表。如果设定了 -playlist，那意味着 SMPlayer 将将 -playlist 这个选项传给 MPlayer，所以处理播放列表的将是 MPlayer 不是 SMPlayer。</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="193"/>
+        <location filename="../main.cpp" line="194"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>当文件或播放列表结束时将关闭主窗口。</translation>
     </message>
@@ -3739,48 +3739,53 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="obsolete">用法: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="182"/>
+        <location filename="../main.cpp" line="183"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
         <translation>尝试连接到另一个运行着的实例并发送指定的操作。例如: -send-action pause 其它选项(如果有的话)将被忽略，程序将自动退出。它成功将返回0，失败-1。</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="190"/>
+        <location filename="../main.cpp" line="191"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
         <translation>action_list 是一系列用空格分隔的操作。加载完文件后将马上按您给定的顺序执行这些操作。对于选项操作您可以用 true 或 false 作为参数。例如：-actions &quot;fullscreen compact true&quot;。将有多个操作时引号是必须。</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="213"/>
+        <location filename="../main.cpp" line="214"/>
         <source>media</source>
         <translation>媒体</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="175"/>
+        <location filename="../main.cpp" line="176"/>
         <source>specifies the directory for the configuration file (smplayer.ini).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="211"/>
+        <location filename="../main.cpp" line="212"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="196"/>
+        <location filename="../main.cpp" line="197"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="171"/>
+        <location filename="../main.cpp" line="172"/>
         <source>Usage: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="199"/>
+        <location filename="../main.cpp" line="200"/>
         <source>the video will be played in fullscreen mode.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="202"/>
+        <location filename="../main.cpp" line="203"/>
         <source>the video will be played in window mode.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../winfileassoc.cpp" line="145"/>
+        <source>Enqueue in SMPlayer</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
