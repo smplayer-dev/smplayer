@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -3912,7 +3913,7 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
     <message>
         <location filename="../winfileassoc.cpp" line="145"/>
         <source>Enqueue in SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Einreihen in SMPlayer</translation>
     </message>
 </context>
 <context>
