@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="uk">
-<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -1042,37 +1041,37 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1856"/>
+        <location filename="../core.cpp" line="1867"/>
         <source>Brightness: %1</source>
         <translation>Яскравість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1865"/>
+        <location filename="../core.cpp" line="1876"/>
         <source>Contrast: %1</source>
         <translation>Контрастість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1873"/>
+        <location filename="../core.cpp" line="1884"/>
         <source>Gamma: %1</source>
         <translation>Гама: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1881"/>
+        <location filename="../core.cpp" line="1892"/>
         <source>Hue: %1</source>
         <translation>Колір: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1889"/>
+        <location filename="../core.cpp" line="1900"/>
         <source>Saturation: %1</source>
         <translation>Насиченість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2003"/>
+        <location filename="../core.cpp" line="2014"/>
         <source>Volume: %1</source>
         <translation>Гучність: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2471"/>
+        <location filename="../core.cpp" line="2482"/>
         <source>Zoom: %1</source>
         <translation>Масштаб: %1</translation>
     </message>
@@ -3410,42 +3409,42 @@ The drop-down lists may provide already made regular expression for several lang
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../helper.cpp" line="199"/>
+        <location filename="../helper.cpp" line="212"/>
         <source>1 second</source>
         <translation>1 секунда</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="201"/>
+        <location filename="../helper.cpp" line="214"/>
         <source>%1 seconds</source>
         <translation>секунд: %1</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="214"/>
+        <location filename="../helper.cpp" line="227"/>
         <source>%1 minutes</source>
         <translation>хвилин: %1</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="219"/>
+        <location filename="../helper.cpp" line="232"/>
         <source>%1 minutes and %2 seconds</source>
         <translation>хвилин: %1, секунд: %2</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="206"/>
+        <location filename="../helper.cpp" line="219"/>
         <source>1 minute</source>
         <translation>1 хвилина</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="209"/>
+        <location filename="../helper.cpp" line="222"/>
         <source>1 minute and 1 second</source>
         <translation>1 хвилина та 1 секунда</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="211"/>
+        <location filename="../helper.cpp" line="224"/>
         <source>1 minute and %1 seconds</source>
         <translation>1 хвилина, секунд: %1</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="217"/>
+        <location filename="../helper.cpp" line="230"/>
         <source>%1 minutes and 1 second</source>
         <translation>хвилин: %1, 1 секунда</translation>
     </message>
@@ -3455,64 +3454,69 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Це SMPlayer v. %1 запущений на %2</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="193"/>
+        <location filename="../main.cpp" line="194"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>головне вікно закриється, коли скінчиться відтворення файлу чи списку.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="205"/>
+        <location filename="../main.cpp" line="206"/>
         <source>will show this message and then will exit.</source>
         <translation>відобразити це повідомлення та вийти.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="219"/>
+        <location filename="../main.cpp" line="220"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation>&apos;media&apos; будь-який файл, який SMPlayer може відкрити. Це може бути локальний файл, DVD (наприклад dvd://1), інтернет-потік (наприклад mms://....) чи локальний список у форматі m3u. Якщо буде використано опцю -playlist, то SMPlayer передасть опцію -playlist на MPlayer, таким чином список буде опрацьовувати не SMPlayer, а MPlayer.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="182"/>
+        <location filename="../main.cpp" line="183"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
         <translation>спробувати з&apos;єднатися з віддаленою програмою та передати їй вказану дію. Наприклад: -send-action pause. Інша частина опцій (чи іншого) буде проігнорована і програма закриється. Буде повернено 0 при вдалому виконанні чи -1 при помилці.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="190"/>
+        <location filename="../main.cpp" line="191"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
         <translation>action_list - перелік дій, розділених пробілами. Дії будуть виконані тільки після завантаження файлу (чи іншого) у порядку, вказаному вами. Для перевірки дії Ви можете передати переметр true чи false. Наприклад: -actions &quot;fullscreen compact true&quot;. Кавички потрібні, якщо Ви передаєте більше одного параметра.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="213"/>
+        <location filename="../main.cpp" line="214"/>
         <source>media</source>
         <translation>медіа</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="211"/>
+        <location filename="../main.cpp" line="212"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>якщо вже працює інший процес - медіа будуть додані до списку відтворення. Якщо не буде ніякого іншого процесу - ця опція ігнорується та файли відкриються в новому процесі.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="175"/>
+        <location filename="../main.cpp" line="176"/>
         <source>specifies the directory for the configuration file (smplayer.ini).</source>
         <translation>вказує каналог розміщення файлу конфігурації (smplayer.ini).</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="196"/>
+        <location filename="../main.cpp" line="197"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation>не закривати головне вікно після закінчення відтворення файлу чи списку.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="171"/>
+        <location filename="../main.cpp" line="172"/>
         <source>Usage: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
         <translation>Використання: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="199"/>
+        <location filename="../main.cpp" line="200"/>
         <source>the video will be played in fullscreen mode.</source>
         <translation>відтворювати відео на повний екран.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="202"/>
+        <location filename="../main.cpp" line="203"/>
         <source>the video will be played in window mode.</source>
         <translation>відтворювати відео у віконному режимі.</translation>
+    </message>
+    <message>
+        <location filename="../winfileassoc.cpp" line="145"/>
+        <source>Enqueue in SMPlayer</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
