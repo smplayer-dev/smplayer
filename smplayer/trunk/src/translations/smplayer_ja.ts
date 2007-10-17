@@ -315,12 +315,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="755"/>
         <source>&amp;DVD from drive</source>
-        <translation>ドライブから DVD(&amp;D)</translation>
+        <translation>ドライブからの DVD(&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="756"/>
         <source>D&amp;VD from folder...</source>
-        <translation>フォルダから DVD(&amp;V)...</translation>
+        <translation>フォルダからの DVD(&amp;V)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="757"/>
@@ -485,7 +485,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="945"/>
         <source>&amp;Deinterlace</source>
-        <translation>インターレイス解除(&amp;D)</translation>
+        <translation>インターレース解除(&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="807"/>
@@ -817,7 +817,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="832"/>
         <source>U&amp;nload</source>
-        <translation>読み込みの解除(&amp;N)</translation>
+        <translation>読み込み解除(&amp;N)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="753"/>
@@ -2273,7 +2273,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="410"/>
         <source>Usually smplayer will remember the settings for each file you play (audio track selected, volume, filters...). Uncheck this option if you don&apos;t like this feature.</source>
-        <translation>通常 smplayer は再生するファイル (選択されたオーディオ トラック、音量、フィルタ...) ごとに設定を記憶します。この機能を好まないならこのオプションのチェックを解除します。</translation>
+        <translation>通常 smplayer は再生するファイル (選択されたオーディオ トラック、音量、フィルタ...) ごとに設定を記憶します。この機能を好まないならこのオプションをチェック解除します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="412"/>
@@ -3124,7 +3124,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefinterface.ui" line="365"/>
         <source>Auto&amp;resize:</source>
-        <translation>自動サイズ変更(&amp;R):</translation>
+        <translation>自動のサイズの変更(&amp;R):</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="402"/>
@@ -3831,7 +3831,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../winfileassoc.cpp" line="145"/>
         <source>Enqueue in SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">SMPlayer でエンキュー</translation>
     </message>
 </context>
 <context>
