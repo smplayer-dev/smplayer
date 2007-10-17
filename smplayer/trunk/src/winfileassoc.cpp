@@ -59,11 +59,11 @@ bool WinFileAssoc::CreateFileAssociation(const QString& fileExtension)
 	//Save last ProgId and Application values from the Exts key
 	KeyVal = RegCU.value(ExtKeyName + "/Progid").toString();
 	if (KeyVal != m_ClassId)
-		RegCR.setValue("." + fileExtension + "/MPlayer_Backup_ProgId", KeyVal);
+		RegCU.setValue(ExtKeyName + "/MPlayer_Backup_ProgId", KeyVal);
 
 	KeyVal = RegCU.value(ExtKeyName + "/Application").toString(); 
 	if (KeyVal != m_ClassId) 
-		RegCR.setValue("." + fileExtension + "/MPlayer_Backup_Application", KeyVal); 
+		RegCU.setValue(ExtKeyName + "/MPlayer_Backup_Application", KeyVal); 
 
 	//Create the associations
 	RegCR.setValue("." + fileExtension + "/.", m_ClassId); 		//Extension class
@@ -88,8 +88,8 @@ bool WinFileAssoc::RestoreFileAssociation(const QString& fileExtension)
 
 	QString BackupKeyName = ClassesKeyName + "/" + fileExtension; 
 	QString OldProgId = RegCR.value("." + fileExtension + "/MPlayer_Backup").toString(); 
-	QString OldApp  = RegCR.value("." + fileExtension + "/MPlayer_Backup_Application").toString(); 
-	QString OldClassId = RegCR.value("." + fileExtension + "/MPlayer_Backup_ProgId").toString(); 
+	QString OldApp  = RegCU.value(ExtKeyName + "/MPlayer_Backup_Application").toString(); 
+	QString OldClassId = RegCU.value(ExtKeyName + "/MPlayer_Backup_ProgId").toString(); 
 
 	//Restore old association
 	if (!OldProgId.isEmpty() && OldProgId != m_ClassId)
@@ -117,7 +117,7 @@ bool WinFileAssoc::RestoreFileAssociation(const QString& fileExtension)
 	else
 	{
 		//No old association with this extension, it's better to remove it entirely
-		RegCR.remove("." + fileExtension); 
+		RegCR.remove("." + fileExtension + "/."); 
 	}
 
 	//Remove our keys
