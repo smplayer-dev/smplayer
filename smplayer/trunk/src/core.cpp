@@ -651,8 +651,8 @@ void Core::newMediaPlaying() {
 		// Otherwise changeAudio will do nothing.
 
 		int audio = mdat.audios.itemAt(0).ID(); // First one
-		if (mdat.audios.existsItemAt(pref->initial_audio_track)) {
-			audio = mdat.audios.itemAt(pref->initial_audio_track).ID();
+		if (mdat.audios.existsItemAt(pref->initial_audio_track-1)) {
+			audio = mdat.audios.itemAt(pref->initial_audio_track-1).ID();
 		}
 
 		// Check if one of the audio tracks is the user preferred.
@@ -670,7 +670,7 @@ void Core::newMediaPlaying() {
 #if SUBTITLES_BY_INDEX
 			//Select first subtitle if none selected
 			if (mset.current_sub_id == MediaSettings::NoneSelected) {
-				int sub = mdat.subs.selectOne( pref->subtitle_lang, pref->initial_subtitle_track );
+				int sub = mdat.subs.selectOne( pref->subtitle_lang, pref->initial_subtitle_track-1 );
 				changeSubtitle( sub );
 			}
 #else
