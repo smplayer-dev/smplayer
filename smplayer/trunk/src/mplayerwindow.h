@@ -128,6 +128,9 @@ public:
 	void setZoom( double );
 	double zoom();
 
+	void allowVideoMovement(bool b) { allow_video_movement = b; };
+	bool isVideoMovementAllowed() { return allow_video_movement; };
+
 	virtual QSize sizeHint () const;
 	virtual QSize minimumSizeHint() const;
 
@@ -176,6 +179,8 @@ protected:
 	// before zooming or moving
 	int orig_x, orig_y;
 	int orig_width, orig_height;
+
+	bool allow_video_movement;
 };
 
 

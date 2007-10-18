@@ -1108,6 +1108,7 @@ void BaseGui::createCore() {
 void BaseGui::createMplayerWindow() {
     mplayerwindow = new MplayerWindow( panel );
 	mplayerwindow->setColorKey( pref->color_key );
+	mplayerwindow->allowVideoMovement( pref->allow_video_movement );
 
 	QHBoxLayout * layout = new QHBoxLayout;
 	layout->setSpacing(0);

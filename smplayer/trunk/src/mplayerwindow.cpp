@@ -21,7 +21,6 @@
 
 #include "images.h"
 #include "global.h"
-#include "preferences.h"
 #include "desktopinfo.h"
 #include "helper.h"
 
@@ -138,7 +137,7 @@ void MplayerLayer::playingStopped() {
 /* ---------------------------------------------------------------------- */
 
 MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f) 
-	: Screen(parent, f) 
+	: Screen(parent, f) , allow_video_movement(false)
 {
 	offset_x = 0;
 	offset_y = 0;
@@ -379,22 +378,22 @@ void MplayerWindow::moveLayer( int offset_x, int offset_y ) {
 }
 
 void MplayerWindow::moveLeft() {
-	if ((pref->allow_video_movement) || (mplayerlayer->x()+mplayerlayer->width() > width() ))
+	if ((allow_video_movement) || (mplayerlayer->x()+mplayerlayer->width() > width() ))
 		moveLayer( -16, 0 );
 }
 
 void MplayerWindow::moveRight() {
-	if ((pref->allow_video_movement) || ( mplayerlayer->x() < 0 ))
+	if ((allow_video_movement) || ( mplayerlayer->x() < 0 ))
 		moveLayer( +16, 0 );
 }
 
 void MplayerWindow::moveUp() {
-	if ((pref->allow_video_movement) || (mplayerlayer->y()+mplayerlayer->height() > height() ))
+	if ((allow_video_movement) || (mplayerlayer->y()+mplayerlayer->height() > height() ))
 		moveLayer( 0, -16 );
 }
 
 void MplayerWindow::moveDown() {
-	if ((pref->allow_video_movement) || ( mplayerlayer->y() < 0 ))
+	if ((allow_video_movement) || ( mplayerlayer->y() < 0 ))
 		moveLayer( 0, +16 );
 }
 
