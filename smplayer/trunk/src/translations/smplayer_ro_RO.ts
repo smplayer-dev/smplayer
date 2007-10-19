@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
-<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -174,73 +173,73 @@
 <context>
     <name>ActionsEditor</name>
     <message>
-        <location filename="../actionseditor.cpp" line="193"/>
+        <location filename="../actionseditor.cpp" line="200"/>
         <source>Name</source>
         <translation>Nume</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="193"/>
+        <location filename="../actionseditor.cpp" line="200"/>
         <source>Description</source>
         <translation>Descriere</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="193"/>
+        <location filename="../actionseditor.cpp" line="200"/>
         <source>Shortcut</source>
         <translation>Acces rapid</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="195"/>
+        <location filename="../actionseditor.cpp" line="202"/>
         <source>&amp;Save</source>
         <translation>&amp;Salvare</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="198"/>
+        <location filename="../actionseditor.cpp" line="205"/>
         <source>&amp;Load</source>
         <translation>Î&amp;ncărcare</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="461"/>
+        <location filename="../actionseditor.cpp" line="468"/>
         <source>Key files</source>
         <translation>Fişiere taste</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="409"/>
+        <location filename="../actionseditor.cpp" line="416"/>
         <source>Choose a filename</source>
         <translation>Alegere nume fişier</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="420"/>
+        <location filename="../actionseditor.cpp" line="427"/>
         <source>Confirm overwrite?</source>
         <translation>Confirmaţi suprascrierea?</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="422"/>
+        <location filename="../actionseditor.cpp" line="429"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Fişierul %1 există deja.Doriţi sa-l suprascrieţi?</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="460"/>
+        <location filename="../actionseditor.cpp" line="467"/>
         <source>Choose a file</source>
         <translation>Alegere fişier</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="467"/>
+        <location filename="../actionseditor.cpp" line="474"/>
         <source>Error</source>
         <translation>Eroare</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="434"/>
+        <location filename="../actionseditor.cpp" line="441"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>Fişierul nu aputut fi salvat</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="468"/>
+        <location filename="../actionseditor.cpp" line="475"/>
         <source>The file couldn&apos;t be loaded</source>
         <translation>Fişierul nu a putut fi încărcat</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="202"/>
+        <location filename="../actionseditor.cpp" line="209"/>
         <source>&amp;Change shortcut...</source>
         <translation>&amp;Modificare acces rapid...</translation>
     </message>
@@ -468,7 +467,7 @@ Do you want to overwrite?</source>
         <translation>Raport &amp;aspect</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1760"/>
+        <location filename="../basegui.cpp" line="1761"/>
         <source>&amp;None</source>
         <translation>Fă&amp;ră</translation>
     </message>
@@ -718,74 +717,74 @@ Do you want to overwrite?</source>
         <translation>Despre &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1879"/>
+        <location filename="../basegui.cpp" line="1880"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;gol&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2187"/>
+        <location filename="../basegui.cpp" line="2188"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2358"/>
+        <location filename="../basegui.cpp" line="2359"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2191"/>
+        <location filename="../basegui.cpp" line="2192"/>
         <source>Playlists</source>
         <translation>Liste_titluri</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2359"/>
+        <location filename="../basegui.cpp" line="2360"/>
         <source>All files</source>
         <translation>Toate fişierele</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2356"/>
+        <location filename="../basegui.cpp" line="2357"/>
         <source>Choose a file</source>
         <translation>Alegere fişier</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2231"/>
+        <location filename="../basegui.cpp" line="2232"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Informaţii</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2234"/>
+        <location filename="../basegui.cpp" line="2235"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Driverele pentru CDROM/DVD nu sunt configurate încă.
 O fereastră de dialog va fi afişată pentru a putea face configurarea.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2308"/>
+        <location filename="../basegui.cpp" line="2309"/>
         <source>Choose a directory</source>
         <translation>Alegere director</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2343"/>
+        <location filename="../basegui.cpp" line="2344"/>
         <source>Subtitles</source>
         <translation>Subtitrări</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2370"/>
+        <location filename="../basegui.cpp" line="2371"/>
         <source>About Qt</source>
         <translation>Despre Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2670"/>
+        <location filename="../basegui.cpp" line="2671"/>
         <source>Playing %1</source>
         <translation>Redare %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2671"/>
+        <location filename="../basegui.cpp" line="2672"/>
         <source>Pause</source>
         <translation>Pauză</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2672"/>
+        <location filename="../basegui.cpp" line="2673"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
@@ -2261,12 +2260,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="obsolete">Subtitrări:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="355"/>
+        <location filename="../prefgeneral.ui" line="451"/>
         <source>&amp;Video and audio</source>
         <translation>&amp;Video şi audio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="367"/>
+        <location filename="../prefgeneral.ui" line="463"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
@@ -2286,17 +2285,17 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="obsolete">Calitatea:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="470"/>
+        <location filename="../prefgeneral.cpp" line="503"/>
         <source>Start videos in fullscreen</source>
         <translation>Redare fişier video în mod fullscreen</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="474"/>
+        <location filename="../prefgeneral.cpp" line="507"/>
         <source>Disable screensaver</source>
         <translation>Dezactivare captură ecran</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="473"/>
+        <location filename="../prefgeneral.ui" line="569"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
@@ -2311,7 +2310,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="obsolete">Valoare maximă amplificare:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="490"/>
+        <location filename="../prefgeneral.cpp" line="523"/>
         <source>AC3/DTS pass-through S/PDIF</source>
         <translation>AC3/DTS direcţionat către S/PDIF</translation>
     </message>
@@ -2321,152 +2320,152 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="obsolete">Normalizare video</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="362"/>
+        <location filename="../prefgeneral.cpp" line="383"/>
         <source>Select the mplayer executable</source>
         <translation>Selectare executabil mplayer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="365"/>
+        <location filename="../prefgeneral.cpp" line="386"/>
         <source>Executables</source>
         <translation>Executabile</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="367"/>
+        <location filename="../prefgeneral.cpp" line="388"/>
         <source>All files</source>
         <translation>Toate fişierele</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="378"/>
+        <location filename="../prefgeneral.cpp" line="399"/>
         <source>Select a directory</source>
         <translation>Selectare director</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="388"/>
+        <location filename="../prefgeneral.cpp" line="409"/>
         <source>MPlayer executable</source>
         <translation>Executabil MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="393"/>
+        <location filename="../prefgeneral.cpp" line="414"/>
         <source>Here you must specify the mplayer executable that smplayer will use.&lt;br&gt;smplayer requires at least mplayer 1.0rc1 (svn recommended).&lt;br&gt;&lt;b&gt;If this setting is wrong, smplayer won&apos;t be able to play anything!&lt;/b&gt;</source>
         <translation>Aici se poate specifica executabilul mplayer pe care îl va folosi smplayer.&lt;br&gt;smplayer necesită cel puţin varianta mplayer 1.0rc1 (recomandare svn).&lt;br&gt;&lt;b&gt;Dacă selecţia este grşită, smplayer nu va putea reda nimic!&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="395"/>
+        <location filename="../prefgeneral.cpp" line="416"/>
         <source>Screenshots folder</source>
         <translation>Director pentru stocarea capturilor de ecran</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="398"/>
+        <location filename="../prefgeneral.cpp" line="419"/>
         <source>Here you can specify a folder where the screenshots taken by smplayer will be stored. If this field is empty the screenshot feature will be disabled.</source>
         <translation>Aici se poate specifica directorul în care vor fi stocate instantaneele de ecran luate cu ajutorul lui smplayer.Dacă acest câmp este lăsat liber atunci opţiunea de salvare va fi dezactivată.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="400"/>
+        <location filename="../prefgeneral.cpp" line="421"/>
         <source>Video output driver</source>
         <translation>Driver ieşire video</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="402"/>
+        <location filename="../prefgeneral.cpp" line="423"/>
         <source>Select the video output driver. Usually xv (linux) and directx (windows) provide the best performance.</source>
         <translation>Selectare driver ieşire video.De regulă xv pentru linux şi directx pentru windows oferă cele mai bune rezultate.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="404"/>
+        <location filename="../prefgeneral.cpp" line="425"/>
         <source>Audio output driver</source>
         <translation>Driver ieşire audio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="405"/>
+        <location filename="../prefgeneral.cpp" line="426"/>
         <source>Select the audio output driver.</source>
         <translation>Selectare driver ieşire audio.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="407"/>
+        <location filename="../prefgeneral.cpp" line="428"/>
         <source>Remember settings</source>
         <translation>Memorare reglaje</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="410"/>
+        <location filename="../prefgeneral.cpp" line="431"/>
         <source>Usually smplayer will remember the settings for each file you play (audio track selected, volume, filters...). Uncheck this option if you don&apos;t like this feature.</source>
         <translation>În mod normal smplayer va reţine reglajele făcute pentru fiecare fişier redat (coloana sonoră - pista - selectată, nivelul volumului,filtrele aplicate...).Se poate deselecta aici această opţiune dacă nu se doreşte funcţia.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="412"/>
+        <location filename="../prefgeneral.cpp" line="433"/>
         <source>Don&apos;t remember time position</source>
         <translation>Nu memora timpul scurs</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="414"/>
+        <location filename="../prefgeneral.cpp" line="435"/>
         <source>If you check this option, smplayer will play all files from the beginning.</source>
         <translation>Selectarea acestei opţiuni va indica smplayer să redea toate fişierele de la începutul lor.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="416"/>
+        <location filename="../prefgeneral.cpp" line="437"/>
         <source>Preferred audio language</source>
         <translation>Limbă preferată coloană sonoră</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="424"/>
+        <location filename="../prefgeneral.cpp" line="445"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Aici se poate selecta lima preferată pentru coloana sonoră.Când un fişier media cu multiple coloane sonore este găsit, smplayer va încerca să folosească limba preferată.&lt;br&gt;Această funcţie este valabilă doar pentru fişiere media care furnizează informaţii despre coloana sonoră, precum DVD-urile sau fişierele mkv.&lt;br&gt;Acest câmp acceptă expresii obişnuite. Exemplu: &lt;b&gt;es|esp|spa|&lt;/b&gt; va selecta coloana sonoră identificată cu &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; sau &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="426"/>
+        <location filename="../prefgeneral.cpp" line="447"/>
         <source>Preferred subtitle language</source>
         <translation>Limbă preferată pentru subtitrări</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="434"/>
+        <location filename="../prefgeneral.cpp" line="455"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Aici se poate selecta limba preferată pentru subtitrare.Când este găsit un fişier media ce conţine subtitrări în mai multe limbi, smplayer va încerca să folosească limbă selectată ca preferată.&lt;br&gt;Această opţiune funcţionează doar pentru fişiere media care oferă informaţii despre limba folosită în subtitrare, precum DVD - urile sau fişierele mkv.&lt;br&gt;Acest câmp acceptă expresii standard. Exemplu: &lt;b&gt;es|esp|spa&lt;/b&gt; va avea ca efect selectarea subtitrării identificate cu &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; sau &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="446"/>
+        <location filename="../prefgeneral.cpp" line="479"/>
         <source>Software video equalizer</source>
         <translation>Egalizor video software</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="450"/>
+        <location filename="../prefgeneral.cpp" line="483"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>Se poate selecta această opţiune dacă egalizorul video nu este suportat de placa grafică sau de driverul de ieşire video.&lt;br&gt;&lt;b&gt;Atenţie:&lt;/b&gt; această opţiune poate fi incompatibilă cu unele drivere de ieşire video.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="472"/>
+        <location filename="../prefgeneral.cpp" line="505"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>Selectarea acestei opţiuni va indica redarea fişierelor video în mod fullscreen.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="477"/>
+        <location filename="../prefgeneral.cpp" line="510"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option works only in X11 and Windows.</source>
         <translation>Se selectează această opţiune pentru a dezactiva funcţia sistemului de protejare a monitorului (screensaver).&lt;br&gt;Funcţia va fi reactivată după ce se termină redarea fişierului.&lt;br&gt;,b&gt;Atenţie:&lt;/b&gt;Această opţiune funcţionează numai pentru X11 şi Windows.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="479"/>
+        <location filename="../prefgeneral.cpp" line="512"/>
         <source>Software volume control</source>
         <translation>Control volum software</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="481"/>
+        <location filename="../prefgeneral.cpp" line="514"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>Selectaţi aceasta opţiune pentru a folosi mixerul software, în locul mixerului plăcii de sunet.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="455"/>
+        <location filename="../prefgeneral.cpp" line="488"/>
         <source>Postprocessing quality</source>
         <translation>Calitate posprocesare</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="458"/>
+        <location filename="../prefgeneral.cpp" line="491"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>Modificarea dinamică a nivelului postprocesării funcţie de încărcarea CPU. Numărul specificat  va reprezenta valoarea maximă a nivelului folosit.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="496"/>
+        <location filename="../prefgeneral.cpp" line="529"/>
         <source>Change volume</source>
         <translation>Modificare volum</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="499"/>
+        <location filename="../prefgeneral.cpp" line="532"/>
         <source>If checked, SMPlayer will remember the volume for every file and will restore it when played again. For new files the default volume will be used.</source>
         <translation>Dacă este selectată această opţiune atunci SMPlayer va memora nivelul volumului pentru toate fişierele redate şi va folosi aceste valori când fişierele respective vor fi redate din nou. Pentru fişiere noi se va utiliza valoarea implicită a volumului.</translation>
     </message>
@@ -2476,12 +2475,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="obsolete">Volum implicit:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="637"/>
+        <location filename="../prefgeneral.ui" line="733"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="646"/>
+        <location filename="../prefgeneral.ui" line="742"/>
         <source>&amp;Change volume on every file</source>
         <translation>&amp;Modifică volumul pentru fiecare fişier</translation>
     </message>
@@ -2526,17 +2525,17 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Memorare &amp;reglaje pentru toate tipurile de fişiere (coloană sonoră, subtitrare...)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="273"/>
+        <location filename="../prefgeneral.ui" line="300"/>
         <source>A&amp;udio:</source>
         <translation>A&amp;udio:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="305"/>
+        <location filename="../prefgeneral.ui" line="287"/>
         <source>Su&amp;btitles:</source>
         <translation>Su&amp;btitrări:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="379"/>
+        <location filename="../prefgeneral.ui" line="475"/>
         <source>&amp;Use software video equalizer</source>
         <translation>&amp;Folosire egalizor software pentru video</translation>
     </message>
@@ -2546,37 +2545,37 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="obsolete">&amp;Activare postprocesare pentru toate tipurile de fişiere video</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="417"/>
+        <location filename="../prefgeneral.ui" line="513"/>
         <source>&amp;Quality:</source>
         <translation>Ca&amp;litatea:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="456"/>
+        <location filename="../prefgeneral.ui" line="552"/>
         <source>Start videos in &amp;fullscreen</source>
         <translation>Redare video în mod &amp;fullscreen</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="463"/>
+        <location filename="../prefgeneral.ui" line="559"/>
         <source>Disable &amp;screensaver</source>
         <translation>Dezactivare &amp;captură ecran</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="608"/>
+        <location filename="../prefgeneral.ui" line="704"/>
         <source>&amp;Default volume:</source>
         <translation>&amp;Volum implicit:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="529"/>
+        <location filename="../prefgeneral.ui" line="625"/>
         <source>Use s&amp;oftware volume control</source>
         <translation>Folosire control volum prin s&amp;oftware</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="555"/>
+        <location filename="../prefgeneral.ui" line="651"/>
         <source>Ma&amp;x. Amplification:</source>
         <translation>Valoare ma&amp;ximă amplificare:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="583"/>
+        <location filename="../prefgeneral.ui" line="679"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
         <translation>&amp;AC3/DTS direcţionat către S/PDIF</translation>
     </message>
@@ -2586,57 +2585,57 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="obsolete">&amp;Normalizare volum</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="460"/>
+        <location filename="../prefgeneral.cpp" line="493"/>
         <source>Direct rendering</source>
         <translation>Randare directă</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="463"/>
+        <location filename="../prefgeneral.cpp" line="496"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>Selectarea acestei opţiuni va porni randarea directă (funcţia nu este suportată de toate codecurile şi ieşirile video)&lt;br&gt;&lt;b&gt;ATENŢIONARE:&lt;/b&gt;Această funcţie poate duce la coruperea OSD/SUB!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="465"/>
+        <location filename="../prefgeneral.cpp" line="498"/>
         <source>Double buffering</source>
         <translation>Mărime dublă buffer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="442"/>
+        <location filename="../prefgeneral.ui" line="538"/>
         <source>D&amp;irect rendering</source>
         <translation>Randare d&amp;irectă</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="449"/>
+        <location filename="../prefgeneral.ui" line="545"/>
         <source>Dou&amp;ble buffering</source>
         <translation>Mărime du&amp;blă buffer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="468"/>
+        <location filename="../prefgeneral.cpp" line="501"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>Alocarea unei mărimi duble pentru buffer va înlătura efectul de clipire a imaginii prin stocarea a două cadre în memorie şi va afişa una în timp ce cealaltă este decodată. Dacă nu este selectată această opţiune se poate înfluenţa în mod negativ OSD (afişarea mesajelor pe imagine), dar de cele mai multe ori înlătură efectul de clipire a acestor mesaje.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="394"/>
+        <location filename="../prefgeneral.ui" line="490"/>
         <source>&amp;Enable postprocessing by default</source>
         <translation>&amp;Activare implicită postprocesare</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="590"/>
+        <location filename="../prefgeneral.ui" line="686"/>
         <source>Volume &amp;normalization by default</source>
         <translation>&amp;Normalizare implicită volum</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="436"/>
+        <location filename="../prefgeneral.cpp" line="469"/>
         <source>Close when finished</source>
         <translation>Închide după terminare</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="438"/>
+        <location filename="../prefgeneral.cpp" line="471"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>Dacă această opţiune este selectată, fereastra principală se va închide automat după redarea fişierului/listei de titluri.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="324"/>
+        <location filename="../prefgeneral.ui" line="420"/>
         <source>&amp;Close when finished</source>
         <translation>În&amp;chide după terminare</translation>
     </message>
@@ -2656,79 +2655,114 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>6 (5.1 Surround)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="493"/>
+        <location filename="../prefgeneral.ui" line="589"/>
         <source>C&amp;hannels by default:</source>
         <translation>C&amp;anale implicite:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="331"/>
+        <location filename="../prefgeneral.ui" line="427"/>
         <source>&amp;Pause when minimized</source>
         <translation>&amp;Pauză la minimizare</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="440"/>
+        <location filename="../prefgeneral.cpp" line="473"/>
         <source>Pause when minimized</source>
         <translation>Pauză la minimizare</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="443"/>
+        <location filename="../prefgeneral.cpp" line="476"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, play will be resumed.</source>
         <translation>Dacă opţiunea aceasta este selectată, fişierul va fi oprit când fereastra principală este minimizată. După ce fereastra este restaurată, redarea fişierului va fi reluată.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="452"/>
+        <location filename="../prefgeneral.cpp" line="485"/>
         <source>Enable postprocessing by default</source>
         <translation>Activare  postprocesare implicită</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="483"/>
+        <location filename="../prefgeneral.cpp" line="516"/>
         <source>Max. Amplification</source>
         <translation>Amplificare maximă</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="493"/>
+        <location filename="../prefgeneral.cpp" line="526"/>
         <source>Volume normalization by default</source>
         <translation>Normalizare implicită volum</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="494"/>
+        <location filename="../prefgeneral.cpp" line="527"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>Măreşte volumul fără a distorsiona sunetul.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="501"/>
+        <location filename="../prefgeneral.cpp" line="534"/>
         <source>Default volume</source>
         <translation>Volum implicit</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="502"/>
+        <location filename="../prefgeneral.cpp" line="535"/>
         <source>Sets the initial volume that new files will use.</source>
         <translation>Stabilire volum iniţial folosit pentru noile fişiere.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="504"/>
+        <location filename="../prefgeneral.cpp" line="537"/>
         <source>Channels by default</source>
         <translation>Canale implicite</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="488"/>
+        <location filename="../prefgeneral.cpp" line="521"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>Stabilirea nivelului maxim de amplificare în procente (implicit: 110). O valoare de 200 vă va permite ajustarea volumului până la o valoare maximă egală cu dublul valorii curente. Pentru o valoare sub 100 volumul initial (care este 100%) va fi peste valoarea maximă, iar în acest caz, de exemplu, OSD nu îl va afişa corect.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="491"/>
+        <location filename="../prefgeneral.cpp" line="524"/>
         <source>Uses hardware AC3 passthrough</source>
         <translation>Utilizare procesare AC3 hardware</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="513"/>
+        <location filename="../prefgeneral.cpp" line="546"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. NOTE: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation>Cererea număruli de canale de redare. MPlayer cere decodorului să decodeze coloana sonoră în numărul de canale specificat. Apoi este treaba decodorului să realezeze acest lucru. Acest lucru este, de regulă, important numai atunci când se redau fişiere video cu coloana sonoră codată cu AC3 (precum DVD). În acst caz liba52 realizează implicit decodarea şi mixează corect sunetul în numărul de canale specificat. NOTĂ: Această opţiune este îndeplinită de codecuri (doar AC3), filtre (surround) şi driverele audio de ieşire (OSS cel puţin).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="453"/>
+        <location filename="../prefgeneral.cpp" line="486"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>Postprocesarea va fi utilizată implicit pentru noile fişiere.</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="457"/>
+        <source>Audio track</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="461"/>
+        <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="463"/>
+        <source>Subtitle track</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="467"/>
+        <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="339"/>
+        <source>Or choose a track number:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="379"/>
+        <source>Subtit&amp;le:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="389"/>
+        <source>Audi&amp;o:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -80,6 +80,8 @@ void PrefGeneral::setData(Preferences * pref) {
 	setDontRememberTimePos( pref->dont_remember_time_pos );
 	setAudioLang( pref->audio_lang );
 	setSubtitleLang( pref->subtitle_lang );
+	setAudioTrack( pref->initial_audio_track );
+	setSubtitleTrack( pref->initial_subtitle_track );
 	setCloseOnFinish( pref->close_on_finish );
 	setPauseWhenHidden( pref->pause_when_hidden );
 
@@ -114,6 +116,9 @@ void PrefGeneral::getData(Preferences * pref) {
 
 	pref->audio_lang = audioLang();
     pref->subtitle_lang = subtitleLang();
+
+	pref->initial_audio_track = audioTrack();
+	pref->initial_subtitle_track = subtitleTrack();
 
 	pref->close_on_finish = closeOnFinish();
 	pref->pause_when_hidden = pauseWhenHidden();
@@ -214,6 +219,22 @@ void PrefGeneral::setSubtitleLang(QString lang) {
 
 QString PrefGeneral::subtitleLang() {
 	return subtitle_lang_edit->text();
+}
+
+void PrefGeneral::setAudioTrack(int track) {
+	audio_track_spin->setValue(track);
+}
+
+int PrefGeneral::audioTrack() {
+	return audio_track_spin->value();
+}
+
+void PrefGeneral::setSubtitleTrack(int track) {
+	subtitle_track_spin->setValue(track);
+}
+
+int PrefGeneral::subtitleTrack() {
+	return subtitle_track_spin->value();
 }
 
 void PrefGeneral::setCloseOnFinish(bool b) {
@@ -432,6 +453,18 @@ void PrefGeneral::createHelp() {
            "This field accepts regular expressions. Example: <b>es|esp|spa</b> "
            "will select the subtitle stream if it matches with <i>es</i>, "
            "<i>esp</i> or <i>spa</i>.") );
+
+	setWhatsThis(audio_track_spin, tr("Audio track"),
+		tr("Specifies the default audio track which will be used when playing "
+           "new files. If the track doesn't exist, the first one will be used. "
+           "<br><b>Note:</b> the <i>\"preferred audio language\"</i> has "
+           "preference over this option.") );
+
+	setWhatsThis(subtitle_track_spin, tr("Subtitle track"),
+		tr("Specifies the default subtitle track which will be used when "
+           "playing new files. If the track doesn't exist, the first one "
+           "will be used. <br><b>Note:</b> the <i>\"preferred subtitle "
+           "language\"</i> has preference over this option.") );
 
 	setWhatsThis(close_on_finish_check, tr("Close when finished"),
 		tr("If this option is checked, the main window will be automatically "

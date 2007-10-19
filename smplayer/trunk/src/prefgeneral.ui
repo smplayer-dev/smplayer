@@ -6,7 +6,7 @@
     <x>0</x>
     <y>0</y>
     <width>543</width>
-    <height>587</height>
+    <height>603</height>
    </rect>
   </property>
   <property name="windowIcon" >
@@ -268,20 +268,46 @@
            <number>6</number>
           </property>
           <item>
-           <widget class="QLabel" name="textLabel1_20" >
-            <property name="text" >
-             <string>A&amp;udio:</string>
+           <layout class="QGridLayout" >
+            <property name="margin" >
+             <number>0</number>
             </property>
-            <property name="wordWrap" >
-             <bool>false</bool>
+            <property name="spacing" >
+             <number>6</number>
             </property>
-            <property name="buddy" >
-             <cstring>audio_lang_edit</cstring>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLineEdit" name="audio_lang_edit" />
+            <item row="1" column="2" >
+             <widget class="QLineEdit" name="subtitle_lang_edit" />
+            </item>
+            <item row="0" column="1" colspan="2" >
+             <widget class="QLineEdit" name="audio_lang_edit" />
+            </item>
+            <item row="1" column="0" colspan="2" >
+             <widget class="QLabel" name="textLabel2_11" >
+              <property name="text" >
+               <string>Su&amp;btitles:</string>
+              </property>
+              <property name="wordWrap" >
+               <bool>false</bool>
+              </property>
+              <property name="buddy" >
+               <cstring>subtitle_lang_edit</cstring>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0" >
+             <widget class="QLabel" name="textLabel1_20" >
+              <property name="text" >
+               <string>A&amp;udio:</string>
+              </property>
+              <property name="wordWrap" >
+               <bool>false</bool>
+              </property>
+              <property name="buddy" >
+               <cstring>audio_lang_edit</cstring>
+              </property>
+             </widget>
+            </item>
+           </layout>
           </item>
           <item>
            <spacer>
@@ -289,7 +315,7 @@
              <enum>Qt::Horizontal</enum>
             </property>
             <property name="sizeType" >
-             <enum>QSizePolicy::Expanding</enum>
+             <enum>QSizePolicy::Minimum</enum>
             </property>
             <property name="sizeHint" >
              <size>
@@ -300,20 +326,90 @@
            </spacer>
           </item>
           <item>
-           <widget class="QLabel" name="textLabel2_11" >
-            <property name="text" >
-             <string>Su&amp;btitles:</string>
+           <layout class="QGridLayout" >
+            <property name="margin" >
+             <number>0</number>
             </property>
-            <property name="wordWrap" >
-             <bool>false</bool>
+            <property name="spacing" >
+             <number>6</number>
             </property>
-            <property name="buddy" >
-             <cstring>subtitle_lang_edit</cstring>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLineEdit" name="subtitle_lang_edit" />
+            <item row="0" column="0" colspan="4" >
+             <widget class="QLabel" name="label_2" >
+              <property name="text" >
+               <string>Or choose a track number:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2" >
+             <spacer>
+              <property name="orientation" >
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType" >
+               <enum>QSizePolicy::Minimum</enum>
+              </property>
+              <property name="sizeHint" >
+               <size>
+                <width>21</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="1" column="1" >
+             <widget class="QSpinBox" name="audio_track_spin" >
+              <property name="maximum" >
+               <number>99</number>
+              </property>
+              <property name="minimum" >
+               <number>1</number>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="5" >
+             <widget class="QSpinBox" name="subtitle_track_spin" >
+              <property name="minimum" >
+               <number>1</number>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3" colspan="2" >
+             <widget class="QLabel" name="label_4" >
+              <property name="text" >
+               <string>Subtit&amp;le:</string>
+              </property>
+              <property name="buddy" >
+               <cstring>subtitle_track_spin</cstring>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0" >
+             <widget class="QLabel" name="label_3" >
+              <property name="text" >
+               <string>Audi&amp;o:</string>
+              </property>
+              <property name="buddy" >
+               <cstring>audio_track_spin</cstring>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="4" colspan="2" >
+             <spacer>
+              <property name="orientation" >
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType" >
+               <enum>QSizePolicy::Minimum</enum>
+              </property>
+              <property name="sizeHint" >
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
           </item>
          </layout>
         </widget>
