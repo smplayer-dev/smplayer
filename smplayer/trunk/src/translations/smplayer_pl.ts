@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -2783,37 +2784,37 @@ trochę wyższą wartość.
     <message>
         <location filename="../prefgeneral.cpp" line="457"/>
         <source>Audio track</source>
-        <translation type="unfinished"></translation>
+        <translation>Ścieżka audio</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="461"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation type="unfinished"></translation>
+        <translation>Określa domyślną ścieżkę audio, która będzie używana gdy odtwarzasz nowe pliki. Jeśli ścieżka nie istnieje, użyta zostanie pierwsza. &lt;br&gt;&lt;b&gt;Notka:&lt;/b&gt; to &lt;i&gt;&quot;preferowany język audio&quot;&lt;/i&gt; ma pierwszeństwo nad tą opcją.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="463"/>
         <source>Subtitle track</source>
-        <translation type="unfinished"></translation>
+        <translation>Ścieżka napisów</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="467"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation type="unfinished"></translation>
+        <translation>Określa domyślną ścieżkę napisów, która będzie używana gdy odtwarzasz nowe pliki. Jeśli ścieżka nie istnieje, użyta zostanie pierwsza. &lt;br&gt;&lt;b&gt;Notka:&lt;/b&gt; to &lt;i&gt;&quot;preferowany język napisów&quot;&lt;/i&gt; ma pierwszeństwo nad tą opcją.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="339"/>
         <source>Or choose a track number:</source>
-        <translation type="unfinished"></translation>
+        <translation>Lub wybierz numer ścieżki:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="379"/>
         <source>Subtit&amp;le:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Napisy:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="389"/>
         <source>Audi&amp;o:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Audio:</translation>
     </message>
 </context>
 <context>
@@ -3347,7 +3348,7 @@ trochę wyższą wartość.
     <message>
         <location filename="../prefperformance.cpp" line="184"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file or URL. Especially useful on slow media.</source>
-        <translation>Ta opcja precyzuje ile pamięci (w KB) należy użyć dla buforowania pliku lub URL. Zalecane dla wolnych napędów.</translation>
+        <translation>Ta opcja określa ile pamięci (w KB) należy użyć dla buforowania pliku lub URL. Zalecane dla wolnych napędów.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="187"/>
@@ -3903,7 +3904,7 @@ obrazu). Może to powodować zniekształcenia obrazu!</translation>
     <message>
         <location filename="../winfileassoc.cpp" line="145"/>
         <source>Enqueue in SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolejkuj w SMPlayer</translation>
     </message>
 </context>
 <context>
