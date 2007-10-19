@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
-<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -2287,12 +2286,12 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation type="obsolete">Sous-titres :</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="451"/>
+        <location filename="../prefgeneral.ui" line="438"/>
         <source>&amp;Video and audio</source>
         <translation>&amp;Vidéo et Audio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="463"/>
+        <location filename="../prefgeneral.ui" line="450"/>
         <source>Video</source>
         <translation>Vidéo</translation>
     </message>
@@ -2322,7 +2321,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation>Désactiver l&apos;écran de veille</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="569"/>
+        <location filename="../prefgeneral.ui" line="556"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
@@ -2502,12 +2501,12 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation type="obsolete">Volume par défaut :</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="733"/>
+        <location filename="../prefgeneral.ui" line="720"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="742"/>
+        <location filename="../prefgeneral.ui" line="729"/>
         <source>&amp;Change volume on every file</source>
         <translation>&amp;Changer le volume sur chaque fichier</translation>
     </message>
@@ -2552,17 +2551,17 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation>&amp;Se rappeler de la configuration de chaque fichier (piste audio, sous-titres, ...)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="300"/>
+        <location filename="../prefgeneral.ui" line="287"/>
         <source>A&amp;udio:</source>
         <translation>A&amp;udio :</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="287"/>
+        <location filename="../prefgeneral.ui" line="303"/>
         <source>Su&amp;btitles:</source>
         <translation>Sous-&amp;titres :</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="475"/>
+        <location filename="../prefgeneral.ui" line="462"/>
         <source>&amp;Use software video equalizer</source>
         <translation>&amp;Utiliser l&apos;équaliseur vidéo logiciel</translation>
     </message>
@@ -2572,37 +2571,37 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation type="obsolete">&amp;Utiliser le postprocessing pour toutes les vidéos</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="513"/>
+        <location filename="../prefgeneral.ui" line="500"/>
         <source>&amp;Quality:</source>
         <translation>&amp;Qualité :</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="552"/>
+        <location filename="../prefgeneral.ui" line="539"/>
         <source>Start videos in &amp;fullscreen</source>
         <translation>Toujours lancer les vidéos en &amp;plein écran</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="559"/>
+        <location filename="../prefgeneral.ui" line="546"/>
         <source>Disable &amp;screensaver</source>
         <translation>Désactiver l&apos;écran de &amp;veille</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="704"/>
+        <location filename="../prefgeneral.ui" line="691"/>
         <source>&amp;Default volume:</source>
         <translation>Volume par &amp;défaut :</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="625"/>
+        <location filename="../prefgeneral.ui" line="612"/>
         <source>Use s&amp;oftware volume control</source>
         <translation>Utiliser le contrôle de volume &amp;logiciel</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="651"/>
+        <location filename="../prefgeneral.ui" line="638"/>
         <source>Ma&amp;x. Amplification:</source>
         <translation>Amplification Ma&amp;x. :</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="679"/>
+        <location filename="../prefgeneral.ui" line="666"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
         <translation>&amp;AC3/DTS pass-through S/PDIF</translation>
     </message>
@@ -2627,12 +2626,12 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation>Double buffering</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="538"/>
+        <location filename="../prefgeneral.ui" line="525"/>
         <source>D&amp;irect rendering</source>
         <translation>Rendering d&amp;irect</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="545"/>
+        <location filename="../prefgeneral.ui" line="532"/>
         <source>Dou&amp;ble buffering</source>
         <translation>Dou&amp;ble buffering</translation>
     </message>
@@ -2642,12 +2641,12 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation>Double buffering fixe le clignotement en stockant deux images en mémoire, et en affiche une pendant que l&apos;autre est en train d&apos;être décodée. Si désactivé, cela peut affecter l&apos;OSD, mais généralement cela supprime les clignotements.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="490"/>
+        <location filename="../prefgeneral.ui" line="477"/>
         <source>&amp;Enable postprocessing by default</source>
         <translation>&amp;Utiliser le post-traitement par défaut</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="686"/>
+        <location filename="../prefgeneral.ui" line="673"/>
         <source>Volume &amp;normalization by default</source>
         <translation>&amp;Normalisation du volume par défaut</translation>
     </message>
@@ -2662,7 +2661,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation>Si cette option est cochée, la fenêtre principale sera automatiquement fermée lorsque le fichier ou la liste de lecture sera fin(e).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="420"/>
+        <location filename="../prefgeneral.ui" line="407"/>
         <source>&amp;Close when finished</source>
         <translation>&amp;Fermer l&apos;application lorsque media est fini de lire</translation>
     </message>
@@ -2682,12 +2681,12 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation>6 (5.1 Surround)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="589"/>
+        <location filename="../prefgeneral.ui" line="576"/>
         <source>C&amp;hannels by default:</source>
         <translation>Canau&amp;x par défaut :</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="427"/>
+        <location filename="../prefgeneral.ui" line="414"/>
         <source>&amp;Pause when minimized</source>
         <translation>&amp;Pause lorsque l&apos;application est réduite</translation>
     </message>
@@ -2784,19 +2783,24 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
 &lt;br&gt;&lt;b&gt;Note : &lt;/b&gt; le &lt;i&gt;langage audio préféré&lt;/li&gt; est prioritaire à cette option.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="339"/>
+        <location filename="../prefgeneral.ui" line="352"/>
         <source>Or choose a track number:</source>
         <translation>Ou choisir le nombre de la piste :</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="379"/>
+        <location filename="../prefgeneral.ui" line="372"/>
         <source>Subtit&amp;le:</source>
         <translation>Sous-tit&amp;rage :</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="389"/>
+        <location filename="../prefgeneral.ui" line="359"/>
         <source>Audi&amp;o:</source>
         <translation>Audi&amp;o :</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="319"/>
+        <source>Preferred language:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

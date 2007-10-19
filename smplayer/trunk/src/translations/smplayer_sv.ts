@@ -2267,12 +2267,12 @@ Rullgardinslistorna kan erbjuda färdiggjorda reguljära uttryck på flera språ
         <translation type="obsolete">Undertexter:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="451"/>
+        <location filename="../prefgeneral.ui" line="438"/>
         <source>&amp;Video and audio</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="463"/>
+        <location filename="../prefgeneral.ui" line="450"/>
         <source>Video</source>
         <translation type="unfinished">Video</translation>
     </message>
@@ -2292,7 +2292,7 @@ Rullgardinslistorna kan erbjuda färdiggjorda reguljära uttryck på flera språ
         <translation type="unfinished">Inaktivera skärmsläckare</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="569"/>
+        <location filename="../prefgeneral.ui" line="556"/>
         <source>Audio</source>
         <translation type="unfinished">Ljud</translation>
     </message>
@@ -2462,12 +2462,12 @@ Rullgardinslistorna kan erbjuda färdiggjorda reguljära uttryck på flera språ
         <translation type="obsolete">Normalvolym:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="733"/>
+        <location filename="../prefgeneral.ui" line="720"/>
         <source>0</source>
         <translation type="unfinished">0</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="742"/>
+        <location filename="../prefgeneral.ui" line="729"/>
         <source>&amp;Change volume on every file</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2512,52 +2512,52 @@ Rullgardinslistorna kan erbjuda färdiggjorda reguljära uttryck på flera språ
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="300"/>
+        <location filename="../prefgeneral.ui" line="287"/>
         <source>A&amp;udio:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="287"/>
+        <location filename="../prefgeneral.ui" line="303"/>
         <source>Su&amp;btitles:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="475"/>
+        <location filename="../prefgeneral.ui" line="462"/>
         <source>&amp;Use software video equalizer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="513"/>
+        <location filename="../prefgeneral.ui" line="500"/>
         <source>&amp;Quality:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="552"/>
+        <location filename="../prefgeneral.ui" line="539"/>
         <source>Start videos in &amp;fullscreen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="559"/>
+        <location filename="../prefgeneral.ui" line="546"/>
         <source>Disable &amp;screensaver</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="704"/>
+        <location filename="../prefgeneral.ui" line="691"/>
         <source>&amp;Default volume:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="625"/>
+        <location filename="../prefgeneral.ui" line="612"/>
         <source>Use s&amp;oftware volume control</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="651"/>
+        <location filename="../prefgeneral.ui" line="638"/>
         <source>Ma&amp;x. Amplification:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="679"/>
+        <location filename="../prefgeneral.ui" line="666"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2577,12 +2577,12 @@ Rullgardinslistorna kan erbjuda färdiggjorda reguljära uttryck på flera språ
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="538"/>
+        <location filename="../prefgeneral.ui" line="525"/>
         <source>D&amp;irect rendering</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="545"/>
+        <location filename="../prefgeneral.ui" line="532"/>
         <source>Dou&amp;ble buffering</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2592,12 +2592,12 @@ Rullgardinslistorna kan erbjuda färdiggjorda reguljära uttryck på flera språ
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="490"/>
+        <location filename="../prefgeneral.ui" line="477"/>
         <source>&amp;Enable postprocessing by default</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="686"/>
+        <location filename="../prefgeneral.ui" line="673"/>
         <source>Volume &amp;normalization by default</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2612,7 +2612,7 @@ Rullgardinslistorna kan erbjuda färdiggjorda reguljära uttryck på flera språ
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="420"/>
+        <location filename="../prefgeneral.ui" line="407"/>
         <source>&amp;Close when finished</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2632,12 +2632,12 @@ Rullgardinslistorna kan erbjuda färdiggjorda reguljära uttryck på flera språ
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="589"/>
+        <location filename="../prefgeneral.ui" line="576"/>
         <source>C&amp;hannels by default:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="427"/>
+        <location filename="../prefgeneral.ui" line="414"/>
         <source>&amp;Pause when minimized</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2727,18 +2727,23 @@ Rullgardinslistorna kan erbjuda färdiggjorda reguljära uttryck på flera språ
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="339"/>
+        <location filename="../prefgeneral.ui" line="352"/>
         <source>Or choose a track number:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="379"/>
+        <location filename="../prefgeneral.ui" line="372"/>
         <source>Subtit&amp;le:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="389"/>
+        <location filename="../prefgeneral.ui" line="359"/>
         <source>Audi&amp;o:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="319"/>
+        <source>Preferred language:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

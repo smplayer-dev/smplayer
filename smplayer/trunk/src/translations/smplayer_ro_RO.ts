@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
-<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -2261,12 +2260,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="obsolete">Subtitrări:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="451"/>
+        <location filename="../prefgeneral.ui" line="438"/>
         <source>&amp;Video and audio</source>
         <translation>&amp;Video şi audio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="463"/>
+        <location filename="../prefgeneral.ui" line="450"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
@@ -2296,7 +2295,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Dezactivare captură ecran</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="569"/>
+        <location filename="../prefgeneral.ui" line="556"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
@@ -2476,12 +2475,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="obsolete">Volum implicit:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="733"/>
+        <location filename="../prefgeneral.ui" line="720"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="742"/>
+        <location filename="../prefgeneral.ui" line="729"/>
         <source>&amp;Change volume on every file</source>
         <translation>&amp;Modifică volumul pentru fiecare fişier</translation>
     </message>
@@ -2526,17 +2525,17 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Memorare &amp;reglaje pentru toate tipurile de fişiere (coloană sonoră, subtitrare...)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="300"/>
+        <location filename="../prefgeneral.ui" line="287"/>
         <source>A&amp;udio:</source>
         <translation>A&amp;udio:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="287"/>
+        <location filename="../prefgeneral.ui" line="303"/>
         <source>Su&amp;btitles:</source>
         <translation>Su&amp;btitrări:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="475"/>
+        <location filename="../prefgeneral.ui" line="462"/>
         <source>&amp;Use software video equalizer</source>
         <translation>&amp;Folosire egalizor software pentru video</translation>
     </message>
@@ -2546,37 +2545,37 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="obsolete">&amp;Activare postprocesare pentru toate tipurile de fişiere video</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="513"/>
+        <location filename="../prefgeneral.ui" line="500"/>
         <source>&amp;Quality:</source>
         <translation>Ca&amp;litatea:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="552"/>
+        <location filename="../prefgeneral.ui" line="539"/>
         <source>Start videos in &amp;fullscreen</source>
         <translation>Redare video în mod &amp;fullscreen</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="559"/>
+        <location filename="../prefgeneral.ui" line="546"/>
         <source>Disable &amp;screensaver</source>
         <translation>Dezactivare &amp;captură ecran</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="704"/>
+        <location filename="../prefgeneral.ui" line="691"/>
         <source>&amp;Default volume:</source>
         <translation>&amp;Volum implicit:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="625"/>
+        <location filename="../prefgeneral.ui" line="612"/>
         <source>Use s&amp;oftware volume control</source>
         <translation>Folosire control volum prin s&amp;oftware</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="651"/>
+        <location filename="../prefgeneral.ui" line="638"/>
         <source>Ma&amp;x. Amplification:</source>
         <translation>Valoare ma&amp;ximă amplificare:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="679"/>
+        <location filename="../prefgeneral.ui" line="666"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
         <translation>&amp;AC3/DTS direcţionat către S/PDIF</translation>
     </message>
@@ -2601,12 +2600,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Mărime dublă buffer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="538"/>
+        <location filename="../prefgeneral.ui" line="525"/>
         <source>D&amp;irect rendering</source>
         <translation>Randare d&amp;irectă</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="545"/>
+        <location filename="../prefgeneral.ui" line="532"/>
         <source>Dou&amp;ble buffering</source>
         <translation>Mărime du&amp;blă buffer</translation>
     </message>
@@ -2616,12 +2615,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Alocarea unei mărimi duble pentru buffer va înlătura efectul de clipire a imaginii prin stocarea a două cadre în memorie şi va afişa una în timp ce cealaltă este decodată. Dacă nu este selectată această opţiune se poate înfluenţa în mod negativ OSD (afişarea mesajelor pe imagine), dar de cele mai multe ori înlătură efectul de clipire a acestor mesaje.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="490"/>
+        <location filename="../prefgeneral.ui" line="477"/>
         <source>&amp;Enable postprocessing by default</source>
         <translation>&amp;Activare implicită postprocesare</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="686"/>
+        <location filename="../prefgeneral.ui" line="673"/>
         <source>Volume &amp;normalization by default</source>
         <translation>&amp;Normalizare implicită volum</translation>
     </message>
@@ -2636,7 +2635,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Dacă această opţiune este selectată, fereastra principală se va închide automat după redarea fişierului/listei de titluri.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="420"/>
+        <location filename="../prefgeneral.ui" line="407"/>
         <source>&amp;Close when finished</source>
         <translation>În&amp;chide după terminare</translation>
     </message>
@@ -2656,12 +2655,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>6 (5.1 Surround)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="589"/>
+        <location filename="../prefgeneral.ui" line="576"/>
         <source>C&amp;hannels by default:</source>
         <translation>C&amp;anale implicite:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="427"/>
+        <location filename="../prefgeneral.ui" line="414"/>
         <source>&amp;Pause when minimized</source>
         <translation>&amp;Pauză la minimizare</translation>
     </message>
@@ -2751,19 +2750,24 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Specifică pista cu subtitrarea implicită ce va fi folosită când se vor reda fişiere noi. Dacă pista nu există, va fi folosită prima pistă disponibilă. &lt;br&gt; &lt;b&gt;Notă:&lt;/b&gt; opţiunea &lt;i&gt; &quot; limba preferată pentru subtitrare&quot; &lt;/i&gt; va fi preferată în detrimentul acestei opţiuni.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="339"/>
+        <location filename="../prefgeneral.ui" line="352"/>
         <source>Or choose a track number:</source>
         <translation>Sau alegeţi un număr de pistă:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="379"/>
+        <location filename="../prefgeneral.ui" line="372"/>
         <source>Subtit&amp;le:</source>
         <translation>Subtit&amp;rare:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="389"/>
+        <location filename="../prefgeneral.ui" line="359"/>
         <source>Audi&amp;o:</source>
         <translation>C&amp;oloană Sonoră:</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="319"/>
+        <source>Preferred language:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

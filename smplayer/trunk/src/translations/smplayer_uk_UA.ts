@@ -2151,12 +2151,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Переважні аудіо та субтитри</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="451"/>
+        <location filename="../prefgeneral.ui" line="438"/>
         <source>&amp;Video and audio</source>
         <translation>&amp;Відео та звук</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="463"/>
+        <location filename="../prefgeneral.ui" line="450"/>
         <source>Video</source>
         <translation>Відео</translation>
     </message>
@@ -2171,7 +2171,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Придушити скринсейвер</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="569"/>
+        <location filename="../prefgeneral.ui" line="556"/>
         <source>Audio</source>
         <translation>Звук</translation>
     </message>
@@ -2326,12 +2326,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Якщо увімнено, SMPlayer буде запам&apos;ятовувати гучність для усіх файлів і відновлюватиме при наступному їх відкритті. Для нових файлів буде використана гучніть за замовчанням.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="733"/>
+        <location filename="../prefgeneral.ui" line="720"/>
         <source>0</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="742"/>
+        <location filename="../prefgeneral.ui" line="729"/>
         <source>&amp;Change volume on every file</source>
         <translation>&amp;Змінити гучність для всіх файлів</translation>
     </message>
@@ -2376,52 +2376,52 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Запам&apos;ятовувати налаштування для &amp;всіх файлів (звукові доріжки, субтитри...)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="300"/>
+        <location filename="../prefgeneral.ui" line="287"/>
         <source>A&amp;udio:</source>
         <translation>З&amp;вук:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="287"/>
+        <location filename="../prefgeneral.ui" line="303"/>
         <source>Su&amp;btitles:</source>
         <translation>Су&amp;бтитри:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="475"/>
+        <location filename="../prefgeneral.ui" line="462"/>
         <source>&amp;Use software video equalizer</source>
         <translation>Використовувати &amp;програмний еквалайзер відео</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="513"/>
+        <location filename="../prefgeneral.ui" line="500"/>
         <source>&amp;Quality:</source>
         <translation>&amp;Якість:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="552"/>
+        <location filename="../prefgeneral.ui" line="539"/>
         <source>Start videos in &amp;fullscreen</source>
         <translation>Стартувати відео на повний &amp;екран</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="559"/>
+        <location filename="../prefgeneral.ui" line="546"/>
         <source>Disable &amp;screensaver</source>
         <translation>Придушити &amp;скринсейвер</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="704"/>
+        <location filename="../prefgeneral.ui" line="691"/>
         <source>&amp;Default volume:</source>
         <translation>&amp;Гучність за умовчанням:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="625"/>
+        <location filename="../prefgeneral.ui" line="612"/>
         <source>Use s&amp;oftware volume control</source>
         <translation>Використовувати програмний &amp;контроль гучності</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="651"/>
+        <location filename="../prefgeneral.ui" line="638"/>
         <source>Ma&amp;x. Amplification:</source>
         <translation>Мак&amp;симальна амплітуда:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="679"/>
+        <location filename="../prefgeneral.ui" line="666"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
         <translation>Передача &amp;AC3/DTS на S/PDIF</translation>
     </message>
@@ -2441,12 +2441,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Подвійна буферизація</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="538"/>
+        <location filename="../prefgeneral.ui" line="525"/>
         <source>D&amp;irect rendering</source>
         <translation>П&amp;рямий рендерінг</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="545"/>
+        <location filename="../prefgeneral.ui" line="532"/>
         <source>Dou&amp;ble buffering</source>
         <translation>Под&amp;війна буферизація</translation>
     </message>
@@ -2456,12 +2456,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Подвійна буферизація виправляє мерехтіння тримаючи два фрейми в пам&apos;яті - відображаючи один, декодує інший. Якщо вимкнено - може негативно вплинути на екранну індикацію, але як правило припиняє її мерехтіння.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="490"/>
+        <location filename="../prefgeneral.ui" line="477"/>
         <source>&amp;Enable postprocessing by default</source>
         <translation>&amp;Активувати післяобробку за умовчанням</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="686"/>
+        <location filename="../prefgeneral.ui" line="673"/>
         <source>Volume &amp;normalization by default</source>
         <translation>Нормалізація &amp;гучності за умовчанням</translation>
     </message>
@@ -2476,7 +2476,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Ця опція активує автоматичний вихід з програми по закінченню відтворення файлу чи списку.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="420"/>
+        <location filename="../prefgeneral.ui" line="407"/>
         <source>&amp;Close when finished</source>
         <translation>Вийти по &amp;закінченню</translation>
     </message>
@@ -2496,12 +2496,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>6 (5.1 оточення)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="589"/>
+        <location filename="../prefgeneral.ui" line="576"/>
         <source>C&amp;hannels by default:</source>
         <translation>К&amp;анали за умовчанням:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="427"/>
+        <location filename="../prefgeneral.ui" line="414"/>
         <source>&amp;Pause when minimized</source>
         <translation>&amp;Пауза при мінімізації</translation>
     </message>
@@ -2596,18 +2596,23 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="339"/>
+        <location filename="../prefgeneral.ui" line="352"/>
         <source>Or choose a track number:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="379"/>
+        <location filename="../prefgeneral.ui" line="372"/>
         <source>Subtit&amp;le:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="389"/>
+        <location filename="../prefgeneral.ui" line="359"/>
         <source>Audi&amp;o:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="319"/>
+        <source>Preferred language:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

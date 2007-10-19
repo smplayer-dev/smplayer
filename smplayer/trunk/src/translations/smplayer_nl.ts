@@ -2277,12 +2277,12 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation type="obsolete">Ondertitels:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="451"/>
+        <location filename="../prefgeneral.ui" line="438"/>
         <source>&amp;Video and audio</source>
         <translation>&amp;Video en audio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="463"/>
+        <location filename="../prefgeneral.ui" line="450"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
@@ -2302,7 +2302,7 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>Schermbeveiliging uitschakelen</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="569"/>
+        <location filename="../prefgeneral.ui" line="556"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
@@ -2467,12 +2467,12 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation type="obsolete">Standaardvolume:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="733"/>
+        <location filename="../prefgeneral.ui" line="720"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="742"/>
+        <location filename="../prefgeneral.ui" line="729"/>
         <source>&amp;Change volume on every file</source>
         <translation>&amp;Volume bij elk bestand veranderen</translation>
     </message>
@@ -2517,52 +2517,52 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>I&amp;nstellingen voor alle bestanden onthouden (audiospoor, ondertitels...)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="300"/>
+        <location filename="../prefgeneral.ui" line="287"/>
         <source>A&amp;udio:</source>
         <translation>A&amp;udio:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="287"/>
+        <location filename="../prefgeneral.ui" line="303"/>
         <source>Su&amp;btitles:</source>
         <translation>&amp;Ondertitels:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="475"/>
+        <location filename="../prefgeneral.ui" line="462"/>
         <source>&amp;Use software video equalizer</source>
         <translation>&amp;Gebruik software video equalizer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="513"/>
+        <location filename="../prefgeneral.ui" line="500"/>
         <source>&amp;Quality:</source>
         <translation>K&amp;waliteit:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="552"/>
+        <location filename="../prefgeneral.ui" line="539"/>
         <source>Start videos in &amp;fullscreen</source>
         <translation>Start videobestanden in &amp;volledig scherm</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="559"/>
+        <location filename="../prefgeneral.ui" line="546"/>
         <source>Disable &amp;screensaver</source>
         <translation>&amp;Schermbeveiliging uitschakelen</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="704"/>
+        <location filename="../prefgeneral.ui" line="691"/>
         <source>&amp;Default volume:</source>
         <translation>Standaard &amp;geluidsniveau:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="625"/>
+        <location filename="../prefgeneral.ui" line="612"/>
         <source>Use s&amp;oftware volume control</source>
         <translation>Gebruikt s&amp;oftware volumeregeling</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="651"/>
+        <location filename="../prefgeneral.ui" line="638"/>
         <source>Ma&amp;x. Amplification:</source>
         <translation>Ma&amp;x. versterking:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="679"/>
+        <location filename="../prefgeneral.ui" line="666"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
         <translation>&amp;AC3/DTS pass-through S/PDIF</translation>
     </message>
@@ -2582,12 +2582,12 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>Double buffering</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="538"/>
+        <location filename="../prefgeneral.ui" line="525"/>
         <source>D&amp;irect rendering</source>
         <translation>D&amp;irect rendering</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="545"/>
+        <location filename="../prefgeneral.ui" line="532"/>
         <source>Dou&amp;ble buffering</source>
         <translation>Dou&amp;ble buffering</translation>
     </message>
@@ -2597,12 +2597,12 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>&apos;Double buffering&apos; verwijdert flikkering door twee frames in het geheugen te plaatsen, en slechts één frame te weergeven terwijl het andere gedecodeerd wordt. Als deze optie is uitgeschakeld kan het OSD negatief beïnvloed worden, maar vaak verwijdert het flikkering van het OSD.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="490"/>
+        <location filename="../prefgeneral.ui" line="477"/>
         <source>&amp;Enable postprocessing by default</source>
         <translation>&amp;Nabewerking standaard inschakelen</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="686"/>
+        <location filename="../prefgeneral.ui" line="673"/>
         <source>Volume &amp;normalization by default</source>
         <translation>&amp;Volume normalisatie standaard toepassen</translation>
     </message>
@@ -2617,7 +2617,7 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>Als deze optie is aangevinkt, dan zal het hoofdvenster automatisch gesloten worden wanneer het huidige bestand of de huidige afspeellijst is afgelopen.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="420"/>
+        <location filename="../prefgeneral.ui" line="407"/>
         <source>&amp;Close when finished</source>
         <translation>&amp;Sluiten na afloop</translation>
     </message>
@@ -2637,12 +2637,12 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>6 (5.1 Surround)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="589"/>
+        <location filename="../prefgeneral.ui" line="576"/>
         <source>C&amp;hannels by default:</source>
         <translation>&amp;Standaard kanalen:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="427"/>
+        <location filename="../prefgeneral.ui" line="414"/>
         <source>&amp;Pause when minimized</source>
         <translation>&amp;Pauzeer wanneer geminimaliseerd</translation>
     </message>
@@ -2737,18 +2737,23 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="339"/>
+        <location filename="../prefgeneral.ui" line="352"/>
         <source>Or choose a track number:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="379"/>
+        <location filename="../prefgeneral.ui" line="372"/>
         <source>Subtit&amp;le:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="389"/>
+        <location filename="../prefgeneral.ui" line="359"/>
         <source>Audi&amp;o:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="319"/>
+        <source>Preferred language:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

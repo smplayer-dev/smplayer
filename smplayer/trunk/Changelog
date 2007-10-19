@@ -1,5 +1,10 @@
 [b]Version 0.5.62[/b] (not released yet):
 
+(2007-10-19)
+ * Updated the Polish translation.
+ * Improved layout of section "Preferred audio & subtitles" in 
+   Preferences->General.
+
 (2007-10-18)
  * (Internal change) Don't use the pref object in mplayerwindow.
  * Now the first track number for initial_subtitle_track and 
