@@ -231,8 +231,8 @@ void Preferences::reset() {
 
 	initial_audio_channels = MediaSettings::ChDefault;
 
-	initial_audio_track = 0;
-	initial_subtitle_track = 0;
+	initial_audio_track = 1;
+	initial_subtitle_track = 1;
 }
 
 void Preferences::save() {

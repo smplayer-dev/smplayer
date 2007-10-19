@@ -4,6 +4,8 @@
  * (Internal change) Don't use the pref object in mplayerwindow.
  * Now the first track number for initial_subtitle_track and 
    initial_audio_track (in config) is 1, instead of 0, to make it more natural.
+ * Added in Preferences->General options to choose the initial audio &
+   subtitle tracks.
 
 (2007-10-17)
  * Added a 2nd patch by LoRd_MuldeR for winfileassoc.cpp.
