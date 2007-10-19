@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -2732,37 +2733,37 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="457"/>
         <source>Audio track</source>
-        <translation type="unfinished"></translation>
+        <translation>Coloană sonoră</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="461"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation type="unfinished"></translation>
+        <translation>Specifică coloana sonoră implicită ce va fi folosită la redarea fişierelor nou încărcate. Dacă nu există coloana sonoră selectată va fi folosită prima coloană sonoră disponibilă. &lt;br&gt;&lt;b&gt;Notă:&lt;/b&gt; &lt;i&gt; &quot;limba preferată coloană sonoră&quot;&lt;/i&gt; va fi preferată în detrimentul acestei opţiuni.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="463"/>
         <source>Subtitle track</source>
-        <translation type="unfinished"></translation>
+        <translation>Pistă subtitrări</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="467"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation type="unfinished"></translation>
+        <translation>Specifică pista cu subtitrarea implicită ce va fi folosită când se vor reda fişiere noi. Dacă pista nu există, va fi folosită prima pistă disponibilă. &lt;br&gt; &lt;b&gt;Notă:&lt;/b&gt; opţiunea &lt;i&gt; &quot; limba preferată pentru subtitrare&quot; &lt;/i&gt; va fi preferată în detrimentul acestei opţiuni.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="339"/>
         <source>Or choose a track number:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sau alegeţi un număr de pistă:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="379"/>
         <source>Subtit&amp;le:</source>
-        <translation type="unfinished"></translation>
+        <translation>Subtit&amp;rare:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="389"/>
         <source>Audi&amp;o:</source>
-        <translation type="unfinished"></translation>
+        <translation>C&amp;oloană Sonoră:</translation>
     </message>
 </context>
 <context>
