@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -2763,37 +2764,39 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefgeneral.cpp" line="457"/>
         <source>Audio track</source>
-        <translation type="unfinished"></translation>
+        <translation>Piste audio</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="461"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation type="unfinished"></translation>
+        <translation>Specifie la piste audio par défaut qui sera utilisée quand les nouveaux fichiers seront joués. Si la piste n&apos;existe pas, le premier sera joué.
+&lt;br&gt;&lt;b&gt;Note : &lt;/b&gt; le &lt;i&gt;langage audio préféré&lt;/li&gt; est prioritaire à cette option.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="463"/>
         <source>Subtitle track</source>
-        <translation type="unfinished"></translation>
+        <translation>Piste de sous-titrage</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="467"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation type="unfinished"></translation>
+        <translation>Specifie la piste de sous-titrage par défaut qui sera utilisée quand les nouveaux fichiers seront joués. Si la piste n&apos;existe pas, le premier sera joué.
+&lt;br&gt;&lt;b&gt;Note : &lt;/b&gt; le &lt;i&gt;langage audio préféré&lt;/li&gt; est prioritaire à cette option.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="339"/>
         <source>Or choose a track number:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ou choisir le nombre de la piste :</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="379"/>
         <source>Subtit&amp;le:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sous-tit&amp;rage :</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="389"/>
         <source>Audi&amp;o:</source>
-        <translation type="unfinished"></translation>
+        <translation>Audi&amp;o :</translation>
     </message>
 </context>
 <context>
