@@ -2288,7 +2288,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="437"/>
         <source>Preferred audio language</source>
-        <translation>お好みのオーディオの言語</translation>
+        <translation>オーディオの優先言語</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="445"/>
@@ -2298,7 +2298,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="447"/>
         <source>Preferred subtitle language</source>
-        <translation>お好みの字幕の言語</translation>
+        <translation>字幕の優先言語</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="455"/>
@@ -2748,42 +2748,42 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="457"/>
         <source>Audio track</source>
-        <translation type="unfinished"></translation>
+        <translation>オーディオ トラック</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="461"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation type="unfinished"></translation>
+        <translation>新しいファイルの再生時に使用される既定のオーディオ トラックを指定します。トラックが存在しない場合、最初のものが使用されます。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; &lt;i&gt;&quot;オーディオの優先言語&quot;&lt;/i&gt;はこのオプションを超えて優先されます。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="463"/>
         <source>Subtitle track</source>
-        <translation type="unfinished"></translation>
+        <translation>字幕トラック</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="467"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation type="unfinished"></translation>
+        <translation>新しいファイルの再生時に使用される既定の字幕トラックを指定します。トラックが存在しない場合、最初のものが使用されます。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; &lt;i&gt;&quot;字幕の優先言語&quot;&lt;/i&gt;はこのオプションを超えて優先されます。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="352"/>
         <source>Or choose a track number:</source>
-        <translation type="unfinished"></translation>
+        <translation>またはトラック番号を選択します:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="372"/>
         <source>Subtit&amp;le:</source>
-        <translation type="unfinished"></translation>
+        <translation>字幕(&amp;T):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="359"/>
         <source>Audi&amp;o:</source>
-        <translation type="unfinished"></translation>
+        <translation>オーディオ(&amp;O):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="319"/>
         <source>Preferred language:</source>
-        <translation type="unfinished"></translation>
+        <translation>優先言語:</translation>
     </message>
 </context>
 <context>
@@ -3871,7 +3871,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../winfileassoc.cpp" line="145"/>
         <source>Enqueue in SMPlayer</source>
-        <translation type="unfinished">SMPlayer でエンキュー</translation>
+        <translation>SMPlayer でエンキュー</translation>
     </message>
 </context>
 <context>
