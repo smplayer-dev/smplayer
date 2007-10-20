@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -2764,42 +2765,42 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="457"/>
         <source>Audio track</source>
-        <translation type="unfinished"></translation>
+        <translation>Audiospur</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="461"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation type="unfinished"></translation>
+        <translation>Spezifiziert die Standard Audiospur, die bei neuen Dateien abgespielt wird. Falls die Spur nicht existiert, wird die erste Spur gewählt. &lt;br&gt;&lt;b&gt;Hinweis:&lt;/b&gt; die &lt;i&gt; &quot;bevorzugte Audiosprache&quot;&lt;/i&gt; hat Vorrang vor dieser Option.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="463"/>
         <source>Subtitle track</source>
-        <translation type="unfinished"></translation>
+        <translation>Untertitelspur</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="467"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation type="unfinished"></translation>
+        <translation>Spezifiziert die Standard Untertitelspur, die bei neuen Dateien abgespielt wird. Falls die Spur nicht existiert, wird die erste Spur gewählt. &lt;br&gt;&lt;b&gt;Hinweis:&lt;/b&gt; die &lt;i&gt; &quot;bevorzugte Untertitelsprache&quot;&lt;/i&gt; hat Vorrang vor dieser Option.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="352"/>
         <source>Or choose a track number:</source>
-        <translation type="unfinished"></translation>
+        <translation>Oder eine Tracknummer wählen:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="372"/>
         <source>Subtit&amp;le:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Untertitel:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="359"/>
         <source>Audi&amp;o:</source>
-        <translation type="unfinished"></translation>
+        <translation>Audi&amp;o:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="319"/>
         <source>Preferred language:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bevorzugte Sprache:</translation>
     </message>
 </context>
 <context>
