@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -2767,7 +2768,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="319"/>
         <source>Preferred language:</source>
-        <translation type="unfinished"></translation>
+        <translation>Limbă preferată:</translation>
     </message>
 </context>
 <context>
