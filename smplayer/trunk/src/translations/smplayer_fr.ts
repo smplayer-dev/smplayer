@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -470,7 +471,7 @@ Voulez-vous l&apos;écraser ?</translation>
     <message>
         <location filename="../basegui.cpp" line="1019"/>
         <source>&amp;View logs</source>
-        <translation>&amp;Logs</translation>
+        <translation>&amp;Journaux</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="856"/>
@@ -725,12 +726,12 @@ Voulez-vous l&apos;écraser ?</translation>
     <message>
         <location filename="../basegui.cpp" line="1027"/>
         <source>SMPlayer - mplayer log</source>
-        <translation>SMPlayer - MPlayer log</translation>
+        <translation>Journal MPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1028"/>
         <source>SMPlayer - smplayer log</source>
-        <translation>SMPlayer - SMPlayer log</translation>
+        <translation>Journal SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1880"/>
@@ -2800,7 +2801,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefgeneral.ui" line="319"/>
         <source>Preferred language:</source>
-        <translation type="unfinished"></translation>
+        <translation>Langue préférée :</translation>
     </message>
 </context>
 <context>
