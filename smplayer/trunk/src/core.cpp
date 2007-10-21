@@ -2430,7 +2430,12 @@ void Core::changeAspectRatio( int ID ) {
 		}
 	}
 
-	mplayerwindow->setAspect( asp );
+	if (!pref->use_mplayer_window) {
+		mplayerwindow->setAspect( asp );
+	} else {
+		// Using mplayer own window
+		tellmp("switch_ratio " + QString::number(asp));
+	}
     //tellmp("switch_ratio " + QString::number( asp ) );
 
 	updateWidgets();
