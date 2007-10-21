@@ -1,5 +1,8 @@
 [b]Version 0.5.62[/b] (not released yet):
 
+(2007-10-21)
+ * Now the aspect ratio settings should work when using the mplayer own window.
+
 (2007-10-19)
  * Updated the Polish translation.
  * Improved layout of section "Preferred audio & subtitles" in 
