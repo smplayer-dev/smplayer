@@ -438,7 +438,7 @@ Do you want to overwrite?</source>
         <translation>&amp;Співвідношення сторін</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1761"/>
+        <location filename="../basegui.cpp" line="1763"/>
         <source>&amp;None</source>
         <translation>&amp;Нічого</translation>
     </message>
@@ -683,74 +683,74 @@ Do you want to overwrite?</source>
         <translation>Про &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1880"/>
+        <location filename="../basegui.cpp" line="1882"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;нічого&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2188"/>
+        <location filename="../basegui.cpp" line="2190"/>
         <source>Video</source>
         <translation>Відео</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2359"/>
+        <location filename="../basegui.cpp" line="2361"/>
         <source>Audio</source>
         <translation>Звук</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2192"/>
+        <location filename="../basegui.cpp" line="2194"/>
         <source>Playlists</source>
         <translation>Список</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2360"/>
+        <location filename="../basegui.cpp" line="2362"/>
         <source>All files</source>
         <translation>Всі файли</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2357"/>
+        <location filename="../basegui.cpp" line="2359"/>
         <source>Choose a file</source>
         <translation>Вибрати файл</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2232"/>
+        <location filename="../basegui.cpp" line="2234"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Інформація</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2235"/>
+        <location filename="../basegui.cpp" line="2237"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Приводи CD/DVD еще не налаштовані.
 Ви зможете зробити це у діалозі налаштувань цих пристроїв.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2309"/>
+        <location filename="../basegui.cpp" line="2311"/>
         <source>Choose a directory</source>
         <translation>Вибрати теку</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2344"/>
+        <location filename="../basegui.cpp" line="2346"/>
         <source>Subtitles</source>
         <translation>Субтитри</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2371"/>
+        <location filename="../basegui.cpp" line="2373"/>
         <source>About Qt</source>
         <translation>Про Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2671"/>
+        <location filename="../basegui.cpp" line="2688"/>
         <source>Playing %1</source>
         <translation>Відтворюється %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2672"/>
+        <location filename="../basegui.cpp" line="2689"/>
         <source>Pause</source>
         <translation>Пауза</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2673"/>
+        <location filename="../basegui.cpp" line="2690"/>
         <source>Stop</source>
         <translation>Стоп</translation>
     </message>
@@ -1071,7 +1071,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Гучність: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2482"/>
+        <location filename="../core.cpp" line="2489"/>
         <source>Zoom: %1</source>
         <translation>Масштаб: %1</translation>
     </message>
@@ -2619,7 +2619,7 @@ The drop-down lists may provide already made regular expression for several lang
 <context>
     <name>PrefInput</name>
     <message>
-        <location filename="../prefinput.cpp" line="43"/>
+        <location filename="../prefinput.cpp" line="39"/>
         <source>Keyboard and mouse</source>
         <translation>Клавіатура та миша</translation>
     </message>
@@ -2644,22 +2644,22 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Функції кнопок:</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="322"/>
+        <location filename="../prefinput.ui" line="348"/>
         <source>Media seeking</source>
         <translation>Прокрутка</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="327"/>
+        <location filename="../prefinput.ui" line="353"/>
         <source>Volume control</source>
         <translation>Гучність</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="332"/>
+        <location filename="../prefinput.ui" line="358"/>
         <source>Zoom video</source>
         <translation>Масштаб відео</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="63"/>
+        <location filename="../prefinput.cpp" line="50"/>
         <source>None</source>
         <translation>Нічого</translation>
     </message>
@@ -2669,64 +2669,149 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Тут Ви можете змінити будь-яку комбінацію клавіш. Двічі клацніть або натисніть ENTER на чарунку комбінації. Додатково Ви можете зберегти список комбінацій для розповсюдження іншим або завантаження на іншому комп&apos;ютері.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="70"/>
+        <location filename="../prefinput.cpp" line="95"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>Тут Ви можете вказати будь-які комбінації клавіш. Двічі клікніть для введення або почніть вводити комбінацію на чарунку. Також Ви можете зберегти перелік комбінацій для інших або для завантаження на іншому комп&apos;ютері.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="169"/>
+        <location filename="../prefinput.ui" line="223"/>
         <source>&amp;Left click</source>
         <translation>&amp;Клік лівою</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="214"/>
+        <location filename="../prefinput.ui" line="236"/>
         <source>&amp;Double click</source>
         <translation>&amp;Подвійний клік</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="300"/>
+        <location filename="../prefinput.ui" line="326"/>
         <source>&amp;Wheel function:</source>
         <translation>&amp;Функція колеса:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="138"/>
+        <location filename="../prefinput.cpp" line="165"/>
         <source>Shortcut editor</source>
         <translation>Редактор гарячих клавіш</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="147"/>
+        <location filename="../prefinput.cpp" line="174"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>Тут Ви можете змінити будь-яку доступну комбінацію клавіш. Двічі клацніть або натисніть ENTER на чарунку комбінації, чи натисніть кнопку &lt;b&gt;Змінити комбінацію клавіш&lt;/b&gt; для введення в діалозі &lt;i&gt;Змінити комбінацію&lt;/i&gt;. Є два способи змінити комбінацію: або натиснути кнопку &lt;b&gt;Захоплення&lt;/b&gt; і просто натиснути потрібну комбінацію клавіш (нажаль, не працює для всіх клавіш), або просто написати повну назву клавіш.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="149"/>
+        <location filename="../prefinput.cpp" line="176"/>
         <source>Left click</source>
         <translation>Клік лівою</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="150"/>
+        <location filename="../prefinput.cpp" line="177"/>
         <source>Select the action for left click on the mouse.</source>
         <translation>Виберіть функцію кліку лівою для мишки.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="152"/>
+        <location filename="../prefinput.cpp" line="179"/>
         <source>Double click</source>
         <translation>Подвійний клік</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="153"/>
+        <location filename="../prefinput.cpp" line="180"/>
         <source>Select the action for double click on the mouse.</source>
         <translation>Виберіть функцію подвійного кліку для мишки.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="155"/>
+        <location filename="../prefinput.cpp" line="182"/>
         <source>Wheel function</source>
         <translation>Функція колеса</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="156"/>
+        <location filename="../prefinput.cpp" line="183"/>
         <source>Select the action for the mouse wheel.</source>
         <translation>Виберіть функцію колеса для мишки.</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="51"/>
+        <source>Play</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="53"/>
+        <source>Pause</source>
+        <translation type="unfinished">Пауза</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="55"/>
+        <source>Stop</source>
+        <translation type="unfinished">Стоп</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="56"/>
+        <source>Fullscreen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="57"/>
+        <source>Compact</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="58"/>
+        <source>Screenshot</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="59"/>
+        <source>On top</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="60"/>
+        <source>Mute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="62"/>
+        <source>Frame counter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="64"/>
+        <source>Reset zoom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="65"/>
+        <source>Exit fullscreen</source>
+        <translation type="unfinished">Повноекранний вихід</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="66"/>
+        <source>Double size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.ui" line="169"/>
+        <source>Mi&amp;ddle click</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="52"/>
+        <source>Play / Pause</source>
+        <translation type="unfinished">Грати / Пауза</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="54"/>
+        <source>Pause / Frame step</source>
+        <translation type="unfinished">Пауза / Крок фрейму</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="61"/>
+        <source>Playlist</source>
+        <translation type="unfinished">Список</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="63"/>
+        <source>Preferences</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3248,77 +3333,77 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Всі субтитри теки</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="168"/>
+        <location filename="../prefsubtitles.ui" line="256"/>
         <source>Position</source>
         <translation>Позиція</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="228"/>
+        <location filename="../prefsubtitles.ui" line="316"/>
         <source>0</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="248"/>
+        <location filename="../prefsubtitles.ui" line="336"/>
         <source>Top</source>
         <translation>Верх</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="274"/>
+        <location filename="../prefsubtitles.ui" line="362"/>
         <source>Bottom</source>
         <translation>Низ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="320"/>
+        <location filename="../prefsubtitles.ui" line="408"/>
         <source>&amp;Font</source>
         <translation>&amp;Шрифти</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="332"/>
+        <location filename="../prefsubtitles.ui" line="420"/>
         <source>Font</source>
         <translation>Шрифт</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="388"/>
+        <location filename="../prefsubtitles.ui" line="476"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
         <translation>Виберіть шрифт для субтитрів (та OSD):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="416"/>
+        <location filename="../prefsubtitles.ui" line="168"/>
         <source>Size</source>
         <translation>Розмір</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="442"/>
+        <location filename="../prefsubtitles.ui" line="194"/>
         <source>No autoscale</source>
         <translation>Без автомасштабування</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="447"/>
+        <location filename="../prefsubtitles.ui" line="199"/>
         <source>Proportional to movie height</source>
         <translation>Пропорційно до висоти клипу</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="452"/>
+        <location filename="../prefsubtitles.ui" line="204"/>
         <source>Proportional to movie width</source>
         <translation>Пропорційно до ширини клипу</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="457"/>
+        <location filename="../prefsubtitles.ui" line="209"/>
         <source>Proportional to movie diagonal</source>
         <translation>Пропорційно до діагоналі клипу</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="521"/>
         <source>SSA/&amp;ASS library</source>
-        <translation>Бібліотека SSA/&amp;ASS</translation>
+        <translation type="obsolete">Бібліотека SSA/&amp;ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="533"/>
+        <location filename="../prefsubtitles.ui" line="516"/>
         <source>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</source>
         <translation>Нова бібліотека SSA/ASS забезпечує хорошу стилізацію субтитрів для зовнішніх файлів субтитрів SSA/ASS та треків Matroska. Але це також буде використовуватись для рендерінгу файлів інших форматів, таких як SUB та SRT.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="655"/>
+        <location filename="../prefsubtitles.ui" line="638"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
         <translation>Тут Вы можете вказати стилі для субтитрів SSA/ASS. Також може використовуватися для точного налаштування відображення субтитрів SRT і SUB библиотекою SSA/ASS. Приклад: &lt;b&gt; Bold=1, Outline=2, Shadow=4 &lt;/b&gt;</translation>
     </message>
@@ -3353,64 +3438,69 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>&amp;Кодування субтитрів за умовчанням:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="180"/>
+        <location filename="../prefsubtitles.ui" line="268"/>
         <source>Default &amp;position of the subtitles on screen</source>
         <translation>Позиція субтитрів на &amp;екрані за умовчанням</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="289"/>
+        <location filename="../prefsubtitles.ui" line="377"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>&amp;Включати субтитри до знімків екрану</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="296"/>
+        <location filename="../prefsubtitles.ui" line="384"/>
         <source>&amp;Use -subfont option (required by recent MPlayer releases)</source>
         <translation>Використовувати &amp;опцію -subfont (потрібна для останніх версій MPlayer)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="344"/>
+        <location filename="../prefsubtitles.ui" line="432"/>
         <source>&amp;TTF font:</source>
         <translation>Шрифт &amp;TTF:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="361"/>
+        <location filename="../prefsubtitles.ui" line="449"/>
         <source>Sea&amp;rch...</source>
         <translation>По&amp;шук...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="381"/>
+        <location filename="../prefsubtitles.ui" line="469"/>
         <source>S&amp;ystem font:</source>
         <translation>С&amp;истемний шрифт:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="428"/>
+        <location filename="../prefsubtitles.ui" line="180"/>
         <source>A&amp;utoscale:</source>
         <translation>Авто&amp;масштабування:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="481"/>
+        <location filename="../prefsubtitles.ui" line="233"/>
         <source>S&amp;cale:</source>
         <translation>М&amp;асштаб:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="546"/>
+        <location filename="../prefsubtitles.ui" line="529"/>
         <source>&amp;Use SSA/ASS library for subtitle rendering</source>
         <translation>Використовувати бібліотеку SSA/ASS для &amp;рендерингу субтитрів</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="564"/>
+        <location filename="../prefsubtitles.ui" line="547"/>
         <source>&amp;Text color:</source>
         <translation>Колір &amp;тексту:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="606"/>
+        <location filename="../prefsubtitles.ui" line="589"/>
         <source>&amp;Border color:</source>
         <translation>Колір &amp;краю:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="679"/>
+        <location filename="../prefsubtitles.ui" line="662"/>
         <source>St&amp;yles:</source>
         <translation>Сти&amp;лі:</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="504"/>
+        <source>SSA/ASS library</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

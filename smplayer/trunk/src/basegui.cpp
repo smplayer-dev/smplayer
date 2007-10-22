@@ -1125,6 +1125,8 @@ void BaseGui::createMplayerWindow() {
              this, SLOT(doubleClickFunction()) );
 	connect( mplayerwindow, SIGNAL(leftClicked()),
              this, SLOT(leftClickFunction()) );
+	connect( mplayerwindow, SIGNAL(middleClicked()),
+             this, SLOT(middleClickFunction()) );
 	connect( mplayerwindow, SIGNAL(mouseMoved(QPoint)),
              this, SLOT(checkMousePos(QPoint)) );
 }
@@ -1182,7 +1184,7 @@ void BaseGui::createPanel() {
 void BaseGui::createPreferencesDialog() {
 	pref_dialog = new PreferencesDialog(this);
 	pref_dialog->setModal(false);
-	pref_dialog->mod_input()->setActionsList( actions_list );
+	/* pref_dialog->mod_input()->setActionsList( actions_list ); */
 	connect( pref_dialog, SIGNAL(applied()),
              this, SLOT(applyNewPreferences()) );
 }
@@ -2479,6 +2481,14 @@ void BaseGui::doubleClickFunction() {
 	}
 }
 
+void BaseGui::middleClickFunction() {
+	qDebug("BaseGui::middleClickFunction");
+
+	if (!pref->mouse_middle_click_function.isEmpty()) {
+		processFunction(pref->mouse_middle_click_function);
+	}
+}
+
 void BaseGui::processFunction(QString function) {
 	qDebug("BaseGui::processFunction: '%s'", function.toUtf8().data());
 
@@ -2611,6 +2621,7 @@ void BaseGui::showPopupMenu( QPoint p ) {
 	popup->show();
 }
 
+/*
 void BaseGui::mouseReleaseEvent( QMouseEvent * e ) {
 	qDebug("BaseGui::mouseReleaseEvent");
 
@@ -2618,12 +2629,17 @@ void BaseGui::mouseReleaseEvent( QMouseEvent * e ) {
 		e->accept();
 		emit leftClicked();
 	}
-	/*
 	else
-	if (e->button() == Qt::RightButton) {
-		showPopupMenu( e->globalPos() );
-    }
-	*/
+	if (e->button() == Qt::MidButton) {
+		e->accept();
+		emit middleClicked();
+	}
+	//
+	//else
+	//if (e->button() == Qt::RightButton) {
+	//	showPopupMenu( e->globalPos() );
+    //}
+	//
 	else 
 		e->ignore();
 }
@@ -2632,6 +2648,7 @@ void BaseGui::mouseDoubleClickEvent( QMouseEvent * e ) {
 	e->accept();
 	emit doubleClicked();
 }
+*/
 
 void BaseGui::wheelEvent( QWheelEvent * e ) {
 	qDebug("BaseGui::wheelEvent: delta: %d", e->delta());

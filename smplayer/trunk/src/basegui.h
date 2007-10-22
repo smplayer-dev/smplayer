@@ -137,12 +137,15 @@ protected slots:
 	virtual void displayGotoTime(int);
 
 	virtual void showPopupMenu( QPoint p );
+	/*
 	virtual void mouseReleaseEvent( QMouseEvent * e );
 	virtual void mouseDoubleClickEvent( QMouseEvent * e );
+	*/
 	virtual void wheelEvent( QWheelEvent * e ) ;
 
 	virtual void leftClickFunction();
 	virtual void doubleClickFunction();
+	virtual void middleClickFunction();
 	virtual void processFunction(QString function);
 
 	virtual void dragEnterEvent( QDragEnterEvent * ) ;
@@ -185,8 +188,11 @@ signals:
 	
 	void wheelUp();
 	void wheelDown();
+	/*
 	void doubleClicked();
 	void leftClicked();
+	void middleClicked();
+	*/
 
 protected:
 	virtual void retranslateStrings();

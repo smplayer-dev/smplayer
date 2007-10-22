@@ -28,10 +28,6 @@ PrefInput::PrefInput(QWidget * parent, Qt::WindowFlags f)
 {
 	setupUi(this);
 
-	// Mouse function combos
-    left_click_combo->addItem( "None" );
-	double_click_combo->addItem( "None" );
-
 	retranslateStrings();
 }
 
@@ -47,6 +43,36 @@ QPixmap PrefInput::sectionIcon() {
     return Images::icon("input_devices");
 }
 
+void PrefInput::createMouseCombos() {
+	left_click_combo->clear();
+	double_click_combo->clear();
+
+	left_click_combo->addItem( tr("None"), "" );
+	left_click_combo->addItem( tr("Play"), "play" );
+	left_click_combo->addItem( tr("Play / Pause"), "play_or_pause" );
+	left_click_combo->addItem( tr("Pause"), "pause" );
+	left_click_combo->addItem( tr("Pause / Frame step"), "pause_and_frame_step" );
+	left_click_combo->addItem( tr("Stop"), "stop" );
+	left_click_combo->addItem( tr("Fullscreen"), "fullscreen" );
+	left_click_combo->addItem( tr("Compact"), "compact" );
+	left_click_combo->addItem( tr("Screenshot"), "screenshot" );
+	left_click_combo->addItem( tr("On top"), "on_top" );
+	left_click_combo->addItem( tr("Mute"), "mute" );
+	left_click_combo->addItem( tr("Playlist"), "show_playlist" );
+	left_click_combo->addItem( tr("Frame counter"), "frame_counter" );
+	left_click_combo->addItem( tr("Preferences"), "show_preferences" );
+	left_click_combo->addItem( tr("Reset zoom"), "reset_zoom" );
+	left_click_combo->addItem( tr("Exit fullscreen"), "exit_fullscreen" );
+	left_click_combo->addItem( tr("Double size"), "toggle_double_size" );
+
+	// Copy to other combos
+	for (int n=0; n < left_click_combo->count(); n++) {
+		double_click_combo->addItem( left_click_combo->itemText(n),
+                                     left_click_combo->itemData(n) );
+		middle_click_combo->addItem( left_click_combo->itemText(n),
+                                     left_click_combo->itemData(n) );
+	}
+}
 
 void PrefInput::retranslateStrings() {
 	int wheel_function = wheel_function_combo->currentIndex();
@@ -59,8 +85,7 @@ void PrefInput::retranslateStrings() {
 	mouse_icon->setPixmap( Images::icon("mouse") );
 
     // Mouse function combos
-	left_click_combo->setItemText( 0, tr("None") );
-	double_click_combo->setItemText( 0, tr("None") );
+	createMouseCombos();
 
 #if !USE_SHORTCUTGETTER
 	actioneditor_desc->setText( 
@@ -76,6 +101,7 @@ void PrefInput::retranslateStrings() {
 void PrefInput::setData(Preferences * pref) {
 	setLeftClickFunction( pref->mouse_left_click_function );
 	setDoubleClickFunction( pref->mouse_double_click_function );
+	setMiddleClickFunction( pref->mouse_middle_click_function );
 	setWheelFunction( pref->wheel_function );
 }
 
@@ -84,44 +110,45 @@ void PrefInput::getData(Preferences * pref) {
 
 	pref->mouse_left_click_function = leftClickFunction();
 	pref->mouse_double_click_function = doubleClickFunction();
+	pref->mouse_middle_click_function = middleClickFunction();
 	pref->wheel_function = wheelFunction();
 }
 
+/*
 void PrefInput::setActionsList(QStringList l) {
 	left_click_combo->insertStringList( l );
 	double_click_combo->insertStringList( l );
 }
+*/
 
 void PrefInput::setLeftClickFunction(QString f) {
-	if (f.isEmpty()) {
-		left_click_combo->setCurrentIndex(0);
-	} else {
-		left_click_combo->setCurrentText(f);
-	}
+	int pos = left_click_combo->findData(f);
+	if (pos == -1) pos = 0; //None
+	left_click_combo->setCurrentIndex(pos);
 }
 
 QString PrefInput::leftClickFunction() {
-	if (left_click_combo->currentIndex()==0) {
-		return "";
-	} else {
-		return left_click_combo->currentText();
-	}
+	return left_click_combo->itemData( left_click_combo->currentIndex() ).toString();
 }
 
 void PrefInput::setDoubleClickFunction(QString f) {
-	if (f.isEmpty()) {
-		double_click_combo->setCurrentIndex(0);
-	} else {
-		double_click_combo->setCurrentText(f);
-	}
+	int pos = double_click_combo->findData(f);
+	if (pos == -1) pos = 0; //None
+	double_click_combo->setCurrentIndex(pos);
 }
 
 QString PrefInput::doubleClickFunction() {
-	if (double_click_combo->currentIndex()==0) {
-		return "";
-	} else {
-		return double_click_combo->currentText();
-	}
+	return double_click_combo->itemData( double_click_combo->currentIndex() ).toString();
+}
+
+void PrefInput::setMiddleClickFunction(QString f) {
+	int pos = middle_click_combo->findData(f);
+	if (pos == -1) pos = 0; //None
+	middle_click_combo->setCurrentIndex(pos);
+}
+
+QString PrefInput::middleClickFunction() {
+	return middle_click_combo->itemData( middle_click_combo->currentIndex() ).toString();
 }
 
 void PrefInput::setWheelFunction(int function) {
