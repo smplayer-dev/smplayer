@@ -2420,7 +2420,10 @@ void Core::changeAspectRatio( int ID ) {
 		mset.crop_43to169_filter = "";
         switch (ID) {
         	//case MediaSettings::AspectAuto: asp = mdat.video_aspect; break;
-			case MediaSettings::AspectAuto: asp = mset.win_aspect(); break;
+			case MediaSettings::AspectAuto: {
+				qDebug("Core::changeAspectRatio: mset.win_width %d, mset.win_height: %d", mset.win_width, mset.win_height);
+                asp = mset.win_aspect(); break;
+			}
             case MediaSettings::Aspect43: asp = (double) 4 / 3; break;
             case MediaSettings::Aspect169: asp = (double) 16 / 9; break;
 			case MediaSettings::Aspect149: asp = (double) 14 / 9; break;
@@ -2436,7 +2439,6 @@ void Core::changeAspectRatio( int ID ) {
 		// Using mplayer own window
 		tellmp("switch_ratio " + QString::number(asp));
 	}
-    //tellmp("switch_ratio " + QString::number( asp ) );
 
 	updateWidgets();
 
