@@ -159,6 +159,7 @@ signals:
     void rightButtonReleased( QPoint p );
 	void doubleClicked();
 	void leftClicked();
+	void middleClicked();
 	void keyPressed(QKeyEvent * e);
 	void wheelUp();
 	void wheelDown();

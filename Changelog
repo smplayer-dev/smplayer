@@ -2,6 +2,11 @@
 
 (2007-10-22)
  * Reorganized the layout of Preferences->Subtitles.
+ * Preferences->Keyboard and mouse: the list of available actions for mouse
+   buttons has been reduced. Only the most useful for mouse buttons are there.
+ * Now the middle click button is also configurable. The default action is
+   mute.
+ * Now the default icon theme is Nuvola.
 
 (2007-10-21)
  * Now the aspect ratio settings should work when using the mplayer own window.

@@ -43,16 +43,21 @@ public:
     void getData(Preferences * pref);
 
 	// Pass action's list to dialog
-	void setActionsList(QStringList l);
+	/* void setActionsList(QStringList l); */
 
 protected:
 	virtual void createHelp();
+
+	void createMouseCombos();
 
 	void setLeftClickFunction(QString f);
 	QString leftClickFunction();
 
 	void setDoubleClickFunction(QString f);
 	QString doubleClickFunction();
+
+	void setMiddleClickFunction(QString f);
+	QString middleClickFunction();
 
 	void setWheelFunction(int function);
 	int wheelFunction();

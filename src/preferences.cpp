@@ -160,6 +160,7 @@ void Preferences::reset() {
 
 	mouse_left_click_function = "";
 	mouse_double_click_function = "fullscreen";
+	mouse_middle_click_function = "mute";
 	wheel_function = Seeking;
 
 	recents_max_items = 10;
@@ -174,7 +175,7 @@ void Preferences::reset() {
 	log_filter = ".*";
 
 	language = "";
-	iconset = "";
+	iconset = "Nuvola";
 
 	// "Don't repaint video background" in the preferences dialog
 #ifdef Q_OS_WIN
@@ -340,6 +341,7 @@ void Preferences::save() {
 
 	set->setValue("mouse_left_click_function", mouse_left_click_function);
 	set->setValue("mouse_double_click_function", mouse_double_click_function);
+	set->setValue("mouse_middle_click_function", mouse_middle_click_function);
 	set->setValue("wheel_function", wheel_function);
 
 	set->setValue("recents_max_items", recents_max_items);
@@ -524,6 +526,7 @@ void Preferences::load() {
 
 	mouse_left_click_function = set->value("mouse_left_click_function", mouse_left_click_function).toString();
 	mouse_double_click_function = set->value("mouse_double_click_function", mouse_double_click_function).toString();
+	mouse_middle_click_function = set->value("mouse_middle_click_function", mouse_middle_click_function).toString();
 	wheel_function = set->value("wheel_function", wheel_function).toInt();
 
 	recents_max_items = set->value("recents_max_items", recents_max_items).toInt();

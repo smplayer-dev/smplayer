@@ -468,7 +468,7 @@ Do you want to overwrite?</source>
         <translation>&amp;Aspect ratio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1761"/>
+        <location filename="../basegui.cpp" line="1763"/>
         <source>&amp;None</source>
         <translation>&amp;Ninguno</translation>
     </message>
@@ -718,74 +718,74 @@ Do you want to overwrite?</source>
         <translation>Acerca de &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1880"/>
+        <location filename="../basegui.cpp" line="1882"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;vacío&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2188"/>
+        <location filename="../basegui.cpp" line="2190"/>
         <source>Video</source>
         <translation>Vídeo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2359"/>
+        <location filename="../basegui.cpp" line="2361"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2192"/>
+        <location filename="../basegui.cpp" line="2194"/>
         <source>Playlists</source>
         <translation>Listas de reproducción</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2360"/>
+        <location filename="../basegui.cpp" line="2362"/>
         <source>All files</source>
         <translation>Todos los ficheros</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2357"/>
+        <location filename="../basegui.cpp" line="2359"/>
         <source>Choose a file</source>
         <translation>Elige un fichero</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2232"/>
+        <location filename="../basegui.cpp" line="2234"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Información</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2235"/>
+        <location filename="../basegui.cpp" line="2237"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Las unidades de CDROM / DVD no han sido configuradas.
 Se mostrará a continuación el diálogo de configuración.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2309"/>
+        <location filename="../basegui.cpp" line="2311"/>
         <source>Choose a directory</source>
         <translation>Elige un directorio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2344"/>
+        <location filename="../basegui.cpp" line="2346"/>
         <source>Subtitles</source>
         <translation>Subtítulos</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2371"/>
+        <location filename="../basegui.cpp" line="2373"/>
         <source>About Qt</source>
         <translation>Acerca de Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2671"/>
+        <location filename="../basegui.cpp" line="2688"/>
         <source>Playing %1</source>
         <translation>Reproduciendo %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2672"/>
+        <location filename="../basegui.cpp" line="2689"/>
         <source>Pause</source>
         <translation>Pausa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2673"/>
+        <location filename="../basegui.cpp" line="2690"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
@@ -1141,7 +1141,7 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>Volumen: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2482"/>
+        <location filename="../core.cpp" line="2489"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
@@ -2804,7 +2804,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
 <context>
     <name>PrefInput</name>
     <message>
-        <location filename="../prefinput.cpp" line="43"/>
+        <location filename="../prefinput.cpp" line="39"/>
         <source>Keyboard and mouse</source>
         <translation>Teclado y ratón</translation>
     </message>
@@ -2819,7 +2819,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <translation>icon</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="70"/>
+        <location filename="../prefinput.cpp" line="95"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>Aquí puedes cambiar los atajos de teclado. Para hacerlo haz doble click o empieza a escribir sobre un atajo. Opcionalmente también puedes guardar la lista para compartirla con otras personas o usarla en otro ordenador.</translation>
     </message>
@@ -2834,22 +2834,22 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <translation>Funciones de los botones:</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="322"/>
+        <location filename="../prefinput.ui" line="348"/>
         <source>Media seeking</source>
         <translation>Desplazarse por el medio</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="327"/>
+        <location filename="../prefinput.ui" line="353"/>
         <source>Volume control</source>
         <translation>Controlar el volumen</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="332"/>
+        <location filename="../prefinput.ui" line="358"/>
         <source>Zoom video</source>
         <translation>Hacer zoom en el vídeo</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="63"/>
+        <location filename="../prefinput.cpp" line="50"/>
         <source>None</source>
         <translation>Ninguna</translation>
     </message>
@@ -2859,59 +2859,164 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <translation>Aquí puedes cambiar los atajos de teclado. Para hacerlo haz doble click o pulsa intro sobre un atajo. Opcionalmente también puedes guardar la lista para compartirla con otras personas o usarla en otro ordenador.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="169"/>
+        <location filename="../prefinput.ui" line="223"/>
         <source>&amp;Left click</source>
         <translation>&amp;Botón izquierdo</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="214"/>
+        <location filename="../prefinput.ui" line="236"/>
         <source>&amp;Double click</source>
         <translation>&amp;Doble click</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="300"/>
+        <location filename="../prefinput.ui" line="326"/>
         <source>&amp;Wheel function:</source>
         <translation>&amp;Función de la rueda:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="138"/>
+        <location filename="../prefinput.cpp" line="165"/>
         <source>Shortcut editor</source>
         <translation>Editor de atajos</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="147"/>
+        <location filename="../prefinput.cpp" line="174"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>Esta tabla te permite cambiar los atajos del teclado para la mayoría de las acciones disponibles. Haz doble click o pulsa intro sobre una acción, o pulsa el botón &lt;b&gt;Modificar atajo&lt;/b&gt; para abrir el diálogo &lt;i&gt;Modificar atajo&lt;/i&gt;. Hay dos maneras de cambiar un atajo: si el botón &lt;b&gt;Capturar&lt;/b&gt; está activado, entonces simplemente presiona la nueva tecla o combinación de teclas que desees asignar para la acción (desafortunadamente no funciona con todas las teclas). Si el botón &lt;b&gt;Capturar&lt;/b&gt; está desactivado entonces puedes teclear el nombre completo de la tecla.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="149"/>
+        <location filename="../prefinput.cpp" line="176"/>
         <source>Left click</source>
         <translation>Botón izquierdo</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="150"/>
+        <location filename="../prefinput.cpp" line="177"/>
         <source>Select the action for left click on the mouse.</source>
         <translation>Selecciona la acción para el botón izquierdo del ratón.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="152"/>
+        <location filename="../prefinput.cpp" line="179"/>
         <source>Double click</source>
         <translation>Doble click</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="153"/>
+        <location filename="../prefinput.cpp" line="180"/>
         <source>Select the action for double click on the mouse.</source>
         <translation>Selecciona la acción para el doble click del ratón.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="155"/>
+        <location filename="../prefinput.cpp" line="182"/>
         <source>Wheel function</source>
         <translation>Función de la rueda</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="156"/>
+        <location filename="../prefinput.cpp" line="183"/>
         <source>Select the action for the mouse wheel.</source>
         <translation>Selecciona la acción para la rueda del ratón.</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="51"/>
+        <source>Play</source>
+        <translation>Reproducir</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="52"/>
+        <source>Play/Pause</source>
+        <translation type="obsolete">Reproducir/Pausa</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="53"/>
+        <source>Pause</source>
+        <translation>Pausa</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="54"/>
+        <source>Pause/Frame step</source>
+        <translation type="obsolete">Pausa/Avanzar fotograma</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="55"/>
+        <source>Stop</source>
+        <translation>Stop</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="56"/>
+        <source>Fullscreen</source>
+        <translation>Pantalla completa</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="57"/>
+        <source>Compact</source>
+        <translation>Modo compacto</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="58"/>
+        <source>Screenshot</source>
+        <translation>Captura de pantalla</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="59"/>
+        <source>On top</source>
+        <translation>Encima de todas las ventanas</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="60"/>
+        <source>Mute</source>
+        <translation>Silenciar</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="61"/>
+        <source>Show playlist</source>
+        <translation type="obsolete">Mostrar lista de reproducción</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="62"/>
+        <source>Frame counter</source>
+        <translation>Contador de imágenes</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="63"/>
+        <source>Show preferences</source>
+        <translation type="obsolete">Preferencias</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="64"/>
+        <source>Reset zoom</source>
+        <translation>Quitar zoom</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="65"/>
+        <source>Exit fullscreen</source>
+        <translation>Salir de pantalla completa</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="66"/>
+        <source>Double size</source>
+        <translation>Tamaño doble</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.ui" line="169"/>
+        <source>Mi&amp;ddle click</source>
+        <translation>Botón &amp;central</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="52"/>
+        <source>Play / Pause</source>
+        <translation>Reproducir / Pausa</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="54"/>
+        <source>Pause / Frame step</source>
+        <translation>Pausa / Avanzar fotograma</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="61"/>
+        <source>Playlist</source>
+        <translation>Lista de reproducción</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="63"/>
+        <source>Preferences</source>
+        <translation>Preferencias</translation>
     </message>
 </context>
 <context>
@@ -3488,7 +3593,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <translation type="obsolete">Codificación de los subtítulos:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="168"/>
+        <location filename="../prefsubtitles.ui" line="256"/>
         <source>Position</source>
         <translation>Posición</translation>
     </message>
@@ -3498,17 +3603,17 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <translation type="obsolete">Posición por defecto de los subtítulos en la pantalla</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="228"/>
+        <location filename="../prefsubtitles.ui" line="316"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="248"/>
+        <location filename="../prefsubtitles.ui" line="336"/>
         <source>Top</source>
         <translation>Arriba</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="274"/>
+        <location filename="../prefsubtitles.ui" line="362"/>
         <source>Bottom</source>
         <translation>Abajo</translation>
     </message>
@@ -3523,12 +3628,12 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <translation type="obsolete">Usar la opción -subfont (necesario en versiones recientes de MPlayer)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="320"/>
+        <location filename="../prefsubtitles.ui" line="408"/>
         <source>&amp;Font</source>
         <translation>&amp;Tipo de letra</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="332"/>
+        <location filename="../prefsubtitles.ui" line="420"/>
         <source>Font</source>
         <translation>Tipo de letra</translation>
     </message>
@@ -3548,12 +3653,12 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <translation type="obsolete">Fuente del sistema:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="388"/>
+        <location filename="../prefsubtitles.ui" line="476"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
         <translation>Selecciona el tipo de letra que se usará para los subtítulos (y OSD):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="416"/>
+        <location filename="../prefsubtitles.ui" line="168"/>
         <source>Size</source>
         <translation>Tamaño</translation>
     </message>
@@ -3563,22 +3668,22 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <translation type="obsolete">Autoescalar:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="442"/>
+        <location filename="../prefsubtitles.ui" line="194"/>
         <source>No autoscale</source>
         <translation>No autoescalar</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="447"/>
+        <location filename="../prefsubtitles.ui" line="199"/>
         <source>Proportional to movie height</source>
         <translation>Proporcional a la altura del vídeo</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="452"/>
+        <location filename="../prefsubtitles.ui" line="204"/>
         <source>Proportional to movie width</source>
         <translation>Proporcional a la anchura del vídeo</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="457"/>
+        <location filename="../prefsubtitles.ui" line="209"/>
         <source>Proportional to movie diagonal</source>
         <translation>Proporcional a la diagonal del vídeo</translation>
     </message>
@@ -3590,10 +3695,10 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefsubtitles.ui" line="521"/>
         <source>SSA/&amp;ASS library</source>
-        <translation>Librería SSA/&amp;ASS</translation>
+        <translation type="obsolete">Librería SSA/&amp;ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="533"/>
+        <location filename="../prefsubtitles.ui" line="516"/>
         <source>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</source>
         <translation>La nueva librería SSA/ASS es capaz de mostrar estupendos subtítulos para ficheros SSA/ASS y pistas Matroska. También se usará para mostrar subtítulos en otros formatos, como ficheros SUB y SRT.</translation>
     </message>
@@ -3613,7 +3718,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <translation type="obsolete">Color del borde:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="655"/>
+        <location filename="../prefsubtitles.ui" line="638"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
         <translation>Aquí puedes modificar los estilos de los subtítulos SSA/ASS. También se puede utilizar para ajustar la forma en que la libreria SSA/ASS genera los subtítulos SRT y SUB. Ejemplo: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</translation>
     </message>
@@ -3653,64 +3758,69 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <translation>&amp;Codificación de los subtítulos:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="180"/>
+        <location filename="../prefsubtitles.ui" line="268"/>
         <source>Default &amp;position of the subtitles on screen</source>
         <translation>&amp;Posición por defecto de los subtítulos en la pantalla</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="289"/>
+        <location filename="../prefsubtitles.ui" line="377"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>&amp;Incluir subtítulos en las capturas de pantalla</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="296"/>
+        <location filename="../prefsubtitles.ui" line="384"/>
         <source>&amp;Use -subfont option (required by recent MPlayer releases)</source>
         <translation>Usar &amp;la opción -subfont (necesario en versiones recientes de MPlayer)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="344"/>
+        <location filename="../prefsubtitles.ui" line="432"/>
         <source>&amp;TTF font:</source>
         <translation>&amp;Fuente ttf: </translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="361"/>
+        <location filename="../prefsubtitles.ui" line="449"/>
         <source>Sea&amp;rch...</source>
         <translation>Busca&amp;r...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="381"/>
+        <location filename="../prefsubtitles.ui" line="469"/>
         <source>S&amp;ystem font:</source>
         <translation>Fuente del s&amp;istema:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="428"/>
+        <location filename="../prefsubtitles.ui" line="180"/>
         <source>A&amp;utoscale:</source>
         <translation>A&amp;utoescalar:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="481"/>
+        <location filename="../prefsubtitles.ui" line="233"/>
         <source>S&amp;cale:</source>
         <translation>Es&amp;cala:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="546"/>
+        <location filename="../prefsubtitles.ui" line="529"/>
         <source>&amp;Use SSA/ASS library for subtitle rendering</source>
         <translation>&amp;Usar la librería SSA/ASS para dibujar los subtítulos</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="564"/>
+        <location filename="../prefsubtitles.ui" line="547"/>
         <source>&amp;Text color:</source>
         <translation>&amp;Color del texto:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="606"/>
+        <location filename="../prefsubtitles.ui" line="589"/>
         <source>&amp;Border color:</source>
         <translation>Color del &amp;borde:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="679"/>
+        <location filename="../prefsubtitles.ui" line="662"/>
         <source>St&amp;yles:</source>
         <translation>&amp;Estilos:</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="504"/>
+        <source>SSA/ASS library</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
