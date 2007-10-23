@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -2917,87 +2918,87 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
     <message>
         <location filename="../prefinput.cpp" line="51"/>
         <source>Play</source>
-        <translation type="unfinished"></translation>
+        <translation>Wiedergabe</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="53"/>
         <source>Pause</source>
-        <translation type="unfinished">Pause</translation>
+        <translation>Pause</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="55"/>
         <source>Stop</source>
-        <translation type="unfinished">Stop</translation>
+        <translation>Stop</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="56"/>
         <source>Fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Vollbild</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="57"/>
         <source>Compact</source>
-        <translation type="unfinished"></translation>
+        <translation>Kompakt</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="58"/>
         <source>Screenshot</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildschirmfoto</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="59"/>
         <source>On top</source>
-        <translation type="unfinished"></translation>
+        <translation>Auf höchster Position</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="60"/>
         <source>Mute</source>
-        <translation type="unfinished"></translation>
+        <translation>Stumm</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="62"/>
         <source>Frame counter</source>
-        <translation type="unfinished"></translation>
+        <translation>Einzelbild Zähler</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="64"/>
         <source>Reset zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Reset Zoom</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="65"/>
         <source>Exit fullscreen</source>
-        <translation type="unfinished">Vollbild beenden</translation>
+        <translation>Vollbild beenden</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="66"/>
         <source>Double size</source>
-        <translation type="unfinished"></translation>
+        <translation>Doppelte Größe</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="169"/>
         <source>Mi&amp;ddle click</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Click mitte</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="52"/>
         <source>Play / Pause</source>
-        <translation type="unfinished">Wiedergabe / Pause</translation>
+        <translation>Wiedergabe / Pause</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="54"/>
         <source>Pause / Frame step</source>
-        <translation type="unfinished">Pause / Bildlauf</translation>
+        <translation>Pause / Bildlauf</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="61"/>
         <source>Playlist</source>
-        <translation type="unfinished">Abspielliste</translation>
+        <translation>Abspielliste</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="63"/>
         <source>Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Einstellungen</translation>
     </message>
 </context>
 <context>
@@ -3513,37 +3514,37 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="213"/>
         <source>Skip loop filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Loop Filter übergehen</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="219"/>
         <source>Skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation type="unfinished"></translation>
+        <translation>Übergeht den Loop Filter (AKA Deblocking) während der H.264 Decodierung. Da bei den gefilterten Einzelbildern davon ausgegeangen wird, dass sie als Referenz für das Entschlüsseln von abhängigen Einzelbildern verwendet werden,  hat dies eine schlechtere Wirkung auf die Qualität , als nicht zu deblocken bei z.B MPEG-2 Videos.  Aber zumindest bei HDTV, mit hohen Bitraten, ergiebt sich eine große Beschleunigung ohne sichtbaren Qualitätsverlust.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="221"/>
         <source>Skip frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Einzelbilder überspringen</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="223"/>
         <source>Skips decoding of frames completely. Big speedup, but jerky motion and sometimes bad artifacts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Komplettes auslassen der Dekodierung von Einzelbildern. Große Beschleunigung, aber sprunghafte Bewegung und manchmal schlechte Artefakte.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="266"/>
         <source>H.264</source>
-        <translation type="unfinished"></translation>
+        <translation>H.264</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="278"/>
         <source>S&amp;kip loop filter</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Loop Filter übergehen</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="285"/>
         <source>Sk&amp;ip frames</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Einzelbilder überspringen</translation>
     </message>
 </context>
 <context>
@@ -3836,7 +3837,7 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="504"/>
         <source>SSA/ASS library</source>
-        <translation type="unfinished"></translation>
+        <translation>SSA/ASS Library</translation>
     </message>
 </context>
 <context>
