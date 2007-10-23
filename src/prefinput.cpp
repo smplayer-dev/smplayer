@@ -46,6 +46,7 @@ QPixmap PrefInput::sectionIcon() {
 void PrefInput::createMouseCombos() {
 	left_click_combo->clear();
 	double_click_combo->clear();
+	middle_click_combo->clear();
 
 	left_click_combo->addItem( tr("None"), "" );
 	left_click_combo->addItem( tr("Play"), "play" );
@@ -85,7 +86,13 @@ void PrefInput::retranslateStrings() {
 	mouse_icon->setPixmap( Images::icon("mouse") );
 
     // Mouse function combos
+	int mouse_left = left_click_combo->currentIndex();
+	int mouse_double = double_click_combo->currentIndex();
+	int mouse_middle = middle_click_combo->currentIndex();
 	createMouseCombos();
+	left_click_combo->setCurrentIndex(mouse_left);
+	double_click_combo->setCurrentIndex(mouse_double);
+	middle_click_combo->setCurrentIndex(mouse_middle);
 
 #if !USE_SHORTCUTGETTER
 	actioneditor_desc->setText( 
