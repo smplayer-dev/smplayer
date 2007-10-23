@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -2818,7 +2819,7 @@ trochę wyższą wartość.
     <message>
         <location filename="../prefgeneral.ui" line="319"/>
         <source>Preferred language:</source>
-        <translation type="unfinished"></translation>
+        <translation>Preferowany język:</translation>
     </message>
 </context>
 <context>
@@ -3514,7 +3515,7 @@ obrazu). Może to powodować zniekształcenia obrazu!</translation>
     <message>
         <location filename="../prefperformance.cpp" line="242"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
-        <translation>Przebuduj indeks plików jeśli go nie znaleziono, uwzględniając wyszukiwanie. Opcja przydatna przy uszkodzonych,niekompletnych pobieraniach, lub niepoprawnym tworzeniem plików. Działa tylko jeśli odpowiednie media obsługują wyszukiwanie (np. nie z stdin, pipe, itp).&lt;br&gt;Notka: tworzenie indeksu może trochę potrwać.</translation>
+        <translation>Przebuduj indeks plików jeśli go nie znaleziono, uwzględniając wyszukiwanie. Opcja przydatna przy uszkodzonych, niekompletnych pobieraniach, lub niepoprawnym tworzeniu plików. Działa tylko jeśli odpowiednie media obsługują wyszukiwanie (np. nie z stdin, pipe, itp).&lt;br&gt;Notka: tworzenie indeksu może trochę potrwać.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="419"/>
@@ -3534,37 +3535,37 @@ obrazu). Może to powodować zniekształcenia obrazu!</translation>
     <message>
         <location filename="../prefperformance.cpp" line="213"/>
         <source>Skip loop filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomiń filtr loop</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="219"/>
         <source>Skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation type="unfinished"></translation>
+        <translation>Podczas dekodowania H.264 pomiń filtr loop (AKA deblocking). Ponieważ odfiltrowanie klatek przypuszczalnie używa się do dekodowania zależnych klatek ma to gorszy efekt na jakość niż brak funkcji deblocking np. na wideo MPEG-2. Ale przynajmniej dla wysokiego bitrate HDTV zapewnia to duże przyspieszenie bez żadnej widocznej utratu jakości.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="221"/>
         <source>Skip frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomiń klatki</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="223"/>
         <source>Skips decoding of frames completely. Big speedup, but jerky motion and sometimes bad artifacts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Całkowicie pomiń dekodowanie klatek. Duża prędkość, ale nierówne tempo i brzydkie artefakty.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="266"/>
         <source>H.264</source>
-        <translation type="unfinished"></translation>
+        <translation>H.264</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="278"/>
         <source>S&amp;kip loop filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomiń &amp;filtr loop</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="285"/>
         <source>Sk&amp;ip frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomiń &amp;klatki</translation>
     </message>
 </context>
 <context>
@@ -3857,7 +3858,7 @@ obrazu). Może to powodować zniekształcenia obrazu!</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="504"/>
         <source>SSA/ASS library</source>
-        <translation type="unfinished"></translation>
+        <translation>Biblioteka SSA/ASS</translation>
     </message>
 </context>
 <context>
