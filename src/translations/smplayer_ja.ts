@@ -1101,37 +1101,37 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1867"/>
+        <location filename="../core.cpp" line="1882"/>
         <source>Brightness: %1</source>
         <translation>明るさ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1876"/>
+        <location filename="../core.cpp" line="1891"/>
         <source>Contrast: %1</source>
         <translation>コントラスト: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1884"/>
+        <location filename="../core.cpp" line="1899"/>
         <source>Gamma: %1</source>
         <translation>ガンマ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1892"/>
+        <location filename="../core.cpp" line="1907"/>
         <source>Hue: %1</source>
         <translation>色合い: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1900"/>
+        <location filename="../core.cpp" line="1915"/>
         <source>Saturation: %1</source>
         <translation>鮮やかさ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2014"/>
+        <location filename="../core.cpp" line="2029"/>
         <source>Volume: %1</source>
         <translation>音量: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2489"/>
+        <location filename="../core.cpp" line="2504"/>
         <source>Zoom: %1</source>
         <translation>拡大率: %1</translation>
     </message>
@@ -3280,12 +3280,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>優先度</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="177"/>
+        <location filename="../prefperformance.cpp" line="197"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Windows 下で利用可能な所定の優先度に従って mplayer のプロセス優先度を設定します。&lt;br&gt;&lt;b&gt;警告:&lt;/b&gt; リアルタイム優先度の使用はシステム ロックアップを引き起こす可能性があります。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="180"/>
+        <location filename="../prefperformance.cpp" line="200"/>
         <source>&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option is for Windows only.</source>
         <translation>&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; このオプションは Windows 専用です。</translation>
     </message>
@@ -3295,37 +3295,37 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>キャッシュ</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="184"/>
+        <location filename="../prefperformance.cpp" line="204"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file or URL. Especially useful on slow media.</source>
         <translation>このオプションはファイルまたは URL をプリキャッチしたときにメモリ (k バイト) をどのくらい使用するかを指定します。特に遅いメディアにおいて有用です。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="186"/>
+        <location filename="../prefperformance.cpp" line="206"/>
         <source>Allow frame drop</source>
         <translation>フレーム ドロップを許可する</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="187"/>
+        <location filename="../prefperformance.cpp" line="207"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>いくつかのフレームの表示をスキップして遅いシステムでの A/V 同期を維持させます。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="189"/>
+        <location filename="../prefperformance.cpp" line="209"/>
         <source>Allow hard frame drop</source>
         <translation>ハード フレーム ドロップを許可する</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="191"/>
+        <location filename="../prefperformance.cpp" line="211"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>より強烈なフレーム ドロップです (デコードが破損します)。イメージの歪曲の原因となります!</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="193"/>
+        <location filename="../prefperformance.cpp" line="225"/>
         <source>Audio/video auto synchronization</source>
         <translation>オーディオ/ビデオの自動同期化</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="195"/>
+        <location filename="../prefperformance.cpp" line="227"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>徐々にオーディオの遅延測定を基準にして A/V 同期を調整します。</translation>
     </message>
@@ -3405,7 +3405,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="obsolete">ハード メディア ドロップを許可する (イメージの歪曲の原因となる可能性があります)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="266"/>
+        <location filename="../prefperformance.ui" line="295"/>
         <source>Synchronization</source>
         <translation>同期化</translation>
     </message>
@@ -3415,12 +3415,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="obsolete">要因:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="197"/>
+        <location filename="../prefperformance.cpp" line="229"/>
         <source>Fast audio track switching</source>
         <translation>オーディオ トラックの高速切り替え</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="201"/>
+        <location filename="../prefperformance.cpp" line="233"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Dvd のチャプタを高速シークする</translation>
     </message>
@@ -3450,49 +3450,84 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>ハード フレーム ドロップを許可する (イメージの歪曲の原因となる可能性があります)(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="278"/>
+        <location filename="../prefperformance.ui" line="307"/>
         <source>Audio/&amp;video auto synchronization</source>
         <translation>オーディオ/ビデオの自動同期化(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="312"/>
+        <location filename="../prefperformance.ui" line="341"/>
         <source>Fact&amp;or:</source>
         <translation>要因(&amp;O):</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="359"/>
+        <location filename="../prefperformance.ui" line="396"/>
         <source>&amp;Fast audio track switching</source>
         <translation>オーディオ トラックの高速切り替え(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="366"/>
+        <location filename="../prefperformance.ui" line="403"/>
         <source>Fast &amp;seek to chapters in dvds</source>
         <translation>Dvd のチャプタを高速シークする(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="205"/>
+        <location filename="../prefperformance.cpp" line="237"/>
         <source>Create index if needed</source>
         <translation>必要ならインデックスを作成する</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="210"/>
+        <location filename="../prefperformance.cpp" line="242"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
         <translation>インデックスが見つからなかった場合にファイルのインデックスを再構築し、シークを許可します。破損した/未完了のダウンロード、または不良に作成されたファイルに有用です。このオプションは基礎となるメディアがシークをサポートする場合のみ動作します (すなわち stdin、pipe、などを持たないもの)。&lt;br&gt; 注意: インデックスの作成には時間がかかる可能性があります。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="380"/>
+        <location filename="../prefperformance.ui" line="419"/>
         <source>&amp;Create index if needed</source>
         <translation>必要ならインデックスを作成する(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="199"/>
+        <location filename="../prefperformance.cpp" line="231"/>
         <source>If checked, it will try the fastest method to switch audio tracks but might not work with some formats.</source>
         <translation>チェックされている場合、オーディオ トラックを切り替えるのに最速の方法を試行しますがいくつかのフォーマットでは動作しない可能性があります。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="203"/>
+        <location filename="../prefperformance.cpp" line="235"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>チェックされている場合、チャプタをシークするのに最速の方法を試行しますがいくつかのディスクでは動作しない可能性があります。</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="213"/>
+        <source>Skip loop filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="219"/>
+        <source>Skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="221"/>
+        <source>Skip frames</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="223"/>
+        <source>Skips decoding of frames completely. Big speedup, but jerky motion and sometimes bad artifacts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="266"/>
+        <source>H.264</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="278"/>
+        <source>S&amp;kip loop filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="285"/>
+        <source>Sk&amp;ip frames</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

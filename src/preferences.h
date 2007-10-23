@@ -124,6 +124,9 @@ public:
 	bool autosync;
 	int autosync_factor;
 
+	bool h264_skip_loop;
+	bool h264_skip_frames;
+
 	// SMPlayer will remember all media settings for all videos.
 	// This options allow to disable it:
 	bool dont_remember_media_settings; 	// Will not remember anything

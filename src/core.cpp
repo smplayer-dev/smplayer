@@ -1070,6 +1070,21 @@ void Core::startMplayer( QString file, double seek )
 		proc->addArgument("hwac3");
 	}
 
+	if ( (pref->h264_skip_loop) ||
+         (pref->h264_skip_frames) )
+	{
+		proc->addArgument("-lavdopts");
+		QString o;
+		if (pref->h264_skip_loop) {
+			o = "skiploopfilter=all";
+		}
+		if (pref->h264_skip_frames) {
+			if (!o.isEmpty()) o += ":";
+			o += "skipframe=nonref";
+		}
+		proc->addArgument(o);
+	}
+
 	proc->addArgument("-sub-fuzziness");
 #if SUBTITLES_BY_INDEX
 	proc->addArgument( QString::number(pref->subfuzziness) );

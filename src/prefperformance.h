@@ -59,6 +59,12 @@ protected:
 	void setHardFrameDrop(bool b);
 	bool hardFrameDrop();
 
+	void setSkipLoop(bool b);
+	bool skipLoop();
+
+	void setSkipFrames(bool b);
+	bool skipFrames();
+
 	void setAutoSyncFactor(int factor);
 	int autoSyncFactor();
 
