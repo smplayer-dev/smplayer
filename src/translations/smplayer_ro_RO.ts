@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -2885,17 +2886,17 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefinput.cpp" line="51"/>
         <source>Play</source>
-        <translation type="unfinished"></translation>
+        <translation>Redare</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="53"/>
         <source>Pause</source>
-        <translation type="unfinished">Pauză</translation>
+        <translation>Pauză</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="55"/>
         <source>Stop</source>
-        <translation type="unfinished">Stop</translation>
+        <translation>Stop</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="56"/>
@@ -2905,67 +2906,67 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefinput.cpp" line="57"/>
         <source>Compact</source>
-        <translation type="unfinished"></translation>
+        <translation>Compact</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="58"/>
         <source>Screenshot</source>
-        <translation type="unfinished"></translation>
+        <translation>Captură_ecran</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="59"/>
         <source>On top</source>
-        <translation type="unfinished"></translation>
+        <translation>Deasupra</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="60"/>
         <source>Mute</source>
-        <translation type="unfinished"></translation>
+        <translation>Mute</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="62"/>
         <source>Frame counter</source>
-        <translation type="unfinished"></translation>
+        <translation>Contor cadre</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="64"/>
         <source>Reset zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Reset zoom</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="65"/>
         <source>Exit fullscreen</source>
-        <translation type="unfinished">Eşire mod fullscreen</translation>
+        <translation>Ieşire mod fullscreen</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="66"/>
         <source>Double size</source>
-        <translation type="unfinished"></translation>
+        <translation>Dimensiune dublă</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="169"/>
         <source>Mi&amp;ddle click</source>
-        <translation type="unfinished"></translation>
+        <translation>Clic buton mi&amp;jloc</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="52"/>
         <source>Play / Pause</source>
-        <translation type="unfinished">Redare / Pauză</translation>
+        <translation>Redare / Pauză</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="54"/>
         <source>Pause / Frame step</source>
-        <translation type="unfinished">Pauză / Pas cadre</translation>
+        <translation>Pauză / Pas cadre</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="61"/>
         <source>Playlist</source>
-        <translation type="unfinished">Listă_Titluri</translation>
+        <translation>Listă_Titluri</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="63"/>
         <source>Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Opţiuni Preferate</translation>
     </message>
 </context>
 <context>
@@ -3476,37 +3477,37 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefperformance.cpp" line="213"/>
         <source>Skip loop filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Omitere filtru buclă</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="219"/>
         <source>Skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se va omite filtrul buclă (se mai numeşte şi deblocare) în timpul codării H.264. Deoarece ar trebui folosită ca referinţă filtrarea cadrelor pentru decodarea cadrelor dependente, acţiunea aceasta are un efect mai rău decât neutilizarea deblocării pentru fişierele MPEG-2 de exemplu. Dar pentru fişierele de tip HDTV asigură o creştere simţitoare a vitezei fără pierderi vizibile ale calităţii.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="221"/>
         <source>Skip frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Omitere cadre</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="223"/>
         <source>Skips decoding of frames completely. Big speedup, but jerky motion and sometimes bad artifacts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se va omite decodarea în totalitate a cadrelor. Se va creşte viteza simţitor dar calitatea va lăsa de dorit.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="266"/>
         <source>H.264</source>
-        <translation type="unfinished"></translation>
+        <translation>H.264</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="278"/>
         <source>S&amp;kip loop filter</source>
-        <translation type="unfinished"></translation>
+        <translation>O&amp;mitere filtru buclă</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="285"/>
         <source>Sk&amp;ip frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Om&amp;itere cadre</translation>
     </message>
 </context>
 <context>
@@ -3794,7 +3795,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefsubtitles.ui" line="504"/>
         <source>SSA/ASS library</source>
-        <translation type="unfinished"></translation>
+        <translation>Bibliotecă SSA/ASS</translation>
     </message>
 </context>
 <context>
