@@ -1111,37 +1111,37 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1867"/>
+        <location filename="../core.cpp" line="1882"/>
         <source>Brightness: %1</source>
         <translation>Helligkeit: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1876"/>
+        <location filename="../core.cpp" line="1891"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1884"/>
+        <location filename="../core.cpp" line="1899"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1892"/>
+        <location filename="../core.cpp" line="1907"/>
         <source>Hue: %1</source>
         <translation>Farbe: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1900"/>
+        <location filename="../core.cpp" line="1915"/>
         <source>Saturation: %1</source>
         <translation>Sättigung: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2014"/>
+        <location filename="../core.cpp" line="2029"/>
         <source>Volume: %1</source>
         <translation>Lautstärke: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2489"/>
+        <location filename="../core.cpp" line="2504"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
@@ -3371,7 +3371,7 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
         <translation>Einstellung des Cachespeichers, kann Leistungsverhalten auf langsamen Systemen verbessern</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="186"/>
+        <location filename="../prefperformance.cpp" line="206"/>
         <source>Allow frame drop</source>
         <translation>Überspringen von Bildern erlauben</translation>
     </message>
@@ -3381,12 +3381,12 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
         <translation type="obsolete">Verstärktes überspringen von Bildern erlauben. (Kann zu Bildverzerrungen führen)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="266"/>
+        <location filename="../prefperformance.ui" line="295"/>
         <source>Synchronization</source>
         <translation>Synchronisation</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="193"/>
+        <location filename="../prefperformance.cpp" line="225"/>
         <source>Audio/video auto synchronization</source>
         <translation>Automatische Audio/Video Synchronisation</translation>
     </message>
@@ -3396,47 +3396,47 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
         <translation type="obsolete">Faktor:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="197"/>
+        <location filename="../prefperformance.cpp" line="229"/>
         <source>Fast audio track switching</source>
         <translation>Schneller Tonspurwechsel</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="201"/>
+        <location filename="../prefperformance.cpp" line="233"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Schnelle Suche in DVD-Kapiteln</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="177"/>
+        <location filename="../prefperformance.cpp" line="197"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Festlegen der Prozessorpriorität gemäß der Verfügbarkeit unter Windows.&lt;br&gt;&lt;b&gt;WARNUNG:&lt;/b&gt;Echtzeitpriorität kann das System blockieren.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="180"/>
+        <location filename="../prefperformance.cpp" line="200"/>
         <source>&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option is for Windows only.</source>
         <translation>&lt;br&gt;&lt;b&gt;Hinweis:&lt;/b&gt; Diese Option ist nur für Windows.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="184"/>
+        <location filename="../prefperformance.cpp" line="204"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file or URL. Especially useful on slow media.</source>
         <translation>Diese Option legt fest,wieviel Speicher (in kBytes) zum Vorausladen einer Datei, oder URL bereitgestellt werden. Besonders nützlich bei langsamen Medien.  </translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="187"/>
+        <location filename="../prefperformance.cpp" line="207"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Überspringen einiger Einzelbilder, um A/V Synchronisation auf langsamen Systemen zu gewährleisten.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="189"/>
+        <location filename="../prefperformance.cpp" line="209"/>
         <source>Allow hard frame drop</source>
         <translation>Verstärktes überspringen von Bildern erlauben</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="191"/>
+        <location filename="../prefperformance.cpp" line="211"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>Intensive Einzelbildersprünge (Brüche beim Dekodieren) . Führt zu Bildverzerrungen!</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="195"/>
+        <location filename="../prefperformance.cpp" line="227"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>Justiert stufenweise die A/V Synchronisierung, die auf Audioverzögerungen (Delay) basiert.</translation>
     </message>
@@ -3466,49 +3466,84 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
         <translation>&amp;Verstärktes überspringen von Bildern erlauben. (Kann zu Bildverzerrungen führen)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="278"/>
+        <location filename="../prefperformance.ui" line="307"/>
         <source>Audio/&amp;video auto synchronization</source>
         <translation>&amp;Automatische Audio/Video Synchronisation</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="312"/>
+        <location filename="../prefperformance.ui" line="341"/>
         <source>Fact&amp;or:</source>
         <translation>&amp;Faktor:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="359"/>
+        <location filename="../prefperformance.ui" line="396"/>
         <source>&amp;Fast audio track switching</source>
         <translation>&amp;Schneller Tonspurwechsel</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="366"/>
+        <location filename="../prefperformance.ui" line="403"/>
         <source>Fast &amp;seek to chapters in dvds</source>
         <translation>&amp;Schnelle Suche in DVD-Kapiteln</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="205"/>
+        <location filename="../prefperformance.cpp" line="237"/>
         <source>Create index if needed</source>
         <translation>Index erstellen, falls benötigt</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="210"/>
+        <location filename="../prefperformance.cpp" line="242"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
         <translation>Baut Index der Datei wiederauf, mit der Erlaubnis zu suchen, wenn kein Index gefunden wurde. Nützlich bei unvollstänigen/defekten Downloads, oder schlecht erstellten Dateien. Die Option funktioniert nur wenn das eigentliche Media Suchfunktionen unterstützt (nicht mit stdin,pipe, etc).&lt;br&gt; Hinweis:Erstellen von einem Index kann einige Zeit dauern.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="380"/>
+        <location filename="../prefperformance.ui" line="419"/>
         <source>&amp;Create index if needed</source>
         <translation>&amp;Index erstellen, falls benötigt</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="199"/>
+        <location filename="../prefperformance.cpp" line="231"/>
         <source>If checked, it will try the fastest method to switch audio tracks but might not work with some formats.</source>
         <translation>Mit dieser  Option wird die schnellste Methode zum Umschalten für Audio Tracks genommen, aber es funktioniert nicht mit allen Formaten.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="203"/>
+        <location filename="../prefperformance.cpp" line="235"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Mit dieser Option wird die schnellste Methode zum Suchen der Kapitel gewählt, aber es funktioniert nicht mit allen Discs.</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="213"/>
+        <source>Skip loop filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="219"/>
+        <source>Skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="221"/>
+        <source>Skip frames</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="223"/>
+        <source>Skips decoding of frames completely. Big speedup, but jerky motion and sometimes bad artifacts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="266"/>
+        <source>H.264</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="278"/>
+        <source>S&amp;kip loop filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="285"/>
+        <source>Sk&amp;ip frames</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

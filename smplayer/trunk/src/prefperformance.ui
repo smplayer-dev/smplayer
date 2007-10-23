@@ -5,8 +5,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>541</width>
-    <height>601</height>
+    <width>502</width>
+    <height>606</height>
    </rect>
   </property>
   <property name="windowIcon" >
@@ -17,7 +17,7 @@
     <number>0</number>
    </property>
    <property name="spacing" >
-    <number>6</number>
+    <number>0</number>
    </property>
    <item>
     <widget class="QTabWidget" name="tabWidget" >
@@ -261,6 +261,35 @@
         </widget>
        </item>
        <item>
+        <widget class="QGroupBox" name="groupBox" >
+         <property name="title" >
+          <string>H.264</string>
+         </property>
+         <layout class="QHBoxLayout" >
+          <property name="margin" >
+           <number>9</number>
+          </property>
+          <property name="spacing" >
+           <number>6</number>
+          </property>
+          <item>
+           <widget class="QCheckBox" name="skip_loop_filter_check" >
+            <property name="text" >
+             <string>S&amp;kip loop filter</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="skip_frames_check" >
+            <property name="text" >
+             <string>Sk&amp;ip frames</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
         <widget class="QGroupBox" name="groupBox_3" >
          <property name="title" >
           <string>Synchronization</string>
@@ -354,18 +383,28 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="fastaudioswitching_check" >
-         <property name="text" >
-          <string>&amp;Fast audio track switching</string>
+        <layout class="QHBoxLayout" >
+         <property name="margin" >
+          <number>0</number>
          </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="fast_chapter_check" >
-         <property name="text" >
-          <string>Fast &amp;seek to chapters in dvds</string>
+         <property name="spacing" >
+          <number>6</number>
          </property>
-        </widget>
+         <item>
+          <widget class="QCheckBox" name="fastaudioswitching_check" >
+           <property name="text" >
+            <string>&amp;Fast audio track switching</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="fast_chapter_check" >
+           <property name="text" >
+            <string>Fast &amp;seek to chapters in dvds</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
        </item>
        <item>
         <widget class="Line" name="line" >

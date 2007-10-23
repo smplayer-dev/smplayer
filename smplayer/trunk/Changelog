@@ -7,6 +7,12 @@
  * Now the middle click button is also configurable. The default action is
    mute.
  * Now the default icon theme is Nuvola.
+ * Added two new options in Preferences->Performance for H.264 videos:
+   Skip loop filter (the famous "-lavdopts skiploopfilter=all") and
+   Skip frames. 
+   This may allow "slow" computers (like mine) to play H.264 HD videos, 
+   although these options may produce a high quality loss. I prefer to scale
+   down a little bit the image (1024x576 or 768x432).
 
 (2007-10-21)
  * Now the aspect ratio settings should work when using the mplayer own window.
