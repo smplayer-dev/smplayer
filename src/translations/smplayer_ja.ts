@@ -2253,7 +2253,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="423"/>
         <source>Select the video output driver. Usually xv (linux) and directx (windows) provide the best performance.</source>
-        <translation>ビデオの出力ドライバを選択します。通常 xv (linux) と directx (windows) が最高のパフォーマンスを供給します。</translation>
+        <translation>ビデオの出力ドライバを選択します。通常 xv (linux) と directx (windows) が最高のパフォーマンスを提供します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="425"/>
@@ -2901,87 +2901,87 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefinput.cpp" line="51"/>
         <source>Play</source>
-        <translation type="unfinished"></translation>
+        <translation>再生</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="53"/>
         <source>Pause</source>
-        <translation type="unfinished">一時停止</translation>
+        <translation>一時停止</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="55"/>
         <source>Stop</source>
-        <translation type="unfinished">停止</translation>
+        <translation>停止</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="56"/>
         <source>Fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>全画面表示</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="57"/>
         <source>Compact</source>
-        <translation type="unfinished"></translation>
+        <translation>コンパクト</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="58"/>
         <source>Screenshot</source>
-        <translation type="unfinished"></translation>
+        <translation>スクリーンショット</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="59"/>
         <source>On top</source>
-        <translation type="unfinished"></translation>
+        <translation>常に手前</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="60"/>
         <source>Mute</source>
-        <translation type="unfinished"></translation>
+        <translation>ミュート</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="62"/>
         <source>Frame counter</source>
-        <translation type="unfinished"></translation>
+        <translation>フレーム カウンタ</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="64"/>
         <source>Reset zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>拡大と縮小のリセット</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="65"/>
         <source>Exit fullscreen</source>
-        <translation type="unfinished">全画面表示の終了</translation>
+        <translation>全画面表示の終了</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="66"/>
         <source>Double size</source>
-        <translation type="unfinished"></translation>
+        <translation>倍のサイズ</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="169"/>
         <source>Mi&amp;ddle click</source>
-        <translation type="unfinished"></translation>
+        <translation>ミドル クリック(&amp;D)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="52"/>
         <source>Play / Pause</source>
-        <translation type="unfinished">再生 / 一時停止</translation>
+        <translation>再生 / 一時停止</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="54"/>
         <source>Pause / Frame step</source>
-        <translation type="unfinished">一時停止 / フレーム ステップ</translation>
+        <translation>一時停止 / フレーム ステップ</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="61"/>
         <source>Playlist</source>
-        <translation type="unfinished">プレイリスト</translation>
+        <translation>プレイリスト</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="63"/>
         <source>Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>環境設定</translation>
     </message>
 </context>
 <context>
@@ -3497,37 +3497,37 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefperformance.cpp" line="213"/>
         <source>Skip loop filter</source>
-        <translation type="unfinished"></translation>
+        <translation>ループ フィルタをスキップする</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="219"/>
         <source>Skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation type="unfinished"></translation>
+        <translation>H.264 デコードの間にループ フィルタ (AKA デコード) をスキップします。フィルタ済みのフレームは依存性フレームのデコードの参照として使用されこれは MPEG-2 ビデオなどでブロック解除しないより品質での効果が悪いです。しかし少なくとも高ビットレート HDTV にこれは可視の品質低下なしでの大きな加速化を提供します。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="221"/>
         <source>Skip frames</source>
-        <translation type="unfinished"></translation>
+        <translation>フレームをスキップする</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="223"/>
         <source>Skips decoding of frames completely. Big speedup, but jerky motion and sometimes bad artifacts.</source>
-        <translation type="unfinished"></translation>
+        <translation>完全にフレームのデコードをスキップします。大きな加速化ですが、ぎくしゃくした動作と時々悪いアーチファクトです。</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="266"/>
         <source>H.264</source>
-        <translation type="unfinished"></translation>
+        <translation>H.264</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="278"/>
         <source>S&amp;kip loop filter</source>
-        <translation type="unfinished"></translation>
+        <translation>ループ フィルタをスキップする(&amp;K)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="285"/>
         <source>Sk&amp;ip frames</source>
-        <translation type="unfinished"></translation>
+        <translation>フレームをスキップする(&amp;I)</translation>
     </message>
 </context>
 <context>
@@ -3820,7 +3820,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefsubtitles.ui" line="504"/>
         <source>SSA/ASS library</source>
-        <translation type="unfinished"></translation>
+        <translation>SSA/ASS ライブラリ</translation>
     </message>
 </context>
 <context>
