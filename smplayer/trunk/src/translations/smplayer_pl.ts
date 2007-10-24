@@ -2887,7 +2887,7 @@ trochę wyższą wartość.
     <message>
         <location filename="../prefinput.ui" line="236"/>
         <source>&amp;Double click</source>
-        <translation>&amp;Podwójny klik</translation>
+        <translation>&amp;Lewy przycisk dwuklik</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="326"/>
@@ -2937,87 +2937,87 @@ trochę wyższą wartość.
     <message>
         <location filename="../prefinput.cpp" line="51"/>
         <source>Play</source>
-        <translation type="unfinished"></translation>
+        <translation>Odtwarzaj</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="53"/>
         <source>Pause</source>
-        <translation type="unfinished">Pauza</translation>
+        <translation>Pauza</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="55"/>
         <source>Stop</source>
-        <translation type="unfinished">Stop</translation>
+        <translation>Stop</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="56"/>
         <source>Fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Pełny ekran</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="57"/>
         <source>Compact</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukryj menu i przyciski</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="58"/>
         <source>Screenshot</source>
-        <translation type="unfinished"></translation>
+        <translation>Zrzut ekranu</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="59"/>
         <source>On top</source>
-        <translation type="unfinished"></translation>
+        <translation>Na wierzchu</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="60"/>
         <source>Mute</source>
-        <translation type="unfinished"></translation>
+        <translation>Wycisz</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="62"/>
         <source>Frame counter</source>
-        <translation type="unfinished"></translation>
+        <translation>Licznik klatek</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="64"/>
         <source>Reset zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Resetuj zoom</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="65"/>
         <source>Exit fullscreen</source>
-        <translation type="unfinished">Wyjdź z pełnego ekranu</translation>
+        <translation>Wyjdź z pełnego ekranu</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="66"/>
         <source>Double size</source>
-        <translation type="unfinished"></translation>
+        <translation>Podwójny rozmiar</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="169"/>
         <source>Mi&amp;ddle click</source>
-        <translation type="unfinished"></translation>
+        <translation>Środkowy &amp;przycisk</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="52"/>
         <source>Play / Pause</source>
-        <translation type="unfinished">Odtwarzaj / Pauza</translation>
+        <translation>Odtwarzaj / Pauza</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="54"/>
         <source>Pause / Frame step</source>
-        <translation type="unfinished">Pauza / Krok</translation>
+        <translation>Pauza / Krok</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="61"/>
         <source>Playlist</source>
-        <translation type="unfinished">Lista odtwarzania</translation>
+        <translation>Lista odtwarzania</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="63"/>
         <source>Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Preferencje</translation>
     </message>
 </context>
 <context>
