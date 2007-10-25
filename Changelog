@@ -1,5 +1,9 @@
 [b]Version 0.5.62[/b] (not released yet):
 
+(2007-10-25)
+ * Now the -nostop-xscreensaver option is passed to mplayer if the screensaver
+   is not to be disabled.
+
 (2007-10-22)
  * Reorganized the layout of Preferences->Subtitles.
  * Preferences->Keyboard and mouse: the list of available actions for mouse
