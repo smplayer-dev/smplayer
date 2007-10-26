@@ -2,6 +2,8 @@
 
 (2007-10-26)
  * (Internal change) Renamed font_textscale in preferences to initial_sub_scale.
+ * Assigned the new actions to change font size to the keys Shift+R (Size-) and
+   Shift+T (Size+).
 
 (2007-10-25)
  * Now the -nostop-xscreensaver option is passed to mplayer if the screensaver

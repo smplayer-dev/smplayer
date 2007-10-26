@@ -490,11 +490,11 @@ void BaseGui::createActions() {
 	connect( incSubPosAct, SIGNAL(triggered()),
              core, SLOT(incSubPos()) );
 
-	decSubScaleAct = new MyAction( this, "dec_sub_scale" );
+	decSubScaleAct = new MyAction( Qt::SHIFT | Qt::Key_R, this, "dec_sub_scale" );
 	connect( decSubScaleAct, SIGNAL(triggered()),
              core, SLOT(decSubScale()) );
 
-	incSubScaleAct = new MyAction( this, "inc_sub_scale" );
+	incSubScaleAct = new MyAction( Qt::SHIFT | Qt::Key_T, this, "inc_sub_scale" );
 	connect( incSubScaleAct, SIGNAL(triggered()),
              core, SLOT(incSubScale()) );
     
