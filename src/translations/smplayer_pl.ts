@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -1073,12 +1074,12 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../basegui.cpp" line="846"/>
         <source>S&amp;ize -</source>
-        <translation type="unfinished"></translation>
+        <translation>R&amp;ozmiar -</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="847"/>
         <source>Si&amp;ze +</source>
-        <translation type="unfinished"></translation>
+        <translation>R&amp;ozmiar +</translation>
     </message>
 </context>
 <context>
@@ -2443,7 +2444,7 @@ tego nie zrobisz smplayer nie będzie odtwarzać plików!&lt;/b&gt;</translation
     <message>
         <location filename="../prefgeneral.cpp" line="433"/>
         <source>Don&apos;t remember time position</source>
-        <translation>Nie zapamiętuj pozycji czasu</translation>
+        <translation>Nie pamiętaj pozycji czasu</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="435"/>
