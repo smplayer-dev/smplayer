@@ -81,7 +81,7 @@ void PrefSubtitles::setData(Preferences * pref) {
 	setFontFile( pref->font_file );
 	setUseFontconfig( pref->use_fontconfig );
 	setFontAutoscale( pref->font_autoscale );
-	setFontTextscale( pref->font_textscale );
+	setFontTextscale( pref->initial_sub_scale );
 	setAutoloadSub( pref->autoload_sub );
 	setFontFuzziness( pref->subfuzziness );
 	setFontEncoding( pref->subcp );
@@ -104,7 +104,7 @@ void PrefSubtitles::getData(Preferences * pref) {
 	TEST_AND_SET(pref->font_file, fontFile());
 	TEST_AND_SET(pref->use_fontconfig, useFontconfig());
 	TEST_AND_SET(pref->font_autoscale, fontAutoscale());
-	TEST_AND_SET(pref->font_textscale, fontTextscale());
+	TEST_AND_SET(pref->initial_sub_scale, fontTextscale());
 	TEST_AND_SET(pref->autoload_sub, autoloadSub());
 	TEST_AND_SET(pref->subfuzziness, fontFuzziness());
 	TEST_AND_SET(pref->subcp, fontEncoding());

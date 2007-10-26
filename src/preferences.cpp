@@ -55,8 +55,8 @@ void Preferences::reset() {
 	font_name = "";
 	subcp = "ISO-8859-1";
 	font_autoscale = 1;
-	font_textscale = 5;
-	autoload_sub = TRUE;
+	initial_sub_scale = 5;
+	autoload_sub = true;
 	subfuzziness = 1;
 	ass_color = 0xFFFF00;
     ass_border_color = 0x000000;
@@ -252,7 +252,7 @@ void Preferences::save() {
 	set->setValue("font_file", font_file);
 	set->setValue("font_name", font_name);
 	set->setValue("font_autoscale", font_autoscale);
-	set->setValue("font_textscale", font_textscale);
+	set->setValue("initial_sub_scale", initial_sub_scale);
 	set->setValue("subcp", subcp);
 	set->setValue("use_ass_subtitles", use_ass_subtitles);
 	set->setValue("autoload_sub", autoload_sub);
@@ -437,7 +437,7 @@ void Preferences::load() {
 	font_file = set->value("font_file", font_file).toString();
 	font_name = set->value("font_name", font_name).toString();
 	font_autoscale = set->value("font_autoscale", font_autoscale).toInt();
-	font_textscale = set->value("font_textscale", font_textscale).toInt();
+	initial_sub_scale = set->value("initial_sub_scale", initial_sub_scale).toInt();
 	subcp = set->value("subcp", subcp).toString();
 	subfuzziness = set->value("subfuzziness", subfuzziness).toInt();
 	use_ass_subtitles = set->value("use_ass_subtitles", use_ass_subtitles).toBool();
