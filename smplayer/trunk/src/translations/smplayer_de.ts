@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -1072,12 +1073,12 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="846"/>
         <source>S&amp;ize -</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Größe -</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="847"/>
         <source>Si&amp;ze +</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Größe +</translation>
     </message>
 </context>
 <context>
