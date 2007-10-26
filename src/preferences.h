@@ -61,6 +61,7 @@ public:
 	unsigned int ass_color;
 	unsigned int ass_border_color;
 	QString ass_styles;
+	bool change_sub_scale_requires_restart;
 
 	int osd;
 

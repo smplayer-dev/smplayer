@@ -1249,7 +1249,8 @@ void Core::startMplayer( QString file, double seek )
 	proc->addArgument( "-subfont-autoscale");
 	proc->addArgument( QString::number( pref->font_autoscale ) );
 	proc->addArgument( "-subfont-text-scale");
-	proc->addArgument( QString::number( pref->font_textscale ) );
+	//proc->addArgument( QString::number( pref->font_textscale ) );
+	proc->addArgument( QString::number(mset.sub_scale) );
 
 	if (!pref->subcp.isEmpty()) {
 		proc->addArgument("-subcp");
@@ -2105,6 +2106,27 @@ void Core::decSubPos() {
 	tellmp("sub_pos " + QString::number( mset.sub_pos ) + " 1");
 }
 
+void Core::changeSubScale(int value) {
+	qDebug("Core::changeSubScale: %d", value);
+
+	if (value < 0) value = 0;
+	if (value != mset.sub_scale) {
+		mset.sub_scale = value;
+		if (pref->use_ass_subtitles || pref->change_sub_scale_requires_restart) {
+			restartPlay();
+		} else {
+			tellmp("sub_scale " + QString::number( mset.sub_scale ) + " 1");
+		}
+	}
+}
+
+void Core::incSubScale() {
+	changeSubScale( mset.sub_scale + 1 );
+}
+
+void Core::decSubScale() {
+	changeSubScale( mset.sub_scale - 1 );
+}
 
 void Core::incSubStep() {
 	qDebug("Core::incSubStep");

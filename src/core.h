@@ -171,6 +171,10 @@ public slots:
 	void incSubPos();
 	void decSubPos();
 
+	void changeSubScale(int value);
+	void incSubScale();
+	void decSubScale();
+
 	//! Select next line in subtitle file
 	void incSubStep();
 	//! Select previous line in subtitle file

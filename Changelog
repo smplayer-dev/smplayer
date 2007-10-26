@@ -3,6 +3,16 @@
 (2007-10-25)
  * Now the -nostop-xscreensaver option is passed to mplayer if the screensaver
    is not to be disabled.
+ * Added to new options for the subtitle menu: Size+ and Size-. They change
+   the subtitle size. This also changes the meaning of the Scale setting in
+   Preferences->Subtitles, it specifies now the default subtitle size for 
+   new videos.
+   These new options use the new mplayer slave command sub_scale, so changing
+   the size won't require to restart mplayer. Unfortunately this doesn't work
+   with the SSA/ASS lib, in this case mplayer will be restarted.
+   If you use an old version of mplayer which doesn't have the sub_scale 
+   slave command, you need to set to "true" the following option in the 
+   config file: change_sub_scale_requires_restart
 
 (2007-10-22)
  * Reorganized the layout of Preferences->Subtitles.
