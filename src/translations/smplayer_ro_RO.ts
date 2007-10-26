@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -1056,12 +1057,12 @@ O fereastră de dialog va fi afişată pentru a putea face configurarea.</transl
     <message>
         <location filename="../basegui.cpp" line="846"/>
         <source>S&amp;ize -</source>
-        <translation type="unfinished"></translation>
+        <translation>D&amp;imensiune -</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="847"/>
         <source>Si&amp;ze +</source>
-        <translation type="unfinished"></translation>
+        <translation>Di&amp;mensiune +</translation>
     </message>
 </context>
 <context>
@@ -2910,7 +2911,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefinput.cpp" line="57"/>
         <source>Fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Fullscreen</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="58"/>
