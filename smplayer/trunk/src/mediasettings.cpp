@@ -45,7 +45,7 @@ void MediaSettings::reset() {
 	sub_delay=0;
 	audio_delay=0;
 	sub_pos = pref->initial_sub_pos; // 100% by default
-	sub_scale = pref->font_textscale; 
+	sub_scale = pref->initial_sub_scale; 
 
 	brightness = pref->initial_brightness;
 	contrast = pref->initial_contrast;

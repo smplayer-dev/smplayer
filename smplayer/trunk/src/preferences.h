@@ -54,7 +54,7 @@ public:
 	QString font_name;
 	QString subcp; // -subcp
 	int font_autoscale; // -subfont-autoscale
-	int font_textscale; // -subfont-text-scale
+	int initial_sub_scale; // -subfont-text-scale
 	bool use_ass_subtitles;
 	bool autoload_sub;
 	int subfuzziness;
