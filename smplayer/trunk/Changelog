@@ -3,7 +3,7 @@
 (2007-10-25)
  * Now the -nostop-xscreensaver option is passed to mplayer if the screensaver
    is not to be disabled.
- * Added to new options for the subtitle menu: Size+ and Size-. They change
+ * Added two new options for the subtitle menu: Size+ and Size-. They change
    the subtitle size. This also changes the meaning of the Scale setting in
    Preferences->Subtitles, it specifies now the default subtitle size for 
    new videos.
