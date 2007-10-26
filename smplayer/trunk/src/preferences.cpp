@@ -62,6 +62,7 @@ void Preferences::reset() {
     ass_border_color = 0x000000;
 	//ass_styles = "Bold=1,Outline=2,Shadow=2";
 	ass_styles = "";
+	change_sub_scale_requires_restart = false;
 
 	osd = None;
 
@@ -259,6 +260,7 @@ void Preferences::save() {
 	set->setValue("ass_color", (int) ass_color);
 	set->setValue("ass_border_color", (int) ass_border_color);
 	set->setValue("ass_styles", ass_styles);
+	set->setValue("change_sub_scale_requires_restart", change_sub_scale_requires_restart);
 
 	set->setValue("osd", osd);
 	set->setValue("vo", vo);
@@ -443,6 +445,7 @@ void Preferences::load() {
 	ass_color = set->value("ass_color", ass_color).toInt();
 	ass_border_color = set->value("ass_border_color", ass_border_color).toInt();
 	ass_styles = set->value("ass_styles", ass_styles).toString();
+	change_sub_scale_requires_restart = set->value("change_sub_scale_requires_restart", change_sub_scale_requires_restart).toBool();
 
 	osd = set->value("osd", osd).toInt();
 	vo = set->value("vo", vo).toString();

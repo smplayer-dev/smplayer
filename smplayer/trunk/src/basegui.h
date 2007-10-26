@@ -292,6 +292,8 @@ protected:
 	MyAction * incSubPosAct;
 	MyAction * incSubStepAct;
 	MyAction * decSubStepAct;
+	MyAction * incSubScaleAct;
+	MyAction * decSubScaleAct;
 	MyAction * useAssAct;
 
 	// Menu Options

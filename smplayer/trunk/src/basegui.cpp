@@ -490,6 +490,14 @@ void BaseGui::createActions() {
 	connect( incSubPosAct, SIGNAL(triggered()),
              core, SLOT(incSubPos()) );
 
+	decSubScaleAct = new MyAction( this, "dec_sub_scale" );
+	connect( decSubScaleAct, SIGNAL(triggered()),
+             core, SLOT(decSubScale()) );
+
+	incSubScaleAct = new MyAction( this, "inc_sub_scale" );
+	connect( incSubScaleAct, SIGNAL(triggered()),
+             core, SLOT(incSubScale()) );
+    
 	decSubStepAct = new MyAction( Qt::Key_G, this, "dec_sub_step" );
 	connect( decSubStepAct, SIGNAL(triggered()),
              core, SLOT(decSubStep()) );
@@ -835,6 +843,8 @@ void BaseGui::retranslateStrings() {
 	incSubDelayAct->change( Images::icon("delay_up"), tr("Delay &+") );
 	decSubPosAct->change( Images::icon("sub_up"), tr("&Up") );
 	incSubPosAct->change( Images::icon("sub_down"), tr("&Down") );
+	decSubScaleAct->change( Images::icon("dec_sub_scale"), tr("S&ize -") );
+	incSubScaleAct->change( Images::icon("inc_sub_scale"), tr("Si&ze +") );
 	decSubStepAct->change( Images::icon("dec_sub_step"), 
                            tr("&Previous line in subtitles") );
 	incSubStepAct->change( Images::icon("inc_sub_step"), 
@@ -1373,6 +1383,9 @@ void BaseGui::createMenus() {
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(decSubPosAct);
 	subtitlesMenu->addAction(incSubPosAct);
+	subtitlesMenu->addSeparator();
+	subtitlesMenu->addAction(decSubScaleAct);
+	subtitlesMenu->addAction(incSubScaleAct);
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(decSubStepAct);
 	subtitlesMenu->addAction(incSubStepAct);
@@ -2035,6 +2048,8 @@ void BaseGui::updateWidgets() {
 	incSubDelayAct->setEnabled(e);
 	decSubPosAct->setEnabled(e);
 	incSubPosAct->setEnabled(e);
+	decSubScaleAct->setEnabled(e);
+	incSubScaleAct->setEnabled(e);
 	decSubStepAct->setEnabled(e);
 	incSubStepAct->setEnabled(e);
 }

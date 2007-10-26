@@ -76,6 +76,7 @@ public:
 
 	// Subtitles position (0-100)
 	int sub_pos;
+	int sub_scale;
 
 	double speed; // Speed of playback: 1.0 = normal speed
 
