@@ -375,12 +375,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="795"/>
         <source>Speed &amp;-10%</source>
-        <translation>-10% の速度(&amp;-)</translation>
+        <translation>速度 -10%(&amp;-)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="796"/>
         <source>Speed &amp;+10%</source>
-        <translation>+10% の速度(&amp;+)</translation>
+        <translation>速度 +10%(&amp;+)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="942"/>
@@ -600,12 +600,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="825"/>
         <source>Volume &amp;-</source>
-        <translation>音量 &amp;-(&amp;-)</translation>
+        <translation>音量 -(&amp;-)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="826"/>
         <source>Volume &amp;+</source>
-        <translation>音量 &amp;+(&amp;+)</translation>
+        <translation>音量 +(&amp;+)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="827"/>
@@ -1062,12 +1062,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="846"/>
         <source>S&amp;ize -</source>
-        <translation type="unfinished"></translation>
+        <translation>サイズ -(&amp;I)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="847"/>
         <source>Si&amp;ze +</source>
-        <translation type="unfinished"></translation>
+        <translation>サイズ +(&amp;Z)</translation>
     </message>
 </context>
 <context>
