@@ -29,6 +29,9 @@
 #include <QDockWidget>
 #include "playlistdock.h"
 #include "desktopinfo.h"
+
+#define PLAYLIST_ON_SIDES 1
+
 #endif
 
 
@@ -87,7 +90,13 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags )
 	playlistdock->setObjectName("playlist");
 	playlistdock->setFloating(true);
 	playlistdock->setWidget(playlist);
-	playlistdock->setAllowedAreas(Qt::TopDockWidgetArea | Qt::BottomDockWidgetArea);
+	playlistdock->setAllowedAreas(Qt::TopDockWidgetArea | 
+                                  Qt::BottomDockWidgetArea
+#if PLAYLIST_ON_SIDES
+                                  | Qt::LeftDockWidgetArea | 
+                                  Qt::RightDockWidgetArea
+#endif
+                                  );
 	addDockWidget(Qt::BottomDockWidgetArea, playlistdock);
 	playlistdock->hide();
 
@@ -378,26 +387,60 @@ void BaseGuiPlus::stretchWindow() {
 	qDebug("BaseGuiPlus::stretchWindow");
 	if ((ignore_playlist_events) || (pref->resize_method!=Preferences::Always)) return;
 
-	int new_height = height() + playlistdock->height();
+	qDebug("BaseGuiPlus::stretchWindow: dockWidgetArea: %d", (int) dockWidgetArea(playlistdock) );
 
-	//if (new_height > DesktopInfo::desktop_size(this).height()) 
-	//	new_height = DesktopInfo::desktop_size(this).height() - 20;
+	if ( (dockWidgetArea(playlistdock) == Qt::TopDockWidgetArea) ||
+         (dockWidgetArea(playlistdock) == Qt::BottomDockWidgetArea) )
+	{
+		int new_height = height() + playlistdock->height();
 
-	qDebug("BaseGuiPlus::stretchWindow: stretching: new height: %d", new_height);
-	resize( width(), new_height );
+		//if (new_height > DesktopInfo::desktop_size(this).height()) 
+		//	new_height = DesktopInfo::desktop_size(this).height() - 20;
 
-	//resizeWindow(core->mset.win_width, core->mset.win_height);
+		qDebug("BaseGuiPlus::stretchWindow: stretching: new height: %d", new_height);
+		resize( width(), new_height );
+
+		//resizeWindow(core->mset.win_width, core->mset.win_height);
+	}
+
+	else
+
+	if ( (dockWidgetArea(playlistdock) == Qt::LeftDockWidgetArea) ||
+         (dockWidgetArea(playlistdock) == Qt::RightDockWidgetArea) )
+	{
+		int new_width = width() + playlistdock->width();
+
+		qDebug("BaseGuiPlus::stretchWindow: stretching: new width: %d", new_width);
+		resize( new_width, height() );
+	}
 }
 
 void BaseGuiPlus::shrinkWindow() {
 	qDebug("BaseGuiPlus::shrinkWindow");
 	if ((ignore_playlist_events) || (pref->resize_method!=Preferences::Always)) return;
 
-	int new_height = height() - playlistdock->height();
-	qDebug("DefaultGui::shrinkWindow: shrinking: new height: %d", new_height);
-	resize( width(), new_height );
+	qDebug("BaseGuiPlus::shrinkWindow: dockWidgetArea: %d", (int) dockWidgetArea(playlistdock) );
 
-	//resizeWindow(core->mset.win_width, core->mset.win_height);
+	if ( (dockWidgetArea(playlistdock) == Qt::TopDockWidgetArea) ||
+         (dockWidgetArea(playlistdock) == Qt::BottomDockWidgetArea) )
+	{
+		int new_height = height() - playlistdock->height();
+		qDebug("DefaultGui::shrinkWindow: shrinking: new height: %d", new_height);
+		resize( width(), new_height );
+
+		//resizeWindow(core->mset.win_width, core->mset.win_height);
+	}
+
+	else
+
+	if ( (dockWidgetArea(playlistdock) == Qt::LeftDockWidgetArea) ||
+         (dockWidgetArea(playlistdock) == Qt::RightDockWidgetArea) )
+	{
+		int new_width = width() - playlistdock->width();
+
+		qDebug("BaseGuiPlus::shrinkWindow: shrinking: new width: %d", new_width);
+		resize( new_width, height() );
+	}
 }
 
 #endif
