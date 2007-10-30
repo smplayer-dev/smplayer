@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -1072,12 +1073,12 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="846"/>
         <source>S&amp;ize -</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta&amp;ille -</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="847"/>
         <source>Si&amp;ze +</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta&amp;ille +</translation>
     </message>
 </context>
 <context>
@@ -2928,87 +2929,87 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefinput.cpp" line="52"/>
         <source>Play</source>
-        <translation type="unfinished"></translation>
+        <translation>Lecture</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="54"/>
         <source>Pause</source>
-        <translation type="unfinished">Pause</translation>
+        <translation>Pause</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="56"/>
         <source>Stop</source>
-        <translation type="unfinished">Stop</translation>
+        <translation>Stop</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="57"/>
         <source>Fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Plein écran</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="58"/>
         <source>Compact</source>
-        <translation type="unfinished"></translation>
+        <translation>Compact</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="59"/>
         <source>Screenshot</source>
-        <translation type="unfinished"></translation>
+        <translation>Capturer écran</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="60"/>
         <source>On top</source>
-        <translation type="unfinished"></translation>
+        <translation>Premier plan</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="61"/>
         <source>Mute</source>
-        <translation type="unfinished"></translation>
+        <translation>Muet</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="63"/>
         <source>Frame counter</source>
-        <translation type="unfinished"></translation>
+        <translation>Compteur d&apos;images</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="65"/>
         <source>Reset zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Réinitialiser zoom</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="66"/>
         <source>Exit fullscreen</source>
-        <translation type="unfinished">Sortir du mode plein écran</translation>
+        <translation>Sortir du mode plein écran</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="67"/>
         <source>Double size</source>
-        <translation type="unfinished"></translation>
+        <translation>Double taille</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="169"/>
         <source>Mi&amp;ddle click</source>
-        <translation type="unfinished"></translation>
+        <translation>Clic &amp;du milieu</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="53"/>
         <source>Play / Pause</source>
-        <translation type="unfinished">Lecture / Pause</translation>
+        <translation>Lecture / Pause</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="55"/>
         <source>Pause / Frame step</source>
-        <translation type="unfinished">Pause / Saut d&apos;images</translation>
+        <translation>Pause / Saut d&apos;images</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="62"/>
         <source>Playlist</source>
-        <translation type="unfinished">Liste de lecture</translation>
+        <translation>Liste de lecture</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="64"/>
         <source>Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Préférences</translation>
     </message>
 </context>
 <context>
@@ -3524,7 +3525,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefperformance.cpp" line="213"/>
         <source>Skip loop filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Passer le filtre de boucle</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="219"/>
@@ -3534,7 +3535,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefperformance.cpp" line="221"/>
         <source>Skip frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Passer les images</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="223"/>
@@ -3544,17 +3545,17 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefperformance.ui" line="266"/>
         <source>H.264</source>
-        <translation type="unfinished"></translation>
+        <translation>H.264</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="278"/>
         <source>S&amp;kip loop filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Passer le filtre de &amp;boucle</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="285"/>
         <source>Sk&amp;ip frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Passer les &amp;images</translation>
     </message>
 </context>
 <context>
@@ -3847,7 +3848,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefsubtitles.ui" line="504"/>
         <source>SSA/ASS library</source>
-        <translation type="unfinished"></translation>
+        <translation>bibliothèque SSA/ASS</translation>
     </message>
 </context>
 <context>
