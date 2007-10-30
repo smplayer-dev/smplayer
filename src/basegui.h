@@ -129,6 +129,9 @@ protected slots:
 	virtual void newMediaLoaded();
 	virtual void updateMediaInfo();
 
+	virtual void enableActionsOnPlaying();
+	virtual void disableActionsOnStop();
+
 	virtual void resizeWindow(int w, int h);
 	virtual void hidePanel();
 
@@ -216,6 +219,7 @@ protected:
 	void setDataToFileProperties();
 	void initializeGui();
 	void createActions();
+	void setActionsEnabled(bool);
 	void createMenus();
 	void updateRecents();
 	void configureDiscDevices();
