@@ -78,6 +78,13 @@ void MyActionGroup::uncheckAll() {
 	}
 }
 
+void MyActionGroup::setActionsEnabled(bool b) {
+	QList <QAction *> l = actions();
+	for (int n=0; n < l.count(); n++) {
+		l[n]->setEnabled(b);
+	}
+}
+
 void MyActionGroup::clear(bool remove) {
 	while (actions().count() > 0) {
 		QAction * a = actions()[0];

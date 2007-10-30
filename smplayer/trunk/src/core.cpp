@@ -822,7 +822,8 @@ void Core::stop()
 		// if pressed stop twice, reset video to the beginning
 		qDebug("   mset.current_sec: %f", mset.current_sec);
 		mset.current_sec = 0;
-		updateWidgets();
+		emit showTime( mset.current_sec );
+		//updateWidgets();
 	}
 
 	stopMplayer();

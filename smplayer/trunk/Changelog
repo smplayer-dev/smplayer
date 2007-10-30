@@ -1,5 +1,11 @@
 [b]Version 0.5.62[/b] (not released yet):
 
+(2007-10-29)
+ * (Experimental) Enable or disable some actions according to the current state.
+   For example, the audio actions should be disabled if the file has no audio
+   track.
+ * (Fix) The time slider goes to 0 if the user press stop twice.
+
 (2007-10-26)
  * (Internal change) Renamed font_textscale in preferences to initial_sub_scale.
  * Assigned the new actions to change font size to the keys Shift+R (Size-) and

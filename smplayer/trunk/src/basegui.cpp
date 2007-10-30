@@ -124,6 +124,7 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 
 	createActions();
 	createMenus();
+	setActionsEnabled(false);
 
 #if !DOCK_PLAYLIST
 	connect(playlist, SIGNAL(visibilityChanged(bool)),
@@ -748,6 +749,144 @@ void BaseGui::createActions() {
 			 core, SLOT(changeChapter(int)) );
 }
 
+void BaseGui::setActionsEnabled(bool b) {
+	// Menu Play
+	playAct->setEnabled(b);
+	playOrPauseAct->setEnabled(b);
+	pauseAct->setEnabled(b);
+	pauseAndStepAct->setEnabled(b);
+	stopAct->setEnabled(b);
+	frameStepAct->setEnabled(b);
+	rewind1Act->setEnabled(b);
+	rewind2Act->setEnabled(b);
+	rewind3Act->setEnabled(b);
+	forward1Act->setEnabled(b);
+	forward2Act->setEnabled(b);
+	forward3Act->setEnabled(b);
+	repeatAct->setEnabled(b);
+
+	// Menu Speed
+	normalSpeedAct->setEnabled(b);
+	halveSpeedAct->setEnabled(b);
+	doubleSpeedAct->setEnabled(b);
+	decSpeedAct->setEnabled(b);
+	incSpeedAct->setEnabled(b);
+
+	// Menu Video
+	equalizerAct->setEnabled(b);
+	screenshotAct->setEnabled(b);
+	flipAct->setEnabled(b);
+	postProcessingAct->setEnabled(b);
+	phaseAct->setEnabled(b);
+	deblockAct->setEnabled(b);
+	deringAct->setEnabled(b);
+	addNoiseAct->setEnabled(b);
+
+	// Menu Audio
+	muteAct->setEnabled(b);
+	decVolumeAct->setEnabled(b);
+	incVolumeAct->setEnabled(b);
+	decAudioDelayAct->setEnabled(b);
+	incAudioDelayAct->setEnabled(b);
+	extrastereoAct->setEnabled(b);
+	karaokeAct->setEnabled(b);
+	volnormAct->setEnabled(b);
+	loadAudioAct->setEnabled(b);
+	//unloadAudioAct->setEnabled(b);
+
+	// Menu Subtitles
+	loadSubsAct->setEnabled(b);
+	//unloadSubsAct->setEnabled(b);
+	/*
+	decSubDelayAct->setEnabled(b);
+	incSubDelayAct->setEnabled(b);
+	decSubPosAct->setEnabled(b);
+	incSubPosAct->setEnabled(b);
+	incSubStepAct->setEnabled(b);
+	decSubStepAct->setEnabled(b);
+	incSubScaleAct->setEnabled(b);
+	decSubScaleAct->setEnabled(b);
+	*/
+
+	// Actions not in menus
+#if !USE_MULTIPLE_SHORTCUTS
+	decVolume2Act->setEnabled(b);
+	incVolume2Act
+#endif
+	decContrastAct->setEnabled(b);
+	incContrastAct->setEnabled(b);
+	decBrightnessAct->setEnabled(b);
+	incBrightnessAct->setEnabled(b);
+	decHueAct->setEnabled(b);
+	incHueAct->setEnabled(b);
+	decSaturationAct->setEnabled(b);
+	incSaturationAct->setEnabled(b);
+	decGammaAct->setEnabled(b);
+	incGammaAct->setEnabled(b);
+	nextAudioAct->setEnabled(b);
+	nextSubtitleAct->setEnabled(b);
+	nextChapterAct->setEnabled(b);
+	prevChapterAct->setEnabled(b);
+	doubleSizeAct->setEnabled(b);
+
+	// Moving and zoom
+	moveUpAct->setEnabled(b);
+	moveDownAct->setEnabled(b);
+	moveLeftAct->setEnabled(b);
+	moveRightAct->setEnabled(b);
+	incZoomAct->setEnabled(b);
+	decZoomAct->setEnabled(b);
+	resetZoomAct->setEnabled(b);
+
+	// Groups
+	denoiseGroup->setActionsEnabled(b);
+	sizeGroup->setActionsEnabled(b);
+	deinterlaceGroup->setActionsEnabled(b);
+	aspectGroup->setActionsEnabled(b);
+	channelsGroup->setActionsEnabled(b);
+	stereoGroup->setActionsEnabled(b);
+	//audioTrackGroup->setActionsEnabled(b);
+}
+
+void BaseGui::enableActionsOnPlaying() {
+	qDebug("BaseGui::enableActionsOnPlaying");
+
+	setActionsEnabled(true);
+
+	// Screenshot option
+	bool valid_directory = ( (!pref->screenshot_directory.isEmpty()) &&
+                             (QFileInfo(pref->screenshot_directory).isDir()) );
+	screenshotAct->setEnabled( valid_directory );
+
+	// Disable the compact action if not using video window
+	compactAct->setEnabled( panel->isVisible() );
+
+	// Disable audio actions if there's not audio track
+	if ((core->mdat.audios.numItems()==0) && (core->mset.external_audio.isEmpty())) {
+		muteAct->setEnabled(false);
+		decVolumeAct->setEnabled(false);
+		incVolumeAct->setEnabled(false);
+		decAudioDelayAct->setEnabled(false);
+		incAudioDelayAct->setEnabled(false);
+		extrastereoAct->setEnabled(false);
+		karaokeAct->setEnabled(false);
+		volnormAct->setEnabled(false);
+		channelsGroup->setActionsEnabled(false);
+		stereoGroup->setActionsEnabled(false);
+
+	}
+}
+
+void BaseGui::disableActionsOnStop() {
+	qDebug("BaseGui::disableActionsOnStop");
+
+	setActionsEnabled(false);
+
+	playAct->setEnabled(true);
+	playOrPauseAct->setEnabled(true);
+	stopAct->setEnabled(true);
+}
+
 
 void BaseGui::retranslateStrings() {
 	setWindowIcon( Images::icon("logo", 64) );
@@ -1100,11 +1239,21 @@ void BaseGui::createCore() {
              this, SLOT(displayMessage(QString)) );
 	connect( core, SIGNAL(stateChanged(Core::State)),
              this, SLOT(displayState(Core::State)) );
+	connect( core, SIGNAL(stateChanged(Core::State)),
+             this, SLOT(controlState(Core::State)) );
 
 	connect( core, SIGNAL(mediaStartPlay()),
              this, SLOT(enterFullscreenOnPlay()) );
 	connect( core, SIGNAL(mediaStoppedByUser()),
              this, SLOT(exitFullscreenOnStop()) );
+
+	connect( core, SIGNAL(mediaLoaded()),
+             this, SLOT(enableActionsOnPlaying()) );
+	connect( core, SIGNAL(mediaFinished()),
+             this, SLOT(disableActionsOnStop()) );
+	connect( core, SIGNAL(mediaStoppedByUser()),
+             this, SLOT(disableActionsOnStop()) );
+
 	connect( core, SIGNAL(mediaLoaded()),
              this, SLOT(newMediaLoaded()) );
 	connect( core, SIGNAL(mediaInfoChanged()),
@@ -1928,7 +2077,6 @@ void BaseGui::updateWidgets() {
 	audioTrackGroup->setChecked( core->mset.current_audio_id );
 	channelsGroup->setChecked( core->mset.audio_use_channels );
 	stereoGroup->setChecked( core->mset.stereo_mode );
-
 	// Disable the unload audio file action if there's no external audio file
 	unloadAudioAct->setEnabled( !core->mset.external_audio.isEmpty() );
 
@@ -2034,16 +2182,14 @@ void BaseGui::updateWidgets() {
 	// Flip
 	flipAct->setChecked( core->mset.flip );
 
-	// Screenshot option
-	bool valid_directory = ( (!pref->screenshot_directory.isEmpty()) &&
-                             (QFileInfo(pref->screenshot_directory).isDir()) );
-	screenshotAct->setEnabled( valid_directory );
-
 	// Use ass lib
 	useAssAct->setChecked( pref->use_ass_subtitles );
 
+	// Enable or disable some actions
+
 	// Enable or disable subtitle options
-	bool e = !(core->mset.current_sub_id == MediaSettings::SubNone);
+	bool e = ((core->mset.current_sub_id != MediaSettings::SubNone) &&
+              (core->mset.current_sub_id != MediaSettings::NoneSelected));
 	decSubDelayAct->setEnabled(e);
 	incSubDelayAct->setEnabled(e);
 	decSubPosAct->setEnabled(e);
@@ -2750,7 +2896,7 @@ void BaseGui::resizeWindow(int w, int h) {
 		panel->show();
 
 		// Enable compact mode
-		compactAct->setEnabled(true);
+		//compactAct->setEnabled(true);
 	}
 
 	if (pref->size_factor != 100) {
@@ -2848,7 +2994,7 @@ void BaseGui::resizeWindow(int w, int h) {
 		//show();
 
 		// Enable compact mode
-		compactAct->setEnabled(true);
+		//compactAct->setEnabled(true);
 	}
 
 	if (pref->size_factor != 100) {
@@ -2891,7 +3037,7 @@ void BaseGui::hidePanel() {
 		panel->hide();
 
 		// Disable compact mode
-		compactAct->setEnabled(false);
+		//compactAct->setEnabled(false);
 	}
 }
 

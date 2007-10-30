@@ -67,6 +67,9 @@ public:
 	//! Remove all items. If \a remove is true the actions are also deleted.
 	void clear(bool remove);
 
+	//! Enable or disable all actions in the group
+	void setActionsEnabled(bool);
+
 	//! Adds all actions to the widget
 	void addTo(QWidget *);
 
