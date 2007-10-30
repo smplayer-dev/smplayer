@@ -1265,9 +1265,10 @@ void BaseGui::createCore() {
              this, SLOT(displayMessage(QString)) );
 	connect( core, SIGNAL(stateChanged(Core::State)),
              this, SLOT(displayState(Core::State)) );
+	/*
 	connect( core, SIGNAL(stateChanged(Core::State)),
              this, SLOT(controlState(Core::State)) );
-
+	*/
 	connect( core, SIGNAL(mediaStartPlay()),
              this, SLOT(enterFullscreenOnPlay()) );
 	connect( core, SIGNAL(mediaStoppedByUser()),
