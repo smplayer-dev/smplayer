@@ -845,7 +845,6 @@ void BaseGui::setActionsEnabled(bool b) {
 	aspectGroup->setActionsEnabled(b);
 	channelsGroup->setActionsEnabled(b);
 	stereoGroup->setActionsEnabled(b);
-	//audioTrackGroup->setActionsEnabled(b);
 }
 
 void BaseGui::enableActionsOnPlaying() {
@@ -873,7 +872,34 @@ void BaseGui::enableActionsOnPlaying() {
 		volnormAct->setEnabled(false);
 		channelsGroup->setActionsEnabled(false);
 		stereoGroup->setActionsEnabled(false);
+	}
 
+	// Disable video actions if it's an audio file
+	if (core->mdat.novideo) {
+		equalizerAct->setEnabled(false);
+		screenshotAct->setEnabled(false);
+		flipAct->setEnabled(false);
+		postProcessingAct->setEnabled(false);
+		phaseAct->setEnabled(false);
+		deblockAct->setEnabled(false);
+		deringAct->setEnabled(false);
+		addNoiseAct->setEnabled(false);
+
+		doubleSizeAct->setEnabled(false);
+
+		// Moving and zoom
+		moveUpAct->setEnabled(false);
+		moveDownAct->setEnabled(false);
+		moveLeftAct->setEnabled(false);
+		moveRightAct->setEnabled(false);
+		incZoomAct->setEnabled(false);
+		decZoomAct->setEnabled(false);
+		resetZoomAct->setEnabled(false);
+
+		denoiseGroup->setActionsEnabled(false);
+		sizeGroup->setActionsEnabled(false);
+		deinterlaceGroup->setActionsEnabled(false);
+		aspectGroup->setActionsEnabled(false);
 	}
 }
 
