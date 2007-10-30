@@ -53,6 +53,8 @@ dec_sub_delay	Z
 inc_sub_delay	X
 dec_sub_pos	R
 inc_sub_pos	T
+dec_sub_scale	Shift+R
+inc_sub_scale	Shift+T
 dec_sub_step	G
 inc_sub_step	Y
 use_ass_lib	
