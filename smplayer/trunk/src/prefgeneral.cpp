@@ -68,6 +68,16 @@ void PrefGeneral::retranslateStrings() {
     volume_icon->setPixmap( Images::icon("speaker") );
 	*/
 
+	preferred_desc->setText(
+		tr("Here you can type your preferred language for the audio "
+           "and subtitle streams. When a media with multiple audio or "
+           "subtitle streams is found, SMPlayer will try to use your "
+           "preferred language. This only will work with media that offer "
+           "info about the language of audio and subtitle streams, like DVDs "
+           "or mkv files.<br>These fields accept regular expressions. "
+           "Example: <b>es|esp|spa</b> will select the track if it matches with "
+            "<i>es</i>, <i>esp</i> or <i>spa</i>."));
+
 	createHelp();
 }
 
