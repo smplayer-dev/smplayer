@@ -434,38 +434,6 @@ void PrefGeneral::createHelp() {
 		tr("If you check this option, smplayer will play all files from "
            "the beginning.") );
 
-	setWhatsThis(audio_lang_edit, tr("Preferred audio language"),
-		tr("Here you can type your preferred language for the audio streams. "
-           "When a media with multiple audio streams is found, smplayer will "
-           "try to use your preferred language.<br>"
-           "This only will work with media that offer info about the language "
-           "of the audio streams, like DVDs or mkv files.<br>"
-           "This field accepts regular expressions. Example: <b>es|esp|spa</b> "
-           "will select the audio track if it matches with <i>es</i>, "
-           "<i>esp</i> or <i>spa</i>.") );
-
-	setWhatsThis(subtitle_lang_edit, tr("Preferred subtitle language"),
-		tr("Here you can type your preferred language for the subtitle stream. "
-           "When a media with multiple subtitle streams is found, smplayer will "
-           "try to use your preferred language.<br>"
-           "This only will work with media that offer info about the language "
-           "of the subtitle streams, like DVDs or mkv files.<br>"
-           "This field accepts regular expressions. Example: <b>es|esp|spa</b> "
-           "will select the subtitle stream if it matches with <i>es</i>, "
-           "<i>esp</i> or <i>spa</i>.") );
-
-	setWhatsThis(audio_track_spin, tr("Audio track"),
-		tr("Specifies the default audio track which will be used when playing "
-           "new files. If the track doesn't exist, the first one will be used. "
-           "<br><b>Note:</b> the <i>\"preferred audio language\"</i> has "
-           "preference over this option.") );
-
-	setWhatsThis(subtitle_track_spin, tr("Subtitle track"),
-		tr("Specifies the default subtitle track which will be used when "
-           "playing new files. If the track doesn't exist, the first one "
-           "will be used. <br><b>Note:</b> the <i>\"preferred subtitle "
-           "language\"</i> has preference over this option.") );
-
 	setWhatsThis(close_on_finish_check, tr("Close when finished"),
 		tr("If this option is checked, the main window will be automatically "
 		   "closed when the current file/playlist finishes.") );
@@ -544,6 +512,39 @@ void PrefGeneral::createHelp() {
            "into the requested number of channels. "
            "NOTE: This option is honored by codecs (AC3 only), "
            "filters (surround) and audio output drivers (OSS at least).") );
+
+	setWhatsThis(audio_lang_edit, tr("Preferred audio language"),
+		tr("Here you can type your preferred language for the audio streams. "
+           "When a media with multiple audio streams is found, smplayer will "
+           "try to use your preferred language.<br>"
+           "This only will work with media that offer info about the language "
+           "of the audio streams, like DVDs or mkv files.<br>"
+           "This field accepts regular expressions. Example: <b>es|esp|spa</b> "
+           "will select the audio track if it matches with <i>es</i>, "
+           "<i>esp</i> or <i>spa</i>.") );
+
+	setWhatsThis(subtitle_lang_edit, tr("Preferred subtitle language"),
+		tr("Here you can type your preferred language for the subtitle stream. "
+           "When a media with multiple subtitle streams is found, smplayer will "
+           "try to use your preferred language.<br>"
+           "This only will work with media that offer info about the language "
+           "of the subtitle streams, like DVDs or mkv files.<br>"
+           "This field accepts regular expressions. Example: <b>es|esp|spa</b> "
+           "will select the subtitle stream if it matches with <i>es</i>, "
+           "<i>esp</i> or <i>spa</i>.") );
+
+	setWhatsThis(audio_track_spin, tr("Audio track"),
+		tr("Specifies the default audio track which will be used when playing "
+           "new files. If the track doesn't exist, the first one will be used. "
+           "<br><b>Note:</b> the <i>\"preferred audio language\"</i> has "
+           "preference over this option.") );
+
+	setWhatsThis(subtitle_track_spin, tr("Subtitle track"),
+		tr("Specifies the default subtitle track which will be used when "
+           "playing new files. If the track doesn't exist, the first one "
+           "will be used. <br><b>Note:</b> the <i>\"preferred subtitle "
+           "language\"</i> has preference over this option.") );
+
 }
 
 #include "moc_prefgeneral.cpp"
