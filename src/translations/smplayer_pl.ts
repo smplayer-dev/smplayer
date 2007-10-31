@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -2107,17 +2108,17 @@ błąd w programie.
     <message>
         <location filename="../prefadvanced.ui" line="105"/>
         <source>Logs</source>
-        <translation type="unfinished">Logi</translation>
+        <translation>Logi</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="117"/>
         <source>Log MPlayer &amp;output</source>
-        <translation type="unfinished"></translation>
+        <translation>Komunikaty &amp;wyjściowe MPlayer-a</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="270"/>
         <source>Options for MP&amp;layer</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcje &amp;MPlayer-a</translation>
     </message>
 </context>
 <context>
@@ -2588,7 +2589,7 @@ trochę wyższą wartość.
     <message>
         <location filename="../prefgeneral.ui" line="244"/>
         <source>&amp;Don&apos;t remember time position (files start playing from the beginning)</source>
-        <translation>&amp;Nie zapamiętuj pozycji czasu (start odtwarzania od początku)</translation>
+        <translation>&amp;Nie pamiętaj pozycji czasu (start odtwarzania od początku)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="251"/>
@@ -2848,23 +2849,24 @@ trochę wyższą wartość.
     <message>
         <location filename="../prefgeneral.ui" line="623"/>
         <source>Preferre&amp;d audio and subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Preferowana &amp;ścieżka dźwiękowa i napisy</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="772"/>
         <source>&amp;Subtitle:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Napisy:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="79"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tutaj możesz ustawić preferowany język napisów i ścieżki dźwiękowej. Jeśli smplayer wykryje więcej niż jedną ścieżkę dźwiękową  lub z napisami, spróbuje użyć preferowanej. Ta funkcja działa tylko z mediami, które podają informację o ścieżkach dźwiękowych i z napisami, takie jak DVD i pliki mkv.&lt;br&gt;To pole akceptuje regularne wyrażenia. Na przykład: &lt;b&gt;es|esp|spa&lt;/b&gt; będzie dobierać ścieżkę odpowiadającą &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="635"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;Tutaj wchodzi wyjaśniający tekst&gt;
+Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pracy programu.</translation>
     </message>
 </context>
 <context>
