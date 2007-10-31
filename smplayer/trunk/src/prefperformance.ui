@@ -5,8 +5,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>502</width>
-    <height>606</height>
+    <width>452</width>
+    <height>542</height>
    </rect>
   </property>
   <property name="windowIcon" >
@@ -145,23 +145,14 @@
           <property name="spacing" >
            <number>6</number>
           </property>
-          <item rowspan="2" row="1" column="1" >
-           <spacer>
-            <property name="orientation" >
-             <enum>Qt::Horizontal</enum>
+          <item row="1" column="0" >
+           <widget class="QCheckBox" name="use_cache_check" >
+            <property name="text" >
+             <string>&amp;Use cache</string>
             </property>
-            <property name="sizeType" >
-             <enum>QSizePolicy::Expanding</enum>
-            </property>
-            <property name="sizeHint" >
-             <size>
-              <width>191</width>
-              <height>61</height>
-             </size>
-            </property>
-           </spacer>
+           </widget>
           </item>
-          <item row="2" column="0" >
+          <item row="1" column="1" >
            <layout class="QHBoxLayout" >
             <property name="margin" >
              <number>0</number>
@@ -173,9 +164,6 @@
              <spacer>
               <property name="orientation" >
                <enum>Qt::Horizontal</enum>
-              </property>
-              <property name="sizeType" >
-               <enum>QSizePolicy::Fixed</enum>
               </property>
               <property name="sizeHint" >
                <size>
@@ -192,6 +180,9 @@
               </property>
               <property name="text" >
                <string>Si&amp;ze:</string>
+              </property>
+              <property name="alignment" >
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
               </property>
               <property name="wordWrap" >
                <bool>false</bool>
@@ -225,13 +216,6 @@
              </widget>
             </item>
            </layout>
-          </item>
-          <item row="1" column="0" >
-           <widget class="QCheckBox" name="use_cache_check" >
-            <property name="text" >
-             <string>&amp;Use cache</string>
-            </property>
-           </widget>
           </item>
           <item row="0" column="0" colspan="2" >
            <widget class="QLabel" name="textLabel1_12" >
@@ -294,7 +278,7 @@
          <property name="title" >
           <string>Synchronization</string>
          </property>
-         <layout class="QVBoxLayout" >
+         <layout class="QHBoxLayout" >
           <property name="margin" >
            <number>9</number>
           </property>
@@ -340,6 +324,9 @@
               <property name="text" >
                <string>Fact&amp;or:</string>
               </property>
+              <property name="alignment" >
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+              </property>
               <property name="wordWrap" >
                <bool>false</bool>
               </property>
@@ -360,22 +347,6 @@
                <number>1</number>
               </property>
              </widget>
-            </item>
-            <item>
-             <spacer>
-              <property name="orientation" >
-               <enum>Qt::Horizontal</enum>
-              </property>
-              <property name="sizeType" >
-               <enum>QSizePolicy::Expanding</enum>
-              </property>
-              <property name="sizeHint" >
-               <size>
-                <width>105</width>
-                <height>21</height>
-               </size>
-              </property>
-             </spacer>
             </item>
            </layout>
           </item>

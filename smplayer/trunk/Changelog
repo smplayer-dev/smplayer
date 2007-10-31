@@ -1,5 +1,8 @@
 [b]Version 0.5.62[/b] (not released yet):
 
+(2007-10-30)
+ * Changed the layout of some sections in preferences to make them smaller.
+
 (2007-10-29)
  * (Experimental) Enable or disable some actions according to the current state.
    For example, the audio actions should be disabled if the file has no audio
