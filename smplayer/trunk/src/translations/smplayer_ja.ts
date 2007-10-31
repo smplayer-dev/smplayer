@@ -2084,17 +2084,17 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.ui" line="105"/>
         <source>Logs</source>
-        <translation type="unfinished">ログ</translation>
+        <translation>ログ</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="117"/>
         <source>Log MPlayer &amp;output</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer の出力を記録する(&amp;O)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="270"/>
         <source>Options for MP&amp;layer</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer のオプション(&amp;L)</translation>
     </message>
 </context>
 <context>
@@ -2298,7 +2298,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="441"/>
         <source>Usually smplayer will remember the settings for each file you play (audio track selected, volume, filters...). Uncheck this option if you don&apos;t like this feature.</source>
-        <translation>通常 smplayer は再生するファイル (選択されたオーディオ トラック、音量、フィルタ...) ごとに設定を記憶します。この機能を好まないならこのオプションをチェック解除します。</translation>
+        <translation>通常 smplayer は再生するファイル (選択されたオーディオ トラック、音量、フィルタ...) ごとに設定を記憶します。この機能がお好みでない場合はこのオプションをチェック解除します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="443"/>
@@ -2318,7 +2318,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="534"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>ここでオーディオ ストリームの優先言語を入力できます。複数のオーディオ ストリームを持つメディアが見つかったとき、smplayer は優先言語の使用を試行します。&lt;br&gt;これは DVD または mkv ファイルのような、オーディオ ストリームの言語についての情報が提供されているメディアでのみ機能します。&lt;br&gt;このフィールドは正規表現を受け入れます。例: &lt;b&gt;es|esp|spa&lt;/b&gt; では &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; または &lt;i&gt;spa&lt;/i&gt; に一致する場合にオーディオ トラックが選択されます。</translation>
+        <translation>ここでオーディオ ストリームの優先言語を入力できます。複数のオーディオ ストリームのあるメディアが見つかったとき、smplayer は優先言語の使用を試行します。&lt;br&gt;これは DVD または mkv ファイルのような、オーディオ ストリームの言語についての情報を提供するメディアでのみ動作します。&lt;br&gt;このフィールドは正規表現を受け入れます。例: &lt;b&gt;es|esp|spa&lt;/b&gt; は &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; または &lt;i&gt;spa&lt;/i&gt; に一致する場合にオーディオ トラックを選択します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="536"/>
@@ -2328,7 +2328,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="544"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>ここで字幕ストリームの優先言語を入力できます。複数の字幕ストリームを持つメディアが見つかったとき、smplayer は優先言語の使用を試行します。&lt;br&gt;これは DVD または mkv ファイルのような、字幕ストリームの言語についての情報が提供されているメディアでのみ機能します。&lt;br&gt;このフィールドは正規表現を受け入れます。例: &lt;b&gt;es|esp|spa&lt;/b&gt; では &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; または &lt;i&gt;spa&lt;/i&gt; に一致する場合に字幕ストリームが選択されます。</translation>
+        <translation>ここで字幕ストリームの優先言語を入力できます。複数の字幕ストリームのあるメディアが見つかったとき、smplayer は優先言語の使用を試行します。&lt;br&gt;これは DVD または mkv ファイルのような、字幕ストリームの言語についての情報を提供するメディアでのみ動作します。&lt;br&gt;このフィールドは正規表現を受け入れます。例: &lt;b&gt;es|esp|spa&lt;/b&gt; は &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; または &lt;i&gt;spa&lt;/i&gt; に一致する場合に字幕ストリームを選択します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="457"/>
@@ -2368,7 +2368,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="488"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option works only in X11 and Windows.</source>
-        <translation>再生中にスクリーンセーバーを無効にするにはこのオプションをチェックします。&lt;br&gt;スクリーンセーバーは再生の完了時に再び有効になります。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt;このオプションは X11 と Windows のみで機能します。</translation>
+        <translation>再生中にスクリーンセーバーを無効にするにはこのオプションをチェックします。&lt;br&gt;スクリーンセーバーは再生の完了時に再び有効になります。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt;このオプションは X11 と Windows でのみ動作します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="490"/>
@@ -2813,17 +2813,17 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="623"/>
         <source>Preferre&amp;d audio and subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>優先オーディオおよび字幕(&amp;D)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="772"/>
         <source>&amp;Subtitle:</source>
-        <translation type="unfinished"></translation>
+        <translation>字幕(&amp;S):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="79"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>ここでオーディオおよび字幕ストリームの優先言語を入力できます。複数のオーディオまたは字幕ストリームのあるメディアが見つかったとき、SMPlayer は優先言語の使用を試行します。これは DVD か mkv ファイルのような、オーディオおよび字幕ストリームの言語についての情報を提供するメディアでのみ動作します。&lt;br&gt;これらのフィールドは正規表現を受け入れます。例: &lt;b&gt;es|esp|spa&lt;/b&gt; は &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; または &lt;i&gt;spa&lt;/i&gt; に一致する場合にトラックを選択します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="635"/>
