@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -2068,17 +2069,17 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.ui" line="105"/>
         <source>Logs</source>
-        <translation type="unfinished">Arhivă jurnale</translation>
+        <translation>Arhivă jurnale</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="117"/>
         <source>Log MPlayer &amp;output</source>
-        <translation type="unfinished"></translation>
+        <translation>Jurnal MPlayer &amp;ieşire</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="270"/>
         <source>Options for MP&amp;layer</source>
-        <translation type="unfinished"></translation>
+        <translation>Opţiuni pentru MP&amp;layer</translation>
     </message>
 </context>
 <context>
@@ -2797,17 +2798,17 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="623"/>
         <source>Preferre&amp;d audio and subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Opţiuni prefera&amp;te pentru sonor şi subtitrări</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="772"/>
         <source>&amp;Subtitle:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Subtitrare:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="79"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aici se poate tasta limba preferată pentru subtitrare şi pentru coloana sonoră. Când un fişier mediea cu multiple coloane sonore şi subtitrări este găsit, SMPlayer va încerca să folosească limba dumneavoastră preferată. Această opţiune funcţionează doar cu acele fişiere media care oferă informaţii despre limba coloanei sonore şi a subtitrării, precum DVD-urile sau fişierele în format mkv.&lt;br&gt;Aceste căsuţe acceptă expresii obişnuite. Exemplu: &lt;b&gt;es|esp|spa&lt;/b&gt; va selecta pista care corespunde cu &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; sau &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="635"/>
