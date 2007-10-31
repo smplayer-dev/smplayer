@@ -806,10 +806,10 @@ void Core::finishRestart() {
 
 	changePanscan(mset.panscan_factor);
 
-	updateWidgets(); // New
-
 	emit mediaLoaded();
 	emit mediaInfoChanged();
+
+	updateWidgets(); // New
 }
 
 
@@ -2264,7 +2264,7 @@ void Core::changeAudio(int ID) {
 			// volume is too loud after changing audio.
 			setVolume( mset.volume, true );
 			#endif
-			if (mset.mute) mute(TRUE); // if muted, mute again
+			if (mset.mute) mute(true); // if muted, mute again
 			updateWidgets();
 		}
 	}

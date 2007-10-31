@@ -797,7 +797,6 @@ void BaseGui::setActionsEnabled(bool b) {
 	// Menu Subtitles
 	loadSubsAct->setEnabled(b);
 	//unloadSubsAct->setEnabled(b);
-	/*
 	decSubDelayAct->setEnabled(b);
 	incSubDelayAct->setEnabled(b);
 	decSubPosAct->setEnabled(b);
@@ -806,7 +805,6 @@ void BaseGui::setActionsEnabled(bool b) {
 	decSubStepAct->setEnabled(b);
 	incSubScaleAct->setEnabled(b);
 	decSubScaleAct->setEnabled(b);
-	*/
 
 	// Actions not in menus
 #if !USE_MULTIPLE_SHORTCUTS
@@ -1265,10 +1263,7 @@ void BaseGui::createCore() {
              this, SLOT(displayMessage(QString)) );
 	connect( core, SIGNAL(stateChanged(Core::State)),
              this, SLOT(displayState(Core::State)) );
-	/*
-	connect( core, SIGNAL(stateChanged(Core::State)),
-             this, SLOT(controlState(Core::State)) );
-	*/
+
 	connect( core, SIGNAL(mediaStartPlay()),
              this, SLOT(enterFullscreenOnPlay()) );
 	connect( core, SIGNAL(mediaStoppedByUser()),
@@ -2211,8 +2206,6 @@ void BaseGui::updateWidgets() {
 
 	// Use ass lib
 	useAssAct->setChecked( pref->use_ass_subtitles );
-
-	// Enable or disable some actions
 
 	// Enable or disable subtitle options
 	bool e = ((core->mset.current_sub_id != MediaSettings::SubNone) &&
@@ -3229,7 +3222,7 @@ void BaseGui::saveActions() {
 }
 
 
-void BaseGui::showEvent( QShowEvent *e ) {
+void BaseGui::showEvent( QShowEvent * ) {
 	qDebug("BaseGui::showEvent");
 
 	//qDebug("BaseGui::showEvent: pref->pause_when_hidden: %d", pref->pause_when_hidden);
@@ -3237,18 +3230,6 @@ void BaseGui::showEvent( QShowEvent *e ) {
 		qDebug("BaseGui::showEvent: unpausing");
 		core->pause(); // Unpauses
 	}
-/*
-#ifdef Q_OS_WIN
-	// Work-around to fix a problem in Windows. The file should be restarted in order the video to show again.
-	if (e->spontaneous()) {
-		if ( ((pref->vo=="gl") || (pref->vo=="gl2")) && 
-             (core->state() == Core::Playing) ) 
-		{
-			core->restart();
-		}
-	}
-#endif
-*/
 }
 
 void BaseGui::hideEvent( QHideEvent * ) {
