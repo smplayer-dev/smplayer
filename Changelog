@@ -1,5 +1,11 @@
 [b]Version 0.5.62[/b] (not released yet):
 
+(2007-10-31)
+ * Added code to test the slave command "select_sub" (see 
+   http://lists.mplayerhq.hu/pipermail/mplayer-dev-eng/2007-October/054651.html)
+   The code is disabled by default. To activate it set USE_SELECT_SUB to 1 in
+   config.h.
+
 (2007-10-30)
  * Changed the layout of some sections in preferences to make them smaller.
 
