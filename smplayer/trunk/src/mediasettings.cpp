@@ -30,7 +30,8 @@ MediaSettings::~MediaSettings() {
 
 void MediaSettings::reset() {
 	current_sec = 0;
-	current_sub_id = SubNone; //NoneSelected;
+	//current_sub_id = SubNone; 
+	current_sub_id = NoneSelected;
 	current_audio_id = NoneSelected;
 	current_title_id = NoneSelected;
 	current_chapter_id = NoneSelected;
