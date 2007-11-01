@@ -2200,7 +2200,27 @@ void Core::changeSubtitle(int ID) {
 	}
 	
 	qDebug("Core::changeSubtitle: ID: %d", ID);
+#if USE_SELECT_SUB && SUBTITLES_BY_INDEX
+	int t;
+	int real_id = -1;
+	if (ID == -1) {
+		t = 0;
+	} else {
+		real_id = mdat.subs.itemAt(ID).ID();
+		switch (mdat.subs.itemAt(ID).type()) {
+			case SubData::Vob:	t = 1; break;
+			case SubData::Sub:	t = 2; break;
+			case SubData::File:	t = 0; break;
+			default: {
+				qWarning("Core::changeSubtitle: unknown type!");
+				t = 0;
+			}
+		}
+	}
+	tellmp( "select_sub " + QString::number(t) + " " + QString::number(real_id) );
+#else
 	tellmp( "sub_select " + QString::number(ID) );
+#endif
 	updateWidgets();
 }
 
