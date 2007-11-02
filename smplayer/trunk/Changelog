@@ -8,6 +8,17 @@
    Autodetect will check the mplayer version to know if it's recent enough
    to have the slave command "sub_scale". But autodetect can fail with very
    old versions of mplayer (< 1.0rc1).
+ * Renamed "change_sub_scale_requires_restart" to 
+   "change_sub_scale_should_restart" to force everyone to use the new default
+   value.
+ * Added autodetection possibility for changing audio track.
+ * The config option "audio_change_requires_restart" has been renamed to
+   "audio_change_should_restart". It also accepts three values (-1, 0 and 1)
+   being -1 autodetection. The default option is -1, which means that 
+   the mplayer version will be checked to know if changing audio track 
+   needs to restart the mplayer process or not.
+ * The option "Fast audio track switching" in Preferences->Advanced has been
+   disabled until a new one (a combobox) which support the 3 values is added.
 
 (2007-10-31)
  * Added code to test the slave command "select_sub" (see 

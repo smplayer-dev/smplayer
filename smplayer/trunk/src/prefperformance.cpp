@@ -32,6 +32,10 @@ PrefPerformance::PrefPerformance(QWidget * parent, Qt::WindowFlags f)
 	priority_group->hide();
 #endif
 
+	//FIXME: fast audio change has to be now a combobox
+	// meanwhile the option is disabled
+	fastaudioswitching_check->setEnabled(false);
+
 	createHelp();
 }
 
@@ -69,7 +73,7 @@ void PrefPerformance::setData(Preferences * pref) {
 	setAutoSyncActivated( pref->autosync );
 	setAutoSyncFactor( pref->autosync_factor );
 	setFastChapterSeeking( pref->fast_chapter_change );
-	setFastAudioSwitching( !pref->audio_change_requires_restart );
+	//setFastAudioSwitching( !pref->audio_change_requires_restart );
 	setUseIdx( pref->use_idx );
 }
 
@@ -86,7 +90,7 @@ void PrefPerformance::getData(Preferences * pref) {
 	TEST_AND_SET(pref->autosync, autoSyncActivated());
 	TEST_AND_SET(pref->autosync_factor, autoSyncFactor());
 	TEST_AND_SET(pref->fast_chapter_change, fastChapterSeeking());
-	pref->audio_change_requires_restart = !fastAudioSwitching();
+	//pref->audio_change_requires_restart = !fastAudioSwitching();
 	TEST_AND_SET(pref->use_idx, useIdx());
 }
 
