@@ -1,6 +1,8 @@
 [b]Version 0.5.62[/b] (not released yet):
 
 (2007-11-01)
+ * Fixed a bug which prevented to select the first (or preferred) subtitle
+   when playing a new video.
  * Now mplayerprocess can identify the mplayer version (or svn revision).
  * Added autodetection possibility for changing the font size of subtitles.
    Now the values for the config option "change_sub_scale_requires_restart"
