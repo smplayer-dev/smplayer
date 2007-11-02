@@ -63,7 +63,7 @@ bool MplayerProcess::isMplayerAtLeast(int svn_revision) {
 		return true;
 	}
 
-	return (svn_revision >= mplayer_svn);
+	return (mplayer_svn >= svn_revision);
 }
 
 bool MplayerProcess::start() {

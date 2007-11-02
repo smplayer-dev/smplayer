@@ -62,7 +62,7 @@ void Preferences::reset() {
     ass_border_color = 0x000000;
 	//ass_styles = "Bold=1,Outline=2,Shadow=2";
 	ass_styles = "";
-	change_sub_scale_requires_restart = false;
+	change_sub_scale_requires_restart = Detect;
 
 	osd = None;
 
@@ -85,8 +85,8 @@ void Preferences::reset() {
 	cdrom_device = "";
 
 	// MPlayer 1.0rc1 require restart, new versions don't
-	audio_change_requires_restart = FALSE; // Now we need a svn mplayer
-	fast_chapter_change = FALSE;
+	audio_change_requires_restart = false; // Now we need a svn mplayer
+	fast_chapter_change = false;
 
 	use_cache = false;
 	cache = 2000;
@@ -445,7 +445,7 @@ void Preferences::load() {
 	ass_color = set->value("ass_color", ass_color).toInt();
 	ass_border_color = set->value("ass_border_color", ass_border_color).toInt();
 	ass_styles = set->value("ass_styles", ass_styles).toString();
-	change_sub_scale_requires_restart = set->value("change_sub_scale_requires_restart", change_sub_scale_requires_restart).toBool();
+	change_sub_scale_requires_restart = (OptionState) set->value("change_sub_scale_requires_restart", change_sub_scale_requires_restart).toInt();
 
 	osd = set->value("osd", osd).toInt();
 	vo = set->value("vo", vo).toString();
