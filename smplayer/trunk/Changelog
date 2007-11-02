@@ -1,5 +1,8 @@
 [b]Version 0.5.62[/b] (not released yet):
 
+(2007-11-01)
+ * Now mplayerprocess can identify the mplayer version (or svn revision).
+
 (2007-10-31)
  * Added code to test the slave command "select_sub" (see 
    http://lists.mplayerhq.hu/pipermail/mplayer-dev-eng/2007-October/054651.html)

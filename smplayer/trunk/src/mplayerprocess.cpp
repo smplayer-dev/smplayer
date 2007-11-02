@@ -37,13 +37,33 @@ MplayerProcess::MplayerProcess(QObject * parent) : MyProcess(parent)
 	connect( this, SIGNAL(error(QProcess::ProcessError)),
              this, SLOT(gotError(QProcess::ProcessError)) );
 
-	notified_mplayer_is_running = FALSE;
+	notified_mplayer_is_running = false;
 	last_sub_id = -1;
+	mplayer_svn = -1; // Not found yet
 
 	init_rx();
 }
 
 MplayerProcess::~MplayerProcess() {
+}
+
+bool MplayerProcess::isMplayerAtLeast(int svn_revision) {
+	qDebug("MplayerProcess::isMplayerAtLeast: comparing %d with %d", svn_revision, mplayer_svn);
+
+	if (mplayer_svn == -1) {
+		qWarning("MplayerProcess::isMplayerAtLeast: no version found!");
+	}
+	else
+	if (mplayer_svn == 0) {
+		qWarning("MplayerProcess::isMplayerAtLeast: version couldn't be parsed!");
+	}
+
+	if (mplayer_svn <= 0) {
+		qWarning("MplayerProcess::isMplayerAtLeast: assuming that the mplayer version is greater than %d", svn_revision);
+		return true;
+	}
+
+	return (svn_revision >= mplayer_svn);
 }
 
 bool MplayerProcess::start() {
@@ -52,6 +72,7 @@ bool MplayerProcess::start() {
 	md.reset();
 	notified_mplayer_is_running = false;
 	last_sub_id = -1;
+	mplayer_svn = -1; // Not found yet
 	received_end_of_file = false;
 
 	MyProcess::start();
@@ -67,7 +88,9 @@ void MplayerProcess::writeToStdin(QString text) {
 	}
 }
 
-
+//static QRegExp rx_mplayer_revision("^MPlayer (\\S+)-SVN-r(\\d+)-(.*)");
+static QRegExp rx_mplayer_revision("^MPlayer (.*)-r(\\d+)(.*)");
+static QRegExp rx_mplayer_version("^MPlayer ([a-z,0-9,.]+)-(.*)");
 static QRegExp rx_av("^[AV]: *([0-9,:.-]+)");
 static QRegExp rx_frame("^[AV]:.* (\\d+)\\/.\\d+");// [0-9,.]+");
 static QRegExp rx("^(.*)=(.*)");
@@ -239,6 +262,26 @@ void MplayerProcess::parseLine(QByteArray ba) {
 		if (notified_mplayer_is_running) {
 			return;
 		}
+
+		if (mplayer_svn == -1) {
+			if (rx_mplayer_revision.indexIn(line) > -1) {
+				mplayer_svn = rx_mplayer_revision.cap(2).toInt();
+				qDebug("MplayerProcess::parseLine: MPlayer SVN revision found: %d", mplayer_svn);
+			} 
+			else
+			if (rx_mplayer_version.indexIn(line) > -1) {
+				QString version = rx_mplayer_version.cap(1);
+				qDebug("MplayerProcess::parseLine: MPlayer version found: %s", version.toUtf8().data());
+				mplayer_svn = 0;
+				if (version == "1.0rc2") mplayer_svn = 24722;
+				else
+				if (version == "1.0rc1") mplayer_svn = 20372;
+				else qWarning("MplayerProcess::parseLine: unknown MPlayer version");
+
+				qDebug("MplayerProcess::parseLine: MPlayer SVN: %d", mplayer_svn);
+			}
+		}
+		else
 
 #if SUBTITLES_BY_INDEX
 		if (rx_subtitle.indexIn(line) > -1) {
