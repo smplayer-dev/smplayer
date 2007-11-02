@@ -2112,12 +2112,12 @@ void Core::changeSubScale(int value) {
 
 	bool need_restart = false;
 	if (pref->use_ass_subtitles || 
-        pref->change_sub_scale_requires_restart == Preferences::Enabled)
+        pref->change_sub_scale_should_restart == Preferences::Enabled)
 	{
 		need_restart = true;
 	}
 	else
-	if (pref->change_sub_scale_requires_restart == Preferences::Detect) {
+	if (pref->change_sub_scale_should_restart == Preferences::Detect) {
 		need_restart = (!proc->isMplayerAtLeast(23745));
 	}
 
@@ -2285,8 +2285,13 @@ void Core::changeAudio(int ID) {
 	if (ID!=mset.current_audio_id) {
 		mset.current_audio_id = ID;
 		qDebug("changeAudio: ID: %d", ID);
-		
-		if (pref->audio_change_requires_restart) {
+
+		bool need_restart = (pref->audio_change_should_restart == Preferences::Enabled);
+		if (pref->audio_change_should_restart == Preferences::Detect) {
+			need_restart = (!proc->isMplayerAtLeast(21441));
+		}
+
+		if (need_restart) {
 			restartPlay(); 
 		} else {
 			tellmp("switch_audio " + QString::number(ID) );

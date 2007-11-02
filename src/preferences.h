@@ -62,11 +62,11 @@ public:
 	unsigned int ass_color;
 	unsigned int ass_border_color;
 	QString ass_styles;
-	OptionState change_sub_scale_requires_restart;
+	OptionState change_sub_scale_should_restart;
 
 	int osd;
 
-	bool audio_change_requires_restart;
+	OptionState audio_change_should_restart;
 	bool fast_chapter_change;
 
 	QString dvd_device;

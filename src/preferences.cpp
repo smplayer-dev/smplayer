@@ -62,7 +62,7 @@ void Preferences::reset() {
     ass_border_color = 0x000000;
 	//ass_styles = "Bold=1,Outline=2,Shadow=2";
 	ass_styles = "";
-	change_sub_scale_requires_restart = Detect;
+	change_sub_scale_should_restart = Detect;
 
 	osd = None;
 
@@ -85,7 +85,7 @@ void Preferences::reset() {
 	cdrom_device = "";
 
 	// MPlayer 1.0rc1 require restart, new versions don't
-	audio_change_requires_restart = false; // Now we need a svn mplayer
+	audio_change_should_restart = Detect;
 	fast_chapter_change = false;
 
 	use_cache = false;
@@ -260,7 +260,7 @@ void Preferences::save() {
 	set->setValue("ass_color", (int) ass_color);
 	set->setValue("ass_border_color", (int) ass_border_color);
 	set->setValue("ass_styles", ass_styles);
-	set->setValue("change_sub_scale_requires_restart", change_sub_scale_requires_restart);
+	set->setValue("change_sub_scale_should_restart", change_sub_scale_should_restart);
 
 	set->setValue("osd", osd);
 	set->setValue("vo", vo);
@@ -268,7 +268,7 @@ void Preferences::save() {
 
 	set->setValue("color_key", QString::number(color_key,16));
 
-	set->setValue("audio_change_requires_restart", audio_change_requires_restart);
+	set->setValue("audio_change_should_restart", audio_change_should_restart);
 	set->setValue("fast_chapter_change", fast_chapter_change);
 
 	set->setValue("dvd_device", dvd_device);
@@ -445,7 +445,7 @@ void Preferences::load() {
 	ass_color = set->value("ass_color", ass_color).toInt();
 	ass_border_color = set->value("ass_border_color", ass_border_color).toInt();
 	ass_styles = set->value("ass_styles", ass_styles).toString();
-	change_sub_scale_requires_restart = (OptionState) set->value("change_sub_scale_requires_restart", change_sub_scale_requires_restart).toInt();
+	change_sub_scale_should_restart = (OptionState) set->value("change_sub_scale_should_restart", change_sub_scale_should_restart).toInt();
 
 	osd = set->value("osd", osd).toInt();
 	vo = set->value("vo", vo).toString();
@@ -458,7 +458,7 @@ void Preferences::load() {
 		color_key = temp_color_key;
 	//color_key = set->value("color_key", color_key).toInt();
 
-	audio_change_requires_restart = set->value("audio_change_requires_restart", audio_change_requires_restart).toBool();
+	audio_change_should_restart = (OptionState) set->value("audio_change_should_restart", audio_change_should_restart).toInt();
 	fast_chapter_change = set->value("fast_chapter_change", fast_chapter_change).toBool();
 
 	dvd_device = set->value("dvd_device", dvd_device).toString();
