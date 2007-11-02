@@ -281,7 +281,6 @@ void MplayerProcess::parseLine(QByteArray ba) {
 				qDebug("MplayerProcess::parseLine: MPlayer SVN: %d", mplayer_svn);
 			}
 		}
-		else
 
 #if SUBTITLES_BY_INDEX
 		if (rx_subtitle.indexIn(line) > -1) {
