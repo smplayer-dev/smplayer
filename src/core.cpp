@@ -2110,6 +2110,8 @@ void Core::decSubPos() {
 void Core::changeSubScale(int value) {
 	qDebug("Core::changeSubScale: %d", value);
 
+	//proc->isMplayerAtLeast(22000);
+
 	if (value < 0) value = 0;
 	if (value != mset.sub_scale) {
 		mset.sub_scale = value;
