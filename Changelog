@@ -20,7 +20,7 @@
    the mplayer version will be checked to know if changing audio track 
    needs to restart the mplayer process or not.
  * The option "Fast audio track switching" in Preferences->Advanced has been
-   disabled until a new one (a combobox) which support the 3 values is added.
+   disabled until a new one (a combobox) which supports the 3 values is added.
 
 (2007-10-31)
  * Added code to test the slave command "select_sub" (see 
