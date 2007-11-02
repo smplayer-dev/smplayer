@@ -2110,12 +2110,21 @@ void Core::decSubPos() {
 void Core::changeSubScale(int value) {
 	qDebug("Core::changeSubScale: %d", value);
 
-	//proc->isMplayerAtLeast(22000);
+	bool need_restart = false;
+	if (pref->use_ass_subtitles || 
+        pref->change_sub_scale_requires_restart == Preferences::Enabled)
+	{
+		need_restart = true;
+	}
+	else
+	if (pref->change_sub_scale_requires_restart == Preferences::Detect) {
+		need_restart = (!proc->isMplayerAtLeast(23745));
+	}
 
 	if (value < 0) value = 0;
 	if (value != mset.sub_scale) {
 		mset.sub_scale = value;
-		if (pref->use_ass_subtitles || pref->change_sub_scale_requires_restart) {
+		if (need_restart) {
 			restartPlay();
 		} else {
 			tellmp("sub_scale " + QString::number( mset.sub_scale ) + " 1");

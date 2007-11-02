@@ -33,6 +33,7 @@ public:
 	enum Priority { Realtime = 0, High = 1, AboveNormal = 2, Normal = 3,
                     BelowNormal = 4, Idle = 5 };
 	enum WheelFunction { Seeking = 0, Volume = 1, Zoom = 2 };
+	enum OptionState { Detect = -1, Disabled = 0, Enabled = 1 };
 
 	Preferences();
 	virtual ~Preferences();
@@ -61,7 +62,7 @@ public:
 	unsigned int ass_color;
 	unsigned int ass_border_color;
 	QString ass_styles;
-	bool change_sub_scale_requires_restart;
+	OptionState change_sub_scale_requires_restart;
 
 	int osd;
 

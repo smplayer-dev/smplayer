@@ -2,6 +2,12 @@
 
 (2007-11-01)
  * Now mplayerprocess can identify the mplayer version (or svn revision).
+ * Added autodetection possibility for changing the font size of subtitles.
+   Now the values for the config option "change_sub_scale_requires_restart"
+   are different: -1 means autodetect, 0 = false, 1 = true (by default -1).
+   Autodetect will check the mplayer version to know if it's recent enough
+   to have the slave command "sub_scale". But autodetect can fail with very
+   old versions of mplayer (< 1.0rc1).
 
 (2007-10-31)
  * Added code to test the slave command "select_sub" (see 
