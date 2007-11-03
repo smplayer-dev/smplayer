@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -172,7 +173,7 @@
     <message>
         <location filename="../aboutdialog.cpp" line="119"/>
         <source>Greek</source>
-        <translation type="unfinished">Greacă</translation>
+        <translation>Greacă</translation>
     </message>
 </context>
 <context>
@@ -1383,7 +1384,9 @@ Example: -flip -nosound</source>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
-        <translation>Puteţi introduce filtre video suplimentareSeparaţi-le prin &quot;,&quot;.Nu utilizaţi spaţii!Exemplu: scale=512:-2,eq2=1.1</translation>
+        <translation>Puteţi introduce filtre video suplimentare.
+Separaţi-le prin &quot;,&quot;.Nu utilizaţi spaţii!
+Exemplu: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="351"/>
@@ -1394,7 +1397,8 @@ Example: scale=512:-2,eq2=1.1</source>
         <location filename="../filepropertiesdialog.ui" line="390"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
-        <translation>Şi, în sfârşit, filtrele audio.Se folosesc aceleaşi reguli ca pentru filtrele video.Exemplu: resample=44100:0:0,volnorm</translation>
+        <translation>Şi, în sfârşit, filtrele audio.
+Se folosesc aceleaşi reguli ca pentru filtrele video.Exemplu: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="412"/>
@@ -2818,7 +2822,8 @@ The drop-down lists may provide already made regular expression for several lang
         <location filename="../prefgeneral.ui" line="635"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;Here it goes an explanation text&gt;
+</translation>
     </message>
 </context>
 <context>
