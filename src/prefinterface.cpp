@@ -83,7 +83,7 @@ void PrefInterface::createLanguageCombo() {
 	m["ca"] = tr("Catalan");
 	m["cs"] = tr("Czech");
 	m["de"] = tr("German");
-	m["el"] = tr("Greek");
+	m["el_GR"] = tr("Greek");
 	m["en_US"] = tr("English");
 	m["es"] = tr("Spanish");
 	m["eu"] = tr("Basque");

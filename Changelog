@@ -1,5 +1,8 @@
 [b]Version 0.5.62[/b] (not released yet):
 
+(2007-11-02)
+ * Added the Greek translation sent by my80s <wamy80s@gmail.com>.
+
 (2007-11-01)
  * Fixed a bug which prevented to select the first (or preferred) subtitle
    when playing a new video.
