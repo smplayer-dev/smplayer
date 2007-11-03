@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -2094,17 +2095,17 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefadvanced.ui" line="105"/>
         <source>Logs</source>
-        <translation type="unfinished">Logs</translation>
+        <translation>Journaux</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="117"/>
         <source>Log MPlayer &amp;output</source>
-        <translation type="unfinished"></translation>
+        <translation>Journal MPlayer &amp;sortie</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="270"/>
         <source>Options for MP&amp;layer</source>
-        <translation type="unfinished"></translation>
+        <translation>Options pour MP&amp;layer</translation>
     </message>
 </context>
 <context>
@@ -2830,12 +2831,12 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefgeneral.ui" line="623"/>
         <source>Preferre&amp;d audio and subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Au&amp;dio et sous-titres préférés</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="772"/>
         <source>&amp;Subtitle:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sous-titrage :</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="79"/>
