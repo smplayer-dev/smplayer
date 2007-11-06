@@ -5,8 +5,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>452</width>
-    <height>542</height>
+    <width>421</width>
+    <height>571</height>
    </rect>
   </property>
   <property name="windowIcon" >
@@ -362,20 +362,39 @@
           <number>6</number>
          </property>
          <item>
-          <widget class="QCheckBox" name="fastaudioswitching_check" >
+          <widget class="QLabel" name="label" >
            <property name="text" >
             <string>&amp;Fast audio track switching</string>
+           </property>
+           <property name="buddy" >
+            <cstring>fast_audio_combo</cstring>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="QCheckBox" name="fast_chapter_check" >
-           <property name="text" >
-            <string>Fast &amp;seek to chapters in dvds</string>
+          <widget class="TristateCombo" name="fast_audio_combo" />
+         </item>
+         <item>
+          <spacer>
+           <property name="orientation" >
+            <enum>Qt::Horizontal</enum>
            </property>
-          </widget>
+           <property name="sizeHint" >
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
          </item>
         </layout>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="fast_chapter_check" >
+         <property name="text" >
+          <string>Fast &amp;seek to chapters in dvds</string>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="Line" name="line" >
@@ -410,6 +429,13 @@
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>TristateCombo</class>
+   <extends>QComboBox</extends>
+   <header>tristatecombo.h</header>
+  </customwidget>
+ </customwidgets>
  <tabstops>
   <tabstop>tabWidget</tabstop>
   <tabstop>priority_combo</tabstop>
@@ -419,7 +445,6 @@
   <tabstop>hardframedrop_check</tabstop>
   <tabstop>autosync_check</tabstop>
   <tabstop>autosync_spin</tabstop>
-  <tabstop>fastaudioswitching_check</tabstop>
   <tabstop>fast_chapter_check</tabstop>
  </tabstops>
  <resources/>

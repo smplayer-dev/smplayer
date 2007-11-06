@@ -32,10 +32,6 @@ PrefPerformance::PrefPerformance(QWidget * parent, Qt::WindowFlags f)
 	priority_group->hide();
 #endif
 
-	//FIXME: fast audio change has to be now a combobox
-	// meanwhile the option is disabled
-	fastaudioswitching_check->setEnabled(false);
-
 	// This option is not good. Playing is awful, even with no H.264 videos.
 	skip_frames_check->hide();
 
@@ -76,7 +72,7 @@ void PrefPerformance::setData(Preferences * pref) {
 	setAutoSyncActivated( pref->autosync );
 	setAutoSyncFactor( pref->autosync_factor );
 	setFastChapterSeeking( pref->fast_chapter_change );
-	//setFastAudioSwitching( !pref->audio_change_requires_restart );
+	setFastAudioSwitching( pref->fast_audio_change );
 	setUseIdx( pref->use_idx );
 }
 
@@ -93,7 +89,7 @@ void PrefPerformance::getData(Preferences * pref) {
 	TEST_AND_SET(pref->autosync, autoSyncActivated());
 	TEST_AND_SET(pref->autosync_factor, autoSyncFactor());
 	TEST_AND_SET(pref->fast_chapter_change, fastChapterSeeking());
-	//pref->audio_change_requires_restart = !fastAudioSwitching();
+	pref->fast_audio_change = fastAudioSwitching();
 	TEST_AND_SET(pref->use_idx, useIdx());
 }
 
@@ -177,12 +173,12 @@ bool PrefPerformance::fastChapterSeeking() {
 	return fast_chapter_check->isChecked();
 }
 
-void PrefPerformance::setFastAudioSwitching(bool b) {
-	fastaudioswitching_check->setChecked(b);
+void PrefPerformance::setFastAudioSwitching(Preferences::OptionState value) {
+	fast_audio_combo->setState(value);
 }
 
-bool PrefPerformance::fastAudioSwitching() {
-	return fastaudioswitching_check->isChecked();
+Preferences::OptionState PrefPerformance::fastAudioSwitching() {
+	return fast_audio_combo->state();
 }
 
 void PrefPerformance::setUseIdx(bool b) {
@@ -235,9 +231,14 @@ void PrefPerformance::createHelp() {
 		tr("Gradually adjusts the A/V sync based on audio delay "
            "measurements.") );
 
-	setWhatsThis(fastaudioswitching_check, tr("Fast audio track switching"),
-		tr("If checked, it will try the fastest method to switch audio "
-           "tracks but might not work with some formats.") );
+	setWhatsThis(fast_audio_combo, tr("Fast audio track switching"),
+		tr("Possible values:<br> "
+           "<b>Yes</b>: it will try the fastest method "
+           "to switch the audio track (it might not work with some formats).<br> "
+           "<b>No</b>: the MPlayer process will be restarted whenever you "
+           "change the audio track.<br> "
+           "<b>Auto</b>: SMPlayer will decide what to do according to the "
+           "MPlayer version." ) );
 
 	setWhatsThis(fast_chapter_check, tr("Fast seek to chapters in dvds"),
 		tr("If checked, it will try the fastest method to seek to chapters "

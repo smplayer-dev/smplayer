@@ -1136,7 +1136,7 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
         <translation>Hangerő: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2565"/>
+        <location filename="../core.cpp" line="2568"/>
         <source>Zoom: %1</source>
         <translation>Nagyítás: %1</translation>
     </message>
@@ -3258,7 +3258,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="47"/>
+        <location filename="../prefperformance.cpp" line="46"/>
         <source>Performance</source>
         <translation>Teljesítmény</translation>
     </message>
@@ -3328,7 +3328,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Állítson be egy gyorsítótárat, a lassú médiánál a teljesítményt megnövelheti</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="210"/>
+        <location filename="../prefperformance.cpp" line="209"/>
         <source>Allow frame drop</source>
         <translation>Kép eldobás engedélyezése</translation>
     </message>
@@ -3343,7 +3343,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Szinkronizáció</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="229"/>
+        <location filename="../prefperformance.cpp" line="230"/>
         <source>Audio/video auto synchronization</source>
         <translation>Automatikus Hang/Videó Szinkronizálás</translation>
     </message>
@@ -3353,48 +3353,48 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Faktor:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="233"/>
+        <location filename="../prefperformance.cpp" line="234"/>
         <source>Fast audio track switching</source>
         <translation type="unfinished">Gyors hangsáv váltás</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="237"/>
+        <location filename="../prefperformance.cpp" line="243"/>
         <source>Fast seek to chapters in dvds</source>
         <translation type="unfinished">Gyors léptetés a fejezetekhez a dvd-ken</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="201"/>
+        <location filename="../prefperformance.cpp" line="200"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Az mplayer rendszer-folyamat priorításának beállítása az preferált priorításokhoz ami elérhető a Windows-ban.&lt;br&gt;&lt;b&gt;Figyelem:&lt;/b&gt; A valósidejű priorítás használata rendszervisszacsatolást okozhat.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="204"/>
+        <location filename="../prefperformance.cpp" line="203"/>
         <source>&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option is for Windows only.</source>
         <translation>&lt;br&gt;&lt;b&gt;Megjegyzés:&lt;/b&gt; Ez az opció csak a Windows-hoz érhető el.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="208"/>
+        <location filename="../prefperformance.cpp" line="207"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file or URL. Especially useful on slow media.</source>
         <translation>
 Ez az opció adja meg, hogy mennyi memóriát (kBytekben) használjon az újratároláshoz egy file vagy url. Legjobb lassú médiákhoz.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="211"/>
+        <location filename="../prefperformance.cpp" line="210"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Vessen el a megjelenító pár képet a A/V szinkronizálásból lassú rendszeren.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="213"/>
+        <location filename="../prefperformance.cpp" line="212"/>
         <source>Allow hard frame drop</source>
         <translation>Engedélyezi a durva kép eldobást </translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="215"/>
+        <location filename="../prefperformance.cpp" line="214"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>Intenzívebb képdobás (dekódolás törés). Képtorzuláshoz vezethet!</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="231"/>
+        <location filename="../prefperformance.cpp" line="232"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>Fokozatosan igazítja az A/V szinkron bázist az audio késleltetés mérésen.</translation>
     </message>
@@ -3439,53 +3439,38 @@ Ez az opció adja meg, hogy mennyi memóriát (kBytekben) használjon az újrat�
         <translation>&amp;Gyors hangsáv váltás</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="374"/>
+        <location filename="../prefperformance.ui" line="395"/>
         <source>Fast &amp;seek to chapters in dvds</source>
         <translation>Gyors &amp;léptetés a fejezetekhez a dvd-ken</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="241"/>
+        <location filename="../prefperformance.cpp" line="247"/>
         <source>Create index if needed</source>
         <translation>Tartalomjegyzék létrehozása ha szükséges</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="246"/>
+        <location filename="../prefperformance.cpp" line="252"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="390"/>
+        <location filename="../prefperformance.ui" line="409"/>
         <source>&amp;Create index if needed</source>
         <translation>Tartalomjegyzék &amp;létrehozása ha szükséges</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="235"/>
-        <source>If checked, it will try the fastest method to switch audio tracks but might not work with some formats.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="239"/>
+        <location filename="../prefperformance.cpp" line="245"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="217"/>
+        <location filename="../prefperformance.cpp" line="216"/>
         <source>Skip loop filter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="223"/>
+        <location filename="../prefperformance.cpp" line="222"/>
         <source>Skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="225"/>
-        <source>Skip frames</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="227"/>
-        <source>Skips decoding of frames completely. Big speedup, but jerky motion and sometimes bad artifacts.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3501,6 +3486,11 @@ Ez az opció adja meg, hogy mennyi memóriát (kBytekben) használjon az újrat�
     <message>
         <location filename="../prefperformance.ui" line="269"/>
         <source>Sk&amp;ip frames</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="241"/>
+        <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3962,6 +3952,24 @@ Ez az opció adja meg, hogy mennyi memóriát (kBytekben) használjon az újrat�
         <location filename="../shortcutgetter.cpp" line="283"/>
         <source>Capture keystrokes</source>
         <translation>Pillanatképek billentyűkódja</translation>
+    </message>
+</context>
+<context>
+    <name>TristateCombo</name>
+    <message>
+        <location filename="../tristatecombo.cpp" line="34"/>
+        <source>Auto</source>
+        <translation type="unfinished">Auto</translation>
+    </message>
+    <message>
+        <location filename="../tristatecombo.cpp" line="35"/>
+        <source>Yes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../tristatecombo.cpp" line="36"/>
+        <source>No</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

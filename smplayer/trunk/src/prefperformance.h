@@ -22,7 +22,7 @@
 #include "ui_prefperformance.h"
 #include "prefwidget.h"
 
-class Preferences;
+#include "preferences.h"
 
 class PrefPerformance : public PrefWidget, public Ui::PrefPerformance
 {
@@ -74,8 +74,8 @@ protected:
 	void setFastChapterSeeking(bool b);
 	bool fastChapterSeeking();
 
-	void setFastAudioSwitching(bool b);
-	bool fastAudioSwitching();
+	void setFastAudioSwitching(Preferences::OptionState value);
+	Preferences::OptionState fastAudioSwitching();
 
 	void setUseIdx(bool);
 	bool useIdx();

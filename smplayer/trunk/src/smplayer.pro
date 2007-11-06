@@ -38,6 +38,7 @@ HEADERS	+= config.h \
 	actionseditor.h \
 	preferencesdialog.h \
 	mycombobox.h \
+	tristatecombo.h \
 	prefwidget.h \
 	prefgeneral.h \
 	prefdrives.h \
@@ -94,6 +95,7 @@ SOURCES	+= version.cpp \
 	actionseditor.cpp \
 	preferencesdialog.cpp \
 	mycombobox.cpp \
+	tristatecombo.cpp \
 	prefwidget.cpp \
 	prefgeneral.cpp \
 	prefdrives.cpp \

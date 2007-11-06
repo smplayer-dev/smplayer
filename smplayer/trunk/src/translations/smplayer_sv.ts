@@ -1146,7 +1146,7 @@ Nu visas konfigurationsdialogen så att du kan göra detta.</translation>
         <translation>Volym: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2565"/>
+        <location filename="../core.cpp" line="2568"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
@@ -3267,7 +3267,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="47"/>
+        <location filename="../prefperformance.cpp" line="46"/>
         <source>Performance</source>
         <translation type="unfinished">Prestanda</translation>
     </message>
@@ -3347,7 +3347,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">En cache kan förbättra prestanda för långsamma media.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="210"/>
+        <location filename="../prefperformance.cpp" line="209"/>
         <source>Allow frame drop</source>
         <translation type="unfinished">Tillåt &apos;frame drop&apos;</translation>
     </message>
@@ -3362,7 +3362,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">Synkronisering</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="229"/>
+        <location filename="../prefperformance.cpp" line="230"/>
         <source>Audio/video auto synchronization</source>
         <translation type="unfinished">Autosynkronisering av ljud/video</translation>
     </message>
@@ -3372,47 +3372,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Faktor:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="233"/>
+        <location filename="../prefperformance.cpp" line="234"/>
         <source>Fast audio track switching</source>
         <translation type="unfinished">Snabbt byte av ljudspår</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="237"/>
+        <location filename="../prefperformance.cpp" line="243"/>
         <source>Fast seek to chapters in dvds</source>
         <translation type="unfinished">Snabbsökning till kapitel på DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="201"/>
+        <location filename="../prefperformance.cpp" line="200"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation type="unfinished">Ange processprioritering för MPlayer enligt de fördefinierade prioriteter tillgängliga under Windows.&lt;br&gt;&lt;b&gt;VARNING:&lt;/b&gt; Realtidsprioritet kan låsa systemet helt.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="204"/>
+        <location filename="../prefperformance.cpp" line="203"/>
         <source>&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option is for Windows only.</source>
         <translation type="unfinished">&lt;br&gt;&lt;b&gt;OBS:&lt;/b&gt; Detta alternativ gäller endast Windows.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="208"/>
+        <location filename="../prefperformance.cpp" line="207"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file or URL. Especially useful on slow media.</source>
         <translation type="unfinished">Detta alternativ anger hur mycket minne (i kB) som ska användas när en fil eller URL cachas i förväg. Speciellt användbart vid långsamma media.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="211"/>
+        <location filename="../prefperformance.cpp" line="210"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation type="unfinished">Strunta i att visa vissa bildrutor för att bibehålla bild-ljudsynkroniseringen på långsamma system.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="213"/>
+        <location filename="../prefperformance.cpp" line="212"/>
         <source>Allow hard frame drop</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="215"/>
+        <location filename="../prefperformance.cpp" line="214"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation type="unfinished">Hoppar över ännu fler bildrutor. Leder till distortion av bilden!</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="231"/>
+        <location filename="../prefperformance.cpp" line="232"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation type="unfinished">Anpassar gradvis ljud-bildsynkroniseringen baserat på mätningar av ljudfördröjning.</translation>
     </message>
@@ -3457,53 +3457,38 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="374"/>
+        <location filename="../prefperformance.ui" line="395"/>
         <source>Fast &amp;seek to chapters in dvds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="241"/>
+        <location filename="../prefperformance.cpp" line="247"/>
         <source>Create index if needed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="246"/>
+        <location filename="../prefperformance.cpp" line="252"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="390"/>
+        <location filename="../prefperformance.ui" line="409"/>
         <source>&amp;Create index if needed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="235"/>
-        <source>If checked, it will try the fastest method to switch audio tracks but might not work with some formats.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="239"/>
+        <location filename="../prefperformance.cpp" line="245"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="217"/>
+        <location filename="../prefperformance.cpp" line="216"/>
         <source>Skip loop filter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="223"/>
+        <location filename="../prefperformance.cpp" line="222"/>
         <source>Skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="225"/>
-        <source>Skip frames</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="227"/>
-        <source>Skips decoding of frames completely. Big speedup, but jerky motion and sometimes bad artifacts.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3519,6 +3504,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="269"/>
         <source>Sk&amp;ip frames</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="241"/>
+        <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3994,6 +3984,24 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shortcutgetter.cpp" line="283"/>
         <source>Capture keystrokes</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TristateCombo</name>
+    <message>
+        <location filename="../tristatecombo.cpp" line="34"/>
+        <source>Auto</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../tristatecombo.cpp" line="35"/>
+        <source>Yes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../tristatecombo.cpp" line="36"/>
+        <source>No</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
