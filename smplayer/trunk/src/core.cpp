@@ -1713,7 +1713,8 @@ void Core::wheelUp() {
 	switch (pref->wheel_function) {
 		case Preferences::Volume : incVolume(); break;
 		case Preferences::Zoom : incPanscan(); break;
-		default : forward( pref->seeking4 );
+		case Preferences::Seeking : forward( pref->seeking4 ); break;
+		default : {} // do nothing
 	}
 }
 
@@ -1722,7 +1723,8 @@ void Core::wheelDown() {
 	switch (pref->wheel_function) {
 		case Preferences::Volume : decVolume(); break;
 		case Preferences::Zoom : decPanscan(); break;
-		default : rewind( pref->seeking4 );
+		case Preferences::Seeking : rewind( pref->seeking4 ); break;
+		default : {} // do nothing
 	}
 }
 
