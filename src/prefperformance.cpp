@@ -36,6 +36,9 @@ PrefPerformance::PrefPerformance(QWidget * parent, Qt::WindowFlags f)
 	// meanwhile the option is disabled
 	fastaudioswitching_check->setEnabled(false);
 
+	// This option is not good. Playing is awful, even with no H.264 videos.
+	skip_frames_check->hide();
+
 	createHelp();
 }
 
@@ -69,7 +72,7 @@ void PrefPerformance::setData(Preferences * pref) {
 	setFrameDrop( pref->frame_drop );
 	setHardFrameDrop( pref->hard_frame_drop );
 	setSkipLoop( pref->h264_skip_loop );
-	setSkipFrames( pref->h264_skip_frames );
+	/* setSkipFrames( pref->h264_skip_frames ); */
 	setAutoSyncActivated( pref->autosync );
 	setAutoSyncFactor( pref->autosync_factor );
 	setFastChapterSeeking( pref->fast_chapter_change );
@@ -86,7 +89,7 @@ void PrefPerformance::getData(Preferences * pref) {
 	TEST_AND_SET(pref->frame_drop, frameDrop());
 	TEST_AND_SET(pref->hard_frame_drop, hardFrameDrop());
 	TEST_AND_SET(pref->h264_skip_loop, skipLoop());
-	TEST_AND_SET(pref->h264_skip_frames, skipFrames());
+	/* TEST_AND_SET(pref->h264_skip_frames, skipFrames()); */
 	TEST_AND_SET(pref->autosync, autoSyncActivated());
 	TEST_AND_SET(pref->autosync_factor, autoSyncFactor());
 	TEST_AND_SET(pref->fast_chapter_change, fastChapterSeeking());
@@ -222,9 +225,11 @@ void PrefPerformance::createHelp() {
            "high bitrate HDTV this provides a big speedup with no visible "
            "quality loss.") );
 
+	/*
 	setWhatsThis(skip_frames_check, tr("Skip frames"),
 		tr("Skips decoding of frames completely. Big speedup, but jerky "
            "motion and sometimes bad artifacts.") );
+	*/
 
 	setWhatsThis(autosync_check, tr("Audio/video auto synchronization"),
 		tr("Gradually adjusts the A/V sync based on audio delay "

@@ -1,5 +1,9 @@
 [b]Version 0.5.62[/b] (not released yet):
 
+(2007-11-05)
+ * Removed option H.264->Skip frames, as it affects non H.264 videos too.
+   The option in the config file is still available.
+
 (2007-11-03)
  * Adapted the code for patch select_sub_by_source_property2.diff.
 
