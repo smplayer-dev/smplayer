@@ -3,6 +3,9 @@
 (2007-11-05)
  * Removed option H.264->Skip frames, as it affects non H.264 videos too.
    The option in the config file is still available.
+ * Added again the "Fast audio track switching" in Preferences->Performance,
+   with a combo to select the 3 possible values: Auto, Yes and No.
+   There's included help for this option, so I won't explain here.
 
 (2007-11-03)
  * Adapted the code for patch select_sub_by_source_property2.diff.

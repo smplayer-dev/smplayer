@@ -85,7 +85,7 @@ void Preferences::reset() {
 	cdrom_device = "";
 
 	// MPlayer 1.0rc1 require restart, new versions don't
-	audio_change_should_restart = Detect;
+	fast_audio_change = Detect;
 	fast_chapter_change = false;
 
 	use_cache = false;
@@ -268,7 +268,7 @@ void Preferences::save() {
 
 	set->setValue("color_key", QString::number(color_key,16));
 
-	set->setValue("audio_change_should_restart", audio_change_should_restart);
+	set->setValue("fast_audio_change", fast_audio_change);
 	set->setValue("fast_chapter_change", fast_chapter_change);
 
 	set->setValue("dvd_device", dvd_device);
@@ -458,7 +458,7 @@ void Preferences::load() {
 		color_key = temp_color_key;
 	//color_key = set->value("color_key", color_key).toInt();
 
-	audio_change_should_restart = (OptionState) set->value("audio_change_should_restart", audio_change_should_restart).toInt();
+	fast_audio_change = (OptionState) set->value("fast_audio_change", fast_audio_change).toInt();
 	fast_chapter_change = set->value("fast_chapter_change", fast_chapter_change).toBool();
 
 	dvd_device = set->value("dvd_device", dvd_device).toString();

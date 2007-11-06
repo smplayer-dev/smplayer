@@ -1146,7 +1146,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>音量: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2565"/>
+        <location filename="../core.cpp" line="2568"/>
         <source>Zoom: %1</source>
         <translation>拡大率: %1</translation>
     </message>
@@ -3321,7 +3321,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="47"/>
+        <location filename="../prefperformance.cpp" line="46"/>
         <source>Performance</source>
         <translation>パフォーマンス</translation>
     </message>
@@ -3331,12 +3331,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>優先度</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="201"/>
+        <location filename="../prefperformance.cpp" line="200"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Windows 下で利用可能な所定の優先度に従って mplayer のプロセス優先度を設定します。&lt;br&gt;&lt;b&gt;警告:&lt;/b&gt; リアルタイム優先度の使用はシステム ロックアップを引き起こす可能性があります。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="204"/>
+        <location filename="../prefperformance.cpp" line="203"/>
         <source>&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option is for Windows only.</source>
         <translation>&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; このオプションは Windows 専用です。</translation>
     </message>
@@ -3346,37 +3346,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>キャッシュ</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="208"/>
+        <location filename="../prefperformance.cpp" line="207"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file or URL. Especially useful on slow media.</source>
         <translation>このオプションはファイルまたは URL をプリキャッチしたときにメモリ (k バイト) をどのくらい使用するかを指定します。特に遅いメディアにおいて有用です。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="210"/>
+        <location filename="../prefperformance.cpp" line="209"/>
         <source>Allow frame drop</source>
         <translation>フレーム ドロップを許可する</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="211"/>
+        <location filename="../prefperformance.cpp" line="210"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>いくつかのフレームの表示をスキップして遅いシステムでの A/V 同期を維持させます。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="213"/>
+        <location filename="../prefperformance.cpp" line="212"/>
         <source>Allow hard frame drop</source>
         <translation>ハード フレーム ドロップを許可する</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="215"/>
+        <location filename="../prefperformance.cpp" line="214"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>より強烈なフレーム ドロップです (デコードが破損します)。イメージの歪曲の原因となります!</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="229"/>
+        <location filename="../prefperformance.cpp" line="230"/>
         <source>Audio/video auto synchronization</source>
         <translation>オーディオ/ビデオの自動同期化</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="231"/>
+        <location filename="../prefperformance.cpp" line="232"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>徐々にオーディオの遅延測定を基準にして A/V 同期を調整します。</translation>
     </message>
@@ -3466,12 +3466,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">要因:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="233"/>
+        <location filename="../prefperformance.cpp" line="234"/>
         <source>Fast audio track switching</source>
         <translation>オーディオ トラックの高速切り替え</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="237"/>
+        <location filename="../prefperformance.cpp" line="243"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Dvd のチャプタを高速シークする</translation>
     </message>
@@ -3516,54 +3516,54 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>オーディオ トラックの高速切り替え(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="374"/>
+        <location filename="../prefperformance.ui" line="395"/>
         <source>Fast &amp;seek to chapters in dvds</source>
         <translation>Dvd のチャプタを高速シークする(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="241"/>
+        <location filename="../prefperformance.cpp" line="247"/>
         <source>Create index if needed</source>
         <translation>必要ならインデックスを作成する</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="246"/>
+        <location filename="../prefperformance.cpp" line="252"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
         <translation>インデックスが見つからなかった場合にファイルのインデックスを再構築し、シークを許可します。破損した/未完了のダウンロード、または不良に作成されたファイルに有用です。このオプションは基礎となるメディアがシークをサポートする場合のみ動作します (すなわち stdin、pipe、などを持たないもの)。&lt;br&gt; 注意: インデックスの作成には時間がかかる可能性があります。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="390"/>
+        <location filename="../prefperformance.ui" line="409"/>
         <source>&amp;Create index if needed</source>
         <translation>必要ならインデックスを作成する(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="235"/>
+        <location filename="../prefperformance.cpp" line="236"/>
         <source>If checked, it will try the fastest method to switch audio tracks but might not work with some formats.</source>
-        <translation>チェックされている場合、オーディオ トラックを切り替えるのに最速の方法を試行しますがいくつかのフォーマットでは動作しない可能性があります。</translation>
+        <translation type="obsolete">チェックされている場合、オーディオ トラックを切り替えるのに最速の方法を試行しますがいくつかのフォーマットでは動作しない可能性があります。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="239"/>
+        <location filename="../prefperformance.cpp" line="245"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>チェックされている場合、チャプタをシークするのに最速の方法を試行しますがいくつかのディスクでは動作しない可能性があります。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="217"/>
+        <location filename="../prefperformance.cpp" line="216"/>
         <source>Skip loop filter</source>
         <translation>ループ フィルタをスキップする</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="223"/>
+        <location filename="../prefperformance.cpp" line="222"/>
         <source>Skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>H.264 デコードの間にループ フィルタ (AKA デコード) をスキップします。フィルタ済みのフレームは依存性フレームのデコードの参照として使用されこれは MPEG-2 ビデオなどでブロック解除しないより品質での効果が悪いです。しかし少なくとも高ビットレート HDTV にこれは可視の品質低下なしでの大きな加速化を提供します。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="225"/>
         <source>Skip frames</source>
-        <translation>フレームをスキップする</translation>
+        <translation type="obsolete">フレームをスキップする</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="227"/>
         <source>Skips decoding of frames completely. Big speedup, but jerky motion and sometimes bad artifacts.</source>
-        <translation>完全にフレームのデコードをスキップします。大きな加速化ですが、ぎくしゃくした動作と時々悪いアーチファクトです。</translation>
+        <translation type="obsolete">完全にフレームのデコードをスキップします。大きな加速化ですが、ぎくしゃくした動作と時々悪いアーチファクトです。</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="250"/>
@@ -3579,6 +3579,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.ui" line="269"/>
         <source>Sk&amp;ip frames</source>
         <translation>フレームをスキップする(&amp;I)</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="241"/>
+        <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4089,6 +4094,24 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../shortcutgetter.cpp" line="283"/>
         <source>Capture keystrokes</source>
         <translation>キーストロークのキャプチャ</translation>
+    </message>
+</context>
+<context>
+    <name>TristateCombo</name>
+    <message>
+        <location filename="../tristatecombo.cpp" line="34"/>
+        <source>Auto</source>
+        <translation type="unfinished">自動</translation>
+    </message>
+    <message>
+        <location filename="../tristatecombo.cpp" line="35"/>
+        <source>Yes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../tristatecombo.cpp" line="36"/>
+        <source>No</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

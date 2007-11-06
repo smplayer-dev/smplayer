@@ -2289,8 +2289,8 @@ void Core::changeAudio(int ID) {
 		mset.current_audio_id = ID;
 		qDebug("changeAudio: ID: %d", ID);
 
-		bool need_restart = (pref->audio_change_should_restart == Preferences::Enabled);
-		if (pref->audio_change_should_restart == Preferences::Detect) {
+		bool need_restart = (pref->fast_audio_change == Preferences::Disabled);
+		if (pref->fast_audio_change == Preferences::Detect) {
 			need_restart = (!proc->isMplayerAtLeast(21441));
 		}
 

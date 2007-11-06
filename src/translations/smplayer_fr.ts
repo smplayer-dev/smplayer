@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
-<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -79,12 +78,12 @@
         <translation>Tchèque</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="120"/>
+        <location filename="../aboutdialog.cpp" line="121"/>
         <source>Logo designed by %1</source>
         <translation>Logo créé par %1</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="139"/>
+        <location filename="../aboutdialog.cpp" line="140"/>
         <source>Get updates at: %1</source>
         <translation>Mises à jour : %1</translation>
     </message>
@@ -154,21 +153,26 @@
         <translation>%1 et %2</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="129"/>
+        <location filename="../aboutdialog.cpp" line="130"/>
         <source>http://smplayer.sourceforge.net/en/windows/download.php</source>
         <comment>If the web page is translated into your language you can change the URL so it points to the download page in the translation.Otherwise leave as is.</comment>
         <translation>http://smplayer.sourceforge.net/fr/windows/download.php</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="134"/>
+        <location filename="../aboutdialog.cpp" line="135"/>
         <source>http://smplayer.sourceforge.net/en/linux/download.php</source>
         <comment>If the web page is translated into your language you can change the URL so it points to the download page in the translation.Otherwise leave as is.</comment>
         <translation>http://smplayer.sourceforge.net/fr/linux/download.php</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="151"/>
+        <location filename="../aboutdialog.cpp" line="152"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; : %2</translation>
+    </message>
+    <message>
+        <location filename="../aboutdialog.cpp" line="119"/>
+        <source>Greek</source>
+        <translation type="unfinished">Grecque</translation>
     </message>
 </context>
 <context>
@@ -1152,7 +1156,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
         <translation>Volume : %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2529"/>
+        <location filename="../core.cpp" line="2568"/>
         <source>Zoom: %1</source>
         <translation>Zoom : %1</translation>
     </message>
@@ -3334,7 +3338,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="43"/>
+        <location filename="../prefperformance.cpp" line="46"/>
         <source>Performance</source>
         <translation>Performance</translation>
     </message>
@@ -3419,7 +3423,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Régler le cache peut améliorer les performances sur les médias lents</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="206"/>
+        <location filename="../prefperformance.cpp" line="209"/>
         <source>Allow frame drop</source>
         <translation>Activer le saut d&apos;images</translation>
     </message>
@@ -3434,7 +3438,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Synchronisation</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="225"/>
+        <location filename="../prefperformance.cpp" line="230"/>
         <source>Audio/video auto synchronization</source>
         <translation>Synchronisation auto audio/video</translation>
     </message>
@@ -3444,47 +3448,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Facteur :</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="229"/>
+        <location filename="../prefperformance.cpp" line="234"/>
         <source>Fast audio track switching</source>
         <translation>Changement rapide de pistes audio</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="233"/>
+        <location filename="../prefperformance.cpp" line="243"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Sauts de chapitres rapides dans les DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="197"/>
+        <location filename="../prefperformance.cpp" line="200"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Définir la priorité du processus pour MPlayer.&lt;br&gt;&lt;b&gt;ATTENTION :&lt;/b&gt; &quot;Temps réel&quot; peut conduire à un blocage du système.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="200"/>
+        <location filename="../prefperformance.cpp" line="203"/>
         <source>&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option is for Windows only.</source>
         <translation>&lt;br&gt;&lt;b&gt;Note :&lt;/b&gt; Cette option est seulement pour Windows.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="204"/>
+        <location filename="../prefperformance.cpp" line="207"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file or URL. Especially useful on slow media.</source>
         <translation>Cette option indique combien de mémoire (en Ko) est utilisée pour le préchargement d&apos;un fichier ou d&apos;une URL. Particulièrement utile pour les médias lents.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="207"/>
+        <location filename="../prefperformance.cpp" line="210"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Sauter des images pour conserver la synchronisation Audio/Vidéo sur les systèmes lents.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="209"/>
+        <location filename="../prefperformance.cpp" line="212"/>
         <source>Allow hard frame drop</source>
         <translation>Accorder le saut des images erronées</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="211"/>
+        <location filename="../prefperformance.cpp" line="214"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>Saut d&apos;images intense (destructif). Induit des distorsions d&apos;images !</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="227"/>
+        <location filename="../prefperformance.cpp" line="232"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>Ajustement graduel de la synchronisation A/V basé sur les mesures de délai audio.</translation>
     </message>
@@ -3529,54 +3533,49 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Changement rapide de pistes audio</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="374"/>
+        <location filename="../prefperformance.ui" line="395"/>
         <source>Fast &amp;seek to chapters in dvds</source>
         <translation>&amp;Sauts de chapitres rapides dans les DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="237"/>
+        <location filename="../prefperformance.cpp" line="247"/>
         <source>Create index if needed</source>
         <translation>Créer un index si nécessaire</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="242"/>
+        <location filename="../prefperformance.cpp" line="252"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
         <translation>Reconstruit l&apos;index des fichiers si aucun index a été trouvé, permettant la recherche. Très utile pour les fichiers cassés ou incomplets ou mal créés. Cette option ne marche que si le media supporte la recherche (par exemple sans stdin, pipe, etc). &lt;br&gt;Note : la création d&apos;index peut prendre un certain temps.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="390"/>
+        <location filename="../prefperformance.ui" line="409"/>
         <source>&amp;Create index if needed</source>
         <translation>&amp;Créer un index si nécessaire</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="231"/>
+        <location filename="../prefperformance.cpp" line="236"/>
         <source>If checked, it will try the fastest method to switch audio tracks but might not work with some formats.</source>
-        <translation>Si cette option est cochée, SMPlayer essayera la plus rapide méthode pour échanger les pistes audios mais ne devraient pas marcher avec certains formats.</translation>
+        <translation type="obsolete">Si cette option est cochée, SMPlayer essayera la plus rapide méthode pour échanger les pistes audios mais ne devraient pas marcher avec certains formats.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="235"/>
+        <location filename="../prefperformance.cpp" line="245"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Si cette option est cochée, SMPlayer essayera la plus rapide méthode pour rechercher les chapitres mais ne devraient pas marcher avec certains disques.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="213"/>
+        <location filename="../prefperformance.cpp" line="216"/>
         <source>Skip loop filter</source>
         <translation>Passer le filtre de boucle</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="219"/>
+        <location filename="../prefperformance.cpp" line="222"/>
         <source>Skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="221"/>
         <source>Skip frames</source>
-        <translation>Passer les images</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="223"/>
-        <source>Skips decoding of frames completely. Big speedup, but jerky motion and sometimes bad artifacts.</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Passer les images</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="250"/>
@@ -3592,6 +3591,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.ui" line="269"/>
         <source>Sk&amp;ip frames</source>
         <translation>Passer les &amp;images</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="241"/>
+        <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4159,6 +4163,24 @@ Si -playlist est utilisée, cela veut dire que SMPlayer passera l&apos;informati
         <location filename="../shortcutgetter.cpp" line="283"/>
         <source>Capture keystrokes</source>
         <translation>Enregistrer les frappes clavier</translation>
+    </message>
+</context>
+<context>
+    <name>TristateCombo</name>
+    <message>
+        <location filename="../tristatecombo.cpp" line="34"/>
+        <source>Auto</source>
+        <translation type="unfinished">Auto</translation>
+    </message>
+    <message>
+        <location filename="../tristatecombo.cpp" line="35"/>
+        <source>Yes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../tristatecombo.cpp" line="36"/>
+        <source>No</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
