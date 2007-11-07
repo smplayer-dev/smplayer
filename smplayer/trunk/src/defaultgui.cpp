@@ -59,8 +59,8 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
 	connect( this, SIGNAL(cursorFarEdges()), 
              this, SLOT(hideFloatingControls()) );
 
-	createMainToolBars();
 	createActions();
+	createMainToolBars();
     createControlWidget();
     createControlWidgetMini();
 	createFloatingControl();
@@ -93,6 +93,8 @@ void DefaultGui::closeEvent( QCloseEvent * ) {
 */
 
 void DefaultGui::createActions() {
+	qDebug("DefaultGui::createActions");
+
 	showMainToolbarAct = new MyAction(Qt::Key_F5, this, "show_main_toolbar" );
 	showMainToolbarAct->setCheckable(true);
 	connect( showMainToolbarAct, SIGNAL(toggled(bool)),
@@ -102,6 +104,20 @@ void DefaultGui::createActions() {
 	showLanguageToolbarAct->setCheckable(true);
 	connect( showLanguageToolbarAct, SIGNAL(toggled(bool)),
              this, SLOT(showLanguageToolbar(bool)) );
+
+#if USE_TIMESLIDERACTION
+	timeslider_action = new TimeSliderAction( this );
+	connect( timeslider_action, SIGNAL( posChanged(int) ), 
+             core, SLOT(goToPos(int)) );
+	connect( timeslider_action, SIGNAL( draggingPos(int) ), 
+             this, SLOT(displayGotoTime(int)) );
+
+	volumeslider_action = new VolumeSliderAction(this);
+	connect( volumeslider_action, SIGNAL( valueChanged(int) ), 
+             core, SLOT( setVolume(int) ) );
+	connect( core, SIGNAL(volumeChanged(int)),
+             volumeslider_action, SLOT(setValue(int)) );
+#endif
 }
 
 void DefaultGui::createMenus() {
@@ -141,6 +157,12 @@ void DefaultGui::createMainToolBars() {
 	toolbar1->addSeparator();
 	toolbar1->addAction(playPrevAct);
 	toolbar1->addAction(playNextAct);
+#if USE_TIMESLIDERACTION
+	// Test:
+	//toolbar1->addSeparator();
+	//toolbar1->addAction(timeslider_action);
+	//toolbar1->addAction(volumeslider_action);
+#endif
 
 	toolbar2 = new QToolBar( this );
 	toolbar2->setObjectName("toolbar2");
@@ -163,6 +185,8 @@ void DefaultGui::createMainToolBars() {
 
 
 void DefaultGui::createControlWidgetMini() {
+	qDebug("DefaultGui::createControlWidgetMini");
+
 	controlwidget_mini = new QToolBar( this );
 	controlwidget_mini->setObjectName("controlwidget_mini");
 	//controlwidget_mini->setResizeEnabled(false);
@@ -176,6 +200,9 @@ void DefaultGui::createControlWidgetMini() {
 
 	controlwidget_mini->addAction(rewind1Act);
 
+#if USE_TIMESLIDERACTION
+	controlwidget_mini->addAction(timeslider_action);
+#else
 	timeslider_mini = new TimeSlider( this );
 	connect( timeslider_mini, SIGNAL( posChanged(int) ), 
              core, SLOT(goToPos(int)) );
@@ -183,6 +210,7 @@ void DefaultGui::createControlWidgetMini() {
              this, SLOT(displayGotoTime(int)) );
 	//controlwidget_mini->setStretchableWidget( timeslider_mini );
 	controlwidget_mini->addWidget(timeslider_mini);
+#endif
 
 	controlwidget_mini->addAction(forward1Act);
 
@@ -190,6 +218,9 @@ void DefaultGui::createControlWidgetMini() {
 
 	controlwidget_mini->addAction(muteAct );
 
+#if USE_TIMESLIDERACTION
+	controlwidget_mini->addAction(volumeslider_action);
+#else
 	volumeslider_mini = new MySlider( this );
 	volumeslider_mini->setValue(50);
 	volumeslider_mini->setMinimum(0);
@@ -206,11 +237,14 @@ void DefaultGui::createControlWidgetMini() {
 	connect( core, SIGNAL(volumeChanged(int)),
              volumeslider_mini, SLOT(setValue(int)) );
 	controlwidget_mini->addWidget(volumeslider_mini);
+#endif
 
 	controlwidget_mini->hide();
 }
 
 void DefaultGui::createControlWidget() {
+	qDebug("DefaultGui::createControlWidget");
+
 	controlwidget = new QToolBar( this );
 	controlwidget->setObjectName("controlwidget");
 	//controlwidget->setResizeEnabled(false);
@@ -228,6 +262,9 @@ void DefaultGui::createControlWidget() {
 	controlwidget->addAction(rewind2Act);
 	controlwidget->addAction(rewind1Act);
 
+#if USE_TIMESLIDERACTION
+	controlwidget->addAction(timeslider_action);
+#else
 	timeslider = new TimeSlider( this );
 	connect( timeslider, SIGNAL( posChanged(int) ), 
              core, SLOT(goToPos(int)) );
@@ -235,6 +272,7 @@ void DefaultGui::createControlWidget() {
              this, SLOT(displayGotoTime(int)) );
 	//controlwidget->setStretchableWidget( timeslider );
 	controlwidget->addWidget(timeslider);
+#endif
 
 	controlwidget->addAction(forward1Act);
 	controlwidget->addAction(forward2Act);
@@ -245,6 +283,9 @@ void DefaultGui::createControlWidget() {
 	controlwidget->addAction(fullscreenAct);
 	controlwidget->addAction(muteAct);
 
+#if USE_TIMESLIDERACTION
+	controlwidget->addAction(volumeslider_action);
+#else
 	volumeslider = new MySlider( this );
 	volumeslider->setMinimum(0);
 	volumeslider->setMaximum(100);
@@ -262,6 +303,7 @@ void DefaultGui::createControlWidget() {
              volumeslider, SLOT(setValue(int)) );
 
 	controlwidget->addWidget(volumeslider);
+#endif
 
 	/*
 	controlwidget->show();
@@ -354,8 +396,10 @@ void DefaultGui::retranslateStrings() {
 	toolbar_menu->menuAction()->setText( tr("&Toolbars") );
 	toolbar_menu->menuAction()->setIcon( Images::icon("toolbars") );
 
+#if !USE_TIMESLIDERACTION
 	volumeslider->setToolTip( tr("Volume") );
 	volumeslider_mini->setToolTip( tr("Volume") );
+#endif
 
 	select_audio->setText( tr("Audio") );
 	select_subtitle->setText( tr("Subtitle") );
@@ -364,8 +408,13 @@ void DefaultGui::retranslateStrings() {
 
 void DefaultGui::displayTime(double sec, int perc, QString text) {
 	time_display->setText( text );
+
+#if USE_TIMESLIDERACTION
+	timeslider_action->setPos(perc);
+#else
 	timeslider->setPos(perc);
 	timeslider_mini->setPos(perc);
+#endif
 
 	//if (floating_control->isVisible()) {
 		floating_control->time->setPos(perc);

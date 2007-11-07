@@ -1,5 +1,15 @@
 [b]Version 0.5.62[/b] (not released yet):
 
+(2007-11-06)
+ * (Experimental internal change) Created a wrapper for the time and volume
+   slider using QWidgetAction. Until now whenever a time or volume slider were
+   needed (there are 3 time sliders and 3 volume sliders) each widget had to
+   be created, set its properties, make connections...  individually = a lot 
+   of duplicated code. Now only one object has to be created (one for the time
+   slider, another one for the volume slider) and then it can be inserted in 
+   any widget that accepts QAction's, as many times as necessary. 
+   Less code and easier.
+
 (2007-11-05)
  * Removed option H.264->Skip frames, as it affects non H.264 videos too.
    The option in the config file is still available.

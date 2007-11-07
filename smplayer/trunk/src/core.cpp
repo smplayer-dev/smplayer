@@ -954,17 +954,14 @@ void Core::fileReachedEnd() {
 	emit mediaFinished();
 }
 
-void Core::goToPos(int perc)
-{
-    qDebug("Core::goToPos: per: %d", perc);
-
-    tellmp ( "seek " + QString::number( perc) + " 1");
+void Core::goToPos(int perc) {
+	qDebug("Core::goToPos: per: %d", perc);
+	tellmp( "seek " + QString::number(perc) + " 1");
 }
 
 
 
-void Core::startMplayer( QString file, double seek )
-{
+void Core::startMplayer( QString file, double seek ) {
 	qDebug("Core::startMplayer");
 
 	if (file.isEmpty()) {
