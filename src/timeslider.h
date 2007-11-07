@@ -20,6 +20,7 @@
 #define _TIMESLIDER_H_
 
 #include <QSlider>
+#include <QWidgetAction>
 
 class MySlider : public QSlider
 {
@@ -63,5 +64,45 @@ private:
 	int position;
 };
 
+/* ------------------------------------------- */
 
+class TimeSliderAction : public QWidgetAction 
+{
+	Q_OBJECT
+
+public:
+	TimeSliderAction( QWidget * parent );
+	~TimeSliderAction();
+
+public slots:
+	virtual void setPos(int);
+	virtual int pos();
+
+signals:
+	void posChanged(int value);
+	void draggingPos(int value);
+
+protected:
+	virtual QWidget * createWidget ( QWidget * parent );
+};
+
+
+class VolumeSliderAction : public QWidgetAction 
+{
+	Q_OBJECT
+
+public:
+	VolumeSliderAction( QWidget * parent );
+	~VolumeSliderAction();
+
+public slots:
+	virtual void setValue(int);
+	virtual int value();
+
+signals:
+	void valueChanged(int value);
+
+protected:
+	virtual QWidget * createWidget ( QWidget * parent );
+};
 #endif
