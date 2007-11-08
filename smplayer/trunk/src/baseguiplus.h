@@ -27,6 +27,9 @@
 class QMenu;
 class PlaylistDock;
 
+class TimeSliderAction;
+class VolumeSliderAction;
+
 class BaseGuiPlus : public BaseGui
 {
 	Q_OBJECT
@@ -50,6 +53,10 @@ protected:
 	virtual void aboutToExitCompactMode();
 
 	virtual void closeEvent( QCloseEvent * e );
+
+	// Functions for other GUI's
+	TimeSliderAction * createTimeSliderAction(QWidget * parent);
+	VolumeSliderAction * createVolumeSliderAction(QWidget * parent);
 
 protected slots:
 	// Reimplemented methods
