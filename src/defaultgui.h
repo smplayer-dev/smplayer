@@ -32,14 +32,8 @@ class QResizeEvent;
 class FloatingControl;
 class MyAction;
 class QMenu;
-
-#if USE_TIMESLIDERACTION
 class TimeSliderAction;
 class VolumeSliderAction;
-#else
-class TimeSlider;
-class MySlider;
-#endif
 
 class DefaultGui : public BaseGuiPlus
 {
@@ -86,6 +80,10 @@ protected slots:
 	virtual void showFloatingMenu(QPoint p);
 	virtual void hideFloatingControls();
 
+	// Reimplemented:
+	virtual void enableActionsOnPlaying();
+	virtual void disableActionsOnStop();
+
 protected:
 	QLabel * time_display;
 	QLabel * frame_display;
@@ -99,16 +97,8 @@ protected:
 	QPushButton * select_audio;
 	QPushButton * select_subtitle;
 
-#if USE_TIMESLIDERACTION
 	TimeSliderAction * timeslider_action;
 	VolumeSliderAction * volumeslider_action;
-#else
-	TimeSlider * timeslider;
-	TimeSlider * timeslider_mini;
-
-	MySlider * volumeslider;
-	MySlider * volumeslider_mini;
-#endif
 
 	FloatingControl * floating_control;
 

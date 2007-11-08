@@ -1,5 +1,8 @@
 [b]Version 0.5.62[/b] (not released yet):
 
+(2007-11-07)
+ * More work on the new code for time and volume sliders.
+
 (2007-11-06)
  * (Experimental internal change) Created a wrapper for the time and volume
    slider using QWidgetAction. Until now whenever a time or volume slider were

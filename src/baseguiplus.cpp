@@ -22,6 +22,8 @@
 #include "images.h"
 #include "playlist.h"
 
+#include "widgetactions.h"
+
 #include <QMenu>
 #include <QCloseEvent>
 
@@ -31,7 +33,6 @@
 #include "desktopinfo.h"
 
 #define PLAYLIST_ON_SIDES 1
-
 #endif
 
 
@@ -444,5 +445,26 @@ void BaseGuiPlus::shrinkWindow() {
 }
 
 #endif
+
+// Convenience functions intended for other GUI's
+TimeSliderAction * BaseGuiPlus::createTimeSliderAction(QWidget * parent) {
+	TimeSliderAction * timeslider_action = new TimeSliderAction( parent );
+	connect( timeslider_action, SIGNAL( posChanged(int) ), 
+             core, SLOT(goToPos(int)) );
+	connect( timeslider_action, SIGNAL( draggingPos(int) ), 
+             this, SLOT(displayGotoTime(int)) );
+
+	return timeslider_action;
+}
+
+VolumeSliderAction * BaseGuiPlus::createVolumeSliderAction(QWidget * parent) {
+	VolumeSliderAction * volumeslider_action = new VolumeSliderAction(parent);
+	connect( volumeslider_action, SIGNAL( valueChanged(int) ), 
+             core, SLOT( setVolume(int) ) );
+	connect( core, SIGNAL(volumeChanged(int)),
+             volumeslider_action, SLOT(setValue(int)) );
+
+	return volumeslider_action;
+}
 
 #include "moc_baseguiplus.cpp"

@@ -16,51 +16,67 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _TIMESLIDER_H_
-#define _TIMESLIDER_H_
+#ifndef _WIDGETACTIONS_H_
+#define _WIDGETACTIONS_H_
 
-#include <QSlider>
+#include <QWidgetAction>
+#include "timeslider.h"
 
-class MySlider : public QSlider
+class MyWidgetAction : public QWidgetAction
 {
 	Q_OBJECT
 
 public:
-	MySlider( QWidget * parent );
-	~MySlider();
-
-protected:
-	void mousePressEvent ( QMouseEvent * event );
-};
-
-
-class TimeSlider : public MySlider 
-{
-	Q_OBJECT
-
-public:
-	TimeSlider( QWidget * parent );
-	~TimeSlider();
+	MyWidgetAction( QWidget * parent );
+	~MyWidgetAction();
 
 public slots:
-	virtual void setPos(int); // Don't use setValue!
+	virtual void enable(); 	// setEnabled in QAction is not virtual :(
+	virtual void disable();
+
+protected:
+	virtual void propagate_enabled(bool);
+};
+
+class TimeSliderAction : public MyWidgetAction 
+{
+	Q_OBJECT
+
+public:
+	TimeSliderAction( QWidget * parent );
+	~TimeSliderAction();
+
+public slots:
+	virtual void setPos(int);
 	virtual int pos();
 
 signals:
 	void posChanged(int value);
 	void draggingPos(int value);
 
-protected slots:
-	void stopUpdate();
-	void resumeUpdate();
-	void mouseReleased();
-	void valueChanged_slot(int);
+protected:
+	virtual QWidget * createWidget ( QWidget * parent );
+};
 
-	virtual void wheelEvent( QWheelEvent * e );
 
-private:
-	bool dont_update;
-	int position;
+class VolumeSliderAction : public MyWidgetAction 
+{
+	Q_OBJECT
+
+public:
+	VolumeSliderAction( QWidget * parent );
+	~VolumeSliderAction();
+
+public slots:
+	virtual void setValue(int);
+	virtual int value();
+
+signals:
+	void valueChanged(int value);
+
+protected:
+	virtual QWidget * createWidget ( QWidget * parent );
 };
 
 #endif
+
