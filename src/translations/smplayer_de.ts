@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -2117,27 +2118,27 @@ Die Auswahl-Liste enthält evt.schon die regulären Ausdrücke.</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="305"/>
         <source>Autosave MPlayer log</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer Log automatisch speichern</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="309"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mit dieser Option wird MPlayer Log in die angegebene Datei gespeichert, jedesmal wenn eine neue Datei abgespielt wird. Es ist gedacht für externe Anwendungen, die Informationen über die abgespielte Datei erhalten können.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="311"/>
         <source>Autosave MPlayer log filename</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer Log Dateiname automatisch speichern</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="313"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
-        <translation type="unfinished"></translation>
+        <translation>Eingabe Pfadangabe und Dateiname, zur Speicherung der Mplayer Log-Datei. </translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="131"/>
         <source>A&amp;utosave MPlayer log to file</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Automatisches speichern von MPlayer Log zu Datei</translation>
     </message>
 </context>
 <context>
@@ -4284,7 +4285,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../widgetactions.cpp" line="124"/>
         <source>Volume</source>
-        <translation type="unfinished">Lautstärke</translation>
+        <translation>Lautstärke</translation>
     </message>
 </context>
 </TS>
