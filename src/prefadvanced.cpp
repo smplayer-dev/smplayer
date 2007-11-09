@@ -88,6 +88,9 @@ void PrefAdvanced::setData(Preferences * pref) {
 	setLogSmplayer( pref->log_smplayer );
 	setLogFilter( pref->log_filter );
 
+    setSaveMplayerLog( pref->autosave_mplayer_log );
+    setMplayerLogName( pref->mplayer_log_saveto );
+
 	setEndOfFileText( pref->rx_endoffile );
 	setNoVideoText( pref->rx_novideo );
 }
@@ -122,6 +125,8 @@ void PrefAdvanced::getData(Preferences * pref) {
 	pref->log_mplayer = logMplayer();
 	pref->log_smplayer = logSmplayer();
 	pref->log_filter = logFilter();
+    pref->autosave_mplayer_log = saveMplayerLog();
+    pref->mplayer_log_saveto = mplayerLogName();
 
 	TEST_AND_SET(pref->rx_endoffile, endOfFileText());
 	TEST_AND_SET(pref->rx_novideo, noVideoText());
@@ -240,6 +245,23 @@ QString PrefAdvanced::logFilter() {
 }
 
 
+void PrefAdvanced::setSaveMplayerLog(bool b) {
+    log_mplayer_save_check->setChecked(b);
+}
+
+bool PrefAdvanced::saveMplayerLog() {
+    return log_mplayer_save_check->isChecked();
+}
+
+void PrefAdvanced::setMplayerLogName(QString filter) {
+    log_mplayer_save_name->setText(filter);
+}
+
+QString PrefAdvanced::mplayerLogName() {
+    return log_mplayer_save_name->text();
+}
+
+
 // MPlayer language page
 void PrefAdvanced::setEndOfFileText(QString t) {
 	endoffile_combo->setCurrentText(t);
@@ -267,18 +289,28 @@ void PrefAdvanced::createHelp() {
            "produce that the video won't be displayed properly.") );
 
 	// Log tab
-	setWhatsThis(log_mplayer_check, tr("Log MPlayer output"),
-		tr("If checked, smplayer will store the output of mplayer "
-           "(you can see it in <b>Options->View logs->mplayer</b>). "
-           "In case of problems this log can contain important information, "
-           "so it's recommended to keep this option checked.") );
-
 	setWhatsThis(log_smplayer_check, tr("Log SMPlayer output"),
 		tr("If this option is checked, smplayer will store the debugging "
            "messages that smplayer outputs "
            "(you can see the log in <b>Options->View logs->smplayer</b>). "
            "This information can be very useful for the developer in case "
            "you find a bug." ) );
+
+	setWhatsThis(log_mplayer_check, tr("Log MPlayer output"),
+		tr("If checked, smplayer will store the output of mplayer "
+           "(you can see it in <b>Options->View logs->mplayer</b>). "
+           "In case of problems this log can contain important information, "
+           "so it's recommended to keep this option checked.") );
+
+	setWhatsThis(log_mplayer_save_check, tr("Autosave MPlayer log"),
+		tr("If this option is checked, the MPlayer log will be saved to the "
+           "specified file every time a new file starts to play. "
+           "It's intended for external applications, so they can get "
+           "info about the file you're playing.") );
+
+	setWhatsThis(log_mplayer_save_name, tr("Autosave MPlayer log filename"),
+ 		tr("Enter here the path and filename that will be used to save the "
+           "MPlayer log.") );
 
 	setWhatsThis(log_filter_edit, tr("Filter for SMPlayer logs"),
 		tr("This option allows to filter the smplayer messages that will "

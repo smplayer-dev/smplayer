@@ -238,6 +238,11 @@ void Preferences::reset() {
 
 	initial_audio_track = 1;
 	initial_subtitle_track = 1;
+
+    //mplayer log autosaving
+    autosave_mplayer_log = false;
+    mplayer_log_saveto = "";
+    //mplayer log autosaving end
 }
 
 void Preferences::save() {
@@ -392,6 +397,11 @@ void Preferences::save() {
 	set->setValue("pause_when_hidden", pause_when_hidden);
 
 	set->setValue("allow_video_movement", allow_video_movement);
+
+    //mplayer log autosaving
+    set->setValue("autosave_mplayer_log", autosave_mplayer_log);
+    set->setValue("mplayer_log_saveto", mplayer_log_saveto);
+    //mplayer log autosaving end
 
 	set->endGroup();
 
@@ -581,6 +591,11 @@ void Preferences::load() {
 	pause_when_hidden = set->value("pause_when_hidden", pause_when_hidden).toBool();
 
 	allow_video_movement = set->value("allow_video_movement", allow_video_movement).toBool();
+
+    //mplayer log autosaving
+    autosave_mplayer_log = set->value("autosave_mplayer_log", autosave_mplayer_log).toBool();
+    mplayer_log_saveto = set->value("mplayer_log_saveto", mplayer_log_saveto).toString();
+    //mplayer log autosaving end
 
 	set->endGroup();
 

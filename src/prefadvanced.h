@@ -80,6 +80,12 @@ protected:
 	void setLogFilter(QString filter);
 	QString logFilter();
 
+    void setSaveMplayerLog(bool b);
+    bool saveMplayerLog();
+
+    void setMplayerLogName(QString filter);
+    QString mplayerLogName();
+
 	// MPlayer language
 	void setEndOfFileText(QString t);
 	QString endOfFileText();

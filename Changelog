@@ -1,5 +1,10 @@
 [b]Version 0.5.62[/b] (not released yet):
 
+(2007-11-09)
+ * Added options in Preferences->Advanced to save automatically the mplayer
+   log every time a new file is played. Intended for external applications.
+   Most of the code developed by iSage.
+
 (2007-11-07)
  * More work on the new code for time and volume sliders.
 
