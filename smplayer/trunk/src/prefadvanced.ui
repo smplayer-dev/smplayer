@@ -5,8 +5,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>517</width>
-    <height>546</height>
+    <width>480</width>
+    <height>529</height>
    </rect>
   </property>
   <property name="windowIcon" >
@@ -112,6 +112,13 @@
            <number>6</number>
           </property>
           <item>
+           <widget class="QCheckBox" name="log_smplayer_check" >
+            <property name="text" >
+             <string>Log &amp;SMPlayer output</string>
+            </property>
+           </widget>
+          </item>
+          <item>
            <widget class="QCheckBox" name="log_mplayer_check" >
             <property name="text" >
              <string>Log MPlayer &amp;output</string>
@@ -119,9 +126,16 @@
            </widget>
           </item>
           <item>
-           <widget class="QCheckBox" name="log_smplayer_check" >
+           <widget class="QCheckBox" name="log_mplayer_save_check" >
             <property name="text" >
-             <string>Log &amp;SMPlayer output</string>
+             <string>A&amp;utosave MPlayer log to file</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="log_mplayer_save_name" >
+            <property name="enabled" >
+             <bool>false</bool>
             </property>
            </widget>
           </item>
@@ -576,5 +590,22 @@ The drop-down lists may provide already made regular expression for several lang
   <tabstop>novideo_combo</tabstop>
  </tabstops>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>log_mplayer_save_check</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>log_mplayer_save_name</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>258</x>
+     <y>170</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>258</x>
+     <y>202</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>

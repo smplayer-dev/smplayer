@@ -248,6 +248,11 @@ public:
 	int initial_subtitle_track;
 
 	QString extensions;		//registered extensions; comma-separated. eg. "avi,mpg,mpeg,mov,mkv"
+
+    //mplayer log autosaving
+    bool autosave_mplayer_log;
+    QString    mplayer_log_saveto;
+    //mplayer log autosaving end
 };
 
 #endif
