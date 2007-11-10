@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -2007,9 +2008,7 @@ Przykład: resample=44100:0:0,</translation>
         <source>SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br&gt;&lt;br&gt;
 The drop-down lists may provide already made regular expression for several languages.</source>
         <translation>Aby odczytać i przeprowadzić analizę tekstu SMplayer potrzebuje danych od programu MPlayer i czasami opiera się na angielskim tekście. Jeśli używasz MPlayer-a przetłumaczonego na inny język, to należy przerobić teksty, których SMPlayer będzie szukał. (Technicznie powinieneś wpisać regularne wyrażenia)&lt;br&gt;&lt;br&gt;
-Rozwijalna lista dostarcza już regularne wyrażenia dla kilku języków.
-
-</translation>
+Rozwijalna lista dostarcza już regularne wyrażenia dla kilku języków.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="289"/>
@@ -2019,19 +2018,12 @@ Rozwijalna lista dostarcza już regularne wyrażenia dla kilku języków.
     <message>
         <location filename="../prefadvanced.cpp" line="303"/>
         <source>If checked, smplayer will store the output of mplayer (you can see it in &lt;b&gt;Options-&gt;View logs-&gt;mplayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation>Jeśli opcja jest zaznaczona, smplayer będzie pamiętał komunikaty z mplayer-a (możesz zobaczyć te komunikaty klikając
- &lt;b&gt;Opcje-&gt;Pokaż logi-&gt;mplayer&lt;/b&gt;). W przypadku problemów ten komunikat będzie miał bardzo ważne informacje, więc zaleca się włączyć tą opcję.
- 
-</translation>
+        <translation>Jeśli opcja jest zaznaczona, smplayer będzie pamiętał komunikaty z mplayer-a (możesz zobaczyć te komunikaty klikając &lt;b&gt;Opcje-&gt;Pokaż logi-&gt;mplayer&lt;/b&gt;). W przypadku problemów ten komunikat będzie miał bardzo ważne informacje, więc zaleca się włączyć tę opcję.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="297"/>
         <source>If this option is checked, smplayer will store the debugging messages that smplayer outputs (you can see the log in &lt;b&gt;Options-&gt;View logs-&gt;smplayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation>Jeśli ta opcja jest zaznaczona, smplayer będzie pamiętał komunikaty debugowania (możesz zobaczyć te komunikaty
-klikając &lt;b&gt;Opcje-&gt;Pokaż logi-&gt;smplayer&lt;/b&gt;). Ta informacja będzie bardzo przydatna dla programisty jeśli znajdziesz
-błąd w programie.
-
-</translation>
+        <translation>Jeśli ta opcja jest zaznaczona, smplayer będzie pamiętał komunikaty debugowania (możesz zobaczyć te komunikatyklikając &lt;b&gt;Opcje-&gt;Pokaż logi-&gt;smplayer&lt;/b&gt;). Ta informacja będzie bardzo przydatna dla programisty jeśli znajdziesz błąd w programie.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="315"/>
@@ -2127,27 +2119,27 @@ błąd w programie.
     <message>
         <location filename="../prefadvanced.cpp" line="305"/>
         <source>Autosave MPlayer log</source>
-        <translation type="unfinished"></translation>
+        <translation>Autozapis logu MPlayera</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="309"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli ta opcja jest zaznaczona, log MPlayera zostanie zapisany do sprecyzowanego pliku przy każdym uruchomieniu odtwarzania nowego pliku. Jest to przeznaczone dla zewnętrznych aplikacji, tak więc możesz pobrać informację o odtwarzanym pliku.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="311"/>
         <source>Autosave MPlayer log filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Autozapis nazwy pliku logu MPlayera</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="313"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wpisz tutaj ścieżkę i nazwę pliku, której użyjesz do zapisania logu MPlayera.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="131"/>
         <source>A&amp;utosave MPlayer log to file</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;utozapis logu MPlayera do pliku</translation>
     </message>
 </context>
 <context>
@@ -4240,7 +4232,7 @@ obrazu). Może to powodować zniekształcenia obrazu!</translation>
     <message>
         <location filename="../widgetactions.cpp" line="124"/>
         <source>Volume</source>
-        <translation type="unfinished">Głośność</translation>
+        <translation>Głośność</translation>
     </message>
 </context>
 </TS>
