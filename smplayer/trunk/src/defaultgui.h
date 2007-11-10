@@ -23,17 +23,23 @@
 #include "baseguiplus.h"
 #include <QPoint>
 
-#define USE_TIMESLIDERACTION 1
+#define USE_FLOATING_WIDGET 1
 
 class QLabel;
 class QToolBar;
 class QPushButton;
 class QResizeEvent;
-class FloatingControl;
 class MyAction;
 class QMenu;
 class TimeSliderAction;
 class VolumeSliderAction;
+
+#if USE_FLOATING_WIDGET
+class FloatingWidget;
+class QLabel;
+#else
+class FloatingControl;
+#endif
 
 class DefaultGui : public BaseGuiPlus
 {
@@ -100,7 +106,12 @@ protected:
 	TimeSliderAction * timeslider_action;
 	VolumeSliderAction * volumeslider_action;
 
+#if USE_FLOATING_WIDGET
+	FloatingWidget * floating_control;
+	QLabel * time_label;
+#else
 	FloatingControl * floating_control;
+#endif
 
 	MyAction * showMainToolbarAct;
 	MyAction * showLanguageToolbarAct;

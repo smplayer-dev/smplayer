@@ -1,5 +1,12 @@
 [b]Version 0.5.62[/b] (not released yet):
 
+(2007-11-10)
+ * (Experimental) New floating control (it looks like the old one) by using the
+   new floatingwidget. This time it has an embedded toolbar, so actions are 
+   added to it (can't actions be added directly to widgets?). Previously every 
+   button and widget had to be created individually (making connections and 
+   so on), duplicating code. Now it's a lot easier.
+
 (2007-11-09)
  * Added options in Preferences->Advanced to save automatically the mplayer
    log every time a new file is played. Intended for external applications.

@@ -23,9 +23,14 @@
 #include "widgetactions.h"
 #include "playlist.h"
 #include "mplayerwindow.h"
-#include "floatingcontrol.h"
 #include "myaction.h"
 #include "images.h"
+
+#if USE_FLOATING_WIDGET
+#include "floatingwidget.h"
+#else
+#include "floatingcontrol.h"
+#endif
 
 #include <QMenu>
 #include <QToolBar>
@@ -258,6 +263,44 @@ void DefaultGui::createControlWidget() {
 }
 
 void DefaultGui::createFloatingControl() {
+#if USE_FLOATING_WIDGET
+	// Create the time label
+    time_label = new QLabel(this);
+    time_label->setAlignment(Qt::AlignVCenter | Qt::AlignHCenter);
+    time_label->setAutoFillBackground(TRUE);
+
+    Helper::setBackgroundColor( time_label, QColor(0,0,0) );
+    Helper::setForegroundColor( time_label, QColor(255,255,255) );
+    time_label->setText( "00:00:00 / 00:00:00" );
+    time_label->setFrameShape( QFrame::Panel );
+    time_label->setFrameShadow( QFrame::Sunken );
+
+	QWidgetAction * time_label_action = new QWidgetAction(this);
+	time_label_action->setDefaultWidget(time_label);
+
+	// Floating control
+	floating_control = new FloatingWidget(this);
+
+	floating_control->toolbar()->addAction(playAct);
+	floating_control->toolbar()->addAction(pauseAct);
+	floating_control->toolbar()->addAction(stopAct);
+	floating_control->toolbar()->addSeparator();
+	floating_control->toolbar()->addAction(rewind3Act);
+	floating_control->toolbar()->addAction(rewind2Act);
+	floating_control->toolbar()->addAction(rewind1Act);
+	floating_control->toolbar()->addAction(timeslider_action);
+	floating_control->toolbar()->addAction(forward1Act);
+	floating_control->toolbar()->addAction(forward2Act);
+	floating_control->toolbar()->addAction(forward3Act);
+	floating_control->toolbar()->addSeparator();
+	floating_control->toolbar()->addAction(fullscreenAct);
+	floating_control->toolbar()->addAction(muteAct);
+	floating_control->toolbar()->addAction(volumeslider_action);
+	floating_control->toolbar()->addSeparator();
+	floating_control->toolbar()->addAction(time_label_action);
+
+	floating_control->adjustSize();
+#else
 	floating_control = new FloatingControl(this);
 
 	connect( floating_control->rewind3, SIGNAL(clicked()),
@@ -296,6 +339,7 @@ void DefaultGui::createFloatingControl() {
              core, SLOT(goToPos(int)) );
 	connect( floating_control->time, SIGNAL( draggingPos(int) ), 
              this, SLOT(displayGotoTime(int)) );
+#endif
 }
 
 void DefaultGui::createStatusBar() {
@@ -352,15 +396,19 @@ void DefaultGui::displayTime(double sec, int perc, QString text) {
 	time_display->setText( text );
 	timeslider_action->setPos(perc);
 
+#if USE_FLOATING_WIDGET
+	time_label->setText(text);
+#else
 	//if (floating_control->isVisible()) {
 		floating_control->time->setPos(perc);
-#if NEW_CONTROLWIDGET
+		#if NEW_CONTROLWIDGET
 		//floating_control->time_label->setText( Helper::formatTime((int)sec) );
 		floating_control->time_label->setText( text );
-#else
+		#else
 		floating_control->lcd->display( Helper::formatTime((int)sec) );
-#endif
+		#endif
 	//}
+#endif
 }
 
 void DefaultGui::displayFrame(int frame) {
@@ -377,8 +425,10 @@ void DefaultGui::updateWidgets() {
 	// Frame counter
 	frame_display->setVisible( pref->show_frame_counter );
 
+#if !USE_FLOATING_WIDGET
 	floating_control->fullscreen->setChecked(pref->fullscreen);
 	floating_control->mute->setChecked(core->mset.mute);
+#endif
 
 	/*
 	showMainToolbarAct->setOn( show_main_toolbar );
