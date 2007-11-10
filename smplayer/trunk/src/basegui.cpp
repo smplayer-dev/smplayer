@@ -35,7 +35,6 @@
 #include <QUrl>
 #include <QDragEnterEvent>
 #include <QDropEvent>
-#include <QTextStream>
 
 #include <cmath>
 
@@ -1915,21 +1914,6 @@ void BaseGui::newMediaLoaded() {
 		playlist->clear();
 		playlist->addCurrentFile();
 	}*/
-
-	// Save the mplayer log to a file, so it can be used by external
-	// applications.
-    //mplayer log autosaving
-    if (pref->autosave_mplayer_log) {
-        if (pref->mplayer_log_saveto != "") {
-            QFile file( pref->mplayer_log_saveto );
-            if ( file.open( QIODevice::WriteOnly ) ) {
-                QTextStream strm( &file );
-                strm << core->mplayer_log;
-                file.close();
-            }
-        }
-    }
-    //mplayer log autosaving end
 }
 
 void BaseGui::showMplayerLog() {

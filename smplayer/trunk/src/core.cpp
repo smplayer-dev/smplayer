@@ -20,6 +20,7 @@
 #include <QDir>
 #include <QFileInfo>
 #include <QRegExp>
+#include <QTextStream>
 
 #include <cmath>
 
@@ -116,6 +117,8 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 
 	connect( proc, SIGNAL(receivedStreamTitleAndUrl(QString,QString)),
              this, SLOT(streamTitleAndUrlChanged(QString,QString)) );
+
+	connect( this, SIGNAL(mediaLoaded()), this, SLOT(autosaveMplayerLog()) );
 
 	//pref->load();
 	mset.reset();
@@ -2670,6 +2673,27 @@ void Core::streamTitleAndUrlChanged(QString title, QString url) {
 	mdat.stream_title = title;
 	mdat.stream_url = url;
 	emit mediaInfoChanged();
+}
+
+/*! 
+	Save the mplayer log to a file, so it can be used by external
+	applications.
+*/
+void Core::autosaveMplayerLog() {
+	qDebug("Core::autosaveMplayerLog");
+
+    //mplayer log autosaving
+    if (pref->autosave_mplayer_log) {
+        if (!pref->mplayer_log_saveto.isEmpty()) {
+            QFile file( pref->mplayer_log_saveto );
+            if ( file.open( QIODevice::WriteOnly ) ) {
+                QTextStream strm( &file );
+                strm << mplayer_log;
+                file.close();
+            }
+        }
+    }
+    //mplayer log autosaving end
 }
 
 #include "moc_core.cpp"

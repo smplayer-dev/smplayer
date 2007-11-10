@@ -226,6 +226,7 @@ protected slots:
 	void displayScreenshotName(QString filename);
 
 	void streamTitleAndUrlChanged(QString,QString);
+	void autosaveMplayerLog();
 
 protected:
 	void playNewFile(QString file, int seek=-1);
