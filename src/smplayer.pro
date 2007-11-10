@@ -65,6 +65,7 @@ HEADERS	+= config.h \
 	basegui.h \
 	baseguiplus.h \
 	floatingcontrol.h \
+	floatingwidget.h \
 	widgetactions.h \
 	defaultgui.h
 
@@ -123,6 +124,7 @@ SOURCES	+= version.cpp \
 	basegui.cpp \
 	baseguiplus.cpp \
 	floatingcontrol.cpp \
+	floatingwidget.cpp \
 	widgetactions.cpp \
 	defaultgui.cpp \
 	main.cpp
