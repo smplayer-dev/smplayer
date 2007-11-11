@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -1752,7 +1753,7 @@ Voulez-vous le remplacer ?</translation>
     <message>
         <location filename="../minigui.cpp" line="111"/>
         <source>Control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Barre de contrôle</translation>
     </message>
 </context>
 <context>
@@ -2122,27 +2123,27 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefadvanced.cpp" line="305"/>
         <source>Autosave MPlayer log</source>
-        <translation type="unfinished"></translation>
+        <translation>Sauvegarde automatique du journal MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="309"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si cette option est cochée, le journal de MPlayer sera sauvegardé dans un fichier spécifié à chaque fois qu&apos;un nouveau fichier est joué. Cette option est principalement conçue pour les applications extérieurs afini qu&apos;elles puissent obtenir des informations sur le fichier joué.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="311"/>
         <source>Autosave MPlayer log filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Sauvegarde automatique du du nom du journal MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="313"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
-        <translation type="unfinished"></translation>
+        <translation>Entrez ici le chemin et le nom du fichier qui seront utilisé pour le journal de MPlayer.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="131"/>
         <source>A&amp;utosave MPlayer log to file</source>
-        <translation type="unfinished"></translation>
+        <translation>Sa&amp;uvegarde automatique du journal MPlayer</translation>
     </message>
 </context>
 <context>
@@ -3087,7 +3088,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="363"/>
         <source>No function</source>
-        <translation type="unfinished"></translation>
+        <translation>Aucune fonction</translation>
     </message>
 </context>
 <context>
@@ -4164,12 +4165,12 @@ Si -playlist est utilisée, cela veut dire que SMPlayer passera l&apos;informati
     <message>
         <location filename="../main.cpp" line="173"/>
         <source>Usage: %1 [-mini] [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="unfinished"></translation>
+        <translation>Usage : %1 [-mini] [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="176"/>
         <source>opens the mini gui instead of the default one.</source>
-        <translation type="unfinished"></translation>
+        <translation>ouvre la mini-interface au lieu de celle par défaut.</translation>
     </message>
 </context>
 <context>
@@ -4289,7 +4290,7 @@ Si -playlist est utilisée, cela veut dire que SMPlayer passera l&apos;informati
     <message>
         <location filename="../widgetactions.cpp" line="124"/>
         <source>Volume</source>
-        <translation type="unfinished">Volume</translation>
+        <translation>Volume</translation>
     </message>
 </context>
 </TS>
