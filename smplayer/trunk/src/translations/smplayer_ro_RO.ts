@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -1734,7 +1735,7 @@ Se doreşte suprascrierea lui?</translation>
     <message>
         <location filename="../minigui.cpp" line="111"/>
         <source>Control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Bară de control</translation>
     </message>
 </context>
 <context>
@@ -4144,12 +4145,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../main.cpp" line="173"/>
         <source>Usage: %1 [-mini] [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilizare: %1 [-mini] [-ini-path directory] [-send-action action_name] [-actions actions_list [-close-at-end] [-no-close-at-end] [fullscreen] [-nu-fullscreen] [add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="176"/>
         <source>opens the mini gui instead of the default one.</source>
-        <translation type="unfinished"></translation>
+        <translation>deschide interfaţa în miniatură în locul celei implicite.</translation>
     </message>
 </context>
 <context>
