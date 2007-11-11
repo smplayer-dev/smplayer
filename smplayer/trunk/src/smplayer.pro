@@ -67,7 +67,8 @@ HEADERS	+= config.h \
 	floatingcontrol.h \
 	floatingwidget.h \
 	widgetactions.h \
-	defaultgui.h
+	defaultgui.h \
+	minigui.h
 
 
 SOURCES	+= version.cpp \
@@ -127,6 +128,7 @@ SOURCES	+= version.cpp \
 	floatingwidget.cpp \
 	widgetactions.cpp \
 	defaultgui.cpp \
+	minigui.cpp \
 	main.cpp
 
 FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
