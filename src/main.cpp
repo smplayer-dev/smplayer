@@ -18,6 +18,7 @@
 
 
 #include "defaultgui.h"
+#include "minigui.h"
 #include "helper.h"
 #include "global.h"
 #include "preferences.h"
@@ -164,12 +165,15 @@ void printHelp(QString parameter, QString help) {
 }
 
 void showHelp(QString app_name) {
-	printf( "%s\n", formatText(QObject::tr("Usage: %1 [-ini-path directory] "
+	printf( "%s\n", formatText(QObject::tr("Usage: %1 [-mini] [-ini-path directory] "
                         "[-send-action action_name] [-actions action_list "
                         "[-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] "
                         "[-add-to-playlist] [-help|--help|-h|-?] "
                         "[[-playlist] media] "
                         "[[-playlist] media]...").arg(app_name), 80).toLocal8Bit().data() );
+
+	printHelp( "-mini", QObject::tr(
+		"opens the mini gui instead of the default one.") );
 
 	printHelp( "-ini-path", QObject::tr(
 		"specifies the directory for the configuration file "
@@ -263,6 +267,8 @@ int main( int argc, char ** argv )
 	int start_in_fullscreen = -1;
 	bool show_help = false;
 
+	bool use_minigui = false;
+
 	// Deleted KDE code
 	// ...
 
@@ -334,6 +340,10 @@ int main( int argc, char ** argv )
 			else
 			if (argument == "-add-to-playlist") {
 				add_to_playlist = true;
+			}
+			else
+			if (argument == "-mini") {
+				use_minigui = true;
 			}
 			else {
 				// File
@@ -420,7 +430,11 @@ int main( int argc, char ** argv )
 		pref->start_in_fullscreen = start_in_fullscreen;
 	}
 
-	DefaultGui * w = new DefaultGui(0);
+	BaseGui * w;
+	if (use_minigui)
+		w = new MiniGui(0);
+	else
+		w = new DefaultGui(0);
 
 	if (!w->startHidden() || !files_to_play.isEmpty() ) w->show();
 	if (!files_to_play.isEmpty()) w->openFiles(files_to_play);

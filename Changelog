@@ -6,6 +6,13 @@
    added to it (can't actions be added directly to widgets?). Previously every 
    button and widget had to be created individually (making connections and 
    so on), duplicating code. Now it's a lot easier.
+ * Started to write the "mini gui". This is an optional gui, with very few
+   buttons: it doesn't have a toolbar, and the control bar only have a 
+   play/pause, stop and mute buttons, and the time slider. It also provides
+   a floating control with less buttons.
+   To enable it: smplayer -mini
+   This gui is in fact intended to be an example on how to create alternative
+   gui's for smplayer. 
 
 (2007-11-09)
  * Added options in Preferences->Advanced to save automatically the mplayer
