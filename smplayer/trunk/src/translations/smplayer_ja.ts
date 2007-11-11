@@ -1742,7 +1742,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../minigui.cpp" line="111"/>
         <source>Control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>コントロール バー</translation>
     </message>
 </context>
 <context>
@@ -4095,12 +4095,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../main.cpp" line="173"/>
         <source>Usage: %1 [-mini] [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="unfinished"></translation>
+        <translation>使用法: %1 [-mini] [-ini-path ディレクトリ] [-send-action 動作名] [-actions 動作の一覧 [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] メディア] [[-playlist] メディア]...</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="176"/>
         <source>opens the mini gui instead of the default one.</source>
-        <translation type="unfinished"></translation>
+        <translation>既定のものの代わりにミニ gui を開きます。</translation>
     </message>
 </context>
 <context>
