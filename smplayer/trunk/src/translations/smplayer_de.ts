@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -1754,7 +1755,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../minigui.cpp" line="111"/>
         <source>Control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontrollregler</translation>
     </message>
 </context>
 <context>
@@ -4177,12 +4178,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../main.cpp" line="173"/>
         <source>Usage: %1 [-mini] [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebrauch: %1 [-ini-path Verzeichnis]] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="176"/>
         <source>opens the mini gui instead of the default one.</source>
-        <translation type="unfinished"></translation>
+        <translation>Öffnet die Mini-Gui, anstelle der Standard-Gui.</translation>
     </message>
 </context>
 <context>
