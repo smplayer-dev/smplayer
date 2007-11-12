@@ -227,6 +227,8 @@ protected slots:
 
 	void streamTitleAndUrlChanged(QString,QString);
 	void autosaveMplayerLog();
+	
+	void watchState(Core::State state);
 
 protected:
 	void playNewFile(QString file, int seek=-1);
@@ -275,6 +277,7 @@ private:
 	bool just_loaded_external_subs;
 	bool just_unloaded_external_subs;
 	State _state;
+	bool change_volume_after_unpause;
 };
     
 #endif

@@ -51,6 +51,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	we_are_restarting = false;
 	just_loaded_external_subs = false;
 	just_unloaded_external_subs = false;
+	change_volume_after_unpause = false;
 
 	// Create file_settings
 	if (Helper::iniPath().isEmpty()) {
@@ -119,6 +120,9 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
              this, SLOT(streamTitleAndUrlChanged(QString,QString)) );
 
 	connect( this, SIGNAL(mediaLoaded()), this, SLOT(autosaveMplayerLog()) );
+	
+	connect( this, SIGNAL(stateChanged(Core::State)), 
+	         this, SLOT(watchState(Core::State)) );
 
 	//pref->load();
 	mset.reset();
@@ -251,7 +255,6 @@ void Core::tellmp(const QString & command) {
     //qDebug("Command: '%s'", command.toUtf8().data());
     if (proc->isRunning()) {
 		proc->writeToStdin( command );
-		//proc->write( command.toLocal8Bit() + "\n" );
     } else {
 		qWarning(" tellmp: no process running: %s", command.toUtf8().data());
     }
@@ -868,7 +871,6 @@ void Core::pause_and_frame_step() {
 		}
 		else {
 			tellmp("pause");
-			//proc->write("pause\n");
 		}
 	}
 }
@@ -2025,10 +2027,15 @@ void Core::setVolume(int volume, bool force) {
 	if (mset.volume > 100 ) mset.volume = 100;
 	if (mset.volume < 0 ) mset.volume = 0;
 
-    tellmp("pausing_keep volume " + QString::number(volume) + " 1");
+	if (state() == Paused) {
+		// Change volume later, after quiting pause
+		change_volume_after_unpause = true;
+	} else {
+		tellmp("volume " + QString::number(volume) + " 1");
+	}
 
 	//if (mset.mute) mute(TRUE);
-	mset.mute=FALSE;
+	mset.mute=false;
 
 	updateWidgets();
 
@@ -2050,7 +2057,7 @@ void Core::mute(bool b) {
 
 	int v = 0;
 	if (mset.mute) v = 1;
-	tellmp("mute " + QString::number(v) );
+	tellmp("pausing_keep mute " + QString::number(v) );
 
 	updateWidgets();
 }
@@ -2694,6 +2701,17 @@ void Core::autosaveMplayerLog() {
         }
     }
     //mplayer log autosaving end
+}
+
+//!  Called when the state changes
+void Core::watchState(Core::State state) {
+	if ((state == Playing) && (change_volume_after_unpause)) 
+	{
+		// Delayed volume change
+		qDebug("Core::watchState: delayed volume change");
+		tellmp("volume " + QString::number(mset.volume) + " 1");
+		change_volume_after_unpause = false;
+	}
 }
 
 #include "moc_core.cpp"
