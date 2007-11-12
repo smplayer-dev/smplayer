@@ -123,6 +123,7 @@ AboutDialog::AboutDialog(QWidget * parent, Qt::WindowFlags f)
 		);
 
 	QString url;
+	/*
 	#ifdef Q_OS_WIN
 	url = tr("http://smplayer.sourceforge.net/en/windows/download.php",
           "If the web page is translated into your language you can "
@@ -134,7 +135,8 @@ AboutDialog::AboutDialog(QWidget * parent, Qt::WindowFlags f)
           "change the URL so it points to the download page in the translation."
           "Otherwise leave as is.");
 	#endif
-
+	*/
+	url = "http://smplayer.sourceforge.net";
 	foot->setText(
 		 tr("Get updates at: %1")
          .arg("<br><a href=\"" + url + "\">" + url +"</a>") );
