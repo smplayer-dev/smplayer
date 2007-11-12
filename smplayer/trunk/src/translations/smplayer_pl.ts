@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -1754,7 +1755,7 @@ Nadpisać?</translation>
     <message>
         <location filename="../minigui.cpp" line="111"/>
         <source>Control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Pasek kontroli</translation>
     </message>
 </context>
 <context>
@@ -2482,7 +2483,7 @@ tego nie zrobisz smplayer nie będzie odtwarzać plików!&lt;/b&gt;</translation
     <message>
         <location filename="../prefgeneral.cpp" line="441"/>
         <source>Usually smplayer will remember the settings for each file you play (audio track selected, volume, filters...). Uncheck this option if you don&apos;t like this feature.</source>
-        <translation>Zwykle smplayer pamięta ustawienia dla każdego odtwarzanego pliku (wybranej ścieżki audio,głośności,fitrów...). Odznacz tą opcję aby tego nie robił.</translation>
+        <translation>Zwykle smplayer pamięta ustawienia dla każdego odtwarzanego pliku (wybranej ścieżki audio,głośności,fitrów...). Odznacz tę opcję aby tego nie robił.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="443"/>
@@ -2534,10 +2535,7 @@ tego nie zrobisz smplayer nie będzie odtwarzać plików!&lt;/b&gt;</translation
     <message>
         <location filename="../prefgeneral.cpp" line="469"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
-        <translation>Dynamiczne zmiany przetwarzania końcowego (postprocessing) zależne są od dostępnej wolnej mocy
-obliczeniowej procesora (CPU). Poziom który ustawisz będzie maksymalny w użyciu. Zwykle można ustawić
-trochę wyższą wartość.
-</translation>
+        <translation>Dynamiczne zmiany przetwarzania końcowego (postprocessing) zależne są od dostępnej wolnej mocyobliczeniowej procesora (CPU). Poziom który ustawisz będzie maksymalny w użyciu. Zwykle można ustawićtrochę wyższą wartość.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="483"/>
@@ -3523,8 +3521,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefperformance.cpp" line="210"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
-        <translation>Wybranie tej opcji powoduje pomijanie wyświetlania niektórych klatek
-aby utrzymać synchronizację A/V na słabszym sprzęcie.</translation>
+        <translation>Wybranie tej opcji powoduje pomijanie wyświetlania niektórych klatekaby utrzymać synchronizację A/V na słabszym sprzęcie.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="212"/>
@@ -3534,8 +3531,7 @@ aby utrzymać synchronizację A/V na słabszym sprzęcie.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="214"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
-        <translation>Wybranie tej opcji powoduje mocne pomijanie klatek (błędy w dekodowaniu 
-obrazu). Może to powodować zniekształcenia obrazu!</translation>
+        <translation>Wybranie tej opcji powoduje mocne pomijanie klatek (błędy w dekodowaniu obrazu). Może to powodować zniekształcenia obrazu!</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="232"/>
@@ -3650,7 +3646,7 @@ obrazu). Może to powodować zniekształcenia obrazu!</translation>
     <message>
         <location filename="../prefperformance.cpp" line="241"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
-        <translation>Możliwe wartości:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: będzie próbować szybszej metody przełączania ścieżek audio (może nie działać z niektórymi formatami).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: proces MPlayera zostanie zrestartowany kiedykolwiek zmienisz ścieżkę audio.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer będzie decydował co robić zależnie od wersji MPlayera.</translation>
+        <translation>Możliwe wartości:&lt;br&gt; &lt;b&gt;Tak&lt;/b&gt;: będzie próbować szybszej metody przełączania ścieżek audio (może nie działać z niektórymi formatami).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: proces MPlayera zostanie zrestartowany kiedykolwiek zmienisz ścieżkę audio.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer będzie decydował co robić zależnie od wersji MPlayera.</translation>
     </message>
 </context>
 <context>
@@ -4044,7 +4040,7 @@ obrazu). Może to powodować zniekształcenia obrazu!</translation>
     <message>
         <location filename="../main.cpp" line="224"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
-        <translation>&apos;media&apos; to każdy plik, który SMPlayer jest w stanie otworzyć.Może to być plik lokalny, DVD (n.p. dvd://1), strumień internetowy (n.p. mms://1) lub lista odtwarzania w formacie m3u. Jeśli opcja -playlist jest użyta, oznacza to, że SMPlayer przeniesie opcję -playlist do MPlayer-a, więc MPlayer obsłuży listę odtwarzania.</translation>
+        <translation>&apos;media&apos; to każdy plik, który SMPlayer jest w stanie otworzyć. Może to być plik lokalny, DVD (n.p. dvd://1), strumień internetowy (n.p. mms://1) lub lista odtwarzania w formacie m3u. Jeśli opcja -playlist jest użyta, oznacza to, że SMPlayer przeniesie opcję -playlist do MPlayer-a, więc MPlayer obsłuży listę odtwarzania.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="198"/>
@@ -4054,7 +4050,7 @@ obrazu). Może to powodować zniekształcenia obrazu!</translation>
     <message>
         <location filename="../main.cpp" line="82"/>
         <source>This is SMPlayer v. %1 running on %2</source>
-        <translation>To jest SMPlayer v. %1 uruchomiony o %2</translation>
+        <translation>To jest SMPlayer v. %1 uruchomiony na %2</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="169"/>
@@ -4064,12 +4060,12 @@ obrazu). Może to powodować zniekształcenia obrazu!</translation>
     <message>
         <location filename="../main.cpp" line="187"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
-        <translation>próby wykonania połączenia z inną uruchomioną kopią programu i wysłania do niej określonej operacji. Na przykład: -action pause Reszta opcji (jeśli są) będą ignorowane i program zostanie zamknięty. Będzie zwracać 0 w przypadku powodzenia lub -1 przy niepowodzeniu.</translation>
+        <translation>próby wykonania połączenia z inną uruchomioną kopią programu i wysłania do niej określonej operacji. Na przykład: -action pause. Reszta opcji (jeśli są) będą ignorowane i program zostanie zamknięty. Będzie zwracać 0 w przypadku powodzenia lub -1 przy niepowodzeniu.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="195"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
-        <translation>action_list to lista poleceń oddzielonych spacją. Polecenia będą po prostu wykonywane po załadowaniu pliku (jeśli jest), we wpisanej wcześniej kolejności. Dla skontrolowanych poleceń możesz pominąć prawdę lub fałsz jako parametr. Na przykład: -actions &quot;fullscreen compact true&quot;.Cudzysłowy są niezbędne w przypadku pominięcia więcej niż jednego polecenia.</translation>
+        <translation>action_list to lista poleceń oddzielonych spacją. Polecenia będą po prostu wykonywane po załadowaniu pliku (jeśli jest), we wpisanej wcześniej kolejności. Dla skontrolowanych poleceń możesz pominąć prawdę lub fałsz jako parametr. Na przykład: -actions &quot;fullscreen compact true&quot;. Cudzysłowy są niezbędne w przypadku pominięcia więcej niż jednego polecenia.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="218"/>
@@ -4124,12 +4120,12 @@ obrazu). Może to powodować zniekształcenia obrazu!</translation>
     <message>
         <location filename="../main.cpp" line="173"/>
         <source>Usage: %1 [-mini] [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="unfinished"></translation>
+        <translation>Użycie: %1 [-mini] [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="176"/>
         <source>opens the mini gui instead of the default one.</source>
-        <translation type="unfinished"></translation>
+        <translation>otwórz mini gui zamiast domyślnego.</translation>
     </message>
 </context>
 <context>
