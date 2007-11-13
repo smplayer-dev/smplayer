@@ -1716,6 +1716,7 @@ void Core::wheelUp() {
 		case Preferences::Volume : incVolume(); break;
 		case Preferences::Zoom : incPanscan(); break;
 		case Preferences::Seeking : forward( pref->seeking4 ); break;
+		case Preferences::ChangeSpeed : incSpeed(); break;
 		default : {} // do nothing
 	}
 }
@@ -1726,6 +1727,7 @@ void Core::wheelDown() {
 		case Preferences::Volume : decVolume(); break;
 		case Preferences::Zoom : decPanscan(); break;
 		case Preferences::Seeking : rewind( pref->seeking4 ); break;
+		case Preferences::ChangeSpeed : decSpeed(); break;
 		default : {} // do nothing
 	}
 }

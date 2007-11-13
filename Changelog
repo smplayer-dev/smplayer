@@ -8,6 +8,8 @@
    in the floatingwidget code instead of the gui code.
  * Now the floating control shows with an animation! (It can be disabled in 
    the config file).
+ * (By user request) Added a new function for the mouse wheel: change playback
+   speed.
  
 (2007-11-10)
  * (Experimental) New floating control (it looks like the old one) by using the

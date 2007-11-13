@@ -83,7 +83,7 @@
         <translation>ロゴ デザイン: %1</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="140"/>
+        <location filename="../aboutdialog.cpp" line="142"/>
         <source>Get updates at: %1</source>
         <translation>更新の取得: %1</translation>
     </message>
@@ -156,16 +156,16 @@
         <location filename="../aboutdialog.cpp" line="130"/>
         <source>http://smplayer.sourceforge.net/en/windows/download.php</source>
         <comment>If the web page is translated into your language you can change the URL so it points to the download page in the translation.Otherwise leave as is.</comment>
-        <translation>http://smplayer.sourceforge.net/ja/windows/download.php</translation>
+        <translation type="obsolete">http://smplayer.sourceforge.net/ja/windows/download.php</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="135"/>
         <source>http://smplayer.sourceforge.net/en/linux/download.php</source>
         <comment>If the web page is translated into your language you can change the URL so it points to the download page in the translation.Otherwise leave as is.</comment>
-        <translation>http://smplayer.sourceforge.net/ja/linux/download.php</translation>
+        <translation type="obsolete">http://smplayer.sourceforge.net/ja/linux/download.php</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="152"/>
+        <location filename="../aboutdialog.cpp" line="154"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
@@ -1116,37 +1116,37 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1888"/>
+        <location filename="../core.cpp" line="1892"/>
         <source>Brightness: %1</source>
         <translation>明るさ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1897"/>
+        <location filename="../core.cpp" line="1901"/>
         <source>Contrast: %1</source>
         <translation>コントラスト: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1905"/>
+        <location filename="../core.cpp" line="1909"/>
         <source>Gamma: %1</source>
         <translation>ガンマ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1913"/>
+        <location filename="../core.cpp" line="1917"/>
         <source>Hue: %1</source>
         <translation>色合い: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1921"/>
+        <location filename="../core.cpp" line="1925"/>
         <source>Saturation: %1</source>
         <translation>鮮やかさ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2035"/>
+        <location filename="../core.cpp" line="2044"/>
         <source>Volume: %1</source>
         <translation>音量: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2570"/>
+        <location filename="../core.cpp" line="2579"/>
         <source>Zoom: %1</source>
         <translation>拡大率: %1</translation>
     </message>
@@ -1154,7 +1154,7 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="370"/>
+        <location filename="../defaultgui.cpp" line="371"/>
         <source>Welcome to SMPlayer</source>
         <translation>SMPlayer へようこそ</translation>
     </message>
@@ -1164,12 +1164,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="obsolete">音量</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="390"/>
+        <location filename="../defaultgui.cpp" line="391"/>
         <source>Audio</source>
         <translation>オーディオ</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="391"/>
+        <location filename="../defaultgui.cpp" line="392"/>
         <source>Subtitle</source>
         <translation>字幕</translation>
     </message>
@@ -1179,17 +1179,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="obsolete">プレイリスト</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="384"/>
+        <location filename="../defaultgui.cpp" line="385"/>
         <source>&amp;Main toolbar</source>
         <translation>メイン ツール バー(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="385"/>
+        <location filename="../defaultgui.cpp" line="386"/>
         <source>&amp;Language toolbar</source>
         <translation>言語ツール バー(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="387"/>
+        <location filename="../defaultgui.cpp" line="388"/>
         <source>&amp;Toolbars</source>
         <translation>ツール バー(&amp;T)</translation>
     </message>
@@ -1740,7 +1740,7 @@ Do you want to overwrite?</source>
 <context>
     <name>MiniGui</name>
     <message>
-        <location filename="../minigui.cpp" line="111"/>
+        <location filename="../minigui.cpp" line="115"/>
         <source>Control bar</source>
         <translation>コントロール バー</translation>
     </message>
@@ -2893,7 +2893,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>アイコン</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="102"/>
+        <location filename="../prefinput.cpp" line="108"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>ここですべてのショートカットを変更できます。それをするにはショートカット セルの上でダブル クリックまたは enter を押します。また任意にその他の人または別のコンピュータでの読み込みおよび共有するのに一覧を保存できます。</translation>
     </message>
@@ -2908,17 +2908,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ボタンの機能:</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="348"/>
+        <location filename="../prefinput.cpp" line="97"/>
         <source>Media seeking</source>
         <translation>メディア シーク</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="353"/>
+        <location filename="../prefinput.cpp" line="98"/>
         <source>Volume control</source>
         <translation>ボリューム コントロール</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="358"/>
+        <location filename="../prefinput.cpp" line="99"/>
         <source>Zoom video</source>
         <translation>ビデオの拡大と縮小</translation>
     </message>
@@ -2943,42 +2943,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ホイール機能(&amp;W):</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="172"/>
+        <location filename="../prefinput.cpp" line="180"/>
         <source>Shortcut editor</source>
         <translation>ショートカット エディタ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="181"/>
+        <location filename="../prefinput.cpp" line="189"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>この表は利用可能な動作のキー ショートカットを変更することを許可します。&lt;i&gt;ショートカットの変更&lt;/i&gt; ダイアログに入るにはアイテムでダブルクリックするか enter を押すか、&lt;b&gt;ショートカットの変更&lt;/b&gt; ボタンを押します。ショートカットを変更する 2 つの方法があります: &lt;b&gt;キャプチャ&lt;/b&gt; ボタンがオンの場合は次に動作に割り当てしたい新しいキーまたはキーの組み合わせを押します。&lt;b&gt;キャプチャ&lt;/b&gt; ボタンがオフの場合は次にキーのフル ネームを入力できます。</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="183"/>
+        <location filename="../prefinput.cpp" line="191"/>
         <source>Left click</source>
         <translation>左クリック</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="184"/>
+        <location filename="../prefinput.cpp" line="192"/>
         <source>Select the action for left click on the mouse.</source>
         <translation>マウスでの左クリックの動作を選択します。</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="186"/>
+        <location filename="../prefinput.cpp" line="194"/>
         <source>Double click</source>
         <translation>ダブル クリック</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="187"/>
+        <location filename="../prefinput.cpp" line="195"/>
         <source>Select the action for double click on the mouse.</source>
         <translation>マウスでのダブル クリックの動作を選択します。</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="189"/>
+        <location filename="../prefinput.cpp" line="197"/>
         <source>Wheel function</source>
         <translation>ボタンの機能</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="190"/>
+        <location filename="../prefinput.cpp" line="198"/>
         <source>Select the action for the mouse wheel.</source>
         <translation>マウス ホイールの動作を選択します。</translation>
     </message>
@@ -3068,9 +3068,14 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>環境設定</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="363"/>
+        <location filename="../prefinput.cpp" line="96"/>
         <source>No function</source>
         <translation>機能なし</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="100"/>
+        <source>Change speed</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

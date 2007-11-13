@@ -343,26 +343,6 @@
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
-           <item>
-            <property name="text" >
-             <string>Media seeking</string>
-            </property>
-           </item>
-           <item>
-            <property name="text" >
-             <string>Volume control</string>
-            </property>
-           </item>
-           <item>
-            <property name="text" >
-             <string>Zoom video</string>
-            </property>
-           </item>
-           <item>
-            <property name="text" >
-             <string>No function</string>
-            </property>
-           </item>
           </widget>
          </item>
          <item row="1" column="1" >

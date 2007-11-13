@@ -32,7 +32,8 @@ public:
 	enum Resize { Never = 0, Always = 1, Afterload = 2 };
 	enum Priority { Realtime = 0, High = 1, AboveNormal = 2, Normal = 3,
                     BelowNormal = 4, Idle = 5 };
-	enum WheelFunction { Seeking = 0, Volume = 1, Zoom = 2, DoNothing = 3 };
+	enum WheelFunction { Seeking = 0, Volume = 1, Zoom = 2, DoNothing = 3,
+                         ChangeSpeed = 4 };
 	enum OptionState { Detect = -1, Disabled = 0, Enabled = 1 };
 
 	Preferences();
