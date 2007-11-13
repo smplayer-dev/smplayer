@@ -168,17 +168,7 @@ void MiniGui::aboutToExitCompactMode() {
 }
 
 void MiniGui::showFloatingControl(QPoint /*p*/) {
-	int floating_control_width = 80;
-
-	int w = mplayerwindow->width() * floating_control_width / 100;
-	int h = floating_control->height();
-	floating_control->resize( w, h );
-
-	int x = ( panel->x() + panel->width() - floating_control->width() ) / 2;
-	int y = panel->y() + panel->height() - floating_control->height();
-	floating_control->move( mapToGlobal(QPoint(x, y)) );
-
-	floating_control->show();
+	floating_control->showOver(panel, 80);
 }
 
 void MiniGui::hideFloatingControl() {

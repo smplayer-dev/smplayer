@@ -41,3 +41,28 @@ FloatingWidget::FloatingWidget( QWidget * parent )
 FloatingWidget::~FloatingWidget() {
 }
 
+void FloatingWidget::showOver(QWidget * widget, int size, Place place) {
+	qDebug("FloatingWidget::showOver");
+
+	int w = widget->width() * size / 100;
+	int h = height();
+	resize( w, h );
+
+	//qDebug("widget x: %d, y: %d, h: %d, w: %d", widget->x(), widget->y(), widget->width(), widget->height());
+
+	int x = (widget->width() - width() ) / 2;
+	int y;
+	if (place == Top) 
+		y = 0;
+	else
+		y = widget->height() - height();
+
+	QPoint p = widget->mapToGlobal(QPoint(x, y));
+
+	//qDebug("FloatingWidget::showOver: x: %d, y: %d, w: %d, h: %d", x, y, w, h);
+	//qDebug("FloatingWidget::showOver: global x: %d global y: %d", p.x(), p.y());
+	move(p);
+
+	show();
+}
+
