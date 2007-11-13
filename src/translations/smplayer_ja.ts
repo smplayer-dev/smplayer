@@ -3075,7 +3075,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="100"/>
         <source>Change speed</source>
-        <translation type="unfinished"></translation>
+        <translation>速度の変更</translation>
     </message>
 </context>
 <context>
