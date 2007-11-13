@@ -4,6 +4,8 @@
  * (Fix) Now changing the volume when the file is paused really keeps
    pause. This is done by not changing the volume immediately but
    scheduling the volume change just after the file plays again.
+ * The position and size calculations of the floating widget is now made
+   in the floatingwidget code instead of the gui code.
  
 (2007-11-10)
  * (Experimental) New floating control (it looks like the old one) by using the

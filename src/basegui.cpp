@@ -3143,7 +3143,7 @@ void BaseGui::checkMousePos(QPoint p) {
 
 	#define MARGIN 70
 	if (p.y() > mplayerwindow->height() - MARGIN) {
-		qDebug("BaseGui::checkMousePos: %d, %d", p.x(), p.y());
+		//qDebug("BaseGui::checkMousePos: %d, %d", p.x(), p.y());
 		if (!near_bottom) {
 			emit cursorNearBottom(p);
 			near_bottom = true;
@@ -3156,7 +3156,7 @@ void BaseGui::checkMousePos(QPoint p) {
 	}
 
 	if (p.y() < MARGIN) {
-		qDebug("BaseGui::checkMousePos: %d, %d", p.x(), p.y());
+		//qDebug("BaseGui::checkMousePos: %d, %d", p.x(), p.y());
 		if (!near_top) {
 			emit cursorNearTop(p);
 			near_top = true;

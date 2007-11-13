@@ -505,6 +505,7 @@ void DefaultGui::showFloatingControl(QPoint /*p*/) {
 	qDebug("DefaultGui::showFloatingControl");
 
 #if CONTROLWIDGET_OVER_VIDEO
+	/*
 	//int w = mplayerwindow->width() / 2;
 	int w = mplayerwindow->width() * floating_control_width / 100;
 	int h = floating_control->height();
@@ -518,6 +519,8 @@ void DefaultGui::showFloatingControl(QPoint /*p*/) {
 	floating_control->move( mapToGlobal(QPoint(x, y)) );
 
 	floating_control->show();
+	*/
+	floating_control->showOver(panel, floating_control_width);
 #else
 	if (!controlwidget->isVisible()) {
 		controlwidget->show();

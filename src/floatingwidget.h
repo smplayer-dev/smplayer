@@ -27,8 +27,13 @@ class FloatingWidget : public QWidget
 {
 
 public:
+	enum Place { Top = 0, Bottom = 1 };
+
 	FloatingWidget(QWidget * parent = 0);
 	~FloatingWidget();
+
+	//! Show the floating widget over the specified widget.
+	void showOver(QWidget * widget, int size = 100, Place place = Bottom);
 
 	QToolBar * toolbar() { return tb; };
 
