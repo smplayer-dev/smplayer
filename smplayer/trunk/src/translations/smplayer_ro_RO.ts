@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -3063,7 +3064,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="100"/>
         <source>Change speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Modificare viteză</translation>
     </message>
 </context>
 <context>
