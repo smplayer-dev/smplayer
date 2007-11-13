@@ -18,6 +18,7 @@
 
 #include "floatingwidget.h"
 #include <QToolBar>
+#include <QTimer>
 #include <QHBoxLayout>
 
 FloatingWidget::FloatingWidget( QWidget * parent )
@@ -36,6 +37,11 @@ FloatingWidget::FloatingWidget( QWidget * parent )
 	layout->addWidget(tb);
 
 	setLayout(layout);
+
+	_animated = false;
+	animation_timer = new QTimer(this);
+	animation_timer->setInterval(2);
+	connect( animation_timer, SIGNAL(timeout()), this, SLOT(animate()) );
 }
 
 FloatingWidget::~FloatingWidget() {
@@ -63,6 +69,38 @@ void FloatingWidget::showOver(QWidget * widget, int size, Place place) {
 	//qDebug("FloatingWidget::showOver: global x: %d global y: %d", p.x(), p.y());
 	move(p);
 
-	show();
+	if (isAnimated()) {
+		Movement m = Upward;
+		if (place == Top) m = Downward;
+		showAnimated(p, m);
+	} else {
+		show();
+	}
 }
 
+void FloatingWidget::showAnimated(QPoint final_position, Movement movement) {
+	current_movement = movement;
+	final_y = final_position.y();
+
+	if (movement == Upward) {
+		current_y = final_position.y() + height();
+	} else {
+		current_y = final_position.y() - height();
+	}
+
+	move(x(), current_y);
+	show();
+
+	animation_timer->start();
+}
+
+void FloatingWidget::animate() {
+	if (current_y == final_y) {
+		animation_timer->stop();
+	} else {
+		if (current_movement == Upward) current_y--; else current_y++;
+		move(x(), current_y);
+	}
+}
+
+#include "moc_floatingwidget.cpp"

@@ -27,7 +27,9 @@
 #include <QStatusBar>
 
 MiniGui::MiniGui( QWidget * parent, Qt::WindowFlags flags )
-	: BaseGuiPlus( parent, flags ) 
+	: BaseGuiPlus( parent, flags ), 
+		floating_control_width(80),
+		floating_control_animated(true)
 {
 	createActions();
 	createControlWidget();
@@ -80,6 +82,7 @@ void MiniGui::createControlWidget() {
 	controlwidget->addSeparator();
 	controlwidget->addAction(timeslider_action);
 	controlwidget->addSeparator();
+	controlwidget->addAction(fullscreenAct);
 	controlwidget->addAction(muteAct);
 
 #if USE_VOLUME_BAR
@@ -168,7 +171,9 @@ void MiniGui::aboutToExitCompactMode() {
 }
 
 void MiniGui::showFloatingControl(QPoint /*p*/) {
-	floating_control->showOver(panel, 80);
+	floating_control->setAnimated( floating_control_animated );
+	floating_control->showOver(panel, floating_control_width, 
+                               FloatingWidget::Bottom);
 }
 
 void MiniGui::hideFloatingControl() {
@@ -180,6 +185,8 @@ void MiniGui::saveConfig() {
 
 	set->beginGroup( "mini_gui");
 	set->setValue( "toolbars_state", saveState() );
+	set->setValue("floating_control_width", floating_control_width);
+	set->setValue("floating_control_animated", floating_control_animated);
 	set->endGroup();
 }
 
@@ -188,6 +195,8 @@ void MiniGui::loadConfig() {
 
 	set->beginGroup( "mini_gui");
 	restoreState( set->value( "toolbars_state" ).toByteArray() );
+	floating_control_width = set->value("floating_control_width", floating_control_width).toInt();
+	floating_control_animated = set->value("floating_control_animated", floating_control_animated).toBool();
 	set->endGroup();
 }
 

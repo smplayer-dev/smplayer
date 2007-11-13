@@ -70,6 +70,9 @@ protected:
 #if USE_VOLUME_BAR
 	VolumeSliderAction * volumeslider_action;
 #endif
+
+	int floating_control_width; // In percentage
+	bool floating_control_animated;
 };
 
 #endif

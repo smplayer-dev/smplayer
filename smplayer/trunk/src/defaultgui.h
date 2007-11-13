@@ -125,6 +125,7 @@ protected:
 	bool show_language_toolbar;
 
 	int floating_control_width; // Percentage of screen
+	bool floating_control_animated;
 };
 
 #endif
