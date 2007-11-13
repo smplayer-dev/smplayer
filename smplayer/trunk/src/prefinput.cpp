@@ -80,8 +80,6 @@ void PrefInput::retranslateStrings() {
 
 	retranslateUi(this);
 
-	wheel_function_combo->setCurrentIndex(wheel_function);
-
 	keyboard_icon->setPixmap( Images::icon("keyboard") );
 	mouse_icon->setPixmap( Images::icon("mouse") );
 
@@ -93,6 +91,14 @@ void PrefInput::retranslateStrings() {
 	left_click_combo->setCurrentIndex(mouse_left);
 	double_click_combo->setCurrentIndex(mouse_double);
 	middle_click_combo->setCurrentIndex(mouse_middle);
+
+	wheel_function_combo->clear();
+	wheel_function_combo->addItem( tr("No function"), Preferences::DoNothing );
+	wheel_function_combo->addItem( tr("Media seeking"), Preferences::Seeking );
+	wheel_function_combo->addItem( tr("Volume control"), Preferences::Volume );
+	wheel_function_combo->addItem( tr("Zoom video"), Preferences::Zoom );
+	wheel_function_combo->addItem( tr("Change speed"), Preferences::ChangeSpeed );
+	wheel_function_combo->setCurrentIndex(wheel_function);
 
 #if !USE_SHORTCUTGETTER
 	actioneditor_desc->setText( 
@@ -159,11 +165,13 @@ QString PrefInput::middleClickFunction() {
 }
 
 void PrefInput::setWheelFunction(int function) {
-	wheel_function_combo->setCurrentIndex(function);
+	int d = wheel_function_combo->findData(function);
+	if (d < 0) d = 0;
+	wheel_function_combo->setCurrentIndex( d );
 }
 
 int PrefInput::wheelFunction() {
-	return wheel_function_combo->currentIndex();
+	return wheel_function_combo->itemData(wheel_function_combo->currentIndex()).toInt();
 }
 
 void PrefInput::createHelp() {

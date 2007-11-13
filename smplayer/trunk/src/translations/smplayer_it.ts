@@ -83,7 +83,7 @@
         <translation>Logo realizzato da %1</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="140"/>
+        <location filename="../aboutdialog.cpp" line="142"/>
         <source>Get updates at: %1</source>
         <translation>Trova aggiornamenti su: %1</translation>
     </message>
@@ -156,16 +156,16 @@
         <location filename="../aboutdialog.cpp" line="130"/>
         <source>http://smplayer.sourceforge.net/en/windows/download.php</source>
         <comment>If the web page is translated into your language you can change the URL so it points to the download page in the translation.Otherwise leave as is.</comment>
-        <translation>http://smplayer.sourceforge.net/en/windows/download.php</translation>
+        <translation type="obsolete">http://smplayer.sourceforge.net/en/windows/download.php</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="135"/>
         <source>http://smplayer.sourceforge.net/en/linux/download.php</source>
         <comment>If the web page is translated into your language you can change the URL so it points to the download page in the translation.Otherwise leave as is.</comment>
-        <translation>http://smplayer.sourceforge.net/en/linux/download.php</translation>
+        <translation type="obsolete">http://smplayer.sourceforge.net/en/linux/download.php</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="152"/>
+        <location filename="../aboutdialog.cpp" line="154"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
@@ -1117,37 +1117,37 @@ Si aprirà ora il dialogo di configurazione, in modio che tu possa farlo.
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1888"/>
+        <location filename="../core.cpp" line="1892"/>
         <source>Brightness: %1</source>
         <translation>Luminosità: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1897"/>
+        <location filename="../core.cpp" line="1901"/>
         <source>Contrast: %1</source>
         <translation>Contrasto: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1905"/>
+        <location filename="../core.cpp" line="1909"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1913"/>
+        <location filename="../core.cpp" line="1917"/>
         <source>Hue: %1</source>
         <translation>Tonalità: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1921"/>
+        <location filename="../core.cpp" line="1925"/>
         <source>Saturation: %1</source>
         <translation>Saturazione: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2035"/>
+        <location filename="../core.cpp" line="2044"/>
         <source>Volume: %1</source>
         <translation>Volume: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2570"/>
+        <location filename="../core.cpp" line="2579"/>
         <source>Zoom: %1</source>
         <translation>Zoom %1</translation>
     </message>
@@ -1155,7 +1155,7 @@ Si aprirà ora il dialogo di configurazione, in modio che tu possa farlo.
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="370"/>
+        <location filename="../defaultgui.cpp" line="371"/>
         <source>Welcome to SMPlayer</source>
         <translation>Benvenuto in  SMPlayer</translation>
     </message>
@@ -1165,12 +1165,12 @@ Si aprirà ora il dialogo di configurazione, in modio che tu possa farlo.
         <translation type="obsolete">Volume</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="390"/>
+        <location filename="../defaultgui.cpp" line="391"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="391"/>
+        <location filename="../defaultgui.cpp" line="392"/>
         <source>Subtitle</source>
         <translation>Sottotitoli</translation>
     </message>
@@ -1180,17 +1180,17 @@ Si aprirà ora il dialogo di configurazione, in modio che tu possa farlo.
         <translation type="obsolete">Lista di riproduzione</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="384"/>
+        <location filename="../defaultgui.cpp" line="385"/>
         <source>&amp;Main toolbar</source>
         <translation>Barra strumenti principale</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="385"/>
+        <location filename="../defaultgui.cpp" line="386"/>
         <source>&amp;Language toolbar</source>
         <translation>Barra strumenti per le lingue</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="387"/>
+        <location filename="../defaultgui.cpp" line="388"/>
         <source>&amp;Toolbars</source>
         <translation>Barre strumenti</translation>
     </message>
@@ -1741,7 +1741,7 @@ Vuoi sovrascriverlo?</translation>
 <context>
     <name>MiniGui</name>
     <message>
-        <location filename="../minigui.cpp" line="111"/>
+        <location filename="../minigui.cpp" line="115"/>
         <source>Control bar</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2869,7 +2869,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>icona</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="102"/>
+        <location filename="../prefinput.cpp" line="108"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>Qui puoi cambiare le scorciatoie da tastiera. Per farlo, fai doppio click o scrivi nella cella corrispondente. Opzionalmente, puoi salvare la lista per condividerla con altre persone o utilizzarla su un altro computer.</translation>
     </message>
@@ -2884,17 +2884,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Funzione bottoni:</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="348"/>
+        <location filename="../prefinput.cpp" line="97"/>
         <source>Media seeking</source>
         <translation>Ricerca nel file</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="353"/>
+        <location filename="../prefinput.cpp" line="98"/>
         <source>Volume control</source>
         <translation>Controllo volume</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="358"/>
+        <location filename="../prefinput.cpp" line="99"/>
         <source>Zoom video</source>
         <translation>Zoom video</translation>
     </message>
@@ -2924,42 +2924,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Funzione &amp;rotellina:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="172"/>
+        <location filename="../prefinput.cpp" line="180"/>
         <source>Shortcut editor</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="181"/>
+        <location filename="../prefinput.cpp" line="189"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="183"/>
+        <location filename="../prefinput.cpp" line="191"/>
         <source>Left click</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="184"/>
+        <location filename="../prefinput.cpp" line="192"/>
         <source>Select the action for left click on the mouse.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="186"/>
+        <location filename="../prefinput.cpp" line="194"/>
         <source>Double click</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="187"/>
+        <location filename="../prefinput.cpp" line="195"/>
         <source>Select the action for double click on the mouse.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="189"/>
+        <location filename="../prefinput.cpp" line="197"/>
         <source>Wheel function</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="190"/>
+        <location filename="../prefinput.cpp" line="198"/>
         <source>Select the action for the mouse wheel.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3049,8 +3049,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="363"/>
+        <location filename="../prefinput.cpp" line="96"/>
         <source>No function</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="100"/>
+        <source>Change speed</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
