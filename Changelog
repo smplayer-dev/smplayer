@@ -6,6 +6,8 @@
    scheduling the volume change just after the file plays again.
  * The position and size calculations of the floating widget is now made
    in the floatingwidget code instead of the gui code.
+ * Now the floating control shows with an animation! (It can be disabled in 
+   the config file).
  
 (2007-11-10)
  * (Experimental) New floating control (it looks like the old one) by using the

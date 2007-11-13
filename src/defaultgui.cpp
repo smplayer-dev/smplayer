@@ -48,7 +48,8 @@
 
 DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
 	: BaseGuiPlus( parent, flags ),
-		floating_control_width(100) //%
+		floating_control_width(100), //%
+		floating_control_animated(true)
 {
 	createStatusBar();
 
@@ -520,6 +521,7 @@ void DefaultGui::showFloatingControl(QPoint /*p*/) {
 
 	floating_control->show();
 	*/
+	floating_control->setAnimated( floating_control_animated );
 	floating_control->showOver(panel, floating_control_width);
 #else
 	if (!controlwidget->isVisible()) {
@@ -616,6 +618,7 @@ void DefaultGui::saveConfig() {
 	set->setValue( "show_main_toolbar", show_main_toolbar );
 	set->setValue( "show_language_toolbar", show_language_toolbar );
 	set->setValue( "floating_control_width", floating_control_width );
+	set->setValue("floating_control_animated", floating_control_animated);
 
 	if (pref->save_window_size_on_exit) {
 		qDebug("DefaultGui::saveConfig: w: %d h: %d", width(), height());
@@ -646,6 +649,7 @@ void DefaultGui::loadConfig() {
 	show_main_toolbar = set->value( "show_main_toolbar", true ).toBool();
 	show_language_toolbar = set->value( "show_language_toolbar", true ).toBool();
 	floating_control_width = set->value( "floating_control_width", floating_control_width ).toInt();
+	floating_control_animated = set->value("floating_control_animated", floating_control_animated).toBool();
 
 	if (pref->save_window_size_on_exit) {
 		int x = set->value( "x", this->x() ).toInt();

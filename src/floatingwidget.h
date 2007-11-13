@@ -25,9 +25,11 @@ class QToolBar;
 
 class FloatingWidget : public QWidget
 {
+	Q_OBJECT
 
 public:
 	enum Place { Top = 0, Bottom = 1 };
+	enum Movement { Upward = 0, Downward = 1 };
 
 	FloatingWidget(QWidget * parent = 0);
 	~FloatingWidget();
@@ -35,10 +37,28 @@ public:
 	//! Show the floating widget over the specified widget.
 	void showOver(QWidget * widget, int size = 100, Place place = Bottom);
 
+	void showAnimated(QPoint final_position, Movement movement);
+
 	QToolBar * toolbar() { return tb; };
+
+	bool isAnimated() { return _animated; };
+
+public slots:
+	void setAnimated(bool b) { _animated = b; };
 
 protected:
 	QToolBar * tb;
+
+private slots:
+	void animate();
+
+private:
+	// Animation variables
+	bool _animated;
+	QTimer * animation_timer;
+	int final_y;
+	int current_y;
+	Movement current_movement;
 };
 
 #endif
