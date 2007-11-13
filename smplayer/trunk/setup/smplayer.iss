@@ -3,19 +3,19 @@
 
 [Setup]
 AppName=SMPlayer
-AppVerName=SMPlayer 0.5.51
+AppVerName=SMPlayer 0.5.62
 AppPublisher=RVM
 AppPublisherURL=http://smplayer.sf.net
-AppSupportURL=http://www.phpbbplanet.com/smplayer/index.php
-AppUpdatesURL=http://smplayer.sourceforge.net/en/windows/download.php
+AppSupportURL=http://smplayer.sourceforge.net/forums
+AppUpdatesURL=http://smplayer.sourceforge.net/
 DefaultDirName={pf}\SMPlayer
 DefaultGroupName=SMPlayer
-LicenseFile=C:\Documents and Settings\Ricardo\My Documents\Programas\smplayer\Copying.txt
-OutputDir=C:\Documents and Settings\Ricardo\My Documents\Paquetes
-OutputBaseFilename=smplayer_0.5.51_full_setup
+LicenseFile=Copying.txt
+OutputDir=..
+OutputBaseFilename=smplayer_0.5.62_full_setup
 Compression=lzma
 SolidCompression=yes
-SourceDir="C:\Documents and Settings\Ricardo\My Documents\Programas\smplayer"
+SourceDir="smplayer"
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
@@ -49,11 +49,13 @@ Name: "custom"; Description: "Custom installation"; Flags: iscustom
 [Components]
 Name: "main"; Description: "Main Files"; Flags: fixed; Types: full custom
 Name: "themes"; Description: "Icon Themes"; Types: full custom
-Name: "mplayer"; Description: "MPlayer"; Types: full custom
-Name: "languages"; Description: "Additional Languages"; Types: full custom
+Name: "codecs"; Description: "Optional codecs"; Types: full custom
+Name: "languages"; Description: "Translations"; Types: full custom
 
 [Files]
-Source: "mplayer\*"; DestDir: "{app}\mplayer"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: mplayer
+Source: "mplayer\codecs\*"; DestDir: "{app}\mplayer\codecs"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: codecs
+Source: "mplayer\*"; DestDir: "{app}\mplayer"; Flags: ignoreversion; Components: main
+Source: "mplayer\mplayer\*"; DestDir: "{app}\mplayer\mplayer"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: main
 Source: "shortcuts\*"; DestDir: "{app}\shortcuts"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: main
 Source: "themes\*"; DestDir: "{app}\themes"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: themes
 Source: "translations\*"; DestDir: "{app}\translations"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: languages
