@@ -25,12 +25,7 @@
 #include "mplayerwindow.h"
 #include "myaction.h"
 #include "images.h"
-
-#if USE_FLOATING_WIDGET
 #include "floatingwidget.h"
-#else
-#include "floatingcontrol.h"
-#endif
 
 #include <QMenu>
 #include <QToolBar>
@@ -101,16 +96,6 @@ void DefaultGui::closeEvent( QCloseEvent * ) {
 void DefaultGui::createActions() {
 	qDebug("DefaultGui::createActions");
 
-	showMainToolbarAct = new MyAction(Qt::Key_F5, this, "show_main_toolbar" );
-	showMainToolbarAct->setCheckable(true);
-	connect( showMainToolbarAct, SIGNAL(toggled(bool)),
-             this, SLOT(showMainToolbar(bool)) );
-
-	showLanguageToolbarAct = new MyAction(Qt::Key_F6, this, "show_language_toolbar" );
-	showLanguageToolbarAct->setCheckable(true);
-	connect( showLanguageToolbarAct, SIGNAL(toggled(bool)),
-             this, SLOT(showLanguageToolbar(bool)) );
-
 	timeslider_action = createTimeSliderAction(this);
 	timeslider_action->disable();
 
@@ -136,21 +121,22 @@ void DefaultGui::disableActionsOnStop() {
 
 void DefaultGui::createMenus() {
 	toolbar_menu = new QMenu(this);
-	toolbar_menu->addAction(showMainToolbarAct);
-	toolbar_menu->addAction(showLanguageToolbarAct);
-	
+	toolbar_menu->addAction(toolbar1->toggleViewAction());
+	toolbar_menu->addAction(toolbar2->toggleViewAction());
 	optionsMenu->addSeparator();
 	optionsMenu->addMenu(toolbar_menu);
 }
 
 QMenu * DefaultGui::createPopupMenu() {
 	QMenu * m = new QMenu(this);
-	m->addAction(showMainToolbarAct);
-	m->addAction(showLanguageToolbarAct);
+	m->addAction(toolbar1->toggleViewAction());
+	m->addAction(toolbar2->toggleViewAction());
 	return m;
 }
 
 void DefaultGui::createMainToolBars() {
+	
+
 	toolbar1 = new QToolBar( this );
 	toolbar1->setObjectName("toolbar1");
 	//toolbar1->setMovable(false);
@@ -193,6 +179,16 @@ void DefaultGui::createMainToolBars() {
 	toolbar1->show();
 	toolbar2->show();
 	*/
+
+	// Modify toolbars' actions
+	QAction *tba;
+	tba = toolbar1->toggleViewAction();
+	tba->setObjectName("show_main_toolbar");
+	tba->setShortcut(Qt::Key_F5);
+
+	tba = toolbar2->toggleViewAction();
+	tba->setObjectName("show_language_toolbar");
+	tba->setShortcut(Qt::Key_F6);
 }
 
 
@@ -264,7 +260,6 @@ void DefaultGui::createControlWidget() {
 }
 
 void DefaultGui::createFloatingControl() {
-#if USE_FLOATING_WIDGET
 	// Create the time label
     time_label = new QLabel(this);
     time_label->setAlignment(Qt::AlignVCenter | Qt::AlignHCenter);
@@ -301,46 +296,6 @@ void DefaultGui::createFloatingControl() {
 	floating_control->toolbar()->addAction(time_label_action);
 
 	floating_control->adjustSize();
-#else
-	floating_control = new FloatingControl(this);
-
-	connect( floating_control->rewind3, SIGNAL(clicked()),
-             core, SLOT(fastrewind()) );
-	connect( floating_control->rewind2, SIGNAL(clicked()),
-             core, SLOT(rewind()) );
-	connect( floating_control->rewind1, SIGNAL(clicked()),
-             core, SLOT(srewind()) );
-
-	connect( floating_control->forward1, SIGNAL(clicked()),
-             core, SLOT(sforward()) );
-	connect( floating_control->forward2, SIGNAL(clicked()),
-             core, SLOT(forward()) );
-	connect( floating_control->forward3, SIGNAL(clicked()),
-             core, SLOT(fastforward()) );
-
-	connect( floating_control->play, SIGNAL(clicked()),
-             core, SLOT(play()) );
-	connect( floating_control->pause, SIGNAL(clicked()),
-             core, SLOT(pause_and_frame_step()) );
-	connect( floating_control->stop, SIGNAL(clicked()),
-             core, SLOT(stop()) );
-
-	connect( floating_control->mute, SIGNAL(toggled(bool)),
-             core, SLOT(mute(bool)) );
-
-	connect( floating_control->fullscreen, SIGNAL(toggled(bool)),
-             this, SLOT(toggleFullscreen(bool)) );
-
-	connect( floating_control->volume, SIGNAL( valueChanged(int) ), 
-             core, SLOT( setVolume(int) ) );
-	connect( core, SIGNAL(volumeChanged(int)),
-             floating_control->volume, SLOT(setValue(int)) );
-
-	connect( floating_control->time, SIGNAL( posChanged(int) ), 
-             core, SLOT(goToPos(int)) );
-	connect( floating_control->time, SIGNAL( draggingPos(int) ), 
-             this, SLOT(displayGotoTime(int)) );
-#endif
 }
 
 void DefaultGui::createStatusBar() {
@@ -382,11 +337,14 @@ void DefaultGui::createStatusBar() {
 void DefaultGui::retranslateStrings() {
 	BaseGuiPlus::retranslateStrings();
 
-	showMainToolbarAct->change( Images::icon("main_toolbar"), tr("&Main toolbar") );
-	showLanguageToolbarAct->change( Images::icon("lang_toolbar"), tr("&Language toolbar") );
-
 	toolbar_menu->menuAction()->setText( tr("&Toolbars") );
 	toolbar_menu->menuAction()->setIcon( Images::icon("toolbars") );
+
+	toolbar1->setWindowTitle( tr("&Main toolbar") );
+	toolbar1->toggleViewAction()->setIcon(Images::icon("main_toolbar"));
+
+	toolbar2->setWindowTitle( tr("&Language toolbar") );
+	toolbar2->toggleViewAction()->setIcon(Images::icon("lang_toolbar"));
 
 	select_audio->setText( tr("Audio") );
 	select_subtitle->setText( tr("Subtitle") );
@@ -397,19 +355,7 @@ void DefaultGui::displayTime(double sec, int perc, QString text) {
 	time_display->setText( text );
 	timeslider_action->setPos(perc);
 
-#if USE_FLOATING_WIDGET
 	time_label->setText(text);
-#else
-	//if (floating_control->isVisible()) {
-		floating_control->time->setPos(perc);
-		#if NEW_CONTROLWIDGET
-		//floating_control->time_label->setText( Helper::formatTime((int)sec) );
-		floating_control->time_label->setText( text );
-		#else
-		floating_control->lcd->display( Helper::formatTime((int)sec) );
-		#endif
-	//}
-#endif
 }
 
 void DefaultGui::displayFrame(int frame) {
@@ -426,16 +372,6 @@ void DefaultGui::updateWidgets() {
 	// Frame counter
 	frame_display->setVisible( pref->show_frame_counter );
 
-#if !USE_FLOATING_WIDGET
-	floating_control->fullscreen->setChecked(pref->fullscreen);
-	floating_control->mute->setChecked(core->mset.mute);
-#endif
-
-	/*
-	showMainToolbarAct->setOn( show_main_toolbar );
-	showLanguageToolbarAct->setOn( show_language_toolbar );
-	*/
-
 	panel->setFocus();
 }
 
@@ -443,6 +379,10 @@ void DefaultGui::aboutToEnterFullscreen() {
 	qDebug("DefaultGui::aboutToEnterFullscreen");
 
 	BaseGuiPlus::aboutToEnterFullscreen();
+
+	// Save visibility of toolbars
+	fullscreen_toolbar1_was_visible = toolbar1->isVisible();
+	fullscreen_toolbar2_was_visible = toolbar2->isVisible();
 
 	if (!pref->compact_mode) {
 		//menuBar()->hide();
@@ -466,13 +406,17 @@ void DefaultGui::aboutToExitFullscreen() {
 		//statusBar()->show();
 		controlwidget->show();
 
-		showMainToolbar( show_main_toolbar );
-		showLanguageToolbar( show_language_toolbar );
+		toolbar1->setVisible( fullscreen_toolbar1_was_visible );
+		toolbar2->setVisible( fullscreen_toolbar2_was_visible );
 	}
 }
 
 void DefaultGui::aboutToEnterCompactMode() {
 	BaseGuiPlus::aboutToEnterCompactMode();
+
+	// Save visibility of toolbars
+	compact_toolbar1_was_visible = toolbar1->isVisible();
+	compact_toolbar2_was_visible = toolbar2->isVisible();
 
 	//menuBar()->hide();
 	//statusBar()->hide();
@@ -495,8 +439,8 @@ void DefaultGui::aboutToExitCompactMode() {
 	//statusBar()->show();
 	controlwidget->show();
 
-	showMainToolbar( show_main_toolbar );
-	showLanguageToolbar( show_language_toolbar );
+	toolbar1->setVisible( compact_toolbar1_was_visible );
+	toolbar2->setVisible( compact_toolbar2_was_visible );
 
 	// Recheck size of controlwidget
 	resizeEvent( new QResizeEvent( size(), size() ) );
@@ -506,21 +450,6 @@ void DefaultGui::showFloatingControl(QPoint /*p*/) {
 	qDebug("DefaultGui::showFloatingControl");
 
 #if CONTROLWIDGET_OVER_VIDEO
-	/*
-	//int w = mplayerwindow->width() / 2;
-	int w = mplayerwindow->width() * floating_control_width / 100;
-	int h = floating_control->height();
-	floating_control->resize( w, h );
-
-	//int x = ( mplayerwindow->width() - floating_control->width() ) / 2;
-	//int y = mplayerwindow->height() - floating_control->height();
-
-	int x = ( panel->x() + panel->width() - floating_control->width() ) / 2;
-	int y = panel->y() + panel->height() - floating_control->height();
-	floating_control->move( mapToGlobal(QPoint(x, y)) );
-
-	floating_control->show();
-	*/
 	floating_control->setAnimated( floating_control_animated );
 	floating_control->showOver(panel, floating_control_width);
 #else
@@ -577,30 +506,6 @@ void DefaultGui::resizeEvent( QResizeEvent * ) {
 	}
 }
 
-void DefaultGui::showMainToolbar(bool b) {
-	qDebug("DefaultGui::showMainToolBar: %d", b);
-
-	show_main_toolbar = b;
-	if (b) {
-		toolbar1->show();
-	}
-	else {
-		toolbar1->hide();
-	}
-}
-
-void DefaultGui::showLanguageToolbar(bool b) {
-	qDebug("DefaultGui::showLanguageToolBar: %d", b);
-
-	show_language_toolbar = b;
-	if (b) {
-		toolbar2->show();
-	}
-	else {
-		toolbar2->hide();
-	}
-}
-
 void DefaultGui::saveConfig() {
 	qDebug("DefaultGui::saveConfig");
 
@@ -608,15 +513,6 @@ void DefaultGui::saveConfig() {
 
 	set->beginGroup( "default_gui");
 
-	/*
-	QString str;
-	QTextOStream out(&str);
-	out << *this;
-	set->writeEntry( "data", str);
-	*/
-
-	set->setValue( "show_main_toolbar", show_main_toolbar );
-	set->setValue( "show_language_toolbar", show_language_toolbar );
 	set->setValue( "floating_control_width", floating_control_width );
 	set->setValue("floating_control_animated", floating_control_animated);
 
@@ -640,14 +536,6 @@ void DefaultGui::loadConfig() {
 
 	set->beginGroup( "default_gui");
 
-	/*
-	QString str = set->readEntry("data");
-	QTextIStream in(&str);
-	in >> *this;
-	*/
-
-	show_main_toolbar = set->value( "show_main_toolbar", true ).toBool();
-	show_language_toolbar = set->value( "show_language_toolbar", true ).toBool();
 	floating_control_width = set->value( "floating_control_width", floating_control_width ).toInt();
 	floating_control_animated = set->value("floating_control_animated", floating_control_animated).toBool();
 
@@ -669,12 +557,6 @@ void DefaultGui::loadConfig() {
 	restoreState( set->value( "toolbars_state" ).toByteArray() );
 
 	set->endGroup();
-
-	showMainToolbarAct->setChecked( show_main_toolbar );
-	showLanguageToolbarAct->setChecked( show_language_toolbar );
-
-	showMainToolbar( show_main_toolbar );
-	showLanguageToolbar( show_language_toolbar );
 
 	updateWidgets();
 }

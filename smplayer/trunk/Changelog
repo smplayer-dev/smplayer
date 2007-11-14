@@ -1,5 +1,10 @@
 [b]Version 0.5.62[/b] (not released yet):
 
+(2007-11-13)
+ * Simplified the code of defaultgui, using the actions provided by
+   the toolbars instead of creating new ones, and removing some old
+   code.
+
 (2007-11-12)
  * (Fix) Now changing the volume when the file is paused really keeps
    pause. This is done by not changing the volume immediately but

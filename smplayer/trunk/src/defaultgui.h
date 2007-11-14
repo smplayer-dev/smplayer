@@ -23,8 +23,6 @@
 #include "baseguiplus.h"
 #include <QPoint>
 
-#define USE_FLOATING_WIDGET 1
-
 class QLabel;
 class QToolBar;
 class QPushButton;
@@ -33,13 +31,9 @@ class MyAction;
 class QMenu;
 class TimeSliderAction;
 class VolumeSliderAction;
-
-#if USE_FLOATING_WIDGET
 class FloatingWidget;
 class QLabel;
-#else
-class FloatingControl;
-#endif
+
 
 class DefaultGui : public BaseGuiPlus
 {
@@ -51,8 +45,6 @@ public:
 
 public slots:
 	//virtual void showPlaylist(bool b);
-	virtual void showMainToolbar(bool b);
-	virtual void showLanguageToolbar(bool b);
 
 protected:
 	virtual void retranslateStrings();
@@ -106,24 +98,19 @@ protected:
 	TimeSliderAction * timeslider_action;
 	VolumeSliderAction * volumeslider_action;
 
-#if USE_FLOATING_WIDGET
 	FloatingWidget * floating_control;
 	QLabel * time_label;
-#else
-	FloatingControl * floating_control;
-#endif
-
-	MyAction * showMainToolbarAct;
-	MyAction * showLanguageToolbarAct;
 
 	QMenu * toolbar_menu;
 
 	int last_second;
 
-	// Properties to save
-	bool show_main_toolbar;
-	bool show_language_toolbar;
+	bool fullscreen_toolbar1_was_visible;
+	bool fullscreen_toolbar2_was_visible;
+	bool compact_toolbar1_was_visible;
+	bool compact_toolbar2_was_visible;
 
+	// Properties to save
 	int floating_control_width; // Percentage of screen
 	bool floating_control_animated;
 };
