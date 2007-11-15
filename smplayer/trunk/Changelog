@@ -1,5 +1,10 @@
 [b]Version 0.5.62[/b] (not released yet):
 
+(2007-11-15)
+ * Fixed a bug in the new code in defaultgui: if you close the program in
+   compact mode, then later when quiting compact mode the toolbars don't 
+   appear.
+
 (2007-11-13)
  * Simplified the code of defaultgui, using the actions provided by
    the toolbars instead of creating new ones, and removing some old
