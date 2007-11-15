@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -2482,7 +2483,7 @@ tego nie zrobisz smplayer nie będzie odtwarzać plików!&lt;/b&gt;</translation
     <message>
         <location filename="../prefgeneral.cpp" line="441"/>
         <source>Usually smplayer will remember the settings for each file you play (audio track selected, volume, filters...). Uncheck this option if you don&apos;t like this feature.</source>
-        <translation>Zwykle smplayer pamięta ustawienia dla każdego odtwarzanego pliku (wybranej ścieżki audio,głośności,fitrów...). Odznacz tę opcję aby tego nie robił.</translation>
+        <translation>Zwykle smplayer pamięta ustawienia dla każdego odtwarzanego pliku (wybranej ścieżki audio, głośności, fitrów...). Odznacz tę opcję aby tego nie robił.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="443"/>
@@ -3099,7 +3100,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinput.cpp" line="100"/>
         <source>Change speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Zmień prędkość</translation>
     </message>
 </context>
 <context>
@@ -3525,7 +3526,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefperformance.cpp" line="210"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
-        <translation>Wybranie tej opcji powoduje pomijanie wyświetlania niektórych klatekaby utrzymać synchronizację A/V na słabszym sprzęcie.</translation>
+        <translation>Wybranie tej opcji powoduje pomijanie wyświetlania niektórych klatek aby utrzymać synchronizację A/V na słabszym sprzęcie.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="212"/>
@@ -4084,7 +4085,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../main.cpp" line="216"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
-        <translation>jeśli uruchomiona jest inna kopia programu, media zostaną dodane do jej listy odtwarzania. Jeśli nie ma innej kopii programu, opcja ta jest ignorowana i pliki zostana otwarte w nowej kopii programu.</translation>
+        <translation>jeśli uruchomiona jest inna kopia programu, media zostaną dodane do jej listy odtwarzania. Jeśli nie ma innej kopii programu, opcja ta jest ignorowana i pliki zostaną otwarte w nowej kopii programu.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="170"/>
