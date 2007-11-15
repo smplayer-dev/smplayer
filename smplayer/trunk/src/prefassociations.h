@@ -45,12 +45,13 @@ public:
 
 	// Apply changes
 	void getData(Preferences * pref);
-	void addItem(const char* label); 
+
+	void addItem(QString label); 
+
 	int ProcessAssociations(QStringList& current, QStringList& old);
+
 protected:
 	virtual void createHelp();
-	
-
 
 protected:
 	virtual void retranslateStrings();

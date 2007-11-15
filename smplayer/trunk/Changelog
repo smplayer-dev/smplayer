@@ -4,6 +4,9 @@
  * Fixed a bug in the new code in defaultgui: if you close the program in
    compact mode, then later when quiting compact mode the toolbars don't 
    appear.
+ * (Internal change) Now lists for video, audio, subtitles and playlists
+   extensions are defined in extensions.h/extensions.cpp.
+ * Added the audio types to the associations section in preferences.
 
 (2007-11-13)
  * Simplified the code of defaultgui, using the actions provided by

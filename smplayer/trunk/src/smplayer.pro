@@ -18,6 +18,7 @@ HEADERS	+= config.h \
 	subtracks.h \
 	trackdata.h \
 	tracks.h \
+	extensions.h \
 	desktopinfo.h \
 	myprocess.h \
 	mplayerprocess.h \
@@ -77,6 +78,7 @@ SOURCES	+= version.cpp \
 	subtracks.cpp \
 	trackdata.cpp \
 	tracks.cpp \
+	extensions.cpp \
 	desktopinfo.cpp \
 	myprocess.cpp \
 	mplayerprocess.cpp \

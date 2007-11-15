@@ -71,6 +71,8 @@
 
 #include "constants.h"
 
+#include "extensions.h"
+
 
 BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags ) 
 	: QMainWindow( parent, flags ),
@@ -2366,13 +2368,12 @@ void BaseGui::openFile() {
 
 	exitFullscreenIfNeeded();
 
+	Extensions e;
     QString s = MyFileDialog::getOpenFileName(
                        this, tr("Choose a file"), pref->latest_dir, 
-                       tr("Video") +" (*.avi *.mpg *.mpeg *.mkv *.wmv "
-                       "*.ogm *.vob *.flv *.mov *.ts *.rmvb *.mp4 "
-                       "*.iso *.dvr-ms);;" +
-                       tr("Audio") +" (*.mp3 *.ogg *.wav *.wma *.ac3 *.ra *.ape);;" +
-                       tr("Playlists") +" (*.m3u *.m3u8);;" +
+                       tr("Video") + e.video().forFilter()+";;" +
+                       tr("Audio") + e.audio().forFilter()+";;" +
+                       tr("Playlists") + e.playlist().forFilter()+";;" +
                        tr("All files") +" (*.*)" );
 
     if ( !s.isEmpty() ) {
@@ -2521,11 +2522,11 @@ void BaseGui::loadSub() {
 
 	exitFullscreenIfNeeded();
 
+	Extensions e;
     QString s = MyFileDialog::getOpenFileName(
         this, tr("Choose a file"), 
 	    pref->latest_dir, 
-        tr("Subtitles") +" (*.srt *.sub *.ssa *.ass *.idx"
-                         " *.txt *.smi *.rt *.utf *.aqt);;" +
+        tr("Subtitles") + e.subtitles().forFilter()+ ";;" +
         tr("All files") +" (*.*)" );
 
 	if (!s.isEmpty()) core->loadSub(s);
@@ -2536,10 +2537,11 @@ void BaseGui::loadAudioFile() {
 
 	exitFullscreenIfNeeded();
 
+	Extensions e;
 	QString s = MyFileDialog::getOpenFileName(
         this, tr("Choose a file"), 
 	    pref->latest_dir, 
-        tr("Audio") +" (*.mp3 *.ogg *.wav *.wma *.ac3 *.ra *.ape);;" +
+        tr("Audio") + e.audio().forFilter()+";;" +
         tr("All files") +" (*.*)" );
 
 	if (!s.isEmpty()) core->loadAudioFile(s);
@@ -2766,7 +2768,8 @@ void BaseGui::dropEvent( QDropEvent *e ) {
 		if (files.count() == 1) {
 			QFileInfo fi( files[0] );
 
-			QRegExp ext_sub("^srt$|^sub$|^ssa$|^ass$|^idx$|^txt$|^smi$|^rt$|^utf$|^aqt$");
+			Extensions e;
+			QRegExp ext_sub(e.subtitles().forRegExp());
 			ext_sub.setCaseSensitivity(Qt::CaseInsensitive);
 			if (ext_sub.indexIn(fi.suffix()) > -1) {
 				qDebug( "BaseGui::dropEvent: loading sub: '%s'", files[0].toUtf8().data());
