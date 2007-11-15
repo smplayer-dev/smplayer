@@ -50,6 +50,7 @@
 #include "global.h"
 #include "core.h"
 #include "config.h"
+#include "extensions.h"
 
 #include <stdlib.h>
 
@@ -549,10 +550,11 @@ bool Playlist::save_m3u(QString file) {
 
 void Playlist::load() {
 	if (maybeSave()) {
+		Extensions e;
 		QString s = MyFileDialog::getOpenFileName(
                     this, tr("Choose a file"), 
                     lastDir(),
-                    tr("Playlists") +" (*.m3u *.m3u8)");
+                    tr("Playlists") + e.playlist().forFilter());
 
 		if (!s.isEmpty()) {
 			latest_dir = QFileInfo(s).absolutePath();
@@ -562,10 +564,11 @@ void Playlist::load() {
 }
 
 bool Playlist::save() {
+	Extensions e;
 	QString s = MyFileDialog::getSaveFileName(
                     this, tr("Choose a filename"), 
                     lastDir(),
-                    tr("Playlists") +" (*.m3u *.m3u8)" );
+                    tr("Playlists") + e.playlist().forFilter());
 
 	if (!s.isEmpty()) {
 		// If filename has no extension, add it

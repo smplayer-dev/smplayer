@@ -29,7 +29,7 @@
 #include <QApplication>
 #include <QMessageBox>
 #include "winfileassoc.h"
-
+#include "extensions.h"
 
 static Qt::CheckState CurItemCheckState = Qt::Unchecked; 
 
@@ -43,6 +43,7 @@ PrefAssociations::PrefAssociations(QWidget * parent, Qt::WindowFlags f)
 	connect(listWidget, SIGNAL(itemClicked(QListWidgetItem*)), this, SLOT(listItemClicked(QListWidgetItem*))); 
 	connect(listWidget, SIGNAL(itemPressed(QListWidgetItem*)), this, SLOT(listItemPressed(QListWidgetItem*))); 
 
+	/*
 	//Video for windows
 	addItem("avi");
 	addItem("vfw");
@@ -91,6 +92,17 @@ PrefAssociations::PrefAssociations(QWidget * parent, Qt::WindowFlags f)
 
 	//FLV
 	addItem("flv");
+	*/
+
+	Extensions e;
+	for (int n=0; n < e.video().count(); n++) {
+		addItem( e.video()[n] );
+	}
+	for (int n=0; n < e.audio().count(); n++) {
+		if (e.audio()[n] != "ogg") // Already in video
+			addItem( e.audio()[n] );
+	}
+	
 	retranslateStrings();
 }
 
@@ -131,7 +143,7 @@ void PrefAssociations::listItemPressed(QListWidgetItem* item)
 	CurItemCheckState = item->checkState(); 
 }
 
-void PrefAssociations::addItem(const char* label)
+void PrefAssociations::addItem(QString label)
 {
 	QListWidgetItem* item = new QListWidgetItem(listWidget); 
 	item->setText(label);
