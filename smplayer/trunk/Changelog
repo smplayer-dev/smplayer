@@ -1,9 +1,10 @@
-[b]Version 0.5.62[/b] (not released yet):
+[b]Version 0.5.62[/b]:
 
 (2007-11-16)
  * Added a new option in Preferences->General->Audio that allows to change
    the playback speed without altering the pitch (requires at least 
    MPlayer dev-SVN-r24924).
+ * Released version 0.5.62. Why not?
 
 (2007-11-15)
  * Fixed a bug in the new code in defaultgui: if you close the program in
