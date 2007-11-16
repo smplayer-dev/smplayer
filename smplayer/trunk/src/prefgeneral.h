@@ -129,6 +129,9 @@ protected:
 	void setAudioChannels(int ID);
 	int audioChannels();
 
+	void setScaleTempoFilter(bool b);
+	bool scaleTempoFilter();
+
 protected:
 	virtual void retranslateStrings();
 

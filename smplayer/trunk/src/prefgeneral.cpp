@@ -110,6 +110,7 @@ void PrefGeneral::setData(Preferences * pref) {
 	setInitialVolume( pref->initial_volume );
 	setDontChangeVolume( pref->dont_change_volume );
 	setAudioChannels( pref->initial_audio_channels );
+	setScaleTempoFilter( pref->use_scaletempo );
 }
 
 void PrefGeneral::getData(Preferences * pref) {
@@ -148,6 +149,7 @@ void PrefGeneral::getData(Preferences * pref) {
 	pref->initial_volume = initialVolume();
 	pref->dont_change_volume = dontChangeVolume();
 	pref->initial_audio_channels = audioChannels();
+	TEST_AND_SET(pref->use_scaletempo, scaleTempoFilter());
 }
 
 void PrefGeneral::setDrivers(InfoList vo_list, InfoList ao_list) {
@@ -386,6 +388,13 @@ int PrefGeneral::autoq() {
 	return autoq_spin->value();
 }
 
+void PrefGeneral::setScaleTempoFilter(bool b) {
+	scaletempo_check->setChecked(b);
+}
+
+bool PrefGeneral::scaleTempoFilter() {
+	return scaletempo_check->isChecked();
+}
 
 // Search mplayer executable
 void PrefGeneral::on_searchButton_clicked() {
@@ -503,6 +512,10 @@ void PrefGeneral::createHelp() {
 
 	setWhatsThis(volnorm_check, tr("Volume normalization by default"),
 		tr("Maximizes the volume without distorting the sound.") );
+
+	setWhatsThis(scaletempo_check, tr("High speed playback without altering pitch"),
+		tr("Allows to change the playback speed without altering pitch. "
+           "Requires at least MPlayer dev-SVN-r24924.") );
 
 	setWhatsThis(change_volume_check, tr("Change volume"),
 		tr("If checked, SMPlayer will remember the volume for every file "

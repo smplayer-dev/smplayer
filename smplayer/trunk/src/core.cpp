@@ -1544,6 +1544,11 @@ void Core::startMplayer( QString file, double seek ) {
 		af += "volnorm=2";
 	}
 
+	if (pref->use_scaletempo) {
+		if (!af.isEmpty()) af += ",";
+		af += "scaletempo";
+	}
+
 	// Additional audio filters, supplied by user
 	// File
 	if ( !pref->mplayer_additional_audio_filters.isEmpty() ) {

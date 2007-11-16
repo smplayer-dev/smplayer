@@ -102,6 +102,7 @@ public:
 	bool use_soft_vol;
 
 	int softvol_max;
+	bool use_scaletempo;
 
 	QString audio_lang; 		// Preferred audio language
 	QString subtitle_lang;		// Preferred subtitle language
