@@ -2872,17 +2872,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="502"/>
         <source>High speed &amp;playback without altering pitch</source>
-        <translation type="unfinished"></translation>
+        <translation>ピッチの変化なしの高速再生(&amp;P)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="524"/>
         <source>High speed playback without altering pitch</source>
-        <translation type="unfinished"></translation>
+        <translation>ピッチの変化なしの高速再生</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="526"/>
         <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation type="unfinished"></translation>
+        <translation>ピッチの変化なしの再生速度の変更を許可します。少なくとも MPlayer dev-SVN-r24924 を必要とします。</translation>
     </message>
 </context>
 <context>
