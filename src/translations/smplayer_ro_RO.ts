@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -2860,17 +2861,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="502"/>
         <source>High speed &amp;playback without altering pitch</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Redare rapidă fără alterarea timbrului sunetului</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="524"/>
         <source>High speed playback without altering pitch</source>
-        <translation type="unfinished"></translation>
+        <translation>Redare rapidă fără alterarea timbrului sunetului</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="526"/>
         <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vă permite modificarea vitezei de redare fără a altera timbrul sunetului. Opţiunea are nevoie de MPlayer versiunea dev-svn-r24924.</translation>
     </message>
 </context>
 <context>
