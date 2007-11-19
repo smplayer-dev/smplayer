@@ -1,4 +1,8 @@
-[b]Version 0.5.62[/b]:
+[b]Version 0.5.63 (not released yet)[/b]:
+
+(2007-11-19)
+ * Added patch by redxii, which provide a new icon for file associations
+   under Windows.
 
 (2007-11-16)
  * Added a new option in Preferences->General->Audio that allows to change

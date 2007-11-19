@@ -140,7 +140,7 @@ bool WinFileAssoc::CreateClassId(const QString& executablePath, const QString& f
 	//Add our ProgId to the HKCR classes
 	RegCR.setValue(m_ClassId + "/shell/open/FriendlyAppName", friendlyName);
 	RegCR.setValue(m_ClassId + "/shell/open/command/.", QString("\"%1\" \"%2\"").arg(appPath, "%1"));
-	RegCR.setValue(m_ClassId + "/DefaultIcon/.", QString("\"%1\",0").arg(appPath));
+	RegCR.setValue(m_ClassId + "/DefaultIcon/.", QString("\"%1\",1").arg(appPath));
 	//Add "Enqueue" command
 	RegCR.setValue(m_ClassId + "/shell/enqueue/.", QObject::tr("Enqueue in SMPlayer"));
 	RegCR.setValue(m_ClassId + "/shell/enqueue/command/.", QString("\"%1\" -add-to-playlist \"%2\"").arg(appPath, "%1"));
