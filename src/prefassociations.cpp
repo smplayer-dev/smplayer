@@ -95,14 +95,10 @@ PrefAssociations::PrefAssociations(QWidget * parent, Qt::WindowFlags f)
 	*/
 
 	Extensions e;
-	for (int n=0; n < e.video().count(); n++) {
-		addItem( e.video()[n] );
+	for (int n=0; n < e.multimedia().count(); n++) {
+		addItem( e.multimedia()[n] );
 	}
-	for (int n=0; n < e.audio().count(); n++) {
-		if (e.audio()[n] != "ogg") // Already in video
-			addItem( e.audio()[n] );
-	}
-	
+
 	retranslateStrings();
 }
 
@@ -241,8 +237,7 @@ void PrefAssociations::retranslateStrings() {
 	createHelp();
 }
 
-void PrefAssociations::createHelp()
-{
+void PrefAssociations::createHelp() {
 	clearHelp();
 
 	setWhatsThis(selectAll, tr("Select all"), 
