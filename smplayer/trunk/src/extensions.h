@@ -40,9 +40,11 @@ public:
 	ExtensionList audio() { return _audio; };
 	ExtensionList playlist() { return _playlist; };
 	ExtensionList subtitles() { return _subtitles; };
+	ExtensionList multimedia() { return _multimedia; };
 
 protected:
 	ExtensionList _video, _audio, _playlist, _subtitles;
+	ExtensionList _multimedia; // video and audio
 };
 
 #endif
