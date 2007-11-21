@@ -788,6 +788,10 @@ void Playlist::addDirectory() {
 }
 
 void Playlist::addDirectory(QString dir) {
+	Extensions e;
+	QRegExp rx_ext(e.multimedia().forRegExp());
+	rx_ext.setCaseSensitivity(Qt::CaseInsensitive);
+
 	QStringList dir_list = QDir(dir).entryList();
 
 	QString filename;
@@ -796,8 +800,11 @@ void Playlist::addDirectory(QString dir) {
 		filename = dir;
 		if (filename.right(1)!="/") filename += "/";
 		filename += (*it);
-		if (!QFileInfo(filename).isDir()) {
-			addItem( filename, "", 0 );
+		QFileInfo fi(filename);
+		if (!fi.isDir()) {
+			if (rx_ext.indexIn(fi.suffix()) > -1) {
+				addItem( filename, "", 0 );
+			}
 		}
 		++it;
 	}

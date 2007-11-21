@@ -3,6 +3,8 @@
 (2007-11-20)
  * (Internal change) Added a new list in extensions: multimedia, which
    includes both video and audio extensions.
+ * Now "Add directory" in playlist only adds video and audio files (not
+   subtitles files, images or any other stuff you may have there).
 
 (2007-11-19)
  * Added patch by redxii, which provide a new icon for file associations
