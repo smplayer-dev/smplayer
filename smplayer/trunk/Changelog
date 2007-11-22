@@ -16,6 +16,9 @@
  * Added patch by redxii, which provide a new icon for file associations
    under Windows.
 
+   
+[b]Version 0.5.62[/b]:
+
 (2007-11-16)
  * Added a new option in Preferences->General->Audio that allows to change
    the playback speed without altering the pitch (requires at least 
