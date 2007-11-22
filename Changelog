@@ -1,5 +1,11 @@
 [b]Version 0.5.63 (not released yet)[/b]:
 
+(2007-11-21)
+ * Added support for playlists in format pls. Now smplayer can open and
+   save pls files (only local files). 
+   Not much sure if QSettings produce a file readable by other applications 
+   (tested with xmms and it seems it works ok).
+
 (2007-11-20)
  * (Internal change) Added a new list in extensions: multimedia, which
    includes both video and audio extensions.

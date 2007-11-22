@@ -57,7 +57,7 @@ Extensions::Extensions()
 	_subtitles << "srt" << "sub" << "ssa" << "ass" << "idx" << "txt" << "smi"
                << "rt" << "utf" << "aqt";
 
-	_playlist << "m3u" << "m3u8";
+	_playlist << "m3u" << "m3u8" << "pls";
 
 	_multimedia = _video;
 	for (int n = 0; n < _audio.count(); n++) {

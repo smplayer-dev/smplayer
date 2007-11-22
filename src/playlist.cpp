@@ -496,6 +496,50 @@ void Playlist::load_m3u(QString file) {
 	}
 }
 
+void Playlist::load_pls(QString file) {
+	qDebug("Playlist::load_pls");
+
+	playlist_path = QFileInfo(file).path();
+
+	QSettings set(file, QSettings::IniFormat);
+	set.beginGroup( "playlist");
+
+	if (set.status() == QSettings::NoError) {
+		clear();
+		QString filename;
+		QString name;
+		double duration;
+
+		int num_items = set.value("NumberOfEntries", 0).toInt();
+
+		for (int n=0; n < num_items; n++) {
+			filename = set.value("File"+QString::number(n+1), "").toString();
+			name = set.value("Title"+QString::number(n+1), "").toString();
+			duration = (double) set.value("Length"+QString::number(n+1), 0).toInt();
+
+			QFileInfo fi(filename);
+			if (fi.exists()) {
+				filename = fi.absoluteFilePath();
+			}
+			if (!fi.exists()) {
+				if (QFileInfo( playlist_path + "/" + filename).exists() ) {
+					filename = playlist_path + "/" + filename;
+				}
+			}
+			addItem( filename, name, duration );
+		}
+	}
+
+	set.endGroup();
+
+	list();
+	updateView();
+
+	setModified( false );
+
+	if (set.status() == QSettings::NoError) startPlay();
+}
+
 bool Playlist::save_m3u(QString file) {
 	qDebug("Playlist::save_m3u: '%s'", file.toUtf8().data());
 
@@ -548,6 +592,55 @@ bool Playlist::save_m3u(QString file) {
 	}
 }
 
+
+bool Playlist::save_pls(QString file) {
+	qDebug("Playlist::save_pls: '%s'", file.toUtf8().data());
+
+	QString dir_path = QFileInfo(file).path();
+	if (!dir_path.endsWith("/")) dir_path += "/";
+
+	#ifdef Q_OS_WIN
+	dir_path = Helper::changeSlashes(dir_path);
+	#endif
+
+	qDebug(" * dirPath: '%s'", dir_path.toUtf8().data());
+
+	QSettings set(file, QSettings::IniFormat);
+	set.beginGroup( "playlist");
+	
+	QString filename;
+
+	PlaylistItemList::iterator it;
+	for ( int n=0; n < pl.count(); n++ ) {
+		filename = pl[n].filename();
+		#ifdef Q_OS_WIN
+		filename = Helper::changeSlashes(filename);
+		#endif
+
+		// Try to save the filename as relative instead of absolute
+		if (filename.startsWith( dir_path )) {
+			filename = filename.mid( dir_path.length() );
+		}
+
+		set.setValue("File"+QString::number(n+1), filename);
+		set.setValue("Title"+QString::number(n+1), pl[n].name());
+		set.setValue("Length"+QString::number(n+1), (int) pl[n].duration());
+	}
+
+	set.setValue("NumberOfEntries", pl.count());
+	set.setValue("Version", 2);
+
+	set.endGroup();
+
+	set.sync();
+
+	bool ok = (set.status() == QSettings::NoError);
+	if (ok) setModified( false );
+
+	return ok;
+}
+
+
 void Playlist::load() {
 	if (maybeSave()) {
 		Extensions e;
@@ -558,7 +651,11 @@ void Playlist::load() {
 
 		if (!s.isEmpty()) {
 			latest_dir = QFileInfo(s).absolutePath();
-			load_m3u(s);
+
+			if (QFileInfo(s).suffix().toLower() == "pls")
+				load_pls(s);
+			else
+				load_m3u(s);
 		}
 	}
 }
@@ -588,7 +685,12 @@ bool Playlist::save() {
 			}
 		}
 		latest_dir = QFileInfo(s).absolutePath();
-		return save_m3u(s);
+
+		if (QFileInfo(s).suffix().toLower() == "pls")
+			return save_pls(s);
+		else
+			return save_m3u(s);
+
 	} else {
 		return false;
 	}
