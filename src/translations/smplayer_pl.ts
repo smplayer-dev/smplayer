@@ -374,7 +374,7 @@ Nadpisać?</translation>
     </message>
     <message>
         <source>4:3 &amp;to 16:9</source>
-        <translation>4:3 &amp;zu 16:9</translation>
+        <translation>4:3 &amp;do 16:9</translation>
     </message>
     <message>
         <source>&amp;Aspect ratio</source>
@@ -1107,17 +1107,17 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     </message>
     <message>
         <source>&amp;MPlayer options</source>
-        <translation>&amp;Opcje Mplayer-a</translation>
+        <translation>&amp;Opcje Mplayera</translation>
     </message>
     <message>
         <source>Additional Options for MPlayer</source>
-        <translation>Dodatkowe opcje MPlayer-a</translation>
+        <translation>Dodatkowe opcje MPlayera</translation>
     </message>
     <message>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation>Tu możesz wpisać dodatkowe opcje MPlayer-a.
+        <translation>Tu możesz wpisać dodatkowe opcje MPlayera.
 Wpisz oddzielając spacją. 
 Przykład: -flip -nosound</translation>
     </message>
@@ -1583,7 +1583,7 @@ odtwarzania :</translation>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation>Tu możesz wpisać dodatkowe opcje MPlayer-a.
+        <translation>Tu możesz wpisać dodatkowe opcje MPlayera.
 Wpisz oddzielając spacją. 
 Przykład: -flip -nosound</translation>
     </message>
@@ -1611,11 +1611,11 @@ Przykład: resample=44100:0:0,</translation>
     </message>
     <message>
         <source>Log MPlayer output</source>
-        <translation>Komunikaty wyjściowe MPlayer-a</translation>
+        <translation>Komunikaty wyjściowe MPlayera</translation>
     </message>
     <message>
         <source>Log SMPlayer output</source>
-        <translation>Komunikaty wyjściowe SMPlayer-a</translation>
+        <translation>Komunikaty wyjściowe SMPlayera</translation>
     </message>
     <message>
         <source>This option is mainly intended for debugging the application.</source>
@@ -1623,12 +1623,12 @@ Przykład: resample=44100:0:0,</translation>
     </message>
     <message>
         <source>&amp;MPlayer language</source>
-        <translation>&amp;Język MPlayer-a</translation>
+        <translation>&amp;Język MPlayera</translation>
     </message>
     <message>
         <source>SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br&gt;&lt;br&gt;
 The drop-down lists may provide already made regular expression for several languages.</source>
-        <translation>Aby odczytać i przeprowadzić analizę tekstu SMplayer potrzebuje danych od programu MPlayer i czasami opiera się na angielskim tekście. Jeśli używasz MPlayer-a przetłumaczonego na inny język, to należy przerobić teksty, których SMPlayer będzie szukał. (Technicznie powinieneś wpisać regularne wyrażenia)&lt;br&gt;&lt;br&gt;
+        <translation>Aby odczytać i przeprowadzić analizę tekstu SMplayer potrzebuje danych od programu MPlayer i czasami opiera się na angielskim tekście. Jeśli używasz MPlayera przetłumaczonego na inny język, to należy przerobić teksty, których SMPlayer będzie szukał. (Technicznie powinieneś wpisać regularne wyrażenia)&lt;br&gt;&lt;br&gt;
 Rozwijalna lista dostarcza już regularne wyrażenia dla kilku języków.</translation>
     </message>
     <message>
@@ -1637,7 +1637,7 @@ Rozwijalna lista dostarcza już regularne wyrażenia dla kilku języków.</trans
     </message>
     <message>
         <source>If checked, smplayer will store the output of mplayer (you can see it in &lt;b&gt;Options-&gt;View logs-&gt;mplayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation>Jeśli opcja jest zaznaczona, smplayer będzie pamiętał komunikaty z mplayer-a (możesz zobaczyć te komunikaty klikając &lt;b&gt;Opcje-&gt;Pokaż logi-&gt;mplayer&lt;/b&gt;). W przypadku problemów ten komunikat będzie miał bardzo ważne informacje, więc zaleca się włączyć tę opcję.</translation>
+        <translation>Jeśli opcja jest zaznaczona, smplayer będzie pamiętał komunikaty z mplayera (możesz zobaczyć te komunikaty klikając &lt;b&gt;Opcje-&gt;Pokaż logi-&gt;mplayer&lt;/b&gt;). W przypadku problemów ten komunikat będzie miał bardzo ważne informacje, więc zaleca się włączyć tę opcję.</translation>
     </message>
     <message>
         <source>If this option is checked, smplayer will store the debugging messages that smplayer outputs (you can see the log in &lt;b&gt;Options-&gt;View logs-&gt;smplayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
@@ -1645,7 +1645,7 @@ Rozwijalna lista dostarcza już regularne wyrażenia dla kilku języków.</trans
     </message>
     <message>
         <source>Filter for SMPlayer logs</source>
-        <translation>Filtr logów SMPlayer-a</translation>
+        <translation>Filtr logów SMPlayera</translation>
     </message>
     <message>
         <source>This option allows to filter the smplayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
@@ -1686,11 +1686,11 @@ Rozwijalna lista dostarcza już regularne wyrażenia dla kilku języków.</trans
     </message>
     <message>
         <source>Log &amp;SMPlayer output</source>
-        <translation>Komunikaty &amp;wyjściowe SMPlayer-a</translation>
+        <translation>Komunikaty &amp;wyjściowe SMPlayera</translation>
     </message>
     <message>
         <source>&amp;Filter for SMPlayer logs:</source>
-        <translation>&amp;Filtr logów SMPlayer-a:</translation>
+        <translation>&amp;Filtr logów SMPlayera:</translation>
     </message>
     <message>
         <source>&amp;End of file:</source>
@@ -1710,11 +1710,11 @@ Rozwijalna lista dostarcza już regularne wyrażenia dla kilku języków.</trans
     </message>
     <message>
         <source>Log MPlayer &amp;output</source>
-        <translation>Komunikaty &amp;wyjściowe MPlayer-a</translation>
+        <translation>Komunikaty &amp;wyjściowe MPlayera</translation>
     </message>
     <message>
         <source>Options for MP&amp;layer</source>
-        <translation>Opcje &amp;MPlayer-a</translation>
+        <translation>Opcje &amp;MPlayera</translation>
     </message>
     <message>
         <source>Autosave MPlayer log</source>
@@ -1952,7 +1952,7 @@ Aby odtwarzać z cdrom lub dvd musisz ustawić napęd cdrom i dvd (może być te
     </message>
     <message>
         <source>Select the mplayer executable</source>
-        <translation>Wybierz plik wykonywalny mplayer-a</translation>
+        <translation>Wybierz plik wykonywalny mplayera</translation>
     </message>
     <message>
         <source>Executables</source>
@@ -1968,7 +1968,7 @@ Aby odtwarzać z cdrom lub dvd musisz ustawić napęd cdrom i dvd (może być te
     </message>
     <message>
         <source>MPlayer executable</source>
-        <translation>Plik wykonywalny MPlayer-a</translation>
+        <translation>Plik wykonywalny MPlayera</translation>
     </message>
     <message>
         <source>Here you must specify the mplayer executable that smplayer will use.&lt;br&gt;smplayer requires at least mplayer 1.0rc1 (svn recommended).&lt;br&gt;&lt;b&gt;If this setting is wrong, smplayer won&apos;t be able to play anything!&lt;/b&gt;</source>
@@ -2095,7 +2095,7 @@ tego nie zrobisz smplayer nie będzie odtwarzać plików!&lt;/b&gt;</translation
     </message>
     <message>
         <source>Select the &amp;MPlayer executable:</source>
-        <translation>Wybierz plik wykonywalny &amp;MPlayer-a:</translation>
+        <translation>Wybierz plik wykonywalny &amp;MPlayera:</translation>
     </message>
     <message>
         <source>&amp;Folder for storing screenshots:</source>
@@ -2762,7 +2762,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     </message>
     <message>
         <source>Select the priority for the MPlayer process.</source>
-        <translation>Wybierz priorytet dla MPlayer-a.</translation>
+        <translation>Wybierz priorytet dla MPlayera.</translation>
     </message>
     <message>
         <source>Priority:</source>
@@ -2842,7 +2842,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     </message>
     <message>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation>Ustaw priorytet procesu mplayer-a zgodnie z hierarchią wartości pod Windows.&lt;br&gt;&lt;b&gt;UWAGA:&lt;/b&gt;Użycie najwyższego priorytetu może być przyczyną niestabilności systemu.</translation>
+        <translation>Ustaw priorytet procesu mplayera zgodnie z hierarchią wartości pod Windows.&lt;br&gt;&lt;b&gt;UWAGA:&lt;/b&gt;Użycie najwyższego priorytetu może być przyczyną niestabilności systemu.</translation>
     </message>
     <message>
         <source>&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option is for Windows only.</source>
@@ -3149,7 +3149,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     </message>
     <message>
         <source>&amp;Use -subfont option (required by recent MPlayer releases)</source>
-        <translation>&amp;Użyj opcji -subfont (wymagane przez ostatnią wersje MPlayer-a)</translation>
+        <translation>&amp;Użyj opcji -subfont (wymagane przez ostatnią wersje MPlayera)</translation>
     </message>
     <message>
         <source>&amp;TTF font:</source>
@@ -3271,7 +3271,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     </message>
     <message>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
-        <translation>&apos;media&apos; to każdy plik, który SMPlayer jest w stanie otworzyć. Może to być plik lokalny, DVD (n.p. dvd://1), strumień internetowy (n.p. mms://1) lub lista odtwarzania w formacie m3u. Jeśli opcja -playlist jest użyta, oznacza to, że SMPlayer przeniesie opcję -playlist do MPlayer-a, więc MPlayer obsłuży listę odtwarzania.</translation>
+        <translation>&apos;media&apos; to każdy plik, który SMPlayer jest w stanie otworzyć. Może to być plik lokalny, DVD (n.p. dvd://1), strumień internetowy (n.p. mms://1) lub lista odtwarzania w formacie m3u. Jeśli opcja -playlist jest użyta, oznacza to, że SMPlayer przeniesie opcję -playlist do MPlayera, więc MPlayer obsłuży listę odtwarzania.</translation>
     </message>
     <message>
         <source>the main window will be closed when the file/playlist finishes.</source>
