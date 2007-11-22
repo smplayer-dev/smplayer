@@ -106,6 +106,9 @@ public slots:
 	virtual void load_m3u(QString file);
 	virtual bool save_m3u(QString file);
 
+	virtual void load_pls(QString file);
+	virtual bool save_pls(QString file);
+
 	virtual void getMediaInfo();
 
 	void setModified(bool);

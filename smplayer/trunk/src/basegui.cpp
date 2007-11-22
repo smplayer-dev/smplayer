@@ -2274,6 +2274,10 @@ void BaseGui::open(QString file) {
 	if ( (extension=="m3u") || (extension=="m3u8") ) {
 		playlist->load_m3u(file);
 	} 
+	else
+	if (extension=="pls") {
+		playlist->load_pls(file);
+	}
 	else 
 	if (QFileInfo(file).isDir()) {
 		openDirectory(file);
@@ -2394,6 +2398,10 @@ void BaseGui::openFile(QString file) {
 		if ( (extension=="m3u") || (extension=="m3u8") ) {
 			playlist->load_m3u(file);
 		} 
+		else
+		if (extension=="pls") {
+			playlist->load_pls(file);
+		}
 		else
 		if (extension=="iso") {
 			if (playlist->maybeSave()) {
