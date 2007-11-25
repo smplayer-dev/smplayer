@@ -2227,24 +2227,35 @@ void Core::changeSubtitle(int ID) {
 	}
 	
 	qDebug("Core::changeSubtitle: ID: %d", ID);
-#if USE_SELECT_SUB && SUBTITLES_BY_INDEX
-	int real_id = -1;
-	if (ID == -1) {
-		tellmp( "sub_source -1" );
+#if SUBTITLES_BY_INDEX
+	bool use_new_commands = (pref->use_new_sub_commands == Preferences::Enabled);
+	if (pref->use_new_sub_commands == Preferences::Detect) {
+		use_new_commands = (proc->isMplayerAtLeast(25158));
+	}
+
+	if (!use_new_commands) {
+		// Old command sub_select
+		tellmp( "sub_select " + QString::number(ID) );
 	} else {
-		real_id = mdat.subs.itemAt(ID).ID();
-		switch (mdat.subs.itemAt(ID).type()) {
-			case SubData::Vob:
-				tellmp( "sub_vob " + QString::number(real_id) );
-				break;
-			case SubData::Sub:
-				tellmp( "sub_demux " + QString::number(real_id) );
-				break;
-			case SubData::File:
-				tellmp( "sub_file " + QString::number(real_id) );
-				break;
-			default: {
-				qWarning("Core::changeSubtitle: unknown type!");
+		// New commands
+		int real_id = -1;
+		if (ID == -1) {
+			tellmp( "sub_source -1" );
+		} else {
+			real_id = mdat.subs.itemAt(ID).ID();
+			switch (mdat.subs.itemAt(ID).type()) {
+				case SubData::Vob:
+					tellmp( "sub_vob " + QString::number(real_id) );
+					break;
+				case SubData::Sub:
+					tellmp( "sub_demux " + QString::number(real_id) );
+					break;
+				case SubData::File:
+					tellmp( "sub_file " + QString::number(real_id) );
+					break;
+				default: {
+					qWarning("Core::changeSubtitle: unknown type!");
+				}
 			}
 		}
 	}

@@ -26,11 +26,6 @@
 #define SUBTITLES_BY_INDEX 1
 
 
-// Use the new select_sub slave command
-
-#define USE_SELECT_SUB 0
-
-
 // CONTROLWIDGET_OVER_VIDEO
 // if set to 1, the controlwidget will be shown in fullscreen
 // *over* the video (not moving the video) when the user move the mouse 
