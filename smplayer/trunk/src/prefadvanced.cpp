@@ -41,7 +41,7 @@ PrefAdvanced::PrefAdvanced(QWidget * parent, Qt::WindowFlags f)
     endoffile_combo->addItem( "Beenden... \\(Dateiende erreicht\\)" ); // German
     endoffile_combo->addItem( "Sortie... \\(Fin du fichier\\)" ); // French
     endoffile_combo->addItem( "In uscita... \\(Fine del file\\)" ); // Italian
-    endoffile_combo->addItem( QString::fromUtf8("Wychodzê... \\(Koniec pliku\\)") ); // Polish
+    endoffile_combo->addItem( QString::fromUtf8("Wychodzę... \\(Koniec pliku\\)") ); // Polish
 
     novideo_combo->addItem( "Video: no video" ); // English
     novideo_combo->addItem( QString::fromUtf8("Vídeo: no hay video") ); // Spanish
