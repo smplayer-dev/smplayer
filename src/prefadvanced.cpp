@@ -36,17 +36,19 @@ PrefAdvanced::PrefAdvanced(QWidget * parent, Qt::WindowFlags f)
 	monitoraspect_combo->addItem("16:10");
 
 	// MPlayer language combos.
-    endoffile_combo->addItem( "Exiting... \\(End of file\\)" );
-    endoffile_combo->addItem( "Saliendo... \\(Fin de archivo\\.\\)" );
-    endoffile_combo->addItem( "Beenden... \\(Dateiende erreicht\\)" );
-    endoffile_combo->addItem( "Sortie... \\(Fin du fichier\\)" );
-    endoffile_combo->addItem( "In uscita... \\(Fine del file\\)" );
+    endoffile_combo->addItem( "Exiting... \\(End of file\\)" ); // English
+    endoffile_combo->addItem( "Saliendo... \\(Fin de archivo\\.\\)" ); // Spanish
+    endoffile_combo->addItem( "Beenden... \\(Dateiende erreicht\\)" ); // German
+    endoffile_combo->addItem( "Sortie... \\(Fin du fichier\\)" ); // French
+    endoffile_combo->addItem( "In uscita... \\(Fine del file\\)" ); // Italian
+    endoffile_combo->addItem( QString::fromUtf8("WychodzÃª... \\(Koniec pliku\\)") ); // Polish
 
-    novideo_combo->addItem( "Video: no video" );
-	novideo_combo->addItem( QString::fromLatin1("Vídeo: no hay video") );
-    novideo_combo->addItem( "Video: kein Video" );
-    novideo_combo->addItem( QString::fromLatin1("Vidéo : pas de vidéo") );
-    novideo_combo->addItem( "Video: nessun video" );
+    novideo_combo->addItem( "Video: no video" ); // English
+    novideo_combo->addItem( QString::fromUtf8("VÃ­deo: no hay video") ); // Spanish
+    novideo_combo->addItem( "Video: kein Video" ); // German
+    novideo_combo->addItem( QString::fromUtf8("VidÃ©o : pas de vidÃ©o") ); // French
+    novideo_combo->addItem( "Video: nessun video" ); // Italian
+    novideo_combo->addItem( "Wideo: brak obrazu" ); // Polish
 
 	retranslateStrings();
 }

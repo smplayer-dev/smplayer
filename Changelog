@@ -1,5 +1,9 @@
 [b]Version 0.5.63 (not released yet)[/b]:
 
+(2007-11-24)
+ * Added Polish texts for the comboboxes in Preferences->Advanced->MPlayer
+   language, sent by jarek. 
+
 (2007-11-21)
  * Added support for playlists in format pls. Now smplayer can open and
    save pls files (only local files). 
