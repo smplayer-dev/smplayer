@@ -1,5 +1,20 @@
 [b]Version 0.5.63 (not released yet)[/b]:
 
+(2007-11-25)
+ * A very important changed has been added in this revision. SMPlayer is
+   the first mplayer frontend in the world (I guess) which uses the new 
+   slave commands sub_vob, sub_demux and sub_file (added a few hours ago in the
+   mplayer svn). These commands, at last, allow to accurately select the 
+   subtitle track. Now you can mix without problems subtitles from different 
+   sources: embedded subtitles (like in mkv or mp4 or dvds) and external 
+   subtitles (srt, sub, idx/sub...), and now subtitle selection in mp4 files
+   should work again (fixes bug #1806153).
+   This possibility requires mplayer svn r25158 or above.
+   The following option for the config file has been added: 
+   use_new_sub_commands. The possible values are: 0 (false), 1 (true), 
+   -1 (autodetect). The default value is -1. Autodetection will use the new
+   commands or the old command according to the mplayer version.
+
 (2007-11-24)
  * Added Polish texts for the comboboxes in Preferences->Advanced->MPlayer
    language, sent by jarek. 

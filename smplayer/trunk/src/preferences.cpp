@@ -63,6 +63,7 @@ void Preferences::reset() {
 	//ass_styles = "Bold=1,Outline=2,Shadow=2";
 	ass_styles = "";
 	change_sub_scale_should_restart = Detect;
+	use_new_sub_commands = Detect;
 
 	osd = None;
 
@@ -267,6 +268,7 @@ void Preferences::save() {
 	set->setValue("ass_border_color", (int) ass_border_color);
 	set->setValue("ass_styles", ass_styles);
 	set->setValue("change_sub_scale_should_restart", change_sub_scale_should_restart);
+	set->setValue("use_new_sub_commands", use_new_sub_commands);
 
 	set->setValue("osd", osd);
 	set->setValue("vo", vo);
@@ -457,6 +459,7 @@ void Preferences::load() {
 	ass_border_color = set->value("ass_border_color", ass_border_color).toInt();
 	ass_styles = set->value("ass_styles", ass_styles).toString();
 	change_sub_scale_should_restart = (OptionState) set->value("change_sub_scale_should_restart", change_sub_scale_should_restart).toInt();
+	use_new_sub_commands = (OptionState) set->value("use_new_sub_commands", use_new_sub_commands).toInt();
 
 	osd = set->value("osd", osd).toInt();
 	vo = set->value("vo", vo).toString();
