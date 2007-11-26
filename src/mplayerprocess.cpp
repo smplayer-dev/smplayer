@@ -263,6 +263,13 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			return;
 		}
 
+#ifdef Q_OS_WIN
+		// Hack to recognize mplayer 1.0rc2 from CCCP:
+		if (line.startsWith("MPlayer CCCP ")) { 
+			line.remove("CCCP "); 
+			qDebug("MplayerProcess: removing CCCP: '%s'", line.toUtf8().data()); 
+		}
+#endif
 		if (mplayer_svn == -1) {
 			if (rx_mplayer_revision.indexIn(line) > -1) {
 				mplayer_svn = rx_mplayer_revision.cap(2).toInt();
