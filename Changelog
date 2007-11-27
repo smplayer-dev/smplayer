@@ -1,5 +1,10 @@
 [b]Version 0.5.63 (not released yet)[/b]:
 
+(2007-11-27)
+ * If mplayer is compiled with gui support, it seems pause may not work 
+   properly. I think this is fixed now, by changing the PAUSE command in
+   input.conf. Should fix bug #1839110.
+
 (2007-11-25)
  * A very important changed has been added in this revision. SMPlayer is
    the first mplayer frontend in the world (I guess) which uses the new 
