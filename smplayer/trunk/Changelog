@@ -4,6 +4,7 @@
  * If mplayer is compiled with gui support, it seems pause may not work 
    properly. I think this is fixed now, by changing the PAUSE command in
    input.conf. Should fix bug #1839110.
+ * Now the option Open->VCD is enabled under Windows.
 
 (2007-11-25)
  * A very important changed has been added in this revision. SMPlayer is
