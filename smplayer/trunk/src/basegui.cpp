@@ -3263,4 +3263,27 @@ void BaseGui::changeEvent(QEvent *e) {
 	}
 }
 
+#ifdef Q_OS_WIN
+#if DISABLE_SCREENSAVER_BY_EVENT
+bool BaseGui::winEvent ( MSG * m, long * result ) {
+	//qDebug("BaseGui::winEvent");
+	if (m->message==WM_SYSCOMMAND) {
+		unsigned int param = m->wParam;
+		if ((param & 0xFFF0)==SC_SCREENSAVE || (param & 0xFFF0)==SC_MONITORPOWER) {
+			qDebug("BaseGui::winEvent: received SC_SCREENSAVE or SC_MONITORPOWER");
+			if ((pref->disable_screensaver) && (core->state()==Core::Playing)) {
+				qDebug("BaseGui::winEvent: not allowing screensaver");
+				result = 0;
+				return true;
+			} else {
+				qDebug("BaseGui::winEvent: allowing screensaver");
+				return false;
+			}
+		}
+	}
+	return false;
+}
+#endif
+#endif
+
 #include "moc_basegui.cpp"

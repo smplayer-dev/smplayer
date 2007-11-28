@@ -26,6 +26,12 @@
 #include "core.h"
 #include "config.h"
 
+#ifdef Q_OS_WIN
+#if DISABLE_SCREENSAVER_BY_EVENT
+#include <windows.h>
+#endif
+#endif
+
 class QWidget;
 class QMenu;
 class LogWindow;
@@ -202,6 +208,11 @@ protected:
 	virtual void changeEvent(QEvent * event);
 	virtual void hideEvent( QHideEvent * );
 	virtual void showEvent( QShowEvent * );
+#ifdef Q_OS_WIN
+#if DISABLE_SCREENSAVER_BY_EVENT
+	virtual bool winEvent ( MSG * m, long * result );
+#endif
+#endif
 
 	virtual void aboutToEnterFullscreen();
 	virtual void aboutToExitFullscreen();

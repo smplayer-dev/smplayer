@@ -235,9 +235,11 @@ QString Helper::timeForJumps(int secs) {
 	}
 }
 
+#ifdef Q_OS_WIN
+#if !DISABLE_SCREENSAVER_BY_EVENT
 void Helper::setScreensaverEnabled(bool b) {
 	qDebug("Helper::setScreensaverEnabled: %d", b);
-#ifdef Q_OS_WIN
+
 	if (b) {
 		// Activate screensaver
 		SystemParametersInfo( SPI_SETSCREENSAVEACTIVE, true, 0, SPIF_SENDWININICHANGE);
@@ -248,8 +250,9 @@ void Helper::setScreensaverEnabled(bool b) {
 		SystemParametersInfo( SPI_SETLOWPOWERACTIVE, 0, NULL, 0);
 		SystemParametersInfo( SPI_SETPOWEROFFACTIVE, 0, NULL, 0);
 	}
-#endif
 }
+#endif
+#endif
 
 /*
 void Helper::msleep(int ms) {

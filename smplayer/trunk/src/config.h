@@ -26,6 +26,10 @@
 #define SUBTITLES_BY_INDEX 1
 
 
+// Activate new code to disable the screensaver under Windows
+
+#define DISABLE_SCREENSAVER_BY_EVENT 1
+
 // CONTROLWIDGET_OVER_VIDEO
 // if set to 1, the controlwidget will be shown in fullscreen
 // *over* the video (not moving the video) when the user move the mouse 
