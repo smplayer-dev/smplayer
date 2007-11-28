@@ -253,7 +253,7 @@ void BaseGui::createActions() {
 
 #ifdef Q_OS_WIN
 	// VCD's and Audio CD's seem they don't work on windows
-	openVCDAct->setEnabled(pref->enable_vcd_on_windows);
+	//openVCDAct->setEnabled(pref->enable_vcd_on_windows);
 	openAudioCDAct->setEnabled(pref->enable_audiocd_on_windows);
 #endif
 

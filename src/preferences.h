@@ -216,8 +216,10 @@ public:
 
 	bool save_window_size_on_exit;
 
-	bool enable_vcd_on_windows;
+#ifdef Q_OS_WIN
+	//bool enable_vcd_on_windows;
 	bool enable_audiocd_on_windows;
+#endif
 
 	//! Close the main window when a file or playlist finish
 	bool close_on_finish;
