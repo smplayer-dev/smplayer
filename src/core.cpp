@@ -921,10 +921,14 @@ void Core::processFinished()
 {
     qDebug("Core::processFinished");
 
+#ifdef Q_OS_WIN
+#if !DISABLE_SCREENSAVER_BY_EVENT
 	// Enable screensaver (in windows)
 	if (pref->disable_screensaver) {
 		Helper::setScreensaverEnabled(TRUE);
 	}
+#endif
+#endif
 
 	qDebug("Core::processFinished: we_are_restarting: %d", we_are_restarting);
 
@@ -979,10 +983,14 @@ void Core::startMplayer( QString file, double seek ) {
 		return;
     } 
 
+#ifdef Q_OS_WIN
+#if !DISABLE_SCREENSAVER_BY_EVENT
 	// Disable screensaver (in windows)
 	if (pref->disable_screensaver) {
 		Helper::setScreensaverEnabled(FALSE);
 	}
+#endif
+#endif
 
 	mplayer_log = "";
 	bool is_mkv = (QFileInfo(file).suffix().toLower() == "mkv");

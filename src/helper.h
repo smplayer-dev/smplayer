@@ -23,6 +23,10 @@
 #include <QString>
 #include <QStringList>
 
+#ifdef Q_OS_WIN
+#include "config.h"
+#endif
+
 class QWidget;
 class QColor;
 
@@ -66,7 +70,11 @@ public:
 	static QString log();
 
 	//! Enable or disables the screensaver
+#ifdef Q_OS_WIN
+#if !DISABLE_SCREENSAVER_BY_EVENT
 	static void setScreensaverEnabled(bool b);
+#endif
+#endif
 
 	/* static void msleep(int ms); */
 
