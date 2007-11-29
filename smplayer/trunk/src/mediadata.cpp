@@ -43,11 +43,7 @@ void MediaData::reset() {
 	audios.clear();
 	titles.clear();
 
-#if SUBTITLES_BY_INDEX
 	subs.clear();
-#else
-	subtitles.clear();
-#endif
 
 	//chapters=0;
 	//angles=0;
@@ -116,11 +112,7 @@ void MediaData::list() {
 	qDebug("  mkv_chapters: %d", mkv_chapters);
 
 	qDebug("  Subs:");
-#if SUBTITLES_BY_INDEX
 	subs.list();
-#else
-	subtitles.list();
-#endif
 
 	qDebug("  Audios:");
 	audios.list();

@@ -21,15 +21,12 @@
 
 /* Here we store some volatile info about the file we need to remember */
 
-#include "config.h"
-
-#if SUBTITLES_BY_INDEX
+#include "tracks.h"
 #include "subtracks.h"
-#endif
 
 #include <QString>
 #include <QSettings>
-#include "tracks.h"
+
 
 // Types of media
 
@@ -68,11 +65,7 @@ public:
 	TrackList audios;
 	TrackList titles; // for DVDs
 
-#if SUBTITLES_BY_INDEX
 	SubTracks subs;
-#else
-	TrackList subtitles;
-#endif
 
 	//int chapters, angles; // for DVDs
 

@@ -23,7 +23,6 @@
 
 #include "global.h"
 #include "preferences.h"
-#include "config.h"
 
 
 MplayerProcess::MplayerProcess(QObject * parent) : MyProcess(parent) 
@@ -118,13 +117,9 @@ static QRegExp rx_cdda("^ID_CDDA_TRACK_(\\d+)_MSF=(.*)");
 
 
 //Subtitles
-#if SUBTITLES_BY_INDEX
 static QRegExp rx_subtitle("^ID_(SUBTITLE|FILE_SUB|VOBSUB)_ID=(\\d+)");
 static QRegExp rx_sid("^ID_(SID|VSID)_(\\d+)_(LANG|NAME)=(.*)");
 static QRegExp rx_subtitle_file("^ID_FILE_SUB_FILENAME=(.*)");
-#else
-static QRegExp rx_subs("^ID_SID_(\\d+)_(LANG|NAME)=(.*)");
-#endif
 
 //Clip info
 static QRegExp rx_clip_name("^ (name|title): (.*)", Qt::CaseInsensitive);
@@ -289,7 +284,7 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			}
 		}
 
-#if SUBTITLES_BY_INDEX
+		// Subtitles
 		if (rx_subtitle.indexIn(line) > -1) {
 			md.subs.process(line);
 		}
@@ -301,30 +296,12 @@ void MplayerProcess::parseLine(QByteArray ba) {
 		if (rx_subtitle_file.indexIn(line) > -1) {
 			md.subs.process(line);
 		}
-#endif
 
 		// AO
 		if (rx_ao.indexIn(line) > -1) {
 			emit receivedAO( rx_ao.cap(1) );
 		}
 		else
-
-#if !SUBTITLES_BY_INDEX
-		// Matroska subtitles
-		if (rx_subs.indexIn(line) > -1) {
-			int ID = rx_subs.cap(1).toInt();
-			QString lang = rx_subs.cap(3);
-			QString t = rx_subs.cap(2);
-			qDebug("MplayerProcess::parseLine: Subs: ID: %d, Lang: '%s' Type: '%s'", 
-                    ID, lang.toUtf8().data(), t.toUtf8().data());
-
-			if ( t == "NAME" )
-				md.subtitles.addName(ID, lang);
-			else
-				md.subtitles.addLang(ID, lang);
-		}
-		else
-#endif
 
 		// Matroska audio
 		if (rx_audio_mat.indexIn(line) > -1) {
@@ -538,40 +515,6 @@ void MplayerProcess::parseLine(QByteArray ba) {
 				md.audios.addID( ID );
 			}
 			else
-
-#if !SUBTITLES_BY_INDEX
-			// Generic subtitle
-			if (tag == "ID_SUBTITLE_ID") {
-				int ID = value.toInt();
-				qDebug("MplayerProcess::parseLine: ID_SUBTITLE_ID: %d", ID);
-				md.subtitles.addID( ID );
-			}
-			else
-
-			// Avi subs (srt, sub...)
-			
-			if (tag == "ID_FILE_SUB_ID") {
-				int ID = value.toInt();
-				qDebug("MplayerProcess::parseLine: SUB_ID: %d", ID);
-				md.subtitles.addID( ID );
-				last_sub_id = ID;
-			}
-			else
-			
-			if (tag == "ID_FILE_SUB_FILENAME") {
-				QString name = value;
-				qDebug("MplayerProcess::parseLine: SUB_FILENAME: %s", name.toUtf8().data() );
-				if (last_sub_id != -1) md.subtitles.addFilename( last_sub_id, name );
-				/*
-				if (!md.subtitles.existsFilename(name)) {
-					int new_id = md.subtitles.lastID() + 1;
-					qDebug("MplayerProcess::parseLine: creating new id for file sub: %d", new_id);
-					md.subtitles.addFilename( new_id, value );
-				}
-				*/
-			}
-#endif
-
 			if (tag == "ID_LENGTH") {
 				md.duration = value.toDouble();
 				qDebug("MplayerProcess::parseLine: md.duration set to %f", md.duration);

@@ -3,6 +3,7 @@
 (2007-11-28)
  * Added a new experimental code to disable the screensaver (and monitor
    turning off) on Windows.
+ * Deleted the old (ancient) code for subtitle management.
  
 (2007-11-27)
  * If mplayer is compiled with gui support, it seems pause may not work 

@@ -19,7 +19,6 @@
 #include "infofile.h"
 #include <QFileInfo>
 #include "helper.h"
-#include "config.h"
 #include "constants.h"
 
 InfoFile::InfoFile( QObject * parent ) : QObject(parent) 
@@ -141,7 +140,6 @@ QString InfoFile::getInfo(MediaData md) {
 	}
 
 	// Subtitles
-#if SUBTITLES_BY_INDEX
 	if (md.subs.numItems() > 0) {
 		s += openPar( tr("Subtitles") );
 		row++;
@@ -171,30 +169,6 @@ QString InfoFile::getInfo(MediaData md) {
 		}
 		s += closePar();
 	}
-#else
-	if (md.subtitles.numItems() > 0) {
-		s += openPar( tr("Subtitles") );
-		row++;
-		s += openItem();
-		s += "<td>" + tr("#", "Info for translators: this is a abbreviation for number") + "</td><td>" + 
-              tr("Language") + "</td><td>" + tr("Name") +"</td><td>" +
-              tr("ID", "Info for translators: this is a identification code") + "</td>";
-		s += closeItem();
-		for (int n = 0; n < md.subtitles.numItems(); n++) {
-			row++;
-			s += openItem();
-			QString lang = md.subtitles.itemAt(n).lang();
-			if (lang.isEmpty()) lang = "<i>&lt;"+tr("empty")+"&gt;</i>";
-			QString name = md.subtitles.itemAt(n).name();
-			if (name.isEmpty()) name = "<i>&lt;"+tr("empty")+"&gt;</i>";
-			s += QString("<td>%1</td><td>%2</td><td>%3</td><td>%4</td>")
-                 .arg(n).arg(lang).arg(name)
-                 .arg(md.subtitles.itemAt(n).ID());
-			s += closeItem();
-		}
-		s += closePar();
-	}
-#endif
 
 	return s;
 }

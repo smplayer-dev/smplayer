@@ -358,21 +358,17 @@ void Core::loadSub(const QString & sub ) {
     if ( !sub.isEmpty() ) {
 		//tellmp( "sub_load " + sub );
 		mset.external_subtitles = sub;
-#if SUBTITLES_BY_INDEX
 		just_loaded_external_subs = true;
-#endif
 		restartPlay();
 	}
 }
 
 void Core::unloadSub() {
-#if SUBTITLES_BY_INDEX
 	if ( !mset.external_subtitles.isEmpty() ) {
 		mset.external_subtitles = "";
 		just_unloaded_external_subs = true;
 		restartPlay();
 	}
-#endif
 }
 
 void Core::loadAudioFile(const QString & audiofile) {
@@ -673,29 +669,11 @@ void Core::newMediaPlaying() {
 	// Subtitles
 	if (mset.external_subtitles.isEmpty()) {
 		if (pref->autoload_sub) {
-#if SUBTITLES_BY_INDEX
 			//Select first subtitle if none selected
 			if (mset.current_sub_id == MediaSettings::NoneSelected) {
 				int sub = mdat.subs.selectOne( pref->subtitle_lang, pref->initial_subtitle_track-1 );
 				changeSubtitle( sub );
 			}
-#else
-			//Select first subtitle if none selected
-			if (mset.current_sub_id == MediaSettings::NoneSelected) {
-				int sub = MediaSettings::SubNone; // In case of no subtitle available
-				if (mdat.subtitles.numItems() > 0) {
-					sub = mdat.subtitles.itemAt(0).ID();
-
-					// Check if one of the subtitles is the user preferred.
-					if (!pref->subtitle_lang.isEmpty()) {
-						int res = mdat.subtitles.findLang( pref->subtitle_lang );
-						if (res != -1) sub = res;
-					}
-
-				} 
-				changeSubtitle( sub );
-			}
-#endif
 		} else {
 			changeSubtitle( MediaSettings::SubNone );
 		}
@@ -740,7 +718,7 @@ void Core::finishRestart() {
 		mdat.demuxer = proc->mediaData().demuxer;
 	}
 
-#if SUBTITLES_BY_INDEX
+	// Subtitles
 	//if (we_are_restarting) {
 	if ( (just_loaded_external_subs) || (just_unloaded_external_subs) ) {
 		qDebug("Core::finishRestart: processing new subtitles");
@@ -790,15 +768,8 @@ void Core::finishRestart() {
 		// Recover current subtitle
 		changeSubtitle( mset.current_sub_id );
 	}
-#endif
 
 	we_are_restarting = false;
-
-#if !SUBTITLES_BY_INDEX
-	if (mset.external_subtitles.isEmpty()) {
-		changeSubtitle( mset.current_sub_id );
-	}
-#endif
 
 	if (mset.aspect_ratio_id < MediaSettings::Aspect43Letterbox) {
 		changeAspectRatio(mset.aspect_ratio_id);
@@ -1097,15 +1068,7 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	proc->addArgument("-sub-fuzziness");
-#if SUBTITLES_BY_INDEX
 	proc->addArgument( QString::number(pref->subfuzziness) );
-#else
-	if (mset.external_subtitles.isEmpty()) {
-		proc->addArgument( QString::number(pref->subfuzziness) );
-	} else {
-		proc->addArgument("0");
-	}
-#endif
 
 	/*
 	if (!pref->mplayer_verbose.isEmpty()) {
@@ -2226,16 +2189,10 @@ void Core::changeSubtitle(int ID) {
 	mset.current_sub_id = ID;
 	if (ID==MediaSettings::SubNone) {
 		ID=-1;
-#if !SUBTITLES_BY_INDEX	
-		if (!mset.external_subtitles.isEmpty()) {
-			mset.external_subtitles="";
-			restartPlay();
-		}
-#endif
 	}
 	
 	qDebug("Core::changeSubtitle: ID: %d", ID);
-#if SUBTITLES_BY_INDEX
+
 	bool use_new_commands = (pref->use_new_sub_commands == Preferences::Enabled);
 	if (pref->use_new_sub_commands == Preferences::Detect) {
 		use_new_commands = (proc->isMplayerAtLeast(25158));
@@ -2267,16 +2224,13 @@ void Core::changeSubtitle(int ID) {
 			}
 		}
 	}
-#else
-	tellmp( "sub_select " + QString::number(ID) );
-#endif
+
 	updateWidgets();
 }
 
 void Core::nextSubtitle() {
 	qDebug("Core::nextSubtitle");
 
-#if SUBTITLES_BY_INDEX
 	if ( (mset.current_sub_id == MediaSettings::SubNone) && 
          (mdat.subs.numItems() > 0) ) 
 	{
@@ -2289,32 +2243,6 @@ void Core::nextSubtitle() {
 		}
 		changeSubtitle( item );
 	}
-#else
-	int item;
-	if ( (mset.current_sub_id == MediaSettings::SubNone) && 
-         (mdat.subtitles.numItems() > 0) ) 
-	{
-		item = 0;
-		int ID = mdat.subtitles.itemAt(item).ID();
-		changeSubtitle(ID);
-	} else {
-		item = mdat.subtitles.find( mset.current_sub_id );
-		if (item == -1) {
-			qWarning(" subtitle ID %d not found!", mset.current_sub_id);
-		} else {
-			qDebug( " numItems: %d, item: %d", mdat.subtitles.numItems(), item);
-			item++;
-			int ID;
-			if (item >= mdat.subtitles.numItems()) {
-				ID = MediaSettings::SubNone;
-			} else {
-				ID = mdat.subtitles.itemAt(item).ID();
-			}
-			qDebug( " item: %d, ID: %d", item, ID);
-			changeSubtitle( ID );
-		}
-	}
-#endif
 }
 
 void Core::changeAudio(int ID) {
