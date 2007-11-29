@@ -472,11 +472,9 @@ void BaseGui::createActions() {
 	connect( loadSubsAct, SIGNAL(triggered()),
              this, SLOT(loadSub()) );
 
-#if SUBTITLES_BY_INDEX
 	unloadSubsAct = new MyAction( this, "unload_subs" );
 	connect( unloadSubsAct, SIGNAL(triggered()),
              core, SLOT(unloadSub()) );
-#endif
 
 	decSubDelayAct = new MyAction( Qt::Key_Z, this, "dec_sub_delay" );
 	connect( decSubDelayAct, SIGNAL(triggered()),
@@ -1001,9 +999,7 @@ void BaseGui::retranslateStrings() {
 
 	// Menu Subtitles
 	loadSubsAct->change( Images::icon("open"), tr("&Load...") );
-#if SUBTITLES_BY_INDEX
 	unloadSubsAct->change( Images::icon("unload"), tr("U&nload") );
-#endif
 	decSubDelayAct->change( Images::icon("delay_down"), tr("Delay &-") );
 	incSubDelayAct->change( Images::icon("delay_up"), tr("Delay &+") );
 	decSubPosAct->change( Images::icon("sub_up"), tr("&Up") );
@@ -1547,9 +1543,7 @@ void BaseGui::createMenus() {
 	subtitlesMenu->addMenu(subtitlestrack_menu);
 
 	subtitlesMenu->addAction(loadSubsAct);
-#if SUBTITLES_BY_INDEX
 	subtitlesMenu->addAction(unloadSubsAct);
-#endif
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(decSubDelayAct);
 	subtitlesMenu->addAction(incSubDelayAct);
@@ -1949,7 +1943,6 @@ void BaseGui::initializeMenus() {
 	QAction * subNoneAct = subtitleTrackGroup->addAction( tr("&None") );
 	subNoneAct->setData(MediaSettings::SubNone);
 	subNoneAct->setCheckable(true);
-#if SUBTITLES_BY_INDEX
 	for (n=0; n < core->mdat.subs.numItems(); n++) {
 		QAction *a = new QAction(subtitleTrackGroup);
 		a->setCheckable(true);
@@ -1957,15 +1950,6 @@ void BaseGui::initializeMenus() {
 		a->setData(n);
 	}
 	subtitlestrack_menu->addActions( subtitleTrackGroup->actions() );
-#else
-	for (n=0; n < core->mdat.subtitles.numItems(); n++) {
-		QAction *a = new QAction(subtitleTrackGroup);
-		a->setCheckable(true);
-		a->setText(core->mdat.subtitles.itemAt(n).displayName());
-		a->setData(core->mdat.subtitles.itemAt(n).ID());
-	}
-	subtitlestrack_menu->addActions( subtitleTrackGroup->actions() );
-#endif
 
 	// Audio
 	audioTrackGroup->clear(true);
@@ -2085,17 +2069,8 @@ void BaseGui::updateWidgets() {
 	// Subtitles menu
 	subtitleTrackGroup->setChecked( core->mset.current_sub_id );
 
-#if SUBTITLES_BY_INDEX
 	// Disable the unload subs action if there's no external subtitles
 	unloadSubsAct->setEnabled( !core->mset.external_subtitles.isEmpty() );
-#else
-	// If using an external subtitles, disable the rest
-	bool b = core->mset.external_subtitles.isEmpty();
-	QList <QAction *> l = subtitleTrackGroup->actions();
-	for (int n = 1; n < l.count(); n++) {
-		if (l[n]) l[n]->setEnabled(b);
-	}
-#endif
 	
 	// Audio menu
 	audioTrackGroup->setChecked( core->mset.current_audio_id );

@@ -19,13 +19,6 @@
 #ifndef _CONFIG_H_
 #define _CONFIG_H_
 
-
-// SUBTITLES_BY_INDEX 1
-// New code for subtitle handling.
-
-#define SUBTITLES_BY_INDEX 1
-
-
 // Activate new code to disable the screensaver under Windows
 
 #define DISABLE_SCREENSAVER_BY_EVENT 1
