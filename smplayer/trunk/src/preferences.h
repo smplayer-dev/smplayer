@@ -77,8 +77,11 @@ public:
 	QString dvd_device;
 	QString cdrom_device;
 
-	bool use_cache;
-	int cache;
+	int cache_for_files;
+	int cache_for_streams;
+	int cache_for_dvds;
+	int cache_for_vcds;
+	int cache_for_audiocds;
 
 	bool use_mplayer_window;
 

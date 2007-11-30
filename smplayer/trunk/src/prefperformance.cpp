@@ -62,8 +62,10 @@ void PrefPerformance::retranslateStrings() {
 }
 
 void PrefPerformance::setData(Preferences * pref) {
-	setCacheEnabled( pref->use_cache );
-	setCache( pref->cache );
+	setCacheForFiles( pref->cache_for_files );
+	setCacheForStreams( pref->cache_for_streams );
+	setCacheForDVDs( pref->cache_for_dvds );
+
 	setPriority( pref->priority );
 	setFrameDrop( pref->frame_drop );
 	setHardFrameDrop( pref->hard_frame_drop );
@@ -79,8 +81,10 @@ void PrefPerformance::setData(Preferences * pref) {
 void PrefPerformance::getData(Preferences * pref) {
 	requires_restart = false;
 
-	TEST_AND_SET(pref->use_cache, cacheEnabled());
-	TEST_AND_SET(pref->cache, cache());
+	TEST_AND_SET(pref->cache_for_files, cacheForFiles());
+	TEST_AND_SET(pref->cache_for_streams, cacheForStreams());
+	TEST_AND_SET(pref->cache_for_dvds, cacheForDVDs());
+
 	TEST_AND_SET(pref->priority, priority());
 	TEST_AND_SET(pref->frame_drop, frameDrop());
 	TEST_AND_SET(pref->hard_frame_drop, hardFrameDrop());
@@ -93,21 +97,30 @@ void PrefPerformance::getData(Preferences * pref) {
 	TEST_AND_SET(pref->use_idx, useIdx());
 }
 
-void PrefPerformance::setCacheEnabled(bool b) {
-	use_cache_check->setChecked(b);
+void PrefPerformance::setCacheForFiles(int n) {
+	cache_files_spin->setValue(n);
 }
 
-bool PrefPerformance::cacheEnabled() {
-	return use_cache_check->isChecked();
+int PrefPerformance::cacheForFiles() {
+	return cache_files_spin->value();
 }
 
-void PrefPerformance::setCache(int n) {
-	cache_spin->setValue(n);
+void PrefPerformance::setCacheForStreams(int n) {
+	cache_streams_spin->setValue(n);
 }
 
-int PrefPerformance::cache() {
-	return cache_spin->value();
+int PrefPerformance::cacheForStreams() {
+	return cache_streams_spin->value();
 }
+
+void PrefPerformance::setCacheForDVDs(int n) {
+	cache_dvds_spin->setValue(n);
+}
+
+int PrefPerformance::cacheForDVDs() {
+	return cache_dvds_spin->value();
+}
+
 
 void PrefPerformance::setPriority(int n) {
 	priority_combo->setCurrentIndex(n);
@@ -193,18 +206,12 @@ void PrefPerformance::createHelp() {
 	clearHelp();
 
 	// Performance tab
+#ifdef Q_OS_WIN
 	setWhatsThis(priority_combo, tr("Priority"), 
 		tr("Set process priority for mplayer according to the predefined "
            "priorities available under Windows.<br>"
-           "<b>WARNING:</b> Using realtime priority can cause system lockup.")
-#ifndef Q_OS_WIN
-        + tr("<br><b>Note:</b> This option is for Windows only.") 
+           "<b>WARNING:</b> Using realtime priority can cause system lockup."));
 #endif
-		);
-
-	setWhatsThis(cache_spin, tr("Cache"), 
-		tr("This option specifies how much memory (in kBytes) to use when "
-           "precaching a file or URL. Especially useful on slow media.") );
 
 	setWhatsThis(framedrop_check, tr("Allow frame drop"),
 		tr("Skip displaying some frames to maintain A/V sync on slow systems." ) );
@@ -251,6 +258,18 @@ void PrefPerformance::createHelp() {
            "seeking (i.e. not with stdin, pipe, etc).<br> "
            "Note: the creation of the index may take some time.") );
 
+	setWhatsThis(cache_files_spin, tr("Cache for files"), 
+		tr("This option specifies how much memory (in kBytes) to use when "
+           "precaching a file.") );
+
+	setWhatsThis(cache_streams_spin, tr("Cache for streams"), 
+		tr("This option specifies how much memory (in kBytes) to use when "
+           "precaching a URL.") );
+
+	setWhatsThis(cache_dvds_spin, tr("Cache for DVDs"), 
+		tr("This option specifies how much memory (in kBytes) to use when "
+           "precaching a DVD.<br><b>Warning:</b> Seeking might not work "
+           "properly (including chapter switching) when using a cache for DVDs.") );
 }
 
 #include "moc_prefperformance.cpp"

@@ -1340,14 +1340,21 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 
-	bool cache_activated = ( (pref->use_cache) && (pref->cache > 0) );
-	if ( (mdat.type==TYPE_DVD) && (pref->fast_chapter_change) ) 
-		cache_activated = false;
+	int cache = 0;
+	switch (mdat.type) {
+		case TYPE_FILE : cache = pref->cache_for_files; break;
+		case TYPE_DVD : cache = pref->cache_for_dvds; break;
+		case TYPE_STREAM : cache = pref->cache_for_streams; break;
+		case TYPE_VCD : cache = pref->cache_for_vcds; break;
+		case TYPE_AUDIO_CD : cache = pref->cache_for_audiocds; break;
+		default: cache = 0;
+	}
 
-	//if ( (pref->cache > 0) && ((mdat.type!=TYPE_DVD) || (!pref->fast_chapter_change)) ) {
-	if (cache_activated) {
+	if (cache > 0) {
 		proc->addArgument("-cache");
-		proc->addArgument( QString::number( pref->cache ) );
+		proc->addArgument( QString::number( cache ) );
+	} else {
+		proc->addArgument("-nocache");
 	}
 
 	if (mset.speed != 1.0) {
