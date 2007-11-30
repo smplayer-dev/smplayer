@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -3658,57 +3659,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="261"/>
         <source>Cache for files</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache pour les fichiers</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="263"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cette option définit la taille de la mémoire (en ko) prise lors de la précache d&apos;un fichier.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="265"/>
         <source>Cache for streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache pour les flux</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="267"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cette option définit la taille de la mémoire (en ko) prise lors de la précache d&apos;une URL.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="269"/>
         <source>Cache for DVDs</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache pour les DVDs</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="272"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cette option définit la taille de la mémoire (en ko) prise lors de la précache d&apos;un DVD. .&lt;br&gt;&lt;b&gt;Attention :&lt;/b&gt; cette option risque de mal fonctionner.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="312"/>
         <source>C&amp;reate index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>C&amp;réer un index si besoin</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="333"/>
         <source>&amp;Cache</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Cache</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="379"/>
         <source>Cache for &amp;DVDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache pour les &amp;DVDs :</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="399"/>
         <source>Cache for &amp;local files:</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache pour les fichiers &amp;locaux :</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="409"/>
         <source>Cache for &amp;streams:</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache pour le&amp;s flux :</translation>
     </message>
 </context>
 <context>
