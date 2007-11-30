@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -3664,57 +3665,57 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="261"/>
         <source>Cache for files</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache für Dateien</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="263"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Diese Option gibt an, wie viel Speicher (in kByte), beim Precaching einer Datei, verwendet wird.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="265"/>
         <source>Cache for streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache für Streams</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="267"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
-        <translation type="unfinished"></translation>
+        <translation>Diese Option gibt an, wie viel Speicher (in kByte), beim Precaching einer URL, verwendet wird.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="269"/>
         <source>Cache for DVDs</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache für DVDs</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="272"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Diese Option gibt an, wie viel Speicher (in kByte), beim Precaching von DVDs, verwendet wird.&lt;br&gt;&lt;b&gt;Warnung:&lt;/b&gt; Suchen wird eventuell nicht funktionieren (inklusive Kapitelsprünge), wenn Cache für DVDs aktiviert ist.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="312"/>
         <source>C&amp;reate index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Index erstellen, falls benötigt</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="333"/>
         <source>&amp;Cache</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Cache</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="379"/>
         <source>Cache for &amp;DVDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache für &amp;DVDs:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="399"/>
         <source>Cache for &amp;local files:</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache für &amp;locale Dateien:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="409"/>
         <source>Cache for &amp;streams:</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache für &amp;Streams:</translation>
     </message>
 </context>
 <context>
