@@ -10,7 +10,7 @@
     <message>
         <location filename="../aboutdialog.cpp" line="88"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
-        <translation>このプログラムはフリー ソフトウェアです; あなたは Free Software Foundation によって発行されている GNU General Public License の条件の下で再配布することができます; License のバージョン 2 か、(あなたの選択で) すべてのより後のバージョンのどちらか。</translation>
+        <translation>このプログラムはフリー ソフトウェアです; あなたは Free Software Foundation によって発行されている GNU General Public License の条件の下で再配布できます; License のバージョン 2 か、(あなたの選択で) すべてのより後のバージョンのどちらか。</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="92"/>
@@ -210,7 +210,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="416"/>
         <source>Choose a filename</source>
-        <translation>ファイル名を選択します</translation>
+        <translation>ファイル名の選択</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="427"/>
@@ -227,7 +227,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../actionseditor.cpp" line="467"/>
         <source>Choose a file</source>
-        <translation>ファイルを選択します</translation>
+        <translation>ファイルの選択</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="474"/>
@@ -237,12 +237,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../actionseditor.cpp" line="441"/>
         <source>The file couldn&apos;t be saved</source>
-        <translation>ファイルを保存できませんでした</translation>
+        <translation>ファイルは保存できませんでした</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="475"/>
         <source>The file couldn&apos;t be loaded</source>
-        <translation>ファイルを読み込めませんでした</translation>
+        <translation>ファイルは読み込めませんでした</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="209"/>
@@ -750,7 +750,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="2525"/>
         <source>Choose a file</source>
-        <translation>ファイルを選択します</translation>
+        <translation>ファイルの選択</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2399"/>
@@ -761,13 +761,13 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="2402"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
-        <translation>CDROM / DVD ドライブがまだ構成されていません。
-構成ダイアログが今すぐ表示されます、そうすることができます。</translation>
+        <translation>CDROM / DVD ドライブはまだ構成されていません。
+構成ダイアログは今すぐ表示されますので、それができます。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2476"/>
         <source>Choose a directory</source>
-        <translation>ディレクトリを選択します</translation>
+        <translation>ディレクトリの選択</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2512"/>
@@ -1335,7 +1335,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../filepropertiesdialog.ui" line="68"/>
         <source>&amp;Select the demuxer that will be used for this file:</source>
-        <translation>このファイルに使用するデミュクサを選択します(&amp;S):</translation>
+        <translation>このファイルに使用されるデミュクサを選択します(&amp;S):</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="232"/>
@@ -1633,7 +1633,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../inputdvddirectory.cpp" line="43"/>
         <source>Choose a directory</source>
-        <translation>ディレクトリを選択します</translation>
+        <translation>ディレクトリの選択</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="13"/>
@@ -1679,7 +1679,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../logwindow.cpp" line="71"/>
         <source>Choose a filename to save under</source>
-        <translation>以下に保存するファイル名を選択します</translation>
+        <translation>下で保存するファイル名の選択</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="77"/>
@@ -1701,7 +1701,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../logwindow.cpp" line="98"/>
         <source>The log couldn&apos;t be saved</source>
-        <translation>ログを保存することができませんでした</translation>
+        <translation>ログは保存できませんでした</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="72"/>
@@ -1775,12 +1775,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="648"/>
         <source>Choose a file</source>
-        <translation>ファイルを選択します</translation>
+        <translation>ファイルの選択</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="666"/>
         <source>Choose a filename</source>
-        <translation>ファイル名を選択します</translation>
+        <translation>ファイル名の選択</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="677"/>
@@ -1807,7 +1807,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="883"/>
         <source>Choose a directory</source>
-        <translation>ディレクトリを選択します</translation>
+        <translation>ディレクトリの選択</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1048"/>
@@ -1817,7 +1817,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1049"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
-        <translation>このファイルのプレイリストに表示する名前を入力します:</translation>
+        <translation>このファイルのプレイリストに表示される名前を入力します:</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="258"/>
@@ -1915,7 +1915,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="61"/>
         <source>Advanced</source>
-        <translation>高度</translation>
+        <translation>詳細設定</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="74"/>
@@ -1940,7 +1940,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="305"/>
         <source>If checked, smplayer will store the output of mplayer (you can see it in &lt;b&gt;Options-&gt;View logs-&gt;mplayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation>チェックされている場合、smplayer は mplayer の出力 (&lt;b&gt;オプション-&gt;ログの表示-&gt;mplayer&lt;/b&gt; でご覧できます) を格納します。このログは重要な情報を含む可能性があるので、このオプションのチェックを保持することが推奨されます。</translation>
+        <translation>チェックされている場合、smplayer は mplayer の出力 (&lt;b&gt;オプション-&gt;ログの表示-&gt;mplayer&lt;/b&gt; でご覧になれます) を格納します。このログは重要な情報を含むことがあるので、このオプションのチェックを維持することが推奨されます。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="294"/>
@@ -1950,7 +1950,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="299"/>
         <source>If this option is checked, smplayer will store the debugging messages that smplayer outputs (you can see the log in &lt;b&gt;Options-&gt;View logs-&gt;smplayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation>このオプションがチェックされている場合、smplayer は smplayer が出力するデバッグ メッセージ (&lt;b&gt;オプション-&gt;ログの表示-&gt;smplayer&lt;/b&gt; でご覧できます) を格納します。この情報はバグを検索する場合に開発者に非常に有用です。</translation>
+        <translation>このオプションがチェックされている場合、smplayer は smplayer が出力するデバッグ メッセージ (&lt;b&gt;オプション-&gt;ログの表示-&gt;smplayer&lt;/b&gt; でご覧できます) を格納します。この情報はバグを検索する場合の開発者に非常に有用です。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="317"/>
@@ -1960,7 +1960,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="321"/>
         <source>This option allows to filter the smplayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
-        <translation>このオプションはログに格納される smplayer のメッセージをフィルタすることを許可します。ここで何か正規表現を書き込むことができます。&lt;br&gt;例: &lt;i&gt;^Core::.*&lt;/i&gt; では &lt;i&gt;Core::&lt;/i&gt; で始まる行のみが表示されます</translation>
+        <translation>このオプションはログに格納される smplayer のメッセージのフィルタを許可します。ここで何か正規表現を書き込むことができます。&lt;br&gt;例: &lt;i&gt;^Core::.*&lt;/i&gt; では &lt;i&gt;Core::&lt;/i&gt; で始まる行のみが表示されます</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="13"/>
@@ -1970,7 +1970,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="29"/>
         <source>&amp;Advanced</source>
-        <translation>高度(&amp;A)</translation>
+        <translation>詳細設定(&amp;A)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="49"/>
@@ -2195,7 +2195,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefassociations.cpp" line="253"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
-        <translation>SMPlayer にハンドルさせたいメディア ファイル拡張子をチェックします。[適用] をクリックすると、チェックされたファイルは SMPlayer で関連付けされます。メディアの種類をチェック解除する場合、ファイルの関連付けは復元されます。</translation>
+        <translation>SMPlayer にハンドルさせたいメディア ファイルの拡張子をチェックします。[適用] をクリックすると、チェックされたファイルは SMPlayer に関連付けされます。メディアの種類をチェック解除する場合、ファイルの関連付けは復元されます。</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="246"/>
@@ -2233,7 +2233,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefdrives.ui" line="41"/>
         <source>Currently SMPlayer does not autodetect cdrom or dvd devices. So in order to play cdroms or dvds you must first select here your cdrom and dvd drives (can be the same).</source>
-        <translation>現在 SMPlayer は cdrom または dvd デバイスを自動検出しません。Cdrom または dvd を再生するには最初にお使いの cdrom および dvd ドライブ (同じにすることができます) を選択する必要があります。</translation>
+        <translation>現在 SMPlayer は cdrom または dvd デバイスを自動検出しません。Cdrom または dvd を再生するには最初にお使いの cdrom および dvd ドライブ (同じにできます) を選択する必要があります。</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="157"/>
@@ -2271,7 +2271,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="402"/>
         <source>Select the mplayer executable</source>
-        <translation>Mplayer の実行ファイルを選択します</translation>
+        <translation>Mplayer の実行ファイルの選択</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="405"/>
@@ -2286,7 +2286,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="418"/>
         <source>Select a directory</source>
-        <translation>ディレクトリを選択します</translation>
+        <translation>ディレクトリの選択</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="428"/>
@@ -2296,7 +2296,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="433"/>
         <source>Here you must specify the mplayer executable that smplayer will use.&lt;br&gt;smplayer requires at least mplayer 1.0rc1 (svn recommended).&lt;br&gt;&lt;b&gt;If this setting is wrong, smplayer won&apos;t be able to play anything!&lt;/b&gt;</source>
-        <translation>ここで smplayer が使用する mplayer の実行ファイルを指定する必要があります。&lt;br&gt;smplayer は少なくとも mplayer 1.0rc1 (svn が推奨されます) を必要とします。&lt;br&gt;&lt;b&gt;この設定が間違っていると、smplayer は何も再生することができません!&lt;/b&gt;</translation>
+        <translation>ここで smplayer が使用する mplayer の実行ファイルを指定する必要があります。&lt;br&gt;smplayer は少なくとも mplayer 1.0rc1 (svn が推奨されます) を必要とします。&lt;br&gt;&lt;b&gt;この設定が間違っていると、smplayer は何も再生できなくなります!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="435"/>
@@ -2356,7 +2356,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="547"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>ここでオーディオ ストリームの優先言語を入力できます。複数のオーディオ ストリームのあるメディアが見つかったとき、smplayer は優先言語の使用を試行します。&lt;br&gt;これは DVD または mkv ファイルのような、オーディオ ストリームの言語についての情報を提供するメディアでのみ動作します。&lt;br&gt;このフィールドは正規表現を受け入れます。例: &lt;b&gt;es|esp|spa&lt;/b&gt; は &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; または &lt;i&gt;spa&lt;/i&gt; に一致する場合にオーディオ トラックを選択します。</translation>
+        <translation>ここでオーディオ ストリームの優先言語を入力できます。複数のオーディオ ストリームのあるメディアが見つかったとき、smplayer は優先言語の使用を試行します。&lt;br&gt;これは DVD または mkv ファイルのような、オーディオ ストリームの言語についての情報を提供するメディアでのみ動作します。&lt;br&gt;このフィールドは正規表現を受け入れます。例: &lt;b&gt;es|esp|spa&lt;/b&gt; は &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; または &lt;i&gt;spa&lt;/i&gt; に一致する場合オーディオ トラックを選択します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="549"/>
@@ -2366,7 +2366,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="557"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>ここで字幕ストリームの優先言語を入力できます。複数の字幕ストリームのあるメディアが見つかったとき、smplayer は優先言語の使用を試行します。&lt;br&gt;これは DVD または mkv ファイルのような、字幕ストリームの言語についての情報を提供するメディアでのみ動作します。&lt;br&gt;このフィールドは正規表現を受け入れます。例: &lt;b&gt;es|esp|spa&lt;/b&gt; は &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; または &lt;i&gt;spa&lt;/i&gt; に一致する場合に字幕ストリームを選択します。</translation>
+        <translation>ここで字幕ストリームの優先言語を入力できます。複数の字幕ストリームのあるメディアが見つかったとき、smplayer は優先言語の使用を試行します。&lt;br&gt;これは DVD または mkv ファイルのような、字幕ストリームの言語についての情報を提供するメディアでのみ動作します。&lt;br&gt;このフィールドは正規表現を受け入れます。例: &lt;b&gt;es|esp|spa&lt;/b&gt; は &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; または &lt;i&gt;spa&lt;/i&gt; に一致する場合字幕ストリームを選択します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="466"/>
@@ -2376,7 +2376,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="470"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
-        <translation>ビデオ イコライザがお使いのグラフィック カードまたは選択されたビデオの出力ドライバによってサポートされていない場合にこのオプションをチェックします。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; このオプションはいくつかのビデオの出力ドライバとは互換性がない可能性があります。</translation>
+        <translation>ビデオ イコライザがお使いのグラフィック カードまたは選択されたビデオの出力ドライバによってサポートされていない場合このオプションをチェックできます。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; このオプションはいくつかのビデオの出力ドライバとは互換性がないことがあります。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="475"/>
@@ -2386,7 +2386,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="478"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
-        <translation>動的に利用可能なスペア CPU 時間次第で後処理のレベルを変更します。指定する番号は使用される最大レベルになります。通常いくらかの大きい番号を私用します。</translation>
+        <translation>利用可能なスペア CPU 時間次第で後処理のレベルを動的に変更します。指定する番号は使用される最大レベルになります。通常いくらかの大きい番号を使用できます。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="490"/>
@@ -2546,7 +2546,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="523"/>
         <source>If checked, SMPlayer will remember the volume for every file and will restore it when played again. For new files the default volume will be used.</source>
-        <translation>チェックされている場合、SMPlayer はそれぞれのファイルの音量を記憶して再び再生されたときに復元します。新しいファイルには既定の音量が使用されます。</translation>
+        <translation>チェックされている場合、SMPlayer はそれぞれのファイルの音量を記憶して再び再生されるときに復元します。新しいファイルには既定の音量が使用されます。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="460"/>
@@ -2691,7 +2691,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="488"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
-        <translation>ダブル バッファはメモリに 2 つのフレームが格納されるのと、別のデコード中に表示することによるちらつきを修正します。無効の場合は OSD を悪化させる可能性がありますが、大抵 OSD のちらつきを削除します。</translation>
+        <translation>ダブル バッファはメモリに 2 つのフレームが格納されるのと、別のデコード中の表示によるちらつきを修正します。無効である場合は OSD を悪化させることがありますが、大抵 OSD のちらつきを削除します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="335"/>
@@ -2751,7 +2751,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="463"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, play will be resumed.</source>
-        <translation>このオプションが有効の場合、ファイルはメイン ウィンドウが非表示であるときに一時停止されます。ウィンドウが復元されると、再生は再開されます。</translation>
+        <translation>このオプションが有効である場合、ファイルはメイン ウィンドウが非表示であるときに一時停止されます。ウィンドウが復元されると、再生は再開されます。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="472"/>
@@ -2791,7 +2791,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="508"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
-        <translation>パーセントで最大増幅レベルを設定します (既定: 110)。200 の値は最大で現在のレベルの倍へ音量を上方調整することを許可します。100 以下の値で初期音量 (100%) は例えば OSD を正しく表示できない、最大以上になります。</translation>
+        <translation>パーセントで最大増幅レベルを設定します (既定: 110)。200 の値は最大で現在のレベルの倍へ音量を上方調整するのを許可します。100 以下の値で初期音量 (100%) は例えば OSD を正しく表示できない、最大以上になります。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="511"/>
@@ -2801,12 +2801,12 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="537"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. NOTE: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation>再生チャンネルの数を要求します。MPlayer は指定されただけの数のチャンネルにオーディオをデコードするようデコーダに要求します。次に要求が満たされるのはデコーダ次第です。これは通常 AC3 オーディオ (DVD のような) でビデオを再生するときのみ重要です。その場合には liba52 が既定でデコードして要求されたチャンネルの数にオーディオをダウンミックスします。注意: このオプションはコーデック (AC3 のみ)、フィルタ (サラウンド) およびオーディオ出力ドライバ (少なくとも OSS) によって尊重されています。</translation>
+        <translation>再生チャンネルの数を要求します。MPlayer は指定されただけの数のチャンネルにオーディオをデコードするようデコーダに要求します。次に要求が満たされるのはデコーダ次第です。これは通常 AC3 オーディオ (DVD のような) でビデオを再生するときのみ重要です。その場合は liba52 が既定でデコードして要求されたチャンネルの数にオーディオをダウンミックスします。注意: このオプションはコーデック (AC3 のみ)、フィルタ (サラウンド) およびオーディオ出力ドライバ (少なくとも OSS) によって尊重されています。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="473"/>
         <source>Postprocessing will be used by default on new opened files.</source>
-        <translation>後処理は新しく開かれるファイルで既定で使用されます。</translation>
+        <translation>後処理は新しく開かれるファイルに既定で使用されます。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="559"/>
@@ -2861,7 +2861,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="79"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>ここでオーディオおよび字幕ストリームの優先言語を入力できます。複数のオーディオまたは字幕ストリームのあるメディアが見つかったとき、SMPlayer は優先言語の使用を試行します。これは DVD か mkv ファイルのような、オーディオおよび字幕ストリームの言語についての情報を提供するメディアでのみ動作します。&lt;br&gt;これらのフィールドは正規表現を受け入れます。例: &lt;b&gt;es|esp|spa&lt;/b&gt; は &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; または &lt;i&gt;spa&lt;/i&gt; に一致する場合にトラックを選択します。</translation>
+        <translation>ここでオーディオおよび字幕ストリームの優先言語を入力できます。複数のオーディオまたは字幕ストリームのあるメディアが見つかったとき、SMPlayer は優先言語の使用を試行します。これは DVD か mkv ファイルのような、オーディオおよび字幕ストリームの言語についての情報を提供するメディアでのみ動作します。&lt;br&gt;これらのフィールドは正規表現を受け入れます。例: &lt;b&gt;es|esp|spa&lt;/b&gt; は &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; または &lt;i&gt;spa&lt;/i&gt; に一致する場合トラックを選択します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="656"/>
@@ -2910,7 +2910,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="108"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>ここですべてのショートカットを変更できます。それをするにはショートカット セルの上でダブル クリックまたは enter を押します。また任意にその他の人または別のコンピュータでの読み込みおよび共有するのに一覧を保存できます。</translation>
+        <translation>ここですべてのショートカットを変更できます。それにはショートカット セルの上でダブル クリックまたは入力を開始します。また任意にその他の人または別のコンピュータでの読み込みおよび共有するのに一覧を保存できます。</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="95"/>
@@ -2940,7 +2940,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="67"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>ここですべてのショートカットを変更できます。それをするにはショートカット セルの上でダブル クリックまたは enter を押します。また任意にその他の人または別のコンピュータでの読み込みおよび共有するのに一覧を保存できます。</translation>
+        <translation>ここですべてのショートカットを変更できます。それにはショートカット セルの上でダブル クリックまたは enter を押します。また任意にその他の人または別のコンピュータでの読み込みおよび共有するのに一覧を保存できます。</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="223"/>
@@ -2965,7 +2965,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="189"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
-        <translation>この表は利用可能な動作のキー ショートカットを変更することを許可します。&lt;i&gt;ショートカットの変更&lt;/i&gt; ダイアログに入るにはアイテムでダブルクリックするか enter を押すか、&lt;b&gt;ショートカットの変更&lt;/b&gt; ボタンを押します。ショートカットを変更する 2 つの方法があります: &lt;b&gt;キャプチャ&lt;/b&gt; ボタンがオンの場合は次に動作に割り当てしたい新しいキーまたはキーの組み合わせを押します。&lt;b&gt;キャプチャ&lt;/b&gt; ボタンがオフの場合は次にキーのフル ネームを入力できます。</translation>
+        <translation>この表は利用可能な動作のキー ショートカットの変更を許可します。&lt;i&gt;ショートカットの変更&lt;/i&gt; ダイアログに入るにはアイテムでダブルクリックするか enter を押すか、&lt;b&gt;ショートカットの変更&lt;/b&gt; ボタンを押します。ショートカットを変更する 2 つの方法があります: &lt;b&gt;キャプチャ&lt;/b&gt; ボタンがオンの場合は次に動作に割り当てしたい新しいキーまたはキーの組み合わせを押します。&lt;b&gt;キャプチャ&lt;/b&gt; ボタンがオフの場合は次にキーのフル ネームを入力できます。</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="191"/>
@@ -3391,7 +3391,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="213"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation>Windows 下で利用可能な所定の優先度に従って mplayer のプロセス優先度を設定します。&lt;br&gt;&lt;b&gt;警告:&lt;/b&gt; リアルタイム優先度の使用はシステム ロックアップを引き起こす可能性があります。</translation>
+        <translation>Windows 下で利用可能な所定の優先度に従って mplayer のプロセス優先度を設定します。&lt;br&gt;&lt;b&gt;警告:&lt;/b&gt; リアルタイム優先度の使用はシステム ロックアップを引き起こすことがあります。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="203"/>
@@ -3556,7 +3556,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="146"/>
         <source>Allow &amp;hard frame drop (can lead to image distortion)</source>
-        <translation>ハード フレーム ドロップを許可する (イメージの歪曲の原因となる可能性があります)(&amp;H)</translation>
+        <translation>ハード フレーム ドロップを許可する (イメージの歪曲の原因となることがあります)(&amp;H)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="194"/>
@@ -3586,7 +3586,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="259"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
-        <translation>インデックスが見つからなかった場合にファイルのインデックスを再構築し、シークを許可します。破損した/未完了のダウンロード、または不良に作成されたファイルに有用です。このオプションは基礎となるメディアがシークをサポートする場合のみ動作します (すなわち stdin、pipe、などを持たないもの)。&lt;br&gt; 注意: インデックスの作成には時間がかかる可能性があります。</translation>
+        <translation>インデックスが見つからなかった場合はファイルのインデックスを再構築し、シークを許可します。破損した/未完了のダウンロード、または不良に作成されたファイルに有用です。このオプションは基礎となるメディアがシークをサポートする場合のみ動作します (すなわち stdin、pipe、などを持たないもの)。&lt;br&gt; 注意: インデックスの作成には時間がかかる可能性があります。</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="409"/>
@@ -3641,62 +3641,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="248"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
-        <translation>可能な値:&lt;br&gt; &lt;b&gt;はい&lt;/b&gt;: オーディオ トラックの切り替えに催促の方法を試行します (いくつかのフォーマットでは動作しない可能性があります).&lt;br&gt; &lt;b&gt;いいえ&lt;/b&gt;: MPlayer プロセスはオーディオ トラックの切り替え時にいつも再起動されます。&lt;br&gt; &lt;b&gt;自動&lt;/b&gt;: SMPlayer は MPlayer バージョンによってどうするかを決定します。</translation>
+        <translation>可能な値:&lt;br&gt; &lt;b&gt;はい&lt;/b&gt;: オーディオ トラックの切り替えに最速の方法を試行します (いくつかのフォーマットでは動作しない可能性があります).&lt;br&gt; &lt;b&gt;いいえ&lt;/b&gt;: MPlayer プロセスはオーディオ トラックの切り替え時にいつも再起動されます。&lt;br&gt; &lt;b&gt;自動&lt;/b&gt;: SMPlayer は MPlayer バージョンによってどうするかを決定します。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="261"/>
         <source>Cache for files</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルをキャッシュする</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="263"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションはどのくらいのメモリ (k バイト) をファイルのプリキャッシュ時に使用するかを指定します。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="265"/>
         <source>Cache for streams</source>
-        <translation type="unfinished"></translation>
+        <translation>ストリームをキャッシュする</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="267"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションはどのくらいのメモリ (k バイト) を URL のプリキャッシュ時に使用するかを指定します。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="269"/>
         <source>Cache for DVDs</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD をキャッシュする</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="272"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションはどのくらいのメモリ (k バイト) を DVD のプリキャッシュ時に使用するかを指定します。&lt;br&gt;&lt;b&gt;警告:&lt;/b&gt; シークは DVD のキャッシュの使用時に適切に動作しない可能性があります。</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="312"/>
         <source>C&amp;reate index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>必要ならインデックスを作成する(&amp;R)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="333"/>
         <source>&amp;Cache</source>
-        <translation type="unfinished"></translation>
+        <translation>キャッシュ(&amp;C)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="379"/>
         <source>Cache for &amp;DVDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD をキャッシュする(&amp;D):</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="399"/>
         <source>Cache for &amp;local files:</source>
-        <translation type="unfinished"></translation>
+        <translation>ローカル ファイルをキャッシュする(&amp;L):</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="409"/>
         <source>Cache for &amp;streams:</source>
-        <translation type="unfinished"></translation>
+        <translation>ストリームをキャッシュする&amp;S):</translation>
     </message>
 </context>
 <context>
@@ -3709,7 +3709,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="275"/>
         <source>Choose a ttf file</source>
-        <translation>Ttf ファイルを選択します</translation>
+        <translation>Ttf ファイルの選択</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="277"/>
@@ -4110,12 +4110,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../main.cpp" line="187"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
-        <translation>別の起動への接続の作成と指定された動作の送信を試行します。例: -send-action pause 残りのオプションは (もしあれば) 無視されてアプリケーションは終了します。成功時には 0 または 失敗時には -1 を返します。</translation>
+        <translation>別の起動への接続の作成と指定された動作の送信を試行します。例: -send-action pause 残りのオプションは (あれば) 無視されてアプリケーションは終了します。成功時には 0 または 失敗時には -1 を返します。</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="195"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
-        <translation>action_list はスペースで区切られた動作の一覧です。動作は入力したのと同じ順序でファイル (もしあれば) の読み込み直後に実行されます。チェック可能な動作にはパラメータとして true または false を渡すことができます。例: -actions &quot;fullscreen compact true&quot;。引用符は 1 つ以上の動作を渡す場合に必要です。</translation>
+        <translation>[アクションの一覧] はスペースで区切られる動作の一覧です。動作は入力したのと同じ順序でファイル (あれば) の読み込み直後に実行されます。チェック可能な動作にはパラメータとして true または false を渡すことができます。例: -actions &quot;fullscreen compact true&quot;。引用符は 1 つ以上の動作を渡す場合に必要です。</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="218"/>
