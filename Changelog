@@ -1,5 +1,17 @@
 [b]Version 0.5.63 (not released yet)[/b]:
 
+(2007-11-29)
+ * Now the cache setting is independent for each type of media. That means
+   that you can disable cache for local files (faster startup) while keeping
+   a cache for internet streams.
+   The following options for the config file have been added: cache_for_files,
+   cache_for_streams, cache_for_dvds, cache_for_audiocds and cache_for_vcds
+   (the last two untested).
+   The section Performance in the preferences dialog has been changed too,
+   adding options for cache for files, cache for streams and cache for dvds.
+   Note: it's not recommended to set a cache for DVDs, seeking might not work
+   properly.
+
 (2007-11-28)
  * Added a new experimental code to disable the screensaver (and monitor
    turning off) on Windows.

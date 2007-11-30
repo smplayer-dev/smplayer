@@ -89,8 +89,12 @@ void Preferences::reset() {
 	fast_audio_change = Detect;
 	fast_chapter_change = false;
 
-	use_cache = false;
-	cache = 2000;
+	cache_for_files = 0;
+	cache_for_streams = 1000;
+	cache_for_dvds = 0; // not recommended to use cache for dvds
+	cache_for_vcds = 0;
+	cache_for_audiocds = 0;
+
 
 	use_mplayer_window = FALSE;
 
@@ -284,8 +288,13 @@ void Preferences::save() {
 	set->setValue("dvd_device", dvd_device);
 	set->setValue("cdrom_device", cdrom_device);
 
-	set->setValue("use_cache", use_cache);
-	set->setValue("cache", cache);
+	set->setValue("cache_for_files", cache_for_files);
+	set->setValue("cache_for_streams", cache_for_streams);
+	set->setValue("cache_for_dvds", cache_for_dvds);
+	set->setValue("cache_for_vcds", cache_for_vcds);
+	set->setValue("cache_for_audiocds", cache_for_audiocds);
+
+
 	set->setValue("use_mplayer_window", use_mplayer_window);
 
 	set->setValue("monitor_aspect", monitor_aspect);
@@ -482,8 +491,12 @@ void Preferences::load() {
 	dvd_device = set->value("dvd_device", dvd_device).toString();
 	cdrom_device = set->value("cdrom_device", cdrom_device).toString();
 
-	use_cache = set->value("use_cache", use_cache).toBool();
-	cache = set->value("cache", cache).toInt();
+	cache_for_files = set->value("cache_for_files", cache_for_files).toInt();
+	cache_for_streams = set->value("cache_for_streams", cache_for_streams).toInt();
+	cache_for_dvds = set->value("cache_for_dvds", cache_for_dvds).toInt();
+	cache_for_vcds = set->value("cache_for_vcds", cache_for_vcds).toInt();
+	cache_for_audiocds = set->value("cache_for_audiocds", cache_for_audiocds).toInt();
+
 	use_mplayer_window = set->value("use_mplayer_window", use_mplayer_window).toBool();
 
 	monitor_aspect = set->value("monitor_aspect", monitor_aspect).toString();

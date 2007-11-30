@@ -44,11 +44,14 @@ public:
 protected:
 	virtual void createHelp();
 
-	void setCacheEnabled(bool b);
-	bool cacheEnabled();
+	void setCacheForFiles(int n);
+	int cacheForFiles();
 
-	void setCache(int n);
-	int cache();
+	void setCacheForStreams(int n);
+	int cacheForStreams();
+
+	void setCacheForDVDs(int n);
+	int cacheForDVDs();
 
 	void setPriority(int n);
 	int priority();
