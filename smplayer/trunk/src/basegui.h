@@ -187,6 +187,12 @@ protected slots:
 	void calculateDiff(); //!< Updates diff_size
 #endif
 
+#ifdef Q_OS_WIN
+#if DISABLE_SCREENSAVER_BY_EVENT
+	void clear_just_stopped();
+#endif
+#endif
+
 signals:
 	void frameChanged(int);
 	void timeChanged(double, int, QString);
@@ -490,6 +496,12 @@ private:
 
 #if NEW_RESIZE_CODE
 	QSize diff_size;	//!< Main window size - panel size
+#endif
+
+#ifdef Q_OS_WIN
+#if DISABLE_SCREENSAVER_BY_EVENT
+	bool just_stopped;
+#endif
 #endif
 };
     

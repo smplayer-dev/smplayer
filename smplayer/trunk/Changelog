@@ -1,5 +1,11 @@
 [b]Version 0.5.63 (not released yet)[/b]:
 
+(2007-12-04)
+ * When a file has stopped, the screensaver won't be allowed to run until
+   an additional minute has passed, so it there are more files in the
+   playlist they have time to start. A minute should be enough even for
+   internet streams.
+
 (2007-11-29)
  * Now the cache setting is independent for each type of media. That means
    that you can disable cache for local files (faster startup) while keeping

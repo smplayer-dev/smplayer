@@ -80,6 +80,12 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 		near_top(false),
 		near_bottom(false)
 {
+#ifdef Q_OS_WIN
+#if DISABLE_SCREENSAVER_BY_EVENT
+	just_stopped = false;
+#endif
+#endif
+
 	setWindowTitle( "SMPlayer" );
 
 	// Not created objects
@@ -2857,6 +2863,18 @@ void BaseGui::displayState(Core::State state) {
 		case Core::Stopped:	statusBar()->showMessage( tr("Stop") , 2000); break;
 	}
 	if (state == Core::Stopped) setWindowCaption( "SMPlayer" );
+
+#ifdef Q_OS_WIN
+#if DISABLE_SCREENSAVER_BY_EVENT
+	just_stopped = false;
+	
+	if (state == Core::Stopped) {
+		just_stopped = true;
+		int time = 1000 * 60; // 1 minute
+		QTimer::singleShot( time, this, SLOT(clear_just_stopped()) );
+	}
+#endif
+#endif
 }
 
 void BaseGui::displayMessage(QString message) {
@@ -3250,12 +3268,23 @@ bool BaseGui::winEvent ( MSG * m, long * result ) {
 				(*result) = 0;
 				return true;
 			} else {
-				qDebug("BaseGui::winEvent: allowing screensaver");
-				return false;
+				if ((pref->disable_screensaver) && (just_stopped)) {
+					qDebug("BaseGui::winEvent: file just stopped, so not allowing screensaver for a while");
+					(*result) = 0;
+					return true;
+				} else {
+					qDebug("BaseGui::winEvent: allowing screensaver");
+					return false;
+				}
 			}
 		}
 	}
 	return false;
+}
+
+void BaseGui::clear_just_stopped() {
+	qDebug("BaseGui::clear_just_stopped");
+	just_stopped = false;
 }
 #endif
 #endif
