@@ -2238,12 +2238,17 @@ void BaseGui::openRecent() {
 		qDebug("BaseGui::openRecent: %d", item);
 		QString file = recents->item(item);
 
-		if (playlist->maybeSave()) {
-			playlist->clear();
-			playlist->addFile(file);
+		if (pref->auto_add_to_playlist) {
+			if (playlist->maybeSave()) {
+				playlist->clear();
+				playlist->addFile(file);
 
+				open( file );
+			}
+		} else {
 			open( file );
 		}
+
 	}
 }
 
@@ -2279,10 +2284,14 @@ void BaseGui::openFiles(QStringList files) {
 	if (files.empty()) return;
 
 	if (files.count()==1) {
-		if (playlist->maybeSave()) {
-			playlist->clear();
-			playlist->addFile(files[0]);
+		if (pref->auto_add_to_playlist) {
+			if (playlist->maybeSave()) {
+				playlist->clear();
+				playlist->addFile(files[0]);
 
+				open(files[0]);
+			}
+		} else {
 			open(files[0]);
 		}
 	} else {
@@ -2338,11 +2347,15 @@ void BaseGui::openURL(QString url) {
 	if (!url.isEmpty()) {
 		pref->last_url = url;
 
-		if (playlist->maybeSave()) {
-			core->openStream(url);
+		if (pref->auto_add_to_playlist) {
+			if (playlist->maybeSave()) {
+				core->openStream(url);
 
-			playlist->clear();
-			playlist->addFile(url);
+				playlist->clear();
+				playlist->addFile(url);
+			}
+		} else {
+			core->openStream(url);
 		}
 	}
 }
@@ -2391,11 +2404,15 @@ void BaseGui::openFile(QString file) {
 		}
 		else {
 			pref->latest_dir = QFileInfo(file).absolutePath();
-			if (playlist->maybeSave()) {
-				core->openFile(file);
+			if (pref->auto_add_to_playlist) {
+				if (playlist->maybeSave()) {
+					core->openFile(file);
 
-				playlist->clear();
-				playlist->addFile(file);
+					playlist->clear();
+					playlist->addFile(file);
+				}
+			} else {
+				core->openFile(file);
 			}
 		}
 	}
@@ -2769,10 +2786,14 @@ void BaseGui::dropEvent( QDropEvent *e ) {
 				openDirectory( files[0] );
 			} else {
 				//openFile( files[0] );
-				if (playlist->maybeSave()) {
-					playlist->clear();
-					playlist->addFile(files[0]);
+				if (pref->auto_add_to_playlist) {
+					if (playlist->maybeSave()) {
+						playlist->clear();
+						playlist->addFile(files[0]);
 
+						open( files[0] );
+					}
+				} else {
 					open( files[0] );
 				}
 			}

@@ -1,5 +1,12 @@
 [b]Version 0.5.63 (not released yet)[/b]:
 
+(2007-12-05)
+ * (By user request) Added a new option for the config file: 
+   auto_add_to_playlist. If true, new opened files are added automatically to
+   the playlist (this is the default). Otherwise the playlist won't be 
+   modified unless it's strictly necessary (play a dvd, vcd, audiocd, or
+   several files are opened at the same time).
+
 (2007-12-04)
  * When a file has stopped, the screensaver won't be allowed to run until
    an additional minute has passed, so it there are more files in the

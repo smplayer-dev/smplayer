@@ -264,6 +264,8 @@ public:
     bool autosave_mplayer_log;
     QString    mplayer_log_saveto;
     //mplayer log autosaving end
+
+	bool auto_add_to_playlist; //!< Add files to open to playlist
 };
 
 #endif
