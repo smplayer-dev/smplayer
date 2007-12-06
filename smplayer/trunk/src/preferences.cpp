@@ -251,6 +251,8 @@ void Preferences::reset() {
     autosave_mplayer_log = false;
     mplayer_log_saveto = "";
     //mplayer log autosaving end
+
+	auto_add_to_playlist = true;
 }
 
 void Preferences::save() {
@@ -418,6 +420,8 @@ void Preferences::save() {
     set->setValue("autosave_mplayer_log", autosave_mplayer_log);
     set->setValue("mplayer_log_saveto", mplayer_log_saveto);
     //mplayer log autosaving end
+
+    set->setValue("auto_add_to_playlist", auto_add_to_playlist);
 
 	set->endGroup();
 
@@ -620,6 +624,8 @@ void Preferences::load() {
     autosave_mplayer_log = set->value("autosave_mplayer_log", autosave_mplayer_log).toBool();
     mplayer_log_saveto = set->value("mplayer_log_saveto", mplayer_log_saveto).toString();
     //mplayer log autosaving end
+
+	auto_add_to_playlist = set->value("auto_add_to_playlist", auto_add_to_playlist).toBool();
 
 	set->endGroup();
 
