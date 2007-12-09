@@ -776,7 +776,9 @@ void Core::finishRestart() {
 	}
 
 	bool isMuted = mset.mute;
-	if (!pref->dont_change_volume) setVolume( mset.volume, TRUE );
+	if ((!pref->dont_change_volume) && (!pref->use_volume_option)) {
+		 setVolume( mset.volume, TRUE );
+	}
 	if (isMuted) mute(TRUE);
 
 	setGamma( mset.gamma );
@@ -1298,6 +1300,11 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( QString::number( mset.saturation ) );
 	}
 
+	// Set volume, requires a patched mplayer
+	if ((pref->use_volume_option) && (!pref->dont_change_volume)) {
+		proc->addArgument("-volume");
+		proc->addArgument( QString::number( mset.volume ) );
+	}
 
 	/*
 	if (mdat.type==TYPE_DVD) {

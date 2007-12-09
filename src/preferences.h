@@ -266,6 +266,7 @@ public:
     //mplayer log autosaving end
 
 	bool auto_add_to_playlist; //!< Add files to open to playlist
+	bool use_volume_option; //!< Use -volume in command line
 };
 
 #endif
