@@ -776,7 +776,7 @@ void Core::finishRestart() {
 	}
 
 	bool isMuted = mset.mute;
-	if ((!pref->dont_change_volume) && (!pref->use_volume_option)) {
+	if (!pref->dont_change_volume) {
 		 setVolume( mset.volume, TRUE );
 	}
 	if (isMuted) mute(TRUE);
@@ -1303,6 +1303,10 @@ void Core::startMplayer( QString file, double seek ) {
 	// Set volume, requires a patched mplayer
 	if ((pref->use_volume_option) && (!pref->dont_change_volume)) {
 		proc->addArgument("-volume");
+		// Note: mset.volume may not be right, it can be the volume of the previous video if
+		// playing a new one, but I think it's better to use anyway the current volume on
+		// startup than set it to 0 or something.
+		// The right volume will be set later, when the video starts to play.
 		proc->addArgument( QString::number( mset.volume ) );
 	}
 
