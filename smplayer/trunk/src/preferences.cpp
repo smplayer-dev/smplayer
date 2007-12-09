@@ -253,6 +253,7 @@ void Preferences::reset() {
     //mplayer log autosaving end
 
 	auto_add_to_playlist = true;
+	use_volume_option = false; 
 }
 
 void Preferences::save() {
@@ -422,6 +423,7 @@ void Preferences::save() {
     //mplayer log autosaving end
 
     set->setValue("auto_add_to_playlist", auto_add_to_playlist);
+	set->setValue("use_volume_option", use_volume_option);
 
 	set->endGroup();
 
@@ -626,6 +628,7 @@ void Preferences::load() {
     //mplayer log autosaving end
 
 	auto_add_to_playlist = set->value("auto_add_to_playlist", auto_add_to_playlist).toBool();
+	use_volume_option = set->value("use_volume_option", use_volume_option).toBool();
 
 	set->endGroup();
 
