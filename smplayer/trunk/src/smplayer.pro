@@ -21,6 +21,7 @@ HEADERS	+= config.h \
 	extensions.h \
 	desktopinfo.h \
 	myprocess.h \
+	mplayerversion.h \
 	mplayerprocess.h \
 	mplayerwindow.h \
 	mediadata.h \
@@ -81,6 +82,7 @@ SOURCES	+= version.cpp \
 	extensions.cpp \
 	desktopinfo.cpp \
 	myprocess.cpp \
+	mplayerversion.cpp \
 	mplayerprocess.cpp \
 	mplayerwindow.cpp \
 	mediadata.cpp \

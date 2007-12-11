@@ -1,5 +1,9 @@
 [b]Version 0.5.63 (not released yet)[/b]:
 
+(2007-12-10)
+ * (Internal change) Added mplayerversion.h and mplayerversion.cpp which
+   parses the mplayer version from the output of mplayer.
+
 (2007-12-08)
  * Added a new option for the config file: use_volume_option. If set to 
    true, smplayer will set the initial volume using the command line option
