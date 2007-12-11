@@ -171,7 +171,7 @@ public slots:
 	void incSubPos();
 	void decSubPos();
 
-	void changeSubScale(int value);
+	void changeSubScale(double value);
 	void incSubScale();
 	void decSubScale();
 
