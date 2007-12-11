@@ -2,7 +2,8 @@
 
 (2007-12-10)
  * (Internal change) Added mplayerversion.h and mplayerversion.cpp which
-   parses the mplayer version from the output of mplayer.
+   parses the mplayer version from the output of mplayer. Inforeader can also
+   get the mplayer version.
  * Now the size of OSD/subtitle text increases/decreases in steps of 0.20.
 
 (2007-12-08)

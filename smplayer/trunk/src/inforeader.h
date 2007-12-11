@@ -70,6 +70,8 @@ public:
 	InfoList vcList() { return vc_list; };
 	InfoList acList() { return ac_list; };
 
+	int mplayerVersion() { return mplayer_svn; };
+
 	static InfoReader * obj();
 
 protected slots:
@@ -93,12 +95,13 @@ protected:
 	InfoList vc_list;
 	InfoList ac_list;
 
+	int mplayer_svn;
+
 private:
 	bool waiting_for_key;
 	int reading_type;
 
 	static InfoReader * static_obj;
 };
-
 
 #endif
