@@ -118,7 +118,7 @@ void MediaSettings::list() {
 	qDebug("  sub_delay: %d", sub_delay);
 	qDebug("  audio_delay: %d", sub_delay);
 	qDebug("  sub_pos: %d", sub_pos);
-	qDebug("  sub_scale: %d", sub_scale);
+	qDebug("  sub_scale: %f", sub_scale);
 
 	qDebug("  brightness: %d", brightness);
 	qDebug("  contrast: %d", contrast);
@@ -265,7 +265,7 @@ void MediaSettings::load(QSettings * set) {
 	sub_delay = set->value( "sub_delay", sub_delay).toInt();
 	audio_delay = set->value( "audio_delay", audio_delay).toInt();
 	sub_pos = set->value( "sub_pos", sub_pos).toInt();
-	sub_scale = set->value( "sub_scale", sub_scale).toInt();
+	sub_scale = set->value( "sub_scale", sub_scale).toDouble();
 
 	brightness = set->value( "brightness", brightness).toInt();
 	contrast = set->value( "contrast", contrast).toInt();

@@ -2112,8 +2112,8 @@ void Core::decSubPos() {
 	tellmp("sub_pos " + QString::number( mset.sub_pos ) + " 1");
 }
 
-void Core::changeSubScale(int value) {
-	qDebug("Core::changeSubScale: %d", value);
+void Core::changeSubScale(double value) {
+	qDebug("Core::changeSubScale: %f", value);
 
 	bool need_restart = false;
 	if (pref->use_ass_subtitles || 
@@ -2138,11 +2138,11 @@ void Core::changeSubScale(int value) {
 }
 
 void Core::incSubScale() {
-	changeSubScale( mset.sub_scale + 1 );
+	changeSubScale( mset.sub_scale + 0.20 );
 }
 
 void Core::decSubScale() {
-	changeSubScale( mset.sub_scale - 1 );
+	changeSubScale( mset.sub_scale - 0.20 );
 }
 
 void Core::incSubStep() {
