@@ -33,6 +33,7 @@
 
 static Qt::CheckState CurItemCheckState = Qt::Unchecked; 
 
+
 PrefAssociations::PrefAssociations(QWidget * parent, Qt::WindowFlags f)
 : PrefWidget(parent, f )
 {
@@ -42,6 +43,15 @@ PrefAssociations::PrefAssociations(QWidget * parent, Qt::WindowFlags f)
 	connect(selectNone, SIGNAL(clicked(bool)), this, SLOT(selectNoneClicked(bool)));
 	connect(listWidget, SIGNAL(itemClicked(QListWidgetItem*)), this, SLOT(listItemClicked(QListWidgetItem*))); 
 	connect(listWidget, SIGNAL(itemPressed(QListWidgetItem*)), this, SLOT(listItemPressed(QListWidgetItem*))); 
+
+	if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA)
+	{
+		//Hide Select None - One cannot restore an association in Vista. Go figure.
+		selectNone->hide(); 
+		//QPushButton* lpbButton = new QPushButton("Launch Program Defaults", this); 
+		//hboxLayout->addWidget(lpbButton); 
+		//connect(lpbButton, SIGNAL(clicked(bool)), this, SLOT(launchAppDefaults()));
+	}
 
 	/*
 	//Video for windows
@@ -116,6 +126,7 @@ void PrefAssociations::selectAllClicked(bool)
 
 void PrefAssociations::selectNoneClicked(bool)
 {
+
 	for (int k = 0; k < listWidget->count(); k++)
 		listWidget->item(k)->setCheckState(Qt::Unchecked);
 	listWidget->setFocus(); 
@@ -123,14 +134,20 @@ void PrefAssociations::selectNoneClicked(bool)
 
 void PrefAssociations::listItemClicked(QListWidgetItem* item)
 {
+	if (!(item->flags() & Qt::ItemIsEnabled))
+		return; 
+
 	if (item->checkState() == CurItemCheckState)
 	{
 		//Clicked on the list item (not checkbox)
 		if (item->checkState() == Qt::Checked)
+		{
 			item->setCheckState(Qt::Unchecked);
+		}
 		else
 			item->setCheckState(Qt::Checked); 
 	}
+
 	//else - clicked on the checkbox itself, do nothing
 }
 
@@ -143,61 +160,60 @@ void PrefAssociations::addItem(QString label)
 {
 	QListWidgetItem* item = new QListWidgetItem(listWidget); 
 	item->setText(label);
-	item->setFlags(Qt::ItemIsUserCheckable | Qt::ItemIsEnabled);
 }
 
-void PrefAssociations::setData(Preferences * pref)
+void PrefAssociations::refreshList()
 {
-	QStringList extensions = pref->extensions.split(",");
+	m_regExtensions.clear(); 
+	WinFileAssoc ().GetRegisteredExtensions(Extensions().multimedia(), m_regExtensions); 
+
 	for (int k = 0; k < listWidget->count(); k++)
 	{
 		QListWidgetItem* pItem = listWidget->item(k); 
 		if (pItem)
 		{
-			//pItem->setSelected(extensions.contains(pItem->text()));
-			if (extensions.contains(pItem->text()))
+			pItem->setFlags(Qt::ItemIsUserCheckable | Qt::ItemIsEnabled);
+
+			if (m_regExtensions.contains(pItem->text()))
+			{
 				pItem->setCheckState(Qt::Checked);
+				//Don't allow de-selection in windows VISTA if extension is registered.
+				//VISTA doesn't seem to support extension 'restoration' in the API.
+				if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA)
+					pItem->setFlags(0); 
+			}
 			else
+			{
 				pItem->setCheckState(Qt::Unchecked);
+			}
 
 		}
 	}
+}
+
+void PrefAssociations::setData(Preferences * )
+{
+	refreshList(); 
 }
 
 int PrefAssociations::ProcessAssociations(QStringList& current, QStringList& old)
 {
-	int processed = 0; 
+	WinFileAssoc RegAssoc; 
 
-	WinFileAssoc RegAssoc("MPlayerFileVideo"); 
+	QStringList toRestore; 
 
 	//Restore unselected associations
-	for (int k = 0; k < old.count(); k++)
+	foreach(const QString& ext, old)
 	{
-		const QString& ext = old[k];
 		if (!current.contains(ext))
-		{
-			RegAssoc.RestoreFileAssociation(ext);
-		}
+			toRestore.append(ext); 
 	}
-	
-	//Set current associations
-	if (current.count() > 0)
-	{
-		RegAssoc.CreateClassId(QApplication::applicationFilePath(), "MPlayer Video File");
 
-		for (int k = 0; k < current.count(); k++)
-		{
-			if (RegAssoc.CreateFileAssociation(current[k]))
-				processed++; 
-		}
-	}
-	else
-		RegAssoc.RemoveClassId();  
-
-	return processed; 
+	RegAssoc.RestoreFileAssociations(toRestore); 
+	return RegAssoc.CreateFileAssociations(current); 
 }
 
-void PrefAssociations::getData(Preferences * pref)
+void PrefAssociations::getData(Preferences *)
 {
 	QStringList extensions; 
 
@@ -208,12 +224,7 @@ void PrefAssociations::getData(Preferences * pref)
 			extensions.append(pItem->text()); 
 	}
 
-	QStringList old = pref->extensions.split(","); 
-
-	int processed = ProcessAssociations(extensions, old); 
-
-	//Save the new associations
-	pref->extensions = extensions.join(","); 
+	int processed = ProcessAssociations(extensions, m_regExtensions); 
 
 	if (processed != extensions.count())
 	{
@@ -221,7 +232,8 @@ void PrefAssociations::getData(Preferences * pref)
             tr("Not all files could be associated. Please check your "
                "security permissions and retry."), QMessageBox::Ok);
 	}
-
+	
+	refreshList(); //Useless when OK is pressed... How to detect if apply or ok is pressed ?
 }
 
 QString PrefAssociations::sectionName() {
@@ -233,11 +245,13 @@ QPixmap PrefAssociations::sectionIcon() {
 }
 
 void PrefAssociations::retranslateStrings() {
+
 	retranslateUi(this);
 	createHelp();
 }
 
 void PrefAssociations::createHelp() {
+
 	clearHelp();
 
 	setWhatsThis(selectAll, tr("Select all"), 
@@ -250,7 +264,7 @@ void PrefAssociations::createHelp() {
 		tr("Check the media file extensions you would like SMPlayer to handle. "
 		   "When you click Apply, the checked files will be associated with "
 		   "SMPlayer. If you uncheck a media type, the file association will "
-		   "be restored."));
+		   "be restored") + tr(" (Windows XP only)."));
 }
 
 #include "moc_prefassociations.cpp"
