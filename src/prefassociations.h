@@ -49,7 +49,10 @@ public:
 	void addItem(QString label); 
 
 	int ProcessAssociations(QStringList& current, QStringList& old);
+	void refreshList(); 
 
+protected:
+	QStringList m_regExtensions; 
 protected:
 	virtual void createHelp();
 
@@ -61,7 +64,6 @@ public slots:
 	void selectNoneClicked(bool); 
 	void listItemClicked(QListWidgetItem* item); 
 	void listItemPressed(QListWidgetItem* item); 
-
 };
 
 #endif

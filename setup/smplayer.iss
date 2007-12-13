@@ -71,6 +71,64 @@ Name: "{group}\{cm:ProgramOnTheWeb,SMPlayer}"; Filename: "http://smplayer.sf.net
 Name: "{group}\{cm:UninstallProgram,SMPlayer}"; Filename: "{uninstallexe}"
 Name: "{commondesktop}\SMPlayer"; Filename: "{app}\smplayer.exe"; Tasks: desktopicon
 
+[Registry]
+
+;HKEY_CLASSES_ROOT ProgId registration
+Root: HKCR; SubKey: MPlayerFileVideo; Flags: uninsdeletekey
+Root: HKCR; SubKey: MPlayerFileVideo\DefaultIcon; ValueType: string; ValueName: ; ValueData: """{app}\smplayer.exe"",1"
+Root: HKCR; SubKey: MPlayerFileVideo\shell\enqueue; ValueType: string; ValueName: ; ValueData: Enqueue in SMPlayer
+Root: HKCR; SubKey: MPlayerFileVideo\shell\enqueue\command; ValueType: string; ValueName: ; ValueData: """{app}\smplayer.exe"" -add-to-playlist ""%1"""
+Root: HKCR; SubKey: MPlayerFileVideo\shell\open; ValueType: string; ValueName: FriendlyAppName; ValueData: SMPlayer Media Player
+Root: HKCR; SubKey: MPlayerFileVideo\shell\open\command; ValueType: string; ValueName: ; ValueData: """{app}\smplayer.exe"" ""%1"""
+
+;Windows VISTA Default Programs associations
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer; Flags: uninsdeletekeyifempty; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities; Flags: uninsdeletekey; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities; ValueType: string; ValueName: ApplicationDescription; ValueData: SMPlayer intends to be a complete front-end for MPlayer, from basic features like playing videos, DVDs, and VCDs to more advanced features like support for MPlayer filters and more.; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities; ValueType: string; ValueName: ApplicationName; ValueData: SMPlayer; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .3gp; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .ac3; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .ape; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .asf; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .avi; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .bin; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .dat; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .divx; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .dv; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .dvr-ms; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .flv; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .iso; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .m1v; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .m2v; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .m4v; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .mkv; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .mov; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .mp3; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .mp4; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .mpeg; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .mpg; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .mpv; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .mqv; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .nsv; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .ogg; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .ogm; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .ra; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .ram; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .rmvb; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .ts; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .vcd; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .vfw; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .vob; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .wav; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .wma; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\Clients\Media\SMPlayer\Capabilities\FileAssociations; ValueType: string; ValueName: .wmv; ValueData: MPlayerFileVideo; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\RegisteredApplications; Flags: dontcreatekey; MinVersion: 0,6.0.6000
+Root: HKLM; SubKey: SOFTWARE\RegisteredApplications; ValueType: string; ValueName: SMPlayer; ValueData: SOFTWARE\Clients\Media\SMPlayer\Capabilities; Flags: uninsdeletevalue; MinVersion: 0,6.0.6000
+
 [Run]
 Filename: "{app}\smplayer.exe"; Parameters: "http://88.191.30.130:8050"; Description: "{cm:LaunchProgram,SMPlayer}"; Flags: nowait postinstall skipifsilent
+
+[UninstallRun]
+;Restore all file associations...
+Filename: "{app}\smplayer.exe"; Parameters: "-uninstall"
 

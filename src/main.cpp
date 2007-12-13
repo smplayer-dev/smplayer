@@ -28,6 +28,11 @@
 #include "myclient.h"
 #include "constants.h"
 
+#ifdef Q_OS_WIN
+#include "extensions.h"
+#include "winfileassoc.h"	//required for Uninstall
+#endif
+
 #include <QApplication>
 #include <QLocale>
 #include <QTranslator>
@@ -171,7 +176,10 @@ void showHelp(QString app_name) {
                         "[-add-to-playlist] [-help|--help|-h|-?] "
                         "[[-playlist] media] "
                         "[[-playlist] media]...").arg(app_name), 80).toLocal8Bit().data() );
-
+#ifdef Q_OS_WIN	
+	printHelp( "-uninstall", QObject::tr(
+		"Restores the old associations and cleans up the registry.") );
+#endif
 	printHelp( "-mini", QObject::tr(
 		"opens the mini gui instead of the default one.") );
 
@@ -241,6 +249,19 @@ void createHomeDirectory() {
 int main( int argc, char ** argv ) 
 {
 	QApplication a( argc, argv );
+
+#ifdef Q_OS_WIN
+	if (a.arguments().contains("-uninstall")){
+		//Called by uninstaller. Will restore old associations.
+		WinFileAssoc RegAssoc; 
+		Extensions exts; 
+		RegAssoc.RestoreFileAssociations(exts.multimedia()); 
+		printf("Restored associations\n");
+		return 0; 
+	}
+#endif
+
+
 
 	QString app_path = a.applicationDirPath();
 	Helper::setAppPath(app_path);

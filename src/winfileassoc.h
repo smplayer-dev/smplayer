@@ -25,16 +25,35 @@
 #define WINFILEASSOC_H
 
 #include <QString>
+#include <QStringList>
+
+#define VISTA_SUPPORT 
+#ifdef Q_OS_WIN
+	#define VISTA_SUPPORT 
+#endif
+
+#ifdef VISTA_SUPPORT
+	//#define VISTA_BUTTON_ONLY //Show the 'Launch program defaults' button in preferences
+#endif
+
 class WinFileAssoc
 {
 protected:
 	QString m_ClassId; //Application ClassId
-public:
-	WinFileAssoc(const QString& ClassId);
-	bool CreateFileAssociation(const QString& fileExtension);
-	bool RestoreFileAssociation(const QString& fileExtension);
+	QString m_AppName;
+
+protected:
 	bool CreateClassId(const QString& executablePath, const QString& friendlyName); 
 	bool RemoveClassId();
+	bool VistaGetDefaultApps(const QStringList &extensions, QStringList& registeredExt);
+	int  VistaSetAppsAsDefault(const QStringList& extensions);
+public:
+	WinFileAssoc(const QString ClassId = "MPlayerFileVideo", const QString AppName="SMPlayer");
+	//Checks the registry to see which extensions are registered with SMPlayer
+	bool GetRegisteredExtensions(const QStringList& extensionsToCheck, QStringList& registeredExtensions);
+
+	int CreateFileAssociations(const QStringList& fileExtensions); 
+	int RestoreFileAssociations(const QStringList& fileExtensions);
 };
 
 #endif

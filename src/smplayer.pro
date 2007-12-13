@@ -183,7 +183,8 @@ win32 {
 	HEADERS += 	prefassociations.h winfileassoc.h
 	SOURCES += 	prefassociations.cpp winfileassoc.cpp
 	FORMS += prefassociations.ui
-
+    LIBS += c:/mingw/lib/libole32.a
+	
 	RC_FILE = smplayer.rc
 	DEFINES += NO_DEBUG_ON_CONSOLE
 #	debug {
