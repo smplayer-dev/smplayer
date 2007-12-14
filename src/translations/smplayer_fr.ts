@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -2215,7 +2216,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefassociations.cpp" line="222"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation type="unfinished"></translation>
+        <translation> &lt;b&gt;Note :&lt;/b&gt; (La restauration ne marche pas sous Windows Vista).</translation>
     </message>
 </context>
 <context>
@@ -3117,7 +3118,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="68"/>
         <source>Show equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Montrer l&apos;équaliseur</translation>
     </message>
 </context>
 <context>
@@ -4259,7 +4260,7 @@ Si -playlist est utilisée, cela veut dire que SMPlayer passera l&apos;informati
     <message>
         <location filename="../main.cpp" line="181"/>
         <source>Restores the old associations and cleans up the registry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Restaure les vieilles associations et nettoie le registre.</translation>
     </message>
 </context>
 <context>
