@@ -49,10 +49,12 @@ WinFileAssoc::WinFileAssoc( const QString ClassId, const QString AppName )
 
 int WinFileAssoc::CreateFileAssociations(const QStringList& fileExtensions)
 {
+#ifdef Q_OS_WIN
 	if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA)
 	{
 		return VistaSetAppsAsDefault(fileExtensions); 
 	}
+#endif
 
 	//Registry keys modified:
 	//HKEY_LOCAL_MACHINE\.extension 
@@ -118,11 +120,12 @@ int WinFileAssoc::CreateFileAssociations(const QStringList& fileExtensions)
 
 bool WinFileAssoc::GetRegisteredExtensions( const QStringList& extensionsToCheck, QStringList& registeredExtensions )
 {
-
+#ifdef Q_OS_WIN
 	if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA)
 	{
 		return VistaGetDefaultApps(extensionsToCheck, registeredExtensions); 
 	}
+#endif
 
 	QSettings RegCR ("HKEY_CLASSES_ROOT", QSettings::NativeFormat);
 	QSettings RegCU ("HKEY_CURRENT_USER", QSettings::NativeFormat);
@@ -164,8 +167,11 @@ bool WinFileAssoc::GetRegisteredExtensions( const QStringList& extensionsToCheck
 
 int WinFileAssoc::RestoreFileAssociations(const QStringList& fileExtensions)
 {
-	if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA)
+#ifdef Q_OS_WIN
+	if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA) {
 		return 0; //Not supported by the API
+	}
+#endif
 
 	QSettings RegCR ("HKEY_CLASSES_ROOT", QSettings::NativeFormat);
 	QSettings RegCU ("HKEY_CURRENT_USER", QSettings::NativeFormat);

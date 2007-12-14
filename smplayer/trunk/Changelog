@@ -5,6 +5,9 @@
    See http://smplayer.sourceforge.net/forums/viewtopic.php?pid=470#p470
  * (By user request) Added the possibility to configure any of the mouse
    button to show the equalizer.
+ * (Windows) Some clean up in the file associations code. Also made some
+   changes to allow to compile in linux (for testing, file associations
+   of course won't work, but I can see the dialog, translations and so on).
 
 (2007-12-10)
  * (Internal change) Added mplayerversion.h and mplayerversion.cpp which
