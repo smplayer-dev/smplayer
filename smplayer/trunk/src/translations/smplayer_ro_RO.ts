@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -3088,7 +3089,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="68"/>
         <source>Show equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Afişare egalizor</translation>
     </message>
 </context>
 <context>
@@ -4239,7 +4240,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../main.cpp" line="181"/>
         <source>Restores the old associations and cleans up the registry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Restaurează vechile asocieri şi curăţă regiştrii.</translation>
     </message>
 </context>
 <context>
