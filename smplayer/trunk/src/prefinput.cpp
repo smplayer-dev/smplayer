@@ -65,6 +65,7 @@ void PrefInput::createMouseCombos() {
 	left_click_combo->addItem( tr("Reset zoom"), "reset_zoom" );
 	left_click_combo->addItem( tr("Exit fullscreen"), "exit_fullscreen" );
 	left_click_combo->addItem( tr("Double size"), "toggle_double_size" );
+	left_click_combo->addItem( tr("Show equalizer"), "equalizer" );
 
 	// Copy to other combos
 	for (int n=0; n < left_click_combo->count(); n++) {
