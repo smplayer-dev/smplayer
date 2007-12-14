@@ -3,6 +3,8 @@
 (2007-12-13)
  * (Windows) Added patch by codeboost to improve the file associations code.
    See http://smplayer.sourceforge.net/forums/viewtopic.php?pid=470#p470
+ * (By user request) Added the possibility to configure any of the mouse
+   button to show the equalizer.
 
 (2007-12-10)
  * (Internal change) Added mplayerversion.h and mplayerversion.cpp which
