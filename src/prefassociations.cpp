@@ -44,6 +44,7 @@ PrefAssociations::PrefAssociations(QWidget * parent, Qt::WindowFlags f)
 	connect(listWidget, SIGNAL(itemClicked(QListWidgetItem*)), this, SLOT(listItemClicked(QListWidgetItem*))); 
 	connect(listWidget, SIGNAL(itemPressed(QListWidgetItem*)), this, SLOT(listItemPressed(QListWidgetItem*))); 
 
+#ifdef Q_OS_WIN
 	if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA)
 	{
 		//Hide Select None - One cannot restore an association in Vista. Go figure.
@@ -52,57 +53,7 @@ PrefAssociations::PrefAssociations(QWidget * parent, Qt::WindowFlags f)
 		//hboxLayout->addWidget(lpbButton); 
 		//connect(lpbButton, SIGNAL(clicked(bool)), this, SLOT(launchAppDefaults()));
 	}
-
-	/*
-	//Video for windows
-	addItem("avi");
-	addItem("vfw");
-	addItem("divx");
-
-	//MPEG
-	addItem("mpg");
-	addItem("mpeg");
-	addItem("m1v");
-	addItem("m2v");
-	addItem("mpv");
-	addItem("dv");
-	addItem("3gp");
-
-	//QT
-	addItem("mov");
-	addItem("mp4");
-	addItem("m4v");
-	addItem("mqv");
-
-	//VCD
-	addItem("dat");
-	addItem("vcd");
-
-	//OGG
-	addItem("ogg");
-	addItem("ogm");
-
-	//WMV
-	addItem("asf");
-	addItem("wmv");
-
-	//Matroska
-	addItem("mkv");
-
-	//NSV
-	addItem("nsv"); 
-
-	//REAL
-	addItem("ram"); 
-
-	//DVD
-	addItem("bin");
-	addItem("iso");
-	addItem("vob");	
-
-	//FLV
-	addItem("flv");
-	*/
+#endif
 
 	Extensions e;
 	for (int n=0; n < e.multimedia().count(); n++) {
@@ -179,8 +130,11 @@ void PrefAssociations::refreshList()
 				pItem->setCheckState(Qt::Checked);
 				//Don't allow de-selection in windows VISTA if extension is registered.
 				//VISTA doesn't seem to support extension 'restoration' in the API.
-				if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA)
-					pItem->setFlags(0); 
+#ifdef Q_OS_WIN
+				if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA) {
+					pItem->setFlags(0);
+				}
+#endif
 			}
 			else
 			{
@@ -264,7 +218,8 @@ void PrefAssociations::createHelp() {
 		tr("Check the media file extensions you would like SMPlayer to handle. "
 		   "When you click Apply, the checked files will be associated with "
 		   "SMPlayer. If you uncheck a media type, the file association will "
-		   "be restored") + tr(" (Windows XP only)."));
+		   "be restored.") +
+        tr(" <b>Note:</b> (Restoration doesn't work on Windows Vista)."));
 }
 
 #include "moc_prefassociations.cpp"

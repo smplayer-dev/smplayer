@@ -27,15 +27,6 @@
 #include <QString>
 #include <QStringList>
 
-#define VISTA_SUPPORT 
-#ifdef Q_OS_WIN
-	#define VISTA_SUPPORT 
-#endif
-
-#ifdef VISTA_SUPPORT
-	//#define VISTA_BUTTON_ONLY //Show the 'Launch program defaults' button in preferences
-#endif
-
 class WinFileAssoc
 {
 protected:
