@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1">
+<!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -2219,7 +2220,7 @@ Rozwijalna lista dostarcza już regularne wyrażenia dla kilku języków.</trans
     <message>
         <location filename="../prefassociations.cpp" line="222"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation type="unfinished"></translation>
+        <translation> &lt;br&gt;Notka:&lt;/b&gt; (Przywrócenie nie działa w Windows Vista).</translation>
     </message>
 </context>
 <context>
@@ -3124,7 +3125,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinput.cpp" line="68"/>
         <source>Show equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokaż equalizer</translation>
     </message>
 </context>
 <context>
@@ -4214,7 +4215,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../main.cpp" line="181"/>
         <source>Restores the old associations and cleans up the registry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Przywróć poprzednie skojarzenia i wyczyść rejestr.</translation>
     </message>
 </context>
 <context>
