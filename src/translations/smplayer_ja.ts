@@ -2205,7 +2205,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefassociations.cpp" line="222"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation type="unfinished"></translation>
+        <translation> &lt;b&gt;注意:&lt;/b&gt; (復元は Windows Vista では動作しません)。</translation>
     </message>
 </context>
 <context>
@@ -3100,7 +3100,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="68"/>
         <source>Show equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>イコライザの表示</translation>
     </message>
 </context>
 <context>
@@ -4190,7 +4190,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../main.cpp" line="181"/>
         <source>Restores the old associations and cleans up the registry.</source>
-        <translation type="unfinished"></translation>
+        <translation>古い関連付けを復元してレジストリをクリーン アップします。</translation>
     </message>
 </context>
 <context>
