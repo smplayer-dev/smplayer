@@ -267,6 +267,9 @@ public:
 
 	bool auto_add_to_playlist; //!< Add files to open to playlist
 	bool use_volume_option; //!< Use -volume in command line
+
+	//! Latest version of mplayer parsed
+	int mplayer_version;
 };
 
 #endif

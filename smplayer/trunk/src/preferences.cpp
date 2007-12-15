@@ -254,6 +254,8 @@ void Preferences::reset() {
 
 	auto_add_to_playlist = true;
 	use_volume_option = false; 
+
+	mplayer_version = -1; //None version parsed yet
 }
 
 void Preferences::save() {
@@ -450,6 +452,9 @@ void Preferences::save() {
 
 	set->endGroup();
 
+	set->beginGroup( "mplayer_info");
+	set->setValue("mplayer_version", mplayer_version);
+	set->endGroup();
 
 	set->beginGroup("associations");
 	set->setValue("extensions", extensions); 
@@ -655,6 +660,9 @@ void Preferences::load() {
 
 	set->endGroup();
 
+	set->beginGroup( "mplayer_info");
+	mplayer_version = set->value("mplayer_version", mplayer_version).toInt();
+	set->endGroup();
 
 	set->beginGroup("associations");
 	extensions = set->value("extensions").toString();
