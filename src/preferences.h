@@ -109,7 +109,7 @@ public:
 	bool use_soft_vol;
 
 	int softvol_max;
-	bool use_scaletempo;
+	OptionState use_scaletempo;
 
 	QString audio_lang; 		// Preferred audio language
 	QString subtitle_lang;		// Preferred subtitle language
@@ -258,11 +258,13 @@ public:
 	int initial_audio_track;
 	int initial_subtitle_track;
 
-	QString extensions;		//registered extensions; comma-separated. eg. "avi,mpg,mpeg,mov,mkv"
+	//FIXME: this shouldn't be here, but in prefassociations:
+	//! Registered extensions; comma-separated. eg. "avi,mpg,mpeg,mov,mkv"
+	QString extensions;		
 
     //mplayer log autosaving
     bool autosave_mplayer_log;
-    QString    mplayer_log_saveto;
+    QString mplayer_log_saveto;
     //mplayer log autosaving end
 
 	bool auto_add_to_playlist; //!< Add files to open to playlist

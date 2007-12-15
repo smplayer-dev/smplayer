@@ -32,7 +32,7 @@
 #include "preferences.h"
 #include "global.h"
 #include "config.h"
-
+#include "mplayerversion.h"
 
 #ifdef Q_OS_WIN
 /* To change app priority */
@@ -1533,7 +1533,11 @@ void Core::startMplayer( QString file, double seek ) {
 		af += "volnorm=2";
 	}
 
-	if (pref->use_scaletempo) {
+	bool use_scaletempo = (pref->use_scaletempo == Preferences::Enabled);
+	if (pref->use_scaletempo == Preferences::Detect) {
+		use_scaletempo = MplayerVersion::isMplayerAtLeast(pref->mplayer_version, 24924);
+	}
+	if (use_scaletempo) {
 		if (!af.isEmpty()) af += ",";
 		af += "scaletempo";
 	}

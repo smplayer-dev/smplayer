@@ -72,6 +72,8 @@ public:
 
 	int mplayerVersion() { return mplayer_svn; };
 
+	//! Returns an InfoReader objects. If it didn't exist before, one
+	//! is created and getInfo() is called.
 	static InfoReader * obj();
 
 protected slots:
