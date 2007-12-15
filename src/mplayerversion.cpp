@@ -17,6 +17,9 @@
 */
 
 #include "mplayerversion.h"
+#include "global.h"
+#include "preferences.h"
+
 #include <QRegExp>
 
 int MplayerVersion::mplayerVersion(QString string) {
@@ -47,6 +50,10 @@ int MplayerVersion::mplayerVersion(QString string) {
 		else
 		if (version == "1.0rc1") mplayer_svn = 20372;
 		else qWarning("MplayerVersion::mplayerVersion: unknown MPlayer version");
+	}
+
+	if (pref) {
+		pref->mplayer_version = mplayer_svn;
 	}
 
 	return mplayer_svn;
