@@ -1,5 +1,16 @@
 [b]Version 0.5.63 (not released yet)[/b]:
 
+(2007-12-14)
+ * Now smplayer stores the version number of mplayer in the config file and
+   can use it to know if that version provides some feature (like the 
+   scaletempo filter) before running it. This makes possible to add
+   "autodetection" too for options that should be passed on command line.
+ * Now the option "High speed playback without altering pitch" (scaletempo) on 
+   Preferences->General has 3 possible values: auto, yes and no. Auto 
+   (the default) will use the scaletempo filter only if the mplayer you're
+   using has that filter. "Yes" or "no" will force to use it or not, no matter
+   of the mplayer version number.
+
 (2007-12-13)
  * (Windows) Added patch by codeboost to improve the file associations code.
    See http://smplayer.sourceforge.net/forums/viewtopic.php?pid=470#p470

@@ -116,7 +116,18 @@ void PrefGeneral::setData(Preferences * pref) {
 void PrefGeneral::getData(Preferences * pref) {
 	requires_restart = false;
 
-	TEST_AND_SET(pref->mplayer_bin, mplayerPath());
+	if (pref->mplayer_bin != mplayerPath()) {
+		requires_restart = true;
+		pref->mplayer_bin = mplayerPath();
+
+		qDebug("PrefGeneral::getData: mplayer binary has changed, getting version number");
+		// Forces to get info from mplayer to update version number
+		InfoReader i( pref->mplayer_bin );
+		i.getInfo(); 
+		// Update the drivers list at the same time
+		//setDrivers( i.voList(), i.aoList() );
+	}
+
 	TEST_AND_SET(pref->screenshot_directory, screenshotDir());
 	TEST_AND_SET(pref->vo, VO());
     TEST_AND_SET(pref->ao, AO());
@@ -388,12 +399,12 @@ int PrefGeneral::autoq() {
 	return autoq_spin->value();
 }
 
-void PrefGeneral::setScaleTempoFilter(bool b) {
-	scaletempo_check->setChecked(b);
+void PrefGeneral::setScaleTempoFilter(Preferences::OptionState value) {
+	scaletempo_combo->setState(value);
 }
 
-bool PrefGeneral::scaleTempoFilter() {
-	return scaletempo_check->isChecked();
+Preferences::OptionState PrefGeneral::scaleTempoFilter() {
+	return scaletempo_combo->state();
 }
 
 // Search mplayer executable
@@ -513,7 +524,7 @@ void PrefGeneral::createHelp() {
 	setWhatsThis(volnorm_check, tr("Volume normalization by default"),
 		tr("Maximizes the volume without distorting the sound.") );
 
-	setWhatsThis(scaletempo_check, tr("High speed playback without altering pitch"),
+	setWhatsThis(scaletempo_combo, tr("High speed playback without altering pitch"),
 		tr("Allows to change the playback speed without altering pitch. "
            "Requires at least MPlayer dev-SVN-r24924.") );
 

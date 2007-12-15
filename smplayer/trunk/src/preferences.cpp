@@ -121,7 +121,7 @@ void Preferences::reset() {
 	use_soft_video_eq = FALSE;
 	use_soft_vol = FALSE;
     softvol_max = 110; // 110 = default value in mplayer
-	use_scaletempo = false;
+	use_scaletempo = Detect;
 
 	audio_lang = "";
 	subtitle_lang = "";
@@ -529,7 +529,7 @@ void Preferences::load() {
 	use_soft_video_eq = set->value("use_soft_video_eq", use_soft_video_eq).toBool();
 	use_soft_vol = set->value("use_soft_vol", use_soft_vol).toBool();
 	softvol_max = set->value("softvol_max", softvol_max).toInt();
-	use_scaletempo = set->value("use_scaletempo", use_scaletempo).toBool();
+	use_scaletempo = (OptionState) set->value("use_scaletempo", use_scaletempo).toInt();
 
 	audio_lang = set->value("audio_lang", audio_lang).toString();
 	subtitle_lang = set->value("subtitle_lang", subtitle_lang).toString();

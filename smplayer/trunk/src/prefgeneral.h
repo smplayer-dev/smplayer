@@ -22,8 +22,7 @@
 #include "ui_prefgeneral.h"
 #include "prefwidget.h"
 #include "inforeader.h"
-
-class Preferences;
+#include "preferences.h"
 
 class PrefGeneral : public PrefWidget, public Ui::PrefGeneral
 {
@@ -129,8 +128,8 @@ protected:
 	void setAudioChannels(int ID);
 	int audioChannels();
 
-	void setScaleTempoFilter(bool b);
-	bool scaleTempoFilter();
+	void setScaleTempoFilter(Preferences::OptionState value);
+	Preferences::OptionState scaleTempoFilter();
 
 protected:
 	virtual void retranslateStrings();
