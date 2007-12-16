@@ -184,7 +184,7 @@ win32 {
 	SOURCES += 	prefassociations.cpp winfileassoc.cpp
 	FORMS += prefassociations.ui
 
-	LIBS += mingw/libole32.a
+	LIBS += libole32
 	
 	RC_FILE = smplayer.rc
 	DEFINES += NO_DEBUG_ON_CONSOLE
