@@ -5,7 +5,6 @@ Comment[es]=A great MPlayer front-end
 Comment[ja]=MPlayer フロントエンド
 Comment[pl]=Świetna nakładka na Mplayer
 Comment[ru_RU]=Мощный интерфейс для MPlayer
-Encoding=UTF-8
 Exec=smplayer %f
 GenericName=A great MPlayer front-end
 GenericName[es]=A great MPlayer front-end
