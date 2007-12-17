@@ -42,6 +42,7 @@ PrefAdvanced::PrefAdvanced(QWidget * parent, Qt::WindowFlags f)
     endoffile_combo->addItem( "Sortie... \\(Fin du fichier\\)" ); // French
     endoffile_combo->addItem( "In uscita... \\(Fine del file\\)" ); // Italian
     endoffile_combo->addItem( QString::fromUtf8("Wychodzę... \\(Koniec pliku\\)") ); // Polish
+    endoffile_combo->addItem( QString::fromUtf8("Выходим... \\(Конец файла\\)") ); // Russian
 
     novideo_combo->addItem( "Video: no video" ); // English
     novideo_combo->addItem( QString::fromUtf8("Vídeo: no hay video") ); // Spanish
@@ -49,6 +50,7 @@ PrefAdvanced::PrefAdvanced(QWidget * parent, Qt::WindowFlags f)
     novideo_combo->addItem( QString::fromUtf8("Vidéo : pas de vidéo") ); // French
     novideo_combo->addItem( "Video: nessun video" ); // Italian
     novideo_combo->addItem( "Wideo: brak obrazu" ); // Polish
+    novideo_combo->addItem( QString::fromUtf8("Видео: нет видео") ); // Russian
 
 	retranslateStrings();
 }
