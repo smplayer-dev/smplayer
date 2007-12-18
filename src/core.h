@@ -23,6 +23,7 @@
 
 #include "mediadata.h"
 #include "mediasettings.h"
+#include "config.h"
 
 
 class MplayerProcess;
@@ -193,6 +194,10 @@ public slots:
 	void changeAspectRatio(int);
 	void changeOSD(int);
 	void nextOSD();
+
+#if NEW_ASPECT_CODE
+	void changeLetterbox(bool);
+#endif
 
 	void changeSize(int); // Size of the window
 	void toggleDoubleSize();

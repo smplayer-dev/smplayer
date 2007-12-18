@@ -388,6 +388,14 @@ void BaseGui::createActions() {
 	connect( flipAct, SIGNAL(toggled(bool)),
              core, SLOT(toggleFlip(bool)) );
 
+#if NEW_ASPECT_CODE
+	addLetterboxAct = new MyAction( this, "add_letterbox" );
+	addLetterboxAct->setCheckable( true );
+	connect( addLetterboxAct, SIGNAL(toggled(bool)),
+             core, SLOT(changeLetterbox(bool)) );
+#endif
+
+
 	// Submenu filter
 	postProcessingAct = new MyAction( this, "postprocessing" );
 	postProcessingAct->setCheckable( true );
@@ -720,12 +728,14 @@ void BaseGui::createActions() {
 	aspect169Act = new MyActionGroupItem(this, aspectGroup, "aspect_16:9", MediaSettings::Aspect169 );
 	aspect1610Act = new MyActionGroupItem(this, aspectGroup, "aspect_16:10", MediaSettings::Aspect1610 );
 	aspect235Act = new MyActionGroupItem(this, aspectGroup, "aspect_2.35:1", MediaSettings::Aspect235 );
+#if !NEW_ASPECT_CODE
 	QAction * aspect_separator = new QAction(aspectGroup);
 	aspect_separator->setSeparator(true);
 	aspect43LetterAct = new MyActionGroupItem(this, aspectGroup, "aspect_4:3_letterbox", MediaSettings::Aspect43Letterbox );
 	aspect169LetterAct = new MyActionGroupItem(this, aspectGroup, "aspect_16:9_letterbox", MediaSettings::Aspect169Letterbox );
 	aspect43PanscanAct = new MyActionGroupItem(this, aspectGroup, "aspect_4:3_panscan", MediaSettings::Aspect43Panscan );
 	aspect43To169Act = new MyActionGroupItem(this, aspectGroup, "aspect_4:3_to_16:9", MediaSettings::Aspect43To169 );
+#endif
 	connect( aspectGroup, SIGNAL(activated(int)),
              core, SLOT(changeAspectRatio(int)) );
 
@@ -782,6 +792,9 @@ void BaseGui::setActionsEnabled(bool b) {
 	equalizerAct->setEnabled(b);
 	screenshotAct->setEnabled(b);
 	flipAct->setEnabled(b);
+#if NEW_ASPECT_CODE
+	addLetterboxAct->setEnabled(b);
+#endif
 	postProcessingAct->setEnabled(b);
 	phaseAct->setEnabled(b);
 	deblockAct->setEnabled(b);
@@ -883,6 +896,9 @@ void BaseGui::enableActionsOnPlaying() {
 		equalizerAct->setEnabled(false);
 		screenshotAct->setEnabled(false);
 		flipAct->setEnabled(false);
+#if NEW_ASPECT_CODE
+		addLetterboxAct->setEnabled(false);
+#endif
 		postProcessingAct->setEnabled(false);
 		phaseAct->setEnabled(false);
 		deblockAct->setEnabled(false);
@@ -971,6 +987,9 @@ void BaseGui::retranslateStrings() {
 	screenshotAct->change( Images::icon("screenshot"), tr("&Screenshot") );
 	onTopAct->change( Images::icon("ontop"), tr("S&tay on top") );
 	flipAct->change( Images::icon("flip"), tr("Flip i&mage") );
+#if NEW_ASPECT_CODE
+	addLetterboxAct->change( Images::icon("letterbox"), tr("&Letterbox") );
+#endif
 
 	decZoomAct->change( tr("Zoom &-") );
 	incZoomAct->change( tr("Zoom &+") );
@@ -1137,10 +1156,12 @@ void BaseGui::retranslateStrings() {
 	aspect169Act->change( "16:&9" );
 	aspect1610Act->change( "1&6:10" );
 	aspect235Act->change( "&2.35:1" );
+#if !NEW_ASPECT_CODE
 	aspect43LetterAct->change( tr("4:3 &Letterbox") );
 	aspect169LetterAct->change( tr("16:9 L&etterbox") );
 	aspect43PanscanAct->change( tr("4:3 &Panscan") );
 	aspect43To169Act->change( tr("4:3 &to 16:9") );
+#endif
 
 	deinterlaceNoneAct->change( tr("&None") );
 	deinterlaceL5Act->change( tr("&Lowpass5") );
@@ -1497,6 +1518,9 @@ void BaseGui::createMenus() {
 	*/
 
 	videoMenu->addAction(flipAct);
+#if NEW_ASPECT_CODE
+	videoMenu->addAction(addLetterboxAct);
+#endif
 	videoMenu->addSeparator();
 	videoMenu->addAction(equalizerAct);
 	videoMenu->addAction(screenshotAct);
@@ -2186,6 +2210,11 @@ void BaseGui::updateWidgets() {
 
 	// Flip
 	flipAct->setChecked( core->mset.flip );
+
+#if NEW_ASPECT_CODE
+	// Letterbox
+	addLetterboxAct->setChecked( core->mset.add_letterbox );
+#endif
 
 	// Use ass lib
 	useAssAct->setChecked( pref->use_ass_subtitles );

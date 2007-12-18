@@ -5,6 +5,14 @@
    (Advanced->MPlayer language) for Russian, sent by wiselord1983@gmail.com
  * Added patch by Florin Braghis <florin@libertv.ro> to support Win 98.
    Modified a little bit by me to allow it to compile under linux (for testing).
+ * Added a new option: Video->Letterbox. It adds a black border around the
+   video, according to the aspect ratio of the monitor.
+ * Simplified the aspect ratio menu. The options "4:3 Letterbox", 
+   "16:9 Letterbox", "4:3 Panscan", "4:3 to 16:9" have been deleted. The first
+   two are not necessary anymore because of the new Video->Letterbox option, 
+   and the last two I think they are not necessary because smplayer can 
+   simulate pan&scan since some time ago. Anyway they could be added again 
+   if someone really needs them.
 
 (2007-12-14)
  * Now smplayer stores the version number of mplayer in the config file and

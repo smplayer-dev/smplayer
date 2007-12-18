@@ -771,9 +771,13 @@ void Core::finishRestart() {
 
 	we_are_restarting = false;
 
+#if NEW_ASPECT_CODE
+	changeAspectRatio(mset.aspect_ratio_id);
+#else
 	if (mset.aspect_ratio_id < MediaSettings::Aspect43Letterbox) {
 		changeAspectRatio(mset.aspect_ratio_id);
 	}
+#endif
 
 	bool isMuted = mset.mute;
 	if (!pref->dont_change_volume) {
@@ -1409,6 +1413,7 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 	}
 
+#if !NEW_ASPECT_CODE
 	// Panscan (crop)
 	if (!mset.panscan_filter.isEmpty()) {
 		proc->addArgument( "-vf-add" );
@@ -1420,6 +1425,7 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( "-vf-add" );
 		proc->addArgument( mset.crop_43to169_filter );
 	}
+#endif
 
 	// Denoise
 	if (mset.current_denoiser != MediaSettings::NoDenoise) {
@@ -1459,6 +1465,12 @@ void Core::startMplayer( QString file, double seek ) {
 
 
 	// Letterbox (expand)
+#if NEW_ASPECT_CODE
+	if (mset.add_letterbox) {
+		proc->addArgument("-vf-add");
+		proc->addArgument("expand=:::::"+QString::number( DesktopInfo::desktop_aspectRatio(mplayerwindow)));
+	}
+#else
 	if (mset.letterbox == MediaSettings::Letterbox_43) {		
 		proc->addArgument("-vf-add");
 		proc->addArgument("expand=:::::4/3");
@@ -1468,6 +1480,7 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument("-vf-add");
 		proc->addArgument("expand=:::::16/9");
 	}
+#endif
 
 	// Additional video filters, supplied by user
 	// File
@@ -2411,6 +2424,46 @@ void Core::changeAngle(int ID) {
 	}
 }
 
+#if NEW_ASPECT_CODE
+void Core::changeAspectRatio( int ID ) {
+	qDebug("Core::changeAspectRatio: %d", ID);
+
+	mset.aspect_ratio_id = ID;
+    double asp = mdat.video_aspect; // Set a default
+
+	switch (ID) {
+		case MediaSettings::Aspect43: asp = (double) 4 / 3; break;
+		case MediaSettings::Aspect169: asp = (double) 16 / 9; break;
+		case MediaSettings::Aspect149: asp = (double) 14 / 9; break;
+		case MediaSettings::Aspect1610: asp = (double) 16 / 10; break;
+		case MediaSettings::Aspect54: asp = (double) 5 / 4; break;
+		case MediaSettings::Aspect235: asp = 2.35; break;
+
+		default : {
+			//MediaSettings::AspectAuto:
+			qDebug("Core::changeAspectRatio: mset.win_width %d, mset.win_height: %d", mset.win_width, mset.win_height);
+            asp = mset.win_aspect(); break;
+		}
+	}
+
+	if (!pref->use_mplayer_window) {
+		mplayerwindow->setAspect( asp );
+	} else {
+		// Using mplayer own window
+		tellmp("switch_ratio " + QString::number(asp));
+	}
+}
+
+void Core::changeLetterbox(bool b) {
+	qDebug("Core::changeLetterbox: %d", b);
+
+	if (mset.add_letterbox != b) {
+		mset.add_letterbox = b;
+		restartPlay();
+	}
+}
+
+#else
 void Core::changeAspectRatio( int ID ) {
 	qDebug("Core::changeAspectRatio: %d", ID);
 
@@ -2511,6 +2564,7 @@ void Core::changeAspectRatio( int ID ) {
     	restartPlay();
 	}
 }
+#endif
 
 void Core::changeOSD(int v) {
 	qDebug("Core::changeOSD: %d", v);
