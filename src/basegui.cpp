@@ -422,6 +422,11 @@ void BaseGui::createActions() {
              core, SLOT(changeLetterbox(bool)) );
 #endif
 
+	upscaleAct = new MyAction( this, "upscaling" );
+	upscaleAct->setCheckable( true );
+	connect( upscaleAct, SIGNAL(toggled(bool)),
+             core, SLOT(changeUpscale(bool)) );
+
 
 	// Menu Audio
 	muteAct = new MyAction( Qt::Key_M, this, "mute" );
@@ -800,6 +805,7 @@ void BaseGui::setActionsEnabled(bool b) {
 #if NEW_ASPECT_CODE
 	addLetterboxAct->setEnabled(b);
 #endif
+	upscaleAct->setEnabled(b);
 
 	// Menu Audio
 	muteAct->setEnabled(b);
@@ -904,6 +910,7 @@ void BaseGui::enableActionsOnPlaying() {
 #if NEW_ASPECT_CODE
 		addLetterboxAct->setEnabled(false);
 #endif
+		upscaleAct->setEnabled(false);
 
 		doubleSizeAct->setEnabled(false);
 
@@ -1005,6 +1012,7 @@ void BaseGui::retranslateStrings() {
 #if NEW_ASPECT_CODE
 	addLetterboxAct->change( Images::icon("letterbox"), tr("Add &black borders") );
 #endif
+	upscaleAct->change( Images::icon("upscaling"), tr("Soft&ware scaling") );
 
 	// Menu Audio
 	QIcon icset( Images::icon("volume") );
@@ -1507,6 +1515,7 @@ void BaseGui::createMenus() {
 #if NEW_ASPECT_CODE
 	videofilter_menu->addAction(addLetterboxAct);
 #endif
+	videofilter_menu->addAction(upscaleAct);
 
 	videofilter_menu->addSeparator();
 	videofilter_menu->addActions(denoiseGroup->actions());
@@ -2146,6 +2155,9 @@ void BaseGui::updateWidgets() {
 	// Letterbox
 	addLetterboxAct->setChecked( core->mset.add_letterbox );
 #endif
+
+	// Upscaling
+	upscaleAct->setChecked( core->mset.upscaling_filter );
 
 
 	// Postprocessing
