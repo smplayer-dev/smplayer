@@ -36,8 +36,9 @@ void MediaSettings::reset() {
 	current_title_id = NoneSelected;
 	current_chapter_id = NoneSelected;
 	current_angle_id = NoneSelected;
-	letterbox = NoLetterbox;
+
 	aspect_ratio_id = AspectAuto;
+
 	//fullscreen = FALSE;
 	volume = pref->initial_volume;
 	mute = false;
@@ -64,8 +65,15 @@ void MediaSettings::reset() {
 	postprocessing_filter = pref->initial_postprocessing;
 
 	current_deinterlacer = NoDeinterlace;
+
+#if NEW_ASPECT_CODE
+	add_letterbox = false;
+#else
+	letterbox = NoLetterbox;
 	panscan_filter = "";
 	crop_43to169_filter = "";
+#endif
+
     karaoke_filter = false;
 	extrastereo_filter = false;
 	volnorm_filter = pref->initial_volnorm;
@@ -108,7 +116,7 @@ void MediaSettings::list() {
 	qDebug("  current_title_id: %d", current_title_id);
 	qDebug("  current_chapter_id: %d", current_chapter_id);
 	qDebug("  current_angle_id: %d", current_angle_id);
-	qDebug("  letterbox: %d", letterbox);
+
 	qDebug("  aspect_ratio_id: %d", aspect_ratio_id);
 	//qDebug("  fullscreen: %d", fullscreen);
 	qDebug("  volume: %d", volume);
@@ -136,8 +144,13 @@ void MediaSettings::list() {
 	qDebug("  postprocessing_filter: %d", postprocessing_filter);
 
 	qDebug("  current_deinterlacer: %d", current_deinterlacer);
+#if NEW_ASPECT_CODE
+	qDebug("  add_letterbox: %d", add_letterbox);
+#else
+	qDebug("  letterbox: %d", letterbox);
 	qDebug("  panscan_filter: '%s'", panscan_filter.toUtf8().data());
 	qDebug("  crop_43to169_filter: '%s'", crop_43to169_filter.toUtf8().data());
+#endif
 	qDebug("  karaoke_filter: %d", karaoke_filter);
 	qDebug("  extrastereo_filter: %d", extrastereo_filter);
 	qDebug("  volnorm_filter: %d", volnorm_filter);
@@ -181,7 +194,7 @@ void MediaSettings::save(QSettings * set) {
 	set->setValue( "current_title_id", current_title_id );
 	set->setValue( "current_chapter_id", current_chapter_id );
 	set->setValue( "current_angle_id", current_angle_id );
-	set->setValue( "letterbox", letterbox );
+
 	set->setValue( "aspect_ratio_id", aspect_ratio_id );
 	//set->setValue( "fullscreen", fullscreen );
 	set->setValue( "volume", volume );
@@ -209,8 +222,13 @@ void MediaSettings::save(QSettings * set) {
 	set->setValue( "postprocessing_filter", postprocessing_filter);
 
 	set->setValue( "current_deinterlacer", current_deinterlacer);
+#if NEW_ASPECT_CODE
+	set->setValue( "add_letterbox", add_letterbox );
+#else
+	set->setValue( "letterbox", letterbox );
 	set->setValue( "panscan_filter", panscan_filter);
 	set->setValue( "crop_43to169_filter", crop_43to169_filter);
+#endif
 	set->setValue( "karaoke_filter", karaoke_filter);
 	set->setValue( "extrastereo_filter", extrastereo_filter);
 	set->setValue( "volnorm_filter", volnorm_filter);
@@ -255,7 +273,7 @@ void MediaSettings::load(QSettings * set) {
 	current_title_id = set->value( "current_title_id", current_title_id ).toInt();
 	current_chapter_id = set->value( "current_chapter_id", current_chapter_id ).toInt();
 	current_angle_id = set->value( "current_angle_id", current_angle_id ).toInt();
-	letterbox = (LetterboxType) set->value( "letterbox", letterbox ).toInt();
+
 	aspect_ratio_id = set->value( "aspect_ratio_id", aspect_ratio_id ).toInt();
 	//fullscreen = set->value( "fullscreen", fullscreen ).toBool();
 	volume = set->value( "volume", volume ).toInt();
@@ -283,8 +301,13 @@ void MediaSettings::load(QSettings * set) {
 	postprocessing_filter = set->value( "postprocessing_filter", postprocessing_filter).toBool();
 
 	current_deinterlacer = set->value( "current_deinterlacer", current_deinterlacer ).toInt();
+#if NEW_ASPECT_CODE
+	add_letterbox = set->value( "add_letterbox", add_letterbox ).toBool();
+#else
+	letterbox = (LetterboxType) set->value( "letterbox", letterbox ).toInt();
 	panscan_filter = set->value( "panscan_filter", panscan_filter).toString();
 	crop_43to169_filter = set->value( "crop_43to169_filter", crop_43to169_filter).toString();
+#endif
 	karaoke_filter = set->value( "karaoke_filter", karaoke_filter).toBool();
 	extrastereo_filter = set->value( "extrastereo_filter", extrastereo_filter).toBool();
 	volnorm_filter = set->value( "volnorm_filter", volnorm_filter).toBool();

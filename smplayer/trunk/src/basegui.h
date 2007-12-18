@@ -286,6 +286,9 @@ protected:
 	MyAction * screenshotAct;
 	MyAction * onTopAct;
 	MyAction * flipAct;
+#if NEW_ASPECT_CODE
+	MyAction * addLetterboxAct;
+#endif
 	MyAction * postProcessingAct;
 	MyAction * phaseAct;
 	MyAction * deblockAct;
@@ -408,10 +411,12 @@ protected:
 	MyAction * aspect169Act;
 	MyAction * aspect1610Act;
 	MyAction * aspect235Act;
+#if !NEW_ASPECT_CODE
 	MyAction * aspect43LetterAct;
 	MyAction * aspect169LetterAct;
 	MyAction * aspect43PanscanAct;
 	MyAction * aspect43To169Act;
+#endif
 
 	// Audio Channels Action Group
 	MyActionGroup * channelsGroup;

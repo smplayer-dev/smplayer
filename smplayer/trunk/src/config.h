@@ -19,9 +19,16 @@
 #ifndef _CONFIG_H_
 #define _CONFIG_H_
 
+
+// Activate the new code for aspect ratio
+
+#define NEW_ASPECT_CODE 1
+
+
 // Activate new code to disable the screensaver under Windows
 
 #define DISABLE_SCREENSAVER_BY_EVENT 1
+
 
 // CONTROLWIDGET_OVER_VIDEO
 // if set to 1, the controlwidget will be shown in fullscreen
