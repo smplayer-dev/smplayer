@@ -31,6 +31,7 @@ class WinFileAssoc
 {
 protected:
 	QString m_ClassId; //Application ClassId
+	QString m_ClassId2; //The ClassId created by explorer if user selects 'Open With...', usually smplayer.exe
 	QString m_AppName;
 
 protected:
