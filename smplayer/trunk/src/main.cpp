@@ -255,7 +255,9 @@ int main( int argc, char ** argv )
 		//Called by uninstaller. Will restore old associations.
 		WinFileAssoc RegAssoc; 
 		Extensions exts; 
-		RegAssoc.RestoreFileAssociations(exts.multimedia()); 
+		QStringList regExts; 
+		RegAssoc.GetRegisteredExtensions(exts.multimedia(), regExts); 
+		RegAssoc.RestoreFileAssociations(regExts); 
 		printf("Restored associations\n");
 		return 0; 
 	}

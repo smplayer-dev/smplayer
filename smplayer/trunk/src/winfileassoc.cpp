@@ -18,7 +18,7 @@
 
 	Winfileassoc.cpp
 
-	Handles file associations in Windows XP/2000 and Vista .
+	Handles file associations in Windows Vista/XP/2000/NT/ME/98/95.
 	We assume that the code is run without administrator privileges, so the associations are done for current user only.
 	System-wide associations require writing to HKEY_CLASSES_ROOT and we don't want to get our hands dirty with that.
 	Each user on the computer can configure his own set of file associations for SMPlayer, which is extremely cool.
@@ -30,23 +30,32 @@
 	The code can only register the app as default program for selected extensions and check if it is the default. 
 	It cannot restore 'old' default application, since this doesn't seem to be possible with the current Vista API.
 
+	Tested on: Win98, Win2000, WinXP, Vista. 
+	NOT tested on: Win95, ME and NT 4.0 (it should work on 95, ME; Not sure about NT 4.0).
+
 	Author: Florin Braghis (florin@libertv.ro)
 */
 
 #include "winfileassoc.h"
 #include <QSettings>
 #include <QApplication>
-
+#include <QFileInfo>
 
 /*
+   Note by RVM: Added some #ifdef Q_OS_WIN to allow the file to compile under linux. 
+   It should compile the code for Windows XP.
+   The registry entries are saved on a file named HKEY_CURRENT_USER.
 */
 
 WinFileAssoc::WinFileAssoc( const QString ClassId, const QString AppName )
 {
 	m_ClassId = ClassId;
 	m_AppName = AppName; 
+	m_ClassId2 = QFileInfo(QApplication::applicationFilePath()).fileName(); 
 }
 
+//Associates all extensions in the fileExtensions list with current app.
+//Returns number of extensions processed successfully. 
 int WinFileAssoc::CreateFileAssociations(const QStringList& fileExtensions)
 {
 #ifdef Q_OS_WIN
@@ -56,25 +65,27 @@ int WinFileAssoc::CreateFileAssociations(const QStringList& fileExtensions)
 	}
 #endif
 
-	//Registry keys modified:
-	//HKEY_LOCAL_MACHINE\.extension 
-	//Shell 'Open With...' entry:
-	//HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.avi
-
-	QSettings RegCR ("HKEY_CLASSES_ROOT", QSettings::NativeFormat); //Read only
+	QSettings RegCR ("HKEY_CLASSES_ROOT", QSettings::NativeFormat); //Read only on NT+
 	QSettings RegCU ("HKEY_CURRENT_USER", QSettings::NativeFormat);
 
-	//Check if our key exists in RegCR
-	if (!RegCR.contains(m_ClassId))
+	if (!RegCU.isWritable() || RegCU.status() != QSettings::NoError)
+		return 0; 
+
+	if (RegCR.status() != QSettings::NoError)
+		return 0; 
+
+#ifdef Q_OS_WIN
+	if (QSysInfo::WindowsVersion < QSysInfo::WV_NT && !RegCR.isWritable())	//Win98
+		return 0; 
+#endif
+
+	//Check if classId exists in the registry
+	if (!RegCR.contains(m_ClassId) && !RegCU.contains("Software/Classes/" + m_ClassId))
 	{
 		//If doesn't exist (user didn't run the setup program), try to create the ClassId for current user.
 		if (!CreateClassId(QApplication::applicationFilePath(), "SMPlayer Media Player"))
 			return 0; 
 	}
-
-	if (!RegCU.isWritable() || RegCU.status() != QSettings::NoError)
-		return 0; 
-
 	
 	int count = 0; 
 	foreach(const QString& fileExtension, fileExtensions)
@@ -100,26 +111,45 @@ int WinFileAssoc::CreateFileAssociations(const QStringList& fileExtensions)
 
 		//Save last ProgId and Application values from the Exts key
 		KeyVal = RegCU.value(ExtKeyName + "/Progid").toString();
-		if (KeyVal != m_ClassId)
+		
+		if (KeyVal != m_ClassId && KeyVal != m_ClassId2)
 			RegCU.setValue(ExtKeyName + "/MPlayer_Backup_ProgId", KeyVal);
 
 		KeyVal = RegCU.value(ExtKeyName + "/Application").toString(); 
-		if (KeyVal != m_ClassId) 
+		if (KeyVal != m_ClassId || KeyVal != m_ClassId2) 
 			RegCU.setValue(ExtKeyName + "/MPlayer_Backup_Application", KeyVal); 
 
 		//Create the associations
-		RegCU.setValue(CUKeyName + "/.", m_ClassId); 		//Extension class
-		RegCU.setValue(ExtKeyName + "/Progid", m_ClassId);					//Explorer FileExt association
+#ifdef Q_OS_WIN
+		if (QSysInfo::WindowsVersion >= QSysInfo::WV_NT)
+#endif
+		{
+			RegCU.setValue(CUKeyName + "/.", m_ClassId); 		//Extension class
+			RegCU.setValue(ExtKeyName + "/Progid", m_ClassId);	//Explorer FileExt association
 
-		if (RegCU.status() == QSettings::NoError)
+		}
+#ifdef Q_OS_WIN
+		else
+		{
+			//Windows ME/98/95 support
+			RegCR.setValue("." + fileExtension + "/.", m_ClassId); 
+		}
+#endif
+
+		if (RegCU.status() == QSettings::NoError && RegCR.status() == QSettings::NoError)
 			count++; 
 	}
 
 	return count; 
 }
 
-bool WinFileAssoc::GetRegisteredExtensions( const QStringList& extensionsToCheck, QStringList& registeredExtensions )
+//Checks if extensions in extensionsToCheck are registered with this application. Returns a list of registered extensions. 
+//Returns false if there was an error accessing the registry. 
+//Returns true and 0 elements in registeredExtensions if no extension is associated with current app.
+bool WinFileAssoc::GetRegisteredExtensions( const QStringList& extensionsToCheck, QStringList& registeredExtensions)
 {
+	registeredExtensions.clear(); 
+
 #ifdef Q_OS_WIN
 	if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA)
 	{
@@ -140,23 +170,37 @@ bool WinFileAssoc::GetRegisteredExtensions( const QStringList& extensionsToCheck
 	{
 		bool bRegistered = false; 
 		//Check the explorer extension (Always use this program to open this kind of file...)
-		QString CurClassId = RegCU.value(QString("Software/Microsoft/Windows/CurrentVersion/Explorer/FileExts/.%1/Progid").arg(fileExtension)).toString(); 
 
-		if (CurClassId.size())	//Registered with Open With... ?
+#ifdef Q_OS_WIN
+		if (QSysInfo::WindowsVersion >= QSysInfo::WV_NT)
+#endif
 		{
-			bRegistered = (CurClassId == m_ClassId);
-		}
-		else
-		{
-			//No classId means that no associations exists in Default Programs or Explorer
-			
-			//Check the default per-user association 
-			bRegistered = RegCU.value("Software/Classes/." + fileExtension + "/.").toString() == m_ClassId; 
+			QString FileExtsKey = QString("Software/Microsoft/Windows/CurrentVersion/Explorer/FileExts/.%1").arg(fileExtension);
+			QString CurClassId = RegCU.value(FileExtsKey + "/Progid").toString(); 
+			QString CurAppId = RegCU.value(FileExtsKey + "/Application").toString();
 
-			//Finally, check the system-wide association
-			if (!bRegistered)
-				bRegistered = RegCR.value("." + fileExtension + "/.").toString() == m_ClassId;
+			if (CurClassId.size())	//Registered with Open With... / ProgId ?
+			{
+				bRegistered = (CurClassId == m_ClassId) || (0 == CurClassId.compare(m_ClassId2, Qt::CaseInsensitive));
+			}
+			else
+			if (CurAppId.size())
+			{
+				//If user uses Open With..., explorer creates it's own ClassId under Application, usually "smplayer.exe"
+				bRegistered = (CurAppId == m_ClassId) || (0 == CurAppId.compare(m_ClassId2, Qt::CaseInsensitive)); 
+			}
+			else
+			{
+				//No classId means that no associations exists in Default Programs or Explorer
+				//Check the default per-user association 
+				bRegistered = RegCU.value("Software/Classes/." + fileExtension + "/.").toString() == m_ClassId; 
+			}
 		}
+		
+		//Finally, check the system-wide association
+		if (!bRegistered)
+			bRegistered = RegCR.value("." + fileExtension + "/.").toString() == m_ClassId;
+
 
 		if (bRegistered)
 			registeredExtensions.append(fileExtension); 
@@ -165,12 +209,14 @@ bool WinFileAssoc::GetRegisteredExtensions( const QStringList& extensionsToCheck
 	return true; 
 }
 
+//Restores file associations to old defaults (if any) for all extensions in the fileExtensions list.
+//Cleans up our backup keys from the registry.
+//Returns number of extensions successfully processed (error if fileExtensions.count() != return value && count > 0).
 int WinFileAssoc::RestoreFileAssociations(const QStringList& fileExtensions)
 {
 #ifdef Q_OS_WIN
-	if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA) {
+	if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA)
 		return 0; //Not supported by the API
-	}
 #endif
 
 	QSettings RegCR ("HKEY_CLASSES_ROOT", QSettings::NativeFormat);
@@ -178,6 +224,14 @@ int WinFileAssoc::RestoreFileAssociations(const QStringList& fileExtensions)
 
 	if (!RegCU.isWritable() || RegCU.status() != QSettings::NoError)
 		return 0; 
+
+	if (RegCR.status() != QSettings::NoError)
+		return 0; 
+
+#ifdef Q_OS_WIN
+	if (QSysInfo::WindowsVersion < QSysInfo::WV_NT && !RegCR.isWritable())	//Win98
+		return 0; 
+#endif
 
 	int count = 0; 
 	foreach(const QString& fileExtension, fileExtensions)
@@ -191,20 +245,48 @@ int WinFileAssoc::RestoreFileAssociations(const QStringList& fileExtensions)
 		if (!OldProgId.isEmpty() && OldProgId != m_ClassId)
 			RegCU.setValue(ExtKeyName + "/Progid", OldProgId);
 		else
-			RegCU.remove(ExtKeyName + "/Progid"); 
+		{
+			QString CurProgId = RegCU.value(ExtKeyName + "/Progid").toString();
+			if ((CurProgId == m_ClassId) || (0 == CurProgId.compare(m_ClassId2, Qt::CaseInsensitive))) //Only remove if we own it
+				RegCU.remove(ExtKeyName + "/Progid");	
+		}
 
 		//Restore old explorer Application 
 		if (!OldApp.isEmpty() && OldApp != m_ClassId)
 			RegCU.setValue(ExtKeyName + "/Application", OldApp); 
 		else
-			RegCU.remove(ExtKeyName + "/Application");
+		{
+			QString CurApp = RegCU.value(ExtKeyName + "/Application").toString();
+			if ((CurApp == m_ClassId) || (0 == CurApp.compare(m_ClassId2, Qt::CaseInsensitive))) //Only remove if we own it
+				RegCU.remove(ExtKeyName + "/Application"); 
+		}
 
-		//Restore old association for current user
-		if (!OldClassId.isEmpty() && OldClassId != m_ClassId)
-			RegCU.setValue("Software/Classes/." + fileExtension + "/.", OldClassId); 
+#ifdef Q_OS_WIN
+		if (QSysInfo::WindowsVersion >= QSysInfo::WV_NT)
+#endif
+		{
+			//Restore old association for current user
+			if (!OldClassId.isEmpty() && OldClassId != m_ClassId)
+				RegCU.setValue("Software/Classes/." + fileExtension + "/.", OldClassId); 
+			else
+			{
+				if (RegCU.value("Software/Classes/." + fileExtension + "/.").toString() == m_ClassId) //Only remove if we own it
+					RegCU.remove("Software/Classes/." + fileExtension); 
+			}
+		}
+#ifdef Q_OS_WIN
 		else
-			RegCU.remove("Software/Classes/." + fileExtension + "/."); 	//No old association with this extension, it's better to remove it entirely
-
+		{
+			//Windows 98 ==> Write to HKCR
+			if (!OldClassId.isEmpty() && OldClassId != m_ClassId)
+				RegCR.setValue("." + fileExtension + "/.", OldClassId); 
+			else
+			{
+				if (RegCR.value("." + fileExtension + "/.").toString() == m_ClassId)
+					RegCR.remove("." + fileExtension); 
+			}
+		}
+#endif
 		//Remove our keys:
 		//CurrentUserClasses/.ext/MPlayerBackup
 		//Explorer: Backup_Application and Backup_ProgId
@@ -215,42 +297,71 @@ int WinFileAssoc::RestoreFileAssociations(const QStringList& fileExtensions)
 	return count; 
 }
 
+//Creates a ClassId for current application. 
 //Note: It's better to create the classId from the installation program.
 bool WinFileAssoc::CreateClassId(const QString& executablePath, const QString& friendlyName)
 {
-	QSettings RegCU ("HKEY_CURRENT_USER", QSettings::NativeFormat);
-	if (!RegCU.isWritable() || RegCU.status() != QSettings::NoError)
+	QString RootKeyName;
+	QString classId; 
+
+#ifdef Q_OS_WIN
+	if (QSysInfo::WindowsVersion >= QSysInfo::WV_NT) 
+#endif
+	{
+		classId = "Software/Classes/" + m_ClassId; 
+		RootKeyName = "HKEY_CURRENT_USER";
+	}
+#ifdef Q_OS_WIN
+	else 
+	{
+		classId = m_ClassId; 
+		RootKeyName = "HKEY_CLASSES_ROOT";	//Windows 95/98/ME
+	}
+#endif
+
+	QSettings Reg (RootKeyName, QSettings::NativeFormat);
+	if (!Reg.isWritable() || Reg.status() != QSettings::NoError)
 		return false; 
 
 	QString appPath = executablePath;
 	appPath.replace('/', '\\'); //Explorer gives 'Access Denied' if we write the path with forward slashes to the registry
 
-	QString classId = "Software/Classes/" + m_ClassId; 
 	//Add our ProgId to the HKCR classes
-	RegCU.setValue(classId + "/shell/open/FriendlyAppName", friendlyName);
-	RegCU.setValue(classId + "/shell/open/command/.", QString("\"%1\" \"%2\"").arg(appPath, "%1"));
-	RegCU.setValue(classId + "/DefaultIcon/.", QString("\"%1\",1").arg(appPath));
+	Reg.setValue(classId + "/shell/open/FriendlyAppName", friendlyName);
+	Reg.setValue(classId + "/shell/open/command/.", QString("\"%1\" \"%2\"").arg(appPath, "%1"));
+	Reg.setValue(classId + "/DefaultIcon/.", QString("\"%1\",1").arg(appPath));
 	//Add "Enqueue" command
-	RegCU.setValue(classId + "/shell/enqueue/.", QObject::tr("Enqueue in SMPlayer"));
-	RegCU.setValue(classId + "/shell/enqueue/command/.", QString("\"%1\" -add-to-playlist \"%2\"").arg(appPath, "%1"));
+	Reg.setValue(classId + "/shell/enqueue/.", QObject::tr("Enqueue in SMPlayer"));
+	Reg.setValue(classId + "/shell/enqueue/command/.", QString("\"%1\" -add-to-playlist \"%2\"").arg(appPath, "%1"));
 	return true; 
 }
-
+//Remove ClassId from the registry.
 //Called when no associations exist. Note: It's better to do this in the Setup program.
 bool WinFileAssoc::RemoveClassId()
 {
-	QSettings RegCU ("HKEY_CURRENT_USER", QSettings::NativeFormat);
+	QString RootKeyName;
+	QString classId; 
+
+#ifdef Q_OS_WIN
+	if (QSysInfo::WindowsVersion >= QSysInfo::WV_NT) 
+#endif
+	{
+		classId = "Software/Classes/" + m_ClassId; 
+		RootKeyName = "HKEY_CURRENT_USER";
+	}
+#ifdef Q_OS_WIN
+	else 
+	{
+		classId = m_ClassId; 
+		RootKeyName = "HKEY_CLASSES_ROOT";	//Windows 95/98/ME
+	}
+#endif
+
+	QSettings RegCU (RootKeyName, QSettings::NativeFormat);
 
 	if (!RegCU.isWritable() || RegCU.status() != QSettings::NoError)
 		return false; 
 
-	QString classId = "Software/Classes/" + m_ClassId; 
-
-	RegCU.remove(classId + "/shell/open/FriendlyAppName");
-	RegCU.remove(classId + "/shell/open/command/.");
-	RegCU.remove(classId + "/shell/enqueue/command/.");
-	RegCU.remove(classId + "/shell/enqueue/.");
-	RegCU.remove(classId + "/DefaultIcon/.");
 	RegCU.remove(classId);
 	return true; 
 }
@@ -258,7 +369,7 @@ bool WinFileAssoc::RemoveClassId()
 //Windows Vista specific implementation
 //Add libole32.a library if compiling with mingw.
 //In smplayer.pro, under win32{ :
-//	LIBS += c:/mingw/lib/libole32.a
+//	LIBS += libole32
 #ifdef WIN32
 #include <windows.h>
 

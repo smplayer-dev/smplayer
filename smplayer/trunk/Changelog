@@ -3,6 +3,8 @@
 (2007-12-17)
  * Updated the Russian translation, and added regular expressions 
    (Advanced->MPlayer language) for Russian, sent by wiselord1983@gmail.com
+ * Added patch by Florin Braghis <florin@libertv.ro> to support Win 98.
+   Modified a little bit by me to allow it to compile under linux (for testing).
 
 (2007-12-14)
  * Now smplayer stores the version number of mplayer in the config file and
@@ -16,7 +18,8 @@
    of the mplayer version number.
 
 (2007-12-13)
- * (Windows) Added patch by codeboost to improve the file associations code.
+ * (Windows) Added patch by Florin Braghis <florin@libertv.ro> to improve the 
+   file associations code.
    See http://smplayer.sourceforge.net/forums/viewtopic.php?pid=470#p470
  * (By user request) Added the possibility to configure any of the mouse
    buttons to show the equalizer.
