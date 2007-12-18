@@ -1,5 +1,9 @@
 [b]Version 0.5.63 (not released yet)[/b]:
 
+(2007-12-18)
+ * Moved the letterbox option to the filters submenu and renamed to 
+   "Add black borders".
+
 (2007-12-17)
  * Updated the Russian translation, and added regular expressions 
    (Advanced->MPlayer language) for Russian, sent by wiselord1983@gmail.com

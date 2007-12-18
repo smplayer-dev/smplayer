@@ -286,14 +286,14 @@ protected:
 	MyAction * screenshotAct;
 	MyAction * onTopAct;
 	MyAction * flipAct;
-#if NEW_ASPECT_CODE
-	MyAction * addLetterboxAct;
-#endif
 	MyAction * postProcessingAct;
 	MyAction * phaseAct;
 	MyAction * deblockAct;
 	MyAction * deringAct;
 	MyAction * addNoiseAct;
+#if NEW_ASPECT_CODE
+	MyAction * addLetterboxAct;
+#endif
 
 	// Menu Audio
 	MyAction * muteAct;

@@ -388,13 +388,6 @@ void BaseGui::createActions() {
 	connect( flipAct, SIGNAL(toggled(bool)),
              core, SLOT(toggleFlip(bool)) );
 
-#if NEW_ASPECT_CODE
-	addLetterboxAct = new MyAction( this, "add_letterbox" );
-	addLetterboxAct->setCheckable( true );
-	connect( addLetterboxAct, SIGNAL(toggled(bool)),
-             core, SLOT(changeLetterbox(bool)) );
-#endif
-
 
 	// Submenu filter
 	postProcessingAct = new MyAction( this, "postprocessing" );
@@ -421,6 +414,13 @@ void BaseGui::createActions() {
 	addNoiseAct->setCheckable( true );
 	connect( addNoiseAct, SIGNAL(toggled(bool)),
              core, SLOT(toggleNoise(bool)) );
+
+#if NEW_ASPECT_CODE
+	addLetterboxAct = new MyAction( this, "add_letterbox" );
+	addLetterboxAct->setCheckable( true );
+	connect( addLetterboxAct, SIGNAL(toggled(bool)),
+             core, SLOT(changeLetterbox(bool)) );
+#endif
 
 
 	// Menu Audio
@@ -792,14 +792,14 @@ void BaseGui::setActionsEnabled(bool b) {
 	equalizerAct->setEnabled(b);
 	screenshotAct->setEnabled(b);
 	flipAct->setEnabled(b);
-#if NEW_ASPECT_CODE
-	addLetterboxAct->setEnabled(b);
-#endif
 	postProcessingAct->setEnabled(b);
 	phaseAct->setEnabled(b);
 	deblockAct->setEnabled(b);
 	deringAct->setEnabled(b);
 	addNoiseAct->setEnabled(b);
+#if NEW_ASPECT_CODE
+	addLetterboxAct->setEnabled(b);
+#endif
 
 	// Menu Audio
 	muteAct->setEnabled(b);
@@ -896,14 +896,14 @@ void BaseGui::enableActionsOnPlaying() {
 		equalizerAct->setEnabled(false);
 		screenshotAct->setEnabled(false);
 		flipAct->setEnabled(false);
-#if NEW_ASPECT_CODE
-		addLetterboxAct->setEnabled(false);
-#endif
 		postProcessingAct->setEnabled(false);
 		phaseAct->setEnabled(false);
 		deblockAct->setEnabled(false);
 		deringAct->setEnabled(false);
 		addNoiseAct->setEnabled(false);
+#if NEW_ASPECT_CODE
+		addLetterboxAct->setEnabled(false);
+#endif
 
 		doubleSizeAct->setEnabled(false);
 
@@ -987,9 +987,6 @@ void BaseGui::retranslateStrings() {
 	screenshotAct->change( Images::icon("screenshot"), tr("&Screenshot") );
 	onTopAct->change( Images::icon("ontop"), tr("S&tay on top") );
 	flipAct->change( Images::icon("flip"), tr("Flip i&mage") );
-#if NEW_ASPECT_CODE
-	addLetterboxAct->change( Images::icon("letterbox"), tr("&Letterbox") );
-#endif
 
 	decZoomAct->change( tr("Zoom &-") );
 	incZoomAct->change( tr("Zoom &+") );
@@ -1005,6 +1002,9 @@ void BaseGui::retranslateStrings() {
 	deblockAct->change( tr("&Deblock") );
 	deringAct->change( tr("De&ring") );
 	addNoiseAct->change( tr("Add n&oise") );
+#if NEW_ASPECT_CODE
+	addLetterboxAct->change( Images::icon("letterbox"), tr("Add &black borders") );
+#endif
 
 	// Menu Audio
 	QIcon icset( Images::icon("volume") );
@@ -1504,6 +1504,9 @@ void BaseGui::createMenus() {
 	videofilter_menu->addAction(deblockAct);
 	videofilter_menu->addAction(deringAct);
 	videofilter_menu->addAction(addNoiseAct);
+#if NEW_ASPECT_CODE
+	videofilter_menu->addAction(addLetterboxAct);
+#endif
 
 	videofilter_menu->addSeparator();
 	videofilter_menu->addActions(denoiseGroup->actions());
@@ -1518,9 +1521,6 @@ void BaseGui::createMenus() {
 	*/
 
 	videoMenu->addAction(flipAct);
-#if NEW_ASPECT_CODE
-	videoMenu->addAction(addLetterboxAct);
-#endif
 	videoMenu->addSeparator();
 	videoMenu->addAction(equalizerAct);
 	videoMenu->addAction(screenshotAct);
@@ -2142,6 +2142,12 @@ void BaseGui::updateWidgets() {
 	// Add noise
 	addNoiseAct->setChecked( core->mset.noise_filter );
 
+#if NEW_ASPECT_CODE
+	// Letterbox
+	addLetterboxAct->setChecked( core->mset.add_letterbox );
+#endif
+
+
 	// Postprocessing
 	postProcessingAct->setChecked( core->mset.postprocessing_filter );
 
@@ -2211,10 +2217,6 @@ void BaseGui::updateWidgets() {
 	// Flip
 	flipAct->setChecked( core->mset.flip );
 
-#if NEW_ASPECT_CODE
-	// Letterbox
-	addLetterboxAct->setChecked( core->mset.add_letterbox );
-#endif
 
 	// Use ass lib
 	useAssAct->setChecked( pref->use_ass_subtitles );
