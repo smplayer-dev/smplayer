@@ -1449,6 +1449,15 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( "pp=dr" );
 	}
 
+	// Upscale
+	if (mset.upscaling_filter) {
+		int width = DesktopInfo::desktop_size(mplayerwindow).width();
+		proc->addArgument("-sws");
+		proc->addArgument("9");
+		proc->addArgument("-vf-add");
+		proc->addArgument("scale="+QString::number(width)+":-2");
+	}
+
 	// Addnoise
 	if (mset.noise_filter) {
 		proc->addArgument("-vf-add");
@@ -1892,6 +1901,14 @@ void Core::changeDenoise(int id) {
 	qDebug( "Core::changeDenoise: %d", id );
 	if (id != mset.current_denoiser) {
 		mset.current_denoiser = id;
+		restartPlay();
+	}
+}
+
+void Core::changeUpscale(bool b) {
+	qDebug( "Core::changeUpscale: %d", b );
+	if (mset.upscaling_filter != b) {
+		mset.upscaling_filter = b;
 		restartPlay();
 	}
 }

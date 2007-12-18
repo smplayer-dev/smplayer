@@ -102,6 +102,7 @@ public:
 	bool dering_filter;
 	bool noise_filter;
 	bool postprocessing_filter;
+	bool upscaling_filter; //!< Software scaling
 
 	bool karaoke_filter;
 	bool extrastereo_filter;

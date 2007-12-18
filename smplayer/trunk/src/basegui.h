@@ -294,6 +294,7 @@ protected:
 #if NEW_ASPECT_CODE
 	MyAction * addLetterboxAct;
 #endif
+	MyAction * upscaleAct;
 
 	// Menu Audio
 	MyAction * muteAct;

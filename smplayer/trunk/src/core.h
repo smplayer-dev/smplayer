@@ -120,6 +120,10 @@ public slots:
 	void togglePostprocessing();
 	void togglePostprocessing(bool b);
 	void changeDenoise(int);
+#if NEW_ASPECT_CODE
+	void changeLetterbox(bool);
+#endif
+	void changeUpscale(bool);
 
 	void seek(int secs);
 	void sforward(); 	// + 10 seconds
@@ -194,10 +198,6 @@ public slots:
 	void changeAspectRatio(int);
 	void changeOSD(int);
 	void nextOSD();
-
-#if NEW_ASPECT_CODE
-	void changeLetterbox(bool);
-#endif
 
 	void changeSize(int); // Size of the window
 	void toggleDoubleSize();

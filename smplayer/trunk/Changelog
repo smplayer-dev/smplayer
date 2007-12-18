@@ -3,6 +3,9 @@
 (2007-12-18)
  * Moved the letterbox option to the filters submenu and renamed to 
    "Add black borders".
+ * Added the new option Video->Filters->Software scaling. Makes mplayer to
+   scale the video up to the width of your screen. This is slow, you'll need
+   a really fast computer.
 
 (2007-12-17)
  * Updated the Russian translation, and added regular expressions 
