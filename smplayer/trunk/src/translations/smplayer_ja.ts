@@ -1077,12 +1077,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1013"/>
         <source>Add &amp;black borders</source>
-        <translation type="unfinished"></translation>
+        <translation>黒枠の追加(&amp;B)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1015"/>
         <source>Soft&amp;ware scaling</source>
-        <translation type="unfinished"></translation>
+        <translation>ソフトウェア スケール(&amp;W)</translation>
     </message>
 </context>
 <context>
