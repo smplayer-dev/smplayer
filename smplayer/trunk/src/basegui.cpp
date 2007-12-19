@@ -1516,7 +1516,6 @@ void BaseGui::createMenus() {
 	videofilter_menu->addAction(addLetterboxAct);
 #endif
 	videofilter_menu->addAction(upscaleAct);
-
 	videofilter_menu->addSeparator();
 	videofilter_menu->addActions(denoiseGroup->actions());
 
