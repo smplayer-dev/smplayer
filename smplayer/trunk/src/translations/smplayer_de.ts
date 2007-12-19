@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -1087,12 +1088,12 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1013"/>
         <source>Add &amp;black borders</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Schwarze Rahmen hinzufügen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1015"/>
         <source>Soft&amp;ware scaling</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Software Skalierung</translation>
     </message>
 </context>
 <context>
