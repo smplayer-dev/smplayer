@@ -258,10 +258,6 @@ public:
 	int initial_audio_track;
 	int initial_subtitle_track;
 
-	//FIXME: this shouldn't be here, but in prefassociations:
-	//! Registered extensions; comma-separated. eg. "avi,mpg,mpeg,mov,mkv"
-	QString extensions;		
-
     //mplayer log autosaving
     bool autosave_mplayer_log;
     QString mplayer_log_saveto;

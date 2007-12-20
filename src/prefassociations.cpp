@@ -24,7 +24,6 @@
 
 #include "prefassociations.h"
 #include "images.h"
-#include "preferences.h"
 #include <QSettings>
 #include <QApplication>
 #include <QMessageBox>
