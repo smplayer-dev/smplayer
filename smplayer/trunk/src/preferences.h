@@ -222,6 +222,7 @@ public:
 #ifdef Q_OS_WIN
 	//bool enable_vcd_on_windows;
 	bool enable_audiocd_on_windows;
+	bool use_short_pathnames; //To workaround a bug in mplayer
 #endif
 
 	//! Close the main window when a file or playlist finish
