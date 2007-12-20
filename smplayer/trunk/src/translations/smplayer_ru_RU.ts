@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -1032,12 +1033,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1013"/>
         <source>Add &amp;black borders</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавить &amp;чёрные полосы</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1015"/>
         <source>Soft&amp;ware scaling</source>
-        <translation type="unfinished"></translation>
+        <translation>Про&amp;граммное масштабирование</translation>
     </message>
 </context>
 <context>
@@ -2159,7 +2160,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefassociations.cpp" line="222"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation type="unfinished"></translation>
+        <translation>(sp)&lt;b&gt;Примечание:&lt;/b&gt; (Восстановление ассоциаций не работает в Windows Vista).</translation>
     </message>
 </context>
 <context>
@@ -2949,7 +2950,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="68"/>
         <source>Show equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Показать эквалайзер</translation>
     </message>
 </context>
 <context>
@@ -3455,57 +3456,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="261"/>
         <source>Cache for files</source>
-        <translation type="unfinished"></translation>
+        <translation>Кэширование файлов</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="263"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Эта опция определяет количество памяти (в кБайтах), используетмых для предварительного кэширования файлов.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="265"/>
         <source>Cache for streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Кэширование потоков</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="267"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
-        <translation type="unfinished"></translation>
+        <translation>Эта опция определяет количество памяти (в кБайтах), используетмых для предварительного кэширования URL.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="269"/>
         <source>Cache for DVDs</source>
-        <translation type="unfinished"></translation>
+        <translation>Кэшировать DVD</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="272"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Эта опция определяет количество памяти (в кБайтах), используетмых для предварительного кэширования DVD.&lt;br&gt;&lt;b&gt;Внимание:&lt;/b&gt; Перемотка может работать неправильно (в том числе и обзор глав) при использовании кэширования DVD.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="312"/>
         <source>C&amp;reate index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>Создать &amp;индекс, если необходимо</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="333"/>
         <source>&amp;Cache</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Кэш</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="379"/>
         <source>Cache for &amp;DVDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>Кэш &amp;DVD:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="399"/>
         <source>Cache for &amp;local files:</source>
-        <translation type="unfinished"></translation>
+        <translation>Кэш локальных &amp;файлов:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="409"/>
         <source>Cache for &amp;streams:</source>
-        <translation type="unfinished"></translation>
+        <translation>Кэш &amp;потоков:</translation>
     </message>
 </context>
 <context>
@@ -3885,7 +3886,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../main.cpp" line="181"/>
         <source>Restores the old associations and cleans up the registry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Восстанавливает старые ассоциации и очищает реестр.</translation>
     </message>
 </context>
 <context>
