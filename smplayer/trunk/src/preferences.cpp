@@ -72,15 +72,6 @@ void Preferences::reset() {
 
 	color_key = 0x020202;
 
-/*
-#ifdef Q_OS_WIN
-	dvd_device="E:";
-	cdrom_device="E:";
-#else
-	dvd_device="/dev/dvd";
-	cdrom_device="/dev/cdrom";
-#endif
-*/
 
 	dvd_device = "";
 	cdrom_device = "";
@@ -455,10 +446,6 @@ void Preferences::save() {
 	set->beginGroup( "mplayer_info");
 	set->setValue("mplayer_version", mplayer_version);
 	set->endGroup();
-
-	set->beginGroup("associations");
-	set->setValue("extensions", extensions); 
-	set->endGroup();
 }
 
 void Preferences::load() {
@@ -662,10 +649,6 @@ void Preferences::load() {
 
 	set->beginGroup( "mplayer_info");
 	mplayer_version = set->value("mplayer_version", mplayer_version).toInt();
-	set->endGroup();
-
-	set->beginGroup("associations");
-	extensions = set->value("extensions").toString();
 	set->endGroup();
 
 	/*
