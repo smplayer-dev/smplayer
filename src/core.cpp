@@ -1617,6 +1617,14 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument("-playlist");
 	}
 
+#ifdef Q_OS_WIN
+	if (pref->use_short_pathnames) {
+		QString short_path = Helper::shortPathName(file);
+		qDebug("Core::startMplayer: short path: %s", short_path.toUtf8().data());
+		file = short_path;
+	}
+#endif
+
 	proc->addArgument( file );
 
 	//Log command
