@@ -98,6 +98,18 @@ public:
 
 	static bool directoryContainsDVD(QString directory);
 
+    /**
+     ** \brief Strip colors and tags from MPlayer output lines
+     **
+     ** Some MPlayer configurations (configured with --enable-color-console)
+     ** use colored/tagged console output. This function removes those colors
+     ** and tags.
+     **
+     ** \param s The string to strip colors and tags from
+     ** \return Returns a clean string (no colors, no tags)
+     */
+    static QString stripColorsTags(QString s);
+
 /*
 #ifdef Q_OS_WIN
 	static QString mplayer_intermediate(QString mplayer_bin);

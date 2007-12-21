@@ -24,6 +24,7 @@
 #include "global.h"
 #include "preferences.h"
 #include "mplayerversion.h"
+#include "helper.h"
 
 MplayerProcess::MplayerProcess(QObject * parent) : MyProcess(parent) 
 {
@@ -134,9 +135,11 @@ void MplayerProcess::parseLine(QByteArray ba) {
 	QString tag;
 	QString value;
 
+    QString line = Helper::stripColorsTags(QString::fromLocal8Bit(ba));
+
 	// Parse A: V: line
 	//qDebug("%s", line.toUtf8().data());
-	if (rx_av.indexIn(ba) > -1) {
+    if (rx_av.indexIn(line) > -1) {
 		double sec = rx_av.cap(1).toDouble();
 		//qDebug("cap(1): '%s'", rx_av.cap(1).toUtf8().data() );
 		//qDebug("sec: %f", sec);
@@ -151,15 +154,13 @@ void MplayerProcess::parseLine(QByteArray ba) {
 	    emit receivedCurrentSec( sec );
 
 		// Check for frame
-		if (rx_frame.indexIn(ba) > -1) {
+        if (rx_frame.indexIn(line) > -1) {
 			int frame = rx_frame.cap(1).toInt();
 			//qDebug(" frame: %d", frame);
 			emit receivedCurrentFrame(frame);
 		}
 	}
 	else {
-		QString line = QString::fromLocal8Bit( ba );
-		//QString line = QString::fromUtf8( ba );
 		emit lineAvailable(line);
 
 		// Parse other things
