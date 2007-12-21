@@ -98,7 +98,9 @@ AboutDialog::AboutDialog(QWidget * parent, Qt::WindowFlags f)
 			.arg("Temet &lt;goondy@free.fr&gt;")
 			.arg("Kud Gray &lt;kud.gray@gmail.com&gt;") ) +
 		 trad(tr("Simplified-Chinese"), "Tim Green &lt;iamtimgreen@gmail.com&gt;") +
-         trad(tr("Russian"), "Yurkovsky Andrey &lt;anyr@tut.by&gt;") + 
+         trad(tr("Russian"), tr("%1 and %2")
+	    .arg("Yurkovsky Andrey &lt;anyr@tut.by&gt;")
+	    .arg(QString::fromUtf8("Белый Владимир &lt;wiselord1983@gmail.com&gt;")))+ 
          trad(tr("Hungarian"), "Charles Barcza &lt;kbarcza@blackpanther.hu&gt;") + 
          trad(tr("Polish"), tr("%1 and %2")
             .arg("qla &lt;qla0@vp.pl&gt;")
