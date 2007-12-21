@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -2160,17 +2161,17 @@ Die Auswahl-Liste enthält evt.schon die regulären Ausdrücke.</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="340"/>
         <source>Pass short filenames (8+3) to MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Kurze Dateinamen (8+3) an MPlayer weiter leiten</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="344"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gegenwärtig kann MPlayer keine Dateinamen öffnen, die Charaktere außerhalb des lokalen Zeichensatzes enthalten. SMplayer leitet mit dieser Option, die Version der kurzen Dateinamen an MPlayer weiter und er wird auf diese Art in der Lage sein, sie auch zu öffnen.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="267"/>
         <source>&amp;Pass short filenames (8+3) to MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kurze Dateinamen (8+3) an MPlayer weiter leiten</translation>
     </message>
 </context>
 <context>
