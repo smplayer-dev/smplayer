@@ -1180,7 +1180,6 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( QString::number( (int) mplayerwindow->videoLayer()->winId() ) );
 	
 		proc->addArgument("-colorkey");
-		//proc->addArgument( QString::number(COLORKEY) );
 		proc->addArgument( QString::number(pref->color_key) );
 
 		// Set monitoraspect to desktop aspect
@@ -1229,7 +1228,6 @@ void Core::startMplayer( QString file, double seek ) {
 	proc->addArgument( "-subfont-autoscale");
 	proc->addArgument( QString::number( pref->font_autoscale ) );
 	proc->addArgument( "-subfont-text-scale");
-	//proc->addArgument( QString::number( pref->font_textscale ) );
 	proc->addArgument( QString::number(mset.sub_scale) );
 
 	if (!pref->subcp.isEmpty()) {
@@ -1247,17 +1245,27 @@ void Core::startMplayer( QString file, double seek ) {
 			// sub/idx subtitles
 			QFileInfo fi(mset.external_subtitles);
 			QString s = fi.path() +"/"+ fi.baseName();
-			qDebug(" * subtitle file without extension: '%s'", s.toUtf8().data());
+			qDebug("Core::startMplayer: subtitle file without extension: '%s'", s.toUtf8().data());
 			proc->addArgument("-vobsub");
 			proc->addArgument( s );
 		} else {
 			proc->addArgument("-sub");
+			#ifdef Q_OS_WIN
+			if (pref->use_short_pathnames)
+				proc->addArgument(Helper::shortPathName(mset.external_subtitles));
+			else
+			#endif
 			proc->addArgument( mset.external_subtitles );
 		}
 	}
 
 	if (!mset.external_audio.isEmpty()) {
 		proc->addArgument("-audiofile");
+		#ifdef Q_OS_WIN
+		if (pref->use_short_pathnames)
+			proc->addArgument(Helper::shortPathName(mset.external_audio));
+		else
+		#endif
 		proc->addArgument( mset.external_audio );
 	}
 
@@ -1618,27 +1626,14 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 #ifdef Q_OS_WIN
-	if (pref->use_short_pathnames) {
-		QString short_path = Helper::shortPathName(file);
-		qDebug("Core::startMplayer: short path: %s", short_path.toUtf8().data());
-		file = short_path;
-	}
+	if (pref->use_short_pathnames)
+		proc->addArgument(Helper::shortPathName(file));
+	else
 #endif
-
 	proc->addArgument( file );
 
 	//Log command
 	//mplayer_log = "Command: \n";
-	/*
-	QString commandline;
-    QStringList list = proc->arguments();
-    QStringList::Iterator it = list.begin();
-    while( it != list.end() ) {
-        commandline += ( *it );
-		commandline += " ";
-        ++it;
-    }
-	*/
 	QString commandline = proc->arguments().join(" ");
 	mplayer_log += commandline + "\n\n";
 	qDebug("Core::startMplayer: command: '%s'", commandline.toUtf8().data());
@@ -1653,7 +1648,7 @@ void Core::startMplayer( QString file, double seek ) {
 	//stopped_by_user = FALSE;
 
 	// Try to set the volume as soon as possible
-	tellmp("volume " + QString::number(mset.volume) + " 1");
+	/*tellmp("volume " + QString::number(mset.volume) + " 1");*/
 }
 
 void Core::stopMplayer() {
