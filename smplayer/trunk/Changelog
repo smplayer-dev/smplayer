@@ -10,6 +10,8 @@
    To test: I don't know if this would break compatibility with Win98.
  * (Windows) Added an option in Preferences->Advanced to enable easily the
    option mentioned above.
+ * Added patch by profoX to add support for the mplayer output when compiled
+   with -enable-color-console.
  
 (2007-12-18)
  * Moved the letterbox option to the filters submenu and renamed to 
