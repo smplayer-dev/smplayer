@@ -262,6 +262,13 @@
         </layout>
        </item>
        <item>
+        <widget class="QCheckBox" name="shortnames_check" >
+         <property name="text" >
+          <string>&amp;Pass short filenames (8+3) to MPlayer</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <spacer>
          <property name="orientation" >
           <enum>Qt::Vertical</enum>

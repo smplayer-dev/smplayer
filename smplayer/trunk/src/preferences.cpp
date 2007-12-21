@@ -207,7 +207,6 @@ void Preferences::reset() {
 #ifdef Q_OS_WIN
 	//enable_vcd_on_windows = false;
 	enable_audiocd_on_windows = false;
-	use_short_pathnames = false;
 #endif
 
 	close_on_finish = false;
@@ -246,6 +245,8 @@ void Preferences::reset() {
 
 	auto_add_to_playlist = true;
 	use_volume_option = false; 
+
+	use_short_pathnames = false;
 
 	mplayer_version = -1; //None version parsed yet
 }
@@ -401,7 +402,6 @@ void Preferences::save() {
 #ifdef Q_OS_WIN
 	//set->setValue("enable_vcd_on_windows", enable_vcd_on_windows);
 	set->setValue("enable_audiocd_on_windows", enable_audiocd_on_windows);
-	set->setValue("use_short_pathnames", use_short_pathnames);
 #endif
 
 	set->setValue("close_on_finish", close_on_finish);
@@ -419,6 +419,8 @@ void Preferences::save() {
 
     set->setValue("auto_add_to_playlist", auto_add_to_playlist);
 	set->setValue("use_volume_option", use_volume_option);
+
+	set->setValue("use_short_pathnames", use_short_pathnames);
 
 	set->endGroup();
 
@@ -606,7 +608,6 @@ void Preferences::load() {
 #ifdef Q_OS_WIN
 	//enable_vcd_on_windows = set->value("enable_vcd_on_windows", enable_vcd_on_windows).toBool();
 	enable_audiocd_on_windows = set->value("enable_audiocd_on_windows", enable_audiocd_on_windows).toBool();
-	use_short_pathnames = set->value("use_short_pathnames", use_short_pathnames).toBool();
 #endif
 
 	close_on_finish = set->value("close_on_finish", close_on_finish).toBool();
@@ -624,6 +625,8 @@ void Preferences::load() {
 
 	auto_add_to_playlist = set->value("auto_add_to_playlist", auto_add_to_playlist).toBool();
 	use_volume_option = set->value("use_volume_option", use_volume_option).toBool();
+
+	use_short_pathnames = set->value("use_short_pathnames", use_short_pathnames).toBool();
 
 	set->endGroup();
 

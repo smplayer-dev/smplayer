@@ -28,6 +28,10 @@ PrefAdvanced::PrefAdvanced(QWidget * parent, Qt::WindowFlags f)
 {
 	setupUi(this);
 
+#ifndef Q_OS_WIN
+	shortnames_check->hide();
+#endif
+
 	// Monitor aspect
 	monitoraspect_combo->addItem("Auto");
 	monitoraspect_combo->addItem("4:3");
@@ -97,6 +101,8 @@ void PrefAdvanced::setData(Preferences * pref) {
 
 	setEndOfFileText( pref->rx_endoffile );
 	setNoVideoText( pref->rx_novideo );
+
+	setUseShortNames( pref->use_short_pathnames );
 }
 
 void PrefAdvanced::getData(Preferences * pref) {
@@ -134,6 +140,8 @@ void PrefAdvanced::getData(Preferences * pref) {
 
 	TEST_AND_SET(pref->rx_endoffile, endOfFileText());
 	TEST_AND_SET(pref->rx_novideo, noVideoText());
+
+	pref->use_short_pathnames = useShortNames();
 }
 
 void PrefAdvanced::setMonitorAspect(QString asp) {
@@ -165,6 +173,14 @@ void PrefAdvanced::setUseMplayerWindow(bool v) {
 
 bool PrefAdvanced::useMplayerWindow() {
 	return mplayer_use_window_check->isChecked();
+}
+
+void PrefAdvanced::setUseShortNames(bool b) {
+	shortnames_check->setChecked(b);
+}
+
+bool PrefAdvanced::useShortNames() {
+	return shortnames_check->isChecked();
 }
 
 void PrefAdvanced::setMplayerAdditionalArguments(QString args) {
@@ -286,13 +302,6 @@ QString PrefAdvanced::noVideoText() {
 void PrefAdvanced::createHelp() {
 	clearHelp();
 
-	// Advanced tab
-	setWhatsThis(not_clear_background_check, 
-        tr("Don't repaint the background of the video window"),
-		tr("Checking this option may reduce flickering, but it also might "
-           "produce that the video won't be displayed properly.") );
-
-	// Log tab
 	setWhatsThis(log_smplayer_check, tr("Log SMPlayer output"),
 		tr("If this option is checked, smplayer will store the debugging "
            "messages that smplayer outputs "
@@ -321,6 +330,19 @@ void PrefAdvanced::createHelp() {
            "be stored in the log. Here you can write any regular expression.<br>"
            "For instance: <i>^Core::.*</i> will display only the lines "
            "starting with <i>Core::</i>") );
+
+	setWhatsThis(not_clear_background_check, 
+        tr("Don't repaint the background of the video window"),
+		tr("Checking this option may reduce flickering, but it also might "
+           "produce that the video won't be displayed properly.") );
+
+#ifdef Q_OS_WIN
+	setWhatsThis(shortnames_check, tr("Pass short filenames (8+3) to MPlayer"),
+		tr("Currently MPlayer can't open filenames which contains characters "
+           "outside the local codepage. Checking this option will make "
+           "SMPlayer to pass to MPlayer the short version of the filenames, "
+           "and thus it will able to open them.") );
+#endif
 }
 
 #include "moc_prefadvanced.cpp"

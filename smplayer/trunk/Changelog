@@ -8,6 +8,8 @@
    to play, not with subtitles filenames or other filenames that smplayer 
    might pass to mplayer.
    To test: I don't know if this would break compatibility with Win98.
+ * (Windows) Added an option in Preferences->Advanced to enable easily the
+   option mentioned above.
  
 (2007-12-18)
  * Moved the letterbox option to the filters submenu and renamed to 
