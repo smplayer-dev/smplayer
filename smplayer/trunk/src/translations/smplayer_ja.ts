@@ -2147,17 +2147,17 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="340"/>
         <source>Pass short filenames (8+3) to MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer へ短いファイル名 (8+3) を渡す</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="344"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
-        <translation type="unfinished"></translation>
+        <translation>現在 MPlayer はローカル コードページ外の文字を含むファイル名を開くことができません。このオプションのチェックは SMPlayer にファイル名の短いバージョンを MPlayer へ渡させ、こうしてそれらを開くことができるようになります。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="267"/>
         <source>&amp;Pass short filenames (8+3) to MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer へ短いファイル名 (8+3) を渡す(&amp;P)</translation>
     </message>
 </context>
 <context>
