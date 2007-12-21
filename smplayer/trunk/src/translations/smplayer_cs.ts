@@ -1109,37 +1109,37 @@ Bude zobrazeno konfigurační okno.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1920"/>
+        <location filename="../core.cpp" line="1928"/>
         <source>Brightness: %1</source>
         <translation>Jas: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1929"/>
+        <location filename="../core.cpp" line="1937"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1937"/>
+        <location filename="../core.cpp" line="1945"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1945"/>
+        <location filename="../core.cpp" line="1953"/>
         <source>Hue: %1</source>
         <translation>Odstín: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1953"/>
+        <location filename="../core.cpp" line="1961"/>
         <source>Saturation: %1</source>
         <translation>Saturace: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2072"/>
+        <location filename="../core.cpp" line="2080"/>
         <source>Volume: %1</source>
         <translation>Hlasitost: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2624"/>
+        <location filename="../core.cpp" line="2632"/>
         <source>Zoom: %1</source>
         <translation>Přiblížení: %1</translation>
     </message>
@@ -1906,12 +1906,12 @@ Opravdu jej chcete přepsat?</translation>
 <context>
     <name>PrefAdvanced</name>
     <message>
-        <location filename="../prefadvanced.cpp" line="63"/>
+        <location filename="../prefadvanced.cpp" line="67"/>
         <source>Advanced</source>
         <translation>Rozšířené</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="76"/>
+        <location filename="../prefadvanced.cpp" line="80"/>
         <source>Auto</source>
         <translation>Automaticky</translation>
     </message>
@@ -1931,7 +1931,7 @@ Opravdu jej chcete přepsat?</translation>
         <translation type="obsolete">Další volby pro MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="296"/>
+        <location filename="../prefadvanced.ui" line="303"/>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
@@ -1940,7 +1940,7 @@ Oddělujte je mezerami.
 Příklad: -flip -nosound</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="358"/>
+        <location filename="../prefadvanced.ui" line="365"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
@@ -1949,14 +1949,14 @@ Oddělujte je čárkou, nepoužívejte mezery.
 Příklad: scale=512:-2;eq2=1.1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="420"/>
+        <location filename="../prefadvanced.ui" line="427"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
         <translation>A nakonec audio filtry. Stejná pravidla jako video filtry.
 Příklad: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="291"/>
+        <location filename="../prefadvanced.cpp" line="335"/>
         <source>Don&apos;t repaint the background of the video window</source>
         <translation>Nepřekreslovat pozadí okna s videem</translation>
     </message>
@@ -1966,12 +1966,12 @@ Příklad: resample=44100:0:0,volnorm</translation>
         <translation type="obsolete">&amp;Logy</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="303"/>
+        <location filename="../prefadvanced.cpp" line="312"/>
         <source>Log MPlayer output</source>
         <translation>Zaznamenávat výstup MPlayeru</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="296"/>
+        <location filename="../prefadvanced.cpp" line="305"/>
         <source>Log SMPlayer output</source>
         <translation>Zaznamenávat výstup SMPlayeru</translation>
     </message>
@@ -1981,39 +1981,39 @@ Příklad: resample=44100:0:0,volnorm</translation>
         <translation>Tato možnost je určena pro ladění aplikace.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="474"/>
+        <location filename="../prefadvanced.ui" line="481"/>
         <source>&amp;MPlayer language</source>
         <translation>Jazyk &amp;MPlayeru</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="486"/>
+        <location filename="../prefadvanced.ui" line="493"/>
         <source>SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br&gt;&lt;br&gt;
 The drop-down lists may provide already made regular expression for several languages.</source>
         <translation>SMPlayer potřebuje číst a zpracovávat výstup z MPlayeru a někdy (....). Pokuď používáte MPlayer přeložený do jiného jazyka, potom budete potřebovat změnit texty po kterých se SMPlayer dívá. (Technicky by si měl zadat standartní výraz)&lt;br&gt;&lt;br&gt;
 Vysouvací menu by mělo poskytnout standartní možnosti pro několik jazyků.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="293"/>
+        <location filename="../prefadvanced.cpp" line="337"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
         <translation>Zaškrtnutím této volby můžete zmenšit blikání, ale také se nemusí zobrazovat výstupní video správně.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="307"/>
+        <location filename="../prefadvanced.cpp" line="316"/>
         <source>If checked, smplayer will store the output of mplayer (you can see it in &lt;b&gt;Options-&gt;View logs-&gt;mplayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
         <translation>Pokud je zatrženo, SMPlayer bude ukládat hlášení MPlayeru (lze vidět v &lt;b&gt; Možnosti -&gt; Zobrazit logy -&gt; mplayer&lt;b&gt;). Vpřípadě problémů log obsahuje důležité informace, takže se doporučuje tuto možnost mít povolenou.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="301"/>
+        <location filename="../prefadvanced.cpp" line="310"/>
         <source>If this option is checked, smplayer will store the debugging messages that smplayer outputs (you can see the log in &lt;b&gt;Options-&gt;View logs-&gt;smplayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
         <translation>Pokud je zatrženo, SMPlayer bude ukládat zprávy SMPlayeru (lze vidět v &lt;b&gt; Možnosti -&gt; Zobrazit logy -&gt; smplayer&lt;b&gt;). Tyto informace jsou velice použitelné pro vývojáře k nalezení chyb.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="319"/>
+        <location filename="../prefadvanced.cpp" line="328"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Filtr pro logy SMPlayeru</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="323"/>
+        <location filename="../prefadvanced.cpp" line="332"/>
         <source>This option allows to filter the smplayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>Tato možnost povolí filtrování zpráv SMPlayeru které jsou ukládány do logu. Můžete zadat rugulární výraz. Například: &lt;i&gt;^Core::.*&lt;/i&gt; zobrazí pouze řádky začínající  &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
@@ -2028,17 +2028,17 @@ Vysouvací menu by mělo poskytnout standartní možnosti pro několik jazyků.<
         <translation>&amp;Spustit MPlayer v jeho vlastním okně</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="319"/>
+        <location filename="../prefadvanced.ui" line="326"/>
         <source>&amp;Options:</source>
         <translation>&amp;Možnosti:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="381"/>
+        <location filename="../prefadvanced.ui" line="388"/>
         <source>V&amp;ideo filters:</source>
         <translation>V&amp;ideo filtry:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="442"/>
+        <location filename="../prefadvanced.ui" line="449"/>
         <source>Audio &amp;filters:</source>
         <translation>Audio &amp;filtry:</translation>
     </message>
@@ -2068,12 +2068,12 @@ Vysouvací menu by mělo poskytnout standartní možnosti pro několik jazyků.<
         <translation>&amp;Filtr pro logy SMPlayeru:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="500"/>
+        <location filename="../prefadvanced.ui" line="507"/>
         <source>&amp;End of file:</source>
         <translation>Kon&amp;ec souboru:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="513"/>
+        <location filename="../prefadvanced.ui" line="520"/>
         <source>&amp;No video:</source>
         <translation>&amp;Bez videa:</translation>
     </message>
@@ -2083,22 +2083,22 @@ Vysouvací menu by mělo poskytnout standartní možnosti pro několik jazyků.<
         <translation>Z&amp;měnit...</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="309"/>
+        <location filename="../prefadvanced.cpp" line="318"/>
         <source>Autosave MPlayer log</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="313"/>
+        <location filename="../prefadvanced.cpp" line="322"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="315"/>
+        <location filename="../prefadvanced.cpp" line="324"/>
         <source>Autosave MPlayer log filename</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="317"/>
+        <location filename="../prefadvanced.cpp" line="326"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2118,45 +2118,60 @@ Vysouvací menu by mělo poskytnout standartní možnosti pro několik jazyků.<
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="284"/>
+        <location filename="../prefadvanced.ui" line="291"/>
         <source>Options for MP&amp;layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="340"/>
+        <source>Pass short filenames (8+3) to MPlayer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="344"/>
+        <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="267"/>
+        <source>&amp;Pass short filenames (8+3) to MPlayer</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>PrefAssociations</name>
     <message>
-        <location filename="../prefassociations.cpp" line="185"/>
+        <location filename="../prefassociations.cpp" line="184"/>
         <source>Warning</source>
         <translation>Varování</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="187"/>
+        <location filename="../prefassociations.cpp" line="186"/>
         <source>Not all files could be associated. Please check your security permissions and retry.</source>
         <translation>Všechny soubory nemohli být přiřazeny. Prosím ověřte Vaše přístupová práva a zkuste to znovu.</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="194"/>
+        <location filename="../prefassociations.cpp" line="193"/>
         <source>File Types</source>
         <translation>Typy souborů</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="211"/>
+        <location filename="../prefassociations.cpp" line="210"/>
         <source>Select all</source>
         <translation>Vybrat všechny</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="212"/>
+        <location filename="../prefassociations.cpp" line="211"/>
         <source>Check all file types in the list</source>
         <translation>Označit všechny soubory na seznamu</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="215"/>
+        <location filename="../prefassociations.cpp" line="214"/>
         <source>Uncheck all file types in the list</source>
         <translation>Odeber všechny soubory na seznamu</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="217"/>
+        <location filename="../prefassociations.cpp" line="216"/>
         <source>List of file types</source>
         <translation>Seznam typů souborů</translation>
     </message>
@@ -2181,17 +2196,17 @@ Vysouvací menu by mělo poskytnout standartní možnosti pro několik jazyků.<
         <translation>Nevybírat žádné</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="222"/>
+        <location filename="../prefassociations.cpp" line="221"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
         <translation>Zkontrolujte příponu multimediálního souboru, který chcete aby SMPlayer používal. Pokuď kliknete na Potvrdit, všechny označené soubory budou přiřazeny k SMPlayeru. Pokuď odškrtnete typ souboru, přiřazení bude obnoveno.</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="214"/>
+        <location filename="../prefassociations.cpp" line="213"/>
         <source>Select none</source>
         <translation>Nevybírat žádné</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="222"/>
+        <location filename="../prefassociations.cpp" line="221"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
         <translation type="unfinished"></translation>
     </message>

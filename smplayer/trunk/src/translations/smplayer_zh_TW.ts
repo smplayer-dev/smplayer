@@ -1186,37 +1186,37 @@ The single instance option has been disabled.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1920"/>
+        <location filename="../core.cpp" line="1928"/>
         <source>Brightness: %1</source>
         <translation>亮度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1929"/>
+        <location filename="../core.cpp" line="1937"/>
         <source>Contrast: %1</source>
         <translation>對比度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1937"/>
+        <location filename="../core.cpp" line="1945"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1945"/>
+        <location filename="../core.cpp" line="1953"/>
         <source>Hue: %1</source>
         <translation>色調: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1953"/>
+        <location filename="../core.cpp" line="1961"/>
         <source>Saturation: %1</source>
         <translation>飽和度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2072"/>
+        <location filename="../core.cpp" line="2080"/>
         <source>Volume: %1</source>
         <translation>音量: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2624"/>
+        <location filename="../core.cpp" line="2632"/>
         <source>Zoom: %1</source>
         <translation>縮放: %1</translation>
     </message>
@@ -2157,12 +2157,12 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefAdvanced</name>
     <message>
-        <location filename="../prefadvanced.cpp" line="63"/>
+        <location filename="../prefadvanced.cpp" line="67"/>
         <source>Advanced</source>
         <translation>進階</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="76"/>
+        <location filename="../prefadvanced.cpp" line="80"/>
         <source>Auto</source>
         <translation>自動</translation>
     </message>
@@ -2197,7 +2197,7 @@ Do you want to overwrite?</source>
         <translation type="obsolete">MPlayer 的額外選項</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="296"/>
+        <location filename="../prefadvanced.ui" line="303"/>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
@@ -2211,7 +2211,7 @@ Example: -flip -nosound</source>
         <translation type="obsolete">選項:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="358"/>
+        <location filename="../prefadvanced.ui" line="365"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
@@ -2225,7 +2225,7 @@ Example: scale=512:-2,eq2=1.1</source>
         <translation type="obsolete">視訊過濾器:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="420"/>
+        <location filename="../prefadvanced.ui" line="427"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
         <translation type="unfinished">音訊過濾器。規則和視訊過濾器一樣。
@@ -2247,7 +2247,7 @@ Example: resample=44100:0:0,volnorm</source>
         <translation type="obsolete">修改...</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="291"/>
+        <location filename="../prefadvanced.cpp" line="335"/>
         <source>Don&apos;t repaint the background of the video window</source>
         <translation type="unfinished">不重繪影像視窗的背景</translation>
     </message>
@@ -2257,12 +2257,12 @@ Example: resample=44100:0:0,volnorm</source>
         <translation type="obsolete">日誌(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="303"/>
+        <location filename="../prefadvanced.cpp" line="312"/>
         <source>Log MPlayer output</source>
         <translation>日誌 MPlayer 的輸出</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="296"/>
+        <location filename="../prefadvanced.cpp" line="305"/>
         <source>Log SMPlayer output</source>
         <translation>日誌 SMPlayer 的輸出</translation>
     </message>
@@ -2277,38 +2277,38 @@ Example: resample=44100:0:0,volnorm</source>
         <translation type="obsolete">過濾 SMPlayer 的日誌:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="474"/>
+        <location filename="../prefadvanced.ui" line="481"/>
         <source>&amp;MPlayer language</source>
         <translation>MPlayer 語言(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="486"/>
+        <location filename="../prefadvanced.ui" line="493"/>
         <source>SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br&gt;&lt;br&gt;
 The drop-down lists may provide already made regular expression for several languages.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="293"/>
+        <location filename="../prefadvanced.cpp" line="337"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
         <translation type="unfinished">選擇這個選項可以減少閃爍。但也可能造成視訊不能正常顯示。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="307"/>
+        <location filename="../prefadvanced.cpp" line="316"/>
         <source>If checked, smplayer will store the output of mplayer (you can see it in &lt;b&gt;Options-&gt;View logs-&gt;mplayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
         <translation type="unfinished">如果勾選，SMPlayer 將儲存 MPlayer 的輸出 (你可以在&lt;b&gt;選項-&gt;查看記錄-&gt;mplayer&lt;/b&gt;查看)。如果出現錯誤，此日誌可能包含重要資訊，所以推荐勾選。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="301"/>
+        <location filename="../prefadvanced.cpp" line="310"/>
         <source>If this option is checked, smplayer will store the debugging messages that smplayer outputs (you can see the log in &lt;b&gt;Options-&gt;View logs-&gt;smplayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
         <translation type="unfinished">如果勾選，SMPlayer 將儲存 SMPlayer 輸出的除錯訊息 (你可以在&lt;b&gt;選項-&gt;查看記錄-&gt;smplayer&lt;/b&gt;查看)。當你找到 bug 時，對於開發者將會是非常重要的資訊。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="319"/>
+        <location filename="../prefadvanced.cpp" line="328"/>
         <source>Filter for SMPlayer logs</source>
         <translation type="unfinished">SMPlayer 日誌過濾器</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="323"/>
+        <location filename="../prefadvanced.cpp" line="332"/>
         <source>This option allows to filter the smplayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation type="unfinished">這個選項允許過濾 SMPlayer 將要儲存的日誌。這裡您可以使用任何正則表達式。&lt;br&gt;示例:&lt;i&gt;^Core::..*&lt;/i&gt; 將只顯示以 &lt;i&gt;Core::&lt;/i&gt; 開頭的行</translation>
     </message>
@@ -2323,17 +2323,17 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished">於 MPlayer 的視窗執行(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="319"/>
+        <location filename="../prefadvanced.ui" line="326"/>
         <source>&amp;Options:</source>
         <translation>選項(&amp;O):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="381"/>
+        <location filename="../prefadvanced.ui" line="388"/>
         <source>V&amp;ideo filters:</source>
         <translation>視訊過濾器(&amp;I):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="442"/>
+        <location filename="../prefadvanced.ui" line="449"/>
         <source>Audio &amp;filters:</source>
         <translation>音訊過濾器(&amp;F):</translation>
     </message>
@@ -2363,12 +2363,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>SMPlayer 日誌過濾器(&amp;F):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="500"/>
+        <location filename="../prefadvanced.ui" line="507"/>
         <source>&amp;End of file:</source>
         <translation>檔案末端(&amp;E):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="513"/>
+        <location filename="../prefadvanced.ui" line="520"/>
         <source>&amp;No video:</source>
         <translation>無視訊(&amp;N):</translation>
     </message>
@@ -2388,27 +2388,27 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="284"/>
+        <location filename="../prefadvanced.ui" line="291"/>
         <source>Options for MP&amp;layer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="309"/>
+        <location filename="../prefadvanced.cpp" line="318"/>
         <source>Autosave MPlayer log</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="313"/>
+        <location filename="../prefadvanced.cpp" line="322"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="315"/>
+        <location filename="../prefadvanced.cpp" line="324"/>
         <source>Autosave MPlayer log filename</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="317"/>
+        <location filename="../prefadvanced.cpp" line="326"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2417,41 +2417,56 @@ The drop-down lists may provide already made regular expression for several lang
         <source>A&amp;utosave MPlayer log to file</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="340"/>
+        <source>Pass short filenames (8+3) to MPlayer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="344"/>
+        <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="267"/>
+        <source>&amp;Pass short filenames (8+3) to MPlayer</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>PrefAssociations</name>
     <message>
-        <location filename="../prefassociations.cpp" line="185"/>
+        <location filename="../prefassociations.cpp" line="184"/>
         <source>Warning</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="187"/>
+        <location filename="../prefassociations.cpp" line="186"/>
         <source>Not all files could be associated. Please check your security permissions and retry.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="194"/>
+        <location filename="../prefassociations.cpp" line="193"/>
         <source>File Types</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="211"/>
+        <location filename="../prefassociations.cpp" line="210"/>
         <source>Select all</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="212"/>
+        <location filename="../prefassociations.cpp" line="211"/>
         <source>Check all file types in the list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="215"/>
+        <location filename="../prefassociations.cpp" line="214"/>
         <source>Uncheck all file types in the list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="217"/>
+        <location filename="../prefassociations.cpp" line="216"/>
         <source>List of file types</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2476,17 +2491,17 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="222"/>
+        <location filename="../prefassociations.cpp" line="221"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="214"/>
+        <location filename="../prefassociations.cpp" line="213"/>
         <source>Select none</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="222"/>
+        <location filename="../prefassociations.cpp" line="221"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
         <translation type="unfinished"></translation>
     </message>
