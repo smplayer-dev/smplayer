@@ -222,7 +222,6 @@ public:
 #ifdef Q_OS_WIN
 	//bool enable_vcd_on_windows;
 	bool enable_audiocd_on_windows;
-	bool use_short_pathnames; //To workaround a bug in mplayer
 #endif
 
 	//! Close the main window when a file or playlist finish
@@ -266,6 +265,10 @@ public:
 
 	bool auto_add_to_playlist; //!< Add files to open to playlist
 	bool use_volume_option; //!< Use -volume in command line
+
+	//! Windows only. If true, smplayer will pass short filenames to mplayer.
+	//! To workaround a bug in mplayer.
+	bool use_short_pathnames; 
 
 	//! Latest version of mplayer parsed
 	int mplayer_version;
