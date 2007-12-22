@@ -119,6 +119,7 @@ AboutDialog::AboutDialog(QWidget * parent, Qt::WindowFlags f)
          trad(tr("Romanian"), "DoruH &lt;doruhushhush@hotmail.com&gt;") + 
          trad(tr("Portuguese - Portugal"), "Waxman &lt;waxman.pt@gmail.com&gt;") +
 	 trad(tr("Greek"), "my80s &lt;wamy80s@gmail.com&gt;") +
+	 trad(tr("Finnish"), "peeaivo &lt;peeaivo@gmail.com&gt;") +
          "</ul>" +
 		 tr("Logo designed by %1").arg("Charles Barcza &lt;kbarcza@blackpanther.hu&gt;") +
          "<br>"

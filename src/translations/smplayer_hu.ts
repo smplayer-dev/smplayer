@@ -78,12 +78,12 @@
         <translation>Csehszlovák</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="123"/>
+        <location filename="../aboutdialog.cpp" line="124"/>
         <source>Logo designed by %1</source>
         <translation>A logo és a jelenlegi dizájn %1 és a blackPanther Europe mukája (www.blackpanther.hu)</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="144"/>
+        <location filename="../aboutdialog.cpp" line="145"/>
         <source>Get updates at: %1</source>
         <translation>Frissítés beszerezhető innen : %1</translation>
     </message>
@@ -153,7 +153,7 @@
         <translation>%1 és %2</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="156"/>
+        <location filename="../aboutdialog.cpp" line="157"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
@@ -161,6 +161,11 @@
         <location filename="../aboutdialog.cpp" line="121"/>
         <source>Greek</source>
         <translation type="unfinished">Görög</translation>
+    </message>
+    <message>
+        <location filename="../aboutdialog.cpp" line="122"/>
+        <source>Finnish</source>
+        <translation type="unfinished">Finn</translation>
     </message>
 </context>
 <context>
@@ -1104,37 +1109,37 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1920"/>
+        <location filename="../core.cpp" line="1928"/>
         <source>Brightness: %1</source>
         <translation>Fényerő: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1929"/>
+        <location filename="../core.cpp" line="1937"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1937"/>
+        <location filename="../core.cpp" line="1945"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1945"/>
+        <location filename="../core.cpp" line="1953"/>
         <source>Hue: %1</source>
         <translation>Szinezés: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1953"/>
+        <location filename="../core.cpp" line="1961"/>
         <source>Saturation: %1</source>
         <translation>Telitettség: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2072"/>
+        <location filename="../core.cpp" line="2080"/>
         <source>Volume: %1</source>
         <translation>Hangerő: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2624"/>
+        <location filename="../core.cpp" line="2632"/>
         <source>Zoom: %1</source>
         <translation>Nagyítás: %1</translation>
     </message>

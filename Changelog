@@ -3,6 +3,7 @@
 (2007-12-22)
  * (Windows) Now idx/sub subtitles should work also when using short names.
    So I think this stuff is finished.
+ * Added the Finnish translation, sent by peeaivo <peeaivo@gmail.com>
 
 (2007-12-21)
  * (Windows) Now the short names are used too for subtitle files (except
