@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
-<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -79,12 +78,12 @@
         <translation>Cehă</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="123"/>
+        <location filename="../aboutdialog.cpp" line="124"/>
         <source>Logo designed by %1</source>
         <translation>Logo realizat de %1</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="144"/>
+        <location filename="../aboutdialog.cpp" line="145"/>
         <source>Get updates at: %1</source>
         <translation>Găsiţi actualizări la: %1</translation>
     </message>
@@ -166,7 +165,7 @@
         <translation type="obsolete">http://smplayer.sourceforge.net/ro/linux/download.php</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="156"/>
+        <location filename="../aboutdialog.cpp" line="157"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
@@ -174,6 +173,11 @@
         <location filename="../aboutdialog.cpp" line="121"/>
         <source>Greek</source>
         <translation>Greacă</translation>
+    </message>
+    <message>
+        <location filename="../aboutdialog.cpp" line="122"/>
+        <source>Finnish</source>
+        <translation type="unfinished">Finlandeză</translation>
     </message>
 </context>
 <context>
@@ -1121,37 +1125,37 @@ O fereastră de dialog va fi afişată pentru a putea face configurarea.</transl
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1920"/>
+        <location filename="../core.cpp" line="1928"/>
         <source>Brightness: %1</source>
         <translation>Luminozitate: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1929"/>
+        <location filename="../core.cpp" line="1937"/>
         <source>Contrast: %1</source>
         <translation>Contrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1937"/>
+        <location filename="../core.cpp" line="1945"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1945"/>
+        <location filename="../core.cpp" line="1953"/>
         <source>Hue: %1</source>
         <translation>Culoare: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1953"/>
+        <location filename="../core.cpp" line="1961"/>
         <source>Saturation: %1</source>
         <translation>Saturaţie: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2072"/>
+        <location filename="../core.cpp" line="2080"/>
         <source>Volume: %1</source>
         <translation>Volum: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2624"/>
+        <location filename="../core.cpp" line="2632"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
