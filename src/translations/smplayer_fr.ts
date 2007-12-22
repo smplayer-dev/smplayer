@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -1087,12 +1088,12 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="1013"/>
         <source>Add &amp;black borders</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajout de &amp;bordures noires</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1015"/>
         <source>Soft&amp;ware scaling</source>
-        <translation type="unfinished"></translation>
+        <translation>Bascule lo&amp;giciel</translation>
     </message>
 </context>
 <context>
@@ -3748,17 +3749,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="58"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Activé</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="59"/>
         <source>Skip (always)</source>
-        <translation type="unfinished"></translation>
+        <translation>Passer (toujours)</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="60"/>
         <source>Skip only on HD videos</source>
-        <translation type="unfinished"></translation>
+        <translation>Passer seulement sur les vidéos HD</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="165"/>
