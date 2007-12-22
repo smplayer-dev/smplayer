@@ -1,5 +1,9 @@
 [b]Version 0.5.63 (not released yet)[/b]:
 
+(2007-12-22)
+ * (Windows) Now idx/sub subtitles should work also when using short names.
+   So I think this stuff is finished.
+
 (2007-12-21)
  * (Windows) Now the short names are used too for subtitle files (except
    idx/sub) and external audio files.
