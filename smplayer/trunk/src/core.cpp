@@ -120,6 +120,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
              this, SLOT(streamTitleAndUrlChanged(QString,QString)) );
 
 	connect( this, SIGNAL(mediaLoaded()), this, SLOT(autosaveMplayerLog()) );
+	connect( this, SIGNAL(mediaLoaded()), this, SLOT(checkIfVideoIsHD()) );
 	
 	connect( this, SIGNAL(stateChanged(Core::State)), 
 	         this, SLOT(watchState(Core::State)) );
@@ -1058,6 +1059,7 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument("hwac3");
 	}
 
+	/*
 	if ( (pref->h264_skip_loop) ||
          (pref->h264_skip_frames) )
 	{
@@ -1071,6 +1073,15 @@ void Core::startMplayer( QString file, double seek ) {
 			o += "skipframe=nonref";
 		}
 		proc->addArgument(o);
+	}
+	*/
+
+	if ( (pref->h264_skip_loop_filter == Preferences::LoopDisabled) || 
+         ((pref->h264_skip_loop_filter == Preferences::LoopDisabledOnHD) && 
+          (mset.is264andHD)) )
+	{
+		proc->addArgument("-lavdopts");
+		proc->addArgument("skiploopfilter=all");
 	}
 
 	proc->addArgument("-sub-fuzziness");
@@ -2761,6 +2772,24 @@ void Core::watchState(Core::State state) {
 		qDebug("Core::watchState: delayed volume change");
 		tellmp("volume " + QString::number(mset.volume) + " 1");
 		change_volume_after_unpause = false;
+	}
+}
+
+void Core::checkIfVideoIsHD() {
+	qDebug("Core::checkIfVideoIsHD");
+
+	// Check if the video is in HD and uses ffh264 codec.
+	if ((mdat.video_codec=="ffh264") && (mset.win_width >= 1024)) {
+		qDebug("Core::checkIfVideoIsHD: video == ffh264 and width >= 1024");
+		if (!mset.is264andHD) {
+			mset.is264andHD = true;
+			if (pref->h264_skip_loop_filter == Preferences::LoopDisabledOnHD) {
+				qDebug("Core::checkIfVideoIsHD: we're about to restart the video");
+				restartPlay();
+			}
+		}
+	} else {
+		mset.is264andHD = false;
 	}
 }
 

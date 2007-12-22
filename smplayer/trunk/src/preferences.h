@@ -35,6 +35,7 @@ public:
 	enum WheelFunction { Seeking = 0, Volume = 1, Zoom = 2, DoNothing = 3,
                          ChangeSpeed = 4 };
 	enum OptionState { Detect = -1, Disabled = 0, Enabled = 1 };
+	enum H264LoopFilter { LoopDisabled = 0, LoopEnabled = 1, LoopDisabledOnHD = 2 };
 
 	Preferences();
 	virtual ~Preferences();
@@ -135,8 +136,7 @@ public:
 	bool autosync;
 	int autosync_factor;
 
-	bool h264_skip_loop;
-	bool h264_skip_frames;
+	H264LoopFilter h264_skip_loop_filter;
 
 	// SMPlayer will remember all media settings for all videos.
 	// This options allow to disable it:

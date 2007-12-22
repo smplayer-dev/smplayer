@@ -32,10 +32,7 @@ PrefPerformance::PrefPerformance(QWidget * parent, Qt::WindowFlags f)
 	priority_group->hide();
 #endif
 
-	// This option is not good. Playing is awful, even with no H.264 videos.
-	skip_frames_check->hide();
-
-	createHelp();
+	retranslateStrings();
 }
 
 PrefPerformance::~PrefPerformance()
@@ -53,10 +50,17 @@ QPixmap PrefPerformance::sectionIcon() {
 
 void PrefPerformance::retranslateStrings() {
 	int priority = priority_combo->currentIndex();
+	int loop_filter = loopfilter_combo->currentIndex();
 
 	retranslateUi(this);
 
+	loopfilter_combo->clear();
+	loopfilter_combo->addItem( tr("Enabled"), Preferences::LoopEnabled );
+	loopfilter_combo->addItem( tr("Skip (always)"), Preferences::LoopDisabled );
+	loopfilter_combo->addItem( tr("Skip only on HD videos"), Preferences::LoopDisabledOnHD );
+
 	priority_combo->setCurrentIndex(priority);
+	loopfilter_combo->setCurrentIndex(loop_filter);
 
 	createHelp();
 }
@@ -69,8 +73,7 @@ void PrefPerformance::setData(Preferences * pref) {
 	setPriority( pref->priority );
 	setFrameDrop( pref->frame_drop );
 	setHardFrameDrop( pref->hard_frame_drop );
-	setSkipLoop( pref->h264_skip_loop );
-	/* setSkipFrames( pref->h264_skip_frames ); */
+	setSkipLoop( pref->h264_skip_loop_filter );
 	setAutoSyncActivated( pref->autosync );
 	setAutoSyncFactor( pref->autosync_factor );
 	setFastChapterSeeking( pref->fast_chapter_change );
@@ -88,8 +91,7 @@ void PrefPerformance::getData(Preferences * pref) {
 	TEST_AND_SET(pref->priority, priority());
 	TEST_AND_SET(pref->frame_drop, frameDrop());
 	TEST_AND_SET(pref->hard_frame_drop, hardFrameDrop());
-	TEST_AND_SET(pref->h264_skip_loop, skipLoop());
-	/* TEST_AND_SET(pref->h264_skip_frames, skipFrames()); */
+	TEST_AND_SET(pref->h264_skip_loop_filter, skipLoop());
 	TEST_AND_SET(pref->autosync, autoSyncActivated());
 	TEST_AND_SET(pref->autosync_factor, autoSyncFactor());
 	TEST_AND_SET(pref->fast_chapter_change, fastChapterSeeking());
@@ -146,20 +148,12 @@ bool PrefPerformance::hardFrameDrop() {
 	return hardframedrop_check->isChecked();
 }
 
-void PrefPerformance::setSkipLoop(bool b) {
-	skip_loop_filter_check->setChecked(b);
+void PrefPerformance::setSkipLoop(Preferences::H264LoopFilter value) {
+	loopfilter_combo->setCurrentIndex(loopfilter_combo->findData(value));
 }
 
-bool PrefPerformance::skipLoop() {
-	return skip_loop_filter_check->isChecked();
-}
-
-void PrefPerformance::setSkipFrames(bool b) {
-	skip_frames_check->setChecked(b);
-}
-
-bool PrefPerformance::skipFrames() {
-	return skip_frames_check->isChecked();
+Preferences::H264LoopFilter PrefPerformance::skipLoop() {
+	return (Preferences::H264LoopFilter) loopfilter_combo->itemData(loopfilter_combo->currentIndex()).toInt();
 }
 
 void PrefPerformance::setAutoSyncFactor(int factor) {
@@ -220,19 +214,13 @@ void PrefPerformance::createHelp() {
 		tr("More intense frame dropping (breaks decoding). "
            "Leads to image distortion!") );
 
-	setWhatsThis(skip_loop_filter_check, tr("Skip loop filter"),
+	setWhatsThis(loopfilter_combo, tr("Skip loop filter"),
 		tr("Skips the loop filter (AKA deblocking) during H.264 decoding. "
            "Since the filtered frame is supposed to be used as reference "
            "for decoding dependent frames this has a worse effect on quality "
            "than not doing deblocking on e.g. MPEG-2 video. But at least for "
            "high bitrate HDTV this provides a big speedup with no visible "
            "quality loss.") );
-
-	/*
-	setWhatsThis(skip_frames_check, tr("Skip frames"),
-		tr("Skips decoding of frames completely. Big speedup, but jerky "
-           "motion and sometimes bad artifacts.") );
-	*/
 
 	setWhatsThis(autosync_check, tr("Audio/video auto synchronization"),
 		tr("Gradually adjusts the A/V sync based on audio delay "
