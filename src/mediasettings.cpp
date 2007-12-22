@@ -88,6 +88,8 @@ void MediaSettings::reset() {
 
 	flip = false;
 
+	is264andHD = false;
+
 	forced_demuxer="";
     forced_video_codec="";
     forced_audio_codec="";
@@ -181,6 +183,7 @@ void MediaSettings::list() {
 	qDebug("  win_aspect(): %f", win_aspect()); 
 
 	qDebug("  starting_time: %f", starting_time);
+	qDebug("  is264andHD: %d", is264andHD);
 }
 
 void MediaSettings::save(QSettings * set) {
@@ -259,6 +262,8 @@ void MediaSettings::save(QSettings * set) {
 	set->setValue( "win_height", win_height );
 
 	set->setValue( "starting_time", starting_time );
+
+	set->setValue( "is264andHD", is264andHD );
 
 	/*set->endGroup();*/
 }
@@ -339,6 +344,8 @@ void MediaSettings::load(QSettings * set) {
 	win_height = set->value( "win_height", win_height ).toInt();
 
 	starting_time = set->value( "starting_time", starting_time ).toDouble();
+
+	is264andHD = set->value( "is264andHD", is264andHD ).toBool();
 
 	/*set->endGroup();*/
 

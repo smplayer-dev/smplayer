@@ -4,6 +4,13 @@
  * (Windows) Now the short names are used too for subtitle files (except
    idx/sub) and external audio files.
  * Added a manpage for smplayer, created by Matvey Kozhev <sikon@lucidfox.org>
+ * (By user request) The skip loop filter in Preferences->Advanced has changed.
+   Now it's called "loop filter" and the possible values are:
+   "Enabled", "Skip (always)" and "Skip only on HD videos". If the last option
+   is selected, the loop filter will be skipped if the codec for the video is
+   "ffh264" and the width of the video is 1024 or greater (this value is
+   subject to change, possibly in the future it could be configured by the 
+   user).
 
 (2007-12-20)
  * (Windows) Added a new option for the config file: use_short_pathnames.

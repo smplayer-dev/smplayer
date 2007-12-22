@@ -62,11 +62,8 @@ protected:
 	void setHardFrameDrop(bool b);
 	bool hardFrameDrop();
 
-	void setSkipLoop(bool b);
-	bool skipLoop();
-
-	void setSkipFrames(bool b);
-	bool skipFrames();
+	void setSkipLoop(Preferences::H264LoopFilter value);
+	Preferences::H264LoopFilter skipLoop();
 
 	void setAutoSyncFactor(int factor);
 	int autoSyncFactor();

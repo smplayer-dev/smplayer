@@ -133,8 +133,7 @@ void Preferences::reset() {
 	autosync = FALSE;
 	autosync_factor = 100;
 
-	h264_skip_loop = false;
-	h264_skip_frames = false;
+	h264_skip_loop_filter = LoopEnabled;
 
 	dont_remember_media_settings = FALSE;
 	dont_remember_time_pos = FALSE;
@@ -338,8 +337,7 @@ void Preferences::save() {
 	set->setValue("autosync", autosync);
 	set->setValue("autosync_factor", autosync_factor);
 
-	set->setValue("h264_skip_loop", h264_skip_loop);
-	set->setValue("h264_skip_frames", h264_skip_frames);
+	set->setValue("h264_skip_loop_filter", h264_skip_loop_filter);
 
 	set->setValue("dont_remember_media_settings", dont_remember_media_settings);
 	set->setValue("dont_remember_time_pos", dont_remember_time_pos);
@@ -544,8 +542,7 @@ void Preferences::load() {
 	autosync = set->value("autosync", autosync).toBool();
 	autosync_factor = set->value("autosync_factor", autosync_factor).toInt();
 
-	h264_skip_loop = set->value("h264_skip_loop", h264_skip_loop).toBool();
-	h264_skip_frames = set->value("h264_skip_frames", h264_skip_frames).toBool();
+	h264_skip_loop_filter = (H264LoopFilter) set->value("h264_skip_loop_filter", h264_skip_loop_filter).toInt();
 
 	dont_remember_media_settings = set->value("dont_remember_media_settings", dont_remember_media_settings).toBool();
 	dont_remember_time_pos = set->value("dont_remember_time_pos", dont_remember_time_pos).toBool();

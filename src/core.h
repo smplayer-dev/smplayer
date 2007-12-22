@@ -235,6 +235,11 @@ protected slots:
 	
 	void watchState(Core::State state);
 
+	//! Called when a video has just started to play.
+	//! This function checks if the codec of video is ffh264 and if
+	//! the resolution is HD
+	void checkIfVideoIsHD();
+
 protected:
 	void playNewFile(QString file, int seek=-1);
 	void restartPlay();
