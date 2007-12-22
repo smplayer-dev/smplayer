@@ -1014,20 +1014,6 @@ void Core::startMplayer( QString file, double seek ) {
         mplayer_bin = fi.absoluteFilePath();
 	}
 
-/*
-#ifdef Q_OS_WIN
-	// Windows 98 and ME: call another program as intermediate
-	if ( (QSysInfo::WindowsVersion == QSysInfo::WV_98) ||
-         (QSysInfo::WindowsVersion == QSysInfo::WV_Me) ) 
-	{
-		QString intermediate_bin = Helper::mplayer_intermediate(mplayer_bin);
-		if (!intermediate_bin.isEmpty()) {
-			proc->addArgument( intermediate_bin );
-		}
-	}
-#endif
-*/
-
 	proc->addArgument( mplayer_bin );
 
 	/*
