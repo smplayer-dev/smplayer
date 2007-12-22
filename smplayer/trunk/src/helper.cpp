@@ -353,12 +353,14 @@ bool Helper::directoryContainsDVD(QString directory) {
 	return valid;
 }
 
+#if COLOR_OUTPUT_SUPPORT
 QString Helper::stripColorsTags(QString s) {
     QRegExp rx_console_colors("\033\\[\\d\\d?;\\d\\d?m");
     int removePos = rx_console_colors.lastIndexIn(s);
     removePos += rx_console_colors.matchedLength();
     return s.remove(0, removePos);
 }
+#endif
 
 /*
 #ifdef Q_OS_WIN

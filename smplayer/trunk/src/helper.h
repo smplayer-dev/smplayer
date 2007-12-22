@@ -27,6 +27,10 @@
 #include "config.h"
 #endif
 
+#ifndef Q_OS_WIN
+#define COLOR_OUTPUT_SUPPORT 1
+#endif
+
 class QWidget;
 class QColor;
 
@@ -108,7 +112,9 @@ public:
      ** \param s The string to strip colors and tags from
      ** \return Returns a clean string (no colors, no tags)
      */
+#if COLOR_OUTPUT_SUPPORT
     static QString stripColorsTags(QString s);
+#endif
 
 /*
 #ifdef Q_OS_WIN
