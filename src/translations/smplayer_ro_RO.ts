@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -3719,22 +3720,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="58"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Activat</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="59"/>
         <source>Skip (always)</source>
-        <translation type="unfinished"></translation>
+        <translation>Omitere (întotdeauna)</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="60"/>
         <source>Skip only on HD videos</source>
-        <translation type="unfinished"></translation>
+        <translation>Omitere doar pentru video HD</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="165"/>
         <source>Loop &amp;filter</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Filtru buclă</translation>
     </message>
 </context>
 <context>
