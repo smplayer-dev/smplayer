@@ -77,9 +77,9 @@ install: src/smplayer
 	install -m 644 icons/smplayer_icon16.png $(DESTDIR)$(KDE_ICONS)/16x16/apps/smplayer.png
 	-install -d $(DESTDIR)$(KDE_APPLNK)
 	install -m 644 smplayer.desktop $(DESTDIR)$(KDE_APPLNK)
-	-install -d $(DESTIR)$(PREFIX)/share/man/man1/
-	install -m 644 man/smplayer.1 $(DESTIR)$(PREFIX)/share/man/man1/
-	gzip -9 $(DESTIR)$(PREFIX)/share/man/man1/smplayer.1
+	-install -d $(DESTDIR)$(PREFIX)/share/man/man1/
+	install -m 644 man/smplayer.1 $(DESTDIR)$(PREFIX)/share/man/man1/
+	gzip -9 $(DESTDIR)$(PREFIX)/share/man/man1/smplayer.1
 
 uninstall:
 	-rm $(PREFIX)/bin/smplayer
