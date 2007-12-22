@@ -53,87 +53,87 @@
         <translation>Rusça</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="102"/>
+        <location filename="../aboutdialog.cpp" line="104"/>
         <source>Hungarian</source>
         <translation>Macarca</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="103"/>
+        <location filename="../aboutdialog.cpp" line="105"/>
         <source>Polish</source>
         <translation>Lehçe</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="106"/>
+        <location filename="../aboutdialog.cpp" line="108"/>
         <source>Japanese</source>
         <translation>Japonca</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="107"/>
+        <location filename="../aboutdialog.cpp" line="109"/>
         <source>Dutch</source>
         <translation>Felemenkçe</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="108"/>
+        <location filename="../aboutdialog.cpp" line="110"/>
         <source>Ukrainian</source>
         <translation>Ukraynaca</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="110"/>
+        <location filename="../aboutdialog.cpp" line="112"/>
         <source>Georgian</source>
         <translation>Gürcüce</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="111"/>
+        <location filename="../aboutdialog.cpp" line="113"/>
         <source>Czech</source>
         <translation>Çekçe</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="112"/>
+        <location filename="../aboutdialog.cpp" line="114"/>
         <source>Bulgarian</source>
         <translation>Bulgarca</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="121"/>
+        <location filename="../aboutdialog.cpp" line="123"/>
         <source>Logo designed by %1</source>
         <translation>Logo %1 tarafından tasarlanmıştır</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="142"/>
+        <location filename="../aboutdialog.cpp" line="144"/>
         <source>Get updates at: %1</source>
         <translation>Güncellemeleri edinin: %1</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="113"/>
+        <location filename="../aboutdialog.cpp" line="115"/>
         <source>Turkish</source>
         <translation>Türkçe</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="114"/>
+        <location filename="../aboutdialog.cpp" line="116"/>
         <source>Swedish</source>
         <translation>İsveççe</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="115"/>
+        <location filename="../aboutdialog.cpp" line="117"/>
         <source>Serbian</source>
         <translation>Sırpça</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="116"/>
+        <location filename="../aboutdialog.cpp" line="118"/>
         <source>Traditional Chinese</source>
         <translation>Geleneksel Çince</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="117"/>
+        <location filename="../aboutdialog.cpp" line="119"/>
         <source>Romanian</source>
         <translation>Romence</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="109"/>
+        <location filename="../aboutdialog.cpp" line="111"/>
         <source>Portuguese - Brazil</source>
         <translation>Brezilya Portegizcesi</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="118"/>
+        <location filename="../aboutdialog.cpp" line="120"/>
         <source>Portuguese - Portugal</source>
         <translation>Portekiz Portegizcesi</translation>
     </message>
@@ -148,17 +148,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="104"/>
+        <location filename="../aboutdialog.cpp" line="106"/>
         <source>%1 and %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="154"/>
+        <location filename="../aboutdialog.cpp" line="156"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="119"/>
+        <location filename="../aboutdialog.cpp" line="121"/>
         <source>Greek</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1114,37 +1114,37 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1928"/>
+        <location filename="../core.cpp" line="1934"/>
         <source>Brightness: %1</source>
         <translation>Parlaklık: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1937"/>
+        <location filename="../core.cpp" line="1943"/>
         <source>Contrast: %1</source>
         <translation>Zıtlık: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1945"/>
+        <location filename="../core.cpp" line="1951"/>
         <source>Gamma: %1</source>
         <translation>Gama: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1953"/>
+        <location filename="../core.cpp" line="1959"/>
         <source>Hue: %1</source>
         <translation>Renk tonu: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1961"/>
+        <location filename="../core.cpp" line="1967"/>
         <source>Saturation: %1</source>
         <translation>Doygunluk: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2080"/>
+        <location filename="../core.cpp" line="2086"/>
         <source>Volume: %1</source>
         <translation>Ses: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2632"/>
+        <location filename="../core.cpp" line="2638"/>
         <source>Zoom: %1</source>
         <translation>Yakınlık: %1</translation>
     </message>
@@ -3372,7 +3372,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="46"/>
+        <location filename="../prefperformance.cpp" line="43"/>
         <source>Performance</source>
         <translation type="unfinished">Başarım</translation>
     </message>
@@ -3382,7 +3382,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">Öncelik</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="213"/>
+        <location filename="../prefperformance.cpp" line="207"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation type="unfinished">Windows&apos;da öntanımlı önceliklere göre Mplayer için geçerli olacak işlem önceliğini seçin.
 &lt;br&gt;&lt;b&gt;Uyarı:&lt;b&gt; Gerçek zamanlı öncelik sisteminizin kitlenmesine yol açabilir.</translation>
@@ -3403,32 +3403,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Bu seçenek bir dosya veya URL önbelleğe atılırken ne kadar bellek (kByte) kullanılacağını belirler. Özellikle yavaş çalışan ortamlar için seçilmelidir.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="216"/>
+        <location filename="../prefperformance.cpp" line="210"/>
         <source>Allow frame drop</source>
         <translation type="unfinished">Frame drop&apos;a izin ver</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="217"/>
+        <location filename="../prefperformance.cpp" line="211"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation type="unfinished">Yavaş sistemlerde ses/görüntü uyumunu sağlamak için bazı kareleri atla.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="219"/>
+        <location filename="../prefperformance.cpp" line="213"/>
         <source>Allow hard frame drop</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="221"/>
+        <location filename="../prefperformance.cpp" line="215"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation type="unfinished">Daha yoğun kare es geçme. Görüntünün bozulmasına yol açar!</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="237"/>
+        <location filename="../prefperformance.cpp" line="225"/>
         <source>Audio/video auto synchronization</source>
         <translation type="unfinished">Otomatik ses/görüntü uyumu</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="239"/>
+        <location filename="../prefperformance.cpp" line="227"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation type="unfinished">Ses gecikmesi hesaplamalarına dayanarak, ses/görüntü uyumunu aşama aşama gerçekleştir.</translation>
     </message>
@@ -3483,7 +3483,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Boyut:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="445"/>
+        <location filename="../prefperformance.ui" line="457"/>
         <source>KB</source>
         <translation type="unfinished">KB</translation>
     </message>
@@ -3493,7 +3493,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Ön belleği kullan</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="389"/>
+        <location filename="../prefperformance.ui" line="401"/>
         <source>Setting a cache may improve performance on slow media</source>
         <translation type="unfinished">Ön belleği kullanmak başarımı arttırabilir</translation>
     </message>
@@ -3503,7 +3503,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Hard frame drop&apos;a izin ver (görüntünün bozulmasına yol açabilir)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="182"/>
+        <location filename="../prefperformance.ui" line="194"/>
         <source>Synchronization</source>
         <translation type="unfinished">Uyum</translation>
     </message>
@@ -3513,12 +3513,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Çarpan:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="241"/>
+        <location filename="../prefperformance.cpp" line="229"/>
         <source>Fast audio track switching</source>
         <translation type="unfinished">Ses izini hızlı değiştirebilme</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="250"/>
+        <location filename="../prefperformance.cpp" line="238"/>
         <source>Fast seek to chapters in dvds</source>
         <translation type="unfinished">DVD bölümlerini hızlı gezinebilme</translation>
     </message>
@@ -3538,47 +3538,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="194"/>
+        <location filename="../prefperformance.ui" line="206"/>
         <source>Audio/&amp;video auto synchronization</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="228"/>
+        <location filename="../prefperformance.ui" line="240"/>
         <source>Fact&amp;or:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="270"/>
+        <location filename="../prefperformance.ui" line="282"/>
         <source>&amp;Fast audio track switching</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="298"/>
+        <location filename="../prefperformance.ui" line="310"/>
         <source>Fast &amp;seek to chapters in dvds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="254"/>
+        <location filename="../prefperformance.cpp" line="242"/>
         <source>Create index if needed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="259"/>
+        <location filename="../prefperformance.cpp" line="247"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="252"/>
+        <location filename="../prefperformance.cpp" line="240"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="223"/>
+        <location filename="../prefperformance.cpp" line="217"/>
         <source>Skip loop filter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="229"/>
+        <location filename="../prefperformance.cpp" line="223"/>
         <source>Skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3588,73 +3588,83 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="165"/>
-        <source>S&amp;kip loop filter</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.ui" line="172"/>
-        <source>Sk&amp;ip frames</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="248"/>
+        <location filename="../prefperformance.cpp" line="236"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="261"/>
+        <location filename="../prefperformance.cpp" line="249"/>
         <source>Cache for files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="263"/>
+        <location filename="../prefperformance.cpp" line="251"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="265"/>
+        <location filename="../prefperformance.cpp" line="253"/>
         <source>Cache for streams</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="267"/>
+        <location filename="../prefperformance.cpp" line="255"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="269"/>
+        <location filename="../prefperformance.cpp" line="257"/>
         <source>Cache for DVDs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="272"/>
+        <location filename="../prefperformance.cpp" line="260"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="312"/>
+        <location filename="../prefperformance.ui" line="324"/>
         <source>C&amp;reate index if needed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="333"/>
+        <location filename="../prefperformance.ui" line="345"/>
         <source>&amp;Cache</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="379"/>
+        <location filename="../prefperformance.ui" line="391"/>
         <source>Cache for &amp;DVDs:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="399"/>
+        <location filename="../prefperformance.ui" line="411"/>
         <source>Cache for &amp;local files:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="409"/>
+        <location filename="../prefperformance.ui" line="421"/>
         <source>Cache for &amp;streams:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="58"/>
+        <source>Enabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="59"/>
+        <source>Skip (always)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="60"/>
+        <source>Skip only on HD videos</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="165"/>
+        <source>Loop &amp;filter</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
