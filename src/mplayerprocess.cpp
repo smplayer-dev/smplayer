@@ -135,7 +135,11 @@ void MplayerProcess::parseLine(QByteArray ba) {
 	QString tag;
 	QString value;
 
+#if COLOR_OUTPUT_SUPPORT
     QString line = Helper::stripColorsTags(QString::fromLocal8Bit(ba));
+#else
+	QString line = QString::fromLocal8Bit(ba);
+#endif
 
 	// Parse A: V: line
 	//qDebug("%s", line.toUtf8().data());
