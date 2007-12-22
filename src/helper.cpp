@@ -362,31 +362,3 @@ QString Helper::stripColorsTags(QString s) {
 }
 #endif
 
-/*
-#ifdef Q_OS_WIN
-QString Helper::mplayer_intermediate(QString mplayer_bin) {
-	// Windows 98 and ME: call another program as intermediate
-
-	QString intermediate = "w9xpopen.exe";
-
-	QFileInfo fi(mplayer_bin);
-    if (fi.exists()) {
-        mplayer_bin = fi.absoluteFilePath();
-	}
-
-	QString mplayer_path = QFileInfo(mplayer_bin).absolutePath();
-	qDebug("Helper::mplayer_intermediate: mplayer_path: %s", mplayer_path.toUtf8().data());
-	QString intermediate_bin = mplayer_path + "/" + intermediate;
-	qDebug("Helper::mplayer_intermediate: intermediate_bin: %s", intermediate_bin.toUtf8().data());
-
-	if (QFile::exists(intermediate_bin)) {
-		return intermediate_bin;
-	} else {
-		qDebug("Helper::mplayer_intermediate: intermediate_bin doesn't exist");
-	}
-
-	return "";
-}
-#endif
-*/
-

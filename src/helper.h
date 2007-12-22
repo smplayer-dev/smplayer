@@ -116,12 +116,6 @@ public:
     static QString stripColorsTags(QString s);
 #endif
 
-/*
-#ifdef Q_OS_WIN
-	static QString mplayer_intermediate(QString mplayer_bin);
-#endif
-*/
-
 private:
 	static QString logs;
 	static QString app_path;
