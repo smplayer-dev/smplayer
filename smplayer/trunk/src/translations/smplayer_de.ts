@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -3754,22 +3755,22 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="58"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Eingeschaltet</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="59"/>
         <source>Skip (always)</source>
-        <translation type="unfinished"></translation>
+        <translation>Überspringen (immer)</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="60"/>
         <source>Skip only on HD videos</source>
-        <translation type="unfinished"></translation>
+        <translation>Überspringen nur bei HD Videos</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="165"/>
         <source>Loop &amp;filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Loop &amp;Filter</translation>
     </message>
 </context>
 <context>
