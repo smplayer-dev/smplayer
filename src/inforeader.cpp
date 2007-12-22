@@ -124,7 +124,7 @@ static QRegExp rx_codec("^([A-Z,a-z,0-9]+)\\s+([A-Z,a-z,0-9]+)\\s+([A-Z,a-z,0-9]
 
 void InfoReader::readLine(QByteArray ba) {
     QString line = Helper::stripColorsTags(QString::fromLocal8Bit(ba));
-	qDebug("InfoReader::readLine: line: '%s'", line.data());
+	qDebug("InfoReader::readLine: line: '%s'", line.toUtf8().data());
 	//qDebug("waiting_for_key: %d", waiting_for_key);
 
 	if (!waiting_for_key) {
