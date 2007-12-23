@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -48,42 +49,42 @@
         <translation>Русский</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="104"/>
+        <location filename="../aboutdialog.cpp" line="102"/>
         <source>Hungarian</source>
         <translation>Венгерский</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="108"/>
+        <location filename="../aboutdialog.cpp" line="106"/>
         <source>Japanese</source>
         <translation>Японский</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="109"/>
+        <location filename="../aboutdialog.cpp" line="107"/>
         <source>Dutch</source>
         <translation>Немецкий</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="110"/>
+        <location filename="../aboutdialog.cpp" line="108"/>
         <source>Ukrainian</source>
         <translation>Украинский</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="112"/>
+        <location filename="../aboutdialog.cpp" line="110"/>
         <source>Georgian</source>
         <translation>Грузинский</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="113"/>
+        <location filename="../aboutdialog.cpp" line="111"/>
         <source>Czech</source>
         <translation>Чешский</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="124"/>
+        <location filename="../aboutdialog.cpp" line="121"/>
         <source>Logo designed by %1</source>
         <translation>Дизайн логотипа: %1</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="145"/>
+        <location filename="../aboutdialog.cpp" line="142"/>
         <source>Get updates at: %1</source>
         <translation>Получить обновления на: %1</translation>
     </message>
@@ -93,47 +94,47 @@
         <translation>О SMPlayer</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="105"/>
+        <location filename="../aboutdialog.cpp" line="103"/>
         <source>Polish</source>
         <translation>Польский</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="114"/>
+        <location filename="../aboutdialog.cpp" line="112"/>
         <source>Bulgarian</source>
         <translation>Болгарский</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="115"/>
+        <location filename="../aboutdialog.cpp" line="113"/>
         <source>Turkish</source>
         <translation>Тюркская</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="116"/>
+        <location filename="../aboutdialog.cpp" line="114"/>
         <source>Swedish</source>
         <translation>Шведский</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="117"/>
+        <location filename="../aboutdialog.cpp" line="115"/>
         <source>Serbian</source>
         <translation>Сербский</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="118"/>
+        <location filename="../aboutdialog.cpp" line="116"/>
         <source>Traditional Chinese</source>
         <translation>Китайский традиционный</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="119"/>
+        <location filename="../aboutdialog.cpp" line="117"/>
         <source>Romanian</source>
         <translation>Румынский</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="111"/>
+        <location filename="../aboutdialog.cpp" line="109"/>
         <source>Portuguese - Brazil</source>
         <translation>Португальский - Бразилия</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="120"/>
+        <location filename="../aboutdialog.cpp" line="118"/>
         <source>Portuguese - Portugal</source>
         <translation>Португальский - Португалия</translation>
     </message>
@@ -148,7 +149,7 @@
         <translation>%1, %2 и %3</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="106"/>
+        <location filename="../aboutdialog.cpp" line="104"/>
         <source>%1 and %2</source>
         <translation>%1 и %2</translation>
     </message>
@@ -165,19 +166,14 @@
         <translation type="obsolete">http://smplayer.sourceforge.net/ru/linux/download.php</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="157"/>
+        <location filename="../aboutdialog.cpp" line="154"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="121"/>
+        <location filename="../aboutdialog.cpp" line="119"/>
         <source>Greek</source>
         <translation>Греческий</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="122"/>
-        <source>Finnish</source>
-        <translation type="unfinished">Финский</translation>
     </message>
 </context>
 <context>
@@ -1081,37 +1077,37 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1928"/>
+        <location filename="../core.cpp" line="1920"/>
         <source>Brightness: %1</source>
         <translation>Яркость: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1937"/>
+        <location filename="../core.cpp" line="1929"/>
         <source>Contrast: %1</source>
         <translation>Контрастность: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1945"/>
+        <location filename="../core.cpp" line="1937"/>
         <source>Gamma: %1</source>
         <translation>Гамма: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1953"/>
+        <location filename="../core.cpp" line="1945"/>
         <source>Hue: %1</source>
         <translation>Цвет: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1961"/>
+        <location filename="../core.cpp" line="1953"/>
         <source>Saturation: %1</source>
         <translation>Насыщенность: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2080"/>
+        <location filename="../core.cpp" line="2072"/>
         <source>Volume: %1</source>
         <translation>Громкость: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2632"/>
+        <location filename="../core.cpp" line="2624"/>
         <source>Zoom: %1</source>
         <translation>Зум: %1</translation>
     </message>
@@ -1873,12 +1869,12 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefAdvanced</name>
     <message>
-        <location filename="../prefadvanced.cpp" line="67"/>
+        <location filename="../prefadvanced.cpp" line="63"/>
         <source>Advanced</source>
         <translation>Дополнительно</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="80"/>
+        <location filename="../prefadvanced.cpp" line="76"/>
         <source>Auto</source>
         <translation>Авто</translation>
     </message>
@@ -1903,7 +1899,7 @@ Do you want to overwrite?</source>
         <translation type="obsolete">Дополнительные параметры MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="303"/>
+        <location filename="../prefadvanced.ui" line="296"/>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
@@ -1912,7 +1908,7 @@ Example: -flip -nosound</source>
 Например: -flip -nosound</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="365"/>
+        <location filename="../prefadvanced.ui" line="358"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
@@ -1921,14 +1917,14 @@ Example: scale=512:-2,eq2=1.1</source>
 Пример: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="427"/>
+        <location filename="../prefadvanced.ui" line="420"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
         <translation>Фильтры звука. Используются аналогично фильтрам видео.
 Пример: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="335"/>
+        <location filename="../prefadvanced.cpp" line="291"/>
         <source>Don&apos;t repaint the background of the video window</source>
         <translation>Не перерисовывать фон области воспроизведения</translation>
     </message>
@@ -1938,12 +1934,12 @@ Example: resample=44100:0:0,volnorm</source>
         <translation type="obsolete">От&amp;четы</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="312"/>
+        <location filename="../prefadvanced.cpp" line="303"/>
         <source>Log MPlayer output</source>
         <translation>Отчёт вывода MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="305"/>
+        <location filename="../prefadvanced.cpp" line="296"/>
         <source>Log SMPlayer output</source>
         <translation>Отчёт вывода SMPlayer</translation>
     </message>
@@ -1953,38 +1949,38 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>Эти настройки в основном необходимы для отладки приложения.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="481"/>
+        <location filename="../prefadvanced.ui" line="474"/>
         <source>&amp;MPlayer language</source>
         <translation>&amp;Язык MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="493"/>
+        <location filename="../prefadvanced.ui" line="486"/>
         <source>SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br&gt;&lt;br&gt;
 The drop-down lists may provide already made regular expression for several languages.</source>
         <translation>SMPlayer-у необходимо получать и обрабатывать вывод MPlayer, который иногда содержит английский текст. Если вы используете MPlayer, переведенный на другой язык, то вам необходимо указать какой текст в переведенной версии соответствует оригиналу (для этого вы должны записать соответствующие регулярные выражения).&lt;br&gt;Приведенный ниже список уже содержит регулярные для некоторых языков.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="337"/>
+        <location filename="../prefadvanced.cpp" line="293"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
         <translation>Использование этого параметра может убрать моргание изображения, однако возможно, что видео при этом будет отображаться неверно.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="316"/>
+        <location filename="../prefadvanced.cpp" line="307"/>
         <source>If checked, smplayer will store the output of mplayer (you can see it in &lt;b&gt;Options-&gt;View logs-&gt;mplayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
         <translation>Если выбранно, то smplayer будет сохранять сообщения mplayer (вы можете просмотреть их в &lt;b&gt;Настройки-&gt;Смотреть отчёты-&gt;mplayer&lt;/b&gt;). Отчеты могут содержать важную информацию о возникших проблемах.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="310"/>
+        <location filename="../prefadvanced.cpp" line="301"/>
         <source>If this option is checked, smplayer will store the debugging messages that smplayer outputs (you can see the log in &lt;b&gt;Options-&gt;View logs-&gt;smplayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
         <translation>Если выбранно, smplayer сохраняет сообщения программы (их можно просмотреть в &lt;b&gt;Настройки-&gt;Смотреть отчёты-&gt;smplayer&lt;/b&gt;). Эта информация может быть очень полезна разработчику в случае, если будет найдена ошибка.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="328"/>
+        <location filename="../prefadvanced.cpp" line="319"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Фильтр для отчётов SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="332"/>
+        <location filename="../prefadvanced.cpp" line="323"/>
         <source>This option allows to filter the smplayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>Эта опция позволяет фильтровать сообщения сохраняемые в отчёте с помощью регулярных выражений.&lt;br&gt;Например: &lt;i&gt;^Core::.*&lt;/i&gt; – будут отображаться только строки с &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
@@ -1999,17 +1995,17 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>&amp;Запускать MPlayer в отдельном окне</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="326"/>
+        <location filename="../prefadvanced.ui" line="319"/>
         <source>&amp;Options:</source>
         <translation>&amp;Настройки:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="388"/>
+        <location filename="../prefadvanced.ui" line="381"/>
         <source>V&amp;ideo filters:</source>
         <translation>&amp;Видео фильтры:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="449"/>
+        <location filename="../prefadvanced.ui" line="442"/>
         <source>Audio &amp;filters:</source>
         <translation>Аудио &amp;фильтры:</translation>
     </message>
@@ -2039,12 +2035,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>&amp;Фильтры отчётов SMPlayer:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="507"/>
+        <location filename="../prefadvanced.ui" line="500"/>
         <source>&amp;End of file:</source>
         <translation>Коне&amp;ц файла:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="520"/>
+        <location filename="../prefadvanced.ui" line="513"/>
         <source>&amp;No video:</source>
         <translation>&amp;Нет видео:</translation>
     </message>
@@ -2064,27 +2060,27 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Отчёт в&amp;ывода MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="291"/>
+        <location filename="../prefadvanced.ui" line="284"/>
         <source>Options for MP&amp;layer</source>
         <translation>Настройки MP&amp;layer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="318"/>
+        <location filename="../prefadvanced.cpp" line="309"/>
         <source>Autosave MPlayer log</source>
         <translation>Автосохраниение отчёта MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="322"/>
+        <location filename="../prefadvanced.cpp" line="313"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
         <translation>Если отмечено, отчёт MPlayer будет сохранён в специальный файл каждый раз, когда начнётся воспроизведение нового файла. Это может требоваться для внешних приложений, которые получают информацию о воспроизводимом файле.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="324"/>
+        <location filename="../prefadvanced.cpp" line="315"/>
         <source>Autosave MPlayer log filename</source>
         <translation>Автосохраниение имени файла отчёта MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="326"/>
+        <location filename="../prefadvanced.cpp" line="317"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
         <translation>Введите путь и имя файла, используемого для сохранения отчёта MPlayer.</translation>
     </message>
@@ -2093,56 +2089,41 @@ The drop-down lists may provide already made regular expression for several lang
         <source>A&amp;utosave MPlayer log to file</source>
         <translation>Авто&amp;сохраниение отчёта MPlayer в файл</translation>
     </message>
-    <message>
-        <location filename="../prefadvanced.cpp" line="340"/>
-        <source>Pass short filenames (8+3) to MPlayer</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.cpp" line="344"/>
-        <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.ui" line="267"/>
-        <source>&amp;Pass short filenames (8+3) to MPlayer</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>PrefAssociations</name>
     <message>
-        <location filename="../prefassociations.cpp" line="184"/>
+        <location filename="../prefassociations.cpp" line="185"/>
         <source>Warning</source>
         <translation>Внимание</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="186"/>
+        <location filename="../prefassociations.cpp" line="187"/>
         <source>Not all files could be associated. Please check your security permissions and retry.</source>
         <translation>Не все файлы могут быть ассоциированы. Проверье свои права и попытайтесь снова.</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="193"/>
+        <location filename="../prefassociations.cpp" line="194"/>
         <source>File Types</source>
         <translation>Типы файлов</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="210"/>
+        <location filename="../prefassociations.cpp" line="211"/>
         <source>Select all</source>
         <translation>Выбрать все</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="211"/>
+        <location filename="../prefassociations.cpp" line="212"/>
         <source>Check all file types in the list</source>
         <translation>Выбраь все типы файлов в списке</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="214"/>
+        <location filename="../prefassociations.cpp" line="215"/>
         <source>Uncheck all file types in the list</source>
         <translation>Ничего не выбирать в списке</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="216"/>
+        <location filename="../prefassociations.cpp" line="217"/>
         <source>List of file types</source>
         <translation>Список типов файлов</translation>
     </message>
@@ -2167,17 +2148,17 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Ничего не выбирать</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="221"/>
+        <location filename="../prefassociations.cpp" line="222"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
         <translation>Отметьте типы файлов, которые хотите связать с SMPlayer. После нажатия Применить, отмеченные типы файлов будут ассоциированы с SMPlayer. Если убрать отметку, файловая ассоциация будет восстановлена.</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="213"/>
+        <location filename="../prefassociations.cpp" line="214"/>
         <source>Select none</source>
         <translation>Ничего не выбирать</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="221"/>
+        <location filename="../prefassociations.cpp" line="222"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
         <translation>(sp)&lt;b&gt;Примечание:&lt;/b&gt; (Восстановление ассоциаций не работает в Windows Vista).</translation>
     </message>
@@ -3253,7 +3234,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="44"/>
+        <location filename="../prefperformance.cpp" line="46"/>
         <source>Performance</source>
         <translation>Производительность</translation>
     </message>
@@ -3308,32 +3289,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Кэш</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="457"/>
+        <location filename="../prefperformance.ui" line="445"/>
         <source>KB</source>
         <translation>Кб</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="401"/>
+        <location filename="../prefperformance.ui" line="389"/>
         <source>Setting a cache may improve performance on slow media</source>
         <translation>Установки кэша могут улучшить или ухудшить быстродействие</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="211"/>
+        <location filename="../prefperformance.cpp" line="216"/>
         <source>Allow frame drop</source>
         <translation>Допускать выпадение кадров</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="194"/>
+        <location filename="../prefperformance.ui" line="182"/>
         <source>Synchronization</source>
         <translation>Синхронизация</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="234"/>
+        <location filename="../prefperformance.cpp" line="237"/>
         <source>Audio/video auto synchronization</source>
         <translation>Автосинхронизация звука/видео</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="208"/>
+        <location filename="../prefperformance.cpp" line="213"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Утсновите приоритет mplayer как стандартный для Windows..&lt;br&gt;&lt;b&gt;ОСТОРОЖНО:&lt;/b&gt; Использование приоритета реального времени может заблокировать систему.</translation>
     </message>
@@ -3348,22 +3329,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Изменить размер буфера (в килобайтах). Особенно полезно для требовательных к ресурсам компьютера фильмов.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="212"/>
+        <location filename="../prefperformance.cpp" line="217"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Пропускать кадры для поддержки аудио/видео синхронизации.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="214"/>
+        <location filename="../prefperformance.cpp" line="219"/>
         <source>Allow hard frame drop</source>
         <translation>Допускать жесткое выпадение кадров</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="216"/>
+        <location filename="../prefperformance.cpp" line="221"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>Более жесткое пропускание кадров (рваное воспроизведение). Приводит к искажению картинки!</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="236"/>
+        <location filename="../prefperformance.cpp" line="239"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>Плавная аудио/видео синхронизация, основанная на изменении длины звуковой дорожки.</translation>
     </message>
@@ -3393,32 +3374,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Допускать &amp;жесткое выпадение кадров (изображение может исказиться)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="206"/>
+        <location filename="../prefperformance.ui" line="194"/>
         <source>Audio/&amp;video auto synchronization</source>
         <translation>Автоматическая син&amp;хронизация изображения и звука</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="240"/>
+        <location filename="../prefperformance.ui" line="228"/>
         <source>Fact&amp;or:</source>
         <translation>По&amp;казатель:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="282"/>
+        <location filename="../prefperformance.ui" line="270"/>
         <source>&amp;Fast audio track switching</source>
         <translation>&amp;Быстрое переключение звуковых дорожек</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="310"/>
+        <location filename="../prefperformance.ui" line="298"/>
         <source>Fast &amp;seek to chapters in dvds</source>
         <translation>Быстрый &amp;поиск по главам на DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="251"/>
+        <location filename="../prefperformance.cpp" line="254"/>
         <source>Create index if needed</source>
         <translation>Создать индекс, если необходимо</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="256"/>
+        <location filename="../prefperformance.cpp" line="259"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
         <translation>Перестраивает индекс в файлах, в которых индекс не найден, позволяя перематывать их. Полезно для недогруженных/неполных  или плохо созданных файлов. Опция работает  только если мультимедиа поддерживает перемотку (т.е. не с stdin, pipe, и др). Примечание: создание индекса может занять некоторое время.</translation>
     </message>
@@ -3428,29 +3409,29 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">&amp;Создать индекс, если необходимо</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="238"/>
+        <location filename="../prefperformance.cpp" line="241"/>
         <source>Fast audio track switching</source>
         <translation>Быстрое переключение звуковых дорожек</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="247"/>
+        <location filename="../prefperformance.cpp" line="250"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Быстрый поиск по главам на DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="249"/>
+        <location filename="../prefperformance.cpp" line="252"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Если отмечено, SMPlayer попытается использовать быстрейший метод для поиска по главам, но это может не работать с некоторыми дисками.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="218"/>
+        <location filename="../prefperformance.cpp" line="223"/>
         <source>Skip loop filter</source>
         <translation>Пропустить петелевой фильтр</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="223"/>
+        <location filename="../prefperformance.cpp" line="229"/>
         <source>Skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation type="obsolete">Пропускает фильр loop (он же debloking) во время декодирования H.264. Поскольку фильтрованный кадр предполагается использовать в качестве ссылки для декодирования зависимых кадров, то качество, например, у MPEG-2, будет хуже, чем если бы deblocking не производился вообще. Но, как минимум, для HDTV с высоким битрейтом это даёт значительный прирост производительности без видимой потери качества.</translation>
+        <translation>Пропускает фильр loop (он же debloking) во время декодирования H.264. Поскольку фильтрованный кадр предполагается использовать в качестве ссылки для декодирования зависимых кадров, то качество, например, у MPEG-2, будет хуже, чем если бы deblocking не производился вообще. Но, как минимум, для HDTV с высоким битрейтом это даёт значительный прирост производительности без видимой потери качества.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="153"/>
@@ -3460,117 +3441,72 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="165"/>
         <source>S&amp;kip loop filter</source>
-        <translation type="obsolete">Пропустить &amp;петелевой фильтр</translation>
+        <translation>Пропустить &amp;петелевой фильтр</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="172"/>
         <source>Sk&amp;ip frames</source>
-        <translation type="obsolete">Проп&amp;уск кадров</translation>
+        <translation>Проп&amp;уск кадров</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="245"/>
+        <location filename="../prefperformance.cpp" line="248"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>Возможные значения: &lt;br&gt; &lt;b&gt;Да&lt;/b&gt;: будет использован наиболее быстрый метод переключения  аудио дорожек (может не работать с некоторыми форматами).&lt;br&gt; &lt;b&gt;Нет&lt;/b&gt;: процесс MPlayer будет перезапущен при изменении звуковой дорожки.&lt;br&gt; &lt;b&gt;Авто&lt;/b&gt;: SMPlayer решит самостоятельно, основываясь на версии MPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="258"/>
+        <location filename="../prefperformance.cpp" line="261"/>
         <source>Cache for files</source>
         <translation>Кэширование файлов</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="260"/>
+        <location filename="../prefperformance.cpp" line="263"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>Эта опция определяет количество памяти (в кБайтах), используетмых для предварительного кэширования файлов.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="262"/>
+        <location filename="../prefperformance.cpp" line="265"/>
         <source>Cache for streams</source>
         <translation>Кэширование потоков</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="264"/>
+        <location filename="../prefperformance.cpp" line="267"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>Эта опция определяет количество памяти (в кБайтах), используетмых для предварительного кэширования URL.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="266"/>
+        <location filename="../prefperformance.cpp" line="269"/>
         <source>Cache for DVDs</source>
         <translation>Кэшировать DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="269"/>
+        <location filename="../prefperformance.cpp" line="272"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>Эта опция определяет количество памяти (в кБайтах), используетмых для предварительного кэширования DVD.&lt;br&gt;&lt;b&gt;Внимание:&lt;/b&gt; Перемотка может работать неправильно (в том числе и обзор глав) при использовании кэширования DVD.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="324"/>
+        <location filename="../prefperformance.ui" line="312"/>
         <source>C&amp;reate index if needed</source>
         <translation>Создать &amp;индекс, если необходимо</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="345"/>
+        <location filename="../prefperformance.ui" line="333"/>
         <source>&amp;Cache</source>
         <translation>&amp;Кэш</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="391"/>
+        <location filename="../prefperformance.ui" line="379"/>
         <source>Cache for &amp;DVDs:</source>
         <translation>Кэш &amp;DVD:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="411"/>
+        <location filename="../prefperformance.ui" line="399"/>
         <source>Cache for &amp;local files:</source>
         <translation>Кэш локальных &amp;файлов:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="421"/>
+        <location filename="../prefperformance.ui" line="409"/>
         <source>Cache for &amp;streams:</source>
         <translation>Кэш &amp;потоков:</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="59"/>
-        <source>Enabled</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="60"/>
-        <source>Skip (always)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="61"/>
-        <source>Skip only on HD videos</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.ui" line="165"/>
-        <source>Loop &amp;filter</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="225"/>
-        <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="226"/>
-        <source>Possible values:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="227"/>
-        <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="229"/>
-        <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="232"/>
-        <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
