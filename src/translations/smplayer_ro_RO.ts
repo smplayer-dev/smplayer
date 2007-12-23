@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -177,7 +178,7 @@
     <message>
         <location filename="../aboutdialog.cpp" line="122"/>
         <source>Finnish</source>
-        <translation type="unfinished">Finlandeză</translation>
+        <translation>Finlandeză</translation>
     </message>
 </context>
 <context>
@@ -3744,27 +3745,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="225"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation type="unfinished"></translation>
+        <translation>Această opţiune permite omiterea filtrului buclă (cunoscut şi sub numele deblocking) în timpul decodării H.264. Deoarece cadrele filtrate cu acest filtru se presupune că sunt luate ca referinţă pentru decodarea cadrelor dependente, eliminarea filtrului are un efect de înrăutăţire a calităţii, faţă de cazul în care nu se foloseşte deblocking de exemplu pentru fişiere video de tip MPEG-2. Dar cel puţin pentru fişierele video de tip HDTV această procedură oferă o îmbunătăţire vizibilă a vitezei fără pierderi de calitate vizibile.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="226"/>
         <source>Possible values:</source>
-        <translation type="unfinished"></translation>
+        <translation>Valori posibile:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="227"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Activat&lt;/b&gt;: filtrul buclă nu se omite</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="229"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Omitere (întotdeauna)&lt;/b&gt;: filtrul buclă este omis indiferent de rezoluţia fişierului video</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="232"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Omitere doar pentru video HD&lt;/b&gt;: filtrul buclă se va omite doar pentru fişierele video definiţie este %1 sau mai mare.</translation>
     </message>
 </context>
 <context>
