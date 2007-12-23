@@ -3419,7 +3419,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="43"/>
+        <location filename="../prefperformance.cpp" line="44"/>
         <source>Performance</source>
         <translation>パフォーマンス</translation>
     </message>
@@ -3429,7 +3429,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>優先度</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="207"/>
+        <location filename="../prefperformance.cpp" line="208"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Windows 下で利用可能な所定の優先度に従って mplayer のプロセス優先度を設定します。&lt;br&gt;&lt;b&gt;警告:&lt;/b&gt; リアルタイム優先度の使用はシステム ロックアップを引き起こすことがあります。</translation>
     </message>
@@ -3449,32 +3449,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">このオプションはファイルまたは URL をプリキャッチしたときにメモリ (k バイト) をどのくらい使用するかを指定します。特に遅いメディアにおいて有用です。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="210"/>
+        <location filename="../prefperformance.cpp" line="211"/>
         <source>Allow frame drop</source>
         <translation>フレーム ドロップを許可する</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="211"/>
+        <location filename="../prefperformance.cpp" line="212"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>いくつかのフレームの表示をスキップして遅いシステムでの A/V 同期を維持させます。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="213"/>
+        <location filename="../prefperformance.cpp" line="214"/>
         <source>Allow hard frame drop</source>
         <translation>ハード フレーム ドロップを許可する</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="215"/>
+        <location filename="../prefperformance.cpp" line="216"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>より強烈なフレーム ドロップです (デコードが破損します)。イメージの歪曲の原因となります!</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="225"/>
+        <location filename="../prefperformance.cpp" line="234"/>
         <source>Audio/video auto synchronization</source>
         <translation>オーディオ/ビデオの自動同期化</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="227"/>
+        <location filename="../prefperformance.cpp" line="236"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>徐々にオーディオの遅延測定を基準にして A/V 同期を調整します。</translation>
     </message>
@@ -3564,12 +3564,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">要因:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="229"/>
+        <location filename="../prefperformance.cpp" line="238"/>
         <source>Fast audio track switching</source>
         <translation>オーディオ トラックの高速切り替え</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="238"/>
+        <location filename="../prefperformance.cpp" line="247"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Dvd のチャプタを高速シークする</translation>
     </message>
@@ -3619,12 +3619,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Dvd のチャプタを高速シークする(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="242"/>
+        <location filename="../prefperformance.cpp" line="251"/>
         <source>Create index if needed</source>
         <translation>必要ならインデックスを作成する</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="247"/>
+        <location filename="../prefperformance.cpp" line="256"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
         <translation>インデックスが見つからなかった場合はファイルのインデックスを再構築し、シークを許可します。破損した/未完了のダウンロード、または不良に作成されたファイルに有用です。このオプションは基礎となるメディアがシークをサポートする場合のみ動作します (すなわち stdin、pipe、などを持たないもの)。&lt;br&gt; 注意: インデックスの作成には時間がかかる可能性があります。</translation>
     </message>
@@ -3639,19 +3639,19 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">チェックされている場合、オーディオ トラックを切り替えるのに最速の方法を試行しますがいくつかのフォーマットでは動作しない可能性があります。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="240"/>
+        <location filename="../prefperformance.cpp" line="249"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>チェックされている場合、チャプタをシークするのに最速の方法を試行しますがいくつかのディスクでは動作しない可能性があります。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="217"/>
+        <location filename="../prefperformance.cpp" line="218"/>
         <source>Skip loop filter</source>
         <translation>ループ フィルタをスキップする</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="223"/>
         <source>Skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation>H.264 デコードの間にループ フィルタ (AKA デコード) をスキップします。フィルタ済みのフレームは依存性フレームのデコードの参照として使用されこれは MPEG-2 ビデオなどでブロック解除しないより品質での効果が悪いです。しかし少なくとも高ビットレート HDTV にこれは可視の品質低下なしでの大きな加速化を提供します。</translation>
+        <translation type="obsolete">H.264 デコードの間にループ フィルタ (AKA デコード) をスキップします。フィルタ済みのフレームは依存性フレームのデコードの参照として使用されこれは MPEG-2 ビデオなどでブロック解除しないより品質での効果が悪いです。しかし少なくとも高ビットレート HDTV にこれは可視の品質低下なしでの大きな加速化を提供します。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="225"/>
@@ -3679,37 +3679,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">フレームをスキップする(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="236"/>
+        <location filename="../prefperformance.cpp" line="245"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>可能な値:&lt;br&gt; &lt;b&gt;はい&lt;/b&gt;: オーディオ トラックの切り替えに最速の方法を試行します (いくつかのフォーマットでは動作しない可能性があります).&lt;br&gt; &lt;b&gt;いいえ&lt;/b&gt;: MPlayer プロセスはオーディオ トラックの切り替え時にいつも再起動されます。&lt;br&gt; &lt;b&gt;自動&lt;/b&gt;: SMPlayer は MPlayer バージョンによってどうするかを決定します。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="249"/>
+        <location filename="../prefperformance.cpp" line="258"/>
         <source>Cache for files</source>
         <translation>ファイルをキャッシュする</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="251"/>
+        <location filename="../prefperformance.cpp" line="260"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>このオプションはどのくらいのメモリ (k バイト) をファイルのプリキャッシュ時に使用するかを指定します。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="253"/>
+        <location filename="../prefperformance.cpp" line="262"/>
         <source>Cache for streams</source>
         <translation>ストリームをキャッシュする</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="255"/>
+        <location filename="../prefperformance.cpp" line="264"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>このオプションはどのくらいのメモリ (k バイト) を URL のプリキャッシュ時に使用するかを指定します。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="257"/>
+        <location filename="../prefperformance.cpp" line="266"/>
         <source>Cache for DVDs</source>
         <translation>DVD をキャッシュする</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="260"/>
+        <location filename="../prefperformance.cpp" line="269"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>このオプションはどのくらいのメモリ (k バイト) を DVD のプリキャッシュ時に使用するかを指定します。&lt;br&gt;&lt;b&gt;警告:&lt;/b&gt; シークは DVD のキャッシュの使用時に適切に動作しない可能性があります。</translation>
     </message>
@@ -3739,23 +3739,48 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ストリームをキャッシュする&amp;S):</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="58"/>
+        <location filename="../prefperformance.cpp" line="59"/>
         <source>Enabled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="59"/>
+        <location filename="../prefperformance.cpp" line="60"/>
         <source>Skip (always)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="60"/>
+        <location filename="../prefperformance.cpp" line="61"/>
         <source>Skip only on HD videos</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="165"/>
         <source>Loop &amp;filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="225"/>
+        <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="226"/>
+        <source>Possible values:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="227"/>
+        <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="229"/>
+        <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="232"/>
+        <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

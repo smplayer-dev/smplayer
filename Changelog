@@ -4,6 +4,10 @@
  * (Windows) Now idx/sub subtitles should work also when using short names.
    So I think this stuff is finished.
  * Added the Finnish translation, sent by peeaivo <peeaivo@gmail.com>
+ * For the option to skip the loop filter on HD videos: now a video is
+   considered HD if its height (not width!) is equal or greater than 
+   the value specified in the HD_height option in smplayer.ini (720 by default).
+ * Updated the help for the loop filter option in Preferences->Performance.
 
 (2007-12-21)
  * (Windows) Now the short names are used too for subtitle files (except

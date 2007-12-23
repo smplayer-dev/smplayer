@@ -2773,8 +2773,8 @@ void Core::checkIfVideoIsHD() {
 	qDebug("Core::checkIfVideoIsHD");
 
 	// Check if the video is in HD and uses ffh264 codec.
-	if ((mdat.video_codec=="ffh264") && (mset.win_width >= 1024)) {
-		qDebug("Core::checkIfVideoIsHD: video == ffh264 and width >= 1024");
+	if ((mdat.video_codec=="ffh264") && (mset.win_height >= pref->HD_height)) {
+		qDebug("Core::checkIfVideoIsHD: video == ffh264 and height >= %d", pref->HD_height);
 		if (!mset.is264andHD) {
 			mset.is264andHD = true;
 			if (pref->h264_skip_loop_filter == Preferences::LoopDisabledOnHD) {
@@ -2784,6 +2784,8 @@ void Core::checkIfVideoIsHD() {
 		}
 	} else {
 		mset.is264andHD = false;
+		// FIXME: if the video was previously marked as HD, and now it's not
+		// then the video should restart too.
 	}
 }
 
