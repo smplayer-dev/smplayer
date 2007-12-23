@@ -3387,7 +3387,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="43"/>
+        <location filename="../prefperformance.cpp" line="44"/>
         <source>Performance</source>
         <translation>首选项</translation>
     </message>
@@ -3467,7 +3467,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>设置缓存可以改进播放性能</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="210"/>
+        <location filename="../prefperformance.cpp" line="211"/>
         <source>Allow frame drop</source>
         <translation>允许丢帧</translation>
     </message>
@@ -3482,7 +3482,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>同步</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="225"/>
+        <location filename="../prefperformance.cpp" line="234"/>
         <source>Audio/video auto synchronization</source>
         <translation>音频/视频 自动同步</translation>
     </message>
@@ -3492,17 +3492,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">因子:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="229"/>
+        <location filename="../prefperformance.cpp" line="238"/>
         <source>Fast audio track switching</source>
         <translation type="unfinished">快速音轨选择</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="238"/>
+        <location filename="../prefperformance.cpp" line="247"/>
         <source>Fast seek to chapters in dvds</source>
         <translation type="unfinished">在 DVD 里快速定位章节</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="207"/>
+        <location filename="../prefperformance.cpp" line="208"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>为 MPlayer 设置优先级 (根据 Windows 下的命名习惯)。&lt;br&gt;&lt;b&gt;警告:&lt;/b&gt; 使用实时会将您的系统锁死。</translation>
     </message>
@@ -3517,22 +3517,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">这里指定用于读取文件或 URL 的内存大小(KB)。对于 Slow Media 特别有用。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="211"/>
+        <location filename="../prefperformance.cpp" line="212"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>在较慢的系统上, 跳了一些帧来保证 A/V 同步。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="213"/>
+        <location filename="../prefperformance.cpp" line="214"/>
         <source>Allow hard frame drop</source>
         <translation>允许强制丢帧</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="215"/>
+        <location filename="../prefperformance.cpp" line="216"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>大量帧被跳过(解码错误)。将导致画面变形!</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="227"/>
+        <location filename="../prefperformance.cpp" line="236"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>根据音频延时来调整 A/V 同步。</translation>
     </message>
@@ -3582,12 +3582,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>在 DVD 里快速定位章节(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="242"/>
+        <location filename="../prefperformance.cpp" line="251"/>
         <source>Create index if needed</source>
         <translation>需要时建立索引</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="247"/>
+        <location filename="../prefperformance.cpp" line="256"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
         <translation>当找不到索引时，就重建媒体的索引使得定位功能生效。对播放那些破损或不完整的下载或创建失败的文件十分有用。这个选项只在背后的媒体支持定义时才有效(例如对标准输入和管道等无效)。&lt;br&gt;注意: 重建索引可能需要一定的时间。</translation>
     </message>
@@ -3597,18 +3597,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">需要时建立索引(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="240"/>
+        <location filename="../prefperformance.cpp" line="249"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="217"/>
+        <location filename="../prefperformance.cpp" line="218"/>
         <source>Skip loop filter</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="223"/>
-        <source>Skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3617,37 +3612,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="236"/>
+        <location filename="../prefperformance.cpp" line="245"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="249"/>
+        <location filename="../prefperformance.cpp" line="258"/>
         <source>Cache for files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="251"/>
+        <location filename="../prefperformance.cpp" line="260"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="253"/>
+        <location filename="../prefperformance.cpp" line="262"/>
         <source>Cache for streams</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="255"/>
+        <location filename="../prefperformance.cpp" line="264"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="257"/>
+        <location filename="../prefperformance.cpp" line="266"/>
         <source>Cache for DVDs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="260"/>
+        <location filename="../prefperformance.cpp" line="269"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3677,23 +3672,48 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="58"/>
+        <location filename="../prefperformance.cpp" line="59"/>
         <source>Enabled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="59"/>
+        <location filename="../prefperformance.cpp" line="60"/>
         <source>Skip (always)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="60"/>
+        <location filename="../prefperformance.cpp" line="61"/>
         <source>Skip only on HD videos</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="165"/>
         <source>Loop &amp;filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="225"/>
+        <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="226"/>
+        <source>Possible values:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="227"/>
+        <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="229"/>
+        <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="232"/>
+        <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

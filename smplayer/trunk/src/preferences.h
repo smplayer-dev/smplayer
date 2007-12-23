@@ -137,6 +137,8 @@ public:
 	int autosync_factor;
 
 	H264LoopFilter h264_skip_loop_filter;
+	//! An HD is a video which height is equal or greater than this.
+	int HD_height; 
 
 	// SMPlayer will remember all media settings for all videos.
 	// This options allow to disable it:

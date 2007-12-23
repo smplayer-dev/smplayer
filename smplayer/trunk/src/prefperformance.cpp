@@ -19,6 +19,7 @@
 
 #include "prefperformance.h"
 #include "images.h"
+#include "global.h"
 #include "preferences.h"
 
 
@@ -215,12 +216,20 @@ void PrefPerformance::createHelp() {
            "Leads to image distortion!") );
 
 	setWhatsThis(loopfilter_combo, tr("Skip loop filter"),
-		tr("Skips the loop filter (AKA deblocking) during H.264 decoding. "
+		tr("This option allows to skips the loop filter (AKA deblocking) "
+           "during H.264 decoding. "
            "Since the filtered frame is supposed to be used as reference "
            "for decoding dependent frames this has a worse effect on quality "
            "than not doing deblocking on e.g. MPEG-2 video. But at least for "
            "high bitrate HDTV this provides a big speedup with no visible "
-           "quality loss.") );
+           "quality loss.") +"<br>"+
+           tr("Possible values:") +"<ul><li>" +
+           tr("<b>Enabled</b>: the loop filter is not skipped")+"</li><li>"+
+           tr("<b>Skip (always)</b>: the loop filter is skipped no matter the "
+           "resolution of the video")+"</li><li>"+
+           tr("<b>Skip only on HD videos</b>: the loop filter will be "
+           "skipped only on videos which height is %1 or "
+           "greater.").arg(pref->HD_height) +"</li></ul>" );
 
 	setWhatsThis(autosync_check, tr("Audio/video auto synchronization"),
 		tr("Gradually adjusts the A/V sync based on audio delay "
