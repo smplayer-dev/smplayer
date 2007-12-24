@@ -25,6 +25,17 @@
 #include <QFileInfoList>
 #include <QDir>
 
+#ifdef Q_OS_WIN
+#include <windows.h>
+
+bool isCDDevice(QString drive) {
+	unsigned int r =  GetDriveTypeW((LPCWSTR) drive.utf16());
+	qDebug("isCDDevice: '%s' r: %d", drive.toUtf8().data(), r);
+	return (r == DRIVE_CDROM);
+}
+
+#endif
+
 PrefDrives::PrefDrives(QWidget * parent, Qt::WindowFlags f)
 	: PrefWidget(parent, f )
 {
@@ -36,9 +47,11 @@ PrefDrives::PrefDrives(QWidget * parent, Qt::WindowFlags f)
 	QFileInfoList list = QDir::drives();
 	for (int n = 0; n < list.size(); n++) {
 		QString s = list[n].filePath();
-		if (s.endsWith("/")) s = s.remove( s.length()-1,1);
-		dvd_device_combo->addItem( s );
-		cdrom_device_combo->addItem( s );
+		if (isCDDevice(s)) {
+			if (s.endsWith("/")) s = s.remove( s.length()-1,1);
+			dvd_device_combo->addItem( s );
+			cdrom_device_combo->addItem( s );
+		}
 	}
 #else
 #define ADD_IF_EXISTS( string ) \
