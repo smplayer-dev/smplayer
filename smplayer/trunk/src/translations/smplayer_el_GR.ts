@@ -2174,22 +2174,22 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>εικόνα</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="112"/>
+        <location filename="../prefdrives.cpp" line="125"/>
         <source>CD device</source>
         <translation>CD συσκευή</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="114"/>
+        <location filename="../prefdrives.cpp" line="127"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
         <translation>Επιλέξτε την CD συσκευή σας. Θα χρησιμοποιηθεί για παίξιμο VCDs και Ήχου CDs.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="116"/>
+        <location filename="../prefdrives.cpp" line="129"/>
         <source>DVD device</source>
         <translation>DVD συσκευή</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="117"/>
+        <location filename="../prefdrives.cpp" line="130"/>
         <source>Choose your DVD device. It will be used to play DVDs.</source>
         <translation>Επιλέξτε την DVD συσκευή σας. Θα χρησιμοποιηθεί για παίξιμο DVD.</translation>
     </message>
