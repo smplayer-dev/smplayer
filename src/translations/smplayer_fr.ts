@@ -2276,22 +2276,22 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <translation type="obsolete">Sélectionnez le lecteur DVD :</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="112"/>
+        <location filename="../prefdrives.cpp" line="125"/>
         <source>CD device</source>
         <translation>Lecteur CD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="114"/>
+        <location filename="../prefdrives.cpp" line="127"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
         <translation>Choississez votre lecteur CD. Il sera utilisé pour lire les VCDs et CDs Audio.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="116"/>
+        <location filename="../prefdrives.cpp" line="129"/>
         <source>DVD device</source>
         <translation>Lecteur DVD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="117"/>
+        <location filename="../prefdrives.cpp" line="130"/>
         <source>Choose your DVD device. It will be used to play DVDs.</source>
         <translation>Choississez votre lecteur DVD. Il sera utilisé pour lire les DVDs.</translation>
     </message>

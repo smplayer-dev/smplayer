@@ -2244,22 +2244,22 @@ Vysouvací menu by mělo poskytnout standartní možnosti pro několik jazyků.<
         <translation type="obsolete">Výběr DVD mechaniky:</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="112"/>
+        <location filename="../prefdrives.cpp" line="125"/>
         <source>CD device</source>
         <translation>CD mechanika</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="114"/>
+        <location filename="../prefdrives.cpp" line="127"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
         <translation>Zvolte Vaši DVD mechaniku. Bude použite pro přehrávání VCD a zvukových CD.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="116"/>
+        <location filename="../prefdrives.cpp" line="129"/>
         <source>DVD device</source>
         <translation>DVD mechanika</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="117"/>
+        <location filename="../prefdrives.cpp" line="130"/>
         <source>Choose your DVD device. It will be used to play DVDs.</source>
         <translation>Zvolte Vaši DVD mechaniku. Bude použite pro přehrávání DVD.</translation>
     </message>

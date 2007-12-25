@@ -2154,22 +2154,22 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>піктограма</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="112"/>
+        <location filename="../prefdrives.cpp" line="125"/>
         <source>CD device</source>
         <translation>Пристрій CD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="114"/>
+        <location filename="../prefdrives.cpp" line="127"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
         <translation>Вкажіть Ваш пристрій CDROM. Це потрібно для програвання звукових та VCD дисків.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="116"/>
+        <location filename="../prefdrives.cpp" line="129"/>
         <source>DVD device</source>
         <translation>Пристрій DVD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="117"/>
+        <location filename="../prefdrives.cpp" line="130"/>
         <source>Choose your DVD device. It will be used to play DVDs.</source>
         <translation>Вкажіть Ваш пристрій DVD. Це потрібно для програвання DVD.</translation>
     </message>

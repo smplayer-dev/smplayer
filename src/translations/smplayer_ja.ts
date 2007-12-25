@@ -2246,22 +2246,22 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>ドライブ</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="112"/>
+        <location filename="../prefdrives.cpp" line="125"/>
         <source>CD device</source>
         <translation>CD デバイス</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="114"/>
+        <location filename="../prefdrives.cpp" line="127"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
         <translation>お使いの CDROM デバイスを選択します。VCD とオーディオ CD を再生するのに使用されます。</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="116"/>
+        <location filename="../prefdrives.cpp" line="129"/>
         <source>DVD device</source>
         <translation>DVD デバイス</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="117"/>
+        <location filename="../prefdrives.cpp" line="130"/>
         <source>Choose your DVD device. It will be used to play DVDs.</source>
         <translation>お使いの DVD デバイスを選択します。DVD を再生するのに使用されます。</translation>
     </message>

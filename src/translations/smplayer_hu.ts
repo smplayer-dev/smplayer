@@ -2236,22 +2236,22 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="obsolete">DVD eszköz kiválasztása (pl:/dev/dvd):</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="112"/>
+        <location filename="../prefdrives.cpp" line="125"/>
         <source>CD device</source>
         <translation>CD eszköz</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="114"/>
+        <location filename="../prefdrives.cpp" line="127"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
         <translation>Válassza ki a CD-rom eszközt. Ez lesz használva a VCD és a Haglemezek lejátszásához.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="116"/>
+        <location filename="../prefdrives.cpp" line="129"/>
         <source>DVD device</source>
         <translation>DVD eszköz</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="117"/>
+        <location filename="../prefdrives.cpp" line="130"/>
         <source>Choose your DVD device. It will be used to play DVDs.</source>
         <translation>Válassza ki a DVD-rom eszközt. Ez lesz használva a DVD lemezek lejátszásához.</translation>
     </message>

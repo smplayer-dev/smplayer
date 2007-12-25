@@ -313,12 +313,12 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="955"/>
         <source>&amp;DVD from drive</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;DVD asemasta</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="956"/>
         <source>D&amp;VD from folder...</source>
-        <translation type="unfinished"></translation>
+        <translation>D&amp;VD kansiosta...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="957"/>
@@ -333,7 +333,7 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="1131"/>
         <source>&amp;Recent files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Viimeaikaiset tiedostot</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="961"/>
@@ -358,17 +358,17 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="984"/>
         <source>&amp;Normal speed</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Normaali nopeus</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="985"/>
         <source>&amp;Halve speed</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Puolikas nopeus</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="986"/>
         <source>&amp;Double speed</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kaksinkertainen nopeus</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="987"/>
@@ -398,7 +398,7 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="992"/>
         <source>&amp;Compact mode</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kompakti tila</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1140"/>
@@ -423,7 +423,7 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="1170"/>
         <source>4:3 &amp;Panscan</source>
-        <translation type="unfinished"></translation>
+        <translation>4:3 &amp;Panscan</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1171"/>
@@ -433,12 +433,12 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="1146"/>
         <source>&amp;Aspect ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kuvasuhde</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1981"/>
         <source>&amp;None</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ei mitään</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1175"/>
@@ -483,7 +483,7 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="1152"/>
         <source>F&amp;ilters</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;uodattimet</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="993"/>
@@ -503,7 +503,7 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="1186"/>
         <source>&amp;Track</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kappale</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1029"/>
@@ -553,12 +553,12 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="1195"/>
         <source>&amp;Stereo mode</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Stereo tila</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1020"/>
         <source>&amp;Mute</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hiljennä</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1021"/>
@@ -583,7 +583,7 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="1208"/>
         <source>&amp;Select</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Valitse</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1034"/>
@@ -618,7 +618,7 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="1215"/>
         <source>&amp;Chapter</source>
-        <translation type="unfinished">&amp;Kappale</translation>
+        <translation>&amp;Kappale</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1218"/>
@@ -633,7 +633,7 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="1052"/>
         <source>&amp;Show frame counter</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Näytä ruutujen laskija</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1103"/>
@@ -819,17 +819,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1143"/>
         <source>&amp;Pan &amp;&amp; scan</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pan &amp;&amp; scan</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1043"/>
         <source>&amp;Previous line in subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Edellinen rivi tekstityksessä</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1045"/>
         <source>N&amp;ext line in subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;euraava rivi tekstityksessä</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1248"/>
@@ -844,12 +844,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1079"/>
         <source>Dec volume (2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Vähennä volyymiä (2)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1080"/>
         <source>Inc volume (2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kasvata volyymiä (2)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1083"/>
@@ -859,27 +859,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1085"/>
         <source>OSD - Next level</source>
-        <translation type="unfinished"></translation>
+        <translation>OSD - Seuraava taso</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1086"/>
         <source>Dec contrast</source>
-        <translation type="unfinished"></translation>
+        <translation>Vähennä kontrastia</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1087"/>
         <source>Inc contrast</source>
-        <translation type="unfinished"></translation>
+        <translation>Kasvata kontrastia</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1088"/>
         <source>Dec brightness</source>
-        <translation type="unfinished"></translation>
+        <translation>Vähennä kirkkautta</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1089"/>
         <source>Inc brightness</source>
-        <translation type="unfinished"></translation>
+        <translation>Kasvata kirkkautta</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1090"/>
@@ -894,12 +894,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1092"/>
         <source>Dec saturation</source>
-        <translation type="unfinished"></translation>
+        <translation>Vähennä kyllästyneisyyttä</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1094"/>
         <source>Dec gamma</source>
-        <translation type="unfinished"></translation>
+        <translation>Vähennä gammaa</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1096"/>
@@ -914,22 +914,22 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1098"/>
         <source>Next chapter</source>
-        <translation type="unfinished"></translation>
+        <translation>Seuraava kappale</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1099"/>
         <source>Previous chapter</source>
-        <translation type="unfinished"></translation>
+        <translation>Edellinen kappale</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1093"/>
         <source>Inc saturation</source>
-        <translation type="unfinished"></translation>
+        <translation>Kasvata kyllästyneisyyttä</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1095"/>
         <source>Inc gamma</source>
-        <translation type="unfinished"></translation>
+        <translation>Kasvata gammaa</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1025"/>
@@ -954,22 +954,22 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1064"/>
         <source>&amp;Next</source>
-        <translation type="unfinished">&amp;Seuraava</translation>
+        <translation>&amp;Seuraava</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1065"/>
         <source>Pre&amp;vious</source>
-        <translation type="unfinished">Ede&amp;llinen</translation>
+        <translation>Ede&amp;llinen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1031"/>
         <source>Volume &amp;normalization</source>
-        <translation type="unfinished"></translation>
+        <translation>Volyymin &amp;normalisointi</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="954"/>
         <source>&amp;Audio CD</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ääni CD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1182"/>
@@ -994,7 +994,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="996"/>
         <source>Flip i&amp;mage</source>
-        <translation type="unfinished"></translation>
+        <translation>Käännä k&amp;uvaa</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1100"/>
@@ -1014,7 +1014,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1013"/>
         <source>Add &amp;black borders</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisää &amp;mustat reunat</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1015"/>
@@ -1360,7 +1360,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../infofile.cpp" line="59"/>
         <source>General</source>
-        <translation type="unfinished">Yleiset</translation>
+        <translation>Yleiset</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="63"/>
@@ -1370,22 +1370,22 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../infofile.cpp" line="63"/>
         <source>%1 KB (%2 MB)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 KB (%2 MB)</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="70"/>
         <source>URL</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="72"/>
         <source>Length</source>
-        <translation type="unfinished">Pituus</translation>
+        <translation>Pituus</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="73"/>
         <source>Demuxer</source>
-        <translation type="unfinished"></translation>
+        <translation>Demukseri</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="149"/>
@@ -1400,7 +1400,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../infofile.cpp" line="80"/>
         <source>Author</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekijä</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="81"/>
@@ -1435,7 +1435,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../infofile.cpp" line="87"/>
         <source>Software</source>
-        <translation type="unfinished"></translation>
+        <translation>Ohjelmisto</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="92"/>
@@ -1455,7 +1455,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../infofile.cpp" line="101"/>
         <source>Aspect ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Kuvasuhde</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="111"/>
@@ -1465,12 +1465,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../infofile.cpp" line="112"/>
         <source>Bitrate</source>
-        <translation type="unfinished"></translation>
+        <translation>Bittinopeus</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="112"/>
         <source>%1 kbps</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 kbps</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="104"/>
@@ -1480,7 +1480,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../infofile.cpp" line="115"/>
         <source>Selected codec</source>
-        <translation>Valitse kodekki</translation>
+        <translation>Valittu kodekki</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="110"/>
@@ -1495,7 +1495,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../infofile.cpp" line="113"/>
         <source>%1 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 Hz</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="114"/>
@@ -1505,7 +1505,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../infofile.cpp" line="120"/>
         <source>Audio Streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Ääni virrat</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="149"/>
@@ -1537,17 +1537,17 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../infofile.cpp" line="147"/>
         <source>#</source>
         <comment>Info for translators: this is a abbreviation for number</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="88"/>
         <source>Stream title</source>
-        <translation type="unfinished"></translation>
+        <translation>Verkkolähetyksen otsikko</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="89"/>
         <source>Stream URL</source>
-        <translation type="unfinished"></translation>
+        <translation>Verkkolähetyksen osoite</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="62"/>
@@ -1598,7 +1598,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../inputurl.cpp" line="31"/>
         <source>If this option is checked, the URL will be treated as a playlist: it will be opened as text and will play the URLs in it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos tämä vaihtoehto on valittu, osoitetta käsitellään soittolistana: se aukaistaan tekstinä ja siitä soitetaan osoitteet mitkä se sisältää.</translation>
     </message>
 </context>
 <context>
@@ -1606,7 +1606,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../logwindow.cpp" line="71"/>
         <source>Choose a filename to save under</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse nimi tallennettavalle tiedostolle</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="77"/>
@@ -2141,22 +2141,22 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>kuvake</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="112"/>
+        <location filename="../prefdrives.cpp" line="125"/>
         <source>CD device</source>
         <translation>CD asema</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="114"/>
+        <location filename="../prefdrives.cpp" line="127"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
         <translation>Valitse CDROM asemasi. Sitä käytetään VCD:n ja ääni CD:n toistamiseen.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="116"/>
+        <location filename="../prefdrives.cpp" line="129"/>
         <source>DVD device</source>
         <translation>DVD asema</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="117"/>
+        <location filename="../prefdrives.cpp" line="130"/>
         <source>Choose your DVD device. It will be used to play DVDs.</source>
         <translation>Valitse DVD asemasi. Sitä käytetään DVD:n toistamiseen.</translation>
     </message>
@@ -2201,7 +2201,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="296"/>
         <source>&amp;Video and audio</source>
-        <translation type="unfinished">&amp;Ääni ja kuva</translation>
+        <translation>&amp;Ääni ja kuva</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="308"/>
@@ -2376,7 +2376,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="615"/>
         <source>0</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="555"/>
@@ -2720,7 +2720,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="151"/>
         <source>Button functions:</source>
-        <translation type="unfinished"></translation>
+        <translation>Painikkeiden funktiot:</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="98"/>
@@ -2740,7 +2740,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="51"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Ei mitään</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="67"/>
@@ -2850,7 +2850,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="63"/>
         <source>Frame counter</source>
-        <translation type="unfinished"></translation>
+        <translation>Ruutujen laskija</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="65"/>
@@ -2860,7 +2860,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="66"/>
         <source>Exit fullscreen</source>
-        <translation type="unfinished">Poistu kokoruudusta</translation>
+        <translation>Poistu kokoruudusta</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="67"/>
@@ -2900,12 +2900,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="101"/>
         <source>Change speed</source>
-        <translation type="unfinished">Muuta nopeutta</translation>
+        <translation>Muuta nopeutta</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="68"/>
         <source>Show equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä taajuuskorjain</translation>
     </message>
 </context>
 <context>
@@ -3201,7 +3201,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="41"/>
         <source>Priority</source>
-        <translation type="unfinished"></translation>
+        <translation>Tärkeys</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="53"/>
@@ -3216,7 +3216,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="90"/>
         <source>high</source>
-        <translation type="unfinished"></translation>
+        <translation>korkea</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="95"/>
@@ -3291,7 +3291,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="71"/>
         <source>Priorit&amp;y:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tärke&amp;ys:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="139"/>
@@ -3416,7 +3416,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="421"/>
         <source>Cache for &amp;streams:</source>
-        <translation>Välimuisti &amp;virroille:</translation>
+        <translation>Välimuisti &amp;verkkolähetyksille:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="59"/>
@@ -3479,7 +3479,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="277"/>
         <source>Truetype Fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Truetype kirjaisimet</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="32"/>
@@ -3489,7 +3489,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="44"/>
         <source>Autoload</source>
-        <translation type="unfinished"></translation>
+        <translation>Automaattinen lataus</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
@@ -3499,17 +3499,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="82"/>
         <source>All subs containing movie name</source>
-        <translation type="unfinished"></translation>
+        <translation>Kaikki tekstitykset jotka sisältävät elokuvan nimen</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="87"/>
         <source>All subs in directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Kaikki tekstitykset hakemistossa</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="256"/>
         <source>Position</source>
-        <translation type="unfinished"></translation>
+        <translation>Sijainti</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="316"/>
@@ -3539,7 +3539,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="476"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse kirjasin jota käytetään tekstityksissä (ja OSD:ssä):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="168"/>
@@ -3554,12 +3554,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="199"/>
         <source>Proportional to movie height</source>
-        <translation type="unfinished"></translation>
+        <translation>Suhteellinen elokuvan korkeuteen</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="204"/>
         <source>Proportional to movie width</source>
-        <translation type="unfinished"></translation>
+        <translation>Suhteellinen elokuvan leveyteen</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="209"/>
@@ -3579,7 +3579,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="305"/>
         <source>Subtitle position</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekstityksen sijainti</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="308"/>
@@ -3594,12 +3594,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="56"/>
         <source>Au&amp;toload subtitles files (*.srt, *.sub...):</source>
-        <translation type="unfinished"></translation>
+        <translation>La&amp;taa automaattisesti teksitys tiedostot  (*.srt, *.sub...):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="69"/>
         <source>S&amp;elect first available subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>V&amp;alitse ensimmäisenä saatavilla oleva tekstitys</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="114"/>
@@ -3614,7 +3614,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="377"/>
         <source>&amp;Include subtitles on screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sisällytä tekstitykset kuvankaappauksissa</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="384"/>
