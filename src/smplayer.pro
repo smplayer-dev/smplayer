@@ -63,7 +63,7 @@ HEADERS	+= config.h \
 	myserver.h \
 	myclient.h \
 	filedialog.h \
-	aboutdialog.h \
+	about.h \
 	basegui.h \
 	baseguiplus.h \
 	floatingwidget.h \
@@ -124,7 +124,7 @@ SOURCES	+= version.cpp \
 	myserver.cpp \
 	myclient.cpp \
 	filedialog.cpp \
-	aboutdialog.cpp \
+	about.cpp \
 	basegui.cpp \
 	baseguiplus.cpp \
 	floatingwidget.cpp \
@@ -136,7 +136,8 @@ SOURCES	+= version.cpp \
 FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
         eqslider.ui seekwidget.ui inputurl.ui \
         preferencesdialog.ui prefgeneral.ui prefdrives.ui prefinterface.ui \
-        prefperformance.ui prefinput.ui prefsubtitles.ui prefadvanced.ui
+        prefperformance.ui prefinput.ui prefsubtitles.ui prefadvanced.ui \
+        about.ui
 
 TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_de.ts \
                translations/smplayer_sk.ts translations/smplayer_it.ts \
