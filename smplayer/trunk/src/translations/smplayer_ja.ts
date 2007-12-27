@@ -1,156 +1,394 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ja">
 <context>
+    <name>About</name>
+    <message>
+        <location filename="../about.cpp" line="32"/>
+        <source>Version: %1</source>
+        <translation type="unfinished">バージョン: %1</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="34"/>
+        <source>Compiled with Qt %1</source>
+        <translation type="unfinished">Qt %1 でコンパイルされています</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="35"/>
+        <source>Visit our web for updates: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="36"/>
+        <source>Get help in our forum: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="44"/>
+        <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
+        <translation type="unfinished">このプログラムはフリー ソフトウェアです; あなたは Free Software Foundation によって発行されている GNU General Public License の条件の下で再配布できます; License のバージョン 2 か、(あなたの選択で) すべてのより後のバージョンのどちらか。</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="50"/>
+        <source>Some people have helped with their contributions:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="51"/>
+        <source>SMPlayer logo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="52"/>
+        <source>file associations for Windows</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="53"/>
+        <source>manpage for linux</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="54"/>
+        <source>support for colored console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="55"/>
+        <source>icon for file associations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="56"/>
+        <source>patch for file associations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="68"/>
+        <source>The following people have contributed with translations:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="69"/>
+        <source>German</source>
+        <translation type="unfinished">ドイツ語</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="70"/>
+        <source>Slovak</source>
+        <translation type="unfinished">スロバキア語</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="71"/>
+        <source>Italian</source>
+        <translation type="unfinished">イタリア語</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="72"/>
+        <source>French</source>
+        <translation type="unfinished">フランス語</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="73"/>
+        <source>%1, %2 and %3</source>
+        <translation type="unfinished">%1、%2 および %3</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="76"/>
+        <source>Simplified-Chinese</source>
+        <translation type="unfinished">簡体字中国語</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="77"/>
+        <source>Russian</source>
+        <translation type="unfinished">ロシア語</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="82"/>
+        <source>%1 and %2</source>
+        <translation type="unfinished">%1 と %2</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="80"/>
+        <source>Hungarian</source>
+        <translation type="unfinished">ハンガリー語</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="81"/>
+        <source>Polish</source>
+        <translation type="unfinished">ポーランド語</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="84"/>
+        <source>Japanese</source>
+        <translation type="unfinished">日本語</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="85"/>
+        <source>Dutch</source>
+        <translation type="unfinished">オランダ語</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="86"/>
+        <source>Ukrainian</source>
+        <translation type="unfinished">ウクライナ語</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="87"/>
+        <source>Portuguese - Brazil</source>
+        <translation type="unfinished">ポルトガル語 - ブラジル</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="88"/>
+        <source>Georgian</source>
+        <translation type="unfinished">グルジア語</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="89"/>
+        <source>Czech</source>
+        <translation type="unfinished">チェコ語</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="90"/>
+        <source>Bulgarian</source>
+        <translation type="unfinished">ブルガリア語</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="91"/>
+        <source>Turkish</source>
+        <translation type="unfinished">トルコ語</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="92"/>
+        <source>Swedish</source>
+        <translation type="unfinished">スウェーデン語</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="93"/>
+        <source>Serbian</source>
+        <translation type="unfinished">セルビア語</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="94"/>
+        <source>Traditional Chinese</source>
+        <translation type="unfinished">繁体字中国語</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="95"/>
+        <source>Romanian</source>
+        <translation type="unfinished">ルーマニア語</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="96"/>
+        <source>Portuguese - Portugal</source>
+        <translation type="unfinished">ポルトガル語 - ポルトガル</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="97"/>
+        <source>Greek</source>
+        <translation type="unfinished">ギリシャ語</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="98"/>
+        <source>Finnish</source>
+        <translation type="unfinished">フィンランド語</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="103"/>
+        <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
+        <translation type="unfinished">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="112"/>
+        <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.ui" line="13"/>
+        <source>About SMPlayer</source>
+        <translation type="unfinished">SMPlayer のバージョン情報</translation>
+    </message>
+    <message>
+        <location filename="../about.ui" line="32"/>
+        <source>&amp;Info</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.ui" line="52"/>
+        <source>icon</source>
+        <translation type="unfinished">アイコン</translation>
+    </message>
+    <message>
+        <location filename="../about.ui" line="111"/>
+        <source>TextLabel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.ui" line="99"/>
+        <source>&amp;Contributions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.ui" line="125"/>
+        <source>&amp;Translators</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.ui" line="145"/>
+        <source>&amp;License</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>AboutDialog</name>
     <message>
         <location filename="../aboutdialog.cpp" line="76"/>
         <source>Version: %1</source>
-        <translation>バージョン: %1</translation>
+        <translation type="obsolete">バージョン: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="88"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
-        <translation>このプログラムはフリー ソフトウェアです; あなたは Free Software Foundation によって発行されている GNU General Public License の条件の下で再配布できます; License のバージョン 2 か、(あなたの選択で) すべてのより後のバージョンのどちらか。</translation>
+        <translation type="obsolete">このプログラムはフリー ソフトウェアです; あなたは Free Software Foundation によって発行されている GNU General Public License の条件の下で再配布できます; License のバージョン 2 か、(あなたの選択で) すべてのより後のバージョンのどちらか。</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="92"/>
         <source>Translators:</source>
-        <translation>翻訳者:</translation>
+        <translation type="obsolete">翻訳者:</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="93"/>
         <source>German</source>
-        <translation>ドイツ語</translation>
+        <translation type="obsolete">ドイツ語</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="94"/>
         <source>Slovak</source>
-        <translation>スロバキア語</translation>
+        <translation type="obsolete">スロバキア語</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="95"/>
         <source>Italian</source>
-        <translation>イタリア語</translation>
+        <translation type="obsolete">イタリア語</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="96"/>
         <source>French</source>
-        <translation>フランス語</translation>
+        <translation type="obsolete">フランス語</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="100"/>
         <source>Simplified-Chinese</source>
-        <translation>簡体字中国語</translation>
+        <translation type="obsolete">簡体字中国語</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="101"/>
         <source>Russian</source>
-        <translation>ロシア語</translation>
+        <translation type="obsolete">ロシア語</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="104"/>
         <source>Hungarian</source>
-        <translation>ハンガリー語</translation>
+        <translation type="obsolete">ハンガリー語</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="108"/>
         <source>Japanese</source>
-        <translation>日本語</translation>
+        <translation type="obsolete">日本語</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="109"/>
         <source>Dutch</source>
-        <translation>オランダ語</translation>
+        <translation type="obsolete">オランダ語</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="110"/>
         <source>Ukrainian</source>
-        <translation>ウクライナ語</translation>
+        <translation type="obsolete">ウクライナ語</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="112"/>
         <source>Georgian</source>
-        <translation>グルジア語</translation>
+        <translation type="obsolete">グルジア語</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="113"/>
         <source>Czech</source>
-        <translation>チェコ語</translation>
+        <translation type="obsolete">チェコ語</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="124"/>
         <source>Logo designed by %1</source>
-        <translation>ロゴ デザイン: %1</translation>
+        <translation type="obsolete">ロゴ デザイン: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="145"/>
         <source>Get updates at: %1</source>
-        <translation>更新の取得: %1</translation>
+        <translation type="obsolete">更新の取得: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="33"/>
         <source>About SMPlayer</source>
-        <translation>SMPlayer のバージョン情報</translation>
+        <translation type="obsolete">SMPlayer のバージョン情報</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="105"/>
         <source>Polish</source>
-        <translation>ポーランド語</translation>
+        <translation type="obsolete">ポーランド語</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="114"/>
         <source>Bulgarian</source>
-        <translation>ブルガリア語</translation>
+        <translation type="obsolete">ブルガリア語</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="115"/>
         <source>Turkish</source>
-        <translation>トルコ語</translation>
+        <translation type="obsolete">トルコ語</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="116"/>
         <source>Swedish</source>
-        <translation>スウェーデン語</translation>
+        <translation type="obsolete">スウェーデン語</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="117"/>
         <source>Serbian</source>
-        <translation>セルビア語</translation>
+        <translation type="obsolete">セルビア語</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="118"/>
         <source>Traditional Chinese</source>
-        <translation>繁体字中国語</translation>
+        <translation type="obsolete">繁体字中国語</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="119"/>
         <source>Romanian</source>
-        <translation>ルーマニア語</translation>
+        <translation type="obsolete">ルーマニア語</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="111"/>
         <source>Portuguese - Brazil</source>
-        <translation>ポルトガル語 - ブラジル</translation>
+        <translation type="obsolete">ポルトガル語 - ブラジル</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="120"/>
         <source>Portuguese - Portugal</source>
-        <translation>ポルトガル語 - ポルトガル</translation>
+        <translation type="obsolete">ポルトガル語 - ポルトガル</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="83"/>
         <source>Compiled with Qt %1</source>
-        <translation>Qt %1 でコンパイルされています</translation>
+        <translation type="obsolete">Qt %1 でコンパイルされています</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="97"/>
         <source>%1, %2 and %3</source>
-        <translation>%1、%2 および %3</translation>
+        <translation type="obsolete">%1、%2 および %3</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="106"/>
         <source>%1 and %2</source>
-        <translation>%1 と %2</translation>
+        <translation type="obsolete">%1 と %2</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="130"/>
@@ -167,17 +405,17 @@
     <message>
         <location filename="../aboutdialog.cpp" line="157"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
+        <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="121"/>
         <source>Greek</source>
-        <translation>ギリシャ語</translation>
+        <translation type="obsolete">ギリシャ語</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="122"/>
         <source>Finnish</source>
-        <translation>フィンランド語</translation>
+        <translation type="obsolete">フィンランド語</translation>
     </message>
 </context>
 <context>
@@ -2246,22 +2484,22 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>ドライブ</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="125"/>
+        <location filename="../prefdrives.cpp" line="130"/>
         <source>CD device</source>
         <translation>CD デバイス</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="127"/>
+        <location filename="../prefdrives.cpp" line="132"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
         <translation>お使いの CDROM デバイスを選択します。VCD とオーディオ CD を再生するのに使用されます。</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="129"/>
+        <location filename="../prefdrives.cpp" line="134"/>
         <source>DVD device</source>
         <translation>DVD デバイス</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="130"/>
+        <location filename="../prefdrives.cpp" line="135"/>
         <source>Choose your DVD device. It will be used to play DVDs.</source>
         <translation>お使いの DVD デバイスを選択します。DVD を再生するのに使用されます。</translation>
     </message>

@@ -1,156 +1,394 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
 <context>
+    <name>About</name>
+    <message>
+        <location filename="../about.cpp" line="32"/>
+        <source>Version: %1</source>
+        <translation type="unfinished">Versiunea: %1</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="34"/>
+        <source>Compiled with Qt %1</source>
+        <translation type="unfinished">Compilat cu suport KDE %1</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="35"/>
+        <source>Visit our web for updates: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="36"/>
+        <source>Get help in our forum: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="44"/>
+        <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
+        <translation type="unfinished">Acest program este un produs de tip &quot;free software&quot;: poate fi redistribuit şi/sau modificat respectând termenii licenţei GNU GPL şi publicată de către fundaţia &apos;Free Software Foundation&quot;; fie versiunea 2 a licenţei fie (la alegere) orice versiune ulterioară.</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="50"/>
+        <source>Some people have helped with their contributions:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="51"/>
+        <source>SMPlayer logo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="52"/>
+        <source>file associations for Windows</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="53"/>
+        <source>manpage for linux</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="54"/>
+        <source>support for colored console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="55"/>
+        <source>icon for file associations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="56"/>
+        <source>patch for file associations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="68"/>
+        <source>The following people have contributed with translations:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="69"/>
+        <source>German</source>
+        <translation type="unfinished">Germană</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="70"/>
+        <source>Slovak</source>
+        <translation type="unfinished">Slovacă</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="71"/>
+        <source>Italian</source>
+        <translation type="unfinished">Italiană</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="72"/>
+        <source>French</source>
+        <translation type="unfinished">Franceză</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="73"/>
+        <source>%1, %2 and %3</source>
+        <translation type="unfinished">%1, %2 şi %3</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="76"/>
+        <source>Simplified-Chinese</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="77"/>
+        <source>Russian</source>
+        <translation type="unfinished">Rusă</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="82"/>
+        <source>%1 and %2</source>
+        <translation type="unfinished">%1 şi %2</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="80"/>
+        <source>Hungarian</source>
+        <translation type="unfinished">Maghiară</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="81"/>
+        <source>Polish</source>
+        <translation type="unfinished">Poloneză</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="84"/>
+        <source>Japanese</source>
+        <translation type="unfinished">Japoneză</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="85"/>
+        <source>Dutch</source>
+        <translation type="unfinished">Olandeză</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="86"/>
+        <source>Ukrainian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="87"/>
+        <source>Portuguese - Brazil</source>
+        <translation type="unfinished">Portugheză - Brazilia</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="88"/>
+        <source>Georgian</source>
+        <translation type="unfinished">Georgiană</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="89"/>
+        <source>Czech</source>
+        <translation type="unfinished">Cehă</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="90"/>
+        <source>Bulgarian</source>
+        <translation type="unfinished">Bulgară</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="91"/>
+        <source>Turkish</source>
+        <translation type="unfinished">Turcă</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="92"/>
+        <source>Swedish</source>
+        <translation type="unfinished">Suedeză</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="93"/>
+        <source>Serbian</source>
+        <translation type="unfinished">Sârbă</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="94"/>
+        <source>Traditional Chinese</source>
+        <translation type="unfinished">Chineză Tradiţională</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="95"/>
+        <source>Romanian</source>
+        <translation type="unfinished">Română</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="96"/>
+        <source>Portuguese - Portugal</source>
+        <translation type="unfinished">Portugheză - Portugalia</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="97"/>
+        <source>Greek</source>
+        <translation type="unfinished">Greacă</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="98"/>
+        <source>Finnish</source>
+        <translation type="unfinished">Finlandeză</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="103"/>
+        <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
+        <translation type="unfinished">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="112"/>
+        <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.ui" line="13"/>
+        <source>About SMPlayer</source>
+        <translation type="unfinished">Despre SMPlayer</translation>
+    </message>
+    <message>
+        <location filename="../about.ui" line="32"/>
+        <source>&amp;Info</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.ui" line="52"/>
+        <source>icon</source>
+        <translation type="unfinished">Iconiţă</translation>
+    </message>
+    <message>
+        <location filename="../about.ui" line="111"/>
+        <source>TextLabel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.ui" line="99"/>
+        <source>&amp;Contributions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.ui" line="125"/>
+        <source>&amp;Translators</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.ui" line="145"/>
+        <source>&amp;License</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>AboutDialog</name>
     <message>
         <location filename="../aboutdialog.cpp" line="76"/>
         <source>Version: %1</source>
-        <translation>Versiunea: %1</translation>
+        <translation type="obsolete">Versiunea: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="88"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
-        <translation>Acest program este un produs de tip &quot;free software&quot;: poate fi redistribuit şi/sau modificat respectând termenii licenţei GNU GPL şi publicată de către fundaţia &apos;Free Software Foundation&quot;; fie versiunea 2 a licenţei fie (la alegere) orice versiune ulterioară.</translation>
+        <translation type="obsolete">Acest program este un produs de tip &quot;free software&quot;: poate fi redistribuit şi/sau modificat respectând termenii licenţei GNU GPL şi publicată de către fundaţia &apos;Free Software Foundation&quot;; fie versiunea 2 a licenţei fie (la alegere) orice versiune ulterioară.</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="92"/>
         <source>Translators:</source>
-        <translation>Traducători:</translation>
+        <translation type="obsolete">Traducători:</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="93"/>
         <source>German</source>
-        <translation>Germană</translation>
+        <translation type="obsolete">Germană</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="94"/>
         <source>Slovak</source>
-        <translation>Slovacă</translation>
+        <translation type="obsolete">Slovacă</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="95"/>
         <source>Italian</source>
-        <translation>Italiană</translation>
+        <translation type="obsolete">Italiană</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="96"/>
         <source>French</source>
-        <translation>Franceză</translation>
+        <translation type="obsolete">Franceză</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="100"/>
         <source>Simplified-Chinese</source>
-        <translation>Chineză simplificată</translation>
+        <translation type="obsolete">Chineză simplificată</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="101"/>
         <source>Russian</source>
-        <translation>Rusă</translation>
+        <translation type="obsolete">Rusă</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="104"/>
         <source>Hungarian</source>
-        <translation>Maghiară</translation>
+        <translation type="obsolete">Maghiară</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="108"/>
         <source>Japanese</source>
-        <translation>Japoneză</translation>
+        <translation type="obsolete">Japoneză</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="109"/>
         <source>Dutch</source>
-        <translation>Olandeză</translation>
+        <translation type="obsolete">Olandeză</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="110"/>
         <source>Ukrainian</source>
-        <translation>Uckraineană</translation>
+        <translation type="obsolete">Uckraineană</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="112"/>
         <source>Georgian</source>
-        <translation>Georgiană</translation>
+        <translation type="obsolete">Georgiană</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="113"/>
         <source>Czech</source>
-        <translation>Cehă</translation>
+        <translation type="obsolete">Cehă</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="124"/>
         <source>Logo designed by %1</source>
-        <translation>Logo realizat de %1</translation>
+        <translation type="obsolete">Logo realizat de %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="145"/>
         <source>Get updates at: %1</source>
-        <translation>Găsiţi actualizări la: %1</translation>
+        <translation type="obsolete">Găsiţi actualizări la: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="33"/>
         <source>About SMPlayer</source>
-        <translation>Despre SMPlayer</translation>
+        <translation type="obsolete">Despre SMPlayer</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="105"/>
         <source>Polish</source>
-        <translation>Poloneză</translation>
+        <translation type="obsolete">Poloneză</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="114"/>
         <source>Bulgarian</source>
-        <translation>Bulgară</translation>
+        <translation type="obsolete">Bulgară</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="115"/>
         <source>Turkish</source>
-        <translation>Turcă</translation>
+        <translation type="obsolete">Turcă</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="116"/>
         <source>Swedish</source>
-        <translation>Suedeză</translation>
+        <translation type="obsolete">Suedeză</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="117"/>
         <source>Serbian</source>
-        <translation>Sârbă</translation>
+        <translation type="obsolete">Sârbă</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="118"/>
         <source>Traditional Chinese</source>
-        <translation>Chineză Tradiţională</translation>
+        <translation type="obsolete">Chineză Tradiţională</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="119"/>
         <source>Romanian</source>
-        <translation>Română</translation>
+        <translation type="obsolete">Română</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="111"/>
         <source>Portuguese - Brazil</source>
-        <translation>Portugheză - Brazilia</translation>
+        <translation type="obsolete">Portugheză - Brazilia</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="120"/>
         <source>Portuguese - Portugal</source>
-        <translation>Portugheză - Portugalia</translation>
+        <translation type="obsolete">Portugheză - Portugalia</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="83"/>
         <source>Compiled with Qt %1</source>
-        <translation>Compilat cu suport KDE %1</translation>
+        <translation type="obsolete">Compilat cu suport KDE %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="97"/>
         <source>%1, %2 and %3</source>
-        <translation>%1, %2 şi %3</translation>
+        <translation type="obsolete">%1, %2 şi %3</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="106"/>
         <source>%1 and %2</source>
-        <translation>%1 şi %2</translation>
+        <translation type="obsolete">%1 şi %2</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="130"/>
@@ -167,17 +405,17 @@
     <message>
         <location filename="../aboutdialog.cpp" line="157"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
+        <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="121"/>
         <source>Greek</source>
-        <translation>Greacă</translation>
+        <translation type="obsolete">Greacă</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="122"/>
         <source>Finnish</source>
-        <translation>Finlandeză</translation>
+        <translation type="obsolete">Finlandeză</translation>
     </message>
 </context>
 <context>
@@ -2253,22 +2491,22 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="obsolete">Selectare dispozitiv redare DVD:</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="125"/>
+        <location filename="../prefdrives.cpp" line="130"/>
         <source>CD device</source>
         <translation>Dispozitiv CD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="127"/>
+        <location filename="../prefdrives.cpp" line="132"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
         <translation>Alegeţi dispozitivul CDROM. Acesta va fi folosit pentru redarea VCD şi CD Audio.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="129"/>
+        <location filename="../prefdrives.cpp" line="134"/>
         <source>DVD device</source>
         <translation>Dispozitiv DVD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="130"/>
+        <location filename="../prefdrives.cpp" line="135"/>
         <source>Choose your DVD device. It will be used to play DVDs.</source>
         <translation>Alegere dispozitiv DVD. Acesta va fi folosit pentru redarea DVD.</translation>
     </message>
