@@ -54,7 +54,7 @@
 #include "inputdvddirectory.h"
 #include "inputurl.h"
 #include "recents.h"
-#include "aboutdialog.h"
+#include "about.h"
 
 #include "config.h"
 #include "actionseditor.h"
@@ -2596,7 +2596,7 @@ void BaseGui::loadAudioFile() {
 }
 
 void BaseGui::helpAbout() {
-	AboutDialog d(this);
+	About d(this);
 	d.exec();
 }
 

@@ -1,5 +1,8 @@
 [b]Version 0.5.63 (not released yet)[/b]:
 
+(2007-12-26)
+ * New about dialog, with some tabs.
+
 (2007-12-24)
  * (Windows) Preferences->Drives shows only cdrom devices.
 
