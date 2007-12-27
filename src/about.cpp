@@ -50,6 +50,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 		"<ul>" +
 		contr("Charles Barcza &lt;kbarcza@blackpanther.hu&gt;", tr("SMPlayer logo")) +
 		contr("Florin Braghis &lt;florin@libertv.ro&gt;", tr("file associations for Windows")) +
+		contr("Matvey Kozhev &lt;sikon@lucidfox.org&gt;", tr("manpage for linux")) +
 		contr("profoX", tr("support for colored console output")) + 
 		contr("redxii", tr("icon for file associations")) +
 		contr("LoRd_MuldeR", tr("patch for file associations")) +
