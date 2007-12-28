@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -3148,17 +3149,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="549"/>
         <source>Change volume just before playing</source>
-        <translation type="unfinished"></translation>
+        <translation>Modfificare volum înainte de redare</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="661"/>
         <source>Change volume just before p&amp;laying (avoids loud volume on startup)</source>
-        <translation type="unfinished"></translation>
+        <translation>Modificare volum înainte de re&amp;dare (se evită volum mare la pornire)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="555"/>
         <source>If this option is checked the initial volume will be set by using the &lt;i&gt;-volume&lt;/i&gt; option in MPlayer.&lt;br&gt; &lt;b&gt;WARNING: THE OFFICIAL MPLAYER DOESN&apos;T HAVE THAT &lt;i&gt;-volume&lt;/i&gt; OPTION, YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON&apos;T PLAY ANYTHING.&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă este selectată această opţiune volumul iniţial va fi setsay folosind opţiunea &lt;i&gt;-volume&lt;/i&gt; din MPlayer.&lt;br&gt;&lt;b&gt;ATENŢIONARE: VERSIUNEA OFICIALĂ MPLAYER NU ARE ACEASTĂ OPŢIUNE &lt;i&gt;-volume&lt;/i&gt;, AVEŢI NEVOIE DE O VERSIUNE CU PATCH, ALTFEL MPLAYER VA EŞUA ŞI NU VA REDA NIMIC.&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
