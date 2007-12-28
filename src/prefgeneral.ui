@@ -6,7 +6,7 @@
     <x>0</x>
     <y>0</y>
     <width>543</width>
-    <height>527</height>
+    <height>550</height>
    </rect>
   </property>
   <property name="windowIcon" >
@@ -629,6 +629,50 @@
              <number>6</number>
             </property>
             <item>
+             <spacer>
+              <property name="orientation" >
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType" >
+               <enum>QSizePolicy::Minimum</enum>
+              </property>
+              <property name="sizeHint" >
+               <size>
+                <width>20</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="use_volume_option_check" >
+              <property name="enabled" >
+               <bool>false</bool>
+              </property>
+              <property name="sizePolicy" >
+               <sizepolicy>
+                <hsizetype>7</hsizetype>
+                <vsizetype>0</vsizetype>
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text" >
+               <string>Change volume just before p&amp;laying (avoids loud volume on startup)</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" >
+            <property name="margin" >
+             <number>0</number>
+            </property>
+            <property name="spacing" >
+             <number>6</number>
+            </property>
+            <item>
              <widget class="QLabel" name="label" >
               <property name="text" >
                <string>C&amp;hannels by default:</string>
@@ -901,14 +945,14 @@ For translators: don't translate this text, it will be replaced with another one
  </widget>
  <customwidgets>
   <customwidget>
-   <class>TristateCombo</class>
-   <extends>QComboBox</extends>
-   <header>tristatecombo.h</header>
-  </customwidget>
-  <customwidget>
    <class>MyComboBox</class>
    <extends>QComboBox</extends>
    <header>mycombobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>TristateCombo</class>
+   <extends>QComboBox</extends>
+   <header>tristatecombo.h</header>
   </customwidget>
  </customwidgets>
  <tabstops>
@@ -1042,6 +1086,22 @@ For translators: don't translate this text, it will be replaced with another one
     <hint type="destinationlabel" >
      <x>515</x>
      <y>338</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>change_volume_check</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>use_volume_option_check</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>124</x>
+     <y>425</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>271</x>
+     <y>455</y>
     </hint>
    </hints>
   </connection>

@@ -125,6 +125,10 @@ protected:
 	void setDontChangeVolume(bool b);
 	bool dontChangeVolume();
 
+	// Use -volume option
+	void setUseVolume(bool b);
+	bool useVolume();
+
 	void setAudioChannels(int ID);
 	int audioChannels();
 

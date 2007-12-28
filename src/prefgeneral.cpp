@@ -109,6 +109,7 @@ void PrefGeneral::setData(Preferences * pref) {
 
 	setInitialVolume( pref->initial_volume );
 	setDontChangeVolume( pref->dont_change_volume );
+	setUseVolume( pref->use_volume_option );
 	setAudioChannels( pref->initial_audio_channels );
 	setScaleTempoFilter( pref->use_scaletempo );
 }
@@ -159,6 +160,7 @@ void PrefGeneral::getData(Preferences * pref) {
 
 	pref->initial_volume = initialVolume();
 	pref->dont_change_volume = dontChangeVolume();
+	pref->use_volume_option = useVolume();
 	pref->initial_audio_channels = audioChannels();
 	TEST_AND_SET(pref->use_scaletempo, scaleTempoFilter());
 }
@@ -375,6 +377,14 @@ bool PrefGeneral::dontChangeVolume() {
 	return !change_volume_check->isChecked();
 }
 
+void PrefGeneral::setUseVolume(bool b) {
+	use_volume_option_check->setChecked(b);
+}
+
+bool PrefGeneral::useVolume() {
+	return use_volume_option_check->isChecked();
+}
+
 void PrefGeneral::setStartInFullscreen(bool b) {
 	start_fullscreen_check->setChecked(b);
 }
@@ -535,6 +545,13 @@ void PrefGeneral::createHelp() {
 
 	setWhatsThis(initial_volume_slider, tr("Default volume"),
 		tr("Sets the initial volume that new files will use.") );
+
+	setWhatsThis(use_volume_option_check, tr("Change volume just before playing"),
+		tr("If this option is checked the initial volume will bes set by "
+           "using the -volume option in MPlayer.<br> "
+           "<b>WARNING: THE OFFICIAL MPLAYER DOESN'T HAVE THAT -volume OPTION, "
+           "YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON'T PLAY "
+           "ANYTHING.</b>") );
 
 	setWhatsThis(channels_combo, tr("Channels by default"),
 		tr("Requests the number of playback channels. MPlayer "
