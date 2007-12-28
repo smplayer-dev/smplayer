@@ -6,7 +6,7 @@
     <x>0</x>
     <y>0</y>
     <width>543</width>
-    <height>550</height>
+    <height>554</height>
    </rect>
   </property>
   <property name="windowIcon" >
@@ -505,6 +505,42 @@
              <number>6</number>
             </property>
             <item>
+             <widget class="QLabel" name="label" >
+              <property name="text" >
+               <string>C&amp;hannels by default:</string>
+              </property>
+              <property name="buddy" >
+               <cstring>channels_combo</cstring>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="channels_combo" />
+            </item>
+            <item>
+             <spacer>
+              <property name="orientation" >
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" >
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" >
+            <property name="margin" >
+             <number>0</number>
+            </property>
+            <property name="spacing" >
+             <number>6</number>
+            </property>
+            <item>
              <widget class="QLabel" name="label_6" >
               <property name="text" >
                <string>High speed &amp;playback without altering pitch</string>
@@ -661,42 +697,6 @@
                <string>Change volume just before p&amp;laying (avoids loud volume on startup)</string>
               </property>
              </widget>
-            </item>
-           </layout>
-          </item>
-          <item>
-           <layout class="QHBoxLayout" >
-            <property name="margin" >
-             <number>0</number>
-            </property>
-            <property name="spacing" >
-             <number>6</number>
-            </property>
-            <item>
-             <widget class="QLabel" name="label" >
-              <property name="text" >
-               <string>C&amp;hannels by default:</string>
-              </property>
-              <property name="buddy" >
-               <cstring>channels_combo</cstring>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QComboBox" name="channels_combo" />
-            </item>
-            <item>
-             <spacer>
-              <property name="orientation" >
-               <enum>Qt::Horizontal</enum>
-              </property>
-              <property name="sizeHint" >
-               <size>
-                <width>40</width>
-                <height>20</height>
-               </size>
-              </property>
-             </spacer>
             </item>
            </layout>
           </item>
@@ -965,15 +965,28 @@ For translators: don't translate this text, it will be replaced with another one
   <tabstop>ao_combo</tabstop>
   <tabstop>remember_all_check</tabstop>
   <tabstop>dont_remember_time_check</tabstop>
+  <tabstop>close_on_finish_check</tabstop>
+  <tabstop>pause_if_hidden_check</tabstop>
   <tabstop>eq2_check</tabstop>
   <tabstop>postprocessing_check</tabstop>
   <tabstop>autoq_spin</tabstop>
+  <tabstop>direct_rendering_check</tabstop>
+  <tabstop>double_buffer_check</tabstop>
   <tabstop>start_fullscreen_check</tabstop>
   <tabstop>screensaver_check</tabstop>
   <tabstop>softvol_check</tabstop>
   <tabstop>softvol_max_spin</tabstop>
   <tabstop>hwac3_check</tabstop>
   <tabstop>volnorm_check</tabstop>
+  <tabstop>channels_combo</tabstop>
+  <tabstop>scaletempo_combo</tabstop>
+  <tabstop>change_volume_check</tabstop>
+  <tabstop>initial_volume_slider</tabstop>
+  <tabstop>use_volume_option_check</tabstop>
+  <tabstop>audio_lang_edit</tabstop>
+  <tabstop>subtitle_lang_edit</tabstop>
+  <tabstop>audio_track_spin</tabstop>
+  <tabstop>subtitle_track_spin</tabstop>
  </tabstops>
  <resources/>
  <connections>
