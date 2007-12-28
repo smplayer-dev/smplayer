@@ -547,9 +547,10 @@ void PrefGeneral::createHelp() {
 		tr("Sets the initial volume that new files will use.") );
 
 	setWhatsThis(use_volume_option_check, tr("Change volume just before playing"),
-		tr("If this option is checked the initial volume will bes set by "
-           "using the -volume option in MPlayer.<br> "
-           "<b>WARNING: THE OFFICIAL MPLAYER DOESN'T HAVE THAT -volume OPTION, "
+		tr("If this option is checked the initial volume will be set by "
+           "using the <i>-volume</i> option in MPlayer.<br> "
+           "<b>WARNING: THE OFFICIAL MPLAYER DOESN'T HAVE THAT "
+           "<i>-volume</i> OPTION, "
            "YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON'T PLAY "
            "ANYTHING.</b>") );
 
