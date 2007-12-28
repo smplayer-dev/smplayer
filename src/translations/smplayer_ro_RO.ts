@@ -61,7 +61,7 @@
     <message>
         <location filename="../about.cpp" line="56"/>
         <source>patch for file associations</source>
-        <translation type="unfinished"></translation>
+        <translation>patch pentru asociere de fişiere</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="68"/>
@@ -3159,7 +3159,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="555"/>
         <source>If this option is checked the initial volume will be set by using the &lt;i&gt;-volume&lt;/i&gt; option in MPlayer.&lt;br&gt; &lt;b&gt;WARNING: THE OFFICIAL MPLAYER DOESN&apos;T HAVE THAT &lt;i&gt;-volume&lt;/i&gt; OPTION, YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON&apos;T PLAY ANYTHING.&lt;/b&gt;</source>
-        <translation>Dacă este selectată această opţiune volumul iniţial va fi setsay folosind opţiunea &lt;i&gt;-volume&lt;/i&gt; din MPlayer.&lt;br&gt;&lt;b&gt;ATENŢIONARE: VERSIUNEA OFICIALĂ MPLAYER NU ARE ACEASTĂ OPŢIUNE &lt;i&gt;-volume&lt;/i&gt;, AVEŢI NEVOIE DE O VERSIUNE CU PATCH, ALTFEL MPLAYER VA EŞUA ŞI NU VA REDA NIMIC.&lt;/b&gt;</translation>
+        <translation>Dacă este selectată această opţiune, volumul iniţial va fi setat folosind opţiunea &lt;i&gt;-volume&lt;/i&gt; din MPlayer.&lt;br&gt;&lt;b&gt;ATENŢIONARE: VERSIUNEA OFICIALĂ MPLAYER NU ARE ACEASTĂ OPŢIUNE &lt;i&gt;-volume&lt;/i&gt;, AVEŢI NEVOIE DE O VERSIUNE CU PATCH, ALTFEL MPLAYER VA EŞUA ŞI NU VA REDA NIMIC.&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
