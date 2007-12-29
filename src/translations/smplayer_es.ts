@@ -2624,12 +2624,12 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefgeneral.ui" line="296"/>
         <source>&amp;Video and audio</source>
-        <translation>&amp;Vídeo y audio</translation>
+        <translation type="obsolete">&amp;Vídeo y audio</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="308"/>
         <source>Video</source>
-        <translation>Vídeo</translation>
+        <translation type="obsolete">Vídeo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="347"/>
@@ -2659,7 +2659,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefgeneral.ui" line="414"/>
         <source>Audio</source>
-        <translation>Audio</translation>
+        <translation type="obsolete">Audio</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="500"/>
@@ -2837,12 +2837,12 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <translation type="obsolete">Volumen por defecto:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="615"/>
+        <location filename="../prefgeneral.ui" line="574"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="555"/>
+        <location filename="../prefgeneral.ui" line="514"/>
         <source>&amp;Change volume on every file</source>
         <translation>Ca&amp;mbiar el volumen en cada archivo</translation>
     </message>
@@ -2872,7 +2872,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <translation>Ví&amp;deo:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="178"/>
+        <location filename="../prefgeneral.ui" line="804"/>
         <source>&amp;Audio:</source>
         <translation>&amp;Audio:</translation>
     </message>
@@ -2889,17 +2889,17 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefgeneral.ui" line="793"/>
         <source>A&amp;udio:</source>
-        <translation>A&amp;udio:</translation>
+        <translation type="obsolete">A&amp;udio:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="812"/>
+        <location filename="../prefgeneral.ui" line="823"/>
         <source>Su&amp;btitles:</source>
         <translation>Sub&amp;títulos:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="320"/>
         <source>&amp;Use software video equalizer</source>
-        <translation>&amp;Usar ecualizador de vídeo por software</translation>
+        <translation type="obsolete">&amp;Usar ecualizador de vídeo por software</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="380"/>
@@ -2907,37 +2907,37 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <translation type="obsolete">&amp;Activar el postprocesado para todos los vídeos</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="358"/>
+        <location filename="../prefgeneral.ui" line="346"/>
         <source>&amp;Quality:</source>
         <translation>&amp;Calidad:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="397"/>
+        <location filename="../prefgeneral.ui" line="385"/>
         <source>Start videos in &amp;fullscreen</source>
         <translation>Comen&amp;zar los vídeos a pantalla completa</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="404"/>
+        <location filename="../prefgeneral.ui" line="392"/>
         <source>Disable &amp;screensaver</source>
         <translation>Desactivar &amp;salvapantallas</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="586"/>
+        <location filename="../prefgeneral.ui" line="545"/>
         <source>&amp;Default volume:</source>
         <translation>Volumen por &amp;defecto:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="434"/>
+        <location filename="../prefgeneral.ui" line="445"/>
         <source>Use s&amp;oftware volume control</source>
         <translation>Usar control de volumen por s&amp;oftware</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="460"/>
+        <location filename="../prefgeneral.ui" line="471"/>
         <source>Ma&amp;x. Amplification:</source>
         <translation>Má&amp;x. amplificación:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="488"/>
+        <location filename="../prefgeneral.ui" line="632"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
         <translation>&amp;Pasar AC3/DTS por S/PDIF</translation>
     </message>
@@ -2962,12 +2962,12 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <translation>Doble buffer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="383"/>
+        <location filename="../prefgeneral.ui" line="371"/>
         <source>D&amp;irect rendering</source>
         <translation>Renderizado d&amp;irecto</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="390"/>
+        <location filename="../prefgeneral.ui" line="378"/>
         <source>Dou&amp;ble buffering</source>
         <translation>Do&amp;ble buffer</translation>
     </message>
@@ -2977,12 +2977,12 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <translation>El doble buffer soluciona los problemas de parpadeo almacenando dos imáenes en memoria y mostrando una mientras decodifica la otra. Puede afectar al OSD negativamente, pero a menudo elimina el parpadeo del OSD.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="335"/>
+        <location filename="../prefgeneral.ui" line="323"/>
         <source>&amp;Enable postprocessing by default</source>
         <translation>&amp;Activar el postprocesado por defecto</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="495"/>
+        <location filename="../prefgeneral.ui" line="499"/>
         <source>Volume &amp;normalization by default</source>
         <translation>&amp;Normalización de volumen por defecto</translation>
     </message>
@@ -3017,7 +3017,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <translation>6 (5.1 Surround)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="678"/>
+        <location filename="../prefgeneral.ui" line="647"/>
         <source>C&amp;hannels by default:</source>
         <translation>Cana&amp;les por defecto:</translation>
     </message>
@@ -3117,7 +3117,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <translation>Especifica la pista de subtítulos por defecto para los nuevos ficheros. Si la pista no existe, se usará la primera. &lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; la opción &lt;i&gt;&quot;idioma de subtítulos preferido&quot;&lt;/i&gt; tiene preferencia sobre esta opción.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="921"/>
+        <location filename="../prefgeneral.ui" line="932"/>
         <source>Or choose a track number:</source>
         <translation>O selecciona un número de pista:</translation>
     </message>
@@ -3127,22 +3127,22 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <translation type="obsolete">&amp;Subtítulo:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="862"/>
+        <location filename="../prefgeneral.ui" line="873"/>
         <source>Audi&amp;o:</source>
         <translation>Aud&amp;io:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="828"/>
+        <location filename="../prefgeneral.ui" line="839"/>
         <source>Preferred language:</source>
         <translation>Idioma preferido:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="726"/>
+        <location filename="../prefgeneral.ui" line="737"/>
         <source>Preferre&amp;d audio and subtitles</source>
         <translation>Audio y subtítulos pre&amp;feridos</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="875"/>
+        <location filename="../prefgeneral.ui" line="886"/>
         <source>&amp;Subtitle:</source>
         <translation>&amp;Subtítulo:</translation>
     </message>
@@ -3152,13 +3152,13 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <translation>Aquí puedes introducir el idioma preferido para el audio y subtítulos. Cuando se reproduzca un vídeo con múltiples audios o subtítulos, SMPlayer intentará usar tu idioma preferido. Esto sólo funcionará con medios que ofrezcan información sobre los idiomas del audio o subtítulos, como los DVDs o ficheros mkv.&lt;br&gt;Este campo acepta expresiones regulares. Ejemplo: &lt;b&gt;es|esp|spa&lt;/b&gt; seleccionará la pista si coincide con &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; o &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="738"/>
+        <location filename="../prefgeneral.ui" line="749"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="510"/>
+        <location filename="../prefgeneral.ui" line="683"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>No alterar el &amp;tono en reproducción a mayor velocidad</translation>
     </message>
@@ -3183,7 +3183,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Si esta opción está activada, el volumen inicial se establecerá usando la opción -volume del MPlayer.&lt;br&gt; &lt;b&gt;ADVERTENCIA: LA VERSIÓN OFICIAL DEL MPLAYER NO TIENE LA OPCIÓN -volume, NECESITAS UNA VERSIÓN PARCHEADA, DE LO CONTRARIO MPLAYER FALLARÁ Y NO PODRÁ REPRODUCIR NADA.&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="661"/>
+        <location filename="../prefgeneral.ui" line="620"/>
         <source>Change volume just before p&amp;laying (avoids loud volume on startup)</source>
         <translation>Cambia&amp;r el volumen antes de empezar (evita sonido alto al inicio)</translation>
     </message>
@@ -3196,6 +3196,26 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.cpp" line="555"/>
         <source>If this option is checked the initial volume will be set by using the &lt;i&gt;-volume&lt;/i&gt; option in MPlayer.&lt;br&gt; &lt;b&gt;WARNING: THE OFFICIAL MPLAYER DOESN&apos;T HAVE THAT &lt;i&gt;-volume&lt;/i&gt; OPTION, YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON&apos;T PLAY ANYTHING.&lt;/b&gt;</source>
         <translation>Si esta opción está activada, el volumen inicial se establecerá usando la opción &lt;i&gt;-volume&lt;/i&gt; del MPlayer.&lt;br&gt; &lt;b&gt;ADVERTENCIA: LA VERSIÓN OFICIAL DEL MPLAYER NO TIENE LA OPCIÓN &lt;i&gt;-volume&lt;/i&gt;, NECESITAS UNA VERSIÓN PARCHEADA, DE LO CONTRARIO MPLAYER FALLARÁ Y NO PODRÁ REPRODUCIR NADA.&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="296"/>
+        <source>&amp;Video</source>
+        <translation>&amp;Vídeo</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="308"/>
+        <source>Use s&amp;oftware video equalizer</source>
+        <translation>Usar &amp;ecualizador de vídeo por software</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="413"/>
+        <source>A&amp;udio</source>
+        <translation>A&amp;udio</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="425"/>
+        <source>Volume</source>
+        <translation>Volumen</translation>
     </message>
 </context>
 <context>

@@ -2439,12 +2439,12 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="296"/>
         <source>&amp;Video and audio</source>
-        <translation>&amp;Ääni ja kuva</translation>
+        <translation type="obsolete">&amp;Ääni ja kuva</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="308"/>
         <source>Video</source>
-        <translation>Kuva</translation>
+        <translation type="obsolete">Kuva</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="511"/>
@@ -2459,7 +2459,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="414"/>
         <source>Audio</source>
-        <translation>Ääni</translation>
+        <translation type="obsolete">Ääni</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="423"/>
@@ -2612,12 +2612,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="615"/>
+        <location filename="../prefgeneral.ui" line="574"/>
         <source>0</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="555"/>
+        <location filename="../prefgeneral.ui" line="514"/>
         <source>&amp;Change volume on every file</source>
         <translation>&amp;Muuta volyymi jokaiselle tiedostolle</translation>
     </message>
@@ -2647,7 +2647,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>K&amp;uva:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="178"/>
+        <location filename="../prefgeneral.ui" line="804"/>
         <source>&amp;Audio:</source>
         <translation>&amp;Ääni:</translation>
     </message>
@@ -2664,50 +2664,45 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="793"/>
         <source>A&amp;udio:</source>
-        <translation>Ä&amp;äni:</translation>
+        <translation type="obsolete">Ä&amp;äni:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="812"/>
+        <location filename="../prefgeneral.ui" line="823"/>
         <source>Su&amp;btitles:</source>
         <translation>Te&amp;kstitykset:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="320"/>
-        <source>&amp;Use software video equalizer</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="358"/>
+        <location filename="../prefgeneral.ui" line="346"/>
         <source>&amp;Quality:</source>
         <translation>&amp;Laatu:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="397"/>
+        <location filename="../prefgeneral.ui" line="385"/>
         <source>Start videos in &amp;fullscreen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="404"/>
+        <location filename="../prefgeneral.ui" line="392"/>
         <source>Disable &amp;screensaver</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="586"/>
+        <location filename="../prefgeneral.ui" line="545"/>
         <source>&amp;Default volume:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="434"/>
+        <location filename="../prefgeneral.ui" line="445"/>
         <source>Use s&amp;oftware volume control</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="460"/>
+        <location filename="../prefgeneral.ui" line="471"/>
         <source>Ma&amp;x. Amplification:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="488"/>
+        <location filename="../prefgeneral.ui" line="632"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2727,12 +2722,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="383"/>
+        <location filename="../prefgeneral.ui" line="371"/>
         <source>D&amp;irect rendering</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="390"/>
+        <location filename="../prefgeneral.ui" line="378"/>
         <source>Dou&amp;ble buffering</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2742,12 +2737,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="335"/>
+        <location filename="../prefgeneral.ui" line="323"/>
         <source>&amp;Enable postprocessing by default</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="495"/>
+        <location filename="../prefgeneral.ui" line="499"/>
         <source>Volume &amp;normalization by default</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2782,7 +2777,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="678"/>
+        <location filename="../prefgeneral.ui" line="647"/>
         <source>C&amp;hannels by default:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2882,27 +2877,27 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="921"/>
+        <location filename="../prefgeneral.ui" line="932"/>
         <source>Or choose a track number:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="862"/>
+        <location filename="../prefgeneral.ui" line="873"/>
         <source>Audi&amp;o:</source>
         <translation>Ään&amp;i:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="828"/>
+        <location filename="../prefgeneral.ui" line="839"/>
         <source>Preferred language:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="726"/>
+        <location filename="../prefgeneral.ui" line="737"/>
         <source>Preferre&amp;d audio and subtitles</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="875"/>
+        <location filename="../prefgeneral.ui" line="886"/>
         <source>&amp;Subtitle:</source>
         <translation>&amp;Tekstitys:</translation>
     </message>
@@ -2912,13 +2907,13 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="738"/>
+        <location filename="../prefgeneral.ui" line="749"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="510"/>
+        <location filename="../prefgeneral.ui" line="683"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2938,7 +2933,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="661"/>
+        <location filename="../prefgeneral.ui" line="620"/>
         <source>Change volume just before p&amp;laying (avoids loud volume on startup)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2946,6 +2941,26 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.cpp" line="555"/>
         <source>If this option is checked the initial volume will be set by using the &lt;i&gt;-volume&lt;/i&gt; option in MPlayer.&lt;br&gt; &lt;b&gt;WARNING: THE OFFICIAL MPLAYER DOESN&apos;T HAVE THAT &lt;i&gt;-volume&lt;/i&gt; OPTION, YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON&apos;T PLAY ANYTHING.&lt;/b&gt;</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="296"/>
+        <source>&amp;Video</source>
+        <translation type="unfinished">&amp;Kuva</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="308"/>
+        <source>Use s&amp;oftware video equalizer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="413"/>
+        <source>A&amp;udio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="425"/>
+        <source>Volume</source>
+        <translation type="unfinished">Volyymi</translation>
     </message>
 </context>
 <context>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
-<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -2630,12 +2629,12 @@ Um CDs oder DVDs abzupielen, müßen die Laufwerke vorher bestimmt werden
     <message>
         <location filename="../prefgeneral.ui" line="296"/>
         <source>&amp;Video and audio</source>
-        <translation>&amp;Video und Audio</translation>
+        <translation type="obsolete">&amp;Video und Audio</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="308"/>
         <source>Video</source>
-        <translation>Video</translation>
+        <translation type="obsolete">Video</translation>
     </message>
     <message>
         <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefgeneral.ui" line="347"/>
@@ -2665,7 +2664,7 @@ Um CDs oder DVDs abzupielen, müßen die Laufwerke vorher bestimmt werden
     <message>
         <location filename="../prefgeneral.ui" line="414"/>
         <source>Audio</source>
-        <translation>Audio</translation>
+        <translation type="obsolete">Audio</translation>
     </message>
     <message>
         <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefgeneral.ui" line="500"/>
@@ -2844,12 +2843,12 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
         <translation type="obsolete">Standard Lautstärke:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="615"/>
+        <location filename="../prefgeneral.ui" line="574"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="555"/>
+        <location filename="../prefgeneral.ui" line="514"/>
         <source>&amp;Change volume on every file</source>
         <translation>&amp;Lautstärke für jede Datei ändern</translation>
     </message>
@@ -2879,7 +2878,7 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
         <translation>V&amp;ideo:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="178"/>
+        <location filename="../prefgeneral.ui" line="804"/>
         <source>&amp;Audio:</source>
         <translation>&amp;Audio:</translation>
     </message>
@@ -2896,17 +2895,17 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
     <message>
         <location filename="../prefgeneral.ui" line="793"/>
         <source>A&amp;udio:</source>
-        <translation>A&amp;udio:</translation>
+        <translation type="obsolete">A&amp;udio:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="812"/>
+        <location filename="../prefgeneral.ui" line="823"/>
         <source>Su&amp;btitles:</source>
         <translation>&amp;Untertitel:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="320"/>
         <source>&amp;Use software video equalizer</source>
-        <translation>&amp;Benutze Software-Video-Equalizer</translation>
+        <translation type="obsolete">&amp;Benutze Software-Video-Equalizer</translation>
     </message>
     <message>
         <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/prefgeneral.ui" line="380"/>
@@ -2914,37 +2913,37 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
         <translation type="obsolete">&amp;Nachbearbeitung für alle Videos aktivieren</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="358"/>
+        <location filename="../prefgeneral.ui" line="346"/>
         <source>&amp;Quality:</source>
         <translation>&amp;Qualität:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="397"/>
+        <location filename="../prefgeneral.ui" line="385"/>
         <source>Start videos in &amp;fullscreen</source>
         <translation>&amp;Starte Video im Vollbildmodus</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="404"/>
+        <location filename="../prefgeneral.ui" line="392"/>
         <source>Disable &amp;screensaver</source>
         <translation>&amp;Bilschirmschoner abschalten</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="586"/>
+        <location filename="../prefgeneral.ui" line="545"/>
         <source>&amp;Default volume:</source>
         <translation>&amp;Standard Lautstärke:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="434"/>
+        <location filename="../prefgeneral.ui" line="445"/>
         <source>Use s&amp;oftware volume control</source>
         <translation>&amp;Benutze Software-Lautstärkeregelung</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="460"/>
+        <location filename="../prefgeneral.ui" line="471"/>
         <source>Ma&amp;x. Amplification:</source>
         <translation>&amp;Max. Verstärker:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="488"/>
+        <location filename="../prefgeneral.ui" line="632"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
         <translation>&amp;AC3/DTS über S/PDIF</translation>
     </message>
@@ -2969,12 +2968,12 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
         <translation>Doppelpufferung</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="383"/>
+        <location filename="../prefgeneral.ui" line="371"/>
         <source>D&amp;irect rendering</source>
         <translation>&amp;Direktes Rendern</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="390"/>
+        <location filename="../prefgeneral.ui" line="378"/>
         <source>Dou&amp;ble buffering</source>
         <translation>&amp;Doppelpufferung</translation>
     </message>
@@ -2984,12 +2983,12 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
         <translation>Doppelpufferung verhindert Flackern, indem zwei Bilder zwischen gespeichert werden, eins wird dekodiert, das andere angezeigt .Falls abgeschaltet, kannes sich negativ im OSD auswirken, aber meistens entfernt es Flackern im OSD.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="335"/>
+        <location filename="../prefgeneral.ui" line="323"/>
         <source>&amp;Enable postprocessing by default</source>
         <translation>&amp;Nachbearbeitung als Standard aktivieren</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="495"/>
+        <location filename="../prefgeneral.ui" line="499"/>
         <source>Volume &amp;normalization by default</source>
         <translation>Lautstärke &amp;normalisieren als Standard</translation>
     </message>
@@ -3024,7 +3023,7 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
         <translation>6 (5.1 Surround)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="678"/>
+        <location filename="../prefgeneral.ui" line="647"/>
         <source>C&amp;hannels by default:</source>
         <translation>&amp;Kanäle als Standard:</translation>
     </message>
@@ -3119,7 +3118,7 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
         <translation>Spezifiziert die Standard Untertitelspur, die bei neuen Dateien abgespielt wird. Falls die Spur nicht existiert, wird die erste Spur gewählt. &lt;br&gt;&lt;b&gt;Hinweis:&lt;/b&gt; die &lt;i&gt; &quot;bevorzugte Untertitelsprache&quot;&lt;/i&gt; hat Vorrang vor dieser Option.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="921"/>
+        <location filename="../prefgeneral.ui" line="932"/>
         <source>Or choose a track number:</source>
         <translation>Oder eine Tracknummer wählen:</translation>
     </message>
@@ -3129,22 +3128,22 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
         <translation type="obsolete">&amp;Untertitel:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="862"/>
+        <location filename="../prefgeneral.ui" line="873"/>
         <source>Audi&amp;o:</source>
         <translation>Audi&amp;o:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="828"/>
+        <location filename="../prefgeneral.ui" line="839"/>
         <source>Preferred language:</source>
         <translation>Bevorzugte Sprache:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="726"/>
+        <location filename="../prefgeneral.ui" line="737"/>
         <source>Preferre&amp;d audio and subtitles</source>
         <translation>&amp;Bevorzugter Ton und Untertitel</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="875"/>
+        <location filename="../prefgeneral.ui" line="886"/>
         <source>&amp;Subtitle:</source>
         <translation>&amp;Untertitel:</translation>
     </message>
@@ -3154,14 +3153,14 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
         <translation>Hier kann die bevorzugte Sprache der Tonspur und Untertitel gewählt werden. Bei Medien mit mehreren Tonspuren, oder Untertiteln, wird SMPlayer versuchen die bevorzugte Sprache zu benutzen. Das funktioniert nur mit Medien die eine Info über die Tonspuren und Untertitel bereit stellen, wie DVDs oder mkv-Dateien.&lt;br&gt;Das Feld akzeptiert normale Ausdrücke. Beispiel: &lt;b&gt;es|esp|spa&lt;/b&gt;die Tonspur mit folgender Info wird ausgewählt &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="738"/>
+        <location filename="../prefgeneral.ui" line="749"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
         <translation>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="510"/>
+        <location filename="../prefgeneral.ui" line="683"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>&amp;Hochgeschwindigkeitswiedergabe ohne Anhebung der Tonhöhe</translation>
     </message>
@@ -3182,7 +3181,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>Änderung der Lautstärke kurz vor der Wiedergabe</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="661"/>
+        <location filename="../prefgeneral.ui" line="620"/>
         <source>Change volume just before p&amp;laying (avoids loud volume on startup)</source>
         <translation>&amp;Änderung der Lautstärke kurz vor der Wiedergabe (Vermeidet laute Wiedergabe beim Start)</translation>
     </message>
@@ -3190,6 +3189,26 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <location filename="../prefgeneral.cpp" line="555"/>
         <source>If this option is checked the initial volume will be set by using the &lt;i&gt;-volume&lt;/i&gt; option in MPlayer.&lt;br&gt; &lt;b&gt;WARNING: THE OFFICIAL MPLAYER DOESN&apos;T HAVE THAT &lt;i&gt;-volume&lt;/i&gt; OPTION, YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON&apos;T PLAY ANYTHING.&lt;/b&gt;</source>
         <translation>Wenn diese Option aktiviert ist, wird die ursprüngliche Lautstärke eingestellt, indem die &lt;i&gt;-Laustärke&lt;/i&gt; Option in Mplayer initialisiert wird.&lt;br&gt; &lt;b&gt;WARNUNG: FUNKTIONIERT NICHT MIT DER OFFIZIELLEN MPLAYER &lt;i&gt;-LAUTSTÄRKE&lt;i&gt; OPTION&lt;/i&gt;, EINE PATCH VERSION WIRD BENÖTIGT, MPLAYER VERSAGT SONST UND BRINGT KEINE WIEDERGABE.&lt;/b&gt;   </translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="296"/>
+        <source>&amp;Video</source>
+        <translation type="unfinished">&amp;Video</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="308"/>
+        <source>Use s&amp;oftware video equalizer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="413"/>
+        <source>A&amp;udio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="425"/>
+        <source>Volume</source>
+        <translation type="unfinished">Lautstärke</translation>
     </message>
 </context>
 <context>

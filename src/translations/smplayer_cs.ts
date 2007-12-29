@@ -2587,12 +2587,12 @@ Vysouvací menu by mělo poskytnout standartní možnosti pro několik jazyků.<
     <message>
         <location filename="../prefgeneral.ui" line="296"/>
         <source>&amp;Video and audio</source>
-        <translation>&amp;Obraz a zvuk</translation>
+        <translation type="obsolete">&amp;Obraz a zvuk</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="308"/>
         <source>Video</source>
-        <translation>Obraz</translation>
+        <translation type="obsolete">Obraz</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="347"/>
@@ -2612,7 +2612,7 @@ Vysouvací menu by mělo poskytnout standartní možnosti pro několik jazyků.<
     <message>
         <location filename="../prefgeneral.ui" line="414"/>
         <source>Audio</source>
-        <translation>Zvuk</translation>
+        <translation type="obsolete">Zvuk</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="500"/>
@@ -2775,12 +2775,12 @@ Vysouvací menu by mělo poskytnout standartní možnosti pro několik jazyků.<
         <translation type="obsolete">Výchozí úroveň hlasitosti:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="615"/>
+        <location filename="../prefgeneral.ui" line="574"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="555"/>
+        <location filename="../prefgeneral.ui" line="514"/>
         <source>&amp;Change volume on every file</source>
         <translation>&amp;Změnit hlasitost u každého souboru</translation>
     </message>
@@ -2810,7 +2810,7 @@ Vysouvací menu by mělo poskytnout standartní možnosti pro několik jazyků.<
         <translation>O&amp;braz:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="178"/>
+        <location filename="../prefgeneral.ui" line="804"/>
         <source>&amp;Audio:</source>
         <translation>&amp;Zvuk:</translation>
     </message>
@@ -2827,50 +2827,50 @@ Vysouvací menu by mělo poskytnout standartní možnosti pro několik jazyků.<
     <message>
         <location filename="../prefgeneral.ui" line="793"/>
         <source>A&amp;udio:</source>
-        <translation>Zv&amp;uk:</translation>
+        <translation type="obsolete">Zv&amp;uk:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="812"/>
+        <location filename="../prefgeneral.ui" line="823"/>
         <source>Su&amp;btitles:</source>
         <translation>T&amp;itulky:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="320"/>
         <source>&amp;Use software video equalizer</source>
-        <translation>Po&amp;užívat softwarový video ekvalizér</translation>
+        <translation type="obsolete">Po&amp;užívat softwarový video ekvalizér</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="358"/>
+        <location filename="../prefgeneral.ui" line="346"/>
         <source>&amp;Quality:</source>
         <translation>&amp;Kvalita:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="397"/>
+        <location filename="../prefgeneral.ui" line="385"/>
         <source>Start videos in &amp;fullscreen</source>
         <translation>Spouštět videa v režimu celé &amp;obrazovky</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="404"/>
+        <location filename="../prefgeneral.ui" line="392"/>
         <source>Disable &amp;screensaver</source>
         <translation>Vypnout &amp;spořič obrazovky</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="586"/>
+        <location filename="../prefgeneral.ui" line="545"/>
         <source>&amp;Default volume:</source>
         <translation>&amp;Výchozí hlasitost:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="434"/>
+        <location filename="../prefgeneral.ui" line="445"/>
         <source>Use s&amp;oftware volume control</source>
         <translation>Používat s&amp;oftwarové ovladání hlasitosti</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="460"/>
+        <location filename="../prefgeneral.ui" line="471"/>
         <source>Ma&amp;x. Amplification:</source>
         <translation>Ma&amp;x. zesílení:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="488"/>
+        <location filename="../prefgeneral.ui" line="632"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
         <translation>&amp;AC3/DTS přehrávat přes S/PDIF</translation>
     </message>
@@ -2890,12 +2890,12 @@ Vysouvací menu by mělo poskytnout standartní možnosti pro několik jazyků.<
         <translation>Dvojitý buffering</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="383"/>
+        <location filename="../prefgeneral.ui" line="371"/>
         <source>D&amp;irect rendering</source>
         <translation>&amp;Přímé vykreslování</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="390"/>
+        <location filename="../prefgeneral.ui" line="378"/>
         <source>Dou&amp;ble buffering</source>
         <translation>Dvojitý &amp;buffering</translation>
     </message>
@@ -2905,12 +2905,12 @@ Vysouvací menu by mělo poskytnout standartní možnosti pro několik jazyků.<
         <translation>Dvojité bufferování řeší blikání obrazu, ukládáním dvou rámců do paměti a zobrazovaním jednoho během dekodování dalšího. Pokuď je vypnuto, může ovlivnit negativně OSD, ale často odstraní blikání OSD.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="335"/>
+        <location filename="../prefgeneral.ui" line="323"/>
         <source>&amp;Enable postprocessing by default</source>
         <translation>Zapnout postproc&amp;essing jako výchozí</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="495"/>
+        <location filename="../prefgeneral.ui" line="499"/>
         <source>Volume &amp;normalization by default</source>
         <translation>Nastavit &amp;normalizaci hlasitosti jako výchozí</translation>
     </message>
@@ -2945,7 +2945,7 @@ Vysouvací menu by mělo poskytnout standartní možnosti pro několik jazyků.<
         <translation></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="678"/>
+        <location filename="../prefgeneral.ui" line="647"/>
         <source>C&amp;hannels by default:</source>
         <translation>Výc&amp;hozích kanálů:</translation>
     </message>
@@ -3060,38 +3060,38 @@ Vysouvací menu by mělo poskytnout standartní možnosti pro několik jazyků.<
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="510"/>
+        <location filename="../prefgeneral.ui" line="683"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="726"/>
+        <location filename="../prefgeneral.ui" line="737"/>
         <source>Preferre&amp;d audio and subtitles</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="738"/>
+        <location filename="../prefgeneral.ui" line="749"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="828"/>
+        <location filename="../prefgeneral.ui" line="839"/>
         <source>Preferred language:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="862"/>
+        <location filename="../prefgeneral.ui" line="873"/>
         <source>Audi&amp;o:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="875"/>
+        <location filename="../prefgeneral.ui" line="886"/>
         <source>&amp;Subtitle:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="921"/>
+        <location filename="../prefgeneral.ui" line="932"/>
         <source>Or choose a track number:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3101,7 +3101,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="661"/>
+        <location filename="../prefgeneral.ui" line="620"/>
         <source>Change volume just before p&amp;laying (avoids loud volume on startup)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3109,6 +3109,26 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.cpp" line="555"/>
         <source>If this option is checked the initial volume will be set by using the &lt;i&gt;-volume&lt;/i&gt; option in MPlayer.&lt;br&gt; &lt;b&gt;WARNING: THE OFFICIAL MPLAYER DOESN&apos;T HAVE THAT &lt;i&gt;-volume&lt;/i&gt; OPTION, YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON&apos;T PLAY ANYTHING.&lt;/b&gt;</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="296"/>
+        <source>&amp;Video</source>
+        <translation type="unfinished">&amp;Video</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="308"/>
+        <source>Use s&amp;oftware video equalizer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="413"/>
+        <source>A&amp;udio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="425"/>
+        <source>Volume</source>
+        <translation type="unfinished">Hlasitost</translation>
     </message>
 </context>
 <context>
