@@ -1,5 +1,8 @@
 [b]Version 0.5.63 (not released yet)[/b]:
 
+(2007-12-29)
+ * Split the section "Video and audio" in Preferences->General into 2 sections.
+
 (2007-12-27)
  * Added a new option in Preferences->General->Video and audio: change volume
    just before playing. This should fix the problem of the loud volume on
