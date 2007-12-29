@@ -1,241 +1,242 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
         <location filename="../about.cpp" line="32"/>
         <source>Version: %1</source>
-        <translation type="unfinished">Версия: %1</translation>
+        <translation>Версия: %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="34"/>
         <source>Compiled with Qt %1</source>
-        <translation type="unfinished">Скомпилированно с помощью Qt %1</translation>
+        <translation>Скомпилированно с помощью Qt %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="35"/>
         <source>Visit our web for updates: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Посетите для обновлений: %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="36"/>
         <source>Get help in our forum: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Получить помощь на форуме: %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="44"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
-        <translation type="unfinished">Это свободное программное обеспечение; Вы можете распространять его и/или изменять руководствуясь 2 или (на ваше усмотрение) более поздней версией GNU General Public License опубликованной Free Software Foundation.</translation>
+        <translation>Это свободное программное обеспечение; Вы можете распространять и/или изменять его, руководствуясь 2-ой или (на ваше усмотрение) более поздней версией GNU General Public License опубликованной Free Software Foundation.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="50"/>
         <source>Some people have helped with their contributions:</source>
-        <translation type="unfinished"></translation>
+        <translation>Некоторые люди, внесшие свои пожертвования:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="51"/>
         <source>SMPlayer logo</source>
-        <translation type="unfinished"></translation>
+        <translation>Логотип SMPlayer</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="52"/>
         <source>file associations for Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>ассоциации файлов для Windows</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="53"/>
         <source>manpage for linux</source>
-        <translation type="unfinished"></translation>
+        <translation>страницы справки для Linux</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="54"/>
         <source>support for colored console output</source>
-        <translation type="unfinished"></translation>
+        <translation>Поддержка цветного консольного вывода</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="55"/>
         <source>icon for file associations</source>
-        <translation type="unfinished"></translation>
+        <translation>иконки для связей файлов</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="56"/>
         <source>patch for file associations</source>
-        <translation type="unfinished"></translation>
+        <translation>патч для связей файлов</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="68"/>
         <source>The following people have contributed with translations:</source>
-        <translation type="unfinished"></translation>
+        <translation>Следующие люди внесли вклад своими переводами:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
         <source>German</source>
-        <translation type="unfinished">Немецкий</translation>
+        <translation>Немецкий</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="70"/>
         <source>Slovak</source>
-        <translation type="unfinished">Словацкий</translation>
+        <translation>Словацкий</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="71"/>
         <source>Italian</source>
-        <translation type="unfinished">Итальянский</translation>
+        <translation>Итальянский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="72"/>
         <source>French</source>
-        <translation type="unfinished">Французский</translation>
+        <translation>Французский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="73"/>
         <source>%1, %2 and %3</source>
-        <translation type="unfinished">%1, %2 и %3</translation>
+        <translation>%1, %2 и %3</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="76"/>
         <source>Simplified-Chinese</source>
-        <translation type="unfinished">Упрощенный китайский</translation>
+        <translation>Упрощенный китайский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="77"/>
         <source>Russian</source>
-        <translation type="unfinished"></translation>
+        <translation>Русский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="82"/>
         <source>%1 and %2</source>
-        <translation type="unfinished">%1 и %2</translation>
+        <translation>%1 и %2</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="80"/>
         <source>Hungarian</source>
-        <translation type="unfinished">Венгерский</translation>
+        <translation>Венгерский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="81"/>
         <source>Polish</source>
-        <translation type="unfinished">Польский</translation>
+        <translation>Польский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="84"/>
         <source>Japanese</source>
-        <translation type="unfinished">Японский</translation>
+        <translation>Японский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="85"/>
         <source>Dutch</source>
-        <translation type="unfinished">Немецкий</translation>
+        <translation>Немецкий</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
         <source>Ukrainian</source>
-        <translation type="unfinished">Украинский</translation>
+        <translation>Украинский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="87"/>
         <source>Portuguese - Brazil</source>
-        <translation type="unfinished">Португальский - Бразилия</translation>
+        <translation>Португальский (Бразилия)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="88"/>
         <source>Georgian</source>
-        <translation type="unfinished">Грузинский</translation>
+        <translation>Грузинский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="89"/>
         <source>Czech</source>
-        <translation type="unfinished">Чешский</translation>
+        <translation>Чешский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="90"/>
         <source>Bulgarian</source>
-        <translation type="unfinished">Болгарский</translation>
+        <translation>Болгарский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="91"/>
         <source>Turkish</source>
-        <translation type="unfinished">Тюркская</translation>
+        <translation>Тюркская</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="92"/>
         <source>Swedish</source>
-        <translation type="unfinished">Шведский</translation>
+        <translation>Шведский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="93"/>
         <source>Serbian</source>
-        <translation type="unfinished">Сербский</translation>
+        <translation>Сербский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="94"/>
         <source>Traditional Chinese</source>
-        <translation type="unfinished">Китайский традиционный</translation>
+        <translation>Китайский традиционный</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="95"/>
         <source>Romanian</source>
-        <translation type="unfinished">Румынский</translation>
+        <translation>Румынский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="96"/>
         <source>Portuguese - Portugal</source>
-        <translation type="unfinished">Португальский - Португалия</translation>
+        <translation>Португальский (Португалия)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="97"/>
         <source>Greek</source>
-        <translation type="unfinished">Греческий</translation>
+        <translation>Греческий</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="98"/>
         <source>Finnish</source>
-        <translation type="unfinished">Финский</translation>
+        <translation>Финский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="103"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation type="unfinished">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
+        <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="112"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
     <message>
         <location filename="../about.ui" line="13"/>
         <source>About SMPlayer</source>
-        <translation type="unfinished">О SMPlayer</translation>
+        <translation>Об SMPlayer</translation>
     </message>
     <message>
         <location filename="../about.ui" line="32"/>
         <source>&amp;Info</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Информация</translation>
     </message>
     <message>
         <location filename="../about.ui" line="52"/>
         <source>icon</source>
-        <translation type="unfinished">пиктограмма</translation>
+        <translation>пиктограмма</translation>
     </message>
     <message>
         <location filename="../about.ui" line="111"/>
         <source>TextLabel</source>
-        <translation type="unfinished"></translation>
+        <translation>Текстовая метка</translation>
     </message>
     <message>
         <location filename="../about.ui" line="99"/>
         <source>&amp;Contributions</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Пожертвования</translation>
     </message>
     <message>
         <location filename="../about.ui" line="125"/>
         <source>&amp;Translators</source>
-        <translation type="unfinished"></translation>
+        <translation>Пере&amp;водчики</translation>
     </message>
     <message>
         <location filename="../about.ui" line="145"/>
         <source>&amp;License</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Лицензия</translation>
     </message>
 </context>
 <context>
@@ -2334,17 +2335,17 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="340"/>
         <source>Pass short filenames (8+3) to MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Передавать MPlayer-у короткие имена</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="344"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
-        <translation type="unfinished"></translation>
+        <translation>Текущий MPlayer не может открыавть имена, содержащие символы вне текущей кодовой таблицы. Выбор этой опции укажет SMPlayer-у передавать MPlayer-у короткие имена файлов, чтобы тот мог открыть их.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="267"/>
         <source>&amp;Pass short filenames (8+3) to MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Передавать MPlayer-у &amp;короткие имена</translation>
     </message>
 </context>
 <context>
@@ -2999,17 +3000,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="549"/>
         <source>Change volume just before playing</source>
-        <translation type="unfinished"></translation>
+        <translation>Изменять громкость непосредственно перед проирыванием</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="661"/>
         <source>Change volume just before p&amp;laying (avoids loud volume on startup)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Изменять громкость непосредственно перед проирыванием (предотвращает увеличенную громкость при старте)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="555"/>
         <source>If this option is checked the initial volume will be set by using the &lt;i&gt;-volume&lt;/i&gt; option in MPlayer.&lt;br&gt; &lt;b&gt;WARNING: THE OFFICIAL MPLAYER DOESN&apos;T HAVE THAT &lt;i&gt;-volume&lt;/i&gt; OPTION, YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON&apos;T PLAY ANYTHING.&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Если выбрано, начальная громкость будет установлена с использованием опции MPlayer-а &lt;i&gt;-volume&lt;/i&gt;.&lt;br&gt; &lt;b&gt;ВНИМАНИЕ: Официальный MPlayer не имеет этой опции и должен быть пропатчен, иначе MPlayer не воспроизведёт ничего и &quot;упадёт&quot;.&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
@@ -3783,47 +3784,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="59"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Включено</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="60"/>
         <source>Skip (always)</source>
-        <translation type="unfinished"></translation>
+        <translation>Пропускать (всегда)</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="61"/>
         <source>Skip only on HD videos</source>
-        <translation type="unfinished"></translation>
+        <translation>Пропускать только для HD видео</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="225"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation type="unfinished"></translation>
+        <translation>Эта опция позволяет пропускать фильр loop (он же debloking) во время декодирования H.264. Поскольку фильтрованный кадр предполагается использовать в качестве ссылки для декодирования зависимых кадров, то качество, например, у MPEG-2, будет хуже, чем если бы deblocking не производился вообще. Но, как минимум, для HDTV с высоким битрейтом это даёт значительный прирост производительности без видимой потери качества.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="226"/>
         <source>Possible values:</source>
-        <translation type="unfinished"></translation>
+        <translation>Возможные значения:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="227"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Включено&lt;/b&gt;: фильтр loop не пропускается</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="229"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Пропускать (всегда)&lt;/b&gt;: фильтр loop не применяется вне зависимости от разрешения видео</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="232"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Включено&lt;/b&gt;: фильтр loop пропускается только для видео с высотой картинки %1 или выше.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="165"/>
         <source>Loop &amp;filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Петелевой &amp;фильтр</translation>
     </message>
 </context>
 <context>
