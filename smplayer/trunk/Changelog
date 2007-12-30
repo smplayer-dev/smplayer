@@ -4,6 +4,8 @@
  * Split the section "Video and audio" in Preferences->General into 2 sections.
  * Added 3 icons in the about dialog (contributors.png, translators.png and 
    license.png), taken from Crystal Clear.
+ * (By user request) Added "normal speed" to the list of actions available for
+   mouse buttons.
 
 (2007-12-27)
  * Added a new option in Preferences->General->Video and audio: change volume

@@ -60,10 +60,11 @@ void PrefInput::createMouseCombos() {
 	left_click_combo->addItem( tr("On top"), "on_top" );
 	left_click_combo->addItem( tr("Mute"), "mute" );
 	left_click_combo->addItem( tr("Playlist"), "show_playlist" );
-	left_click_combo->addItem( tr("Frame counter"), "frame_counter" );
-	left_click_combo->addItem( tr("Preferences"), "show_preferences" );
 	left_click_combo->addItem( tr("Reset zoom"), "reset_zoom" );
 	left_click_combo->addItem( tr("Exit fullscreen"), "exit_fullscreen" );
+	left_click_combo->addItem( tr("Normal speed"), "normal_speed" );
+	left_click_combo->addItem( tr("Frame counter"), "frame_counter" );
+	left_click_combo->addItem( tr("Preferences"), "show_preferences" );
 	left_click_combo->addItem( tr("Double size"), "toggle_double_size" );
 	left_click_combo->addItem( tr("Show equalizer"), "equalizer" );
 
