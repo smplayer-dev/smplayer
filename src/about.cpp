@@ -55,7 +55,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 
 	contributions->setText(
 		tr("Some people have helped with their contributions:") +
-		"<br><ul>" +
+		"<ul>" +
 		contr("Charles Barcza &lt;kbarcza@blackpanther.hu&gt;", tr("SMPlayer logo")) +
 		contr("Florin Braghis &lt;florin@libertv.ro&gt;", tr("file associations for Windows")) +
 		contr("Matvey Kozhev &lt;sikon@lucidfox.org&gt;", tr("manpage for linux")) +
@@ -72,7 +72,7 @@ About::~About() {
 QString About::getTranslators() {
 	return QString(
 		 tr("The following people have contributed with translations:") + 
-         "<br><ul>" +
+         "<ul>" +
          trad(tr("German"), "Henrikx") + 
 		 trad(tr("Slovak"), "Sweto &lt;peter.mendel@gmail.com&gt;") +
 		 trad(tr("Italian"), "Giancarlo Scola &lt;giancarlo@codexcoop.it&gt;") +
