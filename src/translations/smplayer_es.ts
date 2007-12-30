@@ -3,12 +3,12 @@
 <context>
     <name>About</name>
     <message>
-        <location filename="../about.cpp" line="35"/>
+        <location filename="../about.cpp" line="36"/>
         <source>Version: %1</source>
         <translation>Versión: %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="37"/>
+        <location filename="../about.cpp" line="38"/>
         <source>Compiled with Qt %1</source>
         <translation>Compilado con Qt %1</translation>
     </message>
@@ -23,42 +23,42 @@
         <translation type="obsolete">Consigue ayuda en nuestro foro: %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="51"/>
+        <location filename="../about.cpp" line="52"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
         <translation>Este programa es Software Libre; usted puede redistribuirlo y/o modificarlo bajo los términos de la &quot;GNU General Public License&quot; como lo publica la &quot;FSF Free Software Foundation&quot;, o (a su elección) de cualquier versión posterior.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="57"/>
+        <location filename="../about.cpp" line="58"/>
         <source>Some people have helped with their contributions:</source>
         <translation>Algunas personas han ayudado con sus contribuciones:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="58"/>
+        <location filename="../about.cpp" line="59"/>
         <source>SMPlayer logo</source>
         <translation>logo del SMPlayer</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="59"/>
+        <location filename="../about.cpp" line="60"/>
         <source>file associations for Windows</source>
         <translation>asociaciones de archivos en Windows</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="60"/>
+        <location filename="../about.cpp" line="61"/>
         <source>manpage for linux</source>
         <translation>página man para linux</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="61"/>
+        <location filename="../about.cpp" line="62"/>
         <source>support for colored console output</source>
         <translation>código para interpretar la salida coloreada del MPlayer</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="62"/>
+        <location filename="../about.cpp" line="63"/>
         <source>icon for file associations</source>
         <translation>icono para las asociaciones de archivos</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="63"/>
+        <location filename="../about.cpp" line="64"/>
         <source>patch for file associations</source>
         <translation>parche para las asociaciones de archivos</translation>
     </message>
@@ -208,52 +208,52 @@
         <translation>Acerca de SMPlayer</translation>
     </message>
     <message>
-        <location filename="../about.ui" line="32"/>
+        <location filename="../about.ui" line="35"/>
         <source>&amp;Info</source>
         <translation>&amp;Información</translation>
     </message>
     <message>
-        <location filename="../about.ui" line="233"/>
+        <location filename="../about.ui" line="236"/>
         <source>icon</source>
         <translation>icon</translation>
     </message>
     <message>
-        <location filename="../about.ui" line="149"/>
+        <location filename="../about.ui" line="152"/>
         <source>TextLabel</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../about.ui" line="99"/>
+        <location filename="../about.ui" line="102"/>
         <source>&amp;Contributions</source>
         <translation>&amp;Contribuciones</translation>
     </message>
     <message>
-        <location filename="../about.ui" line="163"/>
+        <location filename="../about.ui" line="166"/>
         <source>&amp;Translators</source>
         <translation>&amp;Traductores</translation>
     </message>
     <message>
-        <location filename="../about.ui" line="213"/>
+        <location filename="../about.ui" line="216"/>
         <source>&amp;License</source>
         <translation>&amp;Licencia</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="38"/>
+        <location filename="../about.cpp" line="39"/>
         <source>Visit our web for updates:</source>
         <translation>Visita nuestra web para conseguir actualizaciones:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="40"/>
+        <location filename="../about.cpp" line="41"/>
         <source>Get help in our forum:</source>
         <translation>Consigue ayuda en nuestro foro:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="42"/>
+        <location filename="../about.cpp" line="43"/>
         <source>You can support SMPlayer by making a donation.</source>
         <translation>Puedes apoyar el desarrollo de SMPlayer haciendo una donación.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="43"/>
+        <location filename="../about.cpp" line="44"/>
         <source>More info</source>
         <translation>Más información</translation>
     </message>
