@@ -26,14 +26,21 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 	setupUi(this);
 
 	logo->setPixmap( Images::icon("logo", 64) );
+	contrib_icon->setPixmap( Images::icon("contributors" ) );
+	translators_icon->setPixmap( Images::icon("translators" ) );
+	license_icon->setPixmap( Images::icon("license" ) );
 
 	info->setText( 
 		"<b>SMPlayer</b> &copy; 2006-2007 Ricardo Villalba &lt;rvm@escomposlinux.org&gt;<br><br>"
 		"<b>" + tr("Version: %1").arg(smplayerVersion()) + "</b><br>" +
         "<br>" +
         tr("Compiled with Qt %1").arg(QT_VERSION_STR) + "<br><br>" +
-		tr("Visit our web for updates: %1").arg(link("http://smplayer.sf.net")) + "<br>" +
-		tr("Get help in our forum: %1").arg(link("http://smplayer.sf.net/forums"))
+		tr("Visit our web for updates:") +"<br>"+ link("http://smplayer.sf.net") + 
+        "<br><br>" +
+		tr("Get help in our forum:") +"<br>" + link("http://smplayer.sf.net/forums") +
+        "<br><br>" +
+		tr("You can support SMPlayer by making a donation.") +" "+
+		link("http://sourceforge.net/donate/index.php?user_id=115931", tr("More info"))
 	);
 
 	license->setText(
@@ -47,7 +54,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 
 	contributions->setText(
 		tr("Some people have helped with their contributions:") +
-		"<ul>" +
+		"<br><ul>" +
 		contr("Charles Barcza &lt;kbarcza@blackpanther.hu&gt;", tr("SMPlayer logo")) +
 		contr("Florin Braghis &lt;florin@libertv.ro&gt;", tr("file associations for Windows")) +
 		contr("Matvey Kozhev &lt;sikon@lucidfox.org&gt;", tr("manpage for linux")) +
@@ -65,7 +72,7 @@ About::~About() {
 QString About::getTranslators() {
 	return QString(
 		 tr("The following people have contributed with translations:") + 
-         "<ul>" +
+         "<br><ul>" +
          trad(tr("German"), "Henrikx") + 
 		 trad(tr("Slovak"), "Sweto &lt;peter.mendel@gmail.com&gt;") +
 		 trad(tr("Italian"), "Giancarlo Scola &lt;giancarlo@codexcoop.it&gt;") +

@@ -76,5 +76,8 @@
         <file>icons-png/type_video.png</file>
         <file>icons-png/url_big.png</file>
         <file>icons-png/pref_associations.png</file>
+        <file>icons-png/translators.png</file>
+        <file>icons-png/contributors.png</file>
+        <file>icons-png/license.png</file>
     </qresource>
 </RCC>
