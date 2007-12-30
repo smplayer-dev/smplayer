@@ -3219,7 +3219,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Iconiţă</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="109"/>
+        <location filename="../prefinput.cpp" line="110"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>Aici se pot modifica tastele pentru acces rapid.Pentru a face acest lucru executaţi clic dublu sau tastaţi peste celula în care se menţionează tipul de acces rapid.Opţional se poate salva lista pentru a o împărtăşi cu prietenii sau pentru folosirea în alt caculator.</translation>
     </message>
@@ -3234,17 +3234,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Funcţii butoane:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="98"/>
+        <location filename="../prefinput.cpp" line="99"/>
         <source>Media seeking</source>
         <translation>Căutare media</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="99"/>
+        <location filename="../prefinput.cpp" line="100"/>
         <source>Volume control</source>
         <translation>Control volum</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="100"/>
+        <location filename="../prefinput.cpp" line="101"/>
         <source>Zoom video</source>
         <translation>Zoom video</translation>
     </message>
@@ -3274,42 +3274,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Funcţii &amp;rotiţă:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="181"/>
+        <location filename="../prefinput.cpp" line="182"/>
         <source>Shortcut editor</source>
         <translation>Editor acces rapid</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="190"/>
+        <location filename="../prefinput.cpp" line="191"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>Acest tabel vă permite modificarea tastelor de acces rapid pentru cele mai multe dintre acţiunile disponibile. Faceţi dublu clic sau apăsaţi tasta Enter pe un articol, sau apăsaţi butonul &lt;b&gt;Change shortcut&lt;/b&gt; pentru a intra în meniul dialog &lt;i&gt;Modify shortcut&lt;/i&gt;. Sunt două modalităţi de schimbare a tastelor de acces rapid: dacă butonul &lt;b&gt;Capture&lt;/b&gt; este activ atunci apăsaţi noua combinaţie de taste pe care doriţi să o desemnati pentru acţiunea  selectată (din nefericire această posibilitate nu este funcţională pentru toate tastele). Dacă butonul &lt;b&gt;Capture &lt;/b&gt; nu este activ atunci aţi putea introduce numele întreg al tastei.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="192"/>
+        <location filename="../prefinput.cpp" line="193"/>
         <source>Left click</source>
         <translation>Clic stânga</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="193"/>
+        <location filename="../prefinput.cpp" line="194"/>
         <source>Select the action for left click on the mouse.</source>
         <translation>Selectare acţiune pentru clic stânga cu mouse.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="195"/>
+        <location filename="../prefinput.cpp" line="196"/>
         <source>Double click</source>
         <translation>Dublu clic</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="196"/>
+        <location filename="../prefinput.cpp" line="197"/>
         <source>Select the action for double click on the mouse.</source>
         <translation>Selectare acţiune pentru dublu clic cu mouse.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="198"/>
+        <location filename="../prefinput.cpp" line="199"/>
         <source>Wheel function</source>
         <translation>Funcţie rotiţă</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="199"/>
+        <location filename="../prefinput.cpp" line="200"/>
         <source>Select the action for the mouse wheel.</source>
         <translation>Selectare acţiune pentru rotiţă mouse.</translation>
     </message>
@@ -3354,22 +3354,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Mute</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="63"/>
+        <location filename="../prefinput.cpp" line="66"/>
         <source>Frame counter</source>
         <translation>Contor cadre</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="65"/>
+        <location filename="../prefinput.cpp" line="63"/>
         <source>Reset zoom</source>
         <translation>Reset zoom</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="66"/>
+        <location filename="../prefinput.cpp" line="64"/>
         <source>Exit fullscreen</source>
         <translation>Ieşire mod fullscreen</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="67"/>
+        <location filename="../prefinput.cpp" line="68"/>
         <source>Double size</source>
         <translation>Dimensiune dublă</translation>
     </message>
@@ -3394,24 +3394,29 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Listă_Titluri</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="64"/>
+        <location filename="../prefinput.cpp" line="67"/>
         <source>Preferences</source>
         <translation>Opţiuni Preferate</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="97"/>
+        <location filename="../prefinput.cpp" line="98"/>
         <source>No function</source>
         <translation>Nici o funcţie</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="101"/>
+        <location filename="../prefinput.cpp" line="102"/>
         <source>Change speed</source>
         <translation>Modificare viteză</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="68"/>
+        <location filename="../prefinput.cpp" line="69"/>
         <source>Show equalizer</source>
         <translation>Afişare egalizor</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="65"/>
+        <source>Normal speed</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

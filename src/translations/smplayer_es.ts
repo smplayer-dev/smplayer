@@ -3256,7 +3256,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>icon</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="109"/>
+        <location filename="../prefinput.cpp" line="110"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>Aquí puedes cambiar los atajos de teclado. Para hacerlo haz doble click o empieza a escribir sobre un atajo. Opcionalmente también puedes guardar la lista para compartirla con otras personas o usarla en otro ordenador.</translation>
     </message>
@@ -3271,17 +3271,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Funciones de los botones:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="98"/>
+        <location filename="../prefinput.cpp" line="99"/>
         <source>Media seeking</source>
         <translation>Desplazarse por el medio</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="99"/>
+        <location filename="../prefinput.cpp" line="100"/>
         <source>Volume control</source>
         <translation>Controlar el volumen</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="100"/>
+        <location filename="../prefinput.cpp" line="101"/>
         <source>Zoom video</source>
         <translation>Hacer zoom en el vídeo</translation>
     </message>
@@ -3311,42 +3311,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Función de la rueda:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="181"/>
+        <location filename="../prefinput.cpp" line="182"/>
         <source>Shortcut editor</source>
         <translation>Editor de atajos</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="190"/>
+        <location filename="../prefinput.cpp" line="191"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>Esta tabla te permite cambiar los atajos del teclado para la mayoría de las acciones disponibles. Haz doble click o pulsa intro sobre una acción, o pulsa el botón &lt;b&gt;Modificar atajo&lt;/b&gt; para abrir el diálogo &lt;i&gt;Modificar atajo&lt;/i&gt;. Hay dos maneras de cambiar un atajo: si el botón &lt;b&gt;Capturar&lt;/b&gt; está activado, entonces simplemente presiona la nueva tecla o combinación de teclas que desees asignar para la acción (desafortunadamente no funciona con todas las teclas). Si el botón &lt;b&gt;Capturar&lt;/b&gt; está desactivado entonces puedes teclear el nombre completo de la tecla.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="192"/>
+        <location filename="../prefinput.cpp" line="193"/>
         <source>Left click</source>
         <translation>Botón izquierdo</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="193"/>
+        <location filename="../prefinput.cpp" line="194"/>
         <source>Select the action for left click on the mouse.</source>
         <translation>Selecciona la acción para el botón izquierdo del ratón.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="195"/>
+        <location filename="../prefinput.cpp" line="196"/>
         <source>Double click</source>
         <translation>Doble click</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="196"/>
+        <location filename="../prefinput.cpp" line="197"/>
         <source>Select the action for double click on the mouse.</source>
         <translation>Selecciona la acción para el doble click del ratón.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="198"/>
+        <location filename="../prefinput.cpp" line="199"/>
         <source>Wheel function</source>
         <translation>Función de la rueda</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="199"/>
+        <location filename="../prefinput.cpp" line="200"/>
         <source>Select the action for the mouse wheel.</source>
         <translation>Selecciona la acción para la rueda del ratón.</translation>
     </message>
@@ -3406,7 +3406,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Mostrar lista de reproducción</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="63"/>
+        <location filename="../prefinput.cpp" line="66"/>
         <source>Frame counter</source>
         <translation>Contador de imágenes</translation>
     </message>
@@ -3416,17 +3416,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Preferencias</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="65"/>
+        <location filename="../prefinput.cpp" line="63"/>
         <source>Reset zoom</source>
         <translation>Quitar zoom</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="66"/>
+        <location filename="../prefinput.cpp" line="64"/>
         <source>Exit fullscreen</source>
         <translation>Salir de pantalla completa</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="67"/>
+        <location filename="../prefinput.cpp" line="68"/>
         <source>Double size</source>
         <translation>Tamaño doble</translation>
     </message>
@@ -3451,24 +3451,29 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Lista de reproducción</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="64"/>
+        <location filename="../prefinput.cpp" line="67"/>
         <source>Preferences</source>
         <translation>Preferencias</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="97"/>
+        <location filename="../prefinput.cpp" line="98"/>
         <source>No function</source>
         <translation>Sin función</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="101"/>
+        <location filename="../prefinput.cpp" line="102"/>
         <source>Change speed</source>
         <translation>Cambiar velocidad</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="68"/>
+        <location filename="../prefinput.cpp" line="69"/>
         <source>Show equalizer</source>
         <translation>Mostrar ecualizador</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="65"/>
+        <source>Normal speed</source>
+        <translation>Velocidad normal</translation>
     </message>
 </context>
 <context>
