@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -240,22 +241,22 @@
     <message>
         <location filename="../about.cpp" line="39"/>
         <source>Visit our web for updates:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vizitaţi situl nostru web pentru actualizări:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="41"/>
         <source>Get help in our forum:</source>
-        <translation type="unfinished"></translation>
+        <translation>Obţineţi ajutor pe forumul nostru:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="43"/>
         <source>You can support SMPlayer by making a donation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Puteţi susţine SMPlayer făcând o donaţie.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="44"/>
         <source>More info</source>
-        <translation type="unfinished"></translation>
+        <translation>Informaţii suplimentare</translation>
     </message>
 </context>
 <context>
@@ -3416,7 +3417,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="65"/>
         <source>Normal speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Viteză Normală</translation>
     </message>
 </context>
 <context>
