@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -30,7 +31,7 @@
     <message>
         <location filename="../about.cpp" line="50"/>
         <source>Some people have helped with their contributions:</source>
-        <translation>O serie de oameni au ajutat cu contribuţiile lor:</translation>
+        <translation>O parte din colaboratorii care au ajutat la dezvoltarea proiectului:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="51"/>
@@ -3163,22 +3164,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="296"/>
         <source>&amp;Video</source>
-        <translation type="unfinished">&amp;Video</translation>
+        <translation>&amp;Video</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="308"/>
         <source>Use s&amp;oftware video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilizare egalizor video s&amp;oftware</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="413"/>
         <source>A&amp;udio</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;udio</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="425"/>
         <source>Volume</source>
-        <translation type="unfinished">Volum</translation>
+        <translation>Volum</translation>
     </message>
 </context>
 <context>
