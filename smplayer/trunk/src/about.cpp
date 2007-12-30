@@ -24,6 +24,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 	: QDialog(parent, f) 
 {
 	setupUi(this);
+	setWindowIcon( Images::icon("logo", 64) );
 
 	logo->setPixmap( Images::icon("logo", 64) );
 	contrib_icon->setPixmap( Images::icon("contributors" ) );
@@ -39,7 +40,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
         "<br><br>" +
 		tr("Get help in our forum:") +"<br>" + link("http://smplayer.sf.net/forums") +
         "<br><br>" +
-		tr("You can support SMPlayer by making a donation.") +" "+
+		tr("You can support SMPlayer by making a donation.") +"<br>"+
 		link("http://sourceforge.net/donate/index.php?user_id=115931", tr("More info"))
 	);
 
@@ -63,7 +64,6 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 		contr("LoRd_MuldeR", tr("patch for file associations")) +
 		"</ul>"
 	);
-
 }
 
 About::~About() {
