@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -240,22 +241,22 @@
     <message>
         <location filename="../about.cpp" line="39"/>
         <source>Visit our web for updates:</source>
-        <translation type="unfinished"></translation>
+        <translation>Besuchen sie unser Web für Updates:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="41"/>
         <source>Get help in our forum:</source>
-        <translation type="unfinished"></translation>
+        <translation>Holen Sie sich Hilfe in unserem Forum:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="43"/>
         <source>You can support SMPlayer by making a donation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sie können SMPlayer durch eine Spende unterstützen.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="44"/>
         <source>More info</source>
-        <translation type="unfinished"></translation>
+        <translation>Mehr Info</translation>
     </message>
 </context>
 <context>
@@ -3213,22 +3214,22 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefgeneral.ui" line="296"/>
         <source>&amp;Video</source>
-        <translation type="unfinished">&amp;Video</translation>
+        <translation>&amp;Video</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="308"/>
         <source>Use s&amp;oftware video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Benutze S&amp;oftware-Video-Equalizer</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="413"/>
         <source>A&amp;udio</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;udio</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="425"/>
         <source>Volume</source>
-        <translation type="unfinished">Lautstärke</translation>
+        <translation>Lautstärke</translation>
     </message>
 </context>
 <context>
@@ -3446,7 +3447,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinput.cpp" line="65"/>
         <source>Normal speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Normale Geschwindigkeit</translation>
     </message>
 </context>
 <context>
