@@ -40,7 +40,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
         "<br><br>" +
 		tr("Get help in our forum:") +"<br>" + link("http://smplayer.sf.net/forums") +
         "<br><br>" +
-		tr("You can support SMPlayer by making a donation.") +"<br>"+
+		tr("You can support SMPlayer by making a donation.") +" "+
 		link("http://sourceforge.net/donate/index.php?user_id=115931", tr("More info"))
 	);
 
