@@ -5,8 +5,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>552</width>
-    <height>341</height>
+    <width>518</width>
+    <height>326</height>
    </rect>
   </property>
   <property name="windowTitle" >
@@ -30,7 +30,7 @@
      <property name="currentIndex" >
       <number>0</number>
      </property>
-     <widget class="QWidget" name="tab" >
+     <widget class="QWidget" name="info_tab" >
       <attribute name="title" >
        <string>&amp;Info</string>
       </attribute>
@@ -73,6 +73,12 @@
        </item>
        <item>
         <widget class="QTextBrowser" name="info" >
+         <property name="frameShape" >
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow" >
+          <enum>QFrame::Plain</enum>
+         </property>
          <property name="openExternalLinks" >
           <bool>true</bool>
          </property>
@@ -80,7 +86,7 @@
        </item>
       </layout>
      </widget>
-     <widget class="QWidget" name="tab_2" >
+     <widget class="QWidget" name="contributions_tab" >
       <attribute name="title" >
        <string>&amp;Contributions</string>
       </attribute>
@@ -123,6 +129,12 @@
        </item>
        <item>
         <widget class="QTextBrowser" name="contributions" >
+         <property name="frameShape" >
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow" >
+          <enum>QFrame::Plain</enum>
+         </property>
          <property name="openExternalLinks" >
           <bool>true</bool>
          </property>
@@ -130,7 +142,7 @@
        </item>
       </layout>
      </widget>
-     <widget class="QWidget" name="tab_3" >
+     <widget class="QWidget" name="translations_tab" >
       <attribute name="title" >
        <string>&amp;Translators</string>
       </attribute>
@@ -173,6 +185,12 @@
        </item>
        <item>
         <widget class="QTextBrowser" name="translators" >
+         <property name="frameShape" >
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow" >
+          <enum>QFrame::Plain</enum>
+         </property>
          <property name="openExternalLinks" >
           <bool>true</bool>
          </property>
@@ -180,7 +198,7 @@
        </item>
       </layout>
      </widget>
-     <widget class="QWidget" name="tab_4" >
+     <widget class="QWidget" name="license_tab" >
       <attribute name="title" >
        <string>&amp;License</string>
       </attribute>
@@ -223,6 +241,12 @@
        </item>
        <item>
         <widget class="QTextBrowser" name="license" >
+         <property name="frameShape" >
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow" >
+          <enum>QFrame::Plain</enum>
+         </property>
          <property name="openExternalLinks" >
           <bool>true</bool>
          </property>

@@ -1,5 +1,9 @@
 [b]Version 0.5.63 (not released yet)[/b]:
 
+(2007-12-30)
+ * Replaced the QLabels and QTextEdits in the about dialog with QTextBrowsers,
+   and changed the background colors.
+
 (2007-12-29)
  * Split the section "Video and audio" in Preferences->General into 2 sections.
  * Added 3 icons in the about dialog (contributors.png, translators.png and 

@@ -36,9 +36,9 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 		"<b>" + tr("Version: %1").arg(smplayerVersion()) + "</b><br>" +
         "<br>" +
         tr("Compiled with Qt %1").arg(QT_VERSION_STR) + "<br><br>" +
-		tr("Visit our web for updates:") +"<br>"+ link("http://smplayer.sf.net") + 
+		tr("Visit our web for updates:") +" "+ link("http://smplayer.sf.net") + 
         "<br><br>" +
-		tr("Get help in our forum:") +"<br>" + link("http://smplayer.sf.net/forums") +
+		tr("Get help in our forum:") +" " + link("http://smplayer.sf.net/forums") +
         "<br><br>" +
 		tr("You can support SMPlayer by making a donation.") +" "+
 		link("http://sourceforge.net/donate/index.php?user_id=115931", tr("More info"))
@@ -64,6 +64,14 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 		contr("LoRd_MuldeR", tr("patch for file associations")) +
 		"</ul>"
 	);
+
+	QPalette p = info->palette();
+	p.setBrush(QPalette::Base, tabWidget->palette().window());
+
+	info->setPalette(p);
+	contributions->setPalette(p);
+	translators->setPalette(p);
+	license->setPalette(p);
 }
 
 About::~About() {
