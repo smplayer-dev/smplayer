@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -240,22 +241,22 @@
     <message>
         <location filename="../about.cpp" line="39"/>
         <source>Visit our web for updates:</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktualizacja na naszej stronie:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="41"/>
         <source>Get help in our forum:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomoc na naszym forum:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="43"/>
         <source>You can support SMPlayer by making a donation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Możesz wspomóc SMPlayer przez dotację.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="44"/>
         <source>More info</source>
-        <translation type="unfinished"></translation>
+        <translation>Więcej informacji</translation>
     </message>
 </context>
 <context>
@@ -3204,37 +3205,38 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefgeneral.cpp" line="549"/>
         <source>Change volume just before playing</source>
-        <translation type="unfinished"></translation>
+        <translation>Zmień prędkość tylko przed odtwarzaniem</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="620"/>
         <source>Change volume just before p&amp;laying (avoids loud volume on startup)</source>
-        <translation type="unfinished"></translation>
+        <translation>Zmień prędkość tylko przed &amp;odtwarzaniem
+(unika hałaśliwej głóśności przy uruchomieniu)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="555"/>
         <source>If this option is checked the initial volume will be set by using the &lt;i&gt;-volume&lt;/i&gt; option in MPlayer.&lt;br&gt; &lt;b&gt;WARNING: THE OFFICIAL MPLAYER DOESN&apos;T HAVE THAT &lt;i&gt;-volume&lt;/i&gt; OPTION, YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON&apos;T PLAY ANYTHING.&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli ta opcja jest zaznaczona początkowa głośność będzie ustawiona na używanie opcji &lt;i&gt;-głośność&lt;/i&gt; w MPlayerze.&lt;b&gt;UWAGA: OFICJALNY MPLAYER NIE MA OPCJI &lt;i&gt;-głośność&lt;/i&gt; ,POSIADA JĄ WERSJA Z PATCHEM,  INACZEJ MPLAYER NIE ZADZIAŁA LUB NIE ODTWORZY NICZEGO.&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="296"/>
         <source>&amp;Video</source>
-        <translation type="unfinished">&amp;Wideo</translation>
+        <translation>&amp;Wideo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="308"/>
         <source>Use s&amp;oftware video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Użyj &amp;programowego korektora wideo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="413"/>
         <source>A&amp;udio</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;udio</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="425"/>
         <source>Volume</source>
-        <translation type="unfinished">Głośność</translation>
+        <translation>Głośność</translation>
     </message>
 </context>
 <context>
@@ -3452,7 +3454,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinput.cpp" line="65"/>
         <source>Normal speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Normalna prędkość</translation>
     </message>
 </context>
 <context>
