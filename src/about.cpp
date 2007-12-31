@@ -65,8 +65,24 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 		"</ul>"
 	);
 
+	// Copy the background color ("window") of the tab widget to the "base" color of the qtextbrowsers
+	// Problem, it doesn't work with some styles, so first we change the "window" color of the tab widgets.
+	info_tab->setAutoFillBackground(true);
+	contributions_tab->setAutoFillBackground(true);
+	translations_tab->setAutoFillBackground(true);
+	license_tab->setAutoFillBackground(true);
+	
+	QPalette pal = info_tab->palette();
+	pal.setColor(QPalette::Window, palette().color(QPalette::Window) );
+	
+	info_tab->setPalette(pal);
+	contributions_tab->setPalette(pal);
+	translations_tab->setPalette(pal);
+	license_tab->setPalette(pal);
+	
 	QPalette p = info->palette();
-	p.setBrush(QPalette::Base, tabWidget->palette().window());
+	//p.setBrush(QPalette::Base, info_tab->palette().window());
+	p.setColor(QPalette::Base, info_tab->palette().color(QPalette::Window));
 
 	info->setPalette(p);
 	contributions->setPalette(p);

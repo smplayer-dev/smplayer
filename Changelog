@@ -1,5 +1,9 @@
 [b]Version 0.5.63 (not released yet)[/b]:
 
+(2007-12-31)
+ * Now the QTextBrowsers really should have the same background color as the
+   near widgets.
+
 (2007-12-30)
  * Replaced the QLabels and QTextEdits in the about dialog with QTextBrowsers,
    and changed the background colors.
