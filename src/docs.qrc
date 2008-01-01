@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/" >
+        <file>docs/Copying.txt</file>
+	</qresource>
+</RCC>

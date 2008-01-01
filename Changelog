@@ -4,6 +4,9 @@
  * Now the QTextBrowsers really should have the same background color as the
    near widgets.
  * Now the about dialog can show the version number of mplayer.
+ * The about dialog displays the GPL in the license tab. Temporary the file
+   with the GPL text is embedded in the smplayer executable. In the future it
+   will be read from documentation directory.
 
 (2007-12-30)
  * Replaced the QLabels and QTextEdits in the about dialog with QTextBrowsers,
