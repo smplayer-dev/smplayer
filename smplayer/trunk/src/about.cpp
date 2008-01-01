@@ -1,5 +1,5 @@
 /*  smplayer, GUI front-end for mplayer.
-    Copyright (C) 2007 Ricardo Villalba <rvm@escomposlinux.org>
+    Copyright (C) 2006-2008 Ricardo Villalba <rvm@escomposlinux.org>
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -32,7 +32,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 	license_icon->setPixmap( Images::icon("license" ) );
 
 	info->setText( 
-		"<b>SMPlayer</b> &copy; 2006-2007 Ricardo Villalba &lt;rvm@escomposlinux.org&gt;<br><br>"
+		"<b>SMPlayer</b> &copy; 2006-2008 Ricardo Villalba &lt;rvm@escomposlinux.org&gt;<br><br>"
 		"<b>" + tr("Version: %1").arg(smplayerVersion()) + "</b><br>" +
         "<br>" +
         tr("Compiled with Qt %1").arg(QT_VERSION_STR) + "<br><br>" +
