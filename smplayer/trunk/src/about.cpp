@@ -19,6 +19,8 @@
 #include "about.h"
 #include "images.h"
 #include "version.h"
+#include "global.h"
+#include "preferences.h"
 
 About::About(QWidget * parent, Qt::WindowFlags f)
 	: QDialog(parent, f) 
@@ -31,11 +33,17 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 	translators_icon->setPixmap( Images::icon("translators" ) );
 	license_icon->setPixmap( Images::icon("license" ) );
 
+	QString mplayer_version;
+	if (pref->mplayer_version > 0) {
+		mplayer_version = tr("Using MPlayer SVN r%1").arg(pref->mplayer_version) + "<br><br>";
+	}
+
 	info->setText( 
 		"<b>SMPlayer</b> &copy; 2006-2008 Ricardo Villalba &lt;rvm@escomposlinux.org&gt;<br><br>"
-		"<b>" + tr("Version: %1").arg(smplayerVersion()) + "</b><br>" +
+		"<b>" + tr("Version: %1").arg(smplayerVersion()) + "</b>" +
         "<br>" +
         tr("Compiled with Qt %1").arg(QT_VERSION_STR) + "<br><br>" +
+		mplayer_version +
 		tr("Visit our web for updates:") +" "+ link("http://smplayer.sf.net") + 
         "<br><br>" +
 		tr("Get help in our forum:") +" " + link("http://smplayer.sf.net/forums") +
@@ -127,7 +135,7 @@ QString About::getTranslators() {
          trad(tr("Portuguese - Portugal"), "Waxman &lt;waxman.pt@gmail.com&gt;") +
 		 trad(tr("Greek"), "my80s &lt;wamy80s@gmail.com&gt;") +
 		 trad(tr("Finnish"), "peeaivo &lt;peeaivo@gmail.com&gt;") +
-         "</ul><br>");
+         "</ul>");
 }
 
 QString About::trad(const QString & lang, const QString & author) {

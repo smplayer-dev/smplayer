@@ -3,6 +3,7 @@
 (2007-12-31)
  * Now the QTextBrowsers really should have the same background color as the
    near widgets.
+ * Now the about dialog can show the version number of mplayer.
 
 (2007-12-30)
  * Replaced the QLabels and QTextEdits in the about dialog with QTextBrowsers,
