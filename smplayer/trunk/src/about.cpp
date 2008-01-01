@@ -22,6 +22,9 @@
 #include "global.h"
 #include "preferences.h"
 
+#include <QFile>
+
+
 About::About(QWidget * parent, Qt::WindowFlags f)
 	: QDialog(parent, f) 
 {
@@ -52,12 +55,28 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 		link("http://sourceforge.net/donate/index.php?user_id=115931", tr("More info"))
 	);
 
-	license->setText(
+
+	QString license_file = ":/docs/Copying.txt";
+	if (QFile::exists(license_file)) {
+		license->setLineWrapMode(QTextEdit::NoWrap);
+		QFont fixed_font;
+		fixed_font.setStyleHint(QFont::TypeWriter);
+		fixed_font.setFamily("Courier");
+		license->setFont(fixed_font);
+
+		QFile f(license_file);
+		if (f.open(QIODevice::ReadOnly)) {
+			license->setText(f.readAll());
+		}
+		f.close();
+	} else {
+		license->setText(
 		"<i>" +
 		tr("This program is free software; you can redistribute it and/or modify "
 	    "it under the terms of the GNU General Public License as published by "
 	    "the Free Software Foundation; either version 2 of the License, or "
   	    "(at your option) any later version.") + "</i>");
+	}
 
 	translators->setText( getTranslators() );
 
@@ -95,7 +114,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 	info->setPalette(p);
 	contributions->setPalette(p);
 	translators->setPalette(p);
-	license->setPalette(p);
+	//license->setPalette(p);
 }
 
 About::~About() {
