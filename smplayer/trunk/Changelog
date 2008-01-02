@@ -4,6 +4,7 @@
  * Added a function to get the path of a translatable document. The 
    translatable documents should be (in the sources) in the docs subdir.
  * Now the GPL file is loaded from that path.
+ * Added the Spanish and German translation of the GPL v2.
 
 (2007-12-31)
  * Now the QTextBrowsers really should have the same background color as the
