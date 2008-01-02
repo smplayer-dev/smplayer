@@ -6,7 +6,7 @@ CONFIG	+= qt warn_on release
 QT += network
 #QT +=  opengl 
 
-RESOURCES = icons.qrc docs.qrc
+RESOURCES = icons.qrc
 
 HEADERS	+= config.h \
 	constants.h \

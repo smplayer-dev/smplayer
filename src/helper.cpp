@@ -25,6 +25,7 @@
 #include <QDir>
 #include <QTextCodec>
 #include <QWidget>
+#include <QLocale>
 #include "config.h"
 
 #include <QLibraryInfo>
@@ -99,9 +100,9 @@ QString Helper::docPath() {
 	if (!path.isEmpty())
 		return path;
 	else
-		return appPath();
+		return appPath() + "/docs";
 #else
-	return appPath();
+	return appPath() + "/docs";
 #endif
 }
 
@@ -143,6 +144,23 @@ QString Helper::shortcutsPath() {
 
 QString Helper::qtTranslationPath() {
 	return QLibraryInfo::location(QLibraryInfo::TranslationsPath);
+}
+
+QString Helper::doc(QString file) {
+	QString locale = QLocale::system().name();
+	QString f = docPath() + "/" + locale + "/" + file;
+	qDebug("Helper:doc: checking '%s'", f.toUtf8().data());
+	if (QFile::exists(f)) return f;
+
+	if (locale.indexOf(QRegExp("_[A-Z]+")) != -1) {
+		locale.replace(QRegExp("_[A-Z]+"), "");
+		f = docPath() + "/" + locale + "/" + file;
+		qDebug("Helper:doc: checking '%s'", f.toUtf8().data());
+		if (QFile::exists(f)) return f;
+	}
+
+	f = docPath() + "/en/" + file;
+	return f;
 }
 
 QString Helper::appHomePath() {
