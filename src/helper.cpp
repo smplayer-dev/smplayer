@@ -146,8 +146,11 @@ QString Helper::qtTranslationPath() {
 	return QLibraryInfo::location(QLibraryInfo::TranslationsPath);
 }
 
-QString Helper::doc(QString file) {
-	QString locale = QLocale::system().name();
+QString Helper::doc(QString file, QString locale) {
+	if (locale.isEmpty()) {
+		locale = QLocale::system().name();
+	}
+
 	QString f = docPath() + "/" + locale + "/" + file;
 	qDebug("Helper:doc: checking '%s'", f.toUtf8().data());
 	if (QFile::exists(f)) return f;

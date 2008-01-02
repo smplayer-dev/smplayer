@@ -48,7 +48,7 @@ public:
 	static QString themesPath();
 	static QString shortcutsPath();
 	static QString qtTranslationPath();
-	static QString doc(QString file);
+	static QString doc(QString file, QString locale = QString::null);
 
 	//! Return the user's home
 	static QString appHomePath();

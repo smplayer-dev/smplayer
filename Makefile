@@ -65,8 +65,9 @@ install: src/smplayer
 	install -m 644 Changelog *.txt $(DESTDIR)$(DOC_PATH)
 	-install -d $(DESTDIR)$(DOC_PATH)/en
 	-install -d $(DESTDIR)$(DOC_PATH)/de
-	cp -R doc/en/* $(DESTDIR)$(DOC_PATH)/en/
-	- cp -R doc/de/* $(DESTDIR)$(DOC_PATH)/de/
+	cp -R docs/en/* $(DESTDIR)$(DOC_PATH)/en/
+	- cp -R docs/de/* $(DESTDIR)$(DOC_PATH)/de/
+	- cp -R docs/es/* $(DESTDIR)$(DOC_PATH)/es/
 
 	-install -d $(DESTDIR)$(SHORTCUTS_PATH)
 	cp src/shortcuts/* $(DESTDIR)$(SHORTCUTS_PATH)
