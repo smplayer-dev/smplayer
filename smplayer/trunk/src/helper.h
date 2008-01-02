@@ -48,6 +48,7 @@ public:
 	static QString themesPath();
 	static QString shortcutsPath();
 	static QString qtTranslationPath();
+	static QString doc(QString file);
 
 	//! Return the user's home
 	static QString appHomePath();

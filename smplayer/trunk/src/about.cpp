@@ -21,6 +21,7 @@
 #include "version.h"
 #include "global.h"
 #include "preferences.h"
+#include "helper.h"
 
 #include <QFile>
 
@@ -56,7 +57,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 	);
 
 
-	QString license_file = ":/docs/Copying.txt";
+	QString license_file = Helper::doc("GPL.txt");
 	if (QFile::exists(license_file)) {
 		license->setLineWrapMode(QTextEdit::NoWrap);
 		QFont fixed_font;
