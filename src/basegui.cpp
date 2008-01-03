@@ -35,6 +35,7 @@
 #include <QUrl>
 #include <QDragEnterEvent>
 #include <QDropEvent>
+#include <QDesktopServices>
 
 #include <cmath>
 
@@ -559,6 +560,10 @@ void BaseGui::createActions() {
              this, SLOT(showLog()) );
 
 	// Menu Help
+	showFAQAct = new MyAction( this, "faq" );
+	connect( showFAQAct, SIGNAL(triggered()),
+             this, SLOT(helpFAQ()) );
+
 	aboutQtAct = new MyAction( this, "about_qt" );
 	connect( aboutQtAct, SIGNAL(triggered()),
              this, SLOT(helpAboutQt()) );
@@ -1057,6 +1062,7 @@ void BaseGui::retranslateStrings() {
 	showLogSmplayerAct->change( "SMPlayer" );
 
 	// Menu Help
+	showFAQAct->change( Images::icon("faq"), tr("&FAQ") );
 	aboutQtAct->change( Images::icon("qt"), tr("About &Qt") );
 	aboutThisAct->change( Images::icon("logo_small"), tr("About &SMPlayer") );
 
@@ -1635,6 +1641,8 @@ void BaseGui::createMenus() {
 
 
 	// HELP MENU
+	helpMenu->addAction(showFAQAct);
+	helpMenu->addSeparator();
 	helpMenu->addAction(aboutQtAct);
 	helpMenu->addAction(aboutThisAct);
 
@@ -2593,6 +2601,10 @@ void BaseGui::loadAudioFile() {
         tr("All files") +" (*.*)" );
 
 	if (!s.isEmpty()) core->loadAudioFile(s);
+}
+
+void BaseGui::helpFAQ() {
+	QDesktopServices::openUrl( Helper::doc("faq.html") );
 }
 
 void BaseGui::helpAbout() {

@@ -81,6 +81,7 @@ public slots:
 	virtual void openDirectory();
 	virtual void openDirectory(QString directory);
 
+	virtual void helpFAQ();
     virtual void helpAbout();
 	virtual void helpAboutQt();
 
@@ -330,6 +331,7 @@ protected:
 	MyAction * showLogSmplayerAct;
 
 	// Menu Help
+	MyAction * showFAQAct;
 	MyAction * aboutQtAct;
 	MyAction * aboutThisAct;
 
