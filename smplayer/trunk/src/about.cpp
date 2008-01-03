@@ -57,15 +57,8 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 	);
 
 
-	QString license_file = Helper::doc("GPL.html", pref->language);
-	//if (!QFile::exists(license_file)) license_file = Helper::doc("GPL.txt", pref->language);
-
+	QString license_file = Helper::doc("gpl.html", pref->language);
 	if (QFile::exists(license_file)) {
-		/*
-		if (license_file.endsWith("txt")) {
-			license->setLineWrapMode(QTextEdit::NoWrap);
-		}
-		*/
 		QFont fixed_font;
 		fixed_font.setStyleHint(QFont::TypeWriter);
 		fixed_font.setFamily("Courier");
