@@ -1,5 +1,11 @@
 [b]Version 0.5.63 (not released yet)[/b]:
 
+(2008-01-03)
+ * Now the GPL in English is in html too. From now on, all documents
+   that smplayer have to load should be in html. This is because the
+   debian packager compress all txt files, and so smplayer won't able
+   to find them.
+
 (2008-01-02)
  * Added a function to get the path of a translatable document. The 
    translatable documents should be (in the sources) in the docs subdir.
