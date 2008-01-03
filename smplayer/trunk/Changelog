@@ -5,6 +5,8 @@
    that smplayer have to load should be in html. This is because the
    debian packager compress all txt files, and so smplayer won't able
    to find them.
+ * The file FAQ.txt has been moved to docs/en and converted to html.
+ * New option Help->FAQ, which will display the FAQ in your web browser.
 
 (2008-01-02)
  * Added a function to get the path of a translatable document. The 
