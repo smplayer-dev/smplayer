@@ -2267,20 +2267,24 @@ void Core::changeSubtitle(int ID) {
 		if (ID == -1) {
 			tellmp( "sub_source -1" );
 		} else {
-			real_id = mdat.subs.itemAt(ID).ID();
-			switch (mdat.subs.itemAt(ID).type()) {
-				case SubData::Vob:
-					tellmp( "sub_vob " + QString::number(real_id) );
-					break;
-				case SubData::Sub:
-					tellmp( "sub_demux " + QString::number(real_id) );
-					break;
-				case SubData::File:
-					tellmp( "sub_file " + QString::number(real_id) );
-					break;
-				default: {
-					qWarning("Core::changeSubtitle: unknown type!");
+			if (mdat.subs.numItems() > 0) {
+				real_id = mdat.subs.itemAt(ID).ID();
+				switch (mdat.subs.itemAt(ID).type()) {
+					case SubData::Vob:
+						tellmp( "sub_vob " + QString::number(real_id) );
+						break;
+					case SubData::Sub:
+						tellmp( "sub_demux " + QString::number(real_id) );
+						break;
+					case SubData::File:
+						tellmp( "sub_file " + QString::number(real_id) );
+						break;
+					default: {
+						qWarning("Core::changeSubtitle: unknown type!");
+					}
 				}
+			} else {
+				qWarning("Core::changeSubtitle: subtitle list is empty!");
 			}
 		}
 	}
