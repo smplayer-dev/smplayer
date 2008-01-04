@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1349,7 +1350,7 @@ O fereastră de dialog va fi afişată pentru a putea face configurarea.</transl
     <message>
         <location filename="../basegui.cpp" line="1065"/>
         <source>&amp;FAQ</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;FAQ</translation>
     </message>
 </context>
 <context>
