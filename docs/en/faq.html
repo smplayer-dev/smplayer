@@ -1,19 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; charset=iso-8859-1">
 <title>SMPlayer FAQ</title>
 </head>
 
 <body>
 <h1>Frequently Asked Questions</h1>
 
-<p>
-<b>1) Sometimes I read SMPlayer, others MPlayer, what are they? are they
+<ol>
+<li>
+<b>Sometimes I read SMPlayer, others MPlayer, what are they? are they
 the same?</b>
 <p>
 No, they are two different applications. MPlayer is a multimedia player
 developed initially for linux and then ported to other OS. It's very
 good, it plays almost every everything, and it has for instance a lot of
-filters and so on. But most users may find it hard to use it. 
+filters and so on. But most users may find it hard to use it.
 <p>
 Fortunately MPlayer can work together with another application (the
 video window can be embedded in the other application GUI, it obeys
@@ -28,9 +31,10 @@ even know what a codec is.
 MPlayer on the other hand, opens the files, decodes them, displays the
 video and plays the audio. Subtitles are also read, parsed and displayed
 on screen by MPlayer.
+</li>
 
-<p>
-<b>2) DVD menus, where are they?</b>
+<li>
+<b>DVD menus, where are they?</b>
 <p>
 Currently MPlayer doesn't support DVD menus... 
 Well, in fact it does if compiled with dvdnav support. The last time I
@@ -38,13 +42,14 @@ tested it, it didn't work quite well.
 
 Anyway, even there are no DVD menus, you can still select your desired
 title, chapter, audio track, subtitles... in the SMPlayer menus.
+</li>
 
-<p>
-<b>3) Output drivers (directx, xv, x11, gl, alsa, oss...) what are they?
+<li>
+<b>Output drivers (directx, xv, x11, gl, alsa, oss...) what are they?
 Which one is the best?</b>
 <p>
 MPlayer has several output drivers, for video and sound. SMPlayer allows
-you to select the one you want among all of them (Preferences->General).
+you to select the one you want among all of them (<i>Preferences->General</i>).
 <p>
 For video it's recommended that you use xv (linux) or directx (windows).
 They use hardware acceleration and give the best performance.
@@ -70,50 +75,53 @@ problem try win32 instead.
 Other drivers allows you to save the video as image files or write the
 sound to the disk. These drivers are not officially supported by
 SMPlayer. Use them only if you know what you're doing.
+</li>
 
-<p>
-<b>4) I have a NVidia card and gl/gl2 doesn't work, why?</b>
+<li>
+<b>I have a NVidia card and gl/gl2 doesn't work, why?</b>
 <p>
 It seems to be a problem with the NVidia cards or their drivers on
 Windows. gl/gl2 does work when using the real MPlayer window, but not
 when the video is embedded in another application. There's no known fix.
 The only thing you can do is either use directx instead of gl/gl2 or
-check the option to use the MPlayer window in Preferences->Advanced.
+check the option to use the MPlayer window in <i>Preferences->Advanced</i>.
+</li>
 
-<p>
-<b>5)</b> (old question, deleted)
-
-<p>
-<b>6) I try to make a screenshot but the option is disabled, why?</b>
+<li>
+<b>I try to make a screenshot but the option is disabled, why?</b>
 <p>
 You didn't choose a folder for storing the screenshots. Do it in
-Preferences->General, and the screenshot option will be enabled.
+<i>Preferences->General</i>, and the screenshot option will be enabled.
+</li>
 
-<p>
-<b>7) I try to change the audio track but it doesn't work, the audio
+<li>
+<b>I try to change the audio track but it doesn't work, the audio
 remains the same. I have to stop the video and play it again to actually
 change audio. Why?</b>
 <p>
 With some formats (ike mp4 or ogm), MPlayer can't change the audio track
 at runtime. By unchecking the option "Fast audio track switching" you'll
 be able to change the audio in those formats.
+</li>
 
+<li>
+<b>How can I change the key shortcuts?</b>
 <p>
-<b>8) How can I change the key shortcuts?</b>
-<p>
-Preferences->Keyboard and mouse. You'll be able to change most key shortcuts.
+<i>Preferences->Keyboard and mouse</i>. You'll be able to change most key shortcuts.
+</li>
 
-<p>
-<b>9) I've read something about Qt, what's that?</b>
+<li>
+<b>I've read something about Qt, what's that?</b>
 <p>
 SMPlayer is being developed by using Qt, which is a C++ library that
 allows cross-platform development. The same source code can be compiled
 on Windows, Linux and Mac OS.  
 More info: 
 <a href="http://trolltech.com/products/qt">http://trolltech.com/products/qt</a>
+</li>
 
-<p>
-<b>10) With some video formats I only get audio, but not video. Why? Do
+<li>
+<b>With some video formats I only get audio, but not video. Why? Do
 I need some codecs?</b>
 <p>
 MPlayer can player most common formats "out of the box". But for codecs
@@ -121,102 +129,99 @@ that haven't been yet implemented natively, it's necessary to install a
 package with binary codecs. You can get it from the
 <a href="http://www.mplayerhq.hu/design7/dload.html">MPlayer download
 page</a>.
-
 <p> 
 On Windows, install the codecs in the mplayer/codecs subdirectory.
 On linux distros the package may be available as a regular package,
 maybe with the name of w32codecs or something like that.
+</li>
 
-<p>
-<b>11) What's the difference between Open->Close and Open->Quit? Do they
-do the same?</b>
+<li>
+<b>What's the difference between <i>Open->Close</i> and <i>Open->Quit</i>? 
+Do they do the same?</b>
 <p>
 If the option "Show icon in system tray" (in menu Options) is not
 checked, then yes, the two options do the same: quit the application.
 <p>
-But if that option is enabled, then Open->Close will just hide the
+But if that option is enabled, then <i>Open->Close</i> will just hide the
 application (and stop the current file), but SMPlayer is still running.
-Open->Quit really quits the application, no matter if the system tray
+<i>Open->Quit</i> really quits the application, no matter if the system tray
 icon is enabled or not.
+</li>
 
-<p>
-<b>12) How can I play an audio CD?</b>
+<li>
+<b>How can I play an audio CD?</b>
 <p>
 Support for audio CDs was added in version 0.5.18.
 <p>
 Under Windows it's not possible to play audio CDs yet.
+</li>
 
-<p>
-<b>13) Where is the bookmark?</b>
+<li>
+<b>Where is the bookmark?</b>
 <p>
 Not implemented yet.
+</li>
 
-<p>
-<b>14) I try to play a file but nothing happens. Why?</b>
+<li>
+<b>I try to play a file but nothing happens. Why?</b>
 <p>
 Probably MPlayer couldn't play the file. Open the mplayer log
-(Options->View logs->mplayer), you'll probably find an error message in
+(<i>Options->View logs->MPlayer</i>), you'll probably find an error message in
 the latest lines.
 <p>
 On Windows is quite common that some MPlayer builds fail because they
 have been compiled with no support for some feature that SMPlayer tries
 to use. The error message could give you a clue. If it complains about
-cache, try disabling the cache in Preferences->Performance. If it
+cache, try disabling the cache in <i>Preferences->Performance</i>. If it
 complains about fontconfig try to use a ttf font instead of a system
 font.
+</li>
 
-<p>
-<b>15) When I open the preferences dialog for first time it takes some
+<li>
+<b>When I open the preferences dialog for first time it takes some
 secs to show, why?</b>
 <p>
 In that moment SMPlayer calls MPlayer to get some info from it (the
-output drivers, for instance). It happens the same with Options->View
-info and properties.
+output drivers, for instance). It happens the same with <i>Options->View
+info and properties</i>.
+</li>
 
-<p>
-<b>16) There's a video equalizer, but why isn't there an audio equalizer?</b>
+<li>
+<b>There's a video equalizer, but why isn't there an audio equalizer?</b>
 <p>
 The video equalizer was easy to do because MPlayer has slave commands to
 change brightness, contrast and so on at runtime. But I'm afraid it
 doesn't have similar commands for audio, so this can't be done. 
+</li>
 
-<p>
-<b>17) Are you going to add support for TV?</b>
+<li>
+<b>Are you going to add support for TV?</b>
 <p>
 That would be nice, but TV support is not planned for now. First,
 currently I don't have a TV card, and second, MPlayer in Windows has no
 support for TV, so I prefer to focus on features that work on both OS.
+</li>
 
-<p>
-<b>18) A lot of menu options make the video to go blank for a moment.
+<li>
+<b>A lot of menu options make the video to go blank for a moment.
 Why?</b>
 <p>
 Some options require to stop the MPlayer process and start it again with
 new parameters. That's why playing interrupts for a moment.
+</li>
 
-<p>
-<b>19)</b> (old question, deleted)
-
-<p>
-<b>20) SMPlayer crashed, but the audio didn't stop, why?</b>
+<li>
+<b>SMPlayer crashed, but the audio didn't stop, why?</b>
 <p>
 SMPlayer crashed, but MPlayer is still running. Kill the MPlayer process
 in the task manager.
 <p>
 Anyway if SMPlayer crashes, it's a serious bug that should be fixed.
 Report it.
+</li>
 
-<p>
-<b>21) The option to play a VCD is disabled, why?</b>
-<p>
-This option is disabled in Windows because MPlayer in Windows doesn't
-support VCDs yet. But you can still play the videos in the disc, with
-Open->File, and then playing the *.dat files you'll see in the disc.
-<p>
-<b>Update:</b> VCDs can now be played on Windows too.
-
-<p>
-<b>22) When I'm playing a playlist, when a file ends SMPlayer doesn't
+<li>
+<b>When I'm playing a playlist, when a file ends SMPlayer doesn't
 play the next file automatically, why?</b>
 <p>
 Probably your MPlayer is translated into another language. SMPlayer
@@ -225,11 +230,12 @@ looks for "Exiting... (End of file)". As MPlayer displays the messages
 in another language SMPlayer fails and won't work properly.
 Unfortunately the language of MPlayer can't be changed without
 recompiling it. But recents versions of SMPlayer allow to change the
-messages that it should look for (Preferences->Advanced->MPlayer
-language).
+messages that it should look for (<i>Preferences->Advanced->MPlayer
+language</i>).
+</li>
 
-<p>
-<b>23) What version of MPlayer is recommended?</b>
+<li>
+<b>What version of MPlayer is recommended?</b>
 <p>
 SMPlayer requires at least MPlayer 1.0rc1. It hasn't been tested with
 older releases, and it uses some options only available from 1.0rc1,
@@ -246,6 +252,9 @@ the SSA/ASS library for subtitles.
 In the <a href="http://www.mplayerhq.hu/design7/dload.html">MPlayer
 download page</a> you can get a svn tar.bz2 ready to compile. And
 compiling it is very easy (in linux, I mean...)
+</li>
+
+</ol>
 
 </body>
 </html>
