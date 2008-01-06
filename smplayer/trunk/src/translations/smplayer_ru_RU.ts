@@ -31,7 +31,7 @@
     <message>
         <location filename="../about.cpp" line="85"/>
         <source>Some people have helped with their contributions:</source>
-        <translation>Некоторые люди, внесшие свои пожертвования:</translation>
+        <translation>Некоторые люди, внесшие свой вклад в разработку:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -226,7 +226,7 @@
     <message>
         <location filename="../about.ui" line="91"/>
         <source>&amp;Contributions</source>
-        <translation>&amp;Пожертвования</translation>
+        <translation>&amp;Участие в разработке</translation>
     </message>
     <message>
         <location filename="../about.ui" line="147"/>
@@ -3035,7 +3035,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="620"/>
         <source>Change volume just before p&amp;laying (avoids loud volume on startup)</source>
-        <translation>&amp;Изменять громкость непосредственно перед проирыванием (предотвращает увеличенную громкость при старте)</translation>
+        <translation>&amp;Изменять громкость до проирывания (убирает скачок громкости при старте)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="555"/>
@@ -3083,7 +3083,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="110"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Здесь можно изменить горячие клавиши. Чтобы сделать это дважды кликнув мышкой, или, нажав клавишу в необходимой ячейке. Вы можете сохранить список горячих клавишь, чтобы им могли пользоваться другие или использовать его на другом компьютере.</translation>
+        <translation>Здесь можно изменить горячие клавиши. Чтобы сделать это дважды кликните мышкой, или, нажмите клавишу в необходимой ячейке. Вы можете сохранить список горячих клавишь, чтобы им могли пользоваться другие или использовать его на другом компьютере.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="95"/>
