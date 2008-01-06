@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -50,7 +51,7 @@
     <message>
         <location filename="../about.cpp" line="89"/>
         <source>support for colored console output</source>
-        <translation>wsparcie dla colored console output</translation>
+        <translation>obsługa kolorowych konsoli tekstowych</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="90"/>
@@ -260,7 +261,7 @@
     <message>
         <location filename="../about.cpp" line="42"/>
         <source>Using MPlayer SVN r%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Używa MPlayera SVN r%1</translation>
     </message>
 </context>
 <context>
@@ -1366,7 +1367,7 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../basegui.cpp" line="1065"/>
         <source>&amp;FAQ</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;FAQ</translation>
     </message>
 </context>
 <context>
