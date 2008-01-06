@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -240,27 +241,27 @@
     <message>
         <location filename="../about.cpp" line="51"/>
         <source>Visit our web for updates:</source>
-        <translation type="unfinished"></translation>
+        <translation>Посетить наш сайт для обновлений:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="53"/>
         <source>Get help in our forum:</source>
-        <translation type="unfinished"></translation>
+        <translation>Получить помощь на форуме:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="55"/>
         <source>You can support SMPlayer by making a donation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Вы можете поддержать SMPlayer путём пожертвования.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="56"/>
         <source>More info</source>
-        <translation type="unfinished"></translation>
+        <translation>Доп. информация</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="42"/>
         <source>Using MPlayer SVN r%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Используется MPlayer SVN r%1</translation>
     </message>
 </context>
 <context>
@@ -1310,7 +1311,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1065"/>
         <source>&amp;FAQ</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;FAQ</translation>
     </message>
 </context>
 <context>
@@ -3044,22 +3045,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="296"/>
         <source>&amp;Video</source>
-        <translation type="unfinished">&amp;Видео</translation>
+        <translation>&amp;Видео</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="308"/>
         <source>Use s&amp;oftware video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Использовать &amp;программный видеоэквалайзер</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="413"/>
         <source>A&amp;udio</source>
-        <translation type="unfinished"></translation>
+        <translation>З&amp;вук</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="425"/>
         <source>Volume</source>
-        <translation type="unfinished">Громкость</translation>
+        <translation>Громкость</translation>
     </message>
 </context>
 <context>
@@ -3277,7 +3278,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="65"/>
         <source>Normal speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Нормальная скорость</translation>
     </message>
 </context>
 <context>
