@@ -2180,11 +2180,15 @@ void Core::changeSubScale(double value) {
 }
 
 void Core::incSubScale() {
-	changeSubScale( mset.sub_scale + 0.20 );
+	double step = 0.20;
+	if (pref->use_ass_subtitles) step = 1.0;
+	changeSubScale( mset.sub_scale + step );
 }
 
 void Core::decSubScale() {
-	changeSubScale( mset.sub_scale - 0.20 );
+	double step = 0.20;
+	if (pref->use_ass_subtitles) step = 1.0;
+	changeSubScale( mset.sub_scale - step );
 }
 
 void Core::incSubStep() {

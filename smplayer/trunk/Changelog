@@ -1,5 +1,9 @@
 [b]Version 0.5.63 (not released yet)[/b]:
 
+(2008-01-06)
+ * The subtitles size will increase or decrease in steps of 1 instead of
+   0.2 if using SSA/ASS lib (it requires restart mplayer, which is slower).
+
 (2008-01-04)
  * Fixed a crash which may happen if trying to select a subtitle but
    the subtitle list was empty.
