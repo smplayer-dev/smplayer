@@ -5,247 +5,247 @@
     <message>
         <location filename="../about.cpp" line="47"/>
         <source>Version: %1</source>
-        <translation type="unfinished">バージョン: %1</translation>
+        <translation>バージョン: %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="49"/>
         <source>Compiled with Qt %1</source>
-        <translation type="unfinished">Qt %1 でコンパイルされています</translation>
+        <translation>Qt %1 でコンパイルされています</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="78"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
-        <translation type="unfinished">このプログラムはフリー ソフトウェアです; あなたは Free Software Foundation によって発行されている GNU General Public License の条件の下で再配布できます; License のバージョン 2 か、(あなたの選択で) すべてのより後のバージョンのどちらか。</translation>
+        <translation>このプログラムはフリー ソフトウェアです; Free Software Foundation によって発行されている GNU General Public License の条件の下で再配布できます; License のバージョン 2、または (ご選択により) すべてのより後のバージョンのどちらか。</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="85"/>
         <source>Some people have helped with their contributions:</source>
-        <translation type="unfinished"></translation>
+        <translation>一部の方々にご貢献をいただいています:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
         <source>SMPlayer logo</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer のロゴ</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="87"/>
         <source>file associations for Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows 用のファイルの関連付け</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="88"/>
         <source>manpage for linux</source>
-        <translation type="unfinished"></translation>
+        <translation>linux の manpage</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="89"/>
         <source>support for colored console output</source>
-        <translation type="unfinished"></translation>
+        <translation>カラフルなコンソール出力のサポート</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="90"/>
         <source>icon for file associations</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルの関連付けのアイコン</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="91"/>
         <source>patch for file associations</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルの関連付けのパッチ</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="126"/>
         <source>The following people have contributed with translations:</source>
-        <translation type="unfinished"></translation>
+        <translation>以下の方々に翻訳でご貢献をいただいています:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="127"/>
         <source>German</source>
-        <translation type="unfinished">ドイツ語</translation>
+        <translation>ドイツ語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="128"/>
         <source>Slovak</source>
-        <translation type="unfinished">スロバキア語</translation>
+        <translation>スロバキア語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="129"/>
         <source>Italian</source>
-        <translation type="unfinished">イタリア語</translation>
+        <translation>イタリア語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="130"/>
         <source>French</source>
-        <translation type="unfinished">フランス語</translation>
+        <translation>フランス語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="131"/>
         <source>%1, %2 and %3</source>
-        <translation type="unfinished">%1、%2 および %3</translation>
+        <translation>%1、%2 および %3</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="134"/>
         <source>Simplified-Chinese</source>
-        <translation type="unfinished">簡体字中国語</translation>
+        <translation>簡体字中国語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="135"/>
         <source>Russian</source>
-        <translation type="unfinished">ロシア語</translation>
+        <translation>ロシア語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="140"/>
         <source>%1 and %2</source>
-        <translation type="unfinished">%1 と %2</translation>
+        <translation>%1 と %2</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="138"/>
         <source>Hungarian</source>
-        <translation type="unfinished">ハンガリー語</translation>
+        <translation>ハンガリー語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="139"/>
         <source>Polish</source>
-        <translation type="unfinished">ポーランド語</translation>
+        <translation>ポーランド語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="142"/>
         <source>Japanese</source>
-        <translation type="unfinished">日本語</translation>
+        <translation>日本語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="143"/>
         <source>Dutch</source>
-        <translation type="unfinished">オランダ語</translation>
+        <translation>オランダ語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="144"/>
         <source>Ukrainian</source>
-        <translation type="unfinished">ウクライナ語</translation>
+        <translation>ウクライナ語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="145"/>
         <source>Portuguese - Brazil</source>
-        <translation type="unfinished">ポルトガル語 - ブラジル</translation>
+        <translation>ポルトガル語 - ブラジル</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="146"/>
         <source>Georgian</source>
-        <translation type="unfinished">グルジア語</translation>
+        <translation>グルジア語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="147"/>
         <source>Czech</source>
-        <translation type="unfinished">チェコ語</translation>
+        <translation>チェコ語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="148"/>
         <source>Bulgarian</source>
-        <translation type="unfinished">ブルガリア語</translation>
+        <translation>ブルガリア語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Turkish</source>
-        <translation type="unfinished">トルコ語</translation>
+        <translation>トルコ語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="150"/>
         <source>Swedish</source>
-        <translation type="unfinished">スウェーデン語</translation>
+        <translation>スウェーデン語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="151"/>
         <source>Serbian</source>
-        <translation type="unfinished">セルビア語</translation>
+        <translation>セルビア語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="152"/>
         <source>Traditional Chinese</source>
-        <translation type="unfinished">繁体字中国語</translation>
+        <translation>繁体字中国語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="153"/>
         <source>Romanian</source>
-        <translation type="unfinished">ルーマニア語</translation>
+        <translation>ルーマニア語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="154"/>
         <source>Portuguese - Portugal</source>
-        <translation type="unfinished">ポルトガル語 - ポルトガル</translation>
+        <translation>ポルトガル語 - ポルトガル</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="155"/>
         <source>Greek</source>
-        <translation type="unfinished">ギリシャ語</translation>
+        <translation>ギリシャ語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="156"/>
         <source>Finnish</source>
-        <translation type="unfinished">フィンランド語</translation>
+        <translation>フィンランド語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="161"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation type="unfinished">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
+        <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="170"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
     <message>
         <location filename="../about.ui" line="13"/>
         <source>About SMPlayer</source>
-        <translation type="unfinished">SMPlayer のバージョン情報</translation>
+        <translation>SMPlayer のバージョン情報</translation>
     </message>
     <message>
         <location filename="../about.ui" line="35"/>
         <source>&amp;Info</source>
-        <translation type="unfinished"></translation>
+        <translation>情報(&amp;I)</translation>
     </message>
     <message>
         <location filename="../about.ui" line="223"/>
         <source>icon</source>
-        <translation type="unfinished">アイコン</translation>
+        <translation>アイコン</translation>
     </message>
     <message>
         <location filename="../about.ui" line="91"/>
         <source>&amp;Contributions</source>
-        <translation type="unfinished"></translation>
+        <translation>ご貢献(&amp;C)</translation>
     </message>
     <message>
         <location filename="../about.ui" line="147"/>
         <source>&amp;Translators</source>
-        <translation type="unfinished"></translation>
+        <translation>翻訳者(&amp;T)</translation>
     </message>
     <message>
         <location filename="../about.ui" line="203"/>
         <source>&amp;License</source>
-        <translation type="unfinished"></translation>
+        <translation>ライセンス(&amp;L)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="51"/>
         <source>Visit our web for updates:</source>
-        <translation type="unfinished"></translation>
+        <translation>更新のために web を訪問する:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="53"/>
         <source>Get help in our forum:</source>
-        <translation type="unfinished"></translation>
+        <translation>フォーラムで手助けを得る:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="55"/>
         <source>You can support SMPlayer by making a donation.</source>
-        <translation type="unfinished"></translation>
+        <translation>寄付によって SMPlayer をサポートできます。</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="56"/>
         <source>More info</source>
-        <translation type="unfinished"></translation>
+        <translation>さらなる情報</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="42"/>
         <source>Using MPlayer SVN r%1</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer SVN r%1 を使用しています</translation>
     </message>
 </context>
 <context>
@@ -618,7 +618,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="989"/>
         <source>&amp;Normal speed</source>
-        <translation>標準の速度(&amp;N)</translation>
+        <translation>通常の速度(&amp;N)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="990"/>
@@ -1340,7 +1340,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1065"/>
         <source>&amp;FAQ</source>
-        <translation type="unfinished"></translation>
+        <translation>FAQ(&amp;F)</translation>
     </message>
 </context>
 <context>
@@ -3175,37 +3175,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="549"/>
         <source>Change volume just before playing</source>
-        <translation type="unfinished"></translation>
+        <translation>再生の直前に音量を変更する</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="620"/>
         <source>Change volume just before p&amp;laying (avoids loud volume on startup)</source>
-        <translation type="unfinished"></translation>
+        <translation>再生の直前に音量を変更する (起動時の大きい音量を回避します)(&amp;L)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="555"/>
         <source>If this option is checked the initial volume will be set by using the &lt;i&gt;-volume&lt;/i&gt; option in MPlayer.&lt;br&gt; &lt;b&gt;WARNING: THE OFFICIAL MPLAYER DOESN&apos;T HAVE THAT &lt;i&gt;-volume&lt;/i&gt; OPTION, YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON&apos;T PLAY ANYTHING.&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションがチェックされている場合初期の音量は MPlayer での &lt;i&gt;-volume&lt;/i&gt; の使用によって設定されます。&lt;br&gt; &lt;b&gt;警告: 公式の MPLAYER にその &lt;i&gt;-volume&lt;/i&gt; オプションがありません、パッチ済みのものを必要とします、でなければ MPLAYER は失敗し何も再生しません。&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="296"/>
         <source>&amp;Video</source>
-        <translation type="unfinished">ビデオ(&amp;V)</translation>
+        <translation>ビデオ(&amp;V)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="308"/>
         <source>Use s&amp;oftware video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>ソフトウェアのビデオ イコライザを使用する(&amp;O)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="413"/>
         <source>A&amp;udio</source>
-        <translation type="unfinished"></translation>
+        <translation>オーディオ(&amp;U)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="425"/>
         <source>Volume</source>
-        <translation type="unfinished">音量</translation>
+        <translation>音量</translation>
     </message>
 </context>
 <context>
@@ -3423,7 +3423,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="65"/>
         <source>Normal speed</source>
-        <translation type="unfinished"></translation>
+        <translation>通常の速度</translation>
     </message>
 </context>
 <context>
@@ -3596,7 +3596,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="389"/>
         <source>Whenever it&apos;s needed</source>
-        <translation>必要なときはいつも</translation>
+        <translation>必要ならいつも</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="394"/>
