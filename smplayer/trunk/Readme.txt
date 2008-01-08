@@ -45,6 +45,10 @@ I took some icons from:
     url: http://www.kde-look.org/content/show.php/Vista-Inspirate?content=31585
     license: GPL
 
+ * Crystal Clear
+    url: http://www.kde-look.org/content/show.php/Crystal+Clear?content=25668
+    license: LGPL
+
  * ricebowl-0.2.0
     url: http://www.deviantart.com/deviation/22605468/
     license: LGPL 
