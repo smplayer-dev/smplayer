@@ -453,6 +453,8 @@ TimeSliderAction * BaseGuiPlus::createTimeSliderAction(QWidget * parent) {
              core, SLOT(goToPos(int)) );
 	connect( timeslider_action, SIGNAL( draggingPos(int) ), 
              this, SLOT(displayGotoTime(int)) );
+	connect( timeslider_action, SIGNAL( draggingPos(int) ), 
+             this, SLOT(goToPosOnDragging(int)) );
 
 	return timeslider_action;
 }

@@ -171,6 +171,8 @@ void Preferences::reset() {
 	seeking3 = 10*60;
 	seeking4 = 30;
 
+	update_while_seeking = false;
+
 	log_mplayer = TRUE;
 	log_smplayer = TRUE;
 	log_filter = ".*";
@@ -375,6 +377,8 @@ void Preferences::save() {
 	set->setValue("seeking2", seeking2);
 	set->setValue("seeking3", seeking3);
 	set->setValue("seeking4", seeking4);
+	
+	set->setValue("update_while_seeking", update_while_seeking);
 
 	set->setValue("log_mplayer", log_mplayer);
 	set->setValue("log_smplayer", log_smplayer);
@@ -581,6 +585,8 @@ void Preferences::load() {
 	seeking2 = set->value("seeking2", seeking2).toInt();
 	seeking3 = set->value("seeking3", seeking3).toInt();
 	seeking4 = set->value("seeking4", seeking4).toInt();
+	
+	update_while_seeking = set->value("update_while_seeking", update_while_seeking).toBool();
 
 	language = set->value("language", language).toString();
 	iconset= set->value("iconset", iconset).toString();

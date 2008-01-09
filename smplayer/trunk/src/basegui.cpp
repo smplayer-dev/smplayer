@@ -3151,6 +3151,15 @@ void BaseGui::displayGotoTime(int t) {
 	}
 }
 
+void BaseGui::goToPosOnDragging(int t) {
+	if (pref->update_while_seeking) {
+		if ( ( t % 4 ) == 0 ) {
+			qDebug("BaseGui::goToPosOnDragging: %d", t);
+			core->goToPos(t);
+		}
+	}
+}
+
 void BaseGui::toggleCompactMode() {
 	toggleCompactMode( !pref->compact_mode );
 }
