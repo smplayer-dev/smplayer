@@ -1063,7 +1063,7 @@ void BaseGui::retranslateStrings() {
 
 	// Menu Help
 	showFAQAct->change( Images::icon("faq"), tr("&FAQ") );
-	aboutQtAct->change( Images::icon("qt"), tr("About &Qt") );
+	aboutQtAct->change( QPixmap(":/icons-png/qt.png"), tr("About &Qt") );
 	aboutThisAct->change( Images::icon("logo_small"), tr("About &SMPlayer") );
 
 	// Playlist

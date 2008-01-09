@@ -2,6 +2,9 @@
 
 (2008-01-08)
  * Added an icon for Help->FAQ (faq.png).
+ * Added an icon for Help->About Qt. The icon has been taken from the Qt
+   sources (qmessagebox.cpp). This icon can't be changed by any icon theme
+   (I don't think Trolltech would like it).
 
 (2008-01-06)
  * The subtitles size will increase or decrease in steps of 1 instead of
