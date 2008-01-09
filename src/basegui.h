@@ -145,6 +145,8 @@ protected slots:
 	/* virtual void playlistVisibilityChanged(); */
 
 	virtual void displayGotoTime(int);
+	//! You can call this slot to jump to the specified percentage in the video, while dragging the slider.
+	virtual void goToPosOnDragging(int);
 
 	virtual void showPopupMenu( QPoint p );
 	/*
