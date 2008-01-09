@@ -79,5 +79,6 @@
         <file>icons-png/translators.png</file>
         <file>icons-png/contributors.png</file>
         <file>icons-png/license.png</file>
+        <file>icons-png/faq.png</file>
     </qresource>
 </RCC>
