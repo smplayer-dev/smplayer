@@ -34,7 +34,8 @@ build-stamp: configure-stamp
 	dh_testdir
 
 	# Add here commands to compile the package.
-	$(MAKE) PREFIX=/usr QMAKE=qmake-qt4 LRELEASE=lrelease-qt4
+	$(MAKE) PREFIX=/usr QMAKE=qmake-qt4 LRELEASE=lrelease-qt4 \
+            DOC_PATH="\\\"/usr/share/doc/smplayer\\\""
 
 	touch $@
 
@@ -55,7 +56,8 @@ install: build
 	dh_installdirs
 
 	# Add here commands to install the package into debian/smplayer.
-	$(MAKE) PREFIX=/usr DESTDIR=$(CURDIR)/debian/smplayer install
+	$(MAKE) PREFIX=/usr DOC_PATH=/usr/share/doc/smplayer \
+            DESTDIR=$(CURDIR)/debian/smplayer install
 
 
 # Build architecture-independent files here.
