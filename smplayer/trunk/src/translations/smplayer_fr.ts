@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
         <location filename="../about.cpp" line="47"/>
         <source>Version: %1</source>
-        <translation type="unfinished">Version : %1</translation>
+        <translation>Version : %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="49"/>
         <source>Compiled with Qt %1</source>
-        <translation type="unfinished">Compilé avec Qt %1</translation>
+        <translation>Compilé avec Qt %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="78"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
-        <translation type="unfinished">Ce programme est un logiciel libre: vous pouvez le redistribuer et/ou le modifier selon les termes de la &quot;GNU General Public License&quot;, tels que publiés par la &quot;Free Software Foundation&quot;; soit la version 2 de cette licence ou (à votre choix) toute version ultérieure. Ce programme est distribué dans l&apos;espoir qu&apos;il sera utile, mais SANS AUCUNE GARANTIE, ni explicite ni implicite; sans même les garanties de commercialisation ou d&apos;adaptation dans un but spécifique. Se référer à la &quot;GNU General Public License&quot; pour plus de détails. Vous devriez avoir reçu une copie de la &quot;GNU General Public License&quot; en même temps que ce programme; sinon, écrivez a la &quot;Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA&quot;.</translation>
+        <translation>Ce programme est un logiciel libre: vous pouvez le redistribuer et/ou le modifier selon les termes de la &quot;GNU General Public License&quot;, tels que publiés par la &quot;Free Software Foundation&quot;; soit la version 2 de cette licence ou (à votre choix) toute version ultérieure. Ce programme est distribué dans l&apos;espoir qu&apos;il sera utile, mais SANS AUCUNE GARANTIE, ni explicite ni implicite; sans même les garanties de commercialisation ou d&apos;adaptation dans un but spécifique. Se référer à la &quot;GNU General Public License&quot; pour plus de détails. Vous devriez avoir reçu une copie de la &quot;GNU General Public License&quot; en même temps que ce programme; sinon, écrivez a la &quot;Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA&quot;.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="85"/>
@@ -60,192 +61,192 @@
     <message>
         <location filename="../about.cpp" line="127"/>
         <source>German</source>
-        <translation type="unfinished">Allemand</translation>
+        <translation>Allemand</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="128"/>
         <source>Slovak</source>
-        <translation type="unfinished">Slovène</translation>
+        <translation>Slovène</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="129"/>
         <source>Italian</source>
-        <translation type="unfinished">Italien</translation>
+        <translation>Italien</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="130"/>
         <source>French</source>
-        <translation type="unfinished">Français</translation>
+        <translation>Français</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="131"/>
         <source>%1, %2 and %3</source>
-        <translation type="unfinished">%1, %2 et %3</translation>
+        <translation>%1, %2 et %3</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="134"/>
         <source>Simplified-Chinese</source>
-        <translation type="unfinished">Chinois simplifié</translation>
+        <translation>Chinois simplifié</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="135"/>
         <source>Russian</source>
-        <translation type="unfinished">Russe</translation>
+        <translation>Russe</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="140"/>
         <source>%1 and %2</source>
-        <translation type="unfinished">%1 et %2</translation>
+        <translation>%1 et %2</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="138"/>
         <source>Hungarian</source>
-        <translation type="unfinished">Hongrois</translation>
+        <translation>Hongrois</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="139"/>
         <source>Polish</source>
-        <translation type="unfinished">Polonais</translation>
+        <translation>Polonais</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="142"/>
         <source>Japanese</source>
-        <translation type="unfinished">Japonais</translation>
+        <translation>Japonais</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="143"/>
         <source>Dutch</source>
-        <translation type="unfinished">Hollandais</translation>
+        <translation>Hollandais</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="144"/>
         <source>Ukrainian</source>
-        <translation type="unfinished">Ukrainien</translation>
+        <translation>Ukrainien</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="145"/>
         <source>Portuguese - Brazil</source>
-        <translation type="unfinished">Brésilien</translation>
+        <translation>Brésilien</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="146"/>
         <source>Georgian</source>
-        <translation type="unfinished">Géorgien</translation>
+        <translation>Géorgien</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="147"/>
         <source>Czech</source>
-        <translation type="unfinished">Tchèque</translation>
+        <translation>Tchèque</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="148"/>
         <source>Bulgarian</source>
-        <translation type="unfinished">Bulgare</translation>
+        <translation>Bulgare</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Turkish</source>
-        <translation type="unfinished">Turc</translation>
+        <translation>Turc</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="150"/>
         <source>Swedish</source>
-        <translation type="unfinished">Suédois</translation>
+        <translation>Suédois</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="151"/>
         <source>Serbian</source>
-        <translation type="unfinished">Serbe</translation>
+        <translation>Serbe</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="152"/>
         <source>Traditional Chinese</source>
-        <translation type="unfinished">Chinois traditionnel</translation>
+        <translation>Chinois traditionnel</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="153"/>
         <source>Romanian</source>
-        <translation type="unfinished">Roumain</translation>
+        <translation>Roumain</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="154"/>
         <source>Portuguese - Portugal</source>
-        <translation type="unfinished">Portugais</translation>
+        <translation>Portugais</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="155"/>
         <source>Greek</source>
-        <translation type="unfinished">Grecque</translation>
+        <translation>Grecque</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="156"/>
         <source>Finnish</source>
-        <translation type="unfinished">Finlandais</translation>
+        <translation>Finlandais</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="161"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation type="unfinished">&lt;b&gt;%1&lt;/b&gt; : %2</translation>
+        <translation>&lt;b&gt;%1&lt;/b&gt; : %2</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="170"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
     <message>
         <location filename="../about.ui" line="13"/>
         <source>About SMPlayer</source>
-        <translation type="unfinished">A propos de SMPlayer</translation>
+        <translation>A propos de SMPlayer</translation>
     </message>
     <message>
         <location filename="../about.ui" line="35"/>
         <source>&amp;Info</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Information</translation>
     </message>
     <message>
         <location filename="../about.ui" line="223"/>
         <source>icon</source>
-        <translation type="unfinished">Icône</translation>
+        <translation>Icône</translation>
     </message>
     <message>
         <location filename="../about.ui" line="91"/>
         <source>&amp;Contributions</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Contributions</translation>
     </message>
     <message>
         <location filename="../about.ui" line="147"/>
         <source>&amp;Translators</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Traducteurs</translation>
     </message>
     <message>
         <location filename="../about.ui" line="203"/>
         <source>&amp;License</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Licence</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="51"/>
         <source>Visit our web for updates:</source>
-        <translation type="unfinished"></translation>
+        <translation>Visitez notre site pour les mises à jour :</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="53"/>
         <source>Get help in our forum:</source>
-        <translation type="unfinished"></translation>
+        <translation>Obtenez de l&apos;aide sur notre forum :</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="55"/>
         <source>You can support SMPlayer by making a donation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vous pouvez supporter SMPlayer faisant un don.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="56"/>
         <source>More info</source>
-        <translation type="unfinished"></translation>
+        <translation>Plus d&apos;information</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="42"/>
         <source>Using MPlayer SVN r%1</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer SVN r%1</translation>
     </message>
 </context>
 <context>
@@ -1350,7 +1351,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="1065"/>
         <source>&amp;FAQ</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;FAQ</translation>
     </message>
 </context>
 <context>
@@ -3192,12 +3193,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="549"/>
         <source>Change volume just before playing</source>
-        <translation type="unfinished"></translation>
+        <translation>Change le volume juste avant de jouer</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="620"/>
         <source>Change volume just before p&amp;laying (avoids loud volume on startup)</source>
-        <translation type="unfinished"></translation>
+        <translation>Change de vo&amp;lume juste avant de jouer (évitant un volume important au démarrage)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="555"/>
@@ -3207,22 +3208,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="296"/>
         <source>&amp;Video</source>
-        <translation type="unfinished">&amp;Vidéo</translation>
+        <translation>&amp;Vidéo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="308"/>
         <source>Use s&amp;oftware video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Utiliser l&apos;équaliseur l&amp;ogiciel vidéo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="413"/>
         <source>A&amp;udio</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;udio</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="425"/>
         <source>Volume</source>
-        <translation type="unfinished">Volume</translation>
+        <translation>Volume</translation>
     </message>
 </context>
 <context>
@@ -3440,7 +3441,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="65"/>
         <source>Normal speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Vitesse normale</translation>
     </message>
 </context>
 <context>
@@ -4066,7 +4067,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="226"/>
         <source>Possible values:</source>
-        <translation type="unfinished"></translation>
+        <translation>Valeurs possible :</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="227"/>
