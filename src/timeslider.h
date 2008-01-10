@@ -22,6 +22,8 @@
 #include <QSlider>
 #include "config.h"
 
+class QTimer;
+
 class MySlider : public QSlider
 {
 	Q_OBJECT
@@ -62,6 +64,7 @@ protected slots:
 	void valueChanged_slot(int);
 #if ENABLE_DELAYED_DRAGGING
 	void checkDragging(int);
+	void sendDelayedPos();
 #endif
 
 	virtual void wheelEvent( QWheelEvent * e );
@@ -69,6 +72,11 @@ protected slots:
 private:
 	bool dont_update;
 	int position;
+	
+#if ENABLE_DELAYED_DRAGGING
+	int last_pos_to_send;
+	QTimer * timer;
+#endif
 };
 
 #endif
