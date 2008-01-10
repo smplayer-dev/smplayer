@@ -87,6 +87,9 @@ protected:
 	void setSeeking4(int n);
 	int seeking4();
 
+	void setUpdateWhileDragging(bool);
+	bool updateWhileDragging();
+
 	void setDefaultFont(QString font_desc);
 	QString defaultFont();
 

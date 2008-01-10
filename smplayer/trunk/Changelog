@@ -6,6 +6,7 @@
    slider has been released). Currently it's only possible to
    enable this option by changing the option update_while_seeking in
    smplayer.ini. There'll be an option in preferences soon.
+ * Added an option in Preferences->Interface to configure that option.
 
 (2008-01-08)
  * Added an icon for Help->FAQ (faq.png).
