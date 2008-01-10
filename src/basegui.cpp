@@ -3153,10 +3153,14 @@ void BaseGui::displayGotoTime(int t) {
 
 void BaseGui::goToPosOnDragging(int t) {
 	if (pref->update_while_seeking) {
+#if ENABLE_DELAYED_DRAGGING
+		core->goToPos(t);
+#else
 		if ( ( t % 4 ) == 0 ) {
 			qDebug("BaseGui::goToPosOnDragging: %d", t);
 			core->goToPos(t);
 		}
+#endif
 	}
 }
 
