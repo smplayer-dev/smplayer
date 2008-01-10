@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -3714,22 +3715,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="385"/>
         <source>&amp;Behaviour of time slider:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Comportament reglaj timp:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="404"/>
         <source>Seek to position while dragging</source>
-        <translation type="unfinished"></translation>
+        <translation>Căutare până la poziție când se face tragere</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="409"/>
         <source>Seek to position when released</source>
-        <translation type="unfinished"></translation>
+        <translation>Căutare până la poziție când se eliberează mausul</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="433"/>
         <source>In&amp;stances</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sesiuni</translation>
     </message>
 </context>
 <context>
