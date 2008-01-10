@@ -126,10 +126,12 @@ void PrefInterface::createLanguageCombo() {
 
 void PrefInterface::retranslateStrings() {
 	int mainwindow_resize = mainwindow_resize_combo->currentIndex();
+	int timeslider_pos = timeslider_behaviour_combo->currentIndex();
 
 	retranslateUi(this);
 
 	mainwindow_resize_combo->setCurrentIndex(mainwindow_resize);
+	timeslider_behaviour_combo->setCurrentIndex(timeslider_pos);
 
 	// Icons
 	/* resize_window_icon->setPixmap( Images::icon("resize_window") ); */
@@ -182,6 +184,8 @@ void PrefInterface::setData(Preferences * pref) {
 	setSeeking3(pref->seeking3);
 	setSeeking4(pref->seeking4);
 
+	setUpdateWhileDragging(pref->update_while_seeking);
+
 	setDefaultFont(pref->default_font);
 
 #if STYLE_SWITCHING
@@ -226,6 +230,8 @@ void PrefInterface::getData(Preferences * pref) {
 	pref->seeking2 = seeking2();
 	pref->seeking3 = seeking3();
 	pref->seeking4 = seeking4();
+
+	pref->update_while_seeking = updateWhileDragging();
 
 	pref->default_font = defaultFont();
 
@@ -357,6 +363,17 @@ void PrefInterface::setSeeking4(int n) {
 
 int PrefInterface::seeking4() {
 	return seek4->time();
+}
+
+void PrefInterface::setUpdateWhileDragging(bool b) {
+	if (b) 
+		timeslider_behaviour_combo->setCurrentIndex(0);
+	else
+		timeslider_behaviour_combo->setCurrentIndex(1);
+}
+
+bool PrefInterface::updateWhileDragging() {
+	return (timeslider_behaviour_combo->currentIndex() == 0);
 }
 
 void PrefInterface::setDefaultFont(QString font_desc) {
