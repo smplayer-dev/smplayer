@@ -18,14 +18,13 @@
 
 #include "timeslider.h"
 
-#if QT_VERSION > 0x040000
 #include <stdlib.h>
 #include <QApplication>
 #include <QStyle>
 #include <QWheelEvent>
 #include <QMouseEvent>
 #include <QApplication>
-#endif
+#include <QTimer>
 
 #define DEBUG 0
 
@@ -104,6 +103,11 @@ TimeSlider::TimeSlider( QWidget * parent ) : MySlider(parent)
 	connect( this, SIGNAL( valueChanged(int) ), this, SLOT( valueChanged_slot(int) ) );
 #if ENABLE_DELAYED_DRAGGING
 	connect( this, SIGNAL(draggingPos(int) ), this, SLOT(checkDragging(int)) );
+	
+	last_pos_to_send = -1;
+	timer = new QTimer(this);
+	connect( timer, SIGNAL(timeout()), this, SLOT(sendDelayedPos()) );
+	timer->start(200);
 #endif
 }
 
@@ -157,7 +161,15 @@ void TimeSlider::valueChanged_slot(int v) {
 void TimeSlider::checkDragging(int v) {
 	if ( ( v % 4 ) == 0 ) {
 		qDebug("TimeSlider::checkDragging: %d", v);
-		emit delayedDraggingPos(v);
+		//emit delayedDraggingPos(v);
+		last_pos_to_send = v;
+	}
+}
+
+void TimeSlider::sendDelayedPos() {
+	if (last_pos_to_send != -1) {
+		emit delayedDraggingPos(last_pos_to_send);
+		last_pos_to_send = -1;
 	}
 }
 #endif
