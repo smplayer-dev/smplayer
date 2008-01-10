@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -3744,22 +3745,22 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinterface.ui" line="385"/>
         <source>&amp;Behaviour of time slider:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Verhalten des Zeit - Schiebereglers:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="404"/>
         <source>Seek to position while dragging</source>
-        <translation type="unfinished"></translation>
+        <translation>Positionierung in der Bewegung anstreben</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="409"/>
         <source>Seek to position when released</source>
-        <translation type="unfinished"></translation>
+        <translation>Positionierung erst anstreben wenn freigegeben</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="433"/>
         <source>In&amp;stances</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Prozesse</translation>
     </message>
 </context>
 <context>
