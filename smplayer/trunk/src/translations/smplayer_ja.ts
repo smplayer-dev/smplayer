@@ -210,7 +210,7 @@
     <message>
         <location filename="../about.ui" line="91"/>
         <source>&amp;Contributions</source>
-        <translation>ご貢献(&amp;C)</translation>
+        <translation>貢献(&amp;C)</translation>
     </message>
     <message>
         <location filename="../about.ui" line="147"/>
@@ -3711,22 +3711,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="385"/>
         <source>&amp;Behaviour of time slider:</source>
-        <translation type="unfinished"></translation>
+        <translation>タイム スライダの挙動(&amp;B):</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="404"/>
         <source>Seek to position while dragging</source>
-        <translation type="unfinished"></translation>
+        <translation>ドラッグ中に位置へシークする</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="409"/>
         <source>Seek to position when released</source>
-        <translation type="unfinished"></translation>
+        <translation>解放されたときに位置へシークする</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="433"/>
         <source>In&amp;stances</source>
-        <translation type="unfinished"></translation>
+        <translation>起動(&amp;S)</translation>
     </message>
 </context>
 <context>
@@ -3734,7 +3734,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="44"/>
         <source>Performance</source>
-        <translation>パフォーマンス</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="41"/>
@@ -3884,7 +3884,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="247"/>
         <source>Fast seek to chapters in dvds</source>
-        <translation>Dvd のチャプタを高速シークする</translation>
+        <translation>Dvd のチャプタへ高速シークする</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="71"/>
@@ -3929,7 +3929,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="310"/>
         <source>Fast &amp;seek to chapters in dvds</source>
-        <translation>Dvd のチャプタを高速シークする(&amp;S)</translation>
+        <translation>Dvd のチャプタへ高速シークする(&amp;S)</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="251"/>
@@ -3954,7 +3954,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="249"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
-        <translation>チェックされている場合、チャプタをシークするのに最速の方法を試行しますがいくつかのディスクでは動作しない可能性があります。</translation>
+        <translation>チェックされている場合、チャプタへのシークに最速の方法を試行しますがいくつかのディスクでは動作しない可能性があります。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="218"/>
@@ -4089,7 +4089,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="229"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
-        <translation>&lt;b&gt;スキップする (常に)&lt;/b&gt;: ループ フィルタはビデオの解像度を問題とせずスキップされます</translation>
+        <translation>&lt;b&gt;スキップする (常に)&lt;/b&gt;: ループ フィルタはビデオの解像度の問題なしでスキップされます</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="232"/>
