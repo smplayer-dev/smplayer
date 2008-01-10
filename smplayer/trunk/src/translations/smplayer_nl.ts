@@ -1414,7 +1414,7 @@ Het configuratie dialoogvenster zal nu getoond worden, zodat je dit nu kan doen.
         <translation>Volume: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2632"/>
+        <location filename="../core.cpp" line="2640"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
@@ -3530,7 +3530,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&lt;Automatisch detecteren&gt;</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="164"/>
+        <location filename="../prefinterface.cpp" line="166"/>
         <source>Default</source>
         <translation>Standaard</translation>
     </message>
@@ -3540,44 +3540,44 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Interface</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="265"/>
+        <location filename="../prefinterface.ui" line="202"/>
         <source>Seeking</source>
         <translation>Zoeken</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="384"/>
+        <location filename="../prefinterface.ui" line="123"/>
         <source>Never</source>
         <translation>Nooit</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="389"/>
+        <location filename="../prefinterface.ui" line="128"/>
         <source>Whenever it&apos;s needed</source>
         <translation>Wanneer nodig</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="394"/>
+        <location filename="../prefinterface.ui" line="133"/>
         <source>Only after loading a new video</source>
         <translation>Alleen na het laden van een nieuw videobestand</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="302"/>
+        <location filename="../prefinterface.ui" line="151"/>
         <source>Recent files</source>
         <translation>Recente bestanden</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="388"/>
+        <location filename="../prefinterface.cpp" line="405"/>
         <source>Language</source>
         <translation>Taal</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="389"/>
+        <location filename="../prefinterface.cpp" line="406"/>
         <source>Here you can change the language of the application.</source>
         <translation>Hier kan je de taal van het programma aanpassen.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="48"/>
         <source>Instances</source>
-        <translation>Instanties</translation>
+        <translation type="obsolete">Instanties</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="83"/>
@@ -3595,79 +3595,99 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Galicisch</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="139"/>
+        <location filename="../prefinterface.cpp" line="141"/>
         <source>&amp;Short jump</source>
         <translation>&amp;Korte sprong</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="140"/>
+        <location filename="../prefinterface.cpp" line="142"/>
         <source>&amp;Medium jump</source>
         <translation>&amp;Middelmatige sprong</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="141"/>
+        <location filename="../prefinterface.cpp" line="143"/>
         <source>&amp;Long jump</source>
         <translation>&amp;Lange sprong</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="142"/>
+        <location filename="../prefinterface.cpp" line="144"/>
         <source>Mouse &amp;wheel jump</source>
         <translation>Muis&amp;wiel sprong</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="60"/>
+        <location filename="../prefinterface.ui" line="445"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
         <translation>&amp;Slechts één draaiende instantie van SMPlayer gebruiken</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="70"/>
+        <location filename="../prefinterface.ui" line="455"/>
         <source>SMPlayer will listen to this &amp;port to receive commands from other instances:</source>
         <translation>SMPlayer zal op deze &amp;poort luisteren om commando&apos;s van andere instanties te ontvangen:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="314"/>
+        <location filename="../prefinterface.ui" line="163"/>
         <source>Ma&amp;x. items</source>
         <translation>Ma&amp;x. items</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="162"/>
+        <location filename="../prefinterface.ui" line="260"/>
         <source>St&amp;yle:</source>
         <translation>&amp;Stijl:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="201"/>
+        <location filename="../prefinterface.ui" line="299"/>
         <source>Ico&amp;n set:</source>
         <translation>Ico&amp;nen set:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="188"/>
+        <location filename="../prefinterface.ui" line="286"/>
         <source>L&amp;anguage:</source>
         <translation>&amp;Taal:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="353"/>
+        <location filename="../prefinterface.ui" line="92"/>
         <source>Main window</source>
         <translation>Hoofdvenster</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="365"/>
+        <location filename="../prefinterface.ui" line="104"/>
         <source>Auto&amp;resize:</source>
         <translation>Automatisch &amp;herschalen:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="402"/>
+        <location filename="../prefinterface.ui" line="141"/>
         <source>R&amp;emember position and size</source>
         <translation>&amp;Positie en grootte onthouden</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="420"/>
+        <location filename="../prefinterface.ui" line="69"/>
         <source>Default font:</source>
         <translation>Standaard lettertype:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="434"/>
+        <location filename="../prefinterface.ui" line="83"/>
         <source>&amp;Change...</source>
         <translation>&amp;Verander...</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="385"/>
+        <source>&amp;Behaviour of time slider:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="404"/>
+        <source>Seek to position while dragging</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="409"/>
+        <source>Seek to position when released</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="433"/>
+        <source>In&amp;stances</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
