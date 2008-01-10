@@ -53,6 +53,9 @@ public slots:
 signals:
 	void posChanged(int value);
 	void draggingPos(int value);
+#if ENABLE_DELAYED_DRAGGING
+	void delayedDraggingPos(int);
+#endif
 
 protected:
 	virtual QWidget * createWidget ( QWidget * parent );

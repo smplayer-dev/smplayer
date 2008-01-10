@@ -85,6 +85,9 @@
 #define USE_SHORTCUTGETTER 1
 
 
+#define ENABLE_DELAYED_DRAGGING 1
+
+
 // USE_SUBFONT
 // if 1, use -subfont option.
 

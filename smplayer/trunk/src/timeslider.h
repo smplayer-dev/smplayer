@@ -20,6 +20,7 @@
 #define _TIMESLIDER_H_
 
 #include <QSlider>
+#include "config.h"
 
 class MySlider : public QSlider
 {
@@ -47,14 +48,21 @@ public slots:
 	virtual int pos();
 
 signals:
-	void posChanged(int value);
-	void draggingPos(int value);
+	void posChanged(int);
+	void draggingPos(int);
+#if ENABLE_DELAYED_DRAGGING
+	//! Emitted with a few ms of delay
+	void delayedDraggingPos(int);
+#endif
 
 protected slots:
 	void stopUpdate();
 	void resumeUpdate();
 	void mouseReleased();
 	void valueChanged_slot(int);
+#if ENABLE_DELAYED_DRAGGING
+	void checkDragging(int);
+#endif
 
 	virtual void wheelEvent( QWheelEvent * e );
 

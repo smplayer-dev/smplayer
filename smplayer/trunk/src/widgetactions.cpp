@@ -78,6 +78,10 @@ QWidget * TimeSliderAction::createWidget ( QWidget * parent ) {
              this, SIGNAL(posChanged(int)) );
 	connect( t,    SIGNAL(draggingPos(int)),
              this, SIGNAL(draggingPos(int)) );
+#if ENABLE_DELAYED_DRAGGING
+	connect( t,    SIGNAL(delayedDraggingPos(int)),
+	         this, SIGNAL(delayedDraggingPos(int)) );
+#endif
 
 	return t;
 }

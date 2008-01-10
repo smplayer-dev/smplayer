@@ -102,6 +102,9 @@ TimeSlider::TimeSlider( QWidget * parent ) : MySlider(parent)
 	connect( this, SIGNAL( sliderReleased() ), this, SLOT( resumeUpdate() ) );
 	connect( this, SIGNAL( sliderReleased() ), this, SLOT( mouseReleased() ) );
 	connect( this, SIGNAL( valueChanged(int) ), this, SLOT( valueChanged_slot(int) ) );
+#if ENABLE_DELAYED_DRAGGING
+	connect( this, SIGNAL(draggingPos(int) ), this, SLOT(checkDragging(int)) );
+#endif
 }
 
 TimeSlider::~TimeSlider() {
@@ -149,6 +152,15 @@ void TimeSlider::valueChanged_slot(int v) {
 		emit draggingPos(v);
 	}
 }
+
+#if ENABLE_DELAYED_DRAGGING
+void TimeSlider::checkDragging(int v) {
+	if ( ( v % 4 ) == 0 ) {
+		qDebug("TimeSlider::checkDragging: %d", v);
+		emit delayedDraggingPos(v);
+	}
+}
+#endif
 
 void TimeSlider::setPos(int v) {
 	#if DEBUG
