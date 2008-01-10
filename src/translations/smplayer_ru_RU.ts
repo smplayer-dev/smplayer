@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -3560,22 +3561,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="385"/>
         <source>&amp;Behaviour of time slider:</source>
-        <translation type="unfinished"></translation>
+        <translation>Поведение временной &amp;полосы прокрутки:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="404"/>
         <source>Seek to position while dragging</source>
-        <translation type="unfinished"></translation>
+        <translation>Переходить в позицию указателя при перемотке</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="409"/>
         <source>Seek to position when released</source>
-        <translation type="unfinished"></translation>
+        <translation>Переходить в позицию указателя после отпускания</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="433"/>
         <source>In&amp;stances</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Исключение</translation>
     </message>
 </context>
 <context>
