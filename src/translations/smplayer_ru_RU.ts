@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
-<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1380,7 +1379,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Громкость: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2632"/>
+        <location filename="../core.cpp" line="2640"/>
         <source>Zoom: %1</source>
         <translation>Зум: %1</translation>
     </message>
@@ -3419,7 +3418,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&lt;Автоопределение&gt;</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="164"/>
+        <location filename="../prefinterface.cpp" line="166"/>
         <source>Default</source>
         <translation>По умолчанию</translation>
     </message>
@@ -3429,44 +3428,44 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Интерфе&amp;йс</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="265"/>
+        <location filename="../prefinterface.ui" line="202"/>
         <source>Seeking</source>
         <translation>Поиск</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="302"/>
+        <location filename="../prefinterface.ui" line="151"/>
         <source>Recent files</source>
         <translation>Последние файлы</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="384"/>
+        <location filename="../prefinterface.ui" line="123"/>
         <source>Never</source>
         <translation>Никогда</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="389"/>
+        <location filename="../prefinterface.ui" line="128"/>
         <source>Whenever it&apos;s needed</source>
         <translation>Когда это нужно</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="394"/>
+        <location filename="../prefinterface.ui" line="133"/>
         <source>Only after loading a new video</source>
         <translation>Только после открытия нового видео</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="388"/>
+        <location filename="../prefinterface.cpp" line="405"/>
         <source>Language</source>
         <translation>Язык</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="389"/>
+        <location filename="../prefinterface.cpp" line="406"/>
         <source>Here you can change the language of the application.</source>
         <translation>Здесь можно изменить язык приложения.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="48"/>
         <source>Instances</source>
-        <translation>Пути</translation>
+        <translation type="obsolete">Пути</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="83"/>
@@ -3484,79 +3483,99 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Гальский</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="139"/>
+        <location filename="../prefinterface.cpp" line="141"/>
         <source>&amp;Short jump</source>
         <translation>&amp;Маленький интервал</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="140"/>
+        <location filename="../prefinterface.cpp" line="142"/>
         <source>&amp;Medium jump</source>
         <translation>&amp;Средний интервал</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="141"/>
+        <location filename="../prefinterface.cpp" line="143"/>
         <source>&amp;Long jump</source>
         <translation>&amp;Длинный интервал</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="142"/>
+        <location filename="../prefinterface.cpp" line="144"/>
         <source>Mouse &amp;wheel jump</source>
         <translation>Интервал &amp;промотки колесом мыши</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="60"/>
+        <location filename="../prefinterface.ui" line="445"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
         <translation>Запускать только о&amp;дну копию SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="70"/>
+        <location filename="../prefinterface.ui" line="455"/>
         <source>SMPlayer will listen to this &amp;port to receive commands from other instances:</source>
         <translation>SMPlayer будет ожидать &amp;внешние команды с этого порта:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="314"/>
+        <location filename="../prefinterface.ui" line="163"/>
         <source>Ma&amp;x. items</source>
         <translation>Ма&amp;кс. пунктов</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="162"/>
+        <location filename="../prefinterface.ui" line="260"/>
         <source>St&amp;yle:</source>
         <translation>Ст&amp;иль:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="201"/>
+        <location filename="../prefinterface.ui" line="299"/>
         <source>Ico&amp;n set:</source>
         <translation>Набор &amp;пикограмм:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="188"/>
+        <location filename="../prefinterface.ui" line="286"/>
         <source>L&amp;anguage:</source>
         <translation>&amp;Язык:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="353"/>
+        <location filename="../prefinterface.ui" line="92"/>
         <source>Main window</source>
         <translation>Главное окно</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="365"/>
+        <location filename="../prefinterface.ui" line="104"/>
         <source>Auto&amp;resize:</source>
         <translation>Автоматически изменять &amp;размер:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="402"/>
+        <location filename="../prefinterface.ui" line="141"/>
         <source>R&amp;emember position and size</source>
         <translation>Запоминать пози&amp;цию и размер</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="420"/>
+        <location filename="../prefinterface.ui" line="69"/>
         <source>Default font:</source>
         <translation>Шрифт по умолчанию:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="434"/>
+        <location filename="../prefinterface.ui" line="83"/>
         <source>&amp;Change...</source>
         <translation>&amp;Изменить...</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="385"/>
+        <source>&amp;Behaviour of time slider:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="404"/>
+        <source>Seek to position while dragging</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="409"/>
+        <source>Seek to position when released</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="433"/>
+        <source>In&amp;stances</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

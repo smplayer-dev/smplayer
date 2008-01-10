@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
-<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1441,7 +1440,7 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
         <translation>Głośność: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2632"/>
+        <location filename="../core.cpp" line="2640"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
@@ -3605,7 +3604,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>&lt;Autodetekcja&gt;</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="164"/>
+        <location filename="../prefinterface.cpp" line="166"/>
         <source>Default</source>
         <translation>Domyślne</translation>
     </message>
@@ -3615,44 +3614,44 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>&amp;Interfejs</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="265"/>
+        <location filename="../prefinterface.ui" line="202"/>
         <source>Seeking</source>
         <translation>Wyszukiwanie</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="302"/>
+        <location filename="../prefinterface.ui" line="151"/>
         <source>Recent files</source>
         <translation>Ostanio otwarte pliki</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="384"/>
+        <location filename="../prefinterface.ui" line="123"/>
         <source>Never</source>
         <translation>Nigdy</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="389"/>
+        <location filename="../prefinterface.ui" line="128"/>
         <source>Whenever it&apos;s needed</source>
         <translation>Jeżeli jest taka potrzeba</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="394"/>
+        <location filename="../prefinterface.ui" line="133"/>
         <source>Only after loading a new video</source>
         <translation>Tylko po załadowaniu nowego filmu</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="388"/>
+        <location filename="../prefinterface.cpp" line="405"/>
         <source>Language</source>
         <translation>Język</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="389"/>
+        <location filename="../prefinterface.cpp" line="406"/>
         <source>Here you can change the language of the application.</source>
         <translation>Tutaj można zmienić język programu.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="48"/>
         <source>Instances</source>
-        <translation>Przypadki</translation>
+        <translation type="obsolete">Przypadki</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="83"/>
@@ -3670,32 +3669,32 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>Galician</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="139"/>
+        <location filename="../prefinterface.cpp" line="141"/>
         <source>&amp;Short jump</source>
         <translation>&amp;Mały skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="140"/>
+        <location filename="../prefinterface.cpp" line="142"/>
         <source>&amp;Medium jump</source>
         <translation>&amp;Średni skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="141"/>
+        <location filename="../prefinterface.cpp" line="143"/>
         <source>&amp;Long jump</source>
         <translation>&amp;Duży skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="142"/>
+        <location filename="../prefinterface.cpp" line="144"/>
         <source>Mouse &amp;wheel jump</source>
         <translation>Skok &amp;kółka myszki</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="60"/>
+        <location filename="../prefinterface.ui" line="445"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
         <translation>&amp;Użyj tylko jednej uruchomionej kopii programu SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="70"/>
+        <location filename="../prefinterface.ui" line="455"/>
         <source>SMPlayer will listen to this &amp;port to receive commands from other instances:</source>
         <translation>&amp;Port nasłuchu SMPlayera w celu otrzymania komend od innych przypadków:</translation>
     </message>
@@ -3705,49 +3704,69 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation type="obsolete">Metoda zmiany &amp;rozmiaru głównego okna</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="314"/>
+        <location filename="../prefinterface.ui" line="163"/>
         <source>Ma&amp;x. items</source>
         <translation>Ma&amp;x. pozycji</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="162"/>
+        <location filename="../prefinterface.ui" line="260"/>
         <source>St&amp;yle:</source>
         <translation>St&amp;yle:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="201"/>
+        <location filename="../prefinterface.ui" line="299"/>
         <source>Ico&amp;n set:</source>
         <translation>Wybie&amp;rz ikony:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="188"/>
+        <location filename="../prefinterface.ui" line="286"/>
         <source>L&amp;anguage:</source>
         <translation>J&amp;ęzyk:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="353"/>
+        <location filename="../prefinterface.ui" line="92"/>
         <source>Main window</source>
         <translation>Główne okno</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="365"/>
+        <location filename="../prefinterface.ui" line="104"/>
         <source>Auto&amp;resize:</source>
         <translation>Automatyczna &amp;zmiana rozmiaru:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="402"/>
+        <location filename="../prefinterface.ui" line="141"/>
         <source>R&amp;emember position and size</source>
         <translation>Z&amp;apamietaj pozycję i rozmiar</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="420"/>
+        <location filename="../prefinterface.ui" line="69"/>
         <source>Default font:</source>
         <translation>Domyślna czcionka:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="434"/>
+        <location filename="../prefinterface.ui" line="83"/>
         <source>&amp;Change...</source>
         <translation>&amp;Zmień...</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="385"/>
+        <source>&amp;Behaviour of time slider:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="404"/>
+        <source>Seek to position while dragging</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="409"/>
+        <source>Seek to position when released</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="433"/>
+        <source>In&amp;stances</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

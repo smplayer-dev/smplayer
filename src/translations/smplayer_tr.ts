@@ -1372,7 +1372,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <translation>Ses: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2632"/>
+        <location filename="../core.cpp" line="2640"/>
         <source>Zoom: %1</source>
         <translation>Yakınlık: %1</translation>
     </message>
@@ -3487,12 +3487,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">&lt;Otomatik&gt;</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="164"/>
+        <location filename="../prefinterface.cpp" line="166"/>
         <source>Default</source>
         <translation type="unfinished">Geçerli</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="388"/>
+        <location filename="../prefinterface.cpp" line="405"/>
         <source>Language</source>
         <translation type="unfinished">Dil</translation>
     </message>
@@ -3502,38 +3502,33 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="265"/>
+        <location filename="../prefinterface.ui" line="202"/>
         <source>Seeking</source>
         <translation type="unfinished">Gezinme</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="302"/>
+        <location filename="../prefinterface.ui" line="151"/>
         <source>Recent files</source>
         <translation type="unfinished">Son dosyalar</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="384"/>
+        <location filename="../prefinterface.ui" line="123"/>
         <source>Never</source>
         <translation type="unfinished">Asla</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="389"/>
+        <location filename="../prefinterface.ui" line="128"/>
         <source>Whenever it&apos;s needed</source>
         <translation type="unfinished">Gerektiğinde</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="394"/>
+        <location filename="../prefinterface.ui" line="133"/>
         <source>Only after loading a new video</source>
         <translation type="unfinished">Sadece yeni bir video yüklendiğinde</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="389"/>
+        <location filename="../prefinterface.cpp" line="406"/>
         <source>Here you can change the language of the application.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.ui" line="48"/>
-        <source>Instances</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3552,78 +3547,98 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="139"/>
+        <location filename="../prefinterface.cpp" line="141"/>
         <source>&amp;Short jump</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="140"/>
+        <location filename="../prefinterface.cpp" line="142"/>
         <source>&amp;Medium jump</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="141"/>
+        <location filename="../prefinterface.cpp" line="143"/>
         <source>&amp;Long jump</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="142"/>
+        <location filename="../prefinterface.cpp" line="144"/>
         <source>Mouse &amp;wheel jump</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="60"/>
+        <location filename="../prefinterface.ui" line="445"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="70"/>
+        <location filename="../prefinterface.ui" line="455"/>
         <source>SMPlayer will listen to this &amp;port to receive commands from other instances:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="314"/>
+        <location filename="../prefinterface.ui" line="163"/>
         <source>Ma&amp;x. items</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="162"/>
+        <location filename="../prefinterface.ui" line="260"/>
         <source>St&amp;yle:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="201"/>
+        <location filename="../prefinterface.ui" line="299"/>
         <source>Ico&amp;n set:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="188"/>
+        <location filename="../prefinterface.ui" line="286"/>
         <source>L&amp;anguage:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="353"/>
+        <location filename="../prefinterface.ui" line="92"/>
         <source>Main window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="365"/>
+        <location filename="../prefinterface.ui" line="104"/>
         <source>Auto&amp;resize:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="402"/>
+        <location filename="../prefinterface.ui" line="141"/>
         <source>R&amp;emember position and size</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="420"/>
+        <location filename="../prefinterface.ui" line="69"/>
         <source>Default font:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="434"/>
+        <location filename="../prefinterface.ui" line="83"/>
         <source>&amp;Change...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="385"/>
+        <source>&amp;Behaviour of time slider:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="404"/>
+        <source>Seek to position while dragging</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="409"/>
+        <source>Seek to position when released</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="433"/>
+        <source>In&amp;stances</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

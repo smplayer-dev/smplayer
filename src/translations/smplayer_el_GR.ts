@@ -1232,7 +1232,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Ένταση: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2632"/>
+        <location filename="../core.cpp" line="2640"/>
         <source>Zoom: %1</source>
         <translation>Μεγέθυνση: %1</translation>
     </message>
@@ -3267,7 +3267,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&lt;Αυτόματη επιλογή&gt;</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="164"/>
+        <location filename="../prefinterface.cpp" line="166"/>
         <source>Default</source>
         <translation>Αρχικό</translation>
     </message>
@@ -3277,44 +3277,44 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Διεπαφή</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="265"/>
+        <location filename="../prefinterface.ui" line="202"/>
         <source>Seeking</source>
         <translation>Ψάχνει</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="384"/>
+        <location filename="../prefinterface.ui" line="123"/>
         <source>Never</source>
         <translation>Ποτέ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="389"/>
+        <location filename="../prefinterface.ui" line="128"/>
         <source>Whenever it&apos;s needed</source>
         <translation>Όταν απαιτείται</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="394"/>
+        <location filename="../prefinterface.ui" line="133"/>
         <source>Only after loading a new video</source>
         <translation>Μόνο μετά την φόρτωση νέου βίντεο</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="302"/>
+        <location filename="../prefinterface.ui" line="151"/>
         <source>Recent files</source>
         <translation>Πρόσφατα αρχεία</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="388"/>
+        <location filename="../prefinterface.cpp" line="405"/>
         <source>Language</source>
         <translation>Γλώσσα/Language</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="389"/>
+        <location filename="../prefinterface.cpp" line="406"/>
         <source>Here you can change the language of the application.</source>
         <translation>Εδώ αλλάζετε την γλώσσα της εφαρμογής.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="48"/>
         <source>Instances</source>
-        <translation>Περιπτώσεις</translation>
+        <translation type="obsolete">Περιπτώσεις</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="83"/>
@@ -3332,79 +3332,99 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="139"/>
+        <location filename="../prefinterface.cpp" line="141"/>
         <source>&amp;Short jump</source>
         <translation>&amp;Μικρό άλμα</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="140"/>
+        <location filename="../prefinterface.cpp" line="142"/>
         <source>&amp;Medium jump</source>
         <translation>&amp;Μεσαίο άλμα</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="141"/>
+        <location filename="../prefinterface.cpp" line="143"/>
         <source>&amp;Long jump</source>
         <translation>&amp;Μεγάλο άλμα</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="142"/>
+        <location filename="../prefinterface.cpp" line="144"/>
         <source>Mouse &amp;wheel jump</source>
         <translation>&amp;Τροχός ποντίκι άλμα</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="60"/>
+        <location filename="../prefinterface.ui" line="445"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
         <translation>&amp;Χρήση μόνο ενός ενεργού SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="70"/>
+        <location filename="../prefinterface.ui" line="455"/>
         <source>SMPlayer will listen to this &amp;port to receive commands from other instances:</source>
         <translation>SMPlayer θα ακούει την &amp;πόρτα για εντολές άλλων εφαρμογών:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="314"/>
+        <location filename="../prefinterface.ui" line="163"/>
         <source>Ma&amp;x. items</source>
         <translation>&amp;Μέγιστα, θέματα</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="162"/>
+        <location filename="../prefinterface.ui" line="260"/>
         <source>St&amp;yle:</source>
         <translation>&amp;Στυλ:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="201"/>
+        <location filename="../prefinterface.ui" line="299"/>
         <source>Ico&amp;n set:</source>
         <translation>&amp;Εικόνες σετ:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="188"/>
+        <location filename="../prefinterface.ui" line="286"/>
         <source>L&amp;anguage:</source>
         <translation>&amp;Γλώσσα:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="353"/>
+        <location filename="../prefinterface.ui" line="92"/>
         <source>Main window</source>
         <translation>Κύριο παράθυρο</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="365"/>
+        <location filename="../prefinterface.ui" line="104"/>
         <source>Auto&amp;resize:</source>
         <translation>&amp;Αυτόματη διάσταση:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="402"/>
+        <location filename="../prefinterface.ui" line="141"/>
         <source>R&amp;emember position and size</source>
         <translation>&amp;Θυμήσου θέση και μέγεθος</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="420"/>
+        <location filename="../prefinterface.ui" line="69"/>
         <source>Default font:</source>
         <translation>Καθορισμένη γραμματοσειρά:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="434"/>
+        <location filename="../prefinterface.ui" line="83"/>
         <source>&amp;Change...</source>
         <translation>&amp;Αλλαγή...</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="385"/>
+        <source>&amp;Behaviour of time slider:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="404"/>
+        <source>Seek to position while dragging</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="409"/>
+        <source>Seek to position when released</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="433"/>
+        <source>In&amp;stances</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
