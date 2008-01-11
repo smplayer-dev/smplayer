@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -3764,17 +3765,17 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinterface.ui" line="507"/>
         <source>TextLabel</source>
-        <translation type="unfinished">TextKennzeichnung</translation>
+        <translation>TextKennzeichnung</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="364"/>
         <source>&amp;Seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Positionierung</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="487"/>
         <source>Ins&amp;tances</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Prozesse</translation>
     </message>
 </context>
 <context>
