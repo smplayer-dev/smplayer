@@ -62,6 +62,9 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 		}
 	}
 
+	connect(single_instance_check, SIGNAL(toggled(bool)), 
+            this, SLOT(changeInstanceImages()));
+
 	retranslateStrings();
 }
 
@@ -136,6 +139,8 @@ void PrefInterface::retranslateStrings() {
 	// Icons
 	/* resize_window_icon->setPixmap( Images::icon("resize_window") ); */
 	/* volume_icon->setPixmap( Images::icon("speaker") ); */
+
+	changeInstanceImages();
 
 	// Seek widgets
 	seek1->setLabel( tr("&Short jump") );
@@ -397,6 +402,13 @@ void PrefInterface::on_changeFontButton_clicked() {
 	if (ok) {
 		default_font_edit->setText( f.toString() );
 	}
+}
+
+void PrefInterface::changeInstanceImages() {
+	if (single_instance_check->isChecked())
+		instances_icon->setPixmap( Images::icon("instance1") );
+	else
+		instances_icon->setPixmap( Images::icon("instance2") );
 }
 
 void PrefInterface::createHelp() {

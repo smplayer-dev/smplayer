@@ -95,6 +95,7 @@ protected:
 
 protected slots:
 	void on_changeFontButton_clicked();
+	void changeInstanceImages();
 
 protected:
 	virtual void retranslateStrings();
