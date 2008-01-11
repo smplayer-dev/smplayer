@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
-<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -3284,142 +3283,142 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefInterface</name>
     <message>
-        <location filename="../prefinterface.cpp" line="73"/>
+        <location filename="../prefinterface.cpp" line="76"/>
         <source>Interface</source>
         <translation>Внешний вид</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="82"/>
+        <location filename="../prefinterface.cpp" line="85"/>
         <source>Bulgarian</source>
         <translation>Болгарский</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="84"/>
+        <location filename="../prefinterface.cpp" line="87"/>
         <source>Czech</source>
         <translation>Чешский</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="85"/>
+        <location filename="../prefinterface.cpp" line="88"/>
         <source>German</source>
         <translation>Немецкий</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="86"/>
+        <location filename="../prefinterface.cpp" line="89"/>
         <source>Greek</source>
         <translation>Греческий</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="87"/>
+        <location filename="../prefinterface.cpp" line="90"/>
         <source>English</source>
         <translation>Английский</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="88"/>
+        <location filename="../prefinterface.cpp" line="91"/>
         <source>Spanish</source>
         <translation>Испанский</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="90"/>
+        <location filename="../prefinterface.cpp" line="93"/>
         <source>Finnish</source>
         <translation>Финский</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="91"/>
+        <location filename="../prefinterface.cpp" line="94"/>
         <source>French</source>
         <translation>Французский</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="93"/>
+        <location filename="../prefinterface.cpp" line="96"/>
         <source>Hungarian</source>
         <translation>Венгерский</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="94"/>
+        <location filename="../prefinterface.cpp" line="97"/>
         <source>Italian</source>
         <translation>Итальянский</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="95"/>
+        <location filename="../prefinterface.cpp" line="98"/>
         <source>Japanese</source>
         <translation>Японский</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="96"/>
+        <location filename="../prefinterface.cpp" line="99"/>
         <source>Georgian</source>
         <translation>Грузинский</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="97"/>
+        <location filename="../prefinterface.cpp" line="100"/>
         <source>Dutch</source>
         <translation>Немецкий</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="98"/>
+        <location filename="../prefinterface.cpp" line="101"/>
         <source>Polish</source>
         <translation>Польский</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="99"/>
+        <location filename="../prefinterface.cpp" line="102"/>
         <source>Portuguese - Brazil</source>
         <translation>Португальский - Бразилия</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="100"/>
+        <location filename="../prefinterface.cpp" line="103"/>
         <source>Portuguese - Portugal</source>
         <translation>Португальский - Португалия</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="101"/>
+        <location filename="../prefinterface.cpp" line="104"/>
         <source>Romanian</source>
         <translation>Румынский</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="102"/>
+        <location filename="../prefinterface.cpp" line="105"/>
         <source>Russian</source>
         <translation>Русский</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="103"/>
+        <location filename="../prefinterface.cpp" line="106"/>
         <source>Slovak</source>
         <translation>Словацкий</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="104"/>
+        <location filename="../prefinterface.cpp" line="107"/>
         <source>Serbian</source>
         <translation>Сербский</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="105"/>
+        <location filename="../prefinterface.cpp" line="108"/>
         <source>Swedish</source>
         <translation>Шведский</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="106"/>
+        <location filename="../prefinterface.cpp" line="109"/>
         <source>Turkish</source>
         <translation>Тюркская</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="107"/>
+        <location filename="../prefinterface.cpp" line="110"/>
         <source>Ukrainian</source>
         <translation>Украинский</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="108"/>
+        <location filename="../prefinterface.cpp" line="111"/>
         <source>Simplified-Chinese</source>
         <translation>Упрощенный китайский</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="109"/>
+        <location filename="../prefinterface.cpp" line="112"/>
         <source>Traditional Chinese</source>
         <translation>Китайский традиционный</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="116"/>
+        <location filename="../prefinterface.cpp" line="119"/>
         <source>&lt;Autodetect&gt;</source>
         <translation>&lt;Автоопределение&gt;</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="166"/>
+        <location filename="../prefinterface.cpp" line="171"/>
         <source>Default</source>
         <translation>По умолчанию</translation>
     </message>
@@ -3431,35 +3430,35 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="202"/>
         <source>Seeking</source>
-        <translation>Поиск</translation>
+        <translation type="obsolete">Поиск</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="151"/>
+        <location filename="../prefinterface.ui" line="130"/>
         <source>Recent files</source>
         <translation>Последние файлы</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="123"/>
+        <location filename="../prefinterface.ui" line="87"/>
         <source>Never</source>
         <translation>Никогда</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="128"/>
+        <location filename="../prefinterface.ui" line="92"/>
         <source>Whenever it&apos;s needed</source>
         <translation>Когда это нужно</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="133"/>
+        <location filename="../prefinterface.ui" line="97"/>
         <source>Only after loading a new video</source>
         <translation>Только после открытия нового видео</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="405"/>
+        <location filename="../prefinterface.cpp" line="417"/>
         <source>Language</source>
         <translation>Язык</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="406"/>
+        <location filename="../prefinterface.cpp" line="418"/>
         <source>Here you can change the language of the application.</source>
         <translation>Здесь можно изменить язык приложения.</translation>
     </message>
@@ -3469,114 +3468,129 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Пути</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="83"/>
+        <location filename="../prefinterface.cpp" line="86"/>
         <source>Catalan</source>
         <translation>Каталонский</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="89"/>
+        <location filename="../prefinterface.cpp" line="92"/>
         <source>Basque</source>
         <translation>Баскский</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="92"/>
+        <location filename="../prefinterface.cpp" line="95"/>
         <source>Galician</source>
         <translation>Гальский</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="141"/>
+        <location filename="../prefinterface.cpp" line="146"/>
         <source>&amp;Short jump</source>
         <translation>&amp;Маленький интервал</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="142"/>
+        <location filename="../prefinterface.cpp" line="147"/>
         <source>&amp;Medium jump</source>
         <translation>&amp;Средний интервал</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="143"/>
+        <location filename="../prefinterface.cpp" line="148"/>
         <source>&amp;Long jump</source>
         <translation>&amp;Длинный интервал</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="144"/>
+        <location filename="../prefinterface.cpp" line="149"/>
         <source>Mouse &amp;wheel jump</source>
         <translation>Интервал &amp;промотки колесом мыши</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="445"/>
+        <location filename="../prefinterface.ui" line="522"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
         <translation>Запускать только о&amp;дну копию SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="455"/>
+        <location filename="../prefinterface.ui" line="532"/>
         <source>SMPlayer will listen to this &amp;port to receive commands from other instances:</source>
         <translation>SMPlayer будет ожидать &amp;внешние команды с этого порта:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="163"/>
+        <location filename="../prefinterface.ui" line="142"/>
         <source>Ma&amp;x. items</source>
         <translation>Ма&amp;кс. пунктов</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="260"/>
+        <location filename="../prefinterface.ui" line="209"/>
         <source>St&amp;yle:</source>
         <translation>Ст&amp;иль:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="299"/>
+        <location filename="../prefinterface.ui" line="248"/>
         <source>Ico&amp;n set:</source>
         <translation>Набор &amp;пикограмм:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="286"/>
+        <location filename="../prefinterface.ui" line="235"/>
         <source>L&amp;anguage:</source>
         <translation>&amp;Язык:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="92"/>
+        <location filename="../prefinterface.ui" line="41"/>
         <source>Main window</source>
         <translation>Главное окно</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="104"/>
+        <location filename="../prefinterface.ui" line="68"/>
         <source>Auto&amp;resize:</source>
         <translation>Автоматически изменять &amp;размер:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="141"/>
+        <location filename="../prefinterface.ui" line="105"/>
         <source>R&amp;emember position and size</source>
         <translation>Запоминать пози&amp;цию и размер</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="69"/>
+        <location filename="../prefinterface.ui" line="327"/>
         <source>Default font:</source>
         <translation>Шрифт по умолчанию:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="83"/>
+        <location filename="../prefinterface.ui" line="341"/>
         <source>&amp;Change...</source>
         <translation>&amp;Изменить...</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="385"/>
+        <location filename="../prefinterface.ui" line="439"/>
         <source>&amp;Behaviour of time slider:</source>
         <translation>Поведение временной &amp;полосы прокрутки:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="404"/>
+        <location filename="../prefinterface.ui" line="458"/>
         <source>Seek to position while dragging</source>
         <translation>Переходить в позицию указателя при перемотке</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="409"/>
+        <location filename="../prefinterface.ui" line="463"/>
         <source>Seek to position when released</source>
         <translation>Переходить в позицию указателя после отпускания</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="433"/>
         <source>In&amp;stances</source>
-        <translation>&amp;Исключение</translation>
+        <translation type="obsolete">&amp;Исключение</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="507"/>
+        <source>TextLabel</source>
+        <translation type="unfinished">Текстовая метка</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="364"/>
+        <source>&amp;Seeking</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="487"/>
+        <source>Ins&amp;tances</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4397,7 +4411,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VolumeSliderAction</name>
     <message>
-        <location filename="../widgetactions.cpp" line="124"/>
+        <location filename="../widgetactions.cpp" line="128"/>
         <source>Volume</source>
         <translation>Громкость</translation>
     </message>
