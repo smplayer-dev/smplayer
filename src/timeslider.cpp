@@ -53,7 +53,7 @@ void MySlider::mousePressEvent( QMouseEvent * e ) {
 	// Calculate how many positions takes the slider handle
 	int metric = qApp->style()->pixelMetric( QStyle::PM_SliderLength );
 	double one_tick_pixels = (double) width() / range;
-	int slider_handle_positions = metric / one_tick_pixels;
+	int slider_handle_positions = (int) (metric / one_tick_pixels);
 
 	/*
 	qDebug("metric: %d", metric );
