@@ -36,22 +36,7 @@ MySlider::MySlider( QWidget * parent ) : QSlider(parent)
 MySlider::~MySlider() {
 }
 
-// The code from the following function is from Javier Díaz, 
-// taken from a post in the Qt-interest mailing list.
 void MySlider::mousePressEvent( QMouseEvent * e ) {
-#if QT_VERSION < 0x040000
-	if (e->button() == Qt::LeftButton) {
-		if ( !sliderRect().contains(e->pos()) ) {
-			// Pongo como valor el correspondiente al lugar donde hemos hecho click
-			int value = Q3RangeControl::valueFromPosition( e->x(), width() );
-			setValue(value);
-			// Representa un movimiento en el slider
-			emit sliderMoved(value);
-		}
-		else
-			QSlider::mousePressEvent(e);
-	}
-#else
 	// FIXME:
 	// The code doesn't work well with right to left layout,
 	// so it's disabled.
@@ -83,7 +68,6 @@ void MySlider::mousePressEvent( QMouseEvent * e ) {
 	} else {
 		QSlider::mousePressEvent(e);
 	}
-#endif
 }
 
 
@@ -159,15 +143,13 @@ void TimeSlider::valueChanged_slot(int v) {
 
 #if ENABLE_DELAYED_DRAGGING
 void TimeSlider::checkDragging(int v) {
-	if ( ( v % 4 ) == 0 ) {
-		qDebug("TimeSlider::checkDragging: %d", v);
-		//emit delayedDraggingPos(v);
-		last_pos_to_send = v;
-	}
+	qDebug("TimeSlider::checkDragging: %d", v);
+	last_pos_to_send = v;
 }
 
 void TimeSlider::sendDelayedPos() {
 	if (last_pos_to_send != -1) {
+		qDebug("TimeSlider::sendDelayedPos: %d", last_pos_to_send);
 		emit delayedDraggingPos(last_pos_to_send);
 		last_pos_to_send = -1;
 	}
