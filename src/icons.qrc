@@ -81,5 +81,7 @@
         <file>icons-png/license.png</file>
         <file>icons-png/faq.png</file>
         <file>icons-png/qt.png</file>
+        <file>icons-png/instance1.png</file>
+        <file>icons-png/instance2.png</file>
     </qresource>
 </RCC>
