@@ -137,7 +137,7 @@ void PrefInterface::retranslateStrings() {
 	timeslider_behaviour_combo->setCurrentIndex(timeslider_pos);
 
 	// Icons
-	/* resize_window_icon->setPixmap( Images::icon("resize_window") ); */
+	resize_window_icon->setPixmap( Images::icon("resize_window") );
 	/* volume_icon->setPixmap( Images::icon("speaker") ); */
 
 	changeInstanceImages();

@@ -28,70 +28,19 @@
       <attribute name="title" >
        <string>&amp;Interface</string>
       </attribute>
-      <layout class="QGridLayout" >
+      <layout class="QVBoxLayout" >
        <property name="margin" >
         <number>9</number>
        </property>
        <property name="spacing" >
         <number>6</number>
        </property>
-       <item row="8" column="1" >
-        <spacer>
-         <property name="orientation" >
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeHint" >
-          <size>
-           <width>20</width>
-           <height>40</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="4" column="0" colspan="2" >
-        <widget class="Line" name="line_3" >
-         <property name="orientation" >
-          <enum>Qt::Horizontal</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="0" colspan="2" >
-        <layout class="QHBoxLayout" >
-         <property name="margin" >
-          <number>0</number>
-         </property>
-         <property name="spacing" >
-          <number>6</number>
-         </property>
-         <item>
-          <widget class="QLabel" name="label_2" >
-           <property name="text" >
-            <string>Default font:</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QLineEdit" name="default_font_edit" >
-           <property name="readOnly" >
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QPushButton" name="changeFontButton" >
-           <property name="text" >
-            <string>&amp;Change...</string>
-           </property>
-          </widget>
-         </item>
-        </layout>
-       </item>
-       <item row="0" column="1" >
+       <item>
         <widget class="QGroupBox" name="groupBox" >
          <property name="title" >
           <string>Main window</string>
          </property>
-         <layout class="QVBoxLayout" >
+         <layout class="QHBoxLayout" >
           <property name="margin" >
            <number>9</number>
           </property>
@@ -99,53 +48,83 @@
            <number>6</number>
           </property>
           <item>
-           <widget class="QLabel" name="label" >
+           <widget class="QLabel" name="resize_window_icon" >
             <property name="text" >
-             <string>Auto&amp;resize:</string>
-            </property>
-            <property name="buddy" >
-             <cstring>mainwindow_resize_combo</cstring>
+             <string>TextLabel</string>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QComboBox" name="mainwindow_resize_combo" >
-            <property name="sizePolicy" >
-             <sizepolicy>
-              <hsizetype>5</hsizetype>
-              <vsizetype>0</vsizetype>
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
+           <layout class="QVBoxLayout" >
+            <property name="margin" >
+             <number>0</number>
+            </property>
+            <property name="spacing" >
+             <number>6</number>
             </property>
             <item>
-             <property name="text" >
-              <string>Never</string>
-             </property>
+             <widget class="QLabel" name="label" >
+              <property name="text" >
+               <string>Auto&amp;resize:</string>
+              </property>
+              <property name="buddy" >
+               <cstring>mainwindow_resize_combo</cstring>
+              </property>
+             </widget>
             </item>
             <item>
-             <property name="text" >
-              <string>Whenever it's needed</string>
-             </property>
+             <widget class="QComboBox" name="mainwindow_resize_combo" >
+              <property name="sizePolicy" >
+               <sizepolicy>
+                <hsizetype>5</hsizetype>
+                <vsizetype>0</vsizetype>
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <item>
+               <property name="text" >
+                <string>Never</string>
+               </property>
+              </item>
+              <item>
+               <property name="text" >
+                <string>Whenever it's needed</string>
+               </property>
+              </item>
+              <item>
+               <property name="text" >
+                <string>Only after loading a new video</string>
+               </property>
+              </item>
+             </widget>
             </item>
             <item>
-             <property name="text" >
-              <string>Only after loading a new video</string>
-             </property>
+             <widget class="QCheckBox" name="save_size_check" >
+              <property name="text" >
+               <string>R&amp;emember position and size</string>
+              </property>
+             </widget>
             </item>
-           </widget>
+           </layout>
           </item>
           <item>
-           <widget class="QCheckBox" name="save_size_check" >
-            <property name="text" >
-             <string>R&amp;emember position and size</string>
+           <spacer>
+            <property name="orientation" >
+             <enum>Qt::Horizontal</enum>
             </property>
-           </widget>
+            <property name="sizeHint" >
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
           </item>
          </layout>
         </widget>
        </item>
-       <item row="1" column="1" >
+       <item>
         <widget class="QGroupBox" name="groupBox_4" >
          <property name="title" >
           <string>Recent files</string>
@@ -196,44 +175,14 @@
          </layout>
         </widget>
        </item>
-       <item rowspan="2" row="0" column="0" >
-        <widget class="QGroupBox" name="groupBox_2" >
-         <property name="title" >
-          <string>Seeking</string>
+       <item>
+        <widget class="Line" name="line_3" >
+         <property name="orientation" >
+          <enum>Qt::Horizontal</enum>
          </property>
-         <layout class="QVBoxLayout" >
-          <property name="margin" >
-           <number>9</number>
-          </property>
-          <property name="spacing" >
-           <number>6</number>
-          </property>
-          <item>
-           <layout class="QVBoxLayout" >
-            <property name="margin" >
-             <number>0</number>
-            </property>
-            <property name="spacing" >
-             <number>6</number>
-            </property>
-            <item>
-             <widget class="SeekWidget" native="1" name="seek1" />
-            </item>
-            <item>
-             <widget class="SeekWidget" native="1" name="seek2" />
-            </item>
-            <item>
-             <widget class="SeekWidget" native="1" name="seek3" />
-            </item>
-            <item>
-             <widget class="SeekWidget" native="1" name="seek4" />
-            </item>
-           </layout>
-          </item>
-         </layout>
         </widget>
        </item>
-       <item row="5" column="0" colspan="2" >
+       <item>
         <layout class="QGridLayout" >
          <property name="margin" >
           <number>0</number>
@@ -357,21 +306,126 @@
          </item>
         </layout>
        </item>
-       <item row="6" column="0" colspan="2" >
+       <item>
         <widget class="Line" name="line" >
          <property name="orientation" >
           <enum>Qt::Horizontal</enum>
          </property>
         </widget>
        </item>
-       <item row="2" column="0" colspan="2" >
-        <widget class="Line" name="line_2" >
+       <item>
+        <layout class="QHBoxLayout" >
+         <property name="margin" >
+          <number>0</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_2" >
+           <property name="text" >
+            <string>Default font:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="default_font_edit" >
+           <property name="readOnly" >
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="changeFontButton" >
+           <property name="text" >
+            <string>&amp;Change...</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer>
+         <property name="orientation" >
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" >
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_3" >
+      <attribute name="title" >
+       <string>&amp;Seeking</string>
+      </attribute>
+      <layout class="QGridLayout" >
+       <property name="margin" >
+        <number>9</number>
+       </property>
+       <property name="spacing" >
+        <number>6</number>
+       </property>
+       <item row="3" column="1" >
+        <spacer>
+         <property name="orientation" >
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" >
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="0" >
+        <layout class="QVBoxLayout" >
+         <property name="margin" >
+          <number>0</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <widget class="SeekWidget" native="1" name="seek1" />
+         </item>
+         <item>
+          <widget class="SeekWidget" native="1" name="seek2" />
+         </item>
+         <item>
+          <widget class="SeekWidget" native="1" name="seek3" />
+         </item>
+         <item>
+          <widget class="SeekWidget" native="1" name="seek4" />
+         </item>
+        </layout>
+       </item>
+       <item row="0" column="1" >
+        <spacer>
+         <property name="orientation" >
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" >
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="0" colspan="2" >
+        <widget class="Line" name="line_4" >
          <property name="orientation" >
           <enum>Qt::Horizontal</enum>
          </property>
         </widget>
        </item>
-       <item row="3" column="0" colspan="2" >
+       <item row="2" column="0" colspan="2" >
         <layout class="QHBoxLayout" >
          <property name="margin" >
           <number>0</number>
@@ -430,7 +484,7 @@
      </widget>
      <widget class="QWidget" name="tab_2" >
       <attribute name="title" >
-       <string>In&amp;stances</string>
+       <string>Ins&amp;tances</string>
       </attribute>
       <layout class="QVBoxLayout" >
        <property name="margin" >
