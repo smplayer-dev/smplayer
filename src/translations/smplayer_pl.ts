@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -3751,32 +3752,32 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinterface.ui" line="439"/>
         <source>&amp;Behaviour of time slider:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zachowanie suwaka czasu:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="458"/>
         <source>Seek to position while dragging</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyszukaj pozycję podczas przeciągania</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="463"/>
         <source>Seek to position when released</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyszukaj pozycję podczas zwalniania</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="507"/>
         <source>TextLabel</source>
-        <translation type="unfinished">TextLabel</translation>
+        <translation>TextLabel</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="364"/>
         <source>&amp;Seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Wyszukiwanie</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="487"/>
         <source>Ins&amp;tances</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Przypadki</translation>
     </message>
 </context>
 <context>
