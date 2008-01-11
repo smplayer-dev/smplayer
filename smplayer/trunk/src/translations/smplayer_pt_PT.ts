@@ -3357,142 +3357,142 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefInterface</name>
     <message>
-        <location filename="../prefinterface.cpp" line="73"/>
+        <location filename="../prefinterface.cpp" line="76"/>
         <source>Interface</source>
         <translation type="unfinished">Interface</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="82"/>
+        <location filename="../prefinterface.cpp" line="85"/>
         <source>Bulgarian</source>
         <translation type="unfinished">Búlgaro</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="84"/>
+        <location filename="../prefinterface.cpp" line="87"/>
         <source>Czech</source>
         <translation type="unfinished">Checo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="85"/>
+        <location filename="../prefinterface.cpp" line="88"/>
         <source>German</source>
         <translation type="unfinished">Alemão</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="86"/>
+        <location filename="../prefinterface.cpp" line="89"/>
         <source>Greek</source>
         <translation type="unfinished">Grego</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="87"/>
+        <location filename="../prefinterface.cpp" line="90"/>
         <source>English</source>
         <translation type="unfinished">Inglês</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="88"/>
+        <location filename="../prefinterface.cpp" line="91"/>
         <source>Spanish</source>
         <translation type="unfinished">Espanhol</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="90"/>
+        <location filename="../prefinterface.cpp" line="93"/>
         <source>Finnish</source>
         <translation type="unfinished">Finlandês</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="91"/>
+        <location filename="../prefinterface.cpp" line="94"/>
         <source>French</source>
         <translation type="unfinished">Francês</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="93"/>
+        <location filename="../prefinterface.cpp" line="96"/>
         <source>Hungarian</source>
         <translation type="unfinished">Húngaro</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="94"/>
+        <location filename="../prefinterface.cpp" line="97"/>
         <source>Italian</source>
         <translation type="unfinished">Italiano</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="95"/>
+        <location filename="../prefinterface.cpp" line="98"/>
         <source>Japanese</source>
         <translation type="unfinished">Japonês</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="96"/>
+        <location filename="../prefinterface.cpp" line="99"/>
         <source>Georgian</source>
         <translation type="unfinished">Georgiano</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="97"/>
+        <location filename="../prefinterface.cpp" line="100"/>
         <source>Dutch</source>
         <translation type="unfinished">Holandês</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="98"/>
+        <location filename="../prefinterface.cpp" line="101"/>
         <source>Polish</source>
         <translation type="unfinished">Polaco</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="99"/>
+        <location filename="../prefinterface.cpp" line="102"/>
         <source>Portuguese - Brazil</source>
         <translation type="unfinished">Português - Brasil</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="100"/>
+        <location filename="../prefinterface.cpp" line="103"/>
         <source>Portuguese - Portugal</source>
         <translation type="unfinished">Português - Portugal</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="101"/>
+        <location filename="../prefinterface.cpp" line="104"/>
         <source>Romanian</source>
         <translation type="unfinished">Romeno</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="102"/>
+        <location filename="../prefinterface.cpp" line="105"/>
         <source>Russian</source>
         <translation type="unfinished">Russo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="103"/>
+        <location filename="../prefinterface.cpp" line="106"/>
         <source>Slovak</source>
         <translation type="unfinished">Eslovaco</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="104"/>
+        <location filename="../prefinterface.cpp" line="107"/>
         <source>Serbian</source>
         <translation type="unfinished">Sérvio</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="105"/>
+        <location filename="../prefinterface.cpp" line="108"/>
         <source>Swedish</source>
         <translation type="unfinished">Sueco</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="106"/>
+        <location filename="../prefinterface.cpp" line="109"/>
         <source>Turkish</source>
         <translation type="unfinished">Turco</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="107"/>
+        <location filename="../prefinterface.cpp" line="110"/>
         <source>Ukrainian</source>
         <translation type="unfinished">Ucraniano</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="108"/>
+        <location filename="../prefinterface.cpp" line="111"/>
         <source>Simplified-Chinese</source>
         <translation type="unfinished">Chinês Simplificado</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="109"/>
+        <location filename="../prefinterface.cpp" line="112"/>
         <source>Traditional Chinese</source>
         <translation type="unfinished">Chinês Tradicional</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="116"/>
+        <location filename="../prefinterface.cpp" line="119"/>
         <source>&lt;Autodetect&gt;</source>
         <translation type="unfinished">&lt;Autodetectar&gt;</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="166"/>
+        <location filename="../prefinterface.cpp" line="171"/>
         <source>Default</source>
         <translation type="unfinished">Por defeito</translation>
     </message>
@@ -3504,146 +3504,156 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="202"/>
         <source>Seeking</source>
-        <translation type="unfinished">Procura</translation>
+        <translation type="obsolete">Procura</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="123"/>
+        <location filename="../prefinterface.ui" line="87"/>
         <source>Never</source>
         <translation type="unfinished">Nunca</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="128"/>
+        <location filename="../prefinterface.ui" line="92"/>
         <source>Whenever it&apos;s needed</source>
         <translation type="unfinished">Sempre que necessário</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="133"/>
+        <location filename="../prefinterface.ui" line="97"/>
         <source>Only after loading a new video</source>
         <translation type="unfinished">Só depois de carregar novo vídeo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="151"/>
+        <location filename="../prefinterface.ui" line="130"/>
         <source>Recent files</source>
         <translation type="unfinished">Ficheiros recentes</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="405"/>
+        <location filename="../prefinterface.cpp" line="417"/>
         <source>Language</source>
         <translation type="unfinished">Idioma</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="406"/>
+        <location filename="../prefinterface.cpp" line="418"/>
         <source>Here you can change the language of the application.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="83"/>
+        <location filename="../prefinterface.cpp" line="86"/>
         <source>Catalan</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="89"/>
+        <location filename="../prefinterface.cpp" line="92"/>
         <source>Basque</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="92"/>
+        <location filename="../prefinterface.cpp" line="95"/>
         <source>Galician</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="141"/>
+        <location filename="../prefinterface.cpp" line="146"/>
         <source>&amp;Short jump</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="142"/>
+        <location filename="../prefinterface.cpp" line="147"/>
         <source>&amp;Medium jump</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="143"/>
+        <location filename="../prefinterface.cpp" line="148"/>
         <source>&amp;Long jump</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="144"/>
+        <location filename="../prefinterface.cpp" line="149"/>
         <source>Mouse &amp;wheel jump</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="445"/>
+        <location filename="../prefinterface.ui" line="522"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="455"/>
+        <location filename="../prefinterface.ui" line="532"/>
         <source>SMPlayer will listen to this &amp;port to receive commands from other instances:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="163"/>
+        <location filename="../prefinterface.ui" line="142"/>
         <source>Ma&amp;x. items</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="260"/>
+        <location filename="../prefinterface.ui" line="209"/>
         <source>St&amp;yle:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="299"/>
+        <location filename="../prefinterface.ui" line="248"/>
         <source>Ico&amp;n set:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="286"/>
+        <location filename="../prefinterface.ui" line="235"/>
         <source>L&amp;anguage:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="92"/>
+        <location filename="../prefinterface.ui" line="41"/>
         <source>Main window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="104"/>
+        <location filename="../prefinterface.ui" line="68"/>
         <source>Auto&amp;resize:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="141"/>
+        <location filename="../prefinterface.ui" line="105"/>
         <source>R&amp;emember position and size</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="69"/>
+        <location filename="../prefinterface.ui" line="327"/>
         <source>Default font:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="83"/>
+        <location filename="../prefinterface.ui" line="341"/>
         <source>&amp;Change...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="385"/>
+        <location filename="../prefinterface.ui" line="439"/>
         <source>&amp;Behaviour of time slider:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="404"/>
+        <location filename="../prefinterface.ui" line="458"/>
         <source>Seek to position while dragging</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="409"/>
+        <location filename="../prefinterface.ui" line="463"/>
         <source>Seek to position when released</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="433"/>
-        <source>In&amp;stances</source>
+        <location filename="../prefinterface.ui" line="507"/>
+        <source>TextLabel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="364"/>
+        <source>&amp;Seeking</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="487"/>
+        <source>Ins&amp;tances</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4524,7 +4534,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VolumeSliderAction</name>
     <message>
-        <location filename="../widgetactions.cpp" line="124"/>
+        <location filename="../widgetactions.cpp" line="128"/>
         <source>Volume</source>
         <translation type="unfinished">Volume</translation>
     </message>
