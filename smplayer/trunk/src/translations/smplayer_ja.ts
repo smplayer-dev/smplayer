@@ -205,7 +205,7 @@
     <message>
         <location filename="../about.ui" line="223"/>
         <source>icon</source>
-        <translation>アイコン</translation>
+        <translation>icon</translation>
     </message>
     <message>
         <location filename="../about.ui" line="91"/>
@@ -1580,7 +1580,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../eqslider.ui" line="25"/>
         <source>icon</source>
-        <translation>アイコン</translation>
+        <translation>icon</translation>
     </message>
 </context>
 <context>
@@ -2243,7 +2243,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="49"/>
         <source>icon</source>
-        <translation>アイコン</translation>
+        <translation>icon</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="112"/>
@@ -2526,7 +2526,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefdrives.ui" line="157"/>
         <source>icon</source>
-        <translation>アイコン</translation>
+        <translation>icon</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="80"/>
@@ -3228,7 +3228,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="115"/>
         <source>icon</source>
-        <translation>アイコン</translation>
+        <translation>icon</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="110"/>
@@ -3731,17 +3731,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="507"/>
         <source>TextLabel</source>
-        <translation type="unfinished"></translation>
+        <translation>TextLabel</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="364"/>
         <source>&amp;Seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>シーク(&amp;S)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="487"/>
         <source>Ins&amp;tances</source>
-        <translation type="unfinished"></translation>
+        <translation>起動(&amp;T)</translation>
     </message>
 </context>
 <context>
@@ -3829,32 +3829,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="85"/>
         <source>realtime</source>
-        <translation>リアルタイム</translation>
+        <translation>realtime</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="90"/>
         <source>high</source>
-        <translation>高</translation>
+        <translation>high</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="95"/>
         <source>abovenormal</source>
-        <translation>通常の上</translation>
+        <translation>abovenormal</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="100"/>
         <source>normal</source>
-        <translation>通常</translation>
+        <translation>normal</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="105"/>
         <source>belownormal</source>
-        <translation>通常の下</translation>
+        <translation>belownormal</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="110"/>
         <source>idle</source>
-        <translation>アイドル</translation>
+        <translation>idle</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="194"/>
@@ -4601,12 +4601,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../seekwidget.ui" line="25"/>
         <source>icon</source>
-        <translation>アイコン</translation>
+        <translation>icon</translation>
     </message>
     <message>
         <location filename="../seekwidget.ui" line="43"/>
         <source>label</source>
-        <translation>ラベル</translation>
+        <translation>label</translation>
     </message>
 </context>
 <context>
