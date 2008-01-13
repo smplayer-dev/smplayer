@@ -549,7 +549,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="962"/>
         <source>&amp;URL...</source>
-        <translation>&amp;URL...</translation>
+        <translation>&amp;Адрес...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="966"/>
@@ -809,7 +809,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1146"/>
         <source>Si&amp;ze</source>
-        <translation>Ра&amp;змер</translation>
+        <translation>Ра&amp;змер видео</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1152"/>
@@ -819,7 +819,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1155"/>
         <source>&amp;Deinterlace</source>
-        <translation>&amp;Удаление &quot;расчёски&quot;</translation>
+        <translation>&amp;Удаление &quot;гребёнки&quot;</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1166"/>
@@ -859,7 +859,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1184"/>
         <source>Linear &amp;Blend</source>
-        <translation>Linear &amp;Blend</translation>
+        <translation>Линейное &amp;смешивание</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1192"/>
@@ -2964,7 +2964,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="592"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation>Указывает аудио дорожку по умолчанию, используемую по умолчанию для новых файлов. Если дорожка не существует, будет использована первая. &lt;br&gt;&lt;b&gt;Примечание:&lt;/b&gt; опция &lt;i&gt;&quot;Предпочительный язык аудио&quot;&lt;/i&gt; более приоритетна.</translation>
+        <translation>Указывает аудио дорожку по умолчанию, используемую по умолчанию для новых файлов. Если дорожка не существует, будет использована первая. &lt;br&gt;&lt;b&gt;Примечание:&lt;/b&gt; опция &lt;i&gt;предпочитаемый язык&lt;/i&gt; более приоритетна.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="594"/>
