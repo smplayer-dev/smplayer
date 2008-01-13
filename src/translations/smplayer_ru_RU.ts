@@ -594,7 +594,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="992"/>
         <source>Speed &amp;-10%</source>
-        <translation>Скорость &amp;-10%</translation>
+        <translation>Скорость &amp;–10%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="993"/>
@@ -634,7 +634,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1012"/>
         <source>&amp;Postprocessing</source>
-        <translation>&amp;Постпроцессинг</translation>
+        <translation>&amp;Постобработка</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1013"/>
@@ -644,12 +644,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1014"/>
         <source>&amp;Deblock</source>
-        <translation>&amp;Deblock</translation>
+        <translation>Смазывание границ &amp;квадратов</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1015"/>
         <source>De&amp;ring</source>
-        <translation>De&amp;ring</translation>
+        <translation>Удаление к&amp;раевых артефактов</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1016"/>
@@ -694,7 +694,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1035"/>
         <source>&amp;Karaoke</source>
-        <translation>&amp;Караоке</translation>
+        <translation type="unfinished">&amp;Караоке (подавление голоса)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1195"/>
@@ -1226,7 +1226,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1185"/>
         <source>&amp;Kerndeint</source>
-        <translation>&amp;Kerndeint</translation>
+        <translation>&amp;Адаптивное (mplayer)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1182"/>
@@ -1236,7 +1236,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1183"/>
         <source>Y&amp;adif (double framerate)</source>
-        <translation>Y&amp;adif (удвоенная частота кадров)</translation>
+        <translation>Y&amp;adif (2× частота кадров)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1070"/>
@@ -1877,7 +1877,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../inputdvddirectory.ui" line="72"/>
         <source>Choose a directory...</source>
-        <translation>Выберите каталог...</translation>
+        <translation>Обзор...</translation>
     </message>
 </context>
 <context>
@@ -2230,7 +2230,7 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../prefadvanced.ui" line="493"/>
         <source>SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br&gt;&lt;br&gt;
 The drop-down lists may provide already made regular expression for several languages.</source>
-        <translation>SMPlayer-у необходимо получать и обрабатывать вывод MPlayer, который иногда содержит английский текст. Если вы используете MPlayer, переведенный на другой язык, то вам необходимо указать какой текст в переведенной версии соответствует оригиналу (для этого вы должны записать соответствующие регулярные выражения).&lt;br&gt;Приведенный ниже список уже содержит регулярные для некоторых языков.</translation>
+        <translation>SMPlayer получает и обрабатывает вывод MPlayer, обычно содержащий английский текст. Если вы используете MPlayer, скопилированный под другой язык, то нужно указать какой текст в этой версии соответствует оригиналу (для этого запишите соответствующие регулярные выражения).&lt;br&gt;Приведенный ниже список уже содержит регулярные для некоторых языков.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="337"/>
@@ -2979,7 +2979,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="932"/>
         <source>Or choose a track number:</source>
-        <translation>Или выбрать номер дорожки:</translation>
+        <translation>Или указать номер дорожки:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="873"/>
@@ -2989,12 +2989,12 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="839"/>
         <source>Preferred language:</source>
-        <translation>Предпочтитаемый язык:</translation>
+        <translation>Выбрать предпочтитаемый язык:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="737"/>
         <source>Preferre&amp;d audio and subtitles</source>
-        <translation>Предпочит&amp;аемые звуковая дорожка и субтитры</translation>
+        <translation>&amp;Языковая дорожка и субтитры</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="886"/>
@@ -3516,7 +3516,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="142"/>
         <source>Ma&amp;x. items</source>
-        <translation>Ма&amp;кс. пунктов</translation>
+        <translation>&amp;Количество пунктов в меню</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="209"/>
@@ -3591,7 +3591,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="487"/>
         <source>Ins&amp;tances</source>
-        <translation>И&amp;сключения</translation>
+        <translation type="unfinished">&amp;Экземпляры</translation>
     </message>
 </context>
 <context>
