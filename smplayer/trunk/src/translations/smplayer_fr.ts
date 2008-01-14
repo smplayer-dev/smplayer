@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -20,42 +21,42 @@
     <message>
         <location filename="../about.cpp" line="85"/>
         <source>Some people have helped with their contributions:</source>
-        <translation type="unfinished"></translation>
+        <translation>Les personnes ayant contribuées au projet :</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
         <source>SMPlayer logo</source>
-        <translation type="unfinished"></translation>
+        <translation>Logo SMPlayer</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="87"/>
         <source>file associations for Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Association de fichiers pour windows</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="88"/>
         <source>manpage for linux</source>
-        <translation type="unfinished"></translation>
+        <translation>Manpage pour Linux</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="89"/>
         <source>support for colored console output</source>
-        <translation type="unfinished"></translation>
+        <translation>Support de la console colorée de sortie </translation>
     </message>
     <message>
         <location filename="../about.cpp" line="90"/>
         <source>icon for file associations</source>
-        <translation type="unfinished"></translation>
+        <translation>Icône pour l&apos;association de fichiers</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="91"/>
         <source>patch for file associations</source>
-        <translation type="unfinished"></translation>
+        <translation>Patch pour l&apos;association de fichiers</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="126"/>
         <source>The following people have contributed with translations:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ces personnes suivantes ont contribués pour la traduction :</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="127"/>
