@@ -1178,7 +1178,7 @@ void Core::startMplayer( QString file, double seek ) {
 	
 		proc->addArgument("-colorkey");
 		//proc->addArgument( "0x"+QString::number(pref->color_key, 16) );
-		proc->addArgument( "0x"+Helper::colorToBGR(pref->color_key) );
+		proc->addArgument( Helper::colorToRGB(pref->color_key) );
 
 		// Set monitoraspect to desktop aspect
 		proc->addArgument("-monitoraspect");
@@ -1195,9 +1195,9 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument("-ass");
 		proc->addArgument("-embeddedfonts");
 		proc->addArgument("-ass-color");
-		proc->addArgument( Helper::colorToRGBA( pref->ass_color ) );
+		proc->addArgument( Helper::colorToRRGGBBAA( pref->ass_color ) );
 		proc->addArgument("-ass-border-color");
-		proc->addArgument( Helper::colorToRGBA( pref->ass_border_color ) );
+		proc->addArgument( Helper::colorToRRGGBBAA( pref->ass_border_color ) );
 		if (!pref->ass_styles.isEmpty()) {
 			proc->addArgument("-ass-force-style");
 			proc->addArgument( pref->ass_styles );
