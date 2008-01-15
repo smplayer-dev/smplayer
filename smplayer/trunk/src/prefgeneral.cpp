@@ -166,18 +166,26 @@ void PrefGeneral::getData(Preferences * pref) {
 }
 
 void PrefGeneral::setDrivers(InfoList vo_list, InfoList ao_list) {
-	InfoList::iterator it;
-
-	for ( it = vo_list.begin(); it != vo_list.end(); ++it ) {
-		vo_combo->addItem( (*it).name() );
+	for ( int n = 0; n < vo_list.count(); n++ ) {
+		vo_combo->addItem( vo_list[n].name() );
 		// Add directx:noaccel
-		if ( (*it).name() == "directx" ) {
+		if ( vo_list[n].name() == "directx" ) {
 			vo_combo->addItem( "directx:noaccel" );
 		}
+		// gl/gl2
+		if (vo_list[n].name() == "gl") {
+			vo_combo->addItem( "gl:yuv=3:lscale=1" );
+		}
+		/*
+		if (vo_list[n].name() == "gl2") {
+			vo_combo->addItem( "gl2:yuv=4" );
+			//vo_combo->addItem( "gl2:yuv=6" );
+		}
+		*/
 	}
 
-	for ( it = ao_list.begin(); it != ao_list.end(); ++it ) {
-		ao_combo->addItem( (*it).name() );
+	for ( int n = 0; n < ao_list.count(); n++) {
+		ao_combo->addItem( ao_list[n].name() );
 	}
 }
 
