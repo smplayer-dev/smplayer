@@ -1,5 +1,8 @@
 [b]Version 0.6.0rc1 (not released yet)[/b]:
 
+(2008-01-14)
+ * Added gl:yuv=3:lscale=1 in the video output combo in preferences.
+
 (2008-01-10)
  * Added an icon in the Instances tab so it doesn't look so empty 
    (instance1.png and instance2.png).
