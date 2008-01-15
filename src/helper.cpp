@@ -320,6 +320,14 @@ QString Helper::colorToRGB(unsigned int color) {
 	return s.sprintf("%02x%02x%02x", c.red(), c.green(), c.blue() );
 }
 
+QString Helper::colorToBGR(unsigned int color) {
+	QColor c;
+	c.setRgb( color );
+
+	QString s;
+	return s.sprintf("%02x%02x%02x", c.blue(), c.green(), c.red() );
+}
+
 void Helper::setForegroundColor(QWidget * w, const QColor & color) {
 	QPalette p = w->palette(); 
 	p.setColor(w->foregroundRole(), color); 
