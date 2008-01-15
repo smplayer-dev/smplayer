@@ -694,7 +694,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1035"/>
         <source>&amp;Karaoke</source>
-        <translation type="unfinished">&amp;Караоке (подавление голоса)</translation>
+        <translation>&amp;Караоке (подавление голоса)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1195"/>
