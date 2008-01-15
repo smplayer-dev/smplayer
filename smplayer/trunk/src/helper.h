@@ -88,6 +88,7 @@ public:
 
 	static QString colorToRGBA(unsigned int color);
 	static QString colorToRGB(unsigned int color);
+	static QString colorToBGR(unsigned int color);
 
 	//! Changes the foreground color of the specified widget
 	static void setForegroundColor(QWidget * w, const QColor & color);
