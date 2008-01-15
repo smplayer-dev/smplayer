@@ -1177,8 +1177,7 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( QString::number( (int) mplayerwindow->videoLayer()->winId() ) );
 	
 		proc->addArgument("-colorkey");
-		//proc->addArgument( QString::number(pref->color_key) );
-		proc->addArgument( "0x"+Helper::colorToRGB(pref->color_key) );
+		proc->addArgument( "0x"+QString::number(pref->color_key, 16) );
 
 		// Set monitoraspect to desktop aspect
 		proc->addArgument("-monitoraspect");
