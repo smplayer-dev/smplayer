@@ -308,8 +308,12 @@ void Helper::msleep(int ms) {
 }
 */
 
-QString Helper::colorToRGBA(unsigned int color) {
-	return colorToRGB(color)+"00";
+QString Helper::colorToRRGGBBAA(unsigned int color) {
+	QColor c;
+	c.setRgb( color );
+
+	QString s;
+	return s.sprintf("%02x%02x%02x00", c.red(), c.green(), c.blue() );
 }
 
 QString Helper::colorToRGB(unsigned int color) {
@@ -317,15 +321,7 @@ QString Helper::colorToRGB(unsigned int color) {
 	c.setRgb( color );
 
 	QString s;
-	return s.sprintf("%02x%02x%02x", c.red(), c.green(), c.blue() );
-}
-
-QString Helper::colorToBGR(unsigned int color) {
-	QColor c;
-	c.setRgb( color );
-
-	QString s;
-	return s.sprintf("%02x%02x%02x", c.blue(), c.green(), c.red() );
+	return s.sprintf("0x%02x%02x%02x", c.blue(), c.green(), c.red() );
 }
 
 void Helper::setForegroundColor(QWidget * w, const QColor & color) {
