@@ -309,11 +309,7 @@ void Helper::msleep(int ms) {
 */
 
 QString Helper::colorToRGBA(unsigned int color) {
-	QColor c;
-	c.setRgb( color );
-
-	QString s;
-	return s.sprintf("%02x%02x%02x00", c.red(), c.green(), c.blue() );
+	return colorToRGB(color)+"00";
 }
 
 QString Helper::colorToRGB(unsigned int color) {
