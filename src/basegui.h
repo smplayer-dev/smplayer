@@ -328,6 +328,7 @@ protected:
 	MyAction * showPlaylistAct;
 	MyAction * showPropertiesAct;
 	MyAction * frameCounterAct;
+	MyAction * motionVectorsAct;
 	MyAction * showPreferencesAct;
 	MyAction * showLogMplayerAct;
 	MyAction * showLogSmplayerAct;

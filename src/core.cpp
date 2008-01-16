@@ -1041,12 +1041,24 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 
+	QString lavdopts;
+
 	if ( (pref->h264_skip_loop_filter == Preferences::LoopDisabled) || 
          ((pref->h264_skip_loop_filter == Preferences::LoopDisabledOnHD) && 
           (mset.is264andHD)) )
 	{
+		if (!lavdopts.isEmpty()) lavdopts += ":";
+		lavdopts += "skiploopfilter=all";
+	}
+
+	if (pref->show_motion_vectors) {
+		if (!lavdopts.isEmpty()) lavdopts += ":";
+		lavdopts += "vismv=7";
+	}
+
+	if (!lavdopts.isEmpty()) {
 		proc->addArgument("-lavdopts");
-		proc->addArgument("skiploopfilter=all");
+		proc->addArgument(lavdopts);
 	}
 
 	proc->addArgument("-sub-fuzziness");
@@ -2622,6 +2634,15 @@ void Core::changeUseAss(bool b) {
 
 	if (pref->use_ass_subtitles != b) {
 		pref->use_ass_subtitles = b;
+		if (proc->isRunning()) restartPlay();
+	}
+}
+
+void Core::visualizeMotionVectors(bool b) {
+	qDebug("Core::visualizeMotionVectors: %d", b);
+
+	if (pref->show_motion_vectors != b) {
+		pref->show_motion_vectors = b;
 		if (proc->isRunning()) restartPlay();
 	}
 }

@@ -151,6 +151,7 @@ void Preferences::reset() {
 	size_factor = 100; // 100%
 
 	show_frame_counter = FALSE;
+	show_motion_vectors = false;
 
 	autoq = 6;
 
@@ -358,6 +359,7 @@ void Preferences::save() {
 	set->setValue("size_factor", size_factor);
 
 	set->setValue("show_frame_counter", show_frame_counter);
+	set->setValue("show_motion_vectors", show_motion_vectors);
 
 	set->setValue("autoq", autoq);
 
@@ -566,6 +568,7 @@ void Preferences::load() {
 	size_factor = set->value("size_factor", size_factor).toInt();
 
 	show_frame_counter = set->value("show_frame_counter", show_frame_counter).toBool();
+	show_motion_vectors = set->value("show_motion_vectors", show_motion_vectors).toBool();
 
 	autoq = set->value("autoq", autoq).toInt();
 
