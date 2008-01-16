@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -572,7 +573,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="960"/>
         <source>&amp;File...</source>
-        <translation>&amp;Fişier...</translation>
+        <translation>&amp;Fișier...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="961"/>
@@ -602,7 +603,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1146"/>
         <source>&amp;Clear</source>
-        <translation>Ş&amp;terge_lista</translation>
+        <translation>Ș&amp;tergere_listă</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1144"/>
@@ -627,7 +628,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="979"/>
         <source>&amp;Frame step</source>
-        <translation>&amp;Frecvenţă cadre</translation>
+        <translation>&amp;Frecvență cadre</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="994"/>
@@ -1012,24 +1013,24 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="2612"/>
         <source>All files</source>
-        <translation>Toate fişierele</translation>
+        <translation>Toate fișierele</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2609"/>
         <source>Choose a file</source>
-        <translation>Alegere fişier</translation>
+        <translation>Alegere fișier</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2483"/>
         <source>SMPlayer - Information</source>
-        <translation>SMPlayer - Informaţii</translation>
+        <translation>SMPlayer - Informații</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2486"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Driverele pentru CDROM/DVD nu sunt configurate încă.
-O fereastră de dialog va fi afişată pentru a putea face configurarea.</translation>
+O fereastră de dialog va fi afișată pentru a putea face configurarea.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2560"/>
@@ -1104,7 +1105,7 @@ O fereastră de dialog va fi afişată pentru a putea face configurarea.</transl
     <message>
         <location filename="../basegui.cpp" line="1060"/>
         <source>View &amp;info and properties...</source>
-        <translation>Vezi &amp;informaţii şi proprietăţi...</translation>
+        <translation>Consultați &amp;informații şi proprietăți...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1008"/>
@@ -1174,12 +1175,12 @@ O fereastră de dialog va fi afişată pentru a putea face configurarea.</transl
     <message>
         <location filename="../basegui.cpp" line="1093"/>
         <source>Inc volume (2)</source>
-        <translation>Creştere volum (2)</translation>
+        <translation>Creștere volum (2)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1096"/>
         <source>Exit fullscreen</source>
-        <translation>Eşire mod fullscreen</translation>
+        <translation>Ieșire mod fullscreen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1098"/>
@@ -1194,7 +1195,7 @@ O fereastră de dialog va fi afişată pentru a putea face configurarea.</transl
     <message>
         <location filename="../basegui.cpp" line="1100"/>
         <source>Inc contrast</source>
-        <translation>Creştere contrast</translation>
+        <translation>Creștere contrast</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1101"/>
@@ -1204,7 +1205,7 @@ O fereastră de dialog va fi afişată pentru a putea face configurarea.</transl
     <message>
         <location filename="../basegui.cpp" line="1102"/>
         <source>Inc brightness</source>
-        <translation>Creştere strălucire</translation>
+        <translation>Creștere strălucire</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1103"/>
@@ -1219,7 +1220,7 @@ O fereastră de dialog va fi afişată pentru a putea face configurarea.</transl
     <message>
         <location filename="../basegui.cpp" line="1105"/>
         <source>Dec saturation</source>
-        <translation>Reducere saturaţie</translation>
+        <translation>Reducere saturație</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1107"/>
@@ -1249,17 +1250,17 @@ O fereastră de dialog va fi afişată pentru a putea face configurarea.</transl
     <message>
         <location filename="../basegui.cpp" line="1106"/>
         <source>Inc saturation</source>
-        <translation>Creştere saturaţie</translation>
+        <translation>Creștere saturație</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1108"/>
         <source>Inc gamma</source>
-        <translation>Creştere gamma</translation>
+        <translation>Creștere gamma</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1035"/>
         <source>&amp;Load external file...</source>
-        <translation>Î&amp;ncărcare fişier extern...</translation>
+        <translation>Î&amp;ncărcare fișier extern...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1192"/>
@@ -1274,7 +1275,7 @@ O fereastră de dialog va fi afişată pentru a putea face configurarea.</transl
     <message>
         <location filename="../basegui.cpp" line="1190"/>
         <source>Y&amp;adif (double framerate)</source>
-        <translation>Y&amp;adif (frecvenţă cadre dublă)</translation>
+        <translation>Y&amp;adif (frecvență cadre dublă)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1077"/>
@@ -1319,7 +1320,7 @@ O fereastră de dialog va fi afişată pentru a putea face configurarea.</transl
     <message>
         <location filename="../basegui.cpp" line="1006"/>
         <source>Flip i&amp;mage</source>
-        <translation>I&amp;magine răturnată</translation>
+        <translation>I&amp;magine răsturnată</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1113"/>
@@ -1354,7 +1355,7 @@ O fereastră de dialog va fi afişată pentru a putea face configurarea.</transl
     <message>
         <location filename="../basegui.cpp" line="1064"/>
         <source>Visualize &amp;motion vectors</source>
-        <translation type="unfinished"></translation>
+        <translation>Vizualizare vectori de &amp;mișcare</translation>
     </message>
 </context>
 <context>
@@ -1362,7 +1363,7 @@ O fereastră de dialog va fi afişată pentru a putea face configurarea.</transl
     <message>
         <location filename="../baseguiplus.cpp" line="144"/>
         <source>SMPlayer is still running here</source>
-        <translation>SMPlayer încă funcţionează de aici</translation>
+        <translation>SMPlayer încă funcționează de aici</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="165"/>
@@ -1420,7 +1421,7 @@ O fereastră de dialog va fi afişată pentru a putea face configurarea.</transl
     <message>
         <location filename="../core.cpp" line="1936"/>
         <source>Saturation: %1</source>
-        <translation>Saturaţie: %1</translation>
+        <translation>Saturație: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2055"/>
@@ -1496,7 +1497,7 @@ O fereastră de dialog va fi afişată pentru a putea face configurarea.</transl
     <message>
         <location filename="../encodings.cpp" line="34"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
-        <translation>Esperanto, Galiţiană, Malteză, Turcă</translation>
+        <translation>Esperanto, Galițiană, Malteză, Turcă</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="35"/>
@@ -1594,7 +1595,7 @@ O fereastră de dialog va fi afişată pentru a putea face configurarea.</transl
     <message>
         <location filename="../eqslider.ui" line="25"/>
         <source>icon</source>
-        <translation>Iconiţă</translation>
+        <translation>Iconiță</translation>
     </message>
 </context>
 <context>
@@ -1602,7 +1603,7 @@ O fereastră de dialog va fi afişată pentru a putea face configurarea.</transl
     <message>
         <location filename="../filepropertiesdialog.ui" line="14"/>
         <source>SMPlayer - File properties</source>
-        <translation>SMPlayer - Proprietăţi fişier</translation>
+        <translation>SMPlayer - Proprietăți fișier</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="36"/>
@@ -1617,7 +1618,7 @@ O fereastră de dialog va fi afişată pentru a putea face configurarea.</transl
     <message>
         <location filename="../filepropertiesdialog.ui" line="68"/>
         <source>&amp;Select the demuxer that will be used for this file:</source>
-        <translation>&amp;Selectare demuxer care va fi utilizat pentru acest fişier:</translation>
+        <translation>&amp;Selectare demuxer care va fi utilizat pentru acest fișier:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="232"/>
@@ -1647,32 +1648,32 @@ O fereastră de dialog va fi afişată pentru a putea face configurarea.</transl
     <message>
         <location filename="../filepropertiesdialog.ui" line="242"/>
         <source>&amp;MPlayer options</source>
-        <translation>Opţiuni &amp;MPlayer</translation>
+        <translation>Opțiuni &amp;MPlayer</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="254"/>
         <source>Additional Options for MPlayer</source>
-        <translation>Opţiuni suplimentare pentru MPlayer</translation>
+        <translation>Opțiuni suplimentare pentru MPlayer</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="266"/>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation>Aici se pot adăuga opţiuni suplimentare pentru MPlayer.Opţiunile trebuie separate prin spaţii.Exemplu: -flip nosound</translation>
+        <translation>Aici se pot adăuga opțiuni suplimentare pentru MPlayer.Opțiunile trebuie separate prin spații.Exemplu: -flip nosound</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="289"/>
         <source>&amp;Options:</source>
-        <translation>&amp;Opţiuni:</translation>
+        <translation>&amp;Opțiuni:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="328"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
-        <translation>Puteţi introduce filtre video suplimentare.
-Separaţi-le prin &quot;,&quot;.Nu utilizaţi spaţii!
+        <translation>Puteți introduce filtre video suplimentare.
+Separați-le prin &quot;,&quot;.Nu utilizați spații!
 Exemplu: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
@@ -1684,8 +1685,8 @@ Exemplu: scale=512:-2,eq2=1.1</translation>
         <location filename="../filepropertiesdialog.ui" line="390"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
-        <translation>Şi, în sfârşit, filtrele audio.
-Se folosesc aceleaşi reguli ca pentru filtrele video.Exemplu: resample=44100:0:0,volnorm</translation>
+        <translation>Și, în sfârșit, filtrele audio.
+Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="412"/>
@@ -1700,7 +1701,7 @@ Se folosesc aceleaşi reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../filepropertiesdialog.cpp" line="71"/>
         <source>Cancel</source>
-        <translation>Renunţare</translation>
+        <translation>Renunțare</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="72"/>
@@ -1778,7 +1779,7 @@ Se folosesc aceleaşi reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../infofile.cpp" line="85"/>
         <source>Copyright</source>
-        <translation>Licenţă</translation>
+        <translation>Licență</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="86"/>
@@ -1793,7 +1794,7 @@ Se folosesc aceleaşi reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../infofile.cpp" line="92"/>
         <source>Clip info</source>
-        <translation>Informaţii Clip</translation>
+        <translation>Informații Clip</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="99"/>
@@ -1803,7 +1804,7 @@ Se folosesc aceleaşi reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../infofile.cpp" line="100"/>
         <source>Resolution</source>
-        <translation>Rezoluţie</translation>
+        <translation>Rezoluție</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="101"/>
@@ -1905,7 +1906,7 @@ Se folosesc aceleaşi reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../infofile.cpp" line="62"/>
         <source>File</source>
-        <translation>Fişier</translation>
+        <translation>Fișier</translation>
     </message>
 </context>
 <context>
@@ -1923,7 +1924,7 @@ Se folosesc aceleaşi reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../inputdvddirectory.ui" line="39"/>
         <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation>Puteţi reda un dvd de pe hard disc.Selectaţi directorul care conţine fişierele VIDEO_TS şi AUDIO_TS.</translation>
+        <translation>Puteți reda un dvd de pe hard disc.Selectați directorul care conține fișierele VIDEO_TS și AUDIO_TS.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="72"/>
@@ -1936,7 +1937,7 @@ Se folosesc aceleaşi reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../inputurl.ui" line="13"/>
         <source>SMPlayer - Enter URL</source>
-        <translation>SMPlayer - Introduceţi URL</translation>
+        <translation>SMPlayer - Introduceți URL</translation>
     </message>
     <message>
         <location filename="../inputurl.ui" line="83"/>
@@ -1951,7 +1952,7 @@ Se folosesc aceleaşi reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../inputurl.cpp" line="31"/>
         <source>If this option is checked, the URL will be treated as a playlist: it will be opened as text and will play the URLs in it.</source>
-        <translation>Dacă această opţiune este selectată atunci URL va fi tratat ca o listă de titluri: va fi deschis ca text şi va reda adresele URL din listă.</translation>
+        <translation>Dacă această opțiune este selectată atunci URL va fi tratat ca o listă de titluri: va fi deschis ca text și va reda adresele URL din listă.</translation>
     </message>
 </context>
 <context>
@@ -1959,7 +1960,7 @@ Se folosesc aceleaşi reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../logwindow.cpp" line="71"/>
         <source>Choose a filename to save under</source>
-        <translation>Alegere nume fişier de salvat</translation>
+        <translation>Alegere nume fișier de salvat</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="77"/>
@@ -1970,13 +1971,13 @@ Se folosesc aceleaşi reguli ca pentru filtrele video.Exemplu: resample=44100:0:
         <location filename="../logwindow.cpp" line="79"/>
         <source>The file already exists.
 Do you want to overwrite?</source>
-        <translation>Un fişier cu acelaşi nume există deja.
-Se doreşte suprascrierea lui?</translation>
+        <translation>Un fișier cu același nume există deja.
+Se dorește suprascrierea lui?</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="97"/>
         <source>Error saving file</source>
-        <translation>Eroare la salvarea fisierului</translation>
+        <translation>Eroare la salvarea fișierului</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="98"/>
@@ -2055,34 +2056,34 @@ Se doreşte suprascrierea lui?</translation>
     <message>
         <location filename="../playlist.cpp" line="648"/>
         <source>Choose a file</source>
-        <translation>Alegere fişier</translation>
+        <translation>Alegere fișier</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="666"/>
         <source>Choose a filename</source>
-        <translation>Alegere nume fişier</translation>
+        <translation>Alegere nume fișier</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="677"/>
         <source>Confirm overwrite?</source>
-        <translation>Confirmaţi suprascrierea?</translation>
+        <translation>Confirmați suprascrierea?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="679"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
-        <translation>Fişierul %1 există.
-Doriţi suprascrierea?</translation>
+        <translation>Fișierul %1 există.
+Doriți suprascrierea?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="856"/>
         <source>All files</source>
-        <translation>Toate fişierele</translation>
+        <translation>Toate fișierele</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="854"/>
         <source>Select one or more files to open</source>
-        <translation>Selectaţi unul sau mai multe fişiere pentru a le deschide</translation>
+        <translation>Selectați unul sau mai multe fișiere pentru a le deschide</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="883"/>
@@ -2097,7 +2098,7 @@ Doriţi suprascrierea?</translation>
     <message>
         <location filename="../playlist.cpp" line="1049"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
-        <translation>Tastaţi numele care va fi afişat în Listă pentru acest fişier:</translation>
+        <translation>Tastați numele care va fi afișat în Listă pentru acest fișier:</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="258"/>
@@ -2142,12 +2143,12 @@ Doriţi suprascrierea?</translation>
     <message>
         <location filename="../playlist.cpp" line="283"/>
         <source>Add &amp;current file</source>
-        <translation>Adăugare fişier &amp;curent</translation>
+        <translation>Adăugare fișier &amp;curent</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="284"/>
         <source>Add &amp;file(s)</source>
-        <translation>Adăugare &amp;fişier(e)</translation>
+        <translation>Adăugare &amp;fișier(e)</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="285"/>
@@ -2157,7 +2158,7 @@ Doriţi suprascrierea?</translation>
     <message>
         <location filename="../playlist.cpp" line="288"/>
         <source>Remove &amp;selected</source>
-        <translation>Ştergeţi &amp;selecţie</translation>
+        <translation>Ștergeți &amp;selecție</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="289"/>
@@ -2187,7 +2188,7 @@ Doriţi suprascrierea?</translation>
     <message>
         <location filename="../playlist.cpp" line="704"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
-        <translation>Există modificări nesalvate, doriţi să salvaţi lista?</translation>
+        <translation>Există modificări nesalvate, doriți să salvați lista?</translation>
     </message>
 </context>
 <context>
@@ -2195,7 +2196,7 @@ Doriţi suprascrierea?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="67"/>
         <source>Advanced</source>
-        <translation>Opţiuni_avansate</translation>
+        <translation>Opțiuni_avansate</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="80"/>
@@ -2205,7 +2206,7 @@ Doriţi suprascrierea?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="29"/>
         <source>&amp;Advanced</source>
-        <translation>Opţiuni_&amp;Avansate</translation>
+        <translation>Opțiuni_&amp;Avansate</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="49"/>
@@ -2222,8 +2223,8 @@ Doriţi suprascrierea?</translation>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation>Aici se pot introduce opţiuni suplimentare pentru MPlayer.
-Opţiunile se vor scrie separate de spaţii.
+        <translation>Aici se pot introduce opțiuni suplimentare pentru MPlayer.
+Opţiunile se vor scrie separate de spații.
 Exemplu: -flip -nosound</translation>
     </message>
     <message>
@@ -2231,15 +2232,15 @@ Exemplu: -flip -nosound</translation>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
-        <translation>Puteţi introduce filtre video suplimentare.
-Opţiunile se vor separa prin &quot;,&quot; (virgulă).Nu se utilizează spaţii!
+        <translation>Puteți introduce filtre video suplimentare.
+Opțiunile se vor separa prin &quot;,&quot; (virgulă).Nu se utilizează spații!
 Exemplu: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="427"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
-        <translation>Filtre audio.Se folosesc aceleaşi reguli ca la filtrele video.
+        <translation>Filtre audio.Se folosesc aceleași reguli ca la filtrele video.
 Exemplu: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
@@ -2265,7 +2266,7 @@ Exemplu: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="166"/>
         <source>This option is mainly intended for debugging the application.</source>
-        <translation>Această opţiune se adresează în principal depanării aplicaţiei.</translation>
+        <translation>Această opțiune se adresează în principal depanării aplicației.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="481"/>
@@ -2276,23 +2277,23 @@ Exemplu: resample=44100:0:0,volnorm</translation>
         <location filename="../prefadvanced.ui" line="493"/>
         <source>SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br&gt;&lt;br&gt;
 The drop-down lists may provide already made regular expression for several languages.</source>
-        <translation>SMPlayer trebuie să citească şi să analizeze informaţiile furnizate de MPlayer şi de regulă acestea sunt în engleză. Dacă folosiţi MPlayer tradus în altă limbă, atunci trebuie să modificaţi textul pe care SMPlayer îl monitorizează. (Tehnic vorbind ar trebui să introduceţi expresii standard)&lt;br&gt;&lt;br&gt;
+        <translation>SMPlayer trebuie să citească și să analizeze informațiile furnizate de MPlayer și de regulă acestea sunt în engleză. Dacă folosiți MPlayer tradus în altă limbă, atunci trebuie să modificați textul pe care SMPlayer îl monitorizează. (Tehnic vorbind ar trebui să introduceți expresii standard)&lt;br&gt;&lt;br&gt;
 În caseta în care se înscriu expresiile se găsesc deja unele expresii standard în câteva limbi.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="337"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation>Selectarea acestei opţiuni va reduce tremurul imaginii, dar, totodată poate produce afişarea incorectă a fişierului video.</translation>
+        <translation>Selectarea acestei opțiuni va reduce tremurul imaginii, dar, totodată poate produce afișarea incorectă a fișierului video.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="316"/>
         <source>If checked, smplayer will store the output of mplayer (you can see it in &lt;b&gt;Options-&gt;View logs-&gt;mplayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation>Dacă această opţiune este selectată, mplayer va stoca mesajele de depanare furnizate de mplayer (pot fi consultate ulterior în &lt;b&gt;Opţiuni-&gt;Vezi jurnale-&gt;mplayer&lt;/b&gt;).Aceste informaţii pot fi utile dezvoltatorilor în cazul descoperirii unei probleme.</translation>
+        <translation>Dacă această opțiune este selectată, mplayer va stoca mesajele de depanare furnizate de mplayer (pot fi consultate ulterior în &lt;b&gt;Opțiuni-&gt;Vezi jurnale-&gt;mplayer&lt;/b&gt;).Aceste informații pot fi utile dezvoltatorilor în cazul descoperirii unei probleme.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="310"/>
         <source>If this option is checked, smplayer will store the debugging messages that smplayer outputs (you can see the log in &lt;b&gt;Options-&gt;View logs-&gt;smplayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation>Dacă această opţiune este selectată, smplayer va stoca mesajele de depanare furnizate de smplayer (pot fi consultate ulterior în &lt;b&gt;Opţiuni-&gt;Vezi jurnale-&gt;smplayer&lt;/b&gt;).Aceste informaţii pot fi utile dezvoltatorilor în cazul descoperirii unei probleme.</translation>
+        <translation>Dacă această opţiune este selectată, smplayer va stoca mesajele de depanare furnizate de smplayer (pot fi consultate ulterior în &lt;b&gt;Opțiuni-&gt;Vezi jurnale-&gt;smplayer&lt;/b&gt;).Aceste informații pot fi utile dezvoltatorilor în cazul descoperirii unei probleme.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="328"/>
@@ -2302,7 +2303,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="332"/>
         <source>This option allows to filter the smplayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
-        <translation>Selectarea acestei opţiuni permite filtrarea mesajelor smplayer care vor fi stocate în jurnal. Aici se pot scrie expresii standard.&lt;br&gt;De exemplu: &lt;i&gt;^Core::.*&lt;/i&gt; va afişa doar liniile care încep cu &lt;i&gt;Core::&lt;/i&gt;</translation>
+        <translation>Selectarea acestei opțiuni permite filtrarea mesajelor smplayer care vor fi stocate în jurnal. Aici se pot scrie expresii standard.&lt;br&gt;De exemplu: &lt;i&gt;^Core::.*&lt;/i&gt; va afișa doar liniile care încep cu &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="59"/>
@@ -2317,7 +2318,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.ui" line="326"/>
         <source>&amp;Options:</source>
-        <translation>&amp;Opţiuni:</translation>
+        <translation>&amp;Opțiuni:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="388"/>
@@ -2357,7 +2358,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.ui" line="507"/>
         <source>&amp;End of file:</source>
-        <translation>&amp;Sfârşit fişier:</translation>
+        <translation>&amp;Sfârșit fișier:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="520"/>
@@ -2382,7 +2383,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.ui" line="291"/>
         <source>Options for MP&amp;layer</source>
-        <translation>Opţiuni pentru MP&amp;layer</translation>
+        <translation>Opțiuni pentru MP&amp;layer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="318"/>
@@ -2392,17 +2393,17 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="322"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation>Dacă va fi selectată această opţiune, jurnalul MPlayer va fi salvat în fişierul specificat de fiecare dată când se redă un nou fişier media. Este destinat aplicaţiilor externe, astfel încât aceste programe să poată obţine informaţii despre fişierele media pe care le redaţi.</translation>
+        <translation>Dacă va fi selectată această opțiune, jurnalul MPlayer va fi salvat în fișierul specificat de fiecare dată când se redă un nou fișier media. Este destinat aplicaţiilor externe, astfel încât aceste programe să poată obține informaţii despre fișierele media pe care le redați.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="324"/>
         <source>Autosave MPlayer log filename</source>
-        <translation>Nume fişier jurnal MPlayer salvare automată</translation>
+        <translation>Nume fișier jurnal MPlayer salvare automată</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="326"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
-        <translation>Introduceţi calea şi numele fişierului care va fi folosit pentru salvarea jurnalului MPlayer.</translation>
+        <translation>Introduceți calea și numele fișierului care va fi folosit pentru salvarea jurnalului MPlayer.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="131"/>
@@ -2412,17 +2413,17 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="340"/>
         <source>Pass short filenames (8+3) to MPlayer</source>
-        <translation>Transmite nume scurte de fişier (8+3) către MPlayer</translation>
+        <translation>Transmite nume scurte de fișier (8+3) către MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="344"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
-        <translation>Versiunea curentă de MPlayer nu poate deschide fişiere al căror nume conţine un număr mare de caractere. Bifând această opţiune va face ca SMPlayer să transmită către MPlayer versiunea scurtă a numelor fişierelor şi astfel va fi posibil să le deschidă.</translation>
+        <translation>Versiunea curentă de MPlayer nu poate deschide fișiere al căror nume conține un număr mare de caractere. Bifând această opțiune va face ca SMPlayer să transmită către MPlayer versiunea scurtă a numelor fișierelor și astfel va fi posibil să le deschidă.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="267"/>
         <source>&amp;Pass short filenames (8+3) to MPlayer</source>
-        <translation>&amp;Transmite nume scurte de fişier (8+3) către MPlayer</translation>
+        <translation>&amp;Transmite nume scurte de fișier (8+3) către MPlayer</translation>
     </message>
 </context>
 <context>
@@ -2430,17 +2431,17 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefassociations.cpp" line="184"/>
         <source>Warning</source>
-        <translation>Atenţionare</translation>
+        <translation>Atenționare</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="186"/>
         <source>Not all files could be associated. Please check your security permissions and retry.</source>
-        <translation>Nu toate fişierele pot fi asociate. Verificaţi permisiunile de securitate şi încercaţi din nou.</translation>
+        <translation>Nu toate fișierele pot fi asociate. Verificați permisiunile de securitate și încercați din nou.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="193"/>
         <source>File Types</source>
-        <translation>Tipuri Fişiere</translation>
+        <translation>Tipuri Fișiere</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="210"/>
@@ -2450,27 +2451,27 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefassociations.cpp" line="211"/>
         <source>Check all file types in the list</source>
-        <translation>Bifarea tuturor tipurilor de fişiere din listă</translation>
+        <translation>Bifarea tuturor tipurilor de fișiere din listă</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="214"/>
         <source>Uncheck all file types in the list</source>
-        <translation>Debifarea tuturor tipurilor de fişiere din listă</translation>
+        <translation>Debifarea tuturor tipurilor de fișiere din listă</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="216"/>
         <source>List of file types</source>
-        <translation>Lista tipurilor de fişiere</translation>
+        <translation>Lista tipurilor de fișiere</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="29"/>
         <source>File types</source>
-        <translation>Tipuri fişiere</translation>
+        <translation>Tipuri fișiere</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="41"/>
         <source>Media files handled by SMPlayer:</source>
-        <translation>Fişiere media manipulate de SMPlayer:</translation>
+        <translation>Fișiere media manipulate de SMPlayer:</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="94"/>
@@ -2485,7 +2486,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefassociations.cpp" line="221"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
-        <translation>Bifaţi fişierele media pe care doriţi să le manipuleze SMPlayer. După ce apăsaţi butonul Validare, fişierele bifate vor fi asociate cu SMPlayer. Dacă debifaţi un tip de fişier media, se va reface asocierea implicită a fişierului.</translation>
+        <translation>Bifați fișierele media pe care doriți să le manipuleze SMPlayer. După ce apăsați butonul Validare, fișierele bifate vor fi asociate cu SMPlayer. Dacă debifați un tip de fișier media, se va reface asocierea implicită a fișierului.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="213"/>
@@ -2508,12 +2509,12 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefdrives.ui" line="41"/>
         <source>Currently SMPlayer does not autodetect cdrom or dvd devices. So in order to play cdroms or dvds you must first select here your cdrom and dvd drives (can be the same).</source>
-        <translation>În versiunea actuală SMPlayer nu detectează automat dispozitivele cdrom sau dvd.Pentru a putea reda cdromuri sau dvduri aici se pot selecta driverele pentru cdrom sau dvd (pot fi aceleaşi).</translation>
+        <translation>În versiunea actuală SMPlayer nu detectează automat dispozitivele cdrom sau dvd.Pentru a putea reda cdromuri sau dvduri aici se pot selecta driverele pentru cdrom sau dvd (pot fi aceleași).</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="157"/>
         <source>icon</source>
-        <translation>Iconiţă</translation>
+        <translation>Iconiță</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="80"/>
