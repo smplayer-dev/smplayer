@@ -1371,7 +1371,7 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1064"/>
         <source>Visualize &amp;motion vectors</source>
-        <translation>Visualisieren &amp;Bewegungsvektoren</translation>
+        <translation>Visualisiere &amp;Bewegungsvektoren</translation>
     </message>
 </context>
 <context>
