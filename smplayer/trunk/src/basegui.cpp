@@ -546,6 +546,11 @@ void BaseGui::createActions() {
 	connect( frameCounterAct, SIGNAL(toggled(bool)),
              this, SLOT(toggleFrameCounter(bool)) );
 
+	motionVectorsAct = new MyAction( this, "motion_vectors" );
+	motionVectorsAct->setCheckable( true );
+	connect( motionVectorsAct, SIGNAL(toggled(bool)),
+             core, SLOT(visualizeMotionVectors(bool)) );
+
 	showPreferencesAct = new MyAction( QKeySequence("Ctrl+P"), this, "show_preferences" );
 	connect( showPreferencesAct, SIGNAL(triggered()),
              this, SLOT(showPreferencesDialog()) );
@@ -1055,6 +1060,8 @@ void BaseGui::retranslateStrings() {
 	showPropertiesAct->change( Images::icon("info"), tr("View &info and properties...") );
 	frameCounterAct->change( Images::icon("frame_counter"),
                              tr("&Show frame counter") );
+	motionVectorsAct->change( Images::icon("motion_vectors"), 
+                              tr("Visualize &motion vectors") );
 	showPreferencesAct->change( Images::icon("prefs"), tr("P&references") );
 
 	// Submenu Logs
@@ -1623,6 +1630,7 @@ void BaseGui::createMenus() {
 	optionsMenu->addAction(showPropertiesAct);
 	optionsMenu->addAction(showPlaylistAct);
 	optionsMenu->addAction(frameCounterAct);
+	optionsMenu->addAction(motionVectorsAct);
 
 	// OSD submenu
 	osd_menu = new QMenu(this);
@@ -2226,6 +2234,9 @@ void BaseGui::updateWidgets() {
 
 	// Frame counter
 	frameCounterAct->setChecked( pref->show_frame_counter );
+
+	// Motion vectors
+	motionVectorsAct->setChecked( pref->show_motion_vectors );
 
 	// Compact mode
 	compactAct->setChecked( pref->compact_mode );

@@ -2,6 +2,7 @@
 
 (2008-01-15)
  * Now the colorkey is passed properly to mplayer.
+ * Added a new option: Options->Visualize motion vectors (-lavdopts vismv=7).
 
 (2008-01-14)
  * Added gl:yuv=3:lscale=1 in the video output combo in preferences.

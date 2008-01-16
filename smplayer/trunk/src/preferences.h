@@ -158,7 +158,7 @@ public:
 	int size_factor;
 
 	bool show_frame_counter;
-
+	bool show_motion_vectors;
 	
 	//! Postprocessing quality
 	int autoq;

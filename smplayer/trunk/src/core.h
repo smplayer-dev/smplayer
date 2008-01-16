@@ -208,6 +208,7 @@ public slots:
 	void resetPanscan();
 
 	void changeUseAss(bool);
+	void visualizeMotionVectors(bool);
 
     // Pass a command to mplayer by stdin:
     void tellmp(const QString & command);
