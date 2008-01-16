@@ -3212,10 +3212,10 @@ void BaseGui::toggleStayOnTop(bool b) {
 	QPoint old_pos = pos();
 
 	if (b) {
-		setWindowFlags(Qt::WindowStaysOnTopHint);
+		setWindowFlags(windowFlags() | Qt::WindowStaysOnTopHint);
 	}
 	else {
-		setWindowFlags(0);
+		setWindowFlags(windowFlags() & ~Qt::WindowStaysOnTopHint);
 	}
 
 	move(old_pos);
