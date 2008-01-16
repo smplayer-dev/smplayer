@@ -216,7 +216,7 @@
     <message>
         <location filename="../about.ui" line="223"/>
         <source>icon</source>
-        <translation>пиктограмма</translation>
+        <translation>значок</translation>
     </message>
     <message>
         <location filename="../about.ui" line="152"/>
@@ -729,7 +729,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1059"/>
         <source>&amp;Playlist</source>
-        <translation type="unfinished">&amp;Плейлист</translation>
+        <translation>&amp;Плейлист</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1062"/>
@@ -1546,7 +1546,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../eqslider.ui" line="25"/>
         <source>icon</source>
-        <translation>пиктограмма</translation>
+        <translation>значок</translation>
     </message>
 </context>
 <context>
@@ -2169,7 +2169,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="49"/>
         <source>icon</source>
-        <translation>пиктограмма</translation>
+        <translation>значок</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="112"/>
@@ -2471,7 +2471,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefdrives.ui" line="157"/>
         <source>icon</source>
-        <translation>пиктограмма</translation>
+        <translation>значок</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="130"/>
@@ -3083,7 +3083,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="115"/>
         <source>icon</source>
-        <translation>пиктограмма</translation>
+        <translation type="unfinished">значок</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="110"/>
@@ -4307,7 +4307,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../seekwidget.ui" line="25"/>
         <source>icon</source>
-        <translation>пиктограмма</translation>
+        <translation type="unfinished">значок</translation>
     </message>
     <message>
         <location filename="../seekwidget.ui" line="43"/>
