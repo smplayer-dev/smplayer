@@ -506,167 +506,167 @@ Do you want to overwrite?</source>
 <context>
     <name>BaseGui</name>
     <message>
-        <location filename="../basegui.cpp" line="1239"/>
+        <location filename="../basegui.cpp" line="1246"/>
         <source>SMPlayer - mplayer log</source>
         <translation>SMPlayer - mplayer のログ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1240"/>
+        <location filename="../basegui.cpp" line="1247"/>
         <source>SMPlayer - smplayer log</source>
         <translation>SMPlayer - smplayer のログ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1116"/>
+        <location filename="../basegui.cpp" line="1123"/>
         <source>&amp;Open</source>
         <translation>開く(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1117"/>
+        <location filename="../basegui.cpp" line="1124"/>
         <source>&amp;Play</source>
         <translation>再生(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1118"/>
+        <location filename="../basegui.cpp" line="1125"/>
         <source>&amp;Video</source>
         <translation>ビデオ(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1119"/>
+        <location filename="../basegui.cpp" line="1126"/>
         <source>&amp;Audio</source>
         <translation>オーディオ(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1120"/>
+        <location filename="../basegui.cpp" line="1127"/>
         <source>&amp;Subtitles</source>
         <translation>字幕(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1121"/>
+        <location filename="../basegui.cpp" line="1128"/>
         <source>&amp;Browse</source>
         <translation>参照(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1122"/>
+        <location filename="../basegui.cpp" line="1129"/>
         <source>Op&amp;tions</source>
         <translation>オプション(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1123"/>
+        <location filename="../basegui.cpp" line="1130"/>
         <source>&amp;Help</source>
         <translation>ヘルプ(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="955"/>
+        <location filename="../basegui.cpp" line="960"/>
         <source>&amp;File...</source>
         <translation>ファイル(&amp;F)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="956"/>
+        <location filename="../basegui.cpp" line="961"/>
         <source>D&amp;irectory...</source>
         <translation>ディレクトリ(&amp;I)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="957"/>
+        <location filename="../basegui.cpp" line="962"/>
         <source>&amp;Playlist...</source>
         <translation>プレイリスト(&amp;P)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="960"/>
+        <location filename="../basegui.cpp" line="965"/>
         <source>&amp;DVD from drive</source>
         <translation>ドライブからの DVD(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="961"/>
+        <location filename="../basegui.cpp" line="966"/>
         <source>D&amp;VD from folder...</source>
         <translation>フォルダからの DVD(&amp;V)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="962"/>
+        <location filename="../basegui.cpp" line="967"/>
         <source>&amp;URL...</source>
         <translation>URL(&amp;U)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1139"/>
+        <location filename="../basegui.cpp" line="1146"/>
         <source>&amp;Clear</source>
         <translation>クリア(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1137"/>
+        <location filename="../basegui.cpp" line="1144"/>
         <source>&amp;Recent files</source>
         <translation>最近使ったファイル(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="966"/>
+        <location filename="../basegui.cpp" line="971"/>
         <source>P&amp;lay</source>
         <translation>再生(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="972"/>
+        <location filename="../basegui.cpp" line="977"/>
         <source>&amp;Pause</source>
         <translation>一時停止(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="973"/>
+        <location filename="../basegui.cpp" line="978"/>
         <source>&amp;Stop</source>
         <translation>停止(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="974"/>
+        <location filename="../basegui.cpp" line="979"/>
         <source>&amp;Frame step</source>
         <translation>フレーム ステップ(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="989"/>
+        <location filename="../basegui.cpp" line="994"/>
         <source>&amp;Normal speed</source>
         <translation>通常の速度(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="990"/>
+        <location filename="../basegui.cpp" line="995"/>
         <source>&amp;Halve speed</source>
         <translation>半分の速度(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="991"/>
+        <location filename="../basegui.cpp" line="996"/>
         <source>&amp;Double speed</source>
         <translation>2 倍の速度(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="992"/>
+        <location filename="../basegui.cpp" line="997"/>
         <source>Speed &amp;-10%</source>
         <translation>速度 -10%(&amp;-)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="993"/>
+        <location filename="../basegui.cpp" line="998"/>
         <source>Speed &amp;+10%</source>
         <translation>速度 +10%(&amp;+)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1142"/>
+        <location filename="../basegui.cpp" line="1149"/>
         <source>Sp&amp;eed</source>
         <translation>速度(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="986"/>
+        <location filename="../basegui.cpp" line="991"/>
         <source>&amp;Repeat</source>
         <translation>繰り返し(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="996"/>
+        <location filename="../basegui.cpp" line="1001"/>
         <source>&amp;Fullscreen</source>
         <translation>全画面表示(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="997"/>
+        <location filename="../basegui.cpp" line="1002"/>
         <source>&amp;Compact mode</source>
         <translation>コンパクト モード(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1146"/>
+        <location filename="../basegui.cpp" line="1153"/>
         <source>Si&amp;ze</source>
         <translation>サイズ(&amp;Z)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1166"/>
+        <location filename="../basegui.cpp" line="1173"/>
         <source>&amp;Autodetect</source>
         <translation>自動検出(&amp;A)</translation>
     </message>
@@ -701,112 +701,112 @@ Do you want to overwrite?</source>
         <translation type="obsolete">2.35:1(&amp;2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1174"/>
+        <location filename="../basegui.cpp" line="1181"/>
         <source>4:3 &amp;Letterbox</source>
         <translation>4:3 レターボックス(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1175"/>
+        <location filename="../basegui.cpp" line="1182"/>
         <source>16:9 L&amp;etterbox</source>
         <translation>16:9 レターボックス(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1176"/>
+        <location filename="../basegui.cpp" line="1183"/>
         <source>4:3 &amp;Panscan</source>
         <translation>4:3 パンスキャン(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1177"/>
+        <location filename="../basegui.cpp" line="1184"/>
         <source>4:3 &amp;to 16:9</source>
         <translation>4:3 から 16:9 へ(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1152"/>
+        <location filename="../basegui.cpp" line="1159"/>
         <source>&amp;Aspect ratio</source>
         <translation>アスペクト比(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1989"/>
+        <location filename="../basegui.cpp" line="1997"/>
         <source>&amp;None</source>
         <translation>なし(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1181"/>
+        <location filename="../basegui.cpp" line="1188"/>
         <source>&amp;Lowpass5</source>
         <translation>Lowpass5(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1184"/>
+        <location filename="../basegui.cpp" line="1191"/>
         <source>Linear &amp;Blend</source>
         <translation>リニア ブレンド(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1155"/>
+        <location filename="../basegui.cpp" line="1162"/>
         <source>&amp;Deinterlace</source>
         <translation>インターレース解除(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1012"/>
+        <location filename="../basegui.cpp" line="1017"/>
         <source>&amp;Postprocessing</source>
         <translation>後処理(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1013"/>
+        <location filename="../basegui.cpp" line="1018"/>
         <source>&amp;Autodetect phase</source>
         <translation>位相の自動検出(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1014"/>
+        <location filename="../basegui.cpp" line="1019"/>
         <source>&amp;Deblock</source>
         <translation>ブロック除去(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1015"/>
+        <location filename="../basegui.cpp" line="1020"/>
         <source>De&amp;ring</source>
         <translation>リング除去(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1016"/>
+        <location filename="../basegui.cpp" line="1021"/>
         <source>Add n&amp;oise</source>
         <translation>ノイズの追加(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1158"/>
+        <location filename="../basegui.cpp" line="1165"/>
         <source>F&amp;ilters</source>
         <translation>フィルタ(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="998"/>
+        <location filename="../basegui.cpp" line="1003"/>
         <source>&amp;Equalizer</source>
         <translation>イコライザ(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="999"/>
+        <location filename="../basegui.cpp" line="1004"/>
         <source>&amp;Screenshot</source>
         <translation>スクリーンショット(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1000"/>
+        <location filename="../basegui.cpp" line="1005"/>
         <source>S&amp;tay on top</source>
         <translation>常に手前に表示(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1192"/>
+        <location filename="../basegui.cpp" line="1199"/>
         <source>&amp;Track</source>
         <translation>トラック(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1034"/>
+        <location filename="../basegui.cpp" line="1039"/>
         <source>&amp;Extrastereo</source>
         <translation>エクストラステレオ(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1035"/>
+        <location filename="../basegui.cpp" line="1040"/>
         <source>&amp;Karaoke</source>
         <translation>カラオケ(&amp;K)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1195"/>
+        <location filename="../basegui.cpp" line="1202"/>
         <source>&amp;Filters</source>
         <translation>フィルタ(&amp;F)</translation>
     </message>
@@ -816,234 +816,234 @@ Do you want to overwrite?</source>
         <translation type="obsolete">既定(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1209"/>
+        <location filename="../basegui.cpp" line="1216"/>
         <source>&amp;Stereo</source>
         <translation>ステレオ(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1206"/>
+        <location filename="../basegui.cpp" line="1213"/>
         <source>&amp;4.0 Surround</source>
         <translation>4.0 サラウンド(&amp;4)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1207"/>
+        <location filename="../basegui.cpp" line="1214"/>
         <source>&amp;5.1 Surround</source>
         <translation>5.1 サラウンド(&amp;5)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1198"/>
+        <location filename="../basegui.cpp" line="1205"/>
         <source>&amp;Channels</source>
         <translation>チャンネル(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1210"/>
+        <location filename="../basegui.cpp" line="1217"/>
         <source>&amp;Left channel</source>
         <translation>左チャンネル(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1211"/>
+        <location filename="../basegui.cpp" line="1218"/>
         <source>&amp;Right channel</source>
         <translation>右チャンネル(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1201"/>
+        <location filename="../basegui.cpp" line="1208"/>
         <source>&amp;Stereo mode</source>
         <translation>ステレオ モード(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1025"/>
+        <location filename="../basegui.cpp" line="1030"/>
         <source>&amp;Mute</source>
         <translation>ミュート(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1026"/>
+        <location filename="../basegui.cpp" line="1031"/>
         <source>Volume &amp;-</source>
         <translation>音量 -(&amp;-)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1027"/>
+        <location filename="../basegui.cpp" line="1032"/>
         <source>Volume &amp;+</source>
         <translation>音量 +(&amp;+)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1028"/>
+        <location filename="../basegui.cpp" line="1033"/>
         <source>&amp;Delay -</source>
         <translation>遅延 -(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1029"/>
+        <location filename="../basegui.cpp" line="1034"/>
         <source>D&amp;elay +</source>
         <translation>遅延 +(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1214"/>
+        <location filename="../basegui.cpp" line="1221"/>
         <source>&amp;Select</source>
         <translation>選択(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1039"/>
+        <location filename="../basegui.cpp" line="1044"/>
         <source>&amp;Load...</source>
         <translation>読み込み(&amp;L)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1041"/>
+        <location filename="../basegui.cpp" line="1046"/>
         <source>Delay &amp;-</source>
         <translation>遅延 -(&amp;-)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1042"/>
+        <location filename="../basegui.cpp" line="1047"/>
         <source>Delay &amp;+</source>
         <translation>遅延 +(&amp;+)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1043"/>
+        <location filename="../basegui.cpp" line="1048"/>
         <source>&amp;Up</source>
         <translation>上へ(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1044"/>
+        <location filename="../basegui.cpp" line="1049"/>
         <source>&amp;Down</source>
         <translation>下へ(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1218"/>
+        <location filename="../basegui.cpp" line="1225"/>
         <source>&amp;Title</source>
         <translation>タイトル(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1221"/>
+        <location filename="../basegui.cpp" line="1228"/>
         <source>&amp;Chapter</source>
         <translation>チャプタ(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1224"/>
+        <location filename="../basegui.cpp" line="1231"/>
         <source>&amp;Angle</source>
         <translation>角度(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1054"/>
+        <location filename="../basegui.cpp" line="1059"/>
         <source>&amp;Playlist</source>
         <translation>プレイリスト(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1057"/>
+        <location filename="../basegui.cpp" line="1062"/>
         <source>&amp;Show frame counter</source>
         <translation>フレーム カウンタの表示(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1109"/>
+        <location filename="../basegui.cpp" line="1116"/>
         <source>&amp;Disabled</source>
         <translation>無効(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1110"/>
+        <location filename="../basegui.cpp" line="1117"/>
         <source>&amp;Seek bar</source>
         <translation>シーク バー(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1111"/>
+        <location filename="../basegui.cpp" line="1118"/>
         <source>&amp;Time</source>
         <translation>時間(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1112"/>
+        <location filename="../basegui.cpp" line="1119"/>
         <source>Time + T&amp;otal time</source>
         <translation>時間 + 全体の時間(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1228"/>
+        <location filename="../basegui.cpp" line="1235"/>
         <source>&amp;OSD</source>
         <translation>OSD(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1231"/>
+        <location filename="../basegui.cpp" line="1238"/>
         <source>&amp;View logs</source>
         <translation>ログの表示(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1058"/>
+        <location filename="../basegui.cpp" line="1065"/>
         <source>P&amp;references</source>
         <translation>環境設定(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1066"/>
+        <location filename="../basegui.cpp" line="1073"/>
         <source>About &amp;Qt</source>
         <translation>Qt のバージョン情報(&amp;Q)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1067"/>
+        <location filename="../basegui.cpp" line="1074"/>
         <source>About &amp;SMPlayer</source>
         <translation>SMPlayer のバージョン情報(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2098"/>
+        <location filename="../basegui.cpp" line="2106"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;空&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2422"/>
+        <location filename="../basegui.cpp" line="2433"/>
         <source>Video</source>
         <translation>ビデオ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2600"/>
+        <location filename="../basegui.cpp" line="2611"/>
         <source>Audio</source>
         <translation>オーディオ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2424"/>
+        <location filename="../basegui.cpp" line="2435"/>
         <source>Playlists</source>
         <translation>プレイリスト</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2601"/>
+        <location filename="../basegui.cpp" line="2612"/>
         <source>All files</source>
         <translation>すべてのファイル</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2598"/>
+        <location filename="../basegui.cpp" line="2609"/>
         <source>Choose a file</source>
         <translation>ファイルの選択</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2472"/>
+        <location filename="../basegui.cpp" line="2483"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - 情報</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2475"/>
+        <location filename="../basegui.cpp" line="2486"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CDROM / DVD ドライブはまだ構成されていません。
 構成ダイアログは今すぐ表示されますので、それができます。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2549"/>
+        <location filename="../basegui.cpp" line="2560"/>
         <source>Choose a directory</source>
         <translation>ディレクトリの選択</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2585"/>
+        <location filename="../basegui.cpp" line="2596"/>
         <source>Subtitles</source>
         <translation>字幕</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2616"/>
+        <location filename="../basegui.cpp" line="2627"/>
         <source>About Qt</source>
         <translation>Qt のバージョン情報</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2936"/>
+        <location filename="../basegui.cpp" line="2947"/>
         <source>Playing %1</source>
         <translation>%1 を再生中</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2937"/>
+        <location filename="../basegui.cpp" line="2948"/>
         <source>Pause</source>
         <translation>一時停止</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2938"/>
+        <location filename="../basegui.cpp" line="2949"/>
         <source>Stop</source>
         <translation>停止</translation>
     </message>
@@ -1063,182 +1063,182 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="obsolete">ソフト(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="976"/>
+        <location filename="../basegui.cpp" line="981"/>
         <source>Play / Pause</source>
         <translation>再生 / 一時停止</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="982"/>
+        <location filename="../basegui.cpp" line="987"/>
         <source>Pause / Frame step</source>
         <translation>一時停止 / フレーム ステップ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1040"/>
+        <location filename="../basegui.cpp" line="1045"/>
         <source>U&amp;nload</source>
         <translation>読み込み解除(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="958"/>
+        <location filename="../basegui.cpp" line="963"/>
         <source>V&amp;CD</source>
         <translation>VCD(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="963"/>
+        <location filename="../basegui.cpp" line="968"/>
         <source>C&amp;lose</source>
         <translation>閉じる(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1055"/>
+        <location filename="../basegui.cpp" line="1060"/>
         <source>View &amp;info and properties...</source>
         <translation>情報とプロパティの表示(&amp;I)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1003"/>
+        <location filename="../basegui.cpp" line="1008"/>
         <source>Zoom &amp;-</source>
         <translation>縮小(&amp;-)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1004"/>
+        <location filename="../basegui.cpp" line="1009"/>
         <source>Zoom &amp;+</source>
         <translation>拡大(&amp;+)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1005"/>
+        <location filename="../basegui.cpp" line="1010"/>
         <source>&amp;Reset</source>
         <translation>リセット(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1006"/>
+        <location filename="../basegui.cpp" line="1011"/>
         <source>Move &amp;left</source>
         <translation>左へ移動(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1007"/>
+        <location filename="../basegui.cpp" line="1012"/>
         <source>Move &amp;right</source>
         <translation>右へ移動(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1008"/>
+        <location filename="../basegui.cpp" line="1013"/>
         <source>Move &amp;up</source>
         <translation>上へ移動(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1009"/>
+        <location filename="../basegui.cpp" line="1014"/>
         <source>Move &amp;down</source>
         <translation>下へ移動(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1149"/>
+        <location filename="../basegui.cpp" line="1156"/>
         <source>&amp;Pan &amp;&amp; scan</source>
         <translation>パン &amp;&amp; スキャン(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1048"/>
+        <location filename="../basegui.cpp" line="1053"/>
         <source>&amp;Previous line in subtitles</source>
         <translation>前の字幕のライン(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1050"/>
+        <location filename="../basegui.cpp" line="1055"/>
         <source>N&amp;ext line in subtitles</source>
         <translation>次の字幕のライン(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1254"/>
+        <location filename="../basegui.cpp" line="1261"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1258"/>
+        <location filename="../basegui.cpp" line="1265"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1085"/>
+        <location filename="../basegui.cpp" line="1092"/>
         <source>Dec volume (2)</source>
         <translation>音量を下げる (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1086"/>
+        <location filename="../basegui.cpp" line="1093"/>
         <source>Inc volume (2)</source>
         <translation>音量を上げる (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1089"/>
+        <location filename="../basegui.cpp" line="1096"/>
         <source>Exit fullscreen</source>
         <translation>全画面表示の終了</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1091"/>
+        <location filename="../basegui.cpp" line="1098"/>
         <source>OSD - Next level</source>
         <translation>OSD - 次のレベル</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1092"/>
+        <location filename="../basegui.cpp" line="1099"/>
         <source>Dec contrast</source>
         <translation>コントラストを下げる</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1093"/>
+        <location filename="../basegui.cpp" line="1100"/>
         <source>Inc contrast</source>
         <translation>コントラストを上げる</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1094"/>
+        <location filename="../basegui.cpp" line="1101"/>
         <source>Dec brightness</source>
         <translation>明るさを下げる</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1095"/>
+        <location filename="../basegui.cpp" line="1102"/>
         <source>Inc brightness</source>
         <translation>明るさを上げる</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1096"/>
+        <location filename="../basegui.cpp" line="1103"/>
         <source>Dec hue</source>
         <translation>色合いを下げる</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1097"/>
+        <location filename="../basegui.cpp" line="1104"/>
         <source>Inc hue</source>
         <translation>色合いを上げる</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1098"/>
+        <location filename="../basegui.cpp" line="1105"/>
         <source>Dec saturation</source>
         <translation>鮮やかさを下げる</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1100"/>
+        <location filename="../basegui.cpp" line="1107"/>
         <source>Dec gamma</source>
         <translation>ガンマを下げる</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1102"/>
+        <location filename="../basegui.cpp" line="1109"/>
         <source>Next audio</source>
         <translation>次のオーディオ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1103"/>
+        <location filename="../basegui.cpp" line="1110"/>
         <source>Next subtitle</source>
         <translation>次の字幕</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1104"/>
+        <location filename="../basegui.cpp" line="1111"/>
         <source>Next chapter</source>
         <translation>次のチャプタ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1105"/>
+        <location filename="../basegui.cpp" line="1112"/>
         <source>Previous chapter</source>
         <translation>前のチャプタ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1099"/>
+        <location filename="../basegui.cpp" line="1106"/>
         <source>Inc saturation</source>
         <translation>鮮やかさを上げる</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1101"/>
+        <location filename="../basegui.cpp" line="1108"/>
         <source>Inc gamma</source>
         <translation>ガンマを上げる</translation>
     </message>
@@ -1248,99 +1248,104 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="obsolete">ダブル サイズの切り替え</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1030"/>
+        <location filename="../basegui.cpp" line="1035"/>
         <source>&amp;Load external file...</source>
         <translation>外部のファイルの読み込み(&amp;L)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1185"/>
+        <location filename="../basegui.cpp" line="1192"/>
         <source>&amp;Kerndeint</source>
         <translation>Kerndeint(&amp;K)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1182"/>
+        <location filename="../basegui.cpp" line="1189"/>
         <source>&amp;Yadif (normal)</source>
         <translation>Yadif (通常)(&amp;Y)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1183"/>
+        <location filename="../basegui.cpp" line="1190"/>
         <source>Y&amp;adif (double framerate)</source>
         <translation>Yadif (ダブル フレームレート)(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1070"/>
+        <location filename="../basegui.cpp" line="1077"/>
         <source>&amp;Next</source>
         <translation>次へ(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1071"/>
+        <location filename="../basegui.cpp" line="1078"/>
         <source>Pre&amp;vious</source>
         <translation>前へ(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1036"/>
+        <location filename="../basegui.cpp" line="1041"/>
         <source>Volume &amp;normalization</source>
         <translation>音量の通常化(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="959"/>
+        <location filename="../basegui.cpp" line="964"/>
         <source>&amp;Audio CD</source>
         <translation>オーディオ CD(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1188"/>
+        <location filename="../basegui.cpp" line="1195"/>
         <source>Denoise nor&amp;mal</source>
         <translation>ノイズ除去 通常(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1189"/>
+        <location filename="../basegui.cpp" line="1196"/>
         <source>Denoise &amp;soft</source>
         <translation>ノイズ除去 ソフト(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1187"/>
+        <location filename="../basegui.cpp" line="1194"/>
         <source>Denoise o&amp;ff</source>
         <translation>ノイズ除去 オフ(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1051"/>
+        <location filename="../basegui.cpp" line="1056"/>
         <source>Use SSA/&amp;ASS library</source>
         <translation>SSA/ASS ライブラリの使用(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1001"/>
+        <location filename="../basegui.cpp" line="1006"/>
         <source>Flip i&amp;mage</source>
         <translation>イメージの反転(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1106"/>
+        <location filename="../basegui.cpp" line="1113"/>
         <source>&amp;Toggle double size</source>
         <translation>倍のサイズの切り替え(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1045"/>
+        <location filename="../basegui.cpp" line="1050"/>
         <source>S&amp;ize -</source>
         <translation>サイズ -(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1046"/>
+        <location filename="../basegui.cpp" line="1051"/>
         <source>Si&amp;ze +</source>
         <translation>サイズ +(&amp;Z)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1018"/>
+        <location filename="../basegui.cpp" line="1023"/>
         <source>Add &amp;black borders</source>
         <translation>黒枠の追加(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1020"/>
+        <location filename="../basegui.cpp" line="1025"/>
         <source>Soft&amp;ware scaling</source>
         <translation>ソフトウェア スケール(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1065"/>
+        <location filename="../basegui.cpp" line="1072"/>
         <source>&amp;FAQ</source>
         <translation>FAQ(&amp;F)</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1064"/>
+        <source>Visualize &amp;motion vectors</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1384,37 +1389,37 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1928"/>
+        <location filename="../core.cpp" line="1903"/>
         <source>Brightness: %1</source>
         <translation>明るさ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1937"/>
+        <location filename="../core.cpp" line="1912"/>
         <source>Contrast: %1</source>
         <translation>コントラスト: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1945"/>
+        <location filename="../core.cpp" line="1920"/>
         <source>Gamma: %1</source>
         <translation>ガンマ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1953"/>
+        <location filename="../core.cpp" line="1928"/>
         <source>Hue: %1</source>
         <translation>色合い: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1961"/>
+        <location filename="../core.cpp" line="1936"/>
         <source>Saturation: %1</source>
         <translation>鮮やかさ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2080"/>
+        <location filename="../core.cpp" line="2055"/>
         <source>Volume: %1</source>
         <translation>音量: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2640"/>
+        <location filename="../core.cpp" line="2615"/>
         <source>Zoom: %1</source>
         <translation>拡大率: %1</translation>
     </message>
@@ -2557,152 +2562,152 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>一般</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="423"/>
+        <location filename="../prefgeneral.cpp" line="431"/>
         <source>Select the mplayer executable</source>
         <translation>Mplayer の実行ファイルの選択</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="426"/>
+        <location filename="../prefgeneral.cpp" line="434"/>
         <source>Executables</source>
         <translation>実行ファイル</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="428"/>
+        <location filename="../prefgeneral.cpp" line="436"/>
         <source>All files</source>
         <translation>すべてのファイル</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="439"/>
+        <location filename="../prefgeneral.cpp" line="447"/>
         <source>Select a directory</source>
         <translation>ディレクトリの選択</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="449"/>
+        <location filename="../prefgeneral.cpp" line="457"/>
         <source>MPlayer executable</source>
         <translation>MPlayer の実行ファイル</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="454"/>
+        <location filename="../prefgeneral.cpp" line="462"/>
         <source>Here you must specify the mplayer executable that smplayer will use.&lt;br&gt;smplayer requires at least mplayer 1.0rc1 (svn recommended).&lt;br&gt;&lt;b&gt;If this setting is wrong, smplayer won&apos;t be able to play anything!&lt;/b&gt;</source>
         <translation>ここで smplayer が使用する mplayer の実行ファイルを指定する必要があります。&lt;br&gt;smplayer は少なくとも mplayer 1.0rc1 (svn が推奨されます) を必要とします。&lt;br&gt;&lt;b&gt;この設定が間違っていると、smplayer は何も再生できなくなります!&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="456"/>
+        <location filename="../prefgeneral.cpp" line="464"/>
         <source>Screenshots folder</source>
         <translation>スクリーンショット フォルダ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="459"/>
+        <location filename="../prefgeneral.cpp" line="467"/>
         <source>Here you can specify a folder where the screenshots taken by smplayer will be stored. If this field is empty the screenshot feature will be disabled.</source>
         <translation>ここで smplayer によって取得されたスクリーンショットが格納されるフォルダを指定できます。このフィールドが空である場合はスクリーンショット機能は無効になります。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="461"/>
+        <location filename="../prefgeneral.cpp" line="469"/>
         <source>Video output driver</source>
         <translation>ビデオの出力ドライバ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="463"/>
+        <location filename="../prefgeneral.cpp" line="471"/>
         <source>Select the video output driver. Usually xv (linux) and directx (windows) provide the best performance.</source>
         <translation>ビデオの出力ドライバを選択します。通常 xv (linux) と directx (windows) が最高のパフォーマンスを供給します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="465"/>
+        <location filename="../prefgeneral.cpp" line="473"/>
         <source>Audio output driver</source>
         <translation>オーディオの出力ドライバ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="466"/>
+        <location filename="../prefgeneral.cpp" line="474"/>
         <source>Select the audio output driver.</source>
         <translation>オーディオの出力ドライバを選択します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="468"/>
+        <location filename="../prefgeneral.cpp" line="476"/>
         <source>Remember settings</source>
         <translation>設定を記憶する</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="471"/>
+        <location filename="../prefgeneral.cpp" line="479"/>
         <source>Usually smplayer will remember the settings for each file you play (audio track selected, volume, filters...). Uncheck this option if you don&apos;t like this feature.</source>
         <translation>通常 smplayer は再生するファイル (選択されたオーディオ トラック、音量、フィルタ...) ごとに設定を記憶します。この機能がお好みでない場合はこのオプションをチェック解除します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="473"/>
+        <location filename="../prefgeneral.cpp" line="481"/>
         <source>Don&apos;t remember time position</source>
         <translation>時間の位置を記憶しない</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="475"/>
+        <location filename="../prefgeneral.cpp" line="483"/>
         <source>If you check this option, smplayer will play all files from the beginning.</source>
         <translation>このオプションをチェックすると、smplayer はすべてのファイルを最初から再生します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="568"/>
+        <location filename="../prefgeneral.cpp" line="576"/>
         <source>Preferred audio language</source>
         <translation>オーディオの優先言語</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="576"/>
+        <location filename="../prefgeneral.cpp" line="584"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>ここでオーディオ ストリームの優先言語を入力できます。複数のオーディオ ストリームのあるメディアが見つかったとき、smplayer は優先言語の使用を試行します。&lt;br&gt;これは DVD または mkv ファイルのような、オーディオ ストリームの言語についての情報を提供するメディアでのみ動作します。&lt;br&gt;このフィールドは正規表現を受け入れます。例: &lt;b&gt;es|esp|spa&lt;/b&gt; は &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; または &lt;i&gt;spa&lt;/i&gt; に一致する場合オーディオ トラックを選択します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="578"/>
+        <location filename="../prefgeneral.cpp" line="586"/>
         <source>Preferred subtitle language</source>
         <translation>字幕の優先言語</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="586"/>
+        <location filename="../prefgeneral.cpp" line="594"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>ここで字幕ストリームの優先言語を入力できます。複数の字幕ストリームのあるメディアが見つかったとき、smplayer は優先言語の使用を試行します。&lt;br&gt;これは DVD または mkv ファイルのような、字幕ストリームの言語についての情報を提供するメディアでのみ動作します。&lt;br&gt;このフィールドは正規表現を受け入れます。例: &lt;b&gt;es|esp|spa&lt;/b&gt; は &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; または &lt;i&gt;spa&lt;/i&gt; に一致する場合字幕ストリームを選択します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="487"/>
+        <location filename="../prefgeneral.cpp" line="495"/>
         <source>Software video equalizer</source>
         <translation>ソフトウェアのビデオ イコライザ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="491"/>
+        <location filename="../prefgeneral.cpp" line="499"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>ビデオ イコライザがお使いのグラフィック カードまたは選択されたビデオの出力ドライバによってサポートされていない場合このオプションをチェックできます。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; このオプションはいくつかのビデオの出力ドライバとは互換性がないことがあります。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="496"/>
+        <location filename="../prefgeneral.cpp" line="504"/>
         <source>Postprocessing quality</source>
         <translation>後処理の品質</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="499"/>
+        <location filename="../prefgeneral.cpp" line="507"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>利用可能なスペア CPU 時間次第で後処理のレベルを動的に変更します。指定する番号は使用される最大レベルになります。通常いくらかの大きい番号を使用できます。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="511"/>
+        <location filename="../prefgeneral.cpp" line="519"/>
         <source>Start videos in fullscreen</source>
         <translation>全画面表示でビデオを開始する</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="513"/>
+        <location filename="../prefgeneral.cpp" line="521"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>このオプションがチェックされている場合、すべてのビデオは全画面表示モードで開始されます。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="515"/>
+        <location filename="../prefgeneral.cpp" line="523"/>
         <source>Disable screensaver</source>
         <translation>スクリーンセーバーを無効にする</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="518"/>
+        <location filename="../prefgeneral.cpp" line="526"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option works only in X11 and Windows.</source>
         <translation>再生中にスクリーンセーバーを無効にするにはこのオプションをチェックします。&lt;br&gt;スクリーンセーバーは再生の完了時に再び有効になります。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt;このオプションは X11 と Windows でのみ動作します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="520"/>
+        <location filename="../prefgeneral.cpp" line="528"/>
         <source>Software volume control</source>
         <translation>ソフトウェアのボリューム コントロール</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="522"/>
+        <location filename="../prefgeneral.cpp" line="530"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>サウンド カード ミキサを使用する代わりに、ソフトウェア ミキサを使用するにはこのオプションをチェックします。</translation>
     </message>
@@ -2817,7 +2822,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="obsolete">最大増幅:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="531"/>
+        <location filename="../prefgeneral.cpp" line="539"/>
         <source>AC3/DTS pass-through S/PDIF</source>
         <translation>AC3/DTS pass-through S/PDIF</translation>
     </message>
@@ -2827,12 +2832,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="obsolete">ボリュームの通常化</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="541"/>
+        <location filename="../prefgeneral.cpp" line="549"/>
         <source>Change volume</source>
         <translation>音量の変更</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="544"/>
+        <location filename="../prefgeneral.cpp" line="552"/>
         <source>If checked, SMPlayer will remember the volume for every file and will restore it when played again. For new files the default volume will be used.</source>
         <translation>チェックされている場合、SMPlayer はそれぞれのファイルの音量を記憶して再び再生されるときに復元します。新しいファイルには既定の音量が使用されます。</translation>
     </message>
@@ -2952,17 +2957,17 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="obsolete">音量の通常化(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="501"/>
+        <location filename="../prefgeneral.cpp" line="509"/>
         <source>Direct rendering</source>
         <translation>直接描画</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="504"/>
+        <location filename="../prefgeneral.cpp" line="512"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>チェックされている場合、直接描画をオンにします (すべてのコーデックとビデオ出力によってはサポートされていません)&lt;br&gt;&lt;b&gt;警告:&lt;/b&gt; OSD/SUB の破損を引き起こす可能性があります!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="506"/>
+        <location filename="../prefgeneral.cpp" line="514"/>
         <source>Double buffering</source>
         <translation>ダブル バッファ</translation>
     </message>
@@ -2977,7 +2982,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>ダブル バッファ(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="509"/>
+        <location filename="../prefgeneral.cpp" line="517"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>ダブル バッファはメモリに 2 つのフレームが格納されるのと、別のデコード中の表示によるちらつきを修正します。無効である場合は OSD を悪化させることがありますが、大抵 OSD のちらつきを削除します。</translation>
     </message>
@@ -2992,12 +2997,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>既定での音量の通常化(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="477"/>
+        <location filename="../prefgeneral.cpp" line="485"/>
         <source>Close when finished</source>
         <translation>完了時に閉じる</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="479"/>
+        <location filename="../prefgeneral.cpp" line="487"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>このオプションがチェックされている場合、メイン ウィンドウは現在のファイル/プレイリストの完了時に自動的に閉じられます。</translation>
     </message>
@@ -3032,87 +3037,87 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>最小化時に一時停止する(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="481"/>
+        <location filename="../prefgeneral.cpp" line="489"/>
         <source>Pause when minimized</source>
         <translation>最小化時に一時停止する</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="484"/>
+        <location filename="../prefgeneral.cpp" line="492"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, play will be resumed.</source>
         <translation>このオプションが有効である場合、ファイルはメイン ウィンドウが非表示であるときに一時停止されます。ウィンドウが復元されると、再生は再開されます。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="493"/>
+        <location filename="../prefgeneral.cpp" line="501"/>
         <source>Enable postprocessing by default</source>
         <translation>既定で後処理を有効にする</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="524"/>
+        <location filename="../prefgeneral.cpp" line="532"/>
         <source>Max. Amplification</source>
         <translation>最大増幅</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="534"/>
+        <location filename="../prefgeneral.cpp" line="542"/>
         <source>Volume normalization by default</source>
         <translation>既定での音量の通常化</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="535"/>
+        <location filename="../prefgeneral.cpp" line="543"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>サウンドの歪曲なしで音量を最大化します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="546"/>
+        <location filename="../prefgeneral.cpp" line="554"/>
         <source>Default volume</source>
         <translation>既定の音量</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="547"/>
+        <location filename="../prefgeneral.cpp" line="555"/>
         <source>Sets the initial volume that new files will use.</source>
         <translation>新しいファイルが使用する初期音量を設定します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="557"/>
+        <location filename="../prefgeneral.cpp" line="565"/>
         <source>Channels by default</source>
         <translation>既定でのチャンネル</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="529"/>
+        <location filename="../prefgeneral.cpp" line="537"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>パーセントで最大増幅レベルを設定します (既定: 110)。200 の値は最大で現在のレベルの倍へ音量を上方調整するのを許可します。100 以下の値で初期音量 (100%) は例えば OSD を正しく表示できない、最大以上になります。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="532"/>
+        <location filename="../prefgeneral.cpp" line="540"/>
         <source>Uses hardware AC3 passthrough</source>
         <translation>ハードウェア AC3 passthrough を使用します</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="566"/>
+        <location filename="../prefgeneral.cpp" line="574"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. NOTE: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation>再生チャンネルの数を要求します。MPlayer は指定されただけの数のチャンネルにオーディオをデコードするようデコーダに要求します。次に要求が満たされるのはデコーダ次第です。これは通常 AC3 オーディオ (DVD のような) でビデオを再生するときのみ重要です。その場合は liba52 が既定でデコードして要求されたチャンネルの数にオーディオをダウンミックスします。注意: このオプションはコーデック (AC3 のみ)、フィルタ (サラウンド) およびオーディオ出力ドライバ (少なくとも OSS) によって尊重されています。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="494"/>
+        <location filename="../prefgeneral.cpp" line="502"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>後処理は新しく開かれるファイルに既定で使用されます。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="588"/>
+        <location filename="../prefgeneral.cpp" line="596"/>
         <source>Audio track</source>
         <translation>オーディオ トラック</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="592"/>
+        <location filename="../prefgeneral.cpp" line="600"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>新しいファイルの再生時に使用される既定のオーディオ トラックを指定します。トラックが存在しない場合、最初のものが使用されます。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; &lt;i&gt;&quot;オーディオの優先言語&quot;&lt;/i&gt;はこのオプションを超えて優先されます。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="594"/>
+        <location filename="../prefgeneral.cpp" line="602"/>
         <source>Subtitle track</source>
         <translation>字幕トラック</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="598"/>
+        <location filename="../prefgeneral.cpp" line="606"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>新しいファイルの再生時に使用される既定の字幕トラックを指定します。トラックが存在しない場合、最初のものが使用されます。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; &lt;i&gt;&quot;字幕の優先言語&quot;&lt;/i&gt;はこのオプションを超えて優先されます。</translation>
     </message>
@@ -3163,17 +3168,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ピッチの変化なしの高速再生(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="537"/>
+        <location filename="../prefgeneral.cpp" line="545"/>
         <source>High speed playback without altering pitch</source>
         <translation>ピッチの変化なしの高速再生</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="539"/>
+        <location filename="../prefgeneral.cpp" line="547"/>
         <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
         <translation>ピッチの変化なしの再生速度の変更を許可します。少なくとも MPlayer dev-SVN-r24924 を必要とします。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="549"/>
+        <location filename="../prefgeneral.cpp" line="557"/>
         <source>Change volume just before playing</source>
         <translation>再生の直前に音量を変更する</translation>
     </message>
@@ -3183,7 +3188,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>再生の直前に音量を変更する (起動時の大きい音量を回避します)(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="555"/>
+        <location filename="../prefgeneral.cpp" line="563"/>
         <source>If this option is checked the initial volume will be set by using the &lt;i&gt;-volume&lt;/i&gt; option in MPlayer.&lt;br&gt; &lt;b&gt;WARNING: THE OFFICIAL MPLAYER DOESN&apos;T HAVE THAT &lt;i&gt;-volume&lt;/i&gt; OPTION, YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON&apos;T PLAY ANYTHING.&lt;/b&gt;</source>
         <translation>このオプションがチェックされている場合初期の音量は MPlayer での &lt;i&gt;-volume&lt;/i&gt; の使用によって設定されます。&lt;br&gt; &lt;b&gt;警告: 公式の MPLAYER にその &lt;i&gt;-volume&lt;/i&gt; オプションがありません、パッチ済みのものを必要とします、でなければ MPLAYER は失敗し何も再生しません。&lt;/b&gt;</translation>
     </message>
