@@ -1345,7 +1345,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1064"/>
         <source>Visualize &amp;motion vectors</source>
-        <translation type="unfinished"></translation>
+        <translation>モーション ベクタの視覚化(&amp;M)</translation>
     </message>
 </context>
 <context>
@@ -1706,7 +1706,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../infofile.cpp" line="59"/>
         <source>General</source>
-        <translation>一般</translation>
+        <translation>全般</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="63"/>
@@ -2559,7 +2559,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="49"/>
         <source>General</source>
-        <translation>一般</translation>
+        <translation>全般</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="431"/>
@@ -2714,7 +2714,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="29"/>
         <source>&amp;General</source>
-        <translation>一般(&amp;G)</translation>
+        <translation>全般(&amp;G)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="41"/>
@@ -3754,7 +3754,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="44"/>
         <source>Performance</source>
-        <translation></translation>
+        <translation>パフォーマンス</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="41"/>
