@@ -1016,11 +1016,6 @@ void Core::startMplayer( QString file, double seek ) {
 
 	proc->addArgument( mplayer_bin );
 
-	/*
-	proc->addArgument("-key-fifo-size");
-	proc->addArgument("1000");
-	*/
-
 	proc->addArgument("-noquiet");
 
 	// No mplayer fullscreen mode
@@ -1045,22 +1040,6 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument("hwac3");
 	}
 
-	/*
-	if ( (pref->h264_skip_loop) ||
-         (pref->h264_skip_frames) )
-	{
-		proc->addArgument("-lavdopts");
-		QString o;
-		if (pref->h264_skip_loop) {
-			o = "skiploopfilter=all";
-		}
-		if (pref->h264_skip_frames) {
-			if (!o.isEmpty()) o += ":";
-			o += "skipframe=nonref";
-		}
-		proc->addArgument(o);
-	}
-	*/
 
 	if ( (pref->h264_skip_loop_filter == Preferences::LoopDisabled) || 
          ((pref->h264_skip_loop_filter == Preferences::LoopDisabledOnHD) && 
@@ -1328,19 +1307,6 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( QString::number( mset.volume ) );
 	}
 
-	/*
-	if (mdat.type==TYPE_DVD) {
-		if ( (pref->play_dvd_from_hd) && (!pref->dvd_directory.isEmpty()) ) {
-			proc->addArgument("-dvd-device");
-			proc->addArgument( pref->dvd_directory );
-		} else {
-			if (!pref->dvd_device.isEmpty()) {
-				proc->addArgument("-dvd-device");
-				proc->addArgument( pref->dvd_device );
-			}
-		}
-	}
-	*/
 
 	if (mdat.type==TYPE_DVD) {
 		if (!dvd_folder.isEmpty()) {
@@ -1651,10 +1617,6 @@ void Core::startMplayer( QString file, double seek ) {
 		qWarning("Core::startMplayer: mplayer process didn't start");
 	}
 
-	//stopped_by_user = FALSE;
-
-	// Try to set the volume as soon as possible
-	/*tellmp("volume " + QString::number(mset.volume) + " 1");*/
 }
 
 void Core::stopMplayer() {
