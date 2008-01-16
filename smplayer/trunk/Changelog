@@ -2,6 +2,9 @@
 
 (2008-01-16)
  * Now "Stay on top" is made properly, not cleaning the other flags.
+ * The Makefile installs the files in docs/ru
+ * Fixed a bug: Help->FAQ displayed the FAQ in the locale language and not
+   in the language set in smplayer.
 
 (2008-01-15)
  * Now the colorkey is passed properly to mplayer.
