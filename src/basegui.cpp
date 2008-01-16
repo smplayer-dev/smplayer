@@ -2615,7 +2615,7 @@ void BaseGui::loadAudioFile() {
 }
 
 void BaseGui::helpFAQ() {
-	QDesktopServices::openUrl( Helper::doc("faq.html") );
+	QDesktopServices::openUrl( Helper::doc("faq.html", pref->language) );
 }
 
 void BaseGui::helpAbout() {

@@ -63,12 +63,18 @@ install: src/smplayer
 	install -m 644 src/translations/*.qm $(DESTDIR)$(TRANSLATION_PATH)
 	-install -d $(DESTDIR)$(DOC_PATH)
 	install -m 644 Changelog *.txt $(DESTDIR)$(DOC_PATH)
+
 	-install -d $(DESTDIR)$(DOC_PATH)/en
-	-install -d $(DESTDIR)$(DOC_PATH)/de
-	-install -d $(DESTDIR)$(DOC_PATH)/es
 	cp -R docs/en/* $(DESTDIR)$(DOC_PATH)/en/
+
+	-install -d $(DESTDIR)$(DOC_PATH)/de
 	- cp -R docs/de/* $(DESTDIR)$(DOC_PATH)/de/
+
+	-install -d $(DESTDIR)$(DOC_PATH)/es
 	- cp -R docs/es/* $(DESTDIR)$(DOC_PATH)/es/
+
+	-install -d $(DESTDIR)$(DOC_PATH)/ru
+	- cp -R docs/ru/* $(DESTDIR)$(DOC_PATH)/ru/
 
 	-install -d $(DESTDIR)$(SHORTCUTS_PATH)
 	cp src/shortcuts/* $(DESTDIR)$(SHORTCUTS_PATH)
