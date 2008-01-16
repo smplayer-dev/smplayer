@@ -654,7 +654,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1021"/>
         <source>Add n&amp;oise</source>
-        <translation>Добавить ш&amp;ум</translation>
+        <translation>Добавление &amp;шума</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1165"/>
@@ -729,7 +729,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1059"/>
         <source>&amp;Playlist</source>
-        <translation>&amp;Список</translation>
+        <translation type="unfinished">&amp;Плейлист</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1062"/>
@@ -754,7 +754,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1074"/>
         <source>About &amp;SMPlayer</source>
-        <translation>О &amp;SMPlayer</translation>
+        <translation>Об &amp;SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1123"/>
@@ -929,7 +929,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1235"/>
         <source>&amp;OSD</source>
-        <translation>&amp;OSD</translation>
+        <translation>Вид &amp;OSD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1116"/>
@@ -949,7 +949,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1119"/>
         <source>Time + T&amp;otal time</source>
-        <translation>Время + О&amp;бщее время</translation>
+        <translation>Время / О&amp;бщее время</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1246"/>
@@ -1316,7 +1316,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1064"/>
         <source>Visualize &amp;motion vectors</source>
-        <translation>Отобразить векторы &amp; движения</translation>
+        <translation>Отобразить векторы &amp;движения</translation>
     </message>
 </context>
 <context>
@@ -1329,7 +1329,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="165"/>
         <source>S&amp;how icon in system tray</source>
-        <translation>&amp;Показать пиктограмму в системном лотке</translation>
+        <translation>&amp;Показать значок в системном лотке</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="176"/>
