@@ -66,7 +66,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 
 		QFile f(license_file);
 		if (f.open(QIODevice::ReadOnly)) {
-			license->setText(f.readAll());
+			license->setText(QString::fromUtf8(f.readAll()));
 		}
 		f.close();
 	} else {
