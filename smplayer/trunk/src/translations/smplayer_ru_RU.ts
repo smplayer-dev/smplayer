@@ -3083,7 +3083,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="115"/>
         <source>icon</source>
-        <translation type="unfinished">значок</translation>
+        <translation>значок</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="110"/>
@@ -4307,7 +4307,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../seekwidget.ui" line="25"/>
         <source>icon</source>
-        <translation type="unfinished">значок</translation>
+        <translation>значок</translation>
     </message>
     <message>
         <location filename="../seekwidget.ui" line="43"/>
