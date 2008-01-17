@@ -76,6 +76,9 @@ install: src/smplayer
 	-install -d $(DESTDIR)$(DOC_PATH)/ru
 	- cp -R docs/ru/* $(DESTDIR)$(DOC_PATH)/ru/
 
+	-install -d $(DESTDIR)$(DOC_PATH)/ja
+	- cp -R docs/ja/* $(DESTDIR)$(DOC_PATH)/ja/
+
 	-install -d $(DESTDIR)$(SHORTCUTS_PATH)
 	cp src/shortcuts/* $(DESTDIR)$(SHORTCUTS_PATH)
 
