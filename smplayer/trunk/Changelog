@@ -5,6 +5,9 @@
  * The Makefile installs the files in docs/ru
  * Fixed a bug: Help->FAQ displayed the FAQ in the locale language and not
    in the language set in smplayer.
+ * Now all the gpl.html in docs/ should be in UTF-8.
+ * Converted docs/es/gpl.html and docs/de/gpl.html to UTF-8.
+ * Added docs/ru/gpl.html.
 
 (2008-01-15)
  * Now the colorkey is passed properly to mplayer.
