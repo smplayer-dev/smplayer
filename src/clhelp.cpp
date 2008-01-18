@@ -137,7 +137,7 @@ QString CLHelp::help() {
 	s += formatHelp( QObject::tr("media"), QObject::tr(
 		"'media' is any kind of file that SMPlayer can open. It can "
         "be a local file, a DVD (e.g. dvd://1), an Internet stream "
-        "(e.g. mms://....) or a local playlist in format m3u. "
+        "(e.g. mms://....) or a local playlist in format m3u or pls. "
         "If the -playlist option is used, that means that SMPlayer "
         "will pass the -playlist option to MPlayer, so MPlayer will "
         "handle the playlist, not SMPlayer.") );
