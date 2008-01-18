@@ -1,5 +1,11 @@
 [b]Version 0.6.0rc1 (not released yet)[/b]:
 
+(2008-01-17)
+ * Added Help->Command line options, which shows a text with help about
+   the available command line options. It displays the same as smplayer -h
+   but it will useful for Windows users, as smplayer -h doesn't work for 
+   them.
+
 (2008-01-16)
  * Now "Stay on top" is made properly, not cleaning the other flags.
  * The Makefile installs the files in docs/ru

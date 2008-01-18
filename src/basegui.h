@@ -82,6 +82,7 @@ public slots:
 	virtual void openDirectory(QString directory);
 
 	virtual void helpFAQ();
+	virtual void helpCLOptions();
     virtual void helpAbout();
 	virtual void helpAboutQt();
 
@@ -335,6 +336,7 @@ protected:
 
 	// Menu Help
 	MyAction * showFAQAct;
+	MyAction * showCLOptions; // Command line options
 	MyAction * aboutQtAct;
 	MyAction * aboutThisAct;
 
@@ -478,6 +480,7 @@ protected:
     
     LogWindow * mplayer_log_window;
     LogWindow * smplayer_log_window;
+	LogWindow * clhelp_window;
 
 	PreferencesDialog *pref_dialog;
 	FilePropertiesDialog *file_dialog;
