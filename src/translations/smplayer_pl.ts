@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1371,17 +1372,17 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../basegui.cpp" line="1070"/>
         <source>Visualize &amp;motion vectors</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pokazuj wektory ruchu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1079"/>
         <source>&amp;Command line options</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Opcje wiersza poleceń</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2634"/>
         <source>SMPlayer command line options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcje wiersza poleceń SMPlayera</translation>
     </message>
 </context>
 <context>
@@ -4648,7 +4649,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../clhelp.cpp" line="143"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;media&apos; to każdy plik, który SMPlayer jest w stanie otworzyć. Może to być plik lokalny, DVD (n.p. dvd://1), strumień internetowy (n.p. mms://1) lub lista odtwarzania w formacie m3u lub pls. Jeśli opcja -playlist jest użyta, oznacza to, że SMPlayer przeniesie opcję -playlist do MPlayera, więc MPlayer obsłuży listę odtwarzania.</translation>
     </message>
 </context>
 <context>
