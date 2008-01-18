@@ -4631,7 +4631,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../clhelp.cpp" line="143"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
-        <translation>&apos;Media&apos; ist jede Art von Datei die SMPlayer öffnen kann. Das kann eine lokale Datei sein, eine DVD (e.g. dvd://1), ein Internetstream (e.g. mms://....) oder eine lokale Abspielliste im Format m3u. Wenn die Option Abspielliste in Gebrach ist, das heißt SMPlayer gibt die Abspiellisten-Option an MPlayer weiter, MPlayer verarbeitet die Abspielliste, nicht SMPlayer.</translation>
+        <translation type="obsolete">&apos;Media&apos; ist jede Art von Datei die SMPlayer öffnen kann. Das kann eine lokale Datei sein, eine DVD (e.g. dvd://1), ein Internetstream (e.g. mms://....) oder eine lokale Abspielliste im Format m3u. Wenn die Option Abspielliste in Gebrach ist, das heißt SMPlayer gibt die Abspiellisten-Option an MPlayer weiter, MPlayer verarbeitet die Abspielliste, nicht SMPlayer.</translation>
     </message>
     <message>
         <location filename="../../Programme/trunk/smplayer/src/main.cpp" line="169"/>
@@ -4707,6 +4707,11 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <location filename="../clhelp.cpp" line="92"/>
         <source>Restores the old associations and cleans up the registry.</source>
         <translation>Stellt die alten Zuordnungen wieder her und bereinigt die Registry.</translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="143"/>
+        <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
