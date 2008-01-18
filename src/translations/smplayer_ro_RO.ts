@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1359,12 +1360,12 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
     <message>
         <location filename="../basegui.cpp" line="1079"/>
         <source>&amp;Command line options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opțiuni linie de &amp;comandă</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2634"/>
         <source>SMPlayer command line options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opțiuni linie de comandă pentru SMPlayer</translation>
     </message>
 </context>
 <context>
@@ -2505,7 +2506,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefassociations.cpp" line="221"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation type="unfinished"></translation>
+        <translation>(sp)&lt;b&gt;Notă:&lt;/b&gt;(Restaurarea nu funcționează pentru Windows Vista).</translation>
     </message>
 </context>
 <context>
