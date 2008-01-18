@@ -4161,7 +4161,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="143"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
-        <translation>&apos;media&apos; будь-який файл, який SMPlayer може відкрити. Це може бути локальний файл, DVD (наприклад dvd://1), інтернет-потік (наприклад mms://....) чи локальний список у форматі m3u. Якщо буде використано опцю -playlist, то SMPlayer передасть опцію -playlist на MPlayer, таким чином список буде опрацьовувати не SMPlayer, а MPlayer.</translation>
+        <translation type="obsolete">&apos;media&apos; будь-який файл, який SMPlayer може відкрити. Це може бути локальний файл, DVD (наприклад dvd://1), інтернет-потік (наприклад mms://....) чи локальний список у форматі m3u. Якщо буде використано опцю -playlist, то SMPlayer передасть опцію -playlist на MPlayer, таким чином список буде опрацьовувати не SMPlayer, а MPlayer.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="106"/>
@@ -4221,6 +4221,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="92"/>
         <source>Restores the old associations and cleans up the registry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="143"/>
+        <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

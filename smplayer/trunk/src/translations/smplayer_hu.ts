@@ -4352,11 +4352,6 @@ Ez az opció adja meg, hogy mennyi memóriát (kBytekben) használjon az újrat�
         <translation>megjeleníti ezt az üzenetet és kilép.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="143"/>
-        <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../clhelp.cpp" line="117"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>a főablak bezáródik ha a fájl/lejátszólista végetért.</translation>
@@ -4429,6 +4424,11 @@ Ez az opció adja meg, hogy mennyi memóriát (kBytekben) használjon az újrat�
     <message>
         <location filename="../clhelp.cpp" line="92"/>
         <source>Restores the old associations and cleans up the registry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="143"/>
+        <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

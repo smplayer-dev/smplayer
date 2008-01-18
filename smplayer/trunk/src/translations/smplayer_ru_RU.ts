@@ -4237,7 +4237,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="143"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
-        <translation>&apos;media&apos; - это любой файл, который SMPlayer может открыть. Это может быть локальный файл, DVD (т.е. dvd://1), видео в интернет (т.е. mms://....) или список воспроизведения в формате m3u. Если используется опция -playlist, то SMPlayer передаст параметр -playlist MPlayer, так что MPlayer должен использовать
+        <translation type="obsolete">&apos;media&apos; - это любой файл, который SMPlayer может открыть. Это может быть локальный файл, DVD (т.е. dvd://1), видео в интернет (т.е. mms://....) или список воспроизведения в формате m3u. Если используется опция -playlist, то SMPlayer передаст параметр -playlist MPlayer, так что MPlayer должен использовать
 функцию список воспроизведения, а не SMPlayer.</translation>
     </message>
     <message>
@@ -4309,6 +4309,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../clhelp.cpp" line="92"/>
         <source>Restores the old associations and cleans up the registry.</source>
         <translation>Восстанавливает старые ассоциации и очищает реестр.</translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="143"/>
+        <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

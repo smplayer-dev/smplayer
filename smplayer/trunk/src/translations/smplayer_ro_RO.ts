@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
-<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -4593,7 +4592,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="143"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
-        <translation>&apos;media&apos; reprezintă orice tip de fişier pe SMPlayer îl poate reda. Acesta poate fi un fişier aflat pe hard disc, un DVD (ex.: dvd://1), un flux de date de pe internet (ex.: mms://....) sau o listă de titluri în format m3u. Dacă este folosită opţiunea -playlist, înseamnă că SMPlayer va transmite opţiunea -playlist către MPlayer, astfel MPlayer va fi cel care manipulează lista de titluri şi nu SMPlayer.</translation>
+        <translation type="obsolete">&apos;media&apos; reprezintă orice tip de fişier pe SMPlayer îl poate reda. Acesta poate fi un fişier aflat pe hard disc, un DVD (ex.: dvd://1), un flux de date de pe internet (ex.: mms://....) sau o listă de titluri în format m3u. Dacă este folosită opţiunea -playlist, înseamnă că SMPlayer va transmite opţiunea -playlist către MPlayer, astfel MPlayer va fi cel care manipulează lista de titluri şi nu SMPlayer.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="169"/>
@@ -4674,6 +4673,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../clhelp.cpp" line="92"/>
         <source>Restores the old associations and cleans up the registry.</source>
         <translation>Restaurează vechile asocieri şi curăţă regiştrii.</translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="143"/>
+        <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

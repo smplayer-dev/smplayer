@@ -4587,7 +4587,7 @@ Si -playlist est utilisée, cela veut dire que SMPlayer passera l&apos;informati
     <message>
         <location filename="../clhelp.cpp" line="143"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
-        <translation>&apos;media&apos; est le format de fichier que peut ouvrir SMPlayer. Il peut être local (dvd://1), externe comme un Stream internet (mms://...) ou une liste de lecture (format m3u). Si -playlist est utilisée, cela veut dire que SMPlayer passera l&apos;information à MPlayer. Alors c&apos;est MPlayer qui tiendra la liste de lectue, pas SMPlayer.</translation>
+        <translation type="obsolete">&apos;media&apos; est le format de fichier que peut ouvrir SMPlayer. Il peut être local (dvd://1), externe comme un Stream internet (mms://...) ou une liste de lecture (format m3u). Si -playlist est utilisée, cela veut dire que SMPlayer passera l&apos;information à MPlayer. Alors c&apos;est MPlayer qui tiendra la liste de lectue, pas SMPlayer.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="169"/>
@@ -4668,6 +4668,11 @@ Si -playlist est utilisée, cela veut dire que SMPlayer passera l&apos;informati
         <location filename="../clhelp.cpp" line="92"/>
         <source>Restores the old associations and cleans up the registry.</source>
         <translation>Restaure les vieilles associations et nettoie le registre.</translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="143"/>
+        <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
