@@ -16,34 +16,16 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _LOGWINDOW_H_
-#define _LOGWINDOW_H_
+#include <QString>
 
-#include "ui_logwindowbase.h"
+//! Provides help about the comand line options.
 
-class QTextEdit;
-
-class LogWindow : public QWidget, public Ui::LogWindowBase
+class CLHelp 
 {
-	Q_OBJECT
-
 public:
-	LogWindow( QWidget* parent = 0);
-	~LogWindow();
-
-	void setText(QString log);
-	QString text();
-
-	QTextEdit * editor();
+	static QString help();
 
 protected:
-	virtual void retranslateStrings();
-	virtual void changeEvent ( QEvent * event ) ;
-
-protected slots:
-	void on_copyButton_clicked();
-    void on_saveButton_clicked();
+	static QString formatText(QString s, int col);
+	static QString formatHelp(QString parameter, QString help);
 };
-
-
-#endif

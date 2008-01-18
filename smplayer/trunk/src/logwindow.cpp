@@ -40,6 +40,10 @@ LogWindow::LogWindow( QWidget* parent )
 LogWindow::~LogWindow() {
 }
 
+QTextEdit * LogWindow::editor() {
+	return browser;
+}
+
 void LogWindow::retranslateStrings() {
 	retranslateUi(this);
 

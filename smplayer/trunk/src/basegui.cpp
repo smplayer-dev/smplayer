@@ -56,6 +56,7 @@
 #include "inputurl.h"
 #include "recents.h"
 #include "about.h"
+#include "clhelp.h"
 
 #include "config.h"
 #include "actionseditor.h"
@@ -94,6 +95,7 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	popup = 0;
 	pref_dialog = 0;
 	file_dialog = 0;
+	clhelp_window = 0;
 
 	// Create objects:
 	recents = new Recents(this);
@@ -568,6 +570,10 @@ void BaseGui::createActions() {
 	showFAQAct = new MyAction( this, "faq" );
 	connect( showFAQAct, SIGNAL(triggered()),
              this, SLOT(helpFAQ()) );
+
+	showCLOptions = new MyAction( this, "cl_options" );
+	connect( showCLOptions, SIGNAL(triggered()),
+             this, SLOT(helpCLOptions()) );
 
 	aboutQtAct = new MyAction( this, "about_qt" );
 	connect( aboutQtAct, SIGNAL(triggered()),
@@ -1070,6 +1076,7 @@ void BaseGui::retranslateStrings() {
 
 	// Menu Help
 	showFAQAct->change( Images::icon("faq"), tr("&FAQ") );
+	showCLOptions->change( Images::icon("cl_help"), tr("&Command line options") );
 	aboutQtAct->change( QPixmap(":/icons-png/qt.png"), tr("About &Qt") );
 	aboutThisAct->change( Images::icon("logo_small"), tr("About &SMPlayer") );
 
@@ -1650,6 +1657,7 @@ void BaseGui::createMenus() {
 
 	// HELP MENU
 	helpMenu->addAction(showFAQAct);
+	helpMenu->addAction(showCLOptions);
 	helpMenu->addSeparator();
 	helpMenu->addAction(aboutQtAct);
 	helpMenu->addAction(aboutThisAct);
@@ -2616,6 +2624,16 @@ void BaseGui::loadAudioFile() {
 
 void BaseGui::helpFAQ() {
 	QDesktopServices::openUrl( Helper::doc("faq.html", pref->language) );
+}
+
+void BaseGui::helpCLOptions() {
+	if (clhelp_window == 0) {
+		clhelp_window = new LogWindow(this);
+		clhelp_window->editor()->setLineWrapMode(QTextEdit::NoWrap);
+	}
+	clhelp_window->setWindowTitle( tr("SMPlayer command line options") );
+	clhelp_window->setText(CLHelp::help());
+	clhelp_window->show();
 }
 
 void BaseGui::helpAbout() {

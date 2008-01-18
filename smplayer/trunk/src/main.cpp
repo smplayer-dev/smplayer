@@ -27,6 +27,7 @@
 #include "config.h"
 #include "myclient.h"
 #include "constants.h"
+#include "clhelp.h"
 
 #ifdef Q_OS_WIN
 #include "extensions.h"
@@ -110,127 +111,6 @@ void showInfo() {
 	qDebug(" * ini path: '%s'", Helper::iniPath().toUtf8().data());
 }
 
-QString formatText(QString s, int col) {
-	QString res = "";
-
-	int last = 0;
-	int pos;
-
-	pos = s.indexOf(" ");
-	while (pos != -1) {
-
-		if (s.count() < col) {
-			res = res + s;
-			s = "";
-			break;
-		}
-
-		while ((pos < col) && (pos != -1)) {
-		last = pos;
-		pos = s.indexOf(" ", pos+1);
-		}
-
-		res = res + s.left(last) + "\n";
-		s = s.mid(last+1);
-
-		last = 0;
-		pos = s.indexOf(" ");
-
-	}
-
-	if (!s.isEmpty()) res = res + s;
-
-	return res;
-}
-
-QString formatHelp(QString parameter, QString help) {
-	int par_width = 20;
-	int help_width = 80 - par_width;
-
-	QString s;
-	s = s.fill( ' ', par_width - (parameter.count()+2) );
-	s = s + parameter + ": ";
-
-	QString f;
-	f = f.fill(' ', par_width);
-
-	QString s2 = formatText(help, help_width);
-	int pos = s2.indexOf('\n');
-	while (pos != -1) {
-		s2 = s2.insert(pos+1, f);
-		pos = s2.indexOf('\n', pos+1);
-	}
-
-	return s + s2;
-}
-
-void printHelp(QString parameter, QString help) {
-	QString s = formatHelp(parameter, help);
-	printf( "%s\n", s.toLocal8Bit().data() );
-}
-
-void showHelp(QString app_name) {
-	printf( "%s\n", formatText(QObject::tr("Usage: %1 [-mini] [-ini-path directory] "
-                        "[-send-action action_name] [-actions action_list "
-                        "[-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] "
-                        "[-add-to-playlist] [-help|--help|-h|-?] "
-                        "[[-playlist] media] "
-                        "[[-playlist] media]...").arg(app_name), 80).toLocal8Bit().data() );
-#ifdef Q_OS_WIN	
-	printHelp( "-uninstall", QObject::tr(
-		"Restores the old associations and cleans up the registry.") );
-#endif
-	printHelp( "-mini", QObject::tr(
-		"opens the mini gui instead of the default one.") );
-
-	printHelp( "-ini-path", QObject::tr(
-		"specifies the directory for the configuration file "
-        "(smplayer.ini).") );
-
-	printHelp( "-send-action", QObject::tr(
-		"tries to make a connection to another running instance "
-        "and send to it the specified action. Example: -send-action pause "
-        "The rest of options (if any) will be ignored and the "
-        "application will exit. It will return 0 on success or -1 "
-        "on failure.") );
-
-	printHelp( "-actions", QObject::tr(
-		"action_list is a list of actions separated by spaces. "
-		"The actions will be executed just after loading the file (if any) "
-		"in the same order you entered. For checkable actions you can pass "
-		"true or false as parameter. Example: "
-		"-actions \"fullscreen compact true\". Quotes are necessary in "
-		"case you pass more than one action.") );
-
-	printHelp( "-close-at-end", QObject::tr(
-		"the main window will be closed when the file/playlist finishes.") );
-
-	printHelp( "-no-close-at-end", QObject::tr(
-		"the main window won't be closed when the file/playlist finishes.") );
-
-	printHelp( "-fullscreen", QObject::tr(
-		"the video will be played in fullscreen mode.") );
-
-	printHelp( "-no-fullscreen", QObject::tr(
-		"the video will be played in window mode.") );
-
-	printHelp( "-help", QObject::tr(
-		"will show this message and then will exit.") );
-
-	printHelp( "-add-to-playlist", QObject::tr(
-		"if there's another instance running, the media will be added "
-        "to that instance's playlist. If there's no other instance, "
-        "this option will be ignored and the "
-        "files will be opened in a new instance.") );
-
-	printHelp( QObject::tr("media"), QObject::tr(
-		"'media' is any kind of file that SMPlayer can open. It can "
-        "be a local file, a DVD (e.g. dvd://1), an Internet stream "
-        "(e.g. mms://....) or a local playlist in format m3u. "
-        "If the -playlist option is used, that means that SMPlayer "
-        "will pass the -playlist option to MPlayer, so MPlayer will "
-        "handle the playlist, not SMPlayer.") );
-}
 
 void createHomeDirectory() {
 	// Create smplayer home directories
@@ -394,7 +274,7 @@ int main( int argc, char ** argv )
 	showInfo();
 
 	if (show_help) {
-		showHelp(app_name);
+		printf("%s\n", CLHelp::help().toLocal8Bit().data());
 		return 0;
 	}
 
