@@ -1350,12 +1350,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1079"/>
         <source>&amp;Command line options</source>
-        <translation type="unfinished"></translation>
+        <translation>コマンド ライン オプション(&amp;C)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2634"/>
         <source>SMPlayer command line options</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer のコマンド ライン オプション</translation>
     </message>
 </context>
 <context>
@@ -4613,7 +4613,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="143"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;media&apos; はあらゆる SMPlayer が開けるファイルです。ローカル ファイル、DVD (例: dvd://1)、インターネット ストリーム (例: mms://....) または m3u または pls フォーマットのローカル プレイリストにできます。 -playlist オプションが使用されている場合、それは SMPlayer ではなく、MPlayer がプレイリストをハンドルするように、SMPlayer が MPlayer へ -playlist オプションを渡すことを意味します。</translation>
     </message>
 </context>
 <context>
