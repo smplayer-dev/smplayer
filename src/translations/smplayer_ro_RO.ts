@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -4677,17 +4678,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="160"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;media&apos; reprezintă orice tip de fișier pe care SMPlayer îl poate deschide. Poate fi un fișier local, un DVD (ex. dvd://1), o transmisie de internet (ex. mms://...) sau o listă de titluri locală în format m3u sau pls. Dacă este folosită opțiunea -playlist înseamnă că SMPlayer va transfera opțiunea -playlist către MPlayer, astfel MPlayer va gestiona lista de titluri și nu SMPlayer.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="103"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilizare:</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="92"/>
         <source>directory</source>
-        <translation type="unfinished"></translation>
+        <translation>director</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="93"/>
