@@ -40,9 +40,11 @@ LogWindow::LogWindow( QWidget* parent )
 LogWindow::~LogWindow() {
 }
 
+/*
 QTextEdit * LogWindow::editor() {
 	return browser;
 }
+*/
 
 void LogWindow::retranslateStrings() {
 	retranslateUi(this);
@@ -63,6 +65,14 @@ void LogWindow::setText(QString log) {
 
 QString LogWindow::text() {
 	return browser->toPlainText();
+}
+
+void LogWindow::setHtml(QString text) {
+	browser->setHtml(text);
+}
+
+QString LogWindow::html() {
+	return browser->toHtml();
 }
 
 void LogWindow::on_copyButton_clicked() {
