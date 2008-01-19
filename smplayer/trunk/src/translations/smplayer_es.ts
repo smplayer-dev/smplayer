@@ -4644,7 +4644,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">la ventana principal se cerrará cuando el fichero/lista de reproducción llege al final</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="142"/>
+        <location filename="../clhelp.cpp" line="146"/>
         <source>will show this message and then will exit.</source>
         <translation>mostrará este mensaje.</translation>
     </message>
@@ -4654,7 +4654,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">&apos;medio&apos; es cualquier tipo de archivo que SMPlayer pueda abrir. Puede ser un fichero local, un DVD (p.e. dvd://1), un stream de internet (p.e mms://....) o una lista de reproducción local en formato m3u. Si se usa la opción -playlist, SMPlayer pasará la opción -playlist a MPlayer, por tanto será MPlayer quien controle la lista de reproducción, y no SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="130"/>
+        <location filename="../clhelp.cpp" line="134"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>la ventana principal se cerrará cuando el fichero/lista de reproducción llege al final.</translation>
     </message>
@@ -4669,7 +4669,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Mode de uso: %1 [-ini-path [directorio]] [-send-action nombre_de_acción] [-actions lista_de_acciones] [-close-at-end] [-help|--help|-h|-?] [[-playlist] medio] [[-playlist] medio]...</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="119"/>
+        <location filename="../clhelp.cpp" line="123"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
         <translation>intenta realizar una conexión con otra instancia del programa, y le enviará la acción especificada. Ejemplo: -send-action pause. El resto de opciones (si hay) se ignorarán y el programa finalizará. Retornará 0 si todo va bien o -1 si se produce algún fallo.</translation>
     </message>
@@ -4679,12 +4679,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">lista_de_acciones es una lista de acciones separada por espacios. Las acciones se ejecutarán justo después de cargar el fichero (si se especifica alguno) en el mismo orden en que se han introducido. Para aquellas acciones que se pueden activar o desactivar, se puede pasar true o false como parámetro. Ejemplo: -actions &quot;fullscreen compact true&quot;. Las comillas son necesarias si se pasa más de una acción.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="127"/>
+        <location filename="../clhelp.cpp" line="131"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
         <translation>lista_de_acciones es una lista de acciones separada por espacios. Las acciones se ejecutarán justo después de cargar el fichero (si se especifica alguno) en el mismo orden en que se han introducido. Para aquellas acciones que se pueden activar o desactivar, se puede pasar true o false como parámetro. Ejemplo: -actions &quot;fullscreen compact true&quot;. Las comillas son necesarias si se pasa más de una acción.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="150"/>
+        <location filename="../clhelp.cpp" line="154"/>
         <source>media</source>
         <translation>medio</translation>
     </message>
@@ -4694,7 +4694,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Mode de uso: %1 [-ini-path [directorio]] [-send-action nombre_de_acción] [-actions lista_de_acciones] [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] medio] [[-playlist] medio]...</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="148"/>
+        <location filename="../clhelp.cpp" line="152"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>si hay otra instancia en ejecución, los ficheros se añadirán a la lista de reproducción de esa instancia. Si no hay ninguna otra instancia, esta opción será ignorada y los ficheros se abrirán en una nueva instancia.</translation>
     </message>
@@ -4704,7 +4704,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Mode de uso: %1 [-ini-path directorio] [-send-action nombre_de_acción] [-actions lista_de_acciones] [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] medio] [[-playlist] medio]...</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="112"/>
+        <location filename="../clhelp.cpp" line="116"/>
         <source>specifies the directory for the configuration file (smplayer.ini).</source>
         <translation>especifica el directorio del fichero de configuración (smplayer.ini).</translation>
     </message>
@@ -4714,7 +4714,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Mode de uso: %1 [-ini-path [directorio]] [-send-action nombre_de_acción] [-actions lista_de_acciones] [-close-at-end]  [-no-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] medio] [[-playlist] medio]...</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="133"/>
+        <location filename="../clhelp.cpp" line="137"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation>la ventana principal no se cerrará cuando el fichero/lista de reproducción llege al final.</translation>
     </message>
@@ -4724,12 +4724,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Mode de uso: %1 [-ini-path [directorio]] [-send-action nombre_de_acción] [-actions lista_de_acciones] [-close-at-end]  [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] medio] [[-playlist] medio]...</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="136"/>
+        <location filename="../clhelp.cpp" line="140"/>
         <source>the video will be played in fullscreen mode.</source>
         <translation>el vídeo se reproducirá a pantalla completa.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="139"/>
+        <location filename="../clhelp.cpp" line="143"/>
         <source>the video will be played in window mode.</source>
         <translation>el vídeo se reproducirá en una ventana.</translation>
     </message>
@@ -4744,29 +4744,44 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Modo de uso: %1 [-mini] [-ini-path [directorio]] [-send-action nombre_de_acción] [-actions lista_de_acciones] [-close-at-end]  [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] medio] [[-playlist] medio]...</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="108"/>
+        <location filename="../clhelp.cpp" line="112"/>
         <source>opens the mini gui instead of the default one.</source>
         <translation>abre el mini gui en lugar del normal.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="105"/>
+        <location filename="../clhelp.cpp" line="109"/>
         <source>Restores the old associations and cleans up the registry.</source>
         <translation>Recupera las asociaciones anteriores y limpia el registro.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="156"/>
+        <location filename="../clhelp.cpp" line="160"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation>&apos;medio&apos; es cualquier tipo de archivo que SMPlayer pueda abrir. Puede ser un fichero local, un DVD (p.e. dvd://1), un stream de internet (p.e mms://....) o una lista de reproducción local en formato m3u o pls. Si se usa la opción -playlist, SMPlayer pasará la opción -playlist a MPlayer, por tanto será MPlayer quien controle la lista de reproducción, y no SMPlayer.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="91"/>
         <source>%1 [-mini] [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation>%1 [-mini] [-ini-path [directorio]] [-send-action nombre_de_acción] [-actions lista_de_acciones] [-close-at-end]  [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] medio] [[-playlist] medio]...</translation>
+        <translation type="obsolete">%1 [-mini] [-ini-path [directorio]] [-send-action nombre_de_acción] [-actions lista_de_acciones] [-close-at-end]  [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] medio] [[-playlist] medio]...</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="99"/>
+        <location filename="../clhelp.cpp" line="103"/>
         <source>Usage:</source>
         <translation>Modo de uso:</translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="92"/>
+        <source>directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="93"/>
+        <source>action_name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="94"/>
+        <source>action_list</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
