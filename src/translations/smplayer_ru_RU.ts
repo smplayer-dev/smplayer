@@ -4225,12 +4225,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">определяет каталог с файлом конфигурации (smplayer.ini). Если путь не указан, то будет будет производиться поиск в каталоге программы.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="130"/>
+        <location filename="../clhelp.cpp" line="134"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>главное окно будет закрыто после окончания воспроизведения.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="142"/>
+        <location filename="../clhelp.cpp" line="146"/>
         <source>will show this message and then will exit.</source>
         <translation>будет показанно это сообщение, после чего приложение закроется.</translation>
     </message>
@@ -4251,42 +4251,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Использование: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="119"/>
+        <location filename="../clhelp.cpp" line="123"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
         <translation>Попытка соединения с удаленной машиной и выполнение заданного действия. Пример:  -send-action pause Остальные параметры (если есть) будут игнорироваться и приложение будет закрыто. При успешном выполнении задачи вывод - 0, или 1 в обратном случае.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="127"/>
+        <location filename="../clhelp.cpp" line="131"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
         <translation>action_list - это список действий разделенный пробелами. Эти действия будут выполняться после загрузки файла в заданной вами последовательности. Для действий с переменными значениями можно использовать true или false  в качестве параметров. Например: -actions &quot;fullscreen compact true&quot;. Кавычки необходимы в случае, если используется более одного действия.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="150"/>
+        <location filename="../clhelp.cpp" line="154"/>
         <source>media</source>
         <translation>медиа</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="148"/>
+        <location filename="../clhelp.cpp" line="152"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>Если запущена другой экземпляр программы, мультимедиа будет добавлено в существующий список. Если других экземпляров не запущено, опция будет игнорирована и файлы будут открыты в новом.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="112"/>
+        <location filename="../clhelp.cpp" line="116"/>
         <source>specifies the directory for the configuration file (smplayer.ini).</source>
         <translation>Указывает каталог для файла конфигурации (smplayer.ini).</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="133"/>
+        <location filename="../clhelp.cpp" line="137"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation>Главное окно не будет закрыто, по окончании файла/списка.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="136"/>
+        <location filename="../clhelp.cpp" line="140"/>
         <source>the video will be played in fullscreen mode.</source>
         <translation>Видео будет воспроизведиться в полноэкранном режиме.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="139"/>
+        <location filename="../clhelp.cpp" line="143"/>
         <source>the video will be played in window mode.</source>
         <translation>Видео будет воспроизводиться в оконном режиме.</translation>
     </message>
@@ -4301,28 +4301,38 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Использование: %1 [-mini] [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="108"/>
+        <location filename="../clhelp.cpp" line="112"/>
         <source>opens the mini gui instead of the default one.</source>
         <translation>Открывает мини GUI вместо стандартного.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="105"/>
+        <location filename="../clhelp.cpp" line="109"/>
         <source>Restores the old associations and cleans up the registry.</source>
         <translation>Восстанавливает старые ассоциации и очищает реестр.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="156"/>
+        <location filename="../clhelp.cpp" line="160"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation>&apos;медиа&apos; – любой вид файла, который может открыть SMPlayer. Это может быть локальный файл, DVD (т.е. dvd://1), интернет-поток (т.е. mms://...) или локальный плейлист в формате m3u или pls. Если используется опция -playlist, это означает, что SMPlayer передаст эту опцию MPlayer-у и её воспримет он, а не SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="91"/>
-        <source>%1 [-mini] [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
+        <location filename="../clhelp.cpp" line="103"/>
+        <source>Usage:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="99"/>
-        <source>Usage:</source>
+        <location filename="../clhelp.cpp" line="92"/>
+        <source>directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="93"/>
+        <source>action_name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="94"/>
+        <source>action_list</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

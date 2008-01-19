@@ -4359,7 +4359,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>%1 minut and %2 sekund</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="142"/>
+        <location filename="../clhelp.cpp" line="146"/>
         <source>will show this message and then will exit.</source>
         <translation>zobrazí tuto zprávu a potom se ukončí.</translation>
     </message>
@@ -4369,7 +4369,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">&apos;media&apos; je každý druh souboru, který je SMPlayer může otevřít. Může to být lokální soubor, DVD (př. dvd://1), internetový přenos nebo lokální playlist ve formátu m3u. Pokuď je použit parametr -playlist, znamená to, že SMPlayer pošle parametr -playlist MPlayeru, takže MPlayer přehraje playlist, ne SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="130"/>
+        <location filename="../clhelp.cpp" line="134"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>hlavní okno bude zavřeno po dohrání souboru/playlistu.</translation>
     </message>
@@ -4379,32 +4379,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Tohle je SMPlayer v. %1 spuštěný na %2</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="119"/>
+        <location filename="../clhelp.cpp" line="123"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
         <translation>pokusí se vytvořit spojení k jiné spuštěné instanci a poslat specifikovanou akci. Příklad: -send-action pause další příkazy (pokuď jsou nějaké) budou ignorovány a aplikace se ukončí. Pokuď se ukončí úspěšně vrátí return 0 nebo -1 při selhání.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="127"/>
+        <location filename="../clhelp.cpp" line="131"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
         <translation>action_list je list akcí oddělených mezerami. Akce budou spuštěny prostě po načtení souboru (pokuď je nějaký) v tom samém pořadí, jako jsou zadány. Pro ověření akcí je možné přidat parametr true nebo false. Příklad: -action &quot;fullscreen compact true&quot;. Záznam je nezbytný, pokuď chceme přidat ještě další akci.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="150"/>
+        <location filename="../clhelp.cpp" line="154"/>
         <source>media</source>
         <translation>media</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="148"/>
+        <location filename="../clhelp.cpp" line="152"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>pokuď je spuště další instance, medium byde přidáno do playlistu instance. Pokuď není spuštěna žádná jiná instance, parametr bude ignorován a soubor bude otevřen v nové instanci.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="112"/>
+        <location filename="../clhelp.cpp" line="116"/>
         <source>specifies the directory for the configuration file (smplayer.ini).</source>
         <translation>specifikuje adresář, kde je uložen konfigurační soubor (smplayer.ini).</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="133"/>
+        <location filename="../clhelp.cpp" line="137"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation>hlavní okno nebude zavřeno při ukončení přehrávání souboru/playlistu.</translation>
     </message>
@@ -4414,17 +4414,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Použití: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="136"/>
+        <location filename="../clhelp.cpp" line="140"/>
         <source>the video will be played in fullscreen mode.</source>
         <translation>video se bude přehrávat v celoobrazovém režimu.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="139"/>
+        <location filename="../clhelp.cpp" line="143"/>
         <source>the video will be played in window mode.</source>
         <translation>video se bude přehrávat v okně.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="108"/>
+        <location filename="../clhelp.cpp" line="112"/>
         <source>opens the mini gui instead of the default one.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4434,23 +4434,33 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="105"/>
+        <location filename="../clhelp.cpp" line="109"/>
         <source>Restores the old associations and cleans up the registry.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="156"/>
+        <location filename="../clhelp.cpp" line="160"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="91"/>
-        <source>%1 [-mini] [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
+        <location filename="../clhelp.cpp" line="103"/>
+        <source>Usage:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="99"/>
-        <source>Usage:</source>
+        <location filename="../clhelp.cpp" line="92"/>
+        <source>directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="93"/>
+        <source>action_name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="94"/>
+        <source>action_list</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
