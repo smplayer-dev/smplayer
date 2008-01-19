@@ -64,20 +64,8 @@ install: src/smplayer
 	-install -d $(DESTDIR)$(DOC_PATH)
 	install -m 644 Changelog *.txt $(DESTDIR)$(DOC_PATH)
 
-	-install -d $(DESTDIR)$(DOC_PATH)/en
-	cp -R docs/en/* $(DESTDIR)$(DOC_PATH)/en/
-
-	-install -d $(DESTDIR)$(DOC_PATH)/de
-	- cp -R docs/de/* $(DESTDIR)$(DOC_PATH)/de/
-
-	-install -d $(DESTDIR)$(DOC_PATH)/es
-	- cp -R docs/es/* $(DESTDIR)$(DOC_PATH)/es/
-
-	-install -d $(DESTDIR)$(DOC_PATH)/ru
-	- cp -R docs/ru/* $(DESTDIR)$(DOC_PATH)/ru/
-
-	-install -d $(DESTDIR)$(DOC_PATH)/ja
-	- cp -R docs/ja/* $(DESTDIR)$(DOC_PATH)/ja/
+	-install -d $(DESTDIR)$(DOC_PATH)
+	(cd docs/ && find . -name '*.html' -print0 | xargs -0 tar cf -) | (cd $(DESTDIR)$(DOC_PATH) && tar xvpf -)
 
 	-install -d $(DESTDIR)$(SHORTCUTS_PATH)
 	cp src/shortcuts/* $(DESTDIR)$(SHORTCUTS_PATH)
