@@ -54,56 +54,69 @@ QString CLHelp::formatText(QString s, int col) {
 	return res;
 }
 
-QString CLHelp::formatHelp(QString parameter, QString help) {
-	int par_width = 20;
-	int help_width = 80 - par_width;
+QString CLHelp::formatHelp(QString parameter, QString help, bool html) {
+	if (html) {
+		return "<tr><td><b>"+parameter+"</b></td><td>"+help+"</td></tr>";
+	} else {
+		int par_width = 20;
+		int help_width = 80 - par_width;
 
-	QString s;
-	s = s.fill( ' ', par_width - (parameter.count()+2) );
-	s = s + parameter + ": ";
+		QString s;
+		s = s.fill( ' ', par_width - (parameter.count()+2) );
+		s = s + parameter + ": ";
 
-	QString f;
-	f = f.fill(' ', par_width);
+		QString f;
+		f = f.fill(' ', par_width);
 
-	QString s2 = formatText(help, help_width);
-	int pos = s2.indexOf('\n');
-	while (pos != -1) {
-		s2 = s2.insert(pos+1, f);
-		pos = s2.indexOf('\n', pos+1);
+		QString s2 = formatText(help, help_width);
+		int pos = s2.indexOf('\n');
+		while (pos != -1) {
+			s2 = s2.insert(pos+1, f);
+			pos = s2.indexOf('\n', pos+1);
+		}
+
+		return s + s2 + "\n";
 	}
-
-	return s + s2 + "\n";
 }
 
 
-QString CLHelp::help() {
+QString CLHelp::help(bool html) {
 	QString app_name = QFileInfo(qApp->applicationFilePath()).baseName();
 
-	QString s =  formatText(QObject::tr("Usage: %1 [-mini] [-ini-path directory] "
+	QString options = QObject::tr("%1 [-mini] [-ini-path directory] "
                         "[-send-action action_name] [-actions action_list "
                         "[-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] "
                         "[-add-to-playlist] [-help|--help|-h|-?] "
                         "[[-playlist] media] "
-                        "[[-playlist] media]...").arg(app_name), 80);
-	s += "\n\n";
+                        "[[-playlist] media]...").arg(app_name);
+
+	QString s;
+
+	if (html) {
+		s = QObject::tr("Usage:") + " <b>" + options + "</b><br>";
+		s += "<table>";
+	} else {
+		s = formatText(QObject::tr("Usage:") + " " + options, 80);
+		s += "\n\n";
+	}
 
 #ifdef Q_OS_WIN	
 	s += formatHelp( "-uninstall", QObject::tr(
-		"Restores the old associations and cleans up the registry.") );
+		"Restores the old associations and cleans up the registry."), html );
 #endif
 	s += formatHelp( "-mini", QObject::tr(
-		"opens the mini gui instead of the default one.") );
+		"opens the mini gui instead of the default one."), html );
 
 	s += formatHelp( "-ini-path", QObject::tr(
 		"specifies the directory for the configuration file "
-        "(smplayer.ini).") );
+        "(smplayer.ini)."), html );
 
 	s += formatHelp( "-send-action", QObject::tr(
 		"tries to make a connection to another running instance "
         "and send to it the specified action. Example: -send-action pause "
         "The rest of options (if any) will be ignored and the "
         "application will exit. It will return 0 on success or -1 "
-        "on failure.") );
+        "on failure."), html );
 
 	s += formatHelp( "-actions", QObject::tr(
 		"action_list is a list of actions separated by spaces. "
@@ -111,28 +124,28 @@ QString CLHelp::help() {
 		"in the same order you entered. For checkable actions you can pass "
 		"true or false as parameter. Example: "
 		"-actions \"fullscreen compact true\". Quotes are necessary in "
-		"case you pass more than one action.") );
+		"case you pass more than one action."), html );
 
 	s += formatHelp( "-close-at-end", QObject::tr(
-		"the main window will be closed when the file/playlist finishes.") );
+		"the main window will be closed when the file/playlist finishes."), html );
 
 	s += formatHelp( "-no-close-at-end", QObject::tr(
-		"the main window won't be closed when the file/playlist finishes.") );
+		"the main window won't be closed when the file/playlist finishes."), html );
 
 	s += formatHelp( "-fullscreen", QObject::tr(
-		"the video will be played in fullscreen mode.") );
+		"the video will be played in fullscreen mode."), html );
 
 	s += formatHelp( "-no-fullscreen", QObject::tr(
-		"the video will be played in window mode.") );
+		"the video will be played in window mode."), html );
 
 	s += formatHelp( "-help", QObject::tr(
-		"will show this message and then will exit.") );
+		"will show this message and then will exit."), html );
 
 	s += formatHelp( "-add-to-playlist", QObject::tr(
 		"if there's another instance running, the media will be added "
         "to that instance's playlist. If there's no other instance, "
         "this option will be ignored and the "
-        "files will be opened in a new instance.") );
+        "files will be opened in a new instance."), html );
 
 	s += formatHelp( QObject::tr("media"), QObject::tr(
 		"'media' is any kind of file that SMPlayer can open. It can "
@@ -140,7 +153,9 @@ QString CLHelp::help() {
         "(e.g. mms://....) or a local playlist in format m3u or pls. "
         "If the -playlist option is used, that means that SMPlayer "
         "will pass the -playlist option to MPlayer, so MPlayer will "
-        "handle the playlist, not SMPlayer.") );
+        "handle the playlist, not SMPlayer."), html );
+
+	if (html) s += "</table>";
 
 	return s;
 }

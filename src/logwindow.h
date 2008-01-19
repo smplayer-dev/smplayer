@@ -34,7 +34,10 @@ public:
 	void setText(QString log);
 	QString text();
 
-	QTextEdit * editor();
+	void setHtml(QString text);
+	QString html();
+
+	/* QTextEdit * editor(); */
 
 protected:
 	virtual void retranslateStrings();

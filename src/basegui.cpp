@@ -2629,10 +2629,9 @@ void BaseGui::helpFAQ() {
 void BaseGui::helpCLOptions() {
 	if (clhelp_window == 0) {
 		clhelp_window = new LogWindow(this);
-		clhelp_window->editor()->setLineWrapMode(QTextEdit::NoWrap);
 	}
 	clhelp_window->setWindowTitle( tr("SMPlayer command line options") );
-	clhelp_window->setText(CLHelp::help());
+	clhelp_window->setHtml(CLHelp::help(true));
 	clhelp_window->show();
 }
 
