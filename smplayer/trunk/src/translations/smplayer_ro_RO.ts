@@ -1042,22 +1042,22 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
         <translation>Subtitrări</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2645"/>
+        <location filename="../basegui.cpp" line="2644"/>
         <source>About Qt</source>
         <translation>Despre Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2965"/>
+        <location filename="../basegui.cpp" line="2964"/>
         <source>Playing %1</source>
         <translation>Redare %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2966"/>
+        <location filename="../basegui.cpp" line="2965"/>
         <source>Pause</source>
         <translation>Pauză</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2967"/>
+        <location filename="../basegui.cpp" line="2966"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
@@ -1362,7 +1362,7 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
         <translation>Opțiuni linie de &amp;comandă</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2634"/>
+        <location filename="../basegui.cpp" line="2633"/>
         <source>SMPlayer command line options</source>
         <translation>Opțiuni linie de comandă pentru SMPlayer</translation>
     </message>
@@ -1967,34 +1967,34 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
 <context>
     <name>LogWindow</name>
     <message>
-        <location filename="../logwindow.cpp" line="75"/>
+        <location filename="../logwindow.cpp" line="85"/>
         <source>Choose a filename to save under</source>
         <translation>Alegere nume fișier de salvat</translation>
     </message>
     <message>
-        <location filename="../logwindow.cpp" line="81"/>
+        <location filename="../logwindow.cpp" line="91"/>
         <source>Confirm overwrite?</source>
         <translation>Se confirmă suprascrierea?</translation>
     </message>
     <message>
-        <location filename="../logwindow.cpp" line="83"/>
+        <location filename="../logwindow.cpp" line="93"/>
         <source>The file already exists.
 Do you want to overwrite?</source>
         <translation>Un fișier cu același nume există deja.
 Se dorește suprascrierea lui?</translation>
     </message>
     <message>
-        <location filename="../logwindow.cpp" line="101"/>
+        <location filename="../logwindow.cpp" line="111"/>
         <source>Error saving file</source>
         <translation>Eroare la salvarea fișierului</translation>
     </message>
     <message>
-        <location filename="../logwindow.cpp" line="102"/>
+        <location filename="../logwindow.cpp" line="112"/>
         <source>The log couldn&apos;t be saved</source>
         <translation>Jurnalul nu a putut fi salvat</translation>
     </message>
     <message>
-        <location filename="../logwindow.cpp" line="76"/>
+        <location filename="../logwindow.cpp" line="86"/>
         <source>Logs</source>
         <translation>Arhivă jurnale</translation>
     </message>
@@ -4580,12 +4580,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">încearcă să stabilească legătura cu altă sesiune care şi să trimită către aceasta comanda specificată. Exemplu: -action pause Restul opţiunilor (dacă există) vor fi ignorate şi aplicaţia se va închide. Se va returna 0 în caz de reuşită şi -1 în caz de eşec.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="117"/>
+        <location filename="../clhelp.cpp" line="130"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>fereastra principală se va închide când lista de titluri a ost epuizată.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="129"/>
+        <location filename="../clhelp.cpp" line="142"/>
         <source>will show this message and then will exit.</source>
         <translation>va afişa conţinutul acestui mesaj.</translation>
     </message>
@@ -4600,17 +4600,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Utilizare: %1 [-ini-path [director]] [-action numele_acţiunii] [-actions listă_acţiuni [-close-at-end] [-help|--help|-h|-?] [[-playlist] tip_media] [[-playlist] tip_media]...</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="106"/>
+        <location filename="../clhelp.cpp" line="119"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
         <translation>încearcă să stabilească legătura cu altă sesiune care şi să trimită către aceasta comanda specificată. Exemplu: -action pause Restul opţiunilor (dacă există) vor fi ignorate şi aplicaţia se va închide. Se va returna 0 în caz de reuşită şi -1 în caz de eşec.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="114"/>
+        <location filename="../clhelp.cpp" line="127"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
         <translation>listă_acţiuni este o enumerare de acţiuni (comenzi) separate de spaţii. Comenzile vor fi executate imediat după încărcarea fişierului media (dacă există vreunul) în aceeaşi ordine în care au fost scrise. Pentru comenzile ce pot fi bifate se pot pune ca parametrii true sau false. Exemplu: -actions &quot;fullscreen compact true&quot;. Ghilimelele sunt necesare în cazul în care scrieţi mai mult de o acţiune (comandă).</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="137"/>
+        <location filename="../clhelp.cpp" line="150"/>
         <source>media</source>
         <translation>tip_media</translation>
     </message>
@@ -4620,7 +4620,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Utilizare: %1 [-ini-path [director]] [send-action numele_acţiunii] [-actions listă_acţiuni [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] tip_media] [[-playlist] tip_media]...</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="135"/>
+        <location filename="../clhelp.cpp" line="148"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>dacă este o altă sesiune deschisă, fişierul media va fi adăugat la lista de titluri a acelei sesiuni. Dacă nu este altă sesiune deschisă această opţiune va fi ignorată şi fişiele vor fi deschise într-o nouă sesiune.</translation>
     </message>
@@ -4630,12 +4630,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Utilizare: %1 [-ini-path [director]] [send-action numele_acţiunii] [-actions listă_acţiuni [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] tip_media] [[-playlist] tip_media]...</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="99"/>
+        <location filename="../clhelp.cpp" line="112"/>
         <source>specifies the directory for the configuration file (smplayer.ini).</source>
         <translation>indică diretorul pentru fişierul de configurare (smplayer.ini).</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="120"/>
+        <location filename="../clhelp.cpp" line="133"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation>fereastra principală nu se va închide după ce fişierul sau lista se termină.</translation>
     </message>
@@ -4645,12 +4645,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Utilizare %1 [-ini-path director] [-send-action nume_acţiune] [-actions listă_acţiuni [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="123"/>
+        <location filename="../clhelp.cpp" line="136"/>
         <source>the video will be played in fullscreen mode.</source>
         <translation>fişierul video va fi redat pe tot ecranul.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="126"/>
+        <location filename="../clhelp.cpp" line="139"/>
         <source>the video will be played in window mode.</source>
         <translation>fişierul video va fi redat în fereastra principală.</translation>
     </message>
@@ -4662,21 +4662,31 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="87"/>
         <source>Usage: %1 [-mini] [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation>Utilizare: %1 [-mini] [-ini-path directory] [-send-action action_name] [-actions actions_list [-close-at-end] [-no-close-at-end] [fullscreen] [-nu-fullscreen] [add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
+        <translation type="obsolete">Utilizare: %1 [-mini] [-ini-path directory] [-send-action action_name] [-actions actions_list [-close-at-end] [-no-close-at-end] [fullscreen] [-nu-fullscreen] [add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="95"/>
+        <location filename="../clhelp.cpp" line="108"/>
         <source>opens the mini gui instead of the default one.</source>
         <translation>deschide interfaţa în miniatură în locul celei implicite.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="92"/>
+        <location filename="../clhelp.cpp" line="105"/>
         <source>Restores the old associations and cleans up the registry.</source>
         <translation>Restaurează vechile asocieri şi curăţă regiştrii.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="143"/>
+        <location filename="../clhelp.cpp" line="156"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="91"/>
+        <source>%1 [-mini] [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="99"/>
+        <source>Usage:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
