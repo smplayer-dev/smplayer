@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -4716,22 +4717,22 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../clhelp.cpp" line="103"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>Anwendung:</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="92"/>
         <source>directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Verzeichnis</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="93"/>
         <source>action_name</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktion_Name</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="94"/>
         <source>action_list</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktion_Liste</translation>
     </message>
 </context>
 <context>
