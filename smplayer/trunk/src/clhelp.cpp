@@ -83,12 +83,16 @@ QString CLHelp::formatHelp(QString parameter, QString help, bool html) {
 QString CLHelp::help(bool html) {
 	QString app_name = QFileInfo(qApp->applicationFilePath()).baseName();
 
-	QString options = QObject::tr("%1 [-mini] [-ini-path directory] "
-                        "[-send-action action_name] [-actions action_list "
+	QString options = QString("%1 [-mini] [-ini-path %2] "
+                        "[-send-action %3] [-actions %4] "
                         "[-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] "
                         "[-add-to-playlist] [-help|--help|-h|-?] "
-                        "[[-playlist] media] "
-                        "[[-playlist] media]...").arg(app_name);
+                        "[[-playlist] %5] [[-playlist] %5]...")
+                        .arg(app_name)
+                        .arg(QObject::tr("directory"))
+                        .arg(QObject::tr("action_name"))
+                        .arg(QObject::tr("action_list"))
+                        .arg(QObject::tr("media"));
 
 	QString s;
 
