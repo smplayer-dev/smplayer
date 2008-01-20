@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -4318,22 +4319,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="103"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>Использование:</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="92"/>
         <source>directory</source>
-        <translation type="unfinished"></translation>
+        <translation>каталог</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="93"/>
         <source>action_name</source>
-        <translation type="unfinished"></translation>
+        <translation>имя_действия</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="94"/>
         <source>action_list</source>
-        <translation type="unfinished"></translation>
+        <translation>список_действий</translation>
     </message>
 </context>
 <context>
