@@ -3045,7 +3045,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="557"/>
         <source>Change volume just before playing</source>
-        <translation>Изменять громкость непосредственно перед проирыванием</translation>
+        <translation>Изменять громкость непосредственно перед проигрыванием</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="620"/>
