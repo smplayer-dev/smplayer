@@ -3,7 +3,7 @@
 
 [Setup]
 AppName=SMPlayer
-AppVerName=SMPlayer 0.5.62
+AppVerName=SMPlayer 0.6.0preview1
 AppPublisher=RVM
 AppPublisherURL=http://smplayer.sf.net
 AppSupportURL=http://smplayer.sourceforge.net/forums
@@ -12,7 +12,7 @@ DefaultDirName={pf}\SMPlayer
 DefaultGroupName=SMPlayer
 LicenseFile=Copying.txt
 OutputDir=..
-OutputBaseFilename=smplayer_0.5.62_full_setup
+OutputBaseFilename=smplayer_0.6.0preview1_setup
 Compression=lzma
 SolidCompression=yes
 SourceDir="smplayer"
@@ -57,6 +57,7 @@ Source: "mplayer\codecs\*"; DestDir: "{app}\mplayer\codecs"; Flags: ignoreversio
 Source: "mplayer\*"; DestDir: "{app}\mplayer"; Flags: ignoreversion; Components: main
 Source: "mplayer\mplayer\*"; DestDir: "{app}\mplayer\mplayer"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: main
 Source: "shortcuts\*"; DestDir: "{app}\shortcuts"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: main
+Source: "docs\*"; DestDir: "{app}\docs"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: main
 Source: "themes\*"; DestDir: "{app}\themes"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: themes
 Source: "translations\*"; DestDir: "{app}\translations"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: languages
 Source: "*.dll"; DestDir: "{app}"; Components: main
