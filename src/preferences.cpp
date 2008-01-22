@@ -179,7 +179,7 @@ void Preferences::reset() {
 	log_filter = ".*";
 
 	language = "";
-	iconset = "Nuvola";
+	iconset = "";
 
 	// "Don't repaint video background" in the preferences dialog
 #ifdef Q_OS_WIN
