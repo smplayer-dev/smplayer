@@ -41,6 +41,10 @@ Third-party:
 
 I took some icons from:
 
+ * nuvoX
+   url: http://www.kde-look.org/content/show.php/nuvoX?content=38467
+   license: GPL
+
  * Vista-Inspirate 
     url: http://www.kde-look.org/content/show.php/Vista-Inspirate?content=31585
     license: GPL
