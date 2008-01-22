@@ -83,5 +83,18 @@
         <file>icons-png/qt.png</file>
         <file>icons-png/instance1.png</file>
         <file>icons-png/instance2.png</file>
+        <file>icons-png/equalizer.png</file>
+        <file>icons-png/audio_filters.png</file>
+        <file>icons-png/video_filters.png</file>
+        <file>icons-png/video_size.png</file>
+        <file>icons-png/audio_channels.png</file>
+        <file>icons-png/open_playlist.png</file>
+        <file>icons-png/audio_track.png</file>
+        <file>icons-png/toolbars.png</file>
+        <file>icons-png/ontop.png</file>
+        <file>icons-png/stereo_mode.png</file>
+        <file>icons-png/cl_help.png</file>
+        <file>icons-png/osd.png</file>
+        <file>icons-png/angle.png</file>
     </qresource>
 </RCC>
