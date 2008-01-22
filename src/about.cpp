@@ -53,7 +53,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 		tr("Get help in our forum:") +" " + link("http://smplayer.sf.net/forums") +
         "<br><br>" +
 		tr("You can support SMPlayer by making a donation.") +" "+
-		link("http://sourceforge.net/donate/index.php?user_id=115931", tr("More info"))
+		link("https://sourceforge.net/donate/index.php?group_id=185512", tr("More info"))
 	);
 
 
