@@ -477,7 +477,7 @@ void Preferences::load() {
 	font_file = set->value("font_file", font_file).toString();
 	font_name = set->value("font_name", font_name).toString();
 	font_autoscale = set->value("font_autoscale", font_autoscale).toInt();
-	initial_sub_scale = set->value("initial_sub_scale", initial_sub_scale).toInt();
+	initial_sub_scale = set->value("initial_sub_scale", initial_sub_scale).toDouble();
 	subcp = set->value("subcp", subcp).toString();
 	subfuzziness = set->value("subfuzziness", subfuzziness).toInt();
 	use_ass_subtitles = set->value("use_ass_subtitles", use_ass_subtitles).toBool();

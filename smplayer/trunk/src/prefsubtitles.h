@@ -58,8 +58,8 @@ protected:
 	void setFontAutoscale(int n);
 	int fontAutoscale();
 
-	void setFontTextscale(int n);
-	int fontTextscale();
+	void setFontTextscale(double n);
+	double fontTextscale();
 
 	void setAutoloadSub(bool v);
 	bool autoloadSub();
