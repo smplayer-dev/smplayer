@@ -228,12 +228,12 @@
            </spacer>
           </item>
           <item>
-           <widget class="QLabel" name="textLabel3_2" >
+           <widget class="QLabel" name="scalelabel" >
             <property name="text" >
              <string>S&amp;cale:</string>
             </property>
-            <property name="wordWrap" >
-             <bool>false</bool>
+            <property name="alignment" >
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
             </property>
             <property name="buddy" >
              <cstring>font_text_scale</cstring>
@@ -241,9 +241,12 @@
            </widget>
           </item>
           <item>
-           <widget class="QSpinBox" name="font_text_scale" >
-            <property name="maximum" >
-             <number>100</number>
+           <widget class="QDoubleSpinBox" name="font_text_scale" >
+            <property name="decimals" >
+             <number>1</number>
+            </property>
+            <property name="singleStep" >
+             <double>0.200000000000000</double>
             </property>
            </widget>
           </item>
@@ -702,13 +705,13 @@
  </widget>
  <customwidgets>
   <customwidget>
-   <class>MyComboBox</class>
-   <extends>QComboBox</extends>
+   <class>MyFontComboBox</class>
+   <extends>QFontComboBox</extends>
    <header>mycombobox.h</header>
   </customwidget>
   <customwidget>
-   <class>MyFontComboBox</class>
-   <extends>QFontComboBox</extends>
+   <class>MyComboBox</class>
+   <extends>QComboBox</extends>
    <header>mycombobox.h</header>
   </customwidget>
  </customwidgets>

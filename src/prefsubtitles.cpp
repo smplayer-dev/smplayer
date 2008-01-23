@@ -154,11 +154,11 @@ int PrefSubtitles::fontAutoscale() {
 	return font_autoscale_combo->currentIndex();
 }
 
-void PrefSubtitles::setFontTextscale(int n) {
+void PrefSubtitles::setFontTextscale(double n) {
 	font_text_scale->setValue(n);
 }
 
-int PrefSubtitles::fontTextscale() {
+double PrefSubtitles::fontTextscale() {
 	return font_text_scale->value();
 }
 
