@@ -48,6 +48,10 @@ public:
 public slots:
 	virtual void setPos(int); // Don't use setValue!
 	virtual int pos();
+#if ENABLE_DELAYED_DRAGGING
+	void setDragDelay(int);
+	int dragDelay();
+#endif
 
 signals:
 	void posChanged(int);

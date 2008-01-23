@@ -454,6 +454,8 @@ TimeSliderAction * BaseGuiPlus::createTimeSliderAction(QWidget * parent) {
 	connect( timeslider_action, SIGNAL( draggingPos(int) ), 
              this, SLOT(displayGotoTime(int)) );
 #if ENABLE_DELAYED_DRAGGING
+	timeslider_action->setDragDelay( pref->time_slider_drag_delay );
+
 	connect( timeslider_action, SIGNAL( delayedDraggingPos(int) ), 
              this, SLOT(goToPosOnDragging(int)) );
 #else

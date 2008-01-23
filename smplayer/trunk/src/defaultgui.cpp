@@ -135,8 +135,6 @@ QMenu * DefaultGui::createPopupMenu() {
 }
 
 void DefaultGui::createMainToolBars() {
-	
-
 	toolbar1 = new QToolBar( this );
 	toolbar1->setObjectName("toolbar1");
 	//toolbar1->setMovable(false);

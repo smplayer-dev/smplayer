@@ -173,6 +173,9 @@ void Preferences::reset() {
 	seeking4 = 30;
 
 	update_while_seeking = false;
+#if ENABLE_DELAYED_DRAGGING
+	time_slider_drag_delay = 100;
+#endif
 
 	log_mplayer = TRUE;
 	log_smplayer = TRUE;
@@ -379,8 +382,11 @@ void Preferences::save() {
 	set->setValue("seeking2", seeking2);
 	set->setValue("seeking3", seeking3);
 	set->setValue("seeking4", seeking4);
-	
+
 	set->setValue("update_while_seeking", update_while_seeking);
+#if ENABLE_DELAYED_DRAGGING
+	set->setValue("time_slider_drag_delay", time_slider_drag_delay);
+#endif
 
 	set->setValue("log_mplayer", log_mplayer);
 	set->setValue("log_smplayer", log_smplayer);
@@ -588,8 +594,11 @@ void Preferences::load() {
 	seeking2 = set->value("seeking2", seeking2).toInt();
 	seeking3 = set->value("seeking3", seeking3).toInt();
 	seeking4 = set->value("seeking4", seeking4).toInt();
-	
+
 	update_while_seeking = set->value("update_while_seeking", update_while_seeking).toBool();
+#if ENABLE_DELAYED_DRAGGING
+	time_slider_drag_delay = set->value("time_slider_drag_delay", time_slider_drag_delay).toInt();
+#endif
 
 	language = set->value("language", language).toString();
 	iconset= set->value("iconset", iconset).toString();

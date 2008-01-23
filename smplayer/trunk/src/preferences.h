@@ -183,8 +183,11 @@ public:
 	int seeking2; // By default 1m
 	int seeking3; // By default 10m
 	int seeking4; // For mouse wheel, by default 30s
-	
+
 	bool update_while_seeking;
+#if ENABLE_DELAYED_DRAGGING	
+	int time_slider_drag_delay;
+#endif
 
 	// Logs
 	bool log_mplayer;

@@ -47,6 +47,9 @@ void MyWidgetAction::propagate_enabled(bool b) {
 TimeSliderAction::TimeSliderAction( QWidget * parent )
 	: MyWidgetAction(parent)
 {
+#if ENABLE_DELAYED_DRAGGING
+	drag_delay = 200;
+#endif
 }
 
 TimeSliderAction::~TimeSliderAction() {
@@ -70,6 +73,22 @@ int TimeSliderAction::pos() {
 	}
 }
 
+#if ENABLE_DELAYED_DRAGGING
+void TimeSliderAction::setDragDelay(int d) {
+	drag_delay = d;
+
+	QList<QWidget *> l = createdWidgets();
+	for (int n=0; n < l.count(); n++) {
+		TimeSlider *s = (TimeSlider*) l[n];
+		s->setDragDelay(drag_delay);
+	}
+}
+
+int TimeSliderAction::dragDelay() {
+	return drag_delay;
+}
+#endif
+
 QWidget * TimeSliderAction::createWidget ( QWidget * parent ) {
 	TimeSlider *t = new TimeSlider(parent);
 	t->setEnabled( isEnabled() );
@@ -79,6 +98,8 @@ QWidget * TimeSliderAction::createWidget ( QWidget * parent ) {
 	connect( t,    SIGNAL(draggingPos(int)),
              this, SIGNAL(draggingPos(int)) );
 #if ENABLE_DELAYED_DRAGGING
+	t->setDragDelay(drag_delay);
+
 	connect( t,    SIGNAL(delayedDraggingPos(int)),
 	         this, SIGNAL(delayedDraggingPos(int)) );
 #endif

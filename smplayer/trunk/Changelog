@@ -1,5 +1,10 @@
 [b]Version 0.6.0rc1 (not released yet)[/b]:
 
+(2008-01-22)
+ * Now the delay to update the video while dragging the time slider can
+   be configured in smplayer.ini, option time_slider_drag_delay. The
+   value by default is 100 (milliseconds).
+
 (2008-01-21)
  * Added some new icons to the default theme taken from nuvoX 
    (http://www.kde-look.org/content/show.php/nuvoX?content=38467)
