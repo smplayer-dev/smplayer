@@ -85,6 +85,10 @@
 #define USE_SHORTCUTGETTER 1
 
 
+// ENABLE_DELAYED_DRAGGING
+// if 1, sends the dragging position of the time slider
+// some ms later
+
 #define ENABLE_DELAYED_DRAGGING 1
 
 
