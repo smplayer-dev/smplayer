@@ -1216,8 +1216,18 @@ void Core::startMplayer( QString file, double seek ) {
 
 	proc->addArgument( "-subfont-autoscale");
 	proc->addArgument( QString::number( pref->font_autoscale ) );
+
+#if SCALE_ASS_SUBS
+	if(pref->use_ass_subtitles) {
+		proc->addArgument( "-ass-font-scale");
+	} else {
+		proc->addArgument( "-subfont-text-scale");
+	}
+	proc->addArgument( QString::number(mset.sub_scale) );
+#else
 	proc->addArgument( "-subfont-text-scale");
 	proc->addArgument( QString::number(mset.sub_scale) );
+#endif
 
 	if (!pref->subcp.isEmpty()) {
 		proc->addArgument("-subcp");
@@ -2133,6 +2143,16 @@ void Core::changeSubScale(double value) {
 	qDebug("Core::changeSubScale: %f", value);
 
 	bool need_restart = false;
+
+#if SCALE_ASS_SUBS
+	need_restart = (pref->change_sub_scale_should_restart == Preferences::Enabled);
+	if (pref->change_sub_scale_should_restart == Preferences::Detect) {
+		if (pref->use_ass_subtitles) 
+			need_restart = (!proc->isMplayerAtLeast(25843));
+		else
+			need_restart = (!proc->isMplayerAtLeast(23745));
+	}
+#else
 	if (pref->use_ass_subtitles || 
         pref->change_sub_scale_should_restart == Preferences::Enabled)
 	{
@@ -2142,6 +2162,7 @@ void Core::changeSubScale(double value) {
 	if (pref->change_sub_scale_should_restart == Preferences::Detect) {
 		need_restart = (!proc->isMplayerAtLeast(23745));
 	}
+#endif
 
 	if (value < 0) value = 0;
 	if (value != mset.sub_scale) {
@@ -2156,13 +2177,17 @@ void Core::changeSubScale(double value) {
 
 void Core::incSubScale() {
 	double step = 0.20;
+#if !SCALE_ASS_SUBS
 	if (pref->use_ass_subtitles) step = 1.0;
+#endif
 	changeSubScale( mset.sub_scale + step );
 }
 
 void Core::decSubScale() {
 	double step = 0.20;
+#if !SCALE_ASS_SUBS
 	if (pref->use_ass_subtitles) step = 1.0;
+#endif
 	changeSubScale( mset.sub_scale - step );
 }
 
