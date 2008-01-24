@@ -92,6 +92,17 @@
 #define ENABLE_DELAYED_DRAGGING 1
 
 
+// SCALE_ASS_SUBS
+// MPlayer r25843 adds the possibility to change the
+// size of the subtitles, when using -ass, with the
+// sub_scale slave command. Unfortunately this require
+// a different code, which also makes the size of the
+// subtitles to be very different when using -ass or not.
+// Setting SCALE_ASS_SUBS to 1 activates this code.
+
+#define SCALE_ASS_SUBS 1
+
+
 // USE_SUBFONT
 // if 1, use -subfont option.
 

@@ -1,5 +1,9 @@
 [b]Version 0.6.0rc1 (not released yet)[/b]:
 
+(2008-01-24)
+ * Using now the sub_scale slave command for -ass subtitles. Requires
+   MPlayer r25843.
+
 (2008-01-22)
  * Now the delay to update the video while dragging the time slider can
    be configured in smplayer.ini, option time_slider_drag_delay. The
