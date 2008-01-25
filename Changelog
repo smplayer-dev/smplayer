@@ -1,8 +1,18 @@
 [b]Version 0.6.0rc1 (not released yet)[/b]:
 
 (2008-01-24)
- * Using now the sub_scale slave command for -ass subtitles. Requires
-   MPlayer r25843.
+ * Using now the sub_scale slave command for -ass subtitles. This allows to
+   change the font size on runtime. Requires MPlayer r25843.
+ * Now the font scale is stored in two independent variables, one if not
+   using libass and another if using it. This is because the same value
+   produces very different font sizes. A value of 7 can display subtitles
+   with a normal size if not using libass, but if libass is enabled the 
+   font will be  huge.
+   Important: the Scale option in Preferences->Subtitles, which sets the
+   initial font scale for new videos, will now be only used if libass is 
+   disabled.
+   It has been added a similar option for libass, but currently it can only 
+   be changed by editing smplayer.ini (initial_sub_scale_ass, default value 1).
 
 (2008-01-22)
  * Now the delay to update the video while dragging the time slider can

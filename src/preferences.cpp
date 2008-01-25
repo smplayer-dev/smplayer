@@ -55,7 +55,6 @@ void Preferences::reset() {
 	font_name = "";
 	subcp = "ISO-8859-1";
 	font_autoscale = 1;
-	initial_sub_scale = 5;
 	autoload_sub = true;
 	subfuzziness = 1;
 	ass_color = 0xFFFF00;
@@ -226,6 +225,10 @@ void Preferences::reset() {
 
 	vcd_initial_title = 2; // Most VCD's start at title #2
 
+	initial_sub_scale = 5;
+#if SCALE_ASS_SUBS
+	initial_sub_scale_ass = 1;
+#endif
 	initial_volume = 40;
 	initial_contrast = 0;
 	initial_brightness = 0;
@@ -269,7 +272,6 @@ void Preferences::save() {
 	set->setValue("font_file", font_file);
 	set->setValue("font_name", font_name);
 	set->setValue("font_autoscale", font_autoscale);
-	set->setValue("initial_sub_scale", initial_sub_scale);
 	set->setValue("subcp", subcp);
 	set->setValue("use_ass_subtitles", use_ass_subtitles);
 	set->setValue("autoload_sub", autoload_sub);
@@ -439,6 +441,10 @@ void Preferences::save() {
 
 	set->beginGroup( "defaults");
 
+	set->setValue("initial_sub_scale", initial_sub_scale);
+#if SCALE_ASS_SUBS
+	set->setValue("initial_sub_scale_ass", initial_sub_scale_ass);
+#endif
 	set->setValue("initial_volume", initial_volume);
 	set->setValue("initial_contrast", initial_contrast);
 	set->setValue("initial_brightness", initial_brightness);
@@ -477,7 +483,6 @@ void Preferences::load() {
 	font_file = set->value("font_file", font_file).toString();
 	font_name = set->value("font_name", font_name).toString();
 	font_autoscale = set->value("font_autoscale", font_autoscale).toInt();
-	initial_sub_scale = set->value("initial_sub_scale", initial_sub_scale).toDouble();
 	subcp = set->value("subcp", subcp).toString();
 	subfuzziness = set->value("subfuzziness", subfuzziness).toInt();
 	use_ass_subtitles = set->value("use_ass_subtitles", use_ass_subtitles).toBool();
@@ -651,6 +656,10 @@ void Preferences::load() {
 
 	set->beginGroup( "defaults");
 
+	initial_sub_scale = set->value("initial_sub_scale", initial_sub_scale).toDouble();
+#if SCALE_ASS_SUBS
+	initial_sub_scale_ass = set->value("initial_sub_scale_ass", initial_sub_scale_ass).toDouble();
+#endif
 	initial_volume = set->value("initial_volume", initial_volume).toInt();
 	initial_contrast = set->value("initial_contrast", initial_contrast).toInt();
 	initial_brightness = set->value("initial_brightness", initial_brightness).toInt();
