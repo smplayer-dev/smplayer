@@ -1327,70 +1327,75 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1903"/>
+        <location filename="../core.cpp" line="1914"/>
         <source>Brightness: %1</source>
         <translation>Яскравість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1912"/>
+        <location filename="../core.cpp" line="1923"/>
         <source>Contrast: %1</source>
         <translation>Контрастість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1920"/>
+        <location filename="../core.cpp" line="1931"/>
         <source>Gamma: %1</source>
         <translation>Гама: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1928"/>
+        <location filename="../core.cpp" line="1939"/>
         <source>Hue: %1</source>
         <translation>Колір: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1936"/>
+        <location filename="../core.cpp" line="1947"/>
         <source>Saturation: %1</source>
         <translation>Насиченість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2055"/>
+        <location filename="../core.cpp" line="2066"/>
         <source>Volume: %1</source>
         <translation>Гучність: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2615"/>
+        <location filename="../core.cpp" line="2688"/>
         <source>Zoom: %1</source>
         <translation>Масштаб: %1</translation>
+    </message>
+    <message>
+        <location filename="../core.cpp" line="2179"/>
+        <source>Font scale: %1</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="326"/>
+        <location filename="../defaultgui.cpp" line="324"/>
         <source>Welcome to SMPlayer</source>
         <translation>Ласкаво просимо до SMPlayer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="349"/>
+        <location filename="../defaultgui.cpp" line="347"/>
         <source>Audio</source>
         <translation>Звук</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="350"/>
+        <location filename="../defaultgui.cpp" line="348"/>
         <source>Subtitle</source>
         <translation>Субтитри</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="343"/>
+        <location filename="../defaultgui.cpp" line="341"/>
         <source>&amp;Main toolbar</source>
         <translation>&amp;Головна панель</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="346"/>
+        <location filename="../defaultgui.cpp" line="344"/>
         <source>&amp;Language toolbar</source>
         <translation>&amp;Панель мов</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="340"/>
+        <location filename="../defaultgui.cpp" line="338"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Панелі</translation>
     </message>
@@ -3903,37 +3908,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Всі субтитри теки</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="256"/>
+        <location filename="../prefsubtitles.ui" line="259"/>
         <source>Position</source>
         <translation>Позиція</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="316"/>
+        <location filename="../prefsubtitles.ui" line="319"/>
         <source>0</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="336"/>
+        <location filename="../prefsubtitles.ui" line="339"/>
         <source>Top</source>
         <translation>Верх</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="362"/>
+        <location filename="../prefsubtitles.ui" line="365"/>
         <source>Bottom</source>
         <translation>Низ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="408"/>
+        <location filename="../prefsubtitles.ui" line="411"/>
         <source>&amp;Font</source>
         <translation>&amp;Шрифти</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="420"/>
+        <location filename="../prefsubtitles.ui" line="423"/>
         <source>Font</source>
         <translation>Шрифт</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="476"/>
+        <location filename="../prefsubtitles.ui" line="479"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
         <translation>Виберіть шрифт для субтитрів (та OSD):</translation>
     </message>
@@ -3963,12 +3968,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Пропорційно до діагоналі клипу</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="516"/>
+        <location filename="../prefsubtitles.ui" line="519"/>
         <source>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</source>
         <translation>Нова бібліотека SSA/ASS забезпечує хорошу стилізацію субтитрів для зовнішніх файлів субтитрів SSA/ASS та треків Matroska. Але це також буде використовуватись для рендерінгу файлів інших форматів, таких як SUB та SRT.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="638"/>
+        <location filename="../prefsubtitles.ui" line="641"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
         <translation>Тут Вы можете вказати стилі для субтитрів SSA/ASS. Також може використовуватися для точного налаштування відображення субтитрів SRT і SUB библиотекою SSA/ASS. Приклад: &lt;b&gt; Bold=1, Outline=2, Shadow=4 &lt;/b&gt;</translation>
     </message>
@@ -4003,32 +4008,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Кодування субтитрів за умовчанням:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="268"/>
+        <location filename="../prefsubtitles.ui" line="271"/>
         <source>Default &amp;position of the subtitles on screen</source>
         <translation>Позиція субтитрів на &amp;екрані за умовчанням</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="377"/>
+        <location filename="../prefsubtitles.ui" line="380"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>&amp;Включати субтитри до знімків екрану</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="384"/>
+        <location filename="../prefsubtitles.ui" line="387"/>
         <source>&amp;Use -subfont option (required by recent MPlayer releases)</source>
         <translation>Використовувати &amp;опцію -subfont (потрібна для останніх версій MPlayer)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="432"/>
+        <location filename="../prefsubtitles.ui" line="435"/>
         <source>&amp;TTF font:</source>
         <translation>Шрифт &amp;TTF:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="449"/>
+        <location filename="../prefsubtitles.ui" line="452"/>
         <source>Sea&amp;rch...</source>
         <translation>По&amp;шук...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="469"/>
+        <location filename="../prefsubtitles.ui" line="472"/>
         <source>S&amp;ystem font:</source>
         <translation>С&amp;истемний шрифт:</translation>
     </message>
@@ -4043,27 +4048,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>М&amp;асштаб:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="529"/>
+        <location filename="../prefsubtitles.ui" line="532"/>
         <source>&amp;Use SSA/ASS library for subtitle rendering</source>
         <translation>Використовувати бібліотеку SSA/ASS для &amp;рендерингу субтитрів</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="547"/>
+        <location filename="../prefsubtitles.ui" line="550"/>
         <source>&amp;Text color:</source>
         <translation>Колір &amp;тексту:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="589"/>
+        <location filename="../prefsubtitles.ui" line="592"/>
         <source>&amp;Border color:</source>
         <translation>Колір &amp;краю:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="662"/>
+        <location filename="../prefsubtitles.ui" line="665"/>
         <source>St&amp;yles:</source>
         <translation>Сти&amp;лі:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="504"/>
+        <location filename="../prefsubtitles.ui" line="507"/>
         <source>SSA/ASS library</source>
         <translation>Бібліотека SSA/ASS</translation>
     </message>
@@ -4364,7 +4369,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VolumeSliderAction</name>
     <message>
-        <location filename="../widgetactions.cpp" line="128"/>
+        <location filename="../widgetactions.cpp" line="149"/>
         <source>Volume</source>
         <translation>Гучність</translation>
     </message>

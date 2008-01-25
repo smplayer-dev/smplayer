@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
-<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1409,45 +1408,50 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1903"/>
+        <location filename="../core.cpp" line="1914"/>
         <source>Brightness: %1</source>
         <translation>Luminozitate: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1912"/>
+        <location filename="../core.cpp" line="1923"/>
         <source>Contrast: %1</source>
         <translation>Contrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1920"/>
+        <location filename="../core.cpp" line="1931"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1928"/>
+        <location filename="../core.cpp" line="1939"/>
         <source>Hue: %1</source>
         <translation>Culoare: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1936"/>
+        <location filename="../core.cpp" line="1947"/>
         <source>Saturation: %1</source>
         <translation>Saturație: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2055"/>
+        <location filename="../core.cpp" line="2066"/>
         <source>Volume: %1</source>
         <translation>Volum: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2615"/>
+        <location filename="../core.cpp" line="2688"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
+    </message>
+    <message>
+        <location filename="../core.cpp" line="2179"/>
+        <source>Font scale: %1</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="326"/>
+        <location filename="../defaultgui.cpp" line="324"/>
         <source>Welcome to SMPlayer</source>
         <translation>Bun venit la SMPlayer</translation>
     </message>
@@ -1457,12 +1461,12 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
         <translation type="obsolete">Volum</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="349"/>
+        <location filename="../defaultgui.cpp" line="347"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="350"/>
+        <location filename="../defaultgui.cpp" line="348"/>
         <source>Subtitle</source>
         <translation>Subtitrare</translation>
     </message>
@@ -1472,17 +1476,17 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
         <translation type="obsolete">Listă_Titluri</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="343"/>
+        <location filename="../defaultgui.cpp" line="341"/>
         <source>&amp;Main toolbar</source>
         <translation>&amp;Bară_principală  unelte</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="346"/>
+        <location filename="../defaultgui.cpp" line="344"/>
         <source>&amp;Language toolbar</source>
         <translation>Bară_unelte &amp;limbă</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="340"/>
+        <location filename="../defaultgui.cpp" line="338"/>
         <source>&amp;Toolbars</source>
         <translation>B&amp;are_unelte</translation>
     </message>
@@ -4184,7 +4188,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Codificarea implicită pentru subtitrare:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="256"/>
+        <location filename="../prefsubtitles.ui" line="259"/>
         <source>Position</source>
         <translation>Poziţionare</translation>
     </message>
@@ -4194,17 +4198,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Poziţionarea implicită a subtitrării pe ecran</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="316"/>
+        <location filename="../prefsubtitles.ui" line="319"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="336"/>
+        <location filename="../prefsubtitles.ui" line="339"/>
         <source>Top</source>
         <translation>Sus</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="362"/>
+        <location filename="../prefsubtitles.ui" line="365"/>
         <source>Bottom</source>
         <translation>Jos</translation>
     </message>
@@ -4219,12 +4223,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">A se folosi opţiunea -subfont (cerinţă impusă de versiunile recente ale Mplayer)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="408"/>
+        <location filename="../prefsubtitles.ui" line="411"/>
         <source>&amp;Font</source>
         <translation>&amp;Caractere</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="420"/>
+        <location filename="../prefsubtitles.ui" line="423"/>
         <source>Font</source>
         <translation>Caractere</translation>
     </message>
@@ -4244,7 +4248,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Caractere implicite ale sistemului:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="476"/>
+        <location filename="../prefsubtitles.ui" line="479"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
         <translation>Selectarea caracterelor ce vor fi folosite pentru subtitrări (şi OSD):</translation>
     </message>
@@ -4289,7 +4293,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Bibliotecă SSA/&amp;ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="516"/>
+        <location filename="../prefsubtitles.ui" line="519"/>
         <source>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</source>
         <translation>Noua bibliotecă SSA/ASS va furniza stiluri mai frumoase pentru subtitrări pentru fişiere externe de subtitrări SSA/ASS şi Matroska. Dar va fi folosită de asemenea pentru randarea altor formate precum SUB şi SRT.</translation>
     </message>
@@ -4309,7 +4313,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Culoare chenar:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="638"/>
+        <location filename="../prefsubtitles.ui" line="641"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
         <translation>Aici se poate shimba stilul pentru subtitrările de tip SSA/ASS. Folosind această bibliotecă se pot face retuşări ale subtitrărilor de tip SUB şi SRT. Exemplu: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</translation>
     </message>
@@ -4349,32 +4353,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Co&amp;dificarea implicită subtitrare:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="268"/>
+        <location filename="../prefsubtitles.ui" line="271"/>
         <source>Default &amp;position of the subtitles on screen</source>
         <translation>&amp;Poziţionarea implicită a subtitrării pe ecran</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="377"/>
+        <location filename="../prefsubtitles.ui" line="380"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>&amp;Include subtitrarea în captura de ecran</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="384"/>
+        <location filename="../prefsubtitles.ui" line="387"/>
         <source>&amp;Use -subfont option (required by recent MPlayer releases)</source>
         <translation>Foloseşte opţi&amp;unea -subfont (cerinţă impusă de versiunile recente ale Mplayer)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="432"/>
+        <location filename="../prefsubtitles.ui" line="435"/>
         <source>&amp;TTF font:</source>
         <translation>Caractere &amp;TTF:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="449"/>
+        <location filename="../prefsubtitles.ui" line="452"/>
         <source>Sea&amp;rch...</source>
         <translation>Căuta&amp;re...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="469"/>
+        <location filename="../prefsubtitles.ui" line="472"/>
         <source>S&amp;ystem font:</source>
         <translation>Caractere imp&amp;licite ale sistemului:</translation>
     </message>
@@ -4389,27 +4393,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Di&amp;mensiune:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="529"/>
+        <location filename="../prefsubtitles.ui" line="532"/>
         <source>&amp;Use SSA/ASS library for subtitle rendering</source>
         <translation>Foloseşte biblioteca SSA/ASS pentru randarea s&amp;ubtitrării</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="547"/>
+        <location filename="../prefsubtitles.ui" line="550"/>
         <source>&amp;Text color:</source>
         <translation>Culoare &amp;text:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="589"/>
+        <location filename="../prefsubtitles.ui" line="592"/>
         <source>&amp;Border color:</source>
         <translation>Culoare c&amp;henar:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="662"/>
+        <location filename="../prefsubtitles.ui" line="665"/>
         <source>St&amp;yles:</source>
         <translation>St&amp;il:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="504"/>
+        <location filename="../prefsubtitles.ui" line="507"/>
         <source>SSA/ASS library</source>
         <translation>Bibliotecă SSA/ASS</translation>
     </message>
@@ -4816,7 +4820,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VolumeSliderAction</name>
     <message>
-        <location filename="../widgetactions.cpp" line="128"/>
+        <location filename="../widgetactions.cpp" line="149"/>
         <source>Volume</source>
         <translation>Volum</translation>
     </message>
