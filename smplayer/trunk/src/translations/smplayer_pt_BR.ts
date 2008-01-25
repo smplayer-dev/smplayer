@@ -1357,45 +1357,50 @@ O diálogo de configuração será aberto agora, e você poderá faze-lo.</trans
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1903"/>
+        <location filename="../core.cpp" line="1914"/>
         <source>Brightness: %1</source>
         <translation>Brilho: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1912"/>
+        <location filename="../core.cpp" line="1923"/>
         <source>Contrast: %1</source>
         <translation>Contraste: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1920"/>
+        <location filename="../core.cpp" line="1931"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1928"/>
+        <location filename="../core.cpp" line="1939"/>
         <source>Hue: %1</source>
         <translation>Matiz: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1936"/>
+        <location filename="../core.cpp" line="1947"/>
         <source>Saturation: %1</source>
         <translation>Saturação: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2055"/>
+        <location filename="../core.cpp" line="2066"/>
         <source>Volume: %1</source>
         <translation>Volume: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2615"/>
+        <location filename="../core.cpp" line="2688"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
+    </message>
+    <message>
+        <location filename="../core.cpp" line="2179"/>
+        <source>Font scale: %1</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="326"/>
+        <location filename="../defaultgui.cpp" line="324"/>
         <source>Welcome to SMPlayer</source>
         <translation>Bemvindo ao SMPlayer</translation>
     </message>
@@ -1405,12 +1410,12 @@ O diálogo de configuração será aberto agora, e você poderá faze-lo.</trans
         <translation type="obsolete">Volume</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="349"/>
+        <location filename="../defaultgui.cpp" line="347"/>
         <source>Audio</source>
         <translation>Áudio</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="350"/>
+        <location filename="../defaultgui.cpp" line="348"/>
         <source>Subtitle</source>
         <translation>Legenda</translation>
     </message>
@@ -1420,17 +1425,17 @@ O diálogo de configuração será aberto agora, e você poderá faze-lo.</trans
         <translation type="obsolete">Lista de Reprodução</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="343"/>
+        <location filename="../defaultgui.cpp" line="341"/>
         <source>&amp;Main toolbar</source>
         <translation>Barra de Ferramentas &amp;Principal</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="346"/>
+        <location filename="../defaultgui.cpp" line="344"/>
         <source>&amp;Language toolbar</source>
         <translation>Barra de Ferramentas de &amp;Linguagem </translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="340"/>
+        <location filename="../defaultgui.cpp" line="338"/>
         <source>&amp;Toolbars</source>
         <translation>&amp; Barras de Ferramentas</translation>
     </message>
@@ -4038,7 +4043,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Codificação padrão da legenda:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="256"/>
+        <location filename="../prefsubtitles.ui" line="259"/>
         <source>Position</source>
         <translation type="unfinished">Posição</translation>
     </message>
@@ -4048,17 +4053,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Posição padrão da legenda na tela</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="316"/>
+        <location filename="../prefsubtitles.ui" line="319"/>
         <source>0</source>
         <translation type="unfinished">0</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="336"/>
+        <location filename="../prefsubtitles.ui" line="339"/>
         <source>Top</source>
         <translation type="unfinished">Acima</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="362"/>
+        <location filename="../prefsubtitles.ui" line="365"/>
         <source>Bottom</source>
         <translation type="unfinished">Abaixo</translation>
     </message>
@@ -4073,12 +4078,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Usar opção -subfont (requerida por recentes lançamentos do MPlayer)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="408"/>
+        <location filename="../prefsubtitles.ui" line="411"/>
         <source>&amp;Font</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="420"/>
+        <location filename="../prefsubtitles.ui" line="423"/>
         <source>Font</source>
         <translation type="unfinished">Fontes</translation>
     </message>
@@ -4098,7 +4103,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Fonte do Sistema:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="476"/>
+        <location filename="../prefsubtitles.ui" line="479"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
         <translation type="unfinished">Selecione qual fonte será usada nas legendas (e OSD):</translation>
     </message>
@@ -4143,7 +4148,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Biblioteca SSA/&amp;ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="516"/>
+        <location filename="../prefsubtitles.ui" line="519"/>
         <source>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</source>
         <translation type="unfinished">A nova biblioteca SSA/ASS irá provêr belos estilos de legenda para arquivos externos de legenda SSA/ASS e trilhas Matroska. Mas será também usada para renderizar outros formatos de arquivo como SUB e SRT.</translation>
     </message>
@@ -4163,7 +4168,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Cor da borda:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="638"/>
+        <location filename="../prefsubtitles.ui" line="641"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
         <translation type="unfinished">Aqui você pode sobrepôr os estilos para legendas SSA/ASS. Também pode ser usado para um ajuste fino na renderização de legendas SRT e SUB pela biblioteca SSA/ASS. Exemplo: &lt;b&gt;Bold=1,Outline=2,Shadow=2&lt;/b&gt; {1,?} {2,?} {4&lt;?}</translation>
     </message>
@@ -4203,32 +4208,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="268"/>
+        <location filename="../prefsubtitles.ui" line="271"/>
         <source>Default &amp;position of the subtitles on screen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="377"/>
+        <location filename="../prefsubtitles.ui" line="380"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="384"/>
+        <location filename="../prefsubtitles.ui" line="387"/>
         <source>&amp;Use -subfont option (required by recent MPlayer releases)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="432"/>
+        <location filename="../prefsubtitles.ui" line="435"/>
         <source>&amp;TTF font:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="449"/>
+        <location filename="../prefsubtitles.ui" line="452"/>
         <source>Sea&amp;rch...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="469"/>
+        <location filename="../prefsubtitles.ui" line="472"/>
         <source>S&amp;ystem font:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4243,27 +4248,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="529"/>
+        <location filename="../prefsubtitles.ui" line="532"/>
         <source>&amp;Use SSA/ASS library for subtitle rendering</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="547"/>
+        <location filename="../prefsubtitles.ui" line="550"/>
         <source>&amp;Text color:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="589"/>
+        <location filename="../prefsubtitles.ui" line="592"/>
         <source>&amp;Border color:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="662"/>
+        <location filename="../prefsubtitles.ui" line="665"/>
         <source>St&amp;yles:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="504"/>
+        <location filename="../prefsubtitles.ui" line="507"/>
         <source>SSA/ASS library</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4554,7 +4559,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VolumeSliderAction</name>
     <message>
-        <location filename="../widgetactions.cpp" line="128"/>
+        <location filename="../widgetactions.cpp" line="149"/>
         <source>Volume</source>
         <translation type="unfinished">Volume</translation>
     </message>

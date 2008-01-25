@@ -1217,45 +1217,50 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1903"/>
+        <location filename="../core.cpp" line="1914"/>
         <source>Brightness: %1</source>
         <translation>Φωτεινό: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1912"/>
+        <location filename="../core.cpp" line="1923"/>
         <source>Contrast: %1</source>
         <translation>Αντίθεση: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1920"/>
+        <location filename="../core.cpp" line="1931"/>
         <source>Gamma: %1</source>
         <translation>Γάμα: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1928"/>
+        <location filename="../core.cpp" line="1939"/>
         <source>Hue: %1</source>
         <translation>Χρώμα: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1936"/>
+        <location filename="../core.cpp" line="1947"/>
         <source>Saturation: %1</source>
         <translation>Κορεσμός: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2055"/>
+        <location filename="../core.cpp" line="2066"/>
         <source>Volume: %1</source>
         <translation>Ένταση: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2615"/>
+        <location filename="../core.cpp" line="2688"/>
         <source>Zoom: %1</source>
         <translation>Μεγέθυνση: %1</translation>
+    </message>
+    <message>
+        <location filename="../core.cpp" line="2179"/>
+        <source>Font scale: %1</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="326"/>
+        <location filename="../defaultgui.cpp" line="324"/>
         <source>Welcome to SMPlayer</source>
         <translation>Καλώς ήρθατε στον SMPlayer</translation>
     </message>
@@ -1265,27 +1270,27 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="obsolete">Ένταση</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="349"/>
+        <location filename="../defaultgui.cpp" line="347"/>
         <source>Audio</source>
         <translation>Ήχος</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="350"/>
+        <location filename="../defaultgui.cpp" line="348"/>
         <source>Subtitle</source>
         <translation>Υπότιτλοι</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="343"/>
+        <location filename="../defaultgui.cpp" line="341"/>
         <source>&amp;Main toolbar</source>
         <translation>&amp;Μπάρα εργασίας</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="346"/>
+        <location filename="../defaultgui.cpp" line="344"/>
         <source>&amp;Language toolbar</source>
         <translation>&amp;Επιλογή γλώσσας</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="340"/>
+        <location filename="../defaultgui.cpp" line="338"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Επιλογές</translation>
     </message>
@@ -3803,37 +3808,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Όλοι οι υπότιτλοι σε ένα κατάλογο</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="256"/>
+        <location filename="../prefsubtitles.ui" line="259"/>
         <source>Position</source>
         <translation>Θέση</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="316"/>
+        <location filename="../prefsubtitles.ui" line="319"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="336"/>
+        <location filename="../prefsubtitles.ui" line="339"/>
         <source>Top</source>
         <translation>Άνω</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="362"/>
+        <location filename="../prefsubtitles.ui" line="365"/>
         <source>Bottom</source>
         <translation>Κάτω</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="408"/>
+        <location filename="../prefsubtitles.ui" line="411"/>
         <source>&amp;Font</source>
         <translation>&amp;Γραμματοσειρά</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="420"/>
+        <location filename="../prefsubtitles.ui" line="423"/>
         <source>Font</source>
         <translation>Γραμματοσειρά</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="476"/>
+        <location filename="../prefsubtitles.ui" line="479"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
         <translation>Επιλέξτε γραμματοσειρά για υπότιτλους (και OSD):</translation>
     </message>
@@ -3868,12 +3873,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">SSA/ASS &amp;λειτουργίες</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="516"/>
+        <location filename="../prefsubtitles.ui" line="519"/>
         <source>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="638"/>
+        <location filename="../prefsubtitles.ui" line="641"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3908,32 +3913,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Αρχική γραμματοσειρά υποτίτλων:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="268"/>
+        <location filename="../prefsubtitles.ui" line="271"/>
         <source>Default &amp;position of the subtitles on screen</source>
         <translation>&amp;Αρχική θέση υποτίτλων στην οθόνη</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="377"/>
+        <location filename="../prefsubtitles.ui" line="380"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>&amp;Εμφάνιση υποτίτλων στα στιγμιότυπα</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="384"/>
+        <location filename="../prefsubtitles.ui" line="387"/>
         <source>&amp;Use -subfont option (required by recent MPlayer releases)</source>
         <translation>&amp;Χρήση -subfont επιλογής (απαιτείται για νέες εκδόσεις του MPlayer)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="432"/>
+        <location filename="../prefsubtitles.ui" line="435"/>
         <source>&amp;TTF font:</source>
         <translation>&amp;ΤΤF γραμματοσειρά:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="449"/>
+        <location filename="../prefsubtitles.ui" line="452"/>
         <source>Sea&amp;rch...</source>
         <translation>&amp;Ψάξε...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="469"/>
+        <location filename="../prefsubtitles.ui" line="472"/>
         <source>S&amp;ystem font:</source>
         <translation>&amp;Σύστημα γραμματοσειρά:</translation>
     </message>
@@ -3948,27 +3953,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Μέγεθος:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="529"/>
+        <location filename="../prefsubtitles.ui" line="532"/>
         <source>&amp;Use SSA/ASS library for subtitle rendering</source>
         <translation>&amp;Χρήση SSA/ASS για εμφάνιση γραμματοσειράς</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="547"/>
+        <location filename="../prefsubtitles.ui" line="550"/>
         <source>&amp;Text color:</source>
         <translation>&amp;Χρώμα κειμένου:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="589"/>
+        <location filename="../prefsubtitles.ui" line="592"/>
         <source>&amp;Border color:</source>
         <translation>&amp;Χρώμα περιγράμματος:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="662"/>
+        <location filename="../prefsubtitles.ui" line="665"/>
         <source>St&amp;yles:</source>
         <translation>&amp;Στυλ:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="504"/>
+        <location filename="../prefsubtitles.ui" line="507"/>
         <source>SSA/ASS library</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4259,7 +4264,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VolumeSliderAction</name>
     <message>
-        <location filename="../widgetactions.cpp" line="128"/>
+        <location filename="../widgetactions.cpp" line="149"/>
         <source>Volume</source>
         <translation type="unfinished">Ένταση</translation>
     </message>
