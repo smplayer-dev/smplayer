@@ -48,6 +48,9 @@ void MediaSettings::reset() {
 	audio_delay=0;
 	sub_pos = pref->initial_sub_pos; // 100% by default
 	sub_scale = pref->initial_sub_scale; 
+#if SCALE_ASS_SUBS
+	sub_scale_ass = pref->initial_sub_scale_ass;
+#endif
 
 	brightness = pref->initial_brightness;
 	contrast = pref->initial_contrast;
@@ -130,6 +133,9 @@ void MediaSettings::list() {
 	qDebug("  audio_delay: %d", sub_delay);
 	qDebug("  sub_pos: %d", sub_pos);
 	qDebug("  sub_scale: %f", sub_scale);
+#if SCALE_ASS_SUBS
+	qDebug("  sub_scale_ass: %f", sub_scale_ass);
+#endif
 
 	qDebug("  brightness: %d", brightness);
 	qDebug("  contrast: %d", contrast);
@@ -210,6 +216,9 @@ void MediaSettings::save(QSettings * set) {
 	set->setValue( "audio_delay", audio_delay);
 	set->setValue( "sub_pos", sub_pos);
 	set->setValue( "sub_scale", sub_scale);
+#if SCALE_ASS_SUBS
+	set->setValue( "sub_scale_ass", sub_scale_ass);
+#endif
 
 	set->setValue( "brightness", brightness);
 	set->setValue( "contrast", contrast);
@@ -292,6 +301,9 @@ void MediaSettings::load(QSettings * set) {
 	audio_delay = set->value( "audio_delay", audio_delay).toInt();
 	sub_pos = set->value( "sub_pos", sub_pos).toInt();
 	sub_scale = set->value( "sub_scale", sub_scale).toDouble();
+#if SCALE_ASS_SUBS
+	sub_scale_ass = set->value( "sub_scale_ass", sub_scale_ass).toDouble();
+#endif
 
 	brightness = set->value( "brightness", brightness).toInt();
 	contrast = set->value( "contrast", contrast).toInt();
