@@ -31,10 +31,6 @@ PrefSubtitles::PrefSubtitles(QWidget * parent, Qt::WindowFlags f)
 {
 	setupUi(this);
 
-#if !USE_SUBFONT
-	subfont_check->hide();
-#endif
-
 	encodings = new Encodings(this);
 	font_encoding_combo->insertItems( 0, encodings->list() );
 
@@ -91,10 +87,6 @@ void PrefSubtitles::setData(Preferences * pref) {
 	setAssStyles( pref->ass_styles );
 	setSubPos( pref->initial_sub_pos );
 	setSubtitlesOnScreenshots( pref->subtitles_on_screenshots );
-
-#if USE_SUBFONT
-	setUseSubfont( pref->use_subfont );
-#endif
 }
 
 void PrefSubtitles::getData(Preferences * pref) {
@@ -114,10 +106,6 @@ void PrefSubtitles::getData(Preferences * pref) {
 	TEST_AND_SET(pref->ass_styles, assStyles());
 	pref->initial_sub_pos = subPos();
 	TEST_AND_SET(pref->subtitles_on_screenshots, subtitlesOnScreenshots());
-
-#if USE_SUBFONT
-	TEST_AND_SET(pref->use_subfont, useSubfont());
-#endif
 }
 
 void PrefSubtitles::setFontName(QString font_name) {
@@ -246,16 +234,6 @@ void PrefSubtitles::setFontFuzziness(int n) {
 int PrefSubtitles::fontFuzziness() {
 	return font_autoload_combo->currentIndex();
 }
-
-#if USE_SUBFONT
-void PrefSubtitles::setUseSubfont(bool b) {
-	subfont_check->setChecked(b);
-}
-
-bool PrefSubtitles::useSubfont() {
-	return subfont_check->isChecked();
-}
-#endif
 
 void PrefSubtitles::setSubtitlesOnScreenshots(bool b) {
 	subtitles_on_screeshots_check->setChecked(b);

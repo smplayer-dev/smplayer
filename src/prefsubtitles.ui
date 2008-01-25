@@ -382,13 +382,6 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="subfont_check" >
-         <property name="text" >
-          <string>&amp;Use -subfont option (required by recent MPlayer releases)</string>
-         </property>
-        </widget>
-       </item>
-       <item>
         <spacer>
          <property name="orientation" >
           <enum>Qt::Vertical</enum>
@@ -722,7 +715,6 @@
   <tabstop>font_encoding_combo</tabstop>
   <tabstop>sub_pos_slider</tabstop>
   <tabstop>subtitles_on_screeshots_check</tabstop>
-  <tabstop>subfont_check</tabstop>
   <tabstop>font_ass_check</tabstop>
   <tabstop>colorButton</tabstop>
   <tabstop>borderButton</tabstop>
