@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -25,7 +26,7 @@
     <message>
         <location filename="../about.cpp" line="78"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
-        <translation>Acest program este un produs de tip &quot;free software&quot;: poate fi redistribuit şi/sau modificat respectând termenii licenţei GNU GPL şi publicată de către fundaţia &apos;Free Software Foundation&quot;; fie versiunea 2 a licenţei fie (la alegere) orice versiune ulterioară.</translation>
+        <translation>Acest program este un produs de tip &quot;free software&quot;: poate fi redistribuit și/sau modificat respectând termenii licenței GNU GPL și publicată de către fundația &apos;Free Software Foundation&quot;; fie versiunea 2 a licenței fie (la alegere) orice versiune ulterioară.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="85"/>
@@ -40,7 +41,7 @@
     <message>
         <location filename="../about.cpp" line="87"/>
         <source>file associations for Windows</source>
-        <translation>asociere de fişiere pentru Windows</translation>
+        <translation>asociere de fișiere pentru Windows</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="88"/>
@@ -50,17 +51,17 @@
     <message>
         <location filename="../about.cpp" line="89"/>
         <source>support for colored console output</source>
-        <translation>suport pentru ieşire consolă colorată</translation>
+        <translation>suport pentru ieșire consolă colorată</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="90"/>
         <source>icon for file associations</source>
-        <translation>iconiţă pentru asociere de fişiere</translation>
+        <translation>iconiță pentru asociere de fișiere</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="91"/>
         <source>patch for file associations</source>
-        <translation>patch pentru asociere de fişiere</translation>
+        <translation>patch pentru asociere de fișiere</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="126"/>
@@ -215,7 +216,7 @@
     <message>
         <location filename="../about.ui" line="223"/>
         <source>icon</source>
-        <translation>Iconiţă</translation>
+        <translation>Iconiță</translation>
     </message>
     <message>
         <location filename="../about.ui" line="152"/>
@@ -235,12 +236,12 @@
     <message>
         <location filename="../about.ui" line="203"/>
         <source>&amp;License</source>
-        <translation>&amp;Licenţă</translation>
+        <translation>&amp;Licență</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="51"/>
         <source>Visit our web for updates:</source>
-        <translation>Vizitaţi situl nostru web pentru actualizări:</translation>
+        <translation>Vizitați situl nostru web pentru actualizări:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="53"/>
@@ -255,12 +256,12 @@
     <message>
         <location filename="../about.cpp" line="56"/>
         <source>More info</source>
-        <translation>Informaţii suplimentare</translation>
+        <translation>Informații suplimentare</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="42"/>
         <source>Using MPlayer SVN r%1</source>
-        <translation>Se foloseşte MPlayer SVN r%1</translation>
+        <translation>Se folosește MPlayer SVN r%1</translation>
     </message>
 </context>
 <context>
@@ -473,23 +474,23 @@
     <message>
         <location filename="../actionseditor.cpp" line="468"/>
         <source>Key files</source>
-        <translation>Fişiere taste</translation>
+        <translation>Fișiere taste</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="416"/>
         <source>Choose a filename</source>
-        <translation>Alegere nume fişier</translation>
+        <translation>Alegere nume fișier</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="427"/>
         <source>Confirm overwrite?</source>
-        <translation>Confirmaţi suprascrierea?</translation>
+        <translation>Confirmați suprascrierea?</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="429"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
-        <translation>Fişierul %1 există deja.Doriţi sa-l suprascrieţi?</translation>
+        <translation>Fișierul %1 există deja.Doriți să-l suprascrieți?</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="467"/>
@@ -504,12 +505,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../actionseditor.cpp" line="441"/>
         <source>The file couldn&apos;t be saved</source>
-        <translation>Fişierul nu aputut fi salvat</translation>
+        <translation>Fișierul nu aputut fi salvat</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="475"/>
         <source>The file couldn&apos;t be loaded</source>
-        <translation>Fişierul nu a putut fi încărcat</translation>
+        <translation>Fișierul nu a putut fi încărcat</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="209"/>
@@ -562,7 +563,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1136"/>
         <source>Op&amp;tions</source>
-        <translation>Opţi&amp;uni</translation>
+        <translation>Opți&amp;uni</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1137"/>
@@ -592,7 +593,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="972"/>
         <source>D&amp;VD from folder...</source>
-        <translation>Citire D&amp;VD din fişier...</translation>
+        <translation>Citire D&amp;VD din fișier...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="973"/>
@@ -607,7 +608,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1151"/>
         <source>&amp;Recent files</source>
-        <translation>Fişiere deschise &amp;recent</translation>
+        <translation>Fișiere deschise &amp;recent</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="977"/>
@@ -757,7 +758,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1169"/>
         <source>&amp;Deinterlace</source>
-        <translation>&amp;Deîntreţesere</translation>
+        <translation>&amp;Deîntrețesere</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1023"/>
@@ -937,7 +938,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1065"/>
         <source>&amp;Playlist</source>
-        <translation>&amp;Listă</translation>
+        <translation>&amp;Listă titluri</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1068"/>
@@ -977,7 +978,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1071"/>
         <source>P&amp;references</source>
-        <translation>P&amp;referinţe</translation>
+        <translation>P&amp;referințe</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1080"/>
@@ -1377,7 +1378,7 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
     <message>
         <location filename="../baseguiplus.cpp" line="165"/>
         <source>S&amp;how icon in system tray</source>
-        <translation>A&amp;fişază iconiţă în system tray</translation>
+        <translation>A&amp;fișează iconiță în system tray</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="176"/>
@@ -1445,7 +1446,7 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
     <message>
         <location filename="../core.cpp" line="2179"/>
         <source>Font scale: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Scală Caractere: %1</translation>
     </message>
 </context>
 <context>
@@ -1571,7 +1572,7 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
     <message>
         <location filename="../encodings.cpp" line="46"/>
         <source>Traditional Chinese charset</source>
-        <translation>Alfabet Chinez Tradiţional</translation>
+        <translation>Alfabet Chinez Tradițional</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="47"/>
@@ -1622,7 +1623,7 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
     <message>
         <location filename="../filepropertiesdialog.ui" line="36"/>
         <source>&amp;Information</source>
-        <translation>&amp;Informaţii</translation>
+        <translation>&amp;Informații</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="56"/>
@@ -4728,12 +4729,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shortcutgetter.cpp" line="280"/>
         <source>Clear</source>
-        <translation>Ştergere</translation>
+        <translation>Ștergere</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="265"/>
         <source>Press the key combination you want to assign</source>
-        <translation>Acţionaţi combinaţia de taste pe care doriţi să o alocaţi</translation>
+        <translation>Acționați combinația de taste pe care doriți să o alocați</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="282"/>
@@ -4743,7 +4744,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shortcutgetter.cpp" line="283"/>
         <source>Capture keystrokes</source>
-        <translation>Combinaţie taste captură</translation>
+        <translation>Combinație taste captură</translation>
     </message>
 </context>
 <context>
@@ -4789,7 +4790,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.cpp" line="86"/>
         <source>Saturation</source>
-        <translation>Saturaţie</translation>
+        <translation>Saturație</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="90"/>
@@ -4809,7 +4810,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.cpp" line="98"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation>Folosire valori curente ca valori implicite pentru fişiere video noi.</translation>
+        <translation>Folosire valori curente ca valori implicite pentru fișiere video noi.</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="100"/>
