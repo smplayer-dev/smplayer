@@ -21,7 +21,6 @@
 
 #include "ui_prefsubtitles.h"
 #include "prefwidget.h"
-#include "config.h"
 
 class Preferences;
 class Encodings;
@@ -87,11 +86,6 @@ protected:
 
 	void setSubtitlesOnScreenshots(bool b);
 	bool subtitlesOnScreenshots();
-
-#if USE_SUBFONT
-	void setUseSubfont(bool b);
-	bool useSubfont();
-#endif
 
 protected:
 	virtual void retranslateStrings();

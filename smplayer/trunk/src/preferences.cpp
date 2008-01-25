@@ -197,10 +197,6 @@ void Preferences::reset() {
 
 	dont_use_eq_options = false;
 
-#if USE_SUBFONT
-	use_subfont = false;
-#endif
-
 #ifdef Q_OS_WIN
 	restore_pos_after_fullscreen = true;
 #else
@@ -405,10 +401,6 @@ void Preferences::save() {
 	set->setValue("balloon_count", balloon_count);
 
 	set->setValue("dont_use_eq_options", dont_use_eq_options);
-
-#if USE_SUBFONT
-	set->setValue("use_subfont", use_subfont);
-#endif
 
 	set->setValue("restore_pos_after_fullscreen", restore_pos_after_fullscreen);
 	set->setValue("save_window_size_on_exit", save_window_size_on_exit);
@@ -620,10 +612,6 @@ void Preferences::load() {
 	balloon_count = set->value("balloon_count", balloon_count).toInt();
 
 	dont_use_eq_options = set->value("dont_use_eq_options", dont_use_eq_options).toBool();
-
-#if USE_SUBFONT
-	use_subfont = set->value("use_subfont", use_subfont).toBool();
-#endif
 
 	restore_pos_after_fullscreen = set->value("restore_pos_after_fullscreen", restore_pos_after_fullscreen).toBool();
 	save_window_size_on_exit = 	set->value("save_window_size_on_exit", save_window_size_on_exit).toBool();

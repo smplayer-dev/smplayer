@@ -212,12 +212,6 @@ public:
 	//! mplayer. It seems that some graphic cards don't support those options.
 	bool dont_use_eq_options;
 
-#if USE_SUBFONT
-	//! Recent releases of MPlayer need the font for subtitles passed
-    //! through the -subfont option.
-	bool use_subfont;
-#endif
-
 	//! If true, the position of the main window will be saved before
 	//! entering in fullscreen and will restore when going back to
 	//! window mode.

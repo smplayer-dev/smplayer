@@ -103,12 +103,6 @@
 #define SCALE_ASS_SUBS 1
 
 
-// USE_SUBFONT
-// if 1, use -subfont option.
-
-#define USE_SUBFONT 0
-
-
 // Testing with a QGLWidget (for Windows)
 #define USE_GL_WIDGET 0
 

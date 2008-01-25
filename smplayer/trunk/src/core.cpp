@@ -1205,13 +1205,6 @@ void Core::startMplayer( QString file, double seek ) {
 	if ( (!pref->use_fontconfig) && (!pref->font_file.isEmpty()) ) {
 		proc->addArgument("-font");
 		proc->addArgument( pref->font_file );
-
-#if USE_SUBFONT
-		if (pref->use_subfont) {
-			proc->addArgument("-subfont");
-			proc->addArgument( pref->font_file );
-		}
-#endif
 	}
 
 	proc->addArgument( "-subfont-autoscale");
