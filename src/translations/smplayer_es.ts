@@ -1456,7 +1456,7 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../core.cpp" line="2179"/>
         <source>Font scale: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Escala del tipo de letra: %1</translation>
     </message>
 </context>
 <context>
