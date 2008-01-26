@@ -2686,7 +2686,7 @@ void Core::toggleDoubleSize() {
 
 void Core::changePanscan(double p) {
 	qDebug("Core::changePanscan: %f", p);
-	if (p < 1.0) p = 1.0;
+	if (p < ZOOM_MIN) p = ZOOM_MIN;
 
 	mset.panscan_factor = p;
 	mplayerwindow->setZoom(p);
@@ -2699,12 +2699,12 @@ void Core::resetPanscan() {
 
 void Core::incPanscan() {
 	qDebug("Core::incPanscan");
-	changePanscan( mset.panscan_factor + 0.10 );
+	changePanscan( mset.panscan_factor + ZOOM_STEP );
 }
 
 void Core::decPanscan() {
 	qDebug("Core::decPanscan");
-	changePanscan( mset.panscan_factor - 0.10 );
+	changePanscan( mset.panscan_factor - ZOOM_STEP );
 }
 
 void Core::changeUseAss(bool b) {
