@@ -17,8 +17,6 @@
 */
 
 #include "mplayerwindow.h"
-#include "constants.h"
-
 #include "images.h"
 #include "global.h"
 #include "desktopinfo.h"
@@ -360,7 +358,7 @@ void MplayerWindow::setZoom( double d) {
 	int w = orig_width;
 	int h = orig_height;
 
-	if (zoom_factor > 1.0) {
+	if (zoom_factor != 1.0) {
 		w = w * zoom_factor;
 		h = h * zoom_factor;
 
@@ -403,12 +401,12 @@ void MplayerWindow::moveDown() {
 }
 
 void MplayerWindow::incZoom() {
-	setZoom( zoom_factor + 0.10 );
+	setZoom( zoom_factor + ZOOM_STEP );
 }
 
 void MplayerWindow::decZoom() {
-	double zoom = zoom_factor - 0.10;
-	if (zoom < 1.0) zoom = 1.0;
+	double zoom = zoom_factor - ZOOM_STEP;
+	if (zoom < ZOOM_MIN) zoom = ZOOM_MIN;
 	setZoom( zoom );
 }
 
