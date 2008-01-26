@@ -1399,42 +1399,42 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1914"/>
+        <location filename="../core.cpp" line="1907"/>
         <source>Brightness: %1</source>
         <translation>明るさ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1923"/>
+        <location filename="../core.cpp" line="1916"/>
         <source>Contrast: %1</source>
         <translation>コントラスト: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1931"/>
+        <location filename="../core.cpp" line="1924"/>
         <source>Gamma: %1</source>
         <translation>ガンマ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1939"/>
+        <location filename="../core.cpp" line="1932"/>
         <source>Hue: %1</source>
         <translation>色合い: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1947"/>
+        <location filename="../core.cpp" line="1940"/>
         <source>Saturation: %1</source>
         <translation>鮮やかさ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2066"/>
+        <location filename="../core.cpp" line="2059"/>
         <source>Volume: %1</source>
         <translation>音量: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2688"/>
+        <location filename="../core.cpp" line="2693"/>
         <source>Zoom: %1</source>
         <translation>拡大率: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2179"/>
+        <location filename="../core.cpp" line="2178"/>
         <source>Font scale: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4135,32 +4135,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefSubtitles</name>
     <message>
-        <location filename="../prefsubtitles.cpp" line="50"/>
+        <location filename="../prefsubtitles.cpp" line="46"/>
         <source>Subtitles</source>
         <translation>字幕</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="275"/>
+        <location filename="../prefsubtitles.cpp" line="263"/>
         <source>Choose a ttf file</source>
         <translation>Ttf ファイルの選択</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="277"/>
+        <location filename="../prefsubtitles.cpp" line="265"/>
         <source>Truetype Fonts</source>
         <translation>Truetype フォント</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="305"/>
+        <location filename="../prefsubtitles.cpp" line="293"/>
         <source>Subtitle position</source>
         <translation>字幕の位置</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="308"/>
+        <location filename="../prefsubtitles.cpp" line="296"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
         <translation>このオプションはビデオ ウィンドウ上の字幕の位置を指定します。&lt;i&gt;100&lt;/i&gt; は最下を意味しますが、&lt;i&gt;0&lt;/i&gt; は最上を意味します。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="310"/>
+        <location filename="../prefsubtitles.cpp" line="306"/>
         <source>SSA/ASS styles</source>
         <translation>SSA/ASS スタイル</translation>
     </message>
@@ -4210,7 +4210,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">既定の字幕エンコード:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="259"/>
+        <location filename="../prefsubtitles.ui" line="168"/>
         <source>Position</source>
         <translation>位置</translation>
     </message>
@@ -4220,17 +4220,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">画面上の字幕の既定の位置</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="319"/>
+        <location filename="../prefsubtitles.ui" line="228"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="339"/>
+        <location filename="../prefsubtitles.ui" line="248"/>
         <source>Top</source>
         <translation>先頭へ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="365"/>
+        <location filename="../prefsubtitles.ui" line="274"/>
         <source>Bottom</source>
         <translation>末尾へ</translation>
     </message>
@@ -4245,12 +4245,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">-subfont オプションを使用する (最近の MPlayer リリースによって必要とされています)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="411"/>
+        <location filename="../prefsubtitles.ui" line="313"/>
         <source>&amp;Font</source>
         <translation>フォント(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="423"/>
+        <location filename="../prefsubtitles.ui" line="325"/>
         <source>Font</source>
         <translation>フォント</translation>
     </message>
@@ -4270,12 +4270,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">システム フォント:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="479"/>
+        <location filename="../prefsubtitles.ui" line="381"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
         <translation>字幕 (と OSD) に使用するフォントを選択します:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="168"/>
+        <location filename="../prefsubtitles.ui" line="409"/>
         <source>Size</source>
         <translation>サイズ</translation>
     </message>
@@ -4285,22 +4285,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">オートスケール:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="194"/>
+        <location filename="../prefsubtitles.ui" line="422"/>
         <source>No autoscale</source>
         <translation>自動縮尺なし</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="199"/>
+        <location filename="../prefsubtitles.ui" line="427"/>
         <source>Proportional to movie height</source>
         <translation>ムービーの高さに比例する</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="204"/>
+        <location filename="../prefsubtitles.ui" line="432"/>
         <source>Proportional to movie width</source>
         <translation>ムービーの幅に比例する</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="209"/>
+        <location filename="../prefsubtitles.ui" line="437"/>
         <source>Proportional to movie diagonal</source>
         <translation>ムービーの対角線に比例する</translation>
     </message>
@@ -4315,7 +4315,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">SSA/ASS ライブラリ(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="519"/>
+        <location filename="../prefsubtitles.ui" line="572"/>
         <source>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</source>
         <translation>新しい SSA/ASS ライブラリは外部の SSA/ASS 字幕ファイルおよび Matroska トラックにすてきなスタイルの字幕を供給します。しかし SUB および SRT ファイルのようなその他のフォーマットの描画にも使用されます。</translation>
     </message>
@@ -4335,7 +4335,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">枠の色:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="641"/>
+        <location filename="../prefsubtitles.ui" line="694"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
         <translation>ここで SSA/ASS 字幕のスタイルを優先的に指定できます。SSA/ASS ライブラリによる SRT および SUB 字幕の描画の微調整にも使用できます。&lt;br&gt;例: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</translation>
     </message>
@@ -4360,69 +4360,104 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>既定の字幕エンコード(&amp;D):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="271"/>
+        <location filename="../prefsubtitles.ui" line="180"/>
         <source>Default &amp;position of the subtitles on screen</source>
         <translation>既定の画面上の字幕の位置(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="380"/>
+        <location filename="../prefsubtitles.ui" line="289"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>スクリーンショットで字幕を含める(&amp;I)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="387"/>
         <source>&amp;Use -subfont option (required by recent MPlayer releases)</source>
-        <translation>-subfont オプションを使用する (最近の MPlayer リリースで必要とされています)(&amp;U)</translation>
+        <translation type="obsolete">-subfont オプションを使用する (最近の MPlayer リリースで必要とされています)(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="435"/>
+        <location filename="../prefsubtitles.ui" line="337"/>
         <source>&amp;TTF font:</source>
         <translation>TTF フォント(&amp;T):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="452"/>
+        <location filename="../prefsubtitles.ui" line="354"/>
         <source>Sea&amp;rch...</source>
         <translation>検索(&amp;R)...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="472"/>
+        <location filename="../prefsubtitles.ui" line="374"/>
         <source>S&amp;ystem font:</source>
         <translation>システム フォント(&amp;Y):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="180"/>
+        <location filename="../prefsubtitles.ui" line="458"/>
         <source>A&amp;utoscale:</source>
         <translation>自動縮尺(&amp;U):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="233"/>
         <source>S&amp;cale:</source>
-        <translation>縮尺(&amp;C):</translation>
+        <translation type="obsolete">縮尺(&amp;C):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="532"/>
+        <location filename="../prefsubtitles.ui" line="585"/>
         <source>&amp;Use SSA/ASS library for subtitle rendering</source>
         <translation>字幕の描画に SSA/ASS ライブラリを使用する(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="550"/>
+        <location filename="../prefsubtitles.ui" line="603"/>
         <source>&amp;Text color:</source>
         <translation>テキストの色(&amp;T):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="592"/>
+        <location filename="../prefsubtitles.ui" line="645"/>
         <source>&amp;Border color:</source>
         <translation>枠の色(&amp;B):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="665"/>
+        <location filename="../prefsubtitles.ui" line="718"/>
         <source>St&amp;yles:</source>
         <translation>スタイル(&amp;Y):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="507"/>
         <source>SSA/ASS library</source>
-        <translation>SSA/ASS ライブラリ</translation>
+        <translation type="obsolete">SSA/ASS ライブラリ</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="298"/>
+        <source>Default scale for normal subtitles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="300"/>
+        <source>This option specifies the default font scale for normal (white) subtitles which will be used for new videos.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="302"/>
+        <source>Default scale for SSA/ASS subtitles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="304"/>
+        <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new videos.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="471"/>
+        <source>Default s&amp;cale for normal subtitles:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="484"/>
+        <source>Default sc&amp;ale for SSA/ASS subtitles:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="560"/>
+        <source>SSA/ASS &amp;library</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

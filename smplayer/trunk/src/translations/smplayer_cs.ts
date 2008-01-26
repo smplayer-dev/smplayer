@@ -1382,42 +1382,42 @@ Bude zobrazeno konfigurační okno.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1914"/>
+        <location filename="../core.cpp" line="1907"/>
         <source>Brightness: %1</source>
         <translation>Jas: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1923"/>
+        <location filename="../core.cpp" line="1916"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1931"/>
+        <location filename="../core.cpp" line="1924"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1939"/>
+        <location filename="../core.cpp" line="1932"/>
         <source>Hue: %1</source>
         <translation>Odstín: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1947"/>
+        <location filename="../core.cpp" line="1940"/>
         <source>Saturation: %1</source>
         <translation>Saturace: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2066"/>
+        <location filename="../core.cpp" line="2059"/>
         <source>Volume: %1</source>
         <translation>Hlasitost: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2688"/>
+        <location filename="../core.cpp" line="2693"/>
         <source>Zoom: %1</source>
         <translation>Přiblížení: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2179"/>
+        <location filename="../core.cpp" line="2178"/>
         <source>Font scale: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4023,17 +4023,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefSubtitles</name>
     <message>
-        <location filename="../prefsubtitles.cpp" line="50"/>
+        <location filename="../prefsubtitles.cpp" line="46"/>
         <source>Subtitles</source>
         <translation>Titulky</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="275"/>
+        <location filename="../prefsubtitles.cpp" line="263"/>
         <source>Choose a ttf file</source>
         <translation>Vybrat TTF soubor</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="277"/>
+        <location filename="../prefsubtitles.cpp" line="265"/>
         <source>Truetype Fonts</source>
         <translation>Písma TrueType</translation>
     </message>
@@ -4073,22 +4073,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Výchozí kódování titulků:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="259"/>
+        <location filename="../prefsubtitles.ui" line="168"/>
         <source>Position</source>
         <translation>Pozice</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="319"/>
+        <location filename="../prefsubtitles.ui" line="228"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="339"/>
+        <location filename="../prefsubtitles.ui" line="248"/>
         <source>Top</source>
         <translation>Nahoře</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="365"/>
+        <location filename="../prefsubtitles.ui" line="274"/>
         <source>Bottom</source>
         <translation>Dole</translation>
     </message>
@@ -4098,12 +4098,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Snímky včetně titulků</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="411"/>
+        <location filename="../prefsubtitles.ui" line="313"/>
         <source>&amp;Font</source>
         <translation>&amp;Písmo</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="423"/>
+        <location filename="../prefsubtitles.ui" line="325"/>
         <source>Font</source>
         <translation>Písmo</translation>
     </message>
@@ -4123,12 +4123,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Systémový font:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="479"/>
+        <location filename="../prefsubtitles.ui" line="381"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
         <translation>Výběr fontu který bude použit pro titulky (a OSD):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="168"/>
+        <location filename="../prefsubtitles.ui" line="409"/>
         <source>Size</source>
         <translation>Velikost</translation>
     </message>
@@ -4138,22 +4138,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Automatické měřítko:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="194"/>
+        <location filename="../prefsubtitles.ui" line="422"/>
         <source>No autoscale</source>
         <translation>Bez automatického měřítka</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="199"/>
+        <location filename="../prefsubtitles.ui" line="427"/>
         <source>Proportional to movie height</source>
         <translation>Proporcionálně k výšce videa</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="204"/>
+        <location filename="../prefsubtitles.ui" line="432"/>
         <source>Proportional to movie width</source>
         <translation>Proporcionálně k šířce videa</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="209"/>
+        <location filename="../prefsubtitles.ui" line="437"/>
         <source>Proportional to movie diagonal</source>
         <translation>Proporcionálně k úhlopříčce videa</translation>
     </message>
@@ -4168,7 +4168,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Knihovna SSA/&amp;ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="519"/>
+        <location filename="../prefsubtitles.ui" line="572"/>
         <source>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</source>
         <translation>Nová SSA/ASS knihovna poskytuje pěkný styl titulků pro externí SSA/ASS soubory titulků a Matroska stopy. Bude také ovšem použita pro zobrazování ostatních formátů souborů jako SUB a SRT.</translation>
     </message>
@@ -4188,22 +4188,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Barva pozadí:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="641"/>
+        <location filename="../prefsubtitles.ui" line="694"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
         <translation>Zde můžete přepsat styly pro SSA/ASS titulky. Také to může být použito pro doladění zobrazování titulků SRT a SUB s SSA/ASS knihovnou. Příklad: &lt;b&gt;Tlusté=1,Podtržené=2,Stínované=4&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="305"/>
+        <location filename="../prefsubtitles.cpp" line="293"/>
         <source>Subtitle position</source>
         <translation>Pozice titulků</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="308"/>
+        <location filename="../prefsubtitles.cpp" line="296"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
         <translation>Tato možnost specifikuje pozici titulků na okně s videem. Hodnota &lt;i&gt;100&lt;/i&gt; je dole a hodnota &lt;i&gt;0&lt;/i&gt; je nahoře.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="310"/>
+        <location filename="../prefsubtitles.cpp" line="306"/>
         <source>SSA/ASS styles</source>
         <translation>Styly SSA/ASS</translation>
     </message>
@@ -4223,68 +4223,98 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Výchozí kó&amp;dování titulků:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="271"/>
+        <location filename="../prefsubtitles.ui" line="180"/>
         <source>Default &amp;position of the subtitles on screen</source>
         <translation>Výchozí &amp;pozice titulků na obrazovce</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="380"/>
+        <location filename="../prefsubtitles.ui" line="289"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>Př&amp;ipojit titulky na snímcích obrazovky</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="387"/>
         <source>&amp;Use -subfont option (required by recent MPlayer releases)</source>
-        <translation>&amp;Použít parametr -subfont (vyžadováno současnými verzemi MPlayeru)</translation>
+        <translation type="obsolete">&amp;Použít parametr -subfont (vyžadováno současnými verzemi MPlayeru)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="435"/>
+        <location filename="../prefsubtitles.ui" line="337"/>
         <source>&amp;TTF font:</source>
         <translation>Písmo &amp;TTF:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="452"/>
+        <location filename="../prefsubtitles.ui" line="354"/>
         <source>Sea&amp;rch...</source>
         <translation>Hled&amp;at...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="472"/>
+        <location filename="../prefsubtitles.ui" line="374"/>
         <source>S&amp;ystem font:</source>
         <translation>S&amp;ystémové písmo:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="180"/>
+        <location filename="../prefsubtitles.ui" line="458"/>
         <source>A&amp;utoscale:</source>
         <translation>A&amp;utomatické měřítko:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="233"/>
         <source>S&amp;cale:</source>
-        <translation>Měří&amp;tko:</translation>
+        <translation type="obsolete">Měří&amp;tko:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="532"/>
+        <location filename="../prefsubtitles.ui" line="585"/>
         <source>&amp;Use SSA/ASS library for subtitle rendering</source>
         <translation>Po&amp;užít SSA/ASS knihovnu pro zobrazení titulků</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="550"/>
+        <location filename="../prefsubtitles.ui" line="603"/>
         <source>&amp;Text color:</source>
         <translation>Barva &amp;textu:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="592"/>
+        <location filename="../prefsubtitles.ui" line="645"/>
         <source>&amp;Border color:</source>
         <translation>&amp;Barva okrajů:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="665"/>
+        <location filename="../prefsubtitles.ui" line="718"/>
         <source>St&amp;yles:</source>
         <translation>St&amp;yly:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="507"/>
-        <source>SSA/ASS library</source>
+        <location filename="../prefsubtitles.cpp" line="298"/>
+        <source>Default scale for normal subtitles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="300"/>
+        <source>This option specifies the default font scale for normal (white) subtitles which will be used for new videos.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="302"/>
+        <source>Default scale for SSA/ASS subtitles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="304"/>
+        <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new videos.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="471"/>
+        <source>Default s&amp;cale for normal subtitles:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="484"/>
+        <source>Default sc&amp;ale for SSA/ASS subtitles:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="560"/>
+        <source>SSA/ASS &amp;library</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

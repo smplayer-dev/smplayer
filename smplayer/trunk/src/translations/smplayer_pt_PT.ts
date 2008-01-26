@@ -1357,42 +1357,42 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1914"/>
+        <location filename="../core.cpp" line="1907"/>
         <source>Brightness: %1</source>
         <translation>Brilho: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1923"/>
+        <location filename="../core.cpp" line="1916"/>
         <source>Contrast: %1</source>
         <translation>Contraste: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1931"/>
+        <location filename="../core.cpp" line="1924"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1939"/>
+        <location filename="../core.cpp" line="1932"/>
         <source>Hue: %1</source>
         <translation>Tonalidade: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1947"/>
+        <location filename="../core.cpp" line="1940"/>
         <source>Saturation: %1</source>
         <translation>Saturação: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2066"/>
+        <location filename="../core.cpp" line="2059"/>
         <source>Volume: %1</source>
         <translation>Volume: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2688"/>
+        <location filename="../core.cpp" line="2693"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2179"/>
+        <location filename="../core.cpp" line="2178"/>
         <source>Font scale: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3998,17 +3998,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefSubtitles</name>
     <message>
-        <location filename="../prefsubtitles.cpp" line="50"/>
+        <location filename="../prefsubtitles.cpp" line="46"/>
         <source>Subtitles</source>
         <translation type="unfinished">Legendas</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="275"/>
+        <location filename="../prefsubtitles.cpp" line="263"/>
         <source>Choose a ttf file</source>
         <translation type="unfinished">Escolha um ficheiro ttf</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="277"/>
+        <location filename="../prefsubtitles.cpp" line="265"/>
         <source>Truetype Fonts</source>
         <translation type="unfinished">Tipos de Letra Truetype</translation>
     </message>
@@ -4053,7 +4053,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Codificação por defeito das legendas:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="259"/>
+        <location filename="../prefsubtitles.ui" line="168"/>
         <source>Position</source>
         <translation type="unfinished">Posição</translation>
     </message>
@@ -4063,17 +4063,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Posição por defeito das legendas no ecrã</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="319"/>
+        <location filename="../prefsubtitles.ui" line="228"/>
         <source>0</source>
         <translation type="unfinished">0</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="339"/>
+        <location filename="../prefsubtitles.ui" line="248"/>
         <source>Top</source>
         <translation type="unfinished">Topo</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="365"/>
+        <location filename="../prefsubtitles.ui" line="274"/>
         <source>Bottom</source>
         <translation type="unfinished">Fundo</translation>
     </message>
@@ -4088,12 +4088,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Utilizar opção -subfont (necessária nas versões mais recentes do MPlayer)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="411"/>
+        <location filename="../prefsubtitles.ui" line="313"/>
         <source>&amp;Font</source>
         <translation type="unfinished">&amp;Tipo de letra</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="423"/>
+        <location filename="../prefsubtitles.ui" line="325"/>
         <source>Font</source>
         <translation type="unfinished">Tipo de Letra</translation>
     </message>
@@ -4113,12 +4113,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Tipo de letra do sistema:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="479"/>
+        <location filename="../prefsubtitles.ui" line="381"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
         <translation type="unfinished">Seleccione o tipo de letra a usar em legendas (e OSD):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="168"/>
+        <location filename="../prefsubtitles.ui" line="409"/>
         <source>Size</source>
         <translation type="unfinished">Tamanho</translation>
     </message>
@@ -4128,22 +4128,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Auto-escala:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="194"/>
+        <location filename="../prefsubtitles.ui" line="422"/>
         <source>No autoscale</source>
         <translation type="unfinished">Sem auto-escala</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="199"/>
+        <location filename="../prefsubtitles.ui" line="427"/>
         <source>Proportional to movie height</source>
         <translation type="unfinished">Proporcional à altura do filme</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="204"/>
+        <location filename="../prefsubtitles.ui" line="432"/>
         <source>Proportional to movie width</source>
         <translation type="unfinished">Proporcional à largura do filme</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="209"/>
+        <location filename="../prefsubtitles.ui" line="437"/>
         <source>Proportional to movie diagonal</source>
         <translation type="unfinished">Proporcional à diagonal do filme</translation>
     </message>
@@ -4158,7 +4158,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Biblioteca SSA/&amp;ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="519"/>
+        <location filename="../prefsubtitles.ui" line="572"/>
         <source>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</source>
         <translation type="unfinished">A nova bliblioteca SSA/ASS vai disponibilizar legendas mais vistosas para ficheiros SSA/ASS e pistas Matroska. Também será utilizada para mostrar legendas em outros formatos, como ficheiros SUB e SRT.</translation>
     </message>
@@ -4178,7 +4178,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Cor do limite:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="641"/>
+        <location filename="../prefsubtitles.ui" line="694"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
         <translation type="unfinished">Aqui pode alterar estilos para legendas SSA/ASS. Também pode ajustar a forma como a biblioteca SSA/ASS cria as legendas a partir de ficheiros srt e sub. Exemplo: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</translation>
     </message>
@@ -4188,17 +4188,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Estilos:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="305"/>
+        <location filename="../prefsubtitles.cpp" line="293"/>
         <source>Subtitle position</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="308"/>
+        <location filename="../prefsubtitles.cpp" line="296"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
         <translation type="unfinished">Esta opção especifica a posição das legendas sobre a janela de vídeo. &lt;i&gt;100&lt;/i&gt; é o fundo, enquanto &lt;i&gt;0&lt;/i&gt; é o topo.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="310"/>
+        <location filename="../prefsubtitles.cpp" line="306"/>
         <source>SSA/ASS styles</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4218,68 +4218,88 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="271"/>
+        <location filename="../prefsubtitles.ui" line="180"/>
         <source>Default &amp;position of the subtitles on screen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="380"/>
+        <location filename="../prefsubtitles.ui" line="289"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="387"/>
-        <source>&amp;Use -subfont option (required by recent MPlayer releases)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="435"/>
+        <location filename="../prefsubtitles.ui" line="337"/>
         <source>&amp;TTF font:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="452"/>
+        <location filename="../prefsubtitles.ui" line="354"/>
         <source>Sea&amp;rch...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="472"/>
+        <location filename="../prefsubtitles.ui" line="374"/>
         <source>S&amp;ystem font:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="180"/>
+        <location filename="../prefsubtitles.ui" line="458"/>
         <source>A&amp;utoscale:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="233"/>
-        <source>S&amp;cale:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="532"/>
+        <location filename="../prefsubtitles.ui" line="585"/>
         <source>&amp;Use SSA/ASS library for subtitle rendering</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="550"/>
+        <location filename="../prefsubtitles.ui" line="603"/>
         <source>&amp;Text color:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="592"/>
+        <location filename="../prefsubtitles.ui" line="645"/>
         <source>&amp;Border color:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="665"/>
+        <location filename="../prefsubtitles.ui" line="718"/>
         <source>St&amp;yles:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="507"/>
-        <source>SSA/ASS library</source>
+        <location filename="../prefsubtitles.cpp" line="298"/>
+        <source>Default scale for normal subtitles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="300"/>
+        <source>This option specifies the default font scale for normal (white) subtitles which will be used for new videos.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="302"/>
+        <source>Default scale for SSA/ASS subtitles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="304"/>
+        <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new videos.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="471"/>
+        <source>Default s&amp;cale for normal subtitles:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="484"/>
+        <source>Default sc&amp;ale for SSA/ASS subtitles:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="560"/>
+        <source>SSA/ASS &amp;library</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
