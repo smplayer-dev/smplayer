@@ -78,6 +78,7 @@ void PrefSubtitles::setData(Preferences * pref) {
 	setUseFontconfig( pref->use_fontconfig );
 	setFontAutoscale( pref->font_autoscale );
 	setFontTextscale( pref->initial_sub_scale );
+	setAssFontScale( pref->initial_sub_scale_ass );
 	setAutoloadSub( pref->autoload_sub );
 	setFontFuzziness( pref->subfuzziness );
 	setFontEncoding( pref->subcp );
@@ -96,7 +97,8 @@ void PrefSubtitles::getData(Preferences * pref) {
 	TEST_AND_SET(pref->font_file, fontFile());
 	TEST_AND_SET(pref->use_fontconfig, useFontconfig());
 	TEST_AND_SET(pref->font_autoscale, fontAutoscale());
-	TEST_AND_SET(pref->initial_sub_scale, fontTextscale());
+	pref->initial_sub_scale = fontTextscale();
+	pref->initial_sub_scale_ass = assFontScale();
 	TEST_AND_SET(pref->autoload_sub, autoloadSub());
 	TEST_AND_SET(pref->subfuzziness, fontFuzziness());
 	TEST_AND_SET(pref->subcp, fontEncoding());
@@ -148,6 +150,14 @@ void PrefSubtitles::setFontTextscale(double n) {
 
 double PrefSubtitles::fontTextscale() {
 	return font_text_scale->value();
+}
+
+void PrefSubtitles::setAssFontScale(double n) {
+	ass_font_scale->setValue(n);
+}
+
+double PrefSubtitles::assFontScale() {
+	return ass_font_scale->value();
 }
 
 void PrefSubtitles::setAutoloadSub(bool v) {
@@ -284,6 +294,14 @@ void PrefSubtitles::createHelp() {
 		tr("This option specifies the position of the subtitles over the "
            "video window. <i>100</i> means the bottom, while <i>0</i> means "
            "the top." ) );
+
+	setWhatsThis(font_text_scale, tr("Default scale for normal subtitles"),
+		tr("This option specifies the default font scale for normal (white) "
+           "subtitles which will be used for new videos."));
+
+	setWhatsThis(ass_font_scale, tr("Default scale for SSA/ASS subtitles"),
+		tr("This option specifies the default font scale for SSA/ASS "
+           "subtitles which will be used for new videos."));
 
 	setWhatsThis(ass_styles_edit, tr("SSA/ASS styles"), 
 		tr("Here you can override styles for SSA/ASS subtitles. "

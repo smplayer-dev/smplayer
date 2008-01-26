@@ -60,6 +60,9 @@ protected:
 	void setFontTextscale(double n);
 	double fontTextscale();
 
+	void setAssFontScale(double n);
+	double assFontScale();
+
 	void setAutoloadSub(bool v);
 	bool autoloadSub();
 
