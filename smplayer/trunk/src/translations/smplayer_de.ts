@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -4460,37 +4461,37 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="298"/>
         <source>Default scale for normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Standard Skalierung für normale Untertitel</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="300"/>
         <source>This option specifies the default font scale for normal (white) subtitles which will be used for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Diese Option spezifiziert die Skalierung, der Standard Schriftart bei normalen (weißen) Untertiteln, welche bei neuen Videos angewendet wird.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="302"/>
         <source>Default scale for SSA/ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Standard Skalierung für SSA/ASS Untertitel</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="304"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Diese Option spezifiziert die Skalierung der Standard Schriftart, bei SSA/AAS Untertiteln, welche bei neuen Videos angewendet wird.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="471"/>
         <source>Default s&amp;cale for normal subtitles:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Standard Skalierung für normale Untertitel:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="484"/>
         <source>Default sc&amp;ale for SSA/ASS subtitles:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Standard Skalierung für SSA/ASS Untertitel:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="560"/>
         <source>SSA/ASS &amp;library</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;SSA/AAS Programmbibliothek</translation>
     </message>
 </context>
 <context>
