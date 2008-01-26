@@ -157,7 +157,7 @@ void PrefInterface::retranslateStrings() {
 		seek2->setIcon( Images::flippedIcon("forward1m") );
 		seek3->setIcon( Images::flippedIcon("forward10m") );
 	}
-	seek4->setIcon( Images::icon("mouse_small") );
+	seek4->setIcon( Images::icon("mouse", seek1->icon()->width()) );
 
 	// Language combo
 	int language_item = language_combo->currentIndex();
