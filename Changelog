@@ -2,6 +2,10 @@
 
 (2008-01-23)
  * Updated the FAQ.
+ * If changing the size of the normal (no -ass) subtitles requires to
+   restart mplayer (because using an old version or configured this way)
+   the size will increase or decrease in steps of 1, instead of 0.2, to
+   make the resize faster.
 
 (2008-01-24)
  * Using now the sub_scale slave command for -ass subtitles. This allows to

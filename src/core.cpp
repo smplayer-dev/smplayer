@@ -2134,9 +2134,8 @@ void Core::decSubPos() {
 }
 
 #if SCALE_ASS_SUBS
-void Core::changeSubScale(double value) {
-	qDebug("Core::changeSubScale: %f", value);
 
+bool Core::subscale_need_restart() {
 	bool need_restart = false;
 
 	need_restart = (pref->change_sub_scale_should_restart == Preferences::Enabled);
@@ -2146,6 +2145,13 @@ void Core::changeSubScale(double value) {
 		else
 			need_restart = (!proc->isMplayerAtLeast(23745));
 	}
+	return need_restart;
+}
+
+void Core::changeSubScale(double value) {
+	qDebug("Core::changeSubScale: %f", value);
+
+	bool need_restart = subscale_need_restart();
 
 	if (value < 0) value = 0;
 
@@ -2176,18 +2182,24 @@ void Core::changeSubScale(double value) {
 
 void Core::incSubScale() {
 	double step = 0.20;
-	if (pref->use_ass_subtitles) 
+
+	if (pref->use_ass_subtitles) {
 		changeSubScale( mset.sub_scale_ass + step );
-	else
+	} else {
+		if (subscale_need_restart()) step = 1;
 		changeSubScale( mset.sub_scale + step );
+	}
 }
 
 void Core::decSubScale() {
 	double step = 0.20;
-	if (pref->use_ass_subtitles) 
+
+	if (pref->use_ass_subtitles) {
 		changeSubScale( mset.sub_scale_ass - step );
-	else
+	} else {
+		if (subscale_need_restart()) step = 1;
 		changeSubScale( mset.sub_scale - step );
+	}
 }
 
 #else // SCALE_ASS_SUBS
