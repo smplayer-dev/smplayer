@@ -4482,37 +4482,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="298"/>
         <source>Default scale for normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Escala predeterminada para los subtítulos normales</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="300"/>
         <source>This option specifies the default font scale for normal (white) subtitles which will be used for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opción especifica la escala predeterminada para los subtítulos normales (blancos) que será usada al reproducir vídeos nuevos.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="302"/>
         <source>Default scale for SSA/ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Escala predeterminada para subtítulos SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="304"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opción especifica la escala predeterminada para los subtítulos SSA/ASS que será usada al reproducir vídeos nuevos.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="471"/>
         <source>Default s&amp;cale for normal subtitles:</source>
-        <translation type="unfinished"></translation>
+        <translation>Es&amp;cala predeterminada para los subtítulos normales:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="484"/>
         <source>Default sc&amp;ale for SSA/ASS subtitles:</source>
-        <translation type="unfinished"></translation>
+        <translation>Esc&amp;ala predeterminada para subtítulos SSA/ASS:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="560"/>
         <source>SSA/ASS &amp;library</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Librería SSA/ASS</translation>
     </message>
 </context>
 <context>
