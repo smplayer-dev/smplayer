@@ -1436,7 +1436,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="2178"/>
         <source>Font scale: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>フォント スケール: %1</translation>
     </message>
 </context>
 <context>
@@ -4287,7 +4287,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="422"/>
         <source>No autoscale</source>
-        <translation>自動縮尺なし</translation>
+        <translation>オートスケールなし</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="427"/>
@@ -4392,7 +4392,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="458"/>
         <source>A&amp;utoscale:</source>
-        <translation>自動縮尺(&amp;U):</translation>
+        <translation>オートスケール(&amp;U):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="233"/>
@@ -4427,37 +4427,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="298"/>
         <source>Default scale for normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>通常の字幕の既定のスケール</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="300"/>
         <source>This option specifies the default font scale for normal (white) subtitles which will be used for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションは新しいビデオに使用される通常 (白) の字幕の既定のフォント スケールを指定します。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="302"/>
         <source>Default scale for SSA/ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>SSA/ASS 字幕の既定のスケール</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="304"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションは新しいビデオに使用される SSA/ASS 字幕の既定のフォント スケールを指定します。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="471"/>
         <source>Default s&amp;cale for normal subtitles:</source>
-        <translation type="unfinished"></translation>
+        <translation>通常の字幕の既定のスケール(&amp;C):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="484"/>
         <source>Default sc&amp;ale for SSA/ASS subtitles:</source>
-        <translation type="unfinished"></translation>
+        <translation>SSA/ASS 字幕の既定のスケール(&amp;A):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="560"/>
         <source>SSA/ASS &amp;library</source>
-        <translation type="unfinished"></translation>
+        <translation>SSA/ASS ライブラリ(&amp;L)</translation>
     </message>
 </context>
 <context>
@@ -4598,7 +4598,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="152"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
-        <translation>別の起動がある場合、メディアは起動のプレイリストに追加されます。その他の起動がない場合、このオプションは無視されてフィルは新しい起動で開かれます。</translation>
+        <translation>別の起動がある場合、メディアは起動のプレイリストに追加されます。その他の起動がない場合、このオプションは無視されてファイルは新しい起動で開かれます。</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="170"/>
