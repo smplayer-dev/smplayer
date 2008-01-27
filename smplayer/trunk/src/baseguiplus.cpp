@@ -118,10 +118,14 @@ BaseGuiPlus::~BaseGuiPlus() {
 }
 
 bool BaseGuiPlus::startHidden() {
+#ifdef Q_OS_WIN
+	return false;
+#else
 	if ( (!showTrayAct->isChecked()) || (mainwindow_visible) ) 
 		return false;
 	else
 		return true;
+#endif
 }
 
 void BaseGuiPlus::closeEvent( QCloseEvent * e ) {

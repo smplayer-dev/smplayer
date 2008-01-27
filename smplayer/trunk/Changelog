@@ -6,6 +6,10 @@
    has the same size as the icons above.
  * Moved to old-txt some outdated txt files.
  * Updated Release_notes.txt, with the changes since version 0.5.62.
+ * Now under Windows, the main window will never start hidden even if the 
+   system tray icon is shown. This should fix bug #1851817.
+   On linux the behavior didn't change, as this is the way other applications
+   work.
 
 (2008-01-25)
  * Updated the FAQ.
