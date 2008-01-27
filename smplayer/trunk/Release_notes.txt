@@ -21,7 +21,7 @@ Most important changes since 0.5.62:
  * New icons for the default theme.
  * SSA/ASS subtitles can also be resized during playback. Requires at least 
    mplayer r25843.
- * Now it's possible to zoom out on the video image.
+ * Now it's possible to zoom out the video image.
  * New Help->About dialog.
  * New option Help->FAQ which will show the FAQ.
  * Bugfix: the colorkey is passed properly to mplayer.
