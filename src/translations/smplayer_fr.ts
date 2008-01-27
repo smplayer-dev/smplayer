@@ -2531,7 +2531,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefdrives.ui" line="41"/>
         <source>Currently SMPlayer does not autodetect cdrom or dvd devices. So in order to play cdroms or dvds you must first select here your cdrom and dvd drives (can be the same).</source>
-        <translation>Pour le moment, SMPlayer ne détecte pas encore automatiquement les lecteurs CD ou DVD. Vous devez donc indiquer ici vos lecteurs. (Peuvent être identique).</translation>
+        <translation type="obsolete">Pour le moment, SMPlayer ne détecte pas encore automatiquement les lecteurs CD ou DVD. Vous devez donc indiquer ici vos lecteurs. (Peuvent être identique).</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="157"/>
@@ -2577,6 +2577,11 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <location filename="../prefdrives.ui" line="175"/>
         <source>Select your &amp;DVD device:</source>
         <translation>Sélectionnez le lecteur &amp;DVD :</translation>
+    </message>
+    <message>
+        <location filename="../prefdrives.ui" line="41"/>
+        <source>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4272,22 +4277,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Echelle automatique :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="422"/>
+        <location filename="../prefsubtitles.ui" line="443"/>
         <source>No autoscale</source>
         <translation>Pas d&apos;échelle automatique</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="427"/>
+        <location filename="../prefsubtitles.ui" line="448"/>
         <source>Proportional to movie height</source>
         <translation>Proportionnel à la hauteur du film</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="432"/>
+        <location filename="../prefsubtitles.ui" line="453"/>
         <source>Proportional to movie width</source>
         <translation>Proportionnel à la largeur du film</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="437"/>
+        <location filename="../prefsubtitles.ui" line="458"/>
         <source>Proportional to movie diagonal</source>
         <translation>Proportionnel à la diagonale du film</translation>
     </message>
@@ -4302,7 +4307,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Bibliothèque SSA/&amp;ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="572"/>
+        <location filename="../prefsubtitles.ui" line="582"/>
         <source>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</source>
         <translation>La nouvelle bibliothèque SSA/ASS fournira des sous-titres stylés pour les fichiers externes de sous-titres SSA/ASS et les pistes Matroska. Mais elle sera aussi  utilisée pour d&apos;autres formats comme des fichiers SUB et SRT.</translation>
     </message>
@@ -4322,7 +4327,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Couleur de bordure :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="694"/>
+        <location filename="../prefsubtitles.ui" line="704"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
         <translation>Ici, vous pouvez outrepasser les styles pour les sous-titres SSA/ASS. Vous pouvez aussi l&apos;utiliser pour ajuster le rendu des sous-titres SRT et SUB par la bibliothèque SSA/ASS. Exemple : &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</translation>
     </message>
@@ -4392,7 +4397,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Police du s&amp;ystème :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="458"/>
+        <location filename="../prefsubtitles.ui" line="429"/>
         <source>A&amp;utoscale:</source>
         <translation>Echelle a&amp;utomatique :</translation>
     </message>
@@ -4402,22 +4407,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">E&amp;chelle :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="585"/>
+        <location filename="../prefsubtitles.ui" line="595"/>
         <source>&amp;Use SSA/ASS library for subtitle rendering</source>
         <translation>&amp;Utiliser SSA/AAS pour le rendu</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="603"/>
+        <location filename="../prefsubtitles.ui" line="613"/>
         <source>&amp;Text color:</source>
         <translation>Couleur du &amp;texte :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="645"/>
+        <location filename="../prefsubtitles.ui" line="655"/>
         <source>&amp;Border color:</source>
         <translation>Couleur de &amp;bordure :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="718"/>
+        <location filename="../prefsubtitles.ui" line="728"/>
         <source>St&amp;yles:</source>
         <translation>St&amp;yles :</translation>
     </message>
@@ -4447,17 +4452,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="471"/>
+        <location filename="../prefsubtitles.ui" line="540"/>
         <source>Default s&amp;cale for normal subtitles:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="484"/>
+        <location filename="../prefsubtitles.ui" line="527"/>
         <source>Default sc&amp;ale for SSA/ASS subtitles:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="560"/>
+        <location filename="../prefsubtitles.ui" line="570"/>
         <source>SSA/ASS &amp;library</source>
         <translation type="unfinished"></translation>
     </message>

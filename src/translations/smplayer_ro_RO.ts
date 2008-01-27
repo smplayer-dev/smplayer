@@ -2523,7 +2523,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefdrives.ui" line="41"/>
         <source>Currently SMPlayer does not autodetect cdrom or dvd devices. So in order to play cdroms or dvds you must first select here your cdrom and dvd drives (can be the same).</source>
-        <translation>În versiunea actuală SMPlayer nu detectează automat dispozitivele cdrom sau dvd.Pentru a putea reda cdromuri sau dvduri aici se pot selecta driverele pentru cdrom sau dvd (pot fi aceleași).</translation>
+        <translation type="obsolete">În versiunea actuală SMPlayer nu detectează automat dispozitivele cdrom sau dvd.Pentru a putea reda cdromuri sau dvduri aici se pot selecta driverele pentru cdrom sau dvd (pot fi aceleași).</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="157"/>
@@ -2569,6 +2569,11 @@ The drop-down lists may provide already made regular expression for several lang
         <location filename="../prefdrives.ui" line="175"/>
         <source>Select your &amp;DVD device:</source>
         <translation>Selectare dispozitiv redare &amp;DVD:</translation>
+    </message>
+    <message>
+        <location filename="../prefdrives.ui" line="41"/>
+        <source>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4263,22 +4268,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Autoscalare:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="422"/>
+        <location filename="../prefsubtitles.ui" line="443"/>
         <source>No autoscale</source>
         <translation>Fără autoscalare</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="427"/>
+        <location filename="../prefsubtitles.ui" line="448"/>
         <source>Proportional to movie height</source>
         <translation>Proporţională cu înălţimea filmului</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="432"/>
+        <location filename="../prefsubtitles.ui" line="453"/>
         <source>Proportional to movie width</source>
         <translation>Proporţională cu lăţimea filmului</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="437"/>
+        <location filename="../prefsubtitles.ui" line="458"/>
         <source>Proportional to movie diagonal</source>
         <translation>Proporţională cu diagonala filmului</translation>
     </message>
@@ -4293,7 +4298,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Bibliotecă SSA/&amp;ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="572"/>
+        <location filename="../prefsubtitles.ui" line="582"/>
         <source>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</source>
         <translation>Noua bibliotecă SSA/ASS va furniza stiluri mai frumoase pentru subtitrări pentru fişiere externe de subtitrări SSA/ASS şi Matroska. Dar va fi folosită de asemenea pentru randarea altor formate precum SUB şi SRT.</translation>
     </message>
@@ -4313,7 +4318,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Culoare chenar:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="694"/>
+        <location filename="../prefsubtitles.ui" line="704"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
         <translation>Aici se poate shimba stilul pentru subtitrările de tip SSA/ASS. Folosind această bibliotecă se pot face retuşări ale subtitrărilor de tip SUB şi SRT. Exemplu: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</translation>
     </message>
@@ -4383,7 +4388,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Caractere imp&amp;licite ale sistemului:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="458"/>
+        <location filename="../prefsubtitles.ui" line="429"/>
         <source>A&amp;utoscale:</source>
         <translation>A&amp;utoscalare:</translation>
     </message>
@@ -4393,22 +4398,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Di&amp;mensiune:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="585"/>
+        <location filename="../prefsubtitles.ui" line="595"/>
         <source>&amp;Use SSA/ASS library for subtitle rendering</source>
         <translation>Foloseşte biblioteca SSA/ASS pentru randarea s&amp;ubtitrării</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="603"/>
+        <location filename="../prefsubtitles.ui" line="613"/>
         <source>&amp;Text color:</source>
         <translation>Culoare &amp;text:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="645"/>
+        <location filename="../prefsubtitles.ui" line="655"/>
         <source>&amp;Border color:</source>
         <translation>Culoare c&amp;henar:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="718"/>
+        <location filename="../prefsubtitles.ui" line="728"/>
         <source>St&amp;yles:</source>
         <translation>St&amp;il:</translation>
     </message>
@@ -4438,17 +4443,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="471"/>
+        <location filename="../prefsubtitles.ui" line="540"/>
         <source>Default s&amp;cale for normal subtitles:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="484"/>
+        <location filename="../prefsubtitles.ui" line="527"/>
         <source>Default sc&amp;ale for SSA/ASS subtitles:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="560"/>
+        <location filename="../prefsubtitles.ui" line="570"/>
         <source>SSA/ASS &amp;library</source>
         <translation type="unfinished"></translation>
     </message>

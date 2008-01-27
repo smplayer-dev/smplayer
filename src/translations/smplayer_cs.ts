@@ -2499,7 +2499,7 @@ Vysouvací menu by mělo poskytnout standartní možnosti pro několik jazyků.<
     <message>
         <location filename="../prefdrives.ui" line="41"/>
         <source>Currently SMPlayer does not autodetect cdrom or dvd devices. So in order to play cdroms or dvds you must first select here your cdrom and dvd drives (can be the same).</source>
-        <translation>Momentálně SMPlayer neumí automaticky detekovat CD a DVD mechaniky. Pokud budete přehrávat z CD nebo DVD mechaniky, musíte je zde nastavit (mohou být stejné).</translation>
+        <translation type="obsolete">Momentálně SMPlayer neumí automaticky detekovat CD a DVD mechaniky. Pokud budete přehrávat z CD nebo DVD mechaniky, musíte je zde nastavit (mohou být stejné).</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="157"/>
@@ -2545,6 +2545,11 @@ Vysouvací menu by mělo poskytnout standartní možnosti pro několik jazyků.<
         <location filename="../prefdrives.ui" line="175"/>
         <source>Select your &amp;DVD device:</source>
         <translation>Zvolte Vaši &amp;DVD mechaniku:</translation>
+    </message>
+    <message>
+        <location filename="../prefdrives.ui" line="41"/>
+        <source>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4138,22 +4143,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Automatické měřítko:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="422"/>
+        <location filename="../prefsubtitles.ui" line="443"/>
         <source>No autoscale</source>
         <translation>Bez automatického měřítka</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="427"/>
+        <location filename="../prefsubtitles.ui" line="448"/>
         <source>Proportional to movie height</source>
         <translation>Proporcionálně k výšce videa</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="432"/>
+        <location filename="../prefsubtitles.ui" line="453"/>
         <source>Proportional to movie width</source>
         <translation>Proporcionálně k šířce videa</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="437"/>
+        <location filename="../prefsubtitles.ui" line="458"/>
         <source>Proportional to movie diagonal</source>
         <translation>Proporcionálně k úhlopříčce videa</translation>
     </message>
@@ -4168,7 +4173,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Knihovna SSA/&amp;ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="572"/>
+        <location filename="../prefsubtitles.ui" line="582"/>
         <source>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</source>
         <translation>Nová SSA/ASS knihovna poskytuje pěkný styl titulků pro externí SSA/ASS soubory titulků a Matroska stopy. Bude také ovšem použita pro zobrazování ostatních formátů souborů jako SUB a SRT.</translation>
     </message>
@@ -4188,7 +4193,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Barva pozadí:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="694"/>
+        <location filename="../prefsubtitles.ui" line="704"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
         <translation>Zde můžete přepsat styly pro SSA/ASS titulky. Také to může být použito pro doladění zobrazování titulků SRT a SUB s SSA/ASS knihovnou. Příklad: &lt;b&gt;Tlusté=1,Podtržené=2,Stínované=4&lt;/b&gt;</translation>
     </message>
@@ -4253,7 +4258,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>S&amp;ystémové písmo:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="458"/>
+        <location filename="../prefsubtitles.ui" line="429"/>
         <source>A&amp;utoscale:</source>
         <translation>A&amp;utomatické měřítko:</translation>
     </message>
@@ -4263,22 +4268,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Měří&amp;tko:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="585"/>
+        <location filename="../prefsubtitles.ui" line="595"/>
         <source>&amp;Use SSA/ASS library for subtitle rendering</source>
         <translation>Po&amp;užít SSA/ASS knihovnu pro zobrazení titulků</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="603"/>
+        <location filename="../prefsubtitles.ui" line="613"/>
         <source>&amp;Text color:</source>
         <translation>Barva &amp;textu:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="645"/>
+        <location filename="../prefsubtitles.ui" line="655"/>
         <source>&amp;Border color:</source>
         <translation>&amp;Barva okrajů:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="718"/>
+        <location filename="../prefsubtitles.ui" line="728"/>
         <source>St&amp;yles:</source>
         <translation>St&amp;yly:</translation>
     </message>
@@ -4303,17 +4308,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="471"/>
+        <location filename="../prefsubtitles.ui" line="540"/>
         <source>Default s&amp;cale for normal subtitles:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="484"/>
+        <location filename="../prefsubtitles.ui" line="527"/>
         <source>Default sc&amp;ale for SSA/ASS subtitles:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="560"/>
+        <location filename="../prefsubtitles.ui" line="570"/>
         <source>SSA/ASS &amp;library</source>
         <translation type="unfinished"></translation>
     </message>
