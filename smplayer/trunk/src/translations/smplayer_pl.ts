@@ -3,6 +3,7 @@
 <defaultcodec></defaultcodec>
 <context>
     <name>About</name>
+    
     <message>
         <location filename="../about.cpp" line="47"/>
         <source>Version: %1</source>
