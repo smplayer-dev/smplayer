@@ -1,0 +1,27 @@
+Most important changes since 0.5.62:
+
+ * Added support for pls playlist files.
+ * Better accuracy on subtitle selection. Fixes problems with mp4 embedded 
+   subtitles. Requires mplayer svn r25158 or above.
+ * Now the screensaver and powersave on Windows is really turned off, even on
+   Windows Vista.
+ * The cache setting is independent for each type of media.
+ * Added an option which allows to fix the problem of loud volume on startup
+   (requires a patched mplayer).
+ * (Windows) The file associations code has been improved. Now it should work
+   better in Windows Vista as well as other versions of Windows.
+ * New option Video->Add black borders, which replaces the letterbox options 
+   in Video->Aspect ratio.
+ * (Windows) Work-around for a mplayer bug: now filenames with characters 
+   outside the local codepage can be opened, by passing to mplayer the short 
+   version of the filename. This can be enabled in Preferences->Advanced.
+ * Now the H.264 loop filter can be disabled for High Definition videos only
+   (720p and above).
+ * Possibility to update the video while dragging the time slider.
+ * New icons for the default theme.
+ * SSA/ASS subtitles can also be resized during playback. Requires at least 
+   mplayer r25843.
+ * Now it's possible to zoom out on the video image.
+ * New Help->About dialog.
+ * New option Help->FAQ which will show the FAQ.
+ * Bugfix: the colorkey is passed properly to mplayer.

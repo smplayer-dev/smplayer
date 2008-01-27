@@ -4,6 +4,8 @@
  * Now it's possible to zoom out on the video image.
  * Cosmetic change: now the mouse icon in Preferences->Interface->Seeking
    has the same size as the icons above.
+ * Moved to old-txt some outdated txt files.
+ * Updated Release_notes.txt, with the changes since version 0.5.62.
 
 (2008-01-25)
  * Updated the FAQ.
