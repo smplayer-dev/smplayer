@@ -2591,7 +2591,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefdrives.ui" line="41"/>
         <source>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer no escoge ninguna unidad de CDROM o DVD por defecto. Por tanto antes de que puedas reproducir un CD o DVD debes seleccionar las unidades que deseas usar (pueden ser la misma).</translation>
     </message>
 </context>
 <context>
