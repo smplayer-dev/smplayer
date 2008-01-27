@@ -38,7 +38,7 @@
        <item>
         <widget class="QLabel" name="textLabel2_5" >
          <property name="text" >
-          <string>Currently SMPlayer does not autodetect cdrom or dvd devices. So in order to play cdroms or dvds you must first select here your cdrom and dvd drives (can be the same).</string>
+          <string>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</string>
          </property>
          <property name="alignment" >
           <set>Qt::AlignVCenter</set>
