@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -2601,7 +2602,7 @@ Um CDs oder DVDs abzupielen, müßen die Laufwerke vorher bestimmt werden
     <message>
         <location filename="../prefdrives.ui" line="41"/>
         <source>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer wählt kein CDROM, oder DVD Lauwerk als Standard aus. Bevor eine Wiedergabe erfolgt, müssen die Laufwerke bestimmt werden (können beides die gleichen sein).</translation>
     </message>
 </context>
 <context>
