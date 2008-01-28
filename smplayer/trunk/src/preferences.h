@@ -275,7 +275,8 @@ public:
 	bool use_short_pathnames; 
 
 	//! Latest version of mplayer parsed
-	int mplayer_version;
+	int mplayer_detected_version;
+	int mplayer_forced_version;
 };
 
 #endif
