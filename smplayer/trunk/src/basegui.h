@@ -183,6 +183,10 @@ protected slots:
 	virtual void remoteOpenFiles(QStringList files);
 	virtual void remoteAddFiles(QStringList files);
 
+	//! Called when core can't parse the mplayer version and there's no
+	//! version supplied by the user
+	void askForMplayerVersion(QString);
+
 	// stylesheet
 	virtual void loadQss(QString filename);
 	virtual void changeStyleSheet(QString style);

@@ -281,6 +281,9 @@ signals:
 	void noVideo();
 	void volumeChanged(int);
 
+	// Resend signal from mplayerprocess:
+	void failedToParseMplayerVersion(QString line_with_mplayer_version);
+
 protected:
     MplayerProcess * proc;
     MplayerWindow * mplayerwindow;

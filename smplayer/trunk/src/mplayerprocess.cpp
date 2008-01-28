@@ -247,6 +247,10 @@ void MplayerProcess::parseLine(QByteArray ba) {
 		if ( (mplayer_svn == -1) && (line.startsWith("MPlayer ")) ) {
 			mplayer_svn = MplayerVersion::mplayerVersion(line);
 			qDebug("MplayerProcess::parseLine: MPlayer SVN: %d", mplayer_svn);
+			if (mplayer_svn <= 0) {
+				qWarning("MplayerProcess::parseLine: couldn't parse mplayer version!");
+				emit failedToParseMplayerVersion(line);
+			}
 		}
 
 		// Subtitles

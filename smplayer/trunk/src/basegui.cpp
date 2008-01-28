@@ -53,6 +53,7 @@
 #include "eqslider.h"
 #include "videoequalizer.h"
 #include "inputdvddirectory.h"
+#include "inputmplayerversion.h"
 #include "inputurl.h"
 #include "recents.h"
 #include "about.h"
@@ -1333,6 +1334,9 @@ void BaseGui::createCore() {
              this, SLOT(newMediaLoaded()) );
 	connect( core, SIGNAL(mediaInfoChanged()),
              this, SLOT(updateMediaInfo()) );
+
+	connect( core, SIGNAL(failedToParseMplayerVersion(QString)),
+             this, SLOT(askForMplayerVersion(QString)) );
 
 	// Hide mplayer window
 	connect( core, SIGNAL(noVideo()),
@@ -3359,6 +3363,22 @@ void BaseGui::hideEvent( QHideEvent * ) {
 	if ((pref->pause_when_hidden) && (core->state() == Core::Playing)) {
 		qDebug("BaseGui::hideEvent: pausing");
 		core->pause();
+	}
+}
+
+void BaseGui::askForMplayerVersion(QString line) {
+	qDebug("BaseGui::askForMplayerVersion: %s", line.toUtf8().data());
+
+	if (pref->mplayer_user_supplied_version <= 0) {
+		InputMplayerVersion d(this);
+		d.setVersion( pref->mplayer_user_supplied_version );
+		d.setVersionFromOutput(line);
+		if (d.exec() == QDialog::Accepted) {
+			pref->mplayer_user_supplied_version = d.version();
+			qDebug("BaseGui::askForMplayerVersion: user supplied version: %d", pref->mplayer_user_supplied_version);
+		}
+	} else {
+		qDebug("BaseGui::askForMplayerVersion: already have a version supplied by user, so no asking");
 	}
 }
 

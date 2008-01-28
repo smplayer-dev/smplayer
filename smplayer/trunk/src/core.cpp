@@ -119,6 +119,9 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	connect( proc, SIGNAL(receivedStreamTitleAndUrl(QString,QString)),
              this, SLOT(streamTitleAndUrlChanged(QString,QString)) );
 
+	connect( proc, SIGNAL(failedToParseMplayerVersion(QString)),
+             this, SIGNAL(failedToParseMplayerVersion(QString)) );
+
 	connect( this, SIGNAL(mediaLoaded()), this, SLOT(autosaveMplayerLog()) );
 	connect( this, SIGNAL(mediaLoaded()), this, SLOT(checkIfVideoIsHD()) );
 	
