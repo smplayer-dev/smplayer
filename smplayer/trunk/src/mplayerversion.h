@@ -21,6 +21,9 @@
 
 #include <QString>
 
+#define MPLAYER_1_0_RC1_SVN 20372
+#define MPLAYER_1_0_RC2_SVN 24722
+
 class MplayerVersion {
 public:
 

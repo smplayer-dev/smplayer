@@ -46,9 +46,9 @@ int MplayerVersion::mplayerVersion(QString string) {
 		QString version = rx_mplayer_version.cap(1);
 		qDebug("MplayerVersion::mplayerVersion: MPlayer version found: %s", version.toUtf8().data());
 		mplayer_svn = 0;
-		if (version == "1.0rc2") mplayer_svn = 24722;
+		if (version == "1.0rc2") mplayer_svn = MPLAYER_1_0_RC2_SVN;
 		else
-		if (version == "1.0rc1") mplayer_svn = 20372;
+		if (version == "1.0rc1") mplayer_svn = MPLAYER_1_0_RC1_SVN;
 		else qWarning("MplayerVersion::mplayerVersion: unknown MPlayer version");
 	}
 
@@ -79,8 +79,22 @@ bool MplayerVersion::isMplayerAtLeast(int mplayer_svn, int svn_revision) {
 }
 
 bool MplayerVersion::isMplayerAtLeast(int svn_revision) {
-	if (pref->mplayer_forced_version != -1) 
-		return isMplayerAtLeast(pref->mplayer_forced_version, svn_revision);
-	else
+	if (pref->mplayer_detected_version >= MPLAYER_1_0_RC1_SVN) {
+		// SVN version seems valid
+		if (pref->mplayer_user_supplied_version != -1) {
+			qDebug("MplayerVersion::isMplayerAtLeast: using the parsed svn version from mplayer output");
+			qDebug("MplayerVersion::isMplayerAtLeast: and clearing the previously user supplied version");
+			pref->mplayer_user_supplied_version = -1;
+		}
 		return isMplayerAtLeast(pref->mplayer_detected_version, svn_revision);
+	} 
+	else 
+	if (pref->mplayer_user_supplied_version != -1) {
+		qDebug("MplayerVersion::isMplayerAtLeast: no parsed version, using user supplied version");
+		return isMplayerAtLeast(pref->mplayer_user_supplied_version, svn_revision);
+	}
+	else {
+		qWarning("MplayerVersion::isMplayerAtLeast: there's no parsed version nor user supplied version!");
+		return isMplayerAtLeast(pref->mplayer_detected_version, svn_revision);
+	}
 }

@@ -276,7 +276,10 @@ public:
 
 	//! Latest version of mplayer parsed
 	int mplayer_detected_version;
-	int mplayer_forced_version;
+
+	//! Version of mplayer supplied by the user which will be used if
+	//! the version can't be parsed from mplayer output
+	int mplayer_user_supplied_version;
 };
 
 #endif
