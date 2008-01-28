@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -2520,7 +2521,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefdrives.ui" line="41"/>
         <source>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer не выбирает устройства CDROM или DVD по умолчанию. Поэтому чтобы воспроизводить CD или DVD, выберите устройства, которые вы хотите использовать (они могут быть одним и тем же устройством).</translation>
     </message>
 </context>
 <context>
@@ -4156,37 +4157,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="298"/>
         <source>Default scale for normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Размер по умолчанию для нормальных субтитров</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="300"/>
         <source>This option specifies the default font scale for normal (white) subtitles which will be used for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Эта настройка определяет размер шрифта для нормальных (белых) субтиров, который будет использоваться для новых видеофайлов.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="302"/>
         <source>Default scale for SSA/ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Размер по умолчанию для субтитров SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="304"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Эта настройка определяет размер шрифта для субтиров SSA/ASS, который будет использоваться для новых видеофайлов.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="540"/>
         <source>Default s&amp;cale for normal subtitles:</source>
-        <translation type="unfinished"></translation>
+        <translation>Разм&amp;ер по умолчанию для нормальных субтитров:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="527"/>
         <source>Default sc&amp;ale for SSA/ASS subtitles:</source>
-        <translation type="unfinished"></translation>
+        <translation>Разме&amp;р по умолчанию для субтитров SSA/ASS:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="570"/>
         <source>SSA/ASS &amp;library</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Библиотека SSA/ASS</translation>
     </message>
 </context>
 <context>
