@@ -61,6 +61,8 @@ signals:
 
 	void receivedStreamTitleAndUrl(QString,QString);
 
+	void failedToParseMplayerVersion(QString line_with_mplayer_version);
+
 protected slots:
 	void parseLine(QByteArray ba);
 	void processFinished();
