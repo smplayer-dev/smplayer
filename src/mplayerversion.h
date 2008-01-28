@@ -30,6 +30,8 @@ public:
 
 	//! Returns true if svn_revision is equal or greater than mplayer_svn
 	static bool isMplayerAtLeast(int mplayer_svn, int svn_revision);
+
+	static bool isMplayerAtLeast(int svn_revision);
 };
 
 #endif

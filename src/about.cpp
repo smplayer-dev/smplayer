@@ -38,8 +38,8 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 	license_icon->setPixmap( Images::icon("license" ) );
 
 	QString mplayer_version;
-	if (pref->mplayer_version > 0) {
-		mplayer_version = tr("Using MPlayer SVN r%1").arg(pref->mplayer_version) + "<br><br>";
+	if (pref->mplayer_detected_version > 0) {
+		mplayer_version = tr("Using MPlayer SVN r%1").arg(pref->mplayer_detected_version) + "<br><br>";
 	}
 
 	info->setText( 

@@ -38,9 +38,6 @@ public:
 
 	MediaData mediaData() { return md; };
 
-	int mplayerVersion() { return mplayer_svn; };
-	bool isMplayerAtLeast(int svn_revision);
-
 signals:
 	void processExited();
 	void lineAvailable(QString line);

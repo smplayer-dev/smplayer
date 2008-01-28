@@ -47,10 +47,6 @@ MplayerProcess::MplayerProcess(QObject * parent) : MyProcess(parent)
 MplayerProcess::~MplayerProcess() {
 }
 
-bool MplayerProcess::isMplayerAtLeast(int svn_revision) {
-	return MplayerVersion::isMplayerAtLeast(mplayer_svn, svn_revision);
-}
-
 bool MplayerProcess::start() {
 	init_rx(); // Update configurable regular expressions
 

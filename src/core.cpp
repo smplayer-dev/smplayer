@@ -1553,7 +1553,7 @@ void Core::startMplayer( QString file, double seek ) {
 
 	bool use_scaletempo = (pref->use_scaletempo == Preferences::Enabled);
 	if (pref->use_scaletempo == Preferences::Detect) {
-		use_scaletempo = MplayerVersion::isMplayerAtLeast(pref->mplayer_version, 24924);
+		use_scaletempo = (MplayerVersion::isMplayerAtLeast(24924));
 	}
 	if (use_scaletempo) {
 		if (!af.isEmpty()) af += ",";
@@ -2141,9 +2141,9 @@ bool Core::subscale_need_restart() {
 	need_restart = (pref->change_sub_scale_should_restart == Preferences::Enabled);
 	if (pref->change_sub_scale_should_restart == Preferences::Detect) {
 		if (pref->use_ass_subtitles) 
-			need_restart = (!proc->isMplayerAtLeast(25843));
+			need_restart = (!MplayerVersion::isMplayerAtLeast(25843));
 		else
-			need_restart = (!proc->isMplayerAtLeast(23745));
+			need_restart = (!MplayerVersion::isMplayerAtLeast(23745));
 	}
 	return need_restart;
 }
@@ -2312,7 +2312,7 @@ void Core::changeSubtitle(int ID) {
 
 	bool use_new_commands = (pref->use_new_sub_commands == Preferences::Enabled);
 	if (pref->use_new_sub_commands == Preferences::Detect) {
-		use_new_commands = (proc->isMplayerAtLeast(25158));
+		use_new_commands = (MplayerVersion::isMplayerAtLeast(25158));
 	}
 
 	if (!use_new_commands) {
@@ -2375,7 +2375,7 @@ void Core::changeAudio(int ID) {
 
 		bool need_restart = (pref->fast_audio_change == Preferences::Disabled);
 		if (pref->fast_audio_change == Preferences::Detect) {
-			need_restart = (!proc->isMplayerAtLeast(21441));
+			need_restart = (!MplayerVersion::isMplayerAtLeast(21441));
 		}
 
 		if (need_restart) {

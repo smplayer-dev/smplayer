@@ -53,7 +53,7 @@ int MplayerVersion::mplayerVersion(QString string) {
 	}
 
 	if (pref) {
-		pref->mplayer_version = mplayer_svn;
+		pref->mplayer_detected_version = mplayer_svn;
 	}
 
 	return mplayer_svn;
@@ -76,4 +76,11 @@ bool MplayerVersion::isMplayerAtLeast(int mplayer_svn, int svn_revision) {
 	}
 
 	return (mplayer_svn >= svn_revision);
+}
+
+bool MplayerVersion::isMplayerAtLeast(int svn_revision) {
+	if (pref->mplayer_forced_version != -1) 
+		return isMplayerAtLeast(pref->mplayer_forced_version, svn_revision);
+	else
+		return isMplayerAtLeast(pref->mplayer_detected_version, svn_revision);
 }
