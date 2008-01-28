@@ -4,6 +4,9 @@
  * Now the user can tell smplayer what version of mplayer is using, with the
    config option mplayer_forced_version. Anyway in the future there'll be
    a dialog to configure this.
+ * Renamed mplayer_forced_version to mplayer_user_supplied_version. That
+   version will be used only if smplayer can't parse the mplayer version from
+   the mplayer output.
 
 (2008-01-26)
  * Now it's possible to zoom out on the video image.

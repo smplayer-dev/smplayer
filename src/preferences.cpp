@@ -254,7 +254,7 @@ void Preferences::reset() {
 	use_short_pathnames = false;
 
 	mplayer_detected_version = -1; //None version parsed yet
-	mplayer_forced_version = -1;
+	mplayer_user_supplied_version = -1;
 }
 
 void Preferences::save() {
@@ -460,7 +460,7 @@ void Preferences::save() {
 
 	set->beginGroup( "mplayer_info");
 	set->setValue("mplayer_detected_version", mplayer_detected_version);
-	set->setValue("mplayer_forced_version", mplayer_forced_version);
+	set->setValue("mplayer_user_supplied_version", mplayer_user_supplied_version);
 	set->endGroup();
 }
 
@@ -672,7 +672,7 @@ void Preferences::load() {
 
 	set->beginGroup( "mplayer_info");
 	mplayer_detected_version = set->value("mplayer_detected_version", mplayer_detected_version).toInt();
-	mplayer_forced_version = set->value("mplayer_forced_version", mplayer_forced_version).toInt();
+	mplayer_user_supplied_version = set->value("mplayer_user_supplied_version", mplayer_user_supplied_version).toInt();
 	set->endGroup();
 
 	/*
