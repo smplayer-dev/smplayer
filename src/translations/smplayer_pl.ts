@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1971,37 +1972,37 @@ Wybierz katalog, w którym jest VIDEO_TS i AUDIO_TS.</translation>
     <message>
         <location filename="../inputmplayerversion.ui" line="14"/>
         <source>SMPlayer - Enter the MPlayer version</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Wpisz wersję MPlayera</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="29"/>
         <source>SMPlayer couldn&apos;t identify the MPlayer version you&apos;re using.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer nie potrafi zidentyfikować używanej wersji MPlayera.</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="52"/>
         <source>Version reported by MPlayer:</source>
-        <translation type="unfinished"></translation>
+        <translation>Wersja zgłoszona przez MPlayer:</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="87"/>
         <source>Please, &amp;select the correct version:</source>
-        <translation type="unfinished"></translation>
+        <translation>Proszę &amp;wybrać poprawną wersję:</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="98"/>
         <source>1.0rc1 or older</source>
-        <translation type="unfinished"></translation>
+        <translation>1.0rc1 lub starsza</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="103"/>
         <source>1.0rc2</source>
-        <translation type="unfinished"></translation>
+        <translation>1.0rc2</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="108"/>
         <source>Greater than 1.0rc2</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyższa niż 1.0rc2</translation>
     </message>
 </context>
 <context>
