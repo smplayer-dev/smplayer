@@ -106,7 +106,7 @@ void Preferences::reset() {
 	if (QFile::exists(Helper::appHomePath() + "/screenshots")) {
 		screenshot_directory = Helper::appHomePath() + "/screenshots";
 	}
-	subtitles_on_screenshots = TRUE;
+	subtitles_on_screenshots = false;
 
 	use_soft_video_eq = FALSE;
 	use_soft_vol = FALSE;
@@ -127,9 +127,9 @@ void Preferences::reset() {
     mplayer_additional_audio_filters="";
 
 	priority = AboveNormal; // Option only for windows
-	frame_drop = FALSE;
-	hard_frame_drop = FALSE;
-	autosync = FALSE;
+	frame_drop = true;
+	hard_frame_drop = false;
+	autosync = false;
 	autosync_factor = 100;
 
 	h264_skip_loop_filter = LoopEnabled;

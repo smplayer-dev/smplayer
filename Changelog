@@ -5,6 +5,8 @@
    This way at least the file will play.
  * Now smplayer should recognize the mplayer version from ubuntu packages
    (MPlayer 2:1.0~rc1-0ubuntu13.1 (C) 2000-2006 MPlayer Team).
+ * Changed some defaults in preferences: framedrop will be enabled, and
+   subtitles on screenshots disabled.
 
 (2008-01-28)
  * Now the user can tell smplayer what version of mplayer is using, with the
