@@ -154,6 +154,7 @@ QString About::getTranslators() {
          trad(tr("Portuguese - Portugal"), "Waxman &lt;waxman.pt@gmail.com&gt;") +
 		 trad(tr("Greek"), "my80s &lt;wamy80s@gmail.com&gt;") +
 		 trad(tr("Finnish"), "peeaivo &lt;peeaivo@gmail.com&gt;") +
+	trad(tr("Korean"), "Heesu Yoon &lt;imsu30@gmail.com&gt;") +
          "</ul>");
 }
 
