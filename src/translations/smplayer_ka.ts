@@ -183,12 +183,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="161"/>
+        <location filename="../about.cpp" line="162"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="170"/>
+        <location filename="../about.cpp" line="171"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -245,6 +245,11 @@
     <message>
         <location filename="../about.cpp" line="42"/>
         <source>Using MPlayer SVN r%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="157"/>
+        <source>Korean</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3394,77 +3399,77 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">ქართული</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="100"/>
+        <location filename="../prefinterface.cpp" line="101"/>
         <source>Dutch</source>
         <translation type="unfinished">ჰოლანდიური</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="101"/>
+        <location filename="../prefinterface.cpp" line="102"/>
         <source>Polish</source>
         <translation type="unfinished">პოლონური</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="102"/>
+        <location filename="../prefinterface.cpp" line="103"/>
         <source>Portuguese - Brazil</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="103"/>
+        <location filename="../prefinterface.cpp" line="104"/>
         <source>Portuguese - Portugal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="104"/>
+        <location filename="../prefinterface.cpp" line="105"/>
         <source>Romanian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="105"/>
+        <location filename="../prefinterface.cpp" line="106"/>
         <source>Russian</source>
         <translation type="unfinished">რუსული</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="106"/>
+        <location filename="../prefinterface.cpp" line="107"/>
         <source>Slovak</source>
         <translation type="unfinished">სლოვაკური</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="107"/>
+        <location filename="../prefinterface.cpp" line="108"/>
         <source>Serbian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="108"/>
+        <location filename="../prefinterface.cpp" line="109"/>
         <source>Swedish</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="109"/>
+        <location filename="../prefinterface.cpp" line="110"/>
         <source>Turkish</source>
         <translation type="unfinished">თურქული</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="110"/>
+        <location filename="../prefinterface.cpp" line="111"/>
         <source>Ukrainian</source>
         <translation type="unfinished">უკრაინული</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="111"/>
+        <location filename="../prefinterface.cpp" line="112"/>
         <source>Simplified-Chinese</source>
         <translation type="unfinished">გამარტივებული ჩინური</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="112"/>
+        <location filename="../prefinterface.cpp" line="113"/>
         <source>Traditional Chinese</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="119"/>
+        <location filename="../prefinterface.cpp" line="120"/>
         <source>&lt;Autodetect&gt;</source>
         <translation type="unfinished">&lt;ავტომატური&gt;</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="171"/>
+        <location filename="../prefinterface.cpp" line="172"/>
         <source>Default</source>
         <translation type="unfinished">ნაგულისხმები</translation>
     </message>
@@ -3499,12 +3504,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">წინა ფაილები</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="417"/>
+        <location filename="../prefinterface.cpp" line="418"/>
         <source>Language</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="418"/>
+        <location filename="../prefinterface.cpp" line="419"/>
         <source>Here you can change the language of the application.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3524,22 +3529,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="146"/>
+        <location filename="../prefinterface.cpp" line="147"/>
         <source>&amp;Short jump</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="147"/>
+        <location filename="../prefinterface.cpp" line="148"/>
         <source>&amp;Medium jump</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="148"/>
+        <location filename="../prefinterface.cpp" line="149"/>
         <source>&amp;Long jump</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="149"/>
+        <location filename="../prefinterface.cpp" line="150"/>
         <source>Mouse &amp;wheel jump</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3626,6 +3631,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="487"/>
         <source>Ins&amp;tances</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="100"/>
+        <source>Korean</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
