@@ -71,8 +71,8 @@ bool MplayerVersion::isMplayerAtLeast(int mplayer_svn, int svn_revision) {
 	}
 
 	if (mplayer_svn <= 0) {
-		qWarning("MplayerVersion::isMplayerAtLeast: assuming that the mplayer version is greater than %d", svn_revision);
-		return true;
+		qWarning("MplayerVersion::isMplayerAtLeast: assuming that the mplayer version is less than %d", svn_revision);
+		return false;
 	}
 
 	return (mplayer_svn >= svn_revision);
