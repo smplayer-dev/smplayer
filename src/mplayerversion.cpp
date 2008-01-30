@@ -26,6 +26,9 @@ int MplayerVersion::mplayerVersion(QString string) {
 	//static QRegExp rx_mplayer_revision("^MPlayer (\\S+)-SVN-r(\\d+)-(.*)");
 	static QRegExp rx_mplayer_revision("^MPlayer (.*)-r(\\d+)(.*)");
 	static QRegExp rx_mplayer_version("^MPlayer ([a-z,0-9,.]+)-(.*)");
+#ifndef Q_OS_WIN
+	static QRegExp rx_mplayer_version_ubuntu("^MPlayer (\\d):(\\d)\\.(\\d)~(.*)");
+#endif
 
 	int mplayer_svn = 0;
 
@@ -34,6 +37,16 @@ int MplayerVersion::mplayerVersion(QString string) {
 	if (string.startsWith("MPlayer CCCP ")) { 
 		string.remove("CCCP "); 
 		qDebug("MplayerVersion::mplayerVersion: removing CCCP: '%s'", string.toUtf8().data()); 
+	}
+#else
+	// Hack to recognize mplayer 1.0rc1 from Ubuntu:
+	if (rx_mplayer_version_ubuntu.indexIn(string) > -1) {
+		int v1 = rx_mplayer_version_ubuntu.cap(2).toInt();
+		int v2 = rx_mplayer_version_ubuntu.cap(3).toInt();
+		QString rest = rx_mplayer_version_ubuntu.cap(4);
+		//qDebug("%d - %d - %d", rx_mplayer_version_ubuntu.cap(1).toInt(), v1 , v2);
+		string = QString("MPlayer %1.%2%3").arg(v1).arg(v2).arg(rest);
+		qDebug("MplayerVersion::mplayerVersion: line converted to '%s'", string.toUtf8().data());
 	}
 #endif
 
