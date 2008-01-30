@@ -25,4 +25,4 @@ Most important changes since 0.5.62:
  * New Help->About dialog.
  * New option Help->FAQ which will show the FAQ.
  * Bugfix: the colorkey is passed properly to mplayer.
- * Added the Finnish translation.
+ * Added the Finnish and the Korean translations.
