@@ -3,7 +3,7 @@
 
 [Setup]
 AppName=SMPlayer
-AppVerName=SMPlayer 0.6.0preview1
+AppVerName=SMPlayer 0.6.0rc1
 AppPublisher=RVM
 AppPublisherURL=http://smplayer.sf.net
 AppSupportURL=http://smplayer.sourceforge.net/forums
@@ -12,10 +12,10 @@ DefaultDirName={pf}\SMPlayer
 DefaultGroupName=SMPlayer
 LicenseFile=Copying.txt
 OutputDir=..
-OutputBaseFilename=smplayer_0.6.0preview1_setup
+OutputBaseFilename=smplayer_0.6.0rc1_full
 Compression=lzma
 SolidCompression=yes
-SourceDir="smplayer"
+SourceDir="smplayer-build"
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
