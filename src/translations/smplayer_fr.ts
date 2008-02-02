@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -250,7 +251,7 @@
     <message>
         <location filename="../about.cpp" line="157"/>
         <source>Korean</source>
-        <translation type="unfinished"></translation>
+        <translation>Coréen</translation>
     </message>
 </context>
 <context>
@@ -1360,17 +1361,17 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="1071"/>
         <source>Visualize &amp;motion vectors</source>
-        <translation type="unfinished"></translation>
+        <translation>Visualiser vecteurs &amp;motion</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1080"/>
         <source>&amp;Command line options</source>
-        <translation type="unfinished"></translation>
+        <translation>Options ligne de &amp;commande</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2637"/>
         <source>SMPlayer command line options</source>
-        <translation type="unfinished"></translation>
+        <translation>Options de ligne de commande de SMPlayer</translation>
     </message>
 </context>
 <context>
@@ -1451,7 +1452,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../core.cpp" line="2181"/>
         <source>Font scale: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Echelle de police : %1</translation>
     </message>
 </context>
 <context>
@@ -1959,37 +1960,37 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../inputmplayerversion.ui" line="14"/>
         <source>SMPlayer - Enter the MPlayer version</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Entrer la version de MPlayer</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="29"/>
         <source>SMPlayer couldn&apos;t identify the MPlayer version you&apos;re using.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer n&apos;a pas pu identifier la version de MPlayer utilisée.</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="52"/>
         <source>Version reported by MPlayer:</source>
-        <translation type="unfinished"></translation>
+        <translation>Version identifiée par MPlayer :</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="87"/>
         <source>Please, &amp;select the correct version:</source>
-        <translation type="unfinished"></translation>
+        <translation>Veuillez &amp;sélectionner la bonne version :</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="98"/>
         <source>1.0rc1 or older</source>
-        <translation type="unfinished"></translation>
+        <translation>1.0rc1 ou plus ancien</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="103"/>
         <source>1.0rc2</source>
-        <translation type="unfinished"></translation>
+        <translation>1.0rc2</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="108"/>
         <source>Greater than 1.0rc2</source>
-        <translation type="unfinished"></translation>
+        <translation>Plus récent que 1.0rc2</translation>
     </message>
 </context>
 <context>
@@ -3826,7 +3827,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="100"/>
         <source>Korean</source>
-        <translation type="unfinished"></translation>
+        <translation>Coréen</translation>
     </message>
 </context>
 <context>
@@ -4770,12 +4771,12 @@ Si -playlist est utilisée, cela veut dire que SMPlayer passera l&apos;informati
     <message>
         <location filename="../clhelp.cpp" line="103"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>Usage :</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="92"/>
         <source>directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Dossier</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="93"/>
