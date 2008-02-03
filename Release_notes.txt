@@ -3,7 +3,7 @@ Most important changes since 0.5.62:
  * Added support for pls playlist files.
  * Better accuracy on subtitle selection. Fixes problems with mp4 embedded 
    subtitles. Requires mplayer svn r25158 or above.
- * Now the screensaver and powersave on Windows is really turned off, even on
+ * Now the screensaver and powersave on Windows are really turned off, even on
    Windows Vista.
  * The cache setting is independent for each type of media.
  * Added an option which allows to fix the problem of loud volume on startup
