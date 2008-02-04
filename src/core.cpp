@@ -1476,7 +1476,12 @@ void Core::startMplayer( QString file, double seek ) {
 #if NEW_ASPECT_CODE
 	if (mset.add_letterbox) {
 		proc->addArgument("-vf-add");
-		proc->addArgument("expand=:::::"+QString::number( DesktopInfo::desktop_aspectRatio(mplayerwindow)));
+		proc->addArgument( QString("expand=:::::%1,harddup").arg( DesktopInfo::desktop_aspectRatio(mplayerwindow)) );
+		// Note: on some videos (h264 for instance) the subtitles doesn't disappear, 
+		// appearing the new ones on top of the old ones. It seems adding another 
+		// filter after expand fixes the problem. I chose harddup 'cos I think 
+		// it will be harmless in mplayer. 
+		// Anyway, if you know a proper way to fix the problem, please tell me.
 	}
 #else
 	if (mset.letterbox == MediaSettings::Letterbox_43) {		

@@ -2,6 +2,8 @@
 
 (2008-02-03)
  * Try to remember if the window was maximized after exiting from fullscreen.
+ * Added workaround for the problem of subtitles which don't disappear when
+   using the "Add black borders" filter.
 
 (2008-01-30)
  * Added the Korean translation, by Heesu Yoon <imsu30@gmail.com>
