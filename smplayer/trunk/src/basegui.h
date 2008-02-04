@@ -511,6 +511,7 @@ private:
 	// when exiting from fullscreen mode.
 	QPoint win_pos;
 	QSize win_size;
+	bool was_maximized;
 
 #if NEW_RESIZE_CODE
 	QSize diff_size;	//!< Main window size - panel size

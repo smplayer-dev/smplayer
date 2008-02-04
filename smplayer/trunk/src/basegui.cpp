@@ -2687,6 +2687,9 @@ void BaseGui::toggleFullscreen(bool b) {
 			win_size = size();
 		}
 
+		was_maximized = isMaximized();
+		qDebug("BaseGui::toggleFullscreen: was_maximized: %d", was_maximized);
+
 		aboutToEnterFullscreen();
 
 		#ifdef Q_OS_WIN
@@ -2703,6 +2706,8 @@ void BaseGui::toggleFullscreen(bool b) {
 		#endif
 
 		showNormal();
+
+		if (was_maximized) showMaximized(); // It has to be called after showNormal()
 
 		aboutToExitFullscreen();
 
