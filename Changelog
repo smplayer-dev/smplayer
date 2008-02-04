@@ -1,5 +1,8 @@
 [b]Version 0.6.0rc1[/b]:
 
+(2008-02-03)
+ * Try to remember if the window was maximized after exiting from fullscreen.
+
 (2008-01-30)
  * Added the Korean translation, by Heesu Yoon <imsu30@gmail.com>
 
