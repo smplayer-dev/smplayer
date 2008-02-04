@@ -53,3 +53,5 @@ int InputMplayerVersion::version() {
 	}
 	return r;
 }
+
+#include "moc_inputmplayerversion.cpp"
