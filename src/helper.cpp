@@ -316,6 +316,14 @@ QString Helper::colorToRRGGBBAA(unsigned int color) {
 	return s.sprintf("%02x%02x%02x00", c.red(), c.green(), c.blue() );
 }
 
+QString Helper::colorToRRGGBB(unsigned int color) {
+	QColor c;
+	c.setRgb( color );
+
+	QString s;
+	return s.sprintf("%02x%02x%02x", c.red(), c.green(), c.blue() );
+}
+
 QString Helper::colorToRGB(unsigned int color) {
 	QColor c;
 	c.setRgb( color );

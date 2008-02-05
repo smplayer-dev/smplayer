@@ -88,6 +88,7 @@ public:
 
 	//! Returns a string suitable to be used for -ass-color
 	static QString colorToRRGGBBAA(unsigned int color);
+	static QString colorToRRGGBB(unsigned int color);
 
 	//! Returns a string suitable to be used for -colorkey
 	static QString colorToRGB(unsigned int color);

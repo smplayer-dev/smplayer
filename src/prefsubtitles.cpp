@@ -203,7 +203,7 @@ bool PrefSubtitles::useFontASS() {
 void PrefSubtitles::setAssColor( unsigned int color ) {
 	ass_color = color;
 #ifdef Q_OS_WIN
-	colorButton->setStyleSheet( "border-width: 1px; border-style: solid; border-color: #000000; background: #" + Helper::colorToRGB(ass_color) + ";");
+	colorButton->setStyleSheet( "border-width: 1px; border-style: solid; border-color: #000000; background: #" + Helper::colorToRRGGBB(ass_color) + ";");
 #else
 	//colorButton->setAutoFillBackground(true);
 	Helper::setBackgroundColor( colorButton, color );
@@ -218,7 +218,7 @@ void PrefSubtitles::setAssBorderColor( unsigned int color ) {
 	ass_border_color = color;
 
 #ifdef Q_OS_WIN
-	borderButton->setStyleSheet( "border-width: 1px; border-style: solid; border-color: #000000; background: #" + Helper::colorToRGB(ass_border_color) + ";");
+	borderButton->setStyleSheet( "border-width: 1px; border-style: solid; border-color: #000000; background: #" + Helper::colorToRRGGBB(ass_border_color) + ";");
 #else
 	//borderButton->setAutoFillBackground(true);
 	Helper::setBackgroundColor( borderButton, color );

@@ -1,5 +1,9 @@
 [b]Version 0.6.0rc2 (not released yet)[/b]:
 
+(2008-02-05)
+ * (Windows) Bugfix: the buttons to select the font color in 
+   Preferences->Subtitles->SSA/ASS didn't show the color.
+
 (2008-02-04)
  * The option Play->Repeat should work better now. Also if using mplayer
    >= r23747 toggling the option won't require to restart mplayer (uses
