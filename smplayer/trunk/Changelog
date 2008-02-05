@@ -3,6 +3,8 @@
 (2008-02-05)
  * (Windows) Bugfix: the buttons to select the font color in 
    Preferences->Subtitles->SSA/ASS didn't show the color.
+ * Removed Yurkovsky Andrey from the list of translators, as requested 
+   by himself.
 
 (2008-02-04)
  * The option Play->Repeat should work better now. Also if using mplayer
