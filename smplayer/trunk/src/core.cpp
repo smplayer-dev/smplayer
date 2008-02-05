@@ -1591,11 +1591,6 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( QString::number(pref->softvol_max) );
 	}
 
-	if (pref->loop) {
-		proc->addArgument("-loop");
-		proc->addArgument("0");
-	}
-
 	// Additional options supplied by the user
 	// File
 	if (!mset.mplayer_additional_options.isEmpty()) {
@@ -1627,6 +1622,12 @@ void Core::startMplayer( QString file, double seek ) {
 	else
 #endif
 	proc->addArgument( file );
+
+	// It seems the loop option must be after the filename
+	if (pref->loop) {
+		proc->addArgument("-loop");
+		proc->addArgument("0");
+	}
 
 	//Log command
 	//mplayer_log = "Command: \n";
@@ -1757,7 +1758,15 @@ void Core::toggleRepeat(bool b) {
 	qDebug("Core::toggleRepeat: %d", b);
 	if ( pref->loop != b ) {
 		pref->loop = b;
-		if (proc->isRunning()) restartPlay();
+		if (MplayerVersion::isMplayerAtLeast(23747)) {
+			// Use slave command
+			int v = -1; // no loop
+			if (pref->loop) v = 0; // infinite loop
+			tellmp( QString("loop %1 1").arg(v) );
+		} else {
+			// Restart mplayer
+			if (proc->isRunning()) restartPlay();
+		}
 	}
 }
 

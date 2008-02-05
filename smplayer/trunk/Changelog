@@ -1,5 +1,10 @@
 [b]Version 0.6.0rc1[/b]:
 
+(2008-02-04)
+ * The option Play->Repeat should work better now. Also if using mplayer
+   >= r23747 toggling the option won't require to restart mplayer (uses
+   the loop slave command instead).
+
 (2008-02-03)
  * Try to remember if the window was maximized after exiting from fullscreen.
  * Added workaround for the problem of subtitles which don't disappear when
