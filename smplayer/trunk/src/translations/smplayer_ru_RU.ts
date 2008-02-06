@@ -56,12 +56,12 @@
     <message>
         <location filename="../about.cpp" line="90"/>
         <source>icon for file associations</source>
-        <translation>иконки для связей файлов</translation>
+        <translation>иконки для ассоциаций файлов</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="91"/>
         <source>patch for file associations</source>
-        <translation>патч для связей файлов</translation>
+        <translation>патч для ассоциаций файлов</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="126"/>
