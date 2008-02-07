@@ -291,9 +291,9 @@ void MplayerProcess::parseLine(QByteArray ba) {
 		if (rx_mkvchapters.indexIn(line)!=-1) {
 			int c = rx_mkvchapters.cap(1).toInt();
 			qDebug("MplayerProcess::parseLine: mkv chapters: %d", c);
-			if (c > md.mkv_chapters) {
-				md.mkv_chapters = c;
-				qDebug("MplayerProcess::parseLine: mkv_chapters set to: %d", c);
+			if ((c+1) > md.mkv_chapters) {
+				md.mkv_chapters = c+1;
+				qDebug("MplayerProcess::parseLine: mkv_chapters set to: %d", md.mkv_chapters);
 			}
 		}
 		else
