@@ -1013,7 +1013,7 @@ void Core::startMplayer( QString file, double seek ) {
 	// Use absolute path
 	QString mplayer_bin = pref->mplayer_bin;
 	QFileInfo fi(mplayer_bin);
-    if (fi.exists()) {
+    if (fi.exists() && fi.isExecutable() && !fi.isDir()) {
         mplayer_bin = fi.absoluteFilePath();
 	}
 
