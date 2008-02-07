@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -265,7 +266,7 @@
     <message>
         <location filename="../about.cpp" line="157"/>
         <source>Korean</source>
-        <translation type="unfinished"></translation>
+        <translation>Coreană</translation>
     </message>
 </context>
 <context>
@@ -562,7 +563,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1136"/>
         <source>&amp;Browse</source>
-        <translation>&amp;Browse</translation>
+        <translation>&amp;Navigare</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1137"/>
@@ -1956,37 +1957,37 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../inputmplayerversion.ui" line="14"/>
         <source>SMPlayer - Enter the MPlayer version</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Introduceți versiunea pentru MPlayer</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="29"/>
         <source>SMPlayer couldn&apos;t identify the MPlayer version you&apos;re using.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer nu a putut determina versiunea pentru MPlayer pe care o folosiți.</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="52"/>
         <source>Version reported by MPlayer:</source>
-        <translation type="unfinished"></translation>
+        <translation>Versiunea raportată de către MPlayer:</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="87"/>
         <source>Please, &amp;select the correct version:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vă rugăm &amp;selectați versiunea corectă:</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="98"/>
         <source>1.0rc1 or older</source>
-        <translation type="unfinished"></translation>
+        <translation>1.0rc1 sau mai veche</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="103"/>
         <source>1.0rc2</source>
-        <translation type="unfinished"></translation>
+        <translation>1.0rc2</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="108"/>
         <source>Greater than 1.0rc2</source>
-        <translation type="unfinished"></translation>
+        <translation>Mai nouă decât 1.0rc2</translation>
     </message>
 </context>
 <context>
@@ -2616,7 +2617,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefdrives.ui" line="41"/>
         <source>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer nu alege implicit orice dispozitiv CDROM sau DVDROM. Așa că înainte de a reda efectiv un CD sau DVD trebuie să selectați dispozitivele pe care doriți să le utilizați ( poate fi același dispozitiv ).</translation>
     </message>
 </context>
 <context>
@@ -3817,7 +3818,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="100"/>
         <source>Korean</source>
-        <translation type="unfinished"></translation>
+        <translation>Coreană</translation>
     </message>
 </context>
 <context>
@@ -4473,37 +4474,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="298"/>
         <source>Default scale for normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Dimensiune implicită subtitrare normală</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="300"/>
         <source>This option specifies the default font scale for normal (white) subtitles which will be used for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Această opțiune specifică dimensiunea implicită a caracterelor pentru subtitrara normală (albă) ce va fi utilizată pentru viitoarele fișiere video ce vor fi redate.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="302"/>
         <source>Default scale for SSA/ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Dimensiune implicită subtitrare SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="304"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Această opțiune specifică dimensiunea implicită a caracterelor pentru subtitrara de tip SSA/ASS ce va fi utilizată pentru viitoarele fișiere video ce vor fi redate.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="540"/>
         <source>Default s&amp;cale for normal subtitles:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dimensiune impli&amp;cită subtitrare normală:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="527"/>
         <source>Default sc&amp;ale for SSA/ASS subtitles:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dimensiune&amp;a implicită subtitrare SSA/ASS:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="570"/>
         <source>SSA/ASS &amp;library</source>
-        <translation type="unfinished"></translation>
+        <translation>Bib&amp;liotecă SSA/ASS</translation>
     </message>
 </context>
 <context>
