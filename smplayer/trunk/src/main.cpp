@@ -109,6 +109,7 @@ void showInfo() {
 	qDebug(" * shortcuts path: '%s'", Helper::shortcutsPath().toUtf8().data());
 	qDebug(" * smplayer home path: '%s'", Helper::appHomePath().toUtf8().data());
 	qDebug(" * ini path: '%s'", Helper::iniPath().toUtf8().data());
+	qDebug(" * current path: '%s'", QDir::currentPath().toUtf8().data());
 }
 
 
@@ -332,6 +333,11 @@ int main( int argc, char ** argv )
 	if (start_in_fullscreen != -1) {
 		pref->start_in_fullscreen = start_in_fullscreen;
 	}
+
+	// Changes to app path, so smplayer can find a relative mplayer path
+	QDir::setCurrent(Helper::appPath());
+	qDebug("main: changed working directory to app path");
+	qDebug("main: current directory: %s", QDir::currentPath().toUtf8().data());
 
 	BaseGui * w;
 	if (use_minigui)

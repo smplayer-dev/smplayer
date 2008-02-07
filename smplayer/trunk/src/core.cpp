@@ -1010,14 +1010,14 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->setWorkingDirectory( pref->screenshot_directory );
 	}
 
-	// Use absolute path
+	// Use absolute path, otherwise after changing to the screenshot directory
+	// the mplayer path might not be found if it's a relative path
+	// (seems to be necessary only for linux)
 	QString mplayer_bin = pref->mplayer_bin;
-	/*
 	QFileInfo fi(mplayer_bin);
     if (fi.exists() && fi.isExecutable() && !fi.isDir()) {
         mplayer_bin = fi.absoluteFilePath();
 	}
-	*/
 
 	proc->addArgument( mplayer_bin );
 
