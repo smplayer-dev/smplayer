@@ -8,8 +8,7 @@
    if it's a regular file or directory, but WARNING if it's a binary it
    still will call it (this is because it tries to convert the path in an
    absolute path).
- * I think it's not necessary to convert the mplayer path to absolute, so
-   it doesn't do now.
+ * Some fixes so smplayer can work ok with a relative mplayer path.
 
 (2008-02-06)
  * Now selection of chapters in mkv files should work properly again if
