@@ -2474,8 +2474,10 @@ void Core::changeChapter(int ID) {
 }
 
 int Core::mkv_first_chapter() {
-	return 0;
-	//return 1;
+	if (MplayerVersion::isMplayerAtLeast(25391)) 
+		return 1;
+	else
+		return 0;
 }
 
 void Core::prevChapter() {
