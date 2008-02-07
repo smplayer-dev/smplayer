@@ -686,7 +686,7 @@ void Core::newMediaPlaying() {
 	// mkv chapters
 	if (mdat.mkv_chapters > 0) {
 		// Just to show the first chapter checked in the menu
-		mset.current_chapter_id = 0;  // 0 is the first chapter in mkv
+		mset.current_chapter_id = mkv_first_chapter();
 	}
 
 	mdat.initialized = TRUE;
@@ -2473,6 +2473,11 @@ void Core::changeChapter(int ID) {
 	}
 }
 
+int Core::mkv_first_chapter() {
+	return 0;
+	//return 1;
+}
+
 void Core::prevChapter() {
 	qDebug("Core::prevChapter");
 
@@ -2480,10 +2485,10 @@ void Core::prevChapter() {
 	bool matroshka = (mdat.mkv_chapters > 0);
 
 	int first_chapter=1;
-	if (matroshka) first_chapter = 0;
+	if (matroshka) first_chapter = mkv_first_chapter();
 
 	// Matroshka chapters
-	if (matroshka) last_chapter = mdat.mkv_chapters;
+	if (matroshka) last_chapter = mdat.mkv_chapters + mkv_first_chapter() - 1;
 	else
 	// DVD chapters
 	if (mset.current_title_id > 0) {
@@ -2504,7 +2509,7 @@ void Core::nextChapter() {
 	bool matroshka = (mdat.mkv_chapters > 0);
 
 	// Matroshka chapters
-	if (matroshka) last_chapter = mdat.mkv_chapters;
+	if (matroshka) last_chapter = mdat.mkv_chapters + mkv_first_chapter() - 1;
 	else
 	// DVD chapters
 	if (mset.current_title_id > 0) {
@@ -2513,7 +2518,7 @@ void Core::nextChapter() {
 
 	int ID = mset.current_chapter_id + 1;
 	if (ID > last_chapter) {
-		if (matroshka) ID=0; else ID=1;
+		if (matroshka) ID = mkv_first_chapter(); else ID = 1;
 	}
 	changeChapter(ID);
 }

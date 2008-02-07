@@ -2059,11 +2059,11 @@ void BaseGui::initializeMenus() {
 	} else {
 		// *** Matroshka chapters ***
 		if (core->mdat.mkv_chapters > 0) {
-			for (n=1; n <= core->mdat.mkv_chapters; n++) {
+			for (n=0; n < core->mdat.mkv_chapters; n++) {
 				QAction *a = new QAction(chapterGroup);
 				a->setCheckable(true);
-				a->setText( QString::number(n) );
-				a->setData( n - 1 );
+				a->setText( QString::number(n+1) );
+				a->setData( n + Core::mkv_first_chapter() );
 			}
 		} else {
 			QAction * a = chapterGroup->addAction( tr("<empty>") );
