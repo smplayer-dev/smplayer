@@ -1584,12 +1584,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../filepropertiesdialog.ui" line="56"/>
         <source>&amp;Demuxer</source>
-        <translation>&amp;Demuxer</translation>
+        <translation>&amp;Демультиплексор</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="68"/>
         <source>&amp;Select the demuxer that will be used for this file:</source>
-        <translation>В&amp;ыберите demuxer, который будет использоваться для этого файла:</translation>
+        <translation>В&amp;ыберите демультиплексор для воспроизведения этого файла:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="232"/>
@@ -1712,7 +1712,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../infofile.cpp" line="73"/>
         <source>Demuxer</source>
-        <translation>Demuxer</translation>
+        <translation>Демультиплексор</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="149"/>
@@ -1792,7 +1792,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../infofile.cpp" line="112"/>
         <source>Bitrate</source>
-        <translation>Битрэйт</translation>
+        <translation>Битрейт</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="112"/>
@@ -1864,7 +1864,7 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../infofile.cpp" line="147"/>
         <source>#</source>
         <comment>Info for translators: this is a abbreviation for number</comment>
-        <translation>#</translation>
+        <translation>№</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="88"/>
@@ -4357,7 +4357,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="154"/>
         <source>media</source>
-        <translation>медиа</translation>
+        <translation>media</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="152"/>
@@ -4407,7 +4407,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="160"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
-        <translation>&apos;медиа&apos; – любой вид файла, который может открыть SMPlayer. Это может быть локальный файл, DVD (т.е. dvd://1), интернет-поток (т.е. mms://...) или локальный плейлист в формате m3u или pls. Если используется опция -playlist, это означает, что SMPlayer передаст эту опцию MPlayer-у и её воспримет он, а не SMPlayer.</translation>
+        <translation>&apos;media&apos; – любой вид файла, который может открыть SMPlayer. Это может быть локальный файл, DVD (т.е. dvd://1), интернет-поток (т.е. mms://...) или локальный плейлист в формате m3u или pls. Если используется опция -playlist, это означает, что SMPlayer передаст эту опцию MPlayer-у и её воспримет он, а не SMPlayer.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="103"/>
