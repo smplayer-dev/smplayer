@@ -27,9 +27,8 @@
 #include "config.h"
 
 #ifdef Q_OS_WIN
-#if DISABLE_SCREENSAVER_BY_EVENT
+/* Disable screensaver by event */
 #include <windows.h>
-#endif
 #endif
 
 class QWidget;
@@ -196,9 +195,8 @@ protected slots:
 #endif
 
 #ifdef Q_OS_WIN
-#if DISABLE_SCREENSAVER_BY_EVENT
+	/* Disable screensaver by event */
 	void clear_just_stopped();
-#endif
 #endif
 
 signals:
@@ -223,9 +221,8 @@ protected:
 	virtual void hideEvent( QHideEvent * );
 	virtual void showEvent( QShowEvent * );
 #ifdef Q_OS_WIN
-#if DISABLE_SCREENSAVER_BY_EVENT
+	/* Disable screensaver by event */
 	virtual bool winEvent ( MSG * m, long * result );
-#endif
 #endif
 
 	virtual void aboutToEnterFullscreen();
@@ -518,9 +515,8 @@ private:
 #endif
 
 #ifdef Q_OS_WIN
-#if DISABLE_SCREENSAVER_BY_EVENT
+	/* Disable screensaver by event */
 	bool just_stopped;
-#endif
 #endif
 };
     

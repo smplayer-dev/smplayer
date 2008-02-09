@@ -77,11 +77,9 @@ public:
 
 #ifdef Q_OS_WIN
 	static QString shortPathName(QString long_path);
-	
-#if !DISABLE_SCREENSAVER_BY_EVENT
+
 	//! Enable or disables the screensaver
-	static void setScreensaverEnabled(bool b);
-#endif
+	/* static void setScreensaverEnabled(bool b); */
 #endif
 
 	/* static void msleep(int ms); */

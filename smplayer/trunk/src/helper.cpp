@@ -277,7 +277,7 @@ QString Helper::shortPathName(QString long_path) {
 	}
 }
 
-#if !DISABLE_SCREENSAVER_BY_EVENT
+/*
 void Helper::setScreensaverEnabled(bool b) {
 	qDebug("Helper::setScreensaverEnabled: %d", b);
 
@@ -292,7 +292,7 @@ void Helper::setScreensaverEnabled(bool b) {
 		SystemParametersInfo( SPI_SETPOWEROFFACTIVE, 0, NULL, 0);
 	}
 }
-#endif
+*/
 #endif
 
 /*
