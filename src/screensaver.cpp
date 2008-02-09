@@ -21,7 +21,7 @@
 #include <windows.h>
 
 WinScreenSaver::WinScreenSaver() {
-	lowpower = poweroff = screensaver = false;
+	lowpower = poweroff = screensaver = 0;
 	state_saved = false;
 }
 
@@ -38,18 +38,22 @@ void WinScreenSaver::disable() {
 		state_saved = true;
 	}
 
-	if (lowpower) SystemParametersInfo(SPI_SETLOWPOWERTIMEOUT, 0, NULL, 0);
-	if (poweroff) SystemParametersInfo(SPI_SETPOWEROFFTIMEOUT, 0, NULL, 0);
-	if (screensaver) SystemParametersInfo(SPI_SETSCREENSAVETIMEOUT, 0, NULL, 0);
+	qDebug("WinScreenSaver::disable: lowpower: %d", lowpower);
+	qDebug("WinScreenSaver::disable: poweroff: %d", poweroff);
+	qDebug("WinScreenSaver::disable: screensaver: %d", screensaver);
+
+	if (lowpower != 0) SystemParametersInfo(SPI_SETLOWPOWERTIMEOUT, 0, NULL, 0);
+	if (poweroff != 0) SystemParametersInfo(SPI_SETPOWEROFFTIMEOUT, 0, NULL, 0);
+	if (screensaver != 0) SystemParametersInfo(SPI_SETSCREENSAVETIMEOUT, 0, NULL, 0);
 }
 
 void WinScreenSaver::restore() {
 	qDebug("WinScreenSaver::restore");
 
 	if (state_saved) {
-		if (lowpower) SystemParametersInfo(SPI_SETLOWPOWERTIMEOUT, 1, NULL, 0);
-		if (poweroff) SystemParametersInfo(SPI_SETPOWEROFFTIMEOUT, 1, NULL, 0);
-		if (screensaver) SystemParametersInfo(SPI_SETSCREENSAVETIMEOUT, 1, NULL, 0);
+		if (lowpower != 0) SystemParametersInfo(SPI_SETLOWPOWERTIMEOUT, lowpower, NULL, 0);
+		if (poweroff != 0) SystemParametersInfo(SPI_SETPOWEROFFTIMEOUT, poweroff, NULL, 0);
+		if (screensaver != 0) SystemParametersInfo(SPI_SETSCREENSAVETIMEOUT, screensaver, NULL, 0);
 	} else {
 		qWarning("WinScreenSaver::restore: screensaver can't be restored");
 	}
