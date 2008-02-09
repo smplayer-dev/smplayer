@@ -35,9 +35,9 @@
 #include "mplayerversion.h"
 
 #ifdef Q_OS_WIN
-/* To change app priority */
-#include <windows.h>
+#include <windows.h> // To change app priority
 #include <QSysInfo> // To get Windows version
+#include "screensaver.h"
 #endif
 
 
@@ -139,6 +139,11 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 
 	mplayerwindow->videoLayer()->allowClearingBackground(pref->always_clear_video_background);
 	mplayerwindow->setMonitorAspect( pref->monitor_aspect_double() );
+
+#ifdef Q_OS_WIN
+	// Windows screensaver
+	win_screensaver = new WinScreenSaver();
+#endif
 }
 
 
@@ -149,6 +154,10 @@ Core::~Core() {
     proc->terminate();
     delete proc;
 	delete file_settings;
+
+#ifdef Q_OS_WIN
+	delete win_screensaver;
+#endif
 }
 
 void Core::setState(State s) {
@@ -902,6 +911,7 @@ void Core::processFinished()
 {
     qDebug("Core::processFinished");
 
+/*
 #ifdef Q_OS_WIN
 #if !DISABLE_SCREENSAVER_BY_EVENT
 	// Enable screensaver (in windows)
@@ -909,6 +919,13 @@ void Core::processFinished()
 		Helper::setScreensaverEnabled(TRUE);
 	}
 #endif
+#endif
+*/
+#ifdef Q_OS_WIN
+	// Restores the Windows screensaver
+	if (pref->disable_screensaver) {
+		win_screensaver->restore();
+	}
 #endif
 
 	qDebug("Core::processFinished: we_are_restarting: %d", we_are_restarting);
@@ -964,6 +981,7 @@ void Core::startMplayer( QString file, double seek ) {
 		return;
     } 
 
+/*
 #ifdef Q_OS_WIN
 #if !DISABLE_SCREENSAVER_BY_EVENT
 	// Disable screensaver (in windows)
@@ -971,6 +989,13 @@ void Core::startMplayer( QString file, double seek ) {
 		Helper::setScreensaverEnabled(FALSE);
 	}
 #endif
+#endif
+*/
+#ifdef Q_OS_WIN
+	// Disable the Windows screensaver
+	if (pref->disable_screensaver) {
+		win_screensaver->disable();
+	}
 #endif
 
 	mplayer_log = "";

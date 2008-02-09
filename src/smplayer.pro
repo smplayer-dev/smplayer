@@ -182,12 +182,11 @@ unix {
   #HEADERS += 	prefassociations.h winfileassoc.h
   #SOURCES += 	prefassociations.cpp winfileassoc.cpp
   #FORMS += prefassociations.ui
-
 }
 
 win32 {
-	HEADERS += 	prefassociations.h winfileassoc.h
-	SOURCES += 	prefassociations.cpp winfileassoc.cpp
+	HEADERS += 	prefassociations.h winfileassoc.h screensaver.h
+	SOURCES += 	prefassociations.cpp winfileassoc.cpp screensaver.cpp
 	FORMS += prefassociations.ui
 
 	LIBS += libole32

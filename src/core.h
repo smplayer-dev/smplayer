@@ -30,6 +30,10 @@ class MplayerProcess;
 class MplayerWindow;
 class QSettings;
 
+#ifdef Q_OS_WIN
+class WinScreenSaver;
+#endif
+
 class Core : public QObject
 {
     Q_OBJECT
@@ -293,6 +297,9 @@ protected:
     MplayerProcess * proc;
     MplayerWindow * mplayerwindow;
 	QSettings * file_settings;
+#ifdef Q_OS_WIN
+	WinScreenSaver * win_screensaver;
+#endif
     
 private:
 	// Some variables to proper restart
