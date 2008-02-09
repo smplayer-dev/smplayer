@@ -911,16 +911,6 @@ void Core::processFinished()
 {
     qDebug("Core::processFinished");
 
-/*
-#ifdef Q_OS_WIN
-#if !DISABLE_SCREENSAVER_BY_EVENT
-	// Enable screensaver (in windows)
-	if (pref->disable_screensaver) {
-		Helper::setScreensaverEnabled(TRUE);
-	}
-#endif
-#endif
-*/
 #ifdef Q_OS_WIN
 	// Restores the Windows screensaver
 	if (pref->disable_screensaver) {
@@ -981,16 +971,6 @@ void Core::startMplayer( QString file, double seek ) {
 		return;
     } 
 
-/*
-#ifdef Q_OS_WIN
-#if !DISABLE_SCREENSAVER_BY_EVENT
-	// Disable screensaver (in windows)
-	if (pref->disable_screensaver) {
-		Helper::setScreensaverEnabled(FALSE);
-	}
-#endif
-#endif
-*/
 #ifdef Q_OS_WIN
 	// Disable the Windows screensaver
 	if (pref->disable_screensaver) {
