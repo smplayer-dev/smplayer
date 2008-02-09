@@ -31,7 +31,7 @@ public:
 	void restore();
 
 private:
-	bool lowpower, poweroff, screensaver;
+	int lowpower, poweroff, screensaver;
 	bool state_saved;
 };
 
