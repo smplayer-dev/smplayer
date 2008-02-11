@@ -174,14 +174,12 @@ void PrefGeneral::setDrivers(InfoList vo_list, InfoList ao_list) {
 		}
 		// gl/gl2
 		if (vo_list[n].name() == "gl") {
+			vo_combo->addItem( "gl:yuv=3" );
 			vo_combo->addItem( "gl:yuv=3:lscale=1" );
 		}
-		/*
 		if (vo_list[n].name() == "gl2") {
-			vo_combo->addItem( "gl2:yuv=4" );
-			//vo_combo->addItem( "gl2:yuv=6" );
+			vo_combo->addItem( "gl2:yuv=3" );
 		}
-		*/
 	}
 
 	for ( int n = 0; n < ao_list.count(); n++) {
