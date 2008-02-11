@@ -2625,7 +2625,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefdrives.ui" line="41"/>
         <source>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer ne choisit pas de lecteurs de CD ou DVD lui-même. De ce fait, avant de lire un CD/DVD, veuillez sélectionner votre/vos lecteur(s) (ils peuvent être les mêmes).</translation>
     </message>
 </context>
 <context>
@@ -3797,7 +3797,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="439"/>
         <source>&amp;Behaviour of time slider:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Comportement de l&apos;ascenseur temps :</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="458"/>
@@ -3812,17 +3812,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="507"/>
         <source>TextLabel</source>
-        <translation type="unfinished"></translation>
+        <translation>Label Texte</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="364"/>
         <source>&amp;Seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Recherche</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="487"/>
         <source>Ins&amp;tances</source>
-        <translation type="unfinished"></translation>
+        <translation>Ins&amp;tances</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="100"/>
@@ -4160,7 +4160,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="165"/>
         <source>Loop &amp;filter</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Filtre de boucle</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="225"/>
@@ -4483,37 +4483,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="298"/>
         <source>Default scale for normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Echelle par défaut pour les sous-titres normaux</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="300"/>
         <source>This option specifies the default font scale for normal (white) subtitles which will be used for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cette option spécifie l&apos;échelle par défaut pour les sous-titres normaux (blancs) qui seront utilisés pour les nouvelles vidéos.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="302"/>
         <source>Default scale for SSA/ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Echelle par défaut pour les sous-titres SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="304"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cette option spécifie l&apos;échelle par défaut pour les sous-titres SSA/ASS qui seront utilisés pour les nouvelles vidéos.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="540"/>
         <source>Default s&amp;cale for normal subtitles:</source>
-        <translation type="unfinished"></translation>
+        <translation>E&amp;chelle par défaut pour les sous-titres normaux :</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="527"/>
         <source>Default sc&amp;ale for SSA/ASS subtitles:</source>
-        <translation type="unfinished"></translation>
+        <translation>E&amp;chelle par défaut pour les sous-titres SSA/ASS :</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="570"/>
         <source>SSA/ASS &amp;library</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Librairie SSA/ASS</translation>
     </message>
 </context>
 <context>
@@ -4766,7 +4766,7 @@ Si -playlist est utilisée, cela veut dire que SMPlayer passera l&apos;informati
     <message>
         <location filename="../clhelp.cpp" line="160"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;media&apos; est n&apos;importe quel fichier que SMPlayer peut ouvrir. Cela peut être un fichier local, un DVD (ex :  dvd://1), un stream internet (ex : mms://....) ou une liste de lecture locale au format m3u ou pls. Si l&apos;option &quot;-playlist&quot; est utilisée, cela veut dire que SMPlayer donnera l&apos;option &quot;-playlist&quot; à MPlayer, alors MPlayer comprendra la liste de lecture, non pas SMPlayer.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="103"/>
@@ -4781,12 +4781,12 @@ Si -playlist est utilisée, cela veut dire que SMPlayer passera l&apos;informati
     <message>
         <location filename="../clhelp.cpp" line="93"/>
         <source>action_name</source>
-        <translation type="unfinished"></translation>
+        <translation>nom_action</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="94"/>
         <source>action_list</source>
-        <translation type="unfinished"></translation>
+        <translation>liste_action</translation>
     </message>
 </context>
 <context>
