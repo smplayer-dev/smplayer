@@ -9,6 +9,8 @@ Package: smplayer
 Architecture: any
 Depends: ${shlibs:Depends}, mplayer | mplayer-nogui
 Recommends: smplayer-themes
+Conflicts: smplayer-translations
+Replaces: smplayer-translations
 Description: A great front-end for MPlayer
  SMPlayer intends to be a complete front-end for MPlayer, from basic features
  like playing videos, DVDs, and VCDs to more advanced features like support
