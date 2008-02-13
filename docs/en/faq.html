@@ -31,8 +31,10 @@ Open -> Quit? Do they do the same?</a></li>
 <li><a href="#bookmark">Where is the bookmark?</a></li>
 <li><a href="#mplayer_errors">I try to play a file but nothing happens. 
 Why?</a></li>
+<!--
 <li><a href="#preferences_delay">When I open the preferences dialog for first 
 time it takes some secs to show, why?</a></li>
+-->
 <li><a href="#audio_equalizer">There's a video equalizer, but why isn't there 
 an audio equalizer?</a></li>
 <li><a href="#tv">Are you going to add support for TV?</a></li>
@@ -52,6 +54,7 @@ monitor but not in the 2nd, why?</a></li>
 videos, how can this be fixed?</a></li>
 <li><a href="#vista">(Windows) I'm using Windows Vista and every time 
 I play a video Aero is disabled, why?</a></li>
+<li><a href="#config_file">Where is the configuration file?</a></li>
 </ol>
 
 <hr>
@@ -133,6 +136,8 @@ Windows. gl/gl2 does work when using the real MPlayer window, but not
 when the video is embedded in another application. There's no known fix.
 The only thing you can do is either use directx instead of gl/gl2 or
 check the option to use the MPlayer window in <i>Preferences -> Advanced</i>.
+<p>
+<b>Update: this problem has finally been fixed in MPlayer r25972.</b>
 </li>
 
 <li><a name="screenshot"></a>
@@ -225,6 +230,7 @@ complains about fontconfig try to use a ttf font instead of a system
 font.
 </li>
 
+<!--
 <li><a name="preferences_delay"></a>
 <b>When I open the preferences dialog for first time it takes some
 secs to show, why?</b>
@@ -233,6 +239,7 @@ In that moment SMPlayer calls MPlayer to get some info from it (the
 output drivers, for instance). It happens the same with <i>Options -> View
 info and properties</i>.
 </li>
+-->
 
 <li><a name="audio_equalizer"></a>
 <b>There's a video equalizer, but why isn't there an audio equalizer?</b>
@@ -351,6 +358,22 @@ is disabled, why?</b>
 This happens when you're using <i>directx</i> as video driver 
 (<i>Preferences -> General</i>). You can change it to <i>gl</i> or <i>gl2</i>
 (users of nvidia cards, please <a href="#nvidia_problems">read this</a>).
+</li>
+
+<li><a name="config_file"></a>
+<b>Where is the configuration file?</b>
+<p>
+SMPlayer uses two <i>ini</i> files: smplayer.ini and smplayer_files.ini.
+Both are stored by default in <i>$HOME/.smplayer</i> (Linux) or
+<i>C:\Documents and Settings\your_username\.smplayer</i> (Windows XP).
+<p>
+You can also see it in the SMPlayer log (<i>Options -> View logs</i>), look
+for a line like this:
+<pre>
+ * ini path: '/home/ricardo/.smplayer'
+</pre>
+<i>smplayer.ini</i> stores the SMPlayer configuration while 
+<i>smplayer_files.ini</i> stores the settings of the files you have played.
 </li>
 
 </ol>
