@@ -1,4 +1,4 @@
-[b]Version 0.6.0rc2 (not released yet)[/b]:
+[b]Version 0.6.0rc2[/b]:
 
 (2008-02-11)
  * Added gl:yuv=3 and gl2:yuv=3 to the list of video drivers.
