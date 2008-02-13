@@ -1,3 +1,25 @@
+Version 0.6.0rc2.
+
+This version includes some bugfixes.
+
+Most important changes since 0.6.0rc1:
+
+ * Fix for relative paths to the mplayer binary. The problem could cause that
+   smplayer couldn't play anything if a directory or file named "mplayer"
+   existed in the home directory.
+ * The option Play -> Repeat has been improved.
+ * The selection of chapters in mkv files didn't work well if using a recent
+   mplayer from svn. This has been fixed now.
+ * (Windows) Bugfix: the buttons to select the font color in
+   Preferences->Subtitles->SSA/ASS didn't show the color.
+ * (Windows) Now the screensaver should be disabled even if protected by 
+   password (tested on Windows XP).
+ * (Windows) Bugfix: don't try to convert to 8.3 short names files that
+   don't exist. That could cause that URLs were corrupted.
+
+
+Version 0.6.0rc1.
+
 Most important changes since 0.5.62:
 
  * Added support for pls playlist files.
