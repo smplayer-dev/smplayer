@@ -40,6 +40,7 @@
 #include <QLCDNumber>
 #endif
 
+using namespace Global;
 
 DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
 	: BaseGuiPlus( parent, flags ),

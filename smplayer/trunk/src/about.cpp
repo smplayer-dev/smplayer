@@ -25,6 +25,7 @@
 
 #include <QFile>
 
+using namespace Global;
 
 About::About(QWidget * parent, Qt::WindowFlags f)
 	: QDialog(parent, f) 

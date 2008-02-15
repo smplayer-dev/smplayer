@@ -22,6 +22,8 @@
 
 #include <QRegExp>
 
+using namespace Global;
+
 int MplayerVersion::mplayerVersion(QString string) {
 	//static QRegExp rx_mplayer_revision("^MPlayer (\\S+)-SVN-r(\\d+)-(.*)");
 	static QRegExp rx_mplayer_revision("^MPlayer (.*)-r(\\d+)(.*)");

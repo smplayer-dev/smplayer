@@ -20,6 +20,8 @@
 #include "global.h"
 #include <QSettings>
 
+using namespace Global;
+
 Recents::Recents(QObject* parent) : QObject(parent) 
 {
 	l.clear();

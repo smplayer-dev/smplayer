@@ -26,6 +26,8 @@
 #include <QToolBar>
 #include <QStatusBar>
 
+using namespace Global;
+
 MiniGui::MiniGui( QWidget * parent, Qt::WindowFlags flags )
 	: BaseGuiPlus( parent, flags ), 
 		floating_control_width(80),

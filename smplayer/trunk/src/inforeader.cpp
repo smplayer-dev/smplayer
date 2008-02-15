@@ -32,6 +32,8 @@
 #include "myprocess.h"
 #endif
 
+using namespace Global;
+
 #define NOME 0
 #define VO 1
 #define AO 2
