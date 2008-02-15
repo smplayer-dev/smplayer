@@ -22,6 +22,7 @@
 #include "global.h"
 #include "preferences.h"
 
+using namespace Global;
 
 PrefPerformance::PrefPerformance(QWidget * parent, Qt::WindowFlags f)
 	: PrefWidget(parent, f )

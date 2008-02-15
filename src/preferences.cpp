@@ -25,6 +25,8 @@
 #include <QFileInfo>
 #include <QRegExp>
 
+using namespace Global;
+
 Preferences::Preferences() {
 	reset();
 	load();

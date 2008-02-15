@@ -54,6 +54,7 @@
 
 #include <stdlib.h>
 
+using namespace Global;
 
 #define DRAG_ITEMS 0
 

@@ -21,6 +21,8 @@
 #include "global.h"
 #include <QSettings>
 
+using namespace Global;
+
 MediaSettings::MediaSettings() {
 	reset();
 }

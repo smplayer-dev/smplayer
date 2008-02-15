@@ -26,12 +26,13 @@
 #include <QApplication>
 #include <QFile>
 
-QSettings * settings;
-Preferences * pref;
-Translator * translator;
+QSettings * Global::settings;
+Preferences * Global::pref;
+Translator * Global::translator;
 
+using namespace Global;
 
-void global_init(const QString & ini_path) {
+void Global::global_init(const QString & ini_path) {
 	qDebug("global_init");
 
 	// Translator
@@ -72,7 +73,7 @@ void global_init(const QString & ini_path) {
 	pref = new Preferences();
 }
 
-void global_end() {
+void Global::global_end() {
 	qDebug("global_end");
 
 	// delete

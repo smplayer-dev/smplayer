@@ -45,6 +45,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+using namespace Global;
+
 static QRegExp rx_log;
 
 void myMessageOutput( QtMsgType type, const char *msg ) {

@@ -26,6 +26,8 @@
 #include "mplayerversion.h"
 #include "helper.h"
 
+using namespace Global;
+
 MplayerProcess::MplayerProcess(QObject * parent) : MyProcess(parent) 
 {
 	connect( this, SIGNAL(lineAvailable(QByteArray)),

@@ -40,6 +40,7 @@
 #include "screensaver.h"
 #endif
 
+using namespace Global;
 
 Core::Core( MplayerWindow *mpw, QWidget* parent ) 
 	: QObject( parent ) 

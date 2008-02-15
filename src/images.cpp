@@ -25,6 +25,8 @@
 
 #include <QFile>
 
+using namespace Global;
+
 QString Images::filename(const QString & name, bool png) {
 	QString filename = name;
 

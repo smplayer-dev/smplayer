@@ -28,19 +28,22 @@ class QSettings;
 class Preferences;
 class Translator;
 
+namespace Global {
 
-// Read and store application settings
-extern QSettings * settings;
+	//! Read and store application settings
+	extern QSettings * settings;
 
-// Prefences
-extern Preferences * pref;
+	//! Prefences
+	extern Preferences * pref;
 
-// Translator (for changing language)
-extern Translator * translator;
+	//! Translator (for changing language)
+	extern Translator * translator;
 
 
-void global_init(const QString & ini_path);
-void global_end();
+	void global_init(const QString & ini_path);
+	void global_end();
+
+};
 
 #endif
 

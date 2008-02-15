@@ -76,6 +76,7 @@
 
 #include "extensions.h"
 
+using namespace Global;
 
 BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags ) 
 	: QMainWindow( parent, flags ),

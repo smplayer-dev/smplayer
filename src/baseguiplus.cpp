@@ -35,6 +35,7 @@
 #define PLAYLIST_ON_SIDES 1
 #endif
 
+using namespace Global;
 
 BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags )
 	: BaseGui( parent, flags ),
