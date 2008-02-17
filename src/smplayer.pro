@@ -71,6 +71,7 @@ HEADERS	+= config.h \
 	widgetactions.h \
 	defaultgui.h \
 	minigui.h \
+	smplayer.h \
 	clhelp.h
 
 
@@ -135,7 +136,8 @@ SOURCES	+= version.cpp \
 	defaultgui.cpp \
 	minigui.cpp \
 	clhelp.cpp \
-	main.cpp
+	smplayer.cpp \
+	main2.cpp
 
 FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
         eqslider.ui seekwidget.ui inputurl.ui \

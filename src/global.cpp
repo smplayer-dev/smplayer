@@ -26,9 +26,9 @@
 #include <QApplication>
 #include <QFile>
 
-QSettings * Global::settings;
-Preferences * Global::pref;
-Translator * Global::translator;
+QSettings * Global::settings = 0;
+Preferences * Global::pref = 0;
+Translator * Global::translator = 0;
 
 using namespace Global;
 
