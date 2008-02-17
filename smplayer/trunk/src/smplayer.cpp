@@ -18,6 +18,7 @@
 
 #include "smplayer.h"
 #include "defaultgui.h"
+#include "minigui.h"
 #include "global.h"
 #include "helper.h"
 #include "translator.h"
@@ -43,6 +44,7 @@ SMPlayer::SMPlayer(const QString & ini_path, QObject * parent )
 	: QObject(parent) 
 {
 	main_window = 0;
+	use_minigui = false;
 
     Helper::setAppPath( qApp->applicationDirPath() );
 
@@ -61,7 +63,10 @@ SMPlayer::~SMPlayer() {
 
 BaseGui * SMPlayer::gui() {
 	if (main_window == 0) {
-		main_window = new DefaultGui(0);
+		if (use_minigui) 
+			main_window = new MiniGui(0);
+		else
+			main_window = new DefaultGui(0);
 
 		// Changes to app path, so smplayer can find a relative mplayer path
 		QDir::setCurrent(Helper::appPath());
@@ -83,7 +88,7 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 	int start_in_fullscreen = -1;
 	bool show_help = false;
 
-	bool use_minigui = false;
+	use_minigui = false;
 	bool add_to_playlist = false;
 
 	bool is_playlist = false;
