@@ -1,3 +1,11 @@
+[b]Version 0.6.0rc3[/b] (not released yet):
+
+(2008-02-16)
+ * New experimental code. New class "SMPlayer" which initializes the global
+   objects and can parse the arguments. There's also a new main (main2.cpp).
+   It's possible this could have broken something!
+
+
 [b]Version 0.6.0rc2[/b]:
 
 (2008-02-11)
