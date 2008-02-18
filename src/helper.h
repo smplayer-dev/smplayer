@@ -82,7 +82,7 @@ public:
 	/* static void setScreensaverEnabled(bool b); */
 #endif
 
-	/* static void msleep(int ms); */
+	static void msleep(int ms);
 
 	//! Returns a string suitable to be used for -ass-color
 	static QString colorToRRGGBBAA(unsigned int color);

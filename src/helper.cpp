@@ -34,7 +34,7 @@
 #include <windows.h> // For the screensaver stuff
 #endif
 
-/*
+
 #if EXTERNAL_SLEEP
 #include <unistd.h>
 #else
@@ -55,7 +55,6 @@ public:
 	static void usleep(unsigned long usecs) {QThread::usleep(usecs);}
 };
 #endif
-*/
 
 
 QString Helper::logs;
@@ -295,7 +294,6 @@ void Helper::setScreensaverEnabled(bool b) {
 */
 #endif
 
-/*
 void Helper::msleep(int ms) {
 #if EXTERNAL_SLEEP
 	qDebug("Helper::msleep: %d (using usleep)", ms);
@@ -305,7 +303,6 @@ void Helper::msleep(int ms) {
 	Sleeper::msleep( ms );
 #endif
 }
-*/
 
 QString Helper::colorToRRGGBBAA(unsigned int color) {
 	QColor c;
