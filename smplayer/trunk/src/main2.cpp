@@ -17,18 +17,31 @@
 */
 
 #include <QApplication>
+#include <QFile>
+
 #include "smplayer.h"
 #include "global.h"
 #include "helper.h"
+
+#include <stdio.h>
+
+#define USE_LOCKS 1
+
+#if USE_LOCKS
+#include <unistd.h> // usleep
+#endif
 
 using namespace Global;
 
 void myMessageOutput( QtMsgType type, const char *msg ) {
 	static QRegExp rx_log;
 
-	if ( (!pref) || (!pref->log_smplayer) ) return;
-
-	rx_log.setPattern(pref->log_filter);
+	if (pref) {
+		if (!pref->log_smplayer) return;
+		rx_log.setPattern(pref->log_filter);
+	} else {
+		rx_log.setPattern(".*");
+	}
 
 	QString line = QString::fromUtf8(msg);
 	switch ( type ) {
@@ -61,6 +74,15 @@ void myMessageOutput( QtMsgType type, const char *msg ) {
 	}
 }
 
+#if USE_LOCKS
+void remove_lock(QString lock_file) {
+	if (QFile::exists(lock_file)) {
+		qDebug("main: removing %s", lock_file.toUtf8().data());
+		QFile::remove(lock_file);
+	}
+}
+#endif
+
 int main( int argc, char ** argv ) 
 {
 	QApplication a( argc, argv );
@@ -89,13 +111,50 @@ int main( int argc, char ** argv )
 
     qInstallMsgHandler( myMessageOutput );
 
+#if USE_LOCKS
+	//setIniPath will be set later in global_init, but we need it here
+	Helper::setIniPath(ini_path);
+
+	QString lock_file = Helper::iniPath() + "/smplayer_init.lock";
+	qDebug("main: lock_file: %s", lock_file.toUtf8().data());
+	if (QFile::exists(lock_file)) {
+		qDebug("main: %s exists, waiting...", lock_file.toUtf8().data());
+		// Wait 10 secs max.
+		int n = 100;
+		while ( n > 0) {
+			usleep( 100 * 1000 ); // wait 100 ms
+			if (!QFile::exists(lock_file)) break;
+			n--;
+			if ((n % 10) == 0) qDebug("main: waiting %d...", n);
+		}
+		remove_lock(lock_file);
+	} else {
+		// Create lock file
+		QFile f(lock_file);
+		if (f.open(QIODevice::WriteOnly)) {
+			f.write("smplayer lock file");
+			f.close();
+		} else {
+			qWarning("main: can't open %s for writing", lock_file.toUtf8().data());
+		}
+		
+	}
+#endif
+
 	SMPlayer * smplayer = new SMPlayer(ini_path);
 	SMPlayer::ExitCode c = smplayer->processArgs( args );
 	if (c != SMPlayer::NoExit) {
+#if USE_LOCKS
+		remove_lock(lock_file);
+#endif
 		return c;
 	}
 
 	smplayer->start();
+
+#if USE_LOCKS
+	remove_lock(lock_file);
+#endif
 
 	int r = a.exec();
 
