@@ -1,5 +1,14 @@
 [b]Version 0.6.0rc3[/b] (not released yet):
 
+(2008-02-17)
+ * On startup smplayer will create a lock file (smplayer_init.lock in the
+   config directory) which will be removed once smplayer has been initialized.
+   If another instance finds that file it will wait until the file is deleted
+   (or 10 seconds have passed). 
+   The reason for this is to give the first instance some time to proper 
+   initialize in case several instances were launched at the same time (Windows
+   does it if you select to "Enqueue in smplayer" multiple files).
+
 (2008-02-16)
  * New experimental code. New class "SMPlayer" which initializes the global
    objects and can parse the arguments. There's also a new main (main2.cpp).
