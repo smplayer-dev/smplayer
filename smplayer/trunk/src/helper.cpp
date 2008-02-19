@@ -296,10 +296,10 @@ void Helper::setScreensaverEnabled(bool b) {
 
 void Helper::msleep(int ms) {
 #if EXTERNAL_SLEEP
-	qDebug("Helper::msleep: %d (using usleep)", ms);
+	//qDebug("Helper::msleep: %d (using usleep)", ms);
 	usleep(ms*1000);
 #else
-	qDebug("Helper::msleep: %d (using QThread::msleep)", ms);
+	//qDebug("Helper::msleep: %d (using QThread::msleep)", ms);
 	Sleeper::msleep( ms );
 #endif
 }

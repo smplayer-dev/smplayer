@@ -27,10 +27,6 @@
 
 #define USE_LOCKS 1
 
-#if USE_LOCKS
-// #include <unistd.h> // usleep 
-#endif
-
 using namespace Global;
 
 void myMessageOutput( QtMsgType type, const char *msg ) {
@@ -122,8 +118,7 @@ int main( int argc, char ** argv )
 		// Wait 10 secs max.
 		int n = 100;
 		while ( n > 0) {
-			//usleep( 100 * 1000 ); // wait 100 ms
-			Helper::msleep(100);
+			Helper::msleep(100); // wait 100 ms
 			if (!QFile::exists(lock_file)) break;
 			n--;
 			if ((n % 10) == 0) qDebug("main: waiting %d...", n);
