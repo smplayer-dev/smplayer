@@ -2479,17 +2479,17 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefadvanced.cpp" line="340"/>
         <source>Pass short filenames (8+3) to MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Envoyer les noms courts des fichiers (8+3) à MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="344"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
-        <translation type="unfinished"></translation>
+        <translation>Actuellement MPlayer ne peut pas ouvrir les fichiers contenant trop de caractères. En cochant cette optique, SMPlayer passera à MPlayer la version courte des noms de fichiers and sera de ce fait capable de les ouvrir.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="267"/>
         <source>&amp;Pass short filenames (8+3) to MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Envoyer les noms courts des fichiers (8+3) à M&amp;Player</translation>
     </message>
 </context>
 <context>
@@ -3246,17 +3246,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="683"/>
         <source>High speed &amp;playback without altering pitch</source>
-        <translation type="unfinished"></translation>
+        <translation>Jouer ra&amp;pidement en arrière sans altérer le pitch</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="545"/>
         <source>High speed playback without altering pitch</source>
-        <translation type="unfinished"></translation>
+        <translation>Jouer rapidement en arrière sans altérer le pitch</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="547"/>
         <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation type="unfinished"></translation>
+        <translation>Permet de changer la vitesse de lecture en arrière sans altérer le pitch. Pour cela, MPlayer dev-SVN-r24924 est requis.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="557"/>
@@ -3271,7 +3271,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="563"/>
         <source>If this option is checked the initial volume will be set by using the &lt;i&gt;-volume&lt;/i&gt; option in MPlayer.&lt;br&gt; &lt;b&gt;WARNING: THE OFFICIAL MPLAYER DOESN&apos;T HAVE THAT &lt;i&gt;-volume&lt;/i&gt; OPTION, YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON&apos;T PLAY ANYTHING.&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Si cette optique est cochée, le volume initial sera celui que MPlayer utilise.&lt;br&gt; &lt;b&gt;Attention : le MPlayer officiel n&apos;a pas cette fonction, vous devez avoir une version modifiée, sinon MPlayer crashera et ne jouera rien.&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="296"/>
@@ -3802,12 +3802,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="458"/>
         <source>Seek to position while dragging</source>
-        <translation type="unfinished"></translation>
+        <translation>Recherche une position en en déplacant le curseur</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="463"/>
         <source>Seek to position when released</source>
-        <translation type="unfinished"></translation>
+        <translation>Recherche la position quand c&apos;est fini</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="507"/>
@@ -4085,7 +4085,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="245"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valeurs possibles :&lt;br&gt; &lt;b&gt;Oui&lt;/b&gt; : Cela essayera la méthode la plus rapide pour alterner la piste audio (cela peut ne pas marcher avec certains formats).&lt;br&gt;&lt;b&gt;Non&lt;/b&gt; : Le processus de MPlayer se rechargera lorsque vous changez de piste audio.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt; : SMPlayer décidera de lui-même quoi choisir en fonction de la version de MPlayer.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="258"/>
@@ -4175,17 +4175,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="227"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Activé&lt;b/&gt; : le filtre boucle ne passera pas</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="229"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Passer (toujours)&lt;/b&gt; : le fltre boucle passera sans se préoccuper de la résolution de la vidéo</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="232"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Passer seulement si vidéos HD&lt;/b&gt; : le filtre boucle passera seulement sur les vidéos ayant une largeur de %1 ou plus.</translation>
     </message>
 </context>
 <context>
