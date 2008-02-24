@@ -1365,12 +1365,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1072"/>
         <source>Enable &amp;closed caption</source>
-        <translation type="unfinished"></translation>
+        <translation>クローズド キャプションを有効にする(&amp;C)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1073"/>
         <source>&amp;Forced subtitles only</source>
-        <translation type="unfinished"></translation>
+        <translation>強制された字幕のみ(&amp;F)</translation>
     </message>
 </context>
 <context>
@@ -1680,7 +1680,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation>ここで MPlayer へのエクストラ オプションを渡すことができます。
+        <translation>ここでは MPlayer への追加オプションを渡すことができます。
 スペースで区切ってそれらを書き込みます。
 例: -flip -nosound</translation>
     </message>
@@ -1851,7 +1851,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../infofile.cpp" line="104"/>
         <source>Frames per second</source>
-        <translation>秒あたりのフレーム</translation>
+        <translation>フレーム パー セコンド</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="115"/>
@@ -1989,7 +1989,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../inputmplayerversion.ui" line="108"/>
         <source>Greater than 1.0rc2</source>
-        <translation>1.0rc2 以上</translation>
+        <translation>1.0rc2 より上</translation>
     </message>
 </context>
 <context>
@@ -2301,7 +2301,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="332"/>
         <source>This option allows to filter the smplayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
-        <translation>このオプションはログに格納される smplayer のメッセージのフィルタを許可します。ここで何か正規表現を書き込むことができます。&lt;br&gt;例: &lt;i&gt;^Core::.*&lt;/i&gt; では &lt;i&gt;Core::&lt;/i&gt; で始まる行のみが表示されます</translation>
+        <translation>このオプションはログに格納される smplayer のメッセージのフィルタを許可します。ここでは何か正規表現を書き込むことができます。&lt;br&gt;例: &lt;i&gt;^Core::.*&lt;/i&gt; では &lt;i&gt;Core::&lt;/i&gt; で始まる行のみが表示されます</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="13"/>
@@ -2328,7 +2328,7 @@ Do you want to overwrite?</source>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation>ここで MPlayer へのエクストラ オプションを渡すことができます。
+        <translation>ここでは MPlayer への追加オプションを渡すことができます。
 スペースで区切ってそれらを書き込みます。
 例: -flip -nosound</translation>
     </message>
@@ -2483,7 +2483,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="344"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
-        <translation>現在 MPlayer はローカル コードページ外の文字を含むファイル名を開くことができません。このオプションのチェックは SMPlayer にファイル名の短いバージョンを MPlayer へ渡させ、こうしてそれらを開くことができるようになります。</translation>
+        <translation>現在 MPlayer はローカル コードページ外の文字を含むファイル名を開くことができません。このオプションのチェックは SMPlayer にファイル名の短いバージョンを MPlayer へ渡させ、こうしてそれらを開けるようになります。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="267"/>
@@ -2662,7 +2662,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="460"/>
         <source>Here you must specify the mplayer executable that smplayer will use.&lt;br&gt;smplayer requires at least mplayer 1.0rc1 (svn recommended).&lt;br&gt;&lt;b&gt;If this setting is wrong, smplayer won&apos;t be able to play anything!&lt;/b&gt;</source>
-        <translation>ここで smplayer が使用する mplayer の実行ファイルを指定する必要があります。&lt;br&gt;smplayer は少なくとも mplayer 1.0rc1 (svn が推奨されます) を必要とします。&lt;br&gt;&lt;b&gt;この設定が間違っていると、smplayer は何も再生できなくなります!&lt;/b&gt;</translation>
+        <translation>ここでは smplayer が使用する mplayer の実行ファイルを指定する必要があります。&lt;br&gt;smplayer は少なくとも mplayer 1.0rc1 (svn が推奨されます) を必要とします。&lt;br&gt;&lt;b&gt;この設定が間違っていると、smplayer は何も再生できなくなります!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="462"/>
@@ -2672,7 +2672,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="465"/>
         <source>Here you can specify a folder where the screenshots taken by smplayer will be stored. If this field is empty the screenshot feature will be disabled.</source>
-        <translation>ここで smplayer によって取得されたスクリーンショットが格納されるフォルダを指定できます。このフィールドが空である場合はスクリーンショット機能は無効になります。</translation>
+        <translation>ここでは smplayer によって取得されたスクリーンショットが格納されるフォルダを指定できます。この欄が空である場合はスクリーンショット機能は無効になります。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="467"/>
@@ -2722,7 +2722,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="582"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>ここでオーディオ ストリームの優先言語を入力できます。複数のオーディオ ストリームのあるメディアが見つかったとき、smplayer は優先言語の使用を試行します。&lt;br&gt;これは DVD または mkv ファイルのような、オーディオ ストリームの言語についての情報を提供するメディアでのみ動作します。&lt;br&gt;このフィールドは正規表現を受け入れます。例: &lt;b&gt;es|esp|spa&lt;/b&gt; は &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; または &lt;i&gt;spa&lt;/i&gt; に一致する場合オーディオ トラックを選択します。</translation>
+        <translation>ここではオーディオ ストリームの優先言語を入力できます。複数のオーディオ ストリームのあるメディアが見つかったとき、smplayer は優先言語の使用を試行します。&lt;br&gt;これは DVD または mkv ファイルのような、オーディオ ストリームの言語についての情報を提供するメディアでのみ動作します。&lt;br&gt;この欄は正規表現を受け入れます。例: &lt;b&gt;es|esp|spa&lt;/b&gt; は &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; または &lt;i&gt;spa&lt;/i&gt; に一致する場合オーディオ トラックを選択します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="584"/>
@@ -2732,7 +2732,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="592"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>ここで字幕ストリームの優先言語を入力できます。複数の字幕ストリームのあるメディアが見つかったとき、smplayer は優先言語の使用を試行します。&lt;br&gt;これは DVD または mkv ファイルのような、字幕ストリームの言語についての情報を提供するメディアでのみ動作します。&lt;br&gt;このフィールドは正規表現を受け入れます。例: &lt;b&gt;es|esp|spa&lt;/b&gt; は &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; または &lt;i&gt;spa&lt;/i&gt; に一致する場合字幕ストリームを選択します。</translation>
+        <translation>ここでは字幕ストリームの優先言語を入力できます。複数の字幕ストリームのあるメディアが見つかったとき、smplayer は優先言語の使用を試行します。&lt;br&gt;これは DVD または mkv ファイルのような、字幕ストリームの言語についての情報を提供するメディアでのみ動作します。&lt;br&gt;この欄は正規表現を受け入れます。例: &lt;b&gt;es|esp|spa&lt;/b&gt; は &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; または &lt;i&gt;spa&lt;/i&gt; に一致する場合字幕ストリームを選択します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="493"/>
@@ -3157,7 +3157,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="535"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
-        <translation>パーセントで最大増幅レベルを設定します (既定: 110)。200 の値は最大で現在のレベルの倍へ音量を上方調整するのを許可します。100 以下の値で初期音量 (100%) は例えば OSD を正しく表示できない、最大以上になります。</translation>
+        <translation>パーセントで最大増幅レベルを設定します (既定: 110)。200 の値は最大で現在のレベルの倍へ音量を上方調整するのを許可します。100 より下の値では初期音量 (100%) がたとえば OSD を正しく表示できない、最大より上になります。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="538"/>
@@ -3227,7 +3227,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="79"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>ここでオーディオおよび字幕ストリームの優先言語を入力できます。複数のオーディオまたは字幕ストリームのあるメディアが見つかったとき、SMPlayer は優先言語の使用を試行します。これは DVD か mkv ファイルのような、オーディオおよび字幕ストリームの言語についての情報を提供するメディアでのみ動作します。&lt;br&gt;これらのフィールドは正規表現を受け入れます。例: &lt;b&gt;es|esp|spa&lt;/b&gt; は &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; または &lt;i&gt;spa&lt;/i&gt; に一致する場合トラックを選択します。</translation>
+        <translation>ここではオーディオおよび字幕ストリームの優先言語を入力できます。複数のオーディオまたは字幕ストリームのあるメディアが見つかったとき、SMPlayer は優先言語の使用を試行します。これは DVD か mkv ファイルのような、オーディオおよび字幕ストリームの言語についての情報を提供するメディアでのみ動作します。&lt;br&gt;これらの欄は正規表現を受け入れます。例: &lt;b&gt;es|esp|spa&lt;/b&gt; は &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; または &lt;i&gt;spa&lt;/i&gt; に一致する場合トラックを選択します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="749"/>
@@ -3311,7 +3311,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="110"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>ここですべてのショートカットを変更できます。それにはショートカット セルの上でダブル クリックまたは入力を開始します。また任意にその他の人または別のコンピュータでの読み込みおよび共有するのに一覧を保存できます。</translation>
+        <translation>ここではすべてのショートカットを変更できます。それにはショートカット セルの上でダブル クリックまたは入力を開始します。また任意にその他の人または別のコンピュータでの読み込みおよび共有するのに一覧を保存できます。</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="95"/>
@@ -3341,7 +3341,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="67"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>ここですべてのショートカットを変更できます。それにはショートカット セルの上でダブル クリックまたは enter を押します。また任意にその他の人または別のコンピュータでの読み込みおよび共有するのに一覧を保存できます。</translation>
+        <translation>ここではすべてのショートカットを変更できます。それにはショートカット セルの上でダブル クリックまたは enter を押します。また任意にその他の人または別のコンピュータでの読み込みおよび共有するのに一覧を保存できます。</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="223"/>
@@ -3684,7 +3684,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="419"/>
         <source>Here you can change the language of the application.</source>
-        <translation>ここでアプリケーションの言語を変更できます。</translation>
+        <translation>ここではアプリケーションの言語を変更できます。</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="48"/>
@@ -3734,7 +3734,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="532"/>
         <source>SMPlayer will listen to this &amp;port to receive commands from other instances:</source>
-        <translation>SMPlayer はその他からコマンドを受信するのにこのポートを聴きます(&amp;P):</translation>
+        <translation>SMPlayer はその他からコマンドを受信するのにこのポートを聴取します(&amp;P):</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="197"/>
@@ -4400,7 +4400,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="704"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
-        <translation>ここで SSA/ASS 字幕のスタイルを優先的に指定できます。SSA/ASS ライブラリによる SRT および SUB 字幕の描画の微調整にも使用できます。&lt;br&gt;例: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</translation>
+        <translation>ここでは SSA/ASS 字幕のスタイルを優先的に指定できます。SSA/ASS ライブラリによる SRT および SUB 字幕の描画の微調整にも使用できます。&lt;br&gt;例: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="639"/>
@@ -4646,7 +4646,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="131"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
-        <translation>[アクションの一覧] はスペースで区切られる動作の一覧です。動作は入力したのと同じ順序でファイル (あれば) の読み込み直後に実行されます。チェック可能な動作にはパラメータとして true または false を渡すことができます。例: -actions &quot;fullscreen compact true&quot;。引用符は 1 つ以上の動作を渡す場合に必要です。</translation>
+        <translation>[アクションの一覧] はスペースで区切られる動作の一覧です。動作は入力したのと同じ順序でファイル (あれば) の読み込み直後に実行されます。チェック可能な動作にはパラメータとして true または false を渡すことができます。例: -actions &quot;fullscreen compact true&quot;。引用符は 1 つより多くの動作を渡す場合に必要です。</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="154"/>
