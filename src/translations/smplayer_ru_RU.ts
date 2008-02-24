@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1335,12 +1336,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1072"/>
         <source>Enable &amp;closed caption</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить &amp;скрытые субтитры</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1073"/>
         <source>&amp;Forced subtitles only</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Только принудительно включенные субтитры</translation>
     </message>
 </context>
 <context>
