@@ -1,5 +1,10 @@
 [b]Version 0.6.0rc3[/b] (not released yet):
 
+(2008-02-23)
+ * Added two new options in the Subtitles menu: "Enable closed caption" and
+   "Forced subtitles only". These two options are global because they are
+   intended for DVDs. None of these two options have been tested!
+
 (2008-02-17)
  * On startup smplayer will create a lock file (smplayer_init.lock in the
    config directory) which will be removed once smplayer has been initialized.

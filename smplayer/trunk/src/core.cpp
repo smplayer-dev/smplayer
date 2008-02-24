@@ -1239,6 +1239,14 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( pref->subcp );
 	}
 
+	if (pref->use_closed_caption_subs) {
+		proc->addArgument("-subcc");
+	}
+
+	if (pref->use_forced_subs_only) {
+		proc->addArgument("-forcedsubsonly");
+	}
+
 	if (mset.current_audio_id != MediaSettings::NoneSelected) {
 		proc->addArgument("-aid");
 		proc->addArgument( QString::number( mset.current_audio_id ) );
@@ -2745,6 +2753,27 @@ void Core::changeUseAss(bool b) {
 	if (pref->use_ass_subtitles != b) {
 		pref->use_ass_subtitles = b;
 		if (proc->isRunning()) restartPlay();
+	}
+}
+
+void Core::toggleClosedCaption(bool b) {
+	qDebug("Core::toggleClosedCaption: %d", b);
+
+	if (pref->use_closed_caption_subs != b) {
+		pref->use_closed_caption_subs = b;
+		if (proc->isRunning()) restartPlay();
+	}
+}
+
+void Core::toggleForcedSubsOnly(bool b) {
+	qDebug("Core::toggleForcedSubsOnly: %d", b);
+
+	if (pref->use_forced_subs_only != b) {
+		pref->use_forced_subs_only = b;
+		//if (proc->isRunning()) restartPlay();
+		int v = 0;
+		if (b) v = 1;
+		tellmp( QString("forced_subs_only %1").arg(v) );
 	}
 }
 

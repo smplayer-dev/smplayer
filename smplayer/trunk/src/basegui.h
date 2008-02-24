@@ -325,6 +325,8 @@ protected:
 	MyAction * incSubScaleAct;
 	MyAction * decSubScaleAct;
 	MyAction * useAssAct;
+	MyAction * useClosedCaptionAct;
+	MyAction * useForcedSubsOnlyAct;
 
 	// Menu Options
 	MyAction * showPlaylistAct;
