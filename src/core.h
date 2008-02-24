@@ -212,6 +212,9 @@ public slots:
 	void resetPanscan();
 
 	void changeUseAss(bool);
+	void toggleClosedCaption(bool);
+	void toggleForcedSubsOnly(bool);
+
 	void visualizeMotionVectors(bool);
 
     // Pass a command to mplayer by stdin:

@@ -65,6 +65,9 @@ public:
 	QString ass_styles;
 	OptionState change_sub_scale_should_restart;
 
+	bool use_closed_caption_subs;
+	bool use_forced_subs_only;
+
 	// Use the new sub_vob, sub_demux and sub_file commands
 	// instead of sub_select
 	OptionState use_new_sub_commands; 

@@ -534,6 +534,14 @@ void BaseGui::createActions() {
 	useAssAct->setCheckable(true);
 	connect( useAssAct, SIGNAL(toggled(bool)), core, SLOT(changeUseAss(bool)) );
 
+	useClosedCaptionAct = new MyAction(this, "use_closed_caption");
+	useClosedCaptionAct->setCheckable(true);
+	connect( useClosedCaptionAct, SIGNAL(toggled(bool)), core, SLOT(toggleClosedCaption(bool)) );
+
+	useForcedSubsOnlyAct = new MyAction(this, "use_forced_subs_only");
+	useForcedSubsOnlyAct->setCheckable(true);
+	connect( useForcedSubsOnlyAct, SIGNAL(toggled(bool)), core, SLOT(toggleForcedSubsOnly(bool)) );
+
 	// Menu Options
 	showPlaylistAct = new MyAction( QKeySequence("Ctrl+L"), this, "show_playlist" );
 	showPlaylistAct->setCheckable( true );
@@ -1061,6 +1069,8 @@ void BaseGui::retranslateStrings() {
 	incSubStepAct->change( Images::icon("inc_sub_step"), 
                            tr("N&ext line in subtitles") );
 	useAssAct->change( Images::icon("use_ass_lib"), tr("Use SSA/&ASS library") );
+	useClosedCaptionAct->change( Images::icon("closed_caption"), tr("Enable &closed caption") );
+	useForcedSubsOnlyAct->change( Images::icon("forced_subs"), tr("&Forced subtitles only") );
 
 	// Menu Options
 	showPlaylistAct->change( Images::icon("playlist"), tr("&Playlist") );
@@ -1618,6 +1628,9 @@ void BaseGui::createMenus() {
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(decSubStepAct);
 	subtitlesMenu->addAction(incSubStepAct);
+	subtitlesMenu->addSeparator();
+	subtitlesMenu->addAction(useClosedCaptionAct);
+	subtitlesMenu->addAction(useForcedSubsOnlyAct);
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(useAssAct);
 
@@ -2262,6 +2275,10 @@ void BaseGui::updateWidgets() {
 
 	// Use ass lib
 	useAssAct->setChecked( pref->use_ass_subtitles );
+
+	// Closed caption and forces subs
+	useClosedCaptionAct->setChecked( pref->use_closed_caption_subs );
+	useForcedSubsOnlyAct->setChecked( pref->use_forced_subs_only );
 
 	// Enable or disable subtitle options
 	bool e = ((core->mset.current_sub_id != MediaSettings::SubNone) &&

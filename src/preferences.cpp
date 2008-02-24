@@ -66,6 +66,9 @@ void Preferences::reset() {
 	change_sub_scale_should_restart = Detect;
 	use_new_sub_commands = Detect;
 
+	use_closed_caption_subs = false;
+	use_forced_subs_only = false;
+
 	osd = None;
 
 	vo = ""; 
@@ -280,6 +283,8 @@ void Preferences::save() {
 	set->setValue("ass_styles", ass_styles);
 	set->setValue("change_sub_scale_should_restart", change_sub_scale_should_restart);
 	set->setValue("use_new_sub_commands", use_new_sub_commands);
+	set->setValue("use_closed_caption_subs", use_closed_caption_subs);
+	set->setValue("use_forced_subs_only", use_forced_subs_only);
 
 	set->setValue("osd", osd);
 	set->setValue("vo", vo);
@@ -488,6 +493,8 @@ void Preferences::load() {
 	ass_styles = set->value("ass_styles", ass_styles).toString();
 	change_sub_scale_should_restart = (OptionState) set->value("change_sub_scale_should_restart", change_sub_scale_should_restart).toInt();
 	use_new_sub_commands = (OptionState) set->value("use_new_sub_commands", use_new_sub_commands).toInt();
+	use_closed_caption_subs = set->value("use_closed_caption_subs", use_closed_caption_subs).toBool();
+	use_forced_subs_only = set->value("use_forced_subs_only", use_forced_subs_only).toBool();
 
 	osd = set->value("osd", osd).toInt();
 	vo = set->value("vo", vo).toString();
