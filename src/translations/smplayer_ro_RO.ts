@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1374,12 +1375,12 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
     <message>
         <location filename="../basegui.cpp" line="1072"/>
         <source>Enable &amp;closed caption</source>
-        <translation type="unfinished"></translation>
+        <translation>Activare subtitrare pentru &amp;handicap auditiv</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1073"/>
         <source>&amp;Forced subtitles only</source>
-        <translation type="unfinished"></translation>
+        <translation>Doar subtitrarea &amp;forțată</translation>
     </message>
 </context>
 <context>
