@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -265,7 +266,7 @@
     <message>
         <location filename="../about.cpp" line="156"/>
         <source>Korean</source>
-        <translation type="unfinished"></translation>
+        <translation>Korean</translation>
     </message>
 </context>
 <context>
@@ -1391,12 +1392,12 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../basegui.cpp" line="1072"/>
         <source>Enable &amp;closed caption</source>
-        <translation type="unfinished"></translation>
+        <translation>Włącz funkcję &amp;napisów na ekranie</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1073"/>
         <source>&amp;Forced subtitles only</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tylko wymuszone napisy</translation>
     </message>
 </context>
 <context>
@@ -3859,7 +3860,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinterface.cpp" line="100"/>
         <source>Korean</source>
-        <translation type="unfinished"></translation>
+        <translation>Korean</translation>
     </message>
 </context>
 <context>
