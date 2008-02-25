@@ -919,11 +919,13 @@ void Playlist::removeSelected() {
 	qDebug("Playlist::removeSelected");
 
 	int first_selected = -1;
+	int number_previous_item = 0;
 
 	for (int n=0; n < listView->rowCount(); n++) {
 		if (listView->isSelected(n, 0)) {
 			qDebug(" row %d selected", n);
 			pl[n].setMarkForDeletion(TRUE);
+			number_previous_item++;
 			if (first_selected == -1) first_selected = n;
 		}
 	}
@@ -937,6 +939,11 @@ void Playlist::removeSelected() {
 			setModified( true );
 		}
 	}
+
+
+    if (first_selected < current_item) {
+        current_item -= number_previous_item;
+    }
 
 	if (isEmpty()) setModified(false);
 	updateView();
