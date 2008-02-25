@@ -1,5 +1,9 @@
 [b]Version 0.6.0rc3[/b] (not released yet):
 
+(2008-02-25)
+ * Bugfix: mark the right current item in the playlist if deleted an item
+   above it. Patch by corentin1234.
+
 (2008-02-23)
  * Added two new options in the Subtitles menu: "Enable closed caption" and
    "Forced subtitles only". These two options are global because they are
