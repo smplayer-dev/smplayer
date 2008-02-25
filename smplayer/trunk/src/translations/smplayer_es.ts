@@ -1385,12 +1385,12 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="1072"/>
         <source>Enable &amp;closed caption</source>
-        <translation>Activar subtítulos &quot;close capt&amp;ion&quot;</translation>
+        <translation>Activar subtítulos para sordos (close capt&amp;ion)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1073"/>
         <source>&amp;Forced subtitles only</source>
-        <translation>Sólo ver subtítulos &amp;forzados</translation>
+        <translation>Mostrar sólo subtítulos &amp;forzados</translation>
     </message>
 </context>
 <context>
