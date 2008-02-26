@@ -1391,12 +1391,12 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1072"/>
         <source>Enable &amp;closed caption</source>
-        <translation>&amp;Einblendbare Untertitel aktivieren</translation>
+        <translation>&amp;Optionale Untertitel (closed caption) aktivieren</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1073"/>
         <source>&amp;Forced subtitles only</source>
-        <translation>&amp;Nur erzwungene Untertitel</translation>
+        <translation>&amp;Nur erzwungene Untertitel (Forced subtitles)</translation>
     </message>
 </context>
 <context>
