@@ -1542,9 +1542,9 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument("screenshot");
 	}
 
-	if ( (pref->use_soft_video_eq) && (pref->vo!="gl") && (pref->vo!="gl2") ) {
+	if ( (pref->use_soft_video_eq) /*&& (pref->vo!="gl") && (pref->vo!="gl2")*/ ) {
 		proc->addArgument("-vf-add");
-		proc->addArgument("eq2");
+		proc->addArgument("eq2,hue");
 	}
 
 	// Audio channels
