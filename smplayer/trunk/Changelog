@@ -1,5 +1,11 @@
 [b]Version 0.6.0rc3[/b] (not released yet):
 
+(2008-02-26)
+ * Add the hue filter if the software equalizer is enabled. This allows to
+   change the hue in the video equalizer.
+ * Allow the software equalizer to be used with gl/gl2. Note: it won't work
+   with gl or gl2 but it will work with gl:yuv=3 and gl2:yuv=3.
+
 (2008-02-25)
  * Bugfix: mark the right current item in the playlist if deleted an item
    above it. Patch by corentin1234.
