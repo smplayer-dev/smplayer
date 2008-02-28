@@ -49,9 +49,11 @@ About::About(QWidget * parent, Qt::WindowFlags f)
         "<br>" +
         tr("Compiled with Qt %1").arg(QT_VERSION_STR) + "<br><br>" +
 		mplayer_version +
-		tr("Visit our web for updates:") +" "+ link("http://smplayer.sf.net") + 
+		tr("Visit our web for updates:") +"<br>"+ 
+        link("http://smplayer.berlios.de") + "<br>" + 
+        link("http://smplayer.sf.net") + 
         "<br><br>" +
-		tr("Get help in our forum:") +" " + link("http://smplayer.sf.net/forums") +
+		tr("Get help in our forum:") +"<br>" + link("http://smplayer.berlios.de/forums") +
         "<br><br>" +
 		tr("You can support SMPlayer by making a donation.") +" "+
 		link("https://sourceforge.net/donate/index.php?group_id=185512", tr("More info"))
