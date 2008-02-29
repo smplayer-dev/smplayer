@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
-<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -24,182 +23,182 @@
         <translation type="obsolete">Holen Sie sich Hilfe in unserem Forum: %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="79"/>
+        <location filename="../about.cpp" line="81"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
         <translation>Dieses Programm ist freie Software; Sie können es weitergeben und/oder es unter den Bedingungen der allgemeinen  GNU Lizenz verändern, wie es durch die Free Software-Foundation festgelegt wurde; entweder Version 2 der Lizenz, oder (nach ihrer Wahl) eine neuere Version.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="86"/>
+        <location filename="../about.cpp" line="88"/>
         <source>Some people have helped with their contributions:</source>
         <translation>Mit ihrer Beteiligung haben folgende Leute geholfen:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="87"/>
+        <location filename="../about.cpp" line="89"/>
         <source>SMPlayer logo</source>
         <translation>SMPlayer Logo</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="88"/>
+        <location filename="../about.cpp" line="90"/>
         <source>file associations for Windows</source>
         <translation>Dateiverknüpfung für Windows</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="89"/>
+        <location filename="../about.cpp" line="91"/>
         <source>manpage for linux</source>
         <translation>Manpage für Linux</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="90"/>
+        <location filename="../about.cpp" line="92"/>
         <source>support for colored console output</source>
         <translation>Unterstützung für farbige Konsolenausgabe </translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="91"/>
+        <location filename="../about.cpp" line="93"/>
         <source>icon for file associations</source>
         <translation>Icon für Dateiverknüpfung</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="92"/>
+        <location filename="../about.cpp" line="94"/>
         <source>patch for file associations</source>
         <translation>Patch für Dateiverknüpfung</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="127"/>
+        <location filename="../about.cpp" line="129"/>
         <source>The following people have contributed with translations:</source>
         <translation>Die folgenden Leute haben an der Übersetzung mitgewirkt:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="128"/>
+        <location filename="../about.cpp" line="130"/>
         <source>German</source>
         <translation>Deutsch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="129"/>
+        <location filename="../about.cpp" line="131"/>
         <source>Slovak</source>
         <translation>Slowenisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="130"/>
+        <location filename="../about.cpp" line="132"/>
         <source>Italian</source>
         <translation>Italienisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="131"/>
+        <location filename="../about.cpp" line="133"/>
         <source>French</source>
         <translation>Französisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="132"/>
+        <location filename="../about.cpp" line="134"/>
         <source>%1, %2 and %3</source>
         <translation>%1, %2 and %3</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="135"/>
+        <location filename="../about.cpp" line="137"/>
         <source>Simplified-Chinese</source>
         <translation>Vereinfachtes Chinesisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="136"/>
+        <location filename="../about.cpp" line="138"/>
         <source>Russian</source>
         <translation>Russisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="139"/>
+        <location filename="../about.cpp" line="141"/>
         <source>%1 and %2</source>
         <translation>%1 and %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="137"/>
+        <location filename="../about.cpp" line="139"/>
         <source>Hungarian</source>
         <translation>Ungarisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="138"/>
+        <location filename="../about.cpp" line="140"/>
         <source>Polish</source>
         <translation>Polnisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="141"/>
+        <location filename="../about.cpp" line="143"/>
         <source>Japanese</source>
         <translation>Japanisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="142"/>
+        <location filename="../about.cpp" line="144"/>
         <source>Dutch</source>
         <translation>Niederländisch </translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="143"/>
+        <location filename="../about.cpp" line="145"/>
         <source>Ukrainian</source>
         <translation>Ukrainisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="144"/>
+        <location filename="../about.cpp" line="146"/>
         <source>Portuguese - Brazil</source>
         <translation>Portugiesisch - Brasilien</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="145"/>
+        <location filename="../about.cpp" line="147"/>
         <source>Georgian</source>
         <translation>Georgisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="146"/>
+        <location filename="../about.cpp" line="148"/>
         <source>Czech</source>
         <translation>Tschechisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="147"/>
+        <location filename="../about.cpp" line="149"/>
         <source>Bulgarian</source>
         <translation>Bulgarisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="148"/>
+        <location filename="../about.cpp" line="150"/>
         <source>Turkish</source>
         <translation>Türkisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="149"/>
+        <location filename="../about.cpp" line="151"/>
         <source>Swedish</source>
         <translation>Schwedisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="150"/>
+        <location filename="../about.cpp" line="152"/>
         <source>Serbian</source>
         <translation>Serbisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="151"/>
+        <location filename="../about.cpp" line="153"/>
         <source>Traditional Chinese</source>
         <translation>Traditionelles Chinesisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="152"/>
+        <location filename="../about.cpp" line="154"/>
         <source>Romanian</source>
         <translation>Romanisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="153"/>
+        <location filename="../about.cpp" line="155"/>
         <source>Portuguese - Portugal</source>
         <translation>Portugiesisch - Portugal</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="154"/>
+        <location filename="../about.cpp" line="156"/>
         <source>Greek</source>
         <translation>Griechisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="155"/>
+        <location filename="../about.cpp" line="157"/>
         <source>Finnish</source>
         <translation>Finnisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="161"/>
+        <location filename="../about.cpp" line="164"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="170"/>
+        <location filename="../about.cpp" line="173"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -244,17 +243,17 @@
         <translation>Besuchen sie unser Web für Updates:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="54"/>
+        <location filename="../about.cpp" line="56"/>
         <source>Get help in our forum:</source>
         <translation>Holen Sie sich Hilfe in unserem Forum:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="56"/>
+        <location filename="../about.cpp" line="58"/>
         <source>You can support SMPlayer by making a donation.</source>
         <translation>Sie können SMPlayer durch eine Spende unterstützen.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="57"/>
+        <location filename="../about.cpp" line="59"/>
         <source>More info</source>
         <translation>Mehr Info</translation>
     </message>
@@ -264,9 +263,14 @@
         <translation>Unter Einsatz von MPlayer SVN r%1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="156"/>
+        <location filename="../about.cpp" line="158"/>
         <source>Korean</source>
         <translation>Koreanisch</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="159"/>
+        <source>Macedonian</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2159,12 +2163,12 @@ Do you want to overwrite?</source>
 Überschreiben ?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1049"/>
+        <location filename="../playlist.cpp" line="1056"/>
         <source>Edit name</source>
         <translation>Name bearbeiten</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1050"/>
+        <location filename="../playlist.cpp" line="1057"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Den Dateinamen schreiben, wie er in der Abspielliste angezeigt werden soll:</translation>
     </message>
@@ -3606,77 +3610,77 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>Georgisch</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="101"/>
+        <location filename="../prefinterface.cpp" line="102"/>
         <source>Dutch</source>
         <translation>Niederländisch </translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="102"/>
+        <location filename="../prefinterface.cpp" line="103"/>
         <source>Polish</source>
         <translation>Polnisch</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="103"/>
+        <location filename="../prefinterface.cpp" line="104"/>
         <source>Portuguese - Brazil</source>
         <translation>Portugiesisch - Brasilien</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="104"/>
+        <location filename="../prefinterface.cpp" line="105"/>
         <source>Portuguese - Portugal</source>
         <translation>Portugiesisch - Portugal</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="105"/>
+        <location filename="../prefinterface.cpp" line="106"/>
         <source>Romanian</source>
         <translation>Romanisch</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="106"/>
+        <location filename="../prefinterface.cpp" line="107"/>
         <source>Russian</source>
         <translation>Russisch</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="107"/>
+        <location filename="../prefinterface.cpp" line="108"/>
         <source>Slovak</source>
         <translation>Slowenisch</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="108"/>
+        <location filename="../prefinterface.cpp" line="109"/>
         <source>Serbian</source>
         <translation>Serbisch</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="109"/>
+        <location filename="../prefinterface.cpp" line="110"/>
         <source>Swedish</source>
         <translation>Schwedisch</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="110"/>
+        <location filename="../prefinterface.cpp" line="111"/>
         <source>Turkish</source>
         <translation>Türkisch</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="111"/>
+        <location filename="../prefinterface.cpp" line="112"/>
         <source>Ukrainian</source>
         <translation>Ukrainisch</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="112"/>
+        <location filename="../prefinterface.cpp" line="113"/>
         <source>Simplified-Chinese</source>
         <translation>Vereinfachtes Chinesisch</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="113"/>
+        <location filename="../prefinterface.cpp" line="114"/>
         <source>Traditional Chinese</source>
         <translation>Traditionelles Chinesisch</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="120"/>
+        <location filename="../prefinterface.cpp" line="121"/>
         <source>&lt;Autodetect&gt;</source>
         <translation>&lt;Automatisch&gt;</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="172"/>
+        <location filename="../prefinterface.cpp" line="173"/>
         <source>Default</source>
         <translation>Standard</translation>
     </message>
@@ -3711,12 +3715,12 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>Erst nach dem Laden eines neuen Videos</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="418"/>
+        <location filename="../prefinterface.cpp" line="419"/>
         <source>Language</source>
         <translation>Sprache</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="419"/>
+        <location filename="../prefinterface.cpp" line="420"/>
         <source>Here you can change the language of the application.</source>
         <translation>Hier kann die Sprache des Programms geändert werden</translation>
     </message>
@@ -3741,22 +3745,22 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>Galizisch</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="147"/>
+        <location filename="../prefinterface.cpp" line="148"/>
         <source>&amp;Short jump</source>
         <translation>&amp;Kleiner Sprung</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="148"/>
+        <location filename="../prefinterface.cpp" line="149"/>
         <source>&amp;Medium jump</source>
         <translation>&amp;Normaler Sprung</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="149"/>
+        <location filename="../prefinterface.cpp" line="150"/>
         <source>&amp;Long jump</source>
         <translation>&amp;Langer Sprung</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="150"/>
+        <location filename="../prefinterface.cpp" line="151"/>
         <source>Mouse &amp;wheel jump</source>
         <translation>&amp;Sprung per Mausrad</translation>
     </message>
@@ -3859,6 +3863,11 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <location filename="../prefinterface.cpp" line="100"/>
         <source>Korean</source>
         <translation>Koreanisch</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="101"/>
+        <source>Macedonian</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
