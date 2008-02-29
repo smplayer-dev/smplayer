@@ -98,6 +98,7 @@ void PrefInterface::createLanguageCombo() {
 	m["ja"] = tr("Japanese");
 	m["ka"] = tr("Georgian");
 	m["ko"] = tr("Korean");
+	m["mk"] = tr("Macedonian");
 	m["nl"] = tr("Dutch");
 	m["pl"] = tr("Polish");
 	m["pt_BR"] = tr("Portuguese - Brazil");
