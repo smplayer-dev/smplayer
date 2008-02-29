@@ -270,7 +270,7 @@
     <message>
         <location filename="../about.cpp" line="160"/>
         <source>Basque</source>
-        <translation type="unfinished">Euskera</translation>
+        <translation>Vasco</translation>
     </message>
 </context>
 <context>
@@ -3764,7 +3764,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="92"/>
         <source>Basque</source>
-        <translation>Euskera</translation>
+        <translation>Vasco</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="95"/>
