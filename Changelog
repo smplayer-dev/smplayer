@@ -3,6 +3,8 @@
 (2008-03-01)
  * Try to keep fullscreen mode if running mplayer in its own window when
    opening a new file.
+ * Added flac to the list of audio extensions. Patch by 
+   Tanguy Krotoff <tkrotoff@gmail.com>
 
 (2008-02-29)
  * Added the Macedonian translation by Marko Doda <mark0d0da@gmail.com>
