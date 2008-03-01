@@ -1029,8 +1029,12 @@ void Core::startMplayer( QString file, double seek ) {
 
 	proc->addArgument("-noquiet");
 
-	// No mplayer fullscreen mode
-	proc->addArgument("-nofs");
+	if (pref->fullscreen && pref->use_mplayer_window) {
+		proc->addArgument("-fs");
+	} else {
+		// No mplayer fullscreen mode
+		proc->addArgument("-nofs");
+	}
 
 	// Demuxer and audio and video codecs:
 	if (!mset.forced_demuxer.isEmpty()) {
