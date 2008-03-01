@@ -255,12 +255,12 @@
     <message>
         <location filename="../about.cpp" line="159"/>
         <source>Macedonian</source>
-        <translation type="unfinished"></translation>
+        <translation>マケドニア語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="160"/>
         <source>Basque</source>
-        <translation type="unfinished">バスク語</translation>
+        <translation>バスク語</translation>
     </message>
 </context>
 <context>
@@ -3839,7 +3839,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="101"/>
         <source>Macedonian</source>
-        <translation type="unfinished"></translation>
+        <translation>マケドニア語</translation>
     </message>
 </context>
 <context>
