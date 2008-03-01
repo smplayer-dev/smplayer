@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -270,12 +271,12 @@
     <message>
         <location filename="../about.cpp" line="159"/>
         <source>Macedonian</source>
-        <translation type="unfinished"></translation>
+        <translation>Mazedonisch</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="160"/>
         <source>Basque</source>
-        <translation type="unfinished">Baskisch</translation>
+        <translation>Baskisch</translation>
     </message>
 </context>
 <context>
@@ -3727,7 +3728,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="420"/>
         <source>Here you can change the language of the application.</source>
-        <translation>Hier kann die Sprache des Programms geändert werden</translation>
+        <translation>Hier kann die Sprache des Programms geändert werden.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="48"/>
@@ -3872,7 +3873,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="101"/>
         <source>Macedonian</source>
-        <translation type="unfinished"></translation>
+        <translation>Mazedonisch</translation>
     </message>
 </context>
 <context>
