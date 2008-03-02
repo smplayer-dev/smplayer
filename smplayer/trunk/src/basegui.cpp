@@ -1719,8 +1719,8 @@ void BaseGui::closeWindow() {
 	qDebug("BaseGui::closeWindow");
 
 	core->stop();
-	//qApp->closeAllWindows();
-	qApp->quit();
+	//qApp->quit();
+	emit quitSolicited();
 }
 
 void BaseGui::showPlaylist() {

@@ -82,7 +82,7 @@ void remove_lock(QString lock_file) {
 int main( int argc, char ** argv ) 
 {
 	QApplication a( argc, argv );
-	a.connect( &a, SIGNAL( lastWindowClosed() ), &a, SLOT( quit() ) );
+	//a.connect( &a, SIGNAL( lastWindowClosed() ), &a, SLOT( quit() ) );
 
 	// Sets the ini_path
 	QString ini_path;
@@ -146,6 +146,7 @@ int main( int argc, char ** argv )
 		return c;
 	}
 
+	a.connect(smplayer->gui(), SIGNAL(quitSolicited()), &a, SLOT(quit()));
 	smplayer->start();
 
 #if USE_LOCKS
