@@ -165,7 +165,7 @@ void BaseGui::initializeGui() {
 	if (pref->stay_on_top) toggleStayOnTop(TRUE);
 	toggleFrameCounter( pref->show_frame_counter );
 
-#if QT_VERSION >= 0x040200
+#if ALLOW_CHANGE_STYLESHEET
 	changeStyleSheet(pref->iconset);
 #endif
 
@@ -1795,9 +1795,9 @@ void BaseGui::applyNewPreferences() {
 	if (_interface->iconsetChanged()) { 
 		need_update_language = true;
 		// Stylesheet
-		#if QT_VERSION >= 0x040200
+#if ALLOW_CHANGE_STYLESHEET
 		changeStyleSheet(pref->iconset);
-		#endif
+#endif
 	}
 
 	if (!pref->use_single_instance && server->isListening()) {
@@ -3314,6 +3314,7 @@ void BaseGui::checkMousePos(QPoint p) {
 	}
 }
 
+#if ALLOW_CHANGE_STYLESHEET
 void BaseGui::loadQss(QString filename) {
 	QFile file( filename );
 	file.open(QFile::ReadOnly);
@@ -3340,6 +3341,7 @@ void BaseGui::changeStyleSheet(QString style) {
 		}
 	}
 }
+#endif
 
 void BaseGui::loadActions() {
 	qDebug("BaseGui::loadActions");
