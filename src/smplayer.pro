@@ -137,7 +137,7 @@ SOURCES	+= version.cpp \
 	minigui.cpp \
 	clhelp.cpp \
 	smplayer.cpp \
-	main2.cpp
+	main.cpp
 
 FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
         eqslider.ui seekwidget.ui inputurl.ui \
