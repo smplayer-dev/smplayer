@@ -53,6 +53,12 @@
 #define STYLE_SWITCHING 1
 
 
+// ALLOW_CHANGE_STYLESHEET
+// if 1, the app stylesheet can be changed
+
+#define ALLOW_CHANGE_STYLESHEET 1
+
+
 // New code to resize the main window
 
 #define NEW_RESIZE_CODE 1

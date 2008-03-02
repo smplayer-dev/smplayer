@@ -187,8 +187,10 @@ protected slots:
 	void askForMplayerVersion(QString);
 
 	// stylesheet
+#if ALLOW_CHANGE_STYLESHEET
 	virtual void loadQss(QString filename);
 	virtual void changeStyleSheet(QString style);
+#endif
 
 #if NEW_RESIZE_CODE
 	void calculateDiff(); //!< Updates diff_size
