@@ -217,6 +217,9 @@ signals:
 	void middleClicked();
 	*/
 
+	//! Sent when the user wants to close the main window
+	void quitSolicited();
+
 protected:
 	virtual void retranslateStrings();
 	virtual void changeEvent(QEvent * event);
