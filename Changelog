@@ -1,5 +1,9 @@
 [b]Version 0.6.0rc3[/b] (not released yet):
 
+(2008-03-02)
+ * Bugfix: the keys PgDown and PgUp were incorrectly identified as PageDown
+   and PageUp by shortcutgetter.
+
 (2008-03-01)
  * Try to keep fullscreen mode if running mplayer in its own window when
    opening a new file.
