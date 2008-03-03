@@ -82,8 +82,8 @@ static void initKeyMap()
 	keyMap[Qt::Key_Up] = "Up";
 	keyMap[Qt::Key_Right] = "Right";
 	keyMap[Qt::Key_Down] = "Down";
-	keyMap[Qt::Key_PageUp] = "PageUp";
-	keyMap[Qt::Key_PageDown] = "PageDown";
+	keyMap[Qt::Key_PageUp] = "PgUp";
+	keyMap[Qt::Key_PageDown] = "PgDown";
 	keyMap[Qt::Key_CapsLock] = "CapsLock";
 	keyMap[Qt::Key_NumLock] = "NumLock";
 	keyMap[Qt::Key_ScrollLock] = "ScrollLock";
