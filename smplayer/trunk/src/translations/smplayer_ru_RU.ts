@@ -3689,7 +3689,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="101"/>
         <source>Macedonian</source>
-        <translation type="unfinished"></translation>
+        <translation>Македонский</translation>
     </message>
 </context>
 <context>
