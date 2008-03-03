@@ -1,5 +1,8 @@
 [b]Version 0.6.0rc3[/b] (not released yet):
 
+(2008-03-03)
+ * Now the shortcut editor should recognize some of the multimedia keys.
+
 (2008-03-02)
  * Bugfix: the keys PgDown and PgUp were incorrectly identified as PageDown
    and PageUp by shortcutgetter.
