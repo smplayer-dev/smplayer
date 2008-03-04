@@ -2,6 +2,7 @@
 
 (2008-03-03)
  * Now the shortcut editor should recognize some of the multimedia keys.
+ * (By user request) Added an action to reset the video equalizer.
 
 (2008-03-02)
  * Bugfix: the keys PgDown and PgUp were incorrectly identified as PageDown
