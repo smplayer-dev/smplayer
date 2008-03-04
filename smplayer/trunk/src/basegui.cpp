@@ -684,6 +684,9 @@ void BaseGui::createActions() {
 	doubleSizeAct = new MyAction( Qt::CTRL | Qt::Key_D, this, "toggle_double_size");
 	connect( doubleSizeAct, SIGNAL(triggered()), core, SLOT(toggleDoubleSize()) );
 
+	resetVideoEqualizerAct = new MyAction( this, "reset_video_equalizer");
+	connect( resetVideoEqualizerAct, SIGNAL(triggered()), equalizer, SLOT(reset()) );
+
 	// Group actions
 
 	// OSD
@@ -1129,6 +1132,7 @@ void BaseGui::retranslateStrings() {
 	nextChapterAct->change( tr("Next chapter") );
 	prevChapterAct->change( tr("Previous chapter") );
 	doubleSizeAct->change( tr("&Toggle double size") );
+	resetVideoEqualizerAct->change( tr("Reset video equalizer") );
 
 	// Action groups
 	osdNoneAct->change( tr("&Disabled") );

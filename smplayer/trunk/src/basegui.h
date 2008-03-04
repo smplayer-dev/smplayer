@@ -374,6 +374,7 @@ protected:
 	MyAction * nextChapterAct;
 	MyAction * prevChapterAct;
 	MyAction * doubleSizeAct;
+	MyAction * resetVideoEqualizerAct;
 
 	// Moving and zoom
 	MyAction * moveUpAct;
