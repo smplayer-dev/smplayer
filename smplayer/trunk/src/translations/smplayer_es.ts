@@ -1405,7 +1405,7 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="1135"/>
         <source>Reset video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Reiniciar el ecualizador de vídeo</translation>
     </message>
 </context>
 <context>
