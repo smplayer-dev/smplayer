@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -270,12 +271,12 @@
     <message>
         <location filename="../about.cpp" line="159"/>
         <source>Macedonian</source>
-        <translation type="unfinished"></translation>
+        <translation>Macedonian</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="160"/>
         <source>Basque</source>
-        <translation type="unfinished">Basque</translation>
+        <translation>Basque</translation>
     </message>
 </context>
 <context>
@@ -1411,7 +1412,7 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../basegui.cpp" line="1135"/>
         <source>Reset video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Resetuj korektor wideo</translation>
     </message>
 </context>
 <context>
@@ -3551,7 +3552,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinput.cpp" line="69"/>
         <source>Show equalizer</source>
-        <translation>Pokaż equalizer</translation>
+        <translation>Pokaż korektor wideo</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="65"/>
@@ -3879,7 +3880,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinterface.cpp" line="101"/>
         <source>Macedonian</source>
-        <translation type="unfinished"></translation>
+        <translation>Macedonian</translation>
     </message>
 </context>
 <context>
