@@ -104,6 +104,11 @@
 #define SCALE_ASS_SUBS 1
 
 
+// Just for testing, possibility to disable the use of the colorkey
+
+#define USE_COLORKEY 1
+
+
 // Testing with a QGLWidget (for Windows)
 #define USE_GL_WIDGET 0
 

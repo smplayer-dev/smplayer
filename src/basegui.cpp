@@ -1359,7 +1359,9 @@ void BaseGui::createCore() {
 
 void BaseGui::createMplayerWindow() {
     mplayerwindow = new MplayerWindow( panel );
+#if USE_COLORKEY
 	mplayerwindow->setColorKey( pref->color_key );
+#endif
 	mplayerwindow->allowVideoMovement( pref->allow_video_movement );
 
 	QHBoxLayout * layout = new QHBoxLayout;
@@ -1828,9 +1830,11 @@ void BaseGui::applyNewPreferences() {
 	if (advanced->clearingBackgroundChanged()) {
 		mplayerwindow->videoLayer()->allowClearingBackground(pref->always_clear_video_background);
 	}
+#if USE_COLORKEY
 	if (advanced->colorkeyChanged()) {
 		mplayerwindow->setColorKey( pref->color_key );
 	}
+#endif
 	if (advanced->monitorAspectChanged()) {
 		mplayerwindow->setMonitorAspect( pref->monitor_aspect_double() );
 	}
