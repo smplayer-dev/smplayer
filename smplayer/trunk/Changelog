@@ -3,6 +3,7 @@
 (2008-03-05)
  * Ignore action restore/hide if system tray icon is not visible. Fixes
    bug #1908229.
+ * Added option in config.h to disable the use of the colorkey.
 
 (2008-03-03)
  * Now the shortcut editor should recognize some of the multimedia keys.
