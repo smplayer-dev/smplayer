@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -2536,92 +2537,92 @@ Die Auswahl-Liste enthält evt.schon die regulären Ausdrücke.</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="320"/>
         <source>Monitor aspect</source>
-        <translation type="unfinished"></translation>
+        <translation>Seitenverhältnis</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="321"/>
         <source>Select the aspect ratio of your monitor.</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl Aspect Ratio des Monitors.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="352"/>
         <source>Run MPlayer in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>Wiedergabe im MPlayer-Fenster</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="358"/>
         <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mit dieser Option wird das MPlayer-Fenster nicht im SMPlayer-Fenster eingebettet, sondern die Ausgabe erfolgt direkt über MPlayer. Maus und Tastatur werden direkt von MPlayer abgefragt, SMPlayer Tastaturkurz- und Maus-Tasten Befehle werden wahrscheinlich nicht funktionieren, wenn das MPlayer-Fenster den Fokus hat.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="374"/>
         <source>Colorkey</source>
-        <translation type="unfinished"></translation>
+        <translation>Farbschlüssel</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="377"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn Teile des Videos über ein Fenster hinaus verschoben sind, kann der Fehler mit Änderungen des Farbschlüssels behoben werden. Versuche eine Farbe in Richtung Schwarz.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="380"/>
         <source>Options for MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Optionen für MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="382"/>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Optionen</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="384"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier können Optionen für MPlayer hinzugefügt werden. Optionen seperat schreiben mit Freizeichen.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="386"/>
         <source>Video filters</source>
-        <translation type="unfinished"></translation>
+        <translation>Videofilter</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="388"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier können Videofilter für MPlayer hinzugefügt werden. Kommandos seperat schreiben. Keine Freizeichen!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="390"/>
         <source>Audio filters</source>
-        <translation type="unfinished"></translation>
+        <translation>Audiofilter</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="392"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier können Audiofilter für MPlayer hinzugefügt werden. Kommandos seperat schreiben. Keine Freizeichen!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="394"/>
         <source>MPlayer language</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer Sprache</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="396"/>
         <source>End of file</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateiende</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="397"/>
         <source>Select or type a regular expression for &apos;End of file&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl, oder Eingabe eines regulären Ausdrucks für &quot;Ende der Datei&quot;</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="399"/>
         <source>No video</source>
-        <translation type="unfinished"></translation>
+        <translation>Kein Video</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="400"/>
         <source>Select or type a regular expression for &apos;No video&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl, oder Eingabe eines regulären Ausdrucks für &quot;Kein Video&quot;</translation>
     </message>
 </context>
 <context>
@@ -2832,7 +2833,7 @@ Um CDs oder DVDs abzupielen, müßen die Laufwerke vorher bestimmt werden
     <message>
         <location filename="../prefgeneral.cpp" line="580"/>
         <source>Preferred audio and subtitles</source>
-        <translation type="unfinished">Bevorzugter Ton und Untertitel</translation>
+        <translation>Bevorzugter Ton und Untertitel</translation>
     </message>
     <message>
         <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefgeneral.ui" line="290"/>
@@ -2847,7 +2848,7 @@ Um CDs oder DVDs abzupielen, müßen die Laufwerke vorher bestimmt werden
     <message>
         <location filename="../prefgeneral.cpp" line="494"/>
         <source>Video</source>
-        <translation type="unfinished">Video</translation>
+        <translation>Video</translation>
     </message>
     <message>
         <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefgeneral.ui" line="347"/>
@@ -2877,7 +2878,7 @@ Um CDs oder DVDs abzupielen, müßen die Laufwerke vorher bestimmt werden
     <message>
         <location filename="../prefgeneral.cpp" line="530"/>
         <source>Audio</source>
-        <translation type="unfinished">Audio</translation>
+        <translation>Audio</translation>
     </message>
     <message>
         <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefgeneral.ui" line="500"/>
@@ -3644,22 +3645,22 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinput.cpp" line="182"/>
         <source>Keyboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Tastatur</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="195"/>
         <source>Mouse</source>
-        <translation type="unfinished"></translation>
+        <translation>Maus</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="203"/>
         <source>Middle click</source>
-        <translation type="unfinished"></translation>
+        <translation>Click Mitte</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="204"/>
         <source>Select the action for middle click on the mouse.</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl der Mausaktion für Click Mitte.</translation>
     </message>
 </context>
 <context>
@@ -3812,7 +3813,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="446"/>
         <source>Seeking</source>
-        <translation type="unfinished">Positionierung</translation>
+        <translation>Positionierung</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="130"/>
@@ -3847,7 +3848,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="467"/>
         <source>Instances</source>
-        <translation type="unfinished">Prozesse</translation>
+        <translation>Prozesse</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="86"/>
@@ -3992,132 +3993,132 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="421"/>
         <source>Autoresize</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatische Größenveränderung</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="423"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Das Hauptfenster kann automatisch redimensioniert werden. Auswahl der bevorzugten Optionen.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="425"/>
         <source>Remember position and size</source>
-        <translation type="unfinished"></translation>
+        <translation>Position und Größe beibehalten</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="427"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mit dieser Option wird die Position und Größe des Hauptfensters gespeichert und bei einem erneuten Start von SMPlayer wieder hergestellt.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="432"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl der maximalen Einträge die in dem &lt;b&gt;Öffnen-&gt;Neueste Dateien&lt;/b&gt; Untermenü angezeigt werden. Bei null wird das Menü überhaupt nicht angezeigt.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="437"/>
         <source>Icon set</source>
-        <translation type="unfinished"></translation>
+        <translation>Iconsatz</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="438"/>
         <source>Select the icon set you prefer for the application.</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl des bevorzugten Iconsatzes für das Programm.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="440"/>
         <source>Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Stil</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="441"/>
         <source>Select the style you prefer for the application.</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl des bevorzugten Stils für das Programm.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="443"/>
         <source>Default font</source>
-        <translation type="unfinished"></translation>
+        <translation>Standard Schriftart</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="444"/>
         <source>You can change here the application&apos;s font.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier kann die Schriftart des Programms geändert werden.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="448"/>
         <source>Short jump</source>
-        <translation type="unfinished"></translation>
+        <translation>Kleiner Sprung</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="458"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeitbestimmung für Vorwärts, oder Rückwärts, bei Auswahl %1 Aktion.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="450"/>
         <source>short jump</source>
-        <translation type="unfinished"></translation>
+        <translation>kleiner Sprung</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="452"/>
         <source>Medium jump</source>
-        <translation type="unfinished"></translation>
+        <translation>Normaler Sprung</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="454"/>
         <source>medium jump</source>
-        <translation type="unfinished"></translation>
+        <translation>normaler Sprung</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="456"/>
         <source>Long jump</source>
-        <translation type="unfinished"></translation>
+        <translation>Langer Sprung</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="458"/>
         <source>long jump</source>
-        <translation type="unfinished"></translation>
+        <translation>langer Sprung</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="460"/>
         <source>Mouse wheel jump</source>
-        <translation type="unfinished"></translation>
+        <translation>Sprung per Mausrad</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="462"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeitbestimmung für Vorwärts, oder Rückwärts per Mausrad.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="464"/>
         <source>Behaviour of time slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Verhalten des Zeit - Schiebereglers</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="465"/>
         <source>Select what to do when dragging the time slider.</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl der Aktion bei Benutzung des Zeit-Schiebereglers.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="470"/>
         <source>Use only one running instance of SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Nur einen laufenden SMPlayer-Prozess verwenden</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="472"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mit dieser Option wird festgelegt, das die laufende Instanz von  SMPlayer, beim Öffnen von anderen Dateien verwenden wird.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="474"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Port</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="477"/>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. You can change the port in case the default one is used by another application.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer muß einen Port abfragen, um Befehle von einer anderen Instanz zu bekommen. Der Port kann geändert werden, falls der Standard Port von einem anderen Programm benutzt wird.</translation>
     </message>
 </context>
 <context>
@@ -4528,7 +4529,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="298"/>
         <source>Select first available subtitle</source>
-        <translation type="unfinished">Den ersten vorhandenen Untertitel auswählen</translation>
+        <translation>Den ersten vorhandenen Untertitel auswählen</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
@@ -4578,7 +4579,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="313"/>
         <source>Include subtitles on screenshots</source>
-        <translation type="unfinished">Untertitel miteinbeziehen auf Bidschirmfotos</translation>
+        <translation>Untertitel miteinbeziehen auf Bidschirmfotos</translation>
     </message>
     <message>
         <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/src/prefsubtitles.ui" line="276"/>
@@ -4663,7 +4664,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="346"/>
         <source>Use SSA/ASS library for subtitle rendering</source>
-        <translation type="unfinished">SSA/ASS-Programmbibliothek zum Rendern von Untertiteln benutzen</translation>
+        <translation>SSA/ASS-Programmbibliothek zum Rendern von Untertiteln benutzen</translation>
     </message>
     <message>
         <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/src/prefsubtitles.ui" line="530"/>
@@ -4778,7 +4779,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="344"/>
         <source>SSA/ASS library</source>
-        <translation type="unfinished">SSA/ASS Library</translation>
+        <translation>SSA/AAS Programmbibliothek</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="336"/>
@@ -4818,72 +4819,73 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="302"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred subtitle that one will be used instead. </source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn mehr als eine Untertitelspur zur Verfügung steht, wird automatisch die erste gewählt, es sei denn eine andere Einstellung wurde vom Anwender festgelegt.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="304"/>
         <source>Default subtitle encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Standard Untertitel Encodierung</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="305"/>
         <source>Select the encoding which will be used for subtitle files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl der Untertiteldateien - Enkodierung.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="315"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. Note: it may cause some troubles sometimes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mit dieser Option werden Untertitel in Bildschirmfotos übernommen. Hinweis : Das kann manchmal zu Schwierigkeiten führen.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="319"/>
         <source>TTF font</source>
-        <translation type="unfinished"></translation>
+        <translation>TTF Schriftart</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="322"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in &lt;i&gt;%1&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl der Untertitel - TTF Schriftart. Auswahl von TTF Schriftarten in &lt;i&gt;%1&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="329"/>
         <source>System font</source>
-        <translation type="unfinished"></translation>
+        <translation>System-Schriftart</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="331"/>
         <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl der Systemschriftt für Untertitel und OSD. 
+&lt;b&gt;Hinweis:&lt;/b&gt; Erfordert MPlayer mit fontconfig Support.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="333"/>
         <source>Autoscale</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatische Skalierung</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="348"/>
         <source>Check this option to activate the SSA/ASS library. It provides nicer subtitles, so it&apos;s a good idea to do it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Diese Option aktiviert die SSA/ASS Programmbibliothek. Das liefert nettere Untertitel und somit ist es eine gute Idee, die Option zu aktivieren.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="350"/>
         <source>Text color</source>
-        <translation type="unfinished"></translation>
+        <translation>Textfarbe</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="351"/>
         <source>Select the color for the text of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl Textfarbe der Untertitel.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="353"/>
         <source>Border color</source>
-        <translation type="unfinished"></translation>
+        <translation>Rahmenfarbe</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="354"/>
         <source>Select the color for the border of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl Rahmenfarbe Untertitel.</translation>
     </message>
 </context>
 <context>
