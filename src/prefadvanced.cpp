@@ -315,6 +315,11 @@ QString PrefAdvanced::noVideoText() {
 void PrefAdvanced::createHelp() {
 	clearHelp();
 
+	addSectionTitle(tr("Advanced"));
+
+	setWhatsThis(monitoraspect_combo, tr("Monitor aspect"),
+        tr("Select the aspect ratio of your monitor.") );
+
 	setWhatsThis(log_smplayer_check, tr("Log SMPlayer output"),
 		tr("If this option is checked, smplayer will store the debugging "
            "messages that smplayer outputs "
@@ -344,6 +349,14 @@ void PrefAdvanced::createHelp() {
            "For instance: <i>^Core::.*</i> will display only the lines "
            "starting with <i>Core::</i>") );
 
+	setWhatsThis(mplayer_use_window_check, tr("Run MPlayer in its own window"),
+        tr("If you check this option, the MPlayer video window won't be "
+           "embedded in SMPlayer's main window but instead it will use its "
+           "own window. Note that mouse and keyboard events will be handled "
+           "directly by MPlayer, that means key shortcuts and mouse clicks "
+           "probably won't work as expected when the MPlayer window has the "
+           "focus.") );
+
 	setWhatsThis(not_clear_background_check, 
         tr("Don't repaint the background of the video window"),
 		tr("Checking this option may reduce flickering, but it also might "
@@ -356,6 +369,35 @@ void PrefAdvanced::createHelp() {
            "SMPlayer to pass to MPlayer the short version of the filenames, "
            "and thus it will able to open them.") );
 #endif
+
+#if USE_COLORKEY
+	setWhatsThis(colorkey_view, tr("Colorkey"),
+        tr("If you see parts of the video over any other window, you can "
+           "change the colorkey to fix it. Try to select a color close to "
+           "black.") );
+#endif
+
+	addSectionTitle(tr("Options for MPlayer"));
+
+	setWhatsThis(mplayer_args_edit, tr("Options"),
+        tr("Here you can type options for MPlayer. Write them separated "
+           "by spaces.") );
+
+	setWhatsThis(mplayer_vfilters_edit, tr("Video filters"),
+        tr("Here you can add video filters for MPlayer. Write them separated "
+           "by commas. Don't use spaces!") );
+
+	setWhatsThis(mplayer_afilters_edit, tr("Audio filters"),
+        tr("Here you can add audio filters for MPlayer. Write them separated "
+           "by commas. Don't use spaces!") );
+
+	addSectionTitle(tr("MPlayer language"));
+
+	setWhatsThis(endoffile_combo, tr("End of file"),
+        tr("Select or type a regular expression for 'End of file'") );
+
+	setWhatsThis(novideo_combo, tr("No video"),
+        tr("Select or type a regular expression for 'No video'") );
 }
 
 #include "moc_prefadvanced.cpp"
