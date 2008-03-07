@@ -293,13 +293,13 @@ void PrefSubtitles::createHelp() {
 	addSectionTitle(tr("Subtitles"));
 
 	setWhatsThis(font_autoload_combo, tr("Autoload"), 
-        "aaa" );
+        tr("Select the subtitle autoload method.") );
 
 	setWhatsThis(font_autoload_check, tr("Select first available subtitle"), 
         tr("If there are one or more subtitle tracks available, one of them "
            "will be automatically selected, usually the first one, although if "
-           "one of them matches the user's preferred subtitle that one will "
-           "be used instead. ") );
+           "one of them matches the user's preferred language that one will "
+           "be used instead.") );
 
 	setWhatsThis(font_encoding_combo, tr("Default subtitle encoding"), 
         tr("Select the encoding which will be used for subtitle files.") );
@@ -331,7 +331,7 @@ void PrefSubtitles::createHelp() {
            "and OSD. <b>Note:</b> requires a MPlayer with fontconfig support.") );
 
 	setWhatsThis(font_autoscale_combo, tr("Autoscale"), 
-        "aaa" );
+        tr("Select the subtitle autoscaling method.") );
 
 	setWhatsThis(font_text_scale, tr("Default scale for normal subtitles"),
 		tr("This option specifies the default font scale for normal (white) "
