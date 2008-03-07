@@ -783,12 +783,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1037"/>
         <source>&amp;Deblock</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Deblock</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1038"/>
         <source>De&amp;ring</source>
-        <translation type="unfinished"></translation>
+        <translation>De&amp;ring</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1039"/>
@@ -4207,7 +4207,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="261"/>
         <source>Cache</source>
-        <translation type="unfinished">Caché</translation>
+        <translation>Caché</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="194"/>
@@ -4910,17 +4910,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="296"/>
         <source>Select the subtitle autoload method.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecciona el método de carga automática de los subtítulos.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="302"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si hay uno o más subtítulos disponibles, uno de ellos será seleccionado de forma automática, normalmente el primero, aunque si alguno de ellos se corresponde con el idioma preferido por el usuario se usará ese en su lugar.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="334"/>
         <source>Select the subtitle autoscaling method.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecciona el método de escalado automático de los subtítulos.</translation>
     </message>
 </context>
 <context>
