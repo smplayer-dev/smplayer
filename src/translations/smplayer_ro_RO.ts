@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -2510,72 +2511,72 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="320"/>
         <source>Monitor aspect</source>
-        <translation type="unfinished"></translation>
+        <translation>Aspect monitor</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="321"/>
         <source>Select the aspect ratio of your monitor.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați dimensiunile monitorului.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="352"/>
         <source>Run MPlayer in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>Rulează MPlayer în fereastra proprie</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="358"/>
         <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă selectați această opțiune, fereastra video MPlayer nu va fi încastrată în fereastra principală SMPlayer ci se va folosi fereastra proprie. De observat că mausul și tastatura vor fi interpretate direct de MPlayer, aceasta înseamnă că tastele de acces rapid și acțiunile mausului nu vor funcționa ca atunci când fereastra SMPlayer era activă.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="374"/>
         <source>Colorkey</source>
-        <translation type="unfinished"></translation>
+        <translation>cheie de culoare</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="377"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă observați porțiuni din video suprapuse peste oricare alte ferestre, puteți modifica cheia de culoare pentru a îndrepta acest lucru. Încercați să selectați o culoare apropiată de negru.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="380"/>
         <source>Options for MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Opțiuni pentru MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="382"/>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opțiuni</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="384"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aici puteți introduce opțiunile pentru MPlayer. Scrieți-le separate de spații.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="386"/>
         <source>Video filters</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtre video</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="388"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>Aici puteți adăuga filtre video pentru MPlayer. Scrieți-le separate de virgulă. Nu utilizați spații!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="390"/>
         <source>Audio filters</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtre audio</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="392"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>Aici puteți adăuga filtre audio pentru MPlayer. Scrieți-le separate de virgulă. Nu utilizați spații!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="394"/>
         <source>MPlayer language</source>
-        <translation type="unfinished"></translation>
+        <translation>Limbă MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="396"/>
@@ -2585,17 +2586,17 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="397"/>
         <source>Select or type a regular expression for &apos;End of file&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați sau tastați o expresie regulată pentru &apos;End of file&apos;</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="399"/>
         <source>No video</source>
-        <translation type="unfinished"></translation>
+        <translation>Fără video</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="400"/>
         <source>Select or type a regular expression for &apos;No video&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați sau tastați o expresie regulată pentru &apos;Fără video&apos;</translation>
     </message>
 </context>
 <context>
@@ -2804,7 +2805,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="580"/>
         <source>Preferred audio and subtitles</source>
-        <translation type="unfinished">Opţiuni preferate pentru sonor şi subtitrări</translation>
+        <translation>Opţiuni preferate pentru sonor şi subtitrări</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="290"/>
@@ -2819,7 +2820,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="494"/>
         <source>Video</source>
-        <translation type="unfinished">Video</translation>
+        <translation>Video</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="347"/>
@@ -2849,7 +2850,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="530"/>
         <source>Audio</source>
-        <translation type="unfinished">Audio</translation>
+        <translation>Audio</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="500"/>
@@ -3614,22 +3615,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="182"/>
         <source>Keyboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Tastatură</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="195"/>
         <source>Mouse</source>
-        <translation type="unfinished"></translation>
+        <translation>Maus</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="203"/>
         <source>Middle click</source>
-        <translation type="unfinished"></translation>
+        <translation>Clic buton mijloc</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="204"/>
         <source>Select the action for middle click on the mouse.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați acțiunea pentru apăsarea butonului de mijloc al mausului.</translation>
     </message>
 </context>
 <context>
@@ -3782,7 +3783,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="446"/>
         <source>Seeking</source>
-        <translation type="unfinished">Căutare</translation>
+        <translation>Căutare</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="87"/>
@@ -3817,7 +3818,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="467"/>
         <source>Instances</source>
-        <translation type="unfinished">Sesiuni</translation>
+        <translation>Sesiuni</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="86"/>
@@ -3962,132 +3963,132 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="421"/>
         <source>Autoresize</source>
-        <translation type="unfinished"></translation>
+        <translation>Redimensionare automată</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="423"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fereastra principală poate fi redimensionată automat. Selectați opțiunea preferată.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="425"/>
         <source>Remember position and size</source>
-        <translation type="unfinished"></translation>
+        <translation>Memorează poziția și dimensiunea</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="427"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă selectați această opțiune, poziția și dimensiunea ferestrei principale vor fi salvate și restaurate când porniți din nou SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="432"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați numărul maxim de linii ce vor fi afișate în submeniul &lt;b&gt;Deschide-&gt;Fișiere deschise recent&lt;/b&gt;. Dacă selectați 0 atunci meniul nu va fi deloc afișat.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="437"/>
         <source>Icon set</source>
-        <translation type="unfinished"></translation>
+        <translation>Set iconițe</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="438"/>
         <source>Select the icon set you prefer for the application.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați setul de iconițe preferat pentru aplicație.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="440"/>
         <source>Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Stil</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="441"/>
         <source>Select the style you prefer for the application.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați stilul preferat pentru aplicație.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="443"/>
         <source>Default font</source>
-        <translation type="unfinished"></translation>
+        <translation>Caractere implicite</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="444"/>
         <source>You can change here the application&apos;s font.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aici puteți selecta caracterele folosite de aplicație.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="448"/>
         <source>Short jump</source>
-        <translation type="unfinished"></translation>
+        <translation>Salt scurt</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="458"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seletați intervalul de timp pentru derulare înainte sau înapoi când alegeți acțiunea %1 .</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="450"/>
         <source>short jump</source>
-        <translation type="unfinished"></translation>
+        <translation>salt scurt</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="452"/>
         <source>Medium jump</source>
-        <translation type="unfinished"></translation>
+        <translation>Salt mediu</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="454"/>
         <source>medium jump</source>
-        <translation type="unfinished"></translation>
+        <translation>salt mediu</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="456"/>
         <source>Long jump</source>
-        <translation type="unfinished"></translation>
+        <translation>Salt lung</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="458"/>
         <source>long jump</source>
-        <translation type="unfinished"></translation>
+        <translation>salt lung</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="460"/>
         <source>Mouse wheel jump</source>
-        <translation type="unfinished"></translation>
+        <translation>Salt cu rotiţă mouse</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="462"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seletați intervalul de timp pentru derulare înainte sau înapoi când acționați rotița mausului.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="464"/>
         <source>Behaviour of time slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Comportament reglaj timp</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="465"/>
         <source>Select what to do when dragging the time slider.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați ce se întâmplă când acționați potențiometrul linar al reglajului de timp.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="470"/>
         <source>Use only one running instance of SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Foloseşte o singură sesiune pornită pentru SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="472"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați această opțiune dacă doriți să folosiți o sesiune deja deschisă a lui SMPlayer când deschideți și alte fișiere.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="474"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Port</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="477"/>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. You can change the port in case the default one is used by another application.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer are nevoie să asculte un anume port pentru a recepționa comenzi de la alte sesiuni. Puteți schimba portul în cazul în care cel implicit este utilizat de altă aplicație.</translation>
     </message>
 </context>
 <context>
@@ -4488,7 +4489,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="298"/>
         <source>Select first available subtitle</source>
-        <translation type="unfinished">Selectarea primei subtitrări disponibile</translation>
+        <translation>Selectați prima subtitrare disponibilă</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
@@ -4538,7 +4539,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="313"/>
         <source>Include subtitles on screenshots</source>
-        <translation type="unfinished">Include subtitrarea în captura de ecran</translation>
+        <translation>Include subtitrarea în captura de ecran</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="276"/>
@@ -4623,7 +4624,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="346"/>
         <source>Use SSA/ASS library for subtitle rendering</source>
-        <translation type="unfinished">Foloseşte biblioteca SSA/ASS pentru randarea subtitrării</translation>
+        <translation>Folosiți biblioteca SSA/ASS pentru randarea subtitrării</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="530"/>
@@ -4738,7 +4739,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="344"/>
         <source>SSA/ASS library</source>
-        <translation type="unfinished">Bibliotecă SSA/ASS</translation>
+        <translation>Bibliotecă SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="336"/>
@@ -4778,72 +4779,72 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="302"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred subtitle that one will be used instead. </source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă există una sau mai multe subtitrări disponibile, una dintre ele va fi selectată automat, de regulă aceasta este prima, dar dacă una din ele corespunde preferințelor utilizatorului referitoare la subtitrări atunci va fi folosită aceasta. </translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="304"/>
         <source>Default subtitle encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Codificarea implicită pentru subtitrare</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="305"/>
         <source>Select the encoding which will be used for subtitle files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați codificarea care va fi utilizată pentru fișierele ce conțin subtirări.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="315"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. Note: it may cause some troubles sometimes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă această opțiune este selectată atunci subtitrarea va apărea în captura de ecran. De notat că uneori această opțiune poate cauza probleme.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="319"/>
         <source>TTF font</source>
-        <translation type="unfinished"></translation>
+        <translation>Caractere TTF</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="322"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in &lt;i&gt;%1&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aici puteți selecta caratere ttf pentru a fi utilizate în subtitrare. De obicei puteți găsi foarte multe caractere ttf în  &lt;i&gt;%1&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="329"/>
         <source>System font</source>
-        <translation type="unfinished"></translation>
+        <translation>Caractere sistem</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="331"/>
         <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aici puteți selecta un set de caractere ale sistemului pentru a le folosi pentru subtitrări și pentru afișajul de pe ecran (OSD). &lt;b&gt;De reținut:&lt;/b&gt; este nevoie de o versiune MPlayer care să ofere suport pentru configurarea caracterelor.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="333"/>
         <source>Autoscale</source>
-        <translation type="unfinished"></translation>
+        <translation>Autoscalare</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="348"/>
         <source>Check this option to activate the SSA/ASS library. It provides nicer subtitles, so it&apos;s a good idea to do it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați această opțiune pentru a activa biblioteca SSA/ASS. Acestă opțiune va face subtitrările mai frumoase, deci este o idee bună să o folosiți.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="350"/>
         <source>Text color</source>
-        <translation type="unfinished"></translation>
+        <translation>Culoare text</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="351"/>
         <source>Select the color for the text of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați culoarea textului folosit pentru subtitrare.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="353"/>
         <source>Border color</source>
-        <translation type="unfinished"></translation>
+        <translation>Culoare bandă</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="354"/>
         <source>Select the color for the border of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați culoarea benzii pe care este scrisă subtitrarea.</translation>
     </message>
 </context>
 <context>
