@@ -1,7 +1,8 @@
 [b]Version 0.6.0rc3[/b] (not released yet):
 
 (2008-03-06)
- * Added more help for the subtitle and interface sections in preferences.
+ * Added more help for the subtitle, interface and advanced sections in 
+   preferences.
 
 (2008-03-05)
  * Ignore action restore/hide if system tray icon is not visible. Fixes
