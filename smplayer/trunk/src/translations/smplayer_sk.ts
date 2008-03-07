@@ -4062,7 +4062,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="45"/>
+        <location filename="../prefperformance.cpp" line="204"/>
         <source>Performance</source>
         <translation>Výkon</translation>
     </message>
@@ -4117,9 +4117,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>nízka</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
+        <location filename="../prefperformance.cpp" line="261"/>
         <source>Cache</source>
-        <translation type="obsolete">Cache</translation>
+        <translation type="unfinished">Cache</translation>
     </message>
     <message>
         <location filename="" line="5"/>
@@ -4142,7 +4142,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Cache zvýši výkon na pomalých médiách</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="212"/>
+        <location filename="../prefperformance.cpp" line="214"/>
         <source>Allow frame drop</source>
         <translation>Preskakovanie snímkov</translation>
     </message>
@@ -4157,7 +4157,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Synchronizácia</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="235"/>
+        <location filename="../prefperformance.cpp" line="237"/>
         <source>Audio/video auto synchronization</source>
         <translation>Automatická synchronizácia obrazu a zvuku</translation>
     </message>
@@ -4167,17 +4167,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Faktor:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="239"/>
+        <location filename="../prefperformance.cpp" line="241"/>
         <source>Fast audio track switching</source>
         <translation>Rýchle prepínanie zvukových stôp</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="248"/>
+        <location filename="../prefperformance.cpp" line="250"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Rýchly posuv v kapitolách na DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="209"/>
+        <location filename="../prefperformance.cpp" line="211"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Nastavuje prioritu programu mplayer podobne ako sú preddefinované priority vo Windowse.&lt;br&gt;&lt;b&gt;Upozornenie:&lt;/b&gt; použite najvyššej priority môže spôsobiť zablokovanie systému.</translation>
     </message>
@@ -4192,22 +4192,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Nastavenie veľkosti pamäti (v kBytoch), ktorá bude použitá ako cache pre súbory alebo URL. Väčšia pamäť je vhodná pri pomalých médiach.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="213"/>
+        <location filename="../prefperformance.cpp" line="215"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Preskakovanie niektorých snímkov na pomalých systémoch pre udržanie synchronizáciu obrazu a zvuku.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="215"/>
+        <location filename="../prefperformance.cpp" line="217"/>
         <source>Allow hard frame drop</source>
         <translation>Povoliť časté preskakovanie snímkov</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="217"/>
+        <location filename="../prefperformance.cpp" line="219"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>Intenzívnejšie preskakovanie snímkov. Spôsobuje nesprávne dekódovanie a výstupný obraz môže byť deformovaný!</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="237"/>
+        <location filename="../prefperformance.cpp" line="239"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>Postupné prispôsobenie synchronizácie obrazu a zvuku založené na meraní zvukovej odchýlky.</translation>
     </message>
@@ -4257,12 +4257,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Rýchly posuv v &amp;kapitolách na DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="252"/>
+        <location filename="../prefperformance.cpp" line="254"/>
         <source>Create index if needed</source>
         <translation>Vytvoriť index, ak to bude potrebné</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="257"/>
+        <location filename="../prefperformance.cpp" line="259"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
         <translation>Pokiaľ nebol nájdený index súboru, vytvorí sa nový, ktorý povolí posuv vo videu. Užitočné pri poškodených/nekompletných stiahnutých súboroch, alebo pre zle vytvorených súboroch. Neumožňuje však posuv pri médiách nepodporujúcich posuv (stdin, rúra, ...).&lt;br&gt; Poznámka: vytvorenie indexu môže trvať pár minút.</translation>
     </message>
@@ -4277,12 +4277,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Najrýchlejšia metóda prepínania zvukových stôp, ale nemusí fungovať s niektorými formátmi.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="250"/>
+        <location filename="../prefperformance.cpp" line="252"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Najrýchlejšia metóda prepínania kapitol, ale nemusí fungovať s niektorými DVD diskami.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="219"/>
+        <location filename="../prefperformance.cpp" line="221"/>
         <source>Skip loop filter</source>
         <translation>Vynechať loop filter</translation>
     </message>
@@ -4292,37 +4292,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="246"/>
+        <location filename="../prefperformance.cpp" line="248"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>Možnosti:&lt;br&gt;&lt;b&gt;Áno&lt;/b&gt;: skúsi použiť najrýchlejšiu metódu zmeny zvukovej stopy (nemusí fungovať s niektorými formátmi).&lt;br&gt;&lt;b&gt;Nie&lt;/b&gt;: proces MPlayer bude reštartovaný vždy po zmene zvukovej stopy.&lt;br&gt;&lt;b&gt;Auto&lt;/b&gt;: SMPlayer sa rozhodne sám na základe verzie programu MPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="259"/>
+        <location filename="../prefperformance.cpp" line="263"/>
         <source>Cache for files</source>
         <translation>Vyrovnávacia pamäť pre súbory</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="261"/>
+        <location filename="../prefperformance.cpp" line="265"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>Aké množstvo pamäte (v kBytoch) sa použije ako vyrovnávacia pamäť pre súbor.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="263"/>
+        <location filename="../prefperformance.cpp" line="267"/>
         <source>Cache for streams</source>
         <translation>Vyrovnávacia pamäť pre prúdy</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="265"/>
+        <location filename="../prefperformance.cpp" line="269"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>Aké množstvo pamäte (v kBytoch) sa použije ako vyrovnávacia pamäť pre URL.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="267"/>
+        <location filename="../prefperformance.cpp" line="271"/>
         <source>Cache for DVDs</source>
         <translation>Vyrovnávacia pamäť pre DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="270"/>
+        <location filename="../prefperformance.cpp" line="274"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>Aké množstvo pamäte (v kBytoch) sa použije ako vyrovnávacia pamäť pre DVD.&lt;br&gt;&lt;b&gt;Upozornenie&lt;/b&gt;: Posuv a prepínanie kapitol na DVD nemusí pri použítí vyrovnávacej pamäte fungovať správne.</translation>
     </message>
@@ -4372,27 +4372,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Loop filter</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="226"/>
+        <location filename="../prefperformance.cpp" line="228"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation type="unfinished">Vynechanie loop filtru (tzv. deblocking) počas dekódovanie H.264.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="227"/>
+        <location filename="../prefperformance.cpp" line="229"/>
         <source>Possible values:</source>
         <translation>Možnosti:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="228"/>
+        <location filename="../prefperformance.cpp" line="230"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>&lt;b&gt;Povolený&lt;/b&gt;: loop filter nebude vynechaný</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="230"/>
+        <location filename="../prefperformance.cpp" line="232"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;Vynechať (vždy)&lt;/b&gt;: loop filter bude vynechaný a nezáleží na rozlíšení vida</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="233"/>
+        <location filename="../prefperformance.cpp" line="235"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;Vynechať iba pri HD videu&lt;/b&gt;: loop filter bude vynechaní iba pri videu, ktorého výška je %1 alebo vyššia.</translation>
     </message>
@@ -4715,11 +4715,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;SSA/ASS knižnica</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="302"/>
-        <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred subtitle that one will be used instead. </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="304"/>
         <source>Default subtitle encoding</source>
         <translation type="unfinished"></translation>
@@ -4787,6 +4782,21 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="354"/>
         <source>Select the color for the border of the subtitles.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="296"/>
+        <source>Select the subtitle autoload method.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="302"/>
+        <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="334"/>
+        <source>Select the subtitle autoscaling method.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
