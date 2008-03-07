@@ -2533,7 +2533,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefadvanced.cpp" line="321"/>
         <source>Select the aspect ratio of your monitor.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecciona el aspect ratio del monitor.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="352"/>
@@ -2543,7 +2543,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefadvanced.cpp" line="358"/>
         <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si marcas esta opción, la ventana de vídeo de MPlayer no será empotrada en la ventana principal de SMPlayer, sino que usará la suya propia. Ten en cuenta que en este caso los eventos del ratón y teclado serán procesados directamente por MPlayer, lo que significa que los atajos de teclado y clicks del ratón probablemente no funcionarán del modo esperado cuando la ventana de MPlayer esté en primer plano.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="374"/>
@@ -2553,7 +2553,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefadvanced.cpp" line="377"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si ves partes del vídeo sobre otra ventana puedes cambiar el colorkey para solucionarlo. Intenta seleccionar un color cercano al negro.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="380"/>
@@ -2568,7 +2568,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefadvanced.cpp" line="384"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aquí puedes teclear opciones para el MPlayer. Deben ir separadas por espacios.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="386"/>
@@ -2578,7 +2578,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefadvanced.cpp" line="388"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>Aquí puedes añadir filtros de vídeo para el MPlayer. Deben separarse por comas, ¡no uses espacios!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="390"/>
@@ -2588,7 +2588,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefadvanced.cpp" line="392"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>Aquí puedes añadir filtros de audio para el MPlayer. Deben separarse por comas, ¡no uses espacios!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="394"/>
@@ -2603,7 +2603,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefadvanced.cpp" line="397"/>
         <source>Select or type a regular expression for &apos;End of file&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecciona o teclea la expresión regular para &apos;Fin de fichero&apos;</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="399"/>
@@ -2613,7 +2613,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefadvanced.cpp" line="400"/>
         <source>Select or type a regular expression for &apos;No video&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecciona o teclea la expresión regular para &apos;No hay vídeo&apos;</translation>
     </message>
 </context>
 <context>
@@ -2822,7 +2822,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefgeneral.cpp" line="580"/>
         <source>Preferred audio and subtitles</source>
-        <translation type="unfinished">Audio y subtítulos preferidos</translation>
+        <translation>Audio y subtítulos preferidos</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="290"/>
@@ -2837,7 +2837,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefgeneral.cpp" line="494"/>
         <source>Video</source>
-        <translation type="unfinished">Vídeo</translation>
+        <translation>Vídeo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="347"/>
@@ -2867,7 +2867,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefgeneral.cpp" line="530"/>
         <source>Audio</source>
-        <translation type="unfinished">Audio</translation>
+        <translation>Audio</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="500"/>
@@ -3363,7 +3363,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
         <location filename="../prefgeneral.ui" line="749"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="683"/>
@@ -4014,12 +4014,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="421"/>
         <source>Autoresize</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajuste automático del tamaño</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="423"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
-        <translation type="unfinished"></translation>
+        <translation>La ventana principal puede cambiar de tamaño automáticamente. Selecciona la opción que prefieras.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="425"/>
@@ -4029,12 +4029,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="427"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si marcas esta opción, se guardará la posición y el tamaño de la ventana principal y se recuperarán cuando abras SMPlayer más tarde.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="432"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecciona el máximo número de elementos que se mostrarán en el submenú &lt;b&gt;Abrir-&gt;Ficheros recientes&lt;/b&gt;. Si lo pones a 0 el menú no aparecerá.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="437"/>
@@ -4044,7 +4044,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="438"/>
         <source>Select the icon set you prefer for the application.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecciona el juego de iconos que prefieras para el programa.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="440"/>
@@ -4054,7 +4054,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="441"/>
         <source>Select the style you prefer for the application.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecciona el estilo que prefieras para el programa.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="443"/>
@@ -4064,7 +4064,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="444"/>
         <source>You can change here the application&apos;s font.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aquí puedes cambiar el tipo de letra del programa.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="448"/>
@@ -4119,7 +4119,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="465"/>
         <source>Select what to do when dragging the time slider.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecciona qué hacer mientras se arrastra el deslizador.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="470"/>
@@ -4129,7 +4129,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="472"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Marca esta opción si quieres usar una misma instancia de SMPlayer para todos los ficheros que abras.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="474"/>
@@ -4139,7 +4139,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="477"/>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. You can change the port in case the default one is used by another application.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer necesita un puerto para recibir órdenes de otras instancias. Aquí puedes cambiarlo en caso de que el puerto predeterminado ya esté siendo usado por otro programa.</translation>
     </message>
 </context>
 <context>
@@ -4550,7 +4550,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="298"/>
         <source>Select first available subtitle</source>
-        <translation type="unfinished">Seleccionar el primer subtítulo disponible</translation>
+        <translation>Seleccionar el primer subtítulo disponible</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
@@ -4840,7 +4840,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="302"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred subtitle that one will be used instead. </source>
-        <translation type="unfinished"></translation>
+        <translation>Si hay uno o más subtítulos disponibles, uno de ellos será seleccionado de forma automática, normalmente el primero, aunque si alguno de ellos se corresponde con el idioma preferido por el usuario se usará ese en su lugar.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="304"/>
@@ -4850,12 +4850,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="305"/>
         <source>Select the encoding which will be used for subtitle files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecciona la codificación que se usará para ficheros de subtítulos.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="315"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. Note: it may cause some troubles sometimes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si marcas esta opción, los subtítulos aparecerán también en las capturas de pantalla. Nota: esta opción podría causar algún problema.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="319"/>
@@ -4865,7 +4865,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="322"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in &lt;i&gt;%1&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aquí puedes seleccionar un tipo de letra ttf para los subtítulos. Normalmente encontrarás ficheros ttf en &lt;i&gt;%1&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="329"/>
@@ -4875,7 +4875,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="331"/>
         <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aquí puedes seleccionar un tipo de letra del systema para los subtítulos y OSD. &lt;b&gt;Nota:&lt;/b&gt; requiere un MPlayer compilado con fontconfig.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="333"/>
@@ -4885,7 +4885,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="348"/>
         <source>Check this option to activate the SSA/ASS library. It provides nicer subtitles, so it&apos;s a good idea to do it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Marca esta opción para activar la librería SSA/ASS. Genera subtítulos bastante buenos, así que es una buena idea hacerlo.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="350"/>
@@ -4895,7 +4895,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="351"/>
         <source>Select the color for the text of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecciona el color del texto de los subtítulos.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="353"/>
@@ -4905,7 +4905,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="354"/>
         <source>Select the color for the border of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecciona el color del borde de los subtítulos.</translation>
     </message>
 </context>
 <context>
