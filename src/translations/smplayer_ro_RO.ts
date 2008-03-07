@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
-<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -4094,7 +4093,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="45"/>
+        <location filename="../prefperformance.cpp" line="204"/>
         <source>Performance</source>
         <translation>Caracteristici</translation>
     </message>
@@ -4149,9 +4148,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>inactiv</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="139"/>
+        <location filename="../prefperformance.cpp" line="261"/>
         <source>Cache</source>
-        <translation type="obsolete">Cache</translation>
+        <translation type="unfinished">Cache</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="194"/>
@@ -4174,7 +4173,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Setarea cache-ului poate îmbunătăţii performanţele pentru fişiere media lente</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="212"/>
+        <location filename="../prefperformance.cpp" line="214"/>
         <source>Allow frame drop</source>
         <translation>Permite programului să renunţe la unele cadre</translation>
     </message>
@@ -4189,7 +4188,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Sincronizare</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="235"/>
+        <location filename="../prefperformance.cpp" line="237"/>
         <source>Audio/video auto synchronization</source>
         <translation>Sincronizare automată Audio/Video</translation>
     </message>
@@ -4199,17 +4198,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Factor:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="239"/>
+        <location filename="../prefperformance.cpp" line="241"/>
         <source>Fast audio track switching</source>
         <translation>Comutare rapidă a coloanei sonore</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="248"/>
+        <location filename="../prefperformance.cpp" line="250"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Căutare rapidă a capitolelor în dvd</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="209"/>
+        <location filename="../prefperformance.cpp" line="211"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Selectare priorităţi pentru procesele mplayer în concordanţă cu priorităţile implicite disponibile sub Windows.&lt;br&gt;&lt;b&gt;ATENŢIONARE:&lt;/b&gt;Folosirea priorităţii &quot;în timp real&quot; poate duce la blocarea sistemului.</translation>
     </message>
@@ -4224,22 +4223,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Selectarea acestei opţiuni va specifica câtă memorie (în kBytes) se va folosi la pre-încărcarea unui fişier sau URL. Acest lucru se dovedeşte util pentru suporturi media lente.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="213"/>
+        <location filename="../prefperformance.cpp" line="215"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Se sare peste afişarea unor cadre pentru a menţine sincronizarea A/V pe sisteme lente.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="215"/>
+        <location filename="../prefperformance.cpp" line="217"/>
         <source>Allow hard frame drop</source>
         <translation>Permite programului să renunţe la mai multe cadre</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="217"/>
+        <location filename="../prefperformance.cpp" line="219"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>Omiterea mai multor cadre (strică decodarea). Conduce la distorsionarea imaginii!</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="237"/>
+        <location filename="../prefperformance.cpp" line="239"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>Ajustare graduală a sincronizării A/V prin măsurarea întârzierii audio.</translation>
     </message>
@@ -4289,12 +4288,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Cău&amp;tare rapidă a capitolelor în dvd</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="252"/>
+        <location filename="../prefperformance.cpp" line="254"/>
         <source>Create index if needed</source>
         <translation>Creare index dacă este necesar</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="257"/>
+        <location filename="../prefperformance.cpp" line="259"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
         <translation>Refacerea indexului fişierelor dacă nu a fost găsit niciun index, pentru a permite căutarea. Opţiune utilă pentru desărcări incomplete/cu_erori, sau cu fişiere create greşit. Această opţiune funcţionează doar dacă fişierul media vizat suportă căutare (nu va lucra cu stdin, pipe, etc.).&lt;/br&gt; Notă: crearea indexului este o operaţiune de durată.</translation>
     </message>
@@ -4309,12 +4308,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Dacă este selectată programul va încerca să aplice cea mai rapidă metodă de comutare a coloanelor sonore, dar este posibil să nu funcţioneze cu anumite formate.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="250"/>
+        <location filename="../prefperformance.cpp" line="252"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Dacă este selectată această opţiune, programul va încerca să aplice cea mai rapidă metodă de căutare a capitolelor, dar pentru anumite discuri poate să nu functioneze.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="219"/>
+        <location filename="../prefperformance.cpp" line="221"/>
         <source>Skip loop filter</source>
         <translation>Omitere filtru buclă</translation>
     </message>
@@ -4349,37 +4348,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Om&amp;itere cadre</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="246"/>
+        <location filename="../prefperformance.cpp" line="248"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>Valori posibile:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: va încerca metoada cea mai rapidă pentru comutarea pistelor audio (este posibil să nu funcţioneze pentru anumite formate), &lt;br&gt; &lt;b&gt;No&lt;/b&gt;: procesul MPlayer va fi repornit de câte ori schimbaţi pista audio, &lt;br&gt; &lt;b&gt;Auto &lt;/b&gt;: SMPlayer va decide cum va proceda, funcţie de versiunea MPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="259"/>
+        <location filename="../prefperformance.cpp" line="263"/>
         <source>Cache for files</source>
         <translation>Cache pentru fişiere</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="261"/>
+        <location filename="../prefperformance.cpp" line="265"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>Această opţiune stabileşte câtă memorie (în kBytes) se va folosi la încărcarea unui fişier în cache.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="263"/>
+        <location filename="../prefperformance.cpp" line="267"/>
         <source>Cache for streams</source>
         <translation>Cache pentru URL</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="265"/>
+        <location filename="../prefperformance.cpp" line="269"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>Această opţiune stabileşte câtă memorie (în kBytes) se va folosi pentru cache la redarea unui fişier video de pe internet.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="267"/>
+        <location filename="../prefperformance.cpp" line="271"/>
         <source>Cache for DVDs</source>
         <translation>Cache pentru DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="270"/>
+        <location filename="../prefperformance.cpp" line="274"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>Această opţiune stabileşte câtă memorie (în kBytes) se va folosii la încărcarea în cache a DVD-urilor.&lt;br&gt;&lt;b&gt;Atenţie:&lt;/b&gt;Este posibil ca funcţia de căutare să nu mai funcţioneze corect (inclusiv căutarea capitolelor) când se foloseşte încărcarea în cache a DVD-urilor.</translation>
     </message>
@@ -4429,27 +4428,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Filtru buclă</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="226"/>
+        <location filename="../prefperformance.cpp" line="228"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>Această opţiune permite omiterea filtrului buclă (cunoscut şi sub numele deblocking) în timpul decodării H.264. Deoarece cadrele filtrate cu acest filtru se presupune că sunt luate ca referinţă pentru decodarea cadrelor dependente, eliminarea filtrului are un efect de înrăutăţire a calităţii, faţă de cazul în care nu se foloseşte deblocking de exemplu pentru fişiere video de tip MPEG-2. Dar cel puţin pentru fişierele video de tip HDTV această procedură oferă o îmbunătăţire vizibilă a vitezei fără pierderi de calitate vizibile.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="227"/>
+        <location filename="../prefperformance.cpp" line="229"/>
         <source>Possible values:</source>
         <translation>Valori posibile:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="228"/>
+        <location filename="../prefperformance.cpp" line="230"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>&lt;b&gt;Activat&lt;/b&gt;: filtrul buclă nu se omite</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="230"/>
+        <location filename="../prefperformance.cpp" line="232"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;Omitere (întotdeauna)&lt;/b&gt;: filtrul buclă este omis indiferent de rezoluţia fişierului video</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="233"/>
+        <location filename="../prefperformance.cpp" line="235"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;Omitere doar pentru video HD&lt;/b&gt;: filtrul buclă se va omite doar pentru fişierele video definiţie este %1 sau mai mare.</translation>
     </message>
@@ -4779,7 +4778,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="302"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred subtitle that one will be used instead. </source>
-        <translation>Dacă există una sau mai multe subtitrări disponibile, una dintre ele va fi selectată automat, de regulă aceasta este prima, dar dacă una din ele corespunde preferințelor utilizatorului referitoare la subtitrări atunci va fi folosită aceasta. </translation>
+        <translation type="obsolete">Dacă există una sau mai multe subtitrări disponibile, una dintre ele va fi selectată automat, de regulă aceasta este prima, dar dacă una din ele corespunde preferințelor utilizatorului referitoare la subtitrări atunci va fi folosită aceasta. </translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="304"/>
@@ -4845,6 +4844,21 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="354"/>
         <source>Select the color for the border of the subtitles.</source>
         <translation>Selectați culoarea benzii pe care este scrisă subtitrarea.</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="296"/>
+        <source>Select the subtitle autoload method.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="302"/>
+        <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="334"/>
+        <source>Select the subtitle autoscaling method.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
