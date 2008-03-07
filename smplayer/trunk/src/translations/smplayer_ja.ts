@@ -1385,7 +1385,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1135"/>
         <source>Reset video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>ビデオ イコライザのリセット</translation>
     </message>
 </context>
 <context>
@@ -1696,7 +1696,7 @@ The configuration dialog will be shown now, so you can do it.</source>
 Write them separated by spaces.
 Example: -flip -nosound</source>
         <translation>ここでは MPlayer への追加オプションを渡すことができます。
-スペースで区切ってそれらを書き込みます。
+スペースで区切って書き込みます。
 例: -flip -nosound</translation>
     </message>
     <message>
@@ -1710,7 +1710,7 @@ Example: -flip -nosound</source>
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
         <translation>追加ビデオ フィルタも渡すことができます。
-&quot;,&quot; で区切ります。スペースは使用しません!
+&quot;,&quot; で区切ります。スペースを使用しません!
 例: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
@@ -2344,7 +2344,7 @@ Do you want to overwrite?</source>
 Write them separated by spaces.
 Example: -flip -nosound</source>
         <translation>ここでは MPlayer への追加オプションを渡すことができます。
-スペースで区切ってそれらを書き込みます。
+スペースで区切って書き込みます。
 例: -flip -nosound</translation>
     </message>
     <message>
@@ -2353,7 +2353,7 @@ Example: -flip -nosound</source>
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
         <translation>追加ビデオ フィルタも渡すことができます。
-&quot;,&quot; で区切ります。スペースは使用しません!
+&quot;,&quot; で区切ります。スペースを使用しません!
 例: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
@@ -2382,18 +2382,18 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../prefadvanced.ui" line="493"/>
         <source>SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br&gt;&lt;br&gt;
 The drop-down lists may provide already made regular expression for several languages.</source>
-        <translation>SMPlayer は MPlayer の出力の読み込みおよび構文解析を必要としてときどき英語のテキストを頼りにします。別の言語に翻訳された MPlayer を使用している場合、次に SMPlayer が検索するテキストの変更を必要とします。(技術的には正規表現を入力する必要があります)&lt;br&gt;&lt;br&gt;
+        <translation>SMPlayer は MPlayer の出力の読み取りおよび構文解析を必要としてときどき英語のテキストを頼りにします。別の言語に翻訳された MPlayer を使用している場合、次に SMPlayer が検索するテキストの変更を必要とします。(技術的には正規表現を入力する必要があります)&lt;br&gt;&lt;br&gt;
 ドロップダウン リストはすでに正規表現を数個の言語用にするのを供給する可能性があります。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="59"/>
         <source>&amp;Monitor aspect:</source>
-        <translation>モニタの比率(&amp;M):</translation>
+        <translation>モニタのアスペクト(&amp;M):</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="195"/>
         <source>&amp;Run MPlayer in its own window</source>
-        <translation>MPlayer を自身のウィンドウで起動する(&amp;R)</translation>
+        <translation>独自のウィンドウで MPlayer を起動する(&amp;R)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="326"/>
@@ -2438,12 +2438,12 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.ui" line="507"/>
         <source>&amp;End of file:</source>
-        <translation>ファイルの最後(&amp;E):</translation>
+        <translation>エンド オブ ファイル(&amp;E):</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="520"/>
         <source>&amp;No video:</source>
-        <translation>ビデオなし(&amp;N):</translation>
+        <translation>ビデオがありません(&amp;N):</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="242"/>
@@ -2498,7 +2498,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="370"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
-        <translation>現在 MPlayer はローカル コードページ外の文字を含むファイル名を開くことができません。このオプションのチェックは SMPlayer にファイル名の短いバージョンを MPlayer へ渡させ、こうしてそれらを開けるようになります。</translation>
+        <translation>現在 MPlayer はローカル コードページ外の文字を含むファイル名を開くことができません。このオプションのチェックは SMPlayer にファイル名の短いバージョンを MPlayer へ渡させ、こうして開けるようになります。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="267"/>
@@ -2508,92 +2508,92 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="320"/>
         <source>Monitor aspect</source>
-        <translation type="unfinished"></translation>
+        <translation>モニタのアスペクト</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="321"/>
         <source>Select the aspect ratio of your monitor.</source>
-        <translation type="unfinished"></translation>
+        <translation>モニタのアスペクト比を選択します。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="352"/>
         <source>Run MPlayer in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>独自のウィンドウで MPlayer を起動する</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="358"/>
         <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションをチェックすると、MPlayer のビデオ ウィンドウは SMPlayer のメイン ウィンドウに埋め込まれず代わりに独自のウィンドウを使用します。マウスとキーボードのイベントは MPlayer によって直接ハンドルされ、それがキー ショートカットとマウス クリックがおそらく MPlayer のウィンドウにフォーカスがあるとき予期したとおり動作しないことに注意します。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="374"/>
         <source>Colorkey</source>
-        <translation type="unfinished"></translation>
+        <translation>カラーキー</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="377"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
-        <translation type="unfinished"></translation>
+        <translation>何かその他のウィンドウを超えてビデオの部分が見える場合は、修正するのにカラーキーを変更できます。黒に近い色の選択を試行します。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="380"/>
         <source>Options for MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer のオプション</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="382"/>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>オプション</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="384"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>ここでは MPlayer のオプションを入力できます。スペースで区切って書き込みます。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="386"/>
         <source>Video filters</source>
-        <translation type="unfinished"></translation>
+        <translation>ビデオ フィルタ</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="388"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>ここでは MPlayer のビデオ フィルタを追加できます。コンマで区切って書き込みます。スペースを使用しません!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="390"/>
         <source>Audio filters</source>
-        <translation type="unfinished"></translation>
+        <translation>オーディオ フィルタ</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="392"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>ここでは MPlayer のオーディオ フィルタを追加できます。コンマで区切って書き込みます。スペースを使用しません!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="394"/>
         <source>MPlayer language</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer の言語</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="396"/>
         <source>End of file</source>
-        <translation type="unfinished"></translation>
+        <translation>エンド オブ ファイル</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="397"/>
         <source>Select or type a regular expression for &apos;End of file&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;エンド オブ ファイル&apos; の正規表現を選択または入力します</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="399"/>
         <source>No video</source>
-        <translation type="unfinished"></translation>
+        <translation>ビデオがありません</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="400"/>
         <source>Select or type a regular expression for &apos;No video&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;ビデオがありません&apos; の正規表現を選択または入力します</translation>
     </message>
 </context>
 <context>
@@ -2656,7 +2656,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefassociations.cpp" line="221"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
-        <translation>SMPlayer にハンドルさせたいメディア ファイルの拡張子をチェックします。[適用] をクリックすると、チェックされたファイルは SMPlayer に関連付けされます。メディアの種類をチェック解除する場合、ファイルの関連付けは復元されます。</translation>
+        <translation>SMPlayer にハンドルさせたいメディア ファイルの拡張子をチェックします。[適用] をクリックすると、チェックされたファイルは SMPlayer に関連付けされます。メディアの種類をチェック解除すると、ファイルの関連付けは復元されます。</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="213"/>
@@ -2952,7 +2952,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="580"/>
         <source>Preferred audio and subtitles</source>
-        <translation type="unfinished">優先オーディオおよび字幕</translation>
+        <translation>優先オーディオおよび字幕</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="290"/>
@@ -2967,7 +2967,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="494"/>
         <source>Video</source>
-        <translation type="unfinished">ビデオ</translation>
+        <translation>ビデオ</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="347"/>
@@ -2987,7 +2987,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="530"/>
         <source>Audio</source>
-        <translation type="unfinished">オーディオ</translation>
+        <translation>オーディオ</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="500"/>
@@ -3481,7 +3481,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="198"/>
         <source>Select the action for left click on the mouse.</source>
-        <translation>マウスでの左クリックの動作を選択します。</translation>
+        <translation>マウスの左クリックの動作を選択します。</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="200"/>
@@ -3491,7 +3491,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="201"/>
         <source>Select the action for double click on the mouse.</source>
-        <translation>マウスでのダブル クリックの動作を選択します。</translation>
+        <translation>マウスのダブル クリックの動作を選択します。</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="206"/>
@@ -3611,22 +3611,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="182"/>
         <source>Keyboard</source>
-        <translation type="unfinished"></translation>
+        <translation>キーボード</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="195"/>
         <source>Mouse</source>
-        <translation type="unfinished"></translation>
+        <translation>マウス</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="203"/>
         <source>Middle click</source>
-        <translation type="unfinished"></translation>
+        <translation>ミドル クリック</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="204"/>
         <source>Select the action for middle click on the mouse.</source>
-        <translation type="unfinished"></translation>
+        <translation>マウスのミドル クリックの動作を選択します。</translation>
     </message>
 </context>
 <context>
@@ -3784,7 +3784,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="446"/>
         <source>Seeking</source>
-        <translation type="unfinished">シーク</translation>
+        <translation>シーク</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="130"/>
@@ -3814,7 +3814,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="467"/>
         <source>Instances</source>
-        <translation type="unfinished">起動</translation>
+        <translation>起動</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="86"/>
@@ -3854,7 +3854,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="522"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
-        <translation>1 つのみの SMPlayer の起動を使用する(&amp;U)</translation>
+        <translation>SMPlayer の起動を 1 つのみ使用する(&amp;U)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="532"/>
@@ -3869,7 +3869,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="142"/>
         <source>Ma&amp;x. items</source>
-        <translation>最大のアイテム数(&amp;X)</translation>
+        <translation>アイテムの最大数(&amp;X)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="209"/>
@@ -3894,7 +3894,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="68"/>
         <source>Auto&amp;resize:</source>
-        <translation>自動のサイズの変更(&amp;R):</translation>
+        <translation>サイズの自動変更(&amp;R):</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="105"/>
@@ -3959,132 +3959,132 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="421"/>
         <source>Autoresize</source>
-        <translation type="unfinished"></translation>
+        <translation>サイズの自動変更</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="423"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
-        <translation type="unfinished"></translation>
+        <translation>メイン ウィンドウは自動的にリサイズできます。お好みのオプションを選択します。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="425"/>
         <source>Remember position and size</source>
-        <translation type="unfinished"></translation>
+        <translation>位置とサイズを記憶する</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="427"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションをチェックすると、メイン ウィンドウの位置とサイズは保存され再び SMPlayer を起動するときに復元されます。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="432"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;開く-&gt;最近使ったファイル&lt;/b&gt; サブメニューに表示されるアイテムの最大数を選択します。0 へ設定するとそのメニューはまったく表示されません。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="437"/>
         <source>Icon set</source>
-        <translation type="unfinished"></translation>
+        <translation>アイコン セット</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="438"/>
         <source>Select the icon set you prefer for the application.</source>
-        <translation type="unfinished"></translation>
+        <translation>アプリケーションのお好みのアイコン セットを選択します。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="440"/>
         <source>Style</source>
-        <translation type="unfinished"></translation>
+        <translation>スタイル</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="441"/>
         <source>Select the style you prefer for the application.</source>
-        <translation type="unfinished"></translation>
+        <translation>アプリケーションのお好みのスタイルを選択します。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="443"/>
         <source>Default font</source>
-        <translation type="unfinished"></translation>
+        <translation>既定のフォント</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="444"/>
         <source>You can change here the application&apos;s font.</source>
-        <translation type="unfinished"></translation>
+        <translation>アプリケーションのフォントをここで変更できます。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="448"/>
         <source>Short jump</source>
-        <translation type="unfinished"></translation>
+        <translation>短いジャンプ</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="458"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1動作を選択するときに進むか戻る時間を選択します。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="450"/>
         <source>short jump</source>
-        <translation type="unfinished"></translation>
+        <translation>短いジャンプ</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="452"/>
         <source>Medium jump</source>
-        <translation type="unfinished"></translation>
+        <translation>中ジャンプ</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="454"/>
         <source>medium jump</source>
-        <translation type="unfinished"></translation>
+        <translation>中ジャンプ</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="456"/>
         <source>Long jump</source>
-        <translation type="unfinished"></translation>
+        <translation>長いジャンプ</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="458"/>
         <source>long jump</source>
-        <translation type="unfinished"></translation>
+        <translation>長いジャンプ</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="460"/>
         <source>Mouse wheel jump</source>
-        <translation type="unfinished"></translation>
+        <translation>マウス ホイール ジャンプ</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="462"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
-        <translation type="unfinished"></translation>
+        <translation>マウス ホイールを動かすときに進むか戻る時間を選択します。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="464"/>
         <source>Behaviour of time slider</source>
-        <translation type="unfinished"></translation>
+        <translation>タイム スライダの挙動</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="465"/>
         <source>Select what to do when dragging the time slider.</source>
-        <translation type="unfinished"></translation>
+        <translation>タイム スライダのドラッグ時に何をするかを選択します。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="470"/>
         <source>Use only one running instance of SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer の起動を 1 つのみ使用する</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="472"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
-        <translation type="unfinished"></translation>
+        <translation>その他のファイルを開くときにすでにある SMPlayer の起動を使用したい場合はこのオプションをチェックします。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="474"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation>ポート</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="477"/>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. You can change the port in case the default one is used by another application.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer はその他の起動からコマンドを受信するのにポートの聴取を必要とします。既定のものが別のアプリケーションによって使用されている場合はポートを変更できます。</translation>
     </message>
 </context>
 <context>
@@ -4510,7 +4510,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="298"/>
         <source>Select first available subtitle</source>
-        <translation type="unfinished">まず利用可能な字幕を選択する</translation>
+        <translation>利用可能な字幕をまず選択する</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
@@ -4560,7 +4560,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="313"/>
         <source>Include subtitles on screenshots</source>
-        <translation type="unfinished">スクリーンショットに字幕を含める</translation>
+        <translation>スクリーンショットに字幕を含める</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="276"/>
@@ -4645,7 +4645,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="346"/>
         <source>Use SSA/ASS library for subtitle rendering</source>
-        <translation type="unfinished">字幕の描画に SSA/ASS ライブラリを使用する</translation>
+        <translation>字幕の描画に SSA/ASS ライブラリを使用する</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="530"/>
@@ -4745,7 +4745,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="344"/>
         <source>SSA/ASS library</source>
-        <translation type="unfinished">SSA/ASS ライブラリ</translation>
+        <translation>SSA/ASS ライブラリ</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="336"/>
@@ -4785,72 +4785,72 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="302"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred subtitle that one will be used instead. </source>
-        <translation type="unfinished"></translation>
+        <translation>1 つより多くの利用可能な字幕トラックがある場合、それらの 1 つが自動的に選択され、通常は最初の 1 つですが、それらの 1 つがユーザーの優先字幕に一致する場合はその 1 つが代わりに使用されます。 </translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="304"/>
         <source>Default subtitle encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>既定の字幕エンコード</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="305"/>
         <source>Select the encoding which will be used for subtitle files.</source>
-        <translation type="unfinished"></translation>
+        <translation>字幕ファイルに使用されるエンコードを選択します。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="315"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. Note: it may cause some troubles sometimes.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションがチェックされている場合、字幕はスクリーンショットに現れます。注意: ときどきいくつかのトラブルを引き起こします。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="319"/>
         <source>TTF font</source>
-        <translation type="unfinished"></translation>
+        <translation>TTF フォント</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="322"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in &lt;i&gt;%1&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>ここでは字幕に使用される ttf フォントを選択できます。通常は &lt;i&gt;%1&lt;/i&gt; にたくさんの ttf フォントが見つかります。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="329"/>
         <source>System font</source>
-        <translation type="unfinished"></translation>
+        <translation>システム フォント</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="331"/>
         <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
-        <translation type="unfinished"></translation>
+        <translation>ここでは字幕と OSD に使用されるシステム フォントを選択できます。&lt;b&gt;注意:&lt;/b&gt; fontconfig サポートのある MPlayer を必要とします。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="333"/>
         <source>Autoscale</source>
-        <translation type="unfinished"></translation>
+        <translation>オートスケール</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="348"/>
         <source>Check this option to activate the SSA/ASS library. It provides nicer subtitles, so it&apos;s a good idea to do it.</source>
-        <translation type="unfinished"></translation>
+        <translation>SSA/ASS ライブラリをアクティブにするにはこのオプションをチェックします。よりよい字幕を供給するので、名案です。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="350"/>
         <source>Text color</source>
-        <translation type="unfinished"></translation>
+        <translation>テキストの色</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="351"/>
         <source>Select the color for the text of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>字幕のテキストの色を選択します。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="353"/>
         <source>Border color</source>
-        <translation type="unfinished"></translation>
+        <translation>枠の色</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="354"/>
         <source>Select the color for the border of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>字幕の枠の色を選択します。</translation>
     </message>
 </context>
 <context>
