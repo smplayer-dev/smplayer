@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -4185,7 +4186,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="261"/>
         <source>Cache</source>
-        <translation type="unfinished">Cache</translation>
+        <translation>Cache</translation>
     </message>
     <message>
         <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefperformance.ui" line="194"/>
@@ -4889,17 +4890,17 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="296"/>
         <source>Select the subtitle autoload method.</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl der Methode zum automatischen Laden der Untertitel.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="302"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn mehr als eine Untertitelspur zur Verfügung steht, wird automatisch die erste gewählt, es sei denn eine andere Einstellung wurde vom Anwender festgelegt.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="334"/>
         <source>Select the subtitle autoscaling method.</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl der Untertitel - Autoskalierungsmethode.</translation>
     </message>
 </context>
 <context>
