@@ -1,5 +1,8 @@
 [b]Version 0.6.0rc3[/b] (not released yet):
 
+(2008-03-08)
+ * Use -colorkey for directx only.
+
 (2008-03-06)
  * Added more help for the subtitle, interface and advanced sections in 
    preferences.
