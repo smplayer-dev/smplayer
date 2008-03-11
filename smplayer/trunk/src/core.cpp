@@ -1193,9 +1193,9 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 #endif
 
-		// Set monitoraspect to desktop aspect
-		proc->addArgument("-monitoraspect");
-		proc->addArgument( QString::number( DesktopInfo::desktop_aspectRatio(mplayerwindow) ) );
+		// Square pixels
+		proc->addArgument("-monitorpixelaspect");
+		proc->addArgument("1");
 	} else {
 		// no -wid
 		if (!pref->monitor_aspect.isEmpty()) {
