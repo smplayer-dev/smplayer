@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1395,7 +1396,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="1135"/>
         <source>Reset video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Réinitialiser l&apos;équaliseur vidéo</translation>
     </message>
 </context>
 <context>
@@ -2518,17 +2519,17 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefadvanced.cpp" line="320"/>
         <source>Monitor aspect</source>
-        <translation type="unfinished"></translation>
+        <translation>Aspect moniteur</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="321"/>
         <source>Select the aspect ratio of your monitor.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionnez le ratio aspect de votre moniteur.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="352"/>
         <source>Run MPlayer in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>Lancer MPlayer dans sa propre fenêtre</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="358"/>
@@ -2538,7 +2539,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefadvanced.cpp" line="374"/>
         <source>Colorkey</source>
-        <translation type="unfinished"></translation>
+        <translation>Clé de couleur</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="377"/>
@@ -2548,12 +2549,12 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefadvanced.cpp" line="380"/>
         <source>Options for MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Options pour MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="382"/>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Options</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="384"/>
@@ -2563,7 +2564,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefadvanced.cpp" line="386"/>
         <source>Video filters</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtres vidéo</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="388"/>
@@ -2573,7 +2574,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefadvanced.cpp" line="390"/>
         <source>Audio filters</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtres audio</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="392"/>
@@ -2583,27 +2584,27 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefadvanced.cpp" line="394"/>
         <source>MPlayer language</source>
-        <translation type="unfinished"></translation>
+        <translation>Langue de MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="396"/>
         <source>End of file</source>
-        <translation type="unfinished"></translation>
+        <translation>Fin du fichier</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="397"/>
         <source>Select or type a regular expression for &apos;End of file&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionner ou écrire une expression régulière pour &quot;Fin du fichier&quot;</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="399"/>
         <source>No video</source>
-        <translation type="unfinished"></translation>
+        <translation>Pas de vidéo</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="400"/>
         <source>Select or type a regular expression for &apos;No video&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionner ou écrire une expression régulière pour &quot;Pas de vidéo&quot;</translation>
     </message>
 </context>
 <context>
@@ -2812,7 +2813,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefgeneral.cpp" line="580"/>
         <source>Preferred audio and subtitles</source>
-        <translation type="unfinished">Audio et sous-titres préférés</translation>
+        <translation>Audio et sous-titres préférés</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="290"/>
@@ -2827,7 +2828,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefgeneral.cpp" line="494"/>
         <source>Video</source>
-        <translation type="unfinished">Vidéo</translation>
+        <translation>Vidéo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="347"/>
@@ -2857,7 +2858,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefgeneral.cpp" line="530"/>
         <source>Audio</source>
-        <translation type="unfinished">Audio</translation>
+        <translation>Audio</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="500"/>
@@ -3628,22 +3629,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="182"/>
         <source>Keyboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Clavier</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="195"/>
         <source>Mouse</source>
-        <translation type="unfinished"></translation>
+        <translation>Souris</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="203"/>
         <source>Middle click</source>
-        <translation type="unfinished"></translation>
+        <translation>Bouton central</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="204"/>
         <source>Select the action for middle click on the mouse.</source>
-        <translation type="unfinished"></translation>
+        <translation>Choisir l&apos;action pour le bouton central de la souris.</translation>
     </message>
 </context>
 <context>
@@ -3796,7 +3797,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="446"/>
         <source>Seeking</source>
-        <translation type="unfinished">Navigation</translation>
+        <translation>Navigation</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="87"/>
@@ -3831,7 +3832,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="467"/>
         <source>Instances</source>
-        <translation type="unfinished">Instances</translation>
+        <translation>Instances</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="86"/>
@@ -3971,7 +3972,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="421"/>
         <source>Autoresize</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajuster automatiquement</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="423"/>
@@ -3981,7 +3982,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="425"/>
         <source>Remember position and size</source>
-        <translation type="unfinished"></translation>
+        <translation>Se rappeler de la position et de la taille</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="427"/>
@@ -3991,22 +3992,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="432"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Sélectionner le nombre maximum de fichiers montrés dans le menu &lt;b&gt;Ouvrir -&gt; Fichiers récents&lt;/b&gt;. Si vous sélectionnez 0 alors le menu ne sera pas montré.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="437"/>
         <source>Icon set</source>
-        <translation type="unfinished"></translation>
+        <translation>Choix des icônes</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="438"/>
         <source>Select the icon set you prefer for the application.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionnez le pack d&apos;icônes que vous préférez pour cette application.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="440"/>
         <source>Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Style</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="441"/>
@@ -4081,7 +4082,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="470"/>
         <source>Use only one running instance of SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Utiliser qu&apos;une seule instance pour SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="472"/>
@@ -4091,7 +4092,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="474"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Port</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="477"/>
@@ -4164,7 +4165,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="261"/>
         <source>Cache</source>
-        <translation type="unfinished">Cache</translation>
+        <translation>Cache</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="194"/>
@@ -4497,7 +4498,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="298"/>
         <source>Select first available subtitle</source>
-        <translation type="unfinished">Selectionner le premier sous-titre disponible</translation>
+        <translation>Selectionner le premier sous-titre disponible</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
@@ -4547,7 +4548,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="313"/>
         <source>Include subtitles on screenshots</source>
-        <translation type="unfinished">Inclure les sous-titres sur les captures d&apos;écran</translation>
+        <translation>Inclure les sous-titres sur les captures d&apos;écran</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="276"/>
@@ -4632,7 +4633,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="346"/>
         <source>Use SSA/ASS library for subtitle rendering</source>
-        <translation type="unfinished">Utiliser SSA/AAS pour le rendu</translation>
+        <translation>Utiliser SSA/AAS pour le rendu</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="530"/>
@@ -4747,7 +4748,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="344"/>
         <source>SSA/ASS library</source>
-        <translation type="unfinished">bibliothèque SSA/ASS</translation>
+        <translation>bibliothèque SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="336"/>
@@ -4787,12 +4788,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="304"/>
         <source>Default subtitle encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Encodage par défaut des sous-titres </translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="305"/>
         <source>Select the encoding which will be used for subtitle files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionner l&apos;encodage qui sera utilisé pur le sous-titrage.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="315"/>
@@ -4802,7 +4803,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="319"/>
         <source>TTF font</source>
-        <translation type="unfinished"></translation>
+        <translation>Police TTF</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="322"/>
@@ -4812,7 +4813,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="329"/>
         <source>System font</source>
-        <translation type="unfinished"></translation>
+        <translation>Police de l&apos;OS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="331"/>
@@ -4832,7 +4833,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="350"/>
         <source>Text color</source>
-        <translation type="unfinished"></translation>
+        <translation>Couleur du texte</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="351"/>
@@ -4842,7 +4843,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="353"/>
         <source>Border color</source>
-        <translation type="unfinished"></translation>
+        <translation>Couleur de la bordure</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="354"/>
