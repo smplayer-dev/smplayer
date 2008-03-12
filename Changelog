@@ -1,6 +1,11 @@
 [b]Version 0.6.0rc3[/b] (not released yet):
 
 (2008-03-11)
+ * Displays a warning dialog if mplayer exits with an exit code 
+   different to 0. Unfortunately, at least in linux, mplayer always returns 0
+   even if there are errors.
+
+(2008-03-10)
  * (Internal change) Use -monitorpixelaspect instead of -monitoraspect.
 
 (2008-03-08)
