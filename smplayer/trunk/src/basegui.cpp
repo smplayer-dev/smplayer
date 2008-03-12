@@ -1352,6 +1352,9 @@ void BaseGui::createCore() {
 	connect( core, SIGNAL(failedToParseMplayerVersion(QString)),
              this, SLOT(askForMplayerVersion(QString)) );
 
+	connect( core, SIGNAL(mplayerFinishedWithError(int)),
+             this, SLOT(showErrorFromMplayer(int)) );
+
 	// Hide mplayer window
 	connect( core, SIGNAL(noVideo()),
              this, SLOT(hidePanel()) );
@@ -3413,6 +3416,13 @@ void BaseGui::askForMplayerVersion(QString line) {
 	}
 }
 
+void BaseGui::showErrorFromMplayer(int exit_code) {
+	QMessageBox d(QMessageBox::Warning, tr("MPlayer error"), 
+                  tr("MPlayer has exited with this code: %1").arg(exit_code),
+                  QMessageBox::Ok, this );
+	d.setDetailedText( core->mplayer_log );
+	d.exec();
+}
 
 // Language change stuff
 void BaseGui::changeEvent(QEvent *e) {

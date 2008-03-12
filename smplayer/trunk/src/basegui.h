@@ -186,6 +186,8 @@ protected slots:
 	//! version supplied by the user
 	void askForMplayerVersion(QString);
 
+	void showErrorFromMplayer(int exit_code);
+
 	// stylesheet
 #if ALLOW_CHANGE_STYLESHEET
 	virtual void loadQss(QString filename);
