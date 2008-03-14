@@ -1410,17 +1410,47 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="3425"/>
         <source>MPlayer has finished unexpectedly. Exit code: %1</source>
-        <translation>MPlayer ha finalizado inesperadamente. Código de salida: %1</translation>
+        <translation type="obsolete">MPlayer ha finalizado inesperadamente. Código de salida: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3435"/>
         <source>MPlayer failed to start. Please check the MPlayer path in preferences.</source>
-        <translation>El MPlayer no se ha ejecutado. Verifica la ruta al ejecutable del MPlayer en preferencias.</translation>
+        <translation type="obsolete">El MPlayer no se ha ejecutado. Verifica la ruta al ejecutable del MPlayer en preferencias.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3437"/>
         <source>MPlayer has crashed. See the log for more info.</source>
-        <translation>El MPlayer ha fallado. Mira el log para más información.</translation>
+        <translation type="obsolete">El MPlayer ha fallado. Mira el log para más información.</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="3425"/>
+        <source>MPlayer has finished unexpectedly.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="3426"/>
+        <source>Exit code: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="3435"/>
+        <source>MPlayer failed to start.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="3436"/>
+        <source>Please check the MPlayer path in preferences.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="3438"/>
+        <source>MPlayer has crashed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="3439"/>
+        <source>See the log for more info.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

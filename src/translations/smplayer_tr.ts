@@ -1347,17 +1347,32 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     </message>
     <message>
         <location filename="../basegui.cpp" line="3425"/>
-        <source>MPlayer has finished unexpectedly. Exit code: %1</source>
+        <source>MPlayer has finished unexpectedly.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="3426"/>
+        <source>Exit code: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3435"/>
-        <source>MPlayer failed to start. Please check the MPlayer path in preferences.</source>
+        <source>MPlayer failed to start.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3437"/>
-        <source>MPlayer has crashed. See the log for more info.</source>
+        <location filename="../basegui.cpp" line="3436"/>
+        <source>Please check the MPlayer path in preferences.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="3438"/>
+        <source>MPlayer has crashed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="3439"/>
+        <source>See the log for more info.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
