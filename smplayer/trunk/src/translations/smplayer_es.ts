@@ -1425,32 +1425,32 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="3425"/>
         <source>MPlayer has finished unexpectedly.</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer ha finalizado inesperadamente.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3426"/>
         <source>Exit code: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Código de salida: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3435"/>
         <source>MPlayer failed to start.</source>
-        <translation type="unfinished"></translation>
+        <translation>El MPlayer no se ha ejecutado.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3436"/>
         <source>Please check the MPlayer path in preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>Verifica la ruta al ejecutable del MPlayer en preferencias.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3438"/>
         <source>MPlayer has crashed.</source>
-        <translation type="unfinished"></translation>
+        <translation>El MPlayer ha fallado.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3439"/>
         <source>See the log for more info.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mira el log para más información.</translation>
     </message>
 </context>
 <context>
