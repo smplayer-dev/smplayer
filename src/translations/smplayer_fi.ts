@@ -699,7 +699,7 @@ Haluatko ylikirjoittaa sen?</translation>
         <translation>&amp;Kuvasuhde</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2034"/>
+        <location filename="../basegui.cpp" line="2037"/>
         <source>&amp;None</source>
         <translation>&amp;Ei mitään</translation>
     </message>
@@ -944,74 +944,74 @@ Haluatko ylikirjoittaa sen?</translation>
         <translation>Tietoa &amp;SMPlayerstä</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2143"/>
+        <location filename="../basegui.cpp" line="2146"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;tyhjä&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2474"/>
+        <location filename="../basegui.cpp" line="2477"/>
         <source>Video</source>
         <translation>Kuva</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2652"/>
+        <location filename="../basegui.cpp" line="2655"/>
         <source>Audio</source>
         <translation>Ääni</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2476"/>
+        <location filename="../basegui.cpp" line="2479"/>
         <source>Playlists</source>
         <translation>Soittolistat</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2653"/>
+        <location filename="../basegui.cpp" line="2656"/>
         <source>All files</source>
         <translation>Kaikki tiedostot</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2650"/>
+        <location filename="../basegui.cpp" line="2653"/>
         <source>Choose a file</source>
         <translation>Valitse tiedosto</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2524"/>
+        <location filename="../basegui.cpp" line="2527"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Tietoa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2527"/>
+        <location filename="../basegui.cpp" line="2530"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CDROM / DVD asemia ei ole vielä asetettu.
 Asetus ikkuna näytetäään, että voit tehdä sen.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2601"/>
+        <location filename="../basegui.cpp" line="2604"/>
         <source>Choose a directory</source>
         <translation>Valitse kansio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2637"/>
+        <location filename="../basegui.cpp" line="2640"/>
         <source>Subtitles</source>
         <translation>Tekstitykset</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2677"/>
+        <location filename="../basegui.cpp" line="2680"/>
         <source>About Qt</source>
         <translation>Tietoa Qt:stä</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3002"/>
+        <location filename="../basegui.cpp" line="3005"/>
         <source>Playing %1</source>
         <translation>Toistaa %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3003"/>
+        <location filename="../basegui.cpp" line="3006"/>
         <source>Pause</source>
         <translation>Tauko</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3004"/>
+        <location filename="../basegui.cpp" line="3007"/>
         <source>Stop</source>
         <translation>Pysäytä</translation>
     </message>
@@ -1301,7 +1301,7 @@ Asetus ikkuna näytetäään, että voit tehdä sen.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2666"/>
+        <location filename="../basegui.cpp" line="2669"/>
         <source>SMPlayer command line options</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1321,8 +1321,18 @@ Asetus ikkuna näytetäään, että voit tehdä sen.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3428"/>
+        <location filename="../basegui.cpp" line="3425"/>
         <source>MPlayer has finished unexpectedly. Exit code: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="3435"/>
+        <source>MPlayer failed to start. Please check the MPlayer path in preferences.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="3437"/>
+        <source>MPlayer has crashed. See the log for more info.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1362,42 +1372,42 @@ Asetus ikkuna näytetäään, että voit tehdä sen.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1953"/>
+        <location filename="../core.cpp" line="1961"/>
         <source>Brightness: %1</source>
         <translation>Kirkkaus: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1962"/>
+        <location filename="../core.cpp" line="1970"/>
         <source>Contrast: %1</source>
         <translation>Kontrasti: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1970"/>
+        <location filename="../core.cpp" line="1978"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1978"/>
+        <location filename="../core.cpp" line="1986"/>
         <source>Hue: %1</source>
         <translation>Sävy: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1986"/>
+        <location filename="../core.cpp" line="1994"/>
         <source>Saturation: %1</source>
         <translation>Kyllästyneisyys: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2105"/>
+        <location filename="../core.cpp" line="2113"/>
         <source>Volume: %1</source>
         <translation>Volyymi: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2746"/>
+        <location filename="../core.cpp" line="2754"/>
         <source>Zoom: %1</source>
         <translation>Zoomaus: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2224"/>
+        <location filename="../core.cpp" line="2232"/>
         <source>Font scale: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1559,7 +1569,7 @@ Asetus ikkuna näytetäään, että voit tehdä sen.</translation>
 <context>
     <name>ErrorDialog</name>
     <message>
-        <location filename="../errordialog.cpp" line="60"/>
+        <location filename="../errordialog.cpp" line="55"/>
         <source>Hide log</source>
         <translation type="unfinished"></translation>
     </message>

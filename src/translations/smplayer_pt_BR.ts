@@ -699,7 +699,7 @@ Você quer sobregravá-lo?</translation>
         <translation>&amp;Relação de tamanho</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2034"/>
+        <location filename="../basegui.cpp" line="2037"/>
         <source>&amp;None</source>
         <translation>&amp;Nenhum</translation>
     </message>
@@ -949,74 +949,74 @@ Você quer sobregravá-lo?</translation>
         <translation>Sobre o &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2143"/>
+        <location filename="../basegui.cpp" line="2146"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;vazio&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2474"/>
+        <location filename="../basegui.cpp" line="2477"/>
         <source>Video</source>
         <translation>Vídeo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2652"/>
+        <location filename="../basegui.cpp" line="2655"/>
         <source>Audio</source>
         <translation>Áudio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2476"/>
+        <location filename="../basegui.cpp" line="2479"/>
         <source>Playlists</source>
         <translation>Lista de reprodução</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2653"/>
+        <location filename="../basegui.cpp" line="2656"/>
         <source>All files</source>
         <translation>Todos os arquivos</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2650"/>
+        <location filename="../basegui.cpp" line="2653"/>
         <source>Choose a file</source>
         <translation>Escolha um arquivo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2524"/>
+        <location filename="../basegui.cpp" line="2527"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Informações</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2527"/>
+        <location filename="../basegui.cpp" line="2530"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Os drives de CDRom / DVD não estão configurados ainda.
 O diálogo de configuração será aberto agora, e você poderá faze-lo.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2601"/>
+        <location filename="../basegui.cpp" line="2604"/>
         <source>Choose a directory</source>
         <translation>Escolha um diretório</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2637"/>
+        <location filename="../basegui.cpp" line="2640"/>
         <source>Subtitles</source>
         <translation>Legendas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2677"/>
+        <location filename="../basegui.cpp" line="2680"/>
         <source>About Qt</source>
         <translation>Sobre Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3002"/>
+        <location filename="../basegui.cpp" line="3005"/>
         <source>Playing %1</source>
         <translation>Reproduzindo %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3003"/>
+        <location filename="../basegui.cpp" line="3006"/>
         <source>Pause</source>
         <translation>Pausar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3004"/>
+        <location filename="../basegui.cpp" line="3007"/>
         <source>Stop</source>
         <translation>Parar</translation>
     </message>
@@ -1326,7 +1326,7 @@ O diálogo de configuração será aberto agora, e você poderá faze-lo.</trans
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2666"/>
+        <location filename="../basegui.cpp" line="2669"/>
         <source>SMPlayer command line options</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1346,8 +1346,18 @@ O diálogo de configuração será aberto agora, e você poderá faze-lo.</trans
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3428"/>
+        <location filename="../basegui.cpp" line="3425"/>
         <source>MPlayer has finished unexpectedly. Exit code: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="3435"/>
+        <source>MPlayer failed to start. Please check the MPlayer path in preferences.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="3437"/>
+        <source>MPlayer has crashed. See the log for more info.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1392,42 +1402,42 @@ O diálogo de configuração será aberto agora, e você poderá faze-lo.</trans
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1953"/>
+        <location filename="../core.cpp" line="1961"/>
         <source>Brightness: %1</source>
         <translation>Brilho: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1962"/>
+        <location filename="../core.cpp" line="1970"/>
         <source>Contrast: %1</source>
         <translation>Contraste: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1970"/>
+        <location filename="../core.cpp" line="1978"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1978"/>
+        <location filename="../core.cpp" line="1986"/>
         <source>Hue: %1</source>
         <translation>Matiz: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1986"/>
+        <location filename="../core.cpp" line="1994"/>
         <source>Saturation: %1</source>
         <translation>Saturação: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2105"/>
+        <location filename="../core.cpp" line="2113"/>
         <source>Volume: %1</source>
         <translation>Volume: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2746"/>
+        <location filename="../core.cpp" line="2754"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2224"/>
+        <location filename="../core.cpp" line="2232"/>
         <source>Font scale: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1599,7 +1609,7 @@ O diálogo de configuração será aberto agora, e você poderá faze-lo.</trans
 <context>
     <name>ErrorDialog</name>
     <message>
-        <location filename="../errordialog.cpp" line="60"/>
+        <location filename="../errordialog.cpp" line="55"/>
         <source>Hide log</source>
         <translation type="unfinished"></translation>
     </message>
