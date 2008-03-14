@@ -1655,7 +1655,7 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../errordialog.cpp" line="62"/>
+        <location filename="../errordialog.ui" line="81"/>
         <source>Show log</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1673,11 +1673,6 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
         <location filename="../errordialog.ui" line="64"/>
         <source>Error</source>
         <translation type="unfinished">Eroare</translation>
-    </message>
-    <message>
-        <location filename="../errordialog.ui" line="81"/>
-        <source>View log</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

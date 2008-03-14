@@ -1604,7 +1604,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../errordialog.cpp" line="62"/>
+        <location filename="../errordialog.ui" line="81"/>
         <source>Show log</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1622,11 +1622,6 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
         <location filename="../errordialog.ui" line="64"/>
         <source>Error</source>
         <translation type="unfinished">Erro</translation>
-    </message>
-    <message>
-        <location filename="../errordialog.ui" line="81"/>
-        <source>View log</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
