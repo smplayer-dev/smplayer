@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1416,7 +1417,7 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../basegui.cpp" line="3428"/>
         <source>MPlayer has finished unexpectedly. Exit code: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer nieoczekiwanie zakończył pracę. Kod wyjścia: %1</translation>
     </message>
 </context>
 <context>
@@ -1669,27 +1670,27 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../errordialog.cpp" line="60"/>
         <source>Hide log</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukryj log</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="81"/>
         <source>Show log</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokaż log</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="13"/>
         <source>MPlayer Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Błąd programu MPlayer</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="44"/>
         <source>icon</source>
-        <translation type="unfinished">ikona</translation>
+        <translation>ikona</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="64"/>
         <source>Error</source>
-        <translation type="unfinished">Błąd</translation>
+        <translation>Błąd</translation>
     </message>
 </context>
 <context>
