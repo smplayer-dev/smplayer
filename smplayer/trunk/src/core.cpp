@@ -929,10 +929,10 @@ void Core::processFinished()
 		//emit stateChanged(state());
 	}
 
-	int exit_status = proc->exitStatus();
-	qDebug(" exit_status: %d", exit_status);
-	if (exit_status != 0) {
-		emit mplayerFinishedWithError(exit_status);
+	int exit_code = proc->exitCode();
+	qDebug(" exit_code: %d", exit_code);
+	if (exit_code != 0) {
+		emit mplayerFinishedWithError(exit_code);
 	}
 }
 
