@@ -32,6 +32,8 @@ ErrorDialog::ErrorDialog( QWidget* parent, Qt::WindowFlags f )
 
 	connect( viewlog_button, SIGNAL(toggled(bool)),
              this, SLOT(toggleLog(bool)) );
+
+	layout()->setSizeConstraint(QLayout::SetFixedSize);
 }
 
 ErrorDialog::~ErrorDialog() {
@@ -48,13 +50,6 @@ void ErrorDialog::setLog(QString log_text) {
 
 void ErrorDialog::toggleLog(bool checked) {
 	log->setVisible(checked);
-
-	if (log->isVisible()) 
-		resize(width(), height()+log->height());
-	else
-		resize(width(), height()-log->height());
-
-	adjustSize();
 
 	if (checked) 
 		viewlog_button->setText(tr("Hide log"));
