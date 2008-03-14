@@ -1390,7 +1390,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3428"/>
         <source>MPlayer has finished unexpectedly. Exit code: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer は予期せず終了しています。終了コード: %1</translation>
     </message>
 </context>
 <context>
@@ -1643,27 +1643,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../errordialog.cpp" line="60"/>
         <source>Hide log</source>
-        <translation type="unfinished"></translation>
+        <translation>ログを非表示にする</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="81"/>
         <source>Show log</source>
-        <translation type="unfinished"></translation>
+        <translation>ログの表示</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="13"/>
         <source>MPlayer Error</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer のエラー</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="44"/>
         <source>icon</source>
-        <translation type="unfinished">icon</translation>
+        <translation>icon</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="64"/>
         <source>Error</source>
-        <translation type="unfinished">エラー</translation>
+        <translation>エラー</translation>
     </message>
 </context>
 <context>
@@ -4145,7 +4145,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="261"/>
         <source>Cache</source>
-        <translation type="unfinished">キャッシュ</translation>
+        <translation>キャッシュ</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="207"/>
@@ -4415,7 +4415,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="274"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
-        <translation>このオプションはどのくらいのメモリ (k バイト) を DVD のプリキャッシュ時に使用するかを指定します。&lt;br&gt;&lt;b&gt;警告:&lt;/b&gt; シークは DVD のキャッシュの使用時に適切に動作しない可能性があります。</translation>
+        <translation>このオプションはどのくらいのメモリ (k バイト) を DVD のプリキャッシュ時に使用するかを指定します。&lt;br&gt;&lt;b&gt;警告:&lt;/b&gt; シークは DVD のキャッシュの使用時に適切に動作しない可能性があります (チャプタの切り替えを含む)。</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="324"/>
@@ -4888,17 +4888,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="296"/>
         <source>Select the subtitle autoload method.</source>
-        <translation type="unfinished"></translation>
+        <translation>字幕の自動読み込みの方法を選択します。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="302"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>1 つより多くの利用可能な字幕トラックがある場合、それらの 1 つが自動的に選択され、通常は最初の 1 つですが、それらの 1 つがユーザーの優先言語に一致する場合はその 1 つが代わりに使用されます。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="334"/>
         <source>Select the subtitle autoscaling method.</source>
-        <translation type="unfinished"></translation>
+        <translation>字幕のオートスケールの方法を選択します。</translation>
     </message>
 </context>
 <context>
