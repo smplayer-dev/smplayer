@@ -3422,7 +3422,8 @@ void BaseGui::askForMplayerVersion(QString line) {
 
 void BaseGui::showExitCodeFromMplayer(int exit_code) {
 	ErrorDialog d(this);
-	d.setText(tr("MPlayer has finished unexpectedly. Exit code: %1").arg(exit_code));
+	d.setText(tr("MPlayer has finished unexpectedly.") + "<br>" + 
+              tr("Exit code: %1").arg(exit_code));
 	d.setLog( core->mplayer_log );
 	d.exec();
 }
@@ -3431,10 +3432,11 @@ void BaseGui::showErrorFromMplayer(QProcess::ProcessError e) {
 	if ((e == QProcess::FailedToStart) || (e == QProcess::Crashed)) {
 		ErrorDialog d(this);
 		if (e == QProcess::FailedToStart) {
-			d.setText(tr("MPlayer failed to start. "
-                         "Please check the MPlayer path in preferences."));
+			d.setText(tr("MPlayer failed to start.") + "<br>" + 
+                         tr("Please check the MPlayer path in preferences."));
 		} else {
-			d.setText(tr("MPlayer has crashed. See the log for more info."));
+			d.setText(tr("MPlayer has crashed.") + "<br>" + 
+                      tr("See the log for more info."));
 		}
 		d.setLog( core->mplayer_log );
 		d.exec();
