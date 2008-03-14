@@ -1397,7 +1397,7 @@ Konfigurazio morroia ikusko da orain, egin ahal izan dezazun.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../errordialog.cpp" line="62"/>
+        <location filename="../errordialog.ui" line="81"/>
         <source>Show log</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1415,11 +1415,6 @@ Konfigurazio morroia ikusko da orain, egin ahal izan dezazun.</translation>
         <location filename="../errordialog.ui" line="64"/>
         <source>Error</source>
         <translation type="unfinished">Errorea</translation>
-    </message>
-    <message>
-        <location filename="../errordialog.ui" line="81"/>
-        <source>View log</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -1672,7 +1672,7 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../errordialog.cpp" line="62"/>
+        <location filename="../errordialog.ui" line="81"/>
         <source>Show log</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1690,11 +1690,6 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
         <location filename="../errordialog.ui" line="64"/>
         <source>Error</source>
         <translation type="unfinished">Błąd</translation>
-    </message>
-    <message>
-        <location filename="../errordialog.ui" line="81"/>
-        <source>View log</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

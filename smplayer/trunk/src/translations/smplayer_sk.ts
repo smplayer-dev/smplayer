@@ -1641,7 +1641,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../errordialog.cpp" line="62"/>
+        <location filename="../errordialog.ui" line="81"/>
         <source>Show log</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1659,11 +1659,6 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <location filename="../errordialog.ui" line="64"/>
         <source>Error</source>
         <translation type="unfinished">Chyba</translation>
-    </message>
-    <message>
-        <location filename="../errordialog.ui" line="81"/>
-        <source>View log</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
