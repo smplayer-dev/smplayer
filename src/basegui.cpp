@@ -57,6 +57,7 @@
 #include "inputurl.h"
 #include "recents.h"
 #include "about.h"
+#include "errordialog.h"
 #include "clhelp.h"
 
 #include "config.h"
@@ -3417,10 +3418,15 @@ void BaseGui::askForMplayerVersion(QString line) {
 }
 
 void BaseGui::showErrorFromMplayer(int exit_code) {
+	/*
 	QMessageBox d(QMessageBox::Warning, tr("MPlayer error"), 
                   tr("MPlayer has exited with this code: %1").arg(exit_code),
                   QMessageBox::Ok, this );
 	d.setDetailedText( core->mplayer_log );
+	*/
+	ErrorDialog d(this);
+	d.setText(tr("MPlayer has finished unexpectedly. Exit code: %1").arg(exit_code));
+	d.setLog( core->mplayer_log );
 	d.exec();
 }
 

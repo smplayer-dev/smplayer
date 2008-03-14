@@ -66,6 +66,10 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 
     proc = new MplayerProcess(this);
 
+	// Do this the first
+	connect( proc, SIGNAL(processExited()),
+             mplayerwindow->videoLayer(), SLOT(playingStopped()) );
+
 	connect( proc, SIGNAL(receivedCurrentSec(double)),
              this, SLOT(changeCurrentSec(double)) );
 
@@ -135,8 +139,6 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	// Mplayerwindow
 	connect( this, SIGNAL(aboutToStartPlaying()),
              mplayerwindow->videoLayer(), SLOT(playingStarted()) );
-	connect( proc, SIGNAL(processExited()),
-             mplayerwindow->videoLayer(), SLOT(playingStopped()) );
 
 	mplayerwindow->videoLayer()->allowClearingBackground(pref->always_clear_video_background);
 	mplayerwindow->setMonitorAspect( pref->monitor_aspect_double() );
