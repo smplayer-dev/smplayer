@@ -186,7 +186,8 @@ protected slots:
 	//! version supplied by the user
 	void askForMplayerVersion(QString);
 
-	void showErrorFromMplayer(int exit_code);
+	void showExitCodeFromMplayer(int exit_code);
+	void showErrorFromMplayer(QProcess::ProcessError);
 
 	// stylesheet
 #if ALLOW_CHANGE_STYLESHEET

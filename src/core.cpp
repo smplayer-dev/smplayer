@@ -70,6 +70,9 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	connect( proc, SIGNAL(processExited()),
              mplayerwindow->videoLayer(), SLOT(playingStopped()) );
 
+	connect( proc, SIGNAL(error( QProcess::ProcessError)),
+             mplayerwindow->videoLayer(), SLOT(playingStopped()) );
+
 	connect( proc, SIGNAL(receivedCurrentSec(double)),
              this, SLOT(changeCurrentSec(double)) );
 
@@ -132,6 +135,9 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	
 	connect( this, SIGNAL(stateChanged(Core::State)), 
 	         this, SLOT(watchState(Core::State)) );
+
+	connect( proc, SIGNAL(error(QProcess::ProcessError)), 
+             this, SIGNAL(mplayerErrorHappened(QProcess::ProcessError)) );
 
 	//pref->load();
 	mset.reset();

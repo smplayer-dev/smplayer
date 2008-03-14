@@ -1,5 +1,8 @@
 [b]Version 0.6.0rc3[/b] (not released yet):
 
+(2008-03-14)
+ * Now a dialog appears too if mplayer fails to start or crashes.
+
 (2008-03-13)
  * Added a new dialog to report the mplayer errors.
 
