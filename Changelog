@@ -2,6 +2,8 @@
 
 (2008-03-14)
  * Now a dialog appears too if mplayer fails to start or crashes.
+ * Add the scale filter if using the soft equalizer and gl/gl2, to avoid
+   mplayer to complain.
 
 (2008-03-13)
  * Added a new dialog to report the mplayer errors.
