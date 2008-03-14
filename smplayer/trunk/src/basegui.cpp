@@ -1353,8 +1353,11 @@ void BaseGui::createCore() {
 	connect( core, SIGNAL(failedToParseMplayerVersion(QString)),
              this, SLOT(askForMplayerVersion(QString)) );
 
+	connect( core, SIGNAL(mplayerErrorHappened(QProcess::ProcessError)),
+             this, SLOT(showErrorFromMplayer(QProcess::ProcessError)) );
+
 	connect( core, SIGNAL(mplayerFinishedWithError(int)),
-             this, SLOT(showErrorFromMplayer(int)) );
+             this, SLOT(showExitCodeFromMplayer(int)) );
 
 	// Hide mplayer window
 	connect( core, SIGNAL(noVideo()),
@@ -3417,17 +3420,25 @@ void BaseGui::askForMplayerVersion(QString line) {
 	}
 }
 
-void BaseGui::showErrorFromMplayer(int exit_code) {
-	/*
-	QMessageBox d(QMessageBox::Warning, tr("MPlayer error"), 
-                  tr("MPlayer has exited with this code: %1").arg(exit_code),
-                  QMessageBox::Ok, this );
-	d.setDetailedText( core->mplayer_log );
-	*/
+void BaseGui::showExitCodeFromMplayer(int exit_code) {
 	ErrorDialog d(this);
 	d.setText(tr("MPlayer has finished unexpectedly. Exit code: %1").arg(exit_code));
 	d.setLog( core->mplayer_log );
 	d.exec();
+}
+
+void BaseGui::showErrorFromMplayer(QProcess::ProcessError e) {
+	if ((e == QProcess::FailedToStart) || (e == QProcess::Crashed)) {
+		ErrorDialog d(this);
+		if (e == QProcess::FailedToStart) {
+			d.setText(tr("MPlayer failed to start. "
+                         "Please check the MPlayer path in preferences."));
+		} else {
+			d.setText(tr("MPlayer has crashed. See the log for more info."));
+		}
+		d.setLog( core->mplayer_log );
+		d.exec();
+	}
 }
 
 // Language change stuff

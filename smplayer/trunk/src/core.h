@@ -20,7 +20,7 @@
 #define _CORE_H_
 
 #include <QObject>
-
+#include <QProcess> // For QProcess::ProcessError
 #include "mediadata.h"
 #include "mediasettings.h"
 #include "config.h"
@@ -290,6 +290,7 @@ signals:
 	void showFrame(int frame);
 	void needResize(int w, int h);
 	void mplayerFinishedWithError(int);
+	void mplayerErrorHappened(QProcess::ProcessError);
 	void noVideo();
 	void volumeChanged(int);
 

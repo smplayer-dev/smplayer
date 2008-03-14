@@ -564,8 +564,8 @@ void MplayerProcess::parseLine(QByteArray ba) {
 }
 
 // Called when the process is finished
-void MplayerProcess::processFinished(int exitCode, QProcess::ExitStatus /* exitStatus */) {
-	qDebug("MplayerProcess::processFinished: exitCode: %d", exitCode);
+void MplayerProcess::processFinished(int exitCode, QProcess::ExitStatus exitStatus) {
+	qDebug("MplayerProcess::processFinished: exitCode: %d, status: %d", exitCode, (int) exitStatus);
 	// Send this signal before the endoffile one, otherwise
 	// the playlist will start to play next file before all
 	// objects are notified that the process has exited.
