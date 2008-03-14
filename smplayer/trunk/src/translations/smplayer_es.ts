@@ -1415,12 +1415,12 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="3435"/>
         <source>MPlayer failed to start. Please check the MPlayer path in preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>El MPlayer no se ha ejecutado. Verifica la ruta al ejecutable del MPlayer en preferencias.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3437"/>
         <source>MPlayer has crashed. See the log for more info.</source>
-        <translation type="unfinished"></translation>
+        <translation>El MPlayer ha fallado. Mira el log para más información.</translation>
     </message>
 </context>
 <context>
