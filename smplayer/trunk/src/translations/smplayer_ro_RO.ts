@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1399,32 +1400,32 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
     <message>
         <location filename="../basegui.cpp" line="3425"/>
         <source>MPlayer has finished unexpectedly.</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer s-a închis inexplicabil.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3426"/>
         <source>Exit code: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Cod de eroare: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3435"/>
         <source>MPlayer failed to start.</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer nu a putut porni.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3436"/>
         <source>Please check the MPlayer path in preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>Verificați calea pentru MPlayer în Preferințe.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3438"/>
         <source>MPlayer has crashed.</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer s-a oprit.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3439"/>
         <source>See the log for more info.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pentru mai multe informații consulați jurnalul.</translation>
     </message>
 </context>
 <context>
@@ -1677,27 +1678,27 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
     <message>
         <location filename="../errordialog.cpp" line="55"/>
         <source>Hide log</source>
-        <translation type="unfinished"></translation>
+        <translation>Ascunde jurnalul</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="81"/>
         <source>Show log</source>
-        <translation type="unfinished"></translation>
+        <translation>Afișează jurnalul</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="13"/>
         <source>MPlayer Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Eroare MPlayer</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="44"/>
         <source>icon</source>
-        <translation type="unfinished"></translation>
+        <translation>Iconiță</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="64"/>
         <source>Error</source>
-        <translation type="unfinished">Eroare</translation>
+        <translation>Eroare</translation>
     </message>
 </context>
 <context>
