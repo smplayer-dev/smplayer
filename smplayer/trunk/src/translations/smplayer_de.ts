@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1420,32 +1421,32 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="3425"/>
         <source>MPlayer has finished unexpectedly.</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer wurde unerwartet beendet.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3426"/>
         <source>Exit code: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Exit code: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3435"/>
         <source>MPlayer failed to start.</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer konnte nicht gestartet werden.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3436"/>
         <source>Please check the MPlayer path in preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pfad von MPlayer in den Einstellungen überprüfen.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3438"/>
         <source>MPlayer has crashed.</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer ist abgestürzt.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3439"/>
         <source>See the log for more info.</source>
-        <translation type="unfinished"></translation>
+        <translation>Siehe Logdatei für mehr Infos.</translation>
     </message>
 </context>
 <context>
