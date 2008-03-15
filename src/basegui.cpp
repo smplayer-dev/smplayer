@@ -2298,6 +2298,9 @@ void BaseGui::updateWidgets() {
 	// Enable or disable subtitle options
 	bool e = ((core->mset.current_sub_id != MediaSettings::SubNone) &&
               (core->mset.current_sub_id != MediaSettings::NoneSelected));
+
+	if (pref->use_closed_caption_subs) e = true; // Enable if using closed captions
+
 	decSubDelayAct->setEnabled(e);
 	incSubDelayAct->setEnabled(e);
 	decSubPosAct->setEnabled(e);

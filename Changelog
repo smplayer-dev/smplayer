@@ -4,6 +4,7 @@
  * Now a dialog appears too if mplayer fails to start or crashes.
  * Add the scale filter if using the soft equalizer and gl/gl2, to avoid
    mplayer to complain.
+ * The subtitle actions are enabled now if the close caption option is checked.
 
 (2008-03-13)
  * Added a new dialog to report the mplayer errors.
