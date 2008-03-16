@@ -1564,7 +1564,11 @@ void Core::startMplayer( QString file, double seek ) {
 	if ( (pref->use_soft_video_eq) ) {
 		proc->addArgument("-vf-add");
 		QString eq_filter = "eq2,hue";
-		if ( (pref->vo == "gl") || (pref->vo == "gl2") ) eq_filter += ",scale";
+		if ( (pref->vo == "gl") || (pref->vo == "gl2")
+#ifdef Q_OS_WIN
+             || (pref->vo == "directx:noaccel")
+#endif
+		    ) eq_filter += ",scale";
 		proc->addArgument(eq_filter);
 	}
 
