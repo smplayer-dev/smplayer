@@ -1353,7 +1353,7 @@ void BaseGui::createCore() {
 	connect( core, SIGNAL(failedToParseMplayerVersion(QString)),
              this, SLOT(askForMplayerVersion(QString)) );
 
-	connect( core, SIGNAL(mplayerErrorHappened(QProcess::ProcessError)),
+	connect( core, SIGNAL(mplayerFailed(QProcess::ProcessError)),
              this, SLOT(showErrorFromMplayer(QProcess::ProcessError)) );
 
 	connect( core, SIGNAL(mplayerFinishedWithError(int)),
@@ -3424,21 +3424,25 @@ void BaseGui::askForMplayerVersion(QString line) {
 }
 
 void BaseGui::showExitCodeFromMplayer(int exit_code) {
-	ErrorDialog d(this);
-	d.setText(tr("MPlayer has finished unexpectedly.") + "<br>" + 
-              tr("Exit code: %1").arg(exit_code));
-	d.setLog( core->mplayer_log );
-	d.exec();
+	qDebug("BaseGui::showExitCodeFromMplayer: %d", exit_code);
+
+	if (exit_code != 255 ) {
+		ErrorDialog d(this);
+		d.setText(tr("MPlayer has finished unexpectedly.") + " " + 
+	              tr("Exit code: %1").arg(exit_code));
+		d.setLog( core->mplayer_log );
+		d.exec();
+	} 
 }
 
 void BaseGui::showErrorFromMplayer(QProcess::ProcessError e) {
 	if ((e == QProcess::FailedToStart) || (e == QProcess::Crashed)) {
 		ErrorDialog d(this);
 		if (e == QProcess::FailedToStart) {
-			d.setText(tr("MPlayer failed to start.") + "<br>" + 
+			d.setText(tr("MPlayer failed to start.") + " " + 
                          tr("Please check the MPlayer path in preferences."));
 		} else {
-			d.setText(tr("MPlayer has crashed.") + "<br>" + 
+			d.setText(tr("MPlayer has crashed.") + " " + 
                       tr("See the log for more info."));
 		}
 		d.setLog( core->mplayer_log );

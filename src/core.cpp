@@ -70,7 +70,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	connect( proc, SIGNAL(processExited()),
              mplayerwindow->videoLayer(), SLOT(playingStopped()) );
 
-	connect( proc, SIGNAL(error( QProcess::ProcessError)),
+	connect( proc, SIGNAL(error(QProcess::ProcessError)),
              mplayerwindow->videoLayer(), SLOT(playingStopped()) );
 
 	connect( proc, SIGNAL(receivedCurrentSec(double)),
@@ -137,7 +137,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	         this, SLOT(watchState(Core::State)) );
 
 	connect( proc, SIGNAL(error(QProcess::ProcessError)), 
-             this, SIGNAL(mplayerErrorHappened(QProcess::ProcessError)) );
+             this, SIGNAL(mplayerFailed(QProcess::ProcessError)) );
 
 	//pref->load();
 	mset.reset();
@@ -938,7 +938,7 @@ void Core::processFinished()
 	}
 
 	int exit_code = proc->exitCode();
-	qDebug(" exit_code: %d", exit_code);
+	qDebug("Core::processFinished: exit_code: %d", exit_code);
 	if (exit_code != 0) {
 		emit mplayerFinishedWithError(exit_code);
 	}
