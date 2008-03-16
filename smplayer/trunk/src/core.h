@@ -289,10 +289,14 @@ signals:
 	void showTime(double sec);
 	void showFrame(int frame);
 	void needResize(int w, int h);
-	void mplayerFinishedWithError(int);
-	void mplayerErrorHappened(QProcess::ProcessError);
 	void noVideo();
 	void volumeChanged(int);
+
+	//! MPlayer started but finished with exit code != 0
+	void mplayerFinishedWithError(int exitCode);
+
+	//! MPlayer didn't started or crashed
+	void mplayerFailed(QProcess::ProcessError error);
 
 	// Resend signal from mplayerprocess:
 	void failedToParseMplayerVersion(QString line_with_mplayer_version);
