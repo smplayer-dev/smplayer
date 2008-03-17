@@ -2616,7 +2616,7 @@ Rozwijalna lista dostarcza już regularne wyrażenia dla kilku języków.</trans
     <message>
         <location filename="../prefadvanced.cpp" line="358"/>
         <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
-        <translation>Jeśli zaznaczysz tę opcję, okno wideo MPlayera nie będzie osadzone w oknie programu SMPlayer. Zamiast tego będzie używać swoje własne okno. Zdarzenia myszki i klawiatury będą kierowane bezpośrednio przez MPlayer, wtedy możliwości skrótów klawiatury i ustawień przycisków myszki przypuszczalnie nie będą działać, gdy okno MPlayera jest w centrum.</translation>
+        <translation>Zaznaczenie tej opcji spowoduje, że obraz z MPlayera nie będzie osadzony w głównym oknie SMPlayera, tylko będzie wyświetlany w swoim własnym oknie. Należy zauważyć, że zdarzenia wysyłane przez klawiaturę i myszkę będą obsługiwane bezpośrednio przez MPlayera, co oznacza, że skróty klawiaturowe i kliknięcia myszki nie będą działały zgodnie z oczekiwaniem, w przypadku, gdy aktywne będzie okno MPlayera.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="374"/>
@@ -4073,7 +4073,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinterface.cpp" line="427"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
-        <translation>Jeśli zaznaczysz tę opcję, pozycja i rozmiar okna głównego zostanie zapisana i przywrócona, gdy uruchomisz ponownie SMPlayer.</translation>
+        <translation>Jeśli zaznaczysz tę opcję, pozycja i rozmiar okna głównego zostanie zapisana i przywrócona, gdy ponownie uruchomisz SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="432"/>
