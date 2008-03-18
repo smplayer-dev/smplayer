@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1386,7 +1387,7 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../basegui.cpp" line="1096"/>
         <source>Visualize &amp;motion vectors</source>
-        <translation>&amp;Pokazuj wektory ruchu</translation>
+        <translation>&amp;Pokaż wektory ruchu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1105"/>
@@ -1451,32 +1452,32 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../basegui.cpp" line="1202"/>
         <source>&amp;Rotate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Obrót</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1235"/>
         <source>&amp;Off</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Wyłączony</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1236"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Obróć o 90 stopni w kierunku obrotu wskazówek zegara i odwróć obraz</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1237"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Obróć o 90 stopni w kierunku obrotu wskazówek zegara</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1238"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
-        <translation type="unfinished"></translation>
+        <translation>Obróć o 90 stopni przeciwnie do kierunku obrotu wskazówek &amp;zegara</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1239"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
-        <translation type="unfinished"></translation>
+        <translation>Obróć o 90 stopni przeciwnie do kierunku obrotu wskazówek &amp;zegara i odwróć obraz</translation>
     </message>
 </context>
 <context>
