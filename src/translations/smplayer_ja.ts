@@ -1395,62 +1395,62 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3460"/>
         <source>MPlayer has finished unexpectedly.</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer は予期せず終了しています。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3461"/>
         <source>Exit code: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>終了コード: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3471"/>
         <source>MPlayer failed to start.</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer が起動に失敗しました。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3472"/>
         <source>Please check the MPlayer path in preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>環境設定で MPlayer のパスをチェックしてください。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3474"/>
         <source>MPlayer has crashed.</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer はクラッシュしています。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3475"/>
         <source>See the log for more info.</source>
-        <translation type="unfinished"></translation>
+        <translation>さらなる情報はログをご覧ください。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1202"/>
         <source>&amp;Rotate</source>
-        <translation type="unfinished"></translation>
+        <translation>回転(&amp;R)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1235"/>
         <source>&amp;Off</source>
-        <translation type="unfinished"></translation>
+        <translation>オフ(&amp;O)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1236"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
-        <translation type="unfinished"></translation>
+        <translation>90 度時計回りで回転して反転(&amp;R)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1237"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
-        <translation type="unfinished"></translation>
+        <translation>90 度時計回りで回転(&amp;C)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1238"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
-        <translation type="unfinished"></translation>
+        <translation>90 度反時計回りで回転(&amp;W)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1239"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
-        <translation type="unfinished"></translation>
+        <translation>90 度反時計回りで回転して反転(&amp;F)</translation>
     </message>
 </context>
 <context>
