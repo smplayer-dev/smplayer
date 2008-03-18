@@ -1,5 +1,8 @@
 [b]Version 0.6.0rc3[/b] (not released yet):
 
+(2008-03-17)
+ * Added new menu Video->Rotate, with options to rotate the image.
+
 (2008-03-14)
  * Now a dialog appears too if mplayer fails to start or crashes.
  * Add the scale filter if using the soft equalizer and gl/gl2, to avoid

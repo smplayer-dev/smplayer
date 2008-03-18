@@ -773,6 +773,16 @@ void BaseGui::createActions() {
 	connect( aspectGroup, SIGNAL(activated(int)),
              core, SLOT(changeAspectRatio(int)) );
 
+	// Rotate
+	rotateGroup = new MyActionGroup(this);
+	rotateNoneAct = new MyActionGroupItem(this, rotateGroup, "rotate_none", MediaSettings::NoRotate);
+	rotateClockwiseFlipAct = new MyActionGroupItem(this, rotateGroup, "rotate_clockwise_flip", MediaSettings::Clockwise_flip);
+	rotateClockwiseAct = new MyActionGroupItem(this, rotateGroup, "rotate_clockwise", MediaSettings::Clockwise);
+	rotateCounterclockwiseAct = new MyActionGroupItem(this, rotateGroup, "rotate_counterclockwise", MediaSettings::Counterclockwise);
+	rotateCounterclockwiseFlipAct = new MyActionGroupItem(this, rotateGroup, "rotate_counterclockwise_flip", MediaSettings::Counterclockwise_flip);
+	connect( rotateGroup, SIGNAL(activated(int)),
+             core, SLOT(changeRotate(int)) );
+
 	// Audio track
 	audioTrackGroup = new MyActionGroup(this);
 	connect( audioTrackGroup, SIGNAL(activated(int)), 
@@ -895,6 +905,7 @@ void BaseGui::setActionsEnabled(bool b) {
 	sizeGroup->setActionsEnabled(b);
 	deinterlaceGroup->setActionsEnabled(b);
 	aspectGroup->setActionsEnabled(b);
+	rotateGroup->setActionsEnabled(b);
 	channelsGroup->setActionsEnabled(b);
 	stereoGroup->setActionsEnabled(b);
 }
@@ -940,7 +951,6 @@ void BaseGui::enableActionsOnPlaying() {
 		addLetterboxAct->setEnabled(false);
 #endif
 		upscaleAct->setEnabled(false);
-
 		doubleSizeAct->setEnabled(false);
 
 		// Moving and zoom
@@ -956,6 +966,7 @@ void BaseGui::enableActionsOnPlaying() {
 		sizeGroup->setActionsEnabled(false);
 		deinterlaceGroup->setActionsEnabled(false);
 		aspectGroup->setActionsEnabled(false);
+		rotateGroup->setActionsEnabled(false);
 	}
 }
 
@@ -1188,6 +1199,9 @@ void BaseGui::retranslateStrings() {
 	videofilter_menu->menuAction()->setText( tr("F&ilters") );
 	videofilter_menu->menuAction()->setIcon( Images::icon("video_filters") );
 
+	rotate_menu->menuAction()->setText( tr("&Rotate") );
+	rotate_menu->menuAction()->setIcon( Images::icon("rotate") );
+
 	/*
 	denoise_menu->menuAction()->setText( tr("De&noise") );
 	denoise_menu->menuAction()->setIcon( Images::icon("denoise") );
@@ -1217,6 +1231,12 @@ void BaseGui::retranslateStrings() {
 	denoiseNoneAct->change( tr("Denoise o&ff") );
 	denoiseNormalAct->change( tr("Denoise nor&mal") );
 	denoiseSoftAct->change( tr("Denoise &soft") );
+
+	rotateNoneAct->change( tr("&Off") );
+	rotateClockwiseFlipAct->change( tr("&Rotate by 90 degrees clockwise and flip") );
+	rotateClockwiseAct->change( tr("Rotate by 90 degrees &clockwise") );
+	rotateCounterclockwiseAct->change( tr("Rotate by 90 degrees counterclock&wise") );
+	rotateCounterclockwiseFlipAct->change( tr("Rotate by 90 degrees counterclockwise and &flip") );
 
 	// Menu Audio
 	audiotrack_menu->menuAction()->setText( tr("&Track") );
@@ -1574,6 +1594,12 @@ void BaseGui::createMenus() {
 	denoise_menu->addActions(denoiseGroup->actions());
 	videoMenu->addMenu(denoise_menu);
 	*/
+
+	// Rotate submenu
+	rotate_menu = new QMenu(this);
+	rotate_menu->addActions(rotateGroup->actions());
+
+	videoMenu->addMenu(rotate_menu);
 
 	videoMenu->addAction(flipAct);
 	videoMenu->addSeparator();
@@ -2175,6 +2201,9 @@ void BaseGui::updateWidgets() {
 
 	// Aspect ratio
 	aspectGroup->setChecked( core->mset.aspect_ratio_id );
+
+	// Rotate
+	rotateGroup->setChecked( core->mset.rotate );
 
 	// OSD
 	osdGroup->setChecked( pref->osd );

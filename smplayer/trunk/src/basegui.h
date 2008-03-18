@@ -438,6 +438,14 @@ protected:
 	MyAction * aspect43To169Act;
 #endif
 
+	// Rotate Group
+	MyActionGroup * rotateGroup;
+	MyAction * rotateNoneAct;
+	MyAction * rotateClockwiseFlipAct;
+	MyAction * rotateClockwiseAct;
+	MyAction * rotateCounterclockwiseAct;
+	MyAction * rotateCounterclockwiseFlipAct;
+
 	// Audio Channels Action Group
 	MyActionGroup * channelsGroup;
 	/* MyAction * channelsDefaultAct; */
@@ -451,12 +459,13 @@ protected:
 	MyAction * leftChannelAct;
 	MyAction * rightChannelAct;
 
-	// Audio Track Group
+	// Other groups
 	MyActionGroup * audioTrackGroup;
 	MyActionGroup * subtitleTrackGroup;
 	MyActionGroup * titleGroup;
 	MyActionGroup * angleGroup;
 	MyActionGroup * chapterGroup;
+
 
 	// MENUS
 	QMenu *openMenu;
@@ -486,6 +495,7 @@ protected:
 	QMenu * audiofilter_menu;
 	QMenu * logs_menu;
 	QMenu * panscan_menu;
+	QMenu * rotate_menu;
 
 	QMenu * popup;
 	QMenu * recentfiles_menu;
