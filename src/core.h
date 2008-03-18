@@ -207,6 +207,8 @@ public slots:
 	void toggleDoubleSize();
 	void changePanscan(double); // Zoom on mplayerwindow
 
+	void changeRotate(int r);
+
 	void incPanscan();
 	void decPanscan();
 	void resetPanscan();

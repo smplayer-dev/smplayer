@@ -1461,6 +1461,12 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 #endif
 
+	// Rotate
+	if (mset.rotate != MediaSettings::NoRotate) {
+		proc->addArgument( "-vf-add" );
+		proc->addArgument( QString("rotate=%1").arg(mset.rotate) );
+	}
+
 	// Denoise
 	if (mset.current_denoiser != MediaSettings::NoDenoise) {
 		proc->addArgument("-vf-add");
@@ -2731,6 +2737,13 @@ void Core::nextOSD() {
 		osd = Preferences::None;	
 	}
 	changeOSD( osd );
+}
+
+void Core::changeRotate(int r) {
+	if (mset.rotate != r) {
+		mset.rotate = r;
+		restartPlay();
+	}
 }
 
 void Core::changeSize(int n) {
