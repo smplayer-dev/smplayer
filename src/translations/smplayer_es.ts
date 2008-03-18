@@ -1455,32 +1455,32 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="1202"/>
         <source>&amp;Rotate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Girar</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1235"/>
         <source>&amp;Off</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Desactivado</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1236"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Girar 90 grados en el sentido de las agujas del reloj y darle la vuelta</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1237"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
-        <translation type="unfinished"></translation>
+        <translation>Girar 90 &amp;grados en el sentido de las agujas del reloj</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1238"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
-        <translation type="unfinished"></translation>
+        <translation>Girar 90 grados en el sentido &amp;contrario a las agujas del reloj</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1239"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
-        <translation type="unfinished"></translation>
+        <translation>Girar 90 grados en el sentido contrario a las agujas del reloj y darle la &amp;vuelta</translation>
     </message>
 </context>
 <context>
