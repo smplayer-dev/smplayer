@@ -2,6 +2,8 @@
 
 (2008-03-17)
  * Added new menu Video->Rotate, with options to rotate the image.
+ * Show the language -if available- along with the name in the audio menu
+   (it may work too in the title menu).
 
 (2008-03-14)
  * Now a dialog appears too if mplayer fails to start or crashes.
