@@ -77,7 +77,9 @@ public:
 	int osd;
 
 	OptionState fast_audio_change; // If activated, not restart mplayer
+#if !SMART_DVD_CHAPTERS
 	bool fast_chapter_change;
+#endif
 
 	QString dvd_device;
 	QString cdrom_device;
