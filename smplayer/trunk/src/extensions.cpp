@@ -50,6 +50,7 @@ Extensions::Extensions()
            << "asf" << "wmv"
            << "bin" << "iso" << "vob"
            << "mkv" << "nsv" << "ram" << "flv"
+           << "rm" << "swf"
            << "ts" << "rmvb" << "dvr-ms";
 
 	_audio << "mp3" << "ogg" << "wav" << "wma" <<  "ac3" << "ra" << "ape" << "flac";
