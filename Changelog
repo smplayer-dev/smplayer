@@ -1,5 +1,8 @@
 [b]Version 0.6.0rc3[/b] (not released yet):
 
+(2008-03-20)
+ * Fix: selection of chapters should work again with newer versions of mplayer.
+
 (2008-03-17)
  * Added new menu Video->Rotate, with options to rotate the image.
  * Show the language -if available- along with the name in the audio menu
