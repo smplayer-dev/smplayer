@@ -1,5 +1,8 @@
 [b]Version 0.6.0rc3[/b] (not released yet):
 
+(2008-03-21)
+ * Try to use xv (or directx in windows) if the video driver is not set.
+
 (2008-03-20)
  * Fix: selection of chapters should work again with newer versions of mplayer.
  * Removed the option "Fast seek to chapters in dvds" in 
