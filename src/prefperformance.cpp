@@ -34,6 +34,10 @@ PrefPerformance::PrefPerformance(QWidget * parent, Qt::WindowFlags f)
 	priority_group->hide();
 #endif
 
+#if SMART_DVD_CHAPTERS
+	fast_chapter_check->hide();
+#endif
+
 	retranslateStrings();
 }
 
@@ -78,7 +82,9 @@ void PrefPerformance::setData(Preferences * pref) {
 	setSkipLoop( pref->h264_skip_loop_filter );
 	setAutoSyncActivated( pref->autosync );
 	setAutoSyncFactor( pref->autosync_factor );
+#if !SMART_DVD_CHAPTERS
 	setFastChapterSeeking( pref->fast_chapter_change );
+#endif
 	setFastAudioSwitching( pref->fast_audio_change );
 	setUseIdx( pref->use_idx );
 }
@@ -96,7 +102,9 @@ void PrefPerformance::getData(Preferences * pref) {
 	TEST_AND_SET(pref->h264_skip_loop_filter, skipLoop());
 	TEST_AND_SET(pref->autosync, autoSyncActivated());
 	TEST_AND_SET(pref->autosync_factor, autoSyncFactor());
+#if !SMART_DVD_CHAPTERS
 	TEST_AND_SET(pref->fast_chapter_change, fastChapterSeeking());
+#endif
 	pref->fast_audio_change = fastAudioSwitching();
 	TEST_AND_SET(pref->use_idx, useIdx());
 }
@@ -174,6 +182,7 @@ bool PrefPerformance::autoSyncActivated() {
 	return autosync_check->isChecked();
 }
 
+#if !SMART_DVD_CHAPTERS
 void PrefPerformance::setFastChapterSeeking(bool b) {
 	fast_chapter_check->setChecked(b);
 }
@@ -181,6 +190,7 @@ void PrefPerformance::setFastChapterSeeking(bool b) {
 bool PrefPerformance::fastChapterSeeking() {
 	return fast_chapter_check->isChecked();
 }
+#endif
 
 void PrefPerformance::setFastAudioSwitching(Preferences::OptionState value) {
 	fast_audio_combo->setState(value);
@@ -247,9 +257,11 @@ void PrefPerformance::createHelp() {
            "<b>Auto</b>: SMPlayer will decide what to do according to the "
            "MPlayer version." ) );
 
+#if !SMART_DVD_CHAPTERS
 	setWhatsThis(fast_chapter_check, tr("Fast seek to chapters in dvds"),
 		tr("If checked, it will try the fastest method to seek to chapters "
            "but it might not work with some discs.") );
+#endif
 
 	setWhatsThis(idx_check, tr("Create index if needed"),
 		tr("Rebuilds index of files if no index was found, allowing seeking. "

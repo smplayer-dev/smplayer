@@ -2,6 +2,10 @@
 
 (2008-03-20)
  * Fix: selection of chapters should work again with newer versions of mplayer.
+ * Removed the option "Fast seek to chapters in dvds" in 
+   Preferences->Performance. Now it will use the fast method if not using
+   a cache, and the slow one otherwise (the latter won't even work in newer 
+   versions of mplayer, so it's recommended not to use a cache for dvds).
 
 (2008-03-17)
  * Added new menu Video->Rotate, with options to rotate the image.

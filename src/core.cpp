@@ -2508,7 +2508,11 @@ void Core::changeChapter(int ID) {
 			mset.current_chapter_id = ID;
 			updateWidgets();
 		} else {
+#if SMART_DVD_CHAPTERS
+			if (pref->cache_for_dvds == 0) {
+#else
 			if (pref->fast_chapter_change) {
+#endif
 				tellmp("seek_chapter " + QString::number(ID) +" 1");
 				mset.current_chapter_id = ID;
 				updateWidgets();

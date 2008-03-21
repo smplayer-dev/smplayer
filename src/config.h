@@ -104,6 +104,13 @@
 #define SCALE_ASS_SUBS 1
 
 
+// SMART_DVD_CHAPTERS
+// if set to 1, the slave command "chapter" will use if not using a cache,
+// otherwise mplayer will be restarted and -chapter will be used.
+
+#define SMART_DVD_CHAPTERS 1
+
+
 // Just for testing, possibility to disable the use of the colorkey
 
 #define USE_COLORKEY 1

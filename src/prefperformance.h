@@ -23,6 +23,7 @@
 #include "prefwidget.h"
 
 #include "preferences.h"
+#include "config.h"
 
 class PrefPerformance : public PrefWidget, public Ui::PrefPerformance
 {
@@ -71,8 +72,10 @@ protected:
 	void setAutoSyncActivated(bool b);
 	bool autoSyncActivated();
 
+#if !SMART_DVD_CHAPTERS
 	void setFastChapterSeeking(bool b);
 	bool fastChapterSeeking();
+#endif
 
 	void setFastAudioSwitching(Preferences::OptionState value);
 	Preferences::OptionState fastAudioSwitching();

@@ -83,7 +83,9 @@ void Preferences::reset() {
 
 	// MPlayer 1.0rc1 require restart, new versions don't
 	fast_audio_change = Detect;
+#if !SMART_DVD_CHAPTERS
 	fast_chapter_change = false;
+#endif
 
 	cache_for_files = 0;
 	cache_for_streams = 1000;
@@ -296,7 +298,9 @@ void Preferences::save() {
 #endif
 
 	set->setValue("fast_audio_change", fast_audio_change);
+#if !SMART_DVD_CHAPTERS
 	set->setValue("fast_chapter_change", fast_chapter_change);
+#endif
 
 	set->setValue("dvd_device", dvd_device);
 	set->setValue("cdrom_device", cdrom_device);
@@ -513,7 +517,9 @@ void Preferences::load() {
 #endif
 
 	fast_audio_change = (OptionState) set->value("fast_audio_change", fast_audio_change).toInt();
+#if !SMART_DVD_CHAPTERS
 	fast_chapter_change = set->value("fast_chapter_change", fast_chapter_change).toBool();
+#endif
 
 	dvd_device = set->value("dvd_device", dvd_device).toString();
 	cdrom_device = set->value("cdrom_device", cdrom_device).toString();
