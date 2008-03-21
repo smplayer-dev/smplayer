@@ -1380,7 +1380,10 @@ void Core::startMplayer( QString file, double seek ) {
 
 	if (mset.current_chapter_id > 0) {
 		proc->addArgument("-chapter");
-		proc->addArgument( QString::number( mset.current_chapter_id ) );
+		int chapter = mset.current_chapter_id;
+		// Fix for older versions of mplayer:
+		if ((mdat.type == TYPE_DVD) && (dvd_first_chapter() == 0)) chapter++;
+		proc->addArgument( QString::number( chapter ) );
 	}
 
 	if (mset.current_angle_id > 0) {
@@ -2506,7 +2509,7 @@ void Core::changeChapter(int ID) {
 			updateWidgets();
 		} else {
 			if (pref->fast_chapter_change) {
-				tellmp("seek_chapter " + QString::number(ID-1) +" 1");
+				tellmp("seek_chapter " + QString::number(ID) +" 1");
 				mset.current_chapter_id = ID;
 				updateWidgets();
 			} else {
@@ -2527,13 +2530,18 @@ int Core::mkv_first_chapter() {
 		return 0;
 }
 
+int Core::dvd_first_chapter() {
+	// TODO: check if the change really happens in the same version as mkv
+	return mkv_first_chapter();
+}
+
 void Core::prevChapter() {
 	qDebug("Core::prevChapter");
 
 	int last_chapter = 0;
 	bool matroshka = (mdat.mkv_chapters > 0);
 
-	int first_chapter=1;
+	int first_chapter = dvd_first_chapter();
 	if (matroshka) first_chapter = mkv_first_chapter();
 
 	// Matroshka chapters
@@ -2541,7 +2549,7 @@ void Core::prevChapter() {
 	else
 	// DVD chapters
 	if (mset.current_title_id > 0) {
-		last_chapter = mdat.titles.item(mset.current_title_id).chapters();
+		last_chapter = mdat.titles.item(mset.current_title_id).chapters() + dvd_first_chapter() -1;
 	}
 
 	int ID = mset.current_chapter_id - 1;
@@ -2562,12 +2570,12 @@ void Core::nextChapter() {
 	else
 	// DVD chapters
 	if (mset.current_title_id > 0) {
-		last_chapter = mdat.titles.item(mset.current_title_id).chapters();
+		last_chapter = mdat.titles.item(mset.current_title_id).chapters() + dvd_first_chapter() - 1;
 	}
 
 	int ID = mset.current_chapter_id + 1;
 	if (ID > last_chapter) {
-		if (matroshka) ID = mkv_first_chapter(); else ID = 1;
+		if (matroshka) ID = mkv_first_chapter(); else ID = dvd_first_chapter();
 	}
 	changeChapter(ID);
 }

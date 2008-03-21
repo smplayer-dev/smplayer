@@ -226,6 +226,7 @@ public:
 	//! Returns the number of the first chapter in mkv
 	//! files. In some versions of mplayer is 0, in others 1
 	static int mkv_first_chapter();
+	static int dvd_first_chapter();
 
 protected slots:
     void changeCurrentSec(double sec);

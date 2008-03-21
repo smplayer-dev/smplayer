@@ -2104,11 +2104,11 @@ void BaseGui::initializeMenus() {
 	// DVD Chapters
 	chapterGroup->clear(true);
 	if ( (core->mdat.type == TYPE_DVD) && (core->mset.current_title_id > 0) ) {
-		for (n=1; n <= core->mdat.titles.item(core->mset.current_title_id).chapters(); n++) {
+		for (n=0; n < core->mdat.titles.item(core->mset.current_title_id).chapters(); n++) {
 			QAction *a = new QAction(chapterGroup);
 			a->setCheckable(true);
-			a->setText( QString::number(n) );
-			a->setData( n );
+			a->setText( QString::number(n+1) );
+			a->setData( n + Core::dvd_first_chapter() );
 		}
 	} else {
 		// *** Matroshka chapters ***
