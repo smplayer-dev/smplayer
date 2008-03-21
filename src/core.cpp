@@ -1113,6 +1113,13 @@ void Core::startMplayer( QString file, double seek ) {
 	if (!pref->vo.isEmpty()) {
 		proc->addArgument( "-vo");
 		proc->addArgument( pref->vo );
+	} else {
+		proc->addArgument("-vo");
+#ifdef Q_OS_WIN
+		proc->addArgument("directx,");
+#else
+		proc->addArgument("xv,");
+#endif
 	}
 
 	if (!pref->ao.isEmpty()) {
