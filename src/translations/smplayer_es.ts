@@ -1485,7 +1485,7 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="1028"/>
         <source>&amp;Jump to...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Saltar a...</translation>
     </message>
 </context>
 <context>
@@ -5386,12 +5386,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../timedialog.ui" line="13"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Saltar</translation>
     </message>
     <message>
         <location filename="../timedialog.ui" line="44"/>
         <source>&amp;Jump to: </source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Saltar a:</translation>
     </message>
 </context>
 <context>
