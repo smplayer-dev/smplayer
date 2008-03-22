@@ -41,7 +41,7 @@
         </sizepolicy>
        </property>
        <property name="text" >
-        <string>&amp;Jump to: </string>
+        <string>&amp;Jump to:</string>
        </property>
        <property name="alignment" >
         <set>Qt::AlignCenter</set>
