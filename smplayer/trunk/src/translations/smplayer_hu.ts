@@ -5038,7 +5038,7 @@ Ez az opció adja meg, hogy mennyi memóriát (kBytekben) használjon az újrat�
     </message>
     <message>
         <location filename="../timedialog.ui" line="44"/>
-        <source>&amp;Jump to: </source>
+        <source>&amp;Jump to:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

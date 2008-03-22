@@ -5391,6 +5391,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../timedialog.ui" line="44"/>
         <source>&amp;Jump to: </source>
+        <translation type="obsolete">&amp;Saltar a:</translation>
+    </message>
+    <message>
+        <location filename="../timedialog.ui" line="44"/>
+        <source>&amp;Jump to:</source>
         <translation>&amp;Saltar a:</translation>
     </message>
 </context>

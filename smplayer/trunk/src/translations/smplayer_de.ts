@@ -5331,7 +5331,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     </message>
     <message>
         <location filename="../timedialog.ui" line="44"/>
-        <source>&amp;Jump to: </source>
+        <source>&amp;Jump to:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

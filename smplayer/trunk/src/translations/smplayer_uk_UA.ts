@@ -4607,7 +4607,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../timedialog.ui" line="44"/>
-        <source>&amp;Jump to: </source>
+        <source>&amp;Jump to:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

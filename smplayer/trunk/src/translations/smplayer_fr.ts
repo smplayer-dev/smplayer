@@ -5281,7 +5281,7 @@ Si -playlist est utilisée, cela veut dire que SMPlayer passera l&apos;informati
     </message>
     <message>
         <location filename="../timedialog.ui" line="44"/>
-        <source>&amp;Jump to: </source>
+        <source>&amp;Jump to:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
