@@ -1198,14 +1198,18 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( QString::number( (int) mplayerwindow->videoLayer()->winId() ) );
 
 #if USE_COLORKEY
-		if (pref->vo == "directx") {
+		#ifdef Q_OS_WIN
+		if ((pref->vo == "directx") || (pref->vo.isEmpty())) {
 			proc->addArgument("-colorkey");
 			//proc->addArgument( "0x"+QString::number(pref->color_key, 16) );
 			proc->addArgument( Helper::colorToRGB(pref->color_key) );
 		} else {
+		#endif
 			qDebug("Core::startMplayer: * not using -colorkey for %s", pref->vo.toUtf8().data());
 			qDebug("Core::startMplayer: * report if you can't see the video"); 
+		#ifdef Q_OS_WIN
 		}
+		#endif
 #endif
 
 		// Square pixels
