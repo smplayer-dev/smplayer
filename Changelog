@@ -2,6 +2,8 @@
 
 (2008-03-21)
  * Try to use xv (or directx in windows) if the video driver is not set.
+ * Added Play->Jump to, which will show a dialog where you can enter the
+   position (time) to jump.
 
 (2008-03-20)
  * Fix: selection of chapters should work again with newer versions of mplayer.

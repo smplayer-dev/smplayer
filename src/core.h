@@ -93,7 +93,7 @@ public slots:
 	void restart();
 
     void goToPos( int perc );
-    /*void goToSec( double sec );*/
+    void goToSec( double sec );
 
 	void toggleRepeat();
 	void toggleRepeat(bool b);

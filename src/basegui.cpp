@@ -58,6 +58,7 @@
 #include "recents.h"
 #include "about.h"
 #include "errordialog.h"
+#include "timedialog.h"
 #include "clhelp.h"
 
 #include "config.h"
@@ -340,6 +341,10 @@ void BaseGui::createActions() {
 	repeatAct->setCheckable( true );
 	connect( repeatAct, SIGNAL(toggled(bool)),
              core, SLOT(toggleRepeat(bool)) );
+
+	gotoAct = new MyAction( QKeySequence("Ctrl+J"), this, "jump_to" );
+	connect( gotoAct, SIGNAL(triggered()),
+             this, SLOT(showGotoDialog()) );
 
 	// Submenu Speed
 	normalSpeedAct = new MyAction( Qt::Key_Backspace, this, "normal_speed" );
@@ -824,6 +829,7 @@ void BaseGui::setActionsEnabled(bool b) {
 	forward2Act->setEnabled(b);
 	forward3Act->setEnabled(b);
 	repeatAct->setEnabled(b);
+	gotoAct->setEnabled(b);
 
 	// Menu Speed
 	normalSpeedAct->setEnabled(b);
@@ -1019,6 +1025,7 @@ void BaseGui::retranslateStrings() {
 	setJumpTexts(); // Texts for rewind*Act and forward*Act
 
 	repeatAct->change( Images::icon("repeat"), tr("&Repeat") );
+	gotoAct->change( Images::icon("jumpto"), tr("&Jump to...") );
 
 	// Submenu speed
 	normalSpeedAct->change( tr("&Normal speed") );
@@ -1535,6 +1542,8 @@ void BaseGui::createMenus() {
 	playMenu->addMenu(speed_menu);
 
 	playMenu->addAction(repeatAct);
+	playMenu->addSeparator();
+	playMenu->addAction(gotoAct);
 	
 	// VIDEO MENU
 	videoMenu->addAction(fullscreenAct);
@@ -2710,6 +2719,15 @@ void BaseGui::helpAbout() {
 
 void BaseGui::helpAboutQt() {
 	QMessageBox::aboutQt(this, tr("About Qt") );
+}
+
+void BaseGui::showGotoDialog() {
+	TimeDialog d(this);
+	d.setMaximumTime( (int) core->mdat.duration);
+	d.setTime( (int) core->mset.current_sec);
+	if (d.exec() == QDialog::Accepted) {
+		core->goToSec( d.time() );
+	}
 }
 
 void BaseGui::exitFullscreen() {

@@ -97,6 +97,8 @@ public slots:
 	virtual void showPreferencesDialog();
 	virtual void showFilePropertiesDialog();
 
+	virtual void showGotoDialog();
+
 	virtual void exitFullscreen();
 	virtual void toggleFullscreen();
     virtual void toggleFullscreen(bool);
@@ -284,6 +286,7 @@ protected:
 	MyAction * forward2Act;
 	MyAction * forward3Act;
 	MyAction * repeatAct;
+	MyAction * gotoAct;
 
 	// Menu Speed
 	MyAction * normalSpeedAct;
