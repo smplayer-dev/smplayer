@@ -21,6 +21,7 @@ forward1	Right
 forward2	Up
 forward3	PgUp
 repeat	
+jump_to	Ctrl+J
 normal_speed	Backspace
 halve_speed	{
 double_speed	}
@@ -37,6 +38,8 @@ autodetect_phase
 deblock	
 dering	
 add_noise	
+add_letterbox	
+upscaling	
 mute	M
 decrease_volume	9, /
 increase_volume	0, *
@@ -58,12 +61,17 @@ inc_sub_scale	Shift+T
 dec_sub_step	G
 inc_sub_step	Y
 use_ass_lib	
+use_closed_caption	
+use_forced_subs_only	
 show_playlist	Ctrl+L
 show_file_properties	Ctrl+I
 frame_counter	
+motion_vectors	
 show_preferences	Ctrl+P
 show_mplayer_log	Ctrl+M
 show_smplayer_log	Ctrl+S
+faq	
+cl_options	
 about_qt	
 about_smplayer	
 play_next	>
@@ -92,6 +100,7 @@ next_subtitle	J
 next_chapter	@
 prev_chapter	!
 toggle_double_size	Ctrl+D
+reset_video_equalizer	
 osd_none	
 osd_seek	
 osd_timer	
@@ -127,10 +136,11 @@ aspect_14:9
 aspect_16:9	
 aspect_16:10	
 aspect_2.35:1	
-aspect_4:3_letterbox	
-aspect_16:9_letterbox	
-aspect_4:3_panscan	
-aspect_4:3_to_16:9	
+rotate_none	
+rotate_clockwise_flip	
+rotate_clockwise	
+rotate_counterclockwise	
+rotate_counterclockwise_flip	
 quit	
 show_tray_icon	
 restore/hide	

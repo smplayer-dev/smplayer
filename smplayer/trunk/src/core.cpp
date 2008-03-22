@@ -1721,16 +1721,14 @@ void Core::stopMplayer() {
 }
 
 
-/*
-void Core::goToSec( double sec )
-{
+void Core::goToSec( double sec ) {
 	qDebug("Core::goToSec: %f", sec);
 
     if (sec < 0) sec = 0;
     if (sec > mdat.duration ) sec = mdat.duration - 20;
     tellmp("seek " + QString::number(sec) + " 2");
 }
-*/
+
 
 void Core::seek(int secs) {
 	qDebug("seek: %d", secs);
