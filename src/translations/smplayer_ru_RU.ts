@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1375,67 +1376,67 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3478"/>
         <source>MPlayer has finished unexpectedly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Неожиданное завершение MPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3479"/>
         <source>Exit code: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Код ошибки: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3489"/>
         <source>MPlayer failed to start.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка запуска MPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3490"/>
         <source>Please check the MPlayer path in preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>Провертье путь к MPlayer в настройках.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3492"/>
         <source>MPlayer has crashed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Сбой MPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3493"/>
         <source>See the log for more info.</source>
-        <translation type="unfinished"></translation>
+        <translation>Смотрите отчёт для подробной информации.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1209"/>
         <source>&amp;Rotate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Поворот</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1242"/>
         <source>&amp;Off</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Отключен</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1243"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
-        <translation type="unfinished"></translation>
+        <translation>На 90° по часовой стрелке с &amp;отражением</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1244"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
-        <translation type="unfinished"></translation>
+        <translation>На 90° &amp;по часовой стрелке</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1245"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
-        <translation type="unfinished"></translation>
+        <translation>На 90° п&amp;ротив часовой стрелки</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1246"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
-        <translation type="unfinished"></translation>
+        <translation>На 90° против часовой &amp;стрелки с отражением</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1028"/>
         <source>&amp;Jump to...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Перейти к...</translation>
     </message>
 </context>
 <context>
@@ -4948,12 +4949,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../timedialog.ui" line="13"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Перемотка</translation>
     </message>
     <message>
         <location filename="../timedialog.ui" line="44"/>
         <source>&amp;Jump to:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Перейти к:</translation>
     </message>
 </context>
 <context>
