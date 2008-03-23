@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1481,7 +1482,7 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../basegui.cpp" line="1028"/>
         <source>&amp;Jump to...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Skocz do...</translation>
     </message>
 </context>
 <context>
@@ -5263,12 +5264,12 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../timedialog.ui" line="13"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Wyszukiwanie</translation>
     </message>
     <message>
         <location filename="../timedialog.ui" line="44"/>
         <source>&amp;Jump to:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Skocz do:</translation>
     </message>
 </context>
 <context>
