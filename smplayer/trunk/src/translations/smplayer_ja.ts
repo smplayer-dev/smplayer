@@ -628,7 +628,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1015"/>
         <source>&amp;Frame step</source>
-        <translation>フレーム ステップ(&amp;F)</translation>
+        <translation>コマ送り(&amp;F)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1031"/>
@@ -1085,7 +1085,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1023"/>
         <source>Pause / Frame step</source>
-        <translation>一時停止 / フレーム ステップ</translation>
+        <translation>一時停止 / コマ送り</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1082"/>
@@ -1455,7 +1455,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1028"/>
         <source>&amp;Jump to...</source>
-        <translation type="unfinished"></translation>
+        <translation>ジャンプ(&amp;J)...</translation>
     </message>
 </context>
 <context>
@@ -3674,7 +3674,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="55"/>
         <source>Pause / Frame step</source>
-        <translation>一時停止 / フレーム ステップ</translation>
+        <translation>一時停止 / コマ送り</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="62"/>
@@ -5228,12 +5228,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../timedialog.ui" line="13"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - シーク</translation>
     </message>
     <message>
         <location filename="../timedialog.ui" line="44"/>
         <source>&amp;Jump to:</source>
-        <translation type="unfinished"></translation>
+        <translation>ジャンプ先(&amp;J):</translation>
     </message>
 </context>
 <context>
