@@ -22,6 +22,7 @@
 #include "trackdata.h"
 #include <QMap>
 #include <QSettings>
+#include "libconfig.h"
 
 class TrackList {
 
@@ -54,9 +55,10 @@ public:
 	int lastID();
 	bool existsFilename(QString name);
 
+#if USE_INI_FILES
 	void save(QSettings & set);
 	void load(QSettings & set);
-
+#endif
 
 protected:
 	typedef QMap <int, TrackData> TrackMap;

@@ -26,6 +26,7 @@
 #include <QString>
 #include <QSize>
 #include "config.h"
+#include "libconfig.h"
 
 class QSettings;
 
@@ -158,8 +159,11 @@ public:
 
 
 	void list();
+
+#if USE_INI_FILES
 	void save(QSettings * set);
 	void load(QSettings * set);
+#endif
 };
 
 #endif

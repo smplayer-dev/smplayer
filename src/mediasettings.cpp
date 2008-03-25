@@ -196,6 +196,7 @@ void MediaSettings::list() {
 	qDebug("  is264andHD: %d", is264andHD);
 }
 
+#if USE_INI_FILES
 void MediaSettings::save(QSettings * set) {
 	qDebug("MediaSettings::save");
 
@@ -371,3 +372,4 @@ void MediaSettings::load(QSettings * set) {
 	if (audio_use_channels == ChDefault) audio_use_channels = ChStereo;
 }
 
+#endif // USE_INI_FILES

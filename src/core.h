@@ -24,6 +24,7 @@
 #include "mediadata.h"
 #include "mediasettings.h"
 #include "config.h"
+#include "libconfig.h"
 
 
 class MplayerProcess;
@@ -265,9 +266,11 @@ protected:
     void startMplayer(QString file, double seek = -1 );
 	void stopMplayer();
 
+#if USE_INI_FILES
 	bool checkHaveSettingsSaved(QString filename);
 	void saveMediaInfo();
 	void loadMediaInfo(QString filename);
+#endif
 
     void initializeMenus();
 	void updateWidgets();
