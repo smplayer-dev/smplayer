@@ -22,6 +22,7 @@
 
 #include <QString>
 #include <QSettings>
+#include "libconfig.h"
 
 /* Class to store audios, subtitles, titles, chapters... */
 
@@ -50,8 +51,10 @@ public:
 
 	QString displayName() const;
 
+#if USE_INI_FILES
 	void save(QSettings & set);
 	void load(QSettings & set);
+#endif
 	void list();
 
 protected:

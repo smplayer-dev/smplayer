@@ -29,11 +29,16 @@ using namespace Global;
 
 Preferences::Preferences() {
 	reset();
+
+#if USE_INI_FILES
 	load();
+#endif
 }
 
 Preferences::~Preferences() {
+#if USE_INI_FILES
 	save();
+#endif
 }
 
 void Preferences::reset() {
@@ -265,6 +270,7 @@ void Preferences::reset() {
 	mplayer_user_supplied_version = -1;
 }
 
+#if USE_INI_FILES
 void Preferences::save() {
 	qDebug("Preferences::save");
 
@@ -703,6 +709,8 @@ void Preferences::load() {
 	}
 	*/
 }
+
+#endif // USE_INI_FILES
 
 double Preferences::monitor_aspect_double() {
 	qDebug("Preferences::monitor_aspect_double");

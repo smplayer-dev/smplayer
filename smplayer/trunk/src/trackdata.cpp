@@ -63,7 +63,7 @@ QString TrackData::displayName() const {
 	return dname;
 }
 
-
+#if USE_INI_FILES
 void TrackData::save(QSettings & set) {
 	//qDebug("TrackData::save");
 
@@ -87,6 +87,8 @@ void TrackData::load(QSettings & set) {
 	_angles =  set.value( "angles", _angles ).toInt();
 	_ID = set.value( "ID", _ID ).toInt();
 }
+
+#endif // USE_INI_FILES
 
 void TrackData::list() {
 	//qDebug("TrackData::list");

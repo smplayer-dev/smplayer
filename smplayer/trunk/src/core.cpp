@@ -157,7 +157,9 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 
 
 Core::~Core() {
+#if USE_INI_FILES
 	saveMediaInfo();
+#endif
 
     if (proc->isRunning()) stopMplayer();
     proc->terminate();
@@ -196,6 +198,7 @@ void Core::restart() {
 	}
 }
 
+#if USE_INI_FILES
 bool Core::checkHaveSettingsSaved(QString group_name) {
 	qDebug("Core::checkHaveSettingsSaved: group_name: '%s'", group_name.toUtf8().data());
 
@@ -248,6 +251,7 @@ void Core::loadMediaInfo(QString group_name) {
 	file_settings->endGroup();
 }
 
+#endif // USE_INI_FILES
 
 void Core::updateLog(QString line) {
 	if (pref->log_mplayer) {
@@ -470,7 +474,9 @@ void Core::openVCD(int title) {
 	}
 
 	// Save data of previous file:
+#if USE_INI_FILES
 	saveMediaInfo();
+#endif
 
 	mdat.reset();
 	mdat.filename = "vcd://" + QString::number(title);
@@ -497,7 +503,9 @@ void Core::openAudioCD(int title) {
 	}
 
 	// Save data of previous file:
+#if USE_INI_FILES
 	saveMediaInfo();
+#endif
 
 	mdat.reset();
 	mdat.filename = "cdda://" + QString::number(title);
@@ -542,7 +550,9 @@ void Core::openDVD(QString dvd_url) {
 	}
 
 	// Save data of previous file:
+#if USE_INI_FILES
 	saveMediaInfo();
+#endif
 
 	mdat.reset();
 	mdat.filename = dvd_url;
@@ -568,7 +578,9 @@ void Core::openStream(QString name) {
 	}
 
 	// Save data of previous file:
+#if USE_INI_FILES
 	saveMediaInfo();
+#endif
 
 	mdat.reset();
 	mdat.filename = name;
@@ -591,7 +603,9 @@ void Core::playNewFile(QString file, int seek) {
 	}
 
 	// Save data of previous file:
+#if USE_INI_FILES
 	saveMediaInfo();
+#endif
 
 	mdat.reset();
 	mdat.filename = file;
@@ -600,6 +614,7 @@ void Core::playNewFile(QString file, int seek) {
 	int old_volume = mset.volume;
 	mset.reset();
 
+#if USE_INI_FILES
 	// Check if we already have info about this file
 	if (checkHaveSettingsSaved( Helper::filenameForPref(file) )) {
 		qDebug("We have settings for this file!!!");
@@ -619,6 +634,10 @@ void Core::playNewFile(QString file, int seek) {
 		// Recover volume
 		mset.volume = old_volume;
 	}
+#else
+	// Recover volume
+	mset.volume = old_volume;
+#endif // USE_INI_FILES
 
 	/* initializeMenus(); */
 

@@ -8,7 +8,7 @@ QT += network
 
 RESOURCES = icons.qrc
 
-HEADERS	+= config.h \
+HEADERS	+= config.h libconfig.h \
 	constants.h \
 	svn_revision.h \
 	version.h \

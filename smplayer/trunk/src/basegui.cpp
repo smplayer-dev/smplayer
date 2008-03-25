@@ -62,6 +62,8 @@
 #include "clhelp.h"
 
 #include "config.h"
+#include "libconfig.h" // Delete this
+
 #include "actionseditor.h"
 
 #include "myserver.h"
@@ -1908,7 +1910,9 @@ void BaseGui::applyNewPreferences() {
 	pref_dialog->mod_input()->actions_editor->applyChanges();
 	saveActions();
 
+#if USE_INI_FILES
     pref->save();
+#endif
 }
 
 
