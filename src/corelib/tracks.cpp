@@ -131,7 +131,7 @@ bool TrackList::existsFilename(QString name) {
 	return FALSE;
 }
 
-#if USE_INI_FILES
+#ifdef USE_INI_FILES
 void TrackList::save(QSettings & set) {
 	qDebug("TrackList::save");
 

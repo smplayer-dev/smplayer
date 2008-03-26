@@ -63,7 +63,7 @@ QString TrackData::displayName() const {
 	return dname;
 }
 
-#if USE_INI_FILES
+#ifdef USE_INI_FILES
 void TrackData::save(QSettings & set) {
 	//qDebug("TrackData::save");
 

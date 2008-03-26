@@ -16,34 +16,53 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
+#ifndef _TRACKS_H_
+#define _TRACKS_H_
 
-#ifndef _GLOBAL_H_
-#define _GLOBAL_H_
+#include "trackdata.h"
+#include <QMap>
+#include <QSettings>
 
-#include <QString>
+class TrackList {
 
-// Some global objects
+public:
 
-class QSettings;
-class Preferences;
-class Translator;
+	TrackList();
+	~TrackList();
 
-namespace Global {
+	void clear();
+	void list();
 
-	//! Read and store application settings
-	extern QSettings * settings;
+	void addLang(int ID, QString lang);
+	void addName(int ID, QString name);
+	void addFilename(int ID, QString filename);
+	void addDuration(int ID, double duration);
+	void addChapters(int ID, int n);
+	void addAngles(int ID, int n);
+	void addID(int ID);
 
-	//! Prefences
-	extern Preferences * pref;
+	int numItems();
+	bool existsItemAt(int n);
 
-	//! Translator (for changing language)
-	extern Translator * translator;
+	TrackData itemAt(int n);
+	TrackData item(int ID);
+	int find(int ID);
 
+	int findLang(QString expr);
 
-	void global_init(const QString & ini_path);
-	void global_end();
+	// A mess for getting sub files...
+	int lastID();
+	bool existsFilename(QString name);
 
-};
-
+#ifdef USE_INI_FILES
+	void save(QSettings & set);
+	void load(QSettings & set);
 #endif
 
+protected:
+	typedef QMap <int, TrackData> TrackMap;
+	TrackMap tm;
+};
+
+
+#endif
