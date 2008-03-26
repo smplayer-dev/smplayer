@@ -39,8 +39,12 @@ SOURCES += global.cpp \
 
 
 unix {
-  UI_DIR = .ui
-  MOC_DIR = .moc
-  OBJECTS_DIR = .obj
+	UI_DIR = .ui
+	MOC_DIR = .moc
+	OBJECTS_DIR = .obj
 }
 
+win32 {
+	HEADERS += screensaver.h
+	SOURCES += screensaver.cpp
+}

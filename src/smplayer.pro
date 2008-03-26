@@ -195,8 +195,8 @@ unix {
 }
 
 win32 {
-	HEADERS += 	prefassociations.h winfileassoc.h screensaver.h
-	SOURCES += 	prefassociations.cpp winfileassoc.cpp screensaver.cpp
+	HEADERS += 	prefassociations.h winfileassoc.h corelib/screensaver.h
+	SOURCES += 	prefassociations.cpp winfileassoc.cpp corelib/screensaver.cpp
 	FORMS += prefassociations.ui
 
 	LIBS += libole32
