@@ -17,10 +17,13 @@
 */
 
 #include "mplayerwindow.h"
-#include "images.h"
 #include "global.h"
 #include "desktopinfo.h"
 #include "helper.h"
+
+#ifndef MINILIB
+#include "images.h"
+#endif
 
 #include <QLabel>
 #include <QTimer>
@@ -177,7 +180,9 @@ void MplayerWindow::setColorKey( QColor c ) {
 
 void MplayerWindow::retranslateStrings() {
 	//qDebug("MplayerWindow::retranslateStrings");
+#ifndef MINILIB
 	logo->setPixmap( Images::icon("background") );
+#endif
 }
 
 void MplayerWindow::showLogo( bool b)

@@ -309,7 +309,11 @@ signals:
 protected:
     MplayerProcess * proc;
     MplayerWindow * mplayerwindow;
+
+#ifdef USE_INI_FILES
 	QSettings * file_settings;
+#endif
+
 #ifdef Q_OS_WIN
 	WinScreenSaver * win_screensaver;
 #endif

@@ -2,9 +2,10 @@ TEMPLATE = lib
 LANGUAGE = c++
 CONFIG += qt warn_on release
 
-DEFINES += LIBGLOBAL
+DEFINES += MINILIB
 
 HEADERS += config.h \
+        constants.h \
         global.h \
         helper.h \
         subtracks.h \
@@ -15,7 +16,10 @@ HEADERS += config.h \
         preferences.h \
         myprocess.h \
         mplayerversion.h \
-        mplayerprocess.h
+        mplayerprocess.h \
+        desktopinfo.h \
+        mplayerwindow.h \
+        core.h
 
 
 SOURCES += global.cpp \
@@ -28,7 +32,10 @@ SOURCES += global.cpp \
         preferences.cpp \
         myprocess.cpp \
         mplayerversion.cpp \
-        mplayerprocess.cpp
+        mplayerprocess.cpp \
+        desktopinfo.cpp \
+        mplayerwindow.cpp \
+        core.cpp
 
 
 unix {
