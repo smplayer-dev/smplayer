@@ -20,7 +20,7 @@
 #include "global.h"
 #include "preferences.h"
 
-#ifndef LIBGLOBAL
+#ifndef MINILIB
 
 #include "constants.h"
 #include <QSettings>
@@ -108,5 +108,5 @@ void Global::global_end() {
 	pref = 0;
 }
 
-#endif
+#endif // MINILIB
 

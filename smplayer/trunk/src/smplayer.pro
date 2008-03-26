@@ -12,7 +12,7 @@ INCLUDEPATH += corelib
 DEFINES += USE_INI_FILES
 
 HEADERS	+= corelib/config.h \
-	constants.h \
+	corelib/constants.h \
 	svn_revision.h \
 	version.h \
 	corelib/global.h \
@@ -22,18 +22,18 @@ HEADERS	+= corelib/config.h \
 	corelib/trackdata.h \
 	corelib/tracks.h \
 	extensions.h \
-	desktopinfo.h \
+	corelib/desktopinfo.h \
 	corelib/myprocess.h \
 	corelib/mplayerversion.h \
 	corelib/mplayerprocess.h \
-	mplayerwindow.h \
+	corelib/mplayerwindow.h \
 	corelib/mediadata.h \
 	corelib/mediasettings.h \
 	corelib/preferences.h \
 	images.h \
 	inforeader.h \
 	recents.h \
-	core.h \
+	corelib/core.h \
 	logwindow.h \
 	infofile.h \
 	encodings.h \
@@ -88,18 +88,18 @@ SOURCES	+= version.cpp \
 	corelib/trackdata.cpp \
 	corelib/tracks.cpp \
 	extensions.cpp \
-	desktopinfo.cpp \
+	corelib/desktopinfo.cpp \
 	corelib/myprocess.cpp \
 	corelib/mplayerversion.cpp \
 	corelib/mplayerprocess.cpp \
-	mplayerwindow.cpp \
+	corelib/mplayerwindow.cpp \
 	corelib/mediadata.cpp \
 	corelib/mediasettings.cpp \
 	corelib/preferences.cpp \
 	images.cpp \
 	inforeader.cpp \
 	recents.cpp \
-	core.cpp \
+	corelib/core.cpp \
 	logwindow.cpp \
 	infofile.cpp \
 	encodings.cpp \

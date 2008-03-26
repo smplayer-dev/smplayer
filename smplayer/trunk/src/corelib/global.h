@@ -24,7 +24,7 @@
 
 // Some global objects
 
-#ifndef LIBGLOBAL
+#ifndef MINILIB
 
 class QSettings;
 class Preferences;
@@ -60,7 +60,7 @@ namespace Global {
 
 };
 
-#endif // LIBGLOBAL
+#endif // MINILIB
 
 #endif
 

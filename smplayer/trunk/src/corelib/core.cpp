@@ -27,12 +27,12 @@
 #include "mplayerprocess.h"
 #include "mplayerwindow.h"
 #include "desktopinfo.h"
-#include "constants.h"
 #include "helper.h"
 #include "preferences.h"
 #include "global.h"
 #include "config.h"
 #include "mplayerversion.h"
+#include "constants.h"
 
 #ifdef Q_OS_WIN
 #include <windows.h> // To change app priority
@@ -54,6 +54,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	just_unloaded_external_subs = false;
 	change_volume_after_unpause = false;
 
+#ifdef USE_INI_FILES
 	// Create file_settings
 	if (Helper::iniPath().isEmpty()) {
 		file_settings = new QSettings(QSettings::IniFormat, QSettings::UserScope,
@@ -63,6 +64,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 		file_settings = new QSettings( filename, QSettings::IniFormat );
 		qDebug("Core::Core: file_settings: '%s'", filename.toUtf8().data());
 	}
+#endif
 
     proc = new MplayerProcess(this);
 
@@ -164,7 +166,10 @@ Core::~Core() {
     if (proc->isRunning()) stopMplayer();
     proc->terminate();
     delete proc;
+
+#ifdef USE_INI_FILES
 	delete file_settings;
+#endif
 
 #ifdef Q_OS_WIN
 	delete win_screensaver;
