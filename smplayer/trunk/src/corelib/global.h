@@ -16,9 +16,51 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _LIBCONFIG_H_
-#define _LIBCONFIG_H_
 
-#define USE_INI_FILES 1
+#ifndef _GLOBAL_H_
+#define _GLOBAL_H_
+
+#include <QString>
+
+// Some global objects
+
+#ifndef LIBGLOBAL
+
+class QSettings;
+class Preferences;
+class Translator;
+
+namespace Global {
+
+	//! Read and store application settings
+	extern QSettings * settings;
+
+	//! Prefences
+	extern Preferences * pref;
+
+	//! Translator (for changing language)
+	extern Translator * translator;
+
+
+	void global_init(const QString & ini_path);
+	void global_end();
+
+};
+
+#else
+
+class Preferences;
+
+namespace Global {
+	//! Prefences
+	extern Preferences * pref;
+
+	void global_init();
+	void global_end();
+
+};
+
+#endif // LIBGLOBAL
 
 #endif
+

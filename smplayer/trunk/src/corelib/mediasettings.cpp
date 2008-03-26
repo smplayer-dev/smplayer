@@ -196,7 +196,7 @@ void MediaSettings::list() {
 	qDebug("  is264andHD: %d", is264andHD);
 }
 
-#if USE_INI_FILES
+#ifdef USE_INI_FILES
 void MediaSettings::save(QSettings * set) {
 	qDebug("MediaSettings::save");
 

@@ -18,9 +18,12 @@
 
 
 #include "global.h"
+#include "preferences.h"
+
+#ifndef LIBGLOBAL
+
 #include "constants.h"
 #include <QSettings>
-#include "preferences.h"
 #include "translator.h"
 #include "helper.h"
 #include <QApplication>
@@ -83,3 +86,27 @@ void Global::global_end() {
 	delete settings;
 	delete translator;
 }
+
+#else
+
+Preferences * Global::pref = 0;
+
+using namespace Global;
+
+void Global::global_init() {
+	qDebug("global_init");
+
+	// Preferences
+	pref = new Preferences();
+}
+
+void Global::global_end() {
+	qDebug("global_end");
+
+	// delete
+	delete pref;
+	pref = 0;
+}
+
+#endif
+

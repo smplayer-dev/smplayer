@@ -8,25 +8,28 @@ QT += network
 
 RESOURCES = icons.qrc
 
-HEADERS	+= config.h libconfig.h \
+INCLUDEPATH += corelib
+DEFINES += USE_INI_FILES
+
+HEADERS	+= corelib/config.h \
 	constants.h \
 	svn_revision.h \
 	version.h \
-	global.h \
-	helper.h \
+	corelib/global.h \
+	corelib/helper.h \
 	translator.h \
-	subtracks.h \
-	trackdata.h \
-	tracks.h \
+	corelib/subtracks.h \
+	corelib/trackdata.h \
+	corelib/tracks.h \
 	extensions.h \
 	desktopinfo.h \
-	myprocess.h \
-	mplayerversion.h \
-	mplayerprocess.h \
+	corelib/myprocess.h \
+	corelib/mplayerversion.h \
+	corelib/mplayerprocess.h \
 	mplayerwindow.h \
-	mediadata.h \
-	mediasettings.h \
-	preferences.h \
+	corelib/mediadata.h \
+	corelib/mediasettings.h \
+	corelib/preferences.h \
 	images.h \
 	inforeader.h \
 	recents.h \
@@ -78,21 +81,21 @@ HEADERS	+= config.h libconfig.h \
 
 
 SOURCES	+= version.cpp \
-	global.cpp \
-	helper.cpp \
+	corelib/global.cpp \
+	corelib/helper.cpp \
 	translator.cpp \
-	subtracks.cpp \
-	trackdata.cpp \
-	tracks.cpp \
+	corelib/subtracks.cpp \
+	corelib/trackdata.cpp \
+	corelib/tracks.cpp \
 	extensions.cpp \
 	desktopinfo.cpp \
-	myprocess.cpp \
-	mplayerversion.cpp \
-	mplayerprocess.cpp \
+	corelib/myprocess.cpp \
+	corelib/mplayerversion.cpp \
+	corelib/mplayerprocess.cpp \
 	mplayerwindow.cpp \
-	mediadata.cpp \
-	mediasettings.cpp \
-	preferences.cpp \
+	corelib/mediadata.cpp \
+	corelib/mediasettings.cpp \
+	corelib/preferences.cpp \
 	images.cpp \
 	inforeader.cpp \
 	recents.cpp \

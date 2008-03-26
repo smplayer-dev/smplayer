@@ -24,7 +24,6 @@
 
 #include <QString>
 #include "config.h"
-#include "libconfig.h"
 
 class Preferences {
 
@@ -43,7 +42,7 @@ public:
 
 	virtual void reset();
 
-#if USE_INI_FILES
+#ifdef USE_INI_FILES
 	void save();
 	void load();
 #endif
