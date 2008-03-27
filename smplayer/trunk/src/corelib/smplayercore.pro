@@ -1,6 +1,6 @@
 TEMPLATE = lib
 LANGUAGE = c++
-CONFIG += qt warn_on release
+CONFIG += qt warn_on debug staticlib
 
 DEFINES += MINILIB
 
@@ -19,7 +19,8 @@ HEADERS += config.h \
         mplayerprocess.h \
         desktopinfo.h \
         mplayerwindow.h \
-        core.h
+        core.h \
+        smplayercorelib.h
 
 
 SOURCES += global.cpp \
@@ -35,7 +36,8 @@ SOURCES += global.cpp \
         mplayerprocess.cpp \
         desktopinfo.cpp \
         mplayerwindow.cpp \
-        core.cpp
+        core.cpp \
+        smplayercorelib.cpp
 
 
 unix {
