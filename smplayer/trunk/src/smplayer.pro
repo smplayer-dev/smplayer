@@ -9,6 +9,7 @@ QT += network
 RESOURCES = icons.qrc
 
 INCLUDEPATH += corelib
+DEPENDPATH += corelib
 DEFINES += USE_INI_FILES
 
 HEADERS	+= corelib/config.h \
