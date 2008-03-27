@@ -4,6 +4,8 @@
 #include "smplayercorelib.h"
 #include <QAction>
 #include <QMenuBar>
+#include <QToolBar>
+#include "timeslider.h"
 #include <QFileDialog>
 
 #include <QApplication>
@@ -27,6 +29,7 @@ Gui::Gui( QWidget * parent, Qt::WindowFlags flags )
 	open_menu->addAction(closeAct);
 
 	QAction * playAct = new QAction( tr("&Play/Pause"), this);
+	playAct->setShortcut( Qt::Key_Space );
 	connect( playAct, SIGNAL(triggered()), 
              smplayerlib->core(), SLOT(play_or_pause()) );
 
@@ -37,6 +40,25 @@ Gui::Gui( QWidget * parent, Qt::WindowFlags flags )
 	QMenu * play_menu = menuBar()->addMenu( tr("&Play") );
 	play_menu->addAction(playAct);
 	play_menu->addAction(stopAct);
+
+
+	TimeSlider * time_slider = new TimeSlider(this);
+	//time_slider->setOrientation(Qt::Horizontal);
+	//time_slider->setTracking(false);
+	//time_slider->setMinimum(0);
+	//time_slider->setMaximum(100);
+	connect( time_slider, SIGNAL(posChanged(int)), 
+             smplayerlib->core(), SLOT(goToPos(int)) );
+	connect( smplayerlib->core(), SIGNAL(posChanged(int)),
+             time_slider, SLOT(setPos(int)) );
+
+	QToolBar * control = new QToolBar( tr("Control"), this);
+	control->addAction(playAct);
+	control->addAction(stopAct);
+	control->addSeparator();
+	control->addWidget(time_slider);
+
+	addToolBar(Qt::BottomToolBarArea, control);
 }
 
 Gui::~Gui() {
