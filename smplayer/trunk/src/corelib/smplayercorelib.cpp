@@ -30,6 +30,8 @@ SmplayerCoreLib::SmplayerCoreLib( QWidget * parent )
 
 	_mpw = new MplayerWindow(parent);
 	_core = new Core(_mpw, parent);
+	
+	_mpw->setColorKey( Global::pref->color_key );
 
 	Global::pref->fast_audio_change = Preferences::Enabled;
 }
