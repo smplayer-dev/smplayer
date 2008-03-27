@@ -19,21 +19,24 @@
 #ifndef _SMPLAYERCORELIB_H_
 #define _SMPLAYERCORELIB_H_
 
-#include "core.h"
 #include <QWidget>
+#include "core.h"
+#include "mplayerwindow.h"
 
 class SmplayerCoreLib : public QObject
 {
     Q_OBJECT
     
 public:
-    SmplayerCoreLib( MplayerWindow * mpw, QWidget * parent = 0 );
+    SmplayerCoreLib( QWidget * parent = 0 );
     ~SmplayerCoreLib();
 
 	Core * core() { return _core; };
+	MplayerWindow * mplayerWindow() { return _mpw; };
 
 private:
 	Core * _core;
+	MplayerWindow * _mpw;
 };
 
 #endif
