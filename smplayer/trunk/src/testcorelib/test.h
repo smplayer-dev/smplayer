@@ -35,6 +35,9 @@ public:
 public slots:
 	void open();
 
+protected:
+	virtual void closeEvent( QCloseEvent * event );
+
 private:
 	MplayerWindow * mpw;
 	SmplayerCoreLib * smplayerlib;

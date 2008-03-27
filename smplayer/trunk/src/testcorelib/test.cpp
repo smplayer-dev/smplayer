@@ -74,6 +74,11 @@ Gui::Gui( QWidget * parent, Qt::WindowFlags flags )
 Gui::~Gui() {
 }
 
+void Gui::closeEvent( QCloseEvent * event ) {
+	smplayerlib->core()->stop();
+	event->accept();
+}
+
 void Gui::open() {
 	QString f = QFileDialog::getOpenFileName( this, tr("Open file") );
 
