@@ -1,12 +1,12 @@
 TEMPLATE = app
 LANGUAGE = C++
 
-CONFIG  += qt warn_on debug
+CONFIG  += qt warn_on release
 
 INCLUDEPATH += ../corelib
 
-HEADERS = test.h
-SOURCES = test.cpp
+HEADERS = timeslider.h test.h
+SOURCES = timeslider.cpp test.cpp
 
 LIBS += -L../corelib -lsmplayercore
 
