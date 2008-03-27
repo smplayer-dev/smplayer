@@ -22,13 +22,14 @@
 #include "helper.h"
 #include <QApplication>
 
-SmplayerCoreLib::SmplayerCoreLib( MplayerWindow * mpw, QWidget * parent )
+SmplayerCoreLib::SmplayerCoreLib( QWidget * parent )
 	: QObject(parent) 
 {
 	Helper::setAppPath( qApp->applicationDirPath() );
 	Global::global_init();
 
-	_core = new Core(mpw, parent);
+	_mpw = new MplayerWindow(parent);
+	_core = new Core(_mpw, parent);
 
 	Global::pref->fast_audio_change = Preferences::Enabled;
 }
@@ -37,3 +38,4 @@ SmplayerCoreLib::~SmplayerCoreLib() {
 	Global::global_end();
 };
 
+#include "moc_smplayercorelib.cpp"
