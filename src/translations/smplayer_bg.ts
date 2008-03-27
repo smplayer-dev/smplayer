@@ -844,7 +844,7 @@ Do you want to overwrite?</source>
         <translation>4:3 &amp;към 16:9</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2072"/>
+        <location filename="../basegui.cpp" line="2074"/>
         <source>&amp;None</source>
         <translation>&amp;Няма</translation>
     </message>
@@ -969,74 +969,74 @@ Do you want to overwrite?</source>
         <translation>SMPlayer - smplayer дневник</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2181"/>
+        <location filename="../basegui.cpp" line="2183"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;празно&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2518"/>
+        <location filename="../basegui.cpp" line="2520"/>
         <source>Video</source>
         <translation>Видео</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2696"/>
+        <location filename="../basegui.cpp" line="2698"/>
         <source>Audio</source>
         <translation>Аудио</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2520"/>
+        <location filename="../basegui.cpp" line="2522"/>
         <source>Playlists</source>
         <translation>Списъци за изпълнение</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2697"/>
+        <location filename="../basegui.cpp" line="2699"/>
         <source>All files</source>
         <translation>Всички файлове</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2694"/>
+        <location filename="../basegui.cpp" line="2696"/>
         <source>Choose a file</source>
         <translation>Избор на файл</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2568"/>
+        <location filename="../basegui.cpp" line="2570"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer -Информация</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2571"/>
+        <location filename="../basegui.cpp" line="2573"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CDROM / DVD устройствата все още не са настроени.
 Тук вие можете да го направите.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2645"/>
+        <location filename="../basegui.cpp" line="2647"/>
         <source>Choose a directory</source>
         <translation>Избор на директория</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2681"/>
+        <location filename="../basegui.cpp" line="2683"/>
         <source>Subtitles</source>
         <translation>Субтитри</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2721"/>
+        <location filename="../basegui.cpp" line="2723"/>
         <source>About Qt</source>
         <translation>Относно Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3055"/>
+        <location filename="../basegui.cpp" line="3057"/>
         <source>Playing %1</source>
         <translation>Изпълнява се %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3056"/>
+        <location filename="../basegui.cpp" line="3058"/>
         <source>Pause</source>
         <translation>Пауза</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3057"/>
+        <location filename="../basegui.cpp" line="3059"/>
         <source>Stop</source>
         <translation>Стоп</translation>
     </message>
@@ -1306,7 +1306,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2710"/>
+        <location filename="../basegui.cpp" line="2712"/>
         <source>SMPlayer command line options</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1326,32 +1326,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3478"/>
+        <location filename="../basegui.cpp" line="3480"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3479"/>
+        <location filename="../basegui.cpp" line="3481"/>
         <source>Exit code: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3489"/>
+        <location filename="../basegui.cpp" line="3491"/>
         <source>MPlayer failed to start.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3490"/>
+        <location filename="../basegui.cpp" line="3492"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3492"/>
+        <location filename="../basegui.cpp" line="3494"/>
         <source>MPlayer has crashed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3493"/>
+        <location filename="../basegui.cpp" line="3495"/>
         <source>See the log for more info.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1432,42 +1432,42 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1979"/>
+        <location filename="../corelib/core.cpp" line="2008"/>
         <source>Brightness: %1</source>
         <translation>Яркост: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1988"/>
+        <location filename="../corelib/core.cpp" line="2017"/>
         <source>Contrast: %1</source>
         <translation>Контраст: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1996"/>
+        <location filename="../corelib/core.cpp" line="2025"/>
         <source>Gamma: %1</source>
         <translation>Гама: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2004"/>
+        <location filename="../corelib/core.cpp" line="2033"/>
         <source>Hue: %1</source>
         <translation>Нюанс: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2012"/>
+        <location filename="../corelib/core.cpp" line="2041"/>
         <source>Saturation: %1</source>
         <translation>Наситеност: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2131"/>
+        <location filename="../corelib/core.cpp" line="2160"/>
         <source>Volume: %1</source>
         <translation>Сила на звука: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2788"/>
+        <location filename="../corelib/core.cpp" line="2831"/>
         <source>Zoom: %1</source>
         <translation>Мащаб: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2250"/>
+        <location filename="../corelib/core.cpp" line="2279"/>
         <source>Font scale: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4770,42 +4770,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../helper.cpp" line="232"/>
+        <location filename="../corelib/helper.cpp" line="232"/>
         <source>1 second</source>
         <translation>1 секунда</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="234"/>
+        <location filename="../corelib/helper.cpp" line="234"/>
         <source>%1 seconds</source>
         <translation>%1 секунди</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="247"/>
+        <location filename="../corelib/helper.cpp" line="247"/>
         <source>%1 minutes</source>
         <translation>%1 минути</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="252"/>
+        <location filename="../corelib/helper.cpp" line="252"/>
         <source>%1 minutes and %2 seconds</source>
         <translation>%1 минути и  %2 секунди</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="239"/>
+        <location filename="../corelib/helper.cpp" line="239"/>
         <source>1 minute</source>
         <translation>1 минута</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="242"/>
+        <location filename="../corelib/helper.cpp" line="242"/>
         <source>1 minute and 1 second</source>
         <translation>1 минута и 1 секунда</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="244"/>
+        <location filename="../corelib/helper.cpp" line="244"/>
         <source>1 minute and %1 seconds</source>
         <translation>1 минута и %1 секунди</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="250"/>
+        <location filename="../corelib/helper.cpp" line="250"/>
         <source>%1 minutes and 1 second</source>
         <translation>%1 минути и 1 секунда</translation>
     </message>

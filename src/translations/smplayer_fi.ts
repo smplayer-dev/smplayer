@@ -699,7 +699,7 @@ Haluatko ylikirjoittaa sen?</translation>
         <translation>&amp;Kuvasuhde</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2072"/>
+        <location filename="../basegui.cpp" line="2074"/>
         <source>&amp;None</source>
         <translation>&amp;Ei mitään</translation>
     </message>
@@ -944,74 +944,74 @@ Haluatko ylikirjoittaa sen?</translation>
         <translation>Tietoa &amp;SMPlayerstä</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2181"/>
+        <location filename="../basegui.cpp" line="2183"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;tyhjä&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2518"/>
+        <location filename="../basegui.cpp" line="2520"/>
         <source>Video</source>
         <translation>Kuva</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2696"/>
+        <location filename="../basegui.cpp" line="2698"/>
         <source>Audio</source>
         <translation>Ääni</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2520"/>
+        <location filename="../basegui.cpp" line="2522"/>
         <source>Playlists</source>
         <translation>Soittolistat</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2697"/>
+        <location filename="../basegui.cpp" line="2699"/>
         <source>All files</source>
         <translation>Kaikki tiedostot</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2694"/>
+        <location filename="../basegui.cpp" line="2696"/>
         <source>Choose a file</source>
         <translation>Valitse tiedosto</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2568"/>
+        <location filename="../basegui.cpp" line="2570"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Tietoa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2571"/>
+        <location filename="../basegui.cpp" line="2573"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CDROM / DVD asemia ei ole vielä asetettu.
 Asetus ikkuna näytetäään, että voit tehdä sen.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2645"/>
+        <location filename="../basegui.cpp" line="2647"/>
         <source>Choose a directory</source>
         <translation>Valitse kansio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2681"/>
+        <location filename="../basegui.cpp" line="2683"/>
         <source>Subtitles</source>
         <translation>Tekstitykset</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2721"/>
+        <location filename="../basegui.cpp" line="2723"/>
         <source>About Qt</source>
         <translation>Tietoa Qt:stä</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3055"/>
+        <location filename="../basegui.cpp" line="3057"/>
         <source>Playing %1</source>
         <translation>Toistaa %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3056"/>
+        <location filename="../basegui.cpp" line="3058"/>
         <source>Pause</source>
         <translation>Tauko</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3057"/>
+        <location filename="../basegui.cpp" line="3059"/>
         <source>Stop</source>
         <translation>Pysäytä</translation>
     </message>
@@ -1301,7 +1301,7 @@ Asetus ikkuna näytetäään, että voit tehdä sen.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2710"/>
+        <location filename="../basegui.cpp" line="2712"/>
         <source>SMPlayer command line options</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1321,32 +1321,32 @@ Asetus ikkuna näytetäään, että voit tehdä sen.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3478"/>
+        <location filename="../basegui.cpp" line="3480"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3479"/>
+        <location filename="../basegui.cpp" line="3481"/>
         <source>Exit code: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3489"/>
+        <location filename="../basegui.cpp" line="3491"/>
         <source>MPlayer failed to start.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3490"/>
+        <location filename="../basegui.cpp" line="3492"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3492"/>
+        <location filename="../basegui.cpp" line="3494"/>
         <source>MPlayer has crashed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3493"/>
+        <location filename="../basegui.cpp" line="3495"/>
         <source>See the log for more info.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1422,42 +1422,42 @@ Asetus ikkuna näytetäään, että voit tehdä sen.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="1979"/>
+        <location filename="../corelib/core.cpp" line="2008"/>
         <source>Brightness: %1</source>
         <translation>Kirkkaus: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1988"/>
+        <location filename="../corelib/core.cpp" line="2017"/>
         <source>Contrast: %1</source>
         <translation>Kontrasti: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1996"/>
+        <location filename="../corelib/core.cpp" line="2025"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2004"/>
+        <location filename="../corelib/core.cpp" line="2033"/>
         <source>Hue: %1</source>
         <translation>Sävy: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2012"/>
+        <location filename="../corelib/core.cpp" line="2041"/>
         <source>Saturation: %1</source>
         <translation>Kyllästyneisyys: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2131"/>
+        <location filename="../corelib/core.cpp" line="2160"/>
         <source>Volume: %1</source>
         <translation>Volyymi: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2788"/>
+        <location filename="../corelib/core.cpp" line="2831"/>
         <source>Zoom: %1</source>
         <translation>Zoomaus: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2250"/>
+        <location filename="../corelib/core.cpp" line="2279"/>
         <source>Font scale: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4603,42 +4603,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../helper.cpp" line="232"/>
+        <location filename="../corelib/helper.cpp" line="232"/>
         <source>1 second</source>
         <translation>1 sekunti</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="234"/>
+        <location filename="../corelib/helper.cpp" line="234"/>
         <source>%1 seconds</source>
         <translation>%1 sekuntia</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="247"/>
+        <location filename="../corelib/helper.cpp" line="247"/>
         <source>%1 minutes</source>
         <translation>%1 minuuttia</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="252"/>
+        <location filename="../corelib/helper.cpp" line="252"/>
         <source>%1 minutes and %2 seconds</source>
         <translation>%1 minuuttia ja %2 sekuntia</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="239"/>
+        <location filename="../corelib/helper.cpp" line="239"/>
         <source>1 minute</source>
         <translation>1 minuutti</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="242"/>
+        <location filename="../corelib/helper.cpp" line="242"/>
         <source>1 minute and 1 second</source>
         <translation>1 minuutti ja 1 sekunti</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="244"/>
+        <location filename="../corelib/helper.cpp" line="244"/>
         <source>1 minute and %1 seconds</source>
         <translation>1 minuutti ja %1</translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="250"/>
+        <location filename="../corelib/helper.cpp" line="250"/>
         <source>%1 minutes and 1 second</source>
         <translation>%1 minuuttia ja 1 sekunti</translation>
     </message>
