@@ -852,6 +852,7 @@ void Core::stop()
 		qDebug("   mset.current_sec: %f", mset.current_sec);
 		mset.current_sec = 0;
 		emit showTime( mset.current_sec );
+		emit posChanged( 0 );
 		//updateWidgets();
 	}
 
@@ -2370,6 +2371,20 @@ void Core::changeCurrentSec(double sec) {
 	}
 
 	emit showTime(mset.current_sec);
+
+	// Emit posChanged:
+	static int last_second = 0;
+
+	if (floor(sec)==last_second) return; // Update only once per second
+	last_second = (int) floor(sec);
+
+	int perc = 0;
+	if ( (mdat.duration > 1) && (mset.current_sec > 1) &&
+         (mdat.duration > mset.current_sec) )
+	{
+		perc = ( (int) mset.current_sec * 100) / (int) mdat.duration;
+	}
+	emit posChanged( perc );
 }
 
 void Core::gotStartingTime(double time) {

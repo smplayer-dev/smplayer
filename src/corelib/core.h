@@ -292,6 +292,7 @@ signals:
 	void widgetsNeedUpdate();
 	void equalizerNeedsUpdate();
 	void showTime(double sec);
+	void posChanged(int); // To connect a slider
 	void showFrame(int frame);
 	void needResize(int w, int h);
 	void noVideo();
