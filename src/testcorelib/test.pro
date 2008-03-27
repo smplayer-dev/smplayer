@@ -8,10 +8,14 @@ INCLUDEPATH += ../corelib
 HEADERS = timeslider.h test.h
 SOURCES = timeslider.cpp test.cpp
 
-LIBS += -L../corelib -lsmplayercore
+LIBS += -L../corelib -L../corelib/release -lsmplayercore
 
 unix {
 	UI_DIR = .ui
 	MOC_DIR = .moc
 	OBJECTS_DIR = .obj
+}
+
+win32 {
+	CONFIG += console
 }
