@@ -1,6 +1,6 @@
 TEMPLATE = lib
 LANGUAGE = c++
-CONFIG += qt warn_on debug staticlib
+CONFIG += qt warn_on release staticlib
 
 DEFINES += MINILIB
 

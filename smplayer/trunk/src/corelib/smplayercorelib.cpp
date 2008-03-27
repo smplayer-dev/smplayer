@@ -19,10 +19,13 @@
 #include "smplayercorelib.h"
 #include "global.h"
 #include "preferences.h"
+#include "helper.h"
+#include <QApplication>
 
 SmplayerCoreLib::SmplayerCoreLib( MplayerWindow * mpw, QWidget * parent )
 	: QObject(parent) 
 {
+	Helper::setAppPath( qApp->applicationDirPath() );
 	Global::global_init();
 
 	_core = new Core(mpw, parent);
