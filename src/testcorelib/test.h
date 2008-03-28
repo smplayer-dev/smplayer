@@ -23,6 +23,7 @@
 
 class MplayerWindow;
 class SmplayerCoreLib;
+class Core;
 
 class Gui : public QMainWindow
 {
@@ -40,6 +41,7 @@ protected:
 
 private:
 	MplayerWindow * mpw;
+	Core * core;
 	SmplayerCoreLib * smplayerlib;
 };
 

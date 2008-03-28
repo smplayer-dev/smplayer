@@ -30,6 +30,7 @@ Gui::Gui( QWidget * parent, Qt::WindowFlags flags )
 	: QMainWindow(parent, flags)
 {
 	smplayerlib = new SmplayerCoreLib(this);
+	core = smplayerlib->core();
 	setCentralWidget(smplayerlib->mplayerWindow());
 
 	QAction * openAct = new QAction( tr("&Open..."), this);
@@ -45,11 +46,11 @@ Gui::Gui( QWidget * parent, Qt::WindowFlags flags )
 	QAction * playAct = new QAction( tr("&Play/Pause"), this);
 	playAct->setShortcut( Qt::Key_Space );
 	connect( playAct, SIGNAL(triggered()), 
-             smplayerlib->core(), SLOT(play_or_pause()) );
+             core, SLOT(play_or_pause()) );
 
 	QAction * stopAct = new QAction( tr("&Stop"), this);
 	connect( stopAct, SIGNAL(triggered()), 
-             smplayerlib->core(), SLOT(stop()) );
+             core, SLOT(stop()) );
 
 	QMenu * play_menu = menuBar()->addMenu( tr("&Play") );
 	play_menu->addAction(playAct);
@@ -58,8 +59,8 @@ Gui::Gui( QWidget * parent, Qt::WindowFlags flags )
 
 	TimeSlider * time_slider = new TimeSlider(this);
 	connect( time_slider, SIGNAL(posChanged(int)), 
-             smplayerlib->core(), SLOT(goToPos(int)) );
-	connect( smplayerlib->core(), SIGNAL(posChanged(int)),
+             core, SLOT(goToPos(int)) );
+	connect( core, SIGNAL(posChanged(int)),
              time_slider, SLOT(setPos(int)) );
 
 	QToolBar * control = new QToolBar( tr("Control"), this);
@@ -75,7 +76,7 @@ Gui::~Gui() {
 }
 
 void Gui::closeEvent( QCloseEvent * event ) {
-	smplayerlib->core()->stop();
+	core->stop();
 	event->accept();
 }
 
@@ -83,7 +84,7 @@ void Gui::open() {
 	QString f = QFileDialog::getOpenFileName( this, tr("Open file") );
 
 	if (!f.isEmpty()) {
-		smplayerlib->core()->open(f);
+		core->open(f);
 	}
 }
 
