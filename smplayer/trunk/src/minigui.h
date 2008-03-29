@@ -37,7 +37,6 @@ public:
 	~MiniGui();
 
 protected slots:
-	void displayTime(double sec, int perc, QString text);
 	void showFloatingControl(QPoint p);
 	void hideFloatingControl();
 

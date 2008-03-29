@@ -49,8 +49,8 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
 {
 	createStatusBar();
 
-	connect( this, SIGNAL(timeChanged(double, int, QString)),
-             this, SLOT(displayTime(double, int, QString)) );
+	connect( this, SIGNAL(timeChanged(QString)),
+             this, SLOT(displayTime(QString)) );
     connect( this, SIGNAL(frameChanged(int)),
              this, SLOT(displayFrame(int)) );
 
@@ -350,10 +350,8 @@ void DefaultGui::retranslateStrings() {
 }
 
 
-void DefaultGui::displayTime(double sec, int perc, QString text) {
+void DefaultGui::displayTime(QString text) {
 	time_display->setText( text );
-	timeslider_action->setPos(perc);
-
 	time_label->setText(text);
 }
 

@@ -208,7 +208,7 @@ protected slots:
 
 signals:
 	void frameChanged(int);
-	void timeChanged(double, int, QString);
+	void timeChanged(QString time_ready_to_print);
 
 	void cursorNearTop(QPoint);
 	void cursorNearBottom(QPoint);
@@ -524,7 +524,6 @@ protected:
 private:
 	QString default_style;
 
-	int last_second;
 	bool near_top;
 	bool near_bottom;
 
