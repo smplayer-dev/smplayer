@@ -566,7 +566,7 @@ void Core::openDVD(QString dvd_url) {
 	mset.reset();
 
 	mset.current_title_id = title;
-	mset.current_chapter_id = 1;
+	mset.current_chapter_id = dvd_first_chapter();
 	mset.current_angle_id = 1;
 
 	/* initializeMenus(); */

@@ -1,4 +1,10 @@
-[b]Version 0.6.0rc3[/b] (not released yet):
+[b]Version 0.6.0rc4[/b] (not released yet):
+
+(2008-03-29)
+ * Fix: DVDs started to play at chapter #2 if using mplayer 1.0rc2 or older.
+
+
+[b]Version 0.6.0rc3[/b]:
 
 (2008-03-21)
  * Try to use xv (or directx in windows) if the video driver is not set.
