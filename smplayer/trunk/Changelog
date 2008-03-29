@@ -2,6 +2,9 @@
 
 (2008-03-29)
  * Fix: DVDs started to play at chapter #2 if using mplayer 1.0rc2 or older.
+ * Now the default gui will only show two arrow buttons for seeking 
+   (rewind 10 secs and forward 10 secs) but if you keep those buttons 
+   pressed for a moment a popup menu will show with the rest of the buttons.
 
 
 [b]Version 0.6.0rc3[/b]:

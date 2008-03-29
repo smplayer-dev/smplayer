@@ -236,15 +236,35 @@ void DefaultGui::createControlWidget() {
 
 	controlwidget->addSeparator();
 
+#if MINI_ARROW_BUTTONS
+	QToolButton * rewind_button = new QToolButton(this);
+	rewind_button->setPopupMode(QToolButton::DelayedPopup);
+
+	rewind_button->setDefaultAction(rewind1Act);
+	rewind_button->addAction(rewind2Act);
+	rewind_button->addAction(rewind3Act);
+	controlwidget->addWidget(rewind_button);
+#else
 	controlwidget->addAction(rewind3Act);
 	controlwidget->addAction(rewind2Act);
 	controlwidget->addAction(rewind1Act);
+#endif
 
 	controlwidget->addAction(timeslider_action);
 
+#if MINI_ARROW_BUTTONS
+	QToolButton * forward_button = new QToolButton(this);
+	forward_button->setPopupMode(QToolButton::DelayedPopup);
+
+	forward_button->setDefaultAction(forward1Act);
+	forward_button->addAction(forward2Act);
+	forward_button->addAction(forward3Act);
+	controlwidget->addWidget(forward_button);
+#else
 	controlwidget->addAction(forward1Act);
 	controlwidget->addAction(forward2Act);
 	controlwidget->addAction(forward3Act);
+#endif
 
 	controlwidget->addSeparator();
 
@@ -280,13 +300,37 @@ void DefaultGui::createFloatingControl() {
 	floating_control->toolbar()->addAction(pauseAct);
 	floating_control->toolbar()->addAction(stopAct);
 	floating_control->toolbar()->addSeparator();
+
+#if MINI_ARROW_BUTTONS
+	QToolButton * rewind_button = new QToolButton(this);
+	rewind_button->setPopupMode(QToolButton::DelayedPopup);
+
+	rewind_button->setDefaultAction(rewind1Act);
+	rewind_button->addAction(rewind2Act);
+	rewind_button->addAction(rewind3Act);
+	floating_control->toolbar()->addWidget(rewind_button);
+#else
 	floating_control->toolbar()->addAction(rewind3Act);
 	floating_control->toolbar()->addAction(rewind2Act);
 	floating_control->toolbar()->addAction(rewind1Act);
+#endif
+
 	floating_control->toolbar()->addAction(timeslider_action);
+
+#if MINI_ARROW_BUTTONS
+	QToolButton * forward_button = new QToolButton(this);
+	forward_button->setPopupMode(QToolButton::DelayedPopup);
+
+	forward_button->setDefaultAction(forward1Act);
+	forward_button->addAction(forward2Act);
+	forward_button->addAction(forward3Act);
+	floating_control->toolbar()->addWidget(forward_button);
+#else
 	floating_control->toolbar()->addAction(forward1Act);
 	floating_control->toolbar()->addAction(forward2Act);
 	floating_control->toolbar()->addAction(forward3Act);
+#endif
+
 	floating_control->toolbar()->addSeparator();
 	floating_control->toolbar()->addAction(fullscreenAct);
 	floating_control->toolbar()->addAction(muteAct);

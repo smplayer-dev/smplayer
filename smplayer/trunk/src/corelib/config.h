@@ -111,6 +111,12 @@
 #define SMART_DVD_CHAPTERS 1
 
 
+// MINI_ARROW_BUTTONS
+// if set to 1, the GUI will use a popup menu for arrow buttons
+
+#define MINI_ARROW_BUTTONS 1
+
+
 // Just for testing, possibility to disable the use of the colorkey
 
 #define USE_COLORKEY 1
