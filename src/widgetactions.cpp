@@ -18,6 +18,10 @@
 
 #include "widgetactions.h"
 
+#if MINI_ARROW_BUTTONS
+#include <QToolButton>
+#endif
+
 MyWidgetAction::MyWidgetAction( QWidget * parent )
 	: QWidgetAction(parent)
 {
@@ -153,5 +157,30 @@ QWidget * VolumeSliderAction::createWidget ( QWidget * parent ) {
              this, SIGNAL(valueChanged(int)) );
 	return t;
 }
+
+#if MINI_ARROW_BUTTONS
+SeekingButton::SeekingButton( QList<QAction*> actions, QWidget * parent ) 
+	: QWidgetAction(parent)
+{
+	_actions = actions;
+}
+
+SeekingButton::~SeekingButton() {
+}
+
+QWidget * SeekingButton::createWidget( QWidget * parent ) {
+	QToolButton * button = new QToolButton(parent);
+	button->setPopupMode(QToolButton::DelayedPopup);
+
+	if (_actions.count() > 0 ) {
+		button->setDefaultAction( _actions[0] );
+	}
+	for (int n = 1; n < _actions.count(); n++) {
+		button->addAction( _actions[n] );
+	}
+
+	return button;
+}
+#endif
 
 #include "moc_widgetactions.cpp"

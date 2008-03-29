@@ -21,6 +21,7 @@
 
 #include <QWidgetAction>
 #include "timeslider.h"
+#include "config.h"
 
 class MyWidgetAction : public QWidgetAction
 {
@@ -87,6 +88,23 @@ signals:
 protected:
 	virtual QWidget * createWidget ( QWidget * parent );
 };
+
+
+#if MINI_ARROW_BUTTONS
+class SeekingButton : public QWidgetAction
+{
+	Q_OBJECT
+
+public:
+	SeekingButton( QList<QAction*> actions, QWidget * parent );
+	~SeekingButton();
+
+protected:
+	virtual QWidget * createWidget ( QWidget * parent );
+
+	QList<QAction*> _actions;
+};
+#endif
 
 #endif
 
