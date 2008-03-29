@@ -82,7 +82,6 @@ using namespace Global;
 
 BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags ) 
 	: QMainWindow( parent, flags ),
-		last_second(0),
 		near_top(false),
 		near_bottom(false)
 {
@@ -3079,6 +3078,8 @@ void BaseGui::displayMessage(QString message) {
 void BaseGui::gotCurrentTime(double sec) {
 	//qDebug( "DefaultGui::displayTime: %f", sec);
 
+	static int last_second = 0;
+
 	if (floor(sec)==last_second) return; // Update only once per second
 	last_second = (int) floor(sec);
 
@@ -3087,15 +3088,7 @@ void BaseGui::gotCurrentTime(double sec) {
 
 	//qDebug( " duration: %f, current_sec: %f", core->mdat.duration, core->mset.current_sec);
 
-	int perc = 0;
-    //Update slider
-	if ( (core->mdat.duration > 1) && (core->mset.current_sec > 1) && 
-         (core->mdat.duration > core->mset.current_sec) ) 
-	{
-	    perc = ( (int) core->mset.current_sec * 100) / (int) core->mdat.duration;
-	}
-
-	emit timeChanged( sec, perc, time );
+	emit timeChanged( time );
 }
 
 

@@ -71,7 +71,7 @@ protected:
 
 protected slots:
 	virtual void updateWidgets();
-	virtual void displayTime(double sec, int perc, QString text);
+	virtual void displayTime(QString text);
 	virtual void displayFrame(int frame);
 
 	virtual void showFloatingControl(QPoint p);

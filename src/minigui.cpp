@@ -37,9 +37,6 @@ MiniGui::MiniGui( QWidget * parent, Qt::WindowFlags flags )
 	createControlWidget();
 	createFloatingControl();
 
-	connect( this, SIGNAL(timeChanged(double, int, QString)),
-             this, SLOT(displayTime(double, int, QString)) );
-
 	connect( this, SIGNAL(cursorNearBottom(QPoint)),
              this, SLOT(showFloatingControl(QPoint)) );
 
@@ -133,10 +130,6 @@ void MiniGui::disableActionsOnStop() {
 #if USE_VOLUME_BAR
 	volumeslider_action->disable();
 #endif
-}
-
-void MiniGui::displayTime(double sec, int perc, QString text) {
-	timeslider_action->setPos(perc);
 }
 
 void MiniGui::aboutToEnterFullscreen() {
