@@ -34,6 +34,9 @@ class VolumeSliderAction;
 class FloatingWidget;
 class QLabel;
 
+#if MINI_ARROW_BUTTONS
+class SeekingButton;
+#endif
 
 class DefaultGui : public BaseGuiPlus
 {
@@ -97,6 +100,11 @@ protected:
 
 	TimeSliderAction * timeslider_action;
 	VolumeSliderAction * volumeslider_action;
+
+#if MINI_ARROW_BUTTONS
+	SeekingButton * rewindbutton_action;
+	SeekingButton * forwardbutton_action;
+#endif
 
 	FloatingWidget * floating_control;
 	QLabel * time_label;

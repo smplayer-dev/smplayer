@@ -102,6 +102,16 @@ void DefaultGui::createActions() {
 
 	volumeslider_action = createVolumeSliderAction(this);
 	volumeslider_action->disable();
+
+#if MINI_ARROW_BUTTONS
+	QList<QAction*> rewind_actions;
+	rewind_actions << rewind1Act << rewind2Act << rewind3Act;
+	rewindbutton_action = new SeekingButton(rewind_actions, this);
+
+	QList<QAction*> forward_actions;
+	forward_actions << forward1Act << forward2Act << forward3Act;
+	forwardbutton_action = new SeekingButton(forward_actions, this);
+#endif
 }
 
 void DefaultGui::enableActionsOnPlaying() {
@@ -237,13 +247,7 @@ void DefaultGui::createControlWidget() {
 	controlwidget->addSeparator();
 
 #if MINI_ARROW_BUTTONS
-	QToolButton * rewind_button = new QToolButton(this);
-	rewind_button->setPopupMode(QToolButton::DelayedPopup);
-
-	rewind_button->setDefaultAction(rewind1Act);
-	rewind_button->addAction(rewind2Act);
-	rewind_button->addAction(rewind3Act);
-	controlwidget->addWidget(rewind_button);
+	controlwidget->addAction( rewindbutton_action );
 #else
 	controlwidget->addAction(rewind3Act);
 	controlwidget->addAction(rewind2Act);
@@ -253,13 +257,7 @@ void DefaultGui::createControlWidget() {
 	controlwidget->addAction(timeslider_action);
 
 #if MINI_ARROW_BUTTONS
-	QToolButton * forward_button = new QToolButton(this);
-	forward_button->setPopupMode(QToolButton::DelayedPopup);
-
-	forward_button->setDefaultAction(forward1Act);
-	forward_button->addAction(forward2Act);
-	forward_button->addAction(forward3Act);
-	controlwidget->addWidget(forward_button);
+	controlwidget->addAction( forwardbutton_action );
 #else
 	controlwidget->addAction(forward1Act);
 	controlwidget->addAction(forward2Act);
@@ -302,13 +300,7 @@ void DefaultGui::createFloatingControl() {
 	floating_control->toolbar()->addSeparator();
 
 #if MINI_ARROW_BUTTONS
-	QToolButton * rewind_button = new QToolButton(this);
-	rewind_button->setPopupMode(QToolButton::DelayedPopup);
-
-	rewind_button->setDefaultAction(rewind1Act);
-	rewind_button->addAction(rewind2Act);
-	rewind_button->addAction(rewind3Act);
-	floating_control->toolbar()->addWidget(rewind_button);
+	floating_control->toolbar()->addAction( rewindbutton_action );
 #else
 	floating_control->toolbar()->addAction(rewind3Act);
 	floating_control->toolbar()->addAction(rewind2Act);
@@ -318,13 +310,7 @@ void DefaultGui::createFloatingControl() {
 	floating_control->toolbar()->addAction(timeslider_action);
 
 #if MINI_ARROW_BUTTONS
-	QToolButton * forward_button = new QToolButton(this);
-	forward_button->setPopupMode(QToolButton::DelayedPopup);
-
-	forward_button->setDefaultAction(forward1Act);
-	forward_button->addAction(forward2Act);
-	forward_button->addAction(forward3Act);
-	floating_control->toolbar()->addWidget(forward_button);
+	floating_control->toolbar()->addAction( forwardbutton_action );
 #else
 	floating_control->toolbar()->addAction(forward1Act);
 	floating_control->toolbar()->addAction(forward2Act);
