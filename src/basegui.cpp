@@ -2171,8 +2171,10 @@ void BaseGui::updateRecents() {
 		}
 		for (int n=0; n < max_items; n++) {
 			QString file = recents->item(n);
+			/*
 			QFileInfo fi(file);
 			if (fi.exists()) file = fi.fileName();
+			*/
 			QAction * a = recentfiles_menu->addAction( file );
 			a->setData(n);
 			connect(a, SIGNAL(triggered()), this, SLOT(openRecent()));
