@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1460,7 +1461,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="1028"/>
         <source>&amp;Jump to...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sauter à...</translation>
     </message>
 </context>
 <context>
@@ -2626,7 +2627,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefadvanced.cpp" line="358"/>
         <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si vous cochez cette option, la fenêtre vidéo de MPlayer ne sera pas attachée à la fenêtre principale de SMPlayer mais sera dans sa propre fenêtre. Notez que les évenements de la souris et du clavier seront alors directement dédiés au commande MPlayer. Cela ve dire que les raccourcis ne vont pas marcher sauf si la fenêtre de MPlayer est sélectionnée.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="374"/>
@@ -2636,7 +2637,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefadvanced.cpp" line="377"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si vous voyez les parties de la vidéo dans d&apos;autres fenêtres, vous pouvez changer la clé couleur pour réparer cela. Essayez de sélectionner une couleur proche du noir.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="380"/>
@@ -2651,7 +2652,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefadvanced.cpp" line="384"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ici, vous pouvez écrire les options pour MPlayer. Ecrivez les séparées d&apos;un espace.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="386"/>
@@ -2661,7 +2662,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefadvanced.cpp" line="388"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ici, vous pouvez ajouter les filtres vidéos pour MPlayer. Ecrivez les séparés d&apos;une virgule. N&apos;utilisez pas les espaces !</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="390"/>
@@ -2671,7 +2672,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefadvanced.cpp" line="392"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ici, vous pouvez ajouter les filtres audios pour MPlayer. Ecrivez les séparés d&apos;une virgule. N&apos;utilisez pas les espaces !</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="394"/>
@@ -4900,7 +4901,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="322"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in &lt;i&gt;%1&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ici, vous pouvez sélectionner une police TTF pour être utilisée en sous-titrage. En général, vous trouverez pleins de polices ttf dans &lt;i&gt;%1&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="329"/>
@@ -4910,17 +4911,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="331"/>
         <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ici, vous pouvez sélectionner la police du système pour être utilisée en sous-titrage et OSD. &lt;b&gt;Note :&lt;/b&gt; ceci requiert un MPlayer avec le support de fontconfig.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="333"/>
         <source>Autoscale</source>
-        <translation type="unfinished"></translation>
+        <translation>Echelle automatique</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="348"/>
         <source>Check this option to activate the SSA/ASS library. It provides nicer subtitles, so it&apos;s a good idea to do it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cochez cette option pour activer la librairie SSA/ASS. Cela permet de plus beaux sous-titres, c&apos;est une bonne idée de l&apos;utiliser.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="350"/>
@@ -4930,7 +4931,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="351"/>
         <source>Select the color for the text of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionnez la couleur de texte des sous-titres.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="353"/>
@@ -4940,22 +4941,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="354"/>
         <source>Select the color for the border of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionnez la couleur de bordure des sous-titres.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="296"/>
         <source>Select the subtitle autoload method.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionnez la méthode de préchargement des sous-titres.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="302"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;il y a un ou plusieurs sous-titres disponible, l&apos;un d&apos;eux sera automatiquement sélectionné, généralement le premier sauf si l&apos;un d&apos;eux correspond au langage préférencié de l&apos;utilsateur.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="334"/>
         <source>Select the subtitle autoscaling method.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionnez la méthode d&apos;échelle automatique des sous-titres.</translation>
     </message>
 </context>
 <context>
@@ -5277,12 +5278,12 @@ Si -playlist est utilisée, cela veut dire que SMPlayer passera l&apos;informati
     <message>
         <location filename="../timedialog.ui" line="13"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Recherche</translation>
     </message>
     <message>
         <location filename="../timedialog.ui" line="44"/>
         <source>&amp;Jump to:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sauter à :</translation>
     </message>
 </context>
 <context>
