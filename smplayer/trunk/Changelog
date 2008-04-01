@@ -6,6 +6,10 @@
    (rewind 10 secs and forward 10 secs) but if you keep those buttons 
    pressed for a moment a popup menu will show with the rest of the buttons.
 
+(2008-04-01)
+ * Don't check if the items in the recent's menu are local files, as it can
+   take a long time if they are not.
+
 
 [b]Version 0.6.0rc3[/b]:
 
