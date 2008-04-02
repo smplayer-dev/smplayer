@@ -137,7 +137,9 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 
 	createActions();
 	createMenus();
+#if AUTODISABLE_ACTIONS
 	setActionsEnabled(false);
+#endif
 
 #if !DOCK_PLAYLIST
 	connect(playlist, SIGNAL(visibilityChanged(bool)),
@@ -813,6 +815,7 @@ void BaseGui::createActions() {
 			 core, SLOT(changeChapter(int)) );
 }
 
+#if AUTODISABLE_ACTIONS
 void BaseGui::setActionsEnabled(bool b) {
 	// Menu Play
 	playAct->setEnabled(b);
@@ -984,7 +987,7 @@ void BaseGui::disableActionsOnStop() {
 	playOrPauseAct->setEnabled(true);
 	stopAct->setEnabled(true);
 }
-
+#endif // AUTODISABLE_ACTIONS
 
 void BaseGui::retranslateStrings() {
 	setWindowIcon( Images::icon("logo", 64) );

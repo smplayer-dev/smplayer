@@ -20,6 +20,7 @@
 #define _DEFAULTGUI_H_
 
 #include "config.h"
+#include "guiconfig.h"
 #include "baseguiplus.h"
 #include <QPoint>
 
@@ -82,8 +83,10 @@ protected slots:
 	virtual void hideFloatingControls();
 
 	// Reimplemented:
+#if AUTODISABLE_ACTIONS
 	virtual void enableActionsOnPlaying();
 	virtual void disableActionsOnStop();
+#endif
 
 protected:
 	QLabel * time_display;
