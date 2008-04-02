@@ -3,6 +3,8 @@
 (2008-04-01)
  * Don't check if the items in the recent's menu are local files, as it can
    take a long time if they are not.
+ * Compiled with MINI_ARROW_BUTTONS = 0 by default (so reverting changes in
+   r1038-r1039).
 
 (2008-03-29)
  * Fix: DVDs started to play at chapter #2 if using mplayer 1.0rc2 or older.
