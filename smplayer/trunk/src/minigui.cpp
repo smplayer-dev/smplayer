@@ -114,6 +114,7 @@ void MiniGui::retranslateStrings() {
 	controlwidget->setWindowTitle( tr("Control bar") );
 }
 
+#if AUTODISABLE_ACTIONS
 void MiniGui::enableActionsOnPlaying() {
 	BaseGuiPlus::enableActionsOnPlaying();
 
@@ -131,6 +132,7 @@ void MiniGui::disableActionsOnStop() {
 	volumeslider_action->disable();
 #endif
 }
+#endif // AUTODISABLE_ACTIONS
 
 void MiniGui::aboutToEnterFullscreen() {
 	BaseGuiPlus::aboutToEnterFullscreen();

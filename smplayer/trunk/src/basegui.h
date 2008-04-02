@@ -25,6 +25,7 @@
 #include "preferences.h"
 #include "core.h"
 #include "config.h"
+#include "guiconfig.h"
 
 #ifdef Q_OS_WIN
 /* Disable screensaver by event */
@@ -138,8 +139,10 @@ protected slots:
 	virtual void newMediaLoaded();
 	virtual void updateMediaInfo();
 
+#if AUTODISABLE_ACTIONS
 	virtual void enableActionsOnPlaying();
 	virtual void disableActionsOnStop();
+#endif
 
 	virtual void resizeWindow(int w, int h);
 	virtual void hidePanel();
@@ -251,7 +254,9 @@ protected:
 	void setDataToFileProperties();
 	void initializeGui();
 	void createActions();
+#if AUTODISABLE_ACTIONS
 	void setActionsEnabled(bool);
+#endif
 	void createMenus();
 	void updateRecents();
 	void configureDiscDevices();

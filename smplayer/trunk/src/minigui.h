@@ -20,6 +20,7 @@
 #define _MINI_GUI_H_
 
 #include "baseguiplus.h"
+#include "guiconfig.h"
 
 #define USE_VOLUME_BAR 0
 
@@ -41,8 +42,10 @@ protected slots:
 	void hideFloatingControl();
 
 	// Reimplemented:
+#if AUTODISABLE_ACTIONS
 	virtual void enableActionsOnPlaying();
 	virtual void disableActionsOnStop();
+#endif
 
 protected:
 	virtual void retranslateStrings();

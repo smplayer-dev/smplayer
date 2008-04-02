@@ -12,7 +12,8 @@ INCLUDEPATH += corelib
 DEPENDPATH += corelib
 DEFINES += USE_INI_FILES
 
-HEADERS	+= corelib/config.h \
+HEADERS	+= guiconfig.h \
+    corelib/config.h \
 	corelib/constants.h \
 	svn_revision.h \
 	version.h \

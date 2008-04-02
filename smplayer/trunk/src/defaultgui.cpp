@@ -114,6 +114,7 @@ void DefaultGui::createActions() {
 #endif
 }
 
+#if AUTODISABLE_ACTIONS
 void DefaultGui::enableActionsOnPlaying() {
 	qDebug("DefaultGui::enableActionsOnPlaying");
 	BaseGuiPlus::enableActionsOnPlaying();
@@ -129,6 +130,7 @@ void DefaultGui::disableActionsOnStop() {
 	timeslider_action->disable();
 	volumeslider_action->disable();
 }
+#endif // AUTODISABLE_ACTIONS
 
 void DefaultGui::createMenus() {
 	toolbar_menu = new QMenu(this);
