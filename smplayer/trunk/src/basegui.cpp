@@ -881,7 +881,7 @@ void BaseGui::setActionsEnabled(bool b) {
 	// Actions not in menus
 #if !USE_MULTIPLE_SHORTCUTS
 	decVolume2Act->setEnabled(b);
-	incVolume2Act
+	incVolume2Act->setEnabled(b);
 #endif
 	decContrastAct->setEnabled(b);
 	incContrastAct->setEnabled(b);

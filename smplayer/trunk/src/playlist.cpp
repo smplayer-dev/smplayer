@@ -49,7 +49,7 @@
 #include "version.h"
 #include "global.h"
 #include "core.h"
-#include "config.h"
+#include "guiconfig.h"
 #include "extensions.h"
 
 #include <stdlib.h>

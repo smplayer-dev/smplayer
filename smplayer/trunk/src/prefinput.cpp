@@ -21,7 +21,7 @@
 #include "images.h"
 #include "preferences.h"
 
-#include "config.h"
+#include "guiconfig.h"
 
 PrefInput::PrefInput(QWidget * parent, Qt::WindowFlags f)
 	: PrefWidget(parent, f )

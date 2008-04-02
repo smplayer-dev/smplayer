@@ -17,6 +17,7 @@
 */
 
 #include "baseguiplus.h"
+#include "config.h"
 #include "myaction.h"
 #include "global.h"
 #include "images.h"

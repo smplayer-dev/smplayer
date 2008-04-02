@@ -25,48 +25,11 @@
 #define NEW_ASPECT_CODE 1
 
 
-// CONTROLWIDGET_OVER_VIDEO
-// if set to 1, the controlwidget will be shown in fullscreen
-// *over* the video (not moving the video) when the user move the mouse 
-// to the bottom area of the screen.
-
-#define CONTROLWIDGET_OVER_VIDEO 1
-
-
-// NEW_CONTROLWIDGET
-// New design for the floating control, with only one row.
- 
-#define NEW_CONTROLWIDGET 1
-
-
-// DOCK_PLAYLIST
-// if 1, the playlist will be docked in the main window, instead
-// of being a top level window
-
-#define DOCK_PLAYLIST 1
-
-
 // STYLE_SWITCHING
 // if 1, the preferences dialog will have an option to switch
 // the Qt style
 
 #define STYLE_SWITCHING 1
-
-
-// ALLOW_CHANGE_STYLESHEET
-// if 1, the app stylesheet can be changed
-
-#define ALLOW_CHANGE_STYLESHEET 1
-
-
-// New code to resize the main window
-
-#define NEW_RESIZE_CODE 1
-
-
-// Allow to use multiple shortcuts for actions
-
-#define USE_MULTIPLE_SHORTCUTS 1
 
 
 // EXTERNAL_SLEEP
@@ -77,13 +40,6 @@
 // Note 2: not used anymore
 
 #define EXTERNAL_SLEEP 0
-
-
-// USE_SHORTCUTGETTER
-// if 1, a new dialog will be used to ask the user for a
-// keyshortcut.
-
-#define USE_SHORTCUTGETTER 1
 
 
 // ENABLE_DELAYED_DRAGGING
@@ -109,12 +65,6 @@
 // otherwise mplayer will be restarted and -chapter will be used.
 
 #define SMART_DVD_CHAPTERS 1
-
-
-// MINI_ARROW_BUTTONS
-// if set to 1, the GUI will use a popup menu for arrow buttons
-
-#define MINI_ARROW_BUTTONS 0
 
 
 // Just for testing, possibility to disable the use of the colorkey
