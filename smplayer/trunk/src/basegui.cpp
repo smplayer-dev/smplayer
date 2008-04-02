@@ -2866,7 +2866,8 @@ void BaseGui::processFunction(QString function) {
 	if (action) {
 		qDebug("BaseGui::processFunction: action found");
 		if (action->isCheckable()) 
-			action->toggle();
+			//action->toggle();
+			action->trigger();
 		else
 			action->trigger();
 	}
@@ -2898,7 +2899,8 @@ void BaseGui::runActions(QString actions) {
 
 			if (action->isCheckable()) {
 				if (par.isEmpty()) {
-					action->toggle();
+					//action->toggle();
+					action->trigger();
 				} else {
 					action->setChecked( (par == "true") );
 				}
