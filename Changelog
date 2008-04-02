@@ -1,5 +1,9 @@
 [b]Version 0.6.0rc4[/b] (not released yet):
 
+(2008-04-02)
+ * (Bugfix) When using the command line options -send-action or -actions, some
+   actions like aspect_4:3 didn't work.
+
 (2008-04-01)
  * Don't check if the items in the recent's menu are local files, as it can
    take a long time if they are not.
