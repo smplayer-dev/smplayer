@@ -22,6 +22,7 @@
 #include <QWidgetAction>
 #include "timeslider.h"
 #include "config.h"
+#include "guiconfig.h"
 
 class MyWidgetAction : public QWidgetAction
 {

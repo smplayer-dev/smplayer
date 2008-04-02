@@ -19,10 +19,57 @@
 #ifndef _GUICONFIG_H_
 #define _GUICONFIG_H_
 
+
+// CONTROLWIDGET_OVER_VIDEO
+// if set to 1, the controlwidget will be shown in fullscreen
+// *over* the video (not moving the video) when the user move the mouse 
+// to the bottom area of the screen.
+
+#define CONTROLWIDGET_OVER_VIDEO 1
+
+
+// DOCK_PLAYLIST
+// if 1, the playlist will be docked in the main window, instead
+// of being a top level window
+
+#define DOCK_PLAYLIST 1
+
+
 // AUTODISABLE_ACTIONS
 // if set to 1, some actions will be disabled if they are not needed
 
 #define AUTODISABLE_ACTIONS 1
+
+
+// MINI_ARROW_BUTTONS
+// if set to 1, the GUI will use a popup menu for arrow buttons
+
+#define MINI_ARROW_BUTTONS 0
+
+
+// ALLOW_CHANGE_STYLESHEET
+// if 1, the app stylesheet can be changed
+
+#define ALLOW_CHANGE_STYLESHEET 1
+
+
+// New code to resize the main window
+
+#define NEW_RESIZE_CODE 1
+
+
+// Allow to use multiple shortcuts for actions
+
+#define USE_MULTIPLE_SHORTCUTS 1
+
+
+// USE_SHORTCUTGETTER
+// if 1, a new dialog will be used to ask the user for a
+// keyshortcut.
+
+#define USE_SHORTCUTGETTER 1
+
+
 
 #endif
 

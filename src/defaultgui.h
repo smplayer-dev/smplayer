@@ -19,7 +19,6 @@
 #ifndef _DEFAULTGUI_H_
 #define _DEFAULTGUI_H_
 
-#include "config.h"
 #include "guiconfig.h"
 #include "baseguiplus.h"
 #include <QPoint>

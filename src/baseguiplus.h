@@ -22,7 +22,7 @@
 #include "basegui.h"
 #include <QSystemTrayIcon>
 #include <QPoint>
-#include "config.h"
+#include "guiconfig.h"
 
 class QMenu;
 class PlaylistDock;

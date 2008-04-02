@@ -36,10 +36,6 @@
 #include <QToolButton>
 #include <QMenuBar>
 
-#if !NEW_CONTROLWIDGET
-#include <QLCDNumber>
-#endif
-
 using namespace Global;
 
 DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
