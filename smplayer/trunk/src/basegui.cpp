@@ -2177,7 +2177,7 @@ void BaseGui::updateRecents() {
 			QFileInfo fi(file);
 			//if (fi.exists()) file = fi.fileName(); // Can be slow
 			// Let's see if it looks like a file (no dvd://1 or something)
-			if (file.indexOf(QRegExp("^*://*")) == -1) file = fi.fileName();
+			if (file.indexOf(QRegExp("^.*://.*")) == -1) file = fi.fileName();
 
 			QAction * a = recentfiles_menu->addAction( file );
 			a->setData(n);
