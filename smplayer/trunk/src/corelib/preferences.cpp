@@ -231,6 +231,7 @@ void Preferences::reset() {
 
 	allow_video_movement = false;
 
+	use_edl_files = true;
 
 	vcd_initial_title = 2; // Most VCD's start at title #2
 
@@ -438,6 +439,8 @@ void Preferences::save() {
 	set->setValue("pause_when_hidden", pause_when_hidden);
 
 	set->setValue("allow_video_movement", allow_video_movement);
+
+	set->setValue("use_edl_files", use_edl_files);
 
     //mplayer log autosaving
     set->setValue("autosave_mplayer_log", autosave_mplayer_log);
@@ -656,6 +659,8 @@ void Preferences::load() {
 	pause_when_hidden = set->value("pause_when_hidden", pause_when_hidden).toBool();
 
 	allow_video_movement = set->value("allow_video_movement", allow_video_movement).toBool();
+
+	use_edl_files = set->value("use_edl_files", use_edl_files).toBool();
 
     //mplayer log autosaving
     autosave_mplayer_log = set->value("autosave_mplayer_log", autosave_mplayer_log).toBool();

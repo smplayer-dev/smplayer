@@ -1677,6 +1677,27 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( QString::number(pref->softvol_max) );
 	}
 
+	// Load edl file
+	if (pref->use_edl_files) {
+		QString edl_f;
+		QFileInfo f(file);
+		QString basename = f.path() + "/" + f.completeBaseName();
+
+		qDebug("Core::startMplayer: file basename: '%s'", basename.toUtf8().data());
+
+		if (QFile::exists(basename+".edl")) 
+			edl_f = basename+".edl";
+		else
+		if (QFile::exists(basename+".EDL")) 
+			edl_f = basename+".EDL";
+
+		qDebug("Core::startMplayer: edl file: '%s'", edl_f.toUtf8().data());
+		if (!edl_f.isEmpty()) {
+			proc->addArgument("-edl");
+			proc->addArgument(edl_f);
+		}
+	}
+
 	// Additional options supplied by the user
 	// File
 	if (!mset.mplayer_additional_options.isEmpty()) {

@@ -1,5 +1,12 @@
 [b]Version 0.6.0rc4[/b] (not released yet):
 
+(2008-04-06)
+ * If a file with the same name of the file to play but with extension 
+   .edl (or .EDL) exists then smplayer will load it automatically (this can
+   be disabled by setting use_edl_files in smplayer.ini to false).
+   An edl file allows to skip or mute parts of the video.
+   Info about edl files: http://www.mplayerhq.hu/DOCS/HTML/en/edl.html
+
 (2008-04-02)
  * (Bugfix) When using the command line options -send-action or -actions, some
    actions like aspect_4:3 didn't work.

@@ -244,6 +244,10 @@ public:
 	//!< Allow frre movement of the video window
 	bool allow_video_movement;
 
+	//! If true it will autoload edl files with the same name of the file
+    //! to play
+	bool use_edl_files;
+
 	// Initial values for some options
 	double initial_sub_scale;
 #if SCALE_ASS_SUBS
