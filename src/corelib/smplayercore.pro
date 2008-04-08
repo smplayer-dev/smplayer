@@ -17,6 +17,7 @@ HEADERS += config.h \
         myprocess.h \
         mplayerversion.h \
         mplayerprocess.h \
+        infoprovider.h \
         desktopinfo.h \
         mplayerwindow.h \
         core.h \
@@ -34,6 +35,7 @@ SOURCES += global.cpp \
         myprocess.cpp \
         mplayerversion.cpp \
         mplayerprocess.cpp \
+        infoprovider.cpp \
         desktopinfo.cpp \
         mplayerwindow.cpp \
         core.cpp \
