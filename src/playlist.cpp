@@ -868,6 +868,7 @@ void Playlist::addFiles(QStringList files) {
 
 #if USE_INFOPROVIDER
 	MediaData data;
+	setCursor(Qt::WaitCursor);
 #endif
 
     QStringList::Iterator it = files.begin();
@@ -876,6 +877,8 @@ void Playlist::addFiles(QStringList files) {
 		if (QFile::exists( (*it) )) {
 			data = InfoProvider::getInfo( (*it) );
 			addItem( (*it), data.displayName(), data.duration );
+			updateView();
+			qApp->processEvents();
 		} else {
 			addItem( (*it), "", 0 );
 		}
@@ -888,6 +891,9 @@ void Playlist::addFiles(QStringList files) {
 		/* latest_dir = QFileInfo((*it)).dirPath(TRUE); */
         ++it;
     }
+#if USE_INFOPROVIDER
+	unsetCursor();
+#endif
 	updateView();
 
 	qDebug( " * latest_dir: '%s'", latest_dir.toUtf8().data() );
