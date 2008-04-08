@@ -262,7 +262,7 @@ QString Helper::shortPathName(QString long_path) {
 	if ((QSysInfo::WindowsVersion >= QSysInfo::WV_NT) && (QFile::exists(long_path))) {
 		QString short_path = long_path;
 
-		int max_path = 4096;
+		const int max_path = 4096;
 		WCHAR shortName[max_path];
 
 		QString nativePath = QDir::convertSeparators(long_path);
