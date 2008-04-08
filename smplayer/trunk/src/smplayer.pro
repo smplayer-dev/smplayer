@@ -28,6 +28,7 @@ HEADERS	+= guiconfig.h \
 	corelib/myprocess.h \
 	corelib/mplayerversion.h \
 	corelib/mplayerprocess.h \
+    corelib/infoprovider.h \
 	corelib/mplayerwindow.h \
 	corelib/mediadata.h \
 	corelib/mediasettings.h \
@@ -94,6 +95,7 @@ SOURCES	+= version.cpp \
 	corelib/myprocess.cpp \
 	corelib/mplayerversion.cpp \
 	corelib/mplayerprocess.cpp \
+    corelib/infoprovider.cpp \
 	corelib/mplayerwindow.cpp \
 	corelib/mediadata.cpp \
 	corelib/mediasettings.cpp \

@@ -1,5 +1,10 @@
 [b]Version 0.6.0rc4[/b] (not released yet):
 
+(2008-04-07)
+ * Now when a file is added to the playlist, it will get some info about it.
+   This allows to display the length and name (if available) in the list.
+   Very useful for mp3 and similar.
+
 (2008-04-06)
  * If a file with the same name of the file to play but with extension 
    .edl (or .EDL) exists then smplayer will load it automatically (this can

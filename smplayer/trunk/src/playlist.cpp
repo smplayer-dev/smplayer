@@ -54,13 +54,17 @@
 
 #include <stdlib.h>
 
-using namespace Global;
+#if USE_INFOPROVIDER
+#include "infoprovider.h"
+#endif
 
 #define DRAG_ITEMS 0
 
 #define COL_PLAY 0
 #define COL_NAME 1
 #define COL_TIME 2
+
+using namespace Global;
 
 
 Playlist::Playlist( Core *c, QWidget * parent, Qt::WindowFlags f)
@@ -862,9 +866,23 @@ void Playlist::addFiles() {
 void Playlist::addFiles(QStringList files) {
 	qDebug("Playlist::addFiles");
 
+#if USE_INFOPROVIDER
+	MediaData data;
+#endif
+
     QStringList::Iterator it = files.begin();
     while( it != files.end() ) {
+#if USE_INFOPROVIDER
+		if (QFile::exists( (*it) )) {
+			data = InfoProvider::getInfo( (*it) );
+			addItem( (*it), data.displayName(), data.duration );
+		} else {
+			addItem( (*it), "", 0 );
+		}
+#else
     	addItem( (*it), "", 0 );
+#endif
+
 		// FIXME: set latest_dir only if the file is a local file,
         // to avoid that dvd:, vcd: and so on will be used.
 		/* latest_dir = QFileInfo((*it)).dirPath(TRUE); */
@@ -891,6 +909,8 @@ void Playlist::addDirectory() {
 }
 
 void Playlist::addDirectory(QString dir) {
+	QStringList filelist;
+
 	Extensions e;
 	QRegExp rx_ext(e.multimedia().forRegExp());
 	rx_ext.setCaseSensitivity(Qt::CaseInsensitive);
@@ -906,12 +926,12 @@ void Playlist::addDirectory(QString dir) {
 		QFileInfo fi(filename);
 		if (!fi.isDir()) {
 			if (rx_ext.indexIn(fi.suffix()) > -1) {
-				addItem( filename, "", 0 );
+				filelist << filename;
 			}
 		}
 		++it;
 	}
-	updateView();
+	addFiles(filelist);
 }
 
 // Remove selected items
