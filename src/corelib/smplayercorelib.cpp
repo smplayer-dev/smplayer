@@ -25,8 +25,9 @@
 SmplayerCoreLib::SmplayerCoreLib( QWidget * parent )
 	: QObject(parent) 
 {
-	Helper::setAppPath( qApp->applicationDirPath() );
-	Global::global_init();
+	if (Global::pref == 0) {
+		qWarning("Global::global_init() hasn't been called. Crash comming.");
+	}
 
 	_mpw = new MplayerWindow(parent);
 	_core = new Core(_mpw, parent);
@@ -37,7 +38,6 @@ SmplayerCoreLib::SmplayerCoreLib( QWidget * parent )
 }
 
 SmplayerCoreLib::~SmplayerCoreLib() {
-	Global::global_end();
 };
 
 #include "moc_smplayercorelib.cpp"
