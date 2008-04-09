@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -10,7 +11,7 @@
     <message>
         <location filename="../about.cpp" line="50"/>
         <source>Compiled with Qt %1</source>
-        <translation>Скомпилированно с помощью Qt %1</translation>
+        <translation>Скомпилировано с помощью Qt %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="35"/>
@@ -1365,7 +1366,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3435"/>
         <source>MPlayer failed to start. Please check the MPlayer path in preferences.</source>
-        <translation type="obsolete">Ошибка запуска MPlayer. Провертье путь к MPlayer в настройках.</translation>
+        <translation type="obsolete">Ошибка запуска MPlayer. Проверьте путь к MPlayer в настройках.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3437"/>
