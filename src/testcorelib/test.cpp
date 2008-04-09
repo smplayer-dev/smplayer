@@ -18,6 +18,8 @@
 
 #include "test.h"
 #include "smplayercorelib.h"
+#include "helper.h"
+#include "global.h"
 #include <QAction>
 #include <QMenuBar>
 #include <QToolBar>
@@ -92,10 +94,16 @@ int main( int argc, char ** argv ) {
 	QApplication a( argc, argv );
 	a.connect( &a, SIGNAL( lastWindowClosed() ), &a, SLOT( quit() ) );
 
+    Helper::setAppPath( qApp->applicationDirPath() );
+    Global::global_init();
+
 	Gui * w = new Gui();
 	w->show();
 
-	return a.exec();
+	int r = a.exec();
+	Global::global_end();
+
+	return r;
 }
 
 #include "moc_test.cpp"
