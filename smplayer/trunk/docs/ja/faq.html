@@ -1,0 +1,248 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; charset=euc-jp">
+<title>SMPlayer の FAQ</title>
+</head>
+
+<body>
+<h1>SMPlayer - よく寄せられる質問</h1>
+
+<ol>
+<li><a href="#smplayer_mplayer">SMPlayer とは何ですか? また MPlayer とは何ですか?</a></li>
+<li><a href="#dvd_menus">DVD メニューはどこですか?</a></li>
+<li><a href="#output_drivers">出力ドライバ (directx、xv、x11、gl、alsa、oss など) とは何ですか? どれがよいですか?</a></li>
+<li><a href="#nvidia_problems">NVidia 製カードと gl/gl2 が動作しません、なぜですか?</a></li>
+<li><a href="#screenshot">スクリーンショット オプションが無効です、なぜですか?</a></li>
+<li><a href="#audio_track">ビデオを停止してからでないとオーディオ トラックが変更できません。なぜですか?</a></li>
+<li><a href="#shortcuts">キー ショートカットを変更するには?</a></li>
+<li><a href="#qt">Qt とは何ですか?</a></li>
+<li><a href="#codecs">ビデオ フォーマットによってはオーディオだけでビデオがありません。なぜですか? コーデックが必要ですか?</a></li>
+<li><a href="#open_quit">[開く -> 閉じる] と [開く -> 終了] の違いは何ですか?</a></li>
+<li><a href="#audio_cd">オーディオ CD を再生するには?</a></li>
+<li><a href="#bookmark">ブックマークはどこですか?</a></li>
+<li><a href="#mplayer_errors">ファイルを再生しようとしても何も起こりません。なぜですか?</a></li>
+<!--
+<li><a href="#preferences_delay">初めて環境設定を開くとき表示に数秒かかります、なぜですか?</a></li>
+-->
+<li><a href="#audio_equalizer">ビデオ イコライザはあるのにオーディオ イコライザがないのはなぜですか?</a></li>
+<li><a href="#tv">TV に対応する予定はありますか?</a></li>
+<li><a href="#mplayer_restart">メニュー オプションを使用すると、ビデオが一瞬真っ暗になることがあります。なぜですか?</a></li>
+<li><a href="#crash">SMPlayer がクラッシュしてもオーディオは止まりません、なぜですか?</a></li>
+<li><a href="#playlist_problem">プレイリストを再生しているとき、ファイルが終了しても SMPlayer は次のファイルを自動再生しません、なぜですか?</a></li>
+<li><a href="#mplayer_recommended">おすすめの MPlayer のバージョンは?</a></li>
+<li><a href="#subtitles_border">字幕をイメージではなく黒枠の上に表示させたいのですが、可能ですか?</a></li>
+<li><a href="#expand_filter">すべてのビデオで字幕を黒枠の上に表示させたいのですが、可能ですか?</a></li>
+<li><a href="#monitors">(Windows) ビデオはファースト モニタにのみ表示され、セカンドには表示されません、なぜですか?</a></li>
+<li><a href="#volume_loud">ビデオの開始時の音量が大きすぎます、これは修正できますか?</a></li>
+<li><a href="#vista">(Windows) Windows Vista を使用していますが、ビデオを再生するたびに Aero が無効になります、なぜですか?</a></li>
+<li><a href="#config_file">構成ファイルはどこですか?</a></li>
+</ol>
+
+<hr>
+
+<ol>
+<li><a name="smplayer_mplayer"></a>
+<b>SMPlayer とは何ですか? また MPlayer とは何ですか?</b>
+<p>
+両者はまったく別のアプリケーションです。MPlayer は linux 用に開発されたマルチメディア プレーヤーで、他の OS にも移行されています。ほぼ何でも再生できる上、たくさんのフィルタがあるなど、たいへん便利です。しかし、一般のユーザーにとって、利用するのは困難です。
+<p>
+幸いなことに、MPlayer は別のアプリケーションと一緒に動作させることができます (ビデオ ウィンドウを他のアプリケーションの GUI に埋め込むと、そのアプリケーションが送信するコマンドに従います)。そこで SMPlayer は、ビデオの再生に MPlayer を使用しているのです。
+<p>
+ご覧になるウィンドウ、メニュー、環境設定ダイアログなどの部分が、SMPlayer です (ただし MPlayer を制御する機能など、ご覧にならない部分もあります)。しかし SMPlayer は、再生されるファイルについて何も、コーデックが何なのかすら知りません。一方 MPlayer は、ファイルを開き、デコードし、ビデオを表示し、オーディオを再生します。また、字幕も MPlayer によって読み取り・構文解析・表示が行われます。
+</li>
+
+<li><a name="dvd_menus"></a>
+<b>DVD メニューはどこですか?</b>
+<p>
+現在、MPlayer は DVD メニューに対応していません…。dvdnav サポートと一緒にコンパイルされていれば可能ですが、私が以前試したときはうまく動作しませんでした。DVD メニューはありませんが、タイトル、チャプタ、オーディオ トラック、字幕などは SMPlayer のメニューから選択できます。
+</li>
+
+<li><a name="output_drivers"></a>
+<b>出力ドライバ (directx、xv、x11、gl、alsa、oss など) とは何ですか? どれがよいですか?</b>
+<p>
+MPlayer には、ビデオ・サウンド用の出力ドライバが複数用意されています。SMPlayer の [環境設定 -> 全般] で使用するドライバを選択できます。
+<p>
+linux なら xv、windows なら directx が高速かつ安定していておすすめです。ただし、Windows Vista で directx を使用すると、Aero が無効になってしまうのでご注意ください。
+<p>
+x11 や directx:noaccel は不安定でおすすめできません。特に directx:noaccel を全画面モードで使用すると最悪です。
+<p>
+gl と gl2 はグラフィックカードの 3D アクセラレーションを使用します。directx:noaccel や x11 よりは安定していますが、directx や xv ほどではありません。Windows Vista をお使いの方には gl/gl2 がおすすめです。
+<p>
+サウンドに関しては、linux では通常 oss か alsa を使用します。esd や arts は CPU を浪費するのでおすすめできません。
+<p>
+windows 用のサウンド ドライバには dsound と win32 があります。dsound はビデオとオーディオの同期化に支障が生じることがあるそうなので、dsound で何か問題があれば win32 を試してみてください。
+<p>
+他のドライバは、ビデオをイメージ ファイルとして保存したり、サウンドをディスクに書き込んだりします。これらのドライバは SMPlayer のサポートの対象外ですので、納得した上でお使いください。
+</li>
+
+<li><a name="nvidia_problems"></a>
+<b>NVidia 製カードと gl/gl2 が動作しません、なぜですか?</b>
+<p>
+NVidia 製カードと gl/gl2 は、Windows での動作に問題があるようです。MPlayer のビデオ ウィンドウが別のアプリケーションに埋め込まれていると、gl/gl2 が動作しません。残念ながら、gl/gl2 の代わりに directx を使用するか、[環境設定 -> 詳細設定] にある MPlayer のウィンドウを使用するオプションをチェックするほかに打つ手はありません。
+<p>
+<b>追記: この問題は MPlayer r25972 で修正されています。</b>
+</li>
+
+<li><a name="screenshot"></a>
+<b>スクリーンショット オプションが無効です、なぜですか?</b>
+<p>
+[環境設定 -> 全般] でスクリーンショットを格納するフォルダを選択すると、スクリーンショット オプションは有効になります。
+</li>
+
+<li><a name="audio_track"></a>
+<b>ビデオを停止してからでないとオーディオ トラックが変更できません。なぜですか?</b>
+<p>
+mp4 や ogm などの一部のフォーマットでは、MPlayer の起動時にオーディオ トラックを変更することができません。オプション "オーディオ トラックの高速切り替え" をチェック解除すれば、オーディオを変更できるようになります。
+</li>
+
+<li><a name="shortcuts"></a>
+<b>キー ショートカットを変更するには?</b>
+<p>
+[環境設定 -> キーボードとマウス] でキー ショートカットを変更できます。
+</li>
+
+<li><a name="qt"></a>
+<b>Qt とは何ですか?</b>
+<p>
+Qt は、クロスプラットフォームでの開発に対応した C++ ライブラリで、SMPlayer の開発に使用されています。Qt なら、Windows でも、Linux でも、Mac OS でも、同じソース コードのままでコンパイルできます。詳細: <a href="http://trolltech.com/products/qt">http://trolltech.com/products/qt</a>
+</li>
+
+<li><a name="codecs"></a>
+<b>ビデオ フォーマットによってはオーディオだけでビデオがありません。なぜですか? コーデックが必要ですか?</b>
+<p>
+MPlayer は、「届いたその日から」ポピュラーなフォーマットを再生できます。しかし、未対応のコーデックを再生するには、バイナリ コーデックのパッケージのインストールする必要があります。パッケージは <a href="http://www.mplayerhq.hu/design7/dload.html">MPlayer のダウンロード ページ</a>にあります。
+<p> 
+Windows をお使いの方は、コーデックを mplayer/codecs サブディレクトリにインストールしてください。linux ディストリビューションをお使いの方には、w32codecs などといった名前のパッケージが用意されています。
+</li>
+
+<li><a name="open_quit"></a>
+<b>[開く -> 閉じる] と [開く -> 終了] の違いは何ですか?</b>
+<p>
+メニュー [オプション] のオプション "システム トレイにアイコンを表示" がチェックされていなければ、違いはありません。どちらもアプリケーションを終了します。
+<p>
+オプションが有効なら、[開く -> 閉じる] は現在のファイルを停止して、SMPlayer を起動させたままアプリケーションを非表示にします。[開く -> 終了] はシステム トレイ アイコンの有無にかかわらず、本当にアプリケーションを終了します。
+</li>
+
+<li><a name="audio_cd"></a>
+<b>オーディオ CD を再生するには?</b>
+<p>
+オーディオ CD には version 0.5.18 から対応しています。
+<p>
+ただし、Windows ではまだ再生できません。
+</li>
+
+<li><a name="bookmark"></a>
+<b>ブックマークはどこですか?</b>
+<p>
+まだ実装されていません。
+</li>
+
+<li><a name="mplayer_errors"></a>
+<b>ファイルを再生しようとしても何も起こりません。なぜですか?</b>
+<p>
+MPlayer がファイルを再生できていないものと思われます。mplayer のログ ([オプション -> ログの表示 -> MPlayer]) を開けば、最後の行にエラー メッセージが見つかるかもしれません。
+<p>
+Windows で一部の MPlayer ビルドを使用すると、しばしばそうなります。これはその MPlayer ビルドが対応していない機能を SMPlayer が使用しようとするためです。エラー メッセージは、解決への糸口となります。キャッシュに関してうまくいかない場合は、[環境設定 -> パフォーマンス] でキャッシュを無効にしてみてください。fontconfig に関してうまくいかない場合は、システム フォントの代わりに ttf フォントを使用してみてください。
+</li>
+
+<!--
+<li><a name="preferences_delay"></a>
+<b>初めて環境設定を開くとき表示に数秒かかります、なぜですか?</b>
+<p>
+出力ドライバなどの情報を取得するため、SMPlayer が MPlayer を呼び出すからです。[オプション -> 情報とプロパティの表示] でも同じことが起こります。
+</li>
+-->
+
+<li><a name="audio_equalizer"></a>
+<b>ビデオ イコライザはあるのにオーディオ イコライザがないのはなぜですか?</b>
+<p>
+MPlayer には、起動時に明るさやコントラストなどを変更するスレーブ コマンドがあるため、ビデオ イコライザは簡単です。しかし、オーディオ用のコマンドはありません。
+</li>
+
+<li><a name="tv"></a>
+<b>TV に対応する予定はありますか?</b>
+<p>
+よい考えですが、まだ対応する予定はありません。現在私は TV カードを持っていないので、実装できないのです。
+</li>
+
+<li><a name="mplayer_restart"></a>
+<b>メニュー オプションを使用すると、ビデオが一瞬真っ暗になることがあります。なぜですか?</b>
+<p>
+オプションの中には、MPlayer のプロセスを一度停止させてからパラメータを追加して再び起動しなければならないものがあります。そのため、再生が一時遮断されます。
+</li>
+
+<li><a name="crash"></a>
+<b>SMPlayer がクラッシュしてもオーディオは止まりません、なぜですか?</b>
+<p>
+SMPlayer がクラッシュしても MPlayer は起動し続けます。タスク マネージャから MPlayer のプロセスを終了させてください。
+<p>
+いずれにせよ、SMPlayer がクラッシュしたら、それは修正されなければならない深刻なバグです。直ちにご報告ください。
+</li>
+
+<li><a name="playlist_problem"></a>
+<b>プレイリストを再生しているとき、ファイルが終了しても SMPlayer は次のファイルを自動再生しません、なぜですか?</b>
+<p>
+SMPlayer は MPlayer の出力から英語のテキスト (この場合は "Exiting... (End of file)") を検出します。お使いの MPlayer が別の言語に翻訳されていると、その言語でメッセージが表示されて正しく検出できません。残念ながら、MPlayer の言語を再コンパイルせずに変更することはできません。ただし、SMPlayer の最近のバージョンでは検出するメッセージを変更することができます。[環境設定 -> 詳細設定 -> MPlayer の言語] をご覧ください。
+</li>
+
+<li><a name="mplayer_recommended"></a>
+<b>おすすめの MPlayer のバージョンは?</b>
+<p>
+SMPlayer は MPlayer 1.0rc1 で動作します (これより前のリリースはテストしていません)。しかしこれは非常に古く、avi ファイルでのオーディオの変更や flv、ogm ファイルのシークができないなど、まったくおすすめできません。これより後に、たくさんの変更が加わっています。
+<p>
+最低でも MPlayer 1.0rc2 にすべきでしょうが、この後もさらなる変更が加わっていますので、MPlayer SVN r25843 (2008-01-23) をおすすめします。
+<p>
+svn の tar.bz2 は<a href="http://www.mplayerhq.hu/design7/dload.html">MPlayer のダウンロード ページ</a>にあります。linux なら、コンパイルはとても簡単です。
+</li>
+
+<li><a name="subtitles_border"></a>
+<b>字幕をイメージではなく黒枠の上に表示させたいのですが、可能ですか?</b>
+<p>
+[ビデオ フィルタ -> 黒枠の追加]
+</li>
+
+<li><a name="expand_filter"></a>
+<b>すべてのビデオで字幕を黒枠の上に表示させたいのですが、可能ですか?</b>
+<p>
+現在、[環境設定 -> 詳細設定 -> MPlayer のオプション] で <b>expand=:::::4/3</b> などのビデオ フィルタを追加する以外に方法はありません。
+</li>
+
+<li><a name="monitors"></a>
+<b>(Windows) ビデオはファースト モニタにのみ表示され、セカンドには表示されません、なぜですか?</b>
+<p>
+[directx] をビデオ ドライバ ([環境設定 -> 全般]) として使用すると、ビデオは 1 つのモニタにのみ表示されます。代わりに [directx:noaccel]、[gl]、[gl2] を使用すれば、ビデオはすべてのモニタに表示されます。
+<p>
+また、[directx] を使用したままでも、[環境設定 -> 詳細設定 -> MPlayer のオプション] の [オプション] 欄に [-adapter] オプションを追加すれば可能です。<b>-adapter 1</b> ならビデオがファースト モニタに表示され、<b>-adapter 2</b> ならセカンド モニタに表示されるといった具合です (多分)。
+</li>
+
+<li><a name="volume_loud"></a>
+<b>ビデオの開始時の音量が大きすぎます、これは修正できますか?</b>
+<p>
+[環境設定 -> 全般 -> オーディオ] のオプション [再生の直前に音量を変更する] をチェックしてください。
+<p>
+このオプションには、新しいオプション ([-volume]) を追加するパッチが適用された MPlayer ビルドが必要です。Windows 用パッケージに含まれているビルドはパッチが適用されています。パッチは<a href="http://smplayer.svn.sourceforge.net/viewvc/*checkout*/smplayer/mplayer-builds/patches/startupvol.diff?revision=467">こちら</a>にあります。
+</li>
+
+<li><a name="vista"></a>
+<b>(Windows) Windows Vista を使用していますが、ビデオを再生するたびに Aero が無効になります、なぜですか?</b>
+<p>
+これは [directx] をビデオ ドライバ ([環境設定 -> 全般]) として使用していると起こります。[gl] か [gl2] に変更するのをおすすめします (nvidia 製カードをお使いの方は<a href="#nvidia_problems">こちらをお読みください</a>)。
+</li>
+
+<li><a name="config_file"></a>
+<b>構成ファイルはどこですか?</b>
+<p>
+SMPlayer は smplayer.ini と smplayer_files.ini の 2 つの ini ファイルを使用します。既定では、両者は [$HOME/.smplayer] (Linux) か [C:\Documents and Settings\ユーザー名\.smplayer] (Windows XP) に格納されます。
+<p>
+SMPlayer のログ ([オプション -> ログの表示]) でも確認できます。以下のような行を探してみてください。
+<pre>
+ * ini path: '/home/ricardo/.smplayer'
+</pre>
+[smplayer.ini] は SMPlayer の構成を格納し、[smplayer_files.ini] は再生したファイルの設定を格納します。
+</li>
+
+</ol>
+
+</body>
+</html>
