@@ -3,10 +3,13 @@ LANGUAGE = C++
 
 CONFIG  += qt warn_on release
 
+DEFINES += MINILIB
 INCLUDEPATH += ../corelib
 
 HEADERS = timeslider.h test.h
 SOURCES = timeslider.cpp test.cpp
+
+#SOURCES = test2.cpp
 
 LIBS += -L../corelib -L../corelib/release -lsmplayercore
 
