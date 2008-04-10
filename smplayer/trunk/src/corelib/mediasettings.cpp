@@ -70,7 +70,8 @@ void MediaSettings::reset() {
 	postprocessing_filter = pref->initial_postprocessing;
 	upscaling_filter = false;
 
-	current_deinterlacer = NoDeinterlace;
+	//current_deinterlacer = NoDeinterlace;
+	current_deinterlacer = pref->initial_deinterlace;
 
 #if NEW_ASPECT_CODE
 	add_letterbox = false;

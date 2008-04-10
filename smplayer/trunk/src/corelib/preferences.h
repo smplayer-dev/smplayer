@@ -267,8 +267,10 @@ public:
 	//! 100 = 100% at the bottom
 	int initial_sub_pos;
 
-	bool initial_postprocessing; // global postprocessing filter
+	bool initial_postprocessing; //!< global postprocessing filter
 	bool initial_volnorm;
+
+	int initial_deinterlace;
 
 	int initial_audio_channels;
 

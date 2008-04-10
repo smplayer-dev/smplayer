@@ -1,5 +1,9 @@
 [b]Version 0.6.0rc4[/b] (not released yet):
 
+(2008-04-10)
+ * Added in Preferences->General->Video an option to select the default
+   deinterlacer. It will be used for new videos opened.
+
 (2008-04-07)
  * Now when a file is added to the playlist, it will get some info about it.
    This allows to display the length and name (if available) in the list.
