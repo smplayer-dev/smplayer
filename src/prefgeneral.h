@@ -110,6 +110,9 @@ protected:
 	void setInitialPostprocessing(bool b);
 	bool initialPostprocessing();
 
+	void setInitialDeinterlace(int ID);
+	int initialDeinterlace();
+
 	void setDirectRendering(bool b);
 	bool directRendering();
 

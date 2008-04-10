@@ -62,6 +62,16 @@ void PrefGeneral::retranslateStrings() {
 	channels_combo->setItemText(1, tr("4 (4.0 Surround)") );
 	channels_combo->setItemText(2, tr("6 (5.1 Surround)") );
 
+	int deinterlace_item = deinterlace_combo->currentIndex();
+	deinterlace_combo->clear();
+	deinterlace_combo->addItem( tr("None"), MediaSettings::NoDeinterlace );
+	deinterlace_combo->addItem( tr("Lowpass5"), MediaSettings::L5 );
+	deinterlace_combo->addItem( tr("Yadif (normal)"), MediaSettings::Yadif );
+	deinterlace_combo->addItem( tr("Yadif (double framerate)"), MediaSettings::Yadif_1 );
+	deinterlace_combo->addItem( tr("Linear Blend"), MediaSettings::LB );
+	deinterlace_combo->addItem( tr("Kerndeint"), MediaSettings::Kerndeint );
+	deinterlace_combo->setCurrentIndex(deinterlace_item);
+
     // Icons
 	/*
     resize_window_icon->setPixmap( Images::icon("resize_window") );
@@ -101,6 +111,7 @@ void PrefGeneral::setData(Preferences * pref) {
 	setInitialVolNorm( pref->initial_volnorm );
 	setAmplification( pref->softvol_max );
 	setInitialPostprocessing( pref->initial_postprocessing );
+	setInitialDeinterlace( pref->initial_deinterlace );
 	setDirectRendering( pref->use_direct_rendering );
 	setDoubleBuffer( pref->use_double_buffer );
 	setStartInFullscreen( pref->start_in_fullscreen );
@@ -152,6 +163,7 @@ void PrefGeneral::getData(Preferences * pref) {
 	pref->initial_volnorm = initialVolNorm();
 	TEST_AND_SET(pref->softvol_max, amplification());
 	pref->initial_postprocessing = initialPostprocessing();
+	pref->initial_deinterlace = initialDeinterlace();
 	TEST_AND_SET(pref->use_direct_rendering, directRendering());
 	TEST_AND_SET(pref->use_double_buffer, doubleBuffer());
 	pref->start_in_fullscreen = startInFullscreen();
@@ -323,6 +335,24 @@ void PrefGeneral::setInitialPostprocessing(bool b) {
 
 bool PrefGeneral::initialPostprocessing() {
 	return postprocessing_check->isChecked();
+}
+
+void PrefGeneral::setInitialDeinterlace(int ID) {
+	int pos = deinterlace_combo->findData(ID);
+	if (pos != -1) {
+		deinterlace_combo->setCurrentIndex(pos);
+	} else {
+		qWarning("PrefGeneral::setInitialDeinterlace: ID: %d not found in combo", ID);
+	}
+}
+
+int PrefGeneral::initialDeinterlace() {
+	if (deinterlace_combo->currentIndex() != -1) {
+		return deinterlace_combo->itemData( deinterlace_combo->currentIndex() ).toInt();
+	} else {
+		qWarning("PrefGeneral::initialDeinterlace: no item selected");
+		return 0;
+	}
 }
 
 void PrefGeneral::setDirectRendering(bool b) {
