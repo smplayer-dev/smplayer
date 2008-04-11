@@ -538,6 +538,10 @@ void PrefGeneral::createHelp() {
            "available spare CPU time. The number you specify will be the "
            "maximum level used. Usually you can use some big number.") );
 
+	setWhatsThis(deinterlace_combo, tr("Deinterlace by default"),
+        tr("Select the deinterlace filter that you want to be used for new "
+           "videos opened.") );
+
 	setWhatsThis(direct_rendering_check, tr("Direct rendering"),
 		tr("If checked, turns on direct rendering (not supported by all "
            "codecs and video outputs)<br>"
