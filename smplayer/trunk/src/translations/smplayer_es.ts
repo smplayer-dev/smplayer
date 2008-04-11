@@ -3571,12 +3571,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="541"/>
         <source>Deinterlace by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Desentrelazado por defecto</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="543"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecciona el filtro de desentrelazado que se usará por defecto para los nuevos vídeos.</translation>
     </message>
 </context>
 <context>
