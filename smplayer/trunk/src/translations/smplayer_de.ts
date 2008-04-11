@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -3524,47 +3525,47 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="67"/>
         <source>None</source>
-        <translation type="unfinished">Nichts</translation>
+        <translation>Nichts</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="68"/>
         <source>Lowpass5</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiefpass(filter)5</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="69"/>
         <source>Yadif (normal)</source>
-        <translation type="unfinished"></translation>
+        <translation>Yadif (normal)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="70"/>
         <source>Yadif (double framerate)</source>
-        <translation type="unfinished"></translation>
+        <translation>Yadif (Doppelte Framerate)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="71"/>
         <source>Linear Blend</source>
-        <translation type="unfinished"></translation>
+        <translation>Lineare Überblendung</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="72"/>
         <source>Kerndeint</source>
-        <translation type="unfinished"></translation>
+        <translation>Kerndeint</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="379"/>
         <source>Dei&amp;nterlace by default:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Deinterlacing als Standard:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="541"/>
         <source>Deinterlace by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Deinterlacing als Standard</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="543"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl des Deinterlacing Filter, zum Öffnen von neuen Videos.</translation>
     </message>
 </context>
 <context>
