@@ -59,6 +59,12 @@ protected:
 	void setMiddleClickFunction(QString f);
 	QString middleClickFunction();
 
+	void setXButton1ClickFunction(QString f);
+	QString xButton1ClickFunction();
+
+	void setXButton2ClickFunction(QString f);
+	QString xButton2ClickFunction();
+
 	void setWheelFunction(int function);
 	int wheelFunction();
 

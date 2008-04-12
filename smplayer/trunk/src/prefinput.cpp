@@ -72,8 +72,15 @@ void PrefInput::createMouseCombos() {
 	for (int n=0; n < left_click_combo->count(); n++) {
 		double_click_combo->addItem( left_click_combo->itemText(n),
                                      left_click_combo->itemData(n) );
+
 		middle_click_combo->addItem( left_click_combo->itemText(n),
                                      left_click_combo->itemData(n) );
+
+		xbutton1_click_combo->addItem( left_click_combo->itemText(n),
+                                       left_click_combo->itemData(n) );
+
+		xbutton2_click_combo->addItem( left_click_combo->itemText(n),
+                                       left_click_combo->itemData(n) );
 	}
 }
 
@@ -117,6 +124,8 @@ void PrefInput::setData(Preferences * pref) {
 	setLeftClickFunction( pref->mouse_left_click_function );
 	setDoubleClickFunction( pref->mouse_double_click_function );
 	setMiddleClickFunction( pref->mouse_middle_click_function );
+	setXButton1ClickFunction( pref->mouse_xbutton1_click_function );
+	setXButton2ClickFunction( pref->mouse_xbutton2_click_function );
 	setWheelFunction( pref->wheel_function );
 }
 
@@ -126,6 +135,8 @@ void PrefInput::getData(Preferences * pref) {
 	pref->mouse_left_click_function = leftClickFunction();
 	pref->mouse_double_click_function = doubleClickFunction();
 	pref->mouse_middle_click_function = middleClickFunction();
+	pref->mouse_xbutton1_click_function = xButton1ClickFunction();
+	pref->mouse_xbutton2_click_function = xButton2ClickFunction();
 	pref->wheel_function = wheelFunction();
 }
 
@@ -164,6 +175,26 @@ void PrefInput::setMiddleClickFunction(QString f) {
 
 QString PrefInput::middleClickFunction() {
 	return middle_click_combo->itemData( middle_click_combo->currentIndex() ).toString();
+}
+
+void PrefInput::setXButton1ClickFunction(QString f) {
+	int pos = xbutton1_click_combo->findData(f);
+	if (pos == -1) pos = 0; //None
+	xbutton1_click_combo->setCurrentIndex(pos);
+}
+
+QString PrefInput::xButton1ClickFunction() {
+	return xbutton1_click_combo->itemData( xbutton1_click_combo->currentIndex() ).toString();
+}
+
+void PrefInput::setXButton2ClickFunction(QString f) {
+	int pos = xbutton2_click_combo->findData(f);
+	if (pos == -1) pos = 0; //None
+	xbutton2_click_combo->setCurrentIndex(pos);
+}
+
+QString PrefInput::xButton2ClickFunction() {
+	return xbutton2_click_combo->itemData( xbutton2_click_combo->currentIndex() ).toString();
 }
 
 void PrefInput::setWheelFunction(int function) {

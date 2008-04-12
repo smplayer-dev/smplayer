@@ -167,6 +167,8 @@ signals:
 	void doubleClicked();
 	void leftClicked();
 	void middleClicked();
+	void xbutton1Clicked(); // first X button
+	void xbutton2Clicked(); // second X button
 	void keyPressed(QKeyEvent * e);
 	void wheelUp();
 	void wheelDown();

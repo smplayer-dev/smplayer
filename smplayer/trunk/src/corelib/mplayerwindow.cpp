@@ -299,6 +299,16 @@ void MplayerWindow::mouseReleaseEvent( QMouseEvent * e) {
 		emit middleClicked();
 	}
 	else
+	if (e->button() == Qt::XButton1) {
+		e->accept();
+		emit xbutton1Clicked();
+	}
+	else
+	if (e->button() == Qt::XButton2) {
+		e->accept();
+		emit xbutton2Clicked();
+	}
+	else
     if (e->button() == Qt::RightButton) {
 		e->accept();
 		emit rightButtonReleased( e->globalPos() );

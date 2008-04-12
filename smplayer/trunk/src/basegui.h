@@ -163,6 +163,8 @@ protected slots:
 	virtual void leftClickFunction();
 	virtual void doubleClickFunction();
 	virtual void middleClickFunction();
+	virtual void xbutton1ClickFunction();
+	virtual void xbutton2ClickFunction();
 	virtual void processFunction(QString function);
 
 	virtual void dragEnterEvent( QDragEnterEvent * ) ;
