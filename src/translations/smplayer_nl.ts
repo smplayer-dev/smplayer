@@ -741,7 +741,7 @@ Wil je het overschrijven?</translation>
         <translation>&amp;Aspect verhouding</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2076"/>
+        <location filename="../basegui.cpp" line="2080"/>
         <source>&amp;None</source>
         <translation>&amp;Geen</translation>
     </message>
@@ -991,74 +991,74 @@ Wil je het overschrijven?</translation>
         <translation>Over &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2188"/>
+        <location filename="../basegui.cpp" line="2192"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;leeg&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2525"/>
+        <location filename="../basegui.cpp" line="2529"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2703"/>
+        <location filename="../basegui.cpp" line="2707"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2527"/>
+        <location filename="../basegui.cpp" line="2531"/>
         <source>Playlists</source>
         <translation>Afspeellijsten</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2704"/>
+        <location filename="../basegui.cpp" line="2708"/>
         <source>All files</source>
         <translation>Alle bestanden</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2701"/>
+        <location filename="../basegui.cpp" line="2705"/>
         <source>Choose a file</source>
         <translation>Kies een bestand</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2575"/>
+        <location filename="../basegui.cpp" line="2579"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Informatie</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2578"/>
+        <location filename="../basegui.cpp" line="2582"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>De CDROM / DVD stations zijn nog niet geconfigureerd.
 Het configuratie dialoogvenster zal nu getoond worden, zodat je dit nu kan doen.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2652"/>
+        <location filename="../basegui.cpp" line="2656"/>
         <source>Choose a directory</source>
         <translation>Kies een map</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2688"/>
+        <location filename="../basegui.cpp" line="2692"/>
         <source>Subtitles</source>
         <translation>Ondertitels</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2728"/>
+        <location filename="../basegui.cpp" line="2732"/>
         <source>About Qt</source>
         <translation>Over Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3064"/>
+        <location filename="../basegui.cpp" line="3084"/>
         <source>Playing %1</source>
         <translation>Afspelen van %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3065"/>
+        <location filename="../basegui.cpp" line="3085"/>
         <source>Pause</source>
         <translation>Pauze</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3066"/>
+        <location filename="../basegui.cpp" line="3086"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
@@ -1368,7 +1368,7 @@ Het configuratie dialoogvenster zal nu getoond worden, zodat je dit nu kan doen.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2717"/>
+        <location filename="../basegui.cpp" line="2721"/>
         <source>SMPlayer command line options</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1388,32 +1388,32 @@ Het configuratie dialoogvenster zal nu getoond worden, zodat je dit nu kan doen.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3481"/>
+        <location filename="../basegui.cpp" line="3501"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3482"/>
+        <location filename="../basegui.cpp" line="3502"/>
         <source>Exit code: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3492"/>
+        <location filename="../basegui.cpp" line="3512"/>
         <source>MPlayer failed to start.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3493"/>
+        <location filename="../basegui.cpp" line="3513"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3495"/>
+        <location filename="../basegui.cpp" line="3515"/>
         <source>MPlayer has crashed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3496"/>
+        <location filename="../basegui.cpp" line="3516"/>
         <source>See the log for more info.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3508,12 +3508,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Toetsenbord</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="115"/>
+        <location filename="../prefinput.ui" line="317"/>
         <source>icon</source>
         <translation>icoon</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="110"/>
+        <location filename="../prefinput.cpp" line="117"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>Hier kan je eender welke sneltoets instellen. Om een sneltoets aan te passen moet u op de desbetreffende cel dubbelklikken of typen terwijl de desbetreffende cel de focus heeft. Optioneel bestaat de mogelijkheid om uw sneltoetsen configuratie op te slaan zodat u het kan delen met andere mensen of zodat u het in een andere computer kan inladen.</translation>
     </message>
@@ -3523,22 +3523,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Muis</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="151"/>
+        <location filename="../prefinput.ui" line="123"/>
         <source>Button functions:</source>
         <translation>Knop functies:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="99"/>
+        <location filename="../prefinput.cpp" line="106"/>
         <source>Media seeking</source>
         <translation>Media zoeken</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="100"/>
+        <location filename="../prefinput.cpp" line="107"/>
         <source>Volume control</source>
         <translation>Volumeregeling</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="101"/>
+        <location filename="../prefinput.cpp" line="108"/>
         <source>Zoom video</source>
         <translation>Video zoomen</translation>
     </message>
@@ -3553,57 +3553,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Hier kan je eender welke sneltoets instellen. Om een sneltoets aan te passen moet u op de desbetreffende cel dubbelklikken of de enter-toets indrukken terwijl de desbetreffende cel de focus heeft. Optioneel bestaat de mogelijkheid om uw sneltoetsen configuratie op te slaan zodat u het kan delen met andere mensen of zodat u het in een andere computer kan inladen.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="223"/>
+        <location filename="../prefinput.ui" line="345"/>
         <source>&amp;Left click</source>
         <translation>Klik met &amp;linkermuisknop</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="236"/>
+        <location filename="../prefinput.ui" line="358"/>
         <source>&amp;Double click</source>
         <translation>&amp;Dubbelklikken</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="326"/>
+        <location filename="../prefinput.ui" line="266"/>
         <source>&amp;Wheel function:</source>
         <translation>&amp;Wielfunctie:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="184"/>
+        <location filename="../prefinput.cpp" line="215"/>
         <source>Shortcut editor</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="193"/>
+        <location filename="../prefinput.cpp" line="224"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="197"/>
+        <location filename="../prefinput.cpp" line="228"/>
         <source>Left click</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="198"/>
+        <location filename="../prefinput.cpp" line="229"/>
         <source>Select the action for left click on the mouse.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="200"/>
+        <location filename="../prefinput.cpp" line="231"/>
         <source>Double click</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="201"/>
+        <location filename="../prefinput.cpp" line="232"/>
         <source>Select the action for double click on the mouse.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="206"/>
+        <location filename="../prefinput.cpp" line="237"/>
         <source>Wheel function</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="207"/>
+        <location filename="../prefinput.cpp" line="238"/>
         <source>Select the action for the mouse wheel.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3668,11 +3668,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="169"/>
-        <source>Mi&amp;ddle click</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../prefinput.cpp" line="53"/>
         <source>Play / Pause</source>
         <translation type="unfinished">Afspelen / Pauzeren</translation>
@@ -3693,12 +3688,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="98"/>
+        <location filename="../prefinput.cpp" line="105"/>
         <source>No function</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="102"/>
+        <location filename="../prefinput.cpp" line="109"/>
         <source>Change speed</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3713,23 +3708,38 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="182"/>
+        <location filename="../prefinput.cpp" line="213"/>
         <source>Keyboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="195"/>
+        <location filename="../prefinput.cpp" line="226"/>
         <source>Mouse</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="203"/>
+        <location filename="../prefinput.cpp" line="234"/>
         <source>Middle click</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="204"/>
+        <location filename="../prefinput.cpp" line="235"/>
         <source>Select the action for middle click on the mouse.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.ui" line="371"/>
+        <source>M&amp;iddle click</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.ui" line="381"/>
+        <source>X Button &amp;1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.ui" line="391"/>
+        <source>X Button &amp;2</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
