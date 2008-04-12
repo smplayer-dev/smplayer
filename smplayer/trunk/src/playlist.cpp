@@ -184,6 +184,9 @@ void Playlist::createActions() {
 	shuffleAct = new MyAction(this, "pl_shuffle", false);
 	shuffleAct->setCheckable(true);
 
+	autoGetInfoAct = new MyAction(this, "pl_auto_get_info", false);
+	autoGetInfoAct->setCheckable(true);
+
 	// Add actions
 	addCurrentAct = new MyAction(this, "pl_add_current", false);
 	connect( addCurrentAct, SIGNAL(triggered()), this, SLOT(addCurrentFile()) );
@@ -218,6 +221,8 @@ void Playlist::createToolbar() {
 	add_menu->addAction(addCurrentAct);
 	add_menu->addAction(addFilesAct );
 	add_menu->addAction(addDirectoryAct);
+	add_menu->addSeparator();
+	add_menu->addAction(autoGetInfoAct);
 
 	add_button = new QToolButton( this );
 	add_button->setMenu( add_menu );
@@ -283,6 +288,8 @@ void Playlist::retranslateStrings() {
 
 	repeatAct->change( Images::icon("repeat"), tr("&Repeat") );
 	shuffleAct->change( Images::icon("shuffle"), tr("S&huffle") );
+
+	autoGetInfoAct->change( tr("&Get info about the files added") );
 
 	// Add actions
 	addCurrentAct->change( tr("Add &current file") );
@@ -874,7 +881,7 @@ void Playlist::addFiles(QStringList files) {
     QStringList::Iterator it = files.begin();
     while( it != files.end() ) {
 #if USE_INFOPROVIDER
-		if (QFile::exists( (*it) )) {
+		if ( (autoGetInfoAct->isChecked()) && (QFile::exists((*it))) ) {
 			data = InfoProvider::getInfo( (*it) );
 			addItem( (*it), data.displayName(), data.duration );
 			updateView();
@@ -1170,6 +1177,9 @@ void Playlist::saveSettings() {
 
 	set->setValue( "repeat", repeatAct->isChecked() );
 	set->setValue( "shuffle", shuffleAct->isChecked() );
+
+	set->setValue( "auto_get_info", autoGetInfoAct->isChecked() );
+
 //#if !DOCK_PLAYLIST
 	set->setValue( "window_width", size().width() );
 	set->setValue( "window_height", size().height() );
@@ -1202,6 +1212,14 @@ void Playlist::loadSettings() {
 
 	repeatAct->setChecked( set->value( "repeat", repeatAct->isChecked() ).toBool() );
 	shuffleAct->setChecked( set->value( "shuffle", shuffleAct->isChecked() ).toBool() );
+
+#ifndef Q_OS_WIN
+    // Very slow on Windows, so it's disabled by default
+	const bool auto_get_info_default = false;
+#else
+	const bool auto_get_info_default = true;
+#endif
+	autoGetInfoAct->setChecked( set->value("auto_get_info", auto_get_info_default).toBool() );
 
 //#if !DOCK_PLAYLIST
 	QSize s;

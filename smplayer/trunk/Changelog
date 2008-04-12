@@ -1,5 +1,10 @@
 [b]Version 0.6.0rc4[/b] (not released yet):
 
+(2008-04-12)
+ * Now the possibility to get info (length, name) about the files added to
+   the playlist can be disabled. It's not in the preferences dialog as usual
+   but in the playlist itself, as an option in the "add" menu.
+
 (2008-04-11)
  * Added support for the mouse XButton1 and XButton2. This is untested as
    my mouse doesn't have those buttons.
