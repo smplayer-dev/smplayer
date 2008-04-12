@@ -589,10 +589,19 @@ The drop-down lists may provide already made regular expression for several lang
  <tabstops>
   <tabstop>advanced_tab</tabstop>
   <tabstop>monitoraspect_combo</tabstop>
+  <tabstop>log_smplayer_check</tabstop>
+  <tabstop>log_mplayer_check</tabstop>
+  <tabstop>log_mplayer_save_check</tabstop>
+  <tabstop>log_mplayer_save_name</tabstop>
+  <tabstop>log_filter_edit</tabstop>
   <tabstop>mplayer_use_window_check</tabstop>
+  <tabstop>not_clear_background_check</tabstop>
   <tabstop>colorkey_view</tabstop>
   <tabstop>changeButton</tabstop>
-  <tabstop>not_clear_background_check</tabstop>
+  <tabstop>shortnames_check</tabstop>
+  <tabstop>mplayer_args_edit</tabstop>
+  <tabstop>mplayer_vfilters_edit</tabstop>
+  <tabstop>mplayer_afilters_edit</tabstop>
   <tabstop>endoffile_combo</tabstop>
   <tabstop>novideo_combo</tabstop>
  </tabstops>

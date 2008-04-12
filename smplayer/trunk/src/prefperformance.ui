@@ -503,9 +503,15 @@
   <tabstop>priority_combo</tabstop>
   <tabstop>framedrop_check</tabstop>
   <tabstop>hardframedrop_check</tabstop>
+  <tabstop>loopfilter_combo</tabstop>
   <tabstop>autosync_check</tabstop>
   <tabstop>autosync_spin</tabstop>
+  <tabstop>fast_audio_combo</tabstop>
   <tabstop>fast_chapter_check</tabstop>
+  <tabstop>idx_check</tabstop>
+  <tabstop>cache_files_spin</tabstop>
+  <tabstop>cache_streams_spin</tabstop>
+  <tabstop>cache_dvds_spin</tabstop>
  </tabstops>
  <resources/>
  <connections>
