@@ -181,6 +181,8 @@ public:
 	QString mouse_left_click_function;
 	QString mouse_double_click_function;
 	QString mouse_middle_click_function;
+	QString mouse_xbutton1_click_function;
+	QString mouse_xbutton2_click_function;
 	int wheel_function;
 
 	//! Max items in recent's list

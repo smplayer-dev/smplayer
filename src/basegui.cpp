@@ -1417,6 +1417,10 @@ void BaseGui::createMplayerWindow() {
              this, SLOT(leftClickFunction()) );
 	connect( mplayerwindow, SIGNAL(middleClicked()),
              this, SLOT(middleClickFunction()) );
+	connect( mplayerwindow, SIGNAL(xbutton1Clicked()),
+             this, SLOT(xbutton1ClickFunction()) );
+	connect( mplayerwindow, SIGNAL(xbutton2Clicked()),
+             this, SLOT(xbutton2ClickFunction()) );
 	connect( mplayerwindow, SIGNAL(mouseMoved(QPoint)),
              this, SLOT(checkMousePos(QPoint)) );
 }
@@ -2855,6 +2859,22 @@ void BaseGui::middleClickFunction() {
 
 	if (!pref->mouse_middle_click_function.isEmpty()) {
 		processFunction(pref->mouse_middle_click_function);
+	}
+}
+
+void BaseGui::xbutton1ClickFunction() {
+	qDebug("BaseGui::xbutton1ClickFunction");
+
+	if (!pref->mouse_xbutton1_click_function.isEmpty()) {
+		processFunction(pref->mouse_xbutton1_click_function);
+	}
+}
+
+void BaseGui::xbutton2ClickFunction() {
+	qDebug("BaseGui::xbutton2ClickFunction");
+
+	if (!pref->mouse_xbutton2_click_function.isEmpty()) {
+		processFunction(pref->mouse_xbutton2_click_function);
 	}
 }
 
