@@ -2202,166 +2202,171 @@ Do you want to overwrite?</source>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="261"/>
+        <location filename="../playlist.cpp" line="266"/>
         <source>Name</source>
         <translation>名前</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="261"/>
+        <location filename="../playlist.cpp" line="266"/>
         <source>Length</source>
         <translation>長さ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="266"/>
+        <location filename="../playlist.cpp" line="271"/>
         <source>&amp;Play</source>
         <translation>再生(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="297"/>
+        <location filename="../playlist.cpp" line="304"/>
         <source>&amp;Edit</source>
         <translation>編集(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="673"/>
+        <location filename="../playlist.cpp" line="680"/>
         <source>Playlists</source>
         <translation>プレイリスト</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="653"/>
+        <location filename="../playlist.cpp" line="660"/>
         <source>Choose a file</source>
         <translation>ファイルの選択</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="671"/>
+        <location filename="../playlist.cpp" line="678"/>
         <source>Choose a filename</source>
         <translation>ファイル名の選択</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="682"/>
+        <location filename="../playlist.cpp" line="689"/>
         <source>Confirm overwrite?</source>
         <translation>上書きを確認しますか?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="684"/>
+        <location filename="../playlist.cpp" line="691"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>ファイル %1 がすでに存在します。
 上書きしますか?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="861"/>
+        <location filename="../playlist.cpp" line="868"/>
         <source>All files</source>
         <translation>すべてのファイル</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="859"/>
+        <location filename="../playlist.cpp" line="866"/>
         <source>Select one or more files to open</source>
         <translation>1 つ以上の開くファイルを選択します</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="908"/>
+        <location filename="../playlist.cpp" line="915"/>
         <source>Choose a directory</source>
         <translation>ディレクトリの選択</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1082"/>
+        <location filename="../playlist.cpp" line="1089"/>
         <source>Edit name</source>
         <translation>名前の編集</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1083"/>
+        <location filename="../playlist.cpp" line="1090"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>このファイルのプレイリストに表示される名前を入力します:</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="263"/>
+        <location filename="../playlist.cpp" line="268"/>
         <source>&amp;Load</source>
         <translation>読み込み(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="264"/>
+        <location filename="../playlist.cpp" line="269"/>
         <source>&amp;Save</source>
         <translation>保存(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="268"/>
+        <location filename="../playlist.cpp" line="273"/>
         <source>&amp;Next</source>
         <translation>次へ(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="269"/>
+        <location filename="../playlist.cpp" line="274"/>
         <source>Pre&amp;vious</source>
         <translation>前へ(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="281"/>
+        <location filename="../playlist.cpp" line="286"/>
         <source>Move &amp;up</source>
         <translation>上へ移動(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="282"/>
+        <location filename="../playlist.cpp" line="287"/>
         <source>Move &amp;down</source>
         <translation>下へ移動(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="284"/>
+        <location filename="../playlist.cpp" line="289"/>
         <source>&amp;Repeat</source>
         <translation>繰り返し(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="285"/>
+        <location filename="../playlist.cpp" line="290"/>
         <source>S&amp;huffle</source>
         <translation>シャッフル(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="288"/>
+        <location filename="../playlist.cpp" line="295"/>
         <source>Add &amp;current file</source>
         <translation>現在のファイルの追加(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="289"/>
+        <location filename="../playlist.cpp" line="296"/>
         <source>Add &amp;file(s)</source>
         <translation>ファイルの追加(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="290"/>
+        <location filename="../playlist.cpp" line="297"/>
         <source>Add &amp;directory</source>
         <translation>ディレクトリの追加(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="293"/>
+        <location filename="../playlist.cpp" line="300"/>
         <source>Remove &amp;selected</source>
         <translation>選択済みの削除(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="294"/>
+        <location filename="../playlist.cpp" line="301"/>
         <source>Remove &amp;all</source>
         <translation>すべて削除(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="307"/>
+        <location filename="../playlist.cpp" line="314"/>
         <source>SMPlayer - Playlist</source>
         <translation>SMPlayer - プレイリスト</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="301"/>
+        <location filename="../playlist.cpp" line="308"/>
         <source>Add...</source>
         <translation>追加...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="303"/>
+        <location filename="../playlist.cpp" line="310"/>
         <source>Remove...</source>
         <translation>削除...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="708"/>
+        <location filename="../playlist.cpp" line="715"/>
         <source>Playlist modified</source>
         <translation>プレイリストが変更されました</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="709"/>
+        <location filename="../playlist.cpp" line="716"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>未保存の変更があります、プレイリストを保存しますか?</translation>
+    </message>
+    <message>
+        <location filename="../playlist.cpp" line="292"/>
+        <source>&amp;Get info about the files added</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3542,7 +3547,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>キーボードとマウス</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="51"/>
+        <location filename="../prefinput.cpp" line="53"/>
         <source>None</source>
         <translation>なし</translation>
     </message>
@@ -3557,7 +3562,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>icon</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="117"/>
+        <location filename="../prefinput.cpp" line="125"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>ここではすべてのショートカットを変更できます。それにはショートカット セルの上でダブル クリックまたは入力を開始します。また任意にその他の人または別のコンピュータでの読み込みおよび共有するのに一覧を保存できます。</translation>
     </message>
@@ -3572,17 +3577,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ボタンの機能:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="106"/>
+        <location filename="../prefinput.cpp" line="114"/>
         <source>Media seeking</source>
         <translation>メディア シーク</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="107"/>
+        <location filename="../prefinput.cpp" line="115"/>
         <source>Volume control</source>
         <translation>ボリューム コントロール</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="108"/>
+        <location filename="../prefinput.cpp" line="116"/>
         <source>Zoom video</source>
         <translation>ビデオの拡大と縮小</translation>
     </message>
@@ -3607,102 +3612,102 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ホイール機能(&amp;W):</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="215"/>
+        <location filename="../prefinput.cpp" line="223"/>
         <source>Shortcut editor</source>
         <translation>ショートカット エディタ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="224"/>
+        <location filename="../prefinput.cpp" line="232"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>この表は利用可能な動作のキー ショートカットの変更を許可します。&lt;i&gt;ショートカットの変更&lt;/i&gt; ダイアログに入るにはアイテムでダブルクリックするか enter を押すか、&lt;b&gt;ショートカットの変更&lt;/b&gt; ボタンを押します。ショートカットを変更する 2 つの方法があります: &lt;b&gt;キャプチャ&lt;/b&gt; ボタンがオンの場合は次に動作に割り当てしたい新しいキーまたはキーの組み合わせを押します。&lt;b&gt;キャプチャ&lt;/b&gt; ボタンがオフの場合は次にキーのフル ネームを入力できます。</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="228"/>
+        <location filename="../prefinput.cpp" line="236"/>
         <source>Left click</source>
         <translation>左クリック</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="229"/>
+        <location filename="../prefinput.cpp" line="237"/>
         <source>Select the action for left click on the mouse.</source>
         <translation>マウスの左クリックの動作を選択します。</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="231"/>
+        <location filename="../prefinput.cpp" line="239"/>
         <source>Double click</source>
         <translation>ダブル クリック</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="232"/>
+        <location filename="../prefinput.cpp" line="240"/>
         <source>Select the action for double click on the mouse.</source>
         <translation>マウスのダブル クリックの動作を選択します。</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="237"/>
+        <location filename="../prefinput.cpp" line="245"/>
         <source>Wheel function</source>
         <translation>ボタンの機能</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="238"/>
+        <location filename="../prefinput.cpp" line="246"/>
         <source>Select the action for the mouse wheel.</source>
         <translation>マウス ホイールの動作を選択します。</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="52"/>
+        <location filename="../prefinput.cpp" line="54"/>
         <source>Play</source>
         <translation>再生</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="54"/>
+        <location filename="../prefinput.cpp" line="56"/>
         <source>Pause</source>
         <translation>一時停止</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="56"/>
+        <location filename="../prefinput.cpp" line="58"/>
         <source>Stop</source>
         <translation>停止</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="57"/>
+        <location filename="../prefinput.cpp" line="59"/>
         <source>Fullscreen</source>
         <translation>全画面表示</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="58"/>
+        <location filename="../prefinput.cpp" line="60"/>
         <source>Compact</source>
         <translation>コンパクト</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="59"/>
+        <location filename="../prefinput.cpp" line="61"/>
         <source>Screenshot</source>
         <translation>スクリーンショット</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="60"/>
+        <location filename="../prefinput.cpp" line="62"/>
         <source>On top</source>
         <translation>常に手前</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="61"/>
+        <location filename="../prefinput.cpp" line="63"/>
         <source>Mute</source>
         <translation>ミュート</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="66"/>
+        <location filename="../prefinput.cpp" line="68"/>
         <source>Frame counter</source>
         <translation>フレーム カウンタ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="63"/>
+        <location filename="../prefinput.cpp" line="65"/>
         <source>Reset zoom</source>
         <translation>拡大と縮小のリセット</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="64"/>
+        <location filename="../prefinput.cpp" line="66"/>
         <source>Exit fullscreen</source>
         <translation>全画面表示の終了</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="68"/>
+        <location filename="../prefinput.cpp" line="70"/>
         <source>Double size</source>
         <translation>倍のサイズ</translation>
     </message>
@@ -3712,62 +3717,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">ミドル クリック(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="53"/>
+        <location filename="../prefinput.cpp" line="55"/>
         <source>Play / Pause</source>
         <translation>再生 / 一時停止</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="55"/>
+        <location filename="../prefinput.cpp" line="57"/>
         <source>Pause / Frame step</source>
         <translation>一時停止 / コマ送り</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="62"/>
+        <location filename="../prefinput.cpp" line="64"/>
         <source>Playlist</source>
         <translation>プレイリスト</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="67"/>
+        <location filename="../prefinput.cpp" line="69"/>
         <source>Preferences</source>
         <translation>環境設定</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="105"/>
+        <location filename="../prefinput.cpp" line="113"/>
         <source>No function</source>
         <translation>機能なし</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="109"/>
+        <location filename="../prefinput.cpp" line="117"/>
         <source>Change speed</source>
         <translation>速度の変更</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="69"/>
+        <location filename="../prefinput.cpp" line="71"/>
         <source>Show equalizer</source>
         <translation>イコライザの表示</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="65"/>
+        <location filename="../prefinput.cpp" line="67"/>
         <source>Normal speed</source>
         <translation>通常の速度</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="213"/>
+        <location filename="../prefinput.cpp" line="221"/>
         <source>Keyboard</source>
         <translation>キーボード</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="226"/>
+        <location filename="../prefinput.cpp" line="234"/>
         <source>Mouse</source>
         <translation>マウス</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="234"/>
+        <location filename="../prefinput.cpp" line="242"/>
         <source>Middle click</source>
         <translation>ミドル クリック</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="235"/>
+        <location filename="../prefinput.cpp" line="243"/>
         <source>Select the action for middle click on the mouse.</source>
         <translation>マウスのミドル クリックの動作を選択します。</translation>
     </message>

@@ -2406,166 +2406,171 @@ Do you want to overwrite?</source>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="861"/>
+        <location filename="../playlist.cpp" line="868"/>
         <source>All files</source>
         <translation>所有檔案</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="908"/>
+        <location filename="../playlist.cpp" line="915"/>
         <source>Choose a directory</source>
         <translation>選取一個目錄</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="653"/>
+        <location filename="../playlist.cpp" line="660"/>
         <source>Choose a file</source>
         <translation>選取一個檔案</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="671"/>
+        <location filename="../playlist.cpp" line="678"/>
         <source>Choose a filename</source>
         <translation>選取一個檔名</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="682"/>
+        <location filename="../playlist.cpp" line="689"/>
         <source>Confirm overwrite?</source>
         <translation>是否覆寫?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="297"/>
+        <location filename="../playlist.cpp" line="304"/>
         <source>&amp;Edit</source>
         <translation>編輯(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1082"/>
+        <location filename="../playlist.cpp" line="1089"/>
         <source>Edit name</source>
         <translation>編輯名字</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="261"/>
+        <location filename="../playlist.cpp" line="266"/>
         <source>Length</source>
         <translation>長度</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="261"/>
+        <location filename="../playlist.cpp" line="266"/>
         <source>Name</source>
         <translation>名字</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="266"/>
+        <location filename="../playlist.cpp" line="271"/>
         <source>&amp;Play</source>
         <translation>播放(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="673"/>
+        <location filename="../playlist.cpp" line="680"/>
         <source>Playlists</source>
         <translation>播放清單</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="859"/>
+        <location filename="../playlist.cpp" line="866"/>
         <source>Select one or more files to open</source>
         <translation>選擇開啟一個或多個檔案</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="684"/>
+        <location filename="../playlist.cpp" line="691"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>檔案 %1 己存在。
 是否覆寫?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1083"/>
+        <location filename="../playlist.cpp" line="1090"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>給這個檔案輸入一個顯示於播放清單上的名字:</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="263"/>
+        <location filename="../playlist.cpp" line="268"/>
         <source>&amp;Load</source>
         <translation>載入(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="264"/>
+        <location filename="../playlist.cpp" line="269"/>
         <source>&amp;Save</source>
         <translation>儲存(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="268"/>
+        <location filename="../playlist.cpp" line="273"/>
         <source>&amp;Next</source>
         <translation>下一個(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="269"/>
+        <location filename="../playlist.cpp" line="274"/>
         <source>Pre&amp;vious</source>
         <translation>上一個(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="281"/>
+        <location filename="../playlist.cpp" line="286"/>
         <source>Move &amp;up</source>
         <translation>上移(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="282"/>
+        <location filename="../playlist.cpp" line="287"/>
         <source>Move &amp;down</source>
         <translation>下移(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="284"/>
+        <location filename="../playlist.cpp" line="289"/>
         <source>&amp;Repeat</source>
         <translation>重複 (&amp;R)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="285"/>
+        <location filename="../playlist.cpp" line="290"/>
         <source>S&amp;huffle</source>
         <translation>隨機(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="288"/>
+        <location filename="../playlist.cpp" line="295"/>
         <source>Add &amp;current file</source>
         <translation>加入目前的檔案(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="289"/>
+        <location filename="../playlist.cpp" line="296"/>
         <source>Add &amp;file(s)</source>
         <translation>加入檔案(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="290"/>
+        <location filename="../playlist.cpp" line="297"/>
         <source>Add &amp;directory</source>
         <translation>加入目錄(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="293"/>
+        <location filename="../playlist.cpp" line="300"/>
         <source>Remove &amp;selected</source>
         <translation>移除已選取的(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="294"/>
+        <location filename="../playlist.cpp" line="301"/>
         <source>Remove &amp;all</source>
         <translation>全部移除(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="307"/>
+        <location filename="../playlist.cpp" line="314"/>
         <source>SMPlayer - Playlist</source>
         <translation>SMPlayer - 播放清單</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="301"/>
+        <location filename="../playlist.cpp" line="308"/>
         <source>Add...</source>
         <translation>加入...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="303"/>
+        <location filename="../playlist.cpp" line="310"/>
         <source>Remove...</source>
         <translation>移除...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="708"/>
+        <location filename="../playlist.cpp" line="715"/>
         <source>Playlist modified</source>
         <translation>播放清單己修改</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="709"/>
+        <location filename="../playlist.cpp" line="716"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>修改尚未儲存，您想儲存播放清單嗎?</translation>
+    </message>
+    <message>
+        <location filename="../playlist.cpp" line="292"/>
+        <source>&amp;Get info about the files added</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3765,7 +3770,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>圖示</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="117"/>
+        <location filename="../prefinput.cpp" line="125"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation type="unfinished">在這裡您可以更改任何快捷鍵。通過在一個快捷鍵單元格双擊或鍵入來設定。
 您也可以儲存您的設定，然後分享给他人或載入别的電腦上。</translation>
@@ -3781,12 +3786,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>按鈕功能:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="228"/>
+        <location filename="../prefinput.cpp" line="236"/>
         <source>Left click</source>
         <translation type="unfinished">左擊</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="231"/>
+        <location filename="../prefinput.cpp" line="239"/>
         <source>Double click</source>
         <translation type="unfinished">雙擊</translation>
     </message>
@@ -3796,22 +3801,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">滾輪功能:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="106"/>
+        <location filename="../prefinput.cpp" line="114"/>
         <source>Media seeking</source>
         <translation>媒體定位</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="107"/>
+        <location filename="../prefinput.cpp" line="115"/>
         <source>Volume control</source>
         <translation>音量控制</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="108"/>
+        <location filename="../prefinput.cpp" line="116"/>
         <source>Zoom video</source>
         <translation>縮放視訊</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="51"/>
+        <location filename="../prefinput.cpp" line="53"/>
         <source>None</source>
         <translation>無</translation>
     </message>
@@ -3836,152 +3841,152 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="215"/>
+        <location filename="../prefinput.cpp" line="223"/>
         <source>Shortcut editor</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="224"/>
+        <location filename="../prefinput.cpp" line="232"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="229"/>
+        <location filename="../prefinput.cpp" line="237"/>
         <source>Select the action for left click on the mouse.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="232"/>
+        <location filename="../prefinput.cpp" line="240"/>
         <source>Select the action for double click on the mouse.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="237"/>
+        <location filename="../prefinput.cpp" line="245"/>
         <source>Wheel function</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="238"/>
+        <location filename="../prefinput.cpp" line="246"/>
         <source>Select the action for the mouse wheel.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="52"/>
+        <location filename="../prefinput.cpp" line="54"/>
         <source>Play</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="54"/>
+        <location filename="../prefinput.cpp" line="56"/>
         <source>Pause</source>
         <translation type="unfinished">暫停</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="56"/>
+        <location filename="../prefinput.cpp" line="58"/>
         <source>Stop</source>
         <translation type="unfinished">停止</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="57"/>
+        <location filename="../prefinput.cpp" line="59"/>
         <source>Fullscreen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="58"/>
+        <location filename="../prefinput.cpp" line="60"/>
         <source>Compact</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="59"/>
+        <location filename="../prefinput.cpp" line="61"/>
         <source>Screenshot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="60"/>
+        <location filename="../prefinput.cpp" line="62"/>
         <source>On top</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="61"/>
+        <location filename="../prefinput.cpp" line="63"/>
         <source>Mute</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="66"/>
+        <location filename="../prefinput.cpp" line="68"/>
         <source>Frame counter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="63"/>
+        <location filename="../prefinput.cpp" line="65"/>
         <source>Reset zoom</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="64"/>
+        <location filename="../prefinput.cpp" line="66"/>
         <source>Exit fullscreen</source>
         <translation type="unfinished">退出全螢幕</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="68"/>
+        <location filename="../prefinput.cpp" line="70"/>
         <source>Double size</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="53"/>
+        <location filename="../prefinput.cpp" line="55"/>
         <source>Play / Pause</source>
         <translation type="unfinished">播放 / 暫停</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="55"/>
+        <location filename="../prefinput.cpp" line="57"/>
         <source>Pause / Frame step</source>
         <translation type="unfinished">暫停 / Frame step</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="62"/>
+        <location filename="../prefinput.cpp" line="64"/>
         <source>Playlist</source>
         <translation type="unfinished">播放清單</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="67"/>
+        <location filename="../prefinput.cpp" line="69"/>
         <source>Preferences</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="105"/>
+        <location filename="../prefinput.cpp" line="113"/>
         <source>No function</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="109"/>
+        <location filename="../prefinput.cpp" line="117"/>
         <source>Change speed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="69"/>
+        <location filename="../prefinput.cpp" line="71"/>
         <source>Show equalizer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="65"/>
+        <location filename="../prefinput.cpp" line="67"/>
         <source>Normal speed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="213"/>
+        <location filename="../prefinput.cpp" line="221"/>
         <source>Keyboard</source>
         <translation type="unfinished">鍵盤</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="226"/>
+        <location filename="../prefinput.cpp" line="234"/>
         <source>Mouse</source>
         <translation type="unfinished">滑鼠</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="234"/>
+        <location filename="../prefinput.cpp" line="242"/>
         <source>Middle click</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="235"/>
+        <location filename="../prefinput.cpp" line="243"/>
         <source>Select the action for middle click on the mouse.</source>
         <translation type="unfinished"></translation>
     </message>

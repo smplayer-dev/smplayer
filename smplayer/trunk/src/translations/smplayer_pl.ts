@@ -2229,167 +2229,172 @@ Nadpisać?</translation>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="261"/>
+        <location filename="../playlist.cpp" line="266"/>
         <source>Name</source>
         <translation>Nazwa</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="261"/>
+        <location filename="../playlist.cpp" line="266"/>
         <source>Length</source>
         <translation>Długość</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="653"/>
+        <location filename="../playlist.cpp" line="660"/>
         <source>Choose a file</source>
         <translation>Wybierz plik</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="671"/>
+        <location filename="../playlist.cpp" line="678"/>
         <source>Choose a filename</source>
         <translation>Wybierz nazwę pliku</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="682"/>
+        <location filename="../playlist.cpp" line="689"/>
         <source>Confirm overwrite?</source>
         <translation>Potwierdź nadpisanie?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="859"/>
+        <location filename="../playlist.cpp" line="866"/>
         <source>Select one or more files to open</source>
         <translation>Wybierz jeden lub więcej plików do otwarcia</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="908"/>
+        <location filename="../playlist.cpp" line="915"/>
         <source>Choose a directory</source>
         <translation>Wybierz katalog</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="684"/>
+        <location filename="../playlist.cpp" line="691"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Plik %1 istnieje
 Nadpisać?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1082"/>
+        <location filename="../playlist.cpp" line="1089"/>
         <source>Edit name</source>
         <translation>Edytuj nazwę</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1083"/>
+        <location filename="../playlist.cpp" line="1090"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Wpisz nową nazwę dla tego pliku która będzie wyświetlana w liście 
 odtwarzania :</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="266"/>
+        <location filename="../playlist.cpp" line="271"/>
         <source>&amp;Play</source>
         <translation>&amp;Odtwarzaj</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="297"/>
+        <location filename="../playlist.cpp" line="304"/>
         <source>&amp;Edit</source>
         <translation>&amp;Edytuj</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="673"/>
+        <location filename="../playlist.cpp" line="680"/>
         <source>Playlists</source>
         <translation>Listy odtwarzania</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="861"/>
+        <location filename="../playlist.cpp" line="868"/>
         <source>All files</source>
         <translation>Wszystkie pliki</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="263"/>
+        <location filename="../playlist.cpp" line="268"/>
         <source>&amp;Load</source>
         <translation>&amp;Wczytaj</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="264"/>
+        <location filename="../playlist.cpp" line="269"/>
         <source>&amp;Save</source>
         <translation>&amp;Zapisz</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="268"/>
+        <location filename="../playlist.cpp" line="273"/>
         <source>&amp;Next</source>
         <translation>&amp;Następny</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="269"/>
+        <location filename="../playlist.cpp" line="274"/>
         <source>Pre&amp;vious</source>
         <translation>Pop&amp;rzedni</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="281"/>
+        <location filename="../playlist.cpp" line="286"/>
         <source>Move &amp;up</source>
         <translation>Przesuń w &amp;górę</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="282"/>
+        <location filename="../playlist.cpp" line="287"/>
         <source>Move &amp;down</source>
         <translation>Przesuń w &amp;dół</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="284"/>
+        <location filename="../playlist.cpp" line="289"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Powtarzaj</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="285"/>
+        <location filename="../playlist.cpp" line="290"/>
         <source>S&amp;huffle</source>
         <translation>T&amp;asuj</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="288"/>
+        <location filename="../playlist.cpp" line="295"/>
         <source>Add &amp;current file</source>
         <translation>Dodaj &amp;bieżący plik</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="289"/>
+        <location filename="../playlist.cpp" line="296"/>
         <source>Add &amp;file(s)</source>
         <translation>Dodaj &amp;plik(i)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="290"/>
+        <location filename="../playlist.cpp" line="297"/>
         <source>Add &amp;directory</source>
         <translation>Dodaj &amp;katalog</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="293"/>
+        <location filename="../playlist.cpp" line="300"/>
         <source>Remove &amp;selected</source>
         <translation>Usuń &amp;zaznaczony</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="294"/>
+        <location filename="../playlist.cpp" line="301"/>
         <source>Remove &amp;all</source>
         <translation>Usuń &amp;wszystko</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="307"/>
+        <location filename="../playlist.cpp" line="314"/>
         <source>SMPlayer - Playlist</source>
         <translation>SMPlayer-lista odtwarzania</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="301"/>
+        <location filename="../playlist.cpp" line="308"/>
         <source>Add...</source>
         <translation>Dodaj...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="303"/>
+        <location filename="../playlist.cpp" line="310"/>
         <source>Remove...</source>
         <translation>Usuń...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="708"/>
+        <location filename="../playlist.cpp" line="715"/>
         <source>Playlist modified</source>
         <translation>Lista odtwarzania zmodyfikowana</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="709"/>
+        <location filename="../playlist.cpp" line="716"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Tu są niezapisane zmiany, czy chcesz zapisać listę odtwarzania?</translation>
+    </message>
+    <message>
+        <location filename="../playlist.cpp" line="292"/>
+        <source>&amp;Get info about the files added</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3592,7 +3597,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>ikona</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="117"/>
+        <location filename="../prefinput.cpp" line="125"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>Tutaj możesz zmienić każdy klawisz skrótu. Aby to zrobić kliknij dwa razy w polu klawisza skrótu i przyporządkuj mu klawisz klawiatury. Dodatkowo możesz także zapisać listę aby podzielić się nią z innymi lub wykorzystać na innym komputerze.</translation>
     </message>
@@ -3607,22 +3612,22 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>Funkcje przycisku:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="106"/>
+        <location filename="../prefinput.cpp" line="114"/>
         <source>Media seeking</source>
         <translation>Pasek postępu odtwarzania</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="107"/>
+        <location filename="../prefinput.cpp" line="115"/>
         <source>Volume control</source>
         <translation>Kontrola głośności</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="108"/>
+        <location filename="../prefinput.cpp" line="116"/>
         <source>Zoom video</source>
         <translation>Zoom wideo</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="51"/>
+        <location filename="../prefinput.cpp" line="53"/>
         <source>None</source>
         <translation>Nic</translation>
     </message>
@@ -3647,102 +3652,102 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>&amp;Funkcje kółka:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="215"/>
+        <location filename="../prefinput.cpp" line="223"/>
         <source>Shortcut editor</source>
         <translation>Edytor skrótów klawiszowych</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="224"/>
+        <location filename="../prefinput.cpp" line="232"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>Tabela ta pozwala zmienić klawisz skrótu dla każdej dostępnej funkcji. Kliknij dwa razu lub wciśnij enter na pozycję, lub wybierz &lt;b&gt;Zmień klawisz skrótu&lt;/b&gt; w dialogu &lt;i&gt;Modyfikuj klawisz skrótu&lt;/i&gt;. Istnieją dwie metody zmiany klawisza skrótu: przez funkcję &lt;b&gt;Zrzut&lt;/b&gt; po prostu naciśnij nowy klawisz lub ich kombinację której chcesz przypisać odpowiednią funkcję (niestety nie działa to z wszystkimi klawiszami). Jeśli przycisk &lt;b&gt;Zrzut&lt;/b&gt; jest wyłączony wtedy możesz wpisać pełną nazwę klawisza.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="228"/>
+        <location filename="../prefinput.cpp" line="236"/>
         <source>Left click</source>
         <translation>Lewy przycisk myszki</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="229"/>
+        <location filename="../prefinput.cpp" line="237"/>
         <source>Select the action for left click on the mouse.</source>
         <translation>Wybierz funkcję dla lewego przycisku myszki.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="231"/>
+        <location filename="../prefinput.cpp" line="239"/>
         <source>Double click</source>
         <translation>Dwuklik myszki</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="232"/>
+        <location filename="../prefinput.cpp" line="240"/>
         <source>Select the action for double click on the mouse.</source>
         <translation>Wybierz funkcję dla dwukliku myszki.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="237"/>
+        <location filename="../prefinput.cpp" line="245"/>
         <source>Wheel function</source>
         <translation>Funkcje kółka</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="238"/>
+        <location filename="../prefinput.cpp" line="246"/>
         <source>Select the action for the mouse wheel.</source>
         <translation>Wybierz funkcję dla kółka myszki.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="52"/>
+        <location filename="../prefinput.cpp" line="54"/>
         <source>Play</source>
         <translation>Odtwarzaj</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="54"/>
+        <location filename="../prefinput.cpp" line="56"/>
         <source>Pause</source>
         <translation>Pauza</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="56"/>
+        <location filename="../prefinput.cpp" line="58"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="57"/>
+        <location filename="../prefinput.cpp" line="59"/>
         <source>Fullscreen</source>
         <translation>Pełny ekran</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="58"/>
+        <location filename="../prefinput.cpp" line="60"/>
         <source>Compact</source>
         <translation>Ukryj menu i przyciski</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="59"/>
+        <location filename="../prefinput.cpp" line="61"/>
         <source>Screenshot</source>
         <translation>Zrzut ekranu</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="60"/>
+        <location filename="../prefinput.cpp" line="62"/>
         <source>On top</source>
         <translation>Na wierzchu</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="61"/>
+        <location filename="../prefinput.cpp" line="63"/>
         <source>Mute</source>
         <translation>Wycisz</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="66"/>
+        <location filename="../prefinput.cpp" line="68"/>
         <source>Frame counter</source>
         <translation>Licznik klatek</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="63"/>
+        <location filename="../prefinput.cpp" line="65"/>
         <source>Reset zoom</source>
         <translation>Resetuj zoom</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="64"/>
+        <location filename="../prefinput.cpp" line="66"/>
         <source>Exit fullscreen</source>
         <translation>Wyjdź z pełnego ekranu</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="68"/>
+        <location filename="../prefinput.cpp" line="70"/>
         <source>Double size</source>
         <translation>Podwójny rozmiar</translation>
     </message>
@@ -3752,62 +3757,62 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation type="obsolete">Środkowy &amp;przycisk</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="53"/>
+        <location filename="../prefinput.cpp" line="55"/>
         <source>Play / Pause</source>
         <translation>Odtwarzaj / Pauza</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="55"/>
+        <location filename="../prefinput.cpp" line="57"/>
         <source>Pause / Frame step</source>
         <translation>Pauza / Krok</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="62"/>
+        <location filename="../prefinput.cpp" line="64"/>
         <source>Playlist</source>
         <translation>Lista odtwarzania</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="67"/>
+        <location filename="../prefinput.cpp" line="69"/>
         <source>Preferences</source>
         <translation>Preferencje</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="105"/>
+        <location filename="../prefinput.cpp" line="113"/>
         <source>No function</source>
         <translation>Bez funkcji</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="109"/>
+        <location filename="../prefinput.cpp" line="117"/>
         <source>Change speed</source>
         <translation>Zmień prędkość</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="69"/>
+        <location filename="../prefinput.cpp" line="71"/>
         <source>Show equalizer</source>
         <translation>Pokaż korektor wideo</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="65"/>
+        <location filename="../prefinput.cpp" line="67"/>
         <source>Normal speed</source>
         <translation>Normalna prędkość</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="213"/>
+        <location filename="../prefinput.cpp" line="221"/>
         <source>Keyboard</source>
         <translation>Klawiatura</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="226"/>
+        <location filename="../prefinput.cpp" line="234"/>
         <source>Mouse</source>
         <translation>Myszka</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="234"/>
+        <location filename="../prefinput.cpp" line="242"/>
         <source>Middle click</source>
         <translation>Środkowy przycisk</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="235"/>
+        <location filename="../prefinput.cpp" line="243"/>
         <source>Select the action for middle click on the mouse.</source>
         <translation>Wybierz funkcję dla środkowego przycisku myszki.</translation>
     </message>
