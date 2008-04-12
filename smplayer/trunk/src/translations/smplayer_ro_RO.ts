@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -3772,7 +3773,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="371"/>
         <source>M&amp;iddle click</source>
-        <translation type="unfinished"></translation>
+        <translation>Cl&amp;ic buton mijloc</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="381"/>
