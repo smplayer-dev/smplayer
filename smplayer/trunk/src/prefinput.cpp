@@ -47,6 +47,8 @@ void PrefInput::createMouseCombos() {
 	left_click_combo->clear();
 	double_click_combo->clear();
 	middle_click_combo->clear();
+	xbutton1_click_combo->clear();
+	xbutton2_click_combo->clear();
 
 	left_click_combo->addItem( tr("None"), "" );
 	left_click_combo->addItem( tr("Play"), "play" );
@@ -96,10 +98,16 @@ void PrefInput::retranslateStrings() {
 	int mouse_left = left_click_combo->currentIndex();
 	int mouse_double = double_click_combo->currentIndex();
 	int mouse_middle = middle_click_combo->currentIndex();
+	int mouse_xclick1 = xbutton1_click_combo->currentIndex();
+	int mouse_xclick2 = xbutton2_click_combo->currentIndex();
+
 	createMouseCombos();
+
 	left_click_combo->setCurrentIndex(mouse_left);
 	double_click_combo->setCurrentIndex(mouse_double);
 	middle_click_combo->setCurrentIndex(mouse_middle);
+	xbutton1_click_combo->setCurrentIndex(mouse_xclick1);
+	xbutton2_click_combo->setCurrentIndex(mouse_xclick2);
 
 	wheel_function_combo->clear();
 	wheel_function_combo->addItem( tr("No function"), Preferences::DoNothing );
