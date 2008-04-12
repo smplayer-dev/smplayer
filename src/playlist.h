@@ -186,6 +186,7 @@ protected:
 	MyAction * nextAct;
 	MyAction * repeatAct;
 	MyAction * shuffleAct;
+	MyAction * autoGetInfoAct;
 	MyAction * moveUpAct;
 	MyAction * moveDownAct;
 	MyAction * editAct;
