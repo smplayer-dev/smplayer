@@ -2396,7 +2396,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="292"/>
         <source>&amp;Get info about the files added</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Obtener información sobre los ficheros añadidos</translation>
     </message>
 </context>
 <context>
