@@ -741,7 +741,7 @@ Do you want to overwrite?</source>
         <translation>アスペクト比(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2076"/>
+        <location filename="../basegui.cpp" line="2080"/>
         <source>&amp;None</source>
         <translation>なし(&amp;N)</translation>
     </message>
@@ -991,74 +991,74 @@ Do you want to overwrite?</source>
         <translation>SMPlayer のバージョン情報(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2188"/>
+        <location filename="../basegui.cpp" line="2192"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;空&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2525"/>
+        <location filename="../basegui.cpp" line="2529"/>
         <source>Video</source>
         <translation>ビデオ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2703"/>
+        <location filename="../basegui.cpp" line="2707"/>
         <source>Audio</source>
         <translation>オーディオ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2527"/>
+        <location filename="../basegui.cpp" line="2531"/>
         <source>Playlists</source>
         <translation>プレイリスト</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2704"/>
+        <location filename="../basegui.cpp" line="2708"/>
         <source>All files</source>
         <translation>すべてのファイル</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2701"/>
+        <location filename="../basegui.cpp" line="2705"/>
         <source>Choose a file</source>
         <translation>ファイルの選択</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2575"/>
+        <location filename="../basegui.cpp" line="2579"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - 情報</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2578"/>
+        <location filename="../basegui.cpp" line="2582"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CDROM / DVD ドライブはまだ構成されていません。
 構成ダイアログは今すぐ表示されますので、それができます。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2652"/>
+        <location filename="../basegui.cpp" line="2656"/>
         <source>Choose a directory</source>
         <translation>ディレクトリの選択</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2688"/>
+        <location filename="../basegui.cpp" line="2692"/>
         <source>Subtitles</source>
         <translation>字幕</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2728"/>
+        <location filename="../basegui.cpp" line="2732"/>
         <source>About Qt</source>
         <translation>Qt のバージョン情報</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3064"/>
+        <location filename="../basegui.cpp" line="3084"/>
         <source>Playing %1</source>
         <translation>%1 を再生中</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3065"/>
+        <location filename="../basegui.cpp" line="3085"/>
         <source>Pause</source>
         <translation>一時停止</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3066"/>
+        <location filename="../basegui.cpp" line="3086"/>
         <source>Stop</source>
         <translation>停止</translation>
     </message>
@@ -1368,7 +1368,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>コマンド ライン オプション(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2717"/>
+        <location filename="../basegui.cpp" line="2721"/>
         <source>SMPlayer command line options</source>
         <translation>SMPlayer のコマンド ライン オプション</translation>
     </message>
@@ -1393,32 +1393,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="obsolete">MPlayer は予期せず終了しています。終了コード: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3481"/>
+        <location filename="../basegui.cpp" line="3501"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer は予期せず終了しています。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3482"/>
+        <location filename="../basegui.cpp" line="3502"/>
         <source>Exit code: %1</source>
         <translation>終了コード: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3492"/>
+        <location filename="../basegui.cpp" line="3512"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer が起動に失敗しました。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3493"/>
+        <location filename="../basegui.cpp" line="3513"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>環境設定で MPlayer のパスをチェックしてください。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3495"/>
+        <location filename="../basegui.cpp" line="3515"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer はクラッシュしています。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3496"/>
+        <location filename="../basegui.cpp" line="3516"/>
         <source>See the log for more info.</source>
         <translation>さらなる情報はログをご覧ください。</translation>
     </message>
@@ -3552,12 +3552,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>キーボード(&amp;K)</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="115"/>
+        <location filename="../prefinput.ui" line="317"/>
         <source>icon</source>
         <translation>icon</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="110"/>
+        <location filename="../prefinput.cpp" line="117"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>ここではすべてのショートカットを変更できます。それにはショートカット セルの上でダブル クリックまたは入力を開始します。また任意にその他の人または別のコンピュータでの読み込みおよび共有するのに一覧を保存できます。</translation>
     </message>
@@ -3567,22 +3567,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>マウス(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="151"/>
+        <location filename="../prefinput.ui" line="123"/>
         <source>Button functions:</source>
         <translation>ボタンの機能:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="99"/>
+        <location filename="../prefinput.cpp" line="106"/>
         <source>Media seeking</source>
         <translation>メディア シーク</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="100"/>
+        <location filename="../prefinput.cpp" line="107"/>
         <source>Volume control</source>
         <translation>ボリューム コントロール</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="101"/>
+        <location filename="../prefinput.cpp" line="108"/>
         <source>Zoom video</source>
         <translation>ビデオの拡大と縮小</translation>
     </message>
@@ -3592,57 +3592,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ここではすべてのショートカットを変更できます。それにはショートカット セルの上でダブル クリックまたは enter を押します。また任意にその他の人または別のコンピュータでの読み込みおよび共有するのに一覧を保存できます。</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="223"/>
+        <location filename="../prefinput.ui" line="345"/>
         <source>&amp;Left click</source>
         <translation>左クリック(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="236"/>
+        <location filename="../prefinput.ui" line="358"/>
         <source>&amp;Double click</source>
         <translation>ダブル クリック(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="326"/>
+        <location filename="../prefinput.ui" line="266"/>
         <source>&amp;Wheel function:</source>
         <translation>ホイール機能(&amp;W):</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="184"/>
+        <location filename="../prefinput.cpp" line="215"/>
         <source>Shortcut editor</source>
         <translation>ショートカット エディタ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="193"/>
+        <location filename="../prefinput.cpp" line="224"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>この表は利用可能な動作のキー ショートカットの変更を許可します。&lt;i&gt;ショートカットの変更&lt;/i&gt; ダイアログに入るにはアイテムでダブルクリックするか enter を押すか、&lt;b&gt;ショートカットの変更&lt;/b&gt; ボタンを押します。ショートカットを変更する 2 つの方法があります: &lt;b&gt;キャプチャ&lt;/b&gt; ボタンがオンの場合は次に動作に割り当てしたい新しいキーまたはキーの組み合わせを押します。&lt;b&gt;キャプチャ&lt;/b&gt; ボタンがオフの場合は次にキーのフル ネームを入力できます。</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="197"/>
+        <location filename="../prefinput.cpp" line="228"/>
         <source>Left click</source>
         <translation>左クリック</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="198"/>
+        <location filename="../prefinput.cpp" line="229"/>
         <source>Select the action for left click on the mouse.</source>
         <translation>マウスの左クリックの動作を選択します。</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="200"/>
+        <location filename="../prefinput.cpp" line="231"/>
         <source>Double click</source>
         <translation>ダブル クリック</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="201"/>
+        <location filename="../prefinput.cpp" line="232"/>
         <source>Select the action for double click on the mouse.</source>
         <translation>マウスのダブル クリックの動作を選択します。</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="206"/>
+        <location filename="../prefinput.cpp" line="237"/>
         <source>Wheel function</source>
         <translation>ボタンの機能</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="207"/>
+        <location filename="../prefinput.cpp" line="238"/>
         <source>Select the action for the mouse wheel.</source>
         <translation>マウス ホイールの動作を選択します。</translation>
     </message>
@@ -3709,7 +3709,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="169"/>
         <source>Mi&amp;ddle click</source>
-        <translation>ミドル クリック(&amp;D)</translation>
+        <translation type="obsolete">ミドル クリック(&amp;D)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="53"/>
@@ -3732,12 +3732,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>環境設定</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="98"/>
+        <location filename="../prefinput.cpp" line="105"/>
         <source>No function</source>
         <translation>機能なし</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="102"/>
+        <location filename="../prefinput.cpp" line="109"/>
         <source>Change speed</source>
         <translation>速度の変更</translation>
     </message>
@@ -3752,24 +3752,39 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>通常の速度</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="182"/>
+        <location filename="../prefinput.cpp" line="213"/>
         <source>Keyboard</source>
         <translation>キーボード</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="195"/>
+        <location filename="../prefinput.cpp" line="226"/>
         <source>Mouse</source>
         <translation>マウス</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="203"/>
+        <location filename="../prefinput.cpp" line="234"/>
         <source>Middle click</source>
         <translation>ミドル クリック</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="204"/>
+        <location filename="../prefinput.cpp" line="235"/>
         <source>Select the action for middle click on the mouse.</source>
         <translation>マウスのミドル クリックの動作を選択します。</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.ui" line="371"/>
+        <source>M&amp;iddle click</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.ui" line="381"/>
+        <source>X Button &amp;1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.ui" line="391"/>
+        <source>X Button &amp;2</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
