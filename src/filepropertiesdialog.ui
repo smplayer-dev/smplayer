@@ -460,9 +460,17 @@ Example: resample=44100:0:0,volnorm</string>
  <pixmapfunction>qPixmapFromMimeSource</pixmapfunction>
  <tabstops>
   <tabstop>tabWidget</tabstop>
+  <tabstop>info_edit</tabstop>
+  <tabstop>buttonBox</tabstop>
+  <tabstop>demuxer_listbox</tabstop>
   <tabstop>resetDemuxerButton</tabstop>
+  <tabstop>vc_listbox</tabstop>
   <tabstop>resetVCButton</tabstop>
+  <tabstop>ac_listbox</tabstop>
   <tabstop>resetACButton</tabstop>
+  <tabstop>mplayer_args_edit</tabstop>
+  <tabstop>mplayer_vfilters_edit</tabstop>
+  <tabstop>mplayer_afilters_edit</tabstop>
  </tabstops>
  <resources/>
  <connections>

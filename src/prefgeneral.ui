@@ -992,14 +992,14 @@ For translators: don't translate this text, it will be replaced with another one
  </widget>
  <customwidgets>
   <customwidget>
-   <class>TristateCombo</class>
-   <extends>QComboBox</extends>
-   <header>tristatecombo.h</header>
-  </customwidget>
-  <customwidget>
    <class>MyComboBox</class>
    <extends>QComboBox</extends>
    <header>mycombobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>TristateCombo</class>
+   <extends>QComboBox</extends>
+   <header>tristatecombo.h</header>
   </customwidget>
  </customwidgets>
  <tabstops>
@@ -1017,6 +1017,7 @@ For translators: don't translate this text, it will be replaced with another one
   <tabstop>eq2_check</tabstop>
   <tabstop>postprocessing_check</tabstop>
   <tabstop>autoq_spin</tabstop>
+  <tabstop>deinterlace_combo</tabstop>
   <tabstop>direct_rendering_check</tabstop>
   <tabstop>double_buffer_check</tabstop>
   <tabstop>start_fullscreen_check</tabstop>
