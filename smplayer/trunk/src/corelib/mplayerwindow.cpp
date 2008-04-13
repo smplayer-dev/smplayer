@@ -319,8 +319,12 @@ void MplayerWindow::mouseReleaseEvent( QMouseEvent * e) {
 }
 
 void MplayerWindow::mouseDoubleClickEvent( QMouseEvent * e ) {
-	e->accept();
-	emit doubleClicked();
+	if (e->button() == Qt::LeftButton) {
+		e->accept();
+		emit doubleClicked();
+	} else {
+		e->ignore();
+	}
 }
 
 void MplayerWindow::wheelEvent( QWheelEvent * e ) {
