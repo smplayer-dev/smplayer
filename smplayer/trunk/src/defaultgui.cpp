@@ -580,7 +580,7 @@ void DefaultGui::loadConfig() {
 		int width = set->value( "width", this->width() ).toInt();
 		int height = set->value( "height", this->height() ).toInt();
 
-		if (height < 200) {
+		if ( (height < 200) && (!pref->use_mplayer_window) ) {
 			width = 580;
 			height = 440;
 		}
