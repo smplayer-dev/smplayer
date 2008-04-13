@@ -2394,7 +2394,7 @@ odtwarzania :</translation>
     <message>
         <location filename="../playlist.cpp" line="292"/>
         <source>&amp;Get info about the files added</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pobież info o dodanych plikach</translation>
     </message>
 </context>
 <context>
@@ -3819,47 +3819,47 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinput.ui" line="371"/>
         <source>M&amp;iddle click</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Środkowy przycisk</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="381"/>
         <source>X Button &amp;1</source>
-        <translation type="unfinished"></translation>
+        <translation>X Button &amp;1</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="391"/>
         <source>X Button &amp;2</source>
-        <translation type="unfinished"></translation>
+        <translation>X Button &amp;2</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="59"/>
         <source>Go backward (short)</source>
-        <translation type="unfinished"></translation>
+        <translation>Do tyłu (mało)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="60"/>
         <source>Go backward (medium)</source>
-        <translation type="unfinished"></translation>
+        <translation>Do tyłu (średnio)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="61"/>
         <source>Go backward (long)</source>
-        <translation type="unfinished"></translation>
+        <translation>Do tyłu (dużo)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="62"/>
         <source>Go forward (short)</source>
-        <translation type="unfinished"></translation>
+        <translation>Do przodu (mało)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="63"/>
         <source>Go forward (medium)</source>
-        <translation type="unfinished"></translation>
+        <translation>Do przodu (średnio)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="64"/>
         <source>Go forward (long)</source>
-        <translation type="unfinished"></translation>
+        <translation>Do przodu (dużo)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="70"/>
