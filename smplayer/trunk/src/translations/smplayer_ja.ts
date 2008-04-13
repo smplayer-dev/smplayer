@@ -15,7 +15,7 @@
     <message>
         <location filename="../about.cpp" line="81"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
-        <translation>このプログラムはフリー ソフトウェアです; Free Software Foundation によって発行されている GNU General Public License の条件の下で再配布できます; License のバージョン 2、または (ご選択により) すべてのより後のバージョンのどちらか。</translation>
+        <translation>このプログラムはフリー ソフトウェアです。Free Software Foundation によって発行されている GNU General Public License の version 2、または (オプションで) すべてのより後のバージョンのどちらかの条件の下で再配布できます。</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="88"/>
@@ -489,7 +489,7 @@
         <location filename="../actionseditor.cpp" line="429"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
-        <translation>ファイル %1 がすでに存在します。
+        <translation>ファイル %1 はすでに存在します。
 上書きしますか?</translation>
     </message>
     <message>
@@ -1145,17 +1145,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1199"/>
         <source>&amp;Pan &amp;&amp; scan</source>
-        <translation>パン &amp;&amp; スキャン(&amp;P)</translation>
+        <translation>パン アンド スキャン(&amp;P)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1092"/>
         <source>&amp;Previous line in subtitles</source>
-        <translation>前の字幕のライン(&amp;P)</translation>
+        <translation>字幕の前の行(&amp;P)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1094"/>
         <source>N&amp;ext line in subtitles</source>
-        <translation>次の字幕のライン(&amp;E)</translation>
+        <translation>字幕の次の行(&amp;E)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1313"/>
@@ -1468,7 +1468,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="171"/>
         <source>S&amp;how icon in system tray</source>
-        <translation>システム トレイのアイコンの表示(&amp;H)</translation>
+        <translation>システム トレイにアイコンを表示(&amp;H)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="182"/>
@@ -2144,13 +2144,13 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../logwindow.cpp" line="93"/>
         <source>The file already exists.
 Do you want to overwrite?</source>
-        <translation>ファイルがすでに存在します。
+        <translation>ファイルはすでに存在します。
 上書きしますか?</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="111"/>
         <source>Error saving file</source>
-        <translation>ファイルの保存中のエラー</translation>
+        <translation>ファイルの保存エラー</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="112"/>
@@ -2245,7 +2245,7 @@ Do you want to overwrite?</source>
         <location filename="../playlist.cpp" line="691"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
-        <translation>ファイル %1 がすでに存在します。
+        <translation>ファイル %1 はすでに存在します。
 上書きしますか?</translation>
     </message>
     <message>
@@ -2316,7 +2316,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="295"/>
         <source>Add &amp;current file</source>
-        <translation>現在のファイルの追加(&amp;C)</translation>
+        <translation>現在のファイルを追加(&amp;C)</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="296"/>
@@ -2366,7 +2366,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="292"/>
         <source>&amp;Get info about the files added</source>
-        <translation type="unfinished"></translation>
+        <translation>追加されるファイルについての情報を取得(&amp;G)</translation>
     </message>
 </context>
 <context>
@@ -2485,7 +2485,7 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../prefadvanced.ui" line="493"/>
         <source>SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br&gt;&lt;br&gt;
 The drop-down lists may provide already made regular expression for several languages.</source>
-        <translation>SMPlayer は MPlayer の出力の読み取りおよび構文解析を必要としてときどき英語のテキストを頼りにします。別の言語に翻訳された MPlayer を使用している場合、次に SMPlayer が検索するテキストの変更を必要とします。(技術的には正規表現を入力する必要があります)&lt;br&gt;&lt;br&gt;
+        <translation>SMPlayer は MPlayer の出力の読み取りと構文解析を必要としてときどき英語のテキストを頼りにします。別の言語に翻訳された MPlayer を使用している場合、次に SMPlayer が検索するテキストの変更を必要とします。(技術的には正規表現を入力する必要があります)&lt;br&gt;&lt;br&gt;
 ドロップダウン リストはすでに正規表現を数個の言語用にするのを供給する可能性があります。</translation>
     </message>
     <message>
@@ -2586,7 +2586,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="344"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
-        <translation>MPlayer のログの保存に使用されるパスとファイル名をここに入力します。</translation>
+        <translation>MPlayer のログを保存するのに使用されるパスとファイル名をここに入力します。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="131"/>
@@ -2845,7 +2845,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="459"/>
         <source>Select the mplayer executable</source>
-        <translation>Mplayer の実行ファイルの選択</translation>
+        <translation>mplayer の実行ファイルの選択</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="462"/>
@@ -3496,47 +3496,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="67"/>
         <source>None</source>
-        <translation type="unfinished">なし</translation>
+        <translation>なし</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="68"/>
         <source>Lowpass5</source>
-        <translation type="unfinished"></translation>
+        <translation>Lowpass5</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="69"/>
         <source>Yadif (normal)</source>
-        <translation type="unfinished"></translation>
+        <translation>Yadif (通常)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="70"/>
         <source>Yadif (double framerate)</source>
-        <translation type="unfinished"></translation>
+        <translation>Yadif (ダブル フレームレート)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="71"/>
         <source>Linear Blend</source>
-        <translation type="unfinished"></translation>
+        <translation>リニア ブレンド</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="72"/>
         <source>Kerndeint</source>
-        <translation type="unfinished"></translation>
+        <translation>Kerndeint</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="379"/>
         <source>Dei&amp;nterlace by default:</source>
-        <translation type="unfinished"></translation>
+        <translation>既定でのインターレース解除(&amp;N):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="541"/>
         <source>Deinterlace by default</source>
-        <translation type="unfinished"></translation>
+        <translation>既定でのインターレース解除</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="543"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>開かれる新しいビデオに使用したいインターレース解除フィルタを選択します。</translation>
     </message>
 </context>
 <context>
@@ -3779,47 +3779,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="371"/>
         <source>M&amp;iddle click</source>
-        <translation type="unfinished"></translation>
+        <translation>ミドル クリック(&amp;I)</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="381"/>
         <source>X Button &amp;1</source>
-        <translation type="unfinished"></translation>
+        <translation>X ボタン 1(&amp;1)</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="391"/>
         <source>X Button &amp;2</source>
-        <translation type="unfinished"></translation>
+        <translation>X ボタン 2(&amp;2)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="59"/>
         <source>Go backward (short)</source>
-        <translation type="unfinished"></translation>
+        <translation>戻る (短)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="60"/>
         <source>Go backward (medium)</source>
-        <translation type="unfinished"></translation>
+        <translation>戻る (中)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="61"/>
         <source>Go backward (long)</source>
-        <translation type="unfinished"></translation>
+        <translation>戻る (長)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="62"/>
         <source>Go forward (short)</source>
-        <translation type="unfinished"></translation>
+        <translation>進む (短)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="63"/>
         <source>Go forward (medium)</source>
-        <translation type="unfinished"></translation>
+        <translation>進む (中)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="64"/>
         <source>Go forward (long)</source>
-        <translation type="unfinished"></translation>
+        <translation>進む (長)</translation>
     </message>
 </context>
 <context>
@@ -4435,7 +4435,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="261"/>
         <source>Fast seek to chapters in dvds</source>
-        <translation>Dvd のチャプタへ高速シークする</translation>
+        <translation>dvd のチャプタへ高速シークする</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="71"/>
@@ -4480,7 +4480,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="310"/>
         <source>Fast &amp;seek to chapters in dvds</source>
-        <translation>Dvd のチャプタへ高速シークする(&amp;S)</translation>
+        <translation>dvd のチャプタへ高速シークする(&amp;S)</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="266"/>
@@ -4658,7 +4658,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="263"/>
         <source>Choose a ttf file</source>
-        <translation>Ttf ファイルの選択</translation>
+        <translation>ttf ファイルの選択</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="265"/>
@@ -5249,7 +5249,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="109"/>
         <source>Restores the old associations and cleans up the registry.</source>
-        <translation>古い関連付けを復元してレジストリをクリーン アップします。</translation>
+        <translation>古い関連付けを復元してレジストリをクリーンアップします。</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="160"/>
@@ -5305,7 +5305,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shortcutgetter.cpp" line="276"/>
         <source>Press the key combination you want to assign</source>
-        <translation>指定したいキー コンビネーションを押します</translation>
+        <translation>割り当てたいキーの組み合わせを押します</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="293"/>
