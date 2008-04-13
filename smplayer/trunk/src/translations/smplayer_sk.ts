@@ -3533,7 +3533,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ikona</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="125"/>
+        <location filename="../prefinput.cpp" line="131"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>Zmena klávesových skratiek. V stĺpci skratky dopíšte do vybranej bunky skratku. Môžete uložiť zoznam skratiek do súboru a poslať svojim známym, alebo použiť tento súbor na inom počítači.</translation>
     </message>
@@ -3548,17 +3548,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Funkcie tlačítok:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="114"/>
+        <location filename="../prefinput.cpp" line="120"/>
         <source>Media seeking</source>
         <translation>Stredný posuv</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="115"/>
+        <location filename="../prefinput.cpp" line="121"/>
         <source>Volume control</source>
         <translation>Ovládanie hlasitosti</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="116"/>
+        <location filename="../prefinput.cpp" line="122"/>
         <source>Zoom video</source>
         <translation>Zväčšiť/zmenšiť video</translation>
     </message>
@@ -3588,43 +3588,43 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Funkcia &amp;koliečka:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="223"/>
+        <location filename="../prefinput.cpp" line="229"/>
         <source>Shortcut editor</source>
         <translation>Editor skratiek</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="232"/>
+        <location filename="../prefinput.cpp" line="238"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>Pomocou tejto tabuľky môžete zmeniť klávesovú skratku často používaných akcií. Dvojklik, ENTER alebo talčítko &quot;Zmeniť odkaz...&quot; na vybranej položke otvorí dialóg &quot;Zmeniť skatku&quot;.&lt;br&gt;
  Sú dve možnosti zmeny skratky: ak je stlačené tlačítko &quot;Zachytiť&quot;, tak stlačením požadovanej kombinácie kláves vytvoríte novú skratku. Ak tlačítko &quot;Zachytiť&quot; nie je stlačené, môžete slovne napísať klávesovú skratku.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="236"/>
+        <location filename="../prefinput.cpp" line="242"/>
         <source>Left click</source>
         <translation>Ľavý klik</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="237"/>
+        <location filename="../prefinput.cpp" line="243"/>
         <source>Select the action for left click on the mouse.</source>
         <translation>Vyberte akciu pre kliknutie ľavým tlačítkom myši.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="239"/>
+        <location filename="../prefinput.cpp" line="245"/>
         <source>Double click</source>
         <translation>Dvoj klik</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="240"/>
+        <location filename="../prefinput.cpp" line="246"/>
         <source>Select the action for double click on the mouse.</source>
         <translation>Vyberte akciu pre dvojklik ľavým tlačítkom myši.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="245"/>
+        <location filename="../prefinput.cpp" line="251"/>
         <source>Wheel function</source>
         <translation>Funkcia koliečka</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="246"/>
+        <location filename="../prefinput.cpp" line="252"/>
         <source>Select the action for the mouse wheel.</source>
         <translation>Vyberte akciu pre potočenie koliečkom na myši.</translation>
     </message>
@@ -3644,47 +3644,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Zastav</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="59"/>
+        <location filename="../prefinput.cpp" line="65"/>
         <source>Fullscreen</source>
         <translation>Celá obrazovka</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="60"/>
+        <location filename="../prefinput.cpp" line="66"/>
         <source>Compact</source>
         <translation>Kompaktný mód</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="61"/>
+        <location filename="../prefinput.cpp" line="67"/>
         <source>Screenshot</source>
         <translation>Snímok obrazovky</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="62"/>
+        <location filename="../prefinput.cpp" line="68"/>
         <source>On top</source>
         <translation>Udržiavať navrchu</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="63"/>
+        <location filename="../prefinput.cpp" line="69"/>
         <source>Mute</source>
         <translation>Stíšiť</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="68"/>
+        <location filename="../prefinput.cpp" line="74"/>
         <source>Frame counter</source>
         <translation>Počítadlo obrázkov</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="65"/>
+        <location filename="../prefinput.cpp" line="71"/>
         <source>Reset zoom</source>
         <translation>Reset zoom</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="66"/>
+        <location filename="../prefinput.cpp" line="72"/>
         <source>Exit fullscreen</source>
         <translation>Ukončiť režim celej obrazovky</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="70"/>
+        <location filename="../prefinput.cpp" line="76"/>
         <source>Double size</source>
         <translation>Dvojnásobná veľkosť</translation>
     </message>
@@ -3704,52 +3704,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Pauza / Krokovanie obrazu</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="64"/>
+        <location filename="../prefinput.cpp" line="70"/>
         <source>Playlist</source>
         <translation>Playlist</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="69"/>
+        <location filename="../prefinput.cpp" line="75"/>
         <source>Preferences</source>
         <translation>Nastavenia</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="113"/>
+        <location filename="../prefinput.cpp" line="119"/>
         <source>No function</source>
         <translation>Žiadna funkcia</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="117"/>
+        <location filename="../prefinput.cpp" line="123"/>
         <source>Change speed</source>
         <translation>Zmeniť rýchlosť</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="71"/>
+        <location filename="../prefinput.cpp" line="77"/>
         <source>Show equalizer</source>
         <translation>Zobraziť ekvalizér</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="67"/>
+        <location filename="../prefinput.cpp" line="73"/>
         <source>Normal speed</source>
         <translation>Normálna rýchlosť</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="221"/>
+        <location filename="../prefinput.cpp" line="227"/>
         <source>Keyboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="234"/>
+        <location filename="../prefinput.cpp" line="240"/>
         <source>Mouse</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="242"/>
+        <location filename="../prefinput.cpp" line="248"/>
         <source>Middle click</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="243"/>
+        <location filename="../prefinput.cpp" line="249"/>
         <source>Select the action for middle click on the mouse.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3766,6 +3766,36 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="391"/>
         <source>X Button &amp;2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="59"/>
+        <source>Go backward (short)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="60"/>
+        <source>Go backward (medium)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="61"/>
+        <source>Go backward (long)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="62"/>
+        <source>Go forward (short)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="63"/>
+        <source>Go forward (medium)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="64"/>
+        <source>Go forward (long)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
