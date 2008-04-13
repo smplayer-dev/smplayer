@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -2336,7 +2337,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="292"/>
         <source>&amp;Get info about the files added</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Получить информацию о добавленных файлах</translation>
     </message>
 </context>
 <context>
@@ -3360,47 +3361,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="67"/>
         <source>None</source>
-        <translation type="unfinished">Ничего</translation>
+        <translation>Ничего</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="68"/>
         <source>Lowpass5</source>
-        <translation type="unfinished"></translation>
+        <translation>Lowpass5</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="69"/>
         <source>Yadif (normal)</source>
-        <translation type="unfinished"></translation>
+        <translation>Yadif (обычный)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="70"/>
         <source>Yadif (double framerate)</source>
-        <translation type="unfinished"></translation>
+        <translation>Yadif (2× частота кадров)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="71"/>
         <source>Linear Blend</source>
-        <translation type="unfinished"></translation>
+        <translation>Линейное смешивание</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="72"/>
         <source>Kerndeint</source>
-        <translation type="unfinished"></translation>
+        <translation>Адаптивное (mplayer)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="379"/>
         <source>Dei&amp;nterlace by default:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Удаление &quot;гребёнки&quot; по умолчанию:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="541"/>
         <source>Deinterlace by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Удаление &quot;гребёнки&quot; по умолчанию</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="543"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите фильр деинтерлейсинга (удаление &quot;гребёнки&quot;), который вы хотите использовать для открываемых новых видеофайлов.</translation>
     </message>
 </context>
 <context>
@@ -3643,47 +3644,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="371"/>
         <source>M&amp;iddle click</source>
-        <translation type="unfinished"></translation>
+        <translation>С&amp;редний клик</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="381"/>
         <source>X Button &amp;1</source>
-        <translation type="unfinished"></translation>
+        <translation>Дополнительная кнопка  &amp;1</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="391"/>
         <source>X Button &amp;2</source>
-        <translation type="unfinished"></translation>
+        <translation>Дополнительная кнопка  &amp;2</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="59"/>
         <source>Go backward (short)</source>
-        <translation type="unfinished"></translation>
+        <translation>Назад (малый интервал)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="60"/>
         <source>Go backward (medium)</source>
-        <translation type="unfinished"></translation>
+        <translation>Назад (средний интервал)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="61"/>
         <source>Go backward (long)</source>
-        <translation type="unfinished"></translation>
+        <translation>Назад (длинный интервал)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="62"/>
         <source>Go forward (short)</source>
-        <translation type="unfinished"></translation>
+        <translation>Вперёд (короткий интервал)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="63"/>
         <source>Go forward (medium)</source>
-        <translation type="unfinished"></translation>
+        <translation>Вперёд (средний интервал)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="64"/>
         <source>Go forward (long)</source>
-        <translation type="unfinished"></translation>
+        <translation>Вперёд (длинный интервал)</translation>
     </message>
 </context>
 <context>
@@ -3906,7 +3907,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="151"/>
         <source>Mouse &amp;wheel jump</source>
-        <translation>Интервал &amp;перемотки колесом мыши</translation>
+        <translation>Интервал при перемотке мы&amp;шь</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="522"/>
