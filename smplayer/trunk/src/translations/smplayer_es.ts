@@ -3889,7 +3889,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="70"/>
         <source>OSD - Next level</source>
-        <translation type="unfinished">OSD - Siguiente nivel</translation>
+        <translation>OSD - Siguiente nivel</translation>
     </message>
 </context>
 <context>
