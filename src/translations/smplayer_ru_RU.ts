@@ -2481,7 +2481,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.ui" line="449"/>
         <source>Audio &amp;filters:</source>
-        <translation>Аудио &amp;фильтры:</translation>
+        <translation>&amp;Аудио фильтры:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="217"/>
@@ -2501,7 +2501,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.ui" line="117"/>
         <source>Log &amp;SMPlayer output</source>
-        <translation>Отчёт вывода &amp;SMPlayer</translation>
+        <translation>Отчёт &amp;вывода SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="176"/>
@@ -2531,12 +2531,12 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.ui" line="124"/>
         <source>Log MPlayer &amp;output</source>
-        <translation>Отчёт в&amp;ывода MPlayer</translation>
+        <translation>Отчёт выво&amp;да MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="291"/>
         <source>Options for MP&amp;layer</source>
-        <translation>Настройки MP&amp;layer</translation>
+        <translation>&amp;Настройки MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="336"/>
@@ -2561,7 +2561,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.ui" line="131"/>
         <source>A&amp;utosave MPlayer log to file</source>
-        <translation>Авто&amp;сохраниение отчёта MPlayer в файл</translation>
+        <translation>&amp;Автосохранение отчёта MPlayer в файл</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="366"/>
@@ -2571,7 +2571,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="370"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
-        <translation>Текущий MPlayer не может открыавть имена, содержащие символы вне текущей кодовой таблицы. Выбор этой опции укажет SMPlayer-у передавать MPlayer-у короткие имена файлов, чтобы тот мог открыть их.</translation>
+        <translation>В настоящее время MPlayer не может открывать файлы с именами, содержащими символы вне текущей кодовой таблицы. Выбор этой опции укажет SMPlayer-у передавать MPlayer-у короткие имена файлов, чтобы тот мог открыть их.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="267"/>
@@ -2805,7 +2805,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="29"/>
         <source>&amp;General</source>
-        <translation>&amp;Основное</translation>
+        <translation>&amp;Основные</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="41"/>
@@ -2940,7 +2940,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="624"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Здесь вы можете указать предпочитаемый язык для звуковых дорожек. Если проигрываемый фильм содержит несколько звуковых дорожек, то smplayer будет использовать ту, которая соответствует вашим предпочтениям.&lt;br&gt;Все сказанное верно для тех типов мультимедия, которые содержат информацию о языке звуковых дорожек, таких как DVD или mkv.&lt;br&gt;Также можно использовать регулярные выражения. Например: &lt;b&gt;es|esp|spa&lt;/b&gt; означает, что будет выбрана звуковая дорожка содержащая в названии языка &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Здесь вы можете указать предпочитаемый язык для звуковых дорожек. Если воспроизводимое видео содержит несколько звуковых дорожек, то smplayer будет использовать ту из них, которая соответствует вашим предпочтениям.&lt;br&gt;Все сказанное верно для тех типов данных мультимедиа, которые содержат информацию о языке звуковых дорожек, таких как DVD или mkv.&lt;br&gt;Также можно использовать регулярные выражения. Например: &lt;b&gt;es|esp|spa&lt;/b&gt; означает, что будет выбрана звуковая дорожка содержащая в названии языка &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="626"/>
@@ -2950,7 +2950,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="634"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Здесь вы можете указать предпочитаемый язык для субтитров. Если проигрываемый фильм содержит субтитры на разных языках, то smplayer будет использовать те, которые соответствуют вашим предпочтениям.&lt;br&gt;Все сказанное верно для тех типов мультимедия, которые содержат информацию о языке субтитров, таких как DVD или mkv.&lt;br&gt;Также можно использовать регулярные выражения. Например: &lt;b&gt;es|esp|spa&lt;/b&gt; означает, что будут выбраны субтитры содержащие в названии языка &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Здесь вы можете указать предпочитаемый язык для субтитров. Если проигрываемый фильм содержит субтитры на разных языках, то smplayer будет использовать те из них, которые соответствуют вашим предпочтениям.&lt;br&gt;Все сказанное верно для тех типов данных мультимедиа, которые содержат информацию о языке субтитров, таких как DVD или mkv.&lt;br&gt;Также можно использовать регулярные выражения. Например: &lt;b&gt;es|esp|spa&lt;/b&gt; означает, что будут выбраны субтитры содержащие в названии языка &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="527"/>
@@ -3050,7 +3050,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="255"/>
         <source>&amp;Remember settings for all files (audio track, subtitles...)</source>
-        <translation>&amp;Запоминать настройки всех файлов (звук, субтитры...)</translation>
+        <translation>За&amp;поминать настройки всех файлов (звук, субтитры...)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="793"/>
@@ -3155,7 +3155,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="265"/>
         <source>&amp;Close when finished</source>
-        <translation>&amp;Закрыть по окончании воспроизведения</translation>
+        <translation>Закрыть по &amp;окончании воспроизведения</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="61"/>
@@ -3175,12 +3175,12 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="683"/>
         <source>C&amp;hannels by default:</source>
-        <translation>&amp;Каналы по умолчанию:</translation>
+        <translation>Каналы по &amp;умолчанию:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="272"/>
         <source>&amp;Pause when minimized</source>
-        <translation>&amp;Пауза при минимизации</translation>
+        <translation>Пауза при &amp;минимизации</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="519"/>
@@ -3285,7 +3285,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="875"/>
         <source>Preferred language:</source>
-        <translation>Выбрать предпочтитаемый язык:</translation>
+        <translation>Выбрать предпочитаемый язык:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="773"/>
@@ -3300,7 +3300,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="89"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Здесь вы можете указать предпочитаемый язык для аудио и субтитров. Если проигрываемый фильм содержит субтитры и аудио на разных языках, то smplayer будет использовать те, которые соответствуют вашим предпочтениям.&lt;br&gt;Все сказанное верно для тех типов мультимедия, которые содержат информацию о языке аудиодорожек и субтитров, таких как DVD или mkv.&lt;br&gt;Также можно использовать регулярные выражения. Например: &lt;b&gt;es|esp|spa&lt;/b&gt; означает, что будут выбраны аудиодорожки и субтитры содержащие в названии языка &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Здесь вы можете указать предпочитаемый язык для аудио и субтитров. Если проигрываемый фильм содержит субтитры и аудио на разных языках, то smplayer будет использовать те из них, которые соответствуют вашим предпочтениям.&lt;br&gt;Все сказанное верно для тех типов данных мультимедиа, которые содержат информацию о языке аудиодорожек и субтитров, таких как DVD или mkv.&lt;br&gt;Также можно использовать регулярные выражения. Например: &lt;b&gt;es|esp|spa&lt;/b&gt; означает, что будут выбраны аудиодорожки и субтитры содержащие в названии языка &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="785"/>
@@ -3331,12 +3331,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="656"/>
         <source>Change volume just before p&amp;laying (avoids loud volume on startup)</source>
-        <translation>&amp;Изменять громкость до проирывания (убирает скачок громкости при старте)</translation>
+        <translation>Изменять громкость &amp;до проигрывания (убирает скачок громкости при старте)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="597"/>
         <source>If this option is checked the initial volume will be set by using the &lt;i&gt;-volume&lt;/i&gt; option in MPlayer.&lt;br&gt; &lt;b&gt;WARNING: THE OFFICIAL MPLAYER DOESN&apos;T HAVE THAT &lt;i&gt;-volume&lt;/i&gt; OPTION, YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON&apos;T PLAY ANYTHING.&lt;/b&gt;</source>
-        <translation>Если выбрано, начальная громкость будет установлена с использованием опции MPlayer-а &lt;i&gt;-volume&lt;/i&gt;.&lt;br&gt; &lt;b&gt;ВНИМАНИЕ: Официальный MPlayer не имеет этой опции и должен быть пропатчен, иначе MPlayer не воспроизведёт ничего и &quot;упадёт&quot;.&lt;/b&gt;</translation>
+        <translation>Если выбрано, начальная громкость будет установлена с использованием опции MPlayer &lt;i&gt;-volume&lt;/i&gt;.&lt;br&gt; &lt;b&gt;ВНИМАНИЕ: Официальный MPlayer не имеет этой опции и должен быть соответствующе пропатчен, иначе при выборе этой опции в настройках MPlayer завершится с ошибкой.&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="296"/>
@@ -3346,12 +3346,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="308"/>
         <source>Use s&amp;oftware video equalizer</source>
-        <translation>Использовать &amp;программный видеоэквалайзер</translation>
+        <translation>Использовать программный &amp;видеоэквалайзер</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="449"/>
         <source>A&amp;udio</source>
-        <translation>З&amp;вук</translation>
+        <translation>&amp;Звук</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="461"/>
@@ -3409,7 +3409,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="39"/>
         <source>Keyboard and mouse</source>
-        <translation>Клавиатура и мышь</translation>
+        <translation>Устройства ввода</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="29"/>
@@ -3424,7 +3424,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="131"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Здесь можно изменить горячие клавиши. Чтобы сделать это дважды кликните мышкой, или, нажмите клавишу в необходимой ячейке. Вы можете сохранить список горячих клавишь, чтобы им могли пользоваться другие или использовать его на другом компьютере.</translation>
+        <translation>Здесь можно изменить настройки горячих клавиш. Чтобы сделать это, дважды кликните мышкой или нажмите клавишу в необходимой ячейке. Вы можете сохранить список горячих клавиш, чтобы им могли воспользоваться другие люди или вы сами на другом компьютере.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="95"/>
@@ -3459,7 +3459,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="67"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Здесь можно изменить горячие клавиши. Чтобы сделать это дважды кликнув мышкой, или, нажав клавишу Enter. Вы можете сохранить список горячих клавишь, чтобы им могли пользоваться другие или использовать его на другом компьютере.</translation>
+        <translation>Здесь можно изменить настройки горячих клавиш. Чтобы сделать это, дважды кликните мышкой или нажмите клавишу в необходимой ячейке. Вы можете сохранить список горячих клавиш, чтобы им могли воспользоваться другие люди или вы сами на другом компьютере.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="345"/>
@@ -3474,7 +3474,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="266"/>
         <source>&amp;Wheel function:</source>
-        <translation>Функция &amp;колеса:</translation>
+        <translation>&amp;Функция колеса:</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="229"/>
@@ -3832,7 +3832,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="29"/>
         <source>&amp;Interface</source>
-        <translation>Интерфе&amp;йс</translation>
+        <translation>&amp;Интерфейс</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="446"/>
@@ -4145,12 +4145,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="214"/>
         <source>Performance</source>
-        <translation>Производительность</translation>
+        <translation>Быстродействие</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="29"/>
         <source>&amp;Performance</source>
-        <translation>&amp;Производительность</translation>
+        <translation>&amp;Быстродействие</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="41"/>
@@ -4405,7 +4405,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="391"/>
         <source>Cache for &amp;DVDs:</source>
-        <translation>Кэш &amp;DVD:</translation>
+        <translation>&amp;Кэш DVD:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="411"/>
@@ -4483,7 +4483,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="32"/>
         <source>&amp;Subtitles</source>
-        <translation>Су&amp;бтитры</translation>
+        <translation>&amp;Субтитры</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="44"/>
@@ -4628,7 +4628,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="337"/>
         <source>&amp;TTF font:</source>
-        <translation>TTF &amp;шрифт:</translation>
+        <translation>TTF шри&amp;фт:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="354"/>
