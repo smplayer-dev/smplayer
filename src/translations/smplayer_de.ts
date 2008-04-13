@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
-<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -3596,7 +3595,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>Icon</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="131"/>
+        <location filename="../prefinput.cpp" line="132"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>Hier kann jeder Tastaturkurzbefehl geändert werden. Doppelklick, oder direktes editieren, in dem  Eingabefeld des Tastaturkurzbefehls. Optional kann die Liste zur Weitergabe gespeichert und auf einem anderen Computer weiterverwendet werden.</translation>
     </message>
@@ -3611,17 +3610,17 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>Tasten-Funktion:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="120"/>
+        <location filename="../prefinput.cpp" line="121"/>
         <source>Media seeking</source>
         <translation>Media Positionierung</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="121"/>
+        <location filename="../prefinput.cpp" line="122"/>
         <source>Volume control</source>
         <translation>Kontrolle Lautstärke</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="122"/>
+        <location filename="../prefinput.cpp" line="123"/>
         <source>Zoom video</source>
         <translation>Zoom Video</translation>
     </message>
@@ -3646,42 +3645,42 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>&amp;(Maus) Rad-Funktion:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="229"/>
+        <location filename="../prefinput.cpp" line="230"/>
         <source>Shortcut editor</source>
         <translation>Tastaturkurzbefehl Editor</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="238"/>
+        <location filename="../prefinput.cpp" line="239"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>In dieser Tabelle können die Tastaurkurzbefehle geändert werden. Doppelklick oder Enter auf einem Begriff, oder drücken der &lt;b&gt;Tastaturkurzbefehl ändern&lt;/b&gt; Taste, um in den &lt;i&gt;Tastaurkurzbefehl modifizieren&lt;i&gt; Modus zu gelangen. Es gibt zwei Wege den Kurzbefehl zu änder: Mit der &lt;b&gt; Erfassen&lt;b&gt; Taste und der anschließenden Eingabe durch die Tastatur (leider funktioniert das nicht bei allen Tasten). Ist die&lt;b&gt; Erfassen&lt;b&gt; Taste ohne Funktion, wird die Kombination eingetippt.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="242"/>
+        <location filename="../prefinput.cpp" line="243"/>
         <source>Left click</source>
         <translation>Click links</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="243"/>
+        <location filename="../prefinput.cpp" line="244"/>
         <source>Select the action for left click on the mouse.</source>
         <translation>Auswahl der Aktion, oder links Click mit der Maus.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="245"/>
+        <location filename="../prefinput.cpp" line="246"/>
         <source>Double click</source>
         <translation>Doppel Click</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="246"/>
+        <location filename="../prefinput.cpp" line="247"/>
         <source>Select the action for double click on the mouse.</source>
         <translation>Aktion für Doppel Click der Maus auswählen.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="251"/>
+        <location filename="../prefinput.cpp" line="252"/>
         <source>Wheel function</source>
         <translation>(Maus) Rad-Funktion</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="252"/>
+        <location filename="../prefinput.cpp" line="253"/>
         <source>Select the action for the mouse wheel.</source>
         <translation>Aktion für (Maus) Rad auswählen.</translation>
     </message>
@@ -3726,22 +3725,22 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>Stumm</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="74"/>
+        <location filename="../prefinput.cpp" line="75"/>
         <source>Frame counter</source>
         <translation>Einzelbild Zähler</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="71"/>
+        <location filename="../prefinput.cpp" line="72"/>
         <source>Reset zoom</source>
         <translation>Reset Zoom</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="72"/>
+        <location filename="../prefinput.cpp" line="73"/>
         <source>Exit fullscreen</source>
         <translation>Vollbild beenden</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="76"/>
+        <location filename="../prefinput.cpp" line="77"/>
         <source>Double size</source>
         <translation>Doppelte Größe</translation>
     </message>
@@ -3761,52 +3760,52 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>Pause / Bildlauf</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="70"/>
+        <location filename="../prefinput.cpp" line="71"/>
         <source>Playlist</source>
         <translation>Abspielliste</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="75"/>
+        <location filename="../prefinput.cpp" line="76"/>
         <source>Preferences</source>
         <translation>Einstellungen</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="119"/>
+        <location filename="../prefinput.cpp" line="120"/>
         <source>No function</source>
         <translation>Keine Funktion</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="123"/>
+        <location filename="../prefinput.cpp" line="124"/>
         <source>Change speed</source>
         <translation>Geschwindigkeit ändern</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="77"/>
+        <location filename="../prefinput.cpp" line="78"/>
         <source>Show equalizer</source>
         <translation>Equalizer anzeigen</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="73"/>
+        <location filename="../prefinput.cpp" line="74"/>
         <source>Normal speed</source>
         <translation>Normale Geschwindigkeit</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="227"/>
+        <location filename="../prefinput.cpp" line="228"/>
         <source>Keyboard</source>
         <translation>Tastatur</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="240"/>
+        <location filename="../prefinput.cpp" line="241"/>
         <source>Mouse</source>
         <translation>Maus</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="248"/>
+        <location filename="../prefinput.cpp" line="249"/>
         <source>Middle click</source>
         <translation>Click Mitte</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="249"/>
+        <location filename="../prefinput.cpp" line="250"/>
         <source>Select the action for middle click on the mouse.</source>
         <translation>Auswahl der Mausaktion für Click Mitte.</translation>
     </message>
@@ -3854,6 +3853,11 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <location filename="../prefinput.cpp" line="64"/>
         <source>Go forward (long)</source>
         <translation>Gehe vorwärts (lang)</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="70"/>
+        <source>OSD - Next level</source>
+        <translation type="unfinished">OSD - Nächste Stufe</translation>
     </message>
 </context>
 <context>

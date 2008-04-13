@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
-<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -3422,7 +3421,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>значок</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="131"/>
+        <location filename="../prefinput.cpp" line="132"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>Здесь можно изменить настройки горячих клавиш. Чтобы сделать это, дважды кликните мышкой или нажмите клавишу в необходимой ячейке. Вы можете сохранить список горячих клавиш, чтобы им могли воспользоваться другие люди или вы сами на другом компьютере.</translation>
     </message>
@@ -3437,17 +3436,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Функции кнопки:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="120"/>
+        <location filename="../prefinput.cpp" line="121"/>
         <source>Media seeking</source>
         <translation>Прокрутка</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="121"/>
+        <location filename="../prefinput.cpp" line="122"/>
         <source>Volume control</source>
         <translation>Регулятор громкости</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="122"/>
+        <location filename="../prefinput.cpp" line="123"/>
         <source>Zoom video</source>
         <translation>Зум</translation>
     </message>
@@ -3477,42 +3476,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Функция колеса:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="229"/>
+        <location filename="../prefinput.cpp" line="230"/>
         <source>Shortcut editor</source>
         <translation>Редактор сочетаний клавиш</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="238"/>
+        <location filename="../prefinput.cpp" line="239"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>Эта таблица позволяет изменить сочетания клавиш для различных действий. Двойной клик или нажатие ввода на выбранном пункте или нажатие кнопки &lt;b&gt;Изменить&lt;/b&gt; вызовет диалог &lt;i&gt;Изменить горячую клавишу&lt;/i&gt;. Есть два способа изменить сочетание клавиш: если кнопка &lt;b&gt;Захват&lt;/b&gt; нажата - просто нажать нужную комбинацию клавиш (работает не для всех клавиш). Если кнопка &lt;b&gt;Захват&lt;/b&gt; отжата, можно просто вписать полное название комбинации клавиш.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="242"/>
+        <location filename="../prefinput.cpp" line="243"/>
         <source>Left click</source>
         <translation>Левый клик</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="243"/>
+        <location filename="../prefinput.cpp" line="244"/>
         <source>Select the action for left click on the mouse.</source>
         <translation>Выбрать действие для левого клика мыши.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="245"/>
+        <location filename="../prefinput.cpp" line="246"/>
         <source>Double click</source>
         <translation>Двойной клик</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="246"/>
+        <location filename="../prefinput.cpp" line="247"/>
         <source>Select the action for double click on the mouse.</source>
         <translation>Выбрать действие для двойного клика мыши.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="251"/>
+        <location filename="../prefinput.cpp" line="252"/>
         <source>Wheel function</source>
         <translation>Функция колеса</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="252"/>
+        <location filename="../prefinput.cpp" line="253"/>
         <source>Select the action for the mouse wheel.</source>
         <translation>Выбрать действие для функции колеса.</translation>
     </message>
@@ -3557,22 +3556,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Приглушение</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="74"/>
+        <location filename="../prefinput.cpp" line="75"/>
         <source>Frame counter</source>
         <translation>Счётчик кадров</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="71"/>
+        <location filename="../prefinput.cpp" line="72"/>
         <source>Reset zoom</source>
         <translation>Сбросить увеличение</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="72"/>
+        <location filename="../prefinput.cpp" line="73"/>
         <source>Exit fullscreen</source>
         <translation>Выйти из поноэкранного режима</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="76"/>
+        <location filename="../prefinput.cpp" line="77"/>
         <source>Double size</source>
         <translation>Двойной размер</translation>
     </message>
@@ -3592,52 +3591,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Пауза / Покадровый просмотр</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="70"/>
+        <location filename="../prefinput.cpp" line="71"/>
         <source>Playlist</source>
         <translation>Список</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="75"/>
+        <location filename="../prefinput.cpp" line="76"/>
         <source>Preferences</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="119"/>
+        <location filename="../prefinput.cpp" line="120"/>
         <source>No function</source>
         <translation>Нет функции</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="123"/>
+        <location filename="../prefinput.cpp" line="124"/>
         <source>Change speed</source>
         <translation>Изменить скорость</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="77"/>
+        <location filename="../prefinput.cpp" line="78"/>
         <source>Show equalizer</source>
         <translation>Показать эквалайзер</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="73"/>
+        <location filename="../prefinput.cpp" line="74"/>
         <source>Normal speed</source>
         <translation>Нормальная скорость</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="227"/>
+        <location filename="../prefinput.cpp" line="228"/>
         <source>Keyboard</source>
         <translation>Клавиатура</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="240"/>
+        <location filename="../prefinput.cpp" line="241"/>
         <source>Mouse</source>
         <translation>Мышь</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="248"/>
+        <location filename="../prefinput.cpp" line="249"/>
         <source>Middle click</source>
         <translation>Средний клик</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="249"/>
+        <location filename="../prefinput.cpp" line="250"/>
         <source>Select the action for middle click on the mouse.</source>
         <translation>Выбрать действие для среднего клика мыши.</translation>
     </message>
@@ -3685,6 +3684,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinput.cpp" line="64"/>
         <source>Go forward (long)</source>
         <translation>Вперёд (длинный интервал)</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="70"/>
+        <source>OSD - Next level</source>
+        <translation type="unfinished">OSD - Следующая фраза</translation>
     </message>
 </context>
 <context>

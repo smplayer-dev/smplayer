@@ -3348,17 +3348,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>버튼 기능:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="120"/>
+        <location filename="../prefinput.cpp" line="121"/>
         <source>Media seeking</source>
         <translation>미디어 지점 이동</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="121"/>
+        <location filename="../prefinput.cpp" line="122"/>
         <source>Volume control</source>
         <translation>음량 조절</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="122"/>
+        <location filename="../prefinput.cpp" line="123"/>
         <source>Zoom video</source>
         <translation>영상 확대</translation>
     </message>
@@ -3373,7 +3373,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>단축키를 변경할 수 있습니다. 단축키를 변경하려면, 단축키 칸을 두 번 클릭하거나 엔터 키를 누릅니다. 필요하다면, 다른 사람과 공유하거나 다른 컴퓨터로 옮기기 위해 목록을 파일로 저장할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="131"/>
+        <location filename="../prefinput.cpp" line="132"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>단축키를 변경할 수 있습니다. 단축키를 변경하려면, 단축키 칸을 두 번 클릭하거나 새 단축키를 누릅니다. 필요하다면, 다른 사람과 공유하거나 다른 컴퓨터로 옮기기 위해 목록을 파일로 저장할 수 있습니다.</translation>
     </message>
@@ -3393,42 +3393,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>휠 기능(&amp;W):</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="229"/>
+        <location filename="../prefinput.cpp" line="230"/>
         <source>Shortcut editor</source>
         <translation>단축키 편집기</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="238"/>
+        <location filename="../prefinput.cpp" line="239"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>이 표는 대부분의 동작에 대한 단축키를 지정하게 해줍니다. 두 번 클릭하거나 엔터 키 혹은 &lt;b&gt;단축키 변경&lt;/b&gt; 버튼을 눌러서 &lt;i&gt;단축키 변경&lt;/i&gt; 대화 상자에 진입하십시요. 단축키를 변경하는 방법은 &lt;b&gt;입력&lt;/b&gt; 버튼을 눌러서 변경할 수 있습니다. 버튼이 눌려진 상태에서는 동작에 배정할 새로운 키 혹은 키 조합을 입력하여 단축키를 변경할 수 있습니다 (모든 키에 대해 동작하지는 않습니다). 만약 &lt;b&gt;입력&lt;/b&gt; 버튼이 눌려진 상태가 아니면 키의 전체 이름을 입력하여 단축키를 변경할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="242"/>
+        <location filename="../prefinput.cpp" line="243"/>
         <source>Left click</source>
         <translation>왼쪽 클릭</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="243"/>
+        <location filename="../prefinput.cpp" line="244"/>
         <source>Select the action for left click on the mouse.</source>
         <translation>왼쪽 클릭에 배정할 동작을 선택하십시요.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="245"/>
+        <location filename="../prefinput.cpp" line="246"/>
         <source>Double click</source>
         <translation>두 번 클릭</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="246"/>
+        <location filename="../prefinput.cpp" line="247"/>
         <source>Select the action for double click on the mouse.</source>
         <translation>두 번 클릭에 배정할 동작을 선택하십시요.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="251"/>
+        <location filename="../prefinput.cpp" line="252"/>
         <source>Wheel function</source>
         <translation>휠 기능</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="252"/>
+        <location filename="../prefinput.cpp" line="253"/>
         <source>Select the action for the mouse wheel.</source>
         <translation>마우스의 휠에 배정할 동작을 선택하십시요.</translation>
     </message>
@@ -3473,22 +3473,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>음소거</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="74"/>
+        <location filename="../prefinput.cpp" line="75"/>
         <source>Frame counter</source>
         <translation>프레임 카운터</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="71"/>
+        <location filename="../prefinput.cpp" line="72"/>
         <source>Reset zoom</source>
         <translation>배율 초기화</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="72"/>
+        <location filename="../prefinput.cpp" line="73"/>
         <source>Exit fullscreen</source>
         <translation>전체 화면 나가기</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="76"/>
+        <location filename="../prefinput.cpp" line="77"/>
         <source>Double size</source>
         <translation>보통/2배 크기 전환</translation>
     </message>
@@ -3508,52 +3508,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>일시 정지 / 프레임 스텝</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="70"/>
+        <location filename="../prefinput.cpp" line="71"/>
         <source>Playlist</source>
         <translation>재생 목록</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="75"/>
+        <location filename="../prefinput.cpp" line="76"/>
         <source>Preferences</source>
         <translation>환경 설정</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="119"/>
+        <location filename="../prefinput.cpp" line="120"/>
         <source>No function</source>
         <translation>기능 없음</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="123"/>
+        <location filename="../prefinput.cpp" line="124"/>
         <source>Change speed</source>
         <translation>속도 바꾸기</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="73"/>
+        <location filename="../prefinput.cpp" line="74"/>
         <source>Normal speed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="77"/>
+        <location filename="../prefinput.cpp" line="78"/>
         <source>Show equalizer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="227"/>
+        <location filename="../prefinput.cpp" line="228"/>
         <source>Keyboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="240"/>
+        <location filename="../prefinput.cpp" line="241"/>
         <source>Mouse</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="248"/>
+        <location filename="../prefinput.cpp" line="249"/>
         <source>Middle click</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="249"/>
+        <location filename="../prefinput.cpp" line="250"/>
         <source>Select the action for middle click on the mouse.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3601,6 +3601,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinput.cpp" line="64"/>
         <source>Go forward (long)</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="70"/>
+        <source>OSD - Next level</source>
+        <translation type="unfinished">OSD - 다음</translation>
     </message>
 </context>
 <context>
