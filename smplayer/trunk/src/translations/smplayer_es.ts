@@ -3859,32 +3859,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="59"/>
         <source>Go backward (short)</source>
-        <translation type="unfinished"></translation>
+        <translation>Retroceso corto</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="60"/>
         <source>Go backward (medium)</source>
-        <translation type="unfinished"></translation>
+        <translation>Retroceso medio</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="61"/>
         <source>Go backward (long)</source>
-        <translation type="unfinished"></translation>
+        <translation>Retroceso largo</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="62"/>
         <source>Go forward (short)</source>
-        <translation type="unfinished"></translation>
+        <translation>Avance corto</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="63"/>
         <source>Go forward (medium)</source>
-        <translation type="unfinished"></translation>
+        <translation>Avance medio</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="64"/>
         <source>Go forward (long)</source>
-        <translation type="unfinished"></translation>
+        <translation>Avance largo</translation>
     </message>
 </context>
 <context>
