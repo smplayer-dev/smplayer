@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -2393,7 +2394,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="292"/>
         <source>&amp;Get info about the files added</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hole Informationen über die hinzugefügten Daten</translation>
     </message>
 </context>
 <context>
@@ -3827,32 +3828,32 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinput.cpp" line="59"/>
         <source>Go backward (short)</source>
-        <translation type="unfinished"></translation>
+        <translation>Gehe rückwärts (kurz)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="60"/>
         <source>Go backward (medium)</source>
-        <translation type="unfinished"></translation>
+        <translation>Gehe rückwärts (medium)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="61"/>
         <source>Go backward (long)</source>
-        <translation type="unfinished"></translation>
+        <translation>Gehe rückwärts (lang)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="62"/>
         <source>Go forward (short)</source>
-        <translation type="unfinished"></translation>
+        <translation>Gehe vorwärts (kurz)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="63"/>
         <source>Go forward (medium)</source>
-        <translation type="unfinished"></translation>
+        <translation>Gehe vorwärts (medium)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="64"/>
         <source>Go forward (long)</source>
-        <translation type="unfinished"></translation>
+        <translation>Gehe vorwärts (lang)</translation>
     </message>
 </context>
 <context>
