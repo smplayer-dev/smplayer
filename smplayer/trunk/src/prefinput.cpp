@@ -56,12 +56,12 @@ void PrefInput::createMouseCombos() {
 	left_click_combo->addItem( tr("Pause"), "pause" );
 	left_click_combo->addItem( tr("Pause / Frame step"), "pause_and_frame_step" );
 	left_click_combo->addItem( tr("Stop"), "stop" );
-	left_click_combo->addItem( tr("Rewind (short)"), "rewind1" );
-	left_click_combo->addItem( tr("Rewind (medium)"), "rewind2" );
-	left_click_combo->addItem( tr("Rewind (long)"), "rewind3" );
-	left_click_combo->addItem( tr("Forward (short)"), "forward1" );
-	left_click_combo->addItem( tr("Rorward (medium)"), "forward2" );
-	left_click_combo->addItem( tr("Forward (long)"), "forward3" );
+	left_click_combo->addItem( tr("Go backward (short)"), "rewind1" );
+	left_click_combo->addItem( tr("Go backward (medium)"), "rewind2" );
+	left_click_combo->addItem( tr("Go backward (long)"), "rewind3" );
+	left_click_combo->addItem( tr("Go forward (short)"), "forward1" );
+	left_click_combo->addItem( tr("Go forward (medium)"), "forward2" );
+	left_click_combo->addItem( tr("Go forward (long)"), "forward3" );
 	left_click_combo->addItem( tr("Fullscreen"), "fullscreen" );
 	left_click_combo->addItem( tr("Compact"), "compact" );
 	left_click_combo->addItem( tr("Screenshot"), "screenshot" );

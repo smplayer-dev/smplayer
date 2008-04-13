@@ -4,6 +4,8 @@
  * Now the possibility to get info (length, name) about the files added to
    the playlist can be disabled. It's not in the preferences dialog as usual
    but in the playlist itself, as an option in the "add" menu.
+ * Added the rewind and forward actions to the list of actions available for
+   mouse buttons.
 
 (2008-04-11)
  * Added support for the mouse XButton1 and XButton2. This is untested as
