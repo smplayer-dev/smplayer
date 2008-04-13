@@ -3401,7 +3401,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="543"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
-        <translation>Выберите фильр деинтерлейсинга (удаление &quot;гребёнки&quot;), который вы хотите использовать для открываемых новых видеофайлов.</translation>
+        <translation>Выберите фильтр деинтерлейсинга (удаление &quot;гребёнки&quot;), который вы хотите использовать для открываемых новых видеофайлов.</translation>
     </message>
 </context>
 <context>
