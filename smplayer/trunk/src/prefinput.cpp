@@ -67,6 +67,7 @@ void PrefInput::createMouseCombos() {
 	left_click_combo->addItem( tr("Screenshot"), "screenshot" );
 	left_click_combo->addItem( tr("On top"), "on_top" );
 	left_click_combo->addItem( tr("Mute"), "mute" );
+	left_click_combo->addItem( tr("OSD - Next level"), "next_osd" );
 	left_click_combo->addItem( tr("Playlist"), "show_playlist" );
 	left_click_combo->addItem( tr("Reset zoom"), "reset_zoom" );
 	left_click_combo->addItem( tr("Exit fullscreen"), "exit_fullscreen" );
