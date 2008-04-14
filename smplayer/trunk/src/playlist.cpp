@@ -1213,7 +1213,7 @@ void Playlist::loadSettings() {
 	repeatAct->setChecked( set->value( "repeat", repeatAct->isChecked() ).toBool() );
 	shuffleAct->setChecked( set->value( "shuffle", shuffleAct->isChecked() ).toBool() );
 
-#ifndef Q_OS_WIN
+#ifdef Q_OS_WIN
     // Very slow on Windows, so it's disabled by default
 	const bool auto_get_info_default = false;
 #else
