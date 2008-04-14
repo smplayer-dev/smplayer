@@ -4,7 +4,7 @@ ln -s debian-rvm debian
 cp debian-rvm/changelog-orig debian-rvm/changelog
 
 ./get_svn_revision.sh
-dch -v 0.6.0rc3-`cat svn_revision.txt` "New version"
+#dch -v 0.6.0rc4-`cat svn_revision.txt` "New version"
 
 #dpkg-buildpackage -rfakeroot
 
