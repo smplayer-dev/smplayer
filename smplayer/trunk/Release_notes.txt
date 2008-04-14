@@ -1,3 +1,32 @@
+Version 0.6.0rc4.
+
+Most important changes since 0.6.0rc3:
+
+ * (Bugfix) Now DVDs start to play at chapter #1, instead of chapter #2, 
+   if using mplayer 1.0rc2 or older.
+ * (Fix) A delay could happen on startup if there were non local files in 
+   the recent's menu.
+ * (Bugfix) When using the command line options -send-action or -actions, 
+   some actions like aspect_4:3 didn't work.
+ * Initial support for edl files. If a file with the same name of the file 
+   to play but with extension .edl (or .EDL) exists, then smplayer will load 
+   it automatically. An edl file allows to skip or mute parts of the video.
+ * Possibility to automatically get info (length and name) about the files 
+   added to the playlist. This option is enabled by defaul on linux and
+   disabled on windows (it's slow in this OS).
+ * Added in Preferences->General->Video an option to select the default 
+   deinterlacer.
+ * Added support for the mouse's buttons XButton1 and XButton2.
+ * Some new options have been added to the list of available actions for
+   mouse buttons.
+ * Possibility to merge the 6 seeking buttons in the GUI into only two.
+   It would only show the "rewind 10 secs" and "forward 10 secs" buttons. 
+   Keeping them pressed for a moment would popup menu with the rest of the 
+   buttons. This option is DISABLED by default and currently it can only be 
+   enabled at compile time changing the MINI_ARROW_BUTTONS define in 
+   src/guiconfig.h before compiling.
+
+
 Version 0.6.0rc3.
 
 Most important changes since 0.6.0rc2:
