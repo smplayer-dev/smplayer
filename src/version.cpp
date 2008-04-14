@@ -20,7 +20,7 @@
 
 #define USE_SVN_VERSIONS 0
 
-#define VERSION "0.6.0rc4 (SVN r1119)"
+#define VERSION "0.6.0rc4 (SVN r1120)"
 
 #if USE_SVN_VERSIONS
 #include "svn_revision.h"
