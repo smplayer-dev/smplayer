@@ -53,6 +53,9 @@ protected:
 	void setLeftClickFunction(QString f);
 	QString leftClickFunction();
 
+	void setRightClickFunction(QString f);
+	QString rightClickFunction();
+
 	void setDoubleClickFunction(QString f);
 	QString doubleClickFunction();
 

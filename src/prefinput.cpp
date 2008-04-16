@@ -76,11 +76,15 @@ void PrefInput::createMouseCombos() {
 	left_click_combo->addItem( tr("Preferences"), "show_preferences" );
 	left_click_combo->addItem( tr("Double size"), "toggle_double_size" );
 	left_click_combo->addItem( tr("Show equalizer"), "equalizer" );
+	left_click_combo->addItem( tr("Show context menu"), "show_context_menu" );
 
 	// Copy to other combos
 	for (int n=0; n < left_click_combo->count(); n++) {
 		double_click_combo->addItem( left_click_combo->itemText(n),
                                      left_click_combo->itemData(n) );
+
+		right_click_combo->addItem( left_click_combo->itemText(n),
+                                    left_click_combo->itemData(n) );
 
 		middle_click_combo->addItem( left_click_combo->itemText(n),
                                      left_click_combo->itemData(n) );
@@ -103,6 +107,7 @@ void PrefInput::retranslateStrings() {
 
     // Mouse function combos
 	int mouse_left = left_click_combo->currentIndex();
+	int mouse_right = right_click_combo->currentIndex();
 	int mouse_double = double_click_combo->currentIndex();
 	int mouse_middle = middle_click_combo->currentIndex();
 	int mouse_xclick1 = xbutton1_click_combo->currentIndex();
@@ -111,6 +116,7 @@ void PrefInput::retranslateStrings() {
 	createMouseCombos();
 
 	left_click_combo->setCurrentIndex(mouse_left);
+	right_click_combo->setCurrentIndex(mouse_right);
 	double_click_combo->setCurrentIndex(mouse_double);
 	middle_click_combo->setCurrentIndex(mouse_middle);
 	xbutton1_click_combo->setCurrentIndex(mouse_xclick1);
@@ -137,6 +143,7 @@ void PrefInput::retranslateStrings() {
 
 void PrefInput::setData(Preferences * pref) {
 	setLeftClickFunction( pref->mouse_left_click_function );
+	setRightClickFunction( pref->mouse_right_click_function );
 	setDoubleClickFunction( pref->mouse_double_click_function );
 	setMiddleClickFunction( pref->mouse_middle_click_function );
 	setXButton1ClickFunction( pref->mouse_xbutton1_click_function );
@@ -148,6 +155,7 @@ void PrefInput::getData(Preferences * pref) {
 	requires_restart = false;
 
 	pref->mouse_left_click_function = leftClickFunction();
+	pref->mouse_right_click_function = rightClickFunction();
 	pref->mouse_double_click_function = doubleClickFunction();
 	pref->mouse_middle_click_function = middleClickFunction();
 	pref->mouse_xbutton1_click_function = xButton1ClickFunction();
@@ -170,6 +178,16 @@ void PrefInput::setLeftClickFunction(QString f) {
 
 QString PrefInput::leftClickFunction() {
 	return left_click_combo->itemData( left_click_combo->currentIndex() ).toString();
+}
+
+void PrefInput::setRightClickFunction(QString f) {
+	int pos = right_click_combo->findData(f);
+	if (pos == -1) pos = 0; //None
+	right_click_combo->setCurrentIndex(pos);
+}
+
+QString PrefInput::rightClickFunction() {
+	return right_click_combo->itemData( right_click_combo->currentIndex() ).toString();
 }
 
 void PrefInput::setDoubleClickFunction(QString f) {

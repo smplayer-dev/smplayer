@@ -694,6 +694,10 @@ void BaseGui::createActions() {
 	resetVideoEqualizerAct = new MyAction( this, "reset_video_equalizer");
 	connect( resetVideoEqualizerAct, SIGNAL(triggered()), equalizer, SLOT(reset()) );
 
+	showContextMenuAct = new MyAction( this, "show_context_menu");
+	connect( showContextMenuAct, SIGNAL(triggered()), 
+             this, SLOT(showPopupMenu()) );
+
 	// Group actions
 
 	// OSD
@@ -1154,6 +1158,7 @@ void BaseGui::retranslateStrings() {
 	prevChapterAct->change( tr("Previous chapter") );
 	doubleSizeAct->change( tr("&Toggle double size") );
 	resetVideoEqualizerAct->change( tr("Reset video equalizer") );
+	showContextMenuAct->change( tr("Show context menu") );
 
 	// Action groups
 	osdNoneAct->change( tr("&Disabled") );
@@ -1395,6 +1400,7 @@ void BaseGui::createCore() {
 
 void BaseGui::createMplayerWindow() {
     mplayerwindow = new MplayerWindow( panel );
+	mplayerwindow->setObjectName("mplayerwindow");
 #if USE_COLORKEY
 	mplayerwindow->setColorKey( pref->color_key );
 #endif
@@ -1407,14 +1413,18 @@ void BaseGui::createMplayerWindow() {
 	panel->setLayout(layout);
 
 	// mplayerwindow
+	/*
     connect( mplayerwindow, SIGNAL(rightButtonReleased(QPoint)),
 	         this, SLOT(showPopupMenu(QPoint)) );
+	*/
 
 	// mplayerwindow mouse events
 	connect( mplayerwindow, SIGNAL(doubleClicked()),
              this, SLOT(doubleClickFunction()) );
 	connect( mplayerwindow, SIGNAL(leftClicked()),
              this, SLOT(leftClickFunction()) );
+	connect( mplayerwindow, SIGNAL(rightClicked()),
+             this, SLOT(rightClickFunction()) );
 	connect( mplayerwindow, SIGNAL(middleClicked()),
              this, SLOT(middleClickFunction()) );
 	connect( mplayerwindow, SIGNAL(xbutton1Clicked()),
@@ -2846,6 +2856,14 @@ void BaseGui::leftClickFunction() {
 	}
 }
 
+void BaseGui::rightClickFunction() {
+	qDebug("BaseGui::rightClickFunction");
+
+	if (!pref->mouse_right_click_function.isEmpty()) {
+		processFunction(pref->mouse_right_click_function);
+	}
+}
+
 void BaseGui::doubleClickFunction() {
 	qDebug("BaseGui::doubleClickFunction");
 
@@ -3010,9 +3028,12 @@ void BaseGui::dropEvent( QDropEvent *e ) {
 	}
 }
 
-void BaseGui::showPopupMenu( QPoint p ) {
-	qDebug("BaseGui::showPopupMenu");
+void BaseGui::showPopupMenu() {
+	showPopupMenu(mplayerwindow->mapToGlobal(mouse_last_position));
+}
 
+void BaseGui::showPopupMenu( QPoint p ) {
+	//qDebug("BaseGui::showPopupMenu: %d, %d", p.x(), p.y());
 	popup->move( p );
 	popup->show();
 }
@@ -3371,6 +3392,7 @@ void BaseGui::exitFullscreenIfNeeded() {
 
 void BaseGui::checkMousePos(QPoint p) {
 	//qDebug("BaseGui::checkMousePos: %d, %d", p.x(), p.y());
+	mouse_last_position = p;
 
 	if (!pref->fullscreen) return;
 

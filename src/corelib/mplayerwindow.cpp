@@ -311,7 +311,8 @@ void MplayerWindow::mouseReleaseEvent( QMouseEvent * e) {
 	else
     if (e->button() == Qt::RightButton) {
 		e->accept();
-		emit rightButtonReleased( e->globalPos() );
+		//emit rightButtonReleased( e->globalPos() );
+		emit rightClicked();
     } 
 	else {
 		e->ignore();
