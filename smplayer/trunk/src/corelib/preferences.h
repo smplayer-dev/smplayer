@@ -179,6 +179,7 @@ public:
 
 	// Function of mouse buttons:
 	QString mouse_left_click_function;
+	QString mouse_right_click_function;
 	QString mouse_double_click_function;
 	QString mouse_middle_click_function;
 	QString mouse_xbutton1_click_function;

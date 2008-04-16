@@ -173,6 +173,7 @@ void Preferences::reset() {
 	connection_port = 8000;
 
 	mouse_left_click_function = "";
+	mouse_right_click_function = "show_context_menu";
 	mouse_double_click_function = "fullscreen";
 	mouse_middle_click_function = "mute";
 	mouse_xbutton1_click_function = "";
@@ -396,6 +397,7 @@ void Preferences::save() {
 	set->setValue("connection_port", connection_port);
 
 	set->setValue("mouse_left_click_function", mouse_left_click_function);
+	set->setValue("mouse_right_click_function", mouse_right_click_function);
 	set->setValue("mouse_double_click_function", mouse_double_click_function);
 	set->setValue("mouse_middle_click_function", mouse_middle_click_function);
 	set->setValue("mouse_xbutton1_click_function", mouse_xbutton1_click_function);
@@ -620,6 +622,7 @@ void Preferences::load() {
 	connection_port = set->value("connection_port", connection_port).toInt();
 
 	mouse_left_click_function = set->value("mouse_left_click_function", mouse_left_click_function).toString();
+	mouse_right_click_function = set->value("mouse_right_click_function", mouse_right_click_function).toString();
 	mouse_double_click_function = set->value("mouse_double_click_function", mouse_double_click_function).toString();
 	mouse_middle_click_function = set->value("mouse_middle_click_function", mouse_middle_click_function).toString();
 	mouse_xbutton1_click_function = set->value("mouse_xbutton1_click_function", mouse_xbutton1_click_function).toString();

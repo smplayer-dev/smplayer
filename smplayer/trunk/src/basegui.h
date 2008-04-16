@@ -153,14 +153,15 @@ protected slots:
 	//! You can call this slot to jump to the specified percentage in the video, while dragging the slider.
 	virtual void goToPosOnDragging(int);
 
+	virtual void showPopupMenu();
 	virtual void showPopupMenu( QPoint p );
 	/*
 	virtual void mouseReleaseEvent( QMouseEvent * e );
 	virtual void mouseDoubleClickEvent( QMouseEvent * e );
 	*/
-	virtual void wheelEvent( QWheelEvent * e ) ;
 
 	virtual void leftClickFunction();
+	virtual void rightClickFunction();
 	virtual void doubleClickFunction();
 	virtual void middleClickFunction();
 	virtual void xbutton1ClickFunction();
@@ -263,6 +264,9 @@ protected:
 	void updateRecents();
 	void configureDiscDevices();
 	/* virtual void closeEvent( QCloseEvent * e ); */
+
+protected:
+	virtual void wheelEvent( QWheelEvent * e ) ;
 
 protected:
 	QWidget * panel;
@@ -388,6 +392,7 @@ protected:
 	MyAction * prevChapterAct;
 	MyAction * doubleSizeAct;
 	MyAction * resetVideoEqualizerAct;
+	MyAction * showContextMenuAct;
 
 	// Moving and zoom
 	MyAction * moveUpAct;
@@ -548,6 +553,8 @@ private:
 	/* Disable screensaver by event */
 	bool just_stopped;
 #endif
+
+	QPoint mouse_last_position;
 };
     
 #endif

@@ -163,9 +163,10 @@ protected slots:
 	virtual void translatePos(QPoint p );
 
 signals:
-    void rightButtonReleased( QPoint p );
+    //void rightButtonReleased( QPoint p );
 	void doubleClicked();
 	void leftClicked();
+	void rightClicked();
 	void middleClicked();
 	void xbutton1Clicked(); // first X button
 	void xbutton2Clicked(); // second X button
