@@ -151,7 +151,7 @@ QString About::getTranslators() {
          trad(tr("Swedish"), "Leif Larsson &lt;leif.larsson@gmail.com&gt;") +
          trad(tr("Serbian"), "Kunalagon Umuhanik &lt;kunalagon@gmail.com&gt;") + 
          trad(tr("Traditional Chinese"), "Hoopoe &lt;dai715.tw@yahoo.com.tw&gt;") + 
-         trad(tr("Romanian"), "DoruH &lt;doruhushhush@hotmail.com&gt;") + 
+         trad(tr("Romanian"), "DoruH &lt;DoruHushHush@gmail.com&gt;") + 
          trad(tr("Portuguese - Portugal"), "Waxman &lt;waxman.pt@gmail.com&gt;") +
 		 trad(tr("Greek"), "my80s &lt;wamy80s@gmail.com&gt;") +
 		 trad(tr("Finnish"), "peeaivo &lt;peeaivo@gmail.com&gt;") +
