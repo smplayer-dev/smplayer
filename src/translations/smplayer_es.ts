@@ -1490,7 +1490,7 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="1161"/>
         <source>Show context menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar menú contextual</translation>
     </message>
 </context>
 <context>
@@ -3899,12 +3899,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="79"/>
         <source>Show context menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar menú contextual</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="401"/>
         <source>&amp;Right click</source>
-        <translation type="unfinished"></translation>
+        <translation>Botón de&amp;recho</translation>
     </message>
 </context>
 <context>
