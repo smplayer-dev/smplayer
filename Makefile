@@ -18,7 +18,7 @@ KDE_PREFIX=$(PREFIX)
 KDE_ICONS=$(KDE_PREFIX)/share/icons/hicolor/
 KDE_APPLNK=$(KDE_PREFIX)/share/applications/
 
-QMAKE=qmake-qt4
+QMAKE=qmake
 LRELEASE=lrelease
 
 DEFS=DATA_PATH=\\\"$(DATA_PATH)\\\" CONF_PATH=\\\"$(CONF_PATH)\\\" \
