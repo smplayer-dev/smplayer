@@ -458,6 +458,7 @@
   <tabstop>input_tab</tabstop>
   <tabstop>left_click_combo</tabstop>
   <tabstop>double_click_combo</tabstop>
+  <tabstop>right_click_combo</tabstop>
   <tabstop>middle_click_combo</tabstop>
   <tabstop>xbutton1_click_combo</tabstop>
   <tabstop>xbutton2_click_combo</tabstop>
