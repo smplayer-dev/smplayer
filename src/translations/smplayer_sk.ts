@@ -1456,22 +1456,22 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="150"/>
+        <location filename="../baseguiplus.cpp" line="151"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer je stále spustený</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="171"/>
+        <location filename="../baseguiplus.cpp" line="172"/>
         <source>S&amp;how icon in system tray</source>
         <translation>Zobraziť ikonu v &amp;systémovej lište</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="182"/>
+        <location filename="../baseguiplus.cpp" line="183"/>
         <source>&amp;Hide</source>
         <translation>&amp;Skryť</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="184"/>
+        <location filename="../baseguiplus.cpp" line="185"/>
         <source>&amp;Restore</source>
         <translation>&amp;Obnoviť</translation>
     </message>
@@ -1481,12 +1481,12 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <translation type="obsolete">&amp;Naposledy otvorené súbory</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="170"/>
+        <location filename="../baseguiplus.cpp" line="171"/>
         <source>&amp;Quit</source>
         <translation>&amp;Koniec</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="176"/>
+        <location filename="../baseguiplus.cpp" line="177"/>
         <source>Playlist</source>
         <translation>Playlist</translation>
     </message>

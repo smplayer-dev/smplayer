@@ -1444,22 +1444,22 @@ Bude zobrazeno konfigurační okno.</translation>
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="150"/>
+        <location filename="../baseguiplus.cpp" line="151"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer zde stále běží</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="171"/>
+        <location filename="../baseguiplus.cpp" line="172"/>
         <source>S&amp;how icon in system tray</source>
         <translation>Z&amp;obrazit ikonu v systémové liště</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="182"/>
+        <location filename="../baseguiplus.cpp" line="183"/>
         <source>&amp;Hide</source>
         <translation>&amp;Skrýt</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="184"/>
+        <location filename="../baseguiplus.cpp" line="185"/>
         <source>&amp;Restore</source>
         <translation>&amp;Obnovit</translation>
     </message>
@@ -1469,12 +1469,12 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation type="obsolete">&amp;Naposledy otevřené</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="170"/>
+        <location filename="../baseguiplus.cpp" line="171"/>
         <source>&amp;Quit</source>
         <translation>&amp;Konec</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="176"/>
+        <location filename="../baseguiplus.cpp" line="177"/>
         <source>Playlist</source>
         <translation>Seznam</translation>
     </message>

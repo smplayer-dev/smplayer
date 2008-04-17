@@ -1419,22 +1419,22 @@ O diálogo de configuração será aberto agora, e você poderá faze-lo.</trans
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="150"/>
+        <location filename="../baseguiplus.cpp" line="151"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer continua sendo executado aqui</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="171"/>
+        <location filename="../baseguiplus.cpp" line="172"/>
         <source>S&amp;how icon in system tray</source>
         <translation>&amp;Mostrar icone ao painel do sistema</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="182"/>
+        <location filename="../baseguiplus.cpp" line="183"/>
         <source>&amp;Hide</source>
         <translation>&amp;Esconder</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="184"/>
+        <location filename="../baseguiplus.cpp" line="185"/>
         <source>&amp;Restore</source>
         <translation>&amp;Restaurar</translation>
     </message>
@@ -1444,12 +1444,12 @@ O diálogo de configuração será aberto agora, e você poderá faze-lo.</trans
         <translation type="obsolete">&amp;Arquivo recente</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="170"/>
+        <location filename="../baseguiplus.cpp" line="171"/>
         <source>&amp;Quit</source>
         <translation>&amp;Sair</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="176"/>
+        <location filename="../baseguiplus.cpp" line="177"/>
         <source>Playlist</source>
         <translation type="unfinished">Lista de Reprodução</translation>
     </message>
