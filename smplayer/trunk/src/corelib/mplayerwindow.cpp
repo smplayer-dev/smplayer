@@ -94,8 +94,6 @@ void Screen::mouseMoveEvent( QMouseEvent * e ) {
 		//qDebug(" showing mouse cursor" );
 		setCursor(QCursor(Qt::ArrowCursor));
 	}
-
-	emit mouseMoved( e->pos() );
 }
 
 /* ---------------------------------------------------------------------- */
@@ -163,8 +161,9 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	setSizePolicy( QSizePolicy::Expanding , QSizePolicy::Expanding );
 	setFocusPolicy( Qt::StrongFocus );
 
-	connect( mplayerlayer, SIGNAL(mouseMoved(QPoint)),
-             this, SLOT(translatePos(QPoint)) );
+	installEventFilter(this);
+	mplayerlayer->installEventFilter(this);
+	//logo->installEventFilter(this);
 
 	retranslateStrings();
 }
@@ -338,6 +337,23 @@ void MplayerWindow::wheelEvent( QWheelEvent * e ) {
         emit wheelDown();
 }
 
+bool MplayerWindow::eventFilter( QObject * /*watched*/, QEvent * event ) {
+	//qDebug("MplayerWindow::eventFilter");
+
+	if ( (event->type() == QEvent::MouseMove) || 
+         (event->type() == QEvent::MouseButtonRelease) ) 
+	{
+		QMouseEvent *mouse_event = static_cast<QMouseEvent *>(event);
+		mouse_position = mouse_event->pos();
+		//qDebug("pos: %d %d", mouse_position.x(), mouse_position.y());
+
+		if (event->type() == QEvent::MouseMove) {
+			emit mouseMoved(mouse_event->pos());
+		}
+	}
+
+	return false;
+}
 
 QSize MplayerWindow::sizeHint() const {
 	//qDebug("MplayerWindow::sizeHint");
@@ -346,14 +362,6 @@ QSize MplayerWindow::sizeHint() const {
 
 QSize MplayerWindow::minimumSizeHint () const {
 	return QSize(0,0);
-}
-
-
-void MplayerWindow::translatePos(QPoint p ) {
-	int x = p.x() + mplayerlayer->x();
-	int y = p.y() + mplayerlayer->y();
-
-	emit mouseMoved( QPoint(x,y) );
 }
 
 void MplayerWindow::setOffsetX( int d) {

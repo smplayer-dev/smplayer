@@ -3029,7 +3029,7 @@ void BaseGui::dropEvent( QDropEvent *e ) {
 }
 
 void BaseGui::showPopupMenu() {
-	showPopupMenu(mplayerwindow->mapToGlobal(mouse_last_position));
+	showPopupMenu(mplayerwindow->mapToGlobal(mplayerwindow->mousePosition()));
 }
 
 void BaseGui::showPopupMenu( QPoint p ) {
@@ -3392,7 +3392,6 @@ void BaseGui::exitFullscreenIfNeeded() {
 
 void BaseGui::checkMousePos(QPoint p) {
 	//qDebug("BaseGui::checkMousePos: %d, %d", p.x(), p.y());
-	mouse_last_position = p;
 
 	if (!pref->fullscreen) return;
 

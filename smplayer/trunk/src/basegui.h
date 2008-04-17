@@ -554,7 +554,6 @@ private:
 	bool just_stopped;
 #endif
 
-	QPoint mouse_last_position;
 };
     
 #endif
