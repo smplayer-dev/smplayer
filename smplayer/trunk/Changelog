@@ -2,6 +2,9 @@
 
 (2008-04-17)
  * Updated the Italian and Polish translations.
+ * (Bugfix) If the option to start videos in fullscreen is activated, now
+   fullscreen mode will be entered only when the video is opened, and not for
+   instance when you unpause the video.
 
 (2008-04-16)
  * Now the mouse right click button can be configured. By default it will

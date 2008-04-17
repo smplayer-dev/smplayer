@@ -755,6 +755,7 @@ void Core::finishRestart() {
 
 	if (!we_are_restarting) {
 		newMediaPlaying();
+		emit mediaStartPlay();
 	} 
 
 	if (we_are_restarting) {
@@ -2387,7 +2388,7 @@ void Core::changeCurrentSec(double sec) {
 	if (state() != Playing) {
 		setState(Playing);
 		qDebug("mplayer reports that now it's playing");
-		emit mediaStartPlay();
+		//emit mediaStartPlay();
 		//emit stateChanged(state());
 	}
 
