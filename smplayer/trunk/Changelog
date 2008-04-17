@@ -1,5 +1,8 @@
 [b]Version 0.6.0rc5[/b]:
 
+(2008-04-17)
+ * Updated the Italian translation.
+
 (2008-04-16)
  * Now the mouse right click button can be configured. By default it will
    show the context menu. The context menu can also be assigned to another

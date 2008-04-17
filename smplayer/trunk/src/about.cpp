@@ -129,7 +129,7 @@ QString About::getTranslators() {
          "<ul>" +
          trad(tr("German"), "Henrikx") + 
 		 trad(tr("Slovak"), "Sweto &lt;peter.mendel@gmail.com&gt;") +
-		 trad(tr("Italian"), "Giancarlo Scola &lt;giancarlo@codexcoop.it&gt;") +
+		 trad(tr("Italian"), "Giancarlo Scola &lt;scola.giancarlo@libero.it&gt;") +
          trad(tr("French"), tr("%1, %2 and %3")
 			.arg("Olivier g &lt;1got@caramail.com&gt;")
 			.arg("Temet &lt;goondy@free.fr&gt;")
