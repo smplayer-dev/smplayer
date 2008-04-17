@@ -71,6 +71,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags )
 	context_menu->addSeparator();
 	context_menu->addAction(openFileAct);
 	context_menu->addMenu(recentfiles_menu);
+	context_menu->addAction(openDirectoryAct);
 	context_menu->addAction(openDVDAct);
 	context_menu->addAction(openURLAct);
 	context_menu->addSeparator();
