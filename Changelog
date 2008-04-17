@@ -5,6 +5,8 @@
  * (Bugfix) If the option to start videos in fullscreen is activated, now
    fullscreen mode will be entered only when the video is opened, and not for
    instance when you unpause the video.
+ * (Windows) Added the exit fullscreen and close actions to the floating
+   control widget, so their key shortcuts can work in the floating control.
 
 (2008-04-16)
  * Now the mouse right click button can be configured. By default it will

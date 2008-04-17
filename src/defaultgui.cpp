@@ -322,6 +322,12 @@ void DefaultGui::createFloatingControl() {
 	floating_control->toolbar()->addSeparator();
 	floating_control->toolbar()->addAction(time_label_action);
 
+#ifdef Q_OS_WIN
+	// To make work the ESC key (exit fullscreen) and Ctrl-X (close) in Windows
+	floating_control->addAction(exitFullscreenAct);
+	floating_control->addAction(exitAct);
+#endif
+
 	floating_control->adjustSize();
 }
 
