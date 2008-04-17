@@ -58,9 +58,6 @@ public:
 	Screen(QWidget* parent = 0, Qt::WindowFlags f = 0);
 	~Screen();
 
-signals:
-	void mouseMoved(QPoint);
-
 protected:
 	virtual void mouseMoveEvent( QMouseEvent * e );
 	virtual void paintEvent ( QPaintEvent * e );
@@ -138,8 +135,12 @@ public:
 	void allowVideoMovement(bool b) { allow_video_movement = b; };
 	bool isVideoMovementAllowed() { return allow_video_movement; };
 
+	QPoint mousePosition() { return mouse_position; };
+
 	virtual QSize sizeHint () const;
 	virtual QSize minimumSizeHint() const;
+
+	virtual bool eventFilter( QObject * watched, QEvent * event );
 
 public slots:
 	void moveLeft();
@@ -159,9 +160,6 @@ protected:
 	virtual void wheelEvent( QWheelEvent * e );
 	void moveLayer( int offset_x, int offset_y );
 
-protected slots:
-	virtual void translatePos(QPoint p );
-
 signals:
     //void rightButtonReleased( QPoint p );
 	void doubleClicked();
@@ -173,6 +171,7 @@ signals:
 	void keyPressed(QKeyEvent * e);
 	void wheelUp();
 	void wheelDown();
+	void mouseMoved(QPoint);
 
 protected:
     int video_width, video_height;
@@ -192,6 +191,8 @@ protected:
 	int orig_width, orig_height;
 
 	bool allow_video_movement;
+
+	QPoint mouse_position;
 };
 
 
