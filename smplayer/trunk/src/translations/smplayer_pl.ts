@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1486,7 +1487,7 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../basegui.cpp" line="1161"/>
         <source>Show context menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokaż menu kontekstowe</translation>
     </message>
 </context>
 <context>
@@ -3869,17 +3870,17 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinput.cpp" line="70"/>
         <source>OSD - Next level</source>
-        <translation type="unfinished">OSD-następny poziom</translation>
+        <translation>OSD-następny poziom</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="79"/>
         <source>Show context menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokaż menu kontekstowe</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="401"/>
         <source>&amp;Right click</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Prawy przycisk</translation>
     </message>
 </context>
 <context>
