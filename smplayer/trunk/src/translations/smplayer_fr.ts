@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1465,7 +1466,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="1161"/>
         <source>Show context menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Montrer le menu contexte</translation>
     </message>
 </context>
 <context>
@@ -3846,12 +3847,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="79"/>
         <source>Show context menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Montrer le menu contexte</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="401"/>
         <source>&amp;Right click</source>
-        <translation type="unfinished"></translation>
+        <translation>Clic d&amp;roit</translation>
     </message>
 </context>
 <context>
