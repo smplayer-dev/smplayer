@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -3832,12 +3833,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="79"/>
         <source>Show context menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Afișare meniu contextual</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="401"/>
         <source>&amp;Right click</source>
-        <translation type="unfinished"></translation>
+        <translation>Clic d&amp;reapta maus</translation>
     </message>
 </context>
 <context>
