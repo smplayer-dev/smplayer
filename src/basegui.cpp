@@ -2408,7 +2408,7 @@ void BaseGui::openRecent() {
 		if (pref->auto_add_to_playlist) {
 			if (playlist->maybeSave()) {
 				playlist->clear();
-				playlist->addFile(file, false); // Don't get info
+				playlist->addFile(file, Playlist::NoGetInfo);
 
 				open( file );
 			}
@@ -2454,7 +2454,7 @@ void BaseGui::openFiles(QStringList files) {
 		if (pref->auto_add_to_playlist) {
 			if (playlist->maybeSave()) {
 				playlist->clear();
-				playlist->addFile(files[0], false); // Don't get info
+				playlist->addFile(files[0], Playlist::NoGetInfo);
 
 				open(files[0]);
 			}
@@ -2519,7 +2519,7 @@ void BaseGui::openURL(QString url) {
 				core->openStream(url);
 
 				playlist->clear();
-				playlist->addFile(url, false); // Don't get info
+				playlist->addFile(url, Playlist::NoGetInfo);
 			}
 		} else {
 			core->openStream(url);
@@ -2576,7 +2576,7 @@ void BaseGui::openFile(QString file) {
 					core->openFile(file);
 
 					playlist->clear();
-					playlist->addFile(file, false); // Don't get info
+					playlist->addFile(file, Playlist::NoGetInfo);
 				}
 			} else {
 				core->openFile(file);
@@ -3009,7 +3009,7 @@ void BaseGui::dropEvent( QDropEvent *e ) {
 				if (pref->auto_add_to_playlist) {
 					if (playlist->maybeSave()) {
 						playlist->clear();
-						playlist->addFile(files[0], false); // Don't get info
+						playlist->addFile(files[0], Playlist::NoGetInfo);
 
 						open( files[0] );
 					}

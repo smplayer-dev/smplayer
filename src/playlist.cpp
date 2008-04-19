@@ -875,18 +875,15 @@ void Playlist::addFiles() {
 	if (files.count()!=0) addFiles(files);  
 }
 
-void Playlist::addFiles(QStringList files) {
-#if USE_INFOPROVIDER
-	addFiles(files, autoGetInfoAct->isChecked());
-#else
-	addFiles(files, false);
-#endif
-}
-
-void Playlist::addFiles(QStringList files, bool auto_get_info) {
+void Playlist::addFiles(QStringList files, AutoGetInfo auto_get_info) {
 	qDebug("Playlist::addFiles");
 
 #if USE_INFOPROVIDER
+	bool get_info = (auto_get_info == GetInfo);
+	if (auto_get_info == UserDefined) {
+		get_info = autoGetInfoAct->isChecked();
+	}
+
 	MediaData data;
 	setCursor(Qt::WaitCursor);
 #endif
@@ -894,7 +891,7 @@ void Playlist::addFiles(QStringList files, bool auto_get_info) {
     QStringList::Iterator it = files.begin();
     while( it != files.end() ) {
 #if USE_INFOPROVIDER
-		if ( (auto_get_info) && (QFile::exists((*it))) ) {
+		if ( (get_info) && (QFile::exists((*it))) ) {
 			data = InfoProvider::getInfo( (*it) );
 			addItem( (*it), data.displayName(), data.duration );
 			updateView();
@@ -919,12 +916,8 @@ void Playlist::addFiles(QStringList files, bool auto_get_info) {
 	qDebug( " * latest_dir: '%s'", latest_dir.toUtf8().data() );
 }
 
-void Playlist::addFile(QString file, bool auto_get_info) {
+void Playlist::addFile(QString file, AutoGetInfo auto_get_info) {
 	addFiles( QStringList() << file, auto_get_info );
-}
-
-void Playlist::addFile(QString file) {
-	addFiles( QStringList() << file );
 }
 
 void Playlist::addDirectory() {
