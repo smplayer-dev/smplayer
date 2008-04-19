@@ -1,5 +1,10 @@
 [b]Version 0.6.0rc5[/b]:
 
+(2008-04-18)
+ * (Windows) Applied a patch by "hackykid" to fix a link error when compiling with
+   Visual Studio.
+   http://sourceforge.net/tracker/index.php?func=detail&aid=1924296&group_id=185512&atid=913575
+
 (2008-04-17)
  * Updated the Italian and Polish translations.
  * (Bugfix) If the option to start videos in fullscreen is activated, now

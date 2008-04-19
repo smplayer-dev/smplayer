@@ -203,7 +203,11 @@ win32 {
 	SOURCES += 	prefassociations.cpp winfileassoc.cpp corelib/screensaver.cpp
 	FORMS += prefassociations.ui
 
-	LIBS += libole32
+	contains(TEMPLATE,vcapp) {
+		LIBS += ole32.lib user32.lib
+	} else {
+		LIBS += libole32
+	}
 	
 	RC_FILE = smplayer.rc
 	DEFINES += NO_DEBUG_ON_CONSOLE
