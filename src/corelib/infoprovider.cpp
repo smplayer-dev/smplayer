@@ -23,6 +23,8 @@
 #include <QFileInfo>
 
 MediaData InfoProvider::getInfo(QString mplayer_bin, QString filename) {
+	qDebug("InfoProvider::getInfo: %s", filename.toUtf8().data());
+
 	MplayerProcess proc;
 
 	QFileInfo fi(mplayer_bin);
@@ -34,6 +36,10 @@ MediaData InfoProvider::getInfo(QString mplayer_bin, QString filename) {
 	proc.addArgument("-identify");
 	proc.addArgument("-frames");
 	proc.addArgument("0");
+	proc.addArgument("-vo");
+	proc.addArgument("null");
+	proc.addArgument("-ao");
+	proc.addArgument("null");
 	proc.addArgument(filename);
 
 	proc.start();
