@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1440,7 +1441,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1161"/>
         <source>Show context menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Показать контестное меню</translation>
     </message>
 </context>
 <context>
@@ -3468,7 +3469,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="289"/>
         <source>&amp;Left click</source>
-        <translation>Щелчок &amp;левой кнопкой мыши</translation>
+        <translation>&amp;Левый клик</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="145"/>
@@ -3693,17 +3694,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="70"/>
         <source>OSD - Next level</source>
-        <translation type="unfinished">OSD - Следующая фраза</translation>
+        <translation>OSD - Следующий уровень</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="79"/>
         <source>Show context menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Показать контестное меню</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="401"/>
         <source>&amp;Right click</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Правый клик</translation>
     </message>
 </context>
 <context>
