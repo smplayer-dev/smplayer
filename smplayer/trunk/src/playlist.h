@@ -23,6 +23,7 @@
 #include <QList>
 #include <QStringList>
 #include <QWidget>
+#include "guiconfig.h"
 
 class PlaylistItem {
 
@@ -188,7 +189,9 @@ protected:
 	MyAction * nextAct;
 	MyAction * repeatAct;
 	MyAction * shuffleAct;
+#if USE_INFOPROVIDER
 	MyAction * autoGetInfoAct;
+#endif
 	MyAction * moveUpAct;
 	MyAction * moveDownAct;
 	MyAction * editAct;

@@ -49,7 +49,6 @@
 #include "version.h"
 #include "global.h"
 #include "core.h"
-#include "guiconfig.h"
 #include "extensions.h"
 
 #include <stdlib.h>
@@ -184,8 +183,10 @@ void Playlist::createActions() {
 	shuffleAct = new MyAction(this, "pl_shuffle", false);
 	shuffleAct->setCheckable(true);
 
+#if USE_INFOPROVIDER
 	autoGetInfoAct = new MyAction(this, "pl_auto_get_info", false);
 	autoGetInfoAct->setCheckable(true);
+#endif
 
 	// Add actions
 	addCurrentAct = new MyAction(this, "pl_add_current", false);
@@ -221,8 +222,10 @@ void Playlist::createToolbar() {
 	add_menu->addAction(addCurrentAct);
 	add_menu->addAction(addFilesAct );
 	add_menu->addAction(addDirectoryAct);
+#if USE_INFOPROVIDER
 	add_menu->addSeparator();
 	add_menu->addAction(autoGetInfoAct);
+#endif
 
 	add_button = new QToolButton( this );
 	add_button->setMenu( add_menu );
@@ -289,7 +292,9 @@ void Playlist::retranslateStrings() {
 	repeatAct->change( Images::icon("repeat"), tr("&Repeat") );
 	shuffleAct->change( Images::icon("shuffle"), tr("S&huffle") );
 
+#if USE_INFOPROVIDER
 	autoGetInfoAct->change( tr("&Get info about the files added") );
+#endif
 
 	// Add actions
 	addCurrentAct->change( tr("Add &current file") );
@@ -1190,7 +1195,9 @@ void Playlist::saveSettings() {
 	set->setValue( "repeat", repeatAct->isChecked() );
 	set->setValue( "shuffle", shuffleAct->isChecked() );
 
+#if USE_INFOPROVIDER
 	set->setValue( "auto_get_info", autoGetInfoAct->isChecked() );
+#endif
 
 //#if !DOCK_PLAYLIST
 	set->setValue( "window_width", size().width() );
@@ -1225,6 +1232,7 @@ void Playlist::loadSettings() {
 	repeatAct->setChecked( set->value( "repeat", repeatAct->isChecked() ).toBool() );
 	shuffleAct->setChecked( set->value( "shuffle", shuffleAct->isChecked() ).toBool() );
 
+#if USE_INFOPROVIDER
 #ifdef Q_OS_WIN
     // Very slow on Windows, so it's disabled by default
 	const bool auto_get_info_default = false;
@@ -1232,6 +1240,7 @@ void Playlist::loadSettings() {
 	const bool auto_get_info_default = true;
 #endif
 	autoGetInfoAct->setChecked( set->value("auto_get_info", auto_get_info_default).toBool() );
+#endif
 
 //#if !DOCK_PLAYLIST
 	QSize s;
