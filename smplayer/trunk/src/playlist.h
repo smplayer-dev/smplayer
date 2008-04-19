@@ -67,6 +67,8 @@ class Playlist : public QWidget
 	Q_OBJECT
 
 public:
+	enum AutoGetInfo { NoGetInfo = 0, GetInfo = 1, UserDefined = 2 };
+
 	Playlist( Core *c, QWidget * parent = 0, Qt::WindowFlags f = Qt::Window );
 	~Playlist();
 
@@ -96,10 +98,8 @@ public slots:
 	virtual void addFiles();
 	virtual void addDirectory();
 
-	virtual void addFile(QString file);
-	virtual void addFile(QString file, bool auto_get_info);
-	virtual void addFiles(QStringList files);
-	virtual void addFiles(QStringList files, bool auto_get_info);
+	virtual void addFile(QString file, AutoGetInfo auto_get_info = UserDefined);
+	virtual void addFiles(QStringList files, AutoGetInfo auto_get_info = UserDefined);
 	virtual void addDirectory(QString dir);
 
 	virtual bool maybeSave();
