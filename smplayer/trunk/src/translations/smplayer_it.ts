@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="it">
-<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -16,7 +15,7 @@
     <message>
         <location filename="../about.cpp" line="81"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
-        <translation>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</translation>
+        <translation>Questo programma è un software free software; è possibile modificarlo e/o ridistribuirlo sotto i termini della liecenza GNU come indicato dalla Free Software Foundation; come la versione 2 della licenza, o (a vostra scelta) ogni successiva versione.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="88"/>
@@ -539,7 +538,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1007"/>
         <source>&amp;DVD from drive</source>
-        <translation>&amp;DVD dal lettore</translation>
+        <translation>&amp;DVD dal&apos;unità</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1008"/>
@@ -574,7 +573,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1033"/>
         <source>&amp;Repeat</source>
-        <translation>Ripeti</translation>
+        <translation>&amp;Ripeti</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1037"/>
@@ -624,7 +623,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1047"/>
         <source>&amp;Screenshot</source>
-        <translation>&amp;Screenshot</translation>
+        <translation>&amp;Schermata</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1048"/>
@@ -719,7 +718,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1091"/>
         <source>&amp;Up</source>
-        <translation>&amp;Su</translation>
+        <translation>&amp;Sù</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1092"/>
@@ -1107,7 +1106,7 @@ Si aprirà ora il dialogo di configurazione, in modio che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="1105"/>
         <source>View &amp;info and properties...</source>
-        <translation>&amp;Informazioni e proprietà</translation>
+        <translation>&amp;Informazioni e proprietà...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1051"/>
@@ -1465,7 +1464,7 @@ Si aprirà ora il dialogo di configurazione, in modio che tu possa farlo.
     <message>
         <location filename="../baseguiplus.cpp" line="151"/>
         <source>SMPlayer is still running here</source>
-        <translation>SMPlayer è ancora in esecuzione.</translation>
+        <translation>SMPlayer è ancora in esecuzione</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="172"/>
@@ -1475,7 +1474,7 @@ Si aprirà ora il dialogo di configurazione, in modio che tu possa farlo.
     <message>
         <location filename="../baseguiplus.cpp" line="183"/>
         <source>&amp;Hide</source>
-        <translation>Nascondi</translation>
+        <translation>&amp;Nascondi</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="185"/>
@@ -1571,17 +1570,17 @@ Si aprirà ora il dialogo di configurazione, in modio che tu possa farlo.
     <message>
         <location filename="../defaultgui.cpp" line="370"/>
         <source>&amp;Main toolbar</source>
-        <translation>Barra strumenti principale</translation>
+        <translation>Barra strumenti &amp;principale</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="373"/>
         <source>&amp;Language toolbar</source>
-        <translation>Barra strumenti per le lingue</translation>
+        <translation>Barra strumenti per le &amp;lingue</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="367"/>
         <source>&amp;Toolbars</source>
-        <translation>Barre strumenti</translation>
+        <translation>Barre s&amp;trumenti</translation>
     </message>
 </context>
 <context>
@@ -2408,8 +2407,8 @@ Vuoi sovrascriverlo?</translation>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation>Qui puoi passare opzioni addizionali a MPlayer.
-Scrivile separate da spazi.
+        <translation>Qui è possibile passare opzioni addizionali a MPlayer.
+Scrivirle separate da spazi.
 Esempio: -flip -nosound</translation>
     </message>
     <message>
@@ -2417,8 +2416,8 @@ Esempio: -flip -nosound</translation>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
-        <translation>Puoi anche passare dei filtri video addizionali.
-Separali con &quot;,&quot;. Non usare spazi!
+        <translation>E&apos; possibile anche passare dei filtri video addizionali.
+Separarli con &quot;,&quot;. Non usare spazi!
 Esempio: resize=512:384,eq2=1.1</translation>
     </message>
     <message>
@@ -2441,12 +2440,12 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="330"/>
         <source>Log MPlayer output</source>
-        <translation>Salva l&apos;output di MPlayer</translation>
+        <translation>Registra l&apos;output di MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="323"/>
         <source>Log SMPlayer output</source>
-        <translation>Salva l&apos;output di SMPlayer</translation>
+        <translation>Registra l&apos;output di SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="166"/>
@@ -3217,7 +3216,7 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefgeneral.ui" line="668"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
-        <translation>&amp;AC3/DTS passthrough S/PDIF</translation>
+        <translation>&amp;AC3/DTS in uscita su S/PDIF</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="599"/>
@@ -3227,12 +3226,12 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefgeneral.cpp" line="545"/>
         <source>Direct rendering</source>
-        <translation>Direct rendering</translation>
+        <translation>Rendering diretto</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="548"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; May cause OSD/SUB corruption!</source>
-        <translation>Se selezionato, abilita il direct rendering (non supportato da tutti i codecs e output video)&lt;br&gt;&lt;b&gt;ATTENZIONE:&lt;/b&gt;Può corrompere l&apos;OSD e i sottotitoli!</translation>
+        <translation>Se selezionato, abilita il direct rendering (non supportato da tutti i codec e output video)&lt;br&gt;&lt;b&gt;ATTENZIONE:&lt;/b&gt;Può corrompere l&apos;OSD e i sottotitoli!</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="550"/>
@@ -3242,7 +3241,7 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefgeneral.ui" line="407"/>
         <source>D&amp;irect rendering</source>
-        <translation>D&amp;irect rendering</translation>
+        <translation>Rendering d&amp;iretto</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="414"/>
@@ -3262,7 +3261,7 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefgeneral.ui" line="535"/>
         <source>Volume &amp;normalization by default</source>
-        <translation>Volume &amp;normalizzato per default</translation>
+        <translation>Volume &amp;normalizzato in modo predefinito</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="515"/>
@@ -3483,27 +3482,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="68"/>
         <source>Lowpass5</source>
-        <translation></translation>
+        <translation>LowPass5</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="69"/>
         <source>Yadif (normal)</source>
-        <translation></translation>
+        <translation>Yadif (normale)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="70"/>
         <source>Yadif (double framerate)</source>
-        <translation></translation>
+        <translation>Yadif (doppio frame rate)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="71"/>
         <source>Linear Blend</source>
-        <translation></translation>
+        <translation>Linear Blend</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="72"/>
         <source>Kerndeint</source>
-        <translation></translation>
+        <translation>Kerndeint</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="379"/>
@@ -3518,7 +3517,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="543"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
-        <translation>Seleziona il filtro di deinterlacciamento predefinito. </translation>
+        <translation>Selezionare il filtro di deinterlacciamento predefinito. </translation>
     </message>
 </context>
 <context>
@@ -3541,7 +3540,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="138"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Qui puoi cambiare le scorciatoie da tastiera. Per farlo, fai doppio click o scrivi nella cella corrispondente. Opzionalmente, puoi salvare la lista per condividerla con altre persone o utilizzarla su un altro computer.</translation>
+        <translation>Qui è possibile cambiare le scorciatoie da tastiera. Per farlo, fare doppio clic o scrivere nella cella corrispondente. Opzionalmente, salvare la lista per condividerla con altre persone o utilizzarla su un altro computer.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="95"/>
@@ -3551,7 +3550,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="107"/>
         <source>Button functions:</source>
-        <translation>Funzione bottoni:</translation>
+        <translation>Funzione pulsanti:</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="127"/>
@@ -3581,17 +3580,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="289"/>
         <source>&amp;Left click</source>
-        <translation>Click &amp;sinistro</translation>
+        <translation>Clic &amp;sinistro</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="145"/>
         <source>&amp;Double click</source>
-        <translation>&amp;Doppio click</translation>
+        <translation>&amp;Doppio clic</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="346"/>
         <source>&amp;Wheel function:</source>
-        <translation>Funzione &amp;rotellina:</translation>
+        <translation>Funzione &amp;rotella mouse:</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="248"/>
@@ -3606,22 +3605,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="261"/>
         <source>Left click</source>
-        <translation>Click sinistro</translation>
+        <translation>Clic sinistro</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="262"/>
         <source>Select the action for left click on the mouse.</source>
-        <translation>Seleziona l&apos;azione per il click sinistro del mouse.</translation>
+        <translation>Seleziona l&apos;azione per il clic sinistro del mouse.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="264"/>
         <source>Double click</source>
-        <translation>Doppio click</translation>
+        <translation>Doppio clic</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="265"/>
         <source>Select the action for double click on the mouse.</source>
-        <translation>Seleziona l&apos;azione per il doppio click del mouse.</translation>
+        <translation>Seleziona l&apos;azione per il doppio clic del mouse.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="270"/>
@@ -3661,7 +3660,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="67"/>
         <source>Screenshot</source>
-        <translation>Screenshot</translation>
+        <translation>Schermata</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="68"/>
@@ -3746,27 +3745,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="267"/>
         <source>Middle click</source>
-        <translation>Click centrale</translation>
+        <translation>Clic centrale</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="268"/>
         <source>Select the action for middle click on the mouse.</source>
-        <translation>Seleziona l&apos;azione per il click centrale del mouse.</translation>
+        <translation>Seleziona l&apos;azione per il clic centrale del mouse.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="190"/>
         <source>M&amp;iddle click</source>
-        <translation>Cl&amp;ick centrale</translation>
+        <translation>Cl&amp;ic centrale</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="216"/>
         <source>X Button &amp;1</source>
-        <translation>Bottone X  &amp;1</translation>
+        <translation>Pulsante X  &amp;1</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="242"/>
         <source>X Button &amp;2</source>
-        <translation>Bottone X  &amp;2</translation>
+        <translation>Pulsante X  &amp;2</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="59"/>
@@ -3811,7 +3810,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="401"/>
         <source>&amp;Right click</source>
-        <translation>Click dest&amp;ro</translation>
+        <translation>Clic dest&amp;ro</translation>
     </message>
 </context>
 <context>
@@ -3994,7 +3993,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="435"/>
         <source>Here you can change the language of the application.</source>
-        <translation>Qui puoi modificare la lingua dell&apos;applicazione.</translation>
+        <translation>Qui è possibile modificare la lingua dell&apos;applicazione.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="467"/>
@@ -4109,7 +4108,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="507"/>
         <source>TextLabel</source>
-        <translation></translation>
+        <translation>Etichetta testo</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="364"/>
@@ -4249,7 +4248,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="472"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
-        <translation>Seleziona questa opzione se vuoi usare una istanza di SMPlayer già esistente all&apos;apertura di nuovi file.</translation>
+        <translation>Selezionare questa opzione se si vuole usare una istanza di SMPlayer già esistente all&apos;apertura di nuovi file.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="474"/>
