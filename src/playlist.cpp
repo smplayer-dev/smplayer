@@ -871,6 +871,14 @@ void Playlist::addFiles() {
 }
 
 void Playlist::addFiles(QStringList files) {
+#if USE_INFOPROVIDER
+	addFiles(files, autoGetInfoAct->isChecked());
+#else
+	addFiles(files, false);
+#endif
+}
+
+void Playlist::addFiles(QStringList files, bool auto_get_info) {
 	qDebug("Playlist::addFiles");
 
 #if USE_INFOPROVIDER
@@ -881,7 +889,7 @@ void Playlist::addFiles(QStringList files) {
     QStringList::Iterator it = files.begin();
     while( it != files.end() ) {
 #if USE_INFOPROVIDER
-		if ( (autoGetInfoAct->isChecked()) && (QFile::exists((*it))) ) {
+		if ( (auto_get_info) && (QFile::exists((*it))) ) {
 			data = InfoProvider::getInfo( (*it) );
 			addItem( (*it), data.displayName(), data.duration );
 			updateView();
@@ -904,6 +912,10 @@ void Playlist::addFiles(QStringList files) {
 	updateView();
 
 	qDebug( " * latest_dir: '%s'", latest_dir.toUtf8().data() );
+}
+
+void Playlist::addFile(QString file, bool auto_get_info) {
+	addFiles( QStringList() << file, auto_get_info );
 }
 
 void Playlist::addFile(QString file) {

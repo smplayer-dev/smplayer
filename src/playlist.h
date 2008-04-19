@@ -96,7 +96,9 @@ public slots:
 	virtual void addDirectory();
 
 	virtual void addFile(QString file);
+	virtual void addFile(QString file, bool auto_get_info);
 	virtual void addFiles(QStringList files);
+	virtual void addFiles(QStringList files, bool auto_get_info);
 	virtual void addDirectory(QString dir);
 
 	virtual bool maybeSave();
