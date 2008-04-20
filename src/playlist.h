@@ -23,7 +23,6 @@
 #include <QList>
 #include <QStringList>
 #include <QWidget>
-#include "guiconfig.h"
 
 class PlaylistItem {
 
@@ -106,6 +105,8 @@ public slots:
 
 	// Adds a directory, maybe with recursion (depends on user config)
 	virtual void addDirectory(QString dir);
+
+	void editPreferences();
 
 	virtual bool maybeSave();
     virtual void load();
@@ -194,9 +195,7 @@ protected:
 	MyAction * nextAct;
 	MyAction * repeatAct;
 	MyAction * shuffleAct;
-#if USE_INFOPROVIDER
-	MyAction * autoGetInfoAct;
-#endif
+	MyAction * preferencesAct;
 
 	MyAction * moveUpAct;
 	MyAction * moveDownAct;
@@ -213,7 +212,9 @@ private:
 	bool modified;
 	QTimer * save_timer;
 
+	//Preferences
 	bool recursive_add_directory;
+	bool automatically_get_info;
 };
 
 

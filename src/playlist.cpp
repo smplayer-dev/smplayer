@@ -50,6 +50,8 @@
 #include "global.h"
 #include "core.h"
 #include "extensions.h"
+#include "guiconfig.h"
+#include "playlistpreferences.h"
 
 #include <stdlib.h>
 
@@ -70,6 +72,12 @@ Playlist::Playlist( Core *c, QWidget * parent, Qt::WindowFlags f)
 	: QWidget(parent,f) 
 {
 	recursive_add_directory = false;
+#ifdef Q_OS_WIN
+	automatically_get_info = false;
+#else
+	automatically_get_info = true;
+#endif
+
 	modified = false;
 
 	core = c;
@@ -184,10 +192,8 @@ void Playlist::createActions() {
 	shuffleAct = new MyAction(this, "pl_shuffle", false);
 	shuffleAct->setCheckable(true);
 
-#if USE_INFOPROVIDER
-	autoGetInfoAct = new MyAction(this, "pl_auto_get_info", false);
-	autoGetInfoAct->setCheckable(true);
-#endif
+	preferencesAct = new MyAction(this, "pl_preferences", false);
+	connect( preferencesAct, SIGNAL(triggered()), this, SLOT(editPreferences()) );
 
 	// Add actions
 	addCurrentAct = new MyAction(this, "pl_add_current", false);
@@ -223,10 +229,6 @@ void Playlist::createToolbar() {
 	add_menu->addAction(addCurrentAct);
 	add_menu->addAction(addFilesAct );
 	add_menu->addAction(addDirectoryAct);
-#if USE_INFOPROVIDER
-	add_menu->addSeparator();
-	add_menu->addAction(autoGetInfoAct);
-#endif
 
 	add_button = new QToolButton( this );
 	add_button->setMenu( add_menu );
@@ -254,6 +256,8 @@ void Playlist::createToolbar() {
 	toolbar->addSeparator();
 	toolbar->addAction(moveUpAct);
 	toolbar->addAction(moveDownAct);
+	toolbar->addSeparator();
+	toolbar->addAction(preferencesAct);
 
 	// Popup menu
 	popup = new QMenu(this);
@@ -293,9 +297,7 @@ void Playlist::retranslateStrings() {
 	repeatAct->change( Images::icon("repeat"), tr("&Repeat") );
 	shuffleAct->change( Images::icon("shuffle"), tr("S&huffle") );
 
-#if USE_INFOPROVIDER
-	autoGetInfoAct->change( tr("&Get info about the files added") );
-#endif
+	preferencesAct->change( Images::icon("prefs"), tr("Preferences") );
 
 	// Add actions
 	addCurrentAct->change( tr("Add &current file") );
@@ -882,7 +884,7 @@ void Playlist::addFiles(QStringList files, AutoGetInfo auto_get_info) {
 #if USE_INFOPROVIDER
 	bool get_info = (auto_get_info == GetInfo);
 	if (auto_get_info == UserDefined) {
-		get_info = autoGetInfoAct->isChecked();
+		get_info = automatically_get_info;
 	}
 
 	MediaData data;
@@ -1127,6 +1129,18 @@ void Playlist::editItem(int item) {
     } 
 }
 
+void Playlist::editPreferences() {
+	PlaylistPreferences d(this);
+
+	d.setDirectoryRecursion(recursive_add_directory);
+	d.setAutoGetInfo(automatically_get_info);
+
+	if (d.exec() == QDialog::Accepted) {
+		recursive_add_directory = d.directoryRecursion();
+		automatically_get_info = d.autoGetInfo();
+	}
+}
+
 // Drag&drop
 void Playlist::dragEnterEvent( QDragEnterEvent *e ) {
 	qDebug("Playlist::dragEnterEvent");
@@ -1203,10 +1217,7 @@ void Playlist::saveSettings() {
 	set->setValue( "repeat", repeatAct->isChecked() );
 	set->setValue( "shuffle", shuffleAct->isChecked() );
 
-#if USE_INFOPROVIDER
-	set->setValue( "auto_get_info", autoGetInfoAct->isChecked() );
-#endif
-
+	set->setValue( "auto_get_info", automatically_get_info );
 	set->setValue( "recursive_add_directory", recursive_add_directory );
 
 //#if !DOCK_PLAYLIST
@@ -1242,16 +1253,7 @@ void Playlist::loadSettings() {
 	repeatAct->setChecked( set->value( "repeat", repeatAct->isChecked() ).toBool() );
 	shuffleAct->setChecked( set->value( "shuffle", shuffleAct->isChecked() ).toBool() );
 
-#if USE_INFOPROVIDER
-#ifdef Q_OS_WIN
-    // Very slow on Windows, so it's disabled by default
-	const bool auto_get_info_default = false;
-#else
-	const bool auto_get_info_default = true;
-#endif
-	autoGetInfoAct->setChecked( set->value("auto_get_info", auto_get_info_default).toBool() );
-#endif
-
+	automatically_get_info = set->value( "auto_get_info", automatically_get_info ).toBool();
 	recursive_add_directory = set->value( "recursive_add_directory", recursive_add_directory ).toBool();
 
 //#if !DOCK_PLAYLIST
