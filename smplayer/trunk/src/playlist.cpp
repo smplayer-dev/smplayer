@@ -69,6 +69,7 @@ using namespace Global;
 Playlist::Playlist( Core *c, QWidget * parent, Qt::WindowFlags f)
 	: QWidget(parent,f) 
 {
+	recursive_add_directory = false;
 	modified = false;
 
 	core = c;
@@ -931,7 +932,7 @@ void Playlist::addDirectory() {
 	}
 }
 
-void Playlist::addDirectory(QString dir) {
+void Playlist::addOneDirectory(QString dir) {
 	QStringList filelist;
 
 	Extensions e;
@@ -955,6 +956,20 @@ void Playlist::addDirectory(QString dir) {
 		++it;
 	}
 	addFiles(filelist);
+}
+
+void Playlist::addDirectory(QString dir) {
+	addOneDirectory(dir);
+
+	if (recursive_add_directory) {
+		QFileInfoList dir_list = QDir(dir).entryInfoList(QStringList() << "*", QDir::AllDirs | QDir::NoDotAndDotDot);
+		for (int n=0; n < dir_list.count(); n++) {
+			if (dir_list[n].isDir()) {
+				qDebug("Playlist::addDirectory: adding directory: %s", dir_list[n].filePath().toUtf8().data());
+				addDirectory(dir_list[n].filePath());
+			}
+		}
+	}
 }
 
 // Remove selected items
@@ -1192,6 +1207,8 @@ void Playlist::saveSettings() {
 	set->setValue( "auto_get_info", autoGetInfoAct->isChecked() );
 #endif
 
+	set->setValue( "recursive_add_directory", recursive_add_directory );
+
 //#if !DOCK_PLAYLIST
 	set->setValue( "window_width", size().width() );
 	set->setValue( "window_height", size().height() );
@@ -1234,6 +1251,8 @@ void Playlist::loadSettings() {
 #endif
 	autoGetInfoAct->setChecked( set->value("auto_get_info", auto_get_info_default).toBool() );
 #endif
+
+	recursive_add_directory = set->value( "recursive_add_directory", recursive_add_directory ).toBool();
 
 //#if !DOCK_PLAYLIST
 	QSize s;
