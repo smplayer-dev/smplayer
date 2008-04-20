@@ -57,6 +57,7 @@ HEADERS	+= guiconfig.h \
 	prefadvanced.h \
 	filepropertiesdialog.h \
 	playlist.h \
+	playlistpreferences.h \
 	playlistdock.h \
 	verticaltext.h \
 	eqslider.h \
@@ -124,6 +125,7 @@ SOURCES	+= version.cpp \
 	prefadvanced.cpp \
 	filepropertiesdialog.cpp \
 	playlist.cpp \
+	playlistpreferences.cpp \
 	playlistdock.cpp \
 	verticaltext.cpp \
 	eqslider.cpp \
@@ -154,7 +156,8 @@ FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
         eqslider.ui seekwidget.ui inputurl.ui \
         preferencesdialog.ui prefgeneral.ui prefdrives.ui prefinterface.ui \
         prefperformance.ui prefinput.ui prefsubtitles.ui prefadvanced.ui \
-        about.ui inputmplayerversion.ui errordialog.ui timedialog.ui
+        about.ui inputmplayerversion.ui errordialog.ui timedialog.ui \
+        playlistpreferences.ui
 
 TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_de.ts \
                translations/smplayer_sk.ts translations/smplayer_it.ts \
