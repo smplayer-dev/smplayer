@@ -100,6 +100,11 @@ public slots:
 
 	virtual void addFile(QString file, AutoGetInfo auto_get_info = UserDefined);
 	virtual void addFiles(QStringList files, AutoGetInfo auto_get_info = UserDefined);
+
+	// Adds a directory, no recursive
+	virtual void addOneDirectory(QString dir);
+
+	// Adds a directory, maybe with recursion (depends on user config)
 	virtual void addDirectory(QString dir);
 
 	virtual bool maybeSave();
@@ -192,6 +197,7 @@ protected:
 #if USE_INFOPROVIDER
 	MyAction * autoGetInfoAct;
 #endif
+
 	MyAction * moveUpAct;
 	MyAction * moveDownAct;
 	MyAction * editAct;
@@ -206,6 +212,8 @@ protected:
 private:
 	bool modified;
 	QTimer * save_timer;
+
+	bool recursive_add_directory;
 };
 
 

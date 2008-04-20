@@ -3,6 +3,10 @@
 (2008-04-19)
  * Don't get info about the files added automatically by the GUI to the 
    playlist (usually it's the file to play, so it's a waste of time).
+ * Added possibility to add directories recursively to the playlist. Right
+   now it's necessary to edit smplayer.ini and set recursive_add_directory to
+   true (inside [playlist] section). Soon there'll be an option for this 
+   in the GUI.
 
 (2008-04-18)
  * (Windows) Applied a patch by "hackykid" to fix a link error when compiling with
