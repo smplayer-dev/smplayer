@@ -1534,42 +1534,42 @@ Se mostrará a continuación el diálogo de configuración.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../corelib/core.cpp" line="2029"/>
+        <location filename="../corelib/core.cpp" line="2030"/>
         <source>Brightness: %1</source>
         <translation>Brillo: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2038"/>
+        <location filename="../corelib/core.cpp" line="2039"/>
         <source>Contrast: %1</source>
         <translation>Contraste: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2046"/>
+        <location filename="../corelib/core.cpp" line="2047"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2054"/>
+        <location filename="../corelib/core.cpp" line="2055"/>
         <source>Hue: %1</source>
         <translation>Tono: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2062"/>
+        <location filename="../corelib/core.cpp" line="2063"/>
         <source>Saturation: %1</source>
         <translation>Saturación: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2181"/>
+        <location filename="../corelib/core.cpp" line="2182"/>
         <source>Volume: %1</source>
         <translation>Volumen: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2852"/>
+        <location filename="../corelib/core.cpp" line="2853"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2300"/>
+        <location filename="../corelib/core.cpp" line="2301"/>
         <source>Font scale: %1</source>
         <translation>Escala del tipo de letra: %1</translation>
     </message>
@@ -1577,7 +1577,7 @@ Se mostrará a continuación el diálogo de configuración.</translation>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="353"/>
+        <location filename="../defaultgui.cpp" line="359"/>
         <source>Welcome to SMPlayer</source>
         <translation>Bienvenido a SMPlayer</translation>
     </message>
@@ -1587,12 +1587,12 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation type="obsolete">Volumen</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="376"/>
+        <location filename="../defaultgui.cpp" line="382"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="377"/>
+        <location filename="../defaultgui.cpp" line="383"/>
         <source>Subtitle</source>
         <translation>Subtítulo</translation>
     </message>
@@ -1602,17 +1602,17 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation type="obsolete">Lista de reproducción</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="370"/>
+        <location filename="../defaultgui.cpp" line="376"/>
         <source>&amp;Main toolbar</source>
         <translation>Barra &amp;principal</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="373"/>
+        <location filename="../defaultgui.cpp" line="379"/>
         <source>&amp;Language toolbar</source>
         <translation>Barra de &amp;idioma</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="367"/>
+        <location filename="../defaultgui.cpp" line="373"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Barras de herramientas</translation>
     </message>
@@ -2237,171 +2237,214 @@ Do you want to overwrite?</source>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="266"/>
+        <location filename="../playlist.cpp" line="274"/>
         <source>Name</source>
         <translation>Nombre</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="266"/>
+        <location filename="../playlist.cpp" line="274"/>
         <source>Length</source>
         <translation>Duración</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="660"/>
+        <location filename="../playlist.cpp" line="668"/>
         <source>Choose a file</source>
         <translation>Elige un fichero</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="678"/>
+        <location filename="../playlist.cpp" line="686"/>
         <source>Choose a filename</source>
         <translation>Elige un fichero</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="689"/>
+        <location filename="../playlist.cpp" line="697"/>
         <source>Confirm overwrite?</source>
         <translation>¿Confirmar sobreescribir?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="866"/>
+        <location filename="../playlist.cpp" line="874"/>
         <source>Select one or more files to open</source>
         <translation>Selecciona uno o más ficheros</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="915"/>
+        <location filename="../playlist.cpp" line="928"/>
         <source>Choose a directory</source>
         <translation>Elige un directorio</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="691"/>
+        <location filename="../playlist.cpp" line="699"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>El fichero %1 ya existe.
 ¿Quieres sobreescribirlo?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1089"/>
+        <location filename="../playlist.cpp" line="1116"/>
         <source>Edit name</source>
         <translation>Editar nombre</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1090"/>
+        <location filename="../playlist.cpp" line="1117"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Teclea el nombre que se mostrará en la lista para este fichero:</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="271"/>
+        <location filename="../playlist.cpp" line="279"/>
         <source>&amp;Play</source>
         <translation>&amp;Reproducir</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="304"/>
+        <location filename="../playlist.cpp" line="312"/>
         <source>&amp;Edit</source>
         <translation>&amp;Editar</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="680"/>
+        <location filename="../playlist.cpp" line="688"/>
         <source>Playlists</source>
         <translation>Listas de reproducción</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="868"/>
+        <location filename="../playlist.cpp" line="876"/>
         <source>All files</source>
         <translation>Todos los ficheros</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="268"/>
+        <location filename="../playlist.cpp" line="276"/>
         <source>&amp;Load</source>
         <translation>&amp;Cargar</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="269"/>
+        <location filename="../playlist.cpp" line="277"/>
         <source>&amp;Save</source>
         <translation>&amp;Grabar</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="273"/>
+        <location filename="../playlist.cpp" line="281"/>
         <source>&amp;Next</source>
         <translation>&amp;Siguiente</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="274"/>
+        <location filename="../playlist.cpp" line="282"/>
         <source>Pre&amp;vious</source>
         <translation>&amp;Anterior</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="286"/>
+        <location filename="../playlist.cpp" line="294"/>
         <source>Move &amp;up</source>
         <translation>&amp;Bajar</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="287"/>
+        <location filename="../playlist.cpp" line="295"/>
         <source>Move &amp;down</source>
         <translation>&amp;Subir</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="289"/>
+        <location filename="../playlist.cpp" line="297"/>
         <source>&amp;Repeat</source>
         <translation>R&amp;epetir</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="290"/>
+        <location filename="../playlist.cpp" line="298"/>
         <source>S&amp;huffle</source>
         <translation>&amp;Desordenar</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="295"/>
+        <location filename="../playlist.cpp" line="303"/>
         <source>Add &amp;current file</source>
         <translation>Añadir fichero &amp;actual</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="296"/>
+        <location filename="../playlist.cpp" line="304"/>
         <source>Add &amp;file(s)</source>
         <translation>Añadir &amp;fichero(s)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="297"/>
+        <location filename="../playlist.cpp" line="305"/>
         <source>Add &amp;directory</source>
         <translation>Añadir &amp;directorio</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="300"/>
+        <location filename="../playlist.cpp" line="308"/>
         <source>Remove &amp;selected</source>
         <translation>Borrar &amp;selección</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="301"/>
+        <location filename="../playlist.cpp" line="309"/>
         <source>Remove &amp;all</source>
         <translation>Borrar &amp;todo</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="314"/>
+        <location filename="../playlist.cpp" line="322"/>
         <source>SMPlayer - Playlist</source>
         <translation>SMPlayer - Lista de reproducción</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="308"/>
+        <location filename="../playlist.cpp" line="316"/>
         <source>Add...</source>
         <translation>Añadir...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="310"/>
+        <location filename="../playlist.cpp" line="318"/>
         <source>Remove...</source>
         <translation>Borrar...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="715"/>
+        <location filename="../playlist.cpp" line="723"/>
         <source>Playlist modified</source>
         <translation>Lista de reproducción modificada</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="716"/>
+        <location filename="../playlist.cpp" line="724"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Hay cambios sin guardar, ¿quieres grabar la lista de reproducción?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="292"/>
         <source>&amp;Get info about the files added</source>
-        <translation>&amp;Obtener información sobre los ficheros añadidos</translation>
+        <translation type="obsolete">&amp;Obtener información sobre los ficheros añadidos</translation>
+    </message>
+    <message>
+        <location filename="../playlist.cpp" line="300"/>
+        <source>Preferences</source>
+        <translation type="unfinished">Preferencias</translation>
+    </message>
+</context>
+<context>
+    <name>PlaylistPreferences</name>
+    <message>
+        <location filename="../playlistpreferences.ui" line="19"/>
+        <source>Playlist - Preferences</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../playlistpreferences.ui" line="34"/>
+        <source>Add directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../playlistpreferences.ui" line="46"/>
+        <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../playlistpreferences.ui" line="56"/>
+        <source>&amp;Add files in directories recursively</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../playlistpreferences.ui" line="66"/>
+        <source>Add files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../playlistpreferences.ui" line="78"/>
+        <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../playlistpreferences.ui" line="88"/>
+        <source>Automatically get &amp;info about files added</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
