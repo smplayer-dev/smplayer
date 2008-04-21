@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -2404,35 +2405,45 @@ odtwarzania :</translation>
     <message>
         <location filename="../playlist.cpp" line="300"/>
         <source>Preferences</source>
-        <translation type="unfinished">Preferencje</translation>
+        <translation>Preferencje</translation>
     </message>
 </context>
 <context>
     <name>PlaylistPreferences</name>
     <message>
-        <location filename="../playlistpreferences.ui" line="13"/>
+        <location filename="../playlistpreferences.ui" line="19"/>
         <source>Playlist - Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista odtwarzania - Preferencje</translation>
     </message>
     <message>
-        <location filename="../playlistpreferences.cpp" line="32"/>
+        <location filename="../playlistpreferences.ui" line="34"/>
+        <source>Add directory</source>
+        <translation>Dodaj katalog</translation>
+    </message>
+    <message>
+        <location filename="../playlistpreferences.ui" line="46"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaznacz tę opcję jeśli chcesz, żeby do dodawanych katalogów zostały także dodane rekursywnie pliki w podkatalogach. W innym wypadku zostaną dodane tylko pliki w zaznaczonych katalogach .</translation>
     </message>
     <message>
-        <location filename="../playlistpreferences.ui" line="28"/>
+        <location filename="../playlistpreferences.ui" line="56"/>
         <source>&amp;Add files in directories recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dodaj rekursywnie pliki i katalogi</translation>
     </message>
     <message>
-        <location filename="../playlistpreferences.cpp" line="39"/>
+        <location filename="../playlistpreferences.ui" line="66"/>
+        <source>Add files</source>
+        <translation>Dodaj pliki</translation>
+    </message>
+    <message>
+        <location filename="../playlistpreferences.ui" line="78"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaznacz tę opcję jeśli chcesz zasięgnąć informacji o plikach dodanych do listy odtwarzania, uwzględniając nazwę (jeśli dostępna) i długość plików. W przeciwnym razie informacje te nie będą dostępne dopóki plik jest odtwarzany. Uwaga: opcja ta jest bardzo wolna zwłaszcza, gdy dodasz dużo plików.</translation>
     </message>
     <message>
-        <location filename="../playlistpreferences.ui" line="35"/>
+        <location filename="../playlistpreferences.ui" line="88"/>
         <source>Automatically get &amp;info about files added</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatycznie pobierz &amp;informację o dodanych plikach</translation>
     </message>
 </context>
 <context>
