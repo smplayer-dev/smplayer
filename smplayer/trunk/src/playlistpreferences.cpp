@@ -27,16 +27,16 @@ PlaylistPreferences::PlaylistPreferences( QWidget* parent, Qt::WindowFlags f )
 	//adjustSize();
 
 	recursive_check->setWhatsThis(
-		"Check this option if you want that adding a directory will also add "
-        "the files in subdirectories recursively. Otherwise only the files in "
-        "the selected directory will be added.");
+		tr("Check this option if you want that adding a directory will also "
+        "add the files in subdirectories recursively. Otherwise only the "
+        "files in the selected directory will be added."));
 
 	getinfo_check->setWhatsThis(
-		"Check this option to inquire the files to be added to the playlist "
+		tr("Check this option to inquire the files to be added to the playlist "
         "for some info. That allows to show the title name (if available) and "
         "length of the files. Otherwise this info won't be available until "
         "the file is actually played. Beware: this option can be slow, "
-        "specially if you add many files.");
+        "specially if you add many files."));
 }
 
 PlaylistPreferences::~PlaylistPreferences() {
