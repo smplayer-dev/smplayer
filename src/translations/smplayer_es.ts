@@ -2412,37 +2412,37 @@ Do you want to overwrite?</source>
 <context>
     <name>PlaylistPreferences</name>
     <message>
-        <location filename="../playlistpreferences.ui" line="19"/>
+        <location filename="../playlistpreferences.ui" line="13"/>
         <source>Playlist - Preferences</source>
         <translation>Lista de reproducción - Preferencias</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="34"/>
         <source>Add directory</source>
-        <translation>Añadir directorio</translation>
+        <translation type="obsolete">Añadir directorio</translation>
     </message>
     <message>
-        <location filename="../playlistpreferences.ui" line="46"/>
+        <location filename="../playlistpreferences.cpp" line="32"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
         <translation>Marca esta opción si quieres que al añadir un directorio se añadan los ficheros de los subdirectorios recursivamente. De lo contrario sólo se añadirán los ficheros del directorio seleccionado.</translation>
     </message>
     <message>
-        <location filename="../playlistpreferences.ui" line="56"/>
+        <location filename="../playlistpreferences.ui" line="28"/>
         <source>&amp;Add files in directories recursively</source>
         <translation>&amp;Añadir los ficheros de los directorios recursivamente</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="66"/>
         <source>Add files</source>
-        <translation>Añadir ficheros</translation>
+        <translation type="obsolete">Añadir ficheros</translation>
     </message>
     <message>
-        <location filename="../playlistpreferences.ui" line="78"/>
+        <location filename="../playlistpreferences.cpp" line="39"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
         <translation>Marca esta opción para obtener información sobre los ficheros que serán añadidos a la lista. Esto permite mostrar el título (si está disponible) y la duración de los ficheros. De lo contrario esta información no estará disponible hasta que el fichero sea reproducido. Cuidado: esta opción puede ser lenta, especialmente si se añaden muchos ficheros.</translation>
     </message>
     <message>
-        <location filename="../playlistpreferences.ui" line="88"/>
+        <location filename="../playlistpreferences.ui" line="35"/>
         <source>Automatically get &amp;info about files added</source>
         <translation>&amp;Obtener información automáticamente de los ficheros añadidos</translation>
     </message>
