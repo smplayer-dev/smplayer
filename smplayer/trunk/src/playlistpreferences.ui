@@ -5,15 +5,9 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>581</width>
-    <height>334</height>
+    <width>466</width>
+    <height>144</height>
    </rect>
-  </property>
-  <property name="minimumSize" >
-   <size>
-    <width>580</width>
-    <height>0</height>
-   </size>
   </property>
   <property name="windowTitle" >
    <string>Playlist - Preferences</string>
@@ -29,67 +23,24 @@
     <number>6</number>
    </property>
    <item>
-    <widget class="QGroupBox" name="adddirectory_box" >
-     <property name="title" >
-      <string>Add directory</string>
+    <widget class="QCheckBox" name="recursive_check" >
+     <property name="text" >
+      <string>&amp;Add files in directories recursively</string>
      </property>
-     <layout class="QVBoxLayout" >
-      <property name="margin" >
-       <number>9</number>
-      </property>
-      <property name="spacing" >
-       <number>6</number>
-      </property>
-      <item>
-       <widget class="QLabel" name="recursive_label" >
-        <property name="text" >
-         <string>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</string>
-        </property>
-        <property name="wordWrap" >
-         <bool>true</bool>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QCheckBox" name="recursive_check" >
-        <property name="text" >
-         <string>&amp;Add files in directories recursively</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
     </widget>
    </item>
    <item>
-    <widget class="QGroupBox" name="addfiles_box" >
-     <property name="title" >
-      <string>Add files</string>
+    <widget class="QCheckBox" name="getinfo_check" >
+     <property name="text" >
+      <string>Automatically get &amp;info about files added</string>
      </property>
-     <layout class="QVBoxLayout" >
-      <property name="margin" >
-       <number>9</number>
-      </property>
-      <property name="spacing" >
-       <number>6</number>
-      </property>
-      <item>
-       <widget class="QLabel" name="getinfo_label" >
-        <property name="text" >
-         <string>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won't be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</string>
-        </property>
-        <property name="wordWrap" >
-         <bool>true</bool>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QCheckBox" name="getinfo_check" >
-        <property name="text" >
-         <string>Automatically get &amp;info about files added</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="Line" name="line" >
+     <property name="orientation" >
+      <enum>Qt::Horizontal</enum>
+     </property>
     </widget>
    </item>
    <item>
