@@ -81,7 +81,8 @@ HEADERS	+= guiconfig.h \
 	defaultgui.h \
 	minigui.h \
 	smplayer.h \
-	clhelp.h
+	clhelp.h \
+    libqxt/qxtfilelock.h
 
 
 SOURCES	+= version.cpp \
@@ -150,6 +151,7 @@ SOURCES	+= version.cpp \
 	minigui.cpp \
 	clhelp.cpp \
 	smplayer.cpp \
+    libqxt/qxtfilelock.cpp \
 	main.cpp
 
 FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
@@ -196,6 +198,8 @@ unix {
   #	SOURCES += mysystemtrayicon.cpp
   #}
 
+  SOURCES += libqxt/qxtfilelock_unix.cpp
+
   #HEADERS += 	prefassociations.h winfileassoc.h
   #SOURCES += 	prefassociations.cpp winfileassoc.cpp
   #FORMS += prefassociations.ui
@@ -204,6 +208,8 @@ unix {
 win32 {
 	HEADERS += 	prefassociations.h winfileassoc.h corelib/screensaver.h
 	SOURCES += 	prefassociations.cpp winfileassoc.cpp corelib/screensaver.cpp
+    SOURCES +=  libqxt/qxtfilelock_win.cpp
+
 	FORMS += prefassociations.ui
 
 	contains(TEMPLATE,vcapp) {
