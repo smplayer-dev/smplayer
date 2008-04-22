@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -2378,7 +2379,7 @@ Doriți suprascrierea?</translation>
     <message>
         <location filename="../playlist.cpp" line="300"/>
         <source>Preferences</source>
-        <translation type="unfinished">Opțiuni Preferate</translation>
+        <translation>Opțiuni Preferate</translation>
     </message>
 </context>
 <context>
@@ -2386,27 +2387,27 @@ Doriți suprascrierea?</translation>
     <message>
         <location filename="../playlistpreferences.ui" line="13"/>
         <source>Playlist - Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Listă de titluri - Opțiuni preferate</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.cpp" line="32"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați această opțiune dacă doriți ca prin adăugarea unui director să se adauge recursiv și fișierele și subdirectoarele conținute. Dacă nu este selectată această opțiune se vor adăuga doar fișierle din directorul selectat.</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="28"/>
         <source>&amp;Add files in directories recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Adăugarea recursivă a fișerelor din directoare</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.cpp" line="39"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați această opțiune dacă doriți să se caute informații despre titlurile pe care doriți să le adăugați în lista de titluri. Aceasta permite afișarea numele (dacă este disponibil) și lungimea fișierelor. Dacă nu este selectată opțiunea aceste informații nu vor fi accesibile decât atunci când este redat fișierul respectiv. Atenționare: această opțiune poate fi de durată, mai ales dacă adăugați multe fișiere.</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="35"/>
         <source>Automatically get &amp;info about files added</source>
-        <translation type="unfinished"></translation>
+        <translation>Achiziționare automată de &amp;informații despre fișierele adăugate</translation>
     </message>
 </context>
 <context>
