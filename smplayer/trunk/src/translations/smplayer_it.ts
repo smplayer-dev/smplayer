@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="it">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1752,7 +1753,7 @@ Si aprirà ora il dialogo di configurazione, in modio che tu possa farlo.
     <message>
         <location filename="../filepropertiesdialog.ui" line="68"/>
         <source>&amp;Select the demuxer that will be used for this file:</source>
-        <translation>&amp; Seleziona il demuxer che sarà usato per questo file:</translation>
+        <translation>&amp; Selezionare il demuxer che sarà usato per questo file:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="232"/>
@@ -1767,7 +1768,7 @@ Si aprirà ora il dialogo di configurazione, in modio che tu possa farlo.
     <message>
         <location filename="../filepropertiesdialog.ui" line="130"/>
         <source>&amp;Select the video codec:</source>
-        <translation>&amp;Seleziona il codec video:</translation>
+        <translation>&amp;Selezionare il codec video:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="180"/>
@@ -1777,7 +1778,7 @@ Si aprirà ora il dialogo di configurazione, in modio che tu possa farlo.
     <message>
         <location filename="../filepropertiesdialog.ui" line="192"/>
         <source>&amp;Select the audio codec:</source>
-        <translation>&amp;Seleziona il codec audio:</translation>
+        <translation>&amp;Selezionare il codec audio:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="242"/>
@@ -2060,7 +2061,7 @@ Esempio:resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../inputdvddirectory.ui" line="39"/>
         <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation>Puoi riprodurre un dvd direttamente dal disco. Seleziona semplicemente la cartella che contiene VIDEO_TS e AUDIO_TS.</translation>
+        <translation>Si può riprodurre un dvd direttamente dal disco. Selezionare semplicemente la cartella che contiene VIDEO_TS e AUDIO_TS.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="72"/>
@@ -2088,7 +2089,7 @@ Esempio:resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../inputmplayerversion.ui" line="87"/>
         <source>Please, &amp;select the correct version:</source>
-        <translation>&amp;Seleziona la versione corretta:</translation>
+        <translation>&amp;Selezionare la versione corretta:</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="98"/>
@@ -2230,7 +2231,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../playlist.cpp" line="874"/>
         <source>Select one or more files to open</source>
-        <translation>Seleziona uno o più file da aprire</translation>
+        <translation>Selezionare uno o più file da aprire</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="928"/>
@@ -2372,7 +2373,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../playlist.cpp" line="300"/>
         <source>Preferences</source>
-        <translation type="unfinished">Preferenze</translation>
+        <translation>Preferenze</translation>
     </message>
 </context>
 <context>
@@ -2380,27 +2381,27 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../playlistpreferences.ui" line="13"/>
         <source>Playlist - Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista di riproduzione - Preferenze</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.cpp" line="32"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selezionare questa opzione se si vuole che, aggiungendo una cartella, vengano aggiunti ricorsivamente anche i file presenti nelle sottocartelle. Altrimenti solo i file presenti nella cartella saranno aggiunti.</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="28"/>
         <source>&amp;Add files in directories recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Aggiungi ricorsivamente i file nelle cartelle</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.cpp" line="39"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selezionare questa opzione per estrarre alcune informazioni dai file aggiunti alla lista di riproduzione. Questo permette di visualizzare il titolo (se disponibile) e la lunghezza dei file, altrimenti le stesse informazioni non saranno disponibili fino al momento dell&apos;effettiva riproduzione dei file stessi. Attenzione: questa opzione può rivelarsi molto lenta, soprattutto aggiungendo molti file.</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="35"/>
         <source>Automatically get &amp;info about files added</source>
-        <translation type="unfinished"></translation>
+        <translation>Estrarre automaticamente &amp;informazioni dai file aggiunti </translation>
     </message>
 </context>
 <context>
@@ -2650,7 +2651,7 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefadvanced.cpp" line="321"/>
         <source>Select the aspect ratio of your monitor.</source>
-        <translation>Seleziona il rapporto del monitor in uso.</translation>
+        <translation>Selezionare il rapporto d&apos;aspetto del monitor in uso.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="352"/>
@@ -2670,7 +2671,7 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefadvanced.cpp" line="377"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
-        <translation>Se visualizzi parti del video al di sopra di altre finestre, puoi cambiare la colorkey. Prova a selezionare un colore vicino al nero.</translation>
+        <translation>Se si visualizzano parti del video al di sopra di altre finestre, si può cambiare la colorkey. Provare a selezionare un colore vicino al nero.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="380"/>
@@ -2720,7 +2721,7 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefadvanced.cpp" line="397"/>
         <source>Select or type a regular expression for &apos;End of file&apos;</source>
-        <translation>Seleziona o scrivi una espressione regolare per &apos;Fine del file&apos;</translation>
+        <translation>Selezionare o scrivere una espressione regolare per &apos;Fine del file&apos;</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="399"/>
@@ -2730,7 +2731,7 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefadvanced.cpp" line="400"/>
         <source>Select or type a regular expression for &apos;No video&apos;</source>
-        <translation>Seleziona o scrivi una espressione regolare per &apos;Nessun video&apos;</translation>
+        <translation>Selezionare o scrivere una espressione regolare per &apos;Nessun video&apos;</translation>
     </message>
 </context>
 <context>
@@ -2793,7 +2794,7 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefassociations.cpp" line="221"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
-        <translation>Seleziona le estensioni che vuoi associare a SMPlayer. Cliccando su Applica, i file selezionati saranno associati a SMPlayer. Se deselezioni una estensione, l&apos;associazione al file sarà annullata.</translation>
+        <translation>Selezionare le estensioni che si vogliono associare a SMPlayer. Cliccando su Applica, i file selezionati saranno associati a SMPlayer. Deselezionando una estensione, l&apos;associazione al file sarà annullata.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="213"/>
@@ -3643,7 +3644,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="262"/>
         <source>Select the action for left click on the mouse.</source>
-        <translation>Seleziona l&apos;azione per il clic sinistro del mouse.</translation>
+        <translation>Selezionare l&apos;azione per il clic sinistro del mouse.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="264"/>
@@ -3653,7 +3654,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="265"/>
         <source>Select the action for double click on the mouse.</source>
-        <translation>Seleziona l&apos;azione per il doppio clic del mouse.</translation>
+        <translation>Selezionare l&apos;azione per il doppio clic del mouse.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="270"/>
@@ -3663,7 +3664,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="271"/>
         <source>Select the action for the mouse wheel.</source>
-        <translation>Seleziona l&apos;azione per la rotellina del mouse.</translation>
+        <translation>Selezionare l&apos;azione per la rotellina del mouse.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="54"/>
@@ -3783,7 +3784,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="268"/>
         <source>Select the action for middle click on the mouse.</source>
-        <translation>Seleziona l&apos;azione per il clic centrale del mouse.</translation>
+        <translation>Selezionare l&apos;azione per il clic centrale del mouse.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="190"/>
@@ -4171,7 +4172,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="423"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
-        <translation>La finestra principale può essere scalata automaticamente. Seleziona l&apos;opzione che preferisci.</translation>
+        <translation>La finestra principale può essere scalata automaticamente. Selezionare l&apos;opzione preferita.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="425"/>
@@ -4186,7 +4187,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="432"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
-        <translation>Seleziona il massimo numero di elementi che saranno mostrati nel sottomenù &lt;b&gt;Apri-&gt;File recenti&lt;/b&gt;. Un valore di 0 disabiliterà tale sottomenù.</translation>
+        <translation>Selezionare il massimo numero di elementi che saranno mostrati nel sottomenù &lt;b&gt;Apri-&gt;File recenti&lt;/b&gt;. Un valore di 0 disabiliterà tale sottomenù.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="437"/>
@@ -4196,7 +4197,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="438"/>
         <source>Select the icon set you prefer for the application.</source>
-        <translation>Seleziona il set di icone che preferisci.</translation>
+        <translation>Selezionare il set di icone preferito.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="440"/>
@@ -4206,7 +4207,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="441"/>
         <source>Select the style you prefer for the application.</source>
-        <translation>Seleziona lo stile che preferisci.</translation>
+        <translation>Selezionare lo stile preferito.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="443"/>
@@ -4226,7 +4227,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="458"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
-        <translation>Selezionate il salto temporale in avanto o indietro alla scelta della&apos;azione %1.</translation>
+        <translation>Selezionare il salto temporale in avanto o indietro alla scelta della&apos;azione %1.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="450"/>
@@ -4261,7 +4262,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="462"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
-        <translation>Selezionate il salto temporale in avanti o indietro al movimento della rotellina del mouse.</translation>
+        <translation>Selezionare il salto temporale in avanti o indietro al movimento della rotellina del mouse.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="464"/>
@@ -4271,7 +4272,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="465"/>
         <source>Select what to do when dragging the time slider.</source>
-        <translation>Seleziona l&apos;azione per il trascinamento della barra temporale.</translation>
+        <translation>Selezionare l&apos;azione per il trascinamento della barra temporale.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="470"/>
@@ -4314,7 +4315,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="53"/>
         <source>Select the priority for the MPlayer process.</source>
-        <translation>Seleziona la priorità del processo MPlayer.</translation>
+        <translation>Selezionare la priorità del processo MPlayer.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="74"/>
@@ -4662,7 +4663,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="298"/>
         <source>Select first available subtitle</source>
-        <translation>Seleziona i primi sottotitoli disponibili</translation>
+        <translation>Selezionare i primi sottotitoli disponibili</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
@@ -4747,7 +4748,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="381"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
-        <translation>Seleziona il tipo di carattere che si userà per i sottotitoli (e OSD):</translation>
+        <translation>Selezionare il tipo di carattere che si userà per i sottotitoli (e OSD):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="409"/>
@@ -4952,12 +4953,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="305"/>
         <source>Select the encoding which will be used for subtitle files.</source>
-        <translation>Seleziona la codifica usata per i sottotitoli.</translation>
+        <translation>Selezionare la codifica che sarà usata per i sottotitoli.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="315"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. Note: it may cause some troubles sometimes.</source>
-        <translation>Selezionando questa opzione, i sottotitoli appariranno negli screenshot. Nota: può causare problemi a volte.</translation>
+        <translation>Selezionando questa opzione, i sottotitoli appariranno negli screenshot. Nota: può a volte causare problemi.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="319"/>
@@ -4992,7 +4993,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="348"/>
         <source>Check this option to activate the SSA/ASS library. It provides nicer subtitles, so it&apos;s a good idea to do it.</source>
-        <translation>Seleziona questa opzione per attivare la libreria SSA/ASS. Essa permette di avere sottotitoli più accattivanti, quindi farlo è una buona idea.</translation>
+        <translation>Selezionare questa opzione per attivare la libreria SSA/ASS. Essa permette di avere sottotitoli più accattivanti, quindi farlo è una buona idea.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="350"/>
@@ -5002,7 +5003,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="351"/>
         <source>Select the color for the text of the subtitles.</source>
-        <translation>Seleziona il colore per il testo dei sottotitoli.</translation>
+        <translation>Selezionare il colore per il testo dei sottotitoli.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="353"/>
@@ -5012,12 +5013,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="354"/>
         <source>Select the color for the border of the subtitles.</source>
-        <translation>Seleziona il colore per i bordi dei sottotitoli.</translation>
+        <translation>Selezionare il colore per i bordi dei sottotitoli.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="296"/>
         <source>Select the subtitle autoload method.</source>
-        <translation>Seleziona il metodo di caricamento automatico dei sottotitoli.</translation>
+        <translation>Selezionare il metodo di caricamento automatico dei sottotitoli.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="302"/>
@@ -5027,7 +5028,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="334"/>
         <source>Select the subtitle autoscaling method.</source>
-        <translation>Seleziona il metodo di scalatura automatica dei sottotitoli.</translation>
+        <translation>Selezionare il metodo di scalatura automatica dei sottotitoli.</translation>
     </message>
 </context>
 <context>
