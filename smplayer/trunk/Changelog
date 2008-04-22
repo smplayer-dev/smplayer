@@ -1,5 +1,10 @@
 [b]Version 0.6.0rc5[/b]:
 
+(2008-04-22)
+ * Using now QxtFileLock for the lock file in main.cpp. The QxtFileLock is
+   taken from the libqxt (http://www.libqxt.org). License of these files 
+   is CPL. The license files are in the src/libqxt subdirectory.
+
 (2008-04-20)
  * Added a preferences dialog for the playlist.
 

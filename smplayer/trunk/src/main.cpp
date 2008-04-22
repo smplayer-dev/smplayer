@@ -26,6 +26,11 @@
 #include <stdio.h>
 
 #define USE_LOCKS 1
+#define USE_QXT_LOCKS 1
+
+#if USE_LOCKS && USE_QXT_LOCKS
+#include "libqxt/qxtfilelock.h"
+#endif
 
 using namespace Global;
 
@@ -71,12 +76,21 @@ void myMessageOutput( QtMsgType type, const char *msg ) {
 }
 
 #if USE_LOCKS
+#if USE_QXT_LOCKS
+void clean_lock(QFile * f, QxtFileLock * lock) {
+	qDebug("main: clean_lock: %s", f->fileName().toUtf8().data());
+	lock->unlock();
+	f->close();
+	f->remove();
+}
+#else
 void remove_lock(QString lock_file) {
 	if (QFile::exists(lock_file)) {
-		qDebug("main: removing %s", lock_file.toUtf8().data());
+		qDebug("main: remove_lock: %s", lock_file.toUtf8().data());
 		QFile::remove(lock_file);
 	}
 }
+#endif
 #endif
 
 int main( int argc, char ** argv ) 
@@ -113,6 +127,34 @@ int main( int argc, char ** argv )
 
 	QString lock_file = Helper::iniPath() + "/smplayer_init.lock";
 	qDebug("main: lock_file: %s", lock_file.toUtf8().data());
+
+#if USE_QXT_LOCKS
+	QFile f(lock_file);
+	QxtFileLock write_lock(&f, 0x10, 30, QxtFileLock::WriteLock);
+
+	bool lock_ok = false;
+
+	if (f.open(QIODevice::ReadWrite)) {
+	 	if (write_lock.lock()) {
+			f.write("smplayer lock file");
+			lock_ok = true;
+		}
+	}
+	if (!lock_ok) {
+		//lock failed
+		qDebug("main: lock failed");
+
+		// Wait 10 secs max.
+		int n = 100;
+		while ( n > 0) {
+			Helper::msleep(100); // wait 100 ms
+			if (!QFile::exists(lock_file)) break;
+			n--;
+			if ((n % 10) == 0) qDebug("main: waiting %d...", n);
+		}
+		// Continue startup
+	}
+#else
 	if (QFile::exists(lock_file)) {
 		qDebug("main: %s exists, waiting...", lock_file.toUtf8().data());
 		// Wait 10 secs max.
@@ -135,13 +177,18 @@ int main( int argc, char ** argv )
 		}
 		
 	}
-#endif
+#endif // USE_QXT_LOCKS
+#endif // USE_LOCKS
 
 	SMPlayer * smplayer = new SMPlayer(ini_path);
 	SMPlayer::ExitCode c = smplayer->processArgs( args );
 	if (c != SMPlayer::NoExit) {
 #if USE_LOCKS
+#if USE_QXT_LOCKS
+		clean_lock(&f, &write_lock);
+#else
 		remove_lock(lock_file);
+#endif
 #endif
 		return c;
 	}
@@ -150,7 +197,11 @@ int main( int argc, char ** argv )
 	smplayer->start();
 
 #if USE_LOCKS
+#if USE_QXT_LOCKS
+	clean_lock(&f, &write_lock);
+#else
 	remove_lock(lock_file);
+#endif
 #endif
 
 	int r = a.exec();
