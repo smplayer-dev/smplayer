@@ -1389,7 +1389,11 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	// Set volume, requires a patched mplayer
-	if ((pref->use_volume_option) && (!pref->dont_change_volume)) {
+	bool use_volume_option = (pref->use_volume_option2 == Preferences::Enabled);
+	if (pref->use_volume_option2 == Preferences::Detect) {
+		use_volume_option = pref->mplayer_has_volume_option;
+	}
+	if ((use_volume_option) && (!pref->dont_change_volume)) {
 		proc->addArgument("-volume");
 		// Note: mset.volume may not be right, it can be the volume of the previous video if
 		// playing a new one, but I think it's better to use anyway the current volume on

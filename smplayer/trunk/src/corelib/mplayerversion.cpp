@@ -67,8 +67,14 @@ int MplayerVersion::mplayerVersion(QString string) {
 		else qWarning("MplayerVersion::mplayerVersion: unknown MPlayer version");
 	}
 
+	bool volume_option = string.contains("with -volume");
+	if (volume_option) {
+		qDebug("MplayerVersion::mplayerVersion: this build provides the -volume option");
+	}
+
 	if (pref) {
 		pref->mplayer_detected_version = mplayer_svn;
+		pref->mplayer_has_volume_option = volume_option;
 	}
 
 	return mplayer_svn;

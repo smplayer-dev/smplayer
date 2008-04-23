@@ -268,12 +268,13 @@ void Preferences::reset() {
     //mplayer log autosaving end
 
 	auto_add_to_playlist = true;
-	use_volume_option = false; 
+	use_volume_option2 = Detect; 
 
 	use_short_pathnames = false;
 
 	mplayer_detected_version = -1; //None version parsed yet
 	mplayer_user_supplied_version = -1;
+	mplayer_has_volume_option = false;
 }
 
 #ifdef USE_INI_FILES
@@ -456,7 +457,7 @@ void Preferences::save() {
     //mplayer log autosaving end
 
     set->setValue("auto_add_to_playlist", auto_add_to_playlist);
-	set->setValue("use_volume_option", use_volume_option);
+	set->setValue("use_volume_option2", use_volume_option2);
 
 	set->setValue("use_short_pathnames", use_short_pathnames);
 
@@ -494,6 +495,7 @@ void Preferences::save() {
 	set->beginGroup( "mplayer_info");
 	set->setValue("mplayer_detected_version", mplayer_detected_version);
 	set->setValue("mplayer_user_supplied_version", mplayer_user_supplied_version);
+	set->setValue("mplayer_has_volume_option", mplayer_has_volume_option);
 	set->endGroup();
 }
 
@@ -681,7 +683,7 @@ void Preferences::load() {
     //mplayer log autosaving end
 
 	auto_add_to_playlist = set->value("auto_add_to_playlist", auto_add_to_playlist).toBool();
-	use_volume_option = set->value("use_volume_option", use_volume_option).toBool();
+	use_volume_option2 = (OptionState) set->value("use_volume_option2", use_volume_option2).toInt();
 
 	use_short_pathnames = set->value("use_short_pathnames", use_short_pathnames).toBool();
 
@@ -719,6 +721,7 @@ void Preferences::load() {
 	set->beginGroup( "mplayer_info");
 	mplayer_detected_version = set->value("mplayer_detected_version", mplayer_detected_version).toInt();
 	mplayer_user_supplied_version = set->value("mplayer_user_supplied_version", mplayer_user_supplied_version).toInt();
+	mplayer_has_volume_option = set->value("mplayer_has_volume_option", mplayer_has_volume_option).toBool();
 	set->endGroup();
 
 	/*

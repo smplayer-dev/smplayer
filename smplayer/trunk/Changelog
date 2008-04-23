@@ -4,6 +4,12 @@
  * Using now QxtFileLock for the lock file in main.cpp. The QxtFileLock is
    taken from the libqxt (http://www.libqxt.org). License of these files 
    is CPL. The license files are in the src/libqxt subdirectory.
+ * Now smplayer can detect if mplayer has been patched with the 
+   startupvol patch. Autodetection will only succeed if mplayer has been
+   patched with this 2nd version of the patch: 
+   http://smplayer.svn.sourceforge.net/viewvc/*checkout*/smplayer/mplayer-builds/patches/startupvol-2.diff
+ * Now the option "Change volume just before playing" in 
+   Preferences->General->Audio can be set to "Auto".
 
 (2008-04-20)
  * Added a preferences dialog for the playlist.

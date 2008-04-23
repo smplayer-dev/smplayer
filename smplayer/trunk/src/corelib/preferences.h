@@ -286,7 +286,7 @@ public:
     //mplayer log autosaving end
 
 	bool auto_add_to_playlist; //!< Add files to open to playlist
-	bool use_volume_option; //!< Use -volume in command line
+	OptionState use_volume_option2; //!< Use -volume in command line
 
 	//! Windows only. If true, smplayer will pass short filenames to mplayer.
 	//! To workaround a bug in mplayer.
@@ -294,6 +294,7 @@ public:
 
 	//! Latest version of mplayer parsed
 	int mplayer_detected_version;
+	bool mplayer_has_volume_option;
 
 	//! Version of mplayer supplied by the user which will be used if
 	//! the version can't be parsed from mplayer output
