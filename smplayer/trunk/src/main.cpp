@@ -26,7 +26,11 @@
 #include <stdio.h>
 
 #define USE_LOCKS 1
-#define USE_QXT_LOCKS 0
+#if USE_LOCKS
+#ifdef USE_QXT
+#define USE_QXT_LOCKS 1
+#endif // USE_QXT
+#endif // USE_LOCKS
 
 #if USE_LOCKS && USE_QXT_LOCKS
 #include "libqxt/qxtfilelock.h"
@@ -77,6 +81,18 @@ void myMessageOutput( QtMsgType type, const char *msg ) {
 
 #if USE_LOCKS
 #if USE_QXT_LOCKS
+bool create_lock(QFile * f, QxtFileLock * lock) {
+	bool success = false;
+	if (f->open(QIODevice::ReadWrite)) {
+	 	if (lock->lock()) {
+			f->write("smplayer lock file");
+			success = true;
+		}
+	}
+	if (!success) f->close();
+	return success;
+}
+
 void clean_lock(QFile * f, QxtFileLock * lock) {
 	qDebug("main: clean_lock: %s", f->fileName().toUtf8().data());
 	lock->unlock();
@@ -132,14 +148,8 @@ int main( int argc, char ** argv )
 	QFile f(lock_file);
 	QxtFileLock write_lock(&f, 0x10, 30, QxtFileLock::WriteLock);
 
-	bool lock_ok = false;
+	bool lock_ok = create_lock(&f, &write_lock);
 
-	if (f.open(QIODevice::ReadWrite)) {
-	 	if (write_lock.lock()) {
-			f.write("smplayer lock file");
-			lock_ok = true;
-		}
-	}
 	if (!lock_ok) {
 		//lock failed
 		qDebug("main: lock failed");
@@ -148,7 +158,8 @@ int main( int argc, char ** argv )
 		int n = 100;
 		while ( n > 0) {
 			Helper::msleep(100); // wait 100 ms
-			if (!QFile::exists(lock_file)) break;
+			//if (!QFile::exists(lock_file)) break;
+			if (create_lock(&f, &write_lock)) break;
 			n--;
 			if ((n % 10) == 0) qDebug("main: waiting %d...", n);
 		}
