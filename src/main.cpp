@@ -33,7 +33,8 @@
 #endif // USE_LOCKS
 
 #if USE_LOCKS && USE_QXT_LOCKS
-#include "libqxt/qxtfilelock.h"
+//#include "libqxt/qxtfilelock.h"
+#include <QxtFileLock>
 #endif
 
 using namespace Global;
