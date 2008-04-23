@@ -26,7 +26,7 @@
 #include <stdio.h>
 
 #define USE_LOCKS 1
-#define USE_QXT_LOCKS 1
+#define USE_QXT_LOCKS 0
 
 #if USE_LOCKS && USE_QXT_LOCKS
 #include "libqxt/qxtfilelock.h"
