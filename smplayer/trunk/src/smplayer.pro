@@ -12,6 +12,8 @@ INCLUDEPATH += corelib
 DEPENDPATH += corelib
 DEFINES += USE_INI_FILES
 
+#DEFINES += USE_QXT
+
 HEADERS	+= guiconfig.h \
     corelib/config.h \
 	corelib/constants.h \
@@ -81,8 +83,7 @@ HEADERS	+= guiconfig.h \
 	defaultgui.h \
 	minigui.h \
 	smplayer.h \
-	clhelp.h \
-    libqxt/qxtfilelock.h
+	clhelp.h
 
 
 SOURCES	+= version.cpp \
@@ -151,8 +152,20 @@ SOURCES	+= version.cpp \
 	minigui.cpp \
 	clhelp.cpp \
 	smplayer.cpp \
-    libqxt/qxtfilelock.cpp \
 	main.cpp
+
+#libqxt
+contains(DEFINES, USE_QXT) {
+	HEADERS += libqxt/qxtfilelock.h
+	SOURCES += libqxt/qxtfilelock.cpp
+
+	unix {
+		SOURCES += libqxt/qxtfilelock_unix.cpp
+	}
+	win32 {
+		SOURCES +=  libqxt/qxtfilelock_win.cpp
+	}
+}
 
 FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
         eqslider.ui seekwidget.ui inputurl.ui \
@@ -198,8 +211,6 @@ unix {
   #	SOURCES += mysystemtrayicon.cpp
   #}
 
-  SOURCES += libqxt/qxtfilelock_unix.cpp
-
   #HEADERS += 	prefassociations.h winfileassoc.h
   #SOURCES += 	prefassociations.cpp winfileassoc.cpp
   #FORMS += prefassociations.ui
@@ -208,8 +219,6 @@ unix {
 win32 {
 	HEADERS += 	prefassociations.h winfileassoc.h corelib/screensaver.h
 	SOURCES += 	prefassociations.cpp winfileassoc.cpp corelib/screensaver.cpp
-    SOURCES +=  libqxt/qxtfilelock_win.cpp
-
 	FORMS += prefassociations.ui
 
 	contains(TEMPLATE,vcapp) {
