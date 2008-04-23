@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -743,7 +744,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1104"/>
         <source>&amp;Playlist</source>
-        <translation>&amp;Плейлист</translation>
+        <translation>С&amp;писок</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1107"/>
@@ -2346,7 +2347,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="300"/>
         <source>Preferences</source>
-        <translation type="unfinished">Настройки</translation>
+        <translation>Настройки</translation>
     </message>
 </context>
 <context>
@@ -2354,27 +2355,27 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlistpreferences.ui" line="13"/>
         <source>Playlist - Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Список - Настройки</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.cpp" line="32"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите эту опцию, если вы хотите, чтобы при добавлении каталога подкаталоги тоже добавлялись рекурсивно. Иначе будут добавлены только файлы из текущего каталога.</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="28"/>
         <source>&amp;Add files in directories recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Добавить файлы из каталогов рекурсивно</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.cpp" line="39"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите эту опцию, чтобы извлечь из добавляемых в список файлов некоторую информацию. Это позволяет отображать имя (если доступно) и информацию о файлах. Иначе эта информация не будет доступна, пока файл не начнёт воспроизводиться. Будьте осторожны: эта опция может быть медленной, особенно при большом количестве добавляемых файлов.</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="35"/>
         <source>Automatically get &amp;info about files added</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматически получать &amp;сведения о добавляемых файлах</translation>
     </message>
 </context>
 <context>
@@ -5027,7 +5028,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="160"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
-        <translation>&apos;media&apos; – любой вид файла, который может открыть SMPlayer. Это может быть локальный файл, DVD (т.е. dvd://1), интернет-поток (т.е. mms://...) или локальный плейлист в формате m3u или pls. Если используется опция -playlist, это означает, что SMPlayer передаст эту опцию MPlayer-у и её воспримет он, а не SMPlayer.</translation>
+        <translation>&apos;media&apos; – любой вид файла, который может открыть SMPlayer. Это может быть локальный файл, DVD (т.е. dvd://1), интернет-поток (т.е. mms://...) или локальный список (плейлист) в формате m3u или pls. Если используется опция -playlist, это означает, что SMPlayer передаст эту опцию MPlayer-у и её воспримет он, а не SMPlayer.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="103"/>
