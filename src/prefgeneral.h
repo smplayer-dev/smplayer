@@ -129,8 +129,8 @@ protected:
 	bool dontChangeVolume();
 
 	// Use -volume option
-	void setUseVolume(bool b);
-	bool useVolume();
+	void setUseVolume(Preferences::OptionState value);
+	Preferences::OptionState useVolume();
 
 	void setAudioChannels(int ID);
 	int audioChannels();

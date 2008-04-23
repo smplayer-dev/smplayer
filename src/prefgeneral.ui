@@ -5,8 +5,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>543</width>
-    <height>460</height>
+    <width>595</width>
+    <height>517</height>
    </rect>
   </property>
   <property name="windowIcon" >
@@ -640,20 +640,22 @@
              </spacer>
             </item>
             <item>
-             <widget class="QCheckBox" name="use_volume_option_check" >
+             <widget class="QLabel" name="use_volume_label" >
               <property name="enabled" >
                <bool>false</bool>
               </property>
-              <property name="sizePolicy" >
-               <sizepolicy>
-                <hsizetype>7</hsizetype>
-                <vsizetype>0</vsizetype>
-                <horstretch>0</horstretch>
-                <verstretch>0</verstretch>
-               </sizepolicy>
-              </property>
               <property name="text" >
                <string>Change volume just before p&amp;laying (avoids loud volume on startup)</string>
+              </property>
+              <property name="buddy" >
+               <cstring>use_volume_combo</cstring>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="TristateCombo" name="use_volume_combo" >
+              <property name="enabled" >
+               <bool>false</bool>
               </property>
              </widget>
             </item>
@@ -1027,7 +1029,7 @@ For translators: don't translate this text, it will be replaced with another one
   <tabstop>volnorm_check</tabstop>
   <tabstop>change_volume_check</tabstop>
   <tabstop>initial_volume_slider</tabstop>
-  <tabstop>use_volume_option_check</tabstop>
+  <tabstop>use_volume_combo</tabstop>
   <tabstop>hwac3_check</tabstop>
   <tabstop>channels_combo</tabstop>
   <tabstop>scaletempo_combo</tabstop>
@@ -1153,16 +1155,32 @@ For translators: don't translate this text, it will be replaced with another one
   <connection>
    <sender>change_volume_check</sender>
    <signal>toggled(bool)</signal>
-   <receiver>use_volume_option_check</receiver>
+   <receiver>use_volume_label</receiver>
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel" >
      <x>124</x>
-     <y>425</y>
+     <y>143</y>
     </hint>
     <hint type="destinationlabel" >
-     <x>271</x>
-     <y>455</y>
+     <x>277</x>
+     <y>176</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>change_volume_check</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>use_volume_combo</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>124</x>
+     <y>143</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>534</x>
+     <y>176</y>
     </hint>
    </hints>
   </connection>
