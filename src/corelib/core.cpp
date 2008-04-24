@@ -1320,7 +1320,7 @@ void Core::startMplayer( QString file, double seek ) {
 			#endif
 			fi.setFile(mset.external_subtitles);
 
-			QString s = fi.path() +"/"+ fi.baseName();
+			QString s = fi.path() +"/"+ fi.completeBaseName();
 			qDebug("Core::startMplayer: subtitle file without extension: '%s'", s.toUtf8().data());
 			proc->addArgument("-vobsub");
 			proc->addArgument( s );
