@@ -158,16 +158,6 @@ SOURCES	+= version.cpp \
 contains(DEFINES, USE_QXT) {
 	CONFIG  += qxt
 	QXT     += core
-
-	#HEADERS += libqxt/qxtfilelock.h
-	#SOURCES += libqxt/qxtfilelock.cpp
-
-	#unix {
-	#	SOURCES += libqxt/qxtfilelock_unix.cpp
-	#}
-	#win32 {
-	#	SOURCES +=  libqxt/qxtfilelock_win.cpp
-	#}
 }
 
 FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
