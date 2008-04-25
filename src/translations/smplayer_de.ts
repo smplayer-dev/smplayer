@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -280,7 +281,7 @@
     <message>
         <location filename="../about.cpp" line="50"/>
         <source>Using MPlayer %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Unter Einsatz von MPlayer %1</translation>
     </message>
 </context>
 <context>
