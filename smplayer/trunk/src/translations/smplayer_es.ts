@@ -275,7 +275,7 @@
     <message>
         <location filename="../about.cpp" line="50"/>
         <source>Using MPlayer %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Usando MPlayer %1</translation>
     </message>
 </context>
 <context>
