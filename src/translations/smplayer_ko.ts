@@ -3,222 +3,217 @@
 <context>
     <name>About</name>
     <message>
-        <location filename="../about.cpp" line="43"/>
-        <source>Using MPlayer SVN r%1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="48"/>
+        <location filename="../about.cpp" line="55"/>
         <source>Version: %1</source>
         <translation type="unfinished">버전: %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="50"/>
+        <location filename="../about.cpp" line="57"/>
         <source>Compiled with Qt %1</source>
         <translation type="unfinished">Qt %1 버전과 함께 컴파일</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="52"/>
+        <location filename="../about.cpp" line="59"/>
         <source>Visit our web for updates:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="56"/>
+        <location filename="../about.cpp" line="63"/>
         <source>Get help in our forum:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="58"/>
+        <location filename="../about.cpp" line="65"/>
         <source>You can support SMPlayer by making a donation.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="59"/>
+        <location filename="../about.cpp" line="67"/>
         <source>More info</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="81"/>
+        <location filename="../about.cpp" line="89"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
         <translation type="unfinished">이 프로그램은 자유 소프트웨어입니다. 자유 소프트웨어 재단에서 배포되는 GNU 일반 공중 사용 허가서(2판 이상)에 의해 자유롭게 수정하고/하거나 재배포할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="88"/>
+        <location filename="../about.cpp" line="96"/>
         <source>Some people have helped with their contributions:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="89"/>
+        <location filename="../about.cpp" line="97"/>
         <source>SMPlayer logo</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="90"/>
+        <location filename="../about.cpp" line="98"/>
         <source>file associations for Windows</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="91"/>
+        <location filename="../about.cpp" line="99"/>
         <source>manpage for linux</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="92"/>
+        <location filename="../about.cpp" line="100"/>
         <source>support for colored console output</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="93"/>
+        <location filename="../about.cpp" line="101"/>
         <source>icon for file associations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="94"/>
+        <location filename="../about.cpp" line="102"/>
         <source>patch for file associations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="129"/>
+        <location filename="../about.cpp" line="139"/>
         <source>The following people have contributed with translations:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="130"/>
+        <location filename="../about.cpp" line="140"/>
         <source>German</source>
         <translation type="unfinished">독일어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="131"/>
+        <location filename="../about.cpp" line="141"/>
         <source>Slovak</source>
         <translation type="unfinished">슬로바키아어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="132"/>
+        <location filename="../about.cpp" line="142"/>
         <source>Italian</source>
         <translation type="unfinished">이탈리아어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="133"/>
+        <location filename="../about.cpp" line="143"/>
         <source>French</source>
         <translation type="unfinished">프랑스어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="134"/>
+        <location filename="../about.cpp" line="144"/>
         <source>%1, %2 and %3</source>
         <translation type="unfinished">%1, %2, %3</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="137"/>
+        <location filename="../about.cpp" line="147"/>
         <source>Simplified-Chinese</source>
         <translation type="unfinished">중국어(간체)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="138"/>
+        <location filename="../about.cpp" line="148"/>
         <source>Russian</source>
         <translation type="unfinished">러시아어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="141"/>
+        <location filename="../about.cpp" line="151"/>
         <source>%1 and %2</source>
         <translation type="unfinished">%1, %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="139"/>
+        <location filename="../about.cpp" line="149"/>
         <source>Hungarian</source>
         <translation type="unfinished">헝가리어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="140"/>
+        <location filename="../about.cpp" line="150"/>
         <source>Polish</source>
         <translation type="unfinished">폴란드어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="143"/>
+        <location filename="../about.cpp" line="153"/>
         <source>Japanese</source>
         <translation type="unfinished">일본어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="144"/>
+        <location filename="../about.cpp" line="154"/>
         <source>Dutch</source>
         <translation type="unfinished">네덜란드어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="145"/>
+        <location filename="../about.cpp" line="155"/>
         <source>Ukrainian</source>
         <translation type="unfinished">우크라이나어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="146"/>
+        <location filename="../about.cpp" line="156"/>
         <source>Portuguese - Brazil</source>
         <translation type="unfinished">포르투갈어(브라질)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="147"/>
+        <location filename="../about.cpp" line="157"/>
         <source>Georgian</source>
         <translation type="unfinished">그루지야어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="148"/>
+        <location filename="../about.cpp" line="158"/>
         <source>Czech</source>
         <translation type="unfinished">체코어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="149"/>
+        <location filename="../about.cpp" line="159"/>
         <source>Bulgarian</source>
         <translation type="unfinished">불가리아어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="150"/>
+        <location filename="../about.cpp" line="160"/>
         <source>Turkish</source>
         <translation type="unfinished">터키어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="151"/>
+        <location filename="../about.cpp" line="161"/>
         <source>Swedish</source>
         <translation type="unfinished">스웨덴어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="152"/>
+        <location filename="../about.cpp" line="162"/>
         <source>Serbian</source>
         <translation type="unfinished">세르비아어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="153"/>
+        <location filename="../about.cpp" line="163"/>
         <source>Traditional Chinese</source>
         <translation type="unfinished">중국어(번체)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="154"/>
+        <location filename="../about.cpp" line="164"/>
         <source>Romanian</source>
         <translation type="unfinished">루마니아어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="155"/>
+        <location filename="../about.cpp" line="165"/>
         <source>Portuguese - Portugal</source>
         <translation type="unfinished">포르투갈어(포르투갈)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="156"/>
+        <location filename="../about.cpp" line="166"/>
         <source>Greek</source>
         <translation type="unfinished">그리스어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="157"/>
+        <location filename="../about.cpp" line="167"/>
         <source>Finnish</source>
         <translation type="unfinished">핀란드어</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="158"/>
+        <location filename="../about.cpp" line="168"/>
         <source>Korean</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="165"/>
+        <location filename="../about.cpp" line="175"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation type="unfinished">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="174"/>
+        <location filename="../about.cpp" line="184"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -253,14 +248,19 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="159"/>
+        <location filename="../about.cpp" line="169"/>
         <source>Macedonian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="160"/>
+        <location filename="../about.cpp" line="170"/>
         <source>Basque</source>
         <translation type="unfinished">바스크어</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="50"/>
+        <source>Using MPlayer %1</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1422,42 +1422,42 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../corelib/core.cpp" line="2030"/>
+        <location filename="../corelib/core.cpp" line="2034"/>
         <source>Brightness: %1</source>
         <translation>밝기: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2039"/>
+        <location filename="../corelib/core.cpp" line="2043"/>
         <source>Contrast: %1</source>
         <translation>대비: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2047"/>
+        <location filename="../corelib/core.cpp" line="2051"/>
         <source>Gamma: %1</source>
         <translation>감마: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2055"/>
+        <location filename="../corelib/core.cpp" line="2059"/>
         <source>Hue: %1</source>
         <translation>색조: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2063"/>
+        <location filename="../corelib/core.cpp" line="2067"/>
         <source>Saturation: %1</source>
         <translation>채도: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2182"/>
+        <location filename="../corelib/core.cpp" line="2186"/>
         <source>Volume: %1</source>
         <translation>음량: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2853"/>
+        <location filename="../corelib/core.cpp" line="2857"/>
         <source>Zoom: %1</source>
         <translation>배율: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2301"/>
+        <location filename="../corelib/core.cpp" line="2305"/>
         <source>Font scale: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2982,7 +2982,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>영상(&amp;I):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="840"/>
+        <location filename="../prefgeneral.ui" line="842"/>
         <source>&amp;Audio:</source>
         <translation>오디오(&amp;A):</translation>
     </message>
@@ -3002,7 +3002,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="obsolete">오디오(&amp;U):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="859"/>
+        <location filename="../prefgeneral.ui" line="861"/>
         <source>Su&amp;btitles:</source>
         <translation>자막(&amp;B):</translation>
     </message>
@@ -3042,7 +3042,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>최대 음량 확대(&amp;X):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="668"/>
+        <location filename="../prefgeneral.ui" line="670"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
         <translation>S/PDIF 통과 &amp;AC3/DTS</translation>
     </message>
@@ -3117,7 +3117,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>6개 (5.1 서라운드)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="683"/>
+        <location filename="../prefgeneral.ui" line="685"/>
         <source>C&amp;hannels by default:</source>
         <translation>기본 채널 수(&amp;H):</translation>
     </message>
@@ -3217,27 +3217,27 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>새로운 파일을 재생할 때 사용될 기본 자막 트랙을 지정합니다. 만약 해당하는 트랙이 존재하지 않으면, 첫 트랙이 사용될 것입니다.&lt;br&gt;&lt;b&gt;주의:&lt;/b&gt; &quot;사용할 자막 언어&quot; 옵션이 이 옵션보다 우선적으로 적용됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="968"/>
+        <location filename="../prefgeneral.ui" line="970"/>
         <source>Or choose a track number:</source>
         <translation>또는 트랙 번호를 지정하십시요:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="909"/>
+        <location filename="../prefgeneral.ui" line="911"/>
         <source>Audi&amp;o:</source>
         <translation>오디오(&amp;O):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="875"/>
+        <location filename="../prefgeneral.ui" line="877"/>
         <source>Preferred language:</source>
         <translation>사용할 언어:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="773"/>
+        <location filename="../prefgeneral.ui" line="775"/>
         <source>Preferre&amp;d audio and subtitles</source>
         <translation>사용할 오디오 및 자막(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="922"/>
+        <location filename="../prefgeneral.ui" line="924"/>
         <source>&amp;Subtitle:</source>
         <translation>자막(&amp;S):</translation>
     </message>
@@ -3247,13 +3247,13 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>오디오 및 자막 스트림에 사용할 언어를 지정할 수 있습니다. 만약 사용할 수 있는 오디오 또는 자막 스트림이 여러 개인 경우, SMPlayer는 여기서 지정된 언어를 사용하려고 시도합니다.&lt;br&gt;이 옵션은 DVD나 mkv 파일과 같이 오디오와 자막 스트림의 언어에 대한 정보가 주어지는 미디어 파일에 대해서만 적용됩니다.&lt;br&gt;이 칸에는 정규 표현식을 입력할 수 있습니다. 예를 들어, &lt;b&gt;ko|kr|kor&lt;/b&gt;은 &lt;i&gt;ko&lt;/i&gt;, &lt;i&gt;kr&lt;/i&gt; 및 &lt;i&gt;kor&lt;/i&gt;에 대응되는 오디오 트랙을 선택하게 합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="785"/>
+        <location filename="../prefgeneral.ui" line="787"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
         <translation>.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="719"/>
+        <location filename="../prefgeneral.ui" line="721"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>음조를 변경하지 않고 고속 재생(&amp;P)</translation>
     </message>
@@ -3298,7 +3298,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">음량</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="656"/>
+        <location filename="../prefgeneral.ui" line="648"/>
         <source>Change volume just before p&amp;laying (avoids loud volume on startup)</source>
         <translation type="unfinished"></translation>
     </message>
