@@ -22,6 +22,7 @@
 #include "global.h"
 #include "preferences.h"
 #include "helper.h"
+#include "mplayerversion.h"
 
 #include <QFile>
 
@@ -40,7 +41,13 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 
 	QString mplayer_version;
 	if (pref->mplayer_detected_version > 0) {
-		mplayer_version = tr("Using MPlayer SVN r%1").arg(pref->mplayer_detected_version) + "<br><br>";
+		QString version;
+		switch (pref->mplayer_detected_version) {
+			case MPLAYER_1_0_RC1_SVN: version = "1.0rc1"; break;
+			case MPLAYER_1_0_RC2_SVN: version = "1.0rc2"; break;
+			default : version =  QString("SVN r%1").arg(pref->mplayer_detected_version);
+		}
+		mplayer_version = tr("Using MPlayer %1").arg(version) + "<br><br>";
 	}
 
 	info->setText( 
@@ -56,7 +63,8 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 		tr("Get help in our forum:") +"<br>" + link("http://smplayer.berlios.de/forums") +
         "<br><br>" +
 		tr("You can support SMPlayer by making a donation.") +" "+
-		link("https://sourceforge.net/donate/index.php?group_id=185512", tr("More info"))
+		//link("https://sourceforge.net/donate/index.php?group_id=185512", tr("More info"))
+		link("http://kde-apps.org/content/donate.php?content=54487",  tr("More info"))
 	);
 
 
@@ -118,6 +126,8 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 	contributions->setPalette(p);
 	translators->setPalette(p);
 	//license->setPalette(p);
+
+	adjustSize();
 }
 
 About::~About() {
@@ -172,6 +182,10 @@ QString About::link(const QString & url, QString name) {
 
 QString About::contr(const QString & author, const QString & thing) {
 	return "<li>"+ tr("<b>%1</b> (%2)").arg(author).arg(thing) +"</li>";
+}
+
+QSize About::sizeHint () const {
+	return QSize(518, 326);
 }
 
 #include "moc_about.cpp"

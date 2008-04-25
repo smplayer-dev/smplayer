@@ -37,6 +37,8 @@ public:
 	About( QWidget * parent = 0, Qt::WindowFlags f = 0 );
 	~About();
 
+	virtual QSize sizeHint () const;
+
 protected:
 	QString getTranslators();
 
