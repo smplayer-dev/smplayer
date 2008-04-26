@@ -2786,6 +2786,8 @@ void BaseGui::toggleFullscreen(bool b) {
 
 
 	if (pref->fullscreen) {
+		compactAct->setEnabled(false);
+
 		if (pref->restore_pos_after_fullscreen) {
 			win_pos = pos();
 			win_size = size();
@@ -2819,6 +2821,8 @@ void BaseGui::toggleFullscreen(bool b) {
 			move( win_pos );
 			resize( win_size );
 		}
+
+		compactAct->setEnabled(true);
 	}
 
 	updateWidgets();

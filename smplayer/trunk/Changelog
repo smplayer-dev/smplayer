@@ -5,6 +5,8 @@
    audio and playlist files.
  * Added an option in the playlist's preferences to save a copy of the
    contents of the playlist to the config file.
+ * (Bugfix) Don't allow to enter in compact mode when in fullscreen. 
+   Fixes bug #1951297.
 
 (2008-04-25)
  * Added a new widget (a line edit + a button) which allows the user to
