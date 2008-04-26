@@ -37,6 +37,13 @@
     </widget>
    </item>
    <item>
+    <widget class="QCheckBox" name="autosave_on_exit_check" >
+     <property name="text" >
+      <string>&amp;Save copy of playlist on exit</string>
+     </property>
+    </widget>
+   </item>
+   <item>
     <widget class="Line" name="line" >
      <property name="orientation" >
       <enum>Qt::Horizontal</enum>

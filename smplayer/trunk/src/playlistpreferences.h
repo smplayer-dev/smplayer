@@ -35,6 +35,9 @@ public:
 	void setAutoGetInfo(bool b);
 	bool autoGetInfo();
 
+	void setSavePlaylistOnExit(bool b);
+	bool savePlaylistOnExit();
+
 	virtual QSize sizeHint () const;
 };
 

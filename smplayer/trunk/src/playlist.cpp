@@ -71,6 +71,7 @@ using namespace Global;
 Playlist::Playlist( Core *c, QWidget * parent, Qt::WindowFlags f)
 	: QWidget(parent,f) 
 {
+	save_playlist_in_config = true;
 	recursive_add_directory = false;
 #ifdef Q_OS_WIN
 	automatically_get_info = false;
@@ -1134,10 +1135,12 @@ void Playlist::editPreferences() {
 
 	d.setDirectoryRecursion(recursive_add_directory);
 	d.setAutoGetInfo(automatically_get_info);
+	d.setSavePlaylistOnExit(save_playlist_in_config);
 
 	if (d.exec() == QDialog::Accepted) {
 		recursive_add_directory = d.directoryRecursion();
 		automatically_get_info = d.autoGetInfo();
+		save_playlist_in_config = d.savePlaylistOnExit();
 	}
 }
 
@@ -1219,6 +1222,7 @@ void Playlist::saveSettings() {
 
 	set->setValue( "auto_get_info", automatically_get_info );
 	set->setValue( "recursive_add_directory", recursive_add_directory );
+	set->setValue( "save_playlist_in_config", save_playlist_in_config );
 
 //#if !DOCK_PLAYLIST
 	set->setValue( "window_width", size().width() );
@@ -1228,19 +1232,21 @@ void Playlist::saveSettings() {
 
 	set->endGroup();
 
-	//Save current list
-	set->beginGroup( "playlist_contents");
+	if (save_playlist_in_config) {
+		//Save current list
+		set->beginGroup( "playlist_contents");
 
-	set->setValue( "count", (int) pl.count() );
-	for ( int n=0; n < pl.count(); n++ ) {
-		set->setValue( QString("item_%1_filename").arg(n), pl[n].filename() );
-		set->setValue( QString("item_%1_duration").arg(n), pl[n].duration() );
-		set->setValue( QString("item_%1_name").arg(n), pl[n].name() );
+		set->setValue( "count", (int) pl.count() );
+		for ( int n=0; n < pl.count(); n++ ) {
+			set->setValue( QString("item_%1_filename").arg(n), pl[n].filename() );
+			set->setValue( QString("item_%1_duration").arg(n), pl[n].duration() );
+			set->setValue( QString("item_%1_name").arg(n), pl[n].name() );
+		}
+		set->setValue( "current_item", current_item );
+		set->setValue( "modified", modified );
+
+		set->endGroup();
 	}
-	set->setValue( "current_item", current_item );
-	set->setValue( "modified", modified );
-
-	set->endGroup();
 }
 
 void Playlist::loadSettings() {
@@ -1255,6 +1261,7 @@ void Playlist::loadSettings() {
 
 	automatically_get_info = set->value( "auto_get_info", automatically_get_info ).toBool();
 	recursive_add_directory = set->value( "recursive_add_directory", recursive_add_directory ).toBool();
+	save_playlist_in_config = set->value( "save_playlist_in_config", save_playlist_in_config ).toBool();
 
 //#if !DOCK_PLAYLIST
 	QSize s;
@@ -1267,23 +1274,25 @@ void Playlist::loadSettings() {
 
 	set->endGroup();
 
-	//Load latest list
-	set->beginGroup( "playlist_contents");
+	if (save_playlist_in_config) {
+		//Load latest list
+		set->beginGroup( "playlist_contents");
 
-	int count = set->value( "count", 0 ).toInt();
-	QString filename, name;
-	double duration;
-	for ( int n=0; n < count; n++ ) {
-		filename = set->value( QString("item_%1_filename").arg(n), "" ).toString();
-		duration = set->value( QString("item_%1_duration").arg(n), -1 ).toDouble();
-		name = set->value( QString("item_%1_name").arg(n), "" ).toString();
-		addItem( filename, name, duration );
+		int count = set->value( "count", 0 ).toInt();
+		QString filename, name;
+		double duration;
+		for ( int n=0; n < count; n++ ) {
+			filename = set->value( QString("item_%1_filename").arg(n), "" ).toString();
+			duration = set->value( QString("item_%1_duration").arg(n), -1 ).toDouble();
+			name = set->value( QString("item_%1_name").arg(n), "" ).toString();
+			addItem( filename, name, duration );
+		}
+		setCurrentItem( set->value( "current_item", -1 ).toInt() );
+		setModified( set->value( "modified", false ).toBool() );
+		updateView();
+
+		set->endGroup();
 	}
-	setCurrentItem( set->value( "current_item", -1 ).toInt() );
-	setModified( set->value( "modified", false ).toBool() );
-	updateView();
-
-	set->endGroup();
 }
 
 QString Playlist::lastDir() {

@@ -215,6 +215,7 @@ private:
 	//Preferences
 	bool recursive_add_directory;
 	bool automatically_get_info;
+	bool save_playlist_in_config;
 };
 
 
