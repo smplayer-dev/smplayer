@@ -46,6 +46,7 @@ HEADERS	+= guiconfig.h \
 	mytablewidget.h \
 	shortcutgetter.h \
 	actionseditor.h \
+    filechooser.h \
 	preferencesdialog.h \
 	mycombobox.h \
 	tristatecombo.h \
@@ -114,6 +115,7 @@ SOURCES	+= version.cpp \
 	mytablewidget.cpp \
 	shortcutgetter.cpp \
 	actionseditor.cpp \
+    filechooser.cpp \
 	preferencesdialog.cpp \
 	mycombobox.cpp \
 	tristatecombo.cpp \
@@ -165,7 +167,7 @@ FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
         preferencesdialog.ui prefgeneral.ui prefdrives.ui prefinterface.ui \
         prefperformance.ui prefinput.ui prefsubtitles.ui prefadvanced.ui \
         about.ui inputmplayerversion.ui errordialog.ui timedialog.ui \
-        playlistpreferences.ui
+        playlistpreferences.ui filechooser.ui
 
 TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_de.ts \
                translations/smplayer_sk.ts translations/smplayer_it.ts \

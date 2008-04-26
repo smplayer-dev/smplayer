@@ -31,11 +31,15 @@ PrefSubtitles::PrefSubtitles(QWidget * parent, Qt::WindowFlags f)
 {
 	setupUi(this);
 
+	ttf_font_edit->setDialogType(FileChooser::GetFileName);
+#ifdef Q_OS_WIN
+	ttf_font_edit->setOptions(QFileDialog::DontUseNativeDialog);
+#endif
+
 	encodings = new Encodings(this);
 	font_encoding_combo->insertItems( 0, encodings->list() );
 
-	//languageChange();
-	createHelp();
+	retranslateStrings();
 }
 
 PrefSubtitles::~PrefSubtitles()
@@ -68,6 +72,9 @@ void PrefSubtitles::retranslateStrings() {
 	font_encoding_combo->setCurrentIndex(font_encoding_item);
 
 	sub_pos_label->setNum( sub_pos_slider->value() );
+
+	ttf_font_edit->setCaption(tr("Choose a ttf file"));
+	ttf_font_edit->setFilter(tr("Truetype Fonts") + " (*.ttf)");
 
 	createHelp();
 }
@@ -253,25 +260,6 @@ bool PrefSubtitles::subtitlesOnScreenshots() {
 	return subtitles_on_screeshots_check->isChecked();
 }
 
-
-void PrefSubtitles::on_searchButton_clicked() {
-	QString s = "";
-
-	QString f;
-
-	s = MyFileDialog::getOpenFileName(
-                        this, tr("Choose a ttf file"), 
-	                    ttf_font_edit->text(),
-    	                tr("Truetype Fonts") + " (*.ttf)"
-#ifdef Q_OS_WIN
-                        , &f, QFileDialog::DontUseNativeDialog
-#endif
-                        );
-
-	if (!s.isEmpty()) {
-		ttf_font_edit->setText(s);
-	}
-}
 
 void PrefSubtitles::on_colorButton_clicked() {
 	QColor c = QColorDialog::getColor ( ass_color, this );

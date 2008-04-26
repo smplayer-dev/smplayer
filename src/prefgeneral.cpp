@@ -28,6 +28,9 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 {
 	setupUi(this);
 
+	mplayerbin_edit->setDialogType(FileChooser::GetFileName);
+	screenshot_edit->setDialogType(FileChooser::GetDirectory);
+
 	// Read driver info from InfoReader:
 	InfoReader * i = InfoReader::obj();
 	setDrivers( i->voList(), i->aoList() );
@@ -37,7 +40,6 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 	channels_combo->addItem( "4", MediaSettings::ChSurround );
 	channels_combo->addItem( "6", MediaSettings::ChFull51 );
 
-	//createHelp();
 	retranslateStrings();
 }
 
@@ -77,6 +79,14 @@ void PrefGeneral::retranslateStrings() {
     resize_window_icon->setPixmap( Images::icon("resize_window") );
     volume_icon->setPixmap( Images::icon("speaker") );
 	*/
+
+	mplayerbin_edit->setCaption(tr("Select the mplayer executable"));
+#ifdef Q_OS_WIN
+	mplayerbin_edit->setFilter(tr("Executables") +" (*.exe)");
+#else
+	mplayerbin_edit->setFilter(tr("All files") +" (*)");
+#endif
+	screenshot_edit->setCaption(tr("Select a directory"));
 
 	preferred_desc->setText(
 		tr("Here you can type your preferred language for the audio "
@@ -451,32 +461,6 @@ void PrefGeneral::setScaleTempoFilter(Preferences::OptionState value) {
 
 Preferences::OptionState PrefGeneral::scaleTempoFilter() {
 	return scaletempo_combo->state();
-}
-
-// Search mplayer executable
-void PrefGeneral::on_searchButton_clicked() {
-	QString	s = MyFileDialog::getOpenFileName(
-                        this, tr("Select the mplayer executable"),
-	                    mplayerbin_edit->text(),
-#ifdef Q_OS_WIN
-    	                tr("Executables") +" (*.exe)"
-#else
-    	                tr("All files") +" (*)"
-#endif
-            	         );
-
-	if (!s.isEmpty()) {
-		mplayerbin_edit->setText(s);
-	}
-}
-
-void PrefGeneral::on_selectButton_clicked() {
-	QString s = MyFileDialog::getExistingDirectory(
-					this, tr("Select a directory"), 
-                    screenshot_edit->text() );
-	if (!s.isEmpty()) {
-		screenshot_edit->setText(s);
-	}
 }
 
 void PrefGeneral::createHelp() {
