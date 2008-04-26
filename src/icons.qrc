@@ -98,5 +98,6 @@
         <file>icons-png/angle.png</file>
         <file>icons-png/rotate.png</file>
         <file>icons-png/warning.png</file>
+        <file>icons-png/find.png</file>
     </qresource>
 </RCC>

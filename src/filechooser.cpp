@@ -24,7 +24,7 @@ FileChooser::FileChooser(QWidget * parent) : QWidget(parent)
 {
 	setupUi(this);
 
-	button->setIcon(Images::icon("openfolder"));
+	button->setIcon(Images::icon("find"));
 
 	setDialogType(GetFileName);
 	setOptions(0);
