@@ -41,10 +41,12 @@ public:
 	ExtensionList playlist() { return _playlist; };
 	ExtensionList subtitles() { return _subtitles; };
 	ExtensionList multimedia() { return _multimedia; };
+	ExtensionList allPlayable() { return _all_playable; };
 
 protected:
 	ExtensionList _video, _audio, _playlist, _subtitles;
-	ExtensionList _multimedia; // video and audio
+	ExtensionList _multimedia; //!< video and audio
+	ExtensionList _all_playable; //!< video, audio and playlist
 };
 
 #endif

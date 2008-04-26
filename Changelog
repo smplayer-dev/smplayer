@@ -1,5 +1,9 @@
 [b]Version 0.6.0rc5[/b]:
 
+(2008-04-26)
+ * Now the default filter for Open->File is "multimedia", it shows video,
+   audio and playlist files.
+
 (2008-04-25)
  * Added a new widget (a line edit + a button) which allows the user to
    select a file or directory. The preferences dialog now uses this widget.
