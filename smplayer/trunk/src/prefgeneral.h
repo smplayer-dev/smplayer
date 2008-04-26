@@ -140,10 +140,6 @@ protected:
 
 protected:
 	virtual void retranslateStrings();
-
-protected slots:
-	void on_searchButton_clicked();
-	void on_selectButton_clicked();
 };
 
 #endif

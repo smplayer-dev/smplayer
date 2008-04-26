@@ -5,8 +5,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>556</width>
-    <height>449</height>
+    <width>476</width>
+    <height>465</height>
    </rect>
   </property>
   <property name="windowTitle" >
@@ -331,56 +331,9 @@
           <property name="spacing" >
            <number>6</number>
           </property>
-          <item row="1" column="0" >
-           <widget class="QRadioButton" name="ttf_font_button" >
-            <property name="text" >
-             <string>&amp;TTF font:</string>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="1" >
-           <widget class="QLineEdit" name="ttf_font_edit" >
+          <item row="1" column="1" colspan="2" >
+           <widget class="FileChooser" name="ttf_font_edit" >
             <property name="enabled" >
-             <bool>false</bool>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="2" >
-           <widget class="QPushButton" name="searchButton" >
-            <property name="enabled" >
-             <bool>false</bool>
-            </property>
-            <property name="text" >
-             <string>Sea&amp;rch...</string>
-            </property>
-           </widget>
-          </item>
-          <item row="2" column="2" >
-           <spacer>
-            <property name="orientation" >
-             <enum>Qt::Horizontal</enum>
-            </property>
-            <property name="sizeHint" >
-             <size>
-              <width>121</width>
-              <height>20</height>
-             </size>
-            </property>
-           </spacer>
-          </item>
-          <item row="2" column="0" >
-           <widget class="QRadioButton" name="system_font_button" >
-            <property name="text" >
-             <string>S&amp;ystem font:</string>
-            </property>
-           </widget>
-          </item>
-          <item row="0" column="0" colspan="3" >
-           <widget class="QLabel" name="textLabel1" >
-            <property name="text" >
-             <string>Select the font which will be used for subtitles (and OSD):</string>
-            </property>
-            <property name="wordWrap" >
              <bool>false</bool>
             </property>
            </widget>
@@ -397,6 +350,43 @@
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0" colspan="3" >
+           <widget class="QLabel" name="textLabel1" >
+            <property name="text" >
+             <string>Select the font which will be used for subtitles (and OSD):</string>
+            </property>
+            <property name="wordWrap" >
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0" >
+           <widget class="QRadioButton" name="system_font_button" >
+            <property name="text" >
+             <string>S&amp;ystem font:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2" >
+           <spacer>
+            <property name="orientation" >
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" >
+             <size>
+              <width>121</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="1" column="0" >
+           <widget class="QRadioButton" name="ttf_font_button" >
+            <property name="text" >
+             <string>&amp;TTF font:</string>
             </property>
            </widget>
           </item>
@@ -774,6 +764,11 @@
    <extends>QFontComboBox</extends>
    <header>mycombobox.h</header>
   </customwidget>
+  <customwidget>
+   <class>FileChooser</class>
+   <extends>QLineEdit</extends>
+   <header>filechooser.h</header>
+  </customwidget>
  </customwidgets>
  <tabstops>
   <tabstop>subtitles_tab</tabstop>
@@ -784,7 +779,6 @@
   <tabstop>subtitles_on_screeshots_check</tabstop>
   <tabstop>ttf_font_button</tabstop>
   <tabstop>ttf_font_edit</tabstop>
-  <tabstop>searchButton</tabstop>
   <tabstop>system_font_button</tabstop>
   <tabstop>fontCombo</tabstop>
   <tabstop>font_autoscale_combo</tabstop>
@@ -809,22 +803,6 @@
     </hint>
     <hint type="destinationlabel" >
      <x>273</x>
-     <y>114</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>ttf_font_button</sender>
-   <signal>toggled(bool)</signal>
-   <receiver>searchButton</receiver>
-   <slot>setEnabled(bool)</slot>
-   <hints>
-    <hint type="sourcelabel" >
-     <x>83</x>
-     <y>114</y>
-    </hint>
-    <hint type="destinationlabel" >
-     <x>456</x>
      <y>114</y>
     </hint>
    </hints>

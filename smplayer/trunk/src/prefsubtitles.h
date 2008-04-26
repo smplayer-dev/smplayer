@@ -94,7 +94,6 @@ protected:
 	virtual void retranslateStrings();
 
 protected slots:
-	void on_searchButton_clicked();
 	void on_colorButton_clicked();
 	void on_borderButton_clicked();
 
