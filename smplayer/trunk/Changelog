@@ -1,5 +1,9 @@
 [b]Version 0.6.0rc5[/b]:
 
+(2008-04-25)
+ * Added a new widget (a line edit + a button) which allows the user to
+   select a file or directory. The preferences dialog now uses this widget.
+
 (2008-04-23)
  * Fix loading idx/sub subtitles. The filename was incorrectly passed to 
    mplayer if it contained several dots. 
