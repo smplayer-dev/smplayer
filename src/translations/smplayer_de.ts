@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
-<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -12,16 +11,6 @@
         <location filename="../about.cpp" line="57"/>
         <source>Compiled with Qt %1</source>
         <translation>Kompiliert mit Qt %1</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="35"/>
-        <source>Visit our web for updates: %1</source>
-        <translation type="obsolete">Besuchen sie unser Web für Updates: %1</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="36"/>
-        <source>Get help in our forum: %1</source>
-        <translation type="obsolete">Holen Sie sich Hilfe in unserem Forum: %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="89"/>
@@ -219,11 +208,6 @@
         <translation>Icon</translation>
     </message>
     <message>
-        <location filename="../about.ui" line="152"/>
-        <source>TextLabel</source>
-        <translation type="obsolete">TextKennzeichnung</translation>
-    </message>
-    <message>
         <location filename="../about.ui" line="91"/>
         <source>&amp;Contributions</source>
         <translation>&amp;Mitwirkende</translation>
@@ -259,11 +243,6 @@
         <translation>Mehr Info</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="43"/>
-        <source>Using MPlayer SVN r%1</source>
-        <translation type="obsolete">Unter Einsatz von MPlayer SVN r%1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="168"/>
         <source>Korean</source>
         <translation>Koreanisch</translation>
@@ -282,186 +261,6 @@
         <location filename="../about.cpp" line="50"/>
         <source>Using MPlayer %1</source>
         <translation>Unter Einsatz von MPlayer %1</translation>
-    </message>
-</context>
-<context>
-    <name>AboutDialog</name>
-    <message>
-        <location filename="../aboutdialog.cpp" line="76"/>
-        <source>Version: %1</source>
-        <translation type="obsolete">Version: %1</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="88"/>
-        <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
-        <translation type="obsolete">Dieses Programm ist freie Software; Sie können es weitergeben und/oder es unter den Bedingungen der allgemeinen  GNU Lizenz verändern, wie es durch die Free Software-Foundation festgelegt wurde; entweder Version 2 der Lizenz, oder (nach ihrer Wahl) eine neuere Version.</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="92"/>
-        <source>Translators:</source>
-        <translation type="obsolete">Übersetzer:</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="93"/>
-        <source>German</source>
-        <translation type="obsolete">Deutsch</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="94"/>
-        <source>Slovak</source>
-        <translation type="obsolete">Slowenisch</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="95"/>
-        <source>Italian</source>
-        <translation type="obsolete">Italienisch</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="96"/>
-        <source>French</source>
-        <translation type="obsolete">Französisch</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="100"/>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Vereinfachtes Chinesisch</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="101"/>
-        <source>Russian</source>
-        <translation type="obsolete">Russisch</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="104"/>
-        <source>Hungarian</source>
-        <translation type="obsolete">Ungarisch</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="108"/>
-        <source>Japanese</source>
-        <translation type="obsolete">Japanisch</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="109"/>
-        <source>Dutch</source>
-        <translation type="obsolete">Niederländisch </translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="110"/>
-        <source>Ukrainian</source>
-        <translation type="obsolete">Ukrainisch</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="112"/>
-        <source>Georgian</source>
-        <translation type="obsolete">Georgisch</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="113"/>
-        <source>Czech</source>
-        <translation type="obsolete">Tschechisch</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="124"/>
-        <source>Logo designed by %1</source>
-        <translation type="obsolete">Logo designed von %1</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="145"/>
-        <source>Get updates at: %1</source>
-        <translation type="obsolete">Updates erhalten von : %1</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="33"/>
-        <source>About SMPlayer</source>
-        <translation type="obsolete">Über  SMPlayer</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="105"/>
-        <source>Polish</source>
-        <translation type="obsolete">Polnisch</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="114"/>
-        <source>Bulgarian</source>
-        <translation type="obsolete">Bulgarisch</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="115"/>
-        <source>Turkish</source>
-        <translation type="obsolete">Türkisch</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="116"/>
-        <source>Swedish</source>
-        <translation type="obsolete">Schwedisch</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="117"/>
-        <source>Serbian</source>
-        <translation type="obsolete">Serbisch</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="118"/>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">Traditionelles Chinesisch</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="119"/>
-        <source>Romanian</source>
-        <translation type="obsolete">Romanisch</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="111"/>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">Portugiesisch - Brasilien</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="120"/>
-        <source>Portuguese - Portugal</source>
-        <translation type="obsolete">Portugiesisch - Portugal</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="83"/>
-        <source>Compiled with Qt %1</source>
-        <translation type="obsolete">Kompiliert mit Qt %1</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="97"/>
-        <source>%1, %2 and %3</source>
-        <translation type="obsolete">%1, %2 and %3</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="106"/>
-        <source>%1 and %2</source>
-        <translation type="obsolete">%1 and %2</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="130"/>
-        <source>http://smplayer.sourceforge.net/en/windows/download.php</source>
-        <comment>If the web page is translated into your language you can change the URL so it points to the download page in the translation.Otherwise leave as is.</comment>
-        <translation type="obsolete">http://smplayer.sourceforge.net/en/windows/download.php</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="135"/>
-        <source>http://smplayer.sourceforge.net/en/linux/download.php</source>
-        <comment>If the web page is translated into your language you can change the URL so it points to the download page in the translation.Otherwise leave as is.</comment>
-        <translation type="obsolete">http://smplayer.sourceforge.net/en/linux/download.php</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="157"/>
-        <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="121"/>
-        <source>Greek</source>
-        <translation type="obsolete">Griechisch</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="122"/>
-        <source>Finnish</source>
-        <translation type="obsolete">Finnisch</translation>
     </message>
 </context>
 <context>
@@ -842,44 +641,9 @@ Do you want to overwrite?</source>
         <translation>&amp;Deinterlacing</translation>
     </message>
     <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/basegui.cpp" line="793"/>
-        <source>De&amp;noise</source>
-        <translation type="obsolete">&amp;Rauschfilter</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1224"/>
         <source>&amp;Autodetect</source>
         <translation>&amp;Automatisch</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/basegui.cpp" line="796"/>
-        <source>&amp;4:3</source>
-        <translation type="obsolete">&amp;4:3</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/basegui.cpp" line="797"/>
-        <source>&amp;5:4</source>
-        <translation type="obsolete">&amp;5:4</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/basegui.cpp" line="798"/>
-        <source>&amp;14:9</source>
-        <translation type="obsolete">&amp;14:9</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/basegui.cpp" line="799"/>
-        <source>16:&amp;9</source>
-        <translation type="obsolete">16:&amp;9</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/basegui.cpp" line="800"/>
-        <source>1&amp;6:10</source>
-        <translation type="obsolete">1&amp;6:10</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/basegui.cpp" line="801"/>
-        <source>&amp;2.35:1</source>
-        <translation type="obsolete">&amp;2.35:1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1232"/>
@@ -917,16 +681,6 @@ Do you want to overwrite?</source>
         <translation>&amp;Lineare Überblendung</translation>
     </message>
     <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/basegui.cpp" line="815"/>
-        <source>N&amp;ormal</source>
-        <translation type="obsolete">N&amp;ormal</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/basegui.cpp" line="816"/>
-        <source>&amp;Soft</source>
-        <translation type="obsolete">&amp;Soft</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1256"/>
         <source>&amp;Track</source>
         <translation>&amp;Spur</translation>
@@ -940,11 +694,6 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="1265"/>
         <source>&amp;Stereo mode</source>
         <translation>&amp;Stereo Mode</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/src/basegui.cpp" line="980"/>
-        <source>&amp;Default</source>
-        <translation type="obsolete">S&amp;tandard</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1273"/>
@@ -1032,69 +781,69 @@ Do you want to overwrite?</source>
         <translation>&lt;leer&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2539"/>
+        <location filename="../basegui.cpp" line="2540"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2717"/>
+        <location filename="../basegui.cpp" line="2718"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2541"/>
+        <location filename="../basegui.cpp" line="2542"/>
         <source>Playlists</source>
         <translation>Abspiellisten</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2718"/>
+        <location filename="../basegui.cpp" line="2719"/>
         <source>All files</source>
         <translation>Alle Dateien</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2715"/>
+        <location filename="../basegui.cpp" line="2716"/>
         <source>Choose a file</source>
         <translation>Datei wählen</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2589"/>
+        <location filename="../basegui.cpp" line="2590"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Information</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2592"/>
+        <location filename="../basegui.cpp" line="2593"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Die CDROM /DVD Laufwerke wurden nocht nicht konfiguriert. 
 Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2666"/>
+        <location filename="../basegui.cpp" line="2667"/>
         <source>Choose a directory</source>
         <translation>Verzeichnis auswählen</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2702"/>
+        <location filename="../basegui.cpp" line="2703"/>
         <source>Subtitles</source>
         <translation>Untertitel</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2742"/>
+        <location filename="../basegui.cpp" line="2743"/>
         <source>About Qt</source>
         <translation>Über Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3105"/>
+        <location filename="../basegui.cpp" line="3106"/>
         <source>Playing %1</source>
         <translation>Wiedergabe %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3106"/>
+        <location filename="../basegui.cpp" line="3107"/>
         <source>Pause</source>
         <translation>Pause</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3107"/>
+        <location filename="../basegui.cpp" line="3108"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
@@ -1279,11 +1028,6 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
         <translation>Gamma +</translation>
     </message>
     <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/src/basegui.cpp" line="848"/>
-        <source>Toggle double size</source>
-        <translation type="obsolete">Doppelte Größe schalten</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1078"/>
         <source>&amp;Load external file...</source>
         <translation>&amp;Externe Datei laden...</translation>
@@ -1339,16 +1083,6 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
         <translation>&amp;Rauschfilter aus</translation>
     </message>
     <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/basegui.cpp" line="2011"/>
-        <source>SMPlayer - Enter URL</source>
-        <translation type="obsolete">SMPlayer - Eingabe URL</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/basegui.cpp" line="2011"/>
-        <source>URL:</source>
-        <translation type="obsolete">URL:</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1099"/>
         <source>Use SSA/&amp;ASS library</source>
         <translation>Benutze SSA/&amp;ASS Programmbibliothek</translation>
@@ -1399,7 +1133,7 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
         <translation>&amp;Kommandozeilenoptionen</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2731"/>
+        <location filename="../basegui.cpp" line="2732"/>
         <source>SMPlayer command line options</source>
         <translation>SMPlayer Kommandozeilenoptionen</translation>
     </message>
@@ -1419,37 +1153,32 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
         <translation>Reset Video Equalizer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3425"/>
-        <source>MPlayer has finished unexpectedly. Exit code: %1</source>
-        <translation type="obsolete">MPlayer wurde unerwartet beendet. Exit code: %1</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="3522"/>
+        <location filename="../basegui.cpp" line="3523"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer wurde unerwartet beendet.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3523"/>
+        <location filename="../basegui.cpp" line="3524"/>
         <source>Exit code: %1</source>
         <translation>Exit code: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3533"/>
+        <location filename="../basegui.cpp" line="3534"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer konnte nicht gestartet werden.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3534"/>
+        <location filename="../basegui.cpp" line="3535"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Pfad von MPlayer in den Einstellungen überprüfen.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3536"/>
+        <location filename="../basegui.cpp" line="3537"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer ist abgestürzt.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3537"/>
+        <location filename="../basegui.cpp" line="3538"/>
         <source>See the log for more info.</source>
         <translation>Siehe Logdatei für mehr Infos.</translation>
     </message>
@@ -1493,6 +1222,11 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
         <source>Show context menu</source>
         <translation>Kontextmenü anzeigen</translation>
     </message>
+    <message>
+        <location filename="../basegui.cpp" line="2539"/>
+        <source>Multimedia</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>BaseGuiPlus</name>
@@ -1515,11 +1249,6 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
         <location filename="../baseguiplus.cpp" line="185"/>
         <source>&amp;Restore</source>
         <translation>&amp;Wiederherstellen</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/baseguiplus.cpp" line="134"/>
-        <source>&amp;Recent files</source>
-        <translation type="obsolete">&amp;Neueste Dateien</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="171"/>
@@ -1583,11 +1312,6 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
         <translation>Willkommen im SMPlayer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="358"/>
-        <source>Volume</source>
-        <translation type="obsolete">Lautstärke</translation>
-    </message>
-    <message>
         <location filename="../defaultgui.cpp" line="382"/>
         <source>Audio</source>
         <translation>Audio</translation>
@@ -1596,11 +1320,6 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
         <location filename="../defaultgui.cpp" line="383"/>
         <source>Subtitle</source>
         <translation>Untertitel</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/defaultgui.cpp" line="376"/>
-        <source>Playlist</source>
-        <translation type="obsolete">Abspielliste</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="376"/>
@@ -2240,174 +1959,169 @@ Do you want to overwrite?</source>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="274"/>
+        <location filename="../playlist.cpp" line="275"/>
         <source>Name</source>
         <translation>Name</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="274"/>
+        <location filename="../playlist.cpp" line="275"/>
         <source>Length</source>
         <translation>Dauer</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="668"/>
+        <location filename="../playlist.cpp" line="669"/>
         <source>Choose a file</source>
         <translation>Datei auswählen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="686"/>
+        <location filename="../playlist.cpp" line="687"/>
         <source>Choose a filename</source>
         <translation>Dateinamen auswählen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="697"/>
+        <location filename="../playlist.cpp" line="698"/>
         <source>Confirm overwrite?</source>
         <translation>Überschreiben bestätigen ?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="874"/>
+        <location filename="../playlist.cpp" line="875"/>
         <source>Select one or more files to open</source>
         <translation>Auswahl von einer, oder mehrerer Dateien, zum Öffnen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="928"/>
+        <location filename="../playlist.cpp" line="929"/>
         <source>Choose a directory</source>
         <translation>Verzeichnis auswählen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="699"/>
+        <location filename="../playlist.cpp" line="700"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Die Datei %1 existiert bereits.
 Überschreiben ?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1116"/>
+        <location filename="../playlist.cpp" line="1117"/>
         <source>Edit name</source>
         <translation>Name bearbeiten</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1117"/>
+        <location filename="../playlist.cpp" line="1118"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Den Dateinamen schreiben, wie er in der Abspielliste angezeigt werden soll:</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="279"/>
+        <location filename="../playlist.cpp" line="280"/>
         <source>&amp;Play</source>
         <translation>&amp;Wiedergabe</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="312"/>
+        <location filename="../playlist.cpp" line="313"/>
         <source>&amp;Edit</source>
         <translation>&amp;Bearbeiten</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="688"/>
+        <location filename="../playlist.cpp" line="689"/>
         <source>Playlists</source>
         <translation>Abspiellisten</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="876"/>
+        <location filename="../playlist.cpp" line="877"/>
         <source>All files</source>
         <translation>Alle Dateien</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="276"/>
+        <location filename="../playlist.cpp" line="277"/>
         <source>&amp;Load</source>
         <translation>&amp;Laden</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="277"/>
+        <location filename="../playlist.cpp" line="278"/>
         <source>&amp;Save</source>
         <translation>&amp;Speichern</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="281"/>
+        <location filename="../playlist.cpp" line="282"/>
         <source>&amp;Next</source>
         <translation>&amp;Nächster</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="282"/>
+        <location filename="../playlist.cpp" line="283"/>
         <source>Pre&amp;vious</source>
         <translation>&amp;Vorheriger</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="294"/>
+        <location filename="../playlist.cpp" line="295"/>
         <source>Move &amp;up</source>
         <translation>&amp;Hoch bewegen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="295"/>
+        <location filename="../playlist.cpp" line="296"/>
         <source>Move &amp;down</source>
         <translation>&amp;Runter bewegen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="297"/>
+        <location filename="../playlist.cpp" line="298"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Wiederholen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="298"/>
+        <location filename="../playlist.cpp" line="299"/>
         <source>S&amp;huffle</source>
         <translation>&amp;Zufall</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="303"/>
+        <location filename="../playlist.cpp" line="304"/>
         <source>Add &amp;current file</source>
         <translation>&amp;Aktuelle Datei hinzufügen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="304"/>
+        <location filename="../playlist.cpp" line="305"/>
         <source>Add &amp;file(s)</source>
         <translation>&amp;Datei(en) hinzufügen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="305"/>
+        <location filename="../playlist.cpp" line="306"/>
         <source>Add &amp;directory</source>
         <translation>&amp;Verzeichnis hinzufügen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="308"/>
+        <location filename="../playlist.cpp" line="309"/>
         <source>Remove &amp;selected</source>
         <translation>&amp;Ausgewählte Datei entfernen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="309"/>
+        <location filename="../playlist.cpp" line="310"/>
         <source>Remove &amp;all</source>
         <translation>&amp;Alles entfernen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="316"/>
+        <location filename="../playlist.cpp" line="317"/>
         <source>Add...</source>
         <translation>Hinzufügen...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="318"/>
+        <location filename="../playlist.cpp" line="319"/>
         <source>Remove...</source>
         <translation>Entfernen...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="322"/>
+        <location filename="../playlist.cpp" line="323"/>
         <source>SMPlayer - Playlist</source>
         <translation>SMPlayer - Abspielliste</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="723"/>
+        <location filename="../playlist.cpp" line="724"/>
         <source>Playlist modified</source>
         <translation>Abspielliste geändert</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="724"/>
+        <location filename="../playlist.cpp" line="725"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Ungesicherte Änderungen, soll die Abspielliste gespeichert werden ?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="292"/>
-        <source>&amp;Get info about the files added</source>
-        <translation type="obsolete">&amp;Hole Informationen über die hinzugefügten Daten</translation>
-    </message>
-    <message>
-        <location filename="../playlist.cpp" line="300"/>
+        <location filename="../playlist.cpp" line="301"/>
         <source>Preferences</source>
         <translation>Einstellungen</translation>
     </message>
@@ -2439,6 +2153,11 @@ Do you want to overwrite?</source>
         <source>Automatically get &amp;info about files added</source>
         <translation>&amp;Automatische Infos über alle hinzugefügten Dateien erhalten.&amp;Automatische Infos über alle hinzugefügten Dateien erhalten</translation>
     </message>
+    <message>
+        <location filename="../playlistpreferences.ui" line="42"/>
+        <source>&amp;Save copy of playlist on exit</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>PrefAdvanced</name>
@@ -2453,11 +2172,6 @@ Do you want to overwrite?</source>
         <translation>Auto</translation>
     </message>
     <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/src/prefadvanced.ui" line="13"/>
-        <source>Form</source>
-        <translation type="obsolete">Form</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="29"/>
         <source>&amp;Advanced</source>
         <translation>&amp;Erweitert</translation>
@@ -2466,11 +2180,6 @@ Do you want to overwrite?</source>
         <location filename="../prefadvanced.ui" line="49"/>
         <source>icon</source>
         <translation>Icon</translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.ui" line="112"/>
-        <source>Additional Options for MPlayer</source>
-        <translation type="obsolete">Zusätzliche Optionen für MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="303"/>
@@ -2502,11 +2211,6 @@ Beispiel: resample=44100:0:0,volnorm</translation>
         <location filename="../prefadvanced.cpp" line="361"/>
         <source>Don&apos;t repaint the background of the video window</source>
         <translation>Hintergrund vom Videofenster nicht ausfüllen</translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.ui" line="373"/>
-        <source>&amp;Logs</source>
-        <translation type="obsolete">&amp;Logs</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="330"/>
@@ -2594,11 +2298,6 @@ Die Auswahl-Liste enthält evt.schon die regulären Ausdrücke.</translation>
         <location filename="../prefadvanced.ui" line="202"/>
         <source>&amp;Don&apos;t repaint the background of the video window</source>
         <translation>&amp;Hintergrund vom Videofenster nicht ausfüllen</translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.ui" line="385"/>
-        <source>Log &amp;MPlayer output</source>
-        <translation type="obsolete">Log &amp;MPlayer Ausgabe</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="117"/>
@@ -2852,26 +2551,9 @@ Die Auswahl-Liste enthält evt.schon die regulären Ausdrücke.</translation>
         <translation>Laufwerke</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="41"/>
-        <source>Currently SMPlayer does not autodetect cdrom or dvd devices. So in order to play cdroms or dvds you must first select here your cdrom and dvd drives (can be the same).</source>
-        <translation type="obsolete">Momentan kann SMPlayer CD- und DVD-Laufwerke nicht automatisch finden. 
-Um CDs oder DVDs abzupielen, müßen die Laufwerke vorher bestimmt werden 
-(Ein Laufwerk kann auch doppelt eingetragen werden).</translation>
-    </message>
-    <message>
         <location filename="../prefdrives.ui" line="157"/>
         <source>icon</source>
         <translation>Icon</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefdrives.ui" line="80"/>
-        <source>Select your CD device:</source>
-        <translation type="obsolete">CD Laufwerk auswählen:</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefdrives.ui" line="164"/>
-        <source>Select your DVD device:</source>
-        <translation type="obsolete">DVD Laufwerk auswählen:</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="130"/>
@@ -2912,7 +2594,7 @@ Um CDs oder DVDs abzupielen, müßen die Laufwerke vorher bestimmt werden
 <context>
     <name>PrefGeneral</name>
     <message>
-        <location filename="../prefgeneral.cpp" line="485"/>
+        <location filename="../prefgeneral.cpp" line="469"/>
         <source>General</source>
         <translation>Allgemein</translation>
     </message>
@@ -2927,300 +2609,205 @@ Um CDs oder DVDs abzupielen, müßen die Laufwerke vorher bestimmt werden
         <translation>Pfade</translation>
     </message>
     <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefgeneral.ui" line="76"/>
-        <source>Select...</source>
-        <translation type="obsolete">Auswahl...</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefgeneral.ui" line="96"/>
-        <source>Folder for storing screenshots:</source>
-        <translation type="obsolete">Verzeichnis für Bilschirmfotos:</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefgeneral.ui" line="69"/>
-        <source>Search...</source>
-        <translation type="obsolete">Suchen...</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefgeneral.ui" line="83"/>
-        <source>Select the MPlayer executable:</source>
-        <translation type="obsolete">Die ausführbare mplayer-Datei auswählen:</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="122"/>
+        <location filename="../prefgeneral.ui" line="88"/>
         <source>Output drivers</source>
         <translation>Ausgabe Gerätetreiber</translation>
     </message>
     <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefgeneral.ui" line="124"/>
-        <source>Video:</source>
-        <translation type="obsolete">Video:</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefgeneral.ui" line="261"/>
-        <source>Audio:</source>
-        <translation type="obsolete">Audio:</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="209"/>
+        <location filename="../prefgeneral.ui" line="175"/>
         <source>Media settings</source>
         <translation>Media-Einstellungen</translation>
     </message>
     <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefgeneral.ui" line="239"/>
-        <source>Remember settings for all files (audio track, subtitles...)</source>
-        <translation type="obsolete">Einstellungen für alle Dateien beibehalten (Audiospur, Untertitel...)</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefgeneral.ui" line="232"/>
-        <source>Don&apos;t remember time position (files start playing from the beginning)</source>
-        <translation type="obsolete">Zeitposition nicht wieder herstellen (Wiedergabe startet von Anfang an)</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="614"/>
+        <location filename="../prefgeneral.cpp" line="598"/>
         <source>Preferred audio and subtitles</source>
         <translation>Bevorzugter Ton und Untertitel</translation>
     </message>
     <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefgeneral.ui" line="290"/>
-        <source>Subtitles:</source>
-        <translation type="obsolete">Untertitel:</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="296"/>
-        <source>&amp;Video and audio</source>
-        <translation type="obsolete">&amp;Video und Audio</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="524"/>
+        <location filename="../prefgeneral.cpp" line="508"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefgeneral.ui" line="347"/>
-        <source>Use software video equalizer</source>
-        <translation type="obsolete">Benutze Software-Video-Equalizer</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefgeneral.ui" line="362"/>
-        <source>Enable postprocessing for all videos</source>
-        <translation type="obsolete">Nachbearbeitung für alle Videos aktivieren</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefgeneral.ui" line="385"/>
-        <source>Quality:</source>
-        <translation type="obsolete">Qualität:</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="555"/>
+        <location filename="../prefgeneral.cpp" line="539"/>
         <source>Start videos in fullscreen</source>
         <translation>Starte Video im Vollbildmodus</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="559"/>
+        <location filename="../prefgeneral.cpp" line="543"/>
         <source>Disable screensaver</source>
         <translation>Bilschirmschoner abschalten</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="564"/>
+        <location filename="../prefgeneral.cpp" line="548"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefgeneral.ui" line="500"/>
-        <source>Use software volume control</source>
-        <translation type="obsolete">Benutze Software-Lautstärkeregelung</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefgeneral.ui" line="526"/>
-        <source>Max. Amplification:</source>
-        <translation type="obsolete">Max. Verstärker:</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="577"/>
+        <location filename="../prefgeneral.cpp" line="561"/>
         <source>AC3/DTS pass-through S/PDIF</source>
         <translation>AC3/DTS über S/PDIF</translation>
     </message>
     <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefgeneral.ui" line="558"/>
-        <source>Volume normalization</source>
-        <translation type="obsolete">Lautstärke normalisieren</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="459"/>
+        <location filename="../prefgeneral.cpp" line="83"/>
         <source>Select the mplayer executable</source>
         <translation>mplayer (*.exe) auswählen</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="462"/>
+        <location filename="../prefgeneral.cpp" line="85"/>
         <source>Executables</source>
         <translation>Ausführbare Datei</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="464"/>
+        <location filename="../prefgeneral.cpp" line="87"/>
         <source>All files</source>
         <translation>Alle Dateien</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="475"/>
+        <location filename="../prefgeneral.cpp" line="89"/>
         <source>Select a directory</source>
         <translation>Verzeichnis auswählen</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="487"/>
+        <location filename="../prefgeneral.cpp" line="471"/>
         <source>MPlayer executable</source>
         <translation>Ausführbare Mplayer-Datei </translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="492"/>
+        <location filename="../prefgeneral.cpp" line="476"/>
         <source>Here you must specify the mplayer executable that smplayer will use.&lt;br&gt;smplayer requires at least mplayer 1.0rc1 (svn recommended).&lt;br&gt;&lt;b&gt;If this setting is wrong, smplayer won&apos;t be able to play anything!&lt;/b&gt;</source>
         <translation>Hier muß die ausführbare mplayer-Datei angegeben werden.&lt;br&gt; smplayer benötigt mindestens mplayer 1.0rc1 (svn empfohlen)&lt;br&gt;&lt;b&gt;Sollte diese Einstellung falsch sein, ist die Wiedergabe von smplayer ausser Funktion.&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="494"/>
+        <location filename="../prefgeneral.cpp" line="478"/>
         <source>Screenshots folder</source>
         <translation>Order Bilschirmfotos</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="497"/>
+        <location filename="../prefgeneral.cpp" line="481"/>
         <source>Here you can specify a folder where the screenshots taken by smplayer will be stored. If this field is empty the screenshot feature will be disabled.</source>
         <translation>Hier wird der Order zur Speicherung der Bildschirmfotos festgelegt. 
 Ohne Eingabe wird die Funktion abgeschaltet.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="499"/>
+        <location filename="../prefgeneral.cpp" line="483"/>
         <source>Video output driver</source>
         <translation>Video-Ausgabetreiber</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="501"/>
+        <location filename="../prefgeneral.cpp" line="485"/>
         <source>Select the video output driver. Usually xv (linux) and directx (windows) provide the best performance.</source>
         <translation>Auswahl Videoausgabe Treiber. Gewöhnlich erzielt xv (Linux) und DirectX (Windows) die beste Leistung.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="503"/>
+        <location filename="../prefgeneral.cpp" line="487"/>
         <source>Audio output driver</source>
         <translation>Audio-Ausgabetreiber</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="504"/>
+        <location filename="../prefgeneral.cpp" line="488"/>
         <source>Select the audio output driver.</source>
         <translation>Audioausgabe Treiber wählen.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="506"/>
+        <location filename="../prefgeneral.cpp" line="490"/>
         <source>Remember settings</source>
         <translation>Einstellungen beibehalten</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="509"/>
+        <location filename="../prefgeneral.cpp" line="493"/>
         <source>Usually smplayer will remember the settings for each file you play (audio track selected, volume, filters...). Uncheck this option if you don&apos;t like this feature.</source>
         <translation>Normalerweise erinnert sich smplayer an die Einstellungen jeder wiedergegebenen Datei (gewählte Tonspur, Lautstärke,Filter...). Bei Nichtgefallen,abstellen.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="511"/>
+        <location filename="../prefgeneral.cpp" line="495"/>
         <source>Don&apos;t remember time position</source>
         <translation>Zeitposition nicht wieder herstellen</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="513"/>
+        <location filename="../prefgeneral.cpp" line="497"/>
         <source>If you check this option, smplayer will play all files from the beginning.</source>
         <translation>Mit dieser Option erfolgt die smplayer Wiedergabe aller Dateien immer von Anfang an.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="616"/>
+        <location filename="../prefgeneral.cpp" line="600"/>
         <source>Preferred audio language</source>
         <translation>Bevorzugte Audio-Sprache</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="624"/>
+        <location filename="../prefgeneral.cpp" line="608"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Hier kann die bevorzugte Sprache der Tonspur gewählt werden.Bei Medien mit mehreren Tonspuren,wird Smplayer versuchen die bevorzugte Sprache zu benutzen.Das funktioniert nur mit Medien die eine Info über die Tonspuren bereit stellen, wie DVDs oder mkv-Dateien.&lt;br&gt;Das Feld akzeptiert normale Ausdrücke. Beispiel: &lt;b&gt;es|esp|spa&lt;/b&gt; die Tonspur mit folgender Info wird ausgewählt &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="626"/>
+        <location filename="../prefgeneral.cpp" line="610"/>
         <source>Preferred subtitle language</source>
         <translation>Bevorzugte Untertitel-Sprache</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="634"/>
+        <location filename="../prefgeneral.cpp" line="618"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Hier kann die bevorzugte Sprache der Tonspur gewählt werden.Bei Medien mit mehreren Tonspuren,wird Smplayer versuchen die bevorzugte Sprache zu benutzen.Das funktioniert nur mit Medien die eine Info über die Tonspuren bereit stellen, wie DVDs oder mkv-Dateien.&lt;br&gt;Das Feld akzeptiert normale Ausdrücke. Beispiel: &lt;b&gt;es|esp|spa&lt;/b&gt; die Tonspur mit folgender Info wird ausgewählt &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="527"/>
+        <location filename="../prefgeneral.cpp" line="511"/>
         <source>Software video equalizer</source>
         <translation>Software Video Equalizer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="531"/>
+        <location filename="../prefgeneral.cpp" line="515"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>Option, falls der Video-Equalizer die Grafikkarte, oder den Video-Ausgabe Treiber nicht unterstützt.&lt;br&gt;&lt;b&gt;Hinweis:&lt;/b&gt; Die Option kann inkompatibel zu einigen Video-Ausgabe Treibern sein.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="557"/>
+        <location filename="../prefgeneral.cpp" line="541"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>Mit dieser Option erfolgt die Wiedergabe von smplayer im Vollbild-Modus.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="562"/>
+        <location filename="../prefgeneral.cpp" line="546"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option works only in X11 and Windows.</source>
         <translation>Optional kann der Bildschirmschoner während der Wiedergabe deaktiviert werden.&lt;br&gt; Aktiviert wird der Bildschirmschoner nach Beendigung der Wiedergabe.&lt;br&gt;&lt;b&gt; Diese Option ist nur für X11 und Windows. </translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="566"/>
+        <location filename="../prefgeneral.cpp" line="550"/>
         <source>Software volume control</source>
         <translation>Software Lautstärkenkontrolle</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="568"/>
+        <location filename="../prefgeneral.cpp" line="552"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>Optional kann der Software-Mixer anstelle des Karten-Mixers eingestellt werden.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="536"/>
+        <location filename="../prefgeneral.cpp" line="520"/>
         <source>Postprocessing quality</source>
         <translation>Qualität der Nachbearbeitung</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="539"/>
+        <location filename="../prefgeneral.cpp" line="523"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>Ändert dynamisch das Niveau der Nachbearbeitung, abhängig von der vorhandenen freien CPU Zeit. Die spezifizierte Zahl, ist das maximale benutzte Niveau. Normalerweise kann irgendeine grosse Zahl angeben werden.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="583"/>
+        <location filename="../prefgeneral.cpp" line="567"/>
         <source>Change volume</source>
         <translation>Lautstärke ändern</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="586"/>
+        <location filename="../prefgeneral.cpp" line="570"/>
         <source>If checked, SMPlayer will remember the volume for every file and will restore it when played again. For new files the default volume will be used.</source>
         <translation>Falls aktiviert, erinnert sich SMPlayer an die Lautstärke für jede Datei und stellt sie wieder her, sobald die Datei gespielt wird. Für neue Dateien gilt die Standard-Lautstärke.</translation>
     </message>
     <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefgeneral.ui" line="460"/>
-        <source>Default volume:</source>
-        <translation type="obsolete">Standard Lautstärke:</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="610"/>
+        <location filename="../prefgeneral.ui" line="576"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="550"/>
+        <location filename="../prefgeneral.ui" line="516"/>
         <source>&amp;Change volume on every file</source>
         <translation>&amp;Lautstärke für jede Datei ändern</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="77"/>
-        <source>&amp;Search...</source>
-        <translation>&amp;Suchen...</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="110"/>
-        <source>S&amp;elect...</source>
-        <translation>&amp;Auswahl...</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="53"/>
@@ -3228,390 +2815,365 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
         <translation>&amp;Die ausführbare Mplayer-Datei auswählen:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="86"/>
+        <location filename="../prefgeneral.ui" line="69"/>
         <source>&amp;Folder for storing screenshots:</source>
         <translation>&amp;Verzeichnis für Bilschirmfotos:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="134"/>
+        <location filename="../prefgeneral.ui" line="100"/>
         <source>V&amp;ideo:</source>
         <translation>V&amp;ideo:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="842"/>
+        <location filename="../prefgeneral.ui" line="808"/>
         <source>&amp;Audio:</source>
         <translation>&amp;Audio:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="248"/>
+        <location filename="../prefgeneral.ui" line="214"/>
         <source>&amp;Don&apos;t remember time position (files start playing from the beginning)</source>
         <translation>&amp;Zeitposition nicht wieder herstellen (Wiedergabe startet von Anfang an)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="255"/>
+        <location filename="../prefgeneral.ui" line="221"/>
         <source>&amp;Remember settings for all files (audio track, subtitles...)</source>
         <translation>&amp;Einstellungen für alle Dateien beibehalten (Audiospur, Untertitel...)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="793"/>
-        <source>A&amp;udio:</source>
-        <translation type="obsolete">A&amp;udio:</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="861"/>
+        <location filename="../prefgeneral.ui" line="827"/>
         <source>Su&amp;btitles:</source>
         <translation>&amp;Untertitel:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="320"/>
-        <source>&amp;Use software video equalizer</source>
-        <translation type="obsolete">&amp;Benutze Software-Video-Equalizer</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/prefgeneral.ui" line="380"/>
-        <source>&amp;Enable postprocessing for all videos</source>
-        <translation type="obsolete">&amp;Nachbearbeitung für alle Videos aktivieren</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="346"/>
+        <location filename="../prefgeneral.ui" line="312"/>
         <source>&amp;Quality:</source>
         <translation>&amp;Qualität:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="421"/>
+        <location filename="../prefgeneral.ui" line="387"/>
         <source>Start videos in &amp;fullscreen</source>
         <translation>&amp;Starte Video im Vollbildmodus</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="428"/>
+        <location filename="../prefgeneral.ui" line="394"/>
         <source>Disable &amp;screensaver</source>
         <translation>&amp;Bilschirmschoner abschalten</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="581"/>
+        <location filename="../prefgeneral.ui" line="547"/>
         <source>&amp;Default volume:</source>
         <translation>&amp;Standard Lautstärke:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="481"/>
+        <location filename="../prefgeneral.ui" line="447"/>
         <source>Use s&amp;oftware volume control</source>
         <translation>&amp;Benutze Software-Lautstärkeregelung</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="507"/>
+        <location filename="../prefgeneral.ui" line="473"/>
         <source>Ma&amp;x. Amplification:</source>
         <translation>&amp;Max. Verstärker:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="670"/>
+        <location filename="../prefgeneral.ui" line="636"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
         <translation>&amp;AC3/DTS über S/PDIF</translation>
     </message>
     <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/prefgeneral.ui" line="599"/>
-        <source>Volume &amp;normalization</source>
-        <translation type="obsolete">Lautstärke &amp;normalisieren</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="545"/>
+        <location filename="../prefgeneral.cpp" line="529"/>
         <source>Direct rendering</source>
         <translation>Direktes Rendern</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="548"/>
+        <location filename="../prefgeneral.cpp" line="532"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>Diese Option aktiviert direktes Rendern (wird nicht von allen Video-Codecs und  Video-Ausgaben unterstützt)&lt;br&gt;&lt;b&gt;WARNUNG:&lt;/b&gt; Eventuelle OSD/SUB Fehler!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="550"/>
+        <location filename="../prefgeneral.cpp" line="534"/>
         <source>Double buffering</source>
         <translation>Doppelpufferung</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="407"/>
+        <location filename="../prefgeneral.ui" line="373"/>
         <source>D&amp;irect rendering</source>
         <translation>&amp;Direktes Rendern</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="414"/>
+        <location filename="../prefgeneral.ui" line="380"/>
         <source>Dou&amp;ble buffering</source>
         <translation>&amp;Doppelpufferung</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="553"/>
+        <location filename="../prefgeneral.cpp" line="537"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>Doppelpufferung verhindert Flackern, indem zwei Bilder zwischen gespeichert werden, eins wird dekodiert, das andere angezeigt .Falls abgeschaltet, kannes sich negativ im OSD auswirken, aber meistens entfernt es Flackern im OSD.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="323"/>
+        <location filename="../prefgeneral.ui" line="289"/>
         <source>&amp;Enable postprocessing by default</source>
         <translation>&amp;Nachbearbeitung als Standard aktivieren</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="535"/>
+        <location filename="../prefgeneral.ui" line="501"/>
         <source>Volume &amp;normalization by default</source>
         <translation>Lautstärke &amp;normalisieren als Standard</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="515"/>
+        <location filename="../prefgeneral.cpp" line="499"/>
         <source>Close when finished</source>
         <translation>Schließen, wenn beendet</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="517"/>
+        <location filename="../prefgeneral.cpp" line="501"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>Wenn diese Option aktiviert ist, wird das Hauptfenster automatisch geschlossen, wenn die aktuelle Datei/Abspielliste beendet ist.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="265"/>
+        <location filename="../prefgeneral.ui" line="231"/>
         <source>&amp;Close when finished</source>
         <translation>&amp;Schließen, wenn beendet</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="61"/>
+        <location filename="../prefgeneral.cpp" line="63"/>
         <source>2 (Stereo)</source>
         <translation>2 (Stereo)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="62"/>
+        <location filename="../prefgeneral.cpp" line="64"/>
         <source>4 (4.0 Surround)</source>
         <translation>4 (4.0 Surround)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="63"/>
+        <location filename="../prefgeneral.cpp" line="65"/>
         <source>6 (5.1 Surround)</source>
         <translation>6 (5.1 Surround)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="685"/>
+        <location filename="../prefgeneral.ui" line="651"/>
         <source>C&amp;hannels by default:</source>
         <translation>&amp;Kanäle als Standard:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="272"/>
+        <location filename="../prefgeneral.ui" line="238"/>
         <source>&amp;Pause when minimized</source>
         <translation>&amp;Pause wenn minimiert</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="519"/>
+        <location filename="../prefgeneral.cpp" line="503"/>
         <source>Pause when minimized</source>
         <translation>Pause wenn minimiert</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="522"/>
+        <location filename="../prefgeneral.cpp" line="506"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, play will be resumed.</source>
         <translation>Ist diese Option aktiviert, wird die Datei pausieren, wenn das Hauptfenster verdeckt ist. Ist das Hauptfenster wieder hergestellt, wird das Abspielen fortgesetzt.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="533"/>
+        <location filename="../prefgeneral.cpp" line="517"/>
         <source>Enable postprocessing by default</source>
         <translation>Nachbearbeitung als Standard aktivieren</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="570"/>
+        <location filename="../prefgeneral.cpp" line="554"/>
         <source>Max. Amplification</source>
         <translation>Max. Verstärker</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="580"/>
+        <location filename="../prefgeneral.cpp" line="564"/>
         <source>Volume normalization by default</source>
         <translation>Lautstärke normalisieren als Standard</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="581"/>
+        <location filename="../prefgeneral.cpp" line="565"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>Laustärke maximieren, ohne den Ton zu verzerren.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="588"/>
+        <location filename="../prefgeneral.cpp" line="572"/>
         <source>Default volume</source>
         <translation>Standard Lautstärke</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="589"/>
+        <location filename="../prefgeneral.cpp" line="573"/>
         <source>Sets the initial volume that new files will use.</source>
         <translation>Ausgangslautstärke für neue Dateien festlegen.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="599"/>
+        <location filename="../prefgeneral.cpp" line="583"/>
         <source>Channels by default</source>
         <translation>Kanäle als Standard</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="575"/>
+        <location filename="../prefgeneral.cpp" line="559"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>Stellt das maximale Verstärker-Niveau ein (Standard: 100). Ein Wert von 200 erlaubt , die Standard Lautstärke bis zu einem verdoppelten Maximum zu justieren. Mit Werten unter 100, ist die Anfangslautstärke (die 100% ist), über dem Maximum, das z.B. OSD nicht richtig anzeigen kann.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="578"/>
+        <location filename="../prefgeneral.cpp" line="562"/>
         <source>Uses hardware AC3 passthrough</source>
         <translation>Benutze Hardware AC3 Durchlauf</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="608"/>
+        <location filename="../prefgeneral.cpp" line="592"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. NOTE: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation>Anfrage der Anzahl von Playback Kanälen. Mplayer fragt den Decoder, den Ton in die angebenen Anzahl der Känäle zu decodieren. Damit sind die Bedingungen für den Decoder erfüllt. Das ist hauptsächlich wichtig, bei Videos mit  AC3 Ton (meist DVD). In diesem Fall decodiert liba52 und sorgt für den korrekten Downmix der Kanäle, wie angefordert. Hinweis: Diese Option wird ermöglicht durch AC3 Codecs, Filter für Surround, und Audio-Ausgabe-Treibern (mindestens OSS).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="534"/>
+        <location filename="../prefgeneral.cpp" line="518"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>Nachbearbeitung als Standard für neu geöffnete Dateien.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="636"/>
+        <location filename="../prefgeneral.cpp" line="620"/>
         <source>Audio track</source>
         <translation>Audiospur</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="640"/>
+        <location filename="../prefgeneral.cpp" line="624"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Spezifiziert die Standard Audiospur, die bei neuen Dateien abgespielt wird. Falls die Spur nicht existiert, wird die erste Spur gewählt. &lt;br&gt;&lt;b&gt;Hinweis:&lt;/b&gt; die &lt;i&gt; &quot;bevorzugte Audiosprache&quot;&lt;/i&gt; hat Vorrang vor dieser Option.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="642"/>
+        <location filename="../prefgeneral.cpp" line="626"/>
         <source>Subtitle track</source>
         <translation>Untertitelspur</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="646"/>
+        <location filename="../prefgeneral.cpp" line="630"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Spezifiziert die Standard Untertitelspur, die bei neuen Dateien abgespielt wird. Falls die Spur nicht existiert, wird die erste Spur gewählt. &lt;br&gt;&lt;b&gt;Hinweis:&lt;/b&gt; die &lt;i&gt; &quot;bevorzugte Untertitelsprache&quot;&lt;/i&gt; hat Vorrang vor dieser Option.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="970"/>
+        <location filename="../prefgeneral.ui" line="936"/>
         <source>Or choose a track number:</source>
         <translation>Oder eine Tracknummer wählen:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="372"/>
-        <source>Subtit&amp;le:</source>
-        <translation type="obsolete">&amp;Untertitel:</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="911"/>
+        <location filename="../prefgeneral.ui" line="877"/>
         <source>Audi&amp;o:</source>
         <translation>Audi&amp;o:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="877"/>
+        <location filename="../prefgeneral.ui" line="843"/>
         <source>Preferred language:</source>
         <translation>Bevorzugte Sprache:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="775"/>
+        <location filename="../prefgeneral.ui" line="741"/>
         <source>Preferre&amp;d audio and subtitles</source>
         <translation>&amp;Bevorzugter Ton und Untertitel</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="924"/>
+        <location filename="../prefgeneral.ui" line="890"/>
         <source>&amp;Subtitle:</source>
         <translation>&amp;Untertitel:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="89"/>
+        <location filename="../prefgeneral.cpp" line="99"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Hier kann die bevorzugte Sprache der Tonspur und Untertitel gewählt werden. Bei Medien mit mehreren Tonspuren, oder Untertiteln, wird SMPlayer versuchen die bevorzugte Sprache zu benutzen. Das funktioniert nur mit Medien die eine Info über die Tonspuren und Untertitel bereit stellen, wie DVDs oder mkv-Dateien.&lt;br&gt;Das Feld akzeptiert normale Ausdrücke. Beispiel: &lt;b&gt;es|esp|spa&lt;/b&gt;die Tonspur mit folgender Info wird ausgewählt &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="787"/>
+        <location filename="../prefgeneral.ui" line="753"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
         <translation>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="721"/>
+        <location filename="../prefgeneral.ui" line="687"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>&amp;Hochgeschwindigkeitswiedergabe ohne Anhebung der Tonhöhe</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="610"/>
+        <location filename="../prefgeneral.cpp" line="594"/>
         <source>High speed playback without altering pitch</source>
         <translation>Hochgeschwindigkeitswiedergabe ohne Anhebung der Tonhöhe</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="612"/>
+        <location filename="../prefgeneral.cpp" line="596"/>
         <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
         <translation>Ermöglicht eine Änderung der Abspielgeschwindigkeit ohne Anhebung der Tonhöhe. 
 Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="591"/>
+        <location filename="../prefgeneral.cpp" line="575"/>
         <source>Change volume just before playing</source>
         <translation>Änderung der Lautstärke kurz vor der Wiedergabe</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="648"/>
+        <location filename="../prefgeneral.ui" line="614"/>
         <source>Change volume just before p&amp;laying (avoids loud volume on startup)</source>
         <translation>&amp;Änderung der Lautstärke kurz vor der Wiedergabe (Vermeidet laute Wiedergabe beim Start)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="597"/>
+        <location filename="../prefgeneral.cpp" line="581"/>
         <source>If this option is checked the initial volume will be set by using the &lt;i&gt;-volume&lt;/i&gt; option in MPlayer.&lt;br&gt; &lt;b&gt;WARNING: THE OFFICIAL MPLAYER DOESN&apos;T HAVE THAT &lt;i&gt;-volume&lt;/i&gt; OPTION, YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON&apos;T PLAY ANYTHING.&lt;/b&gt;</source>
         <translation>Wenn diese Option aktiviert ist, wird die ursprüngliche Lautstärke eingestellt, indem die &lt;i&gt;-Laustärke&lt;/i&gt; Option in Mplayer initialisiert wird.&lt;br&gt; &lt;b&gt;WARNUNG: FUNKTIONIERT NICHT MIT DER OFFIZIELLEN MPLAYER &lt;i&gt;-LAUTSTÄRKE&lt;i&gt; OPTION&lt;/i&gt;, EINE PATCH VERSION WIRD BENÖTIGT, MPLAYER VERSAGT SONST UND BRINGT KEINE WIEDERGABE.&lt;/b&gt;   </translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="296"/>
+        <location filename="../prefgeneral.ui" line="262"/>
         <source>&amp;Video</source>
         <translation>&amp;Video</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="308"/>
+        <location filename="../prefgeneral.ui" line="274"/>
         <source>Use s&amp;oftware video equalizer</source>
         <translation>Benutze S&amp;oftware-Video-Equalizer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="449"/>
+        <location filename="../prefgeneral.ui" line="415"/>
         <source>A&amp;udio</source>
         <translation>A&amp;udio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="461"/>
+        <location filename="../prefgeneral.ui" line="427"/>
         <source>Volume</source>
         <translation>Lautstärke</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="67"/>
+        <location filename="../prefgeneral.cpp" line="69"/>
         <source>None</source>
         <translation>Nichts</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="68"/>
+        <location filename="../prefgeneral.cpp" line="70"/>
         <source>Lowpass5</source>
         <translation>Tiefpass(filter)5</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="69"/>
+        <location filename="../prefgeneral.cpp" line="71"/>
         <source>Yadif (normal)</source>
         <translation>Yadif (normal)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="70"/>
+        <location filename="../prefgeneral.cpp" line="72"/>
         <source>Yadif (double framerate)</source>
         <translation>Yadif (Doppelte Framerate)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="71"/>
+        <location filename="../prefgeneral.cpp" line="73"/>
         <source>Linear Blend</source>
         <translation>Lineare Überblendung</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="72"/>
+        <location filename="../prefgeneral.cpp" line="74"/>
         <source>Kerndeint</source>
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="379"/>
+        <location filename="../prefgeneral.ui" line="345"/>
         <source>Dei&amp;nterlace by default:</source>
         <translation>&amp;Deinterlacing als Standard:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="541"/>
+        <location filename="../prefgeneral.cpp" line="525"/>
         <source>Deinterlace by default</source>
         <translation>Deinterlacing als Standard</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="543"/>
+        <location filename="../prefgeneral.cpp" line="527"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation>Auswahl des Deinterlacing Filter, zum Öffnen von neuen Videos.</translation>
     </message>
@@ -3787,11 +3349,6 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <location filename="../prefinput.cpp" line="77"/>
         <source>Double size</source>
         <translation>Doppelte Größe</translation>
-    </message>
-    <message>
-        <location filename="../prefinput.ui" line="169"/>
-        <source>Mi&amp;ddle click</source>
-        <translation type="obsolete">&amp;Click mitte</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="55"/>
@@ -4147,11 +3704,6 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>&amp;SMPlayer wird diesen Port überwachen, um Befehle von anderen Prozessen zu empfangen:</translation>
     </message>
     <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/prefinterface.ui" line="197"/>
-        <source>Main window &amp;resize method</source>
-        <translation type="obsolete">&amp;Hauptfenster Resizing Methode</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.ui" line="142"/>
         <source>Ma&amp;x. items</source>
         <translation>&amp;Max. Stücke</translation>
@@ -4210,11 +3762,6 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <location filename="../prefinterface.ui" line="463"/>
         <source>Seek to position when released</source>
         <translation>Positionierung erst anstreben wenn freigegeben</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.ui" line="433"/>
-        <source>In&amp;stances</source>
-        <translation type="obsolete">&amp;Prozesse</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="507"/>
@@ -4380,11 +3927,6 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>Leistungsverhalten</translation>
     </message>
     <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefperformance.ui" line="13"/>
-        <source>Form</source>
-        <translation type="obsolete">Form</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.ui" line="29"/>
         <source>&amp;Performance</source>
         <translation>&amp;Leistungsverhalten</translation>
@@ -4398,11 +3940,6 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <location filename="../prefperformance.ui" line="53"/>
         <source>Select the priority for the MPlayer process.</source>
         <translation>Auswahl der Prozessorpriorität für mplayer.</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefperformance.ui" line="74"/>
-        <source>Priority:</source>
-        <translation type="obsolete">Priorität:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="85"/>
@@ -4440,19 +3977,9 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>Cache</translation>
     </message>
     <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefperformance.ui" line="194"/>
-        <source>Size:</source>
-        <translation type="obsolete">Größe:</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.ui" line="457"/>
         <source>KB</source>
         <translation>KB</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefperformance.ui" line="229"/>
-        <source>Use cache</source>
-        <translation type="obsolete">Cache benutzen</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="401"/>
@@ -4465,11 +3992,6 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>Überspringen von Bildern erlauben</translation>
     </message>
     <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefperformance.ui" line="256"/>
-        <source>Allow hard frame drop (can lead to image distortion)</source>
-        <translation type="obsolete">Verstärktes überspringen von Bildern erlauben. (Kann zu Bildverzerrungen führen)</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.ui" line="194"/>
         <source>Synchronization</source>
         <translation>Synchronisation</translation>
@@ -4478,11 +4000,6 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <location filename="../prefperformance.cpp" line="247"/>
         <source>Audio/video auto synchronization</source>
         <translation>Automatische Audio/Video Synchronisation</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/Programme/SMPlayer/Source/smplayer-0.5.44/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.43/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.30-qt4-0819/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0814/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0813/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.29-qt4-0808/src/prefperformance.ui" line="309"/>
-        <source>Factor:</source>
-        <translation type="obsolete">Faktor:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="251"/>
@@ -4498,16 +4015,6 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <location filename="../prefperformance.cpp" line="221"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Festlegen der Prozessorpriorität gemäß der Verfügbarkeit unter Windows.&lt;br&gt;&lt;b&gt;WARNUNG:&lt;/b&gt;Echtzeitpriorität kann das System blockieren.</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="203"/>
-        <source>&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option is for Windows only.</source>
-        <translation type="obsolete">&lt;br&gt;&lt;b&gt;Hinweis:&lt;/b&gt; Diese Option ist nur für Windows.</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="207"/>
-        <source>This option specifies how much memory (in kBytes) to use when precaching a file or URL. Especially useful on slow media.</source>
-        <translation type="obsolete">Diese Option legt fest,wieviel Speicher (in kBytes) zum Vorausladen einer Datei, oder URL bereitgestellt werden. Besonders nützlich bei langsamen Medien.  </translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="225"/>
@@ -4533,16 +4040,6 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <location filename="../prefperformance.ui" line="71"/>
         <source>Priorit&amp;y:</source>
         <translation>&amp;Priorität:</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.ui" line="182"/>
-        <source>Si&amp;ze:</source>
-        <translation type="obsolete">&amp;Größe:</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.ui" line="151"/>
-        <source>&amp;Use cache</source>
-        <translation type="obsolete">&amp;Cache benutzen</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="139"/>
@@ -4585,16 +4082,6 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>Baut Index der Datei wiederauf, mit der Erlaubnis zu suchen, wenn kein Index gefunden wurde. Nützlich bei unvollstänigen/defekten Downloads, oder schlecht erstellten Dateien. Die Option funktioniert nur wenn das eigentliche Media Suchfunktionen unterstützt (nicht mit stdin,pipe, etc).&lt;br&gt; Hinweis:Erstellen von einem Index kann einige Zeit dauern.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="409"/>
-        <source>&amp;Create index if needed</source>
-        <translation type="obsolete">&amp;Index erstellen, falls benötigt</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="236"/>
-        <source>If checked, it will try the fastest method to switch audio tracks but might not work with some formats.</source>
-        <translation type="obsolete">Mit dieser  Option wird die schnellste Methode zum Umschalten für Audio Tracks genommen, aber es funktioniert nicht mit allen Formaten.</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.cpp" line="263"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Mit dieser Option wird die schnellste Methode zum Suchen der Kapitel gewählt, aber es funktioniert nicht mit allen Discs.</translation>
@@ -4605,34 +4092,9 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>Loop Filter übergehen</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="223"/>
-        <source>Skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation type="obsolete">Übergeht den Loop Filter (AKA Deblocking) während der H.264 Decodierung. Da bei den gefilterten Einzelbildern davon ausgegeangen wird, dass sie als Referenz für das Entschlüsseln von abhängigen Einzelbildern verwendet werden,  hat dies eine schlechtere Wirkung auf die Qualität , als nicht zu deblocken bei z.B MPEG-2 Videos.  Aber zumindest bei HDTV, mit hohen Bitraten, ergiebt sich eine große Beschleunigung ohne sichtbaren Qualitätsverlust.</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="225"/>
-        <source>Skip frames</source>
-        <translation type="obsolete">Einzelbilder überspringen</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="227"/>
-        <source>Skips decoding of frames completely. Big speedup, but jerky motion and sometimes bad artifacts.</source>
-        <translation type="obsolete">Komplettes auslassen der Dekodierung von Einzelbildern. Große Beschleunigung, aber sprunghafte Bewegung und manchmal schlechte Artefakte.</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.ui" line="153"/>
         <source>H.264</source>
         <translation>H.264</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.ui" line="165"/>
-        <source>S&amp;kip loop filter</source>
-        <translation type="obsolete">&amp;Loop Filter übergehen</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.ui" line="172"/>
-        <source>Sk&amp;ip frames</source>
-        <translation type="obsolete">&amp;Einzelbilder überspringen</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="258"/>
@@ -4743,24 +4205,19 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
 <context>
     <name>PrefSubtitles</name>
     <message>
-        <location filename="../prefsubtitles.cpp" line="293"/>
+        <location filename="../prefsubtitles.cpp" line="281"/>
         <source>Subtitles</source>
         <translation>Untertitel</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="263"/>
+        <location filename="../prefsubtitles.cpp" line="76"/>
         <source>Choose a ttf file</source>
         <translation>TTF-Datei wählen</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="265"/>
+        <location filename="../prefsubtitles.cpp" line="77"/>
         <source>Truetype Fonts</source>
         <translation>Truetype Schriftarten (*.ttf)</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/src/prefsubtitles.ui" line="13"/>
-        <source>Form</source>
-        <translation type="obsolete">Form</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="32"/>
@@ -4773,12 +4230,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>Automatisch laden</translation>
     </message>
     <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/src/prefsubtitles.ui" line="53"/>
-        <source>Autoload subtitles files (*.srt, *.sub...):</source>
-        <translation type="obsolete">Untertitel automatisch laden (*.srt,*.sub...):</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="298"/>
+        <location filename="../prefsubtitles.cpp" line="286"/>
         <source>Select first available subtitle</source>
         <translation>Den ersten vorhandenen Untertitel auswählen</translation>
     </message>
@@ -4798,19 +4250,9 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>Alle Untertitel im Verzeichnis</translation>
     </message>
     <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/src/prefsubtitles.ui" line="108"/>
-        <source>Default subtitle encoding:</source>
-        <translation type="obsolete">Standard Untertitel Encodierung:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="168"/>
         <source>Position</source>
         <translation>Position</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/src/prefsubtitles.ui" line="163"/>
-        <source>Default position of the subtitles on screen</source>
-        <translation type="obsolete">Standard Position der Untertitel auf dem Bildschirm</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="228"/>
@@ -4828,14 +4270,9 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>Niedrigste Position</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="313"/>
+        <location filename="../prefsubtitles.cpp" line="301"/>
         <source>Include subtitles on screenshots</source>
         <translation>Untertitel miteinbeziehen auf Bidschirmfotos</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/src/prefsubtitles.ui" line="276"/>
-        <source>Use -subfont option (required by recent MPlayer releases)</source>
-        <translation type="obsolete">Subfont Optionen anwenden (erfoderlich bei neueren Mplayer Versionen)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="313"/>
@@ -4848,107 +4285,62 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>Schriftart</translation>
     </message>
     <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/src/prefsubtitles.ui" line="324"/>
-        <source>TTF font:</source>
-        <translation type="obsolete">TTF Schriftart:</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/src/prefsubtitles.ui" line="341"/>
-        <source>Search...</source>
-        <translation type="obsolete">Suchen...</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/src/prefsubtitles.ui" line="368"/>
-        <source>System font:</source>
-        <translation type="obsolete">System-Schriftart:</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="381"/>
+        <location filename="../prefsubtitles.ui" line="359"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
         <translation>Auswahl der Schriftart für Untertitel (und OSD):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="409"/>
+        <location filename="../prefsubtitles.ui" line="399"/>
         <source>Size</source>
         <translation>Größe</translation>
     </message>
     <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/src/prefsubtitles.ui" line="400"/>
-        <source>Autoscale:</source>
-        <translation type="obsolete">Automatische Skalierung:</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="443"/>
+        <location filename="../prefsubtitles.ui" line="433"/>
         <source>No autoscale</source>
         <translation>Keine automatische Skalierung</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="448"/>
+        <location filename="../prefsubtitles.ui" line="438"/>
         <source>Proportional to movie height</source>
         <translation>Proportional  zu Filmhöhe</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="453"/>
+        <location filename="../prefsubtitles.ui" line="443"/>
         <source>Proportional to movie width</source>
         <translation>Proportional  zur Fimbreite</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="458"/>
+        <location filename="../prefsubtitles.ui" line="448"/>
         <source>Proportional to movie diagonal</source>
         <translation>Proportional zur Filmdiagonale</translation>
     </message>
     <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/src/prefsubtitles.ui" line="450"/>
-        <source>Scale:</source>
-        <translation type="obsolete">Skalierung:</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="521"/>
-        <source>SSA/&amp;ASS library</source>
-        <translation type="obsolete">SSA/&amp;ASS Library</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="582"/>
+        <location filename="../prefsubtitles.ui" line="572"/>
         <source>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</source>
         <translation>Die neue SSA/ASS Bibliothek produziert schön gestaltete Untertitel für externe SSA/ASS und Matroska-Dateien. Aber sie wird auch zum Rendern anderer Formate verwendet, wie sub und srt-Dateien.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="346"/>
+        <location filename="../prefsubtitles.cpp" line="334"/>
         <source>Use SSA/ASS library for subtitle rendering</source>
         <translation>SSA/ASS-Programmbibliothek zum Rendern von Untertiteln benutzen</translation>
     </message>
     <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/src/prefsubtitles.ui" line="530"/>
-        <source>Text color:</source>
-        <translation type="obsolete">Textfarbe:</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/src/prefsubtitles.ui" line="569"/>
-        <source>Border color:</source>
-        <translation type="obsolete">Rahmenfarbe:</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="704"/>
+        <location filename="../prefsubtitles.ui" line="694"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
         <translation>Hier kann der Stil für die SSA/ASS Untertitel aufgehoben werden. Ebenfalls können Feinabstimmungen zur Darstellung von srt und sub Untertiteln, mit der SSA/ASS Library, vorgenommen werden.&lt;br&gt;Beispiel: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/src/prefsubtitles.ui" line="639"/>
-        <source>Styles:</source>
-        <translation type="obsolete">Stilarten:</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="307"/>
+        <location filename="../prefsubtitles.cpp" line="295"/>
         <source>Subtitle position</source>
         <translation>Position der Untertitel</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="310"/>
+        <location filename="../prefsubtitles.cpp" line="298"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
         <translation>Diese Option bestimmt die Position der Untertitel über dem Videofenster.&lt;i&gt;100&lt;/i&gt; bedeutet Unten (Buttom), während &lt;i&gt;0&lt;/i&gt; Oben  (Top) bedeutet.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="356"/>
+        <location filename="../prefsubtitles.cpp" line="344"/>
         <source>SSA/ASS styles</source>
         <translation>SSA/ASS Stilarten</translation>
     </message>
@@ -4978,178 +4370,158 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>&amp;Untertitel auf Bidschirmfotos miteinbeziehen </translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="387"/>
-        <source>&amp;Use -subfont option (required by recent MPlayer releases)</source>
-        <translation type="obsolete">&amp;Subfont Optionen anwenden (erforderlich bei neueren MPlayer Versionen)</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="337"/>
+        <location filename="../prefsubtitles.ui" line="389"/>
         <source>&amp;TTF font:</source>
         <translation>&amp;TTF Schriftart:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="354"/>
-        <source>Sea&amp;rch...</source>
-        <translation>Su&amp;chen...</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="374"/>
+        <location filename="../prefsubtitles.ui" line="369"/>
         <source>S&amp;ystem font:</source>
         <translation>&amp;System-Schriftart:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="429"/>
+        <location filename="../prefsubtitles.ui" line="419"/>
         <source>A&amp;utoscale:</source>
         <translation>&amp;Automatische Skalierung:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="233"/>
-        <source>S&amp;cale:</source>
-        <translation type="obsolete">&amp;Skalierung:</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="595"/>
+        <location filename="../prefsubtitles.ui" line="585"/>
         <source>&amp;Use SSA/ASS library for subtitle rendering</source>
         <translation>&amp;SSA/ASS-Programmbibliothek zum Rendern von Untertiteln benutzen</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="613"/>
+        <location filename="../prefsubtitles.ui" line="603"/>
         <source>&amp;Text color:</source>
         <translation>&amp;Textfarbe:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="655"/>
+        <location filename="../prefsubtitles.ui" line="645"/>
         <source>&amp;Border color:</source>
         <translation>&amp;Rahmenfarbe:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="728"/>
+        <location filename="../prefsubtitles.ui" line="718"/>
         <source>St&amp;yles:</source>
         <translation>&amp;Stilarten:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="344"/>
+        <location filename="../prefsubtitles.cpp" line="332"/>
         <source>SSA/ASS library</source>
         <translation>SSA/AAS Programmbibliothek</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="336"/>
+        <location filename="../prefsubtitles.cpp" line="324"/>
         <source>Default scale for normal subtitles</source>
         <translation>Standard Skalierung für normale Untertitel</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="338"/>
+        <location filename="../prefsubtitles.cpp" line="326"/>
         <source>This option specifies the default font scale for normal (white) subtitles which will be used for new videos.</source>
         <translation>Diese Option spezifiziert die Skalierung, der Standard Schriftart bei normalen (weißen) Untertiteln, welche bei neuen Videos angewendet wird.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="340"/>
+        <location filename="../prefsubtitles.cpp" line="328"/>
         <source>Default scale for SSA/ASS subtitles</source>
         <translation>Standard Skalierung für SSA/ASS Untertitel</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="342"/>
+        <location filename="../prefsubtitles.cpp" line="330"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new videos.</source>
         <translation>Diese Option spezifiziert die Skalierung der Standard Schriftart, bei SSA/AAS Untertiteln, welche bei neuen Videos angewendet wird.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="540"/>
+        <location filename="../prefsubtitles.ui" line="530"/>
         <source>Default s&amp;cale for normal subtitles:</source>
         <translation>&amp;Standard Skalierung für normale Untertitel:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="527"/>
+        <location filename="../prefsubtitles.ui" line="517"/>
         <source>Default sc&amp;ale for SSA/ASS subtitles:</source>
         <translation>&amp;Standard Skalierung für SSA/ASS Untertitel:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="570"/>
+        <location filename="../prefsubtitles.ui" line="560"/>
         <source>SSA/ASS &amp;library</source>
         <translation>&amp;SSA/AAS Programmbibliothek</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="302"/>
-        <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred subtitle that one will be used instead. </source>
-        <translation type="obsolete">Wenn mehr als eine Untertitelspur zur Verfügung steht, wird automatisch die erste gewählt, es sei denn eine andere Einstellung wurde vom Anwender festgelegt.</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="304"/>
+        <location filename="../prefsubtitles.cpp" line="292"/>
         <source>Default subtitle encoding</source>
         <translation>Standard Untertitel Encodierung</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="305"/>
+        <location filename="../prefsubtitles.cpp" line="293"/>
         <source>Select the encoding which will be used for subtitle files.</source>
         <translation>Auswahl der Untertiteldateien - Enkodierung.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="315"/>
+        <location filename="../prefsubtitles.cpp" line="303"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. Note: it may cause some troubles sometimes.</source>
         <translation>Mit dieser Option werden Untertitel in Bildschirmfotos übernommen. Hinweis : Das kann manchmal zu Schwierigkeiten führen.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="319"/>
+        <location filename="../prefsubtitles.cpp" line="307"/>
         <source>TTF font</source>
         <translation>TTF Schriftart</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="322"/>
+        <location filename="../prefsubtitles.cpp" line="310"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in &lt;i&gt;%1&lt;/i&gt;.</source>
         <translation>Auswahl der Untertitel - TTF Schriftart. Auswahl von TTF Schriftarten in &lt;i&gt;%1&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="329"/>
+        <location filename="../prefsubtitles.cpp" line="317"/>
         <source>System font</source>
         <translation>System-Schriftart</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="331"/>
+        <location filename="../prefsubtitles.cpp" line="319"/>
         <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
         <translation>Auswahl der Systemschriftt für Untertitel und OSD. 
 &lt;b&gt;Hinweis:&lt;/b&gt; Erfordert MPlayer mit fontconfig Support.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="333"/>
+        <location filename="../prefsubtitles.cpp" line="321"/>
         <source>Autoscale</source>
         <translation>Automatische Skalierung</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="348"/>
+        <location filename="../prefsubtitles.cpp" line="336"/>
         <source>Check this option to activate the SSA/ASS library. It provides nicer subtitles, so it&apos;s a good idea to do it.</source>
         <translation>Diese Option aktiviert die SSA/ASS Programmbibliothek. Das liefert nettere Untertitel und somit ist es eine gute Idee, die Option zu aktivieren.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="350"/>
+        <location filename="../prefsubtitles.cpp" line="338"/>
         <source>Text color</source>
         <translation>Textfarbe</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="351"/>
+        <location filename="../prefsubtitles.cpp" line="339"/>
         <source>Select the color for the text of the subtitles.</source>
         <translation>Auswahl Textfarbe der Untertitel.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="353"/>
+        <location filename="../prefsubtitles.cpp" line="341"/>
         <source>Border color</source>
         <translation>Rahmenfarbe</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="354"/>
+        <location filename="../prefsubtitles.cpp" line="342"/>
         <source>Select the color for the border of the subtitles.</source>
         <translation>Auswahl Rahmenfarbe Untertitel.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="296"/>
+        <location filename="../prefsubtitles.cpp" line="284"/>
         <source>Select the subtitle autoload method.</source>
         <translation>Auswahl der Methode zum automatischen Laden der Untertitel.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="302"/>
+        <location filename="../prefsubtitles.cpp" line="290"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>Wenn mehr als eine Untertitelspur zur Verfügung steht, wird automatisch die erste gewählt, es sei denn eine andere Einstellung wurde vom Anwender festgelegt.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="334"/>
+        <location filename="../prefsubtitles.cpp" line="322"/>
         <source>Select the subtitle autoscaling method.</source>
         <translation>Auswahl der Untertitel - Autoskalierungsmethode.</translation>
     </message>
@@ -5230,94 +4602,9 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>%1 Minuten und 1 Sekunde</translation>
     </message>
     <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/src/main.cpp" line="107"/>
-        <source>Usage: %1 [-ini-path [directory]] [-action action_name] [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...
-</source>
-        <translation type="obsolete">Anwendung: %1 [-ini-path [Verzeichnis]] [-action action_Name] [[-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/src/main.cpp" line="112"/>
-        <source>         -ini-path: specifies the directory for the configuration file
-                    (smplayer.ini). If directory is omitted, the application
-                    directory will be used.
-</source>
-        <translation type="obsolete">-ini-path: spezifiziert das Verzeichnis für die Konfiguration-Datei   
-           (smplayer.ini) Wenn das Verzeichnis ausgelassen wird,  
-           wird das Anwendungsverzeichnis benutzt. 
-</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/src/main.cpp" line="118"/>
-        <source>           -action: tries to make a connection to another running instance
-                    and send to it the specified action. Example: -action pause
-                    The rest of options (if any) will be ignored and the
-                    application will exit. It will return 0 on success or -1
-                    on failure.
-</source>
-        <translation type="obsolete">          -action: versucht, eine Beziehung zu einem anderen laufenden Prozeß herzustellen 
-                   und zu ihm die spezifizierte Aktionen zu schicken. Beispiel: - -action pause                      
-                   Die restlichen Optionen (falls vorhanden) werden ignoriert
-                   und die Anwendung beendet. Der  Status bringt 0 für Erfolg oder -1 
-                   für Ausfall zurück. 
-</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/src/main.cpp" line="120"/>
-        <source>     -close-at-end: the main window will be closed when the file/playlist finish
-</source>
-        <translation type="obsolete">     -close-at-end: Das Hauptfenster wird geschlossen  
-     wenn die Datei/Abspieliste benendet ist
-</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/src/main.cpp" line="122"/>
-        <source>             -help: will show this message and then will exit.
-</source>
-        <translation type="obsolete">             -help: Zeigt diesen Hinweis und wird beendet.
-</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/src/main.cpp" line="129"/>
-        <source>             media: &apos;media&apos; is any kind of file that SMPlayer can open. It can
-                    be a local file, a DVD (e.g. dvd://1), an Internet stream
-                    (e.g. mms://....) or a local playlist in format m3u.
-                    If the -playlist option is used, that means that SMPlayer
-                    will pass the -playlist option to MPlayer, so MPlayer will
-                    will handle the playlist, not SMPlayer.
-</source>
-        <translation type="obsolete">            media: &apos;Media&apos; ist jede Art von Datei die SMPlayer öffnen kann.
-                  Das kann eine lokale Datei sein, eine DVD (e.g. dvd://1), ein Internetstream 
-                  (e.g. mms://....) oder eine lokale Abspielliste im Format m3u. 
-                  Wenn die Option Abspielliste in Gebrach ist, das heißt SMPlayer 
-                  gibt die Abspiellisten-Option an MPlayer weiter, MPlayer 
-                  verarbeitet die Abspielliste, nicht SMPlayer.
-</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/Downloads/DVD/SMPlayer/Source/smplayer-0.5.46/src/main.cpp" line="81"/>
-        <source>This is SMPlayer v. %1 running on %2
-</source>
-        <translation type="obsolete">Das ist SMPlayer v.%1 running on %2</translation>
-    </message>
-    <message>
         <location filename="../smplayer.cpp" line="264"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Das ist SMPlayer v.%1 running on %2</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/main.cpp" line="166"/>
-        <source>Usage: %1 [-ini-path [directory]] [-action action_name] [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="obsolete">Anwendung: %1 [-ini-path [Verzeichnis]] [-action action_Name] [[-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/src/main.cpp" line="175"/>
-        <source>specifies the directory for the configuration file (smplayer.ini). If directory is omitted, the application directory will be used.</source>
-        <translation type="obsolete">spezifiziert das Verzeichnis für die Konfiguration-Datei (smplayer.ini) Wenn das Verzeichnis ausgelassen wird, wird das Anwendungsverzeichnis benutzt. </translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/Programme/Source-Pakete/SMPlayer/Source/smplayer-SVN-r63/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.59/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.57/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.54/Programme/Source-Pakete/SMPlayer/Source/smplayer-0.5.53/Programme/SMPlayer/Source/smplayer-0.5.50/Programme/SMPlayer/Source/smplayer-0.5.49/src/main.cpp" line="178"/>
-        <source>tries to make a connection to another running instance and send to it the specified action. Example: -action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
-        <translation type="obsolete">versucht, eine Beziehung zu einem anderen laufenden Prozeß herzustellen und zu ihm die spezifizierte Aktionen zu schicken. Beispiel: -action pause Die restlichen Optionen (falls vorhanden) werden ignoriert und die Anwendung beendet. Der Status bringt 0 für Erfolg oder -1 für Ausfall zurück.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="134"/>
@@ -5328,16 +4615,6 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <location filename="../clhelp.cpp" line="146"/>
         <source>will show this message and then will exit.</source>
         <translation>Zeigt diesen Hinweis und wird beendet.</translation>
-    </message>
-    <message>
-        <location filename="../clhelp.cpp" line="143"/>
-        <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
-        <translation type="obsolete">&apos;Media&apos; ist jede Art von Datei die SMPlayer öffnen kann. Das kann eine lokale Datei sein, eine DVD (e.g. dvd://1), ein Internetstream (e.g. mms://....) oder eine lokale Abspielliste im Format m3u. Wenn die Option Abspielliste in Gebrach ist, das heißt SMPlayer gibt die Abspiellisten-Option an MPlayer weiter, MPlayer verarbeitet die Abspielliste, nicht SMPlayer.</translation>
-    </message>
-    <message>
-        <location filename="../../Programme/trunk/smplayer/src/main.cpp" line="169"/>
-        <source>Usage: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="obsolete">Anwendung: %1 [-ini-path [Verzeichnis]] [-send-action action_name] [-actions Aktion_Liste [-close-at-end] [-help|--help|-h|-?] [[-playlist] Media] [[-playlist] Media]...</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="123"/>
@@ -5360,11 +4637,6 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>Falls ein weiterer Prozess läuft, Medien werden dort in die Playlist eingefügt. Läuft kein weiterer Prozess, die Option wird ingnoriert und Dateien werden mit einem neuen Prozess geöffnet.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="170"/>
-        <source>Usage: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="obsolete">Anwendung: %1 [-ini-path [Verzeichnis]] [-send-action action_name] [-actions Aktion_Liste [-close-at-end] [-help|--help|-h|-?] [[-playlist] Media] [[-playlist] Media]...</translation>
-    </message>
-    <message>
         <location filename="../clhelp.cpp" line="116"/>
         <source>specifies the directory for the configuration file (smplayer.ini).</source>
         <translation>Spezifiziert das Verzeichnis für die Konfigurationsdatei (smplayer.ini).</translation>
@@ -5373,11 +4645,6 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <location filename="../clhelp.cpp" line="137"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation>Das Hauptfenster wird geschlossen wenn die Datei/Abspieliste benendet ist.</translation>
-    </message>
-    <message>
-        <location filename="../main.cpp" line="173"/>
-        <source>Usage: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="obsolete">Gebrauch: %1 [-ini-path Verzeichnis]] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="140"/>
@@ -5393,11 +4660,6 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <location filename="../winfileassoc.cpp" line="334"/>
         <source>Enqueue in SMPlayer</source>
         <translation>Einreihen in SMPlayer</translation>
-    </message>
-    <message>
-        <location filename="../clhelp.cpp" line="87"/>
-        <source>Usage: %1 [-mini] [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="obsolete">Gebrauch: %1 [-ini-path Verzeichnis]] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="112"/>

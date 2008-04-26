@@ -243,11 +243,6 @@
         <translation>Viac informácií</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="43"/>
-        <source>Using MPlayer SVN r%1</source>
-        <translation type="obsolete">S použitím MPlayeru SVN r%1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="168"/>
         <source>Korean</source>
         <translation type="unfinished"></translation>
@@ -266,181 +261,6 @@
         <location filename="../about.cpp" line="50"/>
         <source>Using MPlayer %1</source>
         <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>AboutDialog</name>
-    <message>
-        <location filename="" line="5"/>
-        <source>Version: %1</source>
-        <translation type="obsolete">Verzia: %1</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
-        <translation type="obsolete">Tento program je slobodný software: možete ho redistribuovať a/alebo modifikovať za podmienok licencie GPL verzia 2.</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Translators:</source>
-        <translation type="obsolete">Prekladatelia:</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>German</source>
-        <translation type="obsolete">Nemecky</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Slovak</source>
-        <translation type="obsolete">Slovensky</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Italian</source>
-        <translation type="obsolete">Taliansky</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>French</source>
-        <translation type="obsolete">Francúzsky</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Zjednodušená čínština</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Russian</source>
-        <translation type="obsolete">Rusky</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Hungarian</source>
-        <translation type="obsolete">Maďarsky</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Japanese</source>
-        <translation type="obsolete">Japonsky</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Dutch</source>
-        <translation type="obsolete">Holandsky</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Ukrainian</source>
-        <translation type="obsolete">Ukrainsky</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Czech</source>
-        <translation type="obsolete">Česky</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Logo designed by %1</source>
-        <translation type="obsolete">Logo vytvoril %1</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Get updates at: %1</source>
-        <translation type="obsolete">Aktuálna verzia na: %1</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>About SMPlayer</source>
-        <translation type="obsolete">O SMPlayer</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Polish</source>
-        <translation type="obsolete">Poľsky</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Bulgarian</source>
-        <translation type="obsolete">Bulharsky</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Turkish</source>
-        <translation type="obsolete">Turecky</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Swedish</source>
-        <translation type="obsolete">Švédsky</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Serbian</source>
-        <translation type="obsolete">Srbsky</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">Tradičná Čínština</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Romanian</source>
-        <translation type="obsolete">Rumunsky</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">Portugalská Brazílčina</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Portuguese - Portugal</source>
-        <translation type="obsolete">Portugalská Portugalčina</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Compiled with Qt %1</source>
-        <translation type="obsolete">Skompilované s Qt %1</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>%1, %2 and %3</source>
-        <translation type="obsolete">%1, %2 a %3</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>%1 and %2</source>
-        <translation type="obsolete">%1 a %2</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>http://smplayer.sourceforge.net/en/windows/download.php</source>
-        <comment>If the web page is translated into your language you can change the URL so it points to the download page in the translation.Otherwise leave as is.</comment>
-        <translation type="obsolete">http://smplayer.sourceforge.net/en/windows/download.php</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>http://smplayer.sourceforge.net/en/linux/download.php</source>
-        <comment>If the web page is translated into your language you can change the URL so it points to the download page in the translation.Otherwise leave as is.</comment>
-        <translation type="obsolete">http://smplayer.sourceforge.net/en/linux/download.php</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Greek</source>
-        <translation type="obsolete">Grécky</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Finnish</source>
-        <translation type="obsolete">Fínsky</translation>
     </message>
 </context>
 <context>
@@ -686,36 +506,6 @@ Chcete ho prepísať?</translation>
         <translation>&amp;Autodetekcia</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>&amp;4:3</source>
-        <translation type="obsolete">&amp;4:3</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>&amp;5:4</source>
-        <translation type="obsolete">&amp;5:4</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>&amp;14:9</source>
-        <translation type="obsolete">&amp;14:9</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>16:&amp;9</source>
-        <translation type="obsolete">16:&amp;9</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>1&amp;6:10</source>
-        <translation type="obsolete">1&amp;6:10</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>&amp;2.35:1</source>
-        <translation type="obsolete">&amp;2.35:1</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1232"/>
         <source>4:3 &amp;Letterbox</source>
         <translation>4:3 &amp;Letterbox</translation>
@@ -824,11 +614,6 @@ Chcete ho prepísať?</translation>
         <location filename="../basegui.cpp" line="1259"/>
         <source>&amp;Filters</source>
         <translation>&amp;Filtre</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>&amp;Default</source>
-        <translation type="obsolete">Š&amp;tandard</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1273"/>
@@ -996,86 +781,71 @@ Chcete ho prepísať?</translation>
         <translation>&lt;prázdny&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2539"/>
+        <location filename="../basegui.cpp" line="2540"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2717"/>
+        <location filename="../basegui.cpp" line="2718"/>
         <source>Audio</source>
         <translation>Zvuk</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2541"/>
+        <location filename="../basegui.cpp" line="2542"/>
         <source>Playlists</source>
         <translation>Playlist</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2718"/>
+        <location filename="../basegui.cpp" line="2719"/>
         <source>All files</source>
         <translation>Všetky súbory</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2715"/>
+        <location filename="../basegui.cpp" line="2716"/>
         <source>Choose a file</source>
         <translation>Vybrať súbor 1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2589"/>
+        <location filename="../basegui.cpp" line="2590"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Informácie</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2592"/>
+        <location filename="../basegui.cpp" line="2593"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Zariadenie CD / DVD ešte nebolo nakonfigurované.
 Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2666"/>
+        <location filename="../basegui.cpp" line="2667"/>
         <source>Choose a directory</source>
         <translation>Vybrať adresár 2</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2702"/>
+        <location filename="../basegui.cpp" line="2703"/>
         <source>Subtitles</source>
         <translation>Titulky</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2742"/>
+        <location filename="../basegui.cpp" line="2743"/>
         <source>About Qt</source>
         <translation>O Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3105"/>
+        <location filename="../basegui.cpp" line="3106"/>
         <source>Playing %1</source>
         <translation>Prehrávam %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3106"/>
+        <location filename="../basegui.cpp" line="3107"/>
         <source>Pause</source>
         <translation>Pauza</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3107"/>
+        <location filename="../basegui.cpp" line="3108"/>
         <source>Stop</source>
         <translation>Zastav</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>De&amp;noise</source>
-        <translation type="obsolete">&amp;Odstránenie šumu</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>N&amp;ormal</source>
-        <translation type="obsolete">&amp;Normálne</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>&amp;Soft</source>
-        <translation type="obsolete">&amp;Jemné</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1023"/>
@@ -1258,11 +1028,6 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <translation>Zvýšiť gammu</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>Toggle double size</source>
-        <translation type="obsolete">Dvojnásobná veľkosť</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1078"/>
         <source>&amp;Load external file...</source>
         <translation>&amp;Načitať externý súbor...</translation>
@@ -1368,7 +1133,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <translation>Parametre &amp;príkazového riadku</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2731"/>
+        <location filename="../basegui.cpp" line="2732"/>
         <source>SMPlayer command line options</source>
         <translation>Parametre príkazového riakdu pre SMPlayer</translation>
     </message>
@@ -1388,32 +1153,32 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3522"/>
+        <location filename="../basegui.cpp" line="3523"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3523"/>
+        <location filename="../basegui.cpp" line="3524"/>
         <source>Exit code: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3533"/>
+        <location filename="../basegui.cpp" line="3534"/>
         <source>MPlayer failed to start.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3534"/>
+        <location filename="../basegui.cpp" line="3535"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3536"/>
+        <location filename="../basegui.cpp" line="3537"/>
         <source>MPlayer has crashed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3537"/>
+        <location filename="../basegui.cpp" line="3538"/>
         <source>See the log for more info.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1457,6 +1222,11 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <source>Show context menu</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="../basegui.cpp" line="2539"/>
+        <source>Multimedia</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>BaseGuiPlus</name>
@@ -1479,11 +1249,6 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <location filename="../baseguiplus.cpp" line="185"/>
         <source>&amp;Restore</source>
         <translation>&amp;Obnoviť</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>&amp;Recent files</source>
-        <translation type="obsolete">&amp;Naposledy otvorené súbory</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="171"/>
@@ -1547,11 +1312,6 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <translation>Vitajte v programe SMPlayer</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>Volume</source>
-        <translation type="obsolete">Hlasitosť</translation>
-    </message>
-    <message>
         <location filename="../defaultgui.cpp" line="382"/>
         <source>Audio</source>
         <translation>Zvuk</translation>
@@ -1560,11 +1320,6 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <location filename="../defaultgui.cpp" line="383"/>
         <source>Subtitle</source>
         <translation>Titulky</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Playlist</source>
-        <translation type="obsolete">Playlist</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="376"/>
@@ -2203,169 +1958,169 @@ Chcete ho prepísať?</translation>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="274"/>
+        <location filename="../playlist.cpp" line="275"/>
         <source>Name</source>
         <translation>Názov</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="274"/>
+        <location filename="../playlist.cpp" line="275"/>
         <source>Length</source>
         <translation>Dĺžka</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="668"/>
+        <location filename="../playlist.cpp" line="669"/>
         <source>Choose a file</source>
         <translation>Vybrať súbor</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="686"/>
+        <location filename="../playlist.cpp" line="687"/>
         <source>Choose a filename</source>
         <translation>Vybrať názov súboru</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="697"/>
+        <location filename="../playlist.cpp" line="698"/>
         <source>Confirm overwrite?</source>
         <translation>Potvrdiť prepísanie?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="874"/>
+        <location filename="../playlist.cpp" line="875"/>
         <source>Select one or more files to open</source>
         <translation>Vyberte jeden alebo viac súborov na otvorenie</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="928"/>
+        <location filename="../playlist.cpp" line="929"/>
         <source>Choose a directory</source>
         <translation>Vybrať adresár</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="699"/>
+        <location filename="../playlist.cpp" line="700"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Súbor %1 už existuje.
 Chcete ho prepísať?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1116"/>
+        <location filename="../playlist.cpp" line="1117"/>
         <source>Edit name</source>
         <translation>Zmeniť názov</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1117"/>
+        <location filename="../playlist.cpp" line="1118"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Napíšte názov, ktorý bude zobrazený v zozname pre tento súbor:</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="279"/>
+        <location filename="../playlist.cpp" line="280"/>
         <source>&amp;Play</source>
         <translation>&amp;Prehrať</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="312"/>
+        <location filename="../playlist.cpp" line="313"/>
         <source>&amp;Edit</source>
         <translation>&amp;Upraviť</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="688"/>
+        <location filename="../playlist.cpp" line="689"/>
         <source>Playlists</source>
         <translation>Zoznam</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="876"/>
+        <location filename="../playlist.cpp" line="877"/>
         <source>All files</source>
         <translation>Všetky súbory</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="276"/>
+        <location filename="../playlist.cpp" line="277"/>
         <source>&amp;Load</source>
         <translation>&amp;Načítať</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="277"/>
+        <location filename="../playlist.cpp" line="278"/>
         <source>&amp;Save</source>
         <translation>&amp;Uložiť</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="281"/>
+        <location filename="../playlist.cpp" line="282"/>
         <source>&amp;Next</source>
         <translation>Ďa&amp;lší</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="282"/>
+        <location filename="../playlist.cpp" line="283"/>
         <source>Pre&amp;vious</source>
         <translation>Pre&amp;dchádzajúci</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="294"/>
+        <location filename="../playlist.cpp" line="295"/>
         <source>Move &amp;up</source>
         <translation>Posunúť &amp;vyššie</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="295"/>
+        <location filename="../playlist.cpp" line="296"/>
         <source>Move &amp;down</source>
         <translation>Posunúť &amp;nižšie</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="297"/>
+        <location filename="../playlist.cpp" line="298"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Opakovať</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="298"/>
+        <location filename="../playlist.cpp" line="299"/>
         <source>S&amp;huffle</source>
         <translation>&amp;Náhodný výber</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="303"/>
+        <location filename="../playlist.cpp" line="304"/>
         <source>Add &amp;current file</source>
         <translation>&amp;Pridať aktuálny súbor</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="304"/>
+        <location filename="../playlist.cpp" line="305"/>
         <source>Add &amp;file(s)</source>
         <translation>Pridať &amp;súbor(y)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="305"/>
+        <location filename="../playlist.cpp" line="306"/>
         <source>Add &amp;directory</source>
         <translation>Pridať &amp;adresár</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="308"/>
+        <location filename="../playlist.cpp" line="309"/>
         <source>Remove &amp;selected</source>
         <translation>&amp;Odstrániť vybrané</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="309"/>
+        <location filename="../playlist.cpp" line="310"/>
         <source>Remove &amp;all</source>
         <translation>Odstrániť &amp;všetky</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="322"/>
+        <location filename="../playlist.cpp" line="323"/>
         <source>SMPlayer - Playlist</source>
         <translation>SMPlayer - Playlist</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="316"/>
+        <location filename="../playlist.cpp" line="317"/>
         <source>Add...</source>
         <translation>Pridať...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="318"/>
+        <location filename="../playlist.cpp" line="319"/>
         <source>Remove...</source>
         <translation>Odstrániť...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="723"/>
+        <location filename="../playlist.cpp" line="724"/>
         <source>Playlist modified</source>
         <translation>Playlist zmenený</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="724"/>
+        <location filename="../playlist.cpp" line="725"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Vykonané zmeny v playliste, chcete uložiť playlist?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="300"/>
+        <location filename="../playlist.cpp" line="301"/>
         <source>Preferences</source>
         <translation type="unfinished">Nastavenia</translation>
     </message>
@@ -2397,6 +2152,11 @@ Chcete ho prepísať?</translation>
         <source>Automatically get &amp;info about files added</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="../playlistpreferences.ui" line="42"/>
+        <source>&amp;Save copy of playlist on exit</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>PrefAdvanced</name>
@@ -2419,11 +2179,6 @@ Chcete ho prepísať?</translation>
         <location filename="../prefadvanced.ui" line="49"/>
         <source>icon</source>
         <translation>ikona</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Additional Options for MPlayer</source>
-        <translation type="obsolete">Ďalšie nastavenia pre MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="303"/>
@@ -2454,11 +2209,6 @@ Príklad: resample=44100:0:0,volnorm</translation>
         <location filename="../prefadvanced.cpp" line="361"/>
         <source>Don&apos;t repaint the background of the video window</source>
         <translation>Neprekresľuj pozadie okna s videom</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>&amp;Logs</source>
-        <translation type="obsolete">&amp;Logy</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="330"/>
@@ -2546,11 +2296,6 @@ Rozbaľovací zoznam môže obsahovať výrazy pre niektoré jazyky.</translatio
         <location filename="../prefadvanced.ui" line="202"/>
         <source>&amp;Don&apos;t repaint the background of the video window</source>
         <translation>&amp;Neprekresľuj pozadie okna s videom</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Log &amp;MPlayer output</source>
-        <translation type="obsolete">Logovať výstup programu &amp;MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="117"/>
@@ -2804,24 +2549,9 @@ Rozbaľovací zoznam môže obsahovať výrazy pre niektoré jazyky.</translatio
         <translation>Zariadenia</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>Currently SMPlayer does not autodetect cdrom or dvd devices. So in order to play cdroms or dvds you must first select here your cdrom and dvd drives (can be the same).</source>
-        <translation type="obsolete">SMPlayer momentálne nerobí autodetekciu CD alebo DVD zariadení. Ak chcete prehrávať CD alebo DVD disky, musíte najprv vybrať vaše zariadenia (môžu byť použité tie isté).</translation>
-    </message>
-    <message>
         <location filename="../prefdrives.ui" line="157"/>
         <source>icon</source>
         <translation>ikona</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Select your CD device:</source>
-        <translation type="obsolete">CD zariadenie:</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Select your DVD device:</source>
-        <translation type="obsolete">DVD zariadenie:</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="130"/>
@@ -2862,7 +2592,7 @@ Rozbaľovací zoznam môže obsahovať výrazy pre niektoré jazyky.</translatio
 <context>
     <name>PrefGeneral</name>
     <message>
-        <location filename="../prefgeneral.cpp" line="485"/>
+        <location filename="../prefgeneral.cpp" line="469"/>
         <source>General</source>
         <translation>Hlavné</translation>
     </message>
@@ -2877,299 +2607,204 @@ Rozbaľovací zoznam môže obsahovať výrazy pre niektoré jazyky.</translatio
         <translation>Umiestnenia</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>Select...</source>
-        <translation type="obsolete">Vybrať...</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Folder for storing screenshots:</source>
-        <translation type="obsolete">Adresár pre uloženie snímkov videa:</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Search...</source>
-        <translation type="obsolete">Hľadať...</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Select the MPlayer executable:</source>
-        <translation type="obsolete">umiestnenie programu MPlayer:</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="122"/>
+        <location filename="../prefgeneral.ui" line="88"/>
         <source>Output drivers</source>
         <translation>Výstupné zariadenie</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>Video:</source>
-        <translation type="obsolete">Video:</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Audio:</source>
-        <translation type="obsolete">Zvuk:</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="209"/>
+        <location filename="../prefgeneral.ui" line="175"/>
         <source>Media settings</source>
         <translation>Nastavenia médií</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>Remember settings for all files (audio track, subtitles...)</source>
-        <translation type="obsolete">Zapamätať nastavenia pre všetky súbor (zvuková stopa, titulky, ...)</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Don&apos;t remember time position (files start playing from the beginning)</source>
-        <translation type="obsolete">Nepamätať pozíciu času vo filme (súbory prehrávať vždy od začiatku)</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="614"/>
+        <location filename="../prefgeneral.cpp" line="598"/>
         <source>Preferred audio and subtitles</source>
         <translation type="unfinished">Preferovaná zvuková stopa a titulky</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>Subtitles:</source>
-        <translation type="obsolete">Titulky:</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>&amp;Video and audio</source>
-        <translation type="obsolete">&amp;Video a zvuk</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="524"/>
+        <location filename="../prefgeneral.cpp" line="508"/>
         <source>Video</source>
         <translation type="unfinished">Video</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>Use software video equalizer</source>
-        <translation type="obsolete">Použi softwarový video ekvalizér</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Enable postprocessing for all videos</source>
-        <translation type="obsolete">Povoliť postprocessing pre všetky videá</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Quality:</source>
-        <translation type="obsolete">Kvalita:</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="555"/>
+        <location filename="../prefgeneral.cpp" line="539"/>
         <source>Start videos in fullscreen</source>
         <translation>Prehrávať video v režime celej obrazovky</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="559"/>
+        <location filename="../prefgeneral.cpp" line="543"/>
         <source>Disable screensaver</source>
         <translation>Zakázať šetrič obrazovky</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="564"/>
+        <location filename="../prefgeneral.cpp" line="548"/>
         <source>Audio</source>
         <translation type="unfinished">Zvuk</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>Use software volume control</source>
-        <translation type="obsolete">Použi softwarové ovládanie hlasitosti</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Max. Amplification:</source>
-        <translation type="obsolete">Max. amplifikácia:</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="577"/>
+        <location filename="../prefgeneral.cpp" line="561"/>
         <source>AC3/DTS pass-through S/PDIF</source>
         <translation>AC3/DTS pass-through S/PDIF</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>Volume normalization</source>
-        <translation type="obsolete">Normalizácia hlasitosti</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="459"/>
+        <location filename="../prefgeneral.cpp" line="83"/>
         <source>Select the mplayer executable</source>
         <translation>Umiestnenie programu mplayer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="462"/>
+        <location filename="../prefgeneral.cpp" line="85"/>
         <source>Executables</source>
         <translation>Súbory</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="464"/>
+        <location filename="../prefgeneral.cpp" line="87"/>
         <source>All files</source>
         <translation>Všetky súbory</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="475"/>
+        <location filename="../prefgeneral.cpp" line="89"/>
         <source>Select a directory</source>
         <translation>Vyberte adresár</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="487"/>
+        <location filename="../prefgeneral.cpp" line="471"/>
         <source>MPlayer executable</source>
         <translation>Umiestnenie programu MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="492"/>
+        <location filename="../prefgeneral.cpp" line="476"/>
         <source>Here you must specify the mplayer executable that smplayer will use.&lt;br&gt;smplayer requires at least mplayer 1.0rc1 (svn recommended).&lt;br&gt;&lt;b&gt;If this setting is wrong, smplayer won&apos;t be able to play anything!&lt;/b&gt;</source>
         <translation>Tu určujete umiestnenie programu mplayer, ktorý SMPlayer používa.&lt;br&gt;SMPlayer potrebuje minimálne mplayer 1.0rc1.&lt;br&gt;&lt;b&gt;Ak táto možnosť nie je dobre nastavená, smplayer nebude schopný prehrať akýkoľvek súbor!&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="494"/>
+        <location filename="../prefgeneral.cpp" line="478"/>
         <source>Screenshots folder</source>
         <translation>Adresár pre umiestnenie snímkov</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="497"/>
+        <location filename="../prefgeneral.cpp" line="481"/>
         <source>Here you can specify a folder where the screenshots taken by smplayer will be stored. If this field is empty the screenshot feature will be disabled.</source>
         <translation>Adresár, kam budú ukladnané vytvorené snímky. Pokiaľ adresár nie je určený, snímky nebude možné ukladať.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="499"/>
+        <location filename="../prefgeneral.cpp" line="483"/>
         <source>Video output driver</source>
         <translation>Výstupné video zariadenie</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="501"/>
+        <location filename="../prefgeneral.cpp" line="485"/>
         <source>Select the video output driver. Usually xv (linux) and directx (windows) provide the best performance.</source>
         <translation>Výstupné video zariadenie. Najvyšší výkon dosahuje výstup xv (linux) a directx (windows).&lt;br&gt;Viacej možností získate príkazom &lt;code&gt;mplayer -vo help&lt;/code&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="503"/>
+        <location filename="../prefgeneral.cpp" line="487"/>
         <source>Audio output driver</source>
         <translation>Výstupné zvukové zariadenie</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="504"/>
+        <location filename="../prefgeneral.cpp" line="488"/>
         <source>Select the audio output driver.</source>
         <translation>Výstupné zvukové zariadenie (alsa, oss, nas).&lt;br&gt;Viacej možností získate príkazom &lt;code&gt;mplayer -ao help&lt;/code&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="506"/>
+        <location filename="../prefgeneral.cpp" line="490"/>
         <source>Remember settings</source>
         <translation>Zapamätať nastavenia</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="509"/>
+        <location filename="../prefgeneral.cpp" line="493"/>
         <source>Usually smplayer will remember the settings for each file you play (audio track selected, volume, filters...). Uncheck this option if you don&apos;t like this feature.</source>
         <translation>SMPlayer si štandardne pamätá nastavenia pre každý prehrávaný súbor (vybraná zvuková stopa, hlasitosť, nastavené filtre...). Zrušením tejto možnosti SMPlayer nebude používať toto nastavenie.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="511"/>
+        <location filename="../prefgeneral.cpp" line="495"/>
         <source>Don&apos;t remember time position</source>
         <translation>Nepamätaj časovú pozíciu</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="513"/>
+        <location filename="../prefgeneral.cpp" line="497"/>
         <source>If you check this option, smplayer will play all files from the beginning.</source>
         <translation>Ak použijete túto možnosť, smplayer bude prehrávať súbory vždy od začiatku.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="616"/>
+        <location filename="../prefgeneral.cpp" line="600"/>
         <source>Preferred audio language</source>
         <translation>Preferovaný jazyk zvukovej stopy</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="624"/>
+        <location filename="../prefgeneral.cpp" line="608"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Nastavenie preferovaného jazyka pre zvukové stopy. Ak je vybrané médium s viacerými zvukovými stopami, SMPlayer bude používať nastavený jazyk.&lt;br&gt;Toto nastavenie bude fungovať iba s médiami, ktoré majú informácie o zvukových stopách, ako napr. DVD alebo mkv súbory.&lt;br&gt;Akceptované sú regulárne výrazy.&lt;br&gt;Príklad: &lt;b&gt;sk|cs|en&lt;/b&gt; použije slovenskú zvukovú stopu. Ak nebude nájdená, použije sa česká zvuková stopa. Ak nebude nájdená ani česká, použije sa anglická zvuková stopa. Ak nebude nájdená ani anglická zvuková stopa, použije sa prvá zvuková stopa na médiu.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="626"/>
+        <location filename="../prefgeneral.cpp" line="610"/>
         <source>Preferred subtitle language</source>
         <translation>Prefoerovaný jazyk s titulkami</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="634"/>
+        <location filename="../prefgeneral.cpp" line="618"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Nastavenie preferovaného jazyka pre titulky. Ak je vybrané médium s viacerými titulkami, SMPlayer bude používať nastavený jazyk.&lt;br&gt;Toto nastavenie bude fungovať iba s médiami, ktoré majú informácie o zvukových stopách, ako napr. DVD alebo mkv súbory.&lt;br&gt;Akceptované sú regulárne výrazy.&lt;br&gt;Príklad: &lt;b&gt;sk|cs|en&lt;/b&gt; použije slovenské titulky. Ak nebudú nájdené, použijú sa české titulky. Ak nebudú nájdené ani české, použijú sa anglické titulky. Ak nebudú nájdené ani anglické titulky, použijú sa prvé titulky na médiu.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="527"/>
+        <location filename="../prefgeneral.cpp" line="511"/>
         <source>Software video equalizer</source>
         <translation>Softwarový video ekvalizér</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="531"/>
+        <location filename="../prefgeneral.cpp" line="515"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>Použite túto možnosť, ak video ekvalizér nie je podporovaný vašou grafickou kartou, alebo výstupným video zariadením.&lt;br&gt;&lt;b&gt;Poznámka&lt;/b&gt; táto možnosť može byť nekompatibilná s niektorými výstupnými video zariadeniami.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="557"/>
+        <location filename="../prefgeneral.cpp" line="541"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>Ak použijete túto možnosť, všetky videá budú spúšťané v režime celej obrazovky.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="562"/>
+        <location filename="../prefgeneral.cpp" line="546"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option works only in X11 and Windows.</source>
         <translation>Použite túto možnosť, ak chcete zakázať šetrič obrazovky počas prehrávania.&lt;br&gt;Šetrič obrazovky bude obnovený po skončení prehrávania.&lt;br&gt;&lt;b&gt;Poznámka:&lt;/b&gt; Táto možnosť funguje iba v X11 a Windows.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="566"/>
+        <location filename="../prefgeneral.cpp" line="550"/>
         <source>Software volume control</source>
         <translation>Softwarové ovládanie hlasitosti</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="568"/>
+        <location filename="../prefgeneral.cpp" line="552"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>Použi softwarový mixér miesto mixéru zvukovej karty.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="536"/>
+        <location filename="../prefgeneral.cpp" line="520"/>
         <source>Postprocessing quality</source>
         <translation>Kvalita postprocessingu</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="539"/>
+        <location filename="../prefgeneral.cpp" line="523"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>Dynamická zmena úrovne postprocessingu závislá na vyťažení procesoru. Veľkosť ktorú určíte bude maximálna veľkosť. Bežne môžete použiť vysoké nastavenie.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="583"/>
+        <location filename="../prefgeneral.cpp" line="567"/>
         <source>Change volume</source>
         <translation>Zmeniť hlasitosť</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="586"/>
+        <location filename="../prefgeneral.cpp" line="570"/>
         <source>If checked, SMPlayer will remember the volume for every file and will restore it when played again. For new files the default volume will be used.</source>
         <translation>SMPlayer si bude pamätať nastavenie hlasitosti pre každý otvorený súbor a pri opätovnom prehrávaní súboru nastaví túto hlasitosť. Pre súbory otvorené prvý krát sa použije štandardná hlasitosť.</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>Default volume:</source>
-        <translation type="obsolete">Štandardná hlasitosť:</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="610"/>
+        <location filename="../prefgeneral.ui" line="576"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="550"/>
+        <location filename="../prefgeneral.ui" line="516"/>
         <source>&amp;Change volume on every file</source>
         <translation>&amp;Zmeniť hlasitosť pri každom súbore</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="77"/>
-        <source>&amp;Search...</source>
-        <translation>&amp;Hľadať...</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="110"/>
-        <source>S&amp;elect...</source>
-        <translation>&amp;Vybrať...</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="53"/>
@@ -3177,378 +2812,363 @@ Rozbaľovací zoznam môže obsahovať výrazy pre niektoré jazyky.</translatio
         <translation>Umiestnenie programu &amp;MPlayer:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="86"/>
+        <location filename="../prefgeneral.ui" line="69"/>
         <source>&amp;Folder for storing screenshots:</source>
         <translation>&amp;Adresár pre ukladanie snímkov:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="134"/>
+        <location filename="../prefgeneral.ui" line="100"/>
         <source>V&amp;ideo:</source>
         <translation>V&amp;ideo:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="842"/>
+        <location filename="../prefgeneral.ui" line="808"/>
         <source>&amp;Audio:</source>
         <translation>&amp;Zvuk:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="248"/>
+        <location filename="../prefgeneral.ui" line="214"/>
         <source>&amp;Don&apos;t remember time position (files start playing from the beginning)</source>
         <translation>&amp;Nepamätaj aktuálny čas prehrávania (súbory budú prehrávané vždy od začiatku)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="255"/>
+        <location filename="../prefgeneral.ui" line="221"/>
         <source>&amp;Remember settings for all files (audio track, subtitles...)</source>
         <translation>&amp;Pamätaj nastavenie všetkých súborov (zvuková stopa, titulky, čas...)</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>A&amp;udio:</source>
-        <translation type="obsolete">Z&amp;vuk:</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="861"/>
+        <location filename="../prefgeneral.ui" line="827"/>
         <source>Su&amp;btitles:</source>
         <translation>T&amp;itulky:</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>&amp;Use software video equalizer</source>
-        <translation type="obsolete">&amp;Použi softwarový video ekvalizér</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="346"/>
+        <location filename="../prefgeneral.ui" line="312"/>
         <source>&amp;Quality:</source>
         <translation>&amp;Kvalita:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="421"/>
+        <location filename="../prefgeneral.ui" line="387"/>
         <source>Start videos in &amp;fullscreen</source>
         <translation>Prehrávať video v režime &amp;celej obrazovky</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="428"/>
+        <location filename="../prefgeneral.ui" line="394"/>
         <source>Disable &amp;screensaver</source>
         <translation>Zakázať šetrič &amp;obrazovky</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="581"/>
+        <location filename="../prefgeneral.ui" line="547"/>
         <source>&amp;Default volume:</source>
         <translation>Štandardná &amp;hlasitosť:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="481"/>
+        <location filename="../prefgeneral.ui" line="447"/>
         <source>Use s&amp;oftware volume control</source>
         <translation>Použi &amp;softwarové ovládanie hlasitosti</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="507"/>
+        <location filename="../prefgeneral.ui" line="473"/>
         <source>Ma&amp;x. Amplification:</source>
         <translation>Ma&amp;x. amplifikácia:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="670"/>
+        <location filename="../prefgeneral.ui" line="636"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
         <translation>&amp;AC3/DTS pass-through S/PDIF</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>Volume &amp;normalization</source>
-        <translation type="obsolete">&amp;Normalizácia hlasitosti</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="545"/>
+        <location filename="../prefgeneral.cpp" line="529"/>
         <source>Direct rendering</source>
         <translation>Priamy rendering</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="548"/>
+        <location filename="../prefgeneral.cpp" line="532"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>Zapnutie priameho renderingu. Nie je podporované všetkými kódekmi a grafickými výstupmi. &lt;br&gt;&lt;b&gt;Upozornenie:&lt;/b&gt; môže spôsobovať zlé zobrazenie OSD/titulkov!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="550"/>
+        <location filename="../prefgeneral.cpp" line="534"/>
         <source>Double buffering</source>
         <translation>Dvojitý zásobník (double buffer)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="407"/>
+        <location filename="../prefgeneral.ui" line="373"/>
         <source>D&amp;irect rendering</source>
         <translation>&amp;Priamy rendering</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="414"/>
+        <location filename="../prefgeneral.ui" line="380"/>
         <source>Dou&amp;ble buffering</source>
         <translation>&amp;Dvojitý zásobník</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="553"/>
+        <location filename="../prefgeneral.cpp" line="537"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>Dvojitý zásobník (double buffer) redukuje blikanie medzi prepínaním dvoch obrázkov v pamäti a zobrazením jedného, pričom druhý sa dekóduje. Ak je táto možnosť zakázaná, môže niekedy spôsobiť blikanie OSD/titulkov.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="323"/>
+        <location filename="../prefgeneral.ui" line="289"/>
         <source>&amp;Enable postprocessing by default</source>
         <translation>Štandardne použiť &amp;postprocessing </translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="535"/>
+        <location filename="../prefgeneral.ui" line="501"/>
         <source>Volume &amp;normalization by default</source>
         <translation>Štandardne použiť &amp;normalizáciu hlasitosti</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="515"/>
+        <location filename="../prefgeneral.cpp" line="499"/>
         <source>Close when finished</source>
         <translation>Zatvoriť pri skončení prehrávania</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="517"/>
+        <location filename="../prefgeneral.cpp" line="501"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>Po skončení prehrávania aktuálneho súboru/playlistu za zatvorí okno programu SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="265"/>
+        <location filename="../prefgeneral.ui" line="231"/>
         <source>&amp;Close when finished</source>
         <translation>&amp;Zatvoriť po skončení prehrávania</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="61"/>
+        <location filename="../prefgeneral.cpp" line="63"/>
         <source>2 (Stereo)</source>
         <translation>2 (stereo)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="62"/>
+        <location filename="../prefgeneral.cpp" line="64"/>
         <source>4 (4.0 Surround)</source>
         <translation>4 (4.0 surround)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="63"/>
+        <location filename="../prefgeneral.cpp" line="65"/>
         <source>6 (5.1 Surround)</source>
         <translation>6 (5.1 surround)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="685"/>
+        <location filename="../prefgeneral.ui" line="651"/>
         <source>C&amp;hannels by default:</source>
         <translation>Štandardný počet &amp;kanálov:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="272"/>
+        <location filename="../prefgeneral.ui" line="238"/>
         <source>&amp;Pause when minimized</source>
         <translation>&amp;Pozastaviť prehrávanie pri minimalizovaní</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="519"/>
+        <location filename="../prefgeneral.cpp" line="503"/>
         <source>Pause when minimized</source>
         <translation>Pozastaviť prehrávanie pri minimalizovaní hlavného okna</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="522"/>
+        <location filename="../prefgeneral.cpp" line="506"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, play will be resumed.</source>
         <translation>Pri minimalizovaní hlavného okna sa automaticky pozastaví prehrávanie. Pri obnovení okna sa prehrávanie znovu spustí.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="533"/>
+        <location filename="../prefgeneral.cpp" line="517"/>
         <source>Enable postprocessing by default</source>
         <translation>Štandardne použiť postprocessing</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="570"/>
+        <location filename="../prefgeneral.cpp" line="554"/>
         <source>Max. Amplification</source>
         <translation>Max. amplifikácia</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="580"/>
+        <location filename="../prefgeneral.cpp" line="564"/>
         <source>Volume normalization by default</source>
         <translation>Štandardne použiť normalizáciu hlasitosti</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="581"/>
+        <location filename="../prefgeneral.cpp" line="565"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>Maximalizácia hlasitosti bez poškodenia zvuku.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="588"/>
+        <location filename="../prefgeneral.cpp" line="572"/>
         <source>Default volume</source>
         <translation>Štandardná hlasitosť</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="589"/>
+        <location filename="../prefgeneral.cpp" line="573"/>
         <source>Sets the initial volume that new files will use.</source>
         <translation>Nastaví počiatočnú úroveň hlasitosti, ktorú novo prehrávané video použije.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="599"/>
+        <location filename="../prefgeneral.cpp" line="583"/>
         <source>Channels by default</source>
         <translation>Štandardný počet kanálov</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="575"/>
+        <location filename="../prefgeneral.cpp" line="559"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>Nastavuje maximálnu úroveň amplifikácie v percentách (štandardne: 110). Hodnota 200 povolí zdvihnúť hlasitosť na dvojnásobok. S hodnotami nižšími ako 100 bude počiatočná hlasitosť (ktorá je 100%) vyššia ako je maximum, čo spôsobí nesprávne zobrazenie OSD.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="578"/>
+        <location filename="../prefgeneral.cpp" line="562"/>
         <source>Uses hardware AC3 passthrough</source>
         <translation>Použi hardwarové AC3 passthrough</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="608"/>
+        <location filename="../prefgeneral.cpp" line="592"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. NOTE: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="534"/>
+        <location filename="../prefgeneral.cpp" line="518"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>Postprocessing bude štandardne použitý na všetky otvorené súbory.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="636"/>
+        <location filename="../prefgeneral.cpp" line="620"/>
         <source>Audio track</source>
         <translation>Zvuková stopa</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="640"/>
+        <location filename="../prefgeneral.cpp" line="624"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Určuje štandardnú zvukovú stopu, ktorá bude použitá pri prehrávaní nového súboru. Ak daná stopa neexistuje, použije sa prvá nájdená.&lt;br&gt;&lt;b&gt;Poznámka:&lt;/b&gt; &quot;Preferovaná zvuková stopa&quot; má prednosť pred touto možnosťou.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="642"/>
+        <location filename="../prefgeneral.cpp" line="626"/>
         <source>Subtitle track</source>
         <translation>Titulky</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="646"/>
+        <location filename="../prefgeneral.cpp" line="630"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Určuje štandardný jazyk titulkov, ktoré budú použité  pri prehrávaní nového súboru. Ak dané titulky neexistujú, použijú sa prvé nájdené.&lt;br&gt;&lt;b&gt;Poznámka:&lt;/b&gt; &quot;Preferovaný jazyk titulkov&quot; má prednosť pred touto možnosťou.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="970"/>
+        <location filename="../prefgeneral.ui" line="936"/>
         <source>Or choose a track number:</source>
         <translation>Alebo vyberte číslo stopy:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="911"/>
+        <location filename="../prefgeneral.ui" line="877"/>
         <source>Audi&amp;o:</source>
         <translation>&amp;Zvuk:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="877"/>
+        <location filename="../prefgeneral.ui" line="843"/>
         <source>Preferred language:</source>
         <translation>Preferovaný jazyk:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="775"/>
+        <location filename="../prefgeneral.ui" line="741"/>
         <source>Preferre&amp;d audio and subtitles</source>
         <translation>&amp;Preferovaný zvuk a titulky</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="924"/>
+        <location filename="../prefgeneral.ui" line="890"/>
         <source>&amp;Subtitle:</source>
         <translation>&amp;Titulky:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="89"/>
+        <location filename="../prefgeneral.cpp" line="99"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Nastavenie preferovaného jazyka pre zvukové stopy a titulky. Ak je vybrané médium s viacerými zvukovými stopami a titulkami, SMPlayer bude používať nastavený jazyk. Toto nastavenie bude fungovať iba s médiami, ktoré majú informácie o zvukových stopách a titulkoch, ako napríklad DVD alebo mkv súbory.&lt;br&gt;Akceptované sú regulárne výrazy.&lt;br&gt;Príklad: &lt;b&gt;sk|cs|en&lt;/b&gt; použije slovenskú zvukovú stopu. Ak nebude nájdená, použije sa česká zvuková stopa. Ak nebude nájdená ani česká, použije sa anglická zvuková stopa. Ak nebude nájdená ani anglická zvuková stopa, použije sa prvá zvuková stopa na médiu.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="787"/>
+        <location filename="../prefgeneral.ui" line="753"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="721"/>
+        <location filename="../prefgeneral.ui" line="687"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>Rýchle &amp;prehrávanie bez zmeny výšky</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="610"/>
+        <location filename="../prefgeneral.cpp" line="594"/>
         <source>High speed playback without altering pitch</source>
         <translation>Rýchle prehrávanie bez zmeny výšky</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="612"/>
+        <location filename="../prefgeneral.cpp" line="596"/>
         <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
         <translation>Povolí zmenu rýchlosti prehrávania bez zmeny výšky. Potrebuje minimálne MPlayer dev-SVN-r24924.&lt;br&gt;&lt;b&gt;Poznámka:&lt;/b&gt; parameter &quot;scaletempo&quot;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="591"/>
+        <location filename="../prefgeneral.cpp" line="575"/>
         <source>Change volume just before playing</source>
         <translation>Zmeniť hlasitosť ešte pred prehrávaním</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="648"/>
+        <location filename="../prefgeneral.ui" line="614"/>
         <source>Change volume just before p&amp;laying (avoids loud volume on startup)</source>
         <translation>Zmeniť hlasitosť ešte &amp;pred prehrávaním (odstráni hluk pri začatí prehrávania)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="597"/>
+        <location filename="../prefgeneral.cpp" line="581"/>
         <source>If this option is checked the initial volume will be set by using the &lt;i&gt;-volume&lt;/i&gt; option in MPlayer.&lt;br&gt; &lt;b&gt;WARNING: THE OFFICIAL MPLAYER DOESN&apos;T HAVE THAT &lt;i&gt;-volume&lt;/i&gt; OPTION, YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON&apos;T PLAY ANYTHING.&lt;/b&gt;</source>
         <translation>Počiatočná hlasitosť bude znížená pomocou parametra &lt;i&gt;-volume&lt;/i&gt; v programe MPlayer.&lt;br&gt;&lt;b&gt;UPOZORNENIE: oficiálna verzia programu MPlayer nepozná parameter &lt;i&gt;-volume&lt;/i&gt;, potrebujete patch, inak MPlayer zahlási chybu a nič neprehrá.&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="296"/>
+        <location filename="../prefgeneral.ui" line="262"/>
         <source>&amp;Video</source>
         <translation>&amp;Obraz</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="308"/>
+        <location filename="../prefgeneral.ui" line="274"/>
         <source>Use s&amp;oftware video equalizer</source>
         <translation>&amp;Použi softwarový video ekvalizér</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="449"/>
+        <location filename="../prefgeneral.ui" line="415"/>
         <source>A&amp;udio</source>
         <translation>&amp;Zvuk</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="461"/>
+        <location filename="../prefgeneral.ui" line="427"/>
         <source>Volume</source>
         <translation>Hlasitosť</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="67"/>
+        <location filename="../prefgeneral.cpp" line="69"/>
         <source>None</source>
         <translation type="unfinished">Žiadny</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="68"/>
+        <location filename="../prefgeneral.cpp" line="70"/>
         <source>Lowpass5</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="69"/>
+        <location filename="../prefgeneral.cpp" line="71"/>
         <source>Yadif (normal)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="70"/>
+        <location filename="../prefgeneral.cpp" line="72"/>
         <source>Yadif (double framerate)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="71"/>
+        <location filename="../prefgeneral.cpp" line="73"/>
         <source>Linear Blend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="72"/>
+        <location filename="../prefgeneral.cpp" line="74"/>
         <source>Kerndeint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="379"/>
+        <location filename="../prefgeneral.ui" line="345"/>
         <source>Dei&amp;nterlace by default:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="541"/>
+        <location filename="../prefgeneral.cpp" line="525"/>
         <source>Deinterlace by default</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="543"/>
+        <location filename="../prefgeneral.cpp" line="527"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3725,11 +3345,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinput.cpp" line="77"/>
         <source>Double size</source>
         <translation>Dvojnásobná veľkosť</translation>
-    </message>
-    <message>
-        <location filename="../prefinput.ui" line="169"/>
-        <source>Mi&amp;ddle click</source>
-        <translation type="obsolete">&amp;Stredný klik</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="55"/>
@@ -4323,11 +3938,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Priorita procesu MPlayer.</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>Priority:</source>
-        <translation type="obsolete">Priorita:</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.ui" line="85"/>
         <source>realtime</source>
         <translation>najvyššia</translation>
@@ -4363,19 +3973,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">Cache</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>Size:</source>
-        <translation type="obsolete">Veľkosť:</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.ui" line="457"/>
         <source>KB</source>
         <translation>KB</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Use cache</source>
-        <translation type="obsolete">Použiť cache</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="401"/>
@@ -4388,11 +3988,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Preskakovanie snímkov</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>Allow hard frame drop (can lead to image distortion)</source>
-        <translation type="obsolete">Časté preskakovanie snímkov (môže spôsobiť poškodenie výstupného obrazu)</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.ui" line="194"/>
         <source>Synchronization</source>
         <translation>Synchronizácia</translation>
@@ -4401,11 +3996,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.cpp" line="247"/>
         <source>Audio/video auto synchronization</source>
         <translation>Automatická synchronizácia obrazu a zvuku</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Factor:</source>
-        <translation type="obsolete">Faktor:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="251"/>
@@ -4421,16 +4011,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.cpp" line="221"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Nastavuje prioritu programu mplayer podobne ako sú preddefinované priority vo Windowse.&lt;br&gt;&lt;b&gt;Upozornenie:&lt;/b&gt; použite najvyššej priority môže spôsobiť zablokovanie systému.</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option is for Windows only.</source>
-        <translation type="obsolete">&lt;br&gt;&lt;b&gt;Poznámka:&lt;/b&gt; Táto možnosť je iba pre Windows.</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>This option specifies how much memory (in kBytes) to use when precaching a file or URL. Especially useful on slow media.</source>
-        <translation type="obsolete">Nastavenie veľkosti pamäti (v kBytoch), ktorá bude použitá ako cache pre súbory alebo URL. Väčšia pamäť je vhodná pri pomalých médiach.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="225"/>
@@ -4456,16 +4036,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.ui" line="71"/>
         <source>Priorit&amp;y:</source>
         <translation>&amp;Priorita:</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Si&amp;ze:</source>
-        <translation type="obsolete">&amp;Veľkosť:</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>&amp;Use cache</source>
-        <translation type="obsolete">&amp;Použi cache</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="139"/>
@@ -4506,16 +4076,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.cpp" line="271"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
         <translation>Pokiaľ nebol nájdený index súboru, vytvorí sa nový, ktorý povolí posuv vo videu. Užitočné pri poškodených/nekompletných stiahnutých súboroch, alebo pre zle vytvorených súboroch. Neumožňuje však posuv pri médiách nepodporujúcich posuv (stdin, rúra, ...).&lt;br&gt; Poznámka: vytvorenie indexu môže trvať pár minút.</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>&amp;Create index if needed</source>
-        <translation type="obsolete">Vytvoriť &amp;index ak je to potrebné</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>If checked, it will try the fastest method to switch audio tracks but might not work with some formats.</source>
-        <translation type="obsolete">Najrýchlejšia metóda prepínania zvukových stôp, ale nemusí fungovať s niektorými formátmi.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="263"/>
@@ -4641,17 +4201,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefSubtitles</name>
     <message>
-        <location filename="../prefsubtitles.cpp" line="293"/>
+        <location filename="../prefsubtitles.cpp" line="281"/>
         <source>Subtitles</source>
         <translation>Titulky</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="263"/>
+        <location filename="../prefsubtitles.cpp" line="76"/>
         <source>Choose a ttf file</source>
         <translation>Vybrať TTF súbor</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="265"/>
+        <location filename="../prefsubtitles.cpp" line="77"/>
         <source>Truetype Fonts</source>
         <translation>Truetype fonty (*.ttf)</translation>
     </message>
@@ -4666,12 +4226,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Automatické načítanie</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>Autoload subtitles files (*.srt, *.sub...):</source>
-        <translation type="obsolete">Automatické načítanie titulkov (*.srt,*.sub...):</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="298"/>
+        <location filename="../prefsubtitles.cpp" line="286"/>
         <source>Select first available subtitle</source>
         <translation type="unfinished">Vybrať prvé možné titulky</translation>
     </message>
@@ -4691,19 +4246,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Všetky titulky v adresári</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>Default subtitle encoding:</source>
-        <translation type="obsolete">Štandardné kódovanie titulkov:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="168"/>
         <source>Position</source>
         <translation>Pozícia</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Default position of the subtitles on screen</source>
-        <translation type="obsolete">Štandardná pozícia titulikov na obrazovke</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="228"/>
@@ -4721,14 +4266,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Naspodu</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="313"/>
+        <location filename="../prefsubtitles.cpp" line="301"/>
         <source>Include subtitles on screenshots</source>
         <translation type="unfinished">Zobraziť titulky na snímkoch obrazovky</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Use -subfont option (required by recent MPlayer releases)</source>
-        <translation type="obsolete">Použiť možnosť &lt;i&gt;-subfont&lt;/i&gt; (vyžadované určitými verziami programu MPlayer)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="313"/>
@@ -4741,107 +4281,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Písmo</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>TTF font:</source>
-        <translation type="obsolete">TTF font:</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Search...</source>
-        <translation type="obsolete">Hľadať...</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>System font:</source>
-        <translation type="obsolete">Systémový font:</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="381"/>
+        <location filename="../prefsubtitles.ui" line="359"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
         <translation>Font, ktorý bude použitý pre titulky (a OSD):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="409"/>
+        <location filename="../prefsubtitles.ui" line="399"/>
         <source>Size</source>
         <translation>Veľkosť</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>Autoscale:</source>
-        <translation type="obsolete">Automatické škálovanie:</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="443"/>
+        <location filename="../prefsubtitles.ui" line="433"/>
         <source>No autoscale</source>
         <translation>Žiadne automatické škálovanie</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="448"/>
+        <location filename="../prefsubtitles.ui" line="438"/>
         <source>Proportional to movie height</source>
         <translation>Proporcionálne k výške videa</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="453"/>
+        <location filename="../prefsubtitles.ui" line="443"/>
         <source>Proportional to movie width</source>
         <translation>Proporcionálne k šírke videa</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="458"/>
+        <location filename="../prefsubtitles.ui" line="448"/>
         <source>Proportional to movie diagonal</source>
         <translation>Proporcionálne k diagonále videa</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>Scale:</source>
-        <translation type="obsolete">Škálovnie:</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>SSA/&amp;ASS library</source>
-        <translation type="obsolete">SSA/&amp;ASS knižnica</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="582"/>
+        <location filename="../prefsubtitles.ui" line="572"/>
         <source>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</source>
         <translation>Nová SSA/ASS knižnica umožňuje krajšie zobrazenie titulkov pre externé SSA/ASS titulky a Matroska stopy. Môže byť však použitá aj pre renderovanie iných formátov, ako napríklad .sub a .srt súbory.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="346"/>
+        <location filename="../prefsubtitles.cpp" line="334"/>
         <source>Use SSA/ASS library for subtitle rendering</source>
         <translation type="unfinished">Použiť SSA/ASS knižnicu pre renderovanie titulkov</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>Text color:</source>
-        <translation type="obsolete">Farba textu:</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Border color:</source>
-        <translation type="obsolete">Farba orámovania:</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="704"/>
+        <location filename="../prefsubtitles.ui" line="694"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
         <translation>Nastavenie štýlo pre SSA/ASS titulky. Môže byť použité pre jemné ladenie zobrazenia srt a sub titulkov pomocou SSA/ASS knižnice.&lt;br&gt;Príklad:&lt;b&gt;Bold=1,Outline=2,Shadow=2&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>Styles:</source>
-        <translation type="obsolete">Štýly:</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="307"/>
+        <location filename="../prefsubtitles.cpp" line="295"/>
         <source>Subtitle position</source>
         <translation>Pozícia titulkov</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="310"/>
+        <location filename="../prefsubtitles.cpp" line="298"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
         <translation>Toto nastavenie špcifikuje pozíciu titulkov v okne s videom. &lt;i&gt;100&lt;/i&gt; znamená úplne naspodu, &lt;i&gt;0&lt;/i&gt; úplne navrchu.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="356"/>
+        <location filename="../prefsubtitles.cpp" line="344"/>
         <source>SSA/ASS styles</source>
         <translation>SSA/ASS štýl</translation>
     </message>
@@ -4871,172 +4366,157 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Zobraziť titulky na &amp;snímkoch obrazovky</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>&amp;Use -subfont option (required by recent MPlayer releases)</source>
-        <translation type="obsolete">Použi -&amp;subfont možnosť (potrebné niektorými verziami programu MPlayer)</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="337"/>
+        <location filename="../prefsubtitles.ui" line="389"/>
         <source>&amp;TTF font:</source>
         <translation>&amp;TTF písmo:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="354"/>
-        <source>Sea&amp;rch...</source>
-        <translation>&amp;Hľadať...</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="374"/>
+        <location filename="../prefsubtitles.ui" line="369"/>
         <source>S&amp;ystem font:</source>
         <translation>Sy&amp;stémové písmo:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="429"/>
+        <location filename="../prefsubtitles.ui" line="419"/>
         <source>A&amp;utoscale:</source>
         <translation>Automatické š&amp;kálovanie:</translation>
     </message>
     <message>
-        <location filename="" line="5"/>
-        <source>S&amp;cale:</source>
-        <translation type="obsolete">Šká&amp;lovanie:</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="595"/>
+        <location filename="../prefsubtitles.ui" line="585"/>
         <source>&amp;Use SSA/ASS library for subtitle rendering</source>
         <translation>Použiť &amp;SSA/ASS knižnicu pre renderovanie titulkov</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="613"/>
+        <location filename="../prefsubtitles.ui" line="603"/>
         <source>&amp;Text color:</source>
         <translation>Farba &amp;textu:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="655"/>
+        <location filename="../prefsubtitles.ui" line="645"/>
         <source>&amp;Border color:</source>
         <translation>Farba &amp;orámovania:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="728"/>
+        <location filename="../prefsubtitles.ui" line="718"/>
         <source>St&amp;yles:</source>
         <translation>Š&amp;týly:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="336"/>
+        <location filename="../prefsubtitles.cpp" line="324"/>
         <source>Default scale for normal subtitles</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="338"/>
+        <location filename="../prefsubtitles.cpp" line="326"/>
         <source>This option specifies the default font scale for normal (white) subtitles which will be used for new videos.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="340"/>
+        <location filename="../prefsubtitles.cpp" line="328"/>
         <source>Default scale for SSA/ASS subtitles</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="342"/>
+        <location filename="../prefsubtitles.cpp" line="330"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new videos.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="540"/>
+        <location filename="../prefsubtitles.ui" line="530"/>
         <source>Default s&amp;cale for normal subtitles:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="527"/>
+        <location filename="../prefsubtitles.ui" line="517"/>
         <source>Default sc&amp;ale for SSA/ASS subtitles:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="570"/>
+        <location filename="../prefsubtitles.ui" line="560"/>
         <source>SSA/ASS &amp;library</source>
         <translation>&amp;SSA/ASS knižnica</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="304"/>
+        <location filename="../prefsubtitles.cpp" line="292"/>
         <source>Default subtitle encoding</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="305"/>
+        <location filename="../prefsubtitles.cpp" line="293"/>
         <source>Select the encoding which will be used for subtitle files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="315"/>
+        <location filename="../prefsubtitles.cpp" line="303"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. Note: it may cause some troubles sometimes.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="319"/>
+        <location filename="../prefsubtitles.cpp" line="307"/>
         <source>TTF font</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="322"/>
+        <location filename="../prefsubtitles.cpp" line="310"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in &lt;i&gt;%1&lt;/i&gt;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="329"/>
+        <location filename="../prefsubtitles.cpp" line="317"/>
         <source>System font</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="331"/>
+        <location filename="../prefsubtitles.cpp" line="319"/>
         <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="333"/>
+        <location filename="../prefsubtitles.cpp" line="321"/>
         <source>Autoscale</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="344"/>
+        <location filename="../prefsubtitles.cpp" line="332"/>
         <source>SSA/ASS library</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="348"/>
+        <location filename="../prefsubtitles.cpp" line="336"/>
         <source>Check this option to activate the SSA/ASS library. It provides nicer subtitles, so it&apos;s a good idea to do it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="350"/>
+        <location filename="../prefsubtitles.cpp" line="338"/>
         <source>Text color</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="351"/>
+        <location filename="../prefsubtitles.cpp" line="339"/>
         <source>Select the color for the text of the subtitles.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="353"/>
+        <location filename="../prefsubtitles.cpp" line="341"/>
         <source>Border color</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="354"/>
+        <location filename="../prefsubtitles.cpp" line="342"/>
         <source>Select the color for the border of the subtitles.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="296"/>
+        <location filename="../prefsubtitles.cpp" line="284"/>
         <source>Select the subtitle autoload method.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="302"/>
+        <location filename="../prefsubtitles.cpp" line="290"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="334"/>
+        <location filename="../prefsubtitles.cpp" line="322"/>
         <source>Select the subtitle autoscaling method.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5160,11 +4640,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../clhelp.cpp" line="137"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation>hlavné okno programu nebude zotvorené po skončení prehrávania aktuálneho súboru/playlistu.</translation>
-    </message>
-    <message>
-        <location filename="" line="5"/>
-        <source>Usage: %1 [-ini-path directory] [-send-action action_name] [-actions action_list [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="obsolete">Použitie: %1 [-ini-path adresár] [-send-action názov_akcie] [-actions zoznam-akcií [-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="140"/>
