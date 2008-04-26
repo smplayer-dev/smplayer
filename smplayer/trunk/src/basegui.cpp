@@ -2536,6 +2536,7 @@ void BaseGui::openFile() {
 	Extensions e;
     QString s = MyFileDialog::getOpenFileName(
                        this, tr("Choose a file"), pref->latest_dir, 
+                       tr("Multimedia") + e.allPlayable().forFilter()+";;" +
                        tr("Video") + e.video().forFilter()+";;" +
                        tr("Audio") + e.audio().forFilter()+";;" +
                        tr("Playlists") + e.playlist().forFilter()+";;" +

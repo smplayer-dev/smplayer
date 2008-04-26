@@ -64,6 +64,8 @@ Extensions::Extensions()
 	for (int n = 0; n < _audio.count(); n++) {
 		if (!_multimedia.contains(_audio[n])) _multimedia << _audio[n];
 	}
+
+	_all_playable << _multimedia << _playlist;
 }
 
 Extensions::~Extensions() {
