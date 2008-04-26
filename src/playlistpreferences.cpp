@@ -58,6 +58,14 @@ bool PlaylistPreferences::autoGetInfo() {
 	return getinfo_check->isChecked();
 }
 
+void PlaylistPreferences::setSavePlaylistOnExit(bool b) {
+	autosave_on_exit_check->setChecked(b);
+}
+
+bool PlaylistPreferences::savePlaylistOnExit() {
+	return autosave_on_exit_check->isChecked();
+}
+
 QSize PlaylistPreferences::sizeHint () const {
 	return QSize(580,200);
 }
