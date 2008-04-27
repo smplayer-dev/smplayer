@@ -22,7 +22,7 @@
 #include <QSlider>
 #include "config.h"
 
-#define CODE_FOR_CLICK 2 // 0 = old code, 1 = code copied from QSlider, 2 = button swap
+#define CODE_FOR_CLICK 1 // 0 = old code, 1 = code copied from QSlider, 2 = button swap
 
 class QTimer;
 

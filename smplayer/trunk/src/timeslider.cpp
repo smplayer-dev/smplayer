@@ -42,12 +42,14 @@ MySlider::~MySlider() {
 }
 
 #if CODE_FOR_CLICK == 1
+// Function copied from qslider.cpp
 inline int MySlider::pick(const QPoint &pt) const
 {
     return orientation() == Qt::Horizontal ? pt.x() : pt.y();
 }
 
 #if QT_VERSION < 0x040300
+// Function copied from qslider.cpp and modified to make it compile
 void MySlider::initStyleOption(QStyleOptionSlider *option) const
 {
     if (!option)
@@ -74,6 +76,7 @@ void MySlider::initStyleOption(QStyleOptionSlider *option) const
 }
 #endif
 
+// Function copied from qslider.cpp and modified to make it compile
 int MySlider::pixelPosToRangeValue(int pos) const
 {
     QStyleOptionSlider opt;
@@ -95,6 +98,7 @@ int MySlider::pixelPosToRangeValue(int pos) const
                                            sliderMax - sliderMin, opt.upsideDown);
 }
 
+// Based on code from qslider.cpp
 void MySlider::mousePressEvent( QMouseEvent * e ) {
 	if (e->button() == Qt::LeftButton) {
         QStyleOptionSlider opt;
@@ -103,9 +107,15 @@ void MySlider::mousePressEvent( QMouseEvent * e ) {
         const QPoint center = sliderRect.center() - sliderRect.topLeft();
         // to take half of the slider off for the setSliderPosition call we use the center - topLeft
 
-        setSliderPosition(pixelPosToRangeValue(pick(e->pos() - center)));
-        triggerAction(SliderMove);
-        setRepeatAction(SliderNoAction);
+        if (!sliderRect.contains(e->pos())) {
+            e->accept();
+
+            setSliderPosition(pixelPosToRangeValue(pick(e->pos() - center)));
+            triggerAction(SliderMove);
+            setRepeatAction(SliderNoAction);
+        } else {
+            QSlider::mousePressEvent(e);
+		}
 	} else {
 		QSlider::mousePressEvent(e);
 	}
