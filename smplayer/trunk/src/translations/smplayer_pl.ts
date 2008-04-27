@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -260,7 +261,7 @@
     <message>
         <location filename="../about.cpp" line="50"/>
         <source>Using MPlayer %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Używa MPlayera %1</translation>
     </message>
 </context>
 <context>
@@ -1226,7 +1227,7 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../basegui.cpp" line="2539"/>
         <source>Multimedia</source>
-        <translation type="unfinished"></translation>
+        <translation>Multimedia</translation>
     </message>
 </context>
 <context>
@@ -2157,7 +2158,7 @@ odtwarzania :</translation>
     <message>
         <location filename="../playlistpreferences.ui" line="42"/>
         <source>&amp;Save copy of playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zapisz przy wyjściu kopię listy odtwarzania</translation>
     </message>
 </context>
 <context>
