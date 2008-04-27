@@ -22,7 +22,7 @@
 #include <QSlider>
 #include "config.h"
 
-#define NEW_CODE 0
+#define CODE_FOR_CLICK 2 // 0 = old code, 1 = code copied from QSlider, 2 = button swap
 
 class QTimer;
 
@@ -36,7 +36,7 @@ public:
 
 protected:
 	void mousePressEvent ( QMouseEvent * event );
-#if NEW_CODE
+#if CODE_FOR_CLICK == 1
 	inline int pick(const QPoint &pt) const;
 	int pixelPosToRangeValue(int pos) const;
 #if QT_VERSION < 0x040300
