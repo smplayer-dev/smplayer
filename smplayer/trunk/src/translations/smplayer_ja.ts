@@ -260,7 +260,7 @@
     <message>
         <location filename="../about.cpp" line="50"/>
         <source>Using MPlayer %1</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer %1 を使用しています</translation>
     </message>
 </context>
 <context>
@@ -1030,7 +1030,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1078"/>
         <source>&amp;Load external file...</source>
-        <translation>外部のファイルの読み込み(&amp;L)...</translation>
+        <translation>外部のファイルを読み込む(&amp;L)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1243"/>
@@ -1095,7 +1095,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1159"/>
         <source>&amp;Toggle double size</source>
-        <translation>倍のサイズの切り替え(&amp;T)</translation>
+        <translation>倍のサイズを切り替え(&amp;T)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1093"/>
@@ -1220,12 +1220,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1161"/>
         <source>Show context menu</source>
-        <translation type="unfinished"></translation>
+        <translation>コンテキスト メニューの表示</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2539"/>
         <source>Multimedia</source>
-        <translation type="unfinished"></translation>
+        <translation>マルチメディア</translation>
     </message>
 </context>
 <context>
@@ -1724,7 +1724,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../infofile.cpp" line="115"/>
         <source>Selected codec</source>
-        <translation>選択済みコーデック</translation>
+        <translation>選択されたコーデック</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="110"/>
@@ -1827,7 +1827,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../inputmplayerversion.ui" line="14"/>
         <source>SMPlayer - Enter the MPlayer version</source>
-        <translation>SMPlayer - MPlayer のバージョンの入力</translation>
+        <translation>SMPlayer - MPlayer のバージョンを入力</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="29"/>
@@ -2121,7 +2121,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="301"/>
         <source>Preferences</source>
-        <translation type="unfinished">環境設定</translation>
+        <translation>環境設定</translation>
     </message>
 </context>
 <context>
@@ -2129,32 +2129,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlistpreferences.ui" line="13"/>
         <source>Playlist - Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>プレイリスト - 環境設定</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.cpp" line="32"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation type="unfinished"></translation>
+        <translation>ディレクトリの追加が再帰的にサブディレクトリのファイルも追加することがいい場合はこのオプションをチェックします。でなければ選択されたディレクトリのファイルのみ追加されます。</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="28"/>
         <source>&amp;Add files in directories recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>再帰的にディレクトリのファイルを追加する(&amp;A)</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.cpp" line="39"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation type="unfinished"></translation>
+        <translation>いくつかの情報をプレイリストに追加されるファイルに問い合わせるにはこのオプションをチェックします。それはファイルのタイトル名 (利用可能なら) と長さの表示を許可します。でなければこの情報はファイルが実際に再生されるまで利用できません。用心: このオプションは特に多くのファイルを追加する場合、低速になることがあります。</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="35"/>
         <source>Automatically get &amp;info about files added</source>
-        <translation type="unfinished"></translation>
+        <translation>自動的に追加されるファイルについての情報を取得する(&amp;I)</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="42"/>
         <source>&amp;Save copy of playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>終了時にプレイリストのコピーを保存する(&amp;S)</translation>
     </message>
 </context>
 <context>
@@ -2555,7 +2555,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefdrives.cpp" line="132"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
-        <translation>お使いの CDROM デバイスを選択します。VCD とオーディオ CD を再生するのに使用されます。</translation>
+        <translation>お使いの CDROM デバイスを選択します。VCD とオーディオ CD の再生に使用されます。</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="134"/>
@@ -2565,7 +2565,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefdrives.cpp" line="135"/>
         <source>Choose your DVD device. It will be used to play DVDs.</source>
-        <translation>お使いの DVD デバイスを選択します。DVD を再生するのに使用されます。</translation>
+        <translation>お使いの DVD デバイスを選択します。DVD の再生に使用されます。</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="157"/>
@@ -2598,7 +2598,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="83"/>
         <source>Select the mplayer executable</source>
-        <translation>mplayer の実行ファイルの選択</translation>
+        <translation>mplayer 実行ファイルを選択</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="85"/>
@@ -2618,12 +2618,12 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="471"/>
         <source>MPlayer executable</source>
-        <translation>MPlayer の実行ファイル</translation>
+        <translation>MPlayer 実行ファイル</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="476"/>
         <source>Here you must specify the mplayer executable that smplayer will use.&lt;br&gt;smplayer requires at least mplayer 1.0rc1 (svn recommended).&lt;br&gt;&lt;b&gt;If this setting is wrong, smplayer won&apos;t be able to play anything!&lt;/b&gt;</source>
-        <translation>ここでは smplayer が使用する mplayer の実行ファイルを指定する必要があります。&lt;br&gt;smplayer は少なくとも mplayer 1.0rc1 (svn が推奨されます) を必要とします。&lt;br&gt;&lt;b&gt;この設定が間違っていると、smplayer は何も再生できなくなります!&lt;/b&gt;</translation>
+        <translation>ここでは smplayer が使用する mplayer 実行ファイルを指定する必要があります。&lt;br&gt;smplayer は少なくとも mplayer 1.0rc1 (svn が推奨されます) を必要とします。&lt;br&gt;&lt;b&gt;この設定が間違っていると、smplayer は何も再生できなくなります!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="478"/>
@@ -2808,7 +2808,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="53"/>
         <source>Select the &amp;MPlayer executable:</source>
-        <translation>MPlayer の実行ファイルを選択します(&amp;M):</translation>
+        <translation>MPlayer 実行ファイルを選択します(&amp;M):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="69"/>
@@ -3197,7 +3197,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="138"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>ここではすべてのショートカットを変更できます。それにはショートカット セルの上でダブル クリックまたは入力を開始します。また任意にその他の人または別のコンピュータでの読み込みおよび共有するのに一覧を保存できます。</translation>
+        <translation>ここではすべてのショートカットを変更できます。それにはショートカット セルの上でダブル クリックまたは入力を開始します。また任意にその他の人または別のコンピュータで読み込みおよび共有するのに一覧を保存できます。</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="95"/>
@@ -3212,7 +3212,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="127"/>
         <source>Media seeking</source>
-        <translation>メディア シーク</translation>
+        <translation>メディアのシーク</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="128"/>
@@ -3452,17 +3452,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="70"/>
         <source>OSD - Next level</source>
-        <translation type="unfinished">OSD - 次のレベル</translation>
+        <translation>OSD - 次のレベル</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="79"/>
         <source>Show context menu</source>
-        <translation type="unfinished"></translation>
+        <translation>コンテキスト メニューの表示</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="401"/>
         <source>&amp;Right click</source>
-        <translation type="unfinished"></translation>
+        <translation>右クリック(&amp;R)</translation>
     </message>
 </context>
 <context>
@@ -4361,7 +4361,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="289"/>
         <source>&amp;Include subtitles on screenshots</source>
-        <translation>スクリーンショットで字幕を含める(&amp;I)</translation>
+        <translation>スクリーンショットに字幕を含める(&amp;I)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="389"/>
