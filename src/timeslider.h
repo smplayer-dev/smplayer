@@ -22,6 +22,8 @@
 #include <QSlider>
 #include "config.h"
 
+#define NEW_CODE 0
+
 class QTimer;
 
 class MySlider : public QSlider
@@ -34,6 +36,13 @@ public:
 
 protected:
 	void mousePressEvent ( QMouseEvent * event );
+#if NEW_CODE
+	inline int pick(const QPoint &pt) const;
+	int pixelPosToRangeValue(int pos) const;
+#if QT_VERSION < 0x040300
+    void initStyleOption(QStyleOptionSlider *option) const;
+#endif
+#endif
 };
 
 
