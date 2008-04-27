@@ -26,6 +26,11 @@
 #include <QApplication>
 #include <QTimer>
 
+#if NEW_CODE
+#include <QStyle>
+#include <QStyleOption>
+#endif
+
 #define DEBUG 0
 
 MySlider::MySlider( QWidget * parent ) : QSlider(parent)
@@ -35,6 +40,78 @@ MySlider::MySlider( QWidget * parent ) : QSlider(parent)
 
 MySlider::~MySlider() {
 }
+
+#if NEW_CODE
+inline int MySlider::pick(const QPoint &pt) const
+{
+    return orientation() == Qt::Horizontal ? pt.x() : pt.y();
+}
+
+#if QT_VERSION < 0x040300
+void MySlider::initStyleOption(QStyleOptionSlider *option) const
+{
+    if (!option)
+        return;
+
+    option->initFrom(this);
+    option->subControls = QStyle::SC_None;
+    option->activeSubControls = QStyle::SC_None;
+    option->orientation = orientation();
+    option->maximum = maximum();
+    option->minimum = minimum();
+    option->tickPosition = (QSlider::TickPosition) tickPosition();
+    option->tickInterval = tickInterval();
+    option->upsideDown = (orientation() == Qt::Horizontal) ?
+                     (invertedAppearance() != (option->direction == Qt::RightToLeft))
+                     : (!invertedAppearance());
+    option->direction = Qt::LeftToRight; // we use the upsideDown option instead
+    option->sliderPosition = sliderPosition();
+    option->sliderValue = value();
+    option->singleStep = singleStep();
+    option->pageStep = pageStep();
+    if (orientation() == Qt::Horizontal)
+        option->state |= QStyle::State_Horizontal;
+}
+#endif
+
+int MySlider::pixelPosToRangeValue(int pos) const
+{
+    QStyleOptionSlider opt;
+    initStyleOption(&opt);
+    QRect gr = style()->subControlRect(QStyle::CC_Slider, &opt, QStyle::SC_SliderGroove, this);
+    QRect sr = style()->subControlRect(QStyle::CC_Slider, &opt, QStyle::SC_SliderHandle, this);
+    int sliderMin, sliderMax, sliderLength;
+
+    if (orientation() == Qt::Horizontal) {
+        sliderLength = sr.width();
+        sliderMin = gr.x();
+        sliderMax = gr.right() - sliderLength + 1;
+    } else {
+        sliderLength = sr.height();
+        sliderMin = gr.y();
+        sliderMax = gr.bottom() - sliderLength + 1;
+    }
+    return QStyle::sliderValueFromPosition(minimum(), maximum(), pos - sliderMin,
+                                           sliderMax - sliderMin, opt.upsideDown);
+}
+
+void MySlider::mousePressEvent( QMouseEvent * e ) {
+	if (e->button() == Qt::LeftButton) {
+        QStyleOptionSlider opt;
+        initStyleOption(&opt);
+        const QRect sliderRect = style()->subControlRect(QStyle::CC_Slider, &opt, QStyle::SC_SliderHandle, this);
+        const QPoint center = sliderRect.center() - sliderRect.topLeft();
+        // to take half of the slider off for the setSliderPosition call we use the center - topLeft
+
+        setSliderPosition(pixelPosToRangeValue(pick(e->pos() - center)));
+        triggerAction(SliderMove);
+        setRepeatAction(SliderNoAction);
+	} else {
+		QSlider::mousePressEvent(e);
+	}
+}
+
+#else
 
 void MySlider::mousePressEvent( QMouseEvent * e ) {
 	// FIXME:
@@ -69,7 +146,7 @@ void MySlider::mousePressEvent( QMouseEvent * e ) {
 		QSlider::mousePressEvent(e);
 	}
 }
-
+#endif
 
 
 TimeSlider::TimeSlider( QWidget * parent ) : MySlider(parent)
