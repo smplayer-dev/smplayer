@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -260,7 +261,7 @@
     <message>
         <location filename="../about.cpp" line="50"/>
         <source>Using MPlayer %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilisant MPlayer %1</translation>
     </message>
 </context>
 <context>
@@ -1225,7 +1226,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="2539"/>
         <source>Multimedia</source>
-        <translation type="unfinished"></translation>
+        <translation>Multimédia</translation>
     </message>
 </context>
 <context>
@@ -2121,7 +2122,7 @@ Voulez vous l&apos;écraser?</translation>
     <message>
         <location filename="../playlist.cpp" line="301"/>
         <source>Preferences</source>
-        <translation type="unfinished">Préférences</translation>
+        <translation>Préférences</translation>
     </message>
 </context>
 <context>
@@ -2129,17 +2130,17 @@ Voulez vous l&apos;écraser?</translation>
     <message>
         <location filename="../playlistpreferences.ui" line="13"/>
         <source>Playlist - Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Liste de lecture - Préférences</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.cpp" line="32"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionnez cette option si vous voulez ajouter un répertoire qui ajoutera récursivement les fichiers des sous-répertoires. Autrement, seulement les fichiers des dossiers sélectionnées seront ajoutés.</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="28"/>
         <source>&amp;Add files in directories recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ajouter des fichiers de dossiers de façon récursive</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.cpp" line="39"/>
@@ -2149,12 +2150,12 @@ Voulez vous l&apos;écraser?</translation>
     <message>
         <location filename="../playlistpreferences.ui" line="35"/>
         <source>Automatically get &amp;info about files added</source>
-        <translation type="unfinished"></translation>
+        <translation>Obtenir automatiquement des &amp;informations à propos des fichiers ajoutés</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="42"/>
         <source>&amp;Save copy of playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sauvegarder une copie de la liste de lecture à chaque fermeture</translation>
     </message>
 </context>
 <context>
