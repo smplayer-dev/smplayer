@@ -26,7 +26,7 @@
 #include <QApplication>
 #include <QTimer>
 
-#if NEW_CODE
+#if CODE_FOR_CLICK == 1
 #include <QStyle>
 #include <QStyleOption>
 #endif
@@ -41,7 +41,7 @@ MySlider::MySlider( QWidget * parent ) : QSlider(parent)
 MySlider::~MySlider() {
 }
 
-#if NEW_CODE
+#if CODE_FOR_CLICK == 1
 inline int MySlider::pick(const QPoint &pt) const
 {
     return orientation() == Qt::Horizontal ? pt.x() : pt.y();
@@ -111,8 +111,29 @@ void MySlider::mousePressEvent( QMouseEvent * e ) {
 	}
 }
 
-#else
+#endif // CODE_FOR_CLICK == 1
 
+
+#if CODE_FOR_CLICK == 2
+void MySlider::mousePressEvent( QMouseEvent * e ) {
+	// Swaps middle button click with left click
+	if (e->button() == Qt::LeftButton) {
+		QMouseEvent ev2(QEvent::MouseButtonRelease, e->pos(), e->globalPos(), Qt::MidButton, Qt::MidButton, e->modifiers());
+		QSlider::mousePressEvent(&ev2);
+	} 
+	else
+	if (e->button() == Qt::MidButton) {
+		QMouseEvent ev2(QEvent::MouseButtonRelease, e->pos(), e->globalPos(), Qt::LeftButton, Qt::LeftButton, e->modifiers());
+		QSlider::mousePressEvent(&ev2);
+	}
+	else {
+		QSlider::mousePressEvent(e);
+	}
+}
+#endif // CODE_FOR_CLICK == 2
+
+
+#if CODE_FOR_CLICK == 0
 void MySlider::mousePressEvent( QMouseEvent * e ) {
 	// FIXME:
 	// The code doesn't work well with right to left layout,
