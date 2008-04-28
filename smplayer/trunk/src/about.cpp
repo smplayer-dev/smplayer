@@ -162,9 +162,11 @@ QString About::getTranslators() {
          trad(tr("Serbian"), "Kunalagon Umuhanik &lt;kunalagon@gmail.com&gt;") + 
          trad(tr("Traditional Chinese"), "Hoopoe &lt;dai715.tw@yahoo.com.tw&gt;") + 
          trad(tr("Romanian"), "DoruH &lt;DoruHushHush@gmail.com&gt;") + 
-         trad(tr("Portuguese - Portugal"), "Waxman &lt;waxman.pt@gmail.com&gt;") +
-		 trad(tr("Greek"), "my80s &lt;wamy80s@gmail.com&gt;") +
-		 trad(tr("Finnish"), "peeaivo &lt;peeaivo@gmail.com&gt;") +
+         trad(tr("Portuguese - Portugal"), tr("%1 and %2")
+	 	.arg("Waxman &lt;waxman.pt@gmail.com&gt;")
+		.arg(QString::fromUtf8("Sérgio Marques &lt;contatica@netcabo.pt&gt;"))) +
+	trad(tr("Greek"), "my80s &lt;wamy80s@gmail.com&gt;") +
+	trad(tr("Finnish"), "peeaivo &lt;peeaivo@gmail.com&gt;") +
 	trad(tr("Korean"), "Heesu Yoon &lt;imsu30@gmail.com&gt;") +
 	trad(tr("Macedonian"), "Marko Doda &lt;mark0d0da@gmail.com&gt;") +
 	trad(tr("Basque"), "Piarres Beobide &lt;pi@beobide.net&gt;") +
