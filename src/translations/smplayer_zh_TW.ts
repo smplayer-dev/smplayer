@@ -60,22 +60,22 @@
     <message>
         <location filename="../about.cpp" line="140"/>
         <source>German</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">德文</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="141"/>
         <source>Slovak</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">斯洛伐克文</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="142"/>
         <source>Italian</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">意大利文</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="143"/>
         <source>French</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">法文</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="144"/>
@@ -93,29 +93,29 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="151"/>
+        <location filename="../about.cpp" line="166"/>
         <source>%1 and %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Hungarian</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">匈牙利文</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="150"/>
         <source>Polish</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">波蘭文</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="153"/>
         <source>Japanese</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">日文</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="154"/>
         <source>Dutch</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">荷蘭文</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="155"/>
@@ -125,22 +125,22 @@
     <message>
         <location filename="../about.cpp" line="156"/>
         <source>Portuguese - Brazil</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">葡萄牙文 - 巴西</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="157"/>
         <source>Georgian</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"> 喬治亞文</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="158"/>
         <source>Czech</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">捷克文</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="159"/>
         <source>Bulgarian</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">保加利亞文</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="160"/>
@@ -150,12 +150,12 @@
     <message>
         <location filename="../about.cpp" line="161"/>
         <source>Swedish</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">瑞典文</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="162"/>
         <source>Serbian</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">塞爾維亞文</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="163"/>
@@ -165,30 +165,30 @@
     <message>
         <location filename="../about.cpp" line="164"/>
         <source>Romanian</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">羅馬尼亞文</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="165"/>
         <source>Portuguese - Portugal</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">葡萄牙文 - 葡萄牙</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="166"/>
+        <location filename="../about.cpp" line="168"/>
         <source>Greek</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">希臘文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="167"/>
+        <location filename="../about.cpp" line="169"/>
         <source>Finnish</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">芬蘭文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="175"/>
+        <location filename="../about.cpp" line="177"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="184"/>
+        <location filename="../about.cpp" line="186"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -243,17 +243,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="168"/>
+        <location filename="../about.cpp" line="170"/>
         <source>Korean</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="169"/>
+        <location filename="../about.cpp" line="171"/>
         <source>Macedonian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="170"/>
+        <location filename="../about.cpp" line="172"/>
         <source>Basque</source>
         <translation type="unfinished"></translation>
     </message>
@@ -833,17 +833,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>關於 Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3106"/>
+        <location filename="../basegui.cpp" line="3110"/>
         <source>Playing %1</source>
         <translation>播放 %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3107"/>
+        <location filename="../basegui.cpp" line="3111"/>
         <source>Pause</source>
         <translation>暫停</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3108"/>
+        <location filename="../basegui.cpp" line="3112"/>
         <source>Stop</source>
         <translation>停止</translation>
     </message>
@@ -1153,32 +1153,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3523"/>
+        <location filename="../basegui.cpp" line="3527"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3524"/>
+        <location filename="../basegui.cpp" line="3528"/>
         <source>Exit code: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3534"/>
+        <location filename="../basegui.cpp" line="3538"/>
         <source>MPlayer failed to start.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3535"/>
+        <location filename="../basegui.cpp" line="3539"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3537"/>
+        <location filename="../basegui.cpp" line="3541"/>
         <source>MPlayer has crashed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3538"/>
+        <location filename="../basegui.cpp" line="3542"/>
         <source>See the log for more info.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1231,32 +1231,32 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="151"/>
+        <location filename="../baseguiplus.cpp" line="152"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer 運行中</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="172"/>
+        <location filename="../baseguiplus.cpp" line="173"/>
         <source>S&amp;how icon in system tray</source>
         <translation>在系統閘裡顯示圖示(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="183"/>
+        <location filename="../baseguiplus.cpp" line="184"/>
         <source>&amp;Hide</source>
         <translation>隱藏(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="185"/>
+        <location filename="../baseguiplus.cpp" line="186"/>
         <source>&amp;Restore</source>
         <translation>恢復(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="171"/>
+        <location filename="../baseguiplus.cpp" line="172"/>
         <source>&amp;Quit</source>
         <translation>離開 (&amp;Q)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="177"/>
+        <location filename="../baseguiplus.cpp" line="178"/>
         <source>Playlist</source>
         <translation type="unfinished">播放清單</translation>
     </message>

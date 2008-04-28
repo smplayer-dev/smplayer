@@ -94,7 +94,7 @@
         <translation>Errusiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="151"/>
+        <location filename="../about.cpp" line="166"/>
         <source>%1 and %2</source>
         <translation>%1 eta %2</translation>
     </message>
@@ -174,22 +174,22 @@
         <translation>Potugesa - Portugal</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="166"/>
+        <location filename="../about.cpp" line="168"/>
         <source>Greek</source>
         <translation>Grekoa</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="167"/>
+        <location filename="../about.cpp" line="169"/>
         <source>Finnish</source>
         <translation>Finlandiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="175"/>
+        <location filename="../about.cpp" line="177"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="184"/>
+        <location filename="../about.cpp" line="186"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;Ez (%2)</translation>
     </message>
@@ -244,17 +244,17 @@
         <translation>Informazio gehiago</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="168"/>
+        <location filename="../about.cpp" line="170"/>
         <source>Korean</source>
         <translation>Koreera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="169"/>
+        <location filename="../about.cpp" line="171"/>
         <source>Macedonian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="170"/>
+        <location filename="../about.cpp" line="172"/>
         <source>Basque</source>
         <translation type="unfinished">Euskara</translation>
     </message>
@@ -834,17 +834,17 @@ Konfigurazio morroia ikusko da orain, egin ahal izan dezazun.</translation>
         <translation>QT-ri buruz</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3106"/>
+        <location filename="../basegui.cpp" line="3110"/>
         <source>Playing %1</source>
         <translation>%1 erreproduzitzen</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3107"/>
+        <location filename="../basegui.cpp" line="3111"/>
         <source>Pause</source>
         <translation>Pausatu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3108"/>
+        <location filename="../basegui.cpp" line="3112"/>
         <source>Stop</source>
         <translation>Gelditu</translation>
     </message>
@@ -1154,32 +1154,32 @@ Konfigurazio morroia ikusko da orain, egin ahal izan dezazun.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3523"/>
+        <location filename="../basegui.cpp" line="3527"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3524"/>
+        <location filename="../basegui.cpp" line="3528"/>
         <source>Exit code: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3534"/>
+        <location filename="../basegui.cpp" line="3538"/>
         <source>MPlayer failed to start.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3535"/>
+        <location filename="../basegui.cpp" line="3539"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3537"/>
+        <location filename="../basegui.cpp" line="3541"/>
         <source>MPlayer has crashed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3538"/>
+        <location filename="../basegui.cpp" line="3542"/>
         <source>See the log for more info.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1232,32 +1232,32 @@ Konfigurazio morroia ikusko da orain, egin ahal izan dezazun.</translation>
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="151"/>
+        <location filename="../baseguiplus.cpp" line="152"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPLyaer martxan dago</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="172"/>
+        <location filename="../baseguiplus.cpp" line="173"/>
         <source>S&amp;how icon in system tray</source>
         <translation>I&amp;kusi ikonoa sistema-barran</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="183"/>
+        <location filename="../baseguiplus.cpp" line="184"/>
         <source>&amp;Hide</source>
         <translation>&amp;Ezkutatu</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="185"/>
+        <location filename="../baseguiplus.cpp" line="186"/>
         <source>&amp;Restore</source>
         <translation>&amp;Berezarri</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="171"/>
+        <location filename="../baseguiplus.cpp" line="172"/>
         <source>&amp;Quit</source>
         <translation>Ama&amp;itu</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="177"/>
+        <location filename="../baseguiplus.cpp" line="178"/>
         <source>Playlist</source>
         <translation>Erreprodukzio-zerrenda</translation>
     </message>

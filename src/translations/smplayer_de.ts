@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
-<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -94,7 +93,7 @@
         <translation>Russisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="151"/>
+        <location filename="../about.cpp" line="166"/>
         <source>%1 and %2</source>
         <translation>%1 and %2</translation>
     </message>
@@ -174,22 +173,22 @@
         <translation>Portugiesisch - Portugal</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="166"/>
+        <location filename="../about.cpp" line="168"/>
         <source>Greek</source>
         <translation>Griechisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="167"/>
+        <location filename="../about.cpp" line="169"/>
         <source>Finnish</source>
         <translation>Finnisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="175"/>
+        <location filename="../about.cpp" line="177"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="184"/>
+        <location filename="../about.cpp" line="186"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -244,17 +243,17 @@
         <translation>Mehr Info</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="168"/>
+        <location filename="../about.cpp" line="170"/>
         <source>Korean</source>
         <translation>Koreanisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="169"/>
+        <location filename="../about.cpp" line="171"/>
         <source>Macedonian</source>
         <translation>Mazedonisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="170"/>
+        <location filename="../about.cpp" line="172"/>
         <source>Basque</source>
         <translation>Baskisch</translation>
     </message>
@@ -834,17 +833,17 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
         <translation>Über Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3106"/>
+        <location filename="../basegui.cpp" line="3110"/>
         <source>Playing %1</source>
         <translation>Wiedergabe %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3107"/>
+        <location filename="../basegui.cpp" line="3111"/>
         <source>Pause</source>
         <translation>Pause</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3108"/>
+        <location filename="../basegui.cpp" line="3112"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
@@ -1154,32 +1153,32 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
         <translation>Reset Video Equalizer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3523"/>
+        <location filename="../basegui.cpp" line="3527"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer wurde unerwartet beendet.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3524"/>
+        <location filename="../basegui.cpp" line="3528"/>
         <source>Exit code: %1</source>
         <translation>Exit code: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3534"/>
+        <location filename="../basegui.cpp" line="3538"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer konnte nicht gestartet werden.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3535"/>
+        <location filename="../basegui.cpp" line="3539"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Pfad von MPlayer in den Einstellungen überprüfen.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3537"/>
+        <location filename="../basegui.cpp" line="3541"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer ist abgestürzt.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3538"/>
+        <location filename="../basegui.cpp" line="3542"/>
         <source>See the log for more info.</source>
         <translation>Siehe Logdatei für mehr Infos.</translation>
     </message>
@@ -1232,32 +1231,32 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="151"/>
+        <location filename="../baseguiplus.cpp" line="152"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer läuft noch hier</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="172"/>
+        <location filename="../baseguiplus.cpp" line="173"/>
         <source>S&amp;how icon in system tray</source>
         <translation>&amp;Icon im Sytem-Tray zeigen</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="183"/>
+        <location filename="../baseguiplus.cpp" line="184"/>
         <source>&amp;Hide</source>
         <translation>&amp;Ausblenden</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="185"/>
+        <location filename="../baseguiplus.cpp" line="186"/>
         <source>&amp;Restore</source>
         <translation>&amp;Wiederherstellen</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="171"/>
+        <location filename="../baseguiplus.cpp" line="172"/>
         <source>&amp;Quit</source>
         <translation>&amp;Beenden</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="177"/>
+        <location filename="../baseguiplus.cpp" line="178"/>
         <source>Playlist</source>
         <translation>Abspielliste</translation>
     </message>
