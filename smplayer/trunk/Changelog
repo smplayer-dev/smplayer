@@ -1,5 +1,9 @@
 [b]Version 0.6.0rc5[/b]:
 
+(2008-04-28)
+ * Hopefully fixed the problem of the ghost playlist, visible for a moment
+   on startup.
+
 (2008-04-27)
  * Now the time (and volume) sliders should work better.
 
