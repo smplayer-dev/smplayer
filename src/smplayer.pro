@@ -65,6 +65,7 @@ HEADERS	+= guiconfig.h \
 	verticaltext.h \
 	eqslider.h \
 	videoequalizer.h \
+    myslider.h \
 	timeslider.h \
 	inputdvddirectory.h \
 	inputurl.h \
@@ -134,6 +135,7 @@ SOURCES	+= version.cpp \
 	verticaltext.cpp \
 	eqslider.cpp \
 	videoequalizer.cpp \
+    myslider.cpp \
 	timeslider.cpp \
 	inputdvddirectory.cpp \
 	inputurl.cpp \

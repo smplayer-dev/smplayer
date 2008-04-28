@@ -16,55 +16,32 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _TIMESLIDER_H_
-#define _TIMESLIDER_H_
+#ifndef _MYSLIDER_H_
+#define _MYSLIDER_H_
 
-#include "myslider.h"
+#include <QSlider>
 #include "config.h"
 
-class TimeSlider : public MySlider 
+#define CODE_FOR_CLICK 1 // 0 = old code, 1 = code copied from QSlider, 2 = button swap
+
+class QTimer;
+
+class MySlider : public QSlider
 {
 	Q_OBJECT
 
 public:
-	TimeSlider( QWidget * parent );
-	~TimeSlider();
+	MySlider( QWidget * parent );
+	~MySlider();
 
-public slots:
-	virtual void setPos(int); // Don't use setValue!
-	virtual int pos();
-#if ENABLE_DELAYED_DRAGGING
-	void setDragDelay(int);
-	int dragDelay();
+protected:
+	void mousePressEvent ( QMouseEvent * event );
+#if CODE_FOR_CLICK == 1
+	inline int pick(const QPoint &pt) const;
+	int pixelPosToRangeValue(int pos) const;
+#if QT_VERSION < 0x040300
+    void initStyleOption(QStyleOptionSlider *option) const;
 #endif
-
-signals:
-	void posChanged(int);
-	void draggingPos(int);
-#if ENABLE_DELAYED_DRAGGING
-	//! Emitted with a few ms of delay
-	void delayedDraggingPos(int);
-#endif
-
-protected slots:
-	void stopUpdate();
-	void resumeUpdate();
-	void mouseReleased();
-	void valueChanged_slot(int);
-#if ENABLE_DELAYED_DRAGGING
-	void checkDragging(int);
-	void sendDelayedPos();
-#endif
-
-	virtual void wheelEvent( QWheelEvent * e );
-
-private:
-	bool dont_update;
-	int position;
-	
-#if ENABLE_DELAYED_DRAGGING
-	int last_pos_to_send;
-	QTimer * timer;
 #endif
 };
 
