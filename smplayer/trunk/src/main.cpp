@@ -18,6 +18,7 @@
 
 #include <QApplication>
 #include <QFile>
+#include <QTime>
 
 #include "smplayer.h"
 #include "global.h"
@@ -48,7 +49,9 @@ void myMessageOutput( QtMsgType type, const char *msg ) {
 		rx_log.setPattern(".*");
 	}
 
-	QString line = QString::fromUtf8(msg);
+	QString line = "["+ QTime::currentTime().toString() + "] " + 
+                   QString::fromUtf8(msg);
+
 	switch ( type ) {
 		case QtDebugMsg:
 			if (rx_log.indexIn(line) > -1) {
