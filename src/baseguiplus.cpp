@@ -92,7 +92,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags )
 	// Playlistdock
 	playlistdock = new PlaylistDock(this);
 	playlistdock->setObjectName("playlist");
-	playlistdock->setFloating(true);
+	playlistdock->setFloating(false); // To avoid that the playlist is visible for a moment
 	playlistdock->setWidget(playlist);
 	playlistdock->setAllowedAreas(Qt::TopDockWidgetArea | 
                                   Qt::BottomDockWidgetArea
@@ -103,6 +103,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags )
                                   );
 	addDockWidget(Qt::BottomDockWidgetArea, playlistdock);
 	playlistdock->hide();
+	playlistdock->setFloating(true); // Floating by default
 
 	connect( playlistdock, SIGNAL(closed()), this, SLOT(playlistClosed()) );
 	connect( playlistdock, SIGNAL(docked()), this, SLOT(stretchWindow()) );
