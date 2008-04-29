@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1069,17 +1070,17 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
     <message>
         <location filename="../basegui.cpp" line="1246"/>
         <source>Denoise nor&amp;mal</source>
-        <translation type="unfinished"></translation>
+        <translation>Înlăturare zgomot - nor&amp;mal</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1247"/>
         <source>Denoise &amp;soft</source>
-        <translation type="unfinished"></translation>
+        <translation>Înlăturare zgomot - &amp;ușor</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1245"/>
         <source>Denoise o&amp;ff</source>
-        <translation type="unfinished"></translation>
+        <translation>Înlăturare zgomot - inac&amp;tivat</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1099"/>
