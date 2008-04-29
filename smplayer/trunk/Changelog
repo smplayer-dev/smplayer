@@ -5,6 +5,8 @@
    on startup.
  * Updated the Portuguese (pt_PT) translation, made by Sérgio Marques 
    <contatica@netcabo.pt>
+ * (Linux) Added the file smplayer_enqueue.desktop which allows to add 
+   the selected files in the file browser to the playlist.
 
 (2008-04-27)
  * Now the time (and volume) sliders should work better.
