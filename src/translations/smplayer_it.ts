@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="it">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -15,7 +16,7 @@
     <message>
         <location filename="../about.cpp" line="89"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
-        <translation>Questo programma è un software free software; è possibile modificarlo e/o ridistribuirlo sotto i termini della liecenza GNU come indicato dalla Free Software Foundation; come la versione 2 della licenza, o (a vostra scelta) ogni successiva versione.</translation>
+        <translation>Questo programma è un software free software; è possibile modificarlo e/o ridistribuirlo sotto i termini della licenza GNU come indicato dalla Free Software Foundation; come la versione 2 della licenza, o (a vostra scelta) ogni successiva versione.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="96"/>
@@ -260,7 +261,7 @@
     <message>
         <location filename="../about.cpp" line="50"/>
         <source>Using MPlayer %1</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer %1 in uso</translation>
     </message>
 </context>
 <context>
@@ -358,7 +359,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1007"/>
         <source>&amp;DVD from drive</source>
-        <translation>&amp;DVD dal&apos;unità</translation>
+        <translation>&amp;DVD dall&apos;unità</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1008"/>
@@ -633,7 +634,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1207"/>
         <source>&amp;Aspect ratio</source>
-        <translation>&amp;Rapporto d&apos;aspetto</translation>
+        <translation>Rapporto d&apos;&amp;aspetto</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1210"/>
@@ -693,7 +694,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1265"/>
         <source>&amp;Stereo mode</source>
-        <translation>&amp;Modo stereo</translation>
+        <translation>Modo &amp;stereo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1273"/>
@@ -1226,7 +1227,7 @@ Si aprirà ora il dialogo di configurazione, in modio che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="2539"/>
         <source>Multimedia</source>
-        <translation type="unfinished"></translation>
+        <translation>Multimedia</translation>
     </message>
 </context>
 <context>
@@ -2155,7 +2156,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../playlistpreferences.ui" line="42"/>
         <source>&amp;Save copy of playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Salva una copia della lista di riproduzione in uscita</translation>
     </message>
 </context>
 <context>
@@ -2186,7 +2187,7 @@ Vuoi sovrascriverlo?</translation>
 Write them separated by spaces.
 Example: -flip -nosound</source>
         <translation>Qui è possibile passare opzioni addizionali a MPlayer.
-Scrivirle separate da spazi.
+Scriverle separate da spazi.
 Esempio: -flip -nosound</translation>
     </message>
     <message>
