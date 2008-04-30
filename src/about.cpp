@@ -151,7 +151,9 @@ QString About::getTranslators() {
             .arg("qla &lt;qla0@vp.pl&gt;")
             .arg("Jarek &lt;ajep9691@wp.pl&gt;") ) +
          trad(tr("Japanese"), "Nardog &lt;nardog@e2umail.com&gt;") + 
-         trad(tr("Dutch"), "Wesley S. &lt;wesley@ubuntu-nl.org&gt;") + 
+         trad(tr("Dutch"), tr("%1 and %2")
+	 	.arg("profoX &lt;wesley@ubuntu-nl.org&gt;")
+		.arg("BalaamsMiracle")) +
          trad(tr("Ukrainian"), "Motsyo Gennadi &lt;drool@altlinux.ru&gt;") + 
          trad(tr("Portuguese - Brazil"), "Ventura &lt;ventura.barbeiro@terra.com.br&gt;") + 
          trad(tr("Georgian"), "George Machitidze &lt;giomac@gmail.com&gt;") + 
