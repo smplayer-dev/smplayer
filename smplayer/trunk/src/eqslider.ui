@@ -5,8 +5,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>124</width>
-    <height>205</height>
+    <width>68</width>
+    <height>289</height>
    </rect>
   </property>
   <property name="windowIcon" >
@@ -38,7 +38,7 @@
       <number>0</number>
      </property>
      <property name="spacing" >
-      <number>0</number>
+      <number>6</number>
      </property>
      <item>
       <widget class="VerticalText" native="1" name="_label" >
@@ -67,6 +67,30 @@
      </item>
     </layout>
    </item>
+   <item>
+    <widget class="QLabel" name="value_label" >
+     <property name="sizePolicy" >
+      <sizepolicy>
+       <hsizetype>1</hsizetype>
+       <vsizetype>5</vsizetype>
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="frameShape" >
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="frameShadow" >
+      <enum>QFrame::Sunken</enum>
+     </property>
+     <property name="text" >
+      <string/>
+     </property>
+     <property name="alignment" >
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
   </layout>
  </widget>
  <layoutdefault spacing="0" margin="0" />
@@ -81,5 +105,22 @@
   <include location="local" >verticaltext.h</include>
  </includes>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>_slider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>value_label</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>64</x>
+     <y>156</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>36</x>
+     <y>305</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
