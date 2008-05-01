@@ -65,6 +65,7 @@ QString EqSlider::label() const {
 
 void EqSlider::setValue(int value) {
 	_slider->setValue(value);
+	value_label->setNum(value);
 }
 
 int EqSlider::value() const {
