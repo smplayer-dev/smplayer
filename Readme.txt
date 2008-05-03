@@ -1,5 +1,5 @@
-    smplayer, GUI front-end for mplayer.
-    Copyright (C) 2007 Ricardo Villalba <rvm@escomposlinux.org>
+    SMPlayer, GUI front-end for mplayer.
+    Copyright (C) 2007-2008 Ricardo Villalba <rvm@escomposlinux.org>
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -27,13 +27,18 @@ Well, you've probably read the rest in the web, haven't you?
 
 To the point:
 
-To know how to compile and install smplayer please read INSTALL.txt.
+To know how to compile and install smplayer please read Install.txt.
 
 There's available an optional package called smplayer-themes. It contains
 some icon themes for smplayer and it's highly recommended that you install it 
 too.
 
-Visit http://smplayer.sourceforge.net/ for updates.
+Visit the web for updates:
+http://smplayer.berlios.de
+http://smplayer.sourceforge.net
+
+Forum:
+http://smplayer.berlios.de/forums
 
     -------------------------------------------------------------------------
 
