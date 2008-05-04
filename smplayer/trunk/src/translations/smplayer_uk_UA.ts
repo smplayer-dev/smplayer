@@ -4326,7 +4326,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="694"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
-        <translation>Тут Вы можете вказати стилі для субтитрів SSA/ASS. Також може використовуватися для точного налаштування відображення субтитрів SRT і SUB библиотекою SSA/ASS. Приклад: &lt;b&gt; Bold=1, Outline=2, Shadow=4 &lt;/b&gt;</translation>
+        <translation type="unfinished">Тут Ви можете вказати стилі для субтитрів SSA/ASS. Також може використовуватися для точного налаштування відображення субтитрів SRT і SUB библиотекою SSA/ASS. Приклад: &lt;b&gt; Bold=1, Outline=2, Shadow=4 &lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="295"/>
@@ -4486,7 +4486,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="310"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in &lt;i&gt;%1&lt;/i&gt;.</source>
-        <translation>Тут Ви можете вказати ttf шрифт для використання у субтитрах. Звичайно багато шрифтыв Ви знайдете в &lt;i&gt;%1&lt;/i&gt;.</translation>
+        <translation>Тут Ви можете вказати ttf шрифт для використання у субтитрах. Звичайно багато шрифтів Ви знайдете в &lt;i&gt;%1&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="317"/>
@@ -4496,7 +4496,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="319"/>
         <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
-        <translation>Ви можете вказати системний шрифт для використання з субтитрами та экранною ындикацыэю. &lt;b&gt;Примытка:&lt;/b&gt; потрыбен MPlayer з пыдтримкою fontconfig.</translation>
+        <translation>Ви можете вказати системний шрифт для використання з субтитрами та екранною індикацією. &lt;b&gt;Примітка:&lt;/b&gt; потрібен MPlayer з підтримкою fontconfig.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="321"/>
