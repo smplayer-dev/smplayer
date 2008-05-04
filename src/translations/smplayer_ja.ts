@@ -93,7 +93,7 @@
         <translation>ロシア語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="166"/>
+        <location filename="../about.cpp" line="168"/>
         <source>%1 and %2</source>
         <translation>%1 と %2</translation>
     </message>
@@ -118,77 +118,77 @@
         <translation>オランダ語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="155"/>
+        <location filename="../about.cpp" line="157"/>
         <source>Ukrainian</source>
         <translation>ウクライナ語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="156"/>
+        <location filename="../about.cpp" line="158"/>
         <source>Portuguese - Brazil</source>
         <translation>ポルトガル語 - ブラジル</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="157"/>
+        <location filename="../about.cpp" line="159"/>
         <source>Georgian</source>
         <translation>グルジア語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="158"/>
+        <location filename="../about.cpp" line="160"/>
         <source>Czech</source>
         <translation>チェコ語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="159"/>
+        <location filename="../about.cpp" line="161"/>
         <source>Bulgarian</source>
         <translation>ブルガリア語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="160"/>
+        <location filename="../about.cpp" line="162"/>
         <source>Turkish</source>
         <translation>トルコ語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="161"/>
+        <location filename="../about.cpp" line="163"/>
         <source>Swedish</source>
         <translation>スウェーデン語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="162"/>
+        <location filename="../about.cpp" line="164"/>
         <source>Serbian</source>
         <translation>セルビア語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="163"/>
+        <location filename="../about.cpp" line="165"/>
         <source>Traditional Chinese</source>
         <translation>繁体字中国語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="164"/>
+        <location filename="../about.cpp" line="166"/>
         <source>Romanian</source>
         <translation>ルーマニア語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="165"/>
+        <location filename="../about.cpp" line="167"/>
         <source>Portuguese - Portugal</source>
         <translation>ポルトガル語 - ポルトガル</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="168"/>
+        <location filename="../about.cpp" line="170"/>
         <source>Greek</source>
         <translation>ギリシャ語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="169"/>
+        <location filename="../about.cpp" line="171"/>
         <source>Finnish</source>
         <translation>フィンランド語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="177"/>
+        <location filename="../about.cpp" line="179"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="186"/>
+        <location filename="../about.cpp" line="188"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -243,17 +243,17 @@
         <translation>さらなる情報</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="170"/>
+        <location filename="../about.cpp" line="172"/>
         <source>Korean</source>
         <translation>韓国語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="171"/>
+        <location filename="../about.cpp" line="173"/>
         <source>Macedonian</source>
         <translation>マケドニア語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="172"/>
+        <location filename="../about.cpp" line="174"/>
         <source>Basque</source>
         <translation>バスク語</translation>
     </message>
@@ -776,74 +776,74 @@ Do you want to overwrite?</source>
         <translation>SMPlayer のバージョン情報(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2202"/>
+        <location filename="../basegui.cpp" line="2205"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;空&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2540"/>
+        <location filename="../basegui.cpp" line="2543"/>
         <source>Video</source>
         <translation>ビデオ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2718"/>
+        <location filename="../basegui.cpp" line="2721"/>
         <source>Audio</source>
         <translation>オーディオ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2542"/>
+        <location filename="../basegui.cpp" line="2545"/>
         <source>Playlists</source>
         <translation>プレイリスト</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2719"/>
+        <location filename="../basegui.cpp" line="2722"/>
         <source>All files</source>
         <translation>すべてのファイル</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2716"/>
+        <location filename="../basegui.cpp" line="2719"/>
         <source>Choose a file</source>
         <translation>ファイルの選択</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2590"/>
+        <location filename="../basegui.cpp" line="2593"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - 情報</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2593"/>
+        <location filename="../basegui.cpp" line="2596"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CDROM / DVD ドライブはまだ構成されていません。
 構成ダイアログは今すぐ表示されますので、それができます。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2667"/>
+        <location filename="../basegui.cpp" line="2670"/>
         <source>Choose a directory</source>
         <translation>ディレクトリの選択</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2703"/>
+        <location filename="../basegui.cpp" line="2706"/>
         <source>Subtitles</source>
         <translation>字幕</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2743"/>
+        <location filename="../basegui.cpp" line="2746"/>
         <source>About Qt</source>
         <translation>Qt のバージョン情報</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3110"/>
+        <location filename="../basegui.cpp" line="3113"/>
         <source>Playing %1</source>
         <translation>%1 を再生中</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3111"/>
+        <location filename="../basegui.cpp" line="3114"/>
         <source>Pause</source>
         <translation>一時停止</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3112"/>
+        <location filename="../basegui.cpp" line="3115"/>
         <source>Stop</source>
         <translation>停止</translation>
     </message>
@@ -1133,7 +1133,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>コマンド ライン オプション(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2732"/>
+        <location filename="../basegui.cpp" line="2735"/>
         <source>SMPlayer command line options</source>
         <translation>SMPlayer のコマンド ライン オプション</translation>
     </message>
@@ -1153,32 +1153,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ビデオ イコライザのリセット</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3527"/>
+        <location filename="../basegui.cpp" line="3530"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer は予期せず終了しています。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3528"/>
+        <location filename="../basegui.cpp" line="3531"/>
         <source>Exit code: %1</source>
         <translation>終了コード: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3538"/>
+        <location filename="../basegui.cpp" line="3541"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer が起動に失敗しました。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3539"/>
+        <location filename="../basegui.cpp" line="3542"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>環境設定で MPlayer のパスをチェックしてください。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3541"/>
+        <location filename="../basegui.cpp" line="3544"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer はクラッシュしています。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3542"/>
+        <location filename="../basegui.cpp" line="3545"/>
         <source>See the log for more info.</source>
         <translation>さらなる情報はログをご覧ください。</translation>
     </message>
@@ -1223,7 +1223,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>コンテキスト メニューの表示</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2539"/>
+        <location filename="../basegui.cpp" line="2542"/>
         <source>Multimedia</source>
         <translation>マルチメディア</translation>
     </message>

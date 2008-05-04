@@ -93,7 +93,7 @@
         <translation>Rusky</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="166"/>
+        <location filename="../about.cpp" line="168"/>
         <source>%1 and %2</source>
         <translation>%1 a %2</translation>
     </message>
@@ -118,77 +118,77 @@
         <translation>Holandsky</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="155"/>
+        <location filename="../about.cpp" line="157"/>
         <source>Ukrainian</source>
         <translation>Ukrainsky</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="156"/>
+        <location filename="../about.cpp" line="158"/>
         <source>Portuguese - Brazil</source>
         <translation>Portugalská Brazílčina</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="157"/>
+        <location filename="../about.cpp" line="159"/>
         <source>Georgian</source>
         <translation>Gruzínsky</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="158"/>
+        <location filename="../about.cpp" line="160"/>
         <source>Czech</source>
         <translation>Česky</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="159"/>
+        <location filename="../about.cpp" line="161"/>
         <source>Bulgarian</source>
         <translation>Bulharsky</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="160"/>
+        <location filename="../about.cpp" line="162"/>
         <source>Turkish</source>
         <translation>Turecky</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="161"/>
+        <location filename="../about.cpp" line="163"/>
         <source>Swedish</source>
         <translation>Švédsky</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="162"/>
+        <location filename="../about.cpp" line="164"/>
         <source>Serbian</source>
         <translation>Srbsky</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="163"/>
+        <location filename="../about.cpp" line="165"/>
         <source>Traditional Chinese</source>
         <translation>Tradičná Čínština</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="164"/>
+        <location filename="../about.cpp" line="166"/>
         <source>Romanian</source>
         <translation>Rumunsky</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="165"/>
+        <location filename="../about.cpp" line="167"/>
         <source>Portuguese - Portugal</source>
         <translation>Portugalská Portugalčina</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="168"/>
+        <location filename="../about.cpp" line="170"/>
         <source>Greek</source>
         <translation>Grécky</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="169"/>
+        <location filename="../about.cpp" line="171"/>
         <source>Finnish</source>
         <translation>Fínsky</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="177"/>
+        <location filename="../about.cpp" line="179"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="186"/>
+        <location filename="../about.cpp" line="188"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -243,17 +243,17 @@
         <translation>Viac informácií</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="170"/>
+        <location filename="../about.cpp" line="172"/>
         <source>Korean</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="171"/>
+        <location filename="../about.cpp" line="173"/>
         <source>Macedonian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="172"/>
+        <location filename="../about.cpp" line="174"/>
         <source>Basque</source>
         <translation type="unfinished">Baskický</translation>
     </message>
@@ -776,74 +776,74 @@ Chcete ho prepísať?</translation>
         <translation>O &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2202"/>
+        <location filename="../basegui.cpp" line="2205"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;prázdny&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2540"/>
+        <location filename="../basegui.cpp" line="2543"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2718"/>
+        <location filename="../basegui.cpp" line="2721"/>
         <source>Audio</source>
         <translation>Zvuk</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2542"/>
+        <location filename="../basegui.cpp" line="2545"/>
         <source>Playlists</source>
         <translation>Playlist</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2719"/>
+        <location filename="../basegui.cpp" line="2722"/>
         <source>All files</source>
         <translation>Všetky súbory</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2716"/>
+        <location filename="../basegui.cpp" line="2719"/>
         <source>Choose a file</source>
         <translation>Vybrať súbor 1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2590"/>
+        <location filename="../basegui.cpp" line="2593"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Informácie</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2593"/>
+        <location filename="../basegui.cpp" line="2596"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Zariadenie CD / DVD ešte nebolo nakonfigurované.
 Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2667"/>
+        <location filename="../basegui.cpp" line="2670"/>
         <source>Choose a directory</source>
         <translation>Vybrať adresár 2</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2703"/>
+        <location filename="../basegui.cpp" line="2706"/>
         <source>Subtitles</source>
         <translation>Titulky</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2743"/>
+        <location filename="../basegui.cpp" line="2746"/>
         <source>About Qt</source>
         <translation>O Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3110"/>
+        <location filename="../basegui.cpp" line="3113"/>
         <source>Playing %1</source>
         <translation>Prehrávam %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3111"/>
+        <location filename="../basegui.cpp" line="3114"/>
         <source>Pause</source>
         <translation>Pauza</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3112"/>
+        <location filename="../basegui.cpp" line="3115"/>
         <source>Stop</source>
         <translation>Zastav</translation>
     </message>
@@ -1133,7 +1133,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <translation>Parametre &amp;príkazového riadku</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2732"/>
+        <location filename="../basegui.cpp" line="2735"/>
         <source>SMPlayer command line options</source>
         <translation>Parametre príkazového riakdu pre SMPlayer</translation>
     </message>
@@ -1153,32 +1153,32 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3527"/>
+        <location filename="../basegui.cpp" line="3530"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3528"/>
+        <location filename="../basegui.cpp" line="3531"/>
         <source>Exit code: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3538"/>
+        <location filename="../basegui.cpp" line="3541"/>
         <source>MPlayer failed to start.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3539"/>
+        <location filename="../basegui.cpp" line="3542"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3541"/>
+        <location filename="../basegui.cpp" line="3544"/>
         <source>MPlayer has crashed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3542"/>
+        <location filename="../basegui.cpp" line="3545"/>
         <source>See the log for more info.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1223,7 +1223,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2539"/>
+        <location filename="../basegui.cpp" line="2542"/>
         <source>Multimedia</source>
         <translation type="unfinished"></translation>
     </message>
