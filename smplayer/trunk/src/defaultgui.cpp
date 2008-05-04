@@ -537,6 +537,8 @@ void DefaultGui::resizeEvent( QResizeEvent * ) {
 	}
 }
 
+#define TOOLBARS_VERSION 2
+
 void DefaultGui::saveConfig() {
 	qDebug("DefaultGui::saveConfig");
 
@@ -560,7 +562,7 @@ void DefaultGui::saveConfig() {
 		set->setValue( "height", height() );
 	}
 
-	set->setValue( "toolbars_state", saveState() );
+	set->setValue( "toolbars_state", saveState(TOOLBARS_VERSION) );
 
 	set->endGroup();
 }
@@ -595,7 +597,7 @@ void DefaultGui::loadConfig() {
 		resize(width,height);
 	}
 
-	restoreState( set->value( "toolbars_state" ).toByteArray() );
+	restoreState( set->value( "toolbars_state" ).toByteArray(), TOOLBARS_VERSION );
 
 	set->endGroup();
 

@@ -91,7 +91,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags )
 #if DOCK_PLAYLIST
 	// Playlistdock
 	playlistdock = new PlaylistDock(this);
-	playlistdock->setObjectName("playlist");
+	playlistdock->setObjectName("playlistdock");
 	playlistdock->setFloating(false); // To avoid that the playlist is visible for a moment
 	playlistdock->setWidget(playlist);
 	playlistdock->setAllowedAreas(Qt::TopDockWidgetArea | 
