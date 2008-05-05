@@ -21,14 +21,12 @@
 
 #include "mediadata.h"
 #include <QString>
-#include <QObject>
 
-class InfoFile : public QObject
+class InfoFile 
 {
-	Q_OBJECT
 
 public:
-	InfoFile( QObject * parent = 0 );
+	InfoFile();
 	~InfoFile();
 
 	QString getInfo(MediaData md);
@@ -43,6 +41,9 @@ protected:
 	QString addItem( QString tag, QString value );
 
 	int row;
+
+private:
+	inline QString tr( const char * sourceText, const char * comment = 0, int n = -1 );
 };
 
 #endif
