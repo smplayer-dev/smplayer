@@ -1,5 +1,9 @@
 [b]Version 0.6.0[/b]:
 
+(2008-05-05)
+ * The option Play->Repeat is now always enabled, so it can be activated
+   before playing anything.
+
 (2008-05-03)
  * Now, when browsing the recents menu, the statusbar shows the full path of 
    the selected item.
