@@ -18,11 +18,12 @@
 
 #include "infofile.h"
 #include <QFileInfo>
+#include <QCoreApplication>
 #include "helper.h"
 #include "constants.h"
 
-InfoFile::InfoFile( QObject * parent ) : QObject(parent) 
-{
+
+InfoFile::InfoFile() {
 	row = 0;
 }
 
@@ -206,4 +207,8 @@ QString InfoFile::addItem( QString tag, QString value ) {
            closeItem();
 }
 
-#include "moc_infofile.cpp"
+
+inline QString InfoFile::tr( const char * sourceText, const char * comment, int n )  {
+	return QCoreApplication::translate("InfoFile", sourceText, comment, QCoreApplication:: CodecForTr, n );
+}
+
