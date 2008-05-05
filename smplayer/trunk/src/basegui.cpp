@@ -834,7 +834,7 @@ void BaseGui::setActionsEnabled(bool b) {
 	forward1Act->setEnabled(b);
 	forward2Act->setEnabled(b);
 	forward3Act->setEnabled(b);
-	repeatAct->setEnabled(b);
+	//repeatAct->setEnabled(b);
 	gotoAct->setEnabled(b);
 
 	// Menu Speed
