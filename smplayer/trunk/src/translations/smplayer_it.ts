@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="it">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -15,7 +16,7 @@
     <message>
         <location filename="../about.cpp" line="89"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
-        <translation>Questo programma è un software free software; è possibile modificarlo e/o ridistribuirlo sotto i termini della licenza GNU come indicato dalla Free Software Foundation; come la versione 2 della licenza, o (a vostra scelta) ogni successiva versione.</translation>
+        <translation>Questo programma è  free software; è possibile modificarlo e/o ridistribuirlo sotto i termini della licenza GNU General Public License come indicato dalla Free Software Foundation; sia la versione 2 della licenza, o (a vostra scelta) ogni successiva versione.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="96"/>
@@ -353,7 +354,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1004"/>
         <source>&amp;Playlist...</source>
-        <translation>&amp;Lista di riproduzione...</translation>
+        <translation>Lista di ri&amp;produzione...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1007"/>
@@ -388,7 +389,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1021"/>
         <source>&amp;Frame step</source>
-        <translation>&amp;Avanza per fotogramma</translation>
+        <translation>Avanza per &amp;fotogramma</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1033"/>
@@ -423,7 +424,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1197"/>
         <source>Sp&amp;eed</source>
-        <translation>&amp;Velocità</translation>
+        <translation>V&amp;elocità</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1044"/>
@@ -433,7 +434,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1045"/>
         <source>&amp;Compact mode</source>
-        <translation>&amp;Modalità compatta</translation>
+        <translation>Modalità &amp;compatta</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1046"/>
@@ -815,7 +816,7 @@ Vuoi sovrascriverlo?</translation>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Le unità CDROM / DVD non sono ancora configurate.
-Si aprirà ora il dialogo di configurazione, in modio che tu possa farlo.
+Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
 </translation>
     </message>
     <message>
@@ -1550,7 +1551,7 @@ Si aprirà ora il dialogo di configurazione, in modio che tu possa farlo.
 Write them separated by spaces.
 Example: -flip -nosound</source>
         <translation>Qui si possono passare opzioni extra a Mplayer.
-Scrivile separate da spazi.
+Scriverle separate da spazi.
 Esempio: -flip -nosound</translation>
     </message>
     <message>
@@ -2420,7 +2421,7 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefadvanced.cpp" line="384"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
-        <translation>Qui si possono passare opzioni a Mplayer. Scrivile separate da spazi.</translation>
+        <translation>Qui si possono passare opzioni a Mplayer. Scriverle separate da spazi.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="386"/>
@@ -2609,7 +2610,7 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefgeneral.ui" line="88"/>
         <source>Output drivers</source>
-        <translation>Drivers di uscita</translation>
+        <translation>Driver di uscita</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="175"/>
@@ -2644,7 +2645,7 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefgeneral.cpp" line="561"/>
         <source>AC3/DTS pass-through S/PDIF</source>
-        <translation>AC3/DTS pass-through S/PDIF</translation>
+        <translation>AC3/DTS in uscita su S/PDIF</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="83"/>
@@ -3009,7 +3010,7 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefgeneral.cpp" line="562"/>
         <source>Uses hardware AC3 passthrough</source>
-        <translation>Usa  AC3 passthrough hardware</translation>
+        <translation>Usa  AC3 su uscita hardware</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="592"/>
