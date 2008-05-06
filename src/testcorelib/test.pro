@@ -4,10 +4,11 @@ LANGUAGE = C++
 CONFIG  += qt warn_on release
 
 DEFINES += MINILIB NO_USE_INI_FILES
-INCLUDEPATH += ../corelib
+INCLUDEPATH += ../corelib ..
+DEPENDPATH += ..
 
-HEADERS = timeslider.h test.h
-SOURCES = timeslider.cpp test.cpp
+HEADERS = myslider.h timeslider.h test.h
+SOURCES = myslider.cpp timeslider.cpp test.cpp
 
 #SOURCES = test2.cpp
 
