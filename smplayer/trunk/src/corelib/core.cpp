@@ -54,7 +54,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	just_unloaded_external_subs = false;
 	change_volume_after_unpause = false;
 
-#ifdef USE_INI_FILES
+#ifndef NO_USE_INI_FILES
 	// Create file_settings
 	if (Helper::iniPath().isEmpty()) {
 		file_settings = new QSettings(QSettings::IniFormat, QSettings::UserScope,
@@ -159,7 +159,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 
 
 Core::~Core() {
-#ifdef USE_INI_FILES
+#ifndef NO_USE_INI_FILES
 	saveMediaInfo();
 #endif
 
@@ -167,7 +167,7 @@ Core::~Core() {
     proc->terminate();
     delete proc;
 
-#ifdef USE_INI_FILES
+#ifndef NO_USE_INI_FILES
 	delete file_settings;
 #endif
 
@@ -203,7 +203,7 @@ void Core::restart() {
 	}
 }
 
-#ifdef USE_INI_FILES
+#ifndef NO_USE_INI_FILES
 bool Core::checkHaveSettingsSaved(QString group_name) {
 	qDebug("Core::checkHaveSettingsSaved: group_name: '%s'", group_name.toUtf8().data());
 
@@ -256,7 +256,7 @@ void Core::loadMediaInfo(QString group_name) {
 	file_settings->endGroup();
 }
 
-#endif // USE_INI_FILES
+#endif // NO_USE_INI_FILES
 
 void Core::updateLog(QString line) {
 	if (pref->log_mplayer) {
@@ -479,7 +479,7 @@ void Core::openVCD(int title) {
 	}
 
 	// Save data of previous file:
-#ifdef USE_INI_FILES
+#ifndef NO_USE_INI_FILES
 	saveMediaInfo();
 #endif
 
@@ -508,7 +508,7 @@ void Core::openAudioCD(int title) {
 	}
 
 	// Save data of previous file:
-#ifdef USE_INI_FILES
+#ifndef NO_USE_INI_FILES
 	saveMediaInfo();
 #endif
 
@@ -555,7 +555,7 @@ void Core::openDVD(QString dvd_url) {
 	}
 
 	// Save data of previous file:
-#ifdef USE_INI_FILES
+#ifndef NO_USE_INI_FILES
 	saveMediaInfo();
 #endif
 
@@ -583,7 +583,7 @@ void Core::openStream(QString name) {
 	}
 
 	// Save data of previous file:
-#ifdef USE_INI_FILES
+#ifndef NO_USE_INI_FILES
 	saveMediaInfo();
 #endif
 
@@ -608,7 +608,7 @@ void Core::playNewFile(QString file, int seek) {
 	}
 
 	// Save data of previous file:
-#ifdef USE_INI_FILES
+#ifndef NO_USE_INI_FILES
 	saveMediaInfo();
 #endif
 
@@ -619,7 +619,7 @@ void Core::playNewFile(QString file, int seek) {
 	int old_volume = mset.volume;
 	mset.reset();
 
-#ifdef USE_INI_FILES
+#ifndef NO_USE_INI_FILES
 	// Check if we already have info about this file
 	if (checkHaveSettingsSaved( Helper::filenameForPref(file) )) {
 		qDebug("We have settings for this file!!!");
@@ -642,7 +642,7 @@ void Core::playNewFile(QString file, int seek) {
 #else
 	// Recover volume
 	mset.volume = old_volume;
-#endif // USE_INI_FILES
+#endif // NO_USE_INI_FILES
 
 	/* initializeMenus(); */
 

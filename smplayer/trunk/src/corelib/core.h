@@ -265,7 +265,7 @@ protected:
     void startMplayer(QString file, double seek = -1 );
 	void stopMplayer();
 
-#ifdef USE_INI_FILES
+#ifndef NO_USE_INI_FILES
 	bool checkHaveSettingsSaved(QString filename);
 	void saveMediaInfo();
 	void loadMediaInfo(QString filename);
@@ -311,7 +311,7 @@ protected:
     MplayerProcess * proc;
     MplayerWindow * mplayerwindow;
 
-#ifdef USE_INI_FILES
+#ifndef NO_USE_INI_FILES
 	QSettings * file_settings;
 #endif
 

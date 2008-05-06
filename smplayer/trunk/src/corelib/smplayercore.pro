@@ -2,7 +2,7 @@ TEMPLATE = lib
 LANGUAGE = c++
 CONFIG += qt warn_on release staticlib
 
-DEFINES += MINILIB
+DEFINES += MINILIB NO_USE_INI_FILES
 
 HEADERS += config.h \
         constants.h \

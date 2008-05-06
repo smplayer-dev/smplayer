@@ -1924,7 +1924,7 @@ void BaseGui::applyNewPreferences() {
 	pref_dialog->mod_input()->actions_editor->applyChanges();
 	saveActions();
 
-#ifdef USE_INI_FILES
+#ifndef NO_USE_INI_FILES
     pref->save();
 #endif
 }

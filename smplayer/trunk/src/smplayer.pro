@@ -10,7 +10,6 @@ RESOURCES = icons.qrc
 
 INCLUDEPATH += corelib
 DEPENDPATH += corelib
-DEFINES += USE_INI_FILES
 
 #DEFINES += USE_QXT
 
