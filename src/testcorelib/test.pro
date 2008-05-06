@@ -3,7 +3,7 @@ LANGUAGE = C++
 
 CONFIG  += qt warn_on release
 
-DEFINES += MINILIB
+DEFINES += MINILIB NO_USE_INI_FILES
 INCLUDEPATH += ../corelib
 
 HEADERS = timeslider.h test.h

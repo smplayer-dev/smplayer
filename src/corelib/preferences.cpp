@@ -30,13 +30,13 @@ using namespace Global;
 Preferences::Preferences() {
 	reset();
 
-#ifdef USE_INI_FILES
+#ifndef NO_USE_INI_FILES
 	load();
 #endif
 }
 
 Preferences::~Preferences() {
-#ifdef USE_INI_FILES
+#ifndef NO_USE_INI_FILES
 	save();
 #endif
 }
@@ -277,7 +277,7 @@ void Preferences::reset() {
 	mplayer_has_volume_option = false;
 }
 
-#ifdef USE_INI_FILES
+#ifndef NO_USE_INI_FILES
 void Preferences::save() {
 	qDebug("Preferences::save");
 
@@ -733,7 +733,7 @@ void Preferences::load() {
 	*/
 }
 
-#endif // USE_INI_FILES
+#endif // NO_USE_INI_FILES
 
 double Preferences::monitor_aspect_double() {
 	qDebug("Preferences::monitor_aspect_double");

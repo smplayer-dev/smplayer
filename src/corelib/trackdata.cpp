@@ -63,7 +63,7 @@ QString TrackData::displayName() const {
 	return dname;
 }
 
-#ifdef USE_INI_FILES
+#ifndef NO_USE_INI_FILES
 void TrackData::save(QSettings & set) {
 	//qDebug("TrackData::save");
 
@@ -88,7 +88,7 @@ void TrackData::load(QSettings & set) {
 	_ID = set.value( "ID", _ID ).toInt();
 }
 
-#endif // USE_INI_FILES
+#endif // NO_USE_INI_FILES
 
 void TrackData::list() {
 	//qDebug("TrackData::list");

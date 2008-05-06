@@ -50,7 +50,7 @@ public:
 
 	QString displayName() const;
 
-#ifdef USE_INI_FILES
+#ifndef NO_USE_INI_FILES
 	void save(QSettings & set);
 	void load(QSettings & set);
 #endif

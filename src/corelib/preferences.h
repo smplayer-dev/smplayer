@@ -42,7 +42,7 @@ public:
 
 	virtual void reset();
 
-#ifdef USE_INI_FILES
+#ifndef NO_USE_INI_FILES
 	void save();
 	void load();
 #endif
