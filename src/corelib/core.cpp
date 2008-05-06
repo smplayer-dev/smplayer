@@ -1211,7 +1211,7 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 #endif
 
-#ifndef Q_OS_WIN
+#ifdef Q_WS_X11
 	if (pref->disable_screensaver) {
 		proc->addArgument("-stop-xscreensaver");
 	} else {
