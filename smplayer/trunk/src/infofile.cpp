@@ -163,9 +163,14 @@ QString InfoFile::getInfo(MediaData md) {
 			if (lang.isEmpty()) lang = "<i>&lt;"+tr("empty")+"&gt;</i>";
 			QString name = md.subs.itemAt(n).name();
 			if (name.isEmpty()) name = "<i>&lt;"+tr("empty")+"&gt;</i>";
+			/*
 			s += QString("<td>%1</td><td>%2</td><td>%3</td><td>%4</td><td>%5</td>")
                  .arg(n).arg(t).arg(lang).arg(name)
                  .arg(md.subs.itemAt(n).ID());
+			*/
+            s += "<td>" + QString::number(n) + "</td><td>" + t + 
+                 "</td><td>" + lang + "</td><td>" + name + 
+                 "</td><td>" + QString::number(md.subs.itemAt(n).ID()) + "</td>";
 			s += closeItem();
 		}
 		s += closePar();
