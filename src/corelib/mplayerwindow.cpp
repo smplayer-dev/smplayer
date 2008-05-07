@@ -331,10 +331,14 @@ void MplayerWindow::wheelEvent( QWheelEvent * e ) {
     qDebug("MplayerWindow::wheelEvent: delta: %d", e->delta());
     e->accept();
 
-    if (e->delta() >= 0)
-        emit wheelUp();
-    else
-        emit wheelDown();
+	if (e->orientation() == Qt::Vertical) {
+	    if (e->delta() >= 0)
+	        emit wheelUp();
+	    else
+	        emit wheelDown();
+	} else {
+		qDebug("MplayerWindow::wheelEvent: horizontal event received, doing nothing");
+	}
 }
 
 bool MplayerWindow::eventFilter( QObject * /*watched*/, QEvent * event ) {
