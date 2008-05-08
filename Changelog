@@ -1,5 +1,8 @@
 [b]Version 0.6.0[/b]:
 
+(2008-05-08)
+ * Added m2t to the list of extensions for video.
+
 (2008-05-05)
  * The option Play->Repeat is now always enabled, so it can be activated
    before playing anything.
