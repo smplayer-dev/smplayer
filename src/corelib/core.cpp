@@ -2523,11 +2523,14 @@ void Core::changeAudio(int ID) {
 			restartPlay(); 
 		} else {
 			tellmp("switch_audio " + QString::number(ID) );
-			#ifdef Q_OS_WIN
+			//#ifdef Q_OS_WIN
 			// Workaround for a mplayer problem in windows,
 			// volume is too loud after changing audio.
+
+			// Workaround too for a mplayer problem in linux,
+			// the volume is reduced if using -softvol-max.
 			setVolume( mset.volume, true );
-			#endif
+			//#endif
 			if (mset.mute) mute(true); // if muted, mute again
 			updateWidgets();
 		}
