@@ -78,7 +78,7 @@
    control widget, so their key shortcuts can work in the floating control.
 
 (2008-04-16)
- * Now the mouse right click button can be configured. By default it will
+ * Now the mouse right button can be configured. By default it will
    show the context menu. The context menu can also be assigned to another
    button (or key).
  * Added the open directory action to the systray menu. Fixes bug #1943895.
