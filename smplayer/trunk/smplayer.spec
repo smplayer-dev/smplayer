@@ -14,7 +14,7 @@
 %define lrelease lrelease-qt4
 %endif
 %if %is_suse
-%define distr %(cat /etc/SuSE-release)
+%define distr %(head -1 /etc/SuSE-release)
 %endif
 %if %is_mandrake
 %define distr %(cat /etc/mandrake-release)

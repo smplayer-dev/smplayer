@@ -12,7 +12,7 @@ cd /tmp
 tar cvjf smplayer-${SMPVERSION}_${SVN_REVISION}.tar.bz2 smplayer-${SMPVERSION}_${SVN_REVISION}/
 rm -r /tmp/smplayer-${SMPVERSION}_${SVN_REVISION}
 cat ${CURDIR}/smplayer.spec | sed -e 's/%define version [a-zA-Z0-9\.]*$/%define version '${SMPVERSION}'_'${SVN_REVISION}'/' > /tmp/smplayer.spec
-PCKGDIR=/usr/src/packages/
+PCKGDIR=/usr/src/packages/SOURCES/
 if [ -e /etc/fedora-release ]; then
     PCKGDIR=/usr/source/redhat/
 fi
