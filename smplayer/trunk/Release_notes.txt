@@ -1,3 +1,25 @@
+Version 0.6.0 final.
+
+Most important changes since 0.6.0rc4:
+
+ * (Bugfix) Two mplayer processes were run when opening a file. This could
+   even make Aero in Windows Vista to be disabled.
+ * Seeking with the time slider works much better.
+ * Now it's possible to add directories recursively to the playlist.
+ * Added a preferences dialog for the playlist.
+ * The right mouse button can be configured.
+ * (Linux) File managers should now display an option to enqueue files in
+   the smplayer playlist.
+ * (Fix) The playlist was shown for a small moment on startup. This caused
+   problems if using compiz, as the window might not hide.
+ * Fix for Qt 4.4, the logo didn't show.
+ * Some translations have been updated (Simplified-Chinese, Italian, 
+   Ukrainian, Dutch, French, Romanian, Portuguese, Polish, Russian, Japanese, 
+   Spanish and German)
+ * Now the file Install.txt contains updated info about how to compile and
+   install smplayer.
+
+
 Version 0.6.0rc4.
 
 Most important changes since 0.6.0rc3:
