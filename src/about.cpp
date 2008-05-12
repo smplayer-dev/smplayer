@@ -43,8 +43,8 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 	if (pref->mplayer_detected_version > 0) {
 		QString version;
 		switch (pref->mplayer_detected_version) {
-			case MPLAYER_1_0_RC1_SVN: version = "1.0rc1"; break;
-			case MPLAYER_1_0_RC2_SVN: version = "1.0rc2"; break;
+			case MPLAYER_1_0_RC1_SVN: version = QString("1.0rc1 (r%1)").arg(MPLAYER_1_0_RC1_SVN); break;
+			case MPLAYER_1_0_RC2_SVN: version = QString("1.0rc2 (r%1)").arg(MPLAYER_1_0_RC2_SVN); break;
 			default : version =  QString("SVN r%1").arg(pref->mplayer_detected_version);
 		}
 		mplayer_version = tr("Using MPlayer %1").arg(version) + "<br><br>";
