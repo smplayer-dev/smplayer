@@ -40,6 +40,7 @@ using namespace Global;
 
 DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
 	: BaseGuiPlus( parent, flags ),
+        widgets_size(0),
 		floating_control_width(100), //%
 		floating_control_animated(true)
 {
@@ -443,6 +444,9 @@ void DefaultGui::aboutToExitFullscreen() {
 }
 
 void DefaultGui::aboutToEnterCompactMode() {
+	widgets_size = height() - panel->height();
+	qDebug("DefaultGui::aboutToEnterCompactMode: widgets_size: %d", widgets_size);
+
 	BaseGuiPlus::aboutToEnterCompactMode();
 
 	// Save visibility of toolbars
@@ -456,15 +460,18 @@ void DefaultGui::aboutToEnterCompactMode() {
 	toolbar1->hide();
 	toolbar2->hide();
 
-	/*
 	if (pref->resize_method == Preferences::Always) {
-		resizeWindow(core->mset.win_width, core->mset.win_height);
+		//resizeWindow(core->mset.win_width, core->mset.win_height);
+		resize( width(), height() - widgets_size );
 	}
-	*/
 }
 
 void DefaultGui::aboutToExitCompactMode() {
 	BaseGuiPlus::aboutToExitCompactMode();
+
+	if (pref->resize_method == Preferences::Always) {
+		resize( width(), height() + widgets_size );
+	}
 
 	//menuBar()->show();
 	//statusBar()->show();

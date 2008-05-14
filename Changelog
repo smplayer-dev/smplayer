@@ -4,6 +4,9 @@
  * Now the "latest_dir" is updated too when opening a file from command line.
    Also the "latest_dir" now defaults to the home directory instead of the
    smplayer working directory.
+ * Now when switching to compact mode, the main window is resized instead of
+   leaving black borders where the widgets were placed. This resize will only 
+   be done if the autoresize option is set to "whenever it's needed".
 
 
 [b]Version 0.6.0[/b]:
