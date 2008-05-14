@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -2083,7 +2084,7 @@ Doriți suprascrierea?</translation>
     <message>
         <location filename="../playlist.cpp" line="309"/>
         <source>Remove &amp;selected</source>
-        <translation>Ștergeți &amp;selecție</translation>
+        <translation>Ștergeți &amp;selecția</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="310"/>
