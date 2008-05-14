@@ -2447,6 +2447,8 @@ void BaseGui::open(QString file) {
 			core->open(file);
 		//}
 	}
+
+	pref->latest_dir = QFileInfo(file).absolutePath();
 }
 
 void BaseGui::openFiles(QStringList files) {
@@ -2574,7 +2576,6 @@ void BaseGui::openFile(QString file) {
 			}
 		}
 		else {
-			pref->latest_dir = QFileInfo(file).absolutePath();
 			if (pref->auto_add_to_playlist) {
 				if (playlist->maybeSave()) {
 					core->openFile(file);
@@ -2586,6 +2587,7 @@ void BaseGui::openFile(QString file) {
 				core->openFile(file);
 			}
 		}
+		pref->latest_dir = QFileInfo(file).absolutePath();
 	}
 }
 

@@ -24,6 +24,7 @@
 #include <QSettings>
 #include <QFileInfo>
 #include <QRegExp>
+#include <QDir>
 
 using namespace Global;
 
@@ -103,7 +104,7 @@ void Preferences::reset() {
 
 	monitor_aspect=""; // Autodetect
 	
-	latest_dir="";
+	latest_dir = QDir::homePath();
 	last_url="";
 	last_dvd_directory="";
 
