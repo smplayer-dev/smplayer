@@ -1,3 +1,11 @@
+[b]Version 0.6.1[/b]:
+
+(2008-05-15)
+ * Now the "latest_dir" is updated too when opening a file from command line.
+   Also the "latest_dir" now defaults to the home directory instead of the
+   smplayer working directory.
+
+
 [b]Version 0.6.0[/b]:
 
 (2008-05-12)
