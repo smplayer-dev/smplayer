@@ -172,6 +172,7 @@ QString About::getTranslators() {
 	trad(tr("Korean"), "Heesu Yoon &lt;imsu30@gmail.com&gt;") +
 	trad(tr("Macedonian"), "Marko Doda &lt;mark0d0da@gmail.com&gt;") +
 	trad(tr("Basque"), "Piarres Beobide &lt;pi@beobide.net&gt;") +
+	trad(tr("Catalan"), QString::fromUtf8("Roger Calvó &lt;rcalvoi@yahoo.com&gt;")) +
          "</ul>");
 }
 
