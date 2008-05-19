@@ -56,7 +56,7 @@ Screen::Screen(QWidget* parent, Qt::WindowFlags f)
 	//setAttribute(Qt::WA_StaticContents);
     //setAttribute( Qt::WA_OpaquePaintEvent );
 	setAttribute(Qt::WA_PaintOnScreen);
-	//setAttribute(Qt::WA_PaintUnclipped);
+	setAttribute(Qt::WA_PaintUnclipped);
 	//setAttribute(Qt::WA_PaintOutsidePaintEvent);
 }
 

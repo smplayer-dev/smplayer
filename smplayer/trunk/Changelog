@@ -1,5 +1,8 @@
 [b]Version 0.6.1[/b]:
 
+(2008-05-19)
+ * Fix: zoom didn't work well with directx.
+
 (2008-05-17)
  * Now the maximum port for the single instance is 99999 instead of 10000.
 
