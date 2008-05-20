@@ -2448,7 +2448,7 @@ void BaseGui::open(QString file) {
 		//}
 	}
 
-	pref->latest_dir = QFileInfo(file).absolutePath();
+	if (QFile::exists(file)) pref->latest_dir = QFileInfo(file).absolutePath();
 }
 
 void BaseGui::openFiles(QStringList files) {
@@ -2587,7 +2587,7 @@ void BaseGui::openFile(QString file) {
 				core->openFile(file);
 			}
 		}
-		pref->latest_dir = QFileInfo(file).absolutePath();
+		if (QFile::exists(file)) pref->latest_dir = QFileInfo(file).absolutePath();
 	}
 }
 
