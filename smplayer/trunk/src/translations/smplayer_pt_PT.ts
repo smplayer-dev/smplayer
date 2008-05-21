@@ -270,7 +270,7 @@
     <message>
         <location filename="../about.cpp" line="175"/>
         <source>Catalan</source>
-        <translation type="unfinished">Catalão</translation>
+        <translation>Catalão</translation>
     </message>
 </context>
 <context>
@@ -776,7 +776,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1256"/>
         <source>&amp;Track</source>
-        <translation>&amp;Pista</translation>
+        <translation>&amp;Faixa</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1082"/>
@@ -1767,7 +1767,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
 Write them separated by spaces.
 Example: -flip -nosound</source>
         <translation>Aqui  pode passar opções extra ao MPlayer.
-Escrevê-las separadas por espaços.
+Deve escrevê-las separadas por espaços.
 Exemplo: -flip -nosound</translation>
     </message>
     <message>
@@ -1882,7 +1882,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../infofile.cpp" line="85"/>
         <source>Track</source>
-        <translation>Pista</translation>
+        <translation>Faixa</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="86"/>
@@ -1947,7 +1947,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../infofile.cpp" line="111"/>
         <source>Initial Audio Stream</source>
-        <translation>Pista de áudio inicial</translation>
+        <translation>Faixa de áudio inicial</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="114"/>
@@ -1967,7 +1967,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../infofile.cpp" line="121"/>
         <source>Audio Streams</source>
-        <translation>Pistas de áudio</translation>
+        <translation>Faixas de áudio</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="150"/>
@@ -2750,7 +2750,7 @@ As listas podem já conter expressões regulares para vários idiomas.</translat
     <message>
         <location filename="../prefassociations.ui" line="101"/>
         <source>Select None</source>
-        <translation>Não seleccionar nada</translation>
+        <translation>Desmarcar todos</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="221"/>
@@ -2828,7 +2828,7 @@ As listas podem já conter expressões regulares para vários idiomas.</translat
     <message>
         <location filename="../prefdrives.ui" line="41"/>
         <source>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
-        <translation>SMPlayer não escolhe a unidade por defeito. Assim, antes que consiga reproduzir um CD ou DVD deve seleccionar o dispositivo a utilizar, que pode até ser o mesmo.</translation>
+        <translation>O SMPlayer não escolhe a unidade CD ou DVD. Assim, para reproduzir um CD / DVD, deve seleccionar o dispositivo a utilizar que pode até ser o mesmo.</translation>
     </message>
 </context>
 <context>
@@ -3036,7 +3036,7 @@ As listas podem já conter expressões regulares para vários idiomas.</translat
     <message>
         <location filename="../prefgeneral.cpp" line="493"/>
         <source>Usually smplayer will remember the settings for each file you play (audio track selected, volume, filters...). Uncheck this option if you don&apos;t like this feature.</source>
-        <translation>Normalmente smplayer irá lembrar-se das opções para cada ficheiro que reproduza (pista de áudio seleccionada, volume, filtros...). Desmarque esta opção se não desejar esta funcionalidade.</translation>
+        <translation>Normalmente smplayer irá lembrar-se das opções para cada ficheiro que reproduza (faixa de áudio seleccionada, volume, filtros...). Desmarque esta opção se não desejar esta funcionalidade.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="495"/>
@@ -3056,7 +3056,7 @@ As listas podem já conter expressões regulares para vários idiomas.</translat
     <message>
         <location filename="../prefgeneral.cpp" line="608"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Aqui pode introduzir o idioma preferido para a pista de áudio. Quando um vídeo com múltiplas pistas de áudio é encontrado, smplayer tentará usar o seu idioma preferido.&lt;br&gt;Isto só será possível com vídeos que ofereçam informação acerca do idioma das pistas de áudio, tal como DVDs ou ficheiros mkv.&lt;br&gt;Este campo aceita expressões regulares. Exemplo: &lt;b&gt;es|esp|spa&lt;/b&gt; seleccionará a pista de áudio se coincide com &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Aqui pode introduzir o idioma preferido para a faixa de áudio. Quando um vídeo com múltiplas faixas de áudio é encontrado, smplayer tentará usar o seu idioma preferido.&lt;br&gt;Isto só será possível com vídeos que ofereçam informação acerca do idioma das faixas de áudio, tal como DVDs ou ficheiros mkv.&lt;br&gt;Este campo aceita expressões regulares. Exemplo: &lt;b&gt;es|esp|spa&lt;/b&gt; seleccionará a pista de áudio se coincide com &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="610"/>
@@ -3071,7 +3071,7 @@ As listas podem já conter expressões regulares para vários idiomas.</translat
     <message>
         <location filename="../prefgeneral.cpp" line="511"/>
         <source>Software video equalizer</source>
-        <translation>Equalizador vídeo por software</translation>
+        <translation>Equalizador de vídeo por software</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="515"/>
@@ -3171,7 +3171,7 @@ As listas podem já conter expressões regulares para vários idiomas.</translat
     <message>
         <location filename="../prefgeneral.ui" line="221"/>
         <source>&amp;Remember settings for all files (audio track, subtitles...)</source>
-        <translation>Lemb&amp;rar as opções para todos os ficheiros (pista de áudio, legendas...)</translation>
+        <translation>Lemb&amp;rar as opções para todos os ficheiros (faixa de áudio, legendas...)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="827"/>
@@ -3411,7 +3411,7 @@ As listas podem já conter expressões regulares para vários idiomas.</translat
     <message>
         <location filename="../prefgeneral.cpp" line="99"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Aquipode digitar o idioma preferencial para streams áudio e legendas. Quando uma media com múltiplas legendas ou streams de áudio forem encontradas, SMPlayer tentará usar o seu idioma preferido. Apenas funciona com media que ofereçam informação sobre os idiomas ou legendas, como por exemplo DVDs ou ficheiros mkv.&lt;br&gt;Estes ficheiros aceitam expressões regulares. Exemplo: &lt;b&gt;es|esp|spa&lt;/b&gt; seleccionará as faixas que coincidam com &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Aqui pode digitar o idioma preferencial para streams áudio e legendas. Quando um ficheiro com múltiplas legendas ou streams de áudio forem encontradas, SMPlayer tentará usar o seu idioma preferido. Apenas funciona com ficheiros que ofereçam informação sobre os idiomas ou legendas, como por exemplo DVDs ou MKVs.&lt;br&gt;Estes ficheiros aceitam expressões regulares. Exemplo: &lt;b&gt;es|esp|spa&lt;/b&gt; seleccionará as faixas que coincidam com &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="753"/>
@@ -3458,7 +3458,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="274"/>
         <source>Use s&amp;oftware video equalizer</source>
-        <translation>Utilizar equalizador víde&amp;o por software</translation>
+        <translation>Utilizar equalizador de víde&amp;o por software</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="415"/>
@@ -3536,7 +3536,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="138"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Aqui pode alterar os atalhos de teclado. Para tal faça duplo clique ou começe a escrever sobre um atalho. Opcionalmente também pode guardar a lista para partilhá-la com outras pessoas ou utilizá-la noutro computador.</translation>
+        <translation>Aqui pode alterar os atalhos de teclado. Para tal, faça duplo clique ou começe a escrever sobre um atalho. Opcionalmente também pode guardar a lista para partilhá-la com outras pessoas ou utilizá-la noutro computador.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="95"/>
@@ -3571,7 +3571,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="67"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Aqui pode alterar qualquer tecla de atalho. Para tal, faça duplo clique ou pressione enter em cima da célula. Opcionalmente pode guardar esta lista e partilha-la com outros utilizadores ou carregá-la noutro computador.</translation>
+        <translation>Aqui pode alterar qualquer tecla de atalho. Para tal, faça duplo clique ou pressione enter em cima da célula. Opcionalmente pode guardar esta lista e partilhá-la com outros utilizadores ou carregá-la noutro computador.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="289"/>
@@ -4337,7 +4337,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="401"/>
         <source>Setting a cache may improve performance on slow media</source>
-        <translation>Utilizar uma cache pode melhorar o desempenho em vídeos lentos</translation>
+        <translation>Definir uma cache pode melhorar o desempenho em vídeos lentos</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="224"/>
@@ -4367,7 +4367,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="251"/>
         <source>Fast audio track switching</source>
-        <translation>Mudança rápida da pista de áudio</translation>
+        <translation>Mudança rápida da faixa de áudio</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="261"/>
@@ -4392,17 +4392,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="225"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
-        <translation>Saltar alguns fotogramas para manter a sincronização A/V em sistemas lentos.</translation>
+        <translation>Saltar alguns frames para manter a sincronização A/V em sistemas lentos.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="227"/>
         <source>Allow hard frame drop</source>
-        <translation>Permitir saltar fotogramas abruptamente</translation>
+        <translation>Permitir saltar frames abruptamente</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="229"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
-        <translation>Perda de fotogramas mais intensa (quebra a descodificação). Leva à distorção da imagem!</translation>
+        <translation>Perda de frames mais intensa (quebra a descodificação). Leva à distorção da imagem!</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="249"/>
@@ -4417,12 +4417,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="139"/>
         <source>&amp;Allow frame drop</source>
-        <translation>Permitir s&amp;altar fotogramas</translation>
+        <translation>Permitir s&amp;altar frames</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="146"/>
         <source>Allow &amp;hard frame drop (can lead to image distortion)</source>
-        <translation>Permitir saltar fotogramas a&amp;bruptamente (pode levar a distorção da imagem)</translation>
+        <translation>Permitir saltar frames a&amp;bruptamente (pode levar a distorção da imagem)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="206"/>
@@ -4437,7 +4437,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="282"/>
         <source>&amp;Fast audio track switching</source>
-        <translation>Mudança r&amp;ápida da pista de áudio</translation>
+        <translation>Mudança r&amp;ápida da faixa de áudio</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="310"/>
@@ -4740,7 +4740,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="572"/>
         <source>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</source>
-        <translation>A nova bliblioteca SSA/ASS vai disponibilizar legendas mais vistosas para ficheiros SSA/ASS e pistas Matroska. Também será utilizada para mostrar legendas em outros formatos, como ficheiros SUB e SRT.</translation>
+        <translation>A nova biblioteca SSA/ASS vai disponibilizar legendas mais vistosas para ficheiros SSA/ASS e faixas Matroska. Também será utilizada para mostrar legendas em outros formatos, como SUB e SRT.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="334"/>
