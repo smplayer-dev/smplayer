@@ -36,21 +36,13 @@ class QWidget;
 class QLabel;
 class QKeyEvent;
 
-#if USE_GL_WIDGET
-#include <QGLWidget>
-#define SC_WIDGET QGLWidget
-#else
-#define SC_WIDGET QWidget
-#endif
-
-
 #define ZOOM_STEP 0.05
 #define ZOOM_MIN 0.5
 
 
 //! Screen is a widget that hides the mouse cursor after some seconds if not moved.
 
-class Screen : public SC_WIDGET
+class Screen : public QWidget
 {
 	Q_OBJECT
 
