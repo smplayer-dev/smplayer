@@ -22,6 +22,7 @@
 #include <QString>
 #include "myprocess.h"
 #include "mediadata.h"
+#include "config.h"
 
 class QStringList;
 
@@ -80,6 +81,11 @@ private:
 	int last_sub_id;
 
 	int mplayer_svn;
+
+#if NOTIFY_AUDIO_SUB_CHANGES
+	bool audio_tracks_changed;
+	bool subtitle_tracks_changed;
+#endif
 };
 
 

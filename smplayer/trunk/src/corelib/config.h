@@ -72,4 +72,10 @@
 #define USE_COLORKEY 1
 
 
+// NOTIFY_AUDIO_SUB_CHANGES
+// if set to 1, mplayerprocess will notify changes in the audio and
+// subtitle tracks that happen during playback.
+
+#define NOTIFY_AUDIO_SUB_CHANGES 0
+
 #endif
