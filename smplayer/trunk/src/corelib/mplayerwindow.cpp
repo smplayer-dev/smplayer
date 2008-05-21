@@ -33,12 +33,7 @@
 #include <QPixmap>
 #include <QPainter>
 
-Screen::Screen(QWidget* parent, Qt::WindowFlags f) 
-#if USE_GL_WIDGET
-	: QGLWidget(parent, 0, f ) 
-#else
-	: QWidget(parent, f ) 
-#endif
+Screen::Screen(QWidget* parent, Qt::WindowFlags f) : QWidget(parent, f ) 
 {
 	setMouseTracking(TRUE);
 	setFocusPolicy( Qt::NoFocus );
