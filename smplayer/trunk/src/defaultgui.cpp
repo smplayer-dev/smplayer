@@ -596,8 +596,8 @@ void DefaultGui::loadConfig() {
 		int height = set->value( "height", this->height() ).toInt();
 
 		if ( (height < 200) && (!pref->use_mplayer_window) ) {
-			width = 580;
-			height = 440;
+			width = 590;
+			height = 450;
 		}
 
 		move(x,y);
