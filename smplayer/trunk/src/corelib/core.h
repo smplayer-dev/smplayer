@@ -92,6 +92,9 @@ public slots:
 	//! Public restart, for the GUI.
 	void restart();
 
+	//! Reopens the file (no restart)
+	void reload();
+
     void goToPos( int perc );
     void goToSec( double sec );
 

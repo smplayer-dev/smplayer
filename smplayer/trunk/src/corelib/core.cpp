@@ -203,6 +203,15 @@ void Core::restart() {
 	}
 }
 
+void Core::reload() {
+	qDebug("Core::reload");
+
+	stopMplayer();
+	we_are_restarting = false;
+
+	initPlaying();
+}
+
 #ifndef NO_USE_INI_FILES
 bool Core::checkHaveSettingsSaved(QString group_name) {
 	qDebug("Core::checkHaveSettingsSaved: group_name: '%s'", group_name.toUtf8().data());

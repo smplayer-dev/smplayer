@@ -1,5 +1,9 @@
 [b]Version 0.6.1[/b]:
 
+(2008-05-22)
+ * Fix: changing the demuxer should not lose the audio or subtitles (but
+   the selected tracks after restart may be different).
+
 (2008-05-19)
  * Fix: zoom didn't work well with directx.
  * Added the Catalan translation, by Roger Calvó <rcalvoi@yahoo.com>.
