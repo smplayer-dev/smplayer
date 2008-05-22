@@ -2727,7 +2727,9 @@ void BaseGui::loadAudioFile() {
 }
 
 void BaseGui::helpFAQ() {
-	QDesktopServices::openUrl( Helper::doc("faq.html", pref->language) );
+	QUrl url = QUrl::fromLocalFile(Helper::doc("faq.html", pref->language));
+	qDebug("BaseGui::helpFAQ: file to open %s", url.toString().toUtf8().data());
+	QDesktopServices::openUrl( url );
 }
 
 void BaseGui::helpCLOptions() {
