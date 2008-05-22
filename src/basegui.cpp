@@ -1979,14 +1979,24 @@ void BaseGui::applyFileProperties() {
 	qDebug("BaseGui::applyFileProperties");
 
 	bool need_restart = false;
+	bool demuxer_changed = false;
 
 #undef TEST_AND_SET
 #define TEST_AND_SET( Pref, Dialog ) \
 	if ( Pref != Dialog ) { Pref = Dialog; need_restart = TRUE; }
 
+	QString prev_demuxer = core->mset.forced_demuxer;
+
 	QString demuxer = file_dialog->demuxer();
 	if (demuxer == core->mset.original_demuxer) demuxer="";
 	TEST_AND_SET(core->mset.forced_demuxer, demuxer);
+
+	if (prev_demuxer != core->mset.forced_demuxer) {
+		// Demuxer changed
+		demuxer_changed = true;
+		core->mset.current_audio_id = MediaSettings::NoneSelected;
+		core->mset.current_sub_id = MediaSettings::NoneSelected;
+	}
 
 	QString ac = file_dialog->audioCodec();
 	if (ac == core->mset.original_audio_codec) ac="";
@@ -2002,7 +2012,11 @@ void BaseGui::applyFileProperties() {
 
 	// Restart the video to apply
 	if (need_restart) {
-		core->restart();
+		if (demuxer_changed) {
+			core->reload();
+		} else {
+			core->restart();
+		}
 	}
 }
 
