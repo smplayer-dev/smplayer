@@ -156,7 +156,7 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 
 	setAcceptDrops(true);
 
-	resize(590, 450);
+	resize(580, 440);
 
 	panel->setFocus();
 
@@ -3323,7 +3323,7 @@ void BaseGui::hidePanel() {
 
 		//resizeWindow( size().width(), 0 );
 		int width = size().width();
-		if (width > 590) width = 590;
+		if (width > 580) width = 580;
 		resize( width, size().height() - panel->size().height() );
 		panel->hide();
 
