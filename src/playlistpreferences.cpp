@@ -67,7 +67,7 @@ bool PlaylistPreferences::savePlaylistOnExit() {
 }
 
 QSize PlaylistPreferences::sizeHint () const {
-	return QSize(590,200);
+	return QSize(580,200);
 }
 
 #include "moc_playlistpreferences.cpp"
