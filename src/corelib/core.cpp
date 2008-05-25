@@ -1151,7 +1151,11 @@ void Core::startMplayer( QString file, double seek ) {
 	} else {
 		proc->addArgument("-vo");
 #ifdef Q_OS_WIN
-		proc->addArgument("directx,");
+		if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA) {
+			proc->addArgument("gl,");
+		} else {
+			proc->addArgument("directx,");
+		}
 #else
 		proc->addArgument("xv,");
 #endif

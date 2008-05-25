@@ -3,6 +3,8 @@
 (2008-05-24)
  * Added "gl:yuv=2:force-pbo:ati-hack" to the list of video drivers. This
    seems to be very fast. Requires mplayer svn r26853 (from 2008-05-22).
+ * Now the video driver by default on Windows Vista is gl, instead of
+   directx. (Untested)
 
 (2008-05-22)
  * Fix: changing the demuxer should not lose the audio or subtitles (but
