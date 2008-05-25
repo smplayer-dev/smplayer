@@ -1,5 +1,9 @@
 [b]Version 0.6.1[/b]:
 
+(2008-05-24)
+ * Added "gl:yuv=2:force-pbo:ati-hack" to the list of video drivers. This
+   seems to be very fast. Requires mplayer svn r26853 (from 2008-05-22).
+
 (2008-05-22)
  * Fix: changing the demuxer should not lose the audio or subtitles (but
    the selected tracks after restart may be different).
