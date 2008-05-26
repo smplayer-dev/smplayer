@@ -7,7 +7,8 @@
    entering/exiting compact mode has been moved from defaultgui to
    baseguiplus. BTW, compact mode is broken if the playlist is embedded
    in the main window.
- * Maybe the compact mode with the the playlist embedded is fixed now.
+ * Maybe the compact mode with the playlist embedded in the main window 
+   is fixed now.
 
 (2008-05-24)
  * Added "gl:yuv=2:force-pbo:ati-hack" to the list of video drivers. This
