@@ -230,8 +230,6 @@ void BaseGui::remoteAddFiles(QStringList files) {
 }
 
 BaseGui::~BaseGui() {
-	hide();
-
 	delete core; // delete before mplayerwindow, otherwise, segfault...
 	delete mplayer_log_window;
 	delete smplayer_log_window;
