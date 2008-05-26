@@ -39,11 +39,21 @@
 using namespace Global;
 
 BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags )
-	: BaseGui( parent, flags ),
-		mainwindow_visible(true),
-		//infowindow_visible(false),
-		trayicon_playlist_was_visible(false)
+	: BaseGui( parent, flags )
 {
+	// Initialize variables
+	mainwindow_visible = true;
+	//infowindow_visible = false;
+	trayicon_playlist_was_visible = false;
+	widgets_size = 0;
+#if DOCK_PLAYLIST
+	fullscreen_playlist_was_visible = false;
+	fullscreen_playlist_was_floating = false;
+	compact_playlist_was_visible = false;
+	ignore_playlist_events = false;
+#endif
+
+
 	mainwindow_pos = pos();
 
 	tray = new QSystemTrayIcon( Images::icon("logo", 22), this );
@@ -196,6 +206,15 @@ void BaseGuiPlus::saveConfig() {
 	set->setValue( "show_tray_icon", showTrayAct->isChecked() );
 	set->setValue( "mainwindow_visible", isVisible() );
 
+	set->setValue( "trayicon_playlist_was_visible", trayicon_playlist_was_visible );
+	set->setValue( "widgets_size", widgets_size );
+#if DOCK_PLAYLIST
+	set->setValue( "fullscreen_playlist_was_visible", fullscreen_playlist_was_visible );
+	set->setValue( "fullscreen_playlist_was_floating", fullscreen_playlist_was_floating );
+	set->setValue( "compact_playlist_was_visible", compact_playlist_was_visible );
+	set->setValue( "ignore_playlist_events", ignore_playlist_events );
+#endif
+
 /*
 #if DOCK_PLAYLIST
 	set->setValue( "playlist_and_toolbars_state", saveState() );
@@ -217,6 +236,15 @@ void BaseGuiPlus::loadConfig() {
 	//tray->setVisible( show_tray_icon );
 
 	mainwindow_visible = set->value("mainwindow_visible", true).toBool();
+
+	trayicon_playlist_was_visible = set->value( "trayicon_playlist_was_visible", trayicon_playlist_was_visible ).toBool();
+	widgets_size = set->value( "widgets_size", widgets_size ).toInt();
+#if DOCK_PLAYLIST
+	fullscreen_playlist_was_visible = set->value( "fullscreen_playlist_was_visible", fullscreen_playlist_was_visible ).toBool();
+	fullscreen_playlist_was_floating = set->value( "fullscreen_playlist_was_floating", fullscreen_playlist_was_floating ).toBool();
+	compact_playlist_was_visible = set->value( "compact_playlist_was_visible", compact_playlist_was_visible ).toBool();
+	ignore_playlist_events = set->value( "ignore_playlist_events", ignore_playlist_events ).toBool();
+#endif
 
 /*
 #if DOCK_PLAYLIST
@@ -361,6 +389,9 @@ void BaseGuiPlus::aboutToExitFullscreen() {
 }
 
 void BaseGuiPlus::aboutToEnterCompactMode() {
+    widgets_size = height() - panel->height();
+    qDebug("BaseGuiPlus::aboutToEnterCompactMode: widgets_size: %d", widgets_size);
+
 	BaseGui::aboutToEnterCompactMode();
 
 #if DOCK_PLAYLIST
@@ -369,10 +400,18 @@ void BaseGuiPlus::aboutToEnterCompactMode() {
 	if (compact_playlist_was_visible)
 		playlistdock->hide();
 #endif
+
+	if (pref->resize_method == Preferences::Always) {
+		resize( width(), height() - widgets_size );
+	}
 }
 
 void BaseGuiPlus::aboutToExitCompactMode() {
 	BaseGui::aboutToExitCompactMode();
+
+	if (pref->resize_method == Preferences::Always) {
+		resize( width(), height() + widgets_size );
+	}
 
 #if DOCK_PLAYLIST
 	if (compact_playlist_was_visible)

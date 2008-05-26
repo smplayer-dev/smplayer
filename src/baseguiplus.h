@@ -96,6 +96,8 @@ protected:
 	//QPoint infowindow_pos;
 	//bool infowindow_visible;
 
+   int widgets_size; // To be able to restore the original size after exiting from compact mode
+
 #if DOCK_PLAYLIST
     PlaylistDock * playlistdock;
 	bool fullscreen_playlist_was_visible;
