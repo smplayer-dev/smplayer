@@ -22,7 +22,7 @@
 #include "baseguiplus.h"
 #include "guiconfig.h"
 
-#define USE_VOLUME_BAR 0
+#define USE_VOLUME_BAR 1
 
 class TimeSliderAction;
 class VolumeSliderAction;
