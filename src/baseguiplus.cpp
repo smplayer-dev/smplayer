@@ -389,17 +389,17 @@ void BaseGuiPlus::aboutToExitFullscreen() {
 }
 
 void BaseGuiPlus::aboutToEnterCompactMode() {
-    widgets_size = height() - panel->height();
-    qDebug("BaseGuiPlus::aboutToEnterCompactMode: widgets_size: %d", widgets_size);
-
-	BaseGui::aboutToEnterCompactMode();
-
 #if DOCK_PLAYLIST
 	compact_playlist_was_visible = (playlistdock->isVisible() && 
                                     !playlistdock->isFloating());
 	if (compact_playlist_was_visible)
 		playlistdock->hide();
 #endif
+
+    widgets_size = height() - panel->height();
+    qDebug("BaseGuiPlus::aboutToEnterCompactMode: widgets_size: %d", widgets_size);
+
+	BaseGui::aboutToEnterCompactMode();
 
 	if (pref->resize_method == Preferences::Always) {
 		resize( width(), height() - widgets_size );
