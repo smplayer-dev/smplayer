@@ -1,5 +1,13 @@
 [b]Version 0.6.1[/b]:
 
+(2008-05-25)
+ * Some internal changes: baseguiplus saves some variables to the config
+   file so it can exit from compact mode properly even if made between
+   different sessions. Also the code to resize the main window when
+   entering/exiting compact mode has been moved from defaultgui to
+   baseguiplus. BTW, compact mode is broken if the playlist is embedded
+   in the main window.
+
 (2008-05-24)
  * Added "gl:yuv=2:force-pbo:ati-hack" to the list of video drivers. This
    seems to be very fast. Requires mplayer svn r26853 (from 2008-05-22).
