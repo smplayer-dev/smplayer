@@ -251,6 +251,8 @@ public:
     //! to play
 	bool use_edl_files;
 
+	QString gui; //!< The name of the GUI to use
+
 	// Initial values for some options
 	double initial_sub_scale;
 #if SCALE_ASS_SUBS

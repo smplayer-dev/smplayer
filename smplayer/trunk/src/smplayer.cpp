@@ -44,7 +44,7 @@ SMPlayer::SMPlayer(const QString & ini_path, QObject * parent )
 	: QObject(parent) 
 {
 	main_window = 0;
-	use_minigui = false;
+	gui_to_use = "DefaultGui";
 
     Helper::setAppPath( qApp->applicationDirPath() );
 
@@ -63,7 +63,7 @@ SMPlayer::~SMPlayer() {
 
 BaseGui * SMPlayer::gui() {
 	if (main_window == 0) {
-		if (use_minigui) 
+		if (gui_to_use.toLower() == "minigui") 
 			main_window = new MiniGui(0);
 		else
 			main_window = new DefaultGui(0);
@@ -88,7 +88,7 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 	int start_in_fullscreen = -1;
 	bool show_help = false;
 
-	use_minigui = false;
+	if (!pref->gui.isEmpty()) gui_to_use = pref->gui;
 	bool add_to_playlist = false;
 
 	bool is_playlist = false;
@@ -159,8 +159,12 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 			add_to_playlist = true;
 		}
 		else
-		if (argument == "-mini") {
-			use_minigui = true;
+		if (argument == "-mini" || argument == "-minigui") {
+			gui_to_use = "MiniGui";
+		}
+		else
+		if (argument == "-defaultgui") {
+			gui_to_use = "DefaultGui";
 		}
 		else {
 			// File

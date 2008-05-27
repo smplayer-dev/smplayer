@@ -47,7 +47,7 @@ private:
 
     QStringList files_to_play;
     QString actions_list; //!< Actions to be run on startup
-	bool use_minigui;
+	QString gui_to_use;
 };
 
 #endif

@@ -83,7 +83,7 @@ QString CLHelp::formatHelp(QString parameter, QString help, bool html) {
 QString CLHelp::help(bool html) {
 	QString app_name = QFileInfo(qApp->applicationFilePath()).baseName();
 
-	QString options = QString("%1 [-mini] [-ini-path %2] "
+	QString options = QString("%1 [-minigui] [-defaultgui] [-ini-path %2] "
                         "[-send-action %3] [-actions %4] "
                         "[-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] "
                         "[-add-to-playlist] [-help|--help|-h|-?] "
@@ -108,8 +108,11 @@ QString CLHelp::help(bool html) {
 	s += formatHelp( "-uninstall", QObject::tr(
 		"Restores the old associations and cleans up the registry."), html );
 #endif
-	s += formatHelp( "-mini", QObject::tr(
+	s += formatHelp( "-minigui", QObject::tr(
 		"opens the mini gui instead of the default one."), html );
+
+	s += formatHelp( "-defaultgui", QObject::tr(
+		"opens the default gui."), html );
 
 	s += formatHelp( "-ini-path", QObject::tr(
 		"specifies the directory for the configuration file "

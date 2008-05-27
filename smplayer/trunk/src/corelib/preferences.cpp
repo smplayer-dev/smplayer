@@ -237,6 +237,8 @@ void Preferences::reset() {
 
 	use_edl_files = true;
 
+	gui = "DefaultGui";
+
 	vcd_initial_title = 2; // Most VCD's start at title #2
 
 	initial_sub_scale = 5;
@@ -451,6 +453,8 @@ void Preferences::save() {
 	set->setValue("allow_video_movement", allow_video_movement);
 
 	set->setValue("use_edl_files", use_edl_files);
+
+	set->setValue("gui", gui);
 
     //mplayer log autosaving
     set->setValue("autosave_mplayer_log", autosave_mplayer_log);
@@ -677,6 +681,8 @@ void Preferences::load() {
 	allow_video_movement = set->value("allow_video_movement", allow_video_movement).toBool();
 
 	use_edl_files = set->value("use_edl_files", use_edl_files).toBool();
+
+	gui = set->value("gui", gui).toString();
 
     //mplayer log autosaving
     autosave_mplayer_log = set->value("autosave_mplayer_log", autosave_mplayer_log).toBool();
