@@ -3920,32 +3920,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="178"/>
         <source>Default GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>GUI predeterminado</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="179"/>
         <source>Mini GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>GUI Mini</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="463"/>
         <source>GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="471"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option will take effect the next time you run SMPlayer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecciona el GUI que prefieras para el programa. Actualmente hay dos disponibles: el GUI predeterminado y el GUI mini.&lt;br&gt;El &lt;b&gt;GUI predeterminado&lt;/b&gt; provee el GUI tradicional, con la barra de herramientas y la barra de control. El &lt;b&gt;GUI mini&lt;/b&gt; provee un GUI más simple, sin barra de herramientas y con una barra de control con muy pocos botones.&lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; esta opción no tomará efecto hasta que no ejecutes SMPlayer otra vez.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="310"/>
         <source>&amp;GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="323"/>
         <source>(this option requires to restart SMPlayer)</source>
-        <translation type="unfinished"></translation>
+        <translation>(esta opción require reiniciar SMPlayer)</translation>
     </message>
 </context>
 <context>
@@ -4727,7 +4727,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="115"/>
         <source>opens the default gui.</source>
-        <translation type="unfinished"></translation>
+        <translation>abre el gui predeterminado.</translation>
     </message>
 </context>
 <context>
