@@ -536,7 +536,7 @@ Do you want to overwrite?</source>
         <translation>가로세로비(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2090"/>
+        <location filename="../basegui.cpp" line="2104"/>
         <source>&amp;None</source>
         <translation>없음(&amp;N)</translation>
     </message>
@@ -781,74 +781,74 @@ Do you want to overwrite?</source>
         <translation>&amp;SMPlayer에 대하여</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2205"/>
+        <location filename="../basegui.cpp" line="2219"/>
         <source>&lt;empty&gt;</source>
         <translation>(비어 있음)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2545"/>
+        <location filename="../basegui.cpp" line="2559"/>
         <source>Video</source>
         <translation>동영상 파일</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2723"/>
+        <location filename="../basegui.cpp" line="2737"/>
         <source>Audio</source>
         <translation>오디오 파일</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2547"/>
+        <location filename="../basegui.cpp" line="2561"/>
         <source>Playlists</source>
         <translation>재생 목록</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2724"/>
+        <location filename="../basegui.cpp" line="2738"/>
         <source>All files</source>
         <translation>모든 파일</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2721"/>
+        <location filename="../basegui.cpp" line="2735"/>
         <source>Choose a file</source>
         <translation>파일을 선택하십시요</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2595"/>
+        <location filename="../basegui.cpp" line="2609"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - 정보</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2598"/>
+        <location filename="../basegui.cpp" line="2612"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CD-ROM 및 DVD 드라이브가 지정되지 않았습니다.
 드라이브 설정을 위한 대화 상자가 표시될 것입니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2672"/>
+        <location filename="../basegui.cpp" line="2686"/>
         <source>Choose a directory</source>
         <translation>폴더 선택</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2708"/>
+        <location filename="../basegui.cpp" line="2722"/>
         <source>Subtitles</source>
         <translation>자막</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2748"/>
+        <location filename="../basegui.cpp" line="2764"/>
         <source>About Qt</source>
         <translation>Qt에 대하여</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3119"/>
+        <location filename="../basegui.cpp" line="3135"/>
         <source>Playing %1</source>
         <translation>%1 재생 중</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3120"/>
+        <location filename="../basegui.cpp" line="3136"/>
         <source>Pause</source>
         <translation>일시 정지</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3121"/>
+        <location filename="../basegui.cpp" line="3137"/>
         <source>Stop</source>
         <translation>정지됨</translation>
     </message>
@@ -1138,7 +1138,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2737"/>
+        <location filename="../basegui.cpp" line="2753"/>
         <source>SMPlayer command line options</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1158,32 +1158,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3536"/>
+        <location filename="../basegui.cpp" line="3552"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3537"/>
+        <location filename="../basegui.cpp" line="3553"/>
         <source>Exit code: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3547"/>
+        <location filename="../basegui.cpp" line="3563"/>
         <source>MPlayer failed to start.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3548"/>
+        <location filename="../basegui.cpp" line="3564"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3550"/>
+        <location filename="../basegui.cpp" line="3566"/>
         <source>MPlayer has crashed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3551"/>
+        <location filename="../basegui.cpp" line="3567"/>
         <source>See the log for more info.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1228,7 +1228,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2544"/>
+        <location filename="../basegui.cpp" line="2558"/>
         <source>Multimedia</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1236,32 +1236,32 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="152"/>
+        <location filename="../baseguiplus.cpp" line="162"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer가 실행 중입니다</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="173"/>
+        <location filename="../baseguiplus.cpp" line="183"/>
         <source>S&amp;how icon in system tray</source>
         <translation>시스템 트레이에 아이콘 보이기(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="184"/>
+        <location filename="../baseguiplus.cpp" line="194"/>
         <source>&amp;Hide</source>
         <translation>숨기기(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="186"/>
+        <location filename="../baseguiplus.cpp" line="196"/>
         <source>&amp;Restore</source>
         <translation>복원(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="172"/>
+        <location filename="../baseguiplus.cpp" line="182"/>
         <source>&amp;Quit</source>
         <translation>종료(&amp;Q)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="178"/>
+        <location filename="../baseguiplus.cpp" line="188"/>
         <source>Playlist</source>
         <translation>재생 목록</translation>
     </message>
@@ -1269,42 +1269,42 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../corelib/core.cpp" line="2034"/>
+        <location filename="../corelib/core.cpp" line="2047"/>
         <source>Brightness: %1</source>
         <translation>밝기: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2043"/>
+        <location filename="../corelib/core.cpp" line="2056"/>
         <source>Contrast: %1</source>
         <translation>대비: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2051"/>
+        <location filename="../corelib/core.cpp" line="2064"/>
         <source>Gamma: %1</source>
         <translation>감마: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2059"/>
+        <location filename="../corelib/core.cpp" line="2072"/>
         <source>Hue: %1</source>
         <translation>색조: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2067"/>
+        <location filename="../corelib/core.cpp" line="2080"/>
         <source>Saturation: %1</source>
         <translation>채도: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2186"/>
+        <location filename="../corelib/core.cpp" line="2199"/>
         <source>Volume: %1</source>
         <translation>음량: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2860"/>
+        <location filename="../corelib/core.cpp" line="2873"/>
         <source>Zoom: %1</source>
         <translation>배율: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2305"/>
+        <location filename="../corelib/core.cpp" line="2318"/>
         <source>Font scale: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1312,32 +1312,32 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="360"/>
+        <location filename="../defaultgui.cpp" line="359"/>
         <source>Welcome to SMPlayer</source>
         <translation>SMPlayer 사용자님, 환영합니다</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="383"/>
+        <location filename="../defaultgui.cpp" line="382"/>
         <source>Audio</source>
         <translation>오디오</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="384"/>
+        <location filename="../defaultgui.cpp" line="383"/>
         <source>Subtitle</source>
         <translation>자막</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="377"/>
+        <location filename="../defaultgui.cpp" line="376"/>
         <source>&amp;Main toolbar</source>
         <translation>기본 도구 모음(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="380"/>
+        <location filename="../defaultgui.cpp" line="379"/>
         <source>&amp;Language toolbar</source>
         <translation>언어 도구 모음(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="374"/>
+        <location filename="../defaultgui.cpp" line="373"/>
         <source>&amp;Toolbars</source>
         <translation>도구 모음(&amp;T)</translation>
     </message>
@@ -2594,7 +2594,7 @@ The drop-down lists may provide already made regular expression for several lang
 <context>
     <name>PrefGeneral</name>
     <message>
-        <location filename="../prefgeneral.cpp" line="469"/>
+        <location filename="../prefgeneral.cpp" line="472"/>
         <source>General</source>
         <translation>일반</translation>
     </message>
@@ -2619,22 +2619,22 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>미디어 설정</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="508"/>
+        <location filename="../prefgeneral.cpp" line="511"/>
         <source>Video</source>
         <translation type="unfinished">영상</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="539"/>
+        <location filename="../prefgeneral.cpp" line="542"/>
         <source>Start videos in fullscreen</source>
         <translation>전체 화면에서 동영상 시작</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="543"/>
+        <location filename="../prefgeneral.cpp" line="546"/>
         <source>Disable screensaver</source>
         <translation>화면 보호기 비활성화</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="548"/>
+        <location filename="../prefgeneral.cpp" line="551"/>
         <source>Audio</source>
         <translation type="unfinished">오디오</translation>
     </message>
@@ -2659,132 +2659,132 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>폴더 선택</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="471"/>
+        <location filename="../prefgeneral.cpp" line="474"/>
         <source>MPlayer executable</source>
         <translation>MPlayer 실행 파일</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="476"/>
+        <location filename="../prefgeneral.cpp" line="479"/>
         <source>Here you must specify the mplayer executable that smplayer will use.&lt;br&gt;smplayer requires at least mplayer 1.0rc1 (svn recommended).&lt;br&gt;&lt;b&gt;If this setting is wrong, smplayer won&apos;t be able to play anything!&lt;/b&gt;</source>
         <translation>SMPlayer가 사용할 MPlayer 실행 파일을 지정해야 합니다.&lt;br&gt;SMPlayer는 최소 MPlayer 버전 1.0rc1을 요구합니다 (svn 권장).&lt;br&gt;&lt;b&gt;만약 이 설정이 잘못되면, SMPlayer는 어떤 파일도 재생할 수 없게 됩니다.&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="478"/>
+        <location filename="../prefgeneral.cpp" line="481"/>
         <source>Screenshots folder</source>
         <translation>스크린샷 폴더</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="481"/>
+        <location filename="../prefgeneral.cpp" line="484"/>
         <source>Here you can specify a folder where the screenshots taken by smplayer will be stored. If this field is empty the screenshot feature will be disabled.</source>
         <translation>이 칸에서 SMPlayer에서 찍은 스크린샷이 저장될 폴더를 지정할 수 있습니다. 만약 이 폴더가 지정되지 않으면, 스크린샷 기능을 사용할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="483"/>
+        <location filename="../prefgeneral.cpp" line="486"/>
         <source>Video output driver</source>
         <translation>영상 출력 드라이버</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="485"/>
+        <location filename="../prefgeneral.cpp" line="488"/>
         <source>Select the video output driver. Usually xv (linux) and directx (windows) provide the best performance.</source>
         <translation>영상 출력 드라이버를 선택하십시요. 보통 리눅스에서는 xv, 윈도우에서는 directx가 성능이 가장 좋습니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="487"/>
+        <location filename="../prefgeneral.cpp" line="490"/>
         <source>Audio output driver</source>
         <translation>오디오 출력 드라이버</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="488"/>
+        <location filename="../prefgeneral.cpp" line="491"/>
         <source>Select the audio output driver.</source>
         <translation>오디오 출력 드라이버를 선택하십시요.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="490"/>
+        <location filename="../prefgeneral.cpp" line="493"/>
         <source>Remember settings</source>
         <translation>설정 기억하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="493"/>
+        <location filename="../prefgeneral.cpp" line="496"/>
         <source>Usually smplayer will remember the settings for each file you play (audio track selected, volume, filters...). Uncheck this option if you don&apos;t like this feature.</source>
         <translation>보통 SMPlayer는 재생된 모든 파일에 대한 설정(선택된 오디오 트랙, 음량, 필터 등)을 기억합니다. 이 기능이 필요하지 않으면 선택을 해제하십시요.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="495"/>
+        <location filename="../prefgeneral.cpp" line="498"/>
         <source>Don&apos;t remember time position</source>
         <translation>시간 지점 기억하지 않기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="497"/>
+        <location filename="../prefgeneral.cpp" line="500"/>
         <source>If you check this option, smplayer will play all files from the beginning.</source>
         <translation>이 옵션을 선택하면, SMPlayer는 모든 파일을 처음부터 재생합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="600"/>
+        <location filename="../prefgeneral.cpp" line="603"/>
         <source>Preferred audio language</source>
         <translation>사용할 오디오 언어</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="608"/>
+        <location filename="../prefgeneral.cpp" line="611"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>오디오 스트림에 사용할 언어를 지정할 수 있습니다. 만약 사용할 수 있는 오디오 스트림이 여러 개인 경우, SMPlayer는 여기서 지정된 언어를 사용하려고 시도합니다.&lt;br&gt;이 옵션은 DVD나 mkv 파일과 같이 오디오 스트림의 언어에 대한 정보가 주어지는 미디어 파일에 대해서만 적용됩니다.&lt;br&gt;이 칸에는 정규 표현식을 입력할 수 있습니다. 예를 들어, &lt;b&gt;ko|kr|kor&lt;/b&gt;은 &lt;i&gt;ko&lt;/i&gt;, &lt;i&gt;kr&lt;/i&gt; 및 &lt;i&gt;kor&lt;/i&gt;에 대응되는 오디오 트랙을 선택하게 합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="610"/>
+        <location filename="../prefgeneral.cpp" line="613"/>
         <source>Preferred subtitle language</source>
         <translation>사용할 자막 언어</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="618"/>
+        <location filename="../prefgeneral.cpp" line="621"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>자막 스트림에 사용할 언어를 지정할 수 있습니다. 만약 사용할 수 있는 자막 스트림이 여러 개인 경우, SMPlayer는 여기서 지정된 언어를 사용하려고 시도합니다.&lt;br&gt;이 옵션은 자막 스트림의 언어에 대한 정보가 주어지는 미디어 파일에 대해서만 적용됩니다.&lt;br&gt;이 칸에는 정규 표현식을 입력할 수 있습니다. 예를 들어, &lt;b&gt;ko|kr|kor&lt;/b&gt;은 &lt;i&gt;ko&lt;/i&gt;, &lt;i&gt;kr&lt;/i&gt; 및 &lt;i&gt;kor&lt;/i&gt;에 대응되는 자막을 선택하게 합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="511"/>
+        <location filename="../prefgeneral.cpp" line="514"/>
         <source>Software video equalizer</source>
         <translation>소프트웨어 영상 이퀄라이저</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="515"/>
+        <location filename="../prefgeneral.cpp" line="518"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>만약 그래픽 카드나 영상 출력 드라이버에 의해 영상 이퀄라이저가 지원되지 않는 경우, 이 옵션을 선택할 수 있습니다.&lt;br&gt;&lt;b&gt;주의:&lt;/b&gt; 이 옵션은 일부 영상 출력 드라이버와는 호환되지 않을 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="541"/>
+        <location filename="../prefgeneral.cpp" line="544"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>만약 이 옵션이 선택되면, 모든 동영상은 전체 화면에서 재생이 시작될 것입니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="546"/>
+        <location filename="../prefgeneral.cpp" line="549"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option works only in X11 and Windows.</source>
         <translation>이 옵션을 선택하면 재생하는 중에 화면 보호기가 비활성화됩니다.&lt;br&gt;재생이 끝나면 화면 보호기는 다시 활성화됩니다.&lt;br&gt;&lt;b&gt;주의:&lt;/b&gt; 이 옵션은 X11 및 윈도우 환경에서만 동작합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="550"/>
+        <location filename="../prefgeneral.cpp" line="553"/>
         <source>Software volume control</source>
         <translation>소프트웨어 음량 조절</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="552"/>
+        <location filename="../prefgeneral.cpp" line="555"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>이 옵션을 선택하면 사운드 카드의 믹서 대신 소프트웨어 믹서를 사용합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="520"/>
+        <location filename="../prefgeneral.cpp" line="523"/>
         <source>Postprocessing quality</source>
         <translation>후처리 품질</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="523"/>
+        <location filename="../prefgeneral.cpp" line="526"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>사용할 수 있는 CPU 시간을 고려하여 후처리의 품질을 동적으로 결정합니다. 여기에 입력하는 숫자는 최대 품질이 될 것입니다. 실제 품질은 동적으로 결정되므로, 조금 큰 수를 설정해도 좋습니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="567"/>
+        <location filename="../prefgeneral.cpp" line="570"/>
         <source>Change volume</source>
         <translation>음량 바꾸기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="570"/>
+        <location filename="../prefgeneral.cpp" line="573"/>
         <source>If checked, SMPlayer will remember the volume for every file and will restore it when played again. For new files the default volume will be used.</source>
         <translation>이 옵션을 선택하면, SMPlayer는 모든 파일에 사용된 음량을 기억하고 다시 재생될 때 그 음량을 사용합니다. 새로운 파일에 대해서는 기본 음량이 사용됩니다.</translation>
     </message>
@@ -2869,17 +2869,17 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>S/PDIF 통과 &amp;AC3/DTS</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="529"/>
+        <location filename="../prefgeneral.cpp" line="532"/>
         <source>Direct rendering</source>
         <translation>직접 렌더링</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="532"/>
+        <location filename="../prefgeneral.cpp" line="535"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>만약 선택하면, 직접 렌더링 기능을 사용합니다. (모든 코덱과 영상 출력 드라이버가 지원하지는 않음)&lt;br&gt;&lt;b&gt;경고:&lt;/b&gt; OSD 및 자막 오류를 일으킬 수 있습니다!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="534"/>
+        <location filename="../prefgeneral.cpp" line="537"/>
         <source>Double buffering</source>
         <translation>더블 버퍼링</translation>
     </message>
@@ -2894,7 +2894,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>더블 버퍼링(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="537"/>
+        <location filename="../prefgeneral.cpp" line="540"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>더블 버퍼링은 메모리 상에 프레임 2개를 저장하고 하나를 디코드하는 동안 하나를 표시함으로써 깜빡임을 해소합니다. 만약 비활성화되면 OSD에 좋지 않은 영향을 끼칠 수 있지만, OSD 깜빡임을 해소합니다.</translation>
     </message>
@@ -2909,12 +2909,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>기본으로 음량 노멀라이즈(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="499"/>
+        <location filename="../prefgeneral.cpp" line="502"/>
         <source>Close when finished</source>
         <translation>재생이 끝나면 닫기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="501"/>
+        <location filename="../prefgeneral.cpp" line="504"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>이 옵션이 선택되면, 현재 파일이나 재생 목록이 끝날 때 창이 자동으로 닫힙니다.</translation>
     </message>
@@ -2949,92 +2949,92 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>최소화할 때 일시 정지(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="503"/>
+        <location filename="../prefgeneral.cpp" line="506"/>
         <source>Pause when minimized</source>
         <translation>최소화할 때 일시 정지</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="506"/>
+        <location filename="../prefgeneral.cpp" line="509"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, play will be resumed.</source>
         <translation>이 옵션이 선택되면, 파일은 창이 보이지 않게 될 때 일시 정지됩니다. 창이 원래 크기로 복원되면, 파일은 다시 재생이 시작됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="517"/>
+        <location filename="../prefgeneral.cpp" line="520"/>
         <source>Enable postprocessing by default</source>
         <translation>후처리 기본으로 활성화</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="554"/>
+        <location filename="../prefgeneral.cpp" line="557"/>
         <source>Max. Amplification</source>
         <translation>최대 음량 확대</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="561"/>
+        <location filename="../prefgeneral.cpp" line="564"/>
         <source>AC3/DTS pass-through S/PDIF</source>
         <translation>S/PDIF 통과 AC3/DTS</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="564"/>
+        <location filename="../prefgeneral.cpp" line="567"/>
         <source>Volume normalization by default</source>
         <translation>기본으로 음량 노멀라이즈</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="565"/>
+        <location filename="../prefgeneral.cpp" line="568"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>소리에 왜곡 없이 음량을 최대화합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="572"/>
+        <location filename="../prefgeneral.cpp" line="575"/>
         <source>Default volume</source>
         <translation>기본 음량</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="573"/>
+        <location filename="../prefgeneral.cpp" line="576"/>
         <source>Sets the initial volume that new files will use.</source>
         <translation>새로운 파일이 기본값으로 사용할 초기 음량을 설정합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="583"/>
+        <location filename="../prefgeneral.cpp" line="586"/>
         <source>Channels by default</source>
         <translation>기본 채널 수</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="559"/>
+        <location filename="../prefgeneral.cpp" line="562"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>백분율 단위로 최대 음량을 설정하십시요 (기본값: 110). 200을 입력하면 음량을 최대 현재의 2배까지로 조정할 수 있게 해 줍니다. 100 미만의 값은 초기 음량(=100%)이 최대값을 초과하도록 하므로, OSD가 제대로 표시할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="562"/>
+        <location filename="../prefgeneral.cpp" line="565"/>
         <source>Uses hardware AC3 passthrough</source>
         <translation>하드웨어 AC3 통과 사용</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="592"/>
+        <location filename="../prefgeneral.cpp" line="595"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. NOTE: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation>최대 재생 채널의 개수입니다. MPlayer는 디코더에 오디오를 여기서 지정된 채널 수로 디코드하라고 요청합니다. 그 이후의 과정은 디코더에 달려 있습니다. 이 옵션은 AC3 오디오를 지닌 동영상(예를 들어 DVD)에서만 중요합니다. 그러한 경우 liba52가 기본적으로 디코딩을 수행하여 오디오를 요청된 채널 수대로 하향 믹스합니다. 주의: 이 옵션은 AC3 코덱과 필터(서라운드) 및 오디오 출력 드라이버(최소 OSS)에 의해서만 존중됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="518"/>
+        <location filename="../prefgeneral.cpp" line="521"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>후처리는 새로 열린 파일에 대해 기본적으로 사용됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="620"/>
+        <location filename="../prefgeneral.cpp" line="623"/>
         <source>Audio track</source>
         <translation>오디오 트랙</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="624"/>
+        <location filename="../prefgeneral.cpp" line="627"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>새로운 파일을 재생할 때 사용될 기본 오디오 트랙을 지정합니다. 만약 해당하는 트랙이 존재하지 않으면, 첫 트랙이 사용될 것입니다.&lt;br&gt;&lt;b&gt;주의:&lt;/b&gt; &quot;사용할 오디오 언어&quot; 옵션이 이 옵션보다 우선적으로 적용됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="626"/>
+        <location filename="../prefgeneral.cpp" line="629"/>
         <source>Subtitle track</source>
         <translation>자막 트랙</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="630"/>
+        <location filename="../prefgeneral.cpp" line="633"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>새로운 파일을 재생할 때 사용될 기본 자막 트랙을 지정합니다. 만약 해당하는 트랙이 존재하지 않으면, 첫 트랙이 사용될 것입니다.&lt;br&gt;&lt;b&gt;주의:&lt;/b&gt; &quot;사용할 자막 언어&quot; 옵션이 이 옵션보다 우선적으로 적용됩니다.</translation>
     </message>
@@ -3080,22 +3080,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>음조를 변경하지 않고 고속 재생(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="594"/>
+        <location filename="../prefgeneral.cpp" line="597"/>
         <source>High speed playback without altering pitch</source>
         <translation>음조를 변경하지 않고 고속 재생</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="596"/>
+        <location filename="../prefgeneral.cpp" line="599"/>
         <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
         <translation>재생 속도를 음조의 변경 없이 바꿀 수 있도록 합니다. 최소 MPlayer dev-SVN-r24924 버전을 필요로 합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="575"/>
+        <location filename="../prefgeneral.cpp" line="578"/>
         <source>Change volume just before playing</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="581"/>
+        <location filename="../prefgeneral.cpp" line="584"/>
         <source>If this option is checked the initial volume will be set by using the &lt;i&gt;-volume&lt;/i&gt; option in MPlayer.&lt;br&gt; &lt;b&gt;WARNING: THE OFFICIAL MPLAYER DOESN&apos;T HAVE THAT &lt;i&gt;-volume&lt;/i&gt; OPTION, YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON&apos;T PLAY ANYTHING.&lt;/b&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3125,7 +3125,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="598"/>
+        <location filename="../prefgeneral.cpp" line="601"/>
         <source>Preferred audio and subtitles</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3165,12 +3165,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="525"/>
+        <location filename="../prefgeneral.cpp" line="528"/>
         <source>Deinterlace by default</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="527"/>
+        <location filename="../prefgeneral.cpp" line="530"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3471,7 +3471,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefInterface</name>
     <message>
-        <location filename="../prefinterface.cpp" line="419"/>
+        <location filename="../prefinterface.cpp" line="439"/>
         <source>Interface</source>
         <translation>인터페이스</translation>
     </message>
@@ -3616,7 +3616,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>인터페이스(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="446"/>
+        <location filename="../prefinterface.cpp" line="476"/>
         <source>Seeking</source>
         <translation type="unfinished">지점 이동</translation>
     </message>
@@ -3641,17 +3641,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>최근에 재생한 파일</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="434"/>
+        <location filename="../prefinterface.cpp" line="454"/>
         <source>Language</source>
         <translation>언어</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="435"/>
+        <location filename="../prefinterface.cpp" line="455"/>
         <source>Here you can change the language of the application.</source>
         <translation>프로그램에서 사용하는 언어를 변경할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="467"/>
+        <location filename="../prefinterface.cpp" line="497"/>
         <source>Instances</source>
         <translation type="unfinished">인스턴스</translation>
     </message>
@@ -3691,12 +3691,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>마우스 휠로 건너뛰기(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="522"/>
+        <location filename="../prefinterface.ui" line="542"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
         <translation>SMPlayer에서 인스턴스 한 개만 사용(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="532"/>
+        <location filename="../prefinterface.ui" line="552"/>
         <source>SMPlayer will listen to this &amp;port to receive commands from other instances:</source>
         <translation>SMPlayer는 다른 인스턴스에서 오는 명령을 수신하기 위해 이 포트를 감시합니다(&amp;P):</translation>
     </message>
@@ -3706,17 +3706,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>최대 항목 수(&amp;X)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="209"/>
+        <location filename="../prefinterface.ui" line="259"/>
         <source>St&amp;yle:</source>
         <translation>스타일(&amp;Y):</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="248"/>
+        <location filename="../prefinterface.ui" line="209"/>
         <source>Ico&amp;n set:</source>
         <translation>아이콘 셋(&amp;N):</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="235"/>
+        <location filename="../prefinterface.ui" line="196"/>
         <source>L&amp;anguage:</source>
         <translation>언어(&amp;A):</translation>
     </message>
@@ -3736,12 +3736,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>창 위치 및 크기 기억(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="327"/>
+        <location filename="../prefinterface.ui" line="347"/>
         <source>Default font:</source>
         <translation>기본 글꼴:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="341"/>
+        <location filename="../prefinterface.ui" line="361"/>
         <source>&amp;Change...</source>
         <translation>변경(&amp;C)...</translation>
     </message>
@@ -3751,32 +3751,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="507"/>
+        <location filename="../prefinterface.ui" line="527"/>
         <source>TextLabel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="364"/>
+        <location filename="../prefinterface.ui" line="384"/>
         <source>&amp;Seeking</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="439"/>
+        <location filename="../prefinterface.ui" line="459"/>
         <source>&amp;Behaviour of time slider:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="458"/>
+        <location filename="../prefinterface.ui" line="478"/>
         <source>Seek to position while dragging</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="463"/>
+        <location filename="../prefinterface.ui" line="483"/>
         <source>Seek to position when released</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="487"/>
+        <location filename="../prefinterface.ui" line="507"/>
         <source>Ins&amp;tances</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3786,133 +3786,163 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="421"/>
+        <location filename="../prefinterface.cpp" line="441"/>
         <source>Autoresize</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="423"/>
+        <location filename="../prefinterface.cpp" line="443"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="425"/>
+        <location filename="../prefinterface.cpp" line="445"/>
         <source>Remember position and size</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="427"/>
+        <location filename="../prefinterface.cpp" line="447"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="432"/>
+        <location filename="../prefinterface.cpp" line="452"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="437"/>
+        <location filename="../prefinterface.cpp" line="457"/>
         <source>Icon set</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="438"/>
+        <location filename="../prefinterface.cpp" line="458"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="440"/>
+        <location filename="../prefinterface.cpp" line="460"/>
         <source>Style</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="441"/>
+        <location filename="../prefinterface.cpp" line="461"/>
         <source>Select the style you prefer for the application.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="443"/>
+        <location filename="../prefinterface.cpp" line="473"/>
         <source>Default font</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="444"/>
+        <location filename="../prefinterface.cpp" line="474"/>
         <source>You can change here the application&apos;s font.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="448"/>
+        <location filename="../prefinterface.cpp" line="478"/>
         <source>Short jump</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="458"/>
+        <location filename="../prefinterface.cpp" line="488"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="450"/>
+        <location filename="../prefinterface.cpp" line="480"/>
         <source>short jump</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="452"/>
+        <location filename="../prefinterface.cpp" line="482"/>
         <source>Medium jump</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="454"/>
+        <location filename="../prefinterface.cpp" line="484"/>
         <source>medium jump</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="456"/>
+        <location filename="../prefinterface.cpp" line="486"/>
         <source>Long jump</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="458"/>
+        <location filename="../prefinterface.cpp" line="488"/>
         <source>long jump</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="460"/>
+        <location filename="../prefinterface.cpp" line="490"/>
         <source>Mouse wheel jump</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="462"/>
+        <location filename="../prefinterface.cpp" line="492"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="464"/>
+        <location filename="../prefinterface.cpp" line="494"/>
         <source>Behaviour of time slider</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="465"/>
+        <location filename="../prefinterface.cpp" line="495"/>
         <source>Select what to do when dragging the time slider.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="470"/>
+        <location filename="../prefinterface.cpp" line="500"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="472"/>
+        <location filename="../prefinterface.cpp" line="502"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="474"/>
+        <location filename="../prefinterface.cpp" line="504"/>
         <source>Port</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="477"/>
+        <location filename="../prefinterface.cpp" line="507"/>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. You can change the port in case the default one is used by another application.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="178"/>
+        <source>Default GUI</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="179"/>
+        <source>Mini GUI</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="463"/>
+        <source>GUI</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="471"/>
+        <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option will take effect the next time you run SMPlayer.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="310"/>
+        <source>&amp;GUI</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="323"/>
+        <source>(this option requires to restart SMPlayer)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4598,57 +4628,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>%1분 1초</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="146"/>
+        <location filename="../clhelp.cpp" line="149"/>
         <source>will show this message and then will exit.</source>
         <translation>이 메시지를 표시하고 종료합니다.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="134"/>
+        <location filename="../clhelp.cpp" line="137"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>파일이나 재생 목록이 끝나면 창이 닫힙니다.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="264"/>
+        <location filename="../smplayer.cpp" line="268"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>SMPlayer 버전 %1 - %2에서 실행 중</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="123"/>
+        <location filename="../clhelp.cpp" line="126"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
         <translation>다른 실행 중인 인스턴스에 연결을 시도하고 명시된 동작을 지시합니다. (예: -send-action pause) 다른 옵션이 있을 경우 무시되며 프로그램은 종료합니다. 프로그램은 성공시 0, 실패시 -1을 반환합니다.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="131"/>
+        <location filename="../clhelp.cpp" line="134"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
         <translation>action_list는 띄어쓰기로 구분되는 동작의 목록입니다. 이 동작들은 파일을 불러온 직후에 입력된 순서대로 실행됩니다. 선택 지정할 수 있는 동작은 참(true) 혹은 거짓(false)을 매개 변수로 넘길 수 있습니다. (예: -actions &quot;fullscreen compact true&quot;) 하나 이상의 동작을 지정할 경우에는 양쪽 끝에 쌍따옴표(&quot;)를 달아 주어야 합니다.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="154"/>
+        <location filename="../clhelp.cpp" line="157"/>
         <source>media</source>
         <translation>미디어</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="152"/>
+        <location filename="../clhelp.cpp" line="155"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>만약 다른 인스턴스가 실행 중이면, 미디어는 해당 인스턴스의 재생 목록에 자동으로 추가됩니다. 다른 인스턴스가 없으면, 이 옵션은 무시되며 파일은 새로운 인스턴스에서 열립니다.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="116"/>
+        <location filename="../clhelp.cpp" line="119"/>
         <source>specifies the directory for the configuration file (smplayer.ini).</source>
         <translation>설정 파일(smplayer.ini)이 있는 폴더를 지정합니다.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="137"/>
+        <location filename="../clhelp.cpp" line="140"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation>파일이나 재생 목록이 끝나도 창이 닫히지 않습니다.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="140"/>
+        <location filename="../clhelp.cpp" line="143"/>
         <source>the video will be played in fullscreen mode.</source>
         <translation>동영상이 전체 화면에서 재생됩니다.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="143"/>
+        <location filename="../clhelp.cpp" line="146"/>
         <source>the video will be played in window mode.</source>
         <translation>동영상이 창에서 재생됩니다.</translation>
     </message>
@@ -4688,8 +4718,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="160"/>
+        <location filename="../clhelp.cpp" line="163"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="115"/>
+        <source>opens the default gui.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
