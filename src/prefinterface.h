@@ -63,6 +63,9 @@ protected:
 	void setSaveSize(bool b);
 	bool saveSize();
 
+	void setGUI(QString gui_name);
+	QString GUI();
+
 	void setStyle(QString style);
 	QString style();
 

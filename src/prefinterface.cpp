@@ -173,6 +173,12 @@ void PrefInterface::retranslateStrings() {
 	style_combo->setItemText( 0, tr("Default") );
 #endif
 
+	int gui_index = gui_combo->currentIndex();
+	gui_combo->clear();
+	gui_combo->addItem( tr("Default GUI"), "DefaultGUI");
+	gui_combo->addItem( tr("Mini GUI"), "MiniGUI");
+	gui_combo->setCurrentIndex(gui_index);
+
 	createHelp();
 }
 
@@ -198,6 +204,8 @@ void PrefInterface::setData(Preferences * pref) {
 #if STYLE_SWITCHING
 	setStyle( pref->style );
 #endif
+
+	setGUI(pref->gui);
 }
 
 void PrefInterface::getData(Preferences * pref) {
@@ -248,6 +256,8 @@ void PrefInterface::getData(Preferences * pref) {
 		style_changed = true;
 	}
 #endif
+
+	pref->gui = GUI();
 }
 
 void PrefInterface::setLanguage(QString lang) {
@@ -313,6 +323,16 @@ QString PrefInterface::style() {
 		return "";
 	else 
 		return style_combo->currentText();
+}
+
+void PrefInterface::setGUI(QString gui_name) {
+	int i = gui_combo->findData(gui_name);
+	if (i < 0) i=0;
+	gui_combo->setCurrentIndex(i);
+}
+
+QString PrefInterface::GUI() {
+	return gui_combo->itemData(gui_combo->currentIndex()).toString();
 }
 
 void PrefInterface::setUseSingleInstance(bool b) {
@@ -439,6 +459,16 @@ void PrefInterface::createHelp() {
 
 	setWhatsThis(style_combo, tr("Style"),
         tr("Select the style you prefer for the application.") );
+
+	setWhatsThis(gui_combo, tr("GUI"),
+        tr("Select the GUI you prefer for the application. Currently "
+           "there are two available: Default GUI and Mini GUI.<br>"
+           "The <b>Default GUI</b> provides the traditional GUI, with the "
+           "toolbar and control bar. The <b>Mini GUI</b> provides a "
+           "more simple GUI, without toolbar and a control bar with few "
+           "buttons.<br>"
+           "<b>Note:</b> this option will take effect the next "
+           "time you run SMPlayer.") );
 
 	setWhatsThis(changeFontButton, tr("Default font"),
         tr("You can change here the application's font.") );

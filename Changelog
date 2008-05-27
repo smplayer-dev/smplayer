@@ -1,5 +1,16 @@
 [b]Version 0.6.1[/b]:
 
+(2008-05-26)
+ * The command line option -mini has been renamed to -minigui (-mini still 
+   works)
+ * Added a new command line option -defaultgui, which selects the default
+   gui.
+ * Added an option in Preferences->Interface to select the preferred GUI.
+   This option is not applied immediately, you need to close smplayer and
+   open it again.
+   Note: the command line options -minigui and -defaultgui have preference 
+   over this option.
+
 (2008-05-25)
  * Some internal changes: baseguiplus saves some variables to the config
    file so it can exit from compact mode properly even if made between
