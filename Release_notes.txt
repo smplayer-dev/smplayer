@@ -1,3 +1,17 @@
+Version 0.6.1.
+
+Most important changes since 0.6.0 final:
+
+ * Now compact mode resizes the window, instead of leaving black borders.
+ * Added an option in Preferences->Interface which allows the user to select
+   his/her preferred GUI. This way it's easier to use the mini GUI, for those
+   who prefer a simpler interface with few buttons.
+ * One more fix for Qt 4.4. The option FAQ in the Help menu didn't work.
+ * (Windows) Fix: zoom didn't work well (black blocks appeared) if using 
+   directx.
+ * Added the Catalan translation.
+
+
 Version 0.6.0 final.
 
 Most important changes since 0.6.0rc4:
