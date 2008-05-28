@@ -265,7 +265,7 @@
     <message>
         <location filename="../about.cpp" line="175"/>
         <source>Catalan</source>
-        <translation type="unfinished">カタロニア語</translation>
+        <translation>カタロニア語</translation>
     </message>
 </context>
 <context>
@@ -1200,22 +1200,22 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1250"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
-        <translation>90 度時計回りで回転して反転(&amp;R)</translation>
+        <translation>90 度時計回りに回転して反転(&amp;R)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1251"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
-        <translation>90 度時計回りで回転(&amp;C)</translation>
+        <translation>90 度時計回りに回転(&amp;C)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1252"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
-        <translation>90 度反時計回りで回転(&amp;W)</translation>
+        <translation>90 度反時計回りに回転(&amp;W)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1253"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
-        <translation>90 度反時計回りで回転して反転(&amp;F)</translation>
+        <translation>90 度反時計回りに回転して反転(&amp;F)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1034"/>
@@ -1238,7 +1238,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="162"/>
         <source>SMPlayer is still running here</source>
-        <translation>SMPlayer はまだここで起動しています</translation>
+        <translation>SMPlayer はまだここで実行しています</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="183"/>
@@ -2139,7 +2139,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlistpreferences.cpp" line="32"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation>ディレクトリの追加が再帰的にサブディレクトリのファイルも追加することがいい場合はこのオプションをチェックします。でなければ選択されたディレクトリのファイルのみ追加されます。</translation>
+        <translation>ディレクトリの追加が再帰的にサブディレクトリのファイルも追加することがよい場合はこのオプションをチェックします。でなければ選択されたディレクトリのファイルのみ追加されます。</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="28"/>
@@ -2274,7 +2274,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.ui" line="195"/>
         <source>&amp;Run MPlayer in its own window</source>
-        <translation>独自のウィンドウで MPlayer を起動する(&amp;R)</translation>
+        <translation>独自のウィンドウで MPlayer を実行する(&amp;R)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="326"/>
@@ -2394,7 +2394,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="352"/>
         <source>Run MPlayer in its own window</source>
-        <translation>独自のウィンドウで MPlayer を起動する</translation>
+        <translation>独自のウィンドウで MPlayer を実行する</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="358"/>
@@ -2603,7 +2603,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="83"/>
         <source>Select the mplayer executable</source>
-        <translation>mplayer 実行ファイルを選択</translation>
+        <translation>mplayer 実行ファイルの選択</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="85"/>
@@ -3655,7 +3655,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="497"/>
         <source>Instances</source>
-        <translation>起動</translation>
+        <translation>インスタンス</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="86"/>
@@ -3695,12 +3695,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="542"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
-        <translation>SMPlayer の起動を 1 つのみ使用する(&amp;U)</translation>
+        <translation>実行中の SMPlayer のインスタンスを 1 つのみ使用する(&amp;U)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="552"/>
         <source>SMPlayer will listen to this &amp;port to receive commands from other instances:</source>
-        <translation>SMPlayer はその他からコマンドを受信するのにこのポートを聴取します(&amp;P):</translation>
+        <translation>SMPlayer はその他のインスタンスからコマンドを受信するのにこのポートを聴取します(&amp;P):</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="142"/>
@@ -3775,7 +3775,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="507"/>
         <source>Ins&amp;tances</source>
-        <translation>起動(&amp;T)</translation>
+        <translation>実行(&amp;T)</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="100"/>
@@ -3805,7 +3805,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="447"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
-        <translation>このオプションをチェックすると、メイン ウィンドウの位置とサイズは保存され再び SMPlayer を起動するときに復元されます。</translation>
+        <translation>このオプションをチェックすると、メイン ウィンドウの位置とサイズは保存され再び SMPlayer を実行するときに復元されます。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="452"/>
@@ -3900,12 +3900,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="500"/>
         <source>Use only one running instance of SMPlayer</source>
-        <translation>SMPlayer の起動を 1 つのみ使用する</translation>
+        <translation>実行中の SMPlayer のインスタンスを 1 つのみ使用する</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="502"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
-        <translation>その他のファイルを開くときにすでにある SMPlayer の起動を使用したい場合はこのオプションをチェックします。</translation>
+        <translation>その他のファイルを開くときにすでに実行中の SMPlayer のインスタンスを使用したい場合はこのオプションをチェックします。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="504"/>
@@ -3915,37 +3915,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="507"/>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. You can change the port in case the default one is used by another application.</source>
-        <translation>SMPlayer はその他の起動からコマンドを受信するのにポートの聴取を必要とします。既定のものが別のアプリケーションによって使用されている場合はポートを変更できます。</translation>
+        <translation>SMPlayer はその他のインスタンスからコマンドを受信するのにポートの聴取を必要とします。既定のものが別のアプリケーションによって使用されている場合はポートを変更できます。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="178"/>
         <source>Default GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>デフォルト GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="179"/>
         <source>Mini GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>ミニ GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="463"/>
         <source>GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="471"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option will take effect the next time you run SMPlayer.</source>
-        <translation type="unfinished"></translation>
+        <translation>アプリケーションのお好みの GUI を選択します。現在 [デフォルト GUI] と [ミニ GUI] の 2 つがあります。&lt;br&gt;[&lt;b&gt;デフォルト GUI&lt;/b&gt;] はツール バーとコントロール バーのある、伝統的な GUI を供給します。[&lt;b&gt;ミニ GUI&lt;/b&gt;] は数個のボタンのあるツール バーとコントロール バーのない、よりシンプルな GUI を供給します。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; このオプションは次の SMPlayer を実行する時間に影響します。</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="310"/>
         <source>&amp;GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>GUI(&amp;G)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="323"/>
         <source>(this option requires to restart SMPlayer)</source>
-        <translation type="unfinished"></translation>
+        <translation>(このオプションは SMPlayer の再起動を必要とします)</translation>
     </message>
 </context>
 <context>
@@ -4642,12 +4642,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../smplayer.cpp" line="268"/>
         <source>This is SMPlayer v. %1 running on %2</source>
-        <translation>これは %2 で起動中の SMPlayer v. %1 です</translation>
+        <translation>これは %2 で実行中の SMPlayer v. %1 です</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="126"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
-        <translation>別の起動への接続の作成と指定された動作の送信を試行します。例: -send-action pause 残りのオプションは (あれば) 無視されてアプリケーションは終了します。成功時には 0 または 失敗時には -1 を返します。</translation>
+        <translation>別の起動中のインスタンスへの接続と指定された動作の送信を試行します。例: -send-action pause 残りのオプションは (あれば) 無視されてアプリケーションは終了します。成功時には 0 または 失敗時には -1 を返します。</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="134"/>
@@ -4662,7 +4662,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="155"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
-        <translation>別の起動がある場合、メディアは起動のプレイリストに追加されます。その他の起動がない場合、このオプションは無視されてファイルは新しい起動で開かれます。</translation>
+        <translation>別の起動中のインスタンスがある場合、メディアはそのインスタンスのプレイリストに追加されます。その他のインスタンスがない場合、このオプションは無視されてファイルは新しいインスタンスで開かれます。</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="119"/>
@@ -4727,7 +4727,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="115"/>
         <source>opens the default gui.</source>
-        <translation type="unfinished"></translation>
+        <translation>デフォルト gui を開きます。</translation>
     </message>
 </context>
 <context>
