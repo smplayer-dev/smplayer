@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="it">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -265,7 +266,7 @@
     <message>
         <location filename="../about.cpp" line="175"/>
         <source>Catalan</source>
-        <translation type="unfinished">Catalano</translation>
+        <translation>Catalano</translation>
     </message>
 </context>
 <context>
@@ -3921,32 +3922,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="178"/>
         <source>Default GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Interfaccia predefinita</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="179"/>
         <source>Mini GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Interfaccia minimale</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="463"/>
         <source>GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Interfaccia</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="471"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option will take effect the next time you run SMPlayer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selezionare l&apos;interfaccia preferita per l&apos;applicazione. Attualmente ce ne sono disponibili due: predefinita e minimale.&lt;br&gt;L&apos;&lt;b&gt;interfaccia predefinita&lt;/b&gt; fornisce ina interfaccia tradizionale, con la barra degli strumenti e di controllo. L&apos;&lt;b&gt;interfaccia minimale&lt;/b&gt; fornisce una interfaccia più semplice, senza barra degli strumenti e con la barra di controllo con meno bottoni.&lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; questa opzione avrà effetto al prossimo riavvio.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="310"/>
         <source>&amp;GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Interfaccia</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="323"/>
         <source>(this option requires to restart SMPlayer)</source>
-        <translation type="unfinished"></translation>
+        <translation>(questa opzione richiede il riavvio di SMPlayer)</translation>
     </message>
 </context>
 <context>
@@ -4728,7 +4729,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="115"/>
         <source>opens the default gui.</source>
-        <translation type="unfinished"></translation>
+        <translation>Apre l&apos;interfaccia predefinita.</translation>
     </message>
 </context>
 <context>
