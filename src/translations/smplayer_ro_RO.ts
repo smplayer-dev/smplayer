@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -3918,32 +3919,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="178"/>
         <source>Default GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Interfață grafică implicită</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="179"/>
         <source>Mini GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Interfață grafică redusă</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="463"/>
         <source>GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Interfață grafică</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="471"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option will take effect the next time you run SMPlayer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați interfața grafică pe care o preferați pentru SMPlayer. În acest moment există două tipuri: „Interfața grafică implicită” și „Interfața grafică redusă”.&lt;br&gt; &lt;b&gt;Interfața grafică implicită&lt;/b&gt; este o interfață grafică obișnuită, cu bare de unelete și de control. &lt;b&gt;Interfața grafică redusă&lt;/b&gt; este u interfață grafică mai simplă, fără bară de unelte și cu mai puține butoane în bara de control.&lt;br&gt;&lt;b&gt;Notă:&lt;/b&gt;După alegerea opțiunii dorite trebuie să reporniți aplicația SMPlayer pentru ca modificările să se facă simțite.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="310"/>
         <source>&amp;GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Interfață grafică</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="323"/>
         <source>(this option requires to restart SMPlayer)</source>
-        <translation type="unfinished"></translation>
+        <translation>(această opțiune impune repornirea aplicației SMPlayer)</translation>
     </message>
 </context>
 <context>
@@ -4725,7 +4726,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="115"/>
         <source>opens the default gui.</source>
-        <translation type="unfinished"></translation>
+        <translation>deschide interfața grafică implicită.</translation>
     </message>
 </context>
 <context>
