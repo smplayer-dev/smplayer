@@ -592,7 +592,7 @@
                 <bool>false</bool>
                </property>
                <property name="maximum" >
-                <number>99999</number>
+                <number>65535</number>
                </property>
               </widget>
              </item>
