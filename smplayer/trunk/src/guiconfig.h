@@ -79,5 +79,12 @@
 #define USE_INFOPROVIDER 1
 
 
+// USE_MINIMUMSIZE
+// if 1, the main window will not be smaller than the control widget 
+// size hint.
+
+#define USE_MINIMUMSIZE 1
+
+
 #endif
 

@@ -532,6 +532,12 @@ void DefaultGui::resizeEvent( QResizeEvent * ) {
 	}
 }
 
+#if USE_MINIMUMSIZE
+QSize DefaultGui::minimumSizeHint() const {
+	return QSize(controlwidget_mini->sizeHint().width(), 0);
+}
+#endif
+
 #define TOOLBARS_VERSION 2
 
 void DefaultGui::saveConfig() {

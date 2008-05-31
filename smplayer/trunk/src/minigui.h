@@ -37,6 +37,10 @@ public:
 	MiniGui( QWidget* parent = 0, Qt::WindowFlags flags = 0 );
 	~MiniGui();
 
+#if USE_MINIMUMSIZE
+	virtual QSize minimumSizeHint () const;
+#endif
+
 protected slots:
 	void showFloatingControl(QPoint p);
 	void hideFloatingControl();

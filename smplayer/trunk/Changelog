@@ -2,6 +2,8 @@
 
 (2008-05-30)
  * The maximum port for the single instance is 65535, instead of 99999.
+ * Added a new option in guiconfig.h, USE_MINIMUMSIZE. If set to 1
+   the main window will not be smaller than the control widget size hint.
 
 
 [b]Version 0.6.1[/b]:
