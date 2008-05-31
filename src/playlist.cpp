@@ -767,7 +767,7 @@ void Playlist::playItem( int n ) {
 	qDebug("Playlist::playItem: %d (count:%d)", n, pl.count());
 
 	if ( (n >= pl.count()) || (n < 0) ) {
-		qDebug(" out of range");
+		qDebug("Playlist::playItem: out of range");
 		emit playlistEnded();
 		return;
 	}
@@ -810,7 +810,7 @@ void Playlist::playNext() {
 
 void Playlist::playPrev() {
 	qDebug("Playlist::playPrev");
-	playItem( current_item-1 );
+	if (current_item > 0) playItem( current_item-1 );
 }
 
 void Playlist::getMediaInfo() {
