@@ -46,6 +46,10 @@ public:
 	DefaultGui( QWidget* parent = 0, Qt::WindowFlags flags = 0 );
 	~DefaultGui();
 
+#if USE_MINIMUMSIZE
+	virtual QSize minimumSizeHint () const;
+#endif
+
 public slots:
 	//virtual void showPlaylist(bool b);
 

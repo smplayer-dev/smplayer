@@ -177,6 +177,12 @@ void MiniGui::hideFloatingControl() {
 	floating_control->hide();
 }
 
+#if USE_MINIMUMSIZE
+QSize MiniGui::minimumSizeHint() const {
+	return QSize(controlwidget->sizeHint().width(), 0);
+}
+#endif
+
 #define TOOLBARS_VERSION 2
 
 void MiniGui::saveConfig() {
