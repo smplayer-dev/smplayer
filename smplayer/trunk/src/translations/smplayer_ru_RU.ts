@@ -1244,7 +1244,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="183"/>
         <source>S&amp;how icon in system tray</source>
-        <translation>&amp;значок в системном лотке</translation>
+        <translation>&amp;Значок в системном лотке</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="194"/>
