@@ -350,7 +350,7 @@ void ActionsEditor::validateAction(QTableWidgetItem * i) {
 void ActionsEditor::editShortcut() {
 	QTableWidgetItem * i = actionsTable->item( actionsTable->currentRow(), COL_SHORTCUT );
 	if (i) {
-		ShortcutGetter d;
+		ShortcutGetter d(this);
 		QString result = d.exec( i->text() );
 
 		if (!result.isNull()) {
