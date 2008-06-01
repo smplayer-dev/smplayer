@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -553,7 +554,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1104"/>
         <source>&amp;Playlist</source>
-        <translation>С&amp;писок</translation>
+        <translation>С&amp;писок воспроизведения</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1107"/>
@@ -880,7 +881,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1105"/>
         <source>View &amp;info and properties...</source>
-        <translation>Показать ин&amp;формацию и параметры...</translation>
+        <translation>Ин&amp;формация и параметры...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1051"/>
@@ -925,12 +926,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1096"/>
         <source>&amp;Previous line in subtitles</source>
-        <translation>&amp;Предыдущая фраза субтитров</translation>
+        <translation>&amp;Предыдущая фраза</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1098"/>
         <source>N&amp;ext line in subtitles</source>
-        <translation>&amp;Следующая фраза субтитров</translation>
+        <translation>&amp;Следующая фраза</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1318"/>
@@ -1090,7 +1091,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1099"/>
         <source>Use SSA/&amp;ASS library</source>
-        <translation>Испол&amp;ьзовать библиотеку SSA/ASS</translation>
+        <translation>&amp;Использовать SSA/ASS</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1049"/>
@@ -1130,7 +1131,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1109"/>
         <source>Visualize &amp;motion vectors</source>
-        <translation>Отобразить векторы &amp;движения</translation>
+        <translation>Векторы &amp;движения</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1118"/>
@@ -1145,12 +1146,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1100"/>
         <source>Enable &amp;closed caption</source>
-        <translation>Включить &amp;скрытые субтитры</translation>
+        <translation>&amp;Скрытые субтитры</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1101"/>
         <source>&amp;Forced subtitles only</source>
-        <translation>&amp;Только принудительно включенные субтитры</translation>
+        <translation>&amp;Только форсированные</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1160"/>
@@ -1243,7 +1244,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="183"/>
         <source>S&amp;how icon in system tray</source>
-        <translation>&amp;Показать значок в системном лотке</translation>
+        <translation>&amp;значок в системном лотке</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="194"/>
@@ -3919,32 +3920,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="178"/>
         <source>Default GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>По умолчанию</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="179"/>
         <source>Mini GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Мини интерфейс</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="463"/>
         <source>GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Интерфейс</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="471"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option will take effect the next time you run SMPlayer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите предпочитаемый для приложения интерфейс. На текущий момент их доступно два: интерфейс по умолчанию и мини интерфейс.&lt;br&gt; &lt;b&gt;Интерфейс по умолчанию&lt;/b&gt; представляет собой обычный интерфейс, с панелью инструментов и панелью управления с несколькими кнопками. &lt;br&gt;&lt;b&gt;Замечание:&lt;/b&gt; для изменения этой настройки необходим перезапуск SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="310"/>
         <source>&amp;GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Интерфейс</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="323"/>
         <source>(this option requires to restart SMPlayer)</source>
-        <translation type="unfinished"></translation>
+        <translation>(необходим перезапуск SMPlayer)</translation>
     </message>
 </context>
 <context>
@@ -4726,7 +4727,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="115"/>
         <source>opens the default gui.</source>
-        <translation type="unfinished"></translation>
+        <translation>открывает интерфейс по умолчанию.</translation>
     </message>
 </context>
 <context>
