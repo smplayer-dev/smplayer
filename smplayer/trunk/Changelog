@@ -6,8 +6,8 @@
  * Started to write the code to make the toolbars configurable:
     - the list of actions in a widget can be saved to the config file
     - a widget can be populated with the actions read from the config file 
-    - as a test the toolbar1 in defaultgui is saved to the config and loaded 
-      on startup
+    - as a test the toolbar1, controlwidget and controlwidget_mini in 
+      defaultgui are saved to the config and loaded on startup
 
 (2008-05-30)
  * The maximum port for the single instance is 65535, instead of 99999.
