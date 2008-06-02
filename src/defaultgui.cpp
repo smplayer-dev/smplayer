@@ -213,6 +213,7 @@ void DefaultGui::createControlWidgetMini() {
 	//addDockWindow(controlwidget_mini, Qt::DockBottom );
 	addToolBar(Qt::BottomToolBarArea, controlwidget_mini);
 
+#if !USE_CONFIGURABLE_TOOLBARS
 	controlwidget_mini->addAction(playOrPauseAct);
 	controlwidget_mini->addAction(stopAct);
 	controlwidget_mini->addSeparator();
@@ -228,6 +229,7 @@ void DefaultGui::createControlWidgetMini() {
 	controlwidget_mini->addAction(muteAct );
 
 	controlwidget_mini->addAction(volumeslider_action);
+#endif // USE_CONFIGURABLE_TOOLBARS
 
 	controlwidget_mini->hide();
 }
@@ -242,6 +244,7 @@ void DefaultGui::createControlWidget() {
 	//addDockWindow(controlwidget, Qt::DockBottom );
 	addToolBar(Qt::BottomToolBarArea, controlwidget);
 
+#if !USE_CONFIGURABLE_TOOLBARS
 	controlwidget->addAction(playAct);
 	controlwidget->addAction(pauseAndStepAct);
 	controlwidget->addAction(stopAct);
@@ -272,6 +275,7 @@ void DefaultGui::createControlWidget() {
 	controlwidget->addAction(muteAct);
 
 	controlwidget->addAction(volumeslider_action);
+#endif // USE_CONFIGURABLE_TOOLBARS
 
 	/*
 	controlwidget->show();
@@ -619,8 +623,19 @@ void DefaultGui::loadConfig() {
                      << "separator" << "screenshot" << "separator" << "show_file_properties" << "show_playlist" 
                      << "show_preferences" << "separator" << "play_prev" << "play_next";
 
+	QStringList controlwidget_actions;
+	controlwidget_actions << "play" << "pause_and_frame_step" << "stop" << "separator" << "rewind3" << "rewind2" 
+                          << "rewind1" << "timeslider_action" << "forward1" << "forward2" << "forward3" << "separator" 
+                          << "fullscreen" << "mute" << "volumeslider_action";
+
+	QStringList controlwidget_mini_actions;
+	controlwidget_mini_actions << "play_or_pause" << "stop" << "separator" << "rewind1" << "timeslider_action" 
+                               << "forward1" << "separator" << "mute" << "volumeslider_action";
+
 	set->beginGroup( "actions" );
 	ToolbarEditor::load(toolbar1, set->value("toolbar1", toolbar1_actions).toStringList(), actions_list );
+	ToolbarEditor::load(controlwidget, set->value("controlwidget", controlwidget_actions).toStringList(), actions_list );
+	ToolbarEditor::load(controlwidget_mini, set->value("controlwidget_mini", controlwidget_mini_actions).toStringList(), actions_list );
 	set->endGroup();
 #endif
 
