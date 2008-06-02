@@ -499,6 +499,8 @@ void BaseGuiPlus::shrinkWindow() {
 // Convenience functions intended for other GUI's
 TimeSliderAction * BaseGuiPlus::createTimeSliderAction(QWidget * parent) {
 	TimeSliderAction * timeslider_action = new TimeSliderAction( parent );
+	timeslider_action->setObjectName("timeslider_action");
+
 	connect( timeslider_action, SIGNAL( posChanged(int) ), 
              core, SLOT(goToPos(int)) );
 	connect( timeslider_action, SIGNAL( draggingPos(int) ), 
@@ -519,6 +521,8 @@ TimeSliderAction * BaseGuiPlus::createTimeSliderAction(QWidget * parent) {
 
 VolumeSliderAction * BaseGuiPlus::createVolumeSliderAction(QWidget * parent) {
 	VolumeSliderAction * volumeslider_action = new VolumeSliderAction(parent);
+	volumeslider_action->setObjectName("volumeslider_action");
+
 	connect( volumeslider_action, SIGNAL( valueChanged(int) ), 
              core, SLOT( setVolume(int) ) );
 	connect( core, SIGNAL(volumeChanged(int)),
