@@ -81,6 +81,7 @@ HEADERS	+= guiconfig.h \
 	baseguiplus.h \
 	floatingwidget.h \
 	widgetactions.h \
+	toolbareditor.h \
 	defaultgui.h \
 	minigui.h \
 	smplayer.h \
@@ -151,6 +152,7 @@ SOURCES	+= version.cpp \
 	baseguiplus.cpp \
 	floatingwidget.cpp \
 	widgetactions.cpp \
+	toolbareditor.cpp \
 	defaultgui.cpp \
 	minigui.cpp \
 	clhelp.cpp \
