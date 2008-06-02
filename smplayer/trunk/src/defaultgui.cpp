@@ -613,13 +613,14 @@ void DefaultGui::loadConfig() {
 	restoreState( set->value( "toolbars_state" ).toByteArray(), TOOLBARS_VERSION );
 
 #if USE_CONFIGURABLE_TOOLBARS
+	QList<QAction *> actions_list = findChildren<QAction *>();
 	QStringList toolbar1_actions;
 	toolbar1_actions << "open_file" << "open_dvd" << "open_url" << "separator" << "compact" << "fullscreen"
                      << "separator" << "screenshot" << "separator" << "show_file_properties" << "show_playlist" 
                      << "show_preferences" << "separator" << "play_prev" << "play_next";
 
 	set->beginGroup( "actions" );
-	ToolbarEditor::load(toolbar1, set->value("toolbar1", toolbar1_actions).toStringList(), actions() );
+	ToolbarEditor::load(toolbar1, set->value("toolbar1", toolbar1_actions).toStringList(), actions_list );
 	set->endGroup();
 #endif
 

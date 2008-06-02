@@ -57,7 +57,11 @@ void ToolbarEditor::load(QWidget *w, QStringList l, QList<QAction *> actions_lis
 			w->addAction(sep);
 		} else {
 			action = findAction(l[n], actions_list);
-			if (action) w->addAction(action);			
+			if (action) {
+				w->addAction(action);
+			} else {
+				qWarning("ToolbarEditor::load: action %s not found", l[n].toUtf8().data());
+			}
 		}
 	}
 }
