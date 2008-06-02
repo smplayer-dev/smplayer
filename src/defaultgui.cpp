@@ -37,8 +37,6 @@
 #include <QToolButton>
 #include <QMenuBar>
 
-#define USE_CONFIGURABLE_TOOLBARS 1
-
 using namespace Global;
 
 DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
