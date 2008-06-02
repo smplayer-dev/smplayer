@@ -26,6 +26,7 @@
 #include "myaction.h"
 #include "images.h"
 #include "floatingwidget.h"
+#include "toolbareditor.h"
 
 #include <QMenu>
 #include <QToolBar>
@@ -35,6 +36,8 @@
 #include <QPushButton>
 #include <QToolButton>
 #include <QMenuBar>
+
+#define USE_CONFIGURABLE_TOOLBARS 1
 
 using namespace Global;
 
@@ -148,7 +151,7 @@ void DefaultGui::createMainToolBars() {
 	toolbar1->setObjectName("toolbar1");
 	//toolbar1->setMovable(false);
 	addToolBar(Qt::TopToolBarArea, toolbar1);
-
+#if !USE_CONFIGURABLE_TOOLBARS
 	toolbar1->addAction(openFileAct);
 	toolbar1->addAction(openDVDAct);
 	toolbar1->addAction(openURLAct);
@@ -168,6 +171,7 @@ void DefaultGui::createMainToolBars() {
 	//toolbar1->addSeparator();
 	//toolbar1->addAction(timeslider_action);
 	//toolbar1->addAction(volumeslider_action);
+#endif
 
 	toolbar2 = new QToolBar( this );
 	toolbar2->setObjectName("toolbar2");
@@ -565,6 +569,14 @@ void DefaultGui::saveConfig() {
 
 	set->setValue( "toolbars_state", saveState(TOOLBARS_VERSION) );
 
+#if USE_CONFIGURABLE_TOOLBARS
+	set->beginGroup( "actions" );
+	set->setValue("toolbar1", ToolbarEditor::save(toolbar1) );
+	set->setValue("controlwidget", ToolbarEditor::save(controlwidget) );
+	set->setValue("controlwidget_mini", ToolbarEditor::save(controlwidget_mini) );
+	set->endGroup();
+#endif
+
 	set->endGroup();
 }
 
@@ -599,6 +611,17 @@ void DefaultGui::loadConfig() {
 	}
 
 	restoreState( set->value( "toolbars_state" ).toByteArray(), TOOLBARS_VERSION );
+
+#if USE_CONFIGURABLE_TOOLBARS
+	QStringList toolbar1_actions;
+	toolbar1_actions << "open_file" << "open_dvd" << "open_url" << "separator" << "compact" << "fullscreen"
+                     << "separator" << "screenshot" << "separator" << "show_file_properties" << "show_playlist" 
+                     << "show_preferences" << "separator" << "play_prev" << "play_next";
+
+	set->beginGroup( "actions" );
+	ToolbarEditor::load(toolbar1, set->value("toolbar1", toolbar1_actions).toStringList(), actions() );
+	set->endGroup();
+#endif
 
 	set->endGroup();
 
