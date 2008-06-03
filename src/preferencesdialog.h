@@ -21,9 +21,11 @@
 
 #include "ui_preferencesdialog.h"
 
+/*
 #ifdef Q_OS_WIN
 #define USE_ASSOCIATIONS 1
 #endif
+*/
 
 class QTextBrowser;
 class QPushButton;
