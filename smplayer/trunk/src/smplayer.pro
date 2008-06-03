@@ -216,10 +216,13 @@ unix {
 }
 
 win32 {
-	DEFINES += USE_ASSOCIATIONS
-	
 	HEADERS += corelib/screensaver.h
 	SOURCES += corelib/screensaver.cpp
+
+	!contains( DEFINES, PORTABLE_APP ) {
+		DEFINES += USE_ASSOCIATIONS
+	}
+	
 	contains( DEFINES, USE_ASSOCIATIONS ) {
 		HEADERS += 	prefassociations.h winfileassoc.h
 		SOURCES += 	prefassociations.cpp winfileassoc.cpp

@@ -50,7 +50,9 @@ SMPlayer::SMPlayer(const QString & ini_path, QObject * parent )
 
     Helper::setAppPath( qApp->applicationDirPath() );
 
+#ifndef PORTABLE_APP
 	if (ini_path.isEmpty())	createHomeDirectory();
+#endif
 	global_init(ini_path);
 
 	// Application translations
@@ -253,6 +255,7 @@ void SMPlayer::start() {
 	if (!actions_list.isEmpty()) gui()->runActions(actions_list);
 }
 
+#ifndef PORTABLE_APP
 void SMPlayer::createHomeDirectory() {
 	// Create smplayer home directories
 	if (!QFile::exists(Helper::appHomePath())) {
@@ -266,6 +269,7 @@ void SMPlayer::createHomeDirectory() {
 		}
 	}
 }
+#endif
 
 void SMPlayer::showInfo() {
 	QString s = QObject::tr("This is SMPlayer v. %1 running on %2")

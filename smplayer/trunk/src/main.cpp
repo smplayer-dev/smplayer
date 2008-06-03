@@ -119,10 +119,16 @@ int main( int argc, char ** argv )
 
 	// Sets the ini_path
 	QString ini_path;
+
+#ifdef PORTABLE_APP
+	ini_path = a.applicationDirPath();
+#else
 	if (QFile::exists( a.applicationDirPath() + "/smplayer.ini" ) ) {
         ini_path = a.applicationDirPath();
         qDebug("main: using existing %s", QString(ini_path + "/smplayer.ini").toUtf8().data());
     }
+#endif
+
 	QStringList args = a.arguments();
 	int pos = args.indexOf("-ini-path");
 	if ( pos != -1) {

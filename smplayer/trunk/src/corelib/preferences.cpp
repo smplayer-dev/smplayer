@@ -117,9 +117,11 @@ void Preferences::reset() {
 	use_double_buffer = true;
 
 	screenshot_directory="";
+#ifndef PORTABLE_APP
 	if (QFile::exists(Helper::appHomePath() + "/screenshots")) {
 		screenshot_directory = Helper::appHomePath() + "/screenshots";
 	}
+#endif
 	subtitles_on_screenshots = false;
 
 	use_soft_video_eq = FALSE;
