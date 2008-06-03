@@ -33,8 +33,10 @@
 #include <stdio.h>
 
 #ifdef Q_OS_WIN
+#if USE_ASSOCIATIONS
 #include "extensions.h"
 #include "winfileassoc.h"	//required for Uninstall
+#endif
 #endif
 
 
@@ -95,6 +97,7 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 
 #ifdef Q_OS_WIN
 	if (args.contains("-uninstall")){
+#if USE_ASSOCIATIONS
 		//Called by uninstaller. Will restore old associations.
 		WinFileAssoc RegAssoc; 
 		Extensions exts; 
@@ -102,6 +105,7 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 		RegAssoc.GetRegisteredExtensions(exts.multimedia(), regExts); 
 		RegAssoc.RestoreFileAssociations(regExts); 
 		printf("Restored associations\n");
+#endif
 		return NoError; 
 	}
 #endif
