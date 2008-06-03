@@ -19,7 +19,7 @@
 #include "toolbareditor.h"
 
 QStringList ToolbarEditor::save(QWidget * w) {
-	qDebug("ToolbarEditor::save");
+	qDebug("ToolbarEditor::save: '%s'", w->objectName().toUtf8().data());
 
 	QList<QAction *> list = w->actions();
 	QStringList o;
@@ -43,7 +43,7 @@ QStringList ToolbarEditor::save(QWidget * w) {
 
 void ToolbarEditor::load(QWidget *w, QStringList l, QList<QAction *> actions_list)
 {
-	qDebug("ToolbarEditor::load");
+	qDebug("ToolbarEditor::load: '%s'", w->objectName().toUtf8().data());
 
 	QAction * action;
 
