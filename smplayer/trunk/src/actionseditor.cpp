@@ -536,7 +536,7 @@ void ActionsEditor::saveToConfig(QObject *o, QSettings *set) {
 	QList<QAction *> actions = o->findChildren<QAction *>();
 	for (int n=0; n < actions.count(); n++) {
 		action = static_cast<QAction*> (actions[n]);
-		if (!action->objectName().isEmpty()) {
+		if (!action->objectName().isEmpty() && !action->inherits("QWidgetAction")) {
 #if USE_MULTIPLE_SHORTCUTS
 			QString accelText = shortcutsToString(action->shortcuts());
 #else
@@ -561,7 +561,7 @@ void ActionsEditor::loadFromConfig(QObject *o, QSettings *set) {
 	QList<QAction *> actions = o->findChildren<QAction *>();
 	for (int n=0; n < actions.count(); n++) {
 		action = static_cast<QAction*> (actions[n]);
-		if (!action->objectName().isEmpty()) {
+		if (!action->objectName().isEmpty() && !action->inherits("QWidgetAction")) {
 #if USE_MULTIPLE_SHORTCUTS
 			QString current = shortcutsToString(action->shortcuts());
 			accelText = set->value(action->objectName(), current).toString();
