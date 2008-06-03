@@ -3,6 +3,11 @@
 (2008-06-02)
  * Now the controlbar and floating control in the minigui can be 
    configured too.
+ * Some minor (and internal) changes:
+    - the playlist doesn't save its size as that is already done by 
+      QMainWindow::saveState()
+    - sizes and positions are saved to the config file as QSize's and
+      QPoint's
 
 (2008-06-01)
  * (Bugfix) The "modify shortcut" dialog was under the other windows if
