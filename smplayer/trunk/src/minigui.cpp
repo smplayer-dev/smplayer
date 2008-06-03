@@ -22,6 +22,7 @@
 #include "myaction.h"
 #include "mplayerwindow.h"
 #include "global.h"
+#include "toolbareditor.h"
 
 #include <QToolBar>
 #include <QStatusBar>
@@ -76,6 +77,7 @@ void MiniGui::createControlWidget() {
 	controlwidget->setAllowedAreas(Qt::TopToolBarArea | Qt::BottomToolBarArea);
 	addToolBar(Qt::BottomToolBarArea, controlwidget);
 
+#if !USE_CONFIGURABLE_TOOLBARS
 	controlwidget->addAction(playOrPauseAct);
 	controlwidget->addAction(stopAct);
 	controlwidget->addSeparator();
@@ -83,6 +85,7 @@ void MiniGui::createControlWidget() {
 	controlwidget->addSeparator();
 	controlwidget->addAction(fullscreenAct);
 	controlwidget->addAction(muteAct);
+#endif
 
 #if USE_VOLUME_BAR
 	controlwidget->addAction(volumeslider_action);
@@ -94,6 +97,7 @@ void MiniGui::createFloatingControl() {
 	// Floating control
 	floating_control = new FloatingWidget(this);
 
+#if !USE_CONFIGURABLE_TOOLBARS
 	floating_control->toolbar()->addAction(playOrPauseAct);
 	floating_control->toolbar()->addAction(stopAct);
 	floating_control->toolbar()->addSeparator();
@@ -106,6 +110,7 @@ void MiniGui::createFloatingControl() {
 #endif
 
 	floating_control->adjustSize();
+#endif // USE_CONFIGURABLE_TOOLBARS
 }
 
 void MiniGui::retranslateStrings() {
@@ -192,6 +197,14 @@ void MiniGui::saveConfig() {
 	set->setValue( "toolbars_state", saveState(TOOLBARS_VERSION) );
 	set->setValue("floating_control_width", floating_control_width);
 	set->setValue("floating_control_animated", floating_control_animated);
+
+#if USE_CONFIGURABLE_TOOLBARS
+	set->beginGroup( "actions" );
+	set->setValue("controlwidget", ToolbarEditor::save(controlwidget) );
+	set->setValue("floating_control", ToolbarEditor::save(floating_control->toolbar()) );
+	set->endGroup();
+#endif
+
 	set->endGroup();
 }
 
@@ -202,6 +215,27 @@ void MiniGui::loadConfig() {
 	restoreState( set->value( "toolbars_state" ).toByteArray(), TOOLBARS_VERSION );
 	floating_control_width = set->value("floating_control_width", floating_control_width).toInt();
 	floating_control_animated = set->value("floating_control_animated", floating_control_animated).toBool();
+
+#if USE_CONFIGURABLE_TOOLBARS
+	QList<QAction *> actions_list = findChildren<QAction *>();
+	QStringList controlwidget_actions;
+	controlwidget_actions << "play_or_pause" << "stop" << "separator" << "timeslider_action" << "separator"
+                          << "fullscreen" << "mute" << "volumeslider_action";
+
+	QStringList floatingcontrol_actions;
+	floatingcontrol_actions << "play_or_pause" << "stop" << "separator" << "timeslider_action" << "separator"
+                            << "fullscreen" << "mute";
+#if USE_VOLUME_BAR
+	floatingcontrol_actions << "volumeslider_action";
+#endif
+
+	set->beginGroup( "actions" );
+	ToolbarEditor::load(controlwidget, set->value("controlwidget", controlwidget_actions).toStringList(), actions_list );
+	ToolbarEditor::load(floating_control->toolbar(), set->value("floating_control", floatingcontrol_actions).toStringList(), actions_list );
+	floating_control->adjustSize();
+	set->endGroup();
+#endif
+
 	set->endGroup();
 }
 
