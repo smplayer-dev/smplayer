@@ -101,6 +101,7 @@ next_chapter	@
 prev_chapter	!
 toggle_double_size	Ctrl+D
 reset_video_equalizer	
+show_context_menu	
 osd_none	
 osd_seek	
 osd_timer	
@@ -153,6 +154,7 @@ pl_move_up
 pl_move_down	
 pl_repeat	
 pl_shuffle	
+pl_preferences	
 pl_add_current	
 pl_add_files	
 pl_add_directory	
