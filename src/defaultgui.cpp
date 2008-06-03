@@ -544,7 +544,6 @@ QSize DefaultGui::minimumSizeHint() const {
 }
 #endif
 
-#define TOOLBARS_VERSION 2
 
 void DefaultGui::saveConfig() {
 	qDebug("DefaultGui::saveConfig");
@@ -569,7 +568,7 @@ void DefaultGui::saveConfig() {
 		set->setValue( "height", height() );
 	}
 
-	set->setValue( "toolbars_state", saveState(TOOLBARS_VERSION) );
+	set->setValue( "toolbars_state", saveState() );
 
 #if USE_CONFIGURABLE_TOOLBARS
 	set->beginGroup( "actions" );
@@ -612,7 +611,7 @@ void DefaultGui::loadConfig() {
 		resize(width,height);
 	}
 
-	restoreState( set->value( "toolbars_state" ).toByteArray(), TOOLBARS_VERSION );
+	restoreState( set->value( "toolbars_state" ).toByteArray() );
 
 #if USE_CONFIGURABLE_TOOLBARS
 	QList<QAction *> actions_list = findChildren<QAction *>();

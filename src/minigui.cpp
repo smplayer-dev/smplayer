@@ -188,13 +188,12 @@ QSize MiniGui::minimumSizeHint() const {
 }
 #endif
 
-#define TOOLBARS_VERSION 2
 
 void MiniGui::saveConfig() {
 	QSettings * set = settings;
 
 	set->beginGroup( "mini_gui");
-	set->setValue( "toolbars_state", saveState(TOOLBARS_VERSION) );
+	set->setValue( "toolbars_state", saveState() );
 	set->setValue("floating_control_width", floating_control_width);
 	set->setValue("floating_control_animated", floating_control_animated);
 
@@ -212,7 +211,7 @@ void MiniGui::loadConfig() {
 	QSettings * set = settings;
 
 	set->beginGroup( "mini_gui");
-	restoreState( set->value( "toolbars_state" ).toByteArray(), TOOLBARS_VERSION );
+	restoreState( set->value( "toolbars_state" ).toByteArray() );
 	floating_control_width = set->value("floating_control_width", floating_control_width).toInt();
 	floating_control_animated = set->value("floating_control_animated", floating_control_animated).toBool();
 
