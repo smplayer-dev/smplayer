@@ -7,6 +7,15 @@
    DEFINES += USE_ASSOCIATIONS in smplayer.pro.
  * Another fix for Qt 4.4. The language toolbar wasn't restored
    properly.
+ * More work to make smplayer a better portable application (although most of
+   the following work on linux, it's intended for windows). If PORTABLE_APP 
+   is defined (it can be done with 'qmake DEFINES+=PORTABLE_APP') then:
+    - it will use by default the application directory for the ini files
+    - it won't try to create the smplayer home directory or the screenshot
+      directory ($HOME/.smplayer and $HOME/.smplayer/screenshots)
+    - by default the path for the screenshots is empty
+    - under windows the associations code won't be compiled, so smplayer won't
+      write anything in the windows registry.
    
 (2008-06-02)
  * Now the controlbar and floating control in the minigui can be 

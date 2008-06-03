@@ -40,7 +40,9 @@ public:
 	void start();
 
 private:
+#ifndef PORTABLE_APP
 	void createHomeDirectory();
+#endif
 	void showInfo();
 
 	BaseGui * main_window;
