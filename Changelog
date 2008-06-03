@@ -1,5 +1,9 @@
 [b]Version 0.6.2[/b]:
 
+(2008-06-02)
+ * Now the controlbar and floating control in the minigui can be 
+   configured too.
+
 (2008-06-01)
  * (Bugfix) The "modify shortcut" dialog was under the other windows if
    the option Video -> Stay on top was enabled.
