@@ -5,6 +5,8 @@
    file associations code, so it doesn't write anything in the 
    registry (important for a portable app). Just comment the line
    DEFINES += USE_ASSOCIATIONS in smplayer.pro.
+ * Another fix for Qt 4.4. The language toolbar wasn't restored
+   properly.
    
 (2008-06-02)
  * Now the controlbar and floating control in the minigui can be 

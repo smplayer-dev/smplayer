@@ -606,8 +606,6 @@ void DefaultGui::loadConfig() {
 		resize(s);
 	}
 
-	restoreState( set->value( "toolbars_state" ).toByteArray() );
-
 #if USE_CONFIGURABLE_TOOLBARS
 	QList<QAction *> actions_list = findChildren<QAction *>();
 	QStringList toolbar1_actions;
@@ -631,8 +629,10 @@ void DefaultGui::loadConfig() {
 	set->endGroup();
 #endif
 
+	restoreState( set->value( "toolbars_state" ).toByteArray() );
+	
 	set->endGroup();
-
+		
 	updateWidgets();
 }
 
