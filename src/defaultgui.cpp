@@ -562,10 +562,8 @@ void DefaultGui::saveConfig() {
 
 	if (pref->save_window_size_on_exit) {
 		qDebug("DefaultGui::saveConfig: w: %d h: %d", width(), height());
-		set->setValue( "x", x() );
-		set->setValue( "y", y() );
-		set->setValue( "width", width() );
-		set->setValue( "height", height() );
+		set->setValue( "pos", pos() );
+		set->setValue( "size", size() );
 	}
 
 	set->setValue( "toolbars_state", saveState() );
@@ -597,18 +595,15 @@ void DefaultGui::loadConfig() {
 	compact_toolbar2_was_visible = set->value("compact_toolbar2_was_visible", compact_toolbar2_was_visible).toBool();
 
 	if (pref->save_window_size_on_exit) {
-		int x = set->value( "x", this->x() ).toInt();
-		int y = set->value( "y", this->y() ).toInt();
-		int width = set->value( "width", this->width() ).toInt();
-		int height = set->value( "height", this->height() ).toInt();
+		QPoint p = set->value("pos", pos()).toPoint();
+		QSize s = set->value("size", size()).toSize();
 
-		if ( (height < 200) && (!pref->use_mplayer_window) ) {
-			width = 580;
-			height = 440;
+		if ( (s.height() < 200) && (!pref->use_mplayer_window) ) {
+			s = QSize(580, 440);
 		}
 
-		move(x,y);
-		resize(width,height);
+		move(p);
+		resize(s);
 	}
 
 	restoreState( set->value( "toolbars_state" ).toByteArray() );

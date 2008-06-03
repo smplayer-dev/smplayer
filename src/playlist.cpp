@@ -1225,8 +1225,7 @@ void Playlist::saveSettings() {
 	set->setValue( "save_playlist_in_config", save_playlist_in_config );
 
 #if !DOCK_PLAYLIST
-	set->setValue( "window_width", size().width() );
-	set->setValue( "window_height", size().height() );
+	set->setValue( "size", size() );
 #endif
 	set->setValue( "latest_dir", latest_dir );
 
@@ -1264,10 +1263,7 @@ void Playlist::loadSettings() {
 	save_playlist_in_config = set->value( "save_playlist_in_config", save_playlist_in_config ).toBool();
 
 #if !DOCK_PLAYLIST
-	QSize s;
-	s.setWidth( set->value( "window_width", size().width() ).toInt() );
-	s.setHeight( set->value( "window_height", size().height() ).toInt() );
-	resize( s );
+	resize( set->value("size", size()).toSize() );
 #endif
 
 	latest_dir = set->value( "latest_dir", latest_dir ).toString();
