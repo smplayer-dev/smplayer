@@ -369,7 +369,6 @@ void BaseGuiPlus::aboutToEnterFullscreen() {
 
 	fullscreen_playlist_was_visible = playlistdock->isVisible();
 	fullscreen_playlist_was_floating = playlistdock->isFloating();
-	//showPlaylistAct->setEnabled(false);
 
 	ignore_playlist_events = true;
 
@@ -380,8 +379,6 @@ void BaseGuiPlus::aboutToEnterFullscreen() {
 		playlistdock->setFloating(true);
 		playlistdock->hide();
 	}
-	//showPlaylistAct->setChecked(false);
-	//playlist_state = saveState();
 #endif
 }
 
@@ -395,9 +392,7 @@ void BaseGuiPlus::aboutToExitFullscreen() {
 		playlistdock->show();
 	}
 	playlistdock->setFloating( fullscreen_playlist_was_floating );
-	//restoreState( playlist_state );
 	ignore_playlist_events = false;
-	//showPlaylistAct->setEnabled(true);
 #endif
 }
 
