@@ -1,5 +1,9 @@
 [b]Version 0.6.2[/b]:
 
+(2008-06-04)
+ * When entering in fullscreen, the playlist is hidden only if it's in the
+   same screen as the main window. (Untested!)
+
 (2008-06-03)
  * Added the possibility to compile smplayer in Windows without the
    file associations code, so it doesn't write anything in the 

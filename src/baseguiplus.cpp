@@ -27,6 +27,8 @@
 
 #include <QMenu>
 #include <QCloseEvent>
+#include <QApplication>
+#include <QDesktopWidget>
 
 #if DOCK_PLAYLIST
 #include <QDockWidget>
@@ -361,12 +363,23 @@ void BaseGuiPlus::aboutToEnterFullscreen() {
 	BaseGui::aboutToEnterFullscreen();
 
 #if DOCK_PLAYLIST
+	int playlist_screen = QApplication::desktop()->screenNumber(playlistdock);
+	int mainwindow_screen = QApplication::desktop()->screenNumber(this);
+	qDebug("BaseGuiPlus::aboutToEnterFullscreen: mainwindow screen: %d, playlist screen: %d", mainwindow_screen, playlist_screen);
+
 	fullscreen_playlist_was_visible = playlistdock->isVisible();
 	fullscreen_playlist_was_floating = playlistdock->isFloating();
 	//showPlaylistAct->setEnabled(false);
+
 	ignore_playlist_events = true;
-	playlistdock->setFloating(true);
-	playlistdock->hide();
+
+	// Hide the playlist if it's in the same screen as the main window
+	if ((playlist_screen == mainwindow_screen) || 
+        (!fullscreen_playlist_was_floating)) 
+	{
+		playlistdock->setFloating(true);
+		playlistdock->hide();
+	}
 	//showPlaylistAct->setChecked(false);
 	//playlist_state = saveState();
 #endif
