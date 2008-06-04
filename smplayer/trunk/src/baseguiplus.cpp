@@ -374,8 +374,8 @@ void BaseGuiPlus::aboutToEnterFullscreen() {
 	ignore_playlist_events = true;
 
 	// Hide the playlist if it's in the same screen as the main window
-	if ((playlist_screen == mainwindow_screen) || 
-        (!fullscreen_playlist_was_floating)) 
+	if ((playlist_screen == mainwindow_screen) /* || 
+        (!fullscreen_playlist_was_floating) */ ) 
 	{
 		playlistdock->setFloating(true);
 		playlistdock->hide();
