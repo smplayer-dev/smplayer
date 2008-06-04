@@ -53,6 +53,9 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 	info->setText( 
 		"<b>SMPlayer</b> &copy; 2006-2008 Ricardo Villalba &lt;rvm@escomposlinux.org&gt;<br><br>"
 		"<b>" + tr("Version: %1").arg(smplayerVersion()) + "</b>" +
+#if PORTABLE_APP
+                " (" + tr("Portable Edition") + ")" +
+#endif
         "<br>" +
         tr("Compiled with Qt %1").arg(QT_VERSION_STR) + "<br><br>" +
 		mplayer_version +
