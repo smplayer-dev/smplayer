@@ -637,6 +637,13 @@ void Core::playNewFile(QString file, int seek) {
 		if (!pref->dont_remember_media_settings) {
 			loadMediaInfo( Helper::filenameForPref(file) );
 			qDebug("Media settings read");
+
+			// Resize the window and set the aspect as soon as possible
+			if ((mset.win_width > 0) && (mset.win_height > 0)) {
+				emit needResize(mset.win_width, mset.win_height);
+				changeAspectRatio(mset.aspect_ratio_id);
+			}
+
 			if (pref->dont_remember_time_pos) {
 				mset.current_sec = 0;
 				qDebug("Time pos reset to 0");
