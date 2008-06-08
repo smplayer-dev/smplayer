@@ -457,7 +457,6 @@ Example: resample=44100:0:0,volnorm</string>
   </layout>
  </widget>
  <layoutdefault spacing="6" margin="11" />
- <pixmapfunction>qPixmapFromMimeSource</pixmapfunction>
  <tabstops>
   <tabstop>tabWidget</tabstop>
   <tabstop>info_edit</tabstop>
