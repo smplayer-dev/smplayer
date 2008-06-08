@@ -26,7 +26,7 @@
     <message>
         <location filename="../about.cpp" line="97"/>
         <source>SMPlayer logo</source>
-        <translation>Логотип SMPlayer</translation>
+        <translation>логотип SMPlayer</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="98"/>
@@ -41,7 +41,7 @@
     <message>
         <location filename="../about.cpp" line="100"/>
         <source>support for colored console output</source>
-        <translation>Поддержка цветного консольного вывода</translation>
+        <translation>поддержка цветного консольного вывода</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="101"/>
@@ -86,7 +86,7 @@
     <message>
         <location filename="../about.cpp" line="147"/>
         <source>Simplified-Chinese</source>
-        <translation>Упрощенный китайский</translation>
+        <translation>Упрощённый китайский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="148"/>
@@ -146,7 +146,7 @@
     <message>
         <location filename="../about.cpp" line="162"/>
         <source>Turkish</source>
-        <translation>Тюркская</translation>
+        <translation>Турецкий</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="163"/>
@@ -241,7 +241,7 @@
     <message>
         <location filename="../about.cpp" line="67"/>
         <source>More info</source>
-        <translation>Доп. информация</translation>
+        <translation>Дополнительная информация</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="172"/>
@@ -354,7 +354,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1003"/>
         <source>D&amp;irectory...</source>
-        <translation>&amp;Каталог...</translation>
+        <translation>К&amp;аталог...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1004"/>
@@ -364,22 +364,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1007"/>
         <source>&amp;DVD from drive</source>
-        <translation>&amp;DVD с привода</translation>
+        <translation>DVD с &amp;привода</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1008"/>
         <source>D&amp;VD from folder...</source>
-        <translation>D&amp;VD из каталога...</translation>
+        <translation>DVD из &amp;каталога...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1009"/>
         <source>&amp;URL...</source>
-        <translation>&amp;Адрес...</translation>
+        <translation>А&amp;дрес...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1013"/>
         <source>P&amp;lay</source>
-        <translation>Воспро&amp;изведение</translation>
+        <translation>&amp;Воспроизведение</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1019"/>
@@ -394,7 +394,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1021"/>
         <source>&amp;Frame step</source>
-        <translation>&amp;Шаг кадров</translation>
+        <translation>По&amp;кадрово</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1033"/>
@@ -449,7 +449,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1047"/>
         <source>&amp;Screenshot</source>
-        <translation>Снимок эк&amp;рана</translation>
+        <translation>С&amp;нимок экрана</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1048"/>
@@ -489,7 +489,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1073"/>
         <source>&amp;Mute</source>
-        <translation>&amp;Выключить звук</translation>
+        <translation>Выключит&amp;ь звук</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1074"/>
@@ -529,7 +529,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1087"/>
         <source>&amp;Load...</source>
-        <translation>&amp;Открыть...</translation>
+        <translation>Загрузить из &amp;файла...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1089"/>
@@ -554,12 +554,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1104"/>
         <source>&amp;Playlist</source>
-        <translation>С&amp;писок воспроизведения</translation>
+        <translation>&amp;Список воспроизведения</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1107"/>
         <source>&amp;Show frame counter</source>
-        <translation>&amp;Показать счетчик кадров</translation>
+        <translation>Показать счетчик &amp;кадров</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1110"/>
@@ -574,12 +574,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1119"/>
         <source>About &amp;Qt</source>
-        <translation>О &amp;Qt</translation>
+        <translation>&amp;О Qt</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1120"/>
         <source>About &amp;SMPlayer</source>
-        <translation>Об &amp;SMPlayer</translation>
+        <translation>О&amp;б SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1171"/>
@@ -589,7 +589,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1172"/>
         <source>&amp;Play</source>
-        <translation>Воспро&amp;изведение</translation>
+        <translation>Вос&amp;произведение</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1173"/>
@@ -729,7 +729,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1278"/>
         <source>&amp;Select</source>
-        <translation>&amp;Выбрать</translation>
+        <translation>Вы&amp;брать</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1282"/>
@@ -749,7 +749,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1292"/>
         <source>&amp;OSD</source>
-        <translation>Вид &amp;OSD</translation>
+        <translation>&amp;Вид OSD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1164"/>
@@ -866,12 +866,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1088"/>
         <source>U&amp;nload</source>
-        <translation>&amp;Выгрузить</translation>
+        <translation>В&amp;ыгрузить</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1005"/>
         <source>V&amp;CD</source>
-        <translation>V&amp;CD</translation>
+        <translation>&amp;Видео CD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1010"/>
@@ -931,7 +931,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1098"/>
         <source>N&amp;ext line in subtitles</source>
-        <translation>&amp;Следующая фраза</translation>
+        <translation>С&amp;ледующая фраза</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1318"/>
@@ -986,12 +986,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1149"/>
         <source>Dec hue</source>
-        <translation>Уменьшить цветность</translation>
+        <translation>Оттенок вперёд</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1150"/>
         <source>Inc hue</source>
-        <translation>Повысить цветность</translation>
+        <translation>Оттенок назад</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1151"/>
@@ -1036,7 +1036,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1078"/>
         <source>&amp;Load external file...</source>
-        <translation>&amp;Загрузить внешний файл...</translation>
+        <translation>За&amp;грузить из файла...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1243"/>
@@ -1096,7 +1096,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1049"/>
         <source>Flip i&amp;mage</source>
-        <translation>Пере&amp;вернуть картинку</translation>
+        <translation>Перевернуть &amp;картинку</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1159"/>
@@ -1126,7 +1126,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1117"/>
         <source>&amp;FAQ</source>
-        <translation>&amp;FAQ</translation>
+        <translation>FAQ (Ч&amp;АВО)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1109"/>
@@ -1136,7 +1136,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1118"/>
         <source>&amp;Command line options</source>
-        <translation>&amp;Опции командной строки</translation>
+        <translation>Опции командной &amp;строки</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2753"/>
@@ -1191,12 +1191,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1216"/>
         <source>&amp;Rotate</source>
-        <translation>&amp;Поворот</translation>
+        <translation>По&amp;ворот</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1249"/>
         <source>&amp;Off</source>
-        <translation>&amp;Отключен</translation>
+        <translation>О&amp;тключен</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1250"/>
@@ -1221,7 +1221,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1034"/>
         <source>&amp;Jump to...</source>
-        <translation>&amp;Перейти к...</translation>
+        <translation>П&amp;ерейти к...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1161"/>
@@ -1239,7 +1239,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="162"/>
         <source>SMPlayer is still running here</source>
-        <translation>SMPlayer запущен</translation>
+        <translation>SMPlayer всё ещё запущен</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="183"/>
@@ -1287,7 +1287,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../corelib/core.cpp" line="2072"/>
         <source>Hue: %1</source>
-        <translation>Цвет: %1</translation>
+        <translation>Оттенок: %1</translation>
     </message>
     <message>
         <location filename="../corelib/core.cpp" line="2080"/>
@@ -1302,7 +1302,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../corelib/core.cpp" line="2873"/>
         <source>Zoom: %1</source>
-        <translation>Зум: %1</translation>
+        <translation>Увеличение: %1</translation>
     </message>
     <message>
         <location filename="../corelib/core.cpp" line="2318"/>
@@ -1325,7 +1325,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="383"/>
         <source>Subtitle</source>
-        <translation>Субтитры</translation>
+        <translation>С/титры</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="376"/>
@@ -1348,27 +1348,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../encodings.cpp" line="31"/>
         <source>Western European Languages</source>
-        <translation>Восточная Европа</translation>
+        <translation>Восточноевропейская</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="32"/>
         <source>Western European Languages with Euro</source>
-        <translation>Восточная Европа с Евро</translation>
+        <translation>Восточноевропейская с Евро</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="33"/>
         <source>Slavic/Central European Languages</source>
-        <translation>Кириллица/Центральная Европа</translation>
+        <translation>Славянская/центральноевропейская</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="34"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
-        <translation>Эсперанто, Гальский, Мальтийский, Тюркский</translation>
+        <translation>Эсперанто, Галисийская, Мальтийская, Турецкая</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="35"/>
         <source>Old Baltic charset</source>
-        <translation>Балтийская старая</translation>
+        <translation>Старая Балтийская</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="36"/>
@@ -1388,7 +1388,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../encodings.cpp" line="39"/>
         <source>Turkish</source>
-        <translation>Тюркская</translation>
+        <translation>Турецкая</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="40"/>
@@ -1448,12 +1448,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../encodings.cpp" line="51"/>
         <source>Slavic/Central European Windows</source>
-        <translation>Кириллица/Центральная Европа Windows</translation>
+        <translation>Славянская/центральноевропейская Windows</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="52"/>
         <source>Arabic Windows</source>
-        <translation>Арабский Windows</translation>
+        <translation>Арабская Windows</translation>
     </message>
 </context>
 <context>
@@ -1522,7 +1522,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../filepropertiesdialog.ui" line="118"/>
         <source>&amp;Video codec</source>
-        <translation>В&amp;идео кодек</translation>
+        <translation>В&amp;идео</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="130"/>
@@ -1532,7 +1532,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../filepropertiesdialog.ui" line="180"/>
         <source>A&amp;udio codec</source>
-        <translation>А&amp;удио кодек</translation>
+        <translation>А&amp;удио</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="192"/>
@@ -1555,7 +1555,7 @@ The configuration dialog will be shown now, so you can do it.</source>
 Write them separated by spaces.
 Example: -flip -nosound</source>
         <translation>Здесь можно указать дополнительные параметры для MPlayer.
-Указывайте их разделяя пробелами.
+Указывайте их, разделяя пробелами.
 Например: -flip -nosound</translation>
     </message>
     <message>
@@ -1569,7 +1569,7 @@ Example: -flip -nosound</source>
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
         <translation>Также Вы можете передать дополнительные фильтры видео.
-Разделять запятой. Не использовать пробелы!
+Разделяйте их запятой. Не используйте пробелы!
 Пример: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
@@ -1581,7 +1581,7 @@ Example: scale=512:-2,eq2=1.1</source>
         <location filename="../filepropertiesdialog.ui" line="390"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
-        <translation>Фильтры звука. Используются аналогично фильтрам видео.
+        <translation>Аудио фильтры. Используются аналогично видео фильтрам.
 Пример: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
@@ -1610,7 +1610,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../infofile.cpp" line="60"/>
         <source>General</source>
-        <translation>Главное</translation>
+        <translation>Основная информация</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="64"/>
@@ -1625,7 +1625,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../infofile.cpp" line="71"/>
         <source>URL</source>
-        <translation>URL</translation>
+        <translation>Адрес</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="73"/>
@@ -1871,12 +1871,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../inputurl.ui" line="13"/>
         <source>SMPlayer - Enter URL</source>
-        <translation>SMPlayer - укажите URL</translation>
+        <translation>SMPlayer - укажите адрес</translation>
     </message>
     <message>
         <location filename="../inputurl.ui" line="83"/>
         <source>&amp;URL:</source>
-        <translation>&amp;URL:</translation>
+        <translation>&amp;Адрес:</translation>
     </message>
     <message>
         <location filename="../inputurl.ui" line="49"/>
@@ -1886,7 +1886,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../inputurl.cpp" line="31"/>
         <source>If this option is checked, the URL will be treated as a playlist: it will be opened as text and will play the URLs in it.</source>
-        <translation>Если выбрано, URL будет воспринят как список: он будет открыть как текст и будут воспроизведены URL из него.</translation>
+        <translation>Если опция отмечена, адрес будет воспринят как список: он будет открыть как текст и будут воспроизведены адреса из него.</translation>
     </message>
 </context>
 <context>
@@ -2072,7 +2072,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="299"/>
         <source>S&amp;huffle</source>
-        <translation>Пере&amp;тасовать</translation>
+        <translation>Пере&amp;мешать</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="304"/>
@@ -2122,7 +2122,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="725"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
-        <translation>Изменения не сохраенены, желаете сохранить список воспроизведения?</translation>
+        <translation>Есть несохранённые изменения, желаете сохранить список воспроизведения?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="301"/>
@@ -2145,12 +2145,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlistpreferences.ui" line="28"/>
         <source>&amp;Add files in directories recursively</source>
-        <translation>&amp;Добавить файлы из каталогов рекурсивно</translation>
+        <translation>&amp;Добавлять файлы из каталогов рекурсивно</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.cpp" line="39"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation>Выберите эту опцию, чтобы извлечь из добавляемых в список файлов некоторую информацию. Это позволяет отображать имя (если доступно) и информацию о файлах. Иначе эта информация не будет доступна, пока файл не начнёт воспроизводиться. Будьте осторожны: эта опция может быть медленной, особенно при большом количестве добавляемых файлов.</translation>
+        <translation>Выберите эту опцию, чтобы извлечь из добавляемых в список файлов некоторую информацию. Это позволяет отображать имя (если доступно) и информацию о файлах. Иначе эта информация не будет доступна, пока файл не начнёт воспроизводиться. Будьте осторожны: эта опция может замедлить работу, особенно при большом количестве добавляемых файлов.</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="35"/>
@@ -2207,13 +2207,13 @@ Example: scale=512:-2,eq2=1.1</source>
         <location filename="../prefadvanced.ui" line="427"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
-        <translation>Фильтры звука. Используются аналогично фильтрам видео.
+        <translation>Аудио фильтры. Используются аналогично фильтрам видео.
 Пример: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="361"/>
         <source>Don&apos;t repaint the background of the video window</source>
-        <translation>Не перерисовывать фон области воспроизведения</translation>
+        <translation>Не перерисовывать фон окна с видео</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="330"/>
@@ -2244,7 +2244,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="363"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation>Использование этого параметра может убрать моргание изображения, однако возможно, что видео при этом будет отображаться неверно.</translation>
+        <translation>Использование этого параметра может убрать мерцание изображения, однако при этом возможно, неверное отображение видео.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="334"/>
@@ -2354,7 +2354,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="342"/>
         <source>Autosave MPlayer log filename</source>
-        <translation>Автосохраниение имени файла отчёта MPlayer</translation>
+        <translation>Автосохранение имени файла отчёта MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="344"/>
@@ -2369,7 +2369,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="366"/>
         <source>Pass short filenames (8+3) to MPlayer</source>
-        <translation>Передавать MPlayer-у короткие имена</translation>
+        <translation>Передавать MPlayer-у короткие (8+3) имена</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="370"/>
@@ -2379,7 +2379,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.ui" line="267"/>
         <source>&amp;Pass short filenames (8+3) to MPlayer</source>
-        <translation>Передавать MPlayer-у &amp;короткие имена</translation>
+        <translation>Передавать MPlayer-у &amp;короткие (8+3) имена</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="320"/>
@@ -2409,7 +2409,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="377"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
-        <translation>Если вы видете, что части видео на других окнах, измените код цвета чтобы исправить это. Попытайтесь выбрать цвет близкий к чёрному.</translation>
+        <translation>Если вы видете, некоторые части видео на других окнах, вы можете изменить код цвета чтобы исправить это. Попытайтесь выбрать цвет близкий к чёрному.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="380"/>
@@ -2424,7 +2424,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="384"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
-        <translation>Здесь можно ввести параметры MPlayer, разделённые пробелами.</translation>
+        <translation>Здесь можно ввести параметры MPlayer, разделяя их пробелами.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="386"/>
@@ -2598,7 +2598,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="472"/>
         <source>General</source>
-        <translation>Основное</translation>
+        <translation>Основные</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="29"/>
@@ -2613,12 +2613,12 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="88"/>
         <source>Output drivers</source>
-        <translation>Устройство вывода</translation>
+        <translation>Устройства вывода</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="175"/>
         <source>Media settings</source>
-        <translation>Настройки медиа</translation>
+        <translation>Настройки мультимедиа</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="601"/>
@@ -2638,7 +2638,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="546"/>
         <source>Disable screensaver</source>
-        <translation>Подавить скринсэйвер</translation>
+        <translation>Подавить хранитель экрана</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="551"/>
@@ -2688,22 +2688,22 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="486"/>
         <source>Video output driver</source>
-        <translation>Драйвер видео-вывода</translation>
+        <translation>Устройство вывода видео</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="488"/>
         <source>Select the video output driver. Usually xv (linux) and directx (windows) provide the best performance.</source>
-        <translation>Выберите драйвер вывода изображения на экран. Обычно xv (для linux) и directx (для windows) обеспечивают наибольшую производительность.</translation>
+        <translation>Выберите устройство вывода изображения на экран. Обычно xv (для linux) и directx (для windows) обеспечивают наибольшую производительность.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="490"/>
         <source>Audio output driver</source>
-        <translation>Драйвер аудио-вывода</translation>
+        <translation>Устройство вывода аудио</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="491"/>
         <source>Select the audio output driver.</source>
-        <translation>Выберите драйвер вывода для звука.</translation>
+        <translation>Выберите устройство вывода для аудио.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="493"/>
@@ -2723,7 +2723,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="500"/>
         <source>If you check this option, smplayer will play all files from the beginning.</source>
-        <translation>Если вы выберите эту опцию, smplaer будет проигрывать все файлы с начала.</translation>
+        <translation>Если вы отметите эту опцию, smplaer будет проигрывать все файлы с начала.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="603"/>
@@ -2758,7 +2758,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="544"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
-        <translation>Если эта опция выбрана, все видео будет воспроизводиться &quot;На весь экран&quot; с самого начала.</translation>
+        <translation>Если эта опция выбрана, всё видео будет стартовать в полноэкранном режиме.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="549"/>
@@ -2828,7 +2828,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="214"/>
         <source>&amp;Don&apos;t remember time position (files start playing from the beginning)</source>
-        <translation>Н&amp;е запоминать позицию (каждый файл воспроизводится с начала)</translation>
+        <translation>Н&amp;е запоминать позицию (файл начинают воспроизводиться с начала)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="221"/>
@@ -2883,7 +2883,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="535"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; May cause OSD/SUB corruption!</source>
-        <translation>Если выбрано - включен прямой рендеринг (поддерживается не всеми кодеками и модулями видео вывода)&lt;br&gt;&lt;b&gt;ВНИМАНИЕ:&lt;/b&gt; Могут возникнуть проблемы с OSD/SUB!</translation>
+        <translation>Если выбрано - включен прямой рендеринг (поддерживается не всеми кодеками и модулями видео вывода)&lt;br&gt;&lt;b&gt;ВНИМАНИЕ:&lt;/b&gt; Могут возникнуть проблемы с OSD/субтитрами!</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="537"/>
@@ -2903,7 +2903,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="540"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
-        <translation>Двойная буферизация исправляет мерцание кадров благодаря тому, что загружает в память два кадра и, одновременно отображая один, обрабатывает следующий. Выключение этого параметра может негативно сказаться на OSD.</translation>
+        <translation>Двойная буферизация исправляет мерцание кадров благодаря тому, что в память загружается два кадра и, при отображении одного, обрабатывается следующий. Выключение этого параметра может негативно сказаться на OSD.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="289"/>
@@ -3174,7 +3174,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="530"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
-        <translation>Выберите фильтр деинтерлейсинга (удаление &quot;гребёнки&quot;), который вы хотите использовать для открываемых новых видеофайлов.</translation>
+        <translation>Выберите фильтр деинтерлейсинга (удаление &quot;гребёнки&quot;), который вы хотите использовать по умолчанию для новых видеофайлов.</translation>
     </message>
 </context>
 <context>
@@ -3222,7 +3222,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="129"/>
         <source>Zoom video</source>
-        <translation>Зум</translation>
+        <translation>Увеличение</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="53"/>
@@ -3232,7 +3232,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="67"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Здесь можно изменить настройки горячих клавиш. Чтобы сделать это, дважды кликните мышкой или нажмите клавишу в необходимой ячейке. Вы можете сохранить список горячих клавиш, чтобы им могли воспользоваться другие люди или вы сами на другом компьютере.</translation>
+        <translation>Здесь можно изменить настройки горячих клавиш. Чтобы сделать это, дважды щёлкните мышкой или нажмите клавишу в необходимой ячейке. Вы можете сохранить список горячих клавиш, чтобы им могли воспользоваться другие люди или вы сами на другом компьютере.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="289"/>
@@ -3417,12 +3417,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="216"/>
         <source>X Button &amp;1</source>
-        <translation>Дополнительная кнопка  &amp;1</translation>
+        <translation>Доп. кнопка  &amp;1</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="242"/>
         <source>X Button &amp;2</source>
-        <translation>Дополнительная кнопка  &amp;2</translation>
+        <translation>Доп. кнопка  &amp;2</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="59"/>
@@ -3550,12 +3550,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="104"/>
         <source>Portuguese - Brazil</source>
-        <translation>Португальский - Бразилия</translation>
+        <translation>Португальский (Бразилия)</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="105"/>
         <source>Portuguese - Portugal</source>
-        <translation>Португальский - Португалия</translation>
+        <translation>Португальский (Португалия)</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="106"/>
@@ -3585,7 +3585,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="111"/>
         <source>Turkish</source>
-        <translation>Тюркская</translation>
+        <translation>Турецкий</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="112"/>
@@ -3600,7 +3600,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="114"/>
         <source>Traditional Chinese</source>
-        <translation>Китайский традиционный</translation>
+        <translation>Традиционный китайский</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="121"/>
@@ -3640,7 +3640,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="97"/>
         <source>Only after loading a new video</source>
-        <translation>Только после открытия нового видео</translation>
+        <translation>Только для нового видео</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="454"/>
@@ -3670,7 +3670,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="95"/>
         <source>Galician</source>
-        <translation>Гальский</translation>
+        <translation>Галийский</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="148"/>
@@ -3690,7 +3690,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="151"/>
         <source>Mouse &amp;wheel jump</source>
-        <translation>Интервал при перемотке мы&amp;шь</translation>
+        <translation>Интервал при перемотке мы&amp;шью</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="542"/>
@@ -3715,7 +3715,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="209"/>
         <source>Ico&amp;n set:</source>
-        <translation>Набор &amp;пикограмм:</translation>
+        <translation>Набор &amp;значков:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="196"/>
@@ -3815,12 +3815,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="457"/>
         <source>Icon set</source>
-        <translation>Набор пиктограмм</translation>
+        <translation>Набор значков</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="458"/>
         <source>Select the icon set you prefer for the application.</source>
-        <translation>Выберите предпочитаемый для приложения набор пиктограмм.</translation>
+        <translation>Выберите предпочитаемый для приложения набор значков.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="460"/>
@@ -4033,7 +4033,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="221"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation>Утсновите приоритет mplayer как стандартный для Windows..&lt;br&gt;&lt;b&gt;ОСТОРОЖНО:&lt;/b&gt; Использование приоритета реального времени может заблокировать систему.</translation>
+        <translation>Утсновите приоритет mplayer как стандартный для Windows..&lt;br&gt;&lt;b&gt;ОСТОРОЖНО:&lt;/b&gt; Использование приоритета реального времени может сильно замедлить работу системы.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="225"/>
@@ -4113,7 +4113,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="263"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
-        <translation>Если отмечено, SMPlayer попытается использовать быстрейший метод для поиска по главам, но это может не работать с некоторыми дисками.</translation>
+        <translation>Если отмечено, SMPlayer попытается использовать более быстрый метод для поиска по главам, но эта опция может не работать с некоторыми дисками.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="231"/>
@@ -4241,7 +4241,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="76"/>
         <source>Choose a ttf file</source>
-        <translation>Выбрать ttf файл</translation>
+        <translation>Выбрать TTF файл</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="77"/>
@@ -4256,12 +4256,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="44"/>
         <source>Autoload</source>
-        <translation>Автооткрытие</translation>
+        <translation>Автозагрузка</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
         <source>Same name as movie</source>
-        <translation>Такое же название как и у фильма</translation>
+        <translation>С тем же именем, что и у фильма</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="82"/>
@@ -4356,7 +4356,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="344"/>
         <source>SSA/ASS styles</source>
-        <translation></translation>
+        <translation>Стили SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="56"/>
@@ -4822,7 +4822,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.cpp" line="84"/>
         <source>Hue</source>
-        <translation>Цвет</translation>
+        <translation>Оттенок</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="88"/>
