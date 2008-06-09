@@ -549,6 +549,15 @@ void BaseGui::createActions() {
 	useForcedSubsOnlyAct->setCheckable(true);
 	connect( useForcedSubsOnlyAct, SIGNAL(toggled(bool)), core, SLOT(toggleForcedSubsOnly(bool)) );
 
+	openSubtitlesHashPageAct = new MyAction( this, "open_subtitles_hash_page" );	//turbos
+	connect( openSubtitlesHashPageAct, SIGNAL(triggered()),							//turbos
+             this, SLOT(openSubtitlesHashPage()) );									//turbos
+
+	openUploadSubtitlesPageAct = new MyAction( this, "upload_subtitles" );		//turbos
+	connect( openUploadSubtitlesPageAct, SIGNAL(triggered()),					//turbos
+             this, SLOT(openUploadSubtitlesPage()) );							//turbos
+
+
 	// Menu Options
 	showPlaylistAct = new MyAction( QKeySequence("Ctrl+L"), this, "show_playlist" );
 	showPlaylistAct->setCheckable( true );
@@ -881,6 +890,7 @@ void BaseGui::setActionsEnabled(bool b) {
 	decSubStepAct->setEnabled(b);
 	incSubScaleAct->setEnabled(b);
 	decSubScaleAct->setEnabled(b);
+	openSubtitlesHashPageAct->setEnabled(b);
 
 	// Actions not in menus
 #if !USE_MULTIPLE_SHORTCUTS
@@ -1099,6 +1109,9 @@ void BaseGui::retranslateStrings() {
 	useAssAct->change( Images::icon("use_ass_lib"), tr("Use SSA/&ASS library") );
 	useClosedCaptionAct->change( Images::icon("closed_caption"), tr("Enable &closed caption") );
 	useForcedSubsOnlyAct->change( Images::icon("forced_subs"), tr("&Forced subtitles only") );
+
+	openSubtitlesHashPageAct->change( tr("Find subtitles for this movie on the &web...") ); //turbos
+	openUploadSubtitlesPageAct->change( tr("Upl&oad subtitles...") ); //turbos
 
 	// Menu Options
 	showPlaylistAct->change( Images::icon("playlist"), tr("&Playlist") );
@@ -1697,6 +1710,9 @@ void BaseGui::createMenus() {
 	subtitlesMenu->addAction(useForcedSubsOnlyAct);
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(useAssAct);
+	subtitlesMenu->addSeparator(); //turbos
+	subtitlesMenu->addAction(openSubtitlesHashPageAct); //turbos
+	subtitlesMenu->addAction(openUploadSubtitlesPageAct); //turbos
 
 	// BROWSE MENU
 	// Titles submenu
@@ -3578,6 +3594,47 @@ void BaseGui::showErrorFromMplayer(QProcess::ProcessError e) {
 		d.exec();
 	}
 }
+
+
+// openSubtitlesHashPage | (c) Kamil Dziobek turbos11(at)gmail.com | BSD or GPL or public domain 
+// Hash movie file and go to subtitle download page.
+// See more implementations on: http://trac.opensubtitles.org/projects/opensubtitles/wiki/HashSourceCodes
+void BaseGui::openSubtitlesHashPage() {   //turbos
+	qDebug("BaseGui::openSubtitlesHashPage");
+
+	QFile file(core->mdat.filename);
+
+	if (!file.exists()) {
+		qDebug("BaseGui::openSubtitlesHashPage: error: hashing file. File doesn't exist.");
+			return;
+	}
+
+	file.open(QIODevice::ReadOnly);
+	QDataStream in(&file);
+	in.setByteOrder(QDataStream::LittleEndian);
+	quint64 size=file.size ();
+	quint64 hash=size; 
+	quint64 a;
+	for(int i = 0; i < 8192; i++) {
+		in >> a ; hash += a;
+	};
+	file.seek(size-65536);
+	for(int i = 0; i < 8192; i++) {
+		in >> a ; hash += a;
+	};
+	QString link("http://www.opensubtitles.org/search/sublanguageid-all/moviehash-");
+	QString hexhash("");
+	hexhash.setNum(hash,16);
+	link = link + hexhash;
+	qDebug("BaseGui::openSubtitlesHashPage: open link: '%s'", link.toUtf8().data());
+
+	QDesktopServices::openUrl( QUrl(link) );
+}
+
+void BaseGui::openUploadSubtitlesPage() {	
+	QDesktopServices::openUrl( QUrl("http://ds6.ovh.org/hashsubtitles/upload.php") );
+}
+
 
 // Language change stuff
 void BaseGui::changeEvent(QEvent *e) {
