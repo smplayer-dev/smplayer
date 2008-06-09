@@ -89,6 +89,9 @@ public slots:
     virtual void loadSub();
 	virtual void loadAudioFile(); // Load external audio file
 
+	virtual void openSubtitlesHashPage(); //turbos
+	virtual void openUploadSubtitlesPage(); //turbos
+
 	virtual void showPlaylist();
 	virtual void showPlaylist(bool b);
 	virtual void showEqualizer();
@@ -349,6 +352,8 @@ protected:
 	MyAction * useAssAct;
 	MyAction * useClosedCaptionAct;
 	MyAction * useForcedSubsOnlyAct;
+	MyAction * openSubtitlesHashPageAct;//turbos
+	MyAction * openUploadSubtitlesPageAct;//turbos  
 
 	// Menu Options
 	MyAction * showPlaylistAct;
