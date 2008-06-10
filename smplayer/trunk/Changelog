@@ -1,5 +1,10 @@
 [b]Version 0.6.2[/b]:
 
+(2008-06-10)
+ * Renamed the config option "dont_use_eq_options" to 
+   "change_equalizer_on_startup" and set it to false as default because 
+   it seems some people are having problems with high brightness and contrast.
+
 (2008-06-09)
  * Added the opensubtitles patch by Kamil Dziobek <turbos11@gmail.com> (with
    some modifications). This adds an option in the subtitles menu which 
