@@ -848,7 +848,9 @@ void Core::finishRestart() {
 	}
 	if (isMuted) mute(TRUE);
 
-	setGamma( mset.gamma );
+	if (pref->change_equalizer_on_startup) {
+		setGamma( mset.gamma );
+	}
 
 	changePanscan(mset.panscan_factor);
 
@@ -1380,7 +1382,7 @@ void Core::startMplayer( QString file, double seek ) {
 
 	// Contrast, brightness...
 	//if (mset.contrast !=0) {
-	if (!pref->dont_use_eq_options) {
+	if (pref->change_equalizer_on_startup) {
 		proc->addArgument("-contrast");
 		proc->addArgument( QString::number( mset.contrast ) );
 	}
@@ -1388,7 +1390,7 @@ void Core::startMplayer( QString file, double seek ) {
 	#ifdef Q_OS_WIN
 	if (mset.brightness != 0) {
 	#endif
-		if (!pref->dont_use_eq_options) {
+		if (pref->change_equalizer_on_startup) {
 			proc->addArgument("-brightness");
 			proc->addArgument( QString::number( mset.brightness ) );
 		}
@@ -1397,13 +1399,13 @@ void Core::startMplayer( QString file, double seek ) {
 	#endif
 
 	//if (mset.hue !=0) {
-	if (!pref->dont_use_eq_options) {
+	if (pref->change_equalizer_on_startup) {
 		proc->addArgument("-hue");
 		proc->addArgument( QString::number( mset.hue ) );
 	}
 
 	//if (mset.saturation !=0) {
-	if (!pref->dont_use_eq_options) {
+	if (pref->change_equalizer_on_startup) {
 		proc->addArgument("-saturation");
 		proc->addArgument( QString::number( mset.saturation ) );
 	}

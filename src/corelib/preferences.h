@@ -220,9 +220,9 @@ public:
 	//! is still running in the system tray.
 	int balloon_count;
 
-	//! If true, -brightness, -contrast and so on, won't be passed to
+	//! If false, -brightness, -contrast and so on, won't be passed to
 	//! mplayer. It seems that some graphic cards don't support those options.
-	bool dont_use_eq_options;
+	bool change_equalizer_on_startup;
 
 	//! If true, the position of the main window will be saved before
 	//! entering in fullscreen and will restore when going back to
