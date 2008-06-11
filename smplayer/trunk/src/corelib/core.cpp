@@ -848,7 +848,7 @@ void Core::finishRestart() {
 	}
 	if (isMuted) mute(TRUE);
 
-	if (pref->change_equalizer_on_startup && (mset.gamma != 0)) {
+	if (pref->change_video_equalizer_on_startup && (mset.gamma != 0)) {
 		setGamma( mset.gamma );
 	}
 	emit equalizerNeedsUpdate();
@@ -1382,7 +1382,7 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	// Contrast, brightness...
-	if (pref->change_equalizer_on_startup) {
+	if (pref->change_video_equalizer_on_startup) {
 		if (mset.contrast != 0) {
 			proc->addArgument("-contrast");
 			proc->addArgument( QString::number( mset.contrast ) );
