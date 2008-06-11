@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -45,7 +46,7 @@
     <message>
         <location filename="../about.cpp" line="104"/>
         <source>icon for file associations</source>
-        <translation>иконки для ассоциаций файлов</translation>
+        <translation>значки для ассоциаций файлов</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="105"/>
@@ -270,7 +271,7 @@
     <message>
         <location filename="../about.cpp" line="57"/>
         <source>Portable Edition</source>
-        <translation type="unfinished"></translation>
+        <translation>Переносной вариант</translation>
     </message>
 </context>
 <context>
@@ -1240,12 +1241,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1113"/>
         <source>Find subtitles for this movie on the &amp;web...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ис&amp;кать в интернете...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1114"/>
         <source>Upl&amp;oad subtitles...</source>
-        <translation type="unfinished"></translation>
+        <translation>Отп&amp;равить на сайт...</translation>
     </message>
 </context>
 <context>
