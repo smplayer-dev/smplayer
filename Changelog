@@ -9,6 +9,7 @@
    to play.
  * Check that the values for brightness, contrast, saturation. hue and gamma
    have actually changed before updating them. 
+ * Renamed change_equalizer_on_startup to change_video_equalizer_on_startup.
 
 (2008-06-10)
  * Renamed the config option "dont_use_eq_options" to 

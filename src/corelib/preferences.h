@@ -222,7 +222,7 @@ public:
 
 	//! If false, -brightness, -contrast and so on, won't be passed to
 	//! mplayer. It seems that some graphic cards don't support those options.
-	bool change_equalizer_on_startup;
+	bool change_video_equalizer_on_startup;
 
 	//! If true, the position of the main window will be saved before
 	//! entering in fullscreen and will restore when going back to

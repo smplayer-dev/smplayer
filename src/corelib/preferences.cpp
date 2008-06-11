@@ -214,7 +214,7 @@ void Preferences::reset() {
 
 	balloon_count = 5;
 
-	change_equalizer_on_startup = true;
+	change_video_equalizer_on_startup = true;
 
 #ifdef Q_OS_WIN
 	restore_pos_after_fullscreen = true;
@@ -436,7 +436,7 @@ void Preferences::save() {
 
 	set->setValue("balloon_count", balloon_count);
 
-	set->setValue("change_equalizer_on_startup", change_equalizer_on_startup);
+	set->setValue("change_video_equalizer_on_startup", change_video_equalizer_on_startup);
 
 	set->setValue("restore_pos_after_fullscreen", restore_pos_after_fullscreen);
 	set->setValue("save_window_size_on_exit", save_window_size_on_exit);
@@ -664,7 +664,7 @@ void Preferences::load() {
 
 	balloon_count = set->value("balloon_count", balloon_count).toInt();
 
-	change_equalizer_on_startup = set->value("change_equalizer_on_startup", change_equalizer_on_startup).toBool();
+	change_video_equalizer_on_startup = set->value("change_video_equalizer_on_startup", change_video_equalizer_on_startup).toBool();
 
 	restore_pos_after_fullscreen = set->value("restore_pos_after_fullscreen", restore_pos_after_fullscreen).toBool();
 	save_window_size_on_exit = 	set->value("save_window_size_on_exit", save_window_size_on_exit).toBool();
