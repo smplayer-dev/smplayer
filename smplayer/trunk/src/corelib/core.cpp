@@ -2045,6 +2045,10 @@ void Core::changeUpscale(bool b) {
 
 void Core::setBrightness(int value) {
 	qDebug("Core::setBrightness: %d", value);
+
+	if (value > 100) value = 100;
+	if (value < -100) value = -100;
+
 	if (value != mset.brightness) {
 		tellmp("brightness " + QString::number(value) + " 1");
 		mset.brightness = value;
@@ -2056,6 +2060,10 @@ void Core::setBrightness(int value) {
 
 void Core::setContrast(int value) {
 	qDebug("Core::setContrast: %d", value);
+
+	if (value > 100) value = 100;
+	if (value < -100) value = -100;
+
 	if (value != mset.contrast) {
 		tellmp("contrast " + QString::number(value) + " 1");
 		mset.contrast = value;
@@ -2066,6 +2074,10 @@ void Core::setContrast(int value) {
 
 void Core::setGamma(int value) {
 	qDebug("Core::setGamma: %d", value);
+
+	if (value > 100) value = 100;
+	if (value < -100) value = -100;
+
 	if (value != mset.gamma) {
 		tellmp("gamma " + QString::number(value) + " 1");
 		mset.gamma= value;
@@ -2076,6 +2088,10 @@ void Core::setGamma(int value) {
 
 void Core::setHue(int value) {
 	qDebug("Core::setHue: %d", value);
+
+	if (value > 100) value = 100;
+	if (value < -100) value = -100;
+
 	if (value != mset.hue) {
 		tellmp("hue " + QString::number(value) + " 1");
 		mset.hue = value;
@@ -2086,6 +2102,10 @@ void Core::setHue(int value) {
 
 void Core::setSaturation(int value) {
 	qDebug("Core::setSaturation: %d", value);
+
+	if (value > 100) value = 100;
+	if (value < -100) value = -100;
+
 	if (value != mset.saturation) {
 		tellmp("saturation " + QString::number(value) + " 1");
 		mset.saturation = value;
@@ -2095,63 +2115,43 @@ void Core::setSaturation(int value) {
 }
 
 void Core::incBrightness() {
-	int v = mset.brightness + 4;
-	if (v > 100) v = 100;
-	setBrightness(v);
+	setBrightness(mset.brightness + 4);
 }
 
 void Core::decBrightness() {
-	int v = mset.brightness - 4;
-	if (v < -100) v = -100;
-	setBrightness(v);
+	setBrightness(mset.brightness - 4);
 }
 
 void Core::incContrast() {
-	int v = mset.contrast + 4;
-	if (v > 100) v = 100;
-	setContrast(v);
+	setContrast(mset.contrast + 4);
 }
 
 void Core::decContrast() {
-	int v = mset.contrast - 4;
-	if (v < -100) v = -100;
-	setContrast(v);
+	setContrast(mset.contrast - 4);
 }
 
 void Core::incGamma() {
-	int v = mset.gamma + 4;
-	if (v > 100) v = 100;
-	setGamma(v);
+	setGamma(mset.gamma + 4);
 }
 
 void Core::decGamma() {
-	int v = mset.gamma - 4;
-	if (v < -100) v = -100;
-	setGamma(v);
+	setGamma(mset.gamma - 4);
 }
 
 void Core::incHue() {
-	int v = mset.hue + 4;
-	if (v > 100) v = 100;
-	setHue(v);
+	setHue(mset.hue + 4);
 }
 
 void Core::decHue() {
-	int v = mset.hue - 4;
-	if (v < -100) v = -100;
-	setHue(v);
+	setHue(mset.hue - 4);
 }
 
 void Core::incSaturation() {
-	int v = mset.saturation + 4;
-	if (v > 100) v = 100;
-	setSaturation(v);
+	setSaturation(mset.saturation + 4);
 }
 
 void Core::decSaturation() {
-	int v = mset.saturation - 4;
-	if (v < -100) v = -100;
-	setSaturation(v);
+	setSaturation(mset.saturation - 4);
 }
 
 void Core::setSpeed( double value ) {
