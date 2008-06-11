@@ -848,9 +848,10 @@ void Core::finishRestart() {
 	}
 	if (isMuted) mute(TRUE);
 
-	if (pref->change_equalizer_on_startup) {
+	if (pref->change_equalizer_on_startup && (mset.gamma != 0)) {
 		setGamma( mset.gamma );
 	}
+	emit equalizerNeedsUpdate();
 
 	changePanscan(mset.panscan_factor);
 
@@ -1381,33 +1382,26 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	// Contrast, brightness...
-	//if (mset.contrast !=0) {
 	if (pref->change_equalizer_on_startup) {
-		proc->addArgument("-contrast");
-		proc->addArgument( QString::number( mset.contrast ) );
-	}
+		if (mset.contrast != 0) {
+			proc->addArgument("-contrast");
+			proc->addArgument( QString::number( mset.contrast ) );
+		}
 	
-	#ifdef Q_OS_WIN
-	if (mset.brightness != 0) {
-	#endif
-		if (pref->change_equalizer_on_startup) {
+		if (mset.brightness != 0) {
 			proc->addArgument("-brightness");
 			proc->addArgument( QString::number( mset.brightness ) );
 		}
-	#ifdef Q_OS_WIN
-	}
-	#endif
 
-	//if (mset.hue !=0) {
-	if (pref->change_equalizer_on_startup) {
-		proc->addArgument("-hue");
-		proc->addArgument( QString::number( mset.hue ) );
-	}
+		if (mset.hue != 0) {
+			proc->addArgument("-hue");
+			proc->addArgument( QString::number( mset.hue ) );
+		}
 
-	//if (mset.saturation !=0) {
-	if (pref->change_equalizer_on_startup) {
-		proc->addArgument("-saturation");
-		proc->addArgument( QString::number( mset.saturation ) );
+		if (mset.saturation != 0) {
+			proc->addArgument("-saturation");
+			proc->addArgument( QString::number( mset.saturation ) );
+		}
 	}
 
 	// Set volume, requires a patched mplayer

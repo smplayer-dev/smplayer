@@ -214,7 +214,7 @@ void Preferences::reset() {
 
 	balloon_count = 5;
 
-	change_equalizer_on_startup = false;
+	change_equalizer_on_startup = true;
 
 #ifdef Q_OS_WIN
 	restore_pos_after_fullscreen = true;
