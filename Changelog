@@ -7,6 +7,8 @@
    if the value is 0.
  * Also be sure that the equalizer dialog is updated just after a file begins
    to play.
+ * Check that the values for brightness, contrast, saturation. hue and gamma
+   have actually changed before updating them. 
 
 (2008-06-10)
  * Renamed the config option "dont_use_eq_options" to 

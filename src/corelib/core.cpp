@@ -2045,43 +2045,53 @@ void Core::changeUpscale(bool b) {
 
 void Core::setBrightness(int value) {
 	qDebug("Core::setBrightness: %d", value);
-	tellmp("brightness " + QString::number(value) + " 1");
-	mset.brightness = value;
-	displayMessage( tr("Brightness: %1").arg(value) );
-	emit equalizerNeedsUpdate();
+	if (value != mset.brightness) {
+		tellmp("brightness " + QString::number(value) + " 1");
+		mset.brightness = value;
+		displayMessage( tr("Brightness: %1").arg(value) );
+		emit equalizerNeedsUpdate();
+	}
 }
 
 
 void Core::setContrast(int value) {
 	qDebug("Core::setContrast: %d", value);
-	tellmp("contrast " + QString::number(value) + " 1");
-	mset.contrast = value;
-	displayMessage( tr("Contrast: %1").arg(value) );
-	emit equalizerNeedsUpdate();
+	if (value != mset.contrast) {
+		tellmp("contrast " + QString::number(value) + " 1");
+		mset.contrast = value;
+		displayMessage( tr("Contrast: %1").arg(value) );
+		emit equalizerNeedsUpdate();
+	}
 }
 
 void Core::setGamma(int value) {
 	qDebug("Core::setGamma: %d", value);
-	tellmp("gamma " + QString::number(value) + " 1");
-	mset.gamma= value;
-	displayMessage( tr("Gamma: %1").arg(value) );
-	emit equalizerNeedsUpdate();
+	if (value != mset.gamma) {
+		tellmp("gamma " + QString::number(value) + " 1");
+		mset.gamma= value;
+		displayMessage( tr("Gamma: %1").arg(value) );
+		emit equalizerNeedsUpdate();
+	}
 }
 
 void Core::setHue(int value) {
 	qDebug("Core::setHue: %d", value);
-	tellmp("hue " + QString::number(value) + " 1");
-	mset.hue = value;
-	displayMessage( tr("Hue: %1").arg(value) );
-	emit equalizerNeedsUpdate();
+	if (value != mset.hue) {
+		tellmp("hue " + QString::number(value) + " 1");
+		mset.hue = value;
+		displayMessage( tr("Hue: %1").arg(value) );
+		emit equalizerNeedsUpdate();
+	}
 }
 
 void Core::setSaturation(int value) {
 	qDebug("Core::setSaturation: %d", value);
-	tellmp("saturation " + QString::number(value) + " 1");
-	mset.saturation = value;
-	displayMessage( tr("Saturation: %1").arg(value) );
-	emit equalizerNeedsUpdate();
+	if (value != mset.saturation) {
+		tellmp("saturation " + QString::number(value) + " 1");
+		mset.saturation = value;
+		displayMessage( tr("Saturation: %1").arg(value) );
+		emit equalizerNeedsUpdate();
+	}
 }
 
 void Core::incBrightness() {
