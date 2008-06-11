@@ -270,7 +270,7 @@
     <message>
         <location filename="../about.cpp" line="57"/>
         <source>Portable Edition</source>
-        <translation type="unfinished"></translation>
+        <translation>ポータブル エディション</translation>
     </message>
 </context>
 <context>
@@ -1240,12 +1240,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1113"/>
         <source>Find subtitles for this movie on the &amp;web...</source>
-        <translation type="unfinished"></translation>
+        <translation>ウェブからこのムービーの字幕を検索(&amp;W)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1114"/>
         <source>Upl&amp;oad subtitles...</source>
-        <translation type="unfinished"></translation>
+        <translation>字幕のアップロード(&amp;O)...</translation>
     </message>
 </context>
 <context>
