@@ -1,5 +1,8 @@
 [b]Version 0.6.2[/b]:
 
+(2008-06-12)
+ * Updated the Hungarian translation, by CyberDragon <cyberdragon777@gmail.com>
+
 (2008-06-11)
  * Now the default value for option change_equalizer_on_startup is true
    (users which run the previous svn revision will have to make the change
