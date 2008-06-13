@@ -275,7 +275,7 @@
     <message>
         <location filename="../about.cpp" line="57"/>
         <source>Portable Edition</source>
-        <translation type="unfinished"></translation>
+        <translation>Edição Portátil</translation>
     </message>
 </context>
 <context>
@@ -1438,12 +1438,12 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="1113"/>
         <source>Find subtitles for this movie on the &amp;web...</source>
-        <translation type="unfinished"></translation>
+        <translation>Encontrar legendas para este filme na &amp;web...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1114"/>
         <source>Upl&amp;oad subtitles...</source>
-        <translation type="unfinished"></translation>
+        <translation>En&amp;viar legendas...</translation>
     </message>
 </context>
 <context>
