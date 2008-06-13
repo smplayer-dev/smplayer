@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -270,7 +271,7 @@
     <message>
         <location filename="../about.cpp" line="57"/>
         <source>Portable Edition</source>
-        <translation type="unfinished"></translation>
+        <translation>Edition portable</translation>
     </message>
 </context>
 <context>
@@ -1240,12 +1241,12 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="1113"/>
         <source>Find subtitles for this movie on the &amp;web...</source>
-        <translation type="unfinished"></translation>
+        <translation>Trouver des sous-titres pour ce film sur le &amp;web...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1114"/>
         <source>Upl&amp;oad subtitles...</source>
-        <translation type="unfinished"></translation>
+        <translation>Env&amp;oyer le sous-titrage...</translation>
     </message>
 </context>
 <context>
