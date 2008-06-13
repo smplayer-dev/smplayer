@@ -1162,7 +1162,7 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument("-vo");
 #ifdef Q_OS_WIN
 		if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA) {
-			proc->addArgument("gl,");
+			proc->addArgument("gl:yuv=2:force-pbo:ati-hack,");
 		} else {
 			proc->addArgument("directx,");
 		}

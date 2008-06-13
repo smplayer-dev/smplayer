@@ -2,6 +2,8 @@
 
 (2008-06-13)
  * Now the SSA/ASS library is enabled by default.
+ * gl:yuv=2:force-pbo:ati-hack will be the default under Windows Vista 
+   (untested).
 
 (2008-06-12)
  * Updated the Hungarian translation, by CyberDragon <cyberdragon777@gmail.com>
