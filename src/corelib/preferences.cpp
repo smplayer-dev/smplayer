@@ -58,7 +58,7 @@ void Preferences::reset() {
 	*/
 
 	use_fontconfig = FALSE;
-	use_ass_subtitles = FALSE;
+	use_ass_subtitles = true;
 	font_file = "";
 	font_name = "";
 	subcp = "ISO-8859-1";

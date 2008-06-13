@@ -1,5 +1,8 @@
 [b]Version 0.6.2[/b]:
 
+(2008-06-13)
+ * Now the SSA/ASS library is enabled by default.
+
 (2008-06-12)
  * Updated the Hungarian translation, by CyberDragon <cyberdragon777@gmail.com>
 
