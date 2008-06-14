@@ -321,7 +321,7 @@
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Plik %1 istnieje
-Nadpisać?</translation>
+Nadpisać go?</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="467"/>
@@ -1242,7 +1242,7 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../basegui.cpp" line="1113"/>
         <source>Find subtitles for this movie on the &amp;web...</source>
-        <translation>Znajdź &amp;napisy w sieci dls tego filmu...</translation>
+        <translation>Znajdź &amp;napisy w sieci dla tego filmu...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1114"/>
@@ -1528,7 +1528,7 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../filepropertiesdialog.ui" line="68"/>
         <source>&amp;Select the demuxer that will be used for this file:</source>
-        <translation>&amp;Wybierz Demuxer, dla tego pliku:</translation>
+        <translation>&amp;Wybierz demuxer, dla tego pliku:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="232"/>
@@ -1538,22 +1538,22 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../filepropertiesdialog.ui" line="118"/>
         <source>&amp;Video codec</source>
-        <translation>&amp;Wideo-Kodek</translation>
+        <translation>&amp;Kodek Wideo</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="130"/>
         <source>&amp;Select the video codec:</source>
-        <translation>&amp;Wybierz Wideo-Kodek:</translation>
+        <translation>&amp;Wybierz Kodek Wideo:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="180"/>
         <source>A&amp;udio codec</source>
-        <translation>A&amp;udio-Kodek</translation>
+        <translation>&amp;Kodek Audio</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="192"/>
         <source>&amp;Select the audio codec:</source>
-        <translation>&amp;Wybierz Audio-Kodek:</translation>
+        <translation>&amp;Wybierz Kodek Audio:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="242"/>
@@ -1923,7 +1923,7 @@ Wybierz katalog, w którym jest VIDEO_TS i AUDIO_TS.</translation>
         <source>The file already exists.
 Do you want to overwrite?</source>
         <translation>Plik istnieje. 
-Nadpisać?</translation>
+Nadpisać go?</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="111"/>
@@ -2019,7 +2019,7 @@ Nadpisać?</translation>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Plik %1 istnieje
-Nadpisać?</translation>
+Nadpisać go?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1117"/>
@@ -2029,7 +2029,7 @@ Nadpisać?</translation>
     <message>
         <location filename="../playlist.cpp" line="1118"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
-        <translation>Wpisz nową nazwę dla tego pliku która będzie wyświetlana w liście 
+        <translation>Wpisz nową nazwę dla tego pliku, która będzie wyświetlana w liście 
 odtwarzania :</translation>
     </message>
     <message>
@@ -2168,7 +2168,7 @@ odtwarzania :</translation>
     <message>
         <location filename="../playlistpreferences.cpp" line="39"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation>Zaznacz tę opcję jeśli chcesz zasięgnąć informacji o plikach dodanych do listy odtwarzania, uwzględniając nazwę (jeśli dostępna) i długość plików. W przeciwnym razie informacje te nie będą dostępne dopóki plik jest odtwarzany. Uwaga: opcja ta jest bardzo wolna zwłaszcza, gdy dodasz dużo plików.</translation>
+        <translation>Zaznacz tę opcję jeśli chcesz zasięgnąć informacji o plikach dodanych do listy odtwarzania, uwzględniając nazwę (jeśli dostępna) i długość plików. W przeciwnym razie informacje te nie będą dostępne dopóki plik jest odtwarzany. Uwaga: opcja ta jest bardzo wolna, zwłaszcza, gdy dodasz dużo plików.</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="35"/>
@@ -2552,7 +2552,7 @@ Rozwijalna lista dostarcza już regularne wyrażenia dla kilku języków.</trans
     <message>
         <location filename="../prefassociations.cpp" line="221"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
-        <translation>Zaznacz rozszerzenia plików, które chciałbyś aby obsługiwał SMPlayer. Gdy naciśniesz Ok, zaznaczone pliki zostaną skojarzone z SMPlayer-em. Jeśli odznaczysz nośnik, skojarzenie plików zostanie przywrócone.</translation>
+        <translation>Zaznacz rozszerzenia plików, które ma obsługiwać SMPlayer. Gdy naciśniesz Ok, zaznaczone pliki zostaną skojarzone z SMPlayerem. Jeśli odznaczysz nośnik, skojarzenie plików zostanie przywrócone.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="213"/>
@@ -3222,7 +3222,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinput.cpp" line="138"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Tutaj możesz zmienić każdy klawisz skrótu. Aby to zrobić kliknij dwa razy w polu klawisza skrótu i przyporządkuj mu klawisz klawiatury. Dodatkowo możesz także zapisać listę aby podzielić się nią z innymi lub wykorzystać na innym komputerze.</translation>
+        <translation>Tutaj możesz zmienić każdy klawisz skrótu. Aby to zrobić kliknij dwa razy w polu klawisza skrótu i przyporządkuj mu klawisz klawiatury. Dodatkowo możesz także zapisać listę, aby podzielić się nią z innymi lub wykorzystać na innym komputerze.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="95"/>
@@ -3267,7 +3267,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinput.ui" line="145"/>
         <source>&amp;Double click</source>
-        <translation>&amp;Lewy przycisk dwuklik</translation>
+        <translation>&amp;Dwuklik lewego przycisku</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="346"/>
@@ -3282,12 +3282,12 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinput.cpp" line="257"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
-        <translation>Tabela ta pozwala zmienić klawisz skrótu dla każdej dostępnej funkcji. Kliknij dwa razu lub wciśnij enter na pozycję, lub wybierz &lt;b&gt;Zmień klawisz skrótu&lt;/b&gt; w dialogu &lt;i&gt;Modyfikuj klawisz skrótu&lt;/i&gt;. Istnieją dwie metody zmiany klawisza skrótu: przez funkcję &lt;b&gt;Zrzut&lt;/b&gt; po prostu naciśnij nowy klawisz lub ich kombinację której chcesz przypisać odpowiednią funkcję (niestety nie działa to z wszystkimi klawiszami). Jeśli przycisk &lt;b&gt;Zrzut&lt;/b&gt; jest wyłączony wtedy możesz wpisać pełną nazwę klawisza.</translation>
+        <translation>Tabela ta pozwala zmienić klawisz skrótu dla każdej dostępnej funkcji. Kliknij dwa razu lub wciśnij enter na pozycję, lub wybierz &lt;b&gt;Zmień klawisz skrótu&lt;/b&gt; w dialogu &lt;i&gt;Modyfikuj klawisz skrótu&lt;/i&gt;. Istnieją dwie metody zmiany klawisza skrótu: przez funkcję &lt;b&gt;Przechwycenie&lt;/b&gt; po prostu naciśnij nowy klawisz lub ich kombinację, której chcesz przypisać odpowiednią funkcję (niestety nie działa to z wszystkimi klawiszami). Jeśli przycisk &lt;b&gt;Przechwycenie&lt;/b&gt; jest wyłączony wtedy możesz wpisać pełną nazwę klawisza.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="261"/>
         <source>Left click</source>
-        <translation>Lewy przycisk myszki</translation>
+        <translation>Lewy przycisk</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="262"/>
@@ -3297,12 +3297,12 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinput.cpp" line="264"/>
         <source>Double click</source>
-        <translation>Dwuklik myszki</translation>
+        <translation>Dwuklik lewego przycisku</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="265"/>
         <source>Select the action for double click on the mouse.</source>
-        <translation>Wybierz funkcję dla dwukliku myszki.</translation>
+        <translation>Wybierz funkcję dla dwukliku lewego przycisku.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="270"/>
@@ -4662,7 +4662,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../clhelp.cpp" line="137"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
-        <translation>okno główne zostanie zamknięte gdy zakończy się plik/lista odtwarzania.</translation>
+        <translation>okno główne zostanie zamknięte, gdy zakończy się plik/lista odtwarzania.</translation>
     </message>
     <message>
         <location filename="../smplayer.cpp" line="276"/>
@@ -4788,12 +4788,12 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../shortcutgetter.cpp" line="293"/>
         <source>Capture</source>
-        <translation>Zrzut</translation>
+        <translation>Przechwycenie</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="294"/>
         <source>Capture keystrokes</source>
-        <translation>Capture keystrokes</translation>
+        <translation>Przechwycenie naciśnięć klawiszy</translation>
     </message>
 </context>
 <context>
