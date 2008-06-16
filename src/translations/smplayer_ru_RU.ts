@@ -4677,7 +4677,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="155"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
-        <translation type="unfinished">Если один экземпляр программы уже запущен, файлы мультимедиа будут добавлены в существующий список. Если других экземпляров не запущено, опция будет игнорирована и файлы будут открыты в новом.</translation>
+        <translation>Если уже запущен экземпляр программы ,то файлы мультимедиа будут добавлены в существующий список. Если же нет – опция будет проигнорирована и файлы будут открыты в новом экземпляре.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="119"/>
