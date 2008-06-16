@@ -17,14 +17,25 @@
 */
 
 #include "filechooser.h"
+
+//#define NO_SMPLAYER_SUPPORT
+
+#ifndef NO_SMPLAYER_SUPPORT
 #include "filedialog.h"
 #include "images.h"
+#else
+#include <QFileDialog>
+#endif
 
 FileChooser::FileChooser(QWidget * parent) : QWidget(parent) 
 {
 	setupUi(this);
 
+#ifndef NO_SMPLAYER_SUPPORT
 	button->setIcon(Images::icon("find"));
+#else
+	button->setIcon(QIcon(":/find"));
+#endif
 
 	setDialogType(GetFileName);
 	setOptions(0);
@@ -57,7 +68,11 @@ void FileChooser::on_button_clicked() {
 		QFileDialog::Options opts = options();
 		if (opts == 0) opts = QFileDialog::DontResolveSymlinks;
 
+#ifndef NO_SMPLAYER_SUPPORT
 		result = MyFileDialog::getOpenFileName( 
+#else
+		result = QFileDialog::getOpenFileName( 
+#endif
                         this, caption(),
                         line_edit->text(),
                         filter(), &f, opts );
@@ -67,13 +82,19 @@ void FileChooser::on_button_clicked() {
 		QFileDialog::Options opts = options();
 		if (opts == 0) opts = QFileDialog::ShowDirsOnly;
 
+#ifndef NO_SMPLAYER_SUPPORT
 		result = MyFileDialog::getExistingDirectory(
+#else
+		result = QFileDialog::getExistingDirectory(
+#endif
                     this, caption(),
                     line_edit->text(), opts );
 	}
 
 	if (!result.isEmpty()) {
+		QString old_file = line_edit->text();
 		line_edit->setText(result);
+		if (old_file != result) emit fileChanged(result);
 	}
 }
 
