@@ -53,6 +53,9 @@ public slots:
 	void setDialogType( DialogType type) { _type = type; };
 	void setOptions( QFileDialog::Options options) { _options = options; };
 
+signals:
+	void fileChanged(QString file);
+
 protected slots:
 	virtual void on_button_clicked();
 
