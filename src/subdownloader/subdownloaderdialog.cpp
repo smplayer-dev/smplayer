@@ -99,6 +99,9 @@ SubDownloaderDialog::~SubDownloaderDialog() {
 void SubDownloaderDialog::setMovie(QString filename) {
 	qDebug("SubDownloaderDialog::setMovie: '%s'", filename.toLatin1().constData());
 
+	file_chooser->setText(filename);
+	table->setRowCount(0);
+
 	QString hash = OSParser::calculateHash(filename);
 	if (hash.isEmpty()) {
 		qWarning("SubDownloaderDialog::setMovie: hash invalid. Doing nothing.");
