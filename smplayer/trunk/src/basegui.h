@@ -40,7 +40,7 @@ class MplayerWindow;
 class QLabel;
 class FilePropertiesDialog;
 class VideoEqualizer;
-class SubDownloaderDialog;
+class FindSubtitlesDialog;
 class Playlist;
 
 class Recents;
@@ -90,7 +90,7 @@ public slots:
     virtual void loadSub();
 	virtual void loadAudioFile(); // Load external audio file
 
-	virtual void showSubdownloader();
+	virtual void showFindSubtitlesDialog();
 	virtual void openUploadSubtitlesPage(); //turbos
 
 	virtual void showPlaylist();
@@ -353,7 +353,7 @@ protected:
 	MyAction * useAssAct;
 	MyAction * useClosedCaptionAct;
 	MyAction * useForcedSubsOnlyAct;
-	MyAction * showSubdownloaderAct;
+	MyAction * showFindSubtitlesDialogAct;
 	MyAction * openUploadSubtitlesPageAct;//turbos  
 
 	// Menu Options
@@ -529,7 +529,7 @@ protected:
 	FilePropertiesDialog *file_dialog;
 	Playlist * playlist;
 	VideoEqualizer * equalizer;
-	SubDownloaderDialog * find_subs_dialog;
+	FindSubtitlesDialog * find_subs_dialog;
 
 	Core * core;
     MplayerWindow *mplayerwindow;
