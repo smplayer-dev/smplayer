@@ -3,13 +3,13 @@ LANGUAGE	= C++
 
 CONFIG	+= qt warn_on release
 
-QT += network
+QT += network xml
 #QT +=  opengl 
 
 RESOURCES = icons.qrc
 
-INCLUDEPATH += corelib
-DEPENDPATH += corelib
+INCLUDEPATH += corelib subdownloader
+DEPENDPATH += corelib subdownloader
 
 #DEFINES += USE_QXT
 
@@ -77,6 +77,9 @@ HEADERS	+= guiconfig.h \
 	about.h \
     errordialog.h \
     timedialog.h \
+    subdownloader/simplehttp.h \
+    subdownloader/osparser.h \
+    subdownloader/subdownloaderdialog.h \
 	basegui.h \
 	baseguiplus.h \
 	floatingwidget.h \
@@ -148,6 +151,9 @@ SOURCES	+= version.cpp \
 	about.cpp \
     errordialog.cpp \
     timedialog.cpp \
+    subdownloader/simplehttp.cpp \
+    subdownloader/osparser.cpp \
+    subdownloader/subdownloaderdialog.cpp \
 	basegui.cpp \
 	baseguiplus.cpp \
 	floatingwidget.cpp \
@@ -170,7 +176,8 @@ FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
         preferencesdialog.ui prefgeneral.ui prefdrives.ui prefinterface.ui \
         prefperformance.ui prefinput.ui prefsubtitles.ui prefadvanced.ui \
         about.ui inputmplayerversion.ui errordialog.ui timedialog.ui \
-        playlistpreferences.ui filechooser.ui
+        playlistpreferences.ui filechooser.ui \
+        subdownloader/subdownloaderdialog.ui
 
 TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_de.ts \
                translations/smplayer_sk.ts translations/smplayer_it.ts \
