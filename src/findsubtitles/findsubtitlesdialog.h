@@ -16,10 +16,10 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _SUBDOWNLOADERDIALOG_H_
-#define _SUBDOWNLOADERDIALOG_H_
+#ifndef _FINDSUBTITLESDIALOG_H_
+#define _FINDSUBTITLESDIALOG_H_
 
-#include "ui_subdownloaderdialog.h"
+#include "ui_findsubtitlesdialog.h"
 #include <QByteArray>
 
 class SimpleHttp;
@@ -27,13 +27,13 @@ class QStandardItemModel;
 class QSortFilterProxyModel;
 class QModelIndex;
 
-class SubDownloaderDialog : public QDialog, public Ui::SubDownloaderDialog
+class FindSubtitlesDialog : public QDialog, public Ui::FindSubtitlesDialog
 {
 	Q_OBJECT
 
 public:
-	SubDownloaderDialog( QWidget* parent = 0, Qt::WindowFlags f = 0 );
-	~SubDownloaderDialog();
+	FindSubtitlesDialog( QWidget* parent = 0, Qt::WindowFlags f = 0 );
+	~FindSubtitlesDialog();
 
 public slots:
 	void setMovie(QString filename);
