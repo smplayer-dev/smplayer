@@ -60,6 +60,7 @@
 #include "errordialog.h"
 #include "timedialog.h"
 #include "clhelp.h"
+#include "subdownloaderdialog.h"
 
 #include "config.h"
 #include "actionseditor.h"
@@ -98,6 +99,7 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	pref_dialog = 0;
 	file_dialog = 0;
 	clhelp_window = 0;
+	find_subs_dialog = 0;
 
 	// Create objects:
 	recents = new Recents(this);
@@ -549,9 +551,9 @@ void BaseGui::createActions() {
 	useForcedSubsOnlyAct->setCheckable(true);
 	connect( useForcedSubsOnlyAct, SIGNAL(toggled(bool)), core, SLOT(toggleForcedSubsOnly(bool)) );
 
-	openSubtitlesHashPageAct = new MyAction( this, "open_subtitles_hash_page" );	//turbos
-	connect( openSubtitlesHashPageAct, SIGNAL(triggered()),							//turbos
-             this, SLOT(openSubtitlesHashPage()) );									//turbos
+	showSubdownloaderAct = new MyAction( this, "show_find_sub_dialog" );
+	connect( showSubdownloaderAct, SIGNAL(triggered()), 
+             this, SLOT(showSubdownloader()) );
 
 	openUploadSubtitlesPageAct = new MyAction( this, "upload_subtitles" );		//turbos
 	connect( openUploadSubtitlesPageAct, SIGNAL(triggered()),					//turbos
@@ -890,7 +892,6 @@ void BaseGui::setActionsEnabled(bool b) {
 	decSubStepAct->setEnabled(b);
 	incSubScaleAct->setEnabled(b);
 	decSubScaleAct->setEnabled(b);
-	openSubtitlesHashPageAct->setEnabled(b);
 
 	// Actions not in menus
 #if !USE_MULTIPLE_SHORTCUTS
@@ -1110,7 +1111,7 @@ void BaseGui::retranslateStrings() {
 	useClosedCaptionAct->change( Images::icon("closed_caption"), tr("Enable &closed caption") );
 	useForcedSubsOnlyAct->change( Images::icon("forced_subs"), tr("&Forced subtitles only") );
 
-	openSubtitlesHashPageAct->change( tr("Find subtitles for this movie on the &web...") ); //turbos
+	showSubdownloaderAct->change( tr("Find subtitles on the &web...") );
 	openUploadSubtitlesPageAct->change( tr("Upl&oad subtitles...") ); //turbos
 
 	// Menu Options
@@ -1711,7 +1712,7 @@ void BaseGui::createMenus() {
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(useAssAct);
 	subtitlesMenu->addSeparator(); //turbos
-	subtitlesMenu->addAction(openSubtitlesHashPageAct); //turbos
+	subtitlesMenu->addAction(showSubdownloaderAct);
 	subtitlesMenu->addAction(openUploadSubtitlesPageAct); //turbos
 
 	// BROWSE MENU
@@ -3596,39 +3597,15 @@ void BaseGui::showErrorFromMplayer(QProcess::ProcessError e) {
 }
 
 
-// openSubtitlesHashPage | (c) Kamil Dziobek turbos11(at)gmail.com | BSD or GPL or public domain 
-// Hash movie file and go to subtitle download page.
-// See more implementations on: http://trac.opensubtitles.org/projects/opensubtitles/wiki/HashSourceCodes
-void BaseGui::openSubtitlesHashPage() {   //turbos
-	qDebug("BaseGui::openSubtitlesHashPage");
+void BaseGui::showSubdownloader() {
+	qDebug("BaseGui::showSubdownloader");
 
-	QFile file(core->mdat.filename);
-
-	if (!file.exists()) {
-		qDebug("BaseGui::openSubtitlesHashPage: error: hashing file. File doesn't exist.");
-			return;
+	if (!find_subs_dialog) {
+		find_subs_dialog = new SubDownloaderDialog(this);
 	}
 
-	file.open(QIODevice::ReadOnly);
-	QDataStream in(&file);
-	in.setByteOrder(QDataStream::LittleEndian);
-	quint64 size=file.size ();
-	quint64 hash=size; 
-	quint64 a;
-	for(int i = 0; i < 8192; i++) {
-		in >> a ; hash += a;
-	};
-	file.seek(size-65536);
-	for(int i = 0; i < 8192; i++) {
-		in >> a ; hash += a;
-	};
-	QString link("http://www.opensubtitles.org/search/sublanguageid-all/moviehash-");
-	QString hexhash("");
-	hexhash.setNum(hash,16);
-	link = link + hexhash;
-	qDebug("BaseGui::openSubtitlesHashPage: open link: '%s'", link.toUtf8().data());
-
-	QDesktopServices::openUrl( QUrl(link) );
+	find_subs_dialog->show();
+	find_subs_dialog->setMovie(core->mdat.filename);
 }
 
 void BaseGui::openUploadSubtitlesPage() {	
