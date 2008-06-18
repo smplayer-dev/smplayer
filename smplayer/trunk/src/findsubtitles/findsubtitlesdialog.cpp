@@ -16,7 +16,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#include "subdownloaderdialog.h"
+#include "findsubtitlesdialog.h"
 #include "simplehttp.h"
 #include "osparser.h"
 #include <QStandardItemModel>
@@ -33,7 +33,7 @@
 #define COL_DATE 4
 #define COL_USER 5
 
-SubDownloaderDialog::SubDownloaderDialog( QWidget * parent, Qt::WindowFlags f )
+FindSubtitlesDialog::FindSubtitlesDialog( QWidget * parent, Qt::WindowFlags f )
 	: QDialog(parent,f)
 {
 	setupUi(this);
@@ -93,61 +93,61 @@ SubDownloaderDialog::SubDownloaderDialog( QWidget * parent, Qt::WindowFlags f )
              this, SLOT(updateDataReadProgress(int, int)) );
 }
 
-SubDownloaderDialog::~SubDownloaderDialog() {
+FindSubtitlesDialog::~FindSubtitlesDialog() {
 }
 
-void SubDownloaderDialog::setMovie(QString filename) {
-	qDebug("SubDownloaderDialog::setMovie: '%s'", filename.toLatin1().constData());
+void FindSubtitlesDialog::setMovie(QString filename) {
+	qDebug("FindSubtitlesDialog::setMovie: '%s'", filename.toLatin1().constData());
 
 	file_chooser->setText(filename);
 	table->setRowCount(0);
 
 	QString hash = OSParser::calculateHash(filename);
 	if (hash.isEmpty()) {
-		qWarning("SubDownloaderDialog::setMovie: hash invalid. Doing nothing.");
+		qWarning("FindSubtitlesDialog::setMovie: hash invalid. Doing nothing.");
 	} else {
 		QString link = "http://www.opensubtitles.org/search/sublanguageid-all/moviehash-" + hash + "/simplexml";
-		qDebug("SubDownloaderDialog::setMovie: link: '%s'", link.toLatin1().constData());
+		qDebug("FindSubtitlesDialog::setMovie: link: '%s'", link.toLatin1().constData());
 		downloader->download(link);
 	}
 }
 
-void SubDownloaderDialog::refresh() {
+void FindSubtitlesDialog::refresh() {
 	setMovie(file_chooser->text());
 }
 
-void SubDownloaderDialog::updateRefreshButton() {
+void FindSubtitlesDialog::updateRefreshButton() {
 	QString file = file_chooser->lineEdit()->text();
 	bool enabled = ( (!file.isEmpty()) && (QFile::exists(file)) && 
                      (downloader->state()==QHttp::Unconnected) );
 	refresh_button->setEnabled(enabled);
 }
 
-void SubDownloaderDialog::currentItemChanged(const QModelIndex & current, const QModelIndex & /*previous*/) {
-	qDebug("SubDownloaderDialog::currentItemChanged: row: %d, col: %d", current.row(), current.column());
+void FindSubtitlesDialog::currentItemChanged(const QModelIndex & current, const QModelIndex & /*previous*/) {
+	qDebug("FindSubtitlesDialog::currentItemChanged: row: %d, col: %d", current.row(), current.column());
 	download_button->setEnabled(current.isValid());
 }
 
-void SubDownloaderDialog::applyFilter(const QString & filter) {
+void FindSubtitlesDialog::applyFilter(const QString & filter) {
 	proxy_model->setFilterWildcard(filter);
 }
 
-void SubDownloaderDialog::applyCurrentFilter() {
+void FindSubtitlesDialog::applyCurrentFilter() {
 	proxy_model->setFilterWildcard(language_filter->currentText());
 }
 
-void SubDownloaderDialog::showError(QString error) {
+void FindSubtitlesDialog::showError(QString error) {
 	QMessageBox::information(this, tr("Error"),
                              tr("Download failed: %1.")
                              .arg(error));
 }
 
-void SubDownloaderDialog::connecting(QString host) {
+void FindSubtitlesDialog::connecting(QString host) {
 	status->setText( tr("Connecting to %1...").arg(host) );
 }
 
-void SubDownloaderDialog::updateDataReadProgress(int done, int total) {
-	qDebug("SubDownloaderDialog::updateDataReadProgress: %d, %d", done, total);
+void FindSubtitlesDialog::updateDataReadProgress(int done, int total) {
+	qDebug("FindSubtitlesDialog::updateDataReadProgress: %d, %d", done, total);
 
 	status->setText( tr("Downloading...") );
 
@@ -156,14 +156,14 @@ void SubDownloaderDialog::updateDataReadProgress(int done, int total) {
 	progress->setValue(done);
 }
 
-void SubDownloaderDialog::downloadFinished() {
+void FindSubtitlesDialog::downloadFinished() {
 	status->setText( tr("Done.") );
 	progress->setMaximum(1);
 	progress->setValue(0);
 	progress->hide();
 }
 
-void SubDownloaderDialog::parseInfo(QByteArray xml_text) {
+void FindSubtitlesDialog::parseInfo(QByteArray xml_text) {
 	OSParser osparser;
 	bool ok = osparser.parseXml(xml_text);
 
@@ -212,22 +212,22 @@ void SubDownloaderDialog::parseInfo(QByteArray xml_text) {
 	view->resizeColumnToContents(COL_NAME);
 }
 
-void SubDownloaderDialog::itemActivated(const QModelIndex & index ) {
-	qDebug("SubDownloaderDialog::itemActivated: row: %d, col %d", proxy_model->mapToSource(index).row(), proxy_model->mapToSource(index).column());
+void FindSubtitlesDialog::itemActivated(const QModelIndex & index ) {
+	qDebug("FindSubtitlesDialog::itemActivated: row: %d, col %d", proxy_model->mapToSource(index).row(), proxy_model->mapToSource(index).column());
 
 	QString download_link = table->item(proxy_model->mapToSource(index).row(), COL_NAME)->data().toString();
 
-	qDebug("SubDownloaderDialog::itemActivated: download link: '%s'", download_link.toLatin1().constData());
+	qDebug("FindSubtitlesDialog::itemActivated: download link: '%s'", download_link.toLatin1().constData());
 
 	QDesktopServices::openUrl( QUrl(download_link) );
 }
 
-void SubDownloaderDialog::on_download_button_clicked() {
-	qDebug("SubDownloaderDialog::on_download_button_clicked");
+void FindSubtitlesDialog::on_download_button_clicked() {
+	qDebug("FindSubtitlesDialog::on_download_button_clicked");
 	if (view->currentIndex().isValid()) {
 		itemActivated(view->currentIndex());
 	}
 }
 
-#include "moc_subdownloaderdialog.cpp"
+#include "moc_findsubtitlesdialog.cpp"
 
