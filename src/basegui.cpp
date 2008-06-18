@@ -60,7 +60,7 @@
 #include "errordialog.h"
 #include "timedialog.h"
 #include "clhelp.h"
-#include "subdownloaderdialog.h"
+#include "findsubtitlesdialog.h"
 
 #include "config.h"
 #include "actionseditor.h"
@@ -551,9 +551,9 @@ void BaseGui::createActions() {
 	useForcedSubsOnlyAct->setCheckable(true);
 	connect( useForcedSubsOnlyAct, SIGNAL(toggled(bool)), core, SLOT(toggleForcedSubsOnly(bool)) );
 
-	showSubdownloaderAct = new MyAction( this, "show_find_sub_dialog" );
-	connect( showSubdownloaderAct, SIGNAL(triggered()), 
-             this, SLOT(showSubdownloader()) );
+	showFindSubtitlesDialogAct = new MyAction( this, "show_find_sub_dialog" );
+	connect( showFindSubtitlesDialogAct, SIGNAL(triggered()), 
+             this, SLOT(showFindSubtitlesDialog()) );
 
 	openUploadSubtitlesPageAct = new MyAction( this, "upload_subtitles" );		//turbos
 	connect( openUploadSubtitlesPageAct, SIGNAL(triggered()),					//turbos
@@ -1111,7 +1111,7 @@ void BaseGui::retranslateStrings() {
 	useClosedCaptionAct->change( Images::icon("closed_caption"), tr("Enable &closed caption") );
 	useForcedSubsOnlyAct->change( Images::icon("forced_subs"), tr("&Forced subtitles only") );
 
-	showSubdownloaderAct->change( tr("Find subtitles on the &web...") );
+	showFindSubtitlesDialogAct->change( tr("Find subtitles on the &web...") );
 	openUploadSubtitlesPageAct->change( tr("Upl&oad subtitles...") ); //turbos
 
 	// Menu Options
@@ -1712,7 +1712,7 @@ void BaseGui::createMenus() {
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(useAssAct);
 	subtitlesMenu->addSeparator(); //turbos
-	subtitlesMenu->addAction(showSubdownloaderAct);
+	subtitlesMenu->addAction(showFindSubtitlesDialogAct);
 	subtitlesMenu->addAction(openUploadSubtitlesPageAct); //turbos
 
 	// BROWSE MENU
@@ -3597,11 +3597,11 @@ void BaseGui::showErrorFromMplayer(QProcess::ProcessError e) {
 }
 
 
-void BaseGui::showSubdownloader() {
-	qDebug("BaseGui::showSubdownloader");
+void BaseGui::showFindSubtitlesDialog() {
+	qDebug("BaseGui::showFindSubtitlesDialog");
 
 	if (!find_subs_dialog) {
-		find_subs_dialog = new SubDownloaderDialog(this);
+		find_subs_dialog = new FindSubtitlesDialog(this);
 	}
 
 	find_subs_dialog->show();

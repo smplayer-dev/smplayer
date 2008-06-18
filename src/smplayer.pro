@@ -8,8 +8,8 @@ QT += network xml
 
 RESOURCES = icons.qrc
 
-INCLUDEPATH += corelib subdownloader
-DEPENDPATH += corelib subdownloader
+INCLUDEPATH += corelib findsubtitles
+DEPENDPATH += corelib findsubtitles
 
 #DEFINES += USE_QXT
 
@@ -77,9 +77,9 @@ HEADERS	+= guiconfig.h \
 	about.h \
     errordialog.h \
     timedialog.h \
-    subdownloader/simplehttp.h \
-    subdownloader/osparser.h \
-    subdownloader/subdownloaderdialog.h \
+    findsubtitles/simplehttp.h \
+    findsubtitles/osparser.h \
+    findsubtitles/findsubtitlesdialog.h \
 	basegui.h \
 	baseguiplus.h \
 	floatingwidget.h \
@@ -151,9 +151,9 @@ SOURCES	+= version.cpp \
 	about.cpp \
     errordialog.cpp \
     timedialog.cpp \
-    subdownloader/simplehttp.cpp \
-    subdownloader/osparser.cpp \
-    subdownloader/subdownloaderdialog.cpp \
+    findsubtitles/simplehttp.cpp \
+    findsubtitles/osparser.cpp \
+    findsubtitles/findsubtitlesdialog.cpp \
 	basegui.cpp \
 	baseguiplus.cpp \
 	floatingwidget.cpp \
@@ -177,7 +177,7 @@ FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
         prefperformance.ui prefinput.ui prefsubtitles.ui prefadvanced.ui \
         about.ui inputmplayerversion.ui errordialog.ui timedialog.ui \
         playlistpreferences.ui filechooser.ui \
-        subdownloader/subdownloaderdialog.ui
+        findsubtitles/findsubtitlesdialog.ui
 
 TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_de.ts \
                translations/smplayer_sk.ts translations/smplayer_it.ts \
