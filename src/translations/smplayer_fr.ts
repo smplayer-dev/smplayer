@@ -1627,67 +1627,67 @@ Exemple : resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesDialog</name>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="57"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="99"/>
         <source>Language</source>
         <translation type="unfinished">Langue</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="58"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="99"/>
         <source>Name</source>
         <translation type="unfinished">Nom</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="59"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="100"/>
         <source>Format</source>
         <translation type="unfinished">Format</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="60"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="100"/>
         <source>Files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="61"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="100"/>
         <source>Date</source>
         <translation type="unfinished">Date</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="61"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="100"/>
         <source>Uploaded by</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="140"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="151"/>
         <source>Error</source>
         <translation type="unfinished">Erreur</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="142"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="153"/>
         <source>Download failed: %1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="146"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="157"/>
         <source>Connecting to %1...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="152"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="163"/>
         <source>Downloading...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="160"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="171"/>
         <source>Done.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="197"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="208"/>
         <source>%1 files available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="209"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="220"/>
         <source>Failed to parse the received data.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1697,23 +1697,28 @@ Exemple : resample=44100:0:0,volnorm</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="33"/>
-        <source>Subtitles for</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="56"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="59"/>
         <source>&amp;Language:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="89"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="92"/>
         <source>&amp;Refresh</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="99"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="102"/>
         <source>&amp;Download</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="106"/>
+        <source>Close</source>
+        <translation type="unfinished">Fermer</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="33"/>
+        <source>&amp;Subtitles for</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

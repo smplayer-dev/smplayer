@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
-<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1628,67 +1627,67 @@ Example: resample=44100:0:0,volnorm</source>
 <context>
     <name>FindSubtitlesDialog</name>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="57"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="99"/>
         <source>Language</source>
         <translation>Язык</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="58"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="99"/>
         <source>Name</source>
         <translation>Имя</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="59"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="100"/>
         <source>Format</source>
         <translation>Формат</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="60"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="100"/>
         <source>Files</source>
         <translation>Файлы</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="61"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="100"/>
         <source>Date</source>
         <translation>Дата</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="61"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="100"/>
         <source>Uploaded by</source>
         <translation>Загружено</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="140"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="151"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="142"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="153"/>
         <source>Download failed: %1.</source>
         <translation>Ошибка загузки: %1.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="146"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="157"/>
         <source>Connecting to %1...</source>
         <translation>Соединение с %1...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="152"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="163"/>
         <source>Downloading...</source>
         <translation>Загрузка...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="160"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="171"/>
         <source>Done.</source>
         <translation>Завершено.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="197"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="208"/>
         <source>%1 files available</source>
         <translation>%1 файлов доступно</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="209"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="220"/>
         <source>Failed to parse the received data.</source>
         <translation>Ошибка обработки полученных данных.</translation>
     </message>
@@ -1700,22 +1699,32 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.ui" line="33"/>
         <source>Subtitles for</source>
-        <translation>Субтитры для</translation>
+        <translation type="obsolete">Субтитры для</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="56"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="59"/>
         <source>&amp;Language:</source>
         <translation>&amp;Язык:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="89"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="92"/>
         <source>&amp;Refresh</source>
         <translation>&amp;Обновить</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="99"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="102"/>
         <source>&amp;Download</source>
         <translation>&amp;Загрузить</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="106"/>
+        <source>Close</source>
+        <translation type="unfinished">Закрыть</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="33"/>
+        <source>&amp;Subtitles for</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
