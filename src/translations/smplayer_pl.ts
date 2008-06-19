@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1251,7 +1252,7 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../basegui.cpp" line="1114"/>
         <source>Find subtitles on the &amp;web...</source>
-        <translation type="unfinished"></translation>
+        <translation>Znajdź &amp;napisy w sieci...</translation>
     </message>
 </context>
 <context>
@@ -1630,92 +1631,92 @@ Przykład: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="57"/>
         <source>Language</source>
-        <translation type="unfinished">Język</translation>
+        <translation>Język</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="58"/>
         <source>Name</source>
-        <translation type="unfinished">Nazwa</translation>
+        <translation>Nazwa</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="59"/>
         <source>Format</source>
-        <translation type="unfinished">Format</translation>
+        <translation>Format</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="60"/>
         <source>Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Pliki</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="61"/>
         <source>Date</source>
-        <translation type="unfinished">Data</translation>
+        <translation>Data</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="61"/>
         <source>Uploaded by</source>
-        <translation type="unfinished"></translation>
+        <translation>Wysłane przez</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="140"/>
         <source>Error</source>
-        <translation type="unfinished">Błąd</translation>
+        <translation>Błąd</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="142"/>
         <source>Download failed: %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Błąd pobierania: %1.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="146"/>
         <source>Connecting to %1...</source>
-        <translation type="unfinished"></translation>
+        <translation>Łączenie do %1...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="152"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Pobieranie...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="160"/>
         <source>Done.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wykonano.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="197"/>
         <source>%1 files available</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 dostępnych plików</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="209"/>
         <source>Failed to parse the received data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Błąd analizy przyjętych danych.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.ui" line="13"/>
         <source>Find Subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Znajdź napisy</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.ui" line="33"/>
         <source>Subtitles for</source>
-        <translation type="unfinished"></translation>
+        <translation>Napisy dla</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.ui" line="56"/>
         <source>&amp;Language:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Język:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.ui" line="89"/>
         <source>&amp;Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Odśwież</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.ui" line="99"/>
         <source>&amp;Download</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pobieranie</translation>
     </message>
 </context>
 <context>
@@ -2795,7 +2796,7 @@ Rozwijalna lista dostarcza już regularne wyrażenia dla kilku języków.</trans
     <message>
         <location filename="../prefgeneral.cpp" line="479"/>
         <source>Here you must specify the mplayer executable that smplayer will use.&lt;br&gt;smplayer requires at least mplayer 1.0rc1 (svn recommended).&lt;br&gt;&lt;b&gt;If this setting is wrong, smplayer won&apos;t be able to play anything!&lt;/b&gt;</source>
-        <translation>Tutaj musisz podać plik wykonywalny mplayera.&lt;br&gt;minimalna wymagana wersja to 1.0rc1(svn zalecany).&lt;br&gt;&lt;b&gt;Jeśli 
+        <translation>Tutaj musisz podać plik wykonywalny mplayera.&lt;br&gt;Minimalna wymagana wersja to 1.0rc1(svn zalecany).&lt;br&gt;&lt;b&gt;Jeśli 
 tego nie zrobisz smplayer nie będzie odtwarzać plików!&lt;/b&gt;</translation>
     </message>
     <message>
