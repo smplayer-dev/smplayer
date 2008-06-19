@@ -3610,7 +3610,8 @@ void BaseGui::showFindSubtitlesDialog() {
 
 void BaseGui::openUploadSubtitlesPage() {	
 	//QDesktopServices::openUrl( QUrl("http://ds6.ovh.org/hashsubtitles/upload.php") );
-	QDesktopServices::openUrl( QUrl("http://www.opensubtitles.com/upload") );
+	//QDesktopServices::openUrl( QUrl("http://www.opensubtitles.com/upload") );
+	QDesktopServices::openUrl( QUrl("http://www.opensubtitles.org/uploadjava") );
 }
 
 
