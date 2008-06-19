@@ -1250,7 +1250,7 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
     <message>
         <location filename="../basegui.cpp" line="1114"/>
         <source>Find subtitles on the &amp;web...</source>
-        <translation>Cautarea subtitrărilor folosind o adresă &amp;web...</translation>
+        <translation>Căutarea subtitrărilor folosind o adresă &amp;web...</translation>
     </message>
 </context>
 <context>
