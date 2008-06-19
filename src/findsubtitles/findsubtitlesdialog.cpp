@@ -53,12 +53,6 @@ FindSubtitlesDialog::FindSubtitlesDialog( QWidget * parent, Qt::WindowFlags f )
 
 	table = new QStandardItemModel(this);
 	table->setColumnCount(COL_USER + 1);
-	table->setHorizontalHeaderLabels( QStringList() << tr("Language") 
-                                                    << tr("Name") 
-                                                    << tr("Format") 
-                                                    << tr("Files")
-                                                    << tr("Date") 
-                                                    << tr("Uploaded by") );
 
 	proxy_model = new QSortFilterProxyModel(this);
 	proxy_model->setSourceModel(table);
@@ -91,9 +85,21 @@ FindSubtitlesDialog::FindSubtitlesDialog( QWidget * parent, Qt::WindowFlags f )
              this, SLOT(connecting(QString)) );
 	connect( downloader, SIGNAL(dataReadProgress(int, int)),
              this, SLOT(updateDataReadProgress(int, int)) );
+
+	retranslateStrings();
 }
 
 FindSubtitlesDialog::~FindSubtitlesDialog() {
+}
+
+void FindSubtitlesDialog::retranslateStrings() {
+	retranslateUi(this);
+
+	QStringList labels;
+	labels << tr("Language") << tr("Name") << tr("Format") 
+           << tr("Files") << tr("Date") << tr("Uploaded by");
+
+	table->setHorizontalHeaderLabels( labels );
 }
 
 void FindSubtitlesDialog::setMovie(QString filename) {
@@ -226,6 +232,15 @@ void FindSubtitlesDialog::on_download_button_clicked() {
 	qDebug("FindSubtitlesDialog::on_download_button_clicked");
 	if (view->currentIndex().isValid()) {
 		itemActivated(view->currentIndex());
+	}
+}
+
+// Language change stuff
+void FindSubtitlesDialog::changeEvent(QEvent *e) {
+	if (e->type() == QEvent::LanguageChange) {
+		retranslateStrings();
+	} else {
+		QDialog::changeEvent(e);
 	}
 }
 
