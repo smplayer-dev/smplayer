@@ -100,6 +100,11 @@ void FindSubtitlesDialog::retranslateStrings() {
            << tr("Files") << tr("Date") << tr("Uploaded by");
 
 	table->setHorizontalHeaderLabels( labels );
+
+#if QT_VERSION < 0x040300
+	QPushButton * close_button = buttonBox->button(QDialogButtonBox::Close);
+	close_button->setText( tr("Close") );
+#endif
 }
 
 void FindSubtitlesDialog::setMovie(QString filename) {

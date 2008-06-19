@@ -30,7 +30,10 @@
      <item>
       <widget class="QLabel" name="label" >
        <property name="text" >
-        <string>Subtitles for</string>
+        <string>&amp;Subtitles for</string>
+       </property>
+       <property name="buddy" >
+        <cstring>file_chooser</cstring>
        </property>
       </widget>
      </item>
