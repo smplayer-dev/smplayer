@@ -57,6 +57,10 @@ protected slots:
 	void on_download_button_clicked();
 
 protected:
+	virtual void retranslateStrings();
+	virtual void changeEvent(QEvent * event);
+
+private:
 	SimpleHttp * downloader;
 	QStandardItemModel * table;
 	QSortFilterProxyModel * proxy_model;
