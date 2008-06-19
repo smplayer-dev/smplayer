@@ -1,5 +1,12 @@
 [b]Version 0.6.2[/b]:
 
+(2008-06-19)
+ * Some fixes in the find subtitles dialog: 
+    - the dialog is retranslated
+    - the table is sorted (sometimes, still doesn't work well, at least with
+      Qt 4.2)
+    - it won't download the subtitle info again if the filenane didn't changed
+
 (2008-06-18)
  * The option "Subtitles->Find subtitles on the web" now displays a dialog
    which retrieves the info about the available subtitles from 

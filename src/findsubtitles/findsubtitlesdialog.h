@@ -64,6 +64,7 @@ private:
 	SimpleHttp * downloader;
 	QStandardItemModel * table;
 	QSortFilterProxyModel * proxy_model;
+	QString last_file;
 };
 
 #endif

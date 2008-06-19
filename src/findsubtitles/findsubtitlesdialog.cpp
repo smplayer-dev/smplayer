@@ -65,6 +65,7 @@ FindSubtitlesDialog::FindSubtitlesDialog( QWidget * parent, Qt::WindowFlags f )
 	view->setRootIsDecorated(false);
 	view->setSortingEnabled(true);
 	view->setAlternatingRowColors(true);
+	view->header()->setSortIndicator(COL_LANG, Qt::AscendingOrder);
 	view->setEditTriggers(QAbstractItemView::NoEditTriggers);
 
 	connect(view, SIGNAL(activated(const QModelIndex &)),
@@ -112,6 +113,10 @@ void FindSubtitlesDialog::retranslateStrings() {
 void FindSubtitlesDialog::setMovie(QString filename) {
 	qDebug("FindSubtitlesDialog::setMovie: '%s'", filename.toLatin1().constData());
 
+	if (filename == last_file) {
+		return;
+	}
+
 	file_chooser->setText(filename);
 	table->setRowCount(0);
 
@@ -122,10 +127,12 @@ void FindSubtitlesDialog::setMovie(QString filename) {
 		QString link = "http://www.opensubtitles.org/search/sublanguageid-all/moviehash-" + hash + "/simplexml";
 		qDebug("FindSubtitlesDialog::setMovie: link: '%s'", link.toLatin1().constData());
 		downloader->download(link);
+		last_file = filename;
 	}
 }
 
 void FindSubtitlesDialog::refresh() {
+	last_file = "";
 	setMovie(file_chooser->text());
 }
 
@@ -210,14 +217,11 @@ void FindSubtitlesDialog::parseInfo(QByteArray xml_text) {
 		status->setText( tr("%1 files available").arg(l.count()) );
 		applyCurrentFilter();
 
-		// For some reason sorting doesn't work
-		/*
 		qDebug("sort column: %d", view->header()->sortIndicatorSection());
 		qDebug("sort indicator: %d", view->header()->sortIndicatorOrder());
-		
-		view->sortByColumn( view->header()->sortIndicatorSection(),
-                            view->header()->sortIndicatorOrder() );
-		*/
+
+		table->sort( view->header()->sortIndicatorSection(),
+                     view->header()->sortIndicatorOrder() );
 	} else {
 		status->setText( tr("Failed to parse the received data.") );
 	}
