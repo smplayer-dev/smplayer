@@ -38,6 +38,8 @@ FindSubtitlesDialog::FindSubtitlesDialog( QWidget * parent, Qt::WindowFlags f )
 {
 	setupUi(this);
 
+	subtitles_for_label->setBuddy(file_chooser->lineEdit());
+
 	progress->hide();
 
 	connect( file_chooser, SIGNAL(fileChanged(QString)),
