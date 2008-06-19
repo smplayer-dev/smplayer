@@ -1250,7 +1250,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1114"/>
         <source>Find subtitles on the &amp;web...</source>
-        <translation type="unfinished"></translation>
+        <translation>ウェブから字幕を検索(&amp;W)...</translation>
     </message>
 </context>
 <context>
@@ -1629,92 +1629,92 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="57"/>
         <source>Language</source>
-        <translation type="unfinished">言語</translation>
+        <translation>言語</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="58"/>
         <source>Name</source>
-        <translation type="unfinished">名前</translation>
+        <translation>名前</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="59"/>
         <source>Format</source>
-        <translation type="unfinished">フォーマット</translation>
+        <translation>フォーマット</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="60"/>
         <source>Files</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="61"/>
         <source>Date</source>
-        <translation type="unfinished">日付</translation>
+        <translation>日付</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="61"/>
         <source>Uploaded by</source>
-        <translation type="unfinished"></translation>
+        <translation>アップロード者</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="140"/>
         <source>Error</source>
-        <translation type="unfinished">エラー</translation>
+        <translation>エラー</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="142"/>
         <source>Download failed: %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>ダウンロードが失敗しました: %1。</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="146"/>
         <source>Connecting to %1...</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 へ接続しています...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="152"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>ダウンロードしています...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="160"/>
         <source>Done.</source>
-        <translation type="unfinished"></translation>
+        <translation>完了しました。</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="197"/>
         <source>%1 files available</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 個のファイルが利用可能です</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="209"/>
         <source>Failed to parse the received data.</source>
-        <translation type="unfinished"></translation>
+        <translation>受信されたデータの構文解析に失敗しました。</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.ui" line="13"/>
         <source>Find Subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>字幕の検索</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.ui" line="33"/>
         <source>Subtitles for</source>
-        <translation type="unfinished"></translation>
+        <translation>検索するファイル</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.ui" line="56"/>
         <source>&amp;Language:</source>
-        <translation type="unfinished"></translation>
+        <translation>言語(&amp;L):</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.ui" line="89"/>
         <source>&amp;Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>更新(&amp;R)</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.ui" line="99"/>
         <source>&amp;Download</source>
-        <translation type="unfinished"></translation>
+        <translation>ダウンロード(&amp;D)</translation>
     </message>
 </context>
 <context>
