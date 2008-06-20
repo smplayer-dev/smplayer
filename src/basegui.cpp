@@ -3620,7 +3620,7 @@ void BaseGui::changeEvent(QEvent *e) {
 	if (e->type() == QEvent::LanguageChange) {
 		retranslateStrings();
 	} else {
-		QWidget::changeEvent(e);
+		QMainWindow::changeEvent(e);
 	}
 }
 
