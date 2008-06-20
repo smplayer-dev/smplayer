@@ -20,6 +20,7 @@
 #define _FLOATING_WIDGET_H_
 
 #include <QWidget>
+#include <QTimer>
 
 class QToolBar;
 
@@ -42,15 +43,18 @@ public:
 	QToolBar * toolbar() { return tb; };
 
 	bool isAnimated() { return _animated; };
+	bool autoHide() { return auto_hide; };
 
 public slots:
 	void setAnimated(bool b) { _animated = b; };
+	void setAutoHide(bool b);
 
 protected:
 	QToolBar * tb;
 
 private slots:
 	void animate();
+	void checkUnderMouse();
 
 private:
 	// Animation variables
@@ -59,6 +63,9 @@ private:
 	int final_y;
 	int current_y;
 	Movement current_movement;
+
+	bool auto_hide;
+	QTimer auto_hide_timer;
 };
 
 #endif

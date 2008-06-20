@@ -6,6 +6,8 @@
     - the table is sorted (sometimes, still doesn't work well, at least with
       Qt 4.2)
     - it won't download the subtitle info again if the filenane didn't changed
+ * The floating control will be hidden if the mouse is not over the widget
+   within 5 seconds.
 
 (2008-06-18)
  * The option "Subtitles->Find subtitles on the web" now displays a dialog

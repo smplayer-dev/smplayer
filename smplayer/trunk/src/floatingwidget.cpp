@@ -42,10 +42,24 @@ FloatingWidget::FloatingWidget( QWidget * parent )
 	animation_timer = new QTimer(this);
 	animation_timer->setInterval(2);
 	connect( animation_timer, SIGNAL(timeout()), this, SLOT(animate()) );
+
+	connect( &auto_hide_timer, SIGNAL(timeout()), 
+             this, SLOT(checkUnderMouse()) );
+	setAutoHide(true);
 }
 
 FloatingWidget::~FloatingWidget() {
 }
+
+void FloatingWidget::setAutoHide(bool b) { 
+	auto_hide = b;
+
+	if (b) 
+		auto_hide_timer.start(5000);
+	else
+		auto_hide_timer.stop();
+}
+
 
 void FloatingWidget::showOver(QWidget * widget, int size, Place place) {
 	qDebug("FloatingWidget::showOver");
@@ -100,6 +114,13 @@ void FloatingWidget::animate() {
 	} else {
 		if (current_movement == Upward) current_y--; else current_y++;
 		move(x(), current_y);
+	}
+}
+
+void FloatingWidget::checkUnderMouse() {
+	if (auto_hide) {
+		qDebug("FloatingWidget::checkUnderMouse");
+		if ((isVisible()) && (!underMouse())) hide();
 	}
 }
 
