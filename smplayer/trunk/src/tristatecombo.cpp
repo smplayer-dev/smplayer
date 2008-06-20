@@ -51,7 +51,7 @@ void TristateCombo::changeEvent(QEvent *e) {
 	if (e->type() == QEvent::LanguageChange) {
 		retranslateStrings();
 	} else {
-		QWidget::changeEvent(e);
+		QComboBox::changeEvent(e);
 	}
 }
 
