@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1244,7 +1245,7 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
     <message>
         <location filename="../basegui.cpp" line="1115"/>
         <source>Upl&amp;oad subtitles...</source>
-        <translation type="unfinished"></translation>
+        <translation>Upl&amp;oad subtitrare...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1114"/>
@@ -1716,12 +1717,12 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="106"/>
         <source>Close</source>
-        <translation type="unfinished">Închide</translation>
+        <translation>Închide</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.ui" line="33"/>
         <source>&amp;Subtitles for</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Subtitrări pentru</translation>
     </message>
 </context>
 <context>
