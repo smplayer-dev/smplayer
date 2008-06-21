@@ -40,7 +40,6 @@ HEADERS	+= guiconfig.h \
 	corelib/core.h \
 	logwindow.h \
 	infofile.h \
-	encodings.h \
 	seekwidget.h \
 	mytablewidget.h \
 	shortcutgetter.h \
@@ -49,6 +48,7 @@ HEADERS	+= guiconfig.h \
 	preferencesdialog.h \
 	mycombobox.h \
 	tristatecombo.h \
+    languages.h \
 	prefwidget.h \
 	prefgeneral.h \
 	prefdrives.h \
@@ -77,7 +77,6 @@ HEADERS	+= guiconfig.h \
 	about.h \
     errordialog.h \
     timedialog.h \
-    languages.h \
     findsubtitles/simplehttp.h \
     findsubtitles/osparser.h \
     findsubtitles/findsubtitlesdialog.h \
@@ -115,7 +114,6 @@ SOURCES	+= version.cpp \
 	corelib/core.cpp \
 	logwindow.cpp \
 	infofile.cpp \
-	encodings.cpp \
 	seekwidget.cpp \
 	mytablewidget.cpp \
 	shortcutgetter.cpp \
@@ -124,6 +122,7 @@ SOURCES	+= version.cpp \
 	preferencesdialog.cpp \
 	mycombobox.cpp \
 	tristatecombo.cpp \
+    languages.cpp \
 	prefwidget.cpp \
 	prefgeneral.cpp \
 	prefdrives.cpp \
@@ -152,7 +151,6 @@ SOURCES	+= version.cpp \
 	about.cpp \
     errordialog.cpp \
     timedialog.cpp \
-    languages.cpp \
     findsubtitles/simplehttp.cpp \
     findsubtitles/osparser.cpp \
     findsubtitles/findsubtitlesdialog.cpp \
