@@ -77,6 +77,7 @@ HEADERS	+= guiconfig.h \
 	about.h \
     errordialog.h \
     timedialog.h \
+    languages.h \
     findsubtitles/simplehttp.h \
     findsubtitles/osparser.h \
     findsubtitles/findsubtitlesdialog.h \
@@ -151,6 +152,7 @@ SOURCES	+= version.cpp \
 	about.cpp \
     errordialog.cpp \
     timedialog.cpp \
+    languages.cpp \
     findsubtitles/simplehttp.cpp \
     findsubtitles/osparser.cpp \
     findsubtitles/findsubtitlesdialog.cpp \

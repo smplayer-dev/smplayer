@@ -19,12 +19,14 @@
 #include "findsubtitlesdialog.h"
 #include "simplehttp.h"
 #include "osparser.h"
+#include "languages.h"
 #include <QStandardItemModel>
 #include <QSortFilterProxyModel>
 #include <QHeaderView>
 #include <QMessageBox>
 #include <QDesktopServices>
 #include <QUrl>
+#include <QMap>
 
 #define COL_LANG 0
 #define COL_NAME 1
@@ -50,8 +52,12 @@ FindSubtitlesDialog::FindSubtitlesDialog( QWidget * parent, Qt::WindowFlags f )
 	connect( refresh_button, SIGNAL(clicked()),
              this, SLOT(refresh()) );
 
+	/*
 	connect( language_filter, SIGNAL(editTextChanged(const QString &)),
              this, SLOT(applyFilter(const QString &)) );
+	*/
+	connect( language_filter, SIGNAL(activated(int)),
+             this, SLOT(applyCurrentFilter()) );
 
 	table = new QStandardItemModel(this);
 	table->setColumnCount(COL_USER + 1);
@@ -90,6 +96,8 @@ FindSubtitlesDialog::FindSubtitlesDialog( QWidget * parent, Qt::WindowFlags f )
              this, SLOT(updateDataReadProgress(int, int)) );
 
 	retranslateStrings();
+
+	language_filter->setCurrentIndex(0);
 }
 
 FindSubtitlesDialog::~FindSubtitlesDialog() {
@@ -103,6 +111,20 @@ void FindSubtitlesDialog::retranslateStrings() {
            << tr("Files") << tr("Date") << tr("Uploaded by");
 
 	table->setHorizontalHeaderLabels( labels );
+
+	// Language combobox
+	int language_index = language_filter->currentIndex();
+	language_filter->clear();
+
+	language_filter->addItem( tr("All"), "*" );
+
+	QMap<QString,QString> l = Languages::list();
+	QMapIterator<QString, QString> i(l);
+	while (i.hasNext()) {
+		i.next();
+		language_filter->addItem( i.value() + " (" + i.key() + ")", i.key() );
+	}
+	language_filter->setCurrentIndex(language_index);
 
 #if QT_VERSION < 0x040300
 	QPushButton * close_button = buttonBox->button(QDialogButtonBox::Close);
@@ -153,7 +175,9 @@ void FindSubtitlesDialog::applyFilter(const QString & filter) {
 }
 
 void FindSubtitlesDialog::applyCurrentFilter() {
-	proxy_model->setFilterWildcard(language_filter->currentText());
+	//proxy_model->setFilterWildcard(language_filter->currentText());
+	QString filter = language_filter->itemData( language_filter->currentIndex() ).toString();
+	applyFilter(filter);
 }
 
 void FindSubtitlesDialog::showError(QString error) {

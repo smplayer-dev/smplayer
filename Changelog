@@ -1,5 +1,9 @@
 [b]Version 0.6.2[/b]:
 
+(2008-06-21)
+ * Created a huge list of languages (with the ISO 639-1 codes) and make
+   the "find subtitles" dialog to use it.
+
 (2008-06-19)
  * Some fixes in the find subtitles dialog: 
     - the dialog is retranslated
