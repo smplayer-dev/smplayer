@@ -215,6 +215,8 @@ void FindSubtitlesDialog::parseInfo(QByteArray xml_text) {
 
 	table->setRowCount(0);
 
+	QMap <QString,QString> language_list = Languages::list();
+
 	if (ok) {
 		QList<OSSubtitle> l = osparser.subtitleList();
 		for (int n=0; n < l.count(); n++) {
@@ -231,6 +233,9 @@ void FindSubtitlesDialog::parseInfo(QByteArray xml_text) {
 			QStandardItem * i_lang = new QStandardItem(l[n].language);
 			i_lang->setData(l[n].iso639, Qt::UserRole);
 			i_lang->setToolTip(l[n].iso639);
+			if (language_list.contains(l[n].iso639)) {
+				i_lang->setText( language_list[ l[n].iso639 ] );
+			}
 
 			table->setItem(n, COL_LANG, i_lang);
 			table->setItem(n, COL_NAME, i_name);
