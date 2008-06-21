@@ -1682,12 +1682,12 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>完了しました。</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="243"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="248"/>
         <source>%1 files available</source>
         <translation>%1 個のファイルが利用可能です</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="252"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="257"/>
         <source>Failed to parse the received data.</source>
         <translation>受信されたデータの構文解析に失敗しました。</translation>
     </message>
@@ -2471,7 +2471,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../languages.cpp" line="114"/>
         <source>Rhaeto</source>
-        <translation>レト</translation>
+        <translation type="obsolete">レト</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="115"/>
@@ -2511,7 +2511,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../languages.cpp" line="122"/>
         <source>Serbo</source>
-        <translation>セルボ</translation>
+        <translation type="obsolete">セルボ</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="123"/>
@@ -2671,7 +2671,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../languages.cpp" line="154"/>
         <source>Volapuk</source>
-        <translation>ヴォラピュク語</translation>
+        <translation type="obsolete">ヴォラピュク語</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="155"/>
@@ -2833,6 +2833,21 @@ Example: resample=44100:0:0,volnorm</source>
         <source>Arabic Windows</source>
         <translation>アラビア語 Windows</translation>
     </message>
+    <message>
+        <location filename="../languages.cpp" line="114"/>
+        <source>Rhaeto-Romance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="122"/>
+        <source>Serbo-Croatian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="154"/>
+        <source>Volap&#xfc;k</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>LogWindow</name>
@@ -2900,7 +2915,7 @@ Do you want to overwrite?</source>
 <context>
     <name>MiniGui</name>
     <message>
-        <location filename="../minigui.cpp" line="119"/>
+        <location filename="../minigui.cpp" line="120"/>
         <source>Control bar</source>
         <translation>コントロール バー</translation>
     </message>
