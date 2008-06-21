@@ -22,6 +22,7 @@
 #include "preferences.h"
 #include "helper.h"
 #include "config.h"
+#include "languages.h"
 
 #include <QDir>
 #include <QStyleFactory>
@@ -81,37 +82,7 @@ QPixmap PrefInterface::sectionIcon() {
 }
 
 void PrefInterface::createLanguageCombo() {
-	QMap <QString,QString> m;
-	m["bg"] = tr("Bulgarian");
-	m["ca"] = tr("Catalan");
-	m["cs"] = tr("Czech");
-	m["de"] = tr("German");
-	m["el_GR"] = tr("Greek");
-	m["en_US"] = tr("English");
-	m["es"] = tr("Spanish");
-	m["eu"] = tr("Basque");
-	m["fi"] = tr("Finnish");
-	m["fr"] = tr("French");
-	m["gl"] = tr("Galician");
-	m["hu"] = tr("Hungarian");
-	m["it"] = tr("Italian");
-	m["ja"] = tr("Japanese");
-	m["ka"] = tr("Georgian");
-	m["ko"] = tr("Korean");
-	m["mk"] = tr("Macedonian");
-	m["nl"] = tr("Dutch");
-	m["pl"] = tr("Polish");
-	m["pt_BR"] = tr("Portuguese - Brazil");
-	m["pt_PT"] = tr("Portuguese - Portugal");
-	m["ro_RO"] = tr("Romanian");
-	m["ru_RU"] = tr("Russian");
-	m["sk"] = tr("Slovak");
-	m["sr"] = tr("Serbian");
-	m["sv"] = tr("Swedish");
-	m["tr"] = tr("Turkish");
-	m["uk_UA"] = tr("Ukrainian");
-	m["zh_CN"] = tr("Simplified-Chinese");
-	m["zh_TW"] = tr("Traditional Chinese");
+	QMap <QString,QString> m = Languages::translations();
 
 	// Language combo
 	QDir translation_dir = Helper::translationPath();

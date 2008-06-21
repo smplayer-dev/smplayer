@@ -26,7 +26,11 @@ class Languages : public QObject
 {
 public:
 
+	//! Returns the ISO_639-1 language list
 	static QMap<QString,QString> list();
+
+	//! Returns the list of translations available
+	static QMap<QString,QString> translations();
 };
 
 #endif
