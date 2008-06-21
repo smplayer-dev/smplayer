@@ -113,10 +113,9 @@ void FindSubtitlesDialog::retranslateStrings() {
 	table->setHorizontalHeaderLabels( labels );
 
 	// Language combobox
-	int language_index = language_filter->currentIndex();
+	//int language_index = language_filter->currentIndex();
+	QString current_language = language_filter->itemData(language_filter->currentIndex()).toString();
 	language_filter->clear();
-
-	language_filter->addItem( tr("All"), "*" );
 
 	QMap<QString,QString> l = Languages::list();
 	QMapIterator<QString, QString> i(l);
@@ -124,7 +123,10 @@ void FindSubtitlesDialog::retranslateStrings() {
 		i.next();
 		language_filter->addItem( i.value() + " (" + i.key() + ")", i.key() );
 	}
-	language_filter->setCurrentIndex(language_index);
+	language_filter->model()->sort(0);
+	language_filter->insertItem( 0, tr("All"), "*" );
+	//language_filter->setCurrentIndex(language_index);
+	language_filter->setCurrentIndex(language_filter->findData(current_language));
 
 #if QT_VERSION < 0x040300
 	QPushButton * close_button = buttonBox->button(QDialogButtonBox::Close);
