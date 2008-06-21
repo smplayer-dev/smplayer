@@ -2021,22 +2021,22 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="24"/>
         <source>Afar</source>
-        <translation type="unfinished"></translation>
+        <translation>Afar</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="25"/>
         <source>Abkhazian</source>
-        <translation type="unfinished"></translation>
+        <translation>Abjaso</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="26"/>
         <source>Afrikaans</source>
-        <translation type="unfinished"></translation>
+        <translation>Afrikaans</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="27"/>
         <source>Amharic</source>
-        <translation type="unfinished"></translation>
+        <translation>Amárico</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="213"/>
@@ -2046,27 +2046,27 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="29"/>
         <source>Assamese</source>
-        <translation type="unfinished"></translation>
+        <translation>Asamés</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="30"/>
         <source>Aymara</source>
-        <translation type="unfinished"></translation>
+        <translation>Aimara</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="31"/>
         <source>Azerbaijani</source>
-        <translation type="unfinished"></translation>
+        <translation>Azerí</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="32"/>
         <source>Bashkir</source>
-        <translation type="unfinished"></translation>
+        <translation>Baskir</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="33"/>
         <source>Byelorussian</source>
-        <translation type="unfinished"></translation>
+        <translation>Bielorruso</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="168"/>
@@ -2076,27 +2076,27 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="35"/>
         <source>Bihari</source>
-        <translation type="unfinished"></translation>
+        <translation>Bhojpurí</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="36"/>
         <source>Bislama</source>
-        <translation type="unfinished"></translation>
+        <translation>Bislama</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="37"/>
         <source>Bengali</source>
-        <translation type="unfinished"></translation>
+        <translation>Bengalí</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="38"/>
         <source>Tibetan</source>
-        <translation type="unfinished"></translation>
+        <translation>Tibetano</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="39"/>
         <source>Breton</source>
-        <translation type="unfinished"></translation>
+        <translation>Bretón</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="169"/>
@@ -2106,7 +2106,7 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="41"/>
         <source>Corsican</source>
-        <translation type="unfinished"></translation>
+        <translation>Corso</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="170"/>
@@ -2131,7 +2131,7 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="46"/>
         <source>Bhutani</source>
-        <translation type="unfinished"></translation>
+        <translation>Dzongkha</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="172"/>
@@ -2176,12 +2176,12 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="55"/>
         <source>Fiji</source>
-        <translation type="unfinished"></translation>
+        <translation>Fijiano</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="56"/>
         <source>Faroese</source>
-        <translation type="unfinished"></translation>
+        <translation>Feroés</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="177"/>
@@ -2191,7 +2191,7 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="58"/>
         <source>Frisian</source>
-        <translation type="unfinished"></translation>
+        <translation>Frisón</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="59"/>
@@ -2211,17 +2211,17 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="62"/>
         <source>Guarani</source>
-        <translation type="unfinished"></translation>
+        <translation>Guaraní</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="63"/>
         <source>Gujarati</source>
-        <translation type="unfinished"></translation>
+        <translation>Guyaratí</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="64"/>
         <source>Hausa</source>
-        <translation type="unfinished"></translation>
+        <translation>Hausa</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="65"/>
@@ -2231,7 +2231,7 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="66"/>
         <source>Hindi</source>
-        <translation type="unfinished"></translation>
+        <translation>Hindi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="67"/>
@@ -2251,27 +2251,27 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="70"/>
         <source>Interlingua</source>
-        <translation type="unfinished"></translation>
+        <translation>Interlingua</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="71"/>
         <source>Indonesian</source>
-        <translation type="unfinished"></translation>
+        <translation>Indonesio</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="72"/>
         <source>Interlingue</source>
-        <translation type="unfinished"></translation>
+        <translation>Occidental</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="73"/>
         <source>Inupiak</source>
-        <translation type="unfinished"></translation>
+        <translation>Inupiaq</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="74"/>
         <source>Icelandic</source>
-        <translation type="unfinished"></translation>
+        <translation>Islandés</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="180"/>
@@ -2281,7 +2281,7 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="76"/>
         <source>Inuktitut</source>
-        <translation type="unfinished"></translation>
+        <translation>Inuktitut</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="181"/>
@@ -2291,7 +2291,7 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="78"/>
         <source>Javanese</source>
-        <translation type="unfinished"></translation>
+        <translation>Javanés</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="182"/>
@@ -2301,22 +2301,22 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="80"/>
         <source>Kazakh</source>
-        <translation type="unfinished"></translation>
+        <translation>Kazajo</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="81"/>
         <source>Greenlandic</source>
-        <translation type="unfinished"></translation>
+        <translation>Groenlandés</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="82"/>
         <source>Cambodian</source>
-        <translation type="unfinished"></translation>
+        <translation>Camboyano</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="83"/>
         <source>Kannada</source>
-        <translation type="unfinished"></translation>
+        <translation>Canarés</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="183"/>
@@ -2326,17 +2326,17 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="85"/>
         <source>Kashmiri</source>
-        <translation type="unfinished"></translation>
+        <translation>Cachemiro</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="86"/>
         <source>Kurdish</source>
-        <translation type="unfinished"></translation>
+        <translation>Kurdo</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="87"/>
         <source>Kirghiz</source>
-        <translation type="unfinished"></translation>
+        <translation>Kirguís</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="88"/>
@@ -2346,12 +2346,12 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="89"/>
         <source>Lingala</source>
-        <translation type="unfinished"></translation>
+        <translation>Lingala</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="90"/>
         <source>Laothian</source>
-        <translation type="unfinished"></translation>
+        <translation>Lao</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="91"/>
@@ -2361,17 +2361,17 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="92"/>
         <source>Latvian</source>
-        <translation type="unfinished"></translation>
+        <translation>Letón</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="93"/>
         <source>Malagasy</source>
-        <translation type="unfinished"></translation>
+        <translation>Malgache</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="94"/>
         <source>Maori</source>
-        <translation type="unfinished"></translation>
+        <translation>Maorí</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="184"/>
@@ -2381,47 +2381,47 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="96"/>
         <source>Malayalam</source>
-        <translation type="unfinished"></translation>
+        <translation>Malayalam</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="97"/>
         <source>Mongolian</source>
-        <translation type="unfinished"></translation>
+        <translation>Mongol</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="98"/>
         <source>Moldavian</source>
-        <translation type="unfinished"></translation>
+        <translation>Moldavo</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="99"/>
         <source>Marathi</source>
-        <translation type="unfinished"></translation>
+        <translation>Maratí</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="100"/>
         <source>Malay</source>
-        <translation type="unfinished"></translation>
+        <translation>Malayo</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="101"/>
         <source>Maltese</source>
-        <translation type="unfinished"></translation>
+        <translation>Maltés</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="102"/>
         <source>Burmese</source>
-        <translation type="unfinished"></translation>
+        <translation>Birmano</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="103"/>
         <source>Nauru</source>
-        <translation type="unfinished"></translation>
+        <translation>Nauruano</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="104"/>
         <source>Nepali</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepalí</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="185"/>
@@ -2436,17 +2436,17 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="107"/>
         <source>Occitan</source>
-        <translation type="unfinished"></translation>
+        <translation>Occitano</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="108"/>
         <source>Oriya</source>
-        <translation type="unfinished"></translation>
+        <translation>Oriya</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="109"/>
         <source>Punjabi</source>
-        <translation type="unfinished"></translation>
+        <translation>Panyabí</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="186"/>
@@ -2456,7 +2456,7 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="111"/>
         <source>Pashto</source>
-        <translation type="unfinished"></translation>
+        <translation>Pastú</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="112"/>
@@ -2466,7 +2466,7 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="113"/>
         <source>Quechua</source>
-        <translation type="unfinished"></translation>
+        <translation>Quechua</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="114"/>
@@ -2476,7 +2476,7 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="115"/>
         <source>Kirundi</source>
-        <translation type="unfinished"></translation>
+        <translation>Kirundi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="189"/>
@@ -2491,22 +2491,22 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="118"/>
         <source>Kinyarwanda</source>
-        <translation type="unfinished"></translation>
+        <translation>Ruandés</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="119"/>
         <source>Sanskrit</source>
-        <translation type="unfinished"></translation>
+        <translation>Sánscrito</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="120"/>
         <source>Sindhi</source>
-        <translation type="unfinished"></translation>
+        <translation>Sindhi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="121"/>
         <source>Sangho</source>
-        <translation type="unfinished"></translation>
+        <translation>Sango</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="122"/>
@@ -2516,7 +2516,7 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="123"/>
         <source>Sinhalese</source>
-        <translation type="unfinished"></translation>
+        <translation>Cingalés</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="191"/>
@@ -2531,17 +2531,17 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="126"/>
         <source>Samoan</source>
-        <translation type="unfinished"></translation>
+        <translation>Samoano</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="127"/>
         <source>Shona</source>
-        <translation type="unfinished"></translation>
+        <translation>Shona</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="128"/>
         <source>Somali</source>
-        <translation type="unfinished"></translation>
+        <translation>Somalí</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="129"/>
@@ -2556,17 +2556,17 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="131"/>
         <source>Siswati</source>
-        <translation type="unfinished"></translation>
+        <translation>Suazi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="132"/>
         <source>Sesotho</source>
-        <translation type="unfinished"></translation>
+        <translation>Sesotho</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="133"/>
         <source>Sundanese</source>
-        <translation type="unfinished"></translation>
+        <translation>Sundanés</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="193"/>
@@ -2576,52 +2576,52 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="135"/>
         <source>Swahili</source>
-        <translation type="unfinished"></translation>
+        <translation>Suajili</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="136"/>
         <source>Tamil</source>
-        <translation type="unfinished"></translation>
+        <translation>Tamil</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="137"/>
         <source>Telugu</source>
-        <translation type="unfinished"></translation>
+        <translation>Telugú</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="138"/>
         <source>Tajik</source>
-        <translation type="unfinished"></translation>
+        <translation>Tayiko</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="139"/>
         <source>Thai</source>
-        <translation type="unfinished"></translation>
+        <translation>Tailandés</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="140"/>
         <source>Tigrinya</source>
-        <translation type="unfinished"></translation>
+        <translation>Tigriña</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="141"/>
         <source>Turkmen</source>
-        <translation type="unfinished"></translation>
+        <translation>Turcomano</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
         <source>Tagalog</source>
-        <translation type="unfinished"></translation>
+        <translation>Tagalo</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="143"/>
         <source>Setswana</source>
-        <translation type="unfinished"></translation>
+        <translation>Setsuana</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="144"/>
         <source>Tonga</source>
-        <translation type="unfinished"></translation>
+        <translation>Tongano</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="215"/>
@@ -2631,22 +2631,22 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="146"/>
         <source>Tsonga</source>
-        <translation type="unfinished"></translation>
+        <translation>Tsonga</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="147"/>
         <source>Tatar</source>
-        <translation type="unfinished"></translation>
+        <translation>Tártaro</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="148"/>
         <source>Twi</source>
-        <translation type="unfinished"></translation>
+        <translation>Twi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="149"/>
         <source>Uighur</source>
-        <translation type="unfinished"></translation>
+        <translation>Uigur</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="195"/>
@@ -2656,12 +2656,12 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="151"/>
         <source>Urdu</source>
-        <translation type="unfinished"></translation>
+        <translation>Urdu</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="152"/>
         <source>Uzbek</source>
-        <translation type="unfinished"></translation>
+        <translation>Uzbeko</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="153"/>
@@ -2676,27 +2676,27 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="155"/>
         <source>Wolof</source>
-        <translation type="unfinished"></translation>
+        <translation>Wolof</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="156"/>
         <source>Xhosa</source>
-        <translation type="unfinished"></translation>
+        <translation>Xhosa</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="157"/>
         <source>Yiddish</source>
-        <translation type="unfinished"></translation>
+        <translation>Yídish</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="158"/>
         <source>Yoruba</source>
-        <translation type="unfinished"></translation>
+        <translation>Yoruba</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="159"/>
         <source>Zhuang</source>
-        <translation type="unfinished"></translation>
+        <translation>Chuan</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="160"/>
@@ -2706,7 +2706,7 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="161"/>
         <source>Zulu</source>
-        <translation type="unfinished"></translation>
+        <translation>Zulú</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="187"/>
