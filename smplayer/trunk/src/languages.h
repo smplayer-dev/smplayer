@@ -33,6 +33,8 @@ public:
 
 	//! Returns the list of translations available
 	static QMap<QString,QString> translations();
+
+	static QMap<QString,QString> encodings();
 };
 
 #endif

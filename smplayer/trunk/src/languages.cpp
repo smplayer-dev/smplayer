@@ -199,4 +199,35 @@ QMap<QString,QString> Languages::translations() {
 	return m;
 }
 
+QMap<QString,QString> Languages::encodings() {
+	QMap<QString,QString> l;
+
+	l["Unicode"] = tr("Unicode");
+	l["UTF-8"] = tr("UTF-8");
+	l["ISO-8859-1"] = tr("Western European Languages");
+	l["ISO-8859-15"] = tr("Western European Languages with Euro");
+	l["ISO-8859-2"] = tr("Slavic/Central European Languages");
+	l["ISO-8859-3"] = tr("Esperanto, Galician, Maltese, Turkish");
+	l["ISO-8859-4"] = tr("Old Baltic charset");
+	l["ISO-8859-5"] = tr("Cyrillic");
+	l["ISO-8859-6"] = tr("Arabic");
+	l["ISO-8859-7"] = tr("Modern Greek");
+	l["ISO-8859-9"] = tr( "Turkish");
+	l["ISO-8859-13"] = tr( "Baltic");
+	l["ISO-8859-14"] = tr( "Celtic");
+	l["ISO-8859-8"] = tr( "Hebrew charsets");
+	l["KOI8-R"] = tr( "Russian");
+	l["KOI8-U/RU"] = tr( "Ukrainian, Belarusian");
+	l["CP936"] = tr( "Simplified Chinese charset");
+	l["BIG5"] = tr( "Traditional Chinese charset");
+	l["SHIFT-JIS"] = tr( "Japanese charsets");
+	l["CP949"] = tr( "Korean charset");
+	l["CP874"] = tr( "Thai charset");
+	l["CP1251"] = tr( "Cyrillic Windows");
+	l["CP1250"] = tr( "Slavic/Central European Windows");
+	l["CP1256"] = tr( "Arabic Windows");
+
+	return l;
+}
+
 #include "moc_languages.cpp"
