@@ -1683,12 +1683,12 @@ Przykład: resample=44100:0:0,volnorm</translation>
         <translation>Wykonano.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="243"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="248"/>
         <source>%1 files available</source>
         <translation>%1 dostępnych plików</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="252"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="257"/>
         <source>Failed to parse the received data.</source>
         <translation>Błąd analizy przyjętych danych.</translation>
     </message>
@@ -2471,11 +2471,6 @@ Wybierz katalog, w którym jest VIDEO_TS i AUDIO_TS.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="114"/>
-        <source>Rhaeto</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="115"/>
         <source>Kirundi</source>
         <translation type="unfinished"></translation>
@@ -2508,11 +2503,6 @@ Wybierz katalog, w którym jest VIDEO_TS i AUDIO_TS.</translation>
     <message>
         <location filename="../languages.cpp" line="121"/>
         <source>Sangho</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../languages.cpp" line="122"/>
-        <source>Serbo</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2668,11 +2658,6 @@ Wybierz katalog, w którym jest VIDEO_TS i AUDIO_TS.</translation>
     <message>
         <location filename="../languages.cpp" line="153"/>
         <source>Vietnamese</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../languages.cpp" line="154"/>
-        <source>Volapuk</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2835,6 +2820,21 @@ Wybierz katalog, w którym jest VIDEO_TS i AUDIO_TS.</translation>
         <source>Arabic Windows</source>
         <translation type="unfinished">Arabic Windows</translation>
     </message>
+    <message>
+        <location filename="../languages.cpp" line="114"/>
+        <source>Rhaeto-Romance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="122"/>
+        <source>Serbo-Croatian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="154"/>
+        <source>Volap&#xfc;k</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>LogWindow</name>
@@ -2902,7 +2902,7 @@ Nadpisać go?</translation>
 <context>
     <name>MiniGui</name>
     <message>
-        <location filename="../minigui.cpp" line="119"/>
+        <location filename="../minigui.cpp" line="120"/>
         <source>Control bar</source>
         <translation>Pasek kontroli</translation>
     </message>

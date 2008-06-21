@@ -1683,12 +1683,12 @@ Beispiel: resample=44100:0:0,volnorm</translation>
         <translation>Erledigt.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="243"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="248"/>
         <source>%1 files available</source>
         <translation>%1 Dateien verfügbar</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="252"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="257"/>
         <source>Failed to parse the received data.</source>
         <translation>Fehler beim Parsen der empfangenen Daten.</translation>
     </message>
@@ -2471,11 +2471,6 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="114"/>
-        <source>Rhaeto</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="115"/>
         <source>Kirundi</source>
         <translation type="unfinished"></translation>
@@ -2508,11 +2503,6 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
     <message>
         <location filename="../languages.cpp" line="121"/>
         <source>Sangho</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../languages.cpp" line="122"/>
-        <source>Serbo</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2668,11 +2658,6 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
     <message>
         <location filename="../languages.cpp" line="153"/>
         <source>Vietnamese</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../languages.cpp" line="154"/>
-        <source>Volapuk</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2835,6 +2820,21 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
         <source>Arabic Windows</source>
         <translation type="unfinished">Arabisches Windows</translation>
     </message>
+    <message>
+        <location filename="../languages.cpp" line="114"/>
+        <source>Rhaeto-Romance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="122"/>
+        <source>Serbo-Croatian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="154"/>
+        <source>Volap&#xfc;k</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>LogWindow</name>
@@ -2902,7 +2902,7 @@ Do you want to overwrite?</source>
 <context>
     <name>MiniGui</name>
     <message>
-        <location filename="../minigui.cpp" line="119"/>
+        <location filename="../minigui.cpp" line="120"/>
         <source>Control bar</source>
         <translation>Kontrollregler</translation>
     </message>

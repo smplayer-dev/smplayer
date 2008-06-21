@@ -1682,12 +1682,12 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <translation>Hecho.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="243"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="248"/>
         <source>%1 files available</source>
         <translation>%1 ficheros disponibles</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="252"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="257"/>
         <source>Failed to parse the received data.</source>
         <translation>No se ha podido interpretar los datos recibidos.</translation>
     </message>
@@ -2469,11 +2469,6 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <translation>Quechua</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="114"/>
-        <source>Rhaeto</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="115"/>
         <source>Kirundi</source>
         <translation>Kirundi</translation>
@@ -2507,11 +2502,6 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <location filename="../languages.cpp" line="121"/>
         <source>Sangho</source>
         <translation>Sango</translation>
-    </message>
-    <message>
-        <location filename="../languages.cpp" line="122"/>
-        <source>Serbo</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="123"/>
@@ -2667,11 +2657,6 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <location filename="../languages.cpp" line="153"/>
         <source>Vietnamese</source>
         <translation>Vietnamita</translation>
-    </message>
-    <message>
-        <location filename="../languages.cpp" line="154"/>
-        <source>Volapuk</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="155"/>
@@ -2833,6 +2818,21 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <source>Arabic Windows</source>
         <translation>Árabe Windows</translation>
     </message>
+    <message>
+        <location filename="../languages.cpp" line="114"/>
+        <source>Rhaeto-Romance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="122"/>
+        <source>Serbo-Croatian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="154"/>
+        <source>Volap&#xfc;k</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>LogWindow</name>
@@ -2900,7 +2900,7 @@ Do you want to overwrite?</source>
 <context>
     <name>MiniGui</name>
     <message>
-        <location filename="../minigui.cpp" line="119"/>
+        <location filename="../minigui.cpp" line="120"/>
         <source>Control bar</source>
         <translation>Barra de control</translation>
     </message>

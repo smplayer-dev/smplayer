@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
-<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1683,12 +1682,12 @@ Exemple : resample=44100:0:0,volnorm</translation>
         <translation>Effectué.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="243"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="248"/>
         <source>%1 files available</source>
         <translation>%1 fichiers disponibles</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="252"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="257"/>
         <source>Failed to parse the received data.</source>
         <translation>Impossible de comprendre les données reçues.</translation>
     </message>
@@ -2465,11 +2464,6 @@ Exemple : resample=44100:0:0,volnorm</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="114"/>
-        <source>Rhaeto</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="115"/>
         <source>Kirundi</source>
         <translation type="unfinished"></translation>
@@ -2502,11 +2496,6 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="121"/>
         <source>Sangho</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../languages.cpp" line="122"/>
-        <source>Serbo</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2662,11 +2651,6 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="153"/>
         <source>Vietnamese</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../languages.cpp" line="154"/>
-        <source>Volapuk</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2829,6 +2813,21 @@ Exemple : resample=44100:0:0,volnorm</translation>
         <source>Arabic Windows</source>
         <translation>Arabe Windows</translation>
     </message>
+    <message>
+        <location filename="../languages.cpp" line="114"/>
+        <source>Rhaeto-Romance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="122"/>
+        <source>Serbo-Croatian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="154"/>
+        <source>Volap&#xfc;k</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>LogWindow</name>
@@ -2896,7 +2895,7 @@ Voulez-vous le remplacer ?</translation>
 <context>
     <name>MiniGui</name>
     <message>
-        <location filename="../minigui.cpp" line="119"/>
+        <location filename="../minigui.cpp" line="120"/>
         <source>Control bar</source>
         <translation>Barre de contrôle</translation>
     </message>
