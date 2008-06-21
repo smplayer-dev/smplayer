@@ -24,6 +24,8 @@
 
 class Languages : public QObject
 {
+	Q_OBJECT
+
 public:
 
 	//! Returns the ISO_639-1 language list
