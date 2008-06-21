@@ -566,7 +566,7 @@ void DefaultGui::saveConfig() {
 		set->setValue( "size", size() );
 	}
 
-	set->setValue( "toolbars_state", saveState() );
+	set->setValue( "toolbars_state", saveState(Helper::qtVersion()) );
 
 #if USE_CONFIGURABLE_TOOLBARS
 	set->beginGroup( "actions" );
@@ -629,7 +629,7 @@ void DefaultGui::loadConfig() {
 	set->endGroup();
 #endif
 
-	restoreState( set->value( "toolbars_state" ).toByteArray() );
+	restoreState( set->value( "toolbars_state" ).toByteArray(), Helper::qtVersion() );
 	
 	set->endGroup();
 		

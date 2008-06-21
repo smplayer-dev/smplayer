@@ -22,6 +22,7 @@
 #include "myaction.h"
 #include "mplayerwindow.h"
 #include "global.h"
+#include "helper.h"
 #include "toolbareditor.h"
 
 #include <QToolBar>
@@ -193,7 +194,7 @@ void MiniGui::saveConfig() {
 	QSettings * set = settings;
 
 	set->beginGroup( "mini_gui");
-	set->setValue( "toolbars_state", saveState() );
+	set->setValue( "toolbars_state", saveState(Helper::qtVersion()) );
 	set->setValue("floating_control_width", floating_control_width);
 	set->setValue("floating_control_animated", floating_control_animated);
 
@@ -211,7 +212,7 @@ void MiniGui::loadConfig() {
 	QSettings * set = settings;
 
 	set->beginGroup( "mini_gui");
-	restoreState( set->value( "toolbars_state" ).toByteArray() );
+	restoreState( set->value( "toolbars_state" ).toByteArray(), Helper::qtVersion() );
 	floating_control_width = set->value("floating_control_width", floating_control_width).toInt();
 	floating_control_animated = set->value("floating_control_animated", floating_control_animated).toBool();
 
