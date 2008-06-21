@@ -198,3 +198,5 @@ QMap<QString,QString> Languages::translations() {
 
 	return m;
 }
+
+#include "moc_languages.cpp"
