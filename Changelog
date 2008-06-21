@@ -3,6 +3,9 @@
 (2008-06-21)
  * Created a huge list of languages (with the ISO 639-1 codes) and make
    the "find subtitles" dialog to use it.
+ * The Qt version is saved along with the toolbars state. This should avoid
+   problems when upgrading Qt, as the toolbars info won't be used if the
+   Qt version doesn't match.
 
 (2008-06-19)
  * Some fixes in the find subtitles dialog: 

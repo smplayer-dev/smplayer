@@ -392,3 +392,21 @@ QString Helper::stripColorsTags(QString s) {
 }
 #endif
 
+int Helper::qtVersion() {
+	QRegExp rx("(\\d+)\\.(\\d+)\\.(\\d+)");
+	QString v(qVersion());
+
+	int r = 0;
+
+	if (rx.indexIn(v) > -1) {
+		int n1 = rx.cap(1).toInt();
+		int n2 = rx.cap(2).toInt();
+		int n3 = rx.cap(3).toInt();
+		r = n1 * 1000 + n2 * 100 + n3;
+	}
+
+	qDebug("Helper::qtVersion: %d", r);
+
+	return r;
+}
+
