@@ -1605,112 +1605,112 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../encodings.cpp" line="37"/>
         <source>Arabic</source>
-        <translation>阿拉伯语</translation>
+        <translation type="obsolete">阿拉伯语</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="40"/>
         <source>Baltic</source>
-        <translation>波罗的海</translation>
+        <translation type="obsolete">波罗的海</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="41"/>
         <source>Celtic</source>
-        <translation>凯尔特语</translation>
+        <translation type="obsolete">凯尔特语</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="36"/>
         <source>Cyrillic</source>
-        <translation>Cyrillic</translation>
+        <translation type="obsolete">Cyrillic</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="50"/>
         <source>Cyrillic Windows</source>
-        <translation>Cyrillic Windows</translation>
+        <translation type="obsolete">Cyrillic Windows</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="34"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
-        <translation>世界语</translation>
+        <translation type="obsolete">世界语</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="42"/>
         <source>Hebrew charsets</source>
-        <translation>希伯来语</translation>
+        <translation type="obsolete">希伯来语</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="47"/>
         <source>Japanese charsets</source>
-        <translation>日本语</translation>
+        <translation type="obsolete">日本语</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="48"/>
         <source>Korean charset</source>
-        <translation>韩国语</translation>
+        <translation type="obsolete">韩国语</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="38"/>
         <source>Modern Greek</source>
-        <translation>希腊语</translation>
+        <translation type="obsolete">希腊语</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="35"/>
         <source>Old Baltic charset</source>
-        <translation>波罗的海语</translation>
+        <translation type="obsolete">波罗的海语</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="43"/>
         <source>Russian</source>
-        <translation>俄罗斯语</translation>
+        <translation type="obsolete">俄罗斯语</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="45"/>
         <source>Simplified Chinese charset</source>
-        <translation>简体中文</translation>
+        <translation type="obsolete">简体中文</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="33"/>
         <source>Slavic/Central European Languages</source>
-        <translation>斯拉夫语</translation>
+        <translation type="obsolete">斯拉夫语</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="51"/>
         <source>Slavic/Central European Windows</source>
-        <translation>斯拉夫语</translation>
+        <translation type="obsolete">斯拉夫语</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="49"/>
         <source>Thai charset</source>
-        <translation>泰国语</translation>
+        <translation type="obsolete">泰国语</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="46"/>
         <source>Traditional Chinese charset</source>
-        <translation>繁体中文</translation>
+        <translation type="obsolete">繁体中文</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="39"/>
         <source>Turkish</source>
-        <translation>土耳其语</translation>
+        <translation type="obsolete">土耳其语</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="44"/>
         <source>Ukrainian, Belarusian</source>
-        <translation>乌克兰语</translation>
+        <translation type="obsolete">乌克兰语</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="31"/>
         <source>Western European Languages</source>
-        <translation>西欧</translation>
+        <translation type="obsolete">西欧</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="32"/>
         <source>Western European Languages with Euro</source>
-        <translation>西欧</translation>
+        <translation type="obsolete">西欧</translation>
     </message>
     <message>
         <location filename="../encodings.cpp" line="52"/>
         <source>Arabic Windows</source>
-        <translation type="unfinished">阿拉伯语</translation>
+        <translation type="obsolete">阿拉伯语</translation>
     </message>
 </context>
 <context>
@@ -1865,67 +1865,67 @@ Example: resample=44100:0:0,volnorm</source>
 <context>
     <name>FindSubtitlesDialog</name>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="99"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="110"/>
         <source>Language</source>
         <translation type="unfinished">语言</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="99"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="110"/>
         <source>Name</source>
         <translation type="unfinished">名字</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="100"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="111"/>
         <source>Format</source>
         <translation type="unfinished">格式</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="100"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="111"/>
         <source>Files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="100"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="111"/>
         <source>Date</source>
         <translation type="unfinished">日期</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="100"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="111"/>
         <source>Uploaded by</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="151"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="186"/>
         <source>Error</source>
         <translation type="unfinished">错误</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="153"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="188"/>
         <source>Download failed: %1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="157"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="192"/>
         <source>Connecting to %1...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="163"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="198"/>
         <source>Downloading...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="171"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="206"/>
         <source>Done.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="208"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="243"/>
         <source>%1 files available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="220"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="252"/>
         <source>Failed to parse the received data.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1935,28 +1935,33 @@ Example: resample=44100:0:0,volnorm</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="59"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="56"/>
         <source>&amp;Language:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="92"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="89"/>
         <source>&amp;Refresh</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="102"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="99"/>
         <source>&amp;Download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="106"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="133"/>
         <source>Close</source>
         <translation type="unfinished">关闭</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.ui" line="33"/>
         <source>&amp;Subtitles for</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="127"/>
+        <source>All</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2242,6 +2247,824 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../inputurl.cpp" line="31"/>
         <source>If this option is checked, the URL will be treated as a playlist: it will be opened as text and will play the URLs in it.</source>
         <translation>如果选择这个选项，URL 将会被当作播放列表：它将被当成一个文本文件打开同，然后播放里面的 URL。</translation>
+    </message>
+</context>
+<context>
+    <name>Languages</name>
+    <message>
+        <location filename="../languages.cpp" line="24"/>
+        <source>Afar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="25"/>
+        <source>Abkhazian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="26"/>
+        <source>Afrikaans</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="27"/>
+        <source>Amharic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="213"/>
+        <source>Arabic</source>
+        <translation type="unfinished">阿拉伯语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="29"/>
+        <source>Assamese</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="30"/>
+        <source>Aymara</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="31"/>
+        <source>Azerbaijani</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="32"/>
+        <source>Bashkir</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="33"/>
+        <source>Byelorussian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="168"/>
+        <source>Bulgarian</source>
+        <translation type="unfinished">保加利亚语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="35"/>
+        <source>Bihari</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="36"/>
+        <source>Bislama</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="37"/>
+        <source>Bengali</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="38"/>
+        <source>Tibetan</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="39"/>
+        <source>Breton</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="169"/>
+        <source>Catalan</source>
+        <translation type="unfinished">西班牙语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="41"/>
+        <source>Corsican</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="170"/>
+        <source>Czech</source>
+        <translation type="unfinished">捷克语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="43"/>
+        <source>Welsh</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="44"/>
+        <source>Danish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="171"/>
+        <source>German</source>
+        <translation type="unfinished">德语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="46"/>
+        <source>Bhutani</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="172"/>
+        <source>Greek</source>
+        <translation type="unfinished">希腊语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="173"/>
+        <source>English</source>
+        <translation type="unfinished">英语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="49"/>
+        <source>Esperanto</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="174"/>
+        <source>Spanish</source>
+        <translation type="unfinished">西班牙语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="51"/>
+        <source>Estonian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="175"/>
+        <source>Basque</source>
+        <translation type="unfinished">巴斯克语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="53"/>
+        <source>Persian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="176"/>
+        <source>Finnish</source>
+        <translation type="unfinished">芬兰语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="55"/>
+        <source>Fiji</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="56"/>
+        <source>Faroese</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="177"/>
+        <source>French</source>
+        <translation type="unfinished">法语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="58"/>
+        <source>Frisian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="59"/>
+        <source>Irish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="60"/>
+        <source>Scots</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="178"/>
+        <source>Galician</source>
+        <translation type="unfinished">加里西亚语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="62"/>
+        <source>Guarani</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="63"/>
+        <source>Gujarati</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="64"/>
+        <source>Hausa</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="65"/>
+        <source>Hebrew</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="66"/>
+        <source>Hindi</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="67"/>
+        <source>Croatian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="179"/>
+        <source>Hungarian</source>
+        <translation type="unfinished">匈牙利语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="69"/>
+        <source>Armenian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="70"/>
+        <source>Interlingua</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="71"/>
+        <source>Indonesian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="72"/>
+        <source>Interlingue</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="73"/>
+        <source>Inupiak</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="74"/>
+        <source>Icelandic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="180"/>
+        <source>Italian</source>
+        <translation type="unfinished">意大利语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="76"/>
+        <source>Inuktitut</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="181"/>
+        <source>Japanese</source>
+        <translation type="unfinished">日语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="78"/>
+        <source>Javanese</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="182"/>
+        <source>Georgian</source>
+        <translation type="unfinished">乔治亚语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="80"/>
+        <source>Kazakh</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="81"/>
+        <source>Greenlandic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="82"/>
+        <source>Cambodian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="83"/>
+        <source>Kannada</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="183"/>
+        <source>Korean</source>
+        <translation type="unfinished">朝鲜语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="85"/>
+        <source>Kashmiri</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="86"/>
+        <source>Kurdish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="87"/>
+        <source>Kirghiz</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="88"/>
+        <source>Latin</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="89"/>
+        <source>Lingala</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="90"/>
+        <source>Laothian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="91"/>
+        <source>Lithuanian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="92"/>
+        <source>Latvian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="93"/>
+        <source>Malagasy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="94"/>
+        <source>Maori</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="184"/>
+        <source>Macedonian</source>
+        <translation type="unfinished">马其顿语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="96"/>
+        <source>Malayalam</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="97"/>
+        <source>Mongolian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="98"/>
+        <source>Moldavian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="99"/>
+        <source>Marathi</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="100"/>
+        <source>Malay</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="101"/>
+        <source>Maltese</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="102"/>
+        <source>Burmese</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="103"/>
+        <source>Nauru</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="104"/>
+        <source>Nepali</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="185"/>
+        <source>Dutch</source>
+        <translation type="unfinished">荷兰语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="106"/>
+        <source>Norwegian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="107"/>
+        <source>Occitan</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="108"/>
+        <source>Oriya</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="109"/>
+        <source>Punjabi</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="186"/>
+        <source>Polish</source>
+        <translation type="unfinished">波兰语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="111"/>
+        <source>Pashto</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="112"/>
+        <source>Portuguese</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="113"/>
+        <source>Quechua</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="114"/>
+        <source>Rhaeto</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="115"/>
+        <source>Kirundi</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="189"/>
+        <source>Romanian</source>
+        <translation type="unfinished">罗马尼亚语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="219"/>
+        <source>Russian</source>
+        <translation type="unfinished">俄罗斯语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="118"/>
+        <source>Kinyarwanda</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="119"/>
+        <source>Sanskrit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="120"/>
+        <source>Sindhi</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="121"/>
+        <source>Sangho</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="122"/>
+        <source>Serbo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="123"/>
+        <source>Sinhalese</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="191"/>
+        <source>Slovak</source>
+        <translation type="unfinished">斯洛伐克语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="125"/>
+        <source>Slovenian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="126"/>
+        <source>Samoan</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="127"/>
+        <source>Shona</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="128"/>
+        <source>Somali</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="129"/>
+        <source>Albanian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="192"/>
+        <source>Serbian</source>
+        <translation type="unfinished">赛尔维亚语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="131"/>
+        <source>Siswati</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="132"/>
+        <source>Sesotho</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="133"/>
+        <source>Sundanese</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="193"/>
+        <source>Swedish</source>
+        <translation type="unfinished">瑞典语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="135"/>
+        <source>Swahili</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="136"/>
+        <source>Tamil</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="137"/>
+        <source>Telugu</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="138"/>
+        <source>Tajik</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="139"/>
+        <source>Thai</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="140"/>
+        <source>Tigrinya</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="141"/>
+        <source>Turkmen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="142"/>
+        <source>Tagalog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="143"/>
+        <source>Setswana</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="144"/>
+        <source>Tonga</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="215"/>
+        <source>Turkish</source>
+        <translation type="unfinished">土耳其语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="146"/>
+        <source>Tsonga</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="147"/>
+        <source>Tatar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="148"/>
+        <source>Twi</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="149"/>
+        <source>Uighur</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="195"/>
+        <source>Ukrainian</source>
+        <translation type="unfinished">乌克兰语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="151"/>
+        <source>Urdu</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="152"/>
+        <source>Uzbek</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="153"/>
+        <source>Vietnamese</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="154"/>
+        <source>Volapuk</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="155"/>
+        <source>Wolof</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="156"/>
+        <source>Xhosa</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="157"/>
+        <source>Yiddish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="158"/>
+        <source>Yoruba</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="159"/>
+        <source>Zhuang</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="160"/>
+        <source>Chinese</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="161"/>
+        <source>Zulu</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="187"/>
+        <source>Portuguese - Brazil</source>
+        <translation type="unfinished">葡萄牙语 - 巴西</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="188"/>
+        <source>Portuguese - Portugal</source>
+        <translation type="unfinished">葡萄牙语 - 葡萄牙</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="196"/>
+        <source>Simplified-Chinese</source>
+        <translation type="unfinished">简体中文</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="197"/>
+        <source>Traditional Chinese</source>
+        <translation type="unfinished">繁体中文</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="205"/>
+        <source>Unicode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="206"/>
+        <source>UTF-8</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="207"/>
+        <source>Western European Languages</source>
+        <translation type="unfinished">西欧</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="208"/>
+        <source>Western European Languages with Euro</source>
+        <translation type="unfinished">西欧</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="209"/>
+        <source>Slavic/Central European Languages</source>
+        <translation type="unfinished">斯拉夫语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="210"/>
+        <source>Esperanto, Galician, Maltese, Turkish</source>
+        <translation type="unfinished">世界语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="211"/>
+        <source>Old Baltic charset</source>
+        <translation type="unfinished">波罗的海语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="212"/>
+        <source>Cyrillic</source>
+        <translation type="unfinished">Cyrillic</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="214"/>
+        <source>Modern Greek</source>
+        <translation type="unfinished">希腊语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="216"/>
+        <source>Baltic</source>
+        <translation type="unfinished">波罗的海</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="217"/>
+        <source>Celtic</source>
+        <translation type="unfinished">凯尔特语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="218"/>
+        <source>Hebrew charsets</source>
+        <translation type="unfinished">希伯来语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="220"/>
+        <source>Ukrainian, Belarusian</source>
+        <translation type="unfinished">乌克兰语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="221"/>
+        <source>Simplified Chinese charset</source>
+        <translation type="unfinished">简体中文</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="222"/>
+        <source>Traditional Chinese charset</source>
+        <translation type="unfinished">繁体中文</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="223"/>
+        <source>Japanese charsets</source>
+        <translation type="unfinished">日本语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="224"/>
+        <source>Korean charset</source>
+        <translation type="unfinished">韩国语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="225"/>
+        <source>Thai charset</source>
+        <translation type="unfinished">泰国语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="226"/>
+        <source>Cyrillic Windows</source>
+        <translation type="unfinished">Cyrillic Windows</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="227"/>
+        <source>Slavic/Central European Windows</source>
+        <translation type="unfinished">斯拉夫语</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="228"/>
+        <source>Arabic Windows</source>
+        <translation type="unfinished">阿拉伯语</translation>
     </message>
 </context>
 <context>
@@ -3974,142 +4797,142 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefInterface</name>
     <message>
-        <location filename="../prefinterface.cpp" line="439"/>
+        <location filename="../prefinterface.cpp" line="410"/>
         <source>Interface</source>
         <translation>杂项</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="85"/>
         <source>Bulgarian</source>
-        <translation>保加利亚语</translation>
+        <translation type="obsolete">保加利亚语</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="87"/>
         <source>Czech</source>
-        <translation>捷克语</translation>
+        <translation type="obsolete">捷克语</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="88"/>
         <source>German</source>
-        <translation>德语</translation>
+        <translation type="obsolete">德语</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="89"/>
         <source>Greek</source>
-        <translation>希腊语</translation>
+        <translation type="obsolete">希腊语</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="90"/>
         <source>English</source>
-        <translation>英语</translation>
+        <translation type="obsolete">英语</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="91"/>
         <source>Spanish</source>
-        <translation>西班牙语</translation>
+        <translation type="obsolete">西班牙语</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="93"/>
         <source>Finnish</source>
-        <translation>芬兰语</translation>
+        <translation type="obsolete">芬兰语</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="94"/>
         <source>French</source>
-        <translation>法语</translation>
+        <translation type="obsolete">法语</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="96"/>
         <source>Hungarian</source>
-        <translation>匈牙利语</translation>
+        <translation type="obsolete">匈牙利语</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="97"/>
         <source>Italian</source>
-        <translation>意大利语</translation>
+        <translation type="obsolete">意大利语</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="98"/>
         <source>Japanese</source>
-        <translation>日语</translation>
+        <translation type="obsolete">日语</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="99"/>
         <source>Georgian</source>
-        <translation>乔治亚语</translation>
+        <translation type="obsolete">乔治亚语</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="102"/>
         <source>Dutch</source>
-        <translation>荷兰语</translation>
+        <translation type="obsolete">荷兰语</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="103"/>
         <source>Polish</source>
-        <translation>波兰语</translation>
+        <translation type="obsolete">波兰语</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="104"/>
         <source>Portuguese - Brazil</source>
-        <translation>葡萄牙语 - 巴西</translation>
+        <translation type="obsolete">葡萄牙语 - 巴西</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="105"/>
         <source>Portuguese - Portugal</source>
-        <translation>葡萄牙语 - 葡萄牙</translation>
+        <translation type="obsolete">葡萄牙语 - 葡萄牙</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="106"/>
         <source>Romanian</source>
-        <translation>罗马尼亚语</translation>
+        <translation type="obsolete">罗马尼亚语</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="107"/>
         <source>Russian</source>
-        <translation>俄罗斯语</translation>
+        <translation type="obsolete">俄罗斯语</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="108"/>
         <source>Slovak</source>
-        <translation>斯洛伐克语</translation>
+        <translation type="obsolete">斯洛伐克语</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="109"/>
         <source>Serbian</source>
-        <translation>赛尔维亚语</translation>
+        <translation type="obsolete">赛尔维亚语</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="110"/>
         <source>Swedish</source>
-        <translation>瑞典语</translation>
+        <translation type="obsolete">瑞典语</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="111"/>
         <source>Turkish</source>
-        <translation>土耳其语</translation>
+        <translation type="obsolete">土耳其语</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="112"/>
         <source>Ukrainian</source>
-        <translation>乌克兰语</translation>
+        <translation type="obsolete">乌克兰语</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="113"/>
         <source>Simplified-Chinese</source>
-        <translation type="unfinished">简体中文</translation>
+        <translation type="obsolete">简体中文</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="114"/>
         <source>Traditional Chinese</source>
-        <translation>繁体中文</translation>
+        <translation type="obsolete">繁体中文</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="121"/>
+        <location filename="../prefinterface.cpp" line="92"/>
         <source>&lt;Autodetect&gt;</source>
         <translation>&lt;自动探测&gt;</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="173"/>
+        <location filename="../prefinterface.cpp" line="144"/>
         <source>Default</source>
         <translation>默认</translation>
     </message>
@@ -4119,7 +4942,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>杂项(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="476"/>
+        <location filename="../prefinterface.cpp" line="447"/>
         <source>Seeking</source>
         <translation>定位</translation>
     </message>
@@ -4144,52 +4967,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>最近打开的文件</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="454"/>
+        <location filename="../prefinterface.cpp" line="425"/>
         <source>Language</source>
         <translation>语言</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="455"/>
+        <location filename="../prefinterface.cpp" line="426"/>
         <source>Here you can change the language of the application.</source>
         <translation>在这里你可以改变应用程序的语言。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="497"/>
+        <location filename="../prefinterface.cpp" line="468"/>
         <source>Instances</source>
         <translation>实例</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="86"/>
         <source>Catalan</source>
-        <translation>西班牙语</translation>
+        <translation type="obsolete">西班牙语</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="92"/>
         <source>Basque</source>
-        <translation>巴斯克语</translation>
+        <translation type="obsolete">巴斯克语</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="95"/>
         <source>Galician</source>
-        <translation>加里西亚语</translation>
+        <translation type="obsolete">加里西亚语</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="148"/>
+        <location filename="../prefinterface.cpp" line="119"/>
         <source>&amp;Short jump</source>
         <translation>短跳跃(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="149"/>
+        <location filename="../prefinterface.cpp" line="120"/>
         <source>&amp;Medium jump</source>
         <translation>跳跃(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="150"/>
+        <location filename="../prefinterface.cpp" line="121"/>
         <source>&amp;Long jump</source>
         <translation>长跳跃(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="151"/>
+        <location filename="../prefinterface.cpp" line="122"/>
         <source>Mouse &amp;wheel jump</source>
         <translation>鼠标滚轮跳跃(&amp;W)</translation>
     </message>
@@ -4286,160 +5109,160 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="100"/>
         <source>Korean</source>
-        <translation>朝鲜语</translation>
+        <translation type="obsolete">朝鲜语</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="101"/>
         <source>Macedonian</source>
-        <translation>马其顿语</translation>
+        <translation type="obsolete">马其顿语</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="441"/>
+        <location filename="../prefinterface.cpp" line="412"/>
         <source>Autoresize</source>
         <translation>自动缩放</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="443"/>
+        <location filename="../prefinterface.cpp" line="414"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
         <translation>主窗口将自动缩放。请根据您的喜好来勾选这个选项。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="445"/>
+        <location filename="../prefinterface.cpp" line="416"/>
         <source>Remember position and size</source>
         <translation>记录的位置和大小</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="447"/>
+        <location filename="../prefinterface.cpp" line="418"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
         <translation>如果您勾选这个选项, 主窗口的位置和大小将被记录, 然后在下一次启动 SMPlayer 时还原。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="452"/>
+        <location filename="../prefinterface.cpp" line="423"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation>选择在 &lt;b&gt;打开-&gt;最近使用&lt;/b&gt; 子菜单中显示的项的最大数目。如果您将值设为 0 那么这个子菜单将不被显示。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="457"/>
+        <location filename="../prefinterface.cpp" line="428"/>
         <source>Icon set</source>
         <translation>图标集</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="458"/>
+        <location filename="../prefinterface.cpp" line="429"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation>为应用程序选择您所喜欢的图标集。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="460"/>
+        <location filename="../prefinterface.cpp" line="431"/>
         <source>Style</source>
         <translation>风格</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="461"/>
+        <location filename="../prefinterface.cpp" line="432"/>
         <source>Select the style you prefer for the application.</source>
         <translation>为应用程序选择您所喜欢的风格。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="473"/>
+        <location filename="../prefinterface.cpp" line="444"/>
         <source>Default font</source>
         <translation>默认字体</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="474"/>
+        <location filename="../prefinterface.cpp" line="445"/>
         <source>You can change here the application&apos;s font.</source>
         <translation>在这里你可以改变应用程序的字体。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="478"/>
+        <location filename="../prefinterface.cpp" line="449"/>
         <source>Short jump</source>
         <translation>短跳跃</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="488"/>
+        <location filename="../prefinterface.cpp" line="459"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>选择您执行 %1 后应该前进或回退的时间。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="480"/>
+        <location filename="../prefinterface.cpp" line="451"/>
         <source>short jump</source>
         <translation>短跳跃</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="482"/>
+        <location filename="../prefinterface.cpp" line="453"/>
         <source>Medium jump</source>
         <translation>跳跃</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="484"/>
+        <location filename="../prefinterface.cpp" line="455"/>
         <source>medium jump</source>
         <translation>跳跃</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="486"/>
+        <location filename="../prefinterface.cpp" line="457"/>
         <source>Long jump</source>
         <translation>长跳跃</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="488"/>
+        <location filename="../prefinterface.cpp" line="459"/>
         <source>long jump</source>
         <translation>长跳跃</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="490"/>
+        <location filename="../prefinterface.cpp" line="461"/>
         <source>Mouse wheel jump</source>
         <translation>鼠标滚轮跳跃</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="492"/>
+        <location filename="../prefinterface.cpp" line="463"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation>选择您滚动滚轮后应该前进或回退的时间。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="494"/>
+        <location filename="../prefinterface.cpp" line="465"/>
         <source>Behaviour of time slider</source>
         <translation>时间滑块的行为</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="495"/>
+        <location filename="../prefinterface.cpp" line="466"/>
         <source>Select what to do when dragging the time slider.</source>
         <translation>选择拖动时间滑块的行为。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="500"/>
+        <location filename="../prefinterface.cpp" line="471"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>只使用一个运行的 SMPlayer 实例</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="502"/>
+        <location filename="../prefinterface.cpp" line="473"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="504"/>
+        <location filename="../prefinterface.cpp" line="475"/>
         <source>Port</source>
         <translation>端口</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="507"/>
+        <location filename="../prefinterface.cpp" line="478"/>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. You can change the port in case the default one is used by another application.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="178"/>
+        <location filename="../prefinterface.cpp" line="149"/>
         <source>Default GUI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="179"/>
+        <location filename="../prefinterface.cpp" line="150"/>
         <source>Mini GUI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="463"/>
+        <location filename="../prefinterface.cpp" line="434"/>
         <source>GUI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="471"/>
+        <location filename="../prefinterface.cpp" line="442"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option will take effect the next time you run SMPlayer.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4790,17 +5613,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefSubtitles</name>
     <message>
-        <location filename="../prefsubtitles.cpp" line="281"/>
+        <location filename="../prefsubtitles.cpp" line="282"/>
         <source>Subtitles</source>
         <translation>字幕</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="76"/>
+        <location filename="../prefsubtitles.cpp" line="82"/>
         <source>Choose a ttf file</source>
         <translation>选择一个 ttf 文件</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="77"/>
+        <location filename="../prefsubtitles.cpp" line="83"/>
         <source>Truetype Fonts</source>
         <translation>Truetype 字体</translation>
     </message>
@@ -4820,7 +5643,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">自动加载字幕文件 (*.srt, *.sub...):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="286"/>
+        <location filename="../prefsubtitles.cpp" line="287"/>
         <source>Select first available subtitle</source>
         <translation>选择第一个可用的字幕</translation>
     </message>
@@ -4870,7 +5693,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>底部</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="301"/>
+        <location filename="../prefsubtitles.cpp" line="302"/>
         <source>Include subtitles on screenshots</source>
         <translation>将字幕包含在截图里</translation>
     </message>
@@ -4955,7 +5778,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>新的 SSA/ASS 库将为外部的 SSA/ASS 字幕和 Matroska tracks 提供的赏心悦目风格。它同样可能用来渲染其它字幕格式, 如 SUB, SRT。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="334"/>
+        <location filename="../prefsubtitles.cpp" line="335"/>
         <source>Use SSA/ASS library for subtitle rendering</source>
         <translation>使用 SSA/AAS 库来渲染字体</translation>
     </message>
@@ -4980,17 +5803,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">风格:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="295"/>
+        <location filename="../prefsubtitles.cpp" line="296"/>
         <source>Subtitle position</source>
         <translation>字幕位置</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="298"/>
+        <location filename="../prefsubtitles.cpp" line="299"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
         <translation>这个选项指定字幕在视频窗口里的位置。&lt;i&gt;100&lt;/i&gt;表示底部, &lt;i&gt;0&lt;/i&gt;表示顶部。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="344"/>
+        <location filename="../prefsubtitles.cpp" line="345"/>
         <source>SSA/ASS styles</source>
         <translation>SSA/ASS 风格</translation>
     </message>
@@ -5070,22 +5893,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>风格(&amp;Y):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="324"/>
+        <location filename="../prefsubtitles.cpp" line="325"/>
         <source>Default scale for normal subtitles</source>
         <translation>字幕的默认比例</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="326"/>
+        <location filename="../prefsubtitles.cpp" line="327"/>
         <source>This option specifies the default font scale for normal (white) subtitles which will be used for new videos.</source>
         <translation>这个选项为字幕指定默认的字体比例, 将在新的文件中使用。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="328"/>
+        <location filename="../prefsubtitles.cpp" line="329"/>
         <source>Default scale for SSA/ASS subtitles</source>
         <translation>SSA/ASS字幕的默认比例</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="330"/>
+        <location filename="../prefsubtitles.cpp" line="331"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new videos.</source>
         <translation>这个选项为 SSA/ASS 字幕指定默认的字体比例, 将在新的文件中使用。</translation>
     </message>
@@ -5105,87 +5928,87 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>SSA/&amp;ASS 库(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="292"/>
+        <location filename="../prefsubtitles.cpp" line="293"/>
         <source>Default subtitle encoding</source>
         <translation>默认字幕编码</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="293"/>
+        <location filename="../prefsubtitles.cpp" line="294"/>
         <source>Select the encoding which will be used for subtitle files.</source>
         <translation>选择将用于字幕文件的编码。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="303"/>
+        <location filename="../prefsubtitles.cpp" line="304"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. Note: it may cause some troubles sometimes.</source>
         <translation>如果选择这个选项，字幕将会出现在截图里。注意: 这有时可能会带来一些麻烦。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="307"/>
+        <location filename="../prefsubtitles.cpp" line="308"/>
         <source>TTF font</source>
         <translation>TTF 字体</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="310"/>
+        <location filename="../prefsubtitles.cpp" line="311"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in &lt;i&gt;%1&lt;/i&gt;.</source>
         <translation>在这里您可能选择一个用于字幕的 TTF 字体。通常您可以在 &lt;i&gt;%1&lt;/i&gt; 找到很多 TTF 字体。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="317"/>
+        <location filename="../prefsubtitles.cpp" line="318"/>
         <source>System font</source>
         <translation>系统字体</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="319"/>
+        <location filename="../prefsubtitles.cpp" line="320"/>
         <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
         <translation>在这里您可以选择一个用于字幕和 OSD 的系统字体。&lt;b&gt;注意:&lt;/b&gt; 需要 MPlayer 有　fontconfig 支持。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="321"/>
+        <location filename="../prefsubtitles.cpp" line="322"/>
         <source>Autoscale</source>
         <translation>自适应比例</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="332"/>
+        <location filename="../prefsubtitles.cpp" line="333"/>
         <source>SSA/ASS library</source>
         <translation>SSA/ASS 库</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="336"/>
+        <location filename="../prefsubtitles.cpp" line="337"/>
         <source>Check this option to activate the SSA/ASS library. It provides nicer subtitles, so it&apos;s a good idea to do it.</source>
         <translation>勾选这个选项来启用 SSA/ASS 库。它将提供更多的字幕, 所以推荐启用。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="338"/>
+        <location filename="../prefsubtitles.cpp" line="339"/>
         <source>Text color</source>
         <translation>文本颜色</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="339"/>
+        <location filename="../prefsubtitles.cpp" line="340"/>
         <source>Select the color for the text of the subtitles.</source>
         <translation>选择用于字幕文本的颜色。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="341"/>
+        <location filename="../prefsubtitles.cpp" line="342"/>
         <source>Border color</source>
         <translation>边框颜色</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="342"/>
+        <location filename="../prefsubtitles.cpp" line="343"/>
         <source>Select the color for the border of the subtitles.</source>
         <translation>选择用于字幕边框的颜色。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="284"/>
+        <location filename="../prefsubtitles.cpp" line="285"/>
         <source>Select the subtitle autoload method.</source>
         <translation>选择字幕自动加载方式。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="290"/>
+        <location filename="../prefsubtitles.cpp" line="291"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>如果有一个以上的可用字幕, 其中的一个会被自动加载, 一般是第一个, 但如果有和用户首选字幕匹配的，匹配的字幕将被使用。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="322"/>
+        <location filename="../prefsubtitles.cpp" line="323"/>
         <source>Select the subtitle autoscaling method.</source>
         <translation>选择字幕自动加载方式。</translation>
     </message>
