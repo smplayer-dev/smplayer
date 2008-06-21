@@ -151,7 +151,7 @@ QMap<QString,QString> Languages::list() {
 	l["ur"] = tr("Urdu");
 	l["uz"] = tr("Uzbek");
 	l["vi"] = tr("Vietnamese");
-	l["vo"] = tr("Volapuk");
+	l["vo"] = tr("Volapük");
 	l["wo"] = tr("Wolof");
 	l["xh"] = tr("Xhosa");
 	l["yi"] = tr("Yiddish");
