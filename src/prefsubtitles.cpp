@@ -20,9 +20,9 @@
 #include "prefsubtitles.h"
 #include "images.h"
 #include "preferences.h"
-#include "encodings.h"
 #include "helper.h"
 #include "filedialog.h"
+#include "languages.h"
 
 #include <QColorDialog>
 
@@ -35,9 +35,6 @@ PrefSubtitles::PrefSubtitles(QWidget * parent, Qt::WindowFlags f)
 #ifdef Q_OS_WIN
 	ttf_font_edit->setOptions(QFileDialog::DontUseNativeDialog);
 #endif
-
-	encodings = new Encodings(this);
-	font_encoding_combo->insertItems( 0, encodings->list() );
 
 	retranslateStrings();
 }
@@ -65,11 +62,20 @@ void PrefSubtitles::retranslateStrings() {
 	font_autoload_combo->setCurrentIndex(font_autoload_item);
 
 	// Encodings combo
-	int font_encoding_item = font_encoding_combo->currentIndex();
+	//int font_encoding_item = font_encoding_combo->currentIndex();
+	QString current_encoding = fontEncoding();
 	font_encoding_combo->clear();
-	encodings->retranslate();
-	font_encoding_combo->insertItems( 0, encodings->list() );
-	font_encoding_combo->setCurrentIndex(font_encoding_item);
+
+	QMap<QString,QString> l = Languages::encodings();
+	QMapIterator<QString, QString> i(l);
+	while (i.hasNext()) {
+		i.next();
+		font_encoding_combo->addItem( i.value() + " (" + i.key() + ")", i.key() );
+	}
+	font_encoding_combo->model()->sort(0);
+	//font_encoding_combo->setCurrentIndex(font_encoding_item);
+	setFontEncoding(current_encoding);
+
 
 	sub_pos_label->setNum( sub_pos_slider->value() );
 
@@ -176,18 +182,13 @@ bool PrefSubtitles::autoloadSub() {
 }
 
 void PrefSubtitles::setFontEncoding(QString s) {
-	int n = encodings->findEncoding( s );
-	if (n != -1) 
-		font_encoding_combo->setCurrentIndex(n);
-	else
-		font_encoding_combo->setCurrentText(s);
+	int i = font_encoding_combo->findData(s);
+	font_encoding_combo->setCurrentIndex(i);
 }
 
 QString PrefSubtitles::fontEncoding() {
-	qDebug("PrefSubtitles::fontEncoding");
-	QString res = encodings->parseEncoding( font_encoding_combo->currentText() );
-	qDebug(" * res: '%s'", res.toUtf8().data() );
-	return res;
+	int index = font_encoding_combo->currentIndex();
+	return font_encoding_combo->itemData(index).toString();
 }
 
 void PrefSubtitles::setSubPos(int pos) {
