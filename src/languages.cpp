@@ -111,7 +111,7 @@ QMap<QString,QString> Languages::list() {
 	l["ps"] = tr("Pashto");
 	l["pt"] = tr("Portuguese");
 	l["qu"] = tr("Quechua");
-	l["rm"] = tr("Rhaeto");
+	l["rm"] = tr("Rhaeto-Romance");
 	l["rn"] = tr("Kirundi");
 	l["ro"] = tr("Romanian");
 	l["ru"] = tr("Russian");
@@ -119,7 +119,7 @@ QMap<QString,QString> Languages::list() {
 	l["sa"] = tr("Sanskrit");
 	l["sd"] = tr("Sindhi");
 	l["sg"] = tr("Sangho");
-	l["sh"] = tr("Serbo");
+	l["sh"] = tr("Serbo-Croatian");
 	l["si"] = tr("Sinhalese");
 	l["sk"] = tr("Slovak");
 	l["sl"] = tr("Slovenian");
