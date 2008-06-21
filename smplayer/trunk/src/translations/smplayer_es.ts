@@ -2821,17 +2821,17 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="114"/>
         <source>Rhaeto-Romance</source>
-        <translation type="unfinished"></translation>
+        <translation>Retorrománico</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="122"/>
         <source>Serbo-Croatian</source>
-        <translation type="unfinished"></translation>
+        <translation>Serbocroata</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="154"/>
         <source>Volap&#xfc;k</source>
-        <translation type="unfinished"></translation>
+        <translation>Volapük</translation>
     </message>
 </context>
 <context>
