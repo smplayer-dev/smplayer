@@ -2836,17 +2836,17 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../languages.cpp" line="114"/>
         <source>Rhaeto-Romance</source>
-        <translation type="unfinished"></translation>
+        <translation>レト・ロマン語</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="122"/>
         <source>Serbo-Croatian</source>
-        <translation type="unfinished"></translation>
+        <translation>セルボクロアチア語</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="154"/>
         <source>Volap&#xfc;k</source>
-        <translation type="unfinished"></translation>
+        <translation>ヴォラピュク語</translation>
     </message>
 </context>
 <context>
