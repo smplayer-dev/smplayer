@@ -8,7 +8,7 @@ int main( int argc, char ** argv )
 	if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
 		return -1;
 
-	QRegExp rx("^([a-zA-Z]+) ([a-zA-Z]+)");
+	QRegExp rx("^([a-zA-Z]+) ([a-zA-Z\\-]+)");
 
 	QString line;
 	while (!file.atEnd()) {
