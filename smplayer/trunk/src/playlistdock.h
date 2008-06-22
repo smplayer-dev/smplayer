@@ -29,6 +29,9 @@ public:
 	PlaylistDock ( QWidget * parent = 0, Qt::WindowFlags flags = 0 );
 	~PlaylistDock();
 
+public slots:
+	void setDocked(bool b) { setFloating(!b); };
+
 signals:
 	void closed();
 	void docked();
