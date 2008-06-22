@@ -63,6 +63,8 @@ inc_sub_step	Y
 use_ass_lib	
 use_closed_caption	
 use_forced_subs_only	
+show_find_sub_dialog	
+upload_subtitles	
 show_playlist	Ctrl+L
 show_file_properties	Ctrl+I
 frame_counter	
@@ -93,8 +95,8 @@ dec_hue	5
 inc_hue	6
 dec_saturation	7
 inc_saturation	8
-dec_gamma	Alt+1
-inc_gamma	Alt+2
+dec_gamma	
+inc_gamma	
 next_audio	H
 next_subtitle	J
 next_chapter	@
@@ -161,5 +163,6 @@ pl_add_directory
 pl_remove_selected	
 pl_remove_all	
 pl_edit	
+dock_playlist	
 show_main_toolbar	F5
 show_language_toolbar	F6

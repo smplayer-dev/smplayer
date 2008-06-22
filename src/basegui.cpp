@@ -681,10 +681,10 @@ void BaseGui::createActions() {
 	incSaturationAct = new MyAction( Qt::Key_8, this, "inc_saturation");
 	connect( incSaturationAct, SIGNAL(triggered()), core, SLOT(incSaturation()) );
 
-	decGammaAct = new MyAction( Qt::ALT | Qt::Key_1, this, "dec_gamma");
+	decGammaAct = new MyAction( this, "dec_gamma");
 	connect( decGammaAct, SIGNAL(triggered()), core, SLOT(decGamma()) );
 
-	incGammaAct = new MyAction( Qt::ALT | Qt::Key_2, this, "inc_gamma");
+	incGammaAct = new MyAction( this, "inc_gamma");
 	connect( incGammaAct, SIGNAL(triggered()), core, SLOT(incGamma()) );
 
 	nextAudioAct = new MyAction( Qt::Key_H, this, "next_audio");
