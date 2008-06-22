@@ -78,6 +78,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags )
 	connect( showAllAct, SIGNAL(triggered()),
              this, SLOT(toggleShowAll()) );
 
+
 	context_menu = new QMenu(this);
 	context_menu->addAction(showAllAct);
 	context_menu->addSeparator();
@@ -122,6 +123,12 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags )
 	connect( playlistdock, SIGNAL(undocked()), this, SLOT(shrinkWindow()) );
 
 	ignore_playlist_events = false;
+
+	// Action:
+	dockPlaylistAct = new MyAction(this, "dock_playlist");
+	dockPlaylistAct->setCheckable(true);
+	connect( dockPlaylistAct, SIGNAL(toggled(bool)),
+             playlistdock, SLOT(setDocked(bool)) );
 #endif
 
 	retranslateStrings();
