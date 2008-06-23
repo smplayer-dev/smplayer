@@ -20,6 +20,7 @@
 #define _PLAYLIST_DOCK_H_
 
 #include <QDockWidget>
+#include "guiconfig.h"
 
 class PlaylistDock : public QDockWidget 
 {
@@ -30,17 +31,21 @@ public:
 	~PlaylistDock();
 
 public slots:
-	void setDocked(bool b) { setFloating(!b); };
+	void setDocked(bool b);
 
 signals:
 	void closed();
+#if !USE_DOCK_TOPLEVEL_EVENT
 	void docked();
 	void undocked();
+#endif
 
 protected:
 	virtual void closeEvent( QCloseEvent * event );
+#if !USE_DOCK_TOPLEVEL_EVENT
 	virtual void showEvent ( QShowEvent * event );
 	virtual void hideEvent ( QHideEvent * event );
+#endif
 };
 
 #endif

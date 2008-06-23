@@ -27,11 +27,18 @@ PlaylistDock::PlaylistDock(QWidget * parent, Qt::WindowFlags flags)
 PlaylistDock::~PlaylistDock() {
 }
 
+void PlaylistDock::setDocked(bool b) {
+	qDebug("PlaylistDock::setDocked: %d", b);
+
+	setFloating(!b);
+}
+
 void PlaylistDock::closeEvent( QCloseEvent * /*event*/ ) {
 	qDebug("PlaylistDock::closeEvent");
 	emit closed();
 }
 
+#if !USE_DOCK_TOPLEVEL_EVENT
 void PlaylistDock::showEvent( QShowEvent * /* event */ ) {
 	qDebug("PlaylistDock::showEvent: isFloating: %d", isFloating() );
 
@@ -49,6 +56,7 @@ void PlaylistDock::hideEvent( QHideEvent * /* event */ ) {
 		emit undocked();
 	}
 }
+#endif
 
 
 #include "moc_playlistdock.cpp"

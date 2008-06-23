@@ -93,5 +93,11 @@
 #define USE_CONFIGURABLE_TOOLBARS 1
 
 
+// USE_DOCK_TOPLEVEL_EVENT
+// if 1, the topLevelChanged from QDockWidget will be use to know
+// if the playlist has been docked or undocked
+
+#define USE_DOCK_TOPLEVEL_EVENT 1
+
 #endif
 
