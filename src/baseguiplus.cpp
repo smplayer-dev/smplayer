@@ -461,7 +461,8 @@ void BaseGuiPlus::playlistClosed() {
 #if USE_DOCK_TOPLEVEL_EVENT
 void BaseGuiPlus::dockTopLevelChanged(bool floating) {
 	if (floating) shrinkWindow(); else stretchWindow();
-	
+
+	dockPlaylistAct->setChecked(!floating);	
 }
 #endif
 
