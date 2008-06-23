@@ -119,7 +119,7 @@ void FloatingWidget::animate() {
 
 void FloatingWidget::checkUnderMouse() {
 	if (auto_hide) {
-		qDebug("FloatingWidget::checkUnderMouse");
+		//qDebug("FloatingWidget::checkUnderMouse");
 		if ((isVisible()) && (!underMouse())) hide();
 	}
 }
