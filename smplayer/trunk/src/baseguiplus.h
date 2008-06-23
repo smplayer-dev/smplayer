@@ -74,6 +74,10 @@ protected slots:
 	virtual void showPlaylist(bool b);
 	void playlistClosed();
 
+#if USE_DOCK_TOPLEVEL_EVENT
+	void dockTopLevelChanged(bool floating);
+#endif
+
 	void stretchWindow();
 	void shrinkWindow();
 #endif

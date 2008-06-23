@@ -119,8 +119,13 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags )
 	playlistdock->setFloating(true); // Floating by default
 
 	connect( playlistdock, SIGNAL(closed()), this, SLOT(playlistClosed()) );
+#if USE_DOCK_TOPLEVEL_EVENT
+	connect( playlistdock, SIGNAL(topLevelChanged(bool)), 
+             this, SLOT(dockTopLevelChanged(bool)) );
+#else
 	connect( playlistdock, SIGNAL(docked()), this, SLOT(stretchWindow()) );
 	connect( playlistdock, SIGNAL(undocked()), this, SLOT(shrinkWindow()) );
+#endif
 
 	ignore_playlist_events = false;
 
@@ -190,6 +195,10 @@ void BaseGuiPlus::retranslateStrings() {
 
 	quitAct->change( Images::icon("exit"), tr("&Quit") );
 	showTrayAct->change( Images::icon("systray"), tr("S&how icon in system tray") );
+
+#if DOCK_PLAYLIST
+	dockPlaylistAct->change( Images::icon("dock_playlist"), tr("Dock playlist"));
+#endif
 
 	updateShowAllAct();
 
@@ -448,6 +457,13 @@ void BaseGuiPlus::showPlaylist(bool b) {
 void BaseGuiPlus::playlistClosed() {
 	showPlaylistAct->setChecked(false);
 }
+
+#if USE_DOCK_TOPLEVEL_EVENT
+void BaseGuiPlus::dockTopLevelChanged(bool floating) {
+	if (floating) shrinkWindow(); else stretchWindow();
+	
+}
+#endif
 
 void BaseGuiPlus::stretchWindow() {
 	qDebug("BaseGuiPlus::stretchWindow");
