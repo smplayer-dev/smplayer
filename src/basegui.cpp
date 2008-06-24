@@ -3339,6 +3339,7 @@ void BaseGui::resizeWindow(int w, int h) {
 void BaseGui::hidePanel() {
 	qDebug("BaseGui::hidePanel");
 
+#if HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
 	if (panel->isVisible()) {
 		// Exit from fullscreen mode 
 	    if (pref->fullscreen) { toggleFullscreen(false); update(); }
@@ -3355,6 +3356,9 @@ void BaseGui::hidePanel() {
 		// Disable compact mode
 		//compactAct->setEnabled(false);
 	}
+#else
+	mplayerwindow->showLogo(true);
+#endif
 }
 
 void BaseGui::displayGotoTime(int t) {

@@ -99,5 +99,11 @@
 
 #define USE_DOCK_TOPLEVEL_EVENT 1
 
+
+// HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
+// if 1, the video window will be hidden when playing audio files
+
+#define HIDE_VIDEO_WINDOW_ON_AUDIO_FILES 1
+
 #endif
 
