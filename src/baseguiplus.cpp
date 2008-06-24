@@ -127,8 +127,8 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags )
              this, SLOT(dockVisibilityChanged(bool)) );
 	#endif
 #else
-	connect( playlistdock, SIGNAL(docked()), this, SLOT(stretchWindow()) );
-	connect( playlistdock, SIGNAL(undocked()), this, SLOT(shrinkWindow()) );
+	connect( playlistdock, SIGNAL(dockChanged(bool)),
+             this, SLOT(playlistDockChanged(bool)) );
 #endif
 
 	ignore_playlist_events = false;
@@ -462,7 +462,15 @@ void BaseGuiPlus::playlistClosed() {
 	showPlaylistAct->setChecked(false);
 }
 
-#if USE_DOCK_TOPLEVEL_EVENT
+#if !USE_DOCK_TOPLEVEL_EVENT
+void BaseGuiPlus::playlistDockChanged(bool docked) {
+	qDebug("BaseGuiPlus::playlistDockChanged: %d", docked);
+
+	if (!docked) shrinkWindow(); else stretchWindow();
+}
+
+#else
+
 #if QT_VERSION >= 0x040300
 void BaseGuiPlus::dockVisibilityChanged(bool visible) {
 	qDebug("BaseGuiPlus::dockVisibilityChanged: %d", visible);
