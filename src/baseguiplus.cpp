@@ -122,6 +122,10 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags )
 #if USE_DOCK_TOPLEVEL_EVENT
 	connect( playlistdock, SIGNAL(topLevelChanged(bool)), 
              this, SLOT(dockTopLevelChanged(bool)) );
+	#if QT_VERSION >= 0x040300
+	connect( playlistdock, SIGNAL(visibilityChanged(bool)), 
+             this, SLOT(dockVisibilityChanged(bool)) );
+	#endif
 #else
 	connect( playlistdock, SIGNAL(docked()), this, SLOT(stretchWindow()) );
 	connect( playlistdock, SIGNAL(undocked()), this, SLOT(shrinkWindow()) );
@@ -459,6 +463,16 @@ void BaseGuiPlus::playlistClosed() {
 }
 
 #if USE_DOCK_TOPLEVEL_EVENT
+#if QT_VERSION >= 0x040300
+void BaseGuiPlus::dockVisibilityChanged(bool visible) {
+	qDebug("BaseGuiPlus::dockVisibilityChanged: %d", visible);
+
+	if (!playlistdock->isFloating()) {
+		if (!visible) shrinkWindow(); else stretchWindow();
+	}
+}
+#endif
+
 void BaseGuiPlus::dockTopLevelChanged(bool floating) {
 	if (floating) shrinkWindow(); else stretchWindow();
 
