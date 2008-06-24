@@ -41,23 +41,15 @@ void PlaylistDock::closeEvent( QCloseEvent * /*event*/ ) {
 	emit closed();
 }
 
-#if !USE_DOCK_TOPLEVEL_EVENT
+#if QT_VERSION < 0x040300
 void PlaylistDock::showEvent( QShowEvent * /* event */ ) {
-	qDebug("PlaylistDock::showEvent: isFloating: %d", isFloating() );
-
-	if (!isFloating()) {
-		qDebug(" docked");
-		emit dockChanged(true);
-	}
+	qDebug("PlaylistDock::showEvent");
+	emit visibilityChanged(true);
 }
 
 void PlaylistDock::hideEvent( QHideEvent * /* event */ ) {
-	qDebug("PlaylistDock::hideEvent: isFloating: %d", isFloating() );
-
-	if (!isFloating()) {
-		qDebug(" undocked");
-		emit dockChanged(false);
-	}
+	qDebug("PlaylistDock::hideEvent");
+	emit visibilityChanged(false);
 }
 #endif
 

@@ -75,12 +75,9 @@ protected slots:
 	void playlistClosed();
 
 #if !USE_DOCK_TOPLEVEL_EVENT
-	void playlistDockChanged(bool docked);
+	void dockVisibilityChanged(bool visible);
 #else
 	void dockTopLevelChanged(bool floating);
-	#if QT_VERSION >= 0x040300
-	void dockVisibilityChanged(bool visible);
-	#endif
 #endif
 
 	void stretchWindow();
