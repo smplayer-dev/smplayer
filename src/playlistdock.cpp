@@ -30,7 +30,10 @@ PlaylistDock::~PlaylistDock() {
 void PlaylistDock::setDocked(bool b) {
 	qDebug("PlaylistDock::setDocked: %d", b);
 
-	setFloating(!b);
+	bool already_docked = !isFloating();
+	if (b && !already_docked) setFloating(false);
+	else
+	if (!b && already_docked) setFloating(true);
 }
 
 void PlaylistDock::closeEvent( QCloseEvent * /*event*/ ) {
