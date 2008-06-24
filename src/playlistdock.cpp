@@ -27,15 +27,6 @@ PlaylistDock::PlaylistDock(QWidget * parent, Qt::WindowFlags flags)
 PlaylistDock::~PlaylistDock() {
 }
 
-void PlaylistDock::setDocked(bool b) {
-	qDebug("PlaylistDock::setDocked: %d", b);
-
-	bool already_docked = !isFloating();
-	if (b && !already_docked) setFloating(false);
-	else
-	if (!b && already_docked) setFloating(true);
-}
-
 void PlaylistDock::closeEvent( QCloseEvent * /*event*/ ) {
 	qDebug("PlaylistDock::closeEvent");
 	emit closed();
