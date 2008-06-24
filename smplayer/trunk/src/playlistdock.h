@@ -36,8 +36,7 @@ public slots:
 signals:
 	void closed();
 #if !USE_DOCK_TOPLEVEL_EVENT
-	void docked();
-	void undocked();
+	void dockChanged(bool docked);
 #endif
 
 protected:

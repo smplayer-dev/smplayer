@@ -74,7 +74,9 @@ protected slots:
 	virtual void showPlaylist(bool b);
 	void playlistClosed();
 
-#if USE_DOCK_TOPLEVEL_EVENT
+#if !USE_DOCK_TOPLEVEL_EVENT
+	void playlistDockChanged(bool docked);
+#else
 	void dockTopLevelChanged(bool floating);
 	#if QT_VERSION >= 0x040300
 	void dockVisibilityChanged(bool visible);

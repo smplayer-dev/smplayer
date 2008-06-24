@@ -47,7 +47,7 @@ void PlaylistDock::showEvent( QShowEvent * /* event */ ) {
 
 	if (!isFloating()) {
 		qDebug(" docked");
-		emit docked();
+		emit dockChanged(true);
 	}
 }
 
@@ -56,7 +56,7 @@ void PlaylistDock::hideEvent( QHideEvent * /* event */ ) {
 
 	if (!isFloating()) {
 		qDebug(" undocked");
-		emit undocked();
+		emit dockChanged(false);
 	}
 }
 #endif
