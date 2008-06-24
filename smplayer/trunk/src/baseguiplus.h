@@ -76,6 +76,9 @@ protected slots:
 
 #if USE_DOCK_TOPLEVEL_EVENT
 	void dockTopLevelChanged(bool floating);
+	#if QT_VERSION >= 0x040300
+	void dockVisibilityChanged(bool visible);
+	#endif
 #endif
 
 	void stretchWindow();
