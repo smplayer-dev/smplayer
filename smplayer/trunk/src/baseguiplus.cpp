@@ -125,16 +125,10 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags )
 #else
 	connect( playlistdock, SIGNAL(visibilityChanged(bool)), 
              this, SLOT(dockVisibilityChanged(bool)) );
-#endif
+#endif // USE_DOCK_TOPLEVEL_EVENT
 
 	ignore_playlist_events = false;
-
-	// Action:
-	dockPlaylistAct = new MyAction(this, "dock_playlist");
-	dockPlaylistAct->setCheckable(true);
-	connect( dockPlaylistAct, SIGNAL(toggled(bool)),
-             playlistdock, SLOT(setDocked(bool)) );
-#endif
+#endif // DOCK_PLAYLIST
 
 	retranslateStrings();
 
@@ -195,10 +189,6 @@ void BaseGuiPlus::retranslateStrings() {
 
 	quitAct->change( Images::icon("exit"), tr("&Quit") );
 	showTrayAct->change( Images::icon("systray"), tr("S&how icon in system tray") );
-
-#if DOCK_PLAYLIST
-	dockPlaylistAct->change( Images::icon("dock_playlist"), tr("Dock playlist"));
-#endif
 
 	updateShowAllAct();
 
@@ -473,8 +463,6 @@ void BaseGuiPlus::dockTopLevelChanged(bool floating) {
 	qDebug("BaseGuiPlus::dockTopLevelChanged: %d", floating);
 
 	if (floating) shrinkWindow(); else stretchWindow();
-
-	dockPlaylistAct->setChecked(!floating);	
 }
 #endif
 

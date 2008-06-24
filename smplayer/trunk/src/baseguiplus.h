@@ -92,10 +92,6 @@ protected:
 	MyAction * showTrayAct;
 	MyAction * showAllAct;
 
-#if DOCK_PLAYLIST
-	MyAction * dockPlaylistAct;
-#endif
-
 	// To save state
 	QPoint mainwindow_pos;
 	bool mainwindow_visible;

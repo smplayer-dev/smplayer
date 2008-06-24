@@ -30,9 +30,6 @@ public:
 	PlaylistDock ( QWidget * parent = 0, Qt::WindowFlags flags = 0 );
 	~PlaylistDock();
 
-public slots:
-	void setDocked(bool b);
-
 signals:
 	void closed();
 #if QT_VERSION < 0x040300
