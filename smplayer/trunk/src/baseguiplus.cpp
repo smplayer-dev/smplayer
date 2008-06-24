@@ -474,6 +474,8 @@ void BaseGuiPlus::dockVisibilityChanged(bool visible) {
 #endif
 
 void BaseGuiPlus::dockTopLevelChanged(bool floating) {
+	qDebug("BaseGuiPlus::dockTopLevelChanged: %d", floating);
+
 	if (floating) shrinkWindow(); else stretchWindow();
 
 	dockPlaylistAct->setChecked(!floating);	
