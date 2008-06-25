@@ -192,6 +192,22 @@ public slots:
 	//! Select previous line in subtitle file
 	void decSubStep();
 
+	//! Audio equalizer
+	void setAudioEqualizer(QList<QVariant> values, bool restart = false);
+	void setAudioAudioEqualizerRestart(QList<QVariant> values) { setAudioEqualizer(values, true); };
+	void updateAudioEqualizer();
+
+	void setAudioEq0(double value);
+	void setAudioEq1(double value);
+	void setAudioEq2(double value);
+	void setAudioEq3(double value);
+	void setAudioEq4(double value);
+	void setAudioEq5(double value);
+	void setAudioEq6(double value);
+	void setAudioEq7(double value);
+	void setAudioEq8(double value);
+	void setAudioEq9(double value);
+
 	void changeDeinterlace(int);
     void changeSubtitle(int);
 	void nextSubtitle();

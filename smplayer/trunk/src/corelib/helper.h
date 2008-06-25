@@ -22,6 +22,8 @@
 
 #include <QString>
 #include <QStringList>
+#include <QList>
+#include <QVariant>
 
 #ifdef Q_OS_WIN
 #include "config.h"
@@ -122,6 +124,8 @@ public:
 	//! Returns an int with the version number of Qt at run-time.
     //! If version is 4.3.2 it returns 40302.
 	static int qtVersion();
+
+	static QString equalizerListToString(QList<QVariant> values);
 
 private:
 	static QString logs;
