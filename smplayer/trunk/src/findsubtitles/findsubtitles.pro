@@ -5,9 +5,9 @@ CONFIG += qt warn_on release
 
 QT += network xml
 
-HEADERS += simplehttp.h osparser.h ../filechooser.h findsubtitlesdialog.h
-SOURCES += simplehttp.cpp osparser.cpp ../filechooser.cpp findsubtitlesdialog.cpp \
-           main.cpp
+HEADERS += simplehttp.h osparser.h ../filechooser.h ../languages.h findsubtitlesdialog.h
+SOURCES += simplehttp.cpp osparser.cpp ../filechooser.cpp ../languages.cpp \
+           findsubtitlesdialog.cpp main.cpp
 FORMS += ../filechooser.ui findsubtitlesdialog.ui
 
 INCLUDEPATH += ..
