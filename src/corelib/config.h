@@ -67,6 +67,14 @@
 #define SMART_DVD_CHAPTERS 1
 
 
+// ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
+// if 1, the video window may be hidden when playing audio files
+// depending on the hide_video_window_on_audio_files option in
+// the config file
+
+#define ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES 1
+
+
 // Just for testing, possibility to disable the use of the colorkey
 
 #define USE_COLORKEY 1

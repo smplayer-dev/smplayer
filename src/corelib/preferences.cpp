@@ -241,6 +241,10 @@ void Preferences::reset() {
 
 	gui = "DefaultGui";
 
+#if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
+	hide_video_window_on_audio_files = true;
+#endif
+
 	vcd_initial_title = 2; // Most VCD's start at title #2
 
 	initial_sub_scale = 5;
@@ -457,6 +461,10 @@ void Preferences::save() {
 	set->setValue("use_edl_files", use_edl_files);
 
 	set->setValue("gui", gui);
+
+#if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
+	set->setValue("hide_video_window_on_audio_files", hide_video_window_on_audio_files);
+#endif
 
     //mplayer log autosaving
     set->setValue("autosave_mplayer_log", autosave_mplayer_log);
@@ -685,6 +693,10 @@ void Preferences::load() {
 	use_edl_files = set->value("use_edl_files", use_edl_files).toBool();
 
 	gui = set->value("gui", gui).toString();
+
+#if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
+	hide_video_window_on_audio_files = set->value("hide_video_window_on_audio_files", hide_video_window_on_audio_files).toBool();
+#endif
 
     //mplayer log autosaving
     autosave_mplayer_log = set->value("autosave_mplayer_log", autosave_mplayer_log).toBool();
