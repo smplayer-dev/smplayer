@@ -1675,6 +1675,13 @@ void Core::startMplayer( QString file, double seek ) {
 		af += "scaletempo";
 	}
 
+	// Audio equalizer
+	if (pref->use_audio_equalizer) {
+		if (!af.isEmpty()) af += ",";
+		af += "equalizer=" + Helper::equalizerListToString(pref->audio_equalizer);
+	}
+
+
 	// Additional audio filters, supplied by user
 	// File
 	if ( !pref->mplayer_additional_audio_filters.isEmpty() ) {
@@ -2406,6 +2413,72 @@ void Core::decSubStep() {
 	qDebug("Core::decSubStep");
 	tellmp("sub_step -1");
 }
+
+// Audio equalizer functions
+void Core::setAudioEqualizer(QList<QVariant> values, bool restart) {
+	pref->audio_equalizer = values;
+
+	if (!restart) {
+		tellmp( "af_eq_set_bands " + Helper::equalizerListToString(values) );
+	} else {
+		restartPlay();
+	}
+}
+
+void Core::updateAudioEqualizer() {
+	setAudioEqualizer(pref->audio_equalizer);
+}
+
+void Core::setAudioEq0(double value) {
+	pref->audio_equalizer[0] = value;
+	updateAudioEqualizer();
+}
+
+void Core::setAudioEq1(double value) {
+	pref->audio_equalizer[1] = value;
+	updateAudioEqualizer();
+}
+
+void Core::setAudioEq2(double value) {
+	pref->audio_equalizer[2] = value;
+	updateAudioEqualizer();
+}
+
+void Core::setAudioEq3(double value) {
+	pref->audio_equalizer[3] = value;
+	updateAudioEqualizer();
+}
+
+void Core::setAudioEq4(double value) {
+	pref->audio_equalizer[4] = value;
+	updateAudioEqualizer();
+}
+
+void Core::setAudioEq5(double value) {
+	pref->audio_equalizer[5] = value;
+	updateAudioEqualizer();
+}
+
+void Core::setAudioEq6(double value) {
+	pref->audio_equalizer[6] = value;
+	updateAudioEqualizer();
+}
+
+void Core::setAudioEq7(double value) {
+	pref->audio_equalizer[7] = value;
+	updateAudioEqualizer();
+}
+
+void Core::setAudioEq8(double value) {
+	pref->audio_equalizer[8] = value;
+	updateAudioEqualizer();
+}
+
+void Core::setAudioEq9(double value) {
+	pref->audio_equalizer[9] = value;
+	updateAudioEqualizer();
+}
+
 
 
 void Core::changeCurrentSec(double sec) {

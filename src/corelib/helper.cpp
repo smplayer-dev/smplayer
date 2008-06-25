@@ -410,3 +410,12 @@ int Helper::qtVersion() {
 	return r;
 }
 
+QString Helper::equalizerListToString(QList<QVariant> values) {
+	QString s = values[0].toString() + ":" + values[1].toString() + ":" +
+                values[2].toString() + ":" + values[3].toString() + ":" +
+                values[4].toString() + ":" + values[5].toString() + ":" +
+                values[6].toString() + ":" + values[7].toString() + ":" +
+                values[8].toString() + ":" + values[9].toString();
+
+	return s;
+}

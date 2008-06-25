@@ -138,6 +138,9 @@ void Preferences::reset() {
 
 	use_hwac3 = false;
 
+	bool use_audio_equalizer = true;
+	audio_equalizer << 0.0 << 0.0 << 0.0 << 0.0 << 0.0 << 0.0 << 0.0 << 0.0 << 0.0 << 0.0;
+
 	mplayer_additional_options="";
     mplayer_additional_video_filters="";
     mplayer_additional_audio_filters="";
@@ -365,6 +368,9 @@ void Preferences::save() {
 	set->setValue("dont_change_volume", dont_change_volume );
 
 	set->setValue("use_hwac3", use_hwac3 );
+
+	set->setValue("use_audio_equalizer", use_audio_equalizer );
+	set->setValue("audio_equalizer", audio_equalizer );
 
 	set->setValue("vcd_initial_title", vcd_initial_title);
 
@@ -597,6 +603,9 @@ void Preferences::load() {
 	dont_change_volume = set->value("dont_change_volume", dont_change_volume ).toBool();
 
 	use_hwac3 = set->value("use_hwac3", use_hwac3 ).toBool();
+
+	use_audio_equalizer = set->value("use_audio_equalizer", use_audio_equalizer ).toBool();
+	audio_equalizer = set->value("audio_equalizer", audio_equalizer ).toList();
 
 	vcd_initial_title = set->value("vcd_initial_title", vcd_initial_title ).toInt();
 
