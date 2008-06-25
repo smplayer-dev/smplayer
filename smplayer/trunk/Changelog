@@ -3,6 +3,11 @@
 (2008-06-24)
  * Removed the action dock_playlist. It was causing a lot of troubles, even
    crashes.
+ * New option for the config file: hide_video_window_on_audio_files. If
+   true (the default) the video window will be hidden when playing audio
+   files. Otherwise the video window won't be hidden and it will show the
+   smplayer logo instead. 
+   It's not recommended to set this option to false in linux.
 
 (2008-06-21)
  * Created a huge list of languages (with the ISO 639-1 codes) and make

@@ -253,6 +253,10 @@ public:
 
 	QString gui; //!< The name of the GUI to use
 
+#if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
+	bool hide_video_window_on_audio_files;
+#endif
+
 	// Initial values for some options
 	double initial_sub_scale;
 #if SCALE_ASS_SUBS
