@@ -2042,7 +2042,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../languages.cpp" line="213"/>
         <source>Arabic</source>
-        <translation>Арабская</translation>
+        <translation>Арабский</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="29"/>
