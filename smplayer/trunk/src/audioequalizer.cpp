@@ -44,14 +44,20 @@ AudioEqualizer::AudioEqualizer( QWidget* parent, Qt::WindowFlags f)
 
 	reset_button = new QPushButton( "&Reset", this);
 	connect( reset_button, SIGNAL(clicked()), this, SLOT(reset()) );
+
 	set_default_button = new QPushButton( "&Set as default values", this );
 	connect( set_default_button, SIGNAL(clicked()), this, SLOT(setDefaults()) );
 
-	QBoxLayout *button_layout = new QVBoxLayout; //(0, 4, 2);
-	button_layout->addWidget(set_default_button);
-	button_layout->addWidget(reset_button);
+	apply_button = new QPushButton( "&Apply", this );
+	connect( apply_button, SIGNAL(clicked()), this, SLOT(applyButtonClicked()) );
 
-	QBoxLayout *layout = new QVBoxLayout(this); //, 4, 2);
+	QBoxLayout *button_layout = new QVBoxLayout; //(0, 4, 2);
+	button_layout->addWidget(apply_button);
+	button_layout->addWidget(reset_button);
+	button_layout->addWidget(set_default_button);
+	button_layout->addStretch();
+
+	QBoxLayout *layout = new QHBoxLayout(this); //, 4, 2);
 	layout->addLayout(bl);
 	layout->addLayout(button_layout);
 
@@ -79,28 +85,7 @@ void AudioEqualizer::retranslateStrings() {
 	eq[8]->setLabel( tr("8.000 kHz") );
 	eq[9]->setLabel( tr("16.00 kHz") );
 
-/*
-	contrast->setLabel( tr("Contrast") );
-	contrast->setToolTip( tr("Contrast") );
-	contrast->setIcon( Images::icon("contrast") );
-
-	brightness->setLabel( tr("Brightness") );
-	brightness->setToolTip( tr("Brightness") );
-	brightness->setIcon( Images::icon("brightness") );
-
-	hue->setLabel( tr("Hue") );
-	hue->setToolTip( tr("Hue") );
-	hue->setIcon( Images::icon("hue") );
-
-	saturation->setLabel( tr("Saturation") );
-	saturation->setToolTip( tr("Saturation") );
-	saturation->setIcon( Images::icon("saturation") );
-
-	gamma->setLabel( tr("Gamma") );
-	gamma->setToolTip( tr("Gamma") );
-	gamma->setIcon( Images::icon("gamma") );
-*/
-
+	apply_button->setText( tr("&Apply") );
 	reset_button->setText( tr("&Reset") );
 	set_default_button->setText( tr("&Set as default values") );
 
@@ -120,6 +105,14 @@ void AudioEqualizer::reset() {
 
 void AudioEqualizer::setDefaults() {
 	qDebug("Not implemented yet");
+}
+
+void AudioEqualizer::applyButtonClicked() {
+	AudioEqualizerList l;
+	for (int n = 0; n < 10; n++) {
+		l << eq[n]->value();
+	}
+	emit applyClicked( l );
 }
 
 void AudioEqualizer::hideEvent( QHideEvent * ) {

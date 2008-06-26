@@ -1508,6 +1508,9 @@ void BaseGui::createAudioEqualizer() {
 	connect( audio_equalizer->eq[9], SIGNAL(valueChanged(int)), 
              core, SLOT(setAudioEq9(int)) );
 
+	connect( audio_equalizer, SIGNAL(applyClicked(AudioEqualizerList)), 
+             core, SLOT(setAudioAudioEqualizerRestart(AudioEqualizerList)) );
+
 	connect( audio_equalizer, SIGNAL(visibilityChanged()),
              this, SLOT(updateWidgets()) );
 }
@@ -1701,7 +1704,6 @@ void BaseGui::createMenus() {
 
 	audioMenu->addAction(loadAudioAct);
 	audioMenu->addAction(unloadAudioAct);
-	audioMenu->addAction(audioEqualizerAct);
 
 	// Filter submenu
 	audiofilter_menu = new QMenu(this);
@@ -1722,7 +1724,8 @@ void BaseGui::createMenus() {
 	stereomode_menu->addActions( stereoGroup->actions() );
 
 	audioMenu->addMenu(stereomode_menu);
-
+	audioMenu->addAction(audioEqualizerAct);
+	audioMenu->addSeparator();
 	audioMenu->addAction(muteAct);
 	audioMenu->addSeparator();
 	audioMenu->addAction(decVolumeAct);
