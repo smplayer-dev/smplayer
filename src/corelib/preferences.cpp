@@ -260,6 +260,8 @@ void Preferences::reset() {
 	initial_saturation = 0;
 	initial_gamma = 0;
 
+	initial_audio_equalizer << 0 << 0 << 0 << 0 << 0 << 0 << 0 << 0 << 0 << 0;
+
 	initial_panscan_factor = 1.0;
 	initial_sub_pos = 100; // 100%
 
@@ -496,6 +498,8 @@ void Preferences::save() {
 	set->setValue("initial_saturation", initial_saturation);
 	set->setValue("initial_gamma", initial_gamma);
 
+	set->setValue("initial_audio_equalizer", initial_audio_equalizer);
+
 	set->setValue("initial_panscan_factor", initial_panscan_factor);
 	set->setValue("initial_sub_pos", initial_sub_pos);
 
@@ -729,6 +733,8 @@ void Preferences::load() {
 	initial_hue = set->value("initial_hue", initial_hue).toInt();
 	initial_saturation = set->value("initial_saturation", initial_saturation).toInt();
 	initial_gamma = set->value("initial_gamma", initial_gamma).toInt();
+
+	initial_audio_equalizer = set->value("initial_audio_equalizer", initial_audio_equalizer).toList();
 
 	initial_panscan_factor = set->value("initial_panscan_factor", initial_panscan_factor).toDouble();
 	initial_sub_pos = set->value("initial_sub_pos", initial_sub_pos).toInt();

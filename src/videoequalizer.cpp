@@ -23,10 +23,7 @@
 #include "global.h"
 #include <QLayout>
 #include <QPushButton>
-/*
-#include <QVBoxLayout>
-#include <QHBoxLayout>
-*/
+#include <QMessageBox>
 
 using namespace Global;
 
@@ -117,6 +114,10 @@ void VideoEqualizer::setDefaults() {
 	pref->initial_hue = hue->value();
 	pref->initial_saturation = saturation->value();
 	pref->initial_gamma = gamma->value();
+
+	QMessageBox::information(this, tr("Information"), 
+                             tr("The current values have been stored to be "
+                                "used as default.") );
 }
 
 void VideoEqualizer::hideEvent( QHideEvent * ) {
