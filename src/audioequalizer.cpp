@@ -48,13 +48,13 @@ AudioEqualizer::AudioEqualizer( QWidget* parent, Qt::WindowFlags f)
 	apply_button = new QPushButton( "&Apply", this );
 	connect( apply_button, SIGNAL(clicked()), this, SLOT(applyButtonClicked()) );
 
-	QBoxLayout *button_layout = new QVBoxLayout; //(0, 4, 2);
+	QBoxLayout *button_layout = new QHBoxLayout; //(0, 4, 2);
+	button_layout->addStretch();
 	button_layout->addWidget(apply_button);
 	button_layout->addWidget(reset_button);
 	button_layout->addWidget(set_default_button);
-	button_layout->addStretch();
 
-	QBoxLayout *layout = new QHBoxLayout(this); //, 4, 2);
+	QBoxLayout *layout = new QVBoxLayout(this); //, 4, 2);
 	layout->addLayout(bl);
 	layout->addLayout(button_layout);
 
