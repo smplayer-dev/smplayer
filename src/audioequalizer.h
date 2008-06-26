@@ -23,6 +23,7 @@
 #include <QWidget>
 #include <QHideEvent>
 #include <QShowEvent>
+#include "mediasettings.h"
 
 class QPushButton;
 class EqSlider;
@@ -39,12 +40,16 @@ public:
 
 signals:
 	void visibilityChanged();
+	void applyClicked(AudioEqualizerList new_values);
 
 public slots:
 	void reset();
 	void setDefaults();
 
 protected slots:
+	void applyButtonClicked();
+
+protected:
 	virtual void hideEvent( QHideEvent * );
 	virtual void showEvent( QShowEvent * );
 
@@ -53,6 +58,7 @@ protected:
 	virtual void changeEvent ( QEvent * event ) ;
 
 protected:
+	QPushButton * apply_button;
 	QPushButton * reset_button;
 	QPushButton * set_default_button;
 };
