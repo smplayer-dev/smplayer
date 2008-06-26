@@ -1487,25 +1487,25 @@ void BaseGui::createAudioEqualizer() {
 	// Audio Equalizer
 	audio_equalizer = new AudioEqualizer(this);
 
-	connect( audio_equalizer->eq0, SIGNAL(valueChanged(int)), 
+	connect( audio_equalizer->eq[0], SIGNAL(valueChanged(int)), 
              core, SLOT(setAudioEq0(int)) );
-	connect( audio_equalizer->eq1, SIGNAL(valueChanged(int)), 
+	connect( audio_equalizer->eq[1], SIGNAL(valueChanged(int)), 
              core, SLOT(setAudioEq1(int)) );
-	connect( audio_equalizer->eq2, SIGNAL(valueChanged(int)), 
+	connect( audio_equalizer->eq[2], SIGNAL(valueChanged(int)), 
              core, SLOT(setAudioEq2(int)) );
-	connect( audio_equalizer->eq3, SIGNAL(valueChanged(int)), 
+	connect( audio_equalizer->eq[3], SIGNAL(valueChanged(int)), 
              core, SLOT(setAudioEq3(int)) );
-	connect( audio_equalizer->eq4, SIGNAL(valueChanged(int)), 
+	connect( audio_equalizer->eq[4], SIGNAL(valueChanged(int)), 
              core, SLOT(setAudioEq4(int)) );
-	connect( audio_equalizer->eq5, SIGNAL(valueChanged(int)), 
+	connect( audio_equalizer->eq[5], SIGNAL(valueChanged(int)), 
              core, SLOT(setAudioEq5(int)) );
-	connect( audio_equalizer->eq6, SIGNAL(valueChanged(int)), 
+	connect( audio_equalizer->eq[6], SIGNAL(valueChanged(int)), 
              core, SLOT(setAudioEq6(int)) );
-	connect( audio_equalizer->eq7, SIGNAL(valueChanged(int)), 
+	connect( audio_equalizer->eq[7], SIGNAL(valueChanged(int)), 
              core, SLOT(setAudioEq7(int)) );
-	connect( audio_equalizer->eq8, SIGNAL(valueChanged(int)), 
+	connect( audio_equalizer->eq[8], SIGNAL(valueChanged(int)), 
              core, SLOT(setAudioEq8(int)) );
-	connect( audio_equalizer->eq9, SIGNAL(valueChanged(int)), 
+	connect( audio_equalizer->eq[9], SIGNAL(valueChanged(int)), 
              core, SLOT(setAudioEq9(int)) );
 
 	connect( audio_equalizer, SIGNAL(visibilityChanged()),
@@ -2479,16 +2479,9 @@ void BaseGui::updateEqualizer() {
 
 void BaseGui::updateAudioEqualizer() {
 	// Audio Equalizer
-	audio_equalizer->eq0->setValue( core->mset.audio_equalizer[0].toInt() );
-	audio_equalizer->eq1->setValue( core->mset.audio_equalizer[1].toInt() );
-	audio_equalizer->eq2->setValue( core->mset.audio_equalizer[2].toInt() );
-	audio_equalizer->eq3->setValue( core->mset.audio_equalizer[3].toInt() );
-	audio_equalizer->eq4->setValue( core->mset.audio_equalizer[4].toInt() );
-	audio_equalizer->eq5->setValue( core->mset.audio_equalizer[5].toInt() );
-	audio_equalizer->eq6->setValue( core->mset.audio_equalizer[6].toInt() );
-	audio_equalizer->eq7->setValue( core->mset.audio_equalizer[7].toInt() );
-	audio_equalizer->eq8->setValue( core->mset.audio_equalizer[8].toInt() );
-	audio_equalizer->eq9->setValue( core->mset.audio_equalizer[9].toInt() );
+	for (int n = 0; n < 10; n++) {
+		audio_equalizer->eq[n]->setValue( core->mset.audio_equalizer[n].toInt() );
+	}
 }
 
 /*

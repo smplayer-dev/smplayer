@@ -33,39 +33,13 @@ using namespace Global;
 AudioEqualizer::AudioEqualizer( QWidget* parent, Qt::WindowFlags f)
 	: QWidget(parent, f)
 {
-	eq0 = new EqSlider(this);
-	eq1 = new EqSlider(this);
-	eq2 = new EqSlider(this);
-	eq3 = new EqSlider(this);
-	eq4 = new EqSlider(this);
-	eq5 = new EqSlider(this);
-	eq6 = new EqSlider(this);
-	eq7 = new EqSlider(this);
-	eq8 = new EqSlider(this);
-	eq9 = new EqSlider(this);
-
-	eq0->setRange(-120, 120);
-	eq1->setRange(-120, 120);
-	eq2->setRange(-120, 120);
-	eq3->setRange(-120, 120);
-	eq4->setRange(-120, 120);
-	eq5->setRange(-120, 120);
-	eq6->setRange(-120, 120);
-	eq7->setRange(-120, 120);
-	eq8->setRange(-120, 120);
-	eq9->setRange(-120, 120);
-
 	QBoxLayout *bl = new QHBoxLayout; //(0, 4, 2);
-	bl->addWidget(eq0);
-	bl->addWidget(eq1);
-	bl->addWidget(eq2);
-	bl->addWidget(eq3);
-	bl->addWidget(eq4);
-	bl->addWidget(eq5);
-	bl->addWidget(eq6);
-	bl->addWidget(eq7);
-	bl->addWidget(eq8);
-	bl->addWidget(eq9);
+
+	for (int n = 0; n < 10; n++) {
+		eq[n] = new EqSlider(this);
+		eq[n]->setRange(-120, 120);
+		bl->addWidget(eq[n]);
+	}
 
 	reset_button = new QPushButton( "&Reset", this);
 	connect( reset_button, SIGNAL(clicked()), this, SLOT(reset()) );
@@ -93,16 +67,16 @@ void AudioEqualizer::retranslateStrings() {
 	setWindowTitle( tr("Audio Equalizer") );
 	setWindowIcon( Images::icon("logo") );
 
-	eq0->setLabel( tr("31.25 Hz") );
-	eq1->setLabel( tr("62.50 Hz") );
-	eq2->setLabel( tr("125.0 Hz") );
-	eq3->setLabel( tr("250.0 Hz") );
-	eq4->setLabel( tr("500.0 Hz") );
-	eq5->setLabel( tr("1.000 kHz") );
-	eq6->setLabel( tr("2.000 kHz") );
-	eq7->setLabel( tr("4.000 kHz") );
-	eq8->setLabel( tr("8.000 kHz") );
-	eq9->setLabel( tr("16.00 kHz") );
+	eq[0]->setLabel( tr("31.25 Hz") );
+	eq[1]->setLabel( tr("62.50 Hz") );
+	eq[2]->setLabel( tr("125.0 Hz") );
+	eq[3]->setLabel( tr("250.0 Hz") );
+	eq[4]->setLabel( tr("500.0 Hz") );
+	eq[5]->setLabel( tr("1.000 kHz") );
+	eq[6]->setLabel( tr("2.000 kHz") );
+	eq[7]->setLabel( tr("4.000 kHz") );
+	eq[8]->setLabel( tr("8.000 kHz") );
+	eq[9]->setLabel( tr("16.00 kHz") );
 
 /*
 	contrast->setLabel( tr("Contrast") );
@@ -138,16 +112,9 @@ void AudioEqualizer::retranslateStrings() {
 }
 
 void AudioEqualizer::reset() {
-	eq0->setValue(0);
-	eq1->setValue(0);
-	eq2->setValue(0);
-	eq3->setValue(0);
-	eq4->setValue(0);
-	eq5->setValue(0);
-	eq6->setValue(0);
-	eq7->setValue(0);
-	eq8->setValue(0);
-	eq9->setValue(0);
+	for (int n = 0; n < 10; n++) {
+		eq[n]->setValue(0);
+	}
 }
 
 void AudioEqualizer::setDefaults() {
