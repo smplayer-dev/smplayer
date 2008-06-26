@@ -60,7 +60,8 @@ void MediaSettings::reset() {
 	hue = pref->initial_hue;
 	saturation = pref->initial_saturation;
 
-	audio_equalizer << 0.0 << 0.0 << 0.0 << 0.0 << 0.0 << 0.0 << 0.0 << 0.0 << 0.0 << 0.0;
+	audio_equalizer.clear();
+	audio_equalizer << 0 << 0 << 0 << 0 << 0 << 0 << 0 << 0 << 0 << 0;
 
 	speed = 1.0;
 

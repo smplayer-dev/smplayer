@@ -44,6 +44,8 @@ public:
 	const QPixmap * icon() const;
 	QString label() const;
 
+	void setRange(int min, int max) { _slider->setRange(min, max); };
+
 signals:
 	void valueChanged(int);
 
