@@ -52,6 +52,7 @@
 #include "filepropertiesdialog.h"
 #include "eqslider.h"
 #include "videoequalizer.h"
+#include "audioequalizer.h"
 #include "inputdvddirectory.h"
 #include "inputmplayerversion.h"
 #include "inputurl.h"
@@ -111,6 +112,7 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	createCore();
 	createPlaylist();
 	createVideoEqualizer();
+	createAudioEqualizer();
 
 	// Mouse Wheel
 	connect( this, SIGNAL(wheelUp()),
@@ -442,6 +444,11 @@ void BaseGui::createActions() {
 
 
 	// Menu Audio
+	audioEqualizerAct = new MyAction( this, "audio_equalizer" );
+	audioEqualizerAct->setCheckable( true );
+	connect( audioEqualizerAct, SIGNAL(toggled(bool)),
+             this, SLOT(showAudioEqualizer(bool)) );
+
 	muteAct = new MyAction( Qt::Key_M, this, "mute" );
 	muteAct->setCheckable( true );
 	connect( muteAct, SIGNAL(toggled(bool)),
@@ -705,6 +712,9 @@ void BaseGui::createActions() {
 	resetVideoEqualizerAct = new MyAction( this, "reset_video_equalizer");
 	connect( resetVideoEqualizerAct, SIGNAL(triggered()), equalizer, SLOT(reset()) );
 
+	resetAudioEqualizerAct = new MyAction( this, "reset_audio_equalizer");
+	connect( resetAudioEqualizerAct, SIGNAL(triggered()), audio_equalizer, SLOT(reset()) );
+
 	showContextMenuAct = new MyAction( this, "show_context_menu");
 	connect( showContextMenuAct, SIGNAL(triggered()), 
              this, SLOT(showPopupMenu()) );
@@ -870,6 +880,7 @@ void BaseGui::setActionsEnabled(bool b) {
 	upscaleAct->setEnabled(b);
 
 	// Menu Audio
+	audioEqualizerAct->setEnabled(b);
 	muteAct->setEnabled(b);
 	decVolumeAct->setEnabled(b);
 	incVolumeAct->setEnabled(b);
@@ -1079,6 +1090,7 @@ void BaseGui::retranslateStrings() {
 	upscaleAct->change( Images::icon("upscaling"), tr("Soft&ware scaling") );
 
 	// Menu Audio
+	audioEqualizerAct->change( Images::icon("audio_equalizer"), tr("E&qualizer") );
 	QIcon icset( Images::icon("volume") );
 	icset.addPixmap( Images::icon("mute"), QIcon::Normal, QIcon::On  );
 	muteAct->change( icset, tr("&Mute") );
@@ -1172,6 +1184,7 @@ void BaseGui::retranslateStrings() {
 	prevChapterAct->change( tr("Previous chapter") );
 	doubleSizeAct->change( tr("&Toggle double size") );
 	resetVideoEqualizerAct->change( tr("Reset video equalizer") );
+	resetAudioEqualizerAct->change( tr("Reset audio equalizer") );
 	showContextMenuAct->change( tr("Show context menu") );
 
 	// Action groups
@@ -1368,6 +1381,9 @@ void BaseGui::createCore() {
 	connect( core, SIGNAL(equalizerNeedsUpdate()),
              this, SLOT(updateEqualizer()) );
 
+	connect( core, SIGNAL(audioEqualizerNeedsUpdate()),
+             this, SLOT(updateAudioEqualizer()) );
+
 	connect( core, SIGNAL(showFrame(int)),
              this, SIGNAL(frameChanged(int)) );
 
@@ -1464,6 +1480,35 @@ void BaseGui::createVideoEqualizer() {
 	connect( equalizer->gamma, SIGNAL(valueChanged(int)), 
              core, SLOT(setGamma(int)) );
 	connect( equalizer, SIGNAL(visibilityChanged()),
+             this, SLOT(updateWidgets()) );
+}
+
+void BaseGui::createAudioEqualizer() {
+	// Audio Equalizer
+	audio_equalizer = new AudioEqualizer(this);
+
+	connect( audio_equalizer->eq0, SIGNAL(valueChanged(int)), 
+             core, SLOT(setAudioEq0(int)) );
+	connect( audio_equalizer->eq1, SIGNAL(valueChanged(int)), 
+             core, SLOT(setAudioEq1(int)) );
+	connect( audio_equalizer->eq2, SIGNAL(valueChanged(int)), 
+             core, SLOT(setAudioEq2(int)) );
+	connect( audio_equalizer->eq3, SIGNAL(valueChanged(int)), 
+             core, SLOT(setAudioEq3(int)) );
+	connect( audio_equalizer->eq4, SIGNAL(valueChanged(int)), 
+             core, SLOT(setAudioEq4(int)) );
+	connect( audio_equalizer->eq5, SIGNAL(valueChanged(int)), 
+             core, SLOT(setAudioEq5(int)) );
+	connect( audio_equalizer->eq6, SIGNAL(valueChanged(int)), 
+             core, SLOT(setAudioEq6(int)) );
+	connect( audio_equalizer->eq7, SIGNAL(valueChanged(int)), 
+             core, SLOT(setAudioEq7(int)) );
+	connect( audio_equalizer->eq8, SIGNAL(valueChanged(int)), 
+             core, SLOT(setAudioEq8(int)) );
+	connect( audio_equalizer->eq9, SIGNAL(valueChanged(int)), 
+             core, SLOT(setAudioEq9(int)) );
+
+	connect( audio_equalizer, SIGNAL(visibilityChanged()),
              this, SLOT(updateWidgets()) );
 }
 
@@ -1656,6 +1701,7 @@ void BaseGui::createMenus() {
 
 	audioMenu->addAction(loadAudioAct);
 	audioMenu->addAction(unloadAudioAct);
+	audioMenu->addAction(audioEqualizerAct);
 
 	// Filter submenu
 	audiofilter_menu = new QMenu(this);
@@ -1829,6 +1875,21 @@ void BaseGui::showEqualizer(bool b) {
 		// Exit fullscreen, otherwise dialog is not visible
 		exitFullscreenIfNeeded();
 		equalizer->show();
+	}
+	updateWidgets();
+}
+
+void BaseGui::showAudioEqualizer() {
+	showAudioEqualizer( !audio_equalizer->isVisible() );
+}
+
+void BaseGui::showAudioEqualizer(bool b) {
+	if (!b) {
+		audio_equalizer->hide();
+	} else {
+		// Exit fullscreen, otherwise dialog is not visible
+		exitFullscreenIfNeeded();
+		audio_equalizer->show();
 	}
 	updateWidgets();
 }
@@ -2356,6 +2417,9 @@ void BaseGui::updateWidgets() {
 	// Video equalizer
 	equalizerAct->setChecked( equalizer->isVisible() );
 
+	// Audio equalizer
+	audioEqualizerAct->setChecked( audio_equalizer->isVisible() );
+
 	// Playlist
 #if !DOCK_PLAYLIST
 	//showPlaylistAct->setChecked( playlist->isVisible() );
@@ -2411,6 +2475,20 @@ void BaseGui::updateEqualizer() {
 	equalizer->hue->setValue( core->mset.hue );
 	equalizer->saturation->setValue( core->mset.saturation );
 	equalizer->gamma->setValue( core->mset.gamma );
+}
+
+void BaseGui::updateAudioEqualizer() {
+	// Audio Equalizer
+	audio_equalizer->eq0->setValue( core->mset.audio_equalizer[0].toInt() );
+	audio_equalizer->eq1->setValue( core->mset.audio_equalizer[1].toInt() );
+	audio_equalizer->eq2->setValue( core->mset.audio_equalizer[2].toInt() );
+	audio_equalizer->eq3->setValue( core->mset.audio_equalizer[3].toInt() );
+	audio_equalizer->eq4->setValue( core->mset.audio_equalizer[4].toInt() );
+	audio_equalizer->eq5->setValue( core->mset.audio_equalizer[5].toInt() );
+	audio_equalizer->eq6->setValue( core->mset.audio_equalizer[6].toInt() );
+	audio_equalizer->eq7->setValue( core->mset.audio_equalizer[7].toInt() );
+	audio_equalizer->eq8->setValue( core->mset.audio_equalizer[8].toInt() );
+	audio_equalizer->eq9->setValue( core->mset.audio_equalizer[9].toInt() );
 }
 
 /*

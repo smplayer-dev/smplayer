@@ -197,16 +197,16 @@ public slots:
 	void setAudioAudioEqualizerRestart(QList<QVariant> values) { setAudioEqualizer(values, true); };
 	void updateAudioEqualizer();
 
-	void setAudioEq0(double value);
-	void setAudioEq1(double value);
-	void setAudioEq2(double value);
-	void setAudioEq3(double value);
-	void setAudioEq4(double value);
-	void setAudioEq5(double value);
-	void setAudioEq6(double value);
-	void setAudioEq7(double value);
-	void setAudioEq8(double value);
-	void setAudioEq9(double value);
+	void setAudioEq0(int value);
+	void setAudioEq1(int value);
+	void setAudioEq2(int value);
+	void setAudioEq3(int value);
+	void setAudioEq4(int value);
+	void setAudioEq5(int value);
+	void setAudioEq6(int value);
+	void setAudioEq7(int value);
+	void setAudioEq8(int value);
+	void setAudioEq9(int value);
 
 	void changeDeinterlace(int);
     void changeSubtitle(int);
@@ -310,6 +310,7 @@ signals:
 	void menusNeedInitialize();
 	void widgetsNeedUpdate();
 	void equalizerNeedsUpdate();
+	void audioEqualizerNeedsUpdate();
 	void showTime(double sec);
 	void posChanged(int); // To connect a slider
 	void showFrame(int frame);

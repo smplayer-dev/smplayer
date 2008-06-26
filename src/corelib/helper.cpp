@@ -411,11 +411,21 @@ int Helper::qtVersion() {
 }
 
 QString Helper::equalizerListToString(QList<QVariant> values) {
-	QString s = values[0].toString() + ":" + values[1].toString() + ":" +
-                values[2].toString() + ":" + values[3].toString() + ":" +
-                values[4].toString() + ":" + values[5].toString() + ":" +
-                values[6].toString() + ":" + values[7].toString() + ":" +
-                values[8].toString() + ":" + values[9].toString();
+	double v0 = (double) values[0].toInt() / 10;
+	double v1 = (double) values[1].toInt() / 10;
+	double v2 = (double) values[2].toInt() / 10;
+	double v3 = (double) values[3].toInt() / 10;
+	double v4 = (double) values[4].toInt() / 10;
+	double v5 = (double) values[5].toInt() / 10;
+	double v6 = (double) values[6].toInt() / 10;
+	double v7 = (double) values[7].toInt() / 10;
+	double v8 = (double) values[8].toInt() / 10;
+	double v9 = (double) values[9].toInt() / 10;
+	QString s = QString::number(v0) + ":" + QString::number(v1) + ":" +
+				QString::number(v2) + ":" + QString::number(v3) + ":" +
+				QString::number(v4) + ":" + QString::number(v5) + ":" +
+				QString::number(v6) + ":" + QString::number(v7) + ":" +
+				QString::number(v8) + ":" + QString::number(v9);
 
 	return s;
 }

@@ -852,6 +852,7 @@ void Core::finishRestart() {
 		setGamma( mset.gamma );
 	}
 	emit equalizerNeedsUpdate();
+	emit audioEqualizerNeedsUpdate();
 
 	changePanscan(mset.panscan_factor);
 
@@ -2423,58 +2424,60 @@ void Core::setAudioEqualizer(QList<QVariant> values, bool restart) {
 	} else {
 		restartPlay();
 	}
+
+	emit audioEqualizerNeedsUpdate();
 }
 
 void Core::updateAudioEqualizer() {
 	setAudioEqualizer(mset.audio_equalizer);
 }
 
-void Core::setAudioEq0(double value) {
+void Core::setAudioEq0(int value) {
 	mset.audio_equalizer[0] = value;
 	updateAudioEqualizer();
 }
 
-void Core::setAudioEq1(double value) {
+void Core::setAudioEq1(int value) {
 	mset.audio_equalizer[1] = value;
 	updateAudioEqualizer();
 }
 
-void Core::setAudioEq2(double value) {
+void Core::setAudioEq2(int value) {
 	mset.audio_equalizer[2] = value;
 	updateAudioEqualizer();
 }
 
-void Core::setAudioEq3(double value) {
+void Core::setAudioEq3(int value) {
 	mset.audio_equalizer[3] = value;
 	updateAudioEqualizer();
 }
 
-void Core::setAudioEq4(double value) {
+void Core::setAudioEq4(int value) {
 	mset.audio_equalizer[4] = value;
 	updateAudioEqualizer();
 }
 
-void Core::setAudioEq5(double value) {
+void Core::setAudioEq5(int value) {
 	mset.audio_equalizer[5] = value;
 	updateAudioEqualizer();
 }
 
-void Core::setAudioEq6(double value) {
+void Core::setAudioEq6(int value) {
 	mset.audio_equalizer[6] = value;
 	updateAudioEqualizer();
 }
 
-void Core::setAudioEq7(double value) {
+void Core::setAudioEq7(int value) {
 	mset.audio_equalizer[7] = value;
 	updateAudioEqualizer();
 }
 
-void Core::setAudioEq8(double value) {
+void Core::setAudioEq8(int value) {
 	mset.audio_equalizer[8] = value;
 	updateAudioEqualizer();
 }
 
-void Core::setAudioEq9(double value) {
+void Core::setAudioEq9(int value) {
 	mset.audio_equalizer[9] = value;
 	updateAudioEqualizer();
 }

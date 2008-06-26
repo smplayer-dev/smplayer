@@ -40,6 +40,7 @@ class MplayerWindow;
 class QLabel;
 class FilePropertiesDialog;
 class VideoEqualizer;
+class AudioEqualizer;
 class FindSubtitlesDialog;
 class Playlist;
 
@@ -97,6 +98,8 @@ public slots:
 	virtual void showPlaylist(bool b);
 	virtual void showEqualizer();
 	virtual void showEqualizer(bool b);
+	virtual void showAudioEqualizer();
+	virtual void showAudioEqualizer(bool b);
 	virtual void showMplayerLog();
     virtual void showLog();
 	virtual void showPreferencesDialog();
@@ -139,6 +142,7 @@ protected slots:
     virtual void initializeMenus();
 	virtual void updateWidgets();
 	virtual void updateEqualizer();
+	virtual void updateAudioEqualizer();
 
 	virtual void newMediaLoaded();
 	virtual void updateMediaInfo();
@@ -254,6 +258,7 @@ protected:
 	void createCore();
 	void createMplayerWindow();
 	void createVideoEqualizer();
+	void createAudioEqualizer();
 	void createPlaylist();
 	void createPanel();
 	void createPreferencesDialog();
@@ -328,6 +333,7 @@ protected:
 	MyAction * upscaleAct;
 
 	// Menu Audio
+	MyAction * audioEqualizerAct;
 	MyAction * muteAct;
 	MyAction * decVolumeAct;
 	MyAction * incVolumeAct;
@@ -398,6 +404,7 @@ protected:
 	MyAction * prevChapterAct;
 	MyAction * doubleSizeAct;
 	MyAction * resetVideoEqualizerAct;
+	MyAction * resetAudioEqualizerAct;
 	MyAction * showContextMenuAct;
 
 	// Moving and zoom
@@ -529,6 +536,7 @@ protected:
 	FilePropertiesDialog *file_dialog;
 	Playlist * playlist;
 	VideoEqualizer * equalizer;
+	AudioEqualizer * audio_equalizer;
 	FindSubtitlesDialog * find_subs_dialog;
 
 	Core * core;
