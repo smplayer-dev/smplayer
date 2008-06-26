@@ -1,5 +1,15 @@
 [b]Version 0.6.2[/b]:
 
+(2008-06-25)
+ * Added an audio equalizer. Not finished yet!
+   In order to work you need to patch mplayer with this patch:
+   http://smplayer.svn.sourceforge.net/viewvc/*checkout*/smplayer/mplayer-builds/patches/patcheq.diff
+   Otherwise it won't do anything (lie, if you restart the file the values in
+   the equalizer will take effect)
+   Missing or not working things: the "set as default values" button doesn't
+   work, an "apply" button is missing (this button will set the values 
+   restarting mplayer, so it will work with a normal non-patched mplayer).
+
 (2008-06-24)
  * Removed the action dock_playlist. It was causing a lot of troubles, even
    crashes.
