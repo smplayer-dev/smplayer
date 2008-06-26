@@ -35,16 +35,7 @@ public:
     AudioEqualizer( QWidget* parent = 0, Qt::WindowFlags f = Qt::Dialog );
     ~AudioEqualizer();
 
-	EqSlider * eq0;
-	EqSlider * eq1;
-	EqSlider * eq2;
-	EqSlider * eq3;
-	EqSlider * eq4;
-	EqSlider * eq5;
-	EqSlider * eq6;
-	EqSlider * eq7;
-	EqSlider * eq8;
-	EqSlider * eq9;
+	EqSlider * eq[10];
 
 signals:
 	void visibilityChanged();
