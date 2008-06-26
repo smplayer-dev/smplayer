@@ -29,6 +29,8 @@
 #include <QVariant>
 #include "config.h"
 
+typedef QList<QVariant> AudioEqualizerList;
+
 class QSettings;
 
 class MediaSettings {
@@ -79,7 +81,7 @@ public:
 
 	int brightness, contrast, gamma, hue, saturation;
 
-	QList<QVariant> audio_equalizer;
+	AudioEqualizerList audio_equalizer;
 
 	QString external_subtitles;
 	QString external_audio; // external audio file

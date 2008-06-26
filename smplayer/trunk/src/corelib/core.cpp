@@ -2416,7 +2416,7 @@ void Core::decSubStep() {
 }
 
 // Audio equalizer functions
-void Core::setAudioEqualizer(QList<QVariant> values, bool restart) {
+void Core::setAudioEqualizer(AudioEqualizerList values, bool restart) {
 	mset.audio_equalizer = values;
 
 	if (!restart) {
