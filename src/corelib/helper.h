@@ -22,8 +22,7 @@
 
 #include <QString>
 #include <QStringList>
-#include <QList>
-#include <QVariant>
+#include "mediasettings.h"
 
 #ifdef Q_OS_WIN
 #include "config.h"
@@ -125,7 +124,7 @@ public:
     //! If version is 4.3.2 it returns 40302.
 	static int qtVersion();
 
-	static QString equalizerListToString(QList<QVariant> values);
+	static QString equalizerListToString(AudioEqualizerList values);
 
 private:
 	static QString logs;

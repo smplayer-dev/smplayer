@@ -193,8 +193,8 @@ public slots:
 	void decSubStep();
 
 	//! Audio equalizer
-	void setAudioEqualizer(QList<QVariant> values, bool restart = false);
-	void setAudioAudioEqualizerRestart(QList<QVariant> values) { setAudioEqualizer(values, true); };
+	void setAudioEqualizer(AudioEqualizerList values, bool restart = false);
+	void setAudioAudioEqualizerRestart(AudioEqualizerList values) { setAudioEqualizer(values, true); };
 	void updateAudioEqualizer();
 
 	void setAudioEq0(int value);
