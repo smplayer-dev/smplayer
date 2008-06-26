@@ -51,7 +51,7 @@ Extensions::Extensions()
            << "bin" << "iso" << "vob"
            << "mkv" << "nsv" << "ram" << "flv"
            << "rm" << "swf"
-           << "ts" << "rmvb" << "dvr-ms" << "m2t";
+           << "ts" << "rmvb" << "dvr-ms" << "m2t" << "rec";
 
 	_audio << "mp3" << "ogg" << "wav" << "wma" <<  "ac3" << "ra" << "ape" << "flac";
 
