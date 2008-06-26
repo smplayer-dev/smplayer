@@ -309,7 +309,7 @@ signals:
 	void showMessage(QString text);
 	void menusNeedInitialize();
 	void widgetsNeedUpdate();
-	void equalizerNeedsUpdate();
+	void videoEqualizerNeedsUpdate();
 	void audioEqualizerNeedsUpdate();
 	void showTime(double sec);
 	void posChanged(int); // To connect a slider

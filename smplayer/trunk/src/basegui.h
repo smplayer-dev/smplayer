@@ -96,8 +96,8 @@ public slots:
 
 	virtual void showPlaylist();
 	virtual void showPlaylist(bool b);
-	virtual void showEqualizer();
-	virtual void showEqualizer(bool b);
+	virtual void showVideoEqualizer();
+	virtual void showVideoEqualizer(bool b);
 	virtual void showAudioEqualizer();
 	virtual void showAudioEqualizer(bool b);
 	virtual void showMplayerLog();
@@ -141,7 +141,7 @@ protected slots:
 
     virtual void initializeMenus();
 	virtual void updateWidgets();
-	virtual void updateEqualizer();
+	virtual void updateVideoEqualizer();
 	virtual void updateAudioEqualizer();
 
 	virtual void newMediaLoaded();
@@ -318,7 +318,7 @@ protected:
 	// Menu Video
 	MyAction * fullscreenAct;
 	MyAction * compactAct;
-	MyAction * equalizerAct;
+	MyAction * videoEqualizerAct;
 	MyAction * screenshotAct;
 	MyAction * onTopAct;
 	MyAction * flipAct;
@@ -535,7 +535,7 @@ protected:
 	PreferencesDialog *pref_dialog;
 	FilePropertiesDialog *file_dialog;
 	Playlist * playlist;
-	VideoEqualizer * equalizer;
+	VideoEqualizer * video_equalizer;
 	AudioEqualizer * audio_equalizer;
 	FindSubtitlesDialog * find_subs_dialog;
 

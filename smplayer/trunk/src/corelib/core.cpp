@@ -851,7 +851,8 @@ void Core::finishRestart() {
 	if (pref->change_video_equalizer_on_startup && (mset.gamma != 0)) {
 		setGamma( mset.gamma );
 	}
-	emit equalizerNeedsUpdate();
+	// Hack to be sure that the equalizers are up to date
+	emit videoEqualizerNeedsUpdate();
 	emit audioEqualizerNeedsUpdate();
 
 	changePanscan(mset.panscan_factor);
@@ -2061,7 +2062,7 @@ void Core::setBrightness(int value) {
 		tellmp("brightness " + QString::number(value) + " 1");
 		mset.brightness = value;
 		displayMessage( tr("Brightness: %1").arg(value) );
-		emit equalizerNeedsUpdate();
+		emit videoEqualizerNeedsUpdate();
 	}
 }
 
@@ -2076,7 +2077,7 @@ void Core::setContrast(int value) {
 		tellmp("contrast " + QString::number(value) + " 1");
 		mset.contrast = value;
 		displayMessage( tr("Contrast: %1").arg(value) );
-		emit equalizerNeedsUpdate();
+		emit videoEqualizerNeedsUpdate();
 	}
 }
 
@@ -2090,7 +2091,7 @@ void Core::setGamma(int value) {
 		tellmp("gamma " + QString::number(value) + " 1");
 		mset.gamma= value;
 		displayMessage( tr("Gamma: %1").arg(value) );
-		emit equalizerNeedsUpdate();
+		emit videoEqualizerNeedsUpdate();
 	}
 }
 
@@ -2104,7 +2105,7 @@ void Core::setHue(int value) {
 		tellmp("hue " + QString::number(value) + " 1");
 		mset.hue = value;
 		displayMessage( tr("Hue: %1").arg(value) );
-		emit equalizerNeedsUpdate();
+		emit videoEqualizerNeedsUpdate();
 	}
 }
 
@@ -2118,7 +2119,7 @@ void Core::setSaturation(int value) {
 		tellmp("saturation " + QString::number(value) + " 1");
 		mset.saturation = value;
 		displayMessage( tr("Saturation: %1").arg(value) );
-		emit equalizerNeedsUpdate();
+		emit videoEqualizerNeedsUpdate();
 	}
 }
 
