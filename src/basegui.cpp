@@ -384,10 +384,10 @@ void BaseGui::createActions() {
 	connect( compactAct, SIGNAL(toggled(bool)),
              this, SLOT(toggleCompactMode(bool)) );
 
-	equalizerAct = new MyAction( QKeySequence("Ctrl+E"), this, "equalizer" );
-	equalizerAct->setCheckable( true );
-	connect( equalizerAct, SIGNAL(toggled(bool)),
-             this, SLOT(showEqualizer(bool)) );
+	videoEqualizerAct = new MyAction( QKeySequence("Ctrl+E"), this, "video_equalizer" );
+	videoEqualizerAct->setCheckable( true );
+	connect( videoEqualizerAct, SIGNAL(toggled(bool)),
+             this, SLOT(showVideoEqualizer(bool)) );
 
 	screenshotAct = new MyAction( Qt::Key_S, this, "screenshot" );
 	connect( screenshotAct, SIGNAL(triggered()),
@@ -710,7 +710,7 @@ void BaseGui::createActions() {
 	connect( doubleSizeAct, SIGNAL(triggered()), core, SLOT(toggleDoubleSize()) );
 
 	resetVideoEqualizerAct = new MyAction( this, "reset_video_equalizer");
-	connect( resetVideoEqualizerAct, SIGNAL(triggered()), equalizer, SLOT(reset()) );
+	connect( resetVideoEqualizerAct, SIGNAL(triggered()), video_equalizer, SLOT(reset()) );
 
 	resetAudioEqualizerAct = new MyAction( this, "reset_audio_equalizer");
 	connect( resetAudioEqualizerAct, SIGNAL(triggered()), audio_equalizer, SLOT(reset()) );
@@ -866,7 +866,7 @@ void BaseGui::setActionsEnabled(bool b) {
 	incSpeedAct->setEnabled(b);
 
 	// Menu Video
-	equalizerAct->setEnabled(b);
+	videoEqualizerAct->setEnabled(b);
 	screenshotAct->setEnabled(b);
 	flipAct->setEnabled(b);
 	postProcessingAct->setEnabled(b);
@@ -973,7 +973,7 @@ void BaseGui::enableActionsOnPlaying() {
 
 	// Disable video actions if it's an audio file
 	if (core->mdat.novideo) {
-		equalizerAct->setEnabled(false);
+		videoEqualizerAct->setEnabled(false);
 		screenshotAct->setEnabled(false);
 		flipAct->setEnabled(false);
 		postProcessingAct->setEnabled(false);
@@ -1065,7 +1065,7 @@ void BaseGui::retranslateStrings() {
 	// Menu Video
 	fullscreenAct->change( Images::icon("fullscreen"), tr("&Fullscreen") );
 	compactAct->change( Images::icon("compact"), tr("&Compact mode") );
-	equalizerAct->change( Images::icon("equalizer"), tr("&Equalizer") );
+	videoEqualizerAct->change( Images::icon("equalizer"), tr("&Equalizer") );
 	screenshotAct->change( Images::icon("screenshot"), tr("&Screenshot") );
 	onTopAct->change( Images::icon("ontop"), tr("S&tay on top") );
 	flipAct->change( Images::icon("flip"), tr("Flip i&mage") );
@@ -1378,8 +1378,8 @@ void BaseGui::createCore() {
              this, SLOT(initializeMenus()) );
 	connect( core, SIGNAL(widgetsNeedUpdate()),
              this, SLOT(updateWidgets()) );
-	connect( core, SIGNAL(equalizerNeedsUpdate()),
-             this, SLOT(updateEqualizer()) );
+	connect( core, SIGNAL(videoEqualizerNeedsUpdate()),
+             this, SLOT(updateVideoEqualizer()) );
 
 	connect( core, SIGNAL(audioEqualizerNeedsUpdate()),
              this, SLOT(updateAudioEqualizer()) );
@@ -1467,19 +1467,19 @@ void BaseGui::createMplayerWindow() {
 
 void BaseGui::createVideoEqualizer() {
 	// Equalizer
-	equalizer = new VideoEqualizer(this);
+	video_equalizer = new VideoEqualizer(this);
 
-	connect( equalizer->contrast, SIGNAL(valueChanged(int)), 
+	connect( video_equalizer->contrast, SIGNAL(valueChanged(int)), 
              core, SLOT(setContrast(int)) );
-	connect( equalizer->brightness, SIGNAL(valueChanged(int)), 
+	connect( video_equalizer->brightness, SIGNAL(valueChanged(int)), 
              core, SLOT(setBrightness(int)) );
-	connect( equalizer->hue, SIGNAL(valueChanged(int)), 
+	connect( video_equalizer->hue, SIGNAL(valueChanged(int)), 
              core, SLOT(setHue(int)) );
-	connect( equalizer->saturation, SIGNAL(valueChanged(int)), 
+	connect( video_equalizer->saturation, SIGNAL(valueChanged(int)), 
              core, SLOT(setSaturation(int)) );
-	connect( equalizer->gamma, SIGNAL(valueChanged(int)), 
+	connect( video_equalizer->gamma, SIGNAL(valueChanged(int)), 
              core, SLOT(setGamma(int)) );
-	connect( equalizer, SIGNAL(visibilityChanged()),
+	connect( video_equalizer, SIGNAL(visibilityChanged()),
              this, SLOT(updateWidgets()) );
 }
 
@@ -1690,7 +1690,7 @@ void BaseGui::createMenus() {
 
 	videoMenu->addAction(flipAct);
 	videoMenu->addSeparator();
-	videoMenu->addAction(equalizerAct);
+	videoMenu->addAction(videoEqualizerAct);
 	videoMenu->addAction(screenshotAct);
 	videoMenu->addAction(onTopAct);
 
@@ -1867,17 +1867,17 @@ void BaseGui::showPlaylist(bool b) {
 	//updateWidgets();
 }
 
-void BaseGui::showEqualizer() {
-	showEqualizer( !equalizer->isVisible() );
+void BaseGui::showVideoEqualizer() {
+	showVideoEqualizer( !video_equalizer->isVisible() );
 }
 
-void BaseGui::showEqualizer(bool b) {
+void BaseGui::showVideoEqualizer(bool b) {
 	if (!b) {
-		equalizer->hide();
+		video_equalizer->hide();
 	} else {
 		// Exit fullscreen, otherwise dialog is not visible
 		exitFullscreenIfNeeded();
-		equalizer->show();
+		video_equalizer->show();
 	}
 	updateWidgets();
 }
@@ -2418,7 +2418,7 @@ void BaseGui::updateWidgets() {
 	}
 
 	// Video equalizer
-	equalizerAct->setChecked( equalizer->isVisible() );
+	videoEqualizerAct->setChecked( video_equalizer->isVisible() );
 
 	// Audio equalizer
 	audioEqualizerAct->setChecked( audio_equalizer->isVisible() );
@@ -2471,13 +2471,13 @@ void BaseGui::updateWidgets() {
 	incSubStepAct->setEnabled(e);
 }
 
-void BaseGui::updateEqualizer() {
+void BaseGui::updateVideoEqualizer() {
 	// Equalizer
-	equalizer->contrast->setValue( core->mset.contrast );
-	equalizer->brightness->setValue( core->mset.brightness );
-	equalizer->hue->setValue( core->mset.hue );
-	equalizer->saturation->setValue( core->mset.saturation );
-	equalizer->gamma->setValue( core->mset.gamma );
+	video_equalizer->contrast->setValue( core->mset.contrast );
+	video_equalizer->brightness->setValue( core->mset.brightness );
+	video_equalizer->hue->setValue( core->mset.hue );
+	video_equalizer->saturation->setValue( core->mset.saturation );
+	video_equalizer->gamma->setValue( core->mset.gamma );
 }
 
 void BaseGui::updateAudioEqualizer() {
