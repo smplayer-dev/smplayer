@@ -37,7 +37,8 @@ AudioEqualizer::AudioEqualizer( QWidget* parent, Qt::WindowFlags f)
 
 	for (int n = 0; n < 10; n++) {
 		eq[n] = new EqSlider(this);
-		eq[n]->setRange(-120, 120);
+		eq[n]->setIcon( QPixmap() );
+		eq[n]->sliderWidget()->setRange(-120, 120);
 		bl->addWidget(eq[n]);
 	}
 
