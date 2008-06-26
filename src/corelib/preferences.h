@@ -23,8 +23,6 @@
 /* Global settings */
 
 #include <QString>
-#include <QList>
-#include <QVariant>
 #include "config.h"
 
 class Preferences {
@@ -132,7 +130,7 @@ public:
 	bool use_hwac3; // -afm hwac3
 
 	bool use_audio_equalizer;
-	QList<QVariant> audio_equalizer;
+
 
 	int vcd_initial_title;
 

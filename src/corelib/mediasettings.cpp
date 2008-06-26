@@ -60,6 +60,8 @@ void MediaSettings::reset() {
 	hue = pref->initial_hue;
 	saturation = pref->initial_saturation;
 
+	audio_equalizer << 0.0 << 0.0 << 0.0 << 0.0 << 0.0 << 0.0 << 0.0 << 0.0 << 0.0 << 0.0;
+
 	speed = 1.0;
 
 	phase_filter = false;
@@ -232,6 +234,8 @@ void MediaSettings::save(QSettings * set) {
 	set->setValue( "hue", hue);
 	set->setValue( "saturation", saturation);
 
+    set->setValue("audio_equalizer", audio_equalizer );
+
 	set->setValue( "speed", speed);
 
 	set->setValue( "phase_filter", phase_filter);
@@ -317,6 +321,8 @@ void MediaSettings::load(QSettings * set) {
 	gamma = set->value( "gamma", gamma).toInt();
 	hue = set->value( "hue", hue).toInt();
 	saturation = set->value( "saturation", saturation).toInt();
+
+	audio_equalizer = set->value("audio_equalizer", audio_equalizer ).toList();
 
 	speed = set->value( "speed", speed ).toDouble();
 
