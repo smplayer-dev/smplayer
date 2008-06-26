@@ -25,6 +25,8 @@
 
 #include <QString>
 #include <QSize>
+#include <QList>
+#include <QVariant>
 #include "config.h"
 
 class QSettings;
@@ -76,6 +78,8 @@ public:
 	bool mute;
 
 	int brightness, contrast, gamma, hue, saturation;
+
+	QList<QVariant> audio_equalizer;
 
 	QString external_subtitles;
 	QString external_audio; // external audio file
