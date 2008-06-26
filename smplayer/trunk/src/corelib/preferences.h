@@ -24,6 +24,7 @@
 
 #include <QString>
 #include "config.h"
+#include "mediasettings.h"
 
 class Preferences {
 
@@ -271,6 +272,8 @@ public:
 	int initial_hue;
 	int initial_saturation;
 	int initial_gamma;
+
+	AudioEqualizerList initial_audio_equalizer;
 
 	//! Default value for panscan (1.0 = no zoom)
 	double initial_panscan_factor;

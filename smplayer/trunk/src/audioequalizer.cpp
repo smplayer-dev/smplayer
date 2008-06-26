@@ -23,10 +23,7 @@
 #include "global.h"
 #include <QLayout>
 #include <QPushButton>
-/*
-#include <QVBoxLayout>
-#include <QHBoxLayout>
-*/
+#include <QMessageBox>
 
 using namespace Global;
 
@@ -104,7 +101,15 @@ void AudioEqualizer::reset() {
 }
 
 void AudioEqualizer::setDefaults() {
-	qDebug("Not implemented yet");
+	AudioEqualizerList l;
+	for (int n = 0; n < 10; n++) {
+		l << eq[n]->value();
+	}
+	pref->initial_audio_equalizer = l;
+
+	QMessageBox::information(this, tr("Information"), 
+                             tr("The current values have been stored to be "
+                                "used as default.") );
 }
 
 void AudioEqualizer::applyButtonClicked() {
