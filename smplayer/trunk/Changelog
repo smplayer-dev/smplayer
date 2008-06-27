@@ -1,5 +1,12 @@
 [b]Version 0.6.2[/b]:
 
+(2008-06-26)
+ * Now everything in the audio equalizer should work. The "apply" button
+   restarts the file and passes the equalizer settings using the "equalizer"
+   filter in mplayer, so it allows to use the dialog with non-patched mplayer.
+   The "set as default values" just saves the current settings in the config
+   file and they will be used when playing new files.
+
 (2008-06-25)
  * Added an audio equalizer. Not finished yet!
    In order to work you need to patch mplayer with this patch:
