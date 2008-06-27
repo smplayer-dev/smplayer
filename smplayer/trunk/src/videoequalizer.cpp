@@ -66,7 +66,7 @@ VideoEqualizer::~VideoEqualizer() {
 }
 
 void VideoEqualizer::retranslateStrings() {
-	setWindowTitle( tr("Equalizer") );
+	setWindowTitle( tr("Video Equalizer") );
 	setWindowIcon( Images::icon("logo") );
 
 	contrast->setLabel( tr("Contrast") );
