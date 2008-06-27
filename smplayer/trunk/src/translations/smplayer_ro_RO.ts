@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -352,92 +353,92 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="71"/>
         <source>Audio Equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Egalizor grafic  audio</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="74"/>
         <source>31.25 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>31.25 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="75"/>
         <source>62.50 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>62.50 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="76"/>
         <source>125.0 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>125.0 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="77"/>
         <source>250.0 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>250.0 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="78"/>
         <source>500.0 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>500.0 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="79"/>
         <source>1.000 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>1.000 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="80"/>
         <source>2.000 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>2.000 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="81"/>
         <source>4.000 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>4.000 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="82"/>
         <source>8.000 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>8.000 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="83"/>
         <source>16.00 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>16.00 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="85"/>
         <source>&amp;Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>V&amp;alidare</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="86"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Resetare</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="87"/>
         <source>&amp;Set as default values</source>
-        <translation type="unfinished">&amp;Selectează ca valoari implicite</translation>
+        <translation>&amp;Selectare ca valoari implicite</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="91"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished">Folosire valori curente ca valori implicite pentru fișiere video noi.</translation>
+        <translation>Folosirea valorilor curente ca valori implicite pentru fișierele video noi.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="93"/>
         <source>Set all controls to zero.</source>
-        <translation type="unfinished">Selectează butoanele de control la zero.</translation>
+        <translation>Aducerea butoanele de control la zero.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="110"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Informații</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="112"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valorile curente au fost memorate pentru a fi folosite ca valori implicite.</translation>
     </message>
 </context>
 <context>
@@ -1347,12 +1348,12 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
     <message>
         <location filename="../basegui.cpp" line="1093"/>
         <source>E&amp;qualizer</source>
-        <translation type="unfinished"></translation>
+        <translation>E&amp;galizor grafic</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1187"/>
         <source>Reset audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Resetarea egalizorului audio</translation>
     </message>
 </context>
 <context>
@@ -2126,17 +2127,17 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../languages.cpp" line="25"/>
         <source>Abkhazian</source>
-        <translation type="unfinished"></translation>
+        <translation>Abhază</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="26"/>
         <source>Afrikaans</source>
-        <translation type="unfinished"></translation>
+        <translation>Afrikaans</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="27"/>
         <source>Amharic</source>
-        <translation type="unfinished"></translation>
+        <translation>Amharică</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="213"/>
@@ -2156,7 +2157,7 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../languages.cpp" line="31"/>
         <source>Azerbaijani</source>
-        <translation type="unfinished"></translation>
+        <translation>Azerbaijană</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="32"/>
@@ -2506,7 +2507,7 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../languages.cpp" line="101"/>
         <source>Maltese</source>
-        <translation type="unfinished"></translation>
+        <translation>Malteză</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="102"/>
@@ -2536,7 +2537,7 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../languages.cpp" line="107"/>
         <source>Occitan</source>
-        <translation type="unfinished"></translation>
+        <translation>Occitană (Provensală)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="108"/>
@@ -5904,17 +5905,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.cpp" line="69"/>
         <source>Video Equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Egalizor video</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="118"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Informații</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="120"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valorile curente au fost memorate pentru a fi folosite ca valori implicite.</translation>
     </message>
 </context>
 <context>
