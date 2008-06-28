@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -353,92 +354,92 @@ Voulez-vous l&apos;écraser ?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="71"/>
         <source>Audio Equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Equaliseur audio</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="74"/>
         <source>31.25 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>31.25 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="75"/>
         <source>62.50 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>62.50 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="76"/>
         <source>125.0 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>125.0 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="77"/>
         <source>250.0 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>250.0 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="78"/>
         <source>500.0 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>500.0 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="79"/>
         <source>1.000 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>1.000 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="80"/>
         <source>2.000 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>2.000 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="81"/>
         <source>4.000 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>4.000 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="82"/>
         <source>8.000 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>8.000 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="83"/>
         <source>16.00 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>16.00 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="85"/>
         <source>&amp;Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Appliquer</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="86"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Réinitialiser</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="87"/>
         <source>&amp;Set as default values</source>
-        <translation type="unfinished">Choi&amp;sir en tant que valeur par défaut</translation>
+        <translation>Choi&amp;sir en tant que valeur par défaut</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="91"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished">Utiliser les valeurs actuelles comme valeurs par défaut pour les nouvelles vidéos.</translation>
+        <translation>Utiliser les valeurs actuelles comme valeurs par défaut pour les nouvelles vidéos.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="93"/>
         <source>Set all controls to zero.</source>
-        <translation type="unfinished">Mettre tous les contrôles à zéro.</translation>
+        <translation>Mettre tous les contrôles à zéro.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="110"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Information</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="112"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Les valeurs courantes ont été stockées pour être utilisées par défaut.</translation>
     </message>
 </context>
 <context>
@@ -1348,12 +1349,12 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="1093"/>
         <source>E&amp;qualizer</source>
-        <translation type="unfinished"></translation>
+        <translation>E&amp;qualiseur</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1187"/>
         <source>Reset audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Réinitialiser l&apos;équaliseur vidéo</translation>
     </message>
 </context>
 <context>
@@ -5903,17 +5904,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.cpp" line="69"/>
         <source>Video Equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Equaliseur vidéo</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="118"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Information</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="120"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Les valeurs courantes ont été stockées pour être utilisées par défaut.</translation>
     </message>
 </context>
 <context>
