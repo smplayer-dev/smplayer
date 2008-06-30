@@ -24,7 +24,7 @@
 
 #include <QString>
 #include "config.h"
-#include "mediasettings.h"
+#include "audioequalizerlist.h"
 
 class Preferences {
 

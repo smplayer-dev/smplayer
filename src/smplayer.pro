@@ -32,6 +32,7 @@ HEADERS	+= guiconfig.h \
     corelib/infoprovider.h \
 	corelib/mplayerwindow.h \
 	corelib/mediadata.h \
+	corelib/audioequalizerlist.h \
 	corelib/mediasettings.h \
 	corelib/preferences.h \
 	images.h \

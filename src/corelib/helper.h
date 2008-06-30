@@ -22,7 +22,7 @@
 
 #include <QString>
 #include <QStringList>
-#include "mediasettings.h"
+#include "audioequalizerlist.h"
 
 #ifdef Q_OS_WIN
 #include "config.h"
@@ -124,6 +124,8 @@ public:
     //! If version is 4.3.2 it returns 40302.
 	static int qtVersion();
 
+	//! Returns a string to be passed to mplayer with the audio equalizer
+	//! values.
 	static QString equalizerListToString(AudioEqualizerList values);
 
 private:

@@ -25,11 +25,8 @@
 
 #include <QString>
 #include <QSize>
-#include <QList>
-#include <QVariant>
 #include "config.h"
-
-typedef QList<QVariant> AudioEqualizerList;
+#include "audioequalizerlist.h"
 
 class QSettings;
 
