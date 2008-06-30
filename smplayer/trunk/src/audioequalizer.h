@@ -23,7 +23,7 @@
 #include <QWidget>
 #include <QHideEvent>
 #include <QShowEvent>
-#include "mediasettings.h"
+#include "audioequalizerlist.h"
 
 class QPushButton;
 class EqSlider;
