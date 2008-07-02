@@ -2551,6 +2551,11 @@ void Core::changeSubtitle(int ID) {
 	if (ID==MediaSettings::SubNone) {
 		ID=-1;
 	}
+
+	if (ID==MediaSettings::NoneSelected) {
+		ID=-1;
+		qDebug("Core::changeSubtitle: subtitle is NoneSelected, this shouldn't happen. ID set to -1.");
+	}
 	
 	qDebug("Core::changeSubtitle: ID: %d", ID);
 
