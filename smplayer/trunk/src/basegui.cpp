@@ -1539,7 +1539,7 @@ void BaseGui::createPlaylist() {
 void BaseGui::createPanel() {
 	panel = new QWidget( this );
 	panel->setSizePolicy( QSizePolicy::Expanding, QSizePolicy::Expanding );
-	panel->setMinimumSize( QSize(0,0) );
+	panel->setMinimumSize( QSize(1,1) );
 	panel->setFocusPolicy( Qt::StrongFocus );
 
 	// panel
