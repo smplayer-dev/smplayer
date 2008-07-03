@@ -1795,8 +1795,8 @@ void Core::stopMplayer() {
     tellmp("quit");
     
 	qDebug("Core::stopMplayer: Waiting mplayer to finish...");
-	//Helper::finishProcess( proc );
 	if (!proc->waitForFinished(5000)) {
+		qWarning("Core::stopMplayer: process didn't finish. Killing it...");
 		proc->kill();
 	}
 
