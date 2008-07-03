@@ -1,5 +1,17 @@
 [b]Version 0.6.2[/b]:
 
+(2008-07-02)
+ * The SSA/ASS library is NOT enabled by default. It seems there are memory 
+   leaks in libass...
+ * Fixed a crash which may happen if the option "Fast audio track switching" 
+   was set to "No". As a side effect, now if that option is set to "No" the 
+   preferred audio language (set in the preferences), won't be selected on
+   startup, the file will just start to play with the default audio track.
+
+(2008-07-01)
+ * The minimum size of the video window is now 1x1 instead of 0x0. Fixes a
+   crash that may happen under certain circumstances.
+
 (2008-06-26)
  * Now everything in the audio equalizer should work. The "apply" button
    restarts the file and passes the equalizer settings using the "equalizer"
