@@ -725,7 +725,16 @@ void Core::newMediaPlaying() {
 			if (res != -1) audio = res;
 		}
 
-		changeAudio( audio );
+		// Don't change the audio here if it requires to restart mplayer.
+		// It's not safe.
+		bool need_restart = (pref->fast_audio_change == Preferences::Disabled);
+		if (pref->fast_audio_change == Preferences::Detect) {
+			need_restart = (!MplayerVersion::isMplayerAtLeast(21441));
+		}
+
+		if (!need_restart) {
+			changeAudio( audio );
+		}
 	}
 
 	// Subtitles
