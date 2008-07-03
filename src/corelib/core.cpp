@@ -725,16 +725,10 @@ void Core::newMediaPlaying() {
 			if (res != -1) audio = res;
 		}
 
-		// Don't change the audio here if it requires to restart mplayer.
-		// It's not safe.
-		bool need_restart = (pref->fast_audio_change == Preferences::Disabled);
-		if (pref->fast_audio_change == Preferences::Detect) {
-			need_restart = (!MplayerVersion::isMplayerAtLeast(21441));
-		}
+		// Change the audio without restarting mplayer, it's not
+		// safe to do it here.
+		changeAudio( audio, false );
 
-		if (!need_restart) {
-			changeAudio( audio );
-		}
 	}
 
 	// Subtitles
@@ -2624,16 +2618,19 @@ void Core::nextSubtitle() {
 	}
 }
 
-void Core::changeAudio(int ID) {
-	qDebug("Core::changeAudio: ID: %d", ID);
+void Core::changeAudio(int ID, bool allow_restart) {
+	qDebug("Core::changeAudio: ID: %d, allow_restart: %d", ID, allow_restart);
 
 	if (ID!=mset.current_audio_id) {
 		mset.current_audio_id = ID;
 		qDebug("changeAudio: ID: %d", ID);
 
-		bool need_restart = (pref->fast_audio_change == Preferences::Disabled);
-		if (pref->fast_audio_change == Preferences::Detect) {
-			need_restart = (!MplayerVersion::isMplayerAtLeast(21441));
+		bool need_restart = false;
+		if (allow_restart) {
+			need_restart = (pref->fast_audio_change == Preferences::Disabled);
+			if (pref->fast_audio_change == Preferences::Detect) {
+				need_restart = (!MplayerVersion::isMplayerAtLeast(21441));
+			}
 		}
 
 		if (need_restart) {

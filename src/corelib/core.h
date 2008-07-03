@@ -211,7 +211,7 @@ public slots:
 	void changeDeinterlace(int);
     void changeSubtitle(int);
 	void nextSubtitle();
-	void changeAudio(int);
+	void changeAudio(int ID, bool allow_restart = true);
 	void nextAudio();
 	void changeTitle(int);
 	void changeChapter(int);
