@@ -1,5 +1,20 @@
 [b]Version 0.6.2[/b]:
 
+(2008-07-03)
+ * Temporary fix for the problem created yesterday: now when a file starts to 
+   play, the audio track will be changed using the mplayer slave command even 
+   if the option "Fast audio track switching" is set to "No". This makes that 
+   the selection of the initial audio track works ok with avi and mkv files 
+   for example, but it won't work yet with ogm for instance. 
+ * The floating control in the default gui saves/restores its actions to 
+   the config file, so now it can be customized by the user.
+ * The seeking mini buttons come back. Now by default, the default gui
+   will show only two seeking buttons. Keeping them pressed for a moment
+   will pop up the rest of the buttons. You may need to delete the 
+   [default_gui] section in the config file (or at least the options which
+   start with "actions\...") to see them. If you don't like these buttons
+   you can delete them from the config file and add the old ones.
+
 (2008-07-02)
  * The SSA/ASS library is NOT enabled by default. It seems there are memory 
    leaks in libass...
