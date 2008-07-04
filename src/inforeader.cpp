@@ -227,7 +227,10 @@ bool InfoReader::run(QString options) {
 	}
 
 	//Wait until finish
-	proc->waitForFinished();
+	if (!proc->waitForFinished()) {
+		qWarning("InfoReader::run: process didn't finish. Killing it...");
+		proc->kill();
+	}
 
 	qDebug("InfoReader::run : terminating");
 
@@ -269,7 +272,10 @@ bool InfoReader::run(QString options) {
 	}
 
 	//Wait until finish
-	proc->waitForFinished();
+	if (!proc->waitForFinished()) {
+		qWarning("InfoReader::run: process didn't finish. Killing it...");
+		proc->kill();
+	}
 
 	qDebug("InfoReader::run : terminating");
 

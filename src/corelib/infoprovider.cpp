@@ -43,7 +43,10 @@ MediaData InfoProvider::getInfo(QString mplayer_bin, QString filename) {
 	proc.addArgument(filename);
 
 	proc.start();
-	proc.waitForFinished();
+	if (!proc.waitForFinished()) {
+		qWarning("InfoProvider::getInfo: process didn't finish. Killing it...");
+		proc.kill();
+	}
 
 	return proc.mediaData();
 }
