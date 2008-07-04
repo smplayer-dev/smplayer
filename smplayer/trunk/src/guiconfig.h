@@ -44,7 +44,7 @@
 // MINI_ARROW_BUTTONS
 // if set to 1, the GUI will use a popup menu for arrow buttons
 
-#define MINI_ARROW_BUTTONS 0
+#define MINI_ARROW_BUTTONS 1
 
 
 // ALLOW_CHANGE_STYLESHEET
