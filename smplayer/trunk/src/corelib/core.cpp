@@ -697,7 +697,7 @@ void Core::initPlaying(int seek) {
 // This is reached when a new video has just started playing
 // and maybe we need to give some defaults
 void Core::newMediaPlaying() {
-	qDebug("Core::newMediaPlaying");
+	qDebug("Core::newMediaPlaying: --- start ---");
 
 	QString file = mdat.filename;
 	int type = mdat.type;
@@ -767,6 +767,8 @@ void Core::newMediaPlaying() {
 
 	mdat.list();
 	mset.list();
+
+	qDebug("Core::newMediaPlaying: --- end ---");
 }
 
 void Core::finishRestart() {
