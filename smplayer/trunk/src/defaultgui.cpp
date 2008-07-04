@@ -104,10 +104,12 @@ void DefaultGui::createActions() {
 	QList<QAction*> rewind_actions;
 	rewind_actions << rewind1Act << rewind2Act << rewind3Act;
 	rewindbutton_action = new SeekingButton(rewind_actions, this);
+	rewindbutton_action->setObjectName("rewindbutton_action");
 
 	QList<QAction*> forward_actions;
 	forward_actions << forward1Act << forward2Act << forward3Act;
 	forwardbutton_action = new SeekingButton(forward_actions, this);
+	forwardbutton_action->setObjectName("forwardbutton_action");
 #endif
 }
 
@@ -614,9 +616,23 @@ void DefaultGui::loadConfig() {
                      << "show_preferences" << "separator" << "play_prev" << "play_next";
 
 	QStringList controlwidget_actions;
-	controlwidget_actions << "play" << "pause_and_frame_step" << "stop" << "separator" << "rewind3" << "rewind2" 
-                          << "rewind1" << "timeslider_action" << "forward1" << "forward2" << "forward3" << "separator" 
-                          << "fullscreen" << "mute" << "volumeslider_action";
+	controlwidget_actions << "play" << "pause_and_frame_step" << "stop" << "separator";
+
+#if MINI_ARROW_BUTTONS
+	controlwidget_actions << "rewindbutton_action";
+#else
+	controlwidget_actions << "rewind3" << "rewind2" << "rewind1";
+#endif
+
+	controlwidget_actions << "timeslider_action";
+
+#if MINI_ARROW_BUTTONS
+	controlwidget_actions << "forwardbutton_action";
+#else
+	controlwidget_actions << "forward1" << "forward2" << "forward3";
+#endif
+
+	controlwidget_actions << "separator" << "fullscreen" << "mute" << "volumeslider_action";
 
 	QStringList controlwidget_mini_actions;
 	controlwidget_mini_actions << "play_or_pause" << "stop" << "separator" << "rewind1" << "timeslider_action" 
