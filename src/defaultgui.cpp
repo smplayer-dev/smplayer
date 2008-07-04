@@ -100,6 +100,10 @@ void DefaultGui::createActions() {
 	volumeslider_action = createVolumeSliderAction(this);
 	volumeslider_action->disable();
 
+	// Create the time label
+	time_label_action = new TimeLabelAction(this);
+	time_label_action->setObjectName("timelabel_action");
+
 #if MINI_ARROW_BUTTONS
 	QList<QAction*> rewind_actions;
 	rewind_actions << rewind1Act << rewind2Act << rewind3Act;
@@ -283,13 +287,10 @@ void DefaultGui::createControlWidget() {
 }
 
 void DefaultGui::createFloatingControl() {
-	// Create the time label
-	time_label_action = new TimeLabelAction(this);
-	time_label_action->setObjectName("timelabel_action");
-
 	// Floating control
 	floating_control = new FloatingWidget(this);
 
+#if !USE_CONFIGURABLE_TOOLBARS
 	floating_control->toolbar()->addAction(playAct);
 	floating_control->toolbar()->addAction(pauseAct);
 	floating_control->toolbar()->addAction(stopAct);
@@ -320,13 +321,17 @@ void DefaultGui::createFloatingControl() {
 	floating_control->toolbar()->addSeparator();
 	floating_control->toolbar()->addAction(time_label_action);
 
+#endif // USE_CONFIGURABLE_TOOLBARS
+
 #ifdef Q_OS_WIN
 	// To make work the ESC key (exit fullscreen) and Ctrl-X (close) in Windows
 	floating_control->addAction(exitFullscreenAct);
 	floating_control->addAction(exitAct);
 #endif
 
+#if !USE_CONFIGURABLE_TOOLBARS
 	floating_control->adjustSize();
+#endif
 }
 
 void DefaultGui::createStatusBar() {
@@ -565,6 +570,7 @@ void DefaultGui::saveConfig() {
 	set->setValue("toolbar1", ToolbarEditor::save(toolbar1) );
 	set->setValue("controlwidget", ToolbarEditor::save(controlwidget) );
 	set->setValue("controlwidget_mini", ToolbarEditor::save(controlwidget_mini) );
+	set->setValue("floating_control", ToolbarEditor::save(floating_control->toolbar()) );
 	set->endGroup();
 #endif
 
@@ -628,10 +634,17 @@ void DefaultGui::loadConfig() {
 	controlwidget_mini_actions << "play_or_pause" << "stop" << "separator" << "rewind1" << "timeslider_action" 
                                << "forward1" << "separator" << "mute" << "volumeslider_action";
 
+	QStringList floatingcontrol_actions;
+	floatingcontrol_actions << "play" << "pause" << "stop" << "separator" << "rewind3" << "rewind2" << "rewind1" 
+                            << "timeslider_action" << "forward1" << "forward2" << "forward3" << "separator" 
+                            << "fullscreen" << "mute" << "volumeslider_action" << "separator" << "timelabel_action";
+
 	set->beginGroup( "actions" );
 	ToolbarEditor::load(toolbar1, set->value("toolbar1", toolbar1_actions).toStringList(), actions_list );
 	ToolbarEditor::load(controlwidget, set->value("controlwidget", controlwidget_actions).toStringList(), actions_list );
 	ToolbarEditor::load(controlwidget_mini, set->value("controlwidget_mini", controlwidget_mini_actions).toStringList(), actions_list );
+	ToolbarEditor::load(floating_control->toolbar(), set->value("floating_control", floatingcontrol_actions).toStringList(), actions_list );
+    floating_control->adjustSize();
 	set->endGroup();
 #endif
 
