@@ -307,12 +307,12 @@ void Core::open(QString file, int seek) {
 	QFileInfo fi(file);
 
 	if ( (fi.exists()) && (fi.suffix().toLower()=="iso") ) {
-		qDebug(" * identified as a dvd iso");
+		qDebug("Core::open: * identified as a dvd iso");
 		openDVD("dvd://1:" + file);
 	}
 	else
 	if ( (fi.exists()) && (!fi.isDir()) ) {
-		qDebug(" * identified as local file");
+		qDebug("Core::open: * identified as local file");
 		// Local file
 		file = QFileInfo(file).absoluteFilePath();
 		openFile(file, seek);
@@ -320,20 +320,20 @@ void Core::open(QString file, int seek) {
 	else
 	if ( (fi.exists()) && (fi.isDir()) ) {
 		// Directory
-		qDebug(" * identified as a directory");
-		qDebug("   checking if contains a dvd");
+		qDebug("Core::open: * identified as a directory");
+		qDebug("Core::open:   checking if contains a dvd");
 		file = QFileInfo(file).absoluteFilePath();
 		if (Helper::directoryContainsDVD(file)) {
-			qDebug(" * directory contains a dvd");
+			qDebug("Core::open: * directory contains a dvd");
 			openDVD("dvd://1:"+ file);
 		} else {
-			qDebug(" * directory doesn't contain a dvd");
-			qDebug("   opening nothing");
+			qDebug("Core::open: * directory doesn't contain a dvd");
+			qDebug("Core::open:   opening nothing");
 		}
 	}
 	else 
 	if (file.toLower().startsWith("dvd:")) {
-		qDebug(" * identified as dvd");
+		qDebug("Core::open: * identified as dvd");
 		openDVD(file);
 		/*
 		QString f = file.lower();
@@ -349,7 +349,7 @@ void Core::open(QString file, int seek) {
 	}
 	else
 	if (file.toLower().startsWith("vcd:")) {
-		qDebug(" * identified as vcd");
+		qDebug("Core::open: * identified as vcd");
 
 		QString f = file.toLower();
 		QRegExp s("^vcd://(\\d+)");
@@ -363,7 +363,7 @@ void Core::open(QString file, int seek) {
 	}
 	else
 	if (file.toLower().startsWith("cdda:")) {
-		qDebug(" * identified as cdda");
+		qDebug("Core::open: * identified as cdda");
 
 		QString f = file.toLower();
 		QRegExp s("^cdda://(\\d+)");
@@ -376,7 +376,7 @@ void Core::open(QString file, int seek) {
 		}
 	}
 	else {
-		qDebug(" * not identified, playing as stream");
+		qDebug("Core::open: * not identified, playing as stream");
 		openStream(file);
 	}
 }
@@ -631,12 +631,12 @@ void Core::playNewFile(QString file, int seek) {
 #ifndef NO_USE_INI_FILES
 	// Check if we already have info about this file
 	if (checkHaveSettingsSaved( Helper::filenameForPref(file) )) {
-		qDebug("We have settings for this file!!!");
+		qDebug("Core::playNewFile: We have settings for this file!!!");
 
 		// In this case we read info from config
 		if (!pref->dont_remember_media_settings) {
 			loadMediaInfo( Helper::filenameForPref(file) );
-			qDebug("Media settings read");
+			qDebug("Core::playNewFile: Media settings read");
 
 			// Resize the window and set the aspect as soon as possible
 			if ((mset.win_width > 0) && (mset.win_height > 0)) {
@@ -646,10 +646,10 @@ void Core::playNewFile(QString file, int seek) {
 
 			if (pref->dont_remember_time_pos) {
 				mset.current_sec = 0;
-				qDebug("Time pos reset to 0");
+				qDebug("Core::playNewFile: Time pos reset to 0");
 			}
 		} else {
-			qDebug("Media settings have not read because of preferences setting");
+			qDebug("Core::playNewFile: Media settings have not read because of preferences setting");
 		}
 	} else {
 		// Recover volume
@@ -772,7 +772,7 @@ void Core::newMediaPlaying() {
 }
 
 void Core::finishRestart() {
-	qDebug("Core::finishRestart");
+	qDebug("Core::finishRestart: --- start ---");
 
 	if (!we_are_restarting) {
 		newMediaPlaying();
@@ -866,17 +866,19 @@ void Core::finishRestart() {
 	emit mediaInfoChanged();
 
 	updateWidgets(); // New
+
+	qDebug("Core::finishRestart: --- end ---");
 }
 
 
 void Core::stop()
 {
 	qDebug("Core::stop");
-	qDebug("   state: %s", stateToString().toUtf8().data());
+	qDebug("Core::stop: state: %s", stateToString().toUtf8().data());
 	
 	if (state()==Stopped) {
 		// if pressed stop twice, reset video to the beginning
-		qDebug("   mset.current_sec: %f", mset.current_sec);
+		qDebug("Core::stop: mset.current_sec: %f", mset.current_sec);
 		mset.current_sec = 0;
 		emit showTime( mset.current_sec );
 		emit posChanged( 0 );
@@ -928,7 +930,7 @@ void Core::pause_and_frame_step() {
 
 void Core::pause() {
 	qDebug("Core::pause");
-	qDebug("Current state: %s", stateToString().toUtf8().data());
+	qDebug("Core::pause: current state: %s", stateToString().toUtf8().data());
 
 	if (proc->isRunning()) {
 		// Pauses and unpauses
@@ -959,9 +961,9 @@ void Core::screenshot() {
          (QFileInfo(pref->screenshot_directory).isDir()) ) 
 	{
 		tellmp("pausing_keep screenshot 0");
-		qDebug(" taken screenshot");
+		qDebug("Core::screenshot: taken screenshot");
 	} else {
-		qDebug(" error: directory for screenshots not valid");
+		qDebug("Core::screenshot: error: directory for screenshots not valid");
 		QString text = "Screenshot NOT taken, folder not configured";
 		tellmp("osd_show_text \"" + text + "\" 3000 1");
 		emit showMessage(text);
@@ -1210,7 +1212,7 @@ void Core::startMplayer( QString file, double seek ) {
 	proc->addArgument("-priority");
 	proc->addArgument( p );
 	SetPriorityClass(GetCurrentProcess(), app_p);
-	qDebug("Priority of smplayer process set to %d", app_p);
+	qDebug("Core::startMplayer: priority of smplayer process set to %d", app_p);
 	#endif
 
 	if (pref->frame_drop) {
@@ -1816,7 +1818,7 @@ void Core::goToSec( double sec ) {
 
 
 void Core::seek(int secs) {
-	qDebug("seek: %d", secs);
+	qDebug("Core::seek: %d", secs);
 	if ( (proc->isRunning()) && (secs!=0) ) {
 		tellmp("seek " + QString::number(secs) + " 0");
 	}
@@ -1857,17 +1859,17 @@ void Core::fastrewind() {
 }
 
 void Core::forward(int secs) {
-	qDebug("forward: %d", secs);
+	qDebug("Core::forward: %d", secs);
 	seek(secs);
 }
 
 void Core::rewind(int secs) {
-	qDebug("rewind: %d", secs);
+	qDebug("Core::rewind: %d", secs);
 	seek(-secs);
 }
 
 void Core::wheelUp() {
-	qDebug("wheelUp");
+	qDebug("Core::wheelUp");
 	switch (pref->wheel_function) {
 		case Preferences::Volume : incVolume(); break;
 		case Preferences::Zoom : incPanscan(); break;
@@ -1878,7 +1880,7 @@ void Core::wheelUp() {
 }
 
 void Core::wheelDown() {
-	qDebug("wheelDown");
+	qDebug("Core::wheelDown");
 	switch (pref->wheel_function) {
 		case Preferences::Volume : decVolume(); break;
 		case Preferences::Zoom : decPanscan(); break;
@@ -2499,7 +2501,7 @@ void Core::changeCurrentSec(double sec) {
 	
 	if (state() != Playing) {
 		setState(Playing);
-		qDebug("mplayer reports that now it's playing");
+		qDebug("Core::changeCurrentSec: mplayer reports that now it's playing");
 		//emit mediaStartPlay();
 		//emit stateChanged(state());
 	}
@@ -2533,7 +2535,7 @@ void Core::gotStartingTime(double time) {
 
 void Core::changePause() {
 	qDebug("Core::changePause");
-	qDebug("mplayer reports that it's paused");
+	qDebug("Core::changePause: mplayer reports that it's paused");
 	setState(Paused);
 	//emit stateChanged(state());
 }
@@ -2658,13 +2660,13 @@ void Core::nextAudio() {
 
 	int item = mdat.audios.find( mset.current_audio_id );
 	if (item == -1) {
-		qWarning(" audio ID %d not found!", mset.current_audio_id);
+		qWarning("Core::nextAudio: audio ID %d not found!", mset.current_audio_id);
 	} else {
-		qDebug( " numItems: %d, item: %d", mdat.audios.numItems(), item);
+		qDebug( "Core::nextAudio: numItems: %d, item: %d", mdat.audios.numItems(), item);
 		item++;
 		if (item >= mdat.audios.numItems()) item=0;
 		int ID = mdat.audios.itemAt(item).ID();
-		qDebug( " item: %d, ID: %d", item, ID);
+		qDebug( "Core::nextAudio: item: %d, ID: %d", item, ID);
 		changeAudio( ID );
 	}
 }
@@ -2861,7 +2863,7 @@ void Core::changeAspectRatio( int ID ) {
 		mset.panscan_filter = QString("scale=%1:%2,").arg(real_width).arg(mdat.video_height);
 		mset.panscan_filter += QString("crop=%1:%2").arg(round(mdat.video_height * 4 /3)).arg(mdat.video_height);
 		//mset.crop = QSize( mdat.video_height * 4 /3, mdat.video_height );
-		qDebug(" panscan_filter = '%s'", mset.panscan_filter.toUtf8().data() );
+		qDebug("Core::changeAspectRatio: panscan_filter = '%s'", mset.panscan_filter.toUtf8().data() );
 
 	}
     else
@@ -2874,8 +2876,8 @@ void Core::changeAspectRatio( int ID ) {
 		int real_width = (int) round(mdat.video_height * mdat.video_aspect);
 		int height = (int) round(real_width * 9 / 16);
 
-		qDebug("video_width: %d, video_height: %d", real_width, mdat.video_height);
-		qDebug("crop: %d, %d", real_width, height );
+		qDebug("Core::changeAspectRatio: video_width: %d, video_height: %d", real_width, mdat.video_height);
+		qDebug("Core::changeAspectRatio: crop: %d, %d", real_width, height );
 
 		if (height > mdat.video_height) {
 			// Invalid size, source video is not 4:3
@@ -2884,7 +2886,7 @@ void Core::changeAspectRatio( int ID ) {
 			asp = (double) 16 / 9;
 			mset.crop_43to169_filter = QString("scale=%1:%2,").arg(real_width).arg(mdat.video_height);
 			mset.crop_43to169_filter += QString("crop=%1:%2").arg(real_width).arg(height);
-			qDebug(" crop_43to169_filter = '%s'", mset.crop_43to169_filter.toUtf8().data() );
+			qDebug("Core::changeAspectRatio: crop_43to169_filter = '%s'", mset.crop_43to169_filter.toUtf8().data() );
 		}
 	}
 	else
@@ -3091,7 +3093,7 @@ void Core::gotVO(QString vo) {
 	qDebug("Core::gotVO: '%s'", vo.toUtf8().data() );
 
 	if ( pref->vo.isEmpty()) {
-		qDebug("saving vo");
+		qDebug("Core::gotVO: saving vo");
 		pref->vo = vo;
 	}
 }
@@ -3100,7 +3102,7 @@ void Core::gotAO(QString ao) {
 	qDebug("Core::gotAO: '%s'", ao.toUtf8().data() );
 
 	if ( pref->ao.isEmpty()) {
-		qDebug("saving ao");
+		qDebug("Core::gotAO: saving ao");
 		pref->ao = ao;
 	}
 }
