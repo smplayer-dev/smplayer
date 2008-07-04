@@ -635,9 +635,23 @@ void DefaultGui::loadConfig() {
                                << "forward1" << "separator" << "mute" << "volumeslider_action";
 
 	QStringList floatingcontrol_actions;
-	floatingcontrol_actions << "play" << "pause" << "stop" << "separator" << "rewind3" << "rewind2" << "rewind1" 
-                            << "timeslider_action" << "forward1" << "forward2" << "forward3" << "separator" 
-                            << "fullscreen" << "mute" << "volumeslider_action" << "separator" << "timelabel_action";
+	floatingcontrol_actions << "play" << "pause" << "stop" << "separator";
+
+#if MINI_ARROW_BUTTONS
+	floatingcontrol_actions << "rewindbutton_action";
+#else
+	floatingcontrol_actions << "rewind3" << "rewind2" << "rewind1";
+#endif
+
+	floatingcontrol_actions << "timeslider_action";
+
+#if MINI_ARROW_BUTTONS
+	floatingcontrol_actions << "forwardbutton_action";
+#else
+	floatingcontrol_actions << "forward1" << "forward2" << "forward3";
+#endif
+
+	floatingcontrol_actions << "separator" << "fullscreen" << "mute" << "volumeslider_action" << "separator" << "timelabel_action";
 
 	set->beginGroup( "actions" );
 	ToolbarEditor::load(toolbar1, set->value("toolbar1", toolbar1_actions).toStringList(), actions_list );
