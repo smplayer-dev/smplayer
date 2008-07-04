@@ -17,6 +17,8 @@
 */
 
 #include "widgetactions.h"
+#include "helper.h"
+#include <QLabel>
 
 #if MINI_ARROW_BUTTONS
 #include <QToolButton>
@@ -156,6 +158,37 @@ QWidget * VolumeSliderAction::createWidget ( QWidget * parent ) {
 	connect( t,    SIGNAL(valueChanged(int)), 
              this, SIGNAL(valueChanged(int)) );
 	return t;
+}
+
+
+TimeLabelAction::TimeLabelAction( QWidget * parent )
+	: MyWidgetAction(parent)
+{
+}
+
+TimeLabelAction::~TimeLabelAction() {
+}
+
+void TimeLabelAction::setText(QString s) {
+	_text = s;
+	emit newText(s);
+}
+
+QWidget * TimeLabelAction::createWidget ( QWidget * parent ) {
+	QLabel * time_label = new QLabel(parent);
+    time_label->setAlignment(Qt::AlignVCenter | Qt::AlignHCenter);
+    time_label->setAutoFillBackground(true);
+
+    Helper::setBackgroundColor( time_label, QColor(0,0,0) );
+    Helper::setForegroundColor( time_label, QColor(255,255,255) );
+    time_label->setText( "00:00:00 / 00:00:00" );
+    time_label->setFrameShape( QFrame::Panel );
+    time_label->setFrameShadow( QFrame::Sunken );
+
+	connect( this, SIGNAL(newText(QString)), 
+             time_label, SLOT(setText(QString)) );
+
+	return time_label;
 }
 
 #if MINI_ARROW_BUTTONS

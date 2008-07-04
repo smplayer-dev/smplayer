@@ -284,18 +284,8 @@ void DefaultGui::createControlWidget() {
 
 void DefaultGui::createFloatingControl() {
 	// Create the time label
-    time_label = new QLabel(this);
-    time_label->setAlignment(Qt::AlignVCenter | Qt::AlignHCenter);
-    time_label->setAutoFillBackground(TRUE);
-
-    Helper::setBackgroundColor( time_label, QColor(0,0,0) );
-    Helper::setForegroundColor( time_label, QColor(255,255,255) );
-    time_label->setText( "00:00:00 / 00:00:00" );
-    time_label->setFrameShape( QFrame::Panel );
-    time_label->setFrameShadow( QFrame::Sunken );
-
-	QWidgetAction * time_label_action = new QWidgetAction(this);
-	time_label_action->setDefaultWidget(time_label);
+	time_label_action = new TimeLabelAction(this);
+	time_label_action->setObjectName("timelabel_action");
 
 	// Floating control
 	floating_control = new FloatingWidget(this);
@@ -394,7 +384,7 @@ void DefaultGui::retranslateStrings() {
 
 void DefaultGui::displayTime(QString text) {
 	time_display->setText( text );
-	time_label->setText(text);
+	time_label_action->setText(text);
 }
 
 void DefaultGui::displayFrame(int frame) {

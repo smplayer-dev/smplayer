@@ -40,6 +40,7 @@ protected:
 	virtual void propagate_enabled(bool);
 };
 
+
 class TimeSliderAction : public MyWidgetAction 
 {
 	Q_OBJECT
@@ -88,6 +89,30 @@ signals:
 
 protected:
 	virtual QWidget * createWidget ( QWidget * parent );
+};
+
+
+class TimeLabelAction : public MyWidgetAction 
+{
+	Q_OBJECT
+
+public:
+	TimeLabelAction( QWidget * parent );
+	~TimeLabelAction();
+
+	virtual QString text() { return _text; };
+
+public slots:
+	virtual void setText(QString s);
+
+signals:
+	void newText(QString s);
+
+protected:
+	virtual QWidget * createWidget ( QWidget * parent );
+
+private:
+	QString _text;
 };
 
 
