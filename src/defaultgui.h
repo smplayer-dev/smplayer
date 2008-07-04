@@ -23,7 +23,6 @@
 #include "baseguiplus.h"
 #include <QPoint>
 
-class QLabel;
 class QToolBar;
 class QPushButton;
 class QResizeEvent;
@@ -32,7 +31,7 @@ class QMenu;
 class TimeSliderAction;
 class VolumeSliderAction;
 class FloatingWidget;
-class QLabel;
+class TimeLabelAction;
 
 #if MINI_ARROW_BUTTONS
 class SeekingButton;
@@ -113,7 +112,7 @@ protected:
 #endif
 
 	FloatingWidget * floating_control;
-	QLabel * time_label;
+	TimeLabelAction * time_label_action;
 
 	QMenu * toolbar_menu;
 
