@@ -203,7 +203,7 @@ SeekingButton::~SeekingButton() {
 
 QWidget * SeekingButton::createWidget( QWidget * parent ) {
 	QToolButton * button = new QToolButton(parent);
-	button->setPopupMode(QToolButton::DelayedPopup);
+	button->setPopupMode(QToolButton::MenuButtonPopup);
 
 	if (_actions.count() > 0 ) {
 		button->setDefaultAction( _actions[0] );
