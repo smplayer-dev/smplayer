@@ -179,7 +179,9 @@ public:
 	bool loop;
 
 	bool use_single_instance;
-	int connection_port;
+	int connection_port; // Manual port
+	bool use_autoport;
+	int autoport; // Port automatically chosen by Qt
 
 	// Function of mouse buttons:
 	QString mouse_left_click_function;

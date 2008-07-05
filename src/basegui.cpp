@@ -196,8 +196,12 @@ void BaseGui::initializeGui() {
             this, SLOT(processFunction(QString)));		
 
 	if (pref->use_single_instance) {
-		if (server->listen(pref->connection_port)) {
-			qDebug("BaseGui::initializeGui: server running on port %d", pref->connection_port);
+		int port = 0;
+		if (!pref->use_autoport) port = pref->connection_port;
+		if (server->listen(port)) {
+			pref->autoport = server->serverPort();
+			pref->save();
+			qDebug("BaseGui::initializeGui: server running on port %d", pref->autoport);
 		} else {
 			qWarning("BaseGui::initializeGui: server couldn't be started");
 		}

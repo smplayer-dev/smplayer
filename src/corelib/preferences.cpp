@@ -174,8 +174,10 @@ void Preferences::reset() {
 
 	loop = FALSE;
 
-	use_single_instance = FALSE;
+	use_single_instance = true;
+	use_autoport = true;
 	connection_port = 8000;
+	autoport = 0;
 
 	mouse_left_click_function = "";
 	mouse_right_click_function = "show_context_menu";
@@ -409,9 +411,6 @@ void Preferences::save() {
 
 	set->setValue("loop", loop);
 
-	set->setValue("use_single_instance", use_single_instance);
-	set->setValue("connection_port", connection_port);
-
 	set->setValue("mouse_left_click_function", mouse_left_click_function);
 	set->setValue("mouse_right_click_function", mouse_right_click_function);
 	set->setValue("mouse_double_click_function", mouse_double_click_function);
@@ -520,6 +519,15 @@ void Preferences::save() {
 	set->setValue("mplayer_user_supplied_version", mplayer_user_supplied_version);
 	set->setValue("mplayer_has_volume_option", mplayer_has_volume_option);
 	set->endGroup();
+
+	set->beginGroup("instances");
+	set->setValue("use_single_instance", use_single_instance);
+	set->setValue("connection_port", connection_port);
+	set->setValue("use_autoport", use_autoport);
+	set->setValue("temp/autoport", autoport);
+	set->endGroup();
+
+	set->sync();
 }
 
 void Preferences::load() {
@@ -645,9 +653,6 @@ void Preferences::load() {
 
 	loop = set->value("loop", loop).toBool();
 
-	use_single_instance = set->value("use_single_instance", use_single_instance).toBool();
-	connection_port = set->value("connection_port", connection_port).toInt();
-
 	mouse_left_click_function = set->value("mouse_left_click_function", mouse_left_click_function).toString();
 	mouse_right_click_function = set->value("mouse_right_click_function", mouse_right_click_function).toString();
 	mouse_double_click_function = set->value("mouse_double_click_function", mouse_double_click_function).toString();
@@ -755,6 +760,13 @@ void Preferences::load() {
 	mplayer_detected_version = set->value("mplayer_detected_version", mplayer_detected_version).toInt();
 	mplayer_user_supplied_version = set->value("mplayer_user_supplied_version", mplayer_user_supplied_version).toInt();
 	mplayer_has_volume_option = set->value("mplayer_has_volume_option", mplayer_has_volume_option).toBool();
+	set->endGroup();
+
+	set->beginGroup("instances");
+	use_single_instance = set->value("use_single_instance", use_single_instance).toBool();
+	connection_port = set->value("connection_port", connection_port).toInt();
+	use_autoport = set->value("use_autoport", use_autoport).toBool();
+	autoport = set->value("temp/autoport", autoport).toInt();
 	set->endGroup();
 
 	/*
