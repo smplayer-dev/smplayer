@@ -198,8 +198,13 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 
 	if (pref->use_single_instance) {
 		// Single instance
-		MyClient *c = new MyClient(pref->connection_port);
+		int port = pref->connection_port;
+		if (pref->use_autoport) port = pref->autoport;
+
+		MyClient *c = new MyClient(port);
 		//c->setTimeOut(1000);
+		qDebug("SMPlayer::processArgs: trying to connect to port %d", port);
+
 		if (c->openConnection()) {
 			qDebug("SMPlayer::processArgs: found another instance");
 
