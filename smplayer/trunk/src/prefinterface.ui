@@ -544,75 +544,72 @@
             </widget>
            </item>
            <item>
-            <widget class="QLabel" name="port_label" >
+            <widget class="QGroupBox" name="port_groupbox" >
              <property name="enabled" >
               <bool>false</bool>
              </property>
-             <property name="text" >
-              <string>SMPlayer will listen to this &amp;port to receive commands from other instances:</string>
+             <property name="title" >
+              <string>Port to listen</string>
              </property>
-             <property name="alignment" >
-              <set>Qt::AlignVCenter</set>
-             </property>
-             <property name="wordWrap" >
-              <bool>true</bool>
-             </property>
-             <property name="buddy" >
-              <cstring>server_port_spin</cstring>
-             </property>
+             <layout class="QVBoxLayout" >
+              <property name="margin" >
+               <number>9</number>
+              </property>
+              <property name="spacing" >
+               <number>6</number>
+              </property>
+              <item>
+               <widget class="QRadioButton" name="automatic_port_button" >
+                <property name="text" >
+                 <string>&amp;Automatic</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" >
+                <property name="margin" >
+                 <number>0</number>
+                </property>
+                <property name="spacing" >
+                 <number>6</number>
+                </property>
+                <item>
+                 <widget class="QRadioButton" name="manual_port_button" >
+                  <property name="text" >
+                   <string>&amp;Manual</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSpinBox" name="server_port_spin" >
+                  <property name="enabled" >
+                   <bool>false</bool>
+                  </property>
+                  <property name="maximum" >
+                   <number>65535</number>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer>
+                  <property name="orientation" >
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeType" >
+                   <enum>QSizePolicy::Expanding</enum>
+                  </property>
+                  <property name="sizeHint" >
+                   <size>
+                    <width>270</width>
+                    <height>31</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </item>
+             </layout>
             </widget>
-           </item>
-           <item>
-            <layout class="QHBoxLayout" >
-             <property name="margin" >
-              <number>0</number>
-             </property>
-             <property name="spacing" >
-              <number>6</number>
-             </property>
-             <item>
-              <spacer>
-               <property name="orientation" >
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <property name="sizeType" >
-                <enum>QSizePolicy::Fixed</enum>
-               </property>
-               <property name="sizeHint" >
-                <size>
-                 <width>61</width>
-                 <height>31</height>
-                </size>
-               </property>
-              </spacer>
-             </item>
-             <item>
-              <widget class="QSpinBox" name="server_port_spin" >
-               <property name="enabled" >
-                <bool>false</bool>
-               </property>
-               <property name="maximum" >
-                <number>65535</number>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <spacer>
-               <property name="orientation" >
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <property name="sizeType" >
-                <enum>QSizePolicy::Expanding</enum>
-               </property>
-               <property name="sizeHint" >
-                <size>
-                 <width>270</width>
-                 <height>31</height>
-                </size>
-               </property>
-              </spacer>
-             </item>
-            </layout>
            </item>
           </layout>
          </item>
@@ -667,34 +664,34 @@
  <resources/>
  <connections>
   <connection>
-   <sender>single_instance_check</sender>
+   <sender>manual_port_button</sender>
    <signal>toggled(bool)</signal>
-   <receiver>port_label</receiver>
+   <receiver>server_port_spin</receiver>
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel" >
-     <x>225</x>
-     <y>47</y>
+     <x>124</x>
+     <y>170</y>
     </hint>
     <hint type="destinationlabel" >
-     <x>225</x>
-     <y>84</y>
+     <x>109</x>
+     <y>126</y>
     </hint>
    </hints>
   </connection>
   <connection>
    <sender>single_instance_check</sender>
    <signal>toggled(bool)</signal>
-   <receiver>server_port_spin</receiver>
+   <receiver>port_groupbox</receiver>
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel" >
-     <x>225</x>
-     <y>47</y>
+     <x>319</x>
+     <y>49</y>
     </hint>
     <hint type="destinationlabel" >
-     <x>109</x>
-     <y>126</y>
+     <x>317</x>
+     <y>222</y>
     </hint>
    </hints>
   </connection>

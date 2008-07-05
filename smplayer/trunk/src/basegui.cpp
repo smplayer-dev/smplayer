@@ -1961,8 +1961,11 @@ void BaseGui::applyNewPreferences() {
 
 		if (server_requires_restart) {
 			server->close();
-			if (server->listen(pref->connection_port)) {
-				qDebug("BaseGui::applyNewPreferences: server running on port %d", pref->connection_port);
+			int port = 0;
+			if (!pref->use_autoport) port = pref->connection_port;
+			if (server->listen(port)) {
+				pref->autoport = server->serverPort();
+				qDebug("BaseGui::applyNewPreferences: server running on port %d", pref->autoport);
 			} else {
 				qWarning("BaseGui::applyNewPreferences: server couldn't be started");
 			}

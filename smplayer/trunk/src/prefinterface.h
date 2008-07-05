@@ -75,6 +75,9 @@ protected:
 	void setServerPort(int port);
 	int serverPort();
 
+	void setUseAutoPort(bool b);
+	bool useAutoPort();
+
 	void setRecentsMaxItems(int n);
 	int recentsMaxItems();
 
