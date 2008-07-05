@@ -161,6 +161,7 @@ void PrefInterface::setData(Preferences * pref) {
 	setSaveSize( pref->save_window_size_on_exit );
 	setUseSingleInstance(pref->use_single_instance);
 	setServerPort(pref->connection_port);
+	setUseAutoPort(pref->use_autoport);
 	setRecentsMaxItems(pref->recents_max_items);
 
 	setSeeking1(pref->seeking1);
@@ -204,6 +205,11 @@ void PrefInterface::getData(Preferences * pref) {
 	pref->use_single_instance = useSingleInstance();
 	if (pref->connection_port != serverPort()) {
 		pref->connection_port = serverPort();
+		port_changed = true;
+	}
+
+	if (pref->use_autoport != useAutoPort()) {
+		pref->use_autoport = useAutoPort();
 		port_changed = true;
 	}
 
@@ -321,6 +327,15 @@ void PrefInterface::setServerPort(int port) {
 
 int PrefInterface::serverPort() {
 	return server_port_spin->value();
+}
+
+void PrefInterface::setUseAutoPort(bool b) {
+	automatic_port_button->setChecked(b);
+	manual_port_button->setChecked(!b);
+}
+
+bool PrefInterface::useAutoPort() {
+	return automatic_port_button->isChecked();
 }
 
 void PrefInterface::setRecentsMaxItems(int n) {
@@ -472,10 +487,17 @@ void PrefInterface::createHelp() {
         tr("Check this option if you want to use an already running instance "
            "of SMPlayer when opening other files.") );
 
-	setWhatsThis(server_port_spin, tr("Port"),
+	setWhatsThis(automatic_port_button, tr("Automatic port"),
+        tr("SMPlayer needs to listen to a port to receive commands from other "
+           "instances. If you select this option, a port will be "
+           "automatically chosen.") );
+
+	setWhatsThis(server_port_spin, tr("Manual port"),
         tr("SMPlayer needs to listen to a port to receive commands from other "
            "instances. You can change the port in case the default one is "
            "used by another application.") );
+
+	manual_port_button->setWhatsThis( server_port_spin->whatsThis() );
 }
 
 #include "moc_prefinterface.cpp"
