@@ -1,5 +1,11 @@
 [b]Version 0.6.2[/b]:
 
+(2008-07-05)
+ * Some changes in the single instance options. Now the single instance is
+   enabled by default. There's also the possibility to let the application
+   to choose automatically the port to be used, which is also the default
+   option.
+
 (2008-07-03)
  * Temporary fix for the problem created yesterday: now when a file starts to 
    play, the audio track will be changed using the mplayer slave command even 
