@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -5005,32 +5006,32 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="490"/>
         <source>Automatic port</source>
-        <translation type="unfinished"></translation>
+        <translation>Port automatisch</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="493"/>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. If you select this option, a port will be automatically chosen.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer muss einen Port abfragen, um Befehle von anderen Prozessen zu erhalten. Mit dieser Option wird der Port automatisch gewählt.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="495"/>
         <source>Manual port</source>
-        <translation type="unfinished"></translation>
+        <translation>Port manuell</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="552"/>
         <source>Port to listen</source>
-        <translation type="unfinished"></translation>
+        <translation>Abzufragender Port</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="564"/>
         <source>&amp;Automatic</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Automatisch</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="579"/>
         <source>&amp;Manual</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Manuell</translation>
     </message>
 </context>
 <context>
