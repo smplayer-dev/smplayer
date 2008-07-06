@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -2266,7 +2267,7 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../languages.cpp" line="53"/>
         <source>Persian</source>
-        <translation type="unfinished"></translation>
+        <translation>Farsi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="176"/>
@@ -2276,12 +2277,12 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../languages.cpp" line="55"/>
         <source>Fiji</source>
-        <translation type="unfinished"></translation>
+        <translation>Fijiană</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="56"/>
         <source>Faroese</source>
-        <translation type="unfinished"></translation>
+        <translation>Faroeză</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="177"/>
@@ -2291,7 +2292,7 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../languages.cpp" line="58"/>
         <source>Frisian</source>
-        <translation type="unfinished"></translation>
+        <translation>Frisiană</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="59"/>
@@ -2301,7 +2302,7 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../languages.cpp" line="60"/>
         <source>Scots</source>
-        <translation type="unfinished"></translation>
+        <translation>Scoțiană soasă (Scots)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="178"/>
@@ -2411,12 +2412,12 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../languages.cpp" line="82"/>
         <source>Cambodian</source>
-        <translation type="unfinished"></translation>
+        <translation>Khmeră</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="83"/>
         <source>Kannada</source>
-        <translation type="unfinished"></translation>
+        <translation>Kanadeză</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="183"/>
@@ -2431,7 +2432,7 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../languages.cpp" line="86"/>
         <source>Kurdish</source>
-        <translation type="unfinished"></translation>
+        <translation>Kurdă</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="87"/>
@@ -2591,7 +2592,7 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../languages.cpp" line="119"/>
         <source>Sanskrit</source>
-        <translation type="unfinished"></translation>
+        <translation>Sanscrită</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="120"/>
@@ -2656,7 +2657,7 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../languages.cpp" line="133"/>
         <source>Sundanese</source>
-        <translation type="unfinished"></translation>
+        <translation>Sundaneză (Basa Sunda)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="193"/>
@@ -2671,7 +2672,7 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../languages.cpp" line="136"/>
         <source>Tamil</source>
-        <translation type="unfinished"></translation>
+        <translation>Tamilă</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="137"/>
@@ -2726,7 +2727,7 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../languages.cpp" line="147"/>
         <source>Tatar</source>
-        <translation type="unfinished"></translation>
+        <translation>Tătară</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="148"/>
@@ -4997,32 +4998,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="490"/>
         <source>Automatic port</source>
-        <translation type="unfinished"></translation>
+        <translation>Detectare automată port</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="493"/>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. If you select this option, a port will be automatically chosen.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer are nevoie să asculte un anume port pentru a recepționa comenzi de la alte sesiuni. Dacă selectați această opțiune portul va fi ales automat.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="495"/>
         <source>Manual port</source>
-        <translation type="unfinished"></translation>
+        <translation>Detectare manuală port</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="552"/>
         <source>Port to listen</source>
-        <translation type="unfinished"></translation>
+        <translation>Portul de ascultat</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="564"/>
         <source>&amp;Automatic</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Automat</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="579"/>
         <source>&amp;Manual</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Manual</translation>
     </message>
 </context>
 <context>
