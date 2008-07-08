@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -4996,32 +4997,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="490"/>
         <source>Automatic port</source>
-        <translation type="unfinished"></translation>
+        <translation>Port automatique</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="493"/>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. If you select this option, a port will be automatically chosen.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayers a besoin d&apos;écouter un port pour recevoir les commandes venant de d&apos;autres instances. Si vous sélectionnez cette option, le port sera automatiquement choisi.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="495"/>
         <source>Manual port</source>
-        <translation type="unfinished"></translation>
+        <translation>Port manuel</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="552"/>
         <source>Port to listen</source>
-        <translation type="unfinished"></translation>
+        <translation>Port à écouter</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="564"/>
         <source>&amp;Automatic</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Automatique</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="579"/>
         <source>&amp;Manual</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Manuel</translation>
     </message>
 </context>
 <context>
