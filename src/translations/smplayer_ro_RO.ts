@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
-<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1728,67 +1727,67 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
 <context>
     <name>FindSubtitlesDialog</name>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="110"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="133"/>
         <source>Language</source>
         <translation>Limbă</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="110"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="133"/>
         <source>Name</source>
         <translation>Nume</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="111"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="134"/>
         <source>Format</source>
         <translation>Format</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="111"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="134"/>
         <source>Files</source>
         <translation>Fișiere</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="111"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="134"/>
         <source>Date</source>
         <translation>Data</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="111"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="134"/>
         <source>Uploaded by</source>
         <translation>Încărcat de către</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="186"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="215"/>
         <source>Error</source>
         <translation>Eroare</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="188"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="217"/>
         <source>Download failed: %1.</source>
         <translation>Descărcare eșuată: %1.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="192"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="221"/>
         <source>Connecting to %1...</source>
         <translation>Conectare la %1...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="198"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="227"/>
         <source>Downloading...</source>
         <translation>Se descarcă...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="206"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="235"/>
         <source>Done.</source>
         <translation>Operație terminată.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="248"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="277"/>
         <source>%1 files available</source>
         <translation>%1 fișiere disponibile</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="257"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="286"/>
         <source>Failed to parse the received data.</source>
         <translation>Transferul datelor recepționate a eșuat.</translation>
     </message>
@@ -1818,7 +1817,7 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
         <translation>&amp;Descărcare</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="133"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="156"/>
         <source>Close</source>
         <translation>Închide</translation>
     </message>
@@ -1828,9 +1827,14 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
         <translation>&amp;Subtitrări pentru</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="127"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="150"/>
         <source>All</source>
         <translation>Toate</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="161"/>
+        <source>&amp;Copy link to clipboard</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
