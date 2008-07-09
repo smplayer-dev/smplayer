@@ -26,6 +26,8 @@ class SimpleHttp;
 class QStandardItemModel;
 class QSortFilterProxyModel;
 class QModelIndex;
+class QMenu;
+class QAction;
 
 class FindSubtitlesDialog : public QDialog, public Ui::FindSubtitlesDialog
 {
@@ -38,6 +40,8 @@ public:
 public slots:
 	void setMovie(QString filename);
 	void refresh();
+	void download();
+	void copyLink();
 	void applyFilter(const QString & filter);
 	void applyCurrentFilter();
 
@@ -54,17 +58,21 @@ protected slots:
 	void itemActivated(const QModelIndex & index );
 	void currentItemChanged(const QModelIndex & current, const QModelIndex & previous);
 
-	void on_download_button_clicked();
+	void showContextMenu(const QPoint & pos);
 
 protected:
 	virtual void retranslateStrings();
 	virtual void changeEvent(QEvent * event);
 
-private:
+protected:
 	SimpleHttp * downloader;
 	QStandardItemModel * table;
 	QSortFilterProxyModel * proxy_model;
 	QString last_file;
+
+	QMenu * context_menu;
+	QAction * downloadAct;
+	QAction * copyLinkAct;
 };
 
 #endif

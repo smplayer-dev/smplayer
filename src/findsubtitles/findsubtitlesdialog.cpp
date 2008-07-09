@@ -27,6 +27,9 @@
 #include <QDesktopServices>
 #include <QUrl>
 #include <QMap>
+#include <QMenu>
+#include <QAction>
+#include <QClipboard>
 
 #define COL_LANG 0
 #define COL_NAME 1
@@ -52,6 +55,9 @@ FindSubtitlesDialog::FindSubtitlesDialog( QWidget * parent, Qt::WindowFlags f )
 	connect( refresh_button, SIGNAL(clicked()),
              this, SLOT(refresh()) );
 
+	connect( download_button, SIGNAL(clicked()),
+             this, SLOT(download()) );
+
 	/*
 	connect( language_filter, SIGNAL(editTextChanged(const QString &)),
              this, SLOT(applyFilter(const QString &)) );
@@ -73,11 +79,15 @@ FindSubtitlesDialog::FindSubtitlesDialog( QWidget * parent, Qt::WindowFlags f )
 	view->setAlternatingRowColors(true);
 	view->header()->setSortIndicator(COL_LANG, Qt::AscendingOrder);
 	view->setEditTriggers(QAbstractItemView::NoEditTriggers);
+	view->setContextMenuPolicy( Qt::CustomContextMenu );
 
 	connect(view, SIGNAL(activated(const QModelIndex &)),
             this, SLOT(itemActivated(const QModelIndex &)) );
 	connect(view->selectionModel(), SIGNAL(currentChanged(const QModelIndex &,const QModelIndex &)),
             this, SLOT(currentItemChanged(const QModelIndex &,const QModelIndex &)) );
+
+	connect(view, SIGNAL(customContextMenuRequested(const QPoint &)),
+            this, SLOT(showContextMenu(const QPoint &)) );
 
 	downloader = new SimpleHttp(this);
 
@@ -94,6 +104,19 @@ FindSubtitlesDialog::FindSubtitlesDialog( QWidget * parent, Qt::WindowFlags f )
              this, SLOT(connecting(QString)) );
 	connect( downloader, SIGNAL(dataReadProgress(int, int)),
              this, SLOT(updateDataReadProgress(int, int)) );
+
+	// Actions
+	downloadAct = new QAction(this);
+	downloadAct->setEnabled(false);
+	connect( downloadAct, SIGNAL(triggered()), this, SLOT(download()) );
+
+	copyLinkAct = new QAction(this);
+	copyLinkAct->setEnabled(false);
+	connect( copyLinkAct, SIGNAL(triggered()), this, SLOT(copyLink()) );
+
+	context_menu = new QMenu(this);
+	context_menu->addAction(downloadAct);
+	context_menu->addAction(copyLinkAct);
 
 	retranslateStrings();
 
@@ -132,6 +155,10 @@ void FindSubtitlesDialog::retranslateStrings() {
 	QPushButton * close_button = buttonBox->button(QDialogButtonBox::Close);
 	close_button->setText( tr("Close") );
 #endif
+
+	// Actions
+	downloadAct->setText( tr("&Download") );
+	copyLinkAct->setText( tr("&Copy link to clipboard") );
 }
 
 void FindSubtitlesDialog::setMovie(QString filename) {
@@ -170,6 +197,8 @@ void FindSubtitlesDialog::updateRefreshButton() {
 void FindSubtitlesDialog::currentItemChanged(const QModelIndex & current, const QModelIndex & /*previous*/) {
 	qDebug("FindSubtitlesDialog::currentItemChanged: row: %d, col: %d", current.row(), current.column());
 	download_button->setEnabled(current.isValid());
+	downloadAct->setEnabled(current.isValid());
+	copyLinkAct->setEnabled(current.isValid());
 }
 
 void FindSubtitlesDialog::applyFilter(const QString & filter) {
@@ -270,11 +299,28 @@ void FindSubtitlesDialog::itemActivated(const QModelIndex & index ) {
 	QDesktopServices::openUrl( QUrl(download_link) );
 }
 
-void FindSubtitlesDialog::on_download_button_clicked() {
-	qDebug("FindSubtitlesDialog::on_download_button_clicked");
+void FindSubtitlesDialog::download() {
+	qDebug("FindSubtitlesDialog::download");
 	if (view->currentIndex().isValid()) {
 		itemActivated(view->currentIndex());
 	}
+}
+
+void FindSubtitlesDialog::copyLink() {
+	qDebug("FindSubtitlesDialog::copyLink");
+	if (view->currentIndex().isValid()) {
+		const QModelIndex & index = view->currentIndex();
+		QString download_link = table->item(proxy_model->mapToSource(index).row(), COL_NAME)->data().toString();
+		qDebug("FindSubtitlesDialog::copyLink: link: '%s'", download_link.toLatin1().constData());
+		qApp->clipboard()->setText(download_link);
+	}
+}
+
+void FindSubtitlesDialog::showContextMenu(const QPoint & pos) {
+	qDebug("FindSubtitlesDialog::showContextMenu");
+
+	context_menu->move( view->viewport()->mapToGlobal(pos) );
+	context_menu->show();
 }
 
 // Language change stuff

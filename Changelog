@@ -1,5 +1,9 @@
 [b]Version 0.6.2[/b]:
 
+(2008-07-08)
+ * Added a context menu in the find subtitles dialog, with two options:
+   "download" and "copy link to clipboard".
+
 (2008-07-05)
  * Some changes in the single instance options. Now the single instance is
    enabled by default. There's also the possibility to let the application
