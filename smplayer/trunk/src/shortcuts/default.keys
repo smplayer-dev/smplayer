@@ -29,7 +29,7 @@ dec_speed	[
 inc_speed	]
 fullscreen	F
 compact	Ctrl+C
-equalizer	Ctrl+E
+video_equalizer	Ctrl+E
 screenshot	S
 on_top	
 flip	
@@ -40,6 +40,7 @@ dering
 add_noise	
 add_letterbox	
 upscaling	
+audio_equalizer	
 mute	M
 decrease_volume	9, /
 increase_volume	0, *
@@ -103,6 +104,7 @@ next_chapter	@
 prev_chapter	!
 toggle_double_size	Ctrl+D
 reset_video_equalizer	
+reset_audio_equalizer	
 show_context_menu	
 osd_none	
 osd_seek	
@@ -163,6 +165,5 @@ pl_add_directory
 pl_remove_selected	
 pl_remove_all	
 pl_edit	
-dock_playlist	
 show_main_toolbar	F5
 show_language_toolbar	F6
