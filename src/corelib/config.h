@@ -75,6 +75,13 @@
 #define ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES 1
 
 
+// DELAYED_AUDIO_SETUP_ON_STARTUP
+// if 1, the audio track will be initialized later once the file
+// has begun to play
+
+#define DELAYED_AUDIO_SETUP_ON_STARTUP 1
+
+
 // Just for testing, possibility to disable the use of the colorkey
 
 #define USE_COLORKEY 1

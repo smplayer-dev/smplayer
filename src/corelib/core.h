@@ -275,6 +275,10 @@ protected slots:
 	//! the resolution is HD
 	void checkIfVideoIsHD();
 
+#if DELAYED_AUDIO_SETUP_ON_STARTUP
+	void initAudioTrack();
+#endif
+
 protected:
 	void playNewFile(QString file, int seek=-1);
 	void restartPlay();

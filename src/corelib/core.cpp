@@ -134,6 +134,9 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 
 	connect( this, SIGNAL(mediaLoaded()), this, SLOT(autosaveMplayerLog()) );
 	connect( this, SIGNAL(mediaLoaded()), this, SLOT(checkIfVideoIsHD()) );
+#if DELAYED_AUDIO_SETUP_ON_STARTUP
+	connect( this, SIGNAL(mediaLoaded()), this, SLOT(initAudioTrack()) );
+#endif
 	
 	connect( this, SIGNAL(stateChanged(Core::State)), 
 	         this, SLOT(watchState(Core::State)) );
@@ -707,6 +710,7 @@ void Core::newMediaPlaying() {
 
 	initializeMenus(); // Old
 
+#if !DELAYED_AUDIO_SETUP_ON_STARTUP
 	// First audio if none selected
 	if ( (mset.current_audio_id == MediaSettings::NoneSelected) && 
          (mdat.audios.numItems() > 0) ) 
@@ -730,6 +734,7 @@ void Core::newMediaPlaying() {
 		changeAudio( audio, false );
 
 	}
+#endif
 
 	// Subtitles
 	if (mset.external_subtitles.isEmpty()) {
@@ -3164,5 +3169,32 @@ void Core::checkIfVideoIsHD() {
 		// then the video should restart too.
 	}
 }
+
+#if DELAYED_AUDIO_SETUP_ON_STARTUP
+void Core::initAudioTrack() {
+	qDebug("Core::initAudioTrack");
+
+	// First audio if none selected
+	if ( (mset.current_audio_id == MediaSettings::NoneSelected) && 
+         (mdat.audios.numItems() > 0) ) 
+	{
+		// Don't set mset.current_audio_id here! changeAudio will do. 
+		// Otherwise changeAudio will do nothing.
+
+		int audio = mdat.audios.itemAt(0).ID(); // First one
+		if (mdat.audios.existsItemAt(pref->initial_audio_track-1)) {
+			audio = mdat.audios.itemAt(pref->initial_audio_track-1).ID();
+		}
+
+		// Check if one of the audio tracks is the user preferred.
+		if (!pref->audio_lang.isEmpty()) {
+			int res = mdat.audios.findLang( pref->audio_lang );
+			if (res != -1) audio = res;
+		}
+
+		changeAudio( audio );
+	}
+}
+#endif
 
 #include "moc_core.cpp"
