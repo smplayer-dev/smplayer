@@ -1837,7 +1837,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="161"/>
         <source>&amp;Copy link to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>クリップボードへリンクをコピー(&amp;C)</translation>
     </message>
 </context>
 <context>
@@ -5019,32 +5019,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="490"/>
         <source>Automatic port</source>
-        <translation type="unfinished"></translation>
+        <translation>自動ポート</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="493"/>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. If you select this option, a port will be automatically chosen.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer はその他のインスタンスからコマンドを受信するのにポートの聴取を必要とします。この、オプションを選択すると、ポートは自動的に選択されます。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="495"/>
         <source>Manual port</source>
-        <translation type="unfinished"></translation>
+        <translation>手動ポート</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="552"/>
         <source>Port to listen</source>
-        <translation type="unfinished"></translation>
+        <translation>聴取するポート</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="564"/>
         <source>&amp;Automatic</source>
-        <translation type="unfinished"></translation>
+        <translation>自動(&amp;A)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="579"/>
         <source>&amp;Manual</source>
-        <translation type="unfinished"></translation>
+        <translation>手動(&amp;M)</translation>
     </message>
 </context>
 <context>
@@ -5355,7 +5355,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="299"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
-        <translation>このオプションはビデオ ウィンドウ上の字幕の位置を指定します。&lt;i&gt;100&lt;/i&gt; は最下を意味しますが、&lt;i&gt;0&lt;/i&gt; は最上を意味します。</translation>
+        <translation>このオプションはビデオ ウィンドウ上の字幕の位置を指定します。&lt;i&gt;100&lt;/i&gt; は最下を意味し、&lt;i&gt;0&lt;/i&gt; は最上を意味します。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="345"/>
