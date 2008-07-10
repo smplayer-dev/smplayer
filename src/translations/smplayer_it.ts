@@ -13,182 +13,182 @@
         <translation>Compilato con Qt %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="92"/>
+        <location filename="../about.cpp" line="93"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
         <translation>Questo programma è  free software; è possibile modificarlo e/o ridistribuirlo sotto i termini della licenza GNU General Public License come indicato dalla Free Software Foundation; sia la versione 2 della licenza, o (a vostra scelta) ogni successiva versione.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="99"/>
+        <location filename="../about.cpp" line="100"/>
         <source>Some people have helped with their contributions:</source>
         <translation>Alcune persone hanno contribuito con il loro aiuto:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="100"/>
+        <location filename="../about.cpp" line="101"/>
         <source>SMPlayer logo</source>
         <translation>Logo SMPlayer</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="101"/>
+        <location filename="../about.cpp" line="102"/>
         <source>file associations for Windows</source>
         <translation>associazione file in Windows</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="102"/>
+        <location filename="../about.cpp" line="103"/>
         <source>manpage for linux</source>
         <translation>pagina man per linux</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="103"/>
+        <location filename="../about.cpp" line="104"/>
         <source>support for colored console output</source>
         <translation>supporto per output colorato in linux</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="104"/>
+        <location filename="../about.cpp" line="105"/>
         <source>icon for file associations</source>
         <translation>icona per associazione file</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="105"/>
+        <location filename="../about.cpp" line="106"/>
         <source>patch for file associations</source>
         <translation>patch per associazione file</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="142"/>
+        <location filename="../about.cpp" line="143"/>
         <source>The following people have contributed with translations:</source>
         <translation>Le seguenti persone hanno contribuito con le traduzioni:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="143"/>
+        <location filename="../about.cpp" line="144"/>
         <source>German</source>
         <translation>Tedesco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="144"/>
+        <location filename="../about.cpp" line="145"/>
         <source>Slovak</source>
         <translation>Slovacco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="145"/>
+        <location filename="../about.cpp" line="146"/>
         <source>Italian</source>
         <translation>Italiano</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="146"/>
+        <location filename="../about.cpp" line="147"/>
         <source>French</source>
         <translation>Francese</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="147"/>
+        <location filename="../about.cpp" line="148"/>
         <source>%1, %2 and %3</source>
         <translation>%1, %2 e %3</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="150"/>
+        <location filename="../about.cpp" line="151"/>
         <source>Simplified-Chinese</source>
         <translation>Cinese Semplificato</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="151"/>
+        <location filename="../about.cpp" line="152"/>
         <source>Russian</source>
         <translation>Russo</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="171"/>
+        <location filename="../about.cpp" line="172"/>
         <source>%1 and %2</source>
         <translation>%1 e %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="152"/>
+        <location filename="../about.cpp" line="153"/>
         <source>Hungarian</source>
         <translation>Ungherese</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="153"/>
+        <location filename="../about.cpp" line="154"/>
         <source>Polish</source>
         <translation>Polacco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="156"/>
+        <location filename="../about.cpp" line="157"/>
         <source>Japanese</source>
         <translation>Giapponese</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="157"/>
+        <location filename="../about.cpp" line="158"/>
         <source>Dutch</source>
         <translation>Olandese</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="160"/>
+        <location filename="../about.cpp" line="161"/>
         <source>Ukrainian</source>
         <translation>Ucraino</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="161"/>
+        <location filename="../about.cpp" line="162"/>
         <source>Portuguese - Brazil</source>
         <translation>Portoghese (Brasile)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="162"/>
+        <location filename="../about.cpp" line="163"/>
         <source>Georgian</source>
         <translation>Georgiano</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="163"/>
+        <location filename="../about.cpp" line="164"/>
         <source>Czech</source>
         <translation>Ceco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="164"/>
+        <location filename="../about.cpp" line="165"/>
         <source>Bulgarian</source>
         <translation>Bulgaro</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="165"/>
+        <location filename="../about.cpp" line="166"/>
         <source>Turkish</source>
         <translation>Turco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="166"/>
+        <location filename="../about.cpp" line="167"/>
         <source>Swedish</source>
         <translation>Svedese</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="167"/>
+        <location filename="../about.cpp" line="168"/>
         <source>Serbian</source>
         <translation>Serbo</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="168"/>
+        <location filename="../about.cpp" line="169"/>
         <source>Traditional Chinese</source>
         <translation>Cinese Tradizionale</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="169"/>
+        <location filename="../about.cpp" line="170"/>
         <source>Romanian</source>
         <translation>Romeno</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="170"/>
+        <location filename="../about.cpp" line="171"/>
         <source>Portuguese - Portugal</source>
         <translation>Portoghese (Portogallo)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="173"/>
+        <location filename="../about.cpp" line="174"/>
         <source>Greek</source>
         <translation>Greco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="174"/>
+        <location filename="../about.cpp" line="175"/>
         <source>Finnish</source>
         <translation>Finlandese</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="183"/>
+        <location filename="../about.cpp" line="184"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="192"/>
+        <location filename="../about.cpp" line="193"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -223,37 +223,37 @@
         <translation>&amp;Licenza</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="62"/>
+        <location filename="../about.cpp" line="63"/>
         <source>Visit our web for updates:</source>
         <translation>Visita il nostro sito per aggiornamenti:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="66"/>
+        <location filename="../about.cpp" line="67"/>
         <source>Get help in our forum:</source>
         <translation>Cerca aiuto nel nostro forum:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="68"/>
+        <location filename="../about.cpp" line="69"/>
         <source>You can support SMPlayer by making a donation.</source>
         <translation>Puoi sostenere SMPlayer con una donazione.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="70"/>
+        <location filename="../about.cpp" line="71"/>
         <source>More info</source>
         <translation>Maggiori informazioni</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="175"/>
+        <location filename="../about.cpp" line="176"/>
         <source>Korean</source>
         <translation>Coreano</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="176"/>
+        <location filename="../about.cpp" line="177"/>
         <source>Macedonian</source>
         <translation>Macedone</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="177"/>
+        <location filename="../about.cpp" line="178"/>
         <source>Basque</source>
         <translation>Basco</translation>
     </message>
@@ -263,7 +263,7 @@
         <translation>MPlayer %1 in uso</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="178"/>
+        <location filename="../about.cpp" line="179"/>
         <source>Catalan</source>
         <translation>Catalano</translation>
     </message>
@@ -271,6 +271,11 @@
         <location filename="../about.cpp" line="57"/>
         <source>Portable Edition</source>
         <translation>Edizione portabile</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="61"/>
+        <source>Using Qt %1</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1388,42 +1393,42 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
 <context>
     <name>Core</name>
     <message>
-        <location filename="../corelib/core.cpp" line="2071"/>
+        <location filename="../corelib/core.cpp" line="2076"/>
         <source>Brightness: %1</source>
         <translation>Luminosità: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2086"/>
+        <location filename="../corelib/core.cpp" line="2091"/>
         <source>Contrast: %1</source>
         <translation>Contrasto: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2100"/>
+        <location filename="../corelib/core.cpp" line="2105"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2114"/>
+        <location filename="../corelib/core.cpp" line="2119"/>
         <source>Hue: %1</source>
         <translation>Tonalità: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2128"/>
+        <location filename="../corelib/core.cpp" line="2133"/>
         <source>Saturation: %1</source>
         <translation>Saturazione: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2228"/>
+        <location filename="../corelib/core.cpp" line="2233"/>
         <source>Volume: %1</source>
         <translation>Volume: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2978"/>
+        <location filename="../corelib/core.cpp" line="2983"/>
         <source>Zoom: %1</source>
         <translation>Zoom %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2347"/>
+        <location filename="../corelib/core.cpp" line="2352"/>
         <source>Font scale: %1</source>
         <translation>Scalatura carattere: %1</translation>
     </message>
