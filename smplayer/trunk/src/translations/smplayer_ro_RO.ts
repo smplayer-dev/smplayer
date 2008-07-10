@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -275,7 +276,7 @@
     <message>
         <location filename="../about.cpp" line="61"/>
         <source>Using Qt %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Se folosește Qt %1</translation>
     </message>
 </context>
 <context>
@@ -1839,7 +1840,7 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="161"/>
         <source>&amp;Copy link to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Copiere legătură pe clipboard</translation>
     </message>
 </context>
 <context>
@@ -2311,7 +2312,7 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../languages.cpp" line="60"/>
         <source>Scots</source>
-        <translation>Scoțiană soasă (Scots)</translation>
+        <translation>Scoțiană joasă (Scots)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="178"/>
