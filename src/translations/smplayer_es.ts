@@ -275,7 +275,7 @@
     <message>
         <location filename="../about.cpp" line="61"/>
         <source>Using Qt %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Usando Qt %1</translation>
     </message>
 </context>
 <context>
