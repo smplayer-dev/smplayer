@@ -292,7 +292,7 @@ void SMPlayer::showInfo() {
 
 	printf("%s\n", s.toLocal8Bit().data() );
 	qDebug("%s", s.toUtf8().data() );
-	qDebug("Qt v. " QT_VERSION_STR);
+	qDebug("Compiled with Qt v. %s, using %s", QT_VERSION_STR, qVersion());
 
 	qDebug(" * application path: '%s'", Helper::appPath().toUtf8().data());
 	qDebug(" * data path: '%s'", Helper::dataPath().toUtf8().data());
