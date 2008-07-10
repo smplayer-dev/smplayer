@@ -57,7 +57,8 @@ About::About(QWidget * parent, Qt::WindowFlags f)
                 " (" + tr("Portable Edition") + ")" +
 #endif
         "<br>" +
-        tr("Compiled with Qt %1").arg(QT_VERSION_STR) + "<br><br>" +
+        tr("Compiled with Qt %1").arg(QT_VERSION_STR) + "<br>" +
+        tr("Using Qt %1").arg(qVersion()) + "<br><br>" +
 		mplayer_version +
 		tr("Visit our web for updates:") +"<br>"+ 
         link("http://smplayer.berlios.de") + "<br>" + 
@@ -67,7 +68,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
         "<br><br>" +
 		tr("You can support SMPlayer by making a donation.") +" "+
 		//link("https://sourceforge.net/donate/index.php?group_id=185512", tr("More info"))
-		link("http://kde-apps.org/content/donate.php?content=54487",  tr("More info"))
+		link("http://www.qt-apps.org/content/donate.php?content=61041", tr("More info"))
 	);
 
 
