@@ -13,182 +13,182 @@
         <translation>Käännetty Qt %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="92"/>
+        <location filename="../about.cpp" line="93"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
         <translation>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="99"/>
+        <location filename="../about.cpp" line="100"/>
         <source>Some people have helped with their contributions:</source>
         <translation>Jotkut henkilöt ovat auttaneet heidän tuellansa:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="100"/>
+        <location filename="../about.cpp" line="101"/>
         <source>SMPlayer logo</source>
         <translation>SMPlayerin logo</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="101"/>
+        <location filename="../about.cpp" line="102"/>
         <source>file associations for Windows</source>
         <translation>tiedosto sidokset Windowsille</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="102"/>
+        <location filename="../about.cpp" line="103"/>
         <source>manpage for linux</source>
         <translation>ohjesivu Linuxille</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="103"/>
+        <location filename="../about.cpp" line="104"/>
         <source>support for colored console output</source>
         <translation>tuki väritetylle konsolin tulosteelle</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="104"/>
+        <location filename="../about.cpp" line="105"/>
         <source>icon for file associations</source>
         <translation>kuvake tiedosto sidoksille</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="105"/>
+        <location filename="../about.cpp" line="106"/>
         <source>patch for file associations</source>
         <translation>korjaus tiedosto sidoksille</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="142"/>
+        <location filename="../about.cpp" line="143"/>
         <source>The following people have contributed with translations:</source>
         <translation>Seuraavat henkilöt ovat auttaneet käännöksillään:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="143"/>
+        <location filename="../about.cpp" line="144"/>
         <source>German</source>
         <translation>Saksa</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="144"/>
+        <location filename="../about.cpp" line="145"/>
         <source>Slovak</source>
         <translation>Slovakki</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="145"/>
+        <location filename="../about.cpp" line="146"/>
         <source>Italian</source>
         <translation>Italia</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="146"/>
+        <location filename="../about.cpp" line="147"/>
         <source>French</source>
         <translation>Ranska</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="147"/>
+        <location filename="../about.cpp" line="148"/>
         <source>%1, %2 and %3</source>
         <translation>%1, %2 ja %3</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="150"/>
+        <location filename="../about.cpp" line="151"/>
         <source>Simplified-Chinese</source>
         <translation>Yksinkertaistettu kiina</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="151"/>
+        <location filename="../about.cpp" line="152"/>
         <source>Russian</source>
         <translation>Venäjä</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="171"/>
+        <location filename="../about.cpp" line="172"/>
         <source>%1 and %2</source>
         <translation>%1 ja %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="152"/>
+        <location filename="../about.cpp" line="153"/>
         <source>Hungarian</source>
         <translation>Unkari</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="153"/>
+        <location filename="../about.cpp" line="154"/>
         <source>Polish</source>
         <translation>Puola</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="156"/>
+        <location filename="../about.cpp" line="157"/>
         <source>Japanese</source>
         <translation>Japani</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="157"/>
+        <location filename="../about.cpp" line="158"/>
         <source>Dutch</source>
         <translation>Hollanti</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="160"/>
+        <location filename="../about.cpp" line="161"/>
         <source>Ukrainian</source>
         <translation>Ukraina</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="161"/>
+        <location filename="../about.cpp" line="162"/>
         <source>Portuguese - Brazil</source>
         <translation>Brasiljanportugali</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="162"/>
+        <location filename="../about.cpp" line="163"/>
         <source>Georgian</source>
         <translation>Georgia</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="163"/>
+        <location filename="../about.cpp" line="164"/>
         <source>Czech</source>
         <translation>Tsekki</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="164"/>
+        <location filename="../about.cpp" line="165"/>
         <source>Bulgarian</source>
         <translation>Bulgaria</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="165"/>
+        <location filename="../about.cpp" line="166"/>
         <source>Turkish</source>
         <translation>Turkki</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="166"/>
+        <location filename="../about.cpp" line="167"/>
         <source>Swedish</source>
         <translation>Ruotsi</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="167"/>
+        <location filename="../about.cpp" line="168"/>
         <source>Serbian</source>
         <translation>Serbia</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="168"/>
+        <location filename="../about.cpp" line="169"/>
         <source>Traditional Chinese</source>
         <translation>Perinteinen kiina</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="169"/>
+        <location filename="../about.cpp" line="170"/>
         <source>Romanian</source>
         <translation>Romania</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="170"/>
+        <location filename="../about.cpp" line="171"/>
         <source>Portuguese - Portugal</source>
         <translation>Portugali</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="173"/>
+        <location filename="../about.cpp" line="174"/>
         <source>Greek</source>
         <translation>Kreikka</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="174"/>
+        <location filename="../about.cpp" line="175"/>
         <source>Finnish</source>
         <translation>Suomi</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="183"/>
+        <location filename="../about.cpp" line="184"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="192"/>
+        <location filename="../about.cpp" line="193"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -223,37 +223,37 @@
         <translation>&amp;Lisenssi</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="62"/>
+        <location filename="../about.cpp" line="63"/>
         <source>Visit our web for updates:</source>
         <translation>Vieraile sivuillamme hakeaksesi päivityksiä:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="66"/>
+        <location filename="../about.cpp" line="67"/>
         <source>Get help in our forum:</source>
         <translation>Hae apua keskustelupalstaltamme:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="68"/>
+        <location filename="../about.cpp" line="69"/>
         <source>You can support SMPlayer by making a donation.</source>
         <translation>Voit tukea SMPlayeriä lahjoittamalla.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="70"/>
+        <location filename="../about.cpp" line="71"/>
         <source>More info</source>
         <translation>Lisää tietoa</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="175"/>
+        <location filename="../about.cpp" line="176"/>
         <source>Korean</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="176"/>
+        <location filename="../about.cpp" line="177"/>
         <source>Macedonian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="177"/>
+        <location filename="../about.cpp" line="178"/>
         <source>Basque</source>
         <translation type="unfinished"></translation>
     </message>
@@ -263,13 +263,18 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="178"/>
+        <location filename="../about.cpp" line="179"/>
         <source>Catalan</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="57"/>
         <source>Portable Edition</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="61"/>
+        <source>Using Qt %1</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1387,42 +1392,42 @@ Asetus ikkuna näytetäään, että voit tehdä sen.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../corelib/core.cpp" line="2071"/>
+        <location filename="../corelib/core.cpp" line="2076"/>
         <source>Brightness: %1</source>
         <translation>Kirkkaus: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2086"/>
+        <location filename="../corelib/core.cpp" line="2091"/>
         <source>Contrast: %1</source>
         <translation>Kontrasti: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2100"/>
+        <location filename="../corelib/core.cpp" line="2105"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2114"/>
+        <location filename="../corelib/core.cpp" line="2119"/>
         <source>Hue: %1</source>
         <translation>Sävy: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2128"/>
+        <location filename="../corelib/core.cpp" line="2133"/>
         <source>Saturation: %1</source>
         <translation>Kyllästyneisyys: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2228"/>
+        <location filename="../corelib/core.cpp" line="2233"/>
         <source>Volume: %1</source>
         <translation>Volyymi: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2978"/>
+        <location filename="../corelib/core.cpp" line="2983"/>
         <source>Zoom: %1</source>
         <translation>Zoomaus: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2347"/>
+        <location filename="../corelib/core.cpp" line="2352"/>
         <source>Font scale: %1</source>
         <translation type="unfinished"></translation>
     </message>
