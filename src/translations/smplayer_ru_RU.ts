@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -275,7 +276,7 @@
     <message>
         <location filename="../about.cpp" line="61"/>
         <source>Using Qt %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Используется Qt %1</translation>
     </message>
 </context>
 <context>
@@ -1842,7 +1843,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="161"/>
         <source>&amp;Copy link to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Копировать ссылку в буфер обмена</translation>
     </message>
 </context>
 <context>
