@@ -257,11 +257,15 @@ void FindSubtitlesDialog::parseInfo(QByteArray xml_text) {
 
 			QStandardItem * i_name = new QStandardItem(title_name);
 			i_name->setData( l[n].link );
+			#if QT_VERSION < 0x040400
 			i_name->setToolTip( l[n].link );
+			#endif
 
 			QStandardItem * i_lang = new QStandardItem(l[n].language);
 			i_lang->setData(l[n].iso639, Qt::UserRole);
+			#if QT_VERSION < 0x040400
 			i_lang->setToolTip(l[n].iso639);
+			#endif
 			if (language_list.contains(l[n].iso639)) {
 				i_lang->setText( language_list[ l[n].iso639 ] );
 			}

@@ -145,7 +145,11 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 
 	logo = new QLabel( mplayerlayer );
 	logo->setAutoFillBackground(TRUE);
-	logo->setAttribute(Qt::WA_PaintOnScreen); // Otherwise the logo is not visible in Qt 4.4
+#if QT_VERSION >= 0x040400
+	logo->setAttribute(Qt::WA_NativeWindow); // Otherwise the logo is not visible in Qt 4.4
+#else
+	logo->setAttribute(Qt::WA_PaintOnScreen); // Fixes the problem if compiled with Qt < 4.4
+#endif
 	Helper::setBackgroundColor( logo, QColor(0,0,0) );
 
 	QVBoxLayout * mplayerlayerLayout = new QVBoxLayout( mplayerlayer );
