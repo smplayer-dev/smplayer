@@ -3016,169 +3016,169 @@ Valóban felül akarja írni?</translation>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="275"/>
+        <location filename="../playlist.cpp" line="276"/>
         <source>Name</source>
         <translation>Név</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="275"/>
+        <location filename="../playlist.cpp" line="276"/>
         <source>Length</source>
         <translation>Hossz</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="669"/>
+        <location filename="../playlist.cpp" line="670"/>
         <source>Choose a file</source>
         <translation>Válasszon egy fájlt</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="687"/>
+        <location filename="../playlist.cpp" line="688"/>
         <source>Choose a filename</source>
         <translation>Válasszon egy fájlnevet</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="698"/>
+        <location filename="../playlist.cpp" line="699"/>
         <source>Confirm overwrite?</source>
         <translation>Valóban felülírja?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="875"/>
+        <location filename="../playlist.cpp" line="879"/>
         <source>Select one or more files to open</source>
         <translation>Válasszon ki egy vagy több megnyitandó fájlt</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="929"/>
+        <location filename="../playlist.cpp" line="933"/>
         <source>Choose a directory</source>
         <translation>Válasszon egy könyvtárat</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="700"/>
+        <location filename="../playlist.cpp" line="701"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>%1 fájl már létezik.
 Valóban felül akarja írni?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1117"/>
+        <location filename="../playlist.cpp" line="1121"/>
         <source>Edit name</source>
         <translation>Név szerkesztése</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1118"/>
+        <location filename="../playlist.cpp" line="1122"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Írjon be egy nevet ami a lejátszási listában meg lesz jelenítve ehhez a fájlhoz:</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="280"/>
+        <location filename="../playlist.cpp" line="281"/>
         <source>&amp;Play</source>
         <translation>&amp;Lejátszás</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="313"/>
+        <location filename="../playlist.cpp" line="314"/>
         <source>&amp;Edit</source>
         <translation>&amp;Szerkesztés</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="689"/>
+        <location filename="../playlist.cpp" line="690"/>
         <source>Playlists</source>
         <translation>Lejátszási listák</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="877"/>
+        <location filename="../playlist.cpp" line="881"/>
         <source>All files</source>
         <translation>Minden fájl</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="277"/>
+        <location filename="../playlist.cpp" line="278"/>
         <source>&amp;Load</source>
         <translation>&amp;Betöltés</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="278"/>
+        <location filename="../playlist.cpp" line="279"/>
         <source>&amp;Save</source>
         <translation>&amp;Mentés</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="282"/>
+        <location filename="../playlist.cpp" line="283"/>
         <source>&amp;Next</source>
         <translation>&amp;Következő</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="283"/>
+        <location filename="../playlist.cpp" line="284"/>
         <source>Pre&amp;vious</source>
         <translation>&amp;Előző</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="295"/>
+        <location filename="../playlist.cpp" line="296"/>
         <source>Move &amp;up</source>
         <translation>Mozgatás &amp;felfelé</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="296"/>
+        <location filename="../playlist.cpp" line="297"/>
         <source>Move &amp;down</source>
         <translation>Mozgatás &amp;lefelé</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="298"/>
+        <location filename="../playlist.cpp" line="299"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Ismétlés</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="299"/>
+        <location filename="../playlist.cpp" line="300"/>
         <source>S&amp;huffle</source>
         <translation>K&amp;everés</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="304"/>
+        <location filename="../playlist.cpp" line="305"/>
         <source>Add &amp;current file</source>
         <translation>&amp;Jelenlegi fájl hozzáadása</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="305"/>
+        <location filename="../playlist.cpp" line="306"/>
         <source>Add &amp;file(s)</source>
         <translation>Fájl(ok) &amp;hozzáadása</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="306"/>
+        <location filename="../playlist.cpp" line="307"/>
         <source>Add &amp;directory</source>
         <translation>&amp;Könyvtár hozzáadása</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="309"/>
+        <location filename="../playlist.cpp" line="310"/>
         <source>Remove &amp;selected</source>
         <translation>Ki&amp;választott eltávolítása</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="310"/>
+        <location filename="../playlist.cpp" line="311"/>
         <source>Remove &amp;all</source>
         <translation>&amp;Mind eltávolítása</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="323"/>
+        <location filename="../playlist.cpp" line="324"/>
         <source>SMPlayer - Playlist</source>
         <translation>SMPlayer - Lejátszási lista</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="317"/>
+        <location filename="../playlist.cpp" line="318"/>
         <source>Add...</source>
         <translation>Hozzáadás...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="319"/>
+        <location filename="../playlist.cpp" line="320"/>
         <source>Remove...</source>
         <translation>Eltávolítás...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="724"/>
+        <location filename="../playlist.cpp" line="725"/>
         <source>Playlist modified</source>
         <translation>Lejátszási lista módosítva</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="725"/>
+        <location filename="../playlist.cpp" line="726"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Vannak el nem mentett változások, el akarja menteni a listát?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="301"/>
+        <location filename="../playlist.cpp" line="302"/>
         <source>Preferences</source>
         <translation>Beállítások</translation>
     </message>
@@ -3196,7 +3196,7 @@ Valóban felül akarja írni?</translation>
         <translation>Ha bejelöli, akkor egy könyvtár hozzáadásakor az alkönyvtárakban található fájlok is hozzá lesznek adva. Máskülönben csak a kijelölt könyvtárban lévő fájlok lesznek hozzáadva.</translation>
     </message>
     <message>
-        <location filename="../playlistpreferences.ui" line="28"/>
+        <location filename="../playlistpreferences.ui" line="35"/>
         <source>&amp;Add files in directories recursively</source>
         <translation>&amp;Fájlok rekurzív hozzáadása könyvtárakból</translation>
     </message>
@@ -3206,14 +3206,19 @@ Valóban felül akarja írni?</translation>
         <translation>Jelölje be a fájl információk olvasásához hozzáadáskor. Ezzel megjeleníthető a cím (ha elérhető) és a fájlok hossza. Máskülönben ez az információ nem lesz elérhető a fájl lejátszásáig. Figyelem: ez az opció lassulást okozhat, különösen sok fájl hozzáadásakor.</translation>
     </message>
     <message>
-        <location filename="../playlistpreferences.ui" line="35"/>
+        <location filename="../playlistpreferences.ui" line="42"/>
         <source>Automatically get &amp;info about files added</source>
         <translation>Automatikos &amp;infó kérés a hozzáadott fájlokról</translation>
     </message>
     <message>
-        <location filename="../playlistpreferences.ui" line="42"/>
+        <location filename="../playlistpreferences.ui" line="49"/>
         <source>&amp;Save copy of playlist on exit</source>
         <translation>&amp;Lejátszási lista mentése kilépéskor</translation>
+    </message>
+    <message>
+        <location filename="../playlistpreferences.ui" line="28"/>
+        <source>&amp;Play files from start</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

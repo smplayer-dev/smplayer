@@ -3012,169 +3012,169 @@ Vuoi sovrascriverlo?</translation>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="275"/>
+        <location filename="../playlist.cpp" line="276"/>
         <source>Name</source>
         <translation>Nome</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="275"/>
+        <location filename="../playlist.cpp" line="276"/>
         <source>Length</source>
         <translation>Durata</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="669"/>
+        <location filename="../playlist.cpp" line="670"/>
         <source>Choose a file</source>
         <translation>Scegli un file</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="687"/>
+        <location filename="../playlist.cpp" line="688"/>
         <source>Choose a filename</source>
         <translation>Scegli il nome del file</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="698"/>
+        <location filename="../playlist.cpp" line="699"/>
         <source>Confirm overwrite?</source>
         <translation>Confermi sovrascrittura?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="875"/>
+        <location filename="../playlist.cpp" line="879"/>
         <source>Select one or more files to open</source>
         <translation>Selezionare uno o più file da aprire</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="929"/>
+        <location filename="../playlist.cpp" line="933"/>
         <source>Choose a directory</source>
         <translation>Scegli una cartella</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="700"/>
+        <location filename="../playlist.cpp" line="701"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Il file  %1 esiste già.
 Vuoi sovrascriverlo?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1117"/>
+        <location filename="../playlist.cpp" line="1121"/>
         <source>Edit name</source>
         <translation>Modifica nome</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1118"/>
+        <location filename="../playlist.cpp" line="1122"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Inserisci il nome per questo file che sarà visualizzato nella lista di riproduzione:</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="280"/>
+        <location filename="../playlist.cpp" line="281"/>
         <source>&amp;Play</source>
         <translation>&amp;Riproduci</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="313"/>
+        <location filename="../playlist.cpp" line="314"/>
         <source>&amp;Edit</source>
         <translation>&amp;Modifica</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="689"/>
+        <location filename="../playlist.cpp" line="690"/>
         <source>Playlists</source>
         <translation>Liste di riproduzione</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="877"/>
+        <location filename="../playlist.cpp" line="881"/>
         <source>All files</source>
         <translation>Tutti i file</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="277"/>
+        <location filename="../playlist.cpp" line="278"/>
         <source>&amp;Load</source>
         <translation>&amp;Apri</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="278"/>
+        <location filename="../playlist.cpp" line="279"/>
         <source>&amp;Save</source>
         <translation>&amp;Salva</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="282"/>
+        <location filename="../playlist.cpp" line="283"/>
         <source>&amp;Next</source>
         <translation>&amp;Prossimo</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="283"/>
+        <location filename="../playlist.cpp" line="284"/>
         <source>Pre&amp;vious</source>
         <translation>P&amp;recedente</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="295"/>
+        <location filename="../playlist.cpp" line="296"/>
         <source>Move &amp;up</source>
         <translation>Manda &amp;su</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="296"/>
+        <location filename="../playlist.cpp" line="297"/>
         <source>Move &amp;down</source>
         <translation>Manda &amp;giù</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="298"/>
+        <location filename="../playlist.cpp" line="299"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Ripeti</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="299"/>
+        <location filename="../playlist.cpp" line="300"/>
         <source>S&amp;huffle</source>
         <translation>Riproduzione &amp;Casuale</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="304"/>
+        <location filename="../playlist.cpp" line="305"/>
         <source>Add &amp;current file</source>
         <translation>Aggiungi il file &amp;corrente</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="305"/>
+        <location filename="../playlist.cpp" line="306"/>
         <source>Add &amp;file(s)</source>
         <translation>Aggiungi &amp;file(s)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="306"/>
+        <location filename="../playlist.cpp" line="307"/>
         <source>Add &amp;directory</source>
         <translation>Aggiungic&amp;artella</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="309"/>
+        <location filename="../playlist.cpp" line="310"/>
         <source>Remove &amp;selected</source>
         <translation>R&amp;imuovi selezionati</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="310"/>
+        <location filename="../playlist.cpp" line="311"/>
         <source>Remove &amp;all</source>
         <translation>Ri&amp;muovi tutti</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="323"/>
+        <location filename="../playlist.cpp" line="324"/>
         <source>SMPlayer - Playlist</source>
         <translation>SMPlayer - Lista di riproduzione</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="317"/>
+        <location filename="../playlist.cpp" line="318"/>
         <source>Add...</source>
         <translation>Aggiungi...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="319"/>
+        <location filename="../playlist.cpp" line="320"/>
         <source>Remove...</source>
         <translation>Rimuovi...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="724"/>
+        <location filename="../playlist.cpp" line="725"/>
         <source>Playlist modified</source>
         <translation>Lista di riproduzione modificata</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="725"/>
+        <location filename="../playlist.cpp" line="726"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Ci sono modifiche non salvate. Vuoi salvare la lista di riproduzione?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="301"/>
+        <location filename="../playlist.cpp" line="302"/>
         <source>Preferences</source>
         <translation>Preferenze</translation>
     </message>
@@ -3192,7 +3192,7 @@ Vuoi sovrascriverlo?</translation>
         <translation>Selezionare questa opzione se si vuole che, aggiungendo una cartella, vengano aggiunti ricorsivamente anche i file presenti nelle sottocartelle. Altrimenti solo i file presenti nella cartella saranno aggiunti.</translation>
     </message>
     <message>
-        <location filename="../playlistpreferences.ui" line="28"/>
+        <location filename="../playlistpreferences.ui" line="35"/>
         <source>&amp;Add files in directories recursively</source>
         <translation>&amp;Aggiungi ricorsivamente i file nelle cartelle</translation>
     </message>
@@ -3202,14 +3202,19 @@ Vuoi sovrascriverlo?</translation>
         <translation>Selezionare questa opzione per estrarre alcune informazioni dai file aggiunti alla lista di riproduzione. Questo permette di visualizzare il titolo (se disponibile) e la lunghezza dei file, altrimenti le stesse informazioni non saranno disponibili fino al momento dell&apos;effettiva riproduzione dei file stessi. Attenzione: questa opzione può rivelarsi molto lenta, soprattutto aggiungendo molti file.</translation>
     </message>
     <message>
-        <location filename="../playlistpreferences.ui" line="35"/>
+        <location filename="../playlistpreferences.ui" line="42"/>
         <source>Automatically get &amp;info about files added</source>
         <translation>Estrarre automaticamente &amp;informazioni dai file aggiunti </translation>
     </message>
     <message>
-        <location filename="../playlistpreferences.ui" line="42"/>
+        <location filename="../playlistpreferences.ui" line="49"/>
         <source>&amp;Save copy of playlist on exit</source>
         <translation>&amp;Salva una copia della lista di riproduzione in uscita</translation>
+    </message>
+    <message>
+        <location filename="../playlistpreferences.ui" line="28"/>
+        <source>&amp;Play files from start</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
