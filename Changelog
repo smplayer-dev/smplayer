@@ -1,5 +1,10 @@
 [b]Version 0.6.2[/b]:
 
+(2008-07-12)
+ * Added a new option for command line: -sub. It specifies a subtitle file
+   to be loaded for the first video. It requires at least a file to play
+   in the command line, otherwise the option will be ignored.
+
 (2008-07-09)
  * Now the initialization of the audio track should work ok again, even if
    the option "Fast audio track switching" is set to "No".

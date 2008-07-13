@@ -86,12 +86,14 @@ QString CLHelp::help(bool html) {
 	QString options = QString("%1 [-minigui] [-defaultgui] [-ini-path %2] "
                         "[-send-action %3] [-actions %4] "
                         "[-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] "
+                        "[-sub %5] "
                         "[-add-to-playlist] [-help|--help|-h|-?] "
-                        "[[-playlist] %5] [[-playlist] %5]...")
+                        "[[-playlist] %6] [[-playlist] %6]...")
                         .arg(app_name)
                         .arg(QObject::tr("directory"))
                         .arg(QObject::tr("action_name"))
                         .arg(QObject::tr("action_list"))
+                        .arg(QObject::tr("subtitle_file"))
                         .arg(QObject::tr("media"));
 
 	QString s;
@@ -144,6 +146,9 @@ QString CLHelp::help(bool html) {
 
 	s += formatHelp( "-no-fullscreen", QObject::tr(
 		"the video will be played in window mode."), html );
+
+	s += formatHelp( "-sub", QObject::tr(
+		"specifies the subtitle file to be loaded for the first video."), html );
 
 	s += formatHelp( "-help", QObject::tr(
 		"will show this message and then will exit."), html );

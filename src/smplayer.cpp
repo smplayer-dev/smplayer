@@ -135,6 +135,16 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 			}
 		}
 		else
+		if (argument == "-sub") {
+			if (n+1 < args.count()) {
+				n++;
+				subtitle_file = args[n];
+			} else {
+				printf("Error: expected parameter for -sub\r\n");
+				return ErrorArgument;
+			}
+		}
+		else
 		if (argument == "-playlist") {
 			is_playlist = true;
 		}
@@ -255,7 +265,10 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 
 void SMPlayer::start() {
 	if (!gui()->startHidden() || !files_to_play.isEmpty() ) gui()->show();
-	if (!files_to_play.isEmpty()) gui()->openFiles(files_to_play);
+	if (!files_to_play.isEmpty()) {
+		if (!subtitle_file.isEmpty()) gui()->setInitialSubtitle(subtitle_file);
+		gui()->openFiles(files_to_play);
+	}
 
 	if (!actions_list.isEmpty()) gui()->runActions(actions_list);
 }

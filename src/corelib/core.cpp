@@ -1345,6 +1345,10 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( QString::number( mset.current_audio_id ) );
 	}
 
+	if (!initial_subtitle.isEmpty()) {
+		mset.external_subtitles = initial_subtitle;
+		initial_subtitle = "";
+	}
 	if (!mset.external_subtitles.isEmpty()) {
 		if (QFileInfo(mset.external_subtitles).suffix().toLower()=="idx") {
 			// sub/idx subtitles
