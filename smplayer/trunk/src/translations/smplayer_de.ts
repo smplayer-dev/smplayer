@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -3225,7 +3226,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlistpreferences.ui" line="28"/>
         <source>&amp;Play files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Wiedergabe der Dateien von Anfang an</translation>
     </message>
 </context>
 <context>
@@ -5833,12 +5834,12 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../clhelp.cpp" line="96"/>
         <source>subtitle_file</source>
-        <translation type="unfinished"></translation>
+        <translation>Untertitel_Datei</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="151"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
-        <translation type="unfinished"></translation>
+        <translation>Spezifiziert die zu ladende Untertiteldatei für das erste Video.</translation>
     </message>
 </context>
 <context>
