@@ -1348,6 +1348,7 @@ void Core::startMplayer( QString file, double seek ) {
 	if (!initial_subtitle.isEmpty()) {
 		mset.external_subtitles = initial_subtitle;
 		initial_subtitle = "";
+		just_loaded_external_subs = true; // Big ugly hack :(
 	}
 	if (!mset.external_subtitles.isEmpty()) {
 		if (QFileInfo(mset.external_subtitles).suffix().toLower()=="idx") {
