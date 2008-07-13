@@ -189,6 +189,7 @@ QMap<QString,QString> Languages::translations() {
 	m["ro_RO"] = tr("Romanian");
 	m["ru_RU"] = tr("Russian");
 	m["sk"] = tr("Slovak");
+	m["sl_SI"] = tr("Slovenian");
 	m["sr"] = tr("Serbian");
 	m["sv"] = tr("Swedish");
 	m["tr"] = tr("Turkish");
