@@ -2823,6 +2823,10 @@ void BaseGui::loadSub() {
 	if (!s.isEmpty()) core->loadSub(s);
 }
 
+void BaseGui::setInitialSubtitle(const QString & subtitle_file) {
+	core->setInitialSubtitle(subtitle_file);
+}
+
 void BaseGui::loadAudioFile() {
 	qDebug("BaseGui::loadAudioFile");
 

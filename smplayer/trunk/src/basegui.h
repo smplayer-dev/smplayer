@@ -91,6 +91,8 @@ public slots:
     virtual void loadSub();
 	virtual void loadAudioFile(); // Load external audio file
 
+	void setInitialSubtitle(const QString & subtitle_file);
+
 	virtual void showFindSubtitlesDialog();
 	virtual void openUploadSubtitlesPage(); //turbos
 

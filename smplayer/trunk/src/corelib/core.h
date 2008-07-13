@@ -78,6 +78,10 @@ public slots:
 	void loadSub(const QString & sub);
 	void unloadSub();
 
+	//! Forces to use the specified subtitle file. It's not loaded immediately but stored
+	//! and will be used for the next video. After that the variable is cleared.  
+	void setInitialSubtitle(const QString & subtitle_file) { initial_subtitle = subtitle_file; };
+
 	void loadAudioFile(const QString & audiofile);
 	void unloadAudioFile();
 
@@ -351,6 +355,8 @@ private:
 	bool just_unloaded_external_subs;
 	State _state;
 	bool change_volume_after_unpause;
+
+	QString initial_subtitle;
 };
     
 #endif
