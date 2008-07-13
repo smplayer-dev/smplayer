@@ -894,7 +894,7 @@ Nadpisać go?</translation>
         <translation>Wideo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2835"/>
+        <location filename="../basegui.cpp" line="2839"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
@@ -904,12 +904,12 @@ Nadpisać go?</translation>
         <translation>Listy odtwarzania</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2836"/>
+        <location filename="../basegui.cpp" line="2840"/>
         <source>All files</source>
         <translation>Wszystkie pliki</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2833"/>
+        <location filename="../basegui.cpp" line="2837"/>
         <source>Choose a file</source>
         <translation>Wybierz plik</translation>
     </message>
@@ -936,22 +936,22 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
         <translation>Napisy</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2862"/>
+        <location filename="../basegui.cpp" line="2866"/>
         <source>About Qt</source>
         <translation>O... Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3233"/>
+        <location filename="../basegui.cpp" line="3237"/>
         <source>Playing %1</source>
         <translation>Odtwarzanie %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3234"/>
+        <location filename="../basegui.cpp" line="3238"/>
         <source>Pause</source>
         <translation>Pauza</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3235"/>
+        <location filename="../basegui.cpp" line="3239"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
@@ -1242,7 +1242,7 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
         <translation>&amp;Opcje wiersza poleceń</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2851"/>
+        <location filename="../basegui.cpp" line="2855"/>
         <source>SMPlayer command line options</source>
         <translation>Opcje wiersza poleceń SMPlayera</translation>
     </message>
@@ -1262,32 +1262,32 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
         <translation>Resetuj korektor wideo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3665"/>
+        <location filename="../basegui.cpp" line="3669"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer nieoczekiwanie zakończył pracę.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3666"/>
+        <location filename="../basegui.cpp" line="3670"/>
         <source>Exit code: %1</source>
         <translation>Kod wyjścia: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3676"/>
+        <location filename="../basegui.cpp" line="3680"/>
         <source>MPlayer failed to start.</source>
         <translation>Błąd uruchomienia MPlayera.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3677"/>
+        <location filename="../basegui.cpp" line="3681"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Proszę sprawdź w ustawieniach ścieżkę do programu Mplayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3679"/>
+        <location filename="../basegui.cpp" line="3683"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer uległ uszkodzeniu.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3680"/>
+        <location filename="../basegui.cpp" line="3684"/>
         <source>See the log for more info.</source>
         <translation>Więcej informacji-zobacz log.</translation>
     </message>
@@ -1398,42 +1398,42 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../corelib/core.cpp" line="2076"/>
+        <location filename="../corelib/core.cpp" line="2080"/>
         <source>Brightness: %1</source>
         <translation>Jasność: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2091"/>
+        <location filename="../corelib/core.cpp" line="2095"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2105"/>
+        <location filename="../corelib/core.cpp" line="2109"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2119"/>
+        <location filename="../corelib/core.cpp" line="2123"/>
         <source>Hue: %1</source>
         <translation>Odcień: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2133"/>
+        <location filename="../corelib/core.cpp" line="2137"/>
         <source>Saturation: %1</source>
         <translation>Nasycenie: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2233"/>
+        <location filename="../corelib/core.cpp" line="2237"/>
         <source>Volume: %1</source>
         <translation>Głośność: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2983"/>
+        <location filename="../corelib/core.cpp" line="2987"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2352"/>
+        <location filename="../corelib/core.cpp" line="2356"/>
         <source>Font scale: %1</source>
         <translation>Skala czcionki: %1</translation>
     </message>
@@ -1791,12 +1791,12 @@ Przykład: resample=44100:0:0,volnorm</translation>
         <translation>Wykonano.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="277"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="281"/>
         <source>%1 files available</source>
         <translation>%1 dostępnych plików</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="286"/>
+        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="290"/>
         <source>Failed to parse the received data.</source>
         <translation>Błąd analizy przyjętych danych.</translation>
     </message>
@@ -5718,57 +5718,57 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>%1 minut i 1 sekunda</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="149"/>
+        <location filename="../clhelp.cpp" line="154"/>
         <source>will show this message and then will exit.</source>
         <translation>pokaże się ta wiadomość a następnie zostanie zamknięty.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="137"/>
+        <location filename="../clhelp.cpp" line="139"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>okno główne zostanie zamknięte, gdy zakończy się plik/lista odtwarzania.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="281"/>
+        <location filename="../smplayer.cpp" line="294"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>To jest SMPlayer v. %1 uruchomiony na %2</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="126"/>
+        <location filename="../clhelp.cpp" line="128"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
         <translation>próby wykonania połączenia z inną uruchomioną kopią programu i wysłania do niej określonej operacji. Na przykład: -action pause. Reszta opcji (jeśli są) będą ignorowane i program zostanie zamknięty. Będzie zwracać 0 w przypadku powodzenia lub -1 przy niepowodzeniu.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="134"/>
+        <location filename="../clhelp.cpp" line="136"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
         <translation>action_list to lista poleceń oddzielonych spacją. Polecenia będą po prostu wykonywane po załadowaniu pliku (jeśli jest), we wpisanej wcześniej kolejności. Dla skontrolowanych poleceń możesz pominąć prawdę lub fałsz jako parametr. Na przykład: -actions &quot;fullscreen compact true&quot;. Cudzysłowy są niezbędne w przypadku pominięcia więcej niż jednego polecenia.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="157"/>
+        <location filename="../clhelp.cpp" line="162"/>
         <source>media</source>
         <translation>media</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="155"/>
+        <location filename="../clhelp.cpp" line="160"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>jeśli uruchomiona jest inna kopia programu, media zostaną dodane do jej listy odtwarzania. Jeśli nie ma innej kopii programu, opcja ta jest ignorowana i pliki zostaną otwarte w nowej kopii programu.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="119"/>
+        <location filename="../clhelp.cpp" line="121"/>
         <source>specifies the directory for the configuration file (smplayer.ini).</source>
         <translation>określa katalog dla pliku konfiguracyjnego (smplayer.ini).</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="140"/>
+        <location filename="../clhelp.cpp" line="142"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation>gdy zakończy się plik/lista odtwarzania okno główne nie zostanie zamknięte.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="143"/>
+        <location filename="../clhelp.cpp" line="145"/>
         <source>the video will be played in fullscreen mode.</source>
         <translation>wideo będzie odtwarzane w trybie pełnego ekranu.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="146"/>
+        <location filename="../clhelp.cpp" line="148"/>
         <source>the video will be played in window mode.</source>
         <translation>wideo będzie odtwarzane w trybie wyświetlania obrazu w oknie.</translation>
     </message>
@@ -5778,44 +5778,54 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>Kolejkuj w SMPlayer</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="112"/>
+        <location filename="../clhelp.cpp" line="114"/>
         <source>opens the mini gui instead of the default one.</source>
         <translation>otwórz mini gui zamiast domyślnego.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="109"/>
+        <location filename="../clhelp.cpp" line="111"/>
         <source>Restores the old associations and cleans up the registry.</source>
         <translation>Przywróć poprzednie skojarzenia i wyczyść rejestr.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="163"/>
+        <location filename="../clhelp.cpp" line="168"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation>&apos;media&apos; to każdy plik, który SMPlayer jest w stanie otworzyć. Może to być plik lokalny, DVD (n.p. dvd://1), strumień internetowy (n.p. mms://1) lub lista odtwarzania w formacie m3u lub pls. Jeśli opcja -playlist jest użyta, oznacza to, że SMPlayer przeniesie opcję -playlist do MPlayera, więc MPlayer obsłuży listę odtwarzania.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="103"/>
+        <location filename="../clhelp.cpp" line="105"/>
         <source>Usage:</source>
         <translation>Użycie:</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="92"/>
+        <location filename="../clhelp.cpp" line="93"/>
         <source>directory</source>
         <translation>katalog</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="93"/>
+        <location filename="../clhelp.cpp" line="94"/>
         <source>action_name</source>
         <translation>nazwa_działania</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="94"/>
+        <location filename="../clhelp.cpp" line="95"/>
         <source>action_list</source>
         <translation>lista_działań</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="115"/>
+        <location filename="../clhelp.cpp" line="117"/>
         <source>opens the default gui.</source>
         <translation>otwórz domyślne gui.</translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="96"/>
+        <source>subtitle_file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="151"/>
+        <source>specifies the subtitle file to be loaded for the first video.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
