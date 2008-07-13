@@ -3223,7 +3223,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlistpreferences.ui" line="28"/>
         <source>&amp;Play files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Reproducir ficheros desde el principio</translation>
     </message>
 </context>
 <context>
