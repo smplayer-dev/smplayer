@@ -78,6 +78,7 @@ Playlist::Playlist( Core *c, QWidget * parent, Qt::WindowFlags f)
 #else
 	automatically_get_info = true;
 #endif
+	play_files_from_start = true;
 
 	modified = false;
 
@@ -780,7 +781,10 @@ void Playlist::playItem( int n ) {
 	if (!filename.isEmpty()) {
 		//pl[n].setPlayed(TRUE);
 		setCurrentItem(n);
-		core->open(filename, 0);
+		if (play_files_from_start) 
+			core->open(filename, 0);
+		else
+			core->open(filename);
 	}
 
 }
@@ -1136,11 +1140,13 @@ void Playlist::editPreferences() {
 	d.setDirectoryRecursion(recursive_add_directory);
 	d.setAutoGetInfo(automatically_get_info);
 	d.setSavePlaylistOnExit(save_playlist_in_config);
+	d.setPlayFilesFromStart(play_files_from_start);
 
 	if (d.exec() == QDialog::Accepted) {
 		recursive_add_directory = d.directoryRecursion();
 		automatically_get_info = d.autoGetInfo();
 		save_playlist_in_config = d.savePlaylistOnExit();
+		play_files_from_start = d.playFilesFromStart();
 	}
 }
 
@@ -1223,6 +1229,7 @@ void Playlist::saveSettings() {
 	set->setValue( "auto_get_info", automatically_get_info );
 	set->setValue( "recursive_add_directory", recursive_add_directory );
 	set->setValue( "save_playlist_in_config", save_playlist_in_config );
+	set->setValue( "play_files_from_start", play_files_from_start );
 
 #if !DOCK_PLAYLIST
 	set->setValue( "size", size() );
@@ -1261,6 +1268,7 @@ void Playlist::loadSettings() {
 	automatically_get_info = set->value( "auto_get_info", automatically_get_info ).toBool();
 	recursive_add_directory = set->value( "recursive_add_directory", recursive_add_directory ).toBool();
 	save_playlist_in_config = set->value( "save_playlist_in_config", save_playlist_in_config ).toBool();
+	play_files_from_start = set->value( "play_files_from_start", play_files_from_start ).toBool();
 
 #if !DOCK_PLAYLIST
 	resize( set->value("size", size()).toSize() );

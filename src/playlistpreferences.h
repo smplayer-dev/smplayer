@@ -38,6 +38,9 @@ public:
 	void setSavePlaylistOnExit(bool b);
 	bool savePlaylistOnExit();
 
+	void setPlayFilesFromStart(bool b);
+	bool playFilesFromStart();
+
 	virtual QSize sizeHint () const;
 };
 

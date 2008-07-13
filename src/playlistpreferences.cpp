@@ -66,6 +66,14 @@ bool PlaylistPreferences::savePlaylistOnExit() {
 	return autosave_on_exit_check->isChecked();
 }
 
+void PlaylistPreferences::setPlayFilesFromStart(bool b) {
+	play_from_start_check->setChecked(b);
+}
+
+bool PlaylistPreferences::playFilesFromStart() {
+	return play_from_start_check->isChecked();
+}
+
 QSize PlaylistPreferences::sizeHint () const {
 	return QSize(580,200);
 }

@@ -4,6 +4,10 @@
  * Added a new option for command line: -sub. It specifies a subtitle file
    to be loaded for the first video. It requires at least a file to play
    in the command line, otherwise the option will be ignored.
+ * Added a new option "Play files from start" in the playlist preferences.
+   If enabled (the default) files in the playlist will begin to play from
+   the beginning, otherwise they'll play from the position they were last
+   time you played them.
 
 (2008-07-09)
  * Now the initialization of the audio track should work ok again, even if
