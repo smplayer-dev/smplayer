@@ -952,7 +952,7 @@ void Core::play_or_pause() {
 }
 
 void Core::frameStep() {
-	qDebug("Core::franeStep");
+	qDebug("Core::frameStep");
 
 	if (proc->isRunning()) {
 		tellmp("frame_step");
@@ -2824,7 +2824,9 @@ void Core::changeAspectRatio( int ID ) {
 		mplayerwindow->setAspect( asp );
 	} else {
 		// Using mplayer own window
-		tellmp("switch_ratio " + QString::number(asp));
+		if (!mdat.novideo) {
+			tellmp("switch_ratio " + QString::number(asp));
+		}
 	}
 }
 

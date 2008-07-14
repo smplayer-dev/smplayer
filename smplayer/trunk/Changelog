@@ -3,6 +3,8 @@
 (2008-07-13)
  * Another fix for Qt 4.4. Dragging files to the playlist didn't work.
  * Added the Slovenian translation, by Janez Troha <janez.troha@gmail.com>.
+ * Fix: mplayer crashed when trying to play audio files if the option to
+   run mplayer in its own window was enabled. Now I hope this is fixed.
  
 (2008-07-12)
  * Added a new option for command line: -sub. It specifies a subtitle file
