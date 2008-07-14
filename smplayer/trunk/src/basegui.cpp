@@ -2824,6 +2824,8 @@ void BaseGui::loadSub() {
 }
 
 void BaseGui::setInitialSubtitle(const QString & subtitle_file) {
+	qDebug("BaseGui::setInitialSubtitle: '%s'", subtitle_file.toUtf8().constData());
+
 	core->setInitialSubtitle(subtitle_file);
 }
 
