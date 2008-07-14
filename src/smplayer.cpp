@@ -138,7 +138,12 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 		if (argument == "-sub") {
 			if (n+1 < args.count()) {
 				n++;
-				subtitle_file = args[n];
+				QString file = args[n];
+				if (QFile::exists(file)) {
+					subtitle_file = QFileInfo(file).absoluteFilePath();
+				} else {
+					printf("Error: file '%s' doesn't exists\r\n", file.toUtf8().constData());
+				}
 			} else {
 				printf("Error: expected parameter for -sub\r\n");
 				return ErrorArgument;
