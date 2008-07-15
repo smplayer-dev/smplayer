@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -3218,12 +3219,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlistpreferences.ui" line="49"/>
         <source>&amp;Save copy of playlist on exit</source>
-        <translation>&amp;Сохранять копию списка воспроизведения при выходе</translation>
+        <translation>Сохранять &amp;копию списка воспроизведения при выходе</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="28"/>
         <source>&amp;Play files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Воспроизводить файлы при запуске</translation>
     </message>
 </context>
 <context>
@@ -5825,12 +5826,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="96"/>
         <source>subtitle_file</source>
-        <translation type="unfinished"></translation>
+        <translation>файл_субтитров</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="151"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
-        <translation type="unfinished"></translation>
+        <translation>Указывает файл субтитров, который будет загружен для первого видеофайла.</translation>
     </message>
 </context>
 <context>
