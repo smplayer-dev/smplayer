@@ -280,7 +280,7 @@
     <message>
         <location filename="../about.cpp" line="61"/>
         <source>Using Qt %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Usando Qt %1</translation>
     </message>
 </context>
 <context>
@@ -3431,7 +3431,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../playlistpreferences.ui" line="28"/>
         <source>&amp;Play files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>Reproduzir ficheiros do &amp;Início</translation>
     </message>
 </context>
 <context>
@@ -6265,12 +6265,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="96"/>
         <source>subtitle_file</source>
-        <translation type="unfinished"></translation>
+        <translation>ficheiro de legendas</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="151"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
-        <translation type="unfinished"></translation>
+        <translation>especifica o ficheiro de legendas a ser carregado para o primeiro vídeo.</translation>
     </message>
 </context>
 <context>
