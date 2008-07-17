@@ -6,7 +6,7 @@
     <message>
         <location filename="../about.cpp" line="55"/>
         <source>Version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Verzija: %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="60"/>
@@ -186,27 +186,27 @@
     <message>
         <location filename="../about.cpp" line="184"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="193"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
     <message>
         <location filename="../about.ui" line="13"/>
         <source>About SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>O SMPlayer-ju</translation>
     </message>
     <message>
         <location filename="../about.ui" line="35"/>
         <source>&amp;Info</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Informacije</translation>
     </message>
     <message>
         <location filename="../about.ui" line="223"/>
         <source>icon</source>
-        <translation type="unfinished"></translation>
+        <translation>ikona</translation>
     </message>
     <message>
         <location filename="../about.ui" line="91"/>
@@ -481,12 +481,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1206"/>
         <source>&amp;Subtitles</source>
-        <translation>Pod&amp;napisi</translation>
+        <translation>Po&amp;dnapisi</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1207"/>
         <source>&amp;Browse</source>
-        <translation>&amp;Razišči</translation>
+        <translation>&amp;Izberi</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1208"/>
@@ -556,42 +556,42 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1047"/>
         <source>&amp;Frame step</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Predvajanje po slikah</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1063"/>
         <source>&amp;Normal speed</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Normalno predvajanje</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1064"/>
         <source>&amp;Halve speed</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Polovična hitrost</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1065"/>
         <source>&amp;Double speed</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dvojna hitrost</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1066"/>
         <source>Speed &amp;-10%</source>
-        <translation type="unfinished"></translation>
+        <translation>Hitrost &amp;-10%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1067"/>
         <source>Speed &amp;+10%</source>
-        <translation type="unfinished"></translation>
+        <translation>Hitrost &amp;+10%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1228"/>
         <source>Sp&amp;eed</source>
-        <translation type="unfinished"></translation>
+        <translation>HIt&amp;rost</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1059"/>
         <source>&amp;Repeat</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ponovi</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1070"/>
@@ -606,37 +606,37 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1232"/>
         <source>Si&amp;ze</source>
-        <translation type="unfinished"></translation>
+        <translation>Vel&amp;ikost</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1255"/>
         <source>&amp;Autodetect</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Samodejno zaznaj</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1263"/>
         <source>4:3 &amp;Letterbox</source>
-        <translation type="unfinished"></translation>
+        <translation>4:3 &amp;Široko</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1264"/>
         <source>16:9 L&amp;etterbox</source>
-        <translation type="unfinished"></translation>
+        <translation>16:9 Š&amp;iroko</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1265"/>
         <source>4:3 &amp;Panscan</source>
-        <translation type="unfinished"></translation>
+        <translation>4:3 &amp;Približano</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1266"/>
         <source>4:3 &amp;to 16:9</source>
-        <translation type="unfinished"></translation>
+        <translation>4:3 &amp;v 16:9</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1238"/>
         <source>&amp;Aspect ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Razmerje slike</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2192"/>
@@ -646,142 +646,142 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1270"/>
         <source>&amp;Lowpass5</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nizki prehod</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1273"/>
         <source>Linear &amp;Blend</source>
-        <translation type="unfinished"></translation>
+        <translation>Linearno &amp;Pojemanje</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1241"/>
         <source>&amp;Deinterlace</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Prepletanje</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1086"/>
         <source>&amp;Postprocessing</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Poprocesiranje</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1087"/>
         <source>&amp;Autodetect phase</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Samodejno zaznaj fazo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1088"/>
         <source>&amp;Deblock</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Deblokiraj</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1089"/>
         <source>De&amp;ring</source>
-        <translation type="unfinished"></translation>
+        <translation>De&amp;ring</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1090"/>
         <source>Add n&amp;oise</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj &amp;šum</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1244"/>
         <source>F&amp;ilters</source>
-        <translation type="unfinished"></translation>
+        <translation>F&amp;iltri</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1072"/>
         <source>&amp;Equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Izenačevalnik</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1073"/>
         <source>&amp;Screenshot</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zajem slike</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1074"/>
         <source>S&amp;tay on top</source>
-        <translation type="unfinished"></translation>
+        <translation>O&amp;stani na vrhu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1287"/>
         <source>&amp;Track</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sledi</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1109"/>
         <source>&amp;Extrastereo</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Razširjeni stereo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1110"/>
         <source>&amp;Karaoke</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Karaoke</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1290"/>
         <source>&amp;Filters</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Filtri</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1304"/>
         <source>&amp;Stereo</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Stereo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1301"/>
         <source>&amp;4.0 Surround</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;4.0 Surround</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1302"/>
         <source>&amp;5.1 Surround</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;5.1 Surround</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1293"/>
         <source>&amp;Channels</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kanali</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1305"/>
         <source>&amp;Left channel</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Levi kanal</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1306"/>
         <source>&amp;Right channel</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Desni kanal</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1296"/>
         <source>&amp;Stereo mode</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Stereo način</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1100"/>
         <source>&amp;Mute</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tiho</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1101"/>
         <source>Volume &amp;-</source>
-        <translation type="unfinished"></translation>
+        <translation>Zvok &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1102"/>
         <source>Volume &amp;+</source>
-        <translation type="unfinished"></translation>
+        <translation>Zvok &amp;+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1103"/>
         <source>&amp;Delay -</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zakasni -</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1104"/>
         <source>D&amp;elay +</source>
-        <translation type="unfinished"></translation>
+        <translation>Zakas&amp;ni +</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1309"/>
@@ -796,22 +796,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1116"/>
         <source>Delay &amp;-</source>
-        <translation type="unfinished"></translation>
+        <translation>Zakasni &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1117"/>
         <source>Delay &amp;+</source>
-        <translation type="unfinished"></translation>
+        <translation>Zakasni &amp;+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1118"/>
         <source>&amp;Up</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gor</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1119"/>
         <source>&amp;Down</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dol</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1313"/>
@@ -836,7 +836,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1137"/>
         <source>&amp;Show frame counter</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Prikaži število sličic</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1195"/>
@@ -846,17 +846,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1196"/>
         <source>&amp;Seek bar</source>
-        <translation>&amp;Vrstica za pomik</translation>
+        <translation>&amp;Časovna premica</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1197"/>
         <source>&amp;Time</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Čas predvajanja</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1198"/>
         <source>Time + T&amp;otal time</source>
-        <translation type="unfinished"></translation>
+        <translation>Čas predvajanja + Ča&amp;s celotne datoeke</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1323"/>
@@ -866,7 +866,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1326"/>
         <source>&amp;View logs</source>
-        <translation>&amp;Poglej konzolne izpise</translation>
+        <translation>&amp;Odpri dnevnik delovanja</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1140"/>
@@ -916,13 +916,14 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="2707"/>
         <source>SMPlayer - Information</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Informacije</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2710"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
-        <translation type="unfinished"></translation>
+        <translation>CDROM / DVD enote še niso nastavljene.
+Prikazalo se bo okno, kjer boste to lahko storili.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2784"/>
@@ -932,17 +933,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2820"/>
         <source>Subtitles</source>
-        <translation type="unfinished">Podnapisi</translation>
+        <translation>Podnapisi</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2866"/>
         <source>About Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>O Qt</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3237"/>
         <source>Playing %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Predvajam %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3238"/>
@@ -967,12 +968,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1115"/>
         <source>U&amp;nload</source>
-        <translation type="unfinished"></translation>
+        <translation>Spro&amp;sti datoteko</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1031"/>
         <source>V&amp;CD</source>
-        <translation type="unfinished"></translation>
+        <translation>V&amp;CD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1036"/>
@@ -982,377 +983,377 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1135"/>
         <source>View &amp;info and properties...</source>
-        <translation type="unfinished"></translation>
+        <translation>Poglej &amp;informacije in parametre...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1077"/>
         <source>Zoom &amp;-</source>
-        <translation type="unfinished"></translation>
+        <translation>Povečava &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1078"/>
         <source>Zoom &amp;+</source>
-        <translation type="unfinished"></translation>
+        <translation>Povečava &amp;+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1079"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;&amp;Ponastavi</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1080"/>
         <source>Move &amp;left</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomakni &amp;levo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1081"/>
         <source>Move &amp;right</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomakni &amp;desno</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1082"/>
         <source>Move &amp;up</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomakni &amp;gor</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1083"/>
         <source>Move &amp;down</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomakni &amp;dol</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1235"/>
         <source>&amp;Pan &amp;&amp; scan</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Približaj</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1123"/>
         <source>&amp;Previous line in subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Prejšnja vrstica v podnapisih</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1125"/>
         <source>N&amp;ext line in subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Nas&amp;lednja vrstica v podnapisih</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1349"/>
         <source>-%1</source>
-        <translation type="unfinished"></translation>
+        <translation>-%1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1353"/>
         <source>+%1</source>
-        <translation type="unfinished"></translation>
+        <translation>+%1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1168"/>
         <source>Dec volume (2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Zmanjšaj glasnost (2)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1169"/>
         <source>Inc volume (2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Povečaj glasnost (2)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1172"/>
         <source>Exit fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Izhod iz celega zaslona</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1174"/>
         <source>OSD - Next level</source>
-        <translation type="unfinished"></translation>
+        <translation>OSD - Naslednja stopnja</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1175"/>
         <source>Dec contrast</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomanjšaj kontrast</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1176"/>
         <source>Inc contrast</source>
-        <translation type="unfinished"></translation>
+        <translation>Povečaj kontrast</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1177"/>
         <source>Dec brightness</source>
-        <translation type="unfinished"></translation>
+        <translation>Zmanjšaj svetlost</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1178"/>
         <source>Inc brightness</source>
-        <translation type="unfinished"></translation>
+        <translation>Povečaj svetlost</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1179"/>
         <source>Dec hue</source>
-        <translation type="unfinished"></translation>
+        <translation>Zmanjšaj barvitost</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1180"/>
         <source>Inc hue</source>
-        <translation type="unfinished"></translation>
+        <translation>Povečaj barvitost</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1181"/>
         <source>Dec saturation</source>
-        <translation type="unfinished"></translation>
+        <translation>Zmanjšaj saturacijo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1183"/>
         <source>Dec gamma</source>
-        <translation type="unfinished"></translation>
+        <translation>Zmanjšaj gamo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1185"/>
         <source>Next audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Naslednja zvočna sled</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1186"/>
         <source>Next subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Naslednji podnapis</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1187"/>
         <source>Next chapter</source>
-        <translation type="unfinished"></translation>
+        <translation>Naslednje poglavje</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1188"/>
         <source>Previous chapter</source>
-        <translation type="unfinished"></translation>
+        <translation>Prejšnje poglavje</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1182"/>
         <source>Inc saturation</source>
-        <translation type="unfinished"></translation>
+        <translation>Povečaj saturacijo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1184"/>
         <source>Inc gamma</source>
-        <translation type="unfinished"></translation>
+        <translation>Povečaj gamo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1105"/>
         <source>&amp;Load external file...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Naloži zunanjo datoteko...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1274"/>
         <source>&amp;Kerndeint</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kerndeint</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1271"/>
         <source>&amp;Yadif (normal)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Yadif (normalno)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1272"/>
         <source>Y&amp;adif (double framerate)</source>
-        <translation type="unfinished"></translation>
+        <translation>Y&amp;adif (dvojna hitrost sličic)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1153"/>
         <source>&amp;Next</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Naslednje</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1154"/>
         <source>Pre&amp;vious</source>
-        <translation type="unfinished"></translation>
+        <translation>Prej&amp;šnje</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1111"/>
         <source>Volume &amp;normalization</source>
-        <translation type="unfinished"></translation>
+        <translation>Normalizacija &amp;jakosti zvoka</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1032"/>
         <source>&amp;Audio CD</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Avdio CD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1277"/>
         <source>Denoise nor&amp;mal</source>
-        <translation type="unfinished"></translation>
+        <translation>Odstranjevanje šu&amp;ma (normalno)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1278"/>
         <source>Denoise &amp;soft</source>
-        <translation type="unfinished"></translation>
+        <translation>Odstranjevanje šu&amp;ma (majhno)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1276"/>
         <source>Denoise o&amp;ff</source>
-        <translation type="unfinished"></translation>
+        <translation>Odstranjevanje šu&amp;ma (izključeno)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1126"/>
         <source>Use SSA/&amp;ASS library</source>
-        <translation type="unfinished"></translation>
+        <translation>Uporabi SSA/&amp;ASS rutino</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1075"/>
         <source>Flip i&amp;mage</source>
-        <translation type="unfinished"></translation>
+        <translation>Obrni &amp;sliko</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1189"/>
         <source>&amp;Toggle double size</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Preklopi dvojno velikost</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1120"/>
         <source>S&amp;ize -</source>
-        <translation type="unfinished"></translation>
+        <translation>V&amp;elikost -</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1121"/>
         <source>Si&amp;ze +</source>
-        <translation type="unfinished"></translation>
+        <translation>Vel&amp;ikost +</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1092"/>
         <source>Add &amp;black borders</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj &amp;črno obrobo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1094"/>
         <source>Soft&amp;ware scaling</source>
-        <translation type="unfinished"></translation>
+        <translation>Prog&amp;ramsko lestvičenje</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1147"/>
         <source>&amp;FAQ</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pogosta vprašanja</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1139"/>
         <source>Visualize &amp;motion vectors</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaži &amp;vektorje pomikanja</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1148"/>
         <source>&amp;Command line options</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ukazi za zagon z ukazne lupine</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2855"/>
         <source>SMPlayer command line options</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer ukazi ukazne lupine</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1127"/>
         <source>Enable &amp;closed caption</source>
-        <translation type="unfinished"></translation>
+        <translation>Omogoči z&amp;aprte podnapise</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1128"/>
         <source>&amp;Forced subtitles only</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Prikaži samo vsiljene podnapise</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1190"/>
         <source>Reset video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Ponastavi video izenačevalnik</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3669"/>
         <source>MPlayer has finished unexpectedly.</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer se je nepričakovano zaprl.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3670"/>
         <source>Exit code: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Koda napake: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3680"/>
         <source>MPlayer failed to start.</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer se ni uspešno zagnal.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3681"/>
         <source>Please check the MPlayer path in preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>Prosim preverite nastavitve Mplayer predvajalnika in njegove poti.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3683"/>
         <source>MPlayer has crashed.</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer se je nasilno zaprl.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3684"/>
         <source>See the log for more info.</source>
-        <translation type="unfinished"></translation>
+        <translation>Poglej si dnevnik delovanja za več informacij.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1247"/>
         <source>&amp;Rotate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rotiraj</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1280"/>
         <source>&amp;Off</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Onemogoči</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1281"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Obrni za 90 stopinj v smeri ure in obrni na glavo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1282"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
-        <translation type="unfinished"></translation>
+        <translation>Obrni za 90 stopinj v &amp;smeri ure</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1283"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
-        <translation type="unfinished"></translation>
+        <translation>Obrni za 90 stopinj v obratni &amp;smeri ure</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1284"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Obrni za 90 stopinj v obratni smeri ure in obrni na glavo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1060"/>
         <source>&amp;Jump to...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Skoči na...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1192"/>
         <source>Show context menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokaži povezovalni meni</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2656"/>
         <source>Multimedia</source>
-        <translation type="unfinished"></translation>
+        <translation>Multimedija</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1131"/>
         <source>Upl&amp;oad subtitles...</source>
-        <translation type="unfinished"></translation>
+        <translation>Nal&amp;oži podnapise...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1130"/>
         <source>Find subtitles on the &amp;web...</source>
-        <translation type="unfinished"></translation>
+        <translation>Poišči podanpise na &amp;internetu...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1097"/>
         <source>E&amp;qualizer</source>
-        <translation type="unfinished"></translation>
+        <translation>I&amp;zenačevalnik</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1191"/>
         <source>Reset audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Ponastavi avdio izenačevalnik</translation>
     </message>
 </context>
 <context>
@@ -1408,7 +1409,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../corelib/core.cpp" line="2123"/>
         <source>Hue: %1</source>
-        <translation>Hue: %1</translation>
+        <translation>Barvitost: %1</translation>
     </message>
     <message>
         <location filename="../corelib/core.cpp" line="2137"/>
@@ -1505,17 +1506,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../filepropertiesdialog.ui" line="14"/>
         <source>SMPlayer - File properties</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Lastnosti datoteke</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="36"/>
         <source>&amp;Information</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Informacije</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="56"/>
         <source>&amp;Demuxer</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zabojnik</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="68"/>
@@ -1595,17 +1596,17 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="70"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>V redu</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="71"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Prekliči</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="72"/>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>Uporabi</translation>
     </message>
 </context>
 <context>
@@ -3083,17 +3084,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlistpreferences.ui" line="42"/>
         <source>Automatically get &amp;info about files added</source>
-        <translation type="unfinished"></translation>
+        <translation>Samodejno pridobi &amp;informacije o dodanih datotekah</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="49"/>
         <source>&amp;Save copy of playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Shrani kopijo predvajalnega seznam ob izhodu</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="28"/>
         <source>&amp;Play files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Predvajaj datoteke od začetka</translation>
     </message>
 </context>
 <context>
@@ -3493,7 +3494,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefdrives.cpp" line="132"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Izberite CDROM napravo. Uporabljena bo za predvajanje VCD-jev in Avdio CD-jev.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="134"/>
@@ -3503,22 +3504,22 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefdrives.cpp" line="135"/>
         <source>Choose your DVD device. It will be used to play DVDs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Izberite DVD napravo. Uporabljena bo za predvajanje DVD-jev.</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="80"/>
         <source>Select your &amp;CD device:</source>
-        <translation type="unfinished"></translation>
+        <translation>Izberite &amp;CD napravo:</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="175"/>
         <source>Select your &amp;DVD device:</source>
-        <translation type="unfinished"></translation>
+        <translation>Izberite &amp;DVD napravo:</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="41"/>
         <source>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer ne izbere nobene CDROM ali DVD naprave samodejno. Zato preden lahko predvajate vsebino, to storite sami. Imeni naprav so lahko enaki.</translation>
     </message>
 </context>
 <context>
@@ -3661,7 +3662,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="514"/>
         <source>Software video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Programski video izenačevalnik</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="518"/>
@@ -3896,7 +3897,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="567"/>
         <source>Volume normalization by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Privzeta normalizacija jakosti zvoka</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="568"/>
@@ -4032,7 +4033,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="274"/>
         <source>Use s&amp;oftware video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Uporabi pr&amp;ogramski video izenačevalnik</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="415"/>
@@ -4310,22 +4311,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="78"/>
         <source>Show equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokaži izenačevalnik</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="74"/>
         <source>Normal speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Normalna hitrost</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="246"/>
         <source>Keyboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Tipkovnica</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="259"/>
         <source>Mouse</source>
-        <translation type="unfinished"></translation>
+        <translation>Miška</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="267"/>
@@ -5625,7 +5626,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.cpp" line="81"/>
         <source>Hue</source>
-        <translation>Hue</translation>
+        <translation>Barvitost</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="85"/>
