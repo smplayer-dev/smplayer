@@ -911,9 +911,10 @@ void Playlist::addFiles(QStringList files, AutoGetInfo auto_get_info) {
     	addItem( (*it), "", 0 );
 #endif
 
-		// FIXME: set latest_dir only if the file is a local file,
-        // to avoid that dvd:, vcd: and so on will be used.
-		/* latest_dir = QFileInfo((*it)).dirPath(TRUE); */
+		if (QFile::exists(*it)) {
+			latest_dir = QFileInfo((*it)).absolutePath();
+		}
+
         ++it;
     }
 #if USE_INFOPROVIDER
@@ -921,7 +922,7 @@ void Playlist::addFiles(QStringList files, AutoGetInfo auto_get_info) {
 #endif
 	updateView();
 
-	qDebug( " * latest_dir: '%s'", latest_dir.toUtf8().data() );
+	qDebug( "Playlist::addFiles: latest_dir: '%s'", latest_dir.toUtf8().constData() );
 }
 
 void Playlist::addFile(QString file, AutoGetInfo auto_get_info) {
