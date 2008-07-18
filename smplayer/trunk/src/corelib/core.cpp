@@ -1189,6 +1189,12 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( "-ao");
 		proc->addArgument( pref->ao );
 	}
+#ifndef Q_OS_WIN
+	else {
+		proc->addArgument( "-ao");
+		proc->addArgument( "alsa," );
+	}
+#endif
 
 	proc->addArgument( "-zoom");
 	proc->addArgument("-nokeepaspect");
