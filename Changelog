@@ -1,5 +1,8 @@
 [b]Version 0.6.2[/b]:
 
+(2008-07-17)
+ * Try to use alsa as default audio driver in linux.
+
 (2008-07-16)
  * Fix: remember the last directory used when adding files to the 
    playlist. Fixes bug #2019139.
