@@ -818,9 +818,11 @@ void Core::finishRestart() {
 		int item = MediaSettings::SubNone;
 
 		// Try to recover old subtitle
-		if (old_item > -1) {
-			int new_item = mdat.subs.find(type, ID);
-			if (new_item > -1) item = new_item;
+		if (just_unloaded_external_subs) {
+			if (old_item > -1) {
+				int new_item = mdat.subs.find(type, ID);
+				if (new_item > -1) item = new_item;
+			}
 		}
 
 		// If we've just loaded a subtitle file
