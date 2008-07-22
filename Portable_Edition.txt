@@ -1,0 +1,30 @@
+SMPlayer Portable Edition is a special version of SMPlayer (for Windows)
+which tries to not write anything outside from the directory where it is
+installed, so it can be used from external devices like pendrives. 
+
+You can get a package from here: 
+https://sourceforge.net/project/showfiles.php?group_id=185512&package_id=284416
+
+To install it, just uncompress it wherever you want. To run it just
+double click on smplayer.exe.
+
+The package includes:
+
+* SMPlayer (portable version)
+* MPlayer Sherpya-SVN-r27081 (mainly because it doesn't have fontconfig
+  support, so it won't write any font cache around there)
+
+What are the differences with the normal SMPlayer?
+
+* By default it will save the ini files in the smplayer's folder.
+* It won't try to create the smplayer home directory or the screenshot
+  directory (C:\Documents and Settings\User\.smplayer\...)
+* It won't write anything in the Windows registry (for that reason the
+  file associations are not available in this version)
+* The screenshot option is disabled by default.
+
+How to know if it's really the portable version?
+
+Go to Help -> About SMPlayer, it should say something like this: 
+"Version: 0.6.2 (Portable Edition)"
+
