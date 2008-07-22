@@ -58,7 +58,10 @@ PrefAssociations::PrefAssociations(QWidget * parent, Qt::WindowFlags f)
 	for (int n=0; n < e.multimedia().count(); n++) {
 		addItem( e.multimedia()[n] );
 	}
-
+	// Add the playlist extensions
+	for (int n=0; n < e.playlist().count(); n++) {
+		addItem( e.playlist()[n] );
+	}
 	retranslateStrings();
 }
 

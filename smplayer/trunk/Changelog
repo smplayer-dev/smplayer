@@ -1,5 +1,9 @@
 [b]Version 0.6.2[/b]:
 
+(2008-07-22)
+ * (Windows) Added to the file associations section the playlist 
+   extensions.
+ 
 (2008-07-17)
  * Try to use alsa as default audio driver in linux.
 
