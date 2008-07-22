@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -275,12 +276,12 @@
     <message>
         <location filename="../about.cpp" line="60"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Używa Qt %1 (kompilowany z Qt %2)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="179"/>
         <source>Slovenian</source>
-        <translation type="unfinished">Slovenian</translation>
+        <translation>Slovenian</translation>
     </message>
 </context>
 <context>
@@ -1848,7 +1849,7 @@ Przykład: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="161"/>
         <source>&amp;Copy link to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kopiuj link do schowka</translation>
     </message>
 </context>
 <context>
@@ -3231,7 +3232,7 @@ odtwarzania :</translation>
     <message>
         <location filename="../playlistpreferences.ui" line="28"/>
         <source>&amp;Play files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Odtwarzaj pliki od początku</translation>
     </message>
 </context>
 <context>
@@ -5830,12 +5831,12 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../clhelp.cpp" line="96"/>
         <source>subtitle_file</source>
-        <translation type="unfinished"></translation>
+        <translation>plik_napisów</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="151"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
-        <translation type="unfinished"></translation>
+        <translation>określ plik napisów, które zostaną wczytane dla pierwszego plku wideo.</translation>
     </message>
 </context>
 <context>
