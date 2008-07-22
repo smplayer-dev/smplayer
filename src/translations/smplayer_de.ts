@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
-<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -11,175 +10,175 @@
     <message>
         <location filename="../about.cpp" line="60"/>
         <source>Compiled with Qt %1</source>
-        <translation>Kompiliert mit Qt %1</translation>
+        <translation type="obsolete">Kompiliert mit Qt %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="93"/>
+        <location filename="../about.cpp" line="92"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
         <translation>Dieses Programm ist freie Software; Sie können es weitergeben und/oder es unter den Bedingungen der allgemeinen  GNU Lizenz verändern, wie es durch die Free Software-Foundation festgelegt wurde; entweder Version 2 der Lizenz, oder (nach ihrer Wahl) eine neuere Version.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="100"/>
+        <location filename="../about.cpp" line="99"/>
         <source>Some people have helped with their contributions:</source>
         <translation>Mit ihrer Beteiligung haben folgende Leute geholfen:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="101"/>
+        <location filename="../about.cpp" line="100"/>
         <source>SMPlayer logo</source>
         <translation>SMPlayer Logo</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="102"/>
+        <location filename="../about.cpp" line="101"/>
         <source>file associations for Windows</source>
         <translation>Dateiverknüpfung für Windows</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="103"/>
+        <location filename="../about.cpp" line="102"/>
         <source>manpage for linux</source>
         <translation>Manpage für Linux</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="104"/>
+        <location filename="../about.cpp" line="103"/>
         <source>support for colored console output</source>
         <translation>Unterstützung für farbige Konsolenausgabe </translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="105"/>
+        <location filename="../about.cpp" line="104"/>
         <source>icon for file associations</source>
         <translation>Icon für Dateiverknüpfung</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="106"/>
+        <location filename="../about.cpp" line="105"/>
         <source>patch for file associations</source>
         <translation>Patch für Dateiverknüpfung</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="143"/>
+        <location filename="../about.cpp" line="142"/>
         <source>The following people have contributed with translations:</source>
         <translation>Die folgenden Leute haben an der Übersetzung mitgewirkt:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="144"/>
+        <location filename="../about.cpp" line="143"/>
         <source>German</source>
         <translation>Deutsch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="145"/>
+        <location filename="../about.cpp" line="144"/>
         <source>Slovak</source>
         <translation>Slowenisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="146"/>
+        <location filename="../about.cpp" line="145"/>
         <source>Italian</source>
         <translation>Italienisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="147"/>
+        <location filename="../about.cpp" line="146"/>
         <source>French</source>
         <translation>Französisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="148"/>
+        <location filename="../about.cpp" line="147"/>
         <source>%1, %2 and %3</source>
         <translation>%1, %2 and %3</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="151"/>
+        <location filename="../about.cpp" line="150"/>
         <source>Simplified-Chinese</source>
         <translation>Vereinfachtes Chinesisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="152"/>
+        <location filename="../about.cpp" line="151"/>
         <source>Russian</source>
         <translation>Russisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="172"/>
+        <location filename="../about.cpp" line="171"/>
         <source>%1 and %2</source>
         <translation>%1 and %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="153"/>
+        <location filename="../about.cpp" line="152"/>
         <source>Hungarian</source>
         <translation>Ungarisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="154"/>
+        <location filename="../about.cpp" line="153"/>
         <source>Polish</source>
         <translation>Polnisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="157"/>
+        <location filename="../about.cpp" line="156"/>
         <source>Japanese</source>
         <translation>Japanisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="158"/>
+        <location filename="../about.cpp" line="157"/>
         <source>Dutch</source>
         <translation>Niederländisch </translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="161"/>
+        <location filename="../about.cpp" line="160"/>
         <source>Ukrainian</source>
         <translation>Ukrainisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="162"/>
+        <location filename="../about.cpp" line="161"/>
         <source>Portuguese - Brazil</source>
         <translation>Portugiesisch - Brasilien</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="163"/>
+        <location filename="../about.cpp" line="162"/>
         <source>Georgian</source>
         <translation>Georgisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="164"/>
+        <location filename="../about.cpp" line="163"/>
         <source>Czech</source>
         <translation>Tschechisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="165"/>
+        <location filename="../about.cpp" line="164"/>
         <source>Bulgarian</source>
         <translation>Bulgarisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="166"/>
+        <location filename="../about.cpp" line="165"/>
         <source>Turkish</source>
         <translation>Türkisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="167"/>
+        <location filename="../about.cpp" line="166"/>
         <source>Swedish</source>
         <translation>Schwedisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="168"/>
+        <location filename="../about.cpp" line="167"/>
         <source>Serbian</source>
         <translation>Serbisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="169"/>
+        <location filename="../about.cpp" line="168"/>
         <source>Traditional Chinese</source>
         <translation>Traditionelles Chinesisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="170"/>
+        <location filename="../about.cpp" line="169"/>
         <source>Romanian</source>
         <translation>Romanisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="171"/>
+        <location filename="../about.cpp" line="170"/>
         <source>Portuguese - Portugal</source>
         <translation>Portugiesisch - Portugal</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="174"/>
+        <location filename="../about.cpp" line="173"/>
         <source>Greek</source>
         <translation>Griechisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="175"/>
+        <location filename="../about.cpp" line="174"/>
         <source>Finnish</source>
         <translation>Finnisch</translation>
     </message>
@@ -224,37 +223,37 @@
         <translation>&amp;Lizenz</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="63"/>
+        <location filename="../about.cpp" line="62"/>
         <source>Visit our web for updates:</source>
         <translation>Besuchen sie unser Web für Updates:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="67"/>
+        <location filename="../about.cpp" line="66"/>
         <source>Get help in our forum:</source>
         <translation>Holen Sie sich Hilfe in unserem Forum:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="69"/>
+        <location filename="../about.cpp" line="68"/>
         <source>You can support SMPlayer by making a donation.</source>
         <translation>Sie können SMPlayer durch eine Spende unterstützen.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="71"/>
+        <location filename="../about.cpp" line="70"/>
         <source>More info</source>
         <translation>Mehr Info</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="176"/>
+        <location filename="../about.cpp" line="175"/>
         <source>Korean</source>
         <translation>Koreanisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="177"/>
+        <location filename="../about.cpp" line="176"/>
         <source>Macedonian</source>
         <translation>Mazedonisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="178"/>
+        <location filename="../about.cpp" line="177"/>
         <source>Basque</source>
         <translation>Baskisch</translation>
     </message>
@@ -264,7 +263,7 @@
         <translation>Unter Einsatz von MPlayer %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="179"/>
+        <location filename="../about.cpp" line="178"/>
         <source>Catalan</source>
         <translation>Katalanisch</translation>
     </message>
@@ -276,7 +275,17 @@
     <message>
         <location filename="../about.cpp" line="61"/>
         <source>Using Qt %1</source>
-        <translation>Unter Einsatz von QT %1</translation>
+        <translation type="obsolete">Unter Einsatz von QT %1</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="60"/>
+        <source>Using Qt %1 (compiled with Qt %2)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="179"/>
+        <source>Slovenian</source>
+        <translation type="unfinished">Slowenisch</translation>
     </message>
 </context>
 <context>
@@ -895,7 +904,7 @@ Do you want to overwrite?</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2839"/>
+        <location filename="../basegui.cpp" line="2841"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
@@ -905,12 +914,12 @@ Do you want to overwrite?</source>
         <translation>Abspiellisten</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2840"/>
+        <location filename="../basegui.cpp" line="2842"/>
         <source>All files</source>
         <translation>Alle Dateien</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2837"/>
+        <location filename="../basegui.cpp" line="2839"/>
         <source>Choose a file</source>
         <translation>Datei wählen</translation>
     </message>
@@ -937,22 +946,22 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
         <translation>Untertitel</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2866"/>
+        <location filename="../basegui.cpp" line="2868"/>
         <source>About Qt</source>
         <translation>Über Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3237"/>
+        <location filename="../basegui.cpp" line="3239"/>
         <source>Playing %1</source>
         <translation>Wiedergabe %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3238"/>
+        <location filename="../basegui.cpp" line="3240"/>
         <source>Pause</source>
         <translation>Pause</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3239"/>
+        <location filename="../basegui.cpp" line="3241"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
@@ -1242,7 +1251,7 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
         <translation>&amp;Kommandozeilenoptionen</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2855"/>
+        <location filename="../basegui.cpp" line="2857"/>
         <source>SMPlayer command line options</source>
         <translation>SMPlayer Kommandozeilenoptionen</translation>
     </message>
@@ -1262,32 +1271,32 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
         <translation>Reset Video Equalizer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3669"/>
+        <location filename="../basegui.cpp" line="3671"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer wurde unerwartet beendet.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3670"/>
+        <location filename="../basegui.cpp" line="3672"/>
         <source>Exit code: %1</source>
         <translation>Exit code: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3680"/>
+        <location filename="../basegui.cpp" line="3682"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer konnte nicht gestartet werden.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3681"/>
+        <location filename="../basegui.cpp" line="3683"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Pfad von MPlayer in den Einstellungen überprüfen.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3683"/>
+        <location filename="../basegui.cpp" line="3685"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer ist abgestürzt.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3684"/>
+        <location filename="../basegui.cpp" line="3686"/>
         <source>See the log for more info.</source>
         <translation>Siehe Logdatei für mehr Infos.</translation>
     </message>
@@ -1398,42 +1407,42 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../corelib/core.cpp" line="2080"/>
+        <location filename="../corelib/core.cpp" line="2089"/>
         <source>Brightness: %1</source>
         <translation>Helligkeit: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2095"/>
+        <location filename="../corelib/core.cpp" line="2104"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2109"/>
+        <location filename="../corelib/core.cpp" line="2118"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2123"/>
+        <location filename="../corelib/core.cpp" line="2132"/>
         <source>Hue: %1</source>
         <translation>Farbe: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2137"/>
+        <location filename="../corelib/core.cpp" line="2146"/>
         <source>Saturation: %1</source>
         <translation>Sättigung: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2237"/>
+        <location filename="../corelib/core.cpp" line="2246"/>
         <source>Volume: %1</source>
         <translation>Lautstärke: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2987"/>
+        <location filename="../corelib/core.cpp" line="2998"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2356"/>
+        <location filename="../corelib/core.cpp" line="2365"/>
         <source>Font scale: %1</source>
         <translation>Schriftart Skalierung: %1</translation>
     </message>
@@ -2155,7 +2164,7 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
         <translation>Amharisch</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="213"/>
+        <location filename="../languages.cpp" line="214"/>
         <source>Arabic</source>
         <translation>Arabisch</translation>
     </message>
@@ -2595,7 +2604,7 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
         <translation>Romanisch</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="219"/>
+        <location filename="../languages.cpp" line="220"/>
         <source>Russian</source>
         <translation>Russisch</translation>
     </message>
@@ -2630,7 +2639,7 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
         <translation>Slowakisch</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="125"/>
+        <location filename="../languages.cpp" line="192"/>
         <source>Slovenian</source>
         <translation>Slowenisch</translation>
     </message>
@@ -2655,7 +2664,7 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
         <translation>Albanisch</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="192"/>
+        <location filename="../languages.cpp" line="193"/>
         <source>Serbian</source>
         <translation>Serbisch</translation>
     </message>
@@ -2675,7 +2684,7 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
         <translation>Sundanesisch</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="193"/>
+        <location filename="../languages.cpp" line="194"/>
         <source>Swedish</source>
         <translation>Schwedisch</translation>
     </message>
@@ -2730,7 +2739,7 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
         <translation>Tongaisch</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="215"/>
+        <location filename="../languages.cpp" line="216"/>
         <source>Turkish</source>
         <translation>Türkisch</translation>
     </message>
@@ -2755,7 +2764,7 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
         <translation>Uigurisch</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="195"/>
+        <location filename="../languages.cpp" line="196"/>
         <source>Ukrainian</source>
         <translation>Ukrainisch</translation>
     </message>
@@ -2820,117 +2829,117 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
         <translation>Portugiesisch - Portugal</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="196"/>
+        <location filename="../languages.cpp" line="197"/>
         <source>Simplified-Chinese</source>
         <translation>Vereinfachtes Chinesisch</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="197"/>
+        <location filename="../languages.cpp" line="198"/>
         <source>Traditional Chinese</source>
         <translation>Traditionelles Chinesisch</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="205"/>
+        <location filename="../languages.cpp" line="206"/>
         <source>Unicode</source>
         <translation>Unicode</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="206"/>
+        <location filename="../languages.cpp" line="207"/>
         <source>UTF-8</source>
         <translation>UTF-8</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="207"/>
+        <location filename="../languages.cpp" line="208"/>
         <source>Western European Languages</source>
         <translation>West-Europäische Sprachen</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="208"/>
+        <location filename="../languages.cpp" line="209"/>
         <source>Western European Languages with Euro</source>
         <translation>West-Europäische Sprachen mit Euro</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="209"/>
+        <location filename="../languages.cpp" line="210"/>
         <source>Slavic/Central European Languages</source>
         <translation>Slavische/Zentral-Europäische Sprachen</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="210"/>
+        <location filename="../languages.cpp" line="211"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
         <translation>Esperanto, Galicisch, Maltesisch, Türkisch</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="211"/>
+        <location filename="../languages.cpp" line="212"/>
         <source>Old Baltic charset</source>
         <translation>Alte Baltische Zeichenkodierung</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="212"/>
+        <location filename="../languages.cpp" line="213"/>
         <source>Cyrillic</source>
         <translation>Kyrillisch</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="214"/>
+        <location filename="../languages.cpp" line="215"/>
         <source>Modern Greek</source>
         <translation>Modern Griechisch</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="216"/>
+        <location filename="../languages.cpp" line="217"/>
         <source>Baltic</source>
         <translation>Baltisch</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="217"/>
+        <location filename="../languages.cpp" line="218"/>
         <source>Celtic</source>
         <translation>Celtic</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="218"/>
+        <location filename="../languages.cpp" line="219"/>
         <source>Hebrew charsets</source>
         <translation>Hebräische Zeichkodierung</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="220"/>
+        <location filename="../languages.cpp" line="221"/>
         <source>Ukrainian, Belarusian</source>
         <translation>Ukrainisch, Weißrussisch</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="221"/>
+        <location filename="../languages.cpp" line="222"/>
         <source>Simplified Chinese charset</source>
         <translation>Vereinfachte Chinesische Zeichenkodierung</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="222"/>
+        <location filename="../languages.cpp" line="223"/>
         <source>Traditional Chinese charset</source>
         <translation>Traditionelle Chinesische Zeichnenkodierung</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="223"/>
+        <location filename="../languages.cpp" line="224"/>
         <source>Japanese charsets</source>
         <translation>Japanische Zeichenkodierung</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="224"/>
+        <location filename="../languages.cpp" line="225"/>
         <source>Korean charset</source>
         <translation>Koreanische Zeichenkodierung</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="225"/>
+        <location filename="../languages.cpp" line="226"/>
         <source>Thai charset</source>
         <translation>Thailändische Zeichenkodierung</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="226"/>
+        <location filename="../languages.cpp" line="227"/>
         <source>Cyrillic Windows</source>
         <translation>Kyrillisch Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="227"/>
+        <location filename="../languages.cpp" line="228"/>
         <source>Slavic/Central European Windows</source>
         <translation>Slavisch/Zentral-Europäisches Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="228"/>
+        <location filename="../languages.cpp" line="229"/>
         <source>Arabic Windows</source>
         <translation>Arabisches Windows</translation>
     </message>
@@ -3054,7 +3063,7 @@ Do you want to overwrite?</source>
         <translation>Auswahl von einer, oder mehrerer Dateien, zum Öffnen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="933"/>
+        <location filename="../playlist.cpp" line="934"/>
         <source>Choose a directory</source>
         <translation>Verzeichnis auswählen</translation>
     </message>
@@ -3066,12 +3075,12 @@ Do you want to overwrite?</source>
 Überschreiben ?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1121"/>
+        <location filename="../playlist.cpp" line="1122"/>
         <source>Edit name</source>
         <translation>Name bearbeiten</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1122"/>
+        <location filename="../playlist.cpp" line="1123"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Den Dateinamen schreiben, wie er in der Abspielliste angezeigt werden soll:</translation>
     </message>
@@ -3543,37 +3552,37 @@ Die Auswahl-Liste enthält evt.schon die regulären Ausdrücke.</translation>
 <context>
     <name>PrefAssociations</name>
     <message>
-        <location filename="../prefassociations.cpp" line="184"/>
+        <location filename="../prefassociations.cpp" line="187"/>
         <source>Warning</source>
         <translation>Warnung</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="186"/>
+        <location filename="../prefassociations.cpp" line="189"/>
         <source>Not all files could be associated. Please check your security permissions and retry.</source>
         <translation>Nicht alle Dateitypen konnten assoziiert werden. Bitte die Sicheheitseinstellungen üperprüfen und erneut versuchen.</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="193"/>
+        <location filename="../prefassociations.cpp" line="196"/>
         <source>File Types</source>
         <translation>Dateitypen</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="210"/>
+        <location filename="../prefassociations.cpp" line="213"/>
         <source>Select all</source>
         <translation>Alles auswählen</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="211"/>
+        <location filename="../prefassociations.cpp" line="214"/>
         <source>Check all file types in the list</source>
         <translation>Aktivieren aller Dateitypen in der Liste</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="214"/>
+        <location filename="../prefassociations.cpp" line="217"/>
         <source>Uncheck all file types in the list</source>
         <translation>Deaktivieren aller Dateitypen in der Liste</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="216"/>
+        <location filename="../prefassociations.cpp" line="219"/>
         <source>List of file types</source>
         <translation>Liste der Dateitypen</translation>
     </message>
@@ -3598,17 +3607,17 @@ Die Auswahl-Liste enthält evt.schon die regulären Ausdrücke.</translation>
         <translation>Nichts auswählen</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="221"/>
+        <location filename="../prefassociations.cpp" line="224"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
         <translation>Aktivieren der Mediadateien, die mit SMPlayer assoziiert werden sollen. Anwenden anklicken, assoziiert die aktivierten Dateien mit SMPlayer. Deaktivierte Dateien werden wiederhergestellt.</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="213"/>
+        <location filename="../prefassociations.cpp" line="216"/>
         <source>Select none</source>
         <translation>Nichts auswählen</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="221"/>
+        <location filename="../prefassociations.cpp" line="224"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
         <translation>&lt;b&gt;Hinweis:&lt;/b&gt; (Wiederherstellung funktioniert nicht mit Windows Vista).</translation>
     </message>
@@ -5732,7 +5741,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>%1 Minuten und 1 Sekunde</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="294"/>
+        <location filename="../smplayer.cpp" line="299"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Das ist SMPlayer v.%1 running on %2</translation>
     </message>
