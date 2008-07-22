@@ -1,3 +1,21 @@
+Version 0.6.2.
+
+Most important changes since 0.6.1:
+
+ * Added an audio equalizer.
+ * Added a dialog to search and download subtitles from opensubtitles.org
+   (Subtitles -> Find subtitles on the web)
+ * The toolbars can be configured. The user can remove, add or change the
+   order of the buttons. Right now it can only be done by editing manually
+   the configuration file. A graphical editor will be added in the next
+   version.
+ * The single instance port can now be chosen automatically by the application.
+ * Possibility to compile a portable version which (by default) won't write 
+   anything outside the smplayer's folder. It won't write either anything 
+   in the Windows registry. See Portable_Edition.txt for details.
+ * Added the Slovenian translation.
+
+
 Version 0.6.1.
 
 Most important changes since 0.6.0 final:
