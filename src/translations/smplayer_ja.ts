@@ -275,12 +275,12 @@
     <message>
         <location filename="../about.cpp" line="60"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Qt %1 を使用しています (Qt %2 でコンパイルされています)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="179"/>
         <source>Slovenian</source>
-        <translation type="unfinished">スロベニア語</translation>
+        <translation>スロベニア語</translation>
     </message>
 </context>
 <context>
@@ -3243,7 +3243,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlistpreferences.ui" line="28"/>
         <source>&amp;Play files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>開始からファイルを再生する(&amp;P)</translation>
     </message>
 </context>
 <context>
@@ -5039,7 +5039,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="493"/>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. If you select this option, a port will be automatically chosen.</source>
-        <translation>SMPlayer はその他のインスタンスからコマンドを受信するのにポートの聴取を必要とします。この、オプションを選択すると、ポートは自動的に選択されます。</translation>
+        <translation>SMPlayer はその他のインスタンスからコマンドを受信するのにポートの聴取を必要とします。このオプションを選択すると、ポートは自動的に選択されます。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="495"/>
@@ -5846,12 +5846,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="96"/>
         <source>subtitle_file</source>
-        <translation type="unfinished"></translation>
+        <translation>subtitle_file</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="151"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
-        <translation type="unfinished"></translation>
+        <translation>最初のビデオに読み込まれる字幕ファイルを指定します。</translation>
     </message>
 </context>
 <context>
