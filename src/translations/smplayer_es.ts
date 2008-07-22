@@ -280,12 +280,12 @@
     <message>
         <location filename="../about.cpp" line="60"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Usando Qt %1 (compilado con Qt %2)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="179"/>
         <source>Slovenian</source>
-        <translation type="unfinished">Esloveno</translation>
+        <translation>Esloveno</translation>
     </message>
 </context>
 <context>
