@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -280,12 +281,12 @@
     <message>
         <location filename="../about.cpp" line="60"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>S-a folosit Qt %1 (compilat cu Qt %2)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="179"/>
         <source>Slovenian</source>
-        <translation type="unfinished">Slovenă</translation>
+        <translation>Slovenă</translation>
     </message>
 </context>
 <context>
@@ -3230,7 +3231,7 @@ Doriți suprascrierea?</translation>
     <message>
         <location filename="../playlistpreferences.ui" line="28"/>
         <source>&amp;Play files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Redare fișiere de la început</translation>
     </message>
 </context>
 <context>
@@ -5839,7 +5840,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="151"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
-        <translation type="unfinished"></translation>
+        <translation>specifică fișierul ce conține subtitrarea ce va fi încărcat pentru primul film.</translation>
     </message>
 </context>
 <context>
