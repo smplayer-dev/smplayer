@@ -57,7 +57,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
                 " (" + tr("Portable Edition") + ")" +
 #endif
         "<br>" +
-        tr("Using Qt %1 (compiled with Qt %2)").arg(qVersion()).arg(QT_VERSION_STR) + "<br><br" +
+        tr("Using Qt %1 (compiled with Qt %2)").arg(qVersion()).arg(QT_VERSION_STR) + "<br><br>" +
 		mplayer_version +
 		tr("Visit our web for updates:") +"<br>"+ 
         link("http://smplayer.berlios.de") + "<br>" + 
