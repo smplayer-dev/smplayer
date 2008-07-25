@@ -5337,17 +5337,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="297"/>
         <source>Cache for audio CDs</source>
-        <translation type="unfinished"></translation>
+        <translation>Caché para CDs de audio</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="299"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opción especifica cuanta memoria se usará (en kBytes) cuando se rellene la caché para reproducir un CD de audio.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="502"/>
         <source>Cache for &amp;audio CDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>Caché para CDs de &amp;audio:</translation>
     </message>
 </context>
 <context>
