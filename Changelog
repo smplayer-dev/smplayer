@@ -1,5 +1,9 @@
 [b]Version 0.6.2[/b]:
 
+(2008-07-25)
+ * Added an option in Preferences->Performance to set the cache for
+   audio CDs.
+
 (2008-07-22)
  * (Windows) Added to the file associations section the playlist 
    extensions.

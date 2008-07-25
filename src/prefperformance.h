@@ -54,6 +54,9 @@ protected:
 	void setCacheForDVDs(int n);
 	int cacheForDVDs();
 
+	void setCacheForAudioCDs(int n);
+	int cacheForAudioCDs();
+
 	void setPriority(int n);
 	int priority();
 
