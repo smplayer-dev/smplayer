@@ -285,12 +285,12 @@
     <message>
         <location filename="../about.cpp" line="60"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Using Qt %1 (compilado com Qt %2)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="179"/>
         <source>Slovenian</source>
-        <translation type="unfinished">Esloveno</translation>
+        <translation>Esloveno</translation>
     </message>
 </context>
 <context>
@@ -5706,17 +5706,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="297"/>
         <source>Cache for audio CDs</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache para CDs Áudio</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="299"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opção especifica a quantidade de memória (em KB) a usar, para carregar em cache um CD Áudio.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="502"/>
         <source>Cache for &amp;audio CDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache para CDs &amp;Áudio:</translation>
     </message>
 </context>
 <context>
