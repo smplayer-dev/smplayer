@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -275,12 +276,12 @@
     <message>
         <location filename="../about.cpp" line="60"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilise Qt %1 (compilé avec Qt %2)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="179"/>
         <source>Slovenian</source>
-        <translation type="unfinished"></translation>
+        <translation>Slovène</translation>
     </message>
 </context>
 <context>
@@ -1842,7 +1843,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="161"/>
         <source>&amp;Copy link to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Copier dans le presse papier</translation>
     </message>
 </context>
 <context>
@@ -2234,7 +2235,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="44"/>
         <source>Danish</source>
-        <translation type="unfinished"></translation>
+        <translation>Danois</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="171"/>
@@ -2264,7 +2265,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="174"/>
         <source>Spanish</source>
-        <translation type="unfinished">Espagnol</translation>
+        <translation>Espagnol</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="51"/>
@@ -2299,7 +2300,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="177"/>
         <source>French</source>
-        <translation type="unfinished">Français</translation>
+        <translation>Français</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="58"/>
@@ -2674,7 +2675,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="194"/>
         <source>Swedish</source>
-        <translation type="unfinished">Suédois</translation>
+        <translation>Suédois</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="135"/>
@@ -3223,7 +3224,7 @@ Voulez vous l&apos;écraser?</translation>
     <message>
         <location filename="../playlistpreferences.ui" line="28"/>
         <source>&amp;Play files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Jouer ces fichiers par le début</translation>
     </message>
 </context>
 <context>
@@ -4145,7 +4146,8 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
         <location filename="../prefgeneral.ui" line="753"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;Aucune information pour le moment&gt;
+Aucune information pour le moment.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="687"/>
@@ -5304,7 +5306,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="247"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cette option permet de passer le filtre boucle (alias &quot;deblocking&quot;) durant le décodage H.264. Depuis que les filtrées sont supposées être utilisées comme référence pour le décodage des images dépendantes, cela a un pire effet sur la qualité que ne pas utiliser le &quot;deblocking&quot; comme par exemple sur les vidéos MPEG-2. Mais au moins pour les vidéos HDTV à haut débit, cela permet d&apos;avoir une montée en vitesse sans aucune perte de qualité visible.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="248"/>
@@ -5329,17 +5331,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="297"/>
         <source>Cache for audio CDs</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache pour les CDs audios</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="299"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cette option spécifie combien de mémoire (en Ko) doit être réservée pour précacher un CD Audio.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="502"/>
         <source>Cache for &amp;audio CDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache pour les CDs &amp;audios :</translation>
     </message>
 </context>
 <context>
@@ -5843,12 +5845,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="96"/>
         <source>subtitle_file</source>
-        <translation type="unfinished"></translation>
+        <translation>fichier_soustitre</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="151"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
-        <translation type="unfinished"></translation>
+        <translation>spécifie le fichier sous-titre qui doit être chargé pour la première vidéo.</translation>
     </message>
 </context>
 <context>
