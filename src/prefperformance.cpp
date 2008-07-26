@@ -76,6 +76,7 @@ void PrefPerformance::setData(Preferences * pref) {
 	setCacheForStreams( pref->cache_for_streams );
 	setCacheForDVDs( pref->cache_for_dvds );
 	setCacheForAudioCDs( pref->cache_for_audiocds );
+	setCacheForVCDs( pref->cache_for_vcds );
 
 	setPriority( pref->priority );
 	setFrameDrop( pref->frame_drop );
@@ -97,6 +98,7 @@ void PrefPerformance::getData(Preferences * pref) {
 	TEST_AND_SET(pref->cache_for_streams, cacheForStreams());
 	TEST_AND_SET(pref->cache_for_dvds, cacheForDVDs());
 	TEST_AND_SET(pref->cache_for_audiocds, cacheForAudioCDs());
+	TEST_AND_SET(pref->cache_for_vcds, cacheForVCDs());
 
 	TEST_AND_SET(pref->priority, priority());
 	TEST_AND_SET(pref->frame_drop, frameDrop());
@@ -141,6 +143,14 @@ void PrefPerformance::setCacheForAudioCDs(int n) {
 
 int PrefPerformance::cacheForAudioCDs() {
 	return cache_cds_spin->value();
+}
+
+void PrefPerformance::setCacheForVCDs(int n) {
+	cache_vcds_spin->setValue(n);
+}
+
+int PrefPerformance::cacheForVCDs() {
+	return cache_vcds_spin->value();
 }
 
 void PrefPerformance::setPriority(int n) {
@@ -297,6 +307,10 @@ void PrefPerformance::createHelp() {
 	setWhatsThis(cache_cds_spin, tr("Cache for audio CDs"), 
 		tr("This option specifies how much memory (in kBytes) to use when "
            "precaching an audio CD.") );
+
+	setWhatsThis(cache_vcds_spin, tr("Cache for VCDs"), 
+		tr("This option specifies how much memory (in kBytes) to use when "
+           "precaching a VCD.") );
 }
 
 #include "moc_prefperformance.cpp"
