@@ -2,7 +2,7 @@ Version 0.6.2.
 
 Most important changes since 0.6.1:
 
- * Added an audio equalizer.
+ * Added an audio equalizer (please read Audio_equalizer.txt).
  * Added a dialog to search and download subtitles from opensubtitles.org
    (Subtitles -> Find subtitles on the web)
  * The toolbars can be configured. The user can remove, add or change the

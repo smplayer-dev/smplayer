@@ -1,0 +1,16 @@
+Some notes about the audio equalizer.
+
+Version 0.6.2 adds an audio equalizer (available in the menu Audio). 
+
+Users of the normal (official) mplayer will need to click on the "Apply"
+button so the changes in the controls of the equalizer could take effect.
+
+It's possible though that changes take effect immediately while moving the
+controls. For that it's necessary to patch mplayer. The patch was sent to
+the mplayer-dev-eng mailing list:
+http://lists.mplayerhq.hu/pipermail/mplayer-dev-eng/2008-June/057970.html
+
+You can also download it from the smplayer svn:
+http://smplayer.svn.sourceforge.net/viewvc/smplayer/mplayer-builds/patches/patcheq.diff
+
+That patch adds a new slave command for mplayer (af_eq_set_bands).
