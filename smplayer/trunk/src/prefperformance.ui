@@ -5,8 +5,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>452</width>
-    <height>485</height>
+    <width>410</width>
+    <height>484</height>
    </rect>
   </property>
   <layout class="QVBoxLayout" >
@@ -348,32 +348,12 @@
        <property name="spacing" >
         <number>6</number>
        </property>
-       <item row="4" column="2" >
-        <widget class="QLabel" name="label_10" >
+       <item row="5" column="2" >
+        <widget class="QLabel" name="label_11" >
          <property name="text" >
           <string>KB</string>
          </property>
         </widget>
-       </item>
-       <item row="4" column="1" >
-        <widget class="QSpinBox" name="cache_cds_spin" >
-         <property name="maximum" >
-          <number>10000</number>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="2" >
-        <spacer>
-         <property name="orientation" >
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeHint" >
-          <size>
-           <width>20</width>
-           <height>351</height>
-          </size>
-         </property>
-        </spacer>
        </item>
        <item row="3" column="3" >
         <spacer>
@@ -496,6 +476,19 @@
          </property>
         </widget>
        </item>
+       <item row="6" column="2" >
+        <spacer>
+         <property name="orientation" >
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" >
+          <size>
+           <width>20</width>
+           <height>351</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
        <item row="4" column="0" >
         <widget class="QLabel" name="label_9" >
          <property name="text" >
@@ -503,6 +496,20 @@
          </property>
          <property name="buddy" >
           <cstring>cache_cds_spin</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1" >
+        <widget class="QSpinBox" name="cache_cds_spin" >
+         <property name="maximum" >
+          <number>10000</number>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="2" >
+        <widget class="QLabel" name="label_10" >
+         <property name="text" >
+          <string>KB</string>
          </property>
         </widget>
        </item>
@@ -514,6 +521,36 @@
          <property name="sizeHint" >
           <size>
            <width>221</width>
+           <height>27</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="5" column="1" >
+        <widget class="QSpinBox" name="cache_vcds_spin" >
+         <property name="maximum" >
+          <number>10000</number>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0" >
+        <widget class="QLabel" name="label_12" >
+         <property name="text" >
+          <string>Cache for &amp;VCDs:</string>
+         </property>
+         <property name="buddy" >
+          <cstring>cache_vcds_spin</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="3" >
+        <spacer>
+         <property name="orientation" >
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" >
+          <size>
+           <width>201</width>
            <height>27</height>
           </size>
          </property>
@@ -546,6 +583,8 @@
   <tabstop>cache_files_spin</tabstop>
   <tabstop>cache_streams_spin</tabstop>
   <tabstop>cache_dvds_spin</tabstop>
+  <tabstop>cache_cds_spin</tabstop>
+  <tabstop>cache_vcds_spin</tabstop>
  </tabstops>
  <resources/>
  <connections>

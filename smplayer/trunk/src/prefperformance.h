@@ -57,6 +57,9 @@ protected:
 	void setCacheForAudioCDs(int n);
 	int cacheForAudioCDs();
 
+	void setCacheForVCDs(int n);
+	int cacheForVCDs();
+
 	void setPriority(int n);
 	int priority();
 
