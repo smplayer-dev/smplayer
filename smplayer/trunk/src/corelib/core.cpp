@@ -1486,7 +1486,7 @@ void Core::startMplayer( QString file, double seek ) {
 		default: cache = 0;
 	}
 
-	if (cache > 0) {
+	if (cache > 31) { // Minimum value for cache = 32
 		proc->addArgument("-cache");
 		proc->addArgument( QString::number( cache ) );
 	} else {
