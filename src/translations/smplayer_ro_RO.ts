@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1372,7 +1373,7 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
     <message>
         <location filename="../basegui.cpp" line="1130"/>
         <source>Find subtitles on &amp;OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>Căutarea subtitrărilor în paginile &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1131"/>
@@ -5360,17 +5361,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="311"/>
         <source>Cache for VCDs</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache pentru VCD</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="313"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
-        <translation type="unfinished"></translation>
+        <translation>Această opțiune stabilește câtă memorie (în kBytes) se va folosi la pre-încărcarea unui VCD în cache.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="539"/>
         <source>Cache for &amp;VCDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache pentru &amp;VCD:</translation>
     </message>
 </context>
 <context>
