@@ -1342,16 +1342,6 @@ Konfigurazio morroia ikusko da orain, egin ahal izan dezazun.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1131"/>
-        <source>Upl&amp;oad subtitles...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1130"/>
-        <source>Find subtitles on the &amp;web...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1097"/>
         <source>E&amp;qualizer</source>
         <translation type="unfinished"></translation>
@@ -1359,6 +1349,16 @@ Konfigurazio morroia ikusko da orain, egin ahal izan dezazun.</translation>
     <message>
         <location filename="../basegui.cpp" line="1191"/>
         <source>Reset audio equalizer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1130"/>
+        <source>Find subtitles on &amp;OpenSubtitles.org...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1131"/>
+        <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5029,7 +5029,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="223"/>
+        <location filename="../prefperformance.cpp" line="233"/>
         <source>Performance</source>
         <translation>Performantzia</translation>
     </message>
@@ -5079,17 +5079,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>gelditua</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="481"/>
+        <location filename="../prefperformance.ui" line="512"/>
         <source>KB</source>
         <translation>KB</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="425"/>
+        <location filename="../prefperformance.ui" line="405"/>
         <source>Setting a cache may improve performance on slow media</source>
         <translation>Cache bat ezartzeak euskarri geldoen performatzia hobetuko du</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="233"/>
+        <location filename="../prefperformance.cpp" line="243"/>
         <source>Allow frame drop</source>
         <translation>Onartu marko baztertzea</translation>
     </message>
@@ -5099,32 +5099,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Sinkronizazioa</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="256"/>
+        <location filename="../prefperformance.cpp" line="266"/>
         <source>Audio/video auto synchronization</source>
         <translation>Audio/bideo auto-sinkronizazioa</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="230"/>
+        <location filename="../prefperformance.cpp" line="240"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Mplayer-en prozusu lehnetasuna ezarri Windowspean aurre-ezarrita lehentasun eskuragrrien artean.&lt;br&gt;&lt;b&gt;OHARRA:&lt;/b&gt; DEnbora-errealeko lehentasuna erabiltzeak sistema geldotzea egin dezake.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="234"/>
+        <location filename="../prefperformance.cpp" line="244"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Zenbait markoren bistaratzea baztertu sistema geldoetan A/B sinkronizazioa mantentzeko.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="236"/>
+        <location filename="../prefperformance.cpp" line="246"/>
         <source>Allow hard frame drop</source>
         <translation>Onartu marko baztertze gogorra</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="238"/>
+        <location filename="../prefperformance.cpp" line="248"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>MArko baztertze handiagoa (dekodetzea apurtzen). Irudi distotsioa egin dezake!</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="258"/>
+        <location filename="../prefperformance.cpp" line="268"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>Gradualki dohitu A/B sinkronia audio atzerapenean oinarriturik.</translation>
     </message>
@@ -5164,32 +5164,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Kapituluetara &amp;joate azkarra dvd-etan</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="275"/>
+        <location filename="../prefperformance.cpp" line="285"/>
         <source>Create index if needed</source>
         <translation>Indize bat soru behar bada</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="280"/>
+        <location filename="../prefperformance.cpp" line="290"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
         <translation>Berreraiki fitxategi indizea aurkitzen ez bada, saltoak egiteko aukera emanaz. ERabilgarria hondaturiko/amaitugabeko deskarga edo gaizki eratutako fitxategientzat. Auekra honek euskarriak saltoak egitea onartzen badu bakarrik dago erabilgarri (adib ez sarrera estandarrean, tutu, ...)&lt;br&gt;Oharra: Indize sorrerak denbora bat har dezake.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="260"/>
+        <location filename="../prefperformance.cpp" line="270"/>
         <source>Fast audio track switching</source>
         <translation>Audio pista aldaketa azkarra</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="270"/>
+        <location filename="../prefperformance.cpp" line="280"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Kapituluetara salto azkarra dvd-etan</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="272"/>
+        <location filename="../prefperformance.cpp" line="282"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Hautatua dagoenean kapituluetara salto egiteko metodo azkarrena erabilzen saiatuko da, baina ez du disko guztiekin funtzionatuko.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="240"/>
+        <location filename="../prefperformance.cpp" line="250"/>
         <source>Skip loop filter</source>
         <translation>Saltatu begizta iragazkia</translation>
     </message>
@@ -5199,37 +5199,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="267"/>
+        <location filename="../prefperformance.cpp" line="277"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="284"/>
+        <location filename="../prefperformance.cpp" line="294"/>
         <source>Cache for files</source>
         <translation>Fitxategien cache-a</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="286"/>
+        <location filename="../prefperformance.cpp" line="296"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>Aukera hone fitxategiak aurrekatxeatzean erabiliko den memoria kopurua ezarten du (kBytetan).</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="288"/>
+        <location filename="../prefperformance.cpp" line="298"/>
         <source>Cache for streams</source>
         <translation>Kooronte katxea</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="290"/>
+        <location filename="../prefperformance.cpp" line="300"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>Aukera hone URLak aurrekatxeatzeane rbailiko den memoria kopurua ezarten du (kBytetan).</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="292"/>
+        <location filename="../prefperformance.cpp" line="302"/>
         <source>Cache for DVDs</source>
         <translation>DVD katxea</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="295"/>
+        <location filename="../prefperformance.cpp" line="305"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>Aukera honek DVD bat aurre-katxeazean erabiliko den memoria kopurua (kBytetan) ezartzen du.&lt;br&gt;&lt;b&gt;Oharra:&lt;/b&gt; saltoak agian ez dute funtzionatuko (kapitulu aldaketa barne) DVDekin katxea erabiltzean.</translation>
     </message>
@@ -5244,17 +5244,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Katxea</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="415"/>
+        <location filename="../prefperformance.ui" line="395"/>
         <source>Cache for &amp;DVDs:</source>
         <translation>&amp;DVDen katxea:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="435"/>
+        <location filename="../prefperformance.ui" line="415"/>
         <source>Cache for &amp;local files:</source>
         <translation>Fitxategi &amp;lokalen katxea:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="445"/>
+        <location filename="../prefperformance.ui" line="425"/>
         <source>Cache for &amp;streams:</source>
         <translation>&amp;Korronteen katxea:</translation>
     </message>
@@ -5279,48 +5279,63 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Begiazta i&amp;ragazkia</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="247"/>
+        <location filename="../prefperformance.cpp" line="257"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="248"/>
+        <location filename="../prefperformance.cpp" line="258"/>
         <source>Possible values:</source>
         <translation>Auekrako balioak:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="249"/>
+        <location filename="../prefperformance.cpp" line="259"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>&lt;b&gt;Gaiturik&lt;/b&gt;: adabaki iragazkia ez da baztertuko</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="251"/>
+        <location filename="../prefperformance.cpp" line="261"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;Baztertu (beti)&lt;/b&gt;: begizta iragazkia baztertu egingo da bideo erresoluzioa begiratu gabe</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="254"/>
+        <location filename="../prefperformance.cpp" line="264"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;Baztertu HD bideoetan bakarrik&lt;/b&gt;: begizta iragazkiak %1 edo handiagoak diren bideoetan bakarrik baztertuko da.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="282"/>
+        <location filename="../prefperformance.cpp" line="292"/>
         <source>Cache</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="297"/>
+        <location filename="../prefperformance.cpp" line="307"/>
         <source>Cache for audio CDs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="299"/>
+        <location filename="../prefperformance.cpp" line="309"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="502"/>
+        <location filename="../prefperformance.ui" line="495"/>
         <source>Cache for &amp;audio CDs:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="311"/>
+        <source>Cache for VCDs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="313"/>
+        <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="539"/>
+        <source>Cache for &amp;VCDs:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
