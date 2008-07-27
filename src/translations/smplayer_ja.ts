@@ -1368,12 +1368,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1130"/>
         <source>Find subtitles on &amp;OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenSubtitles.org から字幕を検索(&amp;O)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1131"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenSubtitles.org へ字幕をアップロード(&amp;B)...</translation>
     </message>
 </context>
 <context>
@@ -5257,32 +5257,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="294"/>
         <source>Cache for files</source>
-        <translation>ファイルをキャッシュする</translation>
+        <translation>ファイルのキャッシュ</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="296"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
-        <translation>このオプションはどのくらいのメモリ (k バイト) をファイルのプリキャッシュ時に使用するかを指定します。</translation>
+        <translation>このオプションはファイルのプリキャッシュ時に使用するメモリ (k バイト) を指定します。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="298"/>
         <source>Cache for streams</source>
-        <translation>ストリームをキャッシュする</translation>
+        <translation>ストリームのキャッシュ</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="300"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
-        <translation>このオプションはどのくらいのメモリ (k バイト) を URL のプリキャッシュ時に使用するかを指定します。</translation>
+        <translation>このオプションは URL のプリキャッシュ時に使用するメモリ (k バイト) を指定します。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="302"/>
         <source>Cache for DVDs</source>
-        <translation>DVD をキャッシュする</translation>
+        <translation>DVD のキャッシュ</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="305"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
-        <translation>このオプションはどのくらいのメモリ (k バイト) を DVD のプリキャッシュ時に使用するかを指定します。&lt;br&gt;&lt;b&gt;警告:&lt;/b&gt; シークは DVD のキャッシュの使用時に適切に動作しない可能性があります (チャプタの切り替えを含む)。</translation>
+        <translation>このオプションは DVD のプリキャッシュ時に使用するメモリ (k バイト) を指定します。&lt;br&gt;&lt;b&gt;警告:&lt;/b&gt; シークは DVD のキャッシュの使用時に適切に動作しない可能性があります (チャプタの切り替えを含む)。</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="321"/>
@@ -5297,17 +5297,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="395"/>
         <source>Cache for &amp;DVDs:</source>
-        <translation>DVD をキャッシュする(&amp;D):</translation>
+        <translation>DVD のキャッシュ(&amp;D):</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="415"/>
         <source>Cache for &amp;local files:</source>
-        <translation>ローカル ファイルをキャッシュする(&amp;L):</translation>
+        <translation>ローカル ファイルのキャッシュ(&amp;L):</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="425"/>
         <source>Cache for &amp;streams:</source>
-        <translation>ストリームをキャッシュする&amp;S):</translation>
+        <translation>ストリームのキャッシュ&amp;S):</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="64"/>
@@ -5357,32 +5357,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="307"/>
         <source>Cache for audio CDs</source>
-        <translation type="unfinished"></translation>
+        <translation>オーディオ CD のキャッシュ</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="309"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションはオーディオ CD のプリキャッシュ時に使用するメモリ (k バイト) を指定します。</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="495"/>
         <source>Cache for &amp;audio CDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>オーディオ CD のキャッシュ(&amp;A):</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="311"/>
         <source>Cache for VCDs</source>
-        <translation type="unfinished"></translation>
+        <translation>VCD のキャッシュ</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="313"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションは VCD のプリキャッシュ時に使用するメモリ (k バイト) を指定します。</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="539"/>
         <source>Cache for &amp;VCDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>VCD のキャッシュ(&amp;V):</translation>
     </message>
 </context>
 <context>
