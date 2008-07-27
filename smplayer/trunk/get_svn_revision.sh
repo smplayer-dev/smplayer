@@ -2,7 +2,7 @@
 
 # This file is taken from the MPlayer sources, and adapted a little bit.
 # It gets the SVN revision number and then saves it in two files:
-# src/svn_revision.h and svn_revision.txt.
+# src/svn_revision.h and svn_revision
 
 test "$1" && extra="-$1"
 
@@ -17,5 +17,5 @@ OLD_REVISION=`cat src/svn_revision.h 2> /dev/null`
 # Update version.h only on revision changes to avoid spurious rebuilds
 if test "$NEW_REVISION" != "$OLD_REVISION"; then
     echo "$NEW_REVISION" > src/svn_revision.h
-	echo "SVN-r${svn_revision}${extra}" > svn_revision.txt
+	echo "SVN-r${svn_revision}${extra}" > svn_revision
 fi
