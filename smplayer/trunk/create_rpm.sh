@@ -2,7 +2,7 @@
 #svn up
 ./get_svn_revision.sh
 
-SVN_REVISION=`cat svn_revision.txt | sed -e 's/SVN-/svn_/g'`
+SVN_REVISION=`cat svn_revision | sed -e 's/SVN-/svn_/g'`
 SMPVERSION=`cat src/version.cpp | grep "#define VERSION " | sed -e 's/#define VERSION "//g' -e 's/ /_/g' -e 's/"$//g'`
 
 svn export . /tmp/smplayer-${SMPVERSION}_${SVN_REVISION}
