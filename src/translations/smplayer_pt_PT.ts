@@ -819,7 +819,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1238"/>
         <source>&amp;Aspect ratio</source>
-        <translation>&amp;Aspect ratio (Proporção)</translation>
+        <translation>Rácio de &amp;Aspecto (Proporção)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2192"/>
@@ -1571,12 +1571,12 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="1130"/>
         <source>Find subtitles on &amp;OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>Encontrar legendas em &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1131"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>Enviar le&amp;gendas para &amp;OpenSubtitles.org...</translation>
     </message>
 </context>
 <context>
@@ -5731,17 +5731,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="311"/>
         <source>Cache for VCDs</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache para VCDs</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="313"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opção especifica a quantidade de memória (em KB) a usar, para carregar em cache um VCD.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="539"/>
         <source>Cache for &amp;VCDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache para &amp;VCDs:</translation>
     </message>
 </context>
 <context>
