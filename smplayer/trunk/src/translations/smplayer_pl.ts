@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1369,12 +1370,12 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../basegui.cpp" line="1130"/>
         <source>Find subtitles on &amp;OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>Znajdź napisy w &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1131"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyślij &amp;napisy do OpenSubtitles.org...</translation>
     </message>
 </context>
 <context>
@@ -5341,32 +5342,32 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefperformance.cpp" line="307"/>
         <source>Cache for audio CDs</source>
-        <translation type="unfinished"></translation>
+        <translation>Bufor dla audio CD</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="309"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcja ta precyzuje ile pamięci (w kb) należy użyć dla buforowania audio CD.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="495"/>
         <source>Cache for &amp;audio CDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bufor dla &amp;audio CD:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="311"/>
         <source>Cache for VCDs</source>
-        <translation type="unfinished"></translation>
+        <translation>Bufor dla VCD</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="313"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcja ta precyzuje ile pamięci (w kb) należy użyć dla buforowania VCD.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="539"/>
         <source>Cache for &amp;VCDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bufor dla &amp;VCD:</translation>
     </message>
 </context>
 <context>
