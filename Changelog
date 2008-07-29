@@ -1,5 +1,9 @@
 [b]Version 0.6.2[/b]:
 
+(2008-07-28)
+ * Now the default cache for local files is 2000 KB, and for audio CDs and VCDs 
+   is 1000 KB.
+
 (2008-07-26)
  * Added an option in Preferences->Performance to set the cache for VCDs.
 

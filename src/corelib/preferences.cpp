@@ -93,11 +93,11 @@ void Preferences::reset() {
 	fast_chapter_change = false;
 #endif
 
-	cache_for_files = 0;
+	cache_for_files = 2000;
 	cache_for_streams = 1000;
 	cache_for_dvds = 0; // not recommended to use cache for dvds
-	cache_for_vcds = 0;
-	cache_for_audiocds = 0;
+	cache_for_vcds = 1000;
+	cache_for_audiocds = 1000;
 
 
 	use_mplayer_window = FALSE;
