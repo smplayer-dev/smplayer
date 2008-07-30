@@ -4,7 +4,7 @@ Most important changes since 0.6.1:
 
  * Added an audio equalizer (please read Audio_equalizer.txt).
  * Added a dialog to search and download subtitles from opensubtitles.org
-   (Subtitles -> Find subtitles on the web)
+   (See Finding_subtitles_easily.txt).
  * The toolbars can be configured. The user can remove, add or change the
    order of the buttons. Right now it can only be done by editing manually
    the configuration file. A graphical editor will be added in the next

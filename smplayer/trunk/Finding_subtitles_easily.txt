@@ -1,0 +1,20 @@
+In smplayer 0.6.2 there's a new dialog which allows you to find subtitle
+files very easily.
+
+The dialog can be opened with the option "Find subtitles on OpenSubtitles.org"
+in the Subtitles menu.
+
+It will automatically look for subtitles for the video you're currently
+playing (or the previous video if none is playing).
+
+The search is not done based on the file's name but on a hash which is
+calculated from the file, so it doesn't matter if you renamed the file,
+it will find the right subtitles for the file.
+
+To download a subtitle, just double click on it or click on the Download
+button. That would open your favorite web browser to actually download 
+the file.
+
+You can also upload subtitles to OpenSubtitles.org, you'll find an option
+for that in the Subtitles menu. That would just open a web page with an upload
+form (java required).
