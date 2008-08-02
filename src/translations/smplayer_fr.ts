@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1368,12 +1369,12 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="1130"/>
         <source>Find subtitles on &amp;OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>Trouver des sous-titres sur &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1131"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>Envoyer des sous-titres sur OpenSu&amp;btitles.org...</translation>
     </message>
 </context>
 <context>
@@ -5355,17 +5356,17 @@ Aucune information pour le moment.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="311"/>
         <source>Cache for VCDs</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache pour les VCDs</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="313"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cette option spécifie la quantité de mémoire (en Ko) à utiliser pour précacher un VCD.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="539"/>
         <source>Cache for &amp;VCDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache pour les &amp;VCDs :</translation>
     </message>
 </context>
 <context>
