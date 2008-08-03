@@ -5,12 +5,9 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>595</width>
-    <height>529</height>
+    <width>468</width>
+    <height>465</height>
    </rect>
-  </property>
-  <property name="windowIcon" >
-   <iconset/>
   </property>
   <layout class="QVBoxLayout" >
    <property name="margin" >
@@ -198,7 +195,7 @@
            </spacer>
           </item>
           <item row="1" column="1" >
-           <widget class="QCheckBox" name="dont_remember_time_check" >
+           <widget class="QCheckBox" name="remember_time_check" >
             <property name="enabled" >
              <bool>false</bool>
             </property>
@@ -211,7 +208,7 @@
              </sizepolicy>
             </property>
             <property name="text" >
-             <string>&amp;Don't remember time position (files start playing from the beginning)</string>
+             <string>Remember &amp;time position</string>
             </property>
            </widget>
           </item>
@@ -276,6 +273,13 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="postprocessing_check" >
+         <property name="text" >
+          <string>&amp;Enable postprocessing by default</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <layout class="QHBoxLayout" >
          <property name="margin" >
           <number>0</number>
@@ -284,24 +288,17 @@
           <number>6</number>
          </property>
          <item>
-          <widget class="QCheckBox" name="postprocessing_check" >
-           <property name="text" >
-            <string>&amp;Enable postprocessing by default</string>
-           </property>
-          </widget>
-         </item>
-         <item>
           <spacer>
            <property name="orientation" >
             <enum>Qt::Horizontal</enum>
            </property>
            <property name="sizeType" >
-            <enum>QSizePolicy::Expanding</enum>
+            <enum>QSizePolicy::Maximum</enum>
            </property>
            <property name="sizeHint" >
             <size>
-             <width>51</width>
-             <height>21</height>
+             <width>20</width>
+             <height>20</height>
             </size>
            </property>
           </spacer>
@@ -328,6 +325,19 @@
             <number>1</number>
            </property>
           </widget>
+         </item>
+         <item>
+          <spacer>
+           <property name="orientation" >
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" >
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
          </item>
         </layout>
        </item>
@@ -434,6 +444,13 @@
            <number>6</number>
           </property>
           <item>
+           <widget class="QCheckBox" name="softvol_check" >
+            <property name="text" >
+             <string>Use s&amp;oftware volume control</string>
+            </property>
+           </widget>
+          </item>
+          <item>
            <layout class="QHBoxLayout" >
             <property name="margin" >
              <number>0</number>
@@ -442,24 +459,17 @@
              <number>6</number>
             </property>
             <item>
-             <widget class="QCheckBox" name="softvol_check" >
-              <property name="text" >
-               <string>Use s&amp;oftware volume control</string>
-              </property>
-             </widget>
-            </item>
-            <item>
              <spacer>
               <property name="orientation" >
                <enum>Qt::Horizontal</enum>
               </property>
               <property name="sizeType" >
-               <enum>QSizePolicy::Expanding</enum>
+               <enum>QSizePolicy::Maximum</enum>
               </property>
               <property name="sizeHint" >
                <size>
-                <width>70</width>
-                <height>21</height>
+                <width>20</width>
+                <height>20</height>
                </size>
               </property>
              </spacer>
@@ -493,12 +503,32 @@
               </property>
              </widget>
             </item>
+            <item>
+             <spacer>
+              <property name="orientation" >
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" >
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
            </layout>
           </item>
           <item>
            <widget class="QCheckBox" name="volnorm_check" >
             <property name="text" >
              <string>Volume &amp;normalization by default</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="change_volume_check" >
+            <property name="text" >
+             <string>&amp;Change volume on every file</string>
             </property>
            </widget>
           </item>
@@ -511,9 +541,46 @@
              <number>6</number>
             </property>
             <item>
-             <widget class="QCheckBox" name="change_volume_check" >
+             <spacer>
+              <property name="orientation" >
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType" >
+               <enum>QSizePolicy::Maximum</enum>
+              </property>
+              <property name="sizeHint" >
+               <size>
+                <width>20</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QLabel" name="use_volume_label" >
+              <property name="enabled" >
+               <bool>false</bool>
+              </property>
               <property name="text" >
-               <string>&amp;Change volume on every file</string>
+               <string>Change volume just before p&amp;laying</string>
+              </property>
+              <property name="buddy" >
+               <cstring>use_volume_combo</cstring>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="TristateCombo" name="use_volume_combo" >
+              <property name="enabled" >
+               <bool>false</bool>
+              </property>
+              <property name="sizePolicy" >
+               <sizepolicy>
+                <hsizetype>5</hsizetype>
+                <vsizetype>0</vsizetype>
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
               </property>
              </widget>
             </item>
@@ -524,60 +591,11 @@
               </property>
               <property name="sizeHint" >
                <size>
-                <width>31</width>
+                <width>40</width>
                 <height>20</height>
                </size>
               </property>
              </spacer>
-            </item>
-            <item>
-             <layout class="QHBoxLayout" >
-              <property name="margin" >
-               <number>0</number>
-              </property>
-              <property name="spacing" >
-               <number>6</number>
-              </property>
-              <item>
-               <widget class="QLabel" name="default_volume_label" >
-                <property name="enabled" >
-                 <bool>false</bool>
-                </property>
-                <property name="text" >
-                 <string>&amp;Default volume:</string>
-                </property>
-                <property name="wordWrap" >
-                 <bool>false</bool>
-                </property>
-                <property name="buddy" >
-                 <cstring>initial_volume_slider</cstring>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QSlider" name="initial_volume_slider" >
-                <property name="enabled" >
-                 <bool>false</bool>
-                </property>
-                <property name="maximum" >
-                 <number>100</number>
-                </property>
-                <property name="orientation" >
-                 <enum>Qt::Horizontal</enum>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLabel" name="initial_volume_label" >
-                <property name="enabled" >
-                 <bool>false</bool>
-                </property>
-                <property name="text" >
-                 <string>0</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
             </item>
            </layout>
           </item>
@@ -595,7 +613,7 @@
                <enum>Qt::Horizontal</enum>
               </property>
               <property name="sizeType" >
-               <enum>QSizePolicy::Minimum</enum>
+               <enum>QSizePolicy::Maximum</enum>
               </property>
               <property name="sizeHint" >
                <size>
@@ -606,22 +624,41 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="use_volume_label" >
+             <widget class="QLabel" name="default_volume_label" >
               <property name="enabled" >
                <bool>false</bool>
               </property>
               <property name="text" >
-               <string>Change volume just before p&amp;laying (avoids loud volume on startup)</string>
+               <string>&amp;Default volume:</string>
+              </property>
+              <property name="wordWrap" >
+               <bool>false</bool>
               </property>
               <property name="buddy" >
-               <cstring>use_volume_combo</cstring>
+               <cstring>initial_volume_slider</cstring>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="TristateCombo" name="use_volume_combo" >
+             <widget class="QSlider" name="initial_volume_slider" >
               <property name="enabled" >
                <bool>false</bool>
+              </property>
+              <property name="maximum" >
+               <number>100</number>
+              </property>
+              <property name="orientation" >
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="initial_volume_label" >
+              <property name="enabled" >
+               <bool>false</bool>
+              </property>
+              <property name="text" >
+               <string>0</string>
               </property>
              </widget>
             </item>
@@ -982,7 +1019,7 @@ For translators: don't translate this text, it will be replaced with another one
   <tabstop>vo_combo</tabstop>
   <tabstop>ao_combo</tabstop>
   <tabstop>remember_all_check</tabstop>
-  <tabstop>dont_remember_time_check</tabstop>
+  <tabstop>remember_time_check</tabstop>
   <tabstop>close_on_finish_check</tabstop>
   <tabstop>pause_if_hidden_check</tabstop>
   <tabstop>eq2_check</tabstop>
@@ -997,8 +1034,8 @@ For translators: don't translate this text, it will be replaced with another one
   <tabstop>softvol_max_spin</tabstop>
   <tabstop>volnorm_check</tabstop>
   <tabstop>change_volume_check</tabstop>
-  <tabstop>initial_volume_slider</tabstop>
   <tabstop>use_volume_combo</tabstop>
+  <tabstop>initial_volume_slider</tabstop>
   <tabstop>hwac3_check</tabstop>
   <tabstop>channels_combo</tabstop>
   <tabstop>scaletempo_combo</tabstop>
@@ -1044,7 +1081,7 @@ For translators: don't translate this text, it will be replaced with another one
   <connection>
    <sender>remember_all_check</sender>
    <signal>toggled(bool)</signal>
-   <receiver>dont_remember_time_check</receiver>
+   <receiver>remember_time_check</receiver>
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel" >

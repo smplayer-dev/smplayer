@@ -107,7 +107,7 @@ void PrefGeneral::setData(Preferences * pref) {
 	setVO( pref->vo );
 	setAO( pref->ao );
 	setRememberSettings( !pref->dont_remember_media_settings );
-	setDontRememberTimePos( pref->dont_remember_time_pos );
+	setRememberTimePos( !pref->dont_remember_time_pos );
 	setAudioLang( pref->audio_lang );
 	setSubtitleLang( pref->subtitle_lang );
 	setAudioTrack( pref->initial_audio_track );
@@ -156,7 +156,8 @@ void PrefGeneral::getData(Preferences * pref) {
 
 	bool dont_remember_ms = !rememberSettings();
     TEST_AND_SET(pref->dont_remember_media_settings, dont_remember_ms);
-    TEST_AND_SET(pref->dont_remember_time_pos, dontRememberTimePos());
+	bool dont_remember_time = !rememberTimePos();
+    TEST_AND_SET(pref->dont_remember_time_pos, dont_remember_time);
 
 	pref->audio_lang = audioLang();
     pref->subtitle_lang = subtitleLang();
@@ -253,12 +254,12 @@ bool PrefGeneral::rememberSettings() {
 	return remember_all_check->isChecked();
 }
 
-void PrefGeneral::setDontRememberTimePos(bool b) {
-	dont_remember_time_check->setChecked(b);
+void PrefGeneral::setRememberTimePos(bool b) {
+	remember_time_check->setChecked(b);
 }
 
-bool PrefGeneral::dontRememberTimePos() {
-	return dont_remember_time_check->isChecked();
+bool PrefGeneral::rememberTimePos() {
+	return remember_time_check->isChecked();
 }
 
 void PrefGeneral::setAudioLang(QString lang) {
@@ -495,7 +496,7 @@ void PrefGeneral::createHelp() {
            "play (audio track selected, volume, filters...). Uncheck this "
            "option if you don't like this feature.") );
 
-	setWhatsThis(dont_remember_time_check, tr("Don't remember time position"),
+	setWhatsThis(remember_time_check, tr("Remember time position"),
 		tr("If you check this option, smplayer will play all files from "
            "the beginning.") );
 
@@ -572,9 +573,6 @@ void PrefGeneral::createHelp() {
            "and will restore it when played again. For new files the default "
            "volume will be used.") );
 
-	setWhatsThis(initial_volume_slider, tr("Default volume"),
-		tr("Sets the initial volume that new files will use.") );
-
 	setWhatsThis(use_volume_combo, tr("Change volume just before playing"),
 		tr("If this option is checked the initial volume will be set by "
            "using the <i>-volume</i> option in MPlayer.<br> "
@@ -582,6 +580,9 @@ void PrefGeneral::createHelp() {
            "<i>-volume</i> OPTION, "
            "YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON'T PLAY "
            "ANYTHING.</b>") );
+
+	setWhatsThis(initial_volume_slider, tr("Default volume"),
+		tr("Sets the initial volume that new files will use.") );
 
 	setWhatsThis(channels_combo, tr("Channels by default"),
 		tr("Requests the number of playback channels. MPlayer "
