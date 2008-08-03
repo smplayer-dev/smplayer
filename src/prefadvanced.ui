@@ -9,9 +9,6 @@
     <height>529</height>
    </rect>
   </property>
-  <property name="windowIcon" >
-   <iconset/>
-  </property>
   <layout class="QVBoxLayout" >
    <property name="margin" >
     <number>0</number>
@@ -197,9 +194,9 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="not_clear_background_check" >
+        <widget class="QCheckBox" name="clear_background_check" >
          <property name="text" >
-          <string>&amp;Don't repaint the background of the video window</string>
+          <string>Repaint the backgroun&amp;d of the video window</string>
          </property>
         </widget>
        </item>
@@ -595,7 +592,7 @@ The drop-down lists may provide already made regular expression for several lang
   <tabstop>log_mplayer_save_name</tabstop>
   <tabstop>log_filter_edit</tabstop>
   <tabstop>mplayer_use_window_check</tabstop>
-  <tabstop>not_clear_background_check</tabstop>
+  <tabstop>clear_background_check</tabstop>
   <tabstop>colorkey_view</tabstop>
   <tabstop>changeButton</tabstop>
   <tabstop>shortnames_check</tabstop>
