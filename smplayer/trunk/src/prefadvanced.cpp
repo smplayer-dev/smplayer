@@ -171,11 +171,11 @@ QString PrefAdvanced::monitorAspect() {
 }
 
 void PrefAdvanced::setClearBackground(bool b) {
-	not_clear_background_check->setChecked(!b);
+	clear_background_check->setChecked(b);
 }
 
 bool PrefAdvanced::clearBackground() {
-	return !not_clear_background_check->isChecked();
+	return clear_background_check->isChecked();
 }
 
 void PrefAdvanced::setUseMplayerWindow(bool v) {
@@ -357,8 +357,8 @@ void PrefAdvanced::createHelp() {
            "probably won't work as expected when the MPlayer window has the "
            "focus.") );
 
-	setWhatsThis(not_clear_background_check, 
-        tr("Don't repaint the background of the video window"),
+	setWhatsThis(clear_background_check, 
+        tr("Repaint the background of the video window"),
 		tr("Checking this option may reduce flickering, but it also might "
            "produce that the video won't be displayed properly.") );
 
