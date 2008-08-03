@@ -64,8 +64,8 @@ protected:
 	void setRememberSettings(bool b);
 	bool rememberSettings();
 
-	void setDontRememberTimePos(bool b);
-	bool dontRememberTimePos();
+	void setRememberTimePos(bool b);
+	bool rememberTimePos();
 
 	void setAudioLang(QString lang);
 	QString audioLang();
