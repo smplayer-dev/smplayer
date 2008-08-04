@@ -184,7 +184,7 @@
              <enum>Qt::Horizontal</enum>
             </property>
             <property name="sizeType" >
-             <enum>QSizePolicy::Minimum</enum>
+             <enum>QSizePolicy::Fixed</enum>
             </property>
             <property name="sizeHint" >
              <size>
@@ -523,7 +523,7 @@
                <enum>Qt::Horizontal</enum>
               </property>
               <property name="sizeType" >
-               <enum>QSizePolicy::Maximum</enum>
+               <enum>QSizePolicy::Fixed</enum>
               </property>
               <property name="sizeHint" >
                <size>
@@ -590,7 +590,7 @@
                <enum>Qt::Horizontal</enum>
               </property>
               <property name="sizeType" >
-               <enum>QSizePolicy::Maximum</enum>
+               <enum>QSizePolicy::Fixed</enum>
               </property>
               <property name="sizeHint" >
                <size>
@@ -974,11 +974,6 @@ For translators: don't translate this text, it will be replaced with another one
  </widget>
  <customwidgets>
   <customwidget>
-   <class>MyComboBox</class>
-   <extends>QComboBox</extends>
-   <header>mycombobox.h</header>
-  </customwidget>
-  <customwidget>
    <class>FileChooser</class>
    <extends>QLineEdit</extends>
    <header>filechooser.h</header>
@@ -987,6 +982,11 @@ For translators: don't translate this text, it will be replaced with another one
    <class>TristateCombo</class>
    <extends>QComboBox</extends>
    <header>tristatecombo.h</header>
+  </customwidget>
+  <customwidget>
+   <class>MyComboBox</class>
+   <extends>QComboBox</extends>
+   <header>mycombobox.h</header>
   </customwidget>
  </customwidgets>
  <tabstops>
