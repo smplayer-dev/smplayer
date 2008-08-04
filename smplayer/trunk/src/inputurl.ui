@@ -12,9 +12,6 @@
   <property name="windowTitle" >
    <string>SMPlayer - Enter URL</string>
   </property>
-  <property name="windowIcon" >
-   <iconset/>
-  </property>
   <layout class="QGridLayout" >
    <property name="margin" >
     <number>9</number>

@@ -13,9 +13,6 @@
   <property name="windowTitle" >
    <string>SMPlayer - Enter the MPlayer version</string>
   </property>
-  <property name="windowIcon" >
-   <iconset/>
-  </property>
   <layout class="QVBoxLayout" >
    <property name="margin" >
     <number>9</number>

@@ -12,9 +12,6 @@
   <property name="windowTitle" >
    <string/>
   </property>
-  <property name="windowIcon" >
-   <iconset/>
-  </property>
   <layout class="QVBoxLayout" >
    <property name="margin" >
     <number>0</number>
@@ -755,14 +752,14 @@
  </widget>
  <customwidgets>
   <customwidget>
-   <class>MyFontComboBox</class>
-   <extends>QFontComboBox</extends>
-   <header>mycombobox.h</header>
-  </customwidget>
-  <customwidget>
    <class>FileChooser</class>
    <extends>QLineEdit</extends>
    <header>filechooser.h</header>
+  </customwidget>
+  <customwidget>
+   <class>MyFontComboBox</class>
+   <extends>QFontComboBox</extends>
+   <header>mycombobox.h</header>
   </customwidget>
  </customwidgets>
  <tabstops>

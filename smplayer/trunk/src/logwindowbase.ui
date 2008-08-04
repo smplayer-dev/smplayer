@@ -13,9 +13,6 @@
   <property name="windowTitle" >
    <string>Log Window</string>
   </property>
-  <property name="windowIcon" >
-   <iconset/>
-  </property>
   <layout class="QVBoxLayout" >
    <property name="margin" >
     <number>11</number>

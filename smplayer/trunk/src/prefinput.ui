@@ -9,9 +9,6 @@
     <height>549</height>
    </rect>
   </property>
-  <property name="windowIcon" >
-   <iconset/>
-  </property>
   <layout class="QVBoxLayout" >
    <property name="margin" >
     <number>0</number>

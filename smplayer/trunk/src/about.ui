@@ -12,9 +12,6 @@
   <property name="windowTitle" >
    <string>About SMPlayer</string>
   </property>
-  <property name="windowIcon" >
-   <iconset/>
-  </property>
   <layout class="QVBoxLayout" >
    <property name="margin" >
     <number>9</number>

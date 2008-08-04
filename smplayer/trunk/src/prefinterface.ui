@@ -9,9 +9,6 @@
     <height>514</height>
    </rect>
   </property>
-  <property name="windowIcon" >
-   <iconset/>
-  </property>
   <layout class="QVBoxLayout" >
    <property name="margin" >
     <number>0</number>
@@ -220,7 +217,7 @@
           <widget class="MyComboBox" name="style_combo" >
            <property name="sizePolicy" >
             <sizepolicy>
-             <hsizetype>5</hsizetype>
+             <hsizetype>7</hsizetype>
              <vsizetype>0</vsizetype>
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
@@ -245,7 +242,7 @@
           <widget class="MyComboBox" name="language_combo" >
            <property name="sizePolicy" >
             <sizepolicy>
-             <hsizetype>5</hsizetype>
+             <hsizetype>7</hsizetype>
              <vsizetype>0</vsizetype>
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
@@ -270,7 +267,7 @@
           <widget class="MyComboBox" name="iconset_combo" >
            <property name="sizePolicy" >
             <sizepolicy>
-             <hsizetype>5</hsizetype>
+             <hsizetype>7</hsizetype>
              <vsizetype>0</vsizetype>
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
@@ -315,7 +312,16 @@
           </widget>
          </item>
          <item row="3" column="1" >
-          <widget class="QComboBox" name="gui_combo" />
+          <widget class="QComboBox" name="gui_combo" >
+           <property name="sizePolicy" >
+            <sizepolicy>
+             <hsizetype>7</hsizetype>
+             <vsizetype>0</vsizetype>
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+          </widget>
          </item>
          <item row="3" column="2" >
           <widget class="QLabel" name="label_5" >
@@ -659,6 +665,8 @@
   <tabstop>changeFontButton</tabstop>
   <tabstop>timeslider_behaviour_combo</tabstop>
   <tabstop>single_instance_check</tabstop>
+  <tabstop>automatic_port_button</tabstop>
+  <tabstop>manual_port_button</tabstop>
   <tabstop>server_port_spin</tabstop>
  </tabstops>
  <resources/>

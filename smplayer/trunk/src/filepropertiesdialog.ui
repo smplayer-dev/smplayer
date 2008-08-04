@@ -13,9 +13,6 @@
   <property name="windowTitle" >
    <string>SMPlayer - File properties</string>
   </property>
-  <property name="windowIcon" >
-   <iconset/>
-  </property>
   <property name="sizeGripEnabled" >
    <bool>true</bool>
   </property>
