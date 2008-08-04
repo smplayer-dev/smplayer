@@ -363,7 +363,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="71"/>
         <source>Audio Equalizer</source>
-        <translation>オーディオ イコライザ</translation>
+        <translation>オーディオ イコライザー</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="74"/>
@@ -526,7 +526,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1034"/>
         <source>D&amp;VD from folder...</source>
-        <translation>フォルダからの DVD(&amp;V)...</translation>
+        <translation>フォルダーからの DVD(&amp;V)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1035"/>
@@ -691,12 +691,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1244"/>
         <source>F&amp;ilters</source>
-        <translation>フィルタ(&amp;I)</translation>
+        <translation>フィルター(&amp;I)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1072"/>
         <source>&amp;Equalizer</source>
-        <translation>イコライザ(&amp;E)</translation>
+        <translation>イコライザー(&amp;E)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1073"/>
@@ -726,7 +726,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1290"/>
         <source>&amp;Filters</source>
-        <translation>フィルタ(&amp;F)</translation>
+        <translation>フィルター(&amp;F)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1304"/>
@@ -826,7 +826,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1316"/>
         <source>&amp;Chapter</source>
-        <translation>チャプタ(&amp;C)</translation>
+        <translation>チャプター(&amp;C)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1319"/>
@@ -841,7 +841,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1137"/>
         <source>&amp;Show frame counter</source>
-        <translation>フレーム カウンタの表示(&amp;S)</translation>
+        <translation>フレーム カウンターの表示(&amp;S)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1195"/>
@@ -1123,12 +1123,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1187"/>
         <source>Next chapter</source>
-        <translation>次のチャプタ</translation>
+        <translation>次のチャプター</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1188"/>
         <source>Previous chapter</source>
-        <translation>前のチャプタ</translation>
+        <translation>前のチャプター</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1182"/>
@@ -1238,7 +1238,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1139"/>
         <source>Visualize &amp;motion vectors</source>
-        <translation>モーション ベクタの視覚化(&amp;M)</translation>
+        <translation>モーション ベクターの視覚化(&amp;M)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1148"/>
@@ -1263,7 +1263,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1190"/>
         <source>Reset video equalizer</source>
-        <translation>ビデオ イコライザのリセット</translation>
+        <translation>ビデオ イコライザーのリセット</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3671"/>
@@ -1358,12 +1358,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1097"/>
         <source>E&amp;qualizer</source>
-        <translation>イコライザ(&amp;Q)</translation>
+        <translation>イコライザー(&amp;Q)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1191"/>
         <source>Reset audio equalizer</source>
-        <translation>オーディオ イコライザのリセット</translation>
+        <translation>オーディオ イコライザーのリセット</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1130"/>
@@ -1649,12 +1649,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../filepropertiesdialog.ui" line="53"/>
         <source>&amp;Demuxer</source>
-        <translation>デミュクサ(&amp;D)</translation>
+        <translation>デミュクサー(&amp;D)</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="65"/>
         <source>&amp;Select the demuxer that will be used for this file:</source>
-        <translation>このファイルに使用されるデミュクサを選択します(&amp;S):</translation>
+        <translation>このファイルに使用されるデミュクサーを選択します(&amp;S):</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="229"/>
@@ -1710,26 +1710,26 @@ Example: -flip -nosound</source>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
-        <translation>追加ビデオ フィルタも渡すことができます。
+        <translation>追加ビデオ フィルターも渡すことができます。
 &quot;,&quot; で区切ります。スペースを使用しません!
 例: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="348"/>
         <source>V&amp;ideo filters:</source>
-        <translation>ビデオ フィルタ(&amp;I):</translation>
+        <translation>ビデオ フィルター(&amp;I):</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="387"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
-        <translation>そして最後はオーディオ フィルタです。ビデオ フィルタと同じ規則です。
+        <translation>そして最後はオーディオ フィルターです。ビデオ フィルターと同じ規則です。
 例: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="409"/>
         <source>Audio &amp;filters:</source>
-        <translation>オーディオ フィルタ(&amp;F):</translation>
+        <translation>オーディオ フィルター(&amp;F):</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="70"/>
@@ -1890,7 +1890,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../infofile.cpp" line="74"/>
         <source>Demuxer</source>
-        <translation>デミュクサ</translation>
+        <translation>デミュクサー</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="150"/>
@@ -2070,12 +2070,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../inputdvddirectory.ui" line="13"/>
         <source>SMPlayer - Play a DVD from a folder</source>
-        <translation>SMPlayer - フォルダから DVD を再生</translation>
+        <translation>SMPlayer - フォルダーから DVD を再生</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
         <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation>お使いのハード ディスクから dvd を再生できます。VIDEO_TS および AUDIO_TS ディレクトリを含むフォルダを選択します。</translation>
+        <translation>お使いのハード ディスクから dvd を再生できます。VIDEO_TS および AUDIO_TS ディレクトリを含むフォルダーを選択します。</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -3301,12 +3301,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="346"/>
         <source>Filter for SMPlayer logs</source>
-        <translation>SMPlayer のログのフィルタ</translation>
+        <translation>SMPlayer のログのフィルター</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="350"/>
         <source>This option allows to filter the smplayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
-        <translation>このオプションはログに格納される smplayer のメッセージのフィルタを許可します。ここでは何か正規表現を書き込むことができます。&lt;br&gt;例: &lt;i&gt;^Core::.*&lt;/i&gt; では &lt;i&gt;Core::&lt;/i&gt; で始まる行のみが表示されます</translation>
+        <translation>このオプションはログに格納される smplayer のメッセージのフィルターを許可します。ここでは何か正規表現を書き込むことができます。&lt;br&gt;例: &lt;i&gt;^Core::.*&lt;/i&gt; では &lt;i&gt;Core::&lt;/i&gt; で始まる行のみが表示されます</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="26"/>
@@ -3332,7 +3332,7 @@ Example: -flip -nosound</source>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
-        <translation>追加ビデオ フィルタも渡すことができます。
+        <translation>追加ビデオ フィルターも渡すことができます。
 &quot;,&quot; で区切ります。スペースを使用しません!
 例: scale=512:-2,eq2=1.1</translation>
     </message>
@@ -3340,7 +3340,7 @@ Example: scale=512:-2,eq2=1.1</source>
         <location filename="../prefadvanced.ui" line="424"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
-        <translation>そして最後はオーディオ フィルタです。ビデオ フィルタと同じ規則です。
+        <translation>そして最後はオーディオ フィルターです。ビデオ フィルターと同じ規則です。
 例: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
@@ -3363,7 +3363,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.ui" line="56"/>
         <source>&amp;Monitor aspect:</source>
-        <translation>モニタのアスペクト(&amp;M):</translation>
+        <translation>モニターのアスペクト(&amp;M):</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="192"/>
@@ -3378,12 +3378,12 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.ui" line="385"/>
         <source>V&amp;ideo filters:</source>
-        <translation>ビデオ フィルタ(&amp;I):</translation>
+        <translation>ビデオ フィルター(&amp;I):</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="446"/>
         <source>Audio &amp;filters:</source>
-        <translation>オーディオ フィルタ(&amp;F):</translation>
+        <translation>オーディオ フィルター(&amp;F):</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="214"/>
@@ -3403,7 +3403,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.ui" line="173"/>
         <source>&amp;Filter for SMPlayer logs:</source>
-        <translation>SMPlayer のログのフィルタ(&amp;F):</translation>
+        <translation>SMPlayer のログのフィルター(&amp;F):</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="504"/>
@@ -3478,12 +3478,12 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="320"/>
         <source>Monitor aspect</source>
-        <translation>モニタのアスペクト</translation>
+        <translation>モニターのアスペクト</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="321"/>
         <source>Select the aspect ratio of your monitor.</source>
-        <translation>モニタのアスペクト比を選択します。</translation>
+        <translation>モニターのアスペクト比を選択します。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="352"/>
@@ -3523,22 +3523,22 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="386"/>
         <source>Video filters</source>
-        <translation>ビデオ フィルタ</translation>
+        <translation>ビデオ フィルター</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="388"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation>ここでは MPlayer のビデオ フィルタを追加できます。コンマで区切って書き込みます。スペースを使用しません!</translation>
+        <translation>ここでは MPlayer のビデオ フィルターを追加できます。コンマで区切って書き込みます。スペースを使用しません!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="390"/>
         <source>Audio filters</source>
-        <translation>オーディオ フィルタ</translation>
+        <translation>オーディオ フィルター</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="392"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation>ここでは MPlayer のオーディオ フィルタを追加できます。コンマで区切って書き込みます。スペースを使用しません!</translation>
+        <translation>ここでは MPlayer のオーディオ フィルターを追加できます。コンマで区切って書き込みます。スペースを使用しません!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="394"/>
@@ -3568,12 +3568,12 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="361"/>
         <source>Repaint the background of the video window</source>
-        <translation type="unfinished"></translation>
+        <translation>ビデオ ウィンドウの背景を再描画する</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="199"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
-        <translation type="unfinished"></translation>
+        <translation>ビデオ ウィンドウの背景を再描画する(&amp;D)</translation>
     </message>
 </context>
 <context>
@@ -3737,32 +3737,32 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="482"/>
         <source>Screenshots folder</source>
-        <translation>スクリーンショット フォルダ</translation>
+        <translation>スクリーンショット フォルダー</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="485"/>
         <source>Here you can specify a folder where the screenshots taken by smplayer will be stored. If this field is empty the screenshot feature will be disabled.</source>
-        <translation>ここでは smplayer によって取得されたスクリーンショットが格納されるフォルダを指定できます。この欄が空である場合はスクリーンショット機能は無効になります。</translation>
+        <translation>ここでは smplayer によって取得されたスクリーンショットが格納されるフォルダーを指定できます。この欄が空である場合はスクリーンショット機能は無効になります。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="487"/>
         <source>Video output driver</source>
-        <translation>ビデオの出力ドライバ</translation>
+        <translation>ビデオの出力ドライバー</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="489"/>
         <source>Select the video output driver. Usually xv (linux) and directx (windows) provide the best performance.</source>
-        <translation>ビデオの出力ドライバを選択します。通常 xv (linux) と directx (windows) が最高のパフォーマンスを供給します。</translation>
+        <translation>ビデオの出力ドライバーを選択します。通常 xv (linux) と directx (windows) が最高のパフォーマンスを供給します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="491"/>
         <source>Audio output driver</source>
-        <translation>オーディオの出力ドライバ</translation>
+        <translation>オーディオの出力ドライバー</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="492"/>
         <source>Select the audio output driver.</source>
-        <translation>オーディオの出力ドライバを選択します。</translation>
+        <translation>オーディオの出力ドライバーを選択します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="494"/>
@@ -3772,7 +3772,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="497"/>
         <source>Usually smplayer will remember the settings for each file you play (audio track selected, volume, filters...). Uncheck this option if you don&apos;t like this feature.</source>
-        <translation>通常 smplayer は再生するファイル (選択されたオーディオ トラック、音量、フィルタ...) ごとに設定を記憶します。この機能がお好みでない場合はこのオプションをチェック解除します。</translation>
+        <translation>通常 smplayer は再生するファイル (選択されたオーディオ トラック、音量、フィルター...) ごとに設定を記憶します。この機能がお好みでない場合はこのオプションをチェック解除します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="498"/>
@@ -3807,12 +3807,12 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="515"/>
         <source>Software video equalizer</source>
-        <translation>ソフトウェアのビデオ イコライザ</translation>
+        <translation>ソフトウェアのビデオ イコライザー</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="519"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
-        <translation>ビデオ イコライザがお使いのグラフィック カードまたは選択されたビデオの出力ドライバによってサポートされていない場合このオプションをチェックできます。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; このオプションはいくつかのビデオの出力ドライバとは互換性がないことがあります。</translation>
+        <translation>ビデオ イコライザーがお使いのグラフィック カードまたは選択されたビデオの出力ドライバーによってサポートされていない場合このオプションをチェックできます。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; このオプションはいくつかのビデオの出力ドライバーとは互換性がないことがあります。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="524"/>
@@ -3852,7 +3852,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="556"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
-        <translation>サウンド カード ミキサを使用する代わりに、ソフトウェア ミキサを使用するにはこのオプションをチェックします。</translation>
+        <translation>サウンド カード ミキサーを使用する代わりに、ソフトウェア ミキサーを使用するにはこのオプションをチェックします。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="26"/>
@@ -3867,7 +3867,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="85"/>
         <source>Output drivers</source>
-        <translation>ドライバの出力</translation>
+        <translation>ドライバーの出力</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="172"/>
@@ -3922,7 +3922,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="66"/>
         <source>&amp;Folder for storing screenshots:</source>
-        <translation>スクリーンショットを格納するフォルダ(&amp;F):</translation>
+        <translation>スクリーンショットを格納するフォルダー(&amp;F):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="97"/>
@@ -3997,7 +3997,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="538"/>
         <source>Double buffering</source>
-        <translation>ダブル バッファ</translation>
+        <translation>ダブル バッファー</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="376"/>
@@ -4007,12 +4007,12 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="383"/>
         <source>Dou&amp;ble buffering</source>
-        <translation>ダブル バッファ(&amp;B)</translation>
+        <translation>ダブル バッファー(&amp;B)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="541"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
-        <translation>ダブル バッファはメモリに 2 つのフレームが格納されるのと、別のデコード中の表示によるちらつきを修正します。無効である場合は OSD を悪化させることがありますが、大抵 OSD のちらつきを削除します。</translation>
+        <translation>ダブル バッファーはメモリに 2 つのフレームが格納されるのと、別のデコード中の表示によるちらつきを修正します。無効である場合は OSD を悪化させることがありますが、大抵 OSD のちらつきを削除します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="286"/>
@@ -4122,7 +4122,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="596"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. NOTE: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation>再生チャンネルの数を要求します。MPlayer は指定されただけの数のチャンネルにオーディオをデコードするようデコーダに要求します。次に要求が満たされるのはデコーダ次第です。これは通常 AC3 オーディオ (DVD のような) でビデオを再生するときのみ重要です。その場合は liba52 が既定でデコードして要求されたチャンネルの数にオーディオをダウンミックスします。注意: このオプションはコーデック (AC3 のみ)、フィルタ (サラウンド) およびオーディオ出力ドライバ (少なくとも OSS) によって尊重されています。</translation>
+        <translation>再生チャンネルの数を要求します。MPlayer は指定されただけの数のチャンネルにオーディオをデコードするようデコーダーに要求します。次に要求が満たされるのはデコーダー次第です。これは通常 AC3 オーディオ (DVD のような) でビデオを再生するときのみ重要です。その場合は liba52 が既定でデコードして要求されたチャンネルの数にオーディオをダウンミックスします。注意: このオプションはコーデック (AC3 のみ)、フィルター (サラウンド) およびオーディオ出力ドライバー (少なくとも OSS) によって尊重されています。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="522"/>
@@ -4223,7 +4223,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="271"/>
         <source>Use s&amp;oftware video equalizer</source>
-        <translation>ソフトウェアのビデオ イコライザを使用する(&amp;O)</translation>
+        <translation>ソフトウェアのビデオ イコライザーを使用する(&amp;O)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="418"/>
@@ -4278,22 +4278,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="531"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
-        <translation>開かれる新しいビデオに使用したいインターレース解除フィルタを選択します。</translation>
+        <translation>開かれる新しいビデオに使用したいインターレース解除フィルターを選択します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="499"/>
         <source>Remember time position</source>
-        <translation type="unfinished"></translation>
+        <translation>時間の位置を記憶する</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="211"/>
         <source>Remember &amp;time position</source>
-        <translation type="unfinished"></translation>
+        <translation>時間の位置を記憶する(&amp;T)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="542"/>
         <source>Change volume just before p&amp;laying</source>
-        <translation type="unfinished"></translation>
+        <translation>再生の直前に音量を変更する(&amp;L)</translation>
     </message>
 </context>
 <context>
@@ -4321,7 +4321,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="138"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>ここではすべてのショートカットを変更できます。それにはショートカット セルの上でダブル クリックまたは入力を開始します。また任意にその他の人または別のコンピュータで読み込みおよび共有するのに一覧を保存できます。</translation>
+        <translation>ここではすべてのショートカットを変更できます。それにはショートカット セルの上でダブル クリックまたは入力を開始します。また任意にその他の人または別のコンピューターで読み込みおよび共有するのに一覧を保存できます。</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="92"/>
@@ -4351,7 +4351,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="64"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>ここではすべてのショートカットを変更できます。それにはショートカット セルの上でダブル クリックまたは enter を押します。また任意にその他の人または別のコンピュータでの読み込みおよび共有するのに一覧を保存できます。</translation>
+        <translation>ここではすべてのショートカットを変更できます。それにはショートカット セルの上でダブル クリックまたは enter を押します。また任意にその他の人または別のコンピューターでの読み込みおよび共有するのに一覧を保存できます。</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="286"/>
@@ -4371,7 +4371,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="248"/>
         <source>Shortcut editor</source>
-        <translation>ショートカット エディタ</translation>
+        <translation>ショートカット エディター</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="257"/>
@@ -4451,7 +4451,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="75"/>
         <source>Frame counter</source>
-        <translation>フレーム カウンタ</translation>
+        <translation>フレーム カウンター</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="72"/>
@@ -4501,7 +4501,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="78"/>
         <source>Show equalizer</source>
-        <translation>イコライザの表示</translation>
+        <translation>イコライザーの表示</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="74"/>
@@ -4869,7 +4869,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="465"/>
         <source>&amp;Behaviour of time slider:</source>
-        <translation>タイム スライダの挙動(&amp;B):</translation>
+        <translation>タイム スライダーの挙動(&amp;B):</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="484"/>
@@ -5009,12 +5009,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="480"/>
         <source>Behaviour of time slider</source>
-        <translation>タイム スライダの挙動</translation>
+        <translation>タイム スライダーの挙動</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="481"/>
         <source>Select what to do when dragging the time slider.</source>
-        <translation>タイム スライダのドラッグ時に何をするかを選択します。</translation>
+        <translation>タイム スライダーのドラッグ時に何をするかを選択します。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="486"/>
@@ -5212,7 +5212,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="280"/>
         <source>Fast seek to chapters in dvds</source>
-        <translation>dvd のチャプタへ高速シークする</translation>
+        <translation>dvd のチャプターへ高速シークする</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="68"/>
@@ -5247,7 +5247,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="307"/>
         <source>Fast &amp;seek to chapters in dvds</source>
-        <translation>dvd のチャプタへ高速シークする(&amp;S)</translation>
+        <translation>dvd のチャプターへ高速シークする(&amp;S)</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="285"/>
@@ -5262,12 +5262,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="282"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
-        <translation>チェックされている場合、チャプタへのシークに最速の方法を試行しますがいくつかのディスクでは動作しない可能性があります。</translation>
+        <translation>チェックされている場合、チャプターへのシークに最速の方法を試行しますがいくつかのディスクでは動作しない可能性があります。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="250"/>
         <source>Skip loop filter</source>
-        <translation>ループ フィルタをスキップする</translation>
+        <translation>ループ フィルターをスキップする</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="150"/>
@@ -5307,7 +5307,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="305"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
-        <translation>このオプションは DVD のプリキャッシュ時に使用するメモリ (k バイト) を指定します。&lt;br&gt;&lt;b&gt;警告:&lt;/b&gt; シークは DVD のキャッシュの使用時に適切に動作しない可能性があります (チャプタの切り替えを含む)。</translation>
+        <translation>このオプションは DVD のプリキャッシュ時に使用するメモリ (k バイト) を指定します。&lt;br&gt;&lt;b&gt;警告:&lt;/b&gt; シークは DVD のキャッシュの使用時に適切に動作しない可能性があります (チャプターの切り替えを含む)。</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="321"/>
@@ -5352,12 +5352,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="162"/>
         <source>Loop &amp;filter</source>
-        <translation>ループ フィルタ(&amp;F)</translation>
+        <translation>ループ フィルター(&amp;F)</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="257"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation>このオプションは H.264 のデコード中のループ フィルタ (別名ブロック除去) のスキップを許可します。フィルタされたフレームは依存するフレームのデコードの参照として使用されると推量されるのでこれには MPEG-2 ビデオなどでブロック解除をしないより品質に悪い影響があります。しかし少なくとも高ビットレート HDTV にはこれは可視の品質低下なしで大きな高速化を供給します。</translation>
+        <translation>このオプションは H.264 のデコード中のループ フィルター (別名ブロック除去) のスキップを許可します。フィルターされたフレームは依存するフレームのデコードの参照として使用されると推量されるのでこれには MPEG-2 ビデオなどでブロック解除をしないより品質に悪い影響があります。しかし少なくとも高ビットレート HDTV にはこれは可視の品質低下なしで大きな高速化を供給します。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="258"/>
@@ -5367,17 +5367,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="259"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
-        <translation>&lt;b&gt;有効&lt;/b&gt;: ループ フィルタはスキップされません</translation>
+        <translation>&lt;b&gt;有効&lt;/b&gt;: ループ フィルターはスキップされません</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="261"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
-        <translation>&lt;b&gt;スキップする (常に)&lt;/b&gt;: ループ フィルタはビデオの解像度の問題なしでスキップされます</translation>
+        <translation>&lt;b&gt;スキップする (常に)&lt;/b&gt;: ループ フィルターはビデオの解像度の問題なしでスキップされます</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="264"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
-        <translation>&lt;b&gt;HD ビデオでのみスキップする&lt;/b&gt;: ループ フィルタは高さが %1 以上のビデオでのみスキップされます。</translation>
+        <translation>&lt;b&gt;HD ビデオでのみスキップする&lt;/b&gt;: ループ フィルターは高さが %1 以上のビデオでのみスキップされます。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="307"/>
@@ -5826,12 +5826,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="128"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
-        <translation>別の起動中のインスタンスへの接続と指定された動作の送信を試行します。例: -send-action pause 残りのオプションは (あれば) 無視されてアプリケーションは終了します。成功時には 0 または 失敗時には -1 を返します。</translation>
+        <translation>別の実行中のインスタンスへの接続と指定された動作の送信を試行します。例: -send-action pause 残りのオプションは (あれば) 無視されてアプリケーションは終了します。成功時には 0 または 失敗時には -1 を返します。</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="136"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
-        <translation>[アクションの一覧] はスペースで区切られる動作の一覧です。動作は入力したのと同じ順序でファイル (あれば) の読み込み直後に実行されます。チェック可能な動作にはパラメータとして true または false を渡すことができます。例: -actions &quot;fullscreen compact true&quot;。引用符は 1 つより多くの動作を渡す場合に必要です。</translation>
+        <translation>[動作の一覧] はスペースで区切られる動作の一覧です。動作は入力したのと同じ順序でファイル (あれば) の読み込み直後に実行されます。チェック可能な動作にはパラメーターとして true または false を渡すことができます。例: -actions &quot;fullscreen compact true&quot;。引用符は 1 つより多くの動作を渡す場合に必要です。</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="162"/>
@@ -5841,7 +5841,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="160"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
-        <translation>別の起動中のインスタンスがある場合、メディアはそのインスタンスのプレイリストに追加されます。その他のインスタンスがない場合、このオプションは無視されてファイルは新しいインスタンスで開かれます。</translation>
+        <translation>別の実行中のインスタンスがある場合、メディアはそのインスタンスのプレイリストに追加されます。その他のインスタンスがない場合、このオプションは無視されてファイルは新しいインスタンスで開かれます。</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="121"/>
@@ -6046,7 +6046,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.cpp" line="69"/>
         <source>Video Equalizer</source>
-        <translation>ビデオ イコライザ</translation>
+        <translation>ビデオ イコライザー</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="118"/>
