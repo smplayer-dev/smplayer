@@ -198,27 +198,27 @@
         <translation>SMPlayer のバージョン情報</translation>
     </message>
     <message>
-        <location filename="../about.ui" line="35"/>
+        <location filename="../about.ui" line="32"/>
         <source>&amp;Info</source>
         <translation>情報(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../about.ui" line="223"/>
+        <location filename="../about.ui" line="220"/>
         <source>icon</source>
         <translation>icon</translation>
     </message>
     <message>
-        <location filename="../about.ui" line="91"/>
+        <location filename="../about.ui" line="88"/>
         <source>&amp;Contributions</source>
         <translation>貢献(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../about.ui" line="147"/>
+        <location filename="../about.ui" line="144"/>
         <source>&amp;Translators</source>
         <translation>翻訳者(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../about.ui" line="203"/>
+        <location filename="../about.ui" line="200"/>
         <source>&amp;License</source>
         <translation>ライセンス(&amp;L)</translation>
     </message>
@@ -1601,7 +1601,7 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>EqSlider</name>
     <message>
-        <location filename="../eqslider.ui" line="25"/>
+        <location filename="../eqslider.ui" line="22"/>
         <source>icon</source>
         <translation>icon</translation>
     </message>
@@ -1614,7 +1614,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ログを非表示にする</translation>
     </message>
     <message>
-        <location filename="../errordialog.ui" line="90"/>
+        <location filename="../errordialog.ui" line="87"/>
         <source>Show log</source>
         <translation>ログの表示</translation>
     </message>
@@ -1624,12 +1624,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>MPlayer のエラー</translation>
     </message>
     <message>
-        <location filename="../errordialog.ui" line="44"/>
+        <location filename="../errordialog.ui" line="41"/>
         <source>icon</source>
         <translation>icon</translation>
     </message>
     <message>
-        <location filename="../errordialog.ui" line="70"/>
+        <location filename="../errordialog.ui" line="67"/>
         <source>Error</source>
         <translation>エラー</translation>
     </message>
@@ -1642,57 +1642,57 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>SMPlayer - ファイルのプロパティ</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="36"/>
+        <location filename="../filepropertiesdialog.ui" line="33"/>
         <source>&amp;Information</source>
         <translation>情報(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="56"/>
+        <location filename="../filepropertiesdialog.ui" line="53"/>
         <source>&amp;Demuxer</source>
         <translation>デミュクサ(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="68"/>
+        <location filename="../filepropertiesdialog.ui" line="65"/>
         <source>&amp;Select the demuxer that will be used for this file:</source>
         <translation>このファイルに使用されるデミュクサを選択します(&amp;S):</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="232"/>
+        <location filename="../filepropertiesdialog.ui" line="229"/>
         <source>&amp;Reset</source>
         <translation>リセット(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="118"/>
+        <location filename="../filepropertiesdialog.ui" line="115"/>
         <source>&amp;Video codec</source>
         <translation>ビデオ コーデック(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="130"/>
+        <location filename="../filepropertiesdialog.ui" line="127"/>
         <source>&amp;Select the video codec:</source>
         <translation>ビデオ コーデックを選択します(&amp;S):</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="180"/>
+        <location filename="../filepropertiesdialog.ui" line="177"/>
         <source>A&amp;udio codec</source>
         <translation>オーディオ コーデック(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="192"/>
+        <location filename="../filepropertiesdialog.ui" line="189"/>
         <source>&amp;Select the audio codec:</source>
         <translation>オーディオ コーデックを選択します(&amp;S):</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="242"/>
+        <location filename="../filepropertiesdialog.ui" line="239"/>
         <source>&amp;MPlayer options</source>
         <translation>MPlayer のオプション(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="254"/>
+        <location filename="../filepropertiesdialog.ui" line="251"/>
         <source>Additional Options for MPlayer</source>
         <translation>MPlayer の追加オプション</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="266"/>
+        <location filename="../filepropertiesdialog.ui" line="263"/>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
@@ -1701,12 +1701,12 @@ Example: -flip -nosound</source>
 例: -flip -nosound</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="289"/>
+        <location filename="../filepropertiesdialog.ui" line="286"/>
         <source>&amp;Options:</source>
         <translation>オプション(&amp;O):</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="328"/>
+        <location filename="../filepropertiesdialog.ui" line="325"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
@@ -1715,19 +1715,19 @@ Example: scale=512:-2,eq2=1.1</source>
 例: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="351"/>
+        <location filename="../filepropertiesdialog.ui" line="348"/>
         <source>V&amp;ideo filters:</source>
         <translation>ビデオ フィルタ(&amp;I):</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="390"/>
+        <location filename="../filepropertiesdialog.ui" line="387"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
         <translation>そして最後はオーディオ フィルタです。ビデオ フィルタと同じ規則です。
 例: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="412"/>
+        <location filename="../filepropertiesdialog.ui" line="409"/>
         <source>Audio &amp;filters:</source>
         <translation>オーディオ フィルタ(&amp;F):</translation>
     </message>
@@ -2073,12 +2073,12 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>SMPlayer - フォルダから DVD を再生</translation>
     </message>
     <message>
-        <location filename="../inputdvddirectory.ui" line="39"/>
+        <location filename="../inputdvddirectory.ui" line="36"/>
         <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
         <translation>お使いのハード ディスクから dvd を再生できます。VIDEO_TS および AUDIO_TS ディレクトリを含むフォルダを選択します。</translation>
     </message>
     <message>
-        <location filename="../inputdvddirectory.ui" line="72"/>
+        <location filename="../inputdvddirectory.ui" line="69"/>
         <source>Choose a directory...</source>
         <translation>ディレクトリの選択...</translation>
     </message>
@@ -2091,32 +2091,32 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>SMPlayer - MPlayer のバージョンを入力</translation>
     </message>
     <message>
-        <location filename="../inputmplayerversion.ui" line="29"/>
+        <location filename="../inputmplayerversion.ui" line="26"/>
         <source>SMPlayer couldn&apos;t identify the MPlayer version you&apos;re using.</source>
         <translation>SMPlayer は使用中の MPlayer のバージョンを識別できませんでした。</translation>
     </message>
     <message>
-        <location filename="../inputmplayerversion.ui" line="52"/>
+        <location filename="../inputmplayerversion.ui" line="49"/>
         <source>Version reported by MPlayer:</source>
         <translation>MPlayer によって報告されたバージョン:</translation>
     </message>
     <message>
-        <location filename="../inputmplayerversion.ui" line="87"/>
+        <location filename="../inputmplayerversion.ui" line="84"/>
         <source>Please, &amp;select the correct version:</source>
         <translation>正しいバージョンを選択してください(&amp;S):</translation>
     </message>
     <message>
-        <location filename="../inputmplayerversion.ui" line="98"/>
+        <location filename="../inputmplayerversion.ui" line="95"/>
         <source>1.0rc1 or older</source>
         <translation>1.0rc1 以前</translation>
     </message>
     <message>
-        <location filename="../inputmplayerversion.ui" line="103"/>
+        <location filename="../inputmplayerversion.ui" line="100"/>
         <source>1.0rc2</source>
         <translation>1.0rc2</translation>
     </message>
     <message>
-        <location filename="../inputmplayerversion.ui" line="108"/>
+        <location filename="../inputmplayerversion.ui" line="105"/>
         <source>Greater than 1.0rc2</source>
         <translation>1.0rc2 より上</translation>
     </message>
@@ -2129,12 +2129,12 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>SMPlayer - URL の入力</translation>
     </message>
     <message>
-        <location filename="../inputurl.ui" line="83"/>
+        <location filename="../inputurl.ui" line="80"/>
         <source>&amp;URL:</source>
         <translation>URL(&amp;U):</translation>
     </message>
     <message>
-        <location filename="../inputurl.ui" line="49"/>
+        <location filename="../inputurl.ui" line="46"/>
         <source>It&apos;s a &amp;playlist</source>
         <translation>プレイリストです(&amp;P)</translation>
     </message>
@@ -3020,22 +3020,22 @@ Do you want to overwrite?</source>
         <translation>ログ ウィンドウ</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="63"/>
+        <location filename="../logwindowbase.ui" line="60"/>
         <source>Save</source>
         <translation>保存</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="73"/>
+        <location filename="../logwindowbase.ui" line="70"/>
         <source>Copy to clipboard</source>
         <translation>クリップボードへコピー</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="80"/>
+        <location filename="../logwindowbase.ui" line="77"/>
         <source>Close</source>
         <translation>閉じる</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="83"/>
+        <location filename="../logwindowbase.ui" line="80"/>
         <source>&amp;Close</source>
         <translation>閉じる(&amp;C)</translation>
     </message>
@@ -3231,7 +3231,7 @@ Do you want to overwrite?</source>
         <translation>ディレクトリの追加が再帰的にサブディレクトリのファイルも追加することがよい場合はこのオプションをチェックします。でなければ選択されたディレクトリのファイルのみ追加されます。</translation>
     </message>
     <message>
-        <location filename="../playlistpreferences.ui" line="35"/>
+        <location filename="../playlistpreferences.ui" line="32"/>
         <source>&amp;Add files in directories recursively</source>
         <translation>再帰的にディレクトリのファイルを追加する(&amp;A)</translation>
     </message>
@@ -3241,17 +3241,17 @@ Do you want to overwrite?</source>
         <translation>いくつかの情報をプレイリストに追加されるファイルに問い合わせるにはこのオプションをチェックします。それはファイルのタイトル名 (利用可能なら) と長さの表示を許可します。でなければこの情報はファイルが実際に再生されるまで利用できません。用心: このオプションは特に多くのファイルを追加する場合、低速になることがあります。</translation>
     </message>
     <message>
-        <location filename="../playlistpreferences.ui" line="42"/>
+        <location filename="../playlistpreferences.ui" line="39"/>
         <source>Automatically get &amp;info about files added</source>
         <translation>自動的に追加されるファイルについての情報を取得する(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../playlistpreferences.ui" line="49"/>
+        <location filename="../playlistpreferences.ui" line="46"/>
         <source>&amp;Save copy of playlist on exit</source>
         <translation>終了時にプレイリストのコピーを保存する(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../playlistpreferences.ui" line="28"/>
+        <location filename="../playlistpreferences.ui" line="25"/>
         <source>&amp;Play files from start</source>
         <translation>開始からファイルを再生する(&amp;P)</translation>
     </message>
@@ -3271,7 +3271,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="361"/>
         <source>Don&apos;t repaint the background of the video window</source>
-        <translation>ビデオ ウィンドウの背景を再描画しない</translation>
+        <translation type="obsolete">ビデオ ウィンドウの背景を再描画しない</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="363"/>
@@ -3309,17 +3309,17 @@ Do you want to overwrite?</source>
         <translation>このオプションはログに格納される smplayer のメッセージのフィルタを許可します。ここでは何か正規表現を書き込むことができます。&lt;br&gt;例: &lt;i&gt;^Core::.*&lt;/i&gt; では &lt;i&gt;Core::&lt;/i&gt; で始まる行のみが表示されます</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="29"/>
+        <location filename="../prefadvanced.ui" line="26"/>
         <source>&amp;Advanced</source>
         <translation>詳細設定(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="49"/>
+        <location filename="../prefadvanced.ui" line="46"/>
         <source>icon</source>
         <translation>icon</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="303"/>
+        <location filename="../prefadvanced.ui" line="300"/>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
@@ -3328,7 +3328,7 @@ Example: -flip -nosound</source>
 例: -flip -nosound</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="365"/>
+        <location filename="../prefadvanced.ui" line="362"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
@@ -3337,101 +3337,101 @@ Example: scale=512:-2,eq2=1.1</source>
 例: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="427"/>
+        <location filename="../prefadvanced.ui" line="424"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
         <translation>そして最後はオーディオ フィルタです。ビデオ フィルタと同じ規則です。
 例: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="166"/>
+        <location filename="../prefadvanced.ui" line="163"/>
         <source>This option is mainly intended for debugging the application.</source>
         <translation>このオプションは主にアプリケーションのデバッグが対象です。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="481"/>
+        <location filename="../prefadvanced.ui" line="478"/>
         <source>&amp;MPlayer language</source>
         <translation>MPlayer の言語(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="493"/>
+        <location filename="../prefadvanced.ui" line="490"/>
         <source>SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br&gt;&lt;br&gt;
 The drop-down lists may provide already made regular expression for several languages.</source>
         <translation>SMPlayer は MPlayer の出力の読み取りと構文解析を必要としてときどき英語のテキストを頼りにします。別の言語に翻訳された MPlayer を使用している場合、次に SMPlayer が検索するテキストの変更を必要とします。(技術的には正規表現を入力する必要があります)&lt;br&gt;&lt;br&gt;
 ドロップダウン リストはすでに正規表現を数個の言語用にするのを供給する可能性があります。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="59"/>
+        <location filename="../prefadvanced.ui" line="56"/>
         <source>&amp;Monitor aspect:</source>
         <translation>モニタのアスペクト(&amp;M):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="195"/>
+        <location filename="../prefadvanced.ui" line="192"/>
         <source>&amp;Run MPlayer in its own window</source>
         <translation>独自のウィンドウで MPlayer を実行する(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="326"/>
+        <location filename="../prefadvanced.ui" line="323"/>
         <source>&amp;Options:</source>
         <translation>オプション(&amp;O):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="388"/>
+        <location filename="../prefadvanced.ui" line="385"/>
         <source>V&amp;ideo filters:</source>
         <translation>ビデオ フィルタ(&amp;I):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="449"/>
+        <location filename="../prefadvanced.ui" line="446"/>
         <source>Audio &amp;filters:</source>
         <translation>オーディオ フィルタ(&amp;F):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="217"/>
+        <location filename="../prefadvanced.ui" line="214"/>
         <source>&amp;Colorkey:</source>
         <translation>カラーキー(&amp;C):</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="202"/>
         <source>&amp;Don&apos;t repaint the background of the video window</source>
-        <translation>ビデオ ウィンドウの背景を再描画しない(&amp;D)</translation>
+        <translation type="obsolete">ビデオ ウィンドウの背景を再描画しない(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="117"/>
+        <location filename="../prefadvanced.ui" line="114"/>
         <source>Log &amp;SMPlayer output</source>
         <translation>SMPlayer の出力を記録する(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="176"/>
+        <location filename="../prefadvanced.ui" line="173"/>
         <source>&amp;Filter for SMPlayer logs:</source>
         <translation>SMPlayer のログのフィルタ(&amp;F):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="507"/>
+        <location filename="../prefadvanced.ui" line="504"/>
         <source>&amp;End of file:</source>
         <translation>エンド オブ ファイル(&amp;E):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="520"/>
+        <location filename="../prefadvanced.ui" line="517"/>
         <source>&amp;No video:</source>
         <translation>ビデオがありません(&amp;N):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="242"/>
+        <location filename="../prefadvanced.ui" line="239"/>
         <source>C&amp;hange...</source>
         <translation>変更(&amp;H)...</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="105"/>
+        <location filename="../prefadvanced.ui" line="102"/>
         <source>Logs</source>
         <translation>ログ</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="124"/>
+        <location filename="../prefadvanced.ui" line="121"/>
         <source>Log MPlayer &amp;output</source>
         <translation>MPlayer の出力を記録する(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="291"/>
+        <location filename="../prefadvanced.ui" line="288"/>
         <source>Options for MP&amp;layer</source>
         <translation>MPlayer のオプション(&amp;L)</translation>
     </message>
@@ -3456,7 +3456,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>MPlayer のログを保存するのに使用されるパスとファイル名をここに入力します。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="131"/>
+        <location filename="../prefadvanced.ui" line="128"/>
         <source>A&amp;utosave MPlayer log to file</source>
         <translation>ファイルへ MPlayer のログを自動保存する(&amp;U)</translation>
     </message>
@@ -3471,7 +3471,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>現在 MPlayer はローカル コードページ外の文字を含むファイル名を開くことができません。このオプションのチェックは SMPlayer にファイル名の短いバージョンを MPlayer へ渡させ、こうして開けるようになります。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="267"/>
+        <location filename="../prefadvanced.ui" line="264"/>
         <source>&amp;Pass short filenames (8+3) to MPlayer</source>
         <translation>MPlayer へ短いファイル名 (8+3) を渡す(&amp;P)</translation>
     </message>
@@ -3565,6 +3565,16 @@ The drop-down lists may provide already made regular expression for several lang
         <source>Select or type a regular expression for &apos;No video&apos;</source>
         <translation>&apos;ビデオがありません&apos; の正規表現を選択または入力します</translation>
     </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="361"/>
+        <source>Repaint the background of the video window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="199"/>
+        <source>Repaint the backgroun&amp;d of the video window</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>PrefAssociations</name>
@@ -3604,22 +3614,22 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>ファイルの種類の一覧</translation>
     </message>
     <message>
-        <location filename="../prefassociations.ui" line="29"/>
+        <location filename="../prefassociations.ui" line="26"/>
         <source>File types</source>
         <translation>ファイルの種類</translation>
     </message>
     <message>
-        <location filename="../prefassociations.ui" line="41"/>
+        <location filename="../prefassociations.ui" line="38"/>
         <source>Media files handled by SMPlayer:</source>
         <translation>SMPlayer によってハンドルされるメディア ファイル:</translation>
     </message>
     <message>
-        <location filename="../prefassociations.ui" line="94"/>
+        <location filename="../prefassociations.ui" line="91"/>
         <source>Select All</source>
         <translation>すべて選択</translation>
     </message>
     <message>
-        <location filename="../prefassociations.ui" line="101"/>
+        <location filename="../prefassociations.ui" line="98"/>
         <source>Select None</source>
         <translation>選択しない</translation>
     </message>
@@ -3642,7 +3652,7 @@ The drop-down lists may provide already made regular expression for several lang
 <context>
     <name>PrefDrives</name>
     <message>
-        <location filename="../prefdrives.ui" line="29"/>
+        <location filename="../prefdrives.ui" line="26"/>
         <source>Drives</source>
         <translation>ドライブ</translation>
     </message>
@@ -3667,22 +3677,22 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>お使いの DVD デバイスを選択します。DVD の再生に使用されます。</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="157"/>
+        <location filename="../prefdrives.ui" line="154"/>
         <source>icon</source>
         <translation>icon</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="80"/>
+        <location filename="../prefdrives.ui" line="77"/>
         <source>Select your &amp;CD device:</source>
         <translation>お使いの CD デバイスを選択します(&amp;C):</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="175"/>
+        <location filename="../prefdrives.ui" line="172"/>
         <source>Select your &amp;DVD device:</source>
         <translation>お使いの DVD デバイスを選択します(&amp;D):</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="41"/>
+        <location filename="../prefdrives.ui" line="38"/>
         <source>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
         <translation>SMPlayer が既定では CDROM または DVD デバイスを選択しません。なので実際に CD または DVD を再生する前に使用したいデバイスを選択する必要があります (同じにできます)。</translation>
     </message>
@@ -3690,7 +3700,7 @@ The drop-down lists may provide already made regular expression for several lang
 <context>
     <name>PrefGeneral</name>
     <message>
-        <location filename="../prefgeneral.cpp" line="472"/>
+        <location filename="../prefgeneral.cpp" line="473"/>
         <source>General</source>
         <translation>全般</translation>
     </message>
@@ -3715,252 +3725,252 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>ディレクトリの選択</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="474"/>
+        <location filename="../prefgeneral.cpp" line="475"/>
         <source>MPlayer executable</source>
         <translation>MPlayer 実行ファイル</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="479"/>
+        <location filename="../prefgeneral.cpp" line="480"/>
         <source>Here you must specify the mplayer executable that smplayer will use.&lt;br&gt;smplayer requires at least mplayer 1.0rc1 (svn recommended).&lt;br&gt;&lt;b&gt;If this setting is wrong, smplayer won&apos;t be able to play anything!&lt;/b&gt;</source>
         <translation>ここでは smplayer が使用する mplayer 実行ファイルを指定する必要があります。&lt;br&gt;smplayer は少なくとも mplayer 1.0rc1 (svn が推奨されます) を必要とします。&lt;br&gt;&lt;b&gt;この設定が間違っていると、smplayer は何も再生できなくなります!&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="481"/>
+        <location filename="../prefgeneral.cpp" line="482"/>
         <source>Screenshots folder</source>
         <translation>スクリーンショット フォルダ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="484"/>
+        <location filename="../prefgeneral.cpp" line="485"/>
         <source>Here you can specify a folder where the screenshots taken by smplayer will be stored. If this field is empty the screenshot feature will be disabled.</source>
         <translation>ここでは smplayer によって取得されたスクリーンショットが格納されるフォルダを指定できます。この欄が空である場合はスクリーンショット機能は無効になります。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="486"/>
+        <location filename="../prefgeneral.cpp" line="487"/>
         <source>Video output driver</source>
         <translation>ビデオの出力ドライバ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="488"/>
+        <location filename="../prefgeneral.cpp" line="489"/>
         <source>Select the video output driver. Usually xv (linux) and directx (windows) provide the best performance.</source>
         <translation>ビデオの出力ドライバを選択します。通常 xv (linux) と directx (windows) が最高のパフォーマンスを供給します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="490"/>
+        <location filename="../prefgeneral.cpp" line="491"/>
         <source>Audio output driver</source>
         <translation>オーディオの出力ドライバ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="491"/>
+        <location filename="../prefgeneral.cpp" line="492"/>
         <source>Select the audio output driver.</source>
         <translation>オーディオの出力ドライバを選択します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="493"/>
+        <location filename="../prefgeneral.cpp" line="494"/>
         <source>Remember settings</source>
         <translation>設定を記憶する</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="496"/>
+        <location filename="../prefgeneral.cpp" line="497"/>
         <source>Usually smplayer will remember the settings for each file you play (audio track selected, volume, filters...). Uncheck this option if you don&apos;t like this feature.</source>
         <translation>通常 smplayer は再生するファイル (選択されたオーディオ トラック、音量、フィルタ...) ごとに設定を記憶します。この機能がお好みでない場合はこのオプションをチェック解除します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="498"/>
         <source>Don&apos;t remember time position</source>
-        <translation>時間の位置を記憶しない</translation>
+        <translation type="obsolete">時間の位置を記憶しない</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="500"/>
+        <location filename="../prefgeneral.cpp" line="501"/>
         <source>If you check this option, smplayer will play all files from the beginning.</source>
         <translation>このオプションをチェックすると、smplayer はすべてのファイルを最初から再生します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="603"/>
+        <location filename="../prefgeneral.cpp" line="604"/>
         <source>Preferred audio language</source>
         <translation>オーディオの優先言語</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="611"/>
+        <location filename="../prefgeneral.cpp" line="612"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>ここではオーディオ ストリームの優先言語を入力できます。複数のオーディオ ストリームのあるメディアが見つかったとき、smplayer は優先言語の使用を試行します。&lt;br&gt;これは DVD または mkv ファイルのような、オーディオ ストリームの言語についての情報を提供するメディアでのみ動作します。&lt;br&gt;この欄は正規表現を受け入れます。例: &lt;b&gt;es|esp|spa&lt;/b&gt; は &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; または &lt;i&gt;spa&lt;/i&gt; に一致する場合オーディオ トラックを選択します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="613"/>
+        <location filename="../prefgeneral.cpp" line="614"/>
         <source>Preferred subtitle language</source>
         <translation>字幕の優先言語</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="621"/>
+        <location filename="../prefgeneral.cpp" line="622"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>ここでは字幕ストリームの優先言語を入力できます。複数の字幕ストリームのあるメディアが見つかったとき、smplayer は優先言語の使用を試行します。&lt;br&gt;これは DVD または mkv ファイルのような、字幕ストリームの言語についての情報を提供するメディアでのみ動作します。&lt;br&gt;この欄は正規表現を受け入れます。例: &lt;b&gt;es|esp|spa&lt;/b&gt; は &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; または &lt;i&gt;spa&lt;/i&gt; に一致する場合字幕ストリームを選択します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="514"/>
+        <location filename="../prefgeneral.cpp" line="515"/>
         <source>Software video equalizer</source>
         <translation>ソフトウェアのビデオ イコライザ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="518"/>
+        <location filename="../prefgeneral.cpp" line="519"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>ビデオ イコライザがお使いのグラフィック カードまたは選択されたビデオの出力ドライバによってサポートされていない場合このオプションをチェックできます。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; このオプションはいくつかのビデオの出力ドライバとは互換性がないことがあります。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="523"/>
+        <location filename="../prefgeneral.cpp" line="524"/>
         <source>Postprocessing quality</source>
         <translation>後処理の品質</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="526"/>
+        <location filename="../prefgeneral.cpp" line="527"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>利用可能なスペア CPU 時間次第で後処理のレベルを動的に変更します。指定する番号は使用される最大レベルになります。通常いくらかの大きい番号を使用できます。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="542"/>
+        <location filename="../prefgeneral.cpp" line="543"/>
         <source>Start videos in fullscreen</source>
         <translation>全画面表示でビデオを開始する</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="544"/>
+        <location filename="../prefgeneral.cpp" line="545"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>このオプションがチェックされている場合、すべてのビデオは全画面表示モードで開始されます。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="546"/>
+        <location filename="../prefgeneral.cpp" line="547"/>
         <source>Disable screensaver</source>
         <translation>スクリーンセーバーを無効にする</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="549"/>
+        <location filename="../prefgeneral.cpp" line="550"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option works only in X11 and Windows.</source>
         <translation>再生中にスクリーンセーバーを無効にするにはこのオプションをチェックします。&lt;br&gt;スクリーンセーバーは再生の完了時に再び有効になります。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt;このオプションは X11 と Windows でのみ動作します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="553"/>
+        <location filename="../prefgeneral.cpp" line="554"/>
         <source>Software volume control</source>
         <translation>ソフトウェアのボリューム コントロール</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="555"/>
+        <location filename="../prefgeneral.cpp" line="556"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>サウンド カード ミキサを使用する代わりに、ソフトウェア ミキサを使用するにはこのオプションをチェックします。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="29"/>
+        <location filename="../prefgeneral.ui" line="26"/>
         <source>&amp;General</source>
         <translation>全般(&amp;G)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="41"/>
+        <location filename="../prefgeneral.ui" line="38"/>
         <source>Paths</source>
         <translation>パス</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="88"/>
+        <location filename="../prefgeneral.ui" line="85"/>
         <source>Output drivers</source>
         <translation>ドライバの出力</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="175"/>
+        <location filename="../prefgeneral.ui" line="172"/>
         <source>Media settings</source>
         <translation>メディアの設定</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="601"/>
+        <location filename="../prefgeneral.cpp" line="602"/>
         <source>Preferred audio and subtitles</source>
         <translation>優先オーディオおよび字幕</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="511"/>
+        <location filename="../prefgeneral.cpp" line="512"/>
         <source>Video</source>
         <translation>ビデオ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="551"/>
+        <location filename="../prefgeneral.cpp" line="552"/>
         <source>Audio</source>
         <translation>オーディオ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="564"/>
+        <location filename="../prefgeneral.cpp" line="565"/>
         <source>AC3/DTS pass-through S/PDIF</source>
         <translation>AC3/DTS pass-through S/PDIF</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="570"/>
+        <location filename="../prefgeneral.cpp" line="571"/>
         <source>Change volume</source>
         <translation>音量の変更</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="573"/>
+        <location filename="../prefgeneral.cpp" line="574"/>
         <source>If checked, SMPlayer will remember the volume for every file and will restore it when played again. For new files the default volume will be used.</source>
         <translation>チェックされている場合、SMPlayer はそれぞれのファイルの音量を記憶して再び再生されるときに復元します。新しいファイルには既定の音量が使用されます。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="576"/>
+        <location filename="../prefgeneral.ui" line="638"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="516"/>
+        <location filename="../prefgeneral.ui" line="508"/>
         <source>&amp;Change volume on every file</source>
         <translation>それぞれのファイルで音量を変更する(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="53"/>
+        <location filename="../prefgeneral.ui" line="50"/>
         <source>Select the &amp;MPlayer executable:</source>
         <translation>MPlayer 実行ファイルを選択します(&amp;M):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="69"/>
+        <location filename="../prefgeneral.ui" line="66"/>
         <source>&amp;Folder for storing screenshots:</source>
         <translation>スクリーンショットを格納するフォルダ(&amp;F):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="100"/>
+        <location filename="../prefgeneral.ui" line="97"/>
         <source>V&amp;ideo:</source>
         <translation>ビデオ(&amp;I):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="808"/>
+        <location filename="../prefgeneral.ui" line="822"/>
         <source>&amp;Audio:</source>
         <translation>オーディオ(&amp;A):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="214"/>
         <source>&amp;Don&apos;t remember time position (files start playing from the beginning)</source>
-        <translation>時間の位置を記憶しない (ファイルは最初から再生が開始されます)(&amp;D)</translation>
+        <translation type="obsolete">時間の位置を記憶しない (ファイルは最初から再生が開始されます)(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="221"/>
+        <location filename="../prefgeneral.ui" line="218"/>
         <source>&amp;Remember settings for all files (audio track, subtitles...)</source>
         <translation>すべてのファイルの設定を記憶する (オーディオ トラック、字幕...)(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="827"/>
+        <location filename="../prefgeneral.ui" line="841"/>
         <source>Su&amp;btitles:</source>
         <translation>字幕(&amp;B):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="312"/>
+        <location filename="../prefgeneral.ui" line="306"/>
         <source>&amp;Quality:</source>
         <translation>品質(&amp;Q):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="387"/>
+        <location filename="../prefgeneral.ui" line="390"/>
         <source>Start videos in &amp;fullscreen</source>
         <translation>全画面表示でビデオを開始する(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="394"/>
+        <location filename="../prefgeneral.ui" line="397"/>
         <source>Disable &amp;screensaver</source>
         <translation>スクリーンセーバーを無効にする(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="547"/>
+        <location filename="../prefgeneral.ui" line="609"/>
         <source>&amp;Default volume:</source>
         <translation>既定の音量(&amp;D):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="447"/>
+        <location filename="../prefgeneral.ui" line="450"/>
         <source>Use s&amp;oftware volume control</source>
         <translation>ソフトウェアのボリューム コントロールを使用する(&amp;O)</translation>
     </message>
@@ -3970,42 +3980,42 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>最大増幅(&amp;X):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="636"/>
+        <location filename="../prefgeneral.ui" line="650"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
         <translation>AC3/DTS pass-through S/PDIF(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="532"/>
+        <location filename="../prefgeneral.cpp" line="533"/>
         <source>Direct rendering</source>
         <translation>直接描画</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="535"/>
+        <location filename="../prefgeneral.cpp" line="536"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>チェックされている場合、直接描画をオンにします (すべてのコーデックとビデオ出力によってはサポートされていません)&lt;br&gt;&lt;b&gt;警告:&lt;/b&gt; OSD/SUB の破損を引き起こす可能性があります!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="537"/>
+        <location filename="../prefgeneral.cpp" line="538"/>
         <source>Double buffering</source>
         <translation>ダブル バッファ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="373"/>
+        <location filename="../prefgeneral.ui" line="376"/>
         <source>D&amp;irect rendering</source>
         <translation>直接描画(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="380"/>
+        <location filename="../prefgeneral.ui" line="383"/>
         <source>Dou&amp;ble buffering</source>
         <translation>ダブル バッファ(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="540"/>
+        <location filename="../prefgeneral.cpp" line="541"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>ダブル バッファはメモリに 2 つのフレームが格納されるのと、別のデコード中の表示によるちらつきを修正します。無効である場合は OSD を悪化させることがありますが、大抵 OSD のちらつきを削除します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="289"/>
+        <location filename="../prefgeneral.ui" line="286"/>
         <source>&amp;Enable postprocessing by default</source>
         <translation>既定で後処理を有効にする(&amp;E)</translation>
     </message>
@@ -4015,17 +4025,17 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>既定での音量の通常化(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="502"/>
+        <location filename="../prefgeneral.cpp" line="503"/>
         <source>Close when finished</source>
         <translation>完了時に閉じる</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="504"/>
+        <location filename="../prefgeneral.cpp" line="505"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>このオプションがチェックされている場合、メイン ウィンドウは現在のファイル/プレイリストの完了時に自動的に閉じられます。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="231"/>
+        <location filename="../prefgeneral.ui" line="228"/>
         <source>&amp;Close when finished</source>
         <translation>完了時に閉じる(&amp;C)</translation>
     </message>
@@ -4045,122 +4055,122 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>6 (5.1 サラウンド)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="651"/>
+        <location filename="../prefgeneral.ui" line="665"/>
         <source>C&amp;hannels by default:</source>
         <translation>既定でのチャンネル(&amp;H):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="238"/>
+        <location filename="../prefgeneral.ui" line="235"/>
         <source>&amp;Pause when minimized</source>
         <translation>最小化時に一時停止する(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="506"/>
+        <location filename="../prefgeneral.cpp" line="507"/>
         <source>Pause when minimized</source>
         <translation>最小化時に一時停止する</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="509"/>
+        <location filename="../prefgeneral.cpp" line="510"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, play will be resumed.</source>
         <translation>このオプションが有効である場合、ファイルはメイン ウィンドウが非表示であるときに一時停止されます。ウィンドウが復元されると、再生は再開されます。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="520"/>
+        <location filename="../prefgeneral.cpp" line="521"/>
         <source>Enable postprocessing by default</source>
         <translation>既定で後処理を有効にする</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="557"/>
+        <location filename="../prefgeneral.cpp" line="558"/>
         <source>Max. Amplification</source>
         <translation>最大増幅</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="567"/>
+        <location filename="../prefgeneral.cpp" line="568"/>
         <source>Volume normalization by default</source>
         <translation>既定での音量の通常化</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="568"/>
+        <location filename="../prefgeneral.cpp" line="569"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>サウンドの歪曲なしで音量を最大化します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="575"/>
+        <location filename="../prefgeneral.cpp" line="584"/>
         <source>Default volume</source>
         <translation>既定の音量</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="576"/>
+        <location filename="../prefgeneral.cpp" line="585"/>
         <source>Sets the initial volume that new files will use.</source>
         <translation>新しいファイルが使用する初期音量を設定します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="586"/>
+        <location filename="../prefgeneral.cpp" line="587"/>
         <source>Channels by default</source>
         <translation>既定でのチャンネル</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="562"/>
+        <location filename="../prefgeneral.cpp" line="563"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>パーセントで最大増幅レベルを設定します (既定: 110)。200 の値は最大で現在のレベルの倍へ音量を上方調整するのを許可します。100 より下の値では初期音量 (100%) がたとえば OSD を正しく表示できない、最大より上になります。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="565"/>
+        <location filename="../prefgeneral.cpp" line="566"/>
         <source>Uses hardware AC3 passthrough</source>
         <translation>ハードウェア AC3 passthrough を使用します</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="595"/>
+        <location filename="../prefgeneral.cpp" line="596"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. NOTE: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation>再生チャンネルの数を要求します。MPlayer は指定されただけの数のチャンネルにオーディオをデコードするようデコーダに要求します。次に要求が満たされるのはデコーダ次第です。これは通常 AC3 オーディオ (DVD のような) でビデオを再生するときのみ重要です。その場合は liba52 が既定でデコードして要求されたチャンネルの数にオーディオをダウンミックスします。注意: このオプションはコーデック (AC3 のみ)、フィルタ (サラウンド) およびオーディオ出力ドライバ (少なくとも OSS) によって尊重されています。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="521"/>
+        <location filename="../prefgeneral.cpp" line="522"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>後処理は新しく開かれるファイルに既定で使用されます。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="623"/>
+        <location filename="../prefgeneral.cpp" line="624"/>
         <source>Audio track</source>
         <translation>オーディオ トラック</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="627"/>
+        <location filename="../prefgeneral.cpp" line="628"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>新しいファイルの再生時に使用される既定のオーディオ トラックを指定します。トラックが存在しない場合、最初のものが使用されます。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; &lt;i&gt;&quot;オーディオの優先言語&quot;&lt;/i&gt;はこのオプションを超えて優先されます。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="629"/>
+        <location filename="../prefgeneral.cpp" line="630"/>
         <source>Subtitle track</source>
         <translation>字幕トラック</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="633"/>
+        <location filename="../prefgeneral.cpp" line="634"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>新しいファイルの再生時に使用される既定の字幕トラックを指定します。トラックが存在しない場合、最初のものが使用されます。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; &lt;i&gt;&quot;字幕の優先言語&quot;&lt;/i&gt;はこのオプションを超えて優先されます。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="936"/>
+        <location filename="../prefgeneral.ui" line="950"/>
         <source>Or choose a track number:</source>
         <translation>またはトラック番号を選択します:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="877"/>
+        <location filename="../prefgeneral.ui" line="891"/>
         <source>Audi&amp;o:</source>
         <translation>オーディオ(&amp;O):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="843"/>
+        <location filename="../prefgeneral.ui" line="857"/>
         <source>Preferred language:</source>
         <translation>優先言語:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="741"/>
+        <location filename="../prefgeneral.ui" line="755"/>
         <source>Preferre&amp;d audio and subtitles</source>
         <translation>優先オーディオおよび字幕(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="890"/>
+        <location filename="../prefgeneral.ui" line="904"/>
         <source>&amp;Subtitle:</source>
         <translation>字幕(&amp;S):</translation>
     </message>
@@ -4170,58 +4180,58 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>ここではオーディオおよび字幕ストリームの優先言語を入力できます。複数のオーディオまたは字幕ストリームのあるメディアが見つかったとき、SMPlayer は優先言語の使用を試行します。これは DVD か mkv ファイルのような、オーディオおよび字幕ストリームの言語についての情報を提供するメディアでのみ動作します。&lt;br&gt;これらの欄は正規表現を受け入れます。例: &lt;b&gt;es|esp|spa&lt;/b&gt; は &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; または &lt;i&gt;spa&lt;/i&gt; に一致する場合トラックを選択します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="753"/>
+        <location filename="../prefgeneral.ui" line="767"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="687"/>
+        <location filename="../prefgeneral.ui" line="701"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>ピッチの変化なしの高速再生(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="597"/>
+        <location filename="../prefgeneral.cpp" line="598"/>
         <source>High speed playback without altering pitch</source>
         <translation>ピッチの変化なしの高速再生</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="599"/>
+        <location filename="../prefgeneral.cpp" line="600"/>
         <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
         <translation>ピッチの変化なしの再生速度の変更を許可します。少なくとも MPlayer dev-SVN-r24924 を必要とします。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="578"/>
+        <location filename="../prefgeneral.cpp" line="576"/>
         <source>Change volume just before playing</source>
         <translation>再生の直前に音量を変更する</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="614"/>
         <source>Change volume just before p&amp;laying (avoids loud volume on startup)</source>
-        <translation>再生の直前に音量を変更する (起動時の大きい音量を回避します)(&amp;L)</translation>
+        <translation type="obsolete">再生の直前に音量を変更する (起動時の大きい音量を回避します)(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="584"/>
+        <location filename="../prefgeneral.cpp" line="582"/>
         <source>If this option is checked the initial volume will be set by using the &lt;i&gt;-volume&lt;/i&gt; option in MPlayer.&lt;br&gt; &lt;b&gt;WARNING: THE OFFICIAL MPLAYER DOESN&apos;T HAVE THAT &lt;i&gt;-volume&lt;/i&gt; OPTION, YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON&apos;T PLAY ANYTHING.&lt;/b&gt;</source>
         <translation>このオプションがチェックされている場合初期の音量は MPlayer での &lt;i&gt;-volume&lt;/i&gt; の使用によって設定されます。&lt;br&gt; &lt;b&gt;警告: 公式の MPLAYER にその &lt;i&gt;-volume&lt;/i&gt; オプションがありません、パッチ済みのものを必要とします、でなければ MPLAYER は失敗し何も再生しません。&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="262"/>
+        <location filename="../prefgeneral.ui" line="259"/>
         <source>&amp;Video</source>
         <translation>ビデオ(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="274"/>
+        <location filename="../prefgeneral.ui" line="271"/>
         <source>Use s&amp;oftware video equalizer</source>
         <translation>ソフトウェアのビデオ イコライザを使用する(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="415"/>
+        <location filename="../prefgeneral.ui" line="418"/>
         <source>A&amp;udio</source>
         <translation>オーディオ(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="427"/>
+        <location filename="../prefgeneral.ui" line="430"/>
         <source>Volume</source>
         <translation>音量</translation>
     </message>
@@ -4256,19 +4266,34 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="345"/>
+        <location filename="../prefgeneral.ui" line="339"/>
         <source>Dei&amp;nterlace by default:</source>
         <translation>既定でのインターレース解除(&amp;N):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="528"/>
+        <location filename="../prefgeneral.cpp" line="529"/>
         <source>Deinterlace by default</source>
         <translation>既定でのインターレース解除</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="530"/>
+        <location filename="../prefgeneral.cpp" line="531"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation>開かれる新しいビデオに使用したいインターレース解除フィルタを選択します。</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="499"/>
+        <source>Remember time position</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="211"/>
+        <source>Remember &amp;time position</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="542"/>
+        <source>Change volume just before p&amp;laying</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4284,12 +4309,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>なし</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="29"/>
+        <location filename="../prefinput.ui" line="26"/>
         <source>&amp;Keyboard</source>
         <translation>キーボード(&amp;K)</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="310"/>
+        <location filename="../prefinput.ui" line="307"/>
         <source>icon</source>
         <translation>icon</translation>
     </message>
@@ -4299,12 +4324,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ここではすべてのショートカットを変更できます。それにはショートカット セルの上でダブル クリックまたは入力を開始します。また任意にその他の人または別のコンピュータで読み込みおよび共有するのに一覧を保存できます。</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="95"/>
+        <location filename="../prefinput.ui" line="92"/>
         <source>&amp;Mouse</source>
         <translation>マウス(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="107"/>
+        <location filename="../prefinput.ui" line="104"/>
         <source>Button functions:</source>
         <translation>ボタンの機能:</translation>
     </message>
@@ -4324,22 +4349,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ビデオの拡大と縮小</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="67"/>
+        <location filename="../prefinput.ui" line="64"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>ここではすべてのショートカットを変更できます。それにはショートカット セルの上でダブル クリックまたは enter を押します。また任意にその他の人または別のコンピュータでの読み込みおよび共有するのに一覧を保存できます。</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="289"/>
+        <location filename="../prefinput.ui" line="286"/>
         <source>&amp;Left click</source>
         <translation>左クリック(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="145"/>
+        <location filename="../prefinput.ui" line="142"/>
         <source>&amp;Double click</source>
         <translation>ダブル クリック(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="346"/>
+        <location filename="../prefinput.ui" line="343"/>
         <source>&amp;Wheel function:</source>
         <translation>ホイール機能(&amp;W):</translation>
     </message>
@@ -4504,17 +4529,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>マウスのミドル クリックの動作を選択します。</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="190"/>
+        <location filename="../prefinput.ui" line="187"/>
         <source>M&amp;iddle click</source>
         <translation>ミドル クリック(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="216"/>
+        <location filename="../prefinput.ui" line="213"/>
         <source>X Button &amp;1</source>
         <translation>X ボタン 1(&amp;1)</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="242"/>
+        <location filename="../prefinput.ui" line="239"/>
         <source>X Button &amp;2</source>
         <translation>X ボタン 2(&amp;2)</translation>
     </message>
@@ -4559,7 +4584,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>コンテキスト メニューの表示</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="401"/>
+        <location filename="../prefinput.ui" line="398"/>
         <source>&amp;Right click</source>
         <translation>右クリック(&amp;R)</translation>
     </message>
@@ -4712,7 +4737,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>言語</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="29"/>
+        <location filename="../prefinterface.ui" line="26"/>
         <source>&amp;Interface</source>
         <translation>インターフェイス(&amp;I)</translation>
     </message>
@@ -4722,22 +4747,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>シーク</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="130"/>
+        <location filename="../prefinterface.ui" line="127"/>
         <source>Recent files</source>
         <translation>最近使ったファイル</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="87"/>
+        <location filename="../prefinterface.ui" line="84"/>
         <source>Never</source>
         <translation>しない</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="92"/>
+        <location filename="../prefinterface.ui" line="89"/>
         <source>Whenever it&apos;s needed</source>
         <translation>必要ならいつも</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="97"/>
+        <location filename="../prefinterface.ui" line="94"/>
         <source>Only after loading a new video</source>
         <translation>新しいビデオの読み込み後のみ</translation>
     </message>
@@ -4787,7 +4812,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>マウス ホイール ジャンプ(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="542"/>
+        <location filename="../prefinterface.ui" line="548"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
         <translation>実行中の SMPlayer のインスタンスを 1 つのみ使用する(&amp;U)</translation>
     </message>
@@ -4797,77 +4822,77 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">SMPlayer はその他のインスタンスからコマンドを受信するのにこのポートを聴取します(&amp;P):</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="142"/>
+        <location filename="../prefinterface.ui" line="139"/>
         <source>Ma&amp;x. items</source>
         <translation>アイテムの最大数(&amp;X)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="259"/>
+        <location filename="../prefinterface.ui" line="256"/>
         <source>St&amp;yle:</source>
         <translation>スタイル(&amp;Y):</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="209"/>
+        <location filename="../prefinterface.ui" line="206"/>
         <source>Ico&amp;n set:</source>
         <translation>アイコン セット(&amp;N):</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="196"/>
+        <location filename="../prefinterface.ui" line="193"/>
         <source>L&amp;anguage:</source>
         <translation>言語(&amp;A):</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="41"/>
+        <location filename="../prefinterface.ui" line="38"/>
         <source>Main window</source>
         <translation>メイン ウィンドウ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="68"/>
+        <location filename="../prefinterface.ui" line="65"/>
         <source>Auto&amp;resize:</source>
         <translation>サイズの自動変更(&amp;R):</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="105"/>
+        <location filename="../prefinterface.ui" line="102"/>
         <source>R&amp;emember position and size</source>
         <translation>位置とサイズを記憶する(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="347"/>
+        <location filename="../prefinterface.ui" line="353"/>
         <source>Default font:</source>
         <translation>既定のフォント:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="361"/>
+        <location filename="../prefinterface.ui" line="367"/>
         <source>&amp;Change...</source>
         <translation>変更(&amp;C)...</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="459"/>
+        <location filename="../prefinterface.ui" line="465"/>
         <source>&amp;Behaviour of time slider:</source>
         <translation>タイム スライダの挙動(&amp;B):</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="478"/>
+        <location filename="../prefinterface.ui" line="484"/>
         <source>Seek to position while dragging</source>
         <translation>ドラッグ中に位置へシークする</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="483"/>
+        <location filename="../prefinterface.ui" line="489"/>
         <source>Seek to position when released</source>
         <translation>解放されたときに位置へシークする</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="527"/>
+        <location filename="../prefinterface.ui" line="533"/>
         <source>TextLabel</source>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="384"/>
+        <location filename="../prefinterface.ui" line="390"/>
         <source>&amp;Seeking</source>
         <translation>シーク(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="507"/>
+        <location filename="../prefinterface.ui" line="513"/>
         <source>Ins&amp;tances</source>
         <translation>実行(&amp;T)</translation>
     </message>
@@ -5032,12 +5057,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>アプリケーションのお好みの GUI を選択します。現在 [デフォルト GUI] と [ミニ GUI] の 2 つがあります。&lt;br&gt;[&lt;b&gt;デフォルト GUI&lt;/b&gt;] はツール バーとコントロール バーのある、伝統的な GUI を供給します。[&lt;b&gt;ミニ GUI&lt;/b&gt;] は数個のボタンのあるツール バーとコントロール バーのない、よりシンプルな GUI を供給します。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; このオプションは次の SMPlayer を実行する時間に影響します。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="310"/>
+        <location filename="../prefinterface.ui" line="307"/>
         <source>&amp;GUI</source>
         <translation>GUI(&amp;G)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="323"/>
+        <location filename="../prefinterface.ui" line="329"/>
         <source>(this option requires to restart SMPlayer)</source>
         <translation>(このオプションは SMPlayer の再起動を必要とします)</translation>
     </message>
@@ -5057,17 +5082,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>手動ポート</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="552"/>
+        <location filename="../prefinterface.ui" line="558"/>
         <source>Port to listen</source>
         <translation>聴取するポート</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="564"/>
+        <location filename="../prefinterface.ui" line="570"/>
         <source>&amp;Automatic</source>
         <translation>自動(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="579"/>
+        <location filename="../prefinterface.ui" line="585"/>
         <source>&amp;Manual</source>
         <translation>手動(&amp;M)</translation>
     </message>
@@ -5418,12 +5443,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>SSA/ASS スタイル</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="32"/>
+        <location filename="../prefsubtitles.ui" line="29"/>
         <source>&amp;Subtitles</source>
         <translation>字幕(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="44"/>
+        <location filename="../prefsubtitles.ui" line="41"/>
         <source>Autoload</source>
         <translation>自動読み込み</translation>
     </message>
@@ -5433,37 +5458,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>利用可能な字幕をまず選択する</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="77"/>
+        <location filename="../prefsubtitles.ui" line="74"/>
         <source>Same name as movie</source>
         <translation>ムービーと同じ名前</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="82"/>
+        <location filename="../prefsubtitles.ui" line="79"/>
         <source>All subs containing movie name</source>
         <translation>ムービーの名前を含むすべての字幕</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="87"/>
+        <location filename="../prefsubtitles.ui" line="84"/>
         <source>All subs in directory</source>
         <translation>ディレクトリ内のすべての字幕</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="168"/>
+        <location filename="../prefsubtitles.ui" line="165"/>
         <source>Position</source>
         <translation>位置</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="228"/>
+        <location filename="../prefsubtitles.ui" line="225"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="248"/>
+        <location filename="../prefsubtitles.ui" line="245"/>
         <source>Top</source>
         <translation>先頭へ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="274"/>
+        <location filename="../prefsubtitles.ui" line="271"/>
         <source>Bottom</source>
         <translation>末尾へ</translation>
     </message>
@@ -5473,47 +5498,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>スクリーンショットに字幕を含める</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="313"/>
+        <location filename="../prefsubtitles.ui" line="310"/>
         <source>&amp;Font</source>
         <translation>フォント(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="325"/>
+        <location filename="../prefsubtitles.ui" line="322"/>
         <source>Font</source>
         <translation>フォント</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="359"/>
+        <location filename="../prefsubtitles.ui" line="356"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
         <translation>字幕 (と OSD) に使用するフォントを選択します:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="399"/>
+        <location filename="../prefsubtitles.ui" line="396"/>
         <source>Size</source>
         <translation>サイズ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="433"/>
+        <location filename="../prefsubtitles.ui" line="430"/>
         <source>No autoscale</source>
         <translation>オートスケールなし</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="438"/>
+        <location filename="../prefsubtitles.ui" line="435"/>
         <source>Proportional to movie height</source>
         <translation>ムービーの高さに比例する</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="443"/>
+        <location filename="../prefsubtitles.ui" line="440"/>
         <source>Proportional to movie width</source>
         <translation>ムービーの幅に比例する</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="448"/>
+        <location filename="../prefsubtitles.ui" line="445"/>
         <source>Proportional to movie diagonal</source>
         <translation>ムービーの対角線に比例する</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="572"/>
+        <location filename="../prefsubtitles.ui" line="569"/>
         <source>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</source>
         <translation>新しい SSA/ASS ライブラリは外部の SSA/ASS 字幕ファイルおよび Matroska トラックにすてきなスタイルの字幕を供給します。しかし SUB および SRT ファイルのようなその他のフォーマットの描画にも使用されます。</translation>
     </message>
@@ -5523,67 +5548,67 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>字幕の描画に SSA/ASS ライブラリを使用する</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="694"/>
+        <location filename="../prefsubtitles.ui" line="691"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
         <translation>ここでは SSA/ASS 字幕のスタイルを優先的に指定できます。SSA/ASS ライブラリによる SRT および SUB 字幕の描画の微調整にも使用できます。&lt;br&gt;例: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="56"/>
+        <location filename="../prefsubtitles.ui" line="53"/>
         <source>Au&amp;toload subtitles files (*.srt, *.sub...):</source>
         <translation>字幕ファイル (*.srt, *.sub...) を自動読み込みする(&amp;T):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="69"/>
+        <location filename="../prefsubtitles.ui" line="66"/>
         <source>S&amp;elect first available subtitle</source>
         <translation>最初に利用可能な字幕を選択する(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="114"/>
+        <location filename="../prefsubtitles.ui" line="111"/>
         <source>&amp;Default subtitle encoding:</source>
         <translation>既定の字幕エンコード(&amp;D):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="180"/>
+        <location filename="../prefsubtitles.ui" line="177"/>
         <source>Default &amp;position of the subtitles on screen</source>
         <translation>既定の画面上の字幕の位置(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="289"/>
+        <location filename="../prefsubtitles.ui" line="286"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>スクリーンショットに字幕を含める(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="389"/>
+        <location filename="../prefsubtitles.ui" line="386"/>
         <source>&amp;TTF font:</source>
         <translation>TTF フォント(&amp;T):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="369"/>
+        <location filename="../prefsubtitles.ui" line="366"/>
         <source>S&amp;ystem font:</source>
         <translation>システム フォント(&amp;Y):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="419"/>
+        <location filename="../prefsubtitles.ui" line="416"/>
         <source>A&amp;utoscale:</source>
         <translation>オートスケール(&amp;U):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="585"/>
+        <location filename="../prefsubtitles.ui" line="582"/>
         <source>&amp;Use SSA/ASS library for subtitle rendering</source>
         <translation>字幕の描画に SSA/ASS ライブラリを使用する(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="603"/>
+        <location filename="../prefsubtitles.ui" line="600"/>
         <source>&amp;Text color:</source>
         <translation>テキストの色(&amp;T):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="645"/>
+        <location filename="../prefsubtitles.ui" line="642"/>
         <source>&amp;Border color:</source>
         <translation>枠の色(&amp;B):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="718"/>
+        <location filename="../prefsubtitles.ui" line="715"/>
         <source>St&amp;yles:</source>
         <translation>スタイル(&amp;Y):</translation>
     </message>
@@ -5613,17 +5638,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>このオプションは新しいビデオに使用される SSA/ASS 字幕の既定のフォント スケールを指定します。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="530"/>
+        <location filename="../prefsubtitles.ui" line="527"/>
         <source>Default s&amp;cale for normal subtitles:</source>
         <translation>通常の字幕の既定のスケール(&amp;C):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="517"/>
+        <location filename="../prefsubtitles.ui" line="514"/>
         <source>Default sc&amp;ale for SSA/ASS subtitles:</source>
         <translation>SSA/ASS 字幕の既定のスケール(&amp;A):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="560"/>
+        <location filename="../prefsubtitles.ui" line="557"/>
         <source>SSA/ASS &amp;library</source>
         <translation>SSA/ASS ライブラリ(&amp;L)</translation>
     </message>
@@ -5897,12 +5922,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>SeekWidget</name>
     <message>
-        <location filename="../seekwidget.ui" line="25"/>
+        <location filename="../seekwidget.ui" line="22"/>
         <source>icon</source>
         <translation>icon</translation>
     </message>
     <message>
-        <location filename="../seekwidget.ui" line="43"/>
+        <location filename="../seekwidget.ui" line="40"/>
         <source>label</source>
         <translation>label</translation>
     </message>
@@ -5943,7 +5968,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>SMPlayer - シーク</translation>
     </message>
     <message>
-        <location filename="../timedialog.ui" line="44"/>
+        <location filename="../timedialog.ui" line="41"/>
         <source>&amp;Jump to:</source>
         <translation>ジャンプ先(&amp;J):</translation>
     </message>

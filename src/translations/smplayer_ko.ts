@@ -223,27 +223,27 @@
         <translation type="unfinished">SMPlayer에 대하여</translation>
     </message>
     <message>
-        <location filename="../about.ui" line="35"/>
+        <location filename="../about.ui" line="32"/>
         <source>&amp;Info</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.ui" line="223"/>
+        <location filename="../about.ui" line="220"/>
         <source>icon</source>
         <translation type="unfinished">아이콘</translation>
     </message>
     <message>
-        <location filename="../about.ui" line="91"/>
+        <location filename="../about.ui" line="88"/>
         <source>&amp;Contributions</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.ui" line="147"/>
+        <location filename="../about.ui" line="144"/>
         <source>&amp;Translators</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.ui" line="203"/>
+        <location filename="../about.ui" line="200"/>
         <source>&amp;License</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1586,7 +1586,7 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>EqSlider</name>
     <message>
-        <location filename="../eqslider.ui" line="25"/>
+        <location filename="../eqslider.ui" line="22"/>
         <source>icon</source>
         <translation>아이콘</translation>
     </message>
@@ -1599,7 +1599,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../errordialog.ui" line="90"/>
+        <location filename="../errordialog.ui" line="87"/>
         <source>Show log</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1609,12 +1609,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../errordialog.ui" line="44"/>
+        <location filename="../errordialog.ui" line="41"/>
         <source>icon</source>
         <translation type="unfinished">아이콘</translation>
     </message>
     <message>
-        <location filename="../errordialog.ui" line="70"/>
+        <location filename="../errordialog.ui" line="67"/>
         <source>Error</source>
         <translation type="unfinished">오류</translation>
     </message>
@@ -1627,57 +1627,57 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>SMPlayer - 파일 속성</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="36"/>
+        <location filename="../filepropertiesdialog.ui" line="33"/>
         <source>&amp;Information</source>
         <translation>정보(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="56"/>
+        <location filename="../filepropertiesdialog.ui" line="53"/>
         <source>&amp;Demuxer</source>
         <translation>디멀티플렉서(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="68"/>
+        <location filename="../filepropertiesdialog.ui" line="65"/>
         <source>&amp;Select the demuxer that will be used for this file:</source>
         <translation>이 파일에 사용될 디멀티플렉서를 선택하십시요(&amp;S):</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="232"/>
+        <location filename="../filepropertiesdialog.ui" line="229"/>
         <source>&amp;Reset</source>
         <translation>초기화(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="118"/>
+        <location filename="../filepropertiesdialog.ui" line="115"/>
         <source>&amp;Video codec</source>
         <translation>영상 코덱(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="130"/>
+        <location filename="../filepropertiesdialog.ui" line="127"/>
         <source>&amp;Select the video codec:</source>
         <translation>영상 코덱을 선택하십시요(&amp;S):</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="180"/>
+        <location filename="../filepropertiesdialog.ui" line="177"/>
         <source>A&amp;udio codec</source>
         <translation>오디오 코덱(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="192"/>
+        <location filename="../filepropertiesdialog.ui" line="189"/>
         <source>&amp;Select the audio codec:</source>
         <translation>오디오 코덱을 선택하십시요(&amp;S):</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="242"/>
+        <location filename="../filepropertiesdialog.ui" line="239"/>
         <source>&amp;MPlayer options</source>
         <translation>&amp;MPlayer 옵션</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="254"/>
+        <location filename="../filepropertiesdialog.ui" line="251"/>
         <source>Additional Options for MPlayer</source>
         <translation>MPlayer 추가 옵션</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="266"/>
+        <location filename="../filepropertiesdialog.ui" line="263"/>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
@@ -1686,12 +1686,12 @@ Example: -flip -nosound</source>
 (예: -flip -nosound)</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="289"/>
+        <location filename="../filepropertiesdialog.ui" line="286"/>
         <source>&amp;Options:</source>
         <translation>옵션(&amp;O):</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="328"/>
+        <location filename="../filepropertiesdialog.ui" line="325"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
@@ -1700,19 +1700,19 @@ Example: scale=512:-2,eq2=1.1</source>
 (예: scale=52:-2,eq2=1.1)</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="351"/>
+        <location filename="../filepropertiesdialog.ui" line="348"/>
         <source>V&amp;ideo filters:</source>
         <translation>영상 필터(&amp;I):</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="390"/>
+        <location filename="../filepropertiesdialog.ui" line="387"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
         <translation>오디오 필터도 적용할 수 있습니다. 쉼표로 구분합니다.
 (예: resample=44100:0:0,volnorm)</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="412"/>
+        <location filename="../filepropertiesdialog.ui" line="409"/>
         <source>Audio &amp;filters:</source>
         <translation>오디오 필터(&amp;F):</translation>
     </message>
@@ -2053,12 +2053,12 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>SMPlayer - 폴더로부터 DVD 재생</translation>
     </message>
     <message>
-        <location filename="../inputdvddirectory.ui" line="39"/>
+        <location filename="../inputdvddirectory.ui" line="36"/>
         <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
         <translation>하드 디스크에 저장된 DVD도 재생할 수 있습니다. VIDEO_TS 및 AUDIO_TS 폴더를 포함하는 상위 폴더를 지정하십시요.</translation>
     </message>
     <message>
-        <location filename="../inputdvddirectory.ui" line="72"/>
+        <location filename="../inputdvddirectory.ui" line="69"/>
         <source>Choose a directory...</source>
         <translation>찾아보기...</translation>
     </message>
@@ -2071,32 +2071,32 @@ Example: resample=44100:0:0,volnorm</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../inputmplayerversion.ui" line="29"/>
+        <location filename="../inputmplayerversion.ui" line="26"/>
         <source>SMPlayer couldn&apos;t identify the MPlayer version you&apos;re using.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../inputmplayerversion.ui" line="52"/>
+        <location filename="../inputmplayerversion.ui" line="49"/>
         <source>Version reported by MPlayer:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../inputmplayerversion.ui" line="87"/>
+        <location filename="../inputmplayerversion.ui" line="84"/>
         <source>Please, &amp;select the correct version:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../inputmplayerversion.ui" line="98"/>
+        <location filename="../inputmplayerversion.ui" line="95"/>
         <source>1.0rc1 or older</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../inputmplayerversion.ui" line="103"/>
+        <location filename="../inputmplayerversion.ui" line="100"/>
         <source>1.0rc2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../inputmplayerversion.ui" line="108"/>
+        <location filename="../inputmplayerversion.ui" line="105"/>
         <source>Greater than 1.0rc2</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2109,12 +2109,12 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>SMPlayer - URL 입력</translation>
     </message>
     <message>
-        <location filename="../inputurl.ui" line="83"/>
+        <location filename="../inputurl.ui" line="80"/>
         <source>&amp;URL:</source>
         <translation>&amp;URL:</translation>
     </message>
     <message>
-        <location filename="../inputurl.ui" line="49"/>
+        <location filename="../inputurl.ui" line="46"/>
         <source>It&apos;s a &amp;playlist</source>
         <translation>재생 목록(&amp;P)</translation>
     </message>
@@ -2985,22 +2985,22 @@ Do you want to overwrite?</source>
         <translation>기록 파일</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="63"/>
+        <location filename="../logwindowbase.ui" line="60"/>
         <source>Save</source>
         <translation>저장</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="73"/>
+        <location filename="../logwindowbase.ui" line="70"/>
         <source>Copy to clipboard</source>
         <translation>클립보드로 복사</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="83"/>
+        <location filename="../logwindowbase.ui" line="80"/>
         <source>&amp;Close</source>
         <translation>닫기(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="80"/>
+        <location filename="../logwindowbase.ui" line="77"/>
         <source>Close</source>
         <translation>닫기</translation>
     </message>
@@ -3195,7 +3195,7 @@ Do you want to overwrite?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlistpreferences.ui" line="35"/>
+        <location filename="../playlistpreferences.ui" line="32"/>
         <source>&amp;Add files in directories recursively</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3205,17 +3205,17 @@ Do you want to overwrite?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlistpreferences.ui" line="42"/>
+        <location filename="../playlistpreferences.ui" line="39"/>
         <source>Automatically get &amp;info about files added</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlistpreferences.ui" line="49"/>
+        <location filename="../playlistpreferences.ui" line="46"/>
         <source>&amp;Save copy of playlist on exit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlistpreferences.ui" line="28"/>
+        <location filename="../playlistpreferences.ui" line="25"/>
         <source>&amp;Play files from start</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3233,17 +3233,17 @@ Do you want to overwrite?</source>
         <translation>자동</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="29"/>
+        <location filename="../prefadvanced.ui" line="26"/>
         <source>&amp;Advanced</source>
         <translation>고급(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="49"/>
+        <location filename="../prefadvanced.ui" line="46"/>
         <source>icon</source>
         <translation>아이콘</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="303"/>
+        <location filename="../prefadvanced.ui" line="300"/>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
@@ -3251,7 +3251,7 @@ Example: -flip -nosound</source>
 공백으로 구분하여 입력하십시요.(예: -flip -nosound)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="365"/>
+        <location filename="../prefadvanced.ui" line="362"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
@@ -3260,7 +3260,7 @@ Example: scale=512:-2,eq2=1.1</source>
 (예: scale=52:-2,eq2=1.1)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="427"/>
+        <location filename="../prefadvanced.ui" line="424"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
         <translation>오디오 필터도 적용할 수 있습니다. 쉼표로 구분합니다.
@@ -3269,7 +3269,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="361"/>
         <source>Don&apos;t repaint the background of the video window</source>
-        <translation>영상 창에 배경 다시 칠하지 않기</translation>
+        <translation type="obsolete">영상 창에 배경 다시 칠하지 않기</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="330"/>
@@ -3282,17 +3282,17 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>SMPlayer 출력 기록하기</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="166"/>
+        <location filename="../prefadvanced.ui" line="163"/>
         <source>This option is mainly intended for debugging the application.</source>
         <translation>이 옵션은 프로그램을 디버그하는 것에 목적을 두고 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="481"/>
+        <location filename="../prefadvanced.ui" line="478"/>
         <source>&amp;MPlayer language</source>
         <translation>&amp;MPlayer 언어</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="493"/>
+        <location filename="../prefadvanced.ui" line="490"/>
         <source>SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br&gt;&lt;br&gt;
 The drop-down lists may provide already made regular expression for several languages.</source>
         <translation>SMPlayer는 MPlayer에서 출력한 내용을 읽고 해석해야 하는데, 영문판이 기준입니다. 따라서, 다른 언어로 번역된 MPlayer를 사용하는 경우에는 SMPlayer가 그 언어를 해석하도록 설정을 해주어야 합니다. (기술적으로는 정규 표현식을 입력해야 합니다)&lt;br&gt;&lt;br&gt;
@@ -3324,77 +3324,77 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>이 옵션은 SMPlayer의 기록 파일에 저장된 메시지를 선택적으로 볼 수 있게 해줍니다. 정규 표현식으로 필터를 지정하십시요.&lt;br&gt;예: &lt;i&gt;^Core::.*&lt;/i&gt; - &lt;i&gt;Core::&lt;/i&gt;로 시작하는 메시지만 표시</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="59"/>
+        <location filename="../prefadvanced.ui" line="56"/>
         <source>&amp;Monitor aspect:</source>
         <translation>모니터 가로세로비(&amp;M):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="195"/>
+        <location filename="../prefadvanced.ui" line="192"/>
         <source>&amp;Run MPlayer in its own window</source>
         <translation>MPlayer를 별도의 창에서 실행(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="326"/>
+        <location filename="../prefadvanced.ui" line="323"/>
         <source>&amp;Options:</source>
         <translation>옵션(&amp;O):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="388"/>
+        <location filename="../prefadvanced.ui" line="385"/>
         <source>V&amp;ideo filters:</source>
         <translation>영상 필터(&amp;I):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="449"/>
+        <location filename="../prefadvanced.ui" line="446"/>
         <source>Audio &amp;filters:</source>
         <translation>오디오 필터(&amp;F):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="217"/>
+        <location filename="../prefadvanced.ui" line="214"/>
         <source>&amp;Colorkey:</source>
         <translation>컬러키(&amp;C):</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="202"/>
         <source>&amp;Don&apos;t repaint the background of the video window</source>
-        <translation>영상 창에 배경 다시 칠하지 않기(&amp;D)</translation>
+        <translation type="obsolete">영상 창에 배경 다시 칠하지 않기(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="117"/>
+        <location filename="../prefadvanced.ui" line="114"/>
         <source>Log &amp;SMPlayer output</source>
         <translation>SMPlayer 출력 기록하기(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="176"/>
+        <location filename="../prefadvanced.ui" line="173"/>
         <source>&amp;Filter for SMPlayer logs:</source>
         <translation>SMPlayer 기록 필터(&amp;F):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="507"/>
+        <location filename="../prefadvanced.ui" line="504"/>
         <source>&amp;End of file:</source>
         <translation>파일의 끝(&amp;E):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="520"/>
+        <location filename="../prefadvanced.ui" line="517"/>
         <source>&amp;No video:</source>
         <translation>영상 없음(&amp;N):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="242"/>
+        <location filename="../prefadvanced.ui" line="239"/>
         <source>C&amp;hange...</source>
         <translation>변경(&amp;H)...</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="105"/>
+        <location filename="../prefadvanced.ui" line="102"/>
         <source>Logs</source>
         <translation>기록 파일</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="124"/>
+        <location filename="../prefadvanced.ui" line="121"/>
         <source>Log MPlayer &amp;output</source>
         <translation>MPlayer 출력 기록하기(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="291"/>
+        <location filename="../prefadvanced.ui" line="288"/>
         <source>Options for MP&amp;layer</source>
         <translation>MPlayer 옵션(&amp;L)</translation>
     </message>
@@ -3419,7 +3419,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>MPlayer 기록 파일을 저장할 경로와 파일명을 입력하십시요.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="131"/>
+        <location filename="../prefadvanced.ui" line="128"/>
         <source>A&amp;utosave MPlayer log to file</source>
         <translation>MPlayer 기록을 파일에 자동 저장(&amp;U)</translation>
     </message>
@@ -3434,7 +3434,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="267"/>
+        <location filename="../prefadvanced.ui" line="264"/>
         <source>&amp;Pass short filenames (8+3) to MPlayer</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3528,6 +3528,16 @@ The drop-down lists may provide already made regular expression for several lang
         <source>Select or type a regular expression for &apos;No video&apos;</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="361"/>
+        <source>Repaint the background of the video window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="199"/>
+        <source>Repaint the backgroun&amp;d of the video window</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>PrefAssociations</name>
@@ -3567,22 +3577,22 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>파일 형식 목록</translation>
     </message>
     <message>
-        <location filename="../prefassociations.ui" line="29"/>
+        <location filename="../prefassociations.ui" line="26"/>
         <source>File types</source>
         <translation>파일 형식</translation>
     </message>
     <message>
-        <location filename="../prefassociations.ui" line="41"/>
+        <location filename="../prefassociations.ui" line="38"/>
         <source>Media files handled by SMPlayer:</source>
         <translation>SMPlayer와 연결되는 미디어 파일:</translation>
     </message>
     <message>
-        <location filename="../prefassociations.ui" line="94"/>
+        <location filename="../prefassociations.ui" line="91"/>
         <source>Select All</source>
         <translation>모두 선택</translation>
     </message>
     <message>
-        <location filename="../prefassociations.ui" line="101"/>
+        <location filename="../prefassociations.ui" line="98"/>
         <source>Select None</source>
         <translation>모두 선택 해제</translation>
     </message>
@@ -3605,12 +3615,12 @@ The drop-down lists may provide already made regular expression for several lang
 <context>
     <name>PrefDrives</name>
     <message>
-        <location filename="../prefdrives.ui" line="29"/>
+        <location filename="../prefdrives.ui" line="26"/>
         <source>Drives</source>
         <translation>드라이브</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="157"/>
+        <location filename="../prefdrives.ui" line="154"/>
         <source>icon</source>
         <translation>아이콘</translation>
     </message>
@@ -3635,17 +3645,17 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>DVD 드라이브를 선택하십시요. DVD 재생에 사용됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="80"/>
+        <location filename="../prefdrives.ui" line="77"/>
         <source>Select your &amp;CD device:</source>
         <translation>&amp;CD 드라이브:</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="175"/>
+        <location filename="../prefdrives.ui" line="172"/>
         <source>Select your &amp;DVD device:</source>
         <translation>&amp;DVD 드라이브:</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="41"/>
+        <location filename="../prefdrives.ui" line="38"/>
         <source>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3653,47 +3663,47 @@ The drop-down lists may provide already made regular expression for several lang
 <context>
     <name>PrefGeneral</name>
     <message>
-        <location filename="../prefgeneral.cpp" line="472"/>
+        <location filename="../prefgeneral.cpp" line="473"/>
         <source>General</source>
         <translation>일반</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="29"/>
+        <location filename="../prefgeneral.ui" line="26"/>
         <source>&amp;General</source>
         <translation>일반(&amp;G)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="41"/>
+        <location filename="../prefgeneral.ui" line="38"/>
         <source>Paths</source>
         <translation>경로</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="88"/>
+        <location filename="../prefgeneral.ui" line="85"/>
         <source>Output drivers</source>
         <translation>출력 드라이버</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="175"/>
+        <location filename="../prefgeneral.ui" line="172"/>
         <source>Media settings</source>
         <translation>미디어 설정</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="511"/>
+        <location filename="../prefgeneral.cpp" line="512"/>
         <source>Video</source>
         <translation type="unfinished">영상</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="542"/>
+        <location filename="../prefgeneral.cpp" line="543"/>
         <source>Start videos in fullscreen</source>
         <translation>전체 화면에서 동영상 시작</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="546"/>
+        <location filename="../prefgeneral.cpp" line="547"/>
         <source>Disable screensaver</source>
         <translation>화면 보호기 비활성화</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="551"/>
+        <location filename="../prefgeneral.cpp" line="552"/>
         <source>Audio</source>
         <translation type="unfinished">오디오</translation>
     </message>
@@ -3718,202 +3728,202 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>폴더 선택</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="474"/>
+        <location filename="../prefgeneral.cpp" line="475"/>
         <source>MPlayer executable</source>
         <translation>MPlayer 실행 파일</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="479"/>
+        <location filename="../prefgeneral.cpp" line="480"/>
         <source>Here you must specify the mplayer executable that smplayer will use.&lt;br&gt;smplayer requires at least mplayer 1.0rc1 (svn recommended).&lt;br&gt;&lt;b&gt;If this setting is wrong, smplayer won&apos;t be able to play anything!&lt;/b&gt;</source>
         <translation>SMPlayer가 사용할 MPlayer 실행 파일을 지정해야 합니다.&lt;br&gt;SMPlayer는 최소 MPlayer 버전 1.0rc1을 요구합니다 (svn 권장).&lt;br&gt;&lt;b&gt;만약 이 설정이 잘못되면, SMPlayer는 어떤 파일도 재생할 수 없게 됩니다.&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="481"/>
+        <location filename="../prefgeneral.cpp" line="482"/>
         <source>Screenshots folder</source>
         <translation>스크린샷 폴더</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="484"/>
+        <location filename="../prefgeneral.cpp" line="485"/>
         <source>Here you can specify a folder where the screenshots taken by smplayer will be stored. If this field is empty the screenshot feature will be disabled.</source>
         <translation>이 칸에서 SMPlayer에서 찍은 스크린샷이 저장될 폴더를 지정할 수 있습니다. 만약 이 폴더가 지정되지 않으면, 스크린샷 기능을 사용할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="486"/>
+        <location filename="../prefgeneral.cpp" line="487"/>
         <source>Video output driver</source>
         <translation>영상 출력 드라이버</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="488"/>
+        <location filename="../prefgeneral.cpp" line="489"/>
         <source>Select the video output driver. Usually xv (linux) and directx (windows) provide the best performance.</source>
         <translation>영상 출력 드라이버를 선택하십시요. 보통 리눅스에서는 xv, 윈도우에서는 directx가 성능이 가장 좋습니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="490"/>
+        <location filename="../prefgeneral.cpp" line="491"/>
         <source>Audio output driver</source>
         <translation>오디오 출력 드라이버</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="491"/>
+        <location filename="../prefgeneral.cpp" line="492"/>
         <source>Select the audio output driver.</source>
         <translation>오디오 출력 드라이버를 선택하십시요.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="493"/>
+        <location filename="../prefgeneral.cpp" line="494"/>
         <source>Remember settings</source>
         <translation>설정 기억하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="496"/>
+        <location filename="../prefgeneral.cpp" line="497"/>
         <source>Usually smplayer will remember the settings for each file you play (audio track selected, volume, filters...). Uncheck this option if you don&apos;t like this feature.</source>
         <translation>보통 SMPlayer는 재생된 모든 파일에 대한 설정(선택된 오디오 트랙, 음량, 필터 등)을 기억합니다. 이 기능이 필요하지 않으면 선택을 해제하십시요.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="498"/>
         <source>Don&apos;t remember time position</source>
-        <translation>시간 지점 기억하지 않기</translation>
+        <translation type="obsolete">시간 지점 기억하지 않기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="500"/>
+        <location filename="../prefgeneral.cpp" line="501"/>
         <source>If you check this option, smplayer will play all files from the beginning.</source>
         <translation>이 옵션을 선택하면, SMPlayer는 모든 파일을 처음부터 재생합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="603"/>
+        <location filename="../prefgeneral.cpp" line="604"/>
         <source>Preferred audio language</source>
         <translation>사용할 오디오 언어</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="611"/>
+        <location filename="../prefgeneral.cpp" line="612"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>오디오 스트림에 사용할 언어를 지정할 수 있습니다. 만약 사용할 수 있는 오디오 스트림이 여러 개인 경우, SMPlayer는 여기서 지정된 언어를 사용하려고 시도합니다.&lt;br&gt;이 옵션은 DVD나 mkv 파일과 같이 오디오 스트림의 언어에 대한 정보가 주어지는 미디어 파일에 대해서만 적용됩니다.&lt;br&gt;이 칸에는 정규 표현식을 입력할 수 있습니다. 예를 들어, &lt;b&gt;ko|kr|kor&lt;/b&gt;은 &lt;i&gt;ko&lt;/i&gt;, &lt;i&gt;kr&lt;/i&gt; 및 &lt;i&gt;kor&lt;/i&gt;에 대응되는 오디오 트랙을 선택하게 합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="613"/>
+        <location filename="../prefgeneral.cpp" line="614"/>
         <source>Preferred subtitle language</source>
         <translation>사용할 자막 언어</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="621"/>
+        <location filename="../prefgeneral.cpp" line="622"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>자막 스트림에 사용할 언어를 지정할 수 있습니다. 만약 사용할 수 있는 자막 스트림이 여러 개인 경우, SMPlayer는 여기서 지정된 언어를 사용하려고 시도합니다.&lt;br&gt;이 옵션은 자막 스트림의 언어에 대한 정보가 주어지는 미디어 파일에 대해서만 적용됩니다.&lt;br&gt;이 칸에는 정규 표현식을 입력할 수 있습니다. 예를 들어, &lt;b&gt;ko|kr|kor&lt;/b&gt;은 &lt;i&gt;ko&lt;/i&gt;, &lt;i&gt;kr&lt;/i&gt; 및 &lt;i&gt;kor&lt;/i&gt;에 대응되는 자막을 선택하게 합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="514"/>
+        <location filename="../prefgeneral.cpp" line="515"/>
         <source>Software video equalizer</source>
         <translation>소프트웨어 영상 이퀄라이저</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="518"/>
+        <location filename="../prefgeneral.cpp" line="519"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>만약 그래픽 카드나 영상 출력 드라이버에 의해 영상 이퀄라이저가 지원되지 않는 경우, 이 옵션을 선택할 수 있습니다.&lt;br&gt;&lt;b&gt;주의:&lt;/b&gt; 이 옵션은 일부 영상 출력 드라이버와는 호환되지 않을 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="544"/>
+        <location filename="../prefgeneral.cpp" line="545"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>만약 이 옵션이 선택되면, 모든 동영상은 전체 화면에서 재생이 시작될 것입니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="549"/>
+        <location filename="../prefgeneral.cpp" line="550"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option works only in X11 and Windows.</source>
         <translation>이 옵션을 선택하면 재생하는 중에 화면 보호기가 비활성화됩니다.&lt;br&gt;재생이 끝나면 화면 보호기는 다시 활성화됩니다.&lt;br&gt;&lt;b&gt;주의:&lt;/b&gt; 이 옵션은 X11 및 윈도우 환경에서만 동작합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="553"/>
+        <location filename="../prefgeneral.cpp" line="554"/>
         <source>Software volume control</source>
         <translation>소프트웨어 음량 조절</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="555"/>
+        <location filename="../prefgeneral.cpp" line="556"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>이 옵션을 선택하면 사운드 카드의 믹서 대신 소프트웨어 믹서를 사용합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="523"/>
+        <location filename="../prefgeneral.cpp" line="524"/>
         <source>Postprocessing quality</source>
         <translation>후처리 품질</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="526"/>
+        <location filename="../prefgeneral.cpp" line="527"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>사용할 수 있는 CPU 시간을 고려하여 후처리의 품질을 동적으로 결정합니다. 여기에 입력하는 숫자는 최대 품질이 될 것입니다. 실제 품질은 동적으로 결정되므로, 조금 큰 수를 설정해도 좋습니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="570"/>
+        <location filename="../prefgeneral.cpp" line="571"/>
         <source>Change volume</source>
         <translation>음량 바꾸기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="573"/>
+        <location filename="../prefgeneral.cpp" line="574"/>
         <source>If checked, SMPlayer will remember the volume for every file and will restore it when played again. For new files the default volume will be used.</source>
         <translation>이 옵션을 선택하면, SMPlayer는 모든 파일에 사용된 음량을 기억하고 다시 재생될 때 그 음량을 사용합니다. 새로운 파일에 대해서는 기본 음량이 사용됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="576"/>
+        <location filename="../prefgeneral.ui" line="638"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="516"/>
+        <location filename="../prefgeneral.ui" line="508"/>
         <source>&amp;Change volume on every file</source>
         <translation>모든 파일의 음량 바꾸기(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="53"/>
+        <location filename="../prefgeneral.ui" line="50"/>
         <source>Select the &amp;MPlayer executable:</source>
         <translation>&amp;MPlayer 실행 파일을 선택하십시요:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="69"/>
+        <location filename="../prefgeneral.ui" line="66"/>
         <source>&amp;Folder for storing screenshots:</source>
         <translation>스크린샷을 저장할 폴더(&amp;F):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="100"/>
+        <location filename="../prefgeneral.ui" line="97"/>
         <source>V&amp;ideo:</source>
         <translation>영상(&amp;I):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="808"/>
+        <location filename="../prefgeneral.ui" line="822"/>
         <source>&amp;Audio:</source>
         <translation>오디오(&amp;A):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="214"/>
         <source>&amp;Don&apos;t remember time position (files start playing from the beginning)</source>
-        <translation>모든 파일이 처음부터 재생되도록 시간 지점 기억하지 않기(&amp;D)</translation>
+        <translation type="obsolete">모든 파일이 처음부터 재생되도록 시간 지점 기억하지 않기(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="221"/>
+        <location filename="../prefgeneral.ui" line="218"/>
         <source>&amp;Remember settings for all files (audio track, subtitles...)</source>
         <translation>모든 파일에 대한 설정(선택된 오디오 트랙, 자막 등)을 기억(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="827"/>
+        <location filename="../prefgeneral.ui" line="841"/>
         <source>Su&amp;btitles:</source>
         <translation>자막(&amp;B):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="312"/>
+        <location filename="../prefgeneral.ui" line="306"/>
         <source>&amp;Quality:</source>
         <translation>품질(&amp;Q):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="387"/>
+        <location filename="../prefgeneral.ui" line="390"/>
         <source>Start videos in &amp;fullscreen</source>
         <translation>전체 화면에서 동영상 시작(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="394"/>
+        <location filename="../prefgeneral.ui" line="397"/>
         <source>Disable &amp;screensaver</source>
         <translation>화면 보호기 비활성화(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="547"/>
+        <location filename="../prefgeneral.ui" line="609"/>
         <source>&amp;Default volume:</source>
         <translation>기본 음량(&amp;D):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="447"/>
+        <location filename="../prefgeneral.ui" line="450"/>
         <source>Use s&amp;oftware volume control</source>
         <translation>소프트웨어 음량 조절 사용(&amp;O)</translation>
     </message>
@@ -3923,42 +3933,42 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>최대 음량 확대(&amp;X):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="636"/>
+        <location filename="../prefgeneral.ui" line="650"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
         <translation>S/PDIF 통과 &amp;AC3/DTS</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="532"/>
+        <location filename="../prefgeneral.cpp" line="533"/>
         <source>Direct rendering</source>
         <translation>직접 렌더링</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="535"/>
+        <location filename="../prefgeneral.cpp" line="536"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>만약 선택하면, 직접 렌더링 기능을 사용합니다. (모든 코덱과 영상 출력 드라이버가 지원하지는 않음)&lt;br&gt;&lt;b&gt;경고:&lt;/b&gt; OSD 및 자막 오류를 일으킬 수 있습니다!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="537"/>
+        <location filename="../prefgeneral.cpp" line="538"/>
         <source>Double buffering</source>
         <translation>더블 버퍼링</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="373"/>
+        <location filename="../prefgeneral.ui" line="376"/>
         <source>D&amp;irect rendering</source>
         <translation>직접 렌더링(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="380"/>
+        <location filename="../prefgeneral.ui" line="383"/>
         <source>Dou&amp;ble buffering</source>
         <translation>더블 버퍼링(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="540"/>
+        <location filename="../prefgeneral.cpp" line="541"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>더블 버퍼링은 메모리 상에 프레임 2개를 저장하고 하나를 디코드하는 동안 하나를 표시함으로써 깜빡임을 해소합니다. 만약 비활성화되면 OSD에 좋지 않은 영향을 끼칠 수 있지만, OSD 깜빡임을 해소합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="289"/>
+        <location filename="../prefgeneral.ui" line="286"/>
         <source>&amp;Enable postprocessing by default</source>
         <translation>후처리 기본으로 활성화(&amp;E)</translation>
     </message>
@@ -3968,17 +3978,17 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>기본으로 음량 노멀라이즈(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="502"/>
+        <location filename="../prefgeneral.cpp" line="503"/>
         <source>Close when finished</source>
         <translation>재생이 끝나면 닫기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="504"/>
+        <location filename="../prefgeneral.cpp" line="505"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>이 옵션이 선택되면, 현재 파일이나 재생 목록이 끝날 때 창이 자동으로 닫힙니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="231"/>
+        <location filename="../prefgeneral.ui" line="228"/>
         <source>&amp;Close when finished</source>
         <translation>재생이 끝나면 닫기(&amp;C)</translation>
     </message>
@@ -3998,127 +4008,127 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>6개 (5.1 서라운드)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="651"/>
+        <location filename="../prefgeneral.ui" line="665"/>
         <source>C&amp;hannels by default:</source>
         <translation>기본 채널 수(&amp;H):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="238"/>
+        <location filename="../prefgeneral.ui" line="235"/>
         <source>&amp;Pause when minimized</source>
         <translation>최소화할 때 일시 정지(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="506"/>
+        <location filename="../prefgeneral.cpp" line="507"/>
         <source>Pause when minimized</source>
         <translation>최소화할 때 일시 정지</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="509"/>
+        <location filename="../prefgeneral.cpp" line="510"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, play will be resumed.</source>
         <translation>이 옵션이 선택되면, 파일은 창이 보이지 않게 될 때 일시 정지됩니다. 창이 원래 크기로 복원되면, 파일은 다시 재생이 시작됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="520"/>
+        <location filename="../prefgeneral.cpp" line="521"/>
         <source>Enable postprocessing by default</source>
         <translation>후처리 기본으로 활성화</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="557"/>
+        <location filename="../prefgeneral.cpp" line="558"/>
         <source>Max. Amplification</source>
         <translation>최대 음량 확대</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="564"/>
+        <location filename="../prefgeneral.cpp" line="565"/>
         <source>AC3/DTS pass-through S/PDIF</source>
         <translation>S/PDIF 통과 AC3/DTS</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="567"/>
+        <location filename="../prefgeneral.cpp" line="568"/>
         <source>Volume normalization by default</source>
         <translation>기본으로 음량 노멀라이즈</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="568"/>
+        <location filename="../prefgeneral.cpp" line="569"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>소리에 왜곡 없이 음량을 최대화합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="575"/>
+        <location filename="../prefgeneral.cpp" line="584"/>
         <source>Default volume</source>
         <translation>기본 음량</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="576"/>
+        <location filename="../prefgeneral.cpp" line="585"/>
         <source>Sets the initial volume that new files will use.</source>
         <translation>새로운 파일이 기본값으로 사용할 초기 음량을 설정합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="586"/>
+        <location filename="../prefgeneral.cpp" line="587"/>
         <source>Channels by default</source>
         <translation>기본 채널 수</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="562"/>
+        <location filename="../prefgeneral.cpp" line="563"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>백분율 단위로 최대 음량을 설정하십시요 (기본값: 110). 200을 입력하면 음량을 최대 현재의 2배까지로 조정할 수 있게 해 줍니다. 100 미만의 값은 초기 음량(=100%)이 최대값을 초과하도록 하므로, OSD가 제대로 표시할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="565"/>
+        <location filename="../prefgeneral.cpp" line="566"/>
         <source>Uses hardware AC3 passthrough</source>
         <translation>하드웨어 AC3 통과 사용</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="595"/>
+        <location filename="../prefgeneral.cpp" line="596"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. NOTE: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation>최대 재생 채널의 개수입니다. MPlayer는 디코더에 오디오를 여기서 지정된 채널 수로 디코드하라고 요청합니다. 그 이후의 과정은 디코더에 달려 있습니다. 이 옵션은 AC3 오디오를 지닌 동영상(예를 들어 DVD)에서만 중요합니다. 그러한 경우 liba52가 기본적으로 디코딩을 수행하여 오디오를 요청된 채널 수대로 하향 믹스합니다. 주의: 이 옵션은 AC3 코덱과 필터(서라운드) 및 오디오 출력 드라이버(최소 OSS)에 의해서만 존중됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="521"/>
+        <location filename="../prefgeneral.cpp" line="522"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>후처리는 새로 열린 파일에 대해 기본적으로 사용됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="623"/>
+        <location filename="../prefgeneral.cpp" line="624"/>
         <source>Audio track</source>
         <translation>오디오 트랙</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="627"/>
+        <location filename="../prefgeneral.cpp" line="628"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>새로운 파일을 재생할 때 사용될 기본 오디오 트랙을 지정합니다. 만약 해당하는 트랙이 존재하지 않으면, 첫 트랙이 사용될 것입니다.&lt;br&gt;&lt;b&gt;주의:&lt;/b&gt; &quot;사용할 오디오 언어&quot; 옵션이 이 옵션보다 우선적으로 적용됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="629"/>
+        <location filename="../prefgeneral.cpp" line="630"/>
         <source>Subtitle track</source>
         <translation>자막 트랙</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="633"/>
+        <location filename="../prefgeneral.cpp" line="634"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>새로운 파일을 재생할 때 사용될 기본 자막 트랙을 지정합니다. 만약 해당하는 트랙이 존재하지 않으면, 첫 트랙이 사용될 것입니다.&lt;br&gt;&lt;b&gt;주의:&lt;/b&gt; &quot;사용할 자막 언어&quot; 옵션이 이 옵션보다 우선적으로 적용됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="936"/>
+        <location filename="../prefgeneral.ui" line="950"/>
         <source>Or choose a track number:</source>
         <translation>또는 트랙 번호를 지정하십시요:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="877"/>
+        <location filename="../prefgeneral.ui" line="891"/>
         <source>Audi&amp;o:</source>
         <translation>오디오(&amp;O):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="843"/>
+        <location filename="../prefgeneral.ui" line="857"/>
         <source>Preferred language:</source>
         <translation>사용할 언어:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="741"/>
+        <location filename="../prefgeneral.ui" line="755"/>
         <source>Preferre&amp;d audio and subtitles</source>
         <translation>사용할 오디오 및 자막(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="890"/>
+        <location filename="../prefgeneral.ui" line="904"/>
         <source>&amp;Subtitle:</source>
         <translation>자막(&amp;S):</translation>
     </message>
@@ -4128,63 +4138,58 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>오디오 및 자막 스트림에 사용할 언어를 지정할 수 있습니다. 만약 사용할 수 있는 오디오 또는 자막 스트림이 여러 개인 경우, SMPlayer는 여기서 지정된 언어를 사용하려고 시도합니다.&lt;br&gt;이 옵션은 DVD나 mkv 파일과 같이 오디오와 자막 스트림의 언어에 대한 정보가 주어지는 미디어 파일에 대해서만 적용됩니다.&lt;br&gt;이 칸에는 정규 표현식을 입력할 수 있습니다. 예를 들어, &lt;b&gt;ko|kr|kor&lt;/b&gt;은 &lt;i&gt;ko&lt;/i&gt;, &lt;i&gt;kr&lt;/i&gt; 및 &lt;i&gt;kor&lt;/i&gt;에 대응되는 오디오 트랙을 선택하게 합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="753"/>
+        <location filename="../prefgeneral.ui" line="767"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
         <translation>.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="687"/>
+        <location filename="../prefgeneral.ui" line="701"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>음조를 변경하지 않고 고속 재생(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="597"/>
+        <location filename="../prefgeneral.cpp" line="598"/>
         <source>High speed playback without altering pitch</source>
         <translation>음조를 변경하지 않고 고속 재생</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="599"/>
+        <location filename="../prefgeneral.cpp" line="600"/>
         <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
         <translation>재생 속도를 음조의 변경 없이 바꿀 수 있도록 합니다. 최소 MPlayer dev-SVN-r24924 버전을 필요로 합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="578"/>
+        <location filename="../prefgeneral.cpp" line="576"/>
         <source>Change volume just before playing</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="584"/>
+        <location filename="../prefgeneral.cpp" line="582"/>
         <source>If this option is checked the initial volume will be set by using the &lt;i&gt;-volume&lt;/i&gt; option in MPlayer.&lt;br&gt; &lt;b&gt;WARNING: THE OFFICIAL MPLAYER DOESN&apos;T HAVE THAT &lt;i&gt;-volume&lt;/i&gt; OPTION, YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON&apos;T PLAY ANYTHING.&lt;/b&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="262"/>
+        <location filename="../prefgeneral.ui" line="259"/>
         <source>&amp;Video</source>
         <translation type="unfinished">영상(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="274"/>
+        <location filename="../prefgeneral.ui" line="271"/>
         <source>Use s&amp;oftware video equalizer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="415"/>
+        <location filename="../prefgeneral.ui" line="418"/>
         <source>A&amp;udio</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="427"/>
+        <location filename="../prefgeneral.ui" line="430"/>
         <source>Volume</source>
         <translation type="unfinished">음량</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="614"/>
-        <source>Change volume just before p&amp;laying (avoids loud volume on startup)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="601"/>
+        <location filename="../prefgeneral.cpp" line="602"/>
         <source>Preferred audio and subtitles</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4219,18 +4224,33 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="345"/>
+        <location filename="../prefgeneral.ui" line="339"/>
         <source>Dei&amp;nterlace by default:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="528"/>
+        <location filename="../prefgeneral.cpp" line="529"/>
         <source>Deinterlace by default</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="530"/>
+        <location filename="../prefgeneral.cpp" line="531"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="499"/>
+        <source>Remember time position</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="211"/>
+        <source>Remember &amp;time position</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="542"/>
+        <source>Change volume just before p&amp;laying</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4242,22 +4262,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>키보드 및 마우스</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="29"/>
+        <location filename="../prefinput.ui" line="26"/>
         <source>&amp;Keyboard</source>
         <translation>키보드(&amp;K)</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="310"/>
+        <location filename="../prefinput.ui" line="307"/>
         <source>icon</source>
         <translation>아이콘</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="95"/>
+        <location filename="../prefinput.ui" line="92"/>
         <source>&amp;Mouse</source>
         <translation>마우스(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="107"/>
+        <location filename="../prefinput.ui" line="104"/>
         <source>Button functions:</source>
         <translation>버튼 기능:</translation>
     </message>
@@ -4282,7 +4302,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>없음</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="67"/>
+        <location filename="../prefinput.ui" line="64"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>단축키를 변경할 수 있습니다. 단축키를 변경하려면, 단축키 칸을 두 번 클릭하거나 엔터 키를 누릅니다. 필요하다면, 다른 사람과 공유하거나 다른 컴퓨터로 옮기기 위해 목록을 파일로 저장할 수 있습니다.</translation>
     </message>
@@ -4292,17 +4312,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>단축키를 변경할 수 있습니다. 단축키를 변경하려면, 단축키 칸을 두 번 클릭하거나 새 단축키를 누릅니다. 필요하다면, 다른 사람과 공유하거나 다른 컴퓨터로 옮기기 위해 목록을 파일로 저장할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="289"/>
+        <location filename="../prefinput.ui" line="286"/>
         <source>&amp;Left click</source>
         <translation>왼쪽 클릭(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="145"/>
+        <location filename="../prefinput.ui" line="142"/>
         <source>&amp;Double click</source>
         <translation>두 번 클릭(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="346"/>
+        <location filename="../prefinput.ui" line="343"/>
         <source>&amp;Wheel function:</source>
         <translation>휠 기능(&amp;W):</translation>
     </message>
@@ -4467,17 +4487,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="190"/>
+        <location filename="../prefinput.ui" line="187"/>
         <source>M&amp;iddle click</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="216"/>
+        <location filename="../prefinput.ui" line="213"/>
         <source>X Button &amp;1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="242"/>
+        <location filename="../prefinput.ui" line="239"/>
         <source>X Button &amp;2</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4522,7 +4542,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="401"/>
+        <location filename="../prefinput.ui" line="398"/>
         <source>&amp;Right click</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4670,7 +4690,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>기본</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="29"/>
+        <location filename="../prefinterface.ui" line="26"/>
         <source>&amp;Interface</source>
         <translation>인터페이스(&amp;I)</translation>
     </message>
@@ -4680,22 +4700,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">지점 이동</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="87"/>
+        <location filename="../prefinterface.ui" line="84"/>
         <source>Never</source>
         <translation>하지 않음</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="92"/>
+        <location filename="../prefinterface.ui" line="89"/>
         <source>Whenever it&apos;s needed</source>
         <translation>필요할 때</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="97"/>
+        <location filename="../prefinterface.ui" line="94"/>
         <source>Only after loading a new video</source>
         <translation>새 동영상을 불러온 후에</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="130"/>
+        <location filename="../prefinterface.ui" line="127"/>
         <source>Recent files</source>
         <translation>최근에 재생한 파일</translation>
     </message>
@@ -4750,7 +4770,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>마우스 휠로 건너뛰기(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="542"/>
+        <location filename="../prefinterface.ui" line="548"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
         <translation>SMPlayer에서 인스턴스 한 개만 사용(&amp;U)</translation>
     </message>
@@ -4760,77 +4780,77 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">SMPlayer는 다른 인스턴스에서 오는 명령을 수신하기 위해 이 포트를 감시합니다(&amp;P):</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="142"/>
+        <location filename="../prefinterface.ui" line="139"/>
         <source>Ma&amp;x. items</source>
         <translation>최대 항목 수(&amp;X)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="259"/>
+        <location filename="../prefinterface.ui" line="256"/>
         <source>St&amp;yle:</source>
         <translation>스타일(&amp;Y):</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="209"/>
+        <location filename="../prefinterface.ui" line="206"/>
         <source>Ico&amp;n set:</source>
         <translation>아이콘 셋(&amp;N):</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="196"/>
+        <location filename="../prefinterface.ui" line="193"/>
         <source>L&amp;anguage:</source>
         <translation>언어(&amp;A):</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="41"/>
+        <location filename="../prefinterface.ui" line="38"/>
         <source>Main window</source>
         <translation>창</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="68"/>
+        <location filename="../prefinterface.ui" line="65"/>
         <source>Auto&amp;resize:</source>
         <translation>자동 크기 바꾸기(&amp;R):</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="105"/>
+        <location filename="../prefinterface.ui" line="102"/>
         <source>R&amp;emember position and size</source>
         <translation>창 위치 및 크기 기억(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="347"/>
+        <location filename="../prefinterface.ui" line="353"/>
         <source>Default font:</source>
         <translation>기본 글꼴:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="361"/>
+        <location filename="../prefinterface.ui" line="367"/>
         <source>&amp;Change...</source>
         <translation>변경(&amp;C)...</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="527"/>
+        <location filename="../prefinterface.ui" line="533"/>
         <source>TextLabel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="384"/>
+        <location filename="../prefinterface.ui" line="390"/>
         <source>&amp;Seeking</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="459"/>
+        <location filename="../prefinterface.ui" line="465"/>
         <source>&amp;Behaviour of time slider:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="478"/>
+        <location filename="../prefinterface.ui" line="484"/>
         <source>Seek to position while dragging</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="483"/>
+        <location filename="../prefinterface.ui" line="489"/>
         <source>Seek to position when released</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="507"/>
+        <location filename="../prefinterface.ui" line="513"/>
         <source>Ins&amp;tances</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4980,12 +5000,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="310"/>
+        <location filename="../prefinterface.ui" line="307"/>
         <source>&amp;GUI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="323"/>
+        <location filename="../prefinterface.ui" line="329"/>
         <source>(this option requires to restart SMPlayer)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5005,17 +5025,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="552"/>
+        <location filename="../prefinterface.ui" line="558"/>
         <source>Port to listen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="564"/>
+        <location filename="../prefinterface.ui" line="570"/>
         <source>&amp;Automatic</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="579"/>
+        <location filename="../prefinterface.ui" line="585"/>
         <source>&amp;Manual</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5351,97 +5371,97 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>트루타입 글꼴</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="32"/>
+        <location filename="../prefsubtitles.ui" line="29"/>
         <source>&amp;Subtitles</source>
         <translation>자막(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="44"/>
+        <location filename="../prefsubtitles.ui" line="41"/>
         <source>Autoload</source>
         <translation>자동으로 불러오기</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="77"/>
+        <location filename="../prefsubtitles.ui" line="74"/>
         <source>Same name as movie</source>
         <translation>동영상과 같은 이름</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="82"/>
+        <location filename="../prefsubtitles.ui" line="79"/>
         <source>All subs containing movie name</source>
         <translation>동영상의 이름을 포함하는 모든 자막</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="87"/>
+        <location filename="../prefsubtitles.ui" line="84"/>
         <source>All subs in directory</source>
         <translation>폴더에 있는 모든 자막</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="168"/>
+        <location filename="../prefsubtitles.ui" line="165"/>
         <source>Position</source>
         <translation>위치</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="228"/>
+        <location filename="../prefsubtitles.ui" line="225"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="248"/>
+        <location filename="../prefsubtitles.ui" line="245"/>
         <source>Top</source>
         <translation>위</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="274"/>
+        <location filename="../prefsubtitles.ui" line="271"/>
         <source>Bottom</source>
         <translation>아래</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="313"/>
+        <location filename="../prefsubtitles.ui" line="310"/>
         <source>&amp;Font</source>
         <translation>글꼴(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="325"/>
+        <location filename="../prefsubtitles.ui" line="322"/>
         <source>Font</source>
         <translation>글꼴</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="359"/>
+        <location filename="../prefsubtitles.ui" line="356"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
         <translation>자막과 OSD에서 사용될 글꼴을 선택하십시요:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="399"/>
+        <location filename="../prefsubtitles.ui" line="396"/>
         <source>Size</source>
         <translation>크기</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="433"/>
+        <location filename="../prefsubtitles.ui" line="430"/>
         <source>No autoscale</source>
         <translation>본래 크기 유지</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="438"/>
+        <location filename="../prefsubtitles.ui" line="435"/>
         <source>Proportional to movie height</source>
         <translation>영상 세로 길이에 어울림</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="443"/>
+        <location filename="../prefsubtitles.ui" line="440"/>
         <source>Proportional to movie width</source>
         <translation>영상 가로 길이에 어울림</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="448"/>
+        <location filename="../prefsubtitles.ui" line="445"/>
         <source>Proportional to movie diagonal</source>
         <translation>영상 대각선 길이에 어울림</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="572"/>
+        <location filename="../prefsubtitles.ui" line="569"/>
         <source>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</source>
         <translation>최신 SSA/ASS 라이브러리는 외부 SSA/ASS 자막 파일 및 Matroska 트랙에 대해 멋진 결과를 보여줍니다. 하지만 이 라이브러리는 SUB나 SRT 파일과 같은 다른 형식의 자막을 렌더링할 때도 사용될 것입니다.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="694"/>
+        <location filename="../prefsubtitles.ui" line="691"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
         <translation>SSA/ASS 자막 스타일을 설정할 수 있습니다. 이 설정값은 SRT나 SUB 자막을 SSA/ASS 라이브러리를 사용하여 렌더링할 때도 사용됩니다. 예: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</translation>
     </message>
@@ -5461,62 +5481,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>SSA/ASS 스타일</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="56"/>
+        <location filename="../prefsubtitles.ui" line="53"/>
         <source>Au&amp;toload subtitles files (*.srt, *.sub...):</source>
         <translation>자막 파일(*.srt, *.sub...) 자동으로 불러오기(&amp;T):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="69"/>
+        <location filename="../prefsubtitles.ui" line="66"/>
         <source>S&amp;elect first available subtitle</source>
         <translation>사용 가능한 첫 자막 파일 선택(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="114"/>
+        <location filename="../prefsubtitles.ui" line="111"/>
         <source>&amp;Default subtitle encoding:</source>
         <translation>기본 자막 인코딩(&amp;D):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="180"/>
+        <location filename="../prefsubtitles.ui" line="177"/>
         <source>Default &amp;position of the subtitles on screen</source>
         <translation>자막의 기본 위치(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="289"/>
+        <location filename="../prefsubtitles.ui" line="286"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>스크린샷에 자막 포함(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="389"/>
+        <location filename="../prefsubtitles.ui" line="386"/>
         <source>&amp;TTF font:</source>
         <translation>&amp;TTF 글꼴:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="369"/>
+        <location filename="../prefsubtitles.ui" line="366"/>
         <source>S&amp;ystem font:</source>
         <translation>시스템 글꼴(&amp;Y):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="419"/>
+        <location filename="../prefsubtitles.ui" line="416"/>
         <source>A&amp;utoscale:</source>
         <translation>크기 맞춤(&amp;U):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="585"/>
+        <location filename="../prefsubtitles.ui" line="582"/>
         <source>&amp;Use SSA/ASS library for subtitle rendering</source>
         <translation>자막 렌더링에 SSA/ASS 라이브러리 사용(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="603"/>
+        <location filename="../prefsubtitles.ui" line="600"/>
         <source>&amp;Text color:</source>
         <translation>글자 색(&amp;T):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="645"/>
+        <location filename="../prefsubtitles.ui" line="642"/>
         <source>&amp;Border color:</source>
         <translation>테두리 색(&amp;B):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="718"/>
+        <location filename="../prefsubtitles.ui" line="715"/>
         <source>St&amp;yles:</source>
         <translation>스타일(&amp;Y):</translation>
     </message>
@@ -5546,17 +5566,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="517"/>
+        <location filename="../prefsubtitles.ui" line="514"/>
         <source>Default sc&amp;ale for SSA/ASS subtitles:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="530"/>
+        <location filename="../prefsubtitles.ui" line="527"/>
         <source>Default s&amp;cale for normal subtitles:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="560"/>
+        <location filename="../prefsubtitles.ui" line="557"/>
         <source>SSA/ASS &amp;library</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5845,12 +5865,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>SeekWidget</name>
     <message>
-        <location filename="../seekwidget.ui" line="25"/>
+        <location filename="../seekwidget.ui" line="22"/>
         <source>icon</source>
         <translation>아이콘</translation>
     </message>
     <message>
-        <location filename="../seekwidget.ui" line="43"/>
+        <location filename="../seekwidget.ui" line="40"/>
         <source>label</source>
         <translation>레이블</translation>
     </message>
@@ -5891,7 +5911,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../timedialog.ui" line="44"/>
+        <location filename="../timedialog.ui" line="41"/>
         <source>&amp;Jump to:</source>
         <translation type="unfinished"></translation>
     </message>
