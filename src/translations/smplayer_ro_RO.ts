@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -3555,12 +3556,12 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="361"/>
         <source>Repaint the background of the video window</source>
-        <translation type="unfinished"></translation>
+        <translation>Refacerea culorii de fond a ferestrei de redare</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="199"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
-        <translation type="unfinished"></translation>
+        <translation>Refacerea culorii de fon&amp;d a ferestrei de redare</translation>
     </message>
 </context>
 <context>
@@ -4271,17 +4272,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="499"/>
         <source>Remember time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Memorarea timpului scurs</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="211"/>
         <source>Remember &amp;time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Memorarea &amp;timpului scurs</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="542"/>
         <source>Change volume just before p&amp;laying</source>
-        <translation type="unfinished"></translation>
+        <translation>Modificarea vo&amp;lumului chiar înainte de redare</translation>
     </message>
 </context>
 <context>
