@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -3561,12 +3562,12 @@ Die Auswahl-Liste enthält evt.schon die regulären Ausdrücke.</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="361"/>
         <source>Repaint the background of the video window</source>
-        <translation type="unfinished"></translation>
+        <translation>Hintergrund vom Videofenster ausfüllen</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="199"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hintergrund vom Videofenster ausfüllen</translation>
     </message>
 </context>
 <context>
@@ -4279,17 +4280,17 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="499"/>
         <source>Remember time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeitposition beibehalten</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="211"/>
         <source>Remember &amp;time position</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zeitposition beibehalten</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="542"/>
         <source>Change volume just before p&amp;laying</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Änderung der Lautstärke kurz vor der Wiedergabe</translation>
     </message>
 </context>
 <context>
