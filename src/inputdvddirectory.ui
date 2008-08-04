@@ -12,9 +12,6 @@
   <property name="windowTitle" >
    <string>SMPlayer - Play a DVD from a folder</string>
   </property>
-  <property name="windowIcon" >
-   <iconset/>
-  </property>
   <property name="modal" >
    <bool>true</bool>
   </property>

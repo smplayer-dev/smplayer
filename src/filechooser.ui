@@ -9,9 +9,6 @@
     <height>27</height>
    </rect>
   </property>
-  <property name="windowIcon" >
-   <iconset/>
-  </property>
   <layout class="QHBoxLayout" >
    <property name="margin" >
     <number>2</number>
