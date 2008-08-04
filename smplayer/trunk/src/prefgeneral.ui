@@ -5,8 +5,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>468</width>
-    <height>465</height>
+    <width>485</width>
+    <height>515</height>
    </rect>
   </property>
   <layout class="QVBoxLayout" >
@@ -14,7 +14,7 @@
     <number>0</number>
    </property>
    <property name="spacing" >
-    <number>0</number>
+    <number>6</number>
    </property>
    <item>
     <widget class="QTabWidget" name="general_tab" >
@@ -273,13 +273,6 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="postprocessing_check" >
-         <property name="text" >
-          <string>&amp;Enable postprocessing by default</string>
-         </property>
-        </widget>
-       </item>
-       <item>
         <layout class="QHBoxLayout" >
          <property name="margin" >
           <number>0</number>
@@ -288,12 +281,16 @@
           <number>6</number>
          </property>
          <item>
+          <widget class="QCheckBox" name="postprocessing_check" >
+           <property name="text" >
+            <string>&amp;Enable postprocessing by default</string>
+           </property>
+          </widget>
+         </item>
+         <item>
           <spacer>
            <property name="orientation" >
             <enum>Qt::Horizontal</enum>
-           </property>
-           <property name="sizeType" >
-            <enum>QSizePolicy::Maximum</enum>
            </property>
            <property name="sizeHint" >
             <size>
@@ -326,19 +323,6 @@
            </property>
           </widget>
          </item>
-         <item>
-          <spacer>
-           <property name="orientation" >
-            <enum>Qt::Horizontal</enum>
-           </property>
-           <property name="sizeHint" >
-            <size>
-             <width>40</width>
-             <height>20</height>
-            </size>
-           </property>
-          </spacer>
-         </item>
         </layout>
        </item>
        <item>
@@ -360,7 +344,16 @@
           </widget>
          </item>
          <item>
-          <widget class="QComboBox" name="deinterlace_combo" />
+          <widget class="QComboBox" name="deinterlace_combo" >
+           <property name="sizePolicy" >
+            <sizepolicy>
+             <hsizetype>7</hsizetype>
+             <vsizetype>0</vsizetype>
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+          </widget>
          </item>
          <item>
           <spacer>
@@ -444,13 +437,6 @@
            <number>6</number>
           </property>
           <item>
-           <widget class="QCheckBox" name="softvol_check" >
-            <property name="text" >
-             <string>Use s&amp;oftware volume control</string>
-            </property>
-           </widget>
-          </item>
-          <item>
            <layout class="QHBoxLayout" >
             <property name="margin" >
              <number>0</number>
@@ -459,12 +445,16 @@
              <number>6</number>
             </property>
             <item>
+             <widget class="QCheckBox" name="softvol_check" >
+              <property name="text" >
+               <string>Use s&amp;oftware volume control</string>
+              </property>
+             </widget>
+            </item>
+            <item>
              <spacer>
               <property name="orientation" >
                <enum>Qt::Horizontal</enum>
-              </property>
-              <property name="sizeType" >
-               <enum>QSizePolicy::Maximum</enum>
               </property>
               <property name="sizeHint" >
                <size>
@@ -502,19 +492,6 @@
                <number>10</number>
               </property>
              </widget>
-            </item>
-            <item>
-             <spacer>
-              <property name="orientation" >
-               <enum>Qt::Horizontal</enum>
-              </property>
-              <property name="sizeHint" >
-               <size>
-                <width>40</width>
-                <height>20</height>
-               </size>
-              </property>
-             </spacer>
             </item>
            </layout>
           </item>
@@ -576,7 +553,7 @@
               </property>
               <property name="sizePolicy" >
                <sizepolicy>
-                <hsizetype>5</hsizetype>
+                <hsizetype>7</hsizetype>
                 <vsizetype>0</vsizetype>
                 <horstretch>0</horstretch>
                 <verstretch>0</verstretch>
@@ -732,7 +709,7 @@
           <widget class="TristateCombo" name="scaletempo_combo" >
            <property name="sizePolicy" >
             <sizepolicy>
-             <hsizetype>5</hsizetype>
+             <hsizetype>7</hsizetype>
              <vsizetype>0</vsizetype>
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
