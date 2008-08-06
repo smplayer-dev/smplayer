@@ -1631,6 +1631,9 @@ void BaseGui::createMenus() {
 	playMenu->addAction(repeatAct);
 	playMenu->addSeparator();
 	playMenu->addAction(gotoAct);
+	playMenu->addSeparator();
+	playMenu->addAction(playPrevAct);
+	playMenu->addAction(playNextAct);
 	
 	// VIDEO MENU
 	videoMenu->addAction(fullscreenAct);
