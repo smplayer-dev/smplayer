@@ -814,7 +814,11 @@ void Playlist::playNext() {
 
 void Playlist::playPrev() {
 	qDebug("Playlist::playPrev");
-	if (current_item > 0) playItem( current_item-1 );
+	if (current_item > 0) {
+		playItem( current_item-1 );
+	} else {
+		if (pl.count() > 1) playItem( pl.count() -1 );
+	}
 }
 
 void Playlist::getMediaInfo() {
