@@ -248,6 +248,11 @@ BaseGui::~BaseGui() {
 		playlist = 0;
 	}
 //#endif
+
+	if (find_subs_dialog) {
+		delete find_subs_dialog;
+		find_subs_dialog = 0; // Necessary?
+	}
 }
 
 void BaseGui::createActions() {
@@ -3695,7 +3700,8 @@ void BaseGui::showFindSubtitlesDialog() {
 	qDebug("BaseGui::showFindSubtitlesDialog");
 
 	if (!find_subs_dialog) {
-		find_subs_dialog = new FindSubtitlesDialog(this);
+		find_subs_dialog = new FindSubtitlesWindow(0);
+		find_subs_dialog->setWindowIcon(windowIcon());
 	}
 
 	find_subs_dialog->show();

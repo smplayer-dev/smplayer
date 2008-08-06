@@ -41,7 +41,7 @@ class QLabel;
 class FilePropertiesDialog;
 class VideoEqualizer;
 class AudioEqualizer;
-class FindSubtitlesDialog;
+class FindSubtitlesWindow;
 class Playlist;
 
 class Recents;
@@ -539,7 +539,7 @@ protected:
 	Playlist * playlist;
 	VideoEqualizer * video_equalizer;
 	AudioEqualizer * audio_equalizer;
-	FindSubtitlesDialog * find_subs_dialog;
+	FindSubtitlesWindow * find_subs_dialog;
 
 	Core * core;
     MplayerWindow *mplayerwindow;

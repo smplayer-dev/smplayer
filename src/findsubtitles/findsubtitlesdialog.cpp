@@ -38,7 +38,7 @@
 #define COL_DATE 4
 #define COL_USER 5
 
-FindSubtitlesDialog::FindSubtitlesDialog( QWidget * parent, Qt::WindowFlags f )
+FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
 	: QDialog(parent,f)
 {
 	setupUi(this);
@@ -123,10 +123,10 @@ FindSubtitlesDialog::FindSubtitlesDialog( QWidget * parent, Qt::WindowFlags f )
 	language_filter->setCurrentIndex(0);
 }
 
-FindSubtitlesDialog::~FindSubtitlesDialog() {
+FindSubtitlesWindow::~FindSubtitlesWindow() {
 }
 
-void FindSubtitlesDialog::retranslateStrings() {
+void FindSubtitlesWindow::retranslateStrings() {
 	retranslateUi(this);
 
 	QStringList labels;
@@ -161,8 +161,8 @@ void FindSubtitlesDialog::retranslateStrings() {
 	copyLinkAct->setText( tr("&Copy link to clipboard") );
 }
 
-void FindSubtitlesDialog::setMovie(QString filename) {
-	qDebug("FindSubtitlesDialog::setMovie: '%s'", filename.toLatin1().constData());
+void FindSubtitlesWindow::setMovie(QString filename) {
+	qDebug("FindSubtitlesWindow::setMovie: '%s'", filename.toLatin1().constData());
 
 	if (filename == last_file) {
 		return;
@@ -173,56 +173,56 @@ void FindSubtitlesDialog::setMovie(QString filename) {
 
 	QString hash = OSParser::calculateHash(filename);
 	if (hash.isEmpty()) {
-		qWarning("FindSubtitlesDialog::setMovie: hash invalid. Doing nothing.");
+		qWarning("FindSubtitlesWindow::setMovie: hash invalid. Doing nothing.");
 	} else {
 		QString link = "http://www.opensubtitles.org/search/sublanguageid-all/moviehash-" + hash + "/simplexml";
-		qDebug("FindSubtitlesDialog::setMovie: link: '%s'", link.toLatin1().constData());
+		qDebug("FindSubtitlesWindow::setMovie: link: '%s'", link.toLatin1().constData());
 		downloader->download(link);
 		last_file = filename;
 	}
 }
 
-void FindSubtitlesDialog::refresh() {
+void FindSubtitlesWindow::refresh() {
 	last_file = "";
 	setMovie(file_chooser->text());
 }
 
-void FindSubtitlesDialog::updateRefreshButton() {
+void FindSubtitlesWindow::updateRefreshButton() {
 	QString file = file_chooser->lineEdit()->text();
 	bool enabled = ( (!file.isEmpty()) && (QFile::exists(file)) && 
                      (downloader->state()==QHttp::Unconnected) );
 	refresh_button->setEnabled(enabled);
 }
 
-void FindSubtitlesDialog::currentItemChanged(const QModelIndex & current, const QModelIndex & /*previous*/) {
-	qDebug("FindSubtitlesDialog::currentItemChanged: row: %d, col: %d", current.row(), current.column());
+void FindSubtitlesWindow::currentItemChanged(const QModelIndex & current, const QModelIndex & /*previous*/) {
+	qDebug("FindSubtitlesWindow::currentItemChanged: row: %d, col: %d", current.row(), current.column());
 	download_button->setEnabled(current.isValid());
 	downloadAct->setEnabled(current.isValid());
 	copyLinkAct->setEnabled(current.isValid());
 }
 
-void FindSubtitlesDialog::applyFilter(const QString & filter) {
+void FindSubtitlesWindow::applyFilter(const QString & filter) {
 	proxy_model->setFilterWildcard(filter);
 }
 
-void FindSubtitlesDialog::applyCurrentFilter() {
+void FindSubtitlesWindow::applyCurrentFilter() {
 	//proxy_model->setFilterWildcard(language_filter->currentText());
 	QString filter = language_filter->itemData( language_filter->currentIndex() ).toString();
 	applyFilter(filter);
 }
 
-void FindSubtitlesDialog::showError(QString error) {
+void FindSubtitlesWindow::showError(QString error) {
 	QMessageBox::information(this, tr("Error"),
                              tr("Download failed: %1.")
                              .arg(error));
 }
 
-void FindSubtitlesDialog::connecting(QString host) {
+void FindSubtitlesWindow::connecting(QString host) {
 	status->setText( tr("Connecting to %1...").arg(host) );
 }
 
-void FindSubtitlesDialog::updateDataReadProgress(int done, int total) {
-	qDebug("FindSubtitlesDialog::updateDataReadProgress: %d, %d", done, total);
+void FindSubtitlesWindow::updateDataReadProgress(int done, int total) {
+	qDebug("FindSubtitlesWindow::updateDataReadProgress: %d, %d", done, total);
 
 	status->setText( tr("Downloading...") );
 
@@ -231,14 +231,14 @@ void FindSubtitlesDialog::updateDataReadProgress(int done, int total) {
 	progress->setValue(done);
 }
 
-void FindSubtitlesDialog::downloadFinished() {
+void FindSubtitlesWindow::downloadFinished() {
 	status->setText( tr("Done.") );
 	progress->setMaximum(1);
 	progress->setValue(0);
 	progress->hide();
 }
 
-void FindSubtitlesDialog::parseInfo(QByteArray xml_text) {
+void FindSubtitlesWindow::parseInfo(QByteArray xml_text) {
 	OSParser osparser;
 	bool ok = osparser.parseXml(xml_text);
 
@@ -293,46 +293,46 @@ void FindSubtitlesDialog::parseInfo(QByteArray xml_text) {
 	view->resizeColumnToContents(COL_NAME);
 }
 
-void FindSubtitlesDialog::itemActivated(const QModelIndex & index ) {
-	qDebug("FindSubtitlesDialog::itemActivated: row: %d, col %d", proxy_model->mapToSource(index).row(), proxy_model->mapToSource(index).column());
+void FindSubtitlesWindow::itemActivated(const QModelIndex & index ) {
+	qDebug("FindSubtitlesWindow::itemActivated: row: %d, col %d", proxy_model->mapToSource(index).row(), proxy_model->mapToSource(index).column());
 
 	QString download_link = table->item(proxy_model->mapToSource(index).row(), COL_NAME)->data().toString();
 
-	qDebug("FindSubtitlesDialog::itemActivated: download link: '%s'", download_link.toLatin1().constData());
+	qDebug("FindSubtitlesWindow::itemActivated: download link: '%s'", download_link.toLatin1().constData());
 
 	QDesktopServices::openUrl( QUrl(download_link) );
 }
 
-void FindSubtitlesDialog::download() {
-	qDebug("FindSubtitlesDialog::download");
+void FindSubtitlesWindow::download() {
+	qDebug("FindSubtitlesWindow::download");
 	if (view->currentIndex().isValid()) {
 		itemActivated(view->currentIndex());
 	}
 }
 
-void FindSubtitlesDialog::copyLink() {
-	qDebug("FindSubtitlesDialog::copyLink");
+void FindSubtitlesWindow::copyLink() {
+	qDebug("FindSubtitlesWindow::copyLink");
 	if (view->currentIndex().isValid()) {
 		const QModelIndex & index = view->currentIndex();
 		QString download_link = table->item(proxy_model->mapToSource(index).row(), COL_NAME)->data().toString();
-		qDebug("FindSubtitlesDialog::copyLink: link: '%s'", download_link.toLatin1().constData());
+		qDebug("FindSubtitlesWindow::copyLink: link: '%s'", download_link.toLatin1().constData());
 		qApp->clipboard()->setText(download_link);
 	}
 }
 
-void FindSubtitlesDialog::showContextMenu(const QPoint & pos) {
-	qDebug("FindSubtitlesDialog::showContextMenu");
+void FindSubtitlesWindow::showContextMenu(const QPoint & pos) {
+	qDebug("FindSubtitlesWindow::showContextMenu");
 
 	context_menu->move( view->viewport()->mapToGlobal(pos) );
 	context_menu->show();
 }
 
 // Language change stuff
-void FindSubtitlesDialog::changeEvent(QEvent *e) {
+void FindSubtitlesWindow::changeEvent(QEvent *e) {
 	if (e->type() == QEvent::LanguageChange) {
 		retranslateStrings();
 	} else {
-		QDialog::changeEvent(e);
+		QWidget::changeEvent(e);
 	}
 }
 

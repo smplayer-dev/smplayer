@@ -180,7 +180,7 @@ FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
         prefperformance.ui prefinput.ui prefsubtitles.ui prefadvanced.ui \
         about.ui inputmplayerversion.ui errordialog.ui timedialog.ui \
         playlistpreferences.ui filechooser.ui \
-        findsubtitles/findsubtitlesdialog.ui
+        findsubtitles/findsubtitleswindow.ui
 
 TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_de.ts \
                translations/smplayer_sk.ts translations/smplayer_it.ts \
