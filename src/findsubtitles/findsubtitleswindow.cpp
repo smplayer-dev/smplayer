@@ -16,7 +16,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#include "findsubtitlesdialog.h"
+#include "findsubtitleswindow.h"
 #include "simplehttp.h"
 #include "osparser.h"
 #include "languages.h"
@@ -336,5 +336,5 @@ void FindSubtitlesWindow::changeEvent(QEvent *e) {
 	}
 }
 
-#include "moc_findsubtitlesdialog.cpp"
+#include "moc_findsubtitleswindow.cpp"
 

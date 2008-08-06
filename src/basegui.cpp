@@ -61,7 +61,7 @@
 #include "errordialog.h"
 #include "timedialog.h"
 #include "clhelp.h"
-#include "findsubtitlesdialog.h"
+#include "findsubtitleswindow.h"
 
 #include "config.h"
 #include "actionseditor.h"

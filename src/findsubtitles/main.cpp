@@ -1,6 +1,6 @@
 
 #include <QApplication>
-#include "findsubtitlesdialog.h"
+#include "findsubtitleswindow.h"
 
 int main( int argc, char ** argv )
 {
