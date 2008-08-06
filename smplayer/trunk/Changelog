@@ -4,6 +4,7 @@
  * The find subtitles dialog is now a top level window, instead of a dialog.
  * Play the last item in the playlist if the "play previous" button is
    pressed and the current item is the first one. Fixes bug #2040473.
+ * Added "play next" and "play previous" to the Play menu.
 
 (2008-08-03)
  * A little reorganization in the General section in preferences and other

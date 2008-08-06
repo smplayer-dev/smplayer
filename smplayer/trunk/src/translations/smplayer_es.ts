@@ -1168,12 +1168,12 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="1158"/>
         <source>&amp;Next</source>
-        <translation>&amp;Siguiente</translation>
+        <translation>S&amp;iguiente</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1159"/>
         <source>Pre&amp;vious</source>
-        <translation>&amp;Anterior</translation>
+        <translation>A&amp;nterior</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1116"/>
