@@ -81,7 +81,7 @@ HEADERS	+= guiconfig.h \
     timedialog.h \
     findsubtitles/simplehttp.h \
     findsubtitles/osparser.h \
-    findsubtitles/findsubtitlesdialog.h \
+    findsubtitles/findsubtitleswindow.h \
 	basegui.h \
 	baseguiplus.h \
 	floatingwidget.h \
@@ -156,7 +156,7 @@ SOURCES	+= version.cpp \
     timedialog.cpp \
     findsubtitles/simplehttp.cpp \
     findsubtitles/osparser.cpp \
-    findsubtitles/findsubtitlesdialog.cpp \
+    findsubtitles/findsubtitleswindow.cpp \
 	basegui.cpp \
 	baseguiplus.cpp \
 	floatingwidget.cpp \
