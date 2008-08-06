@@ -1,5 +1,8 @@
 [b]Version 0.6.2[/b]:
 
+(2008-08-06)
+ * The find subtitles dialog is now a top level window, instead of a dialog.
+
 (2008-08-03)
  * A little reorganization in the General section in preferences and other
    minor changes in other sections.

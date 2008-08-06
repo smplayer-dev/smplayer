@@ -16,10 +16,10 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _FINDSUBTITLESDIALOG_H_
-#define _FINDSUBTITLESDIALOG_H_
+#ifndef _FINDSUBTITLESWINDOW_H_
+#define _FINDSUBTITLESWINDOW_H_
 
-#include "ui_findsubtitlesdialog.h"
+#include "ui_findsubtitleswindow.h"
 #include <QByteArray>
 
 class SimpleHttp;
@@ -29,13 +29,13 @@ class QModelIndex;
 class QMenu;
 class QAction;
 
-class FindSubtitlesDialog : public QDialog, public Ui::FindSubtitlesDialog
+class FindSubtitlesWindow : public QDialog, public Ui::FindSubtitlesWindow
 {
 	Q_OBJECT
 
 public:
-	FindSubtitlesDialog( QWidget* parent = 0, Qt::WindowFlags f = 0 );
-	~FindSubtitlesDialog();
+	FindSubtitlesWindow( QWidget * parent = 0, Qt::WindowFlags f = 0 );
+	~FindSubtitlesWindow();
 
 public slots:
 	void setMovie(QString filename);

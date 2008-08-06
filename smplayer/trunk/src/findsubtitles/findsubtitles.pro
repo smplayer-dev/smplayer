@@ -8,7 +8,7 @@ QT += network xml
 HEADERS += simplehttp.h osparser.h ../filechooser.h ../languages.h findsubtitlesdialog.h
 SOURCES += simplehttp.cpp osparser.cpp ../filechooser.cpp ../languages.cpp \
            findsubtitlesdialog.cpp main.cpp
-FORMS += ../filechooser.ui findsubtitlesdialog.ui
+FORMS += ../filechooser.ui findsubtitleswindow.ui
 
 INCLUDEPATH += ..
 DEPENDPATH += ..
