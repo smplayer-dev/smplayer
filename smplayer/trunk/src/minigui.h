@@ -26,6 +26,7 @@
 
 class TimeSliderAction;
 class VolumeSliderAction;
+class TimeLabelAction;
 class FloatingWidget;
 class QToolBar;
 
@@ -76,6 +77,7 @@ protected:
 #if USE_VOLUME_BAR
 	VolumeSliderAction * volumeslider_action;
 #endif
+	TimeLabelAction * time_label_action;
 
 	int floating_control_width; // In percentage
 	bool floating_control_animated;

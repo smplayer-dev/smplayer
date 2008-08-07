@@ -68,6 +68,12 @@ void MiniGui::createActions() {
 	volumeslider_action = createVolumeSliderAction(this);
 	volumeslider_action->disable();
 #endif
+
+	time_label_action = new TimeLabelAction(this);
+	time_label_action->setObjectName("timelabel_action");
+
+	connect( this, SIGNAL(timeChanged(QString)),
+             time_label_action, SLOT(setText(QString)) );
 }
 
 
@@ -228,6 +234,8 @@ void MiniGui::loadConfig() {
 #if USE_VOLUME_BAR
 	floatingcontrol_actions << "volumeslider_action";
 #endif
+
+	floatingcontrol_actions << "separator" << "timelabel_action";
 
 	set->beginGroup( "actions" );
 	ToolbarEditor::load(controlwidget, set->value("controlwidget", controlwidget_actions).toStringList(), actions_list );
