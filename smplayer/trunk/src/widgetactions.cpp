@@ -154,6 +154,7 @@ QWidget * VolumeSliderAction::createWidget ( QWidget * parent ) {
 	t->setPageStep( 10 );
 	t->setToolTip( tr("Volume") );
 	t->setEnabled( isEnabled() );
+	t->setAttribute(Qt::WA_NoMousePropagation);
 
 	connect( t,    SIGNAL(valueChanged(int)), 
              this, SIGNAL(valueChanged(int)) );

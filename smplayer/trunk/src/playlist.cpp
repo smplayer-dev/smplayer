@@ -112,6 +112,7 @@ Playlist::Playlist( Core *c, QWidget * parent, Qt::WindowFlags f)
 #endif
 
 	setAcceptDrops(true);
+	setAttribute(Qt::WA_NoMousePropagation);
 
 	// Random seed
 	QTime t;
