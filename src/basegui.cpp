@@ -3703,7 +3703,7 @@ void BaseGui::showFindSubtitlesDialog() {
 	qDebug("BaseGui::showFindSubtitlesDialog");
 
 	if (!find_subs_dialog) {
-		find_subs_dialog = new FindSubtitlesWindow(0);
+		find_subs_dialog = new FindSubtitlesWindow(0, Qt::Window | Qt::WindowMinMaxButtonsHint);
 		find_subs_dialog->setWindowIcon(windowIcon());
 	}
 
