@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1871,107 +1872,107 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="133"/>
         <source>Language</source>
-        <translation type="unfinished">Sprache</translation>
+        <translation>Sprache</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="133"/>
         <source>Name</source>
-        <translation type="unfinished">Name</translation>
+        <translation>Name</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Format</source>
-        <translation type="unfinished">Format</translation>
+        <translation>Format</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Files</source>
-        <translation type="unfinished">Dateien</translation>
+        <translation>Dateien</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Date</source>
-        <translation type="unfinished">Datum</translation>
+        <translation>Datum</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Uploaded by</source>
-        <translation type="unfinished">Hochgeladen von</translation>
+        <translation>Hochgeladen von</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="150"/>
         <source>All</source>
-        <translation type="unfinished">Alles</translation>
+        <translation>Alles</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="156"/>
         <source>Close</source>
-        <translation type="unfinished">Schließen</translation>
+        <translation>Schließen</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="99"/>
         <source>&amp;Download</source>
-        <translation type="unfinished">&amp;Download</translation>
+        <translation>&amp;Download</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="161"/>
         <source>&amp;Copy link to clipboard</source>
-        <translation type="unfinished">&amp;Link zum Clipboard kopieren</translation>
+        <translation>&amp;Link zum Clipboard kopieren</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="215"/>
         <source>Error</source>
-        <translation type="unfinished">Fehler</translation>
+        <translation>Fehler</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="217"/>
         <source>Download failed: %1.</source>
-        <translation type="unfinished">Download fehlgeschlagen: %1.</translation>
+        <translation>Download fehlgeschlagen: %1.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="221"/>
         <source>Connecting to %1...</source>
-        <translation type="unfinished">Verbindung zu %1...</translation>
+        <translation>Verbindung zu %1...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="227"/>
         <source>Downloading...</source>
-        <translation type="unfinished">Herunterladen...</translation>
+        <translation>Herunterladen...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
         <source>Done.</source>
-        <translation type="unfinished">Erledigt.</translation>
+        <translation>Erledigt.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="281"/>
         <source>%1 files available</source>
-        <translation type="unfinished">%1 Dateien verfügbar</translation>
+        <translation>%1 Dateien verfügbar</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="290"/>
         <source>Failed to parse the received data.</source>
-        <translation type="unfinished">Fehler beim Parsen der empfangenen Daten.</translation>
+        <translation>Fehler beim Parsen der empfangenen Daten.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="13"/>
         <source>Find Subtitles</source>
-        <translation type="unfinished">Suche Untertitel</translation>
+        <translation>Suche Untertitel</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="33"/>
         <source>&amp;Subtitles for</source>
-        <translation type="unfinished">&amp;Untertitel für</translation>
+        <translation>&amp;Untertitel für</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="56"/>
         <source>&amp;Language:</source>
-        <translation type="unfinished">&amp;Sprache:</translation>
+        <translation>&amp;Sprache:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="89"/>
         <source>&amp;Refresh</source>
-        <translation type="unfinished">&amp;Aktualisieren</translation>
+        <translation>&amp;Aktualisieren</translation>
     </message>
 </context>
 <context>
