@@ -2,6 +2,8 @@
 
 (2008-08-07)
  * Added a time display to the floating control in the minigui.
+ * The playlist and the volume slider don't send mouse events to their
+   parents. Should fix bugs #1993291 and #2020003.
 
 (2008-08-06)
  * The find subtitles dialog is now a top level window, instead of a dialog.
