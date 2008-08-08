@@ -642,7 +642,16 @@ void Core::playNewFile(QString file, int seek) {
 			qDebug("Core::playNewFile: Media settings read");
 
 			// Resize the window and set the aspect as soon as possible
-			if ((mset.win_width > 0) && (mset.win_height > 0)) {
+			int saved_width = mset.win_width;
+			int saved_height = mset.win_height;
+			// 400x300 is the default size for win_width and win_height
+			// so we set them to 0 to avoid to resize the window on
+			// audio files
+			if ((saved_width == 400) && (saved_height == 300)) {
+				saved_width = 0;
+				saved_height = 0;
+			}
+			if ((saved_width > 0) && (saved_height > 0)) {
 				emit needResize(mset.win_width, mset.win_height);
 				changeAspectRatio(mset.aspect_ratio_id);
 			}
