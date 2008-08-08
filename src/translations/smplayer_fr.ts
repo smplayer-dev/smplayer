@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1860,107 +1861,107 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="133"/>
         <source>Language</source>
-        <translation type="unfinished">Langue</translation>
+        <translation>Langue</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="133"/>
         <source>Name</source>
-        <translation type="unfinished">Nom</translation>
+        <translation>Nom</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Format</source>
-        <translation type="unfinished">Format</translation>
+        <translation>Format</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Files</source>
-        <translation type="unfinished">Fichiers</translation>
+        <translation>Fichiers</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Date</source>
-        <translation type="unfinished">Date</translation>
+        <translation>Date</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Uploaded by</source>
-        <translation type="unfinished">Envoyé par</translation>
+        <translation>Envoyé par</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="150"/>
         <source>All</source>
-        <translation type="unfinished">Tous</translation>
+        <translation>Tous</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="156"/>
         <source>Close</source>
-        <translation type="unfinished">Fermer</translation>
+        <translation>Fermer</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="99"/>
         <source>&amp;Download</source>
-        <translation type="unfinished">&amp;Téléchargement</translation>
+        <translation>&amp;Téléchargement</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="161"/>
         <source>&amp;Copy link to clipboard</source>
-        <translation type="unfinished">&amp;Copier dans le presse papier</translation>
+        <translation>&amp;Copier dans le presse papier</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="215"/>
         <source>Error</source>
-        <translation type="unfinished">Erreur</translation>
+        <translation>Erreur</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="217"/>
         <source>Download failed: %1.</source>
-        <translation type="unfinished">Téléchargement échoué : %1.</translation>
+        <translation>Téléchargement échoué : %1.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="221"/>
         <source>Connecting to %1...</source>
-        <translation type="unfinished">Connexion à %1...</translation>
+        <translation>Connexion à %1...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="227"/>
         <source>Downloading...</source>
-        <translation type="unfinished">Téléchargement...</translation>
+        <translation>Téléchargement...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
         <source>Done.</source>
-        <translation type="unfinished">Effectué.</translation>
+        <translation>Effectué.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="281"/>
         <source>%1 files available</source>
-        <translation type="unfinished">%1 fichiers disponibles</translation>
+        <translation>%1 fichiers disponibles</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="290"/>
         <source>Failed to parse the received data.</source>
-        <translation type="unfinished">Impossible de comprendre les données reçues.</translation>
+        <translation>Impossible de comprendre les données reçues.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="13"/>
         <source>Find Subtitles</source>
-        <translation type="unfinished">Trouver un sous-titrage</translation>
+        <translation>Trouver un sous-titrage</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="33"/>
         <source>&amp;Subtitles for</source>
-        <translation type="unfinished">&amp;Sous-titrage pour</translation>
+        <translation>&amp;Sous-titrage pour</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="56"/>
         <source>&amp;Language:</source>
-        <translation type="unfinished">&amp;Langues :</translation>
+        <translation>&amp;Langues :</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="89"/>
         <source>&amp;Refresh</source>
-        <translation type="unfinished">&amp;Rafraichir</translation>
+        <translation>&amp;Rafraichir</translation>
     </message>
 </context>
 <context>
@@ -2272,7 +2273,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="214"/>
         <source>Arabic</source>
-        <translation>Arabe</translation>
+        <translation type="unfinished">Arabe</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="29"/>
@@ -2302,7 +2303,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="168"/>
         <source>Bulgarian</source>
-        <translation>Bulgare</translation>
+        <translation type="unfinished">Bulgare</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="35"/>
@@ -2332,7 +2333,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="169"/>
         <source>Catalan</source>
-        <translation>Catalan</translation>
+        <translation type="unfinished">Catalan</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="41"/>
@@ -2342,7 +2343,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="170"/>
         <source>Czech</source>
-        <translation>Tchèque</translation>
+        <translation type="unfinished">Tchèque</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="43"/>
@@ -2352,12 +2353,12 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="44"/>
         <source>Danish</source>
-        <translation>Danois</translation>
+        <translation type="unfinished">Danois</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="171"/>
         <source>German</source>
-        <translation>Allemand</translation>
+        <translation type="unfinished">Allemand</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="46"/>
@@ -2367,12 +2368,12 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="172"/>
         <source>Greek</source>
-        <translation>Grecque</translation>
+        <translation type="unfinished">Grecque</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="173"/>
         <source>English</source>
-        <translation>Anglais</translation>
+        <translation type="unfinished">Anglais</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="49"/>
@@ -2382,7 +2383,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="174"/>
         <source>Spanish</source>
-        <translation>Espagnol</translation>
+        <translation type="unfinished">Espagnol</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="51"/>
@@ -2392,7 +2393,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="175"/>
         <source>Basque</source>
-        <translation>Basque</translation>
+        <translation type="unfinished">Basque</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="53"/>
@@ -2402,7 +2403,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="176"/>
         <source>Finnish</source>
-        <translation>Finlandais</translation>
+        <translation type="unfinished">Finlandais</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="55"/>
@@ -2417,7 +2418,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="177"/>
         <source>French</source>
-        <translation>Français</translation>
+        <translation type="unfinished">Français</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="58"/>
@@ -2437,7 +2438,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="178"/>
         <source>Galician</source>
-        <translation>Galacien</translation>
+        <translation type="unfinished">Galacien</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="62"/>
@@ -2472,7 +2473,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="179"/>
         <source>Hungarian</source>
-        <translation>Hongrois</translation>
+        <translation type="unfinished">Hongrois</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="69"/>
@@ -2507,7 +2508,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="180"/>
         <source>Italian</source>
-        <translation>Italien</translation>
+        <translation type="unfinished">Italien</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="76"/>
@@ -2517,7 +2518,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="181"/>
         <source>Japanese</source>
-        <translation>Japonais</translation>
+        <translation type="unfinished">Japonais</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="78"/>
@@ -2527,7 +2528,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="182"/>
         <source>Georgian</source>
-        <translation>Géorgien</translation>
+        <translation type="unfinished">Géorgien</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="80"/>
@@ -2552,7 +2553,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="183"/>
         <source>Korean</source>
-        <translation>Coréen</translation>
+        <translation type="unfinished">Coréen</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="85"/>
@@ -2607,7 +2608,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="184"/>
         <source>Macedonian</source>
-        <translation>Macédonien</translation>
+        <translation type="unfinished">Macédonien</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="96"/>
@@ -2657,7 +2658,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="185"/>
         <source>Dutch</source>
-        <translation>Hollandais</translation>
+        <translation type="unfinished">Hollandais</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="106"/>
@@ -2682,7 +2683,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="186"/>
         <source>Polish</source>
-        <translation>Polonais</translation>
+        <translation type="unfinished">Polonais</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="111"/>
@@ -2707,12 +2708,12 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="189"/>
         <source>Romanian</source>
-        <translation>Roumain</translation>
+        <translation type="unfinished">Roumain</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="220"/>
         <source>Russian</source>
-        <translation>Russe</translation>
+        <translation type="unfinished">Russe</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="118"/>
@@ -2742,7 +2743,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="191"/>
         <source>Slovak</source>
-        <translation>Slovène</translation>
+        <translation type="unfinished">Slovène</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="192"/>
@@ -2772,7 +2773,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="193"/>
         <source>Serbian</source>
-        <translation>Serbe</translation>
+        <translation type="unfinished">Serbe</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="131"/>
@@ -2792,7 +2793,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="194"/>
         <source>Swedish</source>
-        <translation>Suédois</translation>
+        <translation type="unfinished">Suédois</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="135"/>
@@ -2847,7 +2848,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="216"/>
         <source>Turkish</source>
-        <translation>Turc</translation>
+        <translation type="unfinished">Turc</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="146"/>
@@ -2872,7 +2873,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="196"/>
         <source>Ukrainian</source>
-        <translation>Ukrainien</translation>
+        <translation type="unfinished">Ukrainien</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="151"/>
@@ -2912,7 +2913,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="159"/>
         <source>Zhuang</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="160"/>
@@ -2927,127 +2928,127 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="187"/>
         <source>Portuguese - Brazil</source>
-        <translation>Brésilien</translation>
+        <translation type="unfinished">Brésilien</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="188"/>
         <source>Portuguese - Portugal</source>
-        <translation>Portugais</translation>
+        <translation type="unfinished">Portugais</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="197"/>
         <source>Simplified-Chinese</source>
-        <translation>Chinois simplifié</translation>
+        <translation type="unfinished">Chinois simplifié</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="198"/>
         <source>Traditional Chinese</source>
-        <translation>Chinois traditionnel</translation>
+        <translation type="unfinished">Chinois traditionnel</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="206"/>
         <source>Unicode</source>
-        <translation>Unicode</translation>
+        <translation type="unfinished">Unicode</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="207"/>
         <source>UTF-8</source>
-        <translation>UTF-8</translation>
+        <translation type="unfinished">UTF-8</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="208"/>
         <source>Western European Languages</source>
-        <translation>Langues de l&apos;Europe de l&apos;ouest</translation>
+        <translation type="unfinished">Langues de l&apos;Europe de l&apos;ouest</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="209"/>
         <source>Western European Languages with Euro</source>
-        <translation>Langues de l&apos;Europe de l&apos;ouest avec Euro</translation>
+        <translation type="unfinished">Langues de l&apos;Europe de l&apos;ouest avec Euro</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
         <source>Slavic/Central European Languages</source>
-        <translation>Langues de l&apos;Europe centrale/slave</translation>
+        <translation type="unfinished">Langues de l&apos;Europe centrale/slave</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="211"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
-        <translation>Esperanto, Malte, Turc</translation>
+        <translation type="unfinished">Esperanto, Malte, Turc</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="212"/>
         <source>Old Baltic charset</source>
-        <translation>Balte ancien</translation>
+        <translation type="unfinished">Balte ancien</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="213"/>
         <source>Cyrillic</source>
-        <translation>Cyrillic</translation>
+        <translation type="unfinished">Cyrillic</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="215"/>
         <source>Modern Greek</source>
-        <translation>Grec moderne</translation>
+        <translation type="unfinished">Grec moderne</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="217"/>
         <source>Baltic</source>
-        <translation>Balte</translation>
+        <translation type="unfinished">Balte</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="218"/>
         <source>Celtic</source>
-        <translation>Celte</translation>
+        <translation type="unfinished">Celte</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="219"/>
         <source>Hebrew charsets</source>
-        <translation>Caractères hébreux</translation>
+        <translation type="unfinished">Caractères hébreux</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="221"/>
         <source>Ukrainian, Belarusian</source>
-        <translation>Ukrainien, Biélorusse</translation>
+        <translation type="unfinished">Ukrainien, Biélorusse</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="222"/>
         <source>Simplified Chinese charset</source>
-        <translation>Chinois simplifié</translation>
+        <translation type="unfinished">Chinois simplifié</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="223"/>
         <source>Traditional Chinese charset</source>
-        <translation>Chinois traditionel</translation>
+        <translation type="unfinished">Chinois traditionel</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="224"/>
         <source>Japanese charsets</source>
-        <translation>Japonais</translation>
+        <translation type="unfinished">Japonais</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="225"/>
         <source>Korean charset</source>
-        <translation>Koréen</translation>
+        <translation type="unfinished">Koréen</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="226"/>
         <source>Thai charset</source>
-        <translation>Thailandais</translation>
+        <translation type="unfinished">Thailandais</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="227"/>
         <source>Cyrillic Windows</source>
-        <translation>Cyrillic Windows</translation>
+        <translation type="unfinished">Cyrillic Windows</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="228"/>
         <source>Slavic/Central European Windows</source>
-        <translation>Langues de l&apos;Europe centrale/slave</translation>
+        <translation type="unfinished">Langues de l&apos;Europe centrale/slave</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="229"/>
         <source>Arabic Windows</source>
-        <translation>Arabe Windows</translation>
+        <translation type="unfinished">Arabe Windows</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="114"/>
@@ -3656,12 +3657,12 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefadvanced.cpp" line="361"/>
         <source>Repaint the background of the video window</source>
-        <translation type="unfinished"></translation>
+        <translation>Repeindre le fond de la fenêtre de la vidéo</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="199"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
-        <translation type="unfinished"></translation>
+        <translation>Repeindre le fon&amp;d de la fenêtre de la vidéo</translation>
     </message>
 </context>
 <context>
@@ -4374,17 +4375,17 @@ Aucune information pour le moment.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="499"/>
         <source>Remember time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Se rappeler de la position dans le temps</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="211"/>
         <source>Remember &amp;time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Se rappeler de la position dans le &amp;temps</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="542"/>
         <source>Change volume just before p&amp;laying</source>
-        <translation type="unfinished"></translation>
+        <translation>Changer le vo&amp;lume just avant de jouer</translation>
     </message>
 </context>
 <context>
