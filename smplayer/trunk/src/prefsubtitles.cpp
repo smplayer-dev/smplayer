@@ -19,6 +19,7 @@
 
 #include "prefsubtitles.h"
 #include "images.h"
+#include "global.h"
 #include "preferences.h"
 #include "helper.h"
 #include "filedialog.h"
@@ -35,6 +36,13 @@ PrefSubtitles::PrefSubtitles(QWidget * parent, Qt::WindowFlags f)
 #ifdef Q_OS_WIN
 	ttf_font_edit->setOptions(QFileDialog::DontUseNativeDialog);
 #endif
+
+	if (!Global::pref->show_font_scale_options_in_preferences) {
+		scale_label->hide();
+		ass_scale_label->hide();
+		font_text_scale->hide();
+		ass_font_scale->hide();
+	}
 
 	retranslateStrings();
 }

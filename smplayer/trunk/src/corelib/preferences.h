@@ -242,6 +242,8 @@ public:
 	bool enable_audiocd_on_windows;
 #endif
 
+	bool show_font_scale_options_in_preferences;
+
 	//! Close the main window when a file or playlist finish
 	bool close_on_finish;
 
