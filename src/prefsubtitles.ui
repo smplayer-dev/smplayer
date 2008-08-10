@@ -509,7 +509,7 @@
            </widget>
           </item>
           <item row="2" column="0" >
-           <widget class="QLabel" name="label" >
+           <widget class="QLabel" name="ass_scale_label" >
             <property name="text" >
              <string>Default sc&amp;ale for SSA/ASS subtitles:</string>
             </property>
@@ -522,7 +522,7 @@
            </widget>
           </item>
           <item row="1" column="0" >
-           <widget class="QLabel" name="scalelabel" >
+           <widget class="QLabel" name="scale_label" >
             <property name="text" >
              <string>Default s&amp;cale for normal subtitles:</string>
             </property>

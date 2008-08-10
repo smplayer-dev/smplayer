@@ -233,6 +233,8 @@ void Preferences::reset() {
 	enable_audiocd_on_windows = false;
 #endif
 
+	show_font_scale_options_in_preferences = false;
+
 	close_on_finish = false;
 
 	default_font = "";
@@ -454,6 +456,8 @@ void Preferences::save() {
 	//set->setValue("enable_vcd_on_windows", enable_vcd_on_windows);
 	set->setValue("enable_audiocd_on_windows", enable_audiocd_on_windows);
 #endif
+
+	set->setValue("show_font_scale_options_in_preferences", show_font_scale_options_in_preferences);
 
 	set->setValue("close_on_finish", close_on_finish);
 
@@ -696,6 +700,8 @@ void Preferences::load() {
 	//enable_vcd_on_windows = set->value("enable_vcd_on_windows", enable_vcd_on_windows).toBool();
 	enable_audiocd_on_windows = set->value("enable_audiocd_on_windows", enable_audiocd_on_windows).toBool();
 #endif
+
+	show_font_scale_options_in_preferences = set->value("show_font_scale_options_in_preferences", show_font_scale_options_in_preferences).toBool();
 
 	close_on_finish = set->value("close_on_finish", close_on_finish).toBool();
 
