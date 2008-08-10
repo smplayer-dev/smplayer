@@ -330,13 +330,16 @@ void PrefSubtitles::createHelp() {
 	setWhatsThis(font_autoscale_combo, tr("Autoscale"), 
         tr("Select the subtitle autoscaling method.") );
 
-	setWhatsThis(font_text_scale, tr("Default scale for normal subtitles"),
-		tr("This option specifies the default font scale for normal (white) "
-           "subtitles which will be used for new videos."));
+	if (Global::pref->show_font_scale_options_in_preferences) 
+	{
+		setWhatsThis(font_text_scale, tr("Default scale for normal subtitles"),
+			tr("This option specifies the default font scale for normal (white) "
+	           "subtitles which will be used for new videos."));
 
-	setWhatsThis(ass_font_scale, tr("Default scale for SSA/ASS subtitles"),
-		tr("This option specifies the default font scale for SSA/ASS "
-           "subtitles which will be used for new videos."));
+		setWhatsThis(ass_font_scale, tr("Default scale for SSA/ASS subtitles"),
+			tr("This option specifies the default font scale for SSA/ASS "
+	           "subtitles which will be used for new videos."));
+	}
 
 	addSectionTitle(tr("SSA/ASS library"));
 
