@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="nl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -40,7 +41,7 @@
     <message>
         <location filename="../about.cpp" line="103"/>
         <source>support for colored console output</source>
-        <translation>ondersteuning voor gekleurde console uitvoer</translation>
+        <translation>ondersteuning voor gekleurde consoleuitvoer</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="104"/>
@@ -265,27 +266,27 @@
     <message>
         <location filename="../about.cpp" line="50"/>
         <source>Using MPlayer %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruik makend van MPlayer %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="178"/>
         <source>Catalan</source>
-        <translation type="unfinished">Catalaans</translation>
+        <translation>Catalaans</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="57"/>
         <source>Portable Edition</source>
-        <translation type="unfinished"></translation>
+        <translation>Draagbare editie</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="60"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruik makend van Qt %1 (gecompileerd met Qt %2)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="179"/>
         <source>Slovenian</source>
-        <translation type="unfinished"></translation>
+        <translation>Sloveens</translation>
     </message>
 </context>
 <context>
@@ -548,92 +549,92 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="71"/>
         <source>Audio Equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio-equalizer</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="74"/>
         <source>31.25 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>31.25 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="75"/>
         <source>62.50 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>62.50 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="76"/>
         <source>125.0 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>125.0 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="77"/>
         <source>250.0 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>250.0 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="78"/>
         <source>500.0 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>500.0 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="79"/>
         <source>1.000 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>1.000 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="80"/>
         <source>2.000 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>2.000 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="81"/>
         <source>4.000 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>4.000 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="82"/>
         <source>8.000 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>8.000 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="83"/>
         <source>16.00 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>16.00 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="85"/>
         <source>&amp;Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>Toep&amp;assen</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="86"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Resetten</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="87"/>
         <source>&amp;Set as default values</source>
-        <translation type="unfinished">Als &amp;standaardwaarden instellen</translation>
+        <translation>Als &amp;standaardwaarden instellen</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="91"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished">Gebruik de huidige waarden als standaardwaarden voor nieuwe video&apos;s.</translation>
+        <translation>Gebruik de huidige waarden als standaardwaarden voor nieuwe video&apos;s.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="93"/>
         <source>Set all controls to zero.</source>
-        <translation type="unfinished">Stel alle besturingselementen op nul in.</translation>
+        <translation>Stel alle besturingselementen op nul in.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="110"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Informatie</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="112"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation type="unfinished"></translation>
+        <translation>De huidige waarden werden opgeslagen om als standaard gebruikt te worden.</translation>
     </message>
 </context>
 <context>
@@ -1573,38 +1574,39 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="1197"/>
         <source>Show context menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Contekstmenu tonen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2661"/>
         <source>Multimedia</source>
-        <translation type="unfinished"></translation>
+        <translation>Multimedia</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2715"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
-        <translation type="unfinished"></translation>
+        <translation>De CDROM- / DVD-stations zijn nog niet geconfigureerd.
+Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1102"/>
         <source>E&amp;qualizer</source>
-        <translation type="unfinished"></translation>
+        <translation>E&amp;qualizer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1196"/>
         <source>Reset audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio-equalizer resetten</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1135"/>
         <source>Find subtitles on &amp;OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ondertitels zoeken op &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1136"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ondertitels naar OpenSu&amp;btitles.org uploaden...</translation>
     </message>
 </context>
 <context>
@@ -2031,107 +2033,107 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="133"/>
         <source>Language</source>
-        <translation type="unfinished">Taal</translation>
+        <translation>Taal</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="133"/>
         <source>Name</source>
-        <translation type="unfinished">Naam</translation>
+        <translation>Naam</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Format</source>
-        <translation type="unfinished">Indeling</translation>
+        <translation>Indeling</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Bestanden</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Date</source>
-        <translation type="unfinished">Datum</translation>
+        <translation>Datum</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Uploaded by</source>
-        <translation type="unfinished"></translation>
+        <translation>Geupload door</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="150"/>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>Alles</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="156"/>
         <source>Close</source>
-        <translation type="unfinished">Sluiten</translation>
+        <translation>Sluiten</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="99"/>
         <source>&amp;Download</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Downloaden</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="161"/>
         <source>&amp;Copy link to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Link naar klembord &amp;kopiëren</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="215"/>
         <source>Error</source>
-        <translation type="unfinished">Foutmelding</translation>
+        <translation>Foutmelding</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="217"/>
         <source>Download failed: %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Downloaden mislukt: %1.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="221"/>
         <source>Connecting to %1...</source>
-        <translation type="unfinished"></translation>
+        <translation>Verbinden met %1...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="227"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Bezig met downloaden...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
         <source>Done.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klaar.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="281"/>
         <source>%1 files available</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 bestanden beschikbaar</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="290"/>
         <source>Failed to parse the received data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gedownloade gegevens verwerken mislukt.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="13"/>
         <source>Find Subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Ondertitels zoeken</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="33"/>
         <source>&amp;Subtitles for</source>
-        <translation type="unfinished"></translation>
+        <translation>Ondertitel&amp;s voor</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="56"/>
         <source>&amp;Language:</source>
-        <translation type="unfinished"></translation>
+        <translation>Taa&amp;l:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="89"/>
         <source>&amp;Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>Ve&amp;rnieuwen</translation>
     </message>
 </context>
 <context>
@@ -2359,7 +2361,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
         <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation type="unfinished"></translation>
+        <translation>U kunt een DVD vanaf uw harde schijf afspelen. Kies hiervoor de map die de submappen VIDEO_TS en AUDIO_TS bevat.</translation>
     </message>
 </context>
 <context>
@@ -2438,7 +2440,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="26"/>
         <source>Afrikaans</source>
-        <translation type="unfinished"></translation>
+        <translation>Afrikaans</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="27"/>
@@ -2448,7 +2450,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="214"/>
         <source>Arabic</source>
-        <translation type="unfinished">Arabisch</translation>
+        <translation>Arabisch</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="29"/>
@@ -2478,7 +2480,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="168"/>
         <source>Bulgarian</source>
-        <translation type="unfinished">Bulgaars</translation>
+        <translation>Bulgaars</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="35"/>
@@ -2493,47 +2495,47 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="37"/>
         <source>Bengali</source>
-        <translation type="unfinished"></translation>
+        <translation>Bengaals</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="38"/>
         <source>Tibetan</source>
-        <translation type="unfinished"></translation>
+        <translation>Tibetaans</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="39"/>
         <source>Breton</source>
-        <translation type="unfinished"></translation>
+        <translation>Bretoens</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="169"/>
         <source>Catalan</source>
-        <translation type="unfinished">Catalaans</translation>
+        <translation>Catalaans</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="41"/>
         <source>Corsican</source>
-        <translation type="unfinished"></translation>
+        <translation>Corsicaans</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="170"/>
         <source>Czech</source>
-        <translation type="unfinished">Tsjechisch</translation>
+        <translation>Tsjechisch</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="43"/>
         <source>Welsh</source>
-        <translation type="unfinished"></translation>
+        <translation>Welsh</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="44"/>
         <source>Danish</source>
-        <translation type="unfinished"></translation>
+        <translation>Deens</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="171"/>
         <source>German</source>
-        <translation type="unfinished">Duits</translation>
+        <translation>Duits</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="46"/>
@@ -2543,47 +2545,47 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="172"/>
         <source>Greek</source>
-        <translation type="unfinished">Grieks</translation>
+        <translation>Grieks</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="173"/>
         <source>English</source>
-        <translation type="unfinished">Engels</translation>
+        <translation>Engels</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="49"/>
         <source>Esperanto</source>
-        <translation type="unfinished"></translation>
+        <translation>Esperanto</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="174"/>
         <source>Spanish</source>
-        <translation type="unfinished">Spaans</translation>
+        <translation>Spaans</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="51"/>
         <source>Estonian</source>
-        <translation type="unfinished"></translation>
+        <translation>Ests</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
         <source>Basque</source>
-        <translation type="unfinished">Baskisch</translation>
+        <translation>Baskisch</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="53"/>
         <source>Persian</source>
-        <translation type="unfinished"></translation>
+        <translation>Perzisch</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="176"/>
         <source>Finnish</source>
-        <translation type="unfinished">Fins</translation>
+        <translation>Fins</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="55"/>
         <source>Fiji</source>
-        <translation type="unfinished"></translation>
+        <translation>Fiji</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="56"/>
@@ -2593,17 +2595,17 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="177"/>
         <source>French</source>
-        <translation type="unfinished">Frans</translation>
+        <translation>Frans</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="58"/>
         <source>Frisian</source>
-        <translation type="unfinished"></translation>
+        <translation>Fries</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="59"/>
         <source>Irish</source>
-        <translation type="unfinished"></translation>
+        <translation>Iers</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="60"/>
@@ -2613,7 +2615,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="178"/>
         <source>Galician</source>
-        <translation type="unfinished">Galicisch</translation>
+        <translation>Galicisch</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="62"/>
@@ -2633,27 +2635,27 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="65"/>
         <source>Hebrew</source>
-        <translation type="unfinished"></translation>
+        <translation>Hebreeuws</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="66"/>
         <source>Hindi</source>
-        <translation type="unfinished"></translation>
+        <translation>Hindi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="67"/>
         <source>Croatian</source>
-        <translation type="unfinished"></translation>
+        <translation>Kroatisch</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="179"/>
         <source>Hungarian</source>
-        <translation type="unfinished">Hongaars</translation>
+        <translation>Hongaars</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="69"/>
         <source>Armenian</source>
-        <translation type="unfinished"></translation>
+        <translation>Armeens</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="70"/>
@@ -2683,7 +2685,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="180"/>
         <source>Italian</source>
-        <translation type="unfinished">Italiaans</translation>
+        <translation>Italiaans</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="76"/>
@@ -2693,7 +2695,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="181"/>
         <source>Japanese</source>
-        <translation type="unfinished">Japans</translation>
+        <translation>Japans</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="78"/>
@@ -2703,7 +2705,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="182"/>
         <source>Georgian</source>
-        <translation type="unfinished">Georgisch</translation>
+        <translation>Georgisch</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="80"/>
@@ -2713,7 +2715,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="81"/>
         <source>Greenlandic</source>
-        <translation type="unfinished"></translation>
+        <translation>Groenlands</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="82"/>
@@ -2728,7 +2730,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="183"/>
         <source>Korean</source>
-        <translation type="unfinished">Koreaans</translation>
+        <translation>Koreaans</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="85"/>
@@ -2738,7 +2740,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="86"/>
         <source>Kurdish</source>
-        <translation type="unfinished"></translation>
+        <translation>Koerdisch</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="87"/>
@@ -2748,12 +2750,12 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="88"/>
         <source>Latin</source>
-        <translation type="unfinished"></translation>
+        <translation>Latijns</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="89"/>
         <source>Lingala</source>
-        <translation type="unfinished"></translation>
+        <translation>Lingala</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="90"/>
@@ -2763,12 +2765,12 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="91"/>
         <source>Lithuanian</source>
-        <translation type="unfinished"></translation>
+        <translation>Litouws</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="92"/>
         <source>Latvian</source>
-        <translation type="unfinished"></translation>
+        <translation>Lets</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="93"/>
@@ -2783,7 +2785,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="184"/>
         <source>Macedonian</source>
-        <translation type="unfinished">Macedonisch</translation>
+        <translation>Macedonisch</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="96"/>
@@ -2793,7 +2795,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="97"/>
         <source>Mongolian</source>
-        <translation type="unfinished"></translation>
+        <translation>Mongools</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="98"/>
@@ -2813,7 +2815,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="101"/>
         <source>Maltese</source>
-        <translation type="unfinished"></translation>
+        <translation>Maltees</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="102"/>
@@ -2833,12 +2835,12 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="185"/>
         <source>Dutch</source>
-        <translation type="unfinished">Nederlands</translation>
+        <translation>Nederlands</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="106"/>
         <source>Norwegian</source>
-        <translation type="unfinished"></translation>
+        <translation>Noors</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="107"/>
@@ -2858,7 +2860,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="186"/>
         <source>Polish</source>
-        <translation type="unfinished">Pools</translation>
+        <translation>Pools</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="111"/>
@@ -2868,7 +2870,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="112"/>
         <source>Portuguese</source>
-        <translation type="unfinished"></translation>
+        <translation>Portugees</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="113"/>
@@ -2883,12 +2885,12 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="189"/>
         <source>Romanian</source>
-        <translation type="unfinished">Roemeens</translation>
+        <translation>Roemeens</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="220"/>
         <source>Russian</source>
-        <translation type="unfinished">Russisch</translation>
+        <translation>Russisch</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="118"/>
@@ -2918,12 +2920,12 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="191"/>
         <source>Slovak</source>
-        <translation type="unfinished">Slowaaks</translation>
+        <translation>Slowaaks</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="192"/>
         <source>Slovenian</source>
-        <translation type="unfinished"></translation>
+        <translation>Sloveens</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="126"/>
@@ -2943,12 +2945,12 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="129"/>
         <source>Albanian</source>
-        <translation type="unfinished"></translation>
+        <translation>Albanees</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="193"/>
         <source>Serbian</source>
-        <translation type="unfinished">Servisch</translation>
+        <translation>Servisch</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="131"/>
@@ -2968,7 +2970,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="194"/>
         <source>Swedish</source>
-        <translation type="unfinished">Zweeds</translation>
+        <translation>Zweeds</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="135"/>
@@ -2978,7 +2980,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="136"/>
         <source>Tamil</source>
-        <translation type="unfinished"></translation>
+        <translation>Tamil</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="137"/>
@@ -2993,7 +2995,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="139"/>
         <source>Thai</source>
-        <translation type="unfinished"></translation>
+        <translation>Thais</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="140"/>
@@ -3003,7 +3005,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="141"/>
         <source>Turkmen</source>
-        <translation type="unfinished"></translation>
+        <translation>Turkmeens</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
@@ -3023,7 +3025,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="216"/>
         <source>Turkish</source>
-        <translation type="unfinished">Turks</translation>
+        <translation>Turks</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="146"/>
@@ -3033,7 +3035,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="147"/>
         <source>Tatar</source>
-        <translation type="unfinished"></translation>
+        <translation>Tataars</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="148"/>
@@ -3048,7 +3050,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="196"/>
         <source>Ukrainian</source>
-        <translation type="unfinished">Oekraïens</translation>
+        <translation>Oekraïens</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="151"/>
@@ -3063,7 +3065,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="153"/>
         <source>Vietnamese</source>
-        <translation type="unfinished"></translation>
+        <translation>Viëtnamees</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="155"/>
@@ -3078,7 +3080,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="157"/>
         <source>Yiddish</source>
-        <translation type="unfinished"></translation>
+        <translation>Jiddish</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="158"/>
@@ -3093,122 +3095,122 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="160"/>
         <source>Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Chinees</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="161"/>
         <source>Zulu</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoeloe</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="187"/>
         <source>Portuguese - Brazil</source>
-        <translation type="unfinished">Portugees - Brazilië</translation>
+        <translation>Portugees - Brazilië</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="188"/>
         <source>Portuguese - Portugal</source>
-        <translation type="unfinished">Portugees - Portugal</translation>
+        <translation>Portugees - Portugal</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="197"/>
         <source>Simplified-Chinese</source>
-        <translation type="unfinished">Vereenvoudigd Chinees</translation>
+        <translation>Vereenvoudigd Chinees</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="198"/>
         <source>Traditional Chinese</source>
-        <translation type="unfinished">Traditioneel Chinees</translation>
+        <translation>Traditioneel Chinees</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="206"/>
         <source>Unicode</source>
-        <translation type="unfinished"></translation>
+        <translation>Unicode</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="207"/>
         <source>UTF-8</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-8</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="208"/>
         <source>Western European Languages</source>
-        <translation type="unfinished">West-Europese talen</translation>
+        <translation>West-Europese talen</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="209"/>
         <source>Western European Languages with Euro</source>
-        <translation type="unfinished">West-Europese talen met Euro-teken</translation>
+        <translation>West-Europese talen met Euro-teken</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
         <source>Slavic/Central European Languages</source>
-        <translation type="unfinished">Slavische/Centraal-Europese talen</translation>
+        <translation>Slavische/Centraal-Europese talen</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="211"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
-        <translation type="unfinished">Esperanto, Galicisch, Maltees, Turks</translation>
+        <translation>Esperanto, Galicisch, Maltees, Turks</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="212"/>
         <source>Old Baltic charset</source>
-        <translation type="unfinished">Oud-Baltisch karakterset</translation>
+        <translation>Oud-Baltisch karakterset</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="213"/>
         <source>Cyrillic</source>
-        <translation type="unfinished">Cyrillisch</translation>
+        <translation>Cyrillisch</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="215"/>
         <source>Modern Greek</source>
-        <translation type="unfinished">Modern Grieks</translation>
+        <translation>Modern Grieks</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="217"/>
         <source>Baltic</source>
-        <translation type="unfinished">Baltisch</translation>
+        <translation>Baltisch</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="218"/>
         <source>Celtic</source>
-        <translation type="unfinished">Keltisch</translation>
+        <translation>Keltisch</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="219"/>
         <source>Hebrew charsets</source>
-        <translation type="unfinished">Hebreeuwse karaktersets</translation>
+        <translation>Hebreeuwse karaktersets</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="221"/>
         <source>Ukrainian, Belarusian</source>
-        <translation type="unfinished">Oekraïens, Wit-Russisch</translation>
+        <translation>Oekraïens, Wit-Russisch</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="222"/>
         <source>Simplified Chinese charset</source>
-        <translation type="unfinished">Vereenvoudigd Chinese karakterset</translation>
+        <translation>Vereenvoudigd Chinese karakterset</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="223"/>
         <source>Traditional Chinese charset</source>
-        <translation type="unfinished">Traditioneel Chinese karakterset</translation>
+        <translation>Traditioneel Chinese karakterset</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="224"/>
         <source>Japanese charsets</source>
-        <translation type="unfinished">Japanse karaktersets</translation>
+        <translation>Japanse karaktersets</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="225"/>
         <source>Korean charset</source>
-        <translation type="unfinished">Koreaanse karakterset</translation>
+        <translation>Koreaanse karakterset</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="226"/>
         <source>Thai charset</source>
-        <translation type="unfinished">Thaise karakterset</translation>
+        <translation>Thaise karakterset</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="227"/>
@@ -3384,7 +3386,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../playlist.cpp" line="1123"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
-        <translation type="unfinished">typ de naam die in de afspeellijst voor dit bestand moet worden weergegeven:</translation>
+        <translation>Voer de naam in die in de afspeellijst voor dit bestand moet worden weergegeven:</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="278"/>
@@ -3479,7 +3481,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../playlist.cpp" line="302"/>
         <source>Preferences</source>
-        <translation type="unfinished">Voorkeuren</translation>
+        <translation>Voorkeuren</translation>
     </message>
 </context>
 <context>
@@ -3487,7 +3489,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../playlistpreferences.cpp" line="32"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vink deze optie aan als u wilt dat wanneer er een map wordt toegevoegd ook de bestanden in de submappen ervan toegevoegd worden. Anders worden alleen de bestanden in de geselecteerde map toegevoegd.</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.cpp" line="39"/>
@@ -3497,27 +3499,27 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../playlistpreferences.ui" line="13"/>
         <source>Playlist - Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Afspeellijst - Voorkeuren</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="32"/>
         <source>&amp;Add files in directories recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>Best&amp;anden in map recursief toevoegen</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="39"/>
         <source>Automatically get &amp;info about files added</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatisch &amp;informatie verkrijgen over de toegevoegde bestanden</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="46"/>
         <source>&amp;Save copy of playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopie van afspeelijst op&amp;slaan bij afsluiten</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="25"/>
         <source>&amp;Play files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>Bestanden vanaf o&amp;pstarten afspelen</translation>
     </message>
 </context>
 <context>
@@ -3852,12 +3854,12 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
     <message>
         <location filename="../prefadvanced.cpp" line="361"/>
         <source>Repaint the background of the video window</source>
-        <translation type="unfinished"></translation>
+        <translation>Repaint uitvoeren op de achtergrond van het videovenster</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="199"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
-        <translation type="unfinished"></translation>
+        <translation>Repaint uitvoeren op de achtergron&amp;d van het videovenster</translation>
     </message>
 </context>
 <context>
@@ -3998,12 +4000,12 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
     <message>
         <location filename="../prefdrives.cpp" line="132"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kies het CDROM-apparaat. Het zal gebruikt worden om Video CD&apos;s (VCD&apos;s) en Audio-CD&apos;s af te spelen.</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="38"/>
         <source>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer kiest standaard geen CDROM- of DVD-stations. Dus voordat u een CD of DVD kunt afspelen, moet u de te gebruiken apparaten selecteren (ze kunnen gelijk zijn).</translation>
     </message>
 </context>
 <context>
@@ -4633,62 +4635,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="69"/>
         <source>None</source>
-        <translation type="unfinished">Geen</translation>
+        <translation>Geen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="70"/>
         <source>Lowpass5</source>
-        <translation type="unfinished"></translation>
+        <translation>Lowpass5</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="71"/>
         <source>Yadif (normal)</source>
-        <translation type="unfinished"></translation>
+        <translation>Yadif (normaal)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="72"/>
         <source>Yadif (double framerate)</source>
-        <translation type="unfinished"></translation>
+        <translation>Yadif (dubbele framerate)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="73"/>
         <source>Linear Blend</source>
-        <translation type="unfinished"></translation>
+        <translation>Lineaire Blend</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="74"/>
         <source>Kerndeint</source>
-        <translation type="unfinished"></translation>
+        <translation>Kerndeint</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="529"/>
         <source>Deinterlace by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Standaard deinterlace</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="531"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecteer de deinterlacefilter die u wilt gebruiken voor nieuw geopende video&apos;s.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="339"/>
         <source>Dei&amp;nterlace by default:</source>
-        <translation type="unfinished"></translation>
+        <translation>Standaard dei&amp;nterlace:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="499"/>
         <source>Remember time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Tijdpositie onthouden</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="211"/>
         <source>Remember &amp;time position</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tijdpositie onthouden</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="542"/>
         <source>Change volume just before p&amp;laying</source>
-        <translation type="unfinished"></translation>
+        <translation>Volume aanpassen juist voor het afspe&amp;len</translation>
     </message>
 </context>
 <context>
@@ -4931,62 +4933,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="59"/>
         <source>Go backward (short)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ga terug (kort)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="60"/>
         <source>Go backward (medium)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ga terug (medium)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="61"/>
         <source>Go backward (long)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ga terug (lang)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="62"/>
         <source>Go forward (short)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ga vooruit (kort)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="63"/>
         <source>Go forward (medium)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ga vooruit (medium)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="64"/>
         <source>Go forward (long)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ga vooruit (lang)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="70"/>
         <source>OSD - Next level</source>
-        <translation type="unfinished">OSD - Volgende niveau</translation>
+        <translation>OSD - Volgende niveau</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="79"/>
         <source>Show context menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Contekstmenu tonen</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="187"/>
         <source>M&amp;iddle click</source>
-        <translation type="unfinished"></translation>
+        <translation>Mi&amp;ddel-klik</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="213"/>
         <source>X Button &amp;1</source>
-        <translation type="unfinished"></translation>
+        <translation>X knop &amp;1</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="239"/>
         <source>X Button &amp;2</source>
-        <translation type="unfinished"></translation>
+        <translation>X knop &amp;2</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="398"/>
         <source>&amp;Right click</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rechter muisklik</translation>
     </message>
 </context>
 <context>
@@ -5439,62 +5441,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="149"/>
         <source>Default GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Standaard GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="150"/>
         <source>Mini GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Mini GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="449"/>
         <source>GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="457"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option will take effect the next time you run SMPlayer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecteer de GUI die u in het programma wilt. Momenteel zijn er twee beschikbaar: Standaard GUI en Mini GUI. &lt;br&gt;De &lt;b&gt;Standaard GUI&lt;/b&gt; is een traditionele interface met werbalken. De &lt;b&gt;Mini GUI&lt;/b&gt; is eenvoudiger, zonder werkbalken en met maar een paar knoppen. &lt;br&gt;&lt;b&gt;Merk op:&lt;/b&gt; deze optie zal pas effect hebben de volgende keer dat u SMPlayer gebruikt.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="307"/>
         <source>&amp;GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="329"/>
         <source>(this option requires to restart SMPlayer)</source>
-        <translation type="unfinished"></translation>
+        <translation>(voor deze optie moet u SMPlayer herstarten)</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="490"/>
         <source>Automatic port</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatische poort</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="493"/>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. If you select this option, a port will be automatically chosen.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer moet naar een poort luisteren om commando&apos;s van anderen te ontvangen. Als u deze optie selecteert zal er automatisch een poort gekozen worden.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="495"/>
         <source>Manual port</source>
-        <translation type="unfinished"></translation>
+        <translation>Handmatige poort</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="558"/>
         <source>Port to listen</source>
-        <translation type="unfinished"></translation>
+        <translation>Te beluisteren poort</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="570"/>
         <source>&amp;Automatic</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Automatisch</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="585"/>
         <source>&amp;Manual</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Handmatig</translation>
     </message>
 </context>
 <context>
@@ -5822,42 +5824,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="280"/>
         <source>Fast seek to chapters in dvds</source>
-        <translation type="unfinished"></translation>
+        <translation>Snel zoeken naar hoofdstukken in DVD&apos;s</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="307"/>
         <source>Fast &amp;seek to chapters in dvds</source>
-        <translation type="unfinished"></translation>
+        <translation>Snel &amp;zoeken naar hoofdstukken in DVD&apos;s</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="307"/>
         <source>Cache for audio CDs</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio CD-cache</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="309"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
-        <translation type="unfinished"></translation>
+        <translation>Deze optie bepaalt hoeveel geheugen (in kBytes) gebruikt moet worden bij het bufferen van een audio CD.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="495"/>
         <source>Cache for &amp;audio CDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Audio CD-cache:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="311"/>
         <source>Cache for VCDs</source>
-        <translation type="unfinished"></translation>
+        <translation>VCD-cache</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="313"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
-        <translation type="unfinished"></translation>
+        <translation>Deze optie bepaalt hoeveel geheugen (in kBytes) gebruikt moet worden bij het bufferen van een VCD.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="539"/>
         <source>Cache for &amp;VCDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;VCD-cache:</translation>
     </message>
 </context>
 <context>
@@ -6451,17 +6453,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="117"/>
         <source>opens the default gui.</source>
-        <translation type="unfinished"></translation>
+        <translation>opent de standaard gui.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="96"/>
         <source>subtitle_file</source>
-        <translation type="unfinished"></translation>
+        <translation>ondertitel_bestand</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="151"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
-        <translation type="unfinished"></translation>
+        <translation>specifieert het te laden ondertitelbestand voor de eerste video.</translation>
     </message>
 </context>
 <context>
@@ -6591,17 +6593,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.cpp" line="69"/>
         <source>Video Equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Video-equalizer</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="118"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Informatie</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="120"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation type="unfinished"></translation>
+        <translation>De huidige waarden werden opgeslagen om als standaard gebruikt te worden.</translation>
     </message>
 </context>
 <context>
