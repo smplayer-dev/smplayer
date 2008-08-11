@@ -92,12 +92,12 @@ void MiniGui::createControlWidget() {
 	controlwidget->addSeparator();
 	controlwidget->addAction(fullscreenAct);
 	controlwidget->addAction(muteAct);
-#endif
 
 #if USE_VOLUME_BAR
 	controlwidget->addAction(volumeslider_action);
 #endif
 
+#endif // USE_CONFIGURABLE_TOOLBARS
 }
 
 void MiniGui::createFloatingControl() {
