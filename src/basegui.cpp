@@ -614,9 +614,13 @@ void BaseGui::createActions() {
 	connect( showFAQAct, SIGNAL(triggered()),
              this, SLOT(helpFAQ()) );
 
-	showCLOptions = new MyAction( this, "cl_options" );
-	connect( showCLOptions, SIGNAL(triggered()),
+	showCLOptionsAct = new MyAction( this, "cl_options" );
+	connect( showCLOptionsAct, SIGNAL(triggered()),
              this, SLOT(helpCLOptions()) );
+
+	showTipsAct = new MyAction( this, "tips" );
+	connect( showTipsAct, SIGNAL(triggered()),
+             this, SLOT(helpTips()) );
 
 	aboutQtAct = new MyAction( this, "about_qt" );
 	connect( aboutQtAct, SIGNAL(triggered()),
@@ -1150,7 +1154,8 @@ void BaseGui::retranslateStrings() {
 
 	// Menu Help
 	showFAQAct->change( Images::icon("faq"), tr("&FAQ") );
-	showCLOptions->change( Images::icon("cl_help"), tr("&Command line options") );
+	showCLOptionsAct->change( Images::icon("cl_help"), tr("&Command line options") );
+	showTipsAct->change( Images::icon("tips"), tr("&Tips") );
 	aboutQtAct->change( QPixmap(":/icons-png/qt.png"), tr("About &Qt") );
 	aboutThisAct->change( Images::icon("logo_small"), tr("About &SMPlayer") );
 
@@ -1816,7 +1821,8 @@ void BaseGui::createMenus() {
 
 	// HELP MENU
 	helpMenu->addAction(showFAQAct);
-	helpMenu->addAction(showCLOptions);
+	helpMenu->addAction(showCLOptionsAct);
+	helpMenu->addAction(showTipsAct);
 	helpMenu->addSeparator();
 	helpMenu->addAction(aboutQtAct);
 	helpMenu->addAction(aboutThisAct);
@@ -2865,6 +2871,10 @@ void BaseGui::helpCLOptions() {
 	clhelp_window->setWindowTitle( tr("SMPlayer command line options") );
 	clhelp_window->setHtml(CLHelp::help(true));
 	clhelp_window->show();
+}
+
+void BaseGui::helpTips() {
+	QDesktopServices::openUrl( QUrl("http://smplayer.wiki.sourceforge.net/Tips") );
 }
 
 void BaseGui::helpAbout() {
