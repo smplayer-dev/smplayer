@@ -1,0 +1,48 @@
+In smplayer 0.6.2 it's possible to configure the toolbars. That means that
+now you can arrange the buttons and controls in the GUI the way you want.
+
+For the moment the only way to do it is by editing the configuration file
+(smplayer.ini). In a future version there'll be a graphical dialog for this.
+
+In this document I'll try to explain what you have to change in order to
+configure the toolbars the way you prefer.
+
+Open smplayer.ini (~/.smplayer/smplayer.ini in linux, 
+C:\Documents and Settings\your_username\.smplayer\smplayer.ini in windows) in
+a text editor and look for these lines:
+
+[default_gui]
+actions\controlwidget=play, pause_and_frame_step, stop, separator, rewindbutton_action, timeslider_action, forwardbutton_action, separator, fullscreen, mute, volumeslider_action
+actions\controlwidget_mini=play_or_pause, stop, separator, rewind1, timeslider_action, forward1, separator, mute, volumeslider_action
+actions\floating_control=play, pause, stop, separator, rewindbutton_action, timeslider_action, forwardbutton_action, separator, fullscreen, mute, volumeslider_action, separator, timelabel_action
+actions\toolbar1=open_file, open_dvd, open_url, separator, compact, fullscreen, separator, screenshot, separator, show_file_properties, show_playlist, show_preferences, separator, play_prev, play_next
+
+As you can see this is a list of all "actions" that smplayer will display in
+the toolbars.
+
+actions\toolbar1 contains the list of actions in the main toolbar.
+actions\controlwidget contains the list of actions in the controlbar.
+actions\controlwidget_mini contains the list of actions in the small
+controlbar that replaces the normal controlbar when the window is small.
+And finally actions\floating_control contains the list of actions in the
+floating control that appears in fullscreen mode.
+
+You can remove, change the order or add new actions. The name of all available
+actions can be seen in the shortcut editor, in Preferences->Keyboard and mouse.
+
+Additionally you can also use the following actions:
+
+ - timeslider_action : adds a time slider
+ - volumeslider_action : adds a volume slider
+ - timelabel_action : adds a label which shows the current playing time
+ - rewindbutton_action : adds a button with a popup menu with all the rewind
+   actions
+ - forwardbutton_action : adds a button with a popup menu with all the
+   forward actions
+ - separator, adds a separator
+
+You can also customize the mini GUI in the same way, just look for [mini_gui]
+in the config file.
+
+Important note: changes in smplayer.ini always have to be done when smplayer 
+is NOT running!
