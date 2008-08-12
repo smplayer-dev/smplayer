@@ -1248,7 +1248,7 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="1157"/>
         <source>&amp;Command line options</source>
-        <translation>Opciones para la línea de &amp;comandos</translation>
+        <translation>&amp;Opciones para la línea de comandos</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2871"/>
@@ -1383,7 +1383,7 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="1158"/>
         <source>&amp;Tips</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Consejos</translation>
     </message>
 </context>
 <context>
