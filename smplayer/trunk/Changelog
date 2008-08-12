@@ -1,5 +1,10 @@
 [b]Version 0.6.2[/b]:
 
+(2008-08-12)
+ * Added the document Configuring_the_toolbars.txt.
+ * Added the new option Tips in the Help menu. It just opens a web browser
+   to http://smplayer.wiki.sourceforge.net/Tips.
+
 (2008-08-11)
  * Bugfix: the volume slider appeared in the mini gui even if it had been
    removed from the config file.
