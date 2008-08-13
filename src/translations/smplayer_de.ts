@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1383,7 +1384,7 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1158"/>
         <source>&amp;Tips</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tipps</translation>
     </message>
 </context>
 <context>
