@@ -58,7 +58,13 @@ void Preferences::reset() {
 	*/
 
 	use_fontconfig = FALSE;
+
+#ifdef Q_OS_WIN
 	use_ass_subtitles = false;
+#else
+	use_ass_subtitles = true;
+#endif
+
 	font_file = "";
 	font_name = "";
 	subcp = "ISO-8859-1";
