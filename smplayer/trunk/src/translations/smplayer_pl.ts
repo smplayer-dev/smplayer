@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1284,7 +1285,7 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../basegui.cpp" line="3701"/>
         <source>Please check the MPlayer path in preferences.</source>
-        <translation>Proszę sprawdź w ustawieniach ścieżkę do programu Mplayer.</translation>
+        <translation>Proszę sprawdź w ustawieniach ścieżkę do programu MPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3703"/>
@@ -1379,7 +1380,7 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../basegui.cpp" line="1158"/>
         <source>&amp;Tips</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Wskazówki</translation>
     </message>
 </context>
 <context>
@@ -1690,7 +1691,7 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../filepropertiesdialog.ui" line="239"/>
         <source>&amp;MPlayer options</source>
-        <translation>&amp;Opcje Mplayera</translation>
+        <translation>&amp;Opcje MPlayera</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="251"/>
@@ -3433,7 +3434,7 @@ Przykład: resample=44100:0:0,</translation>
         <location filename="../prefadvanced.ui" line="490"/>
         <source>SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br&gt;&lt;br&gt;
 The drop-down lists may provide already made regular expression for several languages.</source>
-        <translation>Aby odczytać i przeprowadzić analizę tekstu SMplayer potrzebuje danych od programu MPlayer i czasami opiera się na angielskim tekście. Jeśli używasz MPlayera przetłumaczonego na inny język, to należy przerobić teksty, których SMPlayer będzie szukał. (Technicznie powinieneś wpisać regularne wyrażenia)&lt;br&gt;&lt;br&gt;
+        <translation>Aby odczytać i przeprowadzić analizę tekstu SMPlayer potrzebuje danych od programu MPlayer i czasami opiera się na angielskim tekście. Jeśli używasz MPlayera przetłumaczonego na inny język, to należy przerobić teksty, których SMPlayer będzie szukał. (Technicznie powinieneś wpisać regularne wyrażenia)&lt;br&gt;&lt;br&gt;
 Rozwijalna lista dostarcza już regularne wyrażenia dla kilku języków.</translation>
     </message>
     <message>
