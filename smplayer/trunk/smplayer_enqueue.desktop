@@ -7,6 +7,7 @@ Name=Enqueue in SMPlayer
 Name[es]=Añadir a la lista de reproducción de SMPlayer
 Comment=Add file(s) to the SMPlayer playlist
 Comment[es]=Añade ficheros a la lista de reproducción de SMPlayer
+Comment[nl]=Bestanden toevoegen aan de afspeellijst van SMPlayer
 Type=Application
 X-KDE-StartupNotify=false
 NoDisplay=true
