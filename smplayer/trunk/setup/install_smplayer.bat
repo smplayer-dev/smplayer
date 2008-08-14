@@ -20,6 +20,7 @@ copy %SMPLAYER_DIR%\*.txt %OUTPUT_DIR%
 copy %QT_DIR%\bin\QtCore4.dll %OUTPUT_DIR%
 copy %QT_DIR%\bin\QtGui4.dll %OUTPUT_DIR%
 copy %QT_DIR%\bin\QtNetwork4.dll %OUTPUT_DIR%
+copy %QT_DIR%\bin\QtXml4.dll %OUTPUT_DIR%
 copy %MINGW_DIR%\bin\mingwm10.dll %OUTPUT_DIR%
 
 rem translations
