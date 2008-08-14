@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="nl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1610,7 +1611,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="1158"/>
         <source>&amp;Tips</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tips</translation>
     </message>
 </context>
 <context>
@@ -2669,7 +2670,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="71"/>
         <source>Indonesian</source>
-        <translation type="unfinished"></translation>
+        <translation>Indonesisch</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="72"/>
@@ -2784,7 +2785,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="94"/>
         <source>Maori</source>
-        <translation type="unfinished"></translation>
+        <translation>Maori</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="184"/>
@@ -2804,7 +2805,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="98"/>
         <source>Moldavian</source>
-        <translation type="unfinished"></translation>
+        <translation>Moldavisch</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="99"/>
@@ -2849,7 +2850,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="107"/>
         <source>Occitan</source>
-        <translation type="unfinished"></translation>
+        <translation>Occitaans</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="108"/>
@@ -2904,7 +2905,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="119"/>
         <source>Sanskrit</source>
-        <translation type="unfinished"></translation>
+        <translation>Sanskriet</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="120"/>
@@ -2969,7 +2970,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="133"/>
         <source>Sundanese</source>
-        <translation type="unfinished"></translation>
+        <translation>Soedanees</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="194"/>
@@ -2979,7 +2980,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="135"/>
         <source>Swahili</source>
-        <translation type="unfinished"></translation>
+        <translation>Swahili</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="136"/>
@@ -3064,7 +3065,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="152"/>
         <source>Uzbek</source>
-        <translation type="unfinished"></translation>
+        <translation>Oezbeeks</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="153"/>
@@ -3498,7 +3499,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../playlistpreferences.cpp" line="39"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vink deze optie aan als u meer informatie van de bestanden in de afspeellijst wilt. U kunt hierdoor de titel, naam (indien beschikbaar) en de lengte van de bestanden zien. Anders zal deze informatie niet beschikbaar zijn totdat het bestand effectief wordt afgespeeld. Pas op: deze optie kan traag werken, vooral als u veel bestanden toevoegd.</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="13"/>
