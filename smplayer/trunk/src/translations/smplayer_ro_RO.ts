@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1377,12 +1378,12 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
     <message>
         <location filename="../basegui.cpp" line="1140"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>Transmiteți su&amp;btitrări către OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1158"/>
         <source>&amp;Tips</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sfaturi practice</translation>
     </message>
 </context>
 <context>
