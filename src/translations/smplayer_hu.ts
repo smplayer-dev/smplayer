@@ -275,12 +275,12 @@
     <message>
         <location filename="../about.cpp" line="60"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Használt Qt: %1 (fordítva Qt %2-l)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="179"/>
         <source>Slovenian</source>
-        <translation type="unfinished">Szlovén</translation>
+        <translation>Szlovén</translation>
     </message>
 </context>
 <context>
@@ -1368,17 +1368,17 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../basegui.cpp" line="1139"/>
         <source>Find subtitles on &amp;OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>Feliratok keresése az &amp;OpenSubtitles.org-on...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1140"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>Feliratok feltöltése az OpenSu&amp;btitles.org-ra...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1158"/>
         <source>&amp;Tips</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tippek</translation>
     </message>
 </context>
 <context>
@@ -1860,107 +1860,107 @@ Például: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="133"/>
         <source>Language</source>
-        <translation type="unfinished">Nyelv</translation>
+        <translation>Nyelv</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="133"/>
         <source>Name</source>
-        <translation type="unfinished">Név</translation>
+        <translation>Név</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Format</source>
-        <translation type="unfinished">Formátum</translation>
+        <translation>Formátum</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Files</source>
-        <translation type="unfinished">Fájlok</translation>
+        <translation>Fájlok</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Date</source>
-        <translation type="unfinished">Dátum</translation>
+        <translation>Dátum</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Uploaded by</source>
-        <translation type="unfinished">Feltöltötte</translation>
+        <translation>Feltöltötte</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="150"/>
         <source>All</source>
-        <translation type="unfinished">Mind</translation>
+        <translation>Mind</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="156"/>
         <source>Close</source>
-        <translation type="unfinished">Bezár</translation>
+        <translation>Bezár</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="99"/>
         <source>&amp;Download</source>
-        <translation type="unfinished">&amp;Letöltés</translation>
+        <translation>&amp;Letöltés</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="161"/>
         <source>&amp;Copy link to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hivatkozás másolása vágólapra</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="215"/>
         <source>Error</source>
-        <translation type="unfinished">Hiba</translation>
+        <translation>Hiba</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="217"/>
         <source>Download failed: %1.</source>
-        <translation type="unfinished">Letöltési hiba: %1.</translation>
+        <translation>Letöltési hiba: %1.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="221"/>
         <source>Connecting to %1...</source>
-        <translation type="unfinished">Kapcsolódás %1...</translation>
+        <translation>Kapcsolódás %1-hoz...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="227"/>
         <source>Downloading...</source>
-        <translation type="unfinished">Letöltés...</translation>
+        <translation>Letöltés...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
         <source>Done.</source>
-        <translation type="unfinished">Kész.</translation>
+        <translation>Kész.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="281"/>
         <source>%1 files available</source>
-        <translation type="unfinished">%1 fájl érhető el</translation>
+        <translation>%1 fájl érhető el</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="290"/>
         <source>Failed to parse the received data.</source>
-        <translation type="unfinished">Hiba az érkezett adatok olvasása közben.</translation>
+        <translation>Hiba az érkezett adatok olvasása közben.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="13"/>
         <source>Find Subtitles</source>
-        <translation type="unfinished">Feliratok keresése</translation>
+        <translation>Feliratok keresése</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="33"/>
         <source>&amp;Subtitles for</source>
-        <translation type="unfinished">&amp;Feliratok -</translation>
+        <translation>&amp;Feliratok -</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="56"/>
         <source>&amp;Language:</source>
-        <translation type="unfinished">Ny&amp;elv:</translation>
+        <translation>Ny&amp;elv:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="89"/>
         <source>&amp;Refresh</source>
-        <translation type="unfinished">F&amp;rissítés</translation>
+        <translation>F&amp;rissítés</translation>
     </message>
 </context>
 <context>
@@ -3341,7 +3341,7 @@ Valóban felül akarja írni?</translation>
     <message>
         <location filename="../playlistpreferences.ui" line="25"/>
         <source>&amp;Play files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Fájlok lejátszása az elejétől</translation>
     </message>
 </context>
 <context>
@@ -3657,12 +3657,12 @@ Például &lt;i&gt;^Core::.*&lt;/i&gt; esetén csak a &lt;i&gt;Core::&lt;/i&gt; 
     <message>
         <location filename="../prefadvanced.cpp" line="361"/>
         <source>Repaint the background of the video window</source>
-        <translation type="unfinished"></translation>
+        <translation>Videóablak hátterének újrafestése</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="199"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
-        <translation type="unfinished"></translation>
+        <translation>Vi&amp;deóablak hátterének újrafestése</translation>
     </message>
 </context>
 <context>
@@ -4372,17 +4372,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="499"/>
         <source>Remember time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Időpozíció megjegyzése</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="211"/>
         <source>Remember &amp;time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Időpozíció &amp;megjegyzése</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="542"/>
         <source>Change volume just before p&amp;laying</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangerő változtatása közvetlenül a &amp;lejátszás előtt</translation>
     </message>
 </context>
 <context>
@@ -5158,32 +5158,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="490"/>
         <source>Automatic port</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatikus port</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="493"/>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. If you select this option, a port will be automatically chosen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az SMPlayernek figyelnie kell egy portot hogy parancsokat kaphasson más példányoktól. Ezen opció használatával automatikusan lesz kiválsztva egy port.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="495"/>
         <source>Manual port</source>
-        <translation type="unfinished"></translation>
+        <translation>Kézi port</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="558"/>
         <source>Port to listen</source>
-        <translation type="unfinished"></translation>
+        <translation>Figyelendő port</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="570"/>
         <source>&amp;Automatic</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Automatikus</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="585"/>
         <source>&amp;Manual</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kézi</translation>
     </message>
 </context>
 <context>
@@ -5471,32 +5471,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="307"/>
         <source>Cache for audio CDs</source>
-        <translation type="unfinished"></translation>
+        <translation>Audió CD gyorsítótár</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="309"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez az opció határozza meg mennyi memória legyen használva audió CD-k buffereléséhez (kBájtban).</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="495"/>
         <source>Cache for &amp;audio CDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Audió CD gyorsítótár:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="311"/>
         <source>Cache for VCDs</source>
-        <translation type="unfinished"></translation>
+        <translation>VCD gyorsítótár</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="313"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez az opció határozza meg mennyi memória legyen használva VCD-k buffereléséhez (kBájtban).</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="539"/>
         <source>Cache for &amp;VCDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;VCD gyorsítótár:</translation>
     </message>
 </context>
 <context>
@@ -6000,12 +6000,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="96"/>
         <source>subtitle_file</source>
-        <translation type="unfinished"></translation>
+        <translation>felirat_fájl</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="151"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
-        <translation type="unfinished"></translation>
+        <translation>meghatározza az első videóhoz betöltendő felirat fájlt.</translation>
     </message>
 </context>
 <context>
