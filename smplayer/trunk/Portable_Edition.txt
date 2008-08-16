@@ -11,8 +11,8 @@ double click on smplayer.exe.
 The package includes:
 
 * SMPlayer (portable version)
-* MPlayer Sherpya-SVN-r27081 (mainly because it doesn't have fontconfig
-  support, so it won't write any font cache around there)
+* A MPlayer build
+* Translations and icon themes
 
 What are the differences with the normal SMPlayer?
 
