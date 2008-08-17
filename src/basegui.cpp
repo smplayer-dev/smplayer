@@ -800,6 +800,9 @@ void BaseGui::createActions() {
 	// Video aspect
 	aspectGroup = new MyActionGroup(this);
 	aspectDetectAct = new MyActionGroupItem(this, aspectGroup, "aspect_detect", MediaSettings::AspectAuto);
+#if NEW_ASPECT_CODE
+	aspectNoneAct = new MyActionGroupItem(this, aspectGroup, "aspect_none", MediaSettings::AspectNone);
+#endif
 	aspect43Act = new MyActionGroupItem(this, aspectGroup, "aspect_4:3", MediaSettings::Aspect43);
 	aspect54Act = new MyActionGroupItem(this, aspectGroup, "aspect_5:4", MediaSettings::Aspect54 );
 	aspect149Act = new MyActionGroupItem(this, aspectGroup, "aspect_14:9", MediaSettings::Aspect149 );
@@ -1263,6 +1266,9 @@ void BaseGui::retranslateStrings() {
 	*/
 
 	aspectDetectAct->change( tr("&Autodetect") );
+#if NEW_ASPECT_CODE
+	aspectNoneAct->change( tr("&None") );
+#endif
 	aspect43Act->change( "&4:3" );
 	aspect54Act->change( "&5:4" );
 	aspect149Act->change( "&14:9" );

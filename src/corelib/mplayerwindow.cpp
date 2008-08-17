@@ -233,44 +233,42 @@ void MplayerWindow::setAspect( double asp) {
 
 void MplayerWindow::updateVideoWindow()
 {
-	/*
-	mplayerlayer->resize(size());
-	return;
-	*/
-
 	//qDebug("MplayerWindow::updateVideoWindow");
 
     //qDebug("aspect= %f", aspect);
-    
+
     int w_width = size().width();
     int w_height = size().height();
+
+	int w = w_width;
+	int h = w_height;
+	int x = 0;
+	int y = 0;
+
+	if (aspect != 0) {
+	    int pos1_w = w_width;
+	    int pos1_h = w_width / aspect + 0.5;
     
-    int pos1_w = w_width;
-    int pos1_h = w_width / aspect + 0.5;
+	    int pos2_h = w_height;
+	    int pos2_w = w_height * aspect + 0.5;
     
-    int pos2_h = w_height;
-    int pos2_w = w_height * aspect + 0.5;
+	    //qDebug("pos1_w: %d, pos1_h: %d", pos1_w, pos1_h);
+	    //qDebug("pos2_w: %d, pos2_h: %d", pos2_w, pos2_h);
     
-    //qDebug("pos1_w: %d, pos1_h: %d", pos1_w, pos1_h);
-    //qDebug("pos2_w: %d, pos2_h: %d", pos2_w, pos2_h);
-    
-    int w,h;
-    int x=0;
-    int y=0;
-    
-    if (pos1_h <= w_height) {
-	//qDebug("Pos1!");
-		w = pos1_w;
-		h = pos1_h;
+	    if (pos1_h <= w_height) {
+		//qDebug("Pos1!");
+			w = pos1_w;
+			h = pos1_h;
 	
-		y = (w_height - h) /2;
-    } else {
-	//qDebug("Pos2!");
-		w = pos2_w;
-		h = pos2_h;
+			y = (w_height - h) /2;
+	    } else {
+		//qDebug("Pos2!");
+			w = pos2_w;
+			h = pos2_h;
 	
-		x = (w_width - w) /2;
-    }
+			x = (w_width - w) /2;
+	    }
+	}
 
     mplayerlayer->move(x,y);
     mplayerlayer->resize(w, h);

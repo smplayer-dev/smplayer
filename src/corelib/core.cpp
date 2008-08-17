@@ -2823,6 +2823,7 @@ void Core::changeAspectRatio( int ID ) {
     double asp = mdat.video_aspect; // Set a default
 
 	switch (ID) {
+		case MediaSettings::AspectNone: asp = 0; break;
 		case MediaSettings::Aspect43: asp = (double) 4 / 3; break;
 		case MediaSettings::Aspect169: asp = (double) 16 / 9; break;
 		case MediaSettings::Aspect149: asp = (double) 14 / 9; break;
