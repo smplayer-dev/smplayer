@@ -457,6 +457,9 @@ protected:
 	// Aspect Action Group
 	MyActionGroup * aspectGroup;
 	MyAction * aspectDetectAct;
+#if NEW_ASPECT_CODE
+	MyAction * aspectNoneAct;
+#endif
 	MyAction * aspect43Act;
 	MyAction * aspect54Act;
 	MyAction * aspect149Act;
