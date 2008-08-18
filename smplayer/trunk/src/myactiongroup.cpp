@@ -56,7 +56,7 @@ void MyActionGroup::setChecked(int ID) {
 
 	QList <QAction *> l = actions();
 	for (int n=0; n < l.count(); n++) {
-		if (l[n]->data().toInt() == ID) {
+		if ( (!l[n]->isSeparator()) && (l[n]->data().toInt() == ID) ) {
 			l[n]->setChecked(true);
 			return;
 		}

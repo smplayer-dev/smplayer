@@ -1,5 +1,9 @@
 [b]Version 0.6.3[/b]:
 
+(2008-08-18)
+ * Renamed Video->Aspect ratio->None to Video->Aspect ratio->Disabled and
+   Video->Aspect ratio->Autodetect to Video->Aspect ratio->Auto.
+
 (2008-08-17)
  * Added a new (experimental) option: Video->Aspect ratio->None. When this 
    option is selected the video will be stretched to fill all the available 
