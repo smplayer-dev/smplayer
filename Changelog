@@ -4,6 +4,7 @@
  * Added a new (experimental) option: Video->Aspect ratio->None. When this 
    option is selected the video will be stretched to fill all the available 
    space, not keeping the aspect ratio.
+   Note: this option does NOT work properly if using x11 as video driver.
 
 (2008-08-16)
  * Added m2ts to the list of extensions for video.
