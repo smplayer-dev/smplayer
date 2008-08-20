@@ -1,5 +1,9 @@
 [b]Version 0.6.3[/b]:
 
+(2008-08-19)
+ * Added two new functions for the mouse buttons: increase volume and 
+   decrease volume. Closes feature request #2055061.
+
 (2008-08-18)
  * Renamed Video->Aspect ratio->None to Video->Aspect ratio->Disabled and
    Video->Aspect ratio->Autodetect to Video->Aspect ratio->Auto.
