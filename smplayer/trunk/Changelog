@@ -1,5 +1,11 @@
 [b]Version 0.6.3[/b]:
 
+(2008-08-20)
+ * Moved the eq2 filter before the screenshot filter, otherwise the 
+   screenshots are not affected by the settings in the video equalizer.
+   Obviously this requires the software equalizer (eq2) to be enabled.
+   This should fix bug #2062425.
+
 (2008-08-19)
  * Added two new functions for the mouse buttons: increase volume and 
    decrease volume. Closes feature request #2055061.
