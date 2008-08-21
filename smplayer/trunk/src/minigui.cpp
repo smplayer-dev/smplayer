@@ -31,9 +31,7 @@
 using namespace Global;
 
 MiniGui::MiniGui( QWidget * parent, Qt::WindowFlags flags )
-	: BaseGuiPlus( parent, flags ), 
-		floating_control_width(80),
-		floating_control_animated(true)
+	: BaseGuiPlus( parent, flags )
 {
 	createActions();
 	createControlWidget();
@@ -180,8 +178,10 @@ void MiniGui::aboutToExitCompactMode() {
 }
 
 void MiniGui::showFloatingControl(QPoint /*p*/) {
-	floating_control->setAnimated( floating_control_animated );
-	floating_control->showOver(panel, floating_control_width, 
+	floating_control->setAnimated( pref->floating_control_animated );
+	floating_control->setMargin(pref->floating_control_margin);
+	floating_control->showOver(panel, 
+                               pref->floating_control_width, 
                                FloatingWidget::Bottom);
 }
 
@@ -201,8 +201,6 @@ void MiniGui::saveConfig() {
 
 	set->beginGroup( "mini_gui");
 	set->setValue( "toolbars_state", saveState(Helper::qtVersion()) );
-	set->setValue("floating_control_width", floating_control_width);
-	set->setValue("floating_control_animated", floating_control_animated);
 
 #if USE_CONFIGURABLE_TOOLBARS
 	set->beginGroup( "actions" );
@@ -219,8 +217,6 @@ void MiniGui::loadConfig() {
 
 	set->beginGroup( "mini_gui");
 	restoreState( set->value( "toolbars_state" ).toByteArray(), Helper::qtVersion() );
-	floating_control_width = set->value("floating_control_width", floating_control_width).toInt();
-	floating_control_animated = set->value("floating_control_animated", floating_control_animated).toBool();
 
 #if USE_CONFIGURABLE_TOOLBARS
 	QList<QAction *> actions_list = findChildren<QAction *>();

@@ -122,10 +122,6 @@ protected:
 	bool fullscreen_toolbar2_was_visible;
 	bool compact_toolbar1_was_visible;
 	bool compact_toolbar2_was_visible;
-
-	// Properties to save
-	int floating_control_width; // Percentage of screen
-	bool floating_control_animated;
 };
 
 #endif

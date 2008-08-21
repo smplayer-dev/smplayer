@@ -3575,7 +3575,10 @@ void BaseGui::checkMousePos(QPoint p) {
 	if (!pref->fullscreen) return;
 
 	#define MARGIN 70
-	if (p.y() > mplayerwindow->height() - MARGIN) {
+
+	int margin = MARGIN + pref->floating_control_margin;
+
+	if (p.y() > mplayerwindow->height() - margin) {
 		//qDebug("BaseGui::checkMousePos: %d, %d", p.x(), p.y());
 		if (!near_bottom) {
 			emit cursorNearBottom(p);
@@ -3588,7 +3591,7 @@ void BaseGui::checkMousePos(QPoint p) {
 		}
 	}
 
-	if (p.y() < MARGIN) {
+	if (p.y() < margin) {
 		//qDebug("BaseGui::checkMousePos: %d, %d", p.x(), p.y());
 		if (!near_top) {
 			emit cursorNearTop(p);

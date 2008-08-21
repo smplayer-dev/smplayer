@@ -5,6 +5,12 @@
    screenshots are not affected by the settings in the video equalizer.
    Obviously this requires the software equalizer (eq2) to be enabled.
    This should fix bug #2062425.
+ * Added a new section in the config file: [floating_control] with 3
+   options: animated, width and margin. The options "animated" and "width"
+   were previously available as floating_control_animated and 
+   floating_control_width in the [default_gui] and [mini_gui] sections.
+   The option "margin" is new, and sets the number of pixels that the
+   floating control will be away from the border of the screen (by default, 0).
 
 (2008-08-19)
  * Added two new functions for the mouse buttons: increase volume and 

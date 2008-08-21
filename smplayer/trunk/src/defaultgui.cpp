@@ -40,9 +40,7 @@
 using namespace Global;
 
 DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
-	: BaseGuiPlus( parent, flags ),
-		floating_control_width(100), //%
-		floating_control_animated(true)
+	: BaseGuiPlus( parent, flags )
 {
 	createStatusBar();
 
@@ -479,8 +477,9 @@ void DefaultGui::showFloatingControl(QPoint /*p*/) {
 	qDebug("DefaultGui::showFloatingControl");
 
 #if CONTROLWIDGET_OVER_VIDEO
-	floating_control->setAnimated( floating_control_animated );
-	floating_control->showOver(panel, floating_control_width);
+	floating_control->setAnimated( pref->floating_control_animated );
+	floating_control->setMargin(pref->floating_control_margin);
+	floating_control->showOver(panel, pref->floating_control_width);
 #else
 	if (!controlwidget->isVisible()) {
 		controlwidget->show();
@@ -549,9 +548,6 @@ void DefaultGui::saveConfig() {
 
 	set->beginGroup( "default_gui");
 
-	set->setValue("floating_control_width", floating_control_width );
-	set->setValue("floating_control_animated", floating_control_animated);
-
 	set->setValue("fullscreen_toolbar1_was_visible", fullscreen_toolbar1_was_visible);
 	set->setValue("fullscreen_toolbar2_was_visible", fullscreen_toolbar2_was_visible);
 	set->setValue("compact_toolbar1_was_visible", compact_toolbar1_was_visible);
@@ -583,9 +579,6 @@ void DefaultGui::loadConfig() {
 	QSettings * set = settings;
 
 	set->beginGroup( "default_gui");
-
-	floating_control_width = set->value( "floating_control_width", floating_control_width ).toInt();
-	floating_control_animated = set->value("floating_control_animated", floating_control_animated).toBool();
 
 	fullscreen_toolbar1_was_visible = set->value("fullscreen_toolbar1_was_visible", fullscreen_toolbar1_was_visible).toBool();
 	fullscreen_toolbar2_was_visible = set->value("fullscreen_toolbar2_was_visible", fullscreen_toolbar2_was_visible).toBool();
