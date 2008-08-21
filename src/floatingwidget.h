@@ -44,10 +44,12 @@ public:
 
 	bool isAnimated() { return _animated; };
 	bool autoHide() { return auto_hide; };
+	int margin() { return _margin; };
 
 public slots:
 	void setAnimated(bool b) { _animated = b; };
 	void setAutoHide(bool b);
+	void setMargin(int margin) { _margin = margin; };
 
 protected:
 	QToolBar * tb;
@@ -66,6 +68,8 @@ private:
 
 	bool auto_hide;
 	QTimer auto_hide_timer;
+
+	int _margin;
 };
 
 #endif

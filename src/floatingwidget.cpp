@@ -38,6 +38,7 @@ FloatingWidget::FloatingWidget( QWidget * parent )
 
 	setLayout(layout);
 
+	_margin = 0;
 	_animated = false;
 	animation_timer = new QTimer(this);
 	animation_timer->setInterval(2);
@@ -73,9 +74,9 @@ void FloatingWidget::showOver(QWidget * widget, int size, Place place) {
 	int x = (widget->width() - width() ) / 2;
 	int y;
 	if (place == Top) 
-		y = 0;
+		y = 0 + _margin;
 	else
-		y = widget->height() - height();
+		y = widget->height() - height() - _margin;
 
 	QPoint p = widget->mapToGlobal(QPoint(x, y));
 

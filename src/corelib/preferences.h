@@ -315,6 +315,11 @@ public:
 	//! Version of mplayer supplied by the user which will be used if
 	//! the version can't be parsed from mplayer output
 	int mplayer_user_supplied_version;
+
+	// Floating control settings
+	int floating_control_margin;
+	int floating_control_width;
+	bool floating_control_animated;
 };
 
 #endif

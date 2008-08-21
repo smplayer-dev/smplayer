@@ -298,6 +298,10 @@ void Preferences::reset() {
 	mplayer_detected_version = -1; //None version parsed yet
 	mplayer_user_supplied_version = -1;
 	mplayer_has_volume_option = false;
+
+	floating_control_margin = 0;
+	floating_control_width = 100; //100 %
+	floating_control_animated = true;
 }
 
 #ifndef NO_USE_INI_FILES
@@ -535,6 +539,12 @@ void Preferences::save() {
 	set->setValue("connection_port", connection_port);
 	set->setValue("use_autoport", use_autoport);
 	set->setValue("temp/autoport", autoport);
+	set->endGroup();
+
+	set->beginGroup("floating_control");
+	set->setValue("margin", floating_control_margin);
+	set->setValue("width", floating_control_width);
+	set->setValue("animated", floating_control_animated);
 	set->endGroup();
 
 	set->sync();
@@ -780,6 +790,13 @@ void Preferences::load() {
 	use_autoport = set->value("use_autoport", use_autoport).toBool();
 	autoport = set->value("temp/autoport", autoport).toInt();
 	set->endGroup();
+
+	set->beginGroup("floating_control");
+	floating_control_margin = set->value("margin", floating_control_margin).toInt();
+	floating_control_width = set->value("width", floating_control_width).toInt();
+	floating_control_animated = set->value("animated", floating_control_animated).toBool();
+	set->endGroup();
+
 
 	/*
 	QFileInfo fi(mplayer_bin);
