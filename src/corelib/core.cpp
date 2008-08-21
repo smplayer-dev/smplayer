@@ -1632,6 +1632,18 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 #endif
 
+	// Software equalizer
+	if ( (pref->use_soft_video_eq) ) {
+		proc->addArgument("-vf-add");
+		QString eq_filter = "eq2,hue";
+		if ( (pref->vo == "gl") || (pref->vo == "gl2")
+#ifdef Q_OS_WIN
+             || (pref->vo == "directx:noaccel")
+#endif
+		    ) eq_filter += ",scale";
+		proc->addArgument(eq_filter);
+	}
+
 	// Additional video filters, supplied by user
 	// File
 	if ( !mset.mplayer_additional_video_filters.isEmpty() ) {
@@ -1663,16 +1675,6 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument("screenshot");
 	}
 
-	if ( (pref->use_soft_video_eq) ) {
-		proc->addArgument("-vf-add");
-		QString eq_filter = "eq2,hue";
-		if ( (pref->vo == "gl") || (pref->vo == "gl2")
-#ifdef Q_OS_WIN
-             || (pref->vo == "directx:noaccel")
-#endif
-		    ) eq_filter += ",scale";
-		proc->addArgument(eq_filter);
-	}
 
 	// Audio channels
 	if (mset.audio_use_channels != 0) {
