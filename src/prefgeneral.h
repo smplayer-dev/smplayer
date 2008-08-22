@@ -101,6 +101,9 @@ protected:
 	void setSoftVol(bool b);
 	bool softVol();
 
+	void setUseAudioEqualizer(bool b);
+	bool useAudioEqualizer();
+
 	void setAc3DTSPassthrough(bool b);
 	bool Ac3DTSPassthrough();
 

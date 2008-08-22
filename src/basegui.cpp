@@ -978,8 +978,12 @@ void BaseGui::enableActionsOnPlaying() {
 	// Disable the compact action if not using video window
 	compactAct->setEnabled( panel->isVisible() );
 
+	// Enable or disable the audio equalizer
+	audioEqualizerAct->setEnabled(pref->use_audio_equalizer);
+
 	// Disable audio actions if there's not audio track
 	if ((core->mdat.audios.numItems()==0) && (core->mset.external_audio.isEmpty())) {
+		audioEqualizerAct->setEnabled(false);
 		muteAct->setEnabled(false);
 		decVolumeAct->setEnabled(false);
 		incVolumeAct->setEnabled(false);

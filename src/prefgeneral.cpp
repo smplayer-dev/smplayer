@@ -116,6 +116,7 @@ void PrefGeneral::setData(Preferences * pref) {
 	setPauseWhenHidden( pref->pause_when_hidden );
 
 	setEq2( pref->use_soft_video_eq );
+	setUseAudioEqualizer( pref->use_audio_equalizer );
 	setSoftVol( pref->use_soft_vol );
 	setAc3DTSPassthrough( pref->use_hwac3 );
 	setInitialVolNorm( pref->initial_volnorm );
@@ -170,6 +171,7 @@ void PrefGeneral::getData(Preferences * pref) {
 
 	TEST_AND_SET(pref->use_soft_video_eq, eq2());
 	TEST_AND_SET(pref->use_soft_vol, softVol());
+	TEST_AND_SET(pref->use_audio_equalizer, useAudioEqualizer());
 	TEST_AND_SET(pref->use_hwac3, Ac3DTSPassthrough());
 	pref->initial_volnorm = initialVolNorm();
 	TEST_AND_SET(pref->softvol_max, amplification());
@@ -325,6 +327,14 @@ void PrefGeneral::setSoftVol(bool b) {
 
 bool PrefGeneral::softVol() {
 	return softvol_check->isChecked();
+}
+
+void PrefGeneral::setUseAudioEqualizer(bool b) {
+	audio_equalizer_check->setChecked(b);
+}
+
+bool PrefGeneral::useAudioEqualizer() {
+	return audio_equalizer_check->isChecked();
 }
 
 void PrefGeneral::setAc3DTSPassthrough(bool b) {
@@ -561,6 +571,9 @@ void PrefGeneral::createHelp() {
            "maximum of double the current level. With values below 100 the "
            "initial volume (which is 100%) will be above the maximum, which "
            "e.g. the OSD cannot display correctly.") );
+
+	setWhatsThis(audio_equalizer_check, tr("Enable the audio equalizer"),
+		tr("Check this option if you want to use the audio equalizer.") );
 
 	setWhatsThis(hwac3_check, tr("AC3/DTS pass-through S/PDIF"),
 		tr("Uses hardware AC3 passthrough") );
