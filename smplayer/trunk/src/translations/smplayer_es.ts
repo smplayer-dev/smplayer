@@ -1388,7 +1388,7 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="1277"/>
         <source>&amp;Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Auto</translation>
     </message>
 </context>
 <context>
@@ -4406,17 +4406,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="575"/>
         <source>Enable the audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Activar el ecualizador de audio</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="576"/>
         <source>Check this option if you want to use the audio equalizer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Marca esta opción para poder usar el ecualizador de audio.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="650"/>
         <source>&amp;Enable the audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Activar el &amp;ecualizador de audio</translation>
     </message>
 </context>
 <context>
@@ -4714,12 +4714,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="65"/>
         <source>Increase volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Subir volumen</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="66"/>
         <source>Decrease volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Bajar volumen</translation>
     </message>
 </context>
 <context>
