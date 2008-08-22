@@ -1,5 +1,10 @@
 [b]Version 0.6.3[/b]:
 
+(2008-08-21)
+ * Added a new option in Preferences->General->Audio: "Enable the audio
+   equalizer". If this option is checked, the mplayer equalizer filter will
+   be used and the menu option Audio->Equalizer will be enabled.
+
 (2008-08-20)
  * Moved the eq2 filter before the screenshot filter, otherwise the 
    screenshots are not affected by the settings in the video equalizer.

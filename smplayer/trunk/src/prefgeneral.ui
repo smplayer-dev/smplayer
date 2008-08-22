@@ -645,6 +645,13 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="audio_equalizer_check" >
+         <property name="text" >
+          <string>&amp;Enable the audio equalizer</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="hwac3_check" >
          <property name="text" >
           <string>&amp;AC3/DTS pass-through S/PDIF</string>
@@ -974,11 +981,6 @@ For translators: don't translate this text, it will be replaced with another one
  </widget>
  <customwidgets>
   <customwidget>
-   <class>FileChooser</class>
-   <extends>QLineEdit</extends>
-   <header>filechooser.h</header>
-  </customwidget>
-  <customwidget>
    <class>TristateCombo</class>
    <extends>QComboBox</extends>
    <header>tristatecombo.h</header>
@@ -987,6 +989,11 @@ For translators: don't translate this text, it will be replaced with another one
    <class>MyComboBox</class>
    <extends>QComboBox</extends>
    <header>mycombobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>FileChooser</class>
+   <extends>QLineEdit</extends>
+   <header>filechooser.h</header>
   </customwidget>
  </customwidgets>
  <tabstops>
