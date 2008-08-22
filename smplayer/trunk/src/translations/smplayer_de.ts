@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1388,7 +1389,7 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1277"/>
         <source>&amp;Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Auto</translation>
     </message>
 </context>
 <context>
@@ -4289,7 +4290,7 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="99"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Hier kann die bevorzugte Sprache der Tonspur und Untertitel gewählt werden. Bei Medien mit mehreren Tonspuren, oder Untertiteln, wird SMPlayer versuchen die bevorzugte Sprache zu benutzen. Das funktioniert nur mit Medien die eine Info über die Tonspuren und Untertitel bereit stellen, wie DVDs oder mkv-Dateien.&lt;br&gt;Das Feld akzeptiert normale Ausdrücke. Beispiel: &lt;b&gt;es|esp|spa&lt;/b&gt;die Tonspur mit folgender Info wird ausgewählt &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Hier kann die bevorzugte Sprache der Tonspur und Untertitel gewählt werden. Bei Medien mit mehreren Tonspuren, oder Untertiteln, wird SMPlayer versuchen die bevorzugte Sprache zu benutzen. Das funktioniert nur mit Medien die eine Info über die Tonspuren und Untertitel bereit stellen, wie DVDs oder mkv-Dateien.&lt;br&gt;Das Feld akzeptiert normale Ausdrücke. Beispiel: &lt;b&gt;es|esp|spa&lt;/b&gt; die Tonspur mit folgender Info wird ausgewählt &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="774"/>
@@ -4412,17 +4413,17 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="575"/>
         <source>Enable the audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio Equalizer akitivieren</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="576"/>
         <source>Check this option if you want to use the audio equalizer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Diese Option aktivieren um den Audio Equalizer zu benutzen.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="650"/>
         <source>&amp;Enable the audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Audio Equalizer aktivieren</translation>
     </message>
 </context>
 <context>
@@ -4720,12 +4721,12 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinput.cpp" line="65"/>
         <source>Increase volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Lautstärke erhöhen</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="66"/>
         <source>Decrease volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Lautstärke reduzieren</translation>
     </message>
 </context>
 <context>
