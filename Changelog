@@ -5,6 +5,7 @@
    <arabianheart@live.com>
  * Added some options in menu Play->Speed to increase/decrease the
    speed by 1% and 4%.
+ * Bugfix: the gamma was not remembered. Fixes bug #2073257.
 
 (2008-08-24)
  * Fix: some of the actions passed to -actions may not work as expected
