@@ -1,5 +1,9 @@
 [b]Version 0.6.3[/b]:
 
+(2008-08-25)
+ * Added the Arabic translation, by Muhammad Nour Hajj Omar 
+   <arabianheart@live.com>
+
 (2008-08-24)
  * Fix: some of the actions passed to -actions may not work as expected
    because they might be executed when the video is not playing yet.

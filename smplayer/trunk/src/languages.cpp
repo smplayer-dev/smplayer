@@ -165,6 +165,7 @@ QMap<QString,QString> Languages::list() {
 
 QMap<QString,QString> Languages::translations() {
 	QMap <QString,QString> m;
+	m["ar_SY"] = tr("Arabic");
 	m["bg"] = tr("Bulgarian");
 	m["ca"] = tr("Catalan");
 	m["cs"] = tr("Czech");
