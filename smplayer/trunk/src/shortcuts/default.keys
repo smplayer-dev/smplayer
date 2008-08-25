@@ -27,6 +27,10 @@ halve_speed	{
 double_speed	}
 dec_speed	[
 inc_speed	]
+dec_speed_4	
+inc_speed_4	
+dec_speed_1	
+inc_speed_1	
 fullscreen	F
 compact	Ctrl+C
 video_equalizer	Ctrl+E
@@ -75,6 +79,7 @@ show_mplayer_log	Ctrl+M
 show_smplayer_log	Ctrl+S
 faq	
 cl_options	
+tips	
 about_qt	
 about_smplayer	
 play_next	>
@@ -141,6 +146,7 @@ aspect_14:9
 aspect_16:9	
 aspect_16:10	
 aspect_2.35:1	
+aspect_none	
 rotate_none	
 rotate_clockwise_flip	
 rotate_clockwise	
