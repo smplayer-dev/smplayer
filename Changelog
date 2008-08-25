@@ -6,6 +6,7 @@
  * Added some options in menu Play->Speed to increase/decrease the
    speed by 1% and 4%.
  * Bugfix: the gamma was not remembered. Fixes bug #2073257.
+ * Moved the log's section in Preferences->Advanced to a new tab.
 
 (2008-08-24)
  * Fix: some of the actions passed to -actions may not work as expected
