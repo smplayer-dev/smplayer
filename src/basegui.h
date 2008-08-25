@@ -68,6 +68,9 @@ public:
 	//! true or false.
 	void runActions(QString actions);
 
+	//! Execute all the actions after the video has started to play
+	void runActionsLater(QString actions) { pending_actions_to_run = actions; };
+
 public slots:
 	virtual void open(QString file); // Generic open, autodetect type.
     virtual void openFile();
@@ -149,6 +152,8 @@ protected slots:
 
 	virtual void newMediaLoaded();
 	virtual void updateMediaInfo();
+
+	void checkPendingActionsToRun();
 
 #if AUTODISABLE_ACTIONS
 	virtual void enableActionsOnPlaying();
@@ -554,6 +559,8 @@ protected:
 	MyServer * server;
 
 	QStringList actions_list;
+
+	QString pending_actions_to_run;
 
 private:
 	QString default_style;

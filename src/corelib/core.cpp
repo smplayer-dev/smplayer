@@ -2979,6 +2979,8 @@ void Core::nextOSD() {
 }
 
 void Core::changeRotate(int r) {
+	qDebug("Core::changeRotate: %d", r);
+
 	if (mset.rotate != r) {
 		mset.rotate = r;
 		restartPlay();

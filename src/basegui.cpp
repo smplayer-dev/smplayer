@@ -1444,6 +1444,9 @@ void BaseGui::createCore() {
 	connect( core, SIGNAL(mediaInfoChanged()),
              this, SLOT(updateMediaInfo()) );
 
+	connect( core, SIGNAL(mediaLoaded()),
+             this, SLOT(checkPendingActionsToRun()) );
+
 	connect( core, SIGNAL(failedToParseMplayerVersion(QString)),
              this, SLOT(askForMplayerVersion(QString)) );
 
@@ -3114,6 +3117,15 @@ void BaseGui::runActions(QString actions) {
 		} else {
 			qWarning("BaseGui::runActions: action: '%s' not found",a.toUtf8().data());
 		}
+	}
+}
+
+void BaseGui::checkPendingActionsToRun() {
+	qDebug("BaseGui::checkPendingActionsToRun");
+
+	if (!pending_actions_to_run.isEmpty()) {
+		runActions(pending_actions_to_run);
+		pending_actions_to_run.clear();
 	}
 }
 

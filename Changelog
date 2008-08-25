@@ -1,5 +1,12 @@
 [b]Version 0.6.3[/b]:
 
+(2008-08-24)
+ * Fix: some of the actions passed to -actions may not work as expected
+   because they might be executed when the video is not playing yet.
+   This should now be fixed, as if a file is passed on command line, the
+   actions are not run until the video has started to play. (If there's no
+   file on command line the actions are run immediately)
+
 (2008-08-21)
  * Added a new option in Preferences->General->Audio: "Enable the audio
    equalizer". If this option is checked, the mplayer equalizer filter will
