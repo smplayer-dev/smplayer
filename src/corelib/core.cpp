@@ -1903,7 +1903,7 @@ void Core::wheelUp() {
 		case Preferences::Volume : incVolume(); break;
 		case Preferences::Zoom : incPanscan(); break;
 		case Preferences::Seeking : forward( pref->seeking4 ); break;
-		case Preferences::ChangeSpeed : incSpeed(); break;
+		case Preferences::ChangeSpeed : incSpeed10(); break;
 		default : {} // do nothing
 	}
 }
@@ -1914,7 +1914,7 @@ void Core::wheelDown() {
 		case Preferences::Volume : decVolume(); break;
 		case Preferences::Zoom : decPanscan(); break;
 		case Preferences::Seeking : rewind( pref->seeking4 ); break;
-		case Preferences::ChangeSpeed : decSpeed(); break;
+		case Preferences::ChangeSpeed : decSpeed10(); break;
 		default : {} // do nothing
 	}
 }
@@ -2209,14 +2209,34 @@ void Core::setSpeed( double value ) {
 	tellmp( "speed_set " + QString::number( value ) );
 }
 
-void Core::incSpeed() {
-	qDebug("Core::incSpeed");
+void Core::incSpeed10() {
+	qDebug("Core::incSpeed10");
 	setSpeed( (double) mset.speed + 0.1 );
 }
 
-void Core::decSpeed() {
-	qDebug("Core::decSpeed");
+void Core::decSpeed10() {
+	qDebug("Core::decSpeed10");
 	setSpeed( (double) mset.speed - 0.1 );
+}
+
+void Core::incSpeed4() {
+	qDebug("Core::incSpeed4");
+	setSpeed( (double) mset.speed + 0.04 );
+}
+
+void Core::decSpeed4() {
+	qDebug("Core::decSpeed4");
+	setSpeed( (double) mset.speed - 0.04 );
+}
+
+void Core::incSpeed1() {
+	qDebug("Core::incSpeed1");
+	setSpeed( (double) mset.speed + 0.01 );
+}
+
+void Core::decSpeed1() {
+	qDebug("Core::decSpeed1");
+	setSpeed( (double) mset.speed - 0.01 );
 }
 
 void Core::doubleSpeed() {
