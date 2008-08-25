@@ -320,35 +320,6 @@ void PrefAdvanced::createHelp() {
 	setWhatsThis(monitoraspect_combo, tr("Monitor aspect"),
         tr("Select the aspect ratio of your monitor.") );
 
-	setWhatsThis(log_smplayer_check, tr("Log SMPlayer output"),
-		tr("If this option is checked, smplayer will store the debugging "
-           "messages that smplayer outputs "
-           "(you can see the log in <b>Options->View logs->smplayer</b>). "
-           "This information can be very useful for the developer in case "
-           "you find a bug." ) );
-
-	setWhatsThis(log_mplayer_check, tr("Log MPlayer output"),
-		tr("If checked, smplayer will store the output of mplayer "
-           "(you can see it in <b>Options->View logs->mplayer</b>). "
-           "In case of problems this log can contain important information, "
-           "so it's recommended to keep this option checked.") );
-
-	setWhatsThis(log_mplayer_save_check, tr("Autosave MPlayer log"),
-		tr("If this option is checked, the MPlayer log will be saved to the "
-           "specified file every time a new file starts to play. "
-           "It's intended for external applications, so they can get "
-           "info about the file you're playing.") );
-
-	setWhatsThis(log_mplayer_save_name, tr("Autosave MPlayer log filename"),
- 		tr("Enter here the path and filename that will be used to save the "
-           "MPlayer log.") );
-
-	setWhatsThis(log_filter_edit, tr("Filter for SMPlayer logs"),
-		tr("This option allows to filter the smplayer messages that will "
-           "be stored in the log. Here you can write any regular expression.<br>"
-           "For instance: <i>^Core::.*</i> will display only the lines "
-           "starting with <i>Core::</i>") );
-
 	setWhatsThis(mplayer_use_window_check, tr("Run MPlayer in its own window"),
         tr("If you check this option, the MPlayer video window won't be "
            "embedded in SMPlayer's main window but instead it will use its "
@@ -398,6 +369,38 @@ void PrefAdvanced::createHelp() {
 
 	setWhatsThis(novideo_combo, tr("No video"),
         tr("Select or type a regular expression for 'No video'") );
+
+	addSectionTitle(tr("Logs"));
+
+	setWhatsThis(log_smplayer_check, tr("Log SMPlayer output"),
+		tr("If this option is checked, smplayer will store the debugging "
+           "messages that smplayer outputs "
+           "(you can see the log in <b>Options->View logs->smplayer</b>). "
+           "This information can be very useful for the developer in case "
+           "you find a bug." ) );
+
+	setWhatsThis(log_mplayer_check, tr("Log MPlayer output"),
+		tr("If checked, smplayer will store the output of mplayer "
+           "(you can see it in <b>Options->View logs->mplayer</b>). "
+           "In case of problems this log can contain important information, "
+           "so it's recommended to keep this option checked.") );
+
+	setWhatsThis(log_mplayer_save_check, tr("Autosave MPlayer log"),
+		tr("If this option is checked, the MPlayer log will be saved to the "
+           "specified file every time a new file starts to play. "
+           "It's intended for external applications, so they can get "
+           "info about the file you're playing.") );
+
+	setWhatsThis(log_mplayer_save_name, tr("Autosave MPlayer log filename"),
+ 		tr("Enter here the path and filename that will be used to save the "
+           "MPlayer log.") );
+
+	setWhatsThis(log_filter_edit, tr("Filter for SMPlayer logs"),
+		tr("This option allows to filter the smplayer messages that will "
+           "be stored in the log. Here you can write any regular expression.<br>"
+           "For instance: <i>^Core::.*</i> will display only the lines "
+           "starting with <i>Core::</i>") );
+
 }
 
 #include "moc_prefadvanced.cpp"
