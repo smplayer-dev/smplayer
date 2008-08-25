@@ -870,7 +870,9 @@ void Core::finishRestart() {
 	if (isMuted) mute(TRUE);
 
 	if (pref->change_video_equalizer_on_startup && (mset.gamma != 0)) {
-		setGamma( mset.gamma );
+		int gamma = mset.gamma;
+		mset.gamma = -1000; // if mset.gamma == new value, mset.gamma is not changed!
+		setGamma( gamma );
 	}
 	// Hack to be sure that the equalizers are up to date
 	emit videoEqualizerNeedsUpdate();
