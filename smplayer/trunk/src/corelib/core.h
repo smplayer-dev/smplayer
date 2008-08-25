@@ -149,8 +149,12 @@ public slots:
 	void wheelDown();
 
 	void setSpeed( double value );
-	void incSpeed();
-	void decSpeed();
+	void incSpeed10();	//!< Inc speed 10%
+	void decSpeed10();	//!< Dec speed 10%
+	void incSpeed4();	//!< Inc speed 4%
+	void decSpeed4();	//!< Dec speed 4%
+	void incSpeed1();	//!< Inc speed 1%
+	void decSpeed1();	//!< Dec speed 1%
 	void doubleSpeed();
 	void halveSpeed();
 	void normalSpeed();

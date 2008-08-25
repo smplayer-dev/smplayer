@@ -320,8 +320,12 @@ protected:
 	MyAction * normalSpeedAct;
 	MyAction * halveSpeedAct;
 	MyAction * doubleSpeedAct;
-	MyAction * decSpeedAct;
-	MyAction * incSpeedAct;
+	MyAction * decSpeed10Act;
+	MyAction * incSpeed10Act;
+	MyAction * decSpeed4Act;
+	MyAction * incSpeed4Act;
+	MyAction * decSpeed1Act;
+	MyAction * incSpeed1Act;
 
 	// Menu Video
 	MyAction * fullscreenAct;
