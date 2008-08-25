@@ -819,7 +819,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1260"/>
         <source>&amp;Aspect ratio</source>
-        <translation>Rácio de &amp;Aspecto (Proporção)</translation>
+        <translation>Tamanho do &amp;Vídeo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2222"/>
@@ -1586,7 +1586,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="1277"/>
         <source>&amp;Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Auto</translation>
     </message>
 </context>
 <context>
@@ -2291,7 +2291,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../infofile.cpp" line="102"/>
         <source>Aspect ratio</source>
-        <translation>Rácio de aspecto (Proporção)</translation>
+        <translation>Tamanho do Vídeo</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="112"/>
@@ -4735,17 +4735,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="575"/>
         <source>Enable the audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Activar equalizador áudio</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="576"/>
         <source>Check this option if you want to use the audio equalizer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Marque esta opção para usar o edualizador áudio.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="650"/>
         <source>&amp;Enable the audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Activar &amp;equalizador áudio</translation>
     </message>
 </context>
 <context>
@@ -5043,12 +5043,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="65"/>
         <source>Increase volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Aumentar volume</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="66"/>
         <source>Decrease volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Diminuir volume</translation>
     </message>
 </context>
 <context>
@@ -5186,7 +5186,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="92"/>
         <source>&lt;Autodetect&gt;</source>
-        <translation>&lt;Autodetectar&gt;</translation>
+        <translation>&lt;Autor&gt;</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="144"/>
@@ -5311,7 +5311,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="102"/>
         <source>R&amp;emember position and size</source>
-        <translation>L&amp;embrar posição e tamanho</translation>
+        <translation>L&amp;embrar posição e tamanho de vídeo</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="353"/>
@@ -5376,7 +5376,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="431"/>
         <source>Remember position and size</source>
-        <translation>Lembrar posição e tamanho</translation>
+        <translation>Lembrar posição e tamanho de vídeo</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="433"/>
@@ -5531,7 +5531,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="490"/>
         <source>Automatic port</source>
-        <translation>Porta Automática<byte value="x9"/></translation>
+        <translation>Porta Automática</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="493"/>
