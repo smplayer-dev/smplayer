@@ -275,7 +275,13 @@ void SMPlayer::start() {
 		gui()->openFiles(files_to_play);
 	}
 
-	if (!actions_list.isEmpty()) gui()->runActions(actions_list);
+	if (!actions_list.isEmpty()) {
+		if (files_to_play.isEmpty()) {
+			gui()->runActions(actions_list);
+		} else {
+			gui()->runActionsLater(actions_list);
+		}
+	}
 }
 
 #ifndef PORTABLE_APP
