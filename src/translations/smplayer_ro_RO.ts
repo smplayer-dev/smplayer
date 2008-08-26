@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -290,7 +291,7 @@
     <message>
         <location filename="../about.cpp" line="181"/>
         <source>Arabic</source>
-        <translation type="unfinished">Arabă</translation>
+        <translation>Arabă</translation>
     </message>
 </context>
 <context>
@@ -525,7 +526,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1071"/>
         <source>&amp;Playlist...</source>
-        <translation>&amp;Listă_titluri...</translation>
+        <translation>&amp;Listă de titluri...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1074"/>
@@ -545,7 +546,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1271"/>
         <source>&amp;Clear</source>
-        <translation>Ș&amp;tergere_listă</translation>
+        <translation>Ș&amp;tergere listă</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1269"/>
@@ -585,7 +586,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1106"/>
         <source>&amp;Double speed</source>
-        <translation>Viteză &amp;Dublă</translation>
+        <translation>Viteză D&amp;ublă</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1107"/>
@@ -870,7 +871,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1244"/>
         <source>Time + T&amp;otal time</source>
-        <translation>Durată + &amp;Durată totală</translation>
+        <translation>D&amp;urată + Durată totală</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1373"/>
@@ -1392,27 +1393,27 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
     <message>
         <location filename="../basegui.cpp" line="1301"/>
         <source>&amp;Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Auto</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1109"/>
         <source>Speed -&amp;4%</source>
-        <translation type="unfinished"></translation>
+        <translation>Viteză -&amp;4%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1110"/>
         <source>&amp;Speed +4%</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Viteză +4%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1111"/>
         <source>Speed -&amp;1%</source>
-        <translation type="unfinished"></translation>
+        <translation>Viteză -&amp;1%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1112"/>
         <source>S&amp;peed +1%</source>
-        <translation type="unfinished"></translation>
+        <translation>Vite&amp;ză +1%</translation>
     </message>
 </context>
 <context>
@@ -1521,7 +1522,7 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
     <message>
         <location filename="../defaultgui.cpp" line="374"/>
         <source>&amp;Toolbars</source>
-        <translation>B&amp;are_unelte</translation>
+        <translation>B&amp;are de unelte</translation>
     </message>
 </context>
 <context>
@@ -4429,17 +4430,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="575"/>
         <source>Enable the audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Activare egalizor audio</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="576"/>
         <source>Check this option if you want to use the audio equalizer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bifați această opțiune dacă doriți să utilizați egalizorul audio.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="650"/>
         <source>&amp;Enable the audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Activare &amp;egalizor audio</translation>
     </message>
 </context>
 <context>
@@ -4627,7 +4628,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="73"/>
         <source>Playlist</source>
-        <translation>Listă_Titluri</translation>
+        <translation>Listă de Titluri</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="78"/>
@@ -4737,12 +4738,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="65"/>
         <source>Increase volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Mai tare</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="66"/>
         <source>Decrease volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Mai încet</translation>
     </message>
 </context>
 <context>
