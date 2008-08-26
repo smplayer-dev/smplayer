@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="nl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -290,7 +291,7 @@
     <message>
         <location filename="../about.cpp" line="181"/>
         <source>Arabic</source>
-        <translation type="unfinished">Arabisch</translation>
+        <translation>Arabisch</translation>
     </message>
 </context>
 <context>
@@ -1625,22 +1626,22 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="1109"/>
         <source>Speed -&amp;4%</source>
-        <translation type="unfinished"></translation>
+        <translation>Snelheid -&amp;4%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1110"/>
         <source>&amp;Speed +4%</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Snelheid +4%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1111"/>
         <source>Speed -&amp;1%</source>
-        <translation type="unfinished"></translation>
+        <translation>Snelheid -&amp;1%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1112"/>
         <source>S&amp;peed +1%</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;nelheid +1%</translation>
     </message>
 </context>
 <context>
