@@ -28,6 +28,10 @@
 #include "floatingwidget.h"
 #include "toolbareditor.h"
 
+#if DOCK_PLAYLIST
+#include "playlistdock.h"
+#endif
+
 #include <QMenu>
 #include <QToolBar>
 #include <QSettings>
@@ -656,7 +660,13 @@ void DefaultGui::loadConfig() {
 #endif
 
 	restoreState( set->value( "toolbars_state" ).toByteArray(), Helper::qtVersion() );
-	
+
+#if DOCK_PLAYLIST
+	qDebug("DefaultGui::loadConfig: playlist visible: %d", playlistdock->isVisible());
+	qDebug("DefaultGui::loadConfig: playlist position: %d, %d", playlistdock->pos().x(), playlistdock->pos().y());
+	qDebug("DefaultGui::loadConfig: playlist size: %d x %d", playlistdock->size().width(), playlistdock->size().height());
+#endif
+
 	set->endGroup();
 		
 	updateWidgets();

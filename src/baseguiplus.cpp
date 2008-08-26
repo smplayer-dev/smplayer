@@ -435,6 +435,11 @@ void BaseGuiPlus::aboutToExitCompactMode() {
 
 #if DOCK_PLAYLIST
 void BaseGuiPlus::showPlaylist(bool b) {
+	qDebug("BaseGuiPlus::showPlaylist: %d", b);
+	qDebug("BaseGuiPlus::showPlaylist (before): playlist visible: %d", playlistdock->isVisible());
+	qDebug("BaseGuiPlus::showPlaylist (before): playlist position: %d, %d", playlistdock->pos().x(), playlistdock->pos().y());
+	qDebug("BaseGuiPlus::showPlaylist (before): playlist size: %d x %d", playlistdock->size().width(), playlistdock->size().height());
+
 	if ( !b ) {
 		playlistdock->hide();
 	} else {
@@ -442,6 +447,11 @@ void BaseGuiPlus::showPlaylist(bool b) {
 		playlistdock->show();
 	}
 	//updateWidgets();
+
+	qDebug("BaseGuiPlus::showPlaylist (after): playlist visible: %d", playlistdock->isVisible());
+	qDebug("BaseGuiPlus::showPlaylist (after): playlist position: %d, %d", playlistdock->pos().x(), playlistdock->pos().y());
+	qDebug("BaseGuiPlus::showPlaylist (after): playlist size: %d x %d", playlistdock->size().width(), playlistdock->size().height());
+
 }
 
 void BaseGuiPlus::playlistClosed() {
