@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -290,7 +291,7 @@
     <message>
         <location filename="../about.cpp" line="181"/>
         <source>Arabic</source>
-        <translation type="unfinished"></translation>
+        <translation>Арабский</translation>
     </message>
 </context>
 <context>
@@ -1393,27 +1394,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1301"/>
         <source>&amp;Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Авто</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1109"/>
         <source>Speed -&amp;4%</source>
-        <translation type="unfinished"></translation>
+        <translation>Скорость &amp;–4%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1110"/>
         <source>&amp;Speed +4%</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Скорость +4%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1111"/>
         <source>Speed -&amp;1%</source>
-        <translation type="unfinished"></translation>
+        <translation>Скорость &amp;–1%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1112"/>
         <source>S&amp;peed +1%</source>
-        <translation type="unfinished"></translation>
+        <translation>С&amp;корость +1%</translation>
     </message>
 </context>
 <context>
@@ -4430,17 +4431,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="575"/>
         <source>Enable the audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить аудиоэквалайзер</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="576"/>
         <source>Check this option if you want to use the audio equalizer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Отметьте эту опцию, если хотите использовать аудиоэквалайзер.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="650"/>
         <source>&amp;Enable the audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить &amp;аудиоэквалайзер</translation>
     </message>
 </context>
 <context>
@@ -4738,12 +4739,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="65"/>
         <source>Increase volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Увеличить громкость</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="66"/>
         <source>Decrease volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Уменьшить громкость</translation>
     </message>
 </context>
 <context>
