@@ -257,6 +257,9 @@ void Preferences::reset() {
 	hide_video_window_on_audio_files = true;
 #endif
 
+	report_mplayer_crashes = true;
+
+
 	vcd_initial_title = 2; // Most VCD's start at title #2
 
 	initial_sub_scale = 5;
@@ -484,6 +487,8 @@ void Preferences::save() {
 #if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
 	set->setValue("hide_video_window_on_audio_files", hide_video_window_on_audio_files);
 #endif
+
+	set->setValue("report_mplayer_crashes", report_mplayer_crashes);
 
     //mplayer log autosaving
     set->setValue("autosave_mplayer_log", autosave_mplayer_log);
@@ -734,6 +739,8 @@ void Preferences::load() {
 #if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
 	hide_video_window_on_audio_files = set->value("hide_video_window_on_audio_files", hide_video_window_on_audio_files).toBool();
 #endif
+
+	report_mplayer_crashes = set->value("report_mplayer_crashes", report_mplayer_crashes).toBool();
 
     //mplayer log autosaving
     autosave_mplayer_log = set->value("autosave_mplayer_log", autosave_mplayer_log).toBool();
