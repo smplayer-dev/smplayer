@@ -265,6 +265,8 @@ public:
 	bool hide_video_window_on_audio_files;
 #endif
 
+	bool report_mplayer_crashes;
+
 	// Initial values for some options
 	double initial_sub_scale;
 #if SCALE_ASS_SUBS

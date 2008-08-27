@@ -3747,6 +3747,11 @@ void BaseGui::askForMplayerVersion(QString line) {
 void BaseGui::showExitCodeFromMplayer(int exit_code) {
 	qDebug("BaseGui::showExitCodeFromMplayer: %d", exit_code);
 
+	if (!pref->report_mplayer_crashes) {
+		qDebug("BaseGui::showExitCodeFromMplayer: not displaying error dialog");
+		return;
+	}
+
 	if (exit_code != 255 ) {
 		ErrorDialog d(this);
 		d.setText(tr("MPlayer has finished unexpectedly.") + " " + 
@@ -3757,6 +3762,13 @@ void BaseGui::showExitCodeFromMplayer(int exit_code) {
 }
 
 void BaseGui::showErrorFromMplayer(QProcess::ProcessError e) {
+	qDebug("BaseGui::showErrorFromMplayer");
+
+	if (!pref->report_mplayer_crashes) {
+		qDebug("showErrorFromMplayer: not displaying error dialog");
+		return;
+	}
+
 	if ((e == QProcess::FailedToStart) || (e == QProcess::Crashed)) {
 		ErrorDialog d(this);
 		if (e == QProcess::FailedToStart) {

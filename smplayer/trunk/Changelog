@@ -1,5 +1,10 @@
 [b]Version 0.6.3[/b]:
 
+(2008-08-26)
+ * Added a new option for smplayer.ini: report_mplayer_crashes. If set to
+   false, smplayer won't display the error dialog when mplayer crashes or
+   fails to start.
+
 (2008-08-25)
  * Added the Arabic translation, by Muhammad Nour Hajj Omar 
    <arabianheart@live.com>
