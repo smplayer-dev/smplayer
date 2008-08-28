@@ -1,5 +1,9 @@
 [b]Version 0.6.3[/b]:
 
+(2008-08-28)
+ * Set the frame counter to 0 when starting to play a file. Fixes bug
+   #2080802.
+
 (2008-08-26)
  * Added a new option for smplayer.ini: report_mplayer_crashes. If set to
    false, smplayer won't display the error dialog when mplayer crashes or
