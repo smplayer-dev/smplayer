@@ -66,7 +66,7 @@
     <message>
         <location filename="../about.cpp" line="144"/>
         <source>Slovak</source>
-        <translation>Slowenisch</translation>
+        <translation>Slowakisch</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="145"/>
@@ -3364,12 +3364,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlistpreferences.cpp" line="32"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation>Mit dieser Option werden Dateien auch in Unterverzeichnissen rekrusiv hinzugefügt. Ansonsten nur zum ausgewählten Verzeichnis.</translation>
+        <translation>Mit dieser Option werden Dateien auch in Unterverzeichnissen rekursiv hinzugefügt. Ansonsten nur zum ausgewählten Verzeichnis.</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="32"/>
         <source>&amp;Add files in directories recursively</source>
-        <translation>&amp;Dateien rekrusiv in Verzeichnisse einfügen</translation>
+        <translation>&amp;Dateien rekursiv in Verzeichnisse einfügen</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.cpp" line="39"/>
