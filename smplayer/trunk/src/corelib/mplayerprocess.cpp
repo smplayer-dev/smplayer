@@ -155,6 +155,9 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			qDebug("MplayerProcess::parseLine: starting sec: %f", sec);
 			emit receivedStartingTime(sec);
 			emit mplayerFullyLoaded();
+
+			emit receivedCurrentFrame(0); // Ugly hack: set the frame counter to 0
+
 			notified_mplayer_is_running = true;
 		}
 		
