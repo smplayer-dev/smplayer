@@ -176,6 +176,35 @@
         </widget>
        </item>
        <item>
+        <widget class="QGroupBox" name="internet_connection_groupbox" >
+         <property name="title" >
+          <string>Network Connection</string>
+         </property>
+         <layout class="QVBoxLayout" >
+          <property name="margin" >
+           <number>9</number>
+          </property>
+          <property name="spacing" >
+           <number>6</number>
+          </property>
+          <item>
+           <widget class="QRadioButton" name="ipv4_button" >
+            <property name="text" >
+             <string>IPv&amp;4</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="ipv6_button" >
+            <property name="text" >
+             <string>IPv&amp;6</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
         <spacer>
          <property name="orientation" >
           <enum>Qt::Vertical</enum>

@@ -267,6 +267,9 @@ public:
 
 	bool report_mplayer_crashes;
 
+	//! Preferred connection method: ipv4 or ipv6
+	bool prefer_ipv4;
+
 	// Initial values for some options
 	double initial_sub_scale;
 #if SCALE_ASS_SUBS

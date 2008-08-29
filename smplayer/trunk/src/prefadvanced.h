@@ -79,6 +79,9 @@ protected:
 	unsigned int colorKey();
 #endif
 
+	void setPreferIpv4(bool b);
+	bool preferIpv4();
+
 	// Log options
 	void setLogMplayer(bool b);
 	bool logMplayer();

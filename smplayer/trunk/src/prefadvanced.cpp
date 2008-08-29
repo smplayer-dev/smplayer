@@ -99,6 +99,7 @@ void PrefAdvanced::setData(Preferences * pref) {
 #if USE_COLORKEY
 	setColorKey( pref->color_key );
 #endif
+	setPreferIpv4( pref->prefer_ipv4 );
 
 	setLogMplayer( pref->log_mplayer );
 	setLogSmplayer( pref->log_smplayer );
@@ -120,6 +121,7 @@ void PrefAdvanced::getData(Preferences * pref) {
 #if USE_COLORKEY
 	colorkey_changed = false;
 #endif
+	pref->prefer_ipv4 = preferIpv4();
 
 	if (pref->monitor_aspect != monitorAspect()) {
 		pref->monitor_aspect = monitorAspect();
@@ -241,6 +243,18 @@ unsigned int PrefAdvanced::colorKey() {
 }
 #endif
 
+void PrefAdvanced::setPreferIpv4(bool b) {
+	if (b) 
+		ipv4_button->setChecked(true);
+	else 
+		ipv6_button->setChecked(true);
+}
+
+bool PrefAdvanced::preferIpv4() {
+	return ipv4_button->isChecked();
+}
+
+
 void PrefAdvanced::on_changeButton_clicked() {
 	//bool ok;
 	//int color = colorkey_view->text().toUInt(&ok, 16);
@@ -347,6 +361,13 @@ void PrefAdvanced::createHelp() {
            "change the colorkey to fix it. Try to select a color close to "
            "black.") );
 #endif
+
+	setWhatsThis(ipv4_button, tr("IPv4"),
+		tr("Use IPv4 on network connections. Falls back on IPv6 automatically."));
+
+	setWhatsThis(ipv6_button, tr("IPv6"),
+		tr("Use IPv6 on network connections. Falls back on IPv4 automatically."));
+
 
 	addSectionTitle(tr("Options for MPlayer"));
 
