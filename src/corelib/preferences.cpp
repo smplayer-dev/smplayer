@@ -259,6 +259,8 @@ void Preferences::reset() {
 
 	report_mplayer_crashes = true;
 
+	prefer_ipv4 = true;
+
 
 	vcd_initial_title = 2; // Most VCD's start at title #2
 
@@ -489,6 +491,8 @@ void Preferences::save() {
 #endif
 
 	set->setValue("report_mplayer_crashes", report_mplayer_crashes);
+
+	set->setValue("prefer_ipv4", prefer_ipv4);
 
     //mplayer log autosaving
     set->setValue("autosave_mplayer_log", autosave_mplayer_log);
@@ -741,6 +745,8 @@ void Preferences::load() {
 #endif
 
 	report_mplayer_crashes = set->value("report_mplayer_crashes", report_mplayer_crashes).toBool();
+
+	prefer_ipv4 = set->value("prefer_ipv4", prefer_ipv4).toBool();
 
     //mplayer log autosaving
     autosave_mplayer_log = set->value("autosave_mplayer_log", autosave_mplayer_log).toBool();

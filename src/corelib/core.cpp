@@ -1526,6 +1526,14 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument("-idx");
 	}
 
+	if (mdat.type == TYPE_STREAM) {
+		if (pref->prefer_ipv4) {
+			proc->addArgument("-prefer-ipv4");
+		} else {
+			proc->addArgument("-prefer-ipv6");
+		}
+	}
+
 	// Video filters:
 	// Phase
 	if (mset.phase_filter) {

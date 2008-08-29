@@ -3,6 +3,8 @@
 (2008-08-28)
  * Set the frame counter to 0 when starting to play a file. Fixes bug
    #2080802.
+ * Added in Preferences->Advanced an option to select the preferred network
+   connection, IPv4 or IPv6. (IPv4 is the default)
 
 (2008-08-26)
  * Added a new option for smplayer.ini: report_mplayer_crashes. If set to
