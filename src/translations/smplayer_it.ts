@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="it">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -275,17 +276,17 @@
     <message>
         <location filename="../about.cpp" line="60"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Qt %1 in uso (compilato con Qt %2)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="180"/>
         <source>Slovenian</source>
-        <translation type="unfinished">Sloveno</translation>
+        <translation>Sloveno</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="181"/>
         <source>Arabic</source>
-        <translation type="unfinished">Arabo</translation>
+        <translation>Arabo</translation>
     </message>
 </context>
 <context>
@@ -1369,42 +1370,42 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="1175"/>
         <source>Find subtitles on &amp;OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>Trova sottotitoli su &amp;Opensubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1176"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>Upload sottotitoli su &amp;Opensubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1194"/>
         <source>&amp;Tips</source>
-        <translation type="unfinished"></translation>
+        <translation>Suggerimen&amp;ti</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1301"/>
         <source>&amp;Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Automatico</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1109"/>
         <source>Speed -&amp;4%</source>
-        <translation type="unfinished"></translation>
+        <translation>Velocità -&amp;4%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1110"/>
         <source>&amp;Speed +4%</source>
-        <translation type="unfinished"></translation>
+        <translation>Velocità +&amp;4%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1111"/>
         <source>Speed -&amp;1%</source>
-        <translation type="unfinished"></translation>
+        <translation>Velocità -&amp;1%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1112"/>
         <source>S&amp;peed +1%</source>
-        <translation type="unfinished"></translation>
+        <translation>Velocità &amp;+1%</translation>
     </message>
 </context>
 <context>
@@ -1886,107 +1887,107 @@ Esempio:resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="133"/>
         <source>Language</source>
-        <translation type="unfinished">Lingua</translation>
+        <translation>Lingua</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="133"/>
         <source>Name</source>
-        <translation type="unfinished">Nome</translation>
+        <translation>Nome</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Format</source>
-        <translation type="unfinished">Formato</translation>
+        <translation>Formato</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Files</source>
-        <translation type="unfinished">Files</translation>
+        <translation>Files</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Date</source>
-        <translation type="unfinished">Data</translation>
+        <translation>Data</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Uploaded by</source>
-        <translation type="unfinished">Caricato da</translation>
+        <translation>Caricato da</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="150"/>
         <source>All</source>
-        <translation type="unfinished">Tutti</translation>
+        <translation>Tutti</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="156"/>
         <source>Close</source>
-        <translation type="unfinished">Chiudi</translation>
+        <translation>Chiudi</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="99"/>
         <source>&amp;Download</source>
-        <translation type="unfinished">&amp;Scarica</translation>
+        <translation>&amp;Scarica</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="161"/>
         <source>&amp;Copy link to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Copia link negli appunti</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="215"/>
         <source>Error</source>
-        <translation type="unfinished">Errore</translation>
+        <translation>Errore</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="217"/>
         <source>Download failed: %1.</source>
-        <translation type="unfinished">Scaricamento fallito: %1</translation>
+        <translation>Scaricamento fallito: %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="221"/>
         <source>Connecting to %1...</source>
-        <translation type="unfinished">Connessione a: %1...</translation>
+        <translation>Connessione a  %1...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="227"/>
         <source>Downloading...</source>
-        <translation type="unfinished">Scaricamento...</translation>
+        <translation>Scaricamento...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
         <source>Done.</source>
-        <translation type="unfinished">Fatto.</translation>
+        <translation>Fatto.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="281"/>
         <source>%1 files available</source>
-        <translation type="unfinished">%1 file disponibili</translation>
+        <translation>%1 file disponibili</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="290"/>
         <source>Failed to parse the received data.</source>
-        <translation type="unfinished">Lettura dei dati ricevuti fallita.</translation>
+        <translation>Lettura dei dati ricevuti fallita.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="13"/>
         <source>Find Subtitles</source>
-        <translation type="unfinished">Trova sottotitoli</translation>
+        <translation>Trova sottotitoli</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="33"/>
         <source>&amp;Subtitles for</source>
-        <translation type="unfinished">&amp;Sottotitoli per</translation>
+        <translation>&amp;Sottotitoli per</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="56"/>
         <source>&amp;Language:</source>
-        <translation type="unfinished">&amp;Lingua:</translation>
+        <translation>&amp;Lingua:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="89"/>
         <source>&amp;Refresh</source>
-        <translation type="unfinished">Aggio&amp;rna</translation>
+        <translation>Aggio&amp;rna</translation>
     </message>
 </context>
 <context>
@@ -3367,7 +3368,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../playlistpreferences.ui" line="25"/>
         <source>&amp;Play files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>Ri&amp;produci file dall&apos;inizio</translation>
     </message>
 </context>
 <context>
@@ -3682,12 +3683,12 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefadvanced.cpp" line="361"/>
         <source>Repaint the background of the video window</source>
-        <translation type="unfinished"></translation>
+        <translation>Ridisegna lo sfondo della finestra video</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="199"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
-        <translation type="unfinished"></translation>
+        <translation>Ridisegna lo sfon&amp;do della finestra video</translation>
     </message>
 </context>
 <context>
@@ -4297,7 +4298,7 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
         <location filename="../prefgeneral.ui" line="774"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="708"/>
@@ -4397,32 +4398,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="509"/>
         <source>Remember time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Ricorda posizione temporale</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="211"/>
         <source>Remember &amp;time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Ricorda posizione &amp;temporale</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="542"/>
         <source>Change volume just before p&amp;laying</source>
-        <translation type="unfinished"></translation>
+        <translation>Cambia il volume appena prima di iniziare la riproduzione</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="575"/>
         <source>Enable the audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Abilita equalizzatore audio</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="576"/>
         <source>Check this option if you want to use the audio equalizer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleziona questa opzione se vuoi usare l&apos;equalizzatore audio.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="650"/>
         <source>&amp;Enable the audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Abilita &amp;equalizzatore audio</translation>
     </message>
 </context>
 <context>
@@ -4720,12 +4721,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="65"/>
         <source>Increase volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Alza volume</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="66"/>
         <source>Decrease volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Abbassa volume</translation>
     </message>
 </context>
 <context>
@@ -5208,32 +5209,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="490"/>
         <source>Automatic port</source>
-        <translation type="unfinished"></translation>
+        <translation>Porta automatica</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="493"/>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. If you select this option, a port will be automatically chosen.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer deve essere in ascolto su una porta per ricevere comandi da altre istanze. Selezionando questa opzione, ne sarà scelta una automaticamente.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="495"/>
         <source>Manual port</source>
-        <translation type="unfinished"></translation>
+        <translation>Porta manuale</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="558"/>
         <source>Port to listen</source>
-        <translation type="unfinished"></translation>
+        <translation>Porta in ascolto</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="570"/>
         <source>&amp;Automatic</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Automatico</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="585"/>
         <source>&amp;Manual</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Manuale</translation>
     </message>
 </context>
 <context>
@@ -5521,32 +5522,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="307"/>
         <source>Cache for audio CDs</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache per audio CD</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="309"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
-        <translation type="unfinished"></translation>
+        <translation>Questa opzione specifica quanta memoria (in kByte) usare in fase di precaching di un CD audio.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="495"/>
         <source>Cache for &amp;audio CDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache per &amp;audio CD</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="311"/>
         <source>Cache for VCDs</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache per i VCD</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="313"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
-        <translation type="unfinished"></translation>
+        <translation>Questa opzione specifica quanta memoria (in kByte) usare in fase di precaching di un VCD.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="539"/>
         <source>Cache for &amp;VCDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache per i &amp;VCD:</translation>
     </message>
 </context>
 <context>
@@ -6050,12 +6051,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="96"/>
         <source>subtitle_file</source>
-        <translation type="unfinished"></translation>
+        <translation>subtitle_file</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="151"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
-        <translation type="unfinished"></translation>
+        <translation>specifica il file dei sottotitoli da caricare per il primo video.</translation>
     </message>
 </context>
 <context>
