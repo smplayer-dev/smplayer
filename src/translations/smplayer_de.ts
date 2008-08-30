@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -3714,42 +3715,42 @@ Die Auswahl-Liste enthält evt.schon die regulären Ausdrücke.</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="365"/>
         <source>IPv4</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv4</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="366"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>Benutze IPv4 Netzwerk-Verbindungen. Fällt automatisch auf IPv6 zurück.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="368"/>
         <source>IPv6</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv6</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="369"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>Benutze IPv6 Netzwerk-Verbindungen. Fällt automatisch auf IPv4 zurück.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="181"/>
         <source>Network Connection</source>
-        <translation type="unfinished"></translation>
+        <translation>Netzwerk-Verbindung</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="193"/>
         <source>IPv&amp;4</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv&amp;4</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="200"/>
         <source>IPv&amp;6</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv&amp;6</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="516"/>
         <source>Lo&amp;gs</source>
-        <translation type="unfinished"></translation>
+        <translation>Lo&amp;gs</translation>
     </message>
 </context>
 <context>
