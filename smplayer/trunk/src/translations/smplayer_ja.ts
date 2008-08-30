@@ -1271,32 +1271,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ビデオ イコライザーのリセット</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3752"/>
+        <location filename="../basegui.cpp" line="3757"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer は予期せず終了しています。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3753"/>
+        <location filename="../basegui.cpp" line="3758"/>
         <source>Exit code: %1</source>
         <translation>終了コード: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3763"/>
+        <location filename="../basegui.cpp" line="3775"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer が起動に失敗しました。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3764"/>
+        <location filename="../basegui.cpp" line="3776"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>環境設定で MPlayer のパスをチェックしてください。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3766"/>
+        <location filename="../basegui.cpp" line="3778"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer はクラッシュしています。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3767"/>
+        <location filename="../basegui.cpp" line="3779"/>
         <source>See the log for more info.</source>
         <translation>さらなる情報はログをご覧ください。</translation>
     </message>
@@ -1447,42 +1447,42 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../corelib/core.cpp" line="2100"/>
+        <location filename="../corelib/core.cpp" line="2110"/>
         <source>Brightness: %1</source>
         <translation>明るさ: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2115"/>
+        <location filename="../corelib/core.cpp" line="2125"/>
         <source>Contrast: %1</source>
         <translation>コントラスト: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2129"/>
+        <location filename="../corelib/core.cpp" line="2139"/>
         <source>Gamma: %1</source>
         <translation>ガンマ: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2143"/>
+        <location filename="../corelib/core.cpp" line="2153"/>
         <source>Hue: %1</source>
         <translation>色合い: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2157"/>
+        <location filename="../corelib/core.cpp" line="2167"/>
         <source>Saturation: %1</source>
         <translation>鮮やかさ: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2277"/>
+        <location filename="../corelib/core.cpp" line="2287"/>
         <source>Volume: %1</source>
         <translation>音量: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="3032"/>
+        <location filename="../corelib/core.cpp" line="3042"/>
         <source>Zoom: %1</source>
         <translation>拡大率: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2396"/>
+        <location filename="../corelib/core.cpp" line="2406"/>
         <source>Font scale: %1</source>
         <translation>フォント スケール: %1</translation>
     </message>
@@ -1490,32 +1490,32 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="360"/>
+        <location filename="../defaultgui.cpp" line="364"/>
         <source>Welcome to SMPlayer</source>
         <translation>SMPlayer へようこそ</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="383"/>
+        <location filename="../defaultgui.cpp" line="387"/>
         <source>Audio</source>
         <translation>オーディオ</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="384"/>
+        <location filename="../defaultgui.cpp" line="388"/>
         <source>Subtitle</source>
         <translation>字幕</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="377"/>
+        <location filename="../defaultgui.cpp" line="381"/>
         <source>&amp;Main toolbar</source>
         <translation>メイン ツール バー(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="380"/>
+        <location filename="../defaultgui.cpp" line="384"/>
         <source>&amp;Language toolbar</source>
         <translation>言語ツール バー(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="374"/>
+        <location filename="../defaultgui.cpp" line="378"/>
         <source>&amp;Toolbars</source>
         <translation>ツール バー(&amp;T)</translation>
     </message>
@@ -3402,7 +3402,7 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefAdvanced</name>
     <message>
-        <location filename="../prefadvanced.cpp" line="318"/>
+        <location filename="../prefadvanced.cpp" line="332"/>
         <source>Advanced</source>
         <translation>詳細設定</translation>
     </message>
@@ -3417,37 +3417,37 @@ Do you want to overwrite?</source>
         <translation type="obsolete">ビデオ ウィンドウの背景を再描画しない</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="363"/>
+        <location filename="../prefadvanced.cpp" line="348"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
         <translation>このオプションのチェックはちらつきを減少させる可能性がありますが、ビデオが適切に表示されなくなることを生む可能性もあります。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="330"/>
+        <location filename="../prefadvanced.cpp" line="403"/>
         <source>Log MPlayer output</source>
         <translation>MPlayer の出力を記録します</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="334"/>
+        <location filename="../prefadvanced.cpp" line="407"/>
         <source>If checked, smplayer will store the output of mplayer (you can see it in &lt;b&gt;Options-&gt;View logs-&gt;mplayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
         <translation>チェックされている場合、smplayer は mplayer の出力 (&lt;b&gt;オプション-&gt;ログの表示-&gt;mplayer&lt;/b&gt; でご覧になれます) を格納します。このログは重要な情報を含むことがあるので、このオプションのチェックを維持することが推奨されます。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="323"/>
+        <location filename="../prefadvanced.cpp" line="396"/>
         <source>Log SMPlayer output</source>
         <translation>SMPlayer の出力を記録します</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="328"/>
+        <location filename="../prefadvanced.cpp" line="401"/>
         <source>If this option is checked, smplayer will store the debugging messages that smplayer outputs (you can see the log in &lt;b&gt;Options-&gt;View logs-&gt;smplayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
         <translation>このオプションがチェックされている場合、smplayer は smplayer が出力するデバッグ メッセージ (&lt;b&gt;オプション-&gt;ログの表示-&gt;smplayer&lt;/b&gt; でご覧できます) を格納します。この情報はバグを検索する場合の開発者に非常に有用です。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="346"/>
+        <location filename="../prefadvanced.cpp" line="419"/>
         <source>Filter for SMPlayer logs</source>
         <translation>SMPlayer のログのフィルター</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="350"/>
+        <location filename="../prefadvanced.cpp" line="423"/>
         <source>This option allows to filter the smplayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>このオプションはログに格納される smplayer のメッセージのフィルターを許可します。ここでは何か正規表現を書き込むことができます。&lt;br&gt;例: &lt;i&gt;^Core::.*&lt;/i&gt; では &lt;i&gt;Core::&lt;/i&gt; で始まる行のみが表示されます</translation>
     </message>
@@ -3462,7 +3462,7 @@ Do you want to overwrite?</source>
         <translation>icon</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="300"/>
+        <location filename="../prefadvanced.ui" line="239"/>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
@@ -3471,7 +3471,7 @@ Example: -flip -nosound</source>
 例: -flip -nosound</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="362"/>
+        <location filename="../prefadvanced.ui" line="301"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
@@ -3480,24 +3480,24 @@ Example: scale=512:-2,eq2=1.1</source>
 例: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="424"/>
+        <location filename="../prefadvanced.ui" line="363"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
         <translation>そして最後はオーディオ フィルターです。ビデオ フィルターと同じ規則です。
 例: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="163"/>
+        <location filename="../prefadvanced.ui" line="577"/>
         <source>This option is mainly intended for debugging the application.</source>
         <translation>このオプションは主にアプリケーションのデバッグが対象です。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="478"/>
+        <location filename="../prefadvanced.ui" line="417"/>
         <source>&amp;MPlayer language</source>
         <translation>MPlayer の言語(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="490"/>
+        <location filename="../prefadvanced.ui" line="429"/>
         <source>SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br&gt;&lt;br&gt;
 The drop-down lists may provide already made regular expression for several languages.</source>
         <translation>SMPlayer は MPlayer の出力の読み取りと解析を必要としときどき英語のテキストを頼りにします。別の言語に翻訳された MPlayer を使用している場合、次に SMPlayer が検索するテキストの変更を必要とします。(技術的には正規表現を入力する必要があります)&lt;br&gt;&lt;br&gt;
@@ -3509,27 +3509,27 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>モニターのアスペクト(&amp;M):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="192"/>
+        <location filename="../prefadvanced.ui" line="102"/>
         <source>&amp;Run MPlayer in its own window</source>
         <translation>独自のウィンドウで MPlayer を実行する(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="323"/>
+        <location filename="../prefadvanced.ui" line="262"/>
         <source>&amp;Options:</source>
         <translation>オプション(&amp;O):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="385"/>
+        <location filename="../prefadvanced.ui" line="324"/>
         <source>V&amp;ideo filters:</source>
         <translation>ビデオ フィルター(&amp;I):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="446"/>
+        <location filename="../prefadvanced.ui" line="385"/>
         <source>Audio &amp;filters:</source>
         <translation>オーディオ フィルター(&amp;F):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="214"/>
+        <location filename="../prefadvanced.ui" line="124"/>
         <source>&amp;Colorkey:</source>
         <translation>カラーキー(&amp;C):</translation>
     </message>
@@ -3539,184 +3539,224 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="obsolete">ビデオ ウィンドウの背景を再描画しない(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="114"/>
+        <location filename="../prefadvanced.ui" line="528"/>
         <source>Log &amp;SMPlayer output</source>
         <translation>SMPlayer の出力を記録する(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="173"/>
+        <location filename="../prefadvanced.ui" line="587"/>
         <source>&amp;Filter for SMPlayer logs:</source>
         <translation>SMPlayer のログのフィルター(&amp;F):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="504"/>
+        <location filename="../prefadvanced.ui" line="443"/>
         <source>&amp;End of file:</source>
         <translation>エンド オブ ファイル(&amp;E):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="517"/>
+        <location filename="../prefadvanced.ui" line="456"/>
         <source>&amp;No video:</source>
         <translation>ビデオがありません(&amp;N):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="239"/>
+        <location filename="../prefadvanced.ui" line="149"/>
         <source>C&amp;hange...</source>
         <translation>変更(&amp;H)...</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="102"/>
+        <location filename="../prefadvanced.cpp" line="394"/>
         <source>Logs</source>
         <translation>ログ</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="121"/>
+        <location filename="../prefadvanced.ui" line="535"/>
         <source>Log MPlayer &amp;output</source>
         <translation>MPlayer の出力を記録する(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="288"/>
+        <location filename="../prefadvanced.ui" line="227"/>
         <source>Options for MP&amp;layer</source>
         <translation>MPlayer のオプション(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="336"/>
+        <location filename="../prefadvanced.cpp" line="409"/>
         <source>Autosave MPlayer log</source>
         <translation>MPlayer のログを自動保存する</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="340"/>
+        <location filename="../prefadvanced.cpp" line="413"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
         <translation>このオプションがチェックされている場合、MPlayer のログは新しいファイルが再生を開始するごとに指定されたファイルへ保存されます。外部のアプリケーションに意図されています、なので再生しているファイルについての情報を取得できます。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="342"/>
+        <location filename="../prefadvanced.cpp" line="415"/>
         <source>Autosave MPlayer log filename</source>
         <translation>MPlayer のログのファイル名を自動保存する</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="344"/>
+        <location filename="../prefadvanced.cpp" line="417"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
         <translation>MPlayer のログを保存するのに使用されるパスとファイル名をここに入力します。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="128"/>
+        <location filename="../prefadvanced.ui" line="542"/>
         <source>A&amp;utosave MPlayer log to file</source>
         <translation>ファイルへ MPlayer のログを自動保存する(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="366"/>
+        <location filename="../prefadvanced.cpp" line="351"/>
         <source>Pass short filenames (8+3) to MPlayer</source>
         <translation>MPlayer へ短いファイル名 (8+3) を渡す</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="370"/>
+        <location filename="../prefadvanced.cpp" line="355"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
         <translation>現在 MPlayer はローカル コードページ外の文字を含むファイル名を開くことができません。このオプションのチェックは SMPlayer にファイル名の短いバージョンを MPlayer へ渡させ、こうして開けるようになります。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="264"/>
+        <location filename="../prefadvanced.ui" line="174"/>
         <source>&amp;Pass short filenames (8+3) to MPlayer</source>
         <translation>MPlayer へ短いファイル名 (8+3) を渡す(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="320"/>
+        <location filename="../prefadvanced.cpp" line="334"/>
         <source>Monitor aspect</source>
         <translation>モニターのアスペクト</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="321"/>
+        <location filename="../prefadvanced.cpp" line="335"/>
         <source>Select the aspect ratio of your monitor.</source>
         <translation>モニターのアスペクト比を選択します。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="352"/>
+        <location filename="../prefadvanced.cpp" line="337"/>
         <source>Run MPlayer in its own window</source>
         <translation>独自のウィンドウで MPlayer を実行する</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="358"/>
+        <location filename="../prefadvanced.cpp" line="343"/>
         <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
         <translation>このオプションをチェックすると、MPlayer のビデオ ウィンドウは SMPlayer のメイン ウィンドウに埋め込まれず代わりに独自のウィンドウを使用します。マウスとキーボードのイベントは MPlayer によって直接ハンドルされ、それがキー ショートカットとマウス クリックがおそらく MPlayer のウィンドウにフォーカスがあるとき予期したとおり動作しないことに注意します。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="374"/>
+        <location filename="../prefadvanced.cpp" line="359"/>
         <source>Colorkey</source>
         <translation>カラーキー</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="377"/>
+        <location filename="../prefadvanced.cpp" line="362"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
         <translation>何かその他のウィンドウを超えてビデオの部分が見える場合は、修正するのにカラーキーを変更できます。黒に近い色の選択を試行します。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="380"/>
+        <location filename="../prefadvanced.cpp" line="372"/>
         <source>Options for MPlayer</source>
         <translation>MPlayer のオプション</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="382"/>
+        <location filename="../prefadvanced.cpp" line="374"/>
         <source>Options</source>
         <translation>オプション</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="384"/>
+        <location filename="../prefadvanced.cpp" line="376"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
         <translation>ここでは MPlayer のオプションを入力できます。スペースで区切って書き込みます。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="386"/>
+        <location filename="../prefadvanced.cpp" line="378"/>
         <source>Video filters</source>
         <translation>ビデオ フィルター</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="388"/>
+        <location filename="../prefadvanced.cpp" line="380"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>ここでは MPlayer のビデオ フィルターを追加できます。コンマで区切って書き込みます。スペースを使用しません!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="390"/>
+        <location filename="../prefadvanced.cpp" line="382"/>
         <source>Audio filters</source>
         <translation>オーディオ フィルター</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="392"/>
+        <location filename="../prefadvanced.cpp" line="384"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>ここでは MPlayer のオーディオ フィルターを追加できます。コンマで区切って書き込みます。スペースを使用しません!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="394"/>
+        <location filename="../prefadvanced.cpp" line="386"/>
         <source>MPlayer language</source>
         <translation>MPlayer の言語</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="396"/>
+        <location filename="../prefadvanced.cpp" line="388"/>
         <source>End of file</source>
         <translation>エンド オブ ファイル</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="397"/>
+        <location filename="../prefadvanced.cpp" line="389"/>
         <source>Select or type a regular expression for &apos;End of file&apos;</source>
         <translation>&apos;エンド オブ ファイル&apos; の正規表現を選択または入力します</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="399"/>
+        <location filename="../prefadvanced.cpp" line="391"/>
         <source>No video</source>
         <translation>ビデオがありません</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="400"/>
+        <location filename="../prefadvanced.cpp" line="392"/>
         <source>Select or type a regular expression for &apos;No video&apos;</source>
         <translation>&apos;ビデオがありません&apos; の正規表現を選択または入力します</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="361"/>
+        <location filename="../prefadvanced.cpp" line="346"/>
         <source>Repaint the background of the video window</source>
         <translation>ビデオ ウィンドウの背景を再描画する</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="199"/>
+        <location filename="../prefadvanced.ui" line="109"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
         <translation>ビデオ ウィンドウの背景を再描画する(&amp;D)</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="365"/>
+        <source>IPv4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="366"/>
+        <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="368"/>
+        <source>IPv6</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="369"/>
+        <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="181"/>
+        <source>Network Connection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="193"/>
+        <source>IPv&amp;4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="200"/>
+        <source>IPv&amp;6</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="516"/>
+        <source>Lo&amp;gs</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
