@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="nl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -2744,7 +2745,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="80"/>
         <source>Kazakh</source>
-        <translation type="unfinished"></translation>
+        <translation>Kazachs</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="81"/>
@@ -2754,7 +2755,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="82"/>
         <source>Cambodian</source>
-        <translation type="unfinished"></translation>
+        <translation>Cambodiaans</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="83"/>
@@ -2854,7 +2855,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="102"/>
         <source>Burmese</source>
-        <translation type="unfinished"></translation>
+        <translation>Burmees</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="103"/>
@@ -3898,42 +3899,42 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
     <message>
         <location filename="../prefadvanced.cpp" line="365"/>
         <source>IPv4</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv4</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="366"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv4 op netwerkverbindingen gebruiken. Valt automatisch terug op IPv6.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="368"/>
         <source>IPv6</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv6</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="369"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv6 op netwerkverbindingen gebruiken. Valt automatisch terug op IPv4.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="181"/>
         <source>Network Connection</source>
-        <translation type="unfinished"></translation>
+        <translation>Netwerkverbinding</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="193"/>
         <source>IPv&amp;4</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv&amp;4</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="200"/>
         <source>IPv&amp;6</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv&amp;6</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="516"/>
         <source>Lo&amp;gs</source>
-        <translation type="unfinished"></translation>
+        <translation>Lo&amp;gs</translation>
     </message>
 </context>
 <context>
