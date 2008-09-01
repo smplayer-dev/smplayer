@@ -213,11 +213,7 @@ void Preferences::reset() {
 	iconset = "";
 
 	// "Don't repaint video background" in the preferences dialog
-#ifdef Q_OS_WIN
 	always_clear_video_background = true;
-#else
-	always_clear_video_background = false;
-#endif
 
 	rx_endoffile = "Exiting... \\(End of file\\)";
 	rx_novideo = "Video: no video";
