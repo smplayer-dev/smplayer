@@ -237,7 +237,6 @@ void Preferences::reset() {
 	save_window_size_on_exit = true;
 
 #ifdef Q_OS_WIN
-	//enable_vcd_on_windows = false;
 	enable_audiocd_on_windows = false;
 #endif
 
@@ -470,7 +469,6 @@ void Preferences::save() {
 	set->setValue("save_window_size_on_exit", save_window_size_on_exit);
 
 #ifdef Q_OS_WIN
-	//set->setValue("enable_vcd_on_windows", enable_vcd_on_windows);
 	set->setValue("enable_audiocd_on_windows", enable_audiocd_on_windows);
 #endif
 
@@ -724,7 +722,6 @@ void Preferences::load() {
 	save_window_size_on_exit = 	set->value("save_window_size_on_exit", save_window_size_on_exit).toBool();
 
 #ifdef Q_OS_WIN
-	//enable_vcd_on_windows = set->value("enable_vcd_on_windows", enable_vcd_on_windows).toBool();
 	enable_audiocd_on_windows = set->value("enable_audiocd_on_windows", enable_audiocd_on_windows).toBool();
 #endif
 
