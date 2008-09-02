@@ -7,6 +7,8 @@
    going blank, just disable the option.
  * The single instance option is now disabled by default on Windows, as some 
    people reported smplayer didn't start with it.
+ * 2nd try to make "gl:yuv=2:force-pbo:ati-hack" the default vo on Windows
+   Vista.
 
 (2008-08-28)
  * Set the frame counter to 0 when starting to play a file. Fixes bug
