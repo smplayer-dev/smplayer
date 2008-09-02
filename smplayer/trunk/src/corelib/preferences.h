@@ -238,7 +238,6 @@ public:
 	bool save_window_size_on_exit;
 
 #ifdef Q_OS_WIN
-	//bool enable_vcd_on_windows;
 	bool enable_audiocd_on_windows;
 #endif
 
