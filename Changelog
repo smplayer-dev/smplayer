@@ -5,6 +5,8 @@
    Advanced) is now enabled by default in linux. It seems with newer versions
    of Qt it works well with it. If you have problems with the video window
    going blank, just disable the option.
+ * The single instance option is now disabled by default on Windows, as some 
+   people reported smplayer didn't start with it.
 
 (2008-08-28)
  * Set the frame counter to 0 when starting to play a file. Fixes bug

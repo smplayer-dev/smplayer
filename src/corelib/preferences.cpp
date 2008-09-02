@@ -180,7 +180,13 @@ void Preferences::reset() {
 
 	loop = FALSE;
 
+#ifdef Q_OS_WIN
+	// Some people reported smplayer doesn't start with this option enabled
+	// So now it's disabled by default on Windows
+	use_single_instance = false; 
+#else
 	use_single_instance = true;
+#endif
 	use_autoport = true;
 	connection_port = 8000;
 	autoport = 0;
