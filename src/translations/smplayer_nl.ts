@@ -236,7 +236,7 @@
     <message>
         <location filename="../about.cpp" line="68"/>
         <source>You can support SMPlayer by making a donation.</source>
-        <translation>U kunt SMPlayer steunen door een donatie te doen.</translation>
+        <translation>U kunt SMPlayer steunen door te doneren.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="70"/>
@@ -3080,7 +3080,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="149"/>
         <source>Uighur</source>
-        <translation type="unfinished"></translation>
+        <translation>Oeigoers</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="197"/>
@@ -3265,12 +3265,12 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="114"/>
         <source>Rhaeto-Romance</source>
-        <translation type="unfinished">Rhetroromaans</translation>
+        <translation>Rhetroromaans</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="122"/>
         <source>Serbo-Croatian</source>
-        <translation type="unfinished"></translation>
+        <translation>Servo-Kroatisch</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="154"/>
