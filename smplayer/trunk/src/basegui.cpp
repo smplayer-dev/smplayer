@@ -3381,6 +3381,11 @@ void BaseGui::resizeWindow(int w, int h) {
 
 	QSize video_size(w,h);
 
+	if (video_size == panel->size()) {
+		qDebug("BaseGui::resizeWindow: the panel size is already the required size. Doing nothing.");
+		return;
+	}
+
 	//panel->resize(w, h);
 	resize(w + diff_size.width(), h + diff_size.height());
 
