@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
-<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1277,32 +1276,32 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
         <translation>Reset Video Equalizer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3757"/>
+        <location filename="../basegui.cpp" line="3762"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer wurde unerwartet beendet.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3758"/>
+        <location filename="../basegui.cpp" line="3763"/>
         <source>Exit code: %1</source>
         <translation>Exit code: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3775"/>
+        <location filename="../basegui.cpp" line="3780"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer konnte nicht gestartet werden.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3776"/>
+        <location filename="../basegui.cpp" line="3781"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Pfad von MPlayer in den Einstellungen überprüfen.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3778"/>
+        <location filename="../basegui.cpp" line="3783"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer ist abgestürzt.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3779"/>
+        <location filename="../basegui.cpp" line="3784"/>
         <source>See the log for more info.</source>
         <translation>Siehe Logdatei für mehr Infos.</translation>
     </message>
@@ -1453,42 +1452,42 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../corelib/core.cpp" line="2110"/>
+        <location filename="../corelib/core.cpp" line="2112"/>
         <source>Brightness: %1</source>
         <translation>Helligkeit: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2125"/>
+        <location filename="../corelib/core.cpp" line="2127"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2139"/>
+        <location filename="../corelib/core.cpp" line="2141"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2153"/>
+        <location filename="../corelib/core.cpp" line="2155"/>
         <source>Hue: %1</source>
         <translation>Farbe: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2167"/>
+        <location filename="../corelib/core.cpp" line="2169"/>
         <source>Saturation: %1</source>
         <translation>Sättigung: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2287"/>
+        <location filename="../corelib/core.cpp" line="2289"/>
         <source>Volume: %1</source>
         <translation>Lautstärke: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="3042"/>
+        <location filename="../corelib/core.cpp" line="3044"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2406"/>
+        <location filename="../corelib/core.cpp" line="2408"/>
         <source>Font scale: %1</source>
         <translation>Schriftart Skalierung: %1</translation>
     </message>
@@ -5305,7 +5304,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="233"/>
+        <location filename="../prefperformance.cpp" line="243"/>
         <source>Performance</source>
         <translation>Leistungsverhalten</translation>
     </message>
@@ -5355,67 +5354,67 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>Leerlauf</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="292"/>
+        <location filename="../prefperformance.cpp" line="306"/>
         <source>Cache</source>
         <translation>Cache</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="512"/>
+        <location filename="../prefperformance.ui" line="558"/>
         <source>KB</source>
         <translation>KB</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="405"/>
+        <location filename="../prefperformance.ui" line="451"/>
         <source>Setting a cache may improve performance on slow media</source>
         <translation>Einstellung des Cachespeichers, kann Leistungsverhalten auf langsamen Systemen verbessern</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="243"/>
+        <location filename="../prefperformance.cpp" line="253"/>
         <source>Allow frame drop</source>
         <translation>Überspringen von Bildern erlauben</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="191"/>
+        <location filename="../prefperformance.ui" line="237"/>
         <source>Synchronization</source>
         <translation>Synchronisation</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="266"/>
+        <location filename="../prefperformance.cpp" line="280"/>
         <source>Audio/video auto synchronization</source>
         <translation>Automatische Audio/Video Synchronisation</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="270"/>
+        <location filename="../prefperformance.cpp" line="284"/>
         <source>Fast audio track switching</source>
         <translation>Schneller Tonspurwechsel</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="280"/>
+        <location filename="../prefperformance.cpp" line="294"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Schnelle Suche in DVD-Kapiteln</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="240"/>
+        <location filename="../prefperformance.cpp" line="250"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Festlegen der Prozessorpriorität gemäß der Verfügbarkeit unter Windows.&lt;br&gt;&lt;b&gt;WARNUNG:&lt;/b&gt;Echtzeitpriorität kann das System blockieren.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="244"/>
+        <location filename="../prefperformance.cpp" line="254"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Überspringen einiger Einzelbilder, um A/V Synchronisation auf langsamen Systemen zu gewährleisten.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="246"/>
+        <location filename="../prefperformance.cpp" line="256"/>
         <source>Allow hard frame drop</source>
         <translation>Verstärktes überspringen von Bildern erlauben</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="248"/>
+        <location filename="../prefperformance.cpp" line="258"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>Intensive Einzelbildersprünge (Brüche beim Dekodieren) . Führt zu Bildverzerrungen!</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="268"/>
+        <location filename="../prefperformance.cpp" line="282"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>Justiert stufenweise die A/V Synchronisierung, die auf Audioverzögerungen (Delay) basiert.</translation>
     </message>
@@ -5435,107 +5434,107 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>&amp;Verstärktes überspringen von Bildern erlauben. (Kann zu Bildverzerrungen führen)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="203"/>
+        <location filename="../prefperformance.ui" line="249"/>
         <source>Audio/&amp;video auto synchronization</source>
         <translation>&amp;Automatische Audio/Video Synchronisation</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="237"/>
+        <location filename="../prefperformance.ui" line="283"/>
         <source>Fact&amp;or:</source>
         <translation>&amp;Faktor:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="279"/>
+        <location filename="../prefperformance.ui" line="325"/>
         <source>&amp;Fast audio track switching</source>
         <translation>&amp;Schneller Tonspurwechsel</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="307"/>
+        <location filename="../prefperformance.ui" line="353"/>
         <source>Fast &amp;seek to chapters in dvds</source>
         <translation>&amp;Schnelle Suche in DVD-Kapiteln</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="285"/>
+        <location filename="../prefperformance.cpp" line="299"/>
         <source>Create index if needed</source>
         <translation>Index erstellen, falls benötigt</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="290"/>
+        <location filename="../prefperformance.cpp" line="304"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
         <translation>Baut Index der Datei wiederauf, mit der Erlaubnis zu suchen, wenn kein Index gefunden wurde. Nützlich bei unvollstänigen/defekten Downloads, oder schlecht erstellten Dateien. Die Option funktioniert nur wenn das eigentliche Media Suchfunktionen unterstützt (nicht mit stdin,pipe, etc).&lt;br&gt; Hinweis:Erstellen von einem Index kann einige Zeit dauern.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="282"/>
+        <location filename="../prefperformance.cpp" line="296"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Mit dieser Option wird die schnellste Methode zum Suchen der Kapitel gewählt, aber es funktioniert nicht mit allen Discs.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="250"/>
+        <location filename="../prefperformance.cpp" line="264"/>
         <source>Skip loop filter</source>
         <translation>Loop Filter übergehen</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="150"/>
+        <location filename="../prefperformance.ui" line="196"/>
         <source>H.264</source>
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="277"/>
+        <location filename="../prefperformance.cpp" line="291"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>Mögliche Werte:&lt;br&gt; &lt;b&gt; Ja &lt;/ b&gt;: wird versuchen die schnellste Methode zum Wechseln des Audio-Tracks zu finden (evt funktioniert es nicht, mit einigen Formaten).&lt;br&gt; &lt;b&gt; Nein &lt;/ b&gt;: der Mplayer Prozeß startet erneut, wenn der Audio-Track gewechselt wird.&lt;br&gt; &lt;b&gt; Automatisch &lt;/ b&gt;: SMPlayer wird entscheiden was zu tun ist, je nach MPlayer Version. </translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="294"/>
+        <location filename="../prefperformance.cpp" line="308"/>
         <source>Cache for files</source>
         <translation>Cache für Dateien</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="296"/>
+        <location filename="../prefperformance.cpp" line="310"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>Diese Option gibt an, wie viel Speicher (in kByte), beim Precaching einer Datei, verwendet wird.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="298"/>
+        <location filename="../prefperformance.cpp" line="312"/>
         <source>Cache for streams</source>
         <translation>Cache für Streams</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="300"/>
+        <location filename="../prefperformance.cpp" line="314"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>Diese Option gibt an, wie viel Speicher (in kByte), beim Precaching einer URL, verwendet wird.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="302"/>
+        <location filename="../prefperformance.cpp" line="316"/>
         <source>Cache for DVDs</source>
         <translation>Cache für DVDs</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="305"/>
+        <location filename="../prefperformance.cpp" line="319"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>Diese Option gibt an, wie viel Speicher (in kByte), beim Precaching von DVDs, verwendet wird.&lt;br&gt;&lt;b&gt;Warnung:&lt;/b&gt; Suchen wird eventuell nicht funktionieren (inklusive Kapitelsprünge), wenn Cache für DVDs aktiviert ist.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="321"/>
+        <location filename="../prefperformance.ui" line="367"/>
         <source>C&amp;reate index if needed</source>
         <translation>&amp;Index erstellen, falls benötigt</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="342"/>
+        <location filename="../prefperformance.ui" line="388"/>
         <source>&amp;Cache</source>
         <translation>&amp;Cache</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="395"/>
+        <location filename="../prefperformance.ui" line="441"/>
         <source>Cache for &amp;DVDs:</source>
         <translation>Cache für &amp;DVDs:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="415"/>
+        <location filename="../prefperformance.ui" line="461"/>
         <source>Cache for &amp;local files:</source>
         <translation>Cache für &amp;locale Dateien:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="425"/>
+        <location filename="../prefperformance.ui" line="471"/>
         <source>Cache for &amp;streams:</source>
         <translation>Cache für &amp;Streams:</translation>
     </message>
@@ -5555,64 +5554,79 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>Überspringen nur bei HD Videos</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="162"/>
+        <location filename="../prefperformance.ui" line="208"/>
         <source>Loop &amp;filter</source>
         <translation>Loop &amp;Filter</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="257"/>
+        <location filename="../prefperformance.cpp" line="271"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>Übergeht den Loop Filter (AKA Deblocking) während der H.264 Decodierung. Da bei den gefilterten Einzelbildern davon ausgegeangen wird, dass sie als Referenz für das Entschlüsseln von abhängigen Einzelbildern verwendet werden,  hat dies eine schlechtere Wirkung auf die Qualität , als nicht zu deblocken bei z.B MPEG-2 Videos.  Aber zumindest bei HDTV, mit hohen Bitraten, ergiebt sich eine große Beschleunigung ohne sichtbaren Qualitätsverlust.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="258"/>
+        <location filename="../prefperformance.cpp" line="272"/>
         <source>Possible values:</source>
         <translation>Mögliche Werte:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="259"/>
+        <location filename="../prefperformance.cpp" line="273"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>&lt;b&gt;Eingeschaltet&lt;/b&gt;: der Loop Filter wird nicht ausgelassen</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="261"/>
+        <location filename="../prefperformance.cpp" line="275"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;Überspringen (immer)&lt;/b&gt;: Der Loop Filter wird ausgelassen, unabhängig von der Videoauflösung</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="264"/>
+        <location filename="../prefperformance.cpp" line="278"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;Überspringen nur bei HD Videos&lt;/b&gt;: der Loop Filter wird nur ausgelassen bei Videos, deren Höhe %1, oder größer ist.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="307"/>
+        <location filename="../prefperformance.cpp" line="321"/>
         <source>Cache for audio CDs</source>
         <translation>Cache für Audio CDs</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="309"/>
+        <location filename="../prefperformance.cpp" line="323"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation>Diese Option gibt an, wieviel Speicher (in kBytes),  bei Precaching für Audio-CD, verwendet wird.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="495"/>
+        <location filename="../prefperformance.ui" line="541"/>
         <source>Cache for &amp;audio CDs:</source>
         <translation>Cache für &amp;Audio CDs:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="311"/>
+        <location filename="../prefperformance.cpp" line="325"/>
         <source>Cache for VCDs</source>
         <translation>Cache für VCDs</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="313"/>
+        <location filename="../prefperformance.cpp" line="327"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation>Diese Option gibt an, wie viel Speicher (in kByte), beim Precaching von VCDs, verwendet wird.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="539"/>
+        <location filename="../prefperformance.ui" line="585"/>
         <source>Cache for &amp;VCDs:</source>
         <translation>Cache für &amp;VCDs:</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="260"/>
+        <source>Threads for decoding</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="262"/>
+        <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="158"/>
+        <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
