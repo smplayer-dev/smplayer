@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -5616,17 +5617,17 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="260"/>
         <source>Threads for decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Threads zur Dekodierung</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="262"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
-        <translation type="unfinished"></translation>
+        <translation>Legt die Anzahl der Threads zur Dekodierung fest. Nur für MPEG-1 / 2 und H.264</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="158"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Threads zur Dekodierung (MPEG-1/2 and H.264):</translation>
     </message>
 </context>
 <context>
