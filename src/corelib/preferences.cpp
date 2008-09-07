@@ -112,6 +112,7 @@ void Preferences::reset() {
 	cache_for_vcds = 1000;
 	cache_for_audiocds = 1000;
 
+	threads = 1;
 
 	use_mplayer_window = FALSE;
 
@@ -364,6 +365,7 @@ void Preferences::save() {
 	set->setValue("cache_for_vcds", cache_for_vcds);
 	set->setValue("cache_for_audiocds", cache_for_audiocds);
 
+	set->setValue("threads", threads);
 
 	set->setValue("use_mplayer_window", use_mplayer_window);
 
@@ -617,6 +619,8 @@ void Preferences::load() {
 	cache_for_dvds = set->value("cache_for_dvds", cache_for_dvds).toInt();
 	cache_for_vcds = set->value("cache_for_vcds", cache_for_vcds).toInt();
 	cache_for_audiocds = set->value("cache_for_audiocds", cache_for_audiocds).toInt();
+
+	threads = set->value("threads", threads).toInt();
 
 	use_mplayer_window = set->value("use_mplayer_window", use_mplayer_window).toBool();
 

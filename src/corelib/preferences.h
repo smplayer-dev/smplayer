@@ -93,6 +93,8 @@ public:
 	int cache_for_vcds;
 	int cache_for_audiocds;
 
+	int threads; //!< number of threads to use for decoding (-lavdopts threads <1-8>)
+
 	bool use_mplayer_window;
 
 	QString monitor_aspect;

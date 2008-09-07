@@ -88,6 +88,7 @@ void PrefPerformance::setData(Preferences * pref) {
 	setFastChapterSeeking( pref->fast_chapter_change );
 #endif
 	setFastAudioSwitching( pref->fast_audio_change );
+	setThreads( pref->threads );
 	setUseIdx( pref->use_idx );
 }
 
@@ -110,6 +111,7 @@ void PrefPerformance::getData(Preferences * pref) {
 	TEST_AND_SET(pref->fast_chapter_change, fastChapterSeeking());
 #endif
 	pref->fast_audio_change = fastAudioSwitching();
+	TEST_AND_SET(pref->threads, threads());
 	TEST_AND_SET(pref->use_idx, useIdx());
 }
 
@@ -219,6 +221,14 @@ Preferences::OptionState PrefPerformance::fastAudioSwitching() {
 	return fast_audio_combo->state();
 }
 
+void PrefPerformance::setThreads(int v) {
+	threads_spin->setValue(v);
+}
+
+int PrefPerformance::threads() {
+	return threads_spin->value();
+}
+
 void PrefPerformance::setUseIdx(bool b) {
 	idx_check->setChecked(b);
 }
@@ -246,6 +256,10 @@ void PrefPerformance::createHelp() {
 	setWhatsThis(hardframedrop_check, tr("Allow hard frame drop"),
 		tr("More intense frame dropping (breaks decoding). "
            "Leads to image distortion!") );
+
+	setWhatsThis(threads_spin, tr("Threads for decoding"),
+		tr("Sets the number of threads to use for decoding. Only for "
+           "MPEG-1/2 and H.264") );
 
 	setWhatsThis(loopfilter_combo, tr("Skip loop filter"),
 		tr("This option allows to skips the loop filter (AKA deblocking) "
