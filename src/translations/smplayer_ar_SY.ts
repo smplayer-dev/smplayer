@@ -1261,32 +1261,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished">اعادة موازن الفيديو الى الافتراضي</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3757"/>
+        <location filename="../basegui.cpp" line="3762"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation type="unfinished">بشكل غير متوقع MPlayer تم اغلاق</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3758"/>
+        <location filename="../basegui.cpp" line="3763"/>
         <source>Exit code: %1</source>
         <translation type="unfinished"> %1 كود الخروج</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3775"/>
+        <location filename="../basegui.cpp" line="3780"/>
         <source>MPlayer failed to start.</source>
         <translation type="unfinished">MPlayer فشل قي بدء </translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3776"/>
+        <location filename="../basegui.cpp" line="3781"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation type="unfinished">في الاعدادات MPlayer قم بتفحص مسار</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3778"/>
+        <location filename="../basegui.cpp" line="3783"/>
         <source>MPlayer has crashed.</source>
         <translation type="unfinished">MPlayer ضرر في</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3779"/>
+        <location filename="../basegui.cpp" line="3784"/>
         <source>See the log for more info.</source>
         <translation type="unfinished">شاهد التقرير لمزيد من المعلومات</translation>
     </message>
@@ -1422,42 +1422,42 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../corelib/core.cpp" line="2110"/>
+        <location filename="../corelib/core.cpp" line="2112"/>
         <source>Brightness: %1</source>
         <translation type="unfinished"> %1 السطوع</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2125"/>
+        <location filename="../corelib/core.cpp" line="2127"/>
         <source>Contrast: %1</source>
         <translation type="unfinished"> %1 التغميق</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2139"/>
+        <location filename="../corelib/core.cpp" line="2141"/>
         <source>Gamma: %1</source>
         <translation type="unfinished"> %1 ألوان غاما</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2153"/>
+        <location filename="../corelib/core.cpp" line="2155"/>
         <source>Hue: %1</source>
         <translation type="unfinished">%1 الشكل</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2167"/>
+        <location filename="../corelib/core.cpp" line="2169"/>
         <source>Saturation: %1</source>
         <translation type="unfinished"> %1 الإشباع</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2287"/>
+        <location filename="../corelib/core.cpp" line="2289"/>
         <source>Volume: %1</source>
         <translation type="unfinished">%1 درجة الصوت</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="3042"/>
+        <location filename="../corelib/core.cpp" line="3044"/>
         <source>Zoom: %1</source>
         <translation type="unfinished"> %1 التقريب</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2406"/>
+        <location filename="../corelib/core.cpp" line="2408"/>
         <source>Font scale: %1</source>
         <translation type="unfinished"> %1 حجم الخط</translation>
     </message>
@@ -4854,7 +4854,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="233"/>
+        <location filename="../prefperformance.cpp" line="243"/>
         <source>Performance</source>
         <translation type="unfinished">أعـــدادات</translation>
     </message>
@@ -4904,52 +4904,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">ضعيف</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="512"/>
+        <location filename="../prefperformance.ui" line="558"/>
         <source>KB</source>
         <translation type="unfinished">KB</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="405"/>
+        <location filename="../prefperformance.ui" line="451"/>
         <source>Setting a cache may improve performance on slow media</source>
         <translation type="unfinished">Setting a cache may improve performance on slow media</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="243"/>
+        <location filename="../prefperformance.cpp" line="253"/>
         <source>Allow frame drop</source>
         <translation type="unfinished">تمكين اسقاط الشرائح</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="191"/>
+        <location filename="../prefperformance.ui" line="237"/>
         <source>Synchronization</source>
         <translation type="unfinished">التزامن</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="266"/>
+        <location filename="../prefperformance.cpp" line="280"/>
         <source>Audio/video auto synchronization</source>
         <translation type="unfinished">التزامن التلقائي لــ الفيديو / الصوت</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="240"/>
+        <location filename="../prefperformance.cpp" line="250"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation type="unfinished">تعيين اولوية المعالج وفقا للأولويات المعرفة الممكنة في النظام&lt;br&gt;&lt;b&gt;ملاحظة:&lt;/b&gt; استخدام اولوية الوقت الحقيقي ربما يجمد النظام.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="244"/>
+        <location filename="../prefperformance.cpp" line="254"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation type="unfinished"> على الأجهزة البطيئة A/V sync تخطي عرض بعض الشرائح لمعالجة</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="246"/>
+        <location filename="../prefperformance.cpp" line="256"/>
         <source>Allow hard frame drop</source>
         <translation type="unfinished">تمكين اسقاط الشرائح الصعبة</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="248"/>
+        <location filename="../prefperformance.cpp" line="258"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation type="unfinished">المزيد من شاشات العرض يؤدي الى تشويه الصورة</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="268"/>
+        <location filename="../prefperformance.cpp" line="282"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation type="unfinished">Gradually adjusts the A/V sync based on audio delay measurements.</translation>
     </message>
@@ -4969,117 +4969,117 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">تمكين اسقاط الشرائح الصعبة</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="203"/>
+        <location filename="../prefperformance.ui" line="249"/>
         <source>Audio/&amp;video auto synchronization</source>
         <translation type="unfinished">تزامن تلقائي لــ الفيديو /الصوت</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="237"/>
+        <location filename="../prefperformance.ui" line="283"/>
         <source>Fact&amp;or:</source>
         <translation type="unfinished">العامل</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="279"/>
+        <location filename="../prefperformance.ui" line="325"/>
         <source>&amp;Fast audio track switching</source>
         <translation type="unfinished">تبديل سريع لمسار الصوت</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="307"/>
+        <location filename="../prefperformance.ui" line="353"/>
         <source>Fast &amp;seek to chapters in dvds</source>
         <translation type="unfinished">تمرير سريع بين الفصول في الديفدي</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="285"/>
+        <location filename="../prefperformance.cpp" line="299"/>
         <source>Create index if needed</source>
         <translation type="unfinished">انشاء دليل اذا احتيج</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="290"/>
+        <location filename="../prefperformance.cpp" line="304"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
         <translation type="unfinished">Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="270"/>
+        <location filename="../prefperformance.cpp" line="284"/>
         <source>Fast audio track switching</source>
         <translation type="unfinished">تبديل سريع لمسار الصوت</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="280"/>
+        <location filename="../prefperformance.cpp" line="294"/>
         <source>Fast seek to chapters in dvds</source>
         <translation type="unfinished">تمرير سريع بين الفصول في الديفدي</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="282"/>
+        <location filename="../prefperformance.cpp" line="296"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation type="unfinished">If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="250"/>
+        <location filename="../prefperformance.cpp" line="264"/>
         <source>Skip loop filter</source>
         <translation type="unfinished">تخطي فلتر الاعادة</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="150"/>
+        <location filename="../prefperformance.ui" line="196"/>
         <source>H.264</source>
         <translation type="unfinished">H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="277"/>
+        <location filename="../prefperformance.cpp" line="291"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation type="unfinished">Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="294"/>
+        <location filename="../prefperformance.cpp" line="308"/>
         <source>Cache for files</source>
         <translation type="unfinished">معالج الملفات</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="296"/>
+        <location filename="../prefperformance.cpp" line="310"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation type="unfinished">الاعداد يحدد كم تستهلك من الذاكرة عند استخدام الذاكرة الوسيطة ملف ما</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="298"/>
+        <location filename="../prefperformance.cpp" line="312"/>
         <source>Cache for streams</source>
         <translation type="unfinished">معالجة الجداول</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="300"/>
+        <location filename="../prefperformance.cpp" line="314"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation type="unfinished">الاعداد يحدد كم تستهلك من الذاكرة عند استخدام الذاكرة الوسيطة رابط ما</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="302"/>
+        <location filename="../prefperformance.cpp" line="316"/>
         <source>Cache for DVDs</source>
         <translation type="unfinished">DVDs معالجة الــ</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="305"/>
+        <location filename="../prefperformance.cpp" line="319"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation type="unfinished">DVD الاعداد يحدد كم تستهلك من الذاكرة عند استخدام الذاكرة الوسيطة لتشغيل قرص</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="321"/>
+        <location filename="../prefperformance.ui" line="367"/>
         <source>C&amp;reate index if needed</source>
         <translation type="unfinished">انشاء دليل اذا احتيج الأمر</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="342"/>
+        <location filename="../prefperformance.ui" line="388"/>
         <source>&amp;Cache</source>
         <translation type="unfinished">المعالج</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="395"/>
+        <location filename="../prefperformance.ui" line="441"/>
         <source>Cache for &amp;DVDs:</source>
         <translation type="unfinished">DVD معالجة الــ</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="415"/>
+        <location filename="../prefperformance.ui" line="461"/>
         <source>Cache for &amp;local files:</source>
         <translation type="unfinished">معالجة الملفات العامة</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="425"/>
+        <location filename="../prefperformance.ui" line="471"/>
         <source>Cache for &amp;streams:</source>
         <translation type="unfinished">معالجة الملفات الدفعية</translation>
     </message>
@@ -5099,69 +5099,84 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">HD تخطي فقط على فيديو من نوع</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="162"/>
+        <location filename="../prefperformance.ui" line="208"/>
         <source>Loop &amp;filter</source>
         <translation type="unfinished">فلتر الأعادة</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="257"/>
+        <location filename="../prefperformance.cpp" line="271"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation type="unfinished">This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="258"/>
+        <location filename="../prefperformance.cpp" line="272"/>
         <source>Possible values:</source>
         <translation type="unfinished">القيم المحتملة</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="259"/>
+        <location filename="../prefperformance.cpp" line="273"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation type="unfinished">فلتر الأعادة غير متخطى &lt;b&gt;تمكين&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="261"/>
+        <location filename="../prefperformance.cpp" line="275"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation type="unfinished">فلتر الأعادة سيتخطى مهما كانت أبعاد الفيديو &lt;b&gt;التخطي دائما&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="264"/>
+        <location filename="../prefperformance.cpp" line="278"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation type="unfinished">فلتر الاعادة سيقوم بتخطي الفيديو الاعلى من %1 او اكثر &lt;b&gt; HDتخطي فقط فيديو من نوع&lt;/b&gt;:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="292"/>
+        <location filename="../prefperformance.cpp" line="306"/>
         <source>Cache</source>
         <translation type="unfinished">المعالج</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="307"/>
+        <location filename="../prefperformance.cpp" line="321"/>
         <source>Cache for audio CDs</source>
         <translation type="unfinished">معالج اقراص الاوديو</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="309"/>
+        <location filename="../prefperformance.cpp" line="323"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation type="unfinished">الاعداد يحدد كم تستهلك من الذاكرة عند استخدام الذاكرة الوسيطة لقرص اوديو مشغل</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="495"/>
+        <location filename="../prefperformance.ui" line="541"/>
         <source>Cache for &amp;audio CDs:</source>
         <translation type="unfinished">معالج اقراص الاوديو</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="311"/>
+        <location filename="../prefperformance.cpp" line="325"/>
         <source>Cache for VCDs</source>
         <translation type="unfinished"> VCDs معلج اقراص الفيديو</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="313"/>
+        <location filename="../prefperformance.cpp" line="327"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation type="unfinished">VCD. الاعداد يحدد كم تستهلك من الذاكرة عند استخدام الذاكرة الوسيطة لــ </translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="539"/>
+        <location filename="../prefperformance.ui" line="585"/>
         <source>Cache for &amp;VCDs:</source>
         <translation type="unfinished">VCDs: معالج لــ</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="260"/>
+        <source>Threads for decoding</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="262"/>
+        <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="158"/>
+        <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
