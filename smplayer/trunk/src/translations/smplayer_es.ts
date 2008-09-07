@@ -5610,17 +5610,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="260"/>
         <source>Threads for decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Hilos para la decodificación</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="262"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
-        <translation type="unfinished"></translation>
+        <translation>Establece el número de hilos que se usarán en la decodificación. Sólo para MPEG-1/2 y H.264</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="158"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hilos para la decodificación (sólo MPEG-1/2 y H.264):</translation>
     </message>
 </context>
 <context>
