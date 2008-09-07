@@ -96,13 +96,16 @@ void Screen::mouseMoveEvent( QMouseEvent * e ) {
 MplayerLayer::MplayerLayer(QWidget* parent, Qt::WindowFlags f) 
 	: Screen(parent, f) 
 {
+#if REPAINT_BACKGROUND_OPTION
 	allow_clearing = true;
+#endif
 	playing = false;
 }
 
 MplayerLayer::~MplayerLayer() {
 }
 
+#if REPAINT_BACKGROUND_OPTION
 void MplayerLayer::allowClearingBackground(bool b) {
 	qDebug("MplayerLayer::allowClearingBackground: %d", b);
 	allow_clearing = b;
@@ -115,6 +118,7 @@ void MplayerLayer::paintEvent( QPaintEvent * e ) {
 		Screen::paintEvent(e);
 	}
 }
+#endif
 
 void MplayerLayer::playingStarted() {
 	qDebug("MplayerLayer::playingStarted");

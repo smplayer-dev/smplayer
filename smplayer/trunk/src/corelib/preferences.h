@@ -217,8 +217,10 @@ public:
 
 	QString iconset;
 
+#if REPAINT_BACKGROUND_OPTION
 	//! If true, mplayerlayer erases its background
 	bool always_clear_video_background; 
+#endif
 
 	//! Make configurable some of the mplayerprocess regular expressions
 	QString rx_endoffile;

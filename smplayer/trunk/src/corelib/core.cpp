@@ -151,7 +151,9 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	connect( this, SIGNAL(aboutToStartPlaying()),
              mplayerwindow->videoLayer(), SLOT(playingStarted()) );
 
+#if REPAINT_BACKGROUND_OPTION
 	mplayerwindow->videoLayer()->allowClearingBackground(pref->always_clear_video_background);
+#endif
 	mplayerwindow->setMonitorAspect( pref->monitor_aspect_double() );
 
 #ifdef Q_OS_WIN
