@@ -86,6 +86,9 @@ protected:
 	void setFastAudioSwitching(Preferences::OptionState value);
 	Preferences::OptionState fastAudioSwitching();
 
+	void setThreads(int v);
+	int threads();
+
 	void setUseIdx(bool);
 	bool useIdx();
 

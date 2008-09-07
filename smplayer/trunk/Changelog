@@ -1,5 +1,10 @@
 [b]Version 0.6.3[/b]:
 
+(2008-09-06)
+ * Added a new option in Preferences->Performance: Threads for decoding.
+   Sets the number of threads to use for decoding (for MPEG-1/2 and H.264 only).
+   It could be useful for multicore processors.
+
 (2008-09-01)
  * The option "Repaint background of the video window" (in Preferences->
    Advanced) is now enabled by default in linux. It seems with newer versions

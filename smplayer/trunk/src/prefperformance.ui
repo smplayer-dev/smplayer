@@ -5,8 +5,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>410</width>
-    <height>484</height>
+    <width>454</width>
+    <height>591</height>
    </rect>
   </property>
   <layout class="QVBoxLayout" >
@@ -14,7 +14,7 @@
     <number>0</number>
    </property>
    <property name="spacing" >
-    <number>0</number>
+    <number>6</number>
    </property>
    <item>
     <widget class="QTabWidget" name="tabWidget" >
@@ -143,6 +143,52 @@
           <string>Allow &amp;hard frame drop (can lead to image distortion)</string>
          </property>
         </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" >
+         <property name="margin" >
+          <number>0</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_13" >
+           <property name="text" >
+            <string>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</string>
+           </property>
+           <property name="buddy" >
+            <cstring>threads_spin</cstring>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSpinBox" name="threads_spin" >
+           <property name="maximum" >
+            <number>8</number>
+           </property>
+           <property name="minimum" >
+            <number>1</number>
+           </property>
+           <property name="value" >
+            <number>1</number>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer>
+           <property name="orientation" >
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" >
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
        </item>
        <item>
         <widget class="QGroupBox" name="groupBox" >
@@ -574,6 +620,7 @@
   <tabstop>priority_combo</tabstop>
   <tabstop>framedrop_check</tabstop>
   <tabstop>hardframedrop_check</tabstop>
+  <tabstop>threads_spin</tabstop>
   <tabstop>loopfilter_combo</tabstop>
   <tabstop>autosync_check</tabstop>
   <tabstop>autosync_spin</tabstop>
