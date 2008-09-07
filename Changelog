@@ -4,6 +4,8 @@
  * Added a new option in Preferences->Performance: Threads for decoding.
    Sets the number of threads to use for decoding (for MPEG-1/2 and H.264 only).
    It could be useful for multicore processors.
+ * Bugfix: the volume may be changed on startup even if the option "Change 
+   volume on every file" was off. 
 
 (2008-09-01)
  * The option "Repaint background of the video window" (in Preferences->
