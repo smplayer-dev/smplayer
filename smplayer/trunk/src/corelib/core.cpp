@@ -2710,7 +2710,9 @@ void Core::changeAudio(int ID, bool allow_restart) {
 
 			// Workaround too for a mplayer problem in linux,
 			// the volume is reduced if using -softvol-max.
-			setVolume( mset.volume, true );
+			if (!pref->dont_change_volume) {
+				setVolume( mset.volume, true );
+			}
 			//#endif
 			if (mset.mute) mute(true); // if muted, mute again
 			updateWidgets();
