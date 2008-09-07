@@ -2038,9 +2038,11 @@ void BaseGui::applyNewPreferences() {
 	}
 
 	PrefAdvanced *advanced = pref_dialog->mod_advanced();
+#if REPAINT_BACKGROUND_OPTION
 	if (advanced->clearingBackgroundChanged()) {
 		mplayerwindow->videoLayer()->allowClearingBackground(pref->always_clear_video_background);
 	}
+#endif
 #if USE_COLORKEY
 	if (advanced->colorkeyChanged()) {
 		mplayerwindow->setColorKey( pref->color_key );

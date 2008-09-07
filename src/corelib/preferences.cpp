@@ -226,8 +226,10 @@ void Preferences::reset() {
 	language = "";
 	iconset = "";
 
-	// "Don't repaint video background" in the preferences dialog
+#if REPAINT_BACKGROUND_OPTION
+	// "Repaint video background" in the preferences dialog
 	always_clear_video_background = true;
+#endif
 
 	rx_endoffile = "Exiting... \\(End of file\\)";
 	rx_novideo = "Video: no video";
@@ -465,7 +467,9 @@ void Preferences::save() {
 	set->setValue("language", language);
 	set->setValue("iconset", iconset);
 
+#if REPAINT_BACKGROUND_OPTION
 	set->setValue("always_clear_video_background", always_clear_video_background);
+#endif
 
 	set->setValue("rx_endoffile", rx_endoffile);
 	set->setValue("rx_novideo", rx_novideo);
@@ -720,7 +724,9 @@ void Preferences::load() {
 	log_smplayer = set->value("log_smplayer", log_smplayer).toBool();
 	log_filter = set->value("log_filter", log_filter).toString();
 
+#if REPAINT_BACKGROUND_OPTION
 	always_clear_video_background = set->value("always_clear_video_background", always_clear_video_background).toBool();
+#endif
 
 	rx_endoffile = set->value("rx_endoffile", rx_endoffile).toString();
 	rx_novideo = set->value("rx_novideo", rx_novideo).toString();

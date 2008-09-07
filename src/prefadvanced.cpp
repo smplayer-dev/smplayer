@@ -38,6 +38,10 @@ PrefAdvanced::PrefAdvanced(QWidget * parent, Qt::WindowFlags f)
 	changeButton->hide();
 #endif
 
+#if !REPAINT_BACKGROUND_OPTION
+	clear_background_check->hide();
+#endif
+
 	// Monitor aspect
 	monitoraspect_combo->addItem("Auto");
 	monitoraspect_combo->addItem("4:3");
@@ -90,8 +94,10 @@ void PrefAdvanced::retranslateStrings() {
 
 void PrefAdvanced::setData(Preferences * pref) {
 	setMonitorAspect( pref->monitor_aspect );
-	
+
+#if REPAINT_BACKGROUND_OPTION	
 	setClearBackground( pref->always_clear_video_background );
+#endif
 	setUseMplayerWindow( pref->use_mplayer_window );
 	setMplayerAdditionalArguments( pref->mplayer_additional_options );
 	setMplayerAdditionalVideoFilters( pref->mplayer_additional_video_filters );
@@ -116,7 +122,11 @@ void PrefAdvanced::setData(Preferences * pref) {
 
 void PrefAdvanced::getData(Preferences * pref) {
 	requires_restart = false;
+
+#if REPAINT_BACKGROUND_OPTION
 	clearing_background_changed = false;
+#endif
+
 	monitor_aspect_changed = false;
 #if USE_COLORKEY
 	colorkey_changed = false;
@@ -129,10 +139,12 @@ void PrefAdvanced::getData(Preferences * pref) {
 		requires_restart = true;
 	}
 
+#if REPAINT_BACKGROUND_OPTION
 	if (pref->always_clear_video_background != clearBackground()) {
 		pref->always_clear_video_background = clearBackground();
 		clearing_background_changed = true;
     }
+#endif
 
 	TEST_AND_SET(pref->use_mplayer_window, useMplayerWindow());
 	TEST_AND_SET(pref->mplayer_additional_options, mplayerAdditionalArguments());
@@ -172,6 +184,7 @@ QString PrefAdvanced::monitorAspect() {
 		return monitoraspect_combo->currentText();
 }
 
+#if REPAINT_BACKGROUND_OPTION
 void PrefAdvanced::setClearBackground(bool b) {
 	clear_background_check->setChecked(b);
 }
@@ -179,6 +192,7 @@ void PrefAdvanced::setClearBackground(bool b) {
 bool PrefAdvanced::clearBackground() {
 	return clear_background_check->isChecked();
 }
+#endif
 
 void PrefAdvanced::setUseMplayerWindow(bool v) {
 	mplayer_use_window_check->setChecked(v);
@@ -342,10 +356,12 @@ void PrefAdvanced::createHelp() {
            "probably won't work as expected when the MPlayer window has the "
            "focus.") );
 
+#if REPAINT_BACKGROUND_OPTION
 	setWhatsThis(clear_background_check, 
         tr("Repaint the background of the video window"),
 		tr("Checking this option may reduce flickering, but it also might "
            "produce that the video won't be displayed properly.") );
+#endif
 
 #ifdef Q_OS_WIN
 	setWhatsThis(shortnames_check, tr("Pass short filenames (8+3) to MPlayer"),

@@ -42,7 +42,9 @@ public:
     // Apply changes
     void getData(Preferences * pref);
 
+#if REPAINT_BACKGROUND_OPTION
 	bool clearingBackgroundChanged() { return clearing_background_changed; };
+#endif
 	bool monitorAspectChanged() { return monitor_aspect_changed; };
 #if USE_COLORKEY
 	bool colorkeyChanged() { return colorkey_changed; };
@@ -55,8 +57,10 @@ protected:
 	void setMonitorAspect(QString asp);
 	QString monitorAspect();
 
+#if REPAINT_BACKGROUND_OPTION
 	void setClearBackground(bool b);
 	bool clearBackground();
+#endif
 
 	void setUseMplayerWindow(bool v);
 	bool useMplayerWindow();
@@ -112,7 +116,9 @@ protected slots:
 	void on_changeButton_clicked();
 
 private:
+#if REPAINT_BACKGROUND_OPTION
 	bool clearing_background_changed;
+#endif
 	bool monitor_aspect_changed;
 #if USE_COLORKEY
 	bool colorkey_changed;
