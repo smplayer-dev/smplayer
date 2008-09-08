@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="nl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -5963,17 +5964,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="260"/>
         <source>Threads for decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Threads voor decoderen</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="262"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
-        <translation type="unfinished"></translation>
+        <translation>Stelt het aantal threads in gebruikt voor het decoderen. Alleen voor MPEG-1/2 en H.264</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="158"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Threads voor decoderen (alleen MPEG-1/2 en H.264):</translation>
     </message>
 </context>
 <context>
