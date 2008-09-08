@@ -295,7 +295,7 @@
     <message>
         <location filename="../about.cpp" line="181"/>
         <source>Arabic</source>
-        <translation type="unfinished">Árabe</translation>
+        <translation>Árabe</translation>
     </message>
 </context>
 <context>
@@ -1416,7 +1416,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="1235"/>
         <source>&amp;Toggle double size</source>
-        <translation>&amp;Tamnaho duplo</translation>
+        <translation>&amp;Tamanho duplo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1165"/>
@@ -1596,22 +1596,22 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="1109"/>
         <source>Speed -&amp;4%</source>
-        <translation type="unfinished"></translation>
+        <translation>Velocidade -&amp;4%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1110"/>
         <source>&amp;Speed +4%</source>
-        <translation type="unfinished"></translation>
+        <translation>Velocidade -&amp;4%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1111"/>
         <source>Speed -&amp;1%</source>
-        <translation type="unfinished"></translation>
+        <translation>Velocidade -&amp;4%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1112"/>
         <source>S&amp;peed +1%</source>
-        <translation type="unfinished"></translation>
+        <translation>Velocidade -&amp;4%</translation>
     </message>
 </context>
 <context>
@@ -3929,42 +3929,42 @@ As listas podem já conter expressões regulares para vários idiomas.</translat
     <message>
         <location filename="../prefadvanced.cpp" line="365"/>
         <source>IPv4</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv4</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="366"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar IPv4 nas ligações de rede. Retorna a IPv6 automaticamente.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="368"/>
         <source>IPv6</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv6</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="369"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar IPv6 nas ligações de rede. Retorna a IPv4 automaticamente.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="181"/>
         <source>Network Connection</source>
-        <translation type="unfinished"></translation>
+        <translation>Ligação à Rede</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="193"/>
         <source>IPv&amp;4</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv&amp;4</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="200"/>
         <source>IPv&amp;6</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv&amp;6</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="516"/>
         <source>Lo&amp;gs</source>
-        <translation type="unfinished"></translation>
+        <translation>Lo&amp;gs</translation>
     </message>
 </context>
 <context>
@@ -5974,17 +5974,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="260"/>
         <source>Threads for decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Threads para descodificação</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="262"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
-        <translation type="unfinished"></translation>
+        <translation>Define o número de threads a usar para descodificação. Só para MPEG-1/2 e H.264</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="158"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Threads para descodificação (só MPEG-1/2 e H.264):</translation>
     </message>
 </context>
 <context>
