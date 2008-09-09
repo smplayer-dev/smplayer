@@ -3,6 +3,7 @@
 (2008-09-08)
  * Moved the option "Create index if needed" from the section Performance to
    Advanced.
+ * Added an icon for the audio equalizer action.
 
 (2008-09-06)
  * Added a new option in Preferences->Performance: Threads for decoding.
