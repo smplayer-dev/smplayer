@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="nl">
-<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -865,7 +864,7 @@ Wilt u het overschrijven?</translation>
         <translation>&amp;Aspectverhouding</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2257"/>
+        <location filename="../basegui.cpp" line="2259"/>
         <source>&amp;None</source>
         <translation>&amp;Geen</translation>
     </message>
@@ -1115,37 +1114,37 @@ Wilt u het overschrijven?</translation>
         <translation>Over &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2372"/>
+        <location filename="../basegui.cpp" line="2374"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;leeg&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2722"/>
+        <location filename="../basegui.cpp" line="2724"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2906"/>
+        <location filename="../basegui.cpp" line="2908"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2724"/>
+        <location filename="../basegui.cpp" line="2726"/>
         <source>Playlists</source>
         <translation>Afspeellijsten</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2907"/>
+        <location filename="../basegui.cpp" line="2909"/>
         <source>All files</source>
         <translation>Alle bestanden</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2904"/>
+        <location filename="../basegui.cpp" line="2906"/>
         <source>Choose a file</source>
         <translation>Kies een bestand</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2772"/>
+        <location filename="../basegui.cpp" line="2774"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Informatie</translation>
     </message>
@@ -1157,32 +1156,32 @@ The configuration dialog will be shown now, so you can do it.</source>
 Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2849"/>
+        <location filename="../basegui.cpp" line="2851"/>
         <source>Choose a directory</source>
         <translation>Kies een map</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2885"/>
+        <location filename="../basegui.cpp" line="2887"/>
         <source>Subtitles</source>
         <translation>Ondertiteling</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2937"/>
+        <location filename="../basegui.cpp" line="2939"/>
         <source>About Qt</source>
         <translation>Over Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3317"/>
+        <location filename="../basegui.cpp" line="3319"/>
         <source>Playing %1</source>
         <translation>Afspelen van %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3318"/>
+        <location filename="../basegui.cpp" line="3320"/>
         <source>Pause</source>
         <translation>Pauze</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3319"/>
+        <location filename="../basegui.cpp" line="3321"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
@@ -1492,7 +1491,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
         <translation>&amp;Commandoregel-opties</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2922"/>
+        <location filename="../basegui.cpp" line="2924"/>
         <source>SMPlayer command line options</source>
         <translation>SMPlayer commandoregel-opties</translation>
     </message>
@@ -1512,32 +1511,32 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
         <translation>Video-equalizer herstellen</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3762"/>
+        <location filename="../basegui.cpp" line="3764"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer is onverwachts beëindigd.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3763"/>
+        <location filename="../basegui.cpp" line="3765"/>
         <source>Exit code: %1</source>
         <translation>Afsluitcode: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3780"/>
+        <location filename="../basegui.cpp" line="3782"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer kon niet gestart worden.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3781"/>
+        <location filename="../basegui.cpp" line="3783"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Controleer het MPlayer pad in voorkeuren.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3783"/>
+        <location filename="../basegui.cpp" line="3785"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer is gecrashed.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3784"/>
+        <location filename="../basegui.cpp" line="3786"/>
         <source>See the log for more info.</source>
         <translation>Zie het log voor meer info.</translation>
     </message>
@@ -1582,12 +1581,12 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
         <translation>Contekstmenu tonen</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2721"/>
+        <location filename="../basegui.cpp" line="2723"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2775"/>
+        <location filename="../basegui.cpp" line="2777"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>De CDROM- / DVD-stations zijn nog niet geconfigureerd.
@@ -1685,42 +1684,42 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
 <context>
     <name>Core</name>
     <message>
-        <location filename="../corelib/core.cpp" line="2112"/>
+        <location filename="../corelib/core.cpp" line="2114"/>
         <source>Brightness: %1</source>
         <translation>Helderheid: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2127"/>
+        <location filename="../corelib/core.cpp" line="2129"/>
         <source>Contrast: %1</source>
         <translation>Contrast: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2141"/>
+        <location filename="../corelib/core.cpp" line="2143"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2155"/>
+        <location filename="../corelib/core.cpp" line="2157"/>
         <source>Hue: %1</source>
         <translation>Tint: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2169"/>
+        <location filename="../corelib/core.cpp" line="2171"/>
         <source>Saturation: %1</source>
         <translation>Verzadiging: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2289"/>
+        <location filename="../corelib/core.cpp" line="2291"/>
         <source>Volume: %1</source>
         <translation>Volume: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="3044"/>
+        <location filename="../corelib/core.cpp" line="3048"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2408"/>
+        <location filename="../corelib/core.cpp" line="2410"/>
         <source>Font scale: %1</source>
         <translation>Lettertype-schaal: %1</translation>
     </message>
@@ -3560,12 +3559,12 @@ Wilt u het overschrijven?</translation>
 <context>
     <name>PrefAdvanced</name>
     <message>
-        <location filename="../prefadvanced.cpp" line="332"/>
+        <location filename="../prefadvanced.cpp" line="355"/>
         <source>Advanced</source>
         <translation>Geavanceerd</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="86"/>
+        <location filename="../prefadvanced.cpp" line="90"/>
         <source>Auto</source>
         <translation>Automatisch</translation>
     </message>
@@ -3590,7 +3589,7 @@ Wilt u het overschrijven?</translation>
         <translation type="obsolete">Extra opties voor MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="239"/>
+        <location filename="../prefadvanced.ui" line="253"/>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
@@ -3599,7 +3598,7 @@ Schrijf ze gescheiden door spaties.
 Voorbeeld: -flip -nosound</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="301"/>
+        <location filename="../prefadvanced.ui" line="315"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
@@ -3608,7 +3607,7 @@ Ze moeten van elkaar gescheiden worden door &quot;,&quot;. Gebruik geen spaties!
 Voorbeeld: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="363"/>
+        <location filename="../prefadvanced.ui" line="377"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
         <translation>En tot slot audiofilters. Dezelfde regel als voor videofilters.
@@ -3625,54 +3624,54 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
         <translation type="obsolete">&amp;Logs</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="403"/>
+        <location filename="../prefadvanced.cpp" line="434"/>
         <source>Log MPlayer output</source>
         <translation>MPlayer uitvoer loggen</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="396"/>
+        <location filename="../prefadvanced.cpp" line="427"/>
         <source>Log SMPlayer output</source>
         <translation>SMPlayer uitvoer loggen</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="577"/>
+        <location filename="../prefadvanced.ui" line="591"/>
         <source>This option is mainly intended for debugging the application.</source>
         <translation>Deze optie is vooral bedoeld om het programma te debuggen.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="417"/>
+        <location filename="../prefadvanced.ui" line="431"/>
         <source>&amp;MPlayer language</source>
         <translation>&amp;MPlayer taal</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="429"/>
+        <location filename="../prefadvanced.ui" line="443"/>
         <source>SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br&gt;&lt;br&gt;
 The drop-down lists may provide already made regular expression for several languages.</source>
         <translation>SMPlayer moet de uitvoer van MPlayer lezen en verwerken en daardoor is SMPlayer afhankelijk van Engelse tekst. Indien er gebruik gemaakt wordt van een anderstalige MPlayer moeten de onderstaande teksten worden gewijzigd. (Technisch gesproken kunt u het beste reguliere expressies invoeren)&lt;br /&gt;&lt;br /&gt;
 De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="348"/>
+        <location filename="../prefadvanced.cpp" line="393"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
         <translation>Deze optie aanvinken kan flikkering verminderen, maar het kan ook een foutieve weergave van de video veroorzaken.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="407"/>
+        <location filename="../prefadvanced.cpp" line="438"/>
         <source>If checked, smplayer will store the output of mplayer (you can see it in &lt;b&gt;Options-&gt;View logs-&gt;mplayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
         <translation>Vink deze optie aan om de uitvoer van mplayer op te slaan (u kunt de uitvoer bekijken via &lt;b&gt;Opties-&gt;Bekijk logs-&gt;mplayer&lt;/b&gt;). In het geval van problemen kan deze log belangrijke informatie bevatten, dus het wordt aanbevolen om deze optie aan te vinken.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="401"/>
+        <location filename="../prefadvanced.cpp" line="432"/>
         <source>If this option is checked, smplayer will store the debugging messages that smplayer outputs (you can see the log in &lt;b&gt;Options-&gt;View logs-&gt;smplayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
         <translation>Vink deze optie aan om de debugberichten van smplayer op te slaan (u kunt de berichten bekijken via &lt;b&gt;Opties-&gt;Bekijk logs-&gt;smplayer&lt;/b&gt;). Deze informatie kan heel nuttig zijn voor de ontwikkelaar indien u tegen bugs aanloopt.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="419"/>
+        <location filename="../prefadvanced.cpp" line="450"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Filter voor SMPlayer logs</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="423"/>
+        <location filename="../prefadvanced.cpp" line="454"/>
         <source>This option allows to filter the smplayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>Met deze optie kunt u de smplayer berichten filteren die in het log worden opgeslagen. U kunt hier eender welke reguliere expressie neerzetten.&lt;br&gt;Bijvoorbeeld: &lt;i&gt;^Core::.*&lt;/i&gt; zal alleen regels tonen die beginnen met &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
@@ -3682,27 +3681,27 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>&amp;Monitor aspect:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="102"/>
+        <location filename="../prefadvanced.ui" line="131"/>
         <source>&amp;Run MPlayer in its own window</source>
         <translation>&amp;Laat MPlayer videobestanden in een eigen venster afspelen</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="262"/>
+        <location filename="../prefadvanced.ui" line="276"/>
         <source>&amp;Options:</source>
         <translation>&amp;Opties:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="324"/>
+        <location filename="../prefadvanced.ui" line="338"/>
         <source>V&amp;ideo filters:</source>
         <translation>V&amp;ideofilters:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="385"/>
+        <location filename="../prefadvanced.ui" line="399"/>
         <source>Audio &amp;filters:</source>
         <translation>Audio&amp;filters:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="124"/>
+        <location filename="../prefadvanced.ui" line="174"/>
         <source>&amp;Colorkey:</source>
         <translation>&amp;Kleursleutel:</translation>
     </message>
@@ -3717,224 +3716,239 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation type="obsolete">&amp;MPlayer uitvoer loggen</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="528"/>
+        <location filename="../prefadvanced.ui" line="542"/>
         <source>Log &amp;SMPlayer output</source>
         <translation>&amp;SMPlayer uitvoer loggen</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="587"/>
+        <location filename="../prefadvanced.ui" line="601"/>
         <source>&amp;Filter for SMPlayer logs:</source>
         <translation>&amp;Filter voor SMPlayer logs:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="443"/>
+        <location filename="../prefadvanced.ui" line="457"/>
         <source>&amp;End of file:</source>
         <translation>&amp;Einde van bestand:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="456"/>
+        <location filename="../prefadvanced.ui" line="470"/>
         <source>&amp;No video:</source>
         <translation>&amp;Geen video:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="149"/>
+        <location filename="../prefadvanced.ui" line="199"/>
         <source>C&amp;hange...</source>
         <translation>&amp;Wijzigen...</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="394"/>
+        <location filename="../prefadvanced.cpp" line="425"/>
         <source>Logs</source>
         <translation>Logs</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="535"/>
+        <location filename="../prefadvanced.ui" line="549"/>
         <source>Log MPlayer &amp;output</source>
         <translation>&amp;MPlayer uitvoer loggen</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="227"/>
+        <location filename="../prefadvanced.ui" line="241"/>
         <source>Options for MP&amp;layer</source>
         <translation>Opties voor MP&amp;layer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="409"/>
+        <location filename="../prefadvanced.cpp" line="440"/>
         <source>Autosave MPlayer log</source>
         <translation>MPlayer log automatisch opslaan</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="413"/>
+        <location filename="../prefadvanced.cpp" line="444"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
         <translation>Als deze optie is aangevinkt, dan zal elke keer als er een bestand begint te spelen het MPlayer-log worden opgeslagen in het opgegeven bestand. Het is bedoelt voor externe toepassingen, zodat het informatie kan krijgen over het bestand dat u afspeelt.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="415"/>
+        <location filename="../prefadvanced.cpp" line="446"/>
         <source>Autosave MPlayer log filename</source>
         <translation>Bestandsnaam voor automatisch opgeslagen MPlayer log</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="417"/>
+        <location filename="../prefadvanced.cpp" line="448"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
         <translation>Voer hier het pad en bestandsnaam in dat gebruikt zal worden om het MPlayer log op te slaan.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="542"/>
+        <location filename="../prefadvanced.ui" line="556"/>
         <source>A&amp;utosave MPlayer log to file</source>
         <translation>MPlayer log a&amp;utomatisch in bestand opslaan</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="351"/>
+        <location filename="../prefadvanced.cpp" line="382"/>
         <source>Pass short filenames (8+3) to MPlayer</source>
         <translation>Korte bestandsnamen (8+3) aan MPlayer doorgeven</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="355"/>
+        <location filename="../prefadvanced.cpp" line="386"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
         <translation>MPlayer kan momenteel geen bestanden openen die karakters bevatten die buiten de lokale codepage vallen. Door deze optie aan te vinken zal SMPlayer de korte versie van de bestandsnamen aan MPlayer doorgeven, en zal ze zodoende kunnen openen.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="174"/>
+        <location filename="../prefadvanced.ui" line="145"/>
         <source>&amp;Pass short filenames (8+3) to MPlayer</source>
         <translation>&amp;Korte bestandsnamen (8+3) aan MPlayer doorgeven</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="334"/>
+        <location filename="../prefadvanced.cpp" line="357"/>
         <source>Monitor aspect</source>
         <translation>Monitor aspect</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="335"/>
+        <location filename="../prefadvanced.cpp" line="358"/>
         <source>Select the aspect ratio of your monitor.</source>
         <translation>Kies de aspectverhouding van uw monitor.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="337"/>
+        <location filename="../prefadvanced.cpp" line="366"/>
         <source>Run MPlayer in its own window</source>
         <translation>MPlayer in eigen venster uitvoeren</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="343"/>
+        <location filename="../prefadvanced.cpp" line="372"/>
         <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
         <translation>Als u deze optie aanvinkt, zal het MPlayer videovenster niet in het hoofdvenster van SMPlayer worden ingebed, maar in plaats daarvan een eigen venster gebruiken. Merk op dat toetsenbord- en muishandelingen rechtstreeks door MPlayer zullen worden afgehandeld, dit betekent dat sneltoetsen en muisklikken waarschijnlijk niet zullen werken zoals verwacht zodra het MPlayer-venster de focus heeft.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="359"/>
+        <location filename="../prefadvanced.cpp" line="397"/>
         <source>Colorkey</source>
         <translation>Kleursleutel</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="362"/>
+        <location filename="../prefadvanced.cpp" line="400"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
         <translation>Als u delen van de video over een ander venster heen ziet, dan kunt u de kleursleutel wijzigen om het te corrigeren. Probeer een kleur te kiezen die dicht bij zwart ligt.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="372"/>
+        <location filename="../prefadvanced.cpp" line="403"/>
         <source>Options for MPlayer</source>
         <translation>Opties voor MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="374"/>
+        <location filename="../prefadvanced.cpp" line="405"/>
         <source>Options</source>
         <translation>Opties</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="376"/>
+        <location filename="../prefadvanced.cpp" line="407"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
         <translation>Hier kunt u opties voor MPlayer intypen. Schrijf ze gescheiden door spaties.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="378"/>
+        <location filename="../prefadvanced.cpp" line="409"/>
         <source>Video filters</source>
         <translation>Videofilters</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="380"/>
+        <location filename="../prefadvanced.cpp" line="411"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>Hier kunt u videofilters voor MPlayer toevoegen. Schrijf ze gescheiden door komma&apos;s. Gebruik geen spaties!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="382"/>
+        <location filename="../prefadvanced.cpp" line="413"/>
         <source>Audio filters</source>
         <translation>Audio filters</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="384"/>
+        <location filename="../prefadvanced.cpp" line="415"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>Hier kunt u audiofilters voor MPlayer toevoegen. Schrijf ze gescheiden door komma&apos;s. Gebruik geen spaties!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="386"/>
+        <location filename="../prefadvanced.cpp" line="417"/>
         <source>MPlayer language</source>
         <translation>MPlayer taal</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="388"/>
+        <location filename="../prefadvanced.cpp" line="419"/>
         <source>End of file</source>
         <translation>Einde van bestand</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="389"/>
+        <location filename="../prefadvanced.cpp" line="420"/>
         <source>Select or type a regular expression for &apos;End of file&apos;</source>
         <translation>Kies of typ een reguliere expressie voor &apos;Einde van bestand&apos;</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="391"/>
+        <location filename="../prefadvanced.cpp" line="422"/>
         <source>No video</source>
         <translation>Geen video</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="392"/>
+        <location filename="../prefadvanced.cpp" line="423"/>
         <source>Select or type a regular expression for &apos;No video&apos;</source>
         <translation>Kies of typ een reguliere expressie voor &apos;Geen video&apos;</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="346"/>
+        <location filename="../prefadvanced.cpp" line="391"/>
         <source>Repaint the background of the video window</source>
         <translation>Repaint uitvoeren op de achtergrond van het videovenster</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="109"/>
+        <location filename="../prefadvanced.ui" line="152"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
         <translation>Repaint uitvoeren op de achtergron&amp;d van het videovenster</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="365"/>
+        <location filename="../prefadvanced.cpp" line="360"/>
         <source>IPv4</source>
         <translation>IPv4</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="366"/>
+        <location filename="../prefadvanced.cpp" line="361"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
         <translation>IPv4 op netwerkverbindingen gebruiken. Valt automatisch terug op IPv6.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="368"/>
+        <location filename="../prefadvanced.cpp" line="363"/>
         <source>IPv6</source>
         <translation>IPv6</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="369"/>
+        <location filename="../prefadvanced.cpp" line="364"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
         <translation>IPv6 op netwerkverbindingen gebruiken. Valt automatisch terug op IPv4.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="181"/>
+        <location filename="../prefadvanced.ui" line="102"/>
         <source>Network Connection</source>
         <translation>Netwerkverbinding</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="193"/>
+        <location filename="../prefadvanced.ui" line="114"/>
         <source>IPv&amp;4</source>
         <translation>IPv&amp;4</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="200"/>
+        <location filename="../prefadvanced.ui" line="121"/>
         <source>IPv&amp;6</source>
         <translation>IPv&amp;6</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="516"/>
+        <location filename="../prefadvanced.ui" line="530"/>
         <source>Lo&amp;gs</source>
         <translation>Lo&amp;gs</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="374"/>
+        <source>Rebuild index if needed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="379"/>
+        <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
+        <translation type="unfinished">Herbouwt bestandsindex indien geen index werd gevonden, hierdoor wordt zoeken mogelijk gemaakt. Handig bij onderbroken/niet complete downloads, of slecht gemaakte bestanden. De optie werkt alleen als de onderliggende media zoeken ondersteunt (d.w.z. niet met stdin, pipe, etc).&lt;br&gt;Let op: het aanmaken van de index kan enige tijd duren.</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="138"/>
+        <source>Rebuild &amp;index if needed</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -5602,7 +5616,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="243"/>
+        <location filename="../prefperformance.cpp" line="233"/>
         <source>Performance</source>
         <translation>Prestaties</translation>
     </message>
@@ -5657,22 +5671,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>idle</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="306"/>
+        <location filename="../prefperformance.cpp" line="289"/>
         <source>Cache</source>
         <translation>Cache</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="558"/>
+        <location filename="../prefperformance.ui" line="544"/>
         <source>KB</source>
         <translation>KB</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="451"/>
+        <location filename="../prefperformance.ui" line="437"/>
         <source>Setting a cache may improve performance on slow media</source>
         <translation>Een cache instellen kan de prestaties van trage media verbeteren</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="253"/>
+        <location filename="../prefperformance.cpp" line="243"/>
         <source>Allow frame drop</source>
         <translation>Framedrops toestaan</translation>
     </message>
@@ -5687,7 +5701,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Synchronisatie</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="280"/>
+        <location filename="../prefperformance.cpp" line="270"/>
         <source>Audio/video auto synchronization</source>
         <translation>Automatische audio/video synchronisatie</translation>
     </message>
@@ -5697,7 +5711,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Factor:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="284"/>
+        <location filename="../prefperformance.cpp" line="274"/>
         <source>Fast audio track switching</source>
         <translation>Snel wisselen van audiospoor</translation>
     </message>
@@ -5707,7 +5721,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Snel zoeken naar hoofdstukken in DVD&apos;s</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="250"/>
+        <location filename="../prefperformance.cpp" line="240"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Prioriteit van het mplayer proces instellen volgens de vooraf gedefinieerde prioriteiten die onder Windows beschikbaar zijn.&lt;br&gt;&lt;b&gt;WAARSCHUWING:&lt;/b&gt; Gebruik van realtime prioriteit kan het systeem laten vastlopen.</translation>
     </message>
@@ -5722,22 +5736,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Deze optie bepaalt hoeveel geheugen (in kBytes) gebruikt moet worden bij het bufferen van een bestand of URL. Vooral handig bij trage media.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="254"/>
+        <location filename="../prefperformance.cpp" line="244"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Weergeven van sommige frames overslaan om A/V sync te behouden op trage systemen.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="256"/>
+        <location filename="../prefperformance.cpp" line="246"/>
         <source>Allow hard frame drop</source>
         <translation>Harde framedrops toestaan</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="258"/>
+        <location filename="../prefperformance.cpp" line="248"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>Intenser framedroppen (onderbreekt decodering). Leidt tot beeldvervorming!</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="282"/>
+        <location filename="../prefperformance.cpp" line="272"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>Geleidelijk A/V sync bijstellen, gebaseerd op gemeten audio-vertaging.</translation>
     </message>
@@ -5789,12 +5803,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="299"/>
         <source>Create index if needed</source>
-        <translation>Index aanmaken indien nodig</translation>
+        <translation type="obsolete">Index aanmaken indien nodig</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="304"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
-        <translation>Herbouwt bestandsindex indien geen index werd gevonden, hierdoor wordt zoeken mogelijk gemaakt. Handig bij onderbroken/niet complete downloads, of slecht gemaakte bestanden. De optie werkt alleen als de onderliggende media zoeken ondersteunt (d.w.z. niet met stdin, pipe, etc).&lt;br&gt;Let op: het aanmaken van de index kan enige tijd duren.</translation>
+        <translation type="obsolete">Herbouwt bestandsindex indien geen index werd gevonden, hierdoor wordt zoeken mogelijk gemaakt. Handig bij onderbroken/niet complete downloads, of slecht gemaakte bestanden. De optie werkt alleen als de onderliggende media zoeken ondersteunt (d.w.z. niet met stdin, pipe, etc).&lt;br&gt;Let op: het aanmaken van de index kan enige tijd duren.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="409"/>
@@ -5802,12 +5816,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Index aan&amp;maken indien nodig</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="296"/>
+        <location filename="../prefperformance.cpp" line="286"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Indien aangevinkt, zal het proberen de snelste methode te gebruiken om naar hoofdstukken te zoeken, maar het is mogelijk dat dit met sommige schijven niet werkt.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="264"/>
+        <location filename="../prefperformance.cpp" line="254"/>
         <source>Skip loop filter</source>
         <translation>Loopfilter overslaan</translation>
     </message>
@@ -5817,62 +5831,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="291"/>
+        <location filename="../prefperformance.cpp" line="281"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>Mogelijke waarden:&lt;br&gt; &lt;b&gt;Ja&lt;/b&gt;: het zal proberen de snelste methode voor het wisselen van het audiospoor te gebruiken (het werkt mogelijk niet met bepaalde indelingen).&lt;br&gt; &lt;b&gt;Nee&lt;/b&gt;: het MPlayer proces zal worden herstart zodra u van audiospoor wisselt.&lt;br&gt; &lt;b&gt;Automatisch&lt;/b&gt;: SMPlayer beslist zelf wat het doet, afhankelijk van de MPlayer versie.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="308"/>
+        <location filename="../prefperformance.cpp" line="291"/>
         <source>Cache for files</source>
         <translation>Bestandscache</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="310"/>
+        <location filename="../prefperformance.cpp" line="293"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>Deze optie bepaalt hoeveel geheugen (in kBytes) gebruikt moet worden bij het bufferen van een bestand.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="312"/>
+        <location filename="../prefperformance.cpp" line="295"/>
         <source>Cache for streams</source>
         <translation>Streamcache</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="314"/>
+        <location filename="../prefperformance.cpp" line="297"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>Deze optie bepaalt hoeveel geheugen (in kBytes) gebruikt moet worden bij het bufferen van een URL.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="316"/>
+        <location filename="../prefperformance.cpp" line="299"/>
         <source>Cache for DVDs</source>
         <translation>DVD-cache</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="319"/>
+        <location filename="../prefperformance.cpp" line="302"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>Deze optie bepaalt hoeveel geheugen (in kBytes) gebruikt moet worden bij het bufferen van een DVD.&lt;br&gt;&lt;b&gt;Waarschuwing:&lt;/b&gt; Het is mogelijk dat zoeken niet correct werkt (inclusief wisselen van hoofdstuk) indien er een buffer voor DVD&apos;s wordt gebruikt..</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="367"/>
         <source>C&amp;reate index if needed</source>
-        <translation>&amp;Index aanmaken indien nodig</translation>
+        <translation type="obsolete">&amp;Index aanmaken indien nodig</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="388"/>
+        <location filename="../prefperformance.ui" line="374"/>
         <source>&amp;Cache</source>
         <translation>&amp;Cache</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="441"/>
+        <location filename="../prefperformance.ui" line="427"/>
         <source>Cache for &amp;DVDs:</source>
         <translation>&amp;DVD-cache:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="461"/>
+        <location filename="../prefperformance.ui" line="447"/>
         <source>Cache for &amp;local files:</source>
         <translation>&amp;Locale bestandscache:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="471"/>
+        <location filename="../prefperformance.ui" line="457"/>
         <source>Cache for &amp;streams:</source>
         <translation>&amp;Streamcache:</translation>
     </message>
@@ -5897,32 +5911,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Loop&amp;filter</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="271"/>
+        <location filename="../prefperformance.cpp" line="261"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>Met deze optie kunt u tijdens het decoderen van H.264 media het loopfilter overslaan (ook deblocking genoemd). Omdat het gefilterde frame eigenlijk gebruikt zou worden als vergelijkingsmateriaal voor het decoderen van afhankelijke frames, heeft dit een slechter effect op de kwaliteit dan het niet toepassen van deblocking op bijv. MPEG-2 video. Maar voor HDTV met een hoge bitrate biedt dit in elk geval wel een grote snelheidswinst zonder zichtbaar kwaliteitsverlies.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="272"/>
+        <location filename="../prefperformance.cpp" line="262"/>
         <source>Possible values:</source>
         <translation>Mogelijke waarden:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="273"/>
+        <location filename="../prefperformance.cpp" line="263"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>&lt;b&gt;Geactiveerd&lt;/b&gt;: het loopfilter wordt niet overgeslagen</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="275"/>
+        <location filename="../prefperformance.cpp" line="265"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;Overslaan (altijd)&lt;/b&gt;: het loopfilter wordt overgeslagen, ongeacht de resolutie van de video</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="278"/>
+        <location filename="../prefperformance.cpp" line="268"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;Alleen bij HD video&apos;s overslaan&lt;/b&gt;: het loopfilter wordt alleen overgeslagen bij video&apos;s waarvan de hoogte %1 of groter is.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="294"/>
+        <location filename="../prefperformance.cpp" line="284"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Snel zoeken naar hoofdstukken in DVD&apos;s</translation>
     </message>
@@ -5932,42 +5946,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Snel &amp;zoeken naar hoofdstukken in DVD&apos;s</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="321"/>
+        <location filename="../prefperformance.cpp" line="304"/>
         <source>Cache for audio CDs</source>
         <translation>Audio CD-cache</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="323"/>
+        <location filename="../prefperformance.cpp" line="306"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation>Deze optie bepaalt hoeveel geheugen (in kBytes) gebruikt moet worden bij het bufferen van een audio CD.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="541"/>
+        <location filename="../prefperformance.ui" line="527"/>
         <source>Cache for &amp;audio CDs:</source>
         <translation>&amp;Audio CD-cache:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="325"/>
+        <location filename="../prefperformance.cpp" line="308"/>
         <source>Cache for VCDs</source>
         <translation>VCD-cache</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="327"/>
+        <location filename="../prefperformance.cpp" line="310"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation>Deze optie bepaalt hoeveel geheugen (in kBytes) gebruikt moet worden bij het bufferen van een VCD.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="585"/>
+        <location filename="../prefperformance.ui" line="571"/>
         <source>Cache for &amp;VCDs:</source>
         <translation>&amp;VCD-cache:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="260"/>
+        <location filename="../prefperformance.cpp" line="250"/>
         <source>Threads for decoding</source>
         <translation>Threads voor decoderen</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="262"/>
+        <location filename="../prefperformance.cpp" line="252"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
         <translation>Stelt het aantal threads in gebruikt voor het decoderen. Alleen voor MPEG-1/2 en H.264</translation>
     </message>

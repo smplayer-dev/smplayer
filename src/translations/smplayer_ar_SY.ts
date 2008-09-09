@@ -639,7 +639,7 @@ Do you want to overwrite?</source>
         <translation type="unfinished">نسبة الطول الى الارتفاع الحقيقية</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2257"/>
+        <location filename="../basegui.cpp" line="2259"/>
         <source>&amp;None</source>
         <translation type="unfinished">بلا</translation>
     </message>
@@ -884,74 +884,74 @@ Do you want to overwrite?</source>
         <translation type="unfinished">SMPlayer حول مشغل</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2372"/>
+        <location filename="../basegui.cpp" line="2374"/>
         <source>&lt;empty&gt;</source>
         <translation type="unfinished">فارغ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2722"/>
+        <location filename="../basegui.cpp" line="2724"/>
         <source>Video</source>
         <translation type="unfinished">الفيديو</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2906"/>
+        <location filename="../basegui.cpp" line="2908"/>
         <source>Audio</source>
         <translation type="unfinished">الصوت</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2724"/>
+        <location filename="../basegui.cpp" line="2726"/>
         <source>Playlists</source>
         <translation type="unfinished">قوائم التشغيل</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2907"/>
+        <location filename="../basegui.cpp" line="2909"/>
         <source>All files</source>
         <translation type="unfinished">كل الملفات</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2904"/>
+        <location filename="../basegui.cpp" line="2906"/>
         <source>Choose a file</source>
         <translation type="unfinished">اختر ملفا</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2772"/>
+        <location filename="../basegui.cpp" line="2774"/>
         <source>SMPlayer - Information</source>
         <translation type="unfinished">SMPlayer -  معلومات</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2775"/>
+        <location filename="../basegui.cpp" line="2777"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished">مشغل الاقراص الليزرية غير معد بعد
 ستظهر نافذة اعدادا ت الاقراص الليزرية الآن</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2849"/>
+        <location filename="../basegui.cpp" line="2851"/>
         <source>Choose a directory</source>
         <translation type="unfinished">اختر مسارا ً</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2885"/>
+        <location filename="../basegui.cpp" line="2887"/>
         <source>Subtitles</source>
         <translation type="unfinished">الترجمــات</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2937"/>
+        <location filename="../basegui.cpp" line="2939"/>
         <source>About Qt</source>
         <translation type="unfinished"> Qt حول</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3317"/>
+        <location filename="../basegui.cpp" line="3319"/>
         <source>Playing %1</source>
         <translation type="unfinished">%1 تشغيل</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3318"/>
+        <location filename="../basegui.cpp" line="3320"/>
         <source>Pause</source>
         <translation type="unfinished">ايقاف مؤقت</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3319"/>
+        <location filename="../basegui.cpp" line="3321"/>
         <source>Stop</source>
         <translation type="unfinished">ايقاف</translation>
     </message>
@@ -1241,7 +1241,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished">اعدادات موجه الأوامر</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2922"/>
+        <location filename="../basegui.cpp" line="2924"/>
         <source>SMPlayer command line options</source>
         <translation type="unfinished">اعدادات موجه اوامر المشغل</translation>
     </message>
@@ -1261,32 +1261,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished">اعادة موازن الفيديو الى الافتراضي</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3762"/>
+        <location filename="../basegui.cpp" line="3764"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation type="unfinished">بشكل غير متوقع MPlayer تم اغلاق</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3763"/>
+        <location filename="../basegui.cpp" line="3765"/>
         <source>Exit code: %1</source>
         <translation type="unfinished"> %1 كود الخروج</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3780"/>
+        <location filename="../basegui.cpp" line="3782"/>
         <source>MPlayer failed to start.</source>
         <translation type="unfinished">MPlayer فشل قي بدء </translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3781"/>
+        <location filename="../basegui.cpp" line="3783"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation type="unfinished">في الاعدادات MPlayer قم بتفحص مسار</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3783"/>
+        <location filename="../basegui.cpp" line="3785"/>
         <source>MPlayer has crashed.</source>
         <translation type="unfinished">MPlayer ضرر في</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3784"/>
+        <location filename="../basegui.cpp" line="3786"/>
         <source>See the log for more info.</source>
         <translation type="unfinished">شاهد التقرير لمزيد من المعلومات</translation>
     </message>
@@ -1331,7 +1331,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished">اظهار القائمة اليمنى</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2721"/>
+        <location filename="../basegui.cpp" line="2723"/>
         <source>Multimedia</source>
         <translation type="unfinished">الوسائط الأعلامية</translation>
     </message>
@@ -1422,42 +1422,42 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../corelib/core.cpp" line="2112"/>
+        <location filename="../corelib/core.cpp" line="2114"/>
         <source>Brightness: %1</source>
         <translation type="unfinished"> %1 السطوع</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2127"/>
+        <location filename="../corelib/core.cpp" line="2129"/>
         <source>Contrast: %1</source>
         <translation type="unfinished"> %1 التغميق</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2141"/>
+        <location filename="../corelib/core.cpp" line="2143"/>
         <source>Gamma: %1</source>
         <translation type="unfinished"> %1 ألوان غاما</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2155"/>
+        <location filename="../corelib/core.cpp" line="2157"/>
         <source>Hue: %1</source>
         <translation type="unfinished">%1 الشكل</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2169"/>
+        <location filename="../corelib/core.cpp" line="2171"/>
         <source>Saturation: %1</source>
         <translation type="unfinished"> %1 الإشباع</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2289"/>
+        <location filename="../corelib/core.cpp" line="2291"/>
         <source>Volume: %1</source>
         <translation type="unfinished">%1 درجة الصوت</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="3044"/>
+        <location filename="../corelib/core.cpp" line="3048"/>
         <source>Zoom: %1</source>
         <translation type="unfinished"> %1 التقريب</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2408"/>
+        <location filename="../corelib/core.cpp" line="2410"/>
         <source>Font scale: %1</source>
         <translation type="unfinished"> %1 حجم الخط</translation>
     </message>
@@ -3137,12 +3137,12 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefAdvanced</name>
     <message>
-        <location filename="../prefadvanced.cpp" line="332"/>
+        <location filename="../prefadvanced.cpp" line="355"/>
         <source>Advanced</source>
         <translation type="unfinished">متقدم</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="86"/>
+        <location filename="../prefadvanced.cpp" line="90"/>
         <source>Auto</source>
         <translation type="unfinished">تلقائي</translation>
     </message>
@@ -3157,7 +3157,7 @@ Do you want to overwrite?</source>
         <translation type="unfinished">ايقونة</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="239"/>
+        <location filename="../prefadvanced.ui" line="253"/>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
@@ -3166,66 +3166,66 @@ MPlayer.بامكانك هنا اضافة اعدادات اضافية لـاكت�
 Example: -flip -nosound</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="301"/>
+        <location filename="../prefadvanced.ui" line="315"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
         <translation type="unfinished">You can also pass additional video filters.(new line)Separate them with &quot;,&quot;. Do not use spaces!(new line)Example: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="363"/>
+        <location filename="../prefadvanced.ui" line="377"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
         <translation type="unfinished">And finally audio filters. Same rule as for video filters.(new line)Example: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="403"/>
+        <location filename="../prefadvanced.cpp" line="434"/>
         <source>Log MPlayer output</source>
         <translation type="unfinished">MPlayer مكان حفظ تقارير</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="396"/>
+        <location filename="../prefadvanced.cpp" line="427"/>
         <source>Log SMPlayer output</source>
         <translation type="unfinished">SMPlayer مكان حفظ تقارير</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="577"/>
+        <location filename="../prefadvanced.ui" line="591"/>
         <source>This option is mainly intended for debugging the application.</source>
         <translation type="unfinished">هذا الخيارمهم بشكل رئيسي لتنقيح التطبيق.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="417"/>
+        <location filename="../prefadvanced.ui" line="431"/>
         <source>&amp;MPlayer language</source>
         <translation type="unfinished">MPlayer  لغـــة</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="429"/>
+        <location filename="../prefadvanced.ui" line="443"/>
         <source>SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br&gt;&lt;br&gt;
 The drop-down lists may provide already made regular expression for several languages.</source>
         <translation type="unfinished">SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br&gt;&lt;br&gt;The drop-down lists may provide already made regular expression for several languages.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="348"/>
+        <location filename="../prefadvanced.cpp" line="393"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
         <translation type="unfinished">تأشير هذا الأعداد ربما يسبب وميضا , و ربما يقوم بأنتاج فيديو لا يظهر أيضا ً</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="407"/>
+        <location filename="../prefadvanced.cpp" line="438"/>
         <source>If checked, smplayer will store the output of mplayer (you can see it in &lt;b&gt;Options-&gt;View logs-&gt;mplayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
         <translation type="unfinished">في حال تأشير هذا الخيارسيتم حفظ التقارير في اعدادات-اظهار التقاريرفي حالة أي مشكلةفهذا التقرير سيحتوي معلومات هامة لذا من المستحسن ابقاء هذا المربع مؤشر</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="401"/>
+        <location filename="../prefadvanced.cpp" line="432"/>
         <source>If this option is checked, smplayer will store the debugging messages that smplayer outputs (you can see the log in &lt;b&gt;Options-&gt;View logs-&gt;smplayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
         <translation type="unfinished">في حال تأشير هذا المربع سيتم حفظ رسائل التصحيح و هذه المعلومات مفيدة جدا للتطوير في حال وجود اخطاء لتصحيحها من قبل المبرمج</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="419"/>
+        <location filename="../prefadvanced.cpp" line="450"/>
         <source>Filter for SMPlayer logs</source>
         <translation type="unfinished"> SMPlayer تقرير فلاتر </translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="423"/>
+        <location filename="../prefadvanced.cpp" line="454"/>
         <source>This option allows to filter the smplayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation type="unfinished">&lt;i&gt;Core::&lt;/i&gt; هذا الخيار يسمح بحفظ تقارير فلاتر المشغل و اظهار الخطوط التي تبدأ بــ</translation>
     </message>
@@ -3235,248 +3235,263 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished">مراقب الشاشة</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="102"/>
+        <location filename="../prefadvanced.ui" line="131"/>
         <source>&amp;Run MPlayer in its own window</source>
         <translation type="unfinished"> الخاصة  MPlayer تشغيل في نافذة</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="262"/>
+        <location filename="../prefadvanced.ui" line="276"/>
         <source>&amp;Options:</source>
         <translation type="unfinished">اعدادات</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="324"/>
+        <location filename="../prefadvanced.ui" line="338"/>
         <source>V&amp;ideo filters:</source>
         <translation type="unfinished">فلاتر الفيــديو</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="385"/>
+        <location filename="../prefadvanced.ui" line="399"/>
         <source>Audio &amp;filters:</source>
         <translation type="unfinished">فلاتــر الصوت</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="124"/>
+        <location filename="../prefadvanced.ui" line="174"/>
         <source>&amp;Colorkey:</source>
         <translation type="unfinished">مفاتيح الألــوان</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="528"/>
+        <location filename="../prefadvanced.ui" line="542"/>
         <source>Log &amp;SMPlayer output</source>
         <translation type="unfinished">SMPlayer مكان حفظ تقارير</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="587"/>
+        <location filename="../prefadvanced.ui" line="601"/>
         <source>&amp;Filter for SMPlayer logs:</source>
         <translation type="unfinished"> SMPlayer تقارير فلاتر</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="443"/>
+        <location filename="../prefadvanced.ui" line="457"/>
         <source>&amp;End of file:</source>
         <translation type="unfinished">نهاية الملف</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="456"/>
+        <location filename="../prefadvanced.ui" line="470"/>
         <source>&amp;No video:</source>
         <translation type="unfinished">لا يوجد فيديو</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="149"/>
+        <location filename="../prefadvanced.ui" line="199"/>
         <source>C&amp;hange...</source>
         <translation type="unfinished">تغيير</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="394"/>
+        <location filename="../prefadvanced.cpp" line="425"/>
         <source>Logs</source>
         <translation type="unfinished">تقارير</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="535"/>
+        <location filename="../prefadvanced.ui" line="549"/>
         <source>Log MPlayer &amp;output</source>
         <translation type="unfinished"> MPlayer  مكان حفظ تقارير</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="227"/>
+        <location filename="../prefadvanced.ui" line="241"/>
         <source>Options for MP&amp;layer</source>
         <translation type="unfinished"> MP&amp;layer اعدادات لــ</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="409"/>
+        <location filename="../prefadvanced.cpp" line="440"/>
         <source>Autosave MPlayer log</source>
         <translation type="unfinished"> MPlayer حفظ تلقائي لتقارير</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="413"/>
+        <location filename="../prefadvanced.cpp" line="444"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
         <translation type="unfinished">If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="415"/>
+        <location filename="../prefadvanced.cpp" line="446"/>
         <source>Autosave MPlayer log filename</source>
         <translation type="unfinished">MPlayer حفظ تلقائي لتقارير</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="417"/>
+        <location filename="../prefadvanced.cpp" line="448"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
         <translation type="unfinished">ادخل هنا مسار و اسم الملف الذي سيستخدم لحفظ التقارير</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="542"/>
+        <location filename="../prefadvanced.ui" line="556"/>
         <source>A&amp;utosave MPlayer log to file</source>
         <translation type="unfinished">MPlayer حفظ تلقائي لتقارير</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="351"/>
+        <location filename="../prefadvanced.cpp" line="382"/>
         <source>Pass short filenames (8+3) to MPlayer</source>
         <translation type="unfinished">MPlayer تمرير اسماء الملفات القصيرة لــ</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="355"/>
+        <location filename="../prefadvanced.cpp" line="386"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
         <translation type="unfinished">لا يمكن حاليا ً للمشغل تشغيل اسم الملف الذي يحتوي كودات صفحات</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="174"/>
+        <location filename="../prefadvanced.ui" line="145"/>
         <source>&amp;Pass short filenames (8+3) to MPlayer</source>
         <translation type="unfinished">MPlayer تمرير اسماء الملفات القصيرة لــ</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="334"/>
+        <location filename="../prefadvanced.cpp" line="357"/>
         <source>Monitor aspect</source>
         <translation type="unfinished">مراقب الشاشة</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="335"/>
+        <location filename="../prefadvanced.cpp" line="358"/>
         <source>Select the aspect ratio of your monitor.</source>
         <translation type="unfinished">حدد قياسات ابعاد شاشتك</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="337"/>
+        <location filename="../prefadvanced.cpp" line="366"/>
         <source>Run MPlayer in its own window</source>
         <translation type="unfinished">في نافذته الخاصة  MPlayer تشغيل </translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="343"/>
+        <location filename="../prefadvanced.cpp" line="372"/>
         <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
         <translation type="unfinished">If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="359"/>
+        <location filename="../prefadvanced.cpp" line="397"/>
         <source>Colorkey</source>
         <translation type="unfinished">مفاتيح الألوان</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="362"/>
+        <location filename="../prefadvanced.cpp" line="400"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
         <translation type="unfinished">في حال رؤية اجزاء من الفيديو من اي نافذة اخرى بأمكانك تغيير مفاتيح الألوان لأصلاحها جرب اللون المحدد لأغلاق الفوارغ</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="372"/>
+        <location filename="../prefadvanced.cpp" line="403"/>
         <source>Options for MPlayer</source>
         <translation type="unfinished">MPlayer اعدادات</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="374"/>
+        <location filename="../prefadvanced.cpp" line="405"/>
         <source>Options</source>
         <translation type="unfinished">اعدادات</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="376"/>
+        <location filename="../prefadvanced.cpp" line="407"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
         <translation type="unfinished">بأمكانك هنا كتابة اعدادت المشغل ,اكتبهم بشكل منفصل</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="378"/>
+        <location filename="../prefadvanced.cpp" line="409"/>
         <source>Video filters</source>
         <translation type="unfinished">فلاتر الفيديو</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="380"/>
+        <location filename="../prefadvanced.cpp" line="411"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation type="unfinished">بأمكانك هنا اضافة فلاتر الفيديو للمشغل اكتبهم بشكل منفصل بأستخدام - لا تستخدم المساحات الفارغة</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="382"/>
+        <location filename="../prefadvanced.cpp" line="413"/>
         <source>Audio filters</source>
         <translation type="unfinished">فلاتر الصوت</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="384"/>
+        <location filename="../prefadvanced.cpp" line="415"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation type="unfinished">بأمكانك من هنا اضافة فلاتر الصوت اكتبهم بأستخدام - لا تستخدم المساحات الفارغة</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="386"/>
+        <location filename="../prefadvanced.cpp" line="417"/>
         <source>MPlayer language</source>
         <translation type="unfinished">MPlayer لغــة</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="388"/>
+        <location filename="../prefadvanced.cpp" line="419"/>
         <source>End of file</source>
         <translation type="unfinished">نهاية الملف</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="389"/>
+        <location filename="../prefadvanced.cpp" line="420"/>
         <source>Select or type a regular expression for &apos;End of file&apos;</source>
         <translation type="unfinished">حدد او اكتب التعبير المنتظم لنهاية الملف</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="391"/>
+        <location filename="../prefadvanced.cpp" line="422"/>
         <source>No video</source>
         <translation type="unfinished">لا يوجد فيديو</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="392"/>
+        <location filename="../prefadvanced.cpp" line="423"/>
         <source>Select or type a regular expression for &apos;No video&apos;</source>
         <translation type="unfinished">حدد او اكتب التعبير المنتظم لــ لا يوجد فيديو</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="346"/>
+        <location filename="../prefadvanced.cpp" line="391"/>
         <source>Repaint the background of the video window</source>
         <translation type="unfinished">إصبغ  خلفية نافذة الفيديو</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="109"/>
+        <location filename="../prefadvanced.ui" line="152"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
         <translation type="unfinished">إصبغ  خلفية نافذة الفيديو</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="365"/>
+        <location filename="../prefadvanced.cpp" line="360"/>
         <source>IPv4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="366"/>
+        <location filename="../prefadvanced.cpp" line="361"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="368"/>
+        <location filename="../prefadvanced.cpp" line="363"/>
         <source>IPv6</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="369"/>
+        <location filename="../prefadvanced.cpp" line="364"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="181"/>
+        <location filename="../prefadvanced.ui" line="102"/>
         <source>Network Connection</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="193"/>
+        <location filename="../prefadvanced.ui" line="114"/>
         <source>IPv&amp;4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="200"/>
+        <location filename="../prefadvanced.ui" line="121"/>
         <source>IPv&amp;6</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="516"/>
+        <location filename="../prefadvanced.ui" line="530"/>
         <source>Lo&amp;gs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="374"/>
+        <source>Rebuild index if needed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="379"/>
+        <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
+        <translation type="unfinished">Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="138"/>
+        <source>Rebuild &amp;index if needed</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4854,7 +4869,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="243"/>
+        <location filename="../prefperformance.cpp" line="233"/>
         <source>Performance</source>
         <translation type="unfinished">أعـــدادات</translation>
     </message>
@@ -4904,17 +4919,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">ضعيف</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="558"/>
+        <location filename="../prefperformance.ui" line="544"/>
         <source>KB</source>
         <translation type="unfinished">KB</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="451"/>
+        <location filename="../prefperformance.ui" line="437"/>
         <source>Setting a cache may improve performance on slow media</source>
         <translation type="unfinished">Setting a cache may improve performance on slow media</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="253"/>
+        <location filename="../prefperformance.cpp" line="243"/>
         <source>Allow frame drop</source>
         <translation type="unfinished">تمكين اسقاط الشرائح</translation>
     </message>
@@ -4924,32 +4939,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">التزامن</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="280"/>
+        <location filename="../prefperformance.cpp" line="270"/>
         <source>Audio/video auto synchronization</source>
         <translation type="unfinished">التزامن التلقائي لــ الفيديو / الصوت</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="250"/>
+        <location filename="../prefperformance.cpp" line="240"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation type="unfinished">تعيين اولوية المعالج وفقا للأولويات المعرفة الممكنة في النظام&lt;br&gt;&lt;b&gt;ملاحظة:&lt;/b&gt; استخدام اولوية الوقت الحقيقي ربما يجمد النظام.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="254"/>
+        <location filename="../prefperformance.cpp" line="244"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation type="unfinished"> على الأجهزة البطيئة A/V sync تخطي عرض بعض الشرائح لمعالجة</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="256"/>
+        <location filename="../prefperformance.cpp" line="246"/>
         <source>Allow hard frame drop</source>
         <translation type="unfinished">تمكين اسقاط الشرائح الصعبة</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="258"/>
+        <location filename="../prefperformance.cpp" line="248"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation type="unfinished">المزيد من شاشات العرض يؤدي الى تشويه الصورة</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="282"/>
+        <location filename="../prefperformance.cpp" line="272"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation type="unfinished">Gradually adjusts the A/V sync based on audio delay measurements.</translation>
     </message>
@@ -4991,30 +5006,30 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="299"/>
         <source>Create index if needed</source>
-        <translation type="unfinished">انشاء دليل اذا احتيج</translation>
+        <translation type="obsolete">انشاء دليل اذا احتيج</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="304"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
-        <translation type="unfinished">Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</translation>
+        <translation type="obsolete">Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="284"/>
+        <location filename="../prefperformance.cpp" line="274"/>
         <source>Fast audio track switching</source>
         <translation type="unfinished">تبديل سريع لمسار الصوت</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="294"/>
+        <location filename="../prefperformance.cpp" line="284"/>
         <source>Fast seek to chapters in dvds</source>
         <translation type="unfinished">تمرير سريع بين الفصول في الديفدي</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="296"/>
+        <location filename="../prefperformance.cpp" line="286"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation type="unfinished">If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="264"/>
+        <location filename="../prefperformance.cpp" line="254"/>
         <source>Skip loop filter</source>
         <translation type="unfinished">تخطي فلتر الاعادة</translation>
     </message>
@@ -5024,62 +5039,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="291"/>
+        <location filename="../prefperformance.cpp" line="281"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation type="unfinished">Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="308"/>
+        <location filename="../prefperformance.cpp" line="291"/>
         <source>Cache for files</source>
         <translation type="unfinished">معالج الملفات</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="310"/>
+        <location filename="../prefperformance.cpp" line="293"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation type="unfinished">الاعداد يحدد كم تستهلك من الذاكرة عند استخدام الذاكرة الوسيطة ملف ما</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="312"/>
+        <location filename="../prefperformance.cpp" line="295"/>
         <source>Cache for streams</source>
         <translation type="unfinished">معالجة الجداول</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="314"/>
+        <location filename="../prefperformance.cpp" line="297"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation type="unfinished">الاعداد يحدد كم تستهلك من الذاكرة عند استخدام الذاكرة الوسيطة رابط ما</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="316"/>
+        <location filename="../prefperformance.cpp" line="299"/>
         <source>Cache for DVDs</source>
         <translation type="unfinished">DVDs معالجة الــ</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="319"/>
+        <location filename="../prefperformance.cpp" line="302"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation type="unfinished">DVD الاعداد يحدد كم تستهلك من الذاكرة عند استخدام الذاكرة الوسيطة لتشغيل قرص</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="367"/>
         <source>C&amp;reate index if needed</source>
-        <translation type="unfinished">انشاء دليل اذا احتيج الأمر</translation>
+        <translation type="obsolete">انشاء دليل اذا احتيج الأمر</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="388"/>
+        <location filename="../prefperformance.ui" line="374"/>
         <source>&amp;Cache</source>
         <translation type="unfinished">المعالج</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="441"/>
+        <location filename="../prefperformance.ui" line="427"/>
         <source>Cache for &amp;DVDs:</source>
         <translation type="unfinished">DVD معالجة الــ</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="461"/>
+        <location filename="../prefperformance.ui" line="447"/>
         <source>Cache for &amp;local files:</source>
         <translation type="unfinished">معالجة الملفات العامة</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="471"/>
+        <location filename="../prefperformance.ui" line="457"/>
         <source>Cache for &amp;streams:</source>
         <translation type="unfinished">معالجة الملفات الدفعية</translation>
     </message>
@@ -5104,72 +5119,72 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">فلتر الأعادة</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="271"/>
+        <location filename="../prefperformance.cpp" line="261"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation type="unfinished">This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="272"/>
+        <location filename="../prefperformance.cpp" line="262"/>
         <source>Possible values:</source>
         <translation type="unfinished">القيم المحتملة</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="273"/>
+        <location filename="../prefperformance.cpp" line="263"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation type="unfinished">فلتر الأعادة غير متخطى &lt;b&gt;تمكين&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="275"/>
+        <location filename="../prefperformance.cpp" line="265"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation type="unfinished">فلتر الأعادة سيتخطى مهما كانت أبعاد الفيديو &lt;b&gt;التخطي دائما&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="278"/>
+        <location filename="../prefperformance.cpp" line="268"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation type="unfinished">فلتر الاعادة سيقوم بتخطي الفيديو الاعلى من %1 او اكثر &lt;b&gt; HDتخطي فقط فيديو من نوع&lt;/b&gt;:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="306"/>
+        <location filename="../prefperformance.cpp" line="289"/>
         <source>Cache</source>
         <translation type="unfinished">المعالج</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="321"/>
+        <location filename="../prefperformance.cpp" line="304"/>
         <source>Cache for audio CDs</source>
         <translation type="unfinished">معالج اقراص الاوديو</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="323"/>
+        <location filename="../prefperformance.cpp" line="306"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation type="unfinished">الاعداد يحدد كم تستهلك من الذاكرة عند استخدام الذاكرة الوسيطة لقرص اوديو مشغل</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="541"/>
+        <location filename="../prefperformance.ui" line="527"/>
         <source>Cache for &amp;audio CDs:</source>
         <translation type="unfinished">معالج اقراص الاوديو</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="325"/>
+        <location filename="../prefperformance.cpp" line="308"/>
         <source>Cache for VCDs</source>
         <translation type="unfinished"> VCDs معلج اقراص الفيديو</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="327"/>
+        <location filename="../prefperformance.cpp" line="310"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation type="unfinished">VCD. الاعداد يحدد كم تستهلك من الذاكرة عند استخدام الذاكرة الوسيطة لــ </translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="585"/>
+        <location filename="../prefperformance.ui" line="571"/>
         <source>Cache for &amp;VCDs:</source>
         <translation type="unfinished">VCDs: معالج لــ</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="260"/>
+        <location filename="../prefperformance.cpp" line="250"/>
         <source>Threads for decoding</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="262"/>
+        <location filename="../prefperformance.cpp" line="252"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
         <translation type="unfinished"></translation>
     </message>

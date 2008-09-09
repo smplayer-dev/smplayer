@@ -654,7 +654,7 @@ Do you want to overwrite?</source>
         <translation>&amp;Співвідношення сторін</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2257"/>
+        <location filename="../basegui.cpp" line="2259"/>
         <source>&amp;None</source>
         <translation>&amp;Нічого</translation>
     </message>
@@ -899,74 +899,74 @@ Do you want to overwrite?</source>
         <translation>Про &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2372"/>
+        <location filename="../basegui.cpp" line="2374"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;нічого&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2722"/>
+        <location filename="../basegui.cpp" line="2724"/>
         <source>Video</source>
         <translation>Відео</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2906"/>
+        <location filename="../basegui.cpp" line="2908"/>
         <source>Audio</source>
         <translation>Звук</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2724"/>
+        <location filename="../basegui.cpp" line="2726"/>
         <source>Playlists</source>
         <translation>Список</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2907"/>
+        <location filename="../basegui.cpp" line="2909"/>
         <source>All files</source>
         <translation>Всі файли</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2904"/>
+        <location filename="../basegui.cpp" line="2906"/>
         <source>Choose a file</source>
         <translation>Вибрати файл</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2772"/>
+        <location filename="../basegui.cpp" line="2774"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Інформація</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2775"/>
+        <location filename="../basegui.cpp" line="2777"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Приводи CD/DVD еще не налаштовані.
 Ви зможете зробити це у діалозі налаштувань цих пристроїв.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2849"/>
+        <location filename="../basegui.cpp" line="2851"/>
         <source>Choose a directory</source>
         <translation>Вибрати теку</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2885"/>
+        <location filename="../basegui.cpp" line="2887"/>
         <source>Subtitles</source>
         <translation>Субтитри</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2937"/>
+        <location filename="../basegui.cpp" line="2939"/>
         <source>About Qt</source>
         <translation>Про Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3317"/>
+        <location filename="../basegui.cpp" line="3319"/>
         <source>Playing %1</source>
         <translation>Відтворюється %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3318"/>
+        <location filename="../basegui.cpp" line="3320"/>
         <source>Pause</source>
         <translation>Пауза</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3319"/>
+        <location filename="../basegui.cpp" line="3321"/>
         <source>Stop</source>
         <translation>Стоп</translation>
     </message>
@@ -1256,7 +1256,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;Опції командного рядка</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2922"/>
+        <location filename="../basegui.cpp" line="2924"/>
         <source>SMPlayer command line options</source>
         <translation>Опції командного рядка SMPlayer</translation>
     </message>
@@ -1311,32 +1311,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>90 градусів проти &amp;годинникової стрілки та переворот</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3762"/>
+        <location filename="../basegui.cpp" line="3764"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>Некоректне завершення MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3763"/>
+        <location filename="../basegui.cpp" line="3765"/>
         <source>Exit code: %1</source>
         <translation>Код виходу: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3780"/>
+        <location filename="../basegui.cpp" line="3782"/>
         <source>MPlayer failed to start.</source>
         <translation>Помилка старту MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3781"/>
+        <location filename="../basegui.cpp" line="3783"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Перевірте шлях до MPlayer у налаштуваннях.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3783"/>
+        <location filename="../basegui.cpp" line="3785"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer впав.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3784"/>
+        <location filename="../basegui.cpp" line="3786"/>
         <source>See the log for more info.</source>
         <translation>Дивіться звіт для детальної інформації.</translation>
     </message>
@@ -1346,7 +1346,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2721"/>
+        <location filename="../basegui.cpp" line="2723"/>
         <source>Multimedia</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1437,42 +1437,42 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../corelib/core.cpp" line="2112"/>
+        <location filename="../corelib/core.cpp" line="2114"/>
         <source>Brightness: %1</source>
         <translation>Яскравість: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2127"/>
+        <location filename="../corelib/core.cpp" line="2129"/>
         <source>Contrast: %1</source>
         <translation>Контрастість: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2141"/>
+        <location filename="../corelib/core.cpp" line="2143"/>
         <source>Gamma: %1</source>
         <translation>Гама: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2155"/>
+        <location filename="../corelib/core.cpp" line="2157"/>
         <source>Hue: %1</source>
         <translation>Колір: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2169"/>
+        <location filename="../corelib/core.cpp" line="2171"/>
         <source>Saturation: %1</source>
         <translation>Насиченість: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2289"/>
+        <location filename="../corelib/core.cpp" line="2291"/>
         <source>Volume: %1</source>
         <translation>Гучність: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="3044"/>
+        <location filename="../corelib/core.cpp" line="3048"/>
         <source>Zoom: %1</source>
         <translation>Масштаб: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2408"/>
+        <location filename="../corelib/core.cpp" line="2410"/>
         <source>Font scale: %1</source>
         <translation>Масштаб шрифта: %1</translation>
     </message>
@@ -3297,12 +3297,12 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefAdvanced</name>
     <message>
-        <location filename="../prefadvanced.cpp" line="332"/>
+        <location filename="../prefadvanced.cpp" line="355"/>
         <source>Advanced</source>
         <translation>Додатково</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="86"/>
+        <location filename="../prefadvanced.cpp" line="90"/>
         <source>Auto</source>
         <translation>Авто</translation>
     </message>
@@ -3317,7 +3317,7 @@ Do you want to overwrite?</source>
         <translation>піктограма</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="239"/>
+        <location filename="../prefadvanced.ui" line="253"/>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
@@ -3326,7 +3326,7 @@ Example: -flip -nosound</source>
 Приклад: -flip -nosound</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="301"/>
+        <location filename="../prefadvanced.ui" line="315"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
@@ -3335,7 +3335,7 @@ Example: scale=512:-2,eq2=1.1</source>
 Приклад: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="363"/>
+        <location filename="../prefadvanced.ui" line="377"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
         <translation>Фільтри звуку. Використовуються аналогічно фільтрам відео.
@@ -3347,54 +3347,54 @@ Example: resample=44100:0:0,volnorm</source>
         <translation type="obsolete">Не перемальовувати фон вікна відео</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="403"/>
+        <location filename="../prefadvanced.cpp" line="434"/>
         <source>Log MPlayer output</source>
         <translation>Вихідний звіт MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="396"/>
+        <location filename="../prefadvanced.cpp" line="427"/>
         <source>Log SMPlayer output</source>
         <translation>Вихідний звіт SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="577"/>
+        <location filename="../prefadvanced.ui" line="591"/>
         <source>This option is mainly intended for debugging the application.</source>
         <translation>Ці опції, головним чином, потрібні щоб відладити програму.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="417"/>
+        <location filename="../prefadvanced.ui" line="431"/>
         <source>&amp;MPlayer language</source>
         <translation>Мова &amp;MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="429"/>
+        <location filename="../prefadvanced.ui" line="443"/>
         <source>SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br&gt;&lt;br&gt;
 The drop-down lists may provide already made regular expression for several languages.</source>
         <translation>SMPlayer повинен зчитати та розібрати вивід MPlayer, який як правило англійською мовою. Якщо у Вас MPlayer перекладений іншою мовою - Ви повинні змінити відображення тексту для SMPlayer. (Технічно Ви повинні вказати регулярний вираз)&lt;br&gt;&lt;br&gt;
 Випадаючі списки можуть надавати готові регулярні вирази для різних мов.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="348"/>
+        <location filename="../prefadvanced.cpp" line="393"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
         <translation>Ця опція може зменшити мерехтіння, але може призвести до того, що зображення буде показане не відповідним чином.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="407"/>
+        <location filename="../prefadvanced.cpp" line="438"/>
         <source>If checked, smplayer will store the output of mplayer (you can see it in &lt;b&gt;Options-&gt;View logs-&gt;mplayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
         <translation>Якщо увімкнено - SMPlayer буде зберігати повідомлення mplayer (їх можна побачити у &lt;b&gt;Налаштування-&gt;Дивитись звіти-&gt;mplayer&lt;/b&gt;). У випадку проблем ці звіти можут містити важливу інформацію, так що рекомендується увімкнути.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="401"/>
+        <location filename="../prefadvanced.cpp" line="432"/>
         <source>If this option is checked, smplayer will store the debugging messages that smplayer outputs (you can see the log in &lt;b&gt;Options-&gt;View logs-&gt;smplayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
         <translation>Якщо увімкнено - SMPlayer буде зберігати свої налагоджувальні повідомлення (їх можна побачити у &lt;b&gt;Налаштування-&gt;Дивитись звіти-&gt;smplayer&lt;/b&gt;). Ця інформація може бути корисною для розробника, якщо Ви знайдете помилку.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="419"/>
+        <location filename="../prefadvanced.cpp" line="450"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Фильтр для звітів SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="423"/>
+        <location filename="../prefadvanced.cpp" line="454"/>
         <source>This option allows to filter the smplayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>Ця опція дозволяє фільтрувати повідомлення smplayer, які будуть збережені у звіті. Тут Ви можете написати будь-який регулярний вираз.&lt;br&gt;Наприклад: &lt;i&gt;^Core::.*&lt;/i&gt; відобразить лише строки, що починаються з &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
@@ -3404,27 +3404,27 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>&amp;Аспект монітора:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="102"/>
+        <location filename="../prefadvanced.ui" line="131"/>
         <source>&amp;Run MPlayer in its own window</source>
         <translation>&amp;Запускати MPlayer у власному вікні</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="262"/>
+        <location filename="../prefadvanced.ui" line="276"/>
         <source>&amp;Options:</source>
         <translation>&amp;Налаштування:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="324"/>
+        <location filename="../prefadvanced.ui" line="338"/>
         <source>V&amp;ideo filters:</source>
         <translation>Фільтри в&amp;ідео:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="385"/>
+        <location filename="../prefadvanced.ui" line="399"/>
         <source>Audio &amp;filters:</source>
         <translation>Фільтри &amp;звуку:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="124"/>
+        <location filename="../prefadvanced.ui" line="174"/>
         <source>&amp;Colorkey:</source>
         <translation>&amp;Код кольору:</translation>
     </message>
@@ -3434,223 +3434,238 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="obsolete">&amp;Не перемальовувати фон вікна відео</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="528"/>
+        <location filename="../prefadvanced.ui" line="542"/>
         <source>Log &amp;SMPlayer output</source>
         <translation>Відображення звіту &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="587"/>
+        <location filename="../prefadvanced.ui" line="601"/>
         <source>&amp;Filter for SMPlayer logs:</source>
         <translation>&amp;Фільтр для звітів SMPlayer:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="443"/>
+        <location filename="../prefadvanced.ui" line="457"/>
         <source>&amp;End of file:</source>
         <translation>&amp;Кінець файлу:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="456"/>
+        <location filename="../prefadvanced.ui" line="470"/>
         <source>&amp;No video:</source>
         <translation>&amp;Не відео:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="149"/>
+        <location filename="../prefadvanced.ui" line="199"/>
         <source>C&amp;hange...</source>
         <translation>З&amp;мінити...</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="394"/>
+        <location filename="../prefadvanced.cpp" line="425"/>
         <source>Logs</source>
         <translation>Звіти</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="535"/>
+        <location filename="../prefadvanced.ui" line="549"/>
         <source>Log MPlayer &amp;output</source>
         <translation>Ви&amp;хідний звіт MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="227"/>
+        <location filename="../prefadvanced.ui" line="241"/>
         <source>Options for MP&amp;layer</source>
         <translation>Опції MP&amp;layer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="409"/>
+        <location filename="../prefadvanced.cpp" line="440"/>
         <source>Autosave MPlayer log</source>
         <translation>Автозбереження звіту MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="413"/>
+        <location filename="../prefadvanced.cpp" line="444"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
         <translation>Якщо увімкнено, звіт MPlayer буде збережено у вказаний файл кожного разу при початку відтворення нового файлу. Це призначається для зовнішніх програм, які таким чином можуть отримати інформацію про файл, що відтворюється.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="415"/>
+        <location filename="../prefadvanced.cpp" line="446"/>
         <source>Autosave MPlayer log filename</source>
         <translation>Ім&apos;я файлу для автозбереження звіту MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="417"/>
+        <location filename="../prefadvanced.cpp" line="448"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
         <translation>Введіть шлях та ім&apos;я файлу, в який буде збережено звіт MPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="542"/>
+        <location filename="../prefadvanced.ui" line="556"/>
         <source>A&amp;utosave MPlayer log to file</source>
         <translation>А&amp;втозбереження звіту MPlayer в файл</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="351"/>
+        <location filename="../prefadvanced.cpp" line="382"/>
         <source>Pass short filenames (8+3) to MPlayer</source>
         <translation>Передавати короткі імена (8+3) до MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="355"/>
+        <location filename="../prefadvanced.cpp" line="386"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
         <translation>В даний момент MPlayer не вміє відкривати імена файлів, в яких присутні не з місцевої кодової сторінки. Увімкнення цієї опції вкаже SMPlayer передавати до MPlayer коротку версію імен файлів, і тоді їх можна буде відкрити.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="174"/>
+        <location filename="../prefadvanced.ui" line="145"/>
         <source>&amp;Pass short filenames (8+3) to MPlayer</source>
         <translation>Передавати &amp;короткі імена (8+3) до MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="334"/>
+        <location filename="../prefadvanced.cpp" line="357"/>
         <source>Monitor aspect</source>
         <translation>Формат монітора</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="335"/>
+        <location filename="../prefadvanced.cpp" line="358"/>
         <source>Select the aspect ratio of your monitor.</source>
         <translation>Виберіть формат  зображення Вашого монітора.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="337"/>
+        <location filename="../prefadvanced.cpp" line="366"/>
         <source>Run MPlayer in its own window</source>
         <translation>Запускати MPlayer у власному вікні</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="343"/>
+        <location filename="../prefadvanced.cpp" line="372"/>
         <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
         <translation>Якщо увімкнено - MPlayer буде запущено не у головному вікні SMPlayer, а у власному. Примітка: події клавіатури та миші будуть оброблюватись безпосередньо MPlayer, комбінації клавіш та кліки мишкою будуть працювати не так, як очікується, коли у фокусі вікно MPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="359"/>
+        <location filename="../prefadvanced.cpp" line="397"/>
         <source>Colorkey</source>
         <translation>Код кольору</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="362"/>
+        <location filename="../prefadvanced.cpp" line="400"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
         <translation>Якщо ви бачите частини відео по будь-яких інших вікнах, Ви можете змінити код кольору для виправлення цього. Спробуйте колір, близький до чорного.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="372"/>
+        <location filename="../prefadvanced.cpp" line="403"/>
         <source>Options for MPlayer</source>
         <translation>Опції для MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="374"/>
+        <location filename="../prefadvanced.cpp" line="405"/>
         <source>Options</source>
         <translation>Опції</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="376"/>
+        <location filename="../prefadvanced.cpp" line="407"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
         <translation>Тут Ви можете передати опції в MPlayer. Записуються через пробіли.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="378"/>
+        <location filename="../prefadvanced.cpp" line="409"/>
         <source>Video filters</source>
         <translation>Фільтри відео</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="380"/>
+        <location filename="../prefadvanced.cpp" line="411"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>Тут Ви можете додати відео фільтри для MPlayer. Записуються через коми. Не використовуйте пробіли!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="382"/>
+        <location filename="../prefadvanced.cpp" line="413"/>
         <source>Audio filters</source>
         <translation>Фильтри звуку</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="384"/>
+        <location filename="../prefadvanced.cpp" line="415"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>Тут Ви можете додати фільтри звуку для MPlayer. Записуються через коми. Не використовуйте пробіли!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="386"/>
+        <location filename="../prefadvanced.cpp" line="417"/>
         <source>MPlayer language</source>
         <translation>Мова MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="388"/>
+        <location filename="../prefadvanced.cpp" line="419"/>
         <source>End of file</source>
         <translation>Кінець файлу</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="389"/>
+        <location filename="../prefadvanced.cpp" line="420"/>
         <source>Select or type a regular expression for &apos;End of file&apos;</source>
         <translation>Виберіть або введіть регулярний вираз для &apos;Кінець файлу&apos;</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="391"/>
+        <location filename="../prefadvanced.cpp" line="422"/>
         <source>No video</source>
         <translation>Не відео</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="392"/>
+        <location filename="../prefadvanced.cpp" line="423"/>
         <source>Select or type a regular expression for &apos;No video&apos;</source>
         <translation>Виберіть або введіть регулярний вираз для &apos;Не відео&apos;</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="346"/>
+        <location filename="../prefadvanced.cpp" line="391"/>
         <source>Repaint the background of the video window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="109"/>
+        <location filename="../prefadvanced.ui" line="152"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="365"/>
+        <location filename="../prefadvanced.cpp" line="360"/>
         <source>IPv4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="366"/>
+        <location filename="../prefadvanced.cpp" line="361"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="368"/>
+        <location filename="../prefadvanced.cpp" line="363"/>
         <source>IPv6</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="369"/>
+        <location filename="../prefadvanced.cpp" line="364"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="181"/>
+        <location filename="../prefadvanced.ui" line="102"/>
         <source>Network Connection</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="193"/>
+        <location filename="../prefadvanced.ui" line="114"/>
         <source>IPv&amp;4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="200"/>
+        <location filename="../prefadvanced.ui" line="121"/>
         <source>IPv&amp;6</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="516"/>
+        <location filename="../prefadvanced.ui" line="530"/>
         <source>Lo&amp;gs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="374"/>
+        <source>Rebuild index if needed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="379"/>
+        <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
+        <translation type="unfinished">Відновлювати індекс файлів якщо не знайдено, дозволяючи прокрутку. Корисно при неповно/помилково завантажених чи створених з помилками файлах. Ця опція працює тільки якщо в даному медіа підтримується прокрутка (тобто не stdin, pipe та ін.). Примітка: створення індекса займає деякий час.</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="138"/>
+        <source>Rebuild &amp;index if needed</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5213,7 +5228,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="243"/>
+        <location filename="../prefperformance.cpp" line="233"/>
         <source>Performance</source>
         <translation>Швидкодія</translation>
     </message>
@@ -5263,17 +5278,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>низький</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="558"/>
+        <location filename="../prefperformance.ui" line="544"/>
         <source>KB</source>
         <translation>Кб</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="451"/>
+        <location filename="../prefperformance.ui" line="437"/>
         <source>Setting a cache may improve performance on slow media</source>
         <translation>Установки кешу можуть поліпшити чи погіршити швидкодію</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="253"/>
+        <location filename="../prefperformance.cpp" line="243"/>
         <source>Allow frame drop</source>
         <translation>Допускати випадання фреймів</translation>
     </message>
@@ -5283,32 +5298,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Синхронізація</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="280"/>
+        <location filename="../prefperformance.cpp" line="270"/>
         <source>Audio/video auto synchronization</source>
         <translation>Автосинхронізація звука/відео</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="250"/>
+        <location filename="../prefperformance.cpp" line="240"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Вкажіть пріоритет для процесу mplayer, доступний для Windows.&lt;br&gt;&lt;b&gt;УВАГА:&lt;/b&gt; Використання пріоритету реального часу може заморозити систему.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="254"/>
+        <location filename="../prefperformance.cpp" line="244"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Пропускати деякі фрейми для забезпечення A/V синхронізації на повільних системах.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="256"/>
+        <location filename="../prefperformance.cpp" line="246"/>
         <source>Allow hard frame drop</source>
         <translation>Допускати жорстке випадання фреймів</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="258"/>
+        <location filename="../prefperformance.cpp" line="248"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>Збільшене випадання фреймів (декодуванняз переривами). Призводить до спотворення картинки!</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="282"/>
+        <location filename="../prefperformance.cpp" line="272"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>Поступове регулювання A/V синхронізації, основане на розмірах звукових затримок.</translation>
     </message>
@@ -5350,30 +5365,30 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="299"/>
         <source>Create index if needed</source>
-        <translation>Створити індекс при потребі</translation>
+        <translation type="obsolete">Створити індекс при потребі</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="304"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
-        <translation>Відновлювати індекс файлів якщо не знайдено, дозволяючи прокрутку. Корисно при неповно/помилково завантажених чи створених з помилками файлах. Ця опція працює тільки якщо в даному медіа підтримується прокрутка (тобто не stdin, pipe та ін.). Примітка: створення індекса займає деякий час.</translation>
+        <translation type="obsolete">Відновлювати індекс файлів якщо не знайдено, дозволяючи прокрутку. Корисно при неповно/помилково завантажених чи створених з помилками файлах. Ця опція працює тільки якщо в даному медіа підтримується прокрутка (тобто не stdin, pipe та ін.). Примітка: створення індекса займає деякий час.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="284"/>
+        <location filename="../prefperformance.cpp" line="274"/>
         <source>Fast audio track switching</source>
         <translation>Швидке перемикання звукових доріжок</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="294"/>
+        <location filename="../prefperformance.cpp" line="284"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Швидкий пошук глав для DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="296"/>
+        <location filename="../prefperformance.cpp" line="286"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Якщо увімкнено - буде використовуватись найшвидший метод для пошуку глав, але не працює з деякими дисками.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="264"/>
+        <location filename="../prefperformance.cpp" line="254"/>
         <source>Skip loop filter</source>
         <translation>Пропустити фільтр петлі</translation>
     </message>
@@ -5383,62 +5398,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="291"/>
+        <location filename="../prefperformance.cpp" line="281"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>Можливі значення:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: спроба використати найшвидший метод вибору звукової доріжки (може не працювати на деяких форматах).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: MPlayer буде рестартувати при кожній зміні звукової доріжки.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer вирішить як вчинити відповідно до версії MPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="308"/>
+        <location filename="../prefperformance.cpp" line="291"/>
         <source>Cache for files</source>
         <translation>Кеш для файлів</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="310"/>
+        <location filename="../prefperformance.cpp" line="293"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>Ця опція вказує (в кілобайтах) скільки пам&apos;яті використовувати для прекешування файлу.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="312"/>
+        <location filename="../prefperformance.cpp" line="295"/>
         <source>Cache for streams</source>
         <translation>Кеш для потоків</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="314"/>
+        <location filename="../prefperformance.cpp" line="297"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>Ця опція вказує (в кілобайтах) скільки пам&apos;яті використовувати для прекешування URL.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="316"/>
+        <location filename="../prefperformance.cpp" line="299"/>
         <source>Cache for DVDs</source>
         <translation>Кеш для DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="319"/>
+        <location filename="../prefperformance.cpp" line="302"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>Ця опція вказує (в кілобайтах) скільки пам&apos;яті використовувати для прекешування DVD.&lt;br&gt;&lt;b&gt;Увага:&lt;/b&gt; Пошук не може працювати правильно (включаючи перемикання глав) при використанні кешу для DVD.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="367"/>
         <source>C&amp;reate index if needed</source>
-        <translation>Створити &amp;індекс при потребі</translation>
+        <translation type="obsolete">Створити &amp;індекс при потребі</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="388"/>
+        <location filename="../prefperformance.ui" line="374"/>
         <source>&amp;Cache</source>
         <translation>&amp;Кеш</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="441"/>
+        <location filename="../prefperformance.ui" line="427"/>
         <source>Cache for &amp;DVDs:</source>
         <translation>Кеш для &amp;DVD:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="461"/>
+        <location filename="../prefperformance.ui" line="447"/>
         <source>Cache for &amp;local files:</source>
         <translation>Кеш для &amp;локальних файлів:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="471"/>
+        <location filename="../prefperformance.ui" line="457"/>
         <source>Cache for &amp;streams:</source>
         <translation>Кеш для &amp;потоків:</translation>
     </message>
@@ -5463,72 +5478,72 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Фільтр петлі</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="271"/>
+        <location filename="../prefperformance.cpp" line="261"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>Ця опція дозволяє пропустити фільтр петлі (він же deblocking) при декодуванні H.264. Оскільки фільтрація фреймів підтримується для декодування залежних фреймів, це може погіршити якість ніж без виконання deblocking, наприклад MPEG-2 відео. Принаймні, для високого бітрейту HDTV це забезпечує більше прискорення без видимого погіршення якості.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="272"/>
+        <location filename="../prefperformance.cpp" line="262"/>
         <source>Possible values:</source>
         <translation>Можливі значення:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="273"/>
+        <location filename="../prefperformance.cpp" line="263"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>&lt;b&gt;Увімкнено&lt;/b&gt;: фільтр петлі не пропускається</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="275"/>
+        <location filename="../prefperformance.cpp" line="265"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;Пропускати (завжди)&lt;/b&gt;: фільт петлі пропущений незалежно від роздільності відео</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="278"/>
+        <location filename="../prefperformance.cpp" line="268"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;Пропускати лише на HD відео&lt;/b&gt;: фільтр петлі буде пропущено тільки для відео з висотою %1 чи більше.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="306"/>
+        <location filename="../prefperformance.cpp" line="289"/>
         <source>Cache</source>
         <translation>Кеш</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="321"/>
+        <location filename="../prefperformance.cpp" line="304"/>
         <source>Cache for audio CDs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="323"/>
+        <location filename="../prefperformance.cpp" line="306"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="541"/>
+        <location filename="../prefperformance.ui" line="527"/>
         <source>Cache for &amp;audio CDs:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="325"/>
+        <location filename="../prefperformance.cpp" line="308"/>
         <source>Cache for VCDs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="327"/>
+        <location filename="../prefperformance.cpp" line="310"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="585"/>
+        <location filename="../prefperformance.ui" line="571"/>
         <source>Cache for &amp;VCDs:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="260"/>
+        <location filename="../prefperformance.cpp" line="250"/>
         <source>Threads for decoding</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="262"/>
+        <location filename="../prefperformance.cpp" line="252"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
         <translation type="unfinished"></translation>
     </message>

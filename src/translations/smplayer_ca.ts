@@ -649,7 +649,7 @@ El voleu sobreescriure?</translation>
         <translation>Relació d&apos;&amp;aspecte</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2257"/>
+        <location filename="../basegui.cpp" line="2259"/>
         <source>&amp;None</source>
         <translation>&amp;Cap</translation>
     </message>
@@ -894,74 +894,74 @@ El voleu sobreescriure?</translation>
         <translation>Quant a &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2372"/>
+        <location filename="../basegui.cpp" line="2374"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;buit&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2722"/>
+        <location filename="../basegui.cpp" line="2724"/>
         <source>Video</source>
         <translation>Vídeo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2906"/>
+        <location filename="../basegui.cpp" line="2908"/>
         <source>Audio</source>
         <translation>Àudio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2724"/>
+        <location filename="../basegui.cpp" line="2726"/>
         <source>Playlists</source>
         <translation>Llistes de reproducció</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2907"/>
+        <location filename="../basegui.cpp" line="2909"/>
         <source>All files</source>
         <translation>Tots els fitxers</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2904"/>
+        <location filename="../basegui.cpp" line="2906"/>
         <source>Choose a file</source>
         <translation>Escolliu un fitxer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2772"/>
+        <location filename="../basegui.cpp" line="2774"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Informació</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2775"/>
+        <location filename="../basegui.cpp" line="2777"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Encara no s&apos;han configurat les unitats de CDROM / DVD.
 Ara us apareixerà el diàleg de configuració i podreu fer-ho.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2849"/>
+        <location filename="../basegui.cpp" line="2851"/>
         <source>Choose a directory</source>
         <translation>Escolliu un directori</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2885"/>
+        <location filename="../basegui.cpp" line="2887"/>
         <source>Subtitles</source>
         <translation>Subtítols</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2937"/>
+        <location filename="../basegui.cpp" line="2939"/>
         <source>About Qt</source>
         <translation>Quant a Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3317"/>
+        <location filename="../basegui.cpp" line="3319"/>
         <source>Playing %1</source>
         <translation>Reproduint %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3318"/>
+        <location filename="../basegui.cpp" line="3320"/>
         <source>Pause</source>
         <translation>Pausa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3319"/>
+        <location filename="../basegui.cpp" line="3321"/>
         <source>Stop</source>
         <translation>Atura</translation>
     </message>
@@ -1251,7 +1251,7 @@ Ara us apareixerà el diàleg de configuració i podreu fer-ho.</translation>
         <translation>&amp;Opcions de la línia d&apos;ordres</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2922"/>
+        <location filename="../basegui.cpp" line="2924"/>
         <source>SMPlayer command line options</source>
         <translation>Opcions de la línia d&apos;ordres de SMPlayer</translation>
     </message>
@@ -1271,32 +1271,32 @@ Ara us apareixerà el diàleg de configuració i podreu fer-ho.</translation>
         <translation>Reinicia els equalitzadors de vídeo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3762"/>
+        <location filename="../basegui.cpp" line="3764"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer ha acabat inesperadament.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3763"/>
+        <location filename="../basegui.cpp" line="3765"/>
         <source>Exit code: %1</source>
         <translation>Codi de sortida: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3780"/>
+        <location filename="../basegui.cpp" line="3782"/>
         <source>MPlayer failed to start.</source>
         <translation>La inicialització de MPlayer ha fallat.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3781"/>
+        <location filename="../basegui.cpp" line="3783"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Si us plau, comproveu el camí de MPlayer a preferències.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3783"/>
+        <location filename="../basegui.cpp" line="3785"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer ha fallat.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3784"/>
+        <location filename="../basegui.cpp" line="3786"/>
         <source>See the log for more info.</source>
         <translation>Mireu al registre per més informació.</translation>
     </message>
@@ -1341,7 +1341,7 @@ Ara us apareixerà el diàleg de configuració i podreu fer-ho.</translation>
         <translation>Mostra el menú contextual</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2721"/>
+        <location filename="../basegui.cpp" line="2723"/>
         <source>Multimedia</source>
         <translation>Multimèdia</translation>
     </message>
@@ -1432,42 +1432,42 @@ Ara us apareixerà el diàleg de configuració i podreu fer-ho.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../corelib/core.cpp" line="2112"/>
+        <location filename="../corelib/core.cpp" line="2114"/>
         <source>Brightness: %1</source>
         <translation>Brillantor: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2127"/>
+        <location filename="../corelib/core.cpp" line="2129"/>
         <source>Contrast: %1</source>
         <translation>Contrast: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2141"/>
+        <location filename="../corelib/core.cpp" line="2143"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2155"/>
+        <location filename="../corelib/core.cpp" line="2157"/>
         <source>Hue: %1</source>
         <translation>Hue: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2169"/>
+        <location filename="../corelib/core.cpp" line="2171"/>
         <source>Saturation: %1</source>
         <translation>Saturació: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2289"/>
+        <location filename="../corelib/core.cpp" line="2291"/>
         <source>Volume: %1</source>
         <translation>Volum: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="3044"/>
+        <location filename="../corelib/core.cpp" line="3048"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2408"/>
+        <location filename="../corelib/core.cpp" line="2410"/>
         <source>Font scale: %1</source>
         <translation>Mida de lletra: %1</translation>
     </message>
@@ -3291,12 +3291,12 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefAdvanced</name>
     <message>
-        <location filename="../prefadvanced.cpp" line="332"/>
+        <location filename="../prefadvanced.cpp" line="355"/>
         <source>Advanced</source>
         <translation>Avançat</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="86"/>
+        <location filename="../prefadvanced.cpp" line="90"/>
         <source>Auto</source>
         <translation>Auto</translation>
     </message>
@@ -3311,7 +3311,7 @@ Do you want to overwrite?</source>
         <translation>icona</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="239"/>
+        <location filename="../prefadvanced.ui" line="253"/>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
@@ -3320,7 +3320,7 @@ Escriviu-les separades per espais.
 Exemple: -flip -nposound</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="301"/>
+        <location filename="../prefadvanced.ui" line="315"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
@@ -3329,7 +3329,7 @@ Separeu-los amb &quot;,&quot;. No useu espais!
 Exemple: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="363"/>
+        <location filename="../prefadvanced.ui" line="377"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
         <translation>I finalment filtres d&apos;àudio. Apliqueu les mateixes regles que pels filtres de vídeo.
@@ -3341,54 +3341,54 @@ Exemple: resample=44100:0:0,volnorm</translation>
         <translation type="obsolete">No repintis el fons de pantalla de la finestra de vídeo</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="403"/>
+        <location filename="../prefadvanced.cpp" line="434"/>
         <source>Log MPlayer output</source>
         <translation>Sortida del registre de MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="396"/>
+        <location filename="../prefadvanced.cpp" line="427"/>
         <source>Log SMPlayer output</source>
         <translation>Sortida del registre de SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="577"/>
+        <location filename="../prefadvanced.ui" line="591"/>
         <source>This option is mainly intended for debugging the application.</source>
         <translation>Aquesta opció serveix bàsicament per depurar l&apos;aplicació.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="417"/>
+        <location filename="../prefadvanced.ui" line="431"/>
         <source>&amp;MPlayer language</source>
         <translation>Idioma de &amp;MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="429"/>
+        <location filename="../prefadvanced.ui" line="443"/>
         <source>SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br&gt;&lt;br&gt;
 The drop-down lists may provide already made regular expression for several languages.</source>
         <translation>SMPlayer necessita llegir i analitzar la sortida de MPlayer i, a vegades, es basa en text en anglès. Si esteu usant una traducció de MPlayer, heu de canviar els textos que busca SMPlayer. (Tècnicament hauríeu d&apos;entrar expressions regulars)&lt;br&gt;&lt;br&gt;
 La llista desplegable us pot proporcionar expressions regulars per diversos idiomes.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="348"/>
+        <location filename="../prefadvanced.cpp" line="393"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
         <translation>Si s&apos;activa aquesta opció pot ser que es redueixi el flickering, però també pot causar una visualització incorrecta del vídeo.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="407"/>
+        <location filename="../prefadvanced.cpp" line="438"/>
         <source>If checked, smplayer will store the output of mplayer (you can see it in &lt;b&gt;Options-&gt;View logs-&gt;mplayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
         <translation>Si s&apos;activa, smplayer emmagatzemarà la sortida de mplayer (la podeu veure a &lt;b&gt;Opcions-&gt;Mostra els registres-&gt;mplayer&lt;/b&gt;). Si teniu problemes, aquest registre pot contenir informació important, per la qual cosa es recomana mantenir aquesta opció activada.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="401"/>
+        <location filename="../prefadvanced.cpp" line="432"/>
         <source>If this option is checked, smplayer will store the debugging messages that smplayer outputs (you can see the log in &lt;b&gt;Options-&gt;View logs-&gt;smplayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
         <translation>Si s&apos;activa aquesta opció, smplayer emmagatzemarà els missatges de depuració de la sortida de smplayer (podeu veure el registre a &lt;b&gt;Opcions-&gt;Mostra els registres-&gt;smplayer&lt;/b&gt;). Aquesta informació pot ser molt útil per al desenvolupador en cas d&apos;un error de programació.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="419"/>
+        <location filename="../prefadvanced.cpp" line="450"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Filtre els registres de SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="423"/>
+        <location filename="../prefadvanced.cpp" line="454"/>
         <source>This option allows to filter the smplayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>Aquesta opció permet filtrar els missatges de smplayer que s&apos;emmagatzemen al registre. Aquí podeu escriure qualsevol expressió regular.&lt;br&gt;Per exemple: &lt;i&gt;^Core::.*&lt;/i&gt; us mostrarà només les línies que comencin per &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
@@ -3398,27 +3398,27 @@ La llista desplegable us pot proporcionar expressions regulars per diversos idio
         <translation>Aspecte del moni&amp;tor:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="102"/>
+        <location filename="../prefadvanced.ui" line="131"/>
         <source>&amp;Run MPlayer in its own window</source>
         <translation>&amp;Executa MPlayer en la pròpia finestra</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="262"/>
+        <location filename="../prefadvanced.ui" line="276"/>
         <source>&amp;Options:</source>
         <translation>&amp;Opcions:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="324"/>
+        <location filename="../prefadvanced.ui" line="338"/>
         <source>V&amp;ideo filters:</source>
         <translation>Filtres de &amp;vídeo:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="385"/>
+        <location filename="../prefadvanced.ui" line="399"/>
         <source>Audio &amp;filters:</source>
         <translation>&amp;Filtres d&apos;àudio:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="124"/>
+        <location filename="../prefadvanced.ui" line="174"/>
         <source>&amp;Colorkey:</source>
         <translation>Codis de colo&amp;rs:</translation>
     </message>
@@ -3428,223 +3428,238 @@ La llista desplegable us pot proporcionar expressions regulars per diversos idio
         <translation type="obsolete">&amp;No repintis el fons de pantalla de la finestra de vídeo</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="528"/>
+        <location filename="../prefadvanced.ui" line="542"/>
         <source>Log &amp;SMPlayer output</source>
         <translation>&amp;Sortida del registre de SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="587"/>
+        <location filename="../prefadvanced.ui" line="601"/>
         <source>&amp;Filter for SMPlayer logs:</source>
         <translation>&amp;Filtre els registres de SMPlayer:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="443"/>
+        <location filename="../prefadvanced.ui" line="457"/>
         <source>&amp;End of file:</source>
         <translation>Final de fitx&amp;er:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="456"/>
+        <location filename="../prefadvanced.ui" line="470"/>
         <source>&amp;No video:</source>
         <translation>Se&amp;nse vídeo:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="149"/>
+        <location filename="../prefadvanced.ui" line="199"/>
         <source>C&amp;hange...</source>
         <translation>&amp;Canvia...</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="394"/>
+        <location filename="../prefadvanced.cpp" line="425"/>
         <source>Logs</source>
         <translation>Registres</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="535"/>
+        <location filename="../prefadvanced.ui" line="549"/>
         <source>Log MPlayer &amp;output</source>
         <translation>S&amp;ortida del registre de MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="227"/>
+        <location filename="../prefadvanced.ui" line="241"/>
         <source>Options for MP&amp;layer</source>
         <translation>Opcions de MP&amp;layer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="409"/>
+        <location filename="../prefadvanced.cpp" line="440"/>
         <source>Autosave MPlayer log</source>
         <translation>Desa automàticament el registre de MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="413"/>
+        <location filename="../prefadvanced.cpp" line="444"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
         <translation>Si s&apos;activa aquesta opció, el registre de MPlayer es desarà en el fitxer especificat cada vegada que es comenci a reproduir un fitxer. És útil per aplicacions externes, de manera que puguin obtenir informació del fitxer que s&apos;està reproduint.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="415"/>
+        <location filename="../prefadvanced.cpp" line="446"/>
         <source>Autosave MPlayer log filename</source>
         <translation>Nom del fitxer al que escriu el registre automàtic de MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="417"/>
+        <location filename="../prefadvanced.cpp" line="448"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
         <translation>Introduïu el camí i el nom del fitxer que s&apos;usarà per desar el registre de MPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="542"/>
+        <location filename="../prefadvanced.ui" line="556"/>
         <source>A&amp;utosave MPlayer log to file</source>
         <translation>Desa a&amp;utomàticament el registre al fitxer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="351"/>
+        <location filename="../prefadvanced.cpp" line="382"/>
         <source>Pass short filenames (8+3) to MPlayer</source>
         <translation>Passa noms de fitxer curts (8+3) a MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="355"/>
+        <location filename="../prefadvanced.cpp" line="386"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
         <translation>l&apos;MPlayer no pot obrir noms de fitxers que continguin caràcters fora del codi de pàgina local. Activant aquesta opció permetreu que SMPlayer passi a MPlayer la versió curta del nom dels fitxers, per tal que els pugui obrir.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="174"/>
+        <location filename="../prefadvanced.ui" line="145"/>
         <source>&amp;Pass short filenames (8+3) to MPlayer</source>
         <translation>&amp;Passa noms de fitxer curts (8+3) a MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="334"/>
+        <location filename="../prefadvanced.cpp" line="357"/>
         <source>Monitor aspect</source>
         <translation>Aspecte de monitor</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="335"/>
+        <location filename="../prefadvanced.cpp" line="358"/>
         <source>Select the aspect ratio of your monitor.</source>
         <translation>Seleccioneu la relació d&apos;aspecte del vostre monitor.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="337"/>
+        <location filename="../prefadvanced.cpp" line="366"/>
         <source>Run MPlayer in its own window</source>
         <translation>Executa MPlayer en la seva pròpia finestra</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="343"/>
+        <location filename="../prefadvanced.cpp" line="372"/>
         <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
         <translation>Si activeu aquesta opció, la finestra de vídeo de MPlayer no s&apos;incrustarà en la finestra principal de SMPlayer, sinó que usarà la seva pròpia finestra. Noteu que MPlayer suportarà directament les ordres de teclat i del ratolí, de manera que les dreceres i els clics del ratolí no funcionaran com se suposa quan la finestra de SMPlayer està activada.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="359"/>
+        <location filename="../prefadvanced.cpp" line="397"/>
         <source>Colorkey</source>
         <translation>Codis de colors</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="362"/>
+        <location filename="../prefadvanced.cpp" line="400"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
         <translation>Si veieu parts del vídeo sobre una altra finestra, podeu canviar els codis de colors per arreglar-ho. Intenteu seleccionar un color que tendeixi al negre.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="372"/>
+        <location filename="../prefadvanced.cpp" line="403"/>
         <source>Options for MPlayer</source>
         <translation>Opcions de MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="374"/>
+        <location filename="../prefadvanced.cpp" line="405"/>
         <source>Options</source>
         <translation>Opcions</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="376"/>
+        <location filename="../prefadvanced.cpp" line="407"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
         <translation>Aquí podeu escriure opcions per a MPlayer. Escriviu-les separades per espais.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="378"/>
+        <location filename="../prefadvanced.cpp" line="409"/>
         <source>Video filters</source>
         <translation>Filtres de vídeo</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="380"/>
+        <location filename="../prefadvanced.cpp" line="411"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>Aquí podeu afegir filtres per MPlayer. Escriviu-los separats per comes. No useu espais!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="382"/>
+        <location filename="../prefadvanced.cpp" line="413"/>
         <source>Audio filters</source>
         <translation>Filtres d&apos;àudio</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="384"/>
+        <location filename="../prefadvanced.cpp" line="415"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>Aquí podeu afegir filtres d&apos;àudio per MPlayer. Escriviu-los separats per comes. No useu espais!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="386"/>
+        <location filename="../prefadvanced.cpp" line="417"/>
         <source>MPlayer language</source>
         <translation>Idioma de MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="388"/>
+        <location filename="../prefadvanced.cpp" line="419"/>
         <source>End of file</source>
         <translation>Final de fitxer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="389"/>
+        <location filename="../prefadvanced.cpp" line="420"/>
         <source>Select or type a regular expression for &apos;End of file&apos;</source>
         <translation>Seleccioneu o escriviu una expressió regular per &apos;Final de fitxer&apos;</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="391"/>
+        <location filename="../prefadvanced.cpp" line="422"/>
         <source>No video</source>
         <translation>No hi ha vídeo</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="392"/>
+        <location filename="../prefadvanced.cpp" line="423"/>
         <source>Select or type a regular expression for &apos;No video&apos;</source>
         <translation>Seleccioneu o escriviu una expressió regular per &apos;no hi ha vídeo&apos;</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="346"/>
+        <location filename="../prefadvanced.cpp" line="391"/>
         <source>Repaint the background of the video window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="109"/>
+        <location filename="../prefadvanced.ui" line="152"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="365"/>
+        <location filename="../prefadvanced.cpp" line="360"/>
         <source>IPv4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="366"/>
+        <location filename="../prefadvanced.cpp" line="361"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="368"/>
+        <location filename="../prefadvanced.cpp" line="363"/>
         <source>IPv6</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="369"/>
+        <location filename="../prefadvanced.cpp" line="364"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="181"/>
+        <location filename="../prefadvanced.ui" line="102"/>
         <source>Network Connection</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="193"/>
+        <location filename="../prefadvanced.ui" line="114"/>
         <source>IPv&amp;4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="200"/>
+        <location filename="../prefadvanced.ui" line="121"/>
         <source>IPv&amp;6</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="516"/>
+        <location filename="../prefadvanced.ui" line="530"/>
         <source>Lo&amp;gs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="374"/>
+        <source>Rebuild index if needed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="379"/>
+        <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
+        <translation type="unfinished">Si no es troba cap índex de fitxers en reconstrueix un, permetent la cerca. És útil en descàrregues incompletes/trencades, o fitxers mal generats. Aquesta opció només funciona si el suport final permet la cerca (per exemple. no amb stdin, pipe, etc)&lt;br&gt; Nota: la creació dels índex pot tardar una estona.</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="138"/>
+        <source>Rebuild &amp;index if needed</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5197,7 +5212,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="243"/>
+        <location filename="../prefperformance.cpp" line="233"/>
         <source>Performance</source>
         <translation>Rendiment</translation>
     </message>
@@ -5247,17 +5262,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>idle</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="558"/>
+        <location filename="../prefperformance.ui" line="544"/>
         <source>KB</source>
         <translation>KB</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="451"/>
+        <location filename="../prefperformance.ui" line="437"/>
         <source>Setting a cache may improve performance on slow media</source>
         <translation>Seleccionant una memòria de cau podeu millorar el rendiment dels suports lents</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="253"/>
+        <location filename="../prefperformance.cpp" line="243"/>
         <source>Allow frame drop</source>
         <translation>Accepta deixar anar marc</translation>
     </message>
@@ -5267,32 +5282,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Sincronització</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="280"/>
+        <location filename="../prefperformance.cpp" line="270"/>
         <source>Audio/video auto synchronization</source>
         <translation>Sincronització automàtica de àudio/vídeo</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="250"/>
+        <location filename="../prefperformance.cpp" line="240"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Selecciona la prioritat del procés de MPlayer d&apos;acord amb les prioritats disponibles en Windows.&lt;br&gt;&lt;b&gt;AVÍS:&lt;/b&gt; L&apos;ús de prioritat en temps real pot fer que el sistema es pengi.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="254"/>
+        <location filename="../prefperformance.cpp" line="244"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Omet mostrar alguns marcs per mantenir la sincronització A/V en sistemes lents.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="256"/>
+        <location filename="../prefperformance.cpp" line="246"/>
         <source>Allow hard frame drop</source>
         <translation>Permet deixar anar marcs dors</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="258"/>
+        <location filename="../prefperformance.cpp" line="248"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>Deixa anar el marc més intensament (trenca la descodificació). Tendeix a distorsionar la imatge!</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="282"/>
+        <location filename="../prefperformance.cpp" line="272"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>Ajusta gradualment la sincronització de A/V basant-se en mesures de retard d&apos;àudio.</translation>
     </message>
@@ -5334,30 +5349,30 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="299"/>
         <source>Create index if needed</source>
-        <translation>Crea un índex quan calgui</translation>
+        <translation type="obsolete">Crea un índex quan calgui</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="304"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
-        <translation>Si no es troba cap índex de fitxers en reconstrueix un, permetent la cerca. És útil en descàrregues incompletes/trencades, o fitxers mal generats. Aquesta opció només funciona si el suport final permet la cerca (per exemple. no amb stdin, pipe, etc)&lt;br&gt; Nota: la creació dels índex pot tardar una estona.</translation>
+        <translation type="obsolete">Si no es troba cap índex de fitxers en reconstrueix un, permetent la cerca. És útil en descàrregues incompletes/trencades, o fitxers mal generats. Aquesta opció només funciona si el suport final permet la cerca (per exemple. no amb stdin, pipe, etc)&lt;br&gt; Nota: la creació dels índex pot tardar una estona.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="284"/>
+        <location filename="../prefperformance.cpp" line="274"/>
         <source>Fast audio track switching</source>
         <translation>Commutació ràpida de piestes d&apos;àudio</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="294"/>
+        <location filename="../prefperformance.cpp" line="284"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Cerca ràpida pels capítols en dvds</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="296"/>
+        <location filename="../prefperformance.cpp" line="286"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Si es selecciona, intentarà el mètode més ràpid de cerca per capítols, però pot ser que no funcioni amb alguns discos.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="264"/>
+        <location filename="../prefperformance.cpp" line="254"/>
         <source>Skip loop filter</source>
         <translation>Omet el filtre de repetició</translation>
     </message>
@@ -5367,62 +5382,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="291"/>
+        <location filename="../prefperformance.cpp" line="281"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>Valors possibles:&lt;br&gt; &lt;b&gt;Sí&lt;/b&gt;: intentarà el mètode més ràpid per canviar la pista d&apos;àudio (pot no funcionar amb alguns formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: el procés MPlayer es reiniciarà quan canvieu la pista d&apos;àudio.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer decidirà el comportament en funció de la versió de MPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="308"/>
+        <location filename="../prefperformance.cpp" line="291"/>
         <source>Cache for files</source>
         <translation>Memòria de cau pels fitxers</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="310"/>
+        <location filename="../prefperformance.cpp" line="293"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>Aquesta opció especifica quanta memòria de cau (en KBytes) usar quan es precarregui un fitxer.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="312"/>
+        <location filename="../prefperformance.cpp" line="295"/>
         <source>Cache for streams</source>
         <translation>Memòria de cau per fluxos de dades</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="314"/>
+        <location filename="../prefperformance.cpp" line="297"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>Aquesta opció especifica quanta memòria de cau (en KBytes) s&apos;usarà quan es precarregui una URL.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="316"/>
+        <location filename="../prefperformance.cpp" line="299"/>
         <source>Cache for DVDs</source>
         <translation>Memòria de cau per DVDs</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="319"/>
+        <location filename="../prefperformance.cpp" line="302"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>Aquesta opció especifica quanta memòria de cau (en KBytes) s&apos;usarà en precarrgar un DVD.&lt;br&gt;&lt;b&gt;Avís:&lt;/b&gt; La cerca pot no funcionar correctament (incloent el canvi de capítols) quan s&apos;usi una memòria de cau per DVDs.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="367"/>
         <source>C&amp;reate index if needed</source>
-        <translation>C&amp;rea un índex si cal</translation>
+        <translation type="obsolete">C&amp;rea un índex si cal</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="388"/>
+        <location filename="../prefperformance.ui" line="374"/>
         <source>&amp;Cache</source>
         <translation>&amp;Memòria de cau</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="441"/>
+        <location filename="../prefperformance.ui" line="427"/>
         <source>Cache for &amp;DVDs:</source>
         <translation>Memòria de cau per &amp;DVDs:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="461"/>
+        <location filename="../prefperformance.ui" line="447"/>
         <source>Cache for &amp;local files:</source>
         <translation>Memòria de cau per fitxers &amp;locals:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="471"/>
+        <location filename="../prefperformance.ui" line="457"/>
         <source>Cache for &amp;streams:</source>
         <translation>Memòria de cau per &amp;fluxos de dades:</translation>
     </message>
@@ -5447,72 +5462,72 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Filtre de repetició</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="271"/>
+        <location filename="../prefperformance.cpp" line="261"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>Aquesta opció permet ometre el filtre de repetició (AKA desbloqueig) durant la descodificació H.264. Com que els fotogrames se suposa que s&apos;usen com a referència per descodificar els fotogrames dependents això té un efecte desastrós en la qualitat, en comptes del desbloqueig en vídeos MPEG-2. En canvi, per HDTV amb alta velocitat de transmissió produeix un gran increment de velocitat sense pèrdua de qualitat visible.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="272"/>
+        <location filename="../prefperformance.cpp" line="262"/>
         <source>Possible values:</source>
         <translation>Valors possibles:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="273"/>
+        <location filename="../prefperformance.cpp" line="263"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>&lt;b&gt;Habilitat&lt;/b&gt;: no s&apos;omet el filtre de repetició</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="275"/>
+        <location filename="../prefperformance.cpp" line="265"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;Omet (sempre)&lt;/b&gt;: el filtre de repetició s&apos;omet independentment de la resolució del vídeo</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="278"/>
+        <location filename="../prefperformance.cpp" line="268"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;Omet només en vídeos HD&lt;/b&gt;: el filtre de repetició s&apos;ometrà només en vídeos de longitud %1 o major.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="306"/>
+        <location filename="../prefperformance.cpp" line="289"/>
         <source>Cache</source>
         <translation>Memòria de cau</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="321"/>
+        <location filename="../prefperformance.cpp" line="304"/>
         <source>Cache for audio CDs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="323"/>
+        <location filename="../prefperformance.cpp" line="306"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="541"/>
+        <location filename="../prefperformance.ui" line="527"/>
         <source>Cache for &amp;audio CDs:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="325"/>
+        <location filename="../prefperformance.cpp" line="308"/>
         <source>Cache for VCDs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="327"/>
+        <location filename="../prefperformance.cpp" line="310"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="585"/>
+        <location filename="../prefperformance.ui" line="571"/>
         <source>Cache for &amp;VCDs:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="260"/>
+        <location filename="../prefperformance.cpp" line="250"/>
         <source>Threads for decoding</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="262"/>
+        <location filename="../prefperformance.cpp" line="252"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
         <translation type="unfinished"></translation>
     </message>
