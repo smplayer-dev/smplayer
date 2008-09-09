@@ -19,6 +19,8 @@
 #ifndef _CONFIG_H_
 #define _CONFIG_H_
 
+#include <Qt>
+
 
 // Activate the new code for aspect ratio
 
@@ -88,8 +90,9 @@
 
 
 // Adds or not the "Repaint the background of the video window" option.
-
+#ifndef Q_OS_WIN
 #define REPAINT_BACKGROUND_OPTION 1
+#endif
 
 
 // NOTIFY_AUDIO_SUB_CHANGES
