@@ -89,9 +89,6 @@ protected:
 	void setThreads(int v);
 	int threads();
 
-	void setUseIdx(bool);
-	bool useIdx();
-
 protected:
 	virtual void retranslateStrings();
 };

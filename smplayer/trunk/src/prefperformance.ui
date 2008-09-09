@@ -355,20 +355,6 @@
         </widget>
        </item>
        <item>
-        <widget class="Line" name="line" >
-         <property name="orientation" >
-          <enum>Qt::Horizontal</enum>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="idx_check" >
-         <property name="text" >
-          <string>C&amp;reate index if needed</string>
-         </property>
-        </widget>
-       </item>
-       <item>
         <spacer>
          <property name="orientation" >
           <enum>Qt::Vertical</enum>
@@ -626,7 +612,6 @@
   <tabstop>autosync_spin</tabstop>
   <tabstop>fast_audio_combo</tabstop>
   <tabstop>fast_chapter_check</tabstop>
-  <tabstop>idx_check</tabstop>
   <tabstop>cache_files_spin</tabstop>
   <tabstop>cache_streams_spin</tabstop>
   <tabstop>cache_dvds_spin</tabstop>

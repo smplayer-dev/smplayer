@@ -106,6 +106,7 @@ void PrefAdvanced::setData(Preferences * pref) {
 	setColorKey( pref->color_key );
 #endif
 	setPreferIpv4( pref->prefer_ipv4 );
+	setUseIdx( pref->use_idx );
 
 	setLogMplayer( pref->log_mplayer );
 	setLogSmplayer( pref->log_smplayer );
@@ -132,6 +133,7 @@ void PrefAdvanced::getData(Preferences * pref) {
 	colorkey_changed = false;
 #endif
 	pref->prefer_ipv4 = preferIpv4();
+	TEST_AND_SET(pref->use_idx, useIdx());
 
 	if (pref->monitor_aspect != monitorAspect()) {
 		pref->monitor_aspect = monitorAspect();
@@ -268,6 +270,13 @@ bool PrefAdvanced::preferIpv4() {
 	return ipv4_button->isChecked();
 }
 
+void PrefAdvanced::setUseIdx(bool b) {
+	idx_check->setChecked(b);
+}
+
+bool PrefAdvanced::useIdx() {
+	return idx_check->isChecked();
+}
 
 void PrefAdvanced::on_changeButton_clicked() {
 	//bool ok;
@@ -348,6 +357,12 @@ void PrefAdvanced::createHelp() {
 	setWhatsThis(monitoraspect_combo, tr("Monitor aspect"),
         tr("Select the aspect ratio of your monitor.") );
 
+	setWhatsThis(ipv4_button, tr("IPv4"),
+		tr("Use IPv4 on network connections. Falls back on IPv6 automatically."));
+
+	setWhatsThis(ipv6_button, tr("IPv6"),
+		tr("Use IPv6 on network connections. Falls back on IPv4 automatically."));
+
 	setWhatsThis(mplayer_use_window_check, tr("Run MPlayer in its own window"),
         tr("If you check this option, the MPlayer video window won't be "
            "embedded in SMPlayer's main window but instead it will use its "
@@ -356,12 +371,12 @@ void PrefAdvanced::createHelp() {
            "probably won't work as expected when the MPlayer window has the "
            "focus.") );
 
-#if REPAINT_BACKGROUND_OPTION
-	setWhatsThis(clear_background_check, 
-        tr("Repaint the background of the video window"),
-		tr("Checking this option may reduce flickering, but it also might "
-           "produce that the video won't be displayed properly.") );
-#endif
+	setWhatsThis(idx_check, tr("Rebuild index if needed"),
+		tr("Rebuilds index of files if no index was found, allowing seeking. "
+		   "Useful with broken/incomplete downloads, or badly created files. "
+           "This option only works if the underlying media supports "
+           "seeking (i.e. not with stdin, pipe, etc).<br> "
+           "Note: the creation of the index may take some time.") );
 
 #ifdef Q_OS_WIN
 	setWhatsThis(shortnames_check, tr("Pass short filenames (8+3) to MPlayer"),
@@ -371,19 +386,19 @@ void PrefAdvanced::createHelp() {
            "and thus it will able to open them.") );
 #endif
 
+#if REPAINT_BACKGROUND_OPTION
+	setWhatsThis(clear_background_check, 
+        tr("Repaint the background of the video window"),
+		tr("Checking this option may reduce flickering, but it also might "
+           "produce that the video won't be displayed properly.") );
+#endif
+
 #if USE_COLORKEY
 	setWhatsThis(colorkey_view, tr("Colorkey"),
         tr("If you see parts of the video over any other window, you can "
            "change the colorkey to fix it. Try to select a color close to "
            "black.") );
 #endif
-
-	setWhatsThis(ipv4_button, tr("IPv4"),
-		tr("Use IPv4 on network connections. Falls back on IPv6 automatically."));
-
-	setWhatsThis(ipv6_button, tr("IPv6"),
-		tr("Use IPv6 on network connections. Falls back on IPv4 automatically."));
-
 
 	addSectionTitle(tr("Options for MPlayer"));
 
