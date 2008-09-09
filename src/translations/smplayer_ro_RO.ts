@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -3748,17 +3749,17 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="374"/>
         <source>Rebuild index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>Refacere index dacă este necesar</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="379"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
-        <translation type="unfinished">Refacerea indexului fișierelor dacă nu a fost găsit niciun index, pentru a permite căutarea. Opțiune utilă pentru desărcări incomplete/cu_erori, sau cu fișiere create greșit. Această opțiune funcționează doar dacă fișierul media vizat suportă căutare (nu va lucra cu stdin, pipe, etc.).&lt;/br&gt; Notă: crearea indexului este o operațiune de durată.</translation>
+        <translation>Refacerea indexului fișierelor dacă nu a fost găsit niciun index, pentru a permite căutarea. Opțiune utilă pentru desărcări incomplete/cu erori, sau cu fișiere create greșit. Această opțiune funcționează doar dacă fișierul media vizat suportă căutare (nu va lucra cu stdin, pipe, etc.).&lt;/br&gt; Notă: crearea indexului este o operațiune de durată.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="138"/>
         <source>Rebuild &amp;index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>Refacere &amp;index dacă este necesar</translation>
     </message>
 </context>
 <context>
