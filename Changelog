@@ -11,6 +11,10 @@
  * Bugfix: the volume may be changed on startup even if the option "Change 
    volume on every file" was off. 
 
+(2008-09-04)
+ * Don't change the window size if the panel is already the requested size. 
+   Seems to fix a problem when using Compiz.
+
 (2008-09-01)
  * The option "Repaint background of the video window" (in Preferences->
    Advanced) is now enabled by default in linux. It seems with newer versions
