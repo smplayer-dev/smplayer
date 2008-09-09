@@ -1,5 +1,9 @@
 [b]Version 0.6.3[/b]:
 
+(2008-09-08)
+ * Moved the option "Create index if needed" from the section Performance to
+   Advanced.
+
 (2008-09-06)
  * Added a new option in Preferences->Performance: Threads for decoding.
    Sets the number of threads to use for decoding (for MPEG-1/2 and H.264 only).

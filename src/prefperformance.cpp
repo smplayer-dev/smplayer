@@ -89,7 +89,6 @@ void PrefPerformance::setData(Preferences * pref) {
 #endif
 	setFastAudioSwitching( pref->fast_audio_change );
 	setThreads( pref->threads );
-	setUseIdx( pref->use_idx );
 }
 
 void PrefPerformance::getData(Preferences * pref) {
@@ -112,7 +111,6 @@ void PrefPerformance::getData(Preferences * pref) {
 #endif
 	pref->fast_audio_change = fastAudioSwitching();
 	TEST_AND_SET(pref->threads, threads());
-	TEST_AND_SET(pref->use_idx, useIdx());
 }
 
 void PrefPerformance::setCacheForFiles(int n) {
@@ -229,14 +227,6 @@ int PrefPerformance::threads() {
 	return threads_spin->value();
 }
 
-void PrefPerformance::setUseIdx(bool b) {
-	idx_check->setChecked(b);
-}
-
-bool PrefPerformance::useIdx() {
-	return idx_check->isChecked();
-}
-
 void PrefPerformance::createHelp() {
 	clearHelp();
 
@@ -295,13 +285,6 @@ void PrefPerformance::createHelp() {
 		tr("If checked, it will try the fastest method to seek to chapters "
            "but it might not work with some discs.") );
 #endif
-
-	setWhatsThis(idx_check, tr("Create index if needed"),
-		tr("Rebuilds index of files if no index was found, allowing seeking. "
-		   "Useful with broken/incomplete downloads, or badly created files. "
-           "This option only works if the underlying media supports "
-           "seeking (i.e. not with stdin, pipe, etc).<br> "
-           "Note: the creation of the index may take some time.") );
 
 	addSectionTitle(tr("Cache"));
 

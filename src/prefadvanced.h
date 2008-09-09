@@ -86,6 +86,9 @@ protected:
 	void setPreferIpv4(bool b);
 	bool preferIpv4();
 
+	void setUseIdx(bool);
+	bool useIdx();
+
 	// Log options
 	void setLogMplayer(bool b);
 	bool logMplayer();

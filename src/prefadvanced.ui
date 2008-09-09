@@ -14,7 +14,7 @@
     <number>0</number>
    </property>
    <property name="spacing" >
-    <number>0</number>
+    <number>6</number>
    </property>
    <item>
     <widget class="QTabWidget" name="advanced_tab" >
@@ -97,6 +97,35 @@
         </layout>
        </item>
        <item>
+        <widget class="QGroupBox" name="internet_connection_groupbox" >
+         <property name="title" >
+          <string>Network Connection</string>
+         </property>
+         <layout class="QVBoxLayout" >
+          <property name="margin" >
+           <number>9</number>
+          </property>
+          <property name="spacing" >
+           <number>6</number>
+          </property>
+          <item>
+           <widget class="QRadioButton" name="ipv4_button" >
+            <property name="text" >
+             <string>IPv&amp;4</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="ipv6_button" >
+            <property name="text" >
+             <string>IPv&amp;6</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="mplayer_use_window_check" >
          <property name="text" >
           <string>&amp;Run MPlayer in its own window</string>
@@ -104,9 +133,30 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="idx_check" >
+         <property name="text" >
+          <string>Rebuild &amp;index if needed</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="shortnames_check" >
+         <property name="text" >
+          <string>&amp;Pass short filenames (8+3) to MPlayer</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="clear_background_check" >
          <property name="text" >
           <string>Repaint the backgroun&amp;d of the video window</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="Line" name="line" >
+         <property name="orientation" >
+          <enum>Qt::Horizontal</enum>
          </property>
         </widget>
        </item>
@@ -167,42 +217,6 @@
           </spacer>
          </item>
         </layout>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="shortnames_check" >
-         <property name="text" >
-          <string>&amp;Pass short filenames (8+3) to MPlayer</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QGroupBox" name="internet_connection_groupbox" >
-         <property name="title" >
-          <string>Network Connection</string>
-         </property>
-         <layout class="QVBoxLayout" >
-          <property name="margin" >
-           <number>9</number>
-          </property>
-          <property name="spacing" >
-           <number>6</number>
-          </property>
-          <item>
-           <widget class="QRadioButton" name="ipv4_button" >
-            <property name="text" >
-             <string>IPv&amp;4</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QRadioButton" name="ipv6_button" >
-            <property name="text" >
-             <string>IPv&amp;6</string>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </widget>
        </item>
        <item>
         <spacer>
@@ -626,11 +640,14 @@ The drop-down lists may provide already made regular expression for several lang
  <tabstops>
   <tabstop>advanced_tab</tabstop>
   <tabstop>monitoraspect_combo</tabstop>
+  <tabstop>ipv4_button</tabstop>
+  <tabstop>ipv6_button</tabstop>
   <tabstop>mplayer_use_window_check</tabstop>
+  <tabstop>idx_check</tabstop>
+  <tabstop>shortnames_check</tabstop>
   <tabstop>clear_background_check</tabstop>
   <tabstop>colorkey_view</tabstop>
   <tabstop>changeButton</tabstop>
-  <tabstop>shortnames_check</tabstop>
   <tabstop>mplayer_args_edit</tabstop>
   <tabstop>mplayer_vfilters_edit</tabstop>
   <tabstop>mplayer_afilters_edit</tabstop>
