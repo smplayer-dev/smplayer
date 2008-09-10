@@ -8,11 +8,6 @@
         <translation>バージョン: %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="60"/>
-        <source>Compiled with Qt %1</source>
-        <translation type="obsolete">Qt %1 でコンパイルされています</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="92"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
         <translation>このプログラムはフリー ソフトウェアです。Free Software Foundation によって発行されている GNU General Public License の version 2、または (オプションで) すべてのより後のバージョンのどちらかの条件の下で再配布できます。</translation>
@@ -617,11 +612,6 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="1278"/>
         <source>Si&amp;ze</source>
         <translation>サイズ(&amp;Z)</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1265"/>
-        <source>&amp;Autodetect</source>
-        <translation type="obsolete">自動検出(&amp;A)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1313"/>
@@ -1346,21 +1336,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>マルチメディア</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1113"/>
-        <source>Find subtitles for this movie on the &amp;web...</source>
-        <translation type="obsolete">ウェブからこのムービーの字幕を検索(&amp;W)...</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1131"/>
-        <source>Upl&amp;oad subtitles...</source>
-        <translation type="obsolete">字幕のアップロード(&amp;O)...</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1130"/>
-        <source>Find subtitles on the &amp;web...</source>
-        <translation type="obsolete">ウェブから字幕を検索(&amp;W)...</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1142"/>
         <source>E&amp;qualizer</source>
         <translation>イコライザー(&amp;Q)</translation>
@@ -1521,119 +1496,6 @@ The configuration dialog will be shown now, so you can do it.</source>
     </message>
 </context>
 <context>
-    <name>Encodings</name>
-    <message>
-        <location filename="../encodings.cpp" line="31"/>
-        <source>Western European Languages</source>
-        <translation type="obsolete">西ヨーロッパ言語</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="32"/>
-        <source>Western European Languages with Euro</source>
-        <translation type="obsolete">ユーロ地域の西ヨーロッパ言語</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="33"/>
-        <source>Slavic/Central European Languages</source>
-        <translation type="obsolete">スラブ語/中央ヨーロッパ言語</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="34"/>
-        <source>Esperanto, Galician, Maltese, Turkish</source>
-        <translation type="obsolete">エスペラント語、ガリシア語、マルタ語、トルコ語</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="35"/>
-        <source>Old Baltic charset</source>
-        <translation type="obsolete">古バルト語文字セット</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="36"/>
-        <source>Cyrillic</source>
-        <translation type="obsolete">キリル言語</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="37"/>
-        <source>Arabic</source>
-        <translation type="obsolete">アラビア語</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="38"/>
-        <source>Modern Greek</source>
-        <translation type="obsolete">現代ギリシャ語</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="39"/>
-        <source>Turkish</source>
-        <translation type="obsolete">トルコ語</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="40"/>
-        <source>Baltic</source>
-        <translation type="obsolete">バルト語</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="41"/>
-        <source>Celtic</source>
-        <translation type="obsolete">ケルト語</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="42"/>
-        <source>Hebrew charsets</source>
-        <translation type="obsolete">ヘブライ語文字セット</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="43"/>
-        <source>Russian</source>
-        <translation type="obsolete">ロシア語</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="44"/>
-        <source>Ukrainian, Belarusian</source>
-        <translation type="obsolete">ウクライナ語、ベラルーシ語</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="45"/>
-        <source>Simplified Chinese charset</source>
-        <translation type="obsolete">簡体字中国語文字セット</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="46"/>
-        <source>Traditional Chinese charset</source>
-        <translation type="obsolete">繁体字中国語文字セット</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="47"/>
-        <source>Japanese charsets</source>
-        <translation type="obsolete">日本語文字セット</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="48"/>
-        <source>Korean charset</source>
-        <translation type="obsolete">韓国語文字セット</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="49"/>
-        <source>Thai charset</source>
-        <translation type="obsolete">タイ語文字セット</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="50"/>
-        <source>Cyrillic Windows</source>
-        <translation type="obsolete">キリル言語 Windows</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="51"/>
-        <source>Slavic/Central European Windows</source>
-        <translation type="obsolete">スラブ語/中央ヨーロッパ Windows</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="52"/>
-        <source>Arabic Windows</source>
-        <translation type="obsolete">アラビア語 Windows</translation>
-    </message>
-</context>
-<context>
     <name>EqSlider</name>
     <message>
         <location filename="../eqslider.ui" line="22"/>
@@ -1780,119 +1642,6 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../filepropertiesdialog.cpp" line="72"/>
         <source>Apply</source>
         <translation>適用</translation>
-    </message>
-</context>
-<context>
-    <name>FindSubtitlesDialog</name>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="133"/>
-        <source>Language</source>
-        <translation type="obsolete">言語</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="133"/>
-        <source>Name</source>
-        <translation type="obsolete">名前</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="134"/>
-        <source>Format</source>
-        <translation type="obsolete">フォーマット</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="134"/>
-        <source>Files</source>
-        <translation type="obsolete">ファイル</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="134"/>
-        <source>Date</source>
-        <translation type="obsolete">日付</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="134"/>
-        <source>Uploaded by</source>
-        <translation type="obsolete">アップロード者</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="215"/>
-        <source>Error</source>
-        <translation type="obsolete">エラー</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="217"/>
-        <source>Download failed: %1.</source>
-        <translation type="obsolete">ダウンロードが失敗しました: %1。</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="221"/>
-        <source>Connecting to %1...</source>
-        <translation type="obsolete">%1 へ接続しています...</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="227"/>
-        <source>Downloading...</source>
-        <translation type="obsolete">ダウンロードしています...</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="235"/>
-        <source>Done.</source>
-        <translation type="obsolete">完了しました。</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="281"/>
-        <source>%1 files available</source>
-        <translation type="obsolete">%1 個のファイルが利用可能です</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="290"/>
-        <source>Failed to parse the received data.</source>
-        <translation type="obsolete">受信されたデータの構文解析に失敗しました。</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="13"/>
-        <source>Find Subtitles</source>
-        <translation type="obsolete">字幕の検索</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="33"/>
-        <source>Subtitles for</source>
-        <translation type="obsolete">検索するファイル</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="56"/>
-        <source>&amp;Language:</source>
-        <translation type="obsolete">言語(&amp;L):</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="89"/>
-        <source>&amp;Refresh</source>
-        <translation type="obsolete">更新(&amp;R)</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="99"/>
-        <source>&amp;Download</source>
-        <translation type="obsolete">ダウンロード(&amp;D)</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="156"/>
-        <source>Close</source>
-        <translation type="obsolete">閉じる</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.ui" line="33"/>
-        <source>&amp;Subtitles for</source>
-        <translation type="obsolete">検索するファイル(&amp;S)</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="150"/>
-        <source>All</source>
-        <translation type="obsolete">すべて</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="161"/>
-        <source>&amp;Copy link to clipboard</source>
-        <translation type="obsolete">クリップボードへリンクをコピー(&amp;C)</translation>
     </message>
 </context>
 <context>
@@ -2740,11 +2489,6 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>ケチュア語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="114"/>
-        <source>Rhaeto</source>
-        <translation type="obsolete">レト</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="115"/>
         <source>Kirundi</source>
         <translation>キルンディ語</translation>
@@ -2778,11 +2522,6 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../languages.cpp" line="121"/>
         <source>Sangho</source>
         <translation>サンゴ語</translation>
-    </message>
-    <message>
-        <location filename="../languages.cpp" line="122"/>
-        <source>Serbo</source>
-        <translation type="obsolete">セルボ</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="123"/>
@@ -2938,11 +2677,6 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../languages.cpp" line="153"/>
         <source>Vietnamese</source>
         <translation>ベトナム語</translation>
-    </message>
-    <message>
-        <location filename="../languages.cpp" line="154"/>
-        <source>Volapuk</source>
-        <translation type="obsolete">ヴォラピュク語</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="155"/>
@@ -3412,11 +3146,6 @@ Do you want to overwrite?</source>
         <translation>自動</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="361"/>
-        <source>Don&apos;t repaint the background of the video window</source>
-        <translation type="obsolete">ビデオ ウィンドウの背景を再描画しない</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="393"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
         <translation>このオプションのチェックはちらつきを減少させる可能性がありますが、ビデオが適切に表示されなくなることを生む可能性もあります。</translation>
@@ -3532,11 +3261,6 @@ The drop-down lists may provide already made regular expression for several lang
         <location filename="../prefadvanced.ui" line="174"/>
         <source>&amp;Colorkey:</source>
         <translation>カラーキー(&amp;C):</translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.ui" line="202"/>
-        <source>&amp;Don&apos;t repaint the background of the video window</source>
-        <translation type="obsolete">ビデオ ウィンドウの背景を再描画しない(&amp;D)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="542"/>
@@ -3973,11 +3697,6 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>通常 smplayer は再生するファイル (選択されたオーディオ トラック、音量、フィルター...) ごとに設定を記憶します。この機能がお好みでない場合はこのオプションをチェック解除します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="498"/>
-        <source>Don&apos;t remember time position</source>
-        <translation type="obsolete">時間の位置を記憶しない</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="511"/>
         <source>If you check this option, smplayer will play all files from the beginning.</source>
         <translation>このオプションをチェックすると、smplayer はすべてのファイルを最初から再生します。</translation>
@@ -4131,11 +3850,6 @@ The drop-down lists may provide already made regular expression for several lang
         <location filename="../prefgeneral.ui" line="829"/>
         <source>&amp;Audio:</source>
         <translation>オーディオ(&amp;A):</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="214"/>
-        <source>&amp;Don&apos;t remember time position (files start playing from the beginning)</source>
-        <translation type="obsolete">時間の位置を記憶しない (ファイルは最初から再生が開始されます)(&amp;D)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="218"/>
@@ -4402,11 +4116,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.cpp" line="589"/>
         <source>Change volume just before playing</source>
         <translation>再生の直前に音量を変更する</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="614"/>
-        <source>Change volume just before p&amp;laying (avoids loud volume on startup)</source>
-        <translation type="obsolete">再生の直前に音量を変更する (起動時の大きい音量を回避します)(&amp;L)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="595"/>
@@ -4820,131 +4529,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>インターフェイス</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="85"/>
-        <source>Bulgarian</source>
-        <translation type="obsolete">ブルガリア語</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="87"/>
-        <source>Czech</source>
-        <translation type="obsolete">チェコ語</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="88"/>
-        <source>German</source>
-        <translation type="obsolete">ドイツ語</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="89"/>
-        <source>Greek</source>
-        <translation type="obsolete">ギリシャ語</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="90"/>
-        <source>English</source>
-        <translation type="obsolete">英語</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="91"/>
-        <source>Spanish</source>
-        <translation type="obsolete">スペイン語</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="93"/>
-        <source>Finnish</source>
-        <translation type="obsolete">フィンランド語</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="94"/>
-        <source>French</source>
-        <translation type="obsolete">フランス語</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="96"/>
-        <source>Hungarian</source>
-        <translation type="obsolete">ハンガリー語</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="97"/>
-        <source>Italian</source>
-        <translation type="obsolete">イタリア語</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="98"/>
-        <source>Japanese</source>
-        <translation type="obsolete">日本語</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="99"/>
-        <source>Georgian</source>
-        <translation type="obsolete">グルジア語</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="102"/>
-        <source>Dutch</source>
-        <translation type="obsolete">オランダ語</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="103"/>
-        <source>Polish</source>
-        <translation type="obsolete">ポーランド語</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="104"/>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">ポルトガル語 - ブラジル</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="105"/>
-        <source>Portuguese - Portugal</source>
-        <translation type="obsolete">ポルトガル語 - ポルトガル</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="106"/>
-        <source>Romanian</source>
-        <translation type="obsolete">ルーマニア語</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="107"/>
-        <source>Russian</source>
-        <translation type="obsolete">ロシア語</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="108"/>
-        <source>Slovak</source>
-        <translation type="obsolete">スロバキア語</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="109"/>
-        <source>Serbian</source>
-        <translation type="obsolete">セルビア語</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="110"/>
-        <source>Swedish</source>
-        <translation type="obsolete">スウェーデン語</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="111"/>
-        <source>Turkish</source>
-        <translation type="obsolete">トルコ語</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="112"/>
-        <source>Ukrainian</source>
-        <translation type="obsolete">ウクライナ語</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="113"/>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">簡体字中国語</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="114"/>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">繁体字中国語</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="92"/>
         <source>&lt;Autodetect&gt;</source>
         <translation>&lt;自動検出&gt;</translation>
@@ -5000,21 +4584,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>インスタンス</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="86"/>
-        <source>Catalan</source>
-        <translation type="obsolete">カタロニア語</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="92"/>
-        <source>Basque</source>
-        <translation type="obsolete">バスク語</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="95"/>
-        <source>Galician</source>
-        <translation type="obsolete">ガリシア語</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="119"/>
         <source>&amp;Short jump</source>
         <translation>短いジャンプ(&amp;S)</translation>
@@ -5038,11 +4607,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.ui" line="548"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
         <translation>実行中の SMPlayer のインスタンスを 1 つのみ使用する(&amp;U)</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.ui" line="552"/>
-        <source>SMPlayer will listen to this &amp;port to receive commands from other instances:</source>
-        <translation type="obsolete">SMPlayer はその他のインスタンスからコマンドを受信するのにこのポートを聴取します(&amp;P):</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="139"/>
@@ -5118,16 +4682,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.ui" line="513"/>
         <source>Ins&amp;tances</source>
         <translation>実行(&amp;T)</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="100"/>
-        <source>Korean</source>
-        <translation type="obsolete">韓国語</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="101"/>
-        <source>Macedonian</source>
-        <translation type="obsolete">マケドニア語</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="427"/>
@@ -5248,11 +4802,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.cpp" line="488"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>その他のファイルを開くときにすでに実行中の SMPlayer のインスタンスを使用したい場合はこのオプションをチェックします。</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="475"/>
-        <source>Port</source>
-        <translation type="obsolete">ポート</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="498"/>
@@ -5473,16 +5022,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>dvd のチャプターへ高速シークする(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="299"/>
-        <source>Create index if needed</source>
-        <translation type="obsolete">必要ならインデックスを作成する</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="304"/>
-        <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
-        <translation type="obsolete">インデックスが見つからなかった場合はファイルのインデックスを再構築し、シークを許可します。破損した/未完了のダウンロード、または不良に作成されたファイルに有用です。このオプションは基礎となるメディアがシークをサポートする場合のみ動作します (すなわち stdin、pipe、などを持たないもの)。&lt;br&gt; 注意: インデックスの作成には時間がかかる可能性があります。</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.cpp" line="286"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>チェックされている場合、チャプターへのシークに最速の方法を試行しますがいくつかのディスクでは動作しない可能性があります。</translation>
@@ -5531,11 +5070,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.cpp" line="302"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>このオプションは DVD のプリキャッシュ時に使用するメモリ (k バイト) を指定します。&lt;br&gt;&lt;b&gt;警告:&lt;/b&gt; シークは DVD のキャッシュの使用時に適切に動作しない可能性があります (チャプターの切り替えを含む)。</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.ui" line="367"/>
-        <source>C&amp;reate index if needed</source>
-        <translation type="obsolete">必要ならインデックスを作成する(&amp;R)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="374"/>
@@ -6231,11 +5765,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 </context>
 <context>
     <name>VideoEqualizer</name>
-    <message>
-        <location filename="../videoequalizer.cpp" line="72"/>
-        <source>Equalizer</source>
-        <translation type="obsolete">イコライザ</translation>
-    </message>
     <message>
         <location filename="../videoequalizer.cpp" line="73"/>
         <source>Contrast</source>

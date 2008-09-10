@@ -614,11 +614,6 @@ Você quer sobregravá-lo?</translation>
         <translation>&amp;Tamanho</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1265"/>
-        <source>&amp;Autodetect</source>
-        <translation type="obsolete">&amp;Autodetectar</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1313"/>
         <source>4:3 &amp;Letterbox</source>
         <translation>4:3 &amp;Letterbox</translation>
@@ -1501,114 +1496,6 @@ O diálogo de configuração será aberto agora, e você poderá faze-lo.</trans
     </message>
 </context>
 <context>
-    <name>Encodings</name>
-    <message>
-        <location filename="../encodings.cpp" line="31"/>
-        <source>Western European Languages</source>
-        <translation type="obsolete">Línguas do Oeste Europeu</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="32"/>
-        <source>Western European Languages with Euro</source>
-        <translation type="obsolete">Línguas do Oeste Europeu com Euro</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="33"/>
-        <source>Slavic/Central European Languages</source>
-        <translation type="obsolete">Línguas Centro-Européias e Eslavas</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="34"/>
-        <source>Esperanto, Galician, Maltese, Turkish</source>
-        <translation type="obsolete">Esperanto, Galício, Maltês, Turco</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="35"/>
-        <source>Old Baltic charset</source>
-        <translation type="obsolete">Antigo Charset Báltico</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="36"/>
-        <source>Cyrillic</source>
-        <translation type="obsolete">Cirílico</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="37"/>
-        <source>Arabic</source>
-        <translation type="obsolete">Árabe</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="38"/>
-        <source>Modern Greek</source>
-        <translation type="obsolete">Grego Moderno</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="39"/>
-        <source>Turkish</source>
-        <translation type="obsolete">Turco</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="40"/>
-        <source>Baltic</source>
-        <translation type="obsolete">Báltico</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="41"/>
-        <source>Celtic</source>
-        <translation type="obsolete">Celta</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="42"/>
-        <source>Hebrew charsets</source>
-        <translation type="obsolete">Charsets Hebreus</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="43"/>
-        <source>Russian</source>
-        <translation type="obsolete">Russo</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="44"/>
-        <source>Ukrainian, Belarusian</source>
-        <translation type="obsolete">Ucraniano, Bielorusso</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="45"/>
-        <source>Simplified Chinese charset</source>
-        <translation type="obsolete">Charset Chinês Simplificado</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="46"/>
-        <source>Traditional Chinese charset</source>
-        <translation type="obsolete">Charset Chinês Tradicional</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="47"/>
-        <source>Japanese charsets</source>
-        <translation type="obsolete">Charset Japonês</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="48"/>
-        <source>Korean charset</source>
-        <translation type="obsolete">Charset Coreano</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="49"/>
-        <source>Thai charset</source>
-        <translation type="obsolete">Charset Tailandês</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="50"/>
-        <source>Cyrillic Windows</source>
-        <translation type="obsolete">Windows Cirílico</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="51"/>
-        <source>Slavic/Central European Windows</source>
-        <translation type="obsolete">Windows Europa Central e Eslavo</translation>
-    </message>
-</context>
-<context>
     <name>EqSlider</name>
     <message>
         <location filename="../eqslider.ui" line="22"/>
@@ -1750,34 +1637,6 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../filepropertiesdialog.cpp" line="72"/>
         <source>Apply</source>
         <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>FindSubtitlesDialog</name>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="133"/>
-        <source>Language</source>
-        <translation type="obsolete">Língua</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="133"/>
-        <source>Name</source>
-        <translation type="obsolete">Nome</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="134"/>
-        <source>Format</source>
-        <translation type="obsolete">Formato</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="134"/>
-        <source>Date</source>
-        <translation type="obsolete">Data</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="215"/>
-        <source>Error</source>
-        <translation type="obsolete">Erro</translation>
     </message>
 </context>
 <context>
@@ -3317,11 +3176,6 @@ Example: resample=44100:0:0,volnorm</source>
 Exemplo: resample=44100:0:0.volnorm</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="361"/>
-        <source>Don&apos;t repaint the background of the video window</source>
-        <translation type="obsolete">Não repinte o fundo da janela de vídeo</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="434"/>
         <source>Log MPlayer output</source>
         <translation type="unfinished">Saída de log do MPlayer</translation>
@@ -4670,131 +4524,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">Interface</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="85"/>
-        <source>Bulgarian</source>
-        <translation type="obsolete">Bulgaro</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="87"/>
-        <source>Czech</source>
-        <translation type="obsolete">Tcheco</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="88"/>
-        <source>German</source>
-        <translation type="obsolete">Alemão</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="89"/>
-        <source>Greek</source>
-        <translation type="obsolete">Grego</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="90"/>
-        <source>English</source>
-        <translation type="obsolete">Inglês</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="91"/>
-        <source>Spanish</source>
-        <translation type="obsolete">Espanhol</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="93"/>
-        <source>Finnish</source>
-        <translation type="obsolete">Finlandês</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="94"/>
-        <source>French</source>
-        <translation type="obsolete">Francês</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="96"/>
-        <source>Hungarian</source>
-        <translation type="obsolete">Hungaro</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="97"/>
-        <source>Italian</source>
-        <translation type="obsolete">Italiano</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="98"/>
-        <source>Japanese</source>
-        <translation type="obsolete">Japonês</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="99"/>
-        <source>Georgian</source>
-        <translation type="obsolete">Georgiano</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="102"/>
-        <source>Dutch</source>
-        <translation type="obsolete">Holandês</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="103"/>
-        <source>Polish</source>
-        <translation type="obsolete">Polonês</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="104"/>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">Português do Brasil</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="105"/>
-        <source>Portuguese - Portugal</source>
-        <translation type="obsolete">Português de Portugal</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="106"/>
-        <source>Romanian</source>
-        <translation type="obsolete">Romeno</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="107"/>
-        <source>Russian</source>
-        <translation type="obsolete">Russo</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="108"/>
-        <source>Slovak</source>
-        <translation type="obsolete">Eslovênio</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="109"/>
-        <source>Serbian</source>
-        <translation type="obsolete">Sérvio</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="110"/>
-        <source>Swedish</source>
-        <translation type="obsolete">Sueco</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="111"/>
-        <source>Turkish</source>
-        <translation type="obsolete">Turco</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="112"/>
-        <source>Ukrainian</source>
-        <translation type="obsolete">Ucraniano</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="113"/>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Chinês Simplificado</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="114"/>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">Chinês Tradicional</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="92"/>
         <source>&lt;Autodetect&gt;</source>
         <translation type="unfinished">&lt;Autodetectar&gt;</translation>
@@ -6031,11 +5760,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 </context>
 <context>
     <name>VideoEqualizer</name>
-    <message>
-        <location filename="../videoequalizer.cpp" line="72"/>
-        <source>Equalizer</source>
-        <translation type="obsolete">Equalizador</translation>
-    </message>
     <message>
         <location filename="../videoequalizer.cpp" line="73"/>
         <source>Contrast</source>

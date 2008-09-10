@@ -5004,16 +5004,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">تمرير سريع بين الفصول في الديفدي</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="299"/>
-        <source>Create index if needed</source>
-        <translation type="obsolete">انشاء دليل اذا احتيج</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="304"/>
-        <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
-        <translation type="obsolete">Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.cpp" line="274"/>
         <source>Fast audio track switching</source>
         <translation type="unfinished">تبديل سريع لمسار الصوت</translation>
@@ -5072,11 +5062,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.cpp" line="302"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation type="unfinished">DVD الاعداد يحدد كم تستهلك من الذاكرة عند استخدام الذاكرة الوسيطة لتشغيل قرص</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.ui" line="367"/>
-        <source>C&amp;reate index if needed</source>
-        <translation type="obsolete">انشاء دليل اذا احتيج الأمر</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="374"/>

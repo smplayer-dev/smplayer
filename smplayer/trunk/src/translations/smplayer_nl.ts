@@ -8,11 +8,6 @@
         <translation>Versie: %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="60"/>
-        <source>Compiled with Qt %1</source>
-        <translation type="obsolete">Gecompileerd met Qt %1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="92"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
         <translation>Dit programma is vrije software; u mag het verspreiden en/of wijzigen onder de voorwaarden van de GNU Algemene Publieke Licentie, zoals uitgegeven door de Free Software Foundation; ofwel versie 2 van de Licentie, of (naar keuze) een latere versie.</translation>
@@ -243,11 +238,6 @@
         <translation>Meer informatie</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="43"/>
-        <source>Using MPlayer SVN r%1</source>
-        <translation type="obsolete">Gebruikt MPlayer SVN r%1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="176"/>
         <source>Korean</source>
         <translation>Koreaans</translation>
@@ -291,186 +281,6 @@
         <location filename="../about.cpp" line="181"/>
         <source>Arabic</source>
         <translation>Arabisch</translation>
-    </message>
-</context>
-<context>
-    <name>AboutDialog</name>
-    <message>
-        <location filename="../aboutdialog.cpp" line="76"/>
-        <source>Version: %1</source>
-        <translation type="obsolete">Versie: %1</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="88"/>
-        <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
-        <translation type="obsolete">Dit programma is vrije software; u mag het verspreiden en/of wijzigen onder de voorwaarden van de GNU Algemene Publieke Licentie, zoals uitgegeven door de Free Software Foundation; ofwel versie 2 van de Licentie, of (naar keuze) een latere versie.</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="92"/>
-        <source>Translators:</source>
-        <translation type="obsolete">Vertalers:</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="93"/>
-        <source>German</source>
-        <translation type="obsolete">Duits</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="94"/>
-        <source>Slovak</source>
-        <translation type="obsolete">Slowaaks</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="95"/>
-        <source>Italian</source>
-        <translation type="obsolete">Italiaans</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="96"/>
-        <source>French</source>
-        <translation type="obsolete">Frans</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="100"/>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Vereenvoudigd Chinees</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="101"/>
-        <source>Russian</source>
-        <translation type="obsolete">Russisch</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="104"/>
-        <source>Hungarian</source>
-        <translation type="obsolete">Hongaars</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="108"/>
-        <source>Japanese</source>
-        <translation type="obsolete">Japans</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="109"/>
-        <source>Dutch</source>
-        <translation type="obsolete">Nederlands</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="110"/>
-        <source>Ukrainian</source>
-        <translation type="obsolete">Oekraïens</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="112"/>
-        <source>Georgian</source>
-        <translation type="obsolete">Georgisch</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="113"/>
-        <source>Czech</source>
-        <translation type="obsolete">Tsjechisch</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="124"/>
-        <source>Logo designed by %1</source>
-        <translation type="obsolete">Logo ontworpen door %1</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="145"/>
-        <source>Get updates at: %1</source>
-        <translation type="obsolete">Verkrijg updates via: %1</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="33"/>
-        <source>About SMPlayer</source>
-        <translation type="obsolete">Over SMPlayer</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="105"/>
-        <source>Polish</source>
-        <translation type="obsolete">Pools</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="114"/>
-        <source>Bulgarian</source>
-        <translation type="obsolete">Bulgaars</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="115"/>
-        <source>Turkish</source>
-        <translation type="obsolete">Turks</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="116"/>
-        <source>Swedish</source>
-        <translation type="obsolete">Zweeds</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="117"/>
-        <source>Serbian</source>
-        <translation type="obsolete">Servisch</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="118"/>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">Traditioneel Chinees</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="119"/>
-        <source>Romanian</source>
-        <translation type="obsolete">Roemeens</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="111"/>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">Portugees - Brazilië</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="120"/>
-        <source>Portuguese - Portugal</source>
-        <translation type="obsolete">Portugees - Portugal</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="83"/>
-        <source>Compiled with Qt %1</source>
-        <translation type="obsolete">Gecompileerd met Qt %1</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="97"/>
-        <source>%1, %2 and %3</source>
-        <translation type="obsolete">%1, %2 en %3</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="106"/>
-        <source>%1 and %2</source>
-        <translation type="obsolete">%1 en %2</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="130"/>
-        <source>http://smplayer.sourceforge.net/en/windows/download.php</source>
-        <comment>If the web page is translated into your language you can change the URL so it points to the download page in the translation.Otherwise leave as is.</comment>
-        <translation type="obsolete">http://smplayer.sourceforge.net/en/windows/download.php</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="135"/>
-        <source>http://smplayer.sourceforge.net/en/linux/download.php</source>
-        <comment>If the web page is translated into your language you can change the URL so it points to the download page in the translation.Otherwise leave as is.</comment>
-        <translation type="obsolete">http://smplayer.sourceforge.net/en/linux/download.php</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="157"/>
-        <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="121"/>
-        <source>Greek</source>
-        <translation type="obsolete">Grieks</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="122"/>
-        <source>Finnish</source>
-        <translation type="obsolete">Fins</translation>
     </message>
 </context>
 <context>
@@ -804,41 +614,6 @@ Wilt u het overschrijven?</translation>
         <translation>&amp;Grootte</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1265"/>
-        <source>&amp;Autodetect</source>
-        <translation type="obsolete">&amp;Automatisch detecteren</translation>
-    </message>
-    <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>&amp;4:3</source>
-        <translation type="obsolete">&amp;4:3</translation>
-    </message>
-    <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>&amp;5:4</source>
-        <translation type="obsolete">&amp;5:4</translation>
-    </message>
-    <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>&amp;14:9</source>
-        <translation type="obsolete">&amp;14:9</translation>
-    </message>
-    <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>16:&amp;9</source>
-        <translation type="obsolete">16:&amp;9</translation>
-    </message>
-    <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>1&amp;6:10</source>
-        <translation type="obsolete">1&amp;6:10</translation>
-    </message>
-    <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>&amp;2.35:1</source>
-        <translation type="obsolete">&amp;2.35:1</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1313"/>
         <source>4:3 &amp;Letterbox</source>
         <translation>4:3 &amp;Letterbox</translation>
@@ -947,11 +722,6 @@ Wilt u het overschrijven?</translation>
         <location filename="../basegui.cpp" line="1340"/>
         <source>&amp;Filters</source>
         <translation>&amp;Filters</translation>
-    </message>
-    <message>
-        <location filename="../../../basegui.cpp" line="980"/>
-        <source>&amp;Default</source>
-        <translation type="obsolete">Stan&amp;daard</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1354"/>
@@ -1149,13 +919,6 @@ Wilt u het overschrijven?</translation>
         <translation>SMPlayer - Informatie</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2573"/>
-        <source>The CD-ROM / DVD drives are not configured yet.
-The configuration dialog will be shown now, so you can do it.</source>
-        <translation type="obsolete">De CD-ROM / DVD-stations zijn nog niet geconfigureerd.
-Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="2851"/>
         <source>Choose a directory</source>
         <translation>Kies een map</translation>
@@ -1184,21 +947,6 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
         <location filename="../basegui.cpp" line="3321"/>
         <source>Stop</source>
         <translation>Stop</translation>
-    </message>
-    <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>De&amp;noise</source>
-        <translation type="obsolete">De&amp;noise</translation>
-    </message>
-    <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>N&amp;ormal</source>
-        <translation type="obsolete">N&amp;ormaal</translation>
-    </message>
-    <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>&amp;Soft</source>
-        <translation type="obsolete">&amp;Zacht</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1090"/>
@@ -1379,11 +1127,6 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
         <location filename="../basegui.cpp" line="1230"/>
         <source>Inc gamma</source>
         <translation>Gamma verhogen</translation>
-    </message>
-    <message>
-        <location filename="../../../basegui.cpp" line="848"/>
-        <source>Toggle double size</source>
-        <translation type="obsolete">Dubbele grootte</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1150"/>
@@ -1666,11 +1409,6 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
         <translation>&amp;Herstellen</translation>
     </message>
     <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>&amp;Recent files</source>
-        <translation type="obsolete">&amp;Recente bestanden</translation>
-    </message>
-    <message>
         <location filename="../baseguiplus.cpp" line="190"/>
         <source>&amp;Quit</source>
         <translation>&amp;Afsluiten</translation>
@@ -1732,11 +1470,6 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
         <translation>Welkom bij SMPlayer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="358"/>
-        <source>Volume</source>
-        <translation type="obsolete">Volume</translation>
-    </message>
-    <message>
         <location filename="../defaultgui.cpp" line="387"/>
         <source>Audio</source>
         <translation>Audio</translation>
@@ -1745,11 +1478,6 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
         <location filename="../defaultgui.cpp" line="388"/>
         <source>Subtitle</source>
         <translation>Ondertiteling</translation>
-    </message>
-    <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Playlist</source>
-        <translation type="obsolete">Afspeellijst</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="381"/>
@@ -1765,119 +1493,6 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
         <location filename="../defaultgui.cpp" line="378"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Werkbalken</translation>
-    </message>
-</context>
-<context>
-    <name>Encodings</name>
-    <message>
-        <location filename="../encodings.cpp" line="31"/>
-        <source>Western European Languages</source>
-        <translation type="obsolete">West-Europese talen</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="32"/>
-        <source>Western European Languages with Euro</source>
-        <translation type="obsolete">West-Europese talen met Euro-teken</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="33"/>
-        <source>Slavic/Central European Languages</source>
-        <translation type="obsolete">Slavische/Centraal-Europese talen</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="34"/>
-        <source>Esperanto, Galician, Maltese, Turkish</source>
-        <translation type="obsolete">Esperanto, Galicisch, Maltees, Turks</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="35"/>
-        <source>Old Baltic charset</source>
-        <translation type="obsolete">Oud-Baltisch karakterset</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="36"/>
-        <source>Cyrillic</source>
-        <translation type="obsolete">Cyrillisch</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="37"/>
-        <source>Arabic</source>
-        <translation type="obsolete">Arabisch</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="38"/>
-        <source>Modern Greek</source>
-        <translation type="obsolete">Modern Grieks</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="39"/>
-        <source>Turkish</source>
-        <translation type="obsolete">Turks</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="40"/>
-        <source>Baltic</source>
-        <translation type="obsolete">Baltisch</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="41"/>
-        <source>Celtic</source>
-        <translation type="obsolete">Keltisch</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="42"/>
-        <source>Hebrew charsets</source>
-        <translation type="obsolete">Hebreeuwse karaktersets</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="43"/>
-        <source>Russian</source>
-        <translation type="obsolete">Russisch</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="44"/>
-        <source>Ukrainian, Belarusian</source>
-        <translation type="obsolete">Oekraïens, Wit-Russisch</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="45"/>
-        <source>Simplified Chinese charset</source>
-        <translation type="obsolete">Vereenvoudigd Chinese karakterset</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="46"/>
-        <source>Traditional Chinese charset</source>
-        <translation type="obsolete">Traditioneel Chinese karakterset</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="47"/>
-        <source>Japanese charsets</source>
-        <translation type="obsolete">Japanse karaktersets</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="48"/>
-        <source>Korean charset</source>
-        <translation type="obsolete">Koreaanse karakterset</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="49"/>
-        <source>Thai charset</source>
-        <translation type="obsolete">Thaise karakterset</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="50"/>
-        <source>Cyrillic Windows</source>
-        <translation type="obsolete">Cyrillisch Windows</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="51"/>
-        <source>Slavic/Central European Windows</source>
-        <translation type="obsolete">Slavisch/Centraal-Europees Windows</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="52"/>
-        <source>Arabic Windows</source>
-        <translation type="obsolete">Arabisch Windows</translation>
     </message>
 </context>
 <context>
@@ -2027,39 +1642,6 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
         <location filename="../filepropertiesdialog.cpp" line="72"/>
         <source>Apply</source>
         <translation>Toepassen</translation>
-    </message>
-</context>
-<context>
-    <name>FindSubtitlesDialog</name>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="133"/>
-        <source>Language</source>
-        <translation type="obsolete">Taal</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="133"/>
-        <source>Name</source>
-        <translation type="obsolete">Naam</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="134"/>
-        <source>Format</source>
-        <translation type="obsolete">Indeling</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="134"/>
-        <source>Date</source>
-        <translation type="obsolete">Datum</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="215"/>
-        <source>Error</source>
-        <translation type="obsolete">Foutmelding</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="156"/>
-        <source>Close</source>
-        <translation type="obsolete">Sluiten</translation>
     </message>
 </context>
 <context>
@@ -2381,11 +1963,6 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
         <location filename="../inputdvddirectory.ui" line="13"/>
         <source>SMPlayer - Play a DVD from a folder</source>
         <translation>SMPlayer - Speel een DVD vanuit een map</translation>
-    </message>
-    <message>
-        <location filename="../inputdvddirectory.ui" line="39"/>
-        <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation type="obsolete">U kunt een DVD vanaf uw harde schijf afspelen. Kies hiervoor de map die de submappen VIDEO_TS en AUDIO_TS bevat.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -3569,11 +3146,6 @@ Wilt u het overschrijven?</translation>
         <translation>Automatisch</translation>
     </message>
     <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Form</source>
-        <translation type="obsolete">Formulier</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="26"/>
         <source>&amp;Advanced</source>
         <translation>Ge&amp;avanceerd</translation>
@@ -3582,11 +3154,6 @@ Wilt u het overschrijven?</translation>
         <location filename="../prefadvanced.ui" line="46"/>
         <source>icon</source>
         <translation>pictogram</translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.ui" line="112"/>
-        <source>Additional Options for MPlayer</source>
-        <translation type="obsolete">Extra opties voor MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="253"/>
@@ -3612,16 +3179,6 @@ Voorbeeld: scale=512:-2,eq2=1.1</translation>
 Example: resample=44100:0:0,volnorm</source>
         <translation>En tot slot audiofilters. Dezelfde regel als voor videofilters.
 Voorbeeld: resample=44100:0:0,volnorm</translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.cpp" line="361"/>
-        <source>Don&apos;t repaint the background of the video window</source>
-        <translation type="obsolete">Geen repaint uitvoeren op de achtergrond van het videovenster</translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.ui" line="373"/>
-        <source>&amp;Logs</source>
-        <translation type="obsolete">&amp;Logs</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="434"/>
@@ -3704,16 +3261,6 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <location filename="../prefadvanced.ui" line="174"/>
         <source>&amp;Colorkey:</source>
         <translation>&amp;Kleursleutel:</translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.ui" line="202"/>
-        <source>&amp;Don&apos;t repaint the background of the video window</source>
-        <translation type="obsolete">&amp;Geen &apos;repaint&apos; uitvoeren op de achtergrond van het videovenster</translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.ui" line="385"/>
-        <source>Log &amp;MPlayer output</source>
-        <translation type="obsolete">&amp;MPlayer uitvoer loggen</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="542"/>
@@ -4032,34 +3579,14 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>Stations</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="41"/>
-        <source>Currently SMPlayer does not autodetect CD-ROM or DVD devices. So in order to play CD-ROMs or DVDs you must first select here your CD-ROM and DVD drives (can be the same).</source>
-        <translation type="obsolete">SMPlayer detecteert niet automatisch uw CD-ROM of DVD-apparaten. Dus om CD-ROM&apos;s of DVD&apos;s af te kunnen spelen moet u eerst hier uw CD-ROM en DVD-schijfstations instellen (kunnen hetzelfde zijn).</translation>
-    </message>
-    <message>
         <location filename="../prefdrives.ui" line="154"/>
         <source>icon</source>
         <translation>pictogram</translation>
     </message>
     <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Select your CD device:</source>
-        <translation type="obsolete">Kies CD apparaat:</translation>
-    </message>
-    <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Select your DVD device:</source>
-        <translation type="obsolete">Kies DVD apparaat:</translation>
-    </message>
-    <message>
         <location filename="../prefdrives.cpp" line="130"/>
         <source>CD device</source>
         <translation>CD-apparaat</translation>
-    </message>
-    <message>
-        <location filename="../prefdrives.cpp" line="132"/>
-        <source>Choose your CD-ROM device. It will be used to play VCDs and Audio CDs.</source>
-        <translation type="obsolete">Kies het CD-ROM apparaat. Het zal gebruikt worden om Video CD&apos;s (VCD&apos;s) en Audio-CD&apos;s af te spelen.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="134"/>
@@ -4080,11 +3607,6 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <location filename="../prefdrives.ui" line="172"/>
         <source>Select your &amp;DVD device:</source>
         <translation>Kies &amp;DVD-apparaat:</translation>
-    </message>
-    <message>
-        <location filename="../prefdrives.ui" line="41"/>
-        <source>SMPlayer does not choose any CD-ROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
-        <translation type="obsolete">SMPlayer kiest standaard geen CD-ROM of DVD stations. Dus voordat u een CD of DVD kunt afspelen, moet u de te gebruiken apparaten selecteren (ze kunnen gelijk zijn).</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="132"/>
@@ -4115,39 +3637,9 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>Paden</translation>
     </message>
     <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Select...</source>
-        <translation type="obsolete">Kiezen...</translation>
-    </message>
-    <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Folder for storing screenshots:</source>
-        <translation type="obsolete">Map om schermafdrukken in op te slaan:</translation>
-    </message>
-    <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Search...</source>
-        <translation type="obsolete">Zoeken...</translation>
-    </message>
-    <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Select the MPlayer executable:</source>
-        <translation type="obsolete">Kies het mplayer uitvoerbaar bestand:</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="85"/>
         <source>Output drivers</source>
         <translation>Uitvoerdrivers</translation>
-    </message>
-    <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Video:</source>
-        <translation type="obsolete">Video:</translation>
-    </message>
-    <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Audio:</source>
-        <translation type="obsolete">Audio:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="172"/>
@@ -4155,39 +3647,14 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>Media-instellingen</translation>
     </message>
     <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Remember settings for all files (audio track, subtitles...)</source>
-        <translation type="obsolete">Instellingen voor alle bestanden onthouden (audiospoor, ondertiteling...)</translation>
-    </message>
-    <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Don&apos;t remember time position (files start playing from the beginning)</source>
-        <translation type="obsolete">Positie niet onthouden (bestanden spelen vanaf het begin)</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="615"/>
         <source>Preferred audio and subtitles</source>
         <translation>Audio- en ondertiteling-voorkeuren</translation>
     </message>
     <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Subtitles:</source>
-        <translation type="obsolete">Ondertiteling:</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="296"/>
-        <source>&amp;Video and audio</source>
-        <translation type="obsolete">&amp;Video en audio</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="522"/>
         <source>Video</source>
         <translation>Video</translation>
-    </message>
-    <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Use software video equalizer</source>
-        <translation type="obsolete">Softwarematige video-equalizer gebruiken</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="553"/>
@@ -4203,11 +3670,6 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <location filename="../prefgeneral.cpp" line="562"/>
         <source>Audio</source>
         <translation>Audio</translation>
-    </message>
-    <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Use software volume control</source>
-        <translation type="obsolete">Gebruik softwarematige volumeregeling</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="83"/>
@@ -4278,11 +3740,6 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <location filename="../prefgeneral.cpp" line="507"/>
         <source>Usually smplayer will remember the settings for each file you play (audio track selected, volume, filters...). Uncheck this option if you don&apos;t like this feature.</source>
         <translation>Normaalgesproken onthoudt smplayer de instellingen voor elk bestand dat u afspeelt (geselecteerde audiospoor, volume, filters...). Vink deze optie uit als u geen gebruik wilt maken van deze mogelijkheid.</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="498"/>
-        <source>Don&apos;t remember time position</source>
-        <translation type="obsolete">Tijdspositie niet onthouden</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="511"/>
@@ -4360,11 +3817,6 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>Als deze optie is aangevinkt, dan zal SMPlayer het geluidsniveau van elk bestand onthouden. Voor nieuwe bestanden wordt het standaard geluidsniveau gebruikt.</translation>
     </message>
     <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Default volume:</source>
-        <translation type="obsolete">Standaardvolume:</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="638"/>
         <source>0</source>
         <translation>0</translation>
@@ -4373,16 +3825,6 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <location filename="../prefgeneral.ui" line="508"/>
         <source>&amp;Change volume on every file</source>
         <translation>&amp;Volume bij elk bestand wijzigen</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="77"/>
-        <source>&amp;Search...</source>
-        <translation type="obsolete">&amp;Zoeken...</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="110"/>
-        <source>S&amp;elect...</source>
-        <translation type="obsolete">Ki&amp;ezen...</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="50"/>
@@ -4405,29 +3847,14 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
         <translation>&amp;Audio:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="214"/>
-        <source>&amp;Don&apos;t remember time position (files start playing from the beginning)</source>
-        <translation type="obsolete">&amp;Tijdspositie niet onthouden (bestanden spelen vanaf het begin)</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="218"/>
         <source>&amp;Remember settings for all files (audio track, subtitles...)</source>
         <translation>Instellingen voo&amp;r alle bestanden onthouden (audiospoor, ondertiteling...)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="793"/>
-        <source>A&amp;udio:</source>
-        <translation type="obsolete">A&amp;udio:</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="848"/>
         <source>Su&amp;btitles:</source>
         <translation>&amp;Ondertiteling:</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="320"/>
-        <source>&amp;Use software video equalizer</source>
-        <translation type="obsolete">&amp;Gebruik softwarematige video-equalizer</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="306"/>
@@ -4690,11 +4117,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.cpp" line="589"/>
         <source>Change volume just before playing</source>
         <translation>Volume vlak voor het afspelen wijzigen</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="614"/>
-        <source>Change volume just before p&amp;laying (avoids loud volume on startup)</source>
-        <translation type="obsolete">Vo&amp;lume vlak voor het afspelen wijzigen (voorkomt luid volume bij het opstarten)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="595"/>
@@ -4970,11 +4392,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Dubbele grootte</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="169"/>
-        <source>Mi&amp;ddle click</source>
-        <translation type="obsolete">Mi&amp;ddel-klik</translation>
-    </message>
-    <message>
         <location filename="../prefinput.cpp" line="55"/>
         <source>Play / Pause</source>
         <translation>Afspelen / Pauzeren</translation>
@@ -5113,131 +4530,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Interface</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="85"/>
-        <source>Bulgarian</source>
-        <translation type="obsolete">Bulgaars</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="87"/>
-        <source>Czech</source>
-        <translation type="obsolete">Tsjechisch</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="88"/>
-        <source>German</source>
-        <translation type="obsolete">Duits</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="89"/>
-        <source>Greek</source>
-        <translation type="obsolete">Grieks</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="90"/>
-        <source>English</source>
-        <translation type="obsolete">Engels</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="91"/>
-        <source>Spanish</source>
-        <translation type="obsolete">Spaans</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="93"/>
-        <source>Finnish</source>
-        <translation type="obsolete">Fins</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="94"/>
-        <source>French</source>
-        <translation type="obsolete">Frans</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="96"/>
-        <source>Hungarian</source>
-        <translation type="obsolete">Hongaars</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="97"/>
-        <source>Italian</source>
-        <translation type="obsolete">Italiaans</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="98"/>
-        <source>Japanese</source>
-        <translation type="obsolete">Japans</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="99"/>
-        <source>Georgian</source>
-        <translation type="obsolete">Georgisch</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="102"/>
-        <source>Dutch</source>
-        <translation type="obsolete">Nederlands</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="103"/>
-        <source>Polish</source>
-        <translation type="obsolete">Pools</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="104"/>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">Portugees - Brazilië</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="105"/>
-        <source>Portuguese - Portugal</source>
-        <translation type="obsolete">Portugees - Portugal</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="106"/>
-        <source>Romanian</source>
-        <translation type="obsolete">Roemeens</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="107"/>
-        <source>Russian</source>
-        <translation type="obsolete">Russisch</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="108"/>
-        <source>Slovak</source>
-        <translation type="obsolete">Slowaaks</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="109"/>
-        <source>Serbian</source>
-        <translation type="obsolete">Servisch</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="110"/>
-        <source>Swedish</source>
-        <translation type="obsolete">Zweeds</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="111"/>
-        <source>Turkish</source>
-        <translation type="obsolete">Turks</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="112"/>
-        <source>Ukrainian</source>
-        <translation type="obsolete">Oekraïens</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="113"/>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Vereenvoudigd Chinees</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="114"/>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">Traditioneel Chinees</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="92"/>
         <source>&lt;Autodetect&gt;</source>
         <translation>&lt;Automatisch detecteren&gt;</translation>
@@ -5293,21 +4585,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Instanties</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="86"/>
-        <source>Catalan</source>
-        <translation type="obsolete">Catalaans</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="92"/>
-        <source>Basque</source>
-        <translation type="obsolete">Baskisch</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="95"/>
-        <source>Galician</source>
-        <translation type="obsolete">Galicisch</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="119"/>
         <source>&amp;Short jump</source>
         <translation>&amp;Korte sprong</translation>
@@ -5331,11 +4608,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.ui" line="548"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
         <translation>Gebr&amp;uik slechts één draaiende instantie van SMPlayer</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.ui" line="552"/>
-        <source>SMPlayer will listen to this &amp;port to receive commands from other instances:</source>
-        <translation type="obsolete">SMPlayer zal naar deze &amp;poort luisteren om commando&apos;s van andere instanties te ontvangen:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="139"/>
@@ -5411,16 +4683,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.ui" line="513"/>
         <source>Ins&amp;tances</source>
         <translation>Ins&amp;tanties</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="100"/>
-        <source>Korean</source>
-        <translation type="obsolete">Koreaans</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="101"/>
-        <source>Macedonian</source>
-        <translation type="obsolete">Macedonisch</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="427"/>
@@ -5543,11 +4805,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Vink deze optie aan indien u bij het openen van andere bestanden een reeds draaiende instantie van SMPlayer wilt gebruiken.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="475"/>
-        <source>Port</source>
-        <translation type="obsolete">Poort</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="498"/>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. You can change the port in case the default one is used by another application.</source>
         <translation>SMPlayer moet naar een poort luisteren om commando&apos;s van andere instanties te kunnen ontvangen. U kunt deze poort wijzigen voor het geval dat de standaardpoort door een andere toepassing wordt gebruikt.</translation>
@@ -5636,11 +4893,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Kies de prioriteit van het MPlayer proces.</translation>
     </message>
     <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Priority:</source>
-        <translation type="obsolete">Prioriteit:</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.ui" line="82"/>
         <source>realtime</source>
         <translation>realtime</translation>
@@ -5691,11 +4943,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Framedrops toestaan</translation>
     </message>
     <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Allow hard frame drop (can lead to image distortion)</source>
-        <translation type="obsolete">Harde framedrops toestaan (kan leiden tot beeldvervorming)</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.ui" line="237"/>
         <source>Synchronization</source>
         <translation>Synchronisatie</translation>
@@ -5706,34 +4953,14 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Automatische audio/video synchronisatie</translation>
     </message>
     <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Factor:</source>
-        <translation type="obsolete">Factor:</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.cpp" line="274"/>
         <source>Fast audio track switching</source>
         <translation>Snel wisselen van audiospoor</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="261"/>
-        <source>Fast seek to chapters in DVDs</source>
-        <translation type="obsolete">Snel zoeken naar hoofdstukken in DVD&apos;s</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.cpp" line="240"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Prioriteit van het mplayer proces instellen volgens de vooraf gedefinieerde prioriteiten die onder Windows beschikbaar zijn.&lt;br&gt;&lt;b&gt;WAARSCHUWING:&lt;/b&gt; Gebruik van realtime prioriteit kan het systeem laten vastlopen.</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="203"/>
-        <source>&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option is for Windows only.</source>
-        <translation type="obsolete">&lt;br&gt;&lt;b&gt;Let op:&lt;/b&gt; Deze optie is alleen voor Windows.</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="207"/>
-        <source>This option specifies how much memory (in kBytes) to use when precaching a file or URL. Especially useful on slow media.</source>
-        <translation type="obsolete">Deze optie bepaalt hoeveel geheugen (in kBytes) gebruikt moet worden bij het bufferen van een bestand of URL. Vooral handig bij trage media.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="244"/>
@@ -5761,16 +4988,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Pr&amp;ioriteit:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="182"/>
-        <source>Si&amp;ze:</source>
-        <translation type="obsolete">Groo&amp;tte:</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.ui" line="151"/>
-        <source>&amp;Use cache</source>
-        <translation type="obsolete">Cache gebr&amp;uiken</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.ui" line="136"/>
         <source>&amp;Allow frame drop</source>
         <translation>&amp;Framedrops toestaan</translation>
@@ -5794,26 +5011,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.ui" line="325"/>
         <source>&amp;Fast audio track switching</source>
         <translation>&amp;Snel wisselen van audiospoor</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.ui" line="310"/>
-        <source>Fast &amp;seek to chapters in DVDs</source>
-        <translation type="obsolete">Snel &amp;zoeken naar hoofdstukken in DVD&apos;s</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="299"/>
-        <source>Create index if needed</source>
-        <translation type="obsolete">Index aanmaken indien nodig</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="304"/>
-        <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
-        <translation type="obsolete">Herbouwt bestandsindex indien geen index werd gevonden, hierdoor wordt zoeken mogelijk gemaakt. Handig bij onderbroken/niet complete downloads, of slecht gemaakte bestanden. De optie werkt alleen als de onderliggende media zoeken ondersteunt (d.w.z. niet met stdin, pipe, etc).&lt;br&gt;Let op: het aanmaken van de index kan enige tijd duren.</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.ui" line="409"/>
-        <source>&amp;Create index if needed</source>
-        <translation type="obsolete">Index aan&amp;maken indien nodig</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="286"/>
@@ -5864,11 +5061,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.cpp" line="302"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>Deze optie bepaalt hoeveel geheugen (in kBytes) gebruikt moet worden bij het bufferen van een DVD.&lt;br&gt;&lt;b&gt;Waarschuwing:&lt;/b&gt; Het is mogelijk dat zoeken niet correct werkt (inclusief wisselen van hoofdstuk) indien er een buffer voor DVD&apos;s wordt gebruikt..</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.ui" line="367"/>
-        <source>C&amp;reate index if needed</source>
-        <translation type="obsolete">&amp;Index aanmaken indien nodig</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="374"/>
@@ -6019,11 +5211,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Automatisch laden</translation>
     </message>
     <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Autoload subtitles files (*.srt, *.sub...):</source>
-        <translation type="obsolete">Ondertitelingen automatisch laden (*.srt, *.sub...):</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="295"/>
         <source>Select first available subtitle</source>
         <translation>Kies eerst beschikbare ondertiteling</translation>
@@ -6044,19 +5231,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Alle ondertitelingen in map</translation>
     </message>
     <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Default subtitle encoding:</source>
-        <translation type="obsolete">Standaard ondertitel-codering:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="165"/>
         <source>Position</source>
         <translation>Plaatsing</translation>
-    </message>
-    <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Default position of the subtitles on screen</source>
-        <translation type="obsolete">Standaardplaatsing van ondertiteling op het scherm</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="225"/>
@@ -6089,21 +5266,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Lettertype</translation>
     </message>
     <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>TTF font:</source>
-        <translation type="obsolete">TTF-lettertype:</translation>
-    </message>
-    <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Search...</source>
-        <translation type="obsolete">Zoeken...</translation>
-    </message>
-    <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>System font:</source>
-        <translation type="obsolete">Systeemlettertype:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="356"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
         <translation>Kies het lettertype dat gebruikt moet worden voor ondertiteling (en OSD):</translation>
@@ -6112,11 +5274,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="396"/>
         <source>Size</source>
         <translation>Grootte</translation>
-    </message>
-    <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Autoscale:</source>
-        <translation type="obsolete">Automatisch schalen:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="430"/>
@@ -6139,16 +5296,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Evenredig met diagonaal van film</translation>
     </message>
     <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Scale:</source>
-        <translation type="obsolete">Schaal:</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="521"/>
-        <source>SSA/&amp;ASS library</source>
-        <translation type="obsolete">SSA/&amp;ASS-bibliotheek</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="569"/>
         <source>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</source>
         <translation>De nieuwe SSA/ASS-bibliotheek biedt mooi vormgegeven ondertitelingen voor externe SSA/ASS ondertiteling-bestanden en Matroska-sporen. Maar het kan ook gebruikt worden voor het weergeven van andere indelingen zoals SUB en SRT-bestanden.</translation>
@@ -6159,24 +5306,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Gebruik SSA/ASS-bibliotheek voor ondertiteling-weergave</translation>
     </message>
     <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Text color:</source>
-        <translation type="obsolete">Tekstkleur:</translation>
-    </message>
-    <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Border color:</source>
-        <translation type="obsolete">Randkleur:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="691"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
         <translation>Hier kunt u de stijlen voor SSA/ASS ondertiteling aanpassen. Het kan ook gebruikt worden voor de fijnafstelling van de weergave van SRT of SUB-ondertiteling door de SSA/ASS-bibliotheek. Voorbeeld: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location filename="../../../tmp" line="0"/>
-        <source>Styles:</source>
-        <translation type="obsolete">Stijlen:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="304"/>
@@ -6219,19 +5351,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Ondert&amp;iteling weergeven op schermafdrukken</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="387"/>
-        <source>&amp;Use -subfont option (required by recent MPlayer releases)</source>
-        <translation type="obsolete">&amp;Gebruik -subfont optie (vereist door recente MPlayer versies)</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="386"/>
         <source>&amp;TTF font:</source>
         <translation>&amp;TTF-lettertype:</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="354"/>
-        <source>Sea&amp;rch...</source>
-        <translation type="obsolete">&amp;Zoeken...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="366"/>
@@ -6242,11 +5364,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="416"/>
         <source>A&amp;utoscale:</source>
         <translation>A&amp;utomatisch schalen:</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="233"/>
-        <source>S&amp;cale:</source>
-        <translation type="obsolete">&amp;Schaal:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="582"/>
@@ -6465,19 +5582,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>%1 minuten en 1 seconde</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="175"/>
-        <source>specifies the directory for the configuration file (smplayer.ini). If directory is omitted, the application directory will be used.</source>
-        <translation type="obsolete">specifieert de map voor het configuratiebestand (smplayer.ini). Als de map niet is ingevuld, dan wordt de map van het programma gebruikt.</translation>
-    </message>
-    <message>
         <location filename="../clhelp.cpp" line="154"/>
         <source>will show this message and then will exit.</source>
         <translation>zal dit bericht tonen en daarna sluiten.</translation>
-    </message>
-    <message>
-        <location filename="../clhelp.cpp" line="143"/>
-        <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
-        <translation type="obsolete">&apos;media&apos; is elk soort bestand at SMPlayer kan openen. Het kan een lokaal bestand zijn, maar ook een DVD (bv. dvd://1), een internet-stream (bv. mms://...) of een lokale afspeellijst in m3u-indeling. Indien de -playlist optie wordt gebruikt, dan zal SMPlayer de -playlist optie doorgeven aan MPlayer, dus de afspeellijst zal door MPlayer worden geladen, niet door SMPlayer.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="139"/>
@@ -6488,11 +5595,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../smplayer.cpp" line="305"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Dit is SMPlayer v. %1 draaiend op %2</translation>
-    </message>
-    <message>
-        <location filename="../../../main.cpp" line="169"/>
-        <source>Usage: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="obsolete">Gebruik: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="128"/>
@@ -6508,11 +5610,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../clhelp.cpp" line="162"/>
         <source>media</source>
         <translation>media</translation>
-    </message>
-    <message>
-        <location filename="../main.cpp" line="170"/>
-        <source>Usage: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</source>
-        <translation type="obsolete">Gebruik: %1 [-ini-path [directory]] [-send-action action_name] [-actions action_list [-close-at-end] [-add-to-playlist] [-help|--help|-h|-?] [[-playlist] media] [[-playlist] media]...</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="160"/>
@@ -6669,11 +5766,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 </context>
 <context>
     <name>VideoEqualizer</name>
-    <message>
-        <location filename="../videoequalizer.cpp" line="72"/>
-        <source>Equalizer</source>
-        <translation type="obsolete">Equalizer</translation>
-    </message>
     <message>
         <location filename="../videoequalizer.cpp" line="73"/>
         <source>Contrast</source>
