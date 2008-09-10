@@ -1,5 +1,10 @@
 [b]Version 0.6.3[/b]:
 
+(2008-09-09)
+ * For some unknown reason sometimes the playlist is not shown. I think this 
+   is because it's outside of the screen. Now smplayer checks if the playlist 
+   is actually outside of the screen, and in that case it's moved to pos 0x0.
+
 (2008-09-08)
  * Moved the option "Create index if needed" from the section Performance to
    Advanced.
