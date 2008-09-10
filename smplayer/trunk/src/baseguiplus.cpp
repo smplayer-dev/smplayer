@@ -445,6 +445,15 @@ void BaseGuiPlus::showPlaylist(bool b) {
 	} else {
 		exitFullscreenIfNeeded();
 		playlistdock->show();
+
+		// Check if playlist is outside of the screen
+		if (playlistdock->isFloating()) {
+			QSize screensize = DesktopInfo::desktop_size(this);
+			if ( (playlistdock->pos().x() > screensize.width()) || (playlistdock->pos().y() > screensize.height()) ) {
+				qWarning("BaseGuiPlus::showPlaylist: playlist is outsize of the screen");
+				playlistdock->move(0,0);
+			}
+		}
 	}
 	//updateWidgets();
 
