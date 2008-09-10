@@ -8,11 +8,6 @@
         <translation type="unfinished">Έκδοση: %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="60"/>
-        <source>Compiled with Qt %1</source>
-        <translation type="obsolete">Έγινε με Qt %1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="92"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
         <translation type="unfinished">Το πρόγραμμα αυτό είναι ελεύθερο λογισμικό; μπορείτε να το αναδιανείμετε και/ή να το αλλάξετε σύμφωνα με τους όρους της GNU Γενικής δημόσια Άδειας όπως εκδόθηκε από τόν Ελεύθερου Λογισμικού Οργανισμό είτε με άδεια τύπου 2, είτε (κατ&apos; επιλογήν σας) οποιασδήποτε μετέπειτα μεταβολής της. </translation>
@@ -617,11 +612,6 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="1278"/>
         <source>Si&amp;ze</source>
         <translation>&amp;Μέγεθος</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1265"/>
-        <source>&amp;Autodetect</source>
-        <translation type="obsolete">&amp;Αυτόματη ανίχνευση</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1313"/>
@@ -1506,24 +1496,6 @@ The configuration dialog will be shown now, so you can do it.</source>
     </message>
 </context>
 <context>
-    <name>Encodings</name>
-    <message>
-        <location filename="../encodings.cpp" line="31"/>
-        <source>Western European Languages</source>
-        <translation type="obsolete">Δυτικής Ευρώπης γλώσσες</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="32"/>
-        <source>Western European Languages with Euro</source>
-        <translation type="obsolete">Δυτικής Ευρώπης γλώσσες με Ευρώ</translation>
-    </message>
-    <message>
-        <location filename="../encodings.cpp" line="38"/>
-        <source>Modern Greek</source>
-        <translation type="obsolete">Ελληνικά</translation>
-    </message>
-</context>
-<context>
     <name>EqSlider</name>
     <message>
         <location filename="../eqslider.ui" line="22"/>
@@ -1670,39 +1642,6 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../filepropertiesdialog.cpp" line="72"/>
         <source>Apply</source>
         <translation>Εφαρμογή</translation>
-    </message>
-</context>
-<context>
-    <name>FindSubtitlesDialog</name>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="133"/>
-        <source>Language</source>
-        <translation type="obsolete">Γλώσσα/Language</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="133"/>
-        <source>Name</source>
-        <translation type="obsolete">Όνομα</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="134"/>
-        <source>Format</source>
-        <translation type="obsolete">Μορφή</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="134"/>
-        <source>Date</source>
-        <translation type="obsolete">Ημέρα</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="215"/>
-        <source>Error</source>
-        <translation type="obsolete">Σφάλμα</translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesdialog.cpp" line="156"/>
-        <source>Close</source>
-        <translation type="obsolete">Κλείσε</translation>
     </message>
 </context>
 <context>
@@ -3242,11 +3181,6 @@ Example: resample=44100:0:0,volnorm</source>
 Παράδειγμα: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="361"/>
-        <source>Don&apos;t repaint the background of the video window</source>
-        <translation type="obsolete">Χωρίς επανα-σχεδίαση μοτίβου βίντεο παραθύρου</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="434"/>
         <source>Log MPlayer output</source>
         <translation>Καταγραφή εξόδου MPlayer</translation>
@@ -3327,11 +3261,6 @@ The drop-down lists may provide already made regular expression for several lang
         <location filename="../prefadvanced.ui" line="174"/>
         <source>&amp;Colorkey:</source>
         <translation>&amp;Χρώμα:</translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.ui" line="202"/>
-        <source>&amp;Don&apos;t repaint the background of the video window</source>
-        <translation type="obsolete">&amp;Μην επανα-χρωματίζεις υπόβαθρο παραθύρου βίντεο</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="542"/>
@@ -3813,11 +3742,6 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Συνήθως ο smplayer θα χρησιμοποιεί τις ρυθμίσεις κάθε αρχείου που βλέπετε (επιλογή κοματιού, ένταση, φίλτρα...). Μην επιλέγετε αν δεν επιθυμείτε την λειτουργία αυτή.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="498"/>
-        <source>Don&apos;t remember time position</source>
-        <translation type="obsolete">Μην ενθυμείσαι θέση χρόνου</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="511"/>
         <source>If you check this option, smplayer will play all files from the beginning.</source>
         <translation>Εάν επιλεγεί, smplayer θα παίξει όλα τα αρχεία από την αρχή.</translation>
@@ -3921,11 +3845,6 @@ The drop-down lists may provide already made regular expression for several lang
         <location filename="../prefgeneral.ui" line="829"/>
         <source>&amp;Audio:</source>
         <translation>&amp;Ήχος:</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="214"/>
-        <source>&amp;Don&apos;t remember time position (files start playing from the beginning)</source>
-        <translation type="obsolete">&amp;Ξεκίνα όλα τα αρχεία από την αρχή τους (όχι από όπου σταμάτησε)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="218"/>
@@ -4610,11 +4529,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Διάδραση</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="89"/>
-        <source>Greek</source>
-        <translation type="obsolete">Ελληνικά</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="92"/>
         <source>&lt;Autodetect&gt;</source>
         <translation>&lt;Αυτόματη επιλογή&gt;</translation>
@@ -4693,11 +4607,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.ui" line="548"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
         <translation>&amp;Χρήση μόνο ενός ενεργού SMPlayer</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.ui" line="552"/>
-        <source>SMPlayer will listen to this &amp;port to receive commands from other instances:</source>
-        <translation type="obsolete">SMPlayer θα ακούει την &amp;πόρτα για εντολές άλλων εφαρμογών:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="139"/>
@@ -5101,11 +5010,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.ui" line="353"/>
         <source>Fast &amp;seek to chapters in dvds</source>
         <translation>&amp;Ψάχνει γρήγορα κεφάλαια σε dvd</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="299"/>
-        <source>Create index if needed</source>
-        <translation type="obsolete">Δημιουργία ευρετηρίου αν απαιτηθεί</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="254"/>
@@ -5861,11 +5765,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 </context>
 <context>
     <name>VideoEqualizer</name>
-    <message>
-        <location filename="../videoequalizer.cpp" line="72"/>
-        <source>Equalizer</source>
-        <translation type="obsolete">Ισοσταθμιστής</translation>
-    </message>
     <message>
         <location filename="../videoequalizer.cpp" line="73"/>
         <source>Contrast</source>
