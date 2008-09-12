@@ -134,6 +134,8 @@ public:
 
 	bool use_audio_equalizer;
 
+	bool use_slices;
+
 
 	int vcd_initial_title;
 

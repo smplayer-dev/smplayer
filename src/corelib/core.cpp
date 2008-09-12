@@ -1670,6 +1670,8 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( pref->mplayer_additional_video_filters );
 	}
 
+	bool use_noslices = false;
+
 	// Screenshot
 	if ( (!pref->screenshot_directory.isEmpty()) && 
         (QFileInfo(pref->screenshot_directory).isDir()) )
@@ -1682,11 +1684,19 @@ void Core::startMplayer( QString file, double seek ) {
 			} else {
 				proc->addArgument("-vf-add");
 				proc->addArgument("expand=osd=1");
-				proc->addArgument("-noslices");
+				//proc->addArgument("-noslices");
+				use_noslices = true;
 			}
 		}
 		proc->addArgument("-vf-add");
 		proc->addArgument("screenshot");
+	}
+
+	// slices
+	if ((pref->use_slices) && (!use_noslices)) {
+		proc->addArgument("-slices");
+	} else {
+		proc->addArgument("-noslices");
 	}
 
 

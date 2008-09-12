@@ -1,5 +1,9 @@
 [b]Version 0.6.3[/b]:
 
+(2008-09-12)
+ * Added a new option in Preferences->General->Video: "Draw video using slices"
+   (-slices / -noslices in mplayer). Enabled by default.
+
 (2008-09-09)
  * For some unknown reason sometimes the playlist is not shown. I think this 
    is because it's outside of the screen. Now smplayer checks if the playlist 
