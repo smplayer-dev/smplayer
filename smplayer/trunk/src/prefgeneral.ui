@@ -385,6 +385,13 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="use_slices_check" >
+         <property name="text" >
+          <string>Dra&amp;w video using slices</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="start_fullscreen_check" >
          <property name="text" >
           <string>Start videos in &amp;fullscreen</string>
@@ -1012,6 +1019,7 @@ For translators: don't translate this text, it will be replaced with another one
   <tabstop>deinterlace_combo</tabstop>
   <tabstop>direct_rendering_check</tabstop>
   <tabstop>double_buffer_check</tabstop>
+  <tabstop>use_slices_check</tabstop>
   <tabstop>start_fullscreen_check</tabstop>
   <tabstop>screensaver_check</tabstop>
   <tabstop>softvol_check</tabstop>
@@ -1020,6 +1028,7 @@ For translators: don't translate this text, it will be replaced with another one
   <tabstop>change_volume_check</tabstop>
   <tabstop>use_volume_combo</tabstop>
   <tabstop>initial_volume_slider</tabstop>
+  <tabstop>audio_equalizer_check</tabstop>
   <tabstop>hwac3_check</tabstop>
   <tabstop>channels_combo</tabstop>
   <tabstop>scaletempo_combo</tabstop>

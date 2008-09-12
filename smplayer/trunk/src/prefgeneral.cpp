@@ -125,6 +125,7 @@ void PrefGeneral::setData(Preferences * pref) {
 	setInitialDeinterlace( pref->initial_deinterlace );
 	setDirectRendering( pref->use_direct_rendering );
 	setDoubleBuffer( pref->use_double_buffer );
+	setUseSlices( pref->use_slices );
 	setStartInFullscreen( pref->start_in_fullscreen );
 	setDisableScreensaver( pref->disable_screensaver );
 	setAutoq( pref->autoq );
@@ -179,6 +180,7 @@ void PrefGeneral::getData(Preferences * pref) {
 	pref->initial_deinterlace = initialDeinterlace();
 	TEST_AND_SET(pref->use_direct_rendering, directRendering());
 	TEST_AND_SET(pref->use_double_buffer, doubleBuffer());
+	TEST_AND_SET(pref->use_slices, useSlices());
 	pref->start_in_fullscreen = startInFullscreen();
 	TEST_AND_SET(pref->disable_screensaver, disableScreensaver());
 	TEST_AND_SET(pref->autoq, autoq());
@@ -395,6 +397,14 @@ bool PrefGeneral::doubleBuffer() {
 	return double_buffer_check->isChecked();
 }
 
+void PrefGeneral::setUseSlices(bool b) {
+	use_slices_check->setChecked(b);
+}
+
+bool PrefGeneral::useSlices() {
+	return use_slices_check->isChecked();
+}
+
 void PrefGeneral::setAmplification(int n) {
 	softvol_max_spin->setValue(n);
 }
@@ -549,6 +559,12 @@ void PrefGeneral::createHelp() {
 		tr("Double buffering fixes flicker by storing two frames in memory, "
            "and displaying one while decoding another. If disabled it can "
            "affect OSD negatively, but often removes OSD flickering.") );
+
+	setWhatsThis(use_slices_check, tr("Draw video using slices"),
+		tr("Enable/disable drawing video by 16-pixel height slices/bands. "
+           "If disabled, the whole frame is drawn in a single run. "
+           "May be faster or slower, depending on video card and available "
+           "cache. It has effect only with libmpeg2 and libavcodec codecs.") );
 
 	setWhatsThis(start_fullscreen_check, tr("Start videos in fullscreen"),
 		tr("If this option is checked, all videos will start to play in "

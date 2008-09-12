@@ -154,6 +154,8 @@ void Preferences::reset() {
 
 	use_audio_equalizer = true;
 
+	use_slices = true;
+
 	mplayer_additional_options="";
     mplayer_additional_video_filters="";
     mplayer_additional_audio_filters="";
@@ -402,6 +404,8 @@ void Preferences::save() {
 	set->setValue("use_hwac3", use_hwac3 );
 
 	set->setValue("use_audio_equalizer", use_audio_equalizer );
+
+	set->setValue("use_slices", use_slices );
 
 	set->setValue("vcd_initial_title", vcd_initial_title);
 
@@ -659,6 +663,8 @@ void Preferences::load() {
 	use_hwac3 = set->value("use_hwac3", use_hwac3 ).toBool();
 
 	use_audio_equalizer = set->value("use_audio_equalizer", use_audio_equalizer ).toBool();
+
+	use_slices = set->value("use_slices", use_slices ).toBool();
 
 	vcd_initial_title = set->value("vcd_initial_title", vcd_initial_title ).toInt();
 
