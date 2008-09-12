@@ -3,6 +3,8 @@
 (2008-09-12)
  * Added a new option in Preferences->General->Video: "Draw video using slices"
    (-slices / -noslices in mplayer). Enabled by default.
+ * Bugfix: the items in the combobox for the mouse right click action weren't
+   retranslated properly.
 
 (2008-09-09)
  * For some unknown reason sometimes the playlist is not shown. I think this 

@@ -45,6 +45,7 @@ QPixmap PrefInput::sectionIcon() {
 
 void PrefInput::createMouseCombos() {
 	left_click_combo->clear();
+	right_click_combo->clear();
 	double_click_combo->clear();
 	middle_click_combo->clear();
 	xbutton1_click_combo->clear();
