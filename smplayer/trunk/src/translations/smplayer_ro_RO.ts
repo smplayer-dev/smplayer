@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -4218,22 +4219,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="563"/>
         <source>Draw video using slices</source>
-        <translation type="unfinished"></translation>
+        <translation>Creare imagine din benzi</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="567"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Activează/dezactivează crearea imaginii din benzi late de 16 pixeli. Dacă este dezactivată opțiunea, întregul cadru este creat dintr-o singură mișcare. Poate fi mai rapid sau mai lent funcție de placa video și de câtă memorie cache este disponibilă. Are efect doar cu codecurile libmpeg2 și libavcodec.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="390"/>
         <source>Dra&amp;w video using slices</source>
-        <translation type="unfinished"></translation>
+        <translation>C&amp;reare imagine din benzi</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="228"/>
         <source>&amp;Close when finished playback</source>
-        <translation type="unfinished"></translation>
+        <translation>În&amp;chide după încheierea redării</translation>
     </message>
 </context>
 <context>
