@@ -4220,22 +4220,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="563"/>
         <source>Draw video using slices</source>
-        <translation type="unfinished"></translation>
+        <translation>Dibujar el vídeo por bandas</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="567"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Activa o desactiva el dibujado de vídeo por bandas/rebanadas de altura de 16-pixels. Si se desactiva, se dibujará la imagen entera de una pasada. Puede ser más rápido o más lento, dependiendo de la tarjeta gráfica y de la caché disponible. Sólo tiene efecto con los codecs libmpeg2 y libavcodec.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="390"/>
         <source>Dra&amp;w video using slices</source>
-        <translation type="unfinished"></translation>
+        <translation>Dibujar el vídeo &amp;por bandas</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="228"/>
         <source>&amp;Close when finished playback</source>
-        <translation type="unfinished"></translation>
+        <translation>Cerrar al acabar &amp;la reproducción</translation>
     </message>
 </context>
 <context>
