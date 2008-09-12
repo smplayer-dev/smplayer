@@ -3928,7 +3928,7 @@ La llista desplegable us pot proporcionar expressions regulars per diversos idio
     <message>
         <location filename="../prefgeneral.ui" line="228"/>
         <source>&amp;Close when finished</source>
-        <translation>&amp;Tanca en acabar</translation>
+        <translation type="obsolete">&amp;Tanca en acabar</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="63"/>
@@ -4229,6 +4229,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="390"/>
         <source>Dra&amp;w video using slices</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="228"/>
+        <source>&amp;Close when finished playback</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

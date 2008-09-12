@@ -3956,7 +3956,7 @@ tego nie zrobisz smplayer nie będzie odtwarzać plików!&lt;/b&gt;</translation
     <message>
         <location filename="../prefgeneral.ui" line="228"/>
         <source>&amp;Close when finished</source>
-        <translation>&amp;Zamknij program gdy zakończy odtwarzanie</translation>
+        <translation type="obsolete">&amp;Zamknij program gdy zakończy odtwarzanie</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="63"/>
@@ -4238,6 +4238,11 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefgeneral.ui" line="390"/>
         <source>Dra&amp;w video using slices</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="228"/>
+        <source>&amp;Close when finished playback</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
