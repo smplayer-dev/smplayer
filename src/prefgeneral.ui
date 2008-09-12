@@ -225,7 +225,7 @@
        <item>
         <widget class="QCheckBox" name="close_on_finish_check" >
          <property name="text" >
-          <string>&amp;Close when finished</string>
+          <string>&amp;Close when finished playback</string>
          </property>
         </widget>
        </item>
@@ -988,11 +988,6 @@ For translators: don't translate this text, it will be replaced with another one
  </widget>
  <customwidgets>
   <customwidget>
-   <class>TristateCombo</class>
-   <extends>QComboBox</extends>
-   <header>tristatecombo.h</header>
-  </customwidget>
-  <customwidget>
    <class>MyComboBox</class>
    <extends>QComboBox</extends>
    <header>mycombobox.h</header>
@@ -1001,6 +996,11 @@ For translators: don't translate this text, it will be replaced with another one
    <class>FileChooser</class>
    <extends>QLineEdit</extends>
    <header>filechooser.h</header>
+  </customwidget>
+  <customwidget>
+   <class>TristateCombo</class>
+   <extends>QComboBox</extends>
+   <header>tristatecombo.h</header>
   </customwidget>
  </customwidgets>
  <tabstops>
