@@ -3953,7 +3953,7 @@ Ohne Eingabe wird die Funktion abgeschaltet.</translation>
     <message>
         <location filename="../prefgeneral.ui" line="228"/>
         <source>&amp;Close when finished</source>
-        <translation>&amp;Schließen, wenn beendet</translation>
+        <translation type="obsolete">&amp;Schließen, wenn beendet</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="63"/>
@@ -4236,6 +4236,11 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefgeneral.ui" line="390"/>
         <source>Dra&amp;w video using slices</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="228"/>
+        <source>&amp;Close when finished playback</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

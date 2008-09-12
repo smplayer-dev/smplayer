@@ -3949,7 +3949,7 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefgeneral.ui" line="228"/>
         <source>&amp;Close when finished</source>
-        <translation>&amp;Fermer l&apos;application lorsque media est fini de lire</translation>
+        <translation type="obsolete">&amp;Fermer l&apos;application lorsque media est fini de lire</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="63"/>
@@ -4233,6 +4233,11 @@ Aucune information pour le moment.</translation>
     <message>
         <location filename="../prefgeneral.ui" line="390"/>
         <source>Dra&amp;w video using slices</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="228"/>
+        <source>&amp;Close when finished playback</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
