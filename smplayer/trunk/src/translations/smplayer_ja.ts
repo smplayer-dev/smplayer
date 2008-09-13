@@ -178,12 +178,12 @@
         <translation>フィンランド語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="186"/>
+        <location filename="../about.cpp" line="187"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="195"/>
+        <location filename="../about.cpp" line="196"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -281,6 +281,11 @@
         <location filename="../about.cpp" line="181"/>
         <source>Arabic</source>
         <translation>アラビア語</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="182"/>
+        <source>Kurdish</source>
+        <translation type="unfinished">クルド語</translation>
     </message>
 </context>
 <context>
@@ -2059,7 +2064,7 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>アムハラ語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="215"/>
+        <location filename="../languages.cpp" line="216"/>
         <source>Arabic</source>
         <translation>アラビア語</translation>
     </message>
@@ -2349,7 +2354,7 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>カシミール語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="86"/>
+        <location filename="../languages.cpp" line="185"/>
         <source>Kurdish</source>
         <translation>クルド語</translation>
     </message>
@@ -2394,7 +2399,7 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>マオリ語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="185"/>
+        <location filename="../languages.cpp" line="186"/>
         <source>Macedonian</source>
         <translation>マケドニア語</translation>
     </message>
@@ -2444,7 +2449,7 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>ネパール語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="186"/>
+        <location filename="../languages.cpp" line="187"/>
         <source>Dutch</source>
         <translation>オランダ語</translation>
     </message>
@@ -2469,7 +2474,7 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>パンジャブ語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="187"/>
+        <location filename="../languages.cpp" line="188"/>
         <source>Polish</source>
         <translation>ポーランド語</translation>
     </message>
@@ -2494,12 +2499,12 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>キルンディ語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="190"/>
+        <location filename="../languages.cpp" line="191"/>
         <source>Romanian</source>
         <translation>ルーマニア語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="221"/>
+        <location filename="../languages.cpp" line="222"/>
         <source>Russian</source>
         <translation>ロシア語</translation>
     </message>
@@ -2529,12 +2534,12 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>シンハラ語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="192"/>
+        <location filename="../languages.cpp" line="193"/>
         <source>Slovak</source>
         <translation>スロバキア語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="193"/>
+        <location filename="../languages.cpp" line="194"/>
         <source>Slovenian</source>
         <translation>スロベニア語</translation>
     </message>
@@ -2559,7 +2564,7 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>アルバニア語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="194"/>
+        <location filename="../languages.cpp" line="195"/>
         <source>Serbian</source>
         <translation>セルビア語</translation>
     </message>
@@ -2579,7 +2584,7 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>スンダン語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="195"/>
+        <location filename="../languages.cpp" line="196"/>
         <source>Swedish</source>
         <translation>スウェーデン語</translation>
     </message>
@@ -2634,7 +2639,7 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>トンガ語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="217"/>
+        <location filename="../languages.cpp" line="218"/>
         <source>Turkish</source>
         <translation>トルコ語</translation>
     </message>
@@ -2659,7 +2664,7 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>ウイグル語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="197"/>
+        <location filename="../languages.cpp" line="198"/>
         <source>Ukrainian</source>
         <translation>ウクライナ語</translation>
     </message>
@@ -2714,127 +2719,127 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>ズールー語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="188"/>
+        <location filename="../languages.cpp" line="189"/>
         <source>Portuguese - Brazil</source>
         <translation>ポルトガル語 - ブラジル</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="189"/>
+        <location filename="../languages.cpp" line="190"/>
         <source>Portuguese - Portugal</source>
         <translation>ポルトガル語 - ポルトガル</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="198"/>
+        <location filename="../languages.cpp" line="199"/>
         <source>Simplified-Chinese</source>
         <translation>簡体字中国語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="199"/>
+        <location filename="../languages.cpp" line="200"/>
         <source>Traditional Chinese</source>
         <translation>繁体字中国語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="207"/>
+        <location filename="../languages.cpp" line="208"/>
         <source>Unicode</source>
         <translation>Unicode</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="208"/>
+        <location filename="../languages.cpp" line="209"/>
         <source>UTF-8</source>
         <translation>UTF-8</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="209"/>
+        <location filename="../languages.cpp" line="210"/>
         <source>Western European Languages</source>
         <translation>西ヨーロッパ言語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="210"/>
+        <location filename="../languages.cpp" line="211"/>
         <source>Western European Languages with Euro</source>
         <translation>ユーロ地域の西ヨーロッパ言語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="211"/>
+        <location filename="../languages.cpp" line="212"/>
         <source>Slavic/Central European Languages</source>
         <translation>スラブ語/中央ヨーロッパ言語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="212"/>
+        <location filename="../languages.cpp" line="213"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
         <translation>エスペラント語、ガリシア語、マルタ語、トルコ語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="213"/>
+        <location filename="../languages.cpp" line="214"/>
         <source>Old Baltic charset</source>
         <translation>古バルト語文字セット</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="214"/>
+        <location filename="../languages.cpp" line="215"/>
         <source>Cyrillic</source>
         <translation>キリル言語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="216"/>
+        <location filename="../languages.cpp" line="217"/>
         <source>Modern Greek</source>
         <translation>現代ギリシャ語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="218"/>
+        <location filename="../languages.cpp" line="219"/>
         <source>Baltic</source>
         <translation>バルト語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="219"/>
+        <location filename="../languages.cpp" line="220"/>
         <source>Celtic</source>
         <translation>ケルト語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="220"/>
+        <location filename="../languages.cpp" line="221"/>
         <source>Hebrew charsets</source>
         <translation>ヘブライ語文字セット</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="222"/>
+        <location filename="../languages.cpp" line="223"/>
         <source>Ukrainian, Belarusian</source>
         <translation>ウクライナ語、ベラルーシ語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="223"/>
+        <location filename="../languages.cpp" line="224"/>
         <source>Simplified Chinese charset</source>
         <translation>簡体字中国語文字セット</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="224"/>
+        <location filename="../languages.cpp" line="225"/>
         <source>Traditional Chinese charset</source>
         <translation>繁体字中国語文字セット</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="225"/>
+        <location filename="../languages.cpp" line="226"/>
         <source>Japanese charsets</source>
         <translation>日本語文字セット</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="226"/>
+        <location filename="../languages.cpp" line="227"/>
         <source>Korean charset</source>
         <translation>韓国語文字セット</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="227"/>
+        <location filename="../languages.cpp" line="228"/>
         <source>Thai charset</source>
         <translation>タイ語文字セット</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="228"/>
+        <location filename="../languages.cpp" line="229"/>
         <source>Cyrillic Windows</source>
         <translation>キリル言語 Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="229"/>
+        <location filename="../languages.cpp" line="230"/>
         <source>Slavic/Central European Windows</source>
         <translation>スラブ語/中央ヨーロッパ Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="230"/>
+        <location filename="../languages.cpp" line="231"/>
         <source>Arabic Windows</source>
         <translation>アラビア語 Windows</translation>
     </message>
@@ -4246,7 +4251,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>キーボードとマウス</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="53"/>
+        <location filename="../prefinput.cpp" line="54"/>
         <source>None</source>
         <translation>なし</translation>
     </message>
@@ -4261,7 +4266,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>icon</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="140"/>
+        <location filename="../prefinput.cpp" line="141"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>ここではすべてのショートカットを変更できます。それにはショートカット セルの上でダブル クリックまたは入力を開始します。また任意にその他の人または別のコンピューターで読み込みおよび共有するのに一覧を保存できます。</translation>
     </message>
@@ -4276,17 +4281,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ボタンの機能:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="129"/>
+        <location filename="../prefinput.cpp" line="130"/>
         <source>Media seeking</source>
         <translation>メディアのシーク</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="130"/>
+        <location filename="../prefinput.cpp" line="131"/>
         <source>Volume control</source>
         <translation>ボリューム コントロール</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="131"/>
+        <location filename="../prefinput.cpp" line="132"/>
         <source>Zoom video</source>
         <translation>ビデオの拡大と縮小</translation>
     </message>
@@ -4311,162 +4316,162 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ホイール機能(&amp;W):</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="250"/>
+        <location filename="../prefinput.cpp" line="251"/>
         <source>Shortcut editor</source>
         <translation>ショートカット エディター</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="259"/>
+        <location filename="../prefinput.cpp" line="260"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>この表は利用可能な動作のキー ショートカットの変更を許可します。&lt;i&gt;ショートカットの変更&lt;/i&gt; ダイアログに入るにはアイテムでダブルクリックするか enter を押すか、&lt;b&gt;ショートカットの変更&lt;/b&gt; ボタンを押します。ショートカットを変更する 2 つの方法があります: &lt;b&gt;キャプチャ&lt;/b&gt; ボタンがオンの場合は次に動作に割り当てしたい新しいキーまたはキーの組み合わせを押します。&lt;b&gt;キャプチャ&lt;/b&gt; ボタンがオフの場合は次にキーのフル ネームを入力できます。</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="263"/>
+        <location filename="../prefinput.cpp" line="264"/>
         <source>Left click</source>
         <translation>左クリック</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="264"/>
+        <location filename="../prefinput.cpp" line="265"/>
         <source>Select the action for left click on the mouse.</source>
         <translation>マウスの左クリックの動作を選択します。</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="266"/>
+        <location filename="../prefinput.cpp" line="267"/>
         <source>Double click</source>
         <translation>ダブル クリック</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="267"/>
+        <location filename="../prefinput.cpp" line="268"/>
         <source>Select the action for double click on the mouse.</source>
         <translation>マウスのダブル クリックの動作を選択します。</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="272"/>
+        <location filename="../prefinput.cpp" line="273"/>
         <source>Wheel function</source>
         <translation>ボタンの機能</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="273"/>
+        <location filename="../prefinput.cpp" line="274"/>
         <source>Select the action for the mouse wheel.</source>
         <translation>マウス ホイールの動作を選択します。</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="54"/>
+        <location filename="../prefinput.cpp" line="55"/>
         <source>Play</source>
         <translation>再生</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="56"/>
+        <location filename="../prefinput.cpp" line="57"/>
         <source>Pause</source>
         <translation>一時停止</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="58"/>
+        <location filename="../prefinput.cpp" line="59"/>
         <source>Stop</source>
         <translation>停止</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="67"/>
+        <location filename="../prefinput.cpp" line="68"/>
         <source>Fullscreen</source>
         <translation>全画面表示</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="68"/>
+        <location filename="../prefinput.cpp" line="69"/>
         <source>Compact</source>
         <translation>コンパクト</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="69"/>
+        <location filename="../prefinput.cpp" line="70"/>
         <source>Screenshot</source>
         <translation>スクリーンショット</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="70"/>
+        <location filename="../prefinput.cpp" line="71"/>
         <source>On top</source>
         <translation>常に手前</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="71"/>
+        <location filename="../prefinput.cpp" line="72"/>
         <source>Mute</source>
         <translation>ミュート</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="77"/>
+        <location filename="../prefinput.cpp" line="78"/>
         <source>Frame counter</source>
         <translation>フレーム カウンター</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="74"/>
+        <location filename="../prefinput.cpp" line="75"/>
         <source>Reset zoom</source>
         <translation>拡大と縮小のリセット</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="75"/>
+        <location filename="../prefinput.cpp" line="76"/>
         <source>Exit fullscreen</source>
         <translation>全画面表示の終了</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="79"/>
+        <location filename="../prefinput.cpp" line="80"/>
         <source>Double size</source>
         <translation>倍のサイズ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="55"/>
+        <location filename="../prefinput.cpp" line="56"/>
         <source>Play / Pause</source>
         <translation>再生 / 一時停止</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="57"/>
+        <location filename="../prefinput.cpp" line="58"/>
         <source>Pause / Frame step</source>
         <translation>一時停止 / コマ送り</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="73"/>
+        <location filename="../prefinput.cpp" line="74"/>
         <source>Playlist</source>
         <translation>プレイリスト</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="78"/>
+        <location filename="../prefinput.cpp" line="79"/>
         <source>Preferences</source>
         <translation>環境設定</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="128"/>
+        <location filename="../prefinput.cpp" line="129"/>
         <source>No function</source>
         <translation>機能なし</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="132"/>
+        <location filename="../prefinput.cpp" line="133"/>
         <source>Change speed</source>
         <translation>速度の変更</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="80"/>
+        <location filename="../prefinput.cpp" line="81"/>
         <source>Show equalizer</source>
         <translation>イコライザーの表示</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="76"/>
+        <location filename="../prefinput.cpp" line="77"/>
         <source>Normal speed</source>
         <translation>通常の速度</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="248"/>
+        <location filename="../prefinput.cpp" line="249"/>
         <source>Keyboard</source>
         <translation>キーボード</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="261"/>
+        <location filename="../prefinput.cpp" line="262"/>
         <source>Mouse</source>
         <translation>マウス</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="269"/>
+        <location filename="../prefinput.cpp" line="270"/>
         <source>Middle click</source>
         <translation>ミドル クリック</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="270"/>
+        <location filename="../prefinput.cpp" line="271"/>
         <source>Select the action for middle click on the mouse.</source>
         <translation>マウスのミドル クリックの動作を選択します。</translation>
     </message>
@@ -4486,42 +4491,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>X ボタン 2(&amp;2)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="59"/>
+        <location filename="../prefinput.cpp" line="60"/>
         <source>Go backward (short)</source>
         <translation>戻る (短)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="60"/>
+        <location filename="../prefinput.cpp" line="61"/>
         <source>Go backward (medium)</source>
         <translation>戻る (中)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="61"/>
+        <location filename="../prefinput.cpp" line="62"/>
         <source>Go backward (long)</source>
         <translation>戻る (長)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="62"/>
+        <location filename="../prefinput.cpp" line="63"/>
         <source>Go forward (short)</source>
         <translation>進む (短)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="63"/>
+        <location filename="../prefinput.cpp" line="64"/>
         <source>Go forward (medium)</source>
         <translation>進む (中)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="64"/>
+        <location filename="../prefinput.cpp" line="65"/>
         <source>Go forward (long)</source>
         <translation>進む (長)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="72"/>
+        <location filename="../prefinput.cpp" line="73"/>
         <source>OSD - Next level</source>
         <translation>OSD - 次のレベル</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="81"/>
+        <location filename="../prefinput.cpp" line="82"/>
         <source>Show context menu</source>
         <translation>コンテキスト メニューの表示</translation>
     </message>
@@ -4531,12 +4536,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>右クリック(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="65"/>
+        <location filename="../prefinput.cpp" line="66"/>
         <source>Increase volume</source>
         <translation>音量を上げる</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="66"/>
+        <location filename="../prefinput.cpp" line="67"/>
         <source>Decrease volume</source>
         <translation>音量を下げる</translation>
     </message>

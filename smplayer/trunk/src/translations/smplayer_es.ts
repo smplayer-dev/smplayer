@@ -178,12 +178,12 @@
         <translation>Finés</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="186"/>
+        <location filename="../about.cpp" line="187"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="195"/>
+        <location filename="../about.cpp" line="196"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -281,6 +281,11 @@
         <location filename="../about.cpp" line="181"/>
         <source>Arabic</source>
         <translation>Árabe</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="182"/>
+        <source>Kurdish</source>
+        <translation type="unfinished">Kurdo</translation>
     </message>
 </context>
 <context>
@@ -2059,7 +2064,7 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <translation>Amárico</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="215"/>
+        <location filename="../languages.cpp" line="216"/>
         <source>Arabic</source>
         <translation>Árabe</translation>
     </message>
@@ -2349,7 +2354,7 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <translation>Cachemiro</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="86"/>
+        <location filename="../languages.cpp" line="185"/>
         <source>Kurdish</source>
         <translation>Kurdo</translation>
     </message>
@@ -2394,7 +2399,7 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <translation>Maorí</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="185"/>
+        <location filename="../languages.cpp" line="186"/>
         <source>Macedonian</source>
         <translation>Macedonio</translation>
     </message>
@@ -2444,7 +2449,7 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <translation>Nepalí</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="186"/>
+        <location filename="../languages.cpp" line="187"/>
         <source>Dutch</source>
         <translation>Holandés</translation>
     </message>
@@ -2469,7 +2474,7 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <translation>Panyabí</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="187"/>
+        <location filename="../languages.cpp" line="188"/>
         <source>Polish</source>
         <translation>Polaco</translation>
     </message>
@@ -2494,12 +2499,12 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <translation>Kirundi</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="190"/>
+        <location filename="../languages.cpp" line="191"/>
         <source>Romanian</source>
         <translation>Rumano</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="221"/>
+        <location filename="../languages.cpp" line="222"/>
         <source>Russian</source>
         <translation>Ruso</translation>
     </message>
@@ -2529,12 +2534,12 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <translation>Cingalés</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="192"/>
+        <location filename="../languages.cpp" line="193"/>
         <source>Slovak</source>
         <translation>Eslovaco</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="193"/>
+        <location filename="../languages.cpp" line="194"/>
         <source>Slovenian</source>
         <translation>Esloveno</translation>
     </message>
@@ -2559,7 +2564,7 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <translation>Albanés</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="194"/>
+        <location filename="../languages.cpp" line="195"/>
         <source>Serbian</source>
         <translation>Serbio</translation>
     </message>
@@ -2579,7 +2584,7 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <translation>Sundanés</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="195"/>
+        <location filename="../languages.cpp" line="196"/>
         <source>Swedish</source>
         <translation>Sueco</translation>
     </message>
@@ -2634,7 +2639,7 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <translation>Tongano</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="217"/>
+        <location filename="../languages.cpp" line="218"/>
         <source>Turkish</source>
         <translation>Turco</translation>
     </message>
@@ -2659,7 +2664,7 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <translation>Uigur</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="197"/>
+        <location filename="../languages.cpp" line="198"/>
         <source>Ukrainian</source>
         <translation>Ucraniano</translation>
     </message>
@@ -2714,127 +2719,127 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <translation>Zulú</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="188"/>
+        <location filename="../languages.cpp" line="189"/>
         <source>Portuguese - Brazil</source>
         <translation>Portugués - Brasil</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="189"/>
+        <location filename="../languages.cpp" line="190"/>
         <source>Portuguese - Portugal</source>
         <translation>Portugués - Portugal</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="198"/>
+        <location filename="../languages.cpp" line="199"/>
         <source>Simplified-Chinese</source>
         <translation>Chino simplificado</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="199"/>
+        <location filename="../languages.cpp" line="200"/>
         <source>Traditional Chinese</source>
         <translation>Chino tradicional</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="207"/>
+        <location filename="../languages.cpp" line="208"/>
         <source>Unicode</source>
         <translation>Unicode</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="208"/>
+        <location filename="../languages.cpp" line="209"/>
         <source>UTF-8</source>
         <translation>UTF-8</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="209"/>
+        <location filename="../languages.cpp" line="210"/>
         <source>Western European Languages</source>
         <translation>Occidental</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="210"/>
+        <location filename="../languages.cpp" line="211"/>
         <source>Western European Languages with Euro</source>
         <translation>Occidental con euro</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="211"/>
+        <location filename="../languages.cpp" line="212"/>
         <source>Slavic/Central European Languages</source>
         <translation>Eslavo/Centroeuropeo</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="212"/>
+        <location filename="../languages.cpp" line="213"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
         <translation>Esperanto, Gallego, Maltés, Turco</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="213"/>
+        <location filename="../languages.cpp" line="214"/>
         <source>Old Baltic charset</source>
         <translation>Báltico antiguo</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="214"/>
+        <location filename="../languages.cpp" line="215"/>
         <source>Cyrillic</source>
         <translation>Cirílico</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="216"/>
+        <location filename="../languages.cpp" line="217"/>
         <source>Modern Greek</source>
         <translation>Griego moderno</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="218"/>
+        <location filename="../languages.cpp" line="219"/>
         <source>Baltic</source>
         <translation>Báltico</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="219"/>
+        <location filename="../languages.cpp" line="220"/>
         <source>Celtic</source>
         <translation>Céltico</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="220"/>
+        <location filename="../languages.cpp" line="221"/>
         <source>Hebrew charsets</source>
         <translation>Hebreo</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="222"/>
+        <location filename="../languages.cpp" line="223"/>
         <source>Ukrainian, Belarusian</source>
         <translation>Ucraniano, Belaruso</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="223"/>
+        <location filename="../languages.cpp" line="224"/>
         <source>Simplified Chinese charset</source>
         <translation>Chino simplificado</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="224"/>
+        <location filename="../languages.cpp" line="225"/>
         <source>Traditional Chinese charset</source>
         <translation>Chino tradicional</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="225"/>
+        <location filename="../languages.cpp" line="226"/>
         <source>Japanese charsets</source>
         <translation>Japonés</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="226"/>
+        <location filename="../languages.cpp" line="227"/>
         <source>Korean charset</source>
         <translation>Coreano</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="227"/>
+        <location filename="../languages.cpp" line="228"/>
         <source>Thai charset</source>
         <translation>Thai</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="228"/>
+        <location filename="../languages.cpp" line="229"/>
         <source>Cyrillic Windows</source>
         <translation>Cirílico Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="229"/>
+        <location filename="../languages.cpp" line="230"/>
         <source>Slavic/Central European Windows</source>
         <translation>Eslavo/Centroeuropeo Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="230"/>
+        <location filename="../languages.cpp" line="231"/>
         <source>Arabic Windows</source>
         <translation>Árabe Windows</translation>
     </message>
@@ -4256,7 +4261,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>icon</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="140"/>
+        <location filename="../prefinput.cpp" line="141"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>Aquí puedes cambiar los atajos de teclado. Para hacerlo haz doble click o empieza a escribir sobre un atajo. Opcionalmente también puedes guardar la lista para compartirla con otras personas o usarla en otro ordenador.</translation>
     </message>
@@ -4271,22 +4276,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Funciones de los botones:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="129"/>
+        <location filename="../prefinput.cpp" line="130"/>
         <source>Media seeking</source>
         <translation>Desplazarse por el medio</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="130"/>
+        <location filename="../prefinput.cpp" line="131"/>
         <source>Volume control</source>
         <translation>Controlar el volumen</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="131"/>
+        <location filename="../prefinput.cpp" line="132"/>
         <source>Zoom video</source>
         <translation>Hacer zoom en el vídeo</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="53"/>
+        <location filename="../prefinput.cpp" line="54"/>
         <source>None</source>
         <translation>Ninguna</translation>
     </message>
@@ -4311,162 +4316,162 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Función de la rueda:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="250"/>
+        <location filename="../prefinput.cpp" line="251"/>
         <source>Shortcut editor</source>
         <translation>Editor de atajos</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="259"/>
+        <location filename="../prefinput.cpp" line="260"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>Esta tabla te permite cambiar los atajos del teclado para la mayoría de las acciones disponibles. Haz doble click o pulsa intro sobre una acción, o pulsa el botón &lt;b&gt;Modificar atajo&lt;/b&gt; para abrir el diálogo &lt;i&gt;Modificar atajo&lt;/i&gt;. Hay dos maneras de cambiar un atajo: si el botón &lt;b&gt;Capturar&lt;/b&gt; está activado, entonces simplemente presiona la nueva tecla o combinación de teclas que desees asignar para la acción (desafortunadamente no funciona con todas las teclas). Si el botón &lt;b&gt;Capturar&lt;/b&gt; está desactivado entonces puedes teclear el nombre completo de la tecla.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="263"/>
+        <location filename="../prefinput.cpp" line="264"/>
         <source>Left click</source>
         <translation>Botón izquierdo</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="264"/>
+        <location filename="../prefinput.cpp" line="265"/>
         <source>Select the action for left click on the mouse.</source>
         <translation>Selecciona la acción para el botón izquierdo del ratón.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="266"/>
+        <location filename="../prefinput.cpp" line="267"/>
         <source>Double click</source>
         <translation>Doble click</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="267"/>
+        <location filename="../prefinput.cpp" line="268"/>
         <source>Select the action for double click on the mouse.</source>
         <translation>Selecciona la acción para el doble click del ratón.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="272"/>
+        <location filename="../prefinput.cpp" line="273"/>
         <source>Wheel function</source>
         <translation>Función de la rueda</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="273"/>
+        <location filename="../prefinput.cpp" line="274"/>
         <source>Select the action for the mouse wheel.</source>
         <translation>Selecciona la acción para la rueda del ratón.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="54"/>
+        <location filename="../prefinput.cpp" line="55"/>
         <source>Play</source>
         <translation>Reproducir</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="56"/>
+        <location filename="../prefinput.cpp" line="57"/>
         <source>Pause</source>
         <translation>Pausa</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="58"/>
+        <location filename="../prefinput.cpp" line="59"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="67"/>
+        <location filename="../prefinput.cpp" line="68"/>
         <source>Fullscreen</source>
         <translation>Pantalla completa</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="68"/>
+        <location filename="../prefinput.cpp" line="69"/>
         <source>Compact</source>
         <translation>Modo compacto</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="69"/>
+        <location filename="../prefinput.cpp" line="70"/>
         <source>Screenshot</source>
         <translation>Captura de pantalla</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="70"/>
+        <location filename="../prefinput.cpp" line="71"/>
         <source>On top</source>
         <translation>Encima de todas las ventanas</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="71"/>
+        <location filename="../prefinput.cpp" line="72"/>
         <source>Mute</source>
         <translation>Silenciar</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="77"/>
+        <location filename="../prefinput.cpp" line="78"/>
         <source>Frame counter</source>
         <translation>Contador de imágenes</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="74"/>
+        <location filename="../prefinput.cpp" line="75"/>
         <source>Reset zoom</source>
         <translation>Quitar zoom</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="75"/>
+        <location filename="../prefinput.cpp" line="76"/>
         <source>Exit fullscreen</source>
         <translation>Salir de pantalla completa</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="79"/>
+        <location filename="../prefinput.cpp" line="80"/>
         <source>Double size</source>
         <translation>Tamaño doble</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="55"/>
+        <location filename="../prefinput.cpp" line="56"/>
         <source>Play / Pause</source>
         <translation>Reproducir / Pausa</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="57"/>
+        <location filename="../prefinput.cpp" line="58"/>
         <source>Pause / Frame step</source>
         <translation>Pausa / Avanzar fotograma</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="73"/>
+        <location filename="../prefinput.cpp" line="74"/>
         <source>Playlist</source>
         <translation>Lista de reproducción</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="78"/>
+        <location filename="../prefinput.cpp" line="79"/>
         <source>Preferences</source>
         <translation>Preferencias</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="128"/>
+        <location filename="../prefinput.cpp" line="129"/>
         <source>No function</source>
         <translation>Sin función</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="132"/>
+        <location filename="../prefinput.cpp" line="133"/>
         <source>Change speed</source>
         <translation>Cambiar velocidad</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="80"/>
+        <location filename="../prefinput.cpp" line="81"/>
         <source>Show equalizer</source>
         <translation>Mostrar ecualizador</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="76"/>
+        <location filename="../prefinput.cpp" line="77"/>
         <source>Normal speed</source>
         <translation>Velocidad normal</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="248"/>
+        <location filename="../prefinput.cpp" line="249"/>
         <source>Keyboard</source>
         <translation>Teclado</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="261"/>
+        <location filename="../prefinput.cpp" line="262"/>
         <source>Mouse</source>
         <translation>Ratón</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="269"/>
+        <location filename="../prefinput.cpp" line="270"/>
         <source>Middle click</source>
         <translation>Botón central</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="270"/>
+        <location filename="../prefinput.cpp" line="271"/>
         <source>Select the action for middle click on the mouse.</source>
         <translation>Selecciona la acción para el botón central del ratón.</translation>
     </message>
@@ -4486,42 +4491,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>X Button &amp;2</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="59"/>
+        <location filename="../prefinput.cpp" line="60"/>
         <source>Go backward (short)</source>
         <translation>Retroceso corto</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="60"/>
+        <location filename="../prefinput.cpp" line="61"/>
         <source>Go backward (medium)</source>
         <translation>Retroceso medio</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="61"/>
+        <location filename="../prefinput.cpp" line="62"/>
         <source>Go backward (long)</source>
         <translation>Retroceso largo</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="62"/>
+        <location filename="../prefinput.cpp" line="63"/>
         <source>Go forward (short)</source>
         <translation>Avance corto</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="63"/>
+        <location filename="../prefinput.cpp" line="64"/>
         <source>Go forward (medium)</source>
         <translation>Avance medio</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="64"/>
+        <location filename="../prefinput.cpp" line="65"/>
         <source>Go forward (long)</source>
         <translation>Avance largo</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="72"/>
+        <location filename="../prefinput.cpp" line="73"/>
         <source>OSD - Next level</source>
         <translation>OSD - Siguiente nivel</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="81"/>
+        <location filename="../prefinput.cpp" line="82"/>
         <source>Show context menu</source>
         <translation>Mostrar menú contextual</translation>
     </message>
@@ -4531,12 +4536,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Botón de&amp;recho</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="65"/>
+        <location filename="../prefinput.cpp" line="66"/>
         <source>Increase volume</source>
         <translation>Subir volumen</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="66"/>
+        <location filename="../prefinput.cpp" line="67"/>
         <source>Decrease volume</source>
         <translation>Bajar volumen</translation>
     </message>
