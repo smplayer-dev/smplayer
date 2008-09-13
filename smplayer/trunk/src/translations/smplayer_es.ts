@@ -285,7 +285,7 @@
     <message>
         <location filename="../about.cpp" line="182"/>
         <source>Kurdish</source>
-        <translation type="unfinished">Kurdo</translation>
+        <translation>Kurdo</translation>
     </message>
 </context>
 <context>
