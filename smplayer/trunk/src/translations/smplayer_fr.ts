@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -3490,17 +3491,17 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefadvanced.cpp" line="374"/>
         <source>Rebuild index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>Reconstruire l&apos;index si besoin</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="379"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
-        <translation type="unfinished">Reconstruit l&apos;index des fichiers si aucun index a été trouvé, permettant la recherche. Très utile pour les fichiers cassés ou incomplets ou mal créés. Cette option ne marche que si le media supporte la recherche (par exemple sans stdin, pipe, etc). &lt;br&gt;Note : la création d&apos;index peut prendre un certain temps.</translation>
+        <translation>Reconstruit l&apos;index des fichiers si aucun index a été trouvé, permettant la recherche. Très utile pour les fichiers cassés ou incomplets ou mal créés. Cette option ne marche que si le media supporte la recherche (par exemple sans stdin, pipe, etc). &lt;br&gt;Note : la création d&apos;index peut prendre un certain temps.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="138"/>
         <source>Rebuild &amp;index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>Reconstruire l&apos;&amp;index si besoin</translation>
     </message>
 </context>
 <context>
@@ -5197,17 +5198,17 @@ Aucune information pour le moment.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="250"/>
         <source>Threads for decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Threads pour le décodage</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="252"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
-        <translation type="unfinished"></translation>
+        <translation>Fixe le nombre de threads pour le décodage. Seulement pour MPEG-1/2 et H.264</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="158"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Threads pour le décodage (Seulement pour MPEG-1/2 et H.264) :</translation>
     </message>
 </context>
 <context>
