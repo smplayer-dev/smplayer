@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -285,7 +286,7 @@
     <message>
         <location filename="../about.cpp" line="182"/>
         <source>Kurdish</source>
-        <translation type="unfinished">Kurdisch</translation>
+        <translation>Kurdisch</translation>
     </message>
 </context>
 <context>
@@ -4231,22 +4232,22 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="563"/>
         <source>Draw video using slices</source>
-        <translation type="unfinished"></translation>
+        <translation>Video anzeigen mit Modus Slices</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="567"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ein-/ Ausschalten des Modus - Slices (16 Pixel Macroblockgruppen). Wenn deaktiviert wird das Bild in einem Durchgang angezeigt. Abhängig von der Grafikkarte und Cache kann dieser Modus schneller oder langsamer sein. Gilt nur für libmpeg2 und libavcodec-Codecs.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="390"/>
         <source>Dra&amp;w video using slices</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Video anzeigen mit Modus Slices</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="228"/>
         <source>&amp;Close when finished playback</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Schließen wenn die Wiedergabe beendet ist</translation>
     </message>
 </context>
 <context>
