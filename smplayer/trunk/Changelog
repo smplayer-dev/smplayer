@@ -1,5 +1,9 @@
 [b]Version 0.6.3[/b]:
 
+(2008-09-14)
+ * Check in Core::changeSubtitle() that the selected subtitle is in a valid
+   range. This should avoid crashes.
+
 (2008-09-13)
  * Added the Kurdish translation, by Si_murg56 <simurg56@gmail.com>
 

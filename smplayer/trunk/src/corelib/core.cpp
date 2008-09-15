@@ -2653,7 +2653,9 @@ void Core::changeSubtitle(int ID) {
 		if (ID == -1) {
 			tellmp( "sub_source -1" );
 		} else {
-			if (mdat.subs.numItems() > 0) {
+			bool valid_item = ( (ID >= 0) && (ID < mdat.subs.numItems()) );
+			if (!valid_item) qWarning("Core::changeSubtitle: ID: %d is not valid!", ID);
+			if ( (mdat.subs.numItems() > 0) && (valid_item) ) {
 				real_id = mdat.subs.itemAt(ID).ID();
 				switch (mdat.subs.itemAt(ID).type()) {
 					case SubData::Vob:
