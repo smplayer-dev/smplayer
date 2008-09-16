@@ -4245,22 +4245,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="91"/>
         <source>&lt;Default&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;Por defecto&gt;</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="578"/>
         <source>Screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Pantalla</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="581"/>
         <source>When using directx as video driver, the video can only be displayed on one screen. This option allows to select which one will display the video.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cuando se usa directx como driver de vídeo, la imagen sólo se puede mostrar en una pantalla. Esta opción permite elegir en qué pantalla aparecerá el vídeo.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="108"/>
         <source>&amp;Screen:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pan&amp;talla:</translation>
     </message>
 </context>
 <context>
