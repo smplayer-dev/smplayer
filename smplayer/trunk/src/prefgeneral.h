@@ -23,6 +23,8 @@
 #include "prefwidget.h"
 #include "inforeader.h"
 #include "preferences.h"
+#include "config.h"
+
 
 class PrefGeneral : public PrefWidget, public Ui::PrefGeneral
 {
@@ -60,6 +62,11 @@ protected:
 
 	void setAO( QString ao_driver );
 	QString AO();
+
+#if USE_ADAPTER
+	void setAdapter(int n);
+	int adapter();
+#endif
 
 	void setRememberSettings(bool b);
 	bool rememberSettings();
@@ -146,6 +153,11 @@ protected:
 
 protected:
 	virtual void retranslateStrings();
+
+protected slots:
+#if USE_ADAPTER
+	void vo_combo_changed(QString);
+#endif
 };
 
 #endif

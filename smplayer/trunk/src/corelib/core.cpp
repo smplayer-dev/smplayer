@@ -1202,6 +1202,13 @@ void Core::startMplayer( QString file, double seek ) {
 #endif
 	}
 
+#if USE_ADAPTER
+	if (pref->adapter > -1) {
+		proc->addArgument("-adapter");
+		proc->addArgument(QString::number(pref->adapter));
+	}
+#endif
+
 	if (!pref->ao.isEmpty()) {
 		proc->addArgument( "-ao");
 		proc->addArgument( pref->ao );

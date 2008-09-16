@@ -95,6 +95,12 @@
 #endif
 
 
+// Enables/disables the use of -adapter
+#ifdef Q_OS_WIN
+#define USE_ADAPTER 1
+#endif
+
+
 // NOTIFY_AUDIO_SUB_CHANGES
 // if set to 1, mplayerprocess will notify changes in the audio and
 // subtitle tracks that happen during playback. It doesn't work yet!!!
