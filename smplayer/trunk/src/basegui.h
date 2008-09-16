@@ -490,6 +490,16 @@ protected:
 	MyAction * rotateCounterclockwiseAct;
 	MyAction * rotateCounterclockwiseFlipAct;
 
+#if USE_ADAPTER
+	// Screen Group
+	MyActionGroup * screenGroup;
+	MyAction * screenDefaultAct;
+	MyAction * screen1Act;
+	MyAction * screen2Act;
+	MyAction * screen3Act;
+	MyAction * screen4Act;
+#endif
+
 	// Audio Channels Action Group
 	MyActionGroup * channelsGroup;
 	/* MyAction * channelsDefaultAct; */
@@ -540,6 +550,9 @@ protected:
 	QMenu * logs_menu;
 	QMenu * panscan_menu;
 	QMenu * rotate_menu;
+#if USE_ADAPTER
+	QMenu * screen_menu;
+#endif
 
 	QMenu * popup;
 	QMenu * recentfiles_menu;
