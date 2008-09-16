@@ -1064,6 +1064,10 @@ void BaseGui::enableActionsOnPlaying() {
 		screenGroup->setActionsEnabled(false);
 #endif
 	}
+
+#if USE_ADAPTER
+	screenGroup->setActionsEnabled(pref->vo.startsWith(OVERLAY_VO));
+#endif
 }
 
 void BaseGui::disableActionsOnStop() {
