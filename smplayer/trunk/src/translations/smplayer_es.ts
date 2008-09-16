@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="es">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1393,12 +1394,12 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="1318"/>
         <source>Scree&amp;n</source>
-        <translation type="unfinished"></translation>
+        <translation>Pa&amp;ntalla</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1363"/>
         <source>&amp;Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Por &amp;defecto</translation>
     </message>
 </context>
 <context>
