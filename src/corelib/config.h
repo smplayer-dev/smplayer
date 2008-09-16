@@ -98,6 +98,8 @@
 // Enables/disables the use of -adapter
 #ifdef Q_OS_WIN
 #define USE_ADAPTER 1
+#define OVERLAY_VO "directx"
+//#define OVERLAY_VO "xv"
 #endif
 
 

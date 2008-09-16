@@ -539,7 +539,7 @@ Preferences::OptionState PrefGeneral::scaleTempoFilter() {
 void PrefGeneral::vo_combo_changed(QString text) {
 	qDebug("PrefGeneral::vo_combo_changed: %s", text.toUtf8().constData());
 
-	bool b = (text.startsWith("directx"));
+	bool b = (text.startsWith(OVERLAY_VO));
 
 	screen_label->setEnabled(b);
 	screen_combo->setEnabled(b);
