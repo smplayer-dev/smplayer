@@ -86,6 +86,10 @@ void Preferences::reset() {
 	vo = ""; 
 	ao = "";
 
+#if USE_ADAPTER
+	adapter = -1;
+#endif
+
 	// On Windows Vista set vo to gl:yuv=2:force-pbo:ati-hack as default
 #ifdef Q_OS_WIN
 	if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA) {
@@ -351,6 +355,10 @@ void Preferences::save() {
 	set->setValue("vo", vo);
 	set->setValue("ao", ao);
 
+#if USE_ADAPTER
+	set->setValue("adapter", adapter);
+#endif
+
 #if USE_COLORKEY
 	set->setValue("color_key", QString::number(color_key,16));
 #endif
@@ -604,6 +612,10 @@ void Preferences::load() {
 	osd = set->value("osd", osd).toInt();
 	vo = set->value("vo", vo).toString();
 	ao = set->value("ao", ao).toString();
+
+#if USE_ADAPTER
+	adapter = set->value("adapter", adapter).toInt();
+#endif
 
 #if USE_COLORKEY
 	bool ok;

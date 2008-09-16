@@ -1,5 +1,10 @@
 [b]Version 0.6.3[/b]:
 
+(2008-09-15)
+ * (Windows) Added a new option in Preferences->General that allows the user 
+   to select which screen will display the video when using directx as video 
+   driver. This option is visible only when directx is selected.
+
 (2008-09-14)
  * Check in Core::changeSubtitle() that the selected subtitle is in a valid
    range. This should avoid crashes.

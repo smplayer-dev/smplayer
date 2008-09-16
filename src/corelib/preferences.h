@@ -52,6 +52,10 @@ public:
 	QString vo; // video output
 	QString ao; // audio output
 
+#if USE_ADAPTER
+	int adapter; //Screen for overlay. If -1 it won't be used.
+#endif
+
 #if USE_COLORKEY
 	unsigned int color_key;
 #endif
