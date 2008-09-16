@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -4251,22 +4252,22 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="91"/>
         <source>&lt;Default&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;Standard&gt;</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="578"/>
         <source>Screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildschirm</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="581"/>
         <source>When using directx as video driver, the video can only be displayed on one screen. This option allows to select which one will display the video.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bei der Verwendung von DirectX als Video-Treiber, kann das Video nur auf einem Bildschirm angezeigt werden. Diese Option ermöglicht die Auswahl des BIldschirms, auf dem das Video angezeigt wird.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="108"/>
         <source>&amp;Screen:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bildschirm:</translation>
     </message>
 </context>
 <context>
