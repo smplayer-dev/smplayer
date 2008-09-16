@@ -851,6 +851,17 @@ void BaseGui::createActions() {
 	connect( rotateGroup, SIGNAL(activated(int)),
              core, SLOT(changeRotate(int)) );
 
+#if USE_ADAPTER
+	screenGroup = new MyActionGroup(this);
+	screenDefaultAct = new MyActionGroupItem(this, screenGroup, "screen_default", -1);
+	screen1Act = new MyActionGroupItem(this, screenGroup, "screen_1", 1);
+	screen2Act = new MyActionGroupItem(this, screenGroup, "screen_2", 2);
+	screen3Act = new MyActionGroupItem(this, screenGroup, "screen_3", 3);
+	screen4Act = new MyActionGroupItem(this, screenGroup, "screen_4", 4);
+	connect( screenGroup, SIGNAL(activated(int)),
+             core, SLOT(changeAdapter(int)) );
+#endif
+
 	// Audio track
 	audioTrackGroup = new MyActionGroup(this);
 	connect( audioTrackGroup, SIGNAL(activated(int)), 
@@ -981,6 +992,9 @@ void BaseGui::setActionsEnabled(bool b) {
 	deinterlaceGroup->setActionsEnabled(b);
 	aspectGroup->setActionsEnabled(b);
 	rotateGroup->setActionsEnabled(b);
+#if USE_ADAPTER
+	screenGroup->setActionsEnabled(b);
+#endif
 	channelsGroup->setActionsEnabled(b);
 	stereoGroup->setActionsEnabled(b);
 }
@@ -1046,6 +1060,9 @@ void BaseGui::enableActionsOnPlaying() {
 		deinterlaceGroup->setActionsEnabled(false);
 		aspectGroup->setActionsEnabled(false);
 		rotateGroup->setActionsEnabled(false);
+#if USE_ADAPTER
+		screenGroup->setActionsEnabled(false);
+#endif
 	}
 }
 
@@ -1293,6 +1310,11 @@ void BaseGui::retranslateStrings() {
 	rotate_menu->menuAction()->setText( tr("&Rotate") );
 	rotate_menu->menuAction()->setIcon( Images::icon("rotate") );
 
+#if USE_ADAPTER
+	screen_menu->menuAction()->setText( tr("Scree&n") );
+	screen_menu->menuAction()->setIcon( Images::icon("screen") );
+#endif
+
 	/*
 	denoise_menu->menuAction()->setText( tr("De&noise") );
 	denoise_menu->menuAction()->setIcon( Images::icon("denoise") );
@@ -1332,6 +1354,14 @@ void BaseGui::retranslateStrings() {
 	rotateClockwiseAct->change( tr("Rotate by 90 degrees &clockwise") );
 	rotateCounterclockwiseAct->change( tr("Rotate by 90 degrees counterclock&wise") );
 	rotateCounterclockwiseFlipAct->change( tr("Rotate by 90 degrees counterclockwise and &flip") );
+
+#if USE_ADAPTER
+	screenDefaultAct->change( tr("&Default") );
+	screen1Act->change( "&1" );
+	screen2Act->change( "&2" );
+	screen3Act->change( "&3" );
+	screen4Act->change( "&4" );
+#endif
 
 	// Menu Audio
 	audiotrack_menu->menuAction()->setText( tr("&Track") );
@@ -1694,6 +1724,13 @@ void BaseGui::createMenus() {
 	// VIDEO MENU
 	videoMenu->addAction(fullscreenAct);
 	videoMenu->addAction(compactAct);
+
+#if USE_ADAPTER
+	// Screen submenu
+	screen_menu = new QMenu(this);
+	screen_menu->addActions( screenGroup->actions() );
+	videoMenu->addMenu(screen_menu);
+#endif
 
 	// Size submenu
 	videosize_menu = new QMenu(this);
@@ -2406,6 +2443,10 @@ void BaseGui::updateWidgets() {
 
 	// Rotate
 	rotateGroup->setChecked( core->mset.rotate );
+
+#if USE_ADAPTER
+	screenGroup->setChecked( pref->adapter );
+#endif
 
 	// OSD
 	osdGroup->setChecked( pref->osd );

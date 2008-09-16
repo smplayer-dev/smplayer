@@ -236,6 +236,10 @@ public slots:
 
 	void changeRotate(int r);
 
+#if USE_ADAPTER
+	void changeAdapter(int n);
+#endif
+
 	void incPanscan();
 	void decPanscan();
 	void resetPanscan();

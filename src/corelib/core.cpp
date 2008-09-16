@@ -3042,6 +3042,17 @@ void Core::changeRotate(int r) {
 	}
 }
 
+#if USE_ADAPTER
+void Core::changeAdapter(int n) {
+	qDebug("Core::changeScreen: %d", n);
+
+	if (pref->adapter != n) {
+		pref->adapter = n;
+		restartPlay();
+	}
+}
+#endif
+
 void Core::changeSize(int n) {
 	if ( /*(n != pref->size_factor) &&*/ (!pref->use_mplayer_window) ) {
 		pref->size_factor = n;
