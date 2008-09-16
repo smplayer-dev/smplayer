@@ -576,9 +576,9 @@ void PrefGeneral::createHelp() {
 
 #if USE_ADAPTER
 	setWhatsThis(screen_combo, tr("Screen"),
-		tr("When using directx as video driver, the video can only be "
+		tr("When using %1 as video driver, the video can only be "
            "displayed on one screen. This option allows to select which "
-           "one will display the video.") );
+           "one will display the video.").arg(OVERLAY_VO) );
 #endif
 
 	setWhatsThis(remember_all_check, tr("Remember settings"),
