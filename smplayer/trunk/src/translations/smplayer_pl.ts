@@ -4271,13 +4271,13 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="581"/>
-        <source>When using directx as video driver, the video can only be displayed on one screen. This option allows to select which one will display the video.</source>
+        <location filename="../prefgeneral.ui" line="108"/>
+        <source>&amp;Screen:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="108"/>
-        <source>&amp;Screen:</source>
+        <location filename="../prefgeneral.cpp" line="581"/>
+        <source>When using %1 as video driver, the video can only be displayed on one screen. This option allows to select which one will display the video.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

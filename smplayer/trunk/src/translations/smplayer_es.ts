@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="es">
-<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -4266,12 +4265,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="581"/>
         <source>When using directx as video driver, the video can only be displayed on one screen. This option allows to select which one will display the video.</source>
-        <translation>Cuando se usa directx como driver de vídeo, la imagen sólo se puede mostrar en una pantalla. Esta opción permite elegir en qué pantalla aparecerá el vídeo.</translation>
+        <translation type="obsolete">Cuando se usa directx como driver de vídeo, la imagen sólo se puede mostrar en una pantalla. Esta opción permite elegir en qué pantalla aparecerá el vídeo.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="108"/>
         <source>&amp;Screen:</source>
         <translation>Pan&amp;talla:</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="581"/>
+        <source>When using %1 as video driver, the video can only be displayed on one screen. This option allows to select which one will display the video.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
