@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -4253,22 +4254,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="91"/>
         <source>&lt;Default&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;Implicit&gt;</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="578"/>
         <source>Screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Ecran</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="108"/>
         <source>&amp;Screen:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ecran:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="581"/>
         <source>When using %1 as video driver, the video can only be displayed on one screen. This option allows to select which one will display the video.</source>
-        <translation type="unfinished"></translation>
+        <translation>Când se folosește  %1 ca driver video, fișierul video nu poate fi afișat decât pe un singur ecran. Cu această opțiune alegeți pe care dintre ecrane se va face afișarea filmului.</translation>
     </message>
 </context>
 <context>
