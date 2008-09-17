@@ -79,13 +79,6 @@
 #define USE_INFOPROVIDER 1
 
 
-// USE_MINIMUMSIZE
-// if 1, the main window will not be smaller than the control widget 
-// size hint.
-
-#define USE_MINIMUMSIZE 1
-
-
 // USE_CONFIGURABLE_TOOLBARS
 // if 1, the toolbars (and controlbars) are saved to the config file
 // so the user can modify them.

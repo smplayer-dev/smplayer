@@ -2,6 +2,10 @@
 
 (2008-09-17)
  * Added an icon for the Play/Pause action. (This breaks all icon themes...)
+ * Added a new option for smplayer.ini: gui_minimum_width. The width of the
+   main window won't be smaller than the value of that option.
+   If gui_minimum_width is set to 0 (the default) then the minimum width 
+   will be the size hint of the window.
 
 (2008-09-16)
  * (Windows) Added a new option in Preferences->General that allows the user 

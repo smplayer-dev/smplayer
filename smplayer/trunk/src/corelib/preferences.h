@@ -270,6 +270,10 @@ public:
 
 	QString gui; //!< The name of the GUI to use
 
+#if USE_MINIMUMSIZE
+	int gui_minimum_width;
+#endif
+
 #if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
 	bool hide_video_window_on_audio_files;
 #endif

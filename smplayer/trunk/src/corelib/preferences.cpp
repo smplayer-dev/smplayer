@@ -270,6 +270,10 @@ void Preferences::reset() {
 
 	gui = "DefaultGui";
 
+#if USE_MINIMUMSIZE
+	gui_minimum_width = 0; // 0 == disabled
+#endif
+
 #if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
 	hide_video_window_on_audio_files = true;
 #endif
@@ -510,6 +514,10 @@ void Preferences::save() {
 	set->setValue("use_edl_files", use_edl_files);
 
 	set->setValue("gui", gui);
+
+#if USE_MINIMUMSIZE
+	set->setValue("gui_minimum_width", gui_minimum_width);
+#endif
 
 #if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
 	set->setValue("hide_video_window_on_audio_files", hide_video_window_on_audio_files);
@@ -773,6 +781,10 @@ void Preferences::load() {
 	use_edl_files = set->value("use_edl_files", use_edl_files).toBool();
 
 	gui = set->value("gui", gui).toString();
+
+#if USE_MINIMUMSIZE
+	gui_minimum_width = set->value("gui_minimum_width", gui_minimum_width).toInt();
+#endif
 
 #if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
 	hide_video_window_on_audio_files = set->value("hide_video_window_on_audio_files", hide_video_window_on_audio_files).toBool();
