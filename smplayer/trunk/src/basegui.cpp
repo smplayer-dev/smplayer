@@ -1110,9 +1110,9 @@ void BaseGui::retranslateStrings() {
 
 	playOrPauseAct->change( tr("Play / Pause") );
 	if (qApp->isLeftToRight()) 
-		playOrPauseAct->setIcon( Images::icon("play") );
+		playOrPauseAct->setIcon( Images::icon("play_pause") );
 	else
-		playOrPauseAct->setIcon( Images::flippedIcon("play") );
+		playOrPauseAct->setIcon( Images::flippedIcon("play_pause") );
 
 	pauseAndStepAct->change( Images::icon("pause"), tr("Pause / Frame step") );
 

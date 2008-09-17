@@ -1,5 +1,8 @@
 [b]Version 0.6.3[/b]:
 
+(2008-09-17)
+ * Added an icon for the Play/Pause action. (This breaks all icon themes...)
+
 (2008-09-16)
  * (Windows) Added a new option in Preferences->General that allows the user 
    to select which screen will display the video when using directx as video 
