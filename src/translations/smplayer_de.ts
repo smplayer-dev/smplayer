@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1393,12 +1394,12 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1318"/>
         <source>Scree&amp;n</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bildschirm</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1363"/>
         <source>&amp;Default</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Standard</translation>
     </message>
 </context>
 <context>
@@ -4281,7 +4282,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="581"/>
         <source>When using %1 as video driver, the video can only be displayed on one screen. This option allows to select which one will display the video.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bei der Verwendung von %1 als Video-Treiber, kann das Video nur auf einem Bildschirm angezeigt werden. Diese Option ermöglicht die Auswahl des BIldschirms, auf dem das Video angezeigt wird.</translation>
     </message>
 </context>
 <context>
