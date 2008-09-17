@@ -89,6 +89,13 @@
 #define USE_COLORKEY 1
 
 
+// USE_MINIMUMSIZE
+// if 1, the main window will not be smaller than the control widget 
+// size hint or pref->gui_minimum_width.
+
+#define USE_MINIMUMSIZE 1
+
+
 // Adds or not the "Repaint the background of the video window" option.
 #ifndef Q_OS_WIN
 #define REPAINT_BACKGROUND_OPTION 1

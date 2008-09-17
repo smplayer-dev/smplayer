@@ -3470,6 +3470,7 @@ void BaseGui::resizeWindow(int w, int h) {
 
 #if USE_MINIMUMSIZE
 	int minimum_width = minimumSizeHint().width();
+	if (pref->gui_minimum_width != 0) minimum_width = pref->gui_minimum_width;
 	if (width() < minimum_width) {
 		qDebug("BaseGui::resizeWindow: width is too small, setting width to %d", minimum_width);
 		resize( minimum_width, height());
