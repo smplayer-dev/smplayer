@@ -1265,9 +1265,13 @@ void Core::startMplayer( QString file, double seek ) {
 
 	if (pref->use_direct_rendering) {
 		proc->addArgument("-dr");
+	} else {
+		proc->addArgument("-nodr");
 	}
 
-	if (!pref->use_double_buffer) {
+	if (pref->use_double_buffer) {
+		proc->addArgument("-double");
+	} else {
 		proc->addArgument("-nodouble");
 	}
 
