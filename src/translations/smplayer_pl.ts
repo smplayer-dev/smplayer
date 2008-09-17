@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -285,7 +286,7 @@
     <message>
         <location filename="../about.cpp" line="182"/>
         <source>Kurdish</source>
-        <translation type="unfinished">Kurdish</translation>
+        <translation>Kurdish</translation>
     </message>
 </context>
 <context>
@@ -1394,12 +1395,12 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../basegui.cpp" line="1318"/>
         <source>Scree&amp;n</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekra&amp;n</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1363"/>
         <source>&amp;Default</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Domyślne</translation>
     </message>
 </context>
 <context>
@@ -4263,22 +4264,22 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefgeneral.cpp" line="91"/>
         <source>&lt;Default&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;Domyślne&gt;</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="578"/>
         <source>Screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekran</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="108"/>
         <source>&amp;Screen:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ekran:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="581"/>
         <source>When using %1 as video driver, the video can only be displayed on one screen. This option allows to select which one will display the video.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gdy używasz %1 jako sterownika wideo, wideo będzie wyświetlane tylko na ekranie. Opcja ta pozwala na wybranie, który ekran będzie wyświetlał wideo.</translation>
     </message>
 </context>
 <context>
