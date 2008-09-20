@@ -68,8 +68,6 @@ public:
 	bool fast_chapter_change;
 #endif
 
-	QString dvd_device;
-	QString cdrom_device;
 
 	int cache_for_files;
 	int cache_for_streams;
@@ -119,7 +117,7 @@ public:
 	bool use_slices;
 
 
-	int vcd_initial_title;
+
 
 
 	// Let the user pass options to mplayer
@@ -175,9 +173,6 @@ public:
 	bool change_video_equalizer_on_startup;
 
 
-#ifdef Q_OS_WIN
-	bool enable_audiocd_on_windows;
-#endif
 
 
 
@@ -202,6 +197,20 @@ public:
 	//! Windows only. If true, smplayer will pass short filenames to mplayer.
 	//! To workaround a bug in mplayer.
 	bool use_short_pathnames; 
+
+
+    /* ***************
+       Drives (CD/DVD)
+       *************** */
+
+	QString dvd_device;
+	QString cdrom_device;
+
+#ifdef Q_OS_WIN
+	bool enable_audiocd_on_windows;
+#endif
+
+	int vcd_initial_title;
 
 
     /* **************

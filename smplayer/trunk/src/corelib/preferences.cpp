@@ -78,8 +78,6 @@ void Preferences::reset() {
 	color_key = 0x020202;
 #endif
 
-	dvd_device = "";
-	cdrom_device = "";
 
 	// MPlayer 1.0rc1 require restart, new versions don't
 	fast_audio_change = Detect;
@@ -180,9 +178,6 @@ void Preferences::reset() {
 	change_video_equalizer_on_startup = true;
 
 
-#ifdef Q_OS_WIN
-	enable_audiocd_on_windows = false;
-#endif
 
 
 
@@ -193,7 +188,7 @@ void Preferences::reset() {
 	prefer_ipv4 = true;
 
 
-	vcd_initial_title = 2; // Most VCD's start at title #2
+
 
 
     //mplayer log autosaving
@@ -205,6 +200,20 @@ void Preferences::reset() {
 	use_volume_option2 = Detect; 
 
 	use_short_pathnames = false;
+
+
+    /* ***************
+       Drives (CD/DVD)
+       *************** */
+
+	dvd_device = "";
+	cdrom_device = "";
+
+#ifdef Q_OS_WIN
+	enable_audiocd_on_windows = false;
+#endif
+
+	vcd_initial_title = 2; // Most VCD's start at title #2
 
 
     /* **************
@@ -405,8 +414,6 @@ void Preferences::save() {
 	set->setValue("fast_chapter_change", fast_chapter_change);
 #endif
 
-	set->setValue("dvd_device", dvd_device);
-	set->setValue("cdrom_device", cdrom_device);
 
 	set->setValue("cache_for_files", cache_for_files);
 	set->setValue("cache_for_streams", cache_for_streams);
@@ -452,7 +459,7 @@ void Preferences::save() {
 
 	set->setValue("use_slices", use_slices );
 
-	set->setValue("vcd_initial_title", vcd_initial_title);
+
 
 
 	set->setValue("mplayer_additional_options", mplayer_additional_options);
@@ -495,9 +502,6 @@ void Preferences::save() {
 	set->setValue("change_video_equalizer_on_startup", change_video_equalizer_on_startup);
 
 
-#ifdef Q_OS_WIN
-	set->setValue("enable_audiocd_on_windows", enable_audiocd_on_windows);
-#endif
 
 
 
@@ -518,6 +522,24 @@ void Preferences::save() {
 	set->setValue("use_short_pathnames", use_short_pathnames);
 
 	set->endGroup();
+
+
+    /* ***************
+       Drives (CD/DVD)
+       *************** */
+
+	set->beginGroup( "drives");
+
+	set->setValue("dvd_device", dvd_device);
+	set->setValue("cdrom_device", cdrom_device);
+
+#ifdef Q_OS_WIN
+	set->setValue("enable_audiocd_on_windows", enable_audiocd_on_windows);
+#endif
+
+	set->setValue("vcd_initial_title", vcd_initial_title);
+
+	set->endGroup(); // drives
 
 
     /* **************
@@ -728,8 +750,6 @@ void Preferences::load() {
 	fast_chapter_change = set->value("fast_chapter_change", fast_chapter_change).toBool();
 #endif
 
-	dvd_device = set->value("dvd_device", dvd_device).toString();
-	cdrom_device = set->value("cdrom_device", cdrom_device).toString();
 
 	cache_for_files = set->value("cache_for_files", cache_for_files).toInt();
 	cache_for_streams = set->value("cache_for_streams", cache_for_streams).toInt();
@@ -775,7 +795,7 @@ void Preferences::load() {
 
 	use_slices = set->value("use_slices", use_slices ).toBool();
 
-	vcd_initial_title = set->value("vcd_initial_title", vcd_initial_title ).toInt();
+
 
 
 	mplayer_additional_options = set->value("mplayer_additional_options", mplayer_additional_options).toString();
@@ -815,9 +835,6 @@ void Preferences::load() {
 
 	change_video_equalizer_on_startup = set->value("change_video_equalizer_on_startup", change_video_equalizer_on_startup).toBool();
 
-#ifdef Q_OS_WIN
-	enable_audiocd_on_windows = set->value("enable_audiocd_on_windows", enable_audiocd_on_windows).toBool();
-#endif
 
 
 
@@ -838,6 +855,24 @@ void Preferences::load() {
 	use_short_pathnames = set->value("use_short_pathnames", use_short_pathnames).toBool();
 
 	set->endGroup();
+
+
+    /* ***************
+       Drives (CD/DVD)
+       *************** */
+
+	set->beginGroup( "drives");
+
+	dvd_device = set->value("dvd_device", dvd_device).toString();
+	cdrom_device = set->value("cdrom_device", cdrom_device).toString();
+
+#ifdef Q_OS_WIN
+	enable_audiocd_on_windows = set->value("enable_audiocd_on_windows", enable_audiocd_on_windows).toBool();
+#endif
+
+	vcd_initial_title = set->value("vcd_initial_title", vcd_initial_title ).toInt();
+
+	set->endGroup(); // drives
 
 
     /* **************
