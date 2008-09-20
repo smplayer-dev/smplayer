@@ -1267,32 +1267,32 @@ Konfigurazio morroia ikusko da orain, egin ahal izan dezazun.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3809"/>
+        <location filename="../basegui.cpp" line="3810"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3810"/>
+        <location filename="../basegui.cpp" line="3811"/>
         <source>Exit code: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3827"/>
+        <location filename="../basegui.cpp" line="3828"/>
         <source>MPlayer failed to start.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3828"/>
+        <location filename="../basegui.cpp" line="3829"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3830"/>
+        <location filename="../basegui.cpp" line="3831"/>
         <source>MPlayer has crashed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3831"/>
+        <location filename="../basegui.cpp" line="3832"/>
         <source>See the log for more info.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1438,42 +1438,42 @@ Konfigurazio morroia ikusko da orain, egin ahal izan dezazun.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../corelib/core.cpp" line="2131"/>
+        <location filename="../corelib/core.cpp" line="2135"/>
         <source>Brightness: %1</source>
         <translation>Disdira: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2146"/>
+        <location filename="../corelib/core.cpp" line="2150"/>
         <source>Contrast: %1</source>
         <translation>Kontrastea: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2160"/>
+        <location filename="../corelib/core.cpp" line="2164"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2174"/>
+        <location filename="../corelib/core.cpp" line="2178"/>
         <source>Hue: %1</source>
         <translation>Nabardura: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2188"/>
+        <location filename="../corelib/core.cpp" line="2192"/>
         <source>Saturation: %1</source>
         <translation>Saturazioa: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2308"/>
+        <location filename="../corelib/core.cpp" line="2312"/>
         <source>Volume: %1</source>
         <translation>Bolumena: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="3078"/>
+        <location filename="../corelib/core.cpp" line="3082"/>
         <source>Zoom: %1</source>
         <translation>Zooma: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2427"/>
+        <location filename="../corelib/core.cpp" line="2431"/>
         <source>Font scale: %1</source>
         <translation>Letra-tipo eskala: %1</translation>
     </message>
@@ -3636,7 +3636,7 @@ Aukera zerrendak zenbait hizkuntzetarako espresio erregularrak dakartza.</transl
 <context>
     <name>PrefGeneral</name>
     <message>
-        <location filename="../prefgeneral.cpp" line="556"/>
+        <location filename="../prefgeneral.cpp" line="561"/>
         <source>General</source>
         <translation>Orokorra</translation>
     </message>
@@ -3656,172 +3656,172 @@ Aukera zerrendak zenbait hizkuntzetarako espresio erregularrak dakartza.</transl
         <translation>Irteera kontrolatzaileak</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="235"/>
+        <location filename="../prefgeneral.ui" line="191"/>
         <source>Media settings</source>
         <translation>Euskarri ezarpenak</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="639"/>
+        <location filename="../prefgeneral.cpp" line="637"/>
         <source>Start videos in fullscreen</source>
         <translation>Hasi bideoak pantaila-osoan</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="643"/>
+        <location filename="../prefgeneral.cpp" line="641"/>
         <source>Disable screensaver</source>
         <translation>Ezgaitu pantaila-babeslea</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="105"/>
+        <location filename="../prefgeneral.cpp" line="88"/>
         <source>Select the mplayer executable</source>
         <translation>Hautatu mplayer exekutagarria</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="107"/>
+        <location filename="../prefgeneral.cpp" line="90"/>
         <source>Executables</source>
         <translation>Exekutagarriak</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="109"/>
+        <location filename="../prefgeneral.cpp" line="92"/>
         <source>All files</source>
         <translation>Fitxategi guztiak</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="111"/>
+        <location filename="../prefgeneral.cpp" line="94"/>
         <source>Select a directory</source>
         <translation>Hautatu direktorio bat</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="558"/>
+        <location filename="../prefgeneral.cpp" line="563"/>
         <source>MPlayer executable</source>
         <translation>MPlayer exekutagarria</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="563"/>
+        <location filename="../prefgeneral.cpp" line="568"/>
         <source>Here you must specify the mplayer executable that smplayer will use.&lt;br&gt;smplayer requires at least mplayer 1.0rc1 (svn recommended).&lt;br&gt;&lt;b&gt;If this setting is wrong, smplayer won&apos;t be able to play anything!&lt;/b&gt;</source>
         <translation>Hemen smplayer-ek erabili behar duen mplayer exekutagarria ezarri behar duzu.&lt;br&gt;smplayer-ek behintzat mplayer 1.0.rc1 behar du (svn bertsioa gomendatzen da).&lt;br&gt;&lt;b&gt;Ezarpen hau okerra bada smplayer ez da ezer erreproduzitzeko gai izango!&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="565"/>
+        <location filename="../prefgeneral.cpp" line="570"/>
         <source>Screenshots folder</source>
         <translation>Pantaila-argazki karpeta</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="568"/>
+        <location filename="../prefgeneral.cpp" line="573"/>
         <source>Here you can specify a folder where the screenshots taken by smplayer will be stored. If this field is empty the screenshot feature will be disabled.</source>
         <translation>HEmen smplayer-ek ateratzen dituen pantaila argazkiak gorrdeko dire karpeta ezarri dezakezu. Aukera hau hutsik badago pantaila-argazkiak egiteko aukera ezgaiturik egongo da.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="570"/>
+        <location filename="../prefgeneral.cpp" line="575"/>
         <source>Video output driver</source>
         <translation>Bideo irteera kontrolatzailea</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="572"/>
+        <location filename="../prefgeneral.cpp" line="577"/>
         <source>Select the video output driver. Usually xv (linux) and directx (windows) provide the best performance.</source>
         <translation>Hautatu erabiliko den bideo kontrolagailua. Normalean xv (linux) eta directx (Windows) dira perfomantzia hoberena lortuko dutenak.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="574"/>
+        <location filename="../prefgeneral.cpp" line="579"/>
         <source>Audio output driver</source>
         <translation>Audio irteera kontrolatzailea</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="575"/>
+        <location filename="../prefgeneral.cpp" line="580"/>
         <source>Select the audio output driver.</source>
         <translation>Hautatu audio irteera kontrolatzailea.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="584"/>
+        <location filename="../prefgeneral.cpp" line="582"/>
         <source>Remember settings</source>
         <translation>Gogogrratu ezarpenak</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="587"/>
+        <location filename="../prefgeneral.cpp" line="585"/>
         <source>Usually smplayer will remember the settings for each file you play (audio track selected, volume, filters...). Uncheck this option if you don&apos;t like this feature.</source>
         <translation>Normalean smplayer-ek erreproduzitzen duzun fitxategi bakoitzaren ezarpenak gogoratuko duitu (hautatutako audio pista, bolumena, iragazkiak...). Haukera hau ezgaitu ez baduzu ezaugarri hau erabili nahi.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="591"/>
+        <location filename="../prefgeneral.cpp" line="589"/>
         <source>If you check this option, smplayer will play all files from the beginning.</source>
         <translation>Aukera hau hautatuaz smplayer-ek fitxategiak hasieratik erreproduzituko ditu.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="703"/>
+        <location filename="../prefgeneral.cpp" line="701"/>
         <source>Preferred audio language</source>
         <translation>Hobetsiriko audio hizkuntza</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="711"/>
+        <location filename="../prefgeneral.cpp" line="709"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Hemen audio korronteentzat hobetsiriko hizkuntza zehaztu dezakezu. Audio korronte anitz dituen euskarri  bat aurkitzean, smplayer hobetsiriko hizkuntza erabiltzen saiatuko da.&lt;br&gt;Honek, DVD-ak edo mkv fitxategiak bezala, audio korronteei buruz informazioa eskeintzen duten euskarriekin funtzionatuko du.&lt;br&gt;Eremu hoek espresio erregularrak onartzen ditu. Adibidez &lt;b&gt;es|esp|spa&lt;/b&gt; erabiliaz &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; edo &lt;i&gt;spa&lt;/i&gt;-rekin parekatzen den audio pista erabiliko da.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="713"/>
+        <location filename="../prefgeneral.cpp" line="711"/>
         <source>Preferred subtitle language</source>
         <translation>Hobetsiriko azpititutlu hizkuntza</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="721"/>
+        <location filename="../prefgeneral.cpp" line="719"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Hemen azpititulu korronteentzat hobetsiriko hizkuntza zehaztu dezakezu. Azpititulu korronte anitz dituen euskarri  bat aurkitzean, smplayer hobetsiriko hizkuntza erabiltzen saiatuko da.&lt;br&gt;Honek, DVD-ak edo mkv fitxategiak bezala,  azpititulu korronteei buruz informazioa eskeintzen duten euskarriekin funtzionatuko du.&lt;br&gt;Eremu hoek espresio erregularrak onartzen ditu. Adibidez &lt;b&gt;es|esp|spa&lt;/b&gt; erabiliaz &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; edo &lt;i&gt;spa&lt;/i&gt;-rekin parekatzen den azpititulu korrontea erabiliko da.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="605"/>
+        <location filename="../prefgeneral.cpp" line="603"/>
         <source>Software video equalizer</source>
         <translation>Software bideo ekualizadorea</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="609"/>
+        <location filename="../prefgeneral.cpp" line="607"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>Auekra hau hautatu dezakezu zure txartel edo hautatutako bideo kontrolatzaileak ez badu bideo ekualizatzailea onartzen.&lt;br&gt;&lt;b&gt;Oharra:&lt;/b&gt; aukea hau zenbait bideo irteerakontrolatzailerekin bateraezina izan daiteke.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="641"/>
+        <location filename="../prefgeneral.cpp" line="639"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>Aukera hau hautaturik dagoenean bideo guztiak pantaila-oso moduan erreproduzituko dira.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="646"/>
+        <location filename="../prefgeneral.cpp" line="644"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option works only in X11 and Windows.</source>
         <translation>Aukera hau hautatu erreproduzitzean pantaila-babeslea ezgaitzeko.&lt;br&gt;Pantaila babeslea berriz abiaarziko da erreproduzitzez amaitzean.&lt;br&gt;&lt;b&gt;Oharra:&lt;/b&gt; Aukaer honek X11 eta windowspean bakarrik funtzionatuko du.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="650"/>
+        <location filename="../prefgeneral.cpp" line="648"/>
         <source>Software volume control</source>
         <translation>Software bolumen kontrola</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="652"/>
+        <location filename="../prefgeneral.cpp" line="650"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>Aukera hau hatutatu soinu txartelarena beharrean software nahaslea erabiltzeko.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="614"/>
+        <location filename="../prefgeneral.cpp" line="612"/>
         <source>Postprocessing quality</source>
         <translation>Postprodukzio kalitatea</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="617"/>
+        <location filename="../prefgeneral.cpp" line="615"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>Postprodukzio dinamiko aldaketak erabilgarri dagoen CPU denbora librearen araberakoak dira. Ezarritako zenbakiak erabiliko den maila altuena. Normalean zenbaki handi bat erabili dezakezu.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="670"/>
+        <location filename="../prefgeneral.cpp" line="668"/>
         <source>Change volume</source>
         <translation>Aldatu bolumena</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="673"/>
+        <location filename="../prefgeneral.cpp" line="671"/>
         <source>If checked, SMPlayer will remember the volume for every file and will restore it when played again. For new files the default volume will be used.</source>
         <translation>MArkaturik abdago SMPlayer-ek fitxategio bakoitzeko bolumena gogoratu dezake berriz erreproduzitzea berrezartzeko. Fitxategi berrientzat bolumen lehenetsia erabiliko da.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="708"/>
+        <location filename="../prefgeneral.ui" line="664"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="578"/>
+        <location filename="../prefgeneral.ui" line="534"/>
         <source>&amp;Change volume on every file</source>
         <translation>&amp;Aldatu bolumena fitxategi bakoitzean</translation>
     </message>
@@ -3836,107 +3836,107 @@ Aukera zerrendak zenbait hizkuntzetarako espresio erregularrak dakartza.</transl
         <translation>&amp;Pantaila-argazkiak gordetzeko karpeta:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="118"/>
+        <location filename="../prefgeneral.ui" line="110"/>
         <source>V&amp;ideo:</source>
         <translation>&amp;Bideoa:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="899"/>
+        <location filename="../prefgeneral.ui" line="855"/>
         <source>&amp;Audio:</source>
         <translation>&amp;Audioa:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="281"/>
+        <location filename="../prefgeneral.ui" line="237"/>
         <source>&amp;Remember settings for all files (audio track, subtitles...)</source>
         <translation>&amp;Gogoratu fitxatgi guztien ezarpenak (audio pista, azpitituluak...)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="918"/>
+        <location filename="../prefgeneral.ui" line="874"/>
         <source>Su&amp;btitles:</source>
         <translation>Az&amp;pititutluak:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="369"/>
+        <location filename="../prefgeneral.ui" line="325"/>
         <source>&amp;Quality:</source>
         <translation>&amp;Kalitatea:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="460"/>
+        <location filename="../prefgeneral.ui" line="416"/>
         <source>Start videos in &amp;fullscreen</source>
         <translation>Hasi bideoak &amp;pantaila-osoan</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="467"/>
+        <location filename="../prefgeneral.ui" line="423"/>
         <source>Disable &amp;screensaver</source>
         <translation>Ezgaitu &amp;pantaila-babeslea</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="679"/>
+        <location filename="../prefgeneral.ui" line="635"/>
         <source>&amp;Default volume:</source>
         <translation>&amp;Lehenetsiriko bolumena:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="520"/>
+        <location filename="../prefgeneral.ui" line="476"/>
         <source>Use s&amp;oftware volume control</source>
         <translation>Erabili s&amp;oftware bidezko bolumen kontrola</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="543"/>
+        <location filename="../prefgeneral.ui" line="499"/>
         <source>Ma&amp;x. Amplification:</source>
         <translation>Ge&amp;h. anplifikazioa:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="727"/>
+        <location filename="../prefgeneral.ui" line="683"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
         <translation>&amp;AC3/DTS S/PDIF bidez</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="623"/>
+        <location filename="../prefgeneral.cpp" line="621"/>
         <source>Direct rendering</source>
         <translation>Errenderizazio zuzena</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="626"/>
+        <location filename="../prefgeneral.cpp" line="624"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>Hautatua badago errenderizaio zuzena (ez dute bideo irteera eta kodek guztiek onatzen)&lt;br&gt;&lt;b&gt;ABISUA:&lt;/b&gt; OSD/SUB hondatzea eragin dezake!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="628"/>
+        <location filename="../prefgeneral.cpp" line="626"/>
         <source>Double buffering</source>
         <translation>Buferreratze bikoitza</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="439"/>
+        <location filename="../prefgeneral.ui" line="395"/>
         <source>D&amp;irect rendering</source>
         <translation>Errender&amp;izazio zuzena</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="446"/>
+        <location filename="../prefgeneral.ui" line="402"/>
         <source>Dou&amp;ble buffering</source>
         <translation>&amp;Buferreratze bikoitza</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="631"/>
+        <location filename="../prefgeneral.cpp" line="629"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>Buferreratze bikoitzak dir-dir arazoak konpontzen ditu memorian bi marko gorde eta bat dekodetzen den bitartean bestea bistaratzen. Ezgaituaz gero OSD-en oker eragin dezake, baina hala ere OSD dir-dira konpontzen du.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="349"/>
+        <location filename="../prefgeneral.ui" line="305"/>
         <source>&amp;Enable postprocessing by default</source>
         <translation>Gaitu postprozesatz&amp;ea lehenespen bezala</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="571"/>
+        <location filename="../prefgeneral.ui" line="527"/>
         <source>Volume &amp;normalization by default</source>
         <translation>Bolumen &amp;normalizazioa lehenespen bezala</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="593"/>
+        <location filename="../prefgeneral.cpp" line="591"/>
         <source>Close when finished</source>
         <translation>Itxi amaitzean</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="595"/>
+        <location filename="../prefgeneral.cpp" line="593"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>Aukera hau gaizean leiho nagusia automatikoki itxiko da fitxategia/erreprodukzi-zerrenda amaitzean.</translation>
     </message>
@@ -3946,329 +3946,334 @@ Aukera zerrendak zenbait hizkuntzetarako espresio erregularrak dakartza.</transl
         <translation type="obsolete">I&amp;txi amaitzean</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="74"/>
+        <location filename="../prefgeneral.cpp" line="68"/>
         <source>2 (Stereo)</source>
         <translation>2 (Stereo)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="75"/>
+        <location filename="../prefgeneral.cpp" line="69"/>
         <source>4 (4.0 Surround)</source>
         <translation>4(4.0 Ingurunea)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="76"/>
+        <location filename="../prefgeneral.cpp" line="70"/>
         <source>6 (5.1 Surround)</source>
         <translation>6(5.1 Ingurunea)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="742"/>
+        <location filename="../prefgeneral.ui" line="698"/>
         <source>C&amp;hannels by default:</source>
         <translation>Le&amp;henetsiriko kanalak:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="298"/>
+        <location filename="../prefgeneral.ui" line="254"/>
         <source>&amp;Pause when minimized</source>
         <translation>&amp;Pausatu txikitzean</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="597"/>
+        <location filename="../prefgeneral.cpp" line="595"/>
         <source>Pause when minimized</source>
         <translation>Pausatu txikitzean</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="600"/>
+        <location filename="../prefgeneral.cpp" line="598"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, play will be resumed.</source>
         <translation>Aukera hau gaitzean fitxategia oausatu egingo da leiho nagusi ezkutatzean. Leiho nagusia berrezartzean erreprodukzioa jarraituko da.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="611"/>
+        <location filename="../prefgeneral.cpp" line="609"/>
         <source>Enable postprocessing by default</source>
         <translation>Gaitu postprozesatzea lehenespen bezala</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="654"/>
+        <location filename="../prefgeneral.cpp" line="652"/>
         <source>Max. Amplification</source>
         <translation>Geh. anplifikazioa</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="664"/>
+        <location filename="../prefgeneral.cpp" line="662"/>
         <source>AC3/DTS pass-through S/PDIF</source>
         <translation>AC3/DTS S/PDIF bidez</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="667"/>
+        <location filename="../prefgeneral.cpp" line="665"/>
         <source>Volume normalization by default</source>
         <translation>Bolumen normalizazioa lehenespen bezala</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="668"/>
+        <location filename="../prefgeneral.cpp" line="666"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>Soinua hondfatu gabe bolumena guztiz igotzen du.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="683"/>
+        <location filename="../prefgeneral.cpp" line="681"/>
         <source>Default volume</source>
         <translation>Lehenetsiriko bolumena</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="684"/>
+        <location filename="../prefgeneral.cpp" line="682"/>
         <source>Sets the initial volume that new files will use.</source>
         <translation>Fitxategi berriekin erabiliko bolumena ezartzen du.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="686"/>
+        <location filename="../prefgeneral.cpp" line="684"/>
         <source>Channels by default</source>
         <translation>Lehenetsiriko kanalak</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="659"/>
+        <location filename="../prefgeneral.cpp" line="657"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>Ezarri gehienezko anplifikazio maila portzentaia (lehenetsia: 110). 200-eko balio batek bolumena uneko mailaren bikoitzera igo ahal izango duzu. 100-etik beherako balioekin hasierako bolumena (%100 dena) mugatik gora egongo da, eta adibidez OSD ezingo da behar bezala bistarazi.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="665"/>
+        <location filename="../prefgeneral.cpp" line="663"/>
         <source>Uses hardware AC3 passthrough</source>
         <translation>Erabiltzailearen AC3 hardwarearen bidez</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="695"/>
+        <location filename="../prefgeneral.cpp" line="693"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. NOTE: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation>Erreprodukzio kanal kopuru eskaera. MPlayer-ek deskodetzaileari audioa ezarri bezainbeste kaneltan dekodetzea eskatuko dio. Orduan dekodetzaileak eskaera betetzen saiatuko da. Hau normalea AC3 audioa duten bideoak (DVDak antzera) erreproduzitzean bakarrik da garrantzitsua. Kasu honetan liba52-k dekodetzea egingo du eta audioa eskatutako kanal kopuruan bereiziko du. OHARRA: Aukera hau codec (AC3 bakarrik), iragazkia (inguratzea) eta audio irteera kontrolatzaileak (OSS behintzat) lortzen dute.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="612"/>
+        <location filename="../prefgeneral.cpp" line="610"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>Posprozesatzea erabiliko da irekitzen diren fitxategi berriekin.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="723"/>
+        <location filename="../prefgeneral.cpp" line="721"/>
         <source>Audio track</source>
         <translation>Audio pista</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="727"/>
+        <location filename="../prefgeneral.cpp" line="725"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Fitxategi berriak erreproduzitzean erabiliko den lehenetsiriko audio pista ezartzen du. Pista ez badago, lehenengoa erabiliko da. &lt;br&gt;&lt;b&gt;Oharra:&lt;/b&gt;&lt;i&gt;&quot;hobetsiriko audio hizkuntza&quot;&lt;/i&gt; aukera lehenesten da honen aurreran.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="729"/>
+        <location filename="../prefgeneral.cpp" line="727"/>
         <source>Subtitle track</source>
         <translation>Azpititutlu pista</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="733"/>
+        <location filename="../prefgeneral.cpp" line="731"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Fitxategi berriak erreproduzitzean erabiliko den lehenetsiriko azpitulu pista ezartzen du. Pista ez badago, lehenengoa erabiliko da. &lt;br&gt;&lt;b&gt;Oharra:&lt;/b&gt;&lt;i&gt;&quot;hobetsiriko azpititulu hizkuntza&quot;&lt;/i&gt; aukera lehenesten da honen aurreran.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1027"/>
+        <location filename="../prefgeneral.ui" line="983"/>
         <source>Or choose a track number:</source>
         <translation>Edo hautatu pista zenbakia:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="968"/>
+        <location filename="../prefgeneral.ui" line="924"/>
         <source>Audi&amp;o:</source>
         <translation>Audi&amp;oa:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="934"/>
+        <location filename="../prefgeneral.ui" line="890"/>
         <source>Preferred language:</source>
         <translation>Hiobetsiriko hizkuntza:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="832"/>
+        <location filename="../prefgeneral.ui" line="788"/>
         <source>Preferre&amp;d audio and subtitles</source>
         <translation>Hobe&amp;tsiriko audio eta azpitituluak</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="981"/>
+        <location filename="../prefgeneral.ui" line="937"/>
         <source>&amp;Subtitle:</source>
         <translation>A&amp;zpititutluak:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="121"/>
+        <location filename="../prefgeneral.cpp" line="104"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Hemen audio eta azpititulu korronteentzat hobetsiriko hizkuntza zehaztu dezakezu. Azpititulu edo audio korronte anitz dituen euskarri  bat aurkitzean, smplayer hobetsiriko hizkuntza erabiltzen saiatuko da.&lt;br&gt;Honek, DVD-ak edo mkv fitxategiak bezala,  azpititulu eta audio korronteei buruz informazioa eskeintzen duten euskarriekin funtzionatuko du.&lt;br&gt;Eremu hoek espresio erregularrak onartzen ditu. Adibidez &lt;b&gt;es|esp|spa&lt;/b&gt; erabiliaz &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; edo &lt;i&gt;spa&lt;/i&gt;-rekin parekatzen den korrontea erabiliko da.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="844"/>
+        <location filename="../prefgeneral.ui" line="800"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="778"/>
+        <location filename="../prefgeneral.ui" line="734"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>Abiadura handiko erre&amp;produkzioa tonua aldatu gabe</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="697"/>
+        <location filename="../prefgeneral.cpp" line="695"/>
         <source>High speed playback without altering pitch</source>
         <translation>Abiadura handiko erreprodukzioa tonua aldatu gabe</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="699"/>
+        <location filename="../prefgeneral.cpp" line="697"/>
         <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
         <translation>Erreprodukzio abiasura tonua aldatu gabe aldatzeko auekra ematen du. Behintzat MPlyaer dev-SVN-r24924 behar du.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="675"/>
+        <location filename="../prefgeneral.cpp" line="673"/>
         <source>Change volume just before playing</source>
         <translation>Aldatu bolumena erreproduzitzen hasi aurretik</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="681"/>
+        <location filename="../prefgeneral.cpp" line="679"/>
         <source>If this option is checked the initial volume will be set by using the &lt;i&gt;-volume&lt;/i&gt; option in MPlayer.&lt;br&gt; &lt;b&gt;WARNING: THE OFFICIAL MPLAYER DOESN&apos;T HAVE THAT &lt;i&gt;-volume&lt;/i&gt; OPTION, YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON&apos;T PLAY ANYTHING.&lt;/b&gt;</source>
         <translation>Auekra hau hautatzean hasierako bolumena MPlayer-eko &lt;i&gt;-volume&lt;/i&gt; aukerra erabiliaz ezarriko da.&lt;br&gt;&lt;b&gt;OHARA: MPLAYER OFIZIALA EZ DU &lt;i&gt;-volume&gt;&lt;/i&gt; AUKERA HAU, ADABAKITUTAKO BAT BEHAR DUZU, BESTELA MPLAYER-EK HUTS EGIN ETA EZ DU EZER ERREPRODUZITUKO.&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="322"/>
+        <location filename="../prefgeneral.ui" line="278"/>
         <source>&amp;Video</source>
         <translation>&amp;Bideoa</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="334"/>
+        <location filename="../prefgeneral.ui" line="290"/>
         <source>Use s&amp;oftware video equalizer</source>
         <translation>S&amp;oftware bideo ekualizadorea erabili</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="488"/>
+        <location filename="../prefgeneral.ui" line="444"/>
         <source>A&amp;udio</source>
         <translation>A&amp;udioa</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="500"/>
+        <location filename="../prefgeneral.ui" line="456"/>
         <source>Volume</source>
         <translation>Bolumena<byte value="x9"/></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="602"/>
+        <location filename="../prefgeneral.cpp" line="600"/>
         <source>Video</source>
         <translation type="unfinished">Bideoa</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="648"/>
+        <location filename="../prefgeneral.cpp" line="646"/>
         <source>Audio</source>
         <translation type="unfinished">Audioa</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="701"/>
+        <location filename="../prefgeneral.cpp" line="699"/>
         <source>Preferred audio and subtitles</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="80"/>
+        <location filename="../prefgeneral.cpp" line="74"/>
         <source>None</source>
         <translation type="unfinished">Batez</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="81"/>
+        <location filename="../prefgeneral.cpp" line="75"/>
         <source>Lowpass5</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="82"/>
+        <location filename="../prefgeneral.cpp" line="76"/>
         <source>Yadif (normal)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="83"/>
+        <location filename="../prefgeneral.cpp" line="77"/>
         <source>Yadif (double framerate)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="84"/>
+        <location filename="../prefgeneral.cpp" line="78"/>
         <source>Linear Blend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="85"/>
+        <location filename="../prefgeneral.cpp" line="79"/>
         <source>Kerndeint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="402"/>
+        <location filename="../prefgeneral.ui" line="358"/>
         <source>Dei&amp;nterlace by default:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="619"/>
+        <location filename="../prefgeneral.cpp" line="617"/>
         <source>Deinterlace by default</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="621"/>
+        <location filename="../prefgeneral.cpp" line="619"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="589"/>
+        <location filename="../prefgeneral.cpp" line="587"/>
         <source>Remember time position</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="274"/>
+        <location filename="../prefgeneral.ui" line="230"/>
         <source>Remember &amp;time position</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="612"/>
+        <location filename="../prefgeneral.ui" line="568"/>
         <source>Change volume just before p&amp;laying</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="661"/>
+        <location filename="../prefgeneral.cpp" line="659"/>
         <source>Enable the audio equalizer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="662"/>
+        <location filename="../prefgeneral.cpp" line="660"/>
         <source>Check this option if you want to use the audio equalizer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="720"/>
+        <location filename="../prefgeneral.ui" line="676"/>
         <source>&amp;Enable the audio equalizer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="633"/>
+        <location filename="../prefgeneral.cpp" line="631"/>
         <source>Draw video using slices</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="637"/>
+        <location filename="../prefgeneral.cpp" line="635"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="453"/>
+        <location filename="../prefgeneral.ui" line="409"/>
         <source>Dra&amp;w video using slices</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="291"/>
+        <location filename="../prefgeneral.ui" line="247"/>
         <source>&amp;Close when finished playback</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="91"/>
-        <source>&lt;Default&gt;</source>
+        <location filename="../prefgeneral.cpp" line="218"/>
+        <source>fast</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="578"/>
-        <source>Screen</source>
+        <location filename="../prefgeneral.cpp" line="214"/>
+        <source>slow</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="108"/>
-        <source>&amp;Screen:</source>
+        <location filename="../prefgeneral.cpp" line="211"/>
+        <source>fastest</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="581"/>
-        <source>When using %1 as video driver, the video can only be displayed on one screen. This option allows to select which one will display the video.</source>
+        <location filename="../prefgeneral.cpp" line="219"/>
+        <source>fast - ATI cards</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="241"/>
+        <source>User defined...</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
