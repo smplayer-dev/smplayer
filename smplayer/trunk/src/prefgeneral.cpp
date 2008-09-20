@@ -40,17 +40,6 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 	channels_combo->addItem( "4", MediaSettings::ChSurround );
 	channels_combo->addItem( "6", MediaSettings::ChFull51 );
 
-#if USE_ADAPTER
-	connect(vo_combo, SIGNAL(currentIndexChanged(QString)), 
-            this, SLOT(vo_combo_changed(QString)));
-	connect(vo_combo, SIGNAL(editTextChanged(QString)), 
-            this, SLOT(vo_combo_changed(QString)));
-#else
-	screen_label->hide();
-	screen_combo->hide();
-	space_label->hide();
-#endif
-
 	retranslateStrings();
 }
 
@@ -85,17 +74,6 @@ void PrefGeneral::retranslateStrings() {
 	deinterlace_combo->addItem( tr("Kerndeint"), MediaSettings::Kerndeint );
 	deinterlace_combo->setCurrentIndex(deinterlace_item);
 
-#if USE_ADAPTER
-	int screen_item = screen_combo->currentIndex();
-	screen_combo->clear();
-	screen_combo->addItem( tr("<Default>"), -1);
-	screen_combo->addItem( "1", 1);
-	screen_combo->addItem( "2", 2);
-	screen_combo->addItem( "3", 3);
-	screen_combo->addItem( "4", 4);
-	screen_combo->setCurrentIndex(screen_item);
-#endif
-
     // Icons
 	/*
     resize_window_icon->setPixmap( Images::icon("resize_window") );
@@ -128,11 +106,6 @@ void PrefGeneral::setData(Preferences * pref) {
 	setScreenshotDir( pref->screenshot_directory );
 	setVO( pref->vo );
 	setAO( pref->ao );
-
-#if USE_ADAPTER
-	setAdapter( pref->adapter );
-#endif
-
 	setRememberSettings( !pref->dont_remember_media_settings );
 	setRememberTimePos( !pref->dont_remember_time_pos );
 	setAudioLang( pref->audio_lang );
@@ -182,10 +155,6 @@ void PrefGeneral::getData(Preferences * pref) {
 	TEST_AND_SET(pref->screenshot_directory, screenshotDir());
 	TEST_AND_SET(pref->vo, VO());
     TEST_AND_SET(pref->ao, AO());
-
-#if USE_ADAPTER
-	TEST_AND_SET( pref->adapter, adapter() );
-#endif
 
 	bool dont_remember_ms = !rememberSettings();
     TEST_AND_SET(pref->dont_remember_media_settings, dont_remember_ms);
@@ -266,11 +235,6 @@ QString PrefGeneral::screenshotDir() {
 
 void PrefGeneral::setVO( QString vo_driver ) {
 	vo_combo->setCurrentText( vo_driver );
-
-#if USE_ADAPTER
-	// For some reason the signal is not send, so force a check
-	vo_combo_changed(vo_driver);
-#endif
 }
 
 void PrefGeneral::setAO( QString ao_driver ) {
@@ -284,18 +248,6 @@ QString PrefGeneral::VO() {
 QString PrefGeneral::AO() {
 	return ao_combo->currentText();
 }
-
-#if USE_ADAPTER
-void PrefGeneral::setAdapter(int n) {
-	int idx = screen_combo->findData(n);
-	if (idx < 0) idx = 0;
-	screen_combo->setCurrentIndex(idx);
-}
-
-int PrefGeneral::adapter() {
-	return screen_combo->itemData(screen_combo->currentIndex()).toInt();
-}
-#endif
 
 void PrefGeneral::setRememberSettings(bool b) {
 	remember_all_check->setChecked(b);
@@ -535,21 +487,6 @@ Preferences::OptionState PrefGeneral::scaleTempoFilter() {
 	return scaletempo_combo->state();
 }
 
-#if USE_ADAPTER
-void PrefGeneral::vo_combo_changed(QString text) {
-	qDebug("PrefGeneral::vo_combo_changed: %s", text.toUtf8().constData());
-
-	bool b = (text.startsWith(OVERLAY_VO));
-
-	screen_label->setEnabled(b);
-	screen_combo->setEnabled(b);
-
-	screen_label->setShown(b);
-	screen_combo->setShown(b);
-	space_label->setShown(b);
-}
-#endif
-
 void PrefGeneral::createHelp() {
 	clearHelp();
 
@@ -573,13 +510,6 @@ void PrefGeneral::createHelp() {
 
 	setWhatsThis(ao_combo, tr("Audio output driver"),
 		tr("Select the audio output driver.") );
-
-#if USE_ADAPTER
-	setWhatsThis(screen_combo, tr("Screen"),
-		tr("When using %1 as video driver, the video can only be "
-           "displayed on one screen. This option allows to select which "
-           "one will display the video.").arg(OVERLAY_VO) );
-#endif
 
 	setWhatsThis(remember_all_check, tr("Remember settings"),
 		tr("Usually smplayer will remember the settings for each file you "
