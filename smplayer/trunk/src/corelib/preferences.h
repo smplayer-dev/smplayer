@@ -60,26 +60,6 @@ public:
 	unsigned int color_key;
 #endif
 
-	// Subtitles font
-	bool use_fontconfig;
-	QString font_file;
-	QString font_name;
-	QString subcp; // -subcp
-	int font_autoscale; // -subfont-autoscale
-	bool use_ass_subtitles;
-	bool autoload_sub;
-	int subfuzziness;
-	unsigned int ass_color;
-	unsigned int ass_border_color;
-	QString ass_styles;
-	OptionState change_sub_scale_should_restart;
-
-	bool use_closed_caption_subs;
-	bool use_forced_subs_only;
-
-	// Use the new sub_vob, sub_demux and sub_file commands
-	// instead of sub_select
-	OptionState use_new_sub_commands; 
 
 	int osd;
 
@@ -251,7 +231,7 @@ public:
 	bool enable_audiocd_on_windows;
 #endif
 
-	bool show_font_scale_options_in_preferences;
+
 
 	//! Close the main window when a file or playlist finish
 	bool close_on_finish;
@@ -338,6 +318,34 @@ public:
 	int floating_control_margin;
 	int floating_control_width;
 	bool floating_control_animated;
+
+
+	/* ************
+	   Subtitle stuff
+	   ************** */
+
+	QString font_file;
+	QString font_name;
+	bool use_fontconfig;
+	QString subcp; // -subcp
+	int font_autoscale; // -subfont-autoscale
+	int subfuzziness;
+	bool autoload_sub;
+
+	bool use_ass_subtitles;
+	unsigned int ass_color;
+	unsigned int ass_border_color;
+	QString ass_styles;
+
+	bool use_closed_caption_subs;
+	bool use_forced_subs_only;
+
+	//! Use the new sub_vob, sub_demux and sub_file commands
+	//! instead of sub_select
+	OptionState use_new_sub_commands; 
+	OptionState change_sub_scale_should_restart;
+
+	bool show_font_scale_options_in_preferences;
 };
 
 #endif
