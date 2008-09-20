@@ -123,7 +123,16 @@ SubData SubTracks::findItem( SubData::Type t, int ID ) {
 }
 
 SubData SubTracks::itemAt( int n ) {
-	return subs[n];
+	if (n >= 0 && n < subs.count()) {
+		return subs[n];
+	} else {
+		qWarning("SubTracks::itemAt: %d out of range!", n);
+		qWarning("SubTracks::itemAt: returning an empty sub to avoid a crash");
+		qWarning("SubTracks::itemAt: this shouldn't happen, report a bug if you see this");
+
+		SubData empty_sub;
+		return empty_sub;
+	}
 }
 
 bool SubTracks::changeLang( SubData::Type t, int ID, QString lang ) {

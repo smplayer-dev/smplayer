@@ -1,5 +1,12 @@
 [b]Version 0.6.3[/b]:
 
+(2008-09-19)
+ * It seems crashes still happen in the code to select subtitle tracks.
+   The bug hasn't been located yet (the crash is difficult to reproduce)
+   but I have added a new check in a lower level, in the function 
+   SubTracks::itemAt(). Now it checks if the requested item is in range. If
+   it's not valid it will print a warning and return an empty subtitle.
+
 (2008-09-17)
  * Added an icon for the Play/Pause action. (This breaks all icon themes...)
  * Added a new option for smplayer.ini: gui_minimum_width. The width of the
