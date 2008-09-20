@@ -144,6 +144,10 @@ protected:
 	void setScaleTempoFilter(Preferences::OptionState value);
 	Preferences::OptionState scaleTempoFilter();
 
+protected slots:
+	void vo_combo_changed(int);
+	void ao_combo_changed(int);
+
 protected:
 	virtual void retranslateStrings();
 };

@@ -1,5 +1,12 @@
 [b]Version 0.6.3[/b]:
 
+(2008-09-20)
+ * The comboboxes to select the video and audio driver in Preferences->
+   General have changed. Now they are not editable, and only show some
+   of the available drivers (png, jpeg... and so on are not shown). There's
+   also an "User defined" option. If selected, a line edit will appear where
+   the user can type the driver to use (possibly with additional options).
+
 (2008-09-19)
  * It seems crashes still happen in the code to select subtitle tracks.
    The bug hasn't been located yet (the crash is difficult to reproduce)
