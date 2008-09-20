@@ -40,6 +40,11 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 	channels_combo->addItem( "4", MediaSettings::ChSurround );
 	channels_combo->addItem( "6", MediaSettings::ChFull51 );
 
+	connect(vo_combo, SIGNAL(currentIndexChanged(int)),
+            this, SLOT(vo_combo_changed(int)));
+	connect(ao_combo, SIGNAL(currentIndexChanged(int)),
+            this, SLOT(ao_combo_changed(int)));
+
 	retranslateStrings();
 }
 
@@ -193,28 +198,47 @@ void PrefGeneral::getData(Preferences * pref) {
 }
 
 void PrefGeneral::setDrivers(InfoList vo_list, InfoList ao_list) {
+	QString vo;
 	for ( int n = 0; n < vo_list.count(); n++ ) {
-		vo_combo->addItem( vo_list[n].name() );
-		// Add directx:noaccel
-		if ( vo_list[n].name() == "directx" ) {
-			vo_combo->addItem( "directx:noaccel" );
+		vo = vo_list[n].name();
+#ifdef Q_OS_WIN
+		if ( vo == "directx" ) {
+			vo_combo->addItem( "directx (" + tr("fast") + ")", "directx" );
+			vo_combo->addItem( "directx (" + tr("slow") + ")", "directx:noaccel" );
 		}
-		// gl/gl2
-		if (vo_list[n].name() == "gl") {
-			vo_combo->addItem( "gl:yuv=3" );
-			vo_combo->addItem( "gl:yuv=2:force-pbo:ati-hack" );
-			//vo_combo->addItem( "gl:yuv=3:lscale=1" );
+		else
+#else
+		if (vo == "xv") vo_combo->addItem( "xv (" + tr("fastest") + ")", vo);
+		else
+#endif
+		if (vo == "x11") vo_combo->addItem( "x11 (" + tr("slow") + ")", vo);
+		else
+		if (vo == "gl") {
+			vo_combo->addItem( vo, vo);
+			vo_combo->addItem( "gl (" + tr("fast") + ")", "gl:yuv=2:force-pbo");
+			vo_combo->addItem( "gl (" + tr("fast - ATI cards") + ")", "gl:yuv=2:force-pbo:ati-hack");
+			vo_combo->addItem( "gl (yuv)", "gl:yuv=3");
 		}
-		/*
-		if (vo_list[n].name() == "gl2") {
-			vo_combo->addItem( "gl2:yuv=3" );
+		else
+		if (vo == "gl2") {
+			vo_combo->addItem( vo, vo);
+			vo_combo->addItem( "gl2 (yuv)", "gl2:yuv=3");
 		}
-		*/
+		else
+		if (vo == "null" || vo == "png" || vo == "jpeg" || vo == "gif89a" || 
+            vo == "tga" || vo == "pnm" || vo == "md5sum" ) 
+		{
+			; // Nothing to do
+		}
+		else
+		vo_combo->addItem( vo, vo );
 	}
+	vo_combo->addItem( tr("User defined..."), "user_defined" );
 
 	for ( int n = 0; n < ao_list.count(); n++) {
-		ao_combo->addItem( ao_list[n].name() );
+		ao_combo->addItem( ao_list[n].name(), ao_list[n].name() );
 	}
+	ao_combo->addItem( tr("User defined..."), "user_defined" );
 }
 
 void PrefGeneral::setMplayerPath( QString path ) {
@@ -234,19 +258,49 @@ QString PrefGeneral::screenshotDir() {
 }
 
 void PrefGeneral::setVO( QString vo_driver ) {
-	vo_combo->setCurrentText( vo_driver );
+	int idx = vo_combo->findData( vo_driver );
+	if (idx != -1) {
+		vo_combo->setCurrentIndex(idx);
+	} else {
+		vo_combo->setCurrentIndex(vo_combo->findData("user_defined"));
+		vo_user_defined_edit->setText(vo_driver);
+	}
+	vo_combo_changed(vo_combo->currentIndex());
 }
 
 void PrefGeneral::setAO( QString ao_driver ) {
-	ao_combo->setCurrentText( ao_driver );
+	int idx = ao_combo->findData( ao_driver );
+	if (idx != -1) {
+		ao_combo->setCurrentIndex(idx);
+	} else {
+		ao_combo->setCurrentIndex(ao_combo->findData("user_defined"));
+		ao_user_defined_edit->setText(ao_driver);
+	}
+	ao_combo_changed(ao_combo->currentIndex());
 }
 
 QString PrefGeneral::VO() {
-	return vo_combo->currentText();
+	QString vo = vo_combo->itemData(vo_combo->currentIndex()).toString();
+	if (vo == "user_defined") {
+		vo = vo_user_defined_edit->text();
+		if (vo.isEmpty()) {
+			vo = vo_combo->itemData(0).toString();
+			qDebug("PrefGeneral::VO: user defined vo is empty, using %s", vo.toUtf8().constData());
+		}
+	}
+	return vo;
 }
 
 QString PrefGeneral::AO() {
-	return ao_combo->currentText();
+	QString ao = ao_combo->itemData(ao_combo->currentIndex()).toString();
+	if (ao == "user_defined") {
+		ao = ao_user_defined_edit->text();
+		if (ao.isEmpty()) {
+			ao = ao_combo->itemData(0).toString();
+			qDebug("PrefGeneral::AO: user defined ao is empty, using %s", ao.toUtf8().constData());
+		}
+	}
+	return ao;
 }
 
 void PrefGeneral::setRememberSettings(bool b) {
@@ -485,6 +539,20 @@ void PrefGeneral::setScaleTempoFilter(Preferences::OptionState value) {
 
 Preferences::OptionState PrefGeneral::scaleTempoFilter() {
 	return scaletempo_combo->state();
+}
+
+void PrefGeneral::vo_combo_changed(int idx) {
+	qDebug("PrefGeneral::vo_combo_changed: %d", idx);
+	bool visible = (vo_combo->itemData(idx).toString() == "user_defined");
+	vo_user_defined_edit->setShown(visible);
+	vo_user_defined_edit->setFocus();
+}
+
+void PrefGeneral::ao_combo_changed(int idx) {
+	qDebug("PrefGeneral::ao_combo_changed: %d", idx);
+	bool visible = (ao_combo->itemData(idx).toString() == "user_defined");
+	ao_user_defined_edit->setShown(visible);
+	ao_user_defined_edit->setFocus();
 }
 
 void PrefGeneral::createHelp() {
