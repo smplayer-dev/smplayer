@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="es">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -4280,27 +4281,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="218"/>
         <source>fast</source>
-        <translation type="unfinished"></translation>
+        <translation>rápido</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="214"/>
         <source>slow</source>
-        <translation type="unfinished"></translation>
+        <translation>lento</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="211"/>
         <source>fastest</source>
-        <translation type="unfinished"></translation>
+        <translation>el más rápido</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="219"/>
         <source>fast - ATI cards</source>
-        <translation type="unfinished"></translation>
+        <translation>rápido - tarjetas ATI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="241"/>
         <source>User defined...</source>
-        <translation type="unfinished"></translation>
+        <translation>Definido por el usuario...</translation>
     </message>
 </context>
 <context>
