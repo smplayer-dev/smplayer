@@ -105,7 +105,7 @@ void Preferences::reset() {
 
 	mplayer_verbose="";
 
-	resize_method = Always;
+
 	disable_screensaver = true;
 
 	use_direct_rendering = false;
@@ -153,19 +153,8 @@ void Preferences::reset() {
 	dont_remember_media_settings = FALSE;
 	dont_remember_time_pos = FALSE;
 
-#if STYLE_SWITCHING
-	style="";
-#endif
 
-	fullscreen = FALSE;
-	start_in_fullscreen = FALSE;
 
-	compact_mode = FALSE;
-	stay_on_top = FALSE;
-	size_factor = 100; // 100%
-
-	show_frame_counter = FALSE;
-	show_motion_vectors = false;
 
 	autoq = 6;
 
@@ -182,32 +171,11 @@ void Preferences::reset() {
 	connection_port = 8000;
 	autoport = 0;
 
-	mouse_left_click_function = "";
-	mouse_right_click_function = "show_context_menu";
-	mouse_double_click_function = "fullscreen";
-	mouse_middle_click_function = "mute";
-	mouse_xbutton1_click_function = "";
-	mouse_xbutton2_click_function = "";
-	wheel_function = Seeking;
-
-	recents_max_items = 10;
-
-	seeking1 = 10;
-	seeking2 = 60;
-	seeking3 = 10*60;
-	seeking4 = 30;
-
-	update_while_seeking = false;
-#if ENABLE_DELAYED_DRAGGING
-	time_slider_drag_delay = 100;
-#endif
 
 	log_mplayer = TRUE;
 	log_smplayer = TRUE;
 	log_filter = ".*";
 
-	language = "";
-	iconset = "";
 
 #if REPAINT_BACKGROUND_OPTION
 	// "Repaint video background" in the preferences dialog
@@ -217,17 +185,10 @@ void Preferences::reset() {
 	rx_endoffile = "Exiting... \\(End of file\\)";
 	rx_novideo = "Video: no video";
 
-	balloon_count = 5;
+
 
 	change_video_equalizer_on_startup = true;
 
-#ifdef Q_OS_WIN
-	restore_pos_after_fullscreen = true;
-#else
-	restore_pos_after_fullscreen = false;
-#endif
-
-	save_window_size_on_exit = true;
 
 #ifdef Q_OS_WIN
 	enable_audiocd_on_windows = false;
@@ -235,27 +196,9 @@ void Preferences::reset() {
 
 
 
-	close_on_finish = false;
-
-	default_font = "";
-
-	pause_when_hidden = false;
-
-	allow_video_movement = false;
 
 	use_edl_files = true;
 
-	gui = "DefaultGui";
-
-#if USE_MINIMUMSIZE
-	gui_minimum_width = 0; // 0 == disabled
-#endif
-
-#if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
-	hide_video_window_on_audio_files = true;
-#endif
-
-	report_mplayer_crashes = true;
 
 	prefer_ipv4 = true;
 
@@ -293,7 +236,7 @@ void Preferences::reset() {
     mplayer_log_saveto = "";
     //mplayer log autosaving end
 
-	auto_add_to_playlist = true;
+
 	use_volume_option2 = Detect; 
 
 	use_short_pathnames = false;
@@ -336,6 +279,81 @@ void Preferences::reset() {
 	change_sub_scale_should_restart = Detect;
 
 	show_font_scale_options_in_preferences = false;
+
+
+    /* *********
+       GUI stuff
+       ********* */
+
+	fullscreen = false;
+	start_in_fullscreen = false;
+	compact_mode = false;
+	stay_on_top = false;
+	size_factor = 100; // 100%
+
+	resize_method = Always;
+
+#if STYLE_SWITCHING
+	style="";
+#endif
+
+	show_frame_counter = FALSE;
+	show_motion_vectors = false;
+
+	mouse_left_click_function = "";
+	mouse_right_click_function = "show_context_menu";
+	mouse_double_click_function = "fullscreen";
+	mouse_middle_click_function = "mute";
+	mouse_xbutton1_click_function = "";
+	mouse_xbutton2_click_function = "";
+	wheel_function = Seeking;
+
+	recents_max_items = 10;
+
+	seeking1 = 10;
+	seeking2 = 60;
+	seeking3 = 10*60;
+	seeking4 = 30;
+
+	update_while_seeking = false;
+#if ENABLE_DELAYED_DRAGGING
+	time_slider_drag_delay = 100;
+#endif
+
+	language = "";
+	iconset = "";
+
+	balloon_count = 5;
+
+#ifdef Q_OS_WIN
+	restore_pos_after_fullscreen = true;
+#else
+	restore_pos_after_fullscreen = false;
+#endif
+
+	save_window_size_on_exit = true;
+
+	close_on_finish = false;
+
+	default_font = "";
+
+	pause_when_hidden = false;
+
+	allow_video_movement = false;
+
+	gui = "DefaultGui";
+
+#if USE_MINIMUMSIZE
+	gui_minimum_width = 0; // 0 == disabled
+#endif
+
+#if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
+	hide_video_window_on_audio_files = true;
+#endif
+
+	report_mplayer_crashes = true;
+
+	auto_add_to_playlist = true;
 }
 
 #ifndef NO_USE_INI_FILES
@@ -385,7 +403,7 @@ void Preferences::save() {
 	set->setValue("last_dvd_directory", last_dvd_directory);
 
 	set->setValue("mplayer_verbose", mplayer_verbose);
-	set->setValue("resize_method", resize_method);
+
 	set->setValue("disable_screensaver", disable_screensaver);
 
 	set->setValue("use_direct_rendering", use_direct_rendering);
@@ -431,50 +449,17 @@ void Preferences::save() {
 	set->setValue("dont_remember_media_settings", dont_remember_media_settings);
 	set->setValue("dont_remember_time_pos", dont_remember_time_pos);
 
-#if STYLE_SWITCHING
-	set->setValue("style", style);
-#endif
 
-	set->setValue("fullscreen", fullscreen);
-	set->setValue("start_in_fullscreen", start_in_fullscreen);
-
-	set->setValue("compact_mode", compact_mode);
-	set->setValue("stay_on_top", stay_on_top);
-	set->setValue("size_factor", size_factor);
-
-	set->setValue("show_frame_counter", show_frame_counter);
-	set->setValue("show_motion_vectors", show_motion_vectors);
 
 	set->setValue("autoq", autoq);
 
 	set->setValue("loop", loop);
 
-	set->setValue("mouse_left_click_function", mouse_left_click_function);
-	set->setValue("mouse_right_click_function", mouse_right_click_function);
-	set->setValue("mouse_double_click_function", mouse_double_click_function);
-	set->setValue("mouse_middle_click_function", mouse_middle_click_function);
-	set->setValue("mouse_xbutton1_click_function", mouse_xbutton1_click_function);
-	set->setValue("mouse_xbutton2_click_function", mouse_xbutton2_click_function);
-	set->setValue("wheel_function", wheel_function);
-
-	set->setValue("recents_max_items", recents_max_items);
-
-	set->setValue("seeking1", seeking1);
-	set->setValue("seeking2", seeking2);
-	set->setValue("seeking3", seeking3);
-	set->setValue("seeking4", seeking4);
-
-	set->setValue("update_while_seeking", update_while_seeking);
-#if ENABLE_DELAYED_DRAGGING
-	set->setValue("time_slider_drag_delay", time_slider_drag_delay);
-#endif
 
 	set->setValue("log_mplayer", log_mplayer);
 	set->setValue("log_smplayer", log_smplayer);
 	set->setValue("log_filter", log_filter);
 
-	set->setValue("language", language);
-	set->setValue("iconset", iconset);
 
 #if REPAINT_BACKGROUND_OPTION
 	set->setValue("always_clear_video_background", always_clear_video_background);
@@ -483,12 +468,10 @@ void Preferences::save() {
 	set->setValue("rx_endoffile", rx_endoffile);
 	set->setValue("rx_novideo", rx_novideo);
 
-	set->setValue("balloon_count", balloon_count);
+
 
 	set->setValue("change_video_equalizer_on_startup", change_video_equalizer_on_startup);
 
-	set->setValue("restore_pos_after_fullscreen", restore_pos_after_fullscreen);
-	set->setValue("save_window_size_on_exit", save_window_size_on_exit);
 
 #ifdef Q_OS_WIN
 	set->setValue("enable_audiocd_on_windows", enable_audiocd_on_windows);
@@ -496,27 +479,9 @@ void Preferences::save() {
 
 
 
-	set->setValue("close_on_finish", close_on_finish);
-
-	set->setValue("default_font", default_font);
-
-	set->setValue("pause_when_hidden", pause_when_hidden);
-
-	set->setValue("allow_video_movement", allow_video_movement);
 
 	set->setValue("use_edl_files", use_edl_files);
 
-	set->setValue("gui", gui);
-
-#if USE_MINIMUMSIZE
-	set->setValue("gui_minimum_width", gui_minimum_width);
-#endif
-
-#if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
-	set->setValue("hide_video_window_on_audio_files", hide_video_window_on_audio_files);
-#endif
-
-	set->setValue("report_mplayer_crashes", report_mplayer_crashes);
 
 	set->setValue("prefer_ipv4", prefer_ipv4);
 
@@ -525,7 +490,7 @@ void Preferences::save() {
     set->setValue("mplayer_log_saveto", mplayer_log_saveto);
     //mplayer log autosaving end
 
-    set->setValue("auto_add_to_playlist", auto_add_to_playlist);
+
 	set->setValue("use_volume_option2", use_volume_option2);
 
 	set->setValue("use_short_pathnames", use_short_pathnames);
@@ -614,6 +579,79 @@ void Preferences::save() {
 	set->endGroup(); // subtitles
 
 
+    /* *********
+       GUI stuff
+       ********* */
+
+	set->beginGroup("gui");
+
+	set->setValue("fullscreen", fullscreen);
+	set->setValue("start_in_fullscreen", start_in_fullscreen);
+
+	set->setValue("compact_mode", compact_mode);
+	set->setValue("stay_on_top", stay_on_top);
+	set->setValue("size_factor", size_factor);
+	set->setValue("resize_method", resize_method);
+
+#if STYLE_SWITCHING
+	set->setValue("style", style);
+#endif
+
+	set->setValue("show_frame_counter", show_frame_counter);
+	set->setValue("show_motion_vectors", show_motion_vectors);
+
+	set->setValue("mouse_left_click_function", mouse_left_click_function);
+	set->setValue("mouse_right_click_function", mouse_right_click_function);
+	set->setValue("mouse_double_click_function", mouse_double_click_function);
+	set->setValue("mouse_middle_click_function", mouse_middle_click_function);
+	set->setValue("mouse_xbutton1_click_function", mouse_xbutton1_click_function);
+	set->setValue("mouse_xbutton2_click_function", mouse_xbutton2_click_function);
+	set->setValue("wheel_function", wheel_function);
+
+	set->setValue("recents_max_items", recents_max_items);
+
+	set->setValue("seeking1", seeking1);
+	set->setValue("seeking2", seeking2);
+	set->setValue("seeking3", seeking3);
+	set->setValue("seeking4", seeking4);
+
+	set->setValue("update_while_seeking", update_while_seeking);
+#if ENABLE_DELAYED_DRAGGING
+	set->setValue("time_slider_drag_delay", time_slider_drag_delay);
+#endif
+
+	set->setValue("language", language);
+	set->setValue("iconset", iconset);
+
+	set->setValue("balloon_count", balloon_count);
+
+	set->setValue("restore_pos_after_fullscreen", restore_pos_after_fullscreen);
+	set->setValue("save_window_size_on_exit", save_window_size_on_exit);
+
+	set->setValue("close_on_finish", close_on_finish);
+
+	set->setValue("default_font", default_font);
+
+	set->setValue("pause_when_hidden", pause_when_hidden);
+
+	set->setValue("allow_video_movement", allow_video_movement);
+
+	set->setValue("gui", gui);
+
+#if USE_MINIMUMSIZE
+	set->setValue("gui_minimum_width", gui_minimum_width);
+#endif
+
+#if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
+	set->setValue("hide_video_window_on_audio_files", hide_video_window_on_audio_files);
+#endif
+
+	set->setValue("report_mplayer_crashes", report_mplayer_crashes);
+
+    set->setValue("auto_add_to_playlist", auto_add_to_playlist);
+
+	set->endGroup(); // gui
+
 	set->sync();
 }
 
@@ -669,7 +707,7 @@ void Preferences::load() {
 	last_dvd_directory = set->value("last_dvd_directory", last_dvd_directory).toString();
 
 	mplayer_verbose = set->value("mplayer_verbose", mplayer_verbose).toString();
-	resize_method = set->value("resize_method", resize_method).toInt();
+
 	disable_screensaver = set->value("disable_screensaver", disable_screensaver).toBool();
 
 	use_direct_rendering = set->value("use_direct_rendering", use_direct_rendering).toBool();
@@ -715,46 +753,12 @@ void Preferences::load() {
 	dont_remember_media_settings = set->value("dont_remember_media_settings", dont_remember_media_settings).toBool();
 	dont_remember_time_pos = set->value("dont_remember_time_pos", dont_remember_time_pos).toBool();
 
-#if STYLE_SWITCHING
-	style = set->value("style", style).toString();
-#endif
 
-	fullscreen = set->value("fullscreen", fullscreen).toBool();
-	start_in_fullscreen = set->value("start_in_fullscreen", start_in_fullscreen).toBool();
-
-	compact_mode = set->value("compact_mode", compact_mode).toBool();
-	stay_on_top = set->value("stay_on_top", stay_on_top).toBool();
-	size_factor = set->value("size_factor", size_factor).toInt();
-
-	show_frame_counter = set->value("show_frame_counter", show_frame_counter).toBool();
-	show_motion_vectors = set->value("show_motion_vectors", show_motion_vectors).toBool();
 
 	autoq = set->value("autoq", autoq).toInt();
 
 	loop = set->value("loop", loop).toBool();
 
-	mouse_left_click_function = set->value("mouse_left_click_function", mouse_left_click_function).toString();
-	mouse_right_click_function = set->value("mouse_right_click_function", mouse_right_click_function).toString();
-	mouse_double_click_function = set->value("mouse_double_click_function", mouse_double_click_function).toString();
-	mouse_middle_click_function = set->value("mouse_middle_click_function", mouse_middle_click_function).toString();
-	mouse_xbutton1_click_function = set->value("mouse_xbutton1_click_function", mouse_xbutton1_click_function).toString();
-	mouse_xbutton2_click_function = set->value("mouse_xbutton2_click_function", mouse_xbutton2_click_function).toString();
-	wheel_function = set->value("wheel_function", wheel_function).toInt();
-
-	recents_max_items = set->value("recents_max_items", recents_max_items).toInt();
-
-	seeking1 = set->value("seeking1", seeking1).toInt();
-	seeking2 = set->value("seeking2", seeking2).toInt();
-	seeking3 = set->value("seeking3", seeking3).toInt();
-	seeking4 = set->value("seeking4", seeking4).toInt();
-
-	update_while_seeking = set->value("update_while_seeking", update_while_seeking).toBool();
-#if ENABLE_DELAYED_DRAGGING
-	time_slider_drag_delay = set->value("time_slider_drag_delay", time_slider_drag_delay).toInt();
-#endif
-
-	language = set->value("language", language).toString();
-	iconset= set->value("iconset", iconset).toString();
 
 	log_mplayer = set->value("log_mplayer", log_mplayer).toBool();
 	log_smplayer = set->value("log_smplayer", log_smplayer).toBool();
@@ -767,12 +771,8 @@ void Preferences::load() {
 	rx_endoffile = set->value("rx_endoffile", rx_endoffile).toString();
 	rx_novideo = set->value("rx_novideo", rx_novideo).toString();
 
-	balloon_count = set->value("balloon_count", balloon_count).toInt();
 
 	change_video_equalizer_on_startup = set->value("change_video_equalizer_on_startup", change_video_equalizer_on_startup).toBool();
-
-	restore_pos_after_fullscreen = set->value("restore_pos_after_fullscreen", restore_pos_after_fullscreen).toBool();
-	save_window_size_on_exit = 	set->value("save_window_size_on_exit", save_window_size_on_exit).toBool();
 
 #ifdef Q_OS_WIN
 	enable_audiocd_on_windows = set->value("enable_audiocd_on_windows", enable_audiocd_on_windows).toBool();
@@ -780,27 +780,9 @@ void Preferences::load() {
 
 
 
-	close_on_finish = set->value("close_on_finish", close_on_finish).toBool();
-
-	default_font = set->value("default_font", default_font).toString();
-
-	pause_when_hidden = set->value("pause_when_hidden", pause_when_hidden).toBool();
-
-	allow_video_movement = set->value("allow_video_movement", allow_video_movement).toBool();
 
 	use_edl_files = set->value("use_edl_files", use_edl_files).toBool();
 
-	gui = set->value("gui", gui).toString();
-
-#if USE_MINIMUMSIZE
-	gui_minimum_width = set->value("gui_minimum_width", gui_minimum_width).toInt();
-#endif
-
-#if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
-	hide_video_window_on_audio_files = set->value("hide_video_window_on_audio_files", hide_video_window_on_audio_files).toBool();
-#endif
-
-	report_mplayer_crashes = set->value("report_mplayer_crashes", report_mplayer_crashes).toBool();
 
 	prefer_ipv4 = set->value("prefer_ipv4", prefer_ipv4).toBool();
 
@@ -809,7 +791,7 @@ void Preferences::load() {
     mplayer_log_saveto = set->value("mplayer_log_saveto", mplayer_log_saveto).toString();
     //mplayer log autosaving end
 
-	auto_add_to_playlist = set->value("auto_add_to_playlist", auto_add_to_playlist).toBool();
+
 	use_volume_option2 = (OptionState) set->value("use_volume_option2", use_volume_option2).toInt();
 
 	use_short_pathnames = set->value("use_short_pathnames", use_short_pathnames).toBool();
@@ -895,7 +877,81 @@ void Preferences::load() {
 
 	show_font_scale_options_in_preferences = set->value("show_font_scale_options_in_preferences", show_font_scale_options_in_preferences).toBool();
 
-	set->endGroup();
+	set->endGroup(); // subtitles
+
+
+    /* *********
+       GUI stuff
+       ********* */
+
+	set->beginGroup("gui");
+
+	fullscreen = set->value("fullscreen", fullscreen).toBool();
+	start_in_fullscreen = set->value("start_in_fullscreen", start_in_fullscreen).toBool();
+
+	compact_mode = set->value("compact_mode", compact_mode).toBool();
+	stay_on_top = set->value("stay_on_top", stay_on_top).toBool();
+	size_factor = set->value("size_factor", size_factor).toInt();
+	resize_method = set->value("resize_method", resize_method).toInt();
+
+#if STYLE_SWITCHING
+	style = set->value("style", style).toString();
+#endif
+
+	show_frame_counter = set->value("show_frame_counter", show_frame_counter).toBool();
+	show_motion_vectors = set->value("show_motion_vectors", show_motion_vectors).toBool();
+
+	mouse_left_click_function = set->value("mouse_left_click_function", mouse_left_click_function).toString();
+	mouse_right_click_function = set->value("mouse_right_click_function", mouse_right_click_function).toString();
+	mouse_double_click_function = set->value("mouse_double_click_function", mouse_double_click_function).toString();
+	mouse_middle_click_function = set->value("mouse_middle_click_function", mouse_middle_click_function).toString();
+	mouse_xbutton1_click_function = set->value("mouse_xbutton1_click_function", mouse_xbutton1_click_function).toString();
+	mouse_xbutton2_click_function = set->value("mouse_xbutton2_click_function", mouse_xbutton2_click_function).toString();
+	wheel_function = set->value("wheel_function", wheel_function).toInt();
+
+	recents_max_items = set->value("recents_max_items", recents_max_items).toInt();
+
+	seeking1 = set->value("seeking1", seeking1).toInt();
+	seeking2 = set->value("seeking2", seeking2).toInt();
+	seeking3 = set->value("seeking3", seeking3).toInt();
+	seeking4 = set->value("seeking4", seeking4).toInt();
+
+	update_while_seeking = set->value("update_while_seeking", update_while_seeking).toBool();
+#if ENABLE_DELAYED_DRAGGING
+	time_slider_drag_delay = set->value("time_slider_drag_delay", time_slider_drag_delay).toInt();
+#endif
+
+	language = set->value("language", language).toString();
+	iconset= set->value("iconset", iconset).toString();
+
+	balloon_count = set->value("balloon_count", balloon_count).toInt();
+
+	restore_pos_after_fullscreen = set->value("restore_pos_after_fullscreen", restore_pos_after_fullscreen).toBool();
+	save_window_size_on_exit = 	set->value("save_window_size_on_exit", save_window_size_on_exit).toBool();
+
+	close_on_finish = set->value("close_on_finish", close_on_finish).toBool();
+
+	default_font = set->value("default_font", default_font).toString();
+
+	pause_when_hidden = set->value("pause_when_hidden", pause_when_hidden).toBool();
+
+	allow_video_movement = set->value("allow_video_movement", allow_video_movement).toBool();
+
+	gui = set->value("gui", gui).toString();
+
+#if USE_MINIMUMSIZE
+	gui_minimum_width = set->value("gui_minimum_width", gui_minimum_width).toInt();
+#endif
+
+#if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
+	hide_video_window_on_audio_files = set->value("hide_video_window_on_audio_files", hide_video_window_on_audio_files).toBool();
+#endif
+
+	report_mplayer_crashes = set->value("report_mplayer_crashes", report_mplayer_crashes).toBool();
+
+	auto_add_to_playlist = set->value("auto_add_to_playlist", auto_add_to_playlist).toBool();
+
+	set->endGroup(); // gui
 
 	/*
 	QFileInfo fi(mplayer_bin);
