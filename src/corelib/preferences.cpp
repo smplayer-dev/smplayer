@@ -57,29 +57,6 @@ void Preferences::reset() {
 	}
 	*/
 
-	use_fontconfig = FALSE;
-
-#ifdef Q_OS_WIN
-	use_ass_subtitles = false;
-#else
-	use_ass_subtitles = true;
-#endif
-
-	font_file = "";
-	font_name = "";
-	subcp = "ISO-8859-1";
-	font_autoscale = 1;
-	autoload_sub = true;
-	subfuzziness = 1;
-	ass_color = 0xFFFF00;
-    ass_border_color = 0x000000;
-	//ass_styles = "Bold=1,Outline=2,Shadow=2";
-	ass_styles = "";
-	change_sub_scale_should_restart = Detect;
-	use_new_sub_commands = Detect;
-
-	use_closed_caption_subs = false;
-	use_forced_subs_only = false;
 
 	osd = None;
 
@@ -256,7 +233,7 @@ void Preferences::reset() {
 	enable_audiocd_on_windows = false;
 #endif
 
-	show_font_scale_options_in_preferences = false;
+
 
 	close_on_finish = false;
 
@@ -328,6 +305,37 @@ void Preferences::reset() {
 	floating_control_margin = 0;
 	floating_control_width = 100; //100 %
 	floating_control_animated = true;
+
+
+    /* ************
+       Subtitle stuff
+       ************** */
+
+	font_file = "";
+	font_name = "";
+	use_fontconfig = false;
+	subcp = "ISO-8859-1";
+	font_autoscale = 1;
+	subfuzziness = 1;
+	autoload_sub = true;
+
+#ifdef Q_OS_WIN
+	use_ass_subtitles = false;
+#else
+	use_ass_subtitles = true;
+#endif
+	ass_color = 0xFFFF00;
+    ass_border_color = 0x000000;
+	//ass_styles = "Bold=1,Outline=2,Shadow=2";
+	ass_styles = "";
+
+	use_closed_caption_subs = false;
+	use_forced_subs_only = false;
+
+	use_new_sub_commands = Detect;
+	change_sub_scale_should_restart = Detect;
+
+	show_font_scale_options_in_preferences = false;
 }
 
 #ifndef NO_USE_INI_FILES
@@ -339,21 +347,6 @@ void Preferences::save() {
 	set->beginGroup( "preferences");
 
 	set->setValue("mplayer_bin", mplayer_bin);
-	set->setValue("use_fontconfig", use_fontconfig);
-	set->setValue("font_file", font_file);
-	set->setValue("font_name", font_name);
-	set->setValue("font_autoscale", font_autoscale);
-	set->setValue("subcp", subcp);
-	set->setValue("use_ass_subtitles", use_ass_subtitles);
-	set->setValue("autoload_sub", autoload_sub);
-	set->setValue("subfuzziness", subfuzziness);
-	set->setValue("ass_color", (int) ass_color);
-	set->setValue("ass_border_color", (int) ass_border_color);
-	set->setValue("ass_styles", ass_styles);
-	set->setValue("change_sub_scale_should_restart", change_sub_scale_should_restart);
-	set->setValue("use_new_sub_commands", use_new_sub_commands);
-	set->setValue("use_closed_caption_subs", use_closed_caption_subs);
-	set->setValue("use_forced_subs_only", use_forced_subs_only);
 
 	set->setValue("osd", osd);
 	set->setValue("vo", vo);
@@ -501,7 +494,7 @@ void Preferences::save() {
 	set->setValue("enable_audiocd_on_windows", enable_audiocd_on_windows);
 #endif
 
-	set->setValue("show_font_scale_options_in_preferences", show_font_scale_options_in_preferences);
+
 
 	set->setValue("close_on_finish", close_on_finish);
 
@@ -589,6 +582,38 @@ void Preferences::save() {
 	set->setValue("animated", floating_control_animated);
 	set->endGroup();
 
+
+    /* ************
+       Subtitle stuff
+       ************** */
+
+	set->beginGroup("subtitles");
+
+	set->setValue("font_file", font_file);
+	set->setValue("font_name", font_name);
+
+	set->setValue("use_fontconfig", use_fontconfig);
+	set->setValue("subcp", subcp);
+	set->setValue("font_autoscale", font_autoscale);
+	set->setValue("subfuzziness", subfuzziness);
+	set->setValue("autoload_sub", autoload_sub);
+
+	set->setValue("use_ass_subtitles", use_ass_subtitles);
+	set->setValue("ass_color", (int) ass_color);
+	set->setValue("ass_border_color", (int) ass_border_color);
+	set->setValue("ass_styles", ass_styles);
+
+	set->setValue("use_closed_caption_subs", use_closed_caption_subs);
+	set->setValue("use_forced_subs_only", use_forced_subs_only);
+
+	set->setValue("use_new_sub_commands", use_new_sub_commands);
+	set->setValue("change_sub_scale_should_restart", change_sub_scale_should_restart);
+
+	set->setValue("show_font_scale_options_in_preferences", show_font_scale_options_in_preferences);
+
+	set->endGroup(); // subtitles
+
+
 	set->sync();
 }
 
@@ -601,21 +626,6 @@ void Preferences::load() {
 
 	mplayer_bin = set->value("mplayer_bin", mplayer_bin).toString();
 
-	use_fontconfig = set->value("use_fontconfig", use_fontconfig).toBool();
-	font_file = set->value("font_file", font_file).toString();
-	font_name = set->value("font_name", font_name).toString();
-	font_autoscale = set->value("font_autoscale", font_autoscale).toInt();
-	subcp = set->value("subcp", subcp).toString();
-	subfuzziness = set->value("subfuzziness", subfuzziness).toInt();
-	use_ass_subtitles = set->value("use_ass_subtitles", use_ass_subtitles).toBool();
-	autoload_sub = set->value("autoload_sub", autoload_sub).toBool();
-	ass_color = set->value("ass_color", ass_color).toInt();
-	ass_border_color = set->value("ass_border_color", ass_border_color).toInt();
-	ass_styles = set->value("ass_styles", ass_styles).toString();
-	change_sub_scale_should_restart = (OptionState) set->value("change_sub_scale_should_restart", change_sub_scale_should_restart).toInt();
-	use_new_sub_commands = (OptionState) set->value("use_new_sub_commands", use_new_sub_commands).toInt();
-	use_closed_caption_subs = set->value("use_closed_caption_subs", use_closed_caption_subs).toBool();
-	use_forced_subs_only = set->value("use_forced_subs_only", use_forced_subs_only).toBool();
 
 	osd = set->value("osd", osd).toInt();
 	vo = set->value("vo", vo).toString();
@@ -768,7 +778,7 @@ void Preferences::load() {
 	enable_audiocd_on_windows = set->value("enable_audiocd_on_windows", enable_audiocd_on_windows).toBool();
 #endif
 
-	show_font_scale_options_in_preferences = set->value("show_font_scale_options_in_preferences", show_font_scale_options_in_preferences).toBool();
+
 
 	close_on_finish = set->value("close_on_finish", close_on_finish).toBool();
 
@@ -856,6 +866,36 @@ void Preferences::load() {
 	floating_control_animated = set->value("animated", floating_control_animated).toBool();
 	set->endGroup();
 
+
+    /* ************
+       Subtitle stuff
+       ************** */
+
+	set->beginGroup("subtitles");
+
+	font_file = set->value("font_file", font_file).toString();
+	font_name = set->value("font_name", font_name).toString();
+
+	use_fontconfig = set->value("use_fontconfig", use_fontconfig).toBool();
+	subcp = set->value("subcp", subcp).toString();
+	font_autoscale = set->value("font_autoscale", font_autoscale).toInt();
+	subfuzziness = set->value("subfuzziness", subfuzziness).toInt();
+	autoload_sub = set->value("autoload_sub", autoload_sub).toBool();
+
+	use_ass_subtitles = set->value("use_ass_subtitles", use_ass_subtitles).toBool();
+	ass_color = set->value("ass_color", ass_color).toInt();
+	ass_border_color = set->value("ass_border_color", ass_border_color).toInt();
+	ass_styles = set->value("ass_styles", ass_styles).toString();
+
+	use_closed_caption_subs = set->value("use_closed_caption_subs", use_closed_caption_subs).toBool();
+	use_forced_subs_only = set->value("use_forced_subs_only", use_forced_subs_only).toBool();
+
+	use_new_sub_commands = (OptionState) set->value("use_new_sub_commands", use_new_sub_commands).toInt();
+	change_sub_scale_should_restart = (OptionState) set->value("change_sub_scale_should_restart", change_sub_scale_should_restart).toInt();
+
+	show_font_scale_options_in_preferences = set->value("show_font_scale_options_in_preferences", show_font_scale_options_in_preferences).toBool();
+
+	set->endGroup();
 
 	/*
 	QFileInfo fi(mplayer_bin);
