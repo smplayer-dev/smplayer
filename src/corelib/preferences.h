@@ -152,10 +152,6 @@ public:
 	//! Loop. If true repeat the file
 	bool loop;
 
-	bool use_single_instance;
-	int connection_port; // Manual port
-	bool use_autoport;
-	int autoport; // Port automatically chosen by Qt
 
 
 	// Logs
@@ -194,7 +190,24 @@ public:
 	//! Preferred connection method: ipv4 or ipv6
 	bool prefer_ipv4;
 
-	// Initial values for some options
+
+    //mplayer log autosaving
+    bool autosave_mplayer_log;
+    QString mplayer_log_saveto;
+    //mplayer log autosaving end
+
+
+	OptionState use_volume_option2; //!< Use -volume in command line
+
+	//! Windows only. If true, smplayer will pass short filenames to mplayer.
+	//! To workaround a bug in mplayer.
+	bool use_short_pathnames; 
+
+
+    /* **************
+       Initial values
+       ************** */
+
 	double initial_sub_scale;
 #if SCALE_ASS_SUBS
 	double initial_sub_scale_ass;
@@ -225,27 +238,33 @@ public:
 	int initial_audio_track;
 	int initial_subtitle_track;
 
-    //mplayer log autosaving
-    bool autosave_mplayer_log;
-    QString mplayer_log_saveto;
-    //mplayer log autosaving end
 
+    /* ************
+       MPlayer info
+       ************ */
 
-	OptionState use_volume_option2; //!< Use -volume in command line
-
-	//! Windows only. If true, smplayer will pass short filenames to mplayer.
-	//! To workaround a bug in mplayer.
-	bool use_short_pathnames; 
-
-	//! Latest version of mplayer parsed
-	int mplayer_detected_version;
+	int mplayer_detected_version; 	//!< Latest version of mplayer parsed
 	bool mplayer_has_volume_option;
 
 	//! Version of mplayer supplied by the user which will be used if
 	//! the version can't be parsed from mplayer output
 	int mplayer_user_supplied_version;
 
-	// Floating control settings
+
+    /* *********
+       Instances
+       ********* */
+
+	bool use_single_instance;
+	int connection_port; // Manual port
+	bool use_autoport;
+	int autoport; // Port automatically chosen by Qt
+
+
+    /* ****************
+       Floating control
+       **************** */
+
 	int floating_control_margin;
 	int floating_control_width;
 	bool floating_control_animated;
