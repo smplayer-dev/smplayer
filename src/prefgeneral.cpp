@@ -109,8 +109,23 @@ void PrefGeneral::retranslateStrings() {
 void PrefGeneral::setData(Preferences * pref) {
 	setMplayerPath( pref->mplayer_bin );
 	setScreenshotDir( pref->screenshot_directory );
-	setVO( pref->vo );
-	setAO( pref->ao );
+
+	QString vo = pref->vo;
+	if (vo.isEmpty()) {
+#ifdef Q_OS_WIN
+		vo = "directx";
+#else
+		vo = "xv";
+	}
+#endif
+	setVO( vo );
+
+	QString ao = pref->ao;
+#ifndef Q_OS_WIN
+	if (ao.isEmpty()) ao = "alsa";
+#endif
+	setAO( ao );
+
 	setRememberSettings( !pref->dont_remember_media_settings );
 	setRememberTimePos( !pref->dont_remember_time_pos );
 	setAudioLang( pref->audio_lang );
