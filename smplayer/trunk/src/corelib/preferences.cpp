@@ -160,16 +160,6 @@ void Preferences::reset() {
 
 	loop = FALSE;
 
-#ifdef Q_OS_WIN
-	// Some people reported smplayer doesn't start with this option enabled
-	// So now it's disabled by default on Windows
-	use_single_instance = false; 
-#else
-	use_single_instance = true;
-#endif
-	use_autoport = true;
-	connection_port = 8000;
-	autoport = 0;
 
 
 	log_mplayer = TRUE;
@@ -205,6 +195,22 @@ void Preferences::reset() {
 
 	vcd_initial_title = 2; // Most VCD's start at title #2
 
+
+    //mplayer log autosaving
+    autosave_mplayer_log = false;
+    mplayer_log_saveto = "";
+    //mplayer log autosaving end
+
+
+	use_volume_option2 = Detect; 
+
+	use_short_pathnames = false;
+
+
+    /* **************
+       Initial values
+       ************** */
+
 	initial_sub_scale = 5;
 #if SCALE_ASS_SUBS
 	initial_sub_scale_ass = 1;
@@ -231,19 +237,35 @@ void Preferences::reset() {
 	initial_audio_track = 1;
 	initial_subtitle_track = 1;
 
-    //mplayer log autosaving
-    autosave_mplayer_log = false;
-    mplayer_log_saveto = "";
-    //mplayer log autosaving end
 
-
-	use_volume_option2 = Detect; 
-
-	use_short_pathnames = false;
+    /* ************
+       MPlayer info
+       ************ */
 
 	mplayer_detected_version = -1; //None version parsed yet
 	mplayer_user_supplied_version = -1;
 	mplayer_has_volume_option = false;
+
+
+    /* *********
+       Instances
+       ********* */
+
+#ifdef Q_OS_WIN
+	// Some people reported smplayer doesn't start with this option enabled
+	// So now it's disabled by default on Windows
+	use_single_instance = false; 
+#else
+	use_single_instance = true;
+#endif
+	use_autoport = true;
+	connection_port = 8000;
+	autoport = 0;
+
+
+    /* ****************
+       Floating control
+       **************** */
 
 	floating_control_margin = 0;
 	floating_control_width = 100; //100 %
@@ -498,6 +520,10 @@ void Preferences::save() {
 	set->endGroup();
 
 
+    /* **************
+       Initial values
+       ************** */
+
 	set->beginGroup( "defaults");
 
 	set->setValue("initial_sub_scale", initial_sub_scale);
@@ -526,26 +552,41 @@ void Preferences::save() {
 	set->setValue("initial_audio_track", initial_audio_track);
 	set->setValue("initial_subtitle_track", initial_subtitle_track);
 
-	set->endGroup();
+	set->endGroup(); // defaults
+
+
+    /* ************
+       MPlayer info
+       ************ */
 
 	set->beginGroup( "mplayer_info");
 	set->setValue("mplayer_detected_version", mplayer_detected_version);
 	set->setValue("mplayer_user_supplied_version", mplayer_user_supplied_version);
 	set->setValue("mplayer_has_volume_option", mplayer_has_volume_option);
-	set->endGroup();
+	set->endGroup(); // mplayer_info
+
+
+    /* *********
+       Instances
+       ********* */
 
 	set->beginGroup("instances");
 	set->setValue("use_single_instance", use_single_instance);
 	set->setValue("connection_port", connection_port);
 	set->setValue("use_autoport", use_autoport);
 	set->setValue("temp/autoport", autoport);
-	set->endGroup();
+	set->endGroup(); // instances
+
+
+    /* ****************
+       Floating control
+       **************** */
 
 	set->beginGroup("floating_control");
 	set->setValue("margin", floating_control_margin);
 	set->setValue("width", floating_control_width);
 	set->setValue("animated", floating_control_animated);
-	set->endGroup();
+	set->endGroup(); // floating_control
 
 
     /* ************
@@ -799,6 +840,10 @@ void Preferences::load() {
 	set->endGroup();
 
 
+    /* **************
+       Initial values
+       ************** */
+
 	set->beginGroup( "defaults");
 
 	initial_sub_scale = set->value("initial_sub_scale", initial_sub_scale).toDouble();
@@ -827,26 +872,41 @@ void Preferences::load() {
 	initial_audio_track = set->value("initial_audio_track", initial_audio_track).toInt();
 	initial_subtitle_track = set->value("initial_subtitle_track", initial_subtitle_track).toInt();
 
-	set->endGroup();
+	set->endGroup(); // defaults
+
+
+    /* ************
+       MPlayer info
+       ************ */
 
 	set->beginGroup( "mplayer_info");
 	mplayer_detected_version = set->value("mplayer_detected_version", mplayer_detected_version).toInt();
 	mplayer_user_supplied_version = set->value("mplayer_user_supplied_version", mplayer_user_supplied_version).toInt();
 	mplayer_has_volume_option = set->value("mplayer_has_volume_option", mplayer_has_volume_option).toBool();
-	set->endGroup();
+	set->endGroup(); // mplayer_info
+
+
+    /* *********
+       Instances
+       ********* */
 
 	set->beginGroup("instances");
 	use_single_instance = set->value("use_single_instance", use_single_instance).toBool();
 	connection_port = set->value("connection_port", connection_port).toInt();
 	use_autoport = set->value("use_autoport", use_autoport).toBool();
 	autoport = set->value("temp/autoport", autoport).toInt();
-	set->endGroup();
+	set->endGroup(); // instances
+
+
+    /* ****************
+       Floating control
+       **************** */
 
 	set->beginGroup("floating_control");
 	floating_control_margin = set->value("margin", floating_control_margin).toInt();
 	floating_control_width = set->value("width", floating_control_width).toInt();
 	floating_control_animated = set->value("animated", floating_control_animated).toBool();
-	set->endGroup();
+	set->endGroup(); // floating_control
 
 
     /* ************
