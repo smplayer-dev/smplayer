@@ -91,8 +91,6 @@ public:
 
 	QString mplayer_verbose;
 
-	//! Mainwindow resize method
-	int resize_method;
 
 	bool disable_screensaver;
 	bool use_direct_rendering;
@@ -145,20 +143,8 @@ public:
 	bool dont_remember_media_settings; 	// Will not remember anything
 	bool dont_remember_time_pos;		// Will not remember time pos
 
-#if STYLE_SWITCHING
-	// SMPlayer look
-	QString style;
-#endif
 
-	bool fullscreen;
-	bool start_in_fullscreen;
 
-	bool compact_mode;
-	bool stay_on_top;
-	int size_factor;
-
-	bool show_frame_counter;
-	bool show_motion_vectors;
 	
 	//! Postprocessing quality
 	int autoq;
@@ -171,37 +157,12 @@ public:
 	bool use_autoport;
 	int autoport; // Port automatically chosen by Qt
 
-	// Function of mouse buttons:
-	QString mouse_left_click_function;
-	QString mouse_right_click_function;
-	QString mouse_double_click_function;
-	QString mouse_middle_click_function;
-	QString mouse_xbutton1_click_function;
-	QString mouse_xbutton2_click_function;
-	int wheel_function;
-
-	//! Max items in recent's list
-	int recents_max_items;
-
-	// Configurable seeking
-	int seeking1; // By default 10s
-	int seeking2; // By default 1m
-	int seeking3; // By default 10m
-	int seeking4; // For mouse wheel, by default 30s
-
-	bool update_while_seeking;
-#if ENABLE_DELAYED_DRAGGING	
-	int time_slider_drag_delay;
-#endif
 
 	// Logs
 	bool log_mplayer;
 	bool log_smplayer;
 	QString log_filter;
 
-	QString language;
-
-	QString iconset;
 
 #if REPAINT_BACKGROUND_OPTION
 	//! If true, mplayerlayer erases its background
@@ -212,20 +173,11 @@ public:
 	QString rx_endoffile;
 	QString rx_novideo;
 
-	//! Number of times to show the balloon remembering that the program
-	//! is still running in the system tray.
-	int balloon_count;
 
 	//! If false, -brightness, -contrast and so on, won't be passed to
 	//! mplayer. It seems that some graphic cards don't support those options.
 	bool change_video_equalizer_on_startup;
 
-	//! If true, the position of the main window will be saved before
-	//! entering in fullscreen and will restore when going back to
-	//! window mode.
-	bool restore_pos_after_fullscreen;
-
-	bool save_window_size_on_exit;
 
 #ifdef Q_OS_WIN
 	bool enable_audiocd_on_windows;
@@ -233,32 +185,11 @@ public:
 
 
 
-	//! Close the main window when a file or playlist finish
-	bool close_on_finish;
-
-	QString default_font;
-
-	//!< Pause the current file when the main window is not visible
-	bool pause_when_hidden; 
-
-	//!< Allow frre movement of the video window
-	bool allow_video_movement;
 
 	//! If true it will autoload edl files with the same name of the file
     //! to play
 	bool use_edl_files;
 
-	QString gui; //!< The name of the GUI to use
-
-#if USE_MINIMUMSIZE
-	int gui_minimum_width;
-#endif
-
-#if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
-	bool hide_video_window_on_audio_files;
-#endif
-
-	bool report_mplayer_crashes;
 
 	//! Preferred connection method: ipv4 or ipv6
 	bool prefer_ipv4;
@@ -299,7 +230,7 @@ public:
     QString mplayer_log_saveto;
     //mplayer log autosaving end
 
-	bool auto_add_to_playlist; //!< Add files to open to playlist
+
 	OptionState use_volume_option2; //!< Use -volume in command line
 
 	//! Windows only. If true, smplayer will pass short filenames to mplayer.
@@ -346,6 +277,86 @@ public:
 	OptionState change_sub_scale_should_restart;
 
 	bool show_font_scale_options_in_preferences;
+
+
+	/* *********
+	   GUI stuff
+	   ********* */
+
+	bool fullscreen;
+	bool start_in_fullscreen;
+	bool compact_mode;
+	bool stay_on_top;
+	int size_factor;
+
+	int resize_method; 	//!< Mainwindow resize method
+
+#if STYLE_SWITCHING
+	QString style; 	//!< SMPlayer look
+#endif
+	bool show_frame_counter;
+	bool show_motion_vectors;
+
+	// Function of mouse buttons:
+	QString mouse_left_click_function;
+	QString mouse_right_click_function;
+	QString mouse_double_click_function;
+	QString mouse_middle_click_function;
+	QString mouse_xbutton1_click_function;
+	QString mouse_xbutton2_click_function;
+	int wheel_function;
+
+	int recents_max_items; 	//!< Max items in recent's list
+
+	// Configurable seeking
+	int seeking1; // By default 10s
+	int seeking2; // By default 1m
+	int seeking3; // By default 10m
+	int seeking4; // For mouse wheel, by default 30s
+
+	bool update_while_seeking;
+#if ENABLE_DELAYED_DRAGGING	
+	int time_slider_drag_delay;
+#endif
+
+	QString language;
+	QString iconset;
+
+	//! Number of times to show the balloon remembering that the program
+	//! is still running in the system tray.
+	int balloon_count;
+
+	//! If true, the position of the main window will be saved before
+	//! entering in fullscreen and will restore when going back to
+	//! window mode.
+	bool restore_pos_after_fullscreen;
+
+	bool save_window_size_on_exit;
+
+	//! Close the main window when a file or playlist finish
+	bool close_on_finish;
+
+	QString default_font;
+
+	//!< Pause the current file when the main window is not visible
+	bool pause_when_hidden; 
+
+	//!< Allow frre movement of the video window
+	bool allow_video_movement;
+
+	QString gui; //!< The name of the GUI to use
+
+#if USE_MINIMUMSIZE
+	int gui_minimum_width;
+#endif
+
+#if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
+	bool hide_video_window_on_audio_files;
+#endif
+
+	bool report_mplayer_crashes;
+
+	bool auto_add_to_playlist; //!< Add files to open to playlist
 };
 
 #endif
