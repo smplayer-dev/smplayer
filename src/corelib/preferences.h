@@ -56,11 +56,6 @@ public:
 	QString last_dvd_directory;
 
 
-	//! If false, -brightness, -contrast and so on, won't be passed to
-	//! mplayer. It seems that some graphic cards don't support those options.
-	bool change_video_equalizer_on_startup;
-
-
     /* *******
        General
        ******* */
@@ -194,6 +189,10 @@ public:
 	//! Windows only. If true, smplayer will pass short filenames to mplayer.
 	//! To workaround a bug in mplayer.
 	bool use_short_pathnames; 
+
+	//! If false, -brightness, -contrast and so on, won't be passed to
+	//! mplayer. It seems that some graphic cards don't support those options.
+	bool change_video_equalizer_on_startup;
 
 
     /* **************
