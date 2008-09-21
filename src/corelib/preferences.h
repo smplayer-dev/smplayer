@@ -50,10 +50,6 @@ public:
 
 	double monitor_aspect_double();
 
-	//! Directory of the latest file loaded
-	QString latest_dir;
-	QString last_url;
-	QString last_dvd_directory;
 
 
     /* *******
@@ -193,6 +189,15 @@ public:
 	//! If false, -brightness, -contrast and so on, won't be passed to
 	//! mplayer. It seems that some graphic cards don't support those options.
 	bool change_video_equalizer_on_startup;
+
+
+    /* ***********
+       Directories
+       *********** */
+
+	QString latest_dir; //!< Directory of the latest file loaded
+	QString last_url;
+	QString last_dvd_directory;
 
 
     /* **************
