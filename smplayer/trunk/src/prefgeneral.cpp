@@ -113,16 +113,16 @@ void PrefGeneral::setData(Preferences * pref) {
 	QString vo = pref->vo;
 	if (vo.isEmpty()) {
 #ifdef Q_OS_WIN
-		vo = "directx";
+		vo = "directx,";
 #else
-		vo = "xv";
+		vo = "xv,";
 	}
 #endif
 	setVO( vo );
 
 	QString ao = pref->ao;
 #ifndef Q_OS_WIN
-	if (ao.isEmpty()) ao = "alsa";
+	if (ao.isEmpty()) ao = "alsa,";
 #endif
 	setAO( ao );
 
