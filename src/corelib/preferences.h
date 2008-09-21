@@ -133,6 +133,36 @@ public:
 	int cache_for_audiocds;
 
 
+	/* *********
+	   Subtitles
+	   ********* */
+
+	QString font_file;
+	QString font_name;
+	bool use_fontconfig;
+	QString subcp; // -subcp
+	int font_autoscale; // -subfont-autoscale
+	int subfuzziness;
+	bool autoload_sub;
+
+	bool use_ass_subtitles;
+	unsigned int ass_color;
+	unsigned int ass_border_color;
+	QString ass_styles;
+
+	bool use_closed_caption_subs;
+	bool use_forced_subs_only;
+
+	bool subtitles_on_screenshots;
+
+	//! Use the new sub_vob, sub_demux and sub_file commands
+	//! instead of sub_select
+	OptionState use_new_sub_commands; 
+	OptionState change_sub_scale_should_restart;
+
+	bool show_font_scale_options_in_preferences;
+
+
     /* ********
        Advanced
        ******** */
@@ -189,111 +219,6 @@ public:
 	//! If false, -brightness, -contrast and so on, won't be passed to
 	//! mplayer. It seems that some graphic cards don't support those options.
 	bool change_video_equalizer_on_startup;
-
-
-    /* ***********
-       Directories
-       *********** */
-
-	QString latest_dir; //!< Directory of the latest file loaded
-	QString last_url;
-	QString last_dvd_directory;
-
-
-    /* **************
-       Initial values
-       ************** */
-
-	double initial_sub_scale;
-#if SCALE_ASS_SUBS
-	double initial_sub_scale_ass;
-#endif
-	int initial_volume;
-	int initial_contrast;
-	int initial_brightness;
-	int initial_hue;
-	int initial_saturation;
-	int initial_gamma;
-
-	AudioEqualizerList initial_audio_equalizer;
-
-	//! Default value for panscan (1.0 = no zoom)
-	double initial_panscan_factor;
-
-	//! Default value for position of subtitles on screen
-	//! 100 = 100% at the bottom
-	int initial_sub_pos;
-
-	bool initial_postprocessing; //!< global postprocessing filter
-	bool initial_volnorm;
-
-	int initial_deinterlace;
-
-	int initial_audio_channels;
-
-	int initial_audio_track;
-	int initial_subtitle_track;
-
-
-    /* ************
-       MPlayer info
-       ************ */
-
-	int mplayer_detected_version; 	//!< Latest version of mplayer parsed
-	bool mplayer_has_volume_option;
-
-	//! Version of mplayer supplied by the user which will be used if
-	//! the version can't be parsed from mplayer output
-	int mplayer_user_supplied_version;
-
-
-    /* *********
-       Instances
-       ********* */
-
-	bool use_single_instance;
-	int connection_port; // Manual port
-	bool use_autoport;
-	int autoport; // Port automatically chosen by Qt
-
-
-    /* ****************
-       Floating control
-       **************** */
-
-	int floating_control_margin;
-	int floating_control_width;
-	bool floating_control_animated;
-
-
-	/* ************
-	   Subtitle stuff
-	   ************** */
-
-	QString font_file;
-	QString font_name;
-	bool use_fontconfig;
-	QString subcp; // -subcp
-	int font_autoscale; // -subfont-autoscale
-	int subfuzziness;
-	bool autoload_sub;
-
-	bool use_ass_subtitles;
-	unsigned int ass_color;
-	unsigned int ass_border_color;
-	QString ass_styles;
-
-	bool use_closed_caption_subs;
-	bool use_forced_subs_only;
-
-	bool subtitles_on_screenshots;
-
-	//! Use the new sub_vob, sub_demux and sub_file commands
-	//! instead of sub_select
-	OptionState use_new_sub_commands; 
-	OptionState change_sub_scale_should_restart;
-
-	bool show_font_scale_options_in_preferences;
 
 
 	/* *********
@@ -374,6 +299,81 @@ public:
 	bool report_mplayer_crashes;
 
 	bool auto_add_to_playlist; //!< Add files to open to playlist
+
+
+    /* ***********
+       Directories
+       *********** */
+
+	QString latest_dir; //!< Directory of the latest file loaded
+	QString last_url;
+	QString last_dvd_directory;
+
+
+    /* **************
+       Initial values
+       ************** */
+
+	double initial_sub_scale;
+#if SCALE_ASS_SUBS
+	double initial_sub_scale_ass;
+#endif
+	int initial_volume;
+	int initial_contrast;
+	int initial_brightness;
+	int initial_hue;
+	int initial_saturation;
+	int initial_gamma;
+
+	AudioEqualizerList initial_audio_equalizer;
+
+	//! Default value for panscan (1.0 = no zoom)
+	double initial_panscan_factor;
+
+	//! Default value for position of subtitles on screen
+	//! 100 = 100% at the bottom
+	int initial_sub_pos;
+
+	bool initial_postprocessing; //!< global postprocessing filter
+	bool initial_volnorm;
+
+	int initial_deinterlace;
+
+	int initial_audio_channels;
+
+	int initial_audio_track;
+	int initial_subtitle_track;
+
+
+    /* ************
+       MPlayer info
+       ************ */
+
+	int mplayer_detected_version; 	//!< Latest version of mplayer parsed
+	bool mplayer_has_volume_option;
+
+	//! Version of mplayer supplied by the user which will be used if
+	//! the version can't be parsed from mplayer output
+	int mplayer_user_supplied_version;
+
+
+    /* *********
+       Instances
+       ********* */
+
+	bool use_single_instance;
+	int connection_port; // Manual port
+	bool use_autoport;
+	int autoport; // Port automatically chosen by Qt
+
+
+    /* ****************
+       Floating control
+       **************** */
+
+	int floating_control_margin;
+	int floating_control_width;
+	bool floating_control_animated;
 };
 
 #endif

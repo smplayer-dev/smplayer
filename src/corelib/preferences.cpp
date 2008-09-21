@@ -146,6 +146,39 @@ void Preferences::reset() {
 	cache_for_audiocds = 1000;
 
 
+    /* *********
+       Subtitles
+       ********* */
+
+	font_file = "";
+	font_name = "";
+	use_fontconfig = false;
+	subcp = "ISO-8859-1";
+	font_autoscale = 1;
+	subfuzziness = 1;
+	autoload_sub = true;
+
+#ifdef Q_OS_WIN
+	use_ass_subtitles = false;
+#else
+	use_ass_subtitles = true;
+#endif
+	ass_color = 0xFFFF00;
+    ass_border_color = 0x000000;
+	//ass_styles = "Bold=1,Outline=2,Shadow=2";
+	ass_styles = "";
+
+	use_closed_caption_subs = false;
+	use_forced_subs_only = false;
+
+	subtitles_on_screenshots = false;
+
+	use_new_sub_commands = Detect;
+	change_sub_scale_should_restart = Detect;
+
+	show_font_scale_options_in_preferences = false;
+
+
     /* ********
        Advanced
        ******** */
@@ -192,113 +225,6 @@ void Preferences::reset() {
 	use_short_pathnames = false;
 
 	change_video_equalizer_on_startup = true;
-
-
-    /* ***********
-       Directories
-       *********** */
-
-	latest_dir = QDir::homePath();
-	last_url="";
-	last_dvd_directory="";
-
-
-    /* **************
-       Initial values
-       ************** */
-
-	initial_sub_scale = 5;
-#if SCALE_ASS_SUBS
-	initial_sub_scale_ass = 1;
-#endif
-	initial_volume = 40;
-	initial_contrast = 0;
-	initial_brightness = 0;
-	initial_hue = 0;
-	initial_saturation = 0;
-	initial_gamma = 0;
-
-	initial_audio_equalizer << 0 << 0 << 0 << 0 << 0 << 0 << 0 << 0 << 0 << 0;
-
-	initial_panscan_factor = 1.0;
-	initial_sub_pos = 100; // 100%
-
-	initial_postprocessing = false;
-	initial_volnorm = false;
-
-	initial_deinterlace = MediaSettings::NoDeinterlace;
-
-	initial_audio_channels = MediaSettings::ChDefault;
-
-	initial_audio_track = 1;
-	initial_subtitle_track = 1;
-
-
-    /* ************
-       MPlayer info
-       ************ */
-
-	mplayer_detected_version = -1; //None version parsed yet
-	mplayer_user_supplied_version = -1;
-	mplayer_has_volume_option = false;
-
-
-    /* *********
-       Instances
-       ********* */
-
-#ifdef Q_OS_WIN
-	// Some people reported smplayer doesn't start with this option enabled
-	// So now it's disabled by default on Windows
-	use_single_instance = false; 
-#else
-	use_single_instance = true;
-#endif
-	use_autoport = true;
-	connection_port = 8000;
-	autoport = 0;
-
-
-    /* ****************
-       Floating control
-       **************** */
-
-	floating_control_margin = 0;
-	floating_control_width = 100; //100 %
-	floating_control_animated = true;
-
-
-    /* ************
-       Subtitle stuff
-       ************** */
-
-	font_file = "";
-	font_name = "";
-	use_fontconfig = false;
-	subcp = "ISO-8859-1";
-	font_autoscale = 1;
-	subfuzziness = 1;
-	autoload_sub = true;
-
-#ifdef Q_OS_WIN
-	use_ass_subtitles = false;
-#else
-	use_ass_subtitles = true;
-#endif
-	ass_color = 0xFFFF00;
-    ass_border_color = 0x000000;
-	//ass_styles = "Bold=1,Outline=2,Shadow=2";
-	ass_styles = "";
-
-	use_closed_caption_subs = false;
-	use_forced_subs_only = false;
-
-	subtitles_on_screenshots = false;
-
-	use_new_sub_commands = Detect;
-	change_sub_scale_should_restart = Detect;
-
-	show_font_scale_options_in_preferences = false;
 
 
     /* *********
@@ -374,6 +300,80 @@ void Preferences::reset() {
 	report_mplayer_crashes = true;
 
 	auto_add_to_playlist = true;
+
+
+    /* ***********
+       Directories
+       *********** */
+
+	latest_dir = QDir::homePath();
+	last_url="";
+	last_dvd_directory="";
+
+
+    /* **************
+       Initial values
+       ************** */
+
+	initial_sub_scale = 5;
+#if SCALE_ASS_SUBS
+	initial_sub_scale_ass = 1;
+#endif
+	initial_volume = 40;
+	initial_contrast = 0;
+	initial_brightness = 0;
+	initial_hue = 0;
+	initial_saturation = 0;
+	initial_gamma = 0;
+
+	initial_audio_equalizer << 0 << 0 << 0 << 0 << 0 << 0 << 0 << 0 << 0 << 0;
+
+	initial_panscan_factor = 1.0;
+	initial_sub_pos = 100; // 100%
+
+	initial_postprocessing = false;
+	initial_volnorm = false;
+
+	initial_deinterlace = MediaSettings::NoDeinterlace;
+
+	initial_audio_channels = MediaSettings::ChDefault;
+
+	initial_audio_track = 1;
+	initial_subtitle_track = 1;
+
+
+    /* ************
+       MPlayer info
+       ************ */
+
+	mplayer_detected_version = -1; //None version parsed yet
+	mplayer_user_supplied_version = -1;
+	mplayer_has_volume_option = false;
+
+
+    /* *********
+       Instances
+       ********* */
+
+#ifdef Q_OS_WIN
+	// Some people reported smplayer doesn't start with this option enabled
+	// So now it's disabled by default on Windows
+	use_single_instance = false; 
+#else
+	use_single_instance = true;
+#endif
+	use_autoport = true;
+	connection_port = 8000;
+	autoport = 0;
+
+
+    /* ****************
+       Floating control
+       **************** */
+
+	floating_control_margin = 0;
+	floating_control_width = 100; //100 %
+	floating_control_animated = true;
 }
 
 #ifndef NO_USE_INI_FILES
@@ -471,6 +471,39 @@ void Preferences::save() {
 	set->endGroup(); // performance
 
 
+    /* *********
+       Subtitles
+       ********* */
+
+	set->beginGroup("subtitles");
+
+	set->setValue("font_file", font_file);
+	set->setValue("font_name", font_name);
+
+	set->setValue("use_fontconfig", use_fontconfig);
+	set->setValue("subcp", subcp);
+	set->setValue("font_autoscale", font_autoscale);
+	set->setValue("subfuzziness", subfuzziness);
+	set->setValue("autoload_sub", autoload_sub);
+
+	set->setValue("use_ass_subtitles", use_ass_subtitles);
+	set->setValue("ass_color", (int) ass_color);
+	set->setValue("ass_border_color", (int) ass_border_color);
+	set->setValue("ass_styles", ass_styles);
+
+	set->setValue("use_closed_caption_subs", use_closed_caption_subs);
+	set->setValue("use_forced_subs_only", use_forced_subs_only);
+
+	set->setValue("subtitles_on_screenshots", subtitles_on_screenshots);
+
+	set->setValue("use_new_sub_commands", use_new_sub_commands);
+	set->setValue("change_sub_scale_should_restart", change_sub_scale_should_restart);
+
+	set->setValue("show_font_scale_options_in_preferences", show_font_scale_options_in_preferences);
+
+	set->endGroup(); // subtitles
+
+
     /* ********
        Advanced
        ******** */
@@ -520,6 +553,80 @@ void Preferences::save() {
 	set->setValue("change_video_equalizer_on_startup", change_video_equalizer_on_startup);
 
 	set->endGroup(); // advanced
+
+
+    /* *********
+       GUI stuff
+       ********* */
+
+	set->beginGroup("gui");
+
+	set->setValue("fullscreen", fullscreen);
+	set->setValue("start_in_fullscreen", start_in_fullscreen);
+
+	set->setValue("compact_mode", compact_mode);
+	set->setValue("stay_on_top", stay_on_top);
+	set->setValue("size_factor", size_factor);
+	set->setValue("resize_method", resize_method);
+
+#if STYLE_SWITCHING
+	set->setValue("style", style);
+#endif
+
+	set->setValue("show_frame_counter", show_frame_counter);
+	set->setValue("show_motion_vectors", show_motion_vectors);
+
+	set->setValue("mouse_left_click_function", mouse_left_click_function);
+	set->setValue("mouse_right_click_function", mouse_right_click_function);
+	set->setValue("mouse_double_click_function", mouse_double_click_function);
+	set->setValue("mouse_middle_click_function", mouse_middle_click_function);
+	set->setValue("mouse_xbutton1_click_function", mouse_xbutton1_click_function);
+	set->setValue("mouse_xbutton2_click_function", mouse_xbutton2_click_function);
+	set->setValue("wheel_function", wheel_function);
+
+	set->setValue("recents_max_items", recents_max_items);
+
+	set->setValue("seeking1", seeking1);
+	set->setValue("seeking2", seeking2);
+	set->setValue("seeking3", seeking3);
+	set->setValue("seeking4", seeking4);
+
+	set->setValue("update_while_seeking", update_while_seeking);
+#if ENABLE_DELAYED_DRAGGING
+	set->setValue("time_slider_drag_delay", time_slider_drag_delay);
+#endif
+
+	set->setValue("language", language);
+	set->setValue("iconset", iconset);
+
+	set->setValue("balloon_count", balloon_count);
+
+	set->setValue("restore_pos_after_fullscreen", restore_pos_after_fullscreen);
+	set->setValue("save_window_size_on_exit", save_window_size_on_exit);
+
+	set->setValue("close_on_finish", close_on_finish);
+
+	set->setValue("default_font", default_font);
+
+	set->setValue("pause_when_hidden", pause_when_hidden);
+
+	set->setValue("allow_video_movement", allow_video_movement);
+
+	set->setValue("gui", gui);
+
+#if USE_MINIMUMSIZE
+	set->setValue("gui_minimum_width", gui_minimum_width);
+#endif
+
+#if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
+	set->setValue("hide_video_window_on_audio_files", hide_video_window_on_audio_files);
+#endif
+
+	set->setValue("report_mplayer_crashes", report_mplayer_crashes);
+
+    set->setValue("auto_add_to_playlist", auto_add_to_playlist);
+
+	set->endGroup(); // gui
 
 
     /* ***********
@@ -600,113 +707,6 @@ void Preferences::save() {
 	set->setValue("width", floating_control_width);
 	set->setValue("animated", floating_control_animated);
 	set->endGroup(); // floating_control
-
-
-    /* ************
-       Subtitle stuff
-       ************** */
-
-	set->beginGroup("subtitles");
-
-	set->setValue("font_file", font_file);
-	set->setValue("font_name", font_name);
-
-	set->setValue("use_fontconfig", use_fontconfig);
-	set->setValue("subcp", subcp);
-	set->setValue("font_autoscale", font_autoscale);
-	set->setValue("subfuzziness", subfuzziness);
-	set->setValue("autoload_sub", autoload_sub);
-
-	set->setValue("use_ass_subtitles", use_ass_subtitles);
-	set->setValue("ass_color", (int) ass_color);
-	set->setValue("ass_border_color", (int) ass_border_color);
-	set->setValue("ass_styles", ass_styles);
-
-	set->setValue("use_closed_caption_subs", use_closed_caption_subs);
-	set->setValue("use_forced_subs_only", use_forced_subs_only);
-
-	set->setValue("subtitles_on_screenshots", subtitles_on_screenshots);
-
-	set->setValue("use_new_sub_commands", use_new_sub_commands);
-	set->setValue("change_sub_scale_should_restart", change_sub_scale_should_restart);
-
-	set->setValue("show_font_scale_options_in_preferences", show_font_scale_options_in_preferences);
-
-	set->endGroup(); // subtitles
-
-
-    /* *********
-       GUI stuff
-       ********* */
-
-	set->beginGroup("gui");
-
-	set->setValue("fullscreen", fullscreen);
-	set->setValue("start_in_fullscreen", start_in_fullscreen);
-
-	set->setValue("compact_mode", compact_mode);
-	set->setValue("stay_on_top", stay_on_top);
-	set->setValue("size_factor", size_factor);
-	set->setValue("resize_method", resize_method);
-
-#if STYLE_SWITCHING
-	set->setValue("style", style);
-#endif
-
-	set->setValue("show_frame_counter", show_frame_counter);
-	set->setValue("show_motion_vectors", show_motion_vectors);
-
-	set->setValue("mouse_left_click_function", mouse_left_click_function);
-	set->setValue("mouse_right_click_function", mouse_right_click_function);
-	set->setValue("mouse_double_click_function", mouse_double_click_function);
-	set->setValue("mouse_middle_click_function", mouse_middle_click_function);
-	set->setValue("mouse_xbutton1_click_function", mouse_xbutton1_click_function);
-	set->setValue("mouse_xbutton2_click_function", mouse_xbutton2_click_function);
-	set->setValue("wheel_function", wheel_function);
-
-	set->setValue("recents_max_items", recents_max_items);
-
-	set->setValue("seeking1", seeking1);
-	set->setValue("seeking2", seeking2);
-	set->setValue("seeking3", seeking3);
-	set->setValue("seeking4", seeking4);
-
-	set->setValue("update_while_seeking", update_while_seeking);
-#if ENABLE_DELAYED_DRAGGING
-	set->setValue("time_slider_drag_delay", time_slider_drag_delay);
-#endif
-
-	set->setValue("language", language);
-	set->setValue("iconset", iconset);
-
-	set->setValue("balloon_count", balloon_count);
-
-	set->setValue("restore_pos_after_fullscreen", restore_pos_after_fullscreen);
-	set->setValue("save_window_size_on_exit", save_window_size_on_exit);
-
-	set->setValue("close_on_finish", close_on_finish);
-
-	set->setValue("default_font", default_font);
-
-	set->setValue("pause_when_hidden", pause_when_hidden);
-
-	set->setValue("allow_video_movement", allow_video_movement);
-
-	set->setValue("gui", gui);
-
-#if USE_MINIMUMSIZE
-	set->setValue("gui_minimum_width", gui_minimum_width);
-#endif
-
-#if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
-	set->setValue("hide_video_window_on_audio_files", hide_video_window_on_audio_files);
-#endif
-
-	set->setValue("report_mplayer_crashes", report_mplayer_crashes);
-
-    set->setValue("auto_add_to_playlist", auto_add_to_playlist);
-
-	set->endGroup(); // gui
 
 	set->sync();
 }
@@ -805,6 +805,39 @@ void Preferences::load() {
 	set->endGroup(); // performance
 
 
+    /* *********
+       Subtitles
+       ********* */
+
+	set->beginGroup("subtitles");
+
+	font_file = set->value("font_file", font_file).toString();
+	font_name = set->value("font_name", font_name).toString();
+
+	use_fontconfig = set->value("use_fontconfig", use_fontconfig).toBool();
+	subcp = set->value("subcp", subcp).toString();
+	font_autoscale = set->value("font_autoscale", font_autoscale).toInt();
+	subfuzziness = set->value("subfuzziness", subfuzziness).toInt();
+	autoload_sub = set->value("autoload_sub", autoload_sub).toBool();
+
+	use_ass_subtitles = set->value("use_ass_subtitles", use_ass_subtitles).toBool();
+	ass_color = set->value("ass_color", ass_color).toInt();
+	ass_border_color = set->value("ass_border_color", ass_border_color).toInt();
+	ass_styles = set->value("ass_styles", ass_styles).toString();
+
+	use_closed_caption_subs = set->value("use_closed_caption_subs", use_closed_caption_subs).toBool();
+	use_forced_subs_only = set->value("use_forced_subs_only", use_forced_subs_only).toBool();
+
+	subtitles_on_screenshots = set->value("subtitles_on_screenshots", subtitles_on_screenshots).toBool();
+
+	use_new_sub_commands = (OptionState) set->value("use_new_sub_commands", use_new_sub_commands).toInt();
+	change_sub_scale_should_restart = (OptionState) set->value("change_sub_scale_should_restart", change_sub_scale_should_restart).toInt();
+
+	show_font_scale_options_in_preferences = set->value("show_font_scale_options_in_preferences", show_font_scale_options_in_preferences).toBool();
+
+	set->endGroup(); // subtitles
+
+
     /* ********
        Advanced
        ******** */
@@ -859,6 +892,80 @@ void Preferences::load() {
 	change_video_equalizer_on_startup = set->value("change_video_equalizer_on_startup", change_video_equalizer_on_startup).toBool();
 
 	set->endGroup(); // advanced
+
+
+    /* *********
+       GUI stuff
+       ********* */
+
+	set->beginGroup("gui");
+
+	fullscreen = set->value("fullscreen", fullscreen).toBool();
+	start_in_fullscreen = set->value("start_in_fullscreen", start_in_fullscreen).toBool();
+
+	compact_mode = set->value("compact_mode", compact_mode).toBool();
+	stay_on_top = set->value("stay_on_top", stay_on_top).toBool();
+	size_factor = set->value("size_factor", size_factor).toInt();
+	resize_method = set->value("resize_method", resize_method).toInt();
+
+#if STYLE_SWITCHING
+	style = set->value("style", style).toString();
+#endif
+
+	show_frame_counter = set->value("show_frame_counter", show_frame_counter).toBool();
+	show_motion_vectors = set->value("show_motion_vectors", show_motion_vectors).toBool();
+
+	mouse_left_click_function = set->value("mouse_left_click_function", mouse_left_click_function).toString();
+	mouse_right_click_function = set->value("mouse_right_click_function", mouse_right_click_function).toString();
+	mouse_double_click_function = set->value("mouse_double_click_function", mouse_double_click_function).toString();
+	mouse_middle_click_function = set->value("mouse_middle_click_function", mouse_middle_click_function).toString();
+	mouse_xbutton1_click_function = set->value("mouse_xbutton1_click_function", mouse_xbutton1_click_function).toString();
+	mouse_xbutton2_click_function = set->value("mouse_xbutton2_click_function", mouse_xbutton2_click_function).toString();
+	wheel_function = set->value("wheel_function", wheel_function).toInt();
+
+	recents_max_items = set->value("recents_max_items", recents_max_items).toInt();
+
+	seeking1 = set->value("seeking1", seeking1).toInt();
+	seeking2 = set->value("seeking2", seeking2).toInt();
+	seeking3 = set->value("seeking3", seeking3).toInt();
+	seeking4 = set->value("seeking4", seeking4).toInt();
+
+	update_while_seeking = set->value("update_while_seeking", update_while_seeking).toBool();
+#if ENABLE_DELAYED_DRAGGING
+	time_slider_drag_delay = set->value("time_slider_drag_delay", time_slider_drag_delay).toInt();
+#endif
+
+	language = set->value("language", language).toString();
+	iconset= set->value("iconset", iconset).toString();
+
+	balloon_count = set->value("balloon_count", balloon_count).toInt();
+
+	restore_pos_after_fullscreen = set->value("restore_pos_after_fullscreen", restore_pos_after_fullscreen).toBool();
+	save_window_size_on_exit = 	set->value("save_window_size_on_exit", save_window_size_on_exit).toBool();
+
+	close_on_finish = set->value("close_on_finish", close_on_finish).toBool();
+
+	default_font = set->value("default_font", default_font).toString();
+
+	pause_when_hidden = set->value("pause_when_hidden", pause_when_hidden).toBool();
+
+	allow_video_movement = set->value("allow_video_movement", allow_video_movement).toBool();
+
+	gui = set->value("gui", gui).toString();
+
+#if USE_MINIMUMSIZE
+	gui_minimum_width = set->value("gui_minimum_width", gui_minimum_width).toInt();
+#endif
+
+#if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
+	hide_video_window_on_audio_files = set->value("hide_video_window_on_audio_files", hide_video_window_on_audio_files).toBool();
+#endif
+
+	report_mplayer_crashes = set->value("report_mplayer_crashes", report_mplayer_crashes).toBool();
+
+	auto_add_to_playlist = set->value("auto_add_to_playlist", auto_add_to_playlist).toBool();
+
+	set->endGroup(); // gui
 
 
     /* ***********
@@ -939,113 +1046,6 @@ void Preferences::load() {
 	floating_control_width = set->value("width", floating_control_width).toInt();
 	floating_control_animated = set->value("animated", floating_control_animated).toBool();
 	set->endGroup(); // floating_control
-
-
-    /* ************
-       Subtitle stuff
-       ************** */
-
-	set->beginGroup("subtitles");
-
-	font_file = set->value("font_file", font_file).toString();
-	font_name = set->value("font_name", font_name).toString();
-
-	use_fontconfig = set->value("use_fontconfig", use_fontconfig).toBool();
-	subcp = set->value("subcp", subcp).toString();
-	font_autoscale = set->value("font_autoscale", font_autoscale).toInt();
-	subfuzziness = set->value("subfuzziness", subfuzziness).toInt();
-	autoload_sub = set->value("autoload_sub", autoload_sub).toBool();
-
-	use_ass_subtitles = set->value("use_ass_subtitles", use_ass_subtitles).toBool();
-	ass_color = set->value("ass_color", ass_color).toInt();
-	ass_border_color = set->value("ass_border_color", ass_border_color).toInt();
-	ass_styles = set->value("ass_styles", ass_styles).toString();
-
-	use_closed_caption_subs = set->value("use_closed_caption_subs", use_closed_caption_subs).toBool();
-	use_forced_subs_only = set->value("use_forced_subs_only", use_forced_subs_only).toBool();
-
-	subtitles_on_screenshots = set->value("subtitles_on_screenshots", subtitles_on_screenshots).toBool();
-
-	use_new_sub_commands = (OptionState) set->value("use_new_sub_commands", use_new_sub_commands).toInt();
-	change_sub_scale_should_restart = (OptionState) set->value("change_sub_scale_should_restart", change_sub_scale_should_restart).toInt();
-
-	show_font_scale_options_in_preferences = set->value("show_font_scale_options_in_preferences", show_font_scale_options_in_preferences).toBool();
-
-	set->endGroup(); // subtitles
-
-
-    /* *********
-       GUI stuff
-       ********* */
-
-	set->beginGroup("gui");
-
-	fullscreen = set->value("fullscreen", fullscreen).toBool();
-	start_in_fullscreen = set->value("start_in_fullscreen", start_in_fullscreen).toBool();
-
-	compact_mode = set->value("compact_mode", compact_mode).toBool();
-	stay_on_top = set->value("stay_on_top", stay_on_top).toBool();
-	size_factor = set->value("size_factor", size_factor).toInt();
-	resize_method = set->value("resize_method", resize_method).toInt();
-
-#if STYLE_SWITCHING
-	style = set->value("style", style).toString();
-#endif
-
-	show_frame_counter = set->value("show_frame_counter", show_frame_counter).toBool();
-	show_motion_vectors = set->value("show_motion_vectors", show_motion_vectors).toBool();
-
-	mouse_left_click_function = set->value("mouse_left_click_function", mouse_left_click_function).toString();
-	mouse_right_click_function = set->value("mouse_right_click_function", mouse_right_click_function).toString();
-	mouse_double_click_function = set->value("mouse_double_click_function", mouse_double_click_function).toString();
-	mouse_middle_click_function = set->value("mouse_middle_click_function", mouse_middle_click_function).toString();
-	mouse_xbutton1_click_function = set->value("mouse_xbutton1_click_function", mouse_xbutton1_click_function).toString();
-	mouse_xbutton2_click_function = set->value("mouse_xbutton2_click_function", mouse_xbutton2_click_function).toString();
-	wheel_function = set->value("wheel_function", wheel_function).toInt();
-
-	recents_max_items = set->value("recents_max_items", recents_max_items).toInt();
-
-	seeking1 = set->value("seeking1", seeking1).toInt();
-	seeking2 = set->value("seeking2", seeking2).toInt();
-	seeking3 = set->value("seeking3", seeking3).toInt();
-	seeking4 = set->value("seeking4", seeking4).toInt();
-
-	update_while_seeking = set->value("update_while_seeking", update_while_seeking).toBool();
-#if ENABLE_DELAYED_DRAGGING
-	time_slider_drag_delay = set->value("time_slider_drag_delay", time_slider_drag_delay).toInt();
-#endif
-
-	language = set->value("language", language).toString();
-	iconset= set->value("iconset", iconset).toString();
-
-	balloon_count = set->value("balloon_count", balloon_count).toInt();
-
-	restore_pos_after_fullscreen = set->value("restore_pos_after_fullscreen", restore_pos_after_fullscreen).toBool();
-	save_window_size_on_exit = 	set->value("save_window_size_on_exit", save_window_size_on_exit).toBool();
-
-	close_on_finish = set->value("close_on_finish", close_on_finish).toBool();
-
-	default_font = set->value("default_font", default_font).toString();
-
-	pause_when_hidden = set->value("pause_when_hidden", pause_when_hidden).toBool();
-
-	allow_video_movement = set->value("allow_video_movement", allow_video_movement).toBool();
-
-	gui = set->value("gui", gui).toString();
-
-#if USE_MINIMUMSIZE
-	gui_minimum_width = set->value("gui_minimum_width", gui_minimum_width).toInt();
-#endif
-
-#if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
-	hide_video_window_on_audio_files = set->value("hide_video_window_on_audio_files", hide_video_window_on_audio_files).toBool();
-#endif
-
-	report_mplayer_crashes = set->value("report_mplayer_crashes", report_mplayer_crashes).toBool();
-
-	auto_add_to_playlist = set->value("auto_add_to_playlist", auto_add_to_playlist).toBool();
-
-	set->endGroup(); // gui
 
 	/*
 	QFileInfo fi(mplayer_bin);
