@@ -152,7 +152,7 @@ void PrefGeneral::setData(Preferences * pref) {
 
 	setInitialVolume( pref->initial_volume );
 	setDontChangeVolume( pref->dont_change_volume );
-	setUseVolume( pref->use_volume_option2 );
+	setUseVolume( pref->use_volume_option );
 	setAudioChannels( pref->initial_audio_channels );
 	setScaleTempoFilter( pref->use_scaletempo );
 }
@@ -207,7 +207,7 @@ void PrefGeneral::getData(Preferences * pref) {
 
 	pref->initial_volume = initialVolume();
 	pref->dont_change_volume = dontChangeVolume();
-	pref->use_volume_option2 = useVolume();
+	pref->use_volume_option = useVolume();
 	pref->initial_audio_channels = audioChannels();
 	TEST_AND_SET(pref->use_scaletempo, scaleTempoFilter());
 }

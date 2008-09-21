@@ -1451,8 +1451,8 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	// Set volume, requires a patched mplayer
-	bool use_volume_option = (pref->use_volume_option2 == Preferences::Enabled);
-	if (pref->use_volume_option2 == Preferences::Detect) {
+	bool use_volume_option = (pref->use_volume_option == Preferences::Enabled);
+	if (pref->use_volume_option == Preferences::Detect) {
 		use_volume_option = pref->mplayer_has_volume_option;
 	}
 	if ((use_volume_option) && (!pref->dont_change_volume)) {
