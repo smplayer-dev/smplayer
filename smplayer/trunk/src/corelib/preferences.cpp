@@ -56,7 +56,6 @@ void Preferences::reset() {
 	last_url="";
 	last_dvd_directory="";
 
-	change_video_equalizer_on_startup = true;
 
 
 
@@ -198,6 +197,8 @@ void Preferences::reset() {
 	prefer_ipv4 = true;
 
 	use_short_pathnames = false;
+
+	change_video_equalizer_on_startup = true;
 
 
     /* **************
@@ -385,7 +386,7 @@ void Preferences::save() {
 	set->setValue("last_url", last_url);
 	set->setValue("last_dvd_directory", last_dvd_directory);
 
-	set->setValue("change_video_equalizer_on_startup", change_video_equalizer_on_startup);
+
 
 	set->endGroup();
 
@@ -523,6 +524,8 @@ void Preferences::save() {
 	set->setValue("prefer_ipv4", prefer_ipv4);
 
 	set->setValue("use_short_pathnames", use_short_pathnames);
+
+	set->setValue("change_video_equalizer_on_startup", change_video_equalizer_on_startup);
 
 	set->endGroup(); // advanced
 
@@ -716,7 +719,7 @@ void Preferences::load() {
 	last_url = set->value("last_url", last_url).toString();
 	last_dvd_directory = set->value("last_dvd_directory", last_dvd_directory).toString();
 
-	change_video_equalizer_on_startup = set->value("change_video_equalizer_on_startup", change_video_equalizer_on_startup).toBool();
+
 
 	set->endGroup();
 
@@ -859,6 +862,8 @@ void Preferences::load() {
 	prefer_ipv4 = set->value("prefer_ipv4", prefer_ipv4).toBool();
 
 	use_short_pathnames = set->value("use_short_pathnames", use_short_pathnames).toBool();
+
+	change_video_equalizer_on_startup = set->value("change_video_equalizer_on_startup", change_video_equalizer_on_startup).toBool();
 
 	set->endGroup(); // advanced
 
