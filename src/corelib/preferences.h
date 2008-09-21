@@ -54,18 +54,6 @@ public:
 
 	int osd;
 
-	OptionState fast_audio_change; // If activated, not restart mplayer
-#if !SMART_DVD_CHAPTERS
-	bool fast_chapter_change;
-#endif
-
-	int cache_for_files;
-	int cache_for_streams;
-	int cache_for_dvds;
-	int cache_for_vcds;
-	int cache_for_audiocds;
-
-	int threads; //!< number of threads to use for decoding (-lavdopts threads <1-8>)
 
 	double monitor_aspect_double();
 
@@ -96,17 +84,6 @@ public:
 	bool use_audio_equalizer;
 
 	bool use_slices;
-
-	// Performance
-	int priority;
-	bool frame_drop;
-	bool hard_frame_drop;
-	bool autosync;
-	int autosync_factor;
-
-	H264LoopFilter h264_skip_loop_filter;
-	//! An HD is a video which height is equal or greater than this.
-	int HD_height; 
 
 	// SMPlayer will remember all media settings for all videos.
 	// This options allow to disable it:
@@ -140,6 +117,33 @@ public:
 #endif
 
 	int vcd_initial_title;
+
+
+    /* ***********
+       Performance
+       *********** */
+
+	int priority;
+	bool frame_drop;
+	bool hard_frame_drop;
+	bool autosync;
+	int autosync_factor;
+
+	H264LoopFilter h264_skip_loop_filter;
+	int HD_height; //!< An HD is a video which height is equal or greater than this.
+
+	OptionState fast_audio_change; // If activated, not restart mplayer
+#if !SMART_DVD_CHAPTERS
+	bool fast_chapter_change;
+#endif
+
+	int threads; //!< number of threads to use for decoding (-lavdopts threads <1-8>)
+
+	int cache_for_files;
+	int cache_for_streams;
+	int cache_for_dvds;
+	int cache_for_vcds;
+	int cache_for_audiocds;
 
 
     /* ********
