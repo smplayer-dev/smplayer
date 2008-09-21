@@ -88,9 +88,6 @@ void Preferences::reset() {
 	last_url="";
 	last_dvd_directory="";
 
-	mplayer_verbose="";
-
-
 	disable_screensaver = true;
 
 	use_direct_rendering = false;
@@ -404,8 +401,6 @@ void Preferences::save() {
 	set->setValue("latest_dir", latest_dir);
 	set->setValue("last_url", last_url);
 	set->setValue("last_dvd_directory", last_dvd_directory);
-
-	set->setValue("mplayer_verbose", mplayer_verbose);
 
 	set->setValue("disable_screensaver", disable_screensaver);
 
@@ -729,8 +724,6 @@ void Preferences::load() {
 	latest_dir = set->value("latest_dir", latest_dir).toString();
 	last_url = set->value("last_url", last_url).toString();
 	last_dvd_directory = set->value("last_dvd_directory", last_dvd_directory).toString();
-
-	mplayer_verbose = set->value("mplayer_verbose", mplayer_verbose).toString();
 
 	disable_screensaver = set->value("disable_screensaver", disable_screensaver).toBool();
 

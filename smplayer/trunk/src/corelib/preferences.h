@@ -74,8 +74,6 @@ public:
 	QString last_url;
 	QString last_dvd_directory;
 
-	QString mplayer_verbose;
-
 	bool disable_screensaver;
 	bool use_direct_rendering;
 	bool use_double_buffer;
