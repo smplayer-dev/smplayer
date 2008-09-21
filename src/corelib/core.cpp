@@ -1166,13 +1166,6 @@ void Core::startMplayer( QString file, double seek ) {
 	proc->addArgument("-sub-fuzziness");
 	proc->addArgument( QString::number(pref->subfuzziness) );
 
-	/*
-	if (!pref->mplayer_verbose.isEmpty()) {
-		proc->addArgument("-msglevel");
-		proc->addArgument( pref->mplayer_verbose );
-	}
-	*/
-	
 	proc->addArgument("-identify");
 
 	// We need this to get info about mkv chapters
