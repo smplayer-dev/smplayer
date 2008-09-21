@@ -52,22 +52,12 @@ public:
 	QString vo; // video output
 	QString ao; // audio output
 
-#if USE_ADAPTER
-	int adapter; //Screen for overlay. If -1 it won't be used.
-#endif
-
-#if USE_COLORKEY
-	unsigned int color_key;
-#endif
-
-
 	int osd;
 
 	OptionState fast_audio_change; // If activated, not restart mplayer
 #if !SMART_DVD_CHAPTERS
 	bool fast_chapter_change;
 #endif
-
 
 	int cache_for_files;
 	int cache_for_streams;
@@ -77,9 +67,6 @@ public:
 
 	int threads; //!< number of threads to use for decoding (-lavdopts threads <1-8>)
 
-	bool use_mplayer_window;
-
-	QString monitor_aspect;
 	double monitor_aspect_double();
 
 	//! Directory of the latest file loaded
@@ -89,13 +76,11 @@ public:
 
 	QString mplayer_verbose;
 
-
 	bool disable_screensaver;
 	bool use_direct_rendering;
 	bool use_double_buffer;
 
 	QString screenshot_directory;
-
 
 	bool use_soft_video_eq;
 	bool use_soft_vol;
@@ -106,8 +91,6 @@ public:
 	QString audio_lang; 		// Preferred audio language
 	QString subtitle_lang;		// Preferred subtitle language
 
-	bool use_idx; //!< Use -idx
-
 	bool dont_change_volume; // Don't change volume on startup
 
 	bool use_hwac3; // -afm hwac3
@@ -115,15 +98,6 @@ public:
 	bool use_audio_equalizer;
 
 	bool use_slices;
-
-
-
-
-
-	// Let the user pass options to mplayer
-	QString mplayer_additional_options;
-	QString mplayer_additional_video_filters;
-	QString mplayer_additional_audio_filters;
 
 	// Performance
 	int priority;
@@ -141,9 +115,6 @@ public:
 	bool dont_remember_media_settings; 	// Will not remember anything
 	bool dont_remember_time_pos;		// Will not remember time pos
 
-
-
-	
 	//! Postprocessing quality
 	int autoq;
 
@@ -151,52 +122,12 @@ public:
 	bool loop;
 
 
-
-	// Logs
-	bool log_mplayer;
-	bool log_smplayer;
-	QString log_filter;
-
-
-#if REPAINT_BACKGROUND_OPTION
-	//! If true, mplayerlayer erases its background
-	bool always_clear_video_background; 
-#endif
-
-	//! Make configurable some of the mplayerprocess regular expressions
-	QString rx_endoffile;
-	QString rx_novideo;
-
-
 	//! If false, -brightness, -contrast and so on, won't be passed to
 	//! mplayer. It seems that some graphic cards don't support those options.
 	bool change_video_equalizer_on_startup;
 
-
-
-
-
-
-	//! If true it will autoload edl files with the same name of the file
-    //! to play
-	bool use_edl_files;
-
-
-	//! Preferred connection method: ipv4 or ipv6
-	bool prefer_ipv4;
-
-
-    //mplayer log autosaving
-    bool autosave_mplayer_log;
-    QString mplayer_log_saveto;
-    //mplayer log autosaving end
-
-
 	OptionState use_volume_option2; //!< Use -volume in command line
 
-	//! Windows only. If true, smplayer will pass short filenames to mplayer.
-	//! To workaround a bug in mplayer.
-	bool use_short_pathnames; 
 
 
     /* ***************
@@ -211,6 +142,60 @@ public:
 #endif
 
 	int vcd_initial_title;
+
+
+    /* ********
+       Advanced
+       ******** */
+
+#if USE_ADAPTER
+	int adapter; //Screen for overlay. If -1 it won't be used.
+#endif
+
+#if USE_COLORKEY
+	unsigned int color_key;
+#endif
+
+	bool use_mplayer_window;
+
+	QString monitor_aspect;
+
+	bool use_idx; //!< Use -idx
+
+	// Let the user pass options to mplayer
+	QString mplayer_additional_options;
+	QString mplayer_additional_video_filters;
+	QString mplayer_additional_audio_filters;
+
+	// Logs
+	bool log_mplayer;
+	bool log_smplayer;
+	QString log_filter;
+
+    //mplayer log autosaving
+    bool autosave_mplayer_log;
+    QString mplayer_log_saveto;
+    //mplayer log autosaving end
+
+#if REPAINT_BACKGROUND_OPTION
+	//! If true, mplayerlayer erases its background
+	bool always_clear_video_background; 
+#endif
+
+	//! Make configurable some of the mplayerprocess regular expressions
+	QString rx_endoffile;
+	QString rx_novideo;
+
+	//! If true it will autoload edl files with the same name of the file
+    //! to play
+	bool use_edl_files;
+
+	//! Preferred connection method: ipv4 or ipv6
+	bool prefer_ipv4;
+
+	//! Windows only. If true, smplayer will pass short filenames to mplayer.
+	//! To workaround a bug in mplayer.
+	bool use_short_pathnames; 
 
 
     /* **************

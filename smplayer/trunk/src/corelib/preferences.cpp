@@ -63,21 +63,12 @@ void Preferences::reset() {
 	vo = ""; 
 	ao = "";
 
-#if USE_ADAPTER
-	adapter = -1;
-#endif
-
 	// On Windows Vista set vo to gl:yuv=2:force-pbo:ati-hack as default
 #ifdef Q_OS_WIN
 	if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA) {
 		vo = "gl:yuv=2:force-pbo:ati-hack,";
 	}
 #endif
-
-#if USE_COLORKEY
-	color_key = 0x020202;
-#endif
-
 
 	// MPlayer 1.0rc1 require restart, new versions don't
 	fast_audio_change = Detect;
@@ -93,10 +84,6 @@ void Preferences::reset() {
 
 	threads = 1;
 
-	use_mplayer_window = FALSE;
-
-	monitor_aspect=""; // Autodetect
-	
 	latest_dir = QDir::homePath();
 	last_url="";
 	last_dvd_directory="";
@@ -116,7 +103,6 @@ void Preferences::reset() {
 	}
 #endif
 
-
 	use_soft_video_eq = FALSE;
 	use_soft_vol = FALSE;
     softvol_max = 110; // 110 = default value in mplayer
@@ -125,8 +111,6 @@ void Preferences::reset() {
 	audio_lang = "";
 	subtitle_lang = "";
 
-	use_idx = false;
-
 	dont_change_volume = false;
 
 	use_hwac3 = false;
@@ -134,10 +118,6 @@ void Preferences::reset() {
 	use_audio_equalizer = true;
 
 	use_slices = true;
-
-	mplayer_additional_options="";
-    mplayer_additional_video_filters="";
-    mplayer_additional_audio_filters="";
 
 	priority = AboveNormal; // Option only for windows
 	frame_drop = true;
@@ -151,55 +131,14 @@ void Preferences::reset() {
 	dont_remember_media_settings = FALSE;
 	dont_remember_time_pos = FALSE;
 
-
-
-
 	autoq = 6;
 
 	loop = FALSE;
 
-
-
-	log_mplayer = TRUE;
-	log_smplayer = TRUE;
-	log_filter = ".*";
-
-
-#if REPAINT_BACKGROUND_OPTION
-	// "Repaint video background" in the preferences dialog
-	always_clear_video_background = true;
-#endif
-
-	rx_endoffile = "Exiting... \\(End of file\\)";
-	rx_novideo = "Video: no video";
-
-
-
 	change_video_equalizer_on_startup = true;
-
-
-
-
-
-
-	use_edl_files = true;
-
-
-	prefer_ipv4 = true;
-
-
-
-
-
-    //mplayer log autosaving
-    autosave_mplayer_log = false;
-    mplayer_log_saveto = "";
-    //mplayer log autosaving end
-
 
 	use_volume_option2 = Detect; 
 
-	use_short_pathnames = false;
 
 
     /* ***************
@@ -214,6 +153,52 @@ void Preferences::reset() {
 #endif
 
 	vcd_initial_title = 2; // Most VCD's start at title #2
+
+
+    /* ********
+       Advanced
+       ******** */
+
+#if USE_ADAPTER
+	adapter = -1;
+#endif
+
+#if USE_COLORKEY
+	color_key = 0x020202;
+#endif
+
+	use_mplayer_window = false;
+
+	monitor_aspect=""; // Autodetect
+
+	use_idx = false;
+
+	mplayer_additional_options="";
+    mplayer_additional_video_filters="";
+    mplayer_additional_audio_filters="";
+
+	log_mplayer = true;
+	log_smplayer = true;
+	log_filter = ".*";
+
+    //mplayer log autosaving
+    autosave_mplayer_log = false;
+    mplayer_log_saveto = "";
+    //mplayer log autosaving end
+
+#if REPAINT_BACKGROUND_OPTION
+	// "Repaint video background" in the preferences dialog
+	always_clear_video_background = true;
+#endif
+
+	rx_endoffile = "Exiting... \\(End of file\\)";
+	rx_novideo = "Video: no video";
+
+	use_edl_files = true;
+
+	prefer_ipv4 = true;
+
+	use_short_pathnames = false;
 
 
     /* **************
@@ -403,19 +388,10 @@ void Preferences::save() {
 	set->setValue("vo", vo);
 	set->setValue("ao", ao);
 
-#if USE_ADAPTER
-	set->setValue("adapter", adapter);
-#endif
-
-#if USE_COLORKEY
-	set->setValue("color_key", QString::number(color_key,16));
-#endif
-
 	set->setValue("fast_audio_change", fast_audio_change);
 #if !SMART_DVD_CHAPTERS
 	set->setValue("fast_chapter_change", fast_chapter_change);
 #endif
-
 
 	set->setValue("cache_for_files", cache_for_files);
 	set->setValue("cache_for_streams", cache_for_streams);
@@ -424,10 +400,6 @@ void Preferences::save() {
 	set->setValue("cache_for_audiocds", cache_for_audiocds);
 
 	set->setValue("threads", threads);
-
-	set->setValue("use_mplayer_window", use_mplayer_window);
-
-	set->setValue("monitor_aspect", monitor_aspect);
 
 	set->setValue("latest_dir", latest_dir);
 	set->setValue("last_url", last_url);
@@ -442,7 +414,6 @@ void Preferences::save() {
 
 	set->setValue("screenshot_directory", screenshot_directory);
 
-
 	set->setValue("use_soft_video_eq", use_soft_video_eq);
 	set->setValue("use_soft_vol", use_soft_vol);
 	set->setValue("softvol_max", softvol_max);
@@ -450,8 +421,6 @@ void Preferences::save() {
 
 	set->setValue("audio_lang", audio_lang);
 	set->setValue("subtitle_lang", subtitle_lang);
-
-	set->setValue("use_idx", use_idx);
 
 	set->setValue("dont_change_volume", dont_change_volume );
 
@@ -461,12 +430,6 @@ void Preferences::save() {
 
 	set->setValue("use_slices", use_slices );
 
-
-
-
-	set->setValue("mplayer_additional_options", mplayer_additional_options);
-	set->setValue("mplayer_additional_video_filters", mplayer_additional_video_filters);
-	set->setValue("mplayer_additional_audio_filters", mplayer_additional_audio_filters);
 
 	set->setValue("priority", priority);
 	set->setValue("frame_drop", frame_drop);
@@ -480,48 +443,14 @@ void Preferences::save() {
 	set->setValue("dont_remember_media_settings", dont_remember_media_settings);
 	set->setValue("dont_remember_time_pos", dont_remember_time_pos);
 
-
-
 	set->setValue("autoq", autoq);
 
 	set->setValue("loop", loop);
 
-
-	set->setValue("log_mplayer", log_mplayer);
-	set->setValue("log_smplayer", log_smplayer);
-	set->setValue("log_filter", log_filter);
-
-
-#if REPAINT_BACKGROUND_OPTION
-	set->setValue("always_clear_video_background", always_clear_video_background);
-#endif
-
-	set->setValue("rx_endoffile", rx_endoffile);
-	set->setValue("rx_novideo", rx_novideo);
-
-
-
 	set->setValue("change_video_equalizer_on_startup", change_video_equalizer_on_startup);
-
-
-
-
-
-
-	set->setValue("use_edl_files", use_edl_files);
-
-
-	set->setValue("prefer_ipv4", prefer_ipv4);
-
-    //mplayer log autosaving
-    set->setValue("autosave_mplayer_log", autosave_mplayer_log);
-    set->setValue("mplayer_log_saveto", mplayer_log_saveto);
-    //mplayer log autosaving end
-
 
 	set->setValue("use_volume_option2", use_volume_option2);
 
-	set->setValue("use_short_pathnames", use_short_pathnames);
 
 	set->endGroup();
 
@@ -542,6 +471,55 @@ void Preferences::save() {
 	set->setValue("vcd_initial_title", vcd_initial_title);
 
 	set->endGroup(); // drives
+
+
+    /* ********
+       Advanced
+       ******** */
+
+	set->beginGroup( "advanced");
+
+#if USE_ADAPTER
+	set->setValue("adapter", adapter);
+#endif
+
+#if USE_COLORKEY
+	set->setValue("color_key", QString::number(color_key,16));
+#endif
+
+	set->setValue("use_mplayer_window", use_mplayer_window);
+
+	set->setValue("monitor_aspect", monitor_aspect);
+
+	set->setValue("use_idx", use_idx);
+
+	set->setValue("mplayer_additional_options", mplayer_additional_options);
+	set->setValue("mplayer_additional_video_filters", mplayer_additional_video_filters);
+	set->setValue("mplayer_additional_audio_filters", mplayer_additional_audio_filters);
+
+	set->setValue("log_mplayer", log_mplayer);
+	set->setValue("log_smplayer", log_smplayer);
+	set->setValue("log_filter", log_filter);
+
+    //mplayer log autosaving
+    set->setValue("autosave_mplayer_log", autosave_mplayer_log);
+    set->setValue("mplayer_log_saveto", mplayer_log_saveto);
+    //mplayer log autosaving end
+
+#if REPAINT_BACKGROUND_OPTION
+	set->setValue("always_clear_video_background", always_clear_video_background);
+#endif
+
+	set->setValue("rx_endoffile", rx_endoffile);
+	set->setValue("rx_novideo", rx_novideo);
+
+	set->setValue("use_edl_files", use_edl_files);
+
+	set->setValue("prefer_ipv4", prefer_ipv4);
+
+	set->setValue("use_short_pathnames", use_short_pathnames);
+
+	set->endGroup(); // advanced
 
 
     /* **************
@@ -731,29 +709,14 @@ void Preferences::load() {
 
 	mplayer_bin = set->value("mplayer_bin", mplayer_bin).toString();
 
-
 	osd = set->value("osd", osd).toInt();
 	vo = set->value("vo", vo).toString();
 	ao = set->value("ao", ao).toString();
-
-#if USE_ADAPTER
-	adapter = set->value("adapter", adapter).toInt();
-#endif
-
-#if USE_COLORKEY
-	bool ok;
-	QString color = set->value("color_key", QString::number(color_key,16)).toString();
-	unsigned int temp_color_key = color.toUInt(&ok, 16);
-	if (ok)
-		color_key = temp_color_key;
-	//color_key = set->value("color_key", color_key).toInt();
-#endif
 
 	fast_audio_change = (OptionState) set->value("fast_audio_change", fast_audio_change).toInt();
 #if !SMART_DVD_CHAPTERS
 	fast_chapter_change = set->value("fast_chapter_change", fast_chapter_change).toBool();
 #endif
-
 
 	cache_for_files = set->value("cache_for_files", cache_for_files).toInt();
 	cache_for_streams = set->value("cache_for_streams", cache_for_streams).toInt();
@@ -763,10 +726,6 @@ void Preferences::load() {
 
 	threads = set->value("threads", threads).toInt();
 
-	use_mplayer_window = set->value("use_mplayer_window", use_mplayer_window).toBool();
-
-	monitor_aspect = set->value("monitor_aspect", monitor_aspect).toString();
-		
 	latest_dir = set->value("latest_dir", latest_dir).toString();
 	last_url = set->value("last_url", last_url).toString();
 	last_dvd_directory = set->value("last_dvd_directory", last_dvd_directory).toString();
@@ -780,7 +739,6 @@ void Preferences::load() {
 
 	screenshot_directory = set->value("screenshot_directory", screenshot_directory).toString();
 
-
 	use_soft_video_eq = set->value("use_soft_video_eq", use_soft_video_eq).toBool();
 	use_soft_vol = set->value("use_soft_vol", use_soft_vol).toBool();
 	softvol_max = set->value("softvol_max", softvol_max).toInt();
@@ -789,8 +747,6 @@ void Preferences::load() {
 	audio_lang = set->value("audio_lang", audio_lang).toString();
 	subtitle_lang = set->value("subtitle_lang", subtitle_lang).toString();
 
-	use_idx = set->value("use_idx", use_idx).toBool();
-
 	dont_change_volume = set->value("dont_change_volume", dont_change_volume ).toBool();
 
 	use_hwac3 = set->value("use_hwac3", use_hwac3 ).toBool();
@@ -798,13 +754,6 @@ void Preferences::load() {
 	use_audio_equalizer = set->value("use_audio_equalizer", use_audio_equalizer ).toBool();
 
 	use_slices = set->value("use_slices", use_slices ).toBool();
-
-
-
-
-	mplayer_additional_options = set->value("mplayer_additional_options", mplayer_additional_options).toString();
-	mplayer_additional_video_filters = set->value("mplayer_additional_video_filters", mplayer_additional_video_filters).toString();
-	mplayer_additional_audio_filters = set->value("mplayer_additional_audio_filters", mplayer_additional_audio_filters).toString();
 
 	priority = set->value("priority", priority).toInt();
 	frame_drop = set->value("frame_drop", frame_drop).toBool();
@@ -818,45 +767,13 @@ void Preferences::load() {
 	dont_remember_media_settings = set->value("dont_remember_media_settings", dont_remember_media_settings).toBool();
 	dont_remember_time_pos = set->value("dont_remember_time_pos", dont_remember_time_pos).toBool();
 
-
-
 	autoq = set->value("autoq", autoq).toInt();
 
 	loop = set->value("loop", loop).toBool();
 
-
-	log_mplayer = set->value("log_mplayer", log_mplayer).toBool();
-	log_smplayer = set->value("log_smplayer", log_smplayer).toBool();
-	log_filter = set->value("log_filter", log_filter).toString();
-
-#if REPAINT_BACKGROUND_OPTION
-	always_clear_video_background = set->value("always_clear_video_background", always_clear_video_background).toBool();
-#endif
-
-	rx_endoffile = set->value("rx_endoffile", rx_endoffile).toString();
-	rx_novideo = set->value("rx_novideo", rx_novideo).toString();
-
-
 	change_video_equalizer_on_startup = set->value("change_video_equalizer_on_startup", change_video_equalizer_on_startup).toBool();
 
-
-
-
-
-	use_edl_files = set->value("use_edl_files", use_edl_files).toBool();
-
-
-	prefer_ipv4 = set->value("prefer_ipv4", prefer_ipv4).toBool();
-
-    //mplayer log autosaving
-    autosave_mplayer_log = set->value("autosave_mplayer_log", autosave_mplayer_log).toBool();
-    mplayer_log_saveto = set->value("mplayer_log_saveto", mplayer_log_saveto).toString();
-    //mplayer log autosaving end
-
-
 	use_volume_option2 = (OptionState) set->value("use_volume_option2", use_volume_option2).toInt();
-
-	use_short_pathnames = set->value("use_short_pathnames", use_short_pathnames).toBool();
 
 	set->endGroup();
 
@@ -877,6 +794,60 @@ void Preferences::load() {
 	vcd_initial_title = set->value("vcd_initial_title", vcd_initial_title ).toInt();
 
 	set->endGroup(); // drives
+
+
+    /* ********
+       Advanced
+       ******** */
+
+	set->beginGroup( "advanced");
+
+#if USE_ADAPTER
+	adapter = set->value("adapter", adapter).toInt();
+#endif
+
+#if USE_COLORKEY
+	bool ok;
+	QString color = set->value("color_key", QString::number(color_key,16)).toString();
+	unsigned int temp_color_key = color.toUInt(&ok, 16);
+	if (ok)
+		color_key = temp_color_key;
+	//color_key = set->value("color_key", color_key).toInt();
+#endif
+
+	use_mplayer_window = set->value("use_mplayer_window", use_mplayer_window).toBool();
+
+	monitor_aspect = set->value("monitor_aspect", monitor_aspect).toString();
+
+	use_idx = set->value("use_idx", use_idx).toBool();
+
+	mplayer_additional_options = set->value("mplayer_additional_options", mplayer_additional_options).toString();
+	mplayer_additional_video_filters = set->value("mplayer_additional_video_filters", mplayer_additional_video_filters).toString();
+	mplayer_additional_audio_filters = set->value("mplayer_additional_audio_filters", mplayer_additional_audio_filters).toString();
+
+	log_mplayer = set->value("log_mplayer", log_mplayer).toBool();
+	log_smplayer = set->value("log_smplayer", log_smplayer).toBool();
+	log_filter = set->value("log_filter", log_filter).toString();
+
+    //mplayer log autosaving
+    autosave_mplayer_log = set->value("autosave_mplayer_log", autosave_mplayer_log).toBool();
+    mplayer_log_saveto = set->value("mplayer_log_saveto", mplayer_log_saveto).toString();
+    //mplayer log autosaving end
+
+#if REPAINT_BACKGROUND_OPTION
+	always_clear_video_background = set->value("always_clear_video_background", always_clear_video_background).toBool();
+#endif
+
+	rx_endoffile = set->value("rx_endoffile", rx_endoffile).toString();
+	rx_novideo = set->value("rx_novideo", rx_novideo).toString();
+
+	use_edl_files = set->value("use_edl_files", use_edl_files).toBool();
+
+	prefer_ipv4 = set->value("prefer_ipv4", prefer_ipv4).toBool();
+
+	use_short_pathnames = set->value("use_short_pathnames", use_short_pathnames).toBool();
+
+	set->endGroup(); // advanced
 
 
     /* **************
