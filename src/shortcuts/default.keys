@@ -37,6 +37,7 @@ video_equalizer	Ctrl+E
 screenshot	S
 on_top	
 flip	
+mirror	
 postprocessing	
 autodetect_phase	
 deblock	
