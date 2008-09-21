@@ -334,6 +334,7 @@ protected:
 	MyAction * screenshotAct;
 	MyAction * onTopAct;
 	MyAction * flipAct;
+	MyAction * mirrorAct;
 	MyAction * postProcessingAct;
 	MyAction * phaseAct;
 	MyAction * deblockAct;

@@ -1581,6 +1581,12 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( QString("rotate=%1").arg(mset.rotate) );
 	}
 
+	// Mirror
+	if (mset.mirror) {
+		proc->addArgument( "-vf-add" );
+		proc->addArgument("mirror");
+	}
+
 	// Denoise
 	if (mset.current_denoiser != MediaSettings::NoDenoise) {
 		proc->addArgument("-vf-add");
@@ -1984,6 +1990,19 @@ void Core::toggleFlip(bool b) {
 	}
 }
 
+void Core::toggleMirror() {
+	qDebug("Core::toggleMirror");
+	toggleMirror( !mset.mirror );
+}
+
+void Core::toggleMirror(bool b) {
+	qDebug("Core::toggleMirror: %d", b);
+
+	if (mset.mirror != b) {
+		mset.mirror = b;
+		if (proc->isRunning()) restartPlay();
+	}
+}
 
 // Audio filters
 void Core::toggleKaraoke() {
