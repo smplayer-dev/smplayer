@@ -48,13 +48,6 @@ public:
 	void load();
 #endif
 
-	QString mplayer_bin;
-	QString vo; // video output
-	QString ao; // audio output
-
-	int osd;
-
-
 	double monitor_aspect_double();
 
 	//! Directory of the latest file loaded
@@ -62,47 +55,50 @@ public:
 	QString last_url;
 	QString last_dvd_directory;
 
-	bool disable_screensaver;
-	bool use_direct_rendering;
-	bool use_double_buffer;
+
+	//! If false, -brightness, -contrast and so on, won't be passed to
+	//! mplayer. It seems that some graphic cards don't support those options.
+	bool change_video_equalizer_on_startup;
+
+
+    /* *******
+       General
+       ******* */
+
+	QString mplayer_bin;
+	QString vo; // video output
+	QString ao; // audio output
 
 	QString screenshot_directory;
-
-	bool use_soft_video_eq;
-	bool use_soft_vol;
-
-	int softvol_max;
-	OptionState use_scaletempo;
-
-	QString audio_lang; 		// Preferred audio language
-	QString subtitle_lang;		// Preferred subtitle language
-
-	bool dont_change_volume; // Don't change volume on startup
-
-	bool use_hwac3; // -afm hwac3
-
-	bool use_audio_equalizer;
-
-	bool use_slices;
 
 	// SMPlayer will remember all media settings for all videos.
 	// This options allow to disable it:
 	bool dont_remember_media_settings; 	// Will not remember anything
 	bool dont_remember_time_pos;		// Will not remember time pos
 
-	//! Postprocessing quality
-	int autoq;
+	QString audio_lang; 		// Preferred audio language
+	QString subtitle_lang;		// Preferred subtitle language
 
-	//! Loop. If true repeat the file
-	bool loop;
+	// Video
+	bool use_direct_rendering;
+	bool use_double_buffer;
+	bool disable_screensaver;
+	bool use_soft_video_eq;
+	bool use_slices;
+	int autoq; 	//!< Postprocessing quality
 
-
-	//! If false, -brightness, -contrast and so on, won't be passed to
-	//! mplayer. It seems that some graphic cards don't support those options.
-	bool change_video_equalizer_on_startup;
-
+	// Audio
+	bool use_soft_vol;
+	int softvol_max;
+	OptionState use_scaletempo;
+	bool dont_change_volume; // Don't change volume on startup
+	bool use_hwac3; // -afm hwac3
+	bool use_audio_equalizer;
 	OptionState use_volume_option2; //!< Use -volume in command line
 
+	// Misc
+	bool loop; 	//!< Loop. If true repeat the file
+	int osd;
 
 
     /* ***************

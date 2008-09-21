@@ -43,11 +43,6 @@ Preferences::~Preferences() {
 }
 
 void Preferences::reset() {
-#ifdef Q_OS_WIN
-	mplayer_bin= "mplayer/mplayer.exe";
-#else
-	mplayer_bin = "mplayer";
-#endif
 
 	/*
 	QFileInfo fi(mplayer_bin);
@@ -57,8 +52,23 @@ void Preferences::reset() {
 	}
 	*/
 
+	latest_dir = QDir::homePath();
+	last_url="";
+	last_dvd_directory="";
 
-	osd = None;
+	change_video_equalizer_on_startup = true;
+
+
+
+    /* *******
+       General
+       ******* */
+
+#ifdef Q_OS_WIN
+	mplayer_bin= "mplayer/mplayer.exe";
+#else
+	mplayer_bin = "mplayer";
+#endif
 
 	vo = ""; 
 	ao = "";
@@ -70,16 +80,6 @@ void Preferences::reset() {
 	}
 #endif
 
-
-	latest_dir = QDir::homePath();
-	last_url="";
-	last_dvd_directory="";
-
-	disable_screensaver = true;
-
-	use_direct_rendering = false;
-	use_double_buffer = true;
-
 	screenshot_directory="";
 #ifndef PORTABLE_APP
 	if (QFile::exists(Helper::appHomePath() + "/screenshots")) {
@@ -87,34 +87,29 @@ void Preferences::reset() {
 	}
 #endif
 
-	use_soft_video_eq = FALSE;
-	use_soft_vol = FALSE;
-    softvol_max = 110; // 110 = default value in mplayer
-	use_scaletempo = Detect;
+	dont_remember_media_settings = false;
+	dont_remember_time_pos = false;
 
 	audio_lang = "";
 	subtitle_lang = "";
 
-	dont_change_volume = false;
-
-	use_hwac3 = false;
-
-	use_audio_equalizer = true;
-
+	use_direct_rendering = false;
+	use_double_buffer = true;
+	disable_screensaver = true;
+	use_soft_video_eq = false;
 	use_slices = true;
-
-
-	dont_remember_media_settings = FALSE;
-	dont_remember_time_pos = FALSE;
-
 	autoq = 6;
 
-	loop = FALSE;
-
-	change_video_equalizer_on_startup = true;
-
+	use_soft_vol = false;
+    softvol_max = 110; // 110 = default value in mplayer
+	use_scaletempo = Detect;
+	dont_change_volume = false;
+	use_hwac3 = false;
+	use_audio_equalizer = true;
 	use_volume_option2 = Detect; 
 
+	loop = false;
+	osd = None;
 
 
     /* ***************
@@ -386,55 +381,52 @@ void Preferences::save() {
 
 	set->beginGroup( "preferences");
 
-	set->setValue("mplayer_bin", mplayer_bin);
-
-	set->setValue("osd", osd);
-	set->setValue("vo", vo);
-	set->setValue("ao", ao);
-
-
 	set->setValue("latest_dir", latest_dir);
 	set->setValue("last_url", last_url);
 	set->setValue("last_dvd_directory", last_dvd_directory);
 
-	set->setValue("disable_screensaver", disable_screensaver);
+	set->setValue("change_video_equalizer_on_startup", change_video_equalizer_on_startup);
 
-	set->setValue("use_direct_rendering", use_direct_rendering);
-	set->setValue("use_double_buffer", use_double_buffer);
+	set->endGroup();
+
+
+    /* *******
+       General
+       ******* */
+
+	set->beginGroup( "general");
+
+	set->setValue("mplayer_bin", mplayer_bin);
+	set->setValue("driver/vo", vo);
+	set->setValue("driver/ao", ao);
 
 	set->setValue("screenshot_directory", screenshot_directory);
-
-	set->setValue("use_soft_video_eq", use_soft_video_eq);
-	set->setValue("use_soft_vol", use_soft_vol);
-	set->setValue("softvol_max", softvol_max);
-	set->setValue("use_scaletempo", use_scaletempo);
-
-	set->setValue("audio_lang", audio_lang);
-	set->setValue("subtitle_lang", subtitle_lang);
-
-	set->setValue("dont_change_volume", dont_change_volume );
-
-	set->setValue("use_hwac3", use_hwac3 );
-
-	set->setValue("use_audio_equalizer", use_audio_equalizer );
-
-	set->setValue("use_slices", use_slices );
-
-
 
 	set->setValue("dont_remember_media_settings", dont_remember_media_settings);
 	set->setValue("dont_remember_time_pos", dont_remember_time_pos);
 
+	set->setValue("audio_lang", audio_lang);
+	set->setValue("subtitle_lang", subtitle_lang);
+
+	set->setValue("use_direct_rendering", use_direct_rendering);
+	set->setValue("use_double_buffer", use_double_buffer);
+	set->setValue("disable_screensaver", disable_screensaver);
+	set->setValue("use_soft_video_eq", use_soft_video_eq);
+	set->setValue("use_slices", use_slices );
 	set->setValue("autoq", autoq);
 
-	set->setValue("loop", loop);
-
-	set->setValue("change_video_equalizer_on_startup", change_video_equalizer_on_startup);
-
+	set->setValue("use_soft_vol", use_soft_vol);
+	set->setValue("softvol_max", softvol_max);
+	set->setValue("use_scaletempo", use_scaletempo);
+	set->setValue("dont_change_volume", dont_change_volume );
+	set->setValue("use_hwac3", use_hwac3 );
+	set->setValue("use_audio_equalizer", use_audio_equalizer );
 	set->setValue("use_volume_option2", use_volume_option2);
 
+	set->setValue("loop", loop);
+	set->setValue("osd", osd);
 
-	set->endGroup();
+	set->endGroup(); // general
 
 
     /* ***************
@@ -720,53 +712,52 @@ void Preferences::load() {
 
 	set->beginGroup( "preferences");
 
-	mplayer_bin = set->value("mplayer_bin", mplayer_bin).toString();
-
-	osd = set->value("osd", osd).toInt();
-	vo = set->value("vo", vo).toString();
-	ao = set->value("ao", ao).toString();
-
-
 	latest_dir = set->value("latest_dir", latest_dir).toString();
 	last_url = set->value("last_url", last_url).toString();
 	last_dvd_directory = set->value("last_dvd_directory", last_dvd_directory).toString();
 
-	disable_screensaver = set->value("disable_screensaver", disable_screensaver).toBool();
+	change_video_equalizer_on_startup = set->value("change_video_equalizer_on_startup", change_video_equalizer_on_startup).toBool();
 
-	use_direct_rendering = set->value("use_direct_rendering", use_direct_rendering).toBool();
-	use_double_buffer = set->value("use_double_buffer", use_double_buffer).toBool();
+	set->endGroup();
+
+
+    /* *******
+       General
+       ******* */
+
+	set->beginGroup( "general");
+
+	mplayer_bin = set->value("mplayer_bin", mplayer_bin).toString();
+	vo = set->value("driver/vo", vo).toString();
+	ao = set->value("driver/ao", ao).toString();
 
 	screenshot_directory = set->value("screenshot_directory", screenshot_directory).toString();
-
-	use_soft_video_eq = set->value("use_soft_video_eq", use_soft_video_eq).toBool();
-	use_soft_vol = set->value("use_soft_vol", use_soft_vol).toBool();
-	softvol_max = set->value("softvol_max", softvol_max).toInt();
-	use_scaletempo = (OptionState) set->value("use_scaletempo", use_scaletempo).toInt();
-
-	audio_lang = set->value("audio_lang", audio_lang).toString();
-	subtitle_lang = set->value("subtitle_lang", subtitle_lang).toString();
-
-	dont_change_volume = set->value("dont_change_volume", dont_change_volume ).toBool();
-
-	use_hwac3 = set->value("use_hwac3", use_hwac3 ).toBool();
-
-	use_audio_equalizer = set->value("use_audio_equalizer", use_audio_equalizer ).toBool();
-
-	use_slices = set->value("use_slices", use_slices ).toBool();
-
 
 	dont_remember_media_settings = set->value("dont_remember_media_settings", dont_remember_media_settings).toBool();
 	dont_remember_time_pos = set->value("dont_remember_time_pos", dont_remember_time_pos).toBool();
 
+	audio_lang = set->value("audio_lang", audio_lang).toString();
+	subtitle_lang = set->value("subtitle_lang", subtitle_lang).toString();
+
+	use_direct_rendering = set->value("use_direct_rendering", use_direct_rendering).toBool();
+	use_double_buffer = set->value("use_double_buffer", use_double_buffer).toBool();
+	disable_screensaver = set->value("disable_screensaver", disable_screensaver).toBool();
+	use_soft_video_eq = set->value("use_soft_video_eq", use_soft_video_eq).toBool();
+	use_slices = set->value("use_slices", use_slices ).toBool();
 	autoq = set->value("autoq", autoq).toInt();
 
-	loop = set->value("loop", loop).toBool();
-
-	change_video_equalizer_on_startup = set->value("change_video_equalizer_on_startup", change_video_equalizer_on_startup).toBool();
-
+	use_soft_vol = set->value("use_soft_vol", use_soft_vol).toBool();
+	softvol_max = set->value("softvol_max", softvol_max).toInt();
+	use_scaletempo = (OptionState) set->value("use_scaletempo", use_scaletempo).toInt();
+	dont_change_volume = set->value("dont_change_volume", dont_change_volume ).toBool();
+	use_hwac3 = set->value("use_hwac3", use_hwac3 ).toBool();
+	use_audio_equalizer = set->value("use_audio_equalizer", use_audio_equalizer ).toBool();
 	use_volume_option2 = (OptionState) set->value("use_volume_option2", use_volume_option2).toInt();
 
-	set->endGroup();
+	loop = set->value("loop", loop).toBool();
+	osd = set->value("osd", osd).toInt();
+
+	set->endGroup(); // general
 
 
     /* ***************
