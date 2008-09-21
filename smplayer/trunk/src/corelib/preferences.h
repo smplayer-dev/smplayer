@@ -95,7 +95,7 @@ public:
 	bool use_double_buffer;
 
 	QString screenshot_directory;
-	bool subtitles_on_screenshots;
+
 
 	bool use_soft_video_eq;
 	bool use_soft_vol;
@@ -298,6 +298,8 @@ public:
 
 	bool use_closed_caption_subs;
 	bool use_forced_subs_only;
+
+	bool subtitles_on_screenshots;
 
 	//! Use the new sub_vob, sub_demux and sub_file commands
 	//! instead of sub_select
