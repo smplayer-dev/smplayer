@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -4286,27 +4287,27 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="218"/>
         <source>fast</source>
-        <translation type="unfinished"></translation>
+        <translation>schnell</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="214"/>
         <source>slow</source>
-        <translation type="unfinished"></translation>
+        <translation>langsam</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="211"/>
         <source>fastest</source>
-        <translation type="unfinished"></translation>
+        <translation>am schnellsten</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="219"/>
         <source>fast - ATI cards</source>
-        <translation type="unfinished"></translation>
+        <translation>schnell  - ATI Karten</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="241"/>
         <source>User defined...</source>
-        <translation type="unfinished"></translation>
+        <translation>Benutzerdefiniert...</translation>
     </message>
 </context>
 <context>
