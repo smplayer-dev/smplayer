@@ -115,7 +115,7 @@ void Preferences::reset() {
 		screenshot_directory = Helper::appHomePath() + "/screenshots";
 	}
 #endif
-	subtitles_on_screenshots = false;
+
 
 	use_soft_video_eq = FALSE;
 	use_soft_vol = FALSE;
@@ -306,6 +306,8 @@ void Preferences::reset() {
 	use_closed_caption_subs = false;
 	use_forced_subs_only = false;
 
+	subtitles_on_screenshots = false;
+
 	use_new_sub_commands = Detect;
 	change_sub_scale_should_restart = Detect;
 
@@ -439,7 +441,7 @@ void Preferences::save() {
 	set->setValue("use_double_buffer", use_double_buffer);
 
 	set->setValue("screenshot_directory", screenshot_directory);
-	set->setValue("subtitles_on_screenshots", subtitles_on_screenshots);
+
 
 	set->setValue("use_soft_video_eq", use_soft_video_eq);
 	set->setValue("use_soft_vol", use_soft_vol);
@@ -634,6 +636,8 @@ void Preferences::save() {
 	set->setValue("use_closed_caption_subs", use_closed_caption_subs);
 	set->setValue("use_forced_subs_only", use_forced_subs_only);
 
+	set->setValue("subtitles_on_screenshots", subtitles_on_screenshots);
+
 	set->setValue("use_new_sub_commands", use_new_sub_commands);
 	set->setValue("change_sub_scale_should_restart", change_sub_scale_should_restart);
 
@@ -775,7 +779,7 @@ void Preferences::load() {
 	use_double_buffer = set->value("use_double_buffer", use_double_buffer).toBool();
 
 	screenshot_directory = set->value("screenshot_directory", screenshot_directory).toString();
-	subtitles_on_screenshots = set->value("subtitles_on_screenshots", subtitles_on_screenshots).toBool();
+
 
 	use_soft_video_eq = set->value("use_soft_video_eq", use_soft_video_eq).toBool();
 	use_soft_vol = set->value("use_soft_vol", use_soft_vol).toBool();
@@ -966,6 +970,8 @@ void Preferences::load() {
 
 	use_closed_caption_subs = set->value("use_closed_caption_subs", use_closed_caption_subs).toBool();
 	use_forced_subs_only = set->value("use_forced_subs_only", use_forced_subs_only).toBool();
+
+	subtitles_on_screenshots = set->value("subtitles_on_screenshots", subtitles_on_screenshots).toBool();
 
 	use_new_sub_commands = (OptionState) set->value("use_new_sub_commands", use_new_sub_commands).toInt();
 	change_sub_scale_should_restart = (OptionState) set->value("change_sub_scale_should_restart", change_sub_scale_should_restart).toInt();
