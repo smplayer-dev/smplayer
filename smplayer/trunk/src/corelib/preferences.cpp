@@ -70,19 +70,6 @@ void Preferences::reset() {
 	}
 #endif
 
-	// MPlayer 1.0rc1 require restart, new versions don't
-	fast_audio_change = Detect;
-#if !SMART_DVD_CHAPTERS
-	fast_chapter_change = false;
-#endif
-
-	cache_for_files = 2000;
-	cache_for_streams = 1000;
-	cache_for_dvds = 0; // not recommended to use cache for dvds
-	cache_for_vcds = 1000;
-	cache_for_audiocds = 1000;
-
-	threads = 1;
 
 	latest_dir = QDir::homePath();
 	last_url="";
@@ -116,14 +103,6 @@ void Preferences::reset() {
 
 	use_slices = true;
 
-	priority = AboveNormal; // Option only for windows
-	frame_drop = true;
-	hard_frame_drop = false;
-	autosync = false;
-	autosync_factor = 100;
-
-	h264_skip_loop_filter = LoopEnabled;
-	HD_height = 720;
 
 	dont_remember_media_settings = FALSE;
 	dont_remember_time_pos = FALSE;
@@ -150,6 +129,34 @@ void Preferences::reset() {
 #endif
 
 	vcd_initial_title = 2; // Most VCD's start at title #2
+
+
+    /* ***********
+       Performance
+       *********** */
+
+	priority = AboveNormal; // Option only for windows
+	frame_drop = true;
+	hard_frame_drop = false;
+	autosync = false;
+	autosync_factor = 100;
+
+	h264_skip_loop_filter = LoopEnabled;
+	HD_height = 720;
+
+	// MPlayer 1.0rc1 require restart, new versions don't
+	fast_audio_change = Detect;
+#if !SMART_DVD_CHAPTERS
+	fast_chapter_change = false;
+#endif
+
+	threads = 1;
+
+	cache_for_files = 2000;
+	cache_for_streams = 1000;
+	cache_for_dvds = 0; // not recommended to use cache for dvds
+	cache_for_vcds = 1000;
+	cache_for_audiocds = 1000;
 
 
     /* ********
@@ -385,18 +392,6 @@ void Preferences::save() {
 	set->setValue("vo", vo);
 	set->setValue("ao", ao);
 
-	set->setValue("fast_audio_change", fast_audio_change);
-#if !SMART_DVD_CHAPTERS
-	set->setValue("fast_chapter_change", fast_chapter_change);
-#endif
-
-	set->setValue("cache_for_files", cache_for_files);
-	set->setValue("cache_for_streams", cache_for_streams);
-	set->setValue("cache_for_dvds", cache_for_dvds);
-	set->setValue("cache_for_vcds", cache_for_vcds);
-	set->setValue("cache_for_audiocds", cache_for_audiocds);
-
-	set->setValue("threads", threads);
 
 	set->setValue("latest_dir", latest_dir);
 	set->setValue("last_url", last_url);
@@ -426,14 +421,6 @@ void Preferences::save() {
 	set->setValue("use_slices", use_slices );
 
 
-	set->setValue("priority", priority);
-	set->setValue("frame_drop", frame_drop);
-	set->setValue("hard_frame_drop", hard_frame_drop);
-	set->setValue("autosync", autosync);
-	set->setValue("autosync_factor", autosync_factor);
-
-	set->setValue("h264_skip_loop_filter", h264_skip_loop_filter);
-	set->setValue("HD_height", HD_height);
 
 	set->setValue("dont_remember_media_settings", dont_remember_media_settings);
 	set->setValue("dont_remember_time_pos", dont_remember_time_pos);
@@ -466,6 +453,37 @@ void Preferences::save() {
 	set->setValue("vcd_initial_title", vcd_initial_title);
 
 	set->endGroup(); // drives
+
+
+    /* ***********
+       Performance
+       *********** */
+
+	set->beginGroup( "performance");
+
+	set->setValue("priority", priority);
+	set->setValue("frame_drop", frame_drop);
+	set->setValue("hard_frame_drop", hard_frame_drop);
+	set->setValue("autosync", autosync);
+	set->setValue("autosync_factor", autosync_factor);
+
+	set->setValue("h264_skip_loop_filter", h264_skip_loop_filter);
+	set->setValue("HD_height", HD_height);
+
+	set->setValue("fast_audio_change", fast_audio_change);
+#if !SMART_DVD_CHAPTERS
+	set->setValue("fast_chapter_change", fast_chapter_change);
+#endif
+
+	set->setValue("threads", threads);
+
+	set->setValue("cache_for_files", cache_for_files);
+	set->setValue("cache_for_streams", cache_for_streams);
+	set->setValue("cache_for_dvds", cache_for_dvds);
+	set->setValue("cache_for_vcds", cache_for_vcds);
+	set->setValue("cache_for_audiocds", cache_for_audiocds);
+
+	set->endGroup(); // performance
 
 
     /* ********
@@ -708,18 +726,6 @@ void Preferences::load() {
 	vo = set->value("vo", vo).toString();
 	ao = set->value("ao", ao).toString();
 
-	fast_audio_change = (OptionState) set->value("fast_audio_change", fast_audio_change).toInt();
-#if !SMART_DVD_CHAPTERS
-	fast_chapter_change = set->value("fast_chapter_change", fast_chapter_change).toBool();
-#endif
-
-	cache_for_files = set->value("cache_for_files", cache_for_files).toInt();
-	cache_for_streams = set->value("cache_for_streams", cache_for_streams).toInt();
-	cache_for_dvds = set->value("cache_for_dvds", cache_for_dvds).toInt();
-	cache_for_vcds = set->value("cache_for_vcds", cache_for_vcds).toInt();
-	cache_for_audiocds = set->value("cache_for_audiocds", cache_for_audiocds).toInt();
-
-	threads = set->value("threads", threads).toInt();
 
 	latest_dir = set->value("latest_dir", latest_dir).toString();
 	last_url = set->value("last_url", last_url).toString();
@@ -748,14 +754,6 @@ void Preferences::load() {
 
 	use_slices = set->value("use_slices", use_slices ).toBool();
 
-	priority = set->value("priority", priority).toInt();
-	frame_drop = set->value("frame_drop", frame_drop).toBool();
-	hard_frame_drop = set->value("hard_frame_drop", hard_frame_drop).toBool();
-	autosync = set->value("autosync", autosync).toBool();
-	autosync_factor = set->value("autosync_factor", autosync_factor).toInt();
-
-	h264_skip_loop_filter = (H264LoopFilter) set->value("h264_skip_loop_filter", h264_skip_loop_filter).toInt();
-	HD_height = set->value("HD_height", HD_height).toInt();
 
 	dont_remember_media_settings = set->value("dont_remember_media_settings", dont_remember_media_settings).toBool();
 	dont_remember_time_pos = set->value("dont_remember_time_pos", dont_remember_time_pos).toBool();
@@ -787,6 +785,37 @@ void Preferences::load() {
 	vcd_initial_title = set->value("vcd_initial_title", vcd_initial_title ).toInt();
 
 	set->endGroup(); // drives
+
+
+    /* ***********
+       Performance
+       *********** */
+
+	set->beginGroup( "performance");
+
+	priority = set->value("priority", priority).toInt();
+	frame_drop = set->value("frame_drop", frame_drop).toBool();
+	hard_frame_drop = set->value("hard_frame_drop", hard_frame_drop).toBool();
+	autosync = set->value("autosync", autosync).toBool();
+	autosync_factor = set->value("autosync_factor", autosync_factor).toInt();
+
+	h264_skip_loop_filter = (H264LoopFilter) set->value("h264_skip_loop_filter", h264_skip_loop_filter).toInt();
+	HD_height = set->value("HD_height", HD_height).toInt();
+
+	fast_audio_change = (OptionState) set->value("fast_audio_change", fast_audio_change).toInt();
+#if !SMART_DVD_CHAPTERS
+	fast_chapter_change = set->value("fast_chapter_change", fast_chapter_change).toBool();
+#endif
+
+	threads = set->value("threads", threads).toInt();
+
+	cache_for_files = set->value("cache_for_files", cache_for_files).toInt();
+	cache_for_streams = set->value("cache_for_streams", cache_for_streams).toInt();
+	cache_for_dvds = set->value("cache_for_dvds", cache_for_dvds).toInt();
+	cache_for_vcds = set->value("cache_for_vcds", cache_for_vcds).toInt();
+	cache_for_audiocds = set->value("cache_for_audiocds", cache_for_audiocds).toInt();
+
+	set->endGroup(); // performance
 
 
     /* ********
