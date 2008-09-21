@@ -6,6 +6,11 @@
    of the available drivers (png, jpeg... and so on are not shown). There's
    also an "User defined" option. If selected, a line edit will appear where
    the user can type the driver to use (possibly with additional options).
+ * The code in preferences.h/preferences.cpp has been reorganized, and 
+   now the preferences are saved in several sections in smplayer.ini.
+   That means most of your settings will be lost and you'll have to reconfigure
+   smplayer again (I even recommend to delete smplayer.ini, otherwise there'll 
+   be a mix of the old settings with the new ones).
 
 (2008-09-19)
  * It seems crashes still happen in the code to select subtitle tracks.
