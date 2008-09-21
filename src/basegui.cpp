@@ -428,6 +428,10 @@ void BaseGui::createActions() {
 	connect( flipAct, SIGNAL(toggled(bool)),
              core, SLOT(toggleFlip(bool)) );
 
+	mirrorAct = new MyAction( this, "mirror" );
+	mirrorAct->setCheckable( true );
+	connect( mirrorAct, SIGNAL(toggled(bool)),
+             core, SLOT(toggleMirror(bool)) );
 
 	// Submenu filter
 	postProcessingAct = new MyAction( this, "postprocessing" );
@@ -921,6 +925,7 @@ void BaseGui::setActionsEnabled(bool b) {
 	videoEqualizerAct->setEnabled(b);
 	screenshotAct->setEnabled(b);
 	flipAct->setEnabled(b);
+	mirrorAct->setEnabled(b);
 	postProcessingAct->setEnabled(b);
 	phaseAct->setEnabled(b);
 	deblockAct->setEnabled(b);
@@ -1035,6 +1040,7 @@ void BaseGui::enableActionsOnPlaying() {
 		videoEqualizerAct->setEnabled(false);
 		screenshotAct->setEnabled(false);
 		flipAct->setEnabled(false);
+		mirrorAct->setEnabled(false);
 		postProcessingAct->setEnabled(false);
 		phaseAct->setEnabled(false);
 		deblockAct->setEnabled(false);
@@ -1139,6 +1145,7 @@ void BaseGui::retranslateStrings() {
 	screenshotAct->change( Images::icon("screenshot"), tr("&Screenshot") );
 	onTopAct->change( Images::icon("ontop"), tr("S&tay on top") );
 	flipAct->change( Images::icon("flip"), tr("Flip i&mage") );
+	mirrorAct->change( Images::icon("mirror"), tr("Mirr&or image") );
 
 	decZoomAct->change( tr("Zoom &-") );
 	incZoomAct->change( tr("Zoom &+") );
@@ -1798,6 +1805,7 @@ void BaseGui::createMenus() {
 	videoMenu->addMenu(rotate_menu);
 
 	videoMenu->addAction(flipAct);
+	videoMenu->addAction(mirrorAct);
 	videoMenu->addSeparator();
 	videoMenu->addAction(videoEqualizerAct);
 	videoMenu->addAction(screenshotAct);
@@ -2566,6 +2574,8 @@ void BaseGui::updateWidgets() {
 	// Flip
 	flipAct->setChecked( core->mset.flip );
 
+	// Mirror
+	mirrorAct->setChecked( core->mset.mirror );
 
 	// Use ass lib
 	useAssAct->setChecked( pref->use_ass_subtitles );

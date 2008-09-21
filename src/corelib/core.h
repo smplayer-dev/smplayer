@@ -108,6 +108,9 @@ public slots:
 	void toggleFlip();
 	void toggleFlip(bool b);
 
+	void toggleMirror();
+	void toggleMirror(bool b);
+
 	// Audio filters
 	void toggleKaraoke();
 	void toggleKaraoke(bool b);

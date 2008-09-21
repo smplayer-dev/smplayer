@@ -125,6 +125,7 @@ public:
 
 	int rotate;
 	bool flip; //!< Flip image
+	bool mirror; //!< Mirrors the image on the Y axis.
 
 	// This a property of the video and it should be
     // in mediadata, but we have to save it to preserve 

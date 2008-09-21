@@ -1,5 +1,9 @@
 [b]Version 0.6.3[/b]:
 
+(2008-09-21)
+ * Added the new option Video->Mirror image. This option mirrors the image 
+   on the Y axis.
+
 (2008-09-20)
  * The comboboxes to select the video and audio driver in Preferences->
    General have changed. Now they are not editable, and only show some
