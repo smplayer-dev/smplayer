@@ -52,13 +52,6 @@ void Preferences::reset() {
 	}
 	*/
 
-	latest_dir = QDir::homePath();
-	last_url="";
-	last_dvd_directory="";
-
-
-
-
     /* *******
        General
        ******* */
@@ -199,6 +192,15 @@ void Preferences::reset() {
 	use_short_pathnames = false;
 
 	change_video_equalizer_on_startup = true;
+
+
+    /* ***********
+       Directories
+       *********** */
+
+	latest_dir = QDir::homePath();
+	last_url="";
+	last_dvd_directory="";
 
 
     /* **************
@@ -380,16 +382,6 @@ void Preferences::save() {
 
 	QSettings * set = settings;
 
-	set->beginGroup( "preferences");
-
-	set->setValue("latest_dir", latest_dir);
-	set->setValue("last_url", last_url);
-	set->setValue("last_dvd_directory", last_dvd_directory);
-
-
-
-	set->endGroup();
-
 
     /* *******
        General
@@ -528,6 +520,17 @@ void Preferences::save() {
 	set->setValue("change_video_equalizer_on_startup", change_video_equalizer_on_startup);
 
 	set->endGroup(); // advanced
+
+
+    /* ***********
+       Directories
+       *********** */
+
+	set->beginGroup( "directories");
+	set->setValue("latest_dir", latest_dir);
+	set->setValue("last_url", last_url);
+	set->setValue("last_dvd_directory", last_dvd_directory);
+	set->endGroup(); // directories
 
 
     /* **************
@@ -713,16 +716,6 @@ void Preferences::load() {
 
 	QSettings * set = settings;
 
-	set->beginGroup( "preferences");
-
-	latest_dir = set->value("latest_dir", latest_dir).toString();
-	last_url = set->value("last_url", last_url).toString();
-	last_dvd_directory = set->value("last_dvd_directory", last_dvd_directory).toString();
-
-
-
-	set->endGroup();
-
 
     /* *******
        General
@@ -866,6 +859,17 @@ void Preferences::load() {
 	change_video_equalizer_on_startup = set->value("change_video_equalizer_on_startup", change_video_equalizer_on_startup).toBool();
 
 	set->endGroup(); // advanced
+
+
+    /* ***********
+       Directories
+       *********** */
+
+	set->beginGroup( "directories");
+	latest_dir = set->value("latest_dir", latest_dir).toString();
+	last_url = set->value("last_url", last_url).toString();
+	last_dvd_directory = set->value("last_dvd_directory", last_dvd_directory).toString();
+	set->endGroup(); // directories
 
 
     /* **************
