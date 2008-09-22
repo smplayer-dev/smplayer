@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1404,7 +1405,7 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../basegui.cpp" line="1148"/>
         <source>Mirr&amp;or image</source>
-        <translation type="unfinished"></translation>
+        <translation>Odbi&amp;cie lustrzane</translation>
     </message>
 </context>
 <context>
@@ -4288,27 +4289,27 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefgeneral.cpp" line="233"/>
         <source>fast</source>
-        <translation type="unfinished"></translation>
+        <translation>szybko</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="229"/>
         <source>slow</source>
-        <translation type="unfinished"></translation>
+        <translation>powoli</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="226"/>
         <source>fastest</source>
-        <translation type="unfinished"></translation>
+        <translation>szybciej</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="234"/>
         <source>fast - ATI cards</source>
-        <translation type="unfinished"></translation>
+        <translation>szybko - karty ATI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="256"/>
         <source>User defined...</source>
-        <translation type="unfinished"></translation>
+        <translation>Określone przez użytkownika...</translation>
     </message>
 </context>
 <context>
