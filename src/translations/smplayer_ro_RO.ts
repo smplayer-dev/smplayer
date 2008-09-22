@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1392,17 +1393,17 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
     <message>
         <location filename="../basegui.cpp" line="1325"/>
         <source>Scree&amp;n</source>
-        <translation type="unfinished"></translation>
+        <translation>Ecra&amp;n</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1370"/>
         <source>&amp;Default</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Implicit</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1148"/>
         <source>Mirr&amp;or image</source>
-        <translation type="unfinished"></translation>
+        <translation>Imagine în &amp;oglindă</translation>
     </message>
 </context>
 <context>
