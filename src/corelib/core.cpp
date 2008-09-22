@@ -1088,12 +1088,13 @@ void Core::startMplayer( QString file, double seek ) {
 	bool url_is_playlist = file.endsWith(IS_PLAYLIST_TAG);
 	if (url_is_playlist) file = file.remove( QRegExp(IS_PLAYLIST_TAG_RX) );
 
+	bool screenshot_enabled = ( (!pref->screenshot_directory.isEmpty()) && 
+                                 (QFileInfo(pref->screenshot_directory).isDir()) );
+
 	proc->clearArguments();
 
 	// Set working directory to screenshot directory
-	if ( (!pref->screenshot_directory.isEmpty()) && 
-         (QFileInfo(pref->screenshot_directory).isDir()) ) 
-	{
+	if (screenshot_enabled) {
 		qDebug("Core::startMplayer: setting working directory to '%s'", pref->screenshot_directory.toUtf8().data());
 		proc->setWorkingDirectory( pref->screenshot_directory );
 	}
@@ -1526,10 +1527,6 @@ void Core::startMplayer( QString file, double seek ) {
 	proc->addArgument("-osdlevel");
 	proc->addArgument( QString::number( pref->osd ) );
 
-	if (mset.flip) {
-		proc->addArgument("-flip");
-	}
-
 	if (pref->use_idx) {
 		proc->addArgument("-idx");
 	}
@@ -1574,18 +1571,6 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( mset.crop_43to169_filter );
 	}
 #endif
-
-	// Rotate
-	if (mset.rotate != MediaSettings::NoRotate) {
-		proc->addArgument( "-vf-add" );
-		proc->addArgument( QString("rotate=%1").arg(mset.rotate) );
-	}
-
-	// Mirror
-	if (mset.mirror) {
-		proc->addArgument( "-vf-add" );
-		proc->addArgument("mirror");
-	}
 
 	// Denoise
 	if (mset.current_denoiser != MediaSettings::NoDenoise) {
@@ -1680,30 +1665,48 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( pref->mplayer_additional_video_filters );
 	}
 
-	bool use_noslices = false;
+	bool force_noslices = false;
 
-	// Screenshot
-	if ( (!pref->screenshot_directory.isEmpty()) && 
-        (QFileInfo(pref->screenshot_directory).isDir()) )
+	// Filters for subtitles on screenshots
+	if ((screenshot_enabled) && (pref->subtitles_on_screenshots)) 
 	{
-		// Subtitles on screenshots
-		if (pref->subtitles_on_screenshots) {
-			if (pref->use_ass_subtitles) {
-				proc->addArgument("-vf-add");
-				proc->addArgument("ass");
-			} else {
-				proc->addArgument("-vf-add");
-				proc->addArgument("expand=osd=1");
-				//proc->addArgument("-noslices");
-				use_noslices = true;
-			}
+		if (pref->use_ass_subtitles) {
+			proc->addArgument("-vf-add");
+			proc->addArgument("ass");
+		} else {
+			proc->addArgument("-vf-add");
+			proc->addArgument("expand=osd=1");
+			//proc->addArgument("-noslices");
+			force_noslices = true;
 		}
+	}
+
+	// Rotate
+	if (mset.rotate != MediaSettings::NoRotate) {
+		proc->addArgument( "-vf-add" );
+		proc->addArgument( QString("rotate=%1").arg(mset.rotate) );
+	}
+
+	// Flip
+	if (mset.flip) {
+		proc->addArgument( "-vf-add" );
+		proc->addArgument("flip");
+	}
+
+	// Mirror
+	if (mset.mirror) {
+		proc->addArgument( "-vf-add" );
+		proc->addArgument("mirror");
+	}
+
+	// Screenshots
+	if (screenshot_enabled)	{
 		proc->addArgument("-vf-add");
 		proc->addArgument("screenshot");
 	}
 
 	// slices
-	if ((pref->use_slices) && (!use_noslices)) {
+	if ((pref->use_slices) && (!force_noslices)) {
 		proc->addArgument("-slices");
 	} else {
 		proc->addArgument("-noslices");
