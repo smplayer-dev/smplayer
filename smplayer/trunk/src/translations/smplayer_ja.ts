@@ -1393,17 +1393,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1325"/>
         <source>Scree&amp;n</source>
-        <translation type="unfinished"></translation>
+        <translation>画面(&amp;N)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1370"/>
         <source>&amp;Default</source>
-        <translation type="unfinished"></translation>
+        <translation>既定(&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1148"/>
         <source>Mirr&amp;or image</source>
-        <translation type="unfinished"></translation>
+        <translation>イメージの反転(&amp;O)</translation>
     </message>
 </context>
 <context>
@@ -4260,27 +4260,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="233"/>
         <source>fast</source>
-        <translation type="unfinished"></translation>
+        <translation>高速</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="229"/>
         <source>slow</source>
-        <translation type="unfinished"></translation>
+        <translation>低速</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="226"/>
         <source>fastest</source>
-        <translation type="unfinished"></translation>
+        <translation>最速</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="234"/>
         <source>fast - ATI cards</source>
-        <translation type="unfinished"></translation>
+        <translation>高速 - ATI カード</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="256"/>
         <source>User defined...</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザー定義...</translation>
     </message>
 </context>
 <context>
