@@ -5,6 +5,8 @@
    The way to enable it is not obvious though. You need to enable the option 
    "Include subtitles on screenshots" (Preferences->Subtitles).
    Note: flipping the image if not using SSA/ASS doesn't work well.
+ * (Linux) Tries to set "/dev/dvd" and "/dev/cdrom" (if they exist) as default 
+   values for the dvd and cdrom devices.
 
 (2008-09-21)
  * Added the new option Video->Mirror image. This option mirrors the image 

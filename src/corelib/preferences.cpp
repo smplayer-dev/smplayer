@@ -111,6 +111,12 @@ void Preferences::reset() {
 	dvd_device = "";
 	cdrom_device = "";
 
+#ifndef Q_OS_WIN
+	// Try to set default values
+	if (QFile::exists("/dev/dvd")) dvd_device = "/dev/dvd";
+	if (QFile::exists("/dev/cdrom")) cdrom_device = "/dev/cdrom";
+#endif
+
 #ifdef Q_OS_WIN
 	enable_audiocd_on_windows = false;
 #endif
