@@ -116,8 +116,8 @@ void PrefGeneral::setData(Preferences * pref) {
 		vo = "directx,";
 #else
 		vo = "xv,";
-	}
 #endif
+	}
 	setVO( vo );
 
 	QString ao = pref->ao;
