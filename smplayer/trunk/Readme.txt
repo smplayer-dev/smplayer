@@ -73,3 +73,7 @@ I took some icons from:
  * kplayer
    url: http://kplayer.sourceforge.net/
    license: GPL
+
+ * Gimp
+   url: http://www.gimp.org/
+   license: GPL
