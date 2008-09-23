@@ -8,7 +8,6 @@
  * Now the subtitles can be mirrored, flipped or rotated along with the image.
    The way to enable it is not obvious though. You need to enable the option 
    "Include subtitles on screenshots" (Preferences->Subtitles).
-   Note: flipping the image if not using SSA/ASS doesn't work well.
  * (Linux) Tries to set "/dev/dvd" and "/dev/cdrom" (if they exist) as default 
    values for the dvd and cdrom devices.
 

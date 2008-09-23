@@ -1690,7 +1690,9 @@ void Core::startMplayer( QString file, double seek ) {
 	// Flip
 	if (mset.flip) {
 		proc->addArgument( "-vf-add" );
-		proc->addArgument("flip");
+		// expand + flip doesn't work well, a workaround is to add another
+		// filter between them, so that's why harddup is here
+		proc->addArgument("harddup,flip");
 	}
 
 	// Mirror
