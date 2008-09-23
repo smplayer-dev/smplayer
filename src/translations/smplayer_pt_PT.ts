@@ -285,7 +285,7 @@
     <message>
         <location filename="../about.cpp" line="182"/>
         <source>Kurdish</source>
-        <translation type="unfinished">Curdo</translation>
+        <translation>Curdo</translation>
     </message>
 </context>
 <context>
@@ -1208,7 +1208,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="1263"/>
         <source>&amp;Toggle double size</source>
-        <translation>&amp;Tamanho duplo</translation>
+        <translation>Articular &amp;Tamanho duplo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1193"/>
@@ -1393,17 +1393,17 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="1325"/>
         <source>Scree&amp;n</source>
-        <translation type="unfinished"></translation>
+        <translation>E&amp;crã</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1370"/>
         <source>&amp;Default</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Padrão</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1148"/>
         <source>Mirr&amp;or image</source>
-        <translation type="unfinished"></translation>
+        <translation>Mirr&amp;or</translation>
     </message>
 </context>
 <context>
@@ -3415,7 +3415,7 @@ As listas podem já conter expressões regulares para vários idiomas.</translat
     <message>
         <location filename="../prefadvanced.cpp" line="411"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation>Aqui  pode adicionar filtros vídeo para o MPlayer.Escreva-as separadas por vírgulas. Não use espaços.</translation>
+        <translation>Aqui  pode adicionar filtros vídeo para o MPlayer.Escreva-as separadas por vírgulas. Não use espaços!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="413"/>
@@ -3425,7 +3425,7 @@ As listas podem já conter expressões regulares para vários idiomas.</translat
     <message>
         <location filename="../prefadvanced.cpp" line="415"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation>Aqui  pode adicionar filtros áudio para o MPlayer.Escreva-as separadas por vírgulas. Não use espaços.</translation>
+        <translation>Aqui  pode adicionar filtros áudio para o MPlayer.Escreva-as separadas por vírgulas. Não use espaços!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="417"/>
@@ -3505,17 +3505,17 @@ As listas podem já conter expressões regulares para vários idiomas.</translat
     <message>
         <location filename="../prefadvanced.cpp" line="374"/>
         <source>Rebuild index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>Reconstruir índice, se necessário</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="379"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
-        <translation type="unfinished">Reconstrói índice dos ficheiros se nenhum índice foi encontrado, permitindo a procura. Úteis com transferências corrompidas/incompletas ou ficheiros mal criados. Esta opção só funciona se a mídia subjacente suportar busca (i.e., não com stdin, pipe, etc.). &lt;br&gt; Nota: a criação do índice pode levar algum tempo.</translation>
+        <translation>Reconstrói índice de ficheiros se nenhum índice for encontrado, permitindo procura. Útil com transferências corrompidas/incompletas ou ficheiros mal criados. Esta opção só funciona se a mídia subjacente suportar busca (i.e., não com stdin, pipe, etc.). &lt;br&gt; Nota: a criação do índice pode levar algum tempo.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="138"/>
         <source>Rebuild &amp;index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>Reconstruir índ&amp;ice, se necessário</translation>
     </message>
 </context>
 <context>
@@ -3914,7 +3914,7 @@ As listas podem já conter expressões regulares para vários idiomas.</translat
     <message>
         <location filename="../prefgeneral.ui" line="683"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
-        <translation>AC3/DTS com passagem S/PDIF</translation>
+        <translation>&amp;AC3/DTS com passagem S/PDIF</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="636"/>
@@ -3989,7 +3989,7 @@ As listas podem já conter expressões regulares para vários idiomas.</translat
     <message>
         <location filename="../prefgeneral.ui" line="698"/>
         <source>C&amp;hannels by default:</source>
-        <translation>Canais por defeito</translation>
+        <translation>Ca&amp;nais por defeito:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="254"/>
@@ -4181,7 +4181,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="77"/>
         <source>Yadif (double framerate)</source>
-        <translation>Y&amp;adif (double framerate)</translation>
+        <translation>Yadif (double framerate)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="78"/>
@@ -4201,7 +4201,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="632"/>
         <source>Deinterlace by default</source>
-        <translation>Desentrelaçar por defeito:</translation>
+        <translation>Desentrelaçar por defeito</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="634"/>
@@ -4241,47 +4241,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="646"/>
         <source>Draw video using slices</source>
-        <translation type="unfinished"></translation>
+        <translation>Criar vídeo em partes</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="650"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Activar/Desactivar criação de vídeo em partes de 16 pixeis. Se desactivado, toda a frame será criada numa só vez. A velocidade vai depender da placa de vídeo e cache disponível. Apenas afecta os codecs libmpeg2 e libavcodec.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="409"/>
         <source>Dra&amp;w video using slices</source>
-        <translation type="unfinished"></translation>
+        <translation>Criar vídeo em &amp;partes</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="247"/>
         <source>&amp;Close when finished playback</source>
-        <translation type="unfinished"></translation>
+        <translation>Fe&amp;char ao concluir repetição</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="233"/>
         <source>fast</source>
-        <translation type="unfinished"></translation>
+        <translation>rápido</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="229"/>
         <source>slow</source>
-        <translation type="unfinished"></translation>
+        <translation>lento</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="226"/>
         <source>fastest</source>
-        <translation type="unfinished"></translation>
+        <translation>mais rápido</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="234"/>
         <source>fast - ATI cards</source>
-        <translation type="unfinished"></translation>
+        <translation>rápido - placas ATI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="256"/>
         <source>User defined...</source>
-        <translation type="unfinished"></translation>
+        <translation>Definido pelo utilizador...</translation>
     </message>
 </context>
 <context>
