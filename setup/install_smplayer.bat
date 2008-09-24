@@ -9,7 +9,7 @@ set OUTPUT_DIR=smplayer-build
 set SMPLAYER_DIR=svn\smplayer\trunk
 set SMPLAYER_THEMES_DIR=svn\smplayer-themes\trunk
 
-set QT_DIR=c:\Qt\4.3.5
+set QT_DIR=c:\Qt\4.4.2
 set QXT_DIR=c:\libqxt
 set MINGW_DIR=c:\MinGW
 
