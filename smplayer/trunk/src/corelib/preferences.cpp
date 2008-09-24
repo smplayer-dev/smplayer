@@ -298,6 +298,7 @@ void Preferences::reset() {
 #if USE_MINIMUMSIZE
 	gui_minimum_width = 0; // 0 == disabled
 #endif
+	default_size = QSize(580, 440);
 
 #if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
 	hide_video_window_on_audio_files = true;
@@ -623,6 +624,7 @@ void Preferences::save() {
 #if USE_MINIMUMSIZE
 	set->setValue("gui_minimum_width", gui_minimum_width);
 #endif
+	set->setValue("default_size", default_size);
 
 #if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
 	set->setValue("hide_video_window_on_audio_files", hide_video_window_on_audio_files);
@@ -962,6 +964,7 @@ void Preferences::load() {
 #if USE_MINIMUMSIZE
 	gui_minimum_width = set->value("gui_minimum_width", gui_minimum_width).toInt();
 #endif
+	default_size = set->value("default_size", default_size).toSize();
 
 #if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
 	hide_video_window_on_audio_files = set->value("hide_video_window_on_audio_files", hide_video_window_on_audio_files).toBool();
