@@ -1,5 +1,10 @@
 [b]Version 0.6.3[/b]:
 
+(2008-09-24)
+ * Added a new shortcut set (sda.keys) taken from 
+   http://speeddemosarchive.com/forum/index.php/topic,7774.0.html, which you 
+   can load in the shortcut editor in preferences.
+
 (2008-09-23)
  * Added two icons for the mirror and flip actions (mirror.png and flip.png)
    taken from the Gimp.
