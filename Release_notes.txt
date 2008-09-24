@@ -1,3 +1,33 @@
+Version 0.6.3.
+
+Most important changes since 0.6.2 (see the Changelog for the whole list):
+
+ * Two fixes for Windows Vista. Now IPv4 is used by default (connection to
+   networks are faster). And now it really uses "gl:yuv=2:force-pbo:ati-hack" 
+   as the default video output driver. Note: this mode could give problems 
+   with some graphic cards (specially ATI), if you experience any, try the
+   other gl variants, or just directx.
+ * (Linux) Added a fix for a black screen problem when using Compiz.
+ * Added an option to select the number of threads that mplayer will use for
+   decoding (only works for MPEG-1/2 and some H.264 videos).
+ * Added the possibility to disable the audio equalizer. Seems to be necessary
+   to use the S/PDIF output.
+ * Added some options to increase/decrease the speed by 1% and 4%. This allows
+   to play 24 fps movies at 25 fps speed and vice versa.
+ * Fix: sometimes the playlist is not shown. Added a workaround for the problem.
+ * Added some checks to avoid crashes when selecting subtitle tracks.
+ * (Windows) Added a new submenu Video->Screen to select the screen which will
+   display the video when using directx.
+ * The settings in smplayer.ini have been reorganized in several sections. 
+   (This also means most of your preferences will be lost and you will have to 
+   reconfigure smplayer again).
+ * Added an option to mirror the video. And now it's also possible to flip and
+   rotate the subtitles along with the image.
+ * Added a new shortcut set (sda.keys) which can be loaded in the shortcut 
+   editor in preferences.
+ * Added two new translations: Arabic and Kurdish.
+
+
 Version 0.6.2.
 
 Most important changes since 0.6.1:
