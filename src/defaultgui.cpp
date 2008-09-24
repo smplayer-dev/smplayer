@@ -594,7 +594,7 @@ void DefaultGui::loadConfig() {
 		QSize s = set->value("size", size()).toSize();
 
 		if ( (s.height() < 200) && (!pref->use_mplayer_window) ) {
-			s = QSize(580, 440);
+			s = pref->default_size;
 		}
 
 		move(p);

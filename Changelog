@@ -3,6 +3,9 @@
 (2008-09-23)
  * Added two icons for the mirror and flip actions (mirror.png and flip.png)
    taken from the Gimp.
+ * Added a new option for smplayer.ini: default_size (section [gui]). It
+   specifies the default size of the main window. Previously it was hardcoded
+   (580x440).
 
 (2008-09-22)
  * Now the subtitles can be mirrored, flipped or rotated along with the image.
