@@ -290,7 +290,7 @@
     <message>
         <location filename="../about.cpp" line="183"/>
         <source>Galician</source>
-        <translation type="unfinished">Gallego</translation>
+        <translation>Gallego</translation>
     </message>
 </context>
 <context>
