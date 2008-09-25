@@ -178,12 +178,12 @@
         <translation>Finlandais</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="187"/>
+        <location filename="../about.cpp" line="188"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; : %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="196"/>
+        <location filename="../about.cpp" line="197"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -285,6 +285,11 @@
     <message>
         <location filename="../about.cpp" line="182"/>
         <source>Kurdish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="183"/>
+        <source>Galician</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1442,42 +1447,42 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
 <context>
     <name>Core</name>
     <message>
-        <location filename="../corelib/core.cpp" line="2147"/>
+        <location filename="../corelib/core.cpp" line="2152"/>
         <source>Brightness: %1</source>
         <translation>Luminosité : %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2162"/>
+        <location filename="../corelib/core.cpp" line="2167"/>
         <source>Contrast: %1</source>
         <translation>Contraste : %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2176"/>
+        <location filename="../corelib/core.cpp" line="2181"/>
         <source>Gamma: %1</source>
         <translation>Gamma : %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2190"/>
+        <location filename="../corelib/core.cpp" line="2195"/>
         <source>Hue: %1</source>
         <translation>Ton : %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2204"/>
+        <location filename="../corelib/core.cpp" line="2209"/>
         <source>Saturation: %1</source>
         <translation>Saturation : %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2324"/>
+        <location filename="../corelib/core.cpp" line="2329"/>
         <source>Volume: %1</source>
         <translation>Volume : %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="3094"/>
+        <location filename="../corelib/core.cpp" line="3099"/>
         <source>Zoom: %1</source>
         <translation>Zoom : %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2443"/>
+        <location filename="../corelib/core.cpp" line="2448"/>
         <source>Font scale: %1</source>
         <translation>Echelle de police : %1</translation>
     </message>
