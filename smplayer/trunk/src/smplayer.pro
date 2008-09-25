@@ -197,7 +197,8 @@ TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_de.ts \
                translations/smplayer_fi.ts translations/smplayer_ko.ts \
                translations/smplayer_mk.ts translations/smplayer_eu.ts \
                translations/smplayer_ca.ts translations/smplayer_sl_SI.ts \
-               translations/smplayer_ar_SY.ts translations/smplayer_ku.ts
+               translations/smplayer_ar_SY.ts translations/smplayer_ku.ts \
+               translations/smplayer_gl.ts
 
 unix {
   UI_DIR = .ui

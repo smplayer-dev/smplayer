@@ -180,6 +180,7 @@ QString About::getTranslators() {
 	trad(tr("Slovenian"), "Janez Troha &lt;janez.troha@gmail.com&gt;") +
 	trad(tr("Arabic"), "Muhammad Nour Hajj Omar &lt;arabianheart@live.com&gt;") +
 	trad(tr("Kurdish"), "Si_murg56 &lt;simurg56@gmail.com&gt;") +
+	trad(tr("Galician"), "Miguel Branco &lt;mgl.branco@gmail.com&gt;") +
          "</ul>");
 }
 
