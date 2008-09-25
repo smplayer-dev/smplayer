@@ -203,12 +203,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="187"/>
+        <location filename="../about.cpp" line="188"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation type="unfinished">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="196"/>
+        <location filename="../about.cpp" line="197"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -285,6 +285,11 @@
     <message>
         <location filename="../about.cpp" line="182"/>
         <source>Kurdish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="183"/>
+        <source>Galician</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1442,42 +1447,42 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../corelib/core.cpp" line="2147"/>
+        <location filename="../corelib/core.cpp" line="2152"/>
         <source>Brightness: %1</source>
         <translation>밝기: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2162"/>
+        <location filename="../corelib/core.cpp" line="2167"/>
         <source>Contrast: %1</source>
         <translation>대비: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2176"/>
+        <location filename="../corelib/core.cpp" line="2181"/>
         <source>Gamma: %1</source>
         <translation>감마: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2190"/>
+        <location filename="../corelib/core.cpp" line="2195"/>
         <source>Hue: %1</source>
         <translation>색조: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2204"/>
+        <location filename="../corelib/core.cpp" line="2209"/>
         <source>Saturation: %1</source>
         <translation>채도: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2324"/>
+        <location filename="../corelib/core.cpp" line="2329"/>
         <source>Volume: %1</source>
         <translation>음량: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="3094"/>
+        <location filename="../corelib/core.cpp" line="3099"/>
         <source>Zoom: %1</source>
         <translation>배율: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2443"/>
+        <location filename="../corelib/core.cpp" line="2448"/>
         <source>Font scale: %1</source>
         <translation type="unfinished"></translation>
     </message>
