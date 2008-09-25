@@ -14,5 +14,6 @@ rm src/smplayer
 fakeroot debian/rules build
 fakeroot debian/rules binary
 
+dh_clean
 rm debian-rvm/changelog
 rm debian
