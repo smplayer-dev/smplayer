@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -290,7 +291,7 @@
     <message>
         <location filename="../about.cpp" line="183"/>
         <source>Galician</source>
-        <translation type="unfinished">Galițiană</translation>
+        <translation>Galițiană</translation>
     </message>
 </context>
 <context>
