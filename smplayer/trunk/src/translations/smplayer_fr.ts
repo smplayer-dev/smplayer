@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1398,17 +1399,17 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="1325"/>
         <source>Scree&amp;n</source>
-        <translation type="unfinished"></translation>
+        <translation>I&amp;mage</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1370"/>
         <source>&amp;Default</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Défaut</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1148"/>
         <source>Mirr&amp;or image</source>
-        <translation type="unfinished"></translation>
+        <translation>Image mir&amp;oir</translation>
     </message>
 </context>
 <context>
@@ -4268,27 +4269,27 @@ Aucune information pour le moment.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="233"/>
         <source>fast</source>
-        <translation type="unfinished"></translation>
+        <translation>Rapide</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="229"/>
         <source>slow</source>
-        <translation type="unfinished"></translation>
+        <translation>Lent</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="226"/>
         <source>fastest</source>
-        <translation type="unfinished"></translation>
+        <translation>Le plus rapide</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="234"/>
         <source>fast - ATI cards</source>
-        <translation type="unfinished"></translation>
+        <translation>Rapide - Carte ATI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="256"/>
         <source>User defined...</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilisateur défini...</translation>
     </message>
 </context>
 <context>
