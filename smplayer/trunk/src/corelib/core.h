@@ -262,6 +262,10 @@ public:
 	static int mkv_first_chapter();
 	static int dvd_first_chapter();
 
+protected:
+	//! Returns the prefix to keep pausing on slave commands
+	QString pausing_prefix();
+
 protected slots:
     void changeCurrentSec(double sec);
     void changePause();
