@@ -5,7 +5,7 @@
     <message>
         <location filename="../about.cpp" line="55"/>
         <source>Version: %1</source>
-        <translation>Версія: %1</translation>
+        <translation>Збірка: %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="92"/>
@@ -255,42 +255,42 @@
     <message>
         <location filename="../about.cpp" line="50"/>
         <source>Using MPlayer %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовується MPlayer %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="179"/>
         <source>Catalan</source>
-        <translation type="unfinished">Каталонська</translation>
+        <translation>Каталонська</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="57"/>
         <source>Portable Edition</source>
-        <translation type="unfinished"></translation>
+        <translation>Портативна редакція</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="60"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовується Qt %1 (зібрано з Qt %2)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="180"/>
         <source>Slovenian</source>
-        <translation type="unfinished"></translation>
+        <translation>Словенська</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="181"/>
         <source>Arabic</source>
-        <translation type="unfinished">Арабська</translation>
+        <translation>Арабська</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="182"/>
         <source>Kurdish</source>
-        <translation type="unfinished"></translation>
+        <translation>Курдська</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="183"/>
         <source>Galician</source>
-        <translation type="unfinished"></translation>
+        <translation>Галисійська</translation>
     </message>
 </context>
 <context>
@@ -373,92 +373,92 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="71"/>
         <source>Audio Equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Аудіоеквалайзер</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="74"/>
         <source>31.25 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>31.25 Гц</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="75"/>
         <source>62.50 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>62.50 Гц</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="76"/>
         <source>125.0 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>125.0 Гц</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="77"/>
         <source>250.0 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>250.0 Гц</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="78"/>
         <source>500.0 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>500.0 Гц</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="79"/>
         <source>1.000 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>1.000 кГц</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="80"/>
         <source>2.000 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>2.000 кГц</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="81"/>
         <source>4.000 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>4.000 кГц</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="82"/>
         <source>8.000 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>8.000 кГц</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="83"/>
         <source>16.00 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>16.00 кГц</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="85"/>
         <source>&amp;Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Застосувати</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="86"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Скинути</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="87"/>
         <source>&amp;Set as default values</source>
-        <translation type="unfinished">&amp;Встановити значення за умовчанням</translation>
+        <translation>&amp;Встановити значення за умовчанням</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="91"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished">Використовувати поточні значення як за умовчанням для нових кліпів.</translation>
+        <translation>Використовувати поточні значення як за умовчанням для нових кліпів.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="93"/>
         <source>Set all controls to zero.</source>
-        <translation type="unfinished">Скинути все на нуль.</translation>
+        <translation>Скинути все на нуль.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="110"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Інформація</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="112"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Поточні значення збережені, щоб використовуватись за замовчуванням.</translation>
     </message>
 </context>
 <context>
@@ -626,22 +626,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1346"/>
         <source>4:3 &amp;Letterbox</source>
-        <translation type="unfinished"></translation>
+        <translation>4:3 &amp;Letterbox</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1347"/>
         <source>16:9 L&amp;etterbox</source>
-        <translation type="unfinished"></translation>
+        <translation>16:9 L&amp;etterbox</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1348"/>
         <source>4:3 &amp;Panscan</source>
-        <translation type="unfinished"></translation>
+        <translation>4:3 &amp;Panscan</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1349"/>
         <source>4:3 &amp;to 16:9</source>
-        <translation type="unfinished"></translation>
+        <translation>4:3 &amp;до 16:9</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1312"/>
@@ -656,12 +656,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1353"/>
         <source>&amp;Lowpass5</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lowpass5</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1356"/>
         <source>Linear &amp;Blend</source>
-        <translation type="unfinished"></translation>
+        <translation>Лінійне &amp;змішування</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1315"/>
@@ -681,12 +681,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1161"/>
         <source>&amp;Deblock</source>
-        <translation type="unfinished"></translation>
+        <translation>Згладжування &amp;країв квадратів</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1162"/>
         <source>De&amp;ring</source>
-        <translation type="unfinished"></translation>
+        <translation>Видалення к&amp;раєвих спотворень</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1163"/>
@@ -1338,77 +1338,77 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1266"/>
         <source>Show context menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Показати контекстне меню</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2778"/>
         <source>Multimedia</source>
-        <translation type="unfinished"></translation>
+        <translation>Мультимедіа</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1170"/>
         <source>E&amp;qualizer</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Еквалайзер</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1265"/>
         <source>Reset audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Скинути аудіоеквалайзер</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1203"/>
         <source>Find subtitles on &amp;OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>Знайти субтитри на &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1204"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Завантажити субтитри на OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1222"/>
         <source>&amp;Tips</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1334"/>
-        <source>&amp;Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Поради</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1136"/>
         <source>Speed -&amp;4%</source>
-        <translation type="unfinished"></translation>
+        <translation>Швидкість -&amp;4%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1137"/>
         <source>&amp;Speed +4%</source>
-        <translation type="unfinished"></translation>
+        <translation>Швидкість +&amp;4%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1138"/>
         <source>Speed -&amp;1%</source>
-        <translation type="unfinished"></translation>
+        <translation>Швидкість -&amp;1%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1139"/>
         <source>S&amp;peed +1%</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1325"/>
-        <source>Scree&amp;n</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1370"/>
-        <source>&amp;Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Швидкість +&amp;1%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1148"/>
         <source>Mirr&amp;or image</source>
-        <translation type="unfinished"></translation>
+        <translation>Від&amp;дзеркалити зображення</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1325"/>
+        <source>Scree&amp;n</source>
+        <translation>&amp;Екран</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1334"/>
+        <source>&amp;Auto</source>
+        <translation>&amp;Автоматично</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1370"/>
+        <source>&amp;Default</source>
+        <translation>За &amp;замовчуванням</translation>
     </message>
 </context>
 <context>
@@ -1447,42 +1447,42 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../corelib/core.cpp" line="2152"/>
+        <location filename="../corelib/core.cpp" line="2157"/>
         <source>Brightness: %1</source>
         <translation>Яскравість: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2167"/>
+        <location filename="../corelib/core.cpp" line="2172"/>
         <source>Contrast: %1</source>
         <translation>Контрастість: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2181"/>
+        <location filename="../corelib/core.cpp" line="2186"/>
         <source>Gamma: %1</source>
         <translation>Гама: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2195"/>
+        <location filename="../corelib/core.cpp" line="2200"/>
         <source>Hue: %1</source>
         <translation>Колір: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2209"/>
+        <location filename="../corelib/core.cpp" line="2214"/>
         <source>Saturation: %1</source>
         <translation>Насиченість: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2329"/>
+        <location filename="../corelib/core.cpp" line="2334"/>
         <source>Volume: %1</source>
         <translation>Гучність: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="3099"/>
+        <location filename="../corelib/core.cpp" line="3104"/>
         <source>Zoom: %1</source>
         <translation>Масштаб: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2448"/>
+        <location filename="../corelib/core.cpp" line="2453"/>
         <source>Font scale: %1</source>
         <translation>Масштаб шрифта: %1</translation>
     </message>
@@ -1656,7 +1656,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="70"/>
         <source>OK</source>
-        <translation>Готово</translation>
+        <translation>Гаразд</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="71"/>
@@ -1674,107 +1674,150 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="133"/>
         <source>Language</source>
-        <translation type="unfinished">Мова</translation>
+        <translation>Мова</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="133"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Назва</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Format</source>
-        <translation type="unfinished">Формат</translation>
+        <translation>Формат</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Файли</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Date</source>
-        <translation type="unfinished">Дата</translation>
+        <translation>Дата</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Uploaded by</source>
-        <translation type="unfinished"></translation>
+        <translation>Вивантажено</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="150"/>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>Всі</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="156"/>
         <source>Close</source>
-        <translation type="unfinished">Закрити</translation>
+        <translation>Закрити</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="99"/>
         <source>&amp;Download</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Звантажити</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="161"/>
         <source>&amp;Copy link to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Скопіювати посилання до буферу обміну</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="215"/>
         <source>Error</source>
-        <translation type="unfinished">Помилка</translation>
+        <translation>Помилка</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="217"/>
         <source>Download failed: %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Звантаження невдале: %1.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="221"/>
         <source>Connecting to %1...</source>
-        <translation type="unfinished"></translation>
+        <translation>З&apos;єднуюсь з %1...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="227"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Зватнажується...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
         <source>Done.</source>
-        <translation type="unfinished"></translation>
+        <translation>Виконано.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="281"/>
         <source>%1 files available</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 файлів доступні</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="290"/>
         <source>Failed to parse the received data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Неможливо обробити прийняті дані.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="13"/>
         <source>Find Subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Знайти субтитри</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="33"/>
         <source>&amp;Subtitles for</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Субтитри для</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="56"/>
         <source>&amp;Language:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Мова:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="89"/>
         <source>&amp;Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Оновити</translation>
+    </message>
+</context>
+<context>
+    <name>Gui</name>
+    <message>
+        <location filename="../testcorelib/test.cpp" line="38"/>
+        <source>&amp;Open...</source>
+        <translation>&amp;Відкрити...</translation>
+    </message>
+    <message>
+        <location filename="../testcorelib/test.cpp" line="41"/>
+        <source>&amp;Close</source>
+        <translation>&amp;Закрити</translation>
+    </message>
+    <message>
+        <location filename="../testcorelib/test.cpp" line="44"/>
+        <source>&amp;Open</source>
+        <translation>&amp;Відкрити</translation>
+    </message>
+    <message>
+        <location filename="../testcorelib/test.cpp" line="48"/>
+        <source>&amp;Play/Pause</source>
+        <translation>&amp;Грати/Пауза</translation>
+    </message>
+    <message>
+        <location filename="../testcorelib/test.cpp" line="53"/>
+        <source>&amp;Stop</source>
+        <translation>&amp;Зупинити</translation>
+    </message>
+    <message>
+        <location filename="../testcorelib/test.cpp" line="57"/>
+        <source>&amp;Play</source>
+        <translation>Від&amp;творити</translation>
+    </message>
+    <message>
+        <location filename="../testcorelib/test.cpp" line="68"/>
+        <source>Control</source>
+        <translation>Керування</translation>
+    </message>
+    <message>
+        <location filename="../testcorelib/test.cpp" line="86"/>
+        <source>Open file</source>
+        <translation>Відкрити файл</translation>
     </message>
 </context>
 <context>
@@ -1792,7 +1835,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../infofile.cpp" line="64"/>
         <source>%1 KB (%2 MB)</source>
-        <translation>%1 КБ (%2 МБ)</translation>
+        <translation>%1 кб (%2 Мб)</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="71"/>
@@ -1812,7 +1855,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../infofile.cpp" line="150"/>
         <source>Name</source>
-        <translation>Ім&apos;я</translation>
+        <translation>Назва</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="80"/>
@@ -1872,7 +1915,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../infofile.cpp" line="101"/>
         <source>Resolution</source>
-        <translation>Роздільність екрану</translation>
+        <translation>Роздільна здатність</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="102"/>
@@ -1892,7 +1935,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../infofile.cpp" line="113"/>
         <source>%1 kbps</source>
-        <translation>%1 кб/с</translation>
+        <translation>%1 кбіт/с</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="105"/>
@@ -1953,13 +1996,13 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../infofile.cpp" line="151"/>
         <source>ID</source>
         <comment>Info for translators: this is a identification code</comment>
-        <translation></translation>
+        <translation>ID</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="148"/>
         <source>#</source>
         <comment>Info for translators: this is a abbreviation for number</comment>
-        <translation></translation>
+        <translation>№</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="89"/>
@@ -2066,817 +2109,817 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../languages.cpp" line="24"/>
         <source>Afar</source>
-        <translation type="unfinished"></translation>
+        <translation>Афарська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="25"/>
         <source>Abkhazian</source>
-        <translation type="unfinished"></translation>
+        <translation>Абхазська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="26"/>
         <source>Afrikaans</source>
-        <translation type="unfinished"></translation>
+        <translation>Африкаанс</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="27"/>
         <source>Amharic</source>
-        <translation type="unfinished"></translation>
+        <translation>Амхарська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="216"/>
         <source>Arabic</source>
-        <translation type="unfinished">Арабська</translation>
+        <translation>Арабська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="29"/>
         <source>Assamese</source>
-        <translation type="unfinished"></translation>
+        <translation>Ассамська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="30"/>
         <source>Aymara</source>
-        <translation type="unfinished"></translation>
+        <translation>Аймара</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="31"/>
         <source>Azerbaijani</source>
-        <translation type="unfinished"></translation>
+        <translation>Азербайджанська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="32"/>
         <source>Bashkir</source>
-        <translation type="unfinished"></translation>
+        <translation>Башкирська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="33"/>
         <source>Byelorussian</source>
-        <translation type="unfinished"></translation>
+        <translation>Білоруська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="169"/>
         <source>Bulgarian</source>
-        <translation type="unfinished">Болгарська</translation>
+        <translation>Болгарська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="35"/>
         <source>Bihari</source>
-        <translation type="unfinished"></translation>
+        <translation>Біхарі</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="36"/>
         <source>Bislama</source>
-        <translation type="unfinished"></translation>
+        <translation>Біслама</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="37"/>
         <source>Bengali</source>
-        <translation type="unfinished"></translation>
+        <translation>Бенгальська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="38"/>
         <source>Tibetan</source>
-        <translation type="unfinished"></translation>
+        <translation>Тібетська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="39"/>
         <source>Breton</source>
-        <translation type="unfinished"></translation>
+        <translation>Бретонська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="170"/>
         <source>Catalan</source>
-        <translation type="unfinished">Каталонська</translation>
+        <translation>Каталонська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="41"/>
         <source>Corsican</source>
-        <translation type="unfinished"></translation>
+        <translation>Корсіканська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="171"/>
         <source>Czech</source>
-        <translation type="unfinished">Чеська</translation>
+        <translation>Чеська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="43"/>
         <source>Welsh</source>
-        <translation type="unfinished"></translation>
+        <translation>Валійська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="44"/>
         <source>Danish</source>
-        <translation type="unfinished"></translation>
+        <translation>Данська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="172"/>
         <source>German</source>
-        <translation type="unfinished">Німецька</translation>
+        <translation>Німецька</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="46"/>
         <source>Bhutani</source>
-        <translation type="unfinished"></translation>
+        <translation>Бутані</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="173"/>
         <source>Greek</source>
-        <translation type="unfinished">Грецька</translation>
+        <translation>Грецька</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="174"/>
         <source>English</source>
-        <translation type="unfinished">Англійська</translation>
+        <translation>Англійська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="49"/>
         <source>Esperanto</source>
-        <translation type="unfinished"></translation>
+        <translation>Есперанто</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
         <source>Spanish</source>
-        <translation type="unfinished">Іспанська</translation>
+        <translation>Іспанська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="51"/>
         <source>Estonian</source>
-        <translation type="unfinished"></translation>
+        <translation>Естонська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="176"/>
         <source>Basque</source>
-        <translation type="unfinished">Баскська</translation>
+        <translation>Баскська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="53"/>
         <source>Persian</source>
-        <translation type="unfinished"></translation>
+        <translation>Перська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="177"/>
         <source>Finnish</source>
-        <translation type="unfinished">Фінська</translation>
+        <translation>Фінська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="55"/>
         <source>Fiji</source>
-        <translation type="unfinished"></translation>
+        <translation>Фіджі</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="56"/>
         <source>Faroese</source>
-        <translation type="unfinished"></translation>
+        <translation>Фарерська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="178"/>
         <source>French</source>
-        <translation type="unfinished">Французька</translation>
+        <translation>Французька</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="58"/>
         <source>Frisian</source>
-        <translation type="unfinished"></translation>
+        <translation>Фризька</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="59"/>
         <source>Irish</source>
-        <translation type="unfinished"></translation>
+        <translation>Ірландська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="60"/>
         <source>Scots</source>
-        <translation type="unfinished"></translation>
+        <translation>Шотландська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="179"/>
         <source>Galician</source>
-        <translation type="unfinished">Галисійська</translation>
+        <translation>Галисійська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="62"/>
         <source>Guarani</source>
-        <translation type="unfinished"></translation>
+        <translation>Гуарані</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="63"/>
         <source>Gujarati</source>
-        <translation type="unfinished"></translation>
+        <translation>Гуджараті</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="64"/>
         <source>Hausa</source>
-        <translation type="unfinished"></translation>
+        <translation>Хауса</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="65"/>
         <source>Hebrew</source>
-        <translation type="unfinished"></translation>
+        <translation>Іврит</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="66"/>
         <source>Hindi</source>
-        <translation type="unfinished"></translation>
+        <translation>Хінді</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="67"/>
         <source>Croatian</source>
-        <translation type="unfinished"></translation>
+        <translation>Хорватська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="180"/>
         <source>Hungarian</source>
-        <translation type="unfinished">Угорська</translation>
+        <translation>Угорська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="69"/>
         <source>Armenian</source>
-        <translation type="unfinished"></translation>
+        <translation>Вірменська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="70"/>
         <source>Interlingua</source>
-        <translation type="unfinished"></translation>
+        <translation>Інтерлінгва</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="71"/>
         <source>Indonesian</source>
-        <translation type="unfinished"></translation>
+        <translation>Індонезійська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="72"/>
         <source>Interlingue</source>
-        <translation type="unfinished"></translation>
+        <translation>Окциденталь</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="73"/>
         <source>Inupiak</source>
-        <translation type="unfinished"></translation>
+        <translation>Інупіак</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="74"/>
         <source>Icelandic</source>
-        <translation type="unfinished"></translation>
+        <translation>Ісландська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="181"/>
         <source>Italian</source>
-        <translation type="unfinished">Італійська</translation>
+        <translation>Італійська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="76"/>
         <source>Inuktitut</source>
-        <translation type="unfinished"></translation>
+        <translation>Інуктитут</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="182"/>
         <source>Japanese</source>
-        <translation type="unfinished">Японська</translation>
+        <translation>Японська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="78"/>
         <source>Javanese</source>
-        <translation type="unfinished"></translation>
+        <translation>Яванська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="183"/>
         <source>Georgian</source>
-        <translation type="unfinished">Грузинська</translation>
+        <translation>Грузинська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="80"/>
         <source>Kazakh</source>
-        <translation type="unfinished"></translation>
+        <translation>Казахська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="81"/>
         <source>Greenlandic</source>
-        <translation type="unfinished"></translation>
+        <translation>Ґренландська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="82"/>
         <source>Cambodian</source>
-        <translation type="unfinished"></translation>
+        <translation>Камбоджийська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="83"/>
         <source>Kannada</source>
-        <translation type="unfinished"></translation>
+        <translation>Канадська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="184"/>
         <source>Korean</source>
-        <translation type="unfinished">Корейська</translation>
+        <translation>Корейська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="85"/>
         <source>Kashmiri</source>
-        <translation type="unfinished"></translation>
+        <translation>Кашмірі</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="185"/>
         <source>Kurdish</source>
-        <translation type="unfinished"></translation>
+        <translation>Курдська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="87"/>
         <source>Kirghiz</source>
-        <translation type="unfinished"></translation>
+        <translation>Киргизька</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="88"/>
         <source>Latin</source>
-        <translation type="unfinished"></translation>
+        <translation>Латинська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="89"/>
         <source>Lingala</source>
-        <translation type="unfinished"></translation>
+        <translation>Лінгала</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="90"/>
         <source>Laothian</source>
-        <translation type="unfinished"></translation>
+        <translation>Лаоська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="91"/>
         <source>Lithuanian</source>
-        <translation type="unfinished"></translation>
+        <translation>Литовська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="92"/>
         <source>Latvian</source>
-        <translation type="unfinished"></translation>
+        <translation>Латвійська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="93"/>
         <source>Malagasy</source>
-        <translation type="unfinished"></translation>
+        <translation>Малагаська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="94"/>
         <source>Maori</source>
-        <translation type="unfinished"></translation>
+        <translation>Маорі</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="186"/>
         <source>Macedonian</source>
-        <translation type="unfinished">Македонська</translation>
+        <translation>Македонська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="96"/>
         <source>Malayalam</source>
-        <translation type="unfinished"></translation>
+        <translation>Малаялам</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="97"/>
         <source>Mongolian</source>
-        <translation type="unfinished"></translation>
+        <translation>Монгольська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="98"/>
         <source>Moldavian</source>
-        <translation type="unfinished"></translation>
+        <translation>Молдавська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="99"/>
         <source>Marathi</source>
-        <translation type="unfinished"></translation>
+        <translation>Маратхи</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="100"/>
         <source>Malay</source>
-        <translation type="unfinished"></translation>
+        <translation>Малайска</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="101"/>
         <source>Maltese</source>
-        <translation type="unfinished"></translation>
+        <translation>Мальтійська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="102"/>
         <source>Burmese</source>
-        <translation type="unfinished"></translation>
+        <translation>Бірманська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="103"/>
         <source>Nauru</source>
-        <translation type="unfinished"></translation>
+        <translation>Науру</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="104"/>
         <source>Nepali</source>
-        <translation type="unfinished"></translation>
+        <translation>Непальська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="187"/>
         <source>Dutch</source>
-        <translation type="unfinished">Голландська</translation>
+        <translation>Голландська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="106"/>
         <source>Norwegian</source>
-        <translation type="unfinished"></translation>
+        <translation>Норвезька</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="107"/>
         <source>Occitan</source>
-        <translation type="unfinished"></translation>
+        <translation>Окситанська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="108"/>
         <source>Oriya</source>
-        <translation type="unfinished"></translation>
+        <translation>Орія</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="109"/>
         <source>Punjabi</source>
-        <translation type="unfinished"></translation>
+        <translation>Панджабі</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="188"/>
         <source>Polish</source>
-        <translation type="unfinished">Польська</translation>
+        <translation>Польська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="111"/>
         <source>Pashto</source>
-        <translation type="unfinished"></translation>
+        <translation>Пашто</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="112"/>
         <source>Portuguese</source>
-        <translation type="unfinished"></translation>
+        <translation>Португальська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="113"/>
         <source>Quechua</source>
-        <translation type="unfinished"></translation>
+        <translation>Кечуа</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="115"/>
         <source>Kirundi</source>
-        <translation type="unfinished"></translation>
+        <translation>Кірунди</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="191"/>
         <source>Romanian</source>
-        <translation type="unfinished">Румунська</translation>
+        <translation>Румунська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="222"/>
         <source>Russian</source>
-        <translation type="unfinished">Російська</translation>
+        <translation>Російська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="118"/>
         <source>Kinyarwanda</source>
-        <translation type="unfinished"></translation>
+        <translation>Киньяруанда</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="119"/>
         <source>Sanskrit</source>
-        <translation type="unfinished"></translation>
+        <translation>Санскріт</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="120"/>
         <source>Sindhi</source>
-        <translation type="unfinished"></translation>
+        <translation>Сіндхи</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="121"/>
         <source>Sangho</source>
-        <translation type="unfinished"></translation>
+        <translation>Санго</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="123"/>
         <source>Sinhalese</source>
-        <translation type="unfinished"></translation>
+        <translation>Сингальська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="193"/>
         <source>Slovak</source>
-        <translation type="unfinished">Словацька</translation>
+        <translation>Словацька</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="194"/>
         <source>Slovenian</source>
-        <translation type="unfinished"></translation>
+        <translation>Словенська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="126"/>
         <source>Samoan</source>
-        <translation type="unfinished"></translation>
+        <translation>Тонга</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="127"/>
         <source>Shona</source>
-        <translation type="unfinished"></translation>
+        <translation>Шона</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="128"/>
         <source>Somali</source>
-        <translation type="unfinished"></translation>
+        <translation>Сомалійська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="129"/>
         <source>Albanian</source>
-        <translation type="unfinished"></translation>
+        <translation>Албанська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="195"/>
         <source>Serbian</source>
-        <translation type="unfinished">Сербська</translation>
+        <translation>Сербська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="131"/>
         <source>Siswati</source>
-        <translation type="unfinished"></translation>
+        <translation>Сісваті</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="132"/>
         <source>Sesotho</source>
-        <translation type="unfinished"></translation>
+        <translation>Сесото</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="133"/>
         <source>Sundanese</source>
-        <translation type="unfinished"></translation>
+        <translation>Суданська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="196"/>
         <source>Swedish</source>
-        <translation type="unfinished">Шведська</translation>
+        <translation>Шведська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="135"/>
         <source>Swahili</source>
-        <translation type="unfinished"></translation>
+        <translation>Суахілі</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="136"/>
         <source>Tamil</source>
-        <translation type="unfinished"></translation>
+        <translation>Таміл</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="137"/>
         <source>Telugu</source>
-        <translation type="unfinished"></translation>
+        <translation>Телугу</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="138"/>
         <source>Tajik</source>
-        <translation type="unfinished"></translation>
+        <translation>Таджикська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="139"/>
         <source>Thai</source>
-        <translation type="unfinished"></translation>
+        <translation>Тайська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="140"/>
         <source>Tigrinya</source>
-        <translation type="unfinished"></translation>
+        <translation>Тигринья</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="141"/>
         <source>Turkmen</source>
-        <translation type="unfinished"></translation>
+        <translation>Туркменська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
         <source>Tagalog</source>
-        <translation type="unfinished"></translation>
+        <translation>Тагальська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="143"/>
         <source>Setswana</source>
-        <translation type="unfinished"></translation>
+        <translation>Тсвана</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="144"/>
         <source>Tonga</source>
-        <translation type="unfinished"></translation>
+        <translation>Тонга</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="218"/>
         <source>Turkish</source>
-        <translation type="unfinished">Турецька</translation>
+        <translation>Турецька</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="146"/>
         <source>Tsonga</source>
-        <translation type="unfinished"></translation>
+        <translation>Тсонга</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="147"/>
         <source>Tatar</source>
-        <translation type="unfinished"></translation>
+        <translation>Татарська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="148"/>
         <source>Twi</source>
-        <translation type="unfinished"></translation>
+        <translation>Тві</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="149"/>
         <source>Uighur</source>
-        <translation type="unfinished"></translation>
+        <translation>Уйгурська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="198"/>
         <source>Ukrainian</source>
-        <translation type="unfinished">Українська</translation>
+        <translation>Українська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="151"/>
         <source>Urdu</source>
-        <translation type="unfinished"></translation>
+        <translation>Урду</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="152"/>
         <source>Uzbek</source>
-        <translation type="unfinished"></translation>
+        <translation>Узбецька</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="153"/>
         <source>Vietnamese</source>
-        <translation type="unfinished"></translation>
+        <translation>В&apos;єтнамська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="155"/>
         <source>Wolof</source>
-        <translation type="unfinished"></translation>
+        <translation>Волоф</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="156"/>
         <source>Xhosa</source>
-        <translation type="unfinished"></translation>
+        <translation>Ісікоса</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="157"/>
         <source>Yiddish</source>
-        <translation type="unfinished"></translation>
+        <translation>Їдиш</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="158"/>
         <source>Yoruba</source>
-        <translation type="unfinished"></translation>
+        <translation>Йоруба</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="159"/>
         <source>Zhuang</source>
-        <translation type="unfinished"></translation>
+        <translation>Чжуанська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="160"/>
         <source>Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Китайська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="161"/>
         <source>Zulu</source>
-        <translation type="unfinished"></translation>
+        <translation>Зулу</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="189"/>
         <source>Portuguese - Brazil</source>
-        <translation type="unfinished">Португальська (Бразилія)</translation>
+        <translation>Португальська (Бразилія)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="190"/>
         <source>Portuguese - Portugal</source>
-        <translation type="unfinished">Португальська (Португалія)</translation>
+        <translation>Португальська (Португалія)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="199"/>
         <source>Simplified-Chinese</source>
-        <translation type="unfinished">Спрощена китайська</translation>
+        <translation>Спрощена китайська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="200"/>
         <source>Traditional Chinese</source>
-        <translation type="unfinished">Традиційна Китайська</translation>
+        <translation>Традиційна Китайська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="208"/>
         <source>Unicode</source>
-        <translation type="unfinished"></translation>
+        <translation>Юнікод</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="209"/>
         <source>UTF-8</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-8</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
         <source>Western European Languages</source>
-        <translation type="unfinished">Східна Європа</translation>
+        <translation>Східна Європа</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="211"/>
         <source>Western European Languages with Euro</source>
-        <translation type="unfinished">Східна Європа з Євро</translation>
+        <translation>Східна Європа з Євро</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="212"/>
         <source>Slavic/Central European Languages</source>
-        <translation type="unfinished">Кирилиця/Центральна Європа</translation>
+        <translation>Кирилиця/Центральна Європа</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="213"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
-        <translation type="unfinished">Есперанто, Гальський, Мальтійський, Тюркський</translation>
+        <translation>Есперанто, Гальський, Мальтійський, Тюркський</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="214"/>
         <source>Old Baltic charset</source>
-        <translation type="unfinished">Балтійська стара</translation>
+        <translation>Балтійська стара</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="215"/>
         <source>Cyrillic</source>
-        <translation type="unfinished">Кирилиця</translation>
+        <translation>Кирилиця</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="217"/>
         <source>Modern Greek</source>
-        <translation type="unfinished">Грецька нова</translation>
+        <translation>Грецька нова</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="219"/>
         <source>Baltic</source>
-        <translation type="unfinished">Балтійська</translation>
+        <translation>Балтійська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="220"/>
         <source>Celtic</source>
-        <translation type="unfinished">Кельтська</translation>
+        <translation>Кельтська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="221"/>
         <source>Hebrew charsets</source>
-        <translation type="unfinished">Іврит</translation>
+        <translation>Іврит</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="223"/>
         <source>Ukrainian, Belarusian</source>
-        <translation type="unfinished">Українська, Білоруська</translation>
+        <translation>Українська, Білоруська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="224"/>
         <source>Simplified Chinese charset</source>
-        <translation type="unfinished">Китайська спрощена</translation>
+        <translation>Китайська спрощена</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="225"/>
         <source>Traditional Chinese charset</source>
-        <translation type="unfinished">Китайська традиційна</translation>
+        <translation>Китайська традиційна</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="226"/>
         <source>Japanese charsets</source>
-        <translation type="unfinished">Японська</translation>
+        <translation>Японська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="227"/>
         <source>Korean charset</source>
-        <translation type="unfinished">Корейська</translation>
+        <translation>Корейська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="228"/>
         <source>Thai charset</source>
-        <translation type="unfinished">Тайська</translation>
+        <translation>Тайська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="229"/>
         <source>Cyrillic Windows</source>
-        <translation type="unfinished">Кирилиця Windows</translation>
+        <translation>Кирилиця Windows</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="230"/>
         <source>Slavic/Central European Windows</source>
-        <translation type="unfinished">Кирилиця/Центральна Європа Windows</translation>
+        <translation>Кирилиця/Центральна Європа Windows</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="231"/>
         <source>Arabic Windows</source>
-        <translation type="unfinished">Арабська Windows</translation>
+        <translation>Арабська Windows</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="114"/>
         <source>Rhaeto-Romance</source>
-        <translation type="unfinished"></translation>
+        <translation>Рето-романська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="122"/>
         <source>Serbo-Croatian</source>
-        <translation type="unfinished"></translation>
+        <translation>Сербо-хорватська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="154"/>
         <source>Volap&#xfc;k</source>
-        <translation type="unfinished"></translation>
+        <translation>Волапюк</translation>
     </message>
 </context>
 <context>
@@ -3117,7 +3160,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="303"/>
         <source>Preferences</source>
-        <translation type="unfinished">Налаштування</translation>
+        <translation>Налаштування</translation>
     </message>
 </context>
 <context>
@@ -3125,37 +3168,37 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlistpreferences.cpp" line="32"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть цю опцію, якщо хочете, щоб додавання теки також додавало підтеки рекурсивно. Інакше тільки файли у вибраній теці будуть додані.</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.cpp" line="39"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть цю опцію, щоб запитати у файлів, які будуть додані до переліку програвання, деякі подробиці. Це дозволить показувати назву (якщо наявна) та довжину файлів. Інакше ці подробиці не будуть доступні поки файл не буде дійсно програватися. Застерігайтеся: ця опція може бути повільною, особливо, якщо ви додаєте багато файлів.</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="13"/>
         <source>Playlist - Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Перелік програвання - Налаштування</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="32"/>
         <source>&amp;Add files in directories recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Додати файли в теках рекурсивно</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="39"/>
         <source>Automatically get &amp;info about files added</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматично отримувати &amp;інформацію про додані файли</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="46"/>
         <source>&amp;Save copy of playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Зберегти копію переліку програвання під час виходу</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="25"/>
         <source>&amp;Play files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>Грати файли з &amp;початку</translation>
     </message>
 </context>
 <context>
@@ -3260,7 +3303,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.ui" line="56"/>
         <source>&amp;Monitor aspect:</source>
-        <translation>&amp;Аспект монітора:</translation>
+        <translation>Відношення &amp;сторін монітора:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="131"/>
@@ -3370,7 +3413,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="357"/>
         <source>Monitor aspect</source>
-        <translation>Формат монітора</translation>
+        <translation>Відношення сторін монітора</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="358"/>
@@ -3460,67 +3503,67 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="391"/>
         <source>Repaint the background of the video window</source>
-        <translation type="unfinished"></translation>
+        <translation>Перемалювати тло вікна з відео</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="152"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
-        <translation type="unfinished"></translation>
+        <translation>Перемалювати &amp;тло вікна з відео</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="360"/>
         <source>IPv4</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv4</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="361"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовувати IPv4 для мережевих з&apos;єднань. Після помилки перемикати на IPv6 автоматично.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="363"/>
         <source>IPv6</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv6</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="364"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.ui" line="102"/>
-        <source>Network Connection</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.ui" line="114"/>
-        <source>IPv&amp;4</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.ui" line="121"/>
-        <source>IPv&amp;6</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.ui" line="530"/>
-        <source>Lo&amp;gs</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовувати IPv6 для мережевих з&apos;єднань. Після помилки перемикати на IPv4 автоматично.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="374"/>
         <source>Rebuild index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>Відновлювати індекс, якщо потрібно</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="379"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
-        <translation type="unfinished">Відновлювати індекс файлів якщо не знайдено, дозволяючи прокрутку. Корисно при неповно/помилково завантажених чи створених з помилками файлах. Ця опція працює тільки якщо в даному медіа підтримується прокрутка (тобто не stdin, pipe та ін.). Примітка: створення індекса займає деякий час.</translation>
+        <translation>Відновлювати індекс файлів якщо не знайдено, дозволяючи прокрутку. Корисно при неповно/помилково завантажених чи створених з помилками файлах. Ця опція працює тільки якщо в даному медіа підтримується прокрутка (тобто не stdin, pipe та ін.). Примітка: створення індекса займає деякий час.</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="102"/>
+        <source>Network Connection</source>
+        <translation>Мережеві з&apos;єднання</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="114"/>
+        <source>IPv&amp;4</source>
+        <translation>IPv&amp;4</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="121"/>
+        <source>IPv&amp;6</source>
+        <translation>IPv&amp;6</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="138"/>
         <source>Rebuild &amp;index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>Відновлювати &amp;індекс, якщо потрібно</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="530"/>
+        <source>Lo&amp;gs</source>
+        <translation>&amp;Часописи</translation>
     </message>
 </context>
 <context>
@@ -3952,11 +3995,6 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Ця опція активує автоматичний вихід з програми по закінченню відтворення файлу чи списку.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="228"/>
-        <source>&amp;Close when finished</source>
-        <translation type="obsolete">Вийти по &amp;закінченню</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="68"/>
         <source>2 (Stereo)</source>
         <translation>2 (Стерео)</translation>
@@ -4105,7 +4143,7 @@ The drop-down lists may provide already made regular expression for several lang
         <location filename="../prefgeneral.ui" line="800"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="734"/>
@@ -4160,27 +4198,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="75"/>
         <source>Lowpass5</source>
-        <translation type="unfinished"></translation>
+        <translation>Lowpass5</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="76"/>
         <source>Yadif (normal)</source>
-        <translation type="unfinished"></translation>
+        <translation>Yadif (простий)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="77"/>
         <source>Yadif (double framerate)</source>
-        <translation type="unfinished"></translation>
+        <translation>Yadif (подвійна частота кадрів)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="78"/>
         <source>Linear Blend</source>
-        <translation type="unfinished"></translation>
+        <translation>Лінійне змішування</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="79"/>
         <source>Kerndeint</source>
-        <translation type="unfinished"></translation>
+        <translation>Ядерний деінтерлейсер</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="615"/>
@@ -4215,77 +4253,77 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="602"/>
         <source>Remember time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Запам&apos;ятати позицію часу</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="230"/>
         <source>Remember &amp;time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Запам&apos;ятати &amp;позицію часу</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="568"/>
         <source>Change volume just before p&amp;laying</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="674"/>
-        <source>Enable the audio equalizer</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="675"/>
-        <source>Check this option if you want to use the audio equalizer.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="676"/>
-        <source>&amp;Enable the audio equalizer</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="646"/>
-        <source>Draw video using slices</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="650"/>
-        <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="409"/>
-        <source>Dra&amp;w video using slices</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="247"/>
-        <source>&amp;Close when finished playback</source>
-        <translation type="unfinished"></translation>
+        <translation>Змінити &amp;гучність безпосередньо перед відтворенням</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="233"/>
         <source>fast</source>
-        <translation type="unfinished"></translation>
+        <translation>швидко</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="229"/>
         <source>slow</source>
-        <translation type="unfinished"></translation>
+        <translation>повільно</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="226"/>
         <source>fastest</source>
-        <translation type="unfinished"></translation>
+        <translation>найшвидше</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="234"/>
         <source>fast - ATI cards</source>
-        <translation type="unfinished"></translation>
+        <translation>швидко - карти ATI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="256"/>
         <source>User defined...</source>
-        <translation type="unfinished"></translation>
+        <translation>Визначені користувачем...</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="646"/>
+        <source>Draw video using slices</source>
+        <translation>Промальовувати відео шматками</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="650"/>
+        <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
+        <translation>Ввімкнути/вимкнути промальовування відео шматками/смугами 16-піксельної висоти. Якщо вимкнено, то цілий фрейм малюється за раз. Може бути швидше або повільніше в залежності відеокарти та наявного кешу. Дїє лише з кодеками libmpeg2 та libavcodec.</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="674"/>
+        <source>Enable the audio equalizer</source>
+        <translation>Ввімкнути аудіоеквалайзер</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="675"/>
+        <source>Check this option if you want to use the audio equalizer.</source>
+        <translation>Виберіть цю опцію, якщо ви бажаєте використавувати аудіоеквалайзер.</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="247"/>
+        <source>&amp;Close when finished playback</source>
+        <translation>&amp;Вийти по закінченню відтворення</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="409"/>
+        <source>Dra&amp;w video using slices</source>
+        <translation>Промальовувати відео &amp;шматками</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="676"/>
+        <source>&amp;Enable the audio equalizer</source>
+        <translation>&amp;Ввімкнути аудіоеквалайзер</translation>
     </message>
 </context>
 <context>
@@ -4573,22 +4611,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="82"/>
         <source>Show context menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Показати контекстне меню</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="398"/>
         <source>&amp;Right click</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Клік правою</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="66"/>
         <source>Increase volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Збільшення гучності</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="67"/>
         <source>Decrease volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Зменшення гучності</translation>
     </message>
 </context>
 <context>
@@ -4881,62 +4919,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="149"/>
         <source>Default GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Графічний інтерфейс за замовчуванням</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="150"/>
         <source>Mini GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Зменшений графічний інтерфейс</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="449"/>
         <source>GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Графічний інтерфейс</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="457"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option will take effect the next time you run SMPlayer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть графічний інтерфейс для програми, якому ви надаєте перевагу. Зараз наявні два: звичайний та міні інтерфейси.&lt;br&gt;Звичайний&lt;b&gt;&lt;/b&gt; забезпечує традиційні панелі інструментів та керування. &lt;b&gt;Міні&lt;/b&gt; забезпечує більш простий інтерфейс без панелів інструментів та з декількома кнопками на панелі інструментів.&lt;br&gt;&lt;b&gt;Зауваження:&lt;/b&gt; ця опція подіє після наступного запуску SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="307"/>
         <source>&amp;GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Графічний інтерфейс</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="329"/>
         <source>(this option requires to restart SMPlayer)</source>
-        <translation type="unfinished"></translation>
+        <translation>(це опція потребує перезапуску SMPlayer)</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="490"/>
         <source>Automatic port</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматичний порт</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="493"/>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. If you select this option, a port will be automatically chosen.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer&apos;у необхідно слухати порт, щоб отримувати команди від інших процесів. Якщо ви виберете цю опцію, потр буде вибраний автоматично.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="495"/>
         <source>Manual port</source>
-        <translation type="unfinished"></translation>
+        <translation>Вказаний порт</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="558"/>
         <source>Port to listen</source>
-        <translation type="unfinished"></translation>
+        <translation>Порт для прослуховування</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="570"/>
         <source>&amp;Automatic</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Автоматично</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="585"/>
         <source>&amp;Manual</source>
-        <translation type="unfinished"></translation>
+        <translation>В&amp;ручну</translation>
     </message>
 </context>
 <context>
@@ -5209,47 +5247,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="304"/>
         <source>Cache for audio CDs</source>
-        <translation type="unfinished"></translation>
+        <translation>Кеш для аудіо CD</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="306"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ця опція вказує (в кілобайтах) скільки пам&apos;яті використовувати для прекешування аудіо CD.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="527"/>
         <source>Cache for &amp;audio CDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>Кеш для &amp;аудіо CD:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="308"/>
         <source>Cache for VCDs</source>
-        <translation type="unfinished"></translation>
+        <translation>Кеш для VCD</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="310"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ця опція вказує (в кілобайтах) скільки пам&apos;яті використовувати для прекешування VCD.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="571"/>
         <source>Cache for &amp;VCDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>Кеш для &amp;VCD:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="250"/>
         <source>Threads for decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Потоки для декодування</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="252"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
-        <translation type="unfinished"></translation>
+        <translation>Встановлює кількість потоків, що використовуються для декодування. Тільки для MPEG-1/2 та H.264</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="158"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Потоки для декодування (тільки для MPEG-1/2 та H.264):</translation>
     </message>
 </context>
 <context>
@@ -5302,7 +5340,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="225"/>
         <source>0</source>
-        <translation></translation>
+        <translation>0</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="245"/>
@@ -5362,7 +5400,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="691"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
-        <translation type="unfinished">Тут Ви можете вказати стилі для субтитрів SSA/ASS. Також може використовуватися для точного налаштування відображення субтитрів SRT і SUB библиотекою SSA/ASS. Приклад: &lt;b&gt; Bold=1, Outline=2, Shadow=4 &lt;/b&gt;</translation>
+        <translation>Тут Ви можете вказати стилі для субтитрів SSA/ASS. Також може використовуватися для точного налаштування відображення субтитрів SRT і SUB библиотекою SSA/ASS. Приклад: &lt;b&gt; Bold=1, Outline=2, Shadow=4 &lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="304"/>
@@ -5585,7 +5623,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preferencesdialog.cpp" line="125"/>
         <source>OK</source>
-        <translation>Готово</translation>
+        <translation>Гаразд</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="126"/>
@@ -5748,17 +5786,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="117"/>
         <source>opens the default gui.</source>
-        <translation type="unfinished"></translation>
+        <translation>відкрити інтерфейс за замовчуванням.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="96"/>
         <source>subtitle_file</source>
-        <translation type="unfinished"></translation>
+        <translation>субтитри_файл</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="151"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
-        <translation type="unfinished"></translation>
+        <translation>визначає файл з субтитрами, що завантажується для першого відео.</translation>
     </message>
 </context>
 <context>
@@ -5883,17 +5921,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.cpp" line="69"/>
         <source>Video Equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Відеоеквалайзер</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="118"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Інформація</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="120"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Поточні значення збережені, щоб використовуватись за замовчуванням.</translation>
     </message>
 </context>
 <context>
