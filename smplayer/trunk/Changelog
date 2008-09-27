@@ -1,5 +1,11 @@
 [b]Version 0.6.4[/b]:
 
+(2008-09-27)
+ * Added basic support for the tag ID_CHAPTERS, added in mplayer svn r27667.
+   This makes things easier to know the number of chapters in a video.
+   Don't know if it could cause a conflict with DVD chapters. Some code
+   has still to be revised and modified.
+
 (2008-09-26)
  * Added support for the new "pausing_keep_force" slave mode command prefix
    (added in mplayer r27665).

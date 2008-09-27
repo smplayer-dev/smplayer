@@ -571,6 +571,10 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			if (tag == "ID_AUDIO_CODEC") {
 				md.audio_codec = value;
 			}
+			else
+			if (tag == "ID_CHAPTERS") {
+				md.mkv_chapters = value.toInt();
+			}
 		}
 	}
 }
