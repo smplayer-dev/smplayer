@@ -980,7 +980,7 @@ void Core::screenshot() {
 	if ( (!pref->screenshot_directory.isEmpty()) && 
          (QFileInfo(pref->screenshot_directory).isDir()) ) 
 	{
-		tellmp("pausing_keep screenshot 0");
+		tellmp( pausing_prefix() + " screenshot 0");
 		qDebug("Core::screenshot: taken screenshot");
 	} else {
 		qDebug("Core::screenshot: error: directory for screenshots not valid");
@@ -2344,7 +2344,7 @@ void Core::mute(bool b) {
 
 	int v = 0;
 	if (mset.mute) v = 1;
-	tellmp("pausing_keep mute " + QString::number(v) );
+	tellmp( pausing_prefix() + " mute " + QString::number(v) );
 
 	updateWidgets();
 }
@@ -3162,6 +3162,10 @@ void Core::displayScreenshotName(QString filename) {
 	//QString text = tr("Screenshot saved as %1").arg(filename);
 	QString text = QString("Screenshot saved as %1").arg(filename);
 
+	if (MplayerVersion::isMplayerAtLeast(27665)) {
+		tellmp( "pausing_keep_force osd_show_text \"" + text + "\" 3000 1");
+	}
+	else
 	if (state() != Paused) {
 		// Dont' show the message on OSD while in pause, otherwise
 		// the video goes forward a frame.
@@ -3312,5 +3316,17 @@ void Core::initAudioTrack() {
 	}
 }
 #endif
+
+QString Core::pausing_prefix() {
+	qDebug("Core::pausing_prefix");
+
+	if ( (pref->use_pausing_keep_force) && 
+         (MplayerVersion::isMplayerAtLeast(27665)) ) 
+	{
+		return "pausing_keep_force";
+	} else {
+		return "pausing_keep";
+	}
+}
 
 #include "moc_core.cpp"

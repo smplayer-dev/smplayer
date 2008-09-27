@@ -232,6 +232,8 @@ void Preferences::reset() {
 
 	change_video_equalizer_on_startup = true;
 
+	use_pausing_keep_force = true;
+
 
     /* *********
        GUI stuff
@@ -558,6 +560,8 @@ void Preferences::save() {
 	set->setValue("use_short_pathnames", use_short_pathnames);
 
 	set->setValue("change_video_equalizer_on_startup", change_video_equalizer_on_startup);
+
+	set->setValue("use_pausing_keep_force", use_pausing_keep_force);
 
 	set->endGroup(); // advanced
 
@@ -897,7 +901,7 @@ void Preferences::load() {
 
 	use_short_pathnames = set->value("use_short_pathnames", use_short_pathnames).toBool();
 
-	change_video_equalizer_on_startup = set->value("change_video_equalizer_on_startup", change_video_equalizer_on_startup).toBool();
+	use_pausing_keep_force = set->value("use_pausing_keep_force", use_pausing_keep_force).toBool();
 
 	set->endGroup(); // advanced
 

@@ -1,5 +1,16 @@
 [b]Version 0.6.4[/b]:
 
+(2008-09-26)
+ * Added support for the new "pausing_keep_force" slave mode command prefix
+   (added in mplayer r27665).
+   This prefix really keeps the file paused after processing a slave command. 
+   So now if you, for example, mute the audio when the video is paused it 
+   won't advance one frame after it. It also keeps the video paused when you 
+   take a screenshot (although you won't see the confirmation message until 
+   playback resumes).
+   There's also an option for smplayer.ini, use_pausing_keep_force. You can
+   set to false if you find any trouble or prefer the old behaviour.
+
 (2008-09-25)
  * Added the Galician translation, by Miguel Branco <mgl.branco@gmail.com>.
 

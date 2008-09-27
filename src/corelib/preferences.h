@@ -221,6 +221,11 @@ public:
 	//! mplayer. It seems that some graphic cards don't support those options.
 	bool change_video_equalizer_on_startup;
 
+	//! If true, smplayer will use the prefix pausing_keep_force to keep
+	//! the pause on slave commands. This experimental prefix was added
+	//! in mplayer svn r27665.
+	bool use_pausing_keep_force;
+
 
 	/* *********
 	   GUI stuff
