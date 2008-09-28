@@ -1,3 +1,14 @@
+Version 0.6.3.1 (release for Windows only)
+
+This release includes a fix for an important bug in 0.6.3 which affected
+the version for Windows: the video window would be black on the first
+video played, or always if the user opened the preferences dialog before
+playing a video. In those cases "directx," was used as video driver but
+the -colorkey option was not passed to mplayer producing the problem.
+Windows Vista probably wasn't affected by this bug, as it uses a
+different video driver as default.
+
+
 Version 0.6.3.
 
 Most important changes since 0.6.2 (see the Changelog for the whole list):
