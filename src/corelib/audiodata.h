@@ -16,41 +16,31 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _TRACKS_H_
-#define _TRACKS_H_
 
-#include "trackdata.h"
-#include <QMap>
+#ifndef _AUDIODATA_H_
+#define _AUDIODATA_H_
+
+#include <QString>
 #include <QSettings>
 
-class TrackList {
+/* Class to store info about audio tracks */
+
+class AudioData {
 
 public:
 
-	TrackList();
-	~TrackList();
+	AudioData();
+	~AudioData();
 
-	void clear();
-	void list();
+	void setLang( const QString & l ) { _lang = l; };
+	void setName( const QString & n ) { _name = n; };
+	void setID( int id ) { _ID = id; };
 
-	void addLang(int ID, QString lang);
-	void addName(int ID, QString name);
-	void addFilename(int ID, QString filename);
-	void addDuration(int ID, double duration);
-	void addID(int ID);
+	QString lang() const { return _lang; };
+	QString name() const { return _name; };
+	int ID() const { return _ID; };
 
-	int numItems();
-	bool existsItemAt(int n);
-
-	TrackData itemAt(int n);
-	TrackData item(int ID);
-	int find(int ID);
-
-	int findLang(QString expr);
-
-	// A mess for getting sub files...
-	int lastID();
-	bool existsFilename(QString name);
+	QString displayName() const;
 
 /*
 #ifndef NO_USE_INI_FILES
@@ -58,10 +48,17 @@ public:
 	void load(QSettings & set);
 #endif
 */
+	void list();
 
 protected:
-	typedef QMap <int, TrackData> TrackMap;
-	TrackMap tm;
+
+	/* Language code: es, en, etc. */
+	QString _lang;
+
+	/* spanish, english... */
+	QString _name;
+
+	int _ID;
 };
 
 #endif

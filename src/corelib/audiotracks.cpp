@@ -16,78 +16,68 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#include "tracks.h"
+#include "audiotracks.h"
 #include <QRegExp>
 
-TrackList::TrackList() { 
+AudioTracks::AudioTracks() { 
 	clear();
 }
 
-TrackList::~TrackList() {
+AudioTracks::~AudioTracks() {
 }
 
-void TrackList::clear() {
+void AudioTracks::clear() {
 	tm.clear();
 }
 
-void TrackList::addLang(int ID, QString lang) {
+void AudioTracks::addLang(int ID, QString lang) {
 	tm[ID].setLang(lang);
 	tm[ID].setID(ID);
 }
 
-void TrackList::addName(int ID, QString name) {
+void AudioTracks::addName(int ID, QString name) {
 	tm[ID].setName(name);
 	tm[ID].setID(ID);
 }
 
-void TrackList::addFilename(int ID, QString filename) {
-	tm[ID].setFilename(filename);
-	tm[ID].setID(ID);
-}
-
-void TrackList::addDuration(int ID, double duration) {
-	tm[ID].setDuration(duration);
-	tm[ID].setID(ID);
-}
-
-void TrackList::addID(int ID) {
+void AudioTracks::addID(int ID) {
 	tm[ID].setID(ID);
 }
 
 
-int TrackList::numItems() {
+int AudioTracks::numItems() {
 	return tm.count();
 }
 
-bool TrackList::existsItemAt(int n) {
+bool AudioTracks::existsItemAt(int n) {
 	return ((n > 0) && (n < numItems()));
 }
 
-TrackData TrackList::itemAt(int n) {
+AudioData AudioTracks::itemAt(int n) {
 	return tm.values()[n];
 }
 
-TrackData TrackList::item(int ID) {
+AudioData AudioTracks::item(int ID) {
 	return tm[ID];
 }
 
-int TrackList::find(int ID) {
+int AudioTracks::find(int ID) {
 	for (int n=0; n < numItems(); n++) {
 		if (itemAt(n).ID() == ID) return n;
 	}
 	return -1;
 }
 
-int TrackList::findLang(QString expr) {
-	qDebug( "TrackList::findLang: '%s'", expr.toUtf8().data());
+int AudioTracks::findLang(QString expr) {
+	qDebug( "AudioTracks::findLang: '%s'", expr.toUtf8().data());
 	QRegExp rx( expr );
 
 	int res_id = -1;
 
 	for (int n=0; n < numItems(); n++) {
-		qDebug("TrackList::findLang: lang #%d '%s'", n, itemAt(n).lang().toUtf8().data());
+		qDebug("AudioTracks::findLang: lang #%d '%s'", n, itemAt(n).lang().toUtf8().data());
 		if (rx.indexIn( itemAt(n).lang() ) > -1) {
-			qDebug("TrackList::findLang: found preferred lang!");
+			qDebug("AudioTracks::findLang: found preferred lang!");
 			res_id = itemAt(n).ID();
 			break;	
 		}
@@ -96,35 +86,17 @@ int TrackList::findLang(QString expr) {
 	return res_id;
 }
 
-void TrackList::list() {
+void AudioTracks::list() {
 	for (int n=0; n < numItems(); n++) {
 		qDebug("    item # %d", n);
 		itemAt(n).list();
 	}
 }
 
-
-int TrackList::lastID() {
-	int key = -1;
-	for (int n=0; n < numItems(); n++) {
-		if (itemAt(n).ID() > key) 
-			key = itemAt(n).ID();
-	}
-	return key;
-}
-
-bool TrackList::existsFilename(QString name) {
-	for (int n=0; n < numItems(); n++) {
-		if (itemAt(n).filename() == name) 
-			return TRUE;
-	}
-	return FALSE;
-}
-
 /*
 #ifndef NO_USE_INI_FILES
-void TrackList::save(QSettings & set) {
-	qDebug("TrackList::save");
+void AudioTracks::save(QSettings & set) {
+	qDebug("AudioTracks::save");
 
 	set.setValue( "num_tracks", numItems() );
 	for (int n=0; n < numItems(); n++) {
@@ -134,8 +106,8 @@ void TrackList::save(QSettings & set) {
 	}
 }
 
-void TrackList::load(QSettings & set) {
-	qDebug("TrackList::load");
+void AudioTracks::load(QSettings & set) {
+	qDebug("AudioTracks::load");
 
 	int num_tracks = set.value( "num_tracks", 0 ).toInt();
 

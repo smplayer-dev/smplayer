@@ -21,7 +21,7 @@
 
 /* Here we store some volatile info about the file we need to remember */
 
-#include "tracks.h"
+#include "audiotracks.h"
 #include "subtracks.h"
 #include "titletracks.h"
 #include "config.h"
@@ -64,7 +64,7 @@ public:
 
 	void list();
 
-	TrackList audios;
+	AudioTracks audios;
 	TitleTracks titles; // for DVDs
 
 	SubTracks subs;

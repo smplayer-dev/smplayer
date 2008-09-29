@@ -16,23 +16,20 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#include "trackdata.h"
+#include "audiodata.h"
 #include "helper.h"
-#include <QFileInfo>
 
-TrackData::TrackData() {
+AudioData::AudioData() {
 	_lang = "";
 	_name = "";
-	_filename = "";
-	_duration = 0;
 	_ID = -1;
 }
 
-TrackData::~TrackData() {
+AudioData::~AudioData() {
 }
 
-QString TrackData::displayName() const {
-	//qDebug("TrackData::displayName");
+QString AudioData::displayName() const {
+	//qDebug("AudioData::displayName");
 
 	QString dname="";
 
@@ -47,48 +44,36 @@ QString TrackData::displayName() const {
         dname = _lang;
 	}
     else
-	if (!_filename.isEmpty()) {
-		QFileInfo f(_filename);
-	    dname = f.fileName();
-	}
-	else
     dname = QString::number(_ID);
-
-	if (_duration > 0) {
-		dname += " ("+ Helper::formatTime( (int) _duration ) +")";
-	}
 
 	return dname;
 }
 
 /*
 #ifndef NO_USE_INI_FILES
-void TrackData::save(QSettings & set) {
-	//qDebug("TrackData::save");
+void AudioData::save(QSettings & set) {
+	//qDebug("AudioData::save");
 
 	set.setValue( "lang", _lang );
 	set.setValue( "name", _name );
 	set.setValue( "filename", _filename );
-	set.setValue( "duration", _duration );
 	set.setValue( "ID", _ID );
 }
 
-void TrackData::load(QSettings & set) {
-	//qDebug("TrackData::load");
+void AudioData::load(QSettings & set) {
+	//qDebug("AudioData::load");
 
 	_lang = set.value( "lang", _lang ).toString();
 	_name = set.value( "name", _name ).toString();
 	_filename = set.value( "filename", _filename ).toString();
-	_duration = set.value( "duration", _duration).toDouble();
 	_ID = set.value( "ID", _ID ).toInt();
 }
 
 #endif // NO_USE_INI_FILES
 */
 
-void TrackData::list() {
-	//qDebug("TrackData::list");
+void AudioData::list() {
+	//qDebug("AudioData::list");
 
 	qDebug("     ID: '%d' lang: '%s' name: '%s'", _ID, _lang.toUtf8().data(), _name.toUtf8().data() );
-	qDebug("     filename: '%s' duration: %f", _filename.toUtf8().data(), _duration );
 }
