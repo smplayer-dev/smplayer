@@ -22,6 +22,7 @@
 
 #include <QString>
 #include <QSettings>
+#include "config.h"
 
 /* Class to store audios, subtitles, titles, chapters... */
 
@@ -36,7 +37,9 @@ public:
 	void setName( const QString & n ) { _name = n; };
 	void setFilename( const QString & f ) { _filename = f; };
 	void setDuration( double d ) { _duration = d; };
+#if !GENERIC_CHAPTER_SUPPORT
 	void setChapters( int n ) { _chapters = n; };
+#endif
 	void setAngles( int n ) { _angles = n; };
 	void setID( int id ) { _ID = id; };
 
@@ -44,7 +47,9 @@ public:
 	QString name() const { return _name; };
 	QString filename() const { return _filename; };
 	double duration() const { return _duration; };
+#if !GENERIC_CHAPTER_SUPPORT
 	int chapters() const { return _chapters; };
+#endif
 	int angles() const { return _angles; };
 	int ID() const { return _ID; };
 
@@ -69,7 +74,9 @@ protected:
 
 	/* For dvd titles */
 	double _duration;
+#if !GENERIC_CHAPTER_SUPPORT
 	int _chapters;
+#endif
 	int _angles;
 
 	int _ID;

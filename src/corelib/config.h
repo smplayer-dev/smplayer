@@ -96,6 +96,13 @@
 #define USE_MINIMUMSIZE 1
 
 
+// GENERIC_CHAPTER_SUPPORT
+// if 1, it will use a generic code for chapters which can be used
+// for all kind of videos, not only DVDs and mkv files.
+
+#define GENERIC_CHAPTER_SUPPORT 1
+
+
 // Adds or not the "Repaint the background of the video window" option.
 #ifndef Q_OS_WIN
 #define REPAINT_BACKGROUND_OPTION 1

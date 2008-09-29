@@ -303,10 +303,17 @@ void MplayerProcess::parseLine(QByteArray ba) {
 		if (rx_mkvchapters.indexIn(line)!=-1) {
 			int c = rx_mkvchapters.cap(1).toInt();
 			qDebug("MplayerProcess::parseLine: mkv chapters: %d", c);
+#if GENERIC_CHAPTER_SUPPORT
+			if ((c+1) > md.chapters) {
+				md.chapters = c+1;
+				qDebug("MplayerProcess::parseLine: chapters set to: %d", md.chapters);
+			}
+#else
 			if ((c+1) > md.mkv_chapters) {
 				md.mkv_chapters = c+1;
 				qDebug("MplayerProcess::parseLine: mkv_chapters set to: %d", md.mkv_chapters);
 			}
+#endif
 		}
 		else
 
@@ -352,7 +359,11 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			if (t=="CHAPTERS") {
 				int chapters = rx_title.cap(3).toInt();
 				qDebug("MplayerProcess::parseLine: Title: ID: %d, Chapters: '%d'", ID, chapters);
+#if GENERIC_CHAPTER_SUPPORT
+				md.chapters = chapters;
+#else
 				md.titles.addChapters(ID, chapters);
+#endif
 			}
 			else
 			if (t=="ANGLES") {
@@ -571,10 +582,12 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			if (tag == "ID_AUDIO_CODEC") {
 				md.audio_codec = value;
 			}
+#if GENERIC_CHAPTER_SUPPORT
 			else
 			if (tag == "ID_CHAPTERS") {
-				md.mkv_chapters = value.toInt();
+				md.chapters = value.toInt();
 			}
+#endif
 		}
 	}
 }
