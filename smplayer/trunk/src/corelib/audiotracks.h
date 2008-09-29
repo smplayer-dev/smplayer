@@ -16,35 +16,35 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
+#ifndef _AUDIOTRACKS_H_
+#define _AUDIOTRACKS_H_
 
-#ifndef _TRACKDATA_H_
-#define _TRACKDATA_H_
-
-#include <QString>
+#include "audiodata.h"
+#include <QMap>
 #include <QSettings>
 
-/* Class to store audios, subtitles, titles, chapters... */
-
-class TrackData {
+class AudioTracks {
 
 public:
 
-	TrackData();
-	~TrackData();
+	AudioTracks();
+	~AudioTracks();
 
-	void setLang( const QString & l ) { _lang = l; };
-	void setName( const QString & n ) { _name = n; };
-	void setFilename( const QString & f ) { _filename = f; };
-	void setDuration( double d ) { _duration = d; };
-	void setID( int id ) { _ID = id; };
+	void clear();
+	void list();
 
-	QString lang() const { return _lang; };
-	QString name() const { return _name; };
-	QString filename() const { return _filename; };
-	double duration() const { return _duration; };
-	int ID() const { return _ID; };
+	void addLang(int ID, QString lang);
+	void addName(int ID, QString name);
+	void addID(int ID);
 
-	QString displayName() const;
+	int numItems();
+	bool existsItemAt(int n);
+
+	AudioData itemAt(int n);
+	AudioData item(int ID);
+	int find(int ID);
+
+	int findLang(QString expr);
 
 /*
 #ifndef NO_USE_INI_FILES
@@ -52,23 +52,10 @@ public:
 	void load(QSettings & set);
 #endif
 */
-	void list();
 
 protected:
-
-	/* Language code: es, en, etc. */
-	QString _lang;
-
-	/* spanish, english... */
-	QString _name;
-
-	/* In case of subtitles files (*.srt, sub...) */
-	QString _filename;
-
-	double _duration;
-
-	int _ID;
+	typedef QMap <int, AudioData> AudioMap;
+	AudioMap tm;
 };
-
 
 #endif

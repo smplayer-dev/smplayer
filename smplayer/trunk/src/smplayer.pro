@@ -22,8 +22,8 @@ HEADERS	+= guiconfig.h \
 	corelib/helper.h \
 	translator.h \
 	corelib/subtracks.h \
-	corelib/trackdata.h \
-	corelib/tracks.h \
+	corelib/audiodata.h \
+	corelib/audiotracks.h \
 	corelib/titledata.h \
 	corelib/titletracks.h \
 	extensions.h \
@@ -100,8 +100,8 @@ SOURCES	+= version.cpp \
 	corelib/helper.cpp \
 	translator.cpp \
 	corelib/subtracks.cpp \
-	corelib/trackdata.cpp \
-	corelib/tracks.cpp \
+	corelib/audiodata.cpp \
+	corelib/audiotracks.cpp \
 	corelib/titledata.cpp \
 	corelib/titletracks.cpp \
 	extensions.cpp \
