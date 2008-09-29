@@ -86,6 +86,10 @@ private:
 	bool audio_tracks_changed;
 	bool subtitle_tracks_changed;
 #endif
+
+#if GENERIC_CHAPTER_SUPPORT
+	int dvd_current_title;
+#endif
 };
 
 
