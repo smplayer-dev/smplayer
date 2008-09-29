@@ -23,6 +23,7 @@
 
 #include "tracks.h"
 #include "subtracks.h"
+#include "titletracks.h"
 #include "config.h"
 
 #include <QString>
@@ -64,7 +65,7 @@ public:
 	void list();
 
 	TrackList audios;
-	TrackList titles; // for DVDs
+	TitleTracks titles; // for DVDs
 
 	SubTracks subs;
 
