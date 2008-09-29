@@ -24,6 +24,8 @@ HEADERS	+= guiconfig.h \
 	corelib/subtracks.h \
 	corelib/trackdata.h \
 	corelib/tracks.h \
+	corelib/titledata.h \
+	corelib/titletracks.h \
 	extensions.h \
 	corelib/desktopinfo.h \
 	corelib/myprocess.h \
@@ -100,6 +102,8 @@ SOURCES	+= version.cpp \
 	corelib/subtracks.cpp \
 	corelib/trackdata.cpp \
 	corelib/tracks.cpp \
+	corelib/titledata.cpp \
+	corelib/titletracks.cpp \
 	extensions.cpp \
 	corelib/desktopinfo.cpp \
 	corelib/myprocess.cpp \
