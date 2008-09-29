@@ -37,8 +37,6 @@ public:
 	void addName(int ID, QString name);
 	void addFilename(int ID, QString filename);
 	void addDuration(int ID, double duration);
-	void addChapters(int ID, int n);
-	void addAngles(int ID, int n);
 	void addID(int ID);
 
 	int numItems();
@@ -54,15 +52,16 @@ public:
 	int lastID();
 	bool existsFilename(QString name);
 
+/*
 #ifndef NO_USE_INI_FILES
 	void save(QSettings & set);
 	void load(QSettings & set);
 #endif
+*/
 
 protected:
 	typedef QMap <int, TrackData> TrackMap;
 	TrackMap tm;
 };
-
 
 #endif

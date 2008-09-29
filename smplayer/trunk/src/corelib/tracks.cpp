@@ -50,16 +50,6 @@ void TrackList::addDuration(int ID, double duration) {
 	tm[ID].setID(ID);
 }
 
-void TrackList::addChapters(int ID, int n) {
-	tm[ID].setChapters(n);
-	tm[ID].setID(ID);
-}
-
-void TrackList::addAngles(int ID, int n) {
-	tm[ID].setAngles(n);
-	tm[ID].setID(ID);
-}
-
 void TrackList::addID(int ID) {
 	tm[ID].setID(ID);
 }
@@ -131,6 +121,7 @@ bool TrackList::existsFilename(QString name) {
 	return FALSE;
 }
 
+/*
 #ifndef NO_USE_INI_FILES
 void TrackList::save(QSettings & set) {
 	qDebug("TrackList::save");
@@ -162,4 +153,4 @@ void TrackList::load(QSettings & set) {
 	//list();
 }
 #endif // NO_USE_INI_FILES
-
+*/

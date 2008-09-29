@@ -36,24 +36,22 @@ public:
 	void setName( const QString & n ) { _name = n; };
 	void setFilename( const QString & f ) { _filename = f; };
 	void setDuration( double d ) { _duration = d; };
-	void setChapters( int n ) { _chapters = n; };
-	void setAngles( int n ) { _angles = n; };
 	void setID( int id ) { _ID = id; };
 
 	QString lang() const { return _lang; };
 	QString name() const { return _name; };
 	QString filename() const { return _filename; };
 	double duration() const { return _duration; };
-	int chapters() const { return _chapters; };
-	int angles() const { return _angles; };
 	int ID() const { return _ID; };
 
 	QString displayName() const;
 
+/*
 #ifndef NO_USE_INI_FILES
 	void save(QSettings & set);
 	void load(QSettings & set);
 #endif
+*/
 	void list();
 
 protected:
@@ -67,10 +65,7 @@ protected:
 	/* In case of subtitles files (*.srt, sub...) */
 	QString _filename;
 
-	/* For dvd titles */
 	double _duration;
-	int _chapters;
-	int _angles;
 
 	int _ID;
 };
