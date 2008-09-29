@@ -50,12 +50,10 @@ void TrackList::addDuration(int ID, double duration) {
 	tm[ID].setID(ID);
 }
 
-#if !GENERIC_CHAPTER_SUPPORT
 void TrackList::addChapters(int ID, int n) {
 	tm[ID].setChapters(n);
 	tm[ID].setID(ID);
 }
-#endif
 
 void TrackList::addAngles(int ID, int n) {
 	tm[ID].setAngles(n);

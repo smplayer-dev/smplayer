@@ -22,7 +22,6 @@
 #include "trackdata.h"
 #include <QMap>
 #include <QSettings>
-#include "config.h"
 
 class TrackList {
 
@@ -38,9 +37,7 @@ public:
 	void addName(int ID, QString name);
 	void addFilename(int ID, QString filename);
 	void addDuration(int ID, double duration);
-#if !GENERIC_CHAPTER_SUPPORT
 	void addChapters(int ID, int n);
-#endif
 	void addAngles(int ID, int n);
 	void addID(int ID);
 
