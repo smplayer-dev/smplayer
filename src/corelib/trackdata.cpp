@@ -26,9 +26,7 @@ TrackData::TrackData() {
 	_filename = "";
 	_duration = 0;
 	_ID = -1;
-#if !GENERIC_CHAPTER_SUPPORT
 	_chapters = 0;
-#endif
 	_angles = 0;
 }
 
@@ -73,9 +71,7 @@ void TrackData::save(QSettings & set) {
 	set.setValue( "name", _name );
 	set.setValue( "filename", _filename );
 	set.setValue( "duration", _duration );
-#if !GENERIC_CHAPTER_SUPPORT
 	set.setValue( "chapters", _chapters );
-#endif
 	set.setValue( "angles", _angles );
 	set.setValue( "ID", _ID );
 }
@@ -87,9 +83,7 @@ void TrackData::load(QSettings & set) {
 	_name = set.value( "name", _name ).toString();
 	_filename = set.value( "filename", _filename ).toString();
 	_duration = set.value( "duration", _duration).toDouble();
-#if !GENERIC_CHAPTER_SUPPORT
 	_chapters = set.value( "chapters", _chapters ).toInt();
-#endif
 	_angles =  set.value( "angles", _angles ).toInt();
 	_ID = set.value( "ID", _ID ).toInt();
 }
@@ -100,11 +94,6 @@ void TrackData::list() {
 	//qDebug("TrackData::list");
 
 	qDebug("     ID: '%d' lang: '%s' name: '%s'", _ID, _lang.toUtf8().data(), _name.toUtf8().data() );
-#if GENERIC_CHAPTER_SUPPORT
-	qDebug("     filename: '%s' duration: %f angles: %d", 
-            _filename.toUtf8().data(), _duration, _angles );
-#else
 	qDebug("     filename: '%s' duration: %f chapters: %d angles: %d", 
             _filename.toUtf8().data(), _duration, _chapters, _angles );
-#endif
 }
