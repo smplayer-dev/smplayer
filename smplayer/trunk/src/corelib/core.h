@@ -257,10 +257,12 @@ public slots:
     void tellmp(const QString & command);
 
 public:
-	//! Returns the number of the first chapter in mkv
+	//! Returns the number of the first chapter in 
 	//! files. In some versions of mplayer is 0, in others 1
-	static int mkv_first_chapter();
-	static int dvd_first_chapter();
+	static int firstChapter();
+#if !GENERIC_CHAPTER_SUPPORT
+	static int dvdFirstChapter();
+#endif
 
 protected:
 	//! Returns the prefix to keep pausing on slave commands

@@ -23,6 +23,7 @@
 
 #include "tracks.h"
 #include "subtracks.h"
+#include "config.h"
 
 #include <QString>
 #include <QSettings>
@@ -67,10 +68,14 @@ public:
 
 	SubTracks subs;
 
+#if GENERIC_CHAPTER_SUPPORT
+	int chapters;
+#else
 	//int chapters, angles; // for DVDs
 
 	// Matroshka chapters
 	int mkv_chapters;
+#endif
 
 	// Clip info
 	QString clip_name;

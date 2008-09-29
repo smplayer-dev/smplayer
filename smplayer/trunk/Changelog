@@ -1,5 +1,10 @@
 [b]Version 0.6.4[/b]:
 
+(2008-09-28)
+ * Added an (experimental) generic code to manage chapters, instead of two 
+   separate codes for mkv and DVDs. Seems to work well with mkv but it's
+   still untested on DVDs.
+
 (2008-09-27)
  * Added basic support for the tag ID_CHAPTERS, added in mplayer svn r27667.
    This makes things easier to know the number of chapters in a video.
