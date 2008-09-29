@@ -63,6 +63,10 @@ bool MplayerProcess::start() {
 	subtitle_tracks_changed = false;
 #endif
 
+#if GENERIC_CHAPTER_SUPPORT
+	dvd_current_title = -1;
+#endif
+
 	MyProcess::start();
 	return waitForStarted();
 }
@@ -153,6 +157,15 @@ void MplayerProcess::parseLine(QByteArray ba) {
 		
 		if (!notified_mplayer_is_running) {
 			qDebug("MplayerProcess::parseLine: starting sec: %f", sec);
+#if GENERIC_CHAPTER_SUPPORT
+			if ( (md.chapters <= 0) && (dvd_current_title > 0) && 
+                 (md.titles.find(dvd_current_title) != -1) )
+			{
+				int idx = md.titles.find(dvd_current_title);
+				md.chapters = md.titles.itemAt(idx).chapters();
+				qDebug("MplayerProcess::parseLine: setting chapters to %d", md.chapters);
+			}
+#endif
 			emit receivedStartingTime(sec);
 			emit mplayerFullyLoaded();
 
@@ -359,11 +372,7 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			if (t=="CHAPTERS") {
 				int chapters = rx_title.cap(3).toInt();
 				qDebug("MplayerProcess::parseLine: Title: ID: %d, Chapters: '%d'", ID, chapters);
-#if GENERIC_CHAPTER_SUPPORT
-				md.chapters = chapters;
-#else
 				md.titles.addChapters(ID, chapters);
-#endif
 			}
 			else
 			if (t=="ANGLES") {
@@ -586,6 +595,10 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			else
 			if (tag == "ID_CHAPTERS") {
 				md.chapters = value.toInt();
+			}
+			else
+			if (tag == "ID_DVD_CURRENT_TITLE") {
+				dvd_current_title = value.toInt();
 			}
 #endif
 		}
