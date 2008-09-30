@@ -219,7 +219,7 @@ protected slots:
 	virtual void changeStyleSheet(QString style);
 #endif
 
-#if NEW_RESIZE_CODE
+#if !SIMPLE_RESIZE_CODE
 	void calculateDiff(); //!< Updates diff_size
 #endif
 
@@ -592,7 +592,7 @@ private:
 	QSize win_size;
 	bool was_maximized;
 
-#if NEW_RESIZE_CODE
+#if !SIMPLE_RESIZE_CODE
 	QSize diff_size;	//!< Main window size - panel size
 #endif
 

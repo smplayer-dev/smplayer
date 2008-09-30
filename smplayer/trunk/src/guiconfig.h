@@ -53,11 +53,6 @@
 #define ALLOW_CHANGE_STYLESHEET 1
 
 
-// New code to resize the main window
-
-#define NEW_RESIZE_CODE 0
-
-
 // Another new code to resize the main window, much simpler
 
 #define SIMPLE_RESIZE_CODE 1

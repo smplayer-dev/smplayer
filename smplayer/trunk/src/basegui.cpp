@@ -3488,8 +3488,6 @@ void BaseGui::resizeWindow(int w, int h) {
 
 #else // SIMPLE_RESIZE_CODE
 
-#if NEW_RESIZE_CODE
-
 void BaseGui::resizeWindow(int w, int h) {
 	qDebug("BaseGui::resizeWindow: %d, %d", w, h);
 	qDebug("BaseGui::resizeWindow: NEW_RESIZE_CODE");
@@ -3582,67 +3580,6 @@ void BaseGui::calculateDiff() {
 		}
 //	}
 }
-
-#else // NEW_RESIZE_CODE
-
-void BaseGui::resizeWindow(int w, int h) {
-	qDebug("BaseGui::resizeWindow: %d, %d", w, h);
-	qDebug("BaseGui::resizeWindow: OLD_CODE");
-
-	// If fullscreen, don't resize!
-	if (pref->fullscreen) return;
-
-	if ( (pref->resize_method==Preferences::Never) && (panel->isVisible()) ) {
-		return;
-	}
-
-	if (!panel->isVisible()) {
-		//hide();
-/* #if QT_VERSION >= 0x040301 */
-		// Work-around for Qt 4.3.1
-#if DOCK_PLAYLIST
-		panel->show();
-		resize(600,600);
-#else
-		resize(300,300);
-		panel->show();
-#endif
-/*
-#else
-		panel->show();
-		QPoint p = pos();
-		adjustSize();
-		move(p);
-#endif
-*/
-		//show();
-
-		// Enable compact mode
-		//compactAct->setEnabled(true);
-	}
-
-	if (pref->size_factor != 100) {
-		double zoom = (double) pref->size_factor/100;
-		w = w * zoom;
-		h = h * zoom;
-	}
-
-	int width = size().width() - panel->size().width();
-	int height = size().height() - panel->size().height();
-
-	width += w;
-	height += h;
-
-	resize(width,height);
-
-	qDebug("width: %d, height: %d", width, height);
-	qDebug("mplayerwindow->size: %d, %d", 
-           mplayerwindow->size().width(),  
-           mplayerwindow->size().height() );
-
-	mplayerwindow->setFocus(); // Needed?
-}
-#endif // NEW_RESIZE_CODE
 #endif // SIMPLE_RESIZE_CODE
 
 void BaseGui::hidePanel() {
