@@ -3466,6 +3466,15 @@ void BaseGui::resizeWindow(int w, int h) {
 	int new_width = w + diff_width;
 	int new_height = h + diff_height;
 
+#if USE_MINIMUMSIZE
+	int minimum_width = minimumSizeHint().width();
+	if (pref->gui_minimum_width != 0) minimum_width = pref->gui_minimum_width;
+	if (new_width < minimum_width) {
+		qDebug("BaseGui::resizeWindow: width is too small, setting width to %d", minimum_width);
+		new_width = minimum_width;
+	}
+#endif
+
 	resize(new_width, new_height);
 
 	qDebug("BaseGui::resizeWindow: done: window size: %d, %d", this->width(), this->height());
@@ -3475,16 +3484,6 @@ void BaseGui::resizeWindow(int w, int h) {
 	qDebug("BaseGui::resizeWindow: done: mplayerwindow->size: %d, %d", 
            mplayerwindow->size().width(),  
            mplayerwindow->size().height() );
-
-#if USE_MINIMUMSIZE
-	int minimum_width = minimumSizeHint().width();
-	if (pref->gui_minimum_width != 0) minimum_width = pref->gui_minimum_width;
-	if (width() < minimum_width) {
-		qDebug("BaseGui::resizeWindow: width is too small, setting width to %d", minimum_width);
-		resize( minimum_width, height());
-	}
-
-#endif
 }
 
 #else // SIMPLE_RESIZE_CODE
