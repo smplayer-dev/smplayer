@@ -1,5 +1,9 @@
 [b]Version 0.6.4[/b]:
 
+(2008-09-29)
+ * Now the chapters on DVD should work again.
+ * Reorganization in some data structures.
+
 (2008-09-28)
  * Added an (experimental) generic code to manage chapters, instead of two 
    separate codes for mkv and DVDs. Seems to work well with mkv but it's
