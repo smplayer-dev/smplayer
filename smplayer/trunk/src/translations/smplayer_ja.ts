@@ -290,7 +290,7 @@
     <message>
         <location filename="../about.cpp" line="183"/>
         <source>Galician</source>
-        <translation type="unfinished">ガリシア語</translation>
+        <translation>ガリシア語</translation>
     </message>
 </context>
 <context>
@@ -938,7 +938,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2906"/>
         <source>Choose a directory</source>
-        <translation>ディレクトリの選択</translation>
+        <translation>ディレクトリを選択します</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2942"/>
@@ -1208,7 +1208,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1147"/>
         <source>Flip i&amp;mage</source>
-        <translation>イメージの反転(&amp;M)</translation>
+        <translation>イメージを垂直に反転(&amp;M)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1263"/>
@@ -1313,7 +1313,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1364"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
-        <translation>90 度時計回りに回転して反転(&amp;R)</translation>
+        <translation>90 度時計回りに回転して垂直に反転(&amp;R)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1365"/>
@@ -1328,7 +1328,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1367"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
-        <translation>90 度反時計回りに回転して反転(&amp;F)</translation>
+        <translation>90 度反時計回りに回転して垂直に反転(&amp;F)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1128"/>
@@ -1408,7 +1408,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1148"/>
         <source>Mirr&amp;or image</source>
-        <translation>イメージの反転(&amp;O)</translation>
+        <translation>イメージを水平に反転(&amp;O)</translation>
     </message>
 </context>
 <context>
@@ -1982,7 +1982,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../inputdvddirectory.cpp" line="43"/>
         <source>Choose a directory</source>
-        <translation>ディレクトリの選択</translation>
+        <translation>ディレクトリを選択します</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="13"/>
@@ -2884,7 +2884,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../logwindow.cpp" line="85"/>
         <source>Choose a filename to save under</source>
-        <translation>下で保存するファイル名の選択</translation>
+        <translation>下に保存するファイル名の選択</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="91"/>
@@ -3012,7 +3012,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="939"/>
         <source>Choose a directory</source>
-        <translation>ディレクトリの選択</translation>
+        <translation>ディレクトリを選択します</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1127"/>
@@ -3669,7 +3669,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="94"/>
         <source>Select a directory</source>
-        <translation>ディレクトリの選択</translation>
+        <translation>ディレクトリを選択します</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="578"/>
@@ -3809,7 +3809,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="85"/>
         <source>Output drivers</source>
-        <translation>ドライバーの出力</translation>
+        <translation>出力ドライバー</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="191"/>
@@ -4059,7 +4059,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="708"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. NOTE: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation>再生チャンネルの数を要求します。MPlayer は指定されただけの数のチャンネルにオーディオをデコードするようデコーダーに要求します。次に要求が満たされるのはデコーダー次第です。これは通常 AC3 オーディオ (DVD のような) でビデオを再生するときのみ重要です。その場合は liba52 が既定でデコードして要求されたチャンネルの数にオーディオをダウンミックスします。注意: このオプションはコーデック (AC3 のみ)、フィルター (サラウンド) およびオーディオ出力ドライバー (少なくとも OSS) によって尊重されています。</translation>
+        <translation>再生チャンネルの数を要求します。MPlayer は指定されただけの数のチャンネルにオーディオをデコードするようデコーダーに要求します。次に要求が満たされるのはデコーダー次第です。これは通常 AC3 オーディオ (DVD のような) でビデオを再生するときのみ重要です。その場合は liba52 が既定でデコードして要求されたチャンネルの数にオーディオをダウンミックスします。注意: このオプションはコーデック (AC3 のみ)、フィルター (サラウンド) およびオーディオの出力ドライバー (少なくとも OSS) によって尊重されています。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="625"/>
@@ -5159,7 +5159,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="457"/>
         <source>Cache for &amp;streams:</source>
-        <translation>ストリームのキャッシュ&amp;S):</translation>
+        <translation>ストリームのキャッシュ(&amp;S):</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="64"/>
