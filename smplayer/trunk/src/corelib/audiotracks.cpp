@@ -87,9 +87,12 @@ int AudioTracks::findLang(QString expr) {
 }
 
 void AudioTracks::list() {
-	for (int n=0; n < numItems(); n++) {
-		qDebug("    item # %d", n);
-		itemAt(n).list();
+	QMapIterator<int, AudioData> i(tm);
+	while (i.hasNext()) {
+		i.next();
+		AudioData d = i.value();
+        qDebug("AudioTracks::list: item %d: ID: %d lang: '%s' name: '%s'",
+               i.key(), d.ID(), d.lang().toUtf8().constData(), d.name().toUtf8().constData() );
 	}
 }
 

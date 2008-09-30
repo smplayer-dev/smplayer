@@ -79,8 +79,11 @@ int TitleTracks::find(int ID) {
 }
 
 void TitleTracks::list() {
-	for (int n=0; n < numItems(); n++) {
-		qDebug("    item # %d", n);
-		itemAt(n).list();
+	QMapIterator<int, TitleData> i(tm);
+	while (i.hasNext()) {
+		i.next();
+		TitleData d = i.value();
+        qDebug("TitleTracks::list: item %d: ID: %d name: '%s' duration %f chapters: %d angles: %d",
+               i.key(), d.ID(), d.name().toUtf8().constData(), d.duration(), d.chapters(), d.angles() );
 	}
 }
