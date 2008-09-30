@@ -3426,10 +3426,74 @@ void BaseGui::gotCurrentTime(double sec) {
 }
 
 
+#if SIMPLE_RESIZE_CODE
+
+void BaseGui::resizeWindow(int w, int h) {
+	qDebug("BaseGui::resizeWindow: %d, %d", w, h);
+	qDebug("BaseGui::resizeWindow: SIMPLE_RESIZE_CODE");
+
+	// If fullscreen, don't resize!
+	if (pref->fullscreen) return;
+
+	if ( (pref->resize_method==Preferences::Never) && (panel->isVisible()) ) {
+		return;
+	}
+
+	if (!panel->isVisible()) {
+		panel->show();
+
+		// Enable compact mode
+		//compactAct->setEnabled(true);
+	}
+
+	if (pref->size_factor != 100) {
+		w = w * pref->size_factor / 100;
+		h = h * pref->size_factor / 100;
+	}
+
+	qDebug("BaseGui::resizeWindow: size to scale: %d, %d", w, h);
+
+	QSize video_size(w,h);
+
+	if (video_size == panel->size()) {
+		qDebug("BaseGui::resizeWindow: the panel size is already the required size. Doing nothing.");
+		return;
+	}
+
+	int diff_width = this->width() - panel->width();
+	int diff_height = this->height() - panel->height();
+
+	int new_width = w + diff_width;
+	int new_height = h + diff_height;
+
+	resize(new_width, new_height);
+
+	qDebug("BaseGui::resizeWindow: done: window size: %d, %d", this->width(), this->height());
+	qDebug("BaseGui::resizeWindow: done: panel->size: %d, %d", 
+           panel->size().width(),  
+           panel->size().height() );
+	qDebug("BaseGui::resizeWindow: done: mplayerwindow->size: %d, %d", 
+           mplayerwindow->size().width(),  
+           mplayerwindow->size().height() );
+
+#if USE_MINIMUMSIZE
+	int minimum_width = minimumSizeHint().width();
+	if (pref->gui_minimum_width != 0) minimum_width = pref->gui_minimum_width;
+	if (width() < minimum_width) {
+		qDebug("BaseGui::resizeWindow: width is too small, setting width to %d", minimum_width);
+		resize( minimum_width, height());
+	}
+
+#endif
+}
+
+#else // SIMPLE_RESIZE_CODE
+
 #if NEW_RESIZE_CODE
 
 void BaseGui::resizeWindow(int w, int h) {
 	qDebug("BaseGui::resizeWindow: %d, %d", w, h);
+	qDebug("BaseGui::resizeWindow: NEW_RESIZE_CODE");
 
 	// If fullscreen, don't resize!
 	if (pref->fullscreen) return;
@@ -3520,10 +3584,11 @@ void BaseGui::calculateDiff() {
 //	}
 }
 
-#else
+#else // NEW_RESIZE_CODE
 
 void BaseGui::resizeWindow(int w, int h) {
 	qDebug("BaseGui::resizeWindow: %d, %d", w, h);
+	qDebug("BaseGui::resizeWindow: OLD_CODE");
 
 	// If fullscreen, don't resize!
 	if (pref->fullscreen) return;
@@ -3578,7 +3643,8 @@ void BaseGui::resizeWindow(int w, int h) {
 
 	mplayerwindow->setFocus(); // Needed?
 }
-#endif
+#endif // NEW_RESIZE_CODE
+#endif // SIMPLE_RESIZE_CODE
 
 void BaseGui::hidePanel() {
 	qDebug("BaseGui::hidePanel");

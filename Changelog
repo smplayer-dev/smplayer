@@ -3,6 +3,7 @@
 (2008-09-29)
  * Now the chapters on DVD should work again.
  * Reorganization in some data structures.
+ * Added another experimental new code to resize the main window.
 
 (2008-09-28)
  * Added an (experimental) generic code to manage chapters, instead of two 

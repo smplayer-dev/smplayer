@@ -55,7 +55,12 @@
 
 // New code to resize the main window
 
-#define NEW_RESIZE_CODE 1
+#define NEW_RESIZE_CODE 0
+
+
+// Another new code to resize the main window, much simpler
+
+#define SIMPLE_RESIZE_CODE 1
 
 
 // Allow to use multiple shortcuts for actions
