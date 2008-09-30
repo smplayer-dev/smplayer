@@ -48,7 +48,6 @@ public:
 	void load(QSettings & set);
 #endif
 */
-	void list();
 
 protected:
 

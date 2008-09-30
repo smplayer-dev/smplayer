@@ -49,9 +49,3 @@ QString TitleData::displayName() const {
 	return dname;
 }
 
-void TitleData::list() {
-	//qDebug("TitleData::list");
-
-	qDebug("     ID: '%d' name: '%s'", _ID, _name.toUtf8().data() );
-	qDebug("     duration: %f chapters: %d angles: %d", _duration, _chapters, _angles );
-}

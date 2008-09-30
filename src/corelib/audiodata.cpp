@@ -71,9 +71,3 @@ void AudioData::load(QSettings & set) {
 
 #endif // NO_USE_INI_FILES
 */
-
-void AudioData::list() {
-	//qDebug("AudioData::list");
-
-	qDebug("     ID: '%d' lang: '%s' name: '%s'", _ID, _lang.toUtf8().data(), _name.toUtf8().data() );
-}

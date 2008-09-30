@@ -46,8 +46,6 @@ public:
 
 	QString displayName() const;
 
-	void list();
-
 protected:
 	QString _name;
 	double _duration;
