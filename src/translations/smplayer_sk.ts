@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="sk">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -240,47 +241,47 @@
     <message>
         <location filename="../about.cpp" line="176"/>
         <source>Korean</source>
-        <translation type="unfinished"></translation>
+        <translation>Kórejsky</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="177"/>
         <source>Macedonian</source>
-        <translation type="unfinished"></translation>
+        <translation>Macedónsky</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="178"/>
         <source>Basque</source>
-        <translation type="unfinished">Baskický</translation>
+        <translation>Baskicky</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="50"/>
         <source>Using MPlayer %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Používa MPlayer %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="179"/>
         <source>Catalan</source>
-        <translation type="unfinished">Katalánsky</translation>
+        <translation>Katalánsky</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="57"/>
         <source>Portable Edition</source>
-        <translation type="unfinished"></translation>
+        <translation>Prenosná edícia</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="60"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Používa Qt %1 (skompilované s Qt %2)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="180"/>
         <source>Slovenian</source>
-        <translation type="unfinished"></translation>
+        <translation>Slovinsky</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="181"/>
         <source>Arabic</source>
-        <translation type="unfinished">Arabsky</translation>
+        <translation>Arabsky</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="182"/>
@@ -373,92 +374,92 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="71"/>
         <source>Audio Equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio ekvalizér</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="74"/>
         <source>31.25 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>31.25 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="75"/>
         <source>62.50 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>62.50 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="76"/>
         <source>125.0 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>125.0 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="77"/>
         <source>250.0 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>250.0 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="78"/>
         <source>500.0 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>500.0 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="79"/>
         <source>1.000 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>1.000 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="80"/>
         <source>2.000 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>2.000 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="81"/>
         <source>4.000 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>4.000 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="82"/>
         <source>8.000 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>8.000 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="83"/>
         <source>16.00 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>16.00 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="85"/>
         <source>&amp;Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Použiť</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="86"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished">&amp;Reset</translation>
+        <translation>&amp;Resetovať</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="87"/>
         <source>&amp;Set as default values</source>
-        <translation type="unfinished">&amp;Nastaviť ako štandardnú hodnotu</translation>
+        <translation>&amp;Nastaviť ako štandardné hodnoty</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="91"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished">Použije aktuálne nastavenie ako štandardné hodnoty pre nové videá.</translation>
+        <translation>Použije aktuálne nastavenie ako štandardné hodnoty pre nové videá.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="93"/>
         <source>Set all controls to zero.</source>
-        <translation type="unfinished">Vynulovať všetky nastavenia ekvalizéru.</translation>
+        <translation>Vynulovať všetky nastavenia ekvalizéru.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="110"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Informácie</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="112"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuálne hodnoty boli uložené a budú použité ako štandardné.</translation>
     </message>
 </context>
 <context>
@@ -1033,7 +1034,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../basegui.cpp" line="1309"/>
         <source>&amp;Pan &amp;&amp; scan</source>
-        <translation>&amp; Pan &amp;&amp; scan</translation>
+        <translation>&amp;Pan &amp;&amp; scan</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1196"/>
@@ -1148,7 +1149,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../basegui.cpp" line="1178"/>
         <source>&amp;Load external file...</source>
-        <translation>&amp;Načitať externý súbor...</translation>
+        <translation>&amp;Načítať externý súbor...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1357"/>
@@ -1218,12 +1219,12 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../basegui.cpp" line="1193"/>
         <source>S&amp;ize -</source>
-        <translation>Z&amp;väčšiť</translation>
+        <translation>Z&amp;menšiť</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1194"/>
         <source>Si&amp;ze +</source>
-        <translation>Z&amp;menšiť</translation>
+        <translation>Z&amp;väčšiť</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1165"/>
@@ -1258,22 +1259,22 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../basegui.cpp" line="1200"/>
         <source>Enable &amp;closed caption</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapnúť &amp;closed caption</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1201"/>
         <source>&amp;Forced subtitles only</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Iba vynútené titulky</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1264"/>
         <source>Reset video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Resetovať video ekvalizér</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3820"/>
         <source>MPlayer has finished unexpectedly.</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer neočakávane skončil.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3821"/>
@@ -1283,132 +1284,132 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../basegui.cpp" line="3838"/>
         <source>MPlayer failed to start.</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer sa nepodarilo spustiť.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3839"/>
         <source>Please check the MPlayer path in preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>Skontrolujte, prosím, nastavenie cesty pre MPlayer v nastaveniach.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3841"/>
         <source>MPlayer has crashed.</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer spadol.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3842"/>
         <source>See the log for more info.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pre viac informácií sa pozrite do záznamu.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1321"/>
         <source>&amp;Rotate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Otočenie</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1363"/>
         <source>&amp;Off</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Vypnúť</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1364"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Otočiť o 90 stupňov v smere hodín a prevrátiť</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1365"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
-        <translation type="unfinished"></translation>
+        <translation>Otočiť o 90 s&amp;tupňov v smere hodín</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1366"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
-        <translation type="unfinished"></translation>
+        <translation>Otočiť o 90 stupňov pro&amp;ti hodinám</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1367"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
-        <translation type="unfinished"></translation>
+        <translation>Otočiť o 90 stupňov prot&amp;i hodinám a prevrátiť</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1128"/>
         <source>&amp;Jump to...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Prejsť na...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1266"/>
         <source>Show context menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobraziť kontextové menu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2778"/>
         <source>Multimedia</source>
-        <translation type="unfinished"></translation>
+        <translation>Multimédiá</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1170"/>
         <source>E&amp;qualizer</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ekvalizér</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1265"/>
         <source>Reset audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Resetovať audio ekvalizér</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1203"/>
         <source>Find subtitles on &amp;OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>Nájsť titulky na &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1204"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>Nahrať &amp;titulky na OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1222"/>
         <source>&amp;Tips</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tipy</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1334"/>
         <source>&amp;Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Auto</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1136"/>
         <source>Speed -&amp;4%</source>
-        <translation type="unfinished"></translation>
+        <translation>Rýchlosť -&amp;4%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1137"/>
         <source>&amp;Speed +4%</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rýchlosť +4%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1138"/>
         <source>Speed -&amp;1%</source>
-        <translation type="unfinished"></translation>
+        <translation>Rýchlosť -&amp;1%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1139"/>
         <source>S&amp;peed +1%</source>
-        <translation type="unfinished"></translation>
+        <translation>Rý&amp;chlosť +1%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1325"/>
         <source>Scree&amp;n</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Obrazovka</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1370"/>
         <source>&amp;Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Š&amp;tandardné</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1148"/>
         <source>Mirr&amp;or image</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zrkadlový obraz</translation>
     </message>
 </context>
 <context>
@@ -1533,27 +1534,27 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../errordialog.cpp" line="55"/>
         <source>Hide log</source>
-        <translation type="unfinished"></translation>
+        <translation>Skryť záznam</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="87"/>
         <source>Show log</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobraziť záznam</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="13"/>
         <source>MPlayer Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba MPlayera</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="41"/>
         <source>icon</source>
-        <translation type="unfinished">ikona</translation>
+        <translation>ikona</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="67"/>
         <source>Error</source>
-        <translation type="unfinished">Chyba</translation>
+        <translation>Chyba</translation>
     </message>
 </context>
 <context>
@@ -1675,82 +1676,82 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="133"/>
         <source>Language</source>
-        <translation type="unfinished">Jazyk</translation>
+        <translation>Jazyk</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="133"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Názov</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Format</source>
-        <translation type="unfinished">Formát</translation>
+        <translation>Formát</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Súbory</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Date</source>
-        <translation type="unfinished">Dátum</translation>
+        <translation>Dátum</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="134"/>
         <source>Uploaded by</source>
-        <translation type="unfinished"></translation>
+        <translation>Nahrané</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="150"/>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>Všetky</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="156"/>
         <source>Close</source>
-        <translation type="unfinished">Zatvoriť</translation>
+        <translation>Zatvoriť</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="99"/>
         <source>&amp;Download</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Stiahnuť</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="161"/>
         <source>&amp;Copy link to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kopírovať odkaz do schránky</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="215"/>
         <source>Error</source>
-        <translation type="unfinished">Chyba</translation>
+        <translation>Chyba</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="217"/>
         <source>Download failed: %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zlyhalo sťahovanie: %1.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="221"/>
         <source>Connecting to %1...</source>
-        <translation type="unfinished"></translation>
+        <translation>Pripájam sa k %1...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="227"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Sťahujem...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
         <source>Done.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hotovo.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="281"/>
         <source>%1 files available</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 dostupných súborov</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="290"/>
@@ -1760,12 +1761,12 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="13"/>
         <source>Find Subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Nájsť titulky</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="33"/>
         <source>&amp;Subtitles for</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Titulky pre</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="56"/>
@@ -2067,7 +2068,7 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="24"/>
         <source>Afar</source>
-        <translation type="unfinished"></translation>
+        <translation>Afarsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="25"/>
@@ -2077,7 +2078,7 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="26"/>
         <source>Afrikaans</source>
-        <translation type="unfinished"></translation>
+        <translation>Afrikaansky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="27"/>
@@ -2087,7 +2088,7 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="216"/>
         <source>Arabic</source>
-        <translation type="unfinished">Arabsky</translation>
+        <translation>Arabsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="29"/>
@@ -2102,7 +2103,7 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="31"/>
         <source>Azerbaijani</source>
-        <translation type="unfinished"></translation>
+        <translation>Azerbajdžánsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="32"/>
@@ -2112,12 +2113,12 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="33"/>
         <source>Byelorussian</source>
-        <translation type="unfinished"></translation>
+        <translation>Bielorusky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="169"/>
         <source>Bulgarian</source>
-        <translation type="unfinished">Bulharsky</translation>
+        <translation>Bulharsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="35"/>
@@ -2147,7 +2148,7 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="170"/>
         <source>Catalan</source>
-        <translation type="unfinished">Katalánsky</translation>
+        <translation>Katalánsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="41"/>
@@ -2157,7 +2158,7 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="171"/>
         <source>Czech</source>
-        <translation type="unfinished">Česky</translation>
+        <translation>Česky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="43"/>
@@ -2172,7 +2173,7 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="172"/>
         <source>German</source>
-        <translation type="unfinished">Nemecky</translation>
+        <translation>Nemecky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="46"/>
@@ -2182,32 +2183,32 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="173"/>
         <source>Greek</source>
-        <translation type="unfinished">Grécky</translation>
+        <translation>Grécky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="174"/>
         <source>English</source>
-        <translation type="unfinished">Anglicky</translation>
+        <translation>Anglicky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="49"/>
         <source>Esperanto</source>
-        <translation type="unfinished"></translation>
+        <translation>Esperantsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
         <source>Spanish</source>
-        <translation type="unfinished">Španielsky</translation>
+        <translation>Španielsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="51"/>
         <source>Estonian</source>
-        <translation type="unfinished"></translation>
+        <translation>Estónsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="176"/>
         <source>Basque</source>
-        <translation type="unfinished">Baskický</translation>
+        <translation>Baskicky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="53"/>
@@ -2217,7 +2218,7 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="177"/>
         <source>Finnish</source>
-        <translation type="unfinished">Fínsky</translation>
+        <translation>Fínsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="55"/>
@@ -2232,7 +2233,7 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="178"/>
         <source>French</source>
-        <translation type="unfinished">Francúzsky</translation>
+        <translation>Francúzsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="58"/>
@@ -2252,7 +2253,7 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="179"/>
         <source>Galician</source>
-        <translation type="unfinished">Haličský</translation>
+        <translation>Haličsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="62"/>
@@ -2287,7 +2288,7 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="180"/>
         <source>Hungarian</source>
-        <translation type="unfinished">Maďarsky</translation>
+        <translation>Maďarsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="69"/>
@@ -2322,7 +2323,7 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="181"/>
         <source>Italian</source>
-        <translation type="unfinished">Taliansky</translation>
+        <translation>Taliansky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="76"/>
@@ -2332,7 +2333,7 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="182"/>
         <source>Japanese</source>
-        <translation type="unfinished">Japonsky</translation>
+        <translation>Japonsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="78"/>
@@ -2342,17 +2343,17 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="183"/>
         <source>Georgian</source>
-        <translation type="unfinished">Gruzínsky</translation>
+        <translation>Gruzínsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="80"/>
         <source>Kazakh</source>
-        <translation type="unfinished"></translation>
+        <translation>Kazašsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="81"/>
         <source>Greenlandic</source>
-        <translation type="unfinished"></translation>
+        <translation>Grónsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="82"/>
@@ -2367,7 +2368,7 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="184"/>
         <source>Korean</source>
-        <translation type="unfinished"></translation>
+        <translation>Kórejsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="85"/>
@@ -2472,7 +2473,7 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="187"/>
         <source>Dutch</source>
-        <translation type="unfinished">Holandsky</translation>
+        <translation>Holandsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="106"/>
@@ -2497,7 +2498,7 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="188"/>
         <source>Polish</source>
-        <translation type="unfinished">Poľsky</translation>
+        <translation>Poľsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="111"/>
@@ -2522,12 +2523,12 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="191"/>
         <source>Romanian</source>
-        <translation type="unfinished">Rumunsky</translation>
+        <translation>Rumunsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="222"/>
         <source>Russian</source>
-        <translation type="unfinished">Rusky</translation>
+        <translation>Rusky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="118"/>
@@ -2557,7 +2558,7 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="193"/>
         <source>Slovak</source>
-        <translation type="unfinished">Slovensky</translation>
+        <translation>Slovensky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="194"/>
@@ -2587,7 +2588,7 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="195"/>
         <source>Serbian</source>
-        <translation type="unfinished">Srbsky</translation>
+        <translation>Srbsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="131"/>
@@ -2607,7 +2608,7 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="196"/>
         <source>Swedish</source>
-        <translation type="unfinished">Švédsky</translation>
+        <translation>Švédsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="135"/>
@@ -2662,7 +2663,7 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="218"/>
         <source>Turkish</source>
-        <translation type="unfinished">Turecky</translation>
+        <translation>Turecky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="146"/>
@@ -2687,7 +2688,7 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="198"/>
         <source>Ukrainian</source>
-        <translation type="unfinished">Ukrainsky</translation>
+        <translation>Ukrajinsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="151"/>
@@ -2742,22 +2743,22 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="189"/>
         <source>Portuguese - Brazil</source>
-        <translation type="unfinished">Portugalská Brazílčina</translation>
+        <translation>Portugalská Brazílčina</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="190"/>
         <source>Portuguese - Portugal</source>
-        <translation type="unfinished">Portugalská Portugalčina</translation>
+        <translation>Portugalská Portugalčina</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="199"/>
         <source>Simplified-Chinese</source>
-        <translation type="unfinished">Zjednodušená čínština</translation>
+        <translation>Zjednodušená čínština</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="200"/>
         <source>Traditional Chinese</source>
-        <translation type="unfinished">Tradičná Čínština</translation>
+        <translation>Tradičná Čínština</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="208"/>
@@ -2772,17 +2773,17 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="210"/>
         <source>Western European Languages</source>
-        <translation type="unfinished">Západné Európske jazyky</translation>
+        <translation>Západné Európske jazyky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="211"/>
         <source>Western European Languages with Euro</source>
-        <translation type="unfinished">Západné Európske jazyky s Euro</translation>
+        <translation>Západné Európske jazyky s Euro</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="212"/>
         <source>Slavic/Central European Languages</source>
-        <translation type="unfinished">Slovanské/Stredo-Európske jazyky</translation>
+        <translation>Slovanské/Stredo-Európske jazyky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="213"/>
@@ -2797,12 +2798,12 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="215"/>
         <source>Cyrillic</source>
-        <translation type="unfinished">Cyrilika</translation>
+        <translation>Cyrilika</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="217"/>
         <source>Modern Greek</source>
-        <translation type="unfinished">Moderná Gréčtina</translation>
+        <translation>Moderná Gréčtina</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="219"/>
@@ -2812,37 +2813,37 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../languages.cpp" line="220"/>
         <source>Celtic</source>
-        <translation type="unfinished">Celtic</translation>
+        <translation>Keltština</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="221"/>
         <source>Hebrew charsets</source>
-        <translation type="unfinished">Hebrejsky</translation>
+        <translation>Hebrejská znaková sada</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="223"/>
         <source>Ukrainian, Belarusian</source>
-        <translation type="unfinished">Ukrajina, Bielorusko</translation>
+        <translation>Ukrajinsky, Bielorusky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="224"/>
         <source>Simplified Chinese charset</source>
-        <translation type="unfinished">Zjednodušená Čínština</translation>
+        <translation>Znaková sada zjednodušenej Čínštiny</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="225"/>
         <source>Traditional Chinese charset</source>
-        <translation type="unfinished">Tradičná Čínština</translation>
+        <translation>Znakova sada tradičnej Čínštiny</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="226"/>
         <source>Japanese charsets</source>
-        <translation type="unfinished">Japonsky</translation>
+        <translation>Japonská znaková sada</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="227"/>
         <source>Korean charset</source>
-        <translation type="unfinished">Kórejsky</translation>
+        <translation>Kórejská znaková sada</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="228"/>
@@ -3118,7 +3119,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../playlist.cpp" line="303"/>
         <source>Preferences</source>
-        <translation type="unfinished">Nastavenia</translation>
+        <translation>Nastavenia</translation>
     </message>
 </context>
 <context>
@@ -3126,7 +3127,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../playlistpreferences.ui" line="13"/>
         <source>Playlist - Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Playlist - Nastavenia</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.cpp" line="32"/>
@@ -3371,17 +3372,17 @@ Rozbaľovací zoznam môže obsahovať výrazy pre niektoré jazyky.</translatio
     <message>
         <location filename="../prefadvanced.cpp" line="357"/>
         <source>Monitor aspect</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomer strán monitoru</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="358"/>
         <source>Select the aspect ratio of your monitor.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyberte pomer strán vášho monitoru.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="366"/>
         <source>Run MPlayer in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>Spúšťať MPlayer vo vlastnom okne</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="372"/>
