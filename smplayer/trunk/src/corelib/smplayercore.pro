@@ -9,8 +9,10 @@ HEADERS += config.h \
         global.h \
         helper.h \
         subtracks.h \
-        trackdata.h \
-        tracks.h \
+        audiodata.h \
+        audiotracks.h \
+        titledata.h \
+        titletracks.h \
         mediadata.h \
         mediasettings.h \
         preferences.h \
@@ -27,8 +29,10 @@ HEADERS += config.h \
 SOURCES += global.cpp \
         helper.cpp \
         subtracks.cpp \
-        trackdata.cpp \
-        tracks.cpp \
+        audiodata.cpp \
+        audiotracks.cpp \
+        titledata.cpp \
+        titletracks.cpp \
         mediadata.cpp \
         mediasettings.cpp \
         preferences.cpp \
