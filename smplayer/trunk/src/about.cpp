@@ -149,7 +149,9 @@ QString About::getTranslators() {
 			.arg("Kud Gray &lt;kud.gray@gmail.com&gt;") ) +
 		 trad(tr("Simplified-Chinese"), "Tim Green &lt;iamtimgreen@gmail.com&gt;") +
          trad(tr("Russian"), QString::fromUtf8("Белый Владимир &lt;wiselord1983@gmail.com&gt;"))+ 
-         trad(tr("Hungarian"), "Charles Barcza &lt;kbarcza@blackpanther.hu&gt;") + 
+         trad(tr("Hungarian"), tr("%1 and %2")
+            .arg("Charles Barcza &lt;kbarcza@blackpanther.hu&gt;")
+            .arg("CyberDragon &lt;cyberdragon777@gmail.com&gt;")) + 
          trad(tr("Polish"), tr("%1 and %2")
             .arg("qla &lt;qla0@vp.pl&gt;")
             .arg("Jarek &lt;ajep9691@wp.pl&gt;") ) +
