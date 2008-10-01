@@ -280,17 +280,17 @@
     <message>
         <location filename="../about.cpp" line="181"/>
         <source>Arabic</source>
-        <translation type="unfinished">Arab</translation>
+        <translation>Arab</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="182"/>
         <source>Kurdish</source>
-        <translation type="unfinished">Kurd</translation>
+        <translation>Kurd</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="183"/>
         <source>Galician</source>
-        <translation type="unfinished">Galíciai</translation>
+        <translation>Galíciai</translation>
     </message>
 </context>
 <context>
@@ -1373,42 +1373,42 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../basegui.cpp" line="1334"/>
         <source>&amp;Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Auto</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1136"/>
         <source>Speed -&amp;4%</source>
-        <translation type="unfinished"></translation>
+        <translation>Sebesség -&amp;4%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1137"/>
         <source>&amp;Speed +4%</source>
-        <translation type="unfinished"></translation>
+        <translation>Sebesség +&amp;4%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1138"/>
         <source>Speed -&amp;1%</source>
-        <translation type="unfinished"></translation>
+        <translation>Sebesség -&amp;1%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1139"/>
         <source>S&amp;peed +1%</source>
-        <translation type="unfinished"></translation>
+        <translation>Sebesség +&amp;1%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1325"/>
         <source>Scree&amp;n</source>
-        <translation type="unfinished"></translation>
+        <translation>Képer&amp;nyő</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1370"/>
         <source>&amp;Default</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Alapértelmezés</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1148"/>
         <source>Mirr&amp;or image</source>
-        <translation type="unfinished"></translation>
+        <translation>Tükr&amp;özés</translation>
     </message>
 </context>
 <context>
@@ -3471,57 +3471,57 @@ Például &lt;i&gt;^Core::.*&lt;/i&gt; esetén csak a &lt;i&gt;Core::&lt;/i&gt; 
     <message>
         <location filename="../prefadvanced.cpp" line="360"/>
         <source>IPv4</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv4</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="361"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv4 használata hálózati kapcsolatokhoz. Automatikus visszalépés IPv6-ra.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="363"/>
         <source>IPv6</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv6</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="364"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv6 használata hálózati kapcsolatokhoz. Automatikus visszalépés IPv4-re.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="102"/>
         <source>Network Connection</source>
-        <translation type="unfinished"></translation>
+        <translation>Hálózati kapcsolat</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="114"/>
         <source>IPv&amp;4</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv&amp;4</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="121"/>
         <source>IPv&amp;6</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv&amp;6</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="530"/>
         <source>Lo&amp;gs</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Naplók</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="374"/>
         <source>Rebuild index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>Index újjáépítése ha szükséges</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="379"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
-        <translation type="unfinished">Újraépíti a fájlok inxexét ha az nem található, ezzel lehetővé téve a keresést. Hasznos sérült/nem teljes letöltéseknél vagy hibásan készített fájloknál. Ez az opció csak akkor működik ha az adott média támogatja a keresést (pl. stdin, pipe, stb. nem). &lt;br&gt; Megjegyzés:  az index létrehozása időt vehet igyénybe.</translation>
+        <translation>Újraépíti a fájlok inxexét ha az nem található, ezzel lehetővé téve a keresést. Hasznos sérült/nem teljes letöltéseknél vagy hibásan készített fájloknál. Ez az opció csak akkor működik ha az adott média támogatja a keresést (pl. stdin, pipe, stb. nem). &lt;br&gt; Megjegyzés:  az index létrehozása időt vehet igénybe.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="138"/>
         <source>Rebuild &amp;index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Index újjáépítése ha szükséges</translation>
     </message>
 </context>
 <context>
@@ -4231,62 +4231,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="674"/>
         <source>Enable the audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Hang kiegyenlítő engedélyezése</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="675"/>
         <source>Check this option if you want to use the audio equalizer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jelölje be ezt az opciót, ha szeretné használni a hang kiegyenlítőt.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="676"/>
         <source>&amp;Enable the audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Hang kiegyenlítő &amp;engedélyezése</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="646"/>
         <source>Draw video using slices</source>
-        <translation type="unfinished"></translation>
+        <translation>Videó rajzolása szeletek használatával</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="650"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Engedélyezi/tiltja a videó 16 pixel magasságú szeletenkénti rajzolását. Ha ki van kapcsolva, az egész képkocka egymenetben kerül rajzolásra. A videókártyától és elérhető gyorsítótártól függően gyorsabb vagy lassabb lehet. Csak libmpeg2 és libavcodec kodekek esetén van hatása.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="409"/>
         <source>Dra&amp;w video using slices</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Videó rajzolása szeletek használatával</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="247"/>
         <source>&amp;Close when finished playback</source>
-        <translation type="unfinished"></translation>
+        <translation>Lejátszás &amp;befejezése után bezár</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="233"/>
         <source>fast</source>
-        <translation type="unfinished"></translation>
+        <translation>gyors</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="229"/>
         <source>slow</source>
-        <translation type="unfinished"></translation>
+        <translation>lassú</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="226"/>
         <source>fastest</source>
-        <translation type="unfinished"></translation>
+        <translation>leggyorsabb</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="234"/>
         <source>fast - ATI cards</source>
-        <translation type="unfinished"></translation>
+        <translation>gyors - ATI kártyák</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="256"/>
         <source>User defined...</source>
-        <translation type="unfinished"></translation>
+        <translation>Saját beállítás...</translation>
     </message>
 </context>
 <context>
@@ -4584,12 +4584,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="66"/>
         <source>Increase volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangerő növelése</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="67"/>
         <source>Decrease volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangerő csökkentése</translation>
     </message>
 </context>
 <context>
@@ -5240,17 +5240,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="250"/>
         <source>Threads for decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Dekódolási szálak</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="252"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
-        <translation type="unfinished"></translation>
+        <translation>Beállítja a dekódoláshoz használt szálak számát. Csak MPEG-1/2 és H.264 esetén</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="158"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dekódolási szálak (csak MPEG-1/2 és H.264 esetén):</translation>
     </message>
 </context>
 <context>
