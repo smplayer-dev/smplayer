@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -290,7 +291,7 @@
     <message>
         <location filename="../about.cpp" line="183"/>
         <source>Galician</source>
-        <translation type="unfinished">Galician</translation>
+        <translation>Galician</translation>
     </message>
 </context>
 <context>
@@ -2891,14 +2892,14 @@ Wybierz katalog, w którym jest VIDEO_TS i AUDIO_TS.</translation>
     <message>
         <location filename="../logwindow.cpp" line="91"/>
         <source>Confirm overwrite?</source>
-        <translation>Nadpisać?</translation>
+        <translation>Zatwierdzić nadpisanie?</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="93"/>
         <source>The file already exists.
 Do you want to overwrite?</source>
-        <translation>Plik istnieje. 
-Nadpisać go?</translation>
+        <translation>Plik już istnieje. 
+Czy chcesz go nadpisać?</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="111"/>
@@ -2908,7 +2909,7 @@ Nadpisać go?</translation>
     <message>
         <location filename="../logwindow.cpp" line="112"/>
         <source>The log couldn&apos;t be saved</source>
-        <translation>Log nie zapisany</translation>
+        <translation>Log nie mógł zostać zapisany</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="86"/>
