@@ -9,7 +9,6 @@ HEADERS += config.h \
         global.h \
         helper.h \
         subtracks.h \
-        audiodata.h \
         audiotracks.h \
         titletracks.h \
         mediadata.h \
@@ -28,7 +27,6 @@ HEADERS += config.h \
 SOURCES += global.cpp \
         helper.cpp \
         subtracks.cpp \
-        audiodata.cpp \
         audiotracks.cpp \
         titletracks.cpp \
         mediadata.cpp \
