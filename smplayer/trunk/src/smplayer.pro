@@ -24,7 +24,6 @@ HEADERS	+= guiconfig.h \
 	corelib/subtracks.h \
 	corelib/audiodata.h \
 	corelib/audiotracks.h \
-	corelib/titledata.h \
 	corelib/titletracks.h \
 	extensions.h \
 	corelib/desktopinfo.h \
@@ -102,7 +101,6 @@ SOURCES	+= version.cpp \
 	corelib/subtracks.cpp \
 	corelib/audiodata.cpp \
 	corelib/audiotracks.cpp \
-	corelib/titledata.cpp \
 	corelib/titletracks.cpp \
 	extensions.cpp \
 	corelib/desktopinfo.cpp \
