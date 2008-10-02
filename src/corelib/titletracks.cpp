@@ -17,7 +17,6 @@
 */
 
 #include "titletracks.h"
-#include <QRegExp>
 
 TitleTracks::TitleTracks() { 
 	clear();

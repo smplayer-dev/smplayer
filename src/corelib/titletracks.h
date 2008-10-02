@@ -19,14 +19,58 @@
 #ifndef _TITLETRACKS_H_
 #define _TITLETRACKS_H_
 
-#include "titledata.h"
 #include <QMap>
-#include <QSettings>
+#include "helper.h"
+
+/* Class to store info about DVD titles */
+
+class TitleData {
+
+public:
+	TitleData() { _name = ""; _duration = 0; _ID = -1; _chapters = 0; _angles = 0; };
+	~TitleData() {};
+
+	void setName( const QString & n ) { _name = n; };
+	void setDuration( double d ) { _duration = d; };
+	void setChapters( int n ) { _chapters = n; };
+	void setAngles( int n ) { _angles = n; };
+	void setID( int id ) { _ID = id; };
+
+	QString name() const { return _name; };
+	double duration() const { return _duration; };
+	int chapters() const { return _chapters; };
+	int angles() const { return _angles; };
+	int ID() const { return _ID; };
+
+	QString displayName() const {
+		QString dname = "";
+
+	    if (!_name.isEmpty()) {
+	        dname = _name;
+		}
+		else
+	    dname = QString::number(_ID);
+
+		if (_duration > 0) {
+			dname += " ("+ Helper::formatTime( (int) _duration ) +")";
+		}
+
+		return dname;
+	};
+
+protected:
+	QString _name;
+	double _duration;
+	int _chapters;
+	int _angles;
+
+	int _ID;
+};
+
 
 class TitleTracks {
 
 public:
-
 	TitleTracks();
 	~TitleTracks();
 
@@ -50,6 +94,5 @@ protected:
 	typedef QMap <int, TitleData> TitleMap;
 	TitleMap tm;
 };
-
 
 #endif

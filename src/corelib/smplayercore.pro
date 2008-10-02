@@ -11,7 +11,6 @@ HEADERS += config.h \
         subtracks.h \
         audiodata.h \
         audiotracks.h \
-        titledata.h \
         titletracks.h \
         mediadata.h \
         mediasettings.h \
@@ -31,7 +30,6 @@ SOURCES += global.cpp \
         subtracks.cpp \
         audiodata.cpp \
         audiotracks.cpp \
-        titledata.cpp \
         titletracks.cpp \
         mediadata.cpp \
         mediasettings.cpp \
