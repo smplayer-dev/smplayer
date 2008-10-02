@@ -19,9 +19,56 @@
 #ifndef _AUDIOTRACKS_H_
 #define _AUDIOTRACKS_H_
 
-#include "audiodata.h"
+#include <QString>
 #include <QMap>
-#include <QSettings>
+
+/* Class to store info about audio tracks */
+
+class AudioData {
+
+public:
+
+	AudioData() { _lang = ""; _name = "";_ID = -1; };
+	~AudioData() {};
+
+	void setLang( const QString & l ) { _lang = l; };
+	void setName( const QString & n ) { _name = n; };
+	void setID( int id ) { _ID = id; };
+
+	QString lang() const { return _lang; };
+	QString name() const { return _name; };
+	int ID() const { return _ID; };
+
+	QString displayName() const {
+		QString dname="";
+
+	    if (!_name.isEmpty()) {
+    	    dname = _name;
+			if (!_lang.isEmpty()) {
+				dname += " ["+ _lang + "]";
+			}
+		}
+	    else
+	    if (!_lang.isEmpty()) {
+	        dname = _lang;
+		}
+	    else
+	    dname = QString::number(_ID);
+
+		return dname;
+	}
+
+protected:
+
+	/* Language code: es, en, etc. */
+	QString _lang;
+
+	/* spanish, english... */
+	QString _name;
+
+	int _ID;
+};
+
 
 class AudioTracks {
 
@@ -45,13 +92,6 @@ public:
 	int find(int ID);
 
 	int findLang(QString expr);
-
-/*
-#ifndef NO_USE_INI_FILES
-	void save(QSettings & set);
-	void load(QSettings & set);
-#endif
-*/
 
 protected:
 	typedef QMap <int, AudioData> AudioMap;

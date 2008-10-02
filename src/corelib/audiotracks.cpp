@@ -96,36 +96,3 @@ void AudioTracks::list() {
 	}
 }
 
-/*
-#ifndef NO_USE_INI_FILES
-void AudioTracks::save(QSettings & set) {
-	qDebug("AudioTracks::save");
-
-	set.setValue( "num_tracks", numItems() );
-	for (int n=0; n < numItems(); n++) {
-		set.beginGroup( "track_" + QString::number(n) );
-		itemAt(n).save(set);
-		set.endGroup();
-	}
-}
-
-void AudioTracks::load(QSettings & set) {
-	qDebug("AudioTracks::load");
-
-	int num_tracks = set.value( "num_tracks", 0 ).toInt();
-
-	int ID;
-	for (int n=0; n < num_tracks; n++) {
-		set.beginGroup( "track_" + QString::number(n) );
-		ID = set.value("ID", -1).toInt();
-		if (ID!=-1) {
-			tm[ID].setID(ID);
-			tm[ID].load(set);
-		}
-		set.endGroup();
-	}
-
-	//list();
-}
-#endif // NO_USE_INI_FILES
-*/
