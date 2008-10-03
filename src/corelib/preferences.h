@@ -142,6 +142,8 @@ public:
 	QString font_name;
 	bool use_fontconfig;
 	QString subcp; // -subcp
+	bool use_enca;
+	QString enca_lang;
 	int font_autoscale; // -subfont-autoscale
 	int subfuzziness;
 	bool autoload_sub;

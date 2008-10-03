@@ -25,6 +25,7 @@
 #include <QFileInfo>
 #include <QRegExp>
 #include <QDir>
+#include <QLocale>
 
 using namespace Global;
 
@@ -160,6 +161,8 @@ void Preferences::reset() {
 	font_name = "";
 	use_fontconfig = false;
 	subcp = "ISO-8859-1";
+	use_enca = false;
+	enca_lang = QString(QLocale::system().name()).section("_",0,0);
 	font_autoscale = 1;
 	subfuzziness = 1;
 	autoload_sub = true;
@@ -491,6 +494,8 @@ void Preferences::save() {
 
 	set->setValue("use_fontconfig", use_fontconfig);
 	set->setValue("subcp", subcp);
+	set->setValue("use_enca", use_enca);
+	set->setValue("enca_lang", enca_lang);
 	set->setValue("font_autoscale", font_autoscale);
 	set->setValue("subfuzziness", subfuzziness);
 	set->setValue("autoload_sub", autoload_sub);
@@ -828,6 +833,8 @@ void Preferences::load() {
 
 	use_fontconfig = set->value("use_fontconfig", use_fontconfig).toBool();
 	subcp = set->value("subcp", subcp).toString();
+	use_enca = set->value("use_enca", use_enca).toBool();
+	enca_lang = set->value("enca_lang", enca_lang).toString();
 	font_autoscale = set->value("font_autoscale", font_autoscale).toInt();
 	subfuzziness = set->value("subfuzziness", subfuzziness).toInt();
 	autoload_sub = set->value("autoload_sub", autoload_sub).toBool();

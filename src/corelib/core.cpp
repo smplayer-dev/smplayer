@@ -1372,9 +1372,24 @@ void Core::startMplayer( QString file, double seek ) {
 	proc->addArgument( QString::number(mset.sub_scale) );
 #endif
 
-	if (!pref->subcp.isEmpty()) {
-		proc->addArgument("-subcp");
-		proc->addArgument( pref->subcp );
+	// Subtitle encoding
+	{
+		QString encoding;
+		if ( (pref->use_enca) && (!pref->enca_lang.isEmpty()) ) {
+			encoding = "enca:"+ pref->enca_lang;
+			if (!pref->subcp.isEmpty()) {
+				encoding += ":"+ pref->subcp;
+			}
+		}
+		else
+		if (!pref->subcp.isEmpty()) {
+			encoding = pref->subcp;
+		}
+
+		if (!encoding.isEmpty()) {
+			proc->addArgument("-subcp");
+			proc->addArgument( encoding );
+		}
 	}
 
 	if (pref->use_closed_caption_subs) {

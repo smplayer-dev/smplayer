@@ -72,7 +72,9 @@ void PrefSubtitles::retranslateStrings() {
 	// Encodings combo
 	//int font_encoding_item = font_encoding_combo->currentIndex();
 	QString current_encoding = fontEncoding();
+	QString current_enca_lang = encaLang();
 	font_encoding_combo->clear();
+	enca_lang_combo->clear();
 
 	QMap<QString,QString> l = Languages::encodings();
 	QMapIterator<QString, QString> i(l);
@@ -80,10 +82,16 @@ void PrefSubtitles::retranslateStrings() {
 		i.next();
 		font_encoding_combo->addItem( i.value() + " (" + i.key() + ")", i.key() );
 	}
+	l = Languages::list(); i = l;
+	while (i.hasNext()) {
+		i.next();
+		enca_lang_combo->addItem( i.value() + " (" + i.key() + ")", i.key() );
+	}
 	font_encoding_combo->model()->sort(0);
+	enca_lang_combo->model()->sort(0);
 	//font_encoding_combo->setCurrentIndex(font_encoding_item);
 	setFontEncoding(current_encoding);
-
+	setEncaLang(current_enca_lang);
 
 	sub_pos_label->setNum( sub_pos_slider->value() );
 
@@ -103,6 +111,8 @@ void PrefSubtitles::setData(Preferences * pref) {
 	setAutoloadSub( pref->autoload_sub );
 	setFontFuzziness( pref->subfuzziness );
 	setFontEncoding( pref->subcp );
+	setUseEnca( pref->use_enca );
+	setEncaLang( pref->enca_lang );
 	setUseFontASS( pref->use_ass_subtitles );
 	setAssColor( pref->ass_color );
 	setAssBorderColor( pref->ass_border_color );
@@ -123,6 +133,8 @@ void PrefSubtitles::getData(Preferences * pref) {
 	TEST_AND_SET(pref->autoload_sub, autoloadSub());
 	TEST_AND_SET(pref->subfuzziness, fontFuzziness());
 	TEST_AND_SET(pref->subcp, fontEncoding());
+	TEST_AND_SET(pref->use_enca, useEnca());
+	TEST_AND_SET(pref->enca_lang, encaLang());
 	TEST_AND_SET(pref->use_ass_subtitles, useFontASS());
 	TEST_AND_SET(pref->ass_color, assColor());
 	TEST_AND_SET(pref->ass_border_color, assBorderColor());
@@ -197,6 +209,24 @@ void PrefSubtitles::setFontEncoding(QString s) {
 QString PrefSubtitles::fontEncoding() {
 	int index = font_encoding_combo->currentIndex();
 	return font_encoding_combo->itemData(index).toString();
+}
+
+void PrefSubtitles::setEncaLang(QString s) {
+	int i = enca_lang_combo->findData(s);
+	enca_lang_combo->setCurrentIndex(i);
+}
+
+QString PrefSubtitles::encaLang() {
+	int index = enca_lang_combo->currentIndex();
+	return enca_lang_combo->itemData(index).toString();
+}
+
+void PrefSubtitles::setUseEnca(bool b) {
+	use_enca_check->setChecked(b);
+}
+
+bool PrefSubtitles::useEnca() {
+	return use_enca_check->isChecked();
 }
 
 void PrefSubtitles::setSubPos(int pos) {
@@ -299,7 +329,19 @@ void PrefSubtitles::createHelp() {
            "be used instead.") );
 
 	setWhatsThis(font_encoding_combo, tr("Default subtitle encoding"), 
-        tr("Select the encoding which will be used for subtitle files.") );
+        tr("Select the encoding which will be used for subtitle files "
+           "by default.") );
+
+	setWhatsThis(use_enca_check, tr("Try to autodetect for this language"),
+		tr("When this option is on, the encoding of the subtitles will be "
+           "tried to be autodetected for the given language. "
+           "It will fall back to the default encoding if the autodetection "
+           "fails. This option requires a MPlayer compiled with ENCA "
+           "support.") );
+
+	setWhatsThis(enca_lang_combo, tr("Subtitle language"),
+		tr("Select the language for which you want the encoding to be guessed "
+           "automatically.") );
 
 	setWhatsThis(sub_pos_slider, tr("Subtitle position"),
 		tr("This option specifies the position of the subtitles over the "

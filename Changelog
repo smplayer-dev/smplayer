@@ -1,5 +1,12 @@
 [b]Version 0.6.4[/b]:
 
+(2008-10-02)
+ * Applied (with some changes) the patch to add support for enca, by
+   Stanislav Maslovski <s_i_m@users.sourceforge.net>.
+   This adds a new option in Preferences->Subtitles, which can make mplayer
+   to try to autodetect the encoding for subtitles. This requires a mplayer
+   compiled with enca support.
+
 (2008-09-29)
  * Now the chapters on DVD should work again.
  * Reorganization in some data structures.

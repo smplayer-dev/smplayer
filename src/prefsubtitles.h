@@ -69,6 +69,12 @@ protected:
 	void setFontEncoding(QString s);
 	QString fontEncoding();
 
+	void setUseEnca(bool v);
+	bool useEnca();
+
+	void setEncaLang(QString s);
+	QString encaLang();
+
 	void setSubPos(int pos);
 	int subPos();
 
