@@ -13,10 +13,19 @@
    <string/>
   </property>
   <layout class="QVBoxLayout" >
-   <property name="margin" >
+   <property name="spacing" >
     <number>0</number>
    </property>
-   <property name="spacing" >
+   <property name="leftMargin" >
+    <number>0</number>
+   </property>
+   <property name="topMargin" >
+    <number>0</number>
+   </property>
+   <property name="rightMargin" >
+    <number>0</number>
+   </property>
+   <property name="bottomMargin" >
     <number>0</number>
    </property>
    <item>
@@ -29,11 +38,20 @@
        <string>&amp;Subtitles</string>
       </attribute>
       <layout class="QVBoxLayout" >
-       <property name="margin" >
-        <number>9</number>
-       </property>
        <property name="spacing" >
         <number>6</number>
+       </property>
+       <property name="leftMargin" >
+        <number>9</number>
+       </property>
+       <property name="topMargin" >
+        <number>9</number>
+       </property>
+       <property name="rightMargin" >
+        <number>9</number>
+       </property>
+       <property name="bottomMargin" >
+        <number>9</number>
        </property>
        <item>
         <widget class="QGroupBox" name="groupBox" >
@@ -41,10 +59,22 @@
           <string>Autoload</string>
          </property>
          <layout class="QGridLayout" >
-          <property name="margin" >
+          <property name="leftMargin" >
            <number>9</number>
           </property>
-          <property name="spacing" >
+          <property name="topMargin" >
+           <number>9</number>
+          </property>
+          <property name="rightMargin" >
+           <number>9</number>
+          </property>
+          <property name="bottomMargin" >
+           <number>9</number>
+          </property>
+          <property name="horizontalSpacing" >
+           <number>6</number>
+          </property>
+          <property name="verticalSpacing" >
            <number>6</number>
           </property>
           <item row="0" column="0" >
@@ -106,58 +136,114 @@
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="textLabel4" >
-         <property name="text" >
-          <string>&amp;Default subtitle encoding:</string>
+        <widget class="QGroupBox" name="groupBox_3" >
+         <property name="title" >
+          <string>Encoding</string>
          </property>
-         <property name="wordWrap" >
-          <bool>false</bool>
-         </property>
-         <property name="buddy" >
-          <cstring>font_encoding_combo</cstring>
-         </property>
+         <layout class="QVBoxLayout" >
+          <item>
+           <layout class="QHBoxLayout" >
+            <property name="spacing" >
+             <number>6</number>
+            </property>
+            <property name="leftMargin" >
+             <number>0</number>
+            </property>
+            <property name="topMargin" >
+             <number>0</number>
+            </property>
+            <property name="rightMargin" >
+             <number>0</number>
+            </property>
+            <property name="bottomMargin" >
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="textLabel4" >
+              <property name="text" >
+               <string>&amp;Default subtitle encoding:</string>
+              </property>
+              <property name="wordWrap" >
+               <bool>false</bool>
+              </property>
+              <property name="buddy" >
+               <cstring>font_encoding_combo</cstring>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="font_encoding_combo" >
+              <property name="sizePolicy" >
+               <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="editable" >
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer>
+              <property name="orientation" >
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType" >
+               <enum>QSizePolicy::Expanding</enum>
+              </property>
+              <property name="sizeHint" >
+               <size>
+                <width>161</width>
+                <height>31</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" >
+            <property name="bottomMargin" >
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QCheckBox" name="use_enca_check" >
+              <property name="text" >
+               <string>Try to a&amp;utodetect for this language:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="enca_lang_combo" >
+              <property name="enabled" >
+               <bool>false</bool>
+              </property>
+              <property name="sizePolicy" >
+               <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer>
+              <property name="orientation" >
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" >
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+         </layout>
         </widget>
-       </item>
-       <item>
-        <layout class="QHBoxLayout" >
-         <property name="margin" >
-          <number>0</number>
-         </property>
-         <property name="spacing" >
-          <number>6</number>
-         </property>
-         <item>
-          <widget class="QComboBox" name="font_encoding_combo" >
-           <property name="sizePolicy" >
-            <sizepolicy>
-             <hsizetype>5</hsizetype>
-             <vsizetype>0</vsizetype>
-             <horstretch>0</horstretch>
-             <verstretch>0</verstretch>
-            </sizepolicy>
-           </property>
-           <property name="editable" >
-            <bool>false</bool>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <spacer>
-           <property name="orientation" >
-            <enum>Qt::Horizontal</enum>
-           </property>
-           <property name="sizeType" >
-            <enum>QSizePolicy::Expanding</enum>
-           </property>
-           <property name="sizeHint" >
-            <size>
-             <width>161</width>
-             <height>31</height>
-            </size>
-           </property>
-          </spacer>
-         </item>
-        </layout>
        </item>
        <item>
         <widget class="QGroupBox" name="groupBox_2" >
@@ -165,11 +251,20 @@
           <string>Position</string>
          </property>
          <layout class="QVBoxLayout" >
-          <property name="margin" >
-           <number>9</number>
-          </property>
           <property name="spacing" >
            <number>6</number>
+          </property>
+          <property name="leftMargin" >
+           <number>9</number>
+          </property>
+          <property name="topMargin" >
+           <number>9</number>
+          </property>
+          <property name="rightMargin" >
+           <number>9</number>
+          </property>
+          <property name="bottomMargin" >
+           <number>9</number>
           </property>
           <item>
            <widget class="QLabel" name="textLabel1_22" >
@@ -189,18 +284,25 @@
           </item>
           <item>
            <layout class="QHBoxLayout" >
-            <property name="margin" >
-             <number>0</number>
-            </property>
             <property name="spacing" >
              <number>6</number>
+            </property>
+            <property name="leftMargin" >
+             <number>0</number>
+            </property>
+            <property name="topMargin" >
+             <number>0</number>
+            </property>
+            <property name="rightMargin" >
+             <number>0</number>
+            </property>
+            <property name="bottomMargin" >
+             <number>0</number>
             </property>
             <item>
              <widget class="QSlider" name="sub_pos_slider" >
               <property name="sizePolicy" >
-               <sizepolicy>
-                <hsizetype>7</hsizetype>
-                <vsizetype>0</vsizetype>
+               <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
                 <horstretch>0</horstretch>
                 <verstretch>0</verstretch>
                </sizepolicy>
@@ -233,11 +335,20 @@
           </item>
           <item>
            <layout class="QHBoxLayout" >
-            <property name="margin" >
-             <number>0</number>
-            </property>
             <property name="spacing" >
              <number>6</number>
+            </property>
+            <property name="leftMargin" >
+             <number>0</number>
+            </property>
+            <property name="topMargin" >
+             <number>0</number>
+            </property>
+            <property name="rightMargin" >
+             <number>0</number>
+            </property>
+            <property name="bottomMargin" >
+             <number>0</number>
             </property>
             <item>
              <widget class="QLabel" name="textLabel2_9" >
@@ -310,11 +421,20 @@
        <string>&amp;Font</string>
       </attribute>
       <layout class="QVBoxLayout" >
-       <property name="margin" >
-        <number>9</number>
-       </property>
        <property name="spacing" >
         <number>6</number>
+       </property>
+       <property name="leftMargin" >
+        <number>9</number>
+       </property>
+       <property name="topMargin" >
+        <number>9</number>
+       </property>
+       <property name="rightMargin" >
+        <number>9</number>
+       </property>
+       <property name="bottomMargin" >
+        <number>9</number>
        </property>
        <item>
         <widget class="QGroupBox" name="groupBox_5" >
@@ -322,10 +442,22 @@
           <string>Font</string>
          </property>
          <layout class="QGridLayout" >
-          <property name="margin" >
+          <property name="leftMargin" >
            <number>9</number>
           </property>
-          <property name="spacing" >
+          <property name="topMargin" >
+           <number>9</number>
+          </property>
+          <property name="rightMargin" >
+           <number>9</number>
+          </property>
+          <property name="bottomMargin" >
+           <number>9</number>
+          </property>
+          <property name="horizontalSpacing" >
+           <number>6</number>
+          </property>
+          <property name="verticalSpacing" >
            <number>6</number>
           </property>
           <item row="1" column="1" colspan="2" >
@@ -341,9 +473,7 @@
              <bool>false</bool>
             </property>
             <property name="sizePolicy" >
-             <sizepolicy>
-              <hsizetype>5</hsizetype>
-              <vsizetype>0</vsizetype>
+             <sizepolicy vsizetype="Fixed" hsizetype="Preferred" >
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
@@ -396,19 +526,40 @@
           <string>Size</string>
          </property>
          <layout class="QGridLayout" >
-          <property name="margin" >
+          <property name="leftMargin" >
            <number>9</number>
           </property>
-          <property name="spacing" >
+          <property name="topMargin" >
+           <number>9</number>
+          </property>
+          <property name="rightMargin" >
+           <number>9</number>
+          </property>
+          <property name="bottomMargin" >
+           <number>9</number>
+          </property>
+          <property name="horizontalSpacing" >
+           <number>6</number>
+          </property>
+          <property name="verticalSpacing" >
            <number>6</number>
           </property>
           <item row="0" column="0" colspan="3" >
            <layout class="QHBoxLayout" >
-            <property name="margin" >
-             <number>0</number>
-            </property>
             <property name="spacing" >
              <number>6</number>
+            </property>
+            <property name="leftMargin" >
+             <number>0</number>
+            </property>
+            <property name="topMargin" >
+             <number>0</number>
+            </property>
+            <property name="rightMargin" >
+             <number>0</number>
+            </property>
+            <property name="bottomMargin" >
+             <number>0</number>
             </property>
             <item>
              <widget class="QLabel" name="textLabel2_2" >
@@ -557,11 +708,20 @@
        <string>SSA/ASS &amp;library</string>
       </attribute>
       <layout class="QVBoxLayout" >
-       <property name="margin" >
-        <number>9</number>
-       </property>
        <property name="spacing" >
         <number>6</number>
+       </property>
+       <property name="leftMargin" >
+        <number>9</number>
+       </property>
+       <property name="topMargin" >
+        <number>9</number>
+       </property>
+       <property name="rightMargin" >
+        <number>9</number>
+       </property>
+       <property name="bottomMargin" >
+        <number>9</number>
        </property>
        <item>
         <widget class="QLabel" name="textLabel1_14" >
@@ -585,11 +745,20 @@
        </item>
        <item>
         <layout class="QHBoxLayout" >
-         <property name="margin" >
-          <number>0</number>
-         </property>
          <property name="spacing" >
           <number>6</number>
+         </property>
+         <property name="leftMargin" >
+          <number>0</number>
+         </property>
+         <property name="topMargin" >
+          <number>0</number>
+         </property>
+         <property name="rightMargin" >
+          <number>0</number>
+         </property>
+         <property name="bottomMargin" >
+          <number>0</number>
          </property>
          <item>
           <widget class="QLabel" name="asscolor_label" >
@@ -664,9 +833,7 @@
        <item>
         <widget class="Line" name="ass_styles_line_2" >
          <property name="sizePolicy" >
-          <sizepolicy>
-           <hsizetype>7</hsizetype>
-           <vsizetype>0</vsizetype>
+          <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
@@ -700,11 +867,20 @@
        </item>
        <item>
         <layout class="QHBoxLayout" >
-         <property name="margin" >
-          <number>0</number>
-         </property>
          <property name="spacing" >
           <number>6</number>
+         </property>
+         <property name="leftMargin" >
+          <number>0</number>
+         </property>
+         <property name="topMargin" >
+          <number>0</number>
+         </property>
+         <property name="rightMargin" >
+          <number>0</number>
+         </property>
+         <property name="bottomMargin" >
+          <number>0</number>
          </property>
          <item>
           <widget class="QLabel" name="ass_styles_label" >
@@ -767,6 +943,8 @@
   <tabstop>font_autoload_combo</tabstop>
   <tabstop>font_autoload_check</tabstop>
   <tabstop>font_encoding_combo</tabstop>
+  <tabstop>use_enca_check</tabstop>
+  <tabstop>enca_lang_combo</tabstop>
   <tabstop>sub_pos_slider</tabstop>
   <tabstop>subtitles_on_screeshots_check</tabstop>
   <tabstop>ttf_font_button</tabstop>
@@ -940,6 +1118,22 @@
     <hint type="destinationlabel" >
      <x>264</x>
      <y>138</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>use_enca_check</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>enca_lang_combo</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>118</x>
+     <y>245</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>258</x>
+     <y>245</y>
     </hint>
    </hints>
   </connection>
