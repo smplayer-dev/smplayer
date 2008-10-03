@@ -73,7 +73,7 @@
         <translation>法语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="158"/>
+        <location filename="../about.cpp" line="160"/>
         <source>%1, %2 and %3</source>
         <translation>%1,%2和%3</translation>
     </message>
@@ -88,7 +88,7 @@
         <translation>俄罗斯语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="172"/>
+        <location filename="../about.cpp" line="176"/>
         <source>%1 and %2</source>
         <translation>%1 和 %2</translation>
     </message>
@@ -98,92 +98,92 @@
         <translation>匈牙利语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="153"/>
+        <location filename="../about.cpp" line="155"/>
         <source>Polish</source>
         <translation>波兰语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="156"/>
+        <location filename="../about.cpp" line="158"/>
         <source>Japanese</source>
         <translation>日语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="157"/>
+        <location filename="../about.cpp" line="159"/>
         <source>Dutch</source>
         <translation>荷兰语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="161"/>
+        <location filename="../about.cpp" line="163"/>
         <source>Ukrainian</source>
         <translation>乌克兰语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="162"/>
+        <location filename="../about.cpp" line="166"/>
         <source>Portuguese - Brazil</source>
         <translation>葡萄牙语 - 巴西</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="163"/>
+        <location filename="../about.cpp" line="167"/>
         <source>Georgian</source>
         <translation>乔治亚语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="164"/>
+        <location filename="../about.cpp" line="168"/>
         <source>Czech</source>
         <translation>捷克语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="165"/>
+        <location filename="../about.cpp" line="169"/>
         <source>Bulgarian</source>
         <translation>保加利亚语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="166"/>
+        <location filename="../about.cpp" line="170"/>
         <source>Turkish</source>
         <translation>土耳其语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="167"/>
+        <location filename="../about.cpp" line="171"/>
         <source>Swedish</source>
         <translation>瑞典语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="168"/>
+        <location filename="../about.cpp" line="172"/>
         <source>Serbian</source>
         <translation>赛尔维亚语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="169"/>
+        <location filename="../about.cpp" line="173"/>
         <source>Traditional Chinese</source>
         <translation>繁体中文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="170"/>
+        <location filename="../about.cpp" line="174"/>
         <source>Romanian</source>
         <translation>罗马尼亚语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="171"/>
+        <location filename="../about.cpp" line="175"/>
         <source>Portuguese - Portugal</source>
         <translation>葡萄牙语 - 葡萄牙</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="174"/>
+        <location filename="../about.cpp" line="178"/>
         <source>Greek</source>
         <translation>希腊语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="175"/>
+        <location filename="../about.cpp" line="179"/>
         <source>Finnish</source>
         <translation>芬兰语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="188"/>
+        <location filename="../about.cpp" line="192"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;:%2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="197"/>
+        <location filename="../about.cpp" line="201"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -238,17 +238,17 @@
         <translation>更多信息</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="176"/>
+        <location filename="../about.cpp" line="180"/>
         <source>Korean</source>
         <translation>朝鲜语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="177"/>
+        <location filename="../about.cpp" line="181"/>
         <source>Macedonian</source>
         <translation>马其顿语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="178"/>
+        <location filename="../about.cpp" line="182"/>
         <source>Basque</source>
         <translation>巴斯克语</translation>
     </message>
@@ -258,7 +258,7 @@
         <translation>使用 MPlayer %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="179"/>
+        <location filename="../about.cpp" line="183"/>
         <source>Catalan</source>
         <translation>西班牙语</translation>
     </message>
@@ -273,22 +273,22 @@
         <translation>便用 Qt %1 (由 Qt %1 编译)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="180"/>
+        <location filename="../about.cpp" line="184"/>
         <source>Slovenian</source>
         <translation>斯洛文尼亚语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="181"/>
+        <location filename="../about.cpp" line="185"/>
         <source>Arabic</source>
         <translation type="unfinished">阿拉伯语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="182"/>
+        <location filename="../about.cpp" line="186"/>
         <source>Kurdish</source>
         <translation type="unfinished">库德语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="183"/>
+        <location filename="../about.cpp" line="187"/>
         <source>Galician</source>
         <translation type="unfinished">加里西亚语</translation>
     </message>
@@ -894,74 +894,74 @@ Do you want to overwrite?</source>
         <translation>关于 &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2423"/>
+        <location filename="../basegui.cpp" line="2439"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;无&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2779"/>
+        <location filename="../basegui.cpp" line="2795"/>
         <source>Video</source>
         <translation>视频</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2963"/>
+        <location filename="../basegui.cpp" line="2979"/>
         <source>Audio</source>
         <translation>音频</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2781"/>
+        <location filename="../basegui.cpp" line="2797"/>
         <source>Playlists</source>
         <translation>播放列表</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2964"/>
+        <location filename="../basegui.cpp" line="2980"/>
         <source>All files</source>
         <translation>所有文件</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2961"/>
+        <location filename="../basegui.cpp" line="2977"/>
         <source>Choose a file</source>
         <translation>选择一个文件</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2829"/>
+        <location filename="../basegui.cpp" line="2845"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - 信息</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2832"/>
+        <location filename="../basegui.cpp" line="2848"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>还没有设置 CDROM / DVD 设备。
 你可以在下面显现的配置对话框里设置。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2906"/>
+        <location filename="../basegui.cpp" line="2922"/>
         <source>Choose a directory</source>
         <translation>选择一个目录</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2942"/>
+        <location filename="../basegui.cpp" line="2958"/>
         <source>Subtitles</source>
         <translation>字幕</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2994"/>
+        <location filename="../basegui.cpp" line="3010"/>
         <source>About Qt</source>
         <translation>关于 Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3374"/>
+        <location filename="../basegui.cpp" line="3390"/>
         <source>Playing %1</source>
         <translation>播放 %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3375"/>
+        <location filename="../basegui.cpp" line="3391"/>
         <source>Pause</source>
         <translation>暂停</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3376"/>
+        <location filename="../basegui.cpp" line="3392"/>
         <source>Stop</source>
         <translation>停止</translation>
     </message>
@@ -1251,7 +1251,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>命令行选项(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2979"/>
+        <location filename="../basegui.cpp" line="2995"/>
         <source>SMPlayer command line options</source>
         <translation>SMPlayer 命令行选项</translation>
     </message>
@@ -1271,32 +1271,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>重置视频均衡</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3820"/>
+        <location filename="../basegui.cpp" line="3838"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer 异常退出。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3821"/>
+        <location filename="../basegui.cpp" line="3839"/>
         <source>Exit code: %1</source>
         <translation>退出代码: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3838"/>
+        <location filename="../basegui.cpp" line="3856"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer 启动失败。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3839"/>
+        <location filename="../basegui.cpp" line="3857"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>请检查选项中的 MPlayer 路径的设置。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3841"/>
+        <location filename="../basegui.cpp" line="3859"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer 已经崩溃了.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3842"/>
+        <location filename="../basegui.cpp" line="3860"/>
         <source>See the log for more info.</source>
         <translation>请查看日志已获得更多信息。</translation>
     </message>
@@ -1341,7 +1341,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>显示上下文菜单</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2778"/>
+        <location filename="../basegui.cpp" line="2794"/>
         <source>Multimedia</source>
         <translation>媒体</translation>
     </message>
@@ -1447,42 +1447,42 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../corelib/core.cpp" line="2152"/>
+        <location filename="../corelib/core.cpp" line="2188"/>
         <source>Brightness: %1</source>
         <translation>亮度: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2167"/>
+        <location filename="../corelib/core.cpp" line="2203"/>
         <source>Contrast: %1</source>
         <translation>对比度: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2181"/>
+        <location filename="../corelib/core.cpp" line="2217"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2195"/>
+        <location filename="../corelib/core.cpp" line="2231"/>
         <source>Hue: %1</source>
         <translation>色调: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2209"/>
+        <location filename="../corelib/core.cpp" line="2245"/>
         <source>Saturation: %1</source>
         <translation>饱和度: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2329"/>
+        <location filename="../corelib/core.cpp" line="2365"/>
         <source>Volume: %1</source>
         <translation>音量: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="3099"/>
+        <location filename="../corelib/core.cpp" line="3165"/>
         <source>Zoom: %1</source>
         <translation>缩放: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2448"/>
+        <location filename="../corelib/core.cpp" line="2484"/>
         <source>Font scale: %1</source>
         <translation>字体比例: %1</translation>
     </message>
@@ -5255,324 +5255,359 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefSubtitles</name>
     <message>
-        <location filename="../prefsubtitles.cpp" line="290"/>
+        <location filename="../prefsubtitles.cpp" line="320"/>
         <source>Subtitles</source>
         <translation>字幕</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="90"/>
+        <location filename="../prefsubtitles.cpp" line="98"/>
         <source>Choose a ttf file</source>
         <translation>选择一个 ttf 文件</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="91"/>
+        <location filename="../prefsubtitles.cpp" line="99"/>
         <source>Truetype Fonts</source>
         <translation>Truetype 字体</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="29"/>
+        <location filename="../prefsubtitles.ui" line="38"/>
         <source>&amp;Subtitles</source>
         <translation>字幕(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="41"/>
+        <location filename="../prefsubtitles.ui" line="59"/>
         <source>Autoload</source>
         <translation>自动加载</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="295"/>
+        <location filename="../prefsubtitles.cpp" line="325"/>
         <source>Select first available subtitle</source>
         <translation>选择第一个可用的字幕</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="74"/>
+        <location filename="../prefsubtitles.ui" line="104"/>
         <source>Same name as movie</source>
         <translation>和影片同名的字幕</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="79"/>
+        <location filename="../prefsubtitles.ui" line="109"/>
         <source>All subs containing movie name</source>
         <translation>所有包含影片名的字幕</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="84"/>
+        <location filename="../prefsubtitles.ui" line="114"/>
         <source>All subs in directory</source>
         <translation>目录里的所有字幕</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="165"/>
+        <location filename="../prefsubtitles.ui" line="251"/>
         <source>Position</source>
         <translation>位置</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="225"/>
+        <location filename="../prefsubtitles.ui" line="327"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="245"/>
+        <location filename="../prefsubtitles.ui" line="356"/>
         <source>Top</source>
         <translation>顶部</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="271"/>
+        <location filename="../prefsubtitles.ui" line="382"/>
         <source>Bottom</source>
         <translation>底部</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="310"/>
+        <location filename="../prefsubtitles.cpp" line="352"/>
         <source>Include subtitles on screenshots</source>
         <translation>将字幕包含在截图里</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="310"/>
+        <location filename="../prefsubtitles.ui" line="421"/>
         <source>&amp;Font</source>
         <translation>字体(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="322"/>
+        <location filename="../prefsubtitles.ui" line="442"/>
         <source>Font</source>
         <translation>字体</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="356"/>
+        <location filename="../prefsubtitles.ui" line="486"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
         <translation>选择字幕 (和 OSD) 的字体:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="396"/>
+        <location filename="../prefsubtitles.ui" line="526"/>
         <source>Size</source>
         <translation>大小</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="430"/>
+        <location filename="../prefsubtitles.ui" line="581"/>
         <source>No autoscale</source>
         <translation>无</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="435"/>
+        <location filename="../prefsubtitles.ui" line="586"/>
         <source>Proportional to movie height</source>
         <translation>相对于影片的高度</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="440"/>
+        <location filename="../prefsubtitles.ui" line="591"/>
         <source>Proportional to movie width</source>
         <translation>相对于影片的宽度</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="445"/>
+        <location filename="../prefsubtitles.ui" line="596"/>
         <source>Proportional to movie diagonal</source>
         <translation>相对于影片的对角线</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="569"/>
+        <location filename="../prefsubtitles.ui" line="729"/>
         <source>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</source>
         <translation>新的 SSA/ASS 库将为外部的 SSA/ASS 字幕和 Matroska tracks 提供的赏心悦目风格。它同样可能用来渲染其它字幕格式, 如 SUB, SRT。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="346"/>
+        <location filename="../prefsubtitles.cpp" line="388"/>
         <source>Use SSA/ASS library for subtitle rendering</source>
         <translation>使用 SSA/AAS 库来渲染字体</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="691"/>
+        <location filename="../prefsubtitles.ui" line="858"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
         <translation>这里您可以重设 SSA/ASS 字幕的风格。 在选用 SSA/ASS 库来渲染 srt 字幕时, 也将使用该设置。&lt;br&gt;示例: &lt;b&gt;Bold=1,Outline=2,Shadow=2&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="304"/>
+        <location filename="../prefsubtitles.cpp" line="346"/>
         <source>Subtitle position</source>
         <translation>字幕位置</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="307"/>
+        <location filename="../prefsubtitles.cpp" line="349"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
         <translation>这个选项指定字幕在视频窗口里的位置。&lt;i&gt;100&lt;/i&gt;表示底部, &lt;i&gt;0&lt;/i&gt;表示顶部。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="356"/>
+        <location filename="../prefsubtitles.cpp" line="398"/>
         <source>SSA/ASS styles</source>
         <translation>SSA/ASS 风格</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="53"/>
+        <location filename="../prefsubtitles.ui" line="83"/>
         <source>Au&amp;toload subtitles files (*.srt, *.sub...):</source>
         <translation>自动加载字幕文件 (*.srt, *.sub...)(&amp;T):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="66"/>
+        <location filename="../prefsubtitles.ui" line="96"/>
         <source>S&amp;elect first available subtitle</source>
         <translation>选择第一个可用的字幕(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="111"/>
+        <location filename="../prefsubtitles.ui" line="164"/>
         <source>&amp;Default subtitle encoding:</source>
         <translation>默认字幕编码(&amp;D):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="177"/>
+        <location filename="../prefsubtitles.ui" line="272"/>
         <source>Default &amp;position of the subtitles on screen</source>
         <translation>字幕在屏幕的默认位置(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="286"/>
+        <location filename="../prefsubtitles.ui" line="397"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>将字幕包含在截图里(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="386"/>
+        <location filename="../prefsubtitles.ui" line="516"/>
         <source>&amp;TTF font:</source>
         <translation>TTF 字体(&amp;T):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="366"/>
+        <location filename="../prefsubtitles.ui" line="496"/>
         <source>S&amp;ystem font:</source>
         <translation>系统字体(&amp;Y):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="416"/>
+        <location filename="../prefsubtitles.ui" line="567"/>
         <source>A&amp;utoscale:</source>
         <translation>自适应比例(&amp;U):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="582"/>
+        <location filename="../prefsubtitles.ui" line="742"/>
         <source>&amp;Use SSA/ASS library for subtitle rendering</source>
         <translation>使用 SSA/AAS 库来渲染字体(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="600"/>
+        <location filename="../prefsubtitles.ui" line="769"/>
         <source>&amp;Text color:</source>
         <translation>文本颜色(&amp;T):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="642"/>
+        <location filename="../prefsubtitles.ui" line="811"/>
         <source>&amp;Border color:</source>
         <translation>边框颜色(&amp;B):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="715"/>
+        <location filename="../prefsubtitles.ui" line="891"/>
         <source>St&amp;yles:</source>
         <translation>风格(&amp;Y):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="335"/>
+        <location filename="../prefsubtitles.cpp" line="377"/>
         <source>Default scale for normal subtitles</source>
         <translation>字幕的默认比例</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="337"/>
+        <location filename="../prefsubtitles.cpp" line="379"/>
         <source>This option specifies the default font scale for normal (white) subtitles which will be used for new videos.</source>
         <translation>这个选项为字幕指定默认的字体比例, 将在新的文件中使用。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="339"/>
+        <location filename="../prefsubtitles.cpp" line="381"/>
         <source>Default scale for SSA/ASS subtitles</source>
         <translation>SSA/ASS字幕的默认比例</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="341"/>
+        <location filename="../prefsubtitles.cpp" line="383"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new videos.</source>
         <translation>这个选项为 SSA/ASS 字幕指定默认的字体比例, 将在新的文件中使用。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="527"/>
+        <location filename="../prefsubtitles.ui" line="678"/>
         <source>Default s&amp;cale for normal subtitles:</source>
         <translation>字幕的默认比例(&amp;C):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="514"/>
+        <location filename="../prefsubtitles.ui" line="665"/>
         <source>Default sc&amp;ale for SSA/ASS subtitles:</source>
         <translation>SSA/ASS字幕的默认比例(&amp;A):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="557"/>
+        <location filename="../prefsubtitles.ui" line="708"/>
         <source>SSA/ASS &amp;library</source>
         <translation>SSA/&amp;ASS 库(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="301"/>
+        <location filename="../prefsubtitles.cpp" line="331"/>
         <source>Default subtitle encoding</source>
         <translation>默认字幕编码</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="302"/>
         <source>Select the encoding which will be used for subtitle files.</source>
-        <translation>选择将用于字幕文件的编码。</translation>
+        <translation type="obsolete">选择将用于字幕文件的编码。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="312"/>
+        <location filename="../prefsubtitles.cpp" line="354"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. Note: it may cause some troubles sometimes.</source>
         <translation>如果选择这个选项，字幕将会出现在截图里。注意: 这有时可能会带来一些麻烦。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="316"/>
+        <location filename="../prefsubtitles.cpp" line="358"/>
         <source>TTF font</source>
         <translation>TTF 字体</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="319"/>
+        <location filename="../prefsubtitles.cpp" line="361"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in &lt;i&gt;%1&lt;/i&gt;.</source>
         <translation>在这里您可能选择一个用于字幕的 TTF 字体。通常您可以在 &lt;i&gt;%1&lt;/i&gt; 找到很多 TTF 字体。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="326"/>
+        <location filename="../prefsubtitles.cpp" line="368"/>
         <source>System font</source>
         <translation>系统字体</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="328"/>
+        <location filename="../prefsubtitles.cpp" line="370"/>
         <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
         <translation>在这里您可以选择一个用于字幕和 OSD 的系统字体。&lt;b&gt;注意:&lt;/b&gt; 需要 MPlayer 有　fontconfig 支持。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="330"/>
+        <location filename="../prefsubtitles.cpp" line="372"/>
         <source>Autoscale</source>
         <translation>自适应比例</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="344"/>
+        <location filename="../prefsubtitles.cpp" line="386"/>
         <source>SSA/ASS library</source>
         <translation>SSA/ASS 库</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="348"/>
+        <location filename="../prefsubtitles.cpp" line="390"/>
         <source>Check this option to activate the SSA/ASS library. It provides nicer subtitles, so it&apos;s a good idea to do it.</source>
         <translation>勾选这个选项来启用 SSA/ASS 库。它将提供更多的字幕, 所以推荐启用。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="350"/>
+        <location filename="../prefsubtitles.cpp" line="392"/>
         <source>Text color</source>
         <translation>文本颜色</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="351"/>
+        <location filename="../prefsubtitles.cpp" line="393"/>
         <source>Select the color for the text of the subtitles.</source>
         <translation>选择用于字幕文本的颜色。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="353"/>
+        <location filename="../prefsubtitles.cpp" line="395"/>
         <source>Border color</source>
         <translation>边框颜色</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="354"/>
+        <location filename="../prefsubtitles.cpp" line="396"/>
         <source>Select the color for the border of the subtitles.</source>
         <translation>选择用于字幕边框的颜色。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="293"/>
+        <location filename="../prefsubtitles.cpp" line="323"/>
         <source>Select the subtitle autoload method.</source>
         <translation>选择字幕自动加载方式。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="299"/>
+        <location filename="../prefsubtitles.cpp" line="329"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>如果有一个以上的可用字幕, 其中的一个会被自动加载, 一般是第一个, 但如果有和用户首选字幕匹配的，匹配的字幕将被使用。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="331"/>
+        <location filename="../prefsubtitles.cpp" line="373"/>
         <source>Select the subtitle autoscaling method.</source>
         <translation>选择字幕自动加载方式。</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="333"/>
+        <source>Select the encoding which will be used for subtitle files by default.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="335"/>
+        <source>Try to autodetect for this language</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="340"/>
+        <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="342"/>
+        <source>Subtitle language</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="344"/>
+        <source>Select the language for which you want the encoding to be guessed automatically.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="141"/>
+        <source>Encoding</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="213"/>
+        <source>Try to a&amp;utodetect for this language:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

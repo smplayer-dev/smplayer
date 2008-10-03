@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
-<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -74,7 +73,7 @@
         <translation>Franceză</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="158"/>
+        <location filename="../about.cpp" line="160"/>
         <source>%1, %2 and %3</source>
         <translation>%1, %2 şi %3</translation>
     </message>
@@ -89,7 +88,7 @@
         <translation>Rusă</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="172"/>
+        <location filename="../about.cpp" line="176"/>
         <source>%1 and %2</source>
         <translation>%1 şi %2</translation>
     </message>
@@ -99,92 +98,92 @@
         <translation>Maghiară</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="153"/>
+        <location filename="../about.cpp" line="155"/>
         <source>Polish</source>
         <translation>Poloneză</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="156"/>
+        <location filename="../about.cpp" line="158"/>
         <source>Japanese</source>
         <translation>Japoneză</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="157"/>
+        <location filename="../about.cpp" line="159"/>
         <source>Dutch</source>
         <translation>Olandeză</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="161"/>
+        <location filename="../about.cpp" line="163"/>
         <source>Ukrainian</source>
         <translation>Ucraineană</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="162"/>
+        <location filename="../about.cpp" line="166"/>
         <source>Portuguese - Brazil</source>
         <translation>Portugheză - Brazilia</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="163"/>
+        <location filename="../about.cpp" line="167"/>
         <source>Georgian</source>
         <translation>Georgiană</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="164"/>
+        <location filename="../about.cpp" line="168"/>
         <source>Czech</source>
         <translation>Cehă</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="165"/>
+        <location filename="../about.cpp" line="169"/>
         <source>Bulgarian</source>
         <translation>Bulgară</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="166"/>
+        <location filename="../about.cpp" line="170"/>
         <source>Turkish</source>
         <translation>Turcă</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="167"/>
+        <location filename="../about.cpp" line="171"/>
         <source>Swedish</source>
         <translation>Suedeză</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="168"/>
+        <location filename="../about.cpp" line="172"/>
         <source>Serbian</source>
         <translation>Sârbă</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="169"/>
+        <location filename="../about.cpp" line="173"/>
         <source>Traditional Chinese</source>
         <translation>Chineză Tradiţională</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="170"/>
+        <location filename="../about.cpp" line="174"/>
         <source>Romanian</source>
         <translation>Română</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="171"/>
+        <location filename="../about.cpp" line="175"/>
         <source>Portuguese - Portugal</source>
         <translation>Portugheză - Portugalia</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="174"/>
+        <location filename="../about.cpp" line="178"/>
         <source>Greek</source>
         <translation>Greacă</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="175"/>
+        <location filename="../about.cpp" line="179"/>
         <source>Finnish</source>
         <translation>Finlandeză</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="188"/>
+        <location filename="../about.cpp" line="192"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="197"/>
+        <location filename="../about.cpp" line="201"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -239,17 +238,17 @@
         <translation>Informații suplimentare</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="176"/>
+        <location filename="../about.cpp" line="180"/>
         <source>Korean</source>
         <translation>Coreană</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="177"/>
+        <location filename="../about.cpp" line="181"/>
         <source>Macedonian</source>
         <translation>Macedoneană</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="178"/>
+        <location filename="../about.cpp" line="182"/>
         <source>Basque</source>
         <translation>Bască</translation>
     </message>
@@ -259,7 +258,7 @@
         <translation>Se folosește MPlayer r%1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="179"/>
+        <location filename="../about.cpp" line="183"/>
         <source>Catalan</source>
         <translation>Catalană</translation>
     </message>
@@ -274,22 +273,22 @@
         <translation>S-a folosit Qt %1 (compilat cu Qt %2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="180"/>
+        <location filename="../about.cpp" line="184"/>
         <source>Slovenian</source>
         <translation>Slovenă</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="181"/>
+        <location filename="../about.cpp" line="185"/>
         <source>Arabic</source>
         <translation>Arabă</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="182"/>
+        <location filename="../about.cpp" line="186"/>
         <source>Kurdish</source>
         <translation>Kurdă</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="183"/>
+        <location filename="../about.cpp" line="187"/>
         <source>Galician</source>
         <translation>Galițiană</translation>
     </message>
@@ -894,74 +893,74 @@ Do you want to overwrite?</source>
         <translation>Despre &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2423"/>
+        <location filename="../basegui.cpp" line="2439"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;gol&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2779"/>
+        <location filename="../basegui.cpp" line="2795"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2963"/>
+        <location filename="../basegui.cpp" line="2979"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2781"/>
+        <location filename="../basegui.cpp" line="2797"/>
         <source>Playlists</source>
         <translation>Liste_titluri</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2964"/>
+        <location filename="../basegui.cpp" line="2980"/>
         <source>All files</source>
         <translation>Toate fișierele</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2961"/>
+        <location filename="../basegui.cpp" line="2977"/>
         <source>Choose a file</source>
         <translation>Alegere fișier</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2829"/>
+        <location filename="../basegui.cpp" line="2845"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Informații</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2832"/>
+        <location filename="../basegui.cpp" line="2848"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Driverele pentru CDROM/DVD nu sunt configurate încă.
 O fereastră de dialog va fi afișată pentru a putea face configurarea.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2906"/>
+        <location filename="../basegui.cpp" line="2922"/>
         <source>Choose a directory</source>
         <translation>Alegere director</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2942"/>
+        <location filename="../basegui.cpp" line="2958"/>
         <source>Subtitles</source>
         <translation>Subtitrări</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2994"/>
+        <location filename="../basegui.cpp" line="3010"/>
         <source>About Qt</source>
         <translation>Despre Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3374"/>
+        <location filename="../basegui.cpp" line="3390"/>
         <source>Playing %1</source>
         <translation>Redare %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3375"/>
+        <location filename="../basegui.cpp" line="3391"/>
         <source>Pause</source>
         <translation>Pauză</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3376"/>
+        <location filename="../basegui.cpp" line="3392"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
@@ -1251,7 +1250,7 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
         <translation>Opțiuni linie de &amp;comandă</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2979"/>
+        <location filename="../basegui.cpp" line="2995"/>
         <source>SMPlayer command line options</source>
         <translation>Opțiuni linie de comandă pentru SMPlayer</translation>
     </message>
@@ -1271,32 +1270,32 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
         <translation>Refacere valori implicite egalizor video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3820"/>
+        <location filename="../basegui.cpp" line="3838"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer s-a închis inexplicabil.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3821"/>
+        <location filename="../basegui.cpp" line="3839"/>
         <source>Exit code: %1</source>
         <translation>Cod de eroare: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3838"/>
+        <location filename="../basegui.cpp" line="3856"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer nu a putut porni.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3839"/>
+        <location filename="../basegui.cpp" line="3857"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Verificați calea pentru MPlayer în Preferințe.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3841"/>
+        <location filename="../basegui.cpp" line="3859"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer s-a oprit.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3842"/>
+        <location filename="../basegui.cpp" line="3860"/>
         <source>See the log for more info.</source>
         <translation>Pentru mai multe informații consulați jurnalul.</translation>
     </message>
@@ -1341,7 +1340,7 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
         <translation>Afișare meniu contextual</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2778"/>
+        <location filename="../basegui.cpp" line="2794"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>
@@ -1447,42 +1446,42 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
 <context>
     <name>Core</name>
     <message>
-        <location filename="../corelib/core.cpp" line="2152"/>
+        <location filename="../corelib/core.cpp" line="2188"/>
         <source>Brightness: %1</source>
         <translation>Luminozitate: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2167"/>
+        <location filename="../corelib/core.cpp" line="2203"/>
         <source>Contrast: %1</source>
         <translation>Contrast: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2181"/>
+        <location filename="../corelib/core.cpp" line="2217"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2195"/>
+        <location filename="../corelib/core.cpp" line="2231"/>
         <source>Hue: %1</source>
         <translation>Culoare: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2209"/>
+        <location filename="../corelib/core.cpp" line="2245"/>
         <source>Saturation: %1</source>
         <translation>Saturație: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2329"/>
+        <location filename="../corelib/core.cpp" line="2365"/>
         <source>Volume: %1</source>
         <translation>Volum: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="3099"/>
+        <location filename="../corelib/core.cpp" line="3165"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2448"/>
+        <location filename="../corelib/core.cpp" line="2484"/>
         <source>Font scale: %1</source>
         <translation>Scală Caractere: %1</translation>
     </message>
@@ -5274,324 +5273,359 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefSubtitles</name>
     <message>
-        <location filename="../prefsubtitles.cpp" line="290"/>
+        <location filename="../prefsubtitles.cpp" line="320"/>
         <source>Subtitles</source>
         <translation>Subtitrări</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="90"/>
+        <location filename="../prefsubtitles.cpp" line="98"/>
         <source>Choose a ttf file</source>
         <translation>Alegere fișier ttf</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="91"/>
+        <location filename="../prefsubtitles.cpp" line="99"/>
         <source>Truetype Fonts</source>
         <translation>Caractere Truetype</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="29"/>
+        <location filename="../prefsubtitles.ui" line="38"/>
         <source>&amp;Subtitles</source>
         <translation>&amp;Subtitrare</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="41"/>
+        <location filename="../prefsubtitles.ui" line="59"/>
         <source>Autoload</source>
         <translation>Încărcare automată</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="295"/>
+        <location filename="../prefsubtitles.cpp" line="325"/>
         <source>Select first available subtitle</source>
         <translation>Selectați prima subtitrare disponibilă</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="74"/>
+        <location filename="../prefsubtitles.ui" line="104"/>
         <source>Same name as movie</source>
         <translation>Același nume ca și filmul</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="79"/>
+        <location filename="../prefsubtitles.ui" line="109"/>
         <source>All subs containing movie name</source>
         <translation>Subtitrările care conțin numele filmului</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="84"/>
+        <location filename="../prefsubtitles.ui" line="114"/>
         <source>All subs in directory</source>
         <translation>Toate subtitrările din director</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="165"/>
+        <location filename="../prefsubtitles.ui" line="251"/>
         <source>Position</source>
         <translation>Poziționare</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="225"/>
+        <location filename="../prefsubtitles.ui" line="327"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="245"/>
+        <location filename="../prefsubtitles.ui" line="356"/>
         <source>Top</source>
         <translation>Sus</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="271"/>
+        <location filename="../prefsubtitles.ui" line="382"/>
         <source>Bottom</source>
         <translation>Jos</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="310"/>
+        <location filename="../prefsubtitles.cpp" line="352"/>
         <source>Include subtitles on screenshots</source>
         <translation>Include subtitrarea în captura de ecran</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="310"/>
+        <location filename="../prefsubtitles.ui" line="421"/>
         <source>&amp;Font</source>
         <translation>&amp;Caractere</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="322"/>
+        <location filename="../prefsubtitles.ui" line="442"/>
         <source>Font</source>
         <translation>Caractere</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="356"/>
+        <location filename="../prefsubtitles.ui" line="486"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
         <translation>Selectarea caracterelor ce vor fi folosite pentru subtitrări (și OSD):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="396"/>
+        <location filename="../prefsubtitles.ui" line="526"/>
         <source>Size</source>
         <translation>Dimensiune</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="430"/>
+        <location filename="../prefsubtitles.ui" line="581"/>
         <source>No autoscale</source>
         <translation>Fără autoscalare</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="435"/>
+        <location filename="../prefsubtitles.ui" line="586"/>
         <source>Proportional to movie height</source>
         <translation>Proporțională cu înălțimea filmului</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="440"/>
+        <location filename="../prefsubtitles.ui" line="591"/>
         <source>Proportional to movie width</source>
         <translation>Proporțională cu lățimea filmului</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="445"/>
+        <location filename="../prefsubtitles.ui" line="596"/>
         <source>Proportional to movie diagonal</source>
         <translation>Proporțională cu diagonala filmului</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="569"/>
+        <location filename="../prefsubtitles.ui" line="729"/>
         <source>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</source>
         <translation>Noua bibliotecă SSA/ASS va furniza stiluri mai frumoase pentru subtitrări pentru fișiere externe de subtitrări SSA/ASS și Matroska. Dar va fi folosită de asemenea pentru randarea altor formate precum SUB și SRT.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="346"/>
+        <location filename="../prefsubtitles.cpp" line="388"/>
         <source>Use SSA/ASS library for subtitle rendering</source>
         <translation>Folosiți biblioteca SSA/ASS pentru randarea subtitrării</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="691"/>
+        <location filename="../prefsubtitles.ui" line="858"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
         <translation>Aici se poate shimba stilul pentru subtitrările de tip SSA/ASS. Folosind această bibliotecă se pot face retușări ale subtitrărilor de tip SUB și SRT. Exemplu: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="304"/>
+        <location filename="../prefsubtitles.cpp" line="346"/>
         <source>Subtitle position</source>
         <translation>Poziție subtitrare</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="307"/>
+        <location filename="../prefsubtitles.cpp" line="349"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
         <translation>Această opțiune specifică poziția subtitrării pe ecran. &lt;i&gt;100&lt;/i&gt; reprezintă partea de jos, în timp ce &lt;i&gt;0&lt;/i&gt; reprezintă partea de sus a ecranului.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="356"/>
+        <location filename="../prefsubtitles.cpp" line="398"/>
         <source>SSA/ASS styles</source>
         <translation>Stil SSA/ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="53"/>
+        <location filename="../prefsubtitles.ui" line="83"/>
         <source>Au&amp;toload subtitles files (*.srt, *.sub...):</source>
         <translation>Încărcare au&amp;tomată fișiere subtitrări (*.srt, *.sub...):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="66"/>
+        <location filename="../prefsubtitles.ui" line="96"/>
         <source>S&amp;elect first available subtitle</source>
         <translation>S&amp;electează prima subtitrare disponibilă</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="111"/>
+        <location filename="../prefsubtitles.ui" line="164"/>
         <source>&amp;Default subtitle encoding:</source>
         <translation>Co&amp;dificarea implicită subtitrare:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="177"/>
+        <location filename="../prefsubtitles.ui" line="272"/>
         <source>Default &amp;position of the subtitles on screen</source>
         <translation>&amp;Poziționarea implicită a subtitrării pe ecran</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="286"/>
+        <location filename="../prefsubtitles.ui" line="397"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>&amp;Include subtitrarea în captura de ecran</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="386"/>
+        <location filename="../prefsubtitles.ui" line="516"/>
         <source>&amp;TTF font:</source>
         <translation>Caractere &amp;TTF:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="366"/>
+        <location filename="../prefsubtitles.ui" line="496"/>
         <source>S&amp;ystem font:</source>
         <translation>Caractere imp&amp;licite ale sistemului:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="416"/>
+        <location filename="../prefsubtitles.ui" line="567"/>
         <source>A&amp;utoscale:</source>
         <translation>A&amp;utoscalare:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="582"/>
+        <location filename="../prefsubtitles.ui" line="742"/>
         <source>&amp;Use SSA/ASS library for subtitle rendering</source>
         <translation>Folosiți biblioteca SSA/ASS pentru randarea s&amp;ubtitrării</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="600"/>
+        <location filename="../prefsubtitles.ui" line="769"/>
         <source>&amp;Text color:</source>
         <translation>Culoare &amp;text:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="642"/>
+        <location filename="../prefsubtitles.ui" line="811"/>
         <source>&amp;Border color:</source>
         <translation>Culoare c&amp;henar:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="715"/>
+        <location filename="../prefsubtitles.ui" line="891"/>
         <source>St&amp;yles:</source>
         <translation>St&amp;il:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="344"/>
+        <location filename="../prefsubtitles.cpp" line="386"/>
         <source>SSA/ASS library</source>
         <translation>Bibliotecă SSA/ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="335"/>
+        <location filename="../prefsubtitles.cpp" line="377"/>
         <source>Default scale for normal subtitles</source>
         <translation>Dimensiune implicită subtitrare normală</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="337"/>
+        <location filename="../prefsubtitles.cpp" line="379"/>
         <source>This option specifies the default font scale for normal (white) subtitles which will be used for new videos.</source>
         <translation>Această opțiune specifică dimensiunea implicită a caracterelor pentru subtitrara normală (albă) ce va fi utilizată pentru viitoarele fișiere video ce vor fi redate.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="339"/>
+        <location filename="../prefsubtitles.cpp" line="381"/>
         <source>Default scale for SSA/ASS subtitles</source>
         <translation>Dimensiune implicită subtitrare SSA/ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="341"/>
+        <location filename="../prefsubtitles.cpp" line="383"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new videos.</source>
         <translation>Această opțiune specifică dimensiunea implicită a caracterelor pentru subtitrara de tip SSA/ASS ce va fi utilizată pentru viitoarele fișiere video ce vor fi redate.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="527"/>
+        <location filename="../prefsubtitles.ui" line="678"/>
         <source>Default s&amp;cale for normal subtitles:</source>
         <translation>Dimensiune impli&amp;cită subtitrare normală:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="514"/>
+        <location filename="../prefsubtitles.ui" line="665"/>
         <source>Default sc&amp;ale for SSA/ASS subtitles:</source>
         <translation>Dimensiune&amp;a implicită subtitrare SSA/ASS:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="557"/>
+        <location filename="../prefsubtitles.ui" line="708"/>
         <source>SSA/ASS &amp;library</source>
         <translation>Bib&amp;liotecă SSA/ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="301"/>
+        <location filename="../prefsubtitles.cpp" line="331"/>
         <source>Default subtitle encoding</source>
         <translation>Codificarea implicită pentru subtitrare</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="302"/>
         <source>Select the encoding which will be used for subtitle files.</source>
-        <translation>Selectați codificarea care va fi utilizată pentru fișierele ce conțin subtirări.</translation>
+        <translation type="obsolete">Selectați codificarea care va fi utilizată pentru fișierele ce conțin subtirări.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="312"/>
+        <location filename="../prefsubtitles.cpp" line="354"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. Note: it may cause some troubles sometimes.</source>
         <translation>Dacă această opțiune este selectată atunci subtitrarea va apărea în captura de ecran. De notat că uneori această opțiune poate cauza probleme.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="316"/>
+        <location filename="../prefsubtitles.cpp" line="358"/>
         <source>TTF font</source>
         <translation>Caractere TTF</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="319"/>
+        <location filename="../prefsubtitles.cpp" line="361"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in &lt;i&gt;%1&lt;/i&gt;.</source>
         <translation>Aici puteți selecta caratere ttf pentru a fi utilizate în subtitrare. De obicei puteți găsi foarte multe caractere ttf în  &lt;i&gt;%1&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="326"/>
+        <location filename="../prefsubtitles.cpp" line="368"/>
         <source>System font</source>
         <translation>Caractere sistem</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="328"/>
+        <location filename="../prefsubtitles.cpp" line="370"/>
         <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
         <translation>Aici puteți selecta un set de caractere ale sistemului pentru a le folosi pentru subtitrări și pentru afișajul de pe ecran (OSD). &lt;b&gt;De reținut:&lt;/b&gt; este nevoie de o versiune MPlayer care să ofere suport pentru configurarea caracterelor.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="330"/>
+        <location filename="../prefsubtitles.cpp" line="372"/>
         <source>Autoscale</source>
         <translation>Autoscalare</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="348"/>
+        <location filename="../prefsubtitles.cpp" line="390"/>
         <source>Check this option to activate the SSA/ASS library. It provides nicer subtitles, so it&apos;s a good idea to do it.</source>
         <translation>Selectați această opțiune pentru a activa biblioteca SSA/ASS. Acestă opțiune va face subtitrările mai frumoase, deci este o idee bună să o folosiți.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="350"/>
+        <location filename="../prefsubtitles.cpp" line="392"/>
         <source>Text color</source>
         <translation>Culoare text</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="351"/>
+        <location filename="../prefsubtitles.cpp" line="393"/>
         <source>Select the color for the text of the subtitles.</source>
         <translation>Selectați culoarea textului folosit pentru subtitrare.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="353"/>
+        <location filename="../prefsubtitles.cpp" line="395"/>
         <source>Border color</source>
         <translation>Culoare bandă</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="354"/>
+        <location filename="../prefsubtitles.cpp" line="396"/>
         <source>Select the color for the border of the subtitles.</source>
         <translation>Selectați culoarea benzii pe care este scrisă subtitrarea.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="293"/>
+        <location filename="../prefsubtitles.cpp" line="323"/>
         <source>Select the subtitle autoload method.</source>
         <translation>Selectați metoda de încărcare automată a subtitrării.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="299"/>
+        <location filename="../prefsubtitles.cpp" line="329"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation> Dacă există una sau mai multe subtitrări disponibile, una dintre ele va fi selectată automat, de regulă aceasta este prima, dar dacă una din ele corespunde preferințelor utilizatorului referitoare la limba subtitrării atunci va fi folosită aceasta. </translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="331"/>
+        <location filename="../prefsubtitles.cpp" line="373"/>
         <source>Select the subtitle autoscaling method.</source>
         <translation>Selectați metoda de autoscalare a subtitrării.</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="333"/>
+        <source>Select the encoding which will be used for subtitle files by default.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="335"/>
+        <source>Try to autodetect for this language</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="340"/>
+        <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="342"/>
+        <source>Subtitle language</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="344"/>
+        <source>Select the language for which you want the encoding to be guessed automatically.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="141"/>
+        <source>Encoding</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="213"/>
+        <source>Try to a&amp;utodetect for this language:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
