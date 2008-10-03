@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="es">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -5602,37 +5603,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="333"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecciona la codificación por defecto que se usará para ficheros de subtítulos.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="335"/>
         <source>Try to autodetect for this language</source>
-        <translation type="unfinished"></translation>
+        <translation>Intentar autodetección</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="340"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cuando esta opción está activada, se intentará autodetectar la codificación para el idioma seleccionado. Si la autodetección falla se usará la codificación por defecto. Esta opción require un MPlayer compilado con soporte para ENCA.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="342"/>
         <source>Subtitle language</source>
-        <translation type="unfinished"></translation>
+        <translation>Idioma de los subtítulos</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="344"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecciona el idioma para el que quieres que se realice autodetección de la codificación.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="141"/>
         <source>Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Codificación</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="213"/>
         <source>Try to a&amp;utodetect for this language:</source>
-        <translation type="unfinished"></translation>
+        <translation>Intentar &amp;autodetección para:</translation>
     </message>
 </context>
 <context>
