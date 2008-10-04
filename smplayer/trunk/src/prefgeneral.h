@@ -50,8 +50,6 @@ public:
 protected:
 	virtual void createHelp();
 
-	void setDrivers(InfoList vo_list, InfoList ao_list);
-
 	// Tab General
 	void setMplayerPath( QString path );
 	QString mplayerPath();
@@ -157,6 +155,10 @@ protected slots:
 
 protected:
 	virtual void retranslateStrings();
+	void updateDriverCombos();
+
+	InfoList vo_list;
+	InfoList ao_list;
 
 #if USE_ALSA_DEVICES
 	InfoList alsa_devices;

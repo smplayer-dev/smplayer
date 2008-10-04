@@ -35,13 +35,14 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 	mplayerbin_edit->setDialogType(FileChooser::GetFileName);
 	screenshot_edit->setDialogType(FileChooser::GetDirectory);
 
+	// Read driver info from InfoReader:
+	InfoReader * i = InfoReader::obj();
+	vo_list = i->voList();
+	ao_list = i->aoList();
+
 #if USE_ALSA_DEVICES
 	alsa_devices = DeviceInfo::alsaDevices();
 #endif
-
-	// Read driver info from InfoReader:
-	InfoReader * i = InfoReader::obj();
-	setDrivers( i->voList(), i->aoList() );
 
 	// Channels combo
 	channels_combo->addItem( "2", MediaSettings::ChStereo );
@@ -86,6 +87,8 @@ void PrefGeneral::retranslateStrings() {
 	deinterlace_combo->addItem( tr("Linear Blend"), MediaSettings::LB );
 	deinterlace_combo->addItem( tr("Kerndeint"), MediaSettings::Kerndeint );
 	deinterlace_combo->setCurrentIndex(deinterlace_item);
+
+	updateDriverCombos();
 
     // Icons
 	/*
@@ -222,7 +225,13 @@ void PrefGeneral::getData(Preferences * pref) {
 	TEST_AND_SET(pref->use_scaletempo, scaleTempoFilter());
 }
 
-void PrefGeneral::setDrivers(InfoList vo_list, InfoList ao_list) {
+void PrefGeneral::updateDriverCombos() {
+	int vo_current = vo_combo->currentIndex();
+	int ao_current = ao_combo->currentIndex();
+
+	vo_combo->clear();
+	ao_combo->clear();
+
 	QString vo;
 	for ( int n = 0; n < vo_list.count(); n++ ) {
 		vo = vo_list[n].name();
@@ -274,6 +283,9 @@ void PrefGeneral::setDrivers(InfoList vo_list, InfoList ao_list) {
 #endif
 	}
 	ao_combo->addItem( tr("User defined..."), "user_defined" );
+
+	vo_combo->setCurrentIndex( vo_current );
+	ao_combo->setCurrentIndex( ao_current );
 }
 
 void PrefGeneral::setMplayerPath( QString path ) {
