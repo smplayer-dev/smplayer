@@ -3651,37 +3651,37 @@ As listas despregables poden ofrecer xa as expresións regulares para diferentes
 <context>
     <name>PrefGeneral</name>
     <message>
-        <location filename="../prefgeneral.cpp" line="576"/>
+        <location filename="../prefgeneral.cpp" line="586"/>
         <source>General</source>
         <translation>Xeral</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="26"/>
+        <location filename="../prefgeneral.ui" line="35"/>
         <source>&amp;General</source>
         <translation>&amp;Xeral</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="38"/>
+        <location filename="../prefgeneral.ui" line="56"/>
         <source>Paths</source>
         <translation>Rotas</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="85"/>
+        <location filename="../prefgeneral.ui" line="112"/>
         <source>Output drivers</source>
         <translation>Saída dos controladores</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="191"/>
+        <location filename="../prefgeneral.ui" line="226"/>
         <source>Media settings</source>
         <translation>Configuración dos medios</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="652"/>
+        <location filename="../prefgeneral.cpp" line="667"/>
         <source>Start videos in fullscreen</source>
         <translation>Comezar vídeos en pantalla completa</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="656"/>
+        <location filename="../prefgeneral.cpp" line="671"/>
         <source>Disable screensaver</source>
         <translation>Desactivar o salvapantallas</translation>
     </message>
@@ -3706,252 +3706,252 @@ As listas despregables poden ofrecer xa as expresións regulares para diferentes
         <translation>Escolla un cartafol</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="578"/>
+        <location filename="../prefgeneral.cpp" line="588"/>
         <source>MPlayer executable</source>
         <translation>Executable do MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="583"/>
+        <location filename="../prefgeneral.cpp" line="593"/>
         <source>Here you must specify the mplayer executable that smplayer will use.&lt;br&gt;smplayer requires at least mplayer 1.0rc1 (svn recommended).&lt;br&gt;&lt;b&gt;If this setting is wrong, smplayer won&apos;t be able to play anything!&lt;/b&gt;</source>
         <translation>Ten que especificar aquí o executable do mplayer que quere que o smplayer empregue.&lt;br&gt;smplayer necesita polo menos a versión 1.0rc1 (recomendase a do svn).&lt;br&gt;&lt;b&gt;Como este parámetro o smplayer non vai poder funcionar!&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="585"/>
+        <location filename="../prefgeneral.cpp" line="595"/>
         <source>Screenshots folder</source>
         <translation>Cartafol de capturas de pantallas</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="588"/>
+        <location filename="../prefgeneral.cpp" line="598"/>
         <source>Here you can specify a folder where the screenshots taken by smplayer will be stored. If this field is empty the screenshot feature will be disabled.</source>
         <translation>Pode especificar aquí o cartafol onde quere gravar as capturas de pantallas que faga o smplayer. Se este campo está baleiro a opción de gravar capturas desactivarase. </translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="590"/>
+        <location filename="../prefgeneral.cpp" line="600"/>
         <source>Video output driver</source>
         <translation>Controlado da saída de vídeo</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="592"/>
+        <location filename="../prefgeneral.cpp" line="602"/>
         <source>Select the video output driver. Usually xv (linux) and directx (windows) provide the best performance.</source>
         <translation>Escolla o controlador de saída de vídeo. Habitualmente XV (Linux) e DirectX (Windows) ofrecen o mellor rendemento. </translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="594"/>
+        <location filename="../prefgeneral.cpp" line="604"/>
         <source>Audio output driver</source>
         <translation>Controlador de saída de son</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="595"/>
+        <location filename="../prefgeneral.cpp" line="605"/>
         <source>Select the audio output driver.</source>
         <translation>Escolla o controlador de saída de son.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="597"/>
+        <location filename="../prefgeneral.cpp" line="607"/>
         <source>Remember settings</source>
         <translation>Gravar as configuracións</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="600"/>
+        <location filename="../prefgeneral.cpp" line="610"/>
         <source>Usually smplayer will remember the settings for each file you play (audio track selected, volume, filters...). Uncheck this option if you don&apos;t like this feature.</source>
         <translation>O habitual é que SMPlayer recorde as configuracións de cada ficheiro que reproduce (pista de son escolluda, volume, filtros...). Desmarque esta iopción se quere desactivar esta opción. </translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="604"/>
+        <location filename="../prefgeneral.cpp" line="614"/>
         <source>If you check this option, smplayer will play all files from the beginning.</source>
         <translation>Se marca esta opción SMPlayer reproducirá tódolos ficheiros nada máis arrincar.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="716"/>
+        <location filename="../prefgeneral.cpp" line="731"/>
         <source>Preferred audio language</source>
         <translation>Lingua preferida do son</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="724"/>
+        <location filename="../prefgeneral.cpp" line="739"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Aquí pode escribir a súa lingua preferida para os fluxos de son. Cando se reproduce un medio con varios fluxos de son o SMPlayer intenta escoller a súa lingua preferida.&lt;br&gt;Esta opción só funciona con medios que ofrecen información sobre da lingua dos seus fluxos de son, coma os DVDs ou os ficheiros mkv.&lt;br&gt;Este campo acepta expresións regulares. Por exemplo &lt;b&gt;gl|glg&lt;/b&gt; escolle a pista de son que cadre con &lt;i&gt;gl&lt;/i&gt; ou &lt;i&gt;glg&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="726"/>
+        <location filename="../prefgeneral.cpp" line="741"/>
         <source>Preferred subtitle language</source>
         <translation>Lingua dos subtítulos preferida</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="734"/>
+        <location filename="../prefgeneral.cpp" line="749"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Aquí pode escribir a súa lingua preferida para os subtítulos. Cando se reproduce un medio con varios subtítulos o SMPlayer intenta escoller a súa lingua preferida.&lt;br&gt;Esta opción só funciona con medios que ofrecen información sobre da lingua dos seus subtítulos, coma os DVDs ou os ficheiros mkv.&lt;br&gt;Este campo acepta expresións regulares. Por exemplo &lt;b&gt;gl|glg&lt;/b&gt; escolle a pista de son que cadre con &lt;i&gt;gl&lt;/i&gt; ou &lt;i&gt;glg&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="618"/>
+        <location filename="../prefgeneral.cpp" line="645"/>
         <source>Software video equalizer</source>
         <translation>Software de ecualización de vídeo</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="622"/>
+        <location filename="../prefgeneral.cpp" line="649"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>Pode marcar esta opción se a ecualización de vídeo se a súa tarxeta gráfica non atura a ecualización de video ou se o controlador de vídeo de saída  tampouco o fai.&lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; esta opción pode ser incompatible con algúns controladores de saída de vídeo.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="654"/>
+        <location filename="../prefgeneral.cpp" line="669"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>Se marca esta opción tódolos vídeos comezaran a se reproducir en modo de pantalla completa.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="659"/>
+        <location filename="../prefgeneral.cpp" line="674"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option works only in X11 and Windows.</source>
         <translation>Marque esta opción se quere desactivar o salvapantallas mentras se reproducen ficheiros.&lt;br&gt; Volverase a a activar o salvapantallas cando remate de reproducir o ficheiro.&lt;br&gt;&lt;b&gt;Nota&lt;b&gt; Esta opción só funciona en X11 e Windows.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="663"/>
+        <location filename="../prefgeneral.cpp" line="678"/>
         <source>Software volume control</source>
         <translation>Software de control de volume</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="665"/>
+        <location filename="../prefgeneral.cpp" line="680"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>Marque esta opción se quere empregar o mesturador de son, no canto de usar o mesturador da tarxeta de xon.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="627"/>
+        <location filename="../prefgeneral.cpp" line="632"/>
         <source>Postprocessing quality</source>
         <translation>Calidade postprocesado</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="630"/>
+        <location filename="../prefgeneral.cpp" line="635"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>Altera dinamicamente os niveis de postprocesado dependento do espazo dispoñible na CPU. O número especifica o máximo nivel empregado. Xeralmente, pode empregar un número maior.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="683"/>
+        <location filename="../prefgeneral.cpp" line="698"/>
         <source>Change volume</source>
         <translation>Cambiar volume</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="686"/>
+        <location filename="../prefgeneral.cpp" line="701"/>
         <source>If checked, SMPlayer will remember the volume for every file and will restore it when played again. For new files the default volume will be used.</source>
         <translation>Se marca esta opción, o SMPlayer recordará o volumen para cada ficheiro e restaurarao cando se repoduza de novo. Para ficheiros novos emprégase o volume predefinido.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="664"/>
+        <location filename="../prefgeneral.ui" line="819"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="534"/>
+        <location filename="../prefgeneral.ui" line="673"/>
         <source>&amp;Change volume on every file</source>
         <translation>&amp;Cambiar volume para cada ficheiro</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="50"/>
+        <location filename="../prefgeneral.ui" line="77"/>
         <source>Select the &amp;MPlayer executable:</source>
         <translation>Escolla o exectuable &amp;MPlayer:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="66"/>
+        <location filename="../prefgeneral.ui" line="93"/>
         <source>&amp;Folder for storing screenshots:</source>
         <translation>&amp;Cartafol para gravar as capturas:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="110"/>
+        <location filename="../prefgeneral.ui" line="149"/>
         <source>V&amp;ideo:</source>
         <translation>Ví&amp;deo:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="855"/>
+        <location filename="../prefgeneral.ui" line="1047"/>
         <source>&amp;Audio:</source>
         <translation>&amp;Audio:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="237"/>
+        <location filename="../prefgeneral.ui" line="282"/>
         <source>&amp;Remember settings for all files (audio track, subtitles...)</source>
         <translation>&amp;Lembrar configuracións para tódolos ficheiros (pistas de audio, subtítulos...)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="874"/>
+        <location filename="../prefgeneral.ui" line="1066"/>
         <source>Su&amp;btitles:</source>
         <translation>Sub&amp;títulos:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="325"/>
+        <location filename="../prefgeneral.ui" line="366"/>
         <source>&amp;Quality:</source>
         <translation>&amp;Calidade:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="416"/>
+        <location filename="../prefgeneral.ui" line="528"/>
         <source>Start videos in &amp;fullscreen</source>
         <translation>Comezar vídes en &amp;pantalla completa</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="423"/>
+        <location filename="../prefgeneral.ui" line="535"/>
         <source>Disable &amp;screensaver</source>
         <translation>Desactivar &amp;salvapantallas</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="635"/>
+        <location filename="../prefgeneral.ui" line="790"/>
         <source>&amp;Default volume:</source>
         <translation>&amp;Volume Predefinido:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="476"/>
+        <location filename="../prefgeneral.ui" line="615"/>
         <source>Use s&amp;oftware volume control</source>
         <translation>Empregar Controlde Volume por &amp;Software</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="499"/>
+        <location filename="../prefgeneral.ui" line="638"/>
         <source>Ma&amp;x. Amplification:</source>
         <translation>Amplificación &amp;Máx.:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="683"/>
+        <location filename="../prefgeneral.ui" line="838"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
         <translation>&amp;AC3/DTS com pasaxe S/PDIF</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="636"/>
+        <location filename="../prefgeneral.cpp" line="651"/>
         <source>Direct rendering</source>
         <translation>Renderizado directo</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="639"/>
+        <location filename="../prefgeneral.cpp" line="654"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>Se marca esta opción, activase o procesado directo (non tódolas saídas de codec e audio soportan a opción)&lt;br&gt;&lt;b&gt;ADVERTENCIA:&lt;/b&gt; Pode causa-la corrupción de OSD/SUB!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="641"/>
+        <location filename="../prefgeneral.cpp" line="656"/>
         <source>Double buffering</source>
         <translation>Dobre buffering</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="395"/>
+        <location filename="../prefgeneral.ui" line="500"/>
         <source>D&amp;irect rendering</source>
         <translation>Renderizado &amp;Directo</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="402"/>
+        <location filename="../prefgeneral.ui" line="507"/>
         <source>Dou&amp;ble buffering</source>
         <translation>Dob&amp;re Buffering</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="644"/>
+        <location filename="../prefgeneral.cpp" line="659"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>O dobre buffer soluciona as fluctuación xa que alamacena dous fotogramas na memoria e mostra un namentres descodifica outro. Como se desactive ha afectar negativamente ó OSD, mais habitualmente elimina as oscilacións OSD.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="305"/>
+        <location filename="../prefgeneral.ui" line="346"/>
         <source>&amp;Enable postprocessing by default</source>
         <translation>&amp;Activar postprocesado por defecto</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="527"/>
+        <location filename="../prefgeneral.ui" line="666"/>
         <source>Volume &amp;normalization by default</source>
         <translation>&amp;Normalización de volume por defecto</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="606"/>
+        <location filename="../prefgeneral.cpp" line="616"/>
         <source>Close when finished</source>
         <translation>Pechar ó rematar</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="608"/>
+        <location filename="../prefgeneral.cpp" line="618"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>Se marca esta opción, a fiestra principal ha ser pechada automáticamente cando se remate de reproducir o ficheiro ou alista de reprodución que se estea a reproducir.</translation>
     </message>
@@ -3976,127 +3976,127 @@ As listas despregables poden ofrecer xa as expresións regulares para diferentes
         <translation>6 (5.1 Surround)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="698"/>
+        <location filename="../prefgeneral.ui" line="862"/>
         <source>C&amp;hannels by default:</source>
         <translation>&amp;Canles por defecto:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="254"/>
+        <location filename="../prefgeneral.ui" line="299"/>
         <source>&amp;Pause when minimized</source>
         <translation>&amp;Pausar ó minimizar</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="610"/>
+        <location filename="../prefgeneral.cpp" line="620"/>
         <source>Pause when minimized</source>
         <translation>Pausar ó minimizar</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="613"/>
+        <location filename="../prefgeneral.cpp" line="623"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, play will be resumed.</source>
         <translation>Se esta opción está activada, pausase o ficheiro cando a fiestra principal se agoche. Cando se restaura esta fiestra a reprodución avanza de novo.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="624"/>
+        <location filename="../prefgeneral.cpp" line="629"/>
         <source>Enable postprocessing by default</source>
         <translation>Activa-lo postprocesado por defecto</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="667"/>
+        <location filename="../prefgeneral.cpp" line="682"/>
         <source>Max. Amplification</source>
         <translation>Máx. Amplificación</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="677"/>
+        <location filename="../prefgeneral.cpp" line="692"/>
         <source>AC3/DTS pass-through S/PDIF</source>
         <translation>AC3/DTS oasaxe a S/PDIF</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="680"/>
+        <location filename="../prefgeneral.cpp" line="695"/>
         <source>Volume normalization by default</source>
         <translation>Normalización do volume por defecto</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="681"/>
+        <location filename="../prefgeneral.cpp" line="696"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>Maximiza o volume sen distorsionar o son.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="696"/>
+        <location filename="../prefgeneral.cpp" line="711"/>
         <source>Default volume</source>
         <translation>Volume por defecto</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="697"/>
+        <location filename="../prefgeneral.cpp" line="712"/>
         <source>Sets the initial volume that new files will use.</source>
         <translation>Define o volume inicial para novos ficheiros.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="699"/>
+        <location filename="../prefgeneral.cpp" line="714"/>
         <source>Channels by default</source>
         <translation>Canles por defecto</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="672"/>
+        <location filename="../prefgeneral.cpp" line="687"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>Establece o máximo nivel de amplificación, en tanto por cento (predefinido: 110). Un valor de 200 significa que está axustando o volume ó dobre do actual. Con valores por baixo de 100 veces o valor incial, que é o 100%, estará por debaixo do máximo, p.ex o OSD non se mostrará correctamente.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="678"/>
+        <location filename="../prefgeneral.cpp" line="693"/>
         <source>Uses hardware AC3 passthrough</source>
         <translation>Usar a pasaxe de software AC3</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="708"/>
+        <location filename="../prefgeneral.cpp" line="723"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. NOTE: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation>Solicita o número de reproducións por canle. MPlayer solicitalle ó descodificador que descodifique o audio en tantas canles coma se especificaran. Logo depende do descodificador cumprir coa petición. Normalmente só é importante esta opción cando se reproducen vídeos con audio AC3, coma os DVDs. Neste caso a liba52 realiza a descodificación por defecto e mestura correctamente o audio co número de canles que se pediu. NOTA: Esta opción só é respectada polos codecs (só AC3), filtros (surround) e controladores de audios (polo menos OSS).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="625"/>
+        <location filename="../prefgeneral.cpp" line="630"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>Empregarase postprocesado por defecto para os novos ficheiros abertos .</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="736"/>
+        <location filename="../prefgeneral.cpp" line="751"/>
         <source>Audio track</source>
         <translation>Pist de audio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="740"/>
+        <location filename="../prefgeneral.cpp" line="755"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Especifica a pista de audio que será empregada ó reproducir ficheiros. Se non existe a pista. logo usarase a primeira. &lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; a preferencia &lt;i&gt;&quot;lingua de audio preferida&quot;&lt;/i&gt; manda sobre desta opción. </translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="742"/>
+        <location filename="../prefgeneral.cpp" line="757"/>
         <source>Subtitle track</source>
         <translation>Pista de subtítulo</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="746"/>
+        <location filename="../prefgeneral.cpp" line="761"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Especifica a pista de subtitulos que se ha de empregar cando se reproduzan novos ficheiros. Se non existe a pista empregarase a primeira. &lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; a preferencia &lt;i&gt;&quot;lingua de audio preferida&quot;&lt;/i&gt; manda sobre desta opción. </translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="983"/>
+        <location filename="../prefgeneral.ui" line="1187"/>
         <source>Or choose a track number:</source>
         <translation>Ou escolla un número de pista:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="924"/>
+        <location filename="../prefgeneral.ui" line="1128"/>
         <source>Audi&amp;o:</source>
         <translation>Aaaau&amp;dio:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="890"/>
+        <location filename="../prefgeneral.ui" line="1082"/>
         <source>Preferred language:</source>
         <translation>Lingua preferido:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="788"/>
+        <location filename="../prefgeneral.ui" line="959"/>
         <source>Preferre&amp;d audio and subtitles</source>
         <translation>Audio e subtítulos &amp;preferidos</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="937"/>
+        <location filename="../prefgeneral.ui" line="1141"/>
         <source>&amp;Subtitle:</source>
         <translation>&amp;Subtítulo:</translation>
     </message>
@@ -4106,68 +4106,68 @@ As listas despregables poden ofrecer xa as expresións regulares para diferentes
         <translation>Pode introducir aquí a lingua preferida para o son e so subtítulos. Cando se reproduza un vídeo con múltiples audios e subtítulos SMPlayer ha intentar escoller o seu idioma preferido. Isto só funcionar con medio que ofrezan información sobre dos idiomas do audio ou os subtítulos, coma os DVDs ou ficheiros mkv.&lt;br&gt;Este campo acepta expresións regulares. Exemplo:&lt;b&gt;gl|glg&lt;/b&gt; escolla a pista se cadra con &lt;i&gt;gl&lt;/i&gt; ou &lt;i&gt;glg&lt;/i&gt;. </translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="800"/>
+        <location filename="../prefgeneral.ui" line="980"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="734"/>
+        <location filename="../prefgeneral.ui" line="907"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>Re&amp;producir en alta velocidade sen alterar a densidade</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="710"/>
+        <location filename="../prefgeneral.cpp" line="725"/>
         <source>High speed playback without altering pitch</source>
         <translation>Reproducir en alta velocidade sen alterar a densidade</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="712"/>
+        <location filename="../prefgeneral.cpp" line="727"/>
         <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
         <translation>Permite alterar a velocidade de reprodución sen altera-la densidade. É necesario o MPlayer dev-SVN-r24924.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="688"/>
+        <location filename="../prefgeneral.cpp" line="703"/>
         <source>Change volume just before playing</source>
         <translation>Cambia o volume xusto antes de empezar a reproducir</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="694"/>
+        <location filename="../prefgeneral.cpp" line="709"/>
         <source>If this option is checked the initial volume will be set by using the &lt;i&gt;-volume&lt;/i&gt; option in MPlayer.&lt;br&gt; &lt;b&gt;WARNING: THE OFFICIAL MPLAYER DOESN&apos;T HAVE THAT &lt;i&gt;-volume&lt;/i&gt; OPTION, YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON&apos;T PLAY ANYTHING.&lt;/b&gt;</source>
         <translation>Se esta opción está activada, o volume inicial establecese cando a opción &lt;i&gt;-volume&lt;/i&gt; do MPlayer.&lt;br&gt;&lt;b&gt;ADVERTENCIA: A versión oficial do MPlayer non ten a opción  &lt;i&gt;-volume&lt;/i&gt;, Necesita unha versión parcheada, do contrario MPLAYER FALLARÁ e non poderá reproducir nada.&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="278"/>
+        <location filename="../prefgeneral.ui" line="323"/>
         <source>&amp;Video</source>
         <translation>&amp;Vídeo</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="290"/>
+        <location filename="../prefgeneral.ui" line="493"/>
         <source>Use s&amp;oftware video equalizer</source>
         <translation>Empregar a ecualización por software de &amp;vídeo</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="444"/>
+        <location filename="../prefgeneral.ui" line="556"/>
         <source>A&amp;udio</source>
         <translation>&amp;Audio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="456"/>
+        <location filename="../prefgeneral.ui" line="577"/>
         <source>Volume</source>
         <translation>Volume</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="615"/>
+        <location filename="../prefgeneral.cpp" line="625"/>
         <source>Video</source>
         <translation>Vídeo</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="661"/>
+        <location filename="../prefgeneral.cpp" line="676"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="714"/>
+        <location filename="../prefgeneral.cpp" line="729"/>
         <source>Preferred audio and subtitles</source>
         <translation>Audio e subtítulos preferidos</translation>
     </message>
@@ -4202,93 +4202,108 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="358"/>
+        <location filename="../prefgeneral.ui" line="408"/>
         <source>Dei&amp;nterlace by default:</source>
         <translation>Desentre&amp;lazar por defecto:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="632"/>
+        <location filename="../prefgeneral.cpp" line="637"/>
         <source>Deinterlace by default</source>
         <translation>Desentralar por defecto</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="634"/>
+        <location filename="../prefgeneral.cpp" line="639"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation>Escolla o filtro para desentralazar os vídeos que se abran novos.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="602"/>
+        <location filename="../prefgeneral.cpp" line="612"/>
         <source>Remember time position</source>
         <translation>Lembrar a posición no tempo</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="230"/>
+        <location filename="../prefgeneral.ui" line="275"/>
         <source>Remember &amp;time position</source>
         <translation>Lembrar a &amp;posición no tempo</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="568"/>
+        <location filename="../prefgeneral.ui" line="716"/>
         <source>Change volume just before p&amp;laying</source>
         <translation>Cambia o vol&amp;ume antes de reproducir</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="233"/>
+        <location filename="../prefgeneral.cpp" line="235"/>
         <source>fast</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="229"/>
+        <location filename="../prefgeneral.cpp" line="231"/>
         <source>slow</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="226"/>
+        <location filename="../prefgeneral.cpp" line="228"/>
         <source>fastest</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="234"/>
+        <location filename="../prefgeneral.cpp" line="236"/>
         <source>fast - ATI cards</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="256"/>
+        <location filename="../prefgeneral.cpp" line="258"/>
         <source>User defined...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="646"/>
+        <location filename="../prefgeneral.cpp" line="661"/>
         <source>Draw video using slices</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="650"/>
+        <location filename="../prefgeneral.cpp" line="665"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="674"/>
+        <location filename="../prefgeneral.cpp" line="689"/>
         <source>Enable the audio equalizer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="675"/>
+        <location filename="../prefgeneral.cpp" line="690"/>
         <source>Check this option if you want to use the audio equalizer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="247"/>
+        <location filename="../prefgeneral.ui" line="292"/>
         <source>&amp;Close when finished playback</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="409"/>
+        <location filename="../prefgeneral.ui" line="514"/>
         <source>Dra&amp;w video using slices</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="676"/>
+        <location filename="../prefgeneral.ui" line="831"/>
         <source>&amp;Enable the audio equalizer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="641"/>
+        <source>Default zoom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="643"/>
+        <source>This option sets the default zoom which will be used for new videos.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="445"/>
+        <source>Default &amp;zoom:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
