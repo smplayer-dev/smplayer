@@ -24,6 +24,10 @@
 #include "inforeader.h"
 #include "preferences.h"
 
+#ifndef Q_OS_WIN
+#define USE_ALSA_DEVICES 1
+#endif
+
 class PrefGeneral : public PrefWidget, public Ui::PrefGeneral
 {
 	Q_OBJECT
@@ -153,6 +157,10 @@ protected slots:
 
 protected:
 	virtual void retranslateStrings();
+
+#if USE_ALSA_DEVICES
+	InfoList alsa_devices;
+#endif
 };
 
 #endif

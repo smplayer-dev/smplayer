@@ -213,6 +213,9 @@ unix {
   DEFINES += SHORTCUTS_PATH=$(SHORTCUTS_PATH)
   #DEFINES += NO_DEBUG_ON_CONSOLE
 
+  HEADERS += deviceinfo.h
+  SOURCES += deviceinfo.cpp
+
   #DEFINES += KDE_SUPPORT
   #INCLUDEPATH += /opt/kde3/include/
   #LIBS += -lkio -L/opt/kde3/lib/
