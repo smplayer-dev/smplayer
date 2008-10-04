@@ -116,6 +116,9 @@ protected:
 	void setInitialDeinterlace(int ID);
 	int initialDeinterlace();
 
+	void setInitialZoom(double v);
+	double initialZoom();
+
 	void setDirectRendering(bool b);
 	bool directRendering();
 

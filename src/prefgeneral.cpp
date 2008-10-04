@@ -143,6 +143,7 @@ void PrefGeneral::setData(Preferences * pref) {
 	setAmplification( pref->softvol_max );
 	setInitialPostprocessing( pref->initial_postprocessing );
 	setInitialDeinterlace( pref->initial_deinterlace );
+	setInitialZoom( pref->initial_panscan_factor );
 	setDirectRendering( pref->use_direct_rendering );
 	setDoubleBuffer( pref->use_double_buffer );
 	setUseSlices( pref->use_slices );
@@ -198,6 +199,7 @@ void PrefGeneral::getData(Preferences * pref) {
 	TEST_AND_SET(pref->softvol_max, amplification());
 	pref->initial_postprocessing = initialPostprocessing();
 	pref->initial_deinterlace = initialDeinterlace();
+	pref->initial_panscan_factor = initialZoom();
 	TEST_AND_SET(pref->use_direct_rendering, directRendering());
 	TEST_AND_SET(pref->use_double_buffer, doubleBuffer());
 	TEST_AND_SET(pref->use_slices, useSlices());
@@ -450,6 +452,14 @@ int PrefGeneral::initialDeinterlace() {
 	}
 }
 
+void PrefGeneral::setInitialZoom(double v) {
+	zoom_spin->setValue(v);
+}
+
+double PrefGeneral::initialZoom() {
+	return zoom_spin->value();
+}
+
 void PrefGeneral::setDirectRendering(bool b) {
 	direct_rendering_check->setChecked(b);
 }
@@ -615,11 +625,6 @@ void PrefGeneral::createHelp() {
 	addSectionTitle(tr("Video"));
 
 	// Video tab
-	setWhatsThis(eq2_check, tr("Software video equalizer"),
-		tr("You can check this option if video equalizer is not supported by "
-           "your graphic card or the selected video output driver.<br>"
-           "<b>Note:</b> this option can be incompatible "
-           "with some video output drivers.") );
 
 	setWhatsThis(postprocessing_check, tr("Enable postprocessing by default"),
 		tr("Postprocessing will be used by default on new opened files.") );
@@ -632,6 +637,16 @@ void PrefGeneral::createHelp() {
 	setWhatsThis(deinterlace_combo, tr("Deinterlace by default"),
         tr("Select the deinterlace filter that you want to be used for new "
            "videos opened.") );
+
+	setWhatsThis(zoom_spin, tr("Default zoom"),
+		tr("This option sets the default zoom which will be used for "
+           "new videos.") );
+
+	setWhatsThis(eq2_check, tr("Software video equalizer"),
+		tr("You can check this option if video equalizer is not supported by "
+           "your graphic card or the selected video output driver.<br>"
+           "<b>Note:</b> this option can be incompatible "
+           "with some video output drivers.") );
 
 	setWhatsThis(direct_rendering_check, tr("Direct rendering"),
 		tr("If checked, turns on direct rendering (not supported by all "

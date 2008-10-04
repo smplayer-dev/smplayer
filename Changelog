@@ -1,5 +1,8 @@
 [b]Version 0.6.4[/b]:
 
+(2008-10-03)
+ * Added an option in Preferences->General->Video to set the default zoom.
+
 (2008-10-02)
  * Applied (with some changes) the patch to add support for enca, by
    Stanislav Maslovski <s_i_m@users.sourceforge.net>.
