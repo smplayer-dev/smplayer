@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -4318,17 +4319,17 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefgeneral.cpp" line="641"/>
         <source>Default zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Domyślny zoom</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="643"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcja ta ustawia domyślnie zoom dla nowych plików wideo.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="445"/>
         <source>Default &amp;zoom:</source>
-        <translation type="unfinished"></translation>
+        <translation>Domyślny &amp;zoom:</translation>
     </message>
 </context>
 <context>
@@ -5620,37 +5621,37 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefsubtitles.cpp" line="333"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz kodowanie, które zostanie użyte jako domyślne dla plików napisów.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="335"/>
         <source>Try to autodetect for this language</source>
-        <translation type="unfinished"></translation>
+        <translation>Spróbuj autodetekcji dla tego języka</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="340"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli opcja ta jest zaznaczona, kodowanie dla ustalonych napisów zostanie wykryte automatycznie. Gdy autodetekcja nie powiedzie się, kodowanie powróci do domyślnego. Opcja ta wymaga MPlayera kompilowanego z obsługą ENCA.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="342"/>
         <source>Subtitle language</source>
-        <translation type="unfinished"></translation>
+        <translation>Język napisów</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="344"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz język, dla którego chcesz aby kodowanie zostało wykryte automatycznie.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="141"/>
         <source>Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Kodowanie</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="213"/>
         <source>Try to a&amp;utodetect for this language:</source>
-        <translation type="unfinished"></translation>
+        <translation>Spróbuj &amp;autodetekcji dla tego języka:</translation>
     </message>
 </context>
 <context>
