@@ -23,6 +23,10 @@
 #include "images.h"
 #include "mediasettings.h"
 
+#if USE_ALSA_DEVICES
+#include "deviceinfo.h"
+#endif
+
 PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 	: PrefWidget(parent, f )
 {
@@ -30,6 +34,10 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 
 	mplayerbin_edit->setDialogType(FileChooser::GetFileName);
 	screenshot_edit->setDialogType(FileChooser::GetDirectory);
+
+#if USE_ALSA_DEVICES
+	alsa_devices = DeviceInfo::alsaDevices();
+#endif
 
 	// Read driver info from InfoReader:
 	InfoReader * i = InfoReader::obj();
@@ -252,8 +260,18 @@ void PrefGeneral::setDrivers(InfoList vo_list, InfoList ao_list) {
 	}
 	vo_combo->addItem( tr("User defined..."), "user_defined" );
 
+	QString ao;
 	for ( int n = 0; n < ao_list.count(); n++) {
-		ao_combo->addItem( ao_list[n].name(), ao_list[n].name() );
+		ao = ao_list[n].name();
+		ao_combo->addItem( ao, ao );
+#if USE_ALSA_DEVICES
+		if ((ao == "alsa") && (!alsa_devices.isEmpty())) {
+			for (int n=0; n < alsa_devices.count(); n++) {
+				ao_combo->addItem( "alsa (" + alsa_devices[n].name() + " - " + alsa_devices[n].desc() + ")", 
+                                   "alsa:device=hw=" + alsa_devices[n].name() );
+			}
+		}
+#endif
 	}
 	ao_combo->addItem( tr("User defined..."), "user_defined" );
 }
