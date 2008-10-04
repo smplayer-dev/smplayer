@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="es">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -4315,17 +4316,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="641"/>
         <source>Default zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoom por defecto</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="643"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opción establece el zoom por defecto que se usará para los nuevos vídeos.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="445"/>
         <source>Default &amp;zoom:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zoom por defecto:</translation>
     </message>
 </context>
 <context>
