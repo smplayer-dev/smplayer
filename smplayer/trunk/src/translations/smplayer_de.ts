@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -4321,17 +4322,17 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="641"/>
         <source>Default zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoom Standard</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="643"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Diese Option setzt den Standard Zoom, der bei neuen Videos angewendet wird.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="445"/>
         <source>Default &amp;zoom:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Standard Zoom:</translation>
     </message>
 </context>
 <context>
