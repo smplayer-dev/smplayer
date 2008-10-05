@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -285,12 +286,12 @@
     <message>
         <location filename="../about.cpp" line="186"/>
         <source>Kurdish</source>
-        <translation type="unfinished">Курдский</translation>
+        <translation>Курдский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="187"/>
         <source>Galician</source>
-        <translation type="unfinished">Галийский</translation>
+        <translation>Галийский</translation>
     </message>
 </context>
 <context>
@@ -1398,17 +1399,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1325"/>
         <source>Scree&amp;n</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Экран</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1370"/>
         <source>&amp;Default</source>
-        <translation type="unfinished"></translation>
+        <translation>По &amp;умолчанию</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1148"/>
         <source>Mirr&amp;or image</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Зеркальное изображение</translation>
     </message>
 </context>
 <context>
@@ -3509,17 +3510,17 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="374"/>
         <source>Rebuild index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>Перестроить индекс, если необходимо</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="379"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
-        <translation type="unfinished">Перестраивает индекс в файлах, в которых индекс не найден, позволяя перематывать их. Полезно для недогруженных/неполных  или плохо созданных файлов. Опция работает  только если мультимедиа поддерживает перемотку (т.е. не с stdin, pipe, и др). Примечание: создание индекса может занять некоторое время.</translation>
+        <translation>Перестраивает индекс в файлах, в которых индекс не найден, позволяя перематывать их. Полезно для недогруженных/неполных  или плохо созданных файлов. Опция работает  только если мультимедиа поддерживает перемотку (т.е. не с stdin, pipe, и др). Примечание: создание индекса может занять некоторое время.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="138"/>
         <source>Rebuild &amp;index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>Перестроить &amp;индекс, если необходимо</translation>
     </message>
 </context>
 <context>
@@ -4244,62 +4245,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="661"/>
         <source>Draw video using slices</source>
-        <translation type="unfinished"></translation>
+        <translation>Отрисовывать видео с использованием слоёв</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="665"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Включает/отключает отрисовку видео слоями/полосами по 16-пикселов высотой, вместо отрисовки целого кадра за один проход. Может быть быстрее или медленнее, в зависимости от видео карты и доступного кеша. Полезно только с кодеками libmpeg2 и libavcodec.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="514"/>
         <source>Dra&amp;w video using slices</source>
-        <translation type="unfinished"></translation>
+        <translation>Отри&amp;совывать видео с использованием слоёв</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="292"/>
         <source>&amp;Close when finished playback</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Закрыть по окончании воспроизведения</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="235"/>
         <source>fast</source>
-        <translation type="unfinished"></translation>
+        <translation>быстро</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="231"/>
         <source>slow</source>
-        <translation type="unfinished"></translation>
+        <translation>медленно</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="228"/>
         <source>fastest</source>
-        <translation type="unfinished"></translation>
+        <translation>максимально быстро</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="236"/>
         <source>fast - ATI cards</source>
-        <translation type="unfinished"></translation>
+        <translation>быстро - видеокарты ATI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="258"/>
         <source>User defined...</source>
-        <translation type="unfinished"></translation>
+        <translation>Определено пользователем...</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="641"/>
         <source>Default zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Увеличенние по умолчанию</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="643"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Эта опция устанавливает увеличение (зум), который будет использован по умолчанию для новых видеофайлов.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="445"/>
         <source>Default &amp;zoom:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Увеличенние по умолчанию</translation>
     </message>
 </context>
 <context>
@@ -5591,37 +5592,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="333"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите кодировку, которая будет использована для файлов субтитров по умолчанию.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="335"/>
         <source>Try to autodetect for this language</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматически определить для языка</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="340"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если опция отмечена, будет произведена попытка автоматически определить кодировку для указанного языка. При ошибке будет использована кодировка по умолчанию. Опция требует MPlayer, скомпилированный с поддержкой ENCA.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="342"/>
         <source>Subtitle language</source>
-        <translation type="unfinished"></translation>
+        <translation>Язык субтитров</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="344"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите язык, для которого будет производиться автоматическое определение кодировки субтитров.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="141"/>
         <source>Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Кодировка</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="213"/>
         <source>Try to a&amp;utodetect for this language:</source>
-        <translation type="unfinished"></translation>
+        <translation>А&amp;втоматически определить для языка</translation>
     </message>
 </context>
 <context>
