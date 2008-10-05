@@ -1,5 +1,9 @@
 [b]Version 0.6.4[/b]:
 
+(2008-10-04)
+ * (Linux) Now it's possible to choose the audio device to be used with alsa.
+   It requires the application "aplay" to be installed.
+
 (2008-10-03)
  * Added an option in Preferences->General->Video to set the default zoom.
 
