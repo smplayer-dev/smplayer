@@ -24,8 +24,19 @@
 class DeviceInfo {
 
 public:
+#ifdef Q_OS_WIN
+	static InfoList dsoundDevices();
+	static InfoList displayDevices();
+#else
 	static InfoList alsaDevices();
+#endif
 
+protected:
+#ifdef Q_OS_WIN
+	enum DeviceType { Sound = 0, Display = 1 };
+
+	static InfoList retrieveDevices(DeviceType type);
+#endif
 };
 
 #endif

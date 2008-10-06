@@ -37,6 +37,7 @@ HEADERS	+= guiconfig.h \
 	corelib/preferences.h \
 	images.h \
 	inforeader.h \
+	deviceinfo.h \
 	recents.h \
 	corelib/core.h \
 	logwindow.h \
@@ -112,6 +113,7 @@ SOURCES	+= version.cpp \
 	corelib/preferences.cpp \
 	images.cpp \
 	inforeader.cpp \
+	deviceinfo.cpp \
 	recents.cpp \
 	corelib/core.cpp \
 	logwindow.cpp \
@@ -212,9 +214,6 @@ unix {
   DEFINES += THEMES_PATH=$(THEMES_PATH)
   DEFINES += SHORTCUTS_PATH=$(SHORTCUTS_PATH)
   #DEFINES += NO_DEBUG_ON_CONSOLE
-
-  HEADERS += deviceinfo.h
-  SOURCES += deviceinfo.cpp
 
   #DEFINES += KDE_SUPPORT
   #INCLUDEPATH += /opt/kde3/include/

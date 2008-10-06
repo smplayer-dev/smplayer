@@ -20,6 +20,49 @@
 #include <QProcess>
 #include <QFile>
 
+#ifdef Q_OS_WIN
+
+InfoList DeviceInfo::retrieveDevices(DeviceType type) {
+	qDebug("DeviceInfo::retrieveDevices: %d", type);
+	
+	InfoList l;
+	QRegExp rx_device("^(\\d+): (.*)");
+	
+	if (QFile::exists("dxlist.exe")) {
+		QProcess p;
+		p.setProcessChannelMode( QProcess::MergedChannels );
+		QStringList arg;
+		if (type == Sound) arg << "-s"; else arg << "-d";
+		p.start("dxlist", arg);
+
+		if (p.waitForFinished()) {
+			QByteArray line;
+			while (p.canReadLine()) {
+				line = p.readLine().trimmed();
+				qDebug("DeviceInfo::retrieveDevices: '%s'", line.constData());
+				if ( rx_device.indexIn(line) > -1 ) {
+					QString name = rx_device.cap(1);
+					QString desc = rx_device.cap(2);
+					qDebug("DeviceInfo::retrieveDevices: found device: '%s' '%s'", name.toUtf8().constData(), desc.toUtf8().constData());
+					l.append( InfoData(name, desc) );
+				}
+			}
+		}
+	}
+	
+	return l;
+}
+
+InfoList DeviceInfo::dsoundDevices() { 
+	return retrieveDevices(Sound);
+}
+
+InfoList DeviceInfo::displayDevices() {
+	return retrieveDevices(Display);
+}
+
+#else
+
 InfoList DeviceInfo::alsaDevices() {
 	qDebug("DeviceInfo::alsaDevices");
 
@@ -52,3 +95,4 @@ InfoList DeviceInfo::alsaDevices() {
 	return l;
 }
 
+#endif
