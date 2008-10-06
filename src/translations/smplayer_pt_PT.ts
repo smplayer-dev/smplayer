@@ -15,7 +15,7 @@
     <message>
         <location filename="../about.cpp" line="99"/>
         <source>Some people have helped with their contributions:</source>
-        <translation>Algumas pessoas que contribuiram:</translation>
+        <translation>Algumas pessoas que ajudaram:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="100"/>
@@ -45,7 +45,7 @@
     <message>
         <location filename="../about.cpp" line="105"/>
         <source>patch for file associations</source>
-        <translation>caminho para associação de ficheiros</translation>
+        <translation>patch para associação de ficheiros</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="142"/>
@@ -190,7 +190,7 @@
     <message>
         <location filename="../about.ui" line="13"/>
         <source>About SMPlayer</source>
-        <translation>Acerca do SMPlayer</translation>
+        <translation>Sobre SMPlayer</translation>
     </message>
     <message>
         <location filename="../about.ui" line="32"/>
@@ -270,7 +270,7 @@
     <message>
         <location filename="../about.cpp" line="60"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
-        <translation>Using Qt %1 (compilado com Qt %2)</translation>
+        <translation>Usando Qt %1 (compilado com Qt %2)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="184"/>
@@ -355,12 +355,12 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../actionseditor.cpp" line="441"/>
         <source>The file couldn&apos;t be saved</source>
-        <translation>O ficheiro não pode ser guardado</translation>
+        <translation>O ficheiro não pôde ser guardado</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="475"/>
         <source>The file couldn&apos;t be loaded</source>
-        <translation>O ficheiro não pode ser carregado</translation>
+        <translation>O ficheiro não pôde ser carregado</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="209"/>
@@ -438,12 +438,12 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="87"/>
         <source>&amp;Set as default values</source>
-        <translation>&amp;Usar como valores por defeito</translation>
+        <translation>&amp;Definir como valores padrão</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="91"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation>Usa os valores actuais pré-definiçãos para os novos vídeos.</translation>
+        <translation>Usar os valores actuais como padrão para os novos vídeos.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="93"/>
@@ -458,7 +458,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="112"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation>Os valores actuais foram guardados para serem usados por defeito.</translation>
+        <translation>Os valores actuais foram guardados para serem usados como padrão.</translation>
     </message>
 </context>
 <context>
@@ -676,7 +676,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1160"/>
         <source>&amp;Autodetect phase</source>
-        <translation>&amp;Autodetecção de fase</translation>
+        <translation>&amp;Auto detecção de fase</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1161"/>
@@ -886,12 +886,12 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1223"/>
         <source>About &amp;Qt</source>
-        <translation>Acerca de &amp;Qt</translation>
+        <translation>Sobre &amp;Qt</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1224"/>
         <source>About &amp;SMPlayer</source>
-        <translation>Acerca de &amp;SMPlayer</translation>
+        <translation>Sobre &amp;SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2439"/>
@@ -948,7 +948,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="3010"/>
         <source>About Qt</source>
-        <translation>Acerca de Qt</translation>
+        <translation>Sobre Qt</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3390"/>
@@ -1348,7 +1348,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="1170"/>
         <source>E&amp;qualizer</source>
-        <translation>E&amp;<byte value="x9"/>qualizador</translation>
+        <translation>E&amp;qualizador</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1265"/>
@@ -1533,7 +1533,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../errordialog.cpp" line="55"/>
         <source>Hide log</source>
-        <translation>Esconder log</translation>
+        <translation>Ocultar log</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="87"/>
@@ -1581,7 +1581,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../filepropertiesdialog.ui" line="229"/>
         <source>&amp;Reset</source>
-        <translation>&amp;Redifinir</translation>
+        <translation>&amp;Redefinir</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="115"/>
@@ -1887,7 +1887,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../infofile.cpp" line="113"/>
         <source>Bitrate</source>
-        <translation>Bitrate</translation>
+        <translation>Taxa de bits</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="113"/>
@@ -1912,7 +1912,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../infofile.cpp" line="114"/>
         <source>Rate</source>
-        <translation>Qualidade</translation>
+        <translation>Taxa</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="114"/>
@@ -3067,7 +3067,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../playlist.cpp" line="306"/>
         <source>Add &amp;current file</source>
-        <translation>Adicionar ficheiro &amp;actual</translation>
+        <translation>Adicionar ficheiro a&amp;ctual</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="307"/>
@@ -3140,7 +3140,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../playlistpreferences.cpp" line="39"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation>Marque esta opção para adicionar à lista de reprodução as informações constantes do ficheiro. Isto permiter-lhe-á mostrar o título ( se existente) e a duração dos ficheiros. Caso contrário, esta informação não estará disponível. Tenha em conta que esta operação pode ser demorada, principalmente se adicionar muitos ficheiros.</translation>
+        <translation>Marque esta opção para adicionar à lista de reprodução as informações constantes do ficheiro. Isto permiter-lhe-á mostrar o título (se existente) e a duração dos ficheiros. Caso contrário, esta informação não estará disponível. Tenha em conta que esta operação pode ser demorada, principalmente se adicionar muitos ficheiros.</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="39"/>
@@ -4291,17 +4291,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="641"/>
         <source>Default zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoom Padrão</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="643"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opção define o zomm padrão para os novos vídeos.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="445"/>
         <source>Default &amp;zoom:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zoom Padrão:</translation>
     </message>
 </context>
 <context>
@@ -5498,7 +5498,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="665"/>
         <source>Default sc&amp;ale for SSA/ASS subtitles:</source>
-        <translation>Escala p&amp;adrão para legendas SSA/ASS</translation>
+        <translation>Escala p&amp;adrão para legendas SSA/ASS:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="708"/>
@@ -5593,37 +5593,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="333"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccione a codificação padrão a usar em ficheiros de legendas.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="335"/>
         <source>Try to autodetect for this language</source>
-        <translation type="unfinished"></translation>
+        <translation>Tentar detecção automática para este idioma</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="340"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se activar esta opção, a codificação das legendas será automaticamente detectada para o idioma escolhido, voltando para a codificação padrão se esta falhar. Esta opção requer que o MPlayer tenha sido compilado com suporte ENCA.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="342"/>
         <source>Subtitle language</source>
-        <translation type="unfinished"></translation>
+        <translation>Idioma das Legendas</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="344"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccione o idioma para o qual a codificação será detectada automáticamente.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="141"/>
         <source>Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Codificação</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="213"/>
         <source>Try to a&amp;utodetect for this language:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tentar detecção a&amp;utomática para este idioma:</translation>
     </message>
 </context>
 <context>
