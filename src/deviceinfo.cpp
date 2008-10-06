@@ -29,6 +29,7 @@ InfoList DeviceInfo::alsaDevices() {
 	if (QFile::exists("/usr/bin/aplay")) {
 		QProcess p;
 		p.setProcessChannelMode( QProcess::MergedChannels );
+		p.setEnvironment( QStringList() << "LC_ALL=C" );
 		p.start("/usr/bin/aplay", QStringList() << "-l");
 
 		if (p.waitForFinished()) {
