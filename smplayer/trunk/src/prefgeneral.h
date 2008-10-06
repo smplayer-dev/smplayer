@@ -24,7 +24,9 @@
 #include "inforeader.h"
 #include "preferences.h"
 
-#ifndef Q_OS_WIN
+#ifdef Q_OS_WIN
+#define USE_DSOUND_DEVICES 1
+#else
 #define USE_ALSA_DEVICES 1
 #endif
 
@@ -159,6 +161,10 @@ protected:
 
 	InfoList vo_list;
 	InfoList ao_list;
+	
+#if USE_DSOUND_DEVICES
+	InfoList dsound_devices;
+#endif
 
 #if USE_ALSA_DEVICES
 	InfoList alsa_devices;

@@ -23,7 +23,7 @@
 #include "images.h"
 #include "mediasettings.h"
 
-#if USE_ALSA_DEVICES
+#if USE_ALSA_DEVICES || USE_DSOUND_DEVICES
 #include "deviceinfo.h"
 #endif
 
@@ -39,6 +39,10 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 	InfoReader * i = InfoReader::obj();
 	vo_list = i->voList();
 	ao_list = i->aoList();
+
+#if USE_DSOUND_DEVICES
+	dsound_devices = DeviceInfo::dsoundDevices();
+#endif
 
 #if USE_ALSA_DEVICES
 	alsa_devices = DeviceInfo::alsaDevices();
@@ -278,6 +282,14 @@ void PrefGeneral::updateDriverCombos() {
 			for (int n=0; n < alsa_devices.count(); n++) {
 				ao_combo->addItem( "alsa (" + alsa_devices[n].name() + " - " + alsa_devices[n].desc() + ")", 
                                    "alsa:device=hw=" + alsa_devices[n].name() );
+			}
+		}
+#endif
+#if USE_DSOUND_DEVICES
+		if ((ao == "dsound") && (!dsound_devices.isEmpty())) {
+			for (int n=0; n < dsound_devices.count(); n++) {
+				ao_combo->addItem( "dsound (" + dsound_devices[n].name() + " - " + dsound_devices[n].desc() + ")", 
+                                   "dsound:device=" + dsound_devices[n].name() );
 			}
 		}
 #endif
