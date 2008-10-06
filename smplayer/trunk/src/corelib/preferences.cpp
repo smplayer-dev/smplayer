@@ -386,6 +386,7 @@ void Preferences::reset() {
 	floating_control_margin = 0;
 	floating_control_width = 100; //100 %
 	floating_control_animated = true;
+	floating_display_in_compact_mode = false;
 }
 
 #ifndef NO_USE_INI_FILES
@@ -723,6 +724,7 @@ void Preferences::save() {
 	set->setValue("margin", floating_control_margin);
 	set->setValue("width", floating_control_width);
 	set->setValue("animated", floating_control_animated);
+	set->setValue("display_in_compact_mode", floating_display_in_compact_mode);
 	set->endGroup(); // floating_control
 
 	set->sync();
@@ -1065,6 +1067,7 @@ void Preferences::load() {
 	floating_control_margin = set->value("margin", floating_control_margin).toInt();
 	floating_control_width = set->value("width", floating_control_width).toInt();
 	floating_control_animated = set->value("animated", floating_control_animated).toBool();
+	floating_display_in_compact_mode = set->value("display_in_compact_mode", floating_display_in_compact_mode).toBool();
 	set->endGroup(); // floating_control
 
 	/*

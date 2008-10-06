@@ -3701,7 +3701,9 @@ void BaseGui::exitFullscreenIfNeeded() {
 void BaseGui::checkMousePos(QPoint p) {
 	//qDebug("BaseGui::checkMousePos: %d, %d", p.x(), p.y());
 
-	if (!pref->fullscreen) return;
+	bool compact = (pref->floating_display_in_compact_mode && pref->compact_mode);
+
+	if (!pref->fullscreen && !compact) return;
 
 	#define MARGIN 70
 
