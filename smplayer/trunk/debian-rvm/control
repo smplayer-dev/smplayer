@@ -8,7 +8,7 @@ Standards-Version: 3.7.2
 Package: smplayer
 Architecture: any
 Depends: ${shlibs:Depends}, mplayer | mplayer-nogui
-Recommends: smplayer-themes
+Recommends: smplayer-themes, alsa-utils
 Replaces: smplayer-translations
 Provides: smplayer-translations
 Description: A great front-end for MPlayer
