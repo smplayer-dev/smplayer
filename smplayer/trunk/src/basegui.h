@@ -495,10 +495,6 @@ protected:
 	// Screen Group
 	MyActionGroup * screenGroup;
 	MyAction * screenDefaultAct;
-	MyAction * screen1Act;
-	MyAction * screen2Act;
-	MyAction * screen3Act;
-	MyAction * screen4Act;
 #endif
 
 	// Audio Channels Action Group
