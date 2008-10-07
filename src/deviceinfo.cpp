@@ -22,10 +22,10 @@
 
 #ifdef Q_OS_WIN
 
-InfoList DeviceInfo::retrieveDevices(DeviceType type) {
+DeviceList DeviceInfo::retrieveDevices(DeviceType type) {
 	qDebug("DeviceInfo::retrieveDevices: %d", type);
 	
-	InfoList l;
+	DeviceList l;
 	QRegExp rx_device("^(\\d+): (.*)");
 	
 	if (QFile::exists("dxlist.exe")) {
@@ -41,10 +41,10 @@ InfoList DeviceInfo::retrieveDevices(DeviceType type) {
 				line = p.readLine().trimmed();
 				qDebug("DeviceInfo::retrieveDevices: '%s'", line.constData());
 				if ( rx_device.indexIn(line) > -1 ) {
-					QString name = rx_device.cap(1);
+					int id = rx_device.cap(1).toInt();
 					QString desc = rx_device.cap(2);
-					qDebug("DeviceInfo::retrieveDevices: found device: '%s' '%s'", name.toUtf8().constData(), desc.toUtf8().constData());
-					l.append( InfoData(name, desc) );
+					qDebug("DeviceInfo::retrieveDevices: found device: '%d' '%s'", id, desc.toUtf8().constData());
+					l.append( DeviceData(id, desc) );
 				}
 			}
 		}
@@ -53,20 +53,20 @@ InfoList DeviceInfo::retrieveDevices(DeviceType type) {
 	return l;
 }
 
-InfoList DeviceInfo::dsoundDevices() { 
+DeviceList DeviceInfo::dsoundDevices() { 
 	return retrieveDevices(Sound);
 }
 
-InfoList DeviceInfo::displayDevices() {
+DeviceList DeviceInfo::displayDevices() {
 	return retrieveDevices(Display);
 }
 
 #else
 
-InfoList DeviceInfo::alsaDevices() {
+DeviceList DeviceInfo::alsaDevices() {
 	qDebug("DeviceInfo::alsaDevices");
 
-	InfoList l;
+	DeviceList l;
 	QRegExp rx_device("^card\\s([0-9]+).*\\[(.*)\\],\\sdevice\\s([0-9]+):");
 
 	if (QFile::exists("/usr/bin/aplay")) {
@@ -81,12 +81,12 @@ InfoList DeviceInfo::alsaDevices() {
 				line = p.readLine();
 				qDebug("DeviceInfo::alsaDevices: '%s'", line.constData());
 				if ( rx_device.indexIn(line) > -1 ) {
-					QString name = rx_device.cap(1);
-					name.append(".");
-					name.append(rx_device.cap(3));
+					QString id = rx_device.cap(1);
+					id.append(".");
+					id.append(rx_device.cap(3));
 					QString desc = rx_device.cap(2);
-					qDebug("DeviceInfo::alsaDevices: found device: '%s' '%s'", name.toUtf8().constData(), desc.toUtf8().constData());
-					l.append( InfoData(name, desc) );
+					qDebug("DeviceInfo::alsaDevices: found device: '%s' '%s'", id.toUtf8().constData(), desc.toUtf8().constData());
+					l.append( DeviceData(id, desc) );
 				}
 			}
 		}

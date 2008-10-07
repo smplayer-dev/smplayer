@@ -19,23 +19,47 @@
 #ifndef _DEVICEINFO_H_
 #define _DEVICEINFO_H_
 
-#include "inforeader.h"
+#include <QString>
+#include <QVariant>
+#include <QList>
+
+class DeviceData {
+
+public:
+	DeviceData() {};
+	DeviceData(QVariant ID, QString desc) { _id = ID; _desc = desc; };
+	~DeviceData() {};
+
+	void setID(QVariant ID) { _id = ID; };
+	void setDesc(QString desc) { _desc = desc; };
+
+	QVariant ID() { return _id; };
+	QString desc() { return _desc; };
+
+private:
+	QVariant _id;
+	QString _desc;
+};
+
+
+typedef QList<DeviceData> DeviceList;
+
 
 class DeviceInfo {
 
 public:
 #ifdef Q_OS_WIN
-	static InfoList dsoundDevices();
-	static InfoList displayDevices();
+	static DeviceList dsoundDevices();
+	static DeviceList displayDevices();
 #else
-	static InfoList alsaDevices();
+	static DeviceList alsaDevices();
 #endif
 
 protected:
 #ifdef Q_OS_WIN
 	enum DeviceType { Sound = 0, Display = 1 };
 
-	static InfoList retrieveDevices(DeviceType type);
+	static DeviceList retrieveDevices(DeviceType type);
 #endif
 };
 

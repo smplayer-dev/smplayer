@@ -22,6 +22,7 @@
 #include "ui_prefgeneral.h"
 #include "prefwidget.h"
 #include "inforeader.h"
+#include "deviceinfo.h"
 #include "preferences.h"
 
 #ifdef Q_OS_WIN
@@ -163,11 +164,11 @@ protected:
 	InfoList ao_list;
 	
 #if USE_DSOUND_DEVICES
-	InfoList dsound_devices;
+	DeviceList dsound_devices;
 #endif
 
 #if USE_ALSA_DEVICES
-	InfoList alsa_devices;
+	DeviceList alsa_devices;
 #endif
 };
 
