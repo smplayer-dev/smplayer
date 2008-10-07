@@ -280,16 +280,16 @@ void PrefGeneral::updateDriverCombos() {
 #if USE_ALSA_DEVICES
 		if ((ao == "alsa") && (!alsa_devices.isEmpty())) {
 			for (int n=0; n < alsa_devices.count(); n++) {
-				ao_combo->addItem( "alsa (" + alsa_devices[n].name() + " - " + alsa_devices[n].desc() + ")", 
-                                   "alsa:device=hw=" + alsa_devices[n].name() );
+				ao_combo->addItem( "alsa (" + alsa_devices[n].ID().toString() + " - " + alsa_devices[n].desc() + ")", 
+                                   "alsa:device=hw=" + alsa_devices[n].ID().toString() );
 			}
 		}
 #endif
 #if USE_DSOUND_DEVICES
 		if ((ao == "dsound") && (!dsound_devices.isEmpty())) {
 			for (int n=0; n < dsound_devices.count(); n++) {
-				ao_combo->addItem( "dsound (" + dsound_devices[n].name() + " - " + dsound_devices[n].desc() + ")", 
-                                   "dsound:device=" + dsound_devices[n].name() );
+				ao_combo->addItem( "dsound (" + dsound_devices[n].ID().toString() + " - " + dsound_devices[n].desc() + ")", 
+                                   "dsound:device=" + dsound_devices[n].ID().toString() );
 			}
 		}
 #endif

@@ -863,10 +863,10 @@ void BaseGui::createActions() {
 	screenGroup = new MyActionGroup(this);
 	screenDefaultAct = new MyActionGroupItem(this, screenGroup, "screen_default", -1);
 #ifdef Q_OS_WIN
-	InfoList display_devices = DeviceInfo::displayDevices();
+	DeviceList display_devices = DeviceInfo::displayDevices();
 	if (!display_devices.isEmpty()) {
 		for (int n = 0; n < display_devices.count(); n++) {
-			int id = display_devices[n].name().toInt();
+			int id = display_devices[n].ID().toInt();
 			QString desc = display_devices[n].desc();
 			MyAction * screen_item = new MyActionGroupItem(this, screenGroup, QString("screen_%1").arg(n).toAscii().constData(), id);
 			screen_item->change( "&"+QString::number(n) + " - " + desc);
