@@ -1,5 +1,13 @@
 [b]Version 0.6.4[/b]:
 
+(2008-10-06)
+ * (Windows) Added a tool (dxlist) which can list the dsound audio devices
+   and the ddraw display devices. Read the README.txt inside the dxlist
+   subdirectory for more info and how to compile it.
+ * (Windows) Now it's possible to choose the audio device to be used with 
+   dsound. It requires dxlist.exe to be installed in the same folder as
+   smplayer.exe. This is experimental.
+
 (2008-10-05)
  * Added a new option for smplayer.ini: display_in_compact_mode (under section
    [floating_control]). If true the floating control will appear too in
