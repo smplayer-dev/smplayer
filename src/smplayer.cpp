@@ -67,15 +67,15 @@ SMPlayer::~SMPlayer() {
 
 BaseGui * SMPlayer::gui() {
 	if (main_window == 0) {
-		if (gui_to_use.toLower() == "minigui") 
-			main_window = new MiniGui(0);
-		else
-			main_window = new DefaultGui(0);
-
 		// Changes to app path, so smplayer can find a relative mplayer path
 		QDir::setCurrent(Helper::appPath());
 		qDebug("SMPlayer::gui: changed working directory to app path");
 		qDebug("SMPlayer::gui: current directory: %s", QDir::currentPath().toUtf8().data());
+		
+		if (gui_to_use.toLower() == "minigui") 
+			main_window = new MiniGui(0);
+		else
+			main_window = new DefaultGui(0);
 	}
 	return main_window;
 }
