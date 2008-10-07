@@ -858,10 +858,10 @@ void BaseGui::createActions() {
 #if USE_ADAPTER
 	screenGroup = new MyActionGroup(this);
 	screenDefaultAct = new MyActionGroupItem(this, screenGroup, "screen_default", -1);
-	screen1Act = new MyActionGroupItem(this, screenGroup, "screen_1", 1);
-	screen2Act = new MyActionGroupItem(this, screenGroup, "screen_2", 2);
-	screen3Act = new MyActionGroupItem(this, screenGroup, "screen_3", 3);
-	screen4Act = new MyActionGroupItem(this, screenGroup, "screen_4", 4);
+	for (int n = 1; n <= 4; n++) {
+		MyAction * screen_item = new MyActionGroupItem(this, screenGroup, QString("screen_%1").arg(n).toAscii().constData(), n);
+		screen_item->change( "&"+QString::number(n) );
+	}
 	connect( screenGroup, SIGNAL(activated(int)),
              core, SLOT(changeAdapter(int)) );
 #endif
@@ -1368,10 +1368,6 @@ void BaseGui::retranslateStrings() {
 
 #if USE_ADAPTER
 	screenDefaultAct->change( tr("&Default") );
-	screen1Act->change( "&1" );
-	screen2Act->change( "&2" );
-	screen3Act->change( "&3" );
-	screen4Act->change( "&4" );
 #endif
 
 	// Menu Audio
