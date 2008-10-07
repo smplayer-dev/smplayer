@@ -80,6 +80,10 @@
 
 #include "extensions.h"
 
+#ifdef Q_OS_WIN
+#include "deviceinfo.h"
+#endif
+
 using namespace Global;
 
 BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags ) 
@@ -858,10 +862,23 @@ void BaseGui::createActions() {
 #if USE_ADAPTER
 	screenGroup = new MyActionGroup(this);
 	screenDefaultAct = new MyActionGroupItem(this, screenGroup, "screen_default", -1);
+#ifdef Q_OS_WIN
+	InfoList display_devices = DeviceInfo::displayDevices();
+	if (!display_devices.isEmpty()) {
+		for (int n = 0; n < display_devices.count(); n++) {
+			int id = display_devices[n].name().toInt();
+			QString desc = display_devices[n].desc();
+			MyAction * screen_item = new MyActionGroupItem(this, screenGroup, QString("screen_%1").arg(n).toAscii().constData(), id);
+			screen_item->change( "&"+QString::number(n) + " - " + desc);
+		}
+	}
+	else
+#endif // Q_OS_WIN
 	for (int n = 1; n <= 4; n++) {
 		MyAction * screen_item = new MyActionGroupItem(this, screenGroup, QString("screen_%1").arg(n).toAscii().constData(), n);
 		screen_item->change( "&"+QString::number(n) );
 	}
+
 	connect( screenGroup, SIGNAL(activated(int)),
              core, SLOT(changeAdapter(int)) );
 #endif
