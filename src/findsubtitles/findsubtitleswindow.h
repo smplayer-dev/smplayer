@@ -28,7 +28,7 @@ class QModelIndex;
 class QMenu;
 class QAction;
 
-#ifdef USE_FILEDOWNLOADER
+#ifdef DOWNLOAD_ZIP
 class FileDownloader;
 class QBuffer;
 #endif
@@ -64,7 +64,7 @@ protected slots:
 
 	void showContextMenu(const QPoint & pos);
 
-#ifdef USE_FILEDOWNLOADER
+#ifdef DOWNLOAD_ZIP
 	void archiveDownloaded(const QBuffer & buffer);
 #endif
 
@@ -82,7 +82,7 @@ protected:
 	QAction * downloadAct;
 	QAction * copyLinkAct;
 
-#ifdef USE_FILEDOWNLOADER
+#ifdef DOWNLOAD_ZIP
 	FileDownloader * file_downloader;
 #endif
 };
