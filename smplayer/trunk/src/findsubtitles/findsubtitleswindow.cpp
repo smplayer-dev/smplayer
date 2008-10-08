@@ -373,7 +373,7 @@ void FindSubtitlesWindow::archiveDownloaded(const QBuffer & buffer) {
 		QMessageBox::information(this, tr("File downloaded"),
                                  tr("File saved as: %1.").arg(filename));
 		*/
-		status->setText(tr("File saved as: %1.").arg(filename));
+		status->setText(QString("File saved as: %1.").arg(filename));
 	}
 	else {
 		qDebug("FindSubtitlesWindow::archiveDownloaded: can't write file");
