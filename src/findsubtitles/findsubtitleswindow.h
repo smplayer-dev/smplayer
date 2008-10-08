@@ -20,7 +20,6 @@
 #define _FINDSUBTITLESWINDOW_H_
 
 #include "ui_findsubtitleswindow.h"
-#include <QByteArray>
 
 class SimpleHttp;
 class QStandardItemModel;
@@ -28,6 +27,11 @@ class QSortFilterProxyModel;
 class QModelIndex;
 class QMenu;
 class QAction;
+
+#ifdef USE_FILEDOWNLOADER
+class FileDownloader;
+class QBuffer;
+#endif
 
 class FindSubtitlesWindow : public QDialog, public Ui::FindSubtitlesWindow
 {
@@ -60,6 +64,10 @@ protected slots:
 
 	void showContextMenu(const QPoint & pos);
 
+#ifdef USE_FILEDOWNLOADER
+	void archiveDownloaded(const QBuffer & buffer);
+#endif
+
 protected:
 	virtual void retranslateStrings();
 	virtual void changeEvent(QEvent * event);
@@ -73,6 +81,10 @@ protected:
 	QMenu * context_menu;
 	QAction * downloadAct;
 	QAction * copyLinkAct;
+
+#ifdef USE_FILEDOWNLOADER
+	FileDownloader * file_downloader;
+#endif
 };
 
 #endif

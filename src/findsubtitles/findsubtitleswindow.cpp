@@ -31,6 +31,12 @@
 #include <QAction>
 #include <QClipboard>
 
+#ifdef USE_FILEDOWNLOADER
+#include "filedownloader.h"
+#include <QTemporaryFile>
+#include <QBuffer>
+#endif
+
 #define COL_LANG 0
 #define COL_NAME 1
 #define COL_FORMAT 2
@@ -104,6 +110,16 @@ FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
              this, SLOT(connecting(QString)) );
 	connect( downloader, SIGNAL(dataReadProgress(int, int)),
              this, SLOT(updateDataReadProgress(int, int)) );
+
+#ifdef USE_FILEDOWNLOADER
+	file_downloader = new FileDownloader(this);
+	file_downloader->setAutoClose(false);
+	file_downloader->setAutoReset(false);
+	connect( file_downloader, SIGNAL(downloadFailed(QString)),
+             this, SLOT(showError(QString)) );
+	connect( file_downloader, SIGNAL(downloadFinished(const QBuffer &)),
+             this, SLOT(archiveDownloaded(const QBuffer &)) );
+#endif
 
 	// Actions
 	downloadAct = new QAction(this);
@@ -300,7 +316,12 @@ void FindSubtitlesWindow::itemActivated(const QModelIndex & index ) {
 
 	qDebug("FindSubtitlesWindow::itemActivated: download link: '%s'", download_link.toLatin1().constData());
 
+#ifdef USE_FILEDOWNLOADER
+	file_downloader->show();
+	file_downloader->download( QUrl(download_link) );
+#else
 	QDesktopServices::openUrl( QUrl(download_link) );
+#endif
 }
 
 void FindSubtitlesWindow::download() {
@@ -335,6 +356,29 @@ void FindSubtitlesWindow::changeEvent(QEvent *e) {
 		QWidget::changeEvent(e);
 	}
 }
+
+#ifdef USE_FILEDOWNLOADER
+void FindSubtitlesWindow::archiveDownloaded(const QBuffer & buffer) {
+	qDebug("FindSubtitlesWindow::archiveDownloaded");
+
+	QTemporaryFile file("archive_XXXXXX.zip");
+	file.setAutoRemove(false);
+	if (file.open()) {
+		QString filename = file.fileName();
+		file.write( buffer.data() );
+		file.close();
+
+		qDebug("FindSubtitlesWindow::archiveDownloaded: file saved as: %s", filename.toUtf8().constData());
+
+		QMessageBox::information(this, tr("File downloaded"),
+                                 tr("File saved as: %1.").arg(filename));
+	}
+	else {
+		qDebug("FindSubtitlesWindow::archiveDownloaded: can't write file");
+	}
+
+}
+#endif
 
 #include "moc_findsubtitleswindow.cpp"
 
