@@ -31,6 +31,7 @@ class QAction;
 #ifdef DOWNLOAD_ZIP
 class FileDownloader;
 class QBuffer;
+class QuaZip;
 #endif
 
 class FindSubtitlesWindow : public QDialog, public Ui::FindSubtitlesWindow
@@ -66,12 +67,15 @@ protected slots:
 
 #ifdef DOWNLOAD_ZIP
 	void archiveDownloaded(const QBuffer & buffer);
-	bool uncompressZip(const QString & filename, const QString & preferred_output_name);
 #endif
 
 protected:
 	virtual void retranslateStrings();
 	virtual void changeEvent(QEvent * event);
+
+protected:
+	bool uncompressZip(const QString & filename, const QString & preferred_output_name);
+	bool extractFile(QuaZip & zip, const QString & filename, const QString & output_name);
 
 protected:
 	SimpleHttp * downloader;
