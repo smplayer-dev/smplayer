@@ -34,6 +34,7 @@ class FileDownloader : public QProgressDialog
 
 public:
     FileDownloader(QWidget *parent = 0);
+	~FileDownloader();
 
 public slots:
     void download(QUrl url);
