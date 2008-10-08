@@ -39,6 +39,11 @@ FileDownloader::FileDownloader(QWidget *parent)
     setWindowTitle(tr("Downloading..."));
 }
 
+FileDownloader::~FileDownloader() {
+	qDebug("FileDownloader::~FileDownloader");
+	delete http;
+}
+
 void FileDownloader::download(QUrl url)
 {
     QHttp::ConnectionMode mode = url.scheme().toLower() == "https" ? QHttp::ConnectionModeHttps : QHttp::ConnectionModeHttp;

@@ -113,8 +113,7 @@ FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
 
 #ifdef USE_FILEDOWNLOADER
 	file_downloader = new FileDownloader(this);
-	file_downloader->setAutoClose(false);
-	file_downloader->setAutoReset(false);
+	file_downloader->setModal(true);
 	connect( file_downloader, SIGNAL(downloadFailed(QString)),
              this, SLOT(showError(QString)) );
 	connect( file_downloader, SIGNAL(downloadFinished(const QBuffer &)),
@@ -370,8 +369,11 @@ void FindSubtitlesWindow::archiveDownloaded(const QBuffer & buffer) {
 
 		qDebug("FindSubtitlesWindow::archiveDownloaded: file saved as: %s", filename.toUtf8().constData());
 
+		/*
 		QMessageBox::information(this, tr("File downloaded"),
                                  tr("File saved as: %1.").arg(filename));
+		*/
+		status->setText(tr("File saved as: %1.").arg(filename));
 	}
 	else {
 		qDebug("FindSubtitlesWindow::archiveDownloaded: can't write file");
