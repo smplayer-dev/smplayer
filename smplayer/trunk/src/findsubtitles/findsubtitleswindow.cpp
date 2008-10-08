@@ -31,7 +31,7 @@
 #include <QAction>
 #include <QClipboard>
 
-#ifdef USE_FILEDOWNLOADER
+#ifdef DOWNLOAD_ZIP
 #include "filedownloader.h"
 #include <QTemporaryFile>
 #include <QBuffer>
@@ -111,7 +111,7 @@ FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
 	connect( downloader, SIGNAL(dataReadProgress(int, int)),
              this, SLOT(updateDataReadProgress(int, int)) );
 
-#ifdef USE_FILEDOWNLOADER
+#ifdef DOWNLOAD_ZIP
 	file_downloader = new FileDownloader(this);
 	file_downloader->setModal(true);
 	connect( file_downloader, SIGNAL(downloadFailed(QString)),
@@ -315,7 +315,7 @@ void FindSubtitlesWindow::itemActivated(const QModelIndex & index ) {
 
 	qDebug("FindSubtitlesWindow::itemActivated: download link: '%s'", download_link.toLatin1().constData());
 
-#ifdef USE_FILEDOWNLOADER
+#ifdef DOWNLOAD_ZIP
 	file_downloader->show();
 	file_downloader->download( QUrl(download_link) );
 #else
@@ -356,7 +356,7 @@ void FindSubtitlesWindow::changeEvent(QEvent *e) {
 	}
 }
 
-#ifdef USE_FILEDOWNLOADER
+#ifdef DOWNLOAD_ZIP
 void FindSubtitlesWindow::archiveDownloaded(const QBuffer & buffer) {
 	qDebug("FindSubtitlesWindow::archiveDownloaded");
 
