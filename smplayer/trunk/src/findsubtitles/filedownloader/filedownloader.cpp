@@ -61,6 +61,8 @@ void FileDownloader::cancelDownload()
 
 void FileDownloader::httpRequestFinished(int request_id, bool error)
 {
+	qDebug("FileDownloader::httpRequestFinished: request_id %d, error %d", request_id, error);
+
     if (request_id != http_get_id) return;
 
     if (http_request_aborted) {

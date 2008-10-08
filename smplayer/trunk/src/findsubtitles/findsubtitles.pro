@@ -5,15 +5,27 @@ CONFIG += qt warn_on release
 
 QT += network xml
 
-HEADERS += simplehttp.h osparser.h ../filechooser.h ../languages.h findsubtitleswindow.h
-SOURCES += simplehttp.cpp osparser.cpp ../filechooser.cpp ../languages.cpp \
-           findsubtitleswindow.cpp main.cpp
+INCLUDEPATH += .. filedownloader
+DEPENDPATH += .. filedownloader
+
+HEADERS += simplehttp.h \
+           osparser.h \
+           ../filechooser.h \
+           ../languages.h \
+           filedownloader/filedownloader.h \
+           findsubtitleswindow.h
+
+SOURCES += simplehttp.cpp \
+           osparser.cpp \
+           ../filechooser.cpp \
+           ../languages.cpp \
+           filedownloader/filedownloader.cpp \
+           findsubtitleswindow.cpp \
+           main.cpp
+
 FORMS += ../filechooser.ui findsubtitleswindow.ui
 
-INCLUDEPATH += ..
-DEPENDPATH += ..
-
-DEFINES += NO_SMPLAYER_SUPPORT
+DEFINES += NO_SMPLAYER_SUPPORT USE_FILEDOWNLOADER
 
 unix {
   UI_DIR = .ui
