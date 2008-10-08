@@ -5,27 +5,51 @@ CONFIG += qt warn_on release
 
 QT += network xml
 
-INCLUDEPATH += .. filedownloader
-DEPENDPATH += .. filedownloader
+INCLUDEPATH += ..
+DEPENDPATH += ..
 
 HEADERS += simplehttp.h \
            osparser.h \
            ../filechooser.h \
            ../languages.h \
-           filedownloader/filedownloader.h \
            findsubtitleswindow.h
 
 SOURCES += simplehttp.cpp \
            osparser.cpp \
            ../filechooser.cpp \
            ../languages.cpp \
-           filedownloader/filedownloader.cpp \
            findsubtitleswindow.cpp \
            main.cpp
 
 FORMS += ../filechooser.ui findsubtitleswindow.ui
 
-DEFINES += NO_SMPLAYER_SUPPORT USE_FILEDOWNLOADER
+DEFINES += NO_SMPLAYER_SUPPORT DOWNLOAD_ZIP
+
+contains( DEFINES, DOWNLOAD_ZIP ) {
+	INCLUDEPATH += filedownloader quazip
+	DEPENDPATH += filedownloader quazip
+
+	HEADERS += filedownloader.h
+	SOURCES += filedownloader.cpp
+
+	HEADERS += crypt.h \
+	           ioapi.h \
+	           quazip.h \
+	           quazipfile.h \
+	           quazipfileinfo.h \
+	           quazipnewinfo.h \
+	           unzip.h \
+	           zip.h
+
+	SOURCES += ioapi.c \
+	           quazip.cpp \
+	           quazipfile.cpp \
+	           quazipnewinfo.cpp \
+	           unzip.c \
+	           zip.c
+
+	LIBS += -lz
+}
 
 unix {
   UI_DIR = .ui
