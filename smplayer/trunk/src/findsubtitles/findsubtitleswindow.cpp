@@ -384,7 +384,7 @@ void FindSubtitlesWindow::archiveDownloaded(const QBuffer & buffer) {
 		}
 
 		QFileInfo fi(file_chooser->text());
-		QString output_name = fi.absolutePath() +"/"+ fi.baseName() +"_"+ lang +"."+ fi.completeSuffix();
+		QString output_name = fi.absolutePath() +"/"+ fi.baseName() +"_"+ lang;
 
 		uncompressZip(filename, output_name);
 		file.remove();
@@ -426,8 +426,57 @@ bool FindSubtitlesWindow::uncompressZip(const QString & filename, const QString 
 		qDebug("FindSubtitlesWindow::uncompressZip: subtitle file %d '%s'", n, sub_files[n].toUtf8().constData());
 	}
 
+	if (sub_files.count() == 1) {
+		// If only one file, just extract it
+		zip.setCurrentFile(sub_files[0]);
+		QString extension = "txt";
+		if (zip.getCurrentFileInfo(&info)) {
+			extension = QFileInfo(info.name).suffix();
+		}
+
+		if (!extractFile(zip, sub_files[0], preferred_output_name +"."+ extension)) return false;
+	}
+
+	zip.close();
+	return true;
+}
+
+bool FindSubtitlesWindow::extractFile(QuaZip & zip, const QString & filename, const QString & output_name) {
+	qDebug("FindSubtitlesWindow::extractFile: '%s', save as '%s'", 
+           filename.toUtf8().constData(), output_name.toUtf8().constData());
+
+	if (QFile::exists(output_name)) {
+		if (QMessageBox::question(this, tr("Overwrite?"), 
+            tr("The file %1 already exits, overwrite?").arg(output_name), QMessageBox::Yes, QMessageBox::No) == QMessageBox::No)
+		{
+			return false;
+		}
+	}
+
+	if (!zip.setCurrentFile(filename)) {
+		qDebug("FindSubtitlesWindow::extractFile: can't select file %s", filename.toUtf8().constData());
+		return false;
+	}
+
+	// Saving
 	char c;
 	QuaZipFile file(&zip);
+	QFile out(output_name);
+
+	if (!file.open(QIODevice::ReadOnly)) {
+		qWarning("FindSubtitlesWindow::extractFile: can't open file for reading: %d", file.getZipError());
+		return false;
+    }
+
+	out.open(QIODevice::WriteOnly);
+	// Slow like hell (on GNU/Linux at least), but it is not my fault.
+	// Not ZIP/UNZIP package's fault either.
+	// The slowest thing here is out.putChar(c).
+	while(file.getChar(&c)) out.putChar(c);
+	out.close();
+
+	file.close();
+
 	return true;
 }
 
