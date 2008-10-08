@@ -66,6 +66,7 @@ protected slots:
 
 #ifdef DOWNLOAD_ZIP
 	void archiveDownloaded(const QBuffer & buffer);
+	bool uncompressZip(const QString & filename, const QString & preferred_output_name);
 #endif
 
 protected:
