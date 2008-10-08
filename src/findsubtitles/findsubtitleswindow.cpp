@@ -33,6 +33,8 @@
 
 #ifdef DOWNLOAD_ZIP
 #include "filedownloader.h"
+#include "quazip.h"
+#include "quazipfile.h"
 #include <QTemporaryFile>
 #include <QBuffer>
 #endif
@@ -360,7 +362,7 @@ void FindSubtitlesWindow::changeEvent(QEvent *e) {
 void FindSubtitlesWindow::archiveDownloaded(const QBuffer & buffer) {
 	qDebug("FindSubtitlesWindow::archiveDownloaded");
 
-	QTemporaryFile file("archive_XXXXXX.zip");
+	QTemporaryFile file(QDir::tempPath() + "archive_XXXXXX.zip");
 	file.setAutoRemove(false);
 	if (file.open()) {
 		QString filename = file.fileName();
@@ -374,12 +376,61 @@ void FindSubtitlesWindow::archiveDownloaded(const QBuffer & buffer) {
                                  tr("File saved as: %1.").arg(filename));
 		*/
 		status->setText(QString("File saved as: %1.").arg(filename));
+
+		QString lang = "unknown";
+		if (view->currentIndex().isValid()) {
+			const QModelIndex & index = view->currentIndex();
+			lang = table->item(proxy_model->mapToSource(index).row(), COL_LANG)->data(Qt::UserRole).toString();
+		}
+
+		QFileInfo fi(file_chooser->text());
+		QString output_name = fi.absolutePath() +"/"+ fi.baseName() +"_"+ lang +"."+ fi.completeSuffix();
+
+		uncompressZip(filename, output_name);
+		file.remove();
 	}
 	else {
 		qDebug("FindSubtitlesWindow::archiveDownloaded: can't write file");
 	}
-
 }
+
+bool FindSubtitlesWindow::uncompressZip(const QString & filename, const QString & preferred_output_name) {
+	qDebug("FindSubtitlesWindow::uncompressZip: zip file '%s', save subtitle as '%s'", 
+           filename.toUtf8().constData(), preferred_output_name.toUtf8().constData());
+
+	QuaZip zip(filename);
+
+	if (!zip.open(QuaZip::mdUnzip)) {
+	    qWarning("FindSubtitlesWindow::uncompressZip: open zip failed: %d", zip.getZipError());
+	    return false;
+	}
+
+	zip.setFileNameCodec("IBM866");
+	qDebug("FindSubtitlesWindow::uncompressZip: %d entries", zip.getEntriesCount());
+	qDebug("FindSubtitlesWindow::uncompressZip: global comment: '%s'", zip.getComment().toUtf8().constData());
+
+	QStringList sub_files;
+	QuaZipFileInfo info;
+
+	for (bool more=zip.goToFirstFile(); more; more=zip.goToNextFile()) {
+		if (!zip.getCurrentFileInfo(&info)) {
+			qWarning("FindSubtitlesWindow::uncompressZip: getCurrentFileInfo(): %d\n", zip.getZipError());
+			return false;
+		}
+	    qDebug("FindSubtitlesWindow::uncompressZip: file '%s'", info.name.toUtf8().constData());
+		if (QFileInfo(info.name).suffix() != "nfo") sub_files.append(info.name);
+	}
+
+	qDebug("FindSubtitlesWindow::uncompressZip: list of subtitle files:");
+	for (int n=0; n < sub_files.count(); n++) {
+		qDebug("FindSubtitlesWindow::uncompressZip: subtitle file %d '%s'", n, sub_files[n].toUtf8().constData());
+	}
+
+	char c;
+	QuaZipFile file(&zip);
+	return true;
+}
+
 #endif
 
 #include "moc_findsubtitleswindow.cpp"
