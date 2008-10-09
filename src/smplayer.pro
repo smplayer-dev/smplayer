@@ -13,7 +13,9 @@ DEPENDPATH += corelib findsubtitles
 
 #DEFINES += USE_QXT
 
-HEADERS	+= guiconfig.h \
+DEFINES += DOWNLOAD_ZIP
+
+HEADERS += guiconfig.h \
     corelib/config.h \
 	corelib/constants.h \
 	svn_revision.h \
@@ -201,6 +203,39 @@ TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_de.ts \
                translations/smplayer_ca.ts translations/smplayer_sl_SI.ts \
                translations/smplayer_ar_SY.ts translations/smplayer_ku.ts \
                translations/smplayer_gl.ts
+
+contains( DEFINES, DOWNLOAD_ZIP ) {
+	INCLUDEPATH += findsubtitles/filedownloader findsubtitles/quazip
+	DEPENDPATH += findsubtitles/filedownloader findsubtitles/quazip
+
+	HEADERS += filedownloader.h subchooserdialog.h
+	SOURCES += filedownloader.cpp subchooserdialog.cpp
+
+	FORMS += subchooserdialog.ui
+
+	HEADERS += crypt.h \
+	           ioapi.h \
+	           quazip.h \
+	           quazipfile.h \
+	           quazipfileinfo.h \
+	           quazipnewinfo.h \
+	           unzip.h \
+	           zip.h
+
+	SOURCES += ioapi.c \
+	           quazip.cpp \
+	           quazipfile.cpp \
+	           quazipnewinfo.cpp \
+	           unzip.c \
+	           zip.c
+
+	LIBS += -lz
+	
+	win32 {
+		INCLUDEPATH += c:\development\zlib-1.2.3
+		LIBS += -Lc:\development\zlib-1.2.3
+	}
+}
 
 unix {
   UI_DIR = .ui
