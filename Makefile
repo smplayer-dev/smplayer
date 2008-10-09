@@ -46,13 +46,8 @@ src/smplayer:
 	cd src && $(LRELEASE) smplayer.pro
 
 clean:
-	cd src && make clean
-	-rm src/smplayer
+	cd src && make distclean
 	-rm src/translations/smplayer_*.qm
-	-rm src/Makefile
-#	cd getrev && $(QMAKE) && make clean
-#	-rm getrev/getrev
-#	-rm getrev/Makefile
 
 install: src/smplayer
 	-install -d $(DESTDIR)$(PREFIX)/bin/
