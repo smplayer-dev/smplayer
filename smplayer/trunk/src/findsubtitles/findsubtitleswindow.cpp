@@ -436,25 +436,29 @@ bool FindSubtitlesWindow::uncompressZip(const QString & filename, const QString 
 	if (sub_files.count() == 1) {
 		// If only one file, just extract it
 		if (extractFile(zip, sub_files[0], output_path +"/"+ preferred_output_name)) {
-			status->setText(QString("Subtitle saved as %1").arg(preferred_output_name));
+			status->setText(tr("Subtitle saved as %1").arg(preferred_output_name));
 		} else {
 			return false;
 		}
 	} else {
 		// More than one file
-		SubChooserDialog * d = new SubChooserDialog(this);
+		SubChooserDialog d(this);
 
 		for (int n=0; n < sub_files.count(); n++) {
-			d->addFile(sub_files[n]);
+			d.addFile(sub_files[n]);
 		}
 
-		if (d->exec() == QDialog::Rejected) return false;
+		if (d.exec() == QDialog::Rejected) return false;
 
-		QStringList files_to_extract = d->selectedFiles();
+		QStringList files_to_extract = d.selectedFiles();
+		int extracted_count = 0;
 		for (int n=0; n < files_to_extract.count(); n++) {
 			QString file = files_to_extract[n];
-			qDebug("FindSubtitlesWindow::uncompressZip: extracting %s", file.toUtf8().constData());
+			bool ok = extractFile(zip, file, output_path +"/"+ file);
+			qDebug("FindSubtitlesWindow::uncompressZip: extracted %s ok: %d", file.toUtf8().constData(), ok);
+			if (ok) extracted_count++;
 		}
+		status->setText(tr("%1 subtitle(s) extracted").arg(extracted_count));
 	}
 
 	zip.close();
