@@ -49,6 +49,9 @@ private slots:
 	void readResponseHeader(const QHttpResponseHeader &responseHeader);
 	void updateDataReadProgress(int bytes_read, int total_bytes);
 
+	void sendLaterDownloadFinished();
+	void sendLaterDownloadFailed();
+
 private:
 	QHttp * http;
 	int http_get_id;
