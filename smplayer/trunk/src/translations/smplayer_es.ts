@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="es">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1561,12 +1562,12 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="39"/>
         <source>Downloading...</source>
-        <translation type="unfinished">Descargando...</translation>
+        <translation>Descargando...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="57"/>
         <source>Downloading %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Descargando %1</translation>
     </message>
 </context>
 <context>
@@ -1792,22 +1793,22 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="439"/>
         <source>Subtitle saved as %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Subtítulo grabado como %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="461"/>
         <source>%1 subtitle(s) extracted</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 subtítulo(s) extraido(s)</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="472"/>
         <source>Overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>¿Sobreescribir?</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="473"/>
         <source>The file %1 already exits, overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>El fichero %1 ya existe, ¿sobreescribir?</translation>
     </message>
 </context>
 <context>
@@ -5923,22 +5924,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="13"/>
         <source>Subtitle selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Selección de subtítulos</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="19"/>
         <source>This archive contains more than one subtitle file. Please choose the ones you want to extract.</source>
-        <translation type="unfinished"></translation>
+        <translation>Este archivo contiene más de un subtítulo. Por favor elige aquellos que desees extraer.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="68"/>
         <source>Select All</source>
-        <translation type="unfinished">Seleccionar todos</translation>
+        <translation>Seleccionar todos</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="75"/>
         <source>Select None</source>
-        <translation type="unfinished">No seleccionar ninguno</translation>
+        <translation>No seleccionar ninguno</translation>
     </message>
 </context>
 <context>
