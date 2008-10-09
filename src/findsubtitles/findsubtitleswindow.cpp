@@ -386,9 +386,9 @@ void FindSubtitlesWindow::archiveDownloaded(const QBuffer & buffer) {
 		}
 
 		QFileInfo fi(file_chooser->text());
-		QString output_name = fi.absolutePath() +"/"+ fi.baseName() +"_"+ lang +"." + extension;
+		QString output_name = fi.baseName() +"_"+ lang +"." + extension;
 
-		if (!uncompressZip(filename, output_name)) {
+		if (!uncompressZip(filename, fi.absolutePath(), output_name)) {
 			status->setText(QString("Download failed"));
 		}
 		file.remove();
@@ -398,9 +398,11 @@ void FindSubtitlesWindow::archiveDownloaded(const QBuffer & buffer) {
 	}
 }
 
-bool FindSubtitlesWindow::uncompressZip(const QString & filename, const QString & preferred_output_name) {
-	qDebug("FindSubtitlesWindow::uncompressZip: zip file '%s', save subtitle as '%s'", 
-           filename.toUtf8().constData(), preferred_output_name.toUtf8().constData());
+
+bool FindSubtitlesWindow::uncompressZip(const QString & filename, const QString & output_path, const QString & preferred_output_name) {
+	qDebug("FindSubtitlesWindow::uncompressZip: zip file '%s', output_path '%s', save subtitle as '%s'", 
+           filename.toUtf8().constData(), output_path.toUtf8().constData(),
+           preferred_output_name.toUtf8().constData());
 
 	QuaZip zip(filename);
 
@@ -432,7 +434,7 @@ bool FindSubtitlesWindow::uncompressZip(const QString & filename, const QString 
 
 	if (sub_files.count() == 1) {
 		// If only one file, just extract it
-		if (extractFile(zip, sub_files[0], preferred_output_name)) {
+		if (extractFile(zip, sub_files[0], output_path +"/"+ preferred_output_name)) {
 			status->setText(QString("Subtitle saved as %1").arg(preferred_output_name));
 		} else {
 			return false;
@@ -444,8 +446,7 @@ bool FindSubtitlesWindow::uncompressZip(const QString & filename, const QString 
 }
 
 bool FindSubtitlesWindow::extractFile(QuaZip & zip, const QString & filename, const QString & output_name) {
-	qDebug("FindSubtitlesWindow::extractFile: '%s', save as '%s'", 
-           filename.toUtf8().constData(), output_name.toUtf8().constData());
+	qDebug("FindSubtitlesWindow::extractFile: '%s', save as '%s'", filename.toUtf8().constData(), output_name.toUtf8().constData());
 
 	if (QFile::exists(output_name)) {
 		if (QMessageBox::question(this, tr("Overwrite?"), 
