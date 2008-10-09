@@ -1685,42 +1685,42 @@ Example: resample=44100:0:0,volnorm</source>
 <context>
     <name>FindSubtitlesWindow</name>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="150"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="151"/>
         <source>Language</source>
         <translation>Мова</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="150"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="151"/>
         <source>Name</source>
         <translation>Назва</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="151"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="152"/>
         <source>Format</source>
         <translation>Формат</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="151"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="152"/>
         <source>Files</source>
         <translation>Файли</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="151"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="152"/>
         <source>Date</source>
         <translation>Дата</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="151"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="152"/>
         <source>Uploaded by</source>
         <translation>Вивантажено</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="167"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="168"/>
         <source>All</source>
         <translation>Всі</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="173"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="174"/>
         <source>Close</source>
         <translation>Закрити</translation>
     </message>
@@ -1730,42 +1730,42 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>&amp;Звантажити</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="178"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="179"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>&amp;Скопіювати посилання до буферу обміну</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="232"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="233"/>
         <source>Error</source>
         <translation>Помилка</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="234"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
         <source>Download failed: %1.</source>
         <translation>Звантаження невдале: %1.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="238"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="239"/>
         <source>Connecting to %1...</source>
         <translation>З&apos;єднуюсь з %1...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="244"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="245"/>
         <source>Downloading...</source>
         <translation>Звантажується...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="252"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="253"/>
         <source>Done.</source>
         <translation>Виконано.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="298"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="299"/>
         <source>%1 files available</source>
         <translation>%1 файлів доступні</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="307"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="308"/>
         <source>Failed to parse the received data.</source>
         <translation>Неможливо обробити прийняті дані.</translation>
     </message>
@@ -1790,14 +1790,24 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>&amp;Оновити</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="456"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="472"/>
         <source>Overwrite?</source>
         <translation>Перезаписати?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="457"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="473"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>Файл %1 вже існує, перезаписати?</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="439"/>
+        <source>Subtitle saved as %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="461"/>
+        <source>%1 subtitle(s) extracted</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1805,42 +1815,42 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../testcorelib/test.cpp" line="38"/>
         <source>&amp;Open...</source>
-        <translation>&amp;Відкрити...</translation>
+        <translation type="obsolete">&amp;Відкрити...</translation>
     </message>
     <message>
         <location filename="../testcorelib/test.cpp" line="41"/>
         <source>&amp;Close</source>
-        <translation>&amp;Закрити</translation>
+        <translation type="obsolete">&amp;Закрити</translation>
     </message>
     <message>
         <location filename="../testcorelib/test.cpp" line="44"/>
         <source>&amp;Open</source>
-        <translation>&amp;Відкрити</translation>
+        <translation type="obsolete">&amp;Відкрити</translation>
     </message>
     <message>
         <location filename="../testcorelib/test.cpp" line="48"/>
         <source>&amp;Play/Pause</source>
-        <translation>&amp;Відтворити/Пауза</translation>
+        <translation type="obsolete">&amp;Відтворити/Пауза</translation>
     </message>
     <message>
         <location filename="../testcorelib/test.cpp" line="53"/>
         <source>&amp;Stop</source>
-        <translation>&amp;Зупинити</translation>
+        <translation type="obsolete">&amp;Зупинити</translation>
     </message>
     <message>
         <location filename="../testcorelib/test.cpp" line="57"/>
         <source>&amp;Play</source>
-        <translation>Від&amp;творити</translation>
+        <translation type="obsolete">Від&amp;творити</translation>
     </message>
     <message>
         <location filename="../testcorelib/test.cpp" line="68"/>
         <source>Control</source>
-        <translation>Керування</translation>
+        <translation type="obsolete">Керування</translation>
     </message>
     <message>
         <location filename="../testcorelib/test.cpp" line="86"/>
         <source>Open file</source>
-        <translation>Відкрити файл</translation>
+        <translation type="obsolete">Відкрити файл</translation>
     </message>
 </context>
 <context>
@@ -5919,6 +5929,29 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../shortcutgetter.cpp" line="294"/>
         <source>Capture keystrokes</source>
         <translation>Комбінація клавіш захоплення</translation>
+    </message>
+</context>
+<context>
+    <name>SubChooserDialog</name>
+    <message>
+        <location filename="../findsubtitles/subchooserdialog.ui" line="13"/>
+        <source>Subtitle selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/subchooserdialog.ui" line="19"/>
+        <source>This archive contains more than one subtitle file. Please choose the ones you want to extract.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/subchooserdialog.ui" line="68"/>
+        <source>Select All</source>
+        <translation type="unfinished">Вибрати все</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/subchooserdialog.ui" line="75"/>
+        <source>Select None</source>
+        <translation type="unfinished">Не вибирати жодного</translation>
     </message>
 </context>
 <context>
