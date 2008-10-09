@@ -75,7 +75,7 @@ protected:
 
 #ifdef DOWNLOAD_ZIP
 protected:
-	bool uncompressZip(const QString & filename, const QString & output_path, const QString & preferred_output_name = QString::null);
+	bool uncompressZip(const QString & filename, const QString & output_path, const QString & preferred_output_name);
 	bool extractFile(QuaZip & zip, const QString & filename, const QString & output_name);
 #endif
 
