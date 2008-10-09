@@ -20,6 +20,7 @@
 
 #include "filedownloader.h"
 #include <QHttp>
+#include <QTimer>
 
 FileDownloader::FileDownloader(QWidget *parent) : QProgressDialog(parent)
 {
@@ -74,9 +75,11 @@ void FileDownloader::httpRequestFinished(int request_id, bool error) {
 	hide();
 
 	if (error) {
-		emit downloadFailed(http->errorString());
+		//emit downloadFailed(http->errorString());
+		QTimer::singleShot(200, this, SLOT(sendLaterDownloadFailed()));
 	} else {
-		emit downloadFinished(buffer);
+		//emit downloadFinished(buffer);
+		QTimer::singleShot(200, this, SLOT(sendLaterDownloadFinished()));
 	}
 }
 
@@ -95,6 +98,15 @@ void FileDownloader::updateDataReadProgress(int bytes_read, int total_bytes) {
 
 	setMaximum(total_bytes);
 	setValue(bytes_read);
+}
+
+// Work-around Qt bugs
+void FileDownloader::sendLaterDownloadFinished() {
+	emit downloadFinished(buffer);
+}
+
+void FileDownloader::sendLaterDownloadFailed() {
+	emit downloadFailed(http->errorString());
 }
 
 #include "moc_filedownloader.cpp"
