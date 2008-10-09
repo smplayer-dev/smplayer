@@ -378,13 +378,15 @@ void FindSubtitlesWindow::archiveDownloaded(const QBuffer & buffer) {
 		status->setText(QString("Temporary file %1").arg(filename));
 
 		QString lang = "unknown";
+		QString extension = "unknown";
 		if (view->currentIndex().isValid()) {
 			const QModelIndex & index = view->currentIndex();
 			lang = table->item(proxy_model->mapToSource(index).row(), COL_LANG)->data(Qt::UserRole).toString();
+			extension = table->item(proxy_model->mapToSource(index).row(), COL_FORMAT)->text();
 		}
 
 		QFileInfo fi(file_chooser->text());
-		QString output_name = fi.absolutePath() +"/"+ fi.baseName() +"_"+ lang;
+		QString output_name = fi.absolutePath() +"/"+ fi.baseName() +"_"+ lang +"." + extension;
 
 		if (!uncompressZip(filename, output_name)) {
 			status->setText(QString("Download failed"));
@@ -430,15 +432,8 @@ bool FindSubtitlesWindow::uncompressZip(const QString & filename, const QString 
 
 	if (sub_files.count() == 1) {
 		// If only one file, just extract it
-		zip.setCurrentFile(sub_files[0]);
-		QString extension = "txt";
-		if (zip.getCurrentFileInfo(&info)) {
-			extension = QFileInfo(info.name).suffix();
-		}
-
-		QString output_name = preferred_output_name +"."+ extension;
-		if (extractFile(zip, sub_files[0], output_name)) {
-			status->setText(QString("Subtitle saved as %1").arg(output_name));
+		if (extractFile(zip, sub_files[0], preferred_output_name)) {
+			status->setText(QString("Subtitle saved as %1").arg(preferred_output_name));
 		} else {
 			return false;
 		}
