@@ -1,10 +1,9 @@
-TEMPLATE	= app
-LANGUAGE	= C++
+TEMPLATE = app
+LANGUAGE = C++
 
-CONFIG	+= qt warn_on release
+CONFIG += qt warn_on release
 
 QT += network xml
-#QT +=  opengl 
 
 RESOURCES = icons.qrc
 
@@ -16,7 +15,7 @@ DEPENDPATH += corelib findsubtitles
 DEFINES += DOWNLOAD_ZIP
 
 HEADERS += guiconfig.h \
-    corelib/config.h \
+	corelib/config.h \
 	corelib/constants.h \
 	svn_revision.h \
 	version.h \
@@ -31,7 +30,7 @@ HEADERS += guiconfig.h \
 	corelib/myprocess.h \
 	corelib/mplayerversion.h \
 	corelib/mplayerprocess.h \
-    corelib/infoprovider.h \
+	corelib/infoprovider.h \
 	corelib/mplayerwindow.h \
 	corelib/mediadata.h \
 	corelib/audioequalizerlist.h \
@@ -48,11 +47,11 @@ HEADERS += guiconfig.h \
 	mytablewidget.h \
 	shortcutgetter.h \
 	actionseditor.h \
-    filechooser.h \
+	filechooser.h \
 	preferencesdialog.h \
 	mycombobox.h \
 	tristatecombo.h \
-    languages.h \
+	languages.h \
 	prefwidget.h \
 	prefgeneral.h \
 	prefdrives.h \
@@ -69,7 +68,7 @@ HEADERS += guiconfig.h \
 	eqslider.h \
 	videoequalizer.h \
 	audioequalizer.h \
-    myslider.h \
+	myslider.h \
 	timeslider.h \
 	inputdvddirectory.h \
 	inputurl.h \
@@ -80,11 +79,11 @@ HEADERS += guiconfig.h \
 	filedialog.h \
 	inputmplayerversion.h \
 	about.h \
-    errordialog.h \
-    timedialog.h \
-    findsubtitles/simplehttp.h \
-    findsubtitles/osparser.h \
-    findsubtitles/findsubtitleswindow.h \
+	errordialog.h \
+	timedialog.h \
+	findsubtitles/simplehttp.h \
+	findsubtitles/osparser.h \
+	findsubtitles/findsubtitleswindow.h \
 	basegui.h \
 	baseguiplus.h \
 	floatingwidget.h \
@@ -108,7 +107,7 @@ SOURCES	+= version.cpp \
 	corelib/myprocess.cpp \
 	corelib/mplayerversion.cpp \
 	corelib/mplayerprocess.cpp \
-    corelib/infoprovider.cpp \
+	corelib/infoprovider.cpp \
 	corelib/mplayerwindow.cpp \
 	corelib/mediadata.cpp \
 	corelib/mediasettings.cpp \
@@ -124,11 +123,11 @@ SOURCES	+= version.cpp \
 	mytablewidget.cpp \
 	shortcutgetter.cpp \
 	actionseditor.cpp \
-    filechooser.cpp \
+	filechooser.cpp \
 	preferencesdialog.cpp \
 	mycombobox.cpp \
 	tristatecombo.cpp \
-    languages.cpp \
+	languages.cpp \
 	prefwidget.cpp \
 	prefgeneral.cpp \
 	prefdrives.cpp \
@@ -145,7 +144,7 @@ SOURCES	+= version.cpp \
 	eqslider.cpp \
 	videoequalizer.cpp \
 	audioequalizer.cpp \
-    myslider.cpp \
+	myslider.cpp \
 	timeslider.cpp \
 	inputdvddirectory.cpp \
 	inputurl.cpp \
@@ -156,11 +155,11 @@ SOURCES	+= version.cpp \
 	filedialog.cpp \
 	inputmplayerversion.cpp \
 	about.cpp \
-    errordialog.cpp \
-    timedialog.cpp \
-    findsubtitles/simplehttp.cpp \
-    findsubtitles/osparser.cpp \
-    findsubtitles/findsubtitleswindow.cpp \
+	errordialog.cpp \
+	timedialog.cpp \
+	findsubtitles/simplehttp.cpp \
+	findsubtitles/osparser.cpp \
+	findsubtitles/findsubtitleswindow.cpp \
 	basegui.cpp \
 	baseguiplus.cpp \
 	floatingwidget.cpp \
@@ -238,30 +237,30 @@ contains( DEFINES, DOWNLOAD_ZIP ) {
 }
 
 unix {
-  UI_DIR = .ui
-  MOC_DIR = .moc
-  OBJECTS_DIR = .obj
+	UI_DIR = .ui
+	MOC_DIR = .moc
+	OBJECTS_DIR = .obj
 
-  DEFINES += DATA_PATH=$(DATA_PATH)
-  DEFINES += DOC_PATH=$(DOC_PATH)
-  DEFINES += TRANSLATION_PATH=$(TRANSLATION_PATH)
-  DEFINES += CONF_PATH=$(CONF_PATH)
-  DEFINES += THEMES_PATH=$(THEMES_PATH)
-  DEFINES += SHORTCUTS_PATH=$(SHORTCUTS_PATH)
-  #DEFINES += NO_DEBUG_ON_CONSOLE
+	DEFINES += DATA_PATH=$(DATA_PATH)
+	DEFINES += DOC_PATH=$(DOC_PATH)
+	DEFINES += TRANSLATION_PATH=$(TRANSLATION_PATH)
+	DEFINES += CONF_PATH=$(CONF_PATH)
+	DEFINES += THEMES_PATH=$(THEMES_PATH)
+	DEFINES += SHORTCUTS_PATH=$(SHORTCUTS_PATH)
+	#DEFINES += NO_DEBUG_ON_CONSOLE
 
-  #DEFINES += KDE_SUPPORT
-  #INCLUDEPATH += /opt/kde3/include/
-  #LIBS += -lkio -L/opt/kde3/lib/
+	#DEFINES += KDE_SUPPORT
+	#INCLUDEPATH += /opt/kde3/include/
+	#LIBS += -lkio -L/opt/kde3/lib/
 
-  #contains( DEFINES, KDE_SUPPORT) {
-  #	HEADERS += mysystemtrayicon.h
-  #	SOURCES += mysystemtrayicon.cpp
-  #}
+	#contains( DEFINES, KDE_SUPPORT) {
+	# HEADERS += mysystemtrayicon.h
+	# SOURCES += mysystemtrayicon.cpp
+	#}
 
-  #HEADERS += 	prefassociations.h winfileassoc.h
-  #SOURCES += 	prefassociations.cpp winfileassoc.cpp
-  #FORMS += prefassociations.ui
+	#HEADERS += prefassociations.h winfileassoc.h
+	#SOURCES += prefassociations.cpp winfileassoc.cpp
+	#FORMS += prefassociations.ui
 }
 
 win32 {
@@ -273,8 +272,8 @@ win32 {
 	}
 	
 	contains( DEFINES, USE_ASSOCIATIONS ) {
-		HEADERS += 	prefassociations.h winfileassoc.h
-		SOURCES += 	prefassociations.cpp winfileassoc.cpp
+		HEADERS += prefassociations.h winfileassoc.h
+		SOURCES += prefassociations.cpp winfileassoc.cpp
 		FORMS += prefassociations.ui
 	}
 
