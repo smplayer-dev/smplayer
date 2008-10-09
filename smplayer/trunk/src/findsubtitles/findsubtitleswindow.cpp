@@ -318,8 +318,8 @@ void FindSubtitlesWindow::itemActivated(const QModelIndex & index ) {
 	qDebug("FindSubtitlesWindow::itemActivated: download link: '%s'", download_link.toLatin1().constData());
 
 #ifdef DOWNLOAD_ZIP
-	file_downloader->show();
 	file_downloader->download( QUrl(download_link) );
+	file_downloader->show();
 #else
 	QDesktopServices::openUrl( QUrl(download_link) );
 #endif
@@ -375,7 +375,7 @@ void FindSubtitlesWindow::archiveDownloaded(const QBuffer & buffer) {
 		QMessageBox::information(this, tr("File downloaded"),
                                  tr("File saved as: %1.").arg(filename));
 		*/
-		status->setText(QString("File saved as: %1.").arg(filename));
+		status->setText(QString("Temporary file %1").arg(filename));
 
 		QString lang = "unknown";
 		if (view->currentIndex().isValid()) {
@@ -386,7 +386,9 @@ void FindSubtitlesWindow::archiveDownloaded(const QBuffer & buffer) {
 		QFileInfo fi(file_chooser->text());
 		QString output_name = fi.absolutePath() +"/"+ fi.baseName() +"_"+ lang;
 
-		uncompressZip(filename, output_name);
+		if (!uncompressZip(filename, output_name)) {
+			status->setText(QString("Download failed"));
+		}
 		file.remove();
 	}
 	else {
@@ -434,7 +436,12 @@ bool FindSubtitlesWindow::uncompressZip(const QString & filename, const QString 
 			extension = QFileInfo(info.name).suffix();
 		}
 
-		if (!extractFile(zip, sub_files[0], preferred_output_name +"."+ extension)) return false;
+		QString output_name = preferred_output_name +"."+ extension;
+		if (extractFile(zip, sub_files[0], output_name)) {
+			status->setText(QString("Subtitle saved as %1").arg(output_name));
+		} else {
+			return false;
+		}
 	}
 
 	zip.close();
@@ -468,14 +475,18 @@ bool FindSubtitlesWindow::extractFile(QuaZip & zip, const QString & filename, co
 		return false;
     }
 
-	out.open(QIODevice::WriteOnly);
-	// Slow like hell (on GNU/Linux at least), but it is not my fault.
-	// Not ZIP/UNZIP package's fault either.
-	// The slowest thing here is out.putChar(c).
-	while(file.getChar(&c)) out.putChar(c);
-	out.close();
+	if (out.open(QIODevice::WriteOnly)) {
+		// Slow like hell (on GNU/Linux at least), but it is not my fault.
+		// Not ZIP/UNZIP package's fault either.
+		// The slowest thing here is out.putChar(c).
+		while(file.getChar(&c)) out.putChar(c);
+		out.close();
 
-	file.close();
+		file.close();
+	} else {
+		qWarning("FindSubtitlesWindow::extractFile: can't open %s for writing", output_name.toUtf8().constData());
+		return false;
+	}
 
 	return true;
 }
