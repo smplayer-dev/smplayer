@@ -49,6 +49,11 @@ contains( DEFINES, DOWNLOAD_ZIP ) {
 	           zip.c
 
 	LIBS += -lz
+	
+	win32 {
+		INCLUDEPATH += c:\development\zlib-1.2.3
+		LIBS += -Lc:\development\zlib-1.2.3
+	}
 }
 
 unix {
