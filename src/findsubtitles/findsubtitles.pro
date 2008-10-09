@@ -29,8 +29,10 @@ contains( DEFINES, DOWNLOAD_ZIP ) {
 	INCLUDEPATH += filedownloader quazip
 	DEPENDPATH += filedownloader quazip
 
-	HEADERS += filedownloader.h
-	SOURCES += filedownloader.cpp
+	HEADERS += filedownloader.h subchooserdialog.h
+	SOURCES += filedownloader.cpp subchooserdialog.cpp
+
+	FORMS += subchooserdialog.ui
 
 	HEADERS += crypt.h \
 	           ioapi.h \

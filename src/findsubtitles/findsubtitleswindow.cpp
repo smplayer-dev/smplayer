@@ -33,6 +33,7 @@
 
 #ifdef DOWNLOAD_ZIP
 #include "filedownloader.h"
+#include "subchooserdialog.h"
 #include "quazip.h"
 #include "quazipfile.h"
 #include <QTemporaryFile>
@@ -438,6 +439,21 @@ bool FindSubtitlesWindow::uncompressZip(const QString & filename, const QString 
 			status->setText(QString("Subtitle saved as %1").arg(preferred_output_name));
 		} else {
 			return false;
+		}
+	} else {
+		// More than one file
+		SubChooserDialog * d = new SubChooserDialog(this);
+
+		for (int n=0; n < sub_files.count(); n++) {
+			d->addFile(sub_files[n]);
+		}
+
+		if (d->exec() == QDialog::Rejected) return false;
+
+		QStringList files_to_extract = d->selectedFiles();
+		for (int n=0; n < files_to_extract.count(); n++) {
+			QString file = files_to_extract[n];
+			qDebug("FindSubtitlesWindow::uncompressZip: extracting %s", file.toUtf8().constData());
 		}
 	}
 
