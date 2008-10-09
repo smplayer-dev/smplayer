@@ -2183,7 +2183,7 @@ void Core::setBrightness(int value) {
 	if (value < -100) value = -100;
 
 	if (value != mset.brightness) {
-		tellmp("brightness " + QString::number(value) + " 1");
+		tellmp(pausing_prefix() + " brightness " + QString::number(value) + " 1");
 		mset.brightness = value;
 		displayMessage( tr("Brightness: %1").arg(value) );
 		emit videoEqualizerNeedsUpdate();
@@ -2198,7 +2198,7 @@ void Core::setContrast(int value) {
 	if (value < -100) value = -100;
 
 	if (value != mset.contrast) {
-		tellmp("contrast " + QString::number(value) + " 1");
+		tellmp(pausing_prefix() + " contrast " + QString::number(value) + " 1");
 		mset.contrast = value;
 		displayMessage( tr("Contrast: %1").arg(value) );
 		emit videoEqualizerNeedsUpdate();
@@ -2212,7 +2212,7 @@ void Core::setGamma(int value) {
 	if (value < -100) value = -100;
 
 	if (value != mset.gamma) {
-		tellmp("gamma " + QString::number(value) + " 1");
+		tellmp(pausing_prefix() + " gamma " + QString::number(value) + " 1");
 		mset.gamma= value;
 		displayMessage( tr("Gamma: %1").arg(value) );
 		emit videoEqualizerNeedsUpdate();
@@ -2226,7 +2226,7 @@ void Core::setHue(int value) {
 	if (value < -100) value = -100;
 
 	if (value != mset.hue) {
-		tellmp("hue " + QString::number(value) + " 1");
+		tellmp(pausing_prefix() + " hue " + QString::number(value) + " 1");
 		mset.hue = value;
 		displayMessage( tr("Hue: %1").arg(value) );
 		emit videoEqualizerNeedsUpdate();
@@ -2240,7 +2240,7 @@ void Core::setSaturation(int value) {
 	if (value < -100) value = -100;
 
 	if (value != mset.saturation) {
-		tellmp("saturation " + QString::number(value) + " 1");
+		tellmp(pausing_prefix() + " saturation " + QString::number(value) + " 1");
 		mset.saturation = value;
 		displayMessage( tr("Saturation: %1").arg(value) );
 		emit videoEqualizerNeedsUpdate();
