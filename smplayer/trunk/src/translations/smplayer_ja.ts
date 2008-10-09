@@ -1561,12 +1561,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="39"/>
         <source>Downloading...</source>
-        <translation type="unfinished">ダウンロードしています...</translation>
+        <translation>ダウンロード中...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="57"/>
         <source>Downloading %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 をダウンロードしています</translation>
     </message>
 </context>
 <context>
@@ -1792,22 +1792,22 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="439"/>
         <source>Subtitle saved as %1</source>
-        <translation type="unfinished"></translation>
+        <translation>字幕が %1 として保存されました</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="461"/>
         <source>%1 subtitle(s) extracted</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 個の字幕が展開されました</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="472"/>
         <source>Overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>上書きしますか?</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="473"/>
         <source>The file %1 already exits, overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル %1 はすでに存在します、上書きしますか?</translation>
     </message>
 </context>
 <context>
@@ -4178,7 +4178,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="751"/>
         <source>If this option is checked the initial volume will be set by using the &lt;i&gt;-volume&lt;/i&gt; option in MPlayer.&lt;br&gt; &lt;b&gt;WARNING: THE OFFICIAL MPLAYER DOESN&apos;T HAVE THAT &lt;i&gt;-volume&lt;/i&gt; OPTION, YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON&apos;T PLAY ANYTHING.&lt;/b&gt;</source>
-        <translation>このオプションがチェックされている場合初期の音量は MPlayer での &lt;i&gt;-volume&lt;/i&gt; の使用によって設定されます。&lt;br&gt; &lt;b&gt;警告: 公式の MPLAYER にその &lt;i&gt;-volume&lt;/i&gt; オプションがありません、パッチ済みのものを必要とします、でなければ MPLAYER は失敗し何も再生しません。&lt;/b&gt;</translation>
+        <translation>このオプションがチェックされている場合初期の音量は MPlayer での &lt;i&gt;-volume&lt;/i&gt; の使用によって設定されます。&lt;br&gt; &lt;b&gt;警告: 公式の MPLAYER にはその &lt;i&gt;-volume&lt;/i&gt; オプションがありません、パッチ済みのものを必要とします、でなければ MPLAYER は失敗し何も再生しません。&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="323"/>
@@ -5849,7 +5849,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../findsubtitles/quazip/quazipfile.cpp" line="141"/>
         <source>ZIP/UNZIP API error %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ZIP/UNZIP API エラー %1</translation>
     </message>
 </context>
 <context>
@@ -5898,22 +5898,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="13"/>
         <source>Subtitle selection</source>
-        <translation type="unfinished"></translation>
+        <translation>字幕の選択</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="19"/>
         <source>This archive contains more than one subtitle file. Please choose the ones you want to extract.</source>
-        <translation type="unfinished"></translation>
+        <translation>このアーカイブは 1 個以上の字幕ファイルを含みます。展開したいものを選択してください。</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="68"/>
         <source>Select All</source>
-        <translation type="unfinished">すべて選択</translation>
+        <translation>すべて選択</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="75"/>
         <source>Select None</source>
-        <translation type="unfinished">選択しない</translation>
+        <translation>選択しない</translation>
     </message>
 </context>
 <context>
