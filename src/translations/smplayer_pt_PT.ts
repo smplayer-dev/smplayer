@@ -313,7 +313,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="202"/>
         <source>&amp;Save</source>
-        <translation>&amp;Guardar</translation>
+        <translation>&amp;Gravar</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="205"/>
@@ -333,7 +333,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="427"/>
         <source>Confirm overwrite?</source>
-        <translation>Confirma a substituição?</translation>
+        <translation>Confirma substituição?</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="429"/>
@@ -355,7 +355,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../actionseditor.cpp" line="441"/>
         <source>The file couldn&apos;t be saved</source>
-        <translation>O ficheiro não pôde ser guardado</translation>
+        <translation>O ficheiro não pôde ser gravado</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="475"/>
@@ -1561,12 +1561,12 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="39"/>
         <source>Downloading...</source>
-        <translation type="unfinished">Transferindo...</translation>
+        <translation>Transferindo...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="57"/>
         <source>Downloading %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Transferindo %1</translation>
     </message>
 </context>
 <context>
@@ -1792,22 +1792,22 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="439"/>
         <source>Subtitle saved as %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Legenda gravada como %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="461"/>
         <source>%1 subtitle(s) extracted</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 legenda extraída</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="472"/>
         <source>Overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>Substituir?</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="473"/>
         <source>The file %1 already exits, overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>O ficheiro %1 já existe, substituir?</translation>
     </message>
 </context>
 <context>
@@ -2922,7 +2922,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../logwindow.cpp" line="91"/>
         <source>Confirm overwrite?</source>
-        <translation>Confirma a substituição?</translation>
+        <translation>Confirma substituição?</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="93"/>
@@ -2957,7 +2957,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../logwindowbase.ui" line="60"/>
         <source>Save</source>
-        <translation>Guardar</translation>
+        <translation>Gravar</translation>
     </message>
     <message>
         <location filename="../logwindowbase.ui" line="70"/>
@@ -3023,7 +3023,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../playlist.cpp" line="700"/>
         <source>Confirm overwrite?</source>
-        <translation>Confirma a substituição?</translation>
+        <translation>Confirma substituição?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="702"/>
@@ -3183,7 +3183,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../playlistpreferences.ui" line="46"/>
         <source>&amp;Save copy of playlist on exit</source>
-        <translation>&amp;Guardar cópia da lista de reprodução ao sair</translation>
+        <translation>&amp;Gravar cópia da lista de reprodução ao sair</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="25"/>
@@ -3241,7 +3241,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="434"/>
         <source>Log MPlayer output</source>
-        <translation>Guardar os logs de saída do MPlayer</translation>
+        <translation>Gravar logs de saída do MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="427"/>
@@ -3363,22 +3363,22 @@ As listas podem já conter expressões regulares para vários idiomas.</translat
     <message>
         <location filename="../prefadvanced.cpp" line="440"/>
         <source>Autosave MPlayer log</source>
-        <translation>Guardar automaticamente os logs do Mplayer</translation>
+        <translation>Gravar automaticamente logs do Mplayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="444"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation>Se esta opção for estiver marcada, os logs do MPlayer serão guardados no ficheiro especificado, cada vez que um novo ficheiro seja reproduzido. Servirá para aplicações externas obterem informações sobre o ficheiro reproduzido.</translation>
+        <translation>Se esta opção for estiver marcada, os logs do MPlayer serão gravados no ficheiro especificado, cada vez que um novo ficheiro seja reproduzido. Servirá para aplicações externas obterem informações sobre o ficheiro reproduzido.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="446"/>
         <source>Autosave MPlayer log filename</source>
-        <translation>Guardar automaticamente os logs do Mplayer</translation>
+        <translation>Gravar automaticamente logs do Mplayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="448"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
-        <translation>Introduza aqui o caminho e o nome do ficheiro para guardar os logs do MPlayer.</translation>
+        <translation>Introduza aqui o caminho e o nome do ficheiro para gravar logs do MPlayer.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="556"/>
@@ -4357,7 +4357,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="141"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Aqui pode alterar os atalhos de teclado. Para tal, faça duplo clique ou começe a escrever sobre um atalho. Opcionalmente também pode guardar a lista para partilhá-la com outras pessoas ou utilizá-la noutro computador.</translation>
+        <translation>Aqui pode alterar os atalhos de teclado. Para tal, faça duplo clique ou começe a escrever sobre um atalho. Opcionalmente também pode gravar a lista para partilhá-la com outras pessoas ou utilizá-la noutro computador.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="92"/>
@@ -4392,7 +4392,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="64"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Aqui pode alterar qualquer tecla de atalho. Para tal, faça duplo clique ou pressione enter em cima da célula. Opcionalmente pode guardar esta lista e partilhá-la com outros utilizadores ou carregá-la noutro computador.</translation>
+        <translation>Aqui pode alterar qualquer tecla de atalho. Para tal, faça duplo clique ou pressione enter em cima da célula. Opcionalmente pode gravar esta lista e partilhá-la com outros utilizadores ou carregá-la noutro computador.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="286"/>
@@ -4815,7 +4815,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="433"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
-        <translation>Se marcar esta opção, a posição e o tamanho da janela principal serão guardados e restaurados quando abrir novamente o SMPlayer.</translation>
+        <translation>Se marcar esta opção, a posição e o tamanho da janela principal serão gravados e restaurados quando abrir novamente o SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="438"/>
@@ -5850,7 +5850,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../findsubtitles/quazip/quazipfile.cpp" line="141"/>
         <source>ZIP/UNZIP API error %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Erro ZIP/UNZIP API %1</translation>
     </message>
 </context>
 <context>
@@ -5899,22 +5899,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="13"/>
         <source>Subtitle selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecção de legendas</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="19"/>
         <source>This archive contains more than one subtitle file. Please choose the ones you want to extract.</source>
-        <translation type="unfinished"></translation>
+        <translation>Este arquivo contém mais que 1 ficheiro de legendas. Por favor, escolha o que quer extrair.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="68"/>
         <source>Select All</source>
-        <translation type="unfinished">Seleccionar todos</translation>
+        <translation>Seleccionar todos</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="75"/>
         <source>Select None</source>
-        <translation type="unfinished">Desmarcar todos</translation>
+        <translation>Desmarcar todos</translation>
     </message>
 </context>
 <context>
