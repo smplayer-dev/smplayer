@@ -1,5 +1,19 @@
 [b]Version 0.6.4[/b]:
 
+(2008-10-09)
+ * Now the video keeps paused when changing brightness, contrast, hue, 
+   saturation and gamma.
+ * Now the dialog to find subtitles can also download the subtitles (the
+   zip file) and extract the subtitle file. This is exactly how it works:
+   when you click on the download button, the zip file is downloaded to a
+   temporary file. If the zip file contains only one subtitle, it's extracted, 
+   trying to use the same name of the video. So if the video is named movie.avi
+   and you downloaded a French subtitle, the subtitle is saved as movie_fr.srt.
+   If there are more than one subtitle in the zip file, a dialog will appear 
+   so the user can choose the subtitle(s) to extract. In that case, and in 
+   order not to make things more complicated, the subtitles are just saved 
+   with their original names.
+
 (2008-10-06)
  * (Windows) Added a tool (dxlist) which can list the dsound audio devices
    and the ddraw display devices. Read the README.txt inside the dxlist
