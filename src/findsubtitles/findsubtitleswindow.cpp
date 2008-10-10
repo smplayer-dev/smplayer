@@ -435,8 +435,10 @@ bool FindSubtitlesWindow::uncompressZip(const QString & filename, const QString 
 
 	if (sub_files.count() == 1) {
 		// If only one file, just extract it
-		if (extractFile(zip, sub_files[0], output_path +"/"+ preferred_output_name)) {
+		QString output_name = output_path +"/"+ preferred_output_name;
+		if (extractFile(zip, sub_files[0], output_name )) {
 			status->setText(tr("Subtitle saved as %1").arg(preferred_output_name));
+			emit subtitleDownloaded(output_name);
 		} else {
 			return false;
 		}
@@ -459,6 +461,9 @@ bool FindSubtitlesWindow::uncompressZip(const QString & filename, const QString 
 			if (ok) extracted_count++;
 		}
 		status->setText(tr("%1 subtitle(s) extracted").arg(extracted_count));
+		if (extracted_count > 0) {
+			emit subtitleDownloaded( output_path +"/"+ files_to_extract[0] );
+		}
 	}
 
 	zip.close();

@@ -74,6 +74,9 @@ protected:
 	virtual void changeEvent(QEvent * event);
 
 #ifdef DOWNLOAD_ZIP
+signals:
+	void subtitleDownloaded(const QString & filename);
+
 protected:
 	bool uncompressZip(const QString & filename, const QString & output_path, const QString & preferred_output_name);
 	bool extractFile(QuaZip & zip, const QString & filename, const QString & output_name);
