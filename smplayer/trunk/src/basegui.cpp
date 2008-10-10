@@ -3886,6 +3886,10 @@ void BaseGui::showFindSubtitlesDialog() {
 	if (!find_subs_dialog) {
 		find_subs_dialog = new FindSubtitlesWindow(0, Qt::Window | Qt::WindowMinMaxButtonsHint);
 		find_subs_dialog->setWindowIcon(windowIcon());
+#if DOWNLOAD_ZIP
+		connect(find_subs_dialog, SIGNAL(subtitleDownloaded(const QString &)),
+                core, SLOT(loadSub(const QString &)));
+#endif
 	}
 
 	find_subs_dialog->show();
