@@ -112,7 +112,14 @@ QList <QKeySequence> ActionsEditor::stringToShortcuts(QString shortcuts) {
 
 	for (int n=0; n < l.count(); n++) {
 		//qDebug("%s", l[n].toUtf8().data());
+#if QT_VERSION >= 0x040300 && QT_VERSION < 0x040400
+		// Qt 4.3 seems to have a problem when using Traditional Chinese
+		// QKeysequence deletes the arrow key names from the shortcut
+		// so this is a work-around.
+		QString s = l[n].simplified();
+#else
 		QString s = QKeySequence( l[n].simplified() );
+#endif
 		
 		//Work-around for Simplified-Chinese
 		s.replace( QString::fromUtf8("左"), "Left");
