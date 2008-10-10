@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1560,12 +1561,12 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="39"/>
         <source>Downloading...</source>
-        <translation type="unfinished">Se descarcă...</translation>
+        <translation>Se descarcă...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="57"/>
         <source>Downloading %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Se descarcă %1</translation>
     </message>
 </context>
 <context>
@@ -1789,22 +1790,22 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="439"/>
         <source>Subtitle saved as %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Subtitrare salvată ca %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="461"/>
         <source>%1 subtitle(s) extracted</source>
-        <translation type="unfinished"></translation>
+        <translation>subtutrări extrase: %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="472"/>
         <source>Overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>Scrieți peste?</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="473"/>
         <source>The file %1 already exits, overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>Fișierul %1 există, scrieți peste el?</translation>
     </message>
 </context>
 <context>
@@ -5643,37 +5644,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="333"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați codarea care va fi folosită implicit pentru fișierele de subtitrări.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="335"/>
         <source>Try to autodetect for this language</source>
-        <translation type="unfinished"></translation>
+        <translation>Pentru această limbă se va înceca autodetectarea</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="340"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Când este activată această opțiune, se va încerca autodetectarea codării pentru subtitrare pentru limba selectată. Dacă autodetectarea eșuează se va folosi codarea implicită a programului. Această opțiune are nevoie de MPlayer compilat cu suport ENCA.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="342"/>
         <source>Subtitle language</source>
-        <translation type="unfinished"></translation>
+        <translation>Limbă subtitrare</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="344"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați limba pentru care doriți să se facă detectarea automată a codării.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="141"/>
         <source>Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Codare</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="213"/>
         <source>Try to a&amp;utodetect for this language:</source>
-        <translation type="unfinished"></translation>
+        <translation>Încercați a&amp;utodetectarea pentru această limbă:</translation>
     </message>
 </context>
 <context>
@@ -5867,7 +5868,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../findsubtitles/quazip/quazipfile.cpp" line="141"/>
         <source>ZIP/UNZIP API error %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Eroare API ZIP/UNZIP %1</translation>
     </message>
 </context>
 <context>
@@ -5916,22 +5917,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="13"/>
         <source>Subtitle selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecție subtitrare</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="19"/>
         <source>This archive contains more than one subtitle file. Please choose the ones you want to extract.</source>
-        <translation type="unfinished"></translation>
+        <translation>Această arhivă conține mai mult de un fișier de subtitrare. Alegeți subtitrarea pe care doriți să o extrageți.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="68"/>
         <source>Select All</source>
-        <translation type="unfinished">Toate Selectate</translation>
+        <translation>Selectați tot</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="75"/>
         <source>Select None</source>
-        <translation type="unfinished">Niciunul Selectat</translation>
+        <translation>Niciunul selectat</translation>
     </message>
 </context>
 <context>
