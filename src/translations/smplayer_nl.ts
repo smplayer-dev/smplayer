@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="nl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -290,7 +291,7 @@
     <message>
         <location filename="../about.cpp" line="187"/>
         <source>Galician</source>
-        <translation type="unfinished">Galicisch</translation>
+        <translation>Galicisch</translation>
     </message>
 </context>
 <context>
@@ -1398,12 +1399,12 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="1342"/>
         <source>Scree&amp;n</source>
-        <translation type="unfinished"></translation>
+        <translation>Scher&amp;m</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1387"/>
         <source>&amp;Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Stan&amp;daard</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1165"/>
@@ -1561,12 +1562,12 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="39"/>
         <source>Downloading...</source>
-        <translation type="unfinished">Bezig met downloaden...</translation>
+        <translation>Bezig met downloaden...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="57"/>
         <source>Downloading %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 downloaden</translation>
     </message>
 </context>
 <context>
@@ -1792,22 +1793,22 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="439"/>
         <source>Subtitle saved as %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ondertitel opgeslagen als %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="461"/>
         <source>%1 subtitle(s) extracted</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ondertitel(s) uitgepakt</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="472"/>
         <source>Overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>Overschrijven?</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="473"/>
         <source>The file %1 already exits, overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>Het bestand %1 bestaat al, wilt u het overschrijven?</translation>
     </message>
 </context>
 <context>
@@ -4279,62 +4280,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="703"/>
         <source>Draw video using slices</source>
-        <translation type="unfinished"></translation>
+        <translation>Video tekenen met slices</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="707"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het tekenen van een video met 16 pixels hoge schijven/banden inschakelen/uitschakelen. Indien uitgeschakeld zal het hele frame getekend worden in één keer. Kan sneller of trager zijn, afhankelijk van de videokaart en beschikbare cache. Dit heeft alleen effect met de codecs libmpeg2 en libavcodec.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="514"/>
         <source>Dra&amp;w video using slices</source>
-        <translation type="unfinished"></translation>
+        <translation>Video te&amp;kenen met slices</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="292"/>
         <source>&amp;Close when finished playback</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sluitenwanneer klaar met afspelen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="256"/>
         <source>fast</source>
-        <translation type="unfinished"></translation>
+        <translation>snel</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="252"/>
         <source>slow</source>
-        <translation type="unfinished"></translation>
+        <translation>traag</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="249"/>
         <source>fastest</source>
-        <translation type="unfinished"></translation>
+        <translation>snelst</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="257"/>
         <source>fast - ATI cards</source>
-        <translation type="unfinished"></translation>
+        <translation>snel - ATI-kaarten</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="297"/>
         <source>User defined...</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruikersgedefinieerd...</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="683"/>
         <source>Default zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Standaard zoom</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="685"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Deze optie stelt de standaard zoom in die voor nieuwe video&apos;s zal worden gebruikt.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="445"/>
         <source>Default &amp;zoom:</source>
-        <translation type="unfinished"></translation>
+        <translation>Standaard &amp;zoom:</translation>
     </message>
 </context>
 <context>
@@ -5626,37 +5627,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="333"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecteer de codering die standaard voor ondertitelbestanden zal worden gebruikt.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="335"/>
         <source>Try to autodetect for this language</source>
-        <translation type="unfinished"></translation>
+        <translation>Probeer te autodetecteren voor deze taal</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="340"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als deze optie aan staat zal de codering voor ondertitels geprobeerd te worden geautodetecteerd voor de gegeven taal. Het zal terugvallen naar standaard codering als dit niet lukt. Deze optie vereist een MPlayer die is gecompileerd met ondersteuning voor ENCA.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="342"/>
         <source>Subtitle language</source>
-        <translation type="unfinished"></translation>
+        <translation>Taal van ondertitel</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="344"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecteer de taal waarvan u wilt dat de codering automatisch voor wordt gegokt.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="141"/>
         <source>Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Codering</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="213"/>
         <source>Try to a&amp;utodetect for this language:</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;utomatisch proberen te detecteren voor deze taal:</translation>
     </message>
 </context>
 <context>
@@ -5850,7 +5851,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../findsubtitles/quazip/quazipfile.cpp" line="141"/>
         <source>ZIP/UNZIP API error %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ZIP/UNZIP API-fout %1</translation>
     </message>
 </context>
 <context>
@@ -5899,22 +5900,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="13"/>
         <source>Subtitle selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Ondertitelselectie</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="19"/>
         <source>This archive contains more than one subtitle file. Please choose the ones you want to extract.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit archief bevat meer dan één ondertitelbestand. Kies a.u.b. diegenen die u wilt uitpakken.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="68"/>
         <source>Select All</source>
-        <translation type="unfinished">Alles selecteren</translation>
+        <translation>Alles selecteren</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="75"/>
         <source>Select None</source>
-        <translation type="unfinished">Niets selecteren</translation>
+        <translation>Niets selecteren</translation>
     </message>
 </context>
 <context>
