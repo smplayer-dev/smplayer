@@ -5883,7 +5883,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <location filename="../corelib/helper.cpp" line="237"/>
         <source>%1 second(s)</source>
         <translation>
-            <numerusform>%1 Sekunde(n)</numerusform>
+            <numerusform>%1 Sekunde</numerusform>
             <numerusform>%1 Sekunden</numerusform>
         </translation>
     </message>
@@ -5891,7 +5891,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <location filename="../corelib/helper.cpp" line="236"/>
         <source>%1 minute(s)</source>
         <translation>
-            <numerusform>%1 Minute(n)</numerusform>
+            <numerusform>%1 Minute</numerusform>
             <numerusform>%1 Minuten</numerusform>
         </translation>
     </message>
