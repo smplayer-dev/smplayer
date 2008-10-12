@@ -296,74 +296,74 @@
 <context>
     <name>ActionsEditor</name>
     <message>
-        <location filename="../actionseditor.cpp" line="200"/>
+        <location filename="../actionseditor.cpp" line="207"/>
         <source>Name</source>
         <translation>名字</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="200"/>
+        <location filename="../actionseditor.cpp" line="207"/>
         <source>Description</source>
         <translation>描述</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="200"/>
+        <location filename="../actionseditor.cpp" line="207"/>
         <source>Shortcut</source>
         <translation>快捷键</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="202"/>
+        <location filename="../actionseditor.cpp" line="209"/>
         <source>&amp;Save</source>
         <translation>保存(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="205"/>
+        <location filename="../actionseditor.cpp" line="212"/>
         <source>&amp;Load</source>
         <translation>加载(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="468"/>
+        <location filename="../actionseditor.cpp" line="475"/>
         <source>Key files</source>
         <translation>Key 文件</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="416"/>
+        <location filename="../actionseditor.cpp" line="423"/>
         <source>Choose a filename</source>
         <translation>选择一个文件名</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="427"/>
+        <location filename="../actionseditor.cpp" line="434"/>
         <source>Confirm overwrite?</source>
         <translation>是否覆盖?</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="429"/>
+        <location filename="../actionseditor.cpp" line="436"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>文件 %1 己存在。
 是否覆盖?</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="467"/>
+        <location filename="../actionseditor.cpp" line="474"/>
         <source>Choose a file</source>
         <translation>选择一个文件</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="474"/>
+        <location filename="../actionseditor.cpp" line="481"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="441"/>
+        <location filename="../actionseditor.cpp" line="448"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>不能保存文件</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="475"/>
+        <location filename="../actionseditor.cpp" line="482"/>
         <source>The file couldn&apos;t be loaded</source>
         <translation>不能加载文件</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="209"/>
+        <location filename="../actionseditor.cpp" line="216"/>
         <source>&amp;Change shortcut...</source>
         <translation>修改快捷键(&amp;C)...</translation>
     </message>
@@ -1790,22 +1790,24 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>刷新(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="439"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="440"/>
         <source>Subtitle saved as %1</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="461"/>
+    <message numerus="yes">
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="463"/>
         <source>%1 subtitle(s) extracted</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="472"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="477"/>
         <source>Overwrite?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="473"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="478"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation type="unfinished"></translation>
     </message>

@@ -296,74 +296,74 @@
 <context>
     <name>ActionsEditor</name>
     <message>
-        <location filename="../actionseditor.cpp" line="200"/>
+        <location filename="../actionseditor.cpp" line="207"/>
         <source>Name</source>
         <translation type="unfinished">الأسم</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="200"/>
+        <location filename="../actionseditor.cpp" line="207"/>
         <source>Description</source>
         <translation type="unfinished">الوصف</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="200"/>
+        <location filename="../actionseditor.cpp" line="207"/>
         <source>Shortcut</source>
         <translation type="unfinished">الأختصار</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="202"/>
+        <location filename="../actionseditor.cpp" line="209"/>
         <source>&amp;Save</source>
         <translation type="unfinished">حفظ</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="205"/>
+        <location filename="../actionseditor.cpp" line="212"/>
         <source>&amp;Load</source>
         <translation type="unfinished">تحميل</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="468"/>
+        <location filename="../actionseditor.cpp" line="475"/>
         <source>Key files</source>
         <translation type="unfinished">مفاتيح الملفات</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="416"/>
+        <location filename="../actionseditor.cpp" line="423"/>
         <source>Choose a filename</source>
         <translation type="unfinished">اختيار اسم ملف</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="427"/>
+        <location filename="../actionseditor.cpp" line="434"/>
         <source>Confirm overwrite?</source>
         <translation type="unfinished">تأكيد الأستبدال</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="429"/>
+        <location filename="../actionseditor.cpp" line="436"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation type="unfinished">
  الملف %1 موجود مسبقا ًهل تريد استبداله ؟ </translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="467"/>
+        <location filename="../actionseditor.cpp" line="474"/>
         <source>Choose a file</source>
         <translation type="unfinished">اختر ملفا </translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="474"/>
+        <location filename="../actionseditor.cpp" line="481"/>
         <source>Error</source>
         <translation type="unfinished">خطـــأ</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="441"/>
+        <location filename="../actionseditor.cpp" line="448"/>
         <source>The file couldn&apos;t be saved</source>
         <translation type="unfinished">لا يمكن حفظ الملف</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="475"/>
+        <location filename="../actionseditor.cpp" line="482"/>
         <source>The file couldn&apos;t be loaded</source>
         <translation type="unfinished">لا يمكن تحميل الملف</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="209"/>
+        <location filename="../actionseditor.cpp" line="216"/>
         <source>&amp;Change shortcut...</source>
         <translation type="unfinished">تغيير الأختصــار</translation>
     </message>
@@ -1791,22 +1791,25 @@ Example: resample=44100:0:0,volnorm</source>
         <translation type="unfinished">تحديث</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="439"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="440"/>
         <source>Subtitle saved as %1</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="461"/>
+    <message numerus="yes">
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="463"/>
         <source>%1 subtitle(s) extracted</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="472"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="477"/>
         <source>Overwrite?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="473"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="478"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation type="unfinished"></translation>
     </message>
