@@ -5731,42 +5731,42 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../corelib/helper.cpp" line="232"/>
         <source>1 second</source>
-        <translation>1 Sekunde</translation>
+        <translation type="obsolete">1 Sekunde</translation>
     </message>
     <message>
         <location filename="../corelib/helper.cpp" line="234"/>
         <source>%1 seconds</source>
-        <translation>%1 Sekunden</translation>
+        <translation type="obsolete">%1 Sekunden</translation>
     </message>
     <message>
         <location filename="../corelib/helper.cpp" line="247"/>
         <source>%1 minutes</source>
-        <translation>%1 Minuten</translation>
+        <translation type="obsolete">%1 Minuten</translation>
     </message>
     <message>
         <location filename="../corelib/helper.cpp" line="252"/>
         <source>%1 minutes and %2 seconds</source>
-        <translation>%1 Minuten und %2 Sekunden</translation>
+        <translation type="obsolete">%1 Minuten und %2 Sekunden</translation>
     </message>
     <message>
         <location filename="../corelib/helper.cpp" line="239"/>
         <source>1 minute</source>
-        <translation>1 Minute</translation>
+        <translation type="obsolete">1 Minute</translation>
     </message>
     <message>
         <location filename="../corelib/helper.cpp" line="242"/>
         <source>1 minute and 1 second</source>
-        <translation>1 Minute und 1 Sekunde</translation>
+        <translation type="obsolete">1 Minute und 1 Sekunde</translation>
     </message>
     <message>
         <location filename="../corelib/helper.cpp" line="244"/>
         <source>1 minute and %1 seconds</source>
-        <translation>1 Minute und %1 Sekunden</translation>
+        <translation type="obsolete">1 Minute und %1 Sekunden</translation>
     </message>
     <message>
         <location filename="../corelib/helper.cpp" line="250"/>
         <source>%1 minutes and 1 second</source>
-        <translation>%1 Minuten und 1 Sekunde</translation>
+        <translation type="obsolete">%1 Minuten und 1 Sekunde</translation>
     </message>
     <message>
         <location filename="../smplayer.cpp" line="305"/>
@@ -5877,6 +5877,27 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <location filename="../clhelp.cpp" line="151"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
         <translation>Spezifiziert die zu ladende Untertiteldatei für das erste Video.</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../corelib/helper.cpp" line="237"/>
+        <source>%1 second(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../corelib/helper.cpp" line="236"/>
+        <source>%1 minute(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../corelib/helper.cpp" line="238"/>
+        <source>%1 and %2</source>
+        <translation type="unfinished">%1 and %2</translation>
     </message>
 </context>
 <context>
