@@ -228,29 +228,14 @@ QString Helper::timeForJumps(int secs) {
 	int seconds = secs % 60;
 
 	if (minutes==0) {
-		if (seconds==1) 
-			return QObject::tr("1 second");
-		else
-			return QObject::tr("%1 seconds").arg(seconds);
-	}
-	else {
-		if (minutes==1) {
-			if (seconds==0) 
-				return QObject::tr("1 minute");
-			else
-			if (seconds==1) 
-				return QObject::tr("1 minute and 1 second");
-			else
-				return QObject::tr("1 minute and %1 seconds").arg(seconds);
-		} else {
-			if (seconds==0) 
-				return QObject::tr("%1 minutes").arg(minutes);
-			else
-			if (seconds==1) 
-				return QObject::tr("%1 minutes and 1 second").arg(minutes);
-			else
-				return QObject::tr("%1 minutes and %2 seconds").arg(minutes)
-	                                                           .arg(seconds);
+		return QObject::tr("%1 second(s)", "", seconds).arg(seconds);
+	} else {
+		if (seconds==0) 
+			return QObject::tr("%1 minute(s)", "", minutes).arg(minutes);
+		else {
+			QString m = QObject::tr("%1 minute(s)", "", minutes).arg(minutes);
+			QString s = QObject::tr("%1 second(s)", "", seconds).arg(seconds);
+			return QObject::tr("%1 and %2").arg(m).arg(s);
 		}
 	}
 }
