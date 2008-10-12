@@ -460,7 +460,7 @@ bool FindSubtitlesWindow::uncompressZip(const QString & filename, const QString 
 			qDebug("FindSubtitlesWindow::uncompressZip: extracted %s ok: %d", file.toUtf8().constData(), ok);
 			if (ok) extracted_count++;
 		}
-		status->setText(tr("%1 subtitle(s) extracted").arg(extracted_count));
+		status->setText(tr("%1 subtitle(s) extracted","", extracted_count).arg(extracted_count));
 		if (extracted_count > 0) {
 			emit subtitleDownloaded( output_path +"/"+ files_to_extract[0] );
 		}
