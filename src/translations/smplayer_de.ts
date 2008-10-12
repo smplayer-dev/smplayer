@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="de">
+<!DOCTYPE TS><TS version="1.1" language="de_DE">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1798,9 +1799,9 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="463"/>
         <source>%1 subtitle(s) extracted</source>
-        <translation type="unfinished">
-            <numerusform>%1Untertitel extrahiert</numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 Untertitel extrahiert</numerusform>
+            <numerusform>%1 Untertitel extrahiert</numerusform>
         </translation>
     </message>
     <message>
@@ -5881,23 +5882,23 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message numerus="yes">
         <location filename="../corelib/helper.cpp" line="237"/>
         <source>%1 second(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 Sekunde(n)</numerusform>
+            <numerusform>%1 Sekunden</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../corelib/helper.cpp" line="236"/>
         <source>%1 minute(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 Minute(n)</numerusform>
+            <numerusform>%1 Minuten</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../corelib/helper.cpp" line="238"/>
         <source>%1 and %2</source>
-        <translation type="unfinished">%1 and %2</translation>
+        <translation>%1 und %2</translation>
     </message>
 </context>
 <context>
