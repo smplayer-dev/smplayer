@@ -1797,9 +1797,9 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="463"/>
         <source>%1 subtitle(s) extracted</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform>%1 legenda extraída</numerusform>
-            <numerusform></numerusform>
+            <numerusform>%1 legendas extraídas</numerusform>
         </translation>
     </message>
     <message>
@@ -5850,23 +5850,23 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message numerus="yes">
         <location filename="../corelib/helper.cpp" line="237"/>
         <source>%1 second(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 segundo</numerusform>
+            <numerusform>%1 segundos</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../corelib/helper.cpp" line="236"/>
         <source>%1 minute(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 minuto</numerusform>
+            <numerusform>%1 minutos</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../corelib/helper.cpp" line="238"/>
         <source>%1 and %2</source>
-        <translation type="unfinished">%1 e %2 </translation>
+        <translation>%1 e %2 </translation>
     </message>
 </context>
 <context>
