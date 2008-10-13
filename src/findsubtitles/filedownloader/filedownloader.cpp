@@ -40,7 +40,7 @@ FileDownloader::FileDownloader(QWidget *parent) : QProgressDialog(parent)
 }
 
 FileDownloader::~FileDownloader() {
-	qDebug("FileDownloader::~FileDownloader");
+	//qDebug("FileDownloader::~FileDownloader");
 	delete http;
 }
 
