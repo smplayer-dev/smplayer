@@ -12,7 +12,7 @@ DEPENDPATH += corelib findsubtitles
 
 #DEFINES += USE_QXT
 
-DEFINES += DOWNLOAD_ZIP
+DEFINES += DOWNLOAD_SUBS
 
 HEADERS += guiconfig.h \
 	corelib/config.h \
@@ -203,7 +203,7 @@ TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_de.ts \
                translations/smplayer_ar_SY.ts translations/smplayer_ku.ts \
                translations/smplayer_gl.ts
 
-contains( DEFINES, DOWNLOAD_ZIP ) {
+contains( DEFINES, DOWNLOAD_SUBS ) {
 	INCLUDEPATH += findsubtitles/filedownloader findsubtitles/quazip
 	DEPENDPATH += findsubtitles/filedownloader findsubtitles/quazip
 
