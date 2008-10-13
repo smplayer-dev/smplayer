@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="uk">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1013,12 +1014,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1170"/>
         <source>Move &amp;left</source>
-        <translation>Змістити &amp;вліво</translation>
+        <translation>Змістити &amp;ліворуч</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1171"/>
         <source>Move &amp;right</source>
-        <translation>Змістити &amp;вправо</translation>
+        <translation>Змістити &amp;праворуч</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1172"/>
@@ -1447,42 +1448,42 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../corelib/core.cpp" line="2188"/>
+        <location filename="../core.cpp" line="2188"/>
         <source>Brightness: %1</source>
         <translation>Яскравість: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2203"/>
+        <location filename="../core.cpp" line="2203"/>
         <source>Contrast: %1</source>
-        <translation>Контрастість: %1</translation>
+        <translation>Контрасність: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2217"/>
+        <location filename="../core.cpp" line="2217"/>
         <source>Gamma: %1</source>
         <translation>Гама: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2231"/>
+        <location filename="../core.cpp" line="2231"/>
         <source>Hue: %1</source>
         <translation>Колір: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2245"/>
+        <location filename="../core.cpp" line="2245"/>
         <source>Saturation: %1</source>
         <translation>Насиченість: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2365"/>
+        <location filename="../core.cpp" line="2365"/>
         <source>Volume: %1</source>
         <translation>Гучність: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="3165"/>
+        <location filename="../core.cpp" line="3165"/>
         <source>Zoom: %1</source>
         <translation>Масштаб: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2484"/>
+        <location filename="../core.cpp" line="2484"/>
         <source>Font scale: %1</source>
         <translation>Масштаб шрифта: %1</translation>
     </message>
@@ -1807,10 +1808,10 @@ Example: resample=44100:0:0,volnorm</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="463"/>
         <source>%1 subtitle(s) extracted</source>
-        <translation type="unfinished">
-            <numerusform>Витягнуті субтитри: %1</numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Витягнений %1 субтитр</numerusform>
+            <numerusform>Витягнені %1 субтитри</numerusform>
+            <numerusform>Витягнені %1 субтитрів</numerusform>
         </translation>
     </message>
 </context>
@@ -1819,42 +1820,42 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../testcorelib/test.cpp" line="38"/>
         <source>&amp;Open...</source>
-        <translation type="obsolete">&amp;Відкрити...</translation>
+        <translation>&amp;Відкрити...</translation>
     </message>
     <message>
         <location filename="../testcorelib/test.cpp" line="41"/>
         <source>&amp;Close</source>
-        <translation type="obsolete">&amp;Закрити</translation>
+        <translation>&amp;Закрити</translation>
     </message>
     <message>
         <location filename="../testcorelib/test.cpp" line="44"/>
         <source>&amp;Open</source>
-        <translation type="obsolete">&amp;Відкрити</translation>
+        <translation>&amp;Відкрити</translation>
     </message>
     <message>
         <location filename="../testcorelib/test.cpp" line="48"/>
         <source>&amp;Play/Pause</source>
-        <translation type="obsolete">&amp;Відтворити/Пауза</translation>
+        <translation>&amp;Відтворити/Пауза</translation>
     </message>
     <message>
         <location filename="../testcorelib/test.cpp" line="53"/>
         <source>&amp;Stop</source>
-        <translation type="obsolete">&amp;Зупинити</translation>
+        <translation>&amp;Зупинити</translation>
     </message>
     <message>
         <location filename="../testcorelib/test.cpp" line="57"/>
         <source>&amp;Play</source>
-        <translation type="obsolete">Від&amp;творити</translation>
+        <translation>Від&amp;творити</translation>
     </message>
     <message>
         <location filename="../testcorelib/test.cpp" line="68"/>
         <source>Control</source>
-        <translation type="obsolete">Керування</translation>
+        <translation>Керування</translation>
     </message>
     <message>
         <location filename="../testcorelib/test.cpp" line="86"/>
         <source>Open file</source>
-        <translation type="obsolete">Відкрити файл</translation>
+        <translation>Відкрити файл</translation>
     </message>
 </context>
 <context>
@@ -4064,7 +4065,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="665"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, play will be resumed.</source>
-        <translation>Якщо це опція увімкнена, файл буде призупинений коли головне вікно сховане. Коли вікно відновиться, відтворення буде відновлене.</translation>
+        <translation>Якщо це опція увімкнена, файл буде призупинений, коли головне вікно сховане. Коли вікно відновиться, відтворення буде відновлене.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="671"/>
@@ -5585,11 +5586,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Кодування субтитрів за замовчуванням</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="302"/>
-        <source>Select the encoding which will be used for subtitle files.</source>
-        <translation type="obsolete">Виберіть кодування для файлів субтитрів.</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="352"/>
         <source>Include subtitles on screenshots</source>
         <translation>Включати субтитри до знімків екрану</translation>
@@ -5736,46 +5732,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../corelib/helper.cpp" line="232"/>
-        <source>1 second</source>
-        <translation type="obsolete">1 секунда</translation>
-    </message>
-    <message>
-        <location filename="../corelib/helper.cpp" line="234"/>
-        <source>%1 seconds</source>
-        <translation type="obsolete">%1 секунд</translation>
-    </message>
-    <message>
-        <location filename="../corelib/helper.cpp" line="247"/>
-        <source>%1 minutes</source>
-        <translation type="obsolete">%1 хвилин</translation>
-    </message>
-    <message>
-        <location filename="../corelib/helper.cpp" line="252"/>
-        <source>%1 minutes and %2 seconds</source>
-        <translation type="obsolete">%1 хвилин %2 секунд</translation>
-    </message>
-    <message>
-        <location filename="../corelib/helper.cpp" line="239"/>
-        <source>1 minute</source>
-        <translation type="obsolete">1 хвилина</translation>
-    </message>
-    <message>
-        <location filename="../corelib/helper.cpp" line="242"/>
-        <source>1 minute and 1 second</source>
-        <translation type="obsolete">1 хвилина та 1 секунда</translation>
-    </message>
-    <message>
-        <location filename="../corelib/helper.cpp" line="244"/>
-        <source>1 minute and %1 seconds</source>
-        <translation type="obsolete">1 хвилина %1 секунд</translation>
-    </message>
-    <message>
-        <location filename="../corelib/helper.cpp" line="250"/>
-        <source>%1 minutes and 1 second</source>
-        <translation type="obsolete">%1 хвилин 1 секунда</translation>
-    </message>
-    <message>
         <location filename="../smplayer.cpp" line="305"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Це SMPlayer v. %1 запущений на %2</translation>
@@ -5886,27 +5842,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>визначає файл з субтитрами, що завантажується для першого відео.</translation>
     </message>
     <message numerus="yes">
-        <location filename="../corelib/helper.cpp" line="237"/>
+        <location filename="../helper.cpp" line="237"/>
         <source>%1 second(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 секунда</numerusform>
+            <numerusform>%1 секунди</numerusform>
+            <numerusform>%1 секунд</numerusform>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../corelib/helper.cpp" line="236"/>
+        <location filename="../helper.cpp" line="236"/>
         <source>%1 minute(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 хвилина</numerusform>
+            <numerusform>%1 хвилини</numerusform>
+            <numerusform>%1 хвилин</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../corelib/helper.cpp" line="238"/>
+        <location filename="../helper.cpp" line="238"/>
         <source>%1 and %2</source>
-        <translation type="unfinished">%1 та %2</translation>
+        <translation>%1 та %2</translation>
     </message>
 </context>
 <context>
