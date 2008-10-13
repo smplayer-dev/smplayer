@@ -2,6 +2,7 @@
 Categories=Qt;AudioVideo;Player;Video;
 Comment=A great MPlayer front-end
 Comment[es]=A great MPlayer front-end
+Comment[it]=Un grande front-end per MPlayer
 Comment[ja]=MPlayer フロントエンド
 Comment[nl]=Een uitstekend frontend voor MPlayer
 Comment[pl]=Świetna nakładka na Mplayer
@@ -9,6 +10,7 @@ Comment[ru_RU]=Мощный интерфейс для MPlayer
 Exec=smplayer %f
 GenericName=A great MPlayer front-end
 GenericName[es]=A great MPlayer front-end
+GenericName[it]=Un grande front-end per MPlayer
 GenericName[ja]=MPlayer フロントエンド
 GenericName[nl]=Een uitstekend frontend voor MPlayer
 GenericName[pl]=Świetna nakładka na Mplayer

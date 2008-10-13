@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="it">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -10,12 +11,12 @@
     <message>
         <location filename="../about.cpp" line="92"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
-        <translation>Questo programma è  free software; è possibile modificarlo e/o ridistribuirlo sotto i termini della licenza GNU General Public License come indicato dalla Free Software Foundation; sia la versione 2 della licenza, o (a vostra scelta) ogni successiva versione.</translation>
+        <translation>Questo programma è free software; è possibile modificarlo e/o ridistribuirlo sotto i termini della licenza GNU General Public License come indicato dalla Free Software Foundation; sia la versione 2 della licenza, o (a vostra scelta) ogni successiva versione.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="99"/>
         <source>Some people have helped with their contributions:</source>
-        <translation>Alcune persone hanno contribuito con il loro aiuto:</translation>
+        <translation>Alcune persone hanno aiutato con i loro contribuiti:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="100"/>
@@ -80,7 +81,7 @@
     <message>
         <location filename="../about.cpp" line="150"/>
         <source>Simplified-Chinese</source>
-        <translation>Cinese Semplificato</translation>
+        <translation>Cinese semplificato</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="151"/>
@@ -155,7 +156,7 @@
     <message>
         <location filename="../about.cpp" line="173"/>
         <source>Traditional Chinese</source>
-        <translation>Cinese Tradizionale</translation>
+        <translation>Cinese tradizionale</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="174"/>
@@ -285,12 +286,12 @@
     <message>
         <location filename="../about.cpp" line="186"/>
         <source>Kurdish</source>
-        <translation type="unfinished">Curdo</translation>
+        <translation>Curdo</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="187"/>
         <source>Galician</source>
-        <translation type="unfinished">Galiziano</translation>
+        <translation>Galiziano</translation>
     </message>
 </context>
 <context>
@@ -686,7 +687,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1430"/>
         <source>&amp;View logs</source>
-        <translation>&amp;Vedi logs</translation>
+        <translation>&amp;Vedi log</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1240"/>
@@ -1274,7 +1275,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="3853"/>
         <source>MPlayer has finished unexpectedly.</source>
-        <translation>Mplayer si è fermato inaspettatamente.</translation>
+        <translation>MPlayer si è fermato inaspettatamente.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3854"/>
@@ -1284,7 +1285,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="3871"/>
         <source>MPlayer failed to start.</source>
-        <translation>Mplayer non è riuscito a partire.</translation>
+        <translation>MPlayer non è riuscito a partire.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3872"/>
@@ -1294,7 +1295,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="3874"/>
         <source>MPlayer has crashed.</source>
-        <translation>Mplayer è andato in crash.</translation>
+        <translation>MPlayer è andato in crash.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3875"/>
@@ -1309,7 +1310,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="1380"/>
         <source>&amp;Off</source>
-        <translation>&amp;Spento</translation>
+        <translation>&amp;Disattivo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1381"/>
@@ -1399,12 +1400,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="1342"/>
         <source>Scree&amp;n</source>
-        <translation type="unfinished"></translation>
+        <translation>Sche&amp;rmo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1387"/>
         <source>&amp;Default</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Predefinito</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1165"/>
@@ -1562,12 +1563,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="39"/>
         <source>Downloading...</source>
-        <translation type="unfinished">Scaricamento...</translation>
+        <translation>Scaricamento...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="57"/>
         <source>Downloading %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Scaricamento %1</translation>
     </message>
 </context>
 <context>
@@ -1620,7 +1621,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../filepropertiesdialog.ui" line="239"/>
         <source>&amp;MPlayer options</source>
-        <translation>Opzioni &amp;Mplayer</translation>
+        <translation>Opzioni &amp;MPlayer</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="251"/>
@@ -1632,7 +1633,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation>Qui si possono passare opzioni extra a Mplayer.
+        <translation>Qui si possono passare opzioni extra a MPlayer.
 Scriverle separate da spazi.
 Esempio: -flip -nosound</translation>
     </message>
@@ -1793,7 +1794,7 @@ Esempio:resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="440"/>
         <source>Subtitle saved as %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Sottotitoli salvati come %1</translation>
     </message>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="463"/>
@@ -1806,12 +1807,12 @@ Esempio:resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="477"/>
         <source>Overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>Sovrascrivi?</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="478"/>
         <source>The file %1 already exits, overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>Il file %1 esiste già, sovrascrivere?</translation>
     </message>
 </context>
 <context>
@@ -2943,12 +2944,12 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../logwindow.cpp" line="112"/>
         <source>The log couldn&apos;t be saved</source>
-        <translation>Non é stato possibile salvare il log</translation>
+        <translation>Non è stato possibile salvare il log</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="86"/>
         <source>Logs</source>
-        <translation>Logs</translation>
+        <translation>Log</translation>
     </message>
 </context>
 <context>
@@ -3255,18 +3256,18 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="591"/>
         <source>This option is mainly intended for debugging the application.</source>
-        <translation>Questa opzione é pensata principalmente per scopi di debug.</translation>
+        <translation>Questa opzione è pensata principalmente per scopi di debug.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="431"/>
         <source>&amp;MPlayer language</source>
-        <translation>Lingua &amp;Mplayer</translation>
+        <translation>Lingua &amp;MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="443"/>
         <source>SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br&gt;&lt;br&gt;
 The drop-down lists may provide already made regular expression for several languages.</source>
-        <translation>SMPlayer ha bisogno di leggere l&apos;output di MPlayer e talvolta fa affidamento sulla lingua inglese.Se stai usando  MPlayer tradotto in un&apos;altra lingua, allora devi cambiare il testo cercato da SMplayer. (Tecnicamente, bisogna inserire una espressione regolare)&lt;br&gt;&lt;br&gt;
+        <translation>SMPlayer ha bisogno di leggere l&apos;output di MPlayer e talvolta fa affidamento sulla lingua inglese.Se stai usando  MPlayer tradotto in un&apos;altra lingua, allora devi cambiare il testo cercato da SMPlayer. (Tecnicamente, bisogna inserire una espressione regolare)&lt;br&gt;&lt;br&gt;
 La lista può fornire delle espressioni regolari già fatte per alcune lingue.</translation>
     </message>
     <message>
@@ -3282,7 +3283,7 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefadvanced.cpp" line="432"/>
         <source>If this option is checked, smplayer will store the debugging messages that smplayer outputs (you can see the log in &lt;b&gt;Options-&gt;View logs-&gt;smplayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation>Se questa opzione é selezionata, smplayer salverà i messaggi di debug (puoi visualizzarlo in &lt;b&gt;Opzioni-&gt;Vedi logs-&gt;smplayer&lt;/b&gt;). Queste informazioni possono essere utili per gli sviluppatori nel caso trovino un bug.</translation>
+        <translation>Se questa opzione è selezionata, smplayer salverà i messaggi di debug (puoi visualizzarlo in &lt;b&gt;Opzioni-&gt;Vedi logs-&gt;smplayer&lt;/b&gt;). Queste informazioni possono essere utili per gli sviluppatori nel caso trovino un bug.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="450"/>
@@ -3302,7 +3303,7 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefadvanced.ui" line="131"/>
         <source>&amp;Run MPlayer in its own window</source>
-        <translation>&amp;Esegui Mplayer nella sua finestra</translation>
+        <translation>&amp;Esegui MPlayer nella sua finestra</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="276"/>
@@ -3417,7 +3418,7 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefadvanced.cpp" line="366"/>
         <source>Run MPlayer in its own window</source>
-        <translation>Esegui Mplayer nella sua finestra</translation>
+        <translation>Esegui MPlayer nella sua finestra</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="372"/>
@@ -3447,7 +3448,7 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefadvanced.cpp" line="407"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
-        <translation>Qui si possono passare opzioni a Mplayer. Scriverle separate da spazi.</translation>
+        <translation>Qui si possono passare opzioni a MPlayer. Scriverle separate da spazi.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="409"/>
@@ -3457,7 +3458,7 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefadvanced.cpp" line="411"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation>Qui si possono aggiungere filtri video  a Mplayer. Scrivili separati da virgole. Non usare spazi!</translation>
+        <translation>Qui si possono aggiungere filtri video a MPlayer. Scrivili separati da virgole. Non usare spazi!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="413"/>
@@ -3467,12 +3468,12 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefadvanced.cpp" line="415"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation>Qui si possono aggiungere filtri audio  a Mplayer. Scrivili separati da virgole. Non usare spazi!</translation>
+        <translation>Qui si possono aggiungere filtri audio a MPlayer. Scrivili separati da virgole. Non usare spazi!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="417"/>
         <source>MPlayer language</source>
-        <translation>Lingua Mplayer</translation>
+        <translation>Lingua MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="419"/>
@@ -3542,22 +3543,22 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefadvanced.ui" line="530"/>
         <source>Lo&amp;gs</source>
-        <translation type="unfinished"></translation>
+        <translation>Lo&amp;g</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="374"/>
         <source>Rebuild index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>Ricostruisci l&apos;indice se necessario</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="379"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
-        <translation type="unfinished">Ricostruisce l&apos;indice dei file se non ne viene trovato uno, permettendo le ricerche temporali. Molto utile con scaricamenti corrotti/incompleti o file creati male. Questa opzione funziona solo se il tipo di file supporta le ricerche temporali (ad es. no stdin, pipe etc.) &lt;br&gt;Nota: la creazione dell&apos;indice può richiedere un certo tempo.</translation>
+        <translation>Ricostruisce l&apos;indice dei file se non ne viene trovato uno, permettendo le ricerche temporali. Utile con download corrotti/incompleti o file creati male. Questa opzione funziona solo se il tipo di file supporta le ricerche temporali (ad es. no stdin, pipe etc.) &lt;br&gt;Nota: la creazione dell&apos;indice può richiedere un certo tempo.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="138"/>
         <source>Rebuild &amp;index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>Ricostruisci l&apos;&amp;indice se necessario</translation>
     </message>
 </context>
 <context>
@@ -3761,22 +3762,22 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefgeneral.cpp" line="630"/>
         <source>MPlayer executable</source>
-        <translation>Eseguibile Mplayer</translation>
+        <translation>Eseguibile MPlayer</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="635"/>
         <source>Here you must specify the mplayer executable that smplayer will use.&lt;br&gt;smplayer requires at least mplayer 1.0rc1 (svn recommended).&lt;br&gt;&lt;b&gt;If this setting is wrong, smplayer won&apos;t be able to play anything!&lt;/b&gt;</source>
-        <translation>Qui puoi specificare l&apos;eseguibile mplayer.&lt;br&gt;smplayer richiede almeno mplayer 1.0rc1 (svn raccomandato).&lt;br&gt;&lt;b&gt;Se questa opzione é errata, smplayer non riprodurrà nulla!&lt;/b&gt;</translation>
+        <translation>Qui puoi specificare l&apos;eseguibile mplayer.&lt;br&gt;smplayer richiede almeno mplayer 1.0rc1 (svn raccomandato).&lt;br&gt;&lt;b&gt;Se questa opzione è errata, smplayer non riprodurrà nulla!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="637"/>
         <source>Screenshots folder</source>
-        <translation>Cartella per gli screenshots</translation>
+        <translation>Cartella per gli screenshot</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="640"/>
         <source>Here you can specify a folder where the screenshots taken by smplayer will be stored. If this field is empty the screenshot feature will be disabled.</source>
-        <translation>Qui puoi specificare una cartella dove salvare gli screenshots. Se il campo é vuoto, la cattura degli screenshot sarà disabilitata.</translation>
+        <translation>Qui puoi specificare una cartella dove salvare gli screenshot. Se il campo è vuoto, la cattura degli screenshot sarà disabilitata.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="642"/>
@@ -3841,7 +3842,7 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefgeneral.cpp" line="691"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
-        <translation>Seleziona questa opzione se l&apos;equalizzatore video non é supportato dalla scheda grafica o dal driver video selezionato.&lt;br&gt;&lt;b&gt;Attenzione:&lt;/b&gt; questa opzione può essere incompatibile con alcuni driver video.</translation>
+        <translation>Seleziona questa opzione se l&apos;equalizzatore video non è supportato dalla scheda grafica o dal driver video selezionato.&lt;br&gt;&lt;b&gt;Attenzione:&lt;/b&gt; questa opzione può essere incompatibile con alcuni driver video.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="711"/>
@@ -3896,12 +3897,12 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefgeneral.ui" line="77"/>
         <source>Select the &amp;MPlayer executable:</source>
-        <translation>Seleziona l&apos;eseguibile &amp;Mplayer:</translation>
+        <translation>Seleziona l&apos;eseguibile &amp;MPlayer:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="93"/>
         <source>&amp;Folder for storing screenshots:</source>
-        <translation>&amp;Cartella per gli screenshots:</translation>
+        <translation>&amp;Cartella per gli screenshot:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="149"/>
@@ -4096,7 +4097,7 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefgeneral.cpp" line="765"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. NOTE: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation>Richiede il massimo numero di canali audio. Mplayer riprodurrà l&apos;audio con il numero di canali specificati (se possibile).  Normalmente questa opzione è rilevante riproducendo video con audio AC3 (tipo DVD). In questo caso liba52 si occuperà di scalare l&apos;audio nel numero di canali richiesto. NOTA: Questa opzione vale per i codec (solo AC3), i filtri (surround) e driver audio (almeno OSS).</translation>
+        <translation>Richiede il massimo numero di canali audio. MPlayer riprodurrà l&apos;audio con il numero di canali specificati (se possibile).  Normalmente questa opzione è rilevante riproducendo video con audio AC3 (tipo DVD). In questo caso liba52 si occuperà di scalare l&apos;audio nel numero di canali richiesto. NOTA: Questa opzione vale per i codec (solo AC3), i filtri (surround) e driver audio (almeno OSS).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="672"/>
@@ -4151,7 +4152,7 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefgeneral.cpp" line="119"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Qui puoi inserire la lingua preferita per l&apos;audio e  i sottotitoli. Quando viene trovato un media con audio o sottotitoli multipli, smplayer proverà a usare la lingua preferita.&lt;br&gt;Questo funzionerà solo con media che offrono informazioni sulla lingua dell&apos;audio o dei sottotitoli, come i DVD o i file mkv.&lt;br&gt; Questo campo accetta espressioni regolari. Ad esempio: lt;b&gt;es|esp|spa&lt;/b&gt; selezionerà il sottotitolo che combacia con &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; o &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Qui puoi inserire la lingua preferita per l&apos;audio e i sottotitoli. Quando viene trovato un media con audio o sottotitoli multipli, SMPlayer proverà a usare la lingua preferita.&lt;br&gt;Questo funzionerà solo con media che offrono informazioni sulla lingua dell&apos;audio o dei sottotitoli, come i DVD o i file mkv.&lt;br&gt; Questo campo accetta espressioni regolari. Ad esempio: lt;b&gt;es|esp|spa&lt;/b&gt; selezionerà il sottotitolo che combacia con &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; o &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="980"/>
@@ -4182,7 +4183,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="751"/>
         <source>If this option is checked the initial volume will be set by using the &lt;i&gt;-volume&lt;/i&gt; option in MPlayer.&lt;br&gt; &lt;b&gt;WARNING: THE OFFICIAL MPLAYER DOESN&apos;T HAVE THAT &lt;i&gt;-volume&lt;/i&gt; OPTION, YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON&apos;T PLAY ANYTHING.&lt;/b&gt;</source>
-        <translation>Se questa opzione é selezionata, il volume iniziale sarà inizializzato usando l&apos;opzione &lt;i&gt;-volume&lt;/i&gt; di MPlayer.&lt;br&gt; &lt;b&gt;ATTENZIONE: LA VERSIONE UFFICIALE DI MPLAYER NON HA L&apos;OPZIONE &lt;i&gt;-volume&lt;/i&gt;, BISOGNA AVERNE UNA PATCHATA, ALTRIMENTI MPLAYER NON RIUSCIRA&apos; A RIPRODURRE NULLA.&lt;/b&gt;</translation>
+        <translation>Se questa opzione è selezionata, il volume iniziale sarà inizializzato usando l&apos;opzione &lt;i&gt;-volume&lt;/i&gt; di MPlayer.&lt;br&gt; &lt;b&gt;ATTENZIONE: LA VERSIONE UFFICIALE DI MPLAYER NON HA L&apos;OPZIONE &lt;i&gt;-volume&lt;/i&gt;, BISOGNA AVERNE UNA PATCHATA, ALTRIMENTI MPLAYER NON RIUSCIRA&apos; A RIPRODURRE NULLA.&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="323"/>
@@ -4262,7 +4263,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="716"/>
         <source>Change volume just before p&amp;laying</source>
-        <translation>Cambia il volume appena prima di iniziare la riproduzione</translation>
+        <translation>Cambia il volume &amp;appena prima di iniziare la riproduzione</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="731"/>
@@ -4297,47 +4298,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="292"/>
         <source>&amp;Close when finished playback</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Chiudi quando termina la riproduzione</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="256"/>
         <source>fast</source>
-        <translation type="unfinished"></translation>
+        <translation>veloce</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="252"/>
         <source>slow</source>
-        <translation type="unfinished"></translation>
+        <translation>lento</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="249"/>
         <source>fastest</source>
-        <translation type="unfinished"></translation>
+        <translation>velocisimo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="257"/>
         <source>fast - ATI cards</source>
-        <translation type="unfinished"></translation>
+        <translation>veloce - schede ATI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="297"/>
         <source>User defined...</source>
-        <translation type="unfinished"></translation>
+        <translation>Definito dall&apos;utente...</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="683"/>
         <source>Default zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoom predefinito</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="685"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Questa opzione imposta lo zoom predefinito che sarà usato per i nuovi video.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="445"/>
         <source>Default &amp;zoom:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zoom predefinito:</translation>
     </message>
 </context>
 <context>
@@ -5161,7 +5162,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="281"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
-        <translation>Possibili valori: :&lt;br&gt; &lt;b&gt;Si&lt;/b&gt;: si proverà il metodo più veloce per cambiare la traccia audio (può non funzionare conalcuni formati).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: Mplayer verrà fatto ripartire ogni volta che si cambia la traccia audio.&lt;br&gt; &lt;b&gt;Automatico&lt;/b&gt;: SMPlayer applicherà una delle altre due opzioni in base alla versione di MPlayer. </translation>
+        <translation>Possibili valori: :&lt;br&gt; &lt;b&gt;Si&lt;/b&gt;: si proverà il metodo più veloce per cambiare la traccia audio (può non funzionare conalcuni formati).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: MPlayer verrà fatto ripartire ogni volta che si cambia la traccia audio.&lt;br&gt; &lt;b&gt;Automatico&lt;/b&gt;: SMPlayer applicherà una delle altre due opzioni in base alla versione di MPlayer. </translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="291"/>
@@ -5271,7 +5272,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="527"/>
         <source>Cache for &amp;audio CDs:</source>
-        <translation>Cache per &amp;audio CD</translation>
+        <translation>Cache per &amp;audio CD:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="308"/>
@@ -5291,17 +5292,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="250"/>
         <source>Threads for decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Thread per la decodifica</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="252"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
-        <translation type="unfinished"></translation>
+        <translation>Imposta il numero di thread da usare per la decodifica. Solo per MPEG-1/2 e H.264</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="158"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
-        <translation type="unfinished"></translation>
+        <translation>Numero di &amp;thread per la decodifica (solo MPEG-1/2 e H.264):</translation>
     </message>
 </context>
 <context>
@@ -5667,7 +5668,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preferencesdialog.cpp" line="121"/>
         <source>SMPlayer - Help</source>
-        <translation>Aiuto su SMPlayer</translation>
+        <translation>SMPlayer - Aiuto</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="125"/>
@@ -5677,7 +5678,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preferencesdialog.cpp" line="126"/>
         <source>Cancel</source>
-        <translation>Cancella</translation>
+        <translation>Annulla</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="127"/>
@@ -5750,7 +5751,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../smplayer.cpp" line="305"/>
         <source>This is SMPlayer v. %1 running on %2</source>
-        <translation>Smplayer versione %1 in esecuzione su %2</translation>
+        <translation>SMPlayer versione %1 in esecuzione su %2</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="128"/>
@@ -5810,7 +5811,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="168"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
-        <translation>&apos;media&apos; è qualsiasi tipo di file che SMPlayer è in grado di riprodurre. Può essere un file locale, un DVD (per es. dvd://1), uno stream internet (per es. mms://....) o una lista di riproduzione locale in formato m3u. Se si usa l&apos;opzione -playlist, questa sarà passata a mplayer che si occuperà di gestirla. </translation>
+        <translation>&apos;media&apos; è qualsiasi tipo di file che SMPlayer è in grado di riprodurre. Può essere un file locale, un DVD (per es. dvd://1), uno stream internet (per es. mms://....) o una lista di riproduzione locale in formato m3u. Se si usa l&apos;opzione -playlist, questa sarà passata a MPlayer che si occuperà di gestirla. </translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="105"/>
@@ -5850,23 +5851,23 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message numerus="yes">
         <location filename="../corelib/helper.cpp" line="237"/>
         <source>%1 second(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 secondo</numerusform>
+            <numerusform>%1 secondi</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../corelib/helper.cpp" line="236"/>
         <source>%1 minute(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 minuto</numerusform>
+            <numerusform>%1 minuti</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../corelib/helper.cpp" line="238"/>
         <source>%1 and %2</source>
-        <translation type="unfinished">%1 e %2</translation>
+        <translation>%1 e %2</translation>
     </message>
 </context>
 <context>
@@ -5928,7 +5929,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="19"/>
         <source>This archive contains more than one subtitle file. Please choose the ones you want to extract.</source>
-        <translation type="unfinished"></translation>
+        <translation>Questo archivio contiene più di un file per i sottotitoli. Selezionarne uno per l&apos;estrazione.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="68"/>
@@ -5946,7 +5947,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../timedialog.ui" line="13"/>
         <source>SMPlayer - Seek</source>
-        <translation>Smplayer -Cerca</translation>
+        <translation>SMPlayer - Cerca</translation>
     </message>
     <message>
         <location filename="../timedialog.ui" line="41"/>
