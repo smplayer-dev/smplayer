@@ -7,40 +7,40 @@ QT += network xml
 
 RESOURCES = icons.qrc
 
-INCLUDEPATH += corelib findsubtitles
-DEPENDPATH += corelib findsubtitles
+INCLUDEPATH += findsubtitles
+DEPENDPATH += findsubtitles
 
 #DEFINES += USE_QXT
 
 DEFINES += DOWNLOAD_SUBS
 
 HEADERS += guiconfig.h \
-	corelib/config.h \
-	corelib/constants.h \
+	config.h \
+	constants.h \
 	svn_revision.h \
 	version.h \
-	corelib/global.h \
-	corelib/helper.h \
+	global.h \
+	helper.h \
 	translator.h \
-	corelib/subtracks.h \
-	corelib/audiotracks.h \
-	corelib/titletracks.h \
+	subtracks.h \
+	audiotracks.h \
+	titletracks.h \
 	extensions.h \
-	corelib/desktopinfo.h \
-	corelib/myprocess.h \
-	corelib/mplayerversion.h \
-	corelib/mplayerprocess.h \
-	corelib/infoprovider.h \
-	corelib/mplayerwindow.h \
-	corelib/mediadata.h \
-	corelib/audioequalizerlist.h \
-	corelib/mediasettings.h \
-	corelib/preferences.h \
+	desktopinfo.h \
+	myprocess.h \
+	mplayerversion.h \
+	mplayerprocess.h \
+	infoprovider.h \
+	mplayerwindow.h \
+	mediadata.h \
+	audioequalizerlist.h \
+	mediasettings.h \
+	preferences.h \
 	images.h \
 	inforeader.h \
 	deviceinfo.h \
 	recents.h \
-	corelib/core.h \
+	core.h \
 	logwindow.h \
 	infofile.h \
 	seekwidget.h \
@@ -96,27 +96,27 @@ HEADERS += guiconfig.h \
 
 
 SOURCES	+= version.cpp \
-	corelib/global.cpp \
-	corelib/helper.cpp \
+	global.cpp \
+	helper.cpp \
 	translator.cpp \
-	corelib/subtracks.cpp \
-	corelib/audiotracks.cpp \
-	corelib/titletracks.cpp \
+	subtracks.cpp \
+	audiotracks.cpp \
+	titletracks.cpp \
 	extensions.cpp \
-	corelib/desktopinfo.cpp \
-	corelib/myprocess.cpp \
-	corelib/mplayerversion.cpp \
-	corelib/mplayerprocess.cpp \
-	corelib/infoprovider.cpp \
-	corelib/mplayerwindow.cpp \
-	corelib/mediadata.cpp \
-	corelib/mediasettings.cpp \
-	corelib/preferences.cpp \
+	desktopinfo.cpp \
+	myprocess.cpp \
+	mplayerversion.cpp \
+	mplayerprocess.cpp \
+	infoprovider.cpp \
+	mplayerwindow.cpp \
+	mediadata.cpp \
+	mediasettings.cpp \
+	preferences.cpp \
 	images.cpp \
 	inforeader.cpp \
 	deviceinfo.cpp \
 	recents.cpp \
-	corelib/core.cpp \
+	core.cpp \
 	logwindow.cpp \
 	infofile.cpp \
 	seekwidget.cpp \
@@ -264,8 +264,8 @@ unix {
 }
 
 win32 {
-	HEADERS += corelib/screensaver.h
-	SOURCES += corelib/screensaver.cpp
+	HEADERS += screensaver.h
+	SOURCES += screensaver.cpp
 
 	!contains( DEFINES, PORTABLE_APP ) {
 		DEFINES += USE_ASSOCIATIONS
