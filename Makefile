@@ -78,21 +78,31 @@ install: src/smplayer
 	install -m 644 smplayer_enqueue.desktop $(DESTDIR)$(KDE_APPLNK)
 	-install -d $(DESTDIR)$(PREFIX)/share/man/man1/
 	install -m 644 man/smplayer.1 $(DESTDIR)$(PREFIX)/share/man/man1/
-	gzip -9 $(DESTDIR)$(PREFIX)/share/man/man1/smplayer.1
+	gzip -9 -f $(DESTDIR)$(PREFIX)/share/man/man1/smplayer.1
 
 uninstall:
-	-rm $(PREFIX)/bin/smplayer
-	-rm $(DATA_PATH)/input.conf
-	-rm $(TRANSLATION_PATH)/*.qm
-	-rm $(DOC_PATH)/Changelog
-	-rm $(DOC_PATH)/*.txt
-	-rm $(SHORTCUTS_PATH)/*.keys
-	-rm $(KDE_ICONS)/64x64/apps/smplayer.png
-	-rm $(KDE_ICONS)/32x32/apps/smplayer.png
-	-rm $(KDE_ICONS)/22x22/apps/smplayer.png
-	-rm $(KDE_ICONS)/16x16/apps/smplayer.png
-	-rm $(KDE_APPLNK)/smplayer.desktop
-	-rm $(PREFIX)/share/man/man1/smplayer.1.gz
+	-rm -f $(PREFIX)/bin/smplayer
+	-rm -f $(DATA_PATH)/input.conf
+	-rm -f $(TRANSLATION_PATH)/*.qm
+	-rm -f $(DOC_PATH)/Changelog
+	-rm -f $(DOC_PATH)/*.txt
+	-rm -f $(SHORTCUTS_PATH)/*.keys
+	-rm -f $(KDE_ICONS)/64x64/apps/smplayer.png
+	-rm -f $(KDE_ICONS)/32x32/apps/smplayer.png
+	-rm -f $(KDE_ICONS)/22x22/apps/smplayer.png
+	-rm -f $(KDE_ICONS)/16x16/apps/smplayer.png
+	-rm -f $(KDE_APPLNK)/smplayer.desktop
+	-rm -f $(PREFIX)/share/man/man1/smplayer.1.gz
+	-rmdir $(SHORTCUTS_PATH)/
 	-rmdir $(TRANSLATION_PATH)/
+#	-for file in docs/*/*; do \
+#	    rm -f $(DOC_PATH)/$${file/docs/}; \
+#	done;
+#	-for file in docs/*; do \
+#	    rmdir $(DOC_PATH)/$${file/docs/}; \
+#	done;
+	-(cd docs && find -iname '*.html') | (cd $(DESTDIR)$(DOC_PATH) && xargs rm)
+	-(cd docs && find -type d -name '??') | (cd $(DESTDIR)$(DOC_PATH) && xargs rmdir)
 	-rmdir $(DOC_PATH)/
 	-rmdir $(DATA_PATH)/
+
