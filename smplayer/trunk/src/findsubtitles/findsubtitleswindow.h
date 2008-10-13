@@ -28,7 +28,7 @@ class QModelIndex;
 class QMenu;
 class QAction;
 
-#ifdef DOWNLOAD_ZIP
+#ifdef DOWNLOAD_SUBS
 class FileDownloader;
 class QBuffer;
 class QuaZip;
@@ -65,7 +65,7 @@ protected slots:
 
 	void showContextMenu(const QPoint & pos);
 
-#ifdef DOWNLOAD_ZIP
+#ifdef DOWNLOAD_SUBS
 	void archiveDownloaded(const QBuffer & buffer);
 #endif
 
@@ -73,7 +73,7 @@ protected:
 	virtual void retranslateStrings();
 	virtual void changeEvent(QEvent * event);
 
-#ifdef DOWNLOAD_ZIP
+#ifdef DOWNLOAD_SUBS
 signals:
 	void subtitleDownloaded(const QString & filename);
 
@@ -92,7 +92,7 @@ protected:
 	QAction * downloadAct;
 	QAction * copyLinkAct;
 
-#ifdef DOWNLOAD_ZIP
+#ifdef DOWNLOAD_SUBS
 	FileDownloader * file_downloader;
 #endif
 };

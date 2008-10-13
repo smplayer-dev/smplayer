@@ -23,9 +23,9 @@ SOURCES += simplehttp.cpp \
 
 FORMS += ../filechooser.ui findsubtitleswindow.ui
 
-DEFINES += NO_SMPLAYER_SUPPORT DOWNLOAD_ZIP
+DEFINES += NO_SMPLAYER_SUPPORT DOWNLOAD_SUBS
 
-contains( DEFINES, DOWNLOAD_ZIP ) {
+contains( DEFINES, DOWNLOAD_SUBS ) {
 	INCLUDEPATH += filedownloader quazip
 	DEPENDPATH += filedownloader quazip
 
