@@ -17,6 +17,7 @@
 */
 
 #include "playlistdock.h"
+#include <QCloseEvent>
 
 PlaylistDock::PlaylistDock(QWidget * parent, Qt::WindowFlags flags)
 	: QDockWidget(parent, flags)
@@ -28,9 +29,10 @@ PlaylistDock::PlaylistDock(QWidget * parent, Qt::WindowFlags flags)
 PlaylistDock::~PlaylistDock() {
 }
 
-void PlaylistDock::closeEvent( QCloseEvent * /*event*/ ) {
+void PlaylistDock::closeEvent( QCloseEvent * e ) {
 	qDebug("PlaylistDock::closeEvent");
 	emit closed();
+	e->accept();
 }
 
 #if QT_VERSION < 0x040300

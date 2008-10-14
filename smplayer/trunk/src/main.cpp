@@ -112,9 +112,18 @@ void remove_lock(QString lock_file) {
 #endif
 #endif
 
+class MyApplication : public QApplication
+{
+public:
+	MyApplication ( int & argc, char ** argv ) : QApplication(argc, argv) {};
+	virtual void commitData ( QSessionManager & /*manager*/ ) {
+		// Nothing to do, let the application to close
+	}
+};
+
 int main( int argc, char ** argv ) 
 {
-	QApplication a( argc, argv );
+	MyApplication a( argc, argv );
 	//a.connect( &a, SIGNAL( lastWindowClosed() ), &a, SLOT( quit() ) );
 
 	// Sets the ini_path
