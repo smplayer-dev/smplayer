@@ -1791,28 +1791,40 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>&amp;Оновити</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="477"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="480"/>
         <source>Overwrite?</source>
         <translation>Перезаписати?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="478"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="481"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>Файл %1 вже існує, перезаписати?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="440"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="443"/>
         <source>Subtitle saved as %1</source>
         <translation>Субтитри збережені як %1</translation>
     </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="463"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="466"/>
         <source>%1 subtitle(s) extracted</source>
         <translation>
             <numerusform>Витягнений %1 субтитр</numerusform>
             <numerusform>Витягнені %1 субтитри</numerusform>
             <numerusform>Витягнені %1 субтитрів</numerusform>
         </translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="398"/>
+        <source>Error saving file</source>
+        <translation type="unfinished">Помилка збереження файлу</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="401"/>
+        <source>It wasn&apos;t possible to save the downloaded
+file in folder %1
+Please check the permissions of that folder.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

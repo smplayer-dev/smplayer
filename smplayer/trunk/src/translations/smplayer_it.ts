@@ -1449,42 +1449,42 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
 <context>
     <name>Core</name>
     <message>
-        <location filename="../corelib/core.cpp" line="2188"/>
+        <location filename="../core.cpp" line="2188"/>
         <source>Brightness: %1</source>
         <translation>Luminosità: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2203"/>
+        <location filename="../core.cpp" line="2203"/>
         <source>Contrast: %1</source>
         <translation>Contrasto: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2217"/>
+        <location filename="../core.cpp" line="2217"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2231"/>
+        <location filename="../core.cpp" line="2231"/>
         <source>Hue: %1</source>
         <translation>Tonalità: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2245"/>
+        <location filename="../core.cpp" line="2245"/>
         <source>Saturation: %1</source>
         <translation>Saturazione: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2365"/>
+        <location filename="../core.cpp" line="2365"/>
         <source>Volume: %1</source>
         <translation>Volume: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="3165"/>
+        <location filename="../core.cpp" line="3165"/>
         <source>Zoom: %1</source>
         <translation>Zoom %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2484"/>
+        <location filename="../core.cpp" line="2484"/>
         <source>Font scale: %1</source>
         <translation>Scalatura carattere: %1</translation>
     </message>
@@ -1792,12 +1792,12 @@ Esempio:resample=44100:0:0,volnorm</translation>
         <translation>Aggio&amp;rna</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="440"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="443"/>
         <source>Subtitle saved as %1</source>
         <translation>Sottotitoli salvati come %1</translation>
     </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="463"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="466"/>
         <source>%1 subtitle(s) extracted</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -1805,14 +1805,26 @@ Esempio:resample=44100:0:0,volnorm</translation>
         </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="477"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="480"/>
         <source>Overwrite?</source>
         <translation>Sovrascrivi?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="478"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="481"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>Il file %1 esiste già, sovrascrivere?</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="398"/>
+        <source>Error saving file</source>
+        <translation type="unfinished">Errore durante il salvataggio del file</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="401"/>
+        <source>It wasn&apos;t possible to save the downloaded
+file in folder %1
+Please check the permissions of that folder.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -5849,7 +5861,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>specifica il file dei sottotitoli da caricare per il primo video.</translation>
     </message>
     <message numerus="yes">
-        <location filename="../corelib/helper.cpp" line="237"/>
+        <location filename="../helper.cpp" line="237"/>
         <source>%1 second(s)</source>
         <translation>
             <numerusform>%1 secondo</numerusform>
@@ -5857,7 +5869,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../corelib/helper.cpp" line="236"/>
+        <location filename="../helper.cpp" line="236"/>
         <source>%1 minute(s)</source>
         <translation>
             <numerusform>%1 minuto</numerusform>
@@ -5865,7 +5877,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         </translation>
     </message>
     <message>
-        <location filename="../corelib/helper.cpp" line="238"/>
+        <location filename="../helper.cpp" line="238"/>
         <source>%1 and %2</source>
         <translation>%1 e %2</translation>
     </message>
