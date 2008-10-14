@@ -37,8 +37,8 @@ QString CLHelp::formatText(QString s, int col) {
 		}
 
 		while ((pos < col) && (pos != -1)) {
-		last = pos;
-		pos = s.indexOf(" ", pos+1);
+			last = pos;
+			pos = s.indexOf(" ", pos+1);
 		}
 
 		res = res + s.left(last) + "\n";
