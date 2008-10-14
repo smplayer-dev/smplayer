@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1798,10 +1799,10 @@ Przykład: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="466"/>
         <source>%1 subtitle(s) extracted</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform>%1 napisy(ów) wypakowano</numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+            <numerusform>%1 napisy(ów) wypakowano</numerusform>
+            <numerusform>%1 napisy(ów) wypakowano</numerusform>
         </translation>
     </message>
     <message>
@@ -1817,14 +1818,16 @@ Przykład: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="398"/>
         <source>Error saving file</source>
-        <translation type="unfinished">Błąd zapisu pliku</translation>
+        <translation>Błąd zapisu pliku</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="401"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można było zapisać pobranego
+pliku w folderze %1
+Proszę sprawdź uprawnienia tego folderu.</translation>
     </message>
 </context>
 <context>
@@ -5890,25 +5893,25 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message numerus="yes">
         <location filename="../helper.cpp" line="237"/>
         <source>%1 second(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 sekund (a,y)</numerusform>
+            <numerusform>%1 sekund (a,y)</numerusform>
+            <numerusform>%1 sekund (a,y)</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="236"/>
         <source>%1 minute(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 minut (a,y)</numerusform>
+            <numerusform>%1 minut (a,y)</numerusform>
+            <numerusform>%1 minut (a,y)</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="238"/>
         <source>%1 and %2</source>
-        <translation type="unfinished">%1 i %2</translation>
+        <translation>%1 i %2</translation>
     </message>
 </context>
 <context>
