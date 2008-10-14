@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="es">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1815,14 +1816,16 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="398"/>
         <source>Error saving file</source>
-        <translation type="unfinished">Error al grabar el fichero</translation>
+        <translation>Error al grabar el fichero</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="401"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>No se ha podido guardar el fichero descargado
+en la carpeta %1
+Por favor verifica los permisos de esa carpeta.</translation>
     </message>
 </context>
 <context>
