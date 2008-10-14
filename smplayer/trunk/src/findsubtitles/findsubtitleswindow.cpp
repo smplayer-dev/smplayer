@@ -365,6 +365,9 @@ void FindSubtitlesWindow::archiveDownloaded(const QBuffer & buffer) {
 
 	QTemporaryFile file(QDir::tempPath() + "archive_XXXXXX.zip");
 	file.setAutoRemove(false);
+
+	qDebug("FindSubtitlesWindow::archiveDownloaded: a temporary file will be saved in folder '%s'", QDir::tempPath().toUtf8().constData());
+
 	if (file.open()) {
 		QString filename = file.fileName();
 		file.write( buffer.data() );
@@ -372,10 +375,6 @@ void FindSubtitlesWindow::archiveDownloaded(const QBuffer & buffer) {
 
 		qDebug("FindSubtitlesWindow::archiveDownloaded: file saved as: %s", filename.toUtf8().constData());
 
-		/*
-		QMessageBox::information(this, tr("File downloaded"),
-                                 tr("File saved as: %1.").arg(filename));
-		*/
 		status->setText(QString("Temporary file %1").arg(filename));
 
 		QString lang = "unknown";
@@ -395,7 +394,11 @@ void FindSubtitlesWindow::archiveDownloaded(const QBuffer & buffer) {
 		file.remove();
 	}
 	else {
-		qDebug("FindSubtitlesWindow::archiveDownloaded: can't write file");
+		qWarning("FindSubtitlesWindow::archiveDownloaded: can't write temporary file");
+		QMessageBox::warning(this, tr("Error saving file"),
+                             tr("It wasn't possible to save the downloaded\n"
+                                "file in folder %1\n"
+                                "Please check the permissions of that folder.").arg(QDir::tempPath()));
 	}
 }
 
