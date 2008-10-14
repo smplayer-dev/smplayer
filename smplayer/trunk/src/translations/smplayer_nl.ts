@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="nl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1797,9 +1798,9 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="466"/>
         <source>%1 subtitle(s) extracted</source>
-        <translation type="unfinished">
-            <numerusform>%1 ondertitel(s) uitgepakt</numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 ondertitel uitgepakt</numerusform>
+            <numerusform>%1 ondertitels uitgepakt</numerusform>
         </translation>
     </message>
     <message>
@@ -1815,14 +1816,16 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="398"/>
         <source>Error saving file</source>
-        <translation type="unfinished">Fout bij opslaan van het bestand</translation>
+        <translation>Fout bij opslaan van het bestand</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="401"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het was niet mogelijk om het gedownload bestand
+in de map %1 op te slaan
+Controleer a.u.b. de toegangsrechten van die map.</translation>
     </message>
 </context>
 <context>
@@ -4309,7 +4312,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="292"/>
         <source>&amp;Close when finished playback</source>
-        <translation>&amp;Sluitenwanneer klaar met afspelen</translation>
+        <translation>&amp;Sluiten wanneer klaar met afspelen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="256"/>
@@ -5862,23 +5865,23 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message numerus="yes">
         <location filename="../helper.cpp" line="237"/>
         <source>%1 second(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 seconde</numerusform>
+            <numerusform>%1 seconden</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="236"/>
         <source>%1 minute(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 minuut</numerusform>
+            <numerusform>%1 minuten</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="238"/>
         <source>%1 and %2</source>
-        <translation type="unfinished">%1 en %2</translation>
+        <translation>%1 en %2</translation>
     </message>
 </context>
 <context>
