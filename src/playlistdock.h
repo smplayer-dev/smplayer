@@ -37,7 +37,7 @@ signals:
 #endif
 
 protected:
-	virtual void closeEvent( QCloseEvent * event );
+	virtual void closeEvent( QCloseEvent * e );
 #if QT_VERSION < 0x040300
 	virtual void showEvent ( QShowEvent * event );
 	virtual void hideEvent ( QHideEvent * event );
