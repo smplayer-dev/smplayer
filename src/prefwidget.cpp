@@ -46,6 +46,8 @@ void PrefWidget::setWhatsThis( QWidget *w, const QString & title,
 {
 	w->setWhatsThis(text);
 	help_message += "<b>"+title+"</b><br>"+text+"<br><br>";
+
+	w->setToolTip( "<qt>"+ text +"</qt>" );
 }
 
 void PrefWidget::clearHelp() {
