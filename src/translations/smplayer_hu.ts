@@ -1447,42 +1447,42 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../corelib/core.cpp" line="2188"/>
+        <location filename="../core.cpp" line="2188"/>
         <source>Brightness: %1</source>
         <translation>Fényerő: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2203"/>
+        <location filename="../core.cpp" line="2203"/>
         <source>Contrast: %1</source>
         <translation>Kontraszt: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2217"/>
+        <location filename="../core.cpp" line="2217"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2231"/>
+        <location filename="../core.cpp" line="2231"/>
         <source>Hue: %1</source>
         <translation>Színárnyalat: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2245"/>
+        <location filename="../core.cpp" line="2245"/>
         <source>Saturation: %1</source>
         <translation>Telítettség: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2365"/>
+        <location filename="../core.cpp" line="2365"/>
         <source>Volume: %1</source>
         <translation>Hangerő: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="3165"/>
+        <location filename="../core.cpp" line="3165"/>
         <source>Zoom: %1</source>
         <translation>Nagyítás: %1</translation>
     </message>
     <message>
-        <location filename="../corelib/core.cpp" line="2484"/>
+        <location filename="../core.cpp" line="2484"/>
         <source>Font scale: %1</source>
         <translation>Betű méret: %1</translation>
     </message>
@@ -1790,25 +1790,37 @@ Például: resample=44100:0:0,volnorm</translation>
         <translation>F&amp;rissítés</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="440"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="443"/>
         <source>Subtitle saved as %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="463"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="466"/>
         <source>%1 subtitle(s) extracted</source>
         <translation type="unfinished">
             <numerusform></numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="477"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="480"/>
         <source>Overwrite?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="478"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="481"/>
         <source>The file %1 already exits, overwrite?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="398"/>
+        <source>Error saving file</source>
+        <translation type="unfinished">Hiba a fájl mentésekor</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="401"/>
+        <source>It wasn&apos;t possible to save the downloaded
+file in folder %1
+Please check the permissions of that folder.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5847,21 +5859,21 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>meghatározza az első videóhoz betöltendő felirat fájlt.</translation>
     </message>
     <message numerus="yes">
-        <location filename="../corelib/helper.cpp" line="237"/>
+        <location filename="../helper.cpp" line="237"/>
         <source>%1 second(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../corelib/helper.cpp" line="236"/>
+        <location filename="../helper.cpp" line="236"/>
         <source>%1 minute(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../corelib/helper.cpp" line="238"/>
+        <location filename="../helper.cpp" line="238"/>
         <source>%1 and %2</source>
         <translation type="unfinished">%1 és %2</translation>
     </message>
