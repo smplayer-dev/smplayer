@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1794,8 +1795,8 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="469"/>
         <source>%1 subtitle(s) extracted</source>
-        <translation type="unfinished">
-            <numerusform>subtutrări extrase: %1</numerusform>
+        <translation>
+            <numerusform>%1 subtitrări extrase</numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
@@ -1812,14 +1813,16 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="401"/>
         <source>Error saving file</source>
-        <translation type="unfinished">Eroare la salvarea fișierului</translation>
+        <translation>Eroare la salvarea fișierului</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="404"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nu a fost posibilă salvarea fișierului
+descărcat în directorul %1
+Verificați permisiunile acelui director.</translation>
     </message>
 </context>
 <context>
@@ -3570,17 +3573,17 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="432"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă este selectată această opțiune, SMPlayer va stoca mesajele de depanare (puteți vedea jurnalul în  &lt;b&gt;Opțiuni -&gt; Afișare jurnale -&gt; SMPlayer&lt;/b&gt;). Aceste informații pot fi foarte utile dezvoltatorilor, în caz că descoperiți o eroare de programare.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="438"/>
         <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă este selectată această opțiune, SMPlayer va stoca mesajele pe care le emite MPlayer (puteți consulta jurnalul la &lt;b&gt;Opțiuni -&gt; Afișare jurnale -&gt; MPlayer&lt;/b&gt;). În cazul unor probleme acest jurnal poate conține informații importante, prin urmare, este recomandat să păstrați această opțiune selectată.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="454"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Această vă permite să selectați mesajele SMPlayer care vor fi stocate în jurnal. Aici puteți scrie orice tip de expresie regulată. &lt;br&gt;De exemplu: &lt;i&gt;^Core::.*&lt;/i&gt; va afișa doar liniile care încep cu &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
 </context>
 <context>
@@ -5984,23 +5987,23 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message numerus="yes">
         <location filename="../helper.cpp" line="237"/>
         <source>%1 second(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 secundă</numerusform>
+            <numerusform>%1 secunde</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="236"/>
         <source>%1 minute(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 minut</numerusform>
+            <numerusform>%1 minute</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="238"/>
         <source>%1 and %2</source>
-        <translation type="unfinished">%1 şi %2</translation>
+        <translation>%1 și %2</translation>
     </message>
 </context>
 <context>
