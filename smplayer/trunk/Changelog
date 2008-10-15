@@ -1,5 +1,13 @@
 [b]Version 0.6.4[/b]:
 
+(2008-10-14)
+ * Logout is not cancelled by smplayer. Fixes bug #2155555.
+ * Now the options in preferences display a tooltip with a help message.
+
+(2008-10-10)
+ * Added a work-around for Traditional Chinese. The names of the arrow keys 
+   were deleted from the shortcuts if using Qt 4.3.
+
 (2008-10-09)
  * Now the video keeps paused when changing brightness, contrast, hue, 
    saturation and gamma.
