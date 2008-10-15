@@ -831,6 +831,7 @@ void BaseGui::createActions() {
 	aspect1610Act = new MyActionGroupItem(this, aspectGroup, "aspect_16:10", MediaSettings::Aspect1610 );
 	aspect235Act = new MyActionGroupItem(this, aspectGroup, "aspect_2.35:1", MediaSettings::Aspect235 );
 #if NEW_ASPECT_CODE
+	aspect11Act = new MyActionGroupItem(this, aspectGroup, "aspect_1:1", MediaSettings::Aspect11 );
 	{
 		QAction * sep = new QAction(aspectGroup);
 		sep->setSeparator(true);
@@ -1356,6 +1357,7 @@ void BaseGui::retranslateStrings() {
 	aspect1610Act->change( "1&6:10" );
 	aspect235Act->change( "&2.35:1" );
 #if NEW_ASPECT_CODE
+	aspect11Act->change( "1&:1" );
 	aspectNoneAct->change( tr("&Disabled") );
 #endif
 

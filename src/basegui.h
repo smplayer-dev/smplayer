@@ -469,6 +469,7 @@ protected:
 	MyAction * aspectDetectAct;
 #if NEW_ASPECT_CODE
 	MyAction * aspectNoneAct;
+	MyAction * aspect11Act; // 1:1
 #endif
 	MyAction * aspect43Act;
 	MyAction * aspect54Act;

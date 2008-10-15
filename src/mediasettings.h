@@ -36,7 +36,8 @@ public:
 	enum Denoise { NoDenoise = 0, DenoiseNormal = 1, DenoiseSoft = 2 };
 #if NEW_ASPECT_CODE
 	enum Aspect { AspectAuto = 1, Aspect43 = 2, Aspect169 = 3, Aspect235 = 4,
-                  Aspect149 = 8, Aspect1610 = 9, Aspect54 = 10, AspectNone = 0 };
+                  Aspect149 = 8, Aspect1610 = 9, Aspect54 = 10, Aspect11 = 12, 
+                  AspectNone = 0 };
 #else
 	enum Aspect { AspectAuto = 1, Aspect43 = 2, Aspect169 = 3, Aspect235 = 4,
                   Aspect43Letterbox = 5, Aspect43Panscan = 6, 
