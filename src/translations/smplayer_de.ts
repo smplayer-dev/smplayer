@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de_DE">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -3578,17 +3579,17 @@ Die Auswahl-Liste enthält evt.schon die regulären Ausdrücke.</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="432"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Ausgabeinformationen von Mplayer kann optinoal von SMPlayer gespeichert werden (Hier zu finden &lt;b&gt;Optionen -&gt; Logs einsehen -&gt; MPlayer&lt;/b&gt;). Die Information kann für Entwickler nützlich sein, wenn ein Fehler gefunden wird.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="438"/>
         <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Ausgabeinformationen von Mplayer kann optinoal von SMPlayer gespeichert werden (Hier zu finden &lt;b&gt;Optionen -&gt; Logs einsehen -&gt; MPlayer&lt;/b&gt;). In Problemfällen können die Logs wichtige Informationen enthalten, daher wird diese Option empfohlen.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="454"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Optional können Nachrichten von SMPlayer gefiltert werden. Hier kann man irgendeinen regelulärer Ausdruck schreiben.&lt;br&gt;Zum Beispiel: &lt;i&gt;^Core::.*&lt;/i&gt; Nur Zeilen werden dargestellt, beginned mit &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
 </context>
 <context>
@@ -4401,67 +4402,67 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="634"/>
         <source>Here you must specify the mplayer executable that SMPlayer will use.&lt;br&gt;SMPlayer requires at least MPlayer 1.0rc1 (although a recent revision from SVN is highly recommended).</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier muß die ausführbare MPlayer-Datei angegeben werden, die von SMPlayer gebraucht wird. &lt;br&gt;SMPlayer benötigt mindestens MPlayer 1.0rc1 (Auch eine aktuelle SVN Version ist empfohlen)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="636"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn diese Einstellungen falsch sind, funktioniert SMPlayer nicht!</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="641"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If this field is empty the screenshot feature will be disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier wird der Order zur Speicherung der Bildschirmfotos festgelegt. Ohne Eingabe wird die Funktion abgeschaltet.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="645"/>
         <source>Select the video output driver. %1 provides the best performance.</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl der Video-Ausgabetreiber. %1 liefert die beste Leistung.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="658"/>
         <source>%1 is the recommended one. Try to avoid %2 and %3, they are slow and can have an impact on performance.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ist der Empfohlene. Zu vermeiden gilt %2 und %3, beide sind langsam und können negative Auswirkungen auf die Leistung haben.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="667"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
-        <translation type="unfinished"></translation>
+        <translation>Normalerweise erinnert sich SMPlayer an die EInstellungen für jede Datei die abgespielt wurde (die gewählte Audio-Spur, Lautstärke, Filter ...). Falls dieses Feature nicht gewünscht wird, kann die Option deaktiviert werden.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="671"/>
         <source>If you check this option, SMPlayer will play all files from the beginning.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mit dieser Option erfolgt die SMplayer Wiedergabe aller Dateien immer von Anfang an.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="680"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ist diese Option aktiviert, wird die Datei pausieren, wenn das Hauptfenster verdeckt ist. Ist das Hauptfenster wieder hergestellt, wird das Abspielen fortgesetzt.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="732"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Optional kann der Bildschirmschoner während der Wiedergabe deaktiviert werden.&lt;br&gt;Der Bildschirmschoner wird nach Beendigung der Wiedergabe reaktiviert.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="763"/>
         <source>If this option is checked the initial volume will be set by using the &lt;i&gt;-volume&lt;/i&gt; option in MPlayer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn diese Option aktiviert ist, wird die ursprüngliche Lautstärke eingestellt, indem die &lt;i&gt;-Laustärke&lt;/i&gt; Option in Mplayer initialisiert wird.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="768"/>
         <source>WARNING: THE OFFICIAL MPLAYER DOESN&apos;T HAVE THAT &lt;i&gt;-volume&lt;/i&gt; OPTION, YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON&apos;T PLAY ANYTHING.</source>
-        <translation type="unfinished"></translation>
+        <translation>WARNUNG: FUNKTIONIERT NICHT MIT DER OFFIZIELLEN MPLAYER &lt;i&gt;-LAUTSTÄRKE&lt;/i&gt; OPTION, EINE PATCH VERSION WIRD BENÖTIGT, MPLAYER VERSAGT SONST UND BRINGT KEINE WIEDERGABE.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="798"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier kann die bevorzugte Sprache der Tonspur gewählt werden.Bei Medien mit mehreren Tonspuren,wird Smplayer versuchen die bevorzugte Sprache zu benutzen.Das funktioniert nur mit Medien die eine Info über die Tonspuren bereit stellen, wie DVDs oder mkv-Dateien.&lt;br&gt;Das Feld akzeptiert normale Ausdrücke. Beispiel: &lt;b&gt;es|esp|spa&lt;/b&gt; die Tonspur mit folgender Info wird ausgewählt &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="808"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier kann die bevorzugte Sprache der Untertitel gewählt werden. Bei Medien mit mehreren Untertiteln, wird SMPlayer versuchen die bevorzugte Untertielsprache zu benutzen. Das funktioniert nur mit Medien die eine Info über die Untertitel bereit stellen, wie DVDs oder MKV-Dateien.&lt;br&gt;Das Feld akzeptiert normale Ausdrücke. Beispiel: &lt;b&gt;es|esp|spa&lt;/b&gt; der Untertitel mit folgender Info wird ausgewählt &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
 </context>
 <context>
@@ -4769,22 +4770,22 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinput.cpp" line="273"/>
         <source>X Button 1</source>
-        <translation type="unfinished"></translation>
+        <translation>X Taste 1</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="274"/>
         <source>Select the action for the X button 1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktion für X Taste 1 auswählen.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="276"/>
         <source>X Button 2</source>
-        <translation type="unfinished"></translation>
+        <translation>X Taste 2</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="277"/>
         <source>Select the action for the X button 2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktion für X Taste 2 auswählen.</translation>
     </message>
 </context>
 <context>
@@ -5809,7 +5810,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="361"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl der TTF Schriftart für Untertitel. Normalerweise befinden sich viele TTF Schriftarten in %1</translation>
     </message>
 </context>
 <context>
