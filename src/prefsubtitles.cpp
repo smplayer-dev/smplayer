@@ -357,11 +357,11 @@ void PrefSubtitles::createHelp() {
 
 	setWhatsThis(ttf_font_edit, tr("TTF font"), 
         tr("Here you can select a ttf font to be used for the subtitles. "
-           "Usually you'll find a lot of ttf fonts in <i>%1</i>.")
+           "Usually you'll find a lot of ttf fonts in %1")
 #ifdef Q_OS_WIN
-        .arg("C:\\Windows\\Fonts\\")
+        .arg("<i>C:\\Windows\\Fonts\\</i>")
 #else
-        .arg("/usr/X11R6/lib/X11/fonts/truetype/")
+        .arg("<i>/usr/X11R6/lib/X11/fonts/truetype/</i>")
 #endif
         );
 
