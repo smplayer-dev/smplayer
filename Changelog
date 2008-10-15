@@ -3,6 +3,7 @@
 (2008-10-14)
  * Logout is not cancelled by smplayer. Fixes bug #2155555.
  * Now the options in preferences display a tooltip with a help message.
+ * Added 1:1 to the aspect ratio menu.
 
 (2008-10-10)
  * Added a work-around for Traditional Chinese. The names of the arrow keys 
