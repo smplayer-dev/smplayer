@@ -2290,6 +2290,12 @@ void BaseGui::newMediaLoaded() {
 		playlist->clear();
 		playlist->addCurrentFile();
 	}*/
+
+	if ((core->mdat.type == TYPE_FILE) && (pref->auto_add_to_playlist) && (pref->add_to_playlist_consecutive_files)) {
+		// Look for consecutive files
+		QStringList files_to_add = Helper::searchForConsecutiveFiles(core->mdat.filename);
+		if (!files_to_add.empty()) playlist->addFiles(files_to_add);
+	}
 }
 
 void BaseGui::showMplayerLog() {
