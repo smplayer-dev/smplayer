@@ -2974,6 +2974,7 @@ void Core::changeAspectRatio( int ID ) {
 		case MediaSettings::Aspect1610: asp = (double) 16 / 10; break;
 		case MediaSettings::Aspect54: asp = (double) 5 / 4; break;
 		case MediaSettings::Aspect235: asp = 2.35; break;
+		case MediaSettings::Aspect11: asp = 1; break;
 
 		default : {
 			//MediaSettings::AspectAuto:
