@@ -629,30 +629,45 @@ void PrefGeneral::createHelp() {
 
 	setWhatsThis(mplayerbin_edit, tr("MPlayer executable"), 
 		tr("Here you must specify the mplayer "
-           "executable that smplayer will use.<br>"
-           "smplayer requires at least mplayer 1.0rc1 (svn recommended).<br>"
-           "<b>If this setting is wrong, smplayer won't "
-           "be able to play anything!</b>") );
+           "executable that SMPlayer will use.<br>"
+           "SMPlayer requires at least MPlayer 1.0rc1 (although a recent "
+           "revision from SVN is highly recommended).") + "<br><b>" +
+        tr("If this setting is wrong, SMPlayer won't be able to play "
+           "anything!") + "</b>");
 
 	setWhatsThis(screenshot_edit, tr("Screenshots folder"),
 		tr("Here you can specify a folder where the screenshots taken by "
-           "smplayer will be stored. If this field is empty the "
+           "SMPlayer will be stored. If this field is empty the "
            "screenshot feature will be disabled.") );
 
 	setWhatsThis(vo_combo, tr("Video output driver"),
-		tr("Select the video output driver. Usually xv (linux) "
-           "and directx (windows) provide the best performance.") );
+		tr("Select the video output driver. %1 provides the best performance.")
+#ifdef Q_OS_WIN
+		  .arg("<b><i>directx</i></b>")
+#else
+		  .arg("<b><i>xv</i></b>")
+#endif
+		);
 
 	setWhatsThis(ao_combo, tr("Audio output driver"),
-		tr("Select the audio output driver.") );
+		tr("Select the audio output driver.") 
+#ifndef Q_OS_WIN
+        + " " + 
+		tr("%1 is the recommended one. Try to avoid %2 and %3, they are slow "
+           "and can have an impact on performance.")
+           .arg("<b><i>alsa</i></b>")
+           .arg("<b><i>esd</i></b>")
+           .arg("<b><i>arts</i></b>")
+#endif
+		);
 
 	setWhatsThis(remember_all_check, tr("Remember settings"),
-		tr("Usually smplayer will remember the settings for each file you "
-           "play (audio track selected, volume, filters...). Uncheck this "
+		tr("Usually SMPlayer will remember the settings for each file you "
+           "play (audio track selected, volume, filters...). Disable this "
            "option if you don't like this feature.") );
 
 	setWhatsThis(remember_time_check, tr("Remember time position"),
-		tr("If you check this option, smplayer will play all files from "
+		tr("If you check this option, SMPlayer will play all files from "
            "the beginning.") );
 
 	setWhatsThis(close_on_finish_check, tr("Close when finished"),
@@ -661,8 +676,8 @@ void PrefGeneral::createHelp() {
 
 	setWhatsThis(pause_if_hidden_check, tr("Pause when minimized"),
 		tr("If this option is enabled, the file will be paused when the "
-           "main window is hidden. When the window is restored, play will be "
-           "resumed.") );
+           "main window is hidden. When the window is restored, playback "
+           "will be resumed.") );
 
 	addSectionTitle(tr("Video"));
 
@@ -687,8 +702,8 @@ void PrefGeneral::createHelp() {
 	setWhatsThis(eq2_check, tr("Software video equalizer"),
 		tr("You can check this option if video equalizer is not supported by "
            "your graphic card or the selected video output driver.<br>"
-           "<b>Note:</b> this option can be incompatible "
-           "with some video output drivers.") );
+           "<b>Note:</b> this option can be incompatible with some video "
+           "output drivers.") );
 
 	setWhatsThis(direct_rendering_check, tr("Direct rendering"),
 		tr("If checked, turns on direct rendering (not supported by all "
@@ -712,8 +727,9 @@ void PrefGeneral::createHelp() {
 
 	setWhatsThis(screensaver_check, tr("Disable screensaver"),
 		tr("Check this option to disable the screensaver while playing.<br>"
-           "The screensaver will enabled again when play finishes.<br>"
-           "<b>Note:</b> This option works only in X11 and Windows.") );
+           "The screensaver will enabled again when play finishes.")
+           //+ tr("<br><b>Note:</b> This option works only in X11 and Windows.")
+		);
 
 	addSectionTitle(tr("Audio"));
 
@@ -744,11 +760,12 @@ void PrefGeneral::createHelp() {
 
 	setWhatsThis(use_volume_combo, tr("Change volume just before playing"),
 		tr("If this option is checked the initial volume will be set by "
-           "using the <i>-volume</i> option in MPlayer.<br> "
-           "<b>WARNING: THE OFFICIAL MPLAYER DOESN'T HAVE THAT "
+           "using the <i>-volume</i> option in MPlayer.") + "<br> "
+           "<b>" +
+		tr("WARNING: THE OFFICIAL MPLAYER DOESN'T HAVE THAT "
            "<i>-volume</i> OPTION, "
            "YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON'T PLAY "
-           "ANYTHING.</b>") );
+           "ANYTHING.") +"</b>" );
 
 	setWhatsThis(initial_volume_slider, tr("Default volume"),
 		tr("Sets the initial volume that new files will use.") );
@@ -772,7 +789,7 @@ void PrefGeneral::createHelp() {
 
 	setWhatsThis(audio_lang_edit, tr("Preferred audio language"),
 		tr("Here you can type your preferred language for the audio streams. "
-           "When a media with multiple audio streams is found, smplayer will "
+           "When a media with multiple audio streams is found, SMPlayer will "
            "try to use your preferred language.<br>"
            "This only will work with media that offer info about the language "
            "of the audio streams, like DVDs or mkv files.<br>"
@@ -782,7 +799,7 @@ void PrefGeneral::createHelp() {
 
 	setWhatsThis(subtitle_lang_edit, tr("Preferred subtitle language"),
 		tr("Here you can type your preferred language for the subtitle stream. "
-           "When a media with multiple subtitle streams is found, smplayer will "
+           "When a media with multiple subtitle streams is found, SMPlayer will "
            "try to use your preferred language.<br>"
            "This only will work with media that offer info about the language "
            "of the subtitle streams, like DVDs or mkv files.<br>"

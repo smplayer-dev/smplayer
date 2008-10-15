@@ -270,6 +270,12 @@ void PrefInput::createHelp() {
 	setWhatsThis(middle_click_combo, tr("Middle click"),
 		tr("Select the action for middle click on the mouse.") );
 
+	setWhatsThis(xbutton1_click_combo, tr("X Button 1"),
+		tr("Select the action for the X button 1.") );
+
+	setWhatsThis(xbutton2_click_combo, tr("X Button 2"),
+		tr("Select the action for the X button 2.") );
+
 	setWhatsThis(wheel_function_combo, tr("Wheel function"),
 		tr("Select the action for the mouse wheel.") );
 }

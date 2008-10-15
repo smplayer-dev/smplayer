@@ -425,15 +425,15 @@ void PrefAdvanced::createHelp() {
 	addSectionTitle(tr("Logs"));
 
 	setWhatsThis(log_smplayer_check, tr("Log SMPlayer output"),
-		tr("If this option is checked, smplayer will store the debugging "
-           "messages that smplayer outputs "
-           "(you can see the log in <b>Options->View logs->smplayer</b>). "
+		tr("If this option is checked, SMPlayer will store the debugging "
+           "messages that SMPlayer outputs "
+           "(you can see the log in <b>Options -> View logs -> SMPlayer</b>). "
            "This information can be very useful for the developer in case "
            "you find a bug." ) );
 
 	setWhatsThis(log_mplayer_check, tr("Log MPlayer output"),
-		tr("If checked, smplayer will store the output of mplayer "
-           "(you can see it in <b>Options->View logs->mplayer</b>). "
+		tr("If checked, SMPlayer will store the output of MPlayer "
+           "(you can see it in <b>Options -> View logs -> MPlayer</b>). "
            "In case of problems this log can contain important information, "
            "so it's recommended to keep this option checked.") );
 
@@ -448,7 +448,7 @@ void PrefAdvanced::createHelp() {
            "MPlayer log.") );
 
 	setWhatsThis(log_filter_edit, tr("Filter for SMPlayer logs"),
-		tr("This option allows to filter the smplayer messages that will "
+		tr("This option allows to filter the SMPlayer messages that will "
            "be stored in the log. Here you can write any regular expression.<br>"
            "For instance: <i>^Core::.*</i> will display only the lines "
            "starting with <i>Core::</i>") );
