@@ -414,3 +414,42 @@ QString Helper::equalizerListToString(AudioEqualizerList values) {
 
 	return s;
 }
+
+QStringList Helper::searchForConsecutiveFiles(const QString & initial_file) {
+	qDebug("Helper::searchForConsecutiveFiles: initial_file: '%s'", initial_file.toUtf8().constData());
+
+	QStringList files_to_add;
+
+	QFileInfo fi(initial_file);
+	QString basename = fi.completeBaseName();
+	QString extension = fi.suffix();
+	QString path = fi.absolutePath();
+
+	QRegExp rx("^.*(\\d+)");
+
+	if ( rx.indexIn(basename) > -1) {
+		int digits = rx.cap(1).length();
+		int current_number = rx.cap(1).toInt();
+
+		//qDebug("Helper::searchForConsecutiveFiles: filename ends with a number (%s)", rx.cap(1).toUtf8().constData());
+		qDebug("Helper::searchForConsecutiveFiles: filename ends with a number (%d)", current_number);
+		qDebug("Helper::searchForConsecutiveFiles: trying to find consecutive files");
+
+		QString template_name = path + "/" + basename.left(basename.length() - digits);
+		//qDebug("BaseGui::newMediaLoaded: name without digits: '%s'", template_name.toUtf8().constData());
+
+		current_number++;
+		QString next_name = template_name + QString("%1").arg(current_number, digits, 10, QLatin1Char('0')) +"."+ extension;
+		qDebug("Helper::searchForConsecutiveFiles: looking for '%s'", next_name.toUtf8().constData());
+
+		while (QFile::exists(next_name)) {
+			qDebug("Helper::searchForConsecutiveFiles: '%s' exists, added to the list", next_name.toUtf8().constData());
+			files_to_add.append(next_name);
+			current_number++;
+			next_name = template_name + QString("%1").arg(current_number, digits, 10, QLatin1Char('0')) +"."+ extension;
+			qDebug("Helper::searchForConsecutiveFiles: looking for '%s'", next_name.toUtf8().constData());
+		}
+	}
+
+	return files_to_add;
+}

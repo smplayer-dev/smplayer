@@ -128,6 +128,8 @@ public:
 	//! values.
 	static QString equalizerListToString(AudioEqualizerList values);
 
+	static QStringList searchForConsecutiveFiles(const QString & initial_file);
+
 private:
 	static QString logs;
 	static QString app_path;

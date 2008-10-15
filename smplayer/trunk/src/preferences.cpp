@@ -312,6 +312,7 @@ void Preferences::reset() {
 	report_mplayer_crashes = true;
 
 	auto_add_to_playlist = true;
+	add_to_playlist_consecutive_files = false;
 
 
     /* ***********
@@ -643,6 +644,7 @@ void Preferences::save() {
 	set->setValue("report_mplayer_crashes", report_mplayer_crashes);
 
     set->setValue("auto_add_to_playlist", auto_add_to_playlist);
+    set->setValue("add_to_playlist_consecutive_files", add_to_playlist_consecutive_files);
 
 	set->endGroup(); // gui
 
@@ -986,6 +988,7 @@ void Preferences::load() {
 	report_mplayer_crashes = set->value("report_mplayer_crashes", report_mplayer_crashes).toBool();
 
 	auto_add_to_playlist = set->value("auto_add_to_playlist", auto_add_to_playlist).toBool();
+	add_to_playlist_consecutive_files = set->value("add_to_playlist_consecutive_files", add_to_playlist_consecutive_files).toBool();
 
 	set->endGroup(); // gui
 
