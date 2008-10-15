@@ -2257,8 +2257,8 @@ void BaseGui::newMediaLoaded() {
 	updateRecents();
 
 	// If a VCD, Audio CD or DVD, add items to playlist
-	if ( (core->mdat.type == TYPE_VCD) || (core->mdat.type == TYPE_DVD) || 
-         (core->mdat.type == TYPE_AUDIO_CD) ) 
+	bool is_disc = ( (core->mdat.type == TYPE_VCD) || (core->mdat.type == TYPE_DVD) || (core->mdat.type == TYPE_AUDIO_CD) );
+	if (pref->auto_add_to_playlist && is_disc)
 	{
 		int first_title = 1;
 		if (core->mdat.type == TYPE_VCD) first_title = pref->vcd_initial_title;
