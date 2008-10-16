@@ -640,26 +640,6 @@ void PrefGeneral::createHelp() {
            "SMPlayer will be stored. If this field is empty the "
            "screenshot feature will be disabled.") );
 
-	setWhatsThis(vo_combo, tr("Video output driver"),
-		tr("Select the video output driver. %1 provides the best performance.")
-#ifdef Q_OS_WIN
-		  .arg("<b><i>directx</i></b>")
-#else
-		  .arg("<b><i>xv</i></b>")
-#endif
-		);
-
-	setWhatsThis(ao_combo, tr("Audio output driver"),
-		tr("Select the audio output driver.") 
-#ifndef Q_OS_WIN
-        + " " + 
-		tr("%1 is the recommended one. Try to avoid %2 and %3, they are slow "
-           "and can have an impact on performance.")
-           .arg("<b><i>alsa</i></b>")
-           .arg("<b><i>esd</i></b>")
-           .arg("<b><i>arts</i></b>")
-#endif
-		);
 
 	setWhatsThis(remember_all_check, tr("Remember settings"),
 		tr("Usually SMPlayer will remember the settings for each file you "
@@ -679,9 +659,17 @@ void PrefGeneral::createHelp() {
            "main window is hidden. When the window is restored, playback "
            "will be resumed.") );
 
+	// Video tab
 	addSectionTitle(tr("Video"));
 
-	// Video tab
+	setWhatsThis(vo_combo, tr("Video output driver"),
+		tr("Select the video output driver. %1 provides the best performance.")
+#ifdef Q_OS_WIN
+		  .arg("<b><i>directx</i></b>")
+#else
+		  .arg("<b><i>xv</i></b>")
+#endif
+		);
 
 	setWhatsThis(postprocessing_check, tr("Enable postprocessing by default"),
 		tr("Postprocessing will be used by default on new opened files.") );
@@ -731,7 +719,41 @@ void PrefGeneral::createHelp() {
            //+ tr("<br><b>Note:</b> This option works only in X11 and Windows.")
 		);
 
+	// Audio tab
 	addSectionTitle(tr("Audio"));
+
+	setWhatsThis(ao_combo, tr("Audio output driver"),
+		tr("Select the audio output driver.") 
+#ifndef Q_OS_WIN
+        + " " + 
+		tr("%1 is the recommended one. Try to avoid %2 and %3, they are slow "
+           "and can have an impact on performance.")
+           .arg("<b><i>alsa</i></b>")
+           .arg("<b><i>esd</i></b>")
+           .arg("<b><i>arts</i></b>")
+#endif
+		);
+
+	setWhatsThis(audio_equalizer_check, tr("Enable the audio equalizer"),
+		tr("Check this option if you want to use the audio equalizer.") );
+
+	setWhatsThis(hwac3_check, tr("AC3/DTS pass-through S/PDIF"),
+		tr("Uses hardware AC3 passthrough") );
+
+	setWhatsThis(channels_combo, tr("Channels by default"),
+		tr("Requests the number of playback channels. MPlayer "
+           "asks the decoder to decode the audio into as many channels as "
+           "specified. Then it is up to the decoder to fulfill the "
+           "requirement. This is usually only important when playing "
+           "videos with AC3 audio (like DVDs). In that case liba52 does "
+           "the decoding by default and correctly downmixes the audio "
+           "into the requested number of channels. "
+           "NOTE: This option is honored by codecs (AC3 only), "
+           "filters (surround) and audio output drivers (OSS at least).") );
+
+	setWhatsThis(scaletempo_combo, tr("High speed playback without altering pitch"),
+		tr("Allows to change the playback speed without altering pitch. "
+           "Requires at least MPlayer dev-SVN-r24924.") );
 
 	setWhatsThis(softvol_check, tr("Software volume control"),
 		tr("Check this option to use the software mixer, instead of "
@@ -743,12 +765,6 @@ void PrefGeneral::createHelp() {
            "maximum of double the current level. With values below 100 the "
            "initial volume (which is 100%) will be above the maximum, which "
            "e.g. the OSD cannot display correctly.") );
-
-	setWhatsThis(audio_equalizer_check, tr("Enable the audio equalizer"),
-		tr("Check this option if you want to use the audio equalizer.") );
-
-	setWhatsThis(hwac3_check, tr("AC3/DTS pass-through S/PDIF"),
-		tr("Uses hardware AC3 passthrough") );
 
 	setWhatsThis(volnorm_check, tr("Volume normalization by default"),
 		tr("Maximizes the volume without distorting the sound.") );
@@ -770,20 +786,6 @@ void PrefGeneral::createHelp() {
 	setWhatsThis(initial_volume_slider, tr("Default volume"),
 		tr("Sets the initial volume that new files will use.") );
 
-	setWhatsThis(channels_combo, tr("Channels by default"),
-		tr("Requests the number of playback channels. MPlayer "
-           "asks the decoder to decode the audio into as many channels as "
-           "specified. Then it is up to the decoder to fulfill the "
-           "requirement. This is usually only important when playing "
-           "videos with AC3 audio (like DVDs). In that case liba52 does "
-           "the decoding by default and correctly downmixes the audio "
-           "into the requested number of channels. "
-           "NOTE: This option is honored by codecs (AC3 only), "
-           "filters (surround) and audio output drivers (OSS at least).") );
-
-	setWhatsThis(scaletempo_combo, tr("High speed playback without altering pitch"),
-		tr("Allows to change the playback speed without altering pitch. "
-           "Requires at least MPlayer dev-SVN-r24924.") );
 
 	addSectionTitle(tr("Preferred audio and subtitles"));
 
