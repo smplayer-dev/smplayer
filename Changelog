@@ -1,8 +1,22 @@
 [b]Version 0.6.4[/b]:
 
+(2008-10-16)
+ * Moved the comboboxes for the video & audio drivers to the Video and Audio
+   tabs.
+ * Added a new section in the preferences dialog: Playlist.
+
+(2008-10-15)
+ * Added the possibility to add consecutive files (video_01.avi, 
+   video_02.avi..) to the playlist. This feature is controlled by the option 
+   add_to_playlist_consecutive_files (under the [gui] section).
+ * Now the available tracks in DVDs, CDs and VCDs won't be automatically added
+   to the playlist if the option gui/auto_add_to_playlist is false. Should fix 
+   bug #2049998.
+
 (2008-10-14)
  * Logout is not cancelled by smplayer. Fixes bug #2155555.
  * Now the options in preferences display a tooltip with a help message.
+ * Revised and corrected some of the help messages in preferences.
  * Added 1:1 to the aspect ratio menu.
 
 (2008-10-10)
