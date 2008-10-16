@@ -60,6 +60,7 @@ HEADERS += guiconfig.h \
 	prefinput.h \
 	prefsubtitles.h \
 	prefadvanced.h \
+	prefplaylist.h \
 	filepropertiesdialog.h \
 	playlist.h \
 	playlistpreferences.h \
@@ -136,6 +137,7 @@ SOURCES	+= version.cpp \
 	prefinput.cpp \
 	prefsubtitles.cpp \
 	prefadvanced.cpp \
+	prefplaylist.cpp \
 	filepropertiesdialog.cpp \
 	playlist.cpp \
 	playlistpreferences.cpp \
@@ -181,6 +183,7 @@ FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
         eqslider.ui seekwidget.ui inputurl.ui \
         preferencesdialog.ui prefgeneral.ui prefdrives.ui prefinterface.ui \
         prefperformance.ui prefinput.ui prefsubtitles.ui prefadvanced.ui \
+        prefplaylist.ui \
         about.ui inputmplayerversion.ui errordialog.ui timedialog.ui \
         playlistpreferences.ui filechooser.ui \
         findsubtitles/findsubtitleswindow.ui

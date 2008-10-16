@@ -38,6 +38,7 @@ class PrefSubtitles;
 class PrefInterface;
 class PrefInput;
 class PrefAdvanced;
+class PrefPlaylist;
 class PrefAssociations;
 
 class Preferences;
@@ -93,6 +94,7 @@ protected:
 	PrefSubtitles * page_subtitles;
 	PrefInterface * page_interface;
 	PrefInput * page_input;
+	PrefPlaylist * page_playlist;
 	PrefAdvanced * page_advanced;
 
 #if USE_ASSOCIATIONS
