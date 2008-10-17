@@ -5944,7 +5944,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../clhelp.cpp" line="139"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
-        <translation>Das Hauptfenster wird geschlossen wenn die Datei/Abspieliste benendet ist.</translation>
+        <translation>Das Hauptfenster wird geschlossen wenn die Datei/Abspielliste benendet ist.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="154"/>
@@ -5979,7 +5979,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../clhelp.cpp" line="142"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
-        <translation>Das Hauptfenster wird geschlossen wenn die Datei/Abspieliste benendet ist.</translation>
+        <translation>Das Hauptfenster wird geschlossen wenn die Datei/Abspielliste benendet ist.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="145"/>
