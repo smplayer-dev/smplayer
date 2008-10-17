@@ -44,6 +44,12 @@ http://smplayer.berlios.de/forums
 
 Third-party:
 
+ * QuaZIP (a library to open Zip files) by Sergey A. Tachenov
+   url: http://quazip.sourceforge.net/
+   license: GPL (see src/findsubtitles/quazip/COPYING.readme for details)
+   This library also includes code by Gilles Vollant, with the same
+   license as zlib. See src/findsubtitles/quazip/zip.h for details.
+
 I took some icons from:
 
  * nuvoX
