@@ -16,68 +16,68 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#include "audiotracks.h"
+#include "tracks.h"
 #include <QRegExp>
 
-AudioTracks::AudioTracks() { 
+Tracks::Tracks() { 
 	clear();
 }
 
-AudioTracks::~AudioTracks() {
+Tracks::~Tracks() {
 }
 
-void AudioTracks::clear() {
+void Tracks::clear() {
 	tm.clear();
 }
 
-void AudioTracks::addLang(int ID, QString lang) {
+void Tracks::addLang(int ID, QString lang) {
 	tm[ID].setLang(lang);
 	tm[ID].setID(ID);
 }
 
-void AudioTracks::addName(int ID, QString name) {
+void Tracks::addName(int ID, QString name) {
 	tm[ID].setName(name);
 	tm[ID].setID(ID);
 }
 
-void AudioTracks::addID(int ID) {
+void Tracks::addID(int ID) {
 	tm[ID].setID(ID);
 }
 
 
-int AudioTracks::numItems() {
+int Tracks::numItems() {
 	return tm.count();
 }
 
-bool AudioTracks::existsItemAt(int n) {
+bool Tracks::existsItemAt(int n) {
 	return ((n > 0) && (n < numItems()));
 }
 
-AudioData AudioTracks::itemAt(int n) {
+TrackData Tracks::itemAt(int n) {
 	return tm.values()[n];
 }
 
-AudioData AudioTracks::item(int ID) {
+TrackData Tracks::item(int ID) {
 	return tm[ID];
 }
 
-int AudioTracks::find(int ID) {
+int Tracks::find(int ID) {
 	for (int n=0; n < numItems(); n++) {
 		if (itemAt(n).ID() == ID) return n;
 	}
 	return -1;
 }
 
-int AudioTracks::findLang(QString expr) {
-	qDebug( "AudioTracks::findLang: '%s'", expr.toUtf8().data());
+int Tracks::findLang(QString expr) {
+	qDebug( "Tracks::findLang: '%s'", expr.toUtf8().data());
 	QRegExp rx( expr );
 
 	int res_id = -1;
 
 	for (int n=0; n < numItems(); n++) {
-		qDebug("AudioTracks::findLang: lang #%d '%s'", n, itemAt(n).lang().toUtf8().data());
+		qDebug("Tracks::findLang: lang #%d '%s'", n, itemAt(n).lang().toUtf8().data());
 		if (rx.indexIn( itemAt(n).lang() ) > -1) {
-			qDebug("AudioTracks::findLang: found preferred lang!");
+			qDebug("Tracks::findLang: found preferred lang!");
 			res_id = itemAt(n).ID();
 			break;	
 		}
@@ -86,12 +86,12 @@ int AudioTracks::findLang(QString expr) {
 	return res_id;
 }
 
-void AudioTracks::list() {
-	QMapIterator<int, AudioData> i(tm);
+void Tracks::list() {
+	QMapIterator<int, TrackData> i(tm);
 	while (i.hasNext()) {
 		i.next();
-		AudioData d = i.value();
-        qDebug("AudioTracks::list: item %d: ID: %d lang: '%s' name: '%s'",
+		TrackData d = i.value();
+        qDebug("Tracks::list: item %d: ID: %d lang: '%s' name: '%s'",
                i.key(), d.ID(), d.lang().toUtf8().constData(), d.name().toUtf8().constData() );
 	}
 }
