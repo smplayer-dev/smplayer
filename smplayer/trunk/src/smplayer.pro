@@ -23,7 +23,7 @@ HEADERS += guiconfig.h \
 	helper.h \
 	translator.h \
 	subtracks.h \
-	audiotracks.h \
+	tracks.h \
 	titletracks.h \
 	extensions.h \
 	desktopinfo.h \
@@ -101,7 +101,7 @@ SOURCES	+= version.cpp \
 	helper.cpp \
 	translator.cpp \
 	subtracks.cpp \
-	audiotracks.cpp \
+	tracks.cpp \
 	titletracks.cpp \
 	extensions.cpp \
 	desktopinfo.cpp \

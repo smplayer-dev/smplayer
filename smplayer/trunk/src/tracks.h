@@ -16,20 +16,20 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _AUDIOTRACKS_H_
-#define _AUDIOTRACKS_H_
+#ifndef _TRACKS_H_
+#define _TRACKS_H_
 
 #include <QString>
 #include <QMap>
 
-/* Class to store info about audio tracks */
+/* Class to store info about video/audio tracks */
 
-class AudioData {
+class TrackData {
 
 public:
 
-	AudioData() { _lang = ""; _name = "";_ID = -1; };
-	~AudioData() {};
+	TrackData() { _lang = ""; _name = "";_ID = -1; };
+	~TrackData() {};
 
 	void setLang( const QString & l ) { _lang = l; };
 	void setName( const QString & n ) { _name = n; };
@@ -70,12 +70,12 @@ protected:
 };
 
 
-class AudioTracks {
+class Tracks {
 
 public:
 
-	AudioTracks();
-	~AudioTracks();
+	Tracks();
+	~Tracks();
 
 	void clear();
 	void list();
@@ -87,15 +87,15 @@ public:
 	int numItems();
 	bool existsItemAt(int n);
 
-	AudioData itemAt(int n);
-	AudioData item(int ID);
+	TrackData itemAt(int n);
+	TrackData item(int ID);
 	int find(int ID);
 
 	int findLang(QString expr);
 
 protected:
-	typedef QMap <int, AudioData> AudioMap;
-	AudioMap tm;
+	typedef QMap <int, TrackData> TrackMap;
+	TrackMap tm;
 };
 
 #endif
