@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de_DE">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1413,19 +1414,19 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1286"/>
         <source>Next video</source>
-        <translation type="unfinished"></translation>
+        <translation>Nächstes Video</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1334"/>
         <source>&amp;Track</source>
         <comment>video</comment>
-        <translation type="unfinished">&amp;Spur</translation>
+        <translation>&amp;Spur</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1406"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
-        <translation type="unfinished">&amp;Spur</translation>
+        <translation>&amp;Spur</translation>
     </message>
 </context>
 <context>
