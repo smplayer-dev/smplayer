@@ -84,6 +84,7 @@ static QRegExp rx_av("^[AV]: *([0-9,:.-]+)");
 static QRegExp rx_frame("^[AV]:.* (\\d+)\\/.\\d+");// [0-9,.]+");
 static QRegExp rx("^(.*)=(.*)");
 static QRegExp rx_audio_mat("^ID_AID_(\\d+)_(LANG|NAME)=(.*)");
+static QRegExp rx_video("^ID_VID_(\\d+)_(LANG|NAME)=(.*)");
 static QRegExp rx_title("^ID_DVD_TITLE_(\\d+)_(LENGTH|CHAPTERS|ANGLES)=(.*)");
 static QRegExp rx_winresolution("^VO: \\[(.*)\\] (\\d+)x(\\d+) => (\\d+)x(\\d+)");
 static QRegExp rx_ao("^AO: \\[(.*)\\]");
@@ -312,6 +313,21 @@ void MplayerProcess::parseLine(QByteArray ba) {
 		}
 		else
 
+		// Video tracks
+		if (rx_video.indexIn(line) > -1) {
+			int ID = rx_video.cap(1).toInt();
+			QString lang = rx_video.cap(3);
+			QString t = rx_video.cap(2);
+			qDebug("MplayerProcess::parseLine: Video: ID: %d, Lang: '%s' Type: '%s'", 
+                    ID, lang.toUtf8().data(), t.toUtf8().data());
+
+			if ( t == "NAME" ) 
+				md.videos.addName(ID, lang);
+			else
+				md.videos.addLang(ID, lang);
+		}
+		else
+
 		// Matroshka chapters
 		if (rx_mkvchapters.indexIn(line)!=-1) {
 			int c = rx_mkvchapters.cap(1).toInt();
@@ -520,6 +536,14 @@ void MplayerProcess::parseLine(QByteArray ba) {
 				int ID = value.toInt();
 				qDebug("MplayerProcess::parseLine: ID_AUDIO_ID: %d", ID);
 				md.audios.addID( ID );
+			}
+			else
+
+			// Video
+			if (tag == "ID_VIDEO_ID") {
+				int ID = value.toInt();
+				qDebug("MplayerProcess::parseLine: ID_VIDEO_ID: %d", ID);
+				md.videos.addID( ID );
 			}
 			else
 #endif

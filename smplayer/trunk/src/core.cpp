@@ -725,6 +725,13 @@ void Core::newMediaPlaying() {
 
 	initializeMenus(); // Old
 
+	// Video
+	if ( (mset.current_video_id == MediaSettings::NoneSelected) && 
+         (mdat.videos.numItems() > 0) ) 
+	{
+		changeVideo( mdat.videos.itemAt(0).ID(), false ); // Don't allow to restart
+	}
+
 #if !DELAYED_AUDIO_SETUP_ON_STARTUP
 	// First audio if none selected
 	if ( (mset.current_audio_id == MediaSettings::NoneSelected) && 
@@ -1398,6 +1405,11 @@ void Core::startMplayer( QString file, double seek ) {
 
 	if (pref->use_forced_subs_only) {
 		proc->addArgument("-forcedsubsonly");
+	}
+
+	if (mset.current_video_id != MediaSettings::NoneSelected) {
+		proc->addArgument("-vid");
+		proc->addArgument( QString::number( mset.current_video_id ) );
 	}
 
 	if (mset.current_audio_id != MediaSettings::NoneSelected) {
@@ -2811,6 +2823,44 @@ void Core::nextAudio() {
 		changeAudio( ID );
 	}
 }
+
+void Core::changeVideo(int ID, bool allow_restart) {
+	qDebug("Core::changeVideo: ID: %d, allow_restart: %d", ID, allow_restart);
+
+	if (ID != mset.current_video_id) {
+		mset.current_video_id = ID;
+		qDebug("Core::changeVideo: ID set to: %d", ID);
+
+		bool need_restart = false;
+		if (allow_restart) {
+			// afaik lavf doesn't require to restart, any other?
+			need_restart = (mdat.demuxer != "lavf");
+		}
+
+		if (need_restart) {
+			restartPlay(); 
+		} else {
+			tellmp("set_property switch_video " + QString::number(ID) );
+		}
+	}
+}
+
+void Core::nextVideo() {
+	qDebug("Core::nextVideo");
+
+	int item = mdat.videos.find( mset.current_video_id );
+	if (item == -1) {
+		qWarning("Core::nextVideo: video ID %d not found!", mset.current_video_id);
+	} else {
+		qDebug( "Core::nextVideo: numItems: %d, item: %d", mdat.videos.numItems(), item);
+		item++;
+		if (item >= mdat.videos.numItems()) item=0;
+		int ID = mdat.videos.itemAt(item).ID();
+		qDebug( "Core::nextVideo: item: %d, ID: %d", item, ID);
+		changeVideo( ID );
+	}
+}
+
 
 void Core::changeTitle(int ID) {
 	if (mdat.type == TYPE_VCD) {

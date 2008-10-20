@@ -224,6 +224,8 @@ public slots:
 	void nextSubtitle();
 	void changeAudio(int ID, bool allow_restart = true);
 	void nextAudio();
+	void changeVideo(int ID, bool allow_restart = true);
+	void nextVideo();
 	void changeTitle(int);
 	void changeChapter(int);
 	void prevChapter();

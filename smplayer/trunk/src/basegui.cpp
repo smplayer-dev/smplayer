@@ -731,6 +731,9 @@ void BaseGui::createActions() {
 	incGammaAct = new MyAction( this, "inc_gamma");
 	connect( incGammaAct, SIGNAL(triggered()), core, SLOT(incGamma()) );
 
+	nextVideoAct = new MyAction( this, "next_video");
+	connect( nextVideoAct, SIGNAL(triggered()), core, SLOT(nextVideo()) );
+
 	nextAudioAct = new MyAction( Qt::Key_H, this, "next_audio");
 	connect( nextAudioAct, SIGNAL(triggered()), core, SLOT(nextAudio()) );
 
@@ -884,6 +887,11 @@ void BaseGui::createActions() {
              core, SLOT(changeAdapter(int)) );
 #endif
 
+	// Video track
+	videoTrackGroup = new MyActionGroup(this);
+	connect( videoTrackGroup, SIGNAL(activated(int)), 
+	         core, SLOT(changeVideo(int)) );
+
 	// Audio track
 	audioTrackGroup = new MyActionGroup(this);
 	connect( audioTrackGroup, SIGNAL(activated(int)), 
@@ -994,6 +1002,7 @@ void BaseGui::setActionsEnabled(bool b) {
 	incSaturationAct->setEnabled(b);
 	decGammaAct->setEnabled(b);
 	incGammaAct->setEnabled(b);
+	nextVideoAct->setEnabled(b);
 	nextAudioAct->setEnabled(b);
 	nextSubtitleAct->setEnabled(b);
 	nextChapterAct->setEnabled(b);
@@ -1274,6 +1283,7 @@ void BaseGui::retranslateStrings() {
 	incSaturationAct->change( tr("Inc saturation") );
 	decGammaAct->change( tr("Dec gamma") );
 	incGammaAct->change( tr("Inc gamma") );
+	nextVideoAct->change( tr("Next video") );
 	nextAudioAct->change( tr("Next audio") );
 	nextSubtitleAct->change( tr("Next subtitle") );
 	nextChapterAct->change( tr("Next chapter") );
@@ -1321,6 +1331,9 @@ void BaseGui::retranslateStrings() {
 	speed_menu->menuAction()->setIcon( Images::icon("speed") );
 
 	// Menu Video
+	videotrack_menu->menuAction()->setText( tr("&Track", "video") );
+	videotrack_menu->menuAction()->setIcon( Images::icon("video_track") );
+
 	videosize_menu->menuAction()->setText( tr("Si&ze") );
 	videosize_menu->menuAction()->setIcon( Images::icon("video_size") );
 
@@ -1390,7 +1403,7 @@ void BaseGui::retranslateStrings() {
 #endif
 
 	// Menu Audio
-	audiotrack_menu->menuAction()->setText( tr("&Track") );
+	audiotrack_menu->menuAction()->setText( tr("&Track", "audio") );
 	audiotrack_menu->menuAction()->setIcon( Images::icon("audio_track") );
 
 	audiofilter_menu->menuAction()->setText( tr("&Filters") );
@@ -1748,6 +1761,10 @@ void BaseGui::createMenus() {
 	playMenu->addAction(playNextAct);
 	
 	// VIDEO MENU
+	videotrack_menu = new QMenu(this);
+
+	videoMenu->addMenu(videotrack_menu);
+
 	videoMenu->addAction(fullscreenAct);
 	videoMenu->addAction(compactAct);
 
@@ -2352,6 +2369,21 @@ void BaseGui::initializeMenus() {
 	}
 	audiotrack_menu->addActions( audioTrackGroup->actions() );
 
+	// Video
+	videoTrackGroup->clear(true);
+	if (core->mdat.videos.numItems()==0) {
+		QAction * a = videoTrackGroup->addAction( tr("<empty>") );
+		a->setEnabled(false);
+	} else {
+		for (n=0; n < core->mdat.videos.numItems(); n++) {
+			QAction *a = new QAction(videoTrackGroup);
+			a->setCheckable(true);
+			a->setText(core->mdat.videos.itemAt(n).displayName());
+			a->setData(core->mdat.videos.itemAt(n).ID());
+		}
+	}
+	videotrack_menu->addActions( videoTrackGroup->actions() );
+
 	// Titles
 	titleGroup->clear(true);
 	if (core->mdat.titles.numItems()==0) {
@@ -2486,6 +2518,9 @@ void BaseGui::updateWidgets() {
 	stereoGroup->setChecked( core->mset.stereo_mode );
 	// Disable the unload audio file action if there's no external audio file
 	unloadAudioAct->setEnabled( !core->mset.external_audio.isEmpty() );
+
+	// Video menu
+	videoTrackGroup->setChecked( core->mset.current_video_id );
 
 	// Aspect ratio
 	aspectGroup->setChecked( core->mset.aspect_ratio_id );

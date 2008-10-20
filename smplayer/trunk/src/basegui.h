@@ -412,6 +412,7 @@ protected:
 	MyAction * incSaturationAct;
 	MyAction * decGammaAct;
 	MyAction * incGammaAct;
+	MyAction * nextVideoAct;
 	MyAction * nextAudioAct;
 	MyAction * nextSubtitleAct;
 	MyAction * nextChapterAct;
@@ -512,6 +513,7 @@ protected:
 	MyAction * rightChannelAct;
 
 	// Other groups
+	MyActionGroup * videoTrackGroup;
 	MyActionGroup * audioTrackGroup;
 	MyActionGroup * subtitleTrackGroup;
 	MyActionGroup * titleGroup;
@@ -530,6 +532,7 @@ protected:
     QMenu *helpMenu;
 
 	QMenu * subtitlestrack_menu;
+	QMenu * videotrack_menu;
 	QMenu * audiotrack_menu;
 	QMenu * titles_menu;
 	QMenu * chapters_menu;

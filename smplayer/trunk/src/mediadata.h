@@ -64,6 +64,7 @@ public:
 
 	void list();
 
+	Tracks videos;
 	Tracks audios;
 	TitleTracks titles; // for DVDs
 
