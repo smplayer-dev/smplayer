@@ -40,6 +40,7 @@ void MediaData::reset() {
     video_height=0;
     video_aspect= (double) 4/3;
 
+	videos.clear();
 	audios.clear();
 	titles.clear();
 
@@ -121,6 +122,9 @@ void MediaData::list() {
 
 	qDebug("  Subs:");
 	subs.list();
+
+	qDebug("  Videos:");
+	videos.list();
 
 	qDebug("  Audios:");
 	audios.list();

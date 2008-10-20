@@ -104,6 +104,7 @@ dec_saturation	7
 inc_saturation	8
 dec_gamma	
 inc_gamma	
+next_video	
 next_audio	H
 next_subtitle	J
 next_chapter	@
@@ -147,6 +148,7 @@ aspect_14:9
 aspect_16:9	
 aspect_16:10	
 aspect_2.35:1	
+aspect_1:1	
 aspect_none	
 rotate_none	
 rotate_clockwise_flip	

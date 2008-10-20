@@ -64,6 +64,7 @@ public:
 	double current_sec;
 	int current_sub_id;
 
+	int current_video_id;
 	int current_audio_id;
 
 	int current_title_id;
