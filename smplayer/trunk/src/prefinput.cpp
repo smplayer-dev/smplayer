@@ -79,6 +79,7 @@ void PrefInput::createMouseCombos() {
 	left_click_combo->addItem( tr("Preferences"), "show_preferences" );
 	left_click_combo->addItem( tr("Double size"), "toggle_double_size" );
 	left_click_combo->addItem( tr("Show video equalizer"), "video_equalizer" );
+	left_click_combo->addItem( tr("Show audio equalizer"), "audio_equalizer" );
 	left_click_combo->addItem( tr("Show context menu"), "show_context_menu" );
 
 	// Copy to other combos
