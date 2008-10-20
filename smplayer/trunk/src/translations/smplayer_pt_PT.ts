@@ -1413,19 +1413,19 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="1286"/>
         <source>Next video</source>
-        <translation type="unfinished"></translation>
+        <translation>Próximo vídeo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1334"/>
         <source>&amp;Track</source>
         <comment>video</comment>
-        <translation type="unfinished">&amp;Faixa</translation>
+        <translation>&amp;Faixa</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1406"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
-        <translation type="unfinished">&amp;Faixa</translation>
+        <translation>&amp;Faixa</translation>
     </message>
 </context>
 <context>
