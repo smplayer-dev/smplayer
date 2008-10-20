@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1412,19 +1413,19 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
     <message>
         <location filename="../basegui.cpp" line="1286"/>
         <source>Next video</source>
-        <translation type="unfinished"></translation>
+        <translation>Următorul fișier video</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1334"/>
         <source>&amp;Track</source>
         <comment>video</comment>
-        <translation type="unfinished">C&amp;oloană_sonoră</translation>
+        <translation>Fișier &amp;video</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1406"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
-        <translation type="unfinished">C&amp;oloană_sonoră</translation>
+        <translation>C&amp;oloană_sonoră</translation>
     </message>
 </context>
 <context>
@@ -4365,112 +4366,112 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="256"/>
         <source>fast</source>
-        <translation type="unfinished"></translation>
+        <translation>repede</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="252"/>
         <source>slow</source>
-        <translation type="unfinished"></translation>
+        <translation>lent</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="249"/>
         <source>fastest</source>
-        <translation type="unfinished"></translation>
+        <translation>rapid</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="257"/>
         <source>fast - ATI cards</source>
-        <translation type="unfinished"></translation>
+        <translation>repede - plăci ATI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="297"/>
         <source>User defined...</source>
-        <translation type="unfinished"></translation>
+        <translation>Definit de utilizator...</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="686"/>
         <source>Default zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Mărire implicită</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="688"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Această opțiune configurează nivelul implicit de mărire ce va fi folosit la redarea fișierelor video viitoare.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="384"/>
         <source>Default &amp;zoom:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mărire implicită:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="634"/>
         <source>Here you must specify the mplayer executable that SMPlayer will use.&lt;br&gt;SMPlayer requires at least MPlayer 1.0rc1 (although a recent revision from SVN is highly recommended).</source>
-        <translation type="unfinished"></translation>
+        <translation>Aici trebuie să precizați versiunea executabilului pentru mplayer pe care îl va folosi SMPlayer. &lt;br&gt;SMPlayer are nevoie de cel puțin versiunea 1.0rc1 pentru MPlayer (dar o versiune mai nouă este mult mai recomandată).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="636"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă această opțiune este aleasă greșit, SMPlayer nu va putea reda nimic!</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="641"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If this field is empty the screenshot feature will be disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aici puteți preciza directorul în care vor fi stocate capturile de ecran realizate cu SMPlayer. Dacă acest câmp este gol, funcția de captură de ecran nu va fi activă.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="667"/>
         <source>Select the video output driver. %1 provides the best performance.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați driverul de ieșie video. %1 asigură cele mai bune performanțe.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="731"/>
         <source>%1 is the recommended one. Try to avoid %2 and %3, they are slow and can have an impact on performance.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 este opțiunea recomandată. Încercați să evitați alegerea opțiunilor %2 și %3, acestea sunt lente și pot avea impact negativ asupra performanțelor.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="647"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
-        <translation type="unfinished"></translation>
+        <translation>Implicit SMPlayer va reține opțiunile alese pentru fiecare fișier multimedia pe care îl redați (pista audio selectată, volumul, filtrele, ...). Dezactivați această opțiune, dacă nu vă place această caracteristică.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="651"/>
         <source>If you check this option, SMPlayer will play all files from the beginning.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă selectați aceasta opțiune, SMPlayer va reda toate fișierele de la începutul lor.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="660"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă este selectată această opțiune, se va face pauză în redarea fișierului când fereastra principală a programului este ascunsă. La restaurarea ferestrei redarea fișierului va fi reluată.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="720"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați această opțiune pentru a dezactiva economizorul de ecran când se redă un fișier multimedia. &lt;br&gt;Economizorul de ecran se va activa din nou după ce se va termina redarea fișierului.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="779"/>
         <source>If this option is checked the initial volume will be set by using the &lt;i&gt;-volume&lt;/i&gt; option in MPlayer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă este selectată această optiune, nivelul inițial al volumului va fi configurat folosind opțiunea &lt;i&gt;-volume&lt;/i&gt; în MPlayer.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="784"/>
         <source>WARNING: THE OFFICIAL MPLAYER DOESN&apos;T HAVE THAT &lt;i&gt;-volume&lt;/i&gt; OPTION, YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON&apos;T PLAY ANYTHING.</source>
-        <translation type="unfinished"></translation>
+        <translation>ATENȚIE: VERSIUNEA OFICIALĂ A LUI MPLAYER NU ARE OPȚIUNEA &lt;i&gt;-volume&lt;/i&gt;. AVEȚI NEVOIE DE O VERSIUNE MODIFICATĂ, ALTFEL MPLAYER NU VA PUTEA REDA NIMIC.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="800"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aici puteți selecta limba preferată pentru coloana sonoră. Când este găsit un fișier multimedia care conține mai multe coloane sonore, SMPlayer va încerca să folosească limba preferată.&lt;br&gt;Această optiune este valabilă doar pentru fișiere multimedia care oferă informații despre limba coloanelor sonore, precum DVD-urile sau fișierele în format mkv.&lt;br&gt;Câmpul acceptă expresii regulate. Exemplu: expresia &lt;b&gt;es|esp|spa&lt;/b&gt; va determina alegerea coloanei sonore care corespunde abrevierilor &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; sau &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="810"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aici puteți selecta limba preferată pentru subtitrare. Când este găsit un fișier multimedia care oferă fisiere de subtitrare în mai multe limbi, SMPlayer va încerca să folosească limba preferată.&lt;br&gt;Această opțiune nu funcționează decât cu fișierele multimedia care oferă informații despre fișierele cu subtitrări, precum DVD-uri sau fișiere mkv.&lt;br&gt;Acest câmp acceptă expresii regulate. Exemplu: expresia &lt;b&gt;es|esp|spa&lt;/b&gt; va determina selectarea subtitrării care corespunde abrevierilor &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; sau &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="503"/>
         <source>Ou&amp;tput driver:</source>
-        <translation type="unfinished"></translation>
+        <translation>D&amp;river ieșire:</translation>
     </message>
 </context>
 <context>
@@ -5462,42 +5463,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="36"/>
         <source>Playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Listă redare</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="80"/>
         <source>Automatically add files to playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Adăugare automată a fișierelor la lista de redare</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="84"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă este selectată aceasta opțiune, de fiecare dată când este deschis un fișier, SMPlayer va șterge lista de redare si va adăuga fișierul deschis la listă. În cazul DVD-urilor, CD-urilor și VCD-urilor se vor adăuga toate titlurile de pe disc la lista de redare.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="86"/>
         <source>Add consecutive files</source>
-        <translation type="unfinished"></translation>
+        <translation>Adăugarea fișierelor consecutive</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="89"/>
         <source>If this option is enabled, SMPlayer will look for consecutive files (e.g. video_1.avi, video_2.avi...) and if found, they&apos;ll be added to the playlist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă este selectată aceasta opțiune, SMPlayer va căuta fișiere multimedia consecutive (de exemplu video_1.avi, video_2.avi...) și dacă sunt găsite, acestea vor fi adăugate la lista de redare.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="32"/>
         <source>&amp;Playlist</source>
-        <translation type="unfinished">&amp;Listă titluri</translation>
+        <translation>&amp;Listă de redare</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="38"/>
         <source>&amp;Automatically add files to playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Adăugare automată a fișierelor la lista de redare</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="72"/>
         <source>Add &amp;consecutive files</source>
-        <translation type="unfinished"></translation>
+        <translation>Adăugarea fișierelor &amp;consecutive</translation>
     </message>
 </context>
 <context>
@@ -5860,7 +5861,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="361"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Aici puteți selecta un caracter de tip ttf pentru a fi folosit pentru subtitrare. De regulă veți găsi multe caractere în format ttf în %1</translation>
     </message>
 </context>
 <context>
