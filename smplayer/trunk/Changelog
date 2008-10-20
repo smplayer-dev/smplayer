@@ -1,5 +1,10 @@
 [b]Version 0.6.4[/b]:
 
+(2008-10-20)
+ * Bugfix: the show equalizer option didn't work when assigned to any of
+   the mouse buttons. (Reason: the action name was changed some time ago
+   from "equalizer" to "video_equalizer)
+
 (2008-10-19)
  * (Experimental) Added the possibility to change the video track.
    Only tested with this sample video: http://www.megaupload.com/?d=3GAGZCTP
