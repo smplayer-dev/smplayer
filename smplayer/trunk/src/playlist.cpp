@@ -140,6 +140,7 @@ void Playlist::setModified(bool mod) {
 
 void Playlist::createTable() {
 	listView = new MyTableWidget( 0, COL_TIME + 1, this);
+	listView->setObjectName("playlist_table");
 	listView->setSizePolicy( QSizePolicy::Expanding, QSizePolicy::Expanding );
 	listView->setSelectionBehavior(QAbstractItemView::SelectRows);
 	listView->setSelectionMode(QAbstractItemView::ExtendedSelection);
@@ -349,7 +350,7 @@ void Playlist::updateView() {
 		time = Helper::formatTime( (int) pl[n].duration() );
 		
 		//listView->setText(n, COL_POS, number);
-		qDebug("name: '%s'", name.toUtf8().data());
+		qDebug("Playlist::updateViewname: '%s'", name.toUtf8().data());
 		listView->setText(n, COL_NAME, name);
 		listView->setText(n, COL_TIME, time);
 
