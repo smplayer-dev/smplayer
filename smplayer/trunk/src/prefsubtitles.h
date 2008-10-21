@@ -99,10 +99,6 @@ protected:
 protected:
 	virtual void retranslateStrings();
 
-protected slots:
-	void on_colorButton_clicked();
-	void on_borderButton_clicked();
-
 private:
 	Encodings * encodings;
 	unsigned int ass_color, ass_border_color;

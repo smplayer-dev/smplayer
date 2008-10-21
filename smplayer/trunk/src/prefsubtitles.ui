@@ -777,7 +777,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="colorButton" >
+          <widget class="SelectColorButton" name="colorButton" >
            <property name="enabled" >
             <bool>false</bool>
            </property>
@@ -819,7 +819,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="borderButton" >
+          <widget class="SelectColorButton" name="borderButton" >
            <property name="enabled" >
             <bool>false</bool>
            </property>
@@ -936,6 +936,11 @@
    <class>MyFontComboBox</class>
    <extends>QFontComboBox</extends>
    <header>mycombobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>SelectColorButton</class>
+   <extends>QPushButton</extends>
+   <header>selectcolorbutton.h</header>
   </customwidget>
  </customwidgets>
  <tabstops>
