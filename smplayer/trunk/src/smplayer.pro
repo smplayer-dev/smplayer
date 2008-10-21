@@ -52,6 +52,7 @@ HEADERS += guiconfig.h \
 	mycombobox.h \
 	tristatecombo.h \
 	languages.h \
+	selectcolorbutton.h \
 	prefwidget.h \
 	prefgeneral.h \
 	prefdrives.h \
@@ -129,6 +130,7 @@ SOURCES	+= version.cpp \
 	mycombobox.cpp \
 	tristatecombo.cpp \
 	languages.cpp \
+	selectcolorbutton.cpp \
 	prefwidget.cpp \
 	prefgeneral.cpp \
 	prefdrives.cpp \
