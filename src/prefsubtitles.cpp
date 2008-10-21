@@ -247,32 +247,19 @@ bool PrefSubtitles::useFontASS() {
 }
 
 void PrefSubtitles::setAssColor( unsigned int color ) {
-	ass_color = color;
-#ifdef Q_OS_WIN
-	colorButton->setStyleSheet( "border-width: 1px; border-style: solid; border-color: #000000; background: #" + Helper::colorToRRGGBB(ass_color) + ";");
-#else
-	//colorButton->setAutoFillBackground(true);
-	Helper::setBackgroundColor( colorButton, color );
-#endif
+	colorButton->setColor(color);
 }
 
 unsigned int PrefSubtitles::assColor() {
-	return ass_color;
+	return colorButton->color().rgb();
 }
 
 void PrefSubtitles::setAssBorderColor( unsigned int color ) {
-	ass_border_color = color;
-
-#ifdef Q_OS_WIN
-	borderButton->setStyleSheet( "border-width: 1px; border-style: solid; border-color: #000000; background: #" + Helper::colorToRRGGBB(ass_border_color) + ";");
-#else
-	//borderButton->setAutoFillBackground(true);
-	Helper::setBackgroundColor( borderButton, color );
-#endif
+	borderButton->setColor(color);
 }
 
 unsigned int PrefSubtitles::assBorderColor() {
-	return ass_border_color;
+	return borderButton->color().rgb();
 }
 
 void PrefSubtitles::setAssStyles(QString styles) {
@@ -299,20 +286,6 @@ bool PrefSubtitles::subtitlesOnScreenshots() {
 	return subtitles_on_screeshots_check->isChecked();
 }
 
-
-void PrefSubtitles::on_colorButton_clicked() {
-	QColor c = QColorDialog::getColor ( ass_color, this );
-	if (c.isValid()) {
-		setAssColor( c.rgb() );
-	}
-}
-
-void PrefSubtitles::on_borderButton_clicked() {
-	QColor c = QColorDialog::getColor ( ass_border_color, this );
-	if (c.isValid()) {
-		setAssBorderColor( c.rgb() );
-	}
-}
 
 void PrefSubtitles::createHelp() {
 	clearHelp();
