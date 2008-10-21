@@ -101,7 +101,6 @@ protected:
 
 private:
 	Encodings * encodings;
-	unsigned int ass_color, ass_border_color;
 };
 
 #endif
