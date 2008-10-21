@@ -338,6 +338,8 @@ void Playlist::list() {
 }
 
 void Playlist::updateView() {
+	qDebug("Playlist::updateView");
+
 	listView->setRowCount( pl.count() );
 
 	//QString number;
@@ -350,7 +352,7 @@ void Playlist::updateView() {
 		time = Helper::formatTime( (int) pl[n].duration() );
 		
 		//listView->setText(n, COL_POS, number);
-		qDebug("Playlist::updateViewname: '%s'", name.toUtf8().data());
+		qDebug("Playlist::updateView: name: '%s'", name.toUtf8().data());
 		listView->setText(n, COL_NAME, name);
 		listView->setText(n, COL_TIME, time);
 
