@@ -1533,12 +1533,12 @@ void BaseGui::createCore() {
 	connect( core, SIGNAL(mediaStoppedByUser()),
              this, SLOT(disableActionsOnStop()) );
 
-	connect( core, SIGNAL(mediaLoaded()),
+	connect( core, SIGNAL(mediaStartPlay()),
              this, SLOT(newMediaLoaded()) );
 	connect( core, SIGNAL(mediaInfoChanged()),
              this, SLOT(updateMediaInfo()) );
 
-	connect( core, SIGNAL(mediaLoaded()),
+	connect( core, SIGNAL(mediaStartPlay()),
              this, SLOT(checkPendingActionsToRun()) );
 
 	connect( core, SIGNAL(mediaStartPlay()),
