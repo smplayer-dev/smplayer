@@ -119,3 +119,16 @@ bool MplayerVersion::isMplayerAtLeast(int svn_revision) {
 		return isMplayerAtLeast(pref->mplayer_detected_version, svn_revision);
 	}
 }
+
+QString MplayerVersion::toString(int svn_revision) {
+	QString version;
+
+	switch (svn_revision) {
+		case MPLAYER_1_0_RC1_SVN: version = QString("1.0rc1"); break;
+		case MPLAYER_1_0_RC2_SVN: version = QString("1.0rc2"); break;
+		default : version =  QString("SVN r%1").arg(svn_revision);
+	}
+
+	return version;
+}
+

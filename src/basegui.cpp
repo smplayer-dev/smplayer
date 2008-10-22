@@ -62,6 +62,7 @@
 #include "timedialog.h"
 #include "clhelp.h"
 #include "findsubtitleswindow.h"
+#include "mplayerversion.h"
 
 #include "config.h"
 #include "actionseditor.h"
@@ -1539,6 +1540,9 @@ void BaseGui::createCore() {
 
 	connect( core, SIGNAL(mediaLoaded()),
              this, SLOT(checkPendingActionsToRun()) );
+
+	connect( core, SIGNAL(mediaStartPlay()),
+             this, SLOT(checkMplayerVersion()) );
 
 	connect( core, SIGNAL(failedToParseMplayerVersion(QString)),
              this, SLOT(askForMplayerVersion(QString)) );
@@ -3289,6 +3293,39 @@ void BaseGui::checkPendingActionsToRun() {
 		pending_actions_to_run.clear();
 	}
 }
+
+#if REPORT_OLD_MPLAYER
+void BaseGui::checkMplayerVersion() {
+	qDebug("BaseGui::checkMplayerVersion");
+
+	// Qt 4.3.5 is crazy, I can't popup a messagebox here, it calls 
+	// this function once and again when the messagebox is shown
+
+	if (!MplayerVersion::isMplayerAtLeast(25158)) {
+		QTimer::singleShot(1000, this, SLOT(displayWarningAboutOldMplayer()));
+	}
+}
+
+void BaseGui::displayWarningAboutOldMplayer() {
+	qDebug("BaseGui::displayWarningAboutOldMplayer");
+
+	if (!pref->reported_mplayer_is_old) {
+		QMessageBox::warning(this, tr("Warning - Using old MPlayer"),
+			tr("The version of MPlayer (%1) installed on your system "
+               "is obsolete. SMPlayer can't work well with it, some "
+               "options won't work, subtitle selection may fail...")
+               .arg(MplayerVersion::toString(pref->mplayer_detected_version)) +
+            "<br><br>" + 
+            tr("Please, update your MPlayer.") +
+            "<br><br>" + 
+            tr("(This warning won't be displayed anymore)") );
+
+		pref->reported_mplayer_is_old = true;
+	}
+	else
+	statusBar()->showMessage( tr("Using an old MPlayer, please update it!"), 10000 );
+}
+#endif
 
 void BaseGui::dragEnterEvent( QDragEnterEvent *e ) {
 	qDebug("BaseGui::dragEnterEvent");

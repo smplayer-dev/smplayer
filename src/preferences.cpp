@@ -311,6 +311,10 @@ void Preferences::reset() {
 
 	report_mplayer_crashes = true;
 
+#if REPORT_OLD_MPLAYER
+	reported_mplayer_is_old = false;
+#endif
+
 	auto_add_to_playlist = true;
 	add_to_playlist_consecutive_files = false;
 
@@ -642,6 +646,10 @@ void Preferences::save() {
 #endif
 
 	set->setValue("report_mplayer_crashes", report_mplayer_crashes);
+
+#if REPORT_OLD_MPLAYER
+	set->setValue("reported_mplayer_is_old", reported_mplayer_is_old);
+#endif
 
     set->setValue("auto_add_to_playlist", auto_add_to_playlist);
     set->setValue("add_to_playlist_consecutive_files", add_to_playlist_consecutive_files);
@@ -986,6 +994,10 @@ void Preferences::load() {
 #endif
 
 	report_mplayer_crashes = set->value("report_mplayer_crashes", report_mplayer_crashes).toBool();
+
+#if REPORT_OLD_MPLAYER
+	reported_mplayer_is_old = set->value("reported_mplayer_is_old", reported_mplayer_is_old).toBool();
+#endif
 
 	auto_add_to_playlist = set->value("auto_add_to_playlist", auto_add_to_playlist).toBool();
 	add_to_playlist_consecutive_files = set->value("add_to_playlist_consecutive_files", add_to_playlist_consecutive_files).toBool();

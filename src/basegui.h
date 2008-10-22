@@ -155,6 +155,11 @@ protected slots:
 
 	void checkPendingActionsToRun();
 
+#if REPORT_OLD_MPLAYER
+	void checkMplayerVersion();
+	void displayWarningAboutOldMplayer();
+#endif
+
 #if AUTODISABLE_ACTIONS
 	virtual void enableActionsOnPlaying();
 	virtual void disableActionsOnStop();
