@@ -39,6 +39,13 @@ private slots:
 
 private:
 	QColor _color;
+	
+#ifdef Q_OS_WIN
+	bool ignore_change_event;
+	
+protected:
+	virtual void changeEvent ( QEvent * event ) ;
+#endif
 };
 
 #endif
