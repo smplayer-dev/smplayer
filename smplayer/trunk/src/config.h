@@ -117,6 +117,13 @@
 #endif
 
 
+// If 1, smplayer will check if mplayer is old
+// and in that case it will report to the user
+#ifndef Q_OS_WIN
+#define REPORT_OLD_MPLAYER 1
+#endif
+
+
 // NOTIFY_AUDIO_SUB_CHANGES
 // if set to 1, mplayerprocess will notify changes in the audio and
 // subtitle tracks that happen during playback. It doesn't work yet!!!

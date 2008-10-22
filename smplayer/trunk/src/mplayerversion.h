@@ -35,6 +35,8 @@ public:
 	static bool isMplayerAtLeast(int mplayer_svn, int svn_revision);
 
 	static bool isMplayerAtLeast(int svn_revision);
+
+	static QString toString(int mplayer_svn);
 };
 
 #endif
