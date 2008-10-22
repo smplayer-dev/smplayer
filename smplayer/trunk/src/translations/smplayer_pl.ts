@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="pl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1414,19 +1415,19 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../basegui.cpp" line="1286"/>
         <source>Next video</source>
-        <translation type="unfinished"></translation>
+        <translation>Następne wideo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1334"/>
         <source>&amp;Track</source>
         <comment>video</comment>
-        <translation type="unfinished">&amp;Ścieżka</translation>
+        <translation>&amp;Ścieżka</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1406"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
-        <translation type="unfinished">&amp;Ścieżka</translation>
+        <translation>&amp;Ścieżka</translation>
     </message>
 </context>
 <context>
@@ -1465,42 +1466,42 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2200"/>
+        <location filename="../core.cpp" line="2206"/>
         <source>Brightness: %1</source>
         <translation>Jasność: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2215"/>
+        <location filename="../core.cpp" line="2221"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2229"/>
+        <location filename="../core.cpp" line="2235"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2243"/>
+        <location filename="../core.cpp" line="2249"/>
         <source>Hue: %1</source>
         <translation>Odcień: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2257"/>
+        <location filename="../core.cpp" line="2263"/>
         <source>Saturation: %1</source>
         <translation>Nasycenie: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2377"/>
+        <location filename="../core.cpp" line="2383"/>
         <source>Volume: %1</source>
         <translation>Głośność: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3216"/>
+        <location filename="../core.cpp" line="3222"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2496"/>
+        <location filename="../core.cpp" line="2502"/>
         <source>Font scale: %1</source>
         <translation>Skala czcionki: %1</translation>
     </message>
@@ -3023,170 +3024,170 @@ Czy chcesz go nadpisać?</translation>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="277"/>
+        <location filename="../playlist.cpp" line="278"/>
         <source>Name</source>
         <translation>Nazwa</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="277"/>
+        <location filename="../playlist.cpp" line="278"/>
         <source>Length</source>
         <translation>Długość</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="671"/>
+        <location filename="../playlist.cpp" line="674"/>
         <source>Choose a file</source>
         <translation>Wybierz plik</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="689"/>
+        <location filename="../playlist.cpp" line="692"/>
         <source>Choose a filename</source>
         <translation>Wybierz nazwę pliku</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="700"/>
+        <location filename="../playlist.cpp" line="703"/>
         <source>Confirm overwrite?</source>
         <translation>Potwierdź nadpisanie?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="884"/>
+        <location filename="../playlist.cpp" line="887"/>
         <source>Select one or more files to open</source>
         <translation>Wybierz jeden lub więcej plików do otwarcia</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="939"/>
+        <location filename="../playlist.cpp" line="942"/>
         <source>Choose a directory</source>
         <translation>Wybierz katalog</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="702"/>
+        <location filename="../playlist.cpp" line="705"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Plik %1 istnieje
 Nadpisać go?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1127"/>
+        <location filename="../playlist.cpp" line="1130"/>
         <source>Edit name</source>
         <translation>Edytuj nazwę</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1128"/>
+        <location filename="../playlist.cpp" line="1131"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Wpisz nową nazwę dla tego pliku, która będzie wyświetlana w liście 
 odtwarzania :</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="282"/>
+        <location filename="../playlist.cpp" line="283"/>
         <source>&amp;Play</source>
         <translation>&amp;Odtwarzaj</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="315"/>
+        <location filename="../playlist.cpp" line="316"/>
         <source>&amp;Edit</source>
         <translation>&amp;Edytuj</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="691"/>
+        <location filename="../playlist.cpp" line="694"/>
         <source>Playlists</source>
         <translation>Listy odtwarzania</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="886"/>
+        <location filename="../playlist.cpp" line="889"/>
         <source>All files</source>
         <translation>Wszystkie pliki</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="279"/>
+        <location filename="../playlist.cpp" line="280"/>
         <source>&amp;Load</source>
         <translation>&amp;Wczytaj</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="280"/>
+        <location filename="../playlist.cpp" line="281"/>
         <source>&amp;Save</source>
         <translation>&amp;Zapisz</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="284"/>
+        <location filename="../playlist.cpp" line="285"/>
         <source>&amp;Next</source>
         <translation>&amp;Następny</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="285"/>
+        <location filename="../playlist.cpp" line="286"/>
         <source>Pre&amp;vious</source>
         <translation>Pop&amp;rzedni</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="297"/>
+        <location filename="../playlist.cpp" line="298"/>
         <source>Move &amp;up</source>
         <translation>Przesuń w &amp;górę</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="298"/>
+        <location filename="../playlist.cpp" line="299"/>
         <source>Move &amp;down</source>
         <translation>Przesuń w &amp;dół</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="300"/>
+        <location filename="../playlist.cpp" line="301"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Powtarzaj</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="301"/>
+        <location filename="../playlist.cpp" line="302"/>
         <source>S&amp;huffle</source>
         <translation>T&amp;asuj</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="306"/>
+        <location filename="../playlist.cpp" line="307"/>
         <source>Add &amp;current file</source>
         <translation>Dodaj &amp;bieżący plik</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="307"/>
+        <location filename="../playlist.cpp" line="308"/>
         <source>Add &amp;file(s)</source>
         <translation>Dodaj &amp;plik(i)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="308"/>
+        <location filename="../playlist.cpp" line="309"/>
         <source>Add &amp;directory</source>
         <translation>Dodaj &amp;katalog</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="311"/>
+        <location filename="../playlist.cpp" line="312"/>
         <source>Remove &amp;selected</source>
         <translation>Usuń &amp;zaznaczony</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="312"/>
+        <location filename="../playlist.cpp" line="313"/>
         <source>Remove &amp;all</source>
         <translation>Usuń &amp;wszystko</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="325"/>
+        <location filename="../playlist.cpp" line="326"/>
         <source>SMPlayer - Playlist</source>
         <translation>SMPlayer-lista odtwarzania</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="319"/>
+        <location filename="../playlist.cpp" line="320"/>
         <source>Add...</source>
         <translation>Dodaj...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="321"/>
+        <location filename="../playlist.cpp" line="322"/>
         <source>Remove...</source>
         <translation>Usuń...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="726"/>
+        <location filename="../playlist.cpp" line="729"/>
         <source>Playlist modified</source>
         <translation>Lista odtwarzania zmodyfikowana</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="727"/>
+        <location filename="../playlist.cpp" line="730"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Tu są niezapisane zmiany, czy chcesz zapisać listę odtwarzania?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="303"/>
+        <location filename="../playlist.cpp" line="304"/>
         <source>Preferences</source>
         <translation>Preferencje</translation>
     </message>
@@ -4502,7 +4503,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>ikona</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="141"/>
+        <location filename="../prefinput.cpp" line="142"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>Tutaj możesz zmienić każdy klawisz skrótu. Aby to zrobić kliknij dwa razy w polu klawisza skrótu i przyporządkuj mu klawisz klawiatury. Dodatkowo możesz także zapisać listę, aby podzielić się nią z innymi lub wykorzystać na innym komputerze.</translation>
     </message>
@@ -4517,17 +4518,17 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>Funkcje przycisku:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="130"/>
+        <location filename="../prefinput.cpp" line="131"/>
         <source>Media seeking</source>
         <translation>Pasek postępu odtwarzania</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="131"/>
+        <location filename="../prefinput.cpp" line="132"/>
         <source>Volume control</source>
         <translation>Kontrola głośności</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="132"/>
+        <location filename="../prefinput.cpp" line="133"/>
         <source>Zoom video</source>
         <translation>Zoom wideo</translation>
     </message>
@@ -4557,42 +4558,42 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>&amp;Funkcje kółka:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="251"/>
+        <location filename="../prefinput.cpp" line="252"/>
         <source>Shortcut editor</source>
         <translation>Edytor skrótów klawiszowych</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="260"/>
+        <location filename="../prefinput.cpp" line="261"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>Tabela ta pozwala zmienić klawisz skrótu dla każdej dostępnej funkcji. Kliknij dwa razu lub wciśnij enter na pozycję, lub wybierz &lt;b&gt;Zmień klawisz skrótu&lt;/b&gt; w dialogu &lt;i&gt;Modyfikuj klawisz skrótu&lt;/i&gt;. Istnieją dwie metody zmiany klawisza skrótu: przez funkcję &lt;b&gt;Przechwycenie&lt;/b&gt; po prostu naciśnij nowy klawisz lub ich kombinację, której chcesz przypisać odpowiednią funkcję (niestety nie działa to z wszystkimi klawiszami). Jeśli przycisk &lt;b&gt;Przechwycenie&lt;/b&gt; jest wyłączony wtedy możesz wpisać pełną nazwę klawisza.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="264"/>
+        <location filename="../prefinput.cpp" line="265"/>
         <source>Left click</source>
         <translation>Lewy przycisk</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="265"/>
+        <location filename="../prefinput.cpp" line="266"/>
         <source>Select the action for left click on the mouse.</source>
         <translation>Wybierz funkcję dla lewego przycisku myszki.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="267"/>
+        <location filename="../prefinput.cpp" line="268"/>
         <source>Double click</source>
         <translation>Dwuklik lewego przycisku</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="268"/>
+        <location filename="../prefinput.cpp" line="269"/>
         <source>Select the action for double click on the mouse.</source>
         <translation>Wybierz funkcję dla dwukliku lewego przycisku.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="279"/>
+        <location filename="../prefinput.cpp" line="280"/>
         <source>Wheel function</source>
         <translation>Funkcje kółka</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="280"/>
+        <location filename="../prefinput.cpp" line="281"/>
         <source>Select the action for the mouse wheel.</source>
         <translation>Wybierz funkcję dla kółka myszki.</translation>
     </message>
@@ -4677,19 +4678,19 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>Preferencje</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="129"/>
+        <location filename="../prefinput.cpp" line="130"/>
         <source>No function</source>
         <translation>Bez funkcji</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="133"/>
+        <location filename="../prefinput.cpp" line="134"/>
         <source>Change speed</source>
         <translation>Zmień prędkość</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="81"/>
         <source>Show equalizer</source>
-        <translation>Pokaż korektor wideo</translation>
+        <translation type="obsolete">Pokaż korektor wideo</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="77"/>
@@ -4697,22 +4698,22 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>Normalna prędkość</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="249"/>
+        <location filename="../prefinput.cpp" line="250"/>
         <source>Keyboard</source>
         <translation>Klawiatura</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="262"/>
+        <location filename="../prefinput.cpp" line="263"/>
         <source>Mouse</source>
         <translation>Myszka</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="270"/>
+        <location filename="../prefinput.cpp" line="271"/>
         <source>Middle click</source>
         <translation>Środkowy przycisk</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="271"/>
+        <location filename="../prefinput.cpp" line="272"/>
         <source>Select the action for middle click on the mouse.</source>
         <translation>Wybierz funkcję dla środkowego przycisku myszki.</translation>
     </message>
@@ -4767,7 +4768,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>OSD-następny poziom</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="82"/>
+        <location filename="../prefinput.cpp" line="83"/>
         <source>Show context menu</source>
         <translation>Pokaż menu kontekstowe</translation>
     </message>
@@ -4787,24 +4788,34 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>Zmniejsz głośność</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="273"/>
+        <location filename="../prefinput.cpp" line="274"/>
         <source>X Button 1</source>
         <translation>Przycisk X 1</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="274"/>
+        <location filename="../prefinput.cpp" line="275"/>
         <source>Select the action for the X button 1.</source>
         <translation>Wybierz funkcję dla przycisku X 1.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="276"/>
+        <location filename="../prefinput.cpp" line="277"/>
         <source>X Button 2</source>
         <translation>Przycisk X 2</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="277"/>
+        <location filename="../prefinput.cpp" line="278"/>
         <source>Select the action for the X button 2.</source>
         <translation>Wybierz funkcję dla przycisku X 2.</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="81"/>
+        <source>Show video equalizer</source>
+        <translation>Pokaż korektor wideo</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="82"/>
+        <source>Show audio equalizer</source>
+        <translation>Pokaż korektor audio</translation>
     </message>
 </context>
 <context>
@@ -5514,7 +5525,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
 <context>
     <name>PrefSubtitles</name>
     <message>
-        <location filename="../prefsubtitles.cpp" line="320"/>
+        <location filename="../prefsubtitles.cpp" line="293"/>
         <source>Subtitles</source>
         <translation>Napisy</translation>
     </message>
@@ -5539,7 +5550,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>Autoładowanie</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="325"/>
+        <location filename="../prefsubtitles.cpp" line="298"/>
         <source>Select first available subtitle</source>
         <translation>Wybierz pierwsze dostępne napisy</translation>
     </message>
@@ -5579,7 +5590,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>Dół</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="352"/>
+        <location filename="../prefsubtitles.cpp" line="325"/>
         <source>Include subtitles on screenshots</source>
         <translation>Dołącz napisy w zrzucie ekranu</translation>
     </message>
@@ -5629,7 +5640,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>Nowa biblioteka SSA/ASS dostarcza ładny styl napisów dla zewnęrznych plików napisów SSA/ASS i ścieżek Matroska. Będzie ona również użyta do wyświetlania innych formatów takich jak SUB I SRT.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="388"/>
+        <location filename="../prefsubtitles.cpp" line="361"/>
         <source>Use SSA/ASS library for subtitle rendering</source>
         <translation>Użyj biblioteki SSA/ASS do wyświetlania napisów</translation>
     </message>
@@ -5639,17 +5650,17 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>Tutaj możesz zmienić styl wyświetlania napisów za pomocą SSA/ASS. Można tego również użyć do zmiany wyglądu wyświetlanych napisów SRT i SUB przez bibliotekę SSA/ASS .Przykład: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="346"/>
+        <location filename="../prefsubtitles.cpp" line="319"/>
         <source>Subtitle position</source>
         <translation>Pozycja napisów</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="349"/>
+        <location filename="../prefsubtitles.cpp" line="322"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
         <translation>Ta opcja określa pozycję napisów w wyświetlanym filmie. &lt;i&gt;100&lt;/i&gt; napisy na dole filmu, a &lt;i&gt;0&lt;/i&gt; napisy na górze.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="398"/>
+        <location filename="../prefsubtitles.cpp" line="371"/>
         <source>SSA/ASS styles</source>
         <translation>styl SSA/ASS</translation>
     </message>
@@ -5714,27 +5725,27 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>St&amp;yle:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="386"/>
+        <location filename="../prefsubtitles.cpp" line="359"/>
         <source>SSA/ASS library</source>
         <translation>Biblioteka SSA/ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="377"/>
+        <location filename="../prefsubtitles.cpp" line="350"/>
         <source>Default scale for normal subtitles</source>
         <translation>Domyślna skala dla normalnych napisów</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="379"/>
+        <location filename="../prefsubtitles.cpp" line="352"/>
         <source>This option specifies the default font scale for normal (white) subtitles which will be used for new videos.</source>
         <translation>Ta opcja precyzuje domyślną czcionkę dla normalnych (białych) napisów, które będą użyte dla nowych wideo.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="381"/>
+        <location filename="../prefsubtitles.cpp" line="354"/>
         <source>Default scale for SSA/ASS subtitles</source>
         <translation>Domyślna skala dla napisów SSA/ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="383"/>
+        <location filename="../prefsubtitles.cpp" line="356"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new videos.</source>
         <translation>Ta opcja precyzuje domyślną czcionkę dla napisów SSA/ASS, które będą użyte dla nowych wideo.</translation>
     </message>
@@ -5754,7 +5765,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>&amp;Biblioteka SSA/ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="331"/>
+        <location filename="../prefsubtitles.cpp" line="304"/>
         <source>Default subtitle encoding</source>
         <translation>Domyślne kodowanie napisów</translation>
     </message>
@@ -5764,12 +5775,12 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation type="obsolete">Wybierz kodowanie dla pliku napisów.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="354"/>
+        <location filename="../prefsubtitles.cpp" line="327"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. Note: it may cause some troubles sometimes.</source>
         <translation>Jeśli opcja ta jest zaznaczona, napisy pojawią się w zrzucie ekranu. Notka: czasami może powodować problemy.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="358"/>
+        <location filename="../prefsubtitles.cpp" line="331"/>
         <source>TTF font</source>
         <translation>Czcionka TTF</translation>
     </message>
@@ -5779,82 +5790,82 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation type="obsolete">Tutaj możesz wybrać czcionkę ttf dla napisów. Zwykle, dużą ilość czcionek ttf znajdziesz w &lt;i&gt;%1&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="368"/>
+        <location filename="../prefsubtitles.cpp" line="341"/>
         <source>System font</source>
         <translation>Czcionka systemowa</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="370"/>
+        <location filename="../prefsubtitles.cpp" line="343"/>
         <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
         <translation>Tutaj możesz wybrać czcionkę systemową dla napisów i OSD. &lt;b&gt;Notka:&lt;/b&gt; wymaga MPlayera z obsługą ustawień czcionki.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="372"/>
+        <location filename="../prefsubtitles.cpp" line="345"/>
         <source>Autoscale</source>
         <translation>Autoskalowanie</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="390"/>
+        <location filename="../prefsubtitles.cpp" line="363"/>
         <source>Check this option to activate the SSA/ASS library. It provides nicer subtitles, so it&apos;s a good idea to do it.</source>
         <translation>Zaznacz tę opcję aby włączyć bibliotekę SSA/ASS. Dostarcza ona ładne napisy, więc może to dobry pomysł.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="392"/>
+        <location filename="../prefsubtitles.cpp" line="365"/>
         <source>Text color</source>
         <translation>Kolor tekstu</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="393"/>
+        <location filename="../prefsubtitles.cpp" line="366"/>
         <source>Select the color for the text of the subtitles.</source>
         <translation>Wybierz kolor tekstu napisów.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="395"/>
+        <location filename="../prefsubtitles.cpp" line="368"/>
         <source>Border color</source>
         <translation>Kolor obwódki</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="396"/>
+        <location filename="../prefsubtitles.cpp" line="369"/>
         <source>Select the color for the border of the subtitles.</source>
         <translation>Wybierz kolor obwódki napisów.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="323"/>
+        <location filename="../prefsubtitles.cpp" line="296"/>
         <source>Select the subtitle autoload method.</source>
         <translation>Wybierz napisy metodą autoładowania.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="329"/>
+        <location filename="../prefsubtitles.cpp" line="302"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>Jeśli dostępne jest kilka ścieżek napisów, jedna z nich zostanie wybrana automatycznie, zwykle pierwsza. Jednak, gdy jedna z nich odpowiada preferowanemu językowi użytkownika, wtedy to ona zostanie użyta. </translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="373"/>
+        <location filename="../prefsubtitles.cpp" line="346"/>
         <source>Select the subtitle autoscaling method.</source>
         <translation>Wybierz napisy metodą autoskalowania.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="333"/>
+        <location filename="../prefsubtitles.cpp" line="306"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
         <translation>Wybierz kodowanie, które zostanie użyte jako domyślne dla plików napisów.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="335"/>
+        <location filename="../prefsubtitles.cpp" line="308"/>
         <source>Try to autodetect for this language</source>
         <translation>Spróbuj autodetekcji dla tego języka</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="340"/>
+        <location filename="../prefsubtitles.cpp" line="313"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
         <translation>Jeśli opcja ta jest zaznaczona, kodowanie dla ustalonych napisów zostanie wykryte automatycznie. Gdy autodetekcja nie powiedzie się, kodowanie powróci do domyślnego. Opcja ta wymaga MPlayera kompilowanego z obsługą ENCA.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="342"/>
+        <location filename="../prefsubtitles.cpp" line="315"/>
         <source>Subtitle language</source>
         <translation>Język napisów</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="344"/>
+        <location filename="../prefsubtitles.cpp" line="317"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
         <translation>Wybierz język, dla którego chcesz aby kodowanie zostało wykryte automatycznie.</translation>
     </message>
@@ -5869,7 +5880,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>Spróbuj &amp;autodetekcji dla tego języka:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="361"/>
+        <location filename="../prefsubtitles.cpp" line="334"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
         <translation>Tutaj możesz wybrać czcionkę ttf dla napisów. Dużą ilość czcionek ttf znajdziesz w &lt;i&gt;%1&lt;/i&gt;</translation>
     </message>
@@ -6060,7 +6071,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>określ plik napisów, które zostaną wczytane dla pierwszego plku wideo.</translation>
     </message>
     <message numerus="yes">
-        <location filename="../helper.cpp" line="237"/>
+        <location filename="../helper.cpp" line="245"/>
         <source>%1 second(s)</source>
         <translation>
             <numerusform>%1 sekund (a,y)</numerusform>
@@ -6069,7 +6080,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../helper.cpp" line="236"/>
+        <location filename="../helper.cpp" line="244"/>
         <source>%1 minute(s)</source>
         <translation>
             <numerusform>%1 minut (a,y)</numerusform>
@@ -6078,7 +6089,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         </translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="238"/>
+        <location filename="../helper.cpp" line="246"/>
         <source>%1 and %2</source>
         <translation>%1 i %2</translation>
     </message>
