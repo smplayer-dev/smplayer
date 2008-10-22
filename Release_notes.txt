@@ -1,3 +1,26 @@
+Version 0.6.4.
+
+Most important changes since 0.6.3:
+
+ * Now the dialog to find subtitles can also download the subtitle file and 
+   load it in smplayer automatically.
+ * (Linux) The black screen problem when using Compiz should really fixed now.
+ * Added support for encoding autodetection for subtitle files. Requires a 
+   mplayer compiled with enca support.
+ * (Linux) Now it's possible to choose the audio device to be used with alsa 
+   (needs the application "aplay").
+ * (Windows) Now it's possible to choose the audio device to be used with 
+   dsound.
+ * (Windows) The menu Video->Screen displays now the actual available screens
+   with their names.
+ * Added the possibility to add consecutive files (video_01.avi, video_02.avi..)
+   automatically to the playlist.
+ * Bugfix: logout is not cancelled by smplayer.
+ * Now the options in preferences display a tooltip with a help message.
+ * Now it's possible to change the video track.
+ * Added the Galician translation.
+
+
 Version 0.6.3.1 (release for Windows only)
 
 This release includes a fix for an important bug in 0.6.3 which affected
