@@ -1,5 +1,15 @@
 [b]Version 0.6.4[/b]:
 
+(2008-10-21)
+ * Now if the SSA/ASS lib is enabled and a file named styles.ass exists in the 
+   smplayer config directory ($HOME/.smplayer/ or the application directory if 
+   compiled with PORTABLE_APP) smplayer will load it (mplayer option 
+   -ass-styles). In this case the color for subtitles and styles configured
+   in Preferences->Subtitles WON'T be used.
+   In the future smplayer will create that file automatically and the 
+   preferences dialog will allow to configure all (or at least the most 
+   important) styles.
+
 (2008-10-20)
  * Bugfix: the show equalizer option didn't work when assigned to any of
    the mouse buttons. (Reason: the action name was changed some time ago
