@@ -326,5 +326,6 @@ void SMPlayer::showInfo() {
 	qDebug(" * shortcuts path: '%s'", Helper::shortcutsPath().toUtf8().data());
 	qDebug(" * smplayer home path: '%s'", Helper::appHomePath().toUtf8().data());
 	qDebug(" * ini path: '%s'", Helper::iniPath().toUtf8().data());
+	qDebug(" * file for subtitles' styles: '%s'", Helper::subtitleStyleFile().toUtf8().data());
 	qDebug(" * current path: '%s'", QDir::currentPath().toUtf8().data());
 }

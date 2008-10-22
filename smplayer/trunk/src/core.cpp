@@ -1341,13 +1341,19 @@ void Core::startMplayer( QString file, double seek ) {
 	if (pref->use_ass_subtitles) {
 		proc->addArgument("-ass");
 		proc->addArgument("-embeddedfonts");
-		proc->addArgument("-ass-color");
-		proc->addArgument( Helper::colorToRRGGBBAA( pref->ass_color ) );
-		proc->addArgument("-ass-border-color");
-		proc->addArgument( Helper::colorToRRGGBBAA( pref->ass_border_color ) );
-		if (!pref->ass_styles.isEmpty()) {
-			proc->addArgument("-ass-force-style");
-			proc->addArgument( pref->ass_styles );
+
+		if (QFile::exists(Helper::subtitleStyleFile())) {
+			proc->addArgument("-ass-styles");
+			proc->addArgument( Helper::subtitleStyleFile() );
+		} else {
+			proc->addArgument("-ass-color");
+			proc->addArgument( Helper::colorToRRGGBBAA( pref->ass_color ) );
+			proc->addArgument("-ass-border-color");
+			proc->addArgument( Helper::colorToRRGGBBAA( pref->ass_border_color ) );
+			if (!pref->ass_styles.isEmpty()) {
+				proc->addArgument("-ass-force-style");
+				proc->addArgument( pref->ass_styles );
+			}
 		}
 	}
 

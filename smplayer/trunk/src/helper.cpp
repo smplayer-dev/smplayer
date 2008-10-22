@@ -182,6 +182,14 @@ QString Helper::iniPath() {
 	return "";
 }
 
+QString Helper::subtitleStyleFile() {
+#ifdef PORTABLE_APP
+	return appPath() + "/styles.ass";
+#else
+	return appHomePath() + "/styles.ass";
+#endif
+}
+
 QString Helper::filenameForPref(const QString & filename) {
 	QString s = filename;
 	s = s.replace('/', '_');

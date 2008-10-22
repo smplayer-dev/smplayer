@@ -57,6 +57,7 @@ public:
 	static void setIniPath(QString path);
 	static QString iniPath();
 
+	static QString subtitleStyleFile();
 
 	// Format a time (hh:mm:ss)
 	static QString formatTime(int secs);
