@@ -3312,7 +3312,7 @@ void BaseGui::displayWarningAboutOldMplayer() {
 	if (!pref->reported_mplayer_is_old) {
 		QMessageBox::warning(this, tr("Warning - Using old MPlayer"),
 			tr("The version of MPlayer (%1) installed on your system "
-               "is obsolete. SMPlayer can't work well with it, some "
+               "is obsolete. SMPlayer can't work well with it: some "
                "options won't work, subtitle selection may fail...")
                .arg(MplayerVersion::toString(pref->mplayer_detected_version)) +
             "<br><br>" + 
@@ -3323,7 +3323,7 @@ void BaseGui::displayWarningAboutOldMplayer() {
 		pref->reported_mplayer_is_old = true;
 	}
 	else
-	statusBar()->showMessage( tr("Using an old MPlayer, please update it!"), 10000 );
+	statusBar()->showMessage( tr("Using an old MPlayer, please update it"), 10000 );
 }
 #endif
 
