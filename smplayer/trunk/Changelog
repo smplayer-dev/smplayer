@@ -1,5 +1,12 @@
 [b]Version 0.6.4[/b]:
 
+(2008-10-22)
+ * (Linux) Now smplayer will pop up a warning if the mplayer version is old.
+   This popup will appear only once, although there'll be a reminder in the
+   status line.
+   A mplayer is considered old if it's older than svn r25158 (that includes
+   1.0rc2)
+
 (2008-10-21)
  * Now if the SSA/ASS lib is enabled and a file named styles.ass exists in the 
    smplayer config directory ($HOME/.smplayer/ or the application directory if 
