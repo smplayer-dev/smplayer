@@ -1413,44 +1413,44 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1287"/>
         <source>Next video</source>
-        <translation type="unfinished"></translation>
+        <translation>次のビデオ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1335"/>
         <source>&amp;Track</source>
         <comment>video</comment>
-        <translation type="unfinished">トラック(&amp;T)</translation>
+        <translation>トラック(&amp;T)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1407"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
-        <translation type="unfinished">トラック(&amp;T)</translation>
+        <translation>トラック(&amp;T)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3313"/>
         <source>Warning - Using old MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>警告 - 古い MPlayer を使用しています</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3317"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
-        <translation type="unfinished"></translation>
+        <translation>お使いのシステムにインストールされている MPlayer のバージョン (%1) は古いです。SMPlayer はよく動作できません: いくつかのオプションは動作しません、字幕の選択は失敗する可能性があります...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3320"/>
         <source>Please, update your MPlayer.</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer を更新してください。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3321"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
-        <translation type="unfinished"></translation>
+        <translation>(この警告はこれ以上表示されません)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3326"/>
         <source>Using an old MPlayer, please update it</source>
-        <translation type="unfinished"></translation>
+        <translation>古い MPlayer を使用しています、更新してください</translation>
     </message>
 </context>
 <context>
@@ -4804,12 +4804,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="81"/>
         <source>Show video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>ビデオ イコライザーの表示</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="82"/>
         <source>Show audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>オーディオ イコライザーの表示</translation>
     </message>
 </context>
 <context>
