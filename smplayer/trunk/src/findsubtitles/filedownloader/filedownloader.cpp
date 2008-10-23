@@ -75,11 +75,9 @@ void FileDownloader::httpRequestFinished(int request_id, bool error) {
 	hide();
 
 	if (error) {
-		//emit downloadFailed(http->errorString());
-		QTimer::singleShot(200, this, SLOT(sendLaterDownloadFailed()));
+		emit downloadFailed(http->errorString());
 	} else {
-		//emit downloadFinished(buffer);
-		QTimer::singleShot(200, this, SLOT(sendLaterDownloadFinished()));
+		emit downloadFinished(buffer.data());
 	}
 }
 
@@ -98,15 +96,6 @@ void FileDownloader::updateDataReadProgress(int bytes_read, int total_bytes) {
 
 	setMaximum(total_bytes);
 	setValue(bytes_read);
-}
-
-// Work-around Qt bugs
-void FileDownloader::sendLaterDownloadFinished() {
-	emit downloadFinished(buffer);
-}
-
-void FileDownloader::sendLaterDownloadFailed() {
-	emit downloadFailed(http->errorString());
 }
 
 #include "moc_filedownloader.cpp"
