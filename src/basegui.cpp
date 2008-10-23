@@ -3301,7 +3301,7 @@ void BaseGui::checkMplayerVersion() {
 	// Qt 4.3.5 is crazy, I can't popup a messagebox here, it calls 
 	// this function once and again when the messagebox is shown
 
-	if (!MplayerVersion::isMplayerAtLeast(25158)) {
+	if ( (pref->mplayer_detected_version > 0) && (!MplayerVersion::isMplayerAtLeast(25158)) ) {
 		QTimer::singleShot(1000, this, SLOT(displayWarningAboutOldMplayer()));
 	}
 }
