@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de_DE">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1430,27 +1431,27 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="3313"/>
         <source>Warning - Using old MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Warnung - Veraltete Version von MPlayer </translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3317"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
-        <translation type="unfinished"></translation>
+        <translation>Die installierte Version von MPlayer (%1) auf diesen System ist veraltet. SMPlayer arbeitet mit dieser Version unzureichend: einige Optionen funktionieren nicht, Auswahl der Untertitel ist eventuell nicht möglich...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3320"/>
         <source>Please, update your MPlayer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bitte MPlayer aktualisieren.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3321"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Diese Warnung wird nicht mehr angezeigt)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3326"/>
         <source>Using an old MPlayer, please update it</source>
-        <translation type="unfinished"></translation>
+        <translation>Unter Einsatz einer veralteten MPlayer Version, bitte aktualisieren.</translation>
     </message>
 </context>
 <context>
@@ -4836,12 +4837,12 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinput.cpp" line="81"/>
         <source>Show video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Video Equalizer anzeigen</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="82"/>
         <source>Show audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio Equalizer anzeigen</translation>
     </message>
 </context>
 <context>
