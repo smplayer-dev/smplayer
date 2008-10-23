@@ -118,9 +118,9 @@ FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
 	file_downloader = new FileDownloader(this);
 	file_downloader->setModal(true);
 	connect( file_downloader, SIGNAL(downloadFailed(QString)),
-             this, SLOT(showError(QString)) );
-	connect( file_downloader, SIGNAL(downloadFinished(const QBuffer &)),
-             this, SLOT(archiveDownloaded(const QBuffer &)) );
+             this, SLOT(showError(QString)), Qt::QueuedConnection );
+	connect( file_downloader, SIGNAL(downloadFinished(const QByteArray &)),
+             this, SLOT(archiveDownloaded(const QByteArray &)), Qt::QueuedConnection );
 #endif
 
 	// Actions
@@ -360,7 +360,7 @@ void FindSubtitlesWindow::changeEvent(QEvent *e) {
 }
 
 #ifdef DOWNLOAD_SUBS
-void FindSubtitlesWindow::archiveDownloaded(const QBuffer & buffer) {
+void FindSubtitlesWindow::archiveDownloaded(const QByteArray & buffer) {
 	qDebug("FindSubtitlesWindow::archiveDownloaded");
 
 	QString temp_dir = QDir::tempPath();
@@ -373,10 +373,15 @@ void FindSubtitlesWindow::archiveDownloaded(const QBuffer & buffer) {
 
 	if (file.open()) {
 		QString filename = file.fileName();
-		file.write( buffer.data() );
+		file.write( buffer );
 		file.close();
 
 		qDebug("FindSubtitlesWindow::archiveDownloaded: file saved as: %s", filename.toUtf8().constData());
+
+		/*
+		QMessageBox::information(this, tr("Downloaded"), tr("File saved as %1").arg(filename));
+		return;
+		*/
 
 		status->setText(QString("Temporary file %1").arg(filename));
 

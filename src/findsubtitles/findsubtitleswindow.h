@@ -66,7 +66,7 @@ protected slots:
 	void showContextMenu(const QPoint & pos);
 
 #ifdef DOWNLOAD_SUBS
-	void archiveDownloaded(const QBuffer & buffer);
+	void archiveDownloaded(const QByteArray & buffer);
 #endif
 
 protected:

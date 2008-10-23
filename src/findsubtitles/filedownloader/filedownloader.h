@@ -41,16 +41,13 @@ public slots:
 	void cancelDownload();
 
 signals:
-	void downloadFinished(const QBuffer & buffer);
+	void downloadFinished(const QByteArray & buffer);
 	void downloadFailed(const QString & reason);
 
 private slots:
 	void httpRequestFinished(int request_id, bool error);
 	void readResponseHeader(const QHttpResponseHeader &responseHeader);
 	void updateDataReadProgress(int bytes_read, int total_bytes);
-
-	void sendLaterDownloadFinished();
-	void sendLaterDownloadFailed();
 
 private:
 	QHttp * http;
