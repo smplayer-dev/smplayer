@@ -1430,27 +1430,27 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="3313"/>
         <source>Warning - Using old MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Aviso - Usando MPlayer antigo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3317"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
-        <translation type="unfinished"></translation>
+        <translation>A versão MPlayer (%1) instalada no sistema é obsoleta. SMPlayer não funcionará correctamente: algumas opções não funcionam, legendas podem falhar...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3320"/>
         <source>Please, update your MPlayer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Por favor actualiza o MPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3321"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
-        <translation type="unfinished"></translation>
+        <translation>(O aviso não será mostrado novamente)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3326"/>
         <source>Using an old MPlayer, please update it</source>
-        <translation type="unfinished"></translation>
+        <translation>Usando MPlayer antigo, deve actualizá-lo</translation>
     </message>
 </context>
 <context>
@@ -3232,7 +3232,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../playlistpreferences.cpp" line="39"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation>Seleccione esta opção para adicionar à lista de reprodução as informações constantes do ficheiro.     Isto permiter-lhe-á mostrar o título (se existente) e a duração dos ficheiros. Caso contrário, esta informação não estará disponível. Tenha em conta que esta operação pode ser demorada, principalmente se adicionar muitos ficheiros.</translation>
+        <translation>Seleccione esta opção para adicionar à lista de reprodução as informações constantes do ficheiro.  Isto permiter-lhe-á mostrar o título (se existente) e a duração dos ficheiros. Caso contrário, esta informação não estará disponível.   Tenha em conta que esta operação pode ser demorada, principalmente se adicionar muitos ficheiros.</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="39"/>
@@ -3971,7 +3971,7 @@ As listas podem já conter expressões regulares para vários idiomas.</translat
     <message>
         <location filename="../prefgeneral.ui" line="93"/>
         <source>&amp;Folder for storing screenshots:</source>
-        <translation>Pasta para &amp;guardar capturas:</translation>
+        <translation>Pasta para &amp;armazenar capturas:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="149"/>
@@ -4806,12 +4806,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="81"/>
         <source>Show video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar equalizador de vídeo</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="82"/>
         <source>Show audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar equalizador de áudio</translation>
     </message>
 </context>
 <context>
@@ -4894,7 +4894,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="548"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
-        <translation>&amp;Use apenas uma instância em execução</translation>
+        <translation>&amp;Usar apenas uma instância do SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="139"/>
@@ -4994,7 +4994,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="438"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
-        <translation>Seleccione o número máximo de itens a serem mostrados em&lt;b&gt;Ficheiros Recentes&lt;/b&gt;. Se definir 0, o submenu não será mostrado.</translation>
+        <translation>Seleccione o número máximo de itens a serem mostrados em&lt;b&gt;Ficheiros Recentes&lt;/b&gt;. Se definir 0, o menu não será mostrado.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="443"/>
@@ -5089,7 +5089,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="486"/>
         <source>Use only one running instance of SMPlayer</source>
-        <translation>Use apenas uma instância em execução</translation>
+        <translation>Use apenas uma instância do SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="488"/>
@@ -5969,7 +5969,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../smplayer.cpp" line="305"/>
         <source>This is SMPlayer v. %1 running on %2</source>
-        <translation>SMPlayer v.%1 funcionando em %2</translation>
+        <translation>SMPlayer v.%1 executando em %2</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="128"/>
