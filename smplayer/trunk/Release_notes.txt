@@ -4,7 +4,8 @@ Most important changes since 0.6.3:
 
  * Now the dialog to find subtitles can also download the subtitle file and 
    load it in smplayer automatically.
- * (Linux) The black screen problem when using Compiz should really fixed now.
+ * (Linux) The black screen problem when using Compiz should really be fixed 
+   now.
  * Added support for encoding autodetection for subtitle files. Requires a 
    mplayer compiled with enca support.
  * (Linux) Now it's possible to choose the audio device to be used with alsa 
