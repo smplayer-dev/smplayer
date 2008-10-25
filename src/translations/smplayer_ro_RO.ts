@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1429,27 +1430,27 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
     <message>
         <location filename="../basegui.cpp" line="3313"/>
         <source>Warning - Using old MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Atenționare - Acum folosiți o versiune MPlayer veche</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3317"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
-        <translation type="unfinished"></translation>
+        <translation>Versiunea pentru MPlayer (%1) pe care o aveți instalată în sistem este depășită. SMPlayer nu poate funcționa bine cu această versiune: unele opțiuni nu vor funcționa, selectarea subtitrărikor poate eșua...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3320"/>
         <source>Please, update your MPlayer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Actualizați versiunea pentru MPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3321"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Această atenționare nu va mai fi afișată)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3326"/>
         <source>Using an old MPlayer, please update it</source>
-        <translation type="unfinished"></translation>
+        <translation>Acum folosiți o versiune veche pentru MPlayer, se recomandă actualizarea ei</translation>
     </message>
 </context>
 <context>
@@ -4823,12 +4824,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="81"/>
         <source>Show video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Afișare egalizor video</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="82"/>
         <source>Show audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Afișare egalizor audio</translation>
     </message>
 </context>
 <context>
