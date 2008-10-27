@@ -107,6 +107,7 @@ void PrefAdvanced::setData(Preferences * pref) {
 #endif
 	setPreferIpv4( pref->prefer_ipv4 );
 	setUseIdx( pref->use_idx );
+	setUseCorrectPts( pref->use_correct_pts );
 
 	setLogMplayer( pref->log_mplayer );
 	setLogSmplayer( pref->log_smplayer );
@@ -134,6 +135,7 @@ void PrefAdvanced::getData(Preferences * pref) {
 #endif
 	pref->prefer_ipv4 = preferIpv4();
 	TEST_AND_SET(pref->use_idx, useIdx());
+	TEST_AND_SET(pref->use_correct_pts, useCorrectPts());
 
 	if (pref->monitor_aspect != monitorAspect()) {
 		pref->monitor_aspect = monitorAspect();
@@ -278,6 +280,14 @@ bool PrefAdvanced::useIdx() {
 	return idx_check->isChecked();
 }
 
+void PrefAdvanced::setUseCorrectPts(bool b) {
+	correct_pts_check->setChecked(b);
+}
+
+bool PrefAdvanced::useCorrectPts() {
+	return correct_pts_check->isChecked();
+}
+
 void PrefAdvanced::on_changeButton_clicked() {
 	//bool ok;
 	//int color = colorkey_view->text().toUInt(&ok, 16);
@@ -377,6 +387,16 @@ void PrefAdvanced::createHelp() {
            "This option only works if the underlying media supports "
            "seeking (i.e. not with stdin, pipe, etc).<br> "
            "Note: the creation of the index may take some time.") );
+
+	setWhatsThis(correct_pts_check, tr("Correct pts"),
+		tr("Switches MPlayer to an experimental mode where timestamps for "
+           "video frames are calculated differently and video filters which "
+           "add new frames or modify timestamps of existing ones are "
+           "supported. The more accurate timestamps can be visible for "
+           "example when playing subtitles timed to scene changes with the "
+           "SSA/ASS library enabled. Without correct pts the subtitle timing "
+           "will typically be off by some frames. This option does not work "
+           "correctly with some demuxers and codecs.") );
 
 #ifdef Q_OS_WIN
 	setWhatsThis(shortnames_check, tr("Pass short filenames (8+3) to MPlayer"),

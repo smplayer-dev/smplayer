@@ -237,6 +237,8 @@ void Preferences::reset() {
 
 	use_pausing_keep_force = true;
 
+	use_correct_pts = false;
+
 
     /* *********
        GUI stuff
@@ -573,6 +575,8 @@ void Preferences::save() {
 	set->setValue("change_video_equalizer_on_startup", change_video_equalizer_on_startup);
 
 	set->setValue("use_pausing_keep_force", use_pausing_keep_force);
+
+	set->setValue("use_correct_pts", use_correct_pts);
 
 	set->endGroup(); // advanced
 
@@ -921,6 +925,8 @@ void Preferences::load() {
 	use_short_pathnames = set->value("use_short_pathnames", use_short_pathnames).toBool();
 
 	use_pausing_keep_force = set->value("use_pausing_keep_force", use_pausing_keep_force).toBool();
+
+	use_correct_pts = set->value("use_correct_pts", use_correct_pts).toBool();
 
 	set->endGroup(); // advanced
 
