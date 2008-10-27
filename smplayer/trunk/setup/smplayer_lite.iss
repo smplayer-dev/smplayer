@@ -64,6 +64,7 @@ Source: "*.dll"; DestDir: "{app}"; Components: main
 Source: "*.txt"; DestDir: "{app}"; Components: main
 Source: "Release_notes.txt"; DestDir: "{app}"; Flags: isreadme; Components: main
 Source: "smplayer.exe"; DestDir: "{app}"; Components: main
+Source: "dxlist.exe"; DestDir: "{app}"; Components: main
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
