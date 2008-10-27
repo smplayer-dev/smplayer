@@ -228,6 +228,8 @@ public:
 	//! in mplayer svn r27665.
 	bool use_pausing_keep_force;
 
+	bool use_correct_pts; //!< Pass -correct-pts to mplayer
+
 
 	/* *********
 	   GUI stuff

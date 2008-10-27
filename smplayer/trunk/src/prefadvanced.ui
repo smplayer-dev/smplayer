@@ -10,11 +10,20 @@
    </rect>
   </property>
   <layout class="QVBoxLayout" >
-   <property name="margin" >
-    <number>0</number>
-   </property>
    <property name="spacing" >
     <number>6</number>
+   </property>
+   <property name="leftMargin" >
+    <number>0</number>
+   </property>
+   <property name="topMargin" >
+    <number>0</number>
+   </property>
+   <property name="rightMargin" >
+    <number>0</number>
+   </property>
+   <property name="bottomMargin" >
+    <number>0</number>
    </property>
    <item>
     <widget class="QTabWidget" name="advanced_tab" >
@@ -26,19 +35,37 @@
        <string>&amp;Advanced</string>
       </attribute>
       <layout class="QVBoxLayout" >
-       <property name="margin" >
-        <number>9</number>
-       </property>
        <property name="spacing" >
         <number>6</number>
        </property>
+       <property name="leftMargin" >
+        <number>9</number>
+       </property>
+       <property name="topMargin" >
+        <number>9</number>
+       </property>
+       <property name="rightMargin" >
+        <number>9</number>
+       </property>
+       <property name="bottomMargin" >
+        <number>9</number>
+       </property>
        <item>
         <layout class="QHBoxLayout" >
-         <property name="margin" >
-          <number>0</number>
-         </property>
          <property name="spacing" >
           <number>6</number>
+         </property>
+         <property name="leftMargin" >
+          <number>0</number>
+         </property>
+         <property name="topMargin" >
+          <number>0</number>
+         </property>
+         <property name="rightMargin" >
+          <number>0</number>
+         </property>
+         <property name="bottomMargin" >
+          <number>0</number>
          </property>
          <item>
           <widget class="QLabel" name="monitor_aspect_icon" >
@@ -66,9 +93,7 @@
          <item>
           <widget class="MyComboBox" name="monitoraspect_combo" >
            <property name="sizePolicy" >
-            <sizepolicy>
-             <hsizetype>5</hsizetype>
-             <vsizetype>0</vsizetype>
+            <sizepolicy vsizetype="Fixed" hsizetype="Preferred" >
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
@@ -102,11 +127,20 @@
           <string>Network Connection</string>
          </property>
          <layout class="QVBoxLayout" >
-          <property name="margin" >
-           <number>9</number>
-          </property>
           <property name="spacing" >
            <number>6</number>
+          </property>
+          <property name="leftMargin" >
+           <number>9</number>
+          </property>
+          <property name="topMargin" >
+           <number>9</number>
+          </property>
+          <property name="rightMargin" >
+           <number>9</number>
+          </property>
+          <property name="bottomMargin" >
+           <number>9</number>
           </property>
           <item>
            <widget class="QRadioButton" name="ipv4_button" >
@@ -140,6 +174,13 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="correct_pts_check" >
+         <property name="text" >
+          <string>C&amp;orrect pts</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="shortnames_check" >
          <property name="text" >
           <string>&amp;Pass short filenames (8+3) to MPlayer</string>
@@ -162,11 +203,20 @@
        </item>
        <item>
         <layout class="QHBoxLayout" >
-         <property name="margin" >
-          <number>0</number>
-         </property>
          <property name="spacing" >
           <number>6</number>
+         </property>
+         <property name="leftMargin" >
+          <number>0</number>
+         </property>
+         <property name="topMargin" >
+          <number>0</number>
+         </property>
+         <property name="rightMargin" >
+          <number>0</number>
+         </property>
+         <property name="bottomMargin" >
+          <number>0</number>
          </property>
          <item>
           <widget class="QLabel" name="colorkey_label" >
@@ -184,9 +234,7 @@
          <item>
           <widget class="QLineEdit" name="colorkey_view" >
            <property name="sizePolicy" >
-            <sizepolicy>
-             <hsizetype>1</hsizetype>
-             <vsizetype>0</vsizetype>
+            <sizepolicy vsizetype="Fixed" hsizetype="Minimum" >
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
@@ -241,11 +289,20 @@
        <string>Options for MP&amp;layer</string>
       </attribute>
       <layout class="QVBoxLayout" >
-       <property name="margin" >
-        <number>9</number>
-       </property>
        <property name="spacing" >
         <number>6</number>
+       </property>
+       <property name="leftMargin" >
+        <number>9</number>
+       </property>
+       <property name="topMargin" >
+        <number>9</number>
+       </property>
+       <property name="rightMargin" >
+        <number>9</number>
+       </property>
+       <property name="bottomMargin" >
+        <number>9</number>
        </property>
        <item>
         <widget class="QLabel" name="textLabel3_2" >
@@ -264,11 +321,20 @@ Example: -flip -nosound</string>
        </item>
        <item>
         <layout class="QHBoxLayout" >
-         <property name="margin" >
-          <number>0</number>
-         </property>
          <property name="spacing" >
           <number>6</number>
+         </property>
+         <property name="leftMargin" >
+          <number>0</number>
+         </property>
+         <property name="topMargin" >
+          <number>0</number>
+         </property>
+         <property name="rightMargin" >
+          <number>0</number>
+         </property>
+         <property name="bottomMargin" >
+          <number>0</number>
          </property>
          <item>
           <widget class="QLabel" name="textLabel1_3" >
@@ -291,9 +357,7 @@ Example: -flip -nosound</string>
        <item>
         <widget class="Line" name="line2" >
          <property name="sizePolicy" >
-          <sizepolicy>
-           <hsizetype>7</hsizetype>
-           <vsizetype>0</vsizetype>
+          <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
@@ -326,11 +390,20 @@ Example: scale=512:-2,eq2=1.1</string>
        </item>
        <item>
         <layout class="QHBoxLayout" >
-         <property name="margin" >
-          <number>0</number>
-         </property>
          <property name="spacing" >
           <number>6</number>
+         </property>
+         <property name="leftMargin" >
+          <number>0</number>
+         </property>
+         <property name="topMargin" >
+          <number>0</number>
+         </property>
+         <property name="rightMargin" >
+          <number>0</number>
+         </property>
+         <property name="bottomMargin" >
+          <number>0</number>
          </property>
          <item>
           <widget class="QLabel" name="textLabel2_3" >
@@ -353,9 +426,7 @@ Example: scale=512:-2,eq2=1.1</string>
        <item>
         <widget class="Line" name="line3" >
          <property name="sizePolicy" >
-          <sizepolicy>
-           <hsizetype>7</hsizetype>
-           <vsizetype>0</vsizetype>
+          <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
@@ -387,11 +458,20 @@ Example: resample=44100:0:0,volnorm</string>
        </item>
        <item>
         <layout class="QHBoxLayout" >
-         <property name="margin" >
-          <number>0</number>
-         </property>
          <property name="spacing" >
           <number>6</number>
+         </property>
+         <property name="leftMargin" >
+          <number>0</number>
+         </property>
+         <property name="topMargin" >
+          <number>0</number>
+         </property>
+         <property name="rightMargin" >
+          <number>0</number>
+         </property>
+         <property name="bottomMargin" >
+          <number>0</number>
          </property>
          <item>
           <widget class="QLabel" name="textLabel3_3" >
@@ -431,10 +511,22 @@ Example: resample=44100:0:0,volnorm</string>
        <string>&amp;MPlayer language</string>
       </attribute>
       <layout class="QGridLayout" >
-       <property name="margin" >
+       <property name="leftMargin" >
         <number>6</number>
        </property>
-       <property name="spacing" >
+       <property name="topMargin" >
+        <number>6</number>
+       </property>
+       <property name="rightMargin" >
+        <number>6</number>
+       </property>
+       <property name="bottomMargin" >
+        <number>6</number>
+       </property>
+       <property name="horizontalSpacing" >
+        <number>6</number>
+       </property>
+       <property name="verticalSpacing" >
         <number>6</number>
        </property>
        <item row="0" column="0" colspan="2" >
@@ -496,9 +588,7 @@ The drop-down lists may provide already made regular expression for several lang
        <item row="1" column="1" >
         <widget class="MyComboBox" name="endoffile_combo" >
          <property name="sizePolicy" >
-          <sizepolicy>
-           <hsizetype>7</hsizetype>
-           <vsizetype>0</vsizetype>
+          <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
@@ -511,9 +601,7 @@ The drop-down lists may provide already made regular expression for several lang
        <item row="2" column="1" >
         <widget class="MyComboBox" name="novideo_combo" >
          <property name="sizePolicy" >
-          <sizepolicy>
-           <hsizetype>7</hsizetype>
-           <vsizetype>0</vsizetype>
+          <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
@@ -530,11 +618,20 @@ The drop-down lists may provide already made regular expression for several lang
        <string>Lo&amp;gs</string>
       </attribute>
       <layout class="QVBoxLayout" >
-       <property name="margin" >
-        <number>9</number>
-       </property>
        <property name="spacing" >
         <number>6</number>
+       </property>
+       <property name="leftMargin" >
+        <number>9</number>
+       </property>
+       <property name="topMargin" >
+        <number>9</number>
+       </property>
+       <property name="rightMargin" >
+        <number>9</number>
+       </property>
+       <property name="bottomMargin" >
+        <number>9</number>
        </property>
        <item>
         <widget class="QCheckBox" name="log_smplayer_check" >
@@ -567,9 +664,7 @@ The drop-down lists may provide already made regular expression for several lang
        <item>
         <widget class="Line" name="line8_2" >
          <property name="sizePolicy" >
-          <sizepolicy>
-           <hsizetype>7</hsizetype>
-           <vsizetype>0</vsizetype>
+          <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
@@ -644,6 +739,7 @@ The drop-down lists may provide already made regular expression for several lang
   <tabstop>ipv6_button</tabstop>
   <tabstop>mplayer_use_window_check</tabstop>
   <tabstop>idx_check</tabstop>
+  <tabstop>correct_pts_check</tabstop>
   <tabstop>shortnames_check</tabstop>
   <tabstop>clear_background_check</tabstop>
   <tabstop>colorkey_view</tabstop>

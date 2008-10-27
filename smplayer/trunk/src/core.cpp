@@ -1593,6 +1593,16 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 	}
 
+	if (pref->use_correct_pts) {
+		proc->addArgument("-correct-pts");
+	} else {
+		if (MplayerVersion::isMplayerAtLeast(26842)) {
+			proc->addArgument("-nocorrect-pts");
+		} else {
+			proc->addArgument("-no-correct-pts");
+		}
+	}
+
 	// Video filters:
 	// Phase
 	if (mset.phase_filter) {

@@ -89,6 +89,9 @@ protected:
 	void setUseIdx(bool);
 	bool useIdx();
 
+	void setUseCorrectPts(bool b);
+	bool useCorrectPts();
+
 	// Log options
 	void setLogMplayer(bool b);
 	bool logMplayer();
