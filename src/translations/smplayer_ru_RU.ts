@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1872,12 +1873,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="400"/>
         <source>Download failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка загрузки</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="386"/>
         <source>Temporary file %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Временный файл %1</translation>
     </message>
 </context>
 <context>
@@ -3642,17 +3643,17 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="391"/>
         <source>Correct pts</source>
-        <translation type="unfinished"></translation>
+        <translation>Точные метки времени</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="399"/>
         <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Переключает MPlayer в экспериментальный режим, в котором тайминг видео кадров рассчитываются независимо, и тем самым поддерживаются видео фильтры, добавляющие новые кадры или меняющие тайминг существующих. Более точный тайминг может быть заметен, например, при воспроизведении с опцией −ass субтитров, привязанных к смене сцены, Без −correct−pts тайминг субтитров, как правило, будет отключен некоторыми кадрами. С некоторыми демультиплексорами и кодеками эта опция работает некорректно.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="179"/>
         <source>C&amp;orrect pts</source>
-        <translation type="unfinished"></translation>
+        <translation>Точные &amp;метки времени</translation>
     </message>
 </context>
 <context>
