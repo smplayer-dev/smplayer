@@ -383,7 +383,7 @@ void FindSubtitlesWindow::archiveDownloaded(const QByteArray & buffer) {
 		return;
 		*/
 
-		status->setText(QString("Temporary file %1").arg(filename));
+		status->setText(tr("Temporary file %1").arg(filename));
 
 		QString lang = "unknown";
 		QString extension = "unknown";
