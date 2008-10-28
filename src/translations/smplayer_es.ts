@@ -1785,7 +1785,7 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
         <source>Download failed: %1.</source>
-        <translation>La descarga ha fallado: %1</translation>
+        <translation>La descarga ha fallado: %1.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="239"/>
@@ -1868,6 +1868,16 @@ Please check the permissions of that folder.</source>
         <translation>No se ha podido guardar el fichero descargado
 en la carpeta %1
 Por favor verifica los permisos de esa carpeta.</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="400"/>
+        <source>Download failed</source>
+        <translation>La descarga ha fallado</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="386"/>
+        <source>Temporary file %1</source>
+        <translation>Fichero temporal %1</translation>
     </message>
 </context>
 <context>
