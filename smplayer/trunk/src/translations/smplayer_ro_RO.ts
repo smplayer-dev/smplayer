@@ -1865,6 +1865,16 @@ Please check the permissions of that folder.</source>
 descărcat în directorul %1
 Verificați permisiunile acelui director.</translation>
     </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="400"/>
+        <source>Download failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="386"/>
+        <source>Temporary file %1</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>InfoFile</name>

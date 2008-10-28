@@ -1869,6 +1869,16 @@ Please check the permissions of that folder.</source>
 файл в теці %1
 Будь ласка, перевірте права доступу до цієї теки.</translation>
     </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="400"/>
+        <source>Download failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="386"/>
+        <source>Temporary file %1</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>Gui</name>
