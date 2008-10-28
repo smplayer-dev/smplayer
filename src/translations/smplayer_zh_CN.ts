@@ -1866,6 +1866,16 @@ Please check the permissions of that folder.</source>
         <translation>无法将己下载的文件保存在目录 %1 中
 请检查目录的权限设置。</translation>
     </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="400"/>
+        <source>Download failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="386"/>
+        <source>Temporary file %1</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>InfoFile</name>
