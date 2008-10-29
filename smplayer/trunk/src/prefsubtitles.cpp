@@ -118,11 +118,19 @@ void PrefSubtitles::retranslateStrings() {
 	style_alignment_combo->addItem(tr("Right"), 3);
 	style_alignment_combo->setCurrentIndex(alignment_item);
 
+	int valignment_item = style_valignment_combo->currentIndex();
+	style_valignment_combo->clear();
+	style_valignment_combo->addItem(tr("Bottom"));
+	style_valignment_combo->addItem(tr("Middle"));
+	style_valignment_combo->addItem(tr("Top"));
+	style_valignment_combo->setCurrentIndex(valignment_item);
+
 	int borderstyle_item = style_border_style_combo->currentIndex();
 	style_border_style_combo->clear();
 	style_border_style_combo->addItem(tr("Outline"), 1);
 	style_border_style_combo->addItem(tr("Opaque box"), 3);
 	style_border_style_combo->setCurrentIndex(borderstyle_item);
+
 #endif
 
 	createHelp();
@@ -158,9 +166,13 @@ void PrefSubtitles::setData(Preferences * pref) {
 	style_bold_check->setChecked(pref->style_bold);
 	style_italic_check->setChecked(pref->style_italic);
 	style_alignment_combo->setCurrentIndex(style_alignment_combo->findData(pref->style_alignment));
+	style_valignment_combo->setCurrentIndex(pref->style_valignment);
 	style_border_style_combo->setCurrentIndex(style_border_style_combo->findData(pref->style_borderstyle));
 	style_outline_spin->setValue(pref->style_outline);
 	style_shadow_spin->setValue(pref->style_shadow);
+	style_marginl_spin->setValue(pref->style_marginl);
+	style_marginr_spin->setValue(pref->style_marginr);
+	style_marginv_spin->setValue(pref->style_marginv);
 #endif
 }
 
@@ -196,37 +208,49 @@ void PrefSubtitles::getData(Preferences * pref) {
 	TEST_AND_SET(pref->style_bold, style_bold_check->isChecked());
 	TEST_AND_SET(pref->style_italic, style_italic_check->isChecked());
 	TEST_AND_SET(pref->style_alignment, style_alignment_combo->itemData(style_alignment_combo->currentIndex()).toInt());
+	TEST_AND_SET(pref->style_valignment, style_valignment_combo->currentIndex());
 	TEST_AND_SET(pref->style_borderstyle, style_border_style_combo->itemData(style_border_style_combo->currentIndex()).toInt());
 	TEST_AND_SET(pref->style_outline, style_outline_spin->value());
 	TEST_AND_SET(pref->style_shadow, style_shadow_spin->value());
+	TEST_AND_SET(pref->style_marginl, style_marginl_spin->value());
+	TEST_AND_SET(pref->style_marginr, style_marginr_spin->value());
+	TEST_AND_SET(pref->style_marginv, style_marginv_spin->value());
 
-	exportStyles( Helper::subtitleStyleFile() );
+	exportStyles( Helper::subtitleStyleFile(), pref );
 #endif
 }
 
 #if USE_ASS_STYLES
-bool PrefSubtitles::exportStyles(const QString & filename) {
+bool PrefSubtitles::exportStyles(const QString & filename, Preferences * pref) {
 	QFile f(filename);
 	if (f.open(QFile::WriteOnly)) {
 		QTextStream out(&f);
+
+		int alignment = pref->style_alignment;
+		if (pref->style_valignment == 1) alignment += 3; // Middle
+		else
+		if (pref->style_valignment == 2) alignment += 6; // Top
+
 		out << "[Script Info]" << endl;
 		out << "ScriptType: v4.00+" << endl;
 		out << "Collisions: Normal" << endl;
 		out << endl;
 		out << "[V4+ Styles]" << endl;
-		out << "Format: Name, Fontname, Fontsize, PrimaryColour, BackColour, Bold, Italic, Alignment, BorderStyle, Outline, Shadow, MarginV, MarginL, MarginR" << endl;
+		out << "Format: Name, Fontname, Fontsize, PrimaryColour, BackColour, Bold, Italic, Alignment, BorderStyle, Outline, Shadow, MarginL, MarginR, MarginV" << endl;
 		out << "Style: Default,";
-		out << style_font_combo->currentText() << "," ;
-		out << style_size_spin->value() << "," ;
-		out << "&H" << Helper::colorToAABBGGRR(style_text_color_button->color().rgb()) << "," ;
-		out << "&H" << Helper::colorToAABBGGRR(style_border_color_button->color().rgb()) << "," ;
-		out << (style_bold_check->isChecked() ? -1 : 0) << "," ;
-		out << (style_italic_check->isChecked() ? -1 : 0) << "," ;
-		out << style_alignment_combo->itemData(style_alignment_combo->currentIndex()).toInt() << "," ;
-		out << style_border_style_combo->itemData(style_border_style_combo->currentIndex()).toInt() << "," ;
-		out << style_outline_spin->value() << "," ;
-		out << style_shadow_spin->value() << "," ;
-		out << "10, 20, 20" ;
+		out << pref->style_fontname << "," ;
+		out << pref->style_fontsize << "," ;
+		out << "&H" << Helper::colorToAABBGGRR(pref->style_primarycolor) << "," ;
+		out << "&H" << Helper::colorToAABBGGRR(pref->style_backcolor) << "," ;
+		out << (pref->style_bold ? -1 : 0) << "," ;
+		out << (pref->style_italic ? -1 : 0) << "," ;
+		out << alignment << "," ;
+		out << pref->style_borderstyle << "," ;
+		out << pref->style_outline << "," ;
+		out << pref->style_shadow << "," ;
+		out << pref->style_marginl << "," ;
+		out << pref->style_marginr << "," ;
+		out << pref->style_marginv;
 		out << endl;
 
 		f.close();
