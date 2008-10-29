@@ -47,6 +47,9 @@ PrefSubtitles::PrefSubtitles(QWidget * parent, Qt::WindowFlags f)
 	}
 
 #if USE_ASS_STYLES
+	connect( style_border_style_combo, SIGNAL(currentIndexChanged(int)),
+             this, SLOT(checkBorderStyleCombo(int)) );
+
 	simple_styles_container->hide();
 #else
 	styles_container->hide();
@@ -211,7 +214,7 @@ bool PrefSubtitles::exportStyles(const QString & filename) {
 		out << "Collisions: Normal" << endl;
 		out << endl;
 		out << "[V4+ Styles]" << endl;
-		out << "Format: Name, Fontname, Fontsize, PrimaryColour, BackColour, Bold, Italic, Alignment, BorderStyle, Outline, Shadow" << endl;
+		out << "Format: Name, Fontname, Fontsize, PrimaryColour, BackColour, Bold, Italic, Alignment, BorderStyle, Outline, Shadow, MarginV, MarginL, MarginR" << endl;
 		out << "Style: Default,";
 		out << style_font_combo->currentText() << "," ;
 		out << style_size_spin->value() << "," ;
@@ -223,12 +226,21 @@ bool PrefSubtitles::exportStyles(const QString & filename) {
 		out << style_border_style_combo->itemData(style_border_style_combo->currentIndex()).toInt() << "," ;
 		out << style_outline_spin->value() << "," ;
 		out << style_shadow_spin->value() << "," ;
+		out << "10, 20, 20" ;
 		out << endl;
 
 		f.close();
 		return true;
 	}
 	return false;
+}
+
+void PrefSubtitles::checkBorderStyleCombo( int index ) {
+	bool b = (index == 0);
+	style_outline_spin->setEnabled(b);
+	style_shadow_spin->setEnabled(b);
+	style_outline_label->setEnabled(b);
+	style_shadow_label->setEnabled(b);
 }
 #endif
 

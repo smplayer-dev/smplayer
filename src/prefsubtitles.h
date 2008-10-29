@@ -101,6 +101,9 @@ protected:
 
 #if USE_ASS_STYLES
 	bool exportStyles(const QString & filename);
+
+protected slots:
+	void checkBorderStyleCombo( int index );
 #endif
 
 protected:

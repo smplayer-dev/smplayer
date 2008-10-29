@@ -875,85 +875,102 @@
             <property name="title" >
              <string>Font</string>
             </property>
-            <layout class="QGridLayout" >
-             <item row="0" column="0" colspan="3" >
-              <widget class="MyFontComboBox" name="style_font_combo" />
+            <layout class="QVBoxLayout" >
+             <item>
+              <layout class="QHBoxLayout" >
+               <item>
+                <widget class="MyFontComboBox" name="style_font_combo" />
+               </item>
+               <item>
+                <spacer>
+                 <property name="orientation" >
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" >
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QLabel" name="label" >
+                 <property name="text" >
+                  <string>Size:</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSpinBox" name="style_size_spin" >
+                 <property name="minimum" >
+                  <number>1</number>
+                 </property>
+                 <property name="value" >
+                  <number>10</number>
+                 </property>
+                </widget>
+               </item>
+              </layout>
              </item>
-             <item rowspan="2" row="0" column="3" >
-              <layout class="QGridLayout" >
-               <item row="0" column="0" >
+             <item>
+              <layout class="QHBoxLayout" >
+               <item>
                 <widget class="QLabel" name="label_2" >
                  <property name="text" >
                   <string>Text:</string>
                  </property>
                 </widget>
                </item>
-               <item row="0" column="1" >
+               <item>
                 <widget class="SelectColorButton" name="style_text_color_button" >
                  <property name="text" >
                   <string/>
                  </property>
                 </widget>
                </item>
-               <item row="0" column="2" >
+               <item>
                 <widget class="QLabel" name="label_3" >
                  <property name="text" >
                   <string>Border:</string>
                  </property>
                 </widget>
                </item>
-               <item row="0" column="3" >
+               <item>
                 <widget class="SelectColorButton" name="style_border_color_button" >
                  <property name="text" >
                   <string/>
                  </property>
                 </widget>
                </item>
-               <item row="1" column="0" colspan="2" >
-                <widget class="QCheckBox" name="style_bold_check" >
-                 <property name="text" >
-                  <string>Bold</string>
+               <item>
+                <spacer>
+                 <property name="orientation" >
+                  <enum>Qt::Horizontal</enum>
                  </property>
-                </widget>
+                 <property name="sizeHint" >
+                  <size>
+                   <width>81</width>
+                   <height>28</height>
+                  </size>
+                 </property>
+                </spacer>
                </item>
-               <item row="1" column="2" colspan="2" >
+               <item>
                 <widget class="QCheckBox" name="style_italic_check" >
                  <property name="text" >
                   <string>Italic</string>
                  </property>
                 </widget>
                </item>
+               <item>
+                <widget class="QCheckBox" name="style_bold_check" >
+                 <property name="text" >
+                  <string>Bold</string>
+                 </property>
+                </widget>
+               </item>
               </layout>
-             </item>
-             <item row="1" column="0" >
-              <widget class="QLabel" name="label" >
-               <property name="text" >
-                <string>Size:</string>
-               </property>
-              </widget>
-             </item>
-             <item row="1" column="1" >
-              <widget class="QSpinBox" name="style_size_spin" >
-               <property name="minimum" >
-                <number>1</number>
-               </property>
-               <property name="value" >
-                <number>10</number>
-               </property>
-              </widget>
-             </item>
-             <item row="1" column="2" >
-              <spacer>
-               <property name="orientation" >
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <property name="sizeHint" >
-                <size>
-                 <width>40</width>
-                 <height>20</height>
-                </size>
-               </property>
-              </spacer>
              </item>
             </layout>
            </widget>
@@ -984,7 +1001,7 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="label_6" >
+             <widget class="QLabel" name="style_outline_label" >
               <property name="text" >
                <string>Outline:</string>
               </property>
@@ -1004,7 +1021,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="label_7" >
+             <widget class="QLabel" name="style_shadow_label" >
               <property name="text" >
                <string>Shadow:</string>
               </property>
@@ -1057,7 +1074,7 @@
          <property name="sizeHint" >
           <size>
            <width>564</width>
-           <height>20</height>
+           <height>21</height>
           </size>
          </property>
         </spacer>
@@ -1105,6 +1122,16 @@
   <tabstop>colorButton</tabstop>
   <tabstop>borderButton</tabstop>
   <tabstop>ass_styles_edit</tabstop>
+  <tabstop>style_font_combo</tabstop>
+  <tabstop>style_size_spin</tabstop>
+  <tabstop>style_text_color_button</tabstop>
+  <tabstop>style_border_color_button</tabstop>
+  <tabstop>style_italic_check</tabstop>
+  <tabstop>style_bold_check</tabstop>
+  <tabstop>style_border_style_combo</tabstop>
+  <tabstop>style_outline_spin</tabstop>
+  <tabstop>style_shadow_spin</tabstop>
+  <tabstop>style_alignment_combo</tabstop>
  </tabstops>
  <resources/>
  <connections>
