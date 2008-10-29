@@ -26,6 +26,8 @@
 #include "languages.h"
 
 #include <QColorDialog>
+#include <QSettings>
+#include <QTextStream>
 
 PrefSubtitles::PrefSubtitles(QWidget * parent, Qt::WindowFlags f)
 	: PrefWidget(parent, f )
@@ -43,6 +45,12 @@ PrefSubtitles::PrefSubtitles(QWidget * parent, Qt::WindowFlags f)
 		font_text_scale->hide();
 		ass_font_scale->hide();
 	}
+
+#if USE_ASS_STYLES
+	simple_styles_container->hide();
+#else
+	styles_container->hide();
+#endif
 
 	retranslateStrings();
 }
@@ -98,6 +106,22 @@ void PrefSubtitles::retranslateStrings() {
 	ttf_font_edit->setCaption(tr("Choose a ttf file"));
 	ttf_font_edit->setFilter(tr("Truetype Fonts") + " (*.ttf)");
 
+#if USE_ASS_STYLES
+	// Ass styles
+	int alignment_item = style_alignment_combo->currentIndex();
+	style_alignment_combo->clear();
+	style_alignment_combo->addItem(tr("Left"), 1);
+	style_alignment_combo->addItem(tr("Centered"), 2);
+	style_alignment_combo->addItem(tr("Right"), 3);
+	style_alignment_combo->setCurrentIndex(alignment_item);
+
+	int borderstyle_item = style_border_style_combo->currentIndex();
+	style_border_style_combo->clear();
+	style_border_style_combo->addItem(tr("Outline"), 1);
+	style_border_style_combo->addItem(tr("Opaque box"), 3);
+	style_border_style_combo->setCurrentIndex(borderstyle_item);
+#endif
+
 	createHelp();
 }
 
@@ -114,11 +138,27 @@ void PrefSubtitles::setData(Preferences * pref) {
 	setUseEnca( pref->use_enca );
 	setEncaLang( pref->enca_lang );
 	setUseFontASS( pref->use_ass_subtitles );
+#if !USE_ASS_STYLES
 	setAssColor( pref->ass_color );
 	setAssBorderColor( pref->ass_border_color );
 	setAssStyles( pref->ass_styles );
+#endif
 	setSubPos( pref->initial_sub_pos );
 	setSubtitlesOnScreenshots( pref->subtitles_on_screenshots );
+
+#if USE_ASS_STYLES
+	// Load ass styles
+	style_font_combo->setCurrentText(pref->style_fontname);
+	style_size_spin->setValue(pref->style_fontsize);
+	style_text_color_button->setColor(pref->style_primarycolor);
+	style_border_color_button->setColor(pref->style_backcolor);
+	style_bold_check->setChecked(pref->style_bold);
+	style_italic_check->setChecked(pref->style_italic);
+	style_alignment_combo->setCurrentIndex(style_alignment_combo->findData(pref->style_alignment));
+	style_border_style_combo->setCurrentIndex(style_border_style_combo->findData(pref->style_borderstyle));
+	style_outline_spin->setValue(pref->style_outline);
+	style_shadow_spin->setValue(pref->style_shadow);
+#endif
 }
 
 void PrefSubtitles::getData(Preferences * pref) {
@@ -136,12 +176,61 @@ void PrefSubtitles::getData(Preferences * pref) {
 	TEST_AND_SET(pref->use_enca, useEnca());
 	TEST_AND_SET(pref->enca_lang, encaLang());
 	TEST_AND_SET(pref->use_ass_subtitles, useFontASS());
+#if !USE_ASS_STYLES
 	TEST_AND_SET(pref->ass_color, assColor());
 	TEST_AND_SET(pref->ass_border_color, assBorderColor());
 	TEST_AND_SET(pref->ass_styles, assStyles());
+#endif
 	pref->initial_sub_pos = subPos();
 	TEST_AND_SET(pref->subtitles_on_screenshots, subtitlesOnScreenshots());
+
+#if USE_ASS_STYLES
+	// Save ass styles
+	TEST_AND_SET(pref->style_fontname, style_font_combo->currentText());
+	TEST_AND_SET(pref->style_fontsize, style_size_spin->value());
+	TEST_AND_SET(pref->style_primarycolor, style_text_color_button->color().rgb());
+	TEST_AND_SET(pref->style_backcolor, style_border_color_button->color().rgb());
+	TEST_AND_SET(pref->style_bold, style_bold_check->isChecked());
+	TEST_AND_SET(pref->style_italic, style_italic_check->isChecked());
+	TEST_AND_SET(pref->style_alignment, style_alignment_combo->itemData(style_alignment_combo->currentIndex()).toInt());
+	TEST_AND_SET(pref->style_borderstyle, style_border_style_combo->itemData(style_border_style_combo->currentIndex()).toInt());
+	TEST_AND_SET(pref->style_outline, style_outline_spin->value());
+	TEST_AND_SET(pref->style_shadow, style_shadow_spin->value());
+
+	exportStyles( Helper::subtitleStyleFile() );
+#endif
 }
+
+#if USE_ASS_STYLES
+bool PrefSubtitles::exportStyles(const QString & filename) {
+	QFile f(filename);
+	if (f.open(QFile::WriteOnly)) {
+		QTextStream out(&f);
+		out << "[Script Info]" << endl;
+		out << "ScriptType: v4.00+" << endl;
+		out << "Collisions: Normal" << endl;
+		out << endl;
+		out << "[V4+ Styles]" << endl;
+		out << "Format: Name, Fontname, Fontsize, PrimaryColour, BackColour, Bold, Italic, Alignment, BorderStyle, Outline, Shadow" << endl;
+		out << "Style: Default,";
+		out << style_font_combo->currentText() << "," ;
+		out << style_size_spin->value() << "," ;
+		out << "&H" << Helper::colorToAABBGGRR(style_text_color_button->color().rgb()) << "," ;
+		out << "&H" << Helper::colorToAABBGGRR(style_border_color_button->color().rgb()) << "," ;
+		out << (style_bold_check->isChecked() ? -1 : 0) << "," ;
+		out << (style_italic_check->isChecked() ? -1 : 0) << "," ;
+		out << style_alignment_combo->itemData(style_alignment_combo->currentIndex()).toInt() << "," ;
+		out << style_border_style_combo->itemData(style_border_style_combo->currentIndex()).toInt() << "," ;
+		out << style_outline_spin->value() << "," ;
+		out << style_shadow_spin->value() << "," ;
+		out << endl;
+
+		f.close();
+		return true;
+	}
+	return false;
+}
+#endif
 
 void PrefSubtitles::setFontName(QString font_name) {
 	fontCombo->setCurrentText(font_name);
@@ -246,6 +335,7 @@ bool PrefSubtitles::useFontASS() {
 	return font_ass_check->isChecked();
 }
 
+#if !USE_ASS_STYLES
 void PrefSubtitles::setAssColor( unsigned int color ) {
 	colorButton->setColor(color);
 }
@@ -269,6 +359,7 @@ void PrefSubtitles::setAssStyles(QString styles) {
 QString PrefSubtitles::assStyles() {
 	return ass_styles_edit->text();
 }
+#endif
 
 void PrefSubtitles::setFontFuzziness(int n) {
 	font_autoload_combo->setCurrentIndex(n);
