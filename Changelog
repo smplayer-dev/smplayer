@@ -1,8 +1,16 @@
 [b]Version 0.6.5[/b]:
 
+(2008-10-28)
+ * The subtitles for srt, sub... formats when using the SSA/ASS library, 
+   can now be more customized. It's possible to select the font, size,
+   colors, bold, italic, outline, shadow... 
+   Not finished yet.
+
 (2008-10-27)
  * Added the new option "Correct pts" in Preferences->Advanced. Disabled by
    default because it causes some problems with mkv files.
+ * The dialog to jump to a specified time allows now to enter the seconds
+   too.
 
 
 [b]Version 0.6.4[/b]:
