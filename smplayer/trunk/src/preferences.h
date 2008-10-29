@@ -149,9 +149,11 @@ public:
 	bool autoload_sub;
 
 	bool use_ass_subtitles;
+#if !USE_ASS_STYLES
 	unsigned int ass_color;
 	unsigned int ass_border_color;
 	QString ass_styles;
+#endif
 
 	bool use_closed_caption_subs;
 	bool use_forced_subs_only;
@@ -164,6 +166,20 @@ public:
 	OptionState change_sub_scale_should_restart;
 
 	bool show_font_scale_options_in_preferences;
+
+#if USE_ASS_STYLES
+	// ASS styles
+	QString style_fontname;
+	int style_fontsize;
+	unsigned int style_primarycolor;
+	unsigned int style_backcolor;
+	bool style_bold;
+	bool style_italic;
+	int style_alignment;
+	int style_borderstyle;
+	int style_outline;
+	int style_shadow;
+#endif
 
 
     /* ********

@@ -21,6 +21,7 @@
 
 #include "ui_prefsubtitles.h"
 #include "prefwidget.h"
+#include "config.h"
 
 class Preferences;
 class Encodings;
@@ -81,6 +82,7 @@ protected:
 	void setUseFontASS(bool v);
 	bool useFontASS();
 
+#if !USE_ASS_STYLES
 	void setAssColor( unsigned int color );
 	unsigned int assColor();
 
@@ -89,12 +91,17 @@ protected:
 
 	void setAssStyles(QString styles);
 	QString assStyles();
+#endif
 
 	void setFontFuzziness(int n);
 	int fontFuzziness();
 
 	void setSubtitlesOnScreenshots(bool b);
 	bool subtitlesOnScreenshots();
+
+#if USE_ASS_STYLES
+	bool exportStyles(const QString & filename);
+#endif
 
 protected:
 	virtual void retranslateStrings();

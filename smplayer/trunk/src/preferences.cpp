@@ -172,10 +172,12 @@ void Preferences::reset() {
 #else
 	use_ass_subtitles = true;
 #endif
+#if !USE_ASS_STYLES
 	ass_color = 0xFFFF00;
     ass_border_color = 0x000000;
 	//ass_styles = "Bold=1,Outline=2,Shadow=2";
 	ass_styles = "";
+#endif
 
 	use_closed_caption_subs = false;
 	use_forced_subs_only = false;
@@ -186,6 +188,20 @@ void Preferences::reset() {
 	change_sub_scale_should_restart = Detect;
 
 	show_font_scale_options_in_preferences = false;
+
+#if USE_ASS_STYLES
+	// ASS styles
+	style_fontname = "Arial";
+	style_fontsize = 10;
+	style_primarycolor = 0xFFFFFF;
+	style_backcolor = 0;
+	style_bold = false;
+	style_italic = false;
+	style_alignment = 2; // Centered
+	style_borderstyle = 1; // Outline
+	style_outline = 1;
+	style_shadow = 0;
+#endif
 
 
     /* ********
@@ -509,10 +525,11 @@ void Preferences::save() {
 	set->setValue("autoload_sub", autoload_sub);
 
 	set->setValue("use_ass_subtitles", use_ass_subtitles);
+#if !USE_ASS_STYLES
 	set->setValue("ass_color", (int) ass_color);
 	set->setValue("ass_border_color", (int) ass_border_color);
 	set->setValue("ass_styles", ass_styles);
-
+#endif
 	set->setValue("use_closed_caption_subs", use_closed_caption_subs);
 	set->setValue("use_forced_subs_only", use_forced_subs_only);
 
@@ -522,6 +539,20 @@ void Preferences::save() {
 	set->setValue("change_sub_scale_should_restart", change_sub_scale_should_restart);
 
 	set->setValue("show_font_scale_options_in_preferences", show_font_scale_options_in_preferences);
+
+#if USE_ASS_STYLES
+	// ASS styles
+	set->setValue("styles/fontname", style_fontname);
+	set->setValue("styles/fontsize", style_fontsize);
+	set->setValue("styles/primarycolor", style_primarycolor);
+	set->setValue("styles/backcolor", style_backcolor);
+	set->setValue("styles/bold", style_bold);
+	set->setValue("styles/italic", style_italic);
+	set->setValue("styles/alignment", style_alignment);
+	set->setValue("styles/borderstyle", style_borderstyle);
+	set->setValue("styles/outline", style_outline);
+	set->setValue("styles/shadow", style_shadow);
+#endif
 
 	set->endGroup(); // subtitles
 
@@ -856,9 +887,11 @@ void Preferences::load() {
 	autoload_sub = set->value("autoload_sub", autoload_sub).toBool();
 
 	use_ass_subtitles = set->value("use_ass_subtitles", use_ass_subtitles).toBool();
+#if !USE_ASS_STYLES
 	ass_color = set->value("ass_color", ass_color).toInt();
 	ass_border_color = set->value("ass_border_color", ass_border_color).toInt();
 	ass_styles = set->value("ass_styles", ass_styles).toString();
+#endif
 
 	use_closed_caption_subs = set->value("use_closed_caption_subs", use_closed_caption_subs).toBool();
 	use_forced_subs_only = set->value("use_forced_subs_only", use_forced_subs_only).toBool();
@@ -869,6 +902,20 @@ void Preferences::load() {
 	change_sub_scale_should_restart = (OptionState) set->value("change_sub_scale_should_restart", change_sub_scale_should_restart).toInt();
 
 	show_font_scale_options_in_preferences = set->value("show_font_scale_options_in_preferences", show_font_scale_options_in_preferences).toBool();
+
+#if USE_ASS_STYLES
+	// ASS styles
+	style_fontname = set->value("styles/fontname", style_fontname).toString();
+	style_fontsize = set->value("styles/fontsize", style_fontsize).toInt();
+	style_primarycolor = set->value("styles/primarycolor", style_primarycolor).toInt();
+	style_backcolor = set->value("styles/backcolor", style_backcolor).toInt();
+	style_bold = set->value("styles/bold", style_bold).toBool();
+	style_italic = set->value("styles/italic", style_italic).toBool();
+	style_alignment = set->value("styles/alignment", style_alignment).toInt();
+	style_borderstyle = set->value("styles/borderstyle", style_borderstyle).toInt();
+	style_outline = set->value("styles/outline", style_outline).toInt();
+	style_shadow = set->value("styles/shadow", style_shadow).toInt();
+#endif
 
 	set->endGroup(); // subtitles
 

@@ -62,6 +62,15 @@
 #define SCALE_ASS_SUBS 1
 
 
+// USE_ASS_STYLES
+// if 1, the subtitle section in preferences will
+// display some options to configure the ass styles.
+// Otherwise it will use the old simple options
+// to change the color
+
+#define USE_ASS_STYLES 1
+
+
 // SMART_DVD_CHAPTERS
 // if set to 1, the slave command "chapter" will use if not using a cache,
 // otherwise mplayer will be restarted and -chapter will be used.
