@@ -93,6 +93,8 @@ public:
 	//! Returns a string suitable to be used for -colorkey
 	static QString colorToRGB(unsigned int color);
 
+	static QString colorToAABBGGRR(unsigned int color);
+
 	//! Changes the foreground color of the specified widget
 	static void setForegroundColor(QWidget * w, const QColor & color);
 
