@@ -176,9 +176,13 @@ public:
 	bool style_bold;
 	bool style_italic;
 	int style_alignment;
+	int style_valignment;
 	int style_borderstyle;
 	int style_outline;
 	int style_shadow;
+	int style_marginl;
+	int style_marginr;
+	int style_marginv;
 #endif
 
 

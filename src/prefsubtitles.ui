@@ -5,8 +5,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>475</width>
-    <height>577</height>
+    <width>573</width>
+    <height>720</height>
    </rect>
   </property>
   <property name="windowTitle" >
@@ -731,6 +731,18 @@
           <bool>false</bool>
          </property>
          <layout class="QVBoxLayout" >
+          <property name="leftMargin" >
+           <number>4</number>
+          </property>
+          <property name="topMargin" >
+           <number>4</number>
+          </property>
+          <property name="rightMargin" >
+           <number>4</number>
+          </property>
+          <property name="bottomMargin" >
+           <number>4</number>
+          </property>
           <item>
            <layout class="QHBoxLayout" >
             <property name="spacing" >
@@ -866,95 +878,138 @@
          <property name="enabled" >
           <bool>false</bool>
          </property>
-         <layout class="QVBoxLayout" >
-          <item>
+         <property name="sizePolicy" >
+          <sizepolicy vsizetype="Expanding" hsizetype="Preferred" >
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <layout class="QGridLayout" >
+          <property name="leftMargin" >
+           <number>4</number>
+          </property>
+          <property name="topMargin" >
+           <number>4</number>
+          </property>
+          <property name="rightMargin" >
+           <number>4</number>
+          </property>
+          <property name="bottomMargin" >
+           <number>4</number>
+          </property>
+          <item row="0" column="0" colspan="2" >
            <widget class="QGroupBox" name="groupBox_4" >
             <property name="title" >
              <string>Font</string>
             </property>
-            <layout class="QGridLayout" >
-             <item row="0" column="0" colspan="3" >
-              <widget class="MyFontComboBox" name="style_font_combo" />
+            <layout class="QVBoxLayout" >
+             <property name="leftMargin" >
+              <number>4</number>
+             </property>
+             <property name="topMargin" >
+              <number>4</number>
+             </property>
+             <property name="rightMargin" >
+              <number>4</number>
+             </property>
+             <property name="bottomMargin" >
+              <number>4</number>
+             </property>
+             <item>
+              <layout class="QHBoxLayout" >
+               <item>
+                <widget class="MyFontComboBox" name="style_font_combo" />
+               </item>
+               <item>
+                <spacer>
+                 <property name="orientation" >
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" >
+                  <size>
+                   <width>231</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
              </item>
-             <item row="0" column="3" colspan="3" >
-              <spacer>
-               <property name="orientation" >
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <property name="sizeHint" >
-                <size>
-                 <width>331</width>
-                 <height>23</height>
-                </size>
-               </property>
-              </spacer>
-             </item>
-             <item row="1" column="0" >
-              <widget class="QLabel" name="label" >
-               <property name="text" >
-                <string>Size:</string>
-               </property>
-              </widget>
-             </item>
-             <item row="1" column="1" >
-              <widget class="QSpinBox" name="style_size_spin" >
-               <property name="minimum" >
-                <number>1</number>
-               </property>
-               <property name="value" >
-                <number>10</number>
-               </property>
-              </widget>
-             </item>
-             <item row="1" column="2" >
-              <spacer>
-               <property name="orientation" >
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <property name="sizeHint" >
-                <size>
-                 <width>40</width>
-                 <height>20</height>
-                </size>
-               </property>
-              </spacer>
-             </item>
-             <item row="1" column="3" >
-              <widget class="QCheckBox" name="style_italic_check" >
-               <property name="text" >
-                <string>Italic</string>
-               </property>
-              </widget>
-             </item>
-             <item row="1" column="4" >
-              <widget class="QCheckBox" name="style_bold_check" >
-               <property name="text" >
-                <string>Bold</string>
-               </property>
-              </widget>
-             </item>
-             <item row="1" column="5" >
-              <spacer>
-               <property name="orientation" >
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <property name="sizeHint" >
-                <size>
-                 <width>171</width>
-                 <height>20</height>
-                </size>
-               </property>
-              </spacer>
+             <item>
+              <layout class="QHBoxLayout" >
+               <item>
+                <widget class="QLabel" name="label" >
+                 <property name="text" >
+                  <string>Size:</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSpinBox" name="style_size_spin" >
+                 <property name="sizePolicy" >
+                  <sizepolicy vsizetype="Fixed" hsizetype="Preferred" >
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimum" >
+                  <number>1</number>
+                 </property>
+                 <property name="value" >
+                  <number>10</number>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer>
+                 <property name="orientation" >
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" >
+                  <size>
+                   <width>181</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QCheckBox" name="style_bold_check" >
+                 <property name="text" >
+                  <string>Bold</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QCheckBox" name="style_italic_check" >
+                 <property name="text" >
+                  <string>Italic</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
              </item>
             </layout>
            </widget>
           </item>
-          <item>
+          <item row="1" column="0" >
            <widget class="QGroupBox" name="groupBox_7" >
             <property name="title" >
              <string>Colors</string>
             </property>
             <layout class="QGridLayout" >
+             <property name="leftMargin" >
+              <number>4</number>
+             </property>
+             <property name="topMargin" >
+              <number>4</number>
+             </property>
+             <property name="rightMargin" >
+              <number>4</number>
+             </property>
+             <property name="bottomMargin" >
+              <number>4</number>
+             </property>
              <item row="0" column="0" >
               <widget class="QLabel" name="label_2" >
                <property name="text" >
@@ -968,19 +1023,6 @@
                 <string/>
                </property>
               </widget>
-             </item>
-             <item rowspan="2" row="0" column="2" >
-              <spacer>
-               <property name="orientation" >
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <property name="sizeHint" >
-                <size>
-                 <width>381</width>
-                 <height>51</height>
-                </size>
-               </property>
-              </spacer>
              </item>
              <item row="1" column="0" >
               <widget class="QLabel" name="label_3" >
@@ -996,10 +1038,157 @@
                </property>
               </widget>
              </item>
+             <item rowspan="2" row="0" column="2" >
+              <spacer>
+               <property name="orientation" >
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" >
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
             </layout>
            </widget>
           </item>
-          <item>
+          <item row="1" column="1" >
+           <widget class="QGroupBox" name="groupBox_8" >
+            <property name="title" >
+             <string>Margins</string>
+            </property>
+            <layout class="QGridLayout" >
+             <property name="leftMargin" >
+              <number>4</number>
+             </property>
+             <property name="topMargin" >
+              <number>4</number>
+             </property>
+             <property name="rightMargin" >
+              <number>4</number>
+             </property>
+             <property name="bottomMargin" >
+              <number>4</number>
+             </property>
+             <item row="0" column="0" >
+              <widget class="QLabel" name="label_7" >
+               <property name="text" >
+                <string>Left:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1" >
+              <widget class="QSpinBox" name="style_marginl_spin" />
+             </item>
+             <item row="0" column="2" >
+              <widget class="QLabel" name="label_8" >
+               <property name="text" >
+                <string>Right:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="3" >
+              <widget class="QSpinBox" name="style_marginr_spin" />
+             </item>
+             <item row="1" column="0" >
+              <widget class="QLabel" name="label_9" >
+               <property name="text" >
+                <string>Vertical:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1" >
+              <widget class="QSpinBox" name="style_marginv_spin" />
+             </item>
+             <item row="1" column="2" colspan="2" >
+              <spacer>
+               <property name="orientation" >
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" >
+                <size>
+                 <width>101</width>
+                 <height>25</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="2" column="0" colspan="2" >
+           <widget class="QGroupBox" name="groupBox_9" >
+            <property name="title" >
+             <string>Alignment</string>
+            </property>
+            <layout class="QHBoxLayout" >
+             <property name="leftMargin" >
+              <number>4</number>
+             </property>
+             <property name="topMargin" >
+              <number>4</number>
+             </property>
+             <property name="rightMargin" >
+              <number>4</number>
+             </property>
+             <property name="bottomMargin" >
+              <number>4</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_4" >
+               <property name="text" >
+                <string>Horizontal:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="style_alignment_combo" />
+             </item>
+             <item>
+              <spacer>
+               <property name="orientation" >
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType" >
+                <enum>QSizePolicy::Preferred</enum>
+               </property>
+               <property name="sizeHint" >
+                <size>
+                 <width>41</width>
+                 <height>25</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_6" >
+               <property name="text" >
+                <string>Vertical:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="style_valignment_combo" />
+             </item>
+             <item>
+              <spacer>
+               <property name="orientation" >
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" >
+                <size>
+                 <width>111</width>
+                 <height>25</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="3" column="0" colspan="2" >
            <layout class="QHBoxLayout" >
             <item>
              <widget class="QLabel" name="label_5" >
@@ -1060,33 +1249,6 @@
             </item>
            </layout>
           </item>
-          <item>
-           <layout class="QHBoxLayout" >
-            <item>
-             <widget class="QLabel" name="label_4" >
-              <property name="text" >
-               <string>Alignment:</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QComboBox" name="style_alignment_combo" />
-            </item>
-            <item>
-             <spacer>
-              <property name="orientation" >
-               <enum>Qt::Horizontal</enum>
-              </property>
-              <property name="sizeHint" >
-               <size>
-                <width>402</width>
-                <height>21</height>
-               </size>
-              </property>
-             </spacer>
-            </item>
-           </layout>
-          </item>
          </layout>
         </widget>
        </item>
@@ -1097,8 +1259,8 @@
          </property>
          <property name="sizeHint" >
           <size>
-           <width>221</width>
-           <height>31</height>
+           <width>540</width>
+           <height>20</height>
           </size>
          </property>
         </spacer>
@@ -1152,10 +1314,14 @@
   <tabstop>style_bold_check</tabstop>
   <tabstop>style_text_color_button</tabstop>
   <tabstop>style_border_color_button</tabstop>
+  <tabstop>style_marginl_spin</tabstop>
+  <tabstop>style_marginr_spin</tabstop>
+  <tabstop>style_marginv_spin</tabstop>
+  <tabstop>style_alignment_combo</tabstop>
+  <tabstop>style_valignment_combo</tabstop>
   <tabstop>style_border_style_combo</tabstop>
   <tabstop>style_outline_spin</tabstop>
   <tabstop>style_shadow_spin</tabstop>
-  <tabstop>style_alignment_combo</tabstop>
  </tabstops>
  <resources/>
  <connections>
