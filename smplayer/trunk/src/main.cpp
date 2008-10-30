@@ -23,6 +23,7 @@
 #include "smplayer.h"
 #include "global.h"
 #include "helper.h"
+#include "paths.h"
 
 #include <stdio.h>
 
@@ -157,9 +158,9 @@ int main( int argc, char ** argv )
 
 #if USE_LOCKS
 	//setIniPath will be set later in global_init, but we need it here
-	Helper::setIniPath(ini_path);
+	Paths::setIniPath(ini_path);
 
-	QString lock_file = Helper::iniPath() + "/smplayer_init.lock";
+	QString lock_file = Paths::iniPath() + "/smplayer_init.lock";
 	qDebug("main: lock_file: %s", lock_file.toUtf8().data());
 
 #if USE_QXT_LOCKS

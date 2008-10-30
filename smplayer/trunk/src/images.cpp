@@ -21,7 +21,7 @@
 #include "images.h"
 #include "global.h"
 #include "preferences.h"
-#include "helper.h"
+#include "paths.h"
 
 #include <QFile>
 
@@ -43,9 +43,9 @@ QPixmap Images::loadIcon(const QString & icon_name) {
 	QPixmap p;
 
 	if (!pref->iconset.isEmpty()) {
-		QString filename = Helper::appHomePath() + "/themes/" + pref->iconset + "/" +  icon_name;
+		QString filename = Paths::appHomePath() + "/themes/" + pref->iconset + "/" +  icon_name;
 		if (!QFile::exists(filename)) {
-			filename = Helper::themesPath() + "/" + pref->iconset + "/" +  icon_name;
+			filename = Paths::themesPath() + "/" + pref->iconset + "/" +  icon_name;
 		}
 		//qDebug("Images::loadIcon: filename: '%s'", filename.toUtf8().data());
 

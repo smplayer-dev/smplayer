@@ -25,7 +25,7 @@
 #include "constants.h"
 #include <QSettings>
 #include "translator.h"
-#include "helper.h"
+#include "paths.h"
 #include <QApplication>
 #include <QFile>
 
@@ -42,12 +42,12 @@ void Global::global_init(const QString & ini_path) {
 	translator = new Translator();
 
 	// settings
-	Helper::setIniPath(ini_path);
-	if (Helper::iniPath().isEmpty()) {
+	Paths::setIniPath(ini_path);
+	if (Paths::iniPath().isEmpty()) {
 		settings = new QSettings(QSettings::IniFormat, QSettings::UserScope,
     	                         QString(COMPANY), QString(PROGRAM) );
 	} else {
-		QString filename = Helper::iniPath() + "/smplayer.ini";
+		QString filename = Paths::iniPath() + "/smplayer.ini";
 		settings = new QSettings( filename, QSettings::IniFormat );
 		qDebug("global_init: config file: '%s'", filename.toUtf8().data());
 
@@ -60,8 +60,8 @@ void Global::global_init(const QString & ini_path) {
 		qDebug("global_init: config file: '%s'", file.toUtf8().data());
 	}
 	else 
-	if (QFile::exists(Helper::appHomePath())) {
-		QString file = Helper::appHomePath() + "/smplayer.ini";
+	if (QFile::exists(Paths::appHomePath())) {
+		QString file = Paths::appHomePath() + "/smplayer.ini";
 		settings = new QSettings( file, QSettings::IniFormat );
 		qDebug("global_init: config file: '%s'", file.toUtf8().data());
 	}

@@ -21,14 +21,12 @@
 #include "images.h"
 #include "global.h"
 #include "preferences.h"
-#include "helper.h"
+#include "paths.h"
 #include "assstyles.h"
 #include "filedialog.h"
 #include "languages.h"
 
 #include <QColorDialog>
-#include <QSettings>
-#include <QTextStream>
 
 PrefSubtitles::PrefSubtitles(QWidget * parent, Qt::WindowFlags f)
 	: PrefWidget(parent, f )
@@ -217,7 +215,7 @@ void PrefSubtitles::getData(Preferences * pref) {
 	TEST_AND_SET(pref->ass_styles.marginr, style_marginr_spin->value());
 	TEST_AND_SET(pref->ass_styles.marginv, style_marginv_spin->value());
 
-	pref->ass_styles.exportStyles( Helper::subtitleStyleFile() );
+	pref->ass_styles.exportStyles( Paths::subtitleStyleFile() );
 #endif
 }
 
