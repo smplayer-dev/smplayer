@@ -1353,7 +1353,14 @@ void Core::startMplayer( QString file, double seek ) {
 		if (QFile::exists(Paths::subtitleStyleFile())) {
 			proc->addArgument("-ass-styles");
 			proc->addArgument( Paths::subtitleStyleFile() );
-		} 
+		} else {
+			qWarning("Core::startMplayer: '%s' doesn't exist", Paths::subtitleStyleFile().toUtf8().constData());
+		}
+
+		#if SCALE_ASS_SUBS
+		proc->addArgument( "-ass-font-scale");
+		proc->addArgument( QString::number(mset.sub_scale_ass) );
+		#endif
 #else
 		proc->addArgument("-ass-color");
 		proc->addArgument( ColorUtils::colorToRRGGBBAA( pref->ass_color ) );
@@ -1365,6 +1372,11 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 #endif
 	}
+
+#if USE_ASS_STYLES
+	if (!pref->use_ass_subtitles) {
+		// Don't pass the following options if using -ass
+#endif
 
 	// Subtitles font
 	if ( (pref->use_fontconfig) && (!pref->font_name.isEmpty()) ) {
@@ -1392,6 +1404,10 @@ void Core::startMplayer( QString file, double seek ) {
 #else
 	proc->addArgument( "-subfont-text-scale");
 	proc->addArgument( QString::number(mset.sub_scale) );
+#endif
+
+#if USE_ASS_STYLES
+	}
 #endif
 
 	// Subtitle encoding
