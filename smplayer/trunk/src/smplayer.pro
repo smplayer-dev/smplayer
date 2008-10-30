@@ -36,6 +36,7 @@ HEADERS += guiconfig.h \
 	mediadata.h \
 	audioequalizerlist.h \
 	mediasettings.h \
+	assstyles.h \
 	preferences.h \
 	images.h \
 	inforeader.h \
@@ -115,6 +116,7 @@ SOURCES	+= version.cpp \
 	mplayerwindow.cpp \
 	mediadata.cpp \
 	mediasettings.cpp \
+	assstyles.cpp \
 	preferences.cpp \
 	images.cpp \
 	inforeader.cpp \

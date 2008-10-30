@@ -1343,6 +1343,11 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument("-embeddedfonts");
 
 #if USE_ASS_STYLES
+		if (!QFile::exists(Helper::subtitleStyleFile())) {
+			// If file doesn't exist, create it
+			pref->ass_styles.exportStyles(Helper::subtitleStyleFile());
+		}
+
 		if (QFile::exists(Helper::subtitleStyleFile())) {
 			proc->addArgument("-ass-styles");
 			proc->addArgument( Helper::subtitleStyleFile() );

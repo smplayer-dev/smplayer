@@ -100,8 +100,6 @@ protected:
 	bool subtitlesOnScreenshots();
 
 #if USE_ASS_STYLES
-	static bool exportStyles(const QString & filename, Preferences * pref);
-
 protected slots:
 	void checkBorderStyleCombo( int index );
 #endif
