@@ -34,10 +34,7 @@
 #include "config.h"
 #include "mplayerversion.h"
 #include "constants.h"
-
-#if !USE_ASS_STYLES
 #include "colorutils.h"
-#endif
 
 #ifdef Q_OS_WIN
 #include <windows.h> // To change app priority
@@ -1322,7 +1319,7 @@ void Core::startMplayer( QString file, double seek ) {
 		if ((pref->vo.startsWith("directx")) || (pref->vo.isEmpty())) {
 			proc->addArgument("-colorkey");
 			//proc->addArgument( "0x"+QString::number(pref->color_key, 16) );
-			proc->addArgument( Helper::colorToRGB(pref->color_key) );
+			proc->addArgument( ColorUtils::colorToRGB(pref->color_key) );
 		} else {
 		#endif
 			qDebug("Core::startMplayer: * not using -colorkey for %s", pref->vo.toUtf8().data());
