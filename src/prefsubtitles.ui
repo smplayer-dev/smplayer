@@ -5,8 +5,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>573</width>
-    <height>720</height>
+    <width>568</width>
+    <height>525</height>
    </rect>
   </property>
   <property name="windowTitle" >
@@ -710,9 +710,6 @@
          <property name="text" >
           <string>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</string>
          </property>
-         <property name="alignment" >
-          <set>Qt::AlignVCenter</set>
-         </property>
          <property name="wordWrap" >
           <bool>true</bool>
          </property>
@@ -729,6 +726,12 @@
         <widget class="QWidget" native="1" name="simple_styles_container" >
          <property name="enabled" >
           <bool>false</bool>
+         </property>
+         <property name="sizePolicy" >
+          <sizepolicy vsizetype="Expanding" hsizetype="Preferred" >
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
          </property>
          <layout class="QVBoxLayout" >
           <property name="leftMargin" >
@@ -827,9 +830,6 @@
             <property name="text" >
              <string>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b>Bold=1,Outline=2,Shadow=4&lt;/b></string>
             </property>
-            <property name="alignment" >
-             <set>Qt::AlignVCenter</set>
-            </property>
             <property name="wordWrap" >
              <bool>true</bool>
             </property>
@@ -897,7 +897,7 @@
           <property name="bottomMargin" >
            <number>4</number>
           </property>
-          <item row="0" column="0" colspan="2" >
+          <item row="0" column="0" >
            <widget class="QGroupBox" name="groupBox_4" >
             <property name="title" >
              <string>Font</string>
@@ -919,19 +919,6 @@
               <layout class="QHBoxLayout" >
                <item>
                 <widget class="MyFontComboBox" name="style_font_combo" />
-               </item>
-               <item>
-                <spacer>
-                 <property name="orientation" >
-                  <enum>Qt::Horizontal</enum>
-                 </property>
-                 <property name="sizeHint" >
-                  <size>
-                   <width>231</width>
-                   <height>25</height>
-                  </size>
-                 </property>
-                </spacer>
                </item>
               </layout>
              </item>
@@ -965,9 +952,12 @@
                  <property name="orientation" >
                   <enum>Qt::Horizontal</enum>
                  </property>
+                 <property name="sizeType" >
+                  <enum>QSizePolicy::Preferred</enum>
+                 </property>
                  <property name="sizeHint" >
                   <size>
-                   <width>181</width>
+                   <width>60</width>
                    <height>20</height>
                   </size>
                  </property>
@@ -992,7 +982,7 @@
             </layout>
            </widget>
           </item>
-          <item row="1" column="0" >
+          <item row="0" column="1" >
            <widget class="QGroupBox" name="groupBox_7" >
             <property name="title" >
              <string>Colors</string>
@@ -1015,6 +1005,9 @@
                <property name="text" >
                 <string>Text:</string>
                </property>
+               <property name="alignment" >
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
               </widget>
              </item>
              <item row="0" column="1" >
@@ -1029,6 +1022,9 @@
                <property name="text" >
                 <string>Border:</string>
                </property>
+               <property name="alignment" >
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
               </widget>
              </item>
              <item row="1" column="1" >
@@ -1038,23 +1034,10 @@
                </property>
               </widget>
              </item>
-             <item rowspan="2" row="0" column="2" >
-              <spacer>
-               <property name="orientation" >
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <property name="sizeHint" >
-                <size>
-                 <width>40</width>
-                 <height>20</height>
-                </size>
-               </property>
-              </spacer>
-             </item>
             </layout>
            </widget>
           </item>
-          <item row="1" column="1" >
+          <item row="1" column="0" >
            <widget class="QGroupBox" name="groupBox_8" >
             <property name="title" >
              <string>Margins</string>
@@ -1077,6 +1060,9 @@
                <property name="text" >
                 <string>Left:</string>
                </property>
+               <property name="alignment" >
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
               </widget>
              </item>
              <item row="0" column="1" >
@@ -1087,6 +1073,9 @@
                <property name="text" >
                 <string>Right:</string>
                </property>
+               <property name="alignment" >
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
               </widget>
              </item>
              <item row="0" column="3" >
@@ -1096,6 +1085,9 @@
               <widget class="QLabel" name="label_9" >
                <property name="text" >
                 <string>Vertical:</string>
+               </property>
+               <property name="alignment" >
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                </property>
               </widget>
              </item>
@@ -1118,12 +1110,12 @@
             </layout>
            </widget>
           </item>
-          <item row="2" column="0" colspan="2" >
+          <item row="1" column="1" >
            <widget class="QGroupBox" name="groupBox_9" >
             <property name="title" >
              <string>Alignment</string>
             </property>
-            <layout class="QHBoxLayout" >
+            <layout class="QGridLayout" >
              <property name="leftMargin" >
               <number>4</number>
              </property>
@@ -1136,59 +1128,36 @@
              <property name="bottomMargin" >
               <number>4</number>
              </property>
-             <item>
+             <item row="0" column="0" >
               <widget class="QLabel" name="label_4" >
                <property name="text" >
                 <string>Horizontal:</string>
                </property>
+               <property name="alignment" >
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
               </widget>
              </item>
-             <item>
+             <item row="0" column="1" >
               <widget class="QComboBox" name="style_alignment_combo" />
              </item>
-             <item>
-              <spacer>
-               <property name="orientation" >
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <property name="sizeType" >
-                <enum>QSizePolicy::Preferred</enum>
-               </property>
-               <property name="sizeHint" >
-                <size>
-                 <width>41</width>
-                 <height>25</height>
-                </size>
-               </property>
-              </spacer>
-             </item>
-             <item>
+             <item row="1" column="0" >
               <widget class="QLabel" name="label_6" >
                <property name="text" >
                 <string>Vertical:</string>
                </property>
+               <property name="alignment" >
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
               </widget>
              </item>
-             <item>
+             <item row="1" column="1" >
               <widget class="QComboBox" name="style_valignment_combo" />
-             </item>
-             <item>
-              <spacer>
-               <property name="orientation" >
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <property name="sizeHint" >
-                <size>
-                 <width>111</width>
-                 <height>25</height>
-                </size>
-               </property>
-              </spacer>
              </item>
             </layout>
            </widget>
           </item>
-          <item row="3" column="0" colspan="2" >
+          <item row="2" column="0" colspan="2" >
            <layout class="QHBoxLayout" >
             <item>
              <widget class="QLabel" name="label_5" >
@@ -1259,8 +1228,8 @@
          </property>
          <property name="sizeHint" >
           <size>
-           <width>540</width>
-           <height>20</height>
+           <width>546</width>
+           <height>21</height>
           </size>
          </property>
         </spacer>
@@ -1310,8 +1279,8 @@
   <tabstop>ass_styles_edit</tabstop>
   <tabstop>style_font_combo</tabstop>
   <tabstop>style_size_spin</tabstop>
-  <tabstop>style_italic_check</tabstop>
   <tabstop>style_bold_check</tabstop>
+  <tabstop>style_italic_check</tabstop>
   <tabstop>style_text_color_button</tabstop>
   <tabstop>style_border_color_button</tabstop>
   <tabstop>style_marginl_spin</tabstop>
