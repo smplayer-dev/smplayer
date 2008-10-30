@@ -17,7 +17,7 @@
 */
 
 #include "selectcolorbutton.h"
-#include "helper.h"
+#include "colorutils.h"
 #include <QColorDialog>
 
 #ifdef Q_OS_WIN
@@ -48,16 +48,16 @@ void SelectColorButton::setColor(QColor c) {
 	ignore_change_event = true;
 	
 	if ((current_style.startsWith("windowsxp")) || (current_style.startsWith("windowsvista"))) {
-		setStyleSheet( "border-width: 1px; border-style: solid; border-color: #000000; background: #" + Helper::colorToRRGGBB(_color.rgb()) + ";");
+		setStyleSheet( "border-width: 1px; border-style: solid; border-color: #000000; background: #" + ColorUtils::colorToRRGGBB(_color.rgb()) + ";");
 	} else {
 		setStyleSheet("");
-		Helper::setBackgroundColor( this, _color );
+		ColorUtils::setBackgroundColor( this, _color );
 	}
 		
 	ignore_change_event = false;
 #else
 	//setAutoFillBackground(true);
-	Helper::setBackgroundColor( this, _color );
+	ColorUtils::setBackgroundColor( this, _color );
 #endif
 }
 

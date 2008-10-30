@@ -17,7 +17,7 @@
 */
 
 #include "widgetactions.h"
-#include "helper.h"
+#include "colorutils.h"
 #include <QLabel>
 
 #if MINI_ARROW_BUTTONS
@@ -180,8 +180,8 @@ QWidget * TimeLabelAction::createWidget ( QWidget * parent ) {
     time_label->setAlignment(Qt::AlignVCenter | Qt::AlignHCenter);
     time_label->setAutoFillBackground(true);
 
-    Helper::setBackgroundColor( time_label, QColor(0,0,0) );
-    Helper::setForegroundColor( time_label, QColor(255,255,255) );
+    ColorUtils::setBackgroundColor( time_label, QColor(0,0,0) );
+    ColorUtils::setForegroundColor( time_label, QColor(255,255,255) );
     time_label->setText( "00:00:00 / 00:00:00" );
     time_label->setFrameShape( QFrame::Panel );
     time_label->setFrameShadow( QFrame::Sunken );

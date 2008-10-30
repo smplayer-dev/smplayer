@@ -297,50 +297,6 @@ void Helper::msleep(int ms) {
 #endif
 }
 
-QString Helper::colorToRRGGBBAA(unsigned int color) {
-	QColor c;
-	c.setRgb( color );
-
-	QString s;
-	return s.sprintf("%02x%02x%02x00", c.red(), c.green(), c.blue() );
-}
-
-QString Helper::colorToRRGGBB(unsigned int color) {
-	QColor c;
-	c.setRgb( color );
-
-	QString s;
-	return s.sprintf("%02x%02x%02x", c.red(), c.green(), c.blue() );
-}
-
-QString Helper::colorToRGB(unsigned int color) {
-	QColor c;
-	c.setRgb( color );
-
-	QString s;
-	return s.sprintf("0x%02x%02x%02x", c.blue(), c.green(), c.red() );
-}
-
-QString Helper::colorToAABBGGRR(unsigned int color) {
-	QColor c;
-	c.setRgb( color );
-
-	QString s;
-	return s.sprintf("00%02x%02x%02x", c.blue(), c.green(), c.red() );
-}
-
-void Helper::setForegroundColor(QWidget * w, const QColor & color) {
-	QPalette p = w->palette(); 
-	p.setColor(w->foregroundRole(), color); 
-	w->setPalette(p);
-}
-
-void Helper::setBackgroundColor(QWidget * w, const QColor & color) {
-	QPalette p = w->palette(); 
-	p.setColor(w->backgroundRole(), color); 
-	w->setPalette(p);
-}
-
 QString Helper::changeSlashes(QString filename) {
 	// Only change if file exists (it's a local file)
 	if (QFileInfo(filename).exists())
@@ -383,15 +339,6 @@ bool Helper::directoryContainsDVD(QString directory) {
 
 	return valid;
 }
-
-#if COLOR_OUTPUT_SUPPORT
-QString Helper::stripColorsTags(QString s) {
-    QRegExp rx_console_colors("\033\\[\\d\\d?;\\d\\d?m");
-    int removePos = rx_console_colors.lastIndexIn(s);
-    removePos += rx_console_colors.matchedLength();
-    return s.remove(0, removePos);
-}
-#endif
 
 int Helper::qtVersion() {
 	QRegExp rx("(\\d+)\\.(\\d+)\\.(\\d+)");

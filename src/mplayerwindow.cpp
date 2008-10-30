@@ -19,7 +19,7 @@
 #include "mplayerwindow.h"
 #include "global.h"
 #include "desktopinfo.h"
-#include "helper.h"
+#include "colorutils.h"
 
 #ifndef MINILIB
 #include "images.h"
@@ -142,7 +142,7 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	zoom_factor = 1.0;
 
 	setAutoFillBackground(true);
-	Helper::setBackgroundColor( this, QColor(0,0,0) );
+	ColorUtils::setBackgroundColor( this, QColor(0,0,0) );
 
 	mplayerlayer = new MplayerLayer( this );
 	mplayerlayer->setAutoFillBackground(TRUE);
@@ -154,7 +154,7 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 #else
 	logo->setAttribute(Qt::WA_PaintOnScreen); // Fixes the problem if compiled with Qt < 4.4
 #endif
-	Helper::setBackgroundColor( logo, QColor(0,0,0) );
+	ColorUtils::setBackgroundColor( logo, QColor(0,0,0) );
 
 	QVBoxLayout * mplayerlayerLayout = new QVBoxLayout( mplayerlayer );
 	mplayerlayerLayout->addWidget( logo, 0, Qt::AlignHCenter | Qt::AlignVCenter );
@@ -177,7 +177,7 @@ MplayerWindow::~MplayerWindow() {
 
 #if USE_COLORKEY
 void MplayerWindow::setColorKey( QColor c ) {
-	Helper::setBackgroundColor( mplayerlayer, c );
+	ColorUtils::setBackgroundColor( mplayerlayer, c );
 }
 #endif
 

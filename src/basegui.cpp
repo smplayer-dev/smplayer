@@ -42,6 +42,7 @@
 #include "mplayerwindow.h"
 #include "desktopinfo.h"
 #include "helper.h"
+#include "colorutils.h"
 #include "global.h"
 #include "translator.h"
 #include "images.h"
@@ -1674,7 +1675,7 @@ void BaseGui::createPanel() {
 
 	// panel
 	panel->setAutoFillBackground(TRUE);
-	Helper::setBackgroundColor( panel, QColor(0,0,0) );
+	ColorUtils::setBackgroundColor( panel, QColor(0,0,0) );
 }
 
 void BaseGui::createPreferencesDialog() {

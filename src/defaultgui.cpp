@@ -18,6 +18,7 @@
 
 #include "defaultgui.h"
 #include "helper.h"
+#include "colorutils.h"
 #include "core.h"
 #include "global.h"
 #include "widgetactions.h"
@@ -353,12 +354,12 @@ void DefaultGui::createStatusBar() {
 
 	statusBar()->setAutoFillBackground(TRUE);
 
-	Helper::setBackgroundColor( statusBar(), QColor(0,0,0) );
-	Helper::setForegroundColor( statusBar(), QColor(255,255,255) );
-	Helper::setBackgroundColor( time_display, QColor(0,0,0) );
-	Helper::setForegroundColor( time_display, QColor(255,255,255) );
-	Helper::setBackgroundColor( frame_display, QColor(0,0,0) );
-	Helper::setForegroundColor( frame_display, QColor(255,255,255) );
+	ColorUtils::setBackgroundColor( statusBar(), QColor(0,0,0) );
+	ColorUtils::setForegroundColor( statusBar(), QColor(255,255,255) );
+	ColorUtils::setBackgroundColor( time_display, QColor(0,0,0) );
+	ColorUtils::setForegroundColor( time_display, QColor(255,255,255) );
+	ColorUtils::setBackgroundColor( frame_display, QColor(0,0,0) );
+	ColorUtils::setForegroundColor( frame_display, QColor(255,255,255) );
 	statusBar()->setSizeGripEnabled(FALSE);
 
     statusBar()->showMessage( tr("Welcome to SMPlayer") );

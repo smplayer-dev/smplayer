@@ -22,6 +22,7 @@
 #include "global.h"
 #include "preferences.h"
 #include "helper.h"
+#include "colorutils.h"
 #include "filedialog.h"
 #include "languages.h"
 
@@ -240,8 +241,8 @@ bool PrefSubtitles::exportStyles(const QString & filename, Preferences * pref) {
 		out << "Style: Default,";
 		out << pref->style_fontname << "," ;
 		out << pref->style_fontsize << "," ;
-		out << "&H" << Helper::colorToAABBGGRR(pref->style_primarycolor) << "," ;
-		out << "&H" << Helper::colorToAABBGGRR(pref->style_backcolor) << "," ;
+		out << "&H" << ColorUtils::colorToAABBGGRR(pref->style_primarycolor) << "," ;
+		out << "&H" << ColorUtils::colorToAABBGGRR(pref->style_backcolor) << "," ;
 		out << (pref->style_bold ? -1 : 0) << "," ;
 		out << (pref->style_italic ? -1 : 0) << "," ;
 		out << alignment << "," ;
