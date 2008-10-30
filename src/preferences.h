@@ -26,6 +26,7 @@
 #include <QSize>
 #include "config.h"
 #include "audioequalizerlist.h"
+#include "assstyles.h"
 
 class Preferences {
 
@@ -169,20 +170,7 @@ public:
 
 #if USE_ASS_STYLES
 	// ASS styles
-	QString style_fontname;
-	int style_fontsize;
-	unsigned int style_primarycolor;
-	unsigned int style_backcolor;
-	bool style_bold;
-	bool style_italic;
-	int style_alignment;
-	int style_valignment;
-	int style_borderstyle;
-	int style_outline;
-	int style_shadow;
-	int style_marginl;
-	int style_marginr;
-	int style_marginv;
+	AssStyles ass_styles;
 #endif
 
 

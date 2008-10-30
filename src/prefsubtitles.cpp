@@ -22,7 +22,7 @@
 #include "global.h"
 #include "preferences.h"
 #include "helper.h"
-#include "colorutils.h"
+#include "assstyles.h"
 #include "filedialog.h"
 #include "languages.h"
 
@@ -160,20 +160,20 @@ void PrefSubtitles::setData(Preferences * pref) {
 
 #if USE_ASS_STYLES
 	// Load ass styles
-	style_font_combo->setCurrentText(pref->style_fontname);
-	style_size_spin->setValue(pref->style_fontsize);
-	style_text_color_button->setColor(pref->style_primarycolor);
-	style_border_color_button->setColor(pref->style_backcolor);
-	style_bold_check->setChecked(pref->style_bold);
-	style_italic_check->setChecked(pref->style_italic);
-	style_alignment_combo->setCurrentIndex(style_alignment_combo->findData(pref->style_alignment));
-	style_valignment_combo->setCurrentIndex(pref->style_valignment);
-	style_border_style_combo->setCurrentIndex(style_border_style_combo->findData(pref->style_borderstyle));
-	style_outline_spin->setValue(pref->style_outline);
-	style_shadow_spin->setValue(pref->style_shadow);
-	style_marginl_spin->setValue(pref->style_marginl);
-	style_marginr_spin->setValue(pref->style_marginr);
-	style_marginv_spin->setValue(pref->style_marginv);
+	style_font_combo->setCurrentText(pref->ass_styles.fontname);
+	style_size_spin->setValue(pref->ass_styles.fontsize);
+	style_text_color_button->setColor(pref->ass_styles.primarycolor);
+	style_border_color_button->setColor(pref->ass_styles.backcolor);
+	style_bold_check->setChecked(pref->ass_styles.bold);
+	style_italic_check->setChecked(pref->ass_styles.italic);
+	style_alignment_combo->setCurrentIndex(style_alignment_combo->findData(pref->ass_styles.halignment));
+	style_valignment_combo->setCurrentIndex(pref->ass_styles.valignment);
+	style_border_style_combo->setCurrentIndex(style_border_style_combo->findData(pref->ass_styles.borderstyle));
+	style_outline_spin->setValue(pref->ass_styles.outline);
+	style_shadow_spin->setValue(pref->ass_styles.shadow);
+	style_marginl_spin->setValue(pref->ass_styles.marginl);
+	style_marginr_spin->setValue(pref->ass_styles.marginr);
+	style_marginv_spin->setValue(pref->ass_styles.marginv);
 #endif
 }
 
@@ -202,64 +202,26 @@ void PrefSubtitles::getData(Preferences * pref) {
 
 #if USE_ASS_STYLES
 	// Save ass styles
-	TEST_AND_SET(pref->style_fontname, style_font_combo->currentText());
-	TEST_AND_SET(pref->style_fontsize, style_size_spin->value());
-	TEST_AND_SET(pref->style_primarycolor, style_text_color_button->color().rgb());
-	TEST_AND_SET(pref->style_backcolor, style_border_color_button->color().rgb());
-	TEST_AND_SET(pref->style_bold, style_bold_check->isChecked());
-	TEST_AND_SET(pref->style_italic, style_italic_check->isChecked());
-	TEST_AND_SET(pref->style_alignment, style_alignment_combo->itemData(style_alignment_combo->currentIndex()).toInt());
-	TEST_AND_SET(pref->style_valignment, style_valignment_combo->currentIndex());
-	TEST_AND_SET(pref->style_borderstyle, style_border_style_combo->itemData(style_border_style_combo->currentIndex()).toInt());
-	TEST_AND_SET(pref->style_outline, style_outline_spin->value());
-	TEST_AND_SET(pref->style_shadow, style_shadow_spin->value());
-	TEST_AND_SET(pref->style_marginl, style_marginl_spin->value());
-	TEST_AND_SET(pref->style_marginr, style_marginr_spin->value());
-	TEST_AND_SET(pref->style_marginv, style_marginv_spin->value());
+	TEST_AND_SET(pref->ass_styles.fontname, style_font_combo->currentText());
+	TEST_AND_SET(pref->ass_styles.fontsize, style_size_spin->value());
+	TEST_AND_SET(pref->ass_styles.primarycolor, style_text_color_button->color().rgb());
+	TEST_AND_SET(pref->ass_styles.backcolor, style_border_color_button->color().rgb());
+	TEST_AND_SET(pref->ass_styles.bold, style_bold_check->isChecked());
+	TEST_AND_SET(pref->ass_styles.italic, style_italic_check->isChecked());
+	TEST_AND_SET(pref->ass_styles.halignment, style_alignment_combo->itemData(style_alignment_combo->currentIndex()).toInt());
+	TEST_AND_SET(pref->ass_styles.valignment, style_valignment_combo->currentIndex());
+	TEST_AND_SET(pref->ass_styles.borderstyle, style_border_style_combo->itemData(style_border_style_combo->currentIndex()).toInt());
+	TEST_AND_SET(pref->ass_styles.outline, style_outline_spin->value());
+	TEST_AND_SET(pref->ass_styles.shadow, style_shadow_spin->value());
+	TEST_AND_SET(pref->ass_styles.marginl, style_marginl_spin->value());
+	TEST_AND_SET(pref->ass_styles.marginr, style_marginr_spin->value());
+	TEST_AND_SET(pref->ass_styles.marginv, style_marginv_spin->value());
 
-	exportStyles( Helper::subtitleStyleFile(), pref );
+	pref->ass_styles.exportStyles( Helper::subtitleStyleFile() );
 #endif
 }
 
 #if USE_ASS_STYLES
-bool PrefSubtitles::exportStyles(const QString & filename, Preferences * pref) {
-	QFile f(filename);
-	if (f.open(QFile::WriteOnly)) {
-		QTextStream out(&f);
-
-		int alignment = pref->style_alignment;
-		if (pref->style_valignment == 1) alignment += 3; // Middle
-		else
-		if (pref->style_valignment == 2) alignment += 6; // Top
-
-		out << "[Script Info]" << endl;
-		out << "ScriptType: v4.00+" << endl;
-		out << "Collisions: Normal" << endl;
-		out << endl;
-		out << "[V4+ Styles]" << endl;
-		out << "Format: Name, Fontname, Fontsize, PrimaryColour, BackColour, Bold, Italic, Alignment, BorderStyle, Outline, Shadow, MarginL, MarginR, MarginV" << endl;
-		out << "Style: Default,";
-		out << pref->style_fontname << "," ;
-		out << pref->style_fontsize << "," ;
-		out << "&H" << ColorUtils::colorToAABBGGRR(pref->style_primarycolor) << "," ;
-		out << "&H" << ColorUtils::colorToAABBGGRR(pref->style_backcolor) << "," ;
-		out << (pref->style_bold ? -1 : 0) << "," ;
-		out << (pref->style_italic ? -1 : 0) << "," ;
-		out << alignment << "," ;
-		out << pref->style_borderstyle << "," ;
-		out << pref->style_outline << "," ;
-		out << pref->style_shadow << "," ;
-		out << pref->style_marginl << "," ;
-		out << pref->style_marginr << "," ;
-		out << pref->style_marginv;
-		out << endl;
-
-		f.close();
-		return true;
-	}
-	return false;
-}
-
 void PrefSubtitles::checkBorderStyleCombo( int index ) {
 	bool b = (index == 0);
 	style_outline_spin->setEnabled(b);

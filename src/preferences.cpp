@@ -191,20 +191,8 @@ void Preferences::reset() {
 
 #if USE_ASS_STYLES
 	// ASS styles
-	style_fontname = "Arial";
-	style_fontsize = 20;
-	style_primarycolor = 0xFFFFFF;
-	style_backcolor = 0;
-	style_bold = false;
-	style_italic = false;
-	style_alignment = 2; // Centered
-	style_valignment = 0; // Bottom
-	style_borderstyle = 1; // Outline
-	style_outline = 1;
-	style_shadow = 2;
-	style_marginl = 20;
-	style_marginr = 20;
-	style_marginv = 8;
+	// Nothing to do, default values are given in
+	// AssStyles constructor
 #endif
 
 
@@ -546,20 +534,7 @@ void Preferences::save() {
 
 #if USE_ASS_STYLES
 	// ASS styles
-	set->setValue("styles/fontname", style_fontname);
-	set->setValue("styles/fontsize", style_fontsize);
-	set->setValue("styles/primarycolor", style_primarycolor);
-	set->setValue("styles/backcolor", style_backcolor);
-	set->setValue("styles/bold", style_bold);
-	set->setValue("styles/italic", style_italic);
-	set->setValue("styles/alignment", style_alignment);
-	set->setValue("styles/valignment", style_valignment);
-	set->setValue("styles/borderstyle", style_borderstyle);
-	set->setValue("styles/outline", style_outline);
-	set->setValue("styles/shadow", style_shadow);
-	set->setValue("styles/marginl", style_marginl);
-	set->setValue("styles/marginr", style_marginr);
-	set->setValue("styles/marginv", style_marginv);
+	ass_styles.save(set);
 #endif
 
 	set->endGroup(); // subtitles
@@ -913,20 +888,7 @@ void Preferences::load() {
 
 #if USE_ASS_STYLES
 	// ASS styles
-	style_fontname = set->value("styles/fontname", style_fontname).toString();
-	style_fontsize = set->value("styles/fontsize", style_fontsize).toInt();
-	style_primarycolor = set->value("styles/primarycolor", style_primarycolor).toInt();
-	style_backcolor = set->value("styles/backcolor", style_backcolor).toInt();
-	style_bold = set->value("styles/bold", style_bold).toBool();
-	style_italic = set->value("styles/italic", style_italic).toBool();
-	style_alignment = set->value("styles/alignment", style_alignment).toInt();
-	style_valignment = set->value("styles/valignment", style_valignment).toInt();
-	style_borderstyle = set->value("styles/borderstyle", style_borderstyle).toInt();
-	style_outline = set->value("styles/outline", style_outline).toInt();
-	style_shadow = set->value("styles/shadow", style_shadow).toInt();
-	style_marginl = set->value("styles/marginl", style_marginl).toInt();
-	style_marginr = set->value("styles/marginr", style_marginr).toInt();
-	style_marginv = set->value("styles/marginv", style_marginv).toInt();
+	ass_styles.load(set);
 #endif
 
 	set->endGroup(); // subtitles
