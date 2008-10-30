@@ -28,15 +28,8 @@
 #include "config.h"
 #endif
 
-#ifndef Q_OS_WIN
-#define COLOR_OUTPUT_SUPPORT 1
-#endif
+class Helper {
 
-class QWidget;
-class QColor;
-
-class Helper 
-{
 public:
 
 	static void setAppPath(QString path);
@@ -86,21 +79,6 @@ public:
 
 	static void msleep(int ms);
 
-	//! Returns a string suitable to be used for -ass-color
-	static QString colorToRRGGBBAA(unsigned int color);
-	static QString colorToRRGGBB(unsigned int color);
-
-	//! Returns a string suitable to be used for -colorkey
-	static QString colorToRGB(unsigned int color);
-
-	static QString colorToAABBGGRR(unsigned int color);
-
-	//! Changes the foreground color of the specified widget
-	static void setForegroundColor(QWidget * w, const QColor & color);
-
-	//! Changes the background color of the specified widget
-	static void setBackgroundColor(QWidget * w, const QColor & color);
-
 	//! Change filenames like "C:/Program Files/" to "C:\Program Files\"
 	static QString changeSlashes(QString filename);
 
@@ -108,20 +86,6 @@ public:
 	static int dvdSplitTitle(QString dvd_url);
 
 	static bool directoryContainsDVD(QString directory);
-
-    /**
-     ** \brief Strip colors and tags from MPlayer output lines
-     **
-     ** Some MPlayer configurations (configured with --enable-color-console)
-     ** use colored/tagged console output. This function removes those colors
-     ** and tags.
-     **
-     ** \param s The string to strip colors and tags from
-     ** \return Returns a clean string (no colors, no tags)
-     */
-#if COLOR_OUTPUT_SUPPORT
-    static QString stripColorsTags(QString s);
-#endif
 
 	//! Returns an int with the version number of Qt at run-time.
     //! If version is 4.3.2 it returns 40302.

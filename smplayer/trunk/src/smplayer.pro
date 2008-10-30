@@ -21,6 +21,7 @@ HEADERS += guiconfig.h \
 	version.h \
 	global.h \
 	helper.h \
+	colorutils.h \
 	translator.h \
 	subtracks.h \
 	tracks.h \
@@ -100,6 +101,7 @@ HEADERS += guiconfig.h \
 SOURCES	+= version.cpp \
 	global.cpp \
 	helper.cpp \
+	colorutils.cpp \
 	translator.cpp \
 	subtracks.cpp \
 	tracks.cpp \
