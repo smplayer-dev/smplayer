@@ -18,7 +18,7 @@
 
 #include "preferences.h"
 #include "global.h"
-#include "helper.h"
+#include "paths.h"
 #include "mediasettings.h"
 
 #include <QSettings>
@@ -75,8 +75,8 @@ void Preferences::reset() {
 
 	screenshot_directory="";
 #ifndef PORTABLE_APP
-	if (QFile::exists(Helper::appHomePath() + "/screenshots")) {
-		screenshot_directory = Helper::appHomePath() + "/screenshots";
+	if (QFile::exists(Paths::appHomePath() + "/screenshots")) {
+		screenshot_directory = Paths::appHomePath() + "/screenshots";
 	}
 #endif
 

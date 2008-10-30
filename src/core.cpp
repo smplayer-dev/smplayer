@@ -28,11 +28,16 @@
 #include "mplayerwindow.h"
 #include "desktopinfo.h"
 #include "helper.h"
+#include "paths.h"
 #include "preferences.h"
 #include "global.h"
 #include "config.h"
 #include "mplayerversion.h"
 #include "constants.h"
+
+#if !USE_ASS_STYLES
+#include "colorutils.h"
+#endif
 
 #ifdef Q_OS_WIN
 #include <windows.h> // To change app priority
@@ -56,11 +61,11 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 
 #ifndef NO_USE_INI_FILES
 	// Create file_settings
-	if (Helper::iniPath().isEmpty()) {
+	if (Paths::iniPath().isEmpty()) {
 		file_settings = new QSettings(QSettings::IniFormat, QSettings::UserScope,
                                       QString(COMPANY), QString("smplayer_files") );
 	} else {
-		QString filename = Helper::iniPath() + "/smplayer_files.ini";
+		QString filename = Paths::iniPath() + "/smplayer_files.ini";
 		file_settings = new QSettings( filename, QSettings::IniFormat );
 		qDebug("Core::Core: file_settings: '%s'", filename.toUtf8().data());
 	}
@@ -1296,7 +1301,7 @@ void Core::startMplayer( QString file, double seek ) {
 #ifndef Q_OS_WIN
 	if (!pref->use_mplayer_window) {
 		proc->addArgument( "-input" );
-		proc->addArgument( "conf=" + Helper::dataPath() +"/input.conf" );
+		proc->addArgument( "conf=" + Paths::dataPath() +"/input.conf" );
 	}
 #endif
 
@@ -1343,20 +1348,20 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument("-embeddedfonts");
 
 #if USE_ASS_STYLES
-		if (!QFile::exists(Helper::subtitleStyleFile())) {
+		if (!QFile::exists(Paths::subtitleStyleFile())) {
 			// If file doesn't exist, create it
-			pref->ass_styles.exportStyles(Helper::subtitleStyleFile());
+			pref->ass_styles.exportStyles(Paths::subtitleStyleFile());
 		}
 
-		if (QFile::exists(Helper::subtitleStyleFile())) {
+		if (QFile::exists(Paths::subtitleStyleFile())) {
 			proc->addArgument("-ass-styles");
-			proc->addArgument( Helper::subtitleStyleFile() );
+			proc->addArgument( Paths::subtitleStyleFile() );
 		} 
 #else
 		proc->addArgument("-ass-color");
-		proc->addArgument( Helper::colorToRRGGBBAA( pref->ass_color ) );
+		proc->addArgument( ColorUtils::colorToRRGGBBAA( pref->ass_color ) );
 		proc->addArgument("-ass-border-color");
-		proc->addArgument( Helper::colorToRRGGBBAA( pref->ass_border_color ) );
+		proc->addArgument( ColorUtils::colorToRRGGBBAA( pref->ass_border_color ) );
 		if (!pref->ass_styles.isEmpty()) {
 			proc->addArgument("-ass-force-style");
 			proc->addArgument( pref->ass_styles );

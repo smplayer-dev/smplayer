@@ -20,7 +20,7 @@
 #include "prefinterface.h"
 #include "images.h"
 #include "preferences.h"
-#include "helper.h"
+#include "paths.h"
 #include "config.h"
 #include "languages.h"
 
@@ -47,14 +47,14 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 	iconset_combo->addItem( "Default" );
 
 	// User
-	QDir icon_dir = Helper::appHomePath() + "/themes";
+	QDir icon_dir = Paths::appHomePath() + "/themes";
 	qDebug("icon_dir: %s", icon_dir.absolutePath().toUtf8().data());
 	QStringList iconsets = icon_dir.entryList(QDir::Dirs | QDir::NoDotAndDotDot);
 	for (int n=0; n < iconsets.count(); n++) {
 		iconset_combo->addItem( iconsets[n] );
 	}
 	// Global
-	icon_dir = Helper::themesPath();
+	icon_dir = Paths::themesPath();
 	qDebug("icon_dir: %s", icon_dir.absolutePath().toUtf8().data());
 	iconsets = icon_dir.entryList(QDir::Dirs | QDir::NoDotAndDotDot);
 	for (int n=0; n < iconsets.count(); n++) {
@@ -85,7 +85,7 @@ void PrefInterface::createLanguageCombo() {
 	QMap <QString,QString> m = Languages::translations();
 
 	// Language combo
-	QDir translation_dir = Helper::translationPath();
+	QDir translation_dir = Paths::translationPath();
 	QStringList languages = translation_dir.entryList( QStringList() << "*.qm");
 	QRegExp rx_lang("smplayer_(.*)\\.qm");
 	language_combo->clear();

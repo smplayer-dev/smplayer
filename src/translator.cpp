@@ -17,7 +17,7 @@
 */
 
 #include "translator.h"
-#include "helper.h"
+#include "paths.h"
 #include <QTranslator>
 #include <QLocale>
 #include <QApplication>
@@ -45,8 +45,8 @@ void Translator::load(QString locale) {
         locale = QLocale::system().name();
     }
 
-	QString trans_path = Helper::translationPath();
-	QString qt_trans_path = Helper::qtTranslationPath();
+	QString trans_path = Paths::translationPath();
+	QString qt_trans_path = Paths::qtTranslationPath();
 
 #ifdef Q_OS_WIN
 	// In windows try to load the qt translation from the app path, as

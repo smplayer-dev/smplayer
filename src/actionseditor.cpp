@@ -39,7 +39,7 @@
 
 #include "images.h"
 #include "filedialog.h"
-#include "helper.h"
+#include "paths.h"
 
 #include "shortcutgetter.h"
 
@@ -144,7 +144,7 @@ QList <QKeySequence> ActionsEditor::stringToShortcuts(QString shortcuts) {
 ActionsEditor::ActionsEditor(QWidget * parent, Qt::WindowFlags f)
 	: QWidget(parent, f)
 {
-	latest_dir = Helper::shortcutsPath();
+	latest_dir = Paths::shortcutsPath();
 
     actionsTable = new QTableWidget(0, COL_NAME +1, this);
 	actionsTable->setSelectionMode( QAbstractItemView::SingleSelection );

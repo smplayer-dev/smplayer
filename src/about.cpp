@@ -21,7 +21,7 @@
 #include "version.h"
 #include "global.h"
 #include "preferences.h"
-#include "helper.h"
+#include "paths.h"
 #include "mplayerversion.h"
 
 #include <QFile>
@@ -65,7 +65,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 	);
 
 
-	QString license_file = Helper::doc("gpl.html", pref->language);
+	QString license_file = Paths::doc("gpl.html", pref->language);
 	if (QFile::exists(license_file)) {
 		QFont fixed_font;
 		fixed_font.setStyleHint(QFont::TypeWriter);

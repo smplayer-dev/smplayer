@@ -20,7 +20,7 @@
 #include "defaultgui.h"
 #include "minigui.h"
 #include "global.h"
-#include "helper.h"
+#include "paths.h"
 #include "translator.h"
 #include "version.h"
 #include "constants.h"
@@ -48,7 +48,7 @@ SMPlayer::SMPlayer(const QString & ini_path, QObject * parent )
 	main_window = 0;
 	gui_to_use = "DefaultGui";
 
-    Helper::setAppPath( qApp->applicationDirPath() );
+    Paths::setAppPath( qApp->applicationDirPath() );
 
 #ifndef PORTABLE_APP
 	if (ini_path.isEmpty())	createHomeDirectory();
@@ -68,7 +68,7 @@ SMPlayer::~SMPlayer() {
 BaseGui * SMPlayer::gui() {
 	if (main_window == 0) {
 		// Changes to app path, so smplayer can find a relative mplayer path
-		QDir::setCurrent(Helper::appPath());
+		QDir::setCurrent(Paths::appPath());
 		qDebug("SMPlayer::gui: changed working directory to app path");
 		qDebug("SMPlayer::gui: current directory: %s", QDir::currentPath().toUtf8().data());
 		
@@ -287,12 +287,12 @@ void SMPlayer::start() {
 #ifndef PORTABLE_APP
 void SMPlayer::createHomeDirectory() {
 	// Create smplayer home directories
-	if (!QFile::exists(Helper::appHomePath())) {
+	if (!QFile::exists(Paths::appHomePath())) {
 		QDir d;
-		if (!d.mkdir(Helper::appHomePath())) {
-			qWarning("SMPlayer::createHomeDirectory: can't create %s", Helper::appHomePath().toUtf8().data());
+		if (!d.mkdir(Paths::appHomePath())) {
+			qWarning("SMPlayer::createHomeDirectory: can't create %s", Paths::appHomePath().toUtf8().data());
 		}
-		QString s = Helper::appHomePath() + "/screenshots";
+		QString s = Paths::appHomePath() + "/screenshots";
 		if (!d.mkdir(s)) {
 			qWarning("SMPlayer::createHomeDirectory: can't create %s", s.toUtf8().data());
 		}
@@ -318,14 +318,14 @@ void SMPlayer::showInfo() {
 	qDebug("%s", s.toUtf8().data() );
 	qDebug("Compiled with Qt v. %s, using %s", QT_VERSION_STR, qVersion());
 
-	qDebug(" * application path: '%s'", Helper::appPath().toUtf8().data());
-	qDebug(" * data path: '%s'", Helper::dataPath().toUtf8().data());
-	qDebug(" * translation path: '%s'", Helper::translationPath().toUtf8().data());
-	qDebug(" * doc path: '%s'", Helper::docPath().toUtf8().data());
-	qDebug(" * themes path: '%s'", Helper::themesPath().toUtf8().data());
-	qDebug(" * shortcuts path: '%s'", Helper::shortcutsPath().toUtf8().data());
-	qDebug(" * smplayer home path: '%s'", Helper::appHomePath().toUtf8().data());
-	qDebug(" * ini path: '%s'", Helper::iniPath().toUtf8().data());
-	qDebug(" * file for subtitles' styles: '%s'", Helper::subtitleStyleFile().toUtf8().data());
+	qDebug(" * application path: '%s'", Paths::appPath().toUtf8().data());
+	qDebug(" * data path: '%s'", Paths::dataPath().toUtf8().data());
+	qDebug(" * translation path: '%s'", Paths::translationPath().toUtf8().data());
+	qDebug(" * doc path: '%s'", Paths::docPath().toUtf8().data());
+	qDebug(" * themes path: '%s'", Paths::themesPath().toUtf8().data());
+	qDebug(" * shortcuts path: '%s'", Paths::shortcutsPath().toUtf8().data());
+	qDebug(" * smplayer home path: '%s'", Paths::appHomePath().toUtf8().data());
+	qDebug(" * ini path: '%s'", Paths::iniPath().toUtf8().data());
+	qDebug(" * file for subtitles' styles: '%s'", Paths::subtitleStyleFile().toUtf8().data());
 	qDebug(" * current path: '%s'", QDir::currentPath().toUtf8().data());
 }

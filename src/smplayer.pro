@@ -20,6 +20,7 @@ HEADERS += guiconfig.h \
 	svn_revision.h \
 	version.h \
 	global.h \
+	paths.h \
 	helper.h \
 	colorutils.h \
 	translator.h \
@@ -101,6 +102,7 @@ HEADERS += guiconfig.h \
 
 SOURCES	+= version.cpp \
 	global.cpp \
+	paths.cpp \
 	helper.cpp \
 	colorutils.cpp \
 	translator.cpp \

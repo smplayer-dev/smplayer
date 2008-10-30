@@ -32,26 +32,6 @@ class Helper {
 
 public:
 
-	static void setAppPath(QString path);
-	static QString appPath();
-
-	static QString dataPath();
-	static QString translationPath();
-	static QString docPath();
-	static QString confPath();
-	static QString themesPath();
-	static QString shortcutsPath();
-	static QString qtTranslationPath();
-	static QString doc(QString file, QString locale = QString::null);
-
-	//! Return the user's home
-	static QString appHomePath();
-
-	static void setIniPath(QString path);
-	static QString iniPath();
-
-	static QString subtitleStyleFile();
-
 	// Format a time (hh:mm:ss)
 	static QString formatTime(int secs);
 
@@ -99,8 +79,6 @@ public:
 
 private:
 	static QString logs;
-	static QString app_path;
-	static QString ini_path;
 };
 
 #endif

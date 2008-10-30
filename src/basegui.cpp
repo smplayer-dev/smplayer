@@ -42,6 +42,7 @@
 #include "mplayerwindow.h"
 #include "desktopinfo.h"
 #include "helper.h"
+#include "paths.h"
 #include "colorutils.h"
 #include "global.h"
 #include "translator.h"
@@ -3044,7 +3045,7 @@ void BaseGui::loadAudioFile() {
 }
 
 void BaseGui::helpFAQ() {
-	QUrl url = QUrl::fromLocalFile(Helper::doc("faq.html", pref->language));
+	QUrl url = QUrl::fromLocalFile(Paths::doc("faq.html", pref->language));
 	qDebug("BaseGui::helpFAQ: file to open %s", url.toString().toUtf8().data());
 	QDesktopServices::openUrl( url );
 }
@@ -3844,10 +3845,10 @@ void BaseGui::changeStyleSheet(QString style) {
 		qApp->setStyleSheet("");
 	} 
 	else {
-		QString qss_file = Helper::appHomePath() + "/themes/" + pref->iconset +"/style.qss";
+		QString qss_file = Paths::appHomePath() + "/themes/" + pref->iconset +"/style.qss";
 		//qDebug("BaseGui::changeStyleSheet: '%s'", qss_file.toUtf8().data());
 		if (!QFile::exists(qss_file)) {
-			qss_file = Helper::themesPath() +"/"+ pref->iconset +"/style.qss";
+			qss_file = Paths::themesPath() +"/"+ pref->iconset +"/style.qss";
 		}
 		if (QFile::exists(qss_file)) {
 			qDebug("BaseGui::changeStyleSheet: '%s'", qss_file.toUtf8().data());

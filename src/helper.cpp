@@ -21,19 +21,14 @@
 #include <QApplication>
 #include <QFileInfo>
 #include <QColor>
-#include <QRegExp>
 #include <QDir>
 #include <QTextCodec>
 #include <QWidget>
-#include <QLocale>
 #include "config.h"
-
-#include <QLibraryInfo>
 
 #ifdef Q_OS_WIN
 #include <windows.h> // For the screensaver stuff
 #endif
-
 
 #if EXTERNAL_SLEEP
 #include <unistd.h>
@@ -58,137 +53,6 @@ public:
 
 
 QString Helper::logs;
-QString Helper::app_path;
-QString Helper::ini_path;
-
-void Helper::setAppPath(QString path) {
-	app_path = path;
-}
-
-QString Helper::appPath() {
-	return app_path;
-}
-
-QString Helper::dataPath() {
-#ifdef DATA_PATH
-	QString path = QString(DATA_PATH);
-	if (!path.isEmpty())
-		return path;
-	else
-		return appPath();
-#else
-	return appPath();
-#endif
-}
-
-QString Helper::translationPath() {
-#ifdef TRANSLATION_PATH
-	QString path = QString(TRANSLATION_PATH);
-	if (!path.isEmpty())
-		return path;
-	else
-		return appPath() + "/translations";
-#else
-	return appPath() + "/translations";
-#endif
-}
-
-QString Helper::docPath() {
-#ifdef DOC_PATH
-	QString path = QString(DOC_PATH);
-	if (!path.isEmpty())
-		return path;
-	else
-		return appPath() + "/docs";
-#else
-	return appPath() + "/docs";
-#endif
-}
-
-QString Helper::confPath() {
-#ifdef CONF_PATH
-	QString path = QString(CONF_PATH);
-	if (!path.isEmpty())
-		return path;
-	else
-		return appPath();
-#else
-	return appPath();
-#endif
-}
-
-QString Helper::themesPath() {
-#ifdef THEMES_PATH
-	QString path = QString(THEMES_PATH);
-	if (!path.isEmpty())
-		return path;
-	else
-		return appPath() + "/themes";
-#else
-	return appPath() + "/themes";
-#endif
-}
-
-QString Helper::shortcutsPath() {
-#ifdef SHORTCUTS_PATH
-	QString path = QString(SHORTCUTS_PATH);
-	if (!path.isEmpty())
-		return path;
-	else
-		return appPath() + "/shortcuts";
-#else
-	return appPath() + "/shortcuts";
-#endif
-}
-
-QString Helper::qtTranslationPath() {
-	return QLibraryInfo::location(QLibraryInfo::TranslationsPath);
-}
-
-QString Helper::doc(QString file, QString locale) {
-	if (locale.isEmpty()) {
-		locale = QLocale::system().name();
-	}
-
-	QString f = docPath() + "/" + locale + "/" + file;
-	qDebug("Helper:doc: checking '%s'", f.toUtf8().data());
-	if (QFile::exists(f)) return f;
-
-	if (locale.indexOf(QRegExp("_[A-Z]+")) != -1) {
-		locale.replace(QRegExp("_[A-Z]+"), "");
-		f = docPath() + "/" + locale + "/" + file;
-		qDebug("Helper:doc: checking '%s'", f.toUtf8().data());
-		if (QFile::exists(f)) return f;
-	}
-
-	f = docPath() + "/en/" + file;
-	return f;
-}
-
-QString Helper::appHomePath() {
-	return QDir::homePath() + "/.smplayer";
-}
-
-void Helper::setIniPath(QString path) {
-	ini_path = path;
-}
-
-QString Helper::iniPath() {
-	if (!ini_path.isEmpty()) {
-		return ini_path;
-	} else {
-		if (QFile::exists(appHomePath())) return appHomePath();
-	}
-	return "";
-}
-
-QString Helper::subtitleStyleFile() {
-#ifdef PORTABLE_APP
-	return appPath() + "/styles.ass";
-#else
-	return appHomePath() + "/styles.ass";
-#endif
-}
 
 QString Helper::filenameForPref(const QString & filename) {
 	QString s = filename;
