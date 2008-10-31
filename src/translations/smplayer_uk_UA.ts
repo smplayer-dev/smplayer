@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="uk">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -571,7 +572,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1145"/>
         <source>&amp;Frame step</source>
-        <translation>&amp;Крок фрейма</translation>
+        <translation>&amp;Крок кадра</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1161"/>
@@ -714,11 +715,6 @@ Do you want to overwrite?</source>
         <translation>З&amp;алишатись зверху</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1393"/>
-        <source>&amp;Track</source>
-        <translation type="obsolete">&amp;Доріжка</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1212"/>
         <source>&amp;Extrastereo</source>
         <translation>&amp;Розширене стерео</translation>
@@ -846,7 +842,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1240"/>
         <source>&amp;Show frame counter</source>
-        <translation>&amp;Показати лічильник фреймів</translation>
+        <translation>&amp;Показати лічильник кадрів</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1377"/>
@@ -958,22 +954,22 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3486"/>
         <source>Pause</source>
-        <translation>Призупинити</translation>
+        <translation>Призупинений</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3487"/>
         <source>Stop</source>
-        <translation>Зупинити</translation>
+        <translation>Зупинений</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1147"/>
         <source>Play / Pause</source>
-        <translation>Відтворити / Пауза</translation>
+        <translation>Відтворити / Призупинити</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1153"/>
         <source>Pause / Frame step</source>
-        <translation>Пауза / Крок фрейму</translation>
+        <translation>Призупинка / Крок кадра</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1218"/>
@@ -1447,11 +1443,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Це застереження не буде більше показуватись)</translation>
     </message>
-    <message>
-        <location filename="../basegui.cpp" line="3328"/>
-        <source>Using an old MPlayer, please update it</source>
-        <translation>Використовується старий MPlayer, будь ласка, оновіть його.</translation>
-    </message>
 </context>
 <context>
     <name>BaseGuiPlus</name>
@@ -1881,49 +1872,6 @@ Please check the permissions of that folder.</source>
     </message>
 </context>
 <context>
-    <name>Gui</name>
-    <message>
-        <location filename="../testcorelib/test.cpp" line="38"/>
-        <source>&amp;Open...</source>
-        <translation type="obsolete">&amp;Відкрити...</translation>
-    </message>
-    <message>
-        <location filename="../testcorelib/test.cpp" line="41"/>
-        <source>&amp;Close</source>
-        <translation type="obsolete">&amp;Закрити</translation>
-    </message>
-    <message>
-        <location filename="../testcorelib/test.cpp" line="44"/>
-        <source>&amp;Open</source>
-        <translation type="obsolete">&amp;Відкрити</translation>
-    </message>
-    <message>
-        <location filename="../testcorelib/test.cpp" line="48"/>
-        <source>&amp;Play/Pause</source>
-        <translation type="obsolete">&amp;Відтворити/Пауза</translation>
-    </message>
-    <message>
-        <location filename="../testcorelib/test.cpp" line="53"/>
-        <source>&amp;Stop</source>
-        <translation type="obsolete">&amp;Зупинити</translation>
-    </message>
-    <message>
-        <location filename="../testcorelib/test.cpp" line="57"/>
-        <source>&amp;Play</source>
-        <translation type="obsolete">Від&amp;творити</translation>
-    </message>
-    <message>
-        <location filename="../testcorelib/test.cpp" line="68"/>
-        <source>Control</source>
-        <translation type="obsolete">Керування</translation>
-    </message>
-    <message>
-        <location filename="../testcorelib/test.cpp" line="86"/>
-        <source>Open file</source>
-        <translation type="obsolete">Відкрити файл</translation>
-    </message>
-</context>
-<context>
     <name>InfoFile</name>
     <message>
         <location filename="../infofile.cpp" line="60"/>
@@ -2043,7 +1991,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="105"/>
         <source>Frames per second</source>
-        <translation>Фреймів за секунду</translation>
+        <translation>Кадрів за секунду</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="116"/>
@@ -2204,7 +2152,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputurl.cpp" line="31"/>
         <source>If this option is checked, the URL will be treated as a playlist: it will be opened as text and will play the URLs in it.</source>
-        <translation>Якщо ця опція увімкнена, URL-адреса сприймається як перелік відтворення: буде відкрито як текст та відтворено.</translation>
+        <translation>Якщо ця опція увімкнена, URL-адреса сприймається як перелік відтворення: буде відкрита як текст та відтворена.</translation>
     </message>
 </context>
 <context>
@@ -3384,24 +3332,9 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Ця опція може зменшити мерехтіння, але може призвести до того, що зображення не буде показане як слід.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="438"/>
-        <source>If checked, smplayer will store the output of mplayer (you can see it in &lt;b&gt;Options-&gt;View logs-&gt;mplayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="obsolete">Якщо увімкнено, SMPlayer буде зберігати повідомлення mplayer (їх можна побачити у &lt;b&gt;Налаштування-&gt;Дивитись звіти-&gt;mplayer&lt;/b&gt;). У випадку проблем ці звіти можут містити важливу інформацію, так що радимо увімкнути.</translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.cpp" line="432"/>
-        <source>If this option is checked, smplayer will store the debugging messages that smplayer outputs (you can see the log in &lt;b&gt;Options-&gt;View logs-&gt;smplayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation type="obsolete">Якщо увімкнено, SMPlayer буде зберігати свої налагоджувальні повідомлення (їх можна побачити у &lt;b&gt;Налаштування-&gt;Дивитись звіти-&gt;smplayer&lt;/b&gt;). Ця інформація може бути корисною для розробника, якщо Ви знайдете помилку.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="470"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Фильтр для звітів SMPlayer</translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.cpp" line="454"/>
-        <source>This option allows to filter the smplayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
-        <translation type="obsolete">Ця опція дозволяє фільтрувати повідомлення smplayer, які будуть збережені у звіті. Тут Ви можете написати будь-який регулярний вираз.&lt;br&gt;Наприклад: &lt;i&gt;^Core::.*&lt;/i&gt; відобразить лише рядки, що починаються з &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="83"/>
@@ -3839,11 +3772,6 @@ The drop-down lists may provide already made regular expression for several lang
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="112"/>
-        <source>Output drivers</source>
-        <translation type="obsolete">Пристрої виводу</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="112"/>
         <source>Media settings</source>
         <translation>Налаштування медіа</translation>
     </message>
@@ -3883,29 +3811,14 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Виконуваний файл MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="635"/>
-        <source>Here you must specify the mplayer executable that smplayer will use.&lt;br&gt;smplayer requires at least mplayer 1.0rc1 (svn recommended).&lt;br&gt;&lt;b&gt;If this setting is wrong, smplayer won&apos;t be able to play anything!&lt;/b&gt;</source>
-        <translation type="obsolete">Тут Вам потрібно вказати виконуваний файл mplayer, який SMPlayer буде використовувати.&lt;br&gt;SMPlayer потрібна версія mplayer щонайменше 1.0rc1 (рекомендується з svn).&lt;br&gt;&lt;b&gt;Якщо ці налаштування неправильні, SMPlayer не зможе нічого відкрити!&lt;/b&gt;</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="638"/>
         <source>Screenshots folder</source>
         <translation>Тека знімків екрану</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="640"/>
-        <source>Here you can specify a folder where the screenshots taken by smplayer will be stored. If this field is empty the screenshot feature will be disabled.</source>
-        <translation type="obsolete">Тут Ви можете вказати теку, куди будуть зберігатися знімки екрану, зроблені SMPlayer. Якщо це поле буде пустим, можливість буде вимкнена.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="665"/>
         <source>Video output driver</source>
         <translation>Пристрій виведення відео</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="644"/>
-        <source>Select the video output driver. Usually xv (linux) and directx (windows) provide the best performance.</source>
-        <translation type="obsolete">Виберіть драйвер виведення відео. Використання xv (linux) та directx (windows) забезпечує найкращу швидкодію.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="725"/>
@@ -3923,34 +3836,14 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Запам&apos;ятати налаштування</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="652"/>
-        <source>Usually smplayer will remember the settings for each file you play (audio track selected, volume, filters...). Uncheck this option if you don&apos;t like this feature.</source>
-        <translation type="obsolete">Звичайно SMPlayer запам&apos;ятовує налаштування для кожного файлу, який ви відкриваєте (вибрана звукова доріжка, гучність, фільтри і т.п.). Вимкніть це, якщо Вам таке не потрібно.</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="656"/>
-        <source>If you check this option, smplayer will play all files from the beginning.</source>
-        <translation type="obsolete">Якщо ви виберете цю опцію, SMPlayer буде відтворювати всі файли з початку.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="792"/>
         <source>Preferred audio language</source>
         <translation>Бажана мова аудіо</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="781"/>
-        <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Тут Ви можете вказати мову для звукових доріжок. При знаходженні звукових доріжок SMPlayer буде намагатися використовувати вказану Вами мову.&lt;br&gt;Це працює тільки для форматів, які надають інформацію про мови для звукових доріжок, такі як DVD чи mkv файли.&lt;br&gt;Приймаються регулярні вирази. Приклад: &lt;b&gt;es|esp|spa&lt;/b&gt; призначить звукову доріжку, яка відповідатиме &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; чи &lt;i&gt;spa&lt;/i&gt;.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="802"/>
         <source>Preferred subtitle language</source>
         <translation>Бажана мова субтитрів</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="791"/>
-        <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, smplayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Тут Ви можете вказати мову для звукових субтитрів. При знаходженні субтитрів для SMPlayer буде намагатись використати бажану для вас мову.&lt;br&gt;Це працює тільки для форматів, які надають інформацію про мови для субтитрів, такі як DVD чи mkv файли.&lt;br&gt;Приймаються регулярні вирази. Приклад: &lt;b&gt;es|esp|spa&lt;/b&gt; призначить звукову доріжку, яка відповідатиме &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; чи &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="690"/>
@@ -3966,11 +3859,6 @@ The drop-down lists may provide already made regular expression for several lang
         <location filename="../prefgeneral.cpp" line="714"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>Якщо Ви виберете цю опцію, всі відеофайли будуть стартувати на весь екран.</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="716"/>
-        <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This option works only in X11 and Windows.</source>
-        <translation type="obsolete">Виберіть цю опцію для вимкнення зберігача екрану при відтворенні.&lt;br&gt;Зберігач екрану буде запущено знову після зупинки.&lt;br&gt;&lt;b&gt;Примітка:&lt;/b&gt; Ця опція працює тільки для X11 та Windows.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="758"/>
@@ -4021,11 +3909,6 @@ The drop-down lists may provide already made regular expression for several lang
         <location filename="../prefgeneral.ui" line="93"/>
         <source>&amp;Folder for storing screenshots:</source>
         <translation>&amp;Тека для збереження знімків екрану:</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="149"/>
-        <source>V&amp;ideo:</source>
-        <translation type="obsolete">В&amp;ідео:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1024"/>
@@ -4080,12 +3963,12 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="696"/>
         <source>Direct rendering</source>
-        <translation>Прямий рендерінг</translation>
+        <translation>Пряме відтворення</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="699"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; May cause OSD/SUB corruption!</source>
-        <translation>Якщо увімкнено, активується прямий рендерінг (підтримується не всіми кодеками та пристроями відеовиведення)&lt;br&gt;&lt;b&gt;УВАГА:&lt;/b&gt; Може пошкодити екранну індикацію та субтитри!</translation>
+        <translation>Якщо увімкнено, активується пряме відтворення (підтримується не всіми кодеками та пристроями відеовиведення)&lt;br&gt;&lt;b&gt;УВАГА:&lt;/b&gt; Може пошкодити екранну індикацію та субтитри!</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="701"/>
@@ -4095,7 +3978,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="439"/>
         <source>D&amp;irect rendering</source>
-        <translation>П&amp;рямий рендерінг</translation>
+        <translation>П&amp;ряме відтворення</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="446"/>
@@ -4105,7 +3988,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="704"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
-        <translation>Подвійна буферизація виправляє мерехтіння тримаючи два фрейми в пам&apos;яті, і відображає один, декодує інший. Якщо вимкнено, може негативно вплинути на екранну індикацію, але як правило припиняє її мерехтіння.</translation>
+        <translation>Подвійна буферизація виправляє мерехтіння тримаючи два кадри в пам&apos;яті, і відображає один, декодує інший. Якщо вимкнено, може негативно вплинути на екранну індикацію, але, як правило, припиняє її мерехтіння.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="285"/>
@@ -4150,17 +4033,12 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="185"/>
         <source>&amp;Pause when minimized</source>
-        <translation>&amp;Пауза при мінімізації</translation>
+        <translation>&amp;Призупинити при мінімізації</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="657"/>
         <source>Pause when minimized</source>
-        <translation>Пауза при мінімізації</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="665"/>
-        <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, play will be resumed.</source>
-        <translation type="obsolete">Якщо це опція увімкнена, файл буде призупинений, коли головне вікно сховане. Коли вікно відновиться, відтворення буде відновлене.</translation>
+        <translation>Призупинити при мінімізації</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="674"/>
@@ -4299,11 +4177,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Змініть гучність безпосередньо перед відтворенням</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="751"/>
-        <source>If this option is checked the initial volume will be set by using the &lt;i&gt;-volume&lt;/i&gt; option in MPlayer.&lt;br&gt; &lt;b&gt;WARNING: THE OFFICIAL MPLAYER DOESN&apos;T HAVE THAT &lt;i&gt;-volume&lt;/i&gt; OPTION, YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON&apos;T PLAY ANYTHING.&lt;/b&gt;</source>
-        <translation type="obsolete">При увімкненні цієї опції початкова гучність буде встановлена при використанні опції &lt;i&gt;-volume&lt;/i&gt; у MPlayer.&lt;br&gt; &lt;b&gt;УВАГА: ОФІЦІЙНИЙ MPLAYER НЕ МАЄ ОПЦІЇ &lt;i&gt;-volume&lt;/i&gt; , ПОТРІБЕН З ЛАТКАМИ, ІНАКШЕ MPLAYER ЧЕРЕЗ ПОМИЛКУ НІЧОГО НЕ ЗАПУСТИТЬ.&lt;/b&gt;</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="209"/>
         <source>&amp;Video</source>
         <translation>&amp;Відео</translation>
@@ -4431,7 +4304,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="710"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
-        <translation>Ввімкнути/вимкнути промальовування відео смугами, висотою 16 пікселів. Якщо вимкнено, то цілий фрейм малюється за раз. Може бути швидше або повільніше в залежності відеокарти та наявного кешу. Дїє лише з кодеками libmpeg2 та libavcodec.</translation>
+        <translation>Ввімкнути/вимкнути промальовування відео смугами, висотою 16 пікселів. Якщо вимкнено, то цілий кадр малюється за раз. Може бути швидше або повільніше, в залежності відеокарти та наявного кешу. Діє лише з кодеками libmpeg2 та libavcodec.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="737"/>
@@ -4664,7 +4537,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="57"/>
         <source>Pause</source>
-        <translation>Пауза</translation>
+        <translation>Призупинка</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="59"/>
@@ -4699,7 +4572,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="78"/>
         <source>Frame counter</source>
-        <translation>Лічильник фреймів</translation>
+        <translation>Лічильник кадрів</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="75"/>
@@ -4724,7 +4597,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="58"/>
         <source>Pause / Frame step</source>
-        <translation>Призупинити / Крок фрейму</translation>
+        <translation>Призупинити / Крок кадра</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="74"/>
@@ -4745,11 +4618,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinput.cpp" line="134"/>
         <source>Change speed</source>
         <translation>Змінити швидкість</translation>
-    </message>
-    <message>
-        <location filename="../prefinput.cpp" line="81"/>
-        <source>Show equalizer</source>
-        <translation type="obsolete">Показати еквалайзер</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="77"/>
@@ -5290,7 +5158,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="243"/>
         <source>Allow frame drop</source>
-        <translation>Допускати випадання фреймів</translation>
+        <translation>Допускати випадання кадрів</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="237"/>
@@ -5310,17 +5178,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="244"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
-        <translation>Пропускати деякі фрейми для забезпечення A/V синхронізації на повільних системах.</translation>
+        <translation>Пропускати деякі кадри для забезпечення A/V синхронізації на повільних системах.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="246"/>
         <source>Allow hard frame drop</source>
-        <translation>Допускати жорстке випадання фреймів</translation>
+        <translation>Допускати жорстке випадання кадрів</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="248"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
-        <translation>Збільшене випадання фреймів (декодуванняз переривами). Призводить до спотворення картинки!</translation>
+        <translation>Збільшене випадання кадрів (декодування з перервами). Призводить до спотворення зображення!</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="272"/>
@@ -5335,12 +5203,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="136"/>
         <source>&amp;Allow frame drop</source>
-        <translation>&amp;Допускати випадання фреймів</translation>
+        <translation>&amp;Дозволити випадання кадрів</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="143"/>
         <source>Allow &amp;hard frame drop (can lead to image distortion)</source>
-        <translation>Допускати &amp;жорстке випадання фреймів (може спотворити картинку)</translation>
+        <translation>Дозволитии &amp;жорстке випадання кадрів (може спотворити зображення)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="249"/>
@@ -5465,7 +5333,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="261"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation>Ця опція дозволяє пропустити фільтр петлі (він же deblocking) при декодуванні H.264. Оскільки фільтрація фреймів підтримується для декодування залежних фреймів, це може погіршити якість ніж без виконання deblocking, наприклад MPEG-2 відео. Принаймні, для високого бітрейту HDTV це забезпечує більше прискорення без видимого погіршення якості.</translation>
+        <translation>Ця опція дозволяє пропустити фільтр петлі (він же deblocking) при декодуванні H.264. Оскільки фільтрація кадрів підтримується для декодування залежних кадрів, це може погіршити якість ніж без виконання deblocking, наприклад MPEG-2 відео. Принаймні, для високого бітрейту HDTV це забезпечує більше прискорення без видимого погіршення якості.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="262"/>
@@ -5686,12 +5554,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="711"/>
         <source>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</source>
-        <translation>Нова бібліотека SSA/ASS забезпечує хорошу стилізацію субтитрів для зовнішніх файлів субтитрів SSA/ASS та треків Matroska. Але це також буде використовуватись для рендерінгу файлів інших форматів, таких як SUB та SRT.</translation>
+        <translation>Нова бібліотека SSA/ASS забезпечує хорошу стилізацію субтитрів для зовнішніх файлів субтитрів SSA/ASS та доріжок Matroska. Але це також буде використовуватись для відтворення файлів інших форматів, таких як SUB та SRT.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="831"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
-        <translation>Тут Ви можете вказати стилі для субтитрів SSA/ASS. Також може використовуватися для точного налаштування відображення субтитрів SRT і SUB библиотекою SSA/ASS. Приклад: &lt;b&gt; Bold=1, Outline=2, Shadow=4 &lt;/b&gt;</translation>
+        <translation>Тут Ви можете вказати стилі для субтитрів SSA/ASS. Також може використовуватися для точного налаштування відтворення субтитрів SRT і SUB бібліотекою SSA/ASS. Приклад: &lt;b&gt; Bold=1, Outline=2, Shadow=4 &lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="407"/>
@@ -5751,7 +5619,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="721"/>
         <source>&amp;Use SSA/ASS library for subtitle rendering</source>
-        <translation>Використовувати бібліотеку SSA/ASS для &amp;рендерингу субтитрів</translation>
+        <translation>Використовувати бібліотеку SSA/ASS для &amp;відтворення субтитрів</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="769"/>
@@ -5839,11 +5707,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Шрифт TTF</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="361"/>
-        <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in &lt;i&gt;%1&lt;/i&gt;.</source>
-        <translation type="obsolete">Тут Ви можете вказати ttf шрифт для використання у субтитрах. Звичайно багато шрифтів Ви знайдете в &lt;i&gt;%1&lt;/i&gt;.</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="429"/>
         <source>System font</source>
         <translation>Системний шрифт</translation>
@@ -5871,7 +5734,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="449"/>
         <source>Use SSA/ASS library for subtitle rendering</source>
-        <translation>Використовувати бібліотеку SSA/ASS для рендерінгу субтитрів</translation>
+        <translation>Використовувати бібліотеку SSA/ASS для відтворення субтитрів</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="451"/>
@@ -5941,245 +5804,245 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="505"/>
         <source>Outline</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="467"/>
-        <source>Select the font for the subtitles.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="470"/>
-        <source>The size in pixels.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="472"/>
-        <source>Bold</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="473"/>
-        <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Обрис</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="475"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Курсив</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="476"/>
-        <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="484"/>
-        <source>Left margin</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="485"/>
-        <source>Specifies the left margin in pixels.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="487"/>
-        <source>Right margin</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="488"/>
-        <source>Specifies the right margin in pixels.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="490"/>
-        <source>Vertical margin</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="491"/>
-        <source>Specifies the vertical margin in pixels.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="493"/>
-        <source>Horizontal alignment</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="495"/>
-        <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="497"/>
-        <source>Vertical alignment</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="499"/>
-        <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="501"/>
-        <source>Border style</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="503"/>
-        <source>Specifies the border style. Possible values: outline and opaque box.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="509"/>
-        <source>Shadow</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="930"/>
-        <source>Si&amp;ze:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="972"/>
-        <source>Bol&amp;d</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="979"/>
-        <source>&amp;Italic</source>
-        <translation type="unfinished"></translation>
+        <location filename="../prefsubtitles.cpp" line="472"/>
+        <source>Bold</source>
+        <translation>Жирний</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="991"/>
         <source>Colors</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="1009"/>
-        <source>&amp;Text:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="1029"/>
-        <source>&amp;Border:</source>
-        <translation type="unfinished"></translation>
+        <translation>Кольори</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1052"/>
         <source>Margins</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="1070"/>
-        <source>L&amp;eft:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="1086"/>
-        <source>&amp;Right:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="1102"/>
-        <source>Verti&amp;cal:</source>
-        <translation type="unfinished"></translation>
+        <translation>Поля</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1134"/>
         <source>Alignment</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="1152"/>
-        <source>&amp;Horizontal:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="1168"/>
-        <source>&amp;Vertical:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="1189"/>
-        <source>Border st&amp;yle:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="1215"/>
-        <source>&amp;Outline:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="1238"/>
-        <source>Shado&amp;w:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="1257"/>
-        <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
-        <translation type="unfinished"></translation>
+        <translation>Вирівнювання</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="115"/>
         <source>Left</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ліворуч</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="116"/>
         <source>Centered</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>Посередині</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="117"/>
         <source>Right</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>Праворуч</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="122"/>
         <source>Bottom</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished">Низ</translation>
+        <translation>Знизу</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="123"/>
         <source>Middle</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>Посередині</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="124"/>
         <source>Top</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished">Верх</translation>
+        <translation>Зверху</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="129"/>
         <source>Outline</source>
         <comment>border style</comment>
-        <translation type="unfinished"></translation>
+        <translation>Обрис</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="130"/>
         <source>Opaque box</source>
         <comment>border style</comment>
-        <translation type="unfinished"></translation>
+        <translation>непрозорий прямокутник</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="467"/>
+        <source>Select the font for the subtitles.</source>
+        <translation>Виберіть шрифт для субтитрів.</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="470"/>
+        <source>The size in pixels.</source>
+        <translation>Розмір в пікселях.</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="473"/>
+        <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
+        <translation>Якщо вибрано, текст буде відображено &lt;b&gt;жирним&lt;/b&gt;.</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="476"/>
+        <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
+        <translation>Якщо вибрано, текст буде відображено &lt;b&gt;курсивом&lt;/b&gt;.</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="484"/>
+        <source>Left margin</source>
+        <translation>Відступ ліворуч</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="485"/>
+        <source>Specifies the left margin in pixels.</source>
+        <translation>Визначає відступ ліворуч в пікселях.</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="487"/>
+        <source>Right margin</source>
+        <translation>Відступ праворуч</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="488"/>
+        <source>Specifies the right margin in pixels.</source>
+        <translation>Визначає відступ праворуч в пікселях.</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="490"/>
+        <source>Vertical margin</source>
+        <translation>Відступ по вертикалі</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="491"/>
+        <source>Specifies the vertical margin in pixels.</source>
+        <translation>Визначає відступ по вертикалі в пікселях.</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="493"/>
+        <source>Horizontal alignment</source>
+        <translation>Вирівнювання по горизонталі</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="495"/>
+        <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
+        <translation>Визначає вирівнювання по горизонталі. Можливі значення: ліворуч, посередині, праворуч.</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="497"/>
+        <source>Vertical alignment</source>
+        <translation>Вирівнювання по вертикалі</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="499"/>
+        <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
+        <translation>Визначає вирівнювання по вертикалі. Можливі значення: знизу, посередині, зверху.</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="501"/>
+        <source>Border style</source>
+        <translation>Стиль обрамлення</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="503"/>
+        <source>Specifies the border style. Possible values: outline and opaque box.</source>
+        <translation>Визначає стиль обрамлення. Можливі значення: обрис, непрозорий прямокутник.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="507"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо стиль обрамлення встановлений як &lt;i&gt;обрис&lt;/i&gt;, ця опція визначає ширину обрамлення навкруги тексту в пікселях.</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="509"/>
+        <source>Shadow</source>
+        <translation>Тінь</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="511"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо стиль обрамлення встановлений як &lt;i&gt;обрис&lt;/i&gt;, ця опція визначає глибину тіні, що падає за текстом в пікселях.</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="930"/>
+        <source>Si&amp;ze:</source>
+        <translation>&amp;Розмір:</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="972"/>
+        <source>Bol&amp;d</source>
+        <translation>&amp;Жирний</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="979"/>
+        <source>&amp;Italic</source>
+        <translation>&amp;Курсив</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="1009"/>
+        <source>&amp;Text:</source>
+        <translation>&amp;Текст:</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="1029"/>
+        <source>&amp;Border:</source>
+        <translation>&amp;Обрамлення:</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="1070"/>
+        <source>L&amp;eft:</source>
+        <translation>&amp;Ліворуч:</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="1086"/>
+        <source>&amp;Right:</source>
+        <translation>&amp;Праворуч:</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="1102"/>
+        <source>Verti&amp;cal:</source>
+        <translation>По &amp;вертикалі:</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="1152"/>
+        <source>&amp;Horizontal:</source>
+        <translation>По &amp;горизонталі:</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="1168"/>
+        <source>&amp;Vertical:</source>
+        <translation>По вер&amp;тикалі:</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="1189"/>
+        <source>Border st&amp;yle:</source>
+        <translation>&amp;Стиль обрамлення:</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="1215"/>
+        <source>&amp;Outline:</source>
+        <translation>Об&amp;рис:</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="1238"/>
+        <source>Shado&amp;w:</source>
+        <translation>&amp;Тінь:</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="1257"/>
+        <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
+        <translation>Наступна опція дозволяє вам визначити стиль, що буде використовуватися в нестилізованих субтитрах (srt, sub...).</translation>
     </message>
 </context>
 <context>
