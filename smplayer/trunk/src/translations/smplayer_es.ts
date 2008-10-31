@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="es">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -5933,245 +5934,245 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="505"/>
         <source>Outline</source>
-        <translation type="unfinished"></translation>
+        <translation>Contorno</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="467"/>
         <source>Select the font for the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecciona el tipo de letra para los subtítulos.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="470"/>
         <source>The size in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>El tamaño en píxeles.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="472"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Negrita</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="473"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si se activa, el texto se mostrará en &lt;b&gt;negrita&lt;/b&gt;.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="475"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Cursiva</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="476"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si se activa, el texto se mostrará en &lt;i&gt;cursiva&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="484"/>
         <source>Left margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Margen izquierdo</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="485"/>
         <source>Specifies the left margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Especifica el margen izquierdo en píxeles.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="487"/>
         <source>Right margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Margen derecho</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="488"/>
         <source>Specifies the right margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Especifica el margen derecho en píxeles.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="490"/>
         <source>Vertical margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Margen vertical</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="491"/>
         <source>Specifies the vertical margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Especifica el margen vertical en píxeles.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="493"/>
         <source>Horizontal alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Alineación horizontal</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
-        <translation type="unfinished"></translation>
+        <translation>Especifica la alineación horizontal. Los posibles valores son izquierda, centrado y derecha.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="497"/>
         <source>Vertical alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Alineación vertical</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="499"/>
         <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
-        <translation type="unfinished"></translation>
+        <translation>Especifica la alineación vertical. Los posibles valores son abajo, en medio y arriba.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Border style</source>
-        <translation type="unfinished"></translation>
+        <translation>Estilo del borde</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="503"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
-        <translation type="unfinished"></translation>
+        <translation>Especifica el estilo del borde. Posibles valores: contorno y opaco.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="507"/>
         <source>If border style is se to outline, this specifies the width of the outline around the text in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si el estilo del borde está establecido en contorno, esta opción especifica el ancho del contorno alrededor del text en píxeles.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="509"/>
         <source>Shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>Sombra</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="511"/>
         <source>If border style is se to outline, this specifies the depth of the drop shadow behind the text in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si el estilo del borde está establecido en contorno, esta opción especifica la profundidad de la sombra tras el texto en píxeles.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="930"/>
         <source>Si&amp;ze:</source>
-        <translation type="unfinished"></translation>
+        <translation>T&amp;amaño:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="972"/>
         <source>Bol&amp;d</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Negrita</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="979"/>
         <source>&amp;Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Cursiva</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="991"/>
         <source>Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Colores</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1009"/>
         <source>&amp;Text:</source>
-        <translation type="unfinished"></translation>
+        <translation>T&amp;exto:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1029"/>
         <source>&amp;Border:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Borde:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1052"/>
         <source>Margins</source>
-        <translation type="unfinished"></translation>
+        <translation>Márgenes</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1070"/>
         <source>L&amp;eft:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Izquierdo:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1086"/>
         <source>&amp;Right:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Derecho:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1102"/>
         <source>Verti&amp;cal:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ve&amp;rtical:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1134"/>
         <source>Alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Alineación</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1152"/>
         <source>&amp;Horizontal:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Horizontal:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1168"/>
         <source>&amp;Vertical:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Vertical:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1189"/>
         <source>Border st&amp;yle:</source>
-        <translation type="unfinished"></translation>
+        <translation>Esti&amp;lo del borde:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1215"/>
         <source>&amp;Outline:</source>
-        <translation type="unfinished"></translation>
+        <translation>C&amp;ontorno:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1238"/>
         <source>Shado&amp;w:</source>
-        <translation type="unfinished"></translation>
+        <translation>So&amp;mbra:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1257"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
-        <translation type="unfinished"></translation>
+        <translation>Las siguientes opciones permiten definir el estilo que se usará para subtítulos sin estilo (srt, sub...).</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="115"/>
         <source>Left</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>Izquierda</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="116"/>
         <source>Centered</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>Centrado</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="117"/>
         <source>Right</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>Derecha</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="122"/>
         <source>Bottom</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished">Abajo</translation>
+        <translation>Abajo</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="123"/>
         <source>Middle</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>En medio</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="124"/>
         <source>Top</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished">Arriba</translation>
+        <translation>Arriba</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="129"/>
         <source>Outline</source>
         <comment>border style</comment>
-        <translation type="unfinished"></translation>
+        <translation>Contorno</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="130"/>
         <source>Opaque box</source>
         <comment>border style</comment>
-        <translation type="unfinished"></translation>
+        <translation>Opaco</translation>
     </message>
 </context>
 <context>
