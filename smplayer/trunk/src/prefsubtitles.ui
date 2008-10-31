@@ -927,7 +927,10 @@
                <item>
                 <widget class="QLabel" name="label" >
                  <property name="text" >
-                  <string>Size:</string>
+                  <string>Si&amp;ze:</string>
+                 </property>
+                 <property name="buddy" >
+                  <cstring>style_size_spin</cstring>
                  </property>
                 </widget>
                </item>
@@ -966,14 +969,14 @@
                <item>
                 <widget class="QCheckBox" name="style_bold_check" >
                  <property name="text" >
-                  <string>Bold</string>
+                  <string>Bol&amp;d</string>
                  </property>
                 </widget>
                </item>
                <item>
                 <widget class="QCheckBox" name="style_italic_check" >
                  <property name="text" >
-                  <string>Italic</string>
+                  <string>&amp;Italic</string>
                  </property>
                 </widget>
                </item>
@@ -1003,10 +1006,13 @@
              <item row="0" column="0" >
               <widget class="QLabel" name="label_2" >
                <property name="text" >
-                <string>Text:</string>
+                <string>&amp;Text:</string>
                </property>
                <property name="alignment" >
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="buddy" >
+                <cstring>style_text_color_button</cstring>
                </property>
               </widget>
              </item>
@@ -1020,10 +1026,13 @@
              <item row="1" column="0" >
               <widget class="QLabel" name="label_3" >
                <property name="text" >
-                <string>Border:</string>
+                <string>&amp;Border:</string>
                </property>
                <property name="alignment" >
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="buddy" >
+                <cstring>style_border_color_button</cstring>
                </property>
               </widget>
              </item>
@@ -1058,10 +1067,13 @@
              <item row="0" column="0" >
               <widget class="QLabel" name="label_7" >
                <property name="text" >
-                <string>Left:</string>
+                <string>L&amp;eft:</string>
                </property>
                <property name="alignment" >
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="buddy" >
+                <cstring>style_marginl_spin</cstring>
                </property>
               </widget>
              </item>
@@ -1071,10 +1083,13 @@
              <item row="0" column="2" >
               <widget class="QLabel" name="label_8" >
                <property name="text" >
-                <string>Right:</string>
+                <string>&amp;Right:</string>
                </property>
                <property name="alignment" >
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="buddy" >
+                <cstring>style_marginr_spin</cstring>
                </property>
               </widget>
              </item>
@@ -1084,10 +1099,13 @@
              <item row="1" column="0" >
               <widget class="QLabel" name="label_9" >
                <property name="text" >
-                <string>Vertical:</string>
+                <string>Verti&amp;cal:</string>
                </property>
                <property name="alignment" >
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="buddy" >
+                <cstring>style_marginv_spin</cstring>
                </property>
               </widget>
              </item>
@@ -1131,10 +1149,13 @@
              <item row="0" column="0" >
               <widget class="QLabel" name="label_4" >
                <property name="text" >
-                <string>Horizontal:</string>
+                <string>&amp;Horizontal:</string>
                </property>
                <property name="alignment" >
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="buddy" >
+                <cstring>style_alignment_combo</cstring>
                </property>
               </widget>
              </item>
@@ -1144,10 +1165,13 @@
              <item row="1" column="0" >
               <widget class="QLabel" name="label_6" >
                <property name="text" >
-                <string>Vertical:</string>
+                <string>&amp;Vertical:</string>
                </property>
                <property name="alignment" >
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="buddy" >
+                <cstring>style_valignment_combo</cstring>
                </property>
               </widget>
              </item>
@@ -1162,7 +1186,10 @@
             <item>
              <widget class="QLabel" name="label_5" >
               <property name="text" >
-               <string>Border style:</string>
+               <string>Border st&amp;yle:</string>
+              </property>
+              <property name="buddy" >
+               <cstring>style_border_style_combo</cstring>
               </property>
              </widget>
             </item>
@@ -1185,7 +1212,10 @@
             <item>
              <widget class="QLabel" name="style_outline_label" >
               <property name="text" >
-               <string>Outline:</string>
+               <string>&amp;Outline:</string>
+              </property>
+              <property name="buddy" >
+               <cstring>style_outline_spin</cstring>
               </property>
              </widget>
             </item>
@@ -1205,7 +1235,10 @@
             <item>
              <widget class="QLabel" name="style_shadow_label" >
               <property name="text" >
-               <string>Shadow:</string>
+               <string>Shado&amp;w:</string>
+              </property>
+              <property name="buddy" >
+               <cstring>style_shadow_spin</cstring>
               </property>
              </widget>
             </item>
