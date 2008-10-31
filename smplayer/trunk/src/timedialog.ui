@@ -65,11 +65,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QTimeEdit" name="time_edit" >
-       <property name="displayFormat" >
-        <string>H:mm:ss</string>
-       </property>
-      </widget>
+      <widget class="QTimeEdit" name="time_edit" />
      </item>
     </layout>
    </item>
