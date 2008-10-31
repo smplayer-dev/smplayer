@@ -450,6 +450,7 @@ void PrefSubtitles::createHelp() {
         tr("Check this option to activate the SSA/ASS library. It provides "
            "nicer subtitles, so it's a good idea to do it.") );
 
+#if !USE_ASS_STYLES
 	setWhatsThis(colorButton, tr("Text color"), 
         tr("Select the color for the text of the subtitles.") );
 
@@ -461,6 +462,55 @@ void PrefSubtitles::createHelp() {
            "It can be also used for fine-tuning the rendering of SRT and SUB "
            "subtitles by the SSA/ASS library. "
            "Example: <b>Bold=1,Outline=2,Shadow=4</b>"));
+#else
+	setWhatsThis(style_font_combo, tr("Font"), 
+		tr("Select the font for the subtitles.") );
+
+	setWhatsThis(style_size_spin, tr("Size"), 
+		tr("The size in pixels.") );
+
+	setWhatsThis(style_bold_check, tr("Bold"), 
+		tr("If checked, the text will be displayed in <b>bold</b>.") ); 
+
+	setWhatsThis(style_italic_check, tr("Italic"), 
+		tr("If checked, the text will be displayed in <i>italic</i>.") ); 
+
+	setWhatsThis(style_text_color_button, tr("Text color"), 
+        tr("Select the color for the text of the subtitles.") );
+
+	setWhatsThis(style_border_color_button, tr("Border color"), 
+        tr("Select the color for the border of the subtitles.") );
+
+	setWhatsThis(style_marginl_spin, tr("Left margin"), 
+        tr("Specifies the left margin in pixels.") );
+
+	setWhatsThis(style_marginr_spin, tr("Right margin"), 
+        tr("Specifies the right margin in pixels.") );
+
+	setWhatsThis(style_marginv_spin, tr("Vertical margin"), 
+        tr("Specifies the vertical margin in pixels.") );
+
+	setWhatsThis(style_alignment_combo, tr("Horizontal alignment"), 
+        tr("Specifies the horizontal alignment. Possible values are "
+           "left, centered and right.") );
+
+	setWhatsThis(style_valignment_combo, tr("Vertical alignment"), 
+        tr("Specifies the vertical alignment. Possible values: "
+           "bottom, middle and top.") );
+
+	setWhatsThis(style_border_style_combo, tr("Border style"), 
+        tr("Specifies the border style. Possible values: outline "
+           "and opaque box.") );
+
+	setWhatsThis(style_outline_spin, tr("Outline"), 
+        tr("If border style is se to outline, this specifies "
+           "the width of the outline around the text in pixels.") );
+
+	setWhatsThis(style_shadow_spin, tr("Shadow"), 
+        tr("If border style is se to outline, this specifies "
+           "the depth of the drop shadow behind the text in pixels.") );
+
+#endif
 }
 
 #include "moc_prefsubtitles.cpp"
