@@ -6029,18 +6029,8 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="507"/>
-        <source>If border style is se to outline, this specifies the width of the outline around the text in pixels.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="509"/>
         <source>Shadow</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="511"/>
-        <source>If border style is se to outline, this specifies the depth of the drop shadow behind the text in pixels.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6174,6 +6164,16 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <location filename="../prefsubtitles.cpp" line="130"/>
         <source>Opaque box</source>
         <comment>border style</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="507"/>
+        <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="511"/>
+        <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6469,11 +6469,6 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <location filename="../timedialog.ui" line="57"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Skocz do:</translation>
-    </message>
-    <message>
-        <location filename="../timedialog.ui" line="70"/>
-        <source>H:mm:ss</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
