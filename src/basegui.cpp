@@ -3324,8 +3324,8 @@ void BaseGui::displayWarningAboutOldMplayer() {
 
 		pref->reported_mplayer_is_old = true;
 	}
-	else
-	statusBar()->showMessage( tr("Using an old MPlayer, please update it"), 10000 );
+	//else
+	//statusBar()->showMessage( tr("Using an old MPlayer, please update it"), 10000 );
 }
 #endif
 
