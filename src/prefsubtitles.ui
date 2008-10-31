@@ -6,7 +6,7 @@
     <x>0</x>
     <y>0</y>
     <width>568</width>
-    <height>525</height>
+    <height>625</height>
    </rect>
   </property>
   <property name="windowTitle" >
@@ -897,7 +897,7 @@
           <property name="bottomMargin" >
            <number>4</number>
           </property>
-          <item row="0" column="0" >
+          <item row="1" column="0" >
            <widget class="QGroupBox" name="groupBox_4" >
             <property name="title" >
              <string>Font</string>
@@ -985,7 +985,7 @@
             </layout>
            </widget>
           </item>
-          <item row="0" column="1" >
+          <item row="1" column="1" >
            <widget class="QGroupBox" name="groupBox_7" >
             <property name="title" >
              <string>Colors</string>
@@ -1046,7 +1046,7 @@
             </layout>
            </widget>
           </item>
-          <item row="1" column="0" >
+          <item row="2" column="0" >
            <widget class="QGroupBox" name="groupBox_8" >
             <property name="title" >
              <string>Margins</string>
@@ -1128,7 +1128,7 @@
             </layout>
            </widget>
           </item>
-          <item row="1" column="1" >
+          <item row="2" column="1" >
            <widget class="QGroupBox" name="groupBox_9" >
             <property name="title" >
              <string>Alignment</string>
@@ -1181,7 +1181,7 @@
             </layout>
            </widget>
           </item>
-          <item row="2" column="0" colspan="2" >
+          <item row="3" column="0" colspan="2" >
            <layout class="QHBoxLayout" >
             <item>
              <widget class="QLabel" name="label_5" >
@@ -1250,6 +1250,16 @@
              </widget>
             </item>
            </layout>
+          </item>
+          <item row="0" column="0" colspan="2" >
+           <widget class="QLabel" name="label_10" >
+            <property name="text" >
+             <string>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</string>
+            </property>
+            <property name="wordWrap" >
+             <bool>true</bool>
+            </property>
+           </widget>
           </item>
          </layout>
         </widget>
