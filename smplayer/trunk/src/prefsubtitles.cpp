@@ -503,11 +503,11 @@ void PrefSubtitles::createHelp() {
            "and opaque box.") );
 
 	setWhatsThis(style_outline_spin, tr("Outline"), 
-        tr("If border style is se to outline, this specifies "
+        tr("If border style is set to <i>outline</i>, this option specifies "
            "the width of the outline around the text in pixels.") );
 
 	setWhatsThis(style_shadow_spin, tr("Shadow"), 
-        tr("If border style is se to outline, this specifies "
+        tr("If border style is set to <i>outline</i>, this option specifies "
            "the depth of the drop shadow behind the text in pixels.") );
 
 #endif
