@@ -5906,245 +5906,245 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="505"/>
         <source>Outline</source>
-        <translation type="unfinished"></translation>
+        <translation>アウトライン</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="467"/>
         <source>Select the font for the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>字幕のフォントを選択します。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="470"/>
         <source>The size in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>ピクセルでのサイズです。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="472"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>太字</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="473"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>チェックされている場合、テキストは&lt;b&gt;太字&lt;/b&gt;で表示されます。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="475"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>斜体</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="476"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>チェックされている場合、テキストは&lt;i&gt;斜体&lt;/i&gt;で表示されます。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="484"/>
         <source>Left margin</source>
-        <translation type="unfinished"></translation>
+        <translation>左の余白</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="485"/>
         <source>Specifies the left margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>ピクセルで左の余白を指定します。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="487"/>
         <source>Right margin</source>
-        <translation type="unfinished"></translation>
+        <translation>右の余白</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="488"/>
         <source>Specifies the right margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>ピクセルで右の余白を指定します。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="490"/>
         <source>Vertical margin</source>
-        <translation type="unfinished"></translation>
+        <translation>垂直の余白</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="491"/>
         <source>Specifies the vertical margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>ピクセルで垂直の余白を指定します。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="493"/>
         <source>Horizontal alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>水平の配置</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
-        <translation type="unfinished"></translation>
+        <translation>水平の配置を指定します。可能な値は左、中央および右です。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="497"/>
         <source>Vertical alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>垂直の配置</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="499"/>
         <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
-        <translation type="unfinished"></translation>
+        <translation>垂直の配置を指定します。可能な値: 下、中央および上。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Border style</source>
-        <translation type="unfinished"></translation>
+        <translation>枠のスタイル</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="503"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
-        <translation type="unfinished"></translation>
+        <translation>枠のスタイルを指定します。可能な値: アウトラインおよび不透明ボックス。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="509"/>
         <source>Shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>影</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="930"/>
         <source>Si&amp;ze:</source>
-        <translation type="unfinished"></translation>
+        <translation>サイズ(&amp;Z):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="972"/>
         <source>Bol&amp;d</source>
-        <translation type="unfinished"></translation>
+        <translation>太字(&amp;D)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="979"/>
         <source>&amp;Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>斜体(&amp;I)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="991"/>
         <source>Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>色</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1009"/>
         <source>&amp;Text:</source>
-        <translation type="unfinished"></translation>
+        <translation>テキスト(&amp;T):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1029"/>
         <source>&amp;Border:</source>
-        <translation type="unfinished"></translation>
+        <translation>枠(&amp;B):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1052"/>
         <source>Margins</source>
-        <translation type="unfinished"></translation>
+        <translation>余白</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1070"/>
         <source>L&amp;eft:</source>
-        <translation type="unfinished"></translation>
+        <translation>左(&amp;E):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1086"/>
         <source>&amp;Right:</source>
-        <translation type="unfinished"></translation>
+        <translation>右(&amp;R):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1102"/>
         <source>Verti&amp;cal:</source>
-        <translation type="unfinished"></translation>
+        <translation>垂直(&amp;C):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1134"/>
         <source>Alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>配置</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1152"/>
         <source>&amp;Horizontal:</source>
-        <translation type="unfinished"></translation>
+        <translation>水平(&amp;H):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1168"/>
         <source>&amp;Vertical:</source>
-        <translation type="unfinished"></translation>
+        <translation>垂直(&amp;V):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1189"/>
         <source>Border st&amp;yle:</source>
-        <translation type="unfinished"></translation>
+        <translation>枠のスタイル(&amp;Y):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1215"/>
         <source>&amp;Outline:</source>
-        <translation type="unfinished"></translation>
+        <translation>アウトライン(&amp;O):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1238"/>
         <source>Shado&amp;w:</source>
-        <translation type="unfinished"></translation>
+        <translation>影(&amp;W):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1257"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
-        <translation type="unfinished"></translation>
+        <translation>以下のオプションは非スタイル化済みの字幕 (srt、sub...) に使用されるスタイルの定義を許可します。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="115"/>
         <source>Left</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>左</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="116"/>
         <source>Centered</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>中央</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="117"/>
         <source>Right</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>右</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="122"/>
         <source>Bottom</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished">末尾へ</translation>
+        <translation>下</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="123"/>
         <source>Middle</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>中央</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="124"/>
         <source>Top</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished">先頭へ</translation>
+        <translation>上</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="129"/>
         <source>Outline</source>
         <comment>border style</comment>
-        <translation type="unfinished"></translation>
+        <translation>アウトライン</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="130"/>
         <source>Opaque box</source>
         <comment>border style</comment>
-        <translation type="unfinished"></translation>
+        <translation>不透明ボックス</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="507"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>枠のスタイルが&lt;i&gt;アウトライン&lt;/i&gt;へ設定されている場合、このオプションはピクセルでテキストの周りのアウトラインの幅を指定します。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="511"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>枠のスタイルが&lt;i&gt;アウトライン&lt;/i&gt;へ設定されている場合、このオプションはピクセルでテキストの後ろのドロップ シャドウの深さを指定します。</translation>
     </message>
 </context>
 <context>
