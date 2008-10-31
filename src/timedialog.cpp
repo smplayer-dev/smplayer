@@ -22,6 +22,8 @@ TimeDialog::TimeDialog( QWidget* parent, Qt::WindowFlags f )
 	: QDialog(parent, f)
 {
 	setupUi(this);
+
+	time_edit->setDisplayFormat("H:mm:ss");
 }
 
 TimeDialog::~TimeDialog() {
