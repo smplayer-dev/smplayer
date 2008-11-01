@@ -1447,11 +1447,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <location filename="../basegui.cpp" line="3328"/>
-        <source>Using an old MPlayer, please update it</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>BaseGuiPlus</name>
@@ -1489,42 +1484,42 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2241"/>
+        <location filename="../core.cpp" line="2244"/>
         <source>Brightness: %1</source>
         <translation>Яркост: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2256"/>
+        <location filename="../core.cpp" line="2259"/>
         <source>Contrast: %1</source>
         <translation>Контраст: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2270"/>
+        <location filename="../core.cpp" line="2273"/>
         <source>Gamma: %1</source>
         <translation>Гама: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2284"/>
+        <location filename="../core.cpp" line="2287"/>
         <source>Hue: %1</source>
         <translation>Нюанс: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2298"/>
+        <location filename="../core.cpp" line="2301"/>
         <source>Saturation: %1</source>
         <translation>Наситеност: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2418"/>
+        <location filename="../core.cpp" line="2421"/>
         <source>Volume: %1</source>
         <translation>Сила на звука: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3257"/>
+        <location filename="../core.cpp" line="3260"/>
         <source>Zoom: %1</source>
         <translation>Мащаб: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2537"/>
+        <location filename="../core.cpp" line="2540"/>
         <source>Font scale: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3280,7 +3275,7 @@ Do you want to overwrite?</source>
         <translation type="unfinished">икона</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="310"/>
+        <location filename="../prefadvanced.ui" line="316"/>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
@@ -3289,7 +3284,7 @@ Example: -flip -nosound</source>
 Пример: -flip -nosound</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="379"/>
+        <location filename="../prefadvanced.ui" line="385"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
@@ -3298,7 +3293,7 @@ Example: scale=512:-2,eq2=1.1</source>
 Пример: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="448"/>
+        <location filename="../prefadvanced.ui" line="454"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
         <translation type="unfinished">Вие също можете да добавяте и аудио филтри. 
@@ -3316,17 +3311,17 @@ Example: resample=44100:0:0,volnorm</source>
         <translation type="unfinished">Разрешаване на дневник за SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="686"/>
+        <location filename="../prefadvanced.ui" line="692"/>
         <source>This option is mainly intended for debugging the application.</source>
         <translation type="unfinished">Тази опция е планирана за остраняване на грешки в програмата.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="511"/>
+        <location filename="../prefadvanced.ui" line="517"/>
         <source>&amp;MPlayer language</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="535"/>
+        <location filename="../prefadvanced.ui" line="541"/>
         <source>SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br&gt;&lt;br&gt;
 The drop-down lists may provide already made regular expression for several languages.</source>
         <translation type="unfinished"></translation>
@@ -3367,47 +3362,47 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="342"/>
+        <location filename="../prefadvanced.ui" line="348"/>
         <source>&amp;Options:</source>
         <translation type="unfinished">&amp;Настройки:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="411"/>
+        <location filename="../prefadvanced.ui" line="417"/>
         <source>V&amp;ideo filters:</source>
         <translation type="unfinished">&amp;Видео филтри:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="479"/>
+        <location filename="../prefadvanced.ui" line="485"/>
         <source>Audio &amp;filters:</source>
         <translation type="unfinished">&amp;Аудио филтри:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="224"/>
+        <location filename="../prefadvanced.ui" line="230"/>
         <source>&amp;Colorkey:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="639"/>
+        <location filename="../prefadvanced.ui" line="645"/>
         <source>Log &amp;SMPlayer output</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="696"/>
+        <location filename="../prefadvanced.ui" line="702"/>
         <source>&amp;Filter for SMPlayer logs:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="549"/>
+        <location filename="../prefadvanced.ui" line="555"/>
         <source>&amp;End of file:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="562"/>
+        <location filename="../prefadvanced.ui" line="568"/>
         <source>&amp;No video:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="247"/>
+        <location filename="../prefadvanced.ui" line="253"/>
         <source>C&amp;hange...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3417,12 +3412,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="646"/>
+        <location filename="../prefadvanced.ui" line="652"/>
         <source>Log MPlayer &amp;output</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="289"/>
+        <location filename="../prefadvanced.ui" line="295"/>
         <source>Options for MP&amp;layer</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3447,7 +3442,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="653"/>
+        <location filename="../prefadvanced.ui" line="659"/>
         <source>A&amp;utosave MPlayer log to file</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3602,7 +3597,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="618"/>
+        <location filename="../prefadvanced.ui" line="624"/>
         <source>Lo&amp;gs</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3971,12 +3966,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="907"/>
+        <location filename="../prefgeneral.ui" line="931"/>
         <source>0</source>
         <translation type="unfinished">0</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="761"/>
+        <location filename="../prefgeneral.ui" line="785"/>
         <source>&amp;Change volume on every file</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3991,7 +3986,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1024"/>
+        <location filename="../prefgeneral.ui" line="1054"/>
         <source>&amp;Audio:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4001,42 +3996,42 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1043"/>
+        <location filename="../prefgeneral.ui" line="1073"/>
         <source>Su&amp;btitles:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="305"/>
+        <location filename="../prefgeneral.ui" line="311"/>
         <source>&amp;Quality:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="467"/>
+        <location filename="../prefgeneral.ui" line="485"/>
         <source>Start videos in &amp;fullscreen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="474"/>
+        <location filename="../prefgeneral.ui" line="492"/>
         <source>Disable &amp;screensaver</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="878"/>
+        <location filename="../prefgeneral.ui" line="902"/>
         <source>&amp;Default volume:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="703"/>
+        <location filename="../prefgeneral.ui" line="727"/>
         <source>Use s&amp;oftware volume control</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="726"/>
+        <location filename="../prefgeneral.ui" line="750"/>
         <source>Ma&amp;x. Amplification:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="561"/>
+        <location filename="../prefgeneral.ui" line="585"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4056,12 +4051,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="439"/>
+        <location filename="../prefgeneral.ui" line="451"/>
         <source>D&amp;irect rendering</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="446"/>
+        <location filename="../prefgeneral.ui" line="458"/>
         <source>Dou&amp;ble buffering</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4071,12 +4066,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="285"/>
+        <location filename="../prefgeneral.ui" line="291"/>
         <source>&amp;Enable postprocessing by default</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="754"/>
+        <location filename="../prefgeneral.ui" line="778"/>
         <source>Volume &amp;normalization by default</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4106,7 +4101,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="585"/>
+        <location filename="../prefgeneral.ui" line="609"/>
         <source>C&amp;hannels by default:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4201,27 +4196,27 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1164"/>
+        <location filename="../prefgeneral.ui" line="1194"/>
         <source>Or choose a track number:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1105"/>
+        <location filename="../prefgeneral.ui" line="1135"/>
         <source>Audi&amp;o:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1059"/>
+        <location filename="../prefgeneral.ui" line="1089"/>
         <source>Preferred language:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="936"/>
+        <location filename="../prefgeneral.ui" line="960"/>
         <source>Preferre&amp;d audio and subtitles</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1118"/>
+        <location filename="../prefgeneral.ui" line="1148"/>
         <source>&amp;Subtitle:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4231,13 +4226,13 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="957"/>
+        <location filename="../prefgeneral.ui" line="981"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="630"/>
+        <location filename="../prefgeneral.ui" line="654"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4262,17 +4257,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">&amp;Видео</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="432"/>
+        <location filename="../prefgeneral.ui" line="444"/>
         <source>Use s&amp;oftware video equalizer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="495"/>
+        <location filename="../prefgeneral.ui" line="513"/>
         <source>A&amp;udio</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="665"/>
+        <location filename="../prefgeneral.ui" line="689"/>
         <source>Volume</source>
         <translation type="unfinished">Сила на звука</translation>
     </message>
@@ -4307,7 +4302,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="347"/>
+        <location filename="../prefgeneral.ui" line="353"/>
         <source>Dei&amp;nterlace by default:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4332,7 +4327,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="804"/>
+        <location filename="../prefgeneral.ui" line="828"/>
         <source>Change volume just before p&amp;laying</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4347,7 +4342,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="554"/>
+        <location filename="../prefgeneral.ui" line="578"/>
         <source>&amp;Enable the audio equalizer</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4362,7 +4357,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="453"/>
+        <location filename="../prefgeneral.ui" line="465"/>
         <source>Dra&amp;w video using slices</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4407,7 +4402,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="384"/>
+        <location filename="../prefgeneral.ui" line="390"/>
         <source>Default &amp;zoom:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4477,7 +4472,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="503"/>
+        <location filename="../prefgeneral.ui" line="521"/>
         <source>Ou&amp;tput driver:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4828,7 +4823,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">Стандартни</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="26"/>
+        <location filename="../prefinterface.ui" line="35"/>
         <source>&amp;Interface</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4838,22 +4833,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">Търсене</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="84"/>
+        <location filename="../prefinterface.ui" line="118"/>
         <source>Never</source>
         <translation type="unfinished">Никога</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="89"/>
+        <location filename="../prefinterface.ui" line="123"/>
         <source>Whenever it&apos;s needed</source>
         <translation type="unfinished">Винаги когато е необходимо</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="94"/>
+        <location filename="../prefinterface.ui" line="128"/>
         <source>Only after loading a new video</source>
         <translation type="unfinished">Само след зареждането на ново видео</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="127"/>
+        <location filename="../prefinterface.ui" line="161"/>
         <source>Recent files</source>
         <translation type="unfinished">Последни файлове</translation>
     </message>
@@ -4888,82 +4883,82 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="548"/>
+        <location filename="../prefinterface.ui" line="677"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="139"/>
+        <location filename="../prefinterface.ui" line="182"/>
         <source>Ma&amp;x. items</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="256"/>
+        <location filename="../prefinterface.ui" line="313"/>
         <source>St&amp;yle:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="206"/>
+        <location filename="../prefinterface.ui" line="267"/>
         <source>Ico&amp;n set:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="193"/>
+        <location filename="../prefinterface.ui" line="254"/>
         <source>L&amp;anguage:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="38"/>
+        <location filename="../prefinterface.ui" line="56"/>
         <source>Main window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="65"/>
+        <location filename="../prefinterface.ui" line="101"/>
         <source>Auto&amp;resize:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="102"/>
+        <location filename="../prefinterface.ui" line="136"/>
         <source>R&amp;emember position and size</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="353"/>
+        <location filename="../prefinterface.ui" line="421"/>
         <source>Default font:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="367"/>
+        <location filename="../prefinterface.ui" line="435"/>
         <source>&amp;Change...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="465"/>
+        <location filename="../prefinterface.ui" line="569"/>
         <source>&amp;Behaviour of time slider:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="484"/>
+        <location filename="../prefinterface.ui" line="586"/>
         <source>Seek to position while dragging</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="489"/>
+        <location filename="../prefinterface.ui" line="591"/>
         <source>Seek to position when released</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="533"/>
+        <location filename="../prefinterface.ui" line="653"/>
         <source>TextLabel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="390"/>
+        <location filename="../prefinterface.ui" line="458"/>
         <source>&amp;Seeking</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="513"/>
+        <location filename="../prefinterface.ui" line="615"/>
         <source>Ins&amp;tances</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5118,12 +5113,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="307"/>
+        <location filename="../prefinterface.ui" line="362"/>
         <source>&amp;GUI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="329"/>
+        <location filename="../prefinterface.ui" line="382"/>
         <source>(this option requires to restart SMPlayer)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5143,17 +5138,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="558"/>
+        <location filename="../prefinterface.ui" line="687"/>
         <source>Port to listen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="570"/>
+        <location filename="../prefinterface.ui" line="708"/>
         <source>&amp;Automatic</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="585"/>
+        <location filename="../prefinterface.ui" line="732"/>
         <source>&amp;Manual</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5517,17 +5512,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefSubtitles</name>
     <message>
-        <location filename="../prefsubtitles.cpp" line="381"/>
+        <location filename="../prefsubtitles.cpp" line="389"/>
         <source>Subtitles</source>
         <translation type="unfinished">Субтитри</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="108"/>
+        <location filename="../prefsubtitles.cpp" line="100"/>
         <source>Choose a ttf file</source>
         <translation type="unfinished">Избор на ttf файл</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="109"/>
+        <location filename="../prefsubtitles.cpp" line="101"/>
         <source>Truetype Fonts</source>
         <translation type="unfinished">Truetype шрифтове</translation>
     </message>
@@ -5537,576 +5532,606 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">&amp;Субтитри</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="56"/>
+        <location filename="../prefsubtitles.ui" line="44"/>
         <source>Autoload</source>
         <translation type="unfinished">Автозареждане</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="386"/>
+        <location filename="../prefsubtitles.cpp" line="394"/>
         <source>Select first available subtitle</source>
         <translation type="unfinished">Избор на първите налични субтитри</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="101"/>
+        <location filename="../prefsubtitles.ui" line="89"/>
         <source>Same name as movie</source>
         <translation type="unfinished">Същото име като филма</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="106"/>
+        <location filename="../prefsubtitles.ui" line="94"/>
         <source>All subs containing movie name</source>
         <translation type="unfinished">Всички субтитри, съдържащи името на филма</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="111"/>
+        <location filename="../prefsubtitles.ui" line="99"/>
         <source>All subs in directory</source>
         <translation type="unfinished">Всички субтитри в директорията</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="248"/>
+        <location filename="../prefsubtitles.ui" line="236"/>
         <source>Position</source>
         <translation type="unfinished">Позиция</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="324"/>
+        <location filename="../prefsubtitles.ui" line="312"/>
         <source>0</source>
         <translation type="unfinished">0</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="353"/>
+        <location filename="../prefsubtitles.ui" line="341"/>
         <source>Top</source>
         <translation type="unfinished">Отгоре</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="379"/>
+        <location filename="../prefsubtitles.ui" line="367"/>
         <source>Bottom</source>
         <translation type="unfinished">Отдолу</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="413"/>
+        <location filename="../prefsubtitles.cpp" line="421"/>
         <source>Include subtitles on screenshots</source>
         <translation type="unfinished">Включи субтитрите в снимките на екрана</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="418"/>
-        <source>&amp;Font</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="903"/>
+        <location filename="../prefsubtitles.ui" line="971"/>
         <source>Font</source>
         <translation type="unfinished">Шрифт</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="483"/>
+        <location filename="../prefsubtitles.ui" line="514"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
         <translation type="unfinished">Избор на шрифта, който ще бъде използван за субтитри (и OSD):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="523"/>
+        <location filename="../prefsubtitles.ui" line="554"/>
         <source>Size</source>
         <translation type="unfinished">Размер</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="578"/>
+        <location filename="../prefsubtitles.ui" line="609"/>
         <source>No autoscale</source>
         <translation type="unfinished">Без Автомащабиране</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="583"/>
+        <location filename="../prefsubtitles.ui" line="614"/>
         <source>Proportional to movie height</source>
         <translation type="unfinished">Пропорционално на височината на филма</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="588"/>
+        <location filename="../prefsubtitles.ui" line="619"/>
         <source>Proportional to movie width</source>
         <translation type="unfinished">Пропорционално на ширината на филма</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="593"/>
+        <location filename="../prefsubtitles.ui" line="624"/>
         <source>Proportional to movie diagonal</source>
         <translation type="unfinished">Пропорционално на диагонала на филма</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="711"/>
-        <source>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="449"/>
         <source>Use SSA/ASS library for subtitle rendering</source>
-        <translation type="unfinished">Използване на SSA/ASS библиотеката за обработка на субтитри</translation>
+        <translation type="obsolete">Използване на SSA/ASS библиотеката за обработка на субтитри</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="831"/>
+        <location filename="../prefsubtitles.ui" line="806"/>
         <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="407"/>
+        <location filename="../prefsubtitles.cpp" line="415"/>
         <source>Subtitle position</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="410"/>
+        <location filename="../prefsubtitles.cpp" line="418"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
         <translation type="unfinished">Тази настройка определя позицията на субтитрите върху видео прозореца.&lt;i&gt;100&lt;/i&gt;означава отдолу, докато &lt;i&gt;0&lt;/i&gt; означава отгоре.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="460"/>
+        <location filename="../prefsubtitles.cpp" line="472"/>
         <source>SSA/ASS styles</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="80"/>
+        <location filename="../prefsubtitles.ui" line="68"/>
         <source>Au&amp;toload subtitles files (*.srt, *.sub...):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="93"/>
+        <location filename="../prefsubtitles.ui" line="81"/>
         <source>S&amp;elect first available subtitle</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="161"/>
+        <location filename="../prefsubtitles.ui" line="149"/>
         <source>&amp;Default subtitle encoding:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="269"/>
+        <location filename="../prefsubtitles.ui" line="257"/>
         <source>Default &amp;position of the subtitles on screen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="394"/>
+        <location filename="../prefsubtitles.ui" line="382"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="513"/>
+        <location filename="../prefsubtitles.ui" line="544"/>
         <source>&amp;TTF font:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="493"/>
+        <location filename="../prefsubtitles.ui" line="524"/>
         <source>S&amp;ystem font:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="564"/>
+        <location filename="../prefsubtitles.ui" line="595"/>
         <source>A&amp;utoscale:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="721"/>
-        <source>&amp;Use SSA/ASS library for subtitle rendering</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="769"/>
+        <location filename="../prefsubtitles.ui" line="738"/>
         <source>&amp;Text color:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="802"/>
+        <location filename="../prefsubtitles.ui" line="771"/>
         <source>&amp;Border color:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="858"/>
+        <location filename="../prefsubtitles.ui" line="833"/>
         <source>St&amp;yles:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="438"/>
-        <source>Default scale for normal subtitles</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="440"/>
-        <source>This option specifies the default font scale for normal (white) subtitles which will be used for new videos.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="442"/>
-        <source>Default scale for SSA/ASS subtitles</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="444"/>
-        <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new videos.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="675"/>
-        <source>Default s&amp;cale for normal subtitles:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="662"/>
-        <source>Default sc&amp;ale for SSA/ASS subtitles:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="705"/>
-        <source>SSA/ASS &amp;library</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="392"/>
+        <location filename="../prefsubtitles.cpp" line="400"/>
         <source>Default subtitle encoding</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="415"/>
+        <location filename="../prefsubtitles.cpp" line="423"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. Note: it may cause some troubles sometimes.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="419"/>
+        <location filename="../prefsubtitles.cpp" line="437"/>
         <source>TTF font</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="429"/>
+        <location filename="../prefsubtitles.cpp" line="447"/>
         <source>System font</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="431"/>
+        <location filename="../prefsubtitles.cpp" line="449"/>
         <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="433"/>
+        <location filename="../prefsubtitles.cpp" line="451"/>
         <source>Autoscale</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="447"/>
-        <source>SSA/ASS library</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="451"/>
-        <source>Check this option to activate the SSA/ASS library. It provides nicer subtitles, so it&apos;s a good idea to do it.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="478"/>
+        <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Text color</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="479"/>
+        <location filename="../prefsubtitles.cpp" line="502"/>
         <source>Select the color for the text of the subtitles.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="481"/>
+        <location filename="../prefsubtitles.cpp" line="504"/>
         <source>Border color</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="482"/>
+        <location filename="../prefsubtitles.cpp" line="505"/>
         <source>Select the color for the border of the subtitles.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="384"/>
+        <location filename="../prefsubtitles.cpp" line="392"/>
         <source>Select the subtitle autoload method.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="390"/>
+        <location filename="../prefsubtitles.cpp" line="398"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="434"/>
+        <location filename="../prefsubtitles.cpp" line="452"/>
         <source>Select the subtitle autoscaling method.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="394"/>
+        <location filename="../prefsubtitles.cpp" line="402"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="396"/>
+        <location filename="../prefsubtitles.cpp" line="404"/>
         <source>Try to autodetect for this language</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="401"/>
+        <location filename="../prefsubtitles.cpp" line="409"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="403"/>
+        <location filename="../prefsubtitles.cpp" line="411"/>
         <source>Subtitle language</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="405"/>
+        <location filename="../prefsubtitles.cpp" line="413"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="138"/>
+        <location filename="../prefsubtitles.ui" line="126"/>
         <source>Encoding</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="210"/>
+        <location filename="../prefsubtitles.ui" line="198"/>
         <source>Try to a&amp;utodetect for this language:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="422"/>
+        <location filename="../prefsubtitles.cpp" line="440"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="505"/>
+        <location filename="../prefsubtitles.cpp" line="528"/>
         <source>Outline</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="467"/>
+        <location filename="../prefsubtitles.cpp" line="490"/>
         <source>Select the font for the subtitles.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="470"/>
+        <location filename="../prefsubtitles.cpp" line="493"/>
         <source>The size in pixels.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="472"/>
+        <location filename="../prefsubtitles.cpp" line="495"/>
         <source>Bold</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="473"/>
+        <location filename="../prefsubtitles.cpp" line="496"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="475"/>
+        <location filename="../prefsubtitles.cpp" line="498"/>
         <source>Italic</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="476"/>
+        <location filename="../prefsubtitles.cpp" line="499"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="484"/>
+        <location filename="../prefsubtitles.cpp" line="507"/>
         <source>Left margin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="485"/>
+        <location filename="../prefsubtitles.cpp" line="508"/>
         <source>Specifies the left margin in pixels.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="487"/>
+        <location filename="../prefsubtitles.cpp" line="510"/>
         <source>Right margin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="488"/>
+        <location filename="../prefsubtitles.cpp" line="511"/>
         <source>Specifies the right margin in pixels.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="490"/>
+        <location filename="../prefsubtitles.cpp" line="513"/>
         <source>Vertical margin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="491"/>
+        <location filename="../prefsubtitles.cpp" line="514"/>
         <source>Specifies the vertical margin in pixels.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="493"/>
+        <location filename="../prefsubtitles.cpp" line="516"/>
         <source>Horizontal alignment</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="495"/>
+        <location filename="../prefsubtitles.cpp" line="518"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="497"/>
+        <location filename="../prefsubtitles.cpp" line="520"/>
         <source>Vertical alignment</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="499"/>
+        <location filename="../prefsubtitles.cpp" line="522"/>
         <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="501"/>
+        <location filename="../prefsubtitles.cpp" line="524"/>
         <source>Border style</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="503"/>
+        <location filename="../prefsubtitles.cpp" line="526"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="509"/>
+        <location filename="../prefsubtitles.cpp" line="532"/>
         <source>Shadow</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="930"/>
+        <location filename="../prefsubtitles.ui" line="998"/>
         <source>Si&amp;ze:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="972"/>
+        <location filename="../prefsubtitles.ui" line="1040"/>
         <source>Bol&amp;d</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="979"/>
+        <location filename="../prefsubtitles.ui" line="1047"/>
         <source>&amp;Italic</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="991"/>
+        <location filename="../prefsubtitles.ui" line="1059"/>
         <source>Colors</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1009"/>
+        <location filename="../prefsubtitles.ui" line="1077"/>
         <source>&amp;Text:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1029"/>
+        <location filename="../prefsubtitles.ui" line="1097"/>
         <source>&amp;Border:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1052"/>
+        <location filename="../prefsubtitles.ui" line="1120"/>
         <source>Margins</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1070"/>
+        <location filename="../prefsubtitles.ui" line="1138"/>
         <source>L&amp;eft:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1086"/>
+        <location filename="../prefsubtitles.ui" line="1154"/>
         <source>&amp;Right:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1102"/>
+        <location filename="../prefsubtitles.ui" line="1170"/>
         <source>Verti&amp;cal:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1134"/>
+        <location filename="../prefsubtitles.ui" line="1202"/>
         <source>Alignment</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1152"/>
+        <location filename="../prefsubtitles.ui" line="1220"/>
         <source>&amp;Horizontal:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1168"/>
+        <location filename="../prefsubtitles.ui" line="1236"/>
         <source>&amp;Vertical:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1189"/>
+        <location filename="../prefsubtitles.ui" line="1257"/>
         <source>Border st&amp;yle:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1215"/>
+        <location filename="../prefsubtitles.ui" line="1283"/>
         <source>&amp;Outline:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1238"/>
+        <location filename="../prefsubtitles.ui" line="1306"/>
         <source>Shado&amp;w:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1257"/>
+        <location filename="../prefsubtitles.ui" line="961"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="115"/>
+        <location filename="../prefsubtitles.cpp" line="107"/>
         <source>Left</source>
         <comment>horizontal alignment</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="116"/>
+        <location filename="../prefsubtitles.cpp" line="108"/>
         <source>Centered</source>
         <comment>horizontal alignment</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="117"/>
+        <location filename="../prefsubtitles.cpp" line="109"/>
         <source>Right</source>
         <comment>horizontal alignment</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="122"/>
+        <location filename="../prefsubtitles.cpp" line="114"/>
         <source>Bottom</source>
         <comment>vertical alignment</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="123"/>
+        <location filename="../prefsubtitles.cpp" line="115"/>
         <source>Middle</source>
         <comment>vertical alignment</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="124"/>
+        <location filename="../prefsubtitles.cpp" line="116"/>
         <source>Top</source>
         <comment>vertical alignment</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="129"/>
+        <location filename="../prefsubtitles.cpp" line="121"/>
         <source>Outline</source>
         <comment>border style</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="130"/>
+        <location filename="../prefsubtitles.cpp" line="122"/>
         <source>Opaque box</source>
         <comment>border style</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="507"/>
+        <location filename="../prefsubtitles.cpp" line="530"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="511"/>
+        <location filename="../prefsubtitles.cpp" line="534"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="427"/>
+        <source>Enable normal subtitles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="429"/>
+        <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="431"/>
+        <source>Enable SSA/ASS subtitles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="433"/>
+        <source>Click this button to enable the the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="435"/>
+        <source>Normal subtitles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="456"/>
+        <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="479"/>
+        <source>Default scale</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="460"/>
+        <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="463"/>
+        <source>SSA/ASS subtitles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="481"/>
+        <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="484"/>
+        <source>Line spacing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="486"/>
+        <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="406"/>
+        <source>&amp;Font and colors</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="412"/>
+        <source>Enable &amp;normal subtitles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="425"/>
+        <source>Enable SSA/&amp;ASS subtitles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="670"/>
+        <source>Default s&amp;cale:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="869"/>
+        <source>Defa&amp;ult scale:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="908"/>
+        <source>&amp;Line spacing:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
