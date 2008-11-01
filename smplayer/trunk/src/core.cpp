@@ -1344,6 +1344,9 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument("-ass");
 		proc->addArgument("-embeddedfonts");
 
+		proc->addArgument("-ass-line-spacing");
+		proc->addArgument(QString::number(pref->ass_line_spacing));
+
 #if USE_ASS_STYLES
 		if (!QFile::exists(Paths::subtitleStyleFile())) {
 			// If file doesn't exist, create it

@@ -5,8 +5,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>590</width>
-    <height>673</height>
+    <width>537</width>
+    <height>640</height>
    </rect>
   </property>
   <property name="windowTitle" >
@@ -654,21 +654,8 @@
                 </property>
                </spacer>
               </item>
-              <item row="2" column="2" >
-               <spacer>
-                <property name="orientation" >
-                 <enum>Qt::Horizontal</enum>
-                </property>
-                <property name="sizeHint" >
-                 <size>
-                  <width>40</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
               <item row="1" column="1" >
-               <widget class="QDoubleSpinBox" name="font_text_scale" >
+               <widget class="QDoubleSpinBox" name="font_text_scale_spin" >
                 <property name="decimals" >
                  <number>1</number>
                 </property>
@@ -677,39 +664,16 @@
                 </property>
                </widget>
               </item>
-              <item row="2" column="1" >
-               <widget class="QDoubleSpinBox" name="ass_font_scale" >
-                <property name="maximum" >
-                 <double>100.000000000000000</double>
-                </property>
-                <property name="singleStep" >
-                 <double>0.200000000000000</double>
-                </property>
-               </widget>
-              </item>
-              <item row="2" column="0" >
-               <widget class="QLabel" name="ass_scale_label" >
-                <property name="text" >
-                 <string>Default sc&amp;ale for SSA/ASS subtitles:</string>
-                </property>
-                <property name="alignment" >
-                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-                </property>
-                <property name="buddy" >
-                 <cstring>ass_font_scale</cstring>
-                </property>
-               </widget>
-              </item>
               <item row="1" column="0" >
                <widget class="QLabel" name="scale_label" >
                 <property name="text" >
-                 <string>Default s&amp;cale for normal subtitles:</string>
+                 <string>Default s&amp;cale:</string>
                 </property>
                 <property name="alignment" >
                  <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                 </property>
                 <property name="buddy" >
-                 <cstring>font_text_scale</cstring>
+                 <cstring>font_text_scale_spin</cstring>
                 </property>
                </widget>
               </item>
@@ -825,6 +789,12 @@
               </item>
               <item>
                <widget class="Line" name="line" >
+                <property name="sizePolicy" >
+                 <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
                 <property name="orientation" >
                  <enum>Qt::Horizontal</enum>
                 </property>
@@ -875,8 +845,84 @@
                 </item>
                </layout>
               </item>
+              <item>
+               <widget class="Line" name="line_3" >
+                <property name="sizePolicy" >
+                 <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="orientation" >
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
              </layout>
             </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" >
+             <item>
+              <widget class="QLabel" name="ass_scale_label" >
+               <property name="text" >
+                <string>Defa&amp;ult scale:</string>
+               </property>
+               <property name="buddy" >
+                <cstring>ass_font_scale_spin</cstring>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QDoubleSpinBox" name="ass_font_scale_spin" >
+               <property name="sizePolicy" >
+                <sizepolicy vsizetype="Fixed" hsizetype="Maximum" >
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="maximum" >
+                <double>100.000000000000000</double>
+               </property>
+               <property name="singleStep" >
+                <double>0.200000000000000</double>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer>
+               <property name="orientation" >
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" >
+                <size>
+                 <width>121</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_11" >
+               <property name="text" >
+                <string>&amp;Line spacing:</string>
+               </property>
+               <property name="buddy" >
+                <cstring>ass_line_spacing_spin</cstring>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSpinBox" name="ass_line_spacing_spin" >
+               <property name="minimum" >
+                <number>-20</number>
+               </property>
+               <property name="maximum" >
+                <number>20</number>
+               </property>
+              </widget>
+             </item>
+            </layout>
            </item>
            <item>
             <widget class="QWidget" native="1" name="styles_container" >
@@ -896,7 +942,30 @@
               <property name="bottomMargin" >
                <number>4</number>
               </property>
-              <item row="1" column="0" >
+              <item row="0" column="0" colspan="2" >
+               <widget class="Line" name="line_2" >
+                <property name="sizePolicy" >
+                 <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="orientation" >
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0" colspan="2" >
+               <widget class="QLabel" name="label_10" >
+                <property name="text" >
+                 <string>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</string>
+                </property>
+                <property name="wordWrap" >
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0" >
                <widget class="QGroupBox" name="groupBox_4" >
                 <property name="title" >
                  <string>Font</string>
@@ -984,7 +1053,7 @@
                 </layout>
                </widget>
               </item>
-              <item row="1" column="1" >
+              <item row="2" column="1" >
                <widget class="QGroupBox" name="groupBox_7" >
                 <property name="title" >
                  <string>Colors</string>
@@ -1045,7 +1114,7 @@
                 </layout>
                </widget>
               </item>
-              <item row="2" column="0" >
+              <item row="3" column="0" >
                <widget class="QGroupBox" name="groupBox_8" >
                 <property name="title" >
                  <string>Margins</string>
@@ -1127,7 +1196,7 @@
                 </layout>
                </widget>
               </item>
-              <item row="2" column="1" >
+              <item row="3" column="1" >
                <widget class="QGroupBox" name="groupBox_9" >
                 <property name="title" >
                  <string>Alignment</string>
@@ -1180,7 +1249,7 @@
                 </layout>
                </widget>
               </item>
-              <item row="3" column="0" colspan="2" >
+              <item row="4" column="0" colspan="2" >
                <layout class="QHBoxLayout" >
                 <item>
                  <widget class="QLabel" name="label_5" >
@@ -1250,31 +1319,21 @@
                 </item>
                </layout>
               </item>
-              <item row="0" column="0" colspan="2" >
-               <widget class="QLabel" name="label_10" >
-                <property name="text" >
-                 <string>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</string>
-                </property>
-                <property name="wordWrap" >
-                 <bool>true</bool>
-                </property>
-               </widget>
-              </item>
-              <item row="4" column="0" colspan="2" >
-               <spacer>
-                <property name="orientation" >
-                 <enum>Qt::Vertical</enum>
-                </property>
-                <property name="sizeHint" >
-                 <size>
-                  <width>20</width>
-                  <height>40</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
              </layout>
             </widget>
+           </item>
+           <item>
+            <spacer>
+             <property name="orientation" >
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" >
+              <size>
+               <width>479</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
            </item>
           </layout>
          </widget>
@@ -1312,13 +1371,33 @@
   <tabstop>enca_lang_combo</tabstop>
   <tabstop>sub_pos_slider</tabstop>
   <tabstop>subtitles_on_screeshots_check</tabstop>
+  <tabstop>normal_subs_button</tabstop>
+  <tabstop>ass_subs_button</tabstop>
   <tabstop>ttf_font_button</tabstop>
   <tabstop>ttf_font_edit</tabstop>
   <tabstop>system_font_button</tabstop>
   <tabstop>fontCombo</tabstop>
   <tabstop>font_autoscale_combo</tabstop>
-  <tabstop>font_text_scale</tabstop>
-  <tabstop>ass_font_scale</tabstop>
+  <tabstop>font_text_scale_spin</tabstop>
+  <tabstop>colorButton</tabstop>
+  <tabstop>borderButton</tabstop>
+  <tabstop>ass_styles_edit</tabstop>
+  <tabstop>ass_font_scale_spin</tabstop>
+  <tabstop>ass_line_spacing_spin</tabstop>
+  <tabstop>style_font_combo</tabstop>
+  <tabstop>style_size_spin</tabstop>
+  <tabstop>style_bold_check</tabstop>
+  <tabstop>style_italic_check</tabstop>
+  <tabstop>style_text_color_button</tabstop>
+  <tabstop>style_border_color_button</tabstop>
+  <tabstop>style_marginl_spin</tabstop>
+  <tabstop>style_marginr_spin</tabstop>
+  <tabstop>style_marginv_spin</tabstop>
+  <tabstop>style_alignment_combo</tabstop>
+  <tabstop>style_valignment_combo</tabstop>
+  <tabstop>style_border_style_combo</tabstop>
+  <tabstop>style_outline_spin</tabstop>
+  <tabstop>style_shadow_spin</tabstop>
  </tabstops>
  <resources/>
  <connections>

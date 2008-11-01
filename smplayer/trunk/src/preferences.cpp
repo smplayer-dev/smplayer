@@ -178,6 +178,7 @@ void Preferences::reset() {
 	//ass_styles = "Bold=1,Outline=2,Shadow=2";
 	ass_styles = "";
 #endif
+	ass_line_spacing = 0;
 
 	use_closed_caption_subs = false;
 	use_forced_subs_only = false;
@@ -186,8 +187,6 @@ void Preferences::reset() {
 
 	use_new_sub_commands = Detect;
 	change_sub_scale_should_restart = Detect;
-
-	show_font_scale_options_in_preferences = false;
 
 #if USE_ASS_STYLES
 	// ASS styles
@@ -522,6 +521,7 @@ void Preferences::save() {
 	set->setValue("ass_border_color", (int) ass_border_color);
 	set->setValue("ass_styles", ass_styles);
 #endif
+	set->setValue("ass_line_spacing", ass_line_spacing);
 	set->setValue("use_closed_caption_subs", use_closed_caption_subs);
 	set->setValue("use_forced_subs_only", use_forced_subs_only);
 
@@ -529,8 +529,6 @@ void Preferences::save() {
 
 	set->setValue("use_new_sub_commands", use_new_sub_commands);
 	set->setValue("change_sub_scale_should_restart", change_sub_scale_should_restart);
-
-	set->setValue("show_font_scale_options_in_preferences", show_font_scale_options_in_preferences);
 
 #if USE_ASS_STYLES
 	// ASS styles
@@ -875,6 +873,7 @@ void Preferences::load() {
 	ass_border_color = set->value("ass_border_color", ass_border_color).toInt();
 	ass_styles = set->value("ass_styles", ass_styles).toString();
 #endif
+	ass_line_spacing = set->value("ass_line_spacing", ass_line_spacing).toInt();
 
 	use_closed_caption_subs = set->value("use_closed_caption_subs", use_closed_caption_subs).toBool();
 	use_forced_subs_only = set->value("use_forced_subs_only", use_forced_subs_only).toBool();
@@ -883,8 +882,6 @@ void Preferences::load() {
 
 	use_new_sub_commands = (OptionState) set->value("use_new_sub_commands", use_new_sub_commands).toInt();
 	change_sub_scale_should_restart = (OptionState) set->value("change_sub_scale_should_restart", change_sub_scale_should_restart).toInt();
-
-	show_font_scale_options_in_preferences = set->value("show_font_scale_options_in_preferences", show_font_scale_options_in_preferences).toBool();
 
 #if USE_ASS_STYLES
 	// ASS styles
