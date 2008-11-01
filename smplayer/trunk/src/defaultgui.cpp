@@ -605,7 +605,7 @@ void DefaultGui::loadConfig() {
 		// Check if window is outside of the screen
 		QSize screensize = DesktopInfo::desktop_size(this);
 		if ( (pos().x() > screensize.width()) || (pos().y() > screensize.height()) ) {
-			qWarning("DefaultGui::loadConfig: window is outsize of the screen");
+			qWarning("DefaultGui::loadConfig: window is outside of the screen");
 			move(0,0);
 		}
 	}
