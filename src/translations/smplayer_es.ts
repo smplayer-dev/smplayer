@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="es">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -4533,7 +4534,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="780"/>
         <source>If this option is checked the initial volume will be set just before playback starts. This avoids a loud volume on startup. Requires at least MPlayer SVN r27872.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si esta opción está activada, el volumen inicial se establecerá justo antes de empezar la reproducción. Esto evita que el volumen esté muy alto durante un momento al empezar la reproducción. Requiere al menos MPlayer SVN r27872.</translation>
     </message>
 </context>
 <context>
