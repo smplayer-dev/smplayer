@@ -324,12 +324,12 @@ int PrefSubtitles::subPos() {
 }
 
 void PrefSubtitles::setUseFontASS(bool v) {
-	font_ass_check->setChecked(v);
-	//assButtonToggled(v);
+	ass_subs_button->setChecked(v);
+	normal_subs_button->setChecked(!v);
 }
 
 bool PrefSubtitles::useFontASS() {
-	return font_ass_check->isChecked();
+	return ass_subs_button->isChecked();
 }
 
 #if !USE_ASS_STYLES
@@ -374,6 +374,12 @@ bool PrefSubtitles::subtitlesOnScreenshots() {
 	return subtitles_on_screeshots_check->isChecked();
 }
 
+void PrefSubtitles::on_ass_subs_button_toggled(bool b) {
+	if (b) 
+		stackedWidget->setCurrentIndex(1);
+	 else 
+		stackedWidget->setCurrentIndex(0);
+}
 
 void PrefSubtitles::createHelp() {
 	clearHelp();
@@ -416,6 +422,16 @@ void PrefSubtitles::createHelp() {
 
 	addSectionTitle(tr("Font"));
 
+	setWhatsThis(normal_subs_button, tr("Enable normal subtitles"), 
+        tr("Click this button to select the normal/traditional subtitles. "
+           "This kind of subtitles can only display white subtitles."));
+
+	setWhatsThis(ass_subs_button, tr("Enable SSA/ASS subtitles"), 
+		tr("Click this button to enable the the new SSA/ASS library. "
+           "This allows to display subtitles with multiple colors, fonts..."));
+
+	addSectionTitle(tr("Normal subtitles"));
+
 	setWhatsThis(ttf_font_edit, tr("TTF font"), 
         tr("Here you can select a ttf font to be used for the subtitles. "
            "Usually you'll find a lot of ttf fonts in %1")
@@ -444,11 +460,7 @@ void PrefSubtitles::createHelp() {
 	           "subtitles which will be used for new videos."));
 	}
 
-	addSectionTitle(tr("SSA/ASS library"));
-
-	setWhatsThis(font_ass_check, tr("Use SSA/ASS library for subtitle rendering"), 
-        tr("Check this option to activate the SSA/ASS library. It provides "
-           "nicer subtitles, so it's a good idea to do it.") );
+	addSectionTitle(tr("SSA/ASS subtitles"));
 
 #if !USE_ASS_STYLES
 	setWhatsThis(colorButton, tr("Text color"), 

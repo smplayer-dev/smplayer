@@ -99,8 +99,10 @@ protected:
 	void setSubtitlesOnScreenshots(bool b);
 	bool subtitlesOnScreenshots();
 
-#if USE_ASS_STYLES
 protected slots:
+	void on_ass_subs_button_toggled(bool b);
+
+#if USE_ASS_STYLES
 	void checkBorderStyleCombo( int index );
 #endif
 
