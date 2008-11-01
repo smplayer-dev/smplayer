@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -611,7 +612,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1204"/>
         <source>Volume &amp;-</source>
-        <translation>Громкость &amp;-</translation>
+        <translation>Громкость &amp;–</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1205"/>
@@ -621,7 +622,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1206"/>
         <source>&amp;Delay -</source>
-        <translation>&amp;Задержка -</translation>
+        <translation>&amp;Задержка –</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1207"/>
@@ -651,7 +652,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1219"/>
         <source>Delay &amp;-</source>
-        <translation>Задержка &amp;-</translation>
+        <translation>Задержка &amp;–</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1220"/>
@@ -886,12 +887,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1456"/>
         <source>SMPlayer - mplayer log</source>
-        <translation>SMPlayer - отчёты mplayer</translation>
+        <translation>SMPlayer – отчёт mplayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1457"/>
         <source>SMPlayer - smplayer log</source>
-        <translation>SMPlayer - отчёты smplayer</translation>
+        <translation>SMPlayer – отчёт smplayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2498"/>
@@ -926,7 +927,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="2907"/>
         <source>SMPlayer - Information</source>
-        <translation>SMPlayer - Информация</translation>
+        <translation>SMPlayer – Информация</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2910"/>
@@ -998,7 +999,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1180"/>
         <source>Zoom &amp;-</source>
-        <translation>Зум &amp;-</translation>
+        <translation>Зум &amp;–</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1181"/>
@@ -1073,7 +1074,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1278"/>
         <source>OSD - Next level</source>
-        <translation>OSD - Следующая фраза</translation>
+        <translation>OSD – Следующая фраза</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1279"/>
@@ -1188,17 +1189,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1395"/>
         <source>Denoise nor&amp;mal</source>
-        <translation>Убрать голос - &amp;обычный</translation>
+        <translation>Убрать шумы – &amp;обычный</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1396"/>
         <source>Denoise &amp;soft</source>
-        <translation>Убрать голос - &amp;мягкий</translation>
+        <translation>Убрать шумы – &amp;мягкий</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1394"/>
         <source>Denoise o&amp;ff</source>
-        <translation>Убрать голос - &amp;выключено</translation>
+        <translation>Убрать шумы – &amp;выключено</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1229"/>
@@ -1218,7 +1219,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1223"/>
         <source>S&amp;ize -</source>
-        <translation>Р&amp;азмер -</translation>
+        <translation>Р&amp;азмер –</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1224"/>
@@ -1616,7 +1617,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../filepropertiesdialog.ui" line="14"/>
         <source>SMPlayer - File properties</source>
-        <translation>SMPlayer - Параметры файла</translation>
+        <translation>SMPlayer – Параметры файла</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="33"/>
@@ -2090,7 +2091,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputdvddirectory.ui" line="13"/>
         <source>SMPlayer - Play a DVD from a folder</source>
-        <translation>SMPlayer - Воспроизвести DVD из каталога</translation>
+        <translation>SMPlayer – Воспроизвести DVD из каталога</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
@@ -2108,7 +2109,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputmplayerversion.ui" line="14"/>
         <source>SMPlayer - Enter the MPlayer version</source>
-        <translation>SMPlayer - введите версию MPlayer</translation>
+        <translation>SMPlayer – укажите версию MPlayer</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="26"/>
@@ -2146,7 +2147,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputurl.ui" line="13"/>
         <source>SMPlayer - Enter URL</source>
-        <translation>SMPlayer - укажите адрес</translation>
+        <translation>SMPlayer – укажите адрес</translation>
     </message>
     <message>
         <location filename="../inputurl.ui" line="80"/>
@@ -3195,7 +3196,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="326"/>
         <source>SMPlayer - Playlist</source>
-        <translation>SMPlayer - Список</translation>
+        <translation>SMPlayer – Список</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="320"/>
@@ -3228,7 +3229,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlistpreferences.ui" line="13"/>
         <source>Playlist - Preferences</source>
-        <translation>Список - Настройки</translation>
+        <translation>Список – Настройки</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.cpp" line="32"/>
@@ -3617,7 +3618,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="389"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
-        <translation>Перестраивает индекс в файлах, в которых индекс не найден, позволяя перематывать их. Полезно для недогруженных/неполных  или плохо созданных файлов. Опция работает  только если мультимедиа поддерживает перемотку (т.е. не с stdin, pipe, и др). Примечание: создание индекса может занять некоторое время.</translation>
+        <translation type="unfinished">Перестраивает индекс в файлах, в которых индекс не найден, позволяя перематывать их. Полезно для недогруженных/неполных или плохо созданных файлов. Опция работает только если мультимедиа поддерживает перемотку (т.е. не с stdin, pipe, и др). Примечание: создание индекса может занять некоторое время.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="172"/>
@@ -4186,7 +4187,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="741"/>
         <source>Uses hardware AC3 passthrough</source>
-        <translation>Использовать  AC3 через S/PDIF выход звуковой карты</translation>
+        <translation>Использовать AC3 через S/PDIF выход звуковой карты</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="752"/>
@@ -4252,7 +4253,7 @@ The drop-down lists may provide already made regular expression for several lang
         <location filename="../prefgeneral.ui" line="981"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="654"/>
@@ -4412,7 +4413,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="257"/>
         <source>fast - ATI cards</source>
-        <translation>быстро - видеокарты ATI</translation>
+        <translation>быстро – видеокарты ATI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="297"/>
@@ -4507,7 +4508,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="780"/>
         <source>If this option is checked the initial volume will be set just before playback starts. This avoids a loud volume on startup. Requires at least MPlayer SVN r27872.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если эта опция отмечена, начальная громкость будет установлена до начала проигрывания. Это предупреждает скачок громкости при старте. Требует как минимум MPlayer SVN r27872.</translation>
     </message>
 </context>
 <context>
@@ -4750,12 +4751,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="213"/>
         <source>X Button &amp;1</source>
-        <translation>Доп. кнопка  &amp;1</translation>
+        <translation>Доп. кнопка &amp;1</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="239"/>
         <source>X Button &amp;2</source>
-        <translation>Доп. кнопка  &amp;2</translation>
+        <translation>Доп. кнопка &amp;2</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="60"/>
@@ -4790,7 +4791,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="73"/>
         <source>OSD - Next level</source>
-        <translation>OSD - Следующий уровень</translation>
+        <translation>OSD – Следующий уровень</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="83"/>
@@ -5361,7 +5362,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="281"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
-        <translation>Возможные значения: &lt;br&gt; &lt;b&gt;Да&lt;/b&gt;: будет использован наиболее быстрый метод переключения  аудио дорожек (может не работать с некоторыми форматами).&lt;br&gt; &lt;b&gt;Нет&lt;/b&gt;: процесс MPlayer будет перезапущен при изменении звуковой дорожки.&lt;br&gt; &lt;b&gt;Авто&lt;/b&gt;: SMPlayer решит самостоятельно, основываясь на версии MPlayer.</translation>
+        <translation>Возможные значения: &lt;br&gt; &lt;b&gt;Да&lt;/b&gt;: будет использован наиболее быстрый метод переключения аудио дорожек (может не работать с некоторыми форматами).&lt;br&gt; &lt;b&gt;Нет&lt;/b&gt;: процесс MPlayer будет перезапущен при изменении звуковой дорожки.&lt;br&gt; &lt;b&gt;Авто&lt;/b&gt;: SMPlayer решит самостоятельно, основываясь на версии MPlayer.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="291"/>
@@ -5667,7 +5668,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="418"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
-        <translation>Этот параметр определяет положение субтитров относительно окна. &lt;i&gt;100&lt;/i&gt; означает низ, &lt;i&gt;0&lt;/i&gt; - верх.</translation>
+        <translation>Этот параметр определяет положение субтитров относительно окна. &lt;i&gt;100&lt;/i&gt; означает низ, &lt;i&gt;0&lt;/i&gt; – верх.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="472"/>
@@ -5862,7 +5863,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="398"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
-        <translation>Если доступно более одной дорожки субтитров, одна из них будет автоматически выбрана, обычно первая, хотя если одна из дорожек  удовлетворяет выбранному пользоватлем предпочтительному языку, то будет выбрана именно она.</translation>
+        <translation>Если доступно более одной дорожки субтитров, одна из них будет автоматически выбрана, обычно первая, хотя если одна из дорожек удовлетворяет выбранному пользоватлем предпочтительному языку, то будет выбрана именно она.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="452"/>
@@ -5912,335 +5913,335 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="528"/>
         <source>Outline</source>
-        <translation type="unfinished"></translation>
+        <translation>Контур</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="490"/>
         <source>Select the font for the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите шрифт для субтитров.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="493"/>
         <source>The size in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Размер в пикселах.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Жирный</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="496"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если отмечено, текст будет отображаться &lt;b&gt;жирным&lt;/b&gt;.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="498"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Наклонный</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="499"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если отмечено, текст будет отображаться &lt;b&gt;наклонным&lt;/b&gt;.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="507"/>
         <source>Left margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Поле слева</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="508"/>
         <source>Specifies the left margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Определяет размер поля слева в пикселах.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="510"/>
         <source>Right margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Поле справа</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="511"/>
         <source>Specifies the right margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Определяет размер поля справа в пикселах.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="513"/>
         <source>Vertical margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Вертикальное поле</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="514"/>
         <source>Specifies the vertical margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Определяет размер поля по вертикали в пикселах.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="516"/>
         <source>Horizontal alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Выравнивание по горизонтали</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="518"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
-        <translation type="unfinished"></translation>
+        <translation>Определяет тип выравнивания по горизонтали. Возможные значения – слева, по центру и справа.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="520"/>
         <source>Vertical alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Выравнивание по вертикали</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="522"/>
         <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
-        <translation type="unfinished"></translation>
+        <translation>Определяет тип выравнивания по вертикали. Возможные значения – снизу, по середине и сверху.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="524"/>
         <source>Border style</source>
-        <translation type="unfinished"></translation>
+        <translation>Стиль границы</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="526"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
-        <translation type="unfinished"></translation>
+        <translation>Определяет стиль границы. Возможные значения: контур и непрозрачный</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="532"/>
         <source>Shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>Тень</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="998"/>
         <source>Si&amp;ze:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Размер:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1040"/>
         <source>Bol&amp;d</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Жирный</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1047"/>
         <source>&amp;Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Наклонный</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1059"/>
         <source>Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Цвета</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1077"/>
         <source>&amp;Text:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Текст:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1097"/>
         <source>&amp;Border:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Граница:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1120"/>
         <source>Margins</source>
-        <translation type="unfinished"></translation>
+        <translation>Поля</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1138"/>
         <source>L&amp;eft:</source>
-        <translation type="unfinished"></translation>
+        <translation>С&amp;лева:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1154"/>
         <source>&amp;Right:</source>
-        <translation type="unfinished"></translation>
+        <translation>С&amp;права:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1170"/>
         <source>Verti&amp;cal:</source>
-        <translation type="unfinished"></translation>
+        <translation>По &amp;вертикали:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1202"/>
         <source>Alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Выравнивание:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1220"/>
         <source>&amp;Horizontal:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Горизонтальное</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1236"/>
         <source>&amp;Vertical:</source>
-        <translation type="unfinished"></translation>
+        <translation>Верти&amp;кальное:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1257"/>
         <source>Border st&amp;yle:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Стиль границы:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1283"/>
         <source>&amp;Outline:</source>
-        <translation type="unfinished"></translation>
+        <translation>К&amp;онтур:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1306"/>
         <source>Shado&amp;w:</source>
-        <translation type="unfinished"></translation>
+        <translation>Те&amp;нь:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="961"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
-        <translation type="unfinished"></translation>
+        <translation>Следующие опции позволяют вам определить стиль, который будет использован для нестилизованных субтитров (srt, sub...).</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="107"/>
         <source>Left</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>Слева</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="108"/>
         <source>Centered</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>По центру</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="109"/>
         <source>Right</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>Справа</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="114"/>
         <source>Bottom</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished">Низ</translation>
+        <translation>Снизу</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="115"/>
         <source>Middle</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>По середине</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="116"/>
         <source>Top</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished">Верх</translation>
+        <translation>Сверху</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="121"/>
         <source>Outline</source>
         <comment>border style</comment>
-        <translation type="unfinished"></translation>
+        <translation>Контур</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="122"/>
         <source>Opaque box</source>
         <comment>border style</comment>
-        <translation type="unfinished"></translation>
+        <translation>Непрозрачный</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="530"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если стиль границы установлен в &lt;i&gt;контур&lt;/i&gt;, эта опция определяет ширину контура вокруг текста в пикселах.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="534"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если стиль границы установлен в &lt;i&gt;непрозрачный&lt;/i&gt;, эта опция определяет длину тени за текстом в пикселах.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="427"/>
         <source>Enable normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить &amp;нормальные субтитры</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="429"/>
         <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Нажмите эту кнопку, чтобы выбрать нормальные/традиционные субтитры. Этот вид субтитров может отображать только белые субтитры.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="431"/>
         <source>Enable SSA/ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить SSA/ASS субтитры</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="435"/>
         <source>Normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Нормальные субтитры</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="456"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Эта опция не изменяет размер субтитров для текущего видео. Чтобы сделать это, используйте опции &lt;i&gt;Размер +&lt;/i&gt; и &lt;i&gt;Размер –&lt;/i&gt; в меню субтитров.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="479"/>
         <source>Default scale</source>
-        <translation type="unfinished"></translation>
+        <translation>Увеличение по умолчанию</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="460"/>
         <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Эта опция определяет размер шрифта по умолчанию для нормальных субтитров, которое будет использовано для новых видеофайлов.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="463"/>
         <source>SSA/ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>SSA/ASS субтитры</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="481"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Эта настройка определяет размер шрифта для субтиров SSA/ASS, который будет использоваться для новых видеофайлов.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="484"/>
         <source>Line spacing</source>
-        <translation type="unfinished"></translation>
+        <translation>Междустрочный интервал</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="486"/>
         <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
-        <translation type="unfinished"></translation>
+        <translation>Здесь указывается интервал, который будет использоваться для разделения строк. Он может иметь отрицательные значения.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="406"/>
         <source>&amp;Font and colors</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Шрифт и цвета</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="412"/>
         <source>Enable &amp;normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить &amp;нормальные субтитры</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="425"/>
         <source>Enable SSA/&amp;ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить SSA/ASS субтитр&amp;ы</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="670"/>
         <source>Default s&amp;cale:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Увеличение по умолчанию:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="869"/>
         <source>Defa&amp;ult scale:</source>
-        <translation type="unfinished"></translation>
+        <translation>Увели&amp;чение по умолчанию:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="908"/>
         <source>&amp;Line spacing:</source>
-        <translation type="unfinished"></translation>
+        <translation>Междустрочный &amp;интервал:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="433"/>
         <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="unfinished"></translation>
+        <translation>Нажмите эту кнопку, чтобы выбрать новую библиотеку SSA/ASS. Это позволяет использовать субтитры с разными цветами, шрифтами...</translation>
     </message>
 </context>
 <context>
@@ -6248,7 +6249,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preferencesdialog.cpp" line="125"/>
         <source>SMPlayer - Help</source>
-        <translation>SMPlayer - Помощь</translation>
+        <translation>SMPlayer – Помощь</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="129"/>
@@ -6273,7 +6274,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preferencesdialog.ui" line="13"/>
         <source>SMPlayer - Preferences</source>
-        <translation>SMPlayer - Предпочтения</translation>
+        <translation>SMPlayer – Настройки</translation>
     </message>
 </context>
 <context>
@@ -6336,12 +6337,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="128"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
-        <translation>Попытка соединения с удаленной машиной и выполнение заданного действия. Пример:  -send-action pause Остальные параметры (если есть) будут игнорироваться и приложение будет закрыто. При успешном выполнении задачи вывод - 0, или 1 в обратном случае.</translation>
+        <translation>пытается соединиться с другим запущенным экземпляром и послать ему заданное действие. Пример: -send-action pause Остальные параметры (если есть) будут игнорироваться и приложение будет закрыто. При успешном выполнении задачи возвращается 0, или 1 в обратном случае.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="136"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
-        <translation>action_list - это список действий разделенный пробелами. Эти действия будут выполняться после загрузки файла в заданной вами последовательности. Для действий с переменными значениями можно использовать true или false  в качестве параметров. Например: -actions &quot;fullscreen compact true&quot;. Кавычки необходимы в случае, если используется более одного действия.</translation>
+        <translation>action_list – это список действий разделенный пробелами. Эти действия будут выполняться после загрузки файла в заданной вами последовательности. Для действий с переменными значениями можно использовать true или false в качестве параметров. Например: -actions &quot;fullscreen compact true&quot;. Кавычки необходимы в случае, если используется более одного действия.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="162"/>
@@ -6529,7 +6530,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../timedialog.ui" line="13"/>
         <source>SMPlayer - Seek</source>
-        <translation>SMPlayer - Перемотка</translation>
+        <translation>SMPlayer – Перемотка</translation>
     </message>
     <message>
         <location filename="../timedialog.ui" line="57"/>
