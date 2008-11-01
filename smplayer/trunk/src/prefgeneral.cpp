@@ -775,13 +775,9 @@ void PrefGeneral::createHelp() {
            "volume will be used.") );
 
 	setWhatsThis(use_volume_combo, tr("Change volume just before playing"),
-		tr("If this option is checked the initial volume will be set by "
-           "using the <i>-volume</i> option in MPlayer.") + "<br> "
-           "<b>" +
-		tr("WARNING: THE OFFICIAL MPLAYER DOESN'T HAVE THAT "
-           "<i>-volume</i> OPTION, "
-           "YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON'T PLAY "
-           "ANYTHING.") +"</b>" );
+		tr("If this option is checked the initial volume will be set just "
+           "before playback starts. This avoids a loud volume on startup. "
+           "Requires at least MPlayer SVN r27872."));
 
 	setWhatsThis(initial_volume_slider, tr("Default volume"),
 		tr("Sets the initial volume that new files will use.") );
