@@ -127,29 +127,31 @@ int main( int argc, char ** argv )
 	MyApplication a( argc, argv );
 	//a.connect( &a, SIGNAL( lastWindowClosed() ), &a, SLOT( quit() ) );
 
-	// Sets the ini_path
-	QString ini_path;
+	// Sets the config path
+	QString config_path;
 
 #ifdef PORTABLE_APP
 	ini_path = a.applicationDirPath();
 #else
+	// If a smplayer.ini exists in the app path, will use that path
+	// for the config file by default
 	if (QFile::exists( a.applicationDirPath() + "/smplayer.ini" ) ) {
-        ini_path = a.applicationDirPath();
-        qDebug("main: using existing %s", QString(ini_path + "/smplayer.ini").toUtf8().data());
-    }
+		config_path = a.applicationDirPath();
+		qDebug("main: using existing %s", QString(config_path + "/smplayer.ini").toUtf8().data());
+	}
 #endif
 
 	QStringList args = a.arguments();
-	int pos = args.indexOf("-ini-path");
+	int pos = args.indexOf("-config-path");
 	if ( pos != -1) {
 		if (pos+1 < args.count()) {
 			pos++;
-			ini_path = args[pos];
+			config_path = args[pos];
 			// Delete from list
 			args.removeAt(pos);
 			args.removeAt(pos-1);
 		} else {
-			printf("Error: expected parameter for -ini-path\r\n");
+			printf("Error: expected parameter for -config-path\r\n");
 			return SMPlayer::ErrorArgument;
 		}
 	}
@@ -158,7 +160,7 @@ int main( int argc, char ** argv )
 
 #if USE_LOCKS
 	//setIniPath will be set later in global_init, but we need it here
-	Paths::setIniPath(ini_path);
+	if (!config_path.isEmpty()) Paths::setConfigPath(config_path);
 
 	QString lock_file = Paths::iniPath() + "/smplayer_init.lock";
 	qDebug("main: lock_file: %s", lock_file.toUtf8().data());
@@ -210,7 +212,7 @@ int main( int argc, char ** argv )
 #endif // USE_QXT_LOCKS
 #endif // USE_LOCKS
 
-	SMPlayer * smplayer = new SMPlayer(ini_path);
+	SMPlayer * smplayer = new SMPlayer(config_path);
 	SMPlayer::ExitCode c = smplayer->processArgs( args );
 	if (c != SMPlayer::NoExit) {
 #if USE_LOCKS

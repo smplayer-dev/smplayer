@@ -75,8 +75,8 @@ void Preferences::reset() {
 
 	screenshot_directory="";
 #ifndef PORTABLE_APP
-	if (QFile::exists(Paths::appHomePath() + "/screenshots")) {
-		screenshot_directory = Paths::appHomePath() + "/screenshots";
+	if (QFile::exists(Paths::configPath() + "/screenshots")) {
+		screenshot_directory = Paths::configPath() + "/screenshots";
 	}
 #endif
 

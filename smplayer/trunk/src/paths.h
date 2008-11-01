@@ -31,23 +31,25 @@ public:
 	static QString dataPath();
 	static QString translationPath();
 	static QString docPath();
-	static QString confPath();
 	static QString themesPath();
 	static QString shortcutsPath();
 	static QString qtTranslationPath();
 	static QString doc(QString file, QString locale = QString::null);
 
-	//! Return the user's home
-	static QString appHomePath();
+	//! Forces to use a different path for the config files
+	static void setConfigPath(QString path);
 
-	static void setIniPath(QString path);
+	//! Return the path where smplayer should save its config files
+	static QString configPath();
+
+	//! Obsolete. Just returns configPath()
 	static QString iniPath();
 
 	static QString subtitleStyleFile();
 
 private:
 	static QString app_path;
-	static QString ini_path;
+	static QString config_path;
 };
 
 #endif

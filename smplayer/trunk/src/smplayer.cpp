@@ -42,7 +42,7 @@
 
 using namespace Global;
 
-SMPlayer::SMPlayer(const QString & ini_path, QObject * parent )
+SMPlayer::SMPlayer(const QString & config_path, QObject * parent )
 	: QObject(parent) 
 {
 	main_window = 0;
@@ -51,9 +51,9 @@ SMPlayer::SMPlayer(const QString & ini_path, QObject * parent )
     Paths::setAppPath( qApp->applicationDirPath() );
 
 #ifndef PORTABLE_APP
-	if (ini_path.isEmpty())	createHomeDirectory();
+	if (config_path.isEmpty()) createConfigDirectory();
 #endif
-	global_init(ini_path);
+	global_init(config_path);
 
 	// Application translations
 	translator->load( pref->language );
@@ -285,14 +285,14 @@ void SMPlayer::start() {
 }
 
 #ifndef PORTABLE_APP
-void SMPlayer::createHomeDirectory() {
-	// Create smplayer home directories
-	if (!QFile::exists(Paths::appHomePath())) {
+void SMPlayer::createConfigDirectory() {
+	// Create smplayer config directory
+	if (!QFile::exists(Paths::configPath())) {
 		QDir d;
-		if (!d.mkdir(Paths::appHomePath())) {
-			qWarning("SMPlayer::createHomeDirectory: can't create %s", Paths::appHomePath().toUtf8().data());
+		if (!d.mkdir(Paths::configPath())) {
+			qWarning("SMPlayer::createConfigDirectory: can't create %s", Paths::configPath().toUtf8().data());
 		}
-		QString s = Paths::appHomePath() + "/screenshots";
+		QString s = Paths::configPath() + "/screenshots";
 		if (!d.mkdir(s)) {
 			qWarning("SMPlayer::createHomeDirectory: can't create %s", s.toUtf8().data());
 		}
@@ -324,7 +324,7 @@ void SMPlayer::showInfo() {
 	qDebug(" * doc path: '%s'", Paths::docPath().toUtf8().data());
 	qDebug(" * themes path: '%s'", Paths::themesPath().toUtf8().data());
 	qDebug(" * shortcuts path: '%s'", Paths::shortcutsPath().toUtf8().data());
-	qDebug(" * smplayer home path: '%s'", Paths::appHomePath().toUtf8().data());
+	qDebug(" * config path: '%s'", Paths::configPath().toUtf8().data());
 	qDebug(" * ini path: '%s'", Paths::iniPath().toUtf8().data());
 	qDebug(" * file for subtitles' styles: '%s'", Paths::subtitleStyleFile().toUtf8().data());
 	qDebug(" * current path: '%s'", QDir::currentPath().toUtf8().data());

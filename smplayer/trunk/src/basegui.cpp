@@ -3845,7 +3845,7 @@ void BaseGui::changeStyleSheet(QString style) {
 		qApp->setStyleSheet("");
 	} 
 	else {
-		QString qss_file = Paths::appHomePath() + "/themes/" + pref->iconset +"/style.qss";
+		QString qss_file = Paths::configPath() + "/themes/" + pref->iconset +"/style.qss";
 		//qDebug("BaseGui::changeStyleSheet: '%s'", qss_file.toUtf8().data());
 		if (!QFile::exists(qss_file)) {
 			qss_file = Paths::themesPath() +"/"+ pref->iconset +"/style.qss";
