@@ -43,7 +43,7 @@ QPixmap Images::loadIcon(const QString & icon_name) {
 	QPixmap p;
 
 	if (!pref->iconset.isEmpty()) {
-		QString filename = Paths::appHomePath() + "/themes/" + pref->iconset + "/" +  icon_name;
+		QString filename = Paths::configPath() + "/themes/" + pref->iconset + "/" +  icon_name;
 		if (!QFile::exists(filename)) {
 			filename = Paths::themesPath() + "/" + pref->iconset + "/" +  icon_name;
 		}

@@ -47,7 +47,7 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 	iconset_combo->addItem( "Default" );
 
 	// User
-	QDir icon_dir = Paths::appHomePath() + "/themes";
+	QDir icon_dir = Paths::configPath() + "/themes";
 	qDebug("icon_dir: %s", icon_dir.absolutePath().toUtf8().data());
 	QStringList iconsets = icon_dir.entryList(QDir::Dirs | QDir::NoDotAndDotDot);
 	for (int n=0; n < iconsets.count(); n++) {

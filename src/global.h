@@ -42,7 +42,7 @@ namespace Global {
 	extern Translator * translator;
 
 
-	void global_init(const QString & ini_path);
+	void global_init(const QString & config_path);
 	void global_end();
 
 };

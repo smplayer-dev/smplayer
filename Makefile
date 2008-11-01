@@ -7,7 +7,6 @@ CONF_PREFIX=$(PREFIX)
 DATA_PATH=$(PREFIX)/share/smplayer
 DOC_PATH=$(PREFIX)/share/doc/packages/smplayer
 TRANSLATION_PATH=$(PREFIX)/share/smplayer/translations
-CONF_PATH=$(CONF_PREFIX)/etc/smplayer
 THEMES_PATH=$(PREFIX)/share/smplayer/themes
 SHORTCUTS_PATH=$(PREFIX)/share/smplayer/shortcuts
 
@@ -21,7 +20,7 @@ KDE_APPLNK=$(KDE_PREFIX)/share/applications/
 QMAKE=qmake
 LRELEASE=lrelease
 
-DEFS=DATA_PATH=\\\"$(DATA_PATH)\\\" CONF_PATH=\\\"$(CONF_PATH)\\\" \
+DEFS=DATA_PATH=\\\"$(DATA_PATH)\\\" \
      TRANSLATION_PATH=\\\"$(TRANSLATION_PATH)\\\" \
      DOC_PATH=\\\"$(DOC_PATH)\\\" THEMES_PATH=\\\"$(THEMES_PATH)\\\" \
      SHORTCUTS_PATH=\\\"$(SHORTCUTS_PATH)\\\"

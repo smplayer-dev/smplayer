@@ -1,5 +1,11 @@
 [b]Version 0.6.5[/b]:
 
+(2008-11-01)
+ * Cleanup and reorganization of the config path code. 
+   The commandline option -ini-path has been removed and replaced with
+   -config-path, which specifies the directory where smplayer will store
+   its data (not only smplayer.ini).
+
 (2008-10-30)
  * The reorganization of the subtitles section in preferences is finished.
  * The mplayer devs have added the -volume option in svn r27872, so now the

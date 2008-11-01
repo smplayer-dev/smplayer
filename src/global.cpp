@@ -35,14 +35,17 @@ Translator * Global::translator = 0;
 
 using namespace Global;
 
-void Global::global_init(const QString & ini_path) {
+void Global::global_init(const QString & config_path) {
 	qDebug("global_init");
 
 	// Translator
 	translator = new Translator();
 
 	// settings
-	Paths::setIniPath(ini_path);
+	if (!config_path.isEmpty()) {
+		Paths::setConfigPath(config_path);
+	}
+
 	if (Paths::iniPath().isEmpty()) {
 		settings = new QSettings(QSettings::IniFormat, QSettings::UserScope,
     	                         QString(COMPANY), QString(PROGRAM) );
@@ -52,25 +55,6 @@ void Global::global_init(const QString & ini_path) {
 		qDebug("global_init: config file: '%s'", filename.toUtf8().data());
 
 	}
-
-	/*
-	if (!ini_path.isEmpty()) {
-		QString file = ini_path + "/smplayer.ini";
-		settings = new QSettings( file, QSettings::IniFormat );
-		qDebug("global_init: config file: '%s'", file.toUtf8().data());
-	}
-	else 
-	if (QFile::exists(Paths::appHomePath())) {
-		QString file = Paths::appHomePath() + "/smplayer.ini";
-		settings = new QSettings( file, QSettings::IniFormat );
-		qDebug("global_init: config file: '%s'", file.toUtf8().data());
-	}
-	else
-	{
-		settings = new QSettings(QSettings::IniFormat, QSettings::UserScope,
-    	                         QString(COMPANY), QString(PROGRAM) );
-	}
-	*/
 
 	// Preferences
 	pref = new Preferences();

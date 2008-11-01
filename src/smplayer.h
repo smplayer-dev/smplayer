@@ -29,7 +29,7 @@ class SMPlayer : public QObject
 public:
 	enum ExitCode { ErrorArgument = -3, NoAction = -2, NoRunningInstance = -1, NoError = 0, NoExit = 1 };
 
-	SMPlayer(const QString & ini_path = QString::null, QObject * parent = 0);
+	SMPlayer(const QString & config_path = QString::null, QObject * parent = 0);
 	~SMPlayer();
 
 	//! Process arguments. If ExitCode != NoExit the application must be exited.
@@ -41,7 +41,7 @@ public:
 
 private:
 #ifndef PORTABLE_APP
-	void createHomeDirectory();
+	void createConfigDirectory();
 #endif
 	void showInfo();
 

@@ -24,7 +24,7 @@
 #include <QDir>
 
 QString Paths::app_path;
-QString Paths::ini_path;
+QString Paths::config_path;
 
 void Paths::setAppPath(QString path) {
 	app_path = path;
@@ -67,18 +67,6 @@ QString Paths::docPath() {
 		return appPath() + "/docs";
 #else
 	return appPath() + "/docs";
-#endif
-}
-
-QString Paths::confPath() {
-#ifdef CONF_PATH
-	QString path = QString(CONF_PATH);
-	if (!path.isEmpty())
-		return path;
-	else
-		return appPath();
-#else
-	return appPath();
 #endif
 }
 
@@ -130,27 +118,27 @@ QString Paths::doc(QString file, QString locale) {
 	return f;
 }
 
-QString Paths::appHomePath() {
-	return QDir::homePath() + "/.smplayer";
+void Paths::setConfigPath(QString path) {
+	config_path = path;
 }
 
-void Paths::setIniPath(QString path) {
-	ini_path = path;
+QString Paths::configPath() {
+	if (!config_path.isEmpty()) {
+		return config_path;
+	} else {
+#ifdef PORTABLE_APP
+		return appPath();
+#else
+		return QDir::homePath() + "/.smplayer";
+		//return QDir::homePath() + "/.config/smplayer";
+#endif
+	}
 }
 
 QString Paths::iniPath() {
-	if (!ini_path.isEmpty()) {
-		return ini_path;
-	} else {
-		if (QFile::exists(appHomePath())) return appHomePath();
-	}
-	return "";
+	return configPath();
 }
 
 QString Paths::subtitleStyleFile() {
-#ifdef PORTABLE_APP
-	return appPath() + "/styles.ass";
-#else
-	return appHomePath() + "/styles.ass";
-#endif
+	return configPath() + "/styles.ass";
 }
