@@ -257,6 +257,12 @@
        </item>
        <item>
         <widget class="Line" name="line_5" >
+         <property name="sizePolicy" >
+          <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
          <property name="orientation" >
           <enum>Qt::Horizontal</enum>
          </property>
@@ -421,6 +427,12 @@
        </item>
        <item>
         <widget class="Line" name="line_4" >
+         <property name="sizePolicy" >
+          <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
          <property name="orientation" >
           <enum>Qt::Horizontal</enum>
          </property>
@@ -456,6 +468,12 @@
        </item>
        <item>
         <widget class="Line" name="line_3" >
+         <property name="sizePolicy" >
+          <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
          <property name="orientation" >
           <enum>Qt::Horizontal</enum>
          </property>
@@ -543,6 +561,12 @@
        </item>
        <item>
         <widget class="Line" name="line_6" >
+         <property name="sizePolicy" >
+          <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
          <property name="orientation" >
           <enum>Qt::Horizontal</enum>
          </property>
@@ -964,6 +988,12 @@ For translators: don't translate this text, it will be replaced with another one
        </item>
        <item>
         <widget class="Line" name="line" >
+         <property name="sizePolicy" >
+          <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
          <property name="orientation" >
           <enum>Qt::Horizontal</enum>
          </property>
