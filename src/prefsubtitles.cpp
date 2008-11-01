@@ -429,7 +429,7 @@ void PrefSubtitles::createHelp() {
            "This kind of subtitles can only display white subtitles."));
 
 	setWhatsThis(ass_subs_button, tr("Enable SSA/ASS subtitles"), 
-		tr("Click this button to enable the the new SSA/ASS library. "
+		tr("Click this button to enable the new SSA/ASS library. "
            "This allows to display subtitles with multiple colors, fonts..."));
 
 	addSectionTitle(tr("Normal subtitles"));
