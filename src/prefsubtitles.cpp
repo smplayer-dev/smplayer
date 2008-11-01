@@ -19,7 +19,6 @@
 
 #include "prefsubtitles.h"
 #include "images.h"
-#include "global.h"
 #include "preferences.h"
 #include "paths.h"
 #include "assstyles.h"
@@ -37,13 +36,6 @@ PrefSubtitles::PrefSubtitles(QWidget * parent, Qt::WindowFlags f)
 #ifdef Q_OS_WIN
 	ttf_font_edit->setOptions(QFileDialog::DontUseNativeDialog);
 #endif
-
-	if (!Global::pref->show_font_scale_options_in_preferences) {
-		scale_label->hide();
-		ass_scale_label->hide();
-		font_text_scale->hide();
-		ass_font_scale->hide();
-	}
 
 #if USE_ASS_STYLES
 	connect( style_border_style_combo, SIGNAL(currentIndexChanged(int)),
@@ -153,6 +145,7 @@ void PrefSubtitles::setData(Preferences * pref) {
 	setAssBorderColor( pref->ass_border_color );
 	setAssStyles( pref->ass_styles );
 #endif
+	setAssLineSpacing( pref->ass_line_spacing );
 	setSubPos( pref->initial_sub_pos );
 	setSubtitlesOnScreenshots( pref->subtitles_on_screenshots );
 
@@ -195,6 +188,7 @@ void PrefSubtitles::getData(Preferences * pref) {
 	TEST_AND_SET(pref->ass_border_color, assBorderColor());
 	TEST_AND_SET(pref->ass_styles, assStyles());
 #endif
+	TEST_AND_SET(pref->ass_line_spacing, assLineSpacing());
 	pref->initial_sub_pos = subPos();
 	TEST_AND_SET(pref->subtitles_on_screenshots, subtitlesOnScreenshots());
 
@@ -264,19 +258,19 @@ int PrefSubtitles::fontAutoscale() {
 }
 
 void PrefSubtitles::setFontTextscale(double n) {
-	font_text_scale->setValue(n);
+	font_text_scale_spin->setValue(n);
 }
 
 double PrefSubtitles::fontTextscale() {
-	return font_text_scale->value();
+	return font_text_scale_spin->value();
 }
 
 void PrefSubtitles::setAssFontScale(double n) {
-	ass_font_scale->setValue(n);
+	ass_font_scale_spin->setValue(n);
 }
 
 double PrefSubtitles::assFontScale() {
-	return ass_font_scale->value();
+	return ass_font_scale_spin->value();
 }
 
 void PrefSubtitles::setAutoloadSub(bool v) {
@@ -374,6 +368,14 @@ bool PrefSubtitles::subtitlesOnScreenshots() {
 	return subtitles_on_screeshots_check->isChecked();
 }
 
+void PrefSubtitles::setAssLineSpacing(int spacing) {
+	ass_line_spacing_spin->setValue(spacing);
+}
+
+int PrefSubtitles::assLineSpacing() {
+	return ass_line_spacing_spin->value();
+}
+
 void PrefSubtitles::on_ass_subs_button_toggled(bool b) {
 	if (b) 
 		stackedWidget->setCurrentIndex(1);
@@ -449,16 +451,14 @@ void PrefSubtitles::createHelp() {
 	setWhatsThis(font_autoscale_combo, tr("Autoscale"), 
         tr("Select the subtitle autoscaling method.") );
 
-	if (Global::pref->show_font_scale_options_in_preferences) 
-	{
-		setWhatsThis(font_text_scale, tr("Default scale for normal subtitles"),
-			tr("This option specifies the default font scale for normal (white) "
-	           "subtitles which will be used for new videos."));
+	QString scale_note = tr("This option does NOT change the size of the "
+   		   "subtitles in the current video. To do so, use the options "
+           "<i>Size+</i> and <i>Size-</i> in the subtitles menu.");
 
-		setWhatsThis(ass_font_scale, tr("Default scale for SSA/ASS subtitles"),
-			tr("This option specifies the default font scale for SSA/ASS "
-	           "subtitles which will be used for new videos."));
-	}
+	setWhatsThis(font_text_scale_spin, tr("Default scale"),
+		tr("This option specifies the default font scale for normal "
+           "subtitles which will be used for new opened files.") +"<br>"+
+		scale_note);
 
 	addSectionTitle(tr("SSA/ASS subtitles"));
 
@@ -474,7 +474,18 @@ void PrefSubtitles::createHelp() {
            "It can be also used for fine-tuning the rendering of SRT and SUB "
            "subtitles by the SSA/ASS library. "
            "Example: <b>Bold=1,Outline=2,Shadow=4</b>"));
-#else
+#endif
+
+	setWhatsThis(ass_font_scale_spin, tr("Default scale"),
+		tr("This option specifies the default font scale for SSA/ASS "
+           "subtitles which will be used for new opened files.") +"<br>"+
+		scale_note);
+
+	setWhatsThis(ass_line_spacing_spin, tr("Line spacing"),
+		tr("This specifies the spacing that will be used to separate "
+           "multiple lines. It can have negative values.") );
+
+#if USE_ASS_STYLES
 	setWhatsThis(style_font_combo, tr("Font"), 
 		tr("Select the font for the subtitles.") );
 

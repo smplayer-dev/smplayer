@@ -93,6 +93,9 @@ protected:
 	QString assStyles();
 #endif
 
+	void setAssLineSpacing(int spacing);
+	int assLineSpacing();
+
 	void setFontFuzziness(int n);
 	int fontFuzziness();
 

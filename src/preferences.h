@@ -155,6 +155,7 @@ public:
 	unsigned int ass_border_color;
 	QString ass_styles;
 #endif
+	int ass_line_spacing;
 
 	bool use_closed_caption_subs;
 	bool use_forced_subs_only;
@@ -165,8 +166,6 @@ public:
 	//! instead of sub_select
 	OptionState use_new_sub_commands; 
 	OptionState change_sub_scale_should_restart;
-
-	bool show_font_scale_options_in_preferences;
 
 #if USE_ASS_STYLES
 	// ASS styles
