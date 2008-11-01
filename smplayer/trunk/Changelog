@@ -1,5 +1,11 @@
 [b]Version 0.6.5[/b]:
 
+(2008-10-30)
+ * The reorganization of the subtitles section in preferences is finished.
+ * The mplayer devs have added the -volume option in svn r27872, so now the
+   hack to try to detect a patched mplayer have been removed. Now smplayer
+   will simply use the -volume option if mplayer is r27872 or newer.
+
 (2008-10-28)
  * The subtitles for srt, sub... formats when using the SSA/ASS library, 
    can now be more customized. It's possible to select the font, size,
