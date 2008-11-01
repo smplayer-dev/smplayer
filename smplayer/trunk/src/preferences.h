@@ -373,7 +373,6 @@ public:
        ************ */
 
 	int mplayer_detected_version; 	//!< Latest version of mplayer parsed
-	bool mplayer_has_volume_option;
 
 	//! Version of mplayer supplied by the user which will be used if
 	//! the version can't be parsed from mplayer output
