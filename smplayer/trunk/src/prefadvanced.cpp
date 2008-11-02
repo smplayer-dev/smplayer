@@ -20,7 +20,6 @@
 #include "prefadvanced.h"
 #include "images.h"
 #include "preferences.h"
-#include "config.h"
 #include <QColorDialog>
 
 PrefAdvanced::PrefAdvanced(QWidget * parent, Qt::WindowFlags f)
@@ -42,6 +41,11 @@ PrefAdvanced::PrefAdvanced(QWidget * parent, Qt::WindowFlags f)
 	clear_background_check->hide();
 #endif
 
+#if CHECK_VIDEO_CODEC_FOR_NO_VIDEO
+	novideo_label->hide();
+	novideo_combo->hide();
+#endif
+
 	// Monitor aspect
 	monitoraspect_combo->addItem("Auto");
 	monitoraspect_combo->addItem("4:3");
@@ -58,6 +62,7 @@ PrefAdvanced::PrefAdvanced(QWidget * parent, Qt::WindowFlags f)
     endoffile_combo->addItem( QString::fromUtf8("Wychodzę... \\(Koniec pliku\\)") ); // Polish
     endoffile_combo->addItem( QString::fromUtf8("Выходим... \\(Конец файла\\)") ); // Russian
 
+#if !CHECK_VIDEO_CODEC_FOR_NO_VIDEO
     novideo_combo->addItem( "Video: no video" ); // English
     novideo_combo->addItem( QString::fromUtf8("Vídeo: no hay video") ); // Spanish
     novideo_combo->addItem( "Video: kein Video" ); // German
@@ -65,6 +70,7 @@ PrefAdvanced::PrefAdvanced(QWidget * parent, Qt::WindowFlags f)
     novideo_combo->addItem( "Video: nessun video" ); // Italian
     novideo_combo->addItem( "Wideo: brak obrazu" ); // Polish
     novideo_combo->addItem( QString::fromUtf8("Видео: нет видео") ); // Russian
+#endif
 
 	retranslateStrings();
 }
@@ -117,7 +123,9 @@ void PrefAdvanced::setData(Preferences * pref) {
     setMplayerLogName( pref->mplayer_log_saveto );
 
 	setEndOfFileText( pref->rx_endoffile );
+#if !CHECK_VIDEO_CODEC_FOR_NO_VIDEO
 	setNoVideoText( pref->rx_novideo );
+#endif
 
 	setUseShortNames( pref->use_short_pathnames );
 }
@@ -168,7 +176,9 @@ void PrefAdvanced::getData(Preferences * pref) {
     pref->mplayer_log_saveto = mplayerLogName();
 
 	TEST_AND_SET(pref->rx_endoffile, endOfFileText());
+#if !CHECK_VIDEO_CODEC_FOR_NO_VIDEO
 	TEST_AND_SET(pref->rx_novideo, noVideoText());
+#endif
 
 	pref->use_short_pathnames = useShortNames();
 }
@@ -351,6 +361,7 @@ QString PrefAdvanced::endOfFileText() {
 	return endoffile_combo->currentText();
 }
 
+#if !CHECK_VIDEO_CODEC_FOR_NO_VIDEO
 void PrefAdvanced::setNoVideoText(QString t) {
 	novideo_combo->setCurrentText(t);
 }
@@ -358,6 +369,7 @@ void PrefAdvanced::setNoVideoText(QString t) {
 QString PrefAdvanced::noVideoText() {
 	return novideo_combo->currentText();
 }
+#endif
 
 void PrefAdvanced::createHelp() {
 	clearHelp();
@@ -439,8 +451,10 @@ void PrefAdvanced::createHelp() {
 	setWhatsThis(endoffile_combo, tr("End of file"),
         tr("Select or type a regular expression for 'End of file'") );
 
+#if !CHECK_VIDEO_CODEC_FOR_NO_VIDEO
 	setWhatsThis(novideo_combo, tr("No video"),
         tr("Select or type a regular expression for 'No video'") );
+#endif
 
 	addSectionTitle(tr("Logs"));
 

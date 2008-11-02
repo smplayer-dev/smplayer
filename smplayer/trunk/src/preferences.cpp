@@ -232,7 +232,9 @@ void Preferences::reset() {
 #endif
 
 	rx_endoffile = "Exiting... \\(End of file\\)";
+#if !CHECK_VIDEO_CODEC_FOR_NO_VIDEO
 	rx_novideo = "Video: no video";
+#endif
 
 	use_edl_files = true;
 
@@ -575,7 +577,9 @@ void Preferences::save() {
 #endif
 
 	set->setValue("rx_endoffile", rx_endoffile);
+#if !CHECK_VIDEO_CODEC_FOR_NO_VIDEO
 	set->setValue("rx_novideo", rx_novideo);
+#endif
 
 	set->setValue("use_edl_files", use_edl_files);
 
@@ -932,7 +936,9 @@ void Preferences::load() {
 #endif
 
 	rx_endoffile = set->value("rx_endoffile", rx_endoffile).toString();
+#if !CHECK_VIDEO_CODEC_FOR_NO_VIDEO
 	rx_novideo = set->value("rx_novideo", rx_novideo).toString();
+#endif
 
 	use_edl_files = set->value("use_edl_files", use_edl_files).toBool();
 

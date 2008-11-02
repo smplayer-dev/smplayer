@@ -93,6 +93,14 @@
 #define DELAYED_AUDIO_SETUP_ON_STARTUP 1
 
 
+// CHECK_VIDEO_CODEC_FOR_NO_VIDEO
+// if 1, the video codec will be checked to decide if the file
+// has video or not. If it's empty it has no video.
+// If 0, it will check for the line "Video: no video"
+
+#define CHECK_VIDEO_CODEC_FOR_NO_VIDEO 1
+
+
 // Just for testing, possibility to disable the use of the colorkey
 
 #define USE_COLORKEY 1
