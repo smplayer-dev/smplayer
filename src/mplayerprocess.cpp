@@ -89,7 +89,9 @@ static QRegExp rx_title("^ID_DVD_TITLE_(\\d+)_(LENGTH|CHAPTERS|ANGLES)=(.*)");
 static QRegExp rx_winresolution("^VO: \\[(.*)\\] (\\d+)x(\\d+) => (\\d+)x(\\d+)");
 static QRegExp rx_ao("^AO: \\[(.*)\\]");
 static QRegExp rx_paused("^ID_PAUSED");
+#if !CHECK_VIDEO_CODEC_FOR_NO_VIDEO
 static QRegExp rx_novideo("^Video: no video");
+#endif
 static QRegExp rx_cache("^Cache fill:.*");
 static QRegExp rx_create_index("^Generating Index:.*");
 static QRegExp rx_play("^Starting playback...");
@@ -132,8 +134,10 @@ void MplayerProcess::init_rx() {
 	if (!pref->rx_endoffile.isEmpty()) 
 		rx_endoffile.setPattern(pref->rx_endoffile);
 
+#if !CHECK_VIDEO_CODEC_FOR_NO_VIDEO
 	if (!pref->rx_novideo.isEmpty()) 
 		rx_novideo.setPattern(pref->rx_novideo);
+#endif
 }
 
 
@@ -167,6 +171,15 @@ void MplayerProcess::parseLine(QByteArray ba) {
 				qDebug("MplayerProcess::parseLine: setting chapters to %d", md.chapters);
 			}
 #endif
+
+#if CHECK_VIDEO_CODEC_FOR_NO_VIDEO
+			// Another way to find out if there's no video
+			if (md.video_codec.isEmpty()) {
+				md.novideo = true;
+				emit receivedNoVideo();
+			}
+#endif
+
 			emit receivedStartingTime(sec);
 			emit mplayerFullyLoaded();
 
@@ -237,6 +250,7 @@ void MplayerProcess::parseLine(QByteArray ba) {
 		}
 		else
 
+#if !CHECK_VIDEO_CODEC_FOR_NO_VIDEO
 		// No video
 		if (rx_novideo.indexIn(line) > -1) {
 			md.novideo = TRUE;
@@ -244,6 +258,7 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			//emit mplayerFullyLoaded();
 		}
 		else
+#endif
 
 		// Pause
 		if (rx_paused.indexIn(line) > -1) {

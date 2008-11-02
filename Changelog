@@ -5,6 +5,9 @@
    The commandline option -ini-path has been removed and replaced with
    -config-path, which specifies the directory where smplayer will store
    its data (not only smplayer.ini).
+ * Now to know if a file has no video, instead of looking for the line 
+   "Video: no video" (it's not reliable as it's string that can be translated),
+   it will check the video codec, if it's empty, there's no video.
 
 (2008-10-30)
  * The reorganization of the subtitles section in preferences is finished.

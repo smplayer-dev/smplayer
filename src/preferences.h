@@ -213,7 +213,9 @@ public:
 
 	//! Make configurable some of the mplayerprocess regular expressions
 	QString rx_endoffile;
+#if !CHECK_VIDEO_CODEC_FOR_NO_VIDEO
 	QString rx_novideo;
+#endif
 
 	//! If true it will autoload edl files with the same name of the file
     //! to play

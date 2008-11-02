@@ -112,8 +112,10 @@ protected:
 	void setEndOfFileText(QString t);
 	QString endOfFileText();
 
+#if !CHECK_VIDEO_CODEC_FOR_NO_VIDEO
 	void setNoVideoText(QString t);
 	QString noVideoText();
+#endif
 
 protected:
 	virtual void retranslateStrings();
