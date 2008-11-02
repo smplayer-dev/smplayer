@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de_DE">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -4538,7 +4539,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="780"/>
         <source>If this option is checked the initial volume will be set just before playback starts. This avoids a loud volume on startup. Requires at least MPlayer SVN r27872.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ist diese Option aktiviert, wird die Anfangslautstärke kurz vor der Wiedergabe bestimmt. Dadurch wird eine laute Wiedergabe beim Start vermieden. Benötigt mindestens MPlayer SVN-r27872. </translation>
     </message>
 </context>
 <context>
@@ -6187,92 +6188,92 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="427"/>
         <source>Enable normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivieren von normalen Untertiteln</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="429"/>
         <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klick auf diese Schaltfläche ermöglicht normale / herkömmliche Untertitel zu wählen. Diese können nur in weiß dargestellt werden.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="431"/>
         <source>Enable SSA/ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiviere SSA/ASS Untertitel</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="435"/>
         <source>Normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Normale Untertitel</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="456"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Diese Option ändert nicht die Größe der Untertitel im aktuellen Video. Dazu die Optionen &lt;i&gt;Größe +&lt;/i&gt; und &lt;i&gt;Size-&lt;/i&gt; im Untertitelmenü anwenden.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="479"/>
         <source>Default scale</source>
-        <translation type="unfinished"></translation>
+        <translation>Standard Skalierung</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="460"/>
         <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Diese Option spezifiziert die Skalierung, der Standard Schriftart bei normalen Untertiteln, welche bei neu geöffneten Dateien angewendet wird.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="463"/>
         <source>SSA/ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>SSA/ASS Untertitel</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="481"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Diese Option spezifiziert die Skalierung der Standard Schriftart, bei SSA/AAS Untertiteln, welche bei neu geöffneten Dateien angewendet wird.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="484"/>
         <source>Line spacing</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeilenabstand</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="486"/>
         <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bestimmung des Zeilenabstands. Kann negative Werte enthalten.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="406"/>
         <source>&amp;Font and colors</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Schriftart und Farben</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="412"/>
         <source>Enable &amp;normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Aktivieren von normalen Untertiteln</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="425"/>
         <source>Enable SSA/&amp;ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiviere SSA/&amp;ASS Untertitel</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="670"/>
         <source>Default s&amp;cale:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Standard Skalierung:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="869"/>
         <source>Defa&amp;ult scale:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Standard Skalierung:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="908"/>
         <source>&amp;Line spacing:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zeilenabstand:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="433"/>
         <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="unfinished"></translation>
+        <translation>Klick auf diese Schaltfläche, aktiviert die neue SSA / ASS-Bibliothek. Diese erlaubt die Anzeige der Untertitel mit mehreren Farben, Schriftarten, ...</translation>
     </message>
 </context>
 <context>
