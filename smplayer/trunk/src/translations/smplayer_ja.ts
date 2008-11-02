@@ -4506,7 +4506,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="780"/>
         <source>If this option is checked the initial volume will be set just before playback starts. This avoids a loud volume on startup. Requires at least MPlayer SVN r27872.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションがチェックされている場合初期音量は再生が開始する直前に設定されます。これは起動時の大きな音量を回避します。少なくとも MPlayer SVN r27872 を必要とします。</translation>
     </message>
 </context>
 <context>
@@ -6154,92 +6154,92 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="427"/>
         <source>Enable normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>通常の字幕を有効にする</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="429"/>
         <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>通常の/伝統的な字幕を選択するにはこのボタンをクリックします。この類の字幕は白い字幕のみ表示できます。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="431"/>
         <source>Enable SSA/ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>SSA/ASS 字幕を有効にする</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="435"/>
         <source>Normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>通常の字幕</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="456"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションは現在のビデオの字幕のサイズを変更しません。そうするには、字幕メニューからオプション &lt;i&gt;サイズ +&lt;/i&gt; および &lt;i&gt;サイズ -&lt;/i&gt; を使用します。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="479"/>
         <source>Default scale</source>
-        <translation type="unfinished"></translation>
+        <translation>既定のスケール</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="460"/>
         <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションは新しく開かれるファイルに使用される通常の字幕の既定のフォント スケールを指定します。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="463"/>
         <source>SSA/ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>SSA/ASS 字幕</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="481"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションは新しく開かれるファイルに使用される SSA/ASS 字幕の既定のフォント スケールを指定します。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="484"/>
         <source>Line spacing</source>
-        <translation type="unfinished"></translation>
+        <translation>行間</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="486"/>
         <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
-        <translation type="unfinished"></translation>
+        <translation>これは複数の行の区切りに使用される間を指定します。負の値にできます。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="406"/>
         <source>&amp;Font and colors</source>
-        <translation type="unfinished"></translation>
+        <translation>フォントと色(&amp;F)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="412"/>
         <source>Enable &amp;normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>通常の字幕を有効にする(&amp;N)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="425"/>
         <source>Enable SSA/&amp;ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>SSA/ASS 字幕を有効にする(&amp;A)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="670"/>
         <source>Default s&amp;cale:</source>
-        <translation type="unfinished"></translation>
+        <translation>既定のスケール(&amp;C):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="869"/>
         <source>Defa&amp;ult scale:</source>
-        <translation type="unfinished"></translation>
+        <translation>既定のスケール(&amp;U):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="908"/>
         <source>&amp;Line spacing:</source>
-        <translation type="unfinished"></translation>
+        <translation>行間(&amp;L):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="433"/>
         <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="unfinished"></translation>
+        <translation>新しい SSA/ASS ライブラリを有効にするにはこのボタンをクリックします。これは複数の色、フォントのある字幕の表示を可能にします...</translation>
     </message>
 </context>
 <context>
