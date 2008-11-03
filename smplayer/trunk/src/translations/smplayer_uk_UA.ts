@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="uk">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1522,32 +1523,32 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="365"/>
+        <location filename="../defaultgui.cpp" line="366"/>
         <source>Welcome to SMPlayer</source>
         <translation>Ласкаво просимо до SMPlayer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="388"/>
+        <location filename="../defaultgui.cpp" line="389"/>
         <source>Audio</source>
         <translation>Звук</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="389"/>
+        <location filename="../defaultgui.cpp" line="390"/>
         <source>Subtitle</source>
         <translation>Субтитри</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="382"/>
+        <location filename="../defaultgui.cpp" line="383"/>
         <source>&amp;Main toolbar</source>
         <translation>&amp;Головна панель</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="385"/>
+        <location filename="../defaultgui.cpp" line="386"/>
         <source>&amp;Language toolbar</source>
         <translation>&amp;Панель мов</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="379"/>
+        <location filename="../defaultgui.cpp" line="380"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Панелі</translation>
     </message>
@@ -1868,6 +1869,29 @@ Please check the permissions of that folder.</source>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="386"/>
         <source>Temporary file %1</source>
         <translation>Тимчасовий файл %1</translation>
+    </message>
+</context>
+<context>
+    <name>Gui</name>
+    <message>
+        <location filename="../testcorelib/test.cpp" line="41"/>
+        <source>&amp;Close</source>
+        <translation type="obsolete">&amp;Закрити</translation>
+    </message>
+    <message>
+        <location filename="../testcorelib/test.cpp" line="44"/>
+        <source>&amp;Open</source>
+        <translation type="obsolete">&amp;Відкрити</translation>
+    </message>
+    <message>
+        <location filename="../testcorelib/test.cpp" line="53"/>
+        <source>&amp;Stop</source>
+        <translation type="obsolete">&amp;Зупинити</translation>
+    </message>
+    <message>
+        <location filename="../testcorelib/test.cpp" line="57"/>
+        <source>&amp;Play</source>
+        <translation type="obsolete">Від&amp;творити</translation>
     </message>
 </context>
 <context>
@@ -3254,12 +3278,12 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefAdvanced</name>
     <message>
-        <location filename="../prefadvanced.cpp" line="365"/>
+        <location filename="../prefadvanced.cpp" line="377"/>
         <source>Advanced</source>
         <translation>Додатково</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="90"/>
+        <location filename="../prefadvanced.cpp" line="96"/>
         <source>Auto</source>
         <translation>Автоматично</translation>
     </message>
@@ -3299,12 +3323,12 @@ Example: resample=44100:0:0,volnorm</source>
 Приклад: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="454"/>
+        <location filename="../prefadvanced.cpp" line="468"/>
         <source>Log MPlayer output</source>
         <translation>Вихідний звіт MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="447"/>
+        <location filename="../prefadvanced.cpp" line="461"/>
         <source>Log SMPlayer output</source>
         <translation>Вихідний звіт SMPlayer</translation>
     </message>
@@ -3326,12 +3350,12 @@ The drop-down lists may provide already made regular expression for several lang
 Випадаючі списки можуть надавати готові регулярні вирази для різних мов.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="413"/>
+        <location filename="../prefadvanced.cpp" line="425"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
         <translation>Ця опція може зменшити мерехтіння, але може призвести до того, що зображення не буде показане як слід.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="470"/>
+        <location filename="../prefadvanced.cpp" line="484"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Фильтр для звітів SMPlayer</translation>
     </message>
@@ -3391,7 +3415,7 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>З&amp;мінити...</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="445"/>
+        <location filename="../prefadvanced.cpp" line="459"/>
         <source>Logs</source>
         <translation>Звіти</translation>
     </message>
@@ -3406,22 +3430,22 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Опції MP&amp;layer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="460"/>
+        <location filename="../prefadvanced.cpp" line="474"/>
         <source>Autosave MPlayer log</source>
         <translation>Автозбереження звіту MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="464"/>
+        <location filename="../prefadvanced.cpp" line="478"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
         <translation>Якщо увімкнено, звіт MPlayer буде збережено у вказаний файл кожного разу при початку відтворення нового файлу. Це призначається для зовнішніх програм, які таким чином можуть отримати інформацію про файл, що відтворюється.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="466"/>
+        <location filename="../prefadvanced.cpp" line="480"/>
         <source>Autosave MPlayer log filename</source>
         <translation>Назва файлу для автозбереження звіту MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="468"/>
+        <location filename="../prefadvanced.cpp" line="482"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
         <translation>Введіть шлях та назву файлу, в який буде збережено звіт MPlayer.</translation>
     </message>
@@ -3431,12 +3455,12 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>А&amp;втозбереження звіту MPlayer в файл</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="402"/>
+        <location filename="../prefadvanced.cpp" line="414"/>
         <source>Pass short filenames (8+3) to MPlayer</source>
         <translation>Передавати короткі назви (8+3) до MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="406"/>
+        <location filename="../prefadvanced.cpp" line="418"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
         <translation>В даний момент MPlayer не вміє відкривати назви файлів, в яких присутні символи не з місцевої кодової сторінки. Увімкнення цієї опції вкаже SMPlayer передавати до MPlayer коротку версію імен файлів, і тоді їх можна буде відкрити.</translation>
     </message>
@@ -3446,97 +3470,97 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Передавати &amp;короткі назви (8+3) до MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="367"/>
+        <location filename="../prefadvanced.cpp" line="379"/>
         <source>Monitor aspect</source>
         <translation>Відношення сторін монітора</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="368"/>
+        <location filename="../prefadvanced.cpp" line="380"/>
         <source>Select the aspect ratio of your monitor.</source>
         <translation>Виберіть формат  зображення Вашого монітора.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="376"/>
+        <location filename="../prefadvanced.cpp" line="388"/>
         <source>Run MPlayer in its own window</source>
         <translation>Запускати MPlayer у власному вікні</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="382"/>
+        <location filename="../prefadvanced.cpp" line="394"/>
         <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
         <translation>Якщо увімкнено, MPlayer буде запущено не у головному вікні SMPlayer, а у власному. Примітка: події клавіатури та миші будуть оброблюватись безпосередньо MPlayer, комбінації клавіш та кліки мишкою будуть працювати не так, як очікується, коли у фокусі вікно MPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="417"/>
+        <location filename="../prefadvanced.cpp" line="429"/>
         <source>Colorkey</source>
         <translation>Код кольору</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="420"/>
+        <location filename="../prefadvanced.cpp" line="432"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
         <translation>Якщо ви бачите частини відео по будь-яких інших вікнах, Ви можете змінити код кольору для виправлення цього. Спробуйте колір, близький до чорного.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="423"/>
+        <location filename="../prefadvanced.cpp" line="435"/>
         <source>Options for MPlayer</source>
         <translation>Опції для MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="425"/>
+        <location filename="../prefadvanced.cpp" line="437"/>
         <source>Options</source>
         <translation>Опції</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="427"/>
+        <location filename="../prefadvanced.cpp" line="439"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
         <translation>Тут Ви можете передати опції в MPlayer. Записуються через пробіли.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="429"/>
+        <location filename="../prefadvanced.cpp" line="441"/>
         <source>Video filters</source>
         <translation>Фільтри відео</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="431"/>
+        <location filename="../prefadvanced.cpp" line="443"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>Тут Ви можете додати відеофільтри для MPlayer. Записуються через коми. Не використовуйте пробіли!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="433"/>
+        <location filename="../prefadvanced.cpp" line="445"/>
         <source>Audio filters</source>
         <translation>Фильтри звуку</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="435"/>
+        <location filename="../prefadvanced.cpp" line="447"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>Тут Ви можете додати фільтри звуку для MPlayer. Записуються через коми. Не використовуйте пробіли!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="437"/>
+        <location filename="../prefadvanced.cpp" line="449"/>
         <source>MPlayer language</source>
         <translation>Мова MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="439"/>
+        <location filename="../prefadvanced.cpp" line="451"/>
         <source>End of file</source>
         <translation>Кінець файлу</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="440"/>
+        <location filename="../prefadvanced.cpp" line="452"/>
         <source>Select or type a regular expression for &apos;End of file&apos;</source>
         <translation>Виберіть або введіть регулярний вираз для &apos;Кінець файлу&apos;</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="442"/>
+        <location filename="../prefadvanced.cpp" line="455"/>
         <source>No video</source>
         <translation>Немає зображення</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="443"/>
+        <location filename="../prefadvanced.cpp" line="456"/>
         <source>Select or type a regular expression for &apos;No video&apos;</source>
         <translation>Виберіть або введіть регулярний вираз для &apos;Немає зображення</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="411"/>
+        <location filename="../prefadvanced.cpp" line="423"/>
         <source>Repaint the background of the video window</source>
         <translation>Перемалювати тло вікна із зображенням</translation>
     </message>
@@ -3546,32 +3570,32 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Перемалювати &amp;тло вікна із зображенням</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="370"/>
+        <location filename="../prefadvanced.cpp" line="382"/>
         <source>IPv4</source>
         <translation>IPv4</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="371"/>
+        <location filename="../prefadvanced.cpp" line="383"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
         <translation>Використовувати IPv4 для мережевих з&apos;єднань. Після помилки перемикати на IPv6 автоматично.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="373"/>
+        <location filename="../prefadvanced.cpp" line="385"/>
         <source>IPv6</source>
         <translation>IPv6</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="374"/>
+        <location filename="../prefadvanced.cpp" line="386"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
         <translation>Використовувати IPv6 для мережевих з&apos;єднань. Після помилки перемикати на IPv4 автоматично.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="384"/>
+        <location filename="../prefadvanced.cpp" line="396"/>
         <source>Rebuild index if needed</source>
         <translation>Відновлювати індекс при потребі</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="389"/>
+        <location filename="../prefadvanced.cpp" line="401"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
         <translation>Відновлювати індекс файлів якщо не знайдено, дозволяючи прокрутку. Корисно при неповно/помилково завантажених чи створених з помилками файлах. Ця опція працює тільки якщо в даному медіа підтримується прокрутка (тобто не stdin, pipe та ін.). Примітка: створення індекса займає деякий час.</translation>
     </message>
@@ -3601,27 +3625,27 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>&amp;Звіти</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="452"/>
+        <location filename="../prefadvanced.cpp" line="466"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
         <translation>Якщо увімкнено, SMPlayer зберігатиме повідомлення налагодження (ви можете переглянути звіт в &lt;b&gt;Налаштування -&gt; Дивитись звіти -&gt; SMPlayer&lt;/b&gt;). Ця інформація може бути корисною для розробників у випадку, коли ви знайдете помилку.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="458"/>
+        <location filename="../prefadvanced.cpp" line="472"/>
         <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
         <translation>Якщо увімкнено, SMPlayer буде зберігати повідомлення MPlayer (їх можна побачити у &lt;b&gt;Налаштування-&gt;Дивитись звіти-&gt;mplayer&lt;/b&gt;). У випадку проблем ці звіти можут містити важливу інформацію, так що радимо увімкнути.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="474"/>
+        <location filename="../prefadvanced.cpp" line="488"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>Ця опція дозволяє фільтрувати повідомлення SMPlayer, які будуть збережені у звіті. Тут Ви можете написати будь-який регулярний вираз.&lt;br&gt;Наприклад: &lt;i&gt;^Core::.*&lt;/i&gt; відобразить лише рядки, що починаються з &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="391"/>
+        <location filename="../prefadvanced.cpp" line="403"/>
         <source>Correct pts</source>
         <translation>Корегувати pts</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="399"/>
+        <location filename="../prefadvanced.cpp" line="411"/>
         <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
         <translation>Перемикає MPlayer в експериментальний режим, в якому мітки часу для відеокадрів обчислюються інакше і підтримуються фільтри відео, що додають нові кадри або змінюють мітки часу існуючих. Більш точні мітки можна побачити, наприклад, коли відтворювані субтитри синхронізовані зі змінами сцен, з увімкненою бібліотекою SSA/ASS. Без корегування pts синхронізація субтитрів буде порушена для деяких кадрів. Ця опція не працюватиме вірно з деякими демультиплексорами та кодеками.</translation>
     </message>
@@ -4418,7 +4442,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="780"/>
         <source>If this option is checked the initial volume will be set just before playback starts. This avoids a loud volume on startup. Requires at least MPlayer SVN r27872.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо увімкнено, початкова гучність буде встановлена прямо перед початком програвання. Це усуне високу гучність на початку. Портебує щонайменш MPlayer SVN r27872.</translation>
     </message>
 </context>
 <context>
@@ -5543,17 +5567,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="614"/>
         <source>Proportional to movie height</source>
-        <translation>Пропорційно до висоти клипу</translation>
+        <translation>Пропорційно до висоти кліпу</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="619"/>
         <source>Proportional to movie width</source>
-        <translation>Пропорційно до ширини клипу</translation>
+        <translation>Пропорційно до ширини кліпу</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="624"/>
         <source>Proportional to movie diagonal</source>
-        <translation>Пропорційно до діагоналі клипу</translation>
+        <translation>Пропорційно до діагоналі кліпу</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="711"/>
@@ -6051,92 +6075,92 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="427"/>
         <source>Enable normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Увімкнути звичайні субтитри</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="429"/>
         <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Натисніть на цю кнопку, щоб вибрати звичайні субтитри. Цей вид субтитрів може відображати тільки білі субтитри.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="431"/>
         <source>Enable SSA/ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Увімкнути субтитри SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="435"/>
         <source>Normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Звичайні субтитри</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="456"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ця опція НЕ змінює розмір субтитрів в поточному відео. Щоб це зробити, використовуйте опції &lt;i&gt;Розмір+&lt;/i&gt; та &lt;i&gt;Розмір-&lt;/i&gt; в меню субтитрів.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="479"/>
         <source>Default scale</source>
-        <translation type="unfinished"></translation>
+        <translation>Масштаб за замовчуванням</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="460"/>
         <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ця опція визначає масштаб шрифту за замовчуванням для звичайних субтитрів, що буде застосований для нових відкритий файлів.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="463"/>
         <source>SSA/ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Субтитри SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="481"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ця опція визначає масштаб шрифту за замовчуванням для субтитрів SSA/ASS, що буде застосований для нових відкритий файлів.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="484"/>
         <source>Line spacing</source>
-        <translation type="unfinished"></translation>
+        <translation>Відстань між рядками</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="486"/>
         <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
-        <translation type="unfinished"></translation>
+        <translation>Це визначає відстань, значення якої буде використано для розділення рядків. Може мати від&apos;ємне значення.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="406"/>
         <source>&amp;Font and colors</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Шрифт та кольори</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="412"/>
         <source>Enable &amp;normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Увімкнути &amp;звичайні субтитри</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="425"/>
         <source>Enable SSA/&amp;ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Увімкнути субтитри &amp;SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="670"/>
         <source>Default s&amp;cale:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ма&amp;сштаб за замовчуванням:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="869"/>
         <source>Defa&amp;ult scale:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Масштаб за замовчуванням:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="908"/>
         <source>&amp;Line spacing:</source>
-        <translation type="unfinished"></translation>
+        <translation>Відстань між &amp;рядками:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="433"/>
         <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="unfinished"></translation>
+        <translation>Натисніть цю кнопку, щоб увімкнути нову бібліотеку SSA/ASS. Це дозволить відображати субтитри з різними кольорами, шрифтами...</translation>
     </message>
 </context>
 <context>
@@ -6212,7 +6236,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="121"/>
         <source>specifies the directory for the configuration file (smplayer.ini).</source>
-        <translation>вказує каналог розміщення файлу конфігурації (smplayer.ini).</translation>
+        <translation type="obsolete">вказує каналог розміщення файлу конфігурації (smplayer.ini).</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="142"/>
@@ -6306,6 +6330,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="110"/>
         <source>%1 and %2</source>
         <translation>%1 та %2</translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="121"/>
+        <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
+        <translation>визначає теку, де smplayer зберігатиме свої файли налаштувань (smplayer.ini, smplayer_files.ini...)</translation>
     </message>
 </context>
 <context>
