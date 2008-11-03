@@ -576,7 +576,7 @@ Valóban felül akarja írni?</translation>
     <message>
         <location filename="../basegui.cpp" line="1189"/>
         <source>&amp;Postprocessing</source>
-        <translation>&amp;Postprocessing</translation>
+        <translation>&amp;Utófeldolgozás</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1190"/>
@@ -1413,39 +1413,39 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../basegui.cpp" line="1289"/>
         <source>Next video</source>
-        <translation type="unfinished"></translation>
+        <translation>Következő videó</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1337"/>
         <source>&amp;Track</source>
         <comment>video</comment>
-        <translation type="unfinished">&amp;Sáv</translation>
+        <translation>&amp;Sáv</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1409"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
-        <translation type="unfinished">&amp;Sáv</translation>
+        <translation>&amp;Hangsáv</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3315"/>
         <source>Warning - Using old MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Figyelem - Régi MPlayer használata</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3319"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
-        <translation type="unfinished"></translation>
+        <translation>A feltelepített %1 verziójú MPlayer elavult. Az SMPlayer nem tud vele jól együttműködni: egyes opciók nem fognak működni, felirat kiválasztás hibás lehet...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3322"/>
         <source>Please, update your MPlayer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kérem frissítse az MPlayert.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3323"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Ez a figyelmeztetés többet nem jelenik meg)</translation>
     </message>
 </context>
 <context>
@@ -1598,12 +1598,12 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="39"/>
         <source>Downloading...</source>
-        <translation type="unfinished">Letöltés...</translation>
+        <translation>Letöltés...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="57"/>
         <source>Downloading %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 letöltése</translation>
     </message>
 </context>
 <context>
@@ -1829,46 +1829,46 @@ Például: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="451"/>
         <source>Subtitle saved as %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Felirat elmentve %1 néven</translation>
     </message>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="474"/>
         <source>%1 subtitle(s) extracted</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 felirat kicsomagolva</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="488"/>
         <source>Overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>Felülírja?</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="489"/>
         <source>The file %1 already exits, overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 fájl már létezik, felül akarja írni?</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="406"/>
         <source>Error saving file</source>
-        <translation type="unfinished">Hiba a fájl mentésekor</translation>
+        <translation>Hiba a fájl mentése közben</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="409"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nem sikerült elmenteni a letöltött fájlta %1 könyvtárbaEllenőrizze a könyvtár jogosultságait.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="400"/>
         <source>Download failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Letöltés sikertelen</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="386"/>
         <source>Temporary file %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Átmeneti fájl: %1</translation>
     </message>
 </context>
 <context>
@@ -3620,32 +3620,32 @@ Például &lt;i&gt;^Core::.*&lt;/i&gt; esetén csak a &lt;i&gt;Core::&lt;/i&gt; 
     <message>
         <location filename="../prefadvanced.cpp" line="452"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ezt bejelöli, az SMPlayer rögzíteni fogja a debug üzeneteket (napló megtekinthető itt: &lt;b&gt;Opciók -&gt; Naplók megjelenítése -&gt; SMPplayer&lt;/b&gt;). Ez az információ nagyon hasznos lehet a fejlesztőnek a hibakeresésben.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="458"/>
         <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha bejelöli, az SMPlayer rögzíti az MPlayer kimenetét (megtekinthető itt: &lt;b&gt;Opciók -&gt; Naplók megjelenítése -&gt; MPlayer&lt;/b&gt;). Probléma esetén fontos információkat tartalmazhat, ezért érdemes ezt az opciót bejelölni.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="474"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez az opció lehetővé teszi a naplóban rögzített SMPlayer üzenetek szűrését. Ide írhat bármilyen szabályos kifejezést.Például &lt;i&gt;^Core::.*&lt;/i&gt; esetén csak a &lt;i&gt;Core::&lt;/i&gt; kezdetű sorok lesznek megjelenítve</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="391"/>
         <source>Correct pts</source>
-        <translation type="unfinished"></translation>
+        <translation>Pts korrigálása</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="399"/>
         <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az MPlayert egy kísérleti módba kapcsolja, amelyben a képkockák időcímkéi máshogyan számítódnak és támogatva lesznek az új képockákat hozzáadó vagy a meglévők időcímkéit módosító videó szűrők. A pontosabb időcímkék észlelhetők például jelenetváltáshoz időzített feliratok lejátszásakor engedélyezett SSA/ASS könyvtárral. Korrekt pts nélkül a felirat időzítése általában eltérhet néhány képkockával. Ez az opció nem működik helyesn néhány demuxerrel és kodekkel.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="179"/>
         <source>C&amp;orrect pts</source>
-        <translation type="unfinished"></translation>
+        <translation>Pts k&amp;orrigálása</translation>
     </message>
 </context>
 <context>
@@ -3814,7 +3814,7 @@ Például &lt;i&gt;^Core::.*&lt;/i&gt; esetén csak a &lt;i&gt;Core::&lt;/i&gt; 
     <message>
         <location filename="../prefgeneral.cpp" line="716"/>
         <source>Disable screensaver</source>
-        <translation>Képernyőkimélő kikapcsolása</translation>
+        <translation>Képernyőkímélő kikapcsolása</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="723"/>
@@ -3949,12 +3949,12 @@ Például &lt;i&gt;^Core::.*&lt;/i&gt; esetén csak a &lt;i&gt;Core::&lt;/i&gt; 
     <message>
         <location filename="../prefgeneral.cpp" line="677"/>
         <source>Postprocessing quality</source>
-        <translation>Postprocessing minőség</translation>
+        <translation>Utófeldolgozás minőség</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="680"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
-        <translation>A postprocessing szint dinamikus váltása az elérhető CPU időtől függően. A megadott szám lesz a maximálisan használt szint. Általában használható nagy szám is.</translation>
+        <translation>Az utófeldolgozás szint dinamikus váltása az elérhető CPU időtől függően. A megadott szám lesz a maximálisan használt szint. Általában használható nagy szám is.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="772"/>
@@ -4019,7 +4019,7 @@ Például &lt;i&gt;^Core::.*&lt;/i&gt; esetén csak a &lt;i&gt;Core::&lt;/i&gt; 
     <message>
         <location filename="../prefgeneral.ui" line="492"/>
         <source>Disable &amp;screensaver</source>
-        <translation>&amp;Képernyőkimélő kikapcsolása</translation>
+        <translation>&amp;Képernyőkímélő kikapcsolása</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="902"/>
@@ -4074,7 +4074,7 @@ Például &lt;i&gt;^Core::.*&lt;/i&gt; esetén csak a &lt;i&gt;Core::&lt;/i&gt; 
     <message>
         <location filename="../prefgeneral.ui" line="291"/>
         <source>&amp;Enable postprocessing by default</source>
-        <translation>Postprocessing &amp;bekapcsolása alapból</translation>
+        <translation>Utófeldolgozás &amp;bekapcsolása alapból</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="778"/>
@@ -4134,7 +4134,7 @@ Például &lt;i&gt;^Core::.*&lt;/i&gt; esetén csak a &lt;i&gt;Core::&lt;/i&gt; 
     <message>
         <location filename="../prefgeneral.cpp" line="674"/>
         <source>Enable postprocessing by default</source>
-        <translation>Postprocessing bekapcsolása alapból</translation>
+        <translation>Utófeldolgozás bekapcsolása alapból</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="762"/>
@@ -4189,7 +4189,7 @@ Például &lt;i&gt;^Core::.*&lt;/i&gt; esetén csak a &lt;i&gt;Core::&lt;/i&gt; 
     <message>
         <location filename="../prefgeneral.cpp" line="675"/>
         <source>Postprocessing will be used by default on new opened files.</source>
-        <translation>Postprocessing használata alapból az újonnan megnyitott fájlokon.</translation>
+        <translation>Utófeldolgozás használata alapból az újonnan megnyitott fájlokon.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="808"/>
@@ -4239,7 +4239,7 @@ Például &lt;i&gt;^Core::.*&lt;/i&gt; esetén csak a &lt;i&gt;Core::&lt;/i&gt; 
     <message>
         <location filename="../prefgeneral.cpp" line="119"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Itt megadhatja a preferált nyelvet a hanghoz és a felirathoz. Amennyiben egy média több hangot vagy feliratot tartalmaz, az SMPlayer megpróbálja használni a preferált nyelvet.&lt;br&gt;Ez csak akkor fog működni, ha a média tartalmaz információt a hangsávok és feliratok nyelvéről, mint a DVD vagy mkv fájloknál.&lt;br&gt;Ez a mező szabályok kifejezéseket fogad el. Például: &lt;b&gt;es|esp|spa&lt;/b&gt; ez kiválasztja a sávokat amelyek egyeznek ezekkel: &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; vagy &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Itt megadhatja a preferált nyelvet a hang és a feliratsávokhoz. Amennyiben egy média több hang vagy feliratsávot tartalmaz, az SMPlayer megpróbálja használni a preferált nyelvet.&lt;br&gt;Ez csak akkor fog működni, ha a média tartalmaz információt a hang és feliratsávok nyelvéről, mint a DVD vagy mkv fájlok.&lt;br&gt;Ez a mező szabályos kifejezéseket fogad el. Például: &lt;b&gt;es|esp|spa&lt;/b&gt; kiválasztja a sávokat amelyek egyeznek ezekkel: &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; vagy &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="981"/>
@@ -4415,82 +4415,82 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="686"/>
         <source>Default zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Alap nagyítás</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="688"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Itt beállíthatja az új videóknál használt alapértelmezett nagyítást.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="390"/>
         <source>Default &amp;zoom:</source>
-        <translation type="unfinished"></translation>
+        <translation>Alap &amp;nagyítás:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="634"/>
         <source>Here you must specify the mplayer executable that SMPlayer will use.&lt;br&gt;SMPlayer requires at least MPlayer 1.0rc1 (although a recent revision from SVN is highly recommended).</source>
-        <translation type="unfinished"></translation>
+        <translation>Itt kell beállítania a futtatható MPlayer fájlt amit az SMPlayer használni fog.&lt;br&gt;Az SMPlayer legalább 1.0rc1-es MPlayert igényel (bár egy friss SVN verzió ajánlott).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="636"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez a beállítás hibás, az SMPlayer semmit nem fog tudni lejátszani!</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="641"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If this field is empty the screenshot feature will be disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>Itt lehet megadni a könyvtárat ahol az SMPlayer a készített pillanatfelvételeket tárolja. Ha ez a mező üresen marad a pillanatkép funkció le lesz tiltva.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="667"/>
         <source>Select the video output driver. %1 provides the best performance.</source>
-        <translation type="unfinished"></translation>
+        <translation>Válassza ki a videó kimeneti meghajtót. A %1 biztosítja a legjobb teljesítményt.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="731"/>
         <source>%1 is the recommended one. Try to avoid %2 and %3, they are slow and can have an impact on performance.</source>
-        <translation type="unfinished"></translation>
+        <translation>A %1 az ajánlott. Próbálja elkerülni a %2 és %3 meghajtókat, lassúak és hatással lehetnek a teljesítményre.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="647"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az SMPlayer megjegyzi a beállításokat minden általa lejátszott fájlhoz (kiválasztott hangsáv, hangerő, szűrők...). Kapcsolja ki ezt az opciót ha nem kívánja ezt a funkciót.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="651"/>
         <source>If you check this option, SMPlayer will play all files from the beginning.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ezt az opciót bejelöli, minden fájl lejátszása az elejéről lesz kezdve.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="660"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezen opció bekapcsolásával a lejátszás szünetelni fog, ha a főablakot lekicsinyíti. Az ablak visszaállításakor a lejátszás folytatódik.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="720"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jelölje be a képernyőkímélő lejátszás közbeni tiltásához.&lt;br&gt;A képernyőkímélő a lejátszás végeztével engedéyezve lesz.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="796"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Itt megadhatja a preferált nyelvet a hangsávokhoz. Amennyiben egy média több hangsávot tartalmaz, az SMPlayer megpróbálja használni a preferált nyelvet.&lt;br&gt;Ez csak akkor fog működni, ha a média tartalmaz információt a hangsávok nyelvéről, mint a DVD vagy mkv fájlok.&lt;br&gt;Ez a mező szabályos kifejezéseket fogad el. Például: &lt;b&gt;es|esp|spa&lt;/b&gt; kiválasztja a hangsávokat amelyek egyeznek ezekkel: &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; vagy &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="806"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Itt megadhatja a preferált nyelvet a feliratokhoz. Amennyiben egy média több feliratot tartalmaz, az SMPlayer megpróbálja használni a preferált nyelvet.&lt;br&gt;Ez csak akkor fog működni, ha a média tartalmaz információt a feliratok nyelvéről, mint a DVD vagy mkv fájlok.&lt;br&gt;Ez a mező szabályos kifejezéseket fogad el. Például: &lt;b&gt;es|esp|spa&lt;/b&gt; kiválasztja a feliratokat amelyek egyeznek ezekkel: &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; vagy &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="521"/>
         <source>Ou&amp;tput driver:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kimene&amp;ti meghajtó:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="780"/>
         <source>If this option is checked the initial volume will be set just before playback starts. This avoids a loud volume on startup. Requires at least MPlayer SVN r27872.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez be van jelölve, a hangerő a lejátszás kezdete előtt lesz beállítva. Ezzel elkerülhető a magas hangerő a kezdésnél. Legalább MPlayer SVN r27872-t igényel.</translation>
     </message>
 </context>
 <context>
@@ -4798,32 +4798,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="274"/>
         <source>X Button 1</source>
-        <translation type="unfinished"></translation>
+        <translation>X gomb 1</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="275"/>
         <source>Select the action for the X button 1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Válassza ki az X gomb 1-hez rendelendő műveletet.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="277"/>
         <source>X Button 2</source>
-        <translation type="unfinished"></translation>
+        <translation>X gomb 2</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="278"/>
         <source>Select the action for the X button 2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Válassza ki az X gomb 2-höz rendelendő műveletet.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="81"/>
         <source>Show video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Videó kiegyenlítő megjelenítése</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="82"/>
         <source>Show audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Hang kiegyenlítő megjelenítése</translation>
     </message>
 </context>
 <context>
@@ -5194,7 +5194,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="50"/>
         <source>Select the priority for the MPlayer process.</source>
-        <translation>Válasszon egy priorítást az MPlayer folyamathoz.</translation>
+        <translation>Válasszon egy prioritást az MPlayer folyamathoz.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="82"/>
@@ -5269,7 +5269,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="240"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation>Állítsa be az MPlayer folyamat prioritását a Windowsban meghatározott prioritásoknak megfelelően.&lt;br&gt;&lt;b&gt;Figyelem:&lt;/b&gt; A valósidejű priorítás használata rendszerlefagyást okozhat.</translation>
+        <translation>Állítsa be az MPlayer folyamat prioritását a Windowsban meghatározott prioritásoknak megfelelően.&lt;br&gt;&lt;b&gt;Figyelem:&lt;/b&gt; A valósidejű prioritás használata rendszerlefagyást okozhat.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="244"/>
@@ -5454,7 +5454,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="527"/>
         <source>Cache for &amp;audio CDs:</source>
-        <translation>&amp;Audió CD gyorsítótár:</translation>
+        <translation>Audió &amp;CD gyorsítótár:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="308"/>
@@ -5492,42 +5492,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="36"/>
         <source>Playlist</source>
-        <translation type="unfinished">Lejátszási lista</translation>
+        <translation>Lejátszási lista</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="80"/>
         <source>Automatically add files to playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Fájlok automatikus hozzáadása a lejátszási listához</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="84"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció engedélyezve van, egy fájl megnyitásakor az SMPlyaer törli a lejátszási listát és hozzáadja a fájlt. DVDk, CDk és VCDk esetén a lemezen található minden szám hozzá lesz adva.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="86"/>
         <source>Add consecutive files</source>
-        <translation type="unfinished"></translation>
+        <translation>Soron következő fájok hozzáadása</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="89"/>
         <source>If this option is enabled, SMPlayer will look for consecutive files (e.g. video_1.avi, video_2.avi...) and if found, they&apos;ll be added to the playlist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció engedélyezve van, az SMPlayer soron következő fájlokat keres (pl. video_1.avi, video_2.avi...) és ha talál, hozzáadja őket a lejátszási listához.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="32"/>
         <source>&amp;Playlist</source>
-        <translation type="unfinished">Lejátszási l&amp;ista</translation>
+        <translation>Lejátszási l&amp;ista</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="38"/>
         <source>&amp;Automatically add files to playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Fájlok &amp;automatikus hozzáadása a lejátszási listához</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="72"/>
         <source>Add &amp;consecutive files</source>
-        <translation type="unfinished"></translation>
+        <translation>Soron &amp;következő fájok hozzáadása</translation>
     </message>
 </context>
 <context>
@@ -5830,7 +5830,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="504"/>
         <source>Border color</source>
-        <translation>Körvonal szín</translation>
+        <translation>Keret szín</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="505"/>
@@ -5855,375 +5855,375 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="402"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Válassza ki a felirat fájlokhoz használt alapértelmezett kódolást.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="404"/>
         <source>Try to autodetect for this language</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatikus felismerés ehhez a nyelvhez</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="409"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció aktív, a feliratok kódolásának megállapítása az adott nyelvhez lesz megpróbálva. Ha az automatikus felismerés sikertelen, az alap kódolás lesz használva. Ez az opció ENCA támogatással fordított MPlayert igényel.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="411"/>
         <source>Subtitle language</source>
-        <translation type="unfinished"></translation>
+        <translation>Felirat nyelve</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="413"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>Válassza ki az automatikus kódolás megállapításhoz használt nyelvet.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="126"/>
         <source>Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Kódolás</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="198"/>
         <source>Try to a&amp;utodetect for this language:</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;utomatikus felismerés ehhez a nyelvhez:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="440"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Itt kiválaszthatja a feliratokhoz használt TTF betűtípust. Általában sok TTF betűtípust találhat itt: %1</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="528"/>
         <source>Outline</source>
-        <translation type="unfinished"></translation>
+        <translation>Körvonal</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="490"/>
         <source>Select the font for the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Válassza ki a betűtípust a feliratokhoz.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="493"/>
         <source>The size in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>A méret pixelben.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Félkövér</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="496"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha bejelöli, a szöveg &lt;b&gt;félkövéren&lt;b&gt; jelenik meg.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="498"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Dőlt</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="499"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha bejelöli, a szöveg &lt;i&gt;dőlten&lt;i&gt; jelenik meg.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="507"/>
         <source>Left margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Bal margó</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="508"/>
         <source>Specifies the left margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Beállítja a bal margót pixelekben.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="510"/>
         <source>Right margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Jobb margó</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="511"/>
         <source>Specifies the right margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Beállítja a jobb margót pixelekben.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="513"/>
         <source>Vertical margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Függőleges margó</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="514"/>
         <source>Specifies the vertical margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Beállítja a függőleges margót pixelekben.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="516"/>
         <source>Horizontal alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Vízszintes igazítás</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="518"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
-        <translation type="unfinished"></translation>
+        <translation>Beállítja a vízszintes igazítást. Lehetséges értékek: bal, közép és jobb.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="520"/>
         <source>Vertical alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Függőleges igazítás</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="522"/>
         <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
-        <translation type="unfinished"></translation>
+        <translation>Beállítja a függőleges igazítást. Lehetséges értékek: lent, középen és fent.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="524"/>
         <source>Border style</source>
-        <translation type="unfinished"></translation>
+        <translation>Keret stílus</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="526"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
-        <translation type="unfinished"></translation>
+        <translation>Meghatároza a keret stílusát. Lehetséges értékek: körvonal és átlátszatlan doboz.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="532"/>
         <source>Shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>Árnyék</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="998"/>
         <source>Si&amp;ze:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Méret:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1040"/>
         <source>Bol&amp;d</source>
-        <translation type="unfinished"></translation>
+        <translation>Fé&amp;lkövér</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1047"/>
         <source>&amp;Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Dő&amp;lt</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1059"/>
         <source>Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Színek</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1077"/>
         <source>&amp;Text:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Szöveg:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1097"/>
         <source>&amp;Border:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ke&amp;ret:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1120"/>
         <source>Margins</source>
-        <translation type="unfinished"></translation>
+        <translation>Margók</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1138"/>
         <source>L&amp;eft:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bal:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1154"/>
         <source>&amp;Right:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Jobb:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1170"/>
         <source>Verti&amp;cal:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fü&amp;ggőleges:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1202"/>
         <source>Alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Igazítás</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1220"/>
         <source>&amp;Horizontal:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ví&amp;zszintes:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1236"/>
         <source>&amp;Vertical:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Függőleges:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1257"/>
         <source>Border st&amp;yle:</source>
-        <translation type="unfinished"></translation>
+        <translation>Keret stíl&amp;us:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1283"/>
         <source>&amp;Outline:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kör&amp;vonal:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1306"/>
         <source>Shado&amp;w:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ár&amp;nyék:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="961"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
-        <translation type="unfinished"></translation>
+        <translation>A következő opciók lehetővé teszik a nem stílusos feliratokhoz (srt, sub...) használt stílus megadását.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="107"/>
         <source>Left</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>Bal</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="108"/>
         <source>Centered</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>Közép</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="109"/>
         <source>Right</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>Jobb</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="114"/>
         <source>Bottom</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished">Lent</translation>
+        <translation>Lent</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="115"/>
         <source>Middle</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>Közép</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="116"/>
         <source>Top</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished">Fent</translation>
+        <translation>Fent</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="121"/>
         <source>Outline</source>
         <comment>border style</comment>
-        <translation type="unfinished"></translation>
+        <translation>Körvonal</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="122"/>
         <source>Opaque box</source>
         <comment>border style</comment>
-        <translation type="unfinished"></translation>
+        <translation>Átlátszatlan doboz</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="530"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha a keret stílusa &lt;i&gt;körvonal&lt;/i&gt;, ez az opció meghatározza a szöveg körüli körvonal vastagságát pixelekben.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="534"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha a keret stílusa &lt;i&gt;körvonal&lt;/i&gt;, ez az opció meghatározza a szöveg mögötti árnyék mélységét pixelekben.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="427"/>
         <source>Enable normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Normál feliratok engedélyezése</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="429"/>
         <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kattintson erre a gombra a normál/hagyományos feliratok kiválasztásához. Az ilyen feliratok csak fehér szöveget tudnak megjeleníteni.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="431"/>
         <source>Enable SSA/ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>SSA/ASS feliratok engedélyezése</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="435"/>
         <source>Normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Normál feliratok</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="456"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez az opció NEM változtatja meg a feliratok méretét a jelenlegi videóban. Ahhoz használja a &lt;i&gt;Méret+&lt;/i&gt; és &lt;i&gt;Méret-&lt;/i&gt; parancsokat a felirat menüben.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="479"/>
         <source>Default scale</source>
-        <translation type="unfinished"></translation>
+        <translation>Alap méret</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="460"/>
         <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez az opció meghatározza a normál feliratokhoz használt alap betűméretet újonnan megnyitott fájloknál.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="463"/>
         <source>SSA/ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>SSA/ASS feliratok</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="481"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez az opció meghatározza az SSA/ASS feliratokhoz használt alap betűméretet újonnan megnyitott fájloknál.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="484"/>
         <source>Line spacing</source>
-        <translation type="unfinished"></translation>
+        <translation>Sorköz</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="486"/>
         <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
-        <translation type="unfinished"></translation>
+        <translation>Meghatározza a sorokat elválasztó távolságot. Negatív érték is használható.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="406"/>
         <source>&amp;Font and colors</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Betűtípus és színek</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="412"/>
         <source>Enable &amp;normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Normál feliratok engedélyezése</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="425"/>
         <source>Enable SSA/&amp;ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>SSA/&amp;ASS feliratok engedélyezése</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="670"/>
         <source>Default s&amp;cale:</source>
-        <translation type="unfinished"></translation>
+        <translation>Alap &amp;méret:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="869"/>
         <source>Defa&amp;ult scale:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ala&amp;p &amp;méret:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="908"/>
         <source>&amp;Line spacing:</source>
-        <translation type="unfinished"></translation>
+        <translation>So&amp;rköz:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="433"/>
         <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="unfinished"></translation>
+        <translation>Kattintson erre a gombra az új SSA/ASS könyvtár engedélyezéséhez. Ez lehetővé teszi a feliratok megjelenítését több színnel, betűtípussal...</translation>
     </message>
 </context>
 <context>
@@ -6414,21 +6414,21 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message numerus="yes">
         <location filename="../helper.cpp" line="109"/>
         <source>%1 second(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 másodperc</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="108"/>
         <source>%1 minute(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 perc</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="110"/>
         <source>%1 and %2</source>
-        <translation type="unfinished">%1 és %2</translation>
+        <translation>%1 és %2</translation>
     </message>
 </context>
 <context>
@@ -6436,7 +6436,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../findsubtitles/quazip/quazipfile.cpp" line="141"/>
         <source>ZIP/UNZIP API error %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ZIP/UNZIP API hiba %1</translation>
     </message>
 </context>
 <context>
@@ -6485,22 +6485,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="13"/>
         <source>Subtitle selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Felirat kiválasztás</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="19"/>
         <source>This archive contains more than one subtitle file. Please choose the ones you want to extract.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez az archívum több feliratfájlt tartalmaz. Válassza ki a kicsomagolandókat.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="68"/>
         <source>Select All</source>
-        <translation type="unfinished">Mindet kijelöli</translation>
+        <translation>Mindet kijelöli</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="75"/>
         <source>Select None</source>
-        <translation type="unfinished">Minden kijelölés törlése</translation>
+        <translation>Minden kijelölés törlése</translation>
     </message>
 </context>
 <context>
