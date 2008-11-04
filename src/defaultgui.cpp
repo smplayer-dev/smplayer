@@ -599,15 +599,19 @@ void DefaultGui::loadConfig() {
 			s = pref->default_size;
 		}
 
-		move(p);
-		resize(s);
-
 		// Check if window is outside of the screen
 		QSize screensize = DesktopInfo::desktop_size(this);
-		if ( (pos().x() > screensize.width()) || (pos().y() > screensize.height()) ) {
-			qWarning("DefaultGui::loadConfig: window is outside of the screen");
-			move(0,0);
+		if ( (p.x() > screensize.width()) || (p.x() < 0) ) {
+			qWarning("DefaultGui::loadConfig: x is outside of the screen, set to 0");
+			p.setX(0);
 		}
+		if ( (p.y() > screensize.height()) || (p.y() < 0) ) { 
+			qWarning("DefaultGui::loadConfig: y is outside of the screen, set to 0");
+			p.setY(0);
+		}
+
+		move(p);
+		resize(s);
 	}
 
 #if USE_CONFIGURABLE_TOOLBARS
