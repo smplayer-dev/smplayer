@@ -601,13 +601,11 @@ void DefaultGui::loadConfig() {
 
 		// Check if window is outside of the screen
 		QSize screensize = DesktopInfo::desktop_size(this);
-		if ( (p.x() > screensize.width()) || (p.x() < 0) ) {
-			qWarning("DefaultGui::loadConfig: x is outside of the screen, set to 0");
-			p.setX(0);
-		}
-		if ( (p.y() > screensize.height()) || (p.y() < 0) ) { 
-			qWarning("DefaultGui::loadConfig: y is outside of the screen, set to 0");
-			p.setY(0);
+		if ( (p.x() > screensize.width()) || (p.y() > screensize.height()) || 
+             (p.x() < 0) || (p.y() < 0) )
+		{
+			p = QPoint(0,0);
+			qWarning("DefaultGui::loadConfig: window is outside of the screen, moved to 0x0");
 		}
 
 		move(p);
