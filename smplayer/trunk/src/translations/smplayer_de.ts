@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de_DE">
-<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1533,32 +1532,32 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="365"/>
+        <location filename="../defaultgui.cpp" line="366"/>
         <source>Welcome to SMPlayer</source>
         <translation>Willkommen im SMPlayer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="388"/>
+        <location filename="../defaultgui.cpp" line="389"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="389"/>
+        <location filename="../defaultgui.cpp" line="390"/>
         <source>Subtitle</source>
         <translation>Untertitel</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="382"/>
+        <location filename="../defaultgui.cpp" line="383"/>
         <source>&amp;Main toolbar</source>
         <translation>&amp;Hauptsymbolleiste</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="385"/>
+        <location filename="../defaultgui.cpp" line="386"/>
         <source>&amp;Language toolbar</source>
         <translation>&amp;Symbolleiste für Sprachen</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="379"/>
+        <location filename="../defaultgui.cpp" line="380"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Symbolleisten</translation>
     </message>
@@ -3266,12 +3265,12 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefAdvanced</name>
     <message>
-        <location filename="../prefadvanced.cpp" line="365"/>
+        <location filename="../prefadvanced.cpp" line="377"/>
         <source>Advanced</source>
         <translation>Erweitert</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="90"/>
+        <location filename="../prefadvanced.cpp" line="96"/>
         <source>Auto</source>
         <translation>Auto</translation>
     </message>
@@ -3312,12 +3311,12 @@ Regeln wie bei den Videofiltern.
 Beispiel: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="454"/>
+        <location filename="../prefadvanced.cpp" line="468"/>
         <source>Log MPlayer output</source>
         <translation>Log mplayer Ausgabe</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="447"/>
+        <location filename="../prefadvanced.cpp" line="461"/>
         <source>Log SMPlayer output</source>
         <translation>Log SMPlayer Ausgabe</translation>
     </message>
@@ -3339,7 +3338,7 @@ The drop-down lists may provide already made regular expression for several lang
 Die Auswahl-Liste enthält evt.schon die regulären Ausdrücke.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="413"/>
+        <location filename="../prefadvanced.cpp" line="425"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
         <translation>Aktivieren der Option kann Flackern/Flimmern verringern, aber es könnte auch sein, dass das Video nicht mehr ordentlich dargestellt wird. </translation>
     </message>
@@ -3354,7 +3353,7 @@ Die Auswahl-Liste enthält evt.schon die regulären Ausdrücke.</translation>
         <translation type="obsolete">Optional speichert smplayer die debugging Informationen von smplayer. (Hier zu finden &lt;b&gt;Optionen-&gt;Logs einsehen-&gt;smplayer&lt;/b&gt;) Diese Informationen können wichtig für Entwickler, bei der Fehlersuche, sein.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="470"/>
+        <location filename="../prefadvanced.cpp" line="484"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Filter für SMPlayer Logs</translation>
     </message>
@@ -3419,7 +3418,7 @@ Die Auswahl-Liste enthält evt.schon die regulären Ausdrücke.</translation>
         <translation>&amp;Ändern…</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="445"/>
+        <location filename="../prefadvanced.cpp" line="459"/>
         <source>Logs</source>
         <translation>Logs</translation>
     </message>
@@ -3434,22 +3433,22 @@ Die Auswahl-Liste enthält evt.schon die regulären Ausdrücke.</translation>
         <translation>&amp;Optionen für Mplayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="460"/>
+        <location filename="../prefadvanced.cpp" line="474"/>
         <source>Autosave MPlayer log</source>
         <translation>MPlayer Log automatisch speichern</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="464"/>
+        <location filename="../prefadvanced.cpp" line="478"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
         <translation>Mit dieser Option wird MPlayer Log in die angegebene Datei gespeichert, jedesmal wenn eine neue Datei abgespielt wird. Es ist gedacht für externe Anwendungen, die Informationen über die abgespielte Datei erhalten können.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="466"/>
+        <location filename="../prefadvanced.cpp" line="480"/>
         <source>Autosave MPlayer log filename</source>
         <translation>MPlayer Log Dateiname automatisch speichern</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="468"/>
+        <location filename="../prefadvanced.cpp" line="482"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
         <translation>Eingabe Pfadangabe und Dateiname, zur Speicherung der Mplayer Log-Datei. </translation>
     </message>
@@ -3459,12 +3458,12 @@ Die Auswahl-Liste enthält evt.schon die regulären Ausdrücke.</translation>
         <translation>&amp;Automatisches speichern von MPlayer Log zu Datei</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="402"/>
+        <location filename="../prefadvanced.cpp" line="414"/>
         <source>Pass short filenames (8+3) to MPlayer</source>
         <translation>Kurze Dateinamen (8+3) an MPlayer weiter leiten</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="406"/>
+        <location filename="../prefadvanced.cpp" line="418"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
         <translation>Gegenwärtig kann MPlayer keine Dateinamen öffnen, die Charaktere außerhalb des lokalen Zeichensatzes enthalten. SMplayer leitet mit dieser Option, die Version der kurzen Dateinamen an MPlayer weiter und er wird auf diese Art in der Lage sein, sie auch zu öffnen.</translation>
     </message>
@@ -3474,97 +3473,97 @@ Die Auswahl-Liste enthält evt.schon die regulären Ausdrücke.</translation>
         <translation>&amp;Kurze Dateinamen (8+3) an MPlayer weiter leiten</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="367"/>
+        <location filename="../prefadvanced.cpp" line="379"/>
         <source>Monitor aspect</source>
         <translation>Seitenverhältnis</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="368"/>
+        <location filename="../prefadvanced.cpp" line="380"/>
         <source>Select the aspect ratio of your monitor.</source>
         <translation>Auswahl Aspect Ratio des Monitors.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="376"/>
+        <location filename="../prefadvanced.cpp" line="388"/>
         <source>Run MPlayer in its own window</source>
         <translation>Wiedergabe im MPlayer-Fenster</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="382"/>
+        <location filename="../prefadvanced.cpp" line="394"/>
         <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
         <translation>Mit dieser Option wird das MPlayer-Fenster nicht im SMPlayer-Fenster eingebettet, sondern die Ausgabe erfolgt direkt über MPlayer. Maus und Tastatur werden direkt von MPlayer abgefragt, SMPlayer Tastaturkurz- und Maus-Tasten Befehle werden wahrscheinlich nicht funktionieren, wenn das MPlayer-Fenster den Fokus hat.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="417"/>
+        <location filename="../prefadvanced.cpp" line="429"/>
         <source>Colorkey</source>
         <translation>Farbschlüssel</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="420"/>
+        <location filename="../prefadvanced.cpp" line="432"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
         <translation>Wenn Teile des Videos über ein Fenster hinaus verschoben sind, kann der Fehler mit Änderungen des Farbschlüssels behoben werden. Versuche eine Farbe in Richtung Schwarz.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="423"/>
+        <location filename="../prefadvanced.cpp" line="435"/>
         <source>Options for MPlayer</source>
         <translation>Optionen für MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="425"/>
+        <location filename="../prefadvanced.cpp" line="437"/>
         <source>Options</source>
         <translation>Optionen</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="427"/>
+        <location filename="../prefadvanced.cpp" line="439"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
         <translation>Hier können Optionen für MPlayer hinzugefügt werden. Optionen seperat schreiben mit Freizeichen.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="429"/>
+        <location filename="../prefadvanced.cpp" line="441"/>
         <source>Video filters</source>
         <translation>Videofilter</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="431"/>
+        <location filename="../prefadvanced.cpp" line="443"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>Hier können Videofilter für MPlayer hinzugefügt werden. Kommandos seperat schreiben. Keine Freizeichen!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="433"/>
+        <location filename="../prefadvanced.cpp" line="445"/>
         <source>Audio filters</source>
         <translation>Audiofilter</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="435"/>
+        <location filename="../prefadvanced.cpp" line="447"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>Hier können Audiofilter für MPlayer hinzugefügt werden. Kommandos seperat schreiben. Keine Freizeichen!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="437"/>
+        <location filename="../prefadvanced.cpp" line="449"/>
         <source>MPlayer language</source>
         <translation>MPlayer Sprache</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="439"/>
+        <location filename="../prefadvanced.cpp" line="451"/>
         <source>End of file</source>
         <translation>Dateiende</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="440"/>
+        <location filename="../prefadvanced.cpp" line="452"/>
         <source>Select or type a regular expression for &apos;End of file&apos;</source>
         <translation>Auswahl, oder Eingabe eines regulären Ausdrucks für &quot;Ende der Datei&quot;</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="442"/>
+        <location filename="../prefadvanced.cpp" line="455"/>
         <source>No video</source>
         <translation>Kein Video</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="443"/>
+        <location filename="../prefadvanced.cpp" line="456"/>
         <source>Select or type a regular expression for &apos;No video&apos;</source>
         <translation>Auswahl, oder Eingabe eines regulären Ausdrucks für &quot;Kein Video&quot;</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="411"/>
+        <location filename="../prefadvanced.cpp" line="423"/>
         <source>Repaint the background of the video window</source>
         <translation>Hintergrund vom Videofenster ausfüllen</translation>
     </message>
@@ -3574,22 +3573,22 @@ Die Auswahl-Liste enthält evt.schon die regulären Ausdrücke.</translation>
         <translation>&amp;Hintergrund vom Videofenster ausfüllen</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="370"/>
+        <location filename="../prefadvanced.cpp" line="382"/>
         <source>IPv4</source>
         <translation>IPv4</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="371"/>
+        <location filename="../prefadvanced.cpp" line="383"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
         <translation>Benutze IPv4 Netzwerk-Verbindungen. Fällt automatisch auf IPv6 zurück.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="373"/>
+        <location filename="../prefadvanced.cpp" line="385"/>
         <source>IPv6</source>
         <translation>IPv6</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="374"/>
+        <location filename="../prefadvanced.cpp" line="386"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
         <translation>Benutze IPv6 Netzwerk-Verbindungen. Fällt automatisch auf IPv4 zurück.</translation>
     </message>
@@ -3614,12 +3613,12 @@ Die Auswahl-Liste enthält evt.schon die regulären Ausdrücke.</translation>
         <translation>Lo&amp;gs</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="384"/>
+        <location filename="../prefadvanced.cpp" line="396"/>
         <source>Rebuild index if needed</source>
         <translation>Index neu erstellen falls benötigt</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="389"/>
+        <location filename="../prefadvanced.cpp" line="401"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
         <translation>Baut Index der Datei wiederauf, mit der Erlaubnis zu suchen, wenn kein Index gefunden wurde. Nützlich bei unvollstänigen/defekten Downloads, oder schlecht erstellten Dateien. Die Option funktioniert nur wenn das eigentliche Media Suchfunktionen unterstützt (nicht mit stdin,pipe, etc).&lt;br&gt; Hinweis:Erstellen von einem Index kann einige Zeit dauern.</translation>
     </message>
@@ -3629,27 +3628,27 @@ Die Auswahl-Liste enthält evt.schon die regulären Ausdrücke.</translation>
         <translation>&amp;Index neu erstellen falls benötigt</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="452"/>
+        <location filename="../prefadvanced.cpp" line="466"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
         <translation>Die Ausgabeinformationen von Mplayer kann optinoal von SMPlayer gespeichert werden (Hier zu finden &lt;b&gt;Optionen -&gt; Logs einsehen -&gt; MPlayer&lt;/b&gt;). Die Information kann für Entwickler nützlich sein, wenn ein Fehler gefunden wird.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="458"/>
+        <location filename="../prefadvanced.cpp" line="472"/>
         <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
         <translation>Die Ausgabeinformationen von Mplayer kann optinoal von SMPlayer gespeichert werden (Hier zu finden &lt;b&gt;Optionen -&gt; Logs einsehen -&gt; MPlayer&lt;/b&gt;). In Problemfällen können die Logs wichtige Informationen enthalten, daher wird diese Option empfohlen.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="474"/>
+        <location filename="../prefadvanced.cpp" line="488"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>Optional können Nachrichten von SMPlayer gefiltert werden. Hier kann man irgendeinen regelulärer Ausdruck schreiben.&lt;br&gt;Zum Beispiel: &lt;i&gt;^Core::.*&lt;/i&gt; Nur Zeilen werden dargestellt, beginned mit &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="391"/>
+        <location filename="../prefadvanced.cpp" line="403"/>
         <source>Correct pts</source>
         <translation>Korrigiere PTS</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="399"/>
+        <location filename="../prefadvanced.cpp" line="411"/>
         <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
         <translation>Schaltet MPlayer in einen experimentellen Modus, Zeitstempel für Video-Frames werden anders berechnet und Video-Filter, die neue Frames hinzufügen, oder bestehende Zeitstempel verändern, werden unterstützt. Die genaueren Zeitstempel werden sichtbar, zum Beispiel bei der Wiedergabe von Untertiteln mittels SSA / ASS-Bibliothek, terminiert auf Szenenwechsel. Ohne korrektes PTS, Untertitel Timing funktioniert nicht bei einigen Bildern. Diese Option arbeitet nicht richtig mit einigen Demuxern und Codecs.    </translation>
     </message>
@@ -6389,7 +6388,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../clhelp.cpp" line="121"/>
         <source>specifies the directory for the configuration file (smplayer.ini).</source>
-        <translation>Spezifiziert das Verzeichnis für die Konfigurationsdatei (smplayer.ini).</translation>
+        <translation type="obsolete">Spezifiziert das Verzeichnis für die Konfigurationsdatei (smplayer.ini).</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="142"/>
@@ -6481,6 +6480,11 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <location filename="../helper.cpp" line="110"/>
         <source>%1 and %2</source>
         <translation>%1 und %2</translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="121"/>
+        <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
