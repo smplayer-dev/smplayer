@@ -28,7 +28,6 @@
 #include "images.h"
 #include "floatingwidget.h"
 #include "toolbareditor.h"
-#include "desktopinfo.h"
 
 #if DOCK_PLAYLIST
 #include "playlistdock.h"
@@ -597,15 +596,6 @@ void DefaultGui::loadConfig() {
 
 		if ( (s.height() < 200) && (!pref->use_mplayer_window) ) {
 			s = pref->default_size;
-		}
-
-		// Check if window is outside of the screen
-		QSize screensize = DesktopInfo::desktop_size(this);
-		if ( (p.x() > screensize.width()) || (p.y() > screensize.height()) || 
-             (p.x() < 0) || (p.y() < 0) )
-		{
-			p = QPoint(0,0);
-			qWarning("DefaultGui::loadConfig: window is outside of the screen, moved to 0x0");
 		}
 
 		move(p);
