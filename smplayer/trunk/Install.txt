@@ -1,7 +1,7 @@
 This document explains how to compile and install smplayer.
 
-Compiling smplayer should be easy. It only depends on Qt. Since version
-0.5.40 it can only be compiled with Qt 4.2 or greater.
+Compiling smplayer should be easy. It only depends on Qt. Since svn r1934
+it can only be compiled with Qt 4.3 or greater.
 
 
 1) How to make a deb package
@@ -20,7 +20,7 @@ Now run ./create_deb.sh
 
 2) How to make a rpm package
 ----------------------------
-Run rpmbuid -tb smplayer-0.6.x.tar.bz2
+Run rpmbuild -tb smplayer-0.6.x.tar.bz2
 You'll find the rpm pachage under /usr/src/packages/RPMS/i586/
 
 Take a look at this document to know how to create a rpm from the SVN sources:
@@ -29,7 +29,7 @@ http://smplayer.berlios.de/forums/viewtopic.php?id=188
 
 3) Generic compilation
 ----------------------
-You need at least Qt 4.2 to compile smplayer. It won't work with an older
+You need at least Qt 4.3 to compile smplayer. It won't work with an older
 version.
 
 Be sure you have installed the Qt 4 development package. Its name maybe
