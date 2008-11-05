@@ -28,6 +28,7 @@
 #include "images.h"
 #include "floatingwidget.h"
 #include "toolbareditor.h"
+#include "desktopinfo.h"
 
 #if DOCK_PLAYLIST
 #include "playlistdock.h"
@@ -600,6 +601,11 @@ void DefaultGui::loadConfig() {
 
 		move(p);
 		resize(s);
+
+		if (!DesktopInfo::isInsideScreen(this)) {
+			move(0,0);
+			qWarning("DefaultGui::loadConfig: window is outside of the screen, moved to 0x0");
+		}
 	}
 
 #if USE_CONFIGURABLE_TOOLBARS
