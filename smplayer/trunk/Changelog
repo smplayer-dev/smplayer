@@ -1,5 +1,11 @@
 [b]Version 0.6.5[/b]:
 
+(2008-11-05)
+ * Added support for another patch: 
+   http://smplayer.svn.sourceforge.net/viewvc/smplayer/mplayer-builds/patches/id_exit.diff
+   This patch allows the playlist to work properly even if the output messages 
+   of mplayer are not in English.
+
 (2008-11-01)
  * Cleanup and reorganization of the config path code. 
    The commandline option -ini-path has been removed and replaced with

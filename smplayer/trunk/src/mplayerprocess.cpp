@@ -99,6 +99,7 @@ static QRegExp rx_connecting("^Connecting to .*");
 static QRegExp rx_resolving("^Resolving .*");
 static QRegExp rx_screenshot("^\\*\\*\\* screenshot '(.*)'");
 static QRegExp rx_endoffile("^Exiting... \\(End of file\\)");
+static QRegExp rx_endoffile2("^ID_EXIT=EOF");
 static QRegExp rx_mkvchapters("\\[mkv\\] Chapter (\\d+) from");
 static QRegExp rx_aspect2("^Movie-Aspect is ([0-9,.]+):1");
  
@@ -215,21 +216,22 @@ void MplayerProcess::parseLine(QByteArray ba) {
 		else
 
 		// End of file
-		if (rx_endoffile.indexIn(line) > -1) {
+		if ((rx_endoffile.indexIn(line) > -1) || (rx_endoffile2.indexIn(line) > -1)) {
 			qDebug("MplayerProcess::parseLine: detected end of file");
+			if (!received_end_of_file) {
+				// In case of playing VCDs or DVDs, maybe the first title
+    	        // is not playable, so the GUI doesn't get the info about
+        	    // available titles. So if we received the end of file
+            	// first let's pretend the file has started so the GUI can have
+	            // the data.
+				if ( !notified_mplayer_is_running) {
+					emit mplayerFullyLoaded();
+				}
 
-			// In case of playing VCDs or DVDs, maybe the first title
-            // is not playable, so the GUI doesn't get the info about
-            // available titles. So if we received the end of file
-            // first let's pretend the file has started so the GUI can have
-            // the data.
-			if ( !notified_mplayer_is_running) {
-				emit mplayerFullyLoaded();
+				//emit receivedEndOfFile();
+				// Send signal once the process is finished, not now!
+				received_end_of_file = true;
 			}
-
-			//emit receivedEndOfFile();
-			// Send signal once the process is finished, not now!
-			received_end_of_file = true;
 		}
 		else
 
