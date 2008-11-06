@@ -50,6 +50,9 @@ public slots:
 	void setAnimated(bool b) { _animated = b; };
 	void setAutoHide(bool b);
 	void setMargin(int margin) { _margin = margin; };
+#ifndef Q_OS_WIN
+	void setBypassWindowManager(bool b);
+#endif
 
 protected:
 	QToolBar * tb;

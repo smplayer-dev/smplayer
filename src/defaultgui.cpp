@@ -485,6 +485,9 @@ void DefaultGui::showFloatingControl(QPoint /*p*/) {
 #if CONTROLWIDGET_OVER_VIDEO
 	floating_control->setAnimated( pref->floating_control_animated );
 	floating_control->setMargin(pref->floating_control_margin);
+#ifndef Q_OS_WIN
+	floating_control->setBypassWindowManager(pref->bypass_window_manager);
+#endif
 	floating_control->showOver(panel, pref->floating_control_width);
 #else
 	if (!controlwidget->isVisible()) {
