@@ -23,8 +23,7 @@
 
 FloatingWidget::FloatingWidget( QWidget * parent )
 	: QWidget( parent, Qt::Window | Qt::FramelessWindowHint |
-                       Qt::WindowStaysOnTopHint |
-                       Qt::X11BypassWindowManagerHint )
+                       Qt::WindowStaysOnTopHint )
 {
 	setSizePolicy( QSizePolicy::Preferred, QSizePolicy::Minimum );
 
@@ -51,6 +50,17 @@ FloatingWidget::FloatingWidget( QWidget * parent )
 
 FloatingWidget::~FloatingWidget() {
 }
+
+#ifndef Q_OS_WIN
+void FloatingWidget::setBypassWindowManager(bool b) {
+	if (b) {
+		setWindowFlags(windowFlags() | Qt::X11BypassWindowManagerHint);
+	}
+	else {
+		setWindowFlags(windowFlags() & ~Qt::X11BypassWindowManagerHint);
+	}
+}
+#endif
 
 void FloatingWidget::setAutoHide(bool b) { 
 	auto_hide = b;

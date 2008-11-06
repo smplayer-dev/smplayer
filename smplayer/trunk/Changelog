@@ -5,6 +5,11 @@
    http://smplayer.svn.sourceforge.net/viewvc/smplayer/mplayer-builds/patches/id_exit.diff
    This patch allows the playlist to work properly even if the output messages 
    of mplayer are not in English.
+ * New option for smplayer.ini: bypass_window_manager (section 
+   [floating_control]). If set to true (the default), the floating control 
+   widget will bypass the window manager (seems necessary for some window
+   managers). You can try to set it to false if you have problems with the
+   floating control.
 
 (2008-11-01)
  * Cleanup and reorganization of the config path code. 

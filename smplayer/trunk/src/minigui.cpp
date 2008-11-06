@@ -178,6 +178,9 @@ void MiniGui::aboutToExitCompactMode() {
 }
 
 void MiniGui::showFloatingControl(QPoint /*p*/) {
+#ifndef Q_OS_WIN
+	floating_control->setBypassWindowManager(pref->bypass_window_manager);
+#endif
 	floating_control->setAnimated( pref->floating_control_animated );
 	floating_control->setMargin(pref->floating_control_margin);
 	floating_control->showOver(panel, 

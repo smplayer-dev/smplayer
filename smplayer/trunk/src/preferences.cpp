@@ -402,6 +402,9 @@ void Preferences::reset() {
 	floating_control_width = 100; //100 %
 	floating_control_animated = true;
 	floating_display_in_compact_mode = false;
+#ifndef Q_OS_WIN
+	bypass_window_manager = true;
+#endif
 }
 
 #ifndef NO_USE_INI_FILES
@@ -753,6 +756,9 @@ void Preferences::save() {
 	set->setValue("width", floating_control_width);
 	set->setValue("animated", floating_control_animated);
 	set->setValue("display_in_compact_mode", floating_display_in_compact_mode);
+#ifndef Q_OS_WIN
+	set->setValue("bypass_window_manager", bypass_window_manager);
+#endif
 	set->endGroup(); // floating_control
 
 	set->sync();
@@ -1110,6 +1116,9 @@ void Preferences::load() {
 	floating_control_width = set->value("width", floating_control_width).toInt();
 	floating_control_animated = set->value("animated", floating_control_animated).toBool();
 	floating_display_in_compact_mode = set->value("display_in_compact_mode", floating_display_in_compact_mode).toBool();
+#ifndef Q_OS_WIN
+	bypass_window_manager = set->value("bypass_window_manager", bypass_window_manager).toBool();
+#endif
 	set->endGroup(); // floating_control
 
 	/*
