@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1525,7 +1526,7 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
     <message>
         <location filename="../core.cpp" line="2540"/>
         <source>Font scale: %1</source>
-        <translation>Scală Caractere: %1</translation>
+        <translation>Mărime caractere: %1</translation>
     </message>
 </context>
 <context>
@@ -1868,12 +1869,12 @@ Verificați permisiunile acelui director.</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="400"/>
         <source>Download failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Descărcare eșuată</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="386"/>
         <source>Temporary file %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Fișier  %1 temporar</translation>
     </message>
 </context>
 <context>
@@ -4525,7 +4526,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="780"/>
         <source>If this option is checked the initial volume will be set just before playback starts. This avoids a loud volume on startup. Requires at least MPlayer SVN r27872.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă este selectată această opțiune volumul inițial va fi selectat chiar înainte de a începe redarea. Astfel se evită redarea la volum mare la început. Opțiunea aceasta are nevoie cel puțin de versiunea MPlayer SVN r27872.</translation>
     </message>
 </context>
 <context>
@@ -5930,335 +5931,335 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="528"/>
         <source>Outline</source>
-        <translation type="unfinished"></translation>
+        <translation>Contur</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="490"/>
         <source>Select the font for the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seletați caracterele pentru subtitrări.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="493"/>
         <source>The size in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dimensiunea în pixeli.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Aldine</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="496"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă este selectată aceasta opțiune textul va fi afișat cu &lt;b&gt;aldine&lt;/b&gt;.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="498"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Italice</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="499"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă este selectată aceasta opțiune textul va fi afișat cu &lt;b&gt;italice&lt;/b&gt;.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="507"/>
         <source>Left margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Limita stânga</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="508"/>
         <source>Specifies the left margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Specifică limita din stânga în pixeli.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="510"/>
         <source>Right margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Limita dreapta</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="511"/>
         <source>Specifies the right margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Specifică limita din dreapta în pixeli.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="513"/>
         <source>Vertical margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Limita verticală</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="514"/>
         <source>Specifies the vertical margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Specifică limita pe verticală în pixeli.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="516"/>
         <source>Horizontal alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Aliniere pe orizontală</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="518"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
-        <translation type="unfinished"></translation>
+        <translation>Specifică alinierea pe orizontală. Valorile posibile sunt stânga, centru și dreapta.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="520"/>
         <source>Vertical alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Aliniere pe verticală</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="522"/>
         <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
-        <translation type="unfinished"></translation>
+        <translation>Specifică alinierea pe verticală. Valorile posibile sunt jos, mijloc și sus.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="524"/>
         <source>Border style</source>
-        <translation type="unfinished"></translation>
+        <translation>Stil chenar</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="526"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
-        <translation type="unfinished"></translation>
+        <translation>Specifică stilul chenarului. Valorile posibile sunt contur și bandă opacă.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="532"/>
         <source>Shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>Umbră</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="998"/>
         <source>Si&amp;ze:</source>
-        <translation type="unfinished"></translation>
+        <translation>Di&amp;mensiune:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1040"/>
         <source>Bol&amp;d</source>
-        <translation type="unfinished"></translation>
+        <translation>Al&amp;dine</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1047"/>
         <source>&amp;Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Italice</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1059"/>
         <source>Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Culori</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1077"/>
         <source>&amp;Text:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Text:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1097"/>
         <source>&amp;Border:</source>
-        <translation type="unfinished"></translation>
+        <translation>C&amp;henar:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1120"/>
         <source>Margins</source>
-        <translation type="unfinished"></translation>
+        <translation>Limite</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1138"/>
         <source>L&amp;eft:</source>
-        <translation type="unfinished"></translation>
+        <translation>Stân&amp;ga:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1154"/>
         <source>&amp;Right:</source>
-        <translation type="unfinished"></translation>
+        <translation>D&amp;reapta:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1170"/>
         <source>Verti&amp;cal:</source>
-        <translation type="unfinished"></translation>
+        <translation>Verti&amp;cală:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1202"/>
         <source>Alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Aliniere</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1220"/>
         <source>&amp;Horizontal:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Orizontală:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1236"/>
         <source>&amp;Vertical:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Verticală:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1257"/>
         <source>Border st&amp;yle:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sti&amp;l chenar:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1283"/>
         <source>&amp;Outline:</source>
-        <translation type="unfinished"></translation>
+        <translation>Co&amp;ntur:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1306"/>
         <source>Shado&amp;w:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Umbră:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="961"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
-        <translation type="unfinished"></translation>
+        <translation>Următoarele opțiuni vă permit să definiți stillul pentru subtitrările fără stil (srt, sub, ...).</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="107"/>
         <source>Left</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>Stânga</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="108"/>
         <source>Centered</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>Centrat</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="109"/>
         <source>Right</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>Dreapta</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="114"/>
         <source>Bottom</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished">Jos</translation>
+        <translation>Jos</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="115"/>
         <source>Middle</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>Mijloc</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="116"/>
         <source>Top</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished">Sus</translation>
+        <translation>Sus</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="121"/>
         <source>Outline</source>
         <comment>border style</comment>
-        <translation type="unfinished"></translation>
+        <translation>Contur</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="122"/>
         <source>Opaque box</source>
         <comment>border style</comment>
-        <translation type="unfinished"></translation>
+        <translation>Bandă opacă</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="530"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă stilul selectat este &lt;i&gt;contur&lt;/i&gt;, atunci această opțiune specifică lățimea conturului din jurul textului, în pixeli.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="534"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă stilul selectat este &lt;i&gt;contur&lt;/i&gt;, atunci această opțiune specifică nivelul de umbrire din spatele textului, în pixeli.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="427"/>
         <source>Enable normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Activare subtitrare normală</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="429"/>
         <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Apăsati acest buton pentru a selecta afișarea normală/tradițională a subtitrărilor. În acest mod textul subtitrărilor va fi doar de culoare albă.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="431"/>
         <source>Enable SSA/ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Activare subtitrări SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="435"/>
         <source>Normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Subtitrare normală</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="456"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Această opțiune NU modifică mărimea subtitrării pentru fișierul video curent. Pentru a realiza acest lucru folosiți opțiunile &lt;i&gt;Dimensiune+&lt;/i&gt; și &lt;i&gt;Dimensiune-&lt;/i&gt; din meniul subtitrări.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="479"/>
         <source>Default scale</source>
-        <translation type="unfinished"></translation>
+        <translation>Mărime implicită</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="460"/>
         <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Această opțiune specifică mărimea implicită pentru caracterele subtitrărilor normale, ce va fi folosită pentru fișierele nou deschise.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="463"/>
         <source>SSA/ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Subtitrări SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="481"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Această opțiune specifică scara implicită pentru caracterele subtitrărilor SSA/ASS, ce va fi folosită pentru fișierele nou deschise.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="484"/>
         <source>Line spacing</source>
-        <translation type="unfinished"></translation>
+        <translation>Separare linii</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="486"/>
         <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
-        <translation type="unfinished"></translation>
+        <translation>Această opțiune specifică modul de separare folosit în cazul liniilor multiple. Poate lua valori negative.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="406"/>
         <source>&amp;Font and colors</source>
-        <translation type="unfinished"></translation>
+        <translation>C&amp;aractere și culori</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="412"/>
         <source>Enable &amp;normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Activare subtitrare &amp;normală</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="425"/>
         <source>Enable SSA/&amp;ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Activare subtitrări SSA/&amp;ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="670"/>
         <source>Default s&amp;cale:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mărime implicită:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="869"/>
         <source>Defa&amp;ult scale:</source>
-        <translation type="unfinished"></translation>
+        <translation>Mărim&amp;e implicită:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="908"/>
         <source>&amp;Line spacing:</source>
-        <translation type="unfinished"></translation>
+        <translation>Separare &amp;linii:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="433"/>
         <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="unfinished"></translation>
+        <translation>Apăsați acest buton pentru a activa noua bibliotecă SSA/ASS. Aceasta vă va permite să afișati subtitrări cu mai multe culori, caractere...</translation>
     </message>
 </context>
 <context>
@@ -6470,7 +6471,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="121"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
-        <translation type="unfinished"></translation>
+        <translation>specifică directorul în care smplayer va memora fișierele sale de configurare (smplayer.ini, smplayer_files.ini...)</translation>
     </message>
 </context>
 <context>
