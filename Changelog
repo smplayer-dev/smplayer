@@ -11,13 +11,19 @@
    managers). You can try to set it to false if you have problems with the
    floating control.
 
+(2008-11-04)
+ * On startup the previous position of the main (default) window is checked
+   if it's valid for the current screen. If it's not, then the window is
+   moved to 0x0.
+ * The same for the playlist (if it's not docked).
+
 (2008-11-01)
  * Cleanup and reorganization of the config path code. 
    The commandline option -ini-path has been removed and replaced with
    -config-path, which specifies the directory where smplayer will store
    its data (not only smplayer.ini).
  * Now to know if a file has no video, instead of looking for the line 
-   "Video: no video" (it's not reliable as it's string that can be translated),
+   "Video: no video" (it's not reliable as it's a string that can be translated),
    it will check the video codec, if it's empty, there's no video.
 
 (2008-10-30)
