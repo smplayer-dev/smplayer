@@ -1,6 +1,6 @@
 This document explains how to compile and install smplayer.
 
-Compiling smplayer should be easy. It only depends on Qt. Since svn r1934
+Compiling smplayer should be easy. It only depends on Qt. Since version 0.6.4
 it can only be compiled with Qt 4.3 or greater.
 
 
