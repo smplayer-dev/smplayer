@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de_DE">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -6464,7 +6465,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <location filename="../helper.cpp" line="109"/>
         <source>%1 second(s)</source>
         <translation>
-            <numerusform>%1 Sekunde</numerusform>
+            <numerusform>%1 Sekunde(n)</numerusform>
             <numerusform>%1 Sekunden</numerusform>
         </translation>
     </message>
@@ -6472,7 +6473,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <location filename="../helper.cpp" line="108"/>
         <source>%1 minute(s)</source>
         <translation>
-            <numerusform>%1 Minute</numerusform>
+            <numerusform>%1 Minute(n)</numerusform>
             <numerusform>%1 Minuten</numerusform>
         </translation>
     </message>
@@ -6484,7 +6485,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../clhelp.cpp" line="121"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
-        <translation type="unfinished"></translation>
+        <translation>Spezifiziert das Verzeichnis, wo SMPlayer die eigenen Konfigurationsdateien speichert  (smplayer.ini, smplayer_files.ini...)</translation>
     </message>
 </context>
 <context>
