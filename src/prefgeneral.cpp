@@ -47,6 +47,9 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 #if USE_ALSA_DEVICES
 	alsa_devices = DeviceInfo::alsaDevices();
 #endif
+#if USE_XV_ADAPTORS
+	xv_adaptors = DeviceInfo::xvAdaptors();
+#endif
 
 	// Channels combo
 	channels_combo->addItem( "2", MediaSettings::ChStereo );
@@ -246,8 +249,20 @@ void PrefGeneral::updateDriverCombos() {
 		}
 		else
 #else
+		/*
 		if (vo == "xv") vo_combo->addItem( "xv (" + tr("fastest") + ")", vo);
 		else
+		*/
+#if USE_XV_ADAPTORS
+		if ((vo == "xv") && (!xv_adaptors.isEmpty())) {
+			vo_combo->addItem(vo, vo);
+			for (int n=0; n < xv_adaptors.count(); n++) {
+				vo_combo->addItem( "xv (" + xv_adaptors[n].ID().toString() + " - " + xv_adaptors[n].desc() + ")", 
+                                   "xv:adaptor=" + xv_adaptors[n].ID().toString() );
+			}
+		}
+		else
+#endif // USE_XV_ADAPTORS
 #endif
 		if (vo == "x11") vo_combo->addItem( "x11 (" + tr("slow") + ")", vo);
 		else

@@ -53,6 +53,7 @@ public:
 	static DeviceList displayDevices();
 #else
 	static DeviceList alsaDevices();
+	static DeviceList xvAdaptors();
 #endif
 
 protected:
