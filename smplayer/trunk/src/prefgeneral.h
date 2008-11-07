@@ -29,6 +29,7 @@
 #define USE_DSOUND_DEVICES 1
 #else
 #define USE_ALSA_DEVICES 1
+#define USE_XV_ADAPTORS 1
 #endif
 
 class PrefGeneral : public PrefWidget, public Ui::PrefGeneral
@@ -169,6 +170,9 @@ protected:
 
 #if USE_ALSA_DEVICES
 	DeviceList alsa_devices;
+#endif
+#if USE_XV_ADAPTORS
+	DeviceList xv_adaptors;
 #endif
 };
 
