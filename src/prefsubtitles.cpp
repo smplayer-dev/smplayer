@@ -412,11 +412,6 @@ void PrefSubtitles::createHelp() {
 		tr("Select the language for which you want the encoding to be guessed "
            "automatically.") );
 
-	setWhatsThis(sub_pos_slider, tr("Subtitle position"),
-		tr("This option specifies the position of the subtitles over the "
-           "video window. <i>100</i> means the bottom, while <i>0</i> means "
-           "the top." ) );
-
 	setWhatsThis(subtitles_on_screeshots_check, 
         tr("Include subtitles on screenshots"), 
         tr("If this option is checked, the subtitles will appear in the "
@@ -459,6 +454,11 @@ void PrefSubtitles::createHelp() {
 		tr("This option specifies the default font scale for normal "
            "subtitles which will be used for new opened files.") +"<br>"+
 		scale_note);
+
+	setWhatsThis(sub_pos_slider, tr("Subtitle position"),
+		tr("This option specifies the position of the subtitles over the "
+           "video window. <i>100</i> means the bottom, while <i>0</i> means "
+           "the top." ) );
 
 	addSectionTitle(tr("SSA/ASS subtitles"));
 
