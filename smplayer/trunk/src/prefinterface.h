@@ -99,6 +99,24 @@ protected:
 	void setDefaultFont(QString font_desc);
 	QString defaultFont();
 
+	// Floating tab
+	void setFloatingAnimated(bool b);
+	bool floatingAnimated();
+
+	void setFloatingWidth(int percentage);
+	int floatingWidth();
+
+	void setFloatingMargin(int pixels);
+	int floatingMargin();
+
+	void setDisplayFloatingInCompactMode(bool b);
+	bool displayFloatingInCompactMode();
+
+#ifndef Q_OS_WIN
+	void setFloatingBypassWindowManager(bool b);
+	bool floatingBypassWindowManager();
+#endif
+
 protected slots:
 	void on_changeFontButton_clicked();
 	void changeInstanceImages();

@@ -5,8 +5,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>573</width>
-    <height>514</height>
+    <width>497</width>
+    <height>491</height>
    </rect>
   </property>
   <layout class="QVBoxLayout" >
@@ -783,6 +783,127 @@
        </item>
       </layout>
      </widget>
+     <widget class="QWidget" name="tab_4" >
+      <attribute name="title" >
+       <string>&amp;Floating control</string>
+      </attribute>
+      <layout class="QVBoxLayout" >
+       <item>
+        <widget class="QLabel" name="label_6" >
+         <property name="text" >
+          <string>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</string>
+         </property>
+         <property name="wordWrap" >
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="floating_animated_check" >
+         <property name="text" >
+          <string>&amp;Animated</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QGridLayout" >
+         <item row="0" column="0" >
+          <widget class="QLabel" name="label_7" >
+           <property name="text" >
+            <string>&amp;Width:</string>
+           </property>
+           <property name="buddy" >
+            <cstring>floating_width_slider</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1" >
+          <widget class="QSlider" name="floating_width_slider" >
+           <property name="maximum" >
+            <number>100</number>
+           </property>
+           <property name="orientation" >
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2" >
+          <widget class="QLabel" name="floating_width_label" >
+           <property name="frameShape" >
+            <enum>QFrame::Panel</enum>
+           </property>
+           <property name="frameShadow" >
+            <enum>QFrame::Sunken</enum>
+           </property>
+           <property name="text" >
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0" >
+          <widget class="QLabel" name="label_8" >
+           <property name="text" >
+            <string>&amp;Margin:</string>
+           </property>
+           <property name="buddy" >
+            <cstring>floating_margin_slider</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1" >
+          <widget class="QSlider" name="floating_margin_slider" >
+           <property name="maximum" >
+            <number>80</number>
+           </property>
+           <property name="orientation" >
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2" >
+          <widget class="QLabel" name="floating_margin_label" >
+           <property name="frameShape" >
+            <enum>QFrame::Panel</enum>
+           </property>
+           <property name="frameShadow" >
+            <enum>QFrame::Sunken</enum>
+           </property>
+           <property name="text" >
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="floating_compact_check" >
+         <property name="text" >
+          <string>Display in &amp;compact mode too</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="floating_bypass_wm_check" >
+         <property name="text" >
+          <string>&amp;Bypass window manager</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer>
+         <property name="orientation" >
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" >
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
     </widget>
    </item>
   </layout>
@@ -815,6 +936,11 @@
   <tabstop>automatic_port_button</tabstop>
   <tabstop>manual_port_button</tabstop>
   <tabstop>server_port_spin</tabstop>
+  <tabstop>floating_animated_check</tabstop>
+  <tabstop>floating_width_slider</tabstop>
+  <tabstop>floating_margin_slider</tabstop>
+  <tabstop>floating_compact_check</tabstop>
+  <tabstop>floating_bypass_wm_check</tabstop>
  </tabstops>
  <resources/>
  <connections>
@@ -847,6 +973,38 @@
     <hint type="destinationlabel" >
      <x>317</x>
      <y>222</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>floating_width_slider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>floating_width_label</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>222</x>
+     <y>154</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>411</x>
+     <y>156</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>floating_margin_slider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>floating_margin_label</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>272</x>
+     <y>204</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>480</x>
+     <y>150</y>
     </hint>
    </hints>
   </connection>
