@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="es">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -5219,97 +5220,97 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="568"/>
         <source>Floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Control flotante</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="570"/>
         <source>Animated</source>
-        <translation type="unfinished"></translation>
+        <translation>Animado</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="572"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si se activa esta opción, el control flotante aparecerá por medio de una animación.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="574"/>
         <source>Width</source>
-        <translation type="unfinished"></translation>
+        <translation>Ancho</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="575"/>
         <source>Specifies the width of the control (as a percentage).</source>
-        <translation type="unfinished"></translation>
+        <translation>Especifica el ancho del control (porcentaje del ancho de la pantalla).</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="577"/>
         <source>Margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Margen</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="581"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opción establece el número de píxeles que el control flotante se alejará del borde inferior de la pantalla. Útil cuando la pantalla es un televisor, ya que el overscan puede evitar que el control se vea totalmente.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="583"/>
         <source>Display in compact mode too</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar también en modo compacto</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="586"/>
         <source>If this option is enabled, the floating control will appear in compact mode too. Warning: the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si se activa esta opción, el control flotante aparecerá también en modo compacto. Advertencia: el control flotante no se ha diseñado para el modo compacto y podría no funcionar correctamente.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="589"/>
         <source>Bypass window manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Saltar el gestor de ventanas</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="592"/>
         <source>If this option is checked, the control is displayed bypassing the window manager. Disable this option if the floating control doesn&apos;t work well with your window manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si se activa esta opción, el control será mostrado en pantalla por su cuenta, sin contar con el gestor de ventanas. Desactiva esta opción si el control flotante no funciona correctamente con tu gestor de ventanas.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="788"/>
         <source>&amp;Floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Control &amp;flotante</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="794"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>El control flotante aparece en el modo de pantalla completa cuando se mueve el ratón a la parte inferior de la pantalla.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="804"/>
         <source>&amp;Animated</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;nimado</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="813"/>
         <source>&amp;Width:</source>
-        <translation type="unfinished"></translation>
+        <translation>Anch&amp;o:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="872"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation>0</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="846"/>
         <source>&amp;Margin:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Margen:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="881"/>
         <source>Display in &amp;compact mode too</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar también en modo &amp;compacto</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="888"/>
         <source>&amp;Bypass window manager</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Saltar el gestor de ventanas</translation>
     </message>
 </context>
 <context>
