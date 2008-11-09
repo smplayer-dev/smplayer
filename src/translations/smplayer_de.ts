@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de_DE">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -5224,97 +5225,97 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="568"/>
         <source>Floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Schwebendes Kontrollelement</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="570"/>
         <source>Animated</source>
-        <translation type="unfinished"></translation>
+        <translation>Animiert</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="572"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bei aktivierter Option wird das schwebende Kontrollelement animiert dargestellt.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="574"/>
         <source>Width</source>
-        <translation type="unfinished"></translation>
+        <translation>Breite</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="575"/>
         <source>Specifies the width of the control (as a percentage).</source>
-        <translation type="unfinished"></translation>
+        <translation>Gibt die Breite des Kontrollelements an (als Prozentsatz).</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="577"/>
         <source>Margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Begrenzung</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="581"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation type="unfinished"></translation>
+        <translation>Optionale Anzahl der Pixel, für den Abstand zum unteren Bildschirmrand, des schwebenden Kontollelements. Nützlich, wenn der Bildschirm ein TV ist, Overscan könnte verhindern das die Kontrolle sichtbar ist.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="583"/>
         <source>Display in compact mode too</source>
-        <translation type="unfinished"></translation>
+        <translation>Ebenfalls Darstellung im Kompaktmodus</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="586"/>
         <source>If this option is enabled, the floating control will appear in compact mode too. Warning: the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bei aktivierter Option, wird das schwebende Kontrollelement im Kompaktmodus dargestellt. Warnung : Das schwebende Kontrollelement wurde nicht für den Kompaktmodus designed und wird wahrscheinlich nicht richtig funktionieren.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="589"/>
         <source>Bypass window manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Bypass Window Manager</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="592"/>
         <source>If this option is checked, the control is displayed bypassing the window manager. Disable this option if the floating control doesn&apos;t work well with your window manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>MIt dieser Option , wird das Kontrollelement unter Umgehung des Window Managers dargestellt. Deaktivieren der Option, bei nicht funktionieren, der schwebenden Kontrollelemente.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="788"/>
         <source>&amp;Floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Schwebendes Kontrollelement</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="794"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Das schwebende Kontrollelement wird per Mausbewegung im obersten Teil des Bildschirms, bei Vollbild aktiviert.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="804"/>
         <source>&amp;Animated</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Animiert</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="813"/>
         <source>&amp;Width:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Breite:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="872"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation>0</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="846"/>
         <source>&amp;Margin:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Begrenzung:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="881"/>
         <source>Display in &amp;compact mode too</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ebenfalls Darstellung im Kompaktmodus</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="888"/>
         <source>&amp;Bypass window manager</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bypass Window Manager</translation>
     </message>
 </context>
 <context>
