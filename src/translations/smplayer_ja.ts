@@ -5192,97 +5192,97 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="568"/>
         <source>Floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>フローティング コントロール</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="570"/>
         <source>Animated</source>
-        <translation type="unfinished"></translation>
+        <translation>アニメーション</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="572"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションが有効である場合、フローティング コントロールはアニメーション付きで表示されます。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="574"/>
         <source>Width</source>
-        <translation type="unfinished"></translation>
+        <translation>幅</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="575"/>
         <source>Specifies the width of the control (as a percentage).</source>
-        <translation type="unfinished"></translation>
+        <translation>コントロールの幅を指定します (パーセンテージとして)。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="577"/>
         <source>Margin</source>
-        <translation type="unfinished"></translation>
+        <translation>余白</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="581"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションはフローティング コントロールが画面の下から離れるピクセルの数を設定します。オーバースキャンがコントロールが可視になるのを防止する可能性があるので、画面が TV であるときに有用です。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="583"/>
         <source>Display in compact mode too</source>
-        <translation type="unfinished"></translation>
+        <translation>コンパクト モードでも表示する</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="586"/>
         <source>If this option is enabled, the floating control will appear in compact mode too. Warning: the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションが有効である場合、フローティング コントロールはコンパクト モードでも表示されます。警告: フローティング コントロールはコンパクト モード用にデザインされておらず適切に動作しない可能性があります。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="589"/>
         <source>Bypass window manager</source>
-        <translation type="unfinished"></translation>
+        <translation>ウィンドウ マネージャーを通過する</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="592"/>
         <source>If this option is checked, the control is displayed bypassing the window manager. Disable this option if the floating control doesn&apos;t work well with your window manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションがチェックされている場合、コントロールはウィンドウ マネージャーを通過して表示されます。フローティング コントロールがお使いのウィンドウ マネージャーでよく動作しない場合はこのオプションを無効にします。</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="788"/>
         <source>&amp;Floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>フローティング コントロール(&amp;F)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="794"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>フローティング コントロールは全画面モードでマウスが画面の下へ動かされると表示されます。</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="804"/>
         <source>&amp;Animated</source>
-        <translation type="unfinished"></translation>
+        <translation>アニメーション(&amp;A)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="813"/>
         <source>&amp;Width:</source>
-        <translation type="unfinished"></translation>
+        <translation>幅(&amp;W):</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="872"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation>0</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="846"/>
         <source>&amp;Margin:</source>
-        <translation type="unfinished"></translation>
+        <translation>余白(&amp;M):</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="881"/>
         <source>Display in &amp;compact mode too</source>
-        <translation type="unfinished"></translation>
+        <translation>コンパクト モードでも表示する(&amp;C)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="888"/>
         <source>&amp;Bypass window manager</source>
-        <translation type="unfinished"></translation>
+        <translation>ウィンドウ マネージャーを通過する(&amp;B)</translation>
     </message>
 </context>
 <context>
@@ -5896,7 +5896,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="423"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. Note: it may cause some troubles sometimes.</source>
-        <translation>このオプションがチェックされている場合、字幕はスクリーンショットに現れます。注意: ときどきいくつかのトラブルを引き起こします。</translation>
+        <translation>このオプションがチェックされている場合、字幕はスクリーンショットに表示されます。注意: ときどきいくつかのトラブルを引き起こします。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="437"/>
@@ -6334,7 +6334,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="433"/>
         <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation>新しい SSA/ASS ライブラリを有効にするにはこのボタンをクリックします。これは複数の色、フォントのある字幕の表示を可能にします...</translation>
+        <translation>新しい SSA/ASS ライブラリを有効にするにはこのボタンをクリックします。これは複数の色、フォント... のある字幕の表示を許可します。</translation>
     </message>
 </context>
 <context>
@@ -6544,7 +6544,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="121"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
-        <translation type="unfinished"></translation>
+        <translation>smplayer が構成ファイル (smplayer.ini、smplayer_files.ini...) を格納するディレクトリを指定します</translation>
     </message>
 </context>
 <context>
