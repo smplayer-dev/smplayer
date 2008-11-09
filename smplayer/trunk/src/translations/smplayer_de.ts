@@ -5285,7 +5285,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinterface.ui" line="794"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
-        <translation>Das schwebende Kontrollelement wird per Mausbewegung im obersten Teil des Bildschirms, bei Vollbild aktiviert.</translation>
+        <translation>Das schwebende Kontrollelement wird per Mausbewegung am unteren Ende des Bildschirms, bei Vollbild aktiviert.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="804"/>
