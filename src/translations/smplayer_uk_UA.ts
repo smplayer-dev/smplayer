@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="uk">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -5122,97 +5123,97 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="568"/>
         <source>Floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Виринаюче керування</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="570"/>
         <source>Animated</source>
-        <translation type="unfinished"></translation>
+        <translation>Анімоване</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="572"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо ця опція увімкнена, виринаюче керування з&apos;являтиметься з анімацією.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="574"/>
         <source>Width</source>
-        <translation type="unfinished"></translation>
+        <translation>Ширина</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="575"/>
         <source>Specifies the width of the control (as a percentage).</source>
-        <translation type="unfinished"></translation>
+        <translation>Визначає ширину керування (відсотки).</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="577"/>
         <source>Margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Поле</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="581"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ця опція встановлює кількість пікселів, на яку виринаюче керування буде віддалене від низу екрану. Корисно, коли екраном є телевізором, оскільки краї можуть унеможливлювати видимість керування.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="583"/>
         <source>Display in compact mode too</source>
-        <translation type="unfinished"></translation>
+        <translation>Показувати також в стислому режимі</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="586"/>
         <source>If this option is enabled, the floating control will appear in compact mode too. Warning: the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо опція увімкнена, виринаюче керування з&apos;являтиметься також в стислому режимі. Попередження: виринаюче керування не розраховувалось для стислого режиму і може не працювати вірно.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="589"/>
         <source>Bypass window manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Оминати менеджер вікон</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="592"/>
         <source>If this option is checked, the control is displayed bypassing the window manager. Disable this option if the floating control doesn&apos;t work well with your window manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо опція увімкнена, керування відображається оминаючи менеджер вікон. Вимкніть цю опції, якщо виринаюче керування працює невірно з вашим менеджером вікон.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="788"/>
         <source>&amp;Floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Виринаюче керування</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="794"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Виринаюче керування з&apos;являється в режимі на весь екран, коли мишу пересунути донизу екрану.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="804"/>
         <source>&amp;Animated</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Анімоване</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="813"/>
         <source>&amp;Width:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ширина:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="872"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation>0</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="846"/>
         <source>&amp;Margin:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Поле:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="881"/>
         <source>Display in &amp;compact mode too</source>
-        <translation type="unfinished"></translation>
+        <translation>Показувати також в &amp;стислому режимі</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="888"/>
         <source>&amp;Bypass window manager</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Оминати менеджер вікон</translation>
     </message>
 </context>
 <context>
