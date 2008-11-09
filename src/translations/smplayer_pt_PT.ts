@@ -5194,97 +5194,97 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="568"/>
         <source>Floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Controlo flutuante</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="570"/>
         <source>Animated</source>
-        <translation type="unfinished"></translation>
+        <translation>Animação</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="572"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se a opção estiver activa, o controlo flutuante aparecerá com uma animação.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="574"/>
         <source>Width</source>
-        <translation type="unfinished"></translation>
+        <translation>Largura</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="575"/>
         <source>Specifies the width of the control (as a percentage).</source>
-        <translation type="unfinished"></translation>
+        <translation>Especifica a largura do controlo ( como percentagem).</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="577"/>
         <source>Margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Margem</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="581"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opção define o número de pixeis de afastamento do controlo flutuante em relação ao inferior do ecrã. Útil quando o ecrã for uma TV, permitindo assim a correcta visualização do controlo.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="583"/>
         <source>Display in compact mode too</source>
-        <translation type="unfinished"></translation>
+        <translation>Apresentar também em modo compacto</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="586"/>
         <source>If this option is enabled, the floating control will appear in compact mode too. Warning: the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se esta opção estiver activa, o controlo flutuante também aparecerá no modo compacto. Aviso: Esta funcionalidade não foi desenvolvida para este método e poderá não funcionar correctamente.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="589"/>
         <source>Bypass window manager</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="592"/>
         <source>If this option is checked, the control is displayed bypassing the window manager. Disable this option if the floating control doesn&apos;t work well with your window manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se esta opção estiver marcada, o controlo será apresentado ignorando o gestor de janelas. Desactive esta opção se o controle não funcionar correctamente com o seu gestor de janelas.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="788"/>
         <source>&amp;Floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Controlo &amp;Flutuante</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="794"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>O controlo flutuante aparece no modo de ecrã completo se mover o rato para o inferior do ecrã.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="804"/>
         <source>&amp;Animated</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Animação</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="813"/>
         <source>&amp;Width:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Largura:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="872"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation>0</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="846"/>
         <source>&amp;Margin:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Margem:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="881"/>
         <source>Display in &amp;compact mode too</source>
-        <translation type="unfinished"></translation>
+        <translation>Apresentar também em modo &amp;compacto</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="888"/>
         <source>&amp;Bypass window manager</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ignorar gestor de janelas</translation>
     </message>
 </context>
 <context>
@@ -5615,7 +5615,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="84"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
-        <translation>Se esta opção estiver activada, de cada vez que abrir um ficheiro, o SMPlayer irá limpar a lista de reprodução e só depois o adicionará a esta. No caso de DVDs, CDs e VCDs, os títulos do disco serão adicionados à lista de reprodução.</translation>
+        <translation>Se esta opção estiver activa, de cada vez que abrir um ficheiro, o SMPlayer irá limpar a lista de reprodução e só depois o adicionará a esta. No caso de DVDs, CDs e VCDs, os títulos do disco serão adicionados à lista de reprodução.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="86"/>
@@ -6548,7 +6548,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="121"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
-        <translation type="unfinished"></translation>
+        <translation>especifica o directório aonde o smplayer gravará os ficheiros de configuração (smplayer.ini, smplayer_files.ini...)</translation>
     </message>
 </context>
 <context>
