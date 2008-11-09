@@ -1374,6 +1374,8 @@ void Core::startMplayer( QString file, double seek ) {
 			proc->addArgument( pref->ass_styles );
 		}
 #endif
+	} else {
+		proc->addArgument("-noass");
 	}
 
 #if USE_ASS_STYLES
