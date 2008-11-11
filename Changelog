@@ -1,5 +1,14 @@
 [b]Version 0.6.5[/b]:
 
+(2008-11-11)
+ * (Linux) Now smplayer tries to follow the XDG Base Directory Specification
+   (http://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html)
+   for the config files. So now smplayer will save its config files under
+   the directory $XDG_CONFIG_HOME/smplayer or $HOME/.config/smplayer if
+   $XDG_CONFIG_HOME is not defined.
+   If you want to keep your preferences, copy the files in $HOME/.smplayer to
+   $HOME/.config/smplayer
+
 (2008-11-07)
  * Added a new option "Floating control" in Preferences->Interface. It allows
    to configure the floating control (width, margin...).
