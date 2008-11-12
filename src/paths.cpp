@@ -133,14 +133,17 @@ QString Paths::configPath() {
 #ifdef PORTABLE_APP
 		return appPath();
 #else
+		#ifndef Q_OS_WIN
 		const char * XDG_CONFIG_HOME = getenv("XDG_CONFIG_HOME");
 		if (XDG_CONFIG_HOME!=NULL) {
 			qDebug("Paths::configPath: XDG_CONFIG_HOME: %s", XDG_CONFIG_HOME);
 			return QString(XDG_CONFIG_HOME) + "/smplayer";
 		} 
 		else
-		//return QDir::homePath() + "/.smplayer";
 		return QDir::homePath() + "/.config/smplayer";
+		#else
+		return QDir::homePath() + "/.smplayer";
+		#endif
 #endif
 	}
 }
