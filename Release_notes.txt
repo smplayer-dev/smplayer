@@ -1,3 +1,23 @@
+Version 0.6.5.
+
+Most important changes since 0.6.4:
+
+* The subtitles when using the SSA/ASS library can now be further
+  customized. It's possible to select the font, size, colors, bold,
+  italic, outline, shadow... 
+* (Linux) Now smplayer tries to follow the XDG Base Directory
+  Specification for the config files. That means the now the configuration
+  files will be saved under the directory $XDG_CONFIG_HOME/smplayer (or 
+  $HOME/.config/smplayer if $XDG_CONFIG_HOME is not defined). 
+  If you want to keep your preferences, copy or move the files from 
+  $HOME/.smplayer to the new location.
+* Added some options in Preferences->Interface to configure the floating 
+  control.
+* The commandline option -ini-path has been removed and replaced with
+  -config-path, which specifies the directory where smplayer will store
+  its data (not only smplayer.ini).
+
+
 Version 0.6.4.
 
 Most important changes since 0.6.3:
