@@ -131,7 +131,7 @@ int main( int argc, char ** argv )
 	QString config_path;
 
 #ifdef PORTABLE_APP
-	ini_path = a.applicationDirPath();
+	config_path = a.applicationDirPath();
 #else
 	// If a smplayer.ini exists in the app path, will use that path
 	// for the config file by default
