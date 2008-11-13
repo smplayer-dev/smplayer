@@ -1,3 +1,9 @@
+smplayer (0.6.5.1) hardy; urgency=low
+
+  * New release
+
+ -- Ricardo Villalba <rvm@escomposlinux.org>  Thu, 13 Nov 2008 02:11:24 +0100
+
 smplayer (0.6.5) hardy; urgency=low
 
   * New release
