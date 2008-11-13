@@ -1,3 +1,12 @@
+[b]Version 0.6.5.1[/b]:
+
+(2008-11-12)
+ * Don't pass to mplayer the option -no-correct-pts or -nocorrect-pts if
+   the mplayer version is still unknown. Prevents mplayer to fail on the first
+   run, complaining about an unknown -no-correct-pts if using a recent version 
+   of mplayer (r26842 or above).
+
+
 [b]Version 0.6.5[/b]:
 
 (2008-11-11)
