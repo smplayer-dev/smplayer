@@ -1626,10 +1626,14 @@ void Core::startMplayer( QString file, double seek ) {
 	if (pref->use_correct_pts) {
 		proc->addArgument("-correct-pts");
 	} else {
-		if (MplayerVersion::isMplayerAtLeast(26842)) {
-			proc->addArgument("-nocorrect-pts");
+		if (pref->mplayer_detected_version > 0) {
+			if (MplayerVersion::isMplayerAtLeast(26842)) {
+				proc->addArgument("-nocorrect-pts");
+			} else {
+				proc->addArgument("-no-correct-pts");
+			}
 		} else {
-			proc->addArgument("-no-correct-pts");
+			qDebug("Core::startMplayer: unknown version of mplayer, not passing -no(-)correct-pts");
 		}
 	}
 
