@@ -1,3 +1,10 @@
+[b]Version 0.6.61[/b]:
+
+(2008-11-13)
+ * Added some options in smplayer.ini (section [proxy]) to configure a proxy 
+   for internet connections. Untested.
+
+
 [b]Version 0.6.5.1[/b]:
 
 (2008-11-12)
