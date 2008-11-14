@@ -378,52 +378,52 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="74"/>
         <source>31.25 Hz</source>
-        <translation></translation>
+        <translation>31,25 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="75"/>
         <source>62.50 Hz</source>
-        <translation></translation>
+        <translation>62,50 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="76"/>
         <source>125.0 Hz</source>
-        <translation></translation>
+        <translation>125,0 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="77"/>
         <source>250.0 Hz</source>
-        <translation></translation>
+        <translation>250,0 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="78"/>
         <source>500.0 Hz</source>
-        <translation></translation>
+        <translation>500,0 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="79"/>
         <source>1.000 kHz</source>
-        <translation></translation>
+        <translation>1,000 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="80"/>
         <source>2.000 kHz</source>
-        <translation></translation>
+        <translation>2,000 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="81"/>
         <source>4.000 kHz</source>
-        <translation></translation>
+        <translation>4,000 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="82"/>
         <source>8.000 kHz</source>
-        <translation></translation>
+        <translation>8,000 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="83"/>
         <source>16.00 kHz</source>
-        <translation></translation>
+        <translation>16,00 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="85"/>
@@ -1199,7 +1199,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="1394"/>
         <source>Denoise o&amp;ff</source>
-        <translation>&amp;Nessun Denoise</translation>
+        <translation>&amp;Nessun denoise</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1229"/>
@@ -1364,7 +1364,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="1234"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>Upload sottotitoli su &amp;Opensubtitles.org...</translation>
+        <translation>&amp;Upload sottotitoli su Opensubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1252"/>
@@ -1409,44 +1409,44 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="1178"/>
         <source>Mirr&amp;or image</source>
-        <translation type="unfinished"></translation>
+        <translation>Specc&amp;hia immagine</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1289"/>
         <source>Next video</source>
-        <translation type="unfinished"></translation>
+        <translation>Prossimo video</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1337"/>
         <source>&amp;Track</source>
         <comment>video</comment>
-        <translation type="unfinished">&amp;Traccia</translation>
+        <translation>&amp;Traccia</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1409"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
-        <translation type="unfinished">&amp;Traccia</translation>
+        <translation>&amp;Traccia</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3315"/>
         <source>Warning - Using old MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Attenzione - Vecchio MPlayer in uso</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3319"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
-        <translation type="unfinished"></translation>
+        <translation>La versione di MPlayer (%1) installata su questo sistema è obsoleta, SMPlayer non può funzionare bene con essa: alcune opzioni non andranno, la selezione dei sottotitoli potrebbe non riuscire...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3322"/>
         <source>Please, update your MPlayer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Per favore, aggiorna MPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3323"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Questo avviso non sarà mostrato di nuovo)</translation>
     </message>
 </context>
 <context>
@@ -1563,7 +1563,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../eqslider.ui" line="22"/>
         <source>icon</source>
-        <translation></translation>
+        <translation>icona</translation>
     </message>
 </context>
 <context>
@@ -1835,9 +1835,9 @@ Esempio:resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="474"/>
         <source>%1 subtitle(s) extracted</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 sottotitolo estratto</numerusform>
+            <numerusform>%1 sottotitoli estratti</numerusform>
         </translation>
     </message>
     <message>
@@ -1853,19 +1853,21 @@ Esempio:resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="406"/>
         <source>Error saving file</source>
-        <translation type="unfinished">Errore durante il salvataggio del file</translation>
+        <translation>Errore durante il salvataggio del file</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="409"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Non è stato possibile salvare il file scaricato
+nella directory %1
+Controllarne i relativi permessi.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="400"/>
         <source>Download failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Download fallito</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="386"/>
@@ -2149,7 +2151,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputurl.ui" line="46"/>
         <source>It&apos;s a &amp;playlist</source>
-        <translation>E&apos; una &amp;lista di riproduzione</translation>
+        <translation>È una &amp;lista di riproduzione</translation>
     </message>
     <message>
         <location filename="../inputurl.cpp" line="31"/>
@@ -2167,7 +2169,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="25"/>
         <source>Abkhazian</source>
-        <translation></translation>
+        <translation>Abcasa</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="26"/>
@@ -2227,7 +2229,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="37"/>
         <source>Bengali</source>
-        <translation></translation>
+        <translation>Bengalese</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="38"/>
@@ -2342,7 +2344,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="60"/>
         <source>Scots</source>
-        <translation></translation>
+        <translation>Scozzese</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="179"/>
@@ -3290,7 +3292,7 @@ Esempio: -flip -nosound</translation>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
-        <translation>E&apos; possibile anche passare dei filtri video addizionali.
+        <translation>È possibile anche passare dei filtri video addizionali.
 Separarli con &quot;,&quot;. Non usare spazi!
 Esempio: resize=512:384,eq2=1.1</translation>
     </message>
@@ -3356,7 +3358,7 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefadvanced.ui" line="83"/>
         <source>&amp;Monitor aspect:</source>
-        <translation>Rapporto del &amp;Monitor:</translation>
+        <translation>Rapporto del &amp;monitor:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="165"/>
@@ -3566,7 +3568,7 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefadvanced.cpp" line="382"/>
         <source>IPv4</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="383"/>
@@ -3621,17 +3623,17 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefadvanced.cpp" line="466"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se questa opzione è selezionata, SMPlayer salverà i messaggi di debug (puoi visualizzarlo in &lt;b&gt;Opzioni-&gt;Vedi log-&gt;SMPlayer&lt;/b&gt;). Queste informazioni possono essere utili per gli sviluppatori nel caso si trovi un bug.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="472"/>
         <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se selezionata, SMPlayer salverà l&apos;output di MPlayer (puoi visualizzarlo in &lt;b&gt;Opzioni-&gt;Vedi log-&gt;MPlayer&lt;/b&gt;). In caso di problemi, questo log può contenere informazioni importanti, si raccomanda quindi di tenere selezionata questa opzione.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="488"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Questa opzione permette di filtrare i messaggi di SMPlayer che saranno salvati nel log. Potete inserire qualsiasi espressione regolare. &lt;br&gt;Per esempio: &lt;i&gt;^Core::.*&lt;/i&gt; mostrerà solo le linee che iniziano con &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="403"/>
@@ -3641,7 +3643,7 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
     <message>
         <location filename="../prefadvanced.cpp" line="411"/>
         <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Applica una modalità sperimentale di MPlayer dove i timestamp per i fotogrammi video sono calcolati in modo differente e sono supportati i filtri video che aggiungono fotogrammi o modificano i timestamp di quelli presenti. Timestamp più precisi possono vedersi per esempio quando si riproducono sottotitoli temporizzati ai cambi di scena con la libreria SSA/ASS abilitata. Senza correct pts la temporizzazione dei sottotitoli sarà tipicamente spostata di qualche fotogramma. Questa opzione non funzionerà correttamente con alcuni demuxer e codec.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="179"/>
@@ -4371,17 +4373,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="721"/>
         <source>Draw video using slices</source>
-        <translation type="unfinished"></translation>
+        <translation>Disegno del video a striscie</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="725"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Abilita/disabilita il disegno del video a strisce/bande alte 16 pixel. Quando disabilitato l&apo;intero fotogramma viene disegnato tutto in una volta, ciò può essere più veloce o più lento, a secondo della scheda video e della cache disponibile. Ha effetto solo con i codec libmpeg2 e libavcodec.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="465"/>
         <source>Dra&amp;w video using slices</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Disegno del video a striscie</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="178"/>
@@ -4401,7 +4403,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="249"/>
         <source>fastest</source>
-        <translation type="obsolete">velocisimo</translation>
+        <translation type="obsolete">più veloce</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="272"/>
@@ -4431,52 +4433,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="649"/>
         <source>Here you must specify the mplayer executable that SMPlayer will use.&lt;br&gt;SMPlayer requires at least MPlayer 1.0rc1 (although a recent revision from SVN is highly recommended).</source>
-        <translation type="unfinished"></translation>
+        <translation>Qui è necessario specificare l&apos;eseguibile mplayer che SMPlayer userà.&lt;br&gt;SMPlayer richiede almeno MPlayer 1.0rc1 (tuttavia una più recente versione proveniente da SVN è raccomandata).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="651"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
-        <translation type="unfinished"></translation>
+        <translation>Se questa impostazione è errata, SMPlayer non sarà in grado di riprodurre qualsiasi cosa!</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="656"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If this field is empty the screenshot feature will be disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>Qui puoi specificare una cartella dove salvare gli screenshot. Se il campo è vuoto, la cattura degli screenshot sarà disabilitata.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="682"/>
         <source>Select the video output driver. %1 provides the best performance.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleziona il driver di output video. %1 dà prestazioni migliori.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="746"/>
         <source>%1 is the recommended one. Try to avoid %2 and %3, they are slow and can have an impact on performance.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 è quello raccomandato. Cerca di evitare %2 e %3, sono lenti e possono influenzare le prestazioni.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="662"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
-        <translation type="unfinished"></translation>
+        <translation>Normalmente SMPlayer ricorderà le opzioni per ogni file (traccia audio selezionata, volume, filtri...). Deselezionare l&apos;opzione se non si gradisce questa caratteristica.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="666"/>
         <source>If you check this option, SMPlayer will play all files from the beginning.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se selezioni questa opzione, SMPlayer riprodurrà tutti i file dall&apos;inizio.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="675"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Con questa opzione abilitata, la riproduzione andrà in pausa quando la finestra è minimizzata. La riproduzione riprenderà ripristinando la finestra.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="735"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleziona questa opzione per disabilitare lo screensaver.&lt;br&gt;Sarà poi riattivato alla fine della riproduzione.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="811"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Qui puoi inserire la lingua preferita per i flussi audio. Quando viene trovato un media con flussi audio multipli, SMPlayer proverà a usare la lingua preferita.&lt;br&gt;Questo funzionerà solo con media che offrono informazioni sulla lingua dei flussi audio, come i DVD o i file mkv.&lt;br&gt; Questo campo accetta espressioni regolari. Ad esempio: lt;b&gt;es|esp|spa&lt;/b&gt; selezionerà la traccia audio che combacia con &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; o &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="821"/>
@@ -4819,12 +4821,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="81"/>
         <source>Show video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra equalizzatore video</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="82"/>
         <source>Show audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra equalizzatore audio</translation>
     </message>
 </context>
 <context>
@@ -5686,12 +5688,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="341"/>
         <source>Top</source>
-        <translation>Alto</translation>
+        <translation>in alto</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="367"/>
         <source>Bottom</source>
-        <translation>Basso</translation>
+        <translation>in basso</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="421"/>
@@ -6026,52 +6028,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="507"/>
         <source>Left margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Margine sinistro</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="508"/>
         <source>Specifies the left margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Specifica il margine sinistro in numero di pixel.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="510"/>
         <source>Right margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Margine destro</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="511"/>
         <source>Specifies the right margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Specifica il margine destro in numero di pixel.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="513"/>
         <source>Vertical margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Margine verticale</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="514"/>
         <source>Specifies the vertical margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Specifica il margine verticale in numero di pixel.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="516"/>
         <source>Horizontal alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Allineamento orizzontale</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="518"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
-        <translation type="unfinished"></translation>
+        <translation>Specifica l&apos;allineamento orizzontale. Possibili valori: sinistra, centrato e destra.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="520"/>
         <source>Vertical alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Allineamento verticale</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="522"/>
         <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
-        <translation type="unfinished"></translation>
+        <translation>Specifica l&apos;allineamento verticale. Possibili valori: in basso, al centro, in alto.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="524"/>
@@ -6096,67 +6098,67 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="1040"/>
         <source>Bol&amp;d</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Grassetto</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1047"/>
         <source>&amp;Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Corsivo</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1059"/>
         <source>Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Colori</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1077"/>
         <source>&amp;Text:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Testo:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1097"/>
         <source>&amp;Border:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bordo:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1120"/>
         <source>Margins</source>
-        <translation type="unfinished"></translation>
+        <translation>Margini</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1138"/>
         <source>L&amp;eft:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sinistro:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1154"/>
         <source>&amp;Right:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Destro:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1170"/>
         <source>Verti&amp;cal:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Verticale:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1202"/>
         <source>Alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Allineamento</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1220"/>
         <source>&amp;Horizontal:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Orizzontale:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1236"/>
         <source>&amp;Vertical:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Verticale;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1257"/>
         <source>Border st&amp;yle:</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;tile bordo:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1283"/>
@@ -6177,37 +6179,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="107"/>
         <source>Left</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>a sinistra</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="108"/>
         <source>Centered</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>centrato</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="109"/>
         <source>Right</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>a destra</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="114"/>
         <source>Bottom</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished">Basso</translation>
+        <translation>in basso</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="115"/>
         <source>Middle</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>medio</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="116"/>
         <source>Top</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished">Alto</translation>
+        <translation>in alto</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="121"/>
@@ -6289,7 +6291,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="406"/>
         <source>&amp;Font and colors</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Caratteri e colori</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="412"/>
@@ -6598,12 +6600,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="68"/>
         <source>Select All</source>
-        <translation type="unfinished">Seleziona tutti</translation>
+        <translation>Seleziona tutti</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="75"/>
         <source>Select None</source>
-        <translation type="unfinished">Nessuna selezione</translation>
+        <translation>Nessuna selezione</translation>
     </message>
 </context>
 <context>
