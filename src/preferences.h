@@ -402,6 +402,17 @@ public:
 #ifndef Q_OS_WIN
 	bool bypass_window_manager;
 #endif
+
+
+    /* *****
+       Proxy
+       ***** */
+
+	bool use_proxy;
+	QString proxy_host;
+	int proxy_port;
+	QString proxy_username;
+	QString proxy_password;
 };
 
 #endif

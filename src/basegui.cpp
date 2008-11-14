@@ -36,6 +36,7 @@
 #include <QDragEnterEvent>
 #include <QDropEvent>
 #include <QDesktopServices>
+#include <QNetworkProxy>
 
 #include <cmath>
 
@@ -213,6 +214,28 @@ void BaseGui::initializeGui() {
 			qWarning("BaseGui::initializeGui: server couldn't be started");
 		}
 	}
+
+	initializeProxy();
+}
+
+void BaseGui::initializeProxy() {
+	QNetworkProxy proxy;
+	if ( (pref->use_proxy) && (!pref->proxy_host.isEmpty()) ) {
+		//proxy.setType(QNetworkProxy::HttpProxy);
+		proxy.setType(QNetworkProxy::Socks5Proxy);
+		proxy.setHostName(pref->proxy_host);
+		proxy.setPort(pref->proxy_port);
+		if ( (!pref->proxy_username.isEmpty()) && (!pref->proxy_password.isEmpty()) ) {
+			proxy.setUser(pref->proxy_username);
+			proxy.setPassword(pref->proxy_password);
+		}
+		qDebug("BaseGui::initializeProxy: using proxy: host: %s, port: %d", pref->proxy_host.toUtf8().constData(), pref->proxy_port);
+	} else {
+		// No proxy
+		proxy.setType(QNetworkProxy::NoProxy);
+		qDebug("BaseGui::initializeProxy: no proxy");
+	}
+	QNetworkProxy::setApplicationProxy(proxy);
 }
 
 void BaseGui::remoteOpen(QString file) {

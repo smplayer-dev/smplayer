@@ -278,6 +278,7 @@ protected:
 	void createFilePropertiesDialog();
 	void setDataToFileProperties();
 	void initializeGui();
+	void initializeProxy();
 	void createActions();
 #if AUTODISABLE_ACTIONS
 	void setActionsEnabled(bool);

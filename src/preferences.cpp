@@ -405,6 +405,17 @@ void Preferences::reset() {
 #ifndef Q_OS_WIN
 	bypass_window_manager = true;
 #endif
+
+
+    /* *****
+       Proxy
+       ***** */
+
+	use_proxy = false;
+	proxy_host = "";
+	proxy_port = 0;
+	proxy_username = "";
+	proxy_password = "";
 }
 
 #ifndef NO_USE_INI_FILES
@@ -760,6 +771,19 @@ void Preferences::save() {
 	set->setValue("bypass_window_manager", bypass_window_manager);
 #endif
 	set->endGroup(); // floating_control
+
+
+    /* *****
+       Proxy
+       ***** */
+
+	set->beginGroup("proxy");
+	set->setValue("use_proxy", use_proxy);
+	set->setValue("host", proxy_host);
+	set->setValue("port", proxy_port);
+	set->setValue("username", proxy_username);
+	set->setValue("password", proxy_password);
+	set->endGroup(); // proxy
 
 	set->sync();
 }
@@ -1120,6 +1144,19 @@ void Preferences::load() {
 	bypass_window_manager = set->value("bypass_window_manager", bypass_window_manager).toBool();
 #endif
 	set->endGroup(); // floating_control
+
+
+    /* *****
+       Proxy
+       ***** */
+
+	set->beginGroup("proxy");
+	use_proxy = set->value("use_proxy", use_proxy).toBool();
+	proxy_host = set->value("host", proxy_host).toString();
+	proxy_port = set->value("port", proxy_port).toInt();
+	proxy_username = set->value("username", proxy_username).toString();
+	proxy_password = set->value("password", proxy_password).toString();
+	set->endGroup(); // proxy
 
 	/*
 	QFileInfo fi(mplayer_bin);
