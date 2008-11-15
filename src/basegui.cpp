@@ -2162,6 +2162,10 @@ void BaseGui::applyNewPreferences() {
 		mplayerwindow->setMonitorAspect( pref->monitor_aspect_double() );
 	}
 
+	if (advanced->proxyChanged()) {
+		initializeProxy();
+	}
+
 	if (need_update_language) {
 		translator->load(pref->language);
 	}

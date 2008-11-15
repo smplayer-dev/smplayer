@@ -128,6 +128,13 @@ void PrefAdvanced::setData(Preferences * pref) {
 #endif
 
 	setUseShortNames( pref->use_short_pathnames );
+
+	// Proxy
+	setUseProxy( pref->use_proxy );
+	setProxyHostname( pref->proxy_host );
+	setProxyPort( pref->proxy_port );
+	setProxyUsername( pref->proxy_username );
+	setProxyPassword( pref->proxy_password );
 }
 
 void PrefAdvanced::getData(Preferences * pref) {
@@ -181,6 +188,19 @@ void PrefAdvanced::getData(Preferences * pref) {
 #endif
 
 	pref->use_short_pathnames = useShortNames();
+
+	// Proxy
+	proxy_changed = ( (pref->use_proxy != useProxy()) || 
+                      (pref->proxy_host != proxyHostname()) ||
+                      (pref->proxy_port != proxyPort()) ||
+                      (pref->proxy_username != proxyUsername()) ||
+                      (pref->proxy_password != proxyPassword()) );
+
+	pref->use_proxy = useProxy();
+	pref->proxy_host = proxyHostname();
+	pref->proxy_port = proxyPort();
+	pref->proxy_username = proxyUsername();
+	pref->proxy_password = proxyPassword();
 }
 
 void PrefAdvanced::setMonitorAspect(QString asp) {
@@ -371,6 +391,47 @@ QString PrefAdvanced::noVideoText() {
 }
 #endif
 
+void PrefAdvanced::setUseProxy(bool b) {
+	use_proxy_check->setChecked(b);
+}
+
+bool PrefAdvanced::useProxy() {
+	return 	use_proxy_check->isChecked();
+}
+
+void PrefAdvanced::setProxyHostname(QString host) {
+	proxy_hostname_edit->setText(host);
+}
+
+QString PrefAdvanced::proxyHostname() {
+	return proxy_hostname_edit->text();
+}
+
+void PrefAdvanced::setProxyPort(int port) {
+	proxy_port_spin->setValue(port);
+}
+
+int PrefAdvanced::proxyPort() {
+	return proxy_port_spin->value();
+}
+
+void PrefAdvanced::setProxyUsername(QString username) {
+	proxy_username_edit->setText(username);
+}
+
+QString PrefAdvanced::proxyUsername() {
+	return proxy_username_edit->text();
+}
+
+void PrefAdvanced::setProxyPassword(QString password) {
+	proxy_password_edit->setText(password);
+}
+
+QString PrefAdvanced::proxyPassword() {
+	return proxy_password_edit->text();
+}
+
+
 void PrefAdvanced::createHelp() {
 	clearHelp();
 
@@ -445,6 +506,24 @@ void PrefAdvanced::createHelp() {
 	setWhatsThis(mplayer_afilters_edit, tr("Audio filters"),
         tr("Here you can add audio filters for MPlayer. Write them separated "
            "by commas. Don't use spaces!") );
+
+	addSectionTitle(tr("Proxy"));
+
+	setWhatsThis(use_proxy_check, tr("Enable proxy"),
+		tr("Enable/disable the use of the proxy.") );
+
+	setWhatsThis(proxy_hostname_edit, tr("Host"),
+		tr("The host name of the proxy.") );
+
+	setWhatsThis(proxy_port_spin, tr("Port"),
+		tr("The port of the proxy.") );
+
+	setWhatsThis(proxy_username_edit, tr("Username"),
+		tr("If the proxy requires authentication, this sets the username.") );
+
+	setWhatsThis(proxy_password_edit, tr("Password"),
+		tr("The password for the proxy. Warning: the password will be saved "
+           "as plain text in the configuration file.") );
 
 	addSectionTitle(tr("MPlayer language"));
 
