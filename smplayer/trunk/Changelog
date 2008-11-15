@@ -1,4 +1,8 @@
-[b]Version 0.6.61[/b]:
+[b]Version 0.6.6[/b]:
+
+(2008-11-14)
+ * Added the new section Advanced->Proxy in preferences to configure the 
+   proxy.
 
 (2008-11-13)
  * Added some options in smplayer.ini (section [proxy]) to configure a proxy 

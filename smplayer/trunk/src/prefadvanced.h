@@ -50,6 +50,8 @@ public:
 	bool colorkeyChanged() { return colorkey_changed; };
 #endif
 
+	bool proxyChanged() { return proxy_changed; };
+
 protected:
 	virtual void createHelp();
 
@@ -117,6 +119,23 @@ protected:
 	QString noVideoText();
 #endif
 
+	// Proxy
+	void setUseProxy(bool b);
+	bool useProxy();
+
+	void setProxyHostname(QString host);
+	QString proxyHostname();
+
+	void setProxyPort(int port);
+	int proxyPort();
+
+	void setProxyUsername(QString username);
+	QString proxyUsername();
+
+	void setProxyPassword(QString password);
+	QString proxyPassword();
+
+
 protected:
 	virtual void retranslateStrings();
 
@@ -131,6 +150,7 @@ private:
 #if USE_COLORKEY
 	bool colorkey_changed;
 #endif
+	bool proxy_changed;
 };
 
 #endif

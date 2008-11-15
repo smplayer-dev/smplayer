@@ -10,9 +10,6 @@
    </rect>
   </property>
   <layout class="QVBoxLayout" >
-   <property name="spacing" >
-    <number>6</number>
-   </property>
    <property name="leftMargin" >
     <number>0</number>
    </property>
@@ -512,6 +509,112 @@ Example: resample=44100:0:0,volnorm</string>
        </item>
       </layout>
      </widget>
+     <widget class="QWidget" name="tab_proxy" >
+      <attribute name="title" >
+       <string>Pro&amp;xy</string>
+      </attribute>
+      <layout class="QVBoxLayout" >
+       <item>
+        <widget class="QLabel" name="label" >
+         <property name="text" >
+          <string>You can set a proxy for internet connections (currently only used for subtitle downloading).</string>
+         </property>
+         <property name="wordWrap" >
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="use_proxy_check" >
+         <property name="text" >
+          <string>&amp;Enable proxy</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" native="1" name="proxy_container" >
+         <property name="enabled" >
+          <bool>false</bool>
+         </property>
+         <layout class="QGridLayout" >
+          <item row="0" column="0" >
+           <widget class="QLabel" name="label_2" >
+            <property name="text" >
+             <string>&amp;Host:</string>
+            </property>
+            <property name="buddy" >
+             <cstring>proxy_hostname_edit</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1" >
+           <widget class="QLineEdit" name="proxy_hostname_edit" />
+          </item>
+          <item row="0" column="2" >
+           <widget class="QLabel" name="label_3" >
+            <property name="text" >
+             <string>&amp;Port:</string>
+            </property>
+            <property name="buddy" >
+             <cstring>proxy_port_spin</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3" >
+           <widget class="QSpinBox" name="proxy_port_spin" >
+            <property name="maximum" >
+             <number>65535</number>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0" >
+           <widget class="QLabel" name="label_4" >
+            <property name="text" >
+             <string>&amp;Username:</string>
+            </property>
+            <property name="buddy" >
+             <cstring>proxy_username_edit</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1" colspan="3" >
+           <widget class="QLineEdit" name="proxy_username_edit" />
+          </item>
+          <item row="2" column="0" >
+           <widget class="QLabel" name="label_5" >
+            <property name="text" >
+             <string>Pa&amp;ssword:</string>
+            </property>
+            <property name="buddy" >
+             <cstring>proxy_password_edit</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1" colspan="3" >
+           <widget class="QLineEdit" name="proxy_password_edit" >
+            <property name="echoMode" >
+             <enum>QLineEdit::Password</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <spacer>
+         <property name="orientation" >
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" >
+          <size>
+           <width>20</width>
+           <height>31</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
      <widget class="QWidget" name="tab3" >
       <attribute name="title" >
        <string>&amp;MPlayer language</string>
@@ -753,6 +856,11 @@ The drop-down lists may provide already made regular expression for several lang
   <tabstop>mplayer_args_edit</tabstop>
   <tabstop>mplayer_vfilters_edit</tabstop>
   <tabstop>mplayer_afilters_edit</tabstop>
+  <tabstop>use_proxy_check</tabstop>
+  <tabstop>proxy_hostname_edit</tabstop>
+  <tabstop>proxy_port_spin</tabstop>
+  <tabstop>proxy_username_edit</tabstop>
+  <tabstop>proxy_password_edit</tabstop>
   <tabstop>endoffile_combo</tabstop>
   <tabstop>novideo_combo</tabstop>
   <tabstop>log_smplayer_check</tabstop>
@@ -776,6 +884,22 @@ The drop-down lists may provide already made regular expression for several lang
     <hint type="destinationlabel" >
      <x>249</x>
      <y>212</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>use_proxy_check</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>proxy_container</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>239</x>
+     <y>90</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>239</x>
+     <y>179</y>
     </hint>
    </hints>
   </connection>
