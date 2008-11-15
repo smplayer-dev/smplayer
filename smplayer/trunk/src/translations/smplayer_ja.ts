@@ -3656,92 +3656,92 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="510"/>
         <source>Proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>プロキシ</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="512"/>
         <source>Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>プロキシを有効にする</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="513"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>プロキシの使用を有効/無効にします。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="515"/>
         <source>Host</source>
-        <translation type="unfinished"></translation>
+        <translation>ホスト</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="516"/>
         <source>The host name of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>プロキシのホスト名です。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="518"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation>ポート</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="519"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>プロキシのポートです。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
         <source>Username</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザー名</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="522"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="unfinished"></translation>
+        <translation>プロキシが認証を必要とする場合、これはユーザー名を設定します。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="524"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>パスワード</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="526"/>
         <source>The password for the proxy. Warning: the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished"></translation>
+        <translation>プロキシのパスワードです。警告: パスワードは構成ファイルにプレーン テキストとして保存されます。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="514"/>
         <source>Pro&amp;xy</source>
-        <translation type="unfinished"></translation>
+        <translation>プロキシ(&amp;X)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="520"/>
         <source>You can set a proxy for internet connections (currently only used for subtitle downloading).</source>
-        <translation type="unfinished"></translation>
+        <translation>インターネット接続のプロキシを設定できます (現在は字幕のダウンロードのみに使用されます)。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="530"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>プロキシを有効にする(&amp;E)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="543"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished"></translation>
+        <translation>ホスト(&amp;H):</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="556"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>ポート(&amp;P):</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="573"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザー名(&amp;U):</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="586"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished"></translation>
+        <translation>パスワード(&amp;S):</translation>
     </message>
 </context>
 <context>
