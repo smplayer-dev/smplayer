@@ -4,6 +4,8 @@
  * Added a new action to select the next aspect ratio. Assigned by default to
    key "A". Unfortunately this change breaks compatibility and the aspect
    ratio setting for all your played videos will be lost.
+ * Display the text for the statusbar in the OSD if in fullscreen mode (and
+   not paused).
 
 (2008-11-14)
  * Added the new section Advanced->Proxy in preferences to configure the 

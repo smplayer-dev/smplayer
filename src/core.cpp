@@ -3344,6 +3344,10 @@ void Core::visualizeMotionVectors(bool b) {
 void Core::displayMessage(QString text) {
 	qDebug("Core::displayMessage");
 	emit showMessage(text);
+
+	if ((pref->fullscreen) && (state() != Paused)) {
+		tellmp("osd_show_text \"" + text + "\" 3000 1");
+	}
 }
 
 void Core::displayScreenshotName(QString filename) {
