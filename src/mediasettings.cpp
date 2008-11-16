@@ -89,7 +89,7 @@ void MediaSettings::reset() {
 	volnorm_filter = pref->initial_volnorm;
 
 	audio_use_channels = pref->initial_audio_channels; //ChDefault; // (0)
-	stereo_mode = Stereo; // (0)
+	stereo_mode = pref->initial_stereo_mode; //Stereo; // (0)
 
 	panscan_factor = pref->initial_panscan_factor; // 1.0;
 

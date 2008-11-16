@@ -365,6 +365,7 @@ public:
 	int initial_deinterlace;
 
 	int initial_audio_channels;
+	int initial_stereo_mode;
 
 	int initial_audio_track;
 	int initial_subtitle_track;

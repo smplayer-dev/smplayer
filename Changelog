@@ -6,6 +6,9 @@
    ratio setting for all your played videos will be lost.
  * Display the text for the statusbar in the OSD if in fullscreen mode (and
    not paused).
+ * Added a new option for smplayer.ini: initial_stereo_mode. It sets the
+   the stereo mode which will be used as default. 
+   Possible values: 0 (stereo), 1 (left) and 2 (right).
 
 (2008-11-14)
  * Added the new section Advanced->Proxy in preferences to configure the 
