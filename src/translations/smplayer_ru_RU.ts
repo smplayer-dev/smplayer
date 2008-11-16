@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1455,7 +1456,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1328"/>
         <source>Next aspect ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Следующее соотношение сторон</translation>
     </message>
 </context>
 <context>
@@ -1537,18 +1538,18 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../core.cpp" line="3097"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>отключено</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3105"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>авто</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3107"/>
         <source>Aspect ratio: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Соотношение сторон: %1</translation>
     </message>
 </context>
 <context>
@@ -3769,7 +3770,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.ui" line="176"/>
         <source>C&amp;orrect PTS</source>
-        <translation type="unfinished"></translation>
+        <translation>Точные &amp;метки времени</translation>
     </message>
 </context>
 <context>
