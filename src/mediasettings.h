@@ -35,8 +35,8 @@ class MediaSettings {
 public:
 	enum Denoise { NoDenoise = 0, DenoiseNormal = 1, DenoiseSoft = 2 };
 #if NEW_ASPECT_CODE
-	enum Aspect { AspectAuto = 10, Aspect43 = 20, Aspect54 = 30, Aspect149 = 40,
-                  Aspect169 = 50, Aspect1610 = 60, Aspect235 = 70, Aspect11 = 80, 
+	enum Aspect { AspectAuto = 1, Aspect43 = 2, Aspect54 = 3, Aspect149 = 4,
+                  Aspect169 = 5, Aspect1610 = 6, Aspect235 = 7, Aspect11 = 8, 
                   AspectNone = 0 };
 #else
 	enum Aspect { AspectAuto = 1, Aspect43 = 2, Aspect169 = 3, Aspect235 = 4,
