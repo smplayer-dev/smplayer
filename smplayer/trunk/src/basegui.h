@@ -427,6 +427,9 @@ protected:
 	MyAction * resetVideoEqualizerAct;
 	MyAction * resetAudioEqualizerAct;
 	MyAction * showContextMenuAct;
+#if NEW_ASPECT_CODE
+	MyAction * nextAspectAct;
+#endif
 
 	// Moving and zoom
 	MyAction * moveUpAct;

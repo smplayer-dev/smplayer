@@ -785,6 +785,12 @@ void BaseGui::createActions() {
 	connect( showContextMenuAct, SIGNAL(triggered()), 
              this, SLOT(showPopupMenu()) );
 
+#if NEW_ASPECT_CODE
+	nextAspectAct = new MyAction( Qt::Key_A, this, "next_aspect");
+	connect( nextAspectAct, SIGNAL(triggered()), 
+             core, SLOT(nextAspectRatio()) );
+#endif
+
 	// Group actions
 
 	// OSD
@@ -1318,6 +1324,9 @@ void BaseGui::retranslateStrings() {
 	resetVideoEqualizerAct->change( tr("Reset video equalizer") );
 	resetAudioEqualizerAct->change( tr("Reset audio equalizer") );
 	showContextMenuAct->change( tr("Show context menu") );
+#if NEW_ASPECT_CODE
+	nextAspectAct->change( tr("Next aspect ratio") );
+#endif
 
 	// Action groups
 	osdNoneAct->change( tr("&Disabled") );

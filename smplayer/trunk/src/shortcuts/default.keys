@@ -113,6 +113,7 @@ toggle_double_size	Ctrl+D
 reset_video_equalizer	
 reset_audio_equalizer	
 show_context_menu	
+next_aspect	A
 osd_none	
 osd_seek	
 osd_timer	
