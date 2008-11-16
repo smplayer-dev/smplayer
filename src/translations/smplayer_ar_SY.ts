@@ -3662,11 +3662,6 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="176"/>
-        <source>C&amp;orrect pts</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="510"/>
         <source>Proxy</source>
         <translation type="unfinished"></translation>
@@ -3754,6 +3749,11 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.ui" line="586"/>
         <source>Pa&amp;ssword:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="176"/>
+        <source>C&amp;orrect PTS</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5003,7 +5003,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">انتقال بدولاب الماوس</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="677"/>
+        <location filename="../prefinterface.ui" line="683"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
         <translation type="unfinished">استخدام نافذة واحدة فقط من المشغل</translation>
     </message>
@@ -5043,42 +5043,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">تذكر الموقع و الحجم</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="421"/>
+        <location filename="../prefinterface.ui" line="427"/>
         <source>Default font:</source>
         <translation type="unfinished">الخط الأفتراضي</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="435"/>
+        <location filename="../prefinterface.ui" line="441"/>
         <source>&amp;Change...</source>
         <translation type="unfinished">تغيير</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="569"/>
+        <location filename="../prefinterface.ui" line="575"/>
         <source>&amp;Behaviour of time slider:</source>
         <translation type="unfinished">طريقة شريط تمرير الوقت</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="586"/>
+        <location filename="../prefinterface.ui" line="592"/>
         <source>Seek to position while dragging</source>
         <translation type="unfinished">تمرير للموقع حيث تم السحب</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="591"/>
+        <location filename="../prefinterface.ui" line="597"/>
         <source>Seek to position when released</source>
         <translation type="unfinished">تمرير للسحب حيث تم التحرير</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="653"/>
+        <location filename="../prefinterface.ui" line="659"/>
         <source>TextLabel</source>
         <translation type="unfinished">علامة نص</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="458"/>
+        <location filename="../prefinterface.ui" line="464"/>
         <source>&amp;Seeking</source>
         <translation type="unfinished">تمرير</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="615"/>
+        <location filename="../prefinterface.ui" line="621"/>
         <source>Ins&amp;tances</source>
         <translation type="unfinished">الحالات</translation>
     </message>
@@ -5245,7 +5245,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="382"/>
         <source>(this option requires to restart SMPlayer)</source>
-        <translation type="unfinished">هذا الاعداد يتطلب اعادة تشغيل المشغل</translation>
+        <translation type="obsolete">هذا الاعداد يتطلب اعادة تشغيل المشغل</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="556"/>
@@ -5263,17 +5263,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">منفذ يدوي</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="687"/>
+        <location filename="../prefinterface.ui" line="693"/>
         <source>Port to listen</source>
         <translation type="unfinished">منفذ للاستماع</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="708"/>
+        <location filename="../prefinterface.ui" line="714"/>
         <source>&amp;Automatic</source>
         <translation type="unfinished">تلقائي</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="732"/>
+        <location filename="../prefinterface.ui" line="738"/>
         <source>&amp;Manual</source>
         <translation type="unfinished">يدوي</translation>
     </message>
@@ -5333,42 +5333,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="788"/>
+        <location filename="../prefinterface.ui" line="794"/>
         <source>&amp;Floating control</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="794"/>
+        <location filename="../prefinterface.ui" line="800"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="804"/>
+        <location filename="../prefinterface.ui" line="810"/>
         <source>&amp;Animated</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="813"/>
+        <location filename="../prefinterface.ui" line="819"/>
         <source>&amp;Width:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="872"/>
+        <location filename="../prefinterface.ui" line="878"/>
         <source>0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="846"/>
+        <location filename="../prefinterface.ui" line="852"/>
         <source>&amp;Margin:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="881"/>
+        <location filename="../prefinterface.ui" line="887"/>
         <source>Display in &amp;compact mode too</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="888"/>
+        <location filename="../prefinterface.ui" line="894"/>
         <source>&amp;Bypass window manager</source>
         <translation type="unfinished"></translation>
     </message>

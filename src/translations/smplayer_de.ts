@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de_DE">
-<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -3678,7 +3677,7 @@ Die Auswahl-Liste enthält evt.schon die regulären Ausdrücke.</translation>
     <message>
         <location filename="../prefadvanced.ui" line="176"/>
         <source>C&amp;orrect pts</source>
-        <translation>&amp;Korrigiere PTS</translation>
+        <translation type="obsolete">&amp;Korrigiere PTS</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="510"/>
@@ -3769,6 +3768,11 @@ Die Auswahl-Liste enthält evt.schon die regulären Ausdrücke.</translation>
         <location filename="../prefadvanced.ui" line="586"/>
         <source>Pa&amp;ssword:</source>
         <translation>Pa&amp;sswort:</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="176"/>
+        <source>C&amp;orrect PTS</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -5070,7 +5074,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>&amp;Sprung per Mausrad</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="677"/>
+        <location filename="../prefinterface.ui" line="683"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
         <translation>&amp;Nur einen laufenden SMPlayer-Prozess verwenden</translation>
     </message>
@@ -5110,42 +5114,42 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>&amp;Position und Größe beibehalten</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="421"/>
+        <location filename="../prefinterface.ui" line="427"/>
         <source>Default font:</source>
         <translation>Standard Schriftart:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="435"/>
+        <location filename="../prefinterface.ui" line="441"/>
         <source>&amp;Change...</source>
         <translation>&amp;Ändern...</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="569"/>
+        <location filename="../prefinterface.ui" line="575"/>
         <source>&amp;Behaviour of time slider:</source>
         <translation>&amp;Verhalten des Zeit - Schiebereglers:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="586"/>
+        <location filename="../prefinterface.ui" line="592"/>
         <source>Seek to position while dragging</source>
         <translation>Positionierung in der Bewegung anstreben</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="591"/>
+        <location filename="../prefinterface.ui" line="597"/>
         <source>Seek to position when released</source>
         <translation>Positionierung erst anstreben wenn freigegeben</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="653"/>
+        <location filename="../prefinterface.ui" line="659"/>
         <source>TextLabel</source>
         <translation>TextKennzeichnung</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="458"/>
+        <location filename="../prefinterface.ui" line="464"/>
         <source>&amp;Seeking</source>
         <translation>&amp;Positionierung</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="615"/>
+        <location filename="../prefinterface.ui" line="621"/>
         <source>Ins&amp;tances</source>
         <translation>&amp;Prozesse</translation>
     </message>
@@ -5302,7 +5306,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinterface.ui" line="382"/>
         <source>(this option requires to restart SMPlayer)</source>
-        <translation>(die Option erfordert einen Neustart von SMPlayer)</translation>
+        <translation type="obsolete">(die Option erfordert einen Neustart von SMPlayer)</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="556"/>
@@ -5320,17 +5324,17 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>Port manuell</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="687"/>
+        <location filename="../prefinterface.ui" line="693"/>
         <source>Port to listen</source>
         <translation>Abzufragender Port</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="708"/>
+        <location filename="../prefinterface.ui" line="714"/>
         <source>&amp;Automatic</source>
         <translation>&amp;Automatisch</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="732"/>
+        <location filename="../prefinterface.ui" line="738"/>
         <source>&amp;Manual</source>
         <translation>&amp;Manuell</translation>
     </message>
@@ -5390,42 +5394,42 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>MIt dieser Option , wird das Kontrollelement unter Umgehung des Window Managers dargestellt. Deaktivieren der Option, bei nicht funktionieren, der schwebenden Kontrollelemente.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="788"/>
+        <location filename="../prefinterface.ui" line="794"/>
         <source>&amp;Floating control</source>
         <translation>&amp;Schwebendes Kontrollelement</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="794"/>
+        <location filename="../prefinterface.ui" line="800"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
         <translation>Das schwebende Kontrollelement wird per Mausbewegung am unteren Ende des Bildschirms, bei Vollbild aktiviert.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="804"/>
+        <location filename="../prefinterface.ui" line="810"/>
         <source>&amp;Animated</source>
         <translation>&amp;Animiert</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="813"/>
+        <location filename="../prefinterface.ui" line="819"/>
         <source>&amp;Width:</source>
         <translation>&amp;Breite:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="872"/>
+        <location filename="../prefinterface.ui" line="878"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="846"/>
+        <location filename="../prefinterface.ui" line="852"/>
         <source>&amp;Margin:</source>
         <translation>&amp;Begrenzung:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="881"/>
+        <location filename="../prefinterface.ui" line="887"/>
         <source>Display in &amp;compact mode too</source>
         <translation>&amp;Ebenfalls Darstellung im Kompaktmodus</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="888"/>
+        <location filename="../prefinterface.ui" line="894"/>
         <source>&amp;Bypass window manager</source>
         <translation>&amp;Bypass Window Manager</translation>
     </message>
