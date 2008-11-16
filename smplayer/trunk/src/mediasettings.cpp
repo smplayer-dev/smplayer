@@ -219,7 +219,7 @@ void MediaSettings::save(QSettings * set) {
 	set->setValue( "current_chapter_id", current_chapter_id );
 	set->setValue( "current_angle_id", current_angle_id );
 
-	set->setValue( "aspect_ratio_id", aspect_ratio_id );
+	set->setValue( "aspect_ratio", aspect_ratio_id );
 	//set->setValue( "fullscreen", fullscreen );
 	set->setValue( "volume", volume );
 	set->setValue( "mute", mute );
@@ -309,7 +309,7 @@ void MediaSettings::load(QSettings * set) {
 	current_chapter_id = set->value( "current_chapter_id", current_chapter_id ).toInt();
 	current_angle_id = set->value( "current_angle_id", current_angle_id ).toInt();
 
-	aspect_ratio_id = set->value( "aspect_ratio_id", aspect_ratio_id ).toInt();
+	aspect_ratio_id = set->value( "aspect_ratio", aspect_ratio_id ).toInt();
 	//fullscreen = set->value( "fullscreen", fullscreen ).toBool();
 	volume = set->value( "volume", volume ).toInt();
 	mute = set->value( "mute", mute ).toBool();
