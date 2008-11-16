@@ -24,6 +24,7 @@
 #include "global.h"
 #include "helper.h"
 #include "toolbareditor.h"
+#include "desktopinfo.h"
 
 #include <QToolBar>
 #include <QStatusBar>
@@ -203,6 +204,13 @@ void MiniGui::saveConfig() {
 	QSettings * set = settings;
 
 	set->beginGroup( "mini_gui");
+
+	if (pref->save_window_size_on_exit) {
+		qDebug("MiniGui::saveConfig: w: %d h: %d", width(), height());
+		set->setValue( "pos", pos() );
+		set->setValue( "size", size() );
+	}
+
 	set->setValue( "toolbars_state", saveState(Helper::qtVersion()) );
 
 #if USE_CONFIGURABLE_TOOLBARS
@@ -219,7 +227,23 @@ void MiniGui::loadConfig() {
 	QSettings * set = settings;
 
 	set->beginGroup( "mini_gui");
-	restoreState( set->value( "toolbars_state" ).toByteArray(), Helper::qtVersion() );
+
+	if (pref->save_window_size_on_exit) {
+		QPoint p = set->value("pos", pos()).toPoint();
+		QSize s = set->value("size", size()).toSize();
+
+		if ( (s.height() < 200) && (!pref->use_mplayer_window) ) {
+			s = pref->default_size;
+		}
+
+		move(p);
+		resize(s);
+
+		if (!DesktopInfo::isInsideScreen(this)) {
+			move(0,0);
+			qWarning("MiniGui::loadConfig: window is outside of the screen, moved to 0x0");
+		}
+	}
 
 #if USE_CONFIGURABLE_TOOLBARS
 	QList<QAction *> actions_list = findChildren<QAction *>();
@@ -242,6 +266,8 @@ void MiniGui::loadConfig() {
 	floating_control->adjustSize();
 	set->endGroup();
 #endif
+
+	restoreState( set->value( "toolbars_state" ).toByteArray(), Helper::qtVersion() );
 
 	set->endGroup();
 }
