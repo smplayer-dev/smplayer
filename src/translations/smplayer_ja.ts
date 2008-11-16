@@ -1455,7 +1455,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1328"/>
         <source>Next aspect ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>次のアスペクト比</translation>
     </message>
 </context>
 <context>
@@ -1537,18 +1537,18 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../core.cpp" line="3097"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>disabled</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3105"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>auto</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3107"/>
         <source>Aspect ratio: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>アスペクト比: %1</translation>
     </message>
 </context>
 <context>
@@ -3768,7 +3768,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.ui" line="176"/>
         <source>C&amp;orrect PTS</source>
-        <translation type="unfinished"></translation>
+        <translation>PTS を修正する(&amp;O)</translation>
     </message>
 </context>
 <context>
