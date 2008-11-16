@@ -3094,7 +3094,7 @@ void Core::changeAspectRatio( int ID ) {
 
 	QString asp_name;
 	switch (mset.aspect_ratio_id) {
-		case MediaSettings::AspectNone: asp_name = tr("none", "aspect_ratio"); break;
+		case MediaSettings::AspectNone: asp_name = tr("disabled", "aspect_ratio"); break;
 		case MediaSettings::Aspect43: asp_name = "4:3"; break;
 		case MediaSettings::Aspect169: asp_name = "16:9"; break;
 		case MediaSettings::Aspect149: asp_name = "14:9"; break;
