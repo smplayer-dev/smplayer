@@ -173,7 +173,7 @@
        <item>
         <widget class="QCheckBox" name="correct_pts_check" >
          <property name="text" >
-          <string>C&amp;orrect pts</string>
+          <string>C&amp;orrect PTS</string>
          </property>
         </widget>
        </item>
