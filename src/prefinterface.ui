@@ -377,11 +377,17 @@
           </widget>
          </item>
          <item row="3" column="2" >
-          <widget class="QLabel" name="label_5" >
-           <property name="text" >
-            <string>(this option requires to restart SMPlayer)</string>
+          <spacer>
+           <property name="orientation" >
+            <enum>Qt::Horizontal</enum>
            </property>
-          </widget>
+           <property name="sizeHint" >
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
          </item>
         </layout>
        </item>
