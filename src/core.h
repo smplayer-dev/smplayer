@@ -232,6 +232,9 @@ public slots:
 	void nextChapter();
 	void changeAngle(int);
 	void changeAspectRatio(int);
+#if NEW_ASPECT_CODE
+	void nextAspectRatio();
+#endif
 	void changeOSD(int);
 	void nextOSD();
 

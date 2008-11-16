@@ -3091,6 +3091,28 @@ void Core::changeAspectRatio( int ID ) {
 			tellmp("switch_ratio " + QString::number(asp));
 		}
 	}
+
+	QString asp_name;
+	switch (mset.aspect_ratio_id) {
+		case MediaSettings::AspectNone: asp_name = tr("none", "aspect_ratio"); break;
+		case MediaSettings::Aspect43: asp_name = "4:3"; break;
+		case MediaSettings::Aspect169: asp_name = "16:9"; break;
+		case MediaSettings::Aspect149: asp_name = "14:9"; break;
+		case MediaSettings::Aspect1610: asp_name = "16:10"; break;
+		case MediaSettings::Aspect54: asp_name = "5:4"; break;
+		case MediaSettings::Aspect235: asp_name = "2.35:1"; break;
+		case MediaSettings::Aspect11: asp_name = "1:1"; break;
+		default: asp_name = tr("auto", "aspect_ratio");
+	}
+	displayMessage( tr("Aspect ratio: %1").arg(asp_name) );
+}
+
+void Core::nextAspectRatio() {
+	int ID = mset.aspect_ratio_id + 1;
+	if (ID > MediaSettings:: Aspect11) ID = MediaSettings::AspectNone;
+	changeAspectRatio(ID);
+
+	updateWidgets();
 }
 
 void Core::changeLetterbox(bool b) {
