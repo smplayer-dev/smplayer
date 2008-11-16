@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="uk">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1445,7 +1446,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1328"/>
         <source>Next aspect ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Нове співвідношення сторін</translation>
     </message>
 </context>
 <context>
@@ -1527,18 +1528,18 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../core.cpp" line="3097"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>вимкнено</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3105"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>автоматично</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3107"/>
         <source>Aspect ratio: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Співвідношення сторін: %1</translation>
     </message>
 </context>
 <context>
@@ -3413,7 +3414,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.ui" line="748"/>
         <source>Log &amp;SMPlayer output</source>
-        <translation>Вести звіт виходу &amp;SMPlayer</translation>
+        <translation>Вести звіт виведення &amp;SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="805"/>
@@ -3443,7 +3444,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.ui" line="755"/>
         <source>Log MPlayer &amp;output</source>
-        <translation>Вести звіт &amp;виходу MPlayer</translation>
+        <translation>Вести звіт &amp;вивидення MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="292"/>
@@ -3678,97 +3679,97 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="510"/>
         <source>Proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Проксі</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="512"/>
         <source>Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Увімкнути проксі</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="513"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Увімкнути/вимкнути використання проксі.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="515"/>
         <source>Host</source>
-        <translation type="unfinished"></translation>
+        <translation>Сервер</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="516"/>
         <source>The host name of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Назва серверу проксі.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="518"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Порт</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="519"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Порт проксі.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
         <source>Username</source>
-        <translation type="unfinished"></translation>
+        <translation>Ім&apos;я користувача</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="522"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо проксі портебую автентифікації, це встановлює ім&apos;я користувача.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="524"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Пароль</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="526"/>
         <source>The password for the proxy. Warning: the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Пароль для проксі. Застереження: пароль буде збережений як звичайний текст в файлі налаштувань.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="514"/>
         <source>Pro&amp;xy</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Проксі</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="520"/>
         <source>You can set a proxy for internet connections (currently only used for subtitle downloading).</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви можете встановити проксі для мережевих з&apos;єднань (зараз використовується тільки для звантаження субтитрів).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="530"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Увімкнути проксі</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="543"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Сервер:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="556"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>П&amp;орт:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="573"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ім&apos;я користувача:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="586"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished"></translation>
+        <translation>П&amp;ароль:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="176"/>
         <source>C&amp;orrect PTS</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Корегувати PTS</translation>
     </message>
 </context>
 <context>
