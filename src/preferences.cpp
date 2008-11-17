@@ -172,12 +172,7 @@ void Preferences::reset() {
 #else
 	use_ass_subtitles = true;
 #endif
-#if !USE_ASS_STYLES
-	ass_color = 0xFFFF00;
-    ass_border_color = 0x000000;
-	//ass_styles = "Bold=1,Outline=2,Shadow=2";
-	ass_styles = "";
-#endif
+
 	ass_line_spacing = 0;
 
 	use_closed_caption_subs = false;
@@ -188,11 +183,9 @@ void Preferences::reset() {
 	use_new_sub_commands = Detect;
 	change_sub_scale_should_restart = Detect;
 
-#if USE_ASS_STYLES
 	// ASS styles
 	// Nothing to do, default values are given in
 	// AssStyles constructor
-#endif
 
 
     /* ********
@@ -530,11 +523,6 @@ void Preferences::save() {
 	set->setValue("autoload_sub", autoload_sub);
 
 	set->setValue("use_ass_subtitles", use_ass_subtitles);
-#if !USE_ASS_STYLES
-	set->setValue("ass_color", (int) ass_color);
-	set->setValue("ass_border_color", (int) ass_border_color);
-	set->setValue("ass_styles", ass_styles);
-#endif
 	set->setValue("ass_line_spacing", ass_line_spacing);
 	set->setValue("use_closed_caption_subs", use_closed_caption_subs);
 	set->setValue("use_forced_subs_only", use_forced_subs_only);
@@ -544,10 +532,8 @@ void Preferences::save() {
 	set->setValue("use_new_sub_commands", use_new_sub_commands);
 	set->setValue("change_sub_scale_should_restart", change_sub_scale_should_restart);
 
-#if USE_ASS_STYLES
 	// ASS styles
 	ass_styles.save(set);
-#endif
 
 	set->endGroup(); // subtitles
 
@@ -898,11 +884,6 @@ void Preferences::load() {
 	autoload_sub = set->value("autoload_sub", autoload_sub).toBool();
 
 	use_ass_subtitles = set->value("use_ass_subtitles", use_ass_subtitles).toBool();
-#if !USE_ASS_STYLES
-	ass_color = set->value("ass_color", ass_color).toInt();
-	ass_border_color = set->value("ass_border_color", ass_border_color).toInt();
-	ass_styles = set->value("ass_styles", ass_styles).toString();
-#endif
 	ass_line_spacing = set->value("ass_line_spacing", ass_line_spacing).toInt();
 
 	use_closed_caption_subs = set->value("use_closed_caption_subs", use_closed_caption_subs).toBool();
@@ -913,10 +894,8 @@ void Preferences::load() {
 	use_new_sub_commands = (OptionState) set->value("use_new_sub_commands", use_new_sub_commands).toInt();
 	change_sub_scale_should_restart = (OptionState) set->value("change_sub_scale_should_restart", change_sub_scale_should_restart).toInt();
 
-#if USE_ASS_STYLES
 	// ASS styles
 	ass_styles.load(set);
-#endif
 
 	set->endGroup(); // subtitles
 
