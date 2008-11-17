@@ -340,9 +340,7 @@ public:
        ************** */
 
 	double initial_sub_scale;
-#if SCALE_ASS_SUBS
 	double initial_sub_scale_ass;
-#endif
 	int initial_volume;
 	int initial_contrast;
 	int initial_brightness;
