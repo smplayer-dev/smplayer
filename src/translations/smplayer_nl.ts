@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="nl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1450,7 +1451,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="1328"/>
         <source>Next aspect ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Volgende aspectverhouding</translation>
     </message>
 </context>
 <context>
@@ -1532,18 +1533,18 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
         <location filename="../core.cpp" line="3097"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>Uitgeschakeld</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3105"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>automatisch</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3107"/>
         <source>Aspect ratio: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Aspectverhouding: %1</translation>
     </message>
 </context>
 <context>
@@ -3669,92 +3670,92 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
     <message>
         <location filename="../prefadvanced.cpp" line="510"/>
         <source>Proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Proxy</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="512"/>
         <source>Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Proxy inschakelen</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="513"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het gebruik van een proxy in-/uitschakelen.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="515"/>
         <source>Host</source>
-        <translation type="unfinished"></translation>
+        <translation>Host</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="516"/>
         <source>The host name of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>De hostnaam van de proxy.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="518"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Poort</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="519"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>De poort van de proxy.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
         <source>Username</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruikersnaam</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="522"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="unfinished"></translation>
+        <translation>Indien de proxy authentificatie nodig heeft stelt dit de gebruikersnaam in.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="524"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Wachtwoord</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="526"/>
         <source>The password for the proxy. Warning: the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het wachtwoord voor de proxy. Waarschuwing: het wachtwoord zal als gewone tekst worden opgeslagen in het configuratiebestand.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="514"/>
         <source>Pro&amp;xy</source>
-        <translation type="unfinished"></translation>
+        <translation>Pro&amp;xy</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="520"/>
         <source>You can set a proxy for internet connections (currently only used for subtitle downloading).</source>
-        <translation type="unfinished"></translation>
+        <translation>U kunt een proxy voor internetverbindingen instellen (momenteel alleen gebruikt voor het downloaden van ondertitels).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="530"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Proxy inschak&amp;elen</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="543"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Host:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="556"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Poort:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="573"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebr&amp;uikersnaam:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="586"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished"></translation>
+        <translation>Wa&amp;chtwoord:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="176"/>
@@ -5301,32 +5302,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="568"/>
         <source>Floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Drijvende controle</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="570"/>
         <source>Animated</source>
-        <translation type="unfinished"></translation>
+        <translation>Geanimeerd</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="572"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Indien deze optie is ingeschakeld zal de drijvende controle met een animatie verschijnen.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="574"/>
         <source>Width</source>
-        <translation type="unfinished"></translation>
+        <translation>Breedte</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="575"/>
         <source>Specifies the width of the control (as a percentage).</source>
-        <translation type="unfinished"></translation>
+        <translation>Stelt de breedte van de controle in (als percentage).</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="577"/>
         <source>Margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Marge</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="581"/>
@@ -5356,32 +5357,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="794"/>
         <source>&amp;Floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Drij&amp;vende controle</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="800"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>De drijvende controle verschijnt in het volledig scherm wanneer de muis wordt verplaatst naar de onderkant van het scherm.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="810"/>
         <source>&amp;Animated</source>
-        <translation type="unfinished"></translation>
+        <translation>Ge&amp;animeerd</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="819"/>
         <source>&amp;Width:</source>
-        <translation type="unfinished"></translation>
+        <translation>Breed&amp;te:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="878"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation>0</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="852"/>
         <source>&amp;Margin:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Marge:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="887"/>
