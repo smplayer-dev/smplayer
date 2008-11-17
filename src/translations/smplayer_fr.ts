@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -55,17 +56,17 @@
     <message>
         <location filename="../about.cpp" line="137"/>
         <source>German</source>
-        <translation>Allemand</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="138"/>
         <source>Slovak</source>
-        <translation>Slovène</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="139"/>
         <source>Italian</source>
-        <translation>Italien</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="140"/>
@@ -85,7 +86,7 @@
     <message>
         <location filename="../about.cpp" line="145"/>
         <source>Russian</source>
-        <translation>Russe</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="170"/>
@@ -95,87 +96,87 @@
     <message>
         <location filename="../about.cpp" line="146"/>
         <source>Hungarian</source>
-        <translation>Hongrois</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Polish</source>
-        <translation>Polonais</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="152"/>
         <source>Japanese</source>
-        <translation>Japonais</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="153"/>
         <source>Dutch</source>
-        <translation>Hollandais</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="157"/>
         <source>Ukrainian</source>
-        <translation>Ukrainien</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="160"/>
         <source>Portuguese - Brazil</source>
-        <translation>Brésilien</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="161"/>
         <source>Georgian</source>
-        <translation>Géorgien</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="162"/>
         <source>Czech</source>
-        <translation>Tchèque</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="163"/>
         <source>Bulgarian</source>
-        <translation>Bulgare</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="164"/>
         <source>Turkish</source>
-        <translation>Turc</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="165"/>
         <source>Swedish</source>
-        <translation>Suédois</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="166"/>
         <source>Serbian</source>
-        <translation>Serbe</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="167"/>
         <source>Traditional Chinese</source>
-        <translation>Chinois traditionnel</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="168"/>
         <source>Romanian</source>
-        <translation>Roumain</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="169"/>
         <source>Portuguese - Portugal</source>
-        <translation>Portugais</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="172"/>
         <source>Greek</source>
-        <translation>Grecque</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="173"/>
         <source>Finnish</source>
-        <translation>Finlandais</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="186"/>
@@ -240,7 +241,7 @@
     <message>
         <location filename="../about.cpp" line="174"/>
         <source>Korean</source>
-        <translation>Coréen</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="175"/>
@@ -250,7 +251,7 @@
     <message>
         <location filename="../about.cpp" line="176"/>
         <source>Basque</source>
-        <translation>Basque</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="44"/>
@@ -260,7 +261,7 @@
     <message>
         <location filename="../about.cpp" line="177"/>
         <source>Catalan</source>
-        <translation>Catalan</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="51"/>
@@ -275,22 +276,22 @@
     <message>
         <location filename="../about.cpp" line="178"/>
         <source>Slovenian</source>
-        <translation>Slovène</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="179"/>
         <source>Arabic</source>
-        <translation>Arabe</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="180"/>
         <source>Kurdish</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="181"/>
         <source>Galician</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -1413,44 +1414,44 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="1318"/>
         <source>Next video</source>
-        <translation type="unfinished"></translation>
+        <translation>Prochaine vidéo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1369"/>
         <source>&amp;Track</source>
         <comment>video</comment>
-        <translation type="unfinished">&amp;Piste</translation>
+        <translation>&amp;Piste</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1441"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
-        <translation type="unfinished">&amp;Piste</translation>
+        <translation>&amp;Piste</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3351"/>
         <source>Warning - Using old MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Attention : vieille version de MPlayer utilisée</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3355"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
-        <translation type="unfinished"></translation>
+        <translation>La version de MPlayer (%1) installée sur votre système est obselète. De ce fait, SMPlayer ne peut pas fonctionner correctement : certaines options ainsi que le sous-titrage peuvent ne pas fonctionner...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3358"/>
         <source>Please, update your MPlayer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Veuillez mettre à jour votre version de MPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3359"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Cette alerte n&apos;apparaitra plus)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1328"/>
         <source>Next aspect ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Aspect ratio suivant</translation>
     </message>
 </context>
 <context>
@@ -1532,18 +1533,18 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
         <location filename="../core.cpp" line="3097"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>désactivé</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3105"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3107"/>
         <source>Aspect ratio: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Aspect ratio : %1</translation>
     </message>
 </context>
 <context>
@@ -1620,12 +1621,12 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="39"/>
         <source>Downloading...</source>
-        <translation type="unfinished">Téléchargement...</translation>
+        <translation>Téléchargement en cours...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="57"/>
         <source>Downloading %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Téléchargement en cours %1</translation>
     </message>
 </context>
 <context>
@@ -1851,47 +1852,49 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="451"/>
         <source>Subtitle saved as %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Sous-titres sauvegardés : %1</translation>
     </message>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="474"/>
         <source>%1 subtitle(s) extracted</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 sous-titre(s) extrait(s)</numerusform>
+            <numerusform>%1 sous-titre(s) extrait(s)</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="488"/>
         <source>Overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ecraser ?</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="489"/>
         <source>The file %1 already exits, overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>Le fichier %1 existe déjà, l&apos;écraser ?</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="406"/>
         <source>Error saving file</source>
-        <translation type="unfinished">Erreur lors de la sauvegarde</translation>
+        <translation>Erreur lors de la sauvegarde</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="409"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Il n&apos;a pas été possible de sauvegarder
+le fichier dans le dossier %1
+Veuillez vérifier les droits sur ce dossier.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="400"/>
         <source>Download failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Téléchargement échoué</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="386"/>
         <source>Temporary file %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Fichier temporaire %1</translation>
     </message>
 </context>
 <context>
@@ -2183,817 +2186,817 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="24"/>
         <source>Afar</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="25"/>
         <source>Abkhazian</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="26"/>
         <source>Afrikaans</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="27"/>
         <source>Amharic</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="216"/>
         <source>Arabic</source>
-        <translation type="unfinished">Arabe</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="29"/>
         <source>Assamese</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="30"/>
         <source>Aymara</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="31"/>
         <source>Azerbaijani</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="32"/>
         <source>Bashkir</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="33"/>
         <source>Byelorussian</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="169"/>
         <source>Bulgarian</source>
-        <translation type="unfinished">Bulgare</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="35"/>
         <source>Bihari</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="36"/>
         <source>Bislama</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="37"/>
         <source>Bengali</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="38"/>
         <source>Tibetan</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="39"/>
         <source>Breton</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="170"/>
         <source>Catalan</source>
-        <translation type="unfinished">Catalan</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="41"/>
         <source>Corsican</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="171"/>
         <source>Czech</source>
-        <translation type="unfinished">Tchèque</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="43"/>
         <source>Welsh</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="44"/>
         <source>Danish</source>
-        <translation type="unfinished">Danois</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="172"/>
         <source>German</source>
-        <translation type="unfinished">Allemand</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="46"/>
         <source>Bhutani</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="173"/>
         <source>Greek</source>
-        <translation type="unfinished">Grecque</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="174"/>
         <source>English</source>
-        <translation type="unfinished">Anglais</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="49"/>
         <source>Esperanto</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
         <source>Spanish</source>
-        <translation type="unfinished">Espagnol</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="51"/>
         <source>Estonian</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="176"/>
         <source>Basque</source>
-        <translation type="unfinished">Basque</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="53"/>
         <source>Persian</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="177"/>
         <source>Finnish</source>
-        <translation type="unfinished">Finlandais</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="55"/>
         <source>Fiji</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="56"/>
         <source>Faroese</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="178"/>
         <source>French</source>
-        <translation type="unfinished">Français</translation>
+        <translation>Français</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="58"/>
         <source>Frisian</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="59"/>
         <source>Irish</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="60"/>
         <source>Scots</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="179"/>
         <source>Galician</source>
-        <translation type="unfinished">Galacien</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="62"/>
         <source>Guarani</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="63"/>
         <source>Gujarati</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="64"/>
         <source>Hausa</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="65"/>
         <source>Hebrew</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="66"/>
         <source>Hindi</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="67"/>
         <source>Croatian</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="180"/>
         <source>Hungarian</source>
-        <translation type="unfinished">Hongrois</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="69"/>
         <source>Armenian</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="70"/>
         <source>Interlingua</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="71"/>
         <source>Indonesian</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="72"/>
         <source>Interlingue</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="73"/>
         <source>Inupiak</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="74"/>
         <source>Icelandic</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="181"/>
         <source>Italian</source>
-        <translation type="unfinished">Italien</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="76"/>
         <source>Inuktitut</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="182"/>
         <source>Japanese</source>
-        <translation type="unfinished">Japonais</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="78"/>
         <source>Javanese</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="183"/>
         <source>Georgian</source>
-        <translation type="unfinished">Géorgien</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="80"/>
         <source>Kazakh</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="81"/>
         <source>Greenlandic</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="82"/>
         <source>Cambodian</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="83"/>
         <source>Kannada</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="184"/>
         <source>Korean</source>
-        <translation type="unfinished">Coréen</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="85"/>
         <source>Kashmiri</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="185"/>
         <source>Kurdish</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="87"/>
         <source>Kirghiz</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="88"/>
         <source>Latin</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="89"/>
         <source>Lingala</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="90"/>
         <source>Laothian</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="91"/>
         <source>Lithuanian</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="92"/>
         <source>Latvian</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="93"/>
         <source>Malagasy</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="94"/>
         <source>Maori</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="186"/>
         <source>Macedonian</source>
-        <translation type="unfinished">Macédonien</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="96"/>
         <source>Malayalam</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="97"/>
         <source>Mongolian</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="98"/>
         <source>Moldavian</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="99"/>
         <source>Marathi</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="100"/>
         <source>Malay</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="101"/>
         <source>Maltese</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="102"/>
         <source>Burmese</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="103"/>
         <source>Nauru</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="104"/>
         <source>Nepali</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="187"/>
         <source>Dutch</source>
-        <translation type="unfinished">Hollandais</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="106"/>
         <source>Norwegian</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="107"/>
         <source>Occitan</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="108"/>
         <source>Oriya</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="109"/>
         <source>Punjabi</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="188"/>
         <source>Polish</source>
-        <translation type="unfinished">Polonais</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="111"/>
         <source>Pashto</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="112"/>
         <source>Portuguese</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="113"/>
         <source>Quechua</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="115"/>
         <source>Kirundi</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="191"/>
         <source>Romanian</source>
-        <translation type="unfinished">Roumain</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="222"/>
         <source>Russian</source>
-        <translation type="unfinished">Russe</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="118"/>
         <source>Kinyarwanda</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="119"/>
         <source>Sanskrit</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="120"/>
         <source>Sindhi</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="121"/>
         <source>Sangho</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="123"/>
         <source>Sinhalese</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="193"/>
         <source>Slovak</source>
-        <translation type="unfinished">Slovène</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="194"/>
         <source>Slovenian</source>
-        <translation type="unfinished">Slovène</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="126"/>
         <source>Samoan</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="127"/>
         <source>Shona</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="128"/>
         <source>Somali</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="129"/>
         <source>Albanian</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="195"/>
         <source>Serbian</source>
-        <translation type="unfinished">Serbe</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="131"/>
         <source>Siswati</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="132"/>
         <source>Sesotho</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="133"/>
         <source>Sundanese</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="196"/>
         <source>Swedish</source>
-        <translation type="unfinished">Suédois</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="135"/>
         <source>Swahili</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="136"/>
         <source>Tamil</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="137"/>
         <source>Telugu</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="138"/>
         <source>Tajik</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="139"/>
         <source>Thai</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="140"/>
         <source>Tigrinya</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="141"/>
         <source>Turkmen</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
         <source>Tagalog</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="143"/>
         <source>Setswana</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="144"/>
         <source>Tonga</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="218"/>
         <source>Turkish</source>
-        <translation type="unfinished">Turc</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="146"/>
         <source>Tsonga</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="147"/>
         <source>Tatar</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="148"/>
         <source>Twi</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="149"/>
         <source>Uighur</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="198"/>
         <source>Ukrainian</source>
-        <translation type="unfinished">Ukrainien</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="151"/>
         <source>Urdu</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="152"/>
         <source>Uzbek</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="153"/>
         <source>Vietnamese</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="155"/>
         <source>Wolof</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="156"/>
         <source>Xhosa</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="157"/>
         <source>Yiddish</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="158"/>
         <source>Yoruba</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="159"/>
         <source>Zhuang</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="160"/>
         <source>Chinese</source>
-        <translation type="unfinished">Chinois</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="161"/>
         <source>Zulu</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="189"/>
         <source>Portuguese - Brazil</source>
-        <translation type="unfinished">Brésilien</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="190"/>
         <source>Portuguese - Portugal</source>
-        <translation type="unfinished">Portugais</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="199"/>
         <source>Simplified-Chinese</source>
-        <translation type="unfinished">Chinois simplifié</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="200"/>
         <source>Traditional Chinese</source>
-        <translation type="unfinished">Chinois traditionnel</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="208"/>
         <source>Unicode</source>
-        <translation type="unfinished">Unicode</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="209"/>
         <source>UTF-8</source>
-        <translation type="unfinished">UTF-8</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
         <source>Western European Languages</source>
-        <translation type="unfinished">Langues de l&apos;Europe de l&apos;ouest</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="211"/>
         <source>Western European Languages with Euro</source>
-        <translation type="unfinished">Langues de l&apos;Europe de l&apos;ouest avec Euro</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="212"/>
         <source>Slavic/Central European Languages</source>
-        <translation type="unfinished">Langues de l&apos;Europe centrale/slave</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="213"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
-        <translation type="unfinished">Esperanto, Malte, Turc</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="214"/>
         <source>Old Baltic charset</source>
-        <translation type="unfinished">Balte ancien</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="215"/>
         <source>Cyrillic</source>
-        <translation type="unfinished">Cyrillic</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="217"/>
         <source>Modern Greek</source>
-        <translation type="unfinished">Grec moderne</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="219"/>
         <source>Baltic</source>
-        <translation type="unfinished">Balte</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="220"/>
         <source>Celtic</source>
-        <translation type="unfinished">Celte</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="221"/>
         <source>Hebrew charsets</source>
-        <translation type="unfinished">Caractères hébreux</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="223"/>
         <source>Ukrainian, Belarusian</source>
-        <translation type="unfinished">Ukrainien, Biélorusse</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="224"/>
         <source>Simplified Chinese charset</source>
-        <translation type="unfinished">Chinois simplifié</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="225"/>
         <source>Traditional Chinese charset</source>
-        <translation type="unfinished">Chinois traditionel</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="226"/>
         <source>Japanese charsets</source>
-        <translation type="unfinished">Japonais</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="227"/>
         <source>Korean charset</source>
-        <translation type="unfinished">Koréen</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="228"/>
         <source>Thai charset</source>
-        <translation type="unfinished">Thailandais</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="229"/>
         <source>Cyrillic Windows</source>
-        <translation type="unfinished">Cyrillic Windows</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="230"/>
         <source>Slavic/Central European Windows</source>
-        <translation type="unfinished">Langues de l&apos;Europe centrale/slave</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="231"/>
         <source>Arabic Windows</source>
-        <translation type="unfinished">Arabe Windows</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="114"/>
         <source>Rhaeto-Romance</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="122"/>
         <source>Serbo-Croatian</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="154"/>
         <source>Volap&#xfc;k</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -3667,42 +3670,42 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefadvanced.cpp" line="510"/>
         <source>Proxy</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="512"/>
         <source>Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Activer le proxy</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="513"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Activer/Désactiver le proxy.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="515"/>
         <source>Host</source>
-        <translation type="unfinished"></translation>
+        <translation>Hôte</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="516"/>
         <source>The host name of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Le nom du proxy hôte.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="518"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="519"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Le port du proxy.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
         <source>Username</source>
-        <translation type="unfinished"></translation>
+        <translation>Identifiant</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="522"/>
@@ -3732,27 +3735,27 @@ Les listes déroulantes peuvent fournir des expressions régulières déjà fait
     <message>
         <location filename="../prefadvanced.ui" line="530"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Activ&amp;er le proxy</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="543"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hôte :</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="556"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Port :</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="573"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Identifiant :</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="586"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished"></translation>
+        <translation>Mot de p&amp;asse :</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="176"/>
@@ -4530,7 +4533,7 @@ Aucune information pour le moment.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="701"/>
         <source>Default zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoom par défaut</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="703"/>
@@ -4540,7 +4543,7 @@ Aucune information pour le moment.</translation>
     <message>
         <location filename="../prefgeneral.ui" line="390"/>
         <source>Default &amp;zoom:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zoom par défaut :</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="649"/>
@@ -4565,7 +4568,7 @@ Aucune information pour le moment.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="746"/>
         <source>%1 is the recommended one. Try to avoid %2 and %3, they are slow and can have an impact on performance.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 est recommandé. Essayez d&apos;éviter %2 et %3, ils sont lents et peuvent avoir un impact sur les performances.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="662"/>
@@ -4600,7 +4603,7 @@ Aucune information pour le moment.</translation>
     <message>
         <location filename="../prefgeneral.ui" line="521"/>
         <source>Ou&amp;tput driver:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilote de sor&amp;tie :</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="795"/>
@@ -4913,32 +4916,32 @@ Aucune information pour le moment.</translation>
     <message>
         <location filename="../prefinput.cpp" line="274"/>
         <source>X Button 1</source>
-        <translation type="unfinished"></translation>
+        <translation>X Bouton 1</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="275"/>
         <source>Select the action for the X button 1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionnez l&apos;action pour l&apos;X bouton 1.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="277"/>
         <source>X Button 2</source>
-        <translation type="unfinished"></translation>
+        <translation>X Bouton 2</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="278"/>
         <source>Select the action for the X button 2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionnez l&apos;action pour l&apos;X bouton 2.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="81"/>
         <source>Show video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Montrer l&apos;équaliseur vidéo</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="82"/>
         <source>Show audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Montrer l&apos;équaliseur audio</translation>
     </message>
 </context>
 <context>
@@ -5296,7 +5299,7 @@ Aucune information pour le moment.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="570"/>
         <source>Animated</source>
-        <translation type="unfinished"></translation>
+        <translation>Animé</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="572"/>
@@ -5306,7 +5309,7 @@ Aucune information pour le moment.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="574"/>
         <source>Width</source>
-        <translation type="unfinished"></translation>
+        <translation>Largeur</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="575"/>
@@ -5356,17 +5359,17 @@ Aucune information pour le moment.</translation>
     <message>
         <location filename="../prefinterface.ui" line="810"/>
         <source>&amp;Animated</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Animé</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="819"/>
         <source>&amp;Width:</source>
-        <translation type="unfinished"></translation>
+        <translation>Lar&amp;geur :</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="878"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="852"/>
@@ -5702,12 +5705,12 @@ Aucune information pour le moment.</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="36"/>
         <source>Playlist</source>
-        <translation type="unfinished">Liste de lecture</translation>
+        <translation>Liste de lecture</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="80"/>
         <source>Automatically add files to playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajouter automatiquement les fichiers à la liste de lecture</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="84"/>
@@ -5717,7 +5720,7 @@ Aucune information pour le moment.</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="86"/>
         <source>Add consecutive files</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajouter consécutivement les fichiers</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="89"/>
@@ -5727,7 +5730,7 @@ Aucune information pour le moment.</translation>
     <message>
         <location filename="../prefplaylist.ui" line="32"/>
         <source>&amp;Playlist</source>
-        <translation type="unfinished">&amp;Liste de lecture</translation>
+        <translation>&amp;Liste de lecture</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="38"/>
