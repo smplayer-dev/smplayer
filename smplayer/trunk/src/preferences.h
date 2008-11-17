@@ -150,11 +150,6 @@ public:
 	bool autoload_sub;
 
 	bool use_ass_subtitles;
-#if !USE_ASS_STYLES
-	unsigned int ass_color;
-	unsigned int ass_border_color;
-	QString ass_styles;
-#endif
 	int ass_line_spacing;
 
 	bool use_closed_caption_subs;
@@ -167,10 +162,8 @@ public:
 	OptionState use_new_sub_commands; 
 	OptionState change_sub_scale_should_restart;
 
-#if USE_ASS_STYLES
 	// ASS styles
 	AssStyles ass_styles;
-#endif
 
 
     /* ********

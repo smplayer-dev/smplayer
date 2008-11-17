@@ -21,7 +21,6 @@
 
 #include "ui_prefsubtitles.h"
 #include "prefwidget.h"
-#include "config.h"
 
 class Preferences;
 class Encodings;
@@ -82,17 +81,6 @@ protected:
 	void setUseFontASS(bool v);
 	bool useFontASS();
 
-#if !USE_ASS_STYLES
-	void setAssColor( unsigned int color );
-	unsigned int assColor();
-
-	void setAssBorderColor( unsigned int color );
-	unsigned int assBorderColor();
-
-	void setAssStyles(QString styles);
-	QString assStyles();
-#endif
-
 	void setAssLineSpacing(int spacing);
 	int assLineSpacing();
 
@@ -104,10 +92,7 @@ protected:
 
 protected slots:
 	void on_ass_subs_button_toggled(bool b);
-
-#if USE_ASS_STYLES
 	void checkBorderStyleCombo( int index );
-#endif
 
 protected:
 	virtual void retranslateStrings();

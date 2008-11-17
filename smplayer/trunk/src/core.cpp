@@ -1347,12 +1347,11 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument("-ass-line-spacing");
 		proc->addArgument(QString::number(pref->ass_line_spacing));
 
-#if USE_ASS_STYLES
+		// Load the styles.ass file
 		if (!QFile::exists(Paths::subtitleStyleFile())) {
 			// If file doesn't exist, create it
 			pref->ass_styles.exportStyles(Paths::subtitleStyleFile());
 		}
-
 		if (QFile::exists(Paths::subtitleStyleFile())) {
 			proc->addArgument("-ass-styles");
 			proc->addArgument( Paths::subtitleStyleFile() );
@@ -1362,24 +1361,12 @@ void Core::startMplayer( QString file, double seek ) {
 
 		proc->addArgument( "-ass-font-scale");
 		proc->addArgument( QString::number(mset.sub_scale_ass) );
-#else
-		proc->addArgument("-ass-color");
-		proc->addArgument( ColorUtils::colorToRRGGBBAA( pref->ass_color ) );
-		proc->addArgument("-ass-border-color");
-		proc->addArgument( ColorUtils::colorToRRGGBBAA( pref->ass_border_color ) );
-		if (!pref->ass_styles.isEmpty()) {
-			proc->addArgument("-ass-force-style");
-			proc->addArgument( pref->ass_styles );
-		}
-#endif
 	} else {
 		proc->addArgument("-noass");
 	}
 
-#if USE_ASS_STYLES
 	if (!pref->use_ass_subtitles) {
 		// Don't pass the following options if using -ass
-#endif
 
 	// Subtitles font
 	if ( (pref->use_fontconfig) && (!pref->font_name.isEmpty()) ) {
@@ -1404,9 +1391,7 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( QString::number(mset.sub_scale) );
 	}
 
-#if USE_ASS_STYLES
 	}
-#endif
 
 	// Subtitle encoding
 	{
