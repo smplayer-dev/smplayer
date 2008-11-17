@@ -59,16 +59,14 @@ PrefDrives::PrefDrives(QWidget * parent, Qt::WindowFlags f)
 		}
 	}
 #else
-#define ADD_IF_EXISTS( string ) \
-	if (QFile::exists( string )) { \
-		dvd_device_combo->addItem( string ); \
-        cdrom_device_combo->addItem( string ); \
-    }
-
-	ADD_IF_EXISTS("/dev/dvd");
-	ADD_IF_EXISTS("/dev/dvdrecorder");
-	ADD_IF_EXISTS("/dev/cdrom");
-	ADD_IF_EXISTS("/dev/cdrecorder");
+	QDir dev_dir("/dev");
+	QStringList devices = dev_dir.entryList( QStringList() << "dvd*" << "cdrom*" << "cdrw*" << "sr*" << "cdrecorder*");
+	for (int n=0; n < devices.count(); n++) {
+		QString device_name = "/dev/" + devices[n];
+		qDebug("PrefDrives::PrefDrives: device found: '%s'", device_name.toUtf8().constData());
+		dvd_device_combo->addItem(device_name);
+		cdrom_device_combo->addItem(device_name);
+	}
 #endif
 
 	retranslateStrings();

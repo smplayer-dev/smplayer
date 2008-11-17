@@ -2,6 +2,8 @@
 
 (2008-11-16)
  * The mini gui can now also remember the position and size of the window.
+ * (Linux) Now all devices which match with dvd*, cdrom*, cdrw*, sr* 
+   and cdrecorder* are added to the comboboxes in Preferences->Drives.
 
 (2008-11-15)
  * Added a new action to select the next aspect ratio. Assigned by default to
