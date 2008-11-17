@@ -1455,7 +1455,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="1328"/>
         <source>Next aspect ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Próximo tamanho de vídeo</translation>
     </message>
 </context>
 <context>
@@ -1537,18 +1537,18 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
         <location filename="../core.cpp" line="3097"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>desactivado</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3105"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>auto</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3107"/>
         <source>Aspect ratio: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Tamanho de vídeo : %1</translation>
     </message>
 </context>
 <context>
@@ -3679,97 +3679,97 @@ As listas podem já conter expressões regulares para vários idiomas.</translat
     <message>
         <location filename="../prefadvanced.cpp" line="510"/>
         <source>Proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Proxy</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="512"/>
         <source>Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Activar proxy</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="513"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Activar/Desactivar uso de proxy.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="515"/>
         <source>Host</source>
-        <translation type="unfinished"></translation>
+        <translation>Host</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="516"/>
         <source>The host name of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nome host de proxy.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="518"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Porta</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="519"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Porta de proxy.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
         <source>Username</source>
-        <translation type="unfinished"></translation>
+        <translation>Nom de utilizador</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="522"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se a proxy requer autenticação, isto define o nome de utilizador.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="524"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Senha</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="526"/>
         <source>The password for the proxy. Warning: the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Senha de proxy. Aviso: a senha será gravada como texto simples, no ficheiro de configurações.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="514"/>
         <source>Pro&amp;xy</source>
-        <translation type="unfinished"></translation>
+        <translation>Pro&amp;xy</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="520"/>
         <source>You can set a proxy for internet connections (currently only used for subtitle downloading).</source>
-        <translation type="unfinished"></translation>
+        <translation>Pode definir o proxy para ligações internet (actualmente só pode ser usado para transferir legendas).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="530"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Activar proxy</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="543"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Host:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="556"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Porta:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="573"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nom de &amp;Utilizador:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="586"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished"></translation>
+        <translation>Se&amp;nha:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="176"/>
         <source>C&amp;orrect PTS</source>
-        <translation type="unfinished"></translation>
+        <translation>C&amp;orrigir PTS </translation>
     </message>
 </context>
 <context>
