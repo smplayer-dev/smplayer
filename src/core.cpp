@@ -1360,10 +1360,8 @@ void Core::startMplayer( QString file, double seek ) {
 			qWarning("Core::startMplayer: '%s' doesn't exist", Paths::subtitleStyleFile().toUtf8().constData());
 		}
 
-		#if SCALE_ASS_SUBS
 		proc->addArgument( "-ass-font-scale");
 		proc->addArgument( QString::number(mset.sub_scale_ass) );
-		#endif
 #else
 		proc->addArgument("-ass-color");
 		proc->addArgument( ColorUtils::colorToRRGGBBAA( pref->ass_color ) );
@@ -1398,7 +1396,6 @@ void Core::startMplayer( QString file, double seek ) {
 	proc->addArgument( "-subfont-autoscale");
 	proc->addArgument( QString::number( pref->font_autoscale ) );
 
-#if SCALE_ASS_SUBS
 	if(pref->use_ass_subtitles) {
 		proc->addArgument( "-ass-font-scale");
 		proc->addArgument( QString::number(mset.sub_scale_ass) );
@@ -1406,10 +1403,6 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( "-subfont-text-scale");
 		proc->addArgument( QString::number(mset.sub_scale) );
 	}
-#else
-	proc->addArgument( "-subfont-text-scale");
-	proc->addArgument( QString::number(mset.sub_scale) );
-#endif
 
 #if USE_ASS_STYLES
 	}
@@ -2501,8 +2494,6 @@ void Core::decSubPos() {
 	tellmp("sub_pos " + QString::number( mset.sub_pos ) + " 1");
 }
 
-#if SCALE_ASS_SUBS
-
 bool Core::subscale_need_restart() {
 	bool need_restart = false;
 
@@ -2569,48 +2560,6 @@ void Core::decSubScale() {
 		changeSubScale( mset.sub_scale - step );
 	}
 }
-
-#else // SCALE_ASS_SUBS
-
-void Core::changeSubScale(double value) {
-	qDebug("Core::changeSubScale: %f", value);
-
-	bool need_restart = false;
-
-	if (pref->use_ass_subtitles || 
-        pref->change_sub_scale_should_restart == Preferences::Enabled)
-	{
-		need_restart = true;
-	}
-	else
-	if (pref->change_sub_scale_should_restart == Preferences::Detect) {
-		need_restart = (!proc->isMplayerAtLeast(23745));
-	}
-
-	if (value < 0) value = 0;
-	if (value != mset.sub_scale) {
-		mset.sub_scale = value;
-		if (need_restart) {
-			restartPlay();
-		} else {
-			tellmp("sub_scale " + QString::number( mset.sub_scale ) + " 1");
-		}
-	}
-}
-
-void Core::incSubScale() {
-	double step = 0.20;
-	if (pref->use_ass_subtitles) step = 1.0;
-	changeSubScale( mset.sub_scale + step );
-}
-
-void Core::decSubScale() {
-	double step = 0.20;
-	if (pref->use_ass_subtitles) step = 1.0;
-	changeSubScale( mset.sub_scale - step );
-
-}
-#endif // SCALE_ASS_SUBS
 
 void Core::incSubStep() {
 	qDebug("Core::incSubStep");

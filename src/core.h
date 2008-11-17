@@ -323,10 +323,8 @@ protected:
     void initializeMenus();
 	void updateWidgets();
 
-#if SCALE_ASS_SUBS
 	//! Returns true if changing the subscale requires to restart mplayer
 	bool subscale_need_restart();
-#endif
 
 signals:
 	void aboutToStartPlaying(); // Signal emited just before to start mplayer

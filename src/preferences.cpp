@@ -344,9 +344,7 @@ void Preferences::reset() {
        ************** */
 
 	initial_sub_scale = 5;
-#if SCALE_ASS_SUBS
 	initial_sub_scale_ass = 1;
-#endif
 	initial_volume = 40;
 	initial_contrast = 0;
 	initial_brightness = 0;
@@ -709,9 +707,7 @@ void Preferences::save() {
 	set->beginGroup( "defaults");
 
 	set->setValue("initial_sub_scale", initial_sub_scale);
-#if SCALE_ASS_SUBS
 	set->setValue("initial_sub_scale_ass", initial_sub_scale_ass);
-#endif
 	set->setValue("initial_volume", initial_volume);
 	set->setValue("initial_contrast", initial_contrast);
 	set->setValue("initial_brightness", initial_brightness);
@@ -1083,9 +1079,7 @@ void Preferences::load() {
 	set->beginGroup( "defaults");
 
 	initial_sub_scale = set->value("initial_sub_scale", initial_sub_scale).toDouble();
-#if SCALE_ASS_SUBS
 	initial_sub_scale_ass = set->value("initial_sub_scale_ass", initial_sub_scale_ass).toDouble();
-#endif
 	initial_volume = set->value("initial_volume", initial_volume).toInt();
 	initial_contrast = set->value("initial_contrast", initial_contrast).toInt();
 	initial_brightness = set->value("initial_brightness", initial_brightness).toInt();
