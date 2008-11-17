@@ -60,7 +60,8 @@ PrefDrives::PrefDrives(QWidget * parent, Qt::WindowFlags f)
 	}
 #else
 	QDir dev_dir("/dev");
-	QStringList devices = dev_dir.entryList( QStringList() << "dvd*" << "cdrom*" << "cdrw*" << "sr*" << "cdrecorder*");
+	QStringList devices = dev_dir.entryList( QStringList() << "dvd*" << "cdrom*" << "cdrw*" << "sr*" << "cdrecorder*", 
+                                             QDir::Files | QDir::System | QDir::Readable);
 	for (int n=0; n < devices.count(); n++) {
 		QString device_name = "/dev/" + devices[n];
 		qDebug("PrefDrives::PrefDrives: device found: '%s'", device_name.toUtf8().constData());
