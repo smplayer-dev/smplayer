@@ -1340,12 +1340,17 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 	}
 
+	// Subtitles fonts
 	if (pref->use_ass_subtitles) {
+		// ASS:
 		proc->addArgument("-ass");
 		proc->addArgument("-embeddedfonts");
 
 		proc->addArgument("-ass-line-spacing");
 		proc->addArgument(QString::number(pref->ass_line_spacing));
+
+		proc->addArgument( "-ass-font-scale");
+		proc->addArgument( QString::number(mset.sub_scale_ass) );
 
 		// Load the styles.ass file
 		if (!QFile::exists(Paths::subtitleStyleFile())) {
@@ -1358,39 +1363,26 @@ void Core::startMplayer( QString file, double seek ) {
 		} else {
 			qWarning("Core::startMplayer: '%s' doesn't exist", Paths::subtitleStyleFile().toUtf8().constData());
 		}
-
-		proc->addArgument( "-ass-font-scale");
-		proc->addArgument( QString::number(mset.sub_scale_ass) );
 	} else {
+		// NO ASS:
 		proc->addArgument("-noass");
-	}
 
-	if (!pref->use_ass_subtitles) {
-		// Don't pass the following options if using -ass
+		if ( (pref->use_fontconfig) && (!pref->font_name.isEmpty()) ) {
+			proc->addArgument("-fontconfig");
+			proc->addArgument("-font");
+			proc->addArgument( pref->font_name );
+		}
 
-	// Subtitles font
-	if ( (pref->use_fontconfig) && (!pref->font_name.isEmpty()) ) {
-		proc->addArgument("-fontconfig");
-		proc->addArgument("-font");
-		proc->addArgument( pref->font_name );
-	}
+		if ( (!pref->use_fontconfig) && (!pref->font_file.isEmpty()) ) {
+			proc->addArgument("-font");
+			proc->addArgument( pref->font_file );
+		}
 
-	if ( (!pref->use_fontconfig) && (!pref->font_file.isEmpty()) ) {
-		proc->addArgument("-font");
-		proc->addArgument( pref->font_file );
-	}
+		proc->addArgument( "-subfont-autoscale");
+		proc->addArgument( QString::number( pref->font_autoscale ) );
 
-	proc->addArgument( "-subfont-autoscale");
-	proc->addArgument( QString::number( pref->font_autoscale ) );
-
-	if(pref->use_ass_subtitles) {
-		proc->addArgument( "-ass-font-scale");
-		proc->addArgument( QString::number(mset.sub_scale_ass) );
-	} else {
 		proc->addArgument( "-subfont-text-scale");
 		proc->addArgument( QString::number(mset.sub_scale) );
-	}
-
 	}
 
 	// Subtitle encoding
