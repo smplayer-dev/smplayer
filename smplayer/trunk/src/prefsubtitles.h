@@ -90,8 +90,12 @@ protected:
 	void setSubtitlesOnScreenshots(bool b);
 	bool subtitlesOnScreenshots();
 
+	void setFreetypeSupport(bool b);
+	bool freetypeSupport();
+
 protected slots:
 	void on_ass_subs_button_toggled(bool b);
+	void on_freetype_check_toggled(bool b);
 	void checkBorderStyleCombo( int index );
 
 protected:
