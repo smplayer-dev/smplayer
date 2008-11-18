@@ -187,6 +187,8 @@ void Preferences::reset() {
 	// Nothing to do, default values are given in
 	// AssStyles constructor
 
+	freetype_support = true;
+
 
     /* ********
        Advanced
@@ -534,6 +536,8 @@ void Preferences::save() {
 
 	// ASS styles
 	ass_styles.save(set);
+
+	set->setValue("freetype_support", freetype_support);
 
 	set->endGroup(); // subtitles
 
@@ -896,6 +900,8 @@ void Preferences::load() {
 
 	// ASS styles
 	ass_styles.load(set);
+
+	freetype_support = set->value("freetype_support", freetype_support).toBool();
 
 	set->endGroup(); // subtitles
 

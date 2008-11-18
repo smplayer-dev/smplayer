@@ -165,6 +165,9 @@ public:
 	// ASS styles
 	AssStyles ass_styles;
 
+	//! If false, options requiring freetype won't be used
+	bool freetype_support;
+
 
     /* ********
        Advanced

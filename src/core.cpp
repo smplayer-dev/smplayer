@@ -1341,7 +1341,7 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	// Subtitles fonts
-	if (pref->use_ass_subtitles) {
+	if ((pref->use_ass_subtitles) && (pref->freetype_support)) {
 		// ASS:
 		proc->addArgument("-ass");
 		proc->addArgument("-embeddedfonts");
@@ -1365,7 +1365,7 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 	} else {
 		// NO ASS:
-		proc->addArgument("-noass");
+		if (pref->freetype_support) proc->addArgument("-noass");
 
 		if ( (pref->use_fontconfig) && (!pref->font_name.isEmpty()) ) {
 			proc->addArgument("-fontconfig");
@@ -1378,11 +1378,13 @@ void Core::startMplayer( QString file, double seek ) {
 			proc->addArgument( pref->font_file );
 		}
 
-		proc->addArgument( "-subfont-autoscale");
-		proc->addArgument( QString::number( pref->font_autoscale ) );
+		if (pref->freetype_support) {
+			proc->addArgument( "-subfont-autoscale");
+			proc->addArgument( QString::number( pref->font_autoscale ) );
 
-		proc->addArgument( "-subfont-text-scale");
-		proc->addArgument( QString::number(mset.sub_scale) );
+			proc->addArgument( "-subfont-text-scale");
+			proc->addArgument( QString::number(mset.sub_scale) );
+		}
 	}
 
 	// Subtitle encoding

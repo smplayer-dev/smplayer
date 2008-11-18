@@ -1,5 +1,10 @@
 [b]Version 0.6.6[/b]:
 
+(2008-11-17)
+ * Added a new option in Preferences->Subtitle: Freetype support. Disabling
+   that option could make smplayer work with a mplayer compiled without
+   freetype support. But subtitles may not work at all!
+
 (2008-11-16)
  * The mini gui can now also remember the position and size of the window.
  * (Linux) Now all devices which match with dvd*, cdrom*, cdrw*, sr* 

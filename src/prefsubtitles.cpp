@@ -134,6 +134,7 @@ void PrefSubtitles::setData(Preferences * pref) {
 	setAssLineSpacing( pref->ass_line_spacing );
 	setSubPos( pref->initial_sub_pos );
 	setSubtitlesOnScreenshots( pref->subtitles_on_screenshots );
+	setFreetypeSupport( pref->freetype_support );
 
 	// Load ass styles
 	style_font_combo->setCurrentText(pref->ass_styles.fontname);
@@ -170,6 +171,7 @@ void PrefSubtitles::getData(Preferences * pref) {
 	TEST_AND_SET(pref->ass_line_spacing, assLineSpacing());
 	pref->initial_sub_pos = subPos();
 	TEST_AND_SET(pref->subtitles_on_screenshots, subtitlesOnScreenshots());
+	TEST_AND_SET(pref->freetype_support, freetypeSupport());
 
 	// Save ass styles
 	TEST_AND_SET(pref->ass_styles.fontname, style_font_combo->currentText());
@@ -333,6 +335,22 @@ void PrefSubtitles::on_ass_subs_button_toggled(bool b) {
 		stackedWidget->setCurrentIndex(0);
 }
 
+void PrefSubtitles::setFreetypeSupport(bool b) {
+	freetype_check->setChecked(b);
+}
+
+bool PrefSubtitles::freetypeSupport() {
+	return freetype_check->isChecked();
+}
+
+void PrefSubtitles::on_freetype_check_toggled(bool b) {
+	qDebug("PrefSubtitles:on_freetype_check_toggled: %d", b);
+	if (!b) {
+		ass_subs_button->setChecked(false);
+		normal_subs_button->setChecked(true);
+	}
+}
+
 void PrefSubtitles::createHelp() {
 	clearHelp();
 
@@ -366,6 +384,12 @@ void PrefSubtitles::createHelp() {
         tr("Include subtitles on screenshots"), 
         tr("If this option is checked, the subtitles will appear in the "
            "screenshots. Note: it may cause some troubles sometimes." ) );
+
+	setWhatsThis(freetype_check, tr("Freetype support"), 
+		tr("You should normally not disable this option. Do it only if your "
+           "MPlayer is compiled without freetype support. "
+           "<b>Disabling this option could make that subtitles won't work "
+           "at all!</b>") );
 
 	addSectionTitle(tr("Font"));
 
