@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="es">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -6498,17 +6499,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="388"/>
         <source>Freetype support</source>
-        <translation type="unfinished"></translation>
+        <translation>Soporte para Freetype</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="392"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make that subtitles won&apos;t work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Normalmente no deberías desactivar esta opción. Hazlo solamente si tu MPlayer se ha compilado sin soporte para freetype. &lt;b&gt;¡Desactivar esta opción puede hacer que los subtítulos no funcionen en absoluto!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="256"/>
         <source>Freet&amp;ype support</source>
-        <translation type="unfinished"></translation>
+        <translation>Soporte para Freet&amp;ype</translation>
     </message>
 </context>
 <context>
