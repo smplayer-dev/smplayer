@@ -1574,10 +1574,10 @@ void BaseGui::createCore() {
 
 	connect( core, SIGNAL(mediaStartPlay()),
              this, SLOT(checkPendingActionsToRun()) );
-
+#if REPORT_OLD_MPLAYER
 	connect( core, SIGNAL(mediaStartPlay()),
              this, SLOT(checkMplayerVersion()) );
-
+#endif
 	connect( core, SIGNAL(failedToParseMplayerVersion(QString)),
              this, SLOT(askForMplayerVersion(QString)) );
 
