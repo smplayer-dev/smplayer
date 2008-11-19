@@ -404,6 +404,7 @@ public:
        ***** */
 
 	bool use_proxy;
+	int proxy_type;
 	QString proxy_host;
 	int proxy_port;
 	QString proxy_username;

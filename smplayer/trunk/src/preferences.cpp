@@ -26,6 +26,7 @@
 #include <QRegExp>
 #include <QDir>
 #include <QLocale>
+#include <QNetworkProxy>
 
 using namespace Global;
 
@@ -406,6 +407,7 @@ void Preferences::reset() {
        ***** */
 
 	use_proxy = false;
+	proxy_type = QNetworkProxy::HttpProxy;
 	proxy_host = "";
 	proxy_port = 0;
 	proxy_username = "";
@@ -767,6 +769,7 @@ void Preferences::save() {
 
 	set->beginGroup("proxy");
 	set->setValue("use_proxy", use_proxy);
+	set->setValue("proxy_type", proxy_type);
 	set->setValue("host", proxy_host);
 	set->setValue("port", proxy_port);
 	set->setValue("username", proxy_username);
@@ -1134,6 +1137,7 @@ void Preferences::load() {
 
 	set->beginGroup("proxy");
 	use_proxy = set->value("use_proxy", use_proxy).toBool();
+	proxy_type = set->value("proxy_type", proxy_type).toInt();
 	proxy_host = set->value("host", proxy_host).toString();
 	proxy_port = set->value("port", proxy_port).toInt();
 	proxy_username = set->value("username", proxy_username).toString();
