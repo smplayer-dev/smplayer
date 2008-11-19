@@ -296,7 +296,7 @@
     <message>
         <location filename="../about.cpp" line="105"/>
         <source>The following people have contributed with patches (see the changelog for details):</source>
-        <translation>Die folgenden Leute haben an der Übersetzung mitgewirkt (für Details siehe Changelog):</translation>
+        <translation>Die folgenden Leute haben mit Patches mitgewirkt (für Details siehe Changelog):</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
