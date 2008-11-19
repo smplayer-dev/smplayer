@@ -89,6 +89,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 	translators->setText( getTranslators() );
 
 	contributions->setText(
+		/*
 		tr("Some people have helped with their contributions:") +
 		"<ul>" +
 		contr("Charles Barcza &lt;kbarcza@blackpanther.hu&gt;", tr("SMPlayer logo")) +
@@ -98,6 +99,26 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 		contr("redxii", tr("icon for file associations")) +
 		contr("LoRd_MuldeR", tr("patch for file associations")) +
 		"</ul>"
+		*/
+		tr("The following people have contributed with patches "
+		   "(see the changelog for details):") +
+		"<pre>" +
+        QString(
+		"corentin1234 <corentin1234@hotmail.com>\n"
+		"Florin Braghis <florin@libertv.ro>\n"
+		"Francesco Cosoleto <cosoleto@users.sourceforge.net>\n"
+		"Glaydus <glaydus@gmail.com>\n"
+		"Kamil Dziobek <turbos11@gmail.com>\n"
+		"LoRd_MuldeR (http://forum.doom9.org/member.php?u=78667)\n"
+		"profoX <wesley@ubuntu.com>\n"
+		"redxii <redxii1234@gmail.com>\n"
+		"Sikon <sikon@users.sourceforge.net>\n"
+		"Simon <hackykid@users.sourceforge.net>\n"
+		"Stanislav Maslovski <s_i_m@users.sourceforge.net>\n"
+		"Tanguy Krotoff <tkrotoff@gmail.com>\n"
+		).replace("<", "&lt;").replace(">", "&gt;") + 
+		"</pre>" +
+		tr("If there's any omission, please report.")
 	);
 
 	// Copy the background color ("window") of the tab widget to the "base" color of the qtextbrowsers
