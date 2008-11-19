@@ -15,175 +15,175 @@
     <message>
         <location filename="../about.cpp" line="93"/>
         <source>Some people have helped with their contributions:</source>
-        <translation>Alcune persone hanno aiutato con i loro contribuiti:</translation>
+        <translation type="obsolete">Alcune persone hanno aiutato con i loro contribuiti:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="94"/>
         <source>SMPlayer logo</source>
-        <translation>Logo SMPlayer</translation>
+        <translation type="obsolete">Logo SMPlayer</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="95"/>
         <source>file associations for Windows</source>
-        <translation>associazione file in Windows</translation>
+        <translation type="obsolete">associazione file in Windows</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="96"/>
         <source>manpage for linux</source>
-        <translation>pagina man per linux</translation>
+        <translation type="obsolete">pagina man per linux</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="97"/>
         <source>support for colored console output</source>
-        <translation>supporto per output colorato in linux</translation>
+        <translation type="obsolete">supporto per output colorato in linux</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="98"/>
         <source>icon for file associations</source>
-        <translation>icona per associazione file</translation>
+        <translation type="obsolete">icona per associazione file</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="99"/>
         <source>patch for file associations</source>
-        <translation>patch per associazione file</translation>
+        <translation type="obsolete">patch per associazione file</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="136"/>
+        <location filename="../about.cpp" line="157"/>
         <source>The following people have contributed with translations:</source>
         <translation>Le seguenti persone hanno contribuito con le traduzioni:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="137"/>
+        <location filename="../about.cpp" line="158"/>
         <source>German</source>
         <translation>Tedesco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="138"/>
+        <location filename="../about.cpp" line="159"/>
         <source>Slovak</source>
         <translation>Slovacco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="139"/>
+        <location filename="../about.cpp" line="160"/>
         <source>Italian</source>
         <translation>Italiano</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="140"/>
+        <location filename="../about.cpp" line="161"/>
         <source>French</source>
         <translation>Francese</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="154"/>
+        <location filename="../about.cpp" line="175"/>
         <source>%1, %2 and %3</source>
         <translation>%1, %2 e %3</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="144"/>
+        <location filename="../about.cpp" line="165"/>
         <source>Simplified-Chinese</source>
         <translation>Cinese semplificato</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="145"/>
+        <location filename="../about.cpp" line="166"/>
         <source>Russian</source>
         <translation>Russo</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="170"/>
+        <location filename="../about.cpp" line="191"/>
         <source>%1 and %2</source>
         <translation>%1 e %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="146"/>
+        <location filename="../about.cpp" line="167"/>
         <source>Hungarian</source>
         <translation>Ungherese</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="149"/>
+        <location filename="../about.cpp" line="170"/>
         <source>Polish</source>
         <translation>Polacco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="152"/>
+        <location filename="../about.cpp" line="173"/>
         <source>Japanese</source>
         <translation>Giapponese</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="153"/>
+        <location filename="../about.cpp" line="174"/>
         <source>Dutch</source>
         <translation>Olandese</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="157"/>
+        <location filename="../about.cpp" line="178"/>
         <source>Ukrainian</source>
         <translation>Ucraino</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="160"/>
+        <location filename="../about.cpp" line="181"/>
         <source>Portuguese - Brazil</source>
         <translation>Portoghese (Brasile)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="161"/>
+        <location filename="../about.cpp" line="182"/>
         <source>Georgian</source>
         <translation>Georgiano</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="162"/>
+        <location filename="../about.cpp" line="183"/>
         <source>Czech</source>
         <translation>Ceco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="163"/>
+        <location filename="../about.cpp" line="184"/>
         <source>Bulgarian</source>
         <translation>Bulgaro</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="164"/>
+        <location filename="../about.cpp" line="185"/>
         <source>Turkish</source>
         <translation>Turco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="165"/>
+        <location filename="../about.cpp" line="186"/>
         <source>Swedish</source>
         <translation>Svedese</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="166"/>
+        <location filename="../about.cpp" line="187"/>
         <source>Serbian</source>
         <translation>Serbo</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="167"/>
+        <location filename="../about.cpp" line="188"/>
         <source>Traditional Chinese</source>
         <translation>Cinese tradizionale</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="168"/>
+        <location filename="../about.cpp" line="189"/>
         <source>Romanian</source>
         <translation>Romeno</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="169"/>
+        <location filename="../about.cpp" line="190"/>
         <source>Portuguese - Portugal</source>
         <translation>Portoghese (Portogallo)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="172"/>
+        <location filename="../about.cpp" line="193"/>
         <source>Greek</source>
         <translation>Greco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="173"/>
+        <location filename="../about.cpp" line="194"/>
         <source>Finnish</source>
         <translation>Finlandese</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="186"/>
+        <location filename="../about.cpp" line="207"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="195"/>
+        <location filename="../about.cpp" line="216"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -238,17 +238,17 @@
         <translation>Maggiori informazioni</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="174"/>
+        <location filename="../about.cpp" line="195"/>
         <source>Korean</source>
         <translation>Coreano</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="175"/>
+        <location filename="../about.cpp" line="196"/>
         <source>Macedonian</source>
         <translation>Macedone</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="176"/>
+        <location filename="../about.cpp" line="197"/>
         <source>Basque</source>
         <translation>Basco</translation>
     </message>
@@ -258,7 +258,7 @@
         <translation>MPlayer %1 in uso</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="177"/>
+        <location filename="../about.cpp" line="198"/>
         <source>Catalan</source>
         <translation>Catalano</translation>
     </message>
@@ -273,24 +273,34 @@
         <translation>Qt %1 in uso (compilato con Qt %2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="178"/>
+        <location filename="../about.cpp" line="199"/>
         <source>Slovenian</source>
         <translation>Sloveno</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="179"/>
+        <location filename="../about.cpp" line="200"/>
         <source>Arabic</source>
         <translation>Arabo</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="180"/>
+        <location filename="../about.cpp" line="201"/>
         <source>Kurdish</source>
         <translation>Curdo</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="181"/>
+        <location filename="../about.cpp" line="202"/>
         <source>Galician</source>
         <translation>Galiziano</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="105"/>
+        <source>The following people have contributed with patches (see the changelog for details):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="122"/>
+        <source>If there&apos;s any omission, please report.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3281,12 +3291,12 @@ Vuoi sovrascriverlo?</translation>
 <context>
     <name>PrefAdvanced</name>
     <message>
-        <location filename="../prefadvanced.cpp" line="438"/>
+        <location filename="../prefadvanced.cpp" line="459"/>
         <source>Advanced</source>
         <translation>Avanzate</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="96"/>
+        <location filename="../prefadvanced.cpp" line="97"/>
         <source>Auto</source>
         <translation>Automatico</translation>
     </message>
@@ -3326,34 +3336,34 @@ Example: resample=44100:0:0,volnorm</source>
 Esempio: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="547"/>
+        <location filename="../prefadvanced.cpp" line="571"/>
         <source>Log MPlayer output</source>
         <translation>Registra l&apos;output di MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="540"/>
+        <location filename="../prefadvanced.cpp" line="564"/>
         <source>Log SMPlayer output</source>
         <translation>Registra l&apos;output di SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="795"/>
+        <location filename="../prefadvanced.ui" line="824"/>
         <source>This option is mainly intended for debugging the application.</source>
         <translation>Questa opzione è pensata principalmente per scopi di debug.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="620"/>
+        <location filename="../prefadvanced.ui" line="649"/>
         <source>&amp;MPlayer language</source>
         <translation>Lingua &amp;MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="644"/>
+        <location filename="../prefadvanced.ui" line="673"/>
         <source>SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br&gt;&lt;br&gt;
 The drop-down lists may provide already made regular expression for several languages.</source>
         <translation>SMPlayer ha bisogno di leggere l&apos;output di MPlayer e talvolta fa affidamento sulla lingua inglese.Se stai usando  MPlayer tradotto in un&apos;altra lingua, allora devi cambiare il testo cercato da SMPlayer. (Tecnicamente, bisogna inserire una espressione regolare)&lt;br&gt;&lt;br&gt;
 La lista può fornire delle espressioni regolari già fatte per alcune lingue.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="486"/>
+        <location filename="../prefadvanced.cpp" line="507"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
         <translation>Selezionare questa opzione può ridurre lo sfarfallio, ma può anche produrre una errata riproduzione video.</translation>
     </message>
@@ -3368,7 +3378,7 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
         <translation type="obsolete">Se questa opzione è selezionata, smplayer salverà i messaggi di debug (puoi visualizzarlo in &lt;b&gt;Opzioni-&gt;Vedi logs-&gt;smplayer&lt;/b&gt;). Queste informazioni possono essere utili per gli sviluppatori nel caso trovino un bug.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="563"/>
+        <location filename="../prefadvanced.cpp" line="587"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Filtri per i log di SMPlayer</translation>
     </message>
@@ -3408,22 +3418,22 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
         <translation>&amp;Colorkey:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="748"/>
+        <location filename="../prefadvanced.ui" line="777"/>
         <source>Log &amp;SMPlayer output</source>
         <translation>Salva l&apos;output di &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="805"/>
+        <location filename="../prefadvanced.ui" line="834"/>
         <source>&amp;Filter for SMPlayer logs:</source>
         <translation>&amp;Filtri per i log di SMPlayer:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="658"/>
+        <location filename="../prefadvanced.ui" line="687"/>
         <source>&amp;End of file:</source>
         <translation>Fin&amp;e del file:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="671"/>
+        <location filename="../prefadvanced.ui" line="700"/>
         <source>&amp;No video:</source>
         <translation>&amp;Nessun video:</translation>
     </message>
@@ -3433,12 +3443,12 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
         <translation>C&amp;ambia...</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="538"/>
+        <location filename="../prefadvanced.cpp" line="562"/>
         <source>Logs</source>
         <translation>Log</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="755"/>
+        <location filename="../prefadvanced.ui" line="784"/>
         <source>Log MPlayer &amp;output</source>
         <translation>&amp;Salva l&apos;output di MPlayer</translation>
     </message>
@@ -3448,37 +3458,37 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
         <translation>Opzioni per MP&amp;layer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="553"/>
+        <location filename="../prefadvanced.cpp" line="577"/>
         <source>Autosave MPlayer log</source>
         <translation>Salva automaticamente l&apos;output di MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="557"/>
+        <location filename="../prefadvanced.cpp" line="581"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
         <translation>Selezionando questa opzione, l&apos;output di MPlayer verrà salvato automaticamente nel file specificato ogni volta che viene riprodotto un nuovo file.Utile per applicazioni esterne, per avere informazioni sul file in riproduzione.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="559"/>
+        <location filename="../prefadvanced.cpp" line="583"/>
         <source>Autosave MPlayer log filename</source>
         <translation>Nome del file di log di MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="561"/>
+        <location filename="../prefadvanced.cpp" line="585"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
         <translation>Inserire nome e percorso del file che verrà usato come log di MPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="762"/>
+        <location filename="../prefadvanced.ui" line="791"/>
         <source>A&amp;utosave MPlayer log to file</source>
         <translation>Salva au&amp;tomaticamente l&apos;output di MPlayer su file</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="475"/>
+        <location filename="../prefadvanced.cpp" line="496"/>
         <source>Pass short filenames (8+3) to MPlayer</source>
         <translation>Fornisci nomi di file DOS (8+3) a MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="479"/>
+        <location filename="../prefadvanced.cpp" line="500"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
         <translation>Attualmente MPlayer non è in grado di aprire file il cui nome contiene caratteri non supportati dal sistema. Selezionando questa opzione, SMPlayer passerà a MPlayer la versione DOS del nome del file, e sarà quindi in grado di aprirlo.</translation>
     </message>
@@ -3488,97 +3498,97 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
         <translation>&amp;Fornisci nomi di file DOS (8+3) a MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="440"/>
+        <location filename="../prefadvanced.cpp" line="461"/>
         <source>Monitor aspect</source>
         <translation>Rapporto del Monitor</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="441"/>
+        <location filename="../prefadvanced.cpp" line="462"/>
         <source>Select the aspect ratio of your monitor.</source>
         <translation>Selezionare il rapporto d&apos;aspetto del monitor in uso.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="449"/>
+        <location filename="../prefadvanced.cpp" line="470"/>
         <source>Run MPlayer in its own window</source>
         <translation>Esegui MPlayer nella sua finestra</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="455"/>
+        <location filename="../prefadvanced.cpp" line="476"/>
         <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
         <translation>Selezionando questa opzione, la finestra di MPlayer non sarà contenuta in quella di SMPlayer. Eventi da mouse e tastiera saranno gestiti direttamente da MPlayer, quindi le opzioni in preferenze potrebbero non funzionare.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="490"/>
+        <location filename="../prefadvanced.cpp" line="511"/>
         <source>Colorkey</source>
         <translation>Colorkey</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="493"/>
+        <location filename="../prefadvanced.cpp" line="514"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
         <translation>Se si visualizzano parti del video al di sopra di altre finestre, si può cambiare la colorkey. Provare a selezionare un colore vicino al nero.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="496"/>
+        <location filename="../prefadvanced.cpp" line="517"/>
         <source>Options for MPlayer</source>
         <translation>Opzioni per MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="498"/>
+        <location filename="../prefadvanced.cpp" line="519"/>
         <source>Options</source>
         <translation>Opzioni</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="500"/>
+        <location filename="../prefadvanced.cpp" line="521"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
         <translation>Qui si possono passare opzioni a MPlayer. Scriverle separate da spazi.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="502"/>
+        <location filename="../prefadvanced.cpp" line="523"/>
         <source>Video filters</source>
         <translation>Filtri video</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="504"/>
+        <location filename="../prefadvanced.cpp" line="525"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>Qui si possono aggiungere filtri video a MPlayer. Scrivili separati da virgole. Non usare spazi!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="506"/>
+        <location filename="../prefadvanced.cpp" line="527"/>
         <source>Audio filters</source>
         <translation>Filtri audio</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="508"/>
+        <location filename="../prefadvanced.cpp" line="529"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>Qui si possono aggiungere filtri audio a MPlayer. Scrivili separati da virgole. Non usare spazi!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="528"/>
+        <location filename="../prefadvanced.cpp" line="552"/>
         <source>MPlayer language</source>
         <translation>Lingua MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="530"/>
+        <location filename="../prefadvanced.cpp" line="554"/>
         <source>End of file</source>
         <translation>Fine del file</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="531"/>
+        <location filename="../prefadvanced.cpp" line="555"/>
         <source>Select or type a regular expression for &apos;End of file&apos;</source>
         <translation>Selezionare o scrivere una espressione regolare per &apos;Fine del file&apos;</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="534"/>
+        <location filename="../prefadvanced.cpp" line="558"/>
         <source>No video</source>
         <translation>Nessun video</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="535"/>
+        <location filename="../prefadvanced.cpp" line="559"/>
         <source>Select or type a regular expression for &apos;No video&apos;</source>
         <translation>Selezionare o scrivere una espressione regolare per &apos;Nessun video&apos;</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="484"/>
+        <location filename="../prefadvanced.cpp" line="505"/>
         <source>Repaint the background of the video window</source>
         <translation>Ridisegna lo sfondo della finestra video</translation>
     </message>
@@ -3588,22 +3598,22 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
         <translation>Ridisegna lo sfon&amp;do della finestra video</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="443"/>
+        <location filename="../prefadvanced.cpp" line="464"/>
         <source>IPv4</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="444"/>
+        <location filename="../prefadvanced.cpp" line="465"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="446"/>
+        <location filename="../prefadvanced.cpp" line="467"/>
         <source>IPv6</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="447"/>
+        <location filename="../prefadvanced.cpp" line="468"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3623,17 +3633,17 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="727"/>
+        <location filename="../prefadvanced.ui" line="756"/>
         <source>Lo&amp;gs</source>
         <translation>Lo&amp;g</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="457"/>
+        <location filename="../prefadvanced.cpp" line="478"/>
         <source>Rebuild index if needed</source>
         <translation>Ricostruisci l&apos;indice se necessario</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="462"/>
+        <location filename="../prefadvanced.cpp" line="483"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
         <translation>Ricostruisce l&apos;indice dei file se non ne viene trovato uno, permettendo le ricerche temporali. Utile con download corrotti/incompleti o file creati male. Questa opzione funziona solo se il tipo di file supporta le ricerche temporali (ad es. no stdin, pipe etc.) &lt;br&gt;Nota: la creazione dell&apos;indice può richiedere un certo tempo.</translation>
     </message>
@@ -3643,82 +3653,82 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
         <translation>Ricostruisci l&apos;&amp;indice se necessario</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="545"/>
+        <location filename="../prefadvanced.cpp" line="569"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
         <translation>Se questa opzione è selezionata, SMPlayer salverà i messaggi di debug (puoi visualizzarlo in &lt;b&gt;Opzioni-&gt;Vedi log-&gt;SMPlayer&lt;/b&gt;). Queste informazioni possono essere utili per gli sviluppatori nel caso si trovi un bug.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="551"/>
+        <location filename="../prefadvanced.cpp" line="575"/>
         <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
         <translation>Se selezionata, SMPlayer salverà l&apos;output di MPlayer (puoi visualizzarlo in &lt;b&gt;Opzioni-&gt;Vedi log-&gt;MPlayer&lt;/b&gt;). In caso di problemi, questo log può contenere informazioni importanti, si raccomanda quindi di tenere selezionata questa opzione.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="567"/>
+        <location filename="../prefadvanced.cpp" line="591"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>Questa opzione permette di filtrare i messaggi di SMPlayer che saranno salvati nel log. Potete inserire qualsiasi espressione regolare. &lt;br&gt;Per esempio: &lt;i&gt;^Core::.*&lt;/i&gt; mostrerà solo le linee che iniziano con &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="464"/>
+        <location filename="../prefadvanced.cpp" line="485"/>
         <source>Correct pts</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="472"/>
+        <location filename="../prefadvanced.cpp" line="493"/>
         <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
         <translation>Applica una modalità sperimentale di MPlayer dove i timestamp per i fotogrammi video sono calcolati in modo differente e sono supportati i filtri video che aggiungono fotogrammi o modificano i timestamp di quelli presenti. Timestamp più precisi possono vedersi per esempio quando si riproducono sottotitoli temporizzati ai cambi di scena con la libreria SSA/ASS abilitata. Senza correct pts la temporizzazione dei sottotitoli sarà tipicamente spostata di qualche fotogramma. Questa opzione non funzionerà correttamente con alcuni demuxer e codec.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="510"/>
+        <location filename="../prefadvanced.cpp" line="531"/>
         <source>Proxy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="512"/>
+        <location filename="../prefadvanced.cpp" line="533"/>
         <source>Enable proxy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="513"/>
+        <location filename="../prefadvanced.cpp" line="534"/>
         <source>Enable/disable the use of the proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="515"/>
+        <location filename="../prefadvanced.cpp" line="536"/>
         <source>Host</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="516"/>
+        <location filename="../prefadvanced.cpp" line="537"/>
         <source>The host name of the proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="518"/>
+        <location filename="../prefadvanced.cpp" line="539"/>
         <source>Port</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="519"/>
+        <location filename="../prefadvanced.cpp" line="540"/>
         <source>The port of the proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="521"/>
+        <location filename="../prefadvanced.cpp" line="542"/>
         <source>Username</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="522"/>
+        <location filename="../prefadvanced.cpp" line="543"/>
         <source>If the proxy requires authentication, this sets the username.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="524"/>
+        <location filename="../prefadvanced.cpp" line="545"/>
         <source>Password</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="526"/>
+        <location filename="../prefadvanced.cpp" line="547"/>
         <source>The password for the proxy. Warning: the password will be saved as plain text in the configuration file.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3748,18 +3758,43 @@ La lista può fornire delle espressioni regolari già fatte per alcune lingue.</
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="573"/>
+        <location filename="../prefadvanced.ui" line="576"/>
         <source>&amp;Username:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="586"/>
+        <location filename="../prefadvanced.ui" line="589"/>
         <source>Pa&amp;ssword:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="176"/>
         <source>C&amp;orrect PTS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="101"/>
+        <source>Http</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="102"/>
+        <source>Socks5</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="549"/>
+        <source>Type</source>
+        <translation type="unfinished">Tipo</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="550"/>
+        <source>Select the proxy type to be used.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="606"/>
+        <source>&amp;Type:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

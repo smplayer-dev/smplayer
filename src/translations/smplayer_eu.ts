@@ -15,176 +15,176 @@
     <message>
         <location filename="../about.cpp" line="93"/>
         <source>Some people have helped with their contributions:</source>
-        <translation>Zenbait pertsonek bere lanarekin lagundu gaituzte:</translation>
+        <translation type="obsolete">Zenbait pertsonek bere lanarekin lagundu gaituzte:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="94"/>
         <source>SMPlayer logo</source>
-        <translation>SMPlayer logoa</translation>
+        <translation type="obsolete">SMPlayer logoa</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="95"/>
         <source>file associations for Windows</source>
-        <translation>Windows-erako fitxategi loturak</translation>
+        <translation type="obsolete">Windows-erako fitxategi loturak</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="96"/>
         <source>manpage for linux</source>
-        <translation>linux-eko man orrialdea</translation>
+        <translation type="obsolete">linux-eko man orrialdea</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="97"/>
         <source>support for colored console output</source>
-        <translation>onartu koloretako kontsola irteera</translation>
+        <translation type="obsolete">onartu koloretako kontsola irteera</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="98"/>
         <source>icon for file associations</source>
-        <translation>fitxategi loturaren ikonoa</translation>
+        <translation type="obsolete">fitxategi loturaren ikonoa</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="99"/>
         <source>patch for file associations</source>
-        <translation>fitxategi loturen bidea
+        <translation type="obsolete">fitxategi loturen bidea
 </translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="136"/>
+        <location filename="../about.cpp" line="157"/>
         <source>The following people have contributed with translations:</source>
         <translation>Hurrengo jendeak itzulpnekin lagundu du:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="137"/>
+        <location filename="../about.cpp" line="158"/>
         <source>German</source>
         <translation>Alemana</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="138"/>
+        <location filename="../about.cpp" line="159"/>
         <source>Slovak</source>
         <translation>Eslobiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="139"/>
+        <location filename="../about.cpp" line="160"/>
         <source>Italian</source>
         <translation>Italiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="140"/>
+        <location filename="../about.cpp" line="161"/>
         <source>French</source>
         <translation>Frantsesa</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="154"/>
+        <location filename="../about.cpp" line="175"/>
         <source>%1, %2 and %3</source>
         <translation>%1, %2 eta %3</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="144"/>
+        <location filename="../about.cpp" line="165"/>
         <source>Simplified-Chinese</source>
         <translation>Txinatar-soildua</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="145"/>
+        <location filename="../about.cpp" line="166"/>
         <source>Russian</source>
         <translation>Errusiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="170"/>
+        <location filename="../about.cpp" line="191"/>
         <source>%1 and %2</source>
         <translation>%1 eta %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="146"/>
+        <location filename="../about.cpp" line="167"/>
         <source>Hungarian</source>
         <translation>Hungariera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="149"/>
+        <location filename="../about.cpp" line="170"/>
         <source>Polish</source>
         <translation>Poloniera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="152"/>
+        <location filename="../about.cpp" line="173"/>
         <source>Japanese</source>
         <translation>Japoniera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="153"/>
+        <location filename="../about.cpp" line="174"/>
         <source>Dutch</source>
         <translation>Herbeheretar</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="157"/>
+        <location filename="../about.cpp" line="178"/>
         <source>Ukrainian</source>
         <translation>Ukraniera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="160"/>
+        <location filename="../about.cpp" line="181"/>
         <source>Portuguese - Brazil</source>
         <translation>Potugesa - Brasil</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="161"/>
+        <location filename="../about.cpp" line="182"/>
         <source>Georgian</source>
         <translation>Georgiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="162"/>
+        <location filename="../about.cpp" line="183"/>
         <source>Czech</source>
         <translation>Txekiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="163"/>
+        <location filename="../about.cpp" line="184"/>
         <source>Bulgarian</source>
         <translation>Bulgariera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="164"/>
+        <location filename="../about.cpp" line="185"/>
         <source>Turkish</source>
         <translation>Turkiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="165"/>
+        <location filename="../about.cpp" line="186"/>
         <source>Swedish</source>
         <translation>Suediera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="166"/>
+        <location filename="../about.cpp" line="187"/>
         <source>Serbian</source>
         <translation>Serbiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="167"/>
+        <location filename="../about.cpp" line="188"/>
         <source>Traditional Chinese</source>
         <translation>Txinatar-tradizionala</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="168"/>
+        <location filename="../about.cpp" line="189"/>
         <source>Romanian</source>
         <translation>Errumaniera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="169"/>
+        <location filename="../about.cpp" line="190"/>
         <source>Portuguese - Portugal</source>
         <translation>Potugesa - Portugal</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="172"/>
+        <location filename="../about.cpp" line="193"/>
         <source>Greek</source>
         <translation>Grekoa</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="173"/>
+        <location filename="../about.cpp" line="194"/>
         <source>Finnish</source>
         <translation>Finlandiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="186"/>
+        <location filename="../about.cpp" line="207"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="195"/>
+        <location filename="../about.cpp" line="216"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;Ez (%2)</translation>
     </message>
@@ -239,17 +239,17 @@
         <translation>Informazio gehiago</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="174"/>
+        <location filename="../about.cpp" line="195"/>
         <source>Korean</source>
         <translation>Koreera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="175"/>
+        <location filename="../about.cpp" line="196"/>
         <source>Macedonian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="176"/>
+        <location filename="../about.cpp" line="197"/>
         <source>Basque</source>
         <translation type="unfinished">Euskara</translation>
     </message>
@@ -259,7 +259,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="177"/>
+        <location filename="../about.cpp" line="198"/>
         <source>Catalan</source>
         <translation type="unfinished">Katalaniera</translation>
     </message>
@@ -274,23 +274,33 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="178"/>
+        <location filename="../about.cpp" line="199"/>
         <source>Slovenian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="179"/>
+        <location filename="../about.cpp" line="200"/>
         <source>Arabic</source>
         <translation type="unfinished">Arabikoa</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="180"/>
+        <location filename="../about.cpp" line="201"/>
         <source>Kurdish</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="181"/>
+        <location filename="../about.cpp" line="202"/>
         <source>Galician</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="105"/>
+        <source>The following people have contributed with patches (see the changelog for details):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="122"/>
+        <source>If there&apos;s any omission, please report.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3276,12 +3286,12 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefAdvanced</name>
     <message>
-        <location filename="../prefadvanced.cpp" line="438"/>
+        <location filename="../prefadvanced.cpp" line="459"/>
         <source>Advanced</source>
         <translation>Aurreratua</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="96"/>
+        <location filename="../prefadvanced.cpp" line="97"/>
         <source>Auto</source>
         <translation>Automatikoa</translation>
     </message>
@@ -3321,34 +3331,34 @@ Example: resample=44100:0:0,volnorm</source>
 Adibidea: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="547"/>
+        <location filename="../prefadvanced.cpp" line="571"/>
         <source>Log MPlayer output</source>
         <translation>Erregistratu MPlayer irteera</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="540"/>
+        <location filename="../prefadvanced.cpp" line="564"/>
         <source>Log SMPlayer output</source>
         <translation>Erregistratu SMPlayer irteera</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="795"/>
+        <location filename="../prefadvanced.ui" line="824"/>
         <source>This option is mainly intended for debugging the application.</source>
         <translation>Aukera hau aplikazio arazpenerako ipinia izan da nagusiki.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="620"/>
+        <location filename="../prefadvanced.ui" line="649"/>
         <source>&amp;MPlayer language</source>
         <translation>&amp;MPlayer hizkuntza</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="644"/>
+        <location filename="../prefadvanced.ui" line="673"/>
         <source>SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br&gt;&lt;br&gt;
 The drop-down lists may provide already made regular expression for several languages.</source>
         <translation>SMPlayer-ek Mplayer-en irteera irakurri eta analizatu behar du eta bztuetan ingelesez da. Beste hizkuntza batetara itzulitako MPlayer erabiltzen ari bazara, orduan SMPlayer-ek bilatzen dituen testuak aldatu behar dituzu. (tknikoki espresio erregularrak sartu beharko dituzu)&lt;br&gt;&lt;br&gt;
 Aukera zerrendak zenbait hizkuntzetarako espresio erregularrak dakartza.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="486"/>
+        <location filename="../prefadvanced.cpp" line="507"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
         <translation>Aukera hau hautatuaz dir-dira gutxitu dezakezu, baina bideo beahr bezala ez bistaratzea egin dezake.</translation>
     </message>
@@ -3363,7 +3373,7 @@ Aukera zerrendak zenbait hizkuntzetarako espresio erregularrak dakartza.</transl
         <translation type="obsolete">Aukera hau hautatua dagoenean smplayer-ek smplayer-en arazpen mezuak gordeko ditu (erregistoa &lt;b&gt;Aukerak.&gt;Ikusi erregistroak-&gt;smplayer&lt;/b&gt;-en ikusi dezakezu). Informazio hau oso erabilgarria izan daiteke garatzailearentzat programa-errore bat aurkitzen baduzu.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="563"/>
+        <location filename="../prefadvanced.cpp" line="587"/>
         <source>Filter for SMPlayer logs</source>
         <translation>SMPlyaer erregistroen iragazkia</translation>
     </message>
@@ -3403,22 +3413,22 @@ Aukera zerrendak zenbait hizkuntzetarako espresio erregularrak dakartza.</transl
         <translation>&amp;Koloregakoa:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="748"/>
+        <location filename="../prefadvanced.ui" line="777"/>
         <source>Log &amp;SMPlayer output</source>
         <translation>Erregistratu &amp;SMPlayer irteera</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="805"/>
+        <location filename="../prefadvanced.ui" line="834"/>
         <source>&amp;Filter for SMPlayer logs:</source>
         <translation>SMPlyaer erregistroen &amp;iragazkia:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="658"/>
+        <location filename="../prefadvanced.ui" line="687"/>
         <source>&amp;End of file:</source>
         <translation>Fitxategi &amp;amaiera:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="671"/>
+        <location filename="../prefadvanced.ui" line="700"/>
         <source>&amp;No video:</source>
         <translation>&amp;Ez-bideo:</translation>
     </message>
@@ -3428,12 +3438,12 @@ Aukera zerrendak zenbait hizkuntzetarako espresio erregularrak dakartza.</transl
         <translation>A&amp;ldatu...</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="538"/>
+        <location filename="../prefadvanced.cpp" line="562"/>
         <source>Logs</source>
         <translation>Erregistroak</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="755"/>
+        <location filename="../prefadvanced.ui" line="784"/>
         <source>Log MPlayer &amp;output</source>
         <translation>Erregistratu MPlayer &amp;irteera</translation>
     </message>
@@ -3443,37 +3453,37 @@ Aukera zerrendak zenbait hizkuntzetarako espresio erregularrak dakartza.</transl
         <translation>MP&amp;layer aukerak</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="553"/>
+        <location filename="../prefadvanced.cpp" line="577"/>
         <source>Autosave MPlayer log</source>
         <translation>MPlayer erregistroa automatikoki gorde</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="557"/>
+        <location filename="../prefadvanced.cpp" line="581"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
         <translation>Aukera hau hautaturik badago MPlayer erregistroa ezarritako fitxategian gordeko da fitxategi berri bat erreproduzitzen hasten den bakoitzean. Hau kanpo aplikazioentzat da beraiek erreproduzitzen ari zaren fitxategiaren informazioa izan dezaten.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="559"/>
+        <location filename="../prefadvanced.cpp" line="583"/>
         <source>Autosave MPlayer log filename</source>
         <translation>Automatikoki gorde MPlayer erregistro fitxategi-izena</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="561"/>
+        <location filename="../prefadvanced.cpp" line="585"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
         <translation>Idatzi hemen MPlayer erregistroak gordetzeko erabiliko den bide eta fitxategia.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="762"/>
+        <location filename="../prefadvanced.ui" line="791"/>
         <source>A&amp;utosave MPlayer log to file</source>
         <translation>A&amp;utomatikoki gorde MPlayer erregistro fitxategi-izena</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="475"/>
+        <location filename="../prefadvanced.cpp" line="496"/>
         <source>Pass short filenames (8+3) to MPlayer</source>
         <translation>Bidali fitxategi izen laburrak (8+3) MPlyaer-i</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="479"/>
+        <location filename="../prefadvanced.cpp" line="500"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
         <translation>Oraingoz MPlayer-ek ezin du orrialde-kode lokaletik kanpoko karaktererik duen fitxategirik erreproduzitu. Auekra hau hautatuaz SMPlayer-k MPlayer-i fitxategi izneen brtsio laburra bidaliko dio eta hauek irekitzeko gai izan beharko zen.</translation>
     </message>
@@ -3483,97 +3493,97 @@ Aukera zerrendak zenbait hizkuntzetarako espresio erregularrak dakartza.</transl
         <translation>&amp;Bidali fitxategi izen laburrak (8+3) MPlyaer-i</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="440"/>
+        <location filename="../prefadvanced.cpp" line="461"/>
         <source>Monitor aspect</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="441"/>
+        <location filename="../prefadvanced.cpp" line="462"/>
         <source>Select the aspect ratio of your monitor.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="449"/>
+        <location filename="../prefadvanced.cpp" line="470"/>
         <source>Run MPlayer in its own window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="455"/>
+        <location filename="../prefadvanced.cpp" line="476"/>
         <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="490"/>
+        <location filename="../prefadvanced.cpp" line="511"/>
         <source>Colorkey</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="493"/>
+        <location filename="../prefadvanced.cpp" line="514"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="496"/>
+        <location filename="../prefadvanced.cpp" line="517"/>
         <source>Options for MPlayer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="498"/>
+        <location filename="../prefadvanced.cpp" line="519"/>
         <source>Options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="500"/>
+        <location filename="../prefadvanced.cpp" line="521"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="502"/>
+        <location filename="../prefadvanced.cpp" line="523"/>
         <source>Video filters</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="504"/>
+        <location filename="../prefadvanced.cpp" line="525"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="506"/>
+        <location filename="../prefadvanced.cpp" line="527"/>
         <source>Audio filters</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="508"/>
+        <location filename="../prefadvanced.cpp" line="529"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="528"/>
+        <location filename="../prefadvanced.cpp" line="552"/>
         <source>MPlayer language</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="530"/>
+        <location filename="../prefadvanced.cpp" line="554"/>
         <source>End of file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="531"/>
+        <location filename="../prefadvanced.cpp" line="555"/>
         <source>Select or type a regular expression for &apos;End of file&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="534"/>
+        <location filename="../prefadvanced.cpp" line="558"/>
         <source>No video</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="535"/>
+        <location filename="../prefadvanced.cpp" line="559"/>
         <source>Select or type a regular expression for &apos;No video&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="484"/>
+        <location filename="../prefadvanced.cpp" line="505"/>
         <source>Repaint the background of the video window</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3583,22 +3593,22 @@ Aukera zerrendak zenbait hizkuntzetarako espresio erregularrak dakartza.</transl
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="443"/>
+        <location filename="../prefadvanced.cpp" line="464"/>
         <source>IPv4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="444"/>
+        <location filename="../prefadvanced.cpp" line="465"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="446"/>
+        <location filename="../prefadvanced.cpp" line="467"/>
         <source>IPv6</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="447"/>
+        <location filename="../prefadvanced.cpp" line="468"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3618,17 +3628,17 @@ Aukera zerrendak zenbait hizkuntzetarako espresio erregularrak dakartza.</transl
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="727"/>
+        <location filename="../prefadvanced.ui" line="756"/>
         <source>Lo&amp;gs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="457"/>
+        <location filename="../prefadvanced.cpp" line="478"/>
         <source>Rebuild index if needed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="462"/>
+        <location filename="../prefadvanced.cpp" line="483"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
         <translation type="unfinished">Berreraiki fitxategi indizea aurkitzen ez bada, saltoak egiteko aukera emanaz. ERabilgarria hondaturiko/amaitugabeko deskarga edo gaizki eratutako fitxategientzat. Auekra honek euskarriak saltoak egitea onartzen badu bakarrik dago erabilgarri (adib ez sarrera estandarrean, tutu, ...)&lt;br&gt;Oharra: Indize sorrerak denbora bat har dezake.</translation>
     </message>
@@ -3638,82 +3648,82 @@ Aukera zerrendak zenbait hizkuntzetarako espresio erregularrak dakartza.</transl
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="545"/>
+        <location filename="../prefadvanced.cpp" line="569"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="551"/>
+        <location filename="../prefadvanced.cpp" line="575"/>
         <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="567"/>
+        <location filename="../prefadvanced.cpp" line="591"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="464"/>
+        <location filename="../prefadvanced.cpp" line="485"/>
         <source>Correct pts</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="472"/>
+        <location filename="../prefadvanced.cpp" line="493"/>
         <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="510"/>
+        <location filename="../prefadvanced.cpp" line="531"/>
         <source>Proxy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="512"/>
+        <location filename="../prefadvanced.cpp" line="533"/>
         <source>Enable proxy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="513"/>
+        <location filename="../prefadvanced.cpp" line="534"/>
         <source>Enable/disable the use of the proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="515"/>
+        <location filename="../prefadvanced.cpp" line="536"/>
         <source>Host</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="516"/>
+        <location filename="../prefadvanced.cpp" line="537"/>
         <source>The host name of the proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="518"/>
+        <location filename="../prefadvanced.cpp" line="539"/>
         <source>Port</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="519"/>
+        <location filename="../prefadvanced.cpp" line="540"/>
         <source>The port of the proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="521"/>
+        <location filename="../prefadvanced.cpp" line="542"/>
         <source>Username</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="522"/>
+        <location filename="../prefadvanced.cpp" line="543"/>
         <source>If the proxy requires authentication, this sets the username.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="524"/>
+        <location filename="../prefadvanced.cpp" line="545"/>
         <source>Password</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="526"/>
+        <location filename="../prefadvanced.cpp" line="547"/>
         <source>The password for the proxy. Warning: the password will be saved as plain text in the configuration file.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3743,18 +3753,43 @@ Aukera zerrendak zenbait hizkuntzetarako espresio erregularrak dakartza.</transl
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="573"/>
+        <location filename="../prefadvanced.ui" line="576"/>
         <source>&amp;Username:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="586"/>
+        <location filename="../prefadvanced.ui" line="589"/>
         <source>Pa&amp;ssword:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="176"/>
         <source>C&amp;orrect PTS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="101"/>
+        <source>Http</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="102"/>
+        <source>Socks5</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="549"/>
+        <source>Type</source>
+        <translation type="unfinished">Mota</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="550"/>
+        <source>Select the proxy type to be used.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="606"/>
+        <source>&amp;Type:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
