@@ -295,12 +295,12 @@
     <message>
         <location filename="../about.cpp" line="105"/>
         <source>The following people have contributed with patches (see the changelog for details):</source>
-        <translation type="unfinished"></translation>
+        <translation>As seguintes pessoas contribuiram com correcções (veja o changelog para detalhes):</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
         <source>If there&apos;s any omission, please report.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se houver alguma omissão, reporte-a.</translation>
     </message>
 </context>
 <context>
@@ -3784,27 +3784,27 @@ As listas podem já conter expressões regulares para vários idiomas.</translat
     <message>
         <location filename="../prefadvanced.cpp" line="101"/>
         <source>Http</source>
-        <translation type="unfinished"></translation>
+        <translation>Http</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
         <source>Socks5</source>
-        <translation type="unfinished"></translation>
+        <translation>Socks5</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="549"/>
         <source>Type</source>
-        <translation type="unfinished">Tipo</translation>
+        <translation>Tipo</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="550"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccione o tipo de proxy a ser usada.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="606"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tipo:</translation>
     </message>
 </context>
 <context>
