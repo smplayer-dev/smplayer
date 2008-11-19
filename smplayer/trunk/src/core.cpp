@@ -1363,6 +1363,13 @@ void Core::startMplayer( QString file, double seek ) {
 		} else {
 			qWarning("Core::startMplayer: '%s' doesn't exist", Paths::subtitleStyleFile().toUtf8().constData());
 		}
+		// Use the same font for OSD
+		if (!pref->ass_styles.fontname.isEmpty()) {
+			proc->addArgument("-fontconfig");
+			proc->addArgument("-font");
+			proc->addArgument( pref->ass_styles.fontname );
+		}
+
 	} else {
 		// NO ASS:
 		if (pref->freetype_support) proc->addArgument("-noass");
