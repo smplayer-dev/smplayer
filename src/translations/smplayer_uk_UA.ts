@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="uk">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -295,12 +296,12 @@
     <message>
         <location filename="../about.cpp" line="105"/>
         <source>The following people have contributed with patches (see the changelog for details):</source>
-        <translation type="unfinished"></translation>
+        <translation>Наступні люди внесли вклад латками (дивіться changelog для подробиць):</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
         <source>If there&apos;s any omission, please report.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо є якісь заперечення, будь ласка, звітуйте.</translation>
     </message>
 </context>
 <context>
@@ -3783,27 +3784,27 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="101"/>
         <source>Http</source>
-        <translation type="unfinished"></translation>
+        <translation>Http</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
         <source>Socks5</source>
-        <translation type="unfinished"></translation>
+        <translation>Socks5</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="549"/>
         <source>Type</source>
-        <translation type="unfinished">Тип</translation>
+        <translation>Тип</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="550"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть який використовувати тип проксі.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="606"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Тип:</translation>
     </message>
 </context>
 <context>
@@ -6411,17 +6412,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="388"/>
         <source>Freetype support</source>
-        <translation type="unfinished"></translation>
+        <translation>Підтримка Freetype</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="392"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make that subtitles won&apos;t work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Зазвичай вам не слід вимикати цю опцію. Зробіть це лише якщо ваш MPlayer зібраний без підтримки freetype. &lt;b&gt;Вимикання цієї опції може взагалі унеможливити роботу субтитрів!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="256"/>
         <source>Freet&amp;ype support</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Підтримка Freetype</translation>
     </message>
 </context>
 <context>
