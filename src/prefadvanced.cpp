@@ -21,6 +21,7 @@
 #include "images.h"
 #include "preferences.h"
 #include <QColorDialog>
+#include <QNetworkProxy>
 
 PrefAdvanced::PrefAdvanced(QWidget * parent, Qt::WindowFlags f)
 	: PrefWidget(parent, f )
@@ -95,6 +96,12 @@ void PrefAdvanced::retranslateStrings() {
 
 	monitoraspect_combo->setItemText(0, tr("Auto") );
 
+	int proxy_type_item = proxy_type_combo->currentIndex();
+	proxy_type_combo->clear();
+	proxy_type_combo->addItem( tr("Http"), QNetworkProxy::HttpProxy);
+	proxy_type_combo->addItem( tr("Socks5"), QNetworkProxy::Socks5Proxy);
+	proxy_type_combo->setCurrentIndex(proxy_type_item);
+
 	createHelp();
 }
 
@@ -135,6 +142,7 @@ void PrefAdvanced::setData(Preferences * pref) {
 	setProxyPort( pref->proxy_port );
 	setProxyUsername( pref->proxy_username );
 	setProxyPassword( pref->proxy_password );
+	setProxyType( pref->proxy_type );
 }
 
 void PrefAdvanced::getData(Preferences * pref) {
@@ -194,13 +202,15 @@ void PrefAdvanced::getData(Preferences * pref) {
                       (pref->proxy_host != proxyHostname()) ||
                       (pref->proxy_port != proxyPort()) ||
                       (pref->proxy_username != proxyUsername()) ||
-                      (pref->proxy_password != proxyPassword()) );
+                      (pref->proxy_password != proxyPassword()) ||
+                      (pref->proxy_type != proxyType()) );
 
 	pref->use_proxy = useProxy();
 	pref->proxy_host = proxyHostname();
 	pref->proxy_port = proxyPort();
 	pref->proxy_username = proxyUsername();
 	pref->proxy_password = proxyPassword();
+	pref->proxy_type = proxyType();
 }
 
 void PrefAdvanced::setMonitorAspect(QString asp) {
@@ -431,6 +441,17 @@ QString PrefAdvanced::proxyPassword() {
 	return proxy_password_edit->text();
 }
 
+void PrefAdvanced::setProxyType(int type) {
+	int index = proxy_type_combo->findData(type);
+	if (index == -1) index = 0;
+	proxy_type_combo->setCurrentIndex(index);
+}
+
+int PrefAdvanced::proxyType() {
+	int index = proxy_type_combo->currentIndex();
+	return proxy_type_combo->itemData(index).toInt();
+}
+
 
 void PrefAdvanced::createHelp() {
 	clearHelp();
@@ -524,6 +545,9 @@ void PrefAdvanced::createHelp() {
 	setWhatsThis(proxy_password_edit, tr("Password"),
 		tr("The password for the proxy. Warning: the password will be saved "
            "as plain text in the configuration file.") );
+
+	setWhatsThis(proxy_type_combo, tr("Type"),
+		tr("Select the proxy type to be used.") );
 
 	addSectionTitle(tr("MPlayer language"));
 

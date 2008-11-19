@@ -135,6 +135,8 @@ protected:
 	void setProxyPassword(QString password);
 	QString proxyPassword();
 
+	void setProxyType(int type);
+	int proxyType();
 
 protected:
 	virtual void retranslateStrings();

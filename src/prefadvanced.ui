@@ -547,20 +547,23 @@ Example: resample=44100:0:0,volnorm</string>
             </property>
            </widget>
           </item>
-          <item row="0" column="1" >
+          <item row="0" column="1" colspan="2" >
            <widget class="QLineEdit" name="proxy_hostname_edit" />
           </item>
-          <item row="0" column="2" >
+          <item row="0" column="3" >
            <widget class="QLabel" name="label_3" >
             <property name="text" >
              <string>&amp;Port:</string>
+            </property>
+            <property name="alignment" >
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
             </property>
             <property name="buddy" >
              <cstring>proxy_port_spin</cstring>
             </property>
            </widget>
           </item>
-          <item row="0" column="3" >
+          <item row="0" column="4" >
            <widget class="QSpinBox" name="proxy_port_spin" >
             <property name="maximum" >
              <number>65535</number>
@@ -577,7 +580,7 @@ Example: resample=44100:0:0,volnorm</string>
             </property>
            </widget>
           </item>
-          <item row="1" column="1" colspan="3" >
+          <item row="1" column="1" colspan="4" >
            <widget class="QLineEdit" name="proxy_username_edit" />
           </item>
           <item row="2" column="0" >
@@ -590,12 +593,38 @@ Example: resample=44100:0:0,volnorm</string>
             </property>
            </widget>
           </item>
-          <item row="2" column="1" colspan="3" >
+          <item row="2" column="1" colspan="4" >
            <widget class="QLineEdit" name="proxy_password_edit" >
             <property name="echoMode" >
              <enum>QLineEdit::Password</enum>
             </property>
            </widget>
+          </item>
+          <item row="3" column="0" >
+           <widget class="QLabel" name="label_6" >
+            <property name="text" >
+             <string>&amp;Type:</string>
+            </property>
+            <property name="buddy" >
+             <cstring>proxy_type_combo</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1" >
+           <widget class="QComboBox" name="proxy_type_combo" />
+          </item>
+          <item row="3" column="2" colspan="3" >
+           <spacer>
+            <property name="orientation" >
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" >
+             <size>
+              <width>261</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
           </item>
          </layout>
         </widget>
@@ -607,8 +636,8 @@ Example: resample=44100:0:0,volnorm</string>
          </property>
          <property name="sizeHint" >
           <size>
-           <width>20</width>
-           <height>31</height>
+           <width>458</width>
+           <height>101</height>
           </size>
          </property>
         </spacer>
@@ -861,6 +890,7 @@ The drop-down lists may provide already made regular expression for several lang
   <tabstop>proxy_port_spin</tabstop>
   <tabstop>proxy_username_edit</tabstop>
   <tabstop>proxy_password_edit</tabstop>
+  <tabstop>proxy_type_combo</tabstop>
   <tabstop>endoffile_combo</tabstop>
   <tabstop>novideo_combo</tabstop>
   <tabstop>log_smplayer_check</tabstop>
