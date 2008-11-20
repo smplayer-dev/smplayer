@@ -41,10 +41,11 @@ signals:
 
 protected slots:
 	void readResponseHeader(const QHttpResponseHeader &responseHeader);
-	void httpRequestFinished(int id, bool error);
+	void httpRequestFinished(int request_id, bool error);
 
 protected:
 	QByteArray downloaded_text;
+	int http_get_id;
 };
 
 #endif
