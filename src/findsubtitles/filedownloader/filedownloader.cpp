@@ -44,6 +44,14 @@ FileDownloader::~FileDownloader() {
 	delete http;
 }
 
+void FileDownloader::setProxy(QNetworkProxy proxy) {
+	http->abort();
+	http->setProxy(proxy);
+
+	qDebug("FileDownloader::setProxy: host: '%s' port: %d type: %d",
+           proxy.hostName().toUtf8().constData(), proxy.port(), proxy.type());
+}
+
 void FileDownloader::download(QUrl url) {
 	QHttp::ConnectionMode mode = url.scheme().toLower() == "https" ? QHttp::ConnectionModeHttps : QHttp::ConnectionModeHttp;
 	http->setHost(url.host(), mode, url.port() == -1 ? 0 : url.port());
