@@ -36,7 +36,6 @@
 #include <QDragEnterEvent>
 #include <QDropEvent>
 #include <QDesktopServices>
-#include <QNetworkProxy>
 
 #include <cmath>
 
@@ -214,28 +213,6 @@ void BaseGui::initializeGui() {
 			qWarning("BaseGui::initializeGui: server couldn't be started");
 		}
 	}
-
-	initializeProxy();
-}
-
-void BaseGui::initializeProxy() {
-	QNetworkProxy proxy;
-	if ( (pref->use_proxy) && (!pref->proxy_host.isEmpty()) ) {
-		proxy.setType((QNetworkProxy::ProxyType) pref->proxy_type);
-		proxy.setHostName(pref->proxy_host);
-		proxy.setPort(pref->proxy_port);
-		if ( (!pref->proxy_username.isEmpty()) && (!pref->proxy_password.isEmpty()) ) {
-			proxy.setUser(pref->proxy_username);
-			proxy.setPassword(pref->proxy_password);
-		}
-		qDebug("BaseGui::initializeProxy: using proxy: host: %s, port: %d, type: %d", 
-               pref->proxy_host.toUtf8().constData(), pref->proxy_port, pref->proxy_type);
-	} else {
-		// No proxy
-		proxy.setType(QNetworkProxy::NoProxy);
-		qDebug("BaseGui::initializeProxy: no proxy");
-	}
-	QNetworkProxy::setApplicationProxy(proxy);
 }
 
 void BaseGui::remoteOpen(QString file) {
@@ -2172,7 +2149,7 @@ void BaseGui::applyNewPreferences() {
 	}
 
 	if (advanced->proxyChanged()) {
-		initializeProxy();
+		if (find_subs_dialog) find_subs_dialog->setProxy( userProxy() );
 	}
 
 	if (need_update_language) {
@@ -4004,6 +3981,7 @@ void BaseGui::showFindSubtitlesDialog() {
 	if (!find_subs_dialog) {
 		find_subs_dialog = new FindSubtitlesWindow(0, Qt::Window | Qt::WindowMinMaxButtonsHint);
 		find_subs_dialog->setWindowIcon(windowIcon());
+		find_subs_dialog->setProxy( userProxy() );
 #if DOWNLOAD_SUBS
 		connect(find_subs_dialog, SIGNAL(subtitleDownloaded(const QString &)),
                 core, SLOT(loadSub(const QString &)));
@@ -4020,6 +3998,25 @@ void BaseGui::openUploadSubtitlesPage() {
 	QDesktopServices::openUrl( QUrl("http://www.opensubtitles.org/uploadjava") );
 }
 
+QNetworkProxy BaseGui::userProxy() {
+	QNetworkProxy proxy;
+	if ( (pref->use_proxy) && (!pref->proxy_host.isEmpty()) ) {
+		proxy.setType((QNetworkProxy::ProxyType) pref->proxy_type);
+		proxy.setHostName(pref->proxy_host);
+		proxy.setPort(pref->proxy_port);
+		if ( (!pref->proxy_username.isEmpty()) && (!pref->proxy_password.isEmpty()) ) {
+			proxy.setUser(pref->proxy_username);
+			proxy.setPassword(pref->proxy_password);
+		}
+		qDebug("BaseGui::userProxy: using proxy: host: %s, port: %d, type: %d", 
+               pref->proxy_host.toUtf8().constData(), pref->proxy_port, pref->proxy_type);
+	} else {
+		// No proxy
+		proxy.setType(QNetworkProxy::NoProxy);
+		qDebug("BaseGui::userProxy: no proxy");
+	}
+	return proxy;
+}
 
 // Language change stuff
 void BaseGui::changeEvent(QEvent *e) {

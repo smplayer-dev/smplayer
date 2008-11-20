@@ -20,6 +20,7 @@
 #define _FINDSUBTITLESWINDOW_H_
 
 #include "ui_findsubtitleswindow.h"
+#include <QNetworkProxy>
 
 class SimpleHttp;
 class QStandardItemModel;
@@ -41,6 +42,8 @@ class FindSubtitlesWindow : public QDialog, public Ui::FindSubtitlesWindow
 public:
 	FindSubtitlesWindow( QWidget * parent = 0, Qt::WindowFlags f = 0 );
 	~FindSubtitlesWindow();
+
+	void setProxy(QNetworkProxy proxy);
 
 public slots:
 	void setMovie(QString filename);

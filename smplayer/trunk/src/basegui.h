@@ -20,6 +20,7 @@
 #define _BASEGUI_H_
 
 #include <QMainWindow>
+#include <QNetworkProxy>
 #include "mediadata.h"
 #include "mediasettings.h"
 #include "preferences.h"
@@ -278,7 +279,6 @@ protected:
 	void createFilePropertiesDialog();
 	void setDataToFileProperties();
 	void initializeGui();
-	void initializeProxy();
 	void createActions();
 #if AUTODISABLE_ACTIONS
 	void setActionsEnabled(bool);
@@ -287,6 +287,9 @@ protected:
 	void updateRecents();
 	void configureDiscDevices();
 	/* virtual void closeEvent( QCloseEvent * e ); */
+
+	//! Returns a proxy created from the user's preferences
+	QNetworkProxy userProxy();
 
 protected:
 	virtual void wheelEvent( QWheelEvent * e ) ;

@@ -24,6 +24,7 @@
 #include <QProgressDialog>
 #include <QUrl>
 #include <QBuffer>
+#include <QNetworkProxy>
 
 class QHttp;
 class QHttpResponseHeader;
@@ -35,6 +36,8 @@ class FileDownloader : public QProgressDialog
 public:
 	FileDownloader(QWidget *parent = 0);
 	~FileDownloader();
+
+	void setProxy(QNetworkProxy proxy);
 
 public slots:
 	void download(QUrl url);

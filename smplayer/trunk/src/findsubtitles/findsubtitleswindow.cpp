@@ -144,6 +144,18 @@ FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
 FindSubtitlesWindow::~FindSubtitlesWindow() {
 }
 
+void FindSubtitlesWindow::setProxy(QNetworkProxy proxy) {
+	downloader->abort();
+	downloader->setProxy(proxy);
+
+#ifdef DOWNLOAD_SUBS
+	file_downloader->setProxy(proxy);
+#endif
+
+	qDebug("FindSubtitlesWindow::setProxy: host: '%s' port: %d type: %d",
+           proxy.hostName().toUtf8().constData(), proxy.port(), proxy.type());
+}
+
 void FindSubtitlesWindow::retranslateStrings() {
 	retranslateUi(this);
 
