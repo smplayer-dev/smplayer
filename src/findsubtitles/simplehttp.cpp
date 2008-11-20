@@ -36,7 +36,7 @@ void SimpleHttp::download(const QString & url) {
 
 	QUrl u(url);
 	setHost( u.host() );
-	get( u.path() );
+	http_get_id = get( u.path() );
 
 	emit connecting(u.host());
 }
@@ -57,8 +57,10 @@ void SimpleHttp::readResponseHeader(const QHttpResponseHeader &responseHeader) {
 	}
 }
 
-void SimpleHttp::httpRequestFinished(int id, bool error) {
-	qDebug("SimpleHttp::httpRequestFinished: %d, %d", id, error);
+void SimpleHttp::httpRequestFinished(int request_id, bool error) {
+	qDebug("SimpleHttp::httpRequestFinished: %d, %d", request_id, error);
+
+    if (request_id != http_get_id) return;
 
 	downloaded_text += readAll();
 
