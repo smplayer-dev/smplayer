@@ -412,6 +412,13 @@ void Preferences::reset() {
 	proxy_port = 0;
 	proxy_username = "";
 	proxy_password = "";
+
+
+    /* *******
+       History
+       ******* */
+
+	history_recents.clear();
 }
 
 #ifndef NO_USE_INI_FILES
@@ -775,6 +782,15 @@ void Preferences::save() {
 	set->setValue("username", proxy_username);
 	set->setValue("password", proxy_password);
 	set->endGroup(); // proxy
+
+
+    /* *******
+       History
+       ******* */
+
+	set->beginGroup("history");
+	set->setValue("recents", history_recents);
+	set->endGroup(); // history
 
 	set->sync();
 }
@@ -1143,6 +1159,15 @@ void Preferences::load() {
 	proxy_username = set->value("username", proxy_username).toString();
 	proxy_password = set->value("password", proxy_password).toString();
 	set->endGroup(); // proxy
+
+
+    /* *******
+       History
+       ******* */
+
+	set->beginGroup("history");
+	history_recents = set->value("recents", history_recents).toStringList();
+	set->endGroup(); // history
 
 	/*
 	QFileInfo fi(mplayer_bin);

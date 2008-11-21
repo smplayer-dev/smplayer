@@ -41,9 +41,6 @@ public:
 	void setMaxItems(int n_items);
 	int maxItems() { return max_items; };
 
-	void save(QSettings * set, QString section = QString::null);
-	void load(QSettings * set, QString section = QString::null);
-
 	void fromStringList(QStringList list);
 	QStringList toStringList();
 
