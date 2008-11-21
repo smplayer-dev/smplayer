@@ -110,7 +110,7 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	find_subs_dialog = 0;
 
 	// Create objects:
-	recents = new Recents(this);
+	recents = new Recents;
 	recents->load(Global::settings);
 
 	createPanel();
@@ -2293,7 +2293,7 @@ void BaseGui::updateMediaInfo() {
 void BaseGui::newMediaLoaded() {
     qDebug("BaseGui::newMediaLoaded");
 
-	recents->add( core->mdat.filename );
+	recents->addItem( core->mdat.filename );
 	updateRecents();
 
 	// If a VCD, Audio CD or DVD, add items to playlist
@@ -2492,11 +2492,7 @@ void BaseGui::updateRecents() {
 	int current_items = 0;
 
 	if (recents->count() > 0) {
-		int max_items = recents->count();
-		if (max_items > pref->recents_max_items) {
-			max_items = pref->recents_max_items;
-		}
-		for (int n=0; n < max_items; n++) {
+		for (int n=0; n < recents->count(); n++) {
 			QString fullname = recents->item(n);
 			QString filename = fullname;
 			QFileInfo fi(fullname);
@@ -2514,7 +2510,6 @@ void BaseGui::updateRecents() {
 	} else {
 		QAction * a = recentfiles_menu->addAction( tr("<empty>") );
 		a->setEnabled(false);
-
 	}
 
 	recentfiles_menu->menuAction()->setVisible( current_items > 0 );

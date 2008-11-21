@@ -17,10 +17,9 @@
 */
 
 #include "recents.h"
-#include "global.h"
 #include <QSettings>
 
-Recents::Recents(QObject* parent) : QObject(parent) 
+Recents::Recents()
 {
 	l.clear();
 	max_items = 10;
@@ -33,18 +32,23 @@ void Recents::clear() {
 	l.clear();
 }
 
-void Recents::add(QString s) {
-	qDebug("Recents::add: '%s'", s.toUtf8().data());
+int Recents::count() {
+	return l.count();
+}
+
+void Recents::setMaxItems(int n_items) {
+	max_items = n_items;
+	fromStringList(l);
+}
+
+void Recents::addItem(QString s) {
+	qDebug("Recents::addItem: '%s'", s.toUtf8().data());
 
 	int pos = l.indexOf(s);
 	if (pos != -1) l.removeAt(pos);
 	l.prepend(s);
 
 	if (l.count() > max_items) l.removeLast();
-}
-
-int Recents::count() {
-	return l.count();
 }
 
 QString Recents::item(int n) {
@@ -54,8 +58,8 @@ QString Recents::item(int n) {
 void Recents::list() {
 	qDebug("Recents::list");
 
-	for (int n=0; n < count(); n++) {
-		qDebug(" * item %d: '%s'", n, item(n).toUtf8().data() );
+	for (int n=0; n < l.count(); n++) {
+		qDebug(" * item %d: '%s'", n, l[n].toUtf8().constData() );
 	}
 }
 
@@ -81,4 +85,20 @@ void Recents::load(QSettings * set, QString section) {
 	set->endGroup();
 }
 
-#include "moc_recents.cpp"
+void Recents::fromStringList(QStringList list) {
+	l.clear();
+
+	int max = list.count();
+	if (max_items < max) max = max_items;
+
+	//qDebug("max_items: %d, count: %d max: %d", max_items, l.count(), max);
+
+	for (int n = 0; n < max; n++) {
+		l.append( list[n] );
+	}
+}
+
+QStringList Recents::toStringList() {
+	return l;
+}
+

@@ -24,32 +24,34 @@
 
 class QSettings;
 
-class Recents : public QObject
+class Recents
 {
-	Q_OBJECT
 
 public:
-	Recents(QObject* parent = 0);
+	Recents();
 	~Recents();
 
-	void add(QString s);
-	int count();
+	void clear();
+
+	void addItem(QString s);
 	QString item(int n);
 
-	void setMaxItems(int n) { max_items = n; };
+	int count();
+
+	void setMaxItems(int n_items);
 	int maxItems() { return max_items; };
 
 	void save(QSettings * set, QString section = QString::null);
 	void load(QSettings * set, QString section = QString::null);
 
+	void fromStringList(QStringList list);
+	QStringList toStringList();
+
 	void list();
 
-public slots:
-	void clear();
-
 private:
-	QStringList l;
 	int max_items;
+	QStringList l;
 };
 
 #endif
