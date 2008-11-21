@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -295,12 +296,12 @@
     <message>
         <location filename="../about.cpp" line="105"/>
         <source>The following people have contributed with patches (see the changelog for details):</source>
-        <translation type="unfinished"></translation>
+        <translation>Следующие люди внесли вклад своими патчами (смотрите список изменений для подробностей):</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
         <source>If there&apos;s any omission, please report.</source>
-        <translation type="unfinished"></translation>
+        <translation>Пожалуйста, сообщите в случае каких-либо упущений.</translation>
     </message>
 </context>
 <context>
@@ -481,7 +482,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1156"/>
         <source>D&amp;irectory...</source>
-        <translation>К&amp;аталог...</translation>
+        <translation>Ката&amp;лог...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1157"/>
@@ -761,7 +762,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1372"/>
         <source>Si&amp;ze</source>
-        <translation>Ра&amp;змер видео</translation>
+        <translation>&amp;Размер видео</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1378"/>
@@ -1368,7 +1369,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1262"/>
         <source>Find subtitles on &amp;OpenSubtitles.org...</source>
-        <translation>Поиск субтитров на &amp;OpenSubtitles.org...</translation>
+        <translation>П&amp;оиск субтитров на OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1263"/>
@@ -1388,7 +1389,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1195"/>
         <source>Speed -&amp;4%</source>
-        <translation>Скорость &amp;–4%</translation>
+        <translation>Скорост&amp;ь –4%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1196"/>
@@ -1398,7 +1399,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1197"/>
         <source>Speed -&amp;1%</source>
-        <translation>Скорость &amp;–1%</translation>
+        <translation>Скорос&amp;ть –1%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1198"/>
@@ -1576,7 +1577,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="390"/>
         <source>Subtitle</source>
-        <translation>С/титры</translation>
+        <translation>Субтитры</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="383"/>
@@ -3177,7 +3178,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="286"/>
         <source>Pre&amp;vious</source>
-        <translation>&amp;Предыдущий</translation>
+        <translation>П&amp;редыдущий</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="298"/>
@@ -3784,27 +3785,27 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="101"/>
         <source>Http</source>
-        <translation type="unfinished"></translation>
+        <translation>Http</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
         <source>Socks5</source>
-        <translation type="unfinished"></translation>
+        <translation>Socks5</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="549"/>
         <source>Type</source>
-        <translation type="unfinished">Тип</translation>
+        <translation>Тип</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="550"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите тип прокси, который будет использоваться.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="606"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Тип:</translation>
     </message>
 </context>
 <context>
@@ -6492,17 +6493,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="388"/>
         <source>Freetype support</source>
-        <translation type="unfinished"></translation>
+        <translation>Поддержка Freetype</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="392"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make that subtitles won&apos;t work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Обычно вы можете не отключать эту опцию. Делайт это только если MPlayer собран без поддержки freetype. &lt;b&gt;Отключение этой опции может привести к неработоспособности субтитров вообще!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="256"/>
         <source>Freet&amp;ype support</source>
-        <translation type="unfinished"></translation>
+        <translation>Поддержк&amp;а Freetype</translation>
     </message>
 </context>
 <context>
