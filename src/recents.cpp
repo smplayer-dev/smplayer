@@ -20,17 +20,13 @@
 #include "global.h"
 #include <QSettings>
 
-using namespace Global;
-
 Recents::Recents(QObject* parent) : QObject(parent) 
 {
 	l.clear();
 	max_items = 10;
-	load();
 }
 
 Recents::~Recents() {
-	save();
 }
 
 void Recents::clear() {
@@ -40,22 +36,11 @@ void Recents::clear() {
 void Recents::add(QString s) {
 	qDebug("Recents::add: '%s'", s.toUtf8().data());
 
-	/*
-	QStringList::iterator it = l.find(s);
-	if (it != l.end()) l.erase(it);
-	l.prepend(s);
-
-	if (l.count() > max_items) l.erase(l.fromLast());
-	*/
-
 	int pos = l.indexOf(s);
 	if (pos != -1) l.removeAt(pos);
 	l.prepend(s);
 
 	if (l.count() > max_items) l.removeLast();
-
-	//qDebug(" * current list:");
-	//list();
 }
 
 int Recents::count() {
@@ -74,46 +59,25 @@ void Recents::list() {
 	}
 }
 
-void Recents::save() {
+void Recents::save(QSettings * set, QString section) {
 	qDebug("Recents::save");
 
-	QSettings * set = settings;
+	if (section.isEmpty()) section = "recent_files";
 
-	/*
-	set->beginGroup( "recent_files");
-
-	set->writeEntry( "items", count() );
-	for (int n=0; n < count(); n++) {
-		set->writeEntry("entry_" + QString::number(n), item(n) );
-	}
-	*/
-
-	set->beginGroup( "recent_files");
+	set->beginGroup(section);
 	set->setValue( "files", l );
-
 	set->endGroup();
 }
 
-void Recents::load() {
+void Recents::load(QSettings * set, QString section) {
 	qDebug("Recents::load");
 
 	l.clear();
 
-	QSettings * set = settings;
+	if (section.isEmpty()) section = "recent_files";
 
-	/*
-	set->beginGroup( "recent_files");
-
-	int num_entries = set->readNumEntry( "items", 0 );
-	for (int n=0; n < num_entries; n++) {
-		QString s = set->readEntry("entry_" + QString::number(n), "" );
-		if (!s.isEmpty()) l.append( s );
-	}
-	*/
-
-	set->beginGroup( "recent_files");
+	set->beginGroup(section);
 	l = set->value( "files" ).toStringList();
-
 	set->endGroup();
 }
 

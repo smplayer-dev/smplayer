@@ -22,6 +22,8 @@
 #include <QStringList>
 #include <QObject>
 
+class QSettings;
+
 class Recents : public QObject
 {
 	Q_OBJECT
@@ -37,8 +39,8 @@ public:
 	void setMaxItems(int n) { max_items = n; };
 	int maxItems() { return max_items; };
 
-	void save();
-	void load();
+	void save(QSettings * set, QString section = QString::null);
+	void load(QSettings * set, QString section = QString::null);
 
 	void list();
 
