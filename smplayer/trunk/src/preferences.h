@@ -23,6 +23,7 @@
 /* Global settings */
 
 #include <QString>
+#include <QStringList>
 #include <QSize>
 #include "config.h"
 #include "audioequalizerlist.h"
@@ -409,6 +410,13 @@ public:
 	int proxy_port;
 	QString proxy_username;
 	QString proxy_password;
+
+
+    /* *******
+       History
+       ******* */
+
+	QStringList history_recents;
 };
 
 #endif

@@ -111,7 +111,7 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 
 	// Create objects:
 	recents = new Recents;
-	recents->load(Global::settings);
+	recents->fromStringList(pref->history_recents);
 
 	createPanel();
 	setCentralWidget(panel);
@@ -262,7 +262,8 @@ BaseGui::~BaseGui() {
 		find_subs_dialog = 0; // Necessary?
 	}
 
-	recents->save(Global::settings);
+	// Save recents
+	pref->history_recents = recents->toStringList();
 	delete recents;
 }
 

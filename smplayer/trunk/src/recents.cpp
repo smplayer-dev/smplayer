@@ -63,28 +63,6 @@ void Recents::list() {
 	}
 }
 
-void Recents::save(QSettings * set, QString section) {
-	qDebug("Recents::save");
-
-	if (section.isEmpty()) section = "recent_files";
-
-	set->beginGroup(section);
-	set->setValue( "files", l );
-	set->endGroup();
-}
-
-void Recents::load(QSettings * set, QString section) {
-	qDebug("Recents::load");
-
-	l.clear();
-
-	if (section.isEmpty()) section = "recent_files";
-
-	set->beginGroup(section);
-	l = set->value( "files" ).toStringList();
-	set->endGroup();
-}
-
 void Recents::fromStringList(QStringList list) {
 	l.clear();
 
