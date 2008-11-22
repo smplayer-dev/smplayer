@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="nl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -295,12 +296,12 @@
     <message>
         <location filename="../about.cpp" line="105"/>
         <source>The following people have contributed with patches (see the changelog for details):</source>
-        <translation type="unfinished"></translation>
+        <translation>Dezemensen hebben bijgedragen met patches (zie de changelog voor details):</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
         <source>If there&apos;s any omission, please report.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als er iemand ontbreekt, rapporteer het dan.</translation>
     </message>
 </context>
 <context>
@@ -3669,12 +3670,12 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
     <message>
         <location filename="../prefadvanced.cpp" line="485"/>
         <source>Correct pts</source>
-        <translation type="unfinished"></translation>
+        <translation>Correcte pts</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="493"/>
         <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Schakeld MPlayer naar een experimentele modus over waar tijdstempels voor videoframes anders worden berekend en videofilters die nieuwe frames toevoegen of tijdstempels van bestaande wijzigen worden ondersteund. De meer accurate tijdstempels kunnen zichtbaar zijn wanneer er bijvoorbeeld ondertitels zijn getimed naar scènes met de SSA/ASS-bibliotheek ingeschakeld. Zonder correcte pts zal de timing van ondertitels een paar frames fout zitten. Deze optie werkt niet correct met enkele demuxers en codecs.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
@@ -3769,32 +3770,32 @@ De drop-down lijsten kunnen al reguliere expressies voor bepaalde talen bevatten
     <message>
         <location filename="../prefadvanced.ui" line="176"/>
         <source>C&amp;orrect PTS</source>
-        <translation type="unfinished"></translation>
+        <translation>C&amp;orrecte PTS</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="101"/>
         <source>Http</source>
-        <translation type="unfinished"></translation>
+        <translation>Http</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
         <source>Socks5</source>
-        <translation type="unfinished"></translation>
+        <translation>Socks5</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="549"/>
         <source>Type</source>
-        <translation type="unfinished">Type</translation>
+        <translation>Type</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="550"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecteer het te gebruiken type proxy.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="606"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Type:</translation>
     </message>
 </context>
 <context>
