@@ -28,8 +28,17 @@ public:
 	virtual ~URLHistory();
 
 	virtual void addUrl(QString url, bool is_playlist);
+
+	//! Adds an URL, autodetects if it's a playlist
+	virtual void addUrl(QString url);
+
+	//! Returns the URL, without the playlist tag
 	virtual QString url(int n);
+
+	//! Returns if the item at pos n is a playlist
 	virtual bool isPlaylist(int n);
+
+	static bool isPlaylist(QString url);
 };
 
 #endif
