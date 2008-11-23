@@ -330,7 +330,6 @@ public:
        *********** */
 
 	QString latest_dir; //!< Directory of the latest file loaded
-	QString last_url;
 	QString last_dvd_directory;
 
 
