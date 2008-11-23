@@ -295,12 +295,12 @@
     <message>
         <location filename="../about.cpp" line="105"/>
         <source>The following people have contributed with patches (see the changelog for details):</source>
-        <translation type="unfinished"></translation>
+        <translation>Néhány ember, aki patchekkel járultak hozzá (lásd a változások listáját):</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
         <source>If there&apos;s any omission, please report.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha valaki hiányzik, kérem jelezze.</translation>
     </message>
 </context>
 <context>
@@ -766,7 +766,7 @@ Valóban felül akarja írni?</translation>
     <message>
         <location filename="../basegui.cpp" line="1378"/>
         <source>&amp;Aspect ratio</source>
-        <translation>&amp;Képernyő méretarány</translation>
+        <translation>&amp;Méretarány</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1381"/>
@@ -1460,7 +1460,7 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../basegui.cpp" line="1328"/>
         <source>Next aspect ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Következő méretarány</translation>
     </message>
 </context>
 <context>
@@ -1542,18 +1542,18 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
         <location filename="../core.cpp" line="3025"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>Tiltva</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3033"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>Auto</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3035"/>
         <source>Aspect ratio: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Méretarány: %1</translation>
     </message>
 </context>
 <context>
@@ -2003,7 +2003,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="102"/>
         <source>Aspect ratio</source>
-        <translation>Képernyőarány</translation>
+        <translation>Méretarány</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="112"/>
@@ -3667,12 +3667,12 @@ Például &lt;i&gt;^Core::.*&lt;/i&gt; esetén csak a &lt;i&gt;Core::&lt;/i&gt; 
     <message>
         <location filename="../prefadvanced.cpp" line="485"/>
         <source>Correct pts</source>
-        <translation>Pts korrigálása</translation>
+        <translation>PTS korrigálása</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="493"/>
         <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation>Az MPlayert egy kísérleti módba kapcsolja, amelyben a képkockák időcímkéi máshogyan számítódnak és támogatva lesznek az új képockákat hozzáadó vagy a meglévők időcímkéit módosító videó szűrők. A pontosabb időcímkék észlelhetők például jelenetváltáshoz időzített feliratok lejátszásakor engedélyezett SSA/ASS könyvtárral. Korrekt pts nélkül a felirat időzítése általában eltérhet néhány képkockával. Ez az opció nem működik helyesn néhány demuxerrel és kodekkel.</translation>
+        <translation>Az MPlayert egy kísérleti módba kapcsolja, amelyben a képkockák időcímkéi máshogyan számítódnak és támogatva lesznek az új képockákat hozzáadó vagy a meglévők időcímkéit módosító videó szűrők. A pontosabb időcímkék észlelhetők például jelenetváltáshoz időzített feliratok lejátszásakor engedélyezett SSA/ASS könyvtárral. Korrekt PTS nélkül a felirat időzítése általában eltérhet néhány képkockával. Ez az opció nem működik helyesn néhány demuxerrel és kodekkel.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="176"/>
@@ -3682,122 +3682,122 @@ Például &lt;i&gt;^Core::.*&lt;/i&gt; esetén csak a &lt;i&gt;Core::&lt;/i&gt; 
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
         <source>Proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Proxy</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="533"/>
         <source>Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Proxy használata</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="534"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Engedélyezi/tiltja a proxy használatát.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="536"/>
         <source>Host</source>
-        <translation type="unfinished"></translation>
+        <translation>Cím</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="537"/>
         <source>The host name of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>A proxy címe.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="539"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Port</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="540"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>A proxy portja.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="542"/>
         <source>Username</source>
-        <translation type="unfinished"></translation>
+        <translation>Felhasználói név</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="543"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha a proxy azonosítást igényel, itt megadhatja a felhasználói nevet.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="545"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Jelszó</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="547"/>
         <source>The password for the proxy. Warning: the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished"></translation>
+        <translation>A proxy jelszava. Figyelem: a jelszó egyszerű szövegként lesz elmentve a konfigurációs fájlba.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="514"/>
         <source>Pro&amp;xy</source>
-        <translation type="unfinished"></translation>
+        <translation>Pro&amp;xy</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="520"/>
         <source>You can set a proxy for internet connections (currently only used for subtitle downloading).</source>
-        <translation type="unfinished"></translation>
+        <translation>Megadhatja az internetkapcsolathoz használt proxyt (jelenleg csak feliratok letöltéshez).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="530"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Proxy &amp;használata</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="543"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Cím:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="556"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Port:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="576"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Felhasználói név:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="589"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished"></translation>
+        <translation>Jel&amp;szó:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="176"/>
         <source>C&amp;orrect PTS</source>
-        <translation type="unfinished"></translation>
+        <translation>PTS k&amp;orrigálása</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="101"/>
         <source>Http</source>
-        <translation type="unfinished"></translation>
+        <translation>Http</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
         <source>Socks5</source>
-        <translation type="unfinished"></translation>
+        <translation>Socks5</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="549"/>
         <source>Type</source>
-        <translation type="unfinished">Típus</translation>
+        <translation>Típus</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="550"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Válassza ki a használandó proxy típust.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="606"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Típus:</translation>
     </message>
 </context>
 <context>
@@ -5328,97 +5328,97 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="568"/>
         <source>Floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Lebegő vezérlősáv</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="570"/>
         <source>Animated</source>
-        <translation type="unfinished"></translation>
+        <translation>Animált</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="572"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha bejelöli, a lebegő vezérlősáv animálva jelenik meg.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="574"/>
         <source>Width</source>
-        <translation type="unfinished"></translation>
+        <translation>Szélesség</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="575"/>
         <source>Specifies the width of the control (as a percentage).</source>
-        <translation type="unfinished"></translation>
+        <translation>Meghatározza a vezérlő szélességét (százalékban).</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="577"/>
         <source>Margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Margó</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="581"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez az opció meghatározza, hogy a lebegő vezérlősáv hány pixel távolságra legyen a képernyő aljától. Hasznos, ha a képernyő egy TV, mivel a kép alja lelóghat a képernyőről.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="583"/>
         <source>Display in compact mode too</source>
-        <translation type="unfinished"></translation>
+        <translation>Megjelenítés kompakt módban is</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="586"/>
         <source>If this option is enabled, the floating control will appear in compact mode too. Warning: the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció engedélyezve van, a lebegő vezérlősáv kompakt módban is megjelenik. Figyelem: a lebegő vezérlősáv nem a kompakt módhoz lett tervezve, ezért hibásan működhet.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="589"/>
         <source>Bypass window manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Ablakkezelő megkerülése</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="592"/>
         <source>If this option is checked, the control is displayed bypassing the window manager. Disable this option if the floating control doesn&apos;t work well with your window manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció be van jelölve, a vezérlősáv az ablakezelőt megkerülve jelenik meg. Tiltsa le ezt az opciót, ha a lebegő vezérlősáv nem működik jól az ablakkezelőjével.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="794"/>
         <source>&amp;Floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lebegő vezérlősáv</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="800"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>A lebegő vezérlősáv teljes képernyős módban jelenik meg, ha a kurzort a képernyő aljára mozgatja.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="810"/>
         <source>&amp;Animated</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Animált</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="819"/>
         <source>&amp;Width:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Szélesség:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="878"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation>0</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="852"/>
         <source>&amp;Margin:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Margó:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="887"/>
         <source>Display in &amp;compact mode too</source>
-        <translation type="unfinished"></translation>
+        <translation>Megjelenítés &amp;kompakt módban is</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="894"/>
         <source>&amp;Bypass window manager</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;blakkezelő megkerülése</translation>
     </message>
 </context>
 <context>
@@ -6475,17 +6475,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="388"/>
         <source>Freetype support</source>
-        <translation type="unfinished"></translation>
+        <translation>Freetype támogatás</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="392"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make that subtitles won&apos;t work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Általában nem ajánlott letiltani ezt az opciót, kivéve ha az MPlayerje freetype támogatás nélkül lett fordítva. &lt;b&gt;Az opció letiltásával előfordulhat hogy a feliratok egyáltalán nem fognak működni!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="256"/>
         <source>Freet&amp;ype support</source>
-        <translation type="unfinished"></translation>
+        <translation>Freet&amp;ype támogatás</translation>
     </message>
 </context>
 <context>
@@ -6695,7 +6695,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="121"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
-        <translation type="unfinished"></translation>
+        <translation>meghatározza a könyvtárat ahvá az SMPlayer a konfigurációs fájljait (smplayer.ini, smplayer_files.ini...) tárolni fogja</translation>
     </message>
 </context>
 <context>
