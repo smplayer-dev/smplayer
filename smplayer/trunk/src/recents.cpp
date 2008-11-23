@@ -17,7 +17,6 @@
 */
 
 #include "recents.h"
-#include <QSettings>
 
 Recents::Recents()
 {
