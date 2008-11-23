@@ -59,6 +59,7 @@
 #include "inputmplayerversion.h"
 #include "inputurl.h"
 #include "recents.h"
+#include "urlhistory.h"
 #include "about.h"
 #include "errordialog.h"
 #include "timedialog.h"
@@ -2817,20 +2818,24 @@ void BaseGui::openURL() {
 
 	InputURL d(this);
 
-	d.setURLs( pref->history_urls );
+	for (int n=0; n < pref->history_urls.count(); n++) {
+		d.setURL( pref->history_urls.url(n), pref->history_urls.isPlaylist(n) );
+	}
+
 	if (d.exec() == QDialog::Accepted ) {
 		QString url = d.url();
+		bool is_playlist = d.isPlaylist();
 		if (!url.isEmpty()) {
-			if (d.isPlaylist()) url = url + IS_PLAYLIST_TAG;
+			pref->history_urls.addUrl(url, is_playlist);
+			if (is_playlist) url = url + IS_PLAYLIST_TAG;
 			openURL(url);
 		}
-		pref->history_urls = d.urls();
 	}
 }
 
 void BaseGui::openURL(QString url) {
 	if (!url.isEmpty()) {
-		pref->last_url = url;
+		//pref->history_urls.addUrl(url);
 
 		if (pref->auto_add_to_playlist) {
 			if (playlist->maybeSave()) {
