@@ -1,5 +1,11 @@
 [b]Version 0.6.6[/b]:
 
+(2008-11-23)
+ * Added a history to the open URL dialog. Based on a patch by Francesco 
+   Cosoleto.
+   Not finished yet. Missing options to clear the history or set the maximum
+   number of items.
+
 (2008-11-20)
  * The "Recents" code has been reorganized. Also the list of recent files
    is now saved in a different place in smplayer.ini, in section [history].
