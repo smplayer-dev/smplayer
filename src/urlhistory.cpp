@@ -33,7 +33,7 @@ void URLHistory::addUrl(QString url, bool is_playlist) {
 	QStringList::iterator iterator = l.begin();
 	while (iterator != l.end()) {
 		QString s = (*iterator);
-		if (s.endsWith(IS_PLAYLIST_TAG)) {
+		if (isPlaylist(s)) {
 			s = s.remove( QRegExp(IS_PLAYLIST_TAG_RX) );
 		}
 		if (s == url) 
@@ -49,6 +49,12 @@ void URLHistory::addUrl(QString url, bool is_playlist) {
 	if (l.count() > max_items) l.removeLast();
 }
 
+void URLHistory::addUrl(QString url) {
+	bool is_playlist = isPlaylist(url);
+	if (is_playlist) url = url.remove( QRegExp(IS_PLAYLIST_TAG_RX) );
+	addUrl(url, is_playlist);
+}
+
 QString URLHistory::url(int n) {
 	QString s = l[n];
 	if (isPlaylist(n)) s = s.remove( QRegExp(IS_PLAYLIST_TAG_RX) );
@@ -56,6 +62,10 @@ QString URLHistory::url(int n) {
 }
 
 bool URLHistory::isPlaylist(int n) {
-	return l[n].endsWith(IS_PLAYLIST_TAG);
+	return isPlaylist(l[n]);
+}
+
+bool URLHistory::isPlaylist(QString url) {
+	return url.endsWith(IS_PLAYLIST_TAG);
 }
 
