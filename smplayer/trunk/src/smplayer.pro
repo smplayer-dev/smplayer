@@ -43,6 +43,7 @@ HEADERS += guiconfig.h \
 	inforeader.h \
 	deviceinfo.h \
 	recents.h \
+	urlhistory.h \
 	core.h \
 	logwindow.h \
 	infofile.h \
@@ -124,6 +125,7 @@ SOURCES	+= version.cpp \
 	inforeader.cpp \
 	deviceinfo.cpp \
 	recents.cpp \
+	urlhistory.cpp \
 	core.cpp \
 	logwindow.cpp \
 	infofile.cpp \
