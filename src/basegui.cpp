@@ -110,9 +110,6 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	find_subs_dialog = 0;
 
 	// Create objects:
-	recents = new Recents;
-	recents->fromStringList(pref->history_recents);
-
 	createPanel();
 	setCentralWidget(panel);
 
@@ -184,7 +181,7 @@ void BaseGui::initializeGui() {
 	changeStyleSheet(pref->iconset);
 #endif
 
-	recents->setMaxItems( pref->recents_max_items);
+	pref->history_recents.setMaxItems( pref->recents_max_items);
 	updateRecents();
 
 	// Call loadActions() outside initialization of the class.
@@ -261,10 +258,6 @@ BaseGui::~BaseGui() {
 		delete find_subs_dialog;
 		find_subs_dialog = 0; // Necessary?
 	}
-
-	// Save recents
-	pref->history_recents = recents->toStringList();
-	delete recents;
 }
 
 void BaseGui::createActions() {
@@ -2102,7 +2095,7 @@ void BaseGui::applyNewPreferences() {
 
 	PrefInterface *_interface = pref_dialog->mod_interface();
 	if (_interface->recentsChanged()) {
-		recents->setMaxItems(pref->recents_max_items);
+		pref->history_recents.setMaxItems(pref->recents_max_items);
 		updateRecents();
 	}
 	if (_interface->languageChanged()) need_update_language = true;
@@ -2294,7 +2287,7 @@ void BaseGui::updateMediaInfo() {
 void BaseGui::newMediaLoaded() {
     qDebug("BaseGui::newMediaLoaded");
 
-	recents->addItem( core->mdat.filename );
+	pref->history_recents.addItem( core->mdat.filename );
 	updateRecents();
 
 	// If a VCD, Audio CD or DVD, add items to playlist
@@ -2492,9 +2485,9 @@ void BaseGui::updateRecents() {
 
 	int current_items = 0;
 
-	if (recents->count() > 0) {
-		for (int n=0; n < recents->count(); n++) {
-			QString fullname = recents->item(n);
+	if (pref->history_recents.count() > 0) {
+		for (int n=0; n < pref->history_recents.count(); n++) {
+			QString fullname = pref->history_recents.item(n);
 			QString filename = fullname;
 			QFileInfo fi(fullname);
 			//if (fi.exists()) filename = fi.fileName(); // Can be slow
@@ -2518,7 +2511,7 @@ void BaseGui::updateRecents() {
 
 void BaseGui::clearRecentsList() {
 	// Delete items in menu
-	recents->clear();
+	pref->history_recents.clear();
 	updateRecents();
 }
 
@@ -2731,7 +2724,7 @@ void BaseGui::openRecent() {
 	if (a) {
 		int item = a->data().toInt();
 		qDebug("BaseGui::openRecent: %d", item);
-		QString file = recents->item(item);
+		QString file = pref->history_recents.item(item);
 
 		if (pref->auto_add_to_playlist) {
 			if (playlist->maybeSave()) {

@@ -790,7 +790,7 @@ void Preferences::save() {
        ******* */
 
 	set->beginGroup("history");
-	set->setValue("recents", history_recents);
+	set->setValue("recents", history_recents.toStringList());
 	set->setValue("urls", history_urls);
 	set->endGroup(); // history
 
@@ -1168,7 +1168,7 @@ void Preferences::load() {
        ******* */
 
 	set->beginGroup("history");
-	history_recents = set->value("recents", history_recents).toStringList();
+	history_recents.fromStringList( set->value("recents", history_recents.toStringList()).toStringList() );
 	history_urls = set->value("urls", history_urls).toStringList();
 	set->endGroup(); // history
 
