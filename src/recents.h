@@ -20,9 +20,6 @@
 #define _RECENTS_H_
 
 #include <QStringList>
-#include <QObject>
-
-class QSettings;
 
 class Recents
 {
