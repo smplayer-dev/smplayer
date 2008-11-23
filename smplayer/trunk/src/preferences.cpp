@@ -272,8 +272,6 @@ void Preferences::reset() {
 	mouse_xbutton2_click_function = "";
 	wheel_function = Seeking;
 
-	recents_max_items = 10;
-
 	seeking1 = 10;
 	seeking2 = 60;
 	seeking3 = 10*60;
@@ -637,8 +635,6 @@ void Preferences::save() {
 	set->setValue("mouse_xbutton2_click_function", mouse_xbutton2_click_function);
 	set->setValue("wheel_function", wheel_function);
 
-	set->setValue("recents_max_items", recents_max_items);
-
 	set->setValue("seeking1", seeking1);
 	set->setValue("seeking2", seeking2);
 	set->setValue("seeking3", seeking3);
@@ -789,6 +785,7 @@ void Preferences::save() {
 
 	set->beginGroup("history");
 	set->setValue("recents", history_recents.toStringList());
+	set->setValue("recents/max_items", history_recents.maxItems());
 	set->setValue("urls", history_urls.toStringList());
 	set->endGroup(); // history
 
@@ -1014,8 +1011,6 @@ void Preferences::load() {
 	mouse_xbutton2_click_function = set->value("mouse_xbutton2_click_function", mouse_xbutton2_click_function).toString();
 	wheel_function = set->value("wheel_function", wheel_function).toInt();
 
-	recents_max_items = set->value("recents_max_items", recents_max_items).toInt();
-
 	seeking1 = set->value("seeking1", seeking1).toInt();
 	seeking2 = set->value("seeking2", seeking2).toInt();
 	seeking3 = set->value("seeking3", seeking3).toInt();
@@ -1166,6 +1161,7 @@ void Preferences::load() {
 
 	set->beginGroup("history");
 	history_recents.fromStringList( set->value("recents", history_recents.toStringList()).toStringList() );
+	history_recents.setMaxItems( set->value("recents/max_items", history_recents.maxItems()).toInt() );;
 	history_urls.fromStringList( set->value("urls", history_urls.toStringList()).toStringList() );
 	set->endGroup(); // history
 

@@ -182,7 +182,6 @@ void BaseGui::initializeGui() {
 	changeStyleSheet(pref->iconset);
 #endif
 
-	pref->history_recents.setMaxItems( pref->recents_max_items);
 	updateRecents();
 
 	// Call loadActions() outside initialization of the class.
@@ -2096,7 +2095,6 @@ void BaseGui::applyNewPreferences() {
 
 	PrefInterface *_interface = pref_dialog->mod_interface();
 	if (_interface->recentsChanged()) {
-		pref->history_recents.setMaxItems(pref->recents_max_items);
 		updateRecents();
 	}
 	if (_interface->languageChanged()) need_update_language = true;

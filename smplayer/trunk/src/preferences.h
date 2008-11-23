@@ -266,8 +266,6 @@ public:
 	QString mouse_xbutton2_click_function;
 	int wheel_function;
 
-	int recents_max_items; 	//!< Max items in recent's list
-
 	// Configurable seeking
 	int seeking1; // By default 10s
 	int seeking2; // By default 1m
