@@ -2824,19 +2824,14 @@ void BaseGui::openURL() {
 
 	InputURL d(this);
 
-	QString url = pref->last_url;
-	if (url.endsWith(IS_PLAYLIST_TAG)) {
-		url = url.remove( QRegExp(IS_PLAYLIST_TAG_RX) );
-		d.setPlaylist(true);
-	}
-
-	d.setURL(url);
+	d.setURLs( pref->history_urls );
 	if (d.exec() == QDialog::Accepted ) {
 		QString url = d.url();
 		if (!url.isEmpty()) {
 			if (d.isPlaylist()) url = url + IS_PLAYLIST_TAG;
 			openURL(url);
 		}
+		pref->history_urls = d.urls();
 	}
 }
 
