@@ -419,6 +419,7 @@ void Preferences::reset() {
        ******* */
 
 	history_recents.clear();
+	history_urls.clear();
 }
 
 #ifndef NO_USE_INI_FILES
@@ -790,6 +791,7 @@ void Preferences::save() {
 
 	set->beginGroup("history");
 	set->setValue("recents", history_recents);
+	set->setValue("urls", history_urls);
 	set->endGroup(); // history
 
 	set->sync();
@@ -1167,6 +1169,7 @@ void Preferences::load() {
 
 	set->beginGroup("history");
 	history_recents = set->value("recents", history_recents).toStringList();
+	history_urls = set->value("urls", history_urls).toStringList();
 	set->endGroup(); // history
 
 	/*

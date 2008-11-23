@@ -22,6 +22,8 @@
 #include "ui_inputurl.h"
 #include <QDialog>
 
+class URLHistory;
+
 class InputURL : public QDialog, public Ui::InputURL
 {
 	Q_OBJECT
@@ -35,6 +37,19 @@ public:
 
 	void setPlaylist(bool b);
 	bool isPlaylist();
+
+	void setURLs(QStringList urls);
+	QStringList urls();
+
+public slots:
+	virtual void accept();
+
+protected slots:
+	void indexChanged();
+	void playlistChanged(int);
+
+protected:
+	URLHistory * url_list;
 };
 
 #endif

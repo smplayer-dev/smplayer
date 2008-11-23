@@ -417,6 +417,7 @@ public:
        ******* */
 
 	QStringList history_recents;
+	QStringList history_urls;
 };
 
 #endif
