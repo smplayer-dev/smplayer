@@ -45,7 +45,6 @@ class AudioEqualizer;
 class FindSubtitlesWindow;
 class Playlist;
 
-class Recents;
 class MyAction;
 class MyActionGroup;
 
@@ -583,8 +582,6 @@ protected:
 
 	Core * core;
     MplayerWindow *mplayerwindow;
-
-	Recents * recents;
 
 	MyServer * server;
 

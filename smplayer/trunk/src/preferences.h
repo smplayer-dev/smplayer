@@ -28,6 +28,7 @@
 #include "config.h"
 #include "audioequalizerlist.h"
 #include "assstyles.h"
+#include "recents.h"
 
 class Preferences {
 
@@ -416,7 +417,7 @@ public:
        History
        ******* */
 
-	QStringList history_recents;
+	Recents history_recents;
 	QStringList history_urls;
 };
 
