@@ -5,6 +5,9 @@
    Cosoleto.
    Not finished yet. Missing options to clear the history or set the maximum
    number of items.
+ * Added a new option for smplayer.ini: urls\max_items (section [history]).
+   It specifies the maximum number of items for the open URL history.
+   By default, 10. Set it to 0 to disable the history.
 
 (2008-11-20)
  * The "Recents" code has been reorganized. Also the list of recent files
