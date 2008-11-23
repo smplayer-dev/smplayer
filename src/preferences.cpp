@@ -331,7 +331,6 @@ void Preferences::reset() {
        *********** */
 
 	latest_dir = QDir::homePath();
-	last_url="";
 	last_dvd_directory="";
 
 
@@ -695,7 +694,6 @@ void Preferences::save() {
 
 	set->beginGroup( "directories");
 	set->setValue("latest_dir", latest_dir);
-	set->setValue("last_url", last_url);
 	set->setValue("last_dvd_directory", last_dvd_directory);
 	set->endGroup(); // directories
 
@@ -1073,7 +1071,6 @@ void Preferences::load() {
 
 	set->beginGroup( "directories");
 	latest_dir = set->value("latest_dir", latest_dir).toString();
-	last_url = set->value("last_url", last_url).toString();
 	last_dvd_directory = set->value("last_dvd_directory", last_dvd_directory).toString();
 	set->endGroup(); // directories
 
