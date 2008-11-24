@@ -2286,7 +2286,7 @@ void BaseGui::updateMediaInfo() {
 void BaseGui::newMediaLoaded() {
     qDebug("BaseGui::newMediaLoaded");
 
-	pref->history_recents.addItem( core->mdat.filename );
+	pref->history_recents->addItem( core->mdat.filename );
 	updateRecents();
 
 	// If a VCD, Audio CD or DVD, add items to playlist
@@ -2484,9 +2484,9 @@ void BaseGui::updateRecents() {
 
 	int current_items = 0;
 
-	if (pref->history_recents.count() > 0) {
-		for (int n=0; n < pref->history_recents.count(); n++) {
-			QString fullname = pref->history_recents.item(n);
+	if (pref->history_recents->count() > 0) {
+		for (int n=0; n < pref->history_recents->count(); n++) {
+			QString fullname = pref->history_recents->item(n);
 			QString filename = fullname;
 			QFileInfo fi(fullname);
 			//if (fi.exists()) filename = fi.fileName(); // Can be slow
@@ -2510,7 +2510,7 @@ void BaseGui::updateRecents() {
 
 void BaseGui::clearRecentsList() {
 	// Delete items in menu
-	pref->history_recents.clear();
+	pref->history_recents->clear();
 	updateRecents();
 }
 
@@ -2723,7 +2723,7 @@ void BaseGui::openRecent() {
 	if (a) {
 		int item = a->data().toInt();
 		qDebug("BaseGui::openRecent: %d", item);
-		QString file = pref->history_recents.item(item);
+		QString file = pref->history_recents->item(item);
 
 		if (pref->auto_add_to_playlist) {
 			if (playlist->maybeSave()) {
@@ -2816,15 +2816,15 @@ void BaseGui::openURL() {
 
 	InputURL d(this);
 
-	for (int n=0; n < pref->history_urls.count(); n++) {
-		d.setURL( pref->history_urls.url(n), pref->history_urls.isPlaylist(n) );
+	for (int n=0; n < pref->history_urls->count(); n++) {
+		d.setURL( pref->history_urls->url(n), pref->history_urls->isPlaylist(n) );
 	}
 
 	if (d.exec() == QDialog::Accepted ) {
 		QString url = d.url();
 		bool is_playlist = d.isPlaylist();
 		if (!url.isEmpty()) {
-			pref->history_urls.addUrl(url, is_playlist);
+			pref->history_urls->addUrl(url, is_playlist);
 			if (is_playlist) url = url + IS_PLAYLIST_TAG;
 			openURL(url);
 		}
@@ -2833,7 +2833,7 @@ void BaseGui::openURL() {
 
 void BaseGui::openURL(QString url) {
 	if (!url.isEmpty()) {
-		//pref->history_urls.addUrl(url);
+		//pref->history_urls->addUrl(url);
 
 		if (pref->auto_add_to_playlist) {
 			if (playlist->maybeSave()) {
