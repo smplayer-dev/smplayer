@@ -3117,7 +3117,6 @@ void BaseGui::toggleFullscreen(bool b) {
 
 	if (!panel->isVisible()) return; // mplayer window is not used.
 
-
 	if (pref->fullscreen) {
 		compactAct->setEnabled(false);
 
@@ -3159,6 +3158,12 @@ void BaseGui::toggleFullscreen(bool b) {
 	}
 
 	updateWidgets();
+
+	if ((pref->add_blackborders_on_fullscreen) && 
+        (!core->mset.add_letterbox)) 
+	{
+		core->restart();
+	}
 }
 
 

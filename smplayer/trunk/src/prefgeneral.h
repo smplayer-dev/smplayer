@@ -101,6 +101,9 @@ protected:
 	void setDisableScreensaver(bool b);
 	bool disableScreensaver();
 
+	void setBlackbordersOnFullscreen(bool b);
+	bool blackbordersOnFullscreen();
+
 	void setAutoq(int n);
 	int autoq();
 

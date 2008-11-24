@@ -101,6 +101,7 @@ void Preferences::reset() {
 	use_soft_video_eq = false;
 	use_slices = true;
 	autoq = 6;
+	add_blackborders_on_fullscreen = false;
 
 	use_soft_vol = false;
     softvol_max = 110; // 110 = default value in mplayer
@@ -458,6 +459,7 @@ void Preferences::save() {
 	set->setValue("use_soft_video_eq", use_soft_video_eq);
 	set->setValue("use_slices", use_slices );
 	set->setValue("autoq", autoq);
+	set->setValue("add_blackborders_on_fullscreen", add_blackborders_on_fullscreen);
 
 	set->setValue("use_soft_vol", use_soft_vol);
 	set->setValue("softvol_max", softvol_max);
@@ -831,6 +833,7 @@ void Preferences::load() {
 	use_soft_video_eq = set->value("use_soft_video_eq", use_soft_video_eq).toBool();
 	use_slices = set->value("use_slices", use_slices ).toBool();
 	autoq = set->value("autoq", autoq).toInt();
+	add_blackborders_on_fullscreen = set->value("add_blackborders_on_fullscreen", add_blackborders_on_fullscreen).toBool();
 
 	use_soft_vol = set->value("use_soft_vol", use_soft_vol).toBool();
 	softvol_max = set->value("softvol_max", softvol_max).toInt();
