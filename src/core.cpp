@@ -1697,7 +1697,7 @@ void Core::startMplayer( QString file, double seek ) {
 
 	// Letterbox (expand)
 #if NEW_ASPECT_CODE
-	if (mset.add_letterbox) {
+	if ((mset.add_letterbox) || (pref->fullscreen && pref->add_blackborders_on_fullscreen)) {
 		proc->addArgument("-vf-add");
 		proc->addArgument( QString("expand=:::::%1,harddup").arg( DesktopInfo::desktop_aspectRatio(mplayerwindow)) );
 		// Note: on some videos (h264 for instance) the subtitles doesn't disappear, 

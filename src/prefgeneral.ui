@@ -487,6 +487,13 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="blackborders_on_fs_check" >
+         <property name="text" >
+          <string>&amp;Add black borders on fullscreen</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="screensaver_check" >
          <property name="text" >
           <string>Disable &amp;screensaver</string>

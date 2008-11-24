@@ -167,6 +167,7 @@ void PrefGeneral::setData(Preferences * pref) {
 	setUseSlices( pref->use_slices );
 	setStartInFullscreen( pref->start_in_fullscreen );
 	setDisableScreensaver( pref->disable_screensaver );
+	setBlackbordersOnFullscreen( pref->add_blackborders_on_fullscreen );
 	setAutoq( pref->autoq );
 
 	setInitialVolume( pref->initial_volume );
@@ -223,6 +224,10 @@ void PrefGeneral::getData(Preferences * pref) {
 	TEST_AND_SET(pref->use_slices, useSlices());
 	pref->start_in_fullscreen = startInFullscreen();
 	TEST_AND_SET(pref->disable_screensaver, disableScreensaver());
+	if (pref->add_blackborders_on_fullscreen != blackbordersOnFullscreen()) {
+		pref->add_blackborders_on_fullscreen = blackbordersOnFullscreen();
+		if (pref->fullscreen) requires_restart = true;
+	}
 	TEST_AND_SET(pref->autoq, autoq());
 
 	pref->initial_volume = initialVolume();
@@ -607,6 +612,14 @@ bool PrefGeneral::disableScreensaver() {
 	return screensaver_check->isChecked();
 }
 
+void PrefGeneral::setBlackbordersOnFullscreen(bool b) {
+	blackborders_on_fs_check->setChecked(b);
+}
+
+bool PrefGeneral::blackbordersOnFullscreen() {
+	return blackborders_on_fs_check->isChecked();
+}
+
 void PrefGeneral::setAutoq(int n) {
 	autoq_spin->setValue(n);
 }
@@ -727,6 +740,14 @@ void PrefGeneral::createHelp() {
 	setWhatsThis(start_fullscreen_check, tr("Start videos in fullscreen"),
 		tr("If this option is checked, all videos will start to play in "
            "fullscreen mode.") );
+
+	setWhatsThis(blackborders_on_fs_check, tr("Add black borders on fullscreen"),
+		tr("If this option is enabled, black borders will be added to the "
+           "image in fullscreen mode. This allows subtitles to be displayed "
+           "on the black borders.") /* + "<br>" +
+ 		tr("This option will be ignored if MPlayer uses its own window, as "
+           "some video drivers (like gl) are already able to display the "
+           "subtitles automatically in the black borders.") */ );
 
 	setWhatsThis(screensaver_check, tr("Disable screensaver"),
 		tr("Check this option to disable the screensaver while playing.<br>"

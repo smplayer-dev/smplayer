@@ -1,5 +1,10 @@
 [b]Version 0.6.6[/b]:
 
+(2008-11-24)
+ * Added a new option in Preferences->Video: add black borders on fullscreen.
+   If this option is enabled, black borders will be added to the image in 
+   fullscreen mode. This allows subtitles to be displayed on the black borders.
+
 (2008-11-23)
  * Added a history to the open URL dialog. Based on a patch by Francesco 
    Cosoleto.
