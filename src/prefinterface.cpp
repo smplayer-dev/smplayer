@@ -23,6 +23,7 @@
 #include "paths.h"
 #include "config.h"
 #include "languages.h"
+#include "recents.h"
 
 #include <QDir>
 #include <QStyleFactory>
@@ -169,7 +170,7 @@ void PrefInterface::setData(Preferences * pref) {
 	setUseSingleInstance(pref->use_single_instance);
 	setServerPort(pref->connection_port);
 	setUseAutoPort(pref->use_autoport);
-	setRecentsMaxItems(pref->history_recents.maxItems());
+	setRecentsMaxItems(pref->history_recents->maxItems());
 
 	setSeeking1(pref->seeking1);
 	setSeeking2(pref->seeking2);
@@ -228,8 +229,8 @@ void PrefInterface::getData(Preferences * pref) {
 		port_changed = true;
 	}
 
-	if (pref->history_recents.maxItems() != recentsMaxItems()) {
-		pref->history_recents.setMaxItems( recentsMaxItems() );
+	if (pref->history_recents->maxItems() != recentsMaxItems()) {
+		pref->history_recents->setMaxItems( recentsMaxItems() );
 		recents_changed = true;
 	}
 

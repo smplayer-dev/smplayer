@@ -28,8 +28,9 @@
 #include "config.h"
 #include "audioequalizerlist.h"
 #include "assstyles.h"
-#include "recents.h"
-#include "urlhistory.h"
+
+class Recents;
+class URLHistory;
 
 class Preferences {
 
@@ -415,8 +416,8 @@ public:
        History
        ******* */
 
-	Recents history_recents;
-	URLHistory history_urls;
+	Recents * history_recents;
+	URLHistory * history_urls;
 };
 
 #endif
