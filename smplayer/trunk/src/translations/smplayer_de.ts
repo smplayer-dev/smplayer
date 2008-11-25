@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de_DE">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -4695,17 +4696,17 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="744"/>
         <source>Add black borders on fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Schwarze Rahmen im Vollbildmodus hinzufügen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="747"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn diese Option aktiviert ist, werden schwarze Ränder im Vollbildmodus dem Bild hinzugefügt. Untertitel werden auf dem schwarzen Rand angezeigt.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="492"/>
         <source>&amp;Add black borders on fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Schwarze Rahmen im Vollbildmodus hinzufügen</translation>
     </message>
 </context>
 <context>
