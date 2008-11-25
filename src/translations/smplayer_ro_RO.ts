@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="en_US">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -295,12 +296,12 @@
     <message>
         <location filename="../about.cpp" line="105"/>
         <source>The following people have contributed with patches (see the changelog for details):</source>
-        <translation type="unfinished"></translation>
+        <translation>Persoanele următoare au contribuit la corectarea și îmbunătățirea programului (consultați jurnalul modificărilor pentru detalii):</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
         <source>If there&apos;s any omission, please report.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă există omisiuni, vă rugăm să anunțați.</translation>
     </message>
 </context>
 <context>
@@ -1464,7 +1465,7 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
     <message>
         <location filename="../basegui.cpp" line="1303"/>
         <source>Next aspect ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Următorul format imagine</translation>
     </message>
 </context>
 <context>
@@ -1546,18 +1547,18 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
         <location filename="../core.cpp" line="3032"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>dezactivat</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3040"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>automat</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3042"/>
         <source>Aspect ratio: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Format imagine: %1</translation>
     </message>
 </context>
 <context>
@@ -3681,92 +3682,92 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
         <source>Proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Proxy</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="533"/>
         <source>Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Activare proxi</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="534"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Activează sau dezactivează folosirea proxi.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="536"/>
         <source>Host</source>
-        <translation type="unfinished"></translation>
+        <translation>Gazdă</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="537"/>
         <source>The host name of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Numele gazdă pentru proxi.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="539"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Port</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="540"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Portul pentru proxy.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="542"/>
         <source>Username</source>
-        <translation type="unfinished"></translation>
+        <translation>Nume utilizator</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="543"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă proxy este cu autentificare, această opțiune cofigurează numele de utilizator.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="545"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Parolă</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="547"/>
         <source>The password for the proxy. Warning: the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Parola pentru proxy. Atenționare: parola va fi salvată în clar în fișierul de configurare.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="514"/>
         <source>Pro&amp;xy</source>
-        <translation type="unfinished"></translation>
+        <translation>Pro&amp;xy</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="520"/>
         <source>You can set a proxy for internet connections (currently only used for subtitle downloading).</source>
-        <translation type="unfinished"></translation>
+        <translation>Puteți configura un proxy pentru conectarea la Internet (deocamdată este folosit doar pentru descărcarea subtitrărilor).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="530"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Activar&amp;e proxy</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="543"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gazdă:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="556"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Port:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="576"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nume &amp;utilizator:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="589"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished"></translation>
+        <translation>Paro&amp;lă:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="176"/>
@@ -3776,7 +3777,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="101"/>
         <source>Http</source>
-        <translation type="unfinished"></translation>
+        <translation>Http</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
@@ -3786,17 +3787,17 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="549"/>
         <source>Type</source>
-        <translation type="unfinished">Tipul</translation>
+        <translation>Tip</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="550"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selectați tipul de proxi ce va fi folosit.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="606"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tip:</translation>
     </message>
 </context>
 <context>
@@ -4010,7 +4011,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="666"/>
         <source>Screenshots folder</source>
-        <translation>Director pentru stocarea capturilor de ecran</translation>
+        <translation>Director capturi de ecran</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="640"/>
@@ -4677,17 +4678,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="744"/>
         <source>Add black borders on fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Adăugare benzi negre în mod fullscreen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="747"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă este selectată această opțiune, se vor adăuga niște benzi negre la imagine în modul de afișare fullscreen. Astfel se permite afișarea subtitrării pe benzile negre.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="492"/>
         <source>&amp;Add black borders on fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Adăugare benzi negre în mod fullscreen</translation>
     </message>
 </context>
 <context>
@@ -5373,47 +5374,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="569"/>
         <source>Floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Butoane de control pe imagine</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="571"/>
         <source>Animated</source>
-        <translation type="unfinished"></translation>
+        <translation>Animație</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="573"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă este activată această opțiune, butoanele de control de pe imagine vor apărea animate.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="575"/>
         <source>Width</source>
-        <translation type="unfinished"></translation>
+        <translation>Lățime</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="576"/>
         <source>Specifies the width of the control (as a percentage).</source>
-        <translation type="unfinished"></translation>
+        <translation>Specifică lățimea butoanelor de control de pe imagine (în procente).</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="578"/>
         <source>Margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Margine</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="582"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation type="unfinished"></translation>
+        <translation>Această opțiune stabilește distanța butoanelor de control de pe imagine față de margine inferioară a ecranului, în număr de pixeli. Această opțiune este utilă mai ales atunci când ecranul este un televizor, pentru că în acest caz butoanele nu vor fi vizibile fără stabilirea unei valori adecvate pentru această opțiune.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="584"/>
         <source>Display in compact mode too</source>
-        <translation type="unfinished"></translation>
+        <translation>Afișare și în mod compact</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="587"/>
         <source>If this option is enabled, the floating control will appear in compact mode too. Warning: the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dacă este selectată această opțiune, butoanele de control de pe imagine vor fi afișate și în mod compact. Atenționare: butoanele de control de pe imagine nu au fost concepute să funcționeze și în mod compact și din această cauză este posibil să nu funcționeze corect.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="590"/>
@@ -5428,37 +5429,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="794"/>
         <source>&amp;Floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Butoane de control pe imagine</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="800"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Butoanele de control de pe imagine apar în mod fullscreen când mausul este mișcat în partea inferioară a ercranului.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="810"/>
         <source>&amp;Animated</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Animație</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="819"/>
         <source>&amp;Width:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lățime:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="878"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation>0</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="852"/>
         <source>&amp;Margin:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Margine:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="887"/>
         <source>Display in &amp;compact mode too</source>
-        <translation type="unfinished"></translation>
+        <translation>Afișare și în mod &amp;compact</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="894"/>
@@ -6520,17 +6521,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="388"/>
         <source>Freetype support</source>
-        <translation type="unfinished"></translation>
+        <translation>Suport caractere freetype</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="392"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make that subtitles won&apos;t work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>În mod normal nu trebuie să dezactivați această opțiune. Puteți face acest lucru doar dacă MPlayer este compilat fără suport pentru caractere freetype. &lt;b&gt;Dezactivarea acestei opțiuni poate duce la imposibilitatea afișării subtitrării!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="256"/>
         <source>Freet&amp;ype support</source>
-        <translation type="unfinished"></translation>
+        <translation>Suport caractere freet&amp;ype</translation>
     </message>
 </context>
 <context>
