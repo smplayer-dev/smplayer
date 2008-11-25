@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -4664,17 +4665,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="744"/>
         <source>Add black borders on fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавить чёрные полосы в полноэкранном режиме</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="747"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если эта опция включена, в полноэкранном режиме к изображению будут добавлены чёрные полосы. Это позволяет отображать на них субтитры.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="492"/>
         <source>&amp;Add black borders on fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Добавить чёрные полосы в полноэкранном режиме</translation>
     </message>
 </context>
 <context>
