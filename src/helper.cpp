@@ -54,26 +54,11 @@ public:
 
 QString Helper::logs;
 
-QString Helper::filenameForPref(const QString & filename) {
-	QString s = filename;
-	s = s.replace('/', '_');
-	s = s.replace('\\', '_');
-	s = s.replace(':', '_');
-	s = s.replace('.', '_');
-	s = s.replace(' ', '_');
-
-	QFileInfo fi(filename);
-	if (fi.exists()) {
-		s += "_" + QString::number( fi.size() );
-	}
-
-	return s;	
-}
-
+/*
 QString Helper::dvdForPref(const QString & dvd_id, int title) {
 	return  QString("DVD_%1_%2").arg(dvd_id).arg(title);
 }
-
+*/
 
 void Helper::addLog(QString s) {
 	logs += s + "\n";

@@ -37,11 +37,8 @@ public:
 
 	static QString timeForJumps(int secs);
 
-	// Give a name for config (group name) based on filename
-	static QString filenameForPref(const QString & filename);
-
 	// Give a name for config (group name) based on dvd id
-	static QString dvdForPref(const QString & dvd_id, int title);
+	/* static QString dvdForPref(const QString & dvd_id, int title); */
 
 	//! Adds a line to the log
 	static void addLog(QString s);
