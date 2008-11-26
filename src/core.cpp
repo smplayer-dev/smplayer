@@ -42,6 +42,10 @@
 #include "screensaver.h"
 #endif
 
+#ifndef NO_USE_INI_FILES
+#include "filesettings.h"
+#endif
+
 using namespace Global;
 
 Core::Core( MplayerWindow *mpw, QWidget* parent ) 
@@ -58,7 +62,10 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 
 #ifndef NO_USE_INI_FILES
 	// Create file_settings
-	if (Paths::iniPath().isEmpty()) {
+	#if NEW_SETTINGS_MANAGEMENT
+		file_settings = new FileSettings(Paths::iniPath());
+	#else
+	if (Paths::iniPath().isEmpty()) {	
 		file_settings = new QSettings(QSettings::IniFormat, QSettings::UserScope,
                                       QString(COMPANY), QString("smplayer_files") );
 	} else {
@@ -66,6 +73,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 		file_settings = new QSettings( filename, QSettings::IniFormat );
 		qDebug("Core::Core: file_settings: '%s'", filename.toUtf8().data());
 	}
+	#endif
 #endif
 
     proc = new MplayerProcess(this);
@@ -220,6 +228,8 @@ void Core::reload() {
 }
 
 #ifndef NO_USE_INI_FILES
+#if !NEW_SETTINGS_MANAGEMENT
+
 bool Core::checkHaveSettingsSaved(QString group_name) {
 	qDebug("Core::checkHaveSettingsSaved: group_name: '%s'", group_name.toUtf8().data());
 
@@ -228,37 +238,6 @@ bool Core::checkHaveSettingsSaved(QString group_name) {
 	file_settings->endGroup();
 
 	return saved;
-}
-
-void Core::saveMediaInfo() {
-	qDebug("Core::saveMediaInfo");
-
-	if (pref->dont_remember_media_settings) {
-		qDebug("Core::saveMediaInfo: not saving settings, disabled by user");
-		return;
-	}
-
-	QString group_name;
-
-	/*
-	if ( (mdat.type == TYPE_DVD) && (!mdat.dvd_id.isEmpty()) ) {
-		group_name = dvdForPref( mdat.dvd_id, mset.current_title_id );
-	}
-	else
-	*/
-	if ( (mdat.type == TYPE_FILE) && (!mdat.filename.isEmpty()) ) {
-		group_name = Helper::filenameForPref( mdat.filename );
-	}
-
-	if (!group_name.isEmpty()) {
-		file_settings->beginGroup( group_name );
-		file_settings->setValue( "saved", true);
-
-		/*mdat.save(*settings);*/
-		mset.save(file_settings);
-
-		file_settings->endGroup();
-	}
 }
 
 void Core::loadMediaInfo(QString group_name) {
@@ -270,6 +249,45 @@ void Core::loadMediaInfo(QString group_name) {
 	mset.load(file_settings);
 
 	file_settings->endGroup();
+}
+
+#endif // NEW_SETTINGS_MANAGEMENT
+
+void Core::saveMediaInfo() {
+	qDebug("Core::saveMediaInfo");
+
+	if (pref->dont_remember_media_settings) {
+		qDebug("Core::saveMediaInfo: not saving settings, disabled by user");
+		return;
+	}
+
+#if NEW_SETTINGS_MANAGEMENT
+	if ( (mdat.type == TYPE_FILE) && (!mdat.filename.isEmpty()) ) {
+		file_settings->saveDataFor(mdat.filename, mset);
+	}
+#else
+	QString group_name;
+
+	/*
+	if ( (mdat.type == TYPE_DVD) && (!mdat.dvd_id.isEmpty()) ) {
+		group_name = dvdForPref( mdat.dvd_id, mset.current_title_id );
+	}
+	else
+	*/
+	if ( (mdat.type == TYPE_FILE) && (!mdat.filename.isEmpty()) ) {
+		group_name = FileSettings::filenameToGroupname( mdat.filename );
+	}
+
+	if (!group_name.isEmpty()) {
+		file_settings->beginGroup( group_name );
+		file_settings->setValue( "saved", true);
+
+		/*mdat.save(*settings);*/
+		mset.save(file_settings);
+
+		file_settings->endGroup();
+	}
+#endif // NEW_SETTINGS_MANAGEMENT
 }
 
 #endif // NO_USE_INI_FILES
@@ -641,12 +659,20 @@ void Core::playNewFile(QString file, int seek) {
 
 #ifndef NO_USE_INI_FILES
 	// Check if we already have info about this file
-	if (checkHaveSettingsSaved( Helper::filenameForPref(file) )) {
+	#if NEW_SETTINGS_MANAGEMENT
+	if (file_settings->existSettingsFor(file)) {
+	#else
+	if (checkHaveSettingsSaved( FileSettings::filenameToGroupname(file) )) {
+	#endif
 		qDebug("Core::playNewFile: We have settings for this file!!!");
 
 		// In this case we read info from config
 		if (!pref->dont_remember_media_settings) {
-			loadMediaInfo( Helper::filenameForPref(file) );
+			#if NEW_SETTINGS_MANAGEMENT
+			mset = file_settings->settingsFor(file);
+			#else
+			loadMediaInfo( FileSettings::filenameToGroupname(file) );
+			#endif
 			qDebug("Core::playNewFile: Media settings read");
 
 			// Resize the window and set the aspect as soon as possible
