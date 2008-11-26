@@ -25,6 +25,13 @@
 #include "mediasettings.h"
 #include "config.h"
 
+#define NEW_SETTINGS_MANAGEMENT 1
+
+#ifndef NO_USE_INI_FILES
+#if NEW_SETTINGS_MANAGEMENT
+class FileSettingsBase;
+#endif
+#endif
 
 class MplayerProcess;
 class MplayerWindow;
@@ -315,9 +322,11 @@ protected:
 	void stopMplayer();
 
 #ifndef NO_USE_INI_FILES
+	#if !NEW_SETTINGS_MANAGEMENT
 	bool checkHaveSettingsSaved(QString filename);
-	void saveMediaInfo();
 	void loadMediaInfo(QString filename);
+	#endif
+	void saveMediaInfo();
 #endif
 
     void initializeMenus();
@@ -360,7 +369,11 @@ protected:
     MplayerWindow * mplayerwindow;
 
 #ifndef NO_USE_INI_FILES
+	#if NEW_SETTINGS_MANAGEMENT
+	FileSettingsBase * file_settings;
+	#else
 	QSettings * file_settings;
+	#endif
 #endif
 
 #ifdef Q_OS_WIN
