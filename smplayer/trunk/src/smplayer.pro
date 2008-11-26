@@ -39,6 +39,8 @@ HEADERS += guiconfig.h \
 	mediasettings.h \
 	assstyles.h \
 	preferences.h \
+	filesettingsbase.h \
+	filesettings.h \
 	images.h \
 	inforeader.h \
 	deviceinfo.h \
@@ -121,6 +123,8 @@ SOURCES	+= version.cpp \
 	mediasettings.cpp \
 	assstyles.cpp \
 	preferences.cpp \
+	filesettingsbase.cpp \
+	filesettings.cpp \
 	images.cpp \
 	inforeader.cpp \
 	deviceinfo.cpp \
