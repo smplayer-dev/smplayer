@@ -20,7 +20,8 @@
 #define _FILESETTINGS_ABSTRACT_H_
 
 #include <QString>
-#include "mediasettings.h"
+
+class MediaSettings;
 
 class FileSettingsBase
 {
@@ -30,9 +31,9 @@ public:
 
 	virtual bool existSettingsFor(QString filename) = 0;
 
-	virtual MediaSettings settingsFor(QString filename) = 0;
+	virtual void loadSettingsFor(QString filename, MediaSettings & mset) = 0;
 
-	virtual void saveDataFor(QString filename, MediaSettings & mset) = 0;
+	virtual void saveSettingsFor(QString filename, MediaSettings & mset) = 0;
 
 protected:
 	QString output_directory;

@@ -17,6 +17,7 @@
 */
 
 #include "filesettings.h"
+#include "mediasettings.h"
 #include <QSettings>
 #include <QFileInfo>
 
@@ -59,23 +60,20 @@ bool FileSettings::existSettingsFor(QString filename) {
 	return saved;
 }
 
-MediaSettings FileSettings::settingsFor(QString filename) {
+void FileSettings::loadSettingsFor(QString filename, MediaSettings & mset) {
 	qDebug("FileSettings::settingsFor: '%s'", filename.toUtf8().constData());
 
 	QString group_name = filenameToGroupname(filename);
 
 	qDebug("FileSettings::settingsFor: group_name: '%s'", group_name.toUtf8().constData());
 
-	MediaSettings mset;
-
+	mset.reset();
 	my_settings->beginGroup( group_name );
 	mset.load(my_settings);
 	my_settings->endGroup();
-
-	return mset;
 }
 
-void FileSettings::saveDataFor(QString filename, MediaSettings & mset) {
+void FileSettings::saveSettingsFor(QString filename, MediaSettings & mset) {
 	qDebug("FileSettings::saveDataFor: '%s'", filename.toUtf8().constData());
 
 	QString group_name = filenameToGroupname(filename);
