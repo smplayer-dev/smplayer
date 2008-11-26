@@ -50,7 +50,7 @@
     <message>
         <location filename="../about.cpp" line="157"/>
         <source>The following people have contributed with translations:</source>
-        <translation>以下の方々に翻訳でご貢献をいただいています:</translation>
+        <translation>以下の方々に翻訳のご貢献をいただきました:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="158"/>
@@ -295,12 +295,12 @@
     <message>
         <location filename="../about.cpp" line="105"/>
         <source>The following people have contributed with patches (see the changelog for details):</source>
-        <translation type="unfinished"></translation>
+        <translation>以下の方々にパッチのご貢献をいただきました (詳細は変更点ログをご覧ください):</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="122"/>
         <source>If there&apos;s any omission, please report.</source>
-        <translation type="unfinished"></translation>
+        <translation>何か欠落がある場合は、ご報告ください。</translation>
     </message>
 </context>
 <context>
@@ -1450,7 +1450,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3331"/>
         <source>Please, update your MPlayer.</source>
-        <translation>MPlayer を更新してください。</translation>
+        <translation>お使いの MPlayer を更新してください。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3332"/>
@@ -3783,27 +3783,27 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="101"/>
         <source>Http</source>
-        <translation type="unfinished"></translation>
+        <translation>Http</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
         <source>Socks5</source>
-        <translation type="unfinished"></translation>
+        <translation>Socks5</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="549"/>
         <source>Type</source>
-        <translation type="unfinished">種類</translation>
+        <translation>種類</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="550"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用されるプロキシの種類を選択します。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="606"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>種類(&amp;T):</translation>
     </message>
 </context>
 <context>
@@ -4663,17 +4663,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="744"/>
         <source>Add black borders on fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>全画面表示で黒枠を表示する</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="747"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションが有効である場合、黒枠は全画面モードでイメージに追加されます。これは字幕が黒枠上に表示されるのを許可します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="492"/>
         <source>&amp;Add black borders on fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>全画面表示で黒枠を表示する(&amp;A)</translation>
     </message>
 </context>
 <context>
@@ -6506,17 +6506,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="388"/>
         <source>Freetype support</source>
-        <translation type="unfinished"></translation>
+        <translation>Freetype サポート</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="392"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make that subtitles won&apos;t work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>通常はこのオプションを無効にしません。お使いの MPlayer が freetype サポートなしでコンパイルされている場合のみしてください。&lt;b&gt;このオプションを無効にすると字幕が全く動作しなくなります!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="256"/>
         <source>Freet&amp;ype support</source>
-        <translation type="unfinished"></translation>
+        <translation>Freetype サポート(&amp;Y)</translation>
     </message>
 </context>
 <context>
@@ -6642,7 +6642,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="145"/>
         <source>the video will be played in fullscreen mode.</source>
-        <translation>ビデオは全画面表示モードで再生されます。</translation>
+        <translation>ビデオは全画面モードで再生されます。</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="148"/>
