@@ -21,6 +21,8 @@
 
 #include "filesettingsbase.h"
 
+class QSettings;
+
 class FileSettings : public FileSettingsBase
 {
 public:
@@ -29,9 +31,9 @@ public:
 
 	virtual bool existSettingsFor(QString filename);
 
-	virtual MediaSettings settingsFor(QString filename);
+	virtual void loadSettingsFor(QString filename, MediaSettings & mset);
 
-	virtual void saveDataFor(QString filename, MediaSettings & mset);
+	virtual void saveSettingsFor(QString filename, MediaSettings & mset);
 
 	static QString filenameToGroupname(const QString & filename);
 

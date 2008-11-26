@@ -263,7 +263,7 @@ void Core::saveMediaInfo() {
 
 #if NEW_SETTINGS_MANAGEMENT
 	if ( (mdat.type == TYPE_FILE) && (!mdat.filename.isEmpty()) ) {
-		file_settings->saveDataFor(mdat.filename, mset);
+		file_settings->saveSettingsFor(mdat.filename, mset);
 	}
 #else
 	QString group_name;
@@ -669,7 +669,7 @@ void Core::playNewFile(QString file, int seek) {
 		// In this case we read info from config
 		if (!pref->dont_remember_media_settings) {
 			#if NEW_SETTINGS_MANAGEMENT
-			mset = file_settings->settingsFor(file);
+			file_settings->loadSettingsFor(file, mset);
 			#else
 			loadMediaInfo( FileSettings::filenameToGroupname(file) );
 			#endif
