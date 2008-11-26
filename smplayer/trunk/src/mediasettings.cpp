@@ -24,10 +24,6 @@
 using namespace Global;
 
 MediaSettings::MediaSettings() {
-#ifndef NO_USE_INI_FILES
-	my_settings = 0;
-#endif
-
 	reset();
 }
 
@@ -381,14 +377,6 @@ void MediaSettings::load(QSettings * set) {
 
 	// ChDefault not used anymore
 	if (audio_use_channels == ChDefault) audio_use_channels = ChStereo;
-}
-
-void MediaSettings::save() {
-	if (my_settings) save(my_settings);
-}
-
-void MediaSettings::load() {
-	if (my_settings) load(my_settings);
 }
 
 #endif // NO_USE_INI_FILES

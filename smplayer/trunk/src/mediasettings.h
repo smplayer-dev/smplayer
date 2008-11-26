@@ -164,17 +164,8 @@ public:
 	void list();
 
 #ifndef NO_USE_INI_FILES
-	void setSettings(QSettings * set) { my_settings = set; };
-	QSettings * settings() { return my_settings; };
-
-	void save();
-	void load();
-
 	void save(QSettings * set);
 	void load(QSettings * set);
-
-protected:
-	QSettings * my_settings;
 #endif
 };
 
