@@ -1238,7 +1238,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="1199"/>
         <source>Add &amp;black borders</source>
-        <translation>Adicionar &amp;margens pretas</translation>
+        <translation>Adicionar &amp;contornos negros</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1201"/>
@@ -4665,17 +4665,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="744"/>
         <source>Add black borders on fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Adicionar contornos negros em ecrã completo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="747"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se activar esta opção, as margens negras serão adicionadas às imagens no modo de ecrã completo. Isto permite que as legendas sejam apresentadas nessas margens.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="492"/>
         <source>&amp;Add black borders on fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Adicionar contornos negros em ecrã completo</translation>
     </message>
 </context>
 <context>
