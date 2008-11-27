@@ -62,7 +62,7 @@ void FileSettingsHash::loadSettingsFor(QString filename, MediaSettings & mset) {
 
 	mset.reset();
 
-	if (QFile::exists(config_file)) {
+	if ((!config_file.isEmpty()) && (QFile::exists(config_file))) {
 		QSettings settings(config_file, QSettings::IniFormat);
 
 		settings.beginGroup("file_settings");
@@ -80,21 +80,23 @@ void FileSettingsHash::saveSettingsFor(QString filename, MediaSettings & mset) {
 	qDebug("FileSettingsHash::saveSettingsFor: config_file: '%s'", config_file.toUtf8().constData());
 	qDebug("FileSettingsHash::saveSettingsFor: output_dir: '%s'", output_dir.toUtf8().constData());
 
-	QDir d(base_dir);
-	if (!d.exists(output_dir)) {
-		if (!d.mkpath(output_dir)) {
-			qWarning("FileSettingsHash::saveSettingsFor: can't create directory '%s'", QString(base_dir + "/" + output_dir).toUtf8().constData());
-			return;
+	if (!config_file.isEmpty()) {
+		QDir d(base_dir);
+		if (!d.exists(output_dir)) {
+			if (!d.mkpath(output_dir)) {
+				qWarning("FileSettingsHash::saveSettingsFor: can't create directory '%s'", QString(base_dir + "/" + output_dir).toUtf8().constData());
+				return;
+			}
 		}
+
+		QSettings settings(config_file, QSettings::IniFormat);
+
+		settings.setValue("filename", filename);
+
+		settings.beginGroup("file_settings");
+		mset.save(&settings);
+		settings.endGroup();
+		settings.sync();
 	}
-
-	QSettings settings(config_file, QSettings::IniFormat);
-
-	settings.setValue("filename", filename);
-
-	settings.beginGroup("file_settings");
-	mset.save(&settings);
-	settings.endGroup();
-	settings.sync();
 }
 
