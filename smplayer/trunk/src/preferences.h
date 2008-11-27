@@ -98,6 +98,8 @@ public:
 	bool loop; 	//!< Loop. If true repeat the file
 	int osd;
 
+	QString file_settings_method; //!< Method to be used for saving file settings
+
 
     /* ***************
        Drives (CD/DVD)
