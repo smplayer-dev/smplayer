@@ -61,11 +61,11 @@ bool FileSettings::existSettingsFor(QString filename) {
 }
 
 void FileSettings::loadSettingsFor(QString filename, MediaSettings & mset) {
-	qDebug("FileSettings::settingsFor: '%s'", filename.toUtf8().constData());
+	qDebug("FileSettings::loadSettingsFor: '%s'", filename.toUtf8().constData());
 
 	QString group_name = filenameToGroupname(filename);
 
-	qDebug("FileSettings::settingsFor: group_name: '%s'", group_name.toUtf8().constData());
+	qDebug("FileSettings::loadSettingsFor: group_name: '%s'", group_name.toUtf8().constData());
 
 	mset.reset();
 	my_settings->beginGroup( group_name );
@@ -74,11 +74,11 @@ void FileSettings::loadSettingsFor(QString filename, MediaSettings & mset) {
 }
 
 void FileSettings::saveSettingsFor(QString filename, MediaSettings & mset) {
-	qDebug("FileSettings::saveDataFor: '%s'", filename.toUtf8().constData());
+	qDebug("FileSettings::saveSettingsFor: '%s'", filename.toUtf8().constData());
 
 	QString group_name = filenameToGroupname(filename);
 
-	qDebug("FileSettings::saveDataFor: group_name: '%s'", group_name.toUtf8().constData());
+	qDebug("FileSettings::saveSettingsFor: group_name: '%s'", group_name.toUtf8().constData());
 
 	my_settings->beginGroup( group_name );
 	my_settings->setValue("saved", true);
