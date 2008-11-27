@@ -44,6 +44,7 @@
 
 #ifndef NO_USE_INI_FILES
 #include "filesettings.h"
+#include "filesettingshash.h"
 #endif
 
 using namespace Global;
@@ -64,6 +65,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	// Create file_settings
 	#if NEW_SETTINGS_MANAGEMENT
 		file_settings = new FileSettings(Paths::iniPath());
+		//file_settings = new FileSettingsHash(Paths::iniPath());
 	#else
 	if (Paths::iniPath().isEmpty()) {	
 		file_settings = new QSettings(QSettings::IniFormat, QSettings::UserScope,

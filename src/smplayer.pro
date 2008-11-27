@@ -41,6 +41,7 @@ HEADERS += guiconfig.h \
 	preferences.h \
 	filesettingsbase.h \
 	filesettings.h \
+	filesettingshash.cpp \
 	images.h \
 	inforeader.h \
 	deviceinfo.h \
@@ -125,6 +126,7 @@ SOURCES	+= version.cpp \
 	preferences.cpp \
 	filesettingsbase.cpp \
 	filesettings.cpp \
+	filesettingshash.cpp \
 	images.cpp \
 	inforeader.cpp \
 	deviceinfo.cpp \
