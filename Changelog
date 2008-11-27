@@ -1,5 +1,31 @@
 [b]Version 0.6.6[/b]:
 
+(2008-11-26)
+ * Implemented a new (and optional) method to save the file settings.
+   This method uses an ini file per each played file (instead of using only 
+   one big ini file for all of them).
+
+   The files are saved under the subdirectory "file_settings" in the config
+   directory (usually $HOME/.config/smplayer/). As filename it uses a hash,
+   and it's stored on a subdirectory starting with the first letter of the
+   filename. 
+
+   For example:
+   $HOME/.config/smplayer/file_settings/d/dd017f9d6706a75f.ini
+   $HOME/.config/smplayer/file_settings/9/95e963e59826699d.ini
+
+ * Added a new option for smplayer.ini: file_settings_method.
+   This option allows to select the method to be used for the file settings.
+   Possible values: normal and hash.
+
+   normal = uses one file (smplayer_files.ini) to store the file settings of
+   all played files. This is cleaner as you only have one file for all files'
+   settings but it could be slow if there are info for many many files in it.
+
+   hash = uses one ini file per each played file. This could be much faster if 
+   you have info for many files, but you'll end up with many ini files and 
+   subdirectories.
+
 (2008-11-24)
  * Added a new option in Preferences->Video: add black borders on fullscreen.
    If this option is enabled, black borders will be added to the image in 
