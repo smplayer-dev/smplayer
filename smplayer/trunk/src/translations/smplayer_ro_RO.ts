@@ -3966,7 +3966,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.cpp" line="752"/>
         <source>Disable screensaver</source>
-        <translation>Dezactivare captură ecran</translation>
+        <translation>Dezactivare economizor ecran</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="759"/>
@@ -4176,7 +4176,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="499"/>
         <source>Disable &amp;screensaver</source>
-        <translation>Dezactivare &amp;captură ecran</translation>
+        <translation>Dezactivare e&amp;conomizor ecran</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="909"/>
