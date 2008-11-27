@@ -114,6 +114,8 @@ void Preferences::reset() {
 	loop = false;
 	osd = None;
 
+	file_settings_method = "normal"; // Possible values: normal & hash
+
 
     /* ***************
        Drives (CD/DVD)
@@ -471,6 +473,8 @@ void Preferences::save() {
 
 	set->setValue("loop", loop);
 	set->setValue("osd", osd);
+
+	set->setValue("file_settings_method", file_settings_method);
 
 	set->endGroup(); // general
 
@@ -845,6 +849,8 @@ void Preferences::load() {
 
 	loop = set->value("loop", loop).toBool();
 	osd = set->value("osd", osd).toInt();
+
+	file_settings_method = set->value("file_settings_method", file_settings_method).toString();
 
 	set->endGroup(); // general
 

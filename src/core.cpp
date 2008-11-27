@@ -64,8 +64,10 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 #ifndef NO_USE_INI_FILES
 	// Create file_settings
 	#if NEW_SETTINGS_MANAGEMENT
-		file_settings = new FileSettings(Paths::iniPath());
-		//file_settings = new FileSettingsHash(Paths::iniPath());
+		if (pref->file_settings_method.toLower() == "hash")
+			file_settings = new FileSettingsHash(Paths::iniPath());
+		else
+			file_settings = new FileSettings(Paths::iniPath());
 	#else
 	if (Paths::iniPath().isEmpty()) {	
 		file_settings = new QSettings(QSettings::IniFormat, QSettings::UserScope,
