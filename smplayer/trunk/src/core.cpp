@@ -3274,7 +3274,12 @@ void Core::autoPanscan() {
 	if (w.width() > w.height()) {
 		double video_window_aspect = (double) w.width() / w.height();
 		double screen_aspect = DesktopInfo::desktop_aspectRatio(mplayerwindow);
-		double zoom_factor = video_window_aspect / screen_aspect;
+		double zoom_factor;
+
+		if (video_window_aspect > screen_aspect)
+			zoom_factor = video_window_aspect / screen_aspect;
+		else
+			zoom_factor = screen_aspect / video_window_aspect;
 
 		qDebug("Core::autoPanscan: video_window_aspect: %f", video_window_aspect);
 		qDebug("Core::autoPanscan: screen_aspect: %f", screen_aspect);
