@@ -3269,6 +3269,21 @@ void Core::resetPanscan() {
 	changePanscan(1.0);
 }
 
+void Core::autoPanscan() {
+	QSize w = mplayerwindow->videoLayer()->size();
+	if (w.width() > w.height()) {
+		double video_window_aspect = (double) w.width() / w.height();
+		double screen_aspect = DesktopInfo::desktop_aspectRatio(mplayerwindow);
+		double zoom_factor = video_window_aspect / screen_aspect;
+
+		qDebug("Core::autoPanscan: video_window_aspect: %f", video_window_aspect);
+		qDebug("Core::autoPanscan: screen_aspect: %f", screen_aspect);
+		qDebug("Core::autoPanscan: zoom_factor: %f", zoom_factor);
+
+		changePanscan(zoom_factor);
+	}
+}
+
 void Core::incPanscan() {
 	qDebug("Core::incPanscan");
 	changePanscan( mset.panscan_factor + ZOOM_STEP );
