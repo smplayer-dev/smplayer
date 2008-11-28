@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="es">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -656,7 +657,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1362"/>
         <source>&amp;Aspect ratio</source>
-        <translation>&amp;Aspect ratio</translation>
+        <translation>Relación de &amp;aspecto</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2379"/>
@@ -1465,12 +1466,12 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="1312"/>
         <source>Next aspect ratio</source>
-        <translation>Siguiente aspect ratio</translation>
+        <translation>Siguiente relación de aspecto</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1195"/>
         <source>&amp;Auto zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Auto &amp;zoom</translation>
     </message>
 </context>
 <context>
@@ -1563,7 +1564,7 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../core.cpp" line="3084"/>
         <source>Aspect ratio: %1</source>
-        <translation>Aspect ratio: %1</translation>
+        <translation>Relación de aspecto: %1</translation>
     </message>
 </context>
 <context>
@@ -2001,7 +2002,7 @@ Por favor verifica los permisos de esa carpeta.</translation>
     <message>
         <location filename="../infofile.cpp" line="93"/>
         <source>Clip info</source>
-        <translation type="unfinished"></translation>
+        <translation>Información del clip</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="100"/>
@@ -2016,7 +2017,7 @@ Por favor verifica los permisos de esa carpeta.</translation>
     <message>
         <location filename="../infofile.cpp" line="102"/>
         <source>Aspect ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Relación de aspecto</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="112"/>
@@ -2026,7 +2027,7 @@ Por favor verifica los permisos de esa carpeta.</translation>
     <message>
         <location filename="../infofile.cpp" line="113"/>
         <source>Bitrate</source>
-        <translation type="unfinished"></translation>
+        <translation>Tasa de bits</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="113"/>
@@ -3399,7 +3400,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefadvanced.ui" line="80"/>
         <source>&amp;Monitor aspect:</source>
-        <translation>Aspect ratio del &amp;monitor:</translation>
+        <translation type="unfinished">Relación de aspecto del &amp;monitor:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="162"/>
@@ -3509,12 +3510,12 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefadvanced.cpp" line="461"/>
         <source>Monitor aspect</source>
-        <translation>Aspect ratio del monitor</translation>
+        <translation>Relación de aspecto del monitor</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="462"/>
         <source>Select the aspect ratio of your monitor.</source>
-        <translation>Selecciona el aspect ratio del monitor.</translation>
+        <translation>Selecciona la relación de aspecto del monitor.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="470"/>
@@ -4750,7 +4751,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="710"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;múltiples ficheros ini&lt;/b&gt;: se usará un fichero ini por cada fichero reproducido. Estos ficheros ini se guardarán en la carpeta %1</translation>
     </message>
 </context>
 <context>
