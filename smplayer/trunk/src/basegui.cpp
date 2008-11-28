@@ -688,6 +688,9 @@ void BaseGui::createActions() {
 	resetZoomAct = new MyAction(Qt::SHIFT | Qt::Key_E, this, "reset_zoom");
 	connect( resetZoomAct, SIGNAL(triggered()), core, SLOT(resetPanscan()) );
 
+	autoZoomAct = new MyAction(Qt::SHIFT | Qt::Key_W, this, "auto_zoom");
+	connect( autoZoomAct, SIGNAL(triggered()), core, SLOT(autoPanscan()) );
+
 
 	// Actions not in menus or buttons
 	// Volume 2
@@ -1027,6 +1030,7 @@ void BaseGui::setActionsEnabled(bool b) {
 	incZoomAct->setEnabled(b);
 	decZoomAct->setEnabled(b);
 	resetZoomAct->setEnabled(b);
+	autoZoomAct->setEnabled(b);
 
 	// Groups
 	denoiseGroup->setActionsEnabled(b);
@@ -1097,6 +1101,7 @@ void BaseGui::enableActionsOnPlaying() {
 		incZoomAct->setEnabled(false);
 		decZoomAct->setEnabled(false);
 		resetZoomAct->setEnabled(false);
+		autoZoomAct->setEnabled(false);
 
 		denoiseGroup->setActionsEnabled(false);
 		sizeGroup->setActionsEnabled(false);
@@ -1187,6 +1192,7 @@ void BaseGui::retranslateStrings() {
 	decZoomAct->change( tr("Zoom &-") );
 	incZoomAct->change( tr("Zoom &+") );
 	resetZoomAct->change( tr("&Reset") );
+	autoZoomAct->change( tr("&Auto zoom") );
 	moveLeftAct->change( tr("Move &left") );
 	moveRightAct->change( tr("Move &right") );
 	moveUpAct->change( tr("Move &up") );
@@ -1801,6 +1807,7 @@ void BaseGui::createMenus() {
 	// Panscan submenu
 	panscan_menu = new QMenu(this);
 	panscan_menu->addAction(resetZoomAct);
+	panscan_menu->addAction(autoZoomAct);
 	panscan_menu->addAction(decZoomAct);
 	panscan_menu->addAction(incZoomAct);
 	panscan_menu->addSeparator();

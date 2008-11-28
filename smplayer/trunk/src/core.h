@@ -258,6 +258,7 @@ public slots:
 	void incPanscan();
 	void decPanscan();
 	void resetPanscan();
+	void autoPanscan();
 
 	void changeUseAss(bool);
 	void toggleClosedCaption(bool);

@@ -3,6 +3,8 @@
 (2008-11-27)
  * Added an option in Preferences->General to change the method to store
    the file settings.
+ * (Experimental) Added the new option Video->Pan&scan->Auto zoom. It 
+   calculates the zoom factor so you can't see any black borders.
 
 (2008-11-26)
  * Implemented a new (and optional) method to save the file settings.
