@@ -55,6 +55,7 @@ public:
 	PreferencesDialog( QWidget * parent = 0, Qt::WindowFlags f = 0 );
 	~PreferencesDialog();
 
+	PrefGeneral * mod_general() { return page_general; };
 	PrefInterface * mod_interface() { return page_interface; };
 	PrefInput * mod_input() { return page_input; };
 	PrefAdvanced * mod_advanced() { return page_advanced; };

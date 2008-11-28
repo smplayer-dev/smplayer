@@ -6,7 +6,7 @@
     <x>0</x>
     <y>0</y>
     <width>460</width>
-    <height>438</height>
+    <height>571</height>
    </rect>
   </property>
   <layout class="QVBoxLayout" >
@@ -35,21 +35,6 @@
        <string>&amp;General</string>
       </attribute>
       <layout class="QVBoxLayout" >
-       <property name="spacing" >
-        <number>6</number>
-       </property>
-       <property name="leftMargin" >
-        <number>9</number>
-       </property>
-       <property name="topMargin" >
-        <number>9</number>
-       </property>
-       <property name="rightMargin" >
-        <number>9</number>
-       </property>
-       <property name="bottomMargin" >
-        <number>9</number>
-       </property>
        <item>
         <widget class="QGroupBox" name="groupBox" >
          <property name="title" >
@@ -111,63 +96,86 @@
          <property name="title" >
           <string>Media settings</string>
          </property>
-         <layout class="QGridLayout" >
-          <property name="leftMargin" >
-           <number>9</number>
-          </property>
-          <property name="topMargin" >
-           <number>9</number>
-          </property>
-          <property name="rightMargin" >
-           <number>9</number>
-          </property>
-          <property name="bottomMargin" >
-           <number>9</number>
-          </property>
-          <property name="horizontalSpacing" >
-           <number>6</number>
-          </property>
-          <property name="verticalSpacing" >
-           <number>6</number>
-          </property>
-          <item row="1" column="0" >
-           <spacer>
-            <property name="orientation" >
-             <enum>Qt::Horizontal</enum>
-            </property>
-            <property name="sizeType" >
-             <enum>QSizePolicy::Fixed</enum>
-            </property>
-            <property name="sizeHint" >
-             <size>
-              <width>20</width>
-              <height>20</height>
-             </size>
-            </property>
-           </spacer>
-          </item>
-          <item row="1" column="1" >
-           <widget class="QCheckBox" name="remember_time_check" >
-            <property name="enabled" >
-             <bool>false</bool>
-            </property>
-            <property name="sizePolicy" >
-             <sizepolicy vsizetype="Fixed" hsizetype="MinimumExpanding" >
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="text" >
-             <string>Remember &amp;time position</string>
-            </property>
-           </widget>
-          </item>
-          <item row="0" column="0" colspan="2" >
+         <layout class="QVBoxLayout" >
+          <item>
            <widget class="QCheckBox" name="remember_all_check" >
             <property name="text" >
              <string>&amp;Remember settings for all files (audio track, subtitles...)</string>
             </property>
            </widget>
+          </item>
+          <item>
+           <layout class="QGridLayout" >
+            <item rowspan="2" row="0" column="0" >
+             <spacer>
+              <property name="orientation" >
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType" >
+               <enum>QSizePolicy::Preferred</enum>
+              </property>
+              <property name="sizeHint" >
+               <size>
+                <width>20</width>
+                <height>61</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="0" column="1" >
+             <widget class="QCheckBox" name="remember_time_check" >
+              <property name="enabled" >
+               <bool>false</bool>
+              </property>
+              <property name="sizePolicy" >
+               <sizepolicy vsizetype="Fixed" hsizetype="MinimumExpanding" >
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text" >
+               <string>Remember &amp;time position</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1" >
+             <layout class="QHBoxLayout" >
+              <item>
+               <widget class="QLabel" name="filesettings_method_label" >
+                <property name="enabled" >
+                 <bool>false</bool>
+                </property>
+                <property name="text" >
+                 <string>&amp;Store settings in</string>
+                </property>
+                <property name="buddy" >
+                 <cstring>filesettings_method_combo</cstring>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="filesettings_method_combo" >
+                <property name="enabled" >
+                 <bool>false</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer>
+                <property name="orientation" >
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" >
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </item>
+           </layout>
           </item>
          </layout>
         </widget>
@@ -196,8 +204,8 @@
          </property>
          <property name="sizeHint" >
           <size>
-           <width>31</width>
-           <height>61</height>
+           <width>438</width>
+           <height>51</height>
           </size>
          </property>
         </spacer>
@@ -1241,6 +1249,7 @@ For translators: don't translate this text, it will be replaced with another one
   <tabstop>screenshot_edit</tabstop>
   <tabstop>remember_all_check</tabstop>
   <tabstop>remember_time_check</tabstop>
+  <tabstop>filesettings_method_combo</tabstop>
   <tabstop>close_on_finish_check</tabstop>
   <tabstop>pause_if_hidden_check</tabstop>
   <tabstop>vo_combo</tabstop>
@@ -1254,6 +1263,7 @@ For translators: don't translate this text, it will be replaced with another one
   <tabstop>double_buffer_check</tabstop>
   <tabstop>use_slices_check</tabstop>
   <tabstop>start_fullscreen_check</tabstop>
+  <tabstop>blackborders_on_fs_check</tabstop>
   <tabstop>screensaver_check</tabstop>
   <tabstop>ao_combo</tabstop>
   <tabstop>ao_user_defined_edit</tabstop>
@@ -1415,6 +1425,38 @@ For translators: don't translate this text, it will be replaced with another one
     <hint type="destinationlabel" >
      <x>534</x>
      <y>176</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>remember_all_check</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>filesettings_method_label</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>229</x>
+     <y>233</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>93</x>
+     <y>298</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>remember_all_check</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>filesettings_method_combo</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>229</x>
+     <y>233</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>181</x>
+     <y>298</y>
     </hint>
    </hints>
   </connection>

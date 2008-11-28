@@ -276,6 +276,10 @@ public:
 	static int dvdFirstChapter();
 #endif
 
+#ifndef NO_USE_INI_FILES
+	void changeFileSettingsMethod(QString method);
+#endif
+
 protected:
 	//! Returns the prefix to keep pausing on slave commands
 	QString pausing_prefix();

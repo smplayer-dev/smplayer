@@ -22,6 +22,7 @@
 #include "filedialog.h"
 #include "images.h"
 #include "mediasettings.h"
+#include "paths.h"
 
 #if USE_ALSA_DEVICES || USE_DSOUND_DEVICES
 #include "deviceinfo.h"
@@ -95,6 +96,12 @@ void PrefGeneral::retranslateStrings() {
 	deinterlace_combo->addItem( tr("Kerndeint"), MediaSettings::Kerndeint );
 	deinterlace_combo->setCurrentIndex(deinterlace_item);
 
+	int filesettings_method_item = filesettings_method_combo->currentIndex();
+	filesettings_method_combo->clear();
+	filesettings_method_combo->addItem( tr("one ini file"), "normal");
+	filesettings_method_combo->addItem( tr("multiple ini files"), "hash");
+	filesettings_method_combo->setCurrentIndex(filesettings_method_item);
+
 	updateDriverCombos();
 
     // Icons
@@ -146,6 +153,7 @@ void PrefGeneral::setData(Preferences * pref) {
 
 	setRememberSettings( !pref->dont_remember_media_settings );
 	setRememberTimePos( !pref->dont_remember_time_pos );
+	setFileSettingsMethod( pref->file_settings_method );
 	setAudioLang( pref->audio_lang );
 	setSubtitleLang( pref->subtitle_lang );
 	setAudioTrack( pref->initial_audio_track );
@@ -179,6 +187,7 @@ void PrefGeneral::setData(Preferences * pref) {
 
 void PrefGeneral::getData(Preferences * pref) {
 	requires_restart = false;
+	filesettings_method_changed = false;
 
 	if (pref->mplayer_bin != mplayerPath()) {
 		requires_restart = true;
@@ -200,6 +209,10 @@ void PrefGeneral::getData(Preferences * pref) {
     TEST_AND_SET(pref->dont_remember_media_settings, dont_remember_ms);
 	bool dont_remember_time = !rememberTimePos();
     TEST_AND_SET(pref->dont_remember_time_pos, dont_remember_time);
+	if (pref->file_settings_method != fileSettingsMethod()) {
+		pref->file_settings_method = fileSettingsMethod();
+		filesettings_method_changed = true;
+	}
 
 	pref->audio_lang = audioLang();
     pref->subtitle_lang = subtitleLang();
@@ -397,6 +410,16 @@ void PrefGeneral::setRememberTimePos(bool b) {
 
 bool PrefGeneral::rememberTimePos() {
 	return remember_time_check->isChecked();
+}
+
+void PrefGeneral::setFileSettingsMethod(QString method) {
+	int index = filesettings_method_combo->findData(method);
+	if (index < 0) index = 0;
+	filesettings_method_combo->setCurrentIndex(index);
+}
+
+QString PrefGeneral::fileSettingsMethod() {
+	return filesettings_method_combo->itemData(filesettings_method_combo->currentIndex()).toString();
 }
 
 void PrefGeneral::setAudioLang(QString lang) {
@@ -677,6 +700,15 @@ void PrefGeneral::createHelp() {
 	setWhatsThis(remember_time_check, tr("Remember time position"),
 		tr("If you check this option, SMPlayer will play all files from "
            "the beginning.") );
+
+	setWhatsThis(filesettings_method_combo, tr("Method to store the file settings"),
+		tr("This option allows to change the way the file settings would be "
+           "stored. The following options are available:") +"<ul><li>" + 
+		tr("<b>one ini file</b>: the settings for all played files will be "
+           "saved in a single ini file (%1)").arg(QString("<i>"+Paths::iniPath()+"/smplayer.ini</i>")) + "</li><li>" +
+		tr("<b>multiple files</b>: one ini file will be used for each played file. "
+           "Those ini files will be saved in the folder %1").arg(QString("<i>"+Paths::iniPath()+"/file_settings</i>")) + "</li></ul>" +
+		tr("The latter method could be faster if there is info for a lot of files.") );
 
 	setWhatsThis(close_on_finish_check, tr("Close when finished"),
 		tr("If this option is checked, the main window will be automatically "
