@@ -706,7 +706,7 @@ void PrefGeneral::createHelp() {
            "stored. The following options are available:") +"<ul><li>" + 
 		tr("<b>one ini file</b>: the settings for all played files will be "
            "saved in a single ini file (%1)").arg(QString("<i>"+Paths::iniPath()+"/smplayer.ini</i>")) + "</li><li>" +
-		tr("<b>multiple files</b>: one ini file will be used for each played file. "
+		tr("<b>multiple ini files</b>: one ini file will be used for each played file. "
            "Those ini files will be saved in the folder %1").arg(QString("<i>"+Paths::iniPath()+"/file_settings</i>")) + "</li></ul>" +
 		tr("The latter method could be faster if there is info for a lot of files.") );
 
