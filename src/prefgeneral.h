@@ -51,6 +51,8 @@ public:
 	// Apply changes
 	void getData(Preferences * pref);
 
+    bool fileSettingsMethodChanged() { return filesettings_method_changed; };
+
 protected:
 	virtual void createHelp();
 
@@ -72,6 +74,9 @@ protected:
 
 	void setRememberTimePos(bool b);
 	bool rememberTimePos();
+
+	void setFileSettingsMethod(QString method);
+	QString fileSettingsMethod();
 
 	void setAudioLang(QString lang);
 	QString audioLang();
@@ -177,6 +182,9 @@ protected:
 #if USE_XV_ADAPTORS
 	DeviceList xv_adaptors;
 #endif
+
+private:
+	bool filesettings_method_changed;
 };
 
 #endif

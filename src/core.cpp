@@ -64,10 +64,8 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 #ifndef NO_USE_INI_FILES
 	// Create file_settings
 	#if NEW_SETTINGS_MANAGEMENT
-		if (pref->file_settings_method.toLower() == "hash")
-			file_settings = new FileSettingsHash(Paths::iniPath());
-		else
-			file_settings = new FileSettings(Paths::iniPath());
+	file_settings = 0;
+	changeFileSettingsMethod(pref->file_settings_method);
 	#else
 	if (Paths::iniPath().isEmpty()) {	
 		file_settings = new QSettings(QSettings::IniFormat, QSettings::UserScope,
@@ -194,6 +192,20 @@ Core::~Core() {
 	delete win_screensaver;
 #endif
 }
+
+#ifndef NO_USE_INI_FILES 
+void Core::changeFileSettingsMethod(QString method) {
+#if NEW_SETTINGS_MANAGEMENT
+	qDebug("Core::changeFileSettingsMethod: %s", method.toUtf8().constData());
+	if (file_settings) delete file_settings;
+
+	if (method.toLower() == "hash")
+		file_settings = new FileSettingsHash(Paths::iniPath());
+	else
+		file_settings = new FileSettings(Paths::iniPath());
+#endif
+}
+#endif
 
 void Core::setState(State s) {
 	if (s != _state) {
