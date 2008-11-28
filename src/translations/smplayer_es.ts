@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="es">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -4705,42 +4706,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="101"/>
         <source>one ini file</source>
-        <translation type="unfinished"></translation>
+        <translation>un único fichero ini</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="102"/>
         <source>multiple ini files</source>
-        <translation type="unfinished"></translation>
+        <translation>múltiples ficheros ini</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="704"/>
         <source>Method to store the file settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Método para guardar las opciones de los ficheros</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="706"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opción permite cambiar el modo en que se guardarán las opciones de los ficheros. Están disponibles las siguientes opciones:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="708"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;un único fichero ini&lt;/b&gt;: las opciones de todos los ficheros que se reproduzcan se guardarán en un único fichero ini (%1)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="710"/>
         <source>&lt;b&gt;multiple files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;múltiples ficheros ini&lt;/b&gt;: se usará un fichero ini por cada fichero reproducido. Estos ficheros ini se guardarán en la carpeta %1</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="711"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
-        <translation type="unfinished"></translation>
+        <translation>El último método puede ser más rápido si hay guardada información de muchos ficheros.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="149"/>
         <source>&amp;Store settings in</source>
-        <translation type="unfinished"></translation>
+        <translation>Guardar las opcione&amp;s en</translation>
     </message>
 </context>
 <context>
