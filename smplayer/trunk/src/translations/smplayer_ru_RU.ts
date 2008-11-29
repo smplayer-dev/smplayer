@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1008,12 +1009,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1192"/>
         <source>Zoom &amp;-</source>
-        <translation>Зум &amp;–</translation>
+        <translation>Ув&amp;еличение –</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1193"/>
         <source>Zoom &amp;+</source>
-        <translation>Зум &amp;+</translation>
+        <translation>&amp;Увеличение +</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1194"/>
@@ -1470,7 +1471,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1195"/>
         <source>&amp;Auto zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Автоувеличение</translation>
     </message>
 </context>
 <context>
@@ -4584,12 +4585,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="748"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
-        <translation>Эта опция устанавливает увеличение (зум), который будет использован по умолчанию для новых видеофайлов.</translation>
+        <translation>Эта опция устанавливает увеличение по умолчанию для новых видеофайлов.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="398"/>
         <source>Default &amp;zoom:</source>
-        <translation>&amp;Увеличенние по умолчанию</translation>
+        <translation>&amp;Увеличенние по умолчанию:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="685"/>
@@ -4684,42 +4685,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="101"/>
         <source>one ini file</source>
-        <translation type="unfinished"></translation>
+        <translation>один общий ini файл</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="102"/>
         <source>multiple ini files</source>
-        <translation type="unfinished"></translation>
+        <translation>отдельные ini файлы</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="704"/>
         <source>Method to store the file settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Метод сохранения настроек файлов</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="706"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
-        <translation type="unfinished"></translation>
+        <translation>Эта опция позволяет изменить способ сохранения настроек файлов. Доступны следующие варианты:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="708"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;один общий ini файл&lt;/b&gt;: настройки для всех воспроизводимых файлов будут сохраняться в одном общем ini файле (%1)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="711"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Следующий метод может быть быстрее, если уже сохранены настройки большого количества файлов.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="149"/>
         <source>&amp;Store settings in</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Сохранять настройки в</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="710"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;отдельные ini файлы,&lt;b/&gt;: для каждого воспроизводимого файла будет использоваться свой ini файл. Все ini файлы будут сохранены в каталог %1</translation>
     </message>
 </context>
 <context>
