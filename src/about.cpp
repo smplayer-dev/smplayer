@@ -161,7 +161,7 @@ QString About::getTranslators() {
          trad(tr("French"), tr("%1, %2 and %3")
 			.arg("Olivier g &lt;1got@caramail.com&gt;")
 			.arg("Temet &lt;goondy@free.fr&gt;")
-			.arg("Kud Gray &lt;kud.gray@gmail.com&gt;") ) +
+			.arg("Erwann MEST &lt;kud.gray@gmail.com&gt;") ) +
 		 trad(tr("Simplified-Chinese"), "Tim Green &lt;iamtimgreen@gmail.com&gt;") +
          trad(tr("Russian"), QString::fromUtf8("Белый Владимир &lt;wiselord1983@gmail.com&gt;"))+ 
          trad(tr("Hungarian"), tr("%1 and %2")
