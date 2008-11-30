@@ -255,6 +255,8 @@ void Preferences::reset() {
 
 	use_correct_pts = false;
 
+	actions_to_run = "";
+
 
     /* *********
        GUI stuff
@@ -616,6 +618,8 @@ void Preferences::save() {
 	set->setValue("use_pausing_keep_force", use_pausing_keep_force);
 
 	set->setValue("use_correct_pts", use_correct_pts);
+
+	set->setValue("actions_to_run", actions_to_run);
 
 	set->endGroup(); // advanced
 
@@ -996,6 +1000,8 @@ void Preferences::load() {
 	use_pausing_keep_force = set->value("use_pausing_keep_force", use_pausing_keep_force).toBool();
 
 	use_correct_pts = set->value("use_correct_pts", use_correct_pts).toBool();
+
+	actions_to_run = set->value("actions_to_run", actions_to_run).toString();
 
 	set->endGroup(); // advanced
 

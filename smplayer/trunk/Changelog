@@ -1,5 +1,19 @@
 [b]Version 0.6.6[/b]:
 
+(2008-11-30)
+ * New option for smplayer.ini: actions_to_run ([advanced] section).
+   Specifies a list of actions (separated by spaces) which will be run every
+   time a file is loaded. For instance "actions_to_run=auto_zoom compact true"
+   will run the auto_zoom action and set the gui to compact mode. If the
+   commandline option -actions is used too, the actions from commandline
+   will be added to the end of the list.
+   There's a limitation: the actions will be run only when a file is opened 
+   and not when the mplayer process is restarted (e.g. you select an option in 
+   the menus which requires to restart mplayer, like a video or audio filter).
+   Note that allowing to run the actions after a restart of mplayer could
+   lead to infinite recursion if any of the actions in the list needs to 
+   restart mplayer.
+
 (2008-11-27)
  * Added an option in Preferences->General to change the method to store
    the file settings.
