@@ -3802,11 +3802,6 @@ The drop-down lists may provide already made regular expression for several lang
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="528"/>
-        <source>Example: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="531"/>
         <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
         <translation type="unfinished"></translation>
@@ -3829,6 +3824,11 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.ui" line="736"/>
         <source>N&amp;o video:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="528"/>
+        <source>Example:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
