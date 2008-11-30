@@ -5,8 +5,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>480</width>
-    <height>529</height>
+    <width>511</width>
+    <height>508</height>
    </rect>
   </property>
   <layout class="QVBoxLayout" >
@@ -117,44 +117,6 @@
           </spacer>
          </item>
         </layout>
-       </item>
-       <item>
-        <widget class="QGroupBox" name="internet_connection_groupbox" >
-         <property name="title" >
-          <string>Network Connection</string>
-         </property>
-         <layout class="QVBoxLayout" >
-          <property name="spacing" >
-           <number>6</number>
-          </property>
-          <property name="leftMargin" >
-           <number>9</number>
-          </property>
-          <property name="topMargin" >
-           <number>9</number>
-          </property>
-          <property name="rightMargin" >
-           <number>9</number>
-          </property>
-          <property name="bottomMargin" >
-           <number>9</number>
-          </property>
-          <item>
-           <widget class="QRadioButton" name="ipv4_button" >
-            <property name="text" >
-             <string>IPv&amp;4</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QRadioButton" name="ipv6_button" >
-            <property name="text" >
-             <string>IPv&amp;6</string>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="mplayer_use_window_check" >
@@ -511,120 +473,167 @@ Example: resample=44100:0:0,volnorm</string>
      </widget>
      <widget class="QWidget" name="tab_proxy" >
       <attribute name="title" >
-       <string>Pro&amp;xy</string>
+       <string>&amp;Network</string>
       </attribute>
       <layout class="QVBoxLayout" >
        <item>
-        <widget class="QLabel" name="label" >
-         <property name="text" >
-          <string>You can set a proxy for internet connections (currently only used for subtitle downloading).</string>
+        <widget class="QGroupBox" name="internet_connection_groupbox" >
+         <property name="title" >
+          <string>Network Connection</string>
          </property>
-         <property name="wordWrap" >
-          <bool>true</bool>
-         </property>
+         <layout class="QVBoxLayout" >
+          <property name="spacing" >
+           <number>6</number>
+          </property>
+          <property name="leftMargin" >
+           <number>9</number>
+          </property>
+          <property name="topMargin" >
+           <number>9</number>
+          </property>
+          <property name="rightMargin" >
+           <number>9</number>
+          </property>
+          <property name="bottomMargin" >
+           <number>9</number>
+          </property>
+          <item>
+           <widget class="QRadioButton" name="ipv4_button" >
+            <property name="text" >
+             <string>IPv&amp;4</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="ipv6_button" >
+            <property name="text" >
+             <string>IPv&amp;6</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="use_proxy_check" >
-         <property name="text" >
-          <string>&amp;Enable proxy</string>
+        <widget class="QGroupBox" name="groupBox" >
+         <property name="title" >
+          <string>Proxy</string>
          </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QWidget" native="1" name="proxy_container" >
-         <property name="enabled" >
-          <bool>false</bool>
-         </property>
-         <layout class="QGridLayout" >
-          <item row="0" column="0" >
-           <widget class="QLabel" name="label_2" >
+         <layout class="QVBoxLayout" >
+          <item>
+           <widget class="QLabel" name="label" >
             <property name="text" >
-             <string>&amp;Host:</string>
+             <string>You can set a proxy for internet connections (currently only used for subtitle downloading).</string>
             </property>
-            <property name="buddy" >
-             <cstring>proxy_hostname_edit</cstring>
+            <property name="wordWrap" >
+             <bool>true</bool>
             </property>
            </widget>
           </item>
-          <item row="0" column="1" colspan="2" >
-           <widget class="QLineEdit" name="proxy_hostname_edit" />
-          </item>
-          <item row="0" column="3" >
-           <widget class="QLabel" name="label_3" >
+          <item>
+           <widget class="QCheckBox" name="use_proxy_check" >
             <property name="text" >
-             <string>&amp;Port:</string>
-            </property>
-            <property name="alignment" >
-             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-            </property>
-            <property name="buddy" >
-             <cstring>proxy_port_spin</cstring>
+             <string>&amp;Enable proxy</string>
             </property>
            </widget>
           </item>
-          <item row="0" column="4" >
-           <widget class="QSpinBox" name="proxy_port_spin" >
-            <property name="maximum" >
-             <number>65535</number>
+          <item>
+           <widget class="QWidget" native="1" name="proxy_container" >
+            <property name="enabled" >
+             <bool>false</bool>
             </property>
+            <layout class="QGridLayout" >
+             <item row="0" column="0" >
+              <widget class="QLabel" name="label_2" >
+               <property name="text" >
+                <string>&amp;Host:</string>
+               </property>
+               <property name="buddy" >
+                <cstring>proxy_hostname_edit</cstring>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1" colspan="2" >
+              <widget class="QLineEdit" name="proxy_hostname_edit" />
+             </item>
+             <item row="0" column="3" >
+              <widget class="QLabel" name="label_3" >
+               <property name="text" >
+                <string>&amp;Port:</string>
+               </property>
+               <property name="alignment" >
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="buddy" >
+                <cstring>proxy_port_spin</cstring>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="4" >
+              <widget class="QSpinBox" name="proxy_port_spin" >
+               <property name="maximum" >
+                <number>65535</number>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0" >
+              <widget class="QLabel" name="label_4" >
+               <property name="text" >
+                <string>&amp;Username:</string>
+               </property>
+               <property name="buddy" >
+                <cstring>proxy_username_edit</cstring>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1" colspan="4" >
+              <widget class="QLineEdit" name="proxy_username_edit" />
+             </item>
+             <item row="2" column="0" >
+              <widget class="QLabel" name="label_5" >
+               <property name="text" >
+                <string>Pa&amp;ssword:</string>
+               </property>
+               <property name="buddy" >
+                <cstring>proxy_password_edit</cstring>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1" colspan="4" >
+              <widget class="QLineEdit" name="proxy_password_edit" >
+               <property name="echoMode" >
+                <enum>QLineEdit::Password</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0" >
+              <widget class="QLabel" name="label_6" >
+               <property name="text" >
+                <string>&amp;Type:</string>
+               </property>
+               <property name="buddy" >
+                <cstring>proxy_type_combo</cstring>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1" >
+              <widget class="QComboBox" name="proxy_type_combo" />
+             </item>
+             <item row="3" column="2" colspan="3" >
+              <spacer>
+               <property name="orientation" >
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" >
+                <size>
+                 <width>261</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
            </widget>
-          </item>
-          <item row="1" column="0" >
-           <widget class="QLabel" name="label_4" >
-            <property name="text" >
-             <string>&amp;Username:</string>
-            </property>
-            <property name="buddy" >
-             <cstring>proxy_username_edit</cstring>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="1" colspan="4" >
-           <widget class="QLineEdit" name="proxy_username_edit" />
-          </item>
-          <item row="2" column="0" >
-           <widget class="QLabel" name="label_5" >
-            <property name="text" >
-             <string>Pa&amp;ssword:</string>
-            </property>
-            <property name="buddy" >
-             <cstring>proxy_password_edit</cstring>
-            </property>
-           </widget>
-          </item>
-          <item row="2" column="1" colspan="4" >
-           <widget class="QLineEdit" name="proxy_password_edit" >
-            <property name="echoMode" >
-             <enum>QLineEdit::Password</enum>
-            </property>
-           </widget>
-          </item>
-          <item row="3" column="0" >
-           <widget class="QLabel" name="label_6" >
-            <property name="text" >
-             <string>&amp;Type:</string>
-            </property>
-            <property name="buddy" >
-             <cstring>proxy_type_combo</cstring>
-            </property>
-           </widget>
-          </item>
-          <item row="3" column="1" >
-           <widget class="QComboBox" name="proxy_type_combo" />
-          </item>
-          <item row="3" column="2" colspan="3" >
-           <spacer>
-            <property name="orientation" >
-             <enum>Qt::Horizontal</enum>
-            </property>
-            <property name="sizeHint" >
-             <size>
-              <width>261</width>
-              <height>20</height>
-             </size>
-            </property>
-           </spacer>
           </item>
          </layout>
         </widget>
@@ -637,7 +646,7 @@ Example: resample=44100:0:0,volnorm</string>
          <property name="sizeHint" >
           <size>
            <width>458</width>
-           <height>101</height>
+           <height>31</height>
           </size>
          </property>
         </spacer>
@@ -697,7 +706,7 @@ The drop-down lists may provide already made regular expression for several lang
        <item row="2" column="0" >
         <widget class="QLabel" name="novideo_label" >
          <property name="text" >
-          <string>&amp;No video:</string>
+          <string>N&amp;o video:</string>
          </property>
          <property name="wordWrap" >
           <bool>false</bool>
@@ -873,8 +882,6 @@ The drop-down lists may provide already made regular expression for several lang
  <tabstops>
   <tabstop>advanced_tab</tabstop>
   <tabstop>monitoraspect_combo</tabstop>
-  <tabstop>ipv4_button</tabstop>
-  <tabstop>ipv6_button</tabstop>
   <tabstop>mplayer_use_window_check</tabstop>
   <tabstop>idx_check</tabstop>
   <tabstop>correct_pts_check</tabstop>
@@ -885,6 +892,8 @@ The drop-down lists may provide already made regular expression for several lang
   <tabstop>mplayer_args_edit</tabstop>
   <tabstop>mplayer_vfilters_edit</tabstop>
   <tabstop>mplayer_afilters_edit</tabstop>
+  <tabstop>ipv4_button</tabstop>
+  <tabstop>ipv6_button</tabstop>
   <tabstop>use_proxy_check</tabstop>
   <tabstop>proxy_hostname_edit</tabstop>
   <tabstop>proxy_port_spin</tabstop>
