@@ -156,55 +156,56 @@ QString About::getTranslators() {
 		 tr("The following people have contributed with translations:") + 
          "<ul>" +
          trad(tr("German"), "Henrikx") + 
-		 trad(tr("Slovak"), "Sweto &lt;peter.mendel@gmail.com&gt;") +
-		 trad(tr("Italian"), "Giancarlo Scola &lt;scola.giancarlo@libero.it&gt;") +
+		 trad(tr("Slovak"), "Sweto <peter.mendel@gmail.com>") +
+		 trad(tr("Italian"), "Giancarlo Scola <scola.giancarlo@libero.it>") +
          trad(tr("French"), tr("%1, %2 and %3")
-			.arg("Olivier g &lt;1got@caramail.com&gt;")
-			.arg("Temet &lt;goondy@free.fr&gt;")
-			.arg("Erwann MEST &lt;kud.gray@gmail.com&gt;") ) +
-		 trad(tr("Simplified-Chinese"), "Tim Green &lt;iamtimgreen@gmail.com&gt;") +
-         trad(tr("Russian"), QString::fromUtf8("Белый Владимир &lt;wiselord1983@gmail.com&gt;"))+ 
+			.arg("Olivier g <1got@caramail.com>")
+			.arg("Temet <goondy@free.fr>")
+			.arg("Erwann MEST <kud.gray@gmail.com>") ) +
+		 trad(tr("Simplified-Chinese"), "Tim Green <iamtimgreen@gmail.com>") +
+         trad(tr("Russian"), QString::fromUtf8("Белый Владимир <wiselord1983@gmail.com>"))+ 
          trad(tr("Hungarian"), tr("%1 and %2")
-            .arg("Charles Barcza &lt;kbarcza@blackpanther.hu&gt;")
-            .arg("CyberDragon &lt;cyberdragon777@gmail.com&gt;")) + 
+            .arg("Charles Barcza <kbarcza@blackpanther.hu>")
+            .arg("CyberDragon <cyberdragon777@gmail.com>")) + 
          trad(tr("Polish"), tr("%1 and %2")
-            .arg("qla &lt;qla0@vp.pl&gt;")
-            .arg("Jarek &lt;ajep9691@wp.pl&gt;") ) +
-         trad(tr("Japanese"), "Nardog &lt;nardog@e2umail.com&gt;") + 
+            .arg("qla <qla0@vp.pl>")
+            .arg("Jarek <ajep9691@wp.pl>") ) +
+         trad(tr("Japanese"), "Nardog <nardog@e2umail.com>") + 
          trad(tr("Dutch"), tr("%1, %2 and %3")
-			.arg("profoX &lt;wesley@ubuntu-nl.org&gt;")
+			.arg("profoX <wesley@ubuntu-nl.org>")
 			.arg("BalaamsMiracle")
-			.arg("Kristof Bal &lt;kristof.bal@gmail.com&gt;")) +
+			.arg("Kristof Bal <kristof.bal@gmail.com>")) +
          trad(tr("Ukrainian"), tr("%1 and %2")
-			.arg("Motsyo Gennadi &lt;drool@altlinux.ru&gt;")
-			.arg("Oleksandr Kovalenko &lt;alx.kovalenko@gmail.com&gt;") ) +
-         trad(tr("Portuguese - Brazil"), "Ventura &lt;ventura.barbeiro@terra.com.br&gt;") + 
-         trad(tr("Georgian"), "George Machitidze &lt;giomac@gmail.com&gt;") + 
-         trad(tr("Czech"), QString::fromUtf8("Martin Dvořák &lt;martin.dvorak@centrum.cz&gt;")) +
-         trad(tr("Bulgarian"), "&lt;marzeliv@mail.bg&gt;") +
-         trad(tr("Turkish"), "alper er &lt;alperer@gmail.com&gt;") +
-         trad(tr("Swedish"), "Leif Larsson &lt;leif.larsson@gmail.com&gt;") +
-         trad(tr("Serbian"), "Kunalagon Umuhanik &lt;kunalagon@gmail.com&gt;") + 
-         trad(tr("Traditional Chinese"), "Hoopoe &lt;dai715.tw@yahoo.com.tw&gt;") + 
-         trad(tr("Romanian"), "DoruH &lt;DoruHushHush@gmail.com&gt;") + 
+			.arg("Motsyo Gennadi <drool@altlinux.ru>")
+			.arg("Oleksandr Kovalenko <alx.kovalenko@gmail.com>") ) +
+         trad(tr("Portuguese - Brazil"), "Ventura <ventura.barbeiro@terra.com.br>") + 
+         trad(tr("Georgian"), "George Machitidze <giomac@gmail.com>") + 
+         trad(tr("Czech"), QString::fromUtf8("Martin Dvořák <martin.dvorak@centrum.cz>")) +
+         trad(tr("Bulgarian"), "<marzeliv@mail.bg>") +
+         trad(tr("Turkish"), "alper er <alperer@gmail.com>") +
+         trad(tr("Swedish"), "Leif Larsson <leif.larsson@gmail.com>") +
+         trad(tr("Serbian"), "Kunalagon Umuhanik <kunalagon@gmail.com>") + 
+         trad(tr("Traditional Chinese"), "Hoopoe <dai715.tw@yahoo.com.tw>") + 
+         trad(tr("Romanian"), "DoruH <DoruHushHush@gmail.com>") + 
          trad(tr("Portuguese - Portugal"), tr("%1 and %2")
-			.arg("Waxman &lt;waxman.pt@gmail.com&gt;")
-			.arg(QString::fromUtf8("Sérgio Marques &lt;contatica@netcabo.pt&gt;"))) +
-		trad(tr("Greek"), "my80s &lt;wamy80s@gmail.com&gt;") +
-		trad(tr("Finnish"), "peeaivo &lt;peeaivo@gmail.com&gt;") +
-		trad(tr("Korean"), "Heesu Yoon &lt;imsu30@gmail.com&gt;") +
-		trad(tr("Macedonian"), "Marko Doda &lt;mark0d0da@gmail.com&gt;") +
-		trad(tr("Basque"), "Piarres Beobide &lt;pi@beobide.net&gt;") +
-		trad(tr("Catalan"), QString::fromUtf8("Roger Calvó &lt;rcalvoi@yahoo.com&gt;")) +
-		trad(tr("Slovenian"), "Janez Troha &lt;janez.troha@gmail.com&gt;") +
-		trad(tr("Arabic"), "Muhammad Nour Hajj Omar &lt;arabianheart@live.com&gt;") +
-		trad(tr("Kurdish"), "Si_murg56 &lt;simurg56@gmail.com&gt;") +
-		trad(tr("Galician"), "Miguel Branco &lt;mgl.branco@gmail.com&gt;") +
+			.arg("Waxman <waxman.pt@gmail.com>")
+			.arg(QString::fromUtf8("Sérgio Marques <contatica@netcabo.pt>"))) +
+		trad(tr("Greek"), "my80s <wamy80s@gmail.com>") +
+		trad(tr("Finnish"), "peeaivo <peeaivo@gmail.com>") +
+		trad(tr("Korean"), "Heesu Yoon <imsu30@gmail.com>") +
+		trad(tr("Macedonian"), "Marko Doda <mark0d0da@gmail.com>") +
+		trad(tr("Basque"), "Piarres Beobide <pi@beobide.net>") +
+		trad(tr("Catalan"), QString::fromUtf8("Roger Calvó <rcalvoi@yahoo.com>")) +
+		trad(tr("Slovenian"), "Janez Troha <janez.troha@gmail.com>") +
+		trad(tr("Arabic"), "Muhammad Nour Hajj Omar <arabianheart@live.com>") +
+		trad(tr("Kurdish"), "Si_murg56 <simurg56@gmail.com>") +
+		trad(tr("Galician"), "Miguel Branco <mgl.branco@gmail.com>") +
          "</ul>");
 }
 
 QString About::trad(const QString & lang, const QString & author) {
-	return "<li>"+ tr("<b>%1</b>: %2").arg(lang).arg(author) + "</li>";
+	QString author_str = QString(author).replace("<", "&lt;").replace(">", "&gt;");
+	return "<li>"+ tr("<b>%1</b>: %2").arg(lang).arg(author_str) + "</li>";
 }
 
 QString About::link(const QString & url, QString name) {
