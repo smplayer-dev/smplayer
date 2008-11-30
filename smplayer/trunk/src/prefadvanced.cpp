@@ -525,7 +525,7 @@ void PrefAdvanced::createHelp() {
            "section. The actions must be separated by spaces. Checkable "
            "actions can be followed by <i>true</i> or <i>false</i> to "
            "enable or disable the action.") +"<br>"+
-		tr("Example: ") +"<i>auto_zoom compact true</i><br>" +
+		tr("Example:") +" <i>auto_zoom compact true</i><br>" +
 		tr("Limitation: the actions are run only when a file is opened and "
            "not when the mplayer process is restarted (e.g. you select an "
            "audio or video filter).") );
