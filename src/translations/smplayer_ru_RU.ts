@@ -547,12 +547,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1176"/>
         <source>Speed &amp;-10%</source>
-        <translation>Скорость &amp;–10%</translation>
+        <translation>Скорос&amp;ть –10%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1177"/>
         <source>Speed &amp;+10%</source>
-        <translation>Скорость &amp;+10%</translation>
+        <translation>Скорост&amp;ь +10%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1349"/>
@@ -622,12 +622,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1217"/>
         <source>Volume &amp;-</source>
-        <translation>Громкость &amp;–</translation>
+        <translation>Г&amp;ромкость –</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1218"/>
         <source>Volume &amp;+</source>
-        <translation>Громкость &amp;+</translation>
+        <translation>Гр&amp;омкость +</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1219"/>
@@ -662,12 +662,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1232"/>
         <source>Delay &amp;-</source>
-        <translation>Задержка &amp;–</translation>
+        <translation>&amp;Задержка –</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1233"/>
         <source>Delay &amp;+</source>
-        <translation>Задержка &amp;+</translation>
+        <translation>З&amp;адержка +</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1234"/>
@@ -727,17 +727,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1326"/>
         <source>&amp;Audio</source>
-        <translation>Зв&amp;ук</translation>
+        <translation>&amp;Звук</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1327"/>
         <source>&amp;Subtitles</source>
-        <translation>Су&amp;бтитры</translation>
+        <translation>&amp;Субтитры</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1328"/>
         <source>&amp;Browse</source>
-        <translation>Об&amp;зор</translation>
+        <translation>О&amp;бзор</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1329"/>
@@ -747,7 +747,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1330"/>
         <source>&amp;Help</source>
-        <translation>Спр&amp;авка</translation>
+        <translation>Сп&amp;равка</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1344"/>
@@ -802,7 +802,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1404"/>
         <source>&amp;Lowpass5</source>
-        <translation>&amp;Lowpass5</translation>
+        <translation>Lowpass&amp;5</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1407"/>
@@ -1169,12 +1169,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1405"/>
         <source>&amp;Yadif (normal)</source>
-        <translation>&amp;Yadif (обычный)</translation>
+        <translation>Yadif (&amp;обычный)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1406"/>
         <source>Y&amp;adif (double framerate)</source>
-        <translation>Y&amp;adif (2× частота кадров)</translation>
+        <translation>Yadif (2× &amp;частота кадров)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1270"/>
@@ -1184,7 +1184,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1271"/>
         <source>Pre&amp;vious</source>
-        <translation>&amp;Предыдущий</translation>
+        <translation>П&amp;редыдущий</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1227"/>
@@ -1219,7 +1219,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1189"/>
         <source>Flip i&amp;mage</source>
-        <translation>Перевернуть &amp;картинку</translation>
+        <translation>П&amp;еревернуть картинку</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1307"/>
@@ -1389,17 +1389,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1178"/>
         <source>Speed -&amp;4%</source>
-        <translation>Скорост&amp;ь –4%</translation>
+        <translation>Скор&amp;ость –4%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1179"/>
         <source>&amp;Speed +4%</source>
-        <translation>&amp;Скорость +4%</translation>
+        <translation>Скоро&amp;сть +4%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1180"/>
         <source>Speed -&amp;1%</source>
-        <translation>Скорос&amp;ть –1%</translation>
+        <translation>&amp;Скорость –1%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1181"/>
@@ -4179,7 +4179,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="493"/>
         <source>Start videos in &amp;fullscreen</source>
-        <translation>Запускать видео на весь &amp;экран</translation>
+        <translation>Запускать видео на весь экр&amp;ан</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="507"/>
@@ -4194,7 +4194,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="742"/>
         <source>Use s&amp;oftware volume control</source>
-        <translation>Использовать программное &amp;управление громкостью</translation>
+        <translation>Использовать програ&amp;ммное управление громкостью</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="765"/>
@@ -4204,7 +4204,7 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefgeneral.ui" line="600"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
-        <translation>&amp;AC3/DTS через S/PDIF</translation>
+        <translation>AC3/DTS &amp;через S/PDIF</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="756"/>
@@ -4445,7 +4445,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="452"/>
         <source>Use s&amp;oftware video equalizer</source>
-        <translation>Использовать программный &amp;видеоэквалайзер</translation>
+        <translation>Использовать программный видео&amp;эквалайзер</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="528"/>
@@ -4580,7 +4580,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="746"/>
         <source>Default zoom</source>
-        <translation>Увеличенние по умолчанию</translation>
+        <translation>Увеличение по умолчанию</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="748"/>
@@ -4590,7 +4590,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="398"/>
         <source>Default &amp;zoom:</source>
-        <translation>&amp;Увеличенние по умолчанию:</translation>
+        <translation>У&amp;величение по умолчанию:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="685"/>
@@ -4680,7 +4680,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="500"/>
         <source>&amp;Add black borders on fullscreen</source>
-        <translation>&amp;Добавить чёрные полосы в полноэкранном режиме</translation>
+        <translation>Добавить &amp;чёрные полосы в полноэкранном режиме</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="101"/>
@@ -4715,7 +4715,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="149"/>
         <source>&amp;Store settings in</source>
-        <translation>&amp;Сохранять настройки в</translation>
+        <translation>Со&amp;хранять настройки в</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="710"/>
@@ -5151,7 +5151,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="313"/>
         <source>St&amp;yle:</source>
-        <translation>Ст&amp;иль:</translation>
+        <translation>&amp;Стиль:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="267"/>
@@ -6345,7 +6345,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="953"/>
         <source>&amp;Border:</source>
-        <translation>&amp;Граница:</translation>
+        <translation>Грани&amp;ца:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="976"/>
@@ -6395,7 +6395,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="1162"/>
         <source>Shado&amp;w:</source>
-        <translation>Те&amp;нь:</translation>
+        <translation>Т&amp;ень:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="817"/>
@@ -6463,7 +6463,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="396"/>
         <source>Enable normal subtitles</source>
-        <translation>Включить &amp;нормальные субтитры</translation>
+        <translation>Включить нормальные субтитры</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="398"/>
@@ -6523,7 +6523,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="286"/>
         <source>Enable &amp;normal subtitles</source>
-        <translation>Включить &amp;нормальные субтитры</translation>
+        <translation>Включить нор&amp;мальные субтитры</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="299"/>
@@ -6563,7 +6563,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="256"/>
         <source>Freet&amp;ype support</source>
-        <translation>Поддержк&amp;а Freetype</translation>
+        <translation>Под&amp;держка Freetype</translation>
     </message>
 </context>
 <context>
