@@ -13,6 +13,8 @@
    Note that allowing to run the actions after a restart of mplayer could
    lead to infinite recursion if any of the actions in the list needs to 
    restart mplayer.
+ * Added a field in Preferences->Advanced to enter the list of actions to
+   be run every time a file is opened.
 
 (2008-11-27)
  * Added an option in Preferences->General to change the method to store

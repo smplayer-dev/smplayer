@@ -94,6 +94,9 @@ protected:
 	void setUseCorrectPts(bool b);
 	bool useCorrectPts();
 
+	void setActionsToRun(QString actions);
+	QString actionsToRun();
+
 	// Log options
 	void setLogMplayer(bool b);
 	bool logMplayer();
