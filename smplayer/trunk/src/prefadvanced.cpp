@@ -461,12 +461,6 @@ void PrefAdvanced::createHelp() {
 	setWhatsThis(monitoraspect_combo, tr("Monitor aspect"),
         tr("Select the aspect ratio of your monitor.") );
 
-	setWhatsThis(ipv4_button, tr("IPv4"),
-		tr("Use IPv4 on network connections. Falls back on IPv6 automatically."));
-
-	setWhatsThis(ipv6_button, tr("IPv6"),
-		tr("Use IPv6 on network connections. Falls back on IPv4 automatically."));
-
 	setWhatsThis(mplayer_use_window_check, tr("Run MPlayer in its own window"),
         tr("If you check this option, the MPlayer video window won't be "
            "embedded in SMPlayer's main window but instead it will use its "
@@ -528,7 +522,13 @@ void PrefAdvanced::createHelp() {
         tr("Here you can add audio filters for MPlayer. Write them separated "
            "by commas. Don't use spaces!") );
 
-	addSectionTitle(tr("Proxy"));
+	addSectionTitle(tr("Network"));
+
+	setWhatsThis(ipv4_button, tr("IPv4"),
+		tr("Use IPv4 on network connections. Falls back on IPv6 automatically."));
+
+	setWhatsThis(ipv6_button, tr("IPv6"),
+		tr("Use IPv6 on network connections. Falls back on IPv4 automatically."));
 
 	setWhatsThis(use_proxy_check, tr("Enable proxy"),
 		tr("Enable/disable the use of the proxy.") );
