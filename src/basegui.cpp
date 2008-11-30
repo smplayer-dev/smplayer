@@ -3316,9 +3316,20 @@ void BaseGui::runActions(QString actions) {
 void BaseGui::checkPendingActionsToRun() {
 	qDebug("BaseGui::checkPendingActionsToRun");
 
+	QString actions;
 	if (!pending_actions_to_run.isEmpty()) {
-		runActions(pending_actions_to_run);
+		actions = pending_actions_to_run;
 		pending_actions_to_run.clear();
+		if (!pref->actions_to_run.isEmpty()) {
+			actions = pref->actions_to_run +" "+ actions;
+		}
+	} else {
+		actions = pref->actions_to_run;
+	}
+
+	if (!actions.isEmpty()) {
+		qDebug("BaseGui::checkPendingActionsToRun: actions: '%s'", actions.toUtf8().constData());
+		runActions(actions);
 	}
 }
 
