@@ -167,7 +167,7 @@
        <item>
         <widget class="QLabel" name="label_7" >
          <property name="text" >
-          <string>R&amp;un the following list of actions every time a file is opened. The actions must be separated with spaces:</string>
+          <string>R&amp;un the following actions every time a file is opened. The actions must be separated with spaces:</string>
          </property>
          <property name="wordWrap" >
           <bool>true</bool>
