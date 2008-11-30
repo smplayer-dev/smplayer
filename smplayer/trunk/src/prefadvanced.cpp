@@ -121,6 +121,7 @@ void PrefAdvanced::setData(Preferences * pref) {
 	setPreferIpv4( pref->prefer_ipv4 );
 	setUseIdx( pref->use_idx );
 	setUseCorrectPts( pref->use_correct_pts );
+	setActionsToRun( pref->actions_to_run );
 
 	setLogMplayer( pref->log_mplayer );
 	setLogSmplayer( pref->log_smplayer );
@@ -159,6 +160,7 @@ void PrefAdvanced::getData(Preferences * pref) {
 	pref->prefer_ipv4 = preferIpv4();
 	TEST_AND_SET(pref->use_idx, useIdx());
 	TEST_AND_SET(pref->use_correct_pts, useCorrectPts());
+	pref->actions_to_run = actionsToRun();
 
 	if (pref->monitor_aspect != monitorAspect()) {
 		pref->monitor_aspect = monitorAspect();
@@ -326,6 +328,14 @@ void PrefAdvanced::setUseCorrectPts(bool b) {
 
 bool PrefAdvanced::useCorrectPts() {
 	return correct_pts_check->isChecked();
+}
+
+void PrefAdvanced::setActionsToRun(QString actions) {
+	actions_to_run_edit->setText(actions);
+}
+
+QString PrefAdvanced::actionsToRun() {
+	return actions_to_run_edit->text();
 }
 
 void PrefAdvanced::on_changeButton_clicked() {
@@ -507,6 +517,18 @@ void PrefAdvanced::createHelp() {
            "change the colorkey to fix it. Try to select a color close to "
            "black.") );
 #endif
+
+	setWhatsThis(actions_to_run_edit, tr("Actions list"),
+		tr("Here you can specify a list of <i>actions</i> which will be "
+           "run every time a file is opened. You'll find all available "
+           "actions in the key shortcut editor in the <b>Keyboard and mouse</b> "
+           "section. The actions must be separated by spaces. Checkable "
+           "actions can be followed by <i>true</i> or <i>false</i> to "
+           "enable or disable the action.") +"<br>"+
+		tr("Example: ") +"<i>auto_zoom compact true</i><br>" +
+		tr("Limitation: the actions are run only when a file is opened and "
+           "not when the mplayer process is restarted (e.g. you select an "
+           "audio or video filter).") );
 
 	addSectionTitle(tr("Options for MPlayer"));
 
