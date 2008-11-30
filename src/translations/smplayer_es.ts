@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="es">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -2051,7 +2052,7 @@ Por favor verifica los permisos de esa carpeta.</translation>
     <message>
         <location filename="../infofile.cpp" line="114"/>
         <source>Rate</source>
-        <translation type="unfinished"></translation>
+        <translation>Tasa</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="114"/>
@@ -3399,7 +3400,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefadvanced.ui" line="65"/>
         <source>&amp;Monitor aspect:</source>
-        <translation type="unfinished">Relación de aspecto del &amp;monitor:</translation>
+        <translation>Relación de aspecto del &amp;monitor:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="122"/>
@@ -3414,7 +3415,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefadvanced.ui" line="403"/>
         <source>V&amp;ideo filters:</source>
-        <translation>Filtros de víd&amp;eo:</translation>
+        <translation>Filtros de &amp;vídeo:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="471"/>
@@ -3814,42 +3815,47 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
         <source>Actions list</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista de acciones</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="527"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aquí puedes especificar una lista de &lt;i&gt;acciones&lt;/i&gt; que se ejecutarán cada vez que se abra un fichero. Encontrarás las acciones disponibles en el editor de atajos en la sección &lt;b&gt;Teclado y ratón&lt;/b&gt;. Las acciones deben separarse con espacios. Aquellas acciones que se pueden activar o desactivar pueden ir seguidas de &lt;i&gt;true&lt;/i&gt; o &lt;i&gt;false&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="528"/>
         <source>Example: </source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Ejemplo:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
         <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="unfinished"></translation>
+        <translation>Limitación: las acciones se ejecutan sólo cuando un fichero se abre, pero no cuando el proceso del mplayer es reiniciado (por ejemplo al seleccionar un filtro de audio o vídeo).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="547"/>
         <source>Network</source>
-        <translation type="unfinished"></translation>
+        <translation>Redes</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="170"/>
         <source>R&amp;un the following actions every time a file is opened. The actions must be separated with spaces:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ejec&amp;utar las siguientes acciones cada vez que se abra un fichero. Las acciones deben estar separadas por espacios:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="503"/>
         <source>&amp;Network</source>
-        <translation type="unfinished"></translation>
+        <translation>R&amp;edes</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="736"/>
         <source>N&amp;o video:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;No hay vídeo:</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="528"/>
+        <source>Example:</source>
+        <translation>Ejemplo:</translation>
     </message>
 </context>
 <context>
@@ -4383,7 +4389,7 @@ Los combos proporcionan algunas expresiones regulares ya hechas para varios idio
     <message>
         <location filename="../prefgeneral.cpp" line="809"/>
         <source>Uses hardware AC3 passthrough</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar pasarela hardware AC3</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="820"/>
