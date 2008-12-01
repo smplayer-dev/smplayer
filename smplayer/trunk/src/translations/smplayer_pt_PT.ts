@@ -1470,7 +1470,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="1195"/>
         <source>&amp;Auto zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Auto zoom</translation>
     </message>
 </context>
 <context>
@@ -3814,42 +3814,42 @@ As listas podem já conter expressões regulares para vários idiomas.</translat
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
         <source>Actions list</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista de acções</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="527"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aqui pode especificar uma lista de &lt;i&gt;acções&lt;/i&gt; que serão executadas cada vez que um ficheiro for aberto. Poderá encontrar as acções disponíveis no editor de atalhos na secção &lt;b&gt;Teclado e Rato&lt;/b&gt;. As acções têm que estar separadas por espaços e podem anteceder &lt;i&gt;true&lt;/i&gt; ou &lt;i&gt;false&lt;/i&gt; para as activar ou desactivar.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
         <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="unfinished"></translation>
+        <translation>Limitações: as acções só serão executadas quando o ficheiro for aberto e não ao reiniciar o MPlayer (ex: ao seleccionar um filtro áudio ou vídeo).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="547"/>
         <source>Network</source>
-        <translation type="unfinished"></translation>
+        <translation>Rede</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="170"/>
         <source>R&amp;un the following actions every time a file is opened. The actions must be separated with spaces:</source>
-        <translation type="unfinished"></translation>
+        <translation>Exec&amp;utar a acção seguinte de cada vez que um ficheiro for aberto. As acções devem estar separadas por espaços:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="503"/>
         <source>&amp;Network</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Repor</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="736"/>
         <source>N&amp;o video:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sem víde&amp;o:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="528"/>
         <source>Example:</source>
-        <translation type="unfinished"></translation>
+        <translation>Exemplo:</translation>
     </message>
 </context>
 <context>
@@ -4725,42 +4725,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="101"/>
         <source>one ini file</source>
-        <translation type="unfinished"></translation>
+        <translation>um ficheiro ini</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="102"/>
         <source>multiple ini files</source>
-        <translation type="unfinished"></translation>
+        <translation>múltiplos ficheiros ini</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="704"/>
         <source>Method to store the file settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Método para gravar as definições do ficheiro</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="706"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opção permite-lhe alterar a maneira como as definições do ficheiro devem ser gravadas. Estão disponíveis as seguintes opções:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="708"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;um ficheiro ini&lt;/b&gt;:as definições para todos os ficheiros reproduzidos, serão gravados num único ficheiro (%1)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="711"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
-        <translation type="unfinished"></translation>
+        <translation>O 2º método será mais rápido se existir informação sobre diversos ficheiros.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="149"/>
         <source>&amp;Store settings in</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gravar definições em</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="710"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;múltiplos ficheiros ini&lt;/b&gt;:um ficheiro ini para cada ficheiro. Estes ficheiros serão gravados na pasta %1</translation>
     </message>
 </context>
 <context>
