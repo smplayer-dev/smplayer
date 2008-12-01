@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de_DE">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -3817,42 +3818,42 @@ Die Auswahl-Liste enthält evt.schon die regulären Ausdrücke.</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
         <source>Actions list</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktionsliste</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="527"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier wird eine Liste der &lt;i&gt;Aktionen&lt;/i&gt; spezifiziert, die jedes mal ausgeführt werden, wenn eine Datei gestartet wird. Alle Aktionen stehen im Tastaturkurzbefehl Editor, im Bereich &lt;b&gt;Tastatur and Maus&lt;/b&gt;. Aktionen müssen durch Leerzeichen getrennt sein. Mit &lt;i&gt;wahr&lt;/i&gt; oder &lt;i&gt;falsch&lt;/i&gt; werden Aktionen aktiviert, oder deaktiviert.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
         <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="unfinished"></translation>
+        <translation>Einschränkung: Die Aktionen starten nur, wenn eine Datei geladen worden ist, nicht wenn der MPlayer neu gestartet wird. (z. B. Auswahl Audio-oder Video-Filter)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="547"/>
         <source>Network</source>
-        <translation type="unfinished"></translation>
+        <translation>Netzwerk</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="170"/>
         <source>R&amp;un the following actions every time a file is opened. The actions must be separated with spaces:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Immer wenn eine Datei geöffnet wird, starten folgende Aktionen. Aktionen werden per Leerzeichen von einander getrennt:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="503"/>
         <source>&amp;Network</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Netzwerk</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="736"/>
         <source>N&amp;o video:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kein Video:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="528"/>
         <source>Example:</source>
-        <translation type="unfinished"></translation>
+        <translation>Beispiel:</translation>
     </message>
 </context>
 <context>
