@@ -53,15 +53,6 @@ Preferences::~Preferences() {
 }
 
 void Preferences::reset() {
-
-	/*
-	QFileInfo fi(mplayer_bin);
-	if (fi.exists()) {
-		mplayer_bin = fi.absFilePath();
-		qDebug("mplayer_bin: '%s'", mplayer_bin.toUtf8().data());
-	}
-	*/
-
     /* *******
        General
        ******* */
@@ -1189,14 +1180,6 @@ void Preferences::load() {
 	history_urls->fromStringList( set->value("urls", history_urls->toStringList()).toStringList() );
 	history_urls->setMaxItems( set->value("urls/max_items", history_urls->maxItems()).toInt() );;
 	set->endGroup(); // history
-
-	/*
-	QFileInfo fi(mplayer_bin);
-	if (fi.exists()) {
-		mplayer_bin = fi.absFilePath();
-		qDebug("mplayer_bin: '%s'", mplayer_bin.toUtf8().data());
-	}
-	*/
 }
 
 #endif // NO_USE_INI_FILES
