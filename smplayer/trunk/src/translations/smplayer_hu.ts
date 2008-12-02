@@ -1465,7 +1465,7 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../basegui.cpp" line="1195"/>
         <source>&amp;Auto zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Auto nagyítás</translation>
     </message>
 </context>
 <context>
@@ -3807,42 +3807,42 @@ Például &lt;i&gt;^Core::.*&lt;/i&gt; esetén csak a &lt;i&gt;Core::&lt;/i&gt; 
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
         <source>Actions list</source>
-        <translation type="unfinished"></translation>
+        <translation>Művelet lista</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="527"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
-        <translation type="unfinished"></translation>
+        <translation>Itt megadhatja azon &lt;i&gt;műveletek&lt;/i&gt; listáját, amelyek minden fájl megnyitásakor végrehajtódnak. Az elérhető műveletek listáját megtalálja a gyorsgomb szerkesztő &lt;b&gt;Billentyűzet és egér&lt;/b&gt; részében. A műveleteket szóközzel kell elválasztani. A kapcsolható műveleteket követheti &lt;i&gt;true&lt;/i&gt; vagy &lt;i&gt;false&lt;/i&gt; a művelet engedélyezéshez vagy tiltáshoz.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
         <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="unfinished"></translation>
+        <translation>Korlátozás: a műveletek csak fájl megnyitásakor futnak le és nem az mplayer folyamat újraindításakor (pl. ha más hang vagy videó szűrőt választ ki).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="547"/>
         <source>Network</source>
-        <translation type="unfinished"></translation>
+        <translation>Hálózat</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="170"/>
         <source>R&amp;un the following actions every time a file is opened. The actions must be separated with spaces:</source>
-        <translation type="unfinished"></translation>
+        <translation>A következő műveletek f&amp;uttatása minden fájl megnyitásakor. A műveleteket szóközzel kell elválasztani:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="503"/>
         <source>&amp;Network</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hálózat</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="736"/>
         <source>N&amp;o video:</source>
-        <translation type="unfinished"></translation>
+        <translation>N&amp;incs videó:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="528"/>
         <source>Example:</source>
-        <translation type="unfinished"></translation>
+        <translation>Példa:</translation>
     </message>
 </context>
 <context>
@@ -4006,7 +4006,7 @@ Például &lt;i&gt;^Core::.*&lt;/i&gt; esetén csak a &lt;i&gt;Core::&lt;/i&gt; 
     <message>
         <location filename="../prefgeneral.cpp" line="772"/>
         <source>Start videos in fullscreen</source>
-        <translation>Videók indítása teljes képrenyős módban</translation>
+        <translation>Videók indítása teljes képernyős módban</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="784"/>
@@ -4692,57 +4692,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="776"/>
         <source>Add black borders on fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Fekete keret hozzáadása teljes képernyős módban</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="779"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezen opció bekapcsolásával fekete keret lesz hozzáadva a teljes képenyős képhez. Ez lehetővé teszi a feliratok megjelenítését a fekete kereten.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="500"/>
         <source>&amp;Add black borders on fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Fekete keret hozzá&amp;adása teljes képernyős módban</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="101"/>
         <source>one ini file</source>
-        <translation type="unfinished"></translation>
+        <translation>egy ini fájl</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="102"/>
         <source>multiple ini files</source>
-        <translation type="unfinished"></translation>
+        <translation>több ini fájl</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="704"/>
         <source>Method to store the file settings</source>
-        <translation type="unfinished"></translation>
+        <translation>A fájl beállítások tárolásának módja</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="706"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez az opció lehetővé teszi a fájl beállítások tárolásmódjának megváltoztatását. Lehetőségek a következők:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="708"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;egy inin fájl&lt;/b&gt;: minden lejátszott fájl beállításai egyetlen ini fájlba lesznek mentve (%1)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="711"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az utóbbi módszer gyorsabb lehet, ha sok fájlról van tárolt információ.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="149"/>
         <source>&amp;Store settings in</source>
-        <translation type="unfinished"></translation>
+        <translation>Beállítá&amp;sok tárolása </translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="710"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;több ini fájl&lt;/b&gt;: minden lejátszott fájlhoz külön ini fájl készül. Az ini fájlok a %1 könyvtárba lesznek elmentve</translation>
     </message>
 </context>
 <context>
@@ -6801,19 +6801,19 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../mediasettings.cpp" line="148"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished">Tiltva</translation>
+        <translation>tiltva</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="156"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished">Auto</translation>
+        <translation>auto</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="157"/>
         <source>unknown</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>ismeretlen</translation>
     </message>
 </context>
 <context>
