@@ -97,10 +97,10 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 			 this, SLOT(changePause()) );
 
     connect( proc, SIGNAL(processExited()),
-	         this, SLOT(processFinished()) );
+	         this, SLOT(processFinished()), Qt::QueuedConnection );
 
 	connect( proc, SIGNAL(mplayerFullyLoaded()),
-			 this, SLOT(finishRestart()) );
+			 this, SLOT(finishRestart()), Qt::QueuedConnection );
 
 	connect( proc, SIGNAL(lineAvailable(QString)),
              this, SLOT(updateLog(QString)) );
@@ -133,7 +133,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
              this, SLOT(gotAO(QString)) );
 
 	connect( proc, SIGNAL(receivedEndOfFile()),
-             this, SLOT(fileReachedEnd()) );
+             this, SLOT(fileReachedEnd()), Qt::QueuedConnection );
 
 	connect( proc, SIGNAL(receivedStartingTime(double)),
              this, SLOT(gotStartingTime(double)) );
@@ -145,9 +145,9 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
              this, SIGNAL(failedToParseMplayerVersion(QString)) );
 
 	connect( this, SIGNAL(mediaLoaded()), this, SLOT(autosaveMplayerLog()) );
-	connect( this, SIGNAL(mediaLoaded()), this, SLOT(checkIfVideoIsHD()) );
+	connect( this, SIGNAL(mediaLoaded()), this, SLOT(checkIfVideoIsHD()), Qt::QueuedConnection );
 #if DELAYED_AUDIO_SETUP_ON_STARTUP
-	connect( this, SIGNAL(mediaLoaded()), this, SLOT(initAudioTrack()) );
+	connect( this, SIGNAL(mediaLoaded()), this, SLOT(initAudioTrack()), Qt::QueuedConnection );
 #endif
 	
 	connect( this, SIGNAL(stateChanged(Core::State)), 
