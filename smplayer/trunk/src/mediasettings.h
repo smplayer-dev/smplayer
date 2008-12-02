@@ -161,7 +161,7 @@ public:
     double win_aspect();
 
 #if NEW_ASPECT_CODE
-	//! Returns the aspect as a double. Returns -1 if aspect is not valid.
+	//! Returns the aspect as a double. Returns 0 if aspect == AspectNone.
 	double aspectToNum(Aspect aspect);
 	static QString aspectToString(Aspect aspect);
 #endif
