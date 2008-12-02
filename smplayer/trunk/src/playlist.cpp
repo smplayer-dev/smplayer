@@ -90,7 +90,7 @@ Playlist::Playlist( Core *c, QWidget * parent, Qt::WindowFlags f)
 	createActions();
 	createToolbar();
 
-	connect( core, SIGNAL(mediaFinished()), this, SLOT(playNext()) );
+	connect( core, SIGNAL(mediaFinished()), this, SLOT(playNext()), Qt::QueuedConnection );
 	connect( core, SIGNAL(mediaLoaded()), this, SLOT(getMediaInfo()) );
 
 	QVBoxLayout *layout = new QVBoxLayout;
