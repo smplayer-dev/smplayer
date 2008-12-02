@@ -1538,7 +1538,7 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
         <translation>Volum: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3265"/>
+        <location filename="../core.cpp" line="3238"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
@@ -1551,16 +1551,16 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
         <location filename="../core.cpp" line="3074"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
-        <translation>dezactivat</translation>
+        <translation type="obsolete">dezactivat</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3082"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
-        <translation>automat</translation>
+        <translation type="obsolete">automat</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3084"/>
+        <location filename="../core.cpp" line="3057"/>
         <source>Aspect ratio: %1</source>
         <translation>Format imagine: %1</translation>
     </message>
@@ -6828,6 +6828,24 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../clhelp.cpp" line="121"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
         <translation>specifică directorul în care smplayer va memora fișierele sale de configurare (smplayer.ini, smplayer_files.ini...)</translation>
+    </message>
+    <message>
+        <location filename="../mediasettings.cpp" line="148"/>
+        <source>disabled</source>
+        <comment>aspect_ratio</comment>
+        <translation type="unfinished">dezactivat</translation>
+    </message>
+    <message>
+        <location filename="../mediasettings.cpp" line="156"/>
+        <source>auto</source>
+        <comment>aspect_ratio</comment>
+        <translation type="unfinished">automat</translation>
+    </message>
+    <message>
+        <location filename="../mediasettings.cpp" line="157"/>
+        <source>unknown</source>
+        <comment>aspect_ratio</comment>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
