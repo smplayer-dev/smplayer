@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de_DE">
-<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1540,7 +1539,7 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
         <translation>Lautstärke: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3265"/>
+        <location filename="../core.cpp" line="3238"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
@@ -1553,16 +1552,16 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
         <location filename="../core.cpp" line="3074"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
-        <translation>Ausgeschaltet</translation>
+        <translation type="obsolete">Ausgeschaltet</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3082"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
-        <translation>Auto</translation>
+        <translation type="obsolete">Auto</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3084"/>
+        <location filename="../core.cpp" line="3057"/>
         <source>Aspect ratio: %1</source>
         <translation>Aspect Ratio: %1</translation>
     </message>
@@ -6848,6 +6847,24 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <location filename="../clhelp.cpp" line="121"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
         <translation>Spezifiziert das Verzeichnis, wo SMPlayer die eigenen Konfigurationsdateien speichert  (smplayer.ini, smplayer_files.ini...)</translation>
+    </message>
+    <message>
+        <location filename="../mediasettings.cpp" line="148"/>
+        <source>disabled</source>
+        <comment>aspect_ratio</comment>
+        <translation type="unfinished">Ausgeschaltet</translation>
+    </message>
+    <message>
+        <location filename="../mediasettings.cpp" line="156"/>
+        <source>auto</source>
+        <comment>aspect_ratio</comment>
+        <translation type="unfinished">Auto</translation>
+    </message>
+    <message>
+        <location filename="../mediasettings.cpp" line="157"/>
+        <source>unknown</source>
+        <comment>aspect_ratio</comment>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
