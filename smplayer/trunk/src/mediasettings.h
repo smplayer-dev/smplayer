@@ -160,6 +160,11 @@ public:
     int win_height;
     double win_aspect();
 
+#if NEW_ASPECT_CODE
+	//! Returns the aspect as a double. Returns -1 if aspect is not valid.
+	double aspectToNum(Aspect aspect);
+	static QString aspectToString(Aspect aspect);
+#endif
 
 	void list();
 
