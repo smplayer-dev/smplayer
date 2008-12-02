@@ -3244,8 +3244,12 @@ void Core::resetPanscan() {
 
 void Core::autoPanscan() {
 	QSize w = mplayerwindow->videoLayer()->size();
-	if (w.width() > w.height()) {
-		double video_window_aspect = (double) w.width() / w.height();
+	//if (w.width() > w.height()) {
+		//double video_window_aspect = (double) w.width() / w.height();
+
+		double video_window_aspect = mset.aspectToNum( (MediaSettings::Aspect) mset.aspect_ratio_id);
+		if (video_window_aspect <= 0) video_window_aspect = (double) w.width() / w.height();
+
 		double screen_aspect = DesktopInfo::desktop_aspectRatio(mplayerwindow);
 		double zoom_factor;
 
@@ -3259,7 +3263,7 @@ void Core::autoPanscan() {
 		qDebug("Core::autoPanscan: zoom_factor: %f", zoom_factor);
 
 		changePanscan(zoom_factor);
-	}
+	//}
 }
 
 void Core::incPanscan() {
