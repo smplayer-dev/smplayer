@@ -596,7 +596,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1175"/>
         <source>&amp;Double speed</source>
-        <translation>2 倍の速度(&amp;D)</translation>
+        <translation>倍の速度(&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1176"/>
@@ -1223,7 +1223,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1307"/>
         <source>&amp;Toggle double size</source>
-        <translation>倍のサイズを切り替え(&amp;T)</translation>
+        <translation>倍のサイズの切り替え(&amp;T)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1236"/>
@@ -3813,42 +3813,42 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
         <source>Actions list</source>
-        <translation type="unfinished"></translation>
+        <translation>動作の一覧</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="527"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
-        <translation type="unfinished"></translation>
+        <translation>ここではファイルが開かれるごとに実行される&lt;i&gt;動作&lt;/i&gt;の一覧を指定できます。&lt;b&gt;[キーボードとマウス]&lt;/b&gt; セクションのキー ショートカット エディターですべての利用可能な動作が見つかります。動作はスペースで区切られる必要があります。チェック可能な動作は動作を有効または無効にするのに &lt;i&gt;true&lt;/i&gt; または &lt;i&gt;false&lt;/i&gt; で追従できます。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
         <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="unfinished"></translation>
+        <translation>制限: 動作はファイルが開かれたときのみで mplayer プロセスが再起動されたとき (例: オーディオまたはビデオ フィルターの選択) には実行されません。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="547"/>
         <source>Network</source>
-        <translation type="unfinished"></translation>
+        <translation>ネットワーク</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="170"/>
         <source>R&amp;un the following actions every time a file is opened. The actions must be separated with spaces:</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルが開かれるごとに以下の動作を実行します。動作はスペースで区切られる必要があります(&amp;U):</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="503"/>
         <source>&amp;Network</source>
-        <translation type="unfinished"></translation>
+        <translation>ネットワーク(&amp;N)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="736"/>
         <source>N&amp;o video:</source>
-        <translation type="unfinished"></translation>
+        <translation>ビデオがありません(&amp;O):</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="528"/>
         <source>Example:</source>
-        <translation type="unfinished"></translation>
+        <translation>例:</translation>
     </message>
 </context>
 <context>
@@ -5399,7 +5399,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="524"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option will take effect the next time you run SMPlayer.</source>
-        <translation>アプリケーションのお好みの GUI を選択します。現在 [デフォルト GUI] と [ミニ GUI] の 2 つがあります。&lt;br&gt;[&lt;b&gt;デフォルト GUI&lt;/b&gt;] はツール バーとコントロール バーのある、伝統的な GUI を供給します。[&lt;b&gt;ミニ GUI&lt;/b&gt;] は数個のボタンのあるツール バーとコントロール バーのない、よりシンプルな GUI を供給します。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; このオプションは次の SMPlayer を実行する時間に影響します。</translation>
+        <translation>アプリケーションのお好みの GUI を選択します。現在 [デフォルト GUI] と [ミニ GUI] の 2 つがあります。&lt;br&gt;[&lt;b&gt;デフォルト GUI&lt;/b&gt;] はツール バーとコントロール バーのある、伝統的な GUI を供給します。&lt;b&gt;[ミニ GUI]&lt;/b&gt; は数個のボタンのあるツール バーとコントロール バーのない、よりシンプルな GUI を供給します。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; このオプションは次の SMPlayer を実行する時間に影響します。</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="362"/>
@@ -5464,7 +5464,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="576"/>
         <source>Specifies the width of the control (as a percentage).</source>
-        <translation>コントロールの幅を指定します (パーセンテージとして)。</translation>
+        <translation>コントロールの幅を指定します (パーセンテージ)。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="578"/>
@@ -6253,7 +6253,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="409"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
-        <translation>ここでは字幕に使用される ttf フォントを選択できます。通常 %1 にたくさんの ttf フォントが見つかります</translation>
+        <translation>ここでは字幕に使用される ttf フォントを選択できます。通常 %1 でたくさんの ttf フォントが見つかります</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="487"/>
@@ -6817,19 +6817,19 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../mediasettings.cpp" line="148"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished">disabled</translation>
+        <translation>無効</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="156"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished">auto</translation>
+        <translation>自動</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="157"/>
         <source>unknown</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>不明</translation>
     </message>
 </context>
 <context>
