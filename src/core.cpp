@@ -3041,24 +3041,8 @@ void Core::changeAspectRatio( int ID ) {
 	qDebug("Core::changeAspectRatio: %d", ID);
 
 	mset.aspect_ratio_id = ID;
-    double asp = mdat.video_aspect; // Set a default
 
-	switch (ID) {
-		case MediaSettings::AspectNone: asp = 0; break;
-		case MediaSettings::Aspect43: asp = (double) 4 / 3; break;
-		case MediaSettings::Aspect169: asp = (double) 16 / 9; break;
-		case MediaSettings::Aspect149: asp = (double) 14 / 9; break;
-		case MediaSettings::Aspect1610: asp = (double) 16 / 10; break;
-		case MediaSettings::Aspect54: asp = (double) 5 / 4; break;
-		case MediaSettings::Aspect235: asp = 2.35; break;
-		case MediaSettings::Aspect11: asp = 1; break;
-
-		default : {
-			//MediaSettings::AspectAuto:
-			qDebug("Core::changeAspectRatio: mset.win_width %d, mset.win_height: %d", mset.win_width, mset.win_height);
-            asp = mset.win_aspect(); break;
-		}
-	}
+	double asp = mset.aspectToNum( (MediaSettings::Aspect) ID);
 
 	if (!pref->use_mplayer_window) {
 		mplayerwindow->setAspect( asp );
@@ -3069,18 +3053,7 @@ void Core::changeAspectRatio( int ID ) {
 		}
 	}
 
-	QString asp_name;
-	switch (mset.aspect_ratio_id) {
-		case MediaSettings::AspectNone: asp_name = tr("disabled", "aspect_ratio"); break;
-		case MediaSettings::Aspect43: asp_name = "4:3"; break;
-		case MediaSettings::Aspect169: asp_name = "16:9"; break;
-		case MediaSettings::Aspect149: asp_name = "14:9"; break;
-		case MediaSettings::Aspect1610: asp_name = "16:10"; break;
-		case MediaSettings::Aspect54: asp_name = "5:4"; break;
-		case MediaSettings::Aspect235: asp_name = "2.35:1"; break;
-		case MediaSettings::Aspect11: asp_name = "1:1"; break;
-		default: asp_name = tr("auto", "aspect_ratio");
-	}
+	QString asp_name = MediaSettings::aspectToString( (MediaSettings::Aspect) mset.aspect_ratio_id);
 	displayMessage( tr("Aspect ratio: %1").arg(asp_name) );
 }
 

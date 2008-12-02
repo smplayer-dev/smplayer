@@ -119,6 +119,48 @@ double MediaSettings::win_aspect() {
 	return (double) win_width / win_height;
 }
 
+
+#if NEW_ASPECT_CODE
+double MediaSettings::aspectToNum(Aspect aspect) {
+	double asp;
+
+	switch (aspect) {
+		case MediaSettings::AspectNone: asp = 0; break;
+		case MediaSettings::Aspect43: asp = (double) 4 / 3; break;
+		case MediaSettings::Aspect169: asp = (double) 16 / 9; break;
+		case MediaSettings::Aspect149: asp = (double) 14 / 9; break;
+		case MediaSettings::Aspect1610: asp = (double) 16 / 10; break;
+		case MediaSettings::Aspect54: asp = (double) 5 / 4; break;
+		case MediaSettings::Aspect235: asp = 2.35; break;
+		case MediaSettings::Aspect11: asp = 1; break;
+		case MediaSettings::AspectAuto: asp = win_aspect(); break;
+		default: asp = win_aspect(); 
+                 qWarning("MediaSettings::aspectToNum: invalid aspect: %d", aspect);
+	}
+
+	return asp;
+}
+
+QString MediaSettings::aspectToString(Aspect aspect) {
+	QString asp_name;
+
+	switch (aspect) {
+		case MediaSettings::AspectNone: asp_name = QObject::tr("disabled", "aspect_ratio"); break;
+		case MediaSettings::Aspect43: asp_name = "4:3"; break;
+		case MediaSettings::Aspect169: asp_name = "16:9"; break;
+		case MediaSettings::Aspect149: asp_name = "14:9"; break;
+		case MediaSettings::Aspect1610: asp_name = "16:10"; break;
+		case MediaSettings::Aspect54: asp_name = "5:4"; break;
+		case MediaSettings::Aspect235: asp_name = "2.35:1"; break;
+		case MediaSettings::Aspect11: asp_name = "1:1"; break;
+		case MediaSettings::AspectAuto: asp_name = QObject::tr("auto", "aspect_ratio"); break;
+		default: asp_name = QObject::tr("unknown", "aspect_ratio");
+	}
+
+	return asp_name;
+}
+#endif
+
 void MediaSettings::list() {
 	qDebug("MediaSettings::list");
 
