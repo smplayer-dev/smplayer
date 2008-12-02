@@ -851,6 +851,7 @@ void Core::finishRestart() {
 
 	if (!we_are_restarting) {
 		newMediaPlaying();
+		//QTimer::singleShot(1000, this, SIGNAL(mediaStartPlay())); 
 		emit mediaStartPlay();
 	} 
 

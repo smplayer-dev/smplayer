@@ -1540,7 +1540,7 @@ void BaseGui::createCore() {
              this, SLOT(displayState(Core::State)) );
 
 	connect( core, SIGNAL(mediaStartPlay()),
-             this, SLOT(enterFullscreenOnPlay()) );
+             this, SLOT(enterFullscreenOnPlay()), Qt::QueuedConnection );
 	connect( core, SIGNAL(mediaStoppedByUser()),
              this, SLOT(exitFullscreenOnStop()) );
 
@@ -1552,15 +1552,15 @@ void BaseGui::createCore() {
              this, SLOT(disableActionsOnStop()) );
 
 	connect( core, SIGNAL(mediaStartPlay()),
-             this, SLOT(newMediaLoaded()) );
+             this, SLOT(newMediaLoaded()), Qt::QueuedConnection );
 	connect( core, SIGNAL(mediaInfoChanged()),
              this, SLOT(updateMediaInfo()) );
 
 	connect( core, SIGNAL(mediaStartPlay()),
-             this, SLOT(checkPendingActionsToRun()) );
+             this, SLOT(checkPendingActionsToRun()), Qt::QueuedConnection );
 #if REPORT_OLD_MPLAYER
 	connect( core, SIGNAL(mediaStartPlay()),
-             this, SLOT(checkMplayerVersion()) );
+             this, SLOT(checkMplayerVersion()), Qt::QueuedConnection );
 #endif
 	connect( core, SIGNAL(failedToParseMplayerVersion(QString)),
              this, SLOT(askForMplayerVersion(QString)) );
