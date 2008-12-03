@@ -40,7 +40,11 @@
 
 using namespace Global;
 
+BaseGui * basegui_instance = 0;
+
 void myMessageOutput( QtMsgType type, const char *msg ) {
+	static QStringList saved_lines;
+	static QString line;
 	static QRegExp rx_log;
 
 	if (pref) {
@@ -50,36 +54,49 @@ void myMessageOutput( QtMsgType type, const char *msg ) {
 		rx_log.setPattern(".*");
 	}
 
-	QString line = "["+ QTime::currentTime().toString() + "] " + 
-                   QString::fromUtf8(msg);
+	line = QString::fromUtf8(msg);
+	if (rx_log.indexIn(line) == -1) return; // Return if it doesn't match the filter
+
+	line = "["+ QTime::currentTime().toString() + "] " + line;
 
 	switch ( type ) {
 		case QtDebugMsg:
-			if (rx_log.indexIn(line) > -1) {
-				#ifndef NO_DEBUG_ON_CONSOLE
-				fprintf( stderr, "Debug: %s\n", line.toLocal8Bit().data() );
-				#endif
-				Helper::addLog( line );
-			}
+			#ifndef NO_DEBUG_ON_CONSOLE
+			fprintf( stderr, "Debug: %s\n", line.toLocal8Bit().data() );
+			#endif
 			break;
 		case QtWarningMsg:
 			#ifndef NO_DEBUG_ON_CONSOLE
 			fprintf( stderr, "Warning: %s\n", line.toLocal8Bit().data() );
 			#endif
-			Helper::addLog( "WARNING: " + line );
+			line = "WARNING: " + line;
 			break;
 		case QtFatalMsg:
 			#ifndef NO_DEBUG_ON_CONSOLE
 			fprintf( stderr, "Fatal: %s\n", line.toLocal8Bit().data() );
 			#endif
-			Helper::addLog( "FATAL: " + line );
+			line = "FATAL: " + line;
 			abort();                    // deliberately core dump
 		case QtCriticalMsg:
 			#ifndef NO_DEBUG_ON_CONSOLE
 			fprintf( stderr, "Critical: %s\n", line.toLocal8Bit().data() );
 			#endif
-			Helper::addLog( "CRITICAL: " + line );
+			line = "CRITICAL: " + line;
 			break;
+	}
+
+	if (basegui_instance) {
+		if (!saved_lines.isEmpty()) {
+			// Send saved lines first
+			for (int n=0; n < saved_lines.count(); n++) {
+				basegui_instance->recordSmplayerLog(saved_lines[n]);
+			}
+			saved_lines.clear();
+		}
+		basegui_instance->recordSmplayerLog(line);
+	} else {
+		// GUI is not created yet, save lines for later
+		saved_lines.append(line);
 	}
 }
 
@@ -225,6 +242,7 @@ int main( int argc, char ** argv )
 		return c;
 	}
 
+	basegui_instance = smplayer->gui();
 	a.connect(smplayer->gui(), SIGNAL(quitSolicited()), &a, SLOT(quit()));
 	smplayer->start();
 
@@ -238,6 +256,7 @@ int main( int argc, char ** argv )
 
 	int r = a.exec();
 
+	basegui_instance = 0;
 	delete smplayer;
 
 	return r;
