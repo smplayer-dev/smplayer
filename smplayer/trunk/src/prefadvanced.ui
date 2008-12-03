@@ -680,113 +680,6 @@ Example: resample=44100:0:0,volnorm</string>
        </item>
       </layout>
      </widget>
-     <widget class="QWidget" name="tab3" >
-      <attribute name="title" >
-       <string>&amp;MPlayer language</string>
-      </attribute>
-      <layout class="QGridLayout" >
-       <property name="leftMargin" >
-        <number>6</number>
-       </property>
-       <property name="topMargin" >
-        <number>6</number>
-       </property>
-       <property name="rightMargin" >
-        <number>6</number>
-       </property>
-       <property name="bottomMargin" >
-        <number>6</number>
-       </property>
-       <property name="horizontalSpacing" >
-        <number>6</number>
-       </property>
-       <property name="verticalSpacing" >
-        <number>6</number>
-       </property>
-       <item row="0" column="0" colspan="2" >
-        <widget class="QLabel" name="textLabel1_4" >
-         <property name="text" >
-          <string>SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br>&lt;br>
-The drop-down lists may provide already made regular expression for several languages.</string>
-         </property>
-         <property name="alignment" >
-          <set>Qt::AlignVCenter</set>
-         </property>
-         <property name="wordWrap" >
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="0" >
-        <widget class="QLabel" name="eof_label" >
-         <property name="text" >
-          <string>&amp;End of file:</string>
-         </property>
-         <property name="wordWrap" >
-          <bool>false</bool>
-         </property>
-         <property name="buddy" >
-          <cstring>endoffile_combo</cstring>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="0" >
-        <widget class="QLabel" name="novideo_label" >
-         <property name="text" >
-          <string>N&amp;o video:</string>
-         </property>
-         <property name="wordWrap" >
-          <bool>false</bool>
-         </property>
-         <property name="buddy" >
-          <cstring>novideo_combo</cstring>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="1" >
-        <spacer>
-         <property name="orientation" >
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeType" >
-          <enum>QSizePolicy::Expanding</enum>
-         </property>
-         <property name="sizeHint" >
-          <size>
-           <width>20</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="1" column="1" >
-        <widget class="MyComboBox" name="endoffile_combo" >
-         <property name="sizePolicy" >
-          <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="editable" >
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="1" >
-        <widget class="MyComboBox" name="novideo_combo" >
-         <property name="sizePolicy" >
-          <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="editable" >
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </widget>
      <widget class="QWidget" name="tab4" >
       <attribute name="title" >
        <string>Lo&amp;gs</string>
@@ -928,8 +821,6 @@ The drop-down lists may provide already made regular expression for several lang
   <tabstop>proxy_username_edit</tabstop>
   <tabstop>proxy_password_edit</tabstop>
   <tabstop>proxy_type_combo</tabstop>
-  <tabstop>endoffile_combo</tabstop>
-  <tabstop>novideo_combo</tabstop>
   <tabstop>log_smplayer_check</tabstop>
   <tabstop>log_mplayer_check</tabstop>
   <tabstop>log_mplayer_save_check</tabstop>

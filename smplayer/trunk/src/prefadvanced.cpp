@@ -42,36 +42,12 @@ PrefAdvanced::PrefAdvanced(QWidget * parent, Qt::WindowFlags f)
 	clear_background_check->hide();
 #endif
 
-#if CHECK_VIDEO_CODEC_FOR_NO_VIDEO
-	novideo_label->hide();
-	novideo_combo->hide();
-#endif
-
 	// Monitor aspect
 	monitoraspect_combo->addItem("Auto");
 	monitoraspect_combo->addItem("4:3");
 	monitoraspect_combo->addItem("16:9");
 	monitoraspect_combo->addItem("5:4");
 	monitoraspect_combo->addItem("16:10");
-
-	// MPlayer language combos.
-    endoffile_combo->addItem( "Exiting... \\(End of file\\)" ); // English
-    endoffile_combo->addItem( "Saliendo... \\(Fin de archivo\\.\\)" ); // Spanish
-    endoffile_combo->addItem( "Beenden... \\(Dateiende erreicht\\)" ); // German
-    endoffile_combo->addItem( "Sortie... \\(Fin du fichier\\)" ); // French
-    endoffile_combo->addItem( "In uscita... \\(Fine del file\\)" ); // Italian
-    endoffile_combo->addItem( QString::fromUtf8("Wychodzę... \\(Koniec pliku\\)") ); // Polish
-    endoffile_combo->addItem( QString::fromUtf8("Выходим... \\(Конец файла\\)") ); // Russian
-
-#if !CHECK_VIDEO_CODEC_FOR_NO_VIDEO
-    novideo_combo->addItem( "Video: no video" ); // English
-    novideo_combo->addItem( QString::fromUtf8("Vídeo: no hay video") ); // Spanish
-    novideo_combo->addItem( "Video: kein Video" ); // German
-    novideo_combo->addItem( QString::fromUtf8("Vidéo : pas de vidéo") ); // French
-    novideo_combo->addItem( "Video: nessun video" ); // Italian
-    novideo_combo->addItem( "Wideo: brak obrazu" ); // Polish
-    novideo_combo->addItem( QString::fromUtf8("Видео: нет видео") ); // Russian
-#endif
 
 	retranslateStrings();
 }
@@ -130,11 +106,6 @@ void PrefAdvanced::setData(Preferences * pref) {
     setSaveMplayerLog( pref->autosave_mplayer_log );
     setMplayerLogName( pref->mplayer_log_saveto );
 
-	setEndOfFileText( pref->rx_endoffile );
-#if !CHECK_VIDEO_CODEC_FOR_NO_VIDEO
-	setNoVideoText( pref->rx_novideo );
-#endif
-
 	setUseShortNames( pref->use_short_pathnames );
 
 	// Proxy
@@ -191,11 +162,6 @@ void PrefAdvanced::getData(Preferences * pref) {
 	pref->log_filter = logFilter();
     pref->autosave_mplayer_log = saveMplayerLog();
     pref->mplayer_log_saveto = mplayerLogName();
-
-	TEST_AND_SET(pref->rx_endoffile, endOfFileText());
-#if !CHECK_VIDEO_CODEC_FOR_NO_VIDEO
-	TEST_AND_SET(pref->rx_novideo, noVideoText());
-#endif
 
 	pref->use_short_pathnames = useShortNames();
 
@@ -391,26 +357,6 @@ QString PrefAdvanced::mplayerLogName() {
     return log_mplayer_save_name->text();
 }
 
-
-// MPlayer language page
-void PrefAdvanced::setEndOfFileText(QString t) {
-	endoffile_combo->setCurrentText(t);
-}
-
-QString PrefAdvanced::endOfFileText() {
-	return endoffile_combo->currentText();
-}
-
-#if !CHECK_VIDEO_CODEC_FOR_NO_VIDEO
-void PrefAdvanced::setNoVideoText(QString t) {
-	novideo_combo->setCurrentText(t);
-}
-
-QString PrefAdvanced::noVideoText() {
-	return novideo_combo->currentText();
-}
-#endif
-
 void PrefAdvanced::setUseProxy(bool b) {
 	use_proxy_check->setChecked(b);
 }
@@ -570,16 +516,6 @@ void PrefAdvanced::createHelp() {
 
 	setWhatsThis(proxy_type_combo, tr("Type"),
 		tr("Select the proxy type to be used.") );
-
-	addSectionTitle(tr("MPlayer language"));
-
-	setWhatsThis(endoffile_combo, tr("End of file"),
-        tr("Select or type a regular expression for 'End of file'") );
-
-#if !CHECK_VIDEO_CODEC_FOR_NO_VIDEO
-	setWhatsThis(novideo_combo, tr("No video"),
-        tr("Select or type a regular expression for 'No video'") );
-#endif
 
 	addSectionTitle(tr("Logs"));
 

@@ -42,16 +42,12 @@ MplayerProcess::MplayerProcess(QObject * parent) : MyProcess(parent)
 	notified_mplayer_is_running = false;
 	last_sub_id = -1;
 	mplayer_svn = -1; // Not found yet
-
-	init_rx();
 }
 
 MplayerProcess::~MplayerProcess() {
 }
 
 bool MplayerProcess::start() {
-	init_rx(); // Update configurable regular expressions
-
 	md.reset();
 	notified_mplayer_is_running = false;
 	last_sub_id = -1;
@@ -98,8 +94,7 @@ static QRegExp rx_play("^Starting playback...");
 static QRegExp rx_connecting("^Connecting to .*");
 static QRegExp rx_resolving("^Resolving .*");
 static QRegExp rx_screenshot("^\\*\\*\\* screenshot '(.*)'");
-static QRegExp rx_endoffile("^Exiting... \\(End of file\\)");
-static QRegExp rx_endoffile2("^ID_EXIT=EOF");
+static QRegExp rx_endoffile("^Exiting... \\(End of file\\)|^ID_EXIT=EOF");
 static QRegExp rx_mkvchapters("\\[mkv\\] Chapter (\\d+) from");
 static QRegExp rx_aspect2("^Movie-Aspect is ([0-9,.]+):1");
  
@@ -128,18 +123,6 @@ static QRegExp rx_clip_comment("^ comment: (.*)", Qt::CaseInsensitive);
 static QRegExp rx_clip_software("^ software: (.*)", Qt::CaseInsensitive);
 
 static QRegExp rx_stream_title("^.* StreamTitle='(.*)';StreamUrl='(.*)';");
-
-void MplayerProcess::init_rx() {
-	qDebug("MplayerProcess::init_rx");
-
-	if (!pref->rx_endoffile.isEmpty()) 
-		rx_endoffile.setPattern(pref->rx_endoffile);
-
-#if !CHECK_VIDEO_CODEC_FOR_NO_VIDEO
-	if (!pref->rx_novideo.isEmpty()) 
-		rx_novideo.setPattern(pref->rx_novideo);
-#endif
-}
 
 
 void MplayerProcess::parseLine(QByteArray ba) {
@@ -216,7 +199,7 @@ void MplayerProcess::parseLine(QByteArray ba) {
 		else
 
 		// End of file
-		if ((rx_endoffile.indexIn(line) > -1) || (rx_endoffile2.indexIn(line) > -1)) {
+		if (rx_endoffile.indexIn(line) > -1)  {
 			qDebug("MplayerProcess::parseLine: detected end of file");
 			if (!received_end_of_file) {
 				// In case of playing VCDs or DVDs, maybe the first title
