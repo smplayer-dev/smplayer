@@ -75,6 +75,20 @@ QString LogWindow::html() {
 	return browser->toHtml();
 }
 
+void LogWindow::clear() {
+	browser->clear();
+}
+
+void LogWindow::appendText(QString text) {
+	browser->moveCursor(QTextCursor::End);
+	browser->insertPlainText(text);
+}
+
+void LogWindow::appendHtml(QString text) {
+	browser->moveCursor(QTextCursor::End);
+	browser->insertHtml(text);
+}
+
 void LogWindow::on_copyButton_clicked() {
 	browser->selectAll();
 	browser->copy();

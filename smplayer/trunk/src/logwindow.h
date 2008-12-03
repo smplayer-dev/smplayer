@@ -37,6 +37,11 @@ public:
 	void setHtml(QString text);
 	QString html();
 
+	void clear();
+
+	void appendText(QString text);
+	void appendHtml(QString text);
+
 	/* QTextEdit * editor(); */
 
 protected:
