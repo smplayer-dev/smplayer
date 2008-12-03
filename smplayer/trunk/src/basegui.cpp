@@ -1580,6 +1580,9 @@ void BaseGui::createCore() {
              this, SLOT(clearMplayerLog()) );
 	connect( core, SIGNAL(logLineAvailable(QString)),
              this, SLOT(recordMplayerLog(QString)) );
+
+	connect( core, SIGNAL(mediaLoaded()), 
+             this, SLOT(autosaveMplayerLog()) );
 }
 
 void BaseGui::createMplayerWindow() {
@@ -2374,6 +2377,25 @@ void BaseGui::recordSmplayerLog(QString line) {
 		line.append("\n");
 		smplayer_log.append(line);
 		if (smplayer_log_window->isVisible()) smplayer_log_window->appendText(line);
+	}
+}
+
+/*! 
+	Save the mplayer log to a file, so it can be used by external
+	applications.
+*/
+void BaseGui::autosaveMplayerLog() {
+	qDebug("BaseGui::autosaveMplayerLog");
+
+	if (pref->autosave_mplayer_log) {
+		if (!pref->mplayer_log_saveto.isEmpty()) {
+			QFile file( pref->mplayer_log_saveto );
+			if ( file.open( QIODevice::WriteOnly ) ) {
+				QTextStream strm( &file );
+				strm << mplayer_log;
+				file.close();
+			}
+		}
 	}
 }
 
