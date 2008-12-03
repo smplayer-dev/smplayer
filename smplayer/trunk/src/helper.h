@@ -40,13 +40,6 @@ public:
 	// Give a name for config (group name) based on dvd id
 	/* static QString dvdForPref(const QString & dvd_id, int title); */
 
-	//! Adds a line to the log
-	static void addLog(QString s);
-
-	//! Returns the log (the debugging messages)
-	static QString log();
-
-
 #ifdef Q_OS_WIN
 	static QString shortPathName(QString long_path);
 
@@ -73,9 +66,6 @@ public:
 	static QString equalizerListToString(AudioEqualizerList values);
 
 	static QStringList searchForConsecutiveFiles(const QString & initial_file);
-
-private:
-	static QString logs;
 };
 
 #endif

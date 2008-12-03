@@ -2369,6 +2369,14 @@ void BaseGui::recordMplayerLog(QString line) {
 	}
 }
 
+void BaseGui::recordSmplayerLog(QString line) {
+	if (pref->log_smplayer) {
+		line.append("\n");
+		smplayer_log.append(line);
+		if (smplayer_log_window->isVisible()) smplayer_log_window->appendText(line);
+	}
+}
+
 void BaseGui::showMplayerLog() {
     qDebug("BaseGui::showMplayerLog");
 
@@ -2383,7 +2391,7 @@ void BaseGui::showLog() {
 
 	exitFullscreenIfNeeded();
 
-	smplayer_log_window->setText( Helper::log() );
+	smplayer_log_window->setText( smplayer_log );
     smplayer_log_window->show();
 }
 

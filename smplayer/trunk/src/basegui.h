@@ -71,6 +71,9 @@ public:
 	//! Execute all the actions after the video has started to play
 	void runActionsLater(QString actions) { pending_actions_to_run = actions; };
 
+	//! Saves the line from the smplayer output
+	void recordSmplayerLog(QString line);
+
 public slots:
 	virtual void open(QString file); // Generic open, autodetect type.
     virtual void openFile();
@@ -618,6 +621,7 @@ private:
 #endif
 
 	QString mplayer_log;
+	QString smplayer_log;
 };
     
 #endif

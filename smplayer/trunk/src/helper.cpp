@@ -51,22 +51,11 @@ public:
 };
 #endif
 
-
-QString Helper::logs;
-
 /*
 QString Helper::dvdForPref(const QString & dvd_id, int title) {
 	return  QString("DVD_%1_%2").arg(dvd_id).arg(title);
 }
 */
-
-void Helper::addLog(QString s) {
-	logs += s + "\n";
-}
-
-QString Helper::log() { 
-	return logs; 
-}
 
 QString Helper::formatTime(int secs) {
 	int t = secs;
