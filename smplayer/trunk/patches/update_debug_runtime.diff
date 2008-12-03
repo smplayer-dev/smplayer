@@ -1,0 +1,370 @@
+Index: basegui.h
+===================================================================
+--- basegui.h	(revisión: 2386)
++++ basegui.h	(copia de trabajo)
+@@ -51,6 +51,7 @@
+ class PreferencesDialog;
+ class MyServer;
+ 
++class DebugControl;
+ 
+ class BaseGui : public QMainWindow
+ {
+@@ -71,6 +72,8 @@
+ 	//! Execute all the actions after the video has started to play
+ 	void runActionsLater(QString actions) { pending_actions_to_run = actions; };
+ 
++	void setDebugControl(DebugControl * dc);
++
+ public slots:
+ 	virtual void open(QString file); // Generic open, autodetect type.
+     virtual void openFile();
+@@ -239,6 +242,12 @@
+ 	//! Saves the line from the mplayer output
+ 	void recordMplayerLog(QString line);
+ 
++	//! Clears the smplayer log
++	void clearSmplayerLog();
++
++	//! Saves the line from the smplayer output
++	void recordSmplayerLog(QString line);
++
+ signals:
+ 	void frameChanged(int);
+ 	void timeChanged(QString time_ready_to_print);
+@@ -618,6 +627,8 @@
+ #endif
+ 
+ 	QString mplayer_log;
++	QString smplayer_log;
++	DebugControl * debug_control;
+ };
+     
+ #endif
+Index: debugcontrol.cpp
+===================================================================
+--- debugcontrol.cpp	(revisión: 0)
++++ debugcontrol.cpp	(revisión: 0)
+@@ -0,0 +1,75 @@
++/*  smplayer, GUI front-end for mplayer.
++    Copyright (C) 2006-2008 Ricardo Villalba <rvm@escomposlinux.org>
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++*/
++
++#include "debugcontrol.h"
++#include <QRegExp>
++#include <QTime>
++
++DebugControl::DebugControl() {
++	enabled_output = true;
++	rx_log.setPattern(".*");
++}
++
++DebugControl::~DebugControl() {
++}
++
++void DebugControl::setFilter(QString filter) {
++	rx_log.setPattern(filter);
++}
++
++QString DebugControl::filter() {
++	return rx_log.pattern();
++}
++
++void DebugControl::messageOutput( QtMsgType type, const char *msg ) {
++	if (!enabled_output) return;
++
++	QString line = "["+ QTime::currentTime().toString() + "] " + 
++                   QString::fromUtf8(msg);
++
++	switch ( type ) {
++		case QtDebugMsg:
++			if (rx_log.indexIn(line) > -1) {
++				#ifndef NO_DEBUG_ON_CONSOLE
++				fprintf( stderr, "Debug: %s\n", line.toLocal8Bit().data() );
++				#endif
++				emit lineAvailable(line);
++			}
++			break;
++		case QtWarningMsg:
++			#ifndef NO_DEBUG_ON_CONSOLE
++			fprintf( stderr, "Warning: %s\n", line.toLocal8Bit().data() );
++			#endif
++			emit lineAvailable( "WARNING: " + line );
++			break;
++		case QtFatalMsg:
++			#ifndef NO_DEBUG_ON_CONSOLE
++			fprintf( stderr, "Fatal: %s\n", line.toLocal8Bit().data() );
++			#endif
++			emit lineAvailable( "FATAL: " + line );
++			abort();                    // deliberately core dump
++		case QtCriticalMsg:
++			#ifndef NO_DEBUG_ON_CONSOLE
++			fprintf( stderr, "Critical: %s\n", line.toLocal8Bit().data() );
++			#endif
++			emit lineAvailable( "CRITICAL: " + line );
++			break;
++	}
++}
++
++#include "moc_debugcontrol.cpp"
+Index: basegui.cpp
+===================================================================
+--- basegui.cpp	(revisión: 2386)
++++ basegui.cpp	(copia de trabajo)
+@@ -71,6 +71,7 @@
+ #include "actionseditor.h"
+ 
+ #include "myserver.h"
++#include "debugcontrol.h"
+ 
+ #include "preferencesdialog.h"
+ #ifndef NO_USE_INI_FILES
+@@ -106,6 +107,7 @@
+ 	setWindowTitle( "SMPlayer" );
+ 
+ 	// Not created objects
++	debug_control = 0;
+ 	server = 0;
+ 	popup = 0;
+ 	pref_dialog = 0;
+@@ -2191,6 +2193,11 @@
+ 	}
+ #endif
+ 
++	if (debug_control) {
++		debug_control->setFilter( pref->log_filter );
++		debug_control->enableOutput( pref->log_smplayer );
++	}
++
+     // Restart the video if needed
+     if (pref_dialog->requiresRestart())
+ 		core->restart();
+@@ -2354,6 +2361,17 @@
+ 	}
+ }
+ 
++// LOGS //
++void BaseGui::setDebugControl(DebugControl *dc) {
++	debug_control = dc;
++
++	debug_control->setFilter( pref->log_filter );
++	debug_control->enableOutput( pref->log_smplayer );
++
++	connect(debug_control, SIGNAL(lineAvailable(QString)),
++            this, SLOT(recordSmplayerLog(QString)));
++}
++
+ void BaseGui::clearMplayerLog() {
+ 	mplayer_log.clear();
+ 	if (mplayer_log_window->isVisible()) mplayer_log_window->clear();
+@@ -2369,6 +2387,19 @@
+ 	}
+ }
+ 
++void BaseGui::clearSmplayerLog() {
++	smplayer_log.clear();
++	if (smplayer_log_window->isVisible()) smplayer_log_window->clear();
++}
++
++void BaseGui::recordSmplayerLog(QString line) {
++	if (pref->log_smplayer) {
++		line.append("\n");
++		smplayer_log.append(line);
++		if (smplayer_log_window->isVisible()) smplayer_log_window->appendText(line);
++	}
++}
++
+ void BaseGui::showMplayerLog() {
+     qDebug("BaseGui::showMplayerLog");
+ 
+@@ -2383,7 +2414,7 @@
+ 
+ 	exitFullscreenIfNeeded();
+ 
+-	smplayer_log_window->setText( Helper::log() );
++	smplayer_log_window->setText( smplayer_log );
+     smplayer_log_window->show();
+ }
+ 
+Index: smplayer.pro
+===================================================================
+--- smplayer.pro	(revisión: 2384)
++++ smplayer.pro	(copia de trabajo)
+@@ -93,6 +93,7 @@
+ 	findsubtitles/simplehttp.h \
+ 	findsubtitles/osparser.h \
+ 	findsubtitles/findsubtitleswindow.h \
++	debugcontrol.h \
+ 	basegui.h \
+ 	baseguiplus.h \
+ 	floatingwidget.h \
+@@ -178,6 +179,7 @@
+ 	findsubtitles/simplehttp.cpp \
+ 	findsubtitles/osparser.cpp \
+ 	findsubtitles/findsubtitleswindow.cpp \
++	debugcontrol.cpp \
+ 	basegui.cpp \
+ 	baseguiplus.cpp \
+ 	floatingwidget.cpp \
+Index: main.cpp
+===================================================================
+--- main.cpp	(revisión: 2384)
++++ main.cpp	(copia de trabajo)
+@@ -24,6 +24,7 @@
+ #include "global.h"
+ #include "helper.h"
+ #include "paths.h"
++#include "debugcontrol.h"
+ 
+ #include <stdio.h>
+ 
+@@ -40,48 +41,13 @@
+ 
+ using namespace Global;
+ 
+-void myMessageOutput( QtMsgType type, const char *msg ) {
+-	static QRegExp rx_log;
++// Debug messages //
++DebugControl debug_control;
+ 
+-	if (pref) {
+-		if (!pref->log_smplayer) return;
+-		rx_log.setPattern(pref->log_filter);
+-	} else {
+-		rx_log.setPattern(".*");
+-	}
+-
+-	QString line = "["+ QTime::currentTime().toString() + "] " + 
+-                   QString::fromUtf8(msg);
+-
+-	switch ( type ) {
+-		case QtDebugMsg:
+-			if (rx_log.indexIn(line) > -1) {
+-				#ifndef NO_DEBUG_ON_CONSOLE
+-				fprintf( stderr, "Debug: %s\n", line.toLocal8Bit().data() );
+-				#endif
+-				Helper::addLog( line );
+-			}
+-			break;
+-		case QtWarningMsg:
+-			#ifndef NO_DEBUG_ON_CONSOLE
+-			fprintf( stderr, "Warning: %s\n", line.toLocal8Bit().data() );
+-			#endif
+-			Helper::addLog( "WARNING: " + line );
+-			break;
+-		case QtFatalMsg:
+-			#ifndef NO_DEBUG_ON_CONSOLE
+-			fprintf( stderr, "Fatal: %s\n", line.toLocal8Bit().data() );
+-			#endif
+-			Helper::addLog( "FATAL: " + line );
+-			abort();                    // deliberately core dump
+-		case QtCriticalMsg:
+-			#ifndef NO_DEBUG_ON_CONSOLE
+-			fprintf( stderr, "Critical: %s\n", line.toLocal8Bit().data() );
+-			#endif
+-			Helper::addLog( "CRITICAL: " + line );
+-			break;
+-	}
++void myMessageOutput( QtMsgType type, const char *msg ) {
++	debug_control.messageOutput(type, msg);
+ }
++// Debug messages //
+ 
+ #if USE_LOCKS
+ #if USE_QXT_LOCKS
+@@ -156,6 +122,7 @@
+ 		}
+ 	}
+ 
++
+     qInstallMsgHandler( myMessageOutput );
+ 
+ #if USE_LOCKS
+@@ -213,6 +180,10 @@
+ #endif // USE_LOCKS
+ 
+ 	SMPlayer * smplayer = new SMPlayer(config_path);
++	if (pref) {
++		debug_control.enableOutput(pref->log_smplayer);
++		debug_control.setFilter(pref->log_filter);
++	}
+ 	SMPlayer::ExitCode c = smplayer->processArgs( args );
+ 	if (c != SMPlayer::NoExit) {
+ #if USE_LOCKS
+@@ -225,6 +196,7 @@
+ 		return c;
+ 	}
+ 
++	smplayer->gui()->setDebugControl(&debug_control);
+ 	a.connect(smplayer->gui(), SIGNAL(quitSolicited()), &a, SLOT(quit()));
+ 	smplayer->start();
+ 
+Index: debugcontrol.h
+===================================================================
+--- debugcontrol.h	(revisión: 0)
++++ debugcontrol.h	(revisión: 0)
+@@ -0,0 +1,50 @@
++/*  smplayer, GUI front-end for mplayer.
++    Copyright (C) 2006-2008 Ricardo Villalba <rvm@escomposlinux.org>
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
++*/
++
++#ifndef _DEBUGCONTROL_H_
++#define _DEBUGCONTROL_H_
++
++#include <QObject>
++#include <QString>
++#include <QRegExp>
++
++class DebugControl : public QObject
++{
++	Q_OBJECT
++
++public:
++	DebugControl();
++	~DebugControl();
++
++	void messageOutput( QtMsgType type, const char *msg );
++
++	void enableOutput(bool b) { enabled_output = b; };
++	bool isOuputEnabled() { return enabled_output; };
++
++	void setFilter(QString filter);
++	QString filter();
++
++signals:
++	void lineAvailable(QString line);
++
++private:
++	bool enabled_output;
++	QRegExp rx_log;
++};
++
++#endif
