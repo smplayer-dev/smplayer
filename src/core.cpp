@@ -144,7 +144,6 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	connect( proc, SIGNAL(failedToParseMplayerVersion(QString)),
              this, SIGNAL(failedToParseMplayerVersion(QString)) );
 
-	connect( this, SIGNAL(mediaLoaded()), this, SLOT(autosaveMplayerLog()) );
 	connect( this, SIGNAL(mediaLoaded()), this, SLOT(checkIfVideoIsHD()), Qt::QueuedConnection );
 #if DELAYED_AUDIO_SETUP_ON_STARTUP
 	connect( this, SIGNAL(mediaLoaded()), this, SLOT(initAudioTrack()), Qt::QueuedConnection );
@@ -3397,29 +3396,6 @@ void Core::streamTitleAndUrlChanged(QString title, QString url) {
 	mdat.stream_url = url;
 	emit mediaInfoChanged();
 }
-
-/*! 
-	Save the mplayer log to a file, so it can be used by external
-	applications.
-*/
-/*
-void Core::autosaveMplayerLog() {
-	qDebug("Core::autosaveMplayerLog");
-
-    //mplayer log autosaving
-    if (pref->autosave_mplayer_log) {
-        if (!pref->mplayer_log_saveto.isEmpty()) {
-            QFile file( pref->mplayer_log_saveto );
-            if ( file.open( QIODevice::WriteOnly ) ) {
-                QTextStream strm( &file );
-                strm << mplayer_log;
-                file.close();
-            }
-        }
-    }
-    //mplayer log autosaving end
-}
-*/
 
 //!  Called when the state changes
 void Core::watchState(Core::State state) {

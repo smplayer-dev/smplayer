@@ -242,6 +242,9 @@ protected slots:
 	//! Saves the line from the mplayer output
 	void recordMplayerLog(QString line);
 
+	//! Saves the mplayer log to a file every time a file is loaded
+	void autosaveMplayerLog();
+
 signals:
 	void frameChanged(int);
 	void timeChanged(QString time_ready_to_print);

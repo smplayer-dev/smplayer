@@ -300,7 +300,6 @@ protected slots:
 	void displayScreenshotName(QString filename);
 
 	void streamTitleAndUrlChanged(QString,QString);
-	/* void autosaveMplayerLog(); */
 	
 	void watchState(Core::State state);
 
