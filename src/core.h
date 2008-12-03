@@ -54,8 +54,6 @@ public:
     MediaData mdat;
 	MediaSettings mset;
 
-    QString mplayer_log;
-
 	//! Return the current state
 	State state() { return _state; };
 
@@ -298,13 +296,11 @@ protected slots:
     void processFinished();
 	void fileReachedEnd();
     
-	void updateLog(QString line);
-
 	void displayMessage(QString text);
 	void displayScreenshotName(QString filename);
 
 	void streamTitleAndUrlChanged(QString,QString);
-	void autosaveMplayerLog();
+	/* void autosaveMplayerLog(); */
 	
 	void watchState(Core::State state);
 
@@ -368,6 +364,9 @@ signals:
 
 	// Resend signal from mplayerprocess:
 	void failedToParseMplayerVersion(QString line_with_mplayer_version);
+
+	//! A new line from the mplayer output is available
+	void logLineAvailable(QString);
 
 protected:
     MplayerProcess * proc;

@@ -233,6 +233,12 @@ protected slots:
 	void clear_just_stopped();
 #endif
 
+	//! Clears the mplayer log
+	void clearMplayerLog();
+
+	//! Saves the line from the mplayer output
+	void recordMplayerLog(QString line);
+
 signals:
 	void frameChanged(int);
 	void timeChanged(QString time_ready_to_print);
@@ -611,6 +617,7 @@ private:
 	bool just_stopped;
 #endif
 
+	QString mplayer_log;
 };
     
 #endif
