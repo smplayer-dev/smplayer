@@ -1574,6 +1574,12 @@ void BaseGui::createCore() {
 	// Hide mplayer window
 	connect( core, SIGNAL(noVideo()),
              this, SLOT(hidePanel()) );
+
+	// Log mplayer output
+	connect( core, SIGNAL(aboutToStartPlaying()),
+             this, SLOT(clearMplayerLog()) );
+	connect( core, SIGNAL(logLineAvailable(QString)),
+             this, SLOT(recordMplayerLog(QString)) );
 }
 
 void BaseGui::createMplayerWindow() {
@@ -2348,12 +2354,27 @@ void BaseGui::newMediaLoaded() {
 	}
 }
 
+void BaseGui::clearMplayerLog() {
+	mplayer_log.clear();
+	if (mplayer_log_window->isVisible()) mplayer_log_window->clear();
+}
+
+void BaseGui::recordMplayerLog(QString line) {
+	if (pref->log_mplayer) {
+		if ( (line.indexOf("A:")==-1) && (line.indexOf("V:")==-1) ) {
+			line.append("\n");
+			mplayer_log.append(line);
+			if (mplayer_log_window->isVisible()) mplayer_log_window->appendText(line);
+		}
+	}
+}
+
 void BaseGui::showMplayerLog() {
     qDebug("BaseGui::showMplayerLog");
 
 	exitFullscreenIfNeeded();
 
-    mplayer_log_window->setText( core->mplayer_log );
+    mplayer_log_window->setText( mplayer_log );
 	mplayer_log_window->show();
 }
 
@@ -3971,7 +3992,7 @@ void BaseGui::showExitCodeFromMplayer(int exit_code) {
 		ErrorDialog d(this);
 		d.setText(tr("MPlayer has finished unexpectedly.") + " " + 
 	              tr("Exit code: %1").arg(exit_code));
-		d.setLog( core->mplayer_log );
+		d.setLog( mplayer_log );
 		d.exec();
 	} 
 }
@@ -3993,7 +4014,7 @@ void BaseGui::showErrorFromMplayer(QProcess::ProcessError e) {
 			d.setText(tr("MPlayer has crashed.") + " " + 
                       tr("See the log for more info."));
 		}
-		d.setLog( core->mplayer_log );
+		d.setLog( mplayer_log );
 		d.exec();
 	}
 }

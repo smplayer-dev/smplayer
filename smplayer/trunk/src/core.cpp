@@ -103,7 +103,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 			 this, SLOT(finishRestart()), Qt::QueuedConnection );
 
 	connect( proc, SIGNAL(lineAvailable(QString)),
-             this, SLOT(updateLog(QString)) );
+             this, SIGNAL(logLineAvailable(QString)) );
 
 	connect( proc, SIGNAL(receivedCacheMessage(QString)),
 			 this, SLOT(displayMessage(QString)) );
@@ -307,14 +307,6 @@ void Core::saveMediaInfo() {
 }
 
 #endif // NO_USE_INI_FILES
-
-void Core::updateLog(QString line) {
-	if (pref->log_mplayer) {
-		if ( (line.indexOf("A:")==-1) && (line.indexOf("V:")==-1) ) {
-			mplayer_log += line + "\n";
-		}
-	}
-}
 
 void Core::initializeMenus() {
 	qDebug("Core::initializeMenus");
@@ -1121,7 +1113,6 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 #endif
 
-	mplayer_log = "";
 	bool is_mkv = (QFileInfo(file).suffix().toLower() == "mkv");
 
 	// DVD
@@ -1961,13 +1952,14 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument("0");
 	}
 
-	//Log command
-	//mplayer_log = "Command: \n";
+	emit aboutToStartPlaying();
+
 	QString commandline = proc->arguments().join(" ");
-	mplayer_log += commandline + "\n\n";
 	qDebug("Core::startMplayer: command: '%s'", commandline.toUtf8().data());
 
-	emit aboutToStartPlaying();
+	//Log command
+	QString line_for_log = commandline + "\n";
+	emit logLineAvailable(line_for_log);
 	
 	if ( !proc->start() ) {
 	    // error handling
@@ -3410,6 +3402,7 @@ void Core::streamTitleAndUrlChanged(QString title, QString url) {
 	Save the mplayer log to a file, so it can be used by external
 	applications.
 */
+/*
 void Core::autosaveMplayerLog() {
 	qDebug("Core::autosaveMplayerLog");
 
@@ -3426,6 +3419,7 @@ void Core::autosaveMplayerLog() {
     }
     //mplayer log autosaving end
 }
+*/
 
 //!  Called when the state changes
 void Core::watchState(Core::State state) {
