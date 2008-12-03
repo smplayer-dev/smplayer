@@ -229,11 +229,6 @@ void Preferences::reset() {
 	always_clear_video_background = true;
 #endif
 
-	rx_endoffile = "Exiting... \\(End of file\\)";
-#if !CHECK_VIDEO_CODEC_FOR_NO_VIDEO
-	rx_novideo = "Video: no video";
-#endif
-
 	use_edl_files = true;
 
 	prefer_ipv4 = true;
@@ -591,11 +586,6 @@ void Preferences::save() {
 
 #if REPAINT_BACKGROUND_OPTION
 	set->setValue("always_clear_video_background", always_clear_video_background);
-#endif
-
-	set->setValue("rx_endoffile", rx_endoffile);
-#if !CHECK_VIDEO_CODEC_FOR_NO_VIDEO
-	set->setValue("rx_novideo", rx_novideo);
 #endif
 
 	set->setValue("use_edl_files", use_edl_files);
@@ -975,11 +965,6 @@ void Preferences::load() {
 
 #if REPAINT_BACKGROUND_OPTION
 	always_clear_video_background = set->value("always_clear_video_background", always_clear_video_background).toBool();
-#endif
-
-	rx_endoffile = set->value("rx_endoffile", rx_endoffile).toString();
-#if !CHECK_VIDEO_CODEC_FOR_NO_VIDEO
-	rx_novideo = set->value("rx_novideo", rx_novideo).toString();
 #endif
 
 	use_edl_files = set->value("use_edl_files", use_edl_files).toBool();

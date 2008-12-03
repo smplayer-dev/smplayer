@@ -113,15 +113,6 @@ protected:
     void setMplayerLogName(QString filter);
     QString mplayerLogName();
 
-	// MPlayer language
-	void setEndOfFileText(QString t);
-	QString endOfFileText();
-
-#if !CHECK_VIDEO_CODEC_FOR_NO_VIDEO
-	void setNoVideoText(QString t);
-	QString noVideoText();
-#endif
-
 	// Proxy
 	void setUseProxy(bool b);
 	bool useProxy();

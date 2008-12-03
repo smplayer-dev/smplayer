@@ -69,9 +69,6 @@ protected slots:
 	void processFinished(int exitCode, QProcess::ExitStatus exitStatus);
 	void gotError(QProcess::ProcessError);
 
-protected:
-	void init_rx();
-
 private:
 	bool notified_mplayer_is_running;
 	bool received_end_of_file;
