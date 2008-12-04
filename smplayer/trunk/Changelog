@@ -1,5 +1,12 @@
 [b]Version 0.6.6[/b]:
 
+(2008-12-03)
+ * Now the logs in the mplayer/smplayer log windows update in realtime.
+ * The "MPlayer language" tab in the Advanced section in preferences has
+   been removed. It's not necessary anymore, although if you've got a 
+   mplayer which prints the output texts in a non-english language you'll need
+   at least MPlayer SVN r28066.
+
 (2008-11-30)
  * New option for smplayer.ini: actions_to_run ([advanced] section).
    Specifies a list of actions (separated by spaces) which will be run every
