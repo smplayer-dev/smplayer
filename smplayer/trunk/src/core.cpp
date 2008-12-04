@@ -3234,28 +3234,39 @@ void Core::resetPanscan() {
 	changePanscan(1.0);
 }
 
+void Core::autoPanscan(double video_aspect) {
+	double screen_aspect = DesktopInfo::desktop_aspectRatio(mplayerwindow);
+	double zoom_factor;
+
+	if (video_aspect > screen_aspect)
+		zoom_factor = video_aspect / screen_aspect;
+	else
+		zoom_factor = screen_aspect / video_aspect;
+
+	qDebug("Core::autoPanscan: video_aspect: %f", video_aspect);
+	qDebug("Core::autoPanscan: screen_aspect: %f", screen_aspect);
+	qDebug("Core::autoPanscan: zoom_factor: %f", zoom_factor);
+
+	changePanscan(zoom_factor);
+}
+
 void Core::autoPanscan() {
-	QSize w = mplayerwindow->videoLayer()->size();
-	//if (w.width() > w.height()) {
-		//double video_window_aspect = (double) w.width() / w.height();
+	double video_aspect = mset.aspectToNum( (MediaSettings::Aspect) mset.aspect_ratio_id);
 
-		double video_window_aspect = mset.aspectToNum( (MediaSettings::Aspect) mset.aspect_ratio_id);
-		if (video_window_aspect <= 0) video_window_aspect = (double) w.width() / w.height();
+	if (video_aspect <= 0) {
+		QSize w = mplayerwindow->videoLayer()->size();
+		video_aspect = (double) w.width() / w.height();
+	}
 
-		double screen_aspect = DesktopInfo::desktop_aspectRatio(mplayerwindow);
-		double zoom_factor;
+	autoPanscan(video_aspect);
+}
 
-		if (video_window_aspect > screen_aspect)
-			zoom_factor = video_window_aspect / screen_aspect;
-		else
-			zoom_factor = screen_aspect / video_window_aspect;
+void Core::autoPanscanFor169() {
+	autoPanscan((double) 16 / 9);
+}
 
-		qDebug("Core::autoPanscan: video_window_aspect: %f", video_window_aspect);
-		qDebug("Core::autoPanscan: screen_aspect: %f", screen_aspect);
-		qDebug("Core::autoPanscan: zoom_factor: %f", zoom_factor);
-
-		changePanscan(zoom_factor);
-	//}
+void Core::autoPanscanFor235() {
+	autoPanscan(2.35);
 }
 
 void Core::incPanscan() {

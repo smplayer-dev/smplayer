@@ -6,6 +6,11 @@
    been removed. It's not necessary anymore, although if you've got a 
    mplayer which prints the output texts in a non-english language you'll need
    at least MPlayer SVN r28066.
+ * Added two new options: "Auto zoom for 16:9" and "Auto zoom for 2.35:1".
+   Those options zoom the image assuming the aspect ratio of the video image
+   is the one specified in the option, even if that's not the actual aspect
+   ratio. Useful for videos which include black borders (letterbox) in the 
+   image, where the normal "Auto zoom" option will fail.
 
 (2008-11-30)
  * New option for smplayer.ini: actions_to_run ([advanced] section).
