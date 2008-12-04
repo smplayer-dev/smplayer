@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="es">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1475,12 +1476,12 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="1206"/>
         <source>Auto zoom for &amp;16:9</source>
-        <translation type="unfinished"></translation>
+        <translation>Auto zoom para &amp;16:9</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1207"/>
         <source>Auto zoom for &amp;2.35:1</source>
-        <translation type="unfinished"></translation>
+        <translation>Auto zoom para &amp;2.35:1</translation>
     </message>
 </context>
 <context>
