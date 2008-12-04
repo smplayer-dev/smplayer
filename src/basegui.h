@@ -454,6 +454,8 @@ protected:
 	MyAction * decZoomAct;
 	MyAction * resetZoomAct;
 	MyAction * autoZoomAct;
+	MyAction * autoZoom169Act;
+	MyAction * autoZoom235Act;
 
 	// OSD Action Group 
 	MyActionGroup * osdGroup;

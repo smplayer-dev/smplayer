@@ -691,6 +691,12 @@ void BaseGui::createActions() {
 	autoZoomAct = new MyAction(Qt::SHIFT | Qt::Key_W, this, "auto_zoom");
 	connect( autoZoomAct, SIGNAL(triggered()), core, SLOT(autoPanscan()) );
 
+	autoZoom169Act = new MyAction(Qt::SHIFT | Qt::Key_A, this, "auto_zoom_169");
+	connect( autoZoom169Act, SIGNAL(triggered()), core, SLOT(autoPanscanFor169()) );
+
+	autoZoom235Act = new MyAction(Qt::SHIFT | Qt::Key_S, this, "auto_zoom_235");
+	connect( autoZoom235Act, SIGNAL(triggered()), core, SLOT(autoPanscanFor235()) );
+
 
 	// Actions not in menus or buttons
 	// Volume 2
@@ -1031,6 +1037,8 @@ void BaseGui::setActionsEnabled(bool b) {
 	decZoomAct->setEnabled(b);
 	resetZoomAct->setEnabled(b);
 	autoZoomAct->setEnabled(b);
+	autoZoom169Act->setEnabled(b);
+	autoZoom235Act->setEnabled(b);
 
 	// Groups
 	denoiseGroup->setActionsEnabled(b);
@@ -1102,6 +1110,8 @@ void BaseGui::enableActionsOnPlaying() {
 		decZoomAct->setEnabled(false);
 		resetZoomAct->setEnabled(false);
 		autoZoomAct->setEnabled(false);
+		autoZoom169Act->setEnabled(false);
+		autoZoom235Act->setEnabled(false);
 
 		denoiseGroup->setActionsEnabled(false);
 		sizeGroup->setActionsEnabled(false);
@@ -1193,6 +1203,8 @@ void BaseGui::retranslateStrings() {
 	incZoomAct->change( tr("Zoom &+") );
 	resetZoomAct->change( tr("&Reset") );
 	autoZoomAct->change( tr("&Auto zoom") );
+	autoZoom169Act->change( tr("Auto zoom for &16:9") );
+	autoZoom235Act->change( tr("Auto zoom for &2.35:1") );
 	moveLeftAct->change( tr("Move &left") );
 	moveRightAct->change( tr("Move &right") );
 	moveUpAct->change( tr("Move &up") );
@@ -1816,7 +1828,11 @@ void BaseGui::createMenus() {
 	// Panscan submenu
 	panscan_menu = new QMenu(this);
 	panscan_menu->addAction(resetZoomAct);
+	panscan_menu->addSeparator();
 	panscan_menu->addAction(autoZoomAct);
+	panscan_menu->addAction(autoZoom169Act);
+	panscan_menu->addAction(autoZoom235Act);
+	panscan_menu->addSeparator();
 	panscan_menu->addAction(decZoomAct);
 	panscan_menu->addAction(incZoomAct);
 	panscan_menu->addSeparator();

@@ -256,7 +256,10 @@ public slots:
 	void incPanscan();
 	void decPanscan();
 	void resetPanscan();
+	void autoPanscan(double video_aspect);
 	void autoPanscan();
+	void autoPanscanFor169();
+	void autoPanscanFor235();
 
 	void changeUseAss(bool);
 	void toggleClosedCaption(bool);
