@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1475,12 +1476,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1206"/>
         <source>Auto zoom for &amp;16:9</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоувеличение для &amp;16:9</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1207"/>
         <source>Auto zoom for &amp;2.35:1</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоувеличение для &amp;2.35:1</translation>
     </message>
 </context>
 <context>
@@ -3824,37 +3825,37 @@ The drop-down lists may provide already made regular expression for several lang
     <message>
         <location filename="../prefadvanced.cpp" line="467"/>
         <source>Actions list</source>
-        <translation type="unfinished"></translation>
+        <translation>Список действий</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="473"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
-        <translation type="unfinished"></translation>
+        <translation>Здесь вы можете определить список &lt;i&gt;actions&lt;/i&gt; - действий, которые будут выполняться каждый раз при открывании файла. Список всех возможных действий вы можете найти в разделе &lt;b&gt;Устройства ввода&lt;/b&gt; диалога настроек. Все действия должны быть разделены пробелами. Включаемые/отключаемые действия могут иметь последующий параметр &lt;i&gt;true&lt;/i&gt; или &lt;i&gt;false&lt;/i&gt; для включения или отключения действия.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="477"/>
         <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="unfinished"></translation>
+        <translation>Ограничение: действия запускаются только при открывании файла, но не при перезапуске процесса mplayer (например, выборе аудио или видео фильра).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="493"/>
         <source>Network</source>
-        <translation type="unfinished"></translation>
+        <translation>Сеть</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="170"/>
         <source>R&amp;un the following actions every time a file is opened. The actions must be separated with spaces:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Выполнять следующие действия при открывании файла. Действия должны разделяться пробелами:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="503"/>
         <source>&amp;Network</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Сеть</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="474"/>
         <source>Example:</source>
-        <translation type="unfinished"></translation>
+        <translation>Пример:</translation>
     </message>
 </context>
 <context>
@@ -6827,19 +6828,19 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../mediasettings.cpp" line="148"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished">отключено</translation>
+        <translation>отключено</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="156"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished">авто</translation>
+        <translation>авто</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="157"/>
         <source>unknown</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>неизвестно</translation>
     </message>
 </context>
 <context>
