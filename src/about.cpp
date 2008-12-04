@@ -89,17 +89,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 	translators->setText( getTranslators() );
 
 	contributions->setText(
-		/*
-		tr("Some people have helped with their contributions:") +
-		"<ul>" +
-		contr("Charles Barcza &lt;kbarcza@blackpanther.hu&gt;", tr("SMPlayer logo")) +
-		contr("Florin Braghis &lt;florin@libertv.ro&gt;", tr("file associations for Windows")) +
-		contr("Matvey Kozhev &lt;sikon@lucidfox.org&gt;", tr("manpage for linux")) +
-		contr("profoX", tr("support for colored console output")) + 
-		contr("redxii", tr("icon for file associations")) +
-		contr("LoRd_MuldeR", tr("patch for file associations")) +
-		"</ul>"
-		*/
+        tr("SMPlayer logo by %1").arg("Charles Barcza &lt;kbarcza@blackpanther.hu&gt;") + "<br><br>" +
 		tr("The following people have contributed with patches "
 		   "(see the changelog for details):") +
 		"<pre>" +
