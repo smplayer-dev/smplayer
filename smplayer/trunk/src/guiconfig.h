@@ -53,11 +53,6 @@
 #define ALLOW_CHANGE_STYLESHEET 1
 
 
-// Another new code to resize the main window, much simpler
-
-#define SIMPLE_RESIZE_CODE 1
-
-
 // Allow to use multiple shortcuts for actions
 
 #define USE_MULTIPLE_SHORTCUTS 1
