@@ -13,177 +13,142 @@
         <translation>Це вільне програмне забезпечення; Ви можете поширювати його і/чи модифікувати, керуючись 2 чи (на Ваш розсуд) пізнішою версією GNU General Public License, виданою Free Software Foundation.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="93"/>
-        <source>Some people have helped with their contributions:</source>
-        <translation type="obsolete">Деякі люди, які внесли свій вклад:</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="94"/>
-        <source>SMPlayer logo</source>
-        <translation type="obsolete">Логотип SMPlayer</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="95"/>
-        <source>file associations for Windows</source>
-        <translation type="obsolete">асоціації файлу для Windows</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="96"/>
-        <source>manpage for linux</source>
-        <translation type="obsolete">manpage для linux</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="97"/>
-        <source>support for colored console output</source>
-        <translation type="obsolete">підтримка кольорового виведення в консоль</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="98"/>
-        <source>icon for file associations</source>
-        <translation type="obsolete">піктограма для асоціації файлу</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="99"/>
-        <source>patch for file associations</source>
-        <translation type="obsolete">латка до асоціації файлу</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="157"/>
+        <location filename="../about.cpp" line="147"/>
         <source>The following people have contributed with translations:</source>
         <translation>Ці люди внесли вклад в переклади:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="158"/>
+        <location filename="../about.cpp" line="148"/>
         <source>German</source>
         <translation>Німецька</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="159"/>
+        <location filename="../about.cpp" line="149"/>
         <source>Slovak</source>
         <translation>Словацька</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="160"/>
+        <location filename="../about.cpp" line="150"/>
         <source>Italian</source>
         <translation>Італійська</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="161"/>
+        <location filename="../about.cpp" line="151"/>
         <source>French</source>
         <translation>Французька</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="175"/>
+        <location filename="../about.cpp" line="165"/>
         <source>%1, %2 and %3</source>
         <translation>%1, %2 та %3</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="165"/>
+        <location filename="../about.cpp" line="155"/>
         <source>Simplified-Chinese</source>
         <translation>Спрощена китайська</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="166"/>
+        <location filename="../about.cpp" line="156"/>
         <source>Russian</source>
         <translation>Російська</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="191"/>
+        <location filename="../about.cpp" line="181"/>
         <source>%1 and %2</source>
         <translation>%1 та %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="167"/>
+        <location filename="../about.cpp" line="157"/>
         <source>Hungarian</source>
         <translation>Угорська</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="170"/>
+        <location filename="../about.cpp" line="160"/>
         <source>Polish</source>
         <translation>Польська</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="173"/>
+        <location filename="../about.cpp" line="163"/>
         <source>Japanese</source>
         <translation>Японська</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="174"/>
+        <location filename="../about.cpp" line="164"/>
         <source>Dutch</source>
         <translation>Голландська</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="178"/>
+        <location filename="../about.cpp" line="168"/>
         <source>Ukrainian</source>
         <translation>Українська</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="181"/>
+        <location filename="../about.cpp" line="171"/>
         <source>Portuguese - Brazil</source>
         <translation>Португальська (Бразилія)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="182"/>
+        <location filename="../about.cpp" line="172"/>
         <source>Georgian</source>
         <translation>Грузинська</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="183"/>
+        <location filename="../about.cpp" line="173"/>
         <source>Czech</source>
         <translation>Чеська</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="184"/>
+        <location filename="../about.cpp" line="174"/>
         <source>Bulgarian</source>
         <translation>Болгарська</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="185"/>
+        <location filename="../about.cpp" line="175"/>
         <source>Turkish</source>
         <translation>Турецька</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="186"/>
+        <location filename="../about.cpp" line="176"/>
         <source>Swedish</source>
         <translation>Шведська</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="187"/>
+        <location filename="../about.cpp" line="177"/>
         <source>Serbian</source>
         <translation>Сербська</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="188"/>
+        <location filename="../about.cpp" line="178"/>
         <source>Traditional Chinese</source>
         <translation>Традиційна Китайська</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="189"/>
+        <location filename="../about.cpp" line="179"/>
         <source>Romanian</source>
         <translation>Румунська</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="190"/>
+        <location filename="../about.cpp" line="180"/>
         <source>Portuguese - Portugal</source>
         <translation>Португальська (Португалія)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="193"/>
+        <location filename="../about.cpp" line="183"/>
         <source>Greek</source>
         <translation>Грецька</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="194"/>
+        <location filename="../about.cpp" line="184"/>
         <source>Finnish</source>
         <translation>Фінська</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="208"/>
+        <location filename="../about.cpp" line="198"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="217"/>
+        <location filename="../about.cpp" line="207"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -238,17 +203,17 @@
         <translation>Більше інформації</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="195"/>
+        <location filename="../about.cpp" line="185"/>
         <source>Korean</source>
         <translation>Корейська</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="196"/>
+        <location filename="../about.cpp" line="186"/>
         <source>Macedonian</source>
         <translation>Македонська</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="197"/>
+        <location filename="../about.cpp" line="187"/>
         <source>Basque</source>
         <translation>Баскська</translation>
     </message>
@@ -258,7 +223,7 @@
         <translation>Використовується MPlayer %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="198"/>
+        <location filename="../about.cpp" line="188"/>
         <source>Catalan</source>
         <translation>Каталонська</translation>
     </message>
@@ -273,34 +238,39 @@
         <translation>Використовується Qt %1 (зібрано з Qt %2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="199"/>
+        <location filename="../about.cpp" line="189"/>
         <source>Slovenian</source>
         <translation>Словенська</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="200"/>
+        <location filename="../about.cpp" line="190"/>
         <source>Arabic</source>
         <translation>Арабська</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="201"/>
+        <location filename="../about.cpp" line="191"/>
         <source>Kurdish</source>
         <translation>Курдська</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="202"/>
+        <location filename="../about.cpp" line="192"/>
         <source>Galician</source>
         <translation>Галисійська</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="105"/>
+        <location filename="../about.cpp" line="95"/>
         <source>The following people have contributed with patches (see the changelog for details):</source>
         <translation>Наступні люди внесли вклад латками (дивіться changelog для подробиць):</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="122"/>
+        <location filename="../about.cpp" line="112"/>
         <source>If there&apos;s any omission, please report.</source>
         <translation>Якщо є якісь заперечення, будь ласка, звітуйте.</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="92"/>
+        <source>SMPlayer logo by %1</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1465,12 +1435,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1206"/>
         <source>Auto zoom for &amp;16:9</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматичний масштаб для &amp;16:9</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1207"/>
         <source>Auto zoom for &amp;2.35:1</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматичний масштаб для &amp;2.35:1</translation>
     </message>
 </context>
 <context>
@@ -1509,59 +1479,47 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2263"/>
+        <location filename="../core.cpp" line="2266"/>
         <source>Brightness: %1</source>
         <translation>Яскравість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2278"/>
+        <location filename="../core.cpp" line="2281"/>
         <source>Contrast: %1</source>
         <translation>Контрасність: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2292"/>
+        <location filename="../core.cpp" line="2295"/>
         <source>Gamma: %1</source>
         <translation>Гама: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2306"/>
+        <location filename="../core.cpp" line="2309"/>
         <source>Hue: %1</source>
         <translation>Колір: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2320"/>
+        <location filename="../core.cpp" line="2323"/>
         <source>Saturation: %1</source>
         <translation>Насиченість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2440"/>
+        <location filename="../core.cpp" line="2443"/>
         <source>Volume: %1</source>
         <translation>Гучність: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3230"/>
+        <location filename="../core.cpp" line="3233"/>
         <source>Zoom: %1</source>
         <translation>Масштаб: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2557"/>
+        <location filename="../core.cpp" line="2560"/>
         <source>Font scale: %1</source>
         <translation>Масштаб шрифта: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3074"/>
-        <source>disabled</source>
-        <comment>aspect_ratio</comment>
-        <translation type="obsolete">вимкнено</translation>
-    </message>
-    <message>
-        <location filename="../core.cpp" line="3082"/>
-        <source>auto</source>
-        <comment>aspect_ratio</comment>
-        <translation type="obsolete">автоматично</translation>
-    </message>
-    <message>
-        <location filename="../core.cpp" line="3049"/>
+        <location filename="../core.cpp" line="3052"/>
         <source>Aspect ratio: %1</source>
         <translation>Співвідношення сторін: %1</translation>
     </message>
@@ -1915,29 +1873,6 @@ Please check the permissions of that folder.</source>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="398"/>
         <source>Temporary file %1</source>
         <translation>Тимчасовий файл %1</translation>
-    </message>
-</context>
-<context>
-    <name>Gui</name>
-    <message>
-        <location filename="../testcorelib/test.cpp" line="41"/>
-        <source>&amp;Close</source>
-        <translation type="obsolete">&amp;Закрити</translation>
-    </message>
-    <message>
-        <location filename="../testcorelib/test.cpp" line="44"/>
-        <source>&amp;Open</source>
-        <translation type="obsolete">&amp;Відкрити</translation>
-    </message>
-    <message>
-        <location filename="../testcorelib/test.cpp" line="53"/>
-        <source>&amp;Stop</source>
-        <translation type="obsolete">&amp;Зупинити</translation>
-    </message>
-    <message>
-        <location filename="../testcorelib/test.cpp" line="57"/>
-        <source>&amp;Play</source>
-        <translation type="obsolete">Від&amp;творити</translation>
     </message>
 </context>
 <context>
@@ -3384,18 +3319,6 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>Ці опції, головним чином, потрібні щоб відлагодити програму.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="685"/>
-        <source>&amp;MPlayer language</source>
-        <translation type="obsolete">Мова &amp;MPlayer</translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.ui" line="709"/>
-        <source>SMPlayer needs to read and parse the output of MPlayer and sometimes it relies on English text. If you are using a MPlayer translated into another language, then you need to change the texts that SMPlayer looks for. (Technically you should enter regular expressions)&lt;br&gt;&lt;br&gt;
-The drop-down lists may provide already made regular expression for several languages.</source>
-        <translation type="obsolete">SMPlayer повинен зчитати та розібрати вивід MPlayer, який як правило англійською мовою. Якщо MPlayer перекладений іншою мовою, Ви повинні змінити відображення тексту для SMPlayer. (Технічно Ви повинні вказати регулярний вираз)&lt;br&gt;&lt;br&gt;
-Випадаючі списки можуть надавати готові регулярні вирази для різних мов.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="457"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
         <translation>Ця опція може зменшити мерехтіння, але може призвести до того, що зображення не буде показане як слід.</translation>
@@ -3444,16 +3367,6 @@ The drop-down lists may provide already made regular expression for several lang
         <location filename="../prefadvanced.ui" line="763"/>
         <source>&amp;Filter for SMPlayer logs:</source>
         <translation>&amp;Фільтр для звітів SMPlayer:</translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.ui" line="723"/>
-        <source>&amp;End of file:</source>
-        <translation type="obsolete">&amp;Кінець файлу:</translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.ui" line="700"/>
-        <source>&amp;No video:</source>
-        <translation type="obsolete">&amp;Немає зображення:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="239"/>
@@ -3581,31 +3494,6 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Тут Ви можете додати фільтри звуку для MPlayer. Записуються через коми. Не використовуйте пробіли!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="574"/>
-        <source>MPlayer language</source>
-        <translation type="obsolete">Мова MPlayer</translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.cpp" line="576"/>
-        <source>End of file</source>
-        <translation type="obsolete">Кінець файлу</translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.cpp" line="577"/>
-        <source>Select or type a regular expression for &apos;End of file&apos;</source>
-        <translation type="obsolete">Виберіть або введіть регулярний вираз для &apos;Кінець файлу&apos;</translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.cpp" line="580"/>
-        <source>No video</source>
-        <translation type="obsolete">Немає зображення</translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.cpp" line="581"/>
-        <source>Select or type a regular expression for &apos;No video&apos;</source>
-        <translation type="obsolete">Виберіть або введіть регулярний вираз для &apos;Немає зображення</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="455"/>
         <source>Repaint the background of the video window</source>
         <translation>Перемалювати тло вікна із зображенням</translation>
@@ -3696,11 +3584,6 @@ The drop-down lists may provide already made regular expression for several lang
         <translation>Перемикає MPlayer в експериментальний режим, в якому мітки часу для відеокадрів обчислюються інакше і підтримуються фільтри відео, що додають нові кадри або змінюють мітки часу існуючих. Більш точні мітки можна побачити, наприклад, коли відтворювані субтитри синхронізовані зі змінами сцен, з увімкненою бібліотекою SSA/ASS. Без корегування pts синхронізація субтитрів буде порушена для деяких кадрів. Ця опція не працюватиме вірно з деякими демультиплексорами та кодеками.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="176"/>
-        <source>C&amp;orrect pts</source>
-        <translation type="obsolete">&amp;Корегувати pts</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="547"/>
         <source>Proxy</source>
         <translation>Проксі</translation>
@@ -3754,11 +3637,6 @@ The drop-down lists may provide already made regular expression for several lang
         <location filename="../prefadvanced.cpp" line="515"/>
         <source>The password for the proxy. Warning: the password will be saved as plain text in the configuration file.</source>
         <translation>Пароль для проксі. Застереження: пароль буде збережений як звичайний текст в файлі налаштувань.</translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.ui" line="514"/>
-        <source>Pro&amp;xy</source>
-        <translation type="obsolete">&amp;Проксі</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="553"/>
@@ -3849,11 +3727,6 @@ The drop-down lists may provide already made regular expression for several lang
         <location filename="../prefadvanced.ui" line="503"/>
         <source>&amp;Network</source>
         <translation>&amp;Мережа</translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.ui" line="736"/>
-        <source>N&amp;o video:</source>
-        <translation type="obsolete">&amp;Немає зображення:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="474"/>
@@ -4511,11 +4384,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>повільно</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="249"/>
-        <source>fastest</source>
-        <translation type="obsolete">найшвидше</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="290"/>
         <source>fast - ATI cards</source>
         <translation>швидко - карти ATI</translation>
@@ -4619,16 +4487,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.cpp" line="788"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>Встановіть цю опцію, щоб вимкнути зберігач екрану під час відтворення.&lt;br&gt;Зберігач екрану увімкнеться знову, коли відтворення завершиться.</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="779"/>
-        <source>If this option is checked the initial volume will be set by using the &lt;i&gt;-volume&lt;/i&gt; option in MPlayer.</source>
-        <translation type="obsolete">Якщо ця опція увімкнена, початкова гучність буде встановлена опцією &lt;i&gt;-volume&lt;/i&gt; в MPlayer.</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="784"/>
-        <source>WARNING: THE OFFICIAL MPLAYER DOESN&apos;T HAVE THAT &lt;i&gt;-volume&lt;/i&gt; OPTION, YOU NEED A PATCHED ONE, OTHERWISE MPLAYER WILL FAIL AND WON&apos;T PLAY ANYTHING.</source>
-        <translation type="obsolete">ЗАСТЕРЕЖЕННЯ: ОФІЦІЙНИЙ MPLAYER НЕ МАЄ ОПЦІЇ &lt;i&gt;-volume&lt;/i&gt;, ВІМ ПОТРІБЕН З ЛАТКОЮ, ІНАКШЕ MPLAYER НЕ ЗАПУСТИТЬСЯ І НЕ ГРАТИМЕ НІЧОГО.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="864"/>
@@ -5347,11 +5205,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Графічний інтерфейс</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="382"/>
-        <source>(this option requires to restart SMPlayer)</source>
-        <translation type="obsolete">(це опція потребує перезапуску SMPlayer)</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="557"/>
         <source>Automatic port</source>
         <translation>Автоматичний порт</translation>
@@ -5896,11 +5749,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Низ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="418"/>
-        <source>&amp;Font</source>
-        <translation type="obsolete">&amp;Шрифти</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="827"/>
         <source>Font</source>
         <translation>Шрифт</translation>
@@ -5936,16 +5784,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Пропорційно до діагоналі кліпу</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="711"/>
-        <source>The new SSA/ASS library will provide nice styled subtitles for external SSA/ASS subtitles files and Matroska tracks. But it will be used too for rendering other formats like SUB and SRT files.</source>
-        <translation type="obsolete">Нова бібліотека SSA/ASS забезпечує хорошу стилізацію субтитрів для зовнішніх файлів субтитрів SSA/ASS та доріжок Matroska. Але це також буде використовуватись для відтворення файлів інших форматів, таких як SUB та SRT.</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="806"/>
-        <source>Here you can override styles for SSA/ASS subtitles. It can be also used for fine-tuning the rendering of SRT and SUB subtitles by the SSA/ASS library. Example: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</source>
-        <translation type="obsolete">Тут Ви можете вказати стилі для субтитрів SSA/ASS. Також може використовуватися для точного налаштування відтворення субтитрів SRT і SUB бібліотекою SSA/ASS. Приклад: &lt;b&gt; Bold=1, Outline=2, Shadow=4 &lt;/b&gt;</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="432"/>
         <source>Subtitle position</source>
         <translation>Позиція субтитрів</translation>
@@ -5954,11 +5792,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="435"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
         <translation>Ця опція вказує позицію субтитрів на вікні відео. &lt;i&gt;100&lt;/i&gt; задає в самому низу, тоді як &lt;i&gt;0&lt;/i&gt; задає самий верх.</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="472"/>
-        <source>SSA/ASS styles</source>
-        <translation type="obsolete">Стилі SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="68"/>
@@ -5999,61 +5832,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="469"/>
         <source>A&amp;utoscale:</source>
         <translation>Авто&amp;масштабування:</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="721"/>
-        <source>&amp;Use SSA/ASS library for subtitle rendering</source>
-        <translation type="obsolete">Використовувати бібліотеку SSA/ASS для &amp;відтворення субтитрів</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="738"/>
-        <source>&amp;Text color:</source>
-        <translation type="obsolete">Колір &amp;тексту:</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="771"/>
-        <source>&amp;Border color:</source>
-        <translation type="obsolete">Колір &amp;краю:</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="833"/>
-        <source>St&amp;yles:</source>
-        <translation type="obsolete">Сти&amp;лі:</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="438"/>
-        <source>Default scale for normal subtitles</source>
-        <translation type="obsolete">Масштаб за умовчанням для звичайних субтитрів</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="440"/>
-        <source>This option specifies the default font scale for normal (white) subtitles which will be used for new videos.</source>
-        <translation type="obsolete">Ця опція вказує масштаб за умовчанням для звичайних (білих) субтитрів, які будуть використовуватись для нових відео.</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="442"/>
-        <source>Default scale for SSA/ASS subtitles</source>
-        <translation type="obsolete">Масштаб за умовчанням для субтитрів SSA/ASS</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="444"/>
-        <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new videos.</source>
-        <translation type="obsolete">Ця опція вказує масштаб за умовчанням для субтитрів SSA/ASS, які будуть використовуватись для нових відео.</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="675"/>
-        <source>Default s&amp;cale for normal subtitles:</source>
-        <translation type="obsolete">Масштаб за умовчанням для &amp;звичайних субтитрів:</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="662"/>
-        <source>Default sc&amp;ale for SSA/ASS subtitles:</source>
-        <translation type="obsolete">Масштаб за умовчанням для субтитрів &amp;SSA/ASS:</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="705"/>
-        <source>SSA/ASS &amp;library</source>
-        <translation type="obsolete">SSA/ASS &amp;бібліотека</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="360"/>
@@ -6109,21 +5887,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="421"/>
         <source>Select the subtitle autoscaling method.</source>
         <translation>Виберіть метод автомасштабування субтитрів.</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="447"/>
-        <source>SSA/ASS library</source>
-        <translation type="obsolete">Бібліотека SSA/ASS</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="449"/>
-        <source>Use SSA/ASS library for subtitle rendering</source>
-        <translation type="obsolete">Використовувати бібліотеку SSA/ASS для відтворення субтитрів</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="451"/>
-        <source>Check this option to activate the SSA/ASS library. It provides nicer subtitles, so it&apos;s a good idea to do it.</source>
-        <translation type="obsolete">Ця опція активує бібліотеку SSA/ASS. Це забезпечує гарніші субтитри, тому увімкнути це є гарною думкою.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="460"/>
@@ -6603,11 +6366,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../clhelp.cpp" line="160"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>якщо вже працює інший процес, медіа будуть додані до списку відтворення. Якщо не буде ніякого іншого процесу, ця опція нехтується та файли відкриються в новому екземплярі.</translation>
-    </message>
-    <message>
-        <location filename="../clhelp.cpp" line="121"/>
-        <source>specifies the directory for the configuration file (smplayer.ini).</source>
-        <translation type="obsolete">вказує каналог розміщення файлу конфігурації (smplayer.ini).</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="142"/>
