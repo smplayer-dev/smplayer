@@ -1475,12 +1475,12 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="1206"/>
         <source>Auto zoom for &amp;16:9</source>
-        <translation type="unfinished"></translation>
+        <translation>Auto zoom para &amp;16:9</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1207"/>
         <source>Auto zoom for &amp;2.35:1</source>
-        <translation type="unfinished"></translation>
+        <translation>Auto zoom para&amp;2.35:1</translation>
     </message>
 </context>
 <context>
@@ -6831,19 +6831,19 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../mediasettings.cpp" line="148"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished">desactivado</translation>
+        <translation>desactivado</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="156"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished">auto</translation>
+        <translation>auto</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="157"/>
         <source>unknown</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>desconhecido</translation>
     </message>
 </context>
 <context>
