@@ -119,6 +119,9 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 
 	connect( proc, SIGNAL(receivedScreenshot(QString)),
              this, SLOT(displayScreenshotName(QString)) );
+
+	connect( proc, SIGNAL(receivedAssInit()),
+             this, SLOT(displayAssInitInfo()) );
 	
 	connect( proc, SIGNAL(receivedWindowResolution(int,int)),
              this, SLOT(gotWindowResolution(int,int)) );
@@ -3345,6 +3348,10 @@ void Core::displayScreenshotName(QString filename) {
 	emit showMessage(text);
 }
 
+void Core::displayAssInitInfo() {
+	qDebug("Core::displayAssInitInfo");
+	emit showMessage( /*tr(*/ "Initialization of the SSA/ASS library."/*)*/ );
+}
 
 void Core::gotWindowResolution(int w, int h) {
 	qDebug("Core::gotWindowResolution: %d, %d", w, h);
