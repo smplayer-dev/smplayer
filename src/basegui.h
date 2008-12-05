@@ -227,10 +227,6 @@ protected slots:
 	virtual void changeStyleSheet(QString style);
 #endif
 
-#if !SIMPLE_RESIZE_CODE
-	void calculateDiff(); //!< Updates diff_size
-#endif
-
 #ifdef Q_OS_WIN
 	/* Disable screensaver by event */
 	void clear_just_stopped();
@@ -615,10 +611,6 @@ private:
 	QPoint win_pos;
 	QSize win_size;
 	bool was_maximized;
-
-#if !SIMPLE_RESIZE_CODE
-	QSize diff_size;	//!< Main window size - panel size
-#endif
 
 #ifdef Q_OS_WIN
 	/* Disable screensaver by event */
