@@ -44,7 +44,8 @@ BaseGui * basegui_instance = 0;
 
 void myMessageOutput( QtMsgType type, const char *msg ) {
 	static QStringList saved_lines;
-	static QString line;
+	static QString orig_line;
+	static QString line2;
 	static QRegExp rx_log;
 
 	if (pref) {
@@ -54,36 +55,42 @@ void myMessageOutput( QtMsgType type, const char *msg ) {
 		rx_log.setPattern(".*");
 	}
 
-	line = QString::fromUtf8(msg);
-	if (rx_log.indexIn(line) == -1) return; // Return if it doesn't match the filter
+	line2.clear();
 
-	line = "["+ QTime::currentTime().toString() + "] " + line;
+	orig_line = QString::fromUtf8(msg);
 
 	switch ( type ) {
 		case QtDebugMsg:
 			#ifndef NO_DEBUG_ON_CONSOLE
-			fprintf( stderr, "Debug: %s\n", line.toLocal8Bit().data() );
+			if (rx_log.indexIn(orig_line) > -1) {
+				fprintf( stderr, "Debug: %s\n", orig_line.toLocal8Bit().data() );
+				line2 = orig_line;
+			}
 			#endif
 			break;
 		case QtWarningMsg:
 			#ifndef NO_DEBUG_ON_CONSOLE
-			fprintf( stderr, "Warning: %s\n", line.toLocal8Bit().data() );
+			fprintf( stderr, "Warning: %s\n", orig_line.toLocal8Bit().data() );
 			#endif
-			line = "WARNING: " + line;
+			line2 = "WARNING: " + orig_line;
 			break;
 		case QtFatalMsg:
 			#ifndef NO_DEBUG_ON_CONSOLE
-			fprintf( stderr, "Fatal: %s\n", line.toLocal8Bit().data() );
+			fprintf( stderr, "Fatal: %s\n", orig_line.toLocal8Bit().data() );
 			#endif
-			line = "FATAL: " + line;
+			line2 = "FATAL: " + orig_line;
 			abort();                    // deliberately core dump
 		case QtCriticalMsg:
 			#ifndef NO_DEBUG_ON_CONSOLE
-			fprintf( stderr, "Critical: %s\n", line.toLocal8Bit().data() );
+			fprintf( stderr, "Critical: %s\n", orig_line.toLocal8Bit().data() );
 			#endif
-			line = "CRITICAL: " + line;
+			line2 = "CRITICAL: " + orig_line;
 			break;
 	}
+
+	if (line2.isEmpty()) return;
+
+	line2 = "["+ QTime::currentTime().toString() +"] "+ line2;
 
 	if (basegui_instance) {
 		if (!saved_lines.isEmpty()) {
@@ -93,10 +100,10 @@ void myMessageOutput( QtMsgType type, const char *msg ) {
 			}
 			saved_lines.clear();
 		}
-		basegui_instance->recordSmplayerLog(line);
+		basegui_instance->recordSmplayerLog(line2);
 	} else {
 		// GUI is not created yet, save lines for later
-		saved_lines.append(line);
+		saved_lines.append(line2);
 	}
 }
 
