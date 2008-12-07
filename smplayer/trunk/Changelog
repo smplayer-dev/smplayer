@@ -1,5 +1,10 @@
 [b]Version 0.6.6[/b]:
 
+(2008-12-06)
+ * Bug #2399200: the downloaded subtitle filename was wrong if the video 
+   filename contained a dot in the name (example: video.hdtv.avi created a 
+   video_es.srt file instead of video.hdtv_es.avi). This is now fixed.
+
 (2008-12-03)
  * Now the logs in the mplayer/smplayer log windows update in realtime.
  * The "MPlayer language" tab in the Advanced section in preferences has
