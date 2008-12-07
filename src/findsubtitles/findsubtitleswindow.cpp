@@ -406,7 +406,7 @@ void FindSubtitlesWindow::archiveDownloaded(const QByteArray & buffer) {
 		}
 
 		QFileInfo fi(file_chooser->text());
-		QString output_name = fi.baseName() +"_"+ lang +"." + extension;
+		QString output_name = fi.completeBaseName() +"_"+ lang +"." + extension;
 
 		if (!uncompressZip(filename, fi.absolutePath(), output_name)) {
 			status->setText(tr("Download failed"));
