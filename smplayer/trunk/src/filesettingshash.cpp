@@ -91,7 +91,7 @@ void FileSettingsHash::saveSettingsFor(QString filename, MediaSettings & mset) {
 
 		QSettings settings(config_file, QSettings::IniFormat);
 
-		settings.setValue("filename", filename);
+		/* settings.setValue("filename", filename); */
 
 		settings.beginGroup("file_settings");
 		mset.save(&settings);
