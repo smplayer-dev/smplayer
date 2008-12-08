@@ -59,7 +59,7 @@ signals:
 	void receivedConnectingToMessage(QString);
 	void receivedResolvingMessage(QString);
 	void receivedScreenshot(QString);
-	void receivedAssInit();
+	void receivedUpdatingFontCache();
 
 	void receivedStreamTitleAndUrl(QString,QString);
 
