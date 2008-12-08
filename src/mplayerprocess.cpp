@@ -97,7 +97,7 @@ static QRegExp rx_screenshot("^\\*\\*\\* screenshot '(.*)'");
 static QRegExp rx_endoffile("^Exiting... \\(End of file\\)|^ID_EXIT=EOF");
 static QRegExp rx_mkvchapters("\\[mkv\\] Chapter (\\d+) from");
 static QRegExp rx_aspect2("^Movie-Aspect is ([0-9,.]+):1");
-static QRegExp rx_fontcache("^\\[ass\\] Updating font cache");
+static QRegExp rx_fontcache("^\\[ass\\] Updating font cache|^\\[ass\\] Init");
  
 // VCD
 static QRegExp rx_vcd("^ID_VCD_TRACK_(\\d+)_MSF=(.*)");
