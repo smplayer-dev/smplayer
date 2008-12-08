@@ -551,12 +551,19 @@ TimeSliderAction * BaseGuiPlus::createTimeSliderAction(QWidget * parent) {
 	TimeSliderAction * timeslider_action = new TimeSliderAction( parent );
 	timeslider_action->setObjectName("timeslider_action");
 
+#ifdef SEEKBAR_RESOLUTION
+	connect( timeslider_action, SIGNAL( posChanged(int) ), 
+             core, SLOT(goToPosition(int)) );
+	connect( core, SIGNAL(positionChanged(int)), 
+             timeslider_action, SLOT(setPos(int)) );
+#else
 	connect( timeslider_action, SIGNAL( posChanged(int) ), 
              core, SLOT(goToPos(int)) );
-	connect( timeslider_action, SIGNAL( draggingPos(int) ), 
-             this, SLOT(displayGotoTime(int)) );
 	connect( core, SIGNAL(posChanged(int)), 
              timeslider_action, SLOT(setPos(int)) );
+#endif
+	connect( timeslider_action, SIGNAL( draggingPos(int) ), 
+             this, SLOT(displayGotoTime(int)) );
 #if ENABLE_DELAYED_DRAGGING
 	timeslider_action->setDragDelay( pref->time_slider_drag_delay );
 
