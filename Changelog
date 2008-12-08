@@ -1,5 +1,11 @@
 [b]Version 0.6.6[/b]:
 
+(2008-12-07)
+ * (Experimental) Increased the resolution of the seekbar. Previously
+   a step of the seekbar (in a 90 minute movie) was equal to 54 seconds.
+   Now it's equal to 5.4 seconds. As there's usually an I-frame about 10
+   seconds (and mplayer always jumps to an I-frame) I think that's enough.
+
 (2008-12-06)
  * Bug #2399200: the downloaded subtitle filename was wrong if the video 
    filename contained a dot in the name (example: video.hdtv.avi created a 

@@ -104,7 +104,11 @@ public slots:
 	//! Reopens the file (no restart)
 	void reload();
 
+#ifdef SEEKBAR_RESOLUTION
+    void goToPosition( int value );
+#else
     void goToPos( int perc );
+#endif
     void goToSec( double sec );
 
 	void toggleRepeat();
@@ -353,7 +357,11 @@ signals:
 	void videoEqualizerNeedsUpdate();
 	void audioEqualizerNeedsUpdate();
 	void showTime(double sec);
+#ifdef SEEKBAR_RESOLUTION
+	void positionChanged(int); // To connect a slider
+#else
 	void posChanged(int); // To connect a slider
+#endif
 	void showFrame(int frame);
 	void needResize(int w, int h);
 	void noVideo();

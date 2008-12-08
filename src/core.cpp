@@ -955,7 +955,11 @@ void Core::stop()
 		qDebug("Core::stop: mset.current_sec: %f", mset.current_sec);
 		mset.current_sec = 0;
 		emit showTime( mset.current_sec );
+#ifdef SEEKBAR_RESOLUTION
+		emit positionChanged( 0 );
+#else
 		emit posChanged( 0 );
+#endif
 		//updateWidgets();
 	}
 
@@ -1088,11 +1092,20 @@ void Core::fileReachedEnd() {
 	emit mediaFinished();
 }
 
+#if SEEKBAR_RESOLUTION
+void Core::goToPosition(int value) {
+	qDebug("Core::goToPosition: value: %d", value);
+	if (mdat.duration > 0) {
+		int jump_time = (int) mdat.duration * value / SEEKBAR_RESOLUTION;
+		goToSec(jump_time);
+	}
+}
+#else
 void Core::goToPos(int perc) {
 	qDebug("Core::goToPos: per: %d", perc);
 	tellmp( "seek " + QString::number(perc) + " 1");
 }
-
+#endif
 
 
 void Core::startMplayer( QString file, double seek ) {
@@ -2685,6 +2698,15 @@ void Core::changeCurrentSec(double sec) {
 	if (floor(sec)==last_second) return; // Update only once per second
 	last_second = (int) floor(sec);
 
+#ifdef SEEKBAR_RESOLUTION
+	int value = 0;
+	if ( (mdat.duration > 1) && (mset.current_sec > 1) &&
+         (mdat.duration > mset.current_sec) )
+	{
+		value = ( (int) mset.current_sec * SEEKBAR_RESOLUTION) / (int) mdat.duration;
+	}
+	emit positionChanged(value);
+#else
 	int perc = 0;
 	if ( (mdat.duration > 1) && (mset.current_sec > 1) &&
          (mdat.duration > mset.current_sec) )
@@ -2692,6 +2714,7 @@ void Core::changeCurrentSec(double sec) {
 		perc = ( (int) mset.current_sec * 100) / (int) mdat.duration;
 	}
 	emit posChanged( perc );
+#endif
 }
 
 void Core::gotStartingTime(double time) {

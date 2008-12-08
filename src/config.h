@@ -51,6 +51,13 @@
 #define ENABLE_DELAYED_DRAGGING 1
 
 
+// SEEKBAR_RESOLUTION
+// if SEEKBAR_RESOLUTION is defined, it specified the
+// maximum value of the time slider
+
+#define SEEKBAR_RESOLUTION 1000
+
+
 // SMART_DVD_CHAPTERS
 // if set to 1, the slave command "chapter" will use if not using a cache,
 // otherwise mplayer will be restarted and -chapter will be used.
