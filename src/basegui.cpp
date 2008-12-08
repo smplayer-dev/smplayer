@@ -145,8 +145,8 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	}
 #endif
 
-    mplayer_log_window = new LogWindow(this);
-	smplayer_log_window = new LogWindow(this);
+    mplayer_log_window = new LogWindow(0);
+	smplayer_log_window = new LogWindow(0);
 
 	createActions();
 	createMenus();
