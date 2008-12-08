@@ -61,12 +61,12 @@ void myMessageOutput( QtMsgType type, const char *msg ) {
 
 	switch ( type ) {
 		case QtDebugMsg:
-			#ifndef NO_DEBUG_ON_CONSOLE
 			if (rx_log.indexIn(orig_line) > -1) {
+				#ifndef NO_DEBUG_ON_CONSOLE
 				fprintf( stderr, "Debug: %s\n", orig_line.toLocal8Bit().data() );
+				#endif
 				line2 = orig_line;
 			}
-			#endif
 			break;
 		case QtWarningMsg:
 			#ifndef NO_DEBUG_ON_CONSOLE
