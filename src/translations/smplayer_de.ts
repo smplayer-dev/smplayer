@@ -91,7 +91,7 @@
     <message>
         <location filename="../about.cpp" line="191"/>
         <source>%1 and %2</source>
-        <translation>%1 and %2</translation>
+        <translation>%1 und %2</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="167"/>
@@ -3297,7 +3297,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlistpreferences.ui" line="39"/>
         <source>Automatically get &amp;info about files added</source>
-        <translation>&amp;Automatische Infos über alle hinzugefügten Dateien erhalten.&amp;Automatische Infos über alle hinzugefügten Dateien erhalten</translation>
+        <translation>&amp;Automatische Infos über alle hinzugefügten Dateien erhalten</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="46"/>
