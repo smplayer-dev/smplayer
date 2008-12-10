@@ -93,8 +93,8 @@ inc_zoom	E
 dec_zoom	W
 reset_zoom	Shift+E
 auto_zoom	Shift+W
-auto_zoom_169	Shift+A
-auto_zoom_235	Shift+S
+zoom_169	Shift+A
+zoom_235	Shift+S
 exit_fullscreen	Esc
 next_osd	O
 dec_contrast	1

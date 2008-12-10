@@ -685,10 +685,10 @@ void BaseGui::createActions() {
 	autoZoomAct = new MyAction(Qt::SHIFT | Qt::Key_W, this, "auto_zoom");
 	connect( autoZoomAct, SIGNAL(triggered()), core, SLOT(autoPanscan()) );
 
-	autoZoom169Act = new MyAction(Qt::SHIFT | Qt::Key_A, this, "auto_zoom_169");
+	autoZoom169Act = new MyAction(Qt::SHIFT | Qt::Key_A, this, "zoom_169");
 	connect( autoZoom169Act, SIGNAL(triggered()), core, SLOT(autoPanscanFor169()) );
 
-	autoZoom235Act = new MyAction(Qt::SHIFT | Qt::Key_S, this, "auto_zoom_235");
+	autoZoom235Act = new MyAction(Qt::SHIFT | Qt::Key_S, this, "zoom_235");
 	connect( autoZoom235Act, SIGNAL(triggered()), core, SLOT(autoPanscanFor235()) );
 
 
@@ -1197,8 +1197,8 @@ void BaseGui::retranslateStrings() {
 	incZoomAct->change( tr("Zoom &+") );
 	resetZoomAct->change( tr("&Reset") );
 	autoZoomAct->change( tr("&Auto zoom") );
-	autoZoom169Act->change( tr("Auto zoom for &16:9") );
-	autoZoom235Act->change( tr("Auto zoom for &2.35:1") );
+	autoZoom169Act->change( tr("Zoom for &16:9") );
+	autoZoom235Act->change( tr("Zoom for &2.35:1") );
 	moveLeftAct->change( tr("Move &left") );
 	moveRightAct->change( tr("Move &right") );
 	moveUpAct->change( tr("Move &up") );
