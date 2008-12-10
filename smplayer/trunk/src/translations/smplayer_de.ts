@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de_DE">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -40,7 +41,7 @@
     <message>
         <location filename="../about.cpp" line="165"/>
         <source>%1, %2 and %3</source>
-        <translation>%1, %2 and %3</translation>
+        <translation>%1, %2 und %3</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="155"/>
@@ -270,7 +271,7 @@
     <message>
         <location filename="../about.cpp" line="92"/>
         <source>SMPlayer logo by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer Logo von %1</translation>
     </message>
 </context>
 <context>
@@ -1445,12 +1446,12 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1200"/>
         <source>Zoom for &amp;16:9</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoom für &amp;16:9</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1201"/>
         <source>Zoom for &amp;2.35:1</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoom für &amp;2.35:1</translation>
     </message>
 </context>
 <context>
@@ -1536,7 +1537,7 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../core.cpp" line="3376"/>
         <source>Updating the font cache. This may take some seconds...</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktualisierung des Schriftart-Cache. Dies kann einige Sekunden dauern ...</translation>
     </message>
 </context>
 <context>
