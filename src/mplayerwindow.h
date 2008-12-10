@@ -35,10 +35,12 @@
 class QWidget;
 class QLabel;
 class QKeyEvent;
+class QTimer;
 
 #define ZOOM_STEP 0.05
 #define ZOOM_MIN 0.5
 
+#define DELAYED_RESIZE 1
 
 //! Screen is a widget that hides the mouse cursor after some seconds if not moved.
 
@@ -148,6 +150,11 @@ public slots:
 	void incZoom();
 	void decZoom();
 
+#if DELAYED_RESIZE
+protected slots:
+	void resizeLater();
+#endif
+
 protected:
 	virtual void retranslateStrings();
 	virtual void changeEvent ( QEvent * event ) ;
@@ -191,6 +198,10 @@ protected:
 	bool allow_video_movement;
 
 	QPoint mouse_position;
+
+#if DELAYED_RESIZE
+	QTimer * resize_timer;
+#endif
 };
 
 

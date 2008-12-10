@@ -33,6 +33,10 @@
 #include <QPixmap>
 #include <QPainter>
 
+#if DELAYED_RESIZE
+#include <QTimer>
+#endif
+
 Screen::Screen(QWidget* parent, Qt::WindowFlags f) : QWidget(parent, f ) 
 {
 	setMouseTracking(TRUE);
@@ -169,6 +173,13 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	mplayerlayer->installEventFilter(this);
 	//logo->installEventFilter(this);
 
+#if DELAYED_RESIZE
+	resize_timer = new QTimer(this);
+	resize_timer->setSingleShot(true);
+	resize_timer->setInterval(50);
+	connect( resize_timer, SIGNAL(timeout()), this, SLOT(resizeLater()) );
+#endif
+
 	retranslateStrings();
 }
 
@@ -214,13 +225,26 @@ void MplayerWindow::resizeEvent( QResizeEvent * /* e */)
    /*qDebug("MplayerWindow::resizeEvent: %d, %d",
 	   e->size().width(), e->size().height() );*/
 
+#if !DELAYED_RESIZE
+	offset_x = 0;
+	offset_y = 0;
+
+    updateVideoWindow();
+	setZoom(zoom_factor);
+#else
+	resize_timer->start();
+#endif
+}
+
+#if DELAYED_RESIZE
+void MplayerWindow::resizeLater() {
 	offset_x = 0;
 	offset_y = 0;
 
     updateVideoWindow();
 	setZoom(zoom_factor);
 }
-
+#endif
 
 void MplayerWindow::setMonitorAspect(double asp) {
 	monitoraspect = asp;
