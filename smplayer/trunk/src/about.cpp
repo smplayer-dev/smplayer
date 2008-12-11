@@ -170,7 +170,9 @@ QString About::getTranslators() {
 			.arg("Oleksandr Kovalenko <alx.kovalenko@gmail.com>") ) +
          trad(tr("Portuguese - Brazil"), "Ventura <ventura.barbeiro@terra.com.br>") + 
          trad(tr("Georgian"), "George Machitidze <giomac@gmail.com>") + 
-         trad(tr("Czech"), QString::fromUtf8("Martin Dvořák <martin.dvorak@centrum.cz>")) +
+         trad(tr("Czech"), tr("%1 and %2")
+			.arg(QString::fromUtf8("Martin Dvořák <martin.dvorak@centrum.cz>"))
+			.arg(QString::fromUtf8("Jaromír Smrček <jaromir.smrcek@zoner.com>")) ) +
          trad(tr("Bulgarian"), "<marzeliv@mail.bg>") +
          trad(tr("Turkish"), "alper er <alperer@gmail.com>") +
          trad(tr("Swedish"), "Leif Larsson <leif.larsson@gmail.com>") +
