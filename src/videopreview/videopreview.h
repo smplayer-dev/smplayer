@@ -67,6 +67,9 @@ public:
 	void setDisplayOSD(bool b) { display_osd = b; };
 	bool displayOSD() { return display_osd; };
 
+	void setAspectRatio(double asp) { aspect_ratio = asp; };
+	double aspectRatio() { return aspect_ratio; };
+
 	bool createThumbnails();
 
 	static VideoInfo getInfo(const QString & mplayer_path, const QString & filename);
@@ -76,7 +79,7 @@ protected slots:
 
 protected:
 	bool extractImages();
-	void addPicture(const QString & filename, int col, int row); 
+	void addPicture(const QString & filename, int col, int row, int time); 
 	void cleanDir(QString directory);
 
 	QGridLayout * grid_layout;
@@ -93,6 +96,7 @@ protected:
 
 	QString input_video;
 	int n_cols, n_rows, initial_step, max_width;
+	double aspect_ratio;
 	bool display_osd;
 
 	int thumbnail_width;
