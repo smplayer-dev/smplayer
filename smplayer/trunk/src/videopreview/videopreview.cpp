@@ -36,6 +36,7 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFla
 	n_rows = 4;
 	initial_step = 20;
 	max_width = 800;
+	aspect_ratio = 0;
 	display_osd = false;
 
 	output_dir = "smplayer_preview";
@@ -112,11 +113,19 @@ bool VideoPreview::extractImages() {
 		args << "-nosound" << "-vo" << "jpeg:outdir="+full_output_dir << "-frames" << "6"
              << "-ss" << QString::number(current_time);
 
+		if (aspect_ratio != 0) {
+			args << "-aspect" << QString::number(aspect_ratio) << "-zoom";
+		}
+
 		if (display_osd) {
 			args << "-vf" << "expand=osd=1" << "-osdlevel" << "2";
 		}
 
 		args << input_video;
+
+		QString command = mplayer_bin + " ";
+		for (int n = 0; n < args.count(); n++) command = command + args[n] + " ";
+		qDebug("VideoPreview::extractImages: command: %s", command.toUtf8().constData());
 
 		QProcess p;
 		p.start(mplayer_bin, args);
@@ -128,7 +137,7 @@ bool VideoPreview::extractImages() {
 		QString output_file = output_dir + QString("/picture_%1.jpg").arg(current_time, 8, 10, QLatin1Char('0'));
 		d.rename(output_dir + "/00000005.jpg", output_file);
 
-		addPicture(QDir::tempPath() +"/"+ output_file, current_row, current_col);
+		addPicture(QDir::tempPath() +"/"+ output_file, current_row, current_col, current_time);
 		current_col++;
 		if (current_col >= n_cols) { current_col = 0; current_row++; }
 
@@ -148,8 +157,8 @@ bool VideoPreview::extractImages() {
 	return true;
 }
 
-void VideoPreview::addPicture(const QString & filename, int row, int col) {
-	qDebug("VideoPreview::addPicture: %d %d", row, col);
+void VideoPreview::addPicture(const QString & filename, int row, int col, int time) {
+	//qDebug("VideoPreview::addPicture: %d %d", row, col);
 
 	QPixmap picture(filename);
 
@@ -210,7 +219,7 @@ VideoInfo VideoPreview::getInfo(const QString & mplayer_path, const QString & fi
 				QString value = rx.cap(2);
 				qDebug("VideoPreview::getInfo: tag: '%s', value: '%s'", tag.toUtf8().constData(), value.toUtf8().constData());
 
-				if (tag == "LENGTH") i.length = value.toDouble();
+				if (tag == "LENGTH") i.length = (int) value.toDouble();
 				else
 				if (tag == "VIDEO_WIDTH") i.width = value.toInt();
 				else
