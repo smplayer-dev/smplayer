@@ -270,7 +270,7 @@
     <message>
         <location filename="../about.cpp" line="92"/>
         <source>SMPlayer logo by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer のロゴ: %1</translation>
     </message>
 </context>
 <context>
@@ -1435,12 +1435,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1200"/>
         <source>Zoom for &amp;16:9</source>
-        <translation type="unfinished"></translation>
+        <translation>16:9 用にズーム(&amp;1)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1201"/>
         <source>Zoom for &amp;2.35:1</source>
-        <translation type="unfinished"></translation>
+        <translation>2.35:1 用にズーム(&amp;2)</translation>
     </message>
 </context>
 <context>
@@ -1526,7 +1526,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="3376"/>
         <source>Updating the font cache. This may take some seconds...</source>
-        <translation type="unfinished"></translation>
+        <translation>フォント キャッシュを更新しています。これには数秒かかる可能性があります...</translation>
     </message>
 </context>
 <context>
