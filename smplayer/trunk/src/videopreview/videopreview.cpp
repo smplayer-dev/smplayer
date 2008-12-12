@@ -28,6 +28,7 @@
 #include <QScrollArea>
 #include <QDialogButtonBox>
 #include <QPushButton>
+#include <QPainter>
 #include <QApplication>
 
 VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFlags f) : QWidget(parent, f)
@@ -136,9 +137,11 @@ bool VideoPreview::extractImages() {
 			args << "-aspect" << QString::number(aspect_ratio) << "-zoom";
 		}
 
+		/*
 		if (display_osd) {
 			args << "-vf" << "expand=osd=1" << "-osdlevel" << "2";
 		}
+		*/
 
 		args << input_video;
 
@@ -190,8 +193,21 @@ void VideoPreview::addPicture(const QString & filename, int row, int col, int ti
 		qDebug("VideoPreview::addPicture: thumbnail_width set to %d", thumbnail_width);
 	}
 
+	QPixmap scaled_picture = picture.scaledToWidth(thumbnail_width, Qt::SmoothTransformation);
+
+	// Add current time text
+	if (display_osd) {
+		QString stime = QTime().addSecs(time).toString("hh:mm:ss");
+		QFont font("Arial");
+		font.setBold(true);
+		QPainter painter(&scaled_picture);
+		painter.setPen( Qt::white );
+		painter.setFont(font);
+		painter.drawText(scaled_picture.rect(), Qt::AlignRight | Qt::AlignBottom, stime);
+	}
+
 	QLabel * l = new QLabel(this);
-	l->setPixmap(picture.scaledToWidth(thumbnail_width, Qt::SmoothTransformation));
+	l->setPixmap(scaled_picture);
 	//l->setPixmap(picture);
 	grid_layout->addWidget(l, row, col);
 }
