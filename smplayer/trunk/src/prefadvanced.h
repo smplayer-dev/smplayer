@@ -43,7 +43,7 @@ public:
     void getData(Preferences * pref);
 
 #if REPAINT_BACKGROUND_OPTION
-	bool clearingBackgroundChanged() { return clearing_background_changed; };
+	bool repaintVideoBackgroundChanged() { return repaint_video_background_changed; };
 #endif
 	bool monitorAspectChanged() { return monitor_aspect_changed; };
 #if USE_COLORKEY
@@ -60,8 +60,8 @@ protected:
 	QString monitorAspect();
 
 #if REPAINT_BACKGROUND_OPTION
-	void setClearBackground(bool b);
-	bool clearBackground();
+	void setRepaintVideoBackground(bool b);
+	bool repaintVideoBackground();
 #endif
 
 	void setUseMplayerWindow(bool v);
@@ -140,7 +140,7 @@ protected slots:
 
 private:
 #if REPAINT_BACKGROUND_OPTION
-	bool clearing_background_changed;
+	bool repaint_video_background_changed;
 #endif
 	bool monitor_aspect_changed;
 #if USE_COLORKEY

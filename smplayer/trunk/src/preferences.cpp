@@ -227,9 +227,9 @@ void Preferences::reset() {
 #if REPAINT_BACKGROUND_OPTION
 	// "Repaint video background" in the preferences dialog
 	#ifndef Q_OS_WIN
-	always_clear_video_background = false;
+	repaint_video_background = false;
 	#else
-	always_clear_video_background = true;
+	repaint_video_background = true;
 	#endif
 #endif
 
@@ -589,7 +589,7 @@ void Preferences::save() {
     //mplayer log autosaving end
 
 #if REPAINT_BACKGROUND_OPTION
-	set->setValue("always_clear_video_background", always_clear_video_background);
+	set->setValue("repaint_video_background", repaint_video_background);
 #endif
 
 	set->setValue("use_edl_files", use_edl_files);
@@ -968,7 +968,7 @@ void Preferences::load() {
     //mplayer log autosaving end
 
 #if REPAINT_BACKGROUND_OPTION
-	always_clear_video_background = set->value("always_clear_video_background", always_clear_video_background).toBool();
+	repaint_video_background = set->value("repaint_video_background", repaint_video_background).toBool();
 #endif
 
 	use_edl_files = set->value("use_edl_files", use_edl_files).toBool();

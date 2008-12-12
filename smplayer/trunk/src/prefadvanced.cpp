@@ -85,7 +85,7 @@ void PrefAdvanced::setData(Preferences * pref) {
 	setMonitorAspect( pref->monitor_aspect );
 
 #if REPAINT_BACKGROUND_OPTION	
-	setClearBackground( pref->always_clear_video_background );
+	setRepaintVideoBackground( pref->repaint_video_background );
 #endif
 	setUseMplayerWindow( pref->use_mplayer_window );
 	setMplayerAdditionalArguments( pref->mplayer_additional_options );
@@ -121,7 +121,7 @@ void PrefAdvanced::getData(Preferences * pref) {
 	requires_restart = false;
 
 #if REPAINT_BACKGROUND_OPTION
-	clearing_background_changed = false;
+	repaint_video_background_changed = false;
 #endif
 
 	monitor_aspect_changed = false;
@@ -140,9 +140,9 @@ void PrefAdvanced::getData(Preferences * pref) {
 	}
 
 #if REPAINT_BACKGROUND_OPTION
-	if (pref->always_clear_video_background != clearBackground()) {
-		pref->always_clear_video_background = clearBackground();
-		clearing_background_changed = true;
+	if (pref->repaint_video_background != repaintVideoBackground()) {
+		pref->repaint_video_background = repaintVideoBackground();
+		repaint_video_background_changed = true;
     }
 #endif
 
@@ -197,12 +197,12 @@ QString PrefAdvanced::monitorAspect() {
 }
 
 #if REPAINT_BACKGROUND_OPTION
-void PrefAdvanced::setClearBackground(bool b) {
-	clear_background_check->setChecked(b);
+void PrefAdvanced::setRepaintVideoBackground(bool b) {
+	repaint_video_background_check->setChecked(b);
 }
 
-bool PrefAdvanced::clearBackground() {
-	return clear_background_check->isChecked();
+bool PrefAdvanced::repaintVideoBackground() {
+	return repaint_video_background_check->isChecked();
 }
 #endif
 
@@ -451,7 +451,7 @@ void PrefAdvanced::createHelp() {
 #endif
 
 #if REPAINT_BACKGROUND_OPTION
-	setWhatsThis(clear_background_check, 
+	setWhatsThis(repaint_video_background_check, 
         tr("Repaint the background of the video window"),
 		tr("Checking this option may reduce flickering, but it also might "
            "produce that the video won't be displayed properly.") );
