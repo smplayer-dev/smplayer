@@ -145,7 +145,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="clear_background_check" >
+        <widget class="QCheckBox" name="repaint_video_background_check" >
          <property name="text" >
           <string>Repaint the backgroun&amp;d of the video window</string>
          </property>
@@ -806,7 +806,7 @@ Example: resample=44100:0:0,volnorm</string>
   <tabstop>idx_check</tabstop>
   <tabstop>correct_pts_check</tabstop>
   <tabstop>shortnames_check</tabstop>
-  <tabstop>clear_background_check</tabstop>
+  <tabstop>repaint_video_background_check</tabstop>
   <tabstop>actions_to_run_edit</tabstop>
   <tabstop>colorkey_view</tabstop>
   <tabstop>changeButton</tabstop>

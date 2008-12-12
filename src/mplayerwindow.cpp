@@ -101,7 +101,7 @@ MplayerLayer::MplayerLayer(QWidget* parent, Qt::WindowFlags f)
 	: Screen(parent, f) 
 {
 #if REPAINT_BACKGROUND_OPTION
-	allow_clearing = true;
+	repaint_background = true;
 #endif
 	playing = false;
 }
@@ -110,14 +110,14 @@ MplayerLayer::~MplayerLayer() {
 }
 
 #if REPAINT_BACKGROUND_OPTION
-void MplayerLayer::allowClearingBackground(bool b) {
-	qDebug("MplayerLayer::allowClearingBackground: %d", b);
-	allow_clearing = b;
+void MplayerLayer::setRepaintBackground(bool b) {
+	qDebug("MplayerLayer::setRepaintBackground: %d", b);
+	repaint_background = b;
 }
 
 void MplayerLayer::paintEvent( QPaintEvent * e ) {
 	//qDebug("MplayerLayer::paintEvent: allow_clearing: %d", allow_clearing);
-	if (allow_clearing || !playing) {
+	if (repaint_background || !playing) {
 		//qDebug("MplayerLayer::paintEvent: painting");
 		Screen::paintEvent(e);
 	}
