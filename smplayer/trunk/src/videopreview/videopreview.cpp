@@ -25,6 +25,9 @@
 #include <QWidget>
 #include <QGridLayout>
 #include <QLabel>
+#include <QScrollArea>
+#include <QDialogButtonBox>
+#include <QPushButton>
 #include <QApplication>
 
 VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFlags f) : QWidget(parent, f)
@@ -46,6 +49,7 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFla
 	progress->setCancelButtonText( tr("Cancel") );
 	connect( progress, SIGNAL(canceled()), this, SLOT(cancelPressed()) );
 
+	QWidget * w_contents = new QWidget(this);
 	info = new QLabel(this);
 
 	foot = new QLabel(this);
@@ -60,7 +64,20 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFla
 	l->addLayout(grid_layout);
 	l->addWidget(foot);
 	
-	setLayout(l);
+	w_contents->setLayout(l);
+
+	QScrollArea * scroll_area = new QScrollArea(this);
+	scroll_area->setWidgetResizable(true);
+	scroll_area->setWidget( w_contents );
+
+	QDialogButtonBox * button_box = new QDialogButtonBox(QDialogButtonBox::Close | QDialogButtonBox::Save, Qt::Horizontal, this);
+	connect( button_box, SIGNAL(rejected()), this, SLOT(close()) );
+	connect( button_box->button(QDialogButtonBox::Save), SIGNAL(clicked()), this, SLOT(saveImage()) );
+
+	QVBoxLayout * my_layout = new QVBoxLayout;
+	my_layout->addWidget(scroll_area);
+	my_layout->addWidget(button_box);
+	setLayout(my_layout);	
 }
 
 VideoPreview::~VideoPreview() {
@@ -240,6 +257,10 @@ VideoInfo VideoPreview::getInfo(const QString & mplayer_path, const QString & fi
 
 void VideoPreview::cancelPressed() {
 	canceled = true;
+}
+
+void VideoPreview::saveImage() {
+	qDebug("VideoPreview::saveImage");
 }
 
 #include "moc_videopreview.cpp"
