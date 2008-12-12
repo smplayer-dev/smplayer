@@ -76,6 +76,7 @@ public:
 
 protected slots:
 	void cancelPressed();
+	void saveImage();
 
 protected:
 	bool extractImages();
