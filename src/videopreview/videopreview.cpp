@@ -50,6 +50,7 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFla
 	connect( progress, SIGNAL(canceled()), this, SLOT(cancelPressed()) );
 
 	QWidget * w_contents = new QWidget(this);
+
 	info = new QLabel(this);
 
 	foot = new QLabel(this);
@@ -60,6 +61,7 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFla
 	grid_layout->setSpacing(2);
 
 	QVBoxLayout * l = new QVBoxLayout;
+	l->setSizeConstraint(QLayout::SetFixedSize);
 	l->addWidget(info);
 	l->addLayout(grid_layout);
 	l->addWidget(foot);
