@@ -226,7 +226,11 @@ void Preferences::reset() {
 
 #if REPAINT_BACKGROUND_OPTION
 	// "Repaint video background" in the preferences dialog
+	#ifndef Q_OS_WIN
+	always_clear_video_background = false;
+	#else
 	always_clear_video_background = true;
+	#endif
 #endif
 
 	use_edl_files = true;
