@@ -86,6 +86,7 @@ protected:
 	QGridLayout * grid_layout;
 	QLabel * info;
 	QLabel * foot;
+	QWidget * w_contents;
 
 	QString mplayer_bin;
 
@@ -101,6 +102,8 @@ protected:
 	bool display_osd;
 
 	int thumbnail_width;
+
+	QString last_directory;
 };
 
 #endif

@@ -29,6 +29,8 @@
 #include <QDialogButtonBox>
 #include <QPushButton>
 #include <QPainter>
+#include <QFileDialog>
+#include <QMessageBox>
 #include <QApplication>
 
 VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFlags f) : QWidget(parent, f)
@@ -50,7 +52,7 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFla
 	progress->setCancelButtonText( tr("Cancel") );
 	connect( progress, SIGNAL(canceled()), this, SLOT(cancelPressed()) );
 
-	QWidget * w_contents = new QWidget(this);
+	w_contents = new QWidget(this);
 
 	info = new QLabel(this);
 
@@ -279,6 +281,21 @@ void VideoPreview::cancelPressed() {
 
 void VideoPreview::saveImage() {
 	qDebug("VideoPreview::saveImage");
+
+	QString filename = QFileDialog::getSaveFileName(this, tr("Save file"),
+                            last_directory, tr("Images (*.png *.jpg)"));
+
+	if (!filename.isEmpty()) {
+		QPixmap image = QPixmap::grabWidget(w_contents);
+		if (!image.save(filename)) {
+			// Failed!!!
+			qDebug("VideoPreview::saveImage: error saving '%s'", filename.toUtf8().constData());
+			QMessageBox::warning(this, tr("Error saving file"), 
+                                 tr("The file couldn't be saved") );
+		} else {
+			last_directory = QFileInfo(filename).absolutePath();
+		}
+	}
 }
 
 #include "moc_videopreview.cpp"
