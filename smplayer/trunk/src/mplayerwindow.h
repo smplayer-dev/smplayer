@@ -40,7 +40,7 @@ class QTimer;
 #define ZOOM_STEP 0.05
 #define ZOOM_MIN 0.5
 
-#define DELAYED_RESIZE 1
+#define DELAYED_RESIZE 0
 
 //! Screen is a widget that hides the mouse cursor after some seconds if not moved.
 
