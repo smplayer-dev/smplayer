@@ -17,6 +17,7 @@
 */
 
 #include "videopreview.h"
+#include "videopreviewconfigdialog.h"
 #include <QProcess>
 #include <QRegExp>
 #include <QDir>
@@ -296,6 +297,32 @@ void VideoPreview::saveImage() {
 			last_directory = QFileInfo(filename).absolutePath();
 		}
 	}
+}
+
+bool VideoPreview::showConfigDialog() {
+	VideoPreviewConfigDialog d(this);
+
+	d.setVideoFile( videoFile() );
+	d.setCols( cols() );
+	d.setRows( rows() );
+	d.setInitialStep( initialStep() );
+	d.setMaxWidth( maxWidth() );
+	d.setDisplayOSD( displayOSD() );
+	d.setAspectRatio( aspectRatio() );
+
+	if (d.exec() == QDialog::Accepted) {
+		setVideoFile( d.videoFile() );
+		setCols( d.cols() );
+		setRows( d.rows() );
+		setInitialStep( d.initialStep() );
+		setMaxWidth( d.maxWidth() );
+		setDisplayOSD( d.displayOSD() );
+		setAspectRatio( d.aspectRatio() );
+
+		return true;
+	}
+
+	return false;
 }
 
 #include "moc_videopreview.cpp"
