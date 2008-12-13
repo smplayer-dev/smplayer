@@ -46,7 +46,6 @@ int main( int argc, char ** argv )
 	//vp.setAspectRatio( 2.35 );
 
 	if ( (vp.showConfigDialog()) && (vp.createThumbnails()) ) {
-		vp.setWindowTitle("Videopreview - "+ filename);
 		vp.exec();
 		vp.saveSettings(&set);
 
