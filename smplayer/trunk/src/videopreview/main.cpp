@@ -19,6 +19,7 @@
 #include "videopreview.h"
 #include <QApplication>
 #include <QWidget>
+#include <QSettings>
 #include <stdio.h>
 
 int main( int argc, char ** argv ) 
@@ -31,18 +32,26 @@ int main( int argc, char ** argv )
 		filename = a.arguments()[1];
 	}
 
+	QSettings set(QSettings::IniFormat, QSettings::UserScope, "RVM", "videopreview");
+
 	VideoPreview vp("mplayer");
+	vp.loadSettings(&set);
 	vp.setVideoFile(filename);
+
+	/*
 	vp.setGrid(4,5);
 	vp.setMaxWidth(800);
 	vp.setDisplayOSD(true);
+	*/
 	//vp.setAspectRatio( 2.35 );
 
 	if ( (vp.showConfigDialog()) && (vp.createThumbnails()) ) {
 		vp.setWindowTitle("Videopreview - "+ filename);
 		vp.show();
+		vp.saveSettings(&set);
+
 		return a.exec();
-	} else {
-		return 0;
 	}
+
+	return 0;
 }

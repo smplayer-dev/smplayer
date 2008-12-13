@@ -32,6 +32,7 @@
 #include <QPainter>
 #include <QFileDialog>
 #include <QMessageBox>
+#include <QSettings>
 #include <QApplication>
 
 VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFlags f) : QWidget(parent, f)
@@ -323,6 +324,36 @@ bool VideoPreview::showConfigDialog() {
 	}
 
 	return false;
+}
+
+void VideoPreview::saveSettings(QSettings * set) {
+	qDebug("VideoPreview::saveSettings");
+
+	set->beginGroup("videopreview");
+
+	set->setValue("columns", cols());
+	set->setValue("rows", rows());
+	set->setValue("initial_step", initialStep());
+	set->setValue("max_width", maxWidth());
+	set->setValue("osd", displayOSD());
+	set->setValue("last_directory", last_directory);
+
+	set->endGroup();
+}
+
+void VideoPreview::loadSettings(QSettings * set) {
+	qDebug("VideoPreview::loadSettings");
+
+	set->beginGroup("videopreview");
+
+	setCols( set->value("columns", cols()).toInt() );
+	setRows( set->value("rows", rows()).toInt() );
+	setInitialStep( set->value("initial_step", initialStep()).toInt() );;
+	setMaxWidth( set->value("max_width", maxWidth()).toInt() );;
+	setDisplayOSD( set->value("osd", displayOSD()).toBool() );;
+	last_directory = set->value("last_directory", last_directory).toString();
+
+	set->endGroup();
 }
 
 #include "moc_videopreview.cpp"
