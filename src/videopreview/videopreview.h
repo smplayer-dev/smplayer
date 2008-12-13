@@ -19,7 +19,7 @@
 #ifndef _VIDEOPREVIEW_H_
 #define _VIDEOPREVIEW_H_
 
-#include <QWidget>
+#include <QDialog>
 #include <QString>
 
 class QProgressDialog;
@@ -40,7 +40,7 @@ public:
 	qint64 size;
 };
 
-class VideoPreview : public QWidget
+class VideoPreview : public QDialog
 {
 	Q_OBJECT
 

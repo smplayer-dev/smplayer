@@ -47,10 +47,10 @@ int main( int argc, char ** argv )
 
 	if ( (vp.showConfigDialog()) && (vp.createThumbnails()) ) {
 		vp.setWindowTitle("Videopreview - "+ filename);
-		vp.show();
+		vp.exec();
 		vp.saveSettings(&set);
 
-		return a.exec();
+		//return a.exec();
 	}
 
 	return 0;
