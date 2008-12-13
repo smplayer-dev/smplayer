@@ -76,6 +76,7 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFla
 
 	QScrollArea * scroll_area = new QScrollArea(this);
 	scroll_area->setWidgetResizable(true);
+	scroll_area->setAlignment(Qt::AlignCenter);
 	scroll_area->setWidget( w_contents );
 
 	QDialogButtonBox * button_box = new QDialogButtonBox(QDialogButtonBox::Close | QDialogButtonBox::Save, Qt::Horizontal, this);
