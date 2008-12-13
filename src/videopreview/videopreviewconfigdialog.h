@@ -16,33 +16,39 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#include "videopreview.h"
-#include <QApplication>
-#include <QWidget>
-#include <stdio.h>
+#ifndef _VIDEOPREVIEWCONFIGDIALOG_H_
+#define _VIDEOPREVIEWCONFIGDIALOG_H_
 
-int main( int argc, char ** argv ) 
+#include "ui_videopreviewconfigdialog.h"
+
+class VideoPreviewConfigDialog : public QDialog, public Ui::VideoPreviewConfigDialog
 {
-	QApplication a( argc, argv );
+	Q_OBJECT
 
-	QString filename;
+public:
+	VideoPreviewConfigDialog( QWidget* parent = 0, Qt::WindowFlags f = 0 );
+	~VideoPreviewConfigDialog();
 
-	if (a.arguments().count() > 1) {
-		filename = a.arguments()[1];
-	}
+	void setVideoFile(const QString & video_file);
+	QString videoFile();
 
-	VideoPreview vp("mplayer");
-	vp.setVideoFile(filename);
-	vp.setGrid(4,5);
-	vp.setMaxWidth(800);
-	vp.setDisplayOSD(true);
-	//vp.setAspectRatio( 2.35 );
+	void setCols(int cols);
+	int cols();
 
-	if ( (vp.showConfigDialog()) && (vp.createThumbnails()) ) {
-		vp.setWindowTitle("Videopreview - "+ filename);
-		vp.show();
-		return a.exec();
-	} else {
-		return 0;
-	}
-}
+	void setRows(int rows);
+	int rows();
+
+	void setInitialStep(int step);
+	int initialStep();
+
+	void setMaxWidth(int w);
+	int maxWidth();
+
+	void setDisplayOSD(bool b);
+	bool displayOSD();
+
+	void setAspectRatio(double asp);
+	double aspectRatio();
+};
+
+#endif

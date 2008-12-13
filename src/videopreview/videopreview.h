@@ -72,6 +72,8 @@ public:
 
 	bool createThumbnails();
 
+	bool showConfigDialog();
+
 	static VideoInfo getInfo(const QString & mplayer_path, const QString & filename);
 
 protected slots:

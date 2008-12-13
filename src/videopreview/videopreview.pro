@@ -1,7 +1,13 @@
 CONFIG += debug
 
-HEADERS = videopreview.h
-SOURCES = videopreview.cpp main.cpp
+HEADERS = ../filechooser.h videopreviewconfigdialog.h videopreview.h 
+SOURCES = ../filechooser.cpp videopreviewconfigdialog.cpp videopreview.cpp main.cpp
+
+FORMS = ../filechooser.ui videopreviewconfigdialog.ui
+
+INCLUDEPATH += ..
+DEPENDPATH += ..
+DEFINES += NO_SMPLAYER_SUPPORT
 
 unix {
 	UI_DIR = .ui
