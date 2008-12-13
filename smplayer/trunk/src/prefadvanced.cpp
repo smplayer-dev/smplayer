@@ -39,7 +39,7 @@ PrefAdvanced::PrefAdvanced(QWidget * parent, Qt::WindowFlags f)
 #endif
 
 #if !REPAINT_BACKGROUND_OPTION
-	clear_background_check->hide();
+	repaint_video_background_check->hide();
 #endif
 
 	// Monitor aspect
