@@ -40,12 +40,12 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFla
 	mplayer_bin = mplayer_path;
 
 	input_video.clear();
-	n_cols = 3;
+	n_cols = 4;
 	n_rows = 4;
 	initial_step = 20;
 	max_width = 800;
 	aspect_ratio = 0;
-	display_osd = false;
+	display_osd = true;
 
 	output_dir = "smplayer_preview";
 	full_output_dir = QDir::tempPath() +"/"+ output_dir;
@@ -341,6 +341,7 @@ void VideoPreview::saveSettings(QSettings * set) {
 	set->setValue("max_width", maxWidth());
 	set->setValue("osd", displayOSD());
 	set->setValue("last_directory", last_directory);
+	set->setValue("filename", videoFile());
 
 	set->endGroup();
 }
@@ -352,10 +353,11 @@ void VideoPreview::loadSettings(QSettings * set) {
 
 	setCols( set->value("columns", cols()).toInt() );
 	setRows( set->value("rows", rows()).toInt() );
-	setInitialStep( set->value("initial_step", initialStep()).toInt() );;
-	setMaxWidth( set->value("max_width", maxWidth()).toInt() );;
-	setDisplayOSD( set->value("osd", displayOSD()).toBool() );;
+	setInitialStep( set->value("initial_step", initialStep()).toInt() );
+	setMaxWidth( set->value("max_width", maxWidth()).toInt() );
+	setDisplayOSD( set->value("osd", displayOSD()).toBool() );
 	last_directory = set->value("last_directory", last_directory).toString();
+	setVideoFile( set->value("filename", videoFile()).toString() );
 
 	set->endGroup();
 }

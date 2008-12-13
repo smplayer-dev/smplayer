@@ -36,7 +36,9 @@ int main( int argc, char ** argv )
 
 	VideoPreview vp("mplayer");
 	vp.loadSettings(&set);
-	vp.setVideoFile(filename);
+
+	if (!filename.isEmpty())
+		vp.setVideoFile(filename);
 
 	/*
 	vp.setGrid(4,5);
