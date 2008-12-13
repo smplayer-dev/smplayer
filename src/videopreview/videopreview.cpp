@@ -136,8 +136,14 @@ bool VideoPreview::extractImages() {
 		if (canceled) return false;
 
 		QStringList args;
-		args << "-nosound" << "-vo" << "jpeg:outdir="+full_output_dir << "-frames" << "6"
-             << "-ss" << QString::number(current_time);
+		args << "-nosound" << "-vo" 
+#ifdef Q_OS_WIN
+			<< "jpeg"
+#else
+			<< "jpeg:outdir="+full_output_dir
+#endif
+			<< "-frames" << "6"
+            << "-ss" << QString::number(current_time);
 
 		if (aspect_ratio != 0) {
 			args << "-aspect" << QString::number(aspect_ratio) << "-zoom";
@@ -156,6 +162,9 @@ bool VideoPreview::extractImages() {
 		qDebug("VideoPreview::extractImages: command: %s", command.toUtf8().constData());
 
 		QProcess p;
+#ifdef Q_OS_WIN
+		p.setWorkingDirectory(full_output_dir);
+#endif
 		p.start(mplayer_bin, args);
 		if (!p.waitForFinished()) {
 			qDebug("VideoPreview::extractImages: error running process");
