@@ -4006,7 +4006,7 @@ void BaseGui::openUploadSubtitlesPage() {
 void BaseGui::showVideoPreviewDialog() {
 	qDebug("BaseGui::showVideoPreviewDialog");
 
-	VideoPreview vp( pref->mplayer_bin );
+	VideoPreview vp( pref->mplayer_bin, this );
 	vp.loadSettings(Global::settings);
 
 	if (!core->mdat.filename.isEmpty()) {
