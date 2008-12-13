@@ -1456,7 +1456,7 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="1198"/>
         <source>Pre&amp;view...</source>
-        <translation>Vista pre&amp;via...</translation>
+        <translation>&amp;Vista previa...</translation>
     </message>
 </context>
 <context>
