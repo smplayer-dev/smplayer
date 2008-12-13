@@ -108,9 +108,9 @@
 
 
 // Adds or not the "Repaint the background of the video window" option.
-#ifndef Q_OS_WIN
+//#ifndef Q_OS_WIN
 #define REPAINT_BACKGROUND_OPTION 1
-#endif
+//#endif
 
 
 // Enables/disables the use of -adapter
