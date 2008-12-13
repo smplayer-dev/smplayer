@@ -4008,7 +4008,10 @@ void BaseGui::showVideoPreviewDialog() {
 
 	VideoPreview vp( pref->mplayer_bin );
 	vp.loadSettings(Global::settings);
-	vp.setVideoFile(core->mdat.filename);
+
+	if (!core->mdat.filename.isEmpty()) {
+		vp.setVideoFile(core->mdat.filename);
+	}
 
 	if ( (vp.showConfigDialog()) && (vp.createThumbnails()) ) {
 		vp.exec();
