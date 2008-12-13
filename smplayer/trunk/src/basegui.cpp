@@ -65,6 +65,7 @@
 #include "timedialog.h"
 #include "clhelp.h"
 #include "findsubtitleswindow.h"
+#include "videopreview.h"
 #include "mplayerversion.h"
 
 #include "config.h"
@@ -424,6 +425,10 @@ void BaseGui::createActions() {
 	onTopAct->setCheckable( true );
 	connect( onTopAct, SIGNAL(toggled(bool)),
              this, SLOT(toggleStayOnTop(bool)) );
+
+	videoPreviewAct = new MyAction( this, "video_preview" );
+	connect( videoPreviewAct, SIGNAL(triggered()),
+             this, SLOT(showVideoPreviewDialog()) );
 
 	flipAct = new MyAction( this, "flip" );
 	flipAct->setCheckable( true );
@@ -1190,6 +1195,7 @@ void BaseGui::retranslateStrings() {
 	videoEqualizerAct->change( Images::icon("equalizer"), tr("&Equalizer") );
 	screenshotAct->change( Images::icon("screenshot"), tr("&Screenshot") );
 	onTopAct->change( Images::icon("ontop"), tr("S&tay on top") );
+	videoPreviewAct->change( Images::icon("video_preview"), tr("Pre&view...") );
 	flipAct->change( Images::icon("flip"), tr("Flip i&mage") );
 	mirrorAct->change( Images::icon("mirror"), tr("Mirr&or image") );
 
@@ -1884,6 +1890,8 @@ void BaseGui::createMenus() {
 	videoMenu->addAction(videoEqualizerAct);
 	videoMenu->addAction(screenshotAct);
 	videoMenu->addAction(onTopAct);
+	videoMenu->addSeparator();
+	videoMenu->addAction(videoPreviewAct);
 
 
     // AUDIO MENU
@@ -3993,6 +4001,19 @@ void BaseGui::openUploadSubtitlesPage() {
 	//QDesktopServices::openUrl( QUrl("http://ds6.ovh.org/hashsubtitles/upload.php") );
 	//QDesktopServices::openUrl( QUrl("http://www.opensubtitles.com/upload") );
 	QDesktopServices::openUrl( QUrl("http://www.opensubtitles.org/uploadjava") );
+}
+
+void BaseGui::showVideoPreviewDialog() {
+	qDebug("BaseGui::showVideoPreviewDialog");
+
+	VideoPreview vp( pref->mplayer_bin );
+	vp.loadSettings(Global::settings);
+	vp.setVideoFile(core->mdat.filename);
+
+	if ( (vp.showConfigDialog()) && (vp.createThumbnails()) ) {
+		vp.exec();
+		vp.saveSettings(Global::settings);
+	}
 }
 
 QNetworkProxy BaseGui::userProxy() {
