@@ -37,6 +37,9 @@
        <property name="text" >
         <string>&amp;Columns:</string>
        </property>
+       <property name="alignment" >
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
        <property name="buddy" >
         <cstring>columns_spin</cstring>
        </property>
@@ -53,9 +56,25 @@
       </widget>
      </item>
      <item>
+      <spacer>
+       <property name="orientation" >
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" >
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
       <widget class="QLabel" name="label_3" >
        <property name="text" >
         <string>&amp;Rows:</string>
+       </property>
+       <property name="alignment" >
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
        <property name="buddy" >
         <cstring>rows_spin</cstring>
@@ -72,26 +91,39 @@
     </layout>
    </item>
    <item>
+    <widget class="QCheckBox" name="osd_check" >
+     <property name="text" >
+      <string>Add playing time to thumbnails</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="Line" name="line_2" >
+     <property name="sizePolicy" >
+      <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="orientation" >
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
     <layout class="QHBoxLayout" >
      <item>
-      <widget class="QLabel" name="label_6" >
+      <widget class="QLabel" name="label_5" >
        <property name="text" >
-        <string>&amp;Maximum width:</string>
+        <string>&amp;Aspect ratio:</string>
        </property>
        <property name="buddy" >
-        <cstring>max_width_spin</cstring>
+        <cstring>aspect_ratio_combo</cstring>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QSpinBox" name="max_width_spin" >
-       <property name="minimum" >
-        <number>100</number>
-       </property>
-       <property name="maximum" >
-        <number>2000</number>
-       </property>
-      </widget>
+      <widget class="QComboBox" name="aspect_ratio_combo" />
      </item>
      <item>
       <spacer>
@@ -100,7 +132,7 @@
        </property>
        <property name="sizeHint" >
         <size>
-         <width>40</width>
+         <width>101</width>
          <height>20</height>
         </size>
        </property>
@@ -139,26 +171,26 @@
     </layout>
    </item>
    <item>
-    <widget class="QCheckBox" name="osd_check" >
-     <property name="text" >
-      <string>Add playing time to thumbnails</string>
-     </property>
-    </widget>
-   </item>
-   <item>
     <layout class="QHBoxLayout" >
      <item>
-      <widget class="QLabel" name="label_5" >
+      <widget class="QLabel" name="label_6" >
        <property name="text" >
-        <string>&amp;Aspect ratio:</string>
+        <string>&amp;Maximum width:</string>
        </property>
        <property name="buddy" >
-        <cstring>aspect_ratio_combo</cstring>
+        <cstring>max_width_spin</cstring>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QComboBox" name="aspect_ratio_combo" />
+      <widget class="QSpinBox" name="max_width_spin" >
+       <property name="minimum" >
+        <number>100</number>
+       </property>
+       <property name="maximum" >
+        <number>2000</number>
+       </property>
+      </widget>
      </item>
      <item>
       <spacer>
@@ -167,7 +199,7 @@
        </property>
        <property name="sizeHint" >
         <size>
-         <width>101</width>
+         <width>40</width>
          <height>20</height>
         </size>
        </property>
@@ -211,10 +243,10 @@
   <tabstop>filename_edit</tabstop>
   <tabstop>columns_spin</tabstop>
   <tabstop>rows_spin</tabstop>
-  <tabstop>max_width_spin</tabstop>
-  <tabstop>initial_step_spin</tabstop>
   <tabstop>osd_check</tabstop>
   <tabstop>aspect_ratio_combo</tabstop>
+  <tabstop>initial_step_spin</tabstop>
+  <tabstop>max_width_spin</tabstop>
   <tabstop>buttonBox</tabstop>
  </tabstops>
  <resources/>
