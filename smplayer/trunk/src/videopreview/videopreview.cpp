@@ -51,6 +51,7 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFla
 	full_output_dir = QDir::tempPath() +"/"+ output_dir;
 
 	progress = new QProgressDialog(this);
+	progress->setWindowTitle(tr("Video preview"));
 	progress->setCancelButtonText( tr("Cancel") );
 	connect( progress, SIGNAL(canceled()), this, SLOT(cancelPressed()) );
 
@@ -84,7 +85,7 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFla
 	QVBoxLayout * my_layout = new QVBoxLayout;
 	my_layout->addWidget(scroll_area);
 	my_layout->addWidget(button_box);
-	setLayout(my_layout);	
+	setLayout(my_layout);
 }
 
 VideoPreview::~VideoPreview() {
@@ -179,6 +180,9 @@ bool VideoPreview::extractImages() {
 		tr("Length: %1").arg(t.toString("hh:mm:ss")) + 
 		"</b>"
 	);
+
+	setWindowTitle( tr("Video preview") + " - " + i.filename );
+	resize( w_contents->sizeHint() );
 
 	return true;
 }
