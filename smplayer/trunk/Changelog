@@ -1,5 +1,12 @@
 [b]Version 0.6.6[/b]:
 
+(2008-12-12)
+ * Added a new option Video->Preview. This option creates a preview 
+   (thumbnails) of the selected video. There are options to choose the
+   number of columns, rows, maximum width of the generated image...
+   Finally the preview can be saved (as jpg or png).
+   Note: the video preview is not finished yet.
+
 (2008-12-07)
  * (Experimental) Increased the resolution of the seekbar. Previously
    a step of the seekbar (in a 90 minute movie) was equal to 54 seconds.
