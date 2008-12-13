@@ -25,6 +25,7 @@
 class QProgressDialog;
 class QGridLayout;
 class QLabel;
+class QSettings;
 
 class VideoInfo 
 {
@@ -73,6 +74,9 @@ public:
 	bool createThumbnails();
 
 	bool showConfigDialog();
+
+	void saveSettings(QSettings * set);
+	void loadSettings(QSettings * set);
 
 	static VideoInfo getInfo(const QString & mplayer_path, const QString & filename);
 
