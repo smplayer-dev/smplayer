@@ -7,8 +7,8 @@ QT += network xml
 
 RESOURCES = icons.qrc
 
-INCLUDEPATH += findsubtitles
-DEPENDPATH += findsubtitles
+INCLUDEPATH += findsubtitles videopreview
+DEPENDPATH += findsubtitles videopreview
 
 #DEFINES += USE_QXT
 
@@ -93,6 +93,8 @@ HEADERS += guiconfig.h \
 	findsubtitles/simplehttp.h \
 	findsubtitles/osparser.h \
 	findsubtitles/findsubtitleswindow.h \
+	videopreview/videopreview.h \
+	videopreview/videopreviewconfigdialog.h \
 	basegui.h \
 	baseguiplus.h \
 	floatingwidget.h \
@@ -178,6 +180,8 @@ SOURCES	+= version.cpp \
 	findsubtitles/simplehttp.cpp \
 	findsubtitles/osparser.cpp \
 	findsubtitles/findsubtitleswindow.cpp \
+	videopreview/videopreview.cpp \
+	videopreview/videopreviewconfigdialog.cpp \
 	basegui.cpp \
 	baseguiplus.cpp \
 	floatingwidget.cpp \
@@ -202,7 +206,8 @@ FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
         prefplaylist.ui \
         about.ui inputmplayerversion.ui errordialog.ui timedialog.ui \
         playlistpreferences.ui filechooser.ui \
-        findsubtitles/findsubtitleswindow.ui
+        findsubtitles/findsubtitleswindow.ui \
+        videopreview/videopreviewconfigdialog.ui
 
 TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_de.ts \
                translations/smplayer_sk.ts translations/smplayer_it.ts \

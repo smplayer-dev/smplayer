@@ -103,6 +103,8 @@ public slots:
 	virtual void showFindSubtitlesDialog();
 	virtual void openUploadSubtitlesPage(); //turbos
 
+	virtual void showVideoPreviewDialog();
+
 	virtual void showPlaylist();
 	virtual void showPlaylist(bool b);
 	virtual void showVideoEqualizer();
@@ -349,6 +351,7 @@ protected:
 	MyAction * videoEqualizerAct;
 	MyAction * screenshotAct;
 	MyAction * onTopAct;
+	MyAction * videoPreviewAct;
 	MyAction * flipAct;
 	MyAction * mirrorAct;
 	MyAction * postProcessingAct;
