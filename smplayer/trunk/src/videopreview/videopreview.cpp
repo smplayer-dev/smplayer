@@ -123,7 +123,10 @@ bool VideoPreview::extractImages() {
 	VideoInfo i = getInfo(mplayer_bin, input_video);
 	int length = i.length;
 
-	if (length == 0) return false;
+	if (length == 0) {
+		if (error_message.isEmpty()) error_message = tr("The length of the video is 0");
+		return false;
+	}
 
 	// Create a temporary directory
 	QDir d(QDir::tempPath());
@@ -191,6 +194,11 @@ bool VideoPreview::extractImages() {
 		if (!p.waitForFinished()) {
 			qDebug("VideoPreview::extractImages: error running process");
 			error_message = tr("The mplayer process didn't run");
+			return false;
+		}
+
+		if (!QFile::exists(full_output_dir + "/00000005.jpg")) {
+			error_message = tr("The file %1 doesn't exist").arg(full_output_dir + "/00000005.jpg");
 			return false;
 		}
 
