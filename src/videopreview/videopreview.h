@@ -21,6 +21,7 @@
 
 #include <QDialog>
 #include <QString>
+#include <QList>
 
 class QProgressDialog;
 class QGridLayout;
@@ -79,6 +80,8 @@ public:
 	void setAspectRatio(double asp) { aspect_ratio = asp; };
 	double aspectRatio() { return aspect_ratio; };
 
+	void clearThumbnails();
+
 	bool createThumbnails();
 
 	bool showConfigDialog();
@@ -97,6 +100,8 @@ protected:
 	bool extractImages();
 	bool addPicture(const QString & filename, int col, int row, int time); 
 	void cleanDir(QString directory);
+
+	QList <QLabel *> label_list;
 
 	QGridLayout * grid_layout;
 	QLabel * info;

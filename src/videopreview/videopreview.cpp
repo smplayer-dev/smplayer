@@ -105,6 +105,15 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFla
 VideoPreview::~VideoPreview() {
 }
 
+void VideoPreview::clearThumbnails() {
+	for (int n=0; n < label_list.count(); n++) {
+		grid_layout->removeWidget( label_list[n] );
+		delete label_list[n];
+	}
+	label_list.clear();
+	info->clear();
+}
+
 bool VideoPreview::createThumbnails() {
 	error_message.clear();
 
@@ -275,6 +284,7 @@ bool VideoPreview::addPicture(const QString & filename, int row, int col, int ti
 	}
 
 	QLabel * l = new QLabel(this);
+	label_list.append(l);
 	l->setPixmap(scaled_picture);
 	//l->setPixmap(picture);
 	grid_layout->addWidget(l, row, col);
