@@ -30,7 +30,9 @@ class QSettings;
 class VideoInfo 
 {
 public:
-	VideoInfo() { filename.clear(); width = 0; height = 0; length = 0; size = 0; fps = 0; aspect = 0; video_bitrate = 0; };
+	VideoInfo() { filename.clear(); width = 0; height = 0; length = 0; 
+                  size = 0; fps = 0; aspect = 0; video_bitrate = 0; 
+                  audio_bitrate = 0; audio_rate = 0; video_format.clear(); };
 	~VideoInfo() {};
 
 	QString filename;
@@ -41,6 +43,9 @@ public:
 	double fps;
 	double aspect;
 	int video_bitrate;
+	int audio_bitrate;
+	int audio_rate;
+	QString video_format;
 };
 
 class VideoPreview : public QDialog
