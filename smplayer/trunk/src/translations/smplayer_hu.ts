@@ -270,7 +270,7 @@
     <message>
         <location filename="../about.cpp" line="92"/>
         <source>SMPlayer logo by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Az SMPlayer logót %1 készítette</translation>
     </message>
 </context>
 <context>
@@ -1435,17 +1435,17 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../basegui.cpp" line="1206"/>
         <source>Zoom for &amp;16:9</source>
-        <translation type="unfinished"></translation>
+        <translation>Nagyítás &amp;16:9-hez</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1207"/>
         <source>Zoom for &amp;2.35:1</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoom for &amp;2.35:1-hez</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1198"/>
         <source>Pre&amp;view...</source>
-        <translation type="unfinished"></translation>
+        <translation>Elő&amp;nézet...</translation>
     </message>
 </context>
 <context>
@@ -1531,7 +1531,7 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../core.cpp" line="3376"/>
         <source>Updating the font cache. This may take some seconds...</source>
-        <translation type="unfinished"></translation>
+        <translation>Betűkészlet gyorsítótár frissítése. Eltarthat pár másodpercig...</translation>
     </message>
 </context>
 <context>
@@ -2400,7 +2400,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="88"/>
         <source>Interlingua</source>
-        <translation>Interlingva nyelv</translation>
+        <translation>Interlingva</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="89"/>
@@ -2410,7 +2410,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="90"/>
         <source>Interlingue</source>
-        <translation>Occidental</translation>
+        <translation>Interlingua</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="73"/>
@@ -2515,7 +2515,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="124"/>
         <source>Malagasy</source>
-        <translation>Malagasy</translation>
+        <translation>Malagas</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="126"/>
@@ -2530,7 +2530,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="128"/>
         <source>Malayalam</source>
-        <translation>Malajalam</translation>
+        <translation>Malajálam</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="129"/>
@@ -2545,7 +2545,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="131"/>
         <source>Marathi</source>
-        <translation>Marathi</translation>
+        <translation>Maráthi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="132"/>
@@ -2560,12 +2560,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="134"/>
         <source>Burmese</source>
-        <translation>Birmain</translation>
+        <translation>Burmai</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="135"/>
         <source>Nauru</source>
-        <translation>Naurui</translation>
+        <translation>Nauru</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="138"/>
@@ -2590,7 +2590,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="149"/>
         <source>Oriya</source>
-        <translation>Oriya</translation>
+        <translation>Orija</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="109"/>
@@ -2635,7 +2635,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="161"/>
         <source>Kinyarwanda</source>
-        <translation>Kinyarwanda</translation>
+        <translation>Kinyarvanda</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="162"/>
@@ -2645,7 +2645,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="164"/>
         <source>Sindhi</source>
-        <translation>Sindhi</translation>
+        <translation>Szindhi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="121"/>
@@ -2670,12 +2670,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="170"/>
         <source>Samoan</source>
-        <translation>Samoa</translation>
+        <translation>Szamoai</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="171"/>
         <source>Shona</source>
-        <translation>Shona</translation>
+        <translation>Sona</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="172"/>
@@ -2740,7 +2740,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="184"/>
         <source>Tigrinya</source>
-        <translation>Tigrinja</translation>
+        <translation>Tigrinya</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="185"/>
@@ -2770,7 +2770,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="190"/>
         <source>Tsonga</source>
-        <translation>Tsonga</translation>
+        <translation>Conga</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="191"/>
@@ -2815,7 +2815,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="203"/>
         <source>Xhosa</source>
-        <translation>Xhosa</translation>
+        <translation>Xhosza</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="204"/>
@@ -2825,12 +2825,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="205"/>
         <source>Yoruba</source>
-        <translation>Yoruba</translation>
+        <translation>Joruba</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="206"/>
         <source>Zhuang</source>
-        <translation>Zhuang</translation>
+        <translation>Dzsuang</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="207"/>
@@ -2985,317 +2985,317 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="26"/>
         <source>Avestan</source>
-        <translation type="unfinished"></translation>
+        <translation>Avesztai</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="28"/>
         <source>Akan</source>
-        <translation type="unfinished"></translation>
+        <translation>Akan</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="30"/>
         <source>Aragonese</source>
-        <translation type="unfinished"></translation>
+        <translation>Aragóniai</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="33"/>
         <source>Avaric</source>
-        <translation type="unfinished"></translation>
+        <translation>Avar</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="37"/>
         <source>Belarusian</source>
-        <translation type="unfinished"></translation>
+        <translation>Belarusz</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="41"/>
         <source>Bambara</source>
-        <translation type="unfinished"></translation>
+        <translation>Bambara</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="45"/>
         <source>Bosnian</source>
-        <translation type="unfinished"></translation>
+        <translation>Bosnyák</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="47"/>
         <source>Chechen</source>
-        <translation type="unfinished"></translation>
+        <translation>Csecsen</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="49"/>
         <source>Cree</source>
-        <translation type="unfinished"></translation>
+        <translation>Krí</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="51"/>
         <source>Church</source>
-        <translation type="unfinished"></translation>
+        <translation>Egyházi szláv</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="52"/>
         <source>Chuvash</source>
-        <translation type="unfinished"></translation>
+        <translation>Csuvas</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="56"/>
         <source>Divehi</source>
-        <translation type="unfinished"></translation>
+        <translation>Divehi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="57"/>
         <source>Dzongkha</source>
-        <translation type="unfinished"></translation>
+        <translation>Dzongkha</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="58"/>
         <source>Ewe</source>
-        <translation type="unfinished"></translation>
+        <translation>Eve</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="66"/>
         <source>Fulah</source>
-        <translation type="unfinished"></translation>
+        <translation>Ful</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="68"/>
         <source>Fijian</source>
-        <translation type="unfinished"></translation>
+        <translation>Fidzsi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="73"/>
         <source>Gaelic</source>
-        <translation type="unfinished"></translation>
+        <translation>Kelta</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="77"/>
         <source>Manx</source>
-        <translation type="unfinished"></translation>
+        <translation>Manx</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="81"/>
         <source>Hiri</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiri-motu</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="83"/>
         <source>Haitian</source>
-        <translation type="unfinished"></translation>
+        <translation>Haiti kreol</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="86"/>
         <source>Herero</source>
-        <translation type="unfinished"></translation>
+        <translation>Herero</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="87"/>
         <source>Chamorro</source>
-        <translation type="unfinished"></translation>
+        <translation>Csamorro</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="91"/>
         <source>Igbo</source>
-        <translation type="unfinished"></translation>
+        <translation>Igbo</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="92"/>
         <source>Sichuan</source>
-        <translation type="unfinished"></translation>
+        <translation>Szecsuán</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="93"/>
         <source>Inupiaq</source>
-        <translation type="unfinished"></translation>
+        <translation>Inupiak</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="94"/>
         <source>Ido</source>
-        <translation type="unfinished"></translation>
+        <translation>Ido</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="101"/>
         <source>Kongo</source>
-        <translation type="unfinished"></translation>
+        <translation>Kongo</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="102"/>
         <source>Kikuyu</source>
-        <translation type="unfinished"></translation>
+        <translation>Kikuju</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="103"/>
         <source>Kuanyama</source>
-        <translation type="unfinished"></translation>
+        <translation>Kuanyama</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="106"/>
         <source>Khmer</source>
-        <translation type="unfinished"></translation>
+        <translation>Khmer</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="109"/>
         <source>Kanuri</source>
-        <translation type="unfinished"></translation>
+        <translation>Kanuri</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="112"/>
         <source>Komi</source>
-        <translation type="unfinished"></translation>
+        <translation>Komi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="113"/>
         <source>Cornish</source>
-        <translation type="unfinished"></translation>
+        <translation>Korn</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="116"/>
         <source>Luxembourgish</source>
-        <translation type="unfinished"></translation>
+        <translation>Luxemburgi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="117"/>
         <source>Ganda</source>
-        <translation type="unfinished"></translation>
+        <translation>Ganda</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="118"/>
         <source>Limburgan</source>
-        <translation type="unfinished"></translation>
+        <translation>Limburgi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="120"/>
         <source>Lao</source>
-        <translation type="unfinished"></translation>
+        <translation>Lao</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="122"/>
         <source>Luba-Katanga</source>
-        <translation type="unfinished"></translation>
+        <translation>Luba-katanga</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="125"/>
         <source>Marshallese</source>
-        <translation type="unfinished"></translation>
+        <translation>Marshall-szigeteki</translation>
     </message>
     <message encoding="UTF-8">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
-        <translation type="unfinished"></translation>
+        <translation>Bokmal</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="143"/>
         <source>Ndebele</source>
-        <translation type="unfinished"></translation>
+        <translation>Ndebele</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="139"/>
         <source>Ndonga</source>
-        <translation type="unfinished"></translation>
+        <translation>Ndonga</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="144"/>
         <source>Navajo</source>
-        <translation type="unfinished"></translation>
+        <translation>Navaho</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="145"/>
         <source>Chichewa</source>
-        <translation type="unfinished"></translation>
+        <translation>Csicseva</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="147"/>
         <source>Ojibwa</source>
-        <translation type="unfinished"></translation>
+        <translation>Ozsibva</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="148"/>
         <source>Oromo</source>
-        <translation type="unfinished"></translation>
+        <translation>Oromo</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="150"/>
         <source>Ossetian</source>
-        <translation type="unfinished"></translation>
+        <translation>Oszét</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="151"/>
         <source>Panjabi</source>
-        <translation type="unfinished"></translation>
+        <translation>Pandzsábi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="152"/>
         <source>Pali</source>
-        <translation type="unfinished"></translation>
+        <translation>Páli</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="154"/>
         <source>Pushto</source>
-        <translation type="unfinished"></translation>
+        <translation>Pasto</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="157"/>
         <source>Romansh</source>
-        <translation type="unfinished"></translation>
+        <translation>Rétoromán</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="158"/>
         <source>Rundi</source>
-        <translation type="unfinished"></translation>
+        <translation>Rundi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="163"/>
         <source>Sardinian</source>
-        <translation type="unfinished"></translation>
+        <translation>Szárd</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="165"/>
         <source>Sami</source>
-        <translation type="unfinished"></translation>
+        <translation>Lapp</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="166"/>
         <source>Sango</source>
-        <translation type="unfinished"></translation>
+        <translation>Szango</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="167"/>
         <source>Sinhala</source>
-        <translation type="unfinished"></translation>
+        <translation>Szimhala</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
         <source>Swati</source>
-        <translation type="unfinished"></translation>
+        <translation>Szvázi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="176"/>
         <source>Sotho</source>
-        <translation type="unfinished"></translation>
+        <translation>Szoto</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="187"/>
         <source>Tswana</source>
-        <translation type="unfinished"></translation>
+        <translation>Csvana</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="193"/>
         <source>Tahitian</source>
-        <translation type="unfinished"></translation>
+        <translation>Tahiti</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="198"/>
         <source>Venda</source>
-        <translation type="unfinished"></translation>
+        <translation>Venda</translation>
     </message>
     <message encoding="UTF-8">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
-        <translation type="unfinished"></translation>
+        <translation>Volapük</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="201"/>
         <source>Walloon</source>
-        <translation type="unfinished"></translation>
+        <translation>Vallon</translation>
     </message>
 </context>
 <context>
@@ -3320,7 +3320,7 @@ Valóban felül akarja írni?</translation>
     <message>
         <location filename="../logwindow.cpp" line="125"/>
         <source>Error saving file</source>
-        <translation>Hiba a fájl mentésekor</translation>
+        <translation>Hiba a fájl mentése közben</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="126"/>
@@ -6972,122 +6972,122 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="231"/>
         <source>Video preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Videó előnézet</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="68"/>
         <source>Cancel</source>
-        <translation type="unfinished">Mégsem</translation>
+        <translation>Mégsem</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="77"/>
         <source>Generated by SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayerrel generálva</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="147"/>
         <source>Creating thumbnails...</source>
-        <translation type="unfinished"></translation>
+        <translation>Bélyegképek létrehozása...</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="214"/>
         <source>Size: %1 MB</source>
-        <translation type="unfinished"></translation>
+        <translation>Méret: %1 MB</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="216"/>
         <source>Length: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Hossz: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="366"/>
         <source>Save file</source>
-        <translation type="unfinished"></translation>
+        <translation>Fájl mentése</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="367"/>
         <source>Images (*.png *.jpg)</source>
-        <translation type="unfinished"></translation>
+        <translation>Képek (*.png *.jpg)</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="374"/>
         <source>Error saving file</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiba a fájl mentése közben</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="375"/>
         <source>The file couldn&apos;t be saved</source>
-        <translation type="unfinished">A fájlt nem lehetett menteni</translation>
+        <translation>A fájlt nem lehetett menteni</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="114"/>
         <source>Error</source>
-        <translation type="unfinished">Hiba</translation>
+        <translation>Hiba</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="115"/>
         <source>The following error has occurred while creating the thumbnails:</source>
-        <translation type="unfinished"></translation>
+        <translation>A következő hiba lépett fel a bélyegképek létrehozása közben:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="133"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
-        <translation type="unfinished"></translation>
+        <translation>Az átmeneti könyvtár (%1) nem hozható létre</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="193"/>
         <source>The mplayer process didn&apos;t run</source>
-        <translation type="unfinished"></translation>
+        <translation>Az mplayer folyamat nem futott</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="215"/>
         <source>Resolution: %1x%2</source>
-        <translation type="unfinished"></translation>
+        <translation>Felbontás: %1x%2</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="219"/>
         <source>Video format: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Videó formátum: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="220"/>
         <source>Frames per second: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Képkocka / másodperc: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="221"/>
         <source>Aspect ratio: %1</source>
-        <translation type="unfinished">Méretarány: %1</translation>
+        <translation>Méretarány: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="224"/>
         <source>Video bitrate: %1 kbps</source>
-        <translation type="unfinished"></translation>
+        <translation>Videó bitráta: %1 kbps</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="225"/>
         <source>Audio bitrate: %1 kbps</source>
-        <translation type="unfinished"></translation>
+        <translation>Hang bitráta: %1 kbps</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="226"/>
         <source>Audio rate: %1 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>Hang mintavételezés: %1 Hz</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="243"/>
         <source>The file %1 can&apos;t be loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>A %1 fájl nem lehet betölteni</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="293"/>
         <source>No filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Nincs fájlnév</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="348"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
-        <translation type="unfinished"></translation>
+        <translation>Az mplayer folyamat nem indult el a videó információinak lekérdezése közben</translation>
     </message>
 </context>
 <context>
@@ -7095,47 +7095,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="26"/>
         <source>Default</source>
-        <translation type="unfinished">Alapértelmezett</translation>
+        <translation>Alapértelmezett</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="13"/>
         <source>Video Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Videó előnézet</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="21"/>
         <source>&amp;File:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Fájl:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="38"/>
         <source>&amp;Columns:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Oszlopok:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="74"/>
         <source>&amp;Rows:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sorok:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="96"/>
         <source>Add playing time to thumbnails</source>
-        <translation type="unfinished"></translation>
+        <translation>Lejátszási idő hozzáadása a bélegképekhez</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="118"/>
         <source>&amp;Aspect ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Méretarány:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="148"/>
         <source>&amp;Seconds to skip at the beginnning:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kezdésnél kihagyandó másodpercek:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="178"/>
         <source>&amp;Maximum width:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Maximális szélesség:</translation>
     </message>
 </context>
 <context>
