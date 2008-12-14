@@ -186,7 +186,9 @@ bool VideoPreview::extractImages() {
 		QString output_file = output_dir + QString("/picture_%1.jpg").arg(current_time, 8, 10, QLatin1Char('0'));
 		d.rename(output_dir + "/00000005.jpg", output_file);
 
-		addPicture(QDir::tempPath() +"/"+ output_file, current_row, current_col, current_time);
+		if (!addPicture(QDir::tempPath() +"/"+ output_file, current_row, current_col, current_time)) {
+			return false;
+		}
 		current_col++;
 		if (current_col >= n_cols) { current_col = 0; current_row++; }
 
@@ -209,10 +211,14 @@ bool VideoPreview::extractImages() {
 	return true;
 }
 
-void VideoPreview::addPicture(const QString & filename, int row, int col, int time) {
-	//qDebug("VideoPreview::addPicture: %d %d", row, col);
+bool VideoPreview::addPicture(const QString & filename, int row, int col, int time) {
+	qDebug("VideoPreview::addPicture: row: %d col: %d, file: '%s'", row, col, filename.toUtf8().constData());
 
-	QPixmap picture(filename);
+	QPixmap picture;
+	if (!picture.load(filename)) {
+		qDebug("VideoPreview::addPicture: can't load file");
+		return false;
+	}
 
 	if (thumbnail_width == 0) {
 		int spacing = grid_layout->horizontalSpacing() * (n_cols-1);
@@ -240,6 +246,8 @@ void VideoPreview::addPicture(const QString & filename, int row, int col, int ti
 	l->setPixmap(scaled_picture);
 	//l->setPixmap(picture);
 	grid_layout->addWidget(l, row, col);
+
+	return true;
 }
 
 void VideoPreview::cleanDir(QString directory) {
