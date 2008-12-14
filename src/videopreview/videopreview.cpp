@@ -35,6 +35,11 @@
 #include <QSettings>
 #include <QApplication>
 
+// Workaround for Windows
+#ifdef Q_OS_WIN
+#define CD_TO_TEMP_DIR 1
+#endif
+
 VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFlags f) : QDialog(parent, f)
 {
 	mplayer_bin = mplayer_path;
@@ -143,7 +148,7 @@ bool VideoPreview::extractImages() {
 
 		QStringList args;
 		args << "-nosound" << "-vo" 
-#ifdef Q_OS_WIN
+#ifdef CD_TO_TEMP_DIR
 			<< "jpeg"
 #else
 			<< "jpeg:outdir="+full_output_dir
@@ -168,8 +173,9 @@ bool VideoPreview::extractImages() {
 		qDebug("VideoPreview::extractImages: command: %s", command.toUtf8().constData());
 
 		QProcess p;
-#ifdef Q_OS_WIN
+#ifdef CD_TO_TEMP_DIR
 		p.setWorkingDirectory(full_output_dir);
+		qDebug("VideoPreview::extractImages: changing working directory of the process to '%s'", full_output_dir.toUtf8().constData());
 #endif
 		p.start(mplayer_bin, args);
 		if (!p.waitForFinished()) {
