@@ -80,8 +80,6 @@ public:
 	void setAspectRatio(double asp) { aspect_ratio = asp; };
 	double aspectRatio() { return aspect_ratio; };
 
-	void clearThumbnails();
-
 	bool createThumbnails();
 
 	bool showConfigDialog();
@@ -100,6 +98,7 @@ protected:
 	bool extractImages();
 	bool addPicture(const QString & filename, int col, int row, int time); 
 	void cleanDir(QString directory);
+	void clearThumbnails();
 	void saveSettings();
 	void loadSettings();
 
