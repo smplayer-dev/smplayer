@@ -86,8 +86,8 @@ public:
 
 	bool showConfigDialog();
 
-	void saveSettings(QSettings * set);
-	void loadSettings(QSettings * set);
+	void setSettings(QSettings * settings);
+	QSettings * settings() { return set; };
 
 	VideoInfo getInfo(const QString & mplayer_path, const QString & filename);
 	QString errorMessage() { return error_message; };
@@ -100,6 +100,8 @@ protected:
 	bool extractImages();
 	bool addPicture(const QString & filename, int col, int row, int time); 
 	void cleanDir(QString directory);
+	void saveSettings();
+	void loadSettings();
 
 	QList <QLabel *> label_list;
 
@@ -115,6 +117,8 @@ protected:
 
 	QProgressDialog * progress;
 	bool canceled;
+
+	QSettings * set;
 
 	QString input_video;
 	int n_cols, n_rows, initial_step, max_width;
