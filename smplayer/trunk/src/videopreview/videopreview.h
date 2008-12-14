@@ -89,8 +89,8 @@ public:
 	void saveSettings(QSettings * set);
 	void loadSettings(QSettings * set);
 
-	static VideoInfo getInfo(const QString & mplayer_path, const QString & filename);
-	static QString errorMessage() { return error_message; };
+	VideoInfo getInfo(const QString & mplayer_path, const QString & filename);
+	QString errorMessage() { return error_message; };
 
 protected slots:
 	void cancelPressed();
@@ -124,7 +124,7 @@ protected:
 	int thumbnail_width;
 
 	QString last_directory;
-	static QString error_message;
+	QString error_message;
 };
 
 #endif

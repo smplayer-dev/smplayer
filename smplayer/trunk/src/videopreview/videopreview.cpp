@@ -40,8 +40,6 @@
 #define CD_TO_TEMP_DIR 1
 #endif
 
-QString VideoPreview::error_message;
-
 VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFlags f) : QDialog(parent, f)
 {
 	mplayer_bin = mplayer_path;
