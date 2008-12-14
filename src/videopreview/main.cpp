@@ -35,7 +35,7 @@ int main( int argc, char ** argv )
 	QSettings set(QSettings::IniFormat, QSettings::UserScope, "RVM", "videopreview");
 
 	VideoPreview vp("mplayer");
-	vp.loadSettings(&set);
+	vp.setSettings(&set);
 
 	if (!filename.isEmpty())
 		vp.setVideoFile(filename);
@@ -49,7 +49,6 @@ int main( int argc, char ** argv )
 
 	if ( (vp.showConfigDialog()) && (vp.createThumbnails()) ) {
 		vp.exec();
-		vp.saveSettings(&set);
 
 		//return a.exec();
 	}

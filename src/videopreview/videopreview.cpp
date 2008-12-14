@@ -50,6 +50,8 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFla
 
 	qDebug("VideoPreview::VideoPreview: mplayer_bin: '%s'", mplayer_bin.toUtf8().constData());
 
+	set = 0; // settings
+
 	input_video.clear();
 	n_cols = 4;
 	n_rows = 4;
@@ -101,6 +103,12 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFla
 }
 
 VideoPreview::~VideoPreview() {
+	if (set) saveSettings();
+}
+
+void VideoPreview::setSettings(QSettings * settings) {
+	set = settings;
+	loadSettings();
 }
 
 void VideoPreview::clearThumbnails() {
@@ -421,7 +429,7 @@ bool VideoPreview::showConfigDialog() {
 	return false;
 }
 
-void VideoPreview::saveSettings(QSettings * set) {
+void VideoPreview::saveSettings() {
 	qDebug("VideoPreview::saveSettings");
 
 	set->beginGroup("videopreview");
@@ -437,7 +445,7 @@ void VideoPreview::saveSettings(QSettings * set) {
 	set->endGroup();
 }
 
-void VideoPreview::loadSettings(QSettings * set) {
+void VideoPreview::loadSettings() {
 	qDebug("VideoPreview::loadSettings");
 
 	set->beginGroup("videopreview");
