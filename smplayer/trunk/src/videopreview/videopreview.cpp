@@ -208,11 +208,20 @@ bool VideoPreview::extractImages() {
 
 	QTime t = QTime().addSecs(i.length);
 	info->setText(
-		"<b>" +	
-		tr("File: %1").arg(i.filename) + "<br>" +
+		"<b>" 
+		"<font size=+1>" + tr("File: %1").arg(i.filename) +"</font>"
+		"<table cellspacing=4 cellpadding=4><tr>"
+		"<td>" +
 		tr("Size: %1 MB").arg(i.size / (1024*1024)) + "<br>" +
 		tr("Resolution: %1 x %2").arg(i.width).arg(i.height) + "<br>" +
 		tr("Length: %1").arg(t.toString("hh:mm:ss")) + 
+		"</td>"
+		"<td>" +
+		tr("Frames per second: %1").arg(i.fps) + "<br>" +
+		tr("Aspect ratio: %1").arg(i.aspect) + "<br>" +
+		tr("Video bitrate: %1 kbps").arg(i.video_bitrate/1000) + //"<br>" +
+		"</td>"
+		"</tr></table>" 
 		"</b>"
 	);
 
@@ -312,6 +321,17 @@ VideoInfo VideoPreview::getInfo(const QString & mplayer_path, const QString & fi
 				if (tag == "VIDEO_WIDTH") i.width = value.toInt();
 				else
 				if (tag == "VIDEO_HEIGHT") i.height = value.toInt();
+				else
+				if (tag == "VIDEO_FPS") i.fps = value.toDouble();
+				else
+				if (tag == "VIDEO_ASPECT") {
+					i.aspect = value.toDouble();
+					if ((i.aspect == 0) && (i.width != 0) && (i.height != 0)) {
+						i.aspect = (double) i.width / i.height;
+					}
+				}
+				else
+				if (tag == "VIDEO_BITRATE") i.video_bitrate = value.toInt();
 			}
 		}
 	} else {
