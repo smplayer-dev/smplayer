@@ -3009,7 +3009,7 @@ Por favor verifica los permisos de esa carpeta.</translation>
     <message>
         <location filename="../languages.cpp" line="30"/>
         <source>Aragonese</source>
-        <translation type="unfinished"></translation>
+        <translation>Aragonés</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="33"/>
@@ -3034,7 +3034,7 @@ Por favor verifica los permisos de esa carpeta.</translation>
     <message>
         <location filename="../languages.cpp" line="47"/>
         <source>Chechen</source>
-        <translation type="unfinished"></translation>
+        <translation>Checheno</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="49"/>
@@ -3079,7 +3079,7 @@ Por favor verifica los permisos de esa carpeta.</translation>
     <message>
         <location filename="../languages.cpp" line="73"/>
         <source>Gaelic</source>
-        <translation type="unfinished"></translation>
+        <translation>Gaélico</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="77"/>
@@ -3294,7 +3294,7 @@ Por favor verifica los permisos de esa carpeta.</translation>
     <message>
         <location filename="../languages.cpp" line="193"/>
         <source>Tahitian</source>
-        <translation type="unfinished"></translation>
+        <translation>Tahitiano</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="198"/>
@@ -7079,7 +7079,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="220"/>
         <source>Frames per second: %1</source>
-        <translation>Imágenes por segundo:%1</translation>
+        <translation>Imágenes por segundo: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="221"/>
