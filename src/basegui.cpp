@@ -113,6 +113,7 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	file_dialog = 0;
 	clhelp_window = 0;
 	find_subs_dialog = 0;
+	video_preview = 0;
 
 	// Create objects:
 	createPanel();
@@ -255,6 +256,10 @@ BaseGui::~BaseGui() {
 	if (find_subs_dialog) {
 		delete find_subs_dialog;
 		find_subs_dialog = 0; // Necessary?
+	}
+
+	if (video_preview) {
+		delete video_preview;
 	}
 }
 
@@ -4006,16 +4011,17 @@ void BaseGui::openUploadSubtitlesPage() {
 void BaseGui::showVideoPreviewDialog() {
 	qDebug("BaseGui::showVideoPreviewDialog");
 
-	VideoPreview vp( pref->mplayer_bin, this );
-	vp.loadSettings(Global::settings);
-
-	if (!core->mdat.filename.isEmpty()) {
-		vp.setVideoFile(core->mdat.filename);
+	if (video_preview == 0) {
+		video_preview = new VideoPreview( pref->mplayer_bin, 0 );
+		video_preview->setSettings(Global::settings);
 	}
 
-	if ( (vp.showConfigDialog()) && (vp.createThumbnails()) ) {
-		vp.exec();
-		vp.saveSettings(Global::settings);
+	if (!core->mdat.filename.isEmpty()) {
+		video_preview->setVideoFile(core->mdat.filename);
+	}
+
+	if ( (video_preview->showConfigDialog()) && (video_preview->createThumbnails()) ) {
+		video_preview->show();
 	}
 }
 

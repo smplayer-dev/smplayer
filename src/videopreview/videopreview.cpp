@@ -121,6 +121,7 @@ void VideoPreview::clearThumbnails() {
 }
 
 bool VideoPreview::createThumbnails() {
+	clearThumbnails();
 	error_message.clear();
 
 	bool result = extractImages();
@@ -129,6 +130,9 @@ bool VideoPreview::createThumbnails() {
 		QMessageBox::critical(this, tr("Error"), 
                               tr("The following error has occurred while creating the thumbnails:")+"\n"+ error_message );
 	}
+
+	// Adjust size
+	resize( w_contents->sizeHint() );
 
 	cleanDir(full_output_dir);
 	return result;
@@ -153,6 +157,31 @@ bool VideoPreview::extractImages() {
 		}
 	}
 
+	// Display info about the video
+	QTime t = QTime().addSecs(i.length);
+	info->setText(
+		"<b><font size=+1>" + i.filename +"</font></b>"
+		"<table cellspacing=4 cellpadding=4><tr>"
+		"<td>" +
+		tr("Size: %1 MB").arg(i.size / (1024*1024)) + "<br>" +
+		tr("Resolution: %1x%2").arg(i.width).arg(i.height) + "<br>" +
+		tr("Length: %1").arg(t.toString("hh:mm:ss")) +
+		"</td>"
+		"<td>" +
+		tr("Video format: %1").arg(i.video_format) + "<br>" +
+		tr("Frames per second: %1").arg(i.fps) + "<br>" +
+		tr("Aspect ratio: %1").arg(i.aspect) + //"<br>" +
+		"</td>"
+		"<td>" +
+		tr("Video bitrate: %1 kbps").arg(i.video_bitrate/1000) + "<br>" +
+		tr("Audio bitrate: %1 kbps").arg(i.audio_bitrate/1000) + "<br>" +
+		tr("Audio rate: %1 Hz").arg(i.audio_rate) + //"<br>" +
+		"</td>"
+		"</tr></table>" 
+	);
+	setWindowTitle( tr("Video preview") + " - " + i.filename );
+
+	// Let's begin
 	thumbnail_width = 0;
 
 	int num_pictures = n_cols * n_rows;
@@ -228,31 +257,6 @@ bool VideoPreview::extractImages() {
 
 		current_time += s_step;
 	}
-
-	QTime t = QTime().addSecs(i.length);
-	info->setText(
-		"<b><font size=+1>" + i.filename +"</font></b>"
-		"<table cellspacing=4 cellpadding=4><tr>"
-		"<td>" +
-		tr("Size: %1 MB").arg(i.size / (1024*1024)) + "<br>" +
-		tr("Resolution: %1x%2").arg(i.width).arg(i.height) + "<br>" +
-		tr("Length: %1").arg(t.toString("hh:mm:ss")) +
-		"</td>"
-		"<td>" +
-		tr("Video format: %1").arg(i.video_format) + "<br>" +
-		tr("Frames per second: %1").arg(i.fps) + "<br>" +
-		tr("Aspect ratio: %1").arg(i.aspect) + //"<br>" +
-		"</td>"
-		"<td>" +
-		tr("Video bitrate: %1 kbps").arg(i.video_bitrate/1000) + "<br>" +
-		tr("Audio bitrate: %1 kbps").arg(i.audio_bitrate/1000) + "<br>" +
-		tr("Audio rate: %1 Hz").arg(i.audio_rate) + //"<br>" +
-		"</td>"
-		"</tr></table>" 
-	);
-
-	setWindowTitle( tr("Video preview") + " - " + i.filename );
-	resize( w_contents->sizeHint() );
 
 	return true;
 }
