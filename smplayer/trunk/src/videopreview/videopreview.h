@@ -19,7 +19,7 @@
 #ifndef _VIDEOPREVIEW_H_
 #define _VIDEOPREVIEW_H_
 
-#include <QDialog>
+#include <QWidget>
 #include <QString>
 #include <QList>
 
@@ -49,7 +49,7 @@ public:
 	QString video_format;
 };
 
-class VideoPreview : public QDialog
+class VideoPreview : public QWidget
 {
 	Q_OBJECT
 
