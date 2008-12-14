@@ -38,6 +38,12 @@
 VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFlags f) : QDialog(parent, f)
 {
 	mplayer_bin = mplayer_path;
+	QFileInfo fi(mplayer_bin);
+	if (fi.exists() && fi.isExecutable() && !fi.isDir()) {
+		mplayer_bin = fi.absoluteFilePath();
+    }
+
+	qDebug("VideoPreview::VideoPreview: mplayer_bin: '%s'", mplayer_bin.toUtf8().constData());
 
 	input_video.clear();
 	n_cols = 4;
