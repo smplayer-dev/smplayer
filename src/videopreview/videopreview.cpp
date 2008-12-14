@@ -208,21 +208,24 @@ bool VideoPreview::extractImages() {
 
 	QTime t = QTime().addSecs(i.length);
 	info->setText(
-		"<b>" 
-		"<font size=+1>" + tr("File: %1").arg(i.filename) +"</font>"
+		"<b><font size=+1>" + tr("File: %1").arg(i.filename) +"</font></b>"
 		"<table cellspacing=4 cellpadding=4><tr>"
 		"<td>" +
 		tr("Size: %1 MB").arg(i.size / (1024*1024)) + "<br>" +
-		tr("Resolution: %1 x %2").arg(i.width).arg(i.height) + "<br>" +
-		tr("Length: %1").arg(t.toString("hh:mm:ss")) + 
+		tr("Resolution: %1x%2").arg(i.width).arg(i.height) + "<br>" +
+		tr("Length: %1").arg(t.toString("hh:mm:ss")) +
 		"</td>"
 		"<td>" +
+		tr("Video format: %1").arg(i.video_format) + "<br>" +
 		tr("Frames per second: %1").arg(i.fps) + "<br>" +
-		tr("Aspect ratio: %1").arg(i.aspect) + "<br>" +
-		tr("Video bitrate: %1 kbps").arg(i.video_bitrate/1000) + //"<br>" +
+		tr("Aspect ratio: %1").arg(i.aspect) + //"<br>" +
+		"</td>"
+		"<td>" +
+		tr("Video bitrate: %1 kbps").arg(i.video_bitrate/1000) + "<br>" +
+		tr("Audio bitrate: %1 kbps").arg(i.audio_bitrate/1000) + "<br>" +
+		tr("Audio rate: %1 Hz").arg(i.audio_rate) + //"<br>" +
 		"</td>"
 		"</tr></table>" 
-		"</b>"
 	);
 
 	setWindowTitle( tr("Video preview") + " - " + i.filename );
@@ -332,6 +335,12 @@ VideoInfo VideoPreview::getInfo(const QString & mplayer_path, const QString & fi
 				}
 				else
 				if (tag == "VIDEO_BITRATE") i.video_bitrate = value.toInt();
+				else
+				if (tag == "AUDIO_BITRATE") i.audio_bitrate = value.toInt();
+				else
+				if (tag == "AUDIO_RATE") i.audio_rate = value.toInt();
+				else
+				if (tag == "VIDEO_FORMAT") i.video_format = value;
 			}
 		}
 	} else {
