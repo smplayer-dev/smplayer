@@ -40,7 +40,7 @@
 #define CD_TO_TEMP_DIR 1
 #endif
 
-VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFlags f) : QDialog(parent, f)
+VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFlags f) : QWidget(parent, f)
 {
 	mplayer_bin = mplayer_path;
 	QFileInfo fi(mplayer_bin);
@@ -93,7 +93,7 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFla
 	scroll_area->setWidget( w_contents );
 
 	QDialogButtonBox * button_box = new QDialogButtonBox(QDialogButtonBox::Close | QDialogButtonBox::Save, Qt::Horizontal, this);
-	connect( button_box, SIGNAL(rejected()), this, SLOT(reject()) );
+	connect( button_box, SIGNAL(rejected()), this, SLOT(close()) );
 	connect( button_box->button(QDialogButtonBox::Save), SIGNAL(clicked()), this, SLOT(saveImage()) );
 
 	QVBoxLayout * my_layout = new QVBoxLayout;
