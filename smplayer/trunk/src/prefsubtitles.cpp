@@ -383,7 +383,7 @@ void PrefSubtitles::createHelp() {
 	setWhatsThis(subtitles_on_screeshots_check, 
         tr("Include subtitles on screenshots"), 
         tr("If this option is checked, the subtitles will appear in the "
-           "screenshots. Note: it may cause some troubles sometimes." ) );
+           "screenshots. <b>Note:</b> it may cause some troubles sometimes." ) );
 
 	setWhatsThis(freetype_check, tr("Freetype support"), 
 		tr("You should normally not disable this option. Do it only if your "

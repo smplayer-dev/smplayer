@@ -237,7 +237,7 @@ void PrefPerformance::createHelp() {
 	setWhatsThis(priority_combo, tr("Priority"), 
 		tr("Set process priority for mplayer according to the predefined "
            "priorities available under Windows.<br>"
-           "<b>WARNING:</b> Using realtime priority can cause system lockup."));
+           "<b>Warning:</b> Using realtime priority can cause system lockup."));
 #endif
 
 	setWhatsThis(framedrop_check, tr("Allow frame drop"),

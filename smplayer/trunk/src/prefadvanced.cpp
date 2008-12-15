@@ -430,7 +430,7 @@ void PrefAdvanced::createHelp() {
 		   "Useful with broken/incomplete downloads, or badly created files. "
            "This option only works if the underlying media supports "
            "seeking (i.e. not with stdin, pipe, etc).<br> "
-           "Note: the creation of the index may take some time.") );
+           "<b>Note:</b> the creation of the index may take some time.") );
 
 	setWhatsThis(correct_pts_check, tr("Correct pts"),
 		tr("Switches MPlayer to an experimental mode where timestamps for "
@@ -511,7 +511,7 @@ void PrefAdvanced::createHelp() {
 		tr("If the proxy requires authentication, this sets the username.") );
 
 	setWhatsThis(proxy_password_edit, tr("Password"),
-		tr("The password for the proxy. Warning: the password will be saved "
+		tr("The password for the proxy. <b>Warning:</b> the password will be saved "
            "as plain text in the configuration file.") );
 
 	setWhatsThis(proxy_type_combo, tr("Type"),
