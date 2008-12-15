@@ -698,8 +698,9 @@ void PrefGeneral::createHelp() {
            "option if you don't like this feature.") );
 
 	setWhatsThis(remember_time_check, tr("Remember time position"),
-		tr("If you check this option, SMPlayer will play all files from "
-           "the beginning.") );
+		tr("If you check this option, SMPlayer will remember the last position "
+           "of the file when you open it again. This option works only with "
+           "regular files (not with DVDs, CDs, URLs...).") );
 
 	setWhatsThis(filesettings_method_combo, tr("Method to store the file settings"),
 		tr("This option allows to change the way the file settings would be "
