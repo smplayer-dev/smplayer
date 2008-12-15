@@ -756,7 +756,7 @@ void PrefGeneral::createHelp() {
 	setWhatsThis(direct_rendering_check, tr("Direct rendering"),
 		tr("If checked, turns on direct rendering (not supported by all "
            "codecs and video outputs)<br>"
-           "<b>WARNING:</b> May cause OSD/SUB corruption!") );
+           "<b>Warning:</b> May cause OSD/SUB corruption!") );
 
 	setWhatsThis(double_buffer_check, tr("Double buffering"),
 		tr("Double buffering fixes flicker by storing two frames in memory, "
@@ -816,7 +816,7 @@ void PrefGeneral::createHelp() {
            "videos with AC3 audio (like DVDs). In that case liba52 does "
            "the decoding by default and correctly downmixes the audio "
            "into the requested number of channels. "
-           "NOTE: This option is honored by codecs (AC3 only), "
+           "<b>Note</b>: This option is honored by codecs (AC3 only), "
            "filters (surround) and audio output drivers (OSS at least).") );
 
 	setWhatsThis(scaletempo_combo, tr("High speed playback without altering pitch"),
