@@ -49,6 +49,7 @@ int main( int argc, char ** argv )
 
 	if ( (vp.showConfigDialog()) && (vp.createThumbnails()) ) {
 		vp.show();
+		vp.adjustWindowSize();
 		return a.exec();
 	}
 
