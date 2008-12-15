@@ -69,6 +69,9 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFla
 	connect( progress, SIGNAL(canceled()), this, SLOT(cancelPressed()) );
 
 	w_contents = new QWidget(this);
+	QPalette p = w_contents->palette();
+	p.setColor(w_contents->backgroundRole(), Qt::white);
+	w_contents->setPalette(p);
 
 	info = new QLabel(this);
 
