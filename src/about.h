@@ -45,6 +45,8 @@ protected:
 	//! Return a formatted string with the translator and language
 	QString trad(const QString & lang, const QString & author);
 
+	QString trad(const QString & lang, const QStringList & authors);
+
 	QString link(const QString & url, QString name = "");
 
 	//! Return a formatted string with the contributor and what he did
