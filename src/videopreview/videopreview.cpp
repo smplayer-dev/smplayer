@@ -87,7 +87,7 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFla
 	
 	w_contents->setLayout(l);
 
-	QScrollArea * scroll_area = new QScrollArea(this);
+	scroll_area = new QScrollArea(this);
 	scroll_area->setWidgetResizable(true);
 	scroll_area->setAlignment(Qt::AlignCenter);
 	scroll_area->setWidget( w_contents );
@@ -132,10 +132,26 @@ bool VideoPreview::createThumbnails() {
 	}
 
 	// Adjust size
-	resize( w_contents->sizeHint() );
+	//resize( w_contents->sizeHint() );
 
 	cleanDir(full_output_dir);
 	return result;
+}
+
+void VideoPreview::adjustWindowSize() {
+	qDebug("VideoPreview::adjustWindowSize: window size: %d %d", width(), height());
+	qDebug("VideoPreview::adjustWindowSize: scroll_area size: %d %d", scroll_area->width(), scroll_area->height());
+
+	int diff_width = width() - scroll_area->width() + 4; // Where does the hell this 4 come from?
+	int diff_height = height() - scroll_area->height() + 4;
+
+	qDebug("VideoPreview::adjustWindowSize: diff_width: %d diff_height: %d", diff_width, diff_height);
+
+	QSize new_size = w_contents->size() + QSize( diff_width, diff_height);
+
+	qDebug("VideoPreview::adjustWindowSize: new_size: %d %d", new_size.width(), new_size.height());
+
+	resize(new_size);
 }
 
 bool VideoPreview::extractImages() {

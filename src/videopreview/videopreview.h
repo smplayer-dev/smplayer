@@ -26,6 +26,7 @@
 class QProgressDialog;
 class QGridLayout;
 class QLabel;
+class QScrollArea;
 class QSettings;
 
 class VideoInfo 
@@ -90,6 +91,8 @@ public:
 	VideoInfo getInfo(const QString & mplayer_path, const QString & filename);
 	QString errorMessage() { return error_message; };
 
+	void adjustWindowSize();
+
 protected slots:
 	void cancelPressed();
 	void saveImage();
@@ -108,6 +111,7 @@ protected:
 	QLabel * info;
 	QLabel * foot;
 	QWidget * w_contents;
+	QScrollArea * scroll_area;
 
 	QString mplayer_bin;
 

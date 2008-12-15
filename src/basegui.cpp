@@ -4022,6 +4022,7 @@ void BaseGui::showVideoPreviewDialog() {
 
 	if ( (video_preview->showConfigDialog()) && (video_preview->createThumbnails()) ) {
 		video_preview->show();
+		video_preview->adjustWindowSize();
 	}
 }
 
