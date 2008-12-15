@@ -145,43 +145,43 @@ QString About::getTranslators() {
 	return QString(
 		 tr("The following people have contributed with translations:") + 
          "<ul>" +
-         trad(tr("German"), "Henrikx") + 
+         trad(tr("German"), "Henrikx <henrikx@users.sourceforge.net>") + 
 		 trad(tr("Slovak"), "Sweto <peter.mendel@gmail.com>") +
 		 trad(tr("Italian"), "Giancarlo Scola <scola.giancarlo@libero.it>") +
-         trad(tr("French"), tr("%1, %2 and %3")
-			.arg("Olivier g <1got@caramail.com>")
-			.arg("Temet <goondy@free.fr>")
-			.arg("Erwann MEST <kud.gray@gmail.com>") ) +
+         trad(tr("French"), QStringList() 
+			<< "Olivier g <1got@caramail.com>"
+			<< "Temet <goondy@free.fr>"
+			<< "Erwann MEST <kud.gray@gmail.com>") +
 		 trad(tr("Simplified-Chinese"), "Tim Green <iamtimgreen@gmail.com>") +
          trad(tr("Russian"), QString::fromUtf8("Белый Владимир <wiselord1983@gmail.com>"))+ 
-         trad(tr("Hungarian"), tr("%1 and %2")
-            .arg("Charles Barcza <kbarcza@blackpanther.hu>")
-            .arg("CyberDragon <cyberdragon777@gmail.com>")) + 
-         trad(tr("Polish"), tr("%1 and %2")
-            .arg("qla <qla0@vp.pl>")
-            .arg("Jarek <ajep9691@wp.pl>") ) +
+         trad(tr("Hungarian"), QStringList()
+			<< "Charles Barcza <kbarcza@blackpanther.hu>"
+			<< "CyberDragon <cyberdragon777@gmail.com>") + 
+         trad(tr("Polish"), QStringList()
+			<< "qla <qla0@vp.pl>"
+			<< "Jarek <ajep9691@wp.pl>" ) +
          trad(tr("Japanese"), "Nardog <nardog@e2umail.com>") + 
-         trad(tr("Dutch"), tr("%1, %2 and %3")
-			.arg("profoX <wesley@ubuntu-nl.org>")
-			.arg("BalaamsMiracle")
-			.arg("Kristof Bal <kristof.bal@gmail.com>")) +
-         trad(tr("Ukrainian"), tr("%1 and %2")
-			.arg("Motsyo Gennadi <drool@altlinux.ru>")
-			.arg("Oleksandr Kovalenko <alx.kovalenko@gmail.com>") ) +
+         trad(tr("Dutch"), QStringList()
+			<< "profoX <wesley@ubuntu-nl.org>"
+			<< "BalaamsMiracle"
+			<< "Kristof Bal <kristof.bal@gmail.com>") +
+         trad(tr("Ukrainian"), QStringList()
+			<< "Motsyo Gennadi <drool@altlinux.ru>"
+			<< "Oleksandr Kovalenko <alx.kovalenko@gmail.com>" ) +
          trad(tr("Portuguese - Brazil"), "Ventura <ventura.barbeiro@terra.com.br>") + 
          trad(tr("Georgian"), "George Machitidze <giomac@gmail.com>") + 
-         trad(tr("Czech"), tr("%1 and %2")
-			.arg(QString::fromUtf8("Martin Dvořák <martin.dvorak@centrum.cz>"))
-			.arg(QString::fromUtf8("Jaromír Smrček <jaromir.smrcek@zoner.com>")) ) +
+         trad(tr("Czech"), QStringList()
+			<< QString::fromUtf8("Martin Dvořák <martin.dvorak@centrum.cz>")
+			<< QString::fromUtf8("Jaromír Smrček <jaromir.smrcek@zoner.com>") ) +
          trad(tr("Bulgarian"), "<marzeliv@mail.bg>") +
          trad(tr("Turkish"), "alper er <alperer@gmail.com>") +
          trad(tr("Swedish"), "Leif Larsson <leif.larsson@gmail.com>") +
          trad(tr("Serbian"), "Kunalagon Umuhanik <kunalagon@gmail.com>") + 
          trad(tr("Traditional Chinese"), "Hoopoe <dai715.tw@yahoo.com.tw>") + 
          trad(tr("Romanian"), "DoruH <DoruHushHush@gmail.com>") + 
-         trad(tr("Portuguese - Portugal"), tr("%1 and %2")
-			.arg("Waxman <waxman.pt@gmail.com>")
-			.arg(QString::fromUtf8("Sérgio Marques <contatica@netcabo.pt>"))) +
+         trad(tr("Portuguese - Portugal"), QStringList()
+			<< "Waxman <waxman.pt@gmail.com>"
+			<< QString::fromUtf8("Sérgio Marques <contatica@netcabo.pt>") ) +
 		trad(tr("Greek"), "my80s <wamy80s@gmail.com>") +
 		trad(tr("Finnish"), "peeaivo <peeaivo@gmail.com>") +
 		trad(tr("Korean"), "Heesu Yoon <imsu30@gmail.com>") +
@@ -198,6 +198,25 @@ QString About::getTranslators() {
 QString About::trad(const QString & lang, const QString & author) {
 	QString author_str = QString(author).replace("<", "&lt;").replace(">", "&gt;");
 	return "<li>"+ tr("<b>%1</b>: %2").arg(lang).arg(author_str) + "</li>";
+}
+
+QString About::trad(const QString & lang, const QStringList & authors) {
+	QString s;
+
+	switch (authors.count()) {
+		case 2: s = tr("%1 and %2"); break;
+		case 3: s = tr("%1, %2 and %3"); break;
+		case 4: s = tr("%1, %2, %3 and %4"); break;
+		case 5: s = tr("%1, %2, %3, %4 and %5"); break;
+		default: s = "%1";
+	}
+
+	for (int n = 0; n < authors.count(); n++) {
+		QString author = authors[n];
+		s = s.arg(author.replace("<", "&lt;").replace(">", "&gt;"));
+	}
+
+	return "<li>"+ tr("<b>%1</b>: %2").arg(lang).arg(s) + "</li>";
 }
 
 QString About::link(const QString & url, QString name) {
