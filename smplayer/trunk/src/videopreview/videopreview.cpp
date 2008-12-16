@@ -176,29 +176,7 @@ bool VideoPreview::extractImages() {
 		}
 	}
 
-	// Display info about the video
-	QTime t = QTime().addSecs(i.length);
-	info->setText(
-		"<b><font size=+1>" + i.filename +"</font></b>"
-		"<table cellspacing=4 cellpadding=4><tr>"
-		"<td>" +
-		tr("Size: %1 MB").arg(i.size / (1024*1024)) + "<br>" +
-		tr("Resolution: %1x%2").arg(i.width).arg(i.height) + "<br>" +
-		tr("Length: %1").arg(t.toString("hh:mm:ss")) +
-		"</td>"
-		"<td>" +
-		tr("Video format: %1").arg(i.video_format) + "<br>" +
-		tr("Frames per second: %1").arg(i.fps) + "<br>" +
-		tr("Aspect ratio: %1").arg(i.aspect) + //"<br>" +
-		"</td>"
-		"<td>" +
-		tr("Video bitrate: %1 kbps").arg(i.video_bitrate/1000) + "<br>" +
-		tr("Audio bitrate: %1 kbps").arg(i.audio_bitrate/1000) + "<br>" +
-		tr("Audio rate: %1 Hz").arg(i.audio_rate) + //"<br>" +
-		"</td>"
-		"</tr></table>" 
-	);
-	setWindowTitle( tr("Video preview") + " - " + i.filename );
+	displayVideoInfo(i);
 
 	// Let's begin
 	thumbnail_width = 0;
@@ -324,6 +302,32 @@ bool VideoPreview::addPicture(const QString & filename, int num, int time) {
 	grid_layout->addWidget(l, row, col);
 
 	return true;
+}
+
+void VideoPreview::displayVideoInfo(const VideoInfo & i) {
+	// Display info about the video
+	QTime t = QTime().addSecs(i.length);
+	info->setText(
+		"<b><font size=+1>" + i.filename +"</font></b>"
+		"<table cellspacing=4 cellpadding=4><tr>"
+		"<td>" +
+		tr("Size: %1 MB").arg(i.size / (1024*1024)) + "<br>" +
+		tr("Resolution: %1x%2").arg(i.width).arg(i.height) + "<br>" +
+		tr("Length: %1").arg(t.toString("hh:mm:ss")) +
+		"</td>"
+		"<td>" +
+		tr("Video format: %1").arg(i.video_format) + "<br>" +
+		tr("Frames per second: %1").arg(i.fps) + "<br>" +
+		tr("Aspect ratio: %1").arg(i.aspect) + //"<br>" +
+		"</td>"
+		"<td>" +
+		tr("Video bitrate: %1 kbps").arg(i.video_bitrate/1000) + "<br>" +
+		tr("Audio bitrate: %1 kbps").arg(i.audio_bitrate/1000) + "<br>" +
+		tr("Audio rate: %1 Hz").arg(i.audio_rate) + //"<br>" +
+		"</td>"
+		"</tr></table>" 
+	);
+	setWindowTitle( tr("Video preview") + " - " + i.filename );
 }
 
 void VideoPreview::cleanDir(QString directory) {
