@@ -52,13 +52,13 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFla
 
 	set = 0; // settings
 
-	input_video.clear();
-	n_cols = 4;
-	n_rows = 4;
-	initial_step = 20;
-	max_width = 800;
-	aspect_ratio = 0;
-	display_osd = true;
+	prop.input_video.clear();
+	prop.n_cols = 4;
+	prop.n_rows = 4;
+	prop.initial_step = 20;
+	prop.max_width = 800;
+	prop.aspect_ratio = 0;
+	prop.display_osd = true;
 
 	output_dir = "smplayer_preview";
 	full_output_dir = QDir::tempPath() +"/"+ output_dir;
@@ -142,7 +142,7 @@ bool VideoPreview::createThumbnails() {
 }
 
 bool VideoPreview::extractImages() {
-	VideoInfo i = getInfo(mplayer_bin, input_video);
+	VideoInfo i = getInfo(mplayer_bin, prop.input_video);
 	int length = i.length;
 
 	if (length == 0) {
@@ -165,11 +165,11 @@ bool VideoPreview::extractImages() {
 	// Let's begin
 	thumbnail_width = 0;
 
-	int num_pictures = n_cols * n_rows;
-	length -= initial_step;
+	int num_pictures = prop.n_cols * prop.n_rows;
+	length -= prop.initial_step;
 	int s_step = length / num_pictures;
 
-	int current_time = initial_step;
+	int current_time = prop.initial_step;
 
 	canceled = false;
 	progress->setLabelText(tr("Creating thumbnails..."));
@@ -213,8 +213,8 @@ bool VideoPreview::runMplayer(int seek) {
 		<< "-frames" << "6"
 		<< "-ss" << QString::number(seek);
 
-	if (aspect_ratio != 0) {
-		args << "-aspect" << QString::number(aspect_ratio) << "-zoom";
+	if (prop.aspect_ratio != 0) {
+		args << "-aspect" << QString::number(prop.aspect_ratio) << "-zoom";
 	}
 
 	/*
@@ -223,7 +223,7 @@ bool VideoPreview::runMplayer(int seek) {
 	}
 	*/
 
-	args << input_video;
+	args << prop.input_video;
 
 	QString command = mplayer_bin + " ";
 	for (int n = 0; n < args.count(); n++) command = command + args[n] + " ";
@@ -245,8 +245,8 @@ bool VideoPreview::runMplayer(int seek) {
 }
 
 bool VideoPreview::addPicture(const QString & filename, int num, int time) {
-	int row = num / n_cols;
-	int col = num % n_cols;
+	int row = num / prop.n_cols;
+	int col = num % prop.n_cols;
 
 	qDebug("VideoPreview::addPicture: %d (row: %d col: %d) file: '%s'", num, row, col, filename.toUtf8().constData());
 
@@ -258,10 +258,10 @@ bool VideoPreview::addPicture(const QString & filename, int num, int time) {
 	}
 
 	if (thumbnail_width == 0) {
-		int spacing = grid_layout->horizontalSpacing() * (n_cols-1);
+		int spacing = grid_layout->horizontalSpacing() * (prop.n_cols-1);
 		if (spacing < 0) spacing = 0;
 		qDebug("VideoPreview::addPicture: spacing: %d", spacing);
-		thumbnail_width = (max_width - spacing) / n_cols;
+		thumbnail_width = (prop.max_width - spacing) / prop.n_cols;
 		if (thumbnail_width > picture.width()) thumbnail_width = picture.width();
 		qDebug("VideoPreview::addPicture: thumbnail_width set to %d", thumbnail_width);
 	}
@@ -269,7 +269,7 @@ bool VideoPreview::addPicture(const QString & filename, int num, int time) {
 	QPixmap scaled_picture = picture.scaledToWidth(thumbnail_width, Qt::SmoothTransformation);
 
 	// Add current time text
-	if (display_osd) {
+	if (prop.display_osd) {
 		QString stime = QTime().addSecs(time).toString("hh:mm:ss");
 		QFont font("Arial");
 		font.setBold(true);
@@ -401,7 +401,7 @@ void VideoPreview::saveImage() {
 	qDebug("VideoPreview::saveImage");
 
 	QString proposed_name = last_directory;
-	QFileInfo fi(input_video);
+	QFileInfo fi(prop.input_video);
 	if (fi.exists()) {
 		proposed_name += "/"+fi.completeBaseName()+".jpg";
 	}
