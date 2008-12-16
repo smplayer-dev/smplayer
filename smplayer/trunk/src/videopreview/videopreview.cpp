@@ -410,8 +410,14 @@ void VideoPreview::cancelPressed() {
 void VideoPreview::saveImage() {
 	qDebug("VideoPreview::saveImage");
 
+	QString proposed_name = last_directory;
+	QFileInfo fi(input_video);
+	if (fi.exists()) {
+		proposed_name += "/"+fi.completeBaseName()+".jpg";
+	}
+
 	QString filename = QFileDialog::getSaveFileName(this, tr("Save file"),
-                            last_directory, tr("Images (*.png *.jpg)"));
+                            proposed_name, tr("Images (*.png *.jpg)"));
 
 	if (!filename.isEmpty()) {
 		QPixmap image = QPixmap::grabWidget(w_contents);
