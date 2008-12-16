@@ -132,7 +132,9 @@ protected:
 		bool display_osd;
 	} prop;
 
-	int thumbnail_width;
+	struct {
+		int thumbnail_width;
+	} run;
 
 	QString last_directory;
 	QString error_message;
