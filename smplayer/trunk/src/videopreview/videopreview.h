@@ -58,28 +58,28 @@ public:
 	VideoPreview(QString mplayer_path, QWidget * parent = 0, Qt::WindowFlags f = 0);
 	~VideoPreview();
 
-	void setVideoFile(QString file) { input_video = file; };
-	QString videoFile() { return input_video; };
+	void setVideoFile(QString file) { prop.input_video = file; };
+	QString videoFile() { return prop.input_video; };
 
-	void setCols(int cols) { n_cols = cols; };
-	int cols() { return n_cols; };
+	void setCols(int cols) { prop.n_cols = cols; };
+	int cols() { return prop.n_cols; };
 
-	void setRows(int rows) { n_rows = rows; };
-	int rows() { return n_rows; };
+	void setRows(int rows) { prop.n_rows = rows; };
+	int rows() { return prop.n_rows; };
 
-	void setGrid(int cols, int rows) { n_cols = cols; n_rows = rows; };
+	void setGrid(int cols, int rows) { prop.n_cols = cols; prop.n_rows = rows; };
 
-	void setInitialStep(int step) { initial_step = step; };
-	int initialStep() { return initial_step; };
+	void setInitialStep(int step) { prop.initial_step = step; };
+	int initialStep() { return prop.initial_step; };
 
-	void setMaxWidth(int w) { max_width = w; };
-	int maxWidth() { return max_width; };
+	void setMaxWidth(int w) { prop.max_width = w; };
+	int maxWidth() { return prop.max_width; };
 
-	void setDisplayOSD(bool b) { display_osd = b; };
-	bool displayOSD() { return display_osd; };
+	void setDisplayOSD(bool b) { prop.display_osd = b; };
+	bool displayOSD() { return prop.display_osd; };
 
-	void setAspectRatio(double asp) { aspect_ratio = asp; };
-	double aspectRatio() { return aspect_ratio; };
+	void setAspectRatio(double asp) { prop.aspect_ratio = asp; };
+	double aspectRatio() { return prop.aspect_ratio; };
 
 	bool createThumbnails();
 
@@ -125,10 +125,12 @@ protected:
 
 	QSettings * set;
 
-	QString input_video;
-	int n_cols, n_rows, initial_step, max_width;
-	double aspect_ratio;
-	bool display_osd;
+	struct Properties {
+		QString input_video;
+		int n_cols, n_rows, initial_step, max_width;
+		double aspect_ratio;
+		bool display_osd;
+	} prop;
 
 	int thumbnail_width;
 
