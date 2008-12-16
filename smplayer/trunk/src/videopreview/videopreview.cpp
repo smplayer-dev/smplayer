@@ -141,22 +141,6 @@ bool VideoPreview::createThumbnails() {
 	return result;
 }
 
-void VideoPreview::adjustWindowSize() {
-	qDebug("VideoPreview::adjustWindowSize: window size: %d %d", width(), height());
-	qDebug("VideoPreview::adjustWindowSize: scroll_area size: %d %d", scroll_area->width(), scroll_area->height());
-
-	int diff_width = width() - scroll_area->maximumViewportSize().width();
-	int diff_height = height() - scroll_area->maximumViewportSize().height();
-
-	qDebug("VideoPreview::adjustWindowSize: diff_width: %d diff_height: %d", diff_width, diff_height);
-
-	QSize new_size = w_contents->size() + QSize( diff_width, diff_height);
-
-	qDebug("VideoPreview::adjustWindowSize: new_size: %d %d", new_size.width(), new_size.height());
-
-	resize(new_size);
-}
-
 bool VideoPreview::extractImages() {
 	VideoInfo i = getInfo(mplayer_bin, input_video);
 	int length = i.length;
@@ -412,9 +396,6 @@ VideoInfo VideoPreview::getInfo(const QString & mplayer_path, const QString & fi
 	return i;
 }
 
-void VideoPreview::cancelPressed() {
-	canceled = true;
-}
 
 void VideoPreview::saveImage() {
 	qDebug("VideoPreview::saveImage");
@@ -497,6 +478,26 @@ void VideoPreview::loadSettings() {
 	setVideoFile( set->value("filename", videoFile()).toString() );
 
 	set->endGroup();
+}
+
+void VideoPreview::adjustWindowSize() {
+	qDebug("VideoPreview::adjustWindowSize: window size: %d %d", width(), height());
+	qDebug("VideoPreview::adjustWindowSize: scroll_area size: %d %d", scroll_area->width(), scroll_area->height());
+
+	int diff_width = width() - scroll_area->maximumViewportSize().width();
+	int diff_height = height() - scroll_area->maximumViewportSize().height();
+
+	qDebug("VideoPreview::adjustWindowSize: diff_width: %d diff_height: %d", diff_width, diff_height);
+
+	QSize new_size = w_contents->size() + QSize( diff_width, diff_height);
+
+	qDebug("VideoPreview::adjustWindowSize: new_size: %d %d", new_size.width(), new_size.height());
+
+	resize(new_size);
+}
+
+void VideoPreview::cancelPressed() {
+	canceled = true;
 }
 
 #include "moc_videopreview.cpp"
