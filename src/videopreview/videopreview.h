@@ -99,6 +99,7 @@ protected slots:
 
 protected:
 	bool extractImages();
+	bool runMplayer(int seek);
 	bool addPicture(const QString & filename, int num, int time); 
 	void cleanDir(QString directory);
 	void clearThumbnails();
