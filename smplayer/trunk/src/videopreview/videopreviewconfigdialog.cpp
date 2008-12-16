@@ -27,6 +27,15 @@ VideoPreviewConfigDialog::VideoPreviewConfigDialog( QWidget* parent, Qt::WindowF
 	aspect_ratio_combo->addItem("4:3", (double) 4/3);
 	aspect_ratio_combo->addItem("16:9", (double) 16/9);
 	aspect_ratio_combo->addItem("2.35:1", 2.35);
+
+	filename_edit->setWhatsThis( tr("The preview will be created for the video you specify here.") );
+	columns_spin->setWhatsThis( tr("The thumbnails will be arranged on a table.") +" "+ tr("This option specifies the number of columns of the table.") );
+	rows_spin->setWhatsThis( tr("The thumbnails will be arranged on a table.") +" "+ tr("This option specifies the number of rows of the table.") );
+	osd_check->setWhatsThis( tr("If you check this option, the playing time will be displayed at the bottom of each thumbnail.") );
+	aspect_ratio_combo->setWhatsThis( tr("If the aspect ratio of the video is wrong, you can specify a different one here.") );
+	initial_step_spin->setWhatsThis( tr("Usually the first frames are black, so it's a good idea to skip some seconds at the beginning of the video. "
+                                        "This option allows to specify how many seconds will be skipped.") );
+	max_width_spin->setWhatsThis( tr("This option specifies the maximum width in pixels that the generated preview image will have.") );
 }
 
 VideoPreviewConfigDialog::~VideoPreviewConfigDialog() {
