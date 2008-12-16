@@ -3193,9 +3193,9 @@ Controllarne i relativi permessi.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="154"/>
-       <source>Pushto</source>
+        <source>Pushto</source>
         <translation type="unfinished"></translation>
-   </message>
+    </message>
     <message>
         <location filename="../languages.cpp" line="157"/>
         <source>Romansh</source>
@@ -3604,7 +3604,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
         <translation>Questa opzione è pensata principalmente per scopi di debug.</translation>
     </message>
     <message>
-       <location filename="../prefadvanced.cpp" line="457"/>
+        <location filename="../prefadvanced.cpp" line="457"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
         <translation>Selezionare questa opzione può ridurre lo sfarfallio, ma può anche produrre una errata riproduzione video.</translation>
     </message>
@@ -3919,7 +3919,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
         <translation>Password</translation>
     </message>
     <message>
-       <location filename="../prefadvanced.ui" line="553"/>
+        <location filename="../prefadvanced.ui" line="553"/>
         <source>You can set a proxy for internet connections (currently only used for subtitle downloading).</source>
         <translation>È possibile impostare un proxy per le connessioni internet (usato al momento solo per il download dei sottotitoli).</translation>
     </message>
@@ -4248,8 +4248,8 @@ Esempio: resample=44100:0:0,volnorm</translation>
         <translation>Ricorda opzioni</translation>
     </message>
     <message>
-       <location filename="../prefgeneral.cpp" line="857"/>
-       <source>Preferred audio language</source>
+        <location filename="../prefgeneral.cpp" line="857"/>
+        <source>Preferred audio language</source>
         <translation>Lingua audio preferita</translation>
     </message>
     <message>
@@ -4767,7 +4767,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.cpp" line="702"/>
         <source>If you check this option, SMPlayer will play all files from the beginning.</source>
         <translation type="obsolete">Se deselezioni questa opzione, SMPlayer riprodurrà tutti i file dall&apos;inizio.</translation>
-   </message>
+    </message>
     <message>
         <location filename="../prefgeneral.cpp" line="721"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
@@ -5580,7 +5580,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Visualizza anche nella modalità compatta</translation>
     </message>
     <message>
-       <location filename="../prefinterface.cpp" line="590"/>
+        <location filename="../prefinterface.cpp" line="590"/>
         <source>Bypass window manager</source>
         <translation>Bypassa il window manager</translation>
     </message>
@@ -6665,7 +6665,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="128"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
-<translation>prova a stabilire una connessione ad un altra istanza e a mandare il comando specificato. Esempio: -send-action pause Tutto il resto (se presente) verrà ignorato e l&apos;applicazione terminerà. Ritorna 0 in caso di successo o -1 in caso di fallimento.</translation>
+        <translation>prova a stabilire una connessione ad un altra istanza e a mandare il comando specificato. Esempio: -send-action pause Tutto il resto (se presente) verrà ignorato e l&apos;applicazione terminerà. Ritorna 0 in caso di successo o -1 in caso di fallimento.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="136"/>
@@ -6966,7 +6966,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="198"/>
+        <location filename="../videopreview/videopreview.cpp" line="201"/>
         <source>Video preview</source>
         <translation>Anteprima video</translation>
     </message>
@@ -6976,122 +6976,122 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Annulla</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="77"/>
+        <location filename="../videopreview/videopreview.cpp" line="80"/>
         <source>Generated by SMPlayer</source>
         <translation>Generato da SMPlayer</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="210"/>
+        <location filename="../videopreview/videopreview.cpp" line="213"/>
         <source>Creating thumbnails...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-       <location filename="../videopreview/videopreview.cpp" line="182"/>
+        <location filename="../videopreview/videopreview.cpp" line="185"/>
         <source>Size: %1 MB</source>
         <translation>Dimensione: %1 MB</translation>
     </message>
     <message>
-       <location filename="../videopreview/videopreview.cpp" line="184"/>
+        <location filename="../videopreview/videopreview.cpp" line="187"/>
         <source>Length: %1</source>
         <translation>Durata: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="410"/>
+        <location filename="../videopreview/videopreview.cpp" line="419"/>
         <source>Save file</source>
         <translation>Salva file</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="411"/>
+        <location filename="../videopreview/videopreview.cpp" line="420"/>
         <source>Images (*.png *.jpg)</source>
         <translation>Immagini (*.png *.jpg)</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="418"/>
+        <location filename="../videopreview/videopreview.cpp" line="427"/>
         <source>Error saving file</source>
         <translation>Errore durante il salvataggio del file</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="419"/>
+        <location filename="../videopreview/videopreview.cpp" line="428"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>Non è stato possibile salvare il file</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="130"/>
+        <location filename="../videopreview/videopreview.cpp" line="133"/>
         <source>Error</source>
         <translation>Errore</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="131"/>
+        <location filename="../videopreview/videopreview.cpp" line="134"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="171"/>
+        <location filename="../videopreview/videopreview.cpp" line="174"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>La directory temporanea (%1) non può esssere creata</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="256"/>
+        <location filename="../videopreview/videopreview.cpp" line="259"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="183"/>
+        <location filename="../videopreview/videopreview.cpp" line="186"/>
         <source>Resolution: %1x%2</source>
         <translation>Risoluzione: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="187"/>
+        <location filename="../videopreview/videopreview.cpp" line="190"/>
         <source>Video format: %1</source>
         <translation>Formato video: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="188"/>
+        <location filename="../videopreview/videopreview.cpp" line="191"/>
         <source>Frames per second: %1</source>
         <translation>Fotogrammi al secondo: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="189"/>
+        <location filename="../videopreview/videopreview.cpp" line="192"/>
         <source>Aspect ratio: %1</source>
         <translation>Rapporto d&apos;aspetto</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="192"/>
+        <location filename="../videopreview/videopreview.cpp" line="195"/>
         <source>Video bitrate: %1 kbps</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="193"/>
+        <location filename="../videopreview/videopreview.cpp" line="196"/>
         <source>Audio bitrate: %1 kbps</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="194"/>
+        <location filename="../videopreview/videopreview.cpp" line="197"/>
         <source>Audio rate: %1 Hz</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="286"/>
+        <location filename="../videopreview/videopreview.cpp" line="289"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>Il file %1 non può essere caricato</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="337"/>
+        <location filename="../videopreview/videopreview.cpp" line="340"/>
         <source>No filename</source>
         <translation>Nessun nome file</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="392"/>
+        <location filename="../videopreview/videopreview.cpp" line="395"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="162"/>
+        <location filename="../videopreview/videopreview.cpp" line="165"/>
         <source>The length of the video is 0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="261"/>
+        <location filename="../videopreview/videopreview.cpp" line="264"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7142,6 +7142,46 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="178"/>
         <source>&amp;Maximum width:</source>
         <translation>&amp;Larghezza massima:</translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="31"/>
+        <source>The preview will be created for the video you specify here.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="33"/>
+        <source>The thumbnails will be arranged on a table.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="32"/>
+        <source>This option specifies the number of columns of the table.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="33"/>
+        <source>This option specifies the number of rows of the table.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="34"/>
+        <source>If you check this option, the playing time will be displayed at the bottom of each thumbnail.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="35"/>
+        <source>If the aspect ratio of the video is wrong, you can specify a different one here.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="37"/>
+        <source>Usually the first frames are black, so it&apos;s a good idea to skip some seconds at the beginning of the video. This option allows to specify how many seconds will be skipped.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="38"/>
+        <source>This option specifies the maximum width in pixels that the generated preview image will have.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
