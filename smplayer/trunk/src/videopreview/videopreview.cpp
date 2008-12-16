@@ -145,8 +145,8 @@ void VideoPreview::adjustWindowSize() {
 	qDebug("VideoPreview::adjustWindowSize: window size: %d %d", width(), height());
 	qDebug("VideoPreview::adjustWindowSize: scroll_area size: %d %d", scroll_area->width(), scroll_area->height());
 
-	int diff_width = width() - scroll_area->width() + 4; // Where does the hell this 4 come from?
-	int diff_height = height() - scroll_area->height() + 4;
+	int diff_width = width() - scroll_area->maximumViewportSize().width();
+	int diff_height = height() - scroll_area->maximumViewportSize().height();
 
 	qDebug("VideoPreview::adjustWindowSize: diff_width: %d diff_height: %d", diff_width, diff_height);
 
