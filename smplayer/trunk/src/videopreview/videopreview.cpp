@@ -211,12 +211,10 @@ bool VideoPreview::extractImages() {
 
 	canceled = false;
 	progress->setLabelText(tr("Creating thumbnails..."));
-	progress->setRange(1, num_pictures);
+	progress->setRange(0, num_pictures-1);
 
-	int current_col = 0;
-	int current_row = 0;
-	for (int n=1; n <= num_pictures; n++) {
-		qDebug("VideoPreview::extractImages: getting frame %d of %d...", n, num_pictures);
+	for (int n = 0; n < num_pictures; n++) {
+		qDebug("VideoPreview::extractImages: getting frame %d of %d...", n+1, num_pictures);
 		progress->setValue(n);
 		qApp->processEvents();
 
@@ -245,7 +243,7 @@ bool VideoPreview::extractImages() {
 		args << input_video;
 
 		QString command = mplayer_bin + " ";
-		for (int n = 0; n < args.count(); n++) command = command + args[n] + " ";
+		for (int c = 0; c < args.count(); c++) command = command + args[c] + " ";
 		qDebug("VideoPreview::extractImages: command: %s", command.toUtf8().constData());
 
 		QProcess p;
@@ -268,11 +266,9 @@ bool VideoPreview::extractImages() {
 		QString output_file = output_dir + QString("/picture_%1.jpg").arg(current_time, 8, 10, QLatin1Char('0'));
 		d.rename(output_dir + "/00000005.jpg", output_file);
 
-		if (!addPicture(QDir::tempPath() +"/"+ output_file, current_row, current_col, current_time)) {
+		if (!addPicture(QDir::tempPath() +"/"+ output_file, n, current_time)) {
 			return false;
 		}
-		current_col++;
-		if (current_col >= n_cols) { current_col = 0; current_row++; }
 
 		current_time += s_step;
 	}
@@ -280,8 +276,11 @@ bool VideoPreview::extractImages() {
 	return true;
 }
 
-bool VideoPreview::addPicture(const QString & filename, int row, int col, int time) {
-	qDebug("VideoPreview::addPicture: row: %d col: %d, file: '%s'", row, col, filename.toUtf8().constData());
+bool VideoPreview::addPicture(const QString & filename, int num, int time) {
+	int row = num / n_cols;
+	int col = num % n_cols;
+
+	qDebug("VideoPreview::addPicture: %d (row: %d col: %d) file: '%s'", num, row, col, filename.toUtf8().constData());
 
 	QPixmap picture;
 	if (!picture.load(filename)) {
