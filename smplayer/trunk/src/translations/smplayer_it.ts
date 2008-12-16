@@ -260,17 +260,17 @@
     <message>
         <location filename="../about.cpp" line="95"/>
         <source>The following people have contributed with patches (see the changelog for details):</source>
-        <translation type="unfinished"></translation>
+        <translation>Le seguenti persone hanno contribuito con patch (vedi il changelog per i dettagli):</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="112"/>
         <source>If there&apos;s any omission, please report.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se vi sono delle mancanze, per favore segnalare.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="92"/>
         <source>SMPlayer logo by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Logo di SMPlayer creato da %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="209"/>
@@ -541,7 +541,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1198"/>
         <source>&amp;Fullscreen</source>
-        <translation>&amp;Tutto schermo</translation>
+        <translation>T&amp;utto schermo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1199"/>
@@ -691,7 +691,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1340"/>
         <source>&amp;Open</source>
-        <translation>A&amp;pri</translation>
+        <translation>&amp;Apri</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1341"/>
@@ -706,7 +706,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1343"/>
         <source>&amp;Audio</source>
-        <translation>A&amp;udio</translation>
+        <translation>&amp;Audio</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1344"/>
@@ -726,7 +726,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1347"/>
         <source>&amp;Help</source>
-        <translation>&amp;Aiuto</translation>
+        <translation>A&amp;iuto</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1361"/>
@@ -866,7 +866,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1336"/>
         <source>Time + T&amp;otal time</source>
-        <translation>Tempo + Tempo T&amp;otale</translation>
+        <translation>T&amp;empo + Tempo totale</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1489"/>
@@ -1436,7 +1436,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="1329"/>
         <source>Next aspect ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Successivo rapporto d&apos;aspetto</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1210"/>
@@ -1456,7 +1456,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="1203"/>
         <source>Pre&amp;view...</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;nteprima</translation>
     </message>
 </context>
 <context>
@@ -1537,12 +1537,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../core.cpp" line="3075"/>
         <source>Aspect ratio: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Rapporto d&apos;aspetto: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3376"/>
         <source>Updating the font cache. This may take some seconds...</source>
-        <translation type="unfinished"></translation>
+        <translation>Aggiornamento della cache dei font. Può richiedere alcuni secondi...</translation>
     </message>
 </context>
 <context>
@@ -1892,7 +1892,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="398"/>
         <source>Temporary file %1</source>
-        <translation type="unfinished"></translation>
+        <translation>File temporaneo %1</translation>
     </message>
 </context>
 <context>
@@ -1905,7 +1905,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../infofile.cpp" line="64"/>
         <source>Size</source>
-        <translation>Grandezza</translation>
+        <translation>Dimensione</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="64"/>
@@ -2071,13 +2071,13 @@ Controllarne i relativi permessi.</translation>
         <location filename="../infofile.cpp" line="151"/>
         <source>ID</source>
         <comment>Info for translators: this is a identification code</comment>
-        <translation></translation>
+        <translation>ID</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="148"/>
         <source>#</source>
         <comment>Info for translators: this is a abbreviation for number</comment>
-        <translation></translation>
+        <translation>Nº</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="89"/>
@@ -2184,7 +2184,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="24"/>
         <source>Afar</source>
-        <translation></translation>
+        <translation>Afar</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="25"/>
@@ -2214,7 +2214,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="34"/>
         <source>Aymara</source>
-        <translation></translation>
+        <translation>Aymara</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="35"/>
@@ -2224,7 +2224,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="36"/>
         <source>Bashkir</source>
-        <translation></translation>
+        <translation>Baškira</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="33"/>
@@ -2244,7 +2244,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="40"/>
         <source>Bislama</source>
-        <translation></translation>
+        <translation>Bislama</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="42"/>
@@ -2344,7 +2344,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="69"/>
         <source>Faroese</source>
-        <translation></translation>
+        <translation>Faroese</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="225"/>
@@ -2374,17 +2374,17 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="75"/>
         <source>Guarani</source>
-        <translation></translation>
+        <translation>Guaraní</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="76"/>
         <source>Gujarati</source>
-        <translation></translation>
+        <translation>Gujarati</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="78"/>
         <source>Hausa</source>
-        <translation></translation>
+        <translation>Hausa</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="79"/>
@@ -2394,7 +2394,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="80"/>
         <source>Hindi</source>
-        <translation></translation>
+        <translation>Hindi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="82"/>
@@ -2414,7 +2414,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="88"/>
         <source>Interlingua</source>
-        <translation></translation>
+        <translation>Interlingua</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="89"/>
@@ -2424,7 +2424,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="90"/>
         <source>Interlingue</source>
-        <translation></translation>
+        <translation>Occidental / Interlingue</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="95"/>
@@ -2439,7 +2439,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="97"/>
         <source>Inuktitut</source>
-        <translation></translation>
+        <translation>Inuktitut</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="229"/>
@@ -2449,7 +2449,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="99"/>
         <source>Javanese</source>
-        <translation></translation>
+        <translation>Giavanese</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="230"/>
@@ -2474,7 +2474,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="107"/>
         <source>Kannada</source>
-        <translation></translation>
+        <translation>Kannada</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="231"/>
@@ -2504,7 +2504,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="119"/>
         <source>Lingala</source>
-        <translation></translation>
+        <translation>Lingala</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="90"/>
@@ -2524,12 +2524,12 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="124"/>
         <source>Malagasy</source>
-        <translation></translation>
+        <translation>Malgascia</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="126"/>
         <source>Maori</source>
-        <translation></translation>
+        <translation>Māori</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="233"/>
@@ -2539,7 +2539,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="128"/>
         <source>Malayalam</source>
-        <translation></translation>
+        <translation>Malayalam</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="129"/>
@@ -2554,7 +2554,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="131"/>
         <source>Marathi</source>
-        <translation></translation>
+        <translation>Marathi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="132"/>
@@ -2564,17 +2564,17 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="133"/>
         <source>Maltese</source>
-        <translation></translation>
+        <translation>Maltese</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="134"/>
         <source>Burmese</source>
-        <translation></translation>
+        <translation>Birmana</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="135"/>
         <source>Nauru</source>
-        <translation></translation>
+        <translation>Nauruana</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="138"/>
@@ -2694,17 +2694,17 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="179"/>
         <source>Swahili</source>
-        <translation></translation>
+        <translation>Swahili</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="180"/>
         <source>Tamil</source>
-        <translation></translation>
+        <translation>Tamil</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="181"/>
         <source>Telugu</source>
-        <translation></translation>
+        <translation>Telugu</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="182"/>
@@ -2729,7 +2729,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="186"/>
         <source>Tagalog</source>
-        <translation></translation>
+        <translation>Tagalog</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="188"/>
@@ -2779,7 +2779,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="199"/>
         <source>Vietnamese</source>
-        <translation></translation>
+        <translation>Vietnamita</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="202"/>
@@ -2829,12 +2829,12 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="246"/>
         <source>Simplified-Chinese</source>
-        <translation>Cinese Semplificato</translation>
+        <translation>Cinese semplificato</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="247"/>
         <source>Traditional Chinese</source>
-        <translation>Cinese Tradizionale</translation>
+        <translation>Cinese tradizionale</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="255"/>
@@ -2844,7 +2844,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="256"/>
         <source>UTF-8</source>
-        <translation></translation>
+        <translation>UTF-8</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="257"/>
@@ -2944,7 +2944,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="122"/>
         <source>Serbo-Croatian</source>
-        <translation type="obsolete">Serbo-Croato</translation>
+        <translation type="obsolete">Serbo-croato</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="26"/>
@@ -2959,7 +2959,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="30"/>
         <source>Aragonese</source>
-        <translation type="unfinished"></translation>
+        <translation>Aragonese</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="33"/>
@@ -2969,7 +2969,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="37"/>
         <source>Belarusian</source>
-        <translation type="unfinished"></translation>
+        <translation>Bielorusso</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="41"/>
@@ -2979,7 +2979,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="45"/>
         <source>Bosnian</source>
-        <translation type="unfinished"></translation>
+        <translation>Bosniaca</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="47"/>
@@ -3074,7 +3074,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="94"/>
         <source>Ido</source>
-        <translation type="unfinished"></translation>
+        <translation>Ido</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="101"/>
@@ -3193,9 +3193,9 @@ Controllarne i relativi permessi.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="154"/>
-        <source>Pushto</source>
+       <source>Pushto</source>
         <translation type="unfinished"></translation>
-    </message>
+   </message>
     <message>
         <location filename="../languages.cpp" line="157"/>
         <source>Romansh</source>
@@ -3254,7 +3254,7 @@ Controllarne i relativi permessi.</translation>
     <message encoding="UTF-8">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
-        <translation type="unfinished"></translation>
+        <translation>Volapük</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="201"/>
@@ -3455,12 +3455,12 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../playlist.cpp" line="308"/>
         <source>Add &amp;file(s)</source>
-        <translation>Aggiungi &amp;file(s)</translation>
+        <translation>Aggiungi &amp;file</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="309"/>
         <source>Add &amp;directory</source>
-        <translation>Aggiungic&amp;artella</translation>
+        <translation>Aggiungi c&amp;artella</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="312"/>
@@ -3523,12 +3523,12 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../playlistpreferences.cpp" line="39"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation>Selezionare questa opzione per estrarre alcune informazioni dai file aggiunti alla lista di riproduzione. Questo permette di visualizzare il titolo (se disponibile) e la lunghezza dei file, altrimenti le stesse informazioni non saranno disponibili fino al momento dell&apos;effettiva riproduzione dei file stessi. Attenzione: questa opzione può rivelarsi molto lenta, soprattutto aggiungendo molti file.</translation>
+        <translation>Selezionare questa opzione per estrarre alcune informazioni dai file aggiunti alla lista di riproduzione. Questo permette di visualizzare il titolo (se disponibile) e la durata dei file, altrimenti le stesse informazioni non saranno disponibili fino al momento dell&apos;effettiva riproduzione dei file stessi. Attenzione: questa opzione può rivelarsi molto lenta, soprattutto aggiungendo molti file.</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="39"/>
         <source>Automatically get &amp;info about files added</source>
-        <translation>Estrarre automaticamente &amp;informazioni dai file aggiunti </translation>
+        <translation>&amp;Estrarre automaticamente informazioni dai file aggiunti </translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="46"/>
@@ -3538,7 +3538,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../playlistpreferences.ui" line="25"/>
         <source>&amp;Play files from start</source>
-        <translation>Ri&amp;produci file dall&apos;inizio</translation>
+        <translation>&amp;Riproduci file dall&apos;inizio</translation>
     </message>
 </context>
 <context>
@@ -3585,7 +3585,7 @@ Esempio: resize=512:384,eq2=1.1</translation>
         <location filename="../prefadvanced.ui" line="440"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
-        <translation>E finalmente i filtri audio. Stessa regola dei filtri video.
+        <translation>E infine i filtri audio. Stessa regola dei filtri video.
 Esempio: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
@@ -3604,7 +3604,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
         <translation>Questa opzione è pensata principalmente per scopi di debug.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="457"/>
+       <location filename="../prefadvanced.cpp" line="457"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
         <translation>Selezionare questa opzione può ridurre lo sfarfallio, ma può anche produrre una errata riproduzione video.</translation>
     </message>
@@ -3791,22 +3791,22 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="495"/>
         <source>IPv4</source>
-        <translation></translation>
+        <translation>IPv4</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="496"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilizza IPv4 per le connessioni di rete. Ripiega su IPv6 automaticamente.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="498"/>
         <source>IPv6</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv6</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="499"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilizza IPv6 per le connessioni alla rete. Ripiega su IPv4 automaticamente.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="509"/>
@@ -3816,12 +3816,12 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="530"/>
         <source>IPv&amp;4</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv&amp;4</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="537"/>
         <source>IPv&amp;6</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv&amp;6</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="685"/>
@@ -3871,82 +3871,82 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="547"/>
         <source>Proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Proxy</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="501"/>
         <source>Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Abilita proxy</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="502"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Abilita/disabilita l&apos;uso del proxy.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>Host</source>
-        <translation type="unfinished"></translation>
+        <translation>Host</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="505"/>
         <source>The host name of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Il nome host del proxy.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="507"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Porta</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="508"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>La porta del proxy.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="510"/>
         <source>Username</source>
-        <translation type="unfinished"></translation>
+        <translation>Nome utente</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="511"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se il proxy richiede l&apos;autenticazione, qui si stabilisce il nome utente.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="513"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Password</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="553"/>
+       <location filename="../prefadvanced.ui" line="553"/>
         <source>You can set a proxy for internet connections (currently only used for subtitle downloading).</source>
-        <translation type="unfinished"></translation>
+        <translation>È possibile impostare un proxy per le connessioni internet (usato al momento solo per il download dei sottotitoli).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="563"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Abilita proxy</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="576"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Host:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="589"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Porta:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="609"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nome utente:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="622"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pa&amp;ssword:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="136"/>
@@ -3956,7 +3956,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="77"/>
         <source>Http</source>
-        <translation type="unfinished"></translation>
+        <translation>HTTP</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="78"/>
@@ -3966,17 +3966,17 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="517"/>
         <source>Type</source>
-        <translation type="unfinished">Tipo</translation>
+        <translation>Tipo</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="518"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleziona il tipo di proxy da usare.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="639"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tipo:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="467"/>
@@ -3996,7 +3996,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="493"/>
         <source>Network</source>
-        <translation type="unfinished"></translation>
+        <translation>Rete</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="170"/>
@@ -4006,12 +4006,12 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="503"/>
         <source>&amp;Network</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rete</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="474"/>
         <source>Example:</source>
-        <translation type="unfinished"></translation>
+        <translation>Esempio:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="433"/>
@@ -4021,7 +4021,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="515"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished"></translation>
+        <translation>La password per il proxy. &lt;b&gt;Attenzione:&lt;/b&gt; la password verrà salvata come testo semplice nel file di configurazione.</translation>
     </message>
 </context>
 <context>
@@ -4165,7 +4165,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="97"/>
         <source>Media settings</source>
-        <translation>Opzioni per il video</translation>
+        <translation>Impostazioni media</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="855"/>
@@ -4230,17 +4230,17 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="726"/>
         <source>Video output driver</source>
-        <translation>Driver di output video</translation>
+        <translation>Driver di uscita video</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="794"/>
         <source>Audio output driver</source>
-        <translation>Driver di output audio</translation>
+        <translation>Driver di uscita audio</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="796"/>
         <source>Select the audio output driver.</source>
-        <translation>Seleziona il driver di output audio.</translation>
+        <translation>Seleziona il driver di uscita audio.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="695"/>
@@ -4248,8 +4248,8 @@ Esempio: resample=44100:0:0,volnorm</translation>
         <translation>Ricorda opzioni</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="857"/>
-        <source>Preferred audio language</source>
+       <location filename="../prefgeneral.cpp" line="857"/>
+       <source>Preferred audio language</source>
         <translation>Lingua audio preferita</translation>
     </message>
     <message>
@@ -4330,7 +4330,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="103"/>
         <source>&amp;Remember settings for all files (audio track, subtitles...)</source>
-        <translation>&amp;Ricorda le opzioni per tutti i file (traccia audio, sottotitoli...)</translation>
+        <translation>&amp;Ricorda le impostazioni per tutti i file (traccia audio, sottotitoli...)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1088"/>
@@ -4405,7 +4405,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="299"/>
         <source>&amp;Enable postprocessing by default</source>
-        <translation>Abilita il postproc&amp;essing</translation>
+        <translation>Abilita il &amp;postprocessing</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="793"/>
@@ -4751,7 +4751,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="728"/>
         <source>Select the video output driver. %1 provides the best performance.</source>
-        <translation>Seleziona il driver di output video. %1 dà prestazioni migliori.</translation>
+        <translation>Seleziona il driver di uscita video. %1 dà prestazioni migliori.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="800"/>
@@ -4766,8 +4766,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="702"/>
         <source>If you check this option, SMPlayer will play all files from the beginning.</source>
-        <translation type="obsolete">Se selezioni questa opzione, SMPlayer riprodurrà tutti i file dall&apos;inizio.</translation>
-    </message>
+        <translation type="obsolete">Se deselezioni questa opzione, SMPlayer riprodurrà tutti i file dall&apos;inizio.</translation>
+   </message>
     <message>
         <location filename="../prefgeneral.cpp" line="721"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
@@ -4791,72 +4791,72 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="536"/>
         <source>Ou&amp;tput driver:</source>
-        <translation type="unfinished"></translation>
+        <translation>Driver di &amp;uscita:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="849"/>
         <source>If this option is checked the initial volume will be set just before playback starts. This avoids a loud volume on startup. Requires at least MPlayer SVN r27872.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se questa opzione è abilitata il volume iniziale sarà impostato un momento prima che la riproduzione inizi, evitando un alto volume all&apos;avvio. Richiede almeno MPlayer SVN r27872.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="777"/>
         <source>Add black borders on fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Aggiungi bordi neri nella modalità a pieno schermo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="780"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
-        <translation type="unfinished"></translation>
+        <translation>Con questa opzione abilitata, dei bordi neri saranno aggiunti all&apos;immagine nella modalità a pieno schermo. Questo permette ai sottotitoli di venire visualizzati sui bordi neri.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="500"/>
         <source>&amp;Add black borders on fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Aggiungi bordi neri nella modalità a pieno schermo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="101"/>
         <source>one ini file</source>
-        <translation type="unfinished"></translation>
+        <translation>un singolo file ini</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="102"/>
         <source>multiple ini files</source>
-        <translation type="unfinished"></translation>
+        <translation>multipli file ini</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="705"/>
         <source>Method to store the file settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Metodo per il salvataggio delle impostazioni associate ai file</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="707"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
-        <translation type="unfinished"></translation>
+        <translation>Questa opzione permette di cambiare il modo in cui le impostazioni sui file vengono salvate. Le seguenti opzioni sono disponibili:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="709"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;un singolo file ini&lt;/b&gt;: le impostazioni per tutti i file riprodotti saranno salvati in un singolo file ini (%1)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="712"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
-        <translation type="unfinished"></translation>
+        <translation>L&apos;ultimo metodo potrebbe essere più veloce nel caso siano presenti molti file.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="149"/>
         <source>&amp;Store settings in</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Salvataggio impostazioni in</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="711"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;multipli file ini&lt;/b&gt;: un file ini sarà usato per ogni file riprodotto. Questi file ini saranno salvati nella cartella %1</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="703"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
-        <translation type="unfinished"></translation>
+        <translation>Se si seleziona questa opzione, SMPlayer ricorderà la precedente posizione del file quando verrà aperto nuovamente. Questa possibilità è disponibile solamente con i normali file (non con DVD, CD, URL...).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="760"/>
@@ -5317,7 +5317,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="136"/>
         <source>R&amp;emember position and size</source>
-        <translation>Ricorda posizione &amp;e grandezza</translation>
+        <translation>Ricorda posizione &amp;e dimensione</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="427"/>
@@ -5372,7 +5372,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="498"/>
         <source>Remember position and size</source>
-        <translation>Ricorda posizione e grandezza</translation>
+        <translation>Ricorda posizione e dimensione</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="500"/>
@@ -5542,97 +5542,97 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="569"/>
         <source>Floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Controllo fluttuante</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="571"/>
         <source>Animated</source>
-        <translation type="unfinished"></translation>
+        <translation>Animato</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="573"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Con questa opzione attiva, il controllo fluttuante farà la sua comparsa con una animazione.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="575"/>
         <source>Width</source>
-        <translation type="unfinished"></translation>
+        <translation>Larghezza</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="576"/>
         <source>Specifies the width of the control (as a percentage).</source>
-        <translation type="unfinished"></translation>
+        <translation>Specifica la larghezza del controlloo (in percentuale).</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="578"/>
         <source>Margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Margine</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="582"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation type="unfinished"></translation>
+        <translation>L&apos; opzione imposta il numero di pixel che il controllo fluttuante sarà distante dal fondo dello schermo. Utile se lo schermo è una TV, dato che l&apos; overscan potrebbe impedire al controllo di rendersi visibile.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="584"/>
         <source>Display in compact mode too</source>
-        <translation type="unfinished"></translation>
+        <translation>Visualizza anche nella modalità compatta</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="590"/>
+       <location filename="../prefinterface.cpp" line="590"/>
         <source>Bypass window manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Bypassa il window manager</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="593"/>
         <source>If this option is checked, the control is displayed bypassing the window manager. Disable this option if the floating control doesn&apos;t work well with your window manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>Con questa opzione abilitata, il controllo è visualizzato bypassando il window manager. Disabilita questa opzione se il controllo fluttuante non lavora bene con il window manager usato.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="794"/>
         <source>&amp;Floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Controllo fluttuante</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="800"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Il controllo fluttante compare nella modalità a schermo pieno quando il mouse tocca il fondo dello schermo.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="810"/>
         <source>&amp;Animated</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Animato</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="819"/>
         <source>&amp;Width:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Larghezza:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="878"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation>0</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="852"/>
         <source>&amp;Margin:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Margine:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="887"/>
         <source>Display in &amp;compact mode too</source>
-        <translation type="unfinished"></translation>
+        <translation>Visualizza anche in modalità &amp;compatta</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="894"/>
         <source>&amp;Bypass window manager</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bypassa il window manager</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="587"/>
         <source>If this option is enabled, the floating control will appear in compact mode too. &lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se questa opzione è abilitata, il controllo fluttuante apparirà anche nella modalità compatta. &lt;b&gt;Fare attenzione&lt;/b&gt;: il controllo fluttuante non è stato progettato per la modalità compatta e potrebbe non lavorare in modo appropriato.</translation>
     </message>
 </context>
 <context>
@@ -5958,17 +5958,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="36"/>
         <source>Playlist</source>
-        <translation type="unfinished">Lista di riproduzione</translation>
+        <translation>Lista di riproduzione</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="80"/>
         <source>Automatically add files to playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Automaticamente aggiungi file alla lista di riproduzione</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="84"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Abilitando questa opzione, ogni volta un file viene aperto, SMPlayer pulirà prima la lista di riproduzione e poi vi aggiungerà il file. In caso di DVD, CD e VCD, tutti i titoli del disco entreranno nella lista di riproduzione.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="86"/>
@@ -5978,17 +5978,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="89"/>
         <source>If this option is enabled, SMPlayer will look for consecutive files (e.g. video_1.avi, video_2.avi...) and if found, they&apos;ll be added to the playlist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Abilitando questa opzione, SMPlayer cercherà una successione di file (es. video_1.avi, video_2.avi...) e, trovati, saranno aggiunti alla lista di riproduzione.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="32"/>
         <source>&amp;Playlist</source>
-        <translation type="unfinished">&amp;Lista di riproduzione</translation>
+        <translation>&amp;Lista di riproduzione</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="38"/>
         <source>&amp;Automatically add files to playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Automaticamente aggiungi file alla lista di riproduzione</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="72"/>
@@ -6081,7 +6081,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="428"/>
         <source>Size</source>
-        <translation>Grandezza</translation>
+        <translation>Dimensione</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="483"/>
@@ -6271,12 +6271,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="452"/>
         <source>The size in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>La dimensione in pixel.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="454"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Grassetto</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="455"/>
@@ -6286,12 +6286,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="457"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Corsivo</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="458"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se attivato, il testo sarà visualizzato in &lt;i&gt;corsivo&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="466"/>
@@ -6514,22 +6514,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="400"/>
         <source>Enable SSA/ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Abilita sottotitoli SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="404"/>
         <source>Normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Normali sottotitoli</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="425"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Questa opzione NON cambia la dimensione dei sottotitoli nel video corrente, per farlo, usa l&apos;opzione &lt;i&gt;Grandezza+&lt;/i&gt; e &lt;i&gt;Grandezza-&lt;/i&gt; del menù sottotitoli.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Default scale</source>
-        <translation type="unfinished"></translation>
+        <translation>Scalatura predefinita</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="429"/>
@@ -6539,7 +6539,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="437"/>
         <source>SSA/ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Sottotitoli SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="441"/>
@@ -6564,22 +6564,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="286"/>
         <source>Enable &amp;normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Abilita &amp;normali sottotitoli</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="299"/>
         <source>Enable SSA/&amp;ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Abilita sottotitoli SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="544"/>
         <source>Default s&amp;cale:</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;calatura predefinita:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="725"/>
         <source>Defa&amp;ult scale:</source>
-        <translation type="unfinished"></translation>
+        <translation>Scalat&amp;ura predefinita:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="764"/>
@@ -6594,17 +6594,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="388"/>
         <source>Freetype support</source>
-        <translation type="unfinished"></translation>
+        <translation>Supporto Freetype</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="392"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make that subtitles won&apos;t work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Normalmente non dovresti disabilitare questa opzione, a me no che la tua versione di MPlayer sia priva del supporto freetype. &lt;b&gt;Disabilitando questa opzione potresti rendere i sottotitoli totalmente non funzionanti!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="256"/>
         <source>Freet&amp;ype support</source>
-        <translation type="unfinished"></translation>
+        <translation>Supporto Freet&amp;ype</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="386"/>
@@ -6665,7 +6665,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="128"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
-        <translation>prova a stabilire una connessione ad un altra istanza e a mandare il comando specificato. Esempio: -send-action pause Tutto il resto (se presente) verrà ignorato e l&apos;applicazione terminerà. Ritorna 0 in caso di successo o -1 in caso di fallimento.</translation>
+<translation>prova a stabilire una connessione ad un altra istanza e a mandare il comando specificato. Esempio: -send-action pause Tutto il resto (se presente) verrà ignorato e l&apos;applicazione terminerà. Ritorna 0 in caso di successo o -1 in caso di fallimento.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="136"/>
@@ -6776,13 +6776,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="121"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
-        <translation type="unfinished"></translation>
+        <translation>specifica la directory dove smplayer salverà i suoi file di configurazione (smplayer.ini, smplayer_files.ini...)</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="148"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>disabilitato</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="156"/>
@@ -6794,7 +6794,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../mediasettings.cpp" line="157"/>
         <source>unknown</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>sconosciuto</translation>
     </message>
 </context>
 <context>
@@ -6851,7 +6851,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="13"/>
         <source>Subtitle selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Selezione sottotitoli</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="19"/>
@@ -6892,7 +6892,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../tristatecombo.cpp" line="35"/>
         <source>Yes</source>
-        <translation>Si</translation>
+        <translation>Sì</translation>
     </message>
     <message>
         <location filename="../tristatecombo.cpp" line="36"/>
@@ -6968,17 +6968,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="198"/>
         <source>Video preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Anteprima video</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="68"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Annulla</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="77"/>
         <source>Generated by SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Generato da SMPlayer</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="210"/>
@@ -6986,39 +6986,39 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="182"/>
+       <location filename="../videopreview/videopreview.cpp" line="182"/>
         <source>Size: %1 MB</source>
-        <translation type="unfinished"></translation>
+        <translation>Dimensione: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="184"/>
+       <location filename="../videopreview/videopreview.cpp" line="184"/>
         <source>Length: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Durata: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="410"/>
         <source>Save file</source>
-        <translation type="unfinished"></translation>
+        <translation>Salva file</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="411"/>
         <source>Images (*.png *.jpg)</source>
-        <translation type="unfinished"></translation>
+        <translation>Immagini (*.png *.jpg)</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="418"/>
         <source>Error saving file</source>
-        <translation type="unfinished">Errore durante il salvataggio del file</translation>
+        <translation>Errore durante il salvataggio del file</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="419"/>
         <source>The file couldn&apos;t be saved</source>
-        <translation type="unfinished">Non è stato possibile salvare il file</translation>
+        <translation>Non è stato possibile salvare il file</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="130"/>
         <source>Error</source>
-        <translation type="unfinished">Errore</translation>
+        <translation>Errore</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="131"/>
@@ -7028,7 +7028,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="171"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
-        <translation type="unfinished"></translation>
+        <translation>La directory temporanea (%1) non può esssere creata</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="256"/>
@@ -7038,22 +7038,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="183"/>
         <source>Resolution: %1x%2</source>
-        <translation type="unfinished"></translation>
+        <translation>Risoluzione: %1x%2</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="187"/>
         <source>Video format: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Formato video: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="188"/>
         <source>Frames per second: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Fotogrammi al secondo: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="189"/>
         <source>Aspect ratio: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Rapporto d&apos;aspetto</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="192"/>
@@ -7073,12 +7073,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="286"/>
         <source>The file %1 can&apos;t be loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>Il file %1 non può essere caricato</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="337"/>
         <source>No filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Nessun nome file</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="392"/>
@@ -7101,27 +7101,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="26"/>
         <source>Default</source>
-        <translation type="unfinished">Predefinito</translation>
+        <translation>Predefinito</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="13"/>
         <source>Video Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Anteprima video</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="21"/>
         <source>&amp;File:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;File:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="38"/>
         <source>&amp;Columns:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Colonne:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="74"/>
         <source>&amp;Rows:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Righe:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="96"/>
@@ -7131,17 +7131,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="118"/>
         <source>&amp;Aspect ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>Rapporto d&apos;&amp;aspetto</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="148"/>
         <source>&amp;Seconds to skip at the beginnning:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Secondi da saltare all&apos;inizio:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="178"/>
         <source>&amp;Maximum width:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Larghezza massima:</translation>
     </message>
 </context>
 <context>
