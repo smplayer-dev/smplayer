@@ -163,7 +163,7 @@ bool VideoPreview::extractImages() {
 	displayVideoInfo(i);
 
 	// Let's begin
-	thumbnail_width = 0;
+	run.thumbnail_width = 0;
 
 	int num_pictures = prop.n_cols * prop.n_rows;
 	length -= prop.initial_step;
@@ -257,16 +257,16 @@ bool VideoPreview::addPicture(const QString & filename, int num, int time) {
 		return false;
 	}
 
-	if (thumbnail_width == 0) {
+	if (run.thumbnail_width == 0) {
 		int spacing = grid_layout->horizontalSpacing() * (prop.n_cols-1);
 		if (spacing < 0) spacing = 0;
 		qDebug("VideoPreview::addPicture: spacing: %d", spacing);
-		thumbnail_width = (prop.max_width - spacing) / prop.n_cols;
-		if (thumbnail_width > picture.width()) thumbnail_width = picture.width();
-		qDebug("VideoPreview::addPicture: thumbnail_width set to %d", thumbnail_width);
+		run.thumbnail_width = (prop.max_width - spacing) / prop.n_cols;
+		if (run.thumbnail_width > picture.width()) run.thumbnail_width = picture.width();
+		qDebug("VideoPreview::addPicture: thumbnail_width set to %d", run.thumbnail_width);
 	}
 
-	QPixmap scaled_picture = picture.scaledToWidth(thumbnail_width, Qt::SmoothTransformation);
+	QPixmap scaled_picture = picture.scaledToWidth(run.thumbnail_width, Qt::SmoothTransformation);
 
 	// Add current time text
 	if (prop.display_osd) {
