@@ -220,43 +220,7 @@ bool VideoPreview::extractImages() {
 
 		if (canceled) return false;
 
-		QStringList args;
-		args << "-nosound" << "-vo" 
-#ifdef CD_TO_TEMP_DIR
-			<< "jpeg"
-#else
-			<< "jpeg:outdir="+full_output_dir
-#endif
-			<< "-frames" << "6"
-            << "-ss" << QString::number(current_time);
-
-		if (aspect_ratio != 0) {
-			args << "-aspect" << QString::number(aspect_ratio) << "-zoom";
-		}
-
-		/*
-		if (display_osd) {
-			args << "-vf" << "expand=osd=1" << "-osdlevel" << "2";
-		}
-		*/
-
-		args << input_video;
-
-		QString command = mplayer_bin + " ";
-		for (int c = 0; c < args.count(); c++) command = command + args[c] + " ";
-		qDebug("VideoPreview::extractImages: command: %s", command.toUtf8().constData());
-
-		QProcess p;
-#ifdef CD_TO_TEMP_DIR
-		p.setWorkingDirectory(full_output_dir);
-		qDebug("VideoPreview::extractImages: changing working directory of the process to '%s'", full_output_dir.toUtf8().constData());
-#endif
-		p.start(mplayer_bin, args);
-		if (!p.waitForFinished()) {
-			qDebug("VideoPreview::extractImages: error running process");
-			error_message = tr("The mplayer process didn't run");
-			return false;
-		}
+		if (!runMplayer(current_time)) return false;
 
 		if (!QFile::exists(full_output_dir + "/00000005.jpg")) {
 			error_message = tr("The file %1 doesn't exist").arg(full_output_dir + "/00000005.jpg");
@@ -271,6 +235,48 @@ bool VideoPreview::extractImages() {
 		}
 
 		current_time += s_step;
+	}
+
+	return true;
+}
+
+bool VideoPreview::runMplayer(int seek) {
+	QStringList args;
+	args << "-nosound" << "-vo" 
+#ifdef CD_TO_TEMP_DIR
+		<< "jpeg"
+#else
+		<< "jpeg:outdir="+full_output_dir
+#endif
+		<< "-frames" << "6"
+		<< "-ss" << QString::number(seek);
+
+	if (aspect_ratio != 0) {
+		args << "-aspect" << QString::number(aspect_ratio) << "-zoom";
+	}
+
+	/*
+	if (display_osd) {
+		args << "-vf" << "expand=osd=1" << "-osdlevel" << "2";
+	}
+	*/
+
+	args << input_video;
+
+	QString command = mplayer_bin + " ";
+	for (int n = 0; n < args.count(); n++) command = command + args[n] + " ";
+	qDebug("VideoPreview::runMplayer: command: %s", command.toUtf8().constData());
+
+	QProcess p;
+#ifdef CD_TO_TEMP_DIR
+	p.setWorkingDirectory(full_output_dir);
+	qDebug("VideoPreview::runMplayer: changing working directory of the process to '%s'", full_output_dir.toUtf8().constData());
+#endif
+	p.start(mplayer_bin, args);
+	if (!p.waitForFinished()) {
+		qDebug("VideoPreview::runMplayer: error running process");
+		error_message = tr("The mplayer process didn't run");
+		return false;
 	}
 
 	return true;
