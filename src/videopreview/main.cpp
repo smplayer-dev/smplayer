@@ -47,11 +47,17 @@ int main( int argc, char ** argv )
 	*/
 	//vp.setAspectRatio( 2.35 );
 
+#if VIDEOPREVIEW_ASYNC
+	if (vp.showConfigDialog()) {
+		vp.createThumbnails();
+		return a.exec();
+	}
+#else
 	if ( (vp.showConfigDialog()) && (vp.createThumbnails()) ) {
 		vp.show();
 		vp.adjustWindowSize();
 		return a.exec();
 	}
-
+#endif
 	return 0;
 }

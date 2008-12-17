@@ -103,6 +103,15 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFla
 	my_layout->addWidget(scroll_area);
 	my_layout->addWidget(button_box);
 	setLayout(my_layout);
+
+#if VIDEOPREVIEW_ASYNC
+	process = new QProcess(this);
+	connect( process, SIGNAL(finished(int, QProcess::ExitStatus)), 
+             this, SLOT(processFinished(int, QProcess::ExitStatus)) );
+
+	connect( this, SIGNAL(finishedOk()), this, SLOT(workFinishedOK()) );
+	connect( this, SIGNAL(finishedWithError()), this, SLOT(workFinishedWithError()) );
+#endif
 }
 
 VideoPreview::~VideoPreview() {
@@ -122,6 +131,126 @@ void VideoPreview::clearThumbnails() {
 	label_list.clear();
 	info->clear();
 }
+
+#if VIDEOPREVIEW_ASYNC
+void VideoPreview::createThumbnails() {
+    clearThumbnails();
+    error_message.clear();
+
+	// Initalization
+	VideoInfo i = getInfo(mplayer_bin, prop.input_video);
+	int length = i.length;
+
+	if (length == 0) {
+		if (error_message.isEmpty()) error_message = tr("The length of the video is 0");
+		emit finishedWithError();
+		return;
+	}
+
+	// Create a temporary directory
+	QDir d(QDir::tempPath());
+	if (!d.exists(output_dir)) {
+		if (!d.mkpath(output_dir)) {
+			qDebug("VideoPreview::extractImages: error: can't create '%s'", full_output_dir.toUtf8().constData());
+			error_message = tr("The temporary directory (%1) can't be created").arg(full_output_dir);
+			emit finishedWithError();
+			return;
+		}
+	}
+
+	displayVideoInfo(i);
+
+	// Let's begin
+	run.thumbnail_width = 0;
+
+	run.num_pictures = prop.n_cols * prop.n_rows;
+	length -= prop.initial_step;
+	run.s_step = length / run.num_pictures;
+
+	run.current_time = prop.initial_step;
+
+	canceled = false;
+	progress->setLabelText(tr("Creating thumbnails..."));
+	progress->setRange(0, run.num_pictures-1);
+
+	run.current_picture = 0;
+	progress->setValue( run.current_picture);
+
+	if (!runMplayer(run.current_time)) {
+		emit finishedWithError();
+	}
+}
+
+void VideoPreview::processFinished(int exitCode, QProcess::ExitStatus exitStatus) {
+	qDebug("VideoPreview::processFinished");
+
+	if (exitStatus != QProcess::NormalExit) {
+		emit finishedWithError();
+		return;
+	}
+
+	// Continue processing
+	if (!QFile::exists(full_output_dir + "/00000005.jpg")) {
+		error_message = tr("The file %1 doesn't exist").arg(full_output_dir + "/00000005.jpg");
+		emit finishedWithError();
+		return;
+	}
+
+	QDir d(QDir::tempPath());
+	QString output_file = output_dir + QString("/picture_%1.jpg").arg(run.current_time, 8, 10, QLatin1Char('0'));
+	d.rename(output_dir + "/00000005.jpg", output_file);
+
+	if (!addPicture(QDir::tempPath() +"/"+ output_file, run.current_picture, run.current_time)) {
+		emit finishedWithError();
+		return;
+	}
+
+	run.current_time += run.s_step;
+
+	if (canceled) {
+		emit finishedOk();
+		return;
+	}
+
+	// Next picture
+	run.current_picture++;
+
+	if (run.current_picture >= run.num_pictures) {
+		emit finishedOk();
+		return;
+	}
+
+	progress->setValue( run.current_picture);
+
+	if (!runMplayer(run.current_time)) {
+		emit finishedWithError();
+	}	
+}
+
+void VideoPreview::workFinishedOK() {
+	qDebug("VideoPreview::workFinishedOK");
+
+	show();
+	adjustWindowSize();
+
+	cleanDir(full_output_dir);
+}
+
+void VideoPreview::workFinishedWithError() {
+	qDebug("VideoPreview::workFinishedWithError");
+
+	if (!error_message.isEmpty()) {
+		QMessageBox::critical(this, tr("Error"), 
+                              tr("The following error has occurred while creating the thumbnails:")+"\n"+ error_message );
+	}
+
+	cleanDir(full_output_dir);
+
+	close();
+}
+
+
+#else // VIDEOPREVIEW_ASYNC
 
 bool VideoPreview::createThumbnails() {
 	clearThumbnails();
@@ -201,15 +330,16 @@ bool VideoPreview::extractImages() {
 
 	return true;
 }
+#endif // VIDEOPREVIEW_ASYNC
 
 bool VideoPreview::runMplayer(int seek) {
 	QStringList args;
 	args << "-nosound" << "-vo" 
-#ifdef CD_TO_TEMP_DIR
+		#ifdef CD_TO_TEMP_DIR
 		<< "jpeg"
-#else
+		#else
 		<< "jpeg:outdir="+full_output_dir
-#endif
+		#endif
 		<< "-frames" << "6"
 		<< "-ss" << QString::number(seek);
 
@@ -229,20 +359,34 @@ bool VideoPreview::runMplayer(int seek) {
 	for (int n = 0; n < args.count(); n++) command = command + args[n] + " ";
 	qDebug("VideoPreview::runMplayer: command: %s", command.toUtf8().constData());
 
+#if VIDEOPREVIEW_ASYNC
+	#ifdef CD_TO_TEMP_DIR
+	process->setWorkingDirectory(full_output_dir);
+	qDebug("VideoPreview::runMplayer: changing working directory of the process to '%s'", full_output_dir.toUtf8().constData());
+	#endif
+	process->start(mplayer_bin, args);
+	if (!process->waitForStarted()) {
+		qDebug("VideoPreview::runMplayer: error running process");
+		error_message = tr("The mplayer process didn't run");
+		return false;
+	}
+#else // VIDEOPREVIEW_ASYNC
 	QProcess p;
-#ifdef CD_TO_TEMP_DIR
+	#ifdef CD_TO_TEMP_DIR
 	p.setWorkingDirectory(full_output_dir);
 	qDebug("VideoPreview::runMplayer: changing working directory of the process to '%s'", full_output_dir.toUtf8().constData());
-#endif
+	#endif
 	p.start(mplayer_bin, args);
 	if (!p.waitForFinished()) {
 		qDebug("VideoPreview::runMplayer: error running process");
 		error_message = tr("The mplayer process didn't run");
 		return false;
 	}
+#endif // VIDEOPREVIEW_ASYNC
 
 	return true;
 }
+
 
 bool VideoPreview::addPicture(const QString & filename, int num, int time) {
 	int row = num / prop.n_cols;
