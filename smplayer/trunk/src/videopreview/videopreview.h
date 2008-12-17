@@ -62,6 +62,8 @@ class VideoPreview : public QWidget
 	Q_OBJECT
 
 public:
+	enum ExtractFormat { JPEG = 1, PNG = 2 };
+
 	VideoPreview(QString mplayer_path, QWidget * parent = 0, Qt::WindowFlags f = 0);
 	~VideoPreview();
 
@@ -90,6 +92,9 @@ public:
 
 	void setAspectRatio(double asp) { prop.aspect_ratio = asp; };
 	double aspectRatio() { return prop.aspect_ratio; };
+
+	void setExtractFormat( ExtractFormat format ) { prop.extract_format = format; };
+	ExtractFormat extractFormat() { return prop.extract_format; };
 
 #if VIDEOPREVIEW_ASYNC
 	void createThumbnails();
@@ -133,6 +138,7 @@ protected:
 	void displayVideoInfo(const VideoInfo & i);
 	void cleanDir(QString directory);
 	void clearThumbnails();
+	QString framePicture();
 	void saveSettings();
 	void loadSettings();
 
@@ -160,6 +166,7 @@ protected:
 		int n_cols, n_rows, initial_step, max_width;
 		double aspect_ratio;
 		bool display_osd;
+		ExtractFormat extract_format;
 	} prop;
 
 #if VIDEOPREVIEW_ASYNC
