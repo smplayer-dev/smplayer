@@ -95,7 +95,7 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFla
 	scroll_area->setAlignment(Qt::AlignCenter);
 	scroll_area->setWidget( w_contents );
 
-	QDialogButtonBox * button_box = new QDialogButtonBox(QDialogButtonBox::Close | QDialogButtonBox::Save, Qt::Horizontal, this);
+	button_box = new QDialogButtonBox(QDialogButtonBox::Close | QDialogButtonBox::Save, Qt::Horizontal, this);
 	connect( button_box, SIGNAL(rejected()), this, SLOT(close()) );
 	connect( button_box->button(QDialogButtonBox::Save), SIGNAL(clicked()), this, SLOT(saveImage()) );
 
@@ -256,12 +256,16 @@ bool VideoPreview::createThumbnails() {
 	clearThumbnails();
 	error_message.clear();
 
+	button_box->setEnabled(false);
+
 	bool result = extractImages();
 
 	if ((result == false) && (!error_message.isEmpty())) {
 		QMessageBox::critical(this, tr("Error"), 
                               tr("The following error has occurred while creating the thumbnails:")+"\n"+ error_message );
 	}
+
+	button_box->setEnabled(true);
 
 	// Adjust size
 	//resize( w_contents->sizeHint() );

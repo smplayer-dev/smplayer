@@ -33,6 +33,7 @@ class QProgressDialog;
 class QGridLayout;
 class QLabel;
 class QScrollArea;
+class QDialogButtonBox;
 class QSettings;
 
 class VideoInfo 
@@ -139,6 +140,7 @@ protected:
 	QLabel * foot;
 	QWidget * w_contents;
 	QScrollArea * scroll_area;
+	QDialogButtonBox * button_box;
 
 	QString mplayer_bin;
 
