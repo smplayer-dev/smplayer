@@ -1188,8 +1188,7 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../basegui.cpp" line="1259"/>
         <source>Use SSA/&amp;ASS library</source>
-        <translation>Użyj biblioteki SSA/&amp;ASS
-</translation>
+        <translation>Użyj biblioteki SSA/&amp;ASS</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1204"/>
