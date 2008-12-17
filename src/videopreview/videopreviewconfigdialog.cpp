@@ -39,6 +39,10 @@ VideoPreviewConfigDialog::VideoPreviewConfigDialog( QWidget* parent, Qt::WindowF
 	initial_step_spin->setWhatsThis( tr("Usually the first frames are black, so it's a good idea to skip some seconds at the beginning of the video. "
                                         "This option allows to specify how many seconds will be skipped.") );
 	max_width_spin->setWhatsThis( tr("This option specifies the maximum width in pixels that the generated preview image will have.") );
+	format_combo->setWhatsThis( tr("Some frames will be extracted from the video in order to create the preview. Here you can choose "
+                                   "the image format for the extracted frames. PNG may give better quality.") );
+
+	layout()->setSizeConstraint(QLayout::SetFixedSize);
 }
 
 VideoPreviewConfigDialog::~VideoPreviewConfigDialog() {

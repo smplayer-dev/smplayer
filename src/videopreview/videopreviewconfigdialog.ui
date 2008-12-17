@@ -5,8 +5,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>335</width>
-    <height>296</height>
+    <width>388</width>
+    <height>307</height>
    </rect>
   </property>
   <property name="windowTitle" >
@@ -93,7 +93,7 @@
    <item>
     <widget class="QCheckBox" name="osd_check" >
      <property name="text" >
-      <string>Add playing time to thumbnails</string>
+      <string>Add playing &amp;time to thumbnails</string>
      </property>
     </widget>
    </item>
@@ -225,7 +225,7 @@
      <item>
       <widget class="QLabel" name="label_7" >
        <property name="text" >
-        <string>&amp;Extract thumbnails as</string>
+        <string>&amp;Extract frames as</string>
        </property>
        <property name="buddy" >
         <cstring>format_combo</cstring>
