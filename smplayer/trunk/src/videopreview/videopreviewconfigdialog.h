@@ -20,6 +20,7 @@
 #define _VIDEOPREVIEWCONFIGDIALOG_H_
 
 #include "ui_videopreviewconfigdialog.h"
+#include "videopreview.h"
 
 class VideoPreviewConfigDialog : public QDialog, public Ui::VideoPreviewConfigDialog
 {
@@ -49,6 +50,9 @@ public:
 
 	void setAspectRatio(double asp);
 	double aspectRatio();
+
+	void setFormat(VideoPreview::ExtractFormat format);
+	VideoPreview::ExtractFormat format();
 };
 
 #endif

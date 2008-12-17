@@ -619,6 +619,7 @@ bool VideoPreview::showConfigDialog() {
 	d.setMaxWidth( maxWidth() );
 	d.setDisplayOSD( displayOSD() );
 	d.setAspectRatio( aspectRatio() );
+	d.setFormat( extractFormat() );
 
 	if (d.exec() == QDialog::Accepted) {
 		setVideoFile( d.videoFile() );
@@ -628,6 +629,7 @@ bool VideoPreview::showConfigDialog() {
 		setMaxWidth( d.maxWidth() );
 		setDisplayOSD( d.displayOSD() );
 		setAspectRatio( d.aspectRatio() );
+		setExtractFormat(d.format() );
 
 		return true;
 	}
@@ -645,6 +647,7 @@ void VideoPreview::saveSettings() {
 	set->setValue("initial_step", initialStep());
 	set->setValue("max_width", maxWidth());
 	set->setValue("osd", displayOSD());
+	set->setValue("format", extractFormat());
 	set->setValue("last_directory", last_directory);
 	set->setValue("filename", videoFile());
 
@@ -661,6 +664,7 @@ void VideoPreview::loadSettings() {
 	setInitialStep( set->value("initial_step", initialStep()).toInt() );
 	setMaxWidth( set->value("max_width", maxWidth()).toInt() );
 	setDisplayOSD( set->value("osd", displayOSD()).toBool() );
+	setExtractFormat( (ExtractFormat) set->value("format", extractFormat()).toInt() );
 	last_directory = set->value("last_directory", last_directory).toString();
 	setVideoFile( set->value("filename", videoFile()).toString() );
 
