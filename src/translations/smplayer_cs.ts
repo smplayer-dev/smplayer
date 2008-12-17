@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="cs">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -275,12 +276,12 @@
     <message>
         <location filename="../about.cpp" line="209"/>
         <source>%1, %2, %3 and %4</source>
-        <translation type="unfinished"></translation>
+        <translation>%1, %2, %3 a %4</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="210"/>
         <source>%1, %2, %3, %4 and %5</source>
-        <translation type="unfinished"></translation>
+        <translation>%1, %2, %3, %4 a %5</translation>
     </message>
 </context>
 <context>
@@ -4123,12 +4124,12 @@ Vysouvací menu by mělo poskytnout standartní možnosti pro několik jazyků.<
     <message>
         <location filename="../prefadvanced.cpp" line="433"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Opravit index u souborů, kde nebyl nalezen index a umožnit tak seekování. Užitečné v případě nefunkčních/nekompletních nebo špatně vytvořených souborů. Tato volba funguje jen tehdy, když médium podporuje seekování (např. ne stdin, pipe, atd.).&lt;br&gt; &lt;b&gt;Poznámka:&lt;/b&gt; vytvoření indexu může chvíli trvat.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="515"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Heslo pro připojení k proxy. &lt;b&gt;Varování:&lt;/b&gt; heslo bude uloženo v konfiguračním souboru jako čistý text.</translation>
     </message>
 </context>
 <context>
@@ -5023,17 +5024,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="703"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaškrtnete-li tuto volbu, SMPlayer si uloží pozici naposledy otevřeného souboru a při dalším otevření od ní začne. Funguje pouze pro běžné soubory (nikoli DVD, CD, URL, ...).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="760"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
-        <translation type="unfinished"></translation>
+        <translation>Je-li zaškrtnuto, zapne přímé vykreslování (není podporováno všemi kodeky a video výstupy)&lt;br&gt;&lt;b&gt;Varování:&lt;/b&gt; Může způsobit deformaci OSD/titulků!</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="821"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"></translation>
+        <translation>Zažádá o daný počet kanálů pro přehrávání. MPlayer požádá dekodér o použití tohoto počtu kanálů. Dekodér pak může, ale nemusí všechny kanály použít. Toto nastavení je většinou důležité pouze pro videa s AC3 stopou (DVD). V tom případě pak liba52 provádí dekódování a správně převede zvuk na požadovaný počet kanálů. &lt;b&gt;Poznámka:&lt;/b&gt; Toto nastavení respektují kodeky (pouze AC3), filtry (surround) a výstupní ovladače zvuku (minimálně OSS).</translation>
     </message>
 </context>
 <context>
@@ -5804,7 +5805,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="587"/>
         <source>If this option is enabled, the floating control will appear in compact mode too. &lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Je-li tato možnost zaškrtnuta, plovoucí ovládání bude zobrazeno také v kompaktním módu. &lt;b&gt;Varování:&lt;/b&gt; plovoucí ovládání není primárně určeno pro kompaktní mód a nemusí pracovat správně.</translation>
     </message>
 </context>
 <context>
@@ -6122,7 +6123,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="240"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavení priority pro proces MPlayeru pod Windows .&lt;br&gt;&lt;b&gt;Varování:&lt;/b&gt; Použití priority reálného času může způsobit zablokování systému.</translation>
     </message>
 </context>
 <context>
@@ -6826,7 +6827,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="386"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Je-li tato možnost zaškrtnuta, titulky se objeví také ve snímcích obrazovky. &lt;b&gt;Poznámka:&lt;/b&gt; někdy může způsobit problémy.</translation>
     </message>
 </context>
 <context>
@@ -7362,12 +7363,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="165"/>
         <source>The length of the video is 0</source>
-        <translation type="unfinished"></translation>
+        <translation>Video nulové délky</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="264"/>
         <source>The file %1 doesn&apos;t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>Soubor %1 neexistuje</translation>
     </message>
 </context>
 <context>
@@ -7420,42 +7421,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="31"/>
         <source>The preview will be created for the video you specify here.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vytvořit náhled pro zde uvedené video.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="33"/>
         <source>The thumbnails will be arranged on a table.</source>
-        <translation type="unfinished"></translation>
+        <translation>Miniatury se zarovnají do tabulky.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="32"/>
         <source>This option specifies the number of columns of the table.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tato možnost určuje počet sloupců tabulky.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="33"/>
         <source>This option specifies the number of rows of the table.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tato možnost určuje počet řádků tabulky.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="34"/>
         <source>If you check this option, the playing time will be displayed at the bottom of each thumbnail.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaškrtnete-li tuto možnost, v rohu miniatur se zobrazí příslušný čas přehrávání.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="35"/>
         <source>If the aspect ratio of the video is wrong, you can specify a different one here.</source>
-        <translation type="unfinished"></translation>
+        <translation>Je-li poměr stran videa nevhodný, můžete zde nastavit jiný.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="37"/>
         <source>Usually the first frames are black, so it&apos;s a good idea to skip some seconds at the beginning of the video. This option allows to specify how many seconds will be skipped.</source>
-        <translation type="unfinished"></translation>
+        <translation>Počátek videa je většinou vyplněn prázdnými snímky. Je proto vhodné prvních několik sekund přeskočit. Zde můžete nastavit počet sekund, které se mají přeskočit.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="38"/>
         <source>This option specifies the maximum width in pixels that the generated preview image will have.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tato možnost určuje maximální šířku generovaného náhledu v pixelech.</translation>
     </message>
 </context>
 <context>
