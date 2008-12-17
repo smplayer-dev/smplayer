@@ -34,6 +34,7 @@
 #include <QMessageBox>
 #include <QSettings>
 #include <QApplication>
+#include <QPixmapCache>
 
 // Workaround for Windows
 #ifdef Q_OS_WIN
@@ -436,6 +437,7 @@ bool VideoPreview::addPicture(const QString & filename, int num, int time) {
 
 	qDebug("VideoPreview::addPicture: %d (row: %d col: %d) file: '%s'", num, row, col, filename.toUtf8().constData());
 
+	QPixmapCache::clear();
 	QPixmap picture;
 	if (!picture.load(filename)) {
 		qDebug("VideoPreview::addPicture: can't load file");
