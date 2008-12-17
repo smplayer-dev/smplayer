@@ -28,6 +28,9 @@ VideoPreviewConfigDialog::VideoPreviewConfigDialog( QWidget* parent, Qt::WindowF
 	aspect_ratio_combo->addItem("16:9", (double) 16/9);
 	aspect_ratio_combo->addItem("2.35:1", 2.35);
 
+	format_combo->addItem("jpg", VideoPreview::JPEG);
+	format_combo->addItem("png", VideoPreview::PNG);
+
 	filename_edit->setWhatsThis( tr("The preview will be created for the video you specify here.") );
 	columns_spin->setWhatsThis( tr("The thumbnails will be arranged on a table.") +" "+ tr("This option specifies the number of columns of the table.") );
 	rows_spin->setWhatsThis( tr("The thumbnails will be arranged on a table.") +" "+ tr("This option specifies the number of rows of the table.") );
@@ -98,6 +101,17 @@ void VideoPreviewConfigDialog::setAspectRatio(double asp) {
 double VideoPreviewConfigDialog::aspectRatio() {
 	int idx = aspect_ratio_combo->currentIndex();
 	return aspect_ratio_combo->itemData(idx).toDouble();
+}
+
+void VideoPreviewConfigDialog::setFormat(VideoPreview::ExtractFormat format) {
+	int idx = format_combo->findData(format);
+	if (idx < 0) idx = 0;
+	format_combo->setCurrentIndex(idx);
+}
+
+VideoPreview::ExtractFormat VideoPreviewConfigDialog::format() {
+	int idx = format_combo->currentIndex();
+	return (VideoPreview::ExtractFormat) format_combo->itemData(idx).toInt();
 }
 
 #include "moc_videopreviewconfigdialog.cpp"

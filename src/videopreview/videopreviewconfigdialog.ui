@@ -5,8 +5,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>332</width>
-    <height>256</height>
+    <width>335</width>
+    <height>296</height>
    </rect>
   </property>
   <property name="windowTitle" >
@@ -208,6 +208,49 @@
     </layout>
    </item>
    <item>
+    <widget class="Line" name="line_3" >
+     <property name="sizePolicy" >
+      <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="orientation" >
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" >
+     <item>
+      <widget class="QLabel" name="label_7" >
+       <property name="text" >
+        <string>&amp;Extract thumbnails as</string>
+       </property>
+       <property name="buddy" >
+        <cstring>format_combo</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="format_combo" />
+     </item>
+     <item>
+      <spacer>
+       <property name="orientation" >
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" >
+        <size>
+         <width>71</width>
+         <height>23</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
     <widget class="Line" name="line" >
      <property name="sizePolicy" >
       <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
@@ -247,6 +290,7 @@
   <tabstop>aspect_ratio_combo</tabstop>
   <tabstop>initial_step_spin</tabstop>
   <tabstop>max_width_spin</tabstop>
+  <tabstop>format_combo</tabstop>
   <tabstop>buttonBox</tabstop>
  </tabstops>
  <resources/>
