@@ -4020,10 +4020,16 @@ void BaseGui::showVideoPreviewDialog() {
 		video_preview->setVideoFile(core->mdat.filename);
 	}
 
+#if VIDEOPREVIEW_ASYNC
+	if (video_preview->showConfigDialog()) {
+		video_preview->createThumbnails();
+	}
+#else
 	if ( (video_preview->showConfigDialog()) && (video_preview->createThumbnails()) ) {
 		video_preview->show();
 		video_preview->adjustWindowSize();
 	}
+#endif
 }
 
 QNetworkProxy BaseGui::userProxy() {
