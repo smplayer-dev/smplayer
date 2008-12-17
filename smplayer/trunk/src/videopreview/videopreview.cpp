@@ -200,9 +200,12 @@ void VideoPreview::processFinished(int exitCode, QProcess::ExitStatus exitStatus
 		return;
 	}
 
+	/*
 	QDir d(QDir::tempPath());
 	QString output_file = output_dir + QString("/picture_%1.jpg").arg(run.current_time, 8, 10, QLatin1Char('0'));
 	d.rename(output_dir + "/00000005.jpg", output_file);
+	*/
+	QString output_file = output_dir + "/00000005.jpg";
 
 	if (!addPicture(QDir::tempPath() +"/"+ output_file, run.current_picture, run.current_time)) {
 		emit finishedWithError();
@@ -326,8 +329,11 @@ bool VideoPreview::extractImages() {
 			return false;
 		}
 
+		/*
 		QString output_file = output_dir + QString("/picture_%1.jpg").arg(current_time, 8, 10, QLatin1Char('0'));
 		d.rename(output_dir + "/00000005.jpg", output_file);
+		*/
+		QString output_file = output_dir + "/00000005.jpg";
 
 		if (!addPicture(QDir::tempPath() +"/"+ output_file, n, current_time)) {
 			return false;
