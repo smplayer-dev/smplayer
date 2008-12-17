@@ -40,6 +40,8 @@
 #define CD_TO_TEMP_DIR 1
 #endif
 
+#define RENAME_PICTURES 1
+
 VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFlags f) : QWidget(parent, f)
 {
 	setMplayerPath(mplayer_path);
@@ -210,12 +212,14 @@ void VideoPreview::processFinished(int exitCode, QProcess::ExitStatus exitStatus
 		return;
 	}
 
-	/*
+#if RENAME_PICTURES
 	QDir d(QDir::tempPath());
-	QString output_file = output_dir + QString("/picture_%1.jpg").arg(run.current_time, 8, 10, QLatin1Char('0'));
-	d.rename(output_dir + "/00000005.jpg", output_file);
-	*/
+	QString extension = (extractFormat()==PNG) ? "png" : "jpg";
+	QString output_file = output_dir + QString("/picture_%1.%2").arg(run.current_time, 8, 10, QLatin1Char('0')).arg(extension);
+	d.rename(output_dir + "/" + framePicture(), output_file);
+#else
 	QString output_file = output_dir + "/" + framePicture();
+#endif
 
 	if (!addPicture(QDir::tempPath() +"/"+ output_file, run.current_picture, run.current_time)) {
 		emit finishedWithError();
@@ -340,11 +344,13 @@ bool VideoPreview::extractImages() {
 			return false;
 		}
 
-		/*
-		QString output_file = output_dir + QString("/picture_%1.jpg").arg(current_time, 8, 10, QLatin1Char('0'));
-		d.rename(output_dir + "/00000005.jpg", output_file);
-		*/
+#if RENAME_PICTURES 
+		QString extension = (extractFormat()==PNG) ? "png" : "jpg";
+		QString output_file = output_dir + QString("/picture_%1.%2").arg(current_time, 8, 10, QLatin1Char('0')).arg(extension);
+		d.rename(output_dir + "/" + framePicture(), output_file);
+#else
 		QString output_file = output_dir + "/" + framePicture();
+#endif
 
 		if (!addPicture(QDir::tempPath() +"/"+ output_file, n, current_time)) {
 			return false;
