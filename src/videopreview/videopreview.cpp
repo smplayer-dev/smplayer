@@ -53,6 +53,7 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFla
 	prop.max_width = 800;
 	prop.aspect_ratio = 0;
 	prop.display_osd = true;
+	prop.extract_format = JPEG;
 
 	output_dir = "smplayer_preview";
 	full_output_dir = QDir::tempPath() +"/"+ output_dir;
@@ -136,6 +137,13 @@ void VideoPreview::clearThumbnails() {
 	info->clear();
 }
 
+QString VideoPreview::framePicture() {
+	if (prop.extract_format == PNG)
+		return "00000005.png";
+	else
+		return "00000005.jpg";
+}
+
 #if VIDEOPREVIEW_ASYNC
 void VideoPreview::createThumbnails() {
     clearThumbnails();
@@ -194,8 +202,9 @@ void VideoPreview::processFinished(int exitCode, QProcess::ExitStatus exitStatus
 	}
 
 	// Continue processing
-	if (!QFile::exists(full_output_dir + "/00000005.jpg")) {
-		error_message = tr("The file %1 doesn't exist").arg(full_output_dir + "/00000005.jpg");
+	QString frame_picture = full_output_dir + "/" + framePicture();
+	if (!QFile::exists(frame_picture)) {
+		error_message = tr("The file %1 doesn't exist").arg(frame_picture);
 		emit finishedWithError();
 		return;
 	}
@@ -205,7 +214,7 @@ void VideoPreview::processFinished(int exitCode, QProcess::ExitStatus exitStatus
 	QString output_file = output_dir + QString("/picture_%1.jpg").arg(run.current_time, 8, 10, QLatin1Char('0'));
 	d.rename(output_dir + "/00000005.jpg", output_file);
 	*/
-	QString output_file = output_dir + "/00000005.jpg";
+	QString output_file = output_dir + "/" + framePicture();
 
 	if (!addPicture(QDir::tempPath() +"/"+ output_file, run.current_picture, run.current_time)) {
 		emit finishedWithError();
@@ -324,8 +333,9 @@ bool VideoPreview::extractImages() {
 
 		if (!runMplayer(current_time)) return false;
 
-		if (!QFile::exists(full_output_dir + "/00000005.jpg")) {
-			error_message = tr("The file %1 doesn't exist").arg(full_output_dir + "/00000005.jpg");
+		QString frame_picture = full_output_dir + "/" + framePicture();
+		if (!QFile::exists(frame_picture)) {
+			error_message = tr("The file %1 doesn't exist").arg(frame_picture);
 			return false;
 		}
 
@@ -333,7 +343,7 @@ bool VideoPreview::extractImages() {
 		QString output_file = output_dir + QString("/picture_%1.jpg").arg(current_time, 8, 10, QLatin1Char('0'));
 		d.rename(output_dir + "/00000005.jpg", output_file);
 		*/
-		QString output_file = output_dir + "/00000005.jpg";
+		QString output_file = output_dir + "/" + framePicture();
 
 		if (!addPicture(QDir::tempPath() +"/"+ output_file, n, current_time)) {
 			return false;
@@ -348,14 +358,25 @@ bool VideoPreview::extractImages() {
 
 bool VideoPreview::runMplayer(int seek) {
 	QStringList args;
-	args << "-nosound" << "-vo" 
+	args << "-nosound";
+
+	if (prop.extract_format == PNG) {
+		args << "-vo"
 		#ifdef CD_TO_TEMP_DIR
-		<< "jpeg"
+		<< "png";
 		#else
-		<< "jpeg:outdir="+full_output_dir
+		<< "png:outdir="+full_output_dir;
 		#endif
-		<< "-frames" << "6"
-		<< "-ss" << QString::number(seek);
+	} else {
+		args << "-vo"
+		#ifdef CD_TO_TEMP_DIR
+		<< "jpeg";
+		#else
+		<< "jpeg:outdir="+full_output_dir;
+		#endif
+	}
+
+	args << "-frames" << "6" << "-ss" << QString::number(seek);
 
 	if (prop.aspect_ratio != 0) {
 		args << "-aspect" << QString::number(prop.aspect_ratio) << "-zoom";
@@ -473,8 +494,15 @@ void VideoPreview::displayVideoInfo(const VideoInfo & i) {
 }
 
 void VideoPreview::cleanDir(QString directory) {
+	QStringList filter;
+	if (prop.extract_format == PNG) {
+		filter.append("*.png");
+	} else {
+		filter.append("*.jpg");
+	}
+
 	QDir d(directory);
-	QStringList l = d.entryList( QStringList() << "*.jpg", QDir::Files, QDir::Unsorted);
+	QStringList l = d.entryList( filter, QDir::Files, QDir::Unsorted);
 
 	for (int n = 0; n < l.count(); n++) {
 		qDebug("VideoPreview::cleanDir: deleting '%s'", l[n].toUtf8().constData());
