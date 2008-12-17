@@ -41,7 +41,7 @@
 #define CD_TO_TEMP_DIR 1
 #endif
 
-#define RENAME_PICTURES 1
+#define RENAME_PICTURES 0
 
 VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFlags f) : QWidget(parent, f)
 {
