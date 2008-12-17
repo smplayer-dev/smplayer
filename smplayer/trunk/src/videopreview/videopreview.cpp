@@ -59,6 +59,7 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFla
 	full_output_dir = QDir::tempPath() +"/"+ output_dir;
 
 	progress = new QProgressDialog(this);
+	progress->setMinimumDuration(0);
 	progress->setWindowTitle(tr("Video preview"));
 	progress->setCancelButtonText( tr("Cancel") );
 	connect( progress, SIGNAL(canceled()), this, SLOT(cancelPressed()) );
