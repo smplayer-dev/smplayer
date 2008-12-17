@@ -65,6 +65,9 @@ public:
 	VideoPreview(QString mplayer_path, QWidget * parent = 0, Qt::WindowFlags f = 0);
 	~VideoPreview();
 
+	void setMplayerPath(QString mplayer_path);
+	QString mplayerPath() { return mplayer_bin; };
+
 	void setVideoFile(QString file) { prop.input_video = file; };
 	QString videoFile() { return prop.input_video; };
 

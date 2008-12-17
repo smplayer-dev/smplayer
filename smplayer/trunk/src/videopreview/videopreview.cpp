@@ -42,13 +42,7 @@
 
 VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFlags f) : QWidget(parent, f)
 {
-	mplayer_bin = mplayer_path;
-	QFileInfo fi(mplayer_bin);
-	if (fi.exists() && fi.isExecutable() && !fi.isDir()) {
-		mplayer_bin = fi.absoluteFilePath();
-    }
-
-	qDebug("VideoPreview::VideoPreview: mplayer_bin: '%s'", mplayer_bin.toUtf8().constData());
+	setMplayerPath(mplayer_path);
 
 	set = 0; // settings
 
@@ -116,6 +110,16 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFla
 
 VideoPreview::~VideoPreview() {
 	if (set) saveSettings();
+}
+
+void VideoPreview::setMplayerPath(QString mplayer_path) {
+	mplayer_bin = mplayer_path;
+	QFileInfo fi(mplayer_bin);
+	if (fi.exists() && fi.isExecutable() && !fi.isDir()) {
+		mplayer_bin = fi.absoluteFilePath();
+    }
+
+	qDebug("VideoPreview::setMplayerPath: mplayer_bin: '%s'", mplayer_bin.toUtf8().constData());
 }
 
 void VideoPreview::setSettings(QSettings * settings) {
