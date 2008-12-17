@@ -4020,6 +4020,8 @@ void BaseGui::showVideoPreviewDialog() {
 		video_preview->setVideoFile(core->mdat.filename);
 	}
 
+	video_preview->setMplayerPath(pref->mplayer_bin);
+
 #if VIDEOPREVIEW_ASYNC
 	if (video_preview->showConfigDialog()) {
 		video_preview->createThumbnails();
