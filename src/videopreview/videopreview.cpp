@@ -126,7 +126,7 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFla
 	for (int n=0; n < w_formats.count(); n++) {
 		write_formats.append(w_formats[n]+" ");
 	}
-	qDebug("Supported formats for writing: %s", write_formats.toUtf8().constData());
+	qDebug("VideoPreview::VideoPreview: supported formats for writing: %s", write_formats.toUtf8().constData());
 }
 
 VideoPreview::~VideoPreview() {
