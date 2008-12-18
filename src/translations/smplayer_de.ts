@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de_DE">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -7183,7 +7184,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="634"/>
         <source>Images</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilder</translation>
     </message>
 </context>
 <context>
