@@ -35,6 +35,8 @@
 #include <QSettings>
 #include <QApplication>
 #include <QPixmapCache>
+#include <QImageWriter>
+#include <QImageReader>
 
 // Workaround for Windows
 #ifdef Q_OS_WIN
@@ -111,6 +113,20 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFla
 	connect( this, SIGNAL(finishedOk()), this, SLOT(workFinishedOK()) );
 	connect( this, SIGNAL(finishedWithError()), this, SLOT(workFinishedWithError()) );
 #endif
+
+	QList<QByteArray> r_formats = QImageReader::supportedImageFormats();
+	QString read_formats;
+	for (int n=0; n < r_formats.count(); n++) {
+		read_formats.append(r_formats[n]+" ");
+	}
+	qDebug("VideoPreview::VideoPreview: supported formats for reading: %s", read_formats.toUtf8().constData());
+
+	QList<QByteArray> w_formats = QImageWriter::supportedImageFormats();
+	QString write_formats;
+	for (int n=0; n < w_formats.count(); n++) {
+		write_formats.append(w_formats[n]+" ");
+	}
+	qDebug("Supported formats for writing: %s", write_formats.toUtf8().constData());
 }
 
 VideoPreview::~VideoPreview() {
@@ -595,14 +611,27 @@ VideoInfo VideoPreview::getInfo(const QString & mplayer_path, const QString & fi
 void VideoPreview::saveImage() {
 	qDebug("VideoPreview::saveImage");
 
+	// Proposed name
 	QString proposed_name = last_directory;
 	QFileInfo fi(prop.input_video);
 	if (fi.exists()) {
-		proposed_name += "/"+fi.completeBaseName()+".jpg";
+		QString extension = (extractFormat()==PNG) ? "png" : "jpg";
+		proposed_name += "/"+ fi.completeBaseName() +"_preview."+ extension;
+	}
+
+	// Formats
+	QList<QByteArray> w_formats = QImageWriter::supportedImageFormats();
+	QString write_formats;
+	for (int n=0; n < w_formats.count(); n++) {
+		write_formats.append("*."+w_formats[n]);
+	}
+	if (write_formats.isEmpty()) {
+		// Shouldn't happen!
+		write_formats = "*.png *.jpg";
 	}
 
 	QString filename = QFileDialog::getSaveFileName(this, tr("Save file"),
-                            proposed_name, tr("Images (*.png *.jpg)"));
+                            proposed_name, tr("Images") +" ("+ write_formats +")");
 
 	if (!filename.isEmpty()) {
 		QPixmap image = QPixmap::grabWidget(w_contents);
