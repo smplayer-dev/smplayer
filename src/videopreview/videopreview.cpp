@@ -623,7 +623,7 @@ void VideoPreview::saveImage() {
 	QList<QByteArray> w_formats = QImageWriter::supportedImageFormats();
 	QString write_formats;
 	for (int n=0; n < w_formats.count(); n++) {
-		write_formats.append("*."+w_formats[n]);
+		write_formats.append("*."+w_formats[n]+" ");
 	}
 	if (write_formats.isEmpty()) {
 		// Shouldn't happen!
