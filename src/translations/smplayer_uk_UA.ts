@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="uk">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -275,12 +276,12 @@
     <message>
         <location filename="../about.cpp" line="209"/>
         <source>%1, %2, %3 and %4</source>
-        <translation type="unfinished"></translation>
+        <translation>%1, %2, %3 та %4</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="210"/>
         <source>%1, %2, %3, %4 and %5</source>
-        <translation type="unfinished"></translation>
+        <translation>%1, %2, %3, %4 та %5</translation>
     </message>
 </context>
 <context>
@@ -1313,7 +1314,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3979"/>
         <source>MPlayer has crashed.</source>
-        <translation>MPlayer поломався.</translation>
+        <translation type="unfinished">MPlayer поламався.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3980"/>
@@ -3009,12 +3010,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="26"/>
         <source>Avestan</source>
-        <translation type="unfinished"></translation>
+        <translation>Авестійська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="28"/>
         <source>Akan</source>
-        <translation type="unfinished"></translation>
+        <translation>Аканська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="30"/>
@@ -3029,7 +3030,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="37"/>
         <source>Belarusian</source>
-        <translation type="unfinished"></translation>
+        <translation>Білоруська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="41"/>
@@ -3039,7 +3040,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="45"/>
         <source>Bosnian</source>
-        <translation type="unfinished"></translation>
+        <translation>Боснійська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="47"/>
@@ -3074,7 +3075,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="58"/>
         <source>Ewe</source>
-        <translation type="unfinished"></translation>
+        <translation>Еве</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="66"/>
@@ -3139,7 +3140,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="101"/>
         <source>Kongo</source>
-        <translation type="unfinished"></translation>
+        <translation>Конго</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="102"/>
@@ -3154,7 +3155,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="106"/>
         <source>Khmer</source>
-        <translation type="unfinished"></translation>
+        <translation>Кхмерська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="109"/>
@@ -3204,7 +3205,7 @@ Please check the permissions of that folder.</source>
     <message encoding="UTF-8">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
-        <translation type="unfinished"></translation>
+        <translation>Букмол</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="143"/>
@@ -3319,7 +3320,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="201"/>
         <source>Walloon</source>
-        <translation type="unfinished"></translation>
+        <translation>Валонська</translation>
     </message>
 </context>
 <context>
@@ -4081,12 +4082,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="433"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Відновлювати індекс файлів якщо не знайдено, дозволяючи прокрутку. Корисно при неповно/помилково завантажених чи створених з помилками файлах. Ця опція працює тільки якщо в даному медіа підтримується прокрутка (тобто не stdin, pipe та ін.).&lt;br&gt; &lt;b&gt;Примітка:&lt;/b&gt; створення індекса займає деякий час.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="515"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Пароль для проксі. &lt;b&gt;Застереження:&lt;/b&gt; пароль буде збережений як звичайний текст в файлі налаштувань.</translation>
     </message>
 </context>
 <context>
@@ -4921,17 +4922,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="703"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо ви виберете цю опцію, SMPlayer пам&apos;ятатиме останнє положення файлу, коли ви відкриєте його знову. Ця опція працює тільки зі звичайними файлами (не з DVD, CD, URL...).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="760"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо увімкнено, вмикається пряме відтворення (підтримується не всіми кодеками та пристроями відеовиведення)&lt;br&gt;&lt;b&gt;Застереження:&lt;/b&gt; Може пошкодити екранну індикацію та субтитри!</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="821"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"></translation>
+        <translation>Вказує кількість каналів для відтворення. MPlayer вказує декодеру декодувати звук на вказану кількість каналів. Це виконує сам декодер. Це, як правило, актуально лише для відтворення відео із звуком AC3 (як DVD). В цьому випадку liba52 декодує за замовчуванням та правильно змішує звук в необхідну кількість каналів. &lt;b&gt;Примітка:&lt;/b&gt; Ця опція лише для кодеку (тільки AC3), фільтрів (розширення оточення) та драйверів виведення звуку (принаймні OSS).</translation>
     </message>
 </context>
 <context>
@@ -5702,7 +5703,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="587"/>
         <source>If this option is enabled, the floating control will appear in compact mode too. &lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо опція увімкнена, виринаюче керування з&apos;являтиметься також в стислому режимі. &lt;b&gt;Попередження:&lt;/b&gt; виринаюче керування не розраховувалось для стислого режиму і може не працювати вірно.</translation>
     </message>
 </context>
 <context>
@@ -6020,7 +6021,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="240"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished"></translation>
+        <translation>Вкажіть перевагу для процесу mplayer, що доступний для Windows.&lt;br&gt;&lt;b&gt;Застереження:&lt;/b&gt; Використання переваги реального часу може заблокувати систему.</translation>
     </message>
 </context>
 <context>
@@ -6679,7 +6680,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="386"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо ця опція увімкнена, субтитри буде показано у знімках екрану. &lt;b&gt;Примітка:&lt;/b&gt; іноді це може створити незручності.</translation>
     </message>
 </context>
 <context>
@@ -7160,17 +7161,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="320"/>
         <source>The length of the video is 0</source>
-        <translation type="unfinished"></translation>
+        <translation>Довжина відео: 0</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="360"/>
         <source>The file %1 doesn&apos;t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>Файл %1 не існує</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="634"/>
         <source>Images</source>
-        <translation type="unfinished"></translation>
+        <translation>Зображення</translation>
     </message>
 </context>
 <context>
@@ -7223,57 +7224,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="34"/>
         <source>The preview will be created for the video you specify here.</source>
-        <translation type="unfinished"></translation>
+        <translation>Попередній перегляд буде створено для відео, яке ви вкажете тут.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="36"/>
         <source>The thumbnails will be arranged on a table.</source>
-        <translation type="unfinished"></translation>
+        <translation>Мініатюри будуть розташовані в таблицею.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="35"/>
         <source>This option specifies the number of columns of the table.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ця опція визначає кількість стовпців таблиці.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="36"/>
         <source>This option specifies the number of rows of the table.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ця опція визначає кількість рядків таблиці.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="37"/>
         <source>If you check this option, the playing time will be displayed at the bottom of each thumbnail.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо ви виберете цю опцію, час програвання буде відображений знизу кожної мініатюри.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="38"/>
         <source>If the aspect ratio of the video is wrong, you can specify a different one here.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо співвідношення сторів відео невірне, ви тут можете визначити інше.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="40"/>
         <source>Usually the first frames are black, so it&apos;s a good idea to skip some seconds at the beginning of the video. This option allows to specify how many seconds will be skipped.</source>
-        <translation type="unfinished"></translation>
+        <translation>Зазвичай перший кадр чорний, тому гарною думкою є пропустити декілька секунд на початку відео. Ця опція дозволяє визначити скільки секунд буде пропущено.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="41"/>
         <source>This option specifies the maximum width in pixels that the generated preview image will have.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ця опція визначає найбільшу ширину в пікселях, що будуть мати створені мініатюри.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="43"/>
         <source>Some frames will be extracted from the video in order to create the preview. Here you can choose the image format for the extracted frames. PNG may give better quality.</source>
-        <translation type="unfinished"></translation>
+        <translation>Деякі кадри будуть витягнені з відео в порядку створення попереднього перегляду. Тут ви можете обрати формат зображення для здобутих кадрів. PNG може дати кращу якість.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="96"/>
         <source>Add playing &amp;time to thumbnails</source>
-        <translation type="unfinished"></translation>
+        <translation>Додати &amp;час програвання до мініатюр</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="228"/>
         <source>&amp;Extract frames as</source>
-        <translation type="unfinished"></translation>
+        <translation>Витягнути &amp;кадри як</translation>
     </message>
 </context>
 <context>
