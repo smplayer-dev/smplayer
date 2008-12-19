@@ -111,7 +111,7 @@ protected slots:
 
 protected:
 	bool extractImages();
-	bool runMplayer(int seek);
+	bool runMplayer(int seek, double aspect_ratio);
 	bool addPicture(const QString & filename, int num, int time); 
 	void displayVideoInfo(const VideoInfo & i);
 	void cleanDir(QString directory);
