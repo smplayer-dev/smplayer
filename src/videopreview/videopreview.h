@@ -67,6 +67,9 @@ public:
 	void setVideoFile(QString file) { prop.input_video = file; };
 	QString videoFile() { return prop.input_video; };
 
+	void setDVDDevice(const QString & dvd_device) { prop.dvd_device = dvd_device; };
+	QString DVDDevice() { return prop.dvd_device; };
+
 	void setCols(int cols) { prop.n_cols = cols; };
 	int cols() { return prop.n_cols; };
 
@@ -138,6 +141,7 @@ protected:
 
 	struct Properties {
 		QString input_video;
+		QString dvd_device;
 		int n_cols, n_rows, initial_step, max_width;
 		double aspect_ratio;
 		bool display_osd;

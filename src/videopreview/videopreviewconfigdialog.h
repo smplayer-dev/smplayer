@@ -33,6 +33,9 @@ public:
 	void setVideoFile(const QString & video_file);
 	QString videoFile();
 
+	void setDVDDevice(const QString & dvd_device);
+	QString DVDDevice();
+
 	void setCols(int cols);
 	int cols();
 
@@ -53,6 +56,9 @@ public:
 
 	void setFormat(VideoPreview::ExtractFormat format);
 	VideoPreview::ExtractFormat format();
+
+protected slots:
+	void filenameChanged(const QString &);
 };
 
 #endif

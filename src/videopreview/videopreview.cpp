@@ -52,6 +52,7 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFla
 	set = 0; // settings
 
 	prop.input_video.clear();
+	prop.dvd_device.clear();
 	prop.n_cols = 4;
 	prop.n_rows = 4;
 	prop.initial_step = 20;
@@ -271,6 +272,10 @@ bool VideoPreview::runMplayer(int seek) {
 		args << "-aspect" << QString::number(prop.aspect_ratio) << "-zoom";
 	}
 
+	if (!prop.dvd_device.isEmpty()) {
+		args << "-dvd-device" << prop.dvd_device;
+	}
+
 	/*
 	if (display_osd) {
 		args << "-vf" << "expand=osd=1" << "-osdlevel" << "2";
@@ -410,6 +415,11 @@ VideoInfo VideoPreview::getInfo(const QString & mplayer_path, const QString & fi
 
 	QStringList args;
 	args << "-vo" << "null" << "-ao" << "null" << "-frames" << "1" << "-identify" << "-nocache" << "-noquiet" << filename;
+
+	if (!prop.dvd_device.isEmpty()) {
+		args << "-dvd-device" << prop.dvd_device;
+	}
+
 	p.start(mplayer_path, args);
 
 	if (p.waitForFinished()) {
@@ -502,6 +512,7 @@ bool VideoPreview::showConfigDialog() {
 	VideoPreviewConfigDialog d(this);
 
 	d.setVideoFile( videoFile() );
+	d.setDVDDevice( DVDDevice() );
 	d.setCols( cols() );
 	d.setRows( rows() );
 	d.setInitialStep( initialStep() );
@@ -512,6 +523,7 @@ bool VideoPreview::showConfigDialog() {
 
 	if (d.exec() == QDialog::Accepted) {
 		setVideoFile( d.videoFile() );
+		setDVDDevice( d.DVDDevice() );
 		setCols( d.cols() );
 		setRows( d.rows() );
 		setInitialStep( d.initialStep() );
@@ -538,7 +550,9 @@ void VideoPreview::saveSettings() {
 	set->setValue("osd", displayOSD());
 	set->setValue("format", extractFormat());
 	set->setValue("last_directory", last_directory);
+
 	set->setValue("filename", videoFile());
+	set->setValue("dvd_device", DVDDevice());
 
 	set->endGroup();
 }
@@ -555,7 +569,9 @@ void VideoPreview::loadSettings() {
 	setDisplayOSD( set->value("osd", displayOSD()).toBool() );
 	setExtractFormat( (ExtractFormat) set->value("format", extractFormat()).toInt() );
 	last_directory = set->value("last_directory", last_directory).toString();
+
 	setVideoFile( set->value("filename", videoFile()).toString() );
+	setDVDDevice( set->value("dvd_device", DVDDevice()).toString() );
 
 	set->endGroup();
 }
