@@ -23,6 +23,12 @@ VideoPreviewConfigDialog::VideoPreviewConfigDialog( QWidget* parent, Qt::WindowF
 {
 	setupUi(this);
 
+	connect(filename_edit->lineEdit(), SIGNAL(textChanged(const QString &)),
+            this, SLOT(filenameChanged(const QString &)) );
+
+	dvd_device_label->setVisible(false);
+	dvd_device_edit->setVisible(false);
+
 	aspect_ratio_combo->addItem(tr("Default"), 0);
 	aspect_ratio_combo->addItem("4:3", (double) 4/3);
 	aspect_ratio_combo->addItem("16:9", (double) 16/9);
@@ -54,6 +60,14 @@ void VideoPreviewConfigDialog::setVideoFile(const QString & video_file) {
 
 QString VideoPreviewConfigDialog::videoFile() {
 	return filename_edit->text();
+}
+
+void VideoPreviewConfigDialog::setDVDDevice(const QString & dvd_device) {
+	dvd_device_edit->setText(dvd_device);
+}
+
+QString VideoPreviewConfigDialog::DVDDevice() {
+	return dvd_device_edit->text();
 }
 
 void VideoPreviewConfigDialog::setCols(int cols) {
@@ -116,6 +130,14 @@ void VideoPreviewConfigDialog::setFormat(VideoPreview::ExtractFormat format) {
 VideoPreview::ExtractFormat VideoPreviewConfigDialog::format() {
 	int idx = format_combo->currentIndex();
 	return (VideoPreview::ExtractFormat) format_combo->itemData(idx).toInt();
+}
+
+void VideoPreviewConfigDialog::filenameChanged(const QString & text) {
+	qDebug("VideoPreviewConfigDialog::filenameChanged");
+
+	bool b = text.startsWith("dvd:");
+	dvd_device_label->setVisible(b);
+	dvd_device_edit->setVisible(b);
 }
 
 #include "moc_videopreviewconfigdialog.cpp"

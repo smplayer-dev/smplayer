@@ -4018,6 +4018,28 @@ void BaseGui::showVideoPreviewDialog() {
 
 	if (!core->mdat.filename.isEmpty()) {
 		video_preview->setVideoFile(core->mdat.filename);
+
+		// DVD
+		if (core->mdat.type==TYPE_DVD) {
+			QString file = core->mdat.filename;
+			QString dvd_folder = Helper::dvdSplitFolder(file);
+			if (dvd_folder.isEmpty()) dvd_folder = pref->dvd_device;
+			// Remove trailing "/"
+			if (dvd_folder.endsWith("/")) {
+#ifdef Q_OS_WIN
+				QRegExp r("^[A-Z]:/$");
+				int pos = r.indexIn(dvd_folder);
+				qDebug("BaseGui::showVideoPreviewDialog: drive check: '%s': regexp: %d", dvd_folder.toUtf8().data(), pos);
+				if (pos == -1)
+#endif
+					dvd_folder = dvd_folder.remove( dvd_folder.length()-1, 1);
+			}
+			int dvd_title = Helper::dvdSplitTitle(file);
+			file = "dvd://" + QString::number(dvd_title);
+
+			video_preview->setVideoFile(file);
+			video_preview->setDVDDevice(dvd_folder);
+		}
 	}
 
 	video_preview->setMplayerPath(pref->mplayer_bin);

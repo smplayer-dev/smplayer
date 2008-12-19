@@ -5,8 +5,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>388</width>
-    <height>307</height>
+    <width>428</width>
+    <height>340</height>
    </rect>
   </property>
   <property name="windowTitle" >
@@ -27,6 +27,23 @@
      </item>
      <item>
       <widget class="FileChooser" name="filename_edit" />
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" >
+     <item>
+      <widget class="QLabel" name="dvd_device_label" >
+       <property name="text" >
+        <string>&amp;DVD device or directory with DVD image:</string>
+       </property>
+       <property name="buddy" >
+        <cstring>dvd_device_edit</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="dvd_device_edit" />
      </item>
     </layout>
    </item>
@@ -284,6 +301,7 @@
  </customwidgets>
  <tabstops>
   <tabstop>filename_edit</tabstop>
+  <tabstop>dvd_device_edit</tabstop>
   <tabstop>columns_spin</tabstop>
   <tabstop>rows_spin</tabstop>
   <tabstop>osd_check</tabstop>
