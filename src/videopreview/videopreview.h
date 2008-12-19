@@ -19,15 +19,9 @@
 #ifndef _VIDEOPREVIEW_H_
 #define _VIDEOPREVIEW_H_
 
-#define VIDEOPREVIEW_ASYNC 0
-
 #include <QWidget>
 #include <QString>
 #include <QList>
-
-#if VIDEOPREVIEW_ASYNC
-#include <QProcess>
-#endif
 
 class QProgressDialog;
 class QGridLayout;
@@ -96,11 +90,7 @@ public:
 	void setExtractFormat( ExtractFormat format ) { prop.extract_format = format; };
 	ExtractFormat extractFormat() { return prop.extract_format; };
 
-#if VIDEOPREVIEW_ASYNC
-	void createThumbnails();
-#else
 	bool createThumbnails();
-#endif
 
 	bool showConfigDialog();
 
@@ -116,23 +106,8 @@ protected slots:
 	void cancelPressed();
 	void saveImage();
 
-#if VIDEOPREVIEW_ASYNC
-	void processFinished(int exitCode, QProcess::ExitStatus exitStatus);
-	void workFinishedOK();
-	void workFinishedWithError();
-
 protected:
-	QProcess * process;
-
-signals:
-	void finishedOk();
-	void finishedWithError();
-#endif
-
-protected:
-#if !VIDEOPREVIEW_ASYNC
 	bool extractImages();
-#endif
 	bool runMplayer(int seek);
 	bool addPicture(const QString & filename, int num, int time); 
 	void displayVideoInfo(const VideoInfo & i);
@@ -169,19 +144,9 @@ protected:
 		ExtractFormat extract_format;
 	} prop;
 
-#if VIDEOPREVIEW_ASYNC
-	struct {
-		int thumbnail_width;
-		int num_pictures;
-		int s_step;
-		int current_time;
-		int current_picture;
-	} run;
-#else
 	struct {
 		int thumbnail_width;
 	} run;
-#endif
 
 	QString last_directory;
 	QString error_message;
