@@ -213,6 +213,9 @@ bool VideoPreview::extractImages() {
 	progress->setLabelText(tr("Creating thumbnails..."));
 	progress->setRange(0, num_pictures-1);
 
+	double aspect_ratio = i.aspect;
+	if (prop.aspect_ratio != 0) aspect_ratio = prop.aspect_ratio;
+
 	for (int n = 0; n < num_pictures; n++) {
 		qDebug("VideoPreview::extractImages: getting frame %d of %d...", n+1, num_pictures);
 		progress->setValue(n);
@@ -220,7 +223,7 @@ bool VideoPreview::extractImages() {
 
 		if (canceled) return false;
 
-		if (!runMplayer(current_time)) return false;
+		if (!runMplayer(current_time, aspect_ratio)) return false;
 
 		QString frame_picture = full_output_dir + "/" + framePicture();
 		if (!QFile::exists(frame_picture)) {
@@ -246,7 +249,7 @@ bool VideoPreview::extractImages() {
 	return true;
 }
 
-bool VideoPreview::runMplayer(int seek) {
+bool VideoPreview::runMplayer(int seek, double aspect_ratio) {
 	QStringList args;
 	args << "-nosound";
 
@@ -268,8 +271,8 @@ bool VideoPreview::runMplayer(int seek) {
 
 	args << "-frames" << "6" << "-ss" << QString::number(seek);
 
-	if (prop.aspect_ratio != 0) {
-		args << "-aspect" << QString::number(prop.aspect_ratio) << "-zoom";
+	if (aspect_ratio != 0) {
+		args << "-aspect" << QString::number(aspect_ratio) << "-zoom";
 	}
 
 	if (!prop.dvd_device.isEmpty()) {
