@@ -19,6 +19,7 @@
 #include "smplayer.h"
 #include "defaultgui.h"
 #include "minigui.h"
+#include "mpcgui.h"
 #include "global.h"
 #include "paths.h"
 #include "translator.h"
@@ -74,6 +75,9 @@ BaseGui * SMPlayer::gui() {
 		
 		if (gui_to_use.toLower() == "minigui") 
 			main_window = new MiniGui(0);
+		else 
+		if (gui_to_use.toLower() == "mpcgui")
+			main_window = new MpcGui(0);
 		else
 			main_window = new DefaultGui(0);
 	}
@@ -182,6 +186,10 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 		else
 		if (argument == "-mini" || argument == "-minigui") {
 			gui_to_use = "MiniGui";
+		}
+		else
+		if (argument == "-mpcgui") {
+			gui_to_use = "MpcGui";
 		}
 		else
 		if (argument == "-defaultgui") {
