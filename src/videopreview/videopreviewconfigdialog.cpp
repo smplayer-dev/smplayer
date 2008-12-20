@@ -38,6 +38,7 @@ VideoPreviewConfigDialog::VideoPreviewConfigDialog( QWidget* parent, Qt::WindowF
 	format_combo->addItem("png", VideoPreview::PNG);
 
 	filename_edit->setWhatsThis( tr("The preview will be created for the video you specify here.") );
+	dvd_device_edit->setWhatsThis( tr("Enter here the DVD device or a folder with a DVD image.") );
 	columns_spin->setWhatsThis( tr("The thumbnails will be arranged on a table.") +" "+ tr("This option specifies the number of columns of the table.") );
 	rows_spin->setWhatsThis( tr("The thumbnails will be arranged on a table.") +" "+ tr("This option specifies the number of rows of the table.") );
 	osd_check->setWhatsThis( tr("If you check this option, the playing time will be displayed at the bottom of each thumbnail.") );
