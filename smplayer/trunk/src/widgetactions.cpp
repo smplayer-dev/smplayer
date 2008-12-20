@@ -27,6 +27,8 @@
 MyWidgetAction::MyWidgetAction( QWidget * parent )
 	: QWidgetAction(parent)
 {
+	custom_style = 0;
+	custom_stylesheet = "";
 }
 
 MyWidgetAction::~MyWidgetAction() {
@@ -99,6 +101,9 @@ QWidget * TimeSliderAction::createWidget ( QWidget * parent ) {
 	TimeSlider *t = new TimeSlider(parent);
 	t->setEnabled( isEnabled() );
 
+	if (custom_style) t->setStyle(custom_style);
+	if (!custom_stylesheet.isEmpty()) t->setStyleSheet(custom_stylesheet);
+
 	connect( t,    SIGNAL(posChanged(int)), 
              this, SIGNAL(posChanged(int)) );
 	connect( t,    SIGNAL(draggingPos(int)),
@@ -117,6 +122,7 @@ QWidget * TimeSliderAction::createWidget ( QWidget * parent ) {
 VolumeSliderAction::VolumeSliderAction( QWidget * parent )
 	: MyWidgetAction(parent)
 {
+	tick_position = QSlider::TicksBelow;
 }
 
 VolumeSliderAction::~VolumeSliderAction() {
@@ -140,15 +146,32 @@ int VolumeSliderAction::value() {
 	}
 }
 
+void VolumeSliderAction::setTickPosition(QSlider::TickPosition position) {
+	// For new widgets
+	tick_position = position; 
+
+	// Propagate changes to all existing widgets
+	QList<QWidget *> l = createdWidgets();
+	for (int n=0; n < l.count(); n++) {
+		MySlider *s = (MySlider*) l[n];
+		s->setTickPosition(tick_position);
+	}
+}
+
 QWidget * VolumeSliderAction::createWidget ( QWidget * parent ) {
 	MySlider *t = new MySlider(parent);
+
+	if (custom_style) t->setStyle(custom_style);
+	if (!custom_stylesheet.isEmpty()) t->setStyleSheet(custom_stylesheet);
+	if (fixed_size.isValid()) t->setFixedSize(fixed_size);
+
 	t->setMinimum(0);
 	t->setMaximum(100);
 	t->setValue(50);
 	t->setOrientation( Qt::Horizontal );
 	t->setSizePolicy( QSizePolicy::Fixed, QSizePolicy::Fixed );
 	t->setFocusPolicy( Qt::NoFocus );
-	t->setTickPosition( QSlider::TicksBelow );
+	t->setTickPosition( tick_position );
 	t->setTickInterval( 10 );
 	t->setSingleStep( 1 );
 	t->setPageStep( 10 );

@@ -24,6 +24,8 @@
 #include "config.h"
 #include "guiconfig.h"
 
+class QStyle;
+
 class MyWidgetAction : public QWidgetAction
 {
 	Q_OBJECT
@@ -32,12 +34,22 @@ public:
 	MyWidgetAction( QWidget * parent );
 	~MyWidgetAction();
 
+	void setCustomStyle(QStyle * style) { custom_style = style; };
+	QStyle * customStyle() { return custom_style; };
+
+	void setStyleSheet(QString style) { custom_stylesheet = style; };
+	QString styleSheet() { return custom_stylesheet; };
+
 public slots:
 	virtual void enable(); 	// setEnabled in QAction is not virtual :(
 	virtual void disable();
 
 protected:
 	virtual void propagate_enabled(bool);
+
+protected:
+	QStyle * custom_style;
+	QString custom_stylesheet;
 };
 
 
@@ -80,6 +92,12 @@ public:
 	VolumeSliderAction( QWidget * parent );
 	~VolumeSliderAction();
 
+	void setFixedSize(QSize size) { fixed_size = size; };
+	QSize fixedSize() { return fixed_size; };
+
+	void setTickPosition(QSlider::TickPosition position);
+	QSlider::TickPosition tickPosition() { return tick_position; };
+
 public slots:
 	virtual void setValue(int);
 	virtual int value();
@@ -89,6 +107,10 @@ signals:
 
 protected:
 	virtual QWidget * createWidget ( QWidget * parent );
+
+private:
+	QSize fixed_size;
+	QSlider::TickPosition tick_position;
 };
 
 
