@@ -35,7 +35,7 @@
      <item>
       <widget class="QLabel" name="dvd_device_label" >
        <property name="text" >
-        <string>&amp;DVD device or directory with DVD image:</string>
+        <string>&amp;DVD device:</string>
        </property>
        <property name="buddy" >
         <cstring>dvd_device_edit</cstring>
