@@ -7,8 +7,8 @@ QT += network xml
 
 RESOURCES = icons.qrc
 
-INCLUDEPATH += findsubtitles videopreview
-DEPENDPATH += findsubtitles videopreview
+INCLUDEPATH += findsubtitles videopreview mpcgui
+DEPENDPATH += findsubtitles videopreview mpcgui
 
 #DEFINES += USE_QXT
 
@@ -102,6 +102,8 @@ HEADERS += guiconfig.h \
 	toolbareditor.h \
 	defaultgui.h \
 	minigui.h \
+	mpcgui/mpcgui.h \
+	mpcgui/mpcstyles.h \
 	smplayer.h \
 	clhelp.h
 
@@ -189,6 +191,8 @@ SOURCES	+= version.cpp \
 	toolbareditor.cpp \
 	defaultgui.cpp \
 	minigui.cpp \
+	mpcgui/mpcgui.cpp \
+	mpcgui/mpcstyles.cpp \
 	clhelp.cpp \
 	smplayer.cpp \
 	main.cpp
