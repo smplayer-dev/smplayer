@@ -36,6 +36,7 @@ class Preferences {
 
 public:
 	enum OSD { None = 0, Seek = 1, SeekTimer = 2, SeekTimerTotal = 3 };
+	enum OnTop { NeverOnTop = 0, AlwaysOnTop = 1, WhilePlayingOnTop = 2 };
 	enum Resize { Never = 0, Always = 1, Afterload = 2 };
 	enum Priority { Realtime = 0, High = 1, AboveNormal = 2, Normal = 3,
                     BelowNormal = 4, Idle = 5 };
@@ -246,7 +247,7 @@ public:
 	bool fullscreen;
 	bool start_in_fullscreen;
 	bool compact_mode;
-	bool stay_on_top;
+	OnTop stay_on_top;
 	int size_factor;
 
 	int resize_method; 	//!< Mainwindow resize method
