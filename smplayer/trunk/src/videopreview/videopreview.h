@@ -110,6 +110,10 @@ protected slots:
 	void saveImage();
 
 protected:
+	virtual void retranslateStrings();
+	virtual void changeEvent( QEvent * event );
+
+protected:
 	bool extractImages();
 	bool runMplayer(int seek, double aspect_ratio);
 	bool addPicture(const QString & filename, int num, int time); 
