@@ -174,7 +174,7 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 
 void BaseGui::initializeGui() {
 	if (pref->compact_mode) toggleCompactMode(TRUE);
-	if (pref->stay_on_top) toggleStayOnTop(TRUE);
+	changeStayOnTop(pref->stay_on_top);
 	toggleFrameCounter( pref->show_frame_counter );
 
 #if ALLOW_CHANGE_STYLESHEET
@@ -425,11 +425,6 @@ void BaseGui::createActions() {
 	screenshotAct = new MyAction( Qt::Key_S, this, "screenshot" );
 	connect( screenshotAct, SIGNAL(triggered()),
              core, SLOT(screenshot()) );
-
-	onTopAct = new MyAction( this, "on_top" );
-	onTopAct->setCheckable( true );
-	connect( onTopAct, SIGNAL(toggled(bool)),
-             this, SLOT(toggleStayOnTop(bool)) );
 
 	videoPreviewAct = new MyAction( this, "video_preview" );
 	connect( videoPreviewAct, SIGNAL(triggered()),
@@ -886,6 +881,14 @@ void BaseGui::createActions() {
 	connect( rotateGroup, SIGNAL(activated(int)),
              core, SLOT(changeRotate(int)) );
 
+	// On Top
+	onTopActionGroup = new MyActionGroup(this);
+	onTopAlwaysAct = new MyActionGroupItem( this,onTopActionGroup,"on_top_always",Preferences::AlwaysOnTop);
+	onTopNeverAct = new MyActionGroupItem( this,onTopActionGroup,"on_top_never",Preferences::NeverOnTop);
+	onTopWhilePlayingAct = new MyActionGroupItem( this,onTopActionGroup,"on_top_playing",Preferences::WhilePlayingOnTop);
+	connect( onTopActionGroup , SIGNAL(activated(int)),
+             this, SLOT(changeStayOnTop(int)) );
+
 #if USE_ADAPTER
 	screenGroup = new MyActionGroup(this);
 	screenDefaultAct = new MyActionGroupItem(this, screenGroup, "screen_default", -1);
@@ -1199,7 +1202,6 @@ void BaseGui::retranslateStrings() {
 	compactAct->change( Images::icon("compact"), tr("&Compact mode") );
 	videoEqualizerAct->change( Images::icon("equalizer"), tr("&Equalizer") );
 	screenshotAct->change( Images::icon("screenshot"), tr("&Screenshot") );
-	onTopAct->change( Images::icon("ontop"), tr("S&tay on top") );
 	videoPreviewAct->change( Images::icon("video_preview"), tr("Pre&view...") );
 	flipAct->change( Images::icon("flip"), tr("Flip i&mage") );
 	mirrorAct->change( Images::icon("mirror"), tr("Mirr&or image") );
@@ -1388,6 +1390,9 @@ void BaseGui::retranslateStrings() {
 	rotate_menu->menuAction()->setText( tr("&Rotate") );
 	rotate_menu->menuAction()->setIcon( Images::icon("rotate") );
 
+	ontop_menu->menuAction()->setText( tr("S&tay on top") );
+	ontop_menu->menuAction()->setIcon( Images::icon("ontop") );
+
 #if USE_ADAPTER
 	screen_menu->menuAction()->setText( tr("Scree&n") );
 	screen_menu->menuAction()->setIcon( Images::icon("screen") );
@@ -1433,6 +1438,10 @@ void BaseGui::retranslateStrings() {
 	rotateClockwiseAct->change( tr("Rotate by 90 degrees &clockwise") );
 	rotateCounterclockwiseAct->change( tr("Rotate by 90 degrees counterclock&wise") );
 	rotateCounterclockwiseFlipAct->change( tr("Rotate by 90 degrees counterclockwise and &flip") );
+
+	onTopAlwaysAct->change( tr("&Always") );
+	onTopNeverAct->change( tr("&Never") );
+	onTopWhilePlayingAct->change( tr("While &playing") );
 
 #if USE_ADAPTER
 	screenDefaultAct->change( tr("&Default") );
@@ -1555,6 +1564,8 @@ void BaseGui::createCore() {
              this, SLOT(displayMessage(QString)) );
 	connect( core, SIGNAL(stateChanged(Core::State)),
              this, SLOT(displayState(Core::State)) );
+	connect( core, SIGNAL(stateChanged(Core::State)),
+             this, SLOT(checkStayOnTop(Core::State)) );
 
 	connect( core, SIGNAL(mediaStartPlay()),
              this, SLOT(enterFullscreenOnPlay()) );
@@ -1894,7 +1905,13 @@ void BaseGui::createMenus() {
 	videoMenu->addSeparator();
 	videoMenu->addAction(videoEqualizerAct);
 	videoMenu->addAction(screenshotAct);
-	videoMenu->addAction(onTopAct);
+
+	// Ontop submenu
+	ontop_menu = new QMenu(this);
+	ontop_menu->addActions(onTopActionGroup->actions());
+
+	videoMenu->addMenu(ontop_menu);
+
 	videoMenu->addSeparator();
 	videoMenu->addAction(videoPreviewAct);
 
@@ -2743,7 +2760,7 @@ void BaseGui::updateWidgets() {
 	compactAct->setChecked( pref->compact_mode );
 
 	// Stay on top
-	onTopAct->setChecked( pref->stay_on_top );
+	onTopActionGroup->setChecked( (int) pref->stay_on_top );
 
 	// Flip
 	flipAct->setChecked( core->mset.flip );
@@ -3778,12 +3795,17 @@ void BaseGui::aboutToExitCompactMode() {
 	statusBar()->show();
 }
 
+void BaseGui::setStayOnTop(bool b) {
+	qDebug("BaseGui::setStayOnTop: %d", b);
 
-void BaseGui::toggleStayOnTop() {
-	toggleStayOnTop( !pref->stay_on_top );
-}
+	if ( (b && (windowFlags() & Qt::WindowStaysOnTopHint)) ||
+         (!b && (!(windowFlags() & Qt::WindowStaysOnTopHint))) )
+	{
+		// identical do nothing
+		qDebug("BaseGui::setStayOnTop: nothing to do");
+		return;
+	}
 
-void BaseGui::toggleStayOnTop(bool b) {
 	bool visible = isVisible();
 
 	QPoint old_pos = pos();
@@ -3800,12 +3822,25 @@ void BaseGui::toggleStayOnTop(bool b) {
 	if (visible) {
 		show();
 	}
+}
 
-	pref->stay_on_top = b;
+void BaseGui::changeStayOnTop(int stay_on_top) {
+	switch (stay_on_top) {
+		case Preferences::Always : setStayOnTop(true); break;
+		case Preferences::Never  : setStayOnTop(false); break;
+		case Preferences::WhilePlayingOnTop : setStayOnTop((core->state() == Core::Playing)); break;
+	}
 
+	pref->stay_on_top = (Preferences::OnTop) stay_on_top;
 	updateWidgets();
 }
 
+void BaseGui::checkStayOnTop(Core::State state) {
+	qDebug("BaseGui::checkStayOnTop");
+    if ((!pref->fullscreen) && (pref->stay_on_top == Preferences::WhilePlayingOnTop)) {
+		setStayOnTop((state == Core::Playing));
+	}
+}
 
 // Called when a new window (equalizer, preferences..) is opened.
 void BaseGui::exitFullscreenIfNeeded() {

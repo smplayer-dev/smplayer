@@ -68,7 +68,9 @@ void PrefInput::createMouseCombos() {
 	left_click_combo->addItem( tr("Fullscreen"), "fullscreen" );
 	left_click_combo->addItem( tr("Compact"), "compact" );
 	left_click_combo->addItem( tr("Screenshot"), "screenshot" );
-	left_click_combo->addItem( tr("On top"), "on_top" );
+	left_click_combo->addItem( tr("Always on top"), "on_top_always" );
+	left_click_combo->addItem( tr("Never on top"), "on_top_never" );
+	left_click_combo->addItem( tr("On top while playing"), "on_top_while_playing" );
 	left_click_combo->addItem( tr("Mute"), "mute" );
 	left_click_combo->addItem( tr("OSD - Next level"), "next_osd" );
 	left_click_combo->addItem( tr("Playlist"), "show_playlist" );

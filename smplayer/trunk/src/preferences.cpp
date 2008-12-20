@@ -255,7 +255,7 @@ void Preferences::reset() {
 	fullscreen = false;
 	start_in_fullscreen = false;
 	compact_mode = false;
-	stay_on_top = false;
+	stay_on_top = NeverOnTop;
 	size_factor = 100; // 100%
 
 	resize_method = Always;
@@ -619,7 +619,7 @@ void Preferences::save() {
 	set->setValue("start_in_fullscreen", start_in_fullscreen);
 
 	set->setValue("compact_mode", compact_mode);
-	set->setValue("stay_on_top", stay_on_top);
+	set->setValue("stay_on_top", (int) stay_on_top);
 	set->setValue("size_factor", size_factor);
 	set->setValue("resize_method", resize_method);
 
@@ -996,7 +996,7 @@ void Preferences::load() {
 	start_in_fullscreen = set->value("start_in_fullscreen", start_in_fullscreen).toBool();
 
 	compact_mode = set->value("compact_mode", compact_mode).toBool();
-	stay_on_top = set->value("stay_on_top", stay_on_top).toBool();
+	stay_on_top = (Preferences::OnTop) set->value("stay_on_top", (int) stay_on_top).toInt();
 	size_factor = set->value("size_factor", size_factor).toInt();
 	resize_method = set->value("resize_method", resize_method).toInt();
 

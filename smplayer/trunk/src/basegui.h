@@ -126,8 +126,9 @@ public slots:
 	virtual void toggleCompactMode();
 	virtual void toggleCompactMode(bool);
 
-	virtual void toggleStayOnTop();
-	virtual void toggleStayOnTop(bool);
+	void setStayOnTop(bool b);
+	virtual void changeStayOnTop(int);
+	virtual void checkStayOnTop(Core::State);
 
 	virtual void toggleFrameCounter();
 	virtual void toggleFrameCounter(bool);
@@ -351,7 +352,6 @@ protected:
 	MyAction * compactAct;
 	MyAction * videoEqualizerAct;
 	MyAction * screenshotAct;
-	MyAction * onTopAct;
 	MyAction * videoPreviewAct;
 	MyAction * flipAct;
 	MyAction * mirrorAct;
@@ -519,6 +519,12 @@ protected:
 	MyAction * rotateCounterclockwiseAct;
 	MyAction * rotateCounterclockwiseFlipAct;
 
+	// Menu StayOnTop
+	MyActionGroup * onTopActionGroup;
+	MyAction * onTopAlwaysAct;
+	MyAction * onTopNeverAct;
+	MyAction * onTopWhilePlayingAct;
+
 #if USE_ADAPTER
 	// Screen Group
 	MyActionGroup * screenGroup;
@@ -577,6 +583,7 @@ protected:
 	QMenu * logs_menu;
 	QMenu * panscan_menu;
 	QMenu * rotate_menu;
+	QMenu * ontop_menu;
 #if USE_ADAPTER
 	QMenu * screen_menu;
 #endif
