@@ -1471,17 +1471,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1442"/>
         <source>&amp;Always</source>
-        <translation>&amp;Всегда</translation>
+        <translation>&amp;Всегда наверху</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1443"/>
         <source>&amp;Never</source>
-        <translation>&amp;Никогда</translation>
+        <translation>&amp;Отключено</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1444"/>
         <source>While &amp;playing</source>
-        <translation>Пока &amp;проигрывается</translation>
+        <translation>При про&amp;игрывании</translation>
     </message>
 </context>
 <context>
