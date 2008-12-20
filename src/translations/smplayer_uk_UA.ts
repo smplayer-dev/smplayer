@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="uk">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1313,7 +1314,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4014"/>
         <source>MPlayer has crashed.</source>
-        <translation type="unfinished">MPlayer поламався.</translation>
+        <translation>MPlayer зламався.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4015"/>
@@ -1470,17 +1471,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1442"/>
         <source>&amp;Always</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Завжди</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1443"/>
         <source>&amp;Never</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ніколи</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1444"/>
         <source>While &amp;playing</source>
-        <translation type="unfinished"></translation>
+        <translation>Коли &amp;відтворюється</translation>
     </message>
 </context>
 <context>
@@ -3034,12 +3035,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="30"/>
         <source>Aragonese</source>
-        <translation type="unfinished"></translation>
+        <translation>Арагонська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="33"/>
         <source>Avaric</source>
-        <translation type="unfinished"></translation>
+        <translation>Аваріська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="37"/>
@@ -3049,7 +3050,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="41"/>
         <source>Bambara</source>
-        <translation type="unfinished"></translation>
+        <translation>Бамбара</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="45"/>
@@ -3059,12 +3060,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="47"/>
         <source>Chechen</source>
-        <translation type="unfinished"></translation>
+        <translation>Чеченська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="49"/>
         <source>Cree</source>
-        <translation type="unfinished"></translation>
+        <translation>Крі</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="51"/>
@@ -3074,17 +3075,17 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="52"/>
         <source>Chuvash</source>
-        <translation type="unfinished"></translation>
+        <translation>Чуваська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="56"/>
         <source>Divehi</source>
-        <translation type="unfinished"></translation>
+        <translation>Мальдівійська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="57"/>
         <source>Dzongkha</source>
-        <translation type="unfinished"></translation>
+        <translation>Дзонг-ке</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="58"/>
@@ -3234,7 +3235,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="144"/>
         <source>Navajo</source>
-        <translation type="unfinished"></translation>
+        <translation>Навахо</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="145"/>
@@ -5279,17 +5280,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="71"/>
         <source>Always on top</source>
-        <translation type="unfinished"></translation>
+        <translation>Завжди зверху</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="72"/>
         <source>Never on top</source>
-        <translation type="unfinished"></translation>
+        <translation>Ніколи зверху</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="73"/>
         <source>On top while playing</source>
-        <translation type="unfinished"></translation>
+        <translation>Зверху коли відтворюється</translation>
     </message>
 </context>
 <context>
@@ -7308,12 +7309,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="41"/>
         <source>Enter here the DVD device or a folder with a DVD image.</source>
-        <translation type="unfinished"></translation>
+        <translation>Введіть пристрій DVD або теку з образом DVD.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="38"/>
         <source>&amp;DVD device:</source>
-        <translation type="unfinished"></translation>
+        <translation>Пристрій &amp;DVD:</translation>
     </message>
 </context>
 <context>
