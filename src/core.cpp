@@ -52,6 +52,8 @@ using namespace Global;
 Core::Core( MplayerWindow *mpw, QWidget* parent ) 
 	: QObject( parent ) 
 {
+	qRegisterMetaType<Core::State>("Core::State");
+
 	mplayerwindow = mpw;
 
 	_state = Stopped;

@@ -1565,7 +1565,7 @@ void BaseGui::createCore() {
 	connect( core, SIGNAL(stateChanged(Core::State)),
              this, SLOT(displayState(Core::State)) );
 	connect( core, SIGNAL(stateChanged(Core::State)),
-             this, SLOT(checkStayOnTop(Core::State)) );
+             this, SLOT(checkStayOnTop(Core::State)), Qt::QueuedConnection );
 
 	connect( core, SIGNAL(mediaStartPlay()),
              this, SLOT(enterFullscreenOnPlay()) );
