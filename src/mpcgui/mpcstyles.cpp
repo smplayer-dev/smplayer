@@ -102,10 +102,10 @@ void MpcVolumeSlideStyle::drawComplexControl(ComplexControl cc, const QStyleOpti
 
                 p->setPen(slider->palette.shadow().color());
                 if (slider->orientation == Qt::Horizontal) {
-                    static QPointF points[3] = {
-                                QPointF(groove.x() , groove.y() + slider->rect.height() ),
-                                QPointF(groove.x() + groove.width() -2 , groove.y() + slider->rect.height() ),
-                                QPointF(groove.x() + groove.width() -2 , groove.y()  ),
+                    static QPoint points[3] = {
+                                QPoint(groove.x() , groove.y() + slider->rect.height() ),
+                                QPoint(groove.x() + groove.width() -2 , groove.y() + slider->rect.height() ),
+                                QPoint(groove.x() + groove.width() -2 , groove.y()  ),
                             };
                     QPen oldPen = p->pen();
                     
