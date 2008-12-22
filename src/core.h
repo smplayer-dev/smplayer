@@ -260,8 +260,8 @@ public slots:
 	void incPanscan();
 	void decPanscan();
 	void resetPanscan();
-	void autoPanscan(double video_aspect);
 	void autoPanscan();
+	void autoPanscanFromLetterbox(double video_aspect);
 	void autoPanscanFor169();
 	void autoPanscanFor235();
 
