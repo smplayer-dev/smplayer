@@ -172,7 +172,7 @@ bool VideoPreview::createThumbnails() {
 
 	bool result = extractImages();
 
-	progress->hide();
+	progress->close();
 
 	if ((result == false) && (!error_message.isEmpty())) {
 		QMessageBox::critical(this, tr("Error"), 
