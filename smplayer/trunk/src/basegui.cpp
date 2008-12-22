@@ -4074,6 +4074,8 @@ void BaseGui::showVideoPreviewDialog() {
 
 			video_preview->setVideoFile(file);
 			video_preview->setDVDDevice(dvd_folder);
+		} else {
+			video_preview->setDVDDevice("");
 		}
 	}
 
