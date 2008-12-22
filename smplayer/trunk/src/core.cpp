@@ -3285,8 +3285,42 @@ void Core::autoPanscan() {
 	changePanscan(zoom_factor);
 }
 
-void Core::autoPanscanFromLetterbox(double video_aspect) {
-	qDebug("Core::autoPanscanFromLetterbox: %f", video_aspect);
+void Core::autoPanscanFromLetterbox(double aspect) {
+	qDebug("Core::autoPanscanFromLetterbox: %f", aspect);
+
+	// Probably there's a much easy way to do this, but I'm not good with maths...
+
+	QSize desktop =  DesktopInfo::desktop_size(mplayerwindow);
+
+	double video_aspect = mset.aspectToNum( (MediaSettings::Aspect) mset.aspect_ratio_id);
+
+	if (video_aspect <= 0) {
+		QSize w = mplayerwindow->videoLayer()->size();
+		video_aspect = (double) w.width() / w.height();
+	}
+
+	// Calculate size of the video in fullscreen
+	QSize video;
+	video.setHeight( desktop.height() );;
+	video.setWidth( video.height() * video_aspect);
+	if (video.width() > desktop.width()) {
+		video.setWidth( desktop.width() );;
+		video.setHeight( video.width() / video_aspect);
+	}
+
+	qDebug("Core::autoPanscanFromLetterbox: max. size of video: %d %d", video.width(), video.height());
+
+	// Calculate the size of the actual video inside the letterbox
+	QSize actual_video;
+	actual_video.setWidth( video.width() );
+	actual_video.setHeight( actual_video.width() / aspect );
+
+	qDebug("Core::autoPanscanFromLetterbox: calculated size of actual video for aspect %f: %d %d", aspect, actual_video.width(), actual_video.height());
+
+	double zoom_factor = (double) desktop.height() / actual_video.height();
+
+	qDebug("Core::autoPanscanFromLetterbox: calculated zoom factor: %f", zoom_factor);
+	changePanscan(zoom_factor);	
 }
 
 void Core::autoPanscanFor169() {
