@@ -172,6 +172,8 @@ bool VideoPreview::createThumbnails() {
 
 	bool result = extractImages();
 
+	progress->hide();
+
 	if ((result == false) && (!error_message.isEmpty())) {
 		QMessageBox::critical(this, tr("Error"), 
                               tr("The following error has occurred while creating the thumbnails:")+"\n"+ error_message );
@@ -219,6 +221,7 @@ bool VideoPreview::extractImages() {
 	canceled = false;
 	progress->setLabelText(tr("Creating thumbnails..."));
 	progress->setRange(0, num_pictures-1);
+	progress->show();
 
 	double aspect_ratio = i.aspect;
 	if (prop.aspect_ratio != 0) aspect_ratio = prop.aspect_ratio;
