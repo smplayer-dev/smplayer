@@ -38,6 +38,8 @@
 #include <QImageWriter>
 #include <QImageReader>
 
+#include <cmath>
+
 // Workaround for Windows
 #ifdef Q_OS_WIN
 #define CD_TO_TEMP_DIR 1
@@ -360,6 +362,14 @@ bool VideoPreview::addPicture(const QString & filename, int num, int time) {
 void VideoPreview::displayVideoInfo(const VideoInfo & i) {
 	// Display info about the video
 	QTime t = QTime().addSecs(i.length);
+
+	QString aspect = QString::number(i.aspect);
+	if (fabs(1.77 - i.aspect) < 0.1) aspect = "16:9";
+	else
+	if (fabs(1.33 - i.aspect) < 0.1) aspect = "4:3";
+	else
+	if (fabs(2.35 - i.aspect) < 0.1) aspect = "2.35:1";
+
 	info->setText(
 		"<b><font size=+1>" + i.filename +"</font></b>"
 		"<table cellspacing=4 cellpadding=4><tr>"
@@ -371,7 +381,7 @@ void VideoPreview::displayVideoInfo(const VideoInfo & i) {
 		"<td>" +
 		tr("Video format: %1").arg(i.video_format) + "<br>" +
 		tr("Frames per second: %1").arg(i.fps) + "<br>" +
-		tr("Aspect ratio: %1").arg(i.aspect) + //"<br>" +
+		tr("Aspect ratio: %1").arg(aspect) + //"<br>" +
 		"</td>"
 		"<td>" +
 		tr("Video bitrate: %1 kbps").arg(i.video_bitrate/1000) + "<br>" +
