@@ -370,6 +370,13 @@ void VideoPreview::displayVideoInfo(const VideoInfo & i) {
 	else
 	if (fabs(2.35 - i.aspect) < 0.1) aspect = "2.35:1";
 
+	QString no_info = tr("No info");
+
+	QString fps = (i.fps==0 || i.fps==1000) ? no_info : QString("%1").arg(i.fps);
+	QString video_bitrate = (i.video_bitrate==0) ? no_info : tr("%1 kbps").arg(i.video_bitrate/1000);
+	QString audio_bitrate = (i.audio_bitrate==0) ? no_info : tr("%1 kbps").arg(i.audio_bitrate/1000);
+	QString audio_rate = (i.audio_rate==0) ? no_info : tr("%1 Hz").arg(i.audio_rate);
+
 	info->setText(
 		"<b><font size=+1>" + i.filename +"</font></b>"
 		"<table cellspacing=4 cellpadding=4><tr>"
@@ -380,13 +387,13 @@ void VideoPreview::displayVideoInfo(const VideoInfo & i) {
 		"</td>"
 		"<td>" +
 		tr("Video format: %1").arg(i.video_format) + "<br>" +
-		tr("Frames per second: %1").arg(i.fps) + "<br>" +
+		tr("Frames per second: %1").arg(fps) + "<br>" +
 		tr("Aspect ratio: %1").arg(aspect) + //"<br>" +
 		"</td>"
 		"<td>" +
-		tr("Video bitrate: %1 kbps").arg(i.video_bitrate/1000) + "<br>" +
-		tr("Audio bitrate: %1 kbps").arg(i.audio_bitrate/1000) + "<br>" +
-		tr("Audio rate: %1 Hz").arg(i.audio_rate) + //"<br>" +
+		tr("Video bitrate: %1").arg(video_bitrate) + "<br>" +
+		tr("Audio bitrate: %1").arg(audio_bitrate) + "<br>" +
+		tr("Audio rate: %1").arg(audio_rate) + //"<br>" +
 		"</td>"
 		"</tr></table>" 
 	);
