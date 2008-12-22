@@ -100,6 +100,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 		"Glaydus <glaydus@gmail.com>\n"
 		"Kamil Dziobek <turbos11@gmail.com>\n"
 		"LoRd_MuldeR (http://forum.doom9.org/member.php?u=78667)\n"
+		"Matthias Petri <matt@endboss.org>\n"
 		"profoX <wesley@ubuntu.com>\n"
 		"redxii <redxii1234@gmail.com>\n"
 		"Sikon <sikon@users.sourceforge.net>\n"
