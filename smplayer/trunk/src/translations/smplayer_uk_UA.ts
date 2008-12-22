@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="uk">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -3069,7 +3070,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="51"/>
         <source>Church</source>
-        <translation type="unfinished"></translation>
+        <translation>Церковна</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="52"/>
@@ -3094,62 +3095,62 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="66"/>
         <source>Fulah</source>
-        <translation type="unfinished"></translation>
+        <translation>Фула</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="68"/>
         <source>Fijian</source>
-        <translation type="unfinished"></translation>
+        <translation>Фіджійська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="73"/>
         <source>Gaelic</source>
-        <translation type="unfinished"></translation>
+        <translation>Гельська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="77"/>
         <source>Manx</source>
-        <translation type="unfinished"></translation>
+        <translation>Менська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="81"/>
         <source>Hiri</source>
-        <translation type="unfinished"></translation>
+        <translation>Хірі</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="83"/>
         <source>Haitian</source>
-        <translation type="unfinished"></translation>
+        <translation>Гаітійська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="86"/>
         <source>Herero</source>
-        <translation type="unfinished"></translation>
+        <translation>Гереро</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="87"/>
         <source>Chamorro</source>
-        <translation type="unfinished"></translation>
+        <translation>Чаморро</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="91"/>
         <source>Igbo</source>
-        <translation type="unfinished"></translation>
+        <translation>Ігбо</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="92"/>
         <source>Sichuan</source>
-        <translation type="unfinished"></translation>
+        <translation>Сичуанська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="93"/>
         <source>Inupiaq</source>
-        <translation type="unfinished"></translation>
+        <translation>Інупіак</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="94"/>
         <source>Ido</source>
-        <translation type="unfinished"></translation>
+        <translation>Ідо</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="101"/>
@@ -3159,12 +3160,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="102"/>
         <source>Kikuyu</source>
-        <translation type="unfinished"></translation>
+        <translation>Кікуйю</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="103"/>
         <source>Kuanyama</source>
-        <translation type="unfinished"></translation>
+        <translation>Кваньяма</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="106"/>
@@ -3174,47 +3175,47 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="109"/>
         <source>Kanuri</source>
-        <translation type="unfinished"></translation>
+        <translation>Канурі</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="112"/>
         <source>Komi</source>
-        <translation type="unfinished"></translation>
+        <translation>Комі</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="113"/>
         <source>Cornish</source>
-        <translation type="unfinished"></translation>
+        <translation>Корнська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="116"/>
         <source>Luxembourgish</source>
-        <translation type="unfinished"></translation>
+        <translation>Люксембургська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="117"/>
         <source>Ganda</source>
-        <translation type="unfinished"></translation>
+        <translation>Луганда</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="118"/>
         <source>Limburgan</source>
-        <translation type="unfinished"></translation>
+        <translation>Лімбурган</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="120"/>
         <source>Lao</source>
-        <translation type="unfinished"></translation>
+        <translation>Лаоська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="122"/>
         <source>Luba-Katanga</source>
-        <translation type="unfinished"></translation>
+        <translation>Луба-Катанга</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="125"/>
         <source>Marshallese</source>
-        <translation type="unfinished"></translation>
+        <translation>Маршульська</translation>
     </message>
     <message encoding="UTF-8">
         <location filename="../languages.cpp" line="136"/>
@@ -3224,12 +3225,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="143"/>
         <source>Ndebele</source>
-        <translation type="unfinished"></translation>
+        <translation>Ндебеле</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="139"/>
         <source>Ndonga</source>
-        <translation type="unfinished"></translation>
+        <translation>Ндонга</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="144"/>
@@ -3239,7 +3240,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="145"/>
         <source>Chichewa</source>
-        <translation type="unfinished"></translation>
+        <translation>Чічева</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="147"/>
@@ -3413,17 +3414,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="134"/>
         <source>Control bar</source>
-        <translation type="unfinished">Панель керування</translation>
+        <translation>Панель керування</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="437"/>
         <source>-%1</source>
-        <translation type="unfinished">-%1</translation>
+        <translation>-%1</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="441"/>
         <source>+%1</source>
-        <translation type="unfinished">+%1</translation>
+        <translation>+%1</translation>
     </message>
 </context>
 <context>
@@ -5755,7 +5756,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="156"/>
         <source>Mpc GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Графічний інтерфейс Mpc</translation>
     </message>
 </context>
 <context>
@@ -6924,7 +6925,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="117"/>
         <source>opens the mpc gui.</source>
-        <translation type="unfinished"></translation>
+        <translation>відкриває графічний інтерфейс mpc.</translation>
     </message>
 </context>
 <context>
@@ -7233,32 +7234,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="376"/>
         <source>No info</source>
-        <translation type="unfinished"></translation>
+        <translation>Немає інформації</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="380"/>
         <source>%1 kbps</source>
-        <translation type="unfinished">%1 кбіт/с</translation>
+        <translation>%1 кбіт/с</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="381"/>
         <source>%1 Hz</source>
-        <translation type="unfinished">%1 Гц</translation>
+        <translation>%1 Гц</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="397"/>
         <source>Video bitrate: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Бітрейт відео: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="398"/>
         <source>Audio bitrate: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Бітрейт аудіо: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="399"/>
         <source>Audio rate: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Частота аудіо: %1</translation>
     </message>
 </context>
 <context>
