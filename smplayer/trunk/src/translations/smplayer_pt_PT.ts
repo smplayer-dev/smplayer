@@ -1519,52 +1519,52 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2279"/>
+        <location filename="../core.cpp" line="2281"/>
         <source>Brightness: %1</source>
         <translation>Brilho: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2294"/>
+        <location filename="../core.cpp" line="2296"/>
         <source>Contrast: %1</source>
         <translation>Contraste: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2308"/>
+        <location filename="../core.cpp" line="2310"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2322"/>
+        <location filename="../core.cpp" line="2324"/>
         <source>Hue: %1</source>
         <translation>Tonalidade: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2336"/>
+        <location filename="../core.cpp" line="2338"/>
         <source>Saturation: %1</source>
         <translation>Saturação: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2456"/>
+        <location filename="../core.cpp" line="2458"/>
         <source>Volume: %1</source>
         <translation>Volume: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3256"/>
+        <location filename="../core.cpp" line="3258"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2573"/>
+        <location filename="../core.cpp" line="2575"/>
         <source>Font scale: %1</source>
         <translation>Escala de fontes:%1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3075"/>
+        <location filename="../core.cpp" line="3077"/>
         <source>Aspect ratio: %1</source>
         <translation>Tamanho de vídeo : %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3376"/>
+        <location filename="../core.cpp" line="3378"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Actualizando cache de fontes. Pode demorar alguns segundos...</translation>
     </message>
@@ -3405,6 +3405,24 @@ Deseja substituí-lo?</translation>
         <location filename="../minigui.cpp" line="125"/>
         <source>Control bar</source>
         <translation>Barra de controle</translation>
+    </message>
+</context>
+<context>
+    <name>MpcGui</name>
+    <message>
+        <location filename="../mpcgui/mpcgui.cpp" line="134"/>
+        <source>Control bar</source>
+        <translation type="unfinished">Barra de controle</translation>
+    </message>
+    <message>
+        <location filename="../mpcgui/mpcgui.cpp" line="437"/>
+        <source>-%1</source>
+        <translation type="unfinished">-%1</translation>
+    </message>
+    <message>
+        <location filename="../mpcgui/mpcgui.cpp" line="441"/>
+        <source>+%1</source>
+        <translation type="unfinished">+%1</translation>
     </message>
 </context>
 <context>
@@ -5295,7 +5313,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefInterface</name>
     <message>
-        <location filename="../prefinterface.cpp" line="492"/>
+        <location filename="../prefinterface.cpp" line="493"/>
         <source>Interface</source>
         <translation>Interface</translation>
     </message>
@@ -5315,7 +5333,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Interface</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="529"/>
+        <location filename="../prefinterface.cpp" line="530"/>
         <source>Seeking</source>
         <translation>Procura</translation>
     </message>
@@ -5340,12 +5358,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Ficheiros recentes</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="507"/>
+        <location filename="../prefinterface.cpp" line="508"/>
         <source>Language</source>
         <translation>Idioma</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="508"/>
+        <location filename="../prefinterface.cpp" line="509"/>
         <source>Here you can change the language of the application.</source>
         <translation>Aqui pode mudar o idioma da aplicação.</translation>
     </message>
@@ -5450,132 +5468,132 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Ins&amp;tâncias</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="494"/>
+        <location filename="../prefinterface.cpp" line="495"/>
         <source>Autoresize</source>
         <translation>Redimensionar automaticamente</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="496"/>
+        <location filename="../prefinterface.cpp" line="497"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
         <translation>A janela principal pode ser redimensionada automaticamente. Seleccione a opção que preferir.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="498"/>
+        <location filename="../prefinterface.cpp" line="499"/>
         <source>Remember position and size</source>
         <translation>Lembrar posição e tamanho de vídeo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="500"/>
+        <location filename="../prefinterface.cpp" line="501"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
         <translation>Se seleccionar esta opção, a posição e o tamanho da janela principal serão gravados e restaurados quando executar novamente o SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="505"/>
+        <location filename="../prefinterface.cpp" line="506"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation>Seleccione o número máximo de itens a serem mostrados em&lt;b&gt;Ficheiros Recentes&lt;/b&gt;. Se definir 0, o menu não será mostrado.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="510"/>
+        <location filename="../prefinterface.cpp" line="511"/>
         <source>Icon set</source>
         <translation>Conjunto de ícones</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="511"/>
+        <location filename="../prefinterface.cpp" line="512"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation>Seleccione o conjunto de ícones que prefere para a aplicação.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="513"/>
+        <location filename="../prefinterface.cpp" line="514"/>
         <source>Style</source>
         <translation>Estilo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="514"/>
+        <location filename="../prefinterface.cpp" line="515"/>
         <source>Select the style you prefer for the application.</source>
         <translation>Seleccione o estilo que prefere para a aplicação.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="526"/>
+        <location filename="../prefinterface.cpp" line="527"/>
         <source>Default font</source>
         <translation>Fonte padrão</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="527"/>
+        <location filename="../prefinterface.cpp" line="528"/>
         <source>You can change here the application&apos;s font.</source>
         <translation>Pode alterar aqui o tipo de fonte da aplicação.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="531"/>
+        <location filename="../prefinterface.cpp" line="532"/>
         <source>Short jump</source>
         <translation>Avanço Curto</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="541"/>
+        <location filename="../prefinterface.cpp" line="542"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>Seleccione os intervalos de tempo a serem usados quando selecciona a acção %1.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="533"/>
+        <location filename="../prefinterface.cpp" line="534"/>
         <source>short jump</source>
         <translation>avanço curto</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="535"/>
+        <location filename="../prefinterface.cpp" line="536"/>
         <source>Medium jump</source>
         <translation>Avanço Médio</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="537"/>
+        <location filename="../prefinterface.cpp" line="538"/>
         <source>medium jump</source>
         <translation>avanço médio</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="539"/>
+        <location filename="../prefinterface.cpp" line="540"/>
         <source>Long jump</source>
         <translation>Avanço Longo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="541"/>
+        <location filename="../prefinterface.cpp" line="542"/>
         <source>long jump</source>
         <translation>avanço longo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="543"/>
+        <location filename="../prefinterface.cpp" line="544"/>
         <source>Mouse wheel jump</source>
         <translation>Avanço através da roda do rato</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="545"/>
+        <location filename="../prefinterface.cpp" line="546"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation>Seleccione os intervalos de tempo a serem usados quando move a roda do rato.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="547"/>
+        <location filename="../prefinterface.cpp" line="548"/>
         <source>Behaviour of time slider</source>
         <translation>Comportamento do controle de tempo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="548"/>
+        <location filename="../prefinterface.cpp" line="549"/>
         <source>Select what to do when dragging the time slider.</source>
         <translation>Seleccione o que deve acontecer ao arrastar o controlador de tempo.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="550"/>
+        <location filename="../prefinterface.cpp" line="551"/>
         <source>Instances</source>
         <translation>Instâncias</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="553"/>
+        <location filename="../prefinterface.cpp" line="554"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>Use apenas uma instância do SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="555"/>
+        <location filename="../prefinterface.cpp" line="556"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>Seleccione esta opção se pretende usar a instância do SMPlayer em execução, ao abrir outros ficheiros.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="565"/>
+        <location filename="../prefinterface.cpp" line="566"/>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. You can change the port in case the default one is used by another application.</source>
         <translation>SMPlayer precisa escutar uma porta para receber comandos de outras instâncias. Você pode alterar a porta, caso o padrão seja usado por outra aplicação.</translation>
     </message>
@@ -5590,12 +5608,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Mini GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="516"/>
+        <location filename="../prefinterface.cpp" line="517"/>
         <source>GUI</source>
         <translation>GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="524"/>
+        <location filename="../prefinterface.cpp" line="525"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option will take effect the next time you run SMPlayer.</source>
         <translation>Seleccione o GUI que prefere para a aplicação. Actualmente existem 2 tipos: Padrão ou Mini Gui.&lt;br&gt;O&lt;b&gt;GUI padrão&lt;/b&gt; é o tradicional, com Barra de Ferramentas e Barra de Controlo. O&lt;b&gt;Mini GUI&lt;/b&gt; é mais simples, sem Barra de Ferramentas e uma Barra de Controlo com menos botões.&lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; esta opção só terá efeito após reiniciar o SMPlayer.</translation>
     </message>
@@ -5605,17 +5623,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="557"/>
+        <location filename="../prefinterface.cpp" line="558"/>
         <source>Automatic port</source>
         <translation>Porta Automática</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="560"/>
+        <location filename="../prefinterface.cpp" line="561"/>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. If you select this option, a port will be automatically chosen.</source>
         <translation>SMPlayer precisa listar uma porta para receber comandos de outras instâncias. Se seleccionar esta opção, a porta será escolhida automaticamente.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="562"/>
+        <location filename="../prefinterface.cpp" line="563"/>
         <source>Manual port</source>
         <translation>Porta Manual</translation>
     </message>
@@ -5635,42 +5653,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Manual</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="569"/>
+        <location filename="../prefinterface.cpp" line="570"/>
         <source>Floating control</source>
         <translation>Controlo flutuante</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="571"/>
+        <location filename="../prefinterface.cpp" line="572"/>
         <source>Animated</source>
         <translation>Animação</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="573"/>
+        <location filename="../prefinterface.cpp" line="574"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
         <translation>Se a opção estiver activa, o controlo flutuante aparecerá com uma animação.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="575"/>
+        <location filename="../prefinterface.cpp" line="576"/>
         <source>Width</source>
         <translation>Largura</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="576"/>
+        <location filename="../prefinterface.cpp" line="577"/>
         <source>Specifies the width of the control (as a percentage).</source>
         <translation>Especifica a largura do controlo ( como percentagem).</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="578"/>
+        <location filename="../prefinterface.cpp" line="579"/>
         <source>Margin</source>
         <translation>Margem</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="582"/>
+        <location filename="../prefinterface.cpp" line="583"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
         <translation>Esta opção define o número de pixeis de afastamento do controlo flutuante em relação ao inferior do ecrã. Útil quando o ecrã for uma TV, permitindo assim a correcta visualização do controlo.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="584"/>
+        <location filename="../prefinterface.cpp" line="585"/>
         <source>Display in compact mode too</source>
         <translation>Apresentar também em modo compacto</translation>
     </message>
@@ -5680,12 +5698,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Se esta opção estiver activa, o controlo flutuante também aparecerá no modo compacto. Aviso: Esta funcionalidade não foi desenvolvida para este método e poderá não funcionar correctamente.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="590"/>
+        <location filename="../prefinterface.cpp" line="591"/>
         <source>Bypass window manager</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="593"/>
+        <location filename="../prefinterface.cpp" line="594"/>
         <source>If this option is checked, the control is displayed bypassing the window manager. Disable this option if the floating control doesn&apos;t work well with your window manager.</source>
         <translation>Se esta opção estiver marcada, o controlo será apresentado ignorando o gestor de janelas. Desactive esta opção se o controle não funcionar correctamente com o seu gestor de janelas.</translation>
     </message>
@@ -5730,8 +5748,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Ignorar gestor de janelas</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="587"/>
+        <location filename="../prefinterface.cpp" line="588"/>
         <source>If this option is enabled, the floating control will appear in compact mode too. &lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="156"/>
+        <source>Mpc GUI</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6748,52 +6771,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../clhelp.cpp" line="154"/>
+        <location filename="../clhelp.cpp" line="157"/>
         <source>will show this message and then will exit.</source>
         <translation>irá mostrar esta mensagem e sairá.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="139"/>
+        <location filename="../clhelp.cpp" line="142"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>a janela principal será fechada ao terminar o ficheiro/lista de reprodução.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="305"/>
+        <location filename="../smplayer.cpp" line="313"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>SMPlayer v.%1 executando em %2</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="128"/>
+        <location filename="../clhelp.cpp" line="131"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
         <translation>tenta fazer uma ligação a outra instância em execução enviando-lhe uma acção específica. Exemplo:-send-action pause. O resto das opções(se existentes) serão ignoradas e a aplicação encerrará. Retornará o valor 0 em caso de sucesso e -1 se falhar. </translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="136"/>
+        <location filename="../clhelp.cpp" line="139"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
         <translation>action_list é uma lista de acções separadas por espaços. As acções serão executadas após carregar o ficheiro (se existente) na mesma ordem que introduzir. Para acções verificáveis, você pode passar verdadeiro ou falso como parâmetro. Exemplo:-actions &quot;fullscreen compact true&quot;. Aspas serão necessárias se quiser passar mais que uma acção.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="162"/>
+        <location filename="../clhelp.cpp" line="165"/>
         <source>media</source>
         <translation>media</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="160"/>
+        <location filename="../clhelp.cpp" line="163"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>se exister outra instância em execução, o vídeo será adicionado à lista de reprodução. Caso contrário, esta opção será ignorada e os ficheiros serão abertos numa nova instância.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="142"/>
+        <location filename="../clhelp.cpp" line="145"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation>a janela principal não será fechada ao terminar o ficheiro/lista de reprodução.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="145"/>
+        <location filename="../clhelp.cpp" line="148"/>
         <source>the video will be played in fullscreen mode.</source>
         <translation>o vídeo será reproduzido em ecrã completo.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="148"/>
+        <location filename="../clhelp.cpp" line="151"/>
         <source>the video will be played in window mode.</source>
         <translation>o vídeo será reproduzido em modo de janela.</translation>
     </message>
@@ -6813,7 +6836,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Restaura as associações antigas e limpa o registo.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="168"/>
+        <location filename="../clhelp.cpp" line="171"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation>media é qualquer tipo de ficheiro que o SMPlayer consiga abrir. Pode ser um ficheiro local, um DVD (e.g. dvd://1), um stream Internet (e.g. mms://....) ou uma lista de reprodução local no formato m3u ou pls. Se a opção -lista de reprodução for usada, isto significa que o SMPlayer passará estas opções para o MPlayer, de modo a que este faça a getão da mesma, ao invés do SMPlayer.</translation>
     </message>
@@ -6838,7 +6861,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>lista_acção</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="117"/>
+        <location filename="../clhelp.cpp" line="120"/>
         <source>opens the default gui.</source>
         <translation>abre o GUI Padrão.</translation>
     </message>
@@ -6848,7 +6871,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ficheiro de legendas</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="151"/>
+        <location filename="../clhelp.cpp" line="154"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
         <translation>especifica o ficheiro de legendas a ser carregado para o primeiro vídeo.</translation>
     </message>
@@ -6874,7 +6897,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>%1 e %2 </translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="121"/>
+        <location filename="../clhelp.cpp" line="124"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
         <translation>especifica o directório aonde o smplayer gravará os ficheiros de configuração (smplayer.ini, smplayer_files.ini...)</translation>
     </message>
@@ -6895,6 +6918,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>unknown</source>
         <comment>aspect_ratio</comment>
         <translation>desconhecido</translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="117"/>
+        <source>opens the mpc gui.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7066,37 +7094,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="378"/>
+        <location filename="../videopreview/videopreview.cpp" line="403"/>
         <source>Video preview</source>
         <translation>Pré-visualizar vídeo</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="70"/>
+        <location filename="../videopreview/videopreview.cpp" line="131"/>
         <source>Cancel</source>
         <translation>Cancelar</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="82"/>
+        <location filename="../videopreview/videopreview.cpp" line="133"/>
         <source>Generated by SMPlayer</source>
         <translation>Gerado por SMPlayer</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="213"/>
+        <location filename="../videopreview/videopreview.cpp" line="222"/>
         <source>Creating thumbnails...</source>
         <translation>Criando miniaturas...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="362"/>
+        <location filename="../videopreview/videopreview.cpp" line="387"/>
         <source>Size: %1 MB</source>
         <translation>Tamanho: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="364"/>
+        <location filename="../videopreview/videopreview.cpp" line="389"/>
         <source>Length: %1</source>
         <translation>Duração: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="498"/>
+        <location filename="../videopreview/videopreview.cpp" line="523"/>
         <source>Save file</source>
         <translation>Guardar ficheiro</translation>
     </message>
@@ -7106,98 +7134,128 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Imagens (*.png *.jpg)</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="506"/>
+        <location filename="../videopreview/videopreview.cpp" line="531"/>
         <source>Error saving file</source>
         <translation>Erro ao gravar o ficheiro</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="507"/>
+        <location filename="../videopreview/videopreview.cpp" line="532"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>O ficheiro não pôde ser gravado</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="169"/>
+        <location filename="../videopreview/videopreview.cpp" line="178"/>
         <source>Error</source>
         <translation>Erro</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="170"/>
+        <location filename="../videopreview/videopreview.cpp" line="179"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>Ocorreu o seguinte erro ao criar as miniaturas:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="196"/>
+        <location filename="../videopreview/videopreview.cpp" line="205"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>O directório temporário (%1) não pôde ser criado</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="302"/>
+        <location filename="../videopreview/videopreview.cpp" line="312"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>O processo mplayer não foi executado</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="363"/>
+        <location filename="../videopreview/videopreview.cpp" line="388"/>
         <source>Resolution: %1x%2</source>
         <translation>Resolução: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="367"/>
+        <location filename="../videopreview/videopreview.cpp" line="392"/>
         <source>Video format: %1</source>
         <translation>Formato Vídeo: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="368"/>
+        <location filename="../videopreview/videopreview.cpp" line="393"/>
         <source>Frames per second: %1</source>
         <translation>Frames por segundo: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="369"/>
+        <location filename="../videopreview/videopreview.cpp" line="394"/>
         <source>Aspect ratio: %1</source>
         <translation>Tamanho de vídeo : %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="372"/>
         <source>Video bitrate: %1 kbps</source>
-        <translation>Taxa de bits vídeo: %1 kbps</translation>
+        <translation type="obsolete">Taxa de bits vídeo: %1 kbps</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="373"/>
         <source>Audio bitrate: %1 kbps</source>
-        <translation>Taxa de bits áudio: %1 kbps</translation>
+        <translation type="obsolete">Taxa de bits áudio: %1 kbps</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="374"/>
         <source>Audio rate: %1 Hz</source>
-        <translation>Taxa áudio : %1 Hz</translation>
+        <translation type="obsolete">Taxa áudio : %1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="320"/>
+        <location filename="../videopreview/videopreview.cpp" line="330"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>O ficheiro %1 não foi carregado</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="404"/>
+        <location filename="../videopreview/videopreview.cpp" line="429"/>
         <source>No filename</source>
         <translation>Sem nome</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="464"/>
+        <location filename="../videopreview/videopreview.cpp" line="489"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>O processo mplayer não foi iniciado ao tentar obter informações sobre o vídeo</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="187"/>
+        <location filename="../videopreview/videopreview.cpp" line="196"/>
         <source>The length of the video is 0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="230"/>
+        <location filename="../videopreview/videopreview.cpp" line="240"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="499"/>
+        <location filename="../videopreview/videopreview.cpp" line="524"/>
         <source>Images</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="376"/>
+        <source>No info</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="380"/>
+        <source>%1 kbps</source>
+        <translation type="unfinished">%1 kbps</translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="381"/>
+        <source>%1 Hz</source>
+        <translation type="unfinished">%1 Hz</translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="397"/>
+        <source>Video bitrate: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="398"/>
+        <source>Audio bitrate: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="399"/>
+        <source>Audio rate: %1</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7317,7 +7375,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VolumeSliderAction</name>
     <message>
-        <location filename="../widgetactions.cpp" line="155"/>
+        <location filename="../widgetactions.cpp" line="178"/>
         <source>Volume</source>
         <translation>Volume</translation>
     </message>

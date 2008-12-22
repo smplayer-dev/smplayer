@@ -1508,52 +1508,52 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2279"/>
+        <location filename="../core.cpp" line="2281"/>
         <source>Brightness: %1</source>
         <translation>Luminozitate: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2294"/>
+        <location filename="../core.cpp" line="2296"/>
         <source>Contrast: %1</source>
         <translation>Contrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2308"/>
+        <location filename="../core.cpp" line="2310"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2322"/>
+        <location filename="../core.cpp" line="2324"/>
         <source>Hue: %1</source>
         <translation>Culoare: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2336"/>
+        <location filename="../core.cpp" line="2338"/>
         <source>Saturation: %1</source>
         <translation>Saturație: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2456"/>
+        <location filename="../core.cpp" line="2458"/>
         <source>Volume: %1</source>
         <translation>Volum: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3256"/>
+        <location filename="../core.cpp" line="3258"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2573"/>
+        <location filename="../core.cpp" line="2575"/>
         <source>Font scale: %1</source>
         <translation>Mărime caractere: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3075"/>
+        <location filename="../core.cpp" line="3077"/>
         <source>Aspect ratio: %1</source>
         <translation>Format imagine: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3376"/>
+        <location filename="../core.cpp" line="3378"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3352,6 +3352,24 @@ Se dorește suprascrierea lui?</translation>
         <location filename="../minigui.cpp" line="125"/>
         <source>Control bar</source>
         <translation>Bară de control</translation>
+    </message>
+</context>
+<context>
+    <name>MpcGui</name>
+    <message>
+        <location filename="../mpcgui/mpcgui.cpp" line="134"/>
+        <source>Control bar</source>
+        <translation type="unfinished">Bară de control</translation>
+    </message>
+    <message>
+        <location filename="../mpcgui/mpcgui.cpp" line="437"/>
+        <source>-%1</source>
+        <translation type="unfinished">-%1</translation>
+    </message>
+    <message>
+        <location filename="../mpcgui/mpcgui.cpp" line="441"/>
+        <source>+%1</source>
+        <translation type="unfinished">+%1</translation>
     </message>
 </context>
 <context>
@@ -5242,7 +5260,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefInterface</name>
     <message>
-        <location filename="../prefinterface.cpp" line="492"/>
+        <location filename="../prefinterface.cpp" line="493"/>
         <source>Interface</source>
         <translation>Interfață</translation>
     </message>
@@ -5262,7 +5280,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Interfață</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="529"/>
+        <location filename="../prefinterface.cpp" line="530"/>
         <source>Seeking</source>
         <translation>Căutare</translation>
     </message>
@@ -5287,17 +5305,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Fișiere recente</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="507"/>
+        <location filename="../prefinterface.cpp" line="508"/>
         <source>Language</source>
         <translation>Limbă</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="508"/>
+        <location filename="../prefinterface.cpp" line="509"/>
         <source>Here you can change the language of the application.</source>
         <translation>Aici puteți modifica limba pentru aplicație.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="550"/>
+        <location filename="../prefinterface.cpp" line="551"/>
         <source>Instances</source>
         <translation>Sesiuni</translation>
     </message>
@@ -5402,127 +5420,127 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Sesiuni</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="494"/>
+        <location filename="../prefinterface.cpp" line="495"/>
         <source>Autoresize</source>
         <translation>Redimensionare automată</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="496"/>
+        <location filename="../prefinterface.cpp" line="497"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
         <translation>Fereastra principală poate fi redimensionată automat. Selectați opțiunea preferată.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="498"/>
+        <location filename="../prefinterface.cpp" line="499"/>
         <source>Remember position and size</source>
         <translation>Memorează poziția și dimensiunea</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="500"/>
+        <location filename="../prefinterface.cpp" line="501"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
         <translation>Dacă selectați această opțiune, poziția și dimensiunea ferestrei principale vor fi salvate și restaurate când porniți din nou SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="505"/>
+        <location filename="../prefinterface.cpp" line="506"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation>Selectați numărul maxim de linii ce vor fi afișate în submeniul &lt;b&gt;Deschide-&gt;Fișiere deschise recent&lt;/b&gt;. Dacă selectați 0 atunci meniul nu va fi deloc afișat.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="510"/>
+        <location filename="../prefinterface.cpp" line="511"/>
         <source>Icon set</source>
         <translation>Set iconițe</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="511"/>
+        <location filename="../prefinterface.cpp" line="512"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation>Selectați setul de iconițe preferat pentru aplicație.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="513"/>
+        <location filename="../prefinterface.cpp" line="514"/>
         <source>Style</source>
         <translation>Stil</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="514"/>
+        <location filename="../prefinterface.cpp" line="515"/>
         <source>Select the style you prefer for the application.</source>
         <translation>Selectați stilul preferat pentru aplicație.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="526"/>
+        <location filename="../prefinterface.cpp" line="527"/>
         <source>Default font</source>
         <translation>Caractere implicite</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="527"/>
+        <location filename="../prefinterface.cpp" line="528"/>
         <source>You can change here the application&apos;s font.</source>
         <translation>Aici puteți selecta caracterele folosite de aplicație.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="531"/>
+        <location filename="../prefinterface.cpp" line="532"/>
         <source>Short jump</source>
         <translation>Salt scurt</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="541"/>
+        <location filename="../prefinterface.cpp" line="542"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>Seletați intervalul de timp pentru derulare înainte sau înapoi când alegeți acțiunea %1 .</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="533"/>
+        <location filename="../prefinterface.cpp" line="534"/>
         <source>short jump</source>
         <translation>salt scurt</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="535"/>
+        <location filename="../prefinterface.cpp" line="536"/>
         <source>Medium jump</source>
         <translation>Salt mediu</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="537"/>
+        <location filename="../prefinterface.cpp" line="538"/>
         <source>medium jump</source>
         <translation>salt mediu</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="539"/>
+        <location filename="../prefinterface.cpp" line="540"/>
         <source>Long jump</source>
         <translation>Salt lung</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="541"/>
+        <location filename="../prefinterface.cpp" line="542"/>
         <source>long jump</source>
         <translation>salt lung</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="543"/>
+        <location filename="../prefinterface.cpp" line="544"/>
         <source>Mouse wheel jump</source>
         <translation>Salt cu rotiță mouse</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="545"/>
+        <location filename="../prefinterface.cpp" line="546"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation>Seletați intervalul de timp pentru derulare înainte sau înapoi când acționați rotița mausului.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="547"/>
+        <location filename="../prefinterface.cpp" line="548"/>
         <source>Behaviour of time slider</source>
         <translation>Comportament reglaj timp</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="548"/>
+        <location filename="../prefinterface.cpp" line="549"/>
         <source>Select what to do when dragging the time slider.</source>
         <translation>Selectați ce se întâmplă când acționați potențiometrul linar al reglajului de timp.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="553"/>
+        <location filename="../prefinterface.cpp" line="554"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>Foloseşte o singură sesiune pornită pentru SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="555"/>
+        <location filename="../prefinterface.cpp" line="556"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>Selectați această opțiune dacă doriți să folosiți o sesiune deja deschisă a lui SMPlayer când deschideți și alte fișiere.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="565"/>
+        <location filename="../prefinterface.cpp" line="566"/>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. You can change the port in case the default one is used by another application.</source>
         <translation>SMPlayer are nevoie să asculte un anume port pentru a recepționa comenzi de la alte sesiuni. Puteți schimba portul în cazul în care cel implicit este utilizat de altă aplicație.</translation>
     </message>
@@ -5537,12 +5555,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Interfață grafică redusă</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="516"/>
+        <location filename="../prefinterface.cpp" line="517"/>
         <source>GUI</source>
         <translation>Interfață grafică</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="524"/>
+        <location filename="../prefinterface.cpp" line="525"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option will take effect the next time you run SMPlayer.</source>
         <translation>Selectați interfața grafică pe care o preferați pentru SMPlayer. În acest moment există două tipuri: „Interfața grafică implicită” și „Interfața grafică redusă”.&lt;br&gt; &lt;b&gt;Interfața grafică implicită&lt;/b&gt; este o interfață grafică obișnuită, cu bare de unelete și de control. &lt;b&gt;Interfața grafică redusă&lt;/b&gt; este u interfață grafică mai simplă, fără bară de unelte și cu mai puține butoane în bara de control.&lt;br&gt;&lt;b&gt;Notă:&lt;/b&gt;După alegerea opțiunii dorite trebuie să reporniți aplicația SMPlayer pentru ca modificările să se facă simțite.</translation>
     </message>
@@ -5552,17 +5570,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Interfață grafică</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="557"/>
+        <location filename="../prefinterface.cpp" line="558"/>
         <source>Automatic port</source>
         <translation>Detectare automată port</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="560"/>
+        <location filename="../prefinterface.cpp" line="561"/>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. If you select this option, a port will be automatically chosen.</source>
         <translation>SMPlayer are nevoie să asculte un anume port pentru a recepționa comenzi de la alte sesiuni. Dacă selectați această opțiune portul va fi ales automat.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="562"/>
+        <location filename="../prefinterface.cpp" line="563"/>
         <source>Manual port</source>
         <translation>Detectare manuală port</translation>
     </message>
@@ -5582,42 +5600,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Manual</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="569"/>
+        <location filename="../prefinterface.cpp" line="570"/>
         <source>Floating control</source>
         <translation>Butoane de control pe imagine</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="571"/>
+        <location filename="../prefinterface.cpp" line="572"/>
         <source>Animated</source>
         <translation>Animație</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="573"/>
+        <location filename="../prefinterface.cpp" line="574"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
         <translation>Dacă este activată această opțiune, butoanele de control de pe imagine vor apărea animate.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="575"/>
+        <location filename="../prefinterface.cpp" line="576"/>
         <source>Width</source>
         <translation>Lățime</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="576"/>
+        <location filename="../prefinterface.cpp" line="577"/>
         <source>Specifies the width of the control (as a percentage).</source>
         <translation>Specifică lățimea butoanelor de control de pe imagine (în procente).</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="578"/>
+        <location filename="../prefinterface.cpp" line="579"/>
         <source>Margin</source>
         <translation>Margine</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="582"/>
+        <location filename="../prefinterface.cpp" line="583"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
         <translation>Această opțiune stabilește distanța butoanelor de control de pe imagine față de margine inferioară a ecranului, în număr de pixeli. Această opțiune este utilă mai ales atunci când ecranul este un televizor, pentru că în acest caz butoanele nu vor fi vizibile fără stabilirea unei valori adecvate pentru această opțiune.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="584"/>
+        <location filename="../prefinterface.cpp" line="585"/>
         <source>Display in compact mode too</source>
         <translation>Afișare și în mod compact</translation>
     </message>
@@ -5627,12 +5645,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Dacă este selectată această opțiune, butoanele de control de pe imagine vor fi afișate și în mod compact. Atenționare: butoanele de control de pe imagine nu au fost concepute să funcționeze și în mod compact și din această cauză este posibil să nu funcționeze corect.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="590"/>
+        <location filename="../prefinterface.cpp" line="591"/>
         <source>Bypass window manager</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="593"/>
+        <location filename="../prefinterface.cpp" line="594"/>
         <source>If this option is checked, the control is displayed bypassing the window manager. Disable this option if the floating control doesn&apos;t work well with your window manager.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5677,8 +5695,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="587"/>
+        <location filename="../prefinterface.cpp" line="588"/>
         <source>If this option is enabled, the floating control will appear in compact mode too. &lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="156"/>
+        <source>Mpc GUI</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6695,52 +6718,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../smplayer.cpp" line="305"/>
+        <location filename="../smplayer.cpp" line="313"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Acesta este SMPlayer v. %1 rulând pe %2</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="139"/>
+        <location filename="../clhelp.cpp" line="142"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>fereastra principală se va închide când lista de titluri a ost epuizată.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="154"/>
+        <location filename="../clhelp.cpp" line="157"/>
         <source>will show this message and then will exit.</source>
         <translation>va afişa conţinutul acestui mesaj.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="128"/>
+        <location filename="../clhelp.cpp" line="131"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
         <translation>încearcă să stabilească legătura cu altă sesiune care şi să trimită către aceasta comanda specificată. Exemplu: -action pause Restul opţiunilor (dacă există) vor fi ignorate şi aplicaţia se va închide. Se va returna 0 în caz de reuşită şi -1 în caz de eşec.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="136"/>
+        <location filename="../clhelp.cpp" line="139"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
         <translation>listă_acţiuni este o enumerare de acţiuni (comenzi) separate de spaţii. Comenzile vor fi executate imediat după încărcarea fişierului media (dacă există vreunul) în aceeaşi ordine în care au fost scrise. Pentru comenzile ce pot fi bifate se pot pune ca parametrii true sau false. Exemplu: -actions &quot;fullscreen compact true&quot;. Ghilimelele sunt necesare în cazul în care scrieţi mai mult de o acţiune (comandă).</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="162"/>
+        <location filename="../clhelp.cpp" line="165"/>
         <source>media</source>
         <translation>tip_media</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="160"/>
+        <location filename="../clhelp.cpp" line="163"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>dacă este o altă sesiune deschisă, fişierul media va fi adăugat la lista de titluri a acelei sesiuni. Dacă nu este altă sesiune deschisă această opţiune va fi ignorată şi fişiele vor fi deschise într-o nouă sesiune.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="142"/>
+        <location filename="../clhelp.cpp" line="145"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation>fereastra principală nu se va închide după ce fişierul sau lista se termină.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="145"/>
+        <location filename="../clhelp.cpp" line="148"/>
         <source>the video will be played in fullscreen mode.</source>
         <translation>fişierul video va fi redat pe tot ecranul.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="148"/>
+        <location filename="../clhelp.cpp" line="151"/>
         <source>the video will be played in window mode.</source>
         <translation>fişierul video va fi redat în fereastra principală.</translation>
     </message>
@@ -6760,7 +6783,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Restaurează vechile asocieri şi curăţă regiştrii.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="168"/>
+        <location filename="../clhelp.cpp" line="171"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation>&apos;media&apos; reprezintă orice tip de fișier pe care SMPlayer îl poate deschide. Poate fi un fișier local, un DVD (ex. dvd://1), o transmisie de internet (ex. mms://...) sau o listă de titluri locală în format m3u sau pls. Dacă este folosită opțiunea -playlist înseamnă că SMPlayer va transfera opțiunea -playlist către MPlayer, astfel MPlayer va gestiona lista de titluri și nu SMPlayer.</translation>
     </message>
@@ -6785,7 +6808,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="117"/>
+        <location filename="../clhelp.cpp" line="120"/>
         <source>opens the default gui.</source>
         <translation>deschide interfața grafică implicită.</translation>
     </message>
@@ -6795,7 +6818,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="151"/>
+        <location filename="../clhelp.cpp" line="154"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
         <translation>specifică fișierul ce conține subtitrarea ce va fi încărcat pentru primul film.</translation>
     </message>
@@ -6821,7 +6844,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>%1 și %2</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="121"/>
+        <location filename="../clhelp.cpp" line="124"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
         <translation>specifică directorul în care smplayer va memora fișierele sale de configurare (smplayer.ini, smplayer_files.ini...)</translation>
     </message>
@@ -6841,6 +6864,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../mediasettings.cpp" line="157"/>
         <source>unknown</source>
         <comment>aspect_ratio</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="117"/>
+        <source>opens the mpc gui.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7013,133 +7041,148 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="378"/>
+        <location filename="../videopreview/videopreview.cpp" line="403"/>
         <source>Video preview</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="70"/>
+        <location filename="../videopreview/videopreview.cpp" line="131"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="82"/>
+        <location filename="../videopreview/videopreview.cpp" line="133"/>
         <source>Generated by SMPlayer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="213"/>
+        <location filename="../videopreview/videopreview.cpp" line="222"/>
         <source>Creating thumbnails...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="362"/>
+        <location filename="../videopreview/videopreview.cpp" line="387"/>
         <source>Size: %1 MB</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="364"/>
+        <location filename="../videopreview/videopreview.cpp" line="389"/>
         <source>Length: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="498"/>
+        <location filename="../videopreview/videopreview.cpp" line="523"/>
         <source>Save file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="506"/>
+        <location filename="../videopreview/videopreview.cpp" line="531"/>
         <source>Error saving file</source>
         <translation type="unfinished">Eroare la salvarea fișierului</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="507"/>
+        <location filename="../videopreview/videopreview.cpp" line="532"/>
         <source>The file couldn&apos;t be saved</source>
         <translation type="unfinished">Fișierul nu aputut fi salvat</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="169"/>
+        <location filename="../videopreview/videopreview.cpp" line="178"/>
         <source>Error</source>
         <translation type="unfinished">Eroare</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="170"/>
+        <location filename="../videopreview/videopreview.cpp" line="179"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="196"/>
+        <location filename="../videopreview/videopreview.cpp" line="205"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="302"/>
+        <location filename="../videopreview/videopreview.cpp" line="312"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="363"/>
+        <location filename="../videopreview/videopreview.cpp" line="388"/>
         <source>Resolution: %1x%2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="367"/>
+        <location filename="../videopreview/videopreview.cpp" line="392"/>
         <source>Video format: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="368"/>
+        <location filename="../videopreview/videopreview.cpp" line="393"/>
         <source>Frames per second: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="369"/>
+        <location filename="../videopreview/videopreview.cpp" line="394"/>
         <source>Aspect ratio: %1</source>
         <translation type="unfinished">Format imagine: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="372"/>
-        <source>Video bitrate: %1 kbps</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../videopreview/videopreview.cpp" line="373"/>
-        <source>Audio bitrate: %1 kbps</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../videopreview/videopreview.cpp" line="374"/>
-        <source>Audio rate: %1 Hz</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../videopreview/videopreview.cpp" line="320"/>
+        <location filename="../videopreview/videopreview.cpp" line="330"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="404"/>
+        <location filename="../videopreview/videopreview.cpp" line="429"/>
         <source>No filename</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="464"/>
+        <location filename="../videopreview/videopreview.cpp" line="489"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="187"/>
+        <location filename="../videopreview/videopreview.cpp" line="196"/>
         <source>The length of the video is 0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="230"/>
+        <location filename="../videopreview/videopreview.cpp" line="240"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="499"/>
+        <location filename="../videopreview/videopreview.cpp" line="524"/>
         <source>Images</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="376"/>
+        <source>No info</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="380"/>
+        <source>%1 kbps</source>
+        <translation type="unfinished">%1 kbps</translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="381"/>
+        <source>%1 Hz</source>
+        <translation type="unfinished">%1 Hz</translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="397"/>
+        <source>Video bitrate: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="398"/>
+        <source>Audio bitrate: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="399"/>
+        <source>Audio rate: %1</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7254,7 +7297,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VolumeSliderAction</name>
     <message>
-        <location filename="../widgetactions.cpp" line="155"/>
+        <location filename="../widgetactions.cpp" line="178"/>
         <source>Volume</source>
         <translation>Volum</translation>
     </message>

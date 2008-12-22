@@ -1524,52 +1524,52 @@ Bude zobrazeno konfigurační okno.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2279"/>
+        <location filename="../core.cpp" line="2281"/>
         <source>Brightness: %1</source>
         <translation>Jas: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2294"/>
+        <location filename="../core.cpp" line="2296"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2308"/>
+        <location filename="../core.cpp" line="2310"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2322"/>
+        <location filename="../core.cpp" line="2324"/>
         <source>Hue: %1</source>
         <translation>Odstín: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2336"/>
+        <location filename="../core.cpp" line="2338"/>
         <source>Saturation: %1</source>
         <translation>Saturace: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2456"/>
+        <location filename="../core.cpp" line="2458"/>
         <source>Volume: %1</source>
         <translation>Hlasitost: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3256"/>
+        <location filename="../core.cpp" line="3258"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2573"/>
+        <location filename="../core.cpp" line="2575"/>
         <source>Font scale: %1</source>
         <translation>Velikost písma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3075"/>
+        <location filename="../core.cpp" line="3077"/>
         <source>Aspect ratio: %1</source>
         <translation>Poměr stran: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3376"/>
+        <location filename="../core.cpp" line="3378"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Obnovuji paměť fontů. Může to chvíli trvat...</translation>
     </message>
@@ -3411,6 +3411,24 @@ Chcete jej opravdu přepsat?</translation>
         <location filename="../minigui.cpp" line="125"/>
         <source>Control bar</source>
         <translation>Ovládací panel</translation>
+    </message>
+</context>
+<context>
+    <name>MpcGui</name>
+    <message>
+        <location filename="../mpcgui/mpcgui.cpp" line="134"/>
+        <source>Control bar</source>
+        <translation type="unfinished">Ovládací panel</translation>
+    </message>
+    <message>
+        <location filename="../mpcgui/mpcgui.cpp" line="437"/>
+        <source>-%1</source>
+        <translation type="unfinished">-%1</translation>
+    </message>
+    <message>
+        <location filename="../mpcgui/mpcgui.cpp" line="441"/>
+        <source>+%1</source>
+        <translation type="unfinished">+%1</translation>
     </message>
 </context>
 <context>
@@ -5397,7 +5415,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefInterface</name>
     <message>
-        <location filename="../prefinterface.cpp" line="492"/>
+        <location filename="../prefinterface.cpp" line="493"/>
         <source>Interface</source>
         <translation>Rozhraní</translation>
     </message>
@@ -5417,7 +5435,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Rozhraní</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="529"/>
+        <location filename="../prefinterface.cpp" line="530"/>
         <source>Seeking</source>
         <translation>Seekování</translation>
     </message>
@@ -5442,17 +5460,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Nedávné soubory</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="507"/>
+        <location filename="../prefinterface.cpp" line="508"/>
         <source>Language</source>
         <translation>Jazyk</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="508"/>
+        <location filename="../prefinterface.cpp" line="509"/>
         <source>Here you can change the language of the application.</source>
         <translation>Zde můžete změnit jazyk aplikace.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="550"/>
+        <location filename="../prefinterface.cpp" line="551"/>
         <source>Instances</source>
         <translation>Instance</translation>
     </message>
@@ -5557,127 +5575,127 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Ins&amp;tance</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="494"/>
+        <location filename="../prefinterface.cpp" line="495"/>
         <source>Autoresize</source>
         <translation>Automatická změna velikosti</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="496"/>
+        <location filename="../prefinterface.cpp" line="497"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
         <translation>Hlavní okno se může samo roztahovat. Vyberte nastavení, které preferujete.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="498"/>
+        <location filename="../prefinterface.cpp" line="499"/>
         <source>Remember position and size</source>
         <translation>Zapamatovat si pozici a velikost</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="500"/>
+        <location filename="../prefinterface.cpp" line="501"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
         <translation>Zaškrtnete-li tuto možnost, pozice a velikost hlavního okna se uloží a aplikuje při příštím spuštění SMPlayeru.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="505"/>
+        <location filename="../prefinterface.cpp" line="506"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation>Vyberte maximální počet položek, které se zobrazí v nabídce &lt;b&gt;Otevřít -&gt; Nedávné soubory&lt;/b&gt;. Nastavíte-li hodnotu na 0, nabídka se nezobrazí.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="510"/>
+        <location filename="../prefinterface.cpp" line="511"/>
         <source>Icon set</source>
         <translation>Sada ikon</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="511"/>
+        <location filename="../prefinterface.cpp" line="512"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation>Vyberte sadu ikon, které preferujete.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="513"/>
+        <location filename="../prefinterface.cpp" line="514"/>
         <source>Style</source>
         <translation>Styl</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="514"/>
+        <location filename="../prefinterface.cpp" line="515"/>
         <source>Select the style you prefer for the application.</source>
         <translation>Vyberte styl, který preferujete.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="526"/>
+        <location filename="../prefinterface.cpp" line="527"/>
         <source>Default font</source>
         <translation>Výchozí font</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="527"/>
+        <location filename="../prefinterface.cpp" line="528"/>
         <source>You can change here the application&apos;s font.</source>
         <translation>Zde můžete změnit font aplikace.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="531"/>
+        <location filename="../prefinterface.cpp" line="532"/>
         <source>Short jump</source>
         <translation>Krátký skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="541"/>
+        <location filename="../prefinterface.cpp" line="542"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>Vyberte velikost skoku dopředu nebo dozadu, vyberete-li akci %1.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="533"/>
+        <location filename="../prefinterface.cpp" line="534"/>
         <source>short jump</source>
         <translation>krátký skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="535"/>
+        <location filename="../prefinterface.cpp" line="536"/>
         <source>Medium jump</source>
         <translation>Střední skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="537"/>
+        <location filename="../prefinterface.cpp" line="538"/>
         <source>medium jump</source>
         <translation>střední skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="539"/>
+        <location filename="../prefinterface.cpp" line="540"/>
         <source>Long jump</source>
         <translation>Dlouhý skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="541"/>
+        <location filename="../prefinterface.cpp" line="542"/>
         <source>long jump</source>
         <translation>dlouhý skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="543"/>
+        <location filename="../prefinterface.cpp" line="544"/>
         <source>Mouse wheel jump</source>
         <translation>Skok kolečka myši</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="545"/>
+        <location filename="../prefinterface.cpp" line="546"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation>Vyberte velikost skoku dopředu nebo dozadu, vyberete-li akci pro kolečko myši.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="547"/>
+        <location filename="../prefinterface.cpp" line="548"/>
         <source>Behaviour of time slider</source>
         <translation>Chování posuvníku</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="548"/>
+        <location filename="../prefinterface.cpp" line="549"/>
         <source>Select what to do when dragging the time slider.</source>
         <translation>Zvolte chování při použití posuvníku.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="553"/>
+        <location filename="../prefinterface.cpp" line="554"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>Používat pouze jednu běžící instanci SMPlayeru</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="555"/>
+        <location filename="../prefinterface.cpp" line="556"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>Zaškrtněte tuto možnost, chcete-li použít již běžící instanci SMPlayeru pro otevření dalšího souboru.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="565"/>
+        <location filename="../prefinterface.cpp" line="566"/>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. You can change the port in case the default one is used by another application.</source>
         <translation>SMPlayer poslouchá na daném portu, aby mohl komunikovat s ostatními instancemi. Můžete nastavit číslo portu, pokud je již obsazen.</translation>
     </message>
@@ -5692,12 +5710,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Mini GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="516"/>
+        <location filename="../prefinterface.cpp" line="517"/>
         <source>GUI</source>
         <translation>GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="524"/>
+        <location filename="../prefinterface.cpp" line="525"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option will take effect the next time you run SMPlayer.</source>
         <translation>Vyberte GUI, které preferujete. V současnosti existují dvě: Výchozí GUI a Mini GUI.&lt;br&gt;&lt;b&gt;Výchozí GUI&lt;/b&gt; poskytuje tradiční GUI s ovládacími panely a prvky. &lt;b&gt;Mini GUI&lt;/b&gt; poskytuje jednodušší GUI bez ovládacích panelů a prvků, pouze s několika tlačítky.&lt;br&gt;&lt;b&gt;Poznámka:&lt;/b&gt; toto nastavení se projeví při příštím spuštění SMPlayeru.</translation>
     </message>
@@ -5707,17 +5725,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="557"/>
+        <location filename="../prefinterface.cpp" line="558"/>
         <source>Automatic port</source>
         <translation>Automaticky nastavený port</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="560"/>
+        <location filename="../prefinterface.cpp" line="561"/>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. If you select this option, a port will be automatically chosen.</source>
         <translation>SMPlayer poslouchá na daném portu, aby mohl komunikovat s ostatními instancemi. Vyberete-li tuto možnost, port bude zvolen automaticky.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="562"/>
+        <location filename="../prefinterface.cpp" line="563"/>
         <source>Manual port</source>
         <translation>Manuálně nastavený port</translation>
     </message>
@@ -5737,42 +5755,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Manuálně</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="569"/>
+        <location filename="../prefinterface.cpp" line="570"/>
         <source>Floating control</source>
         <translation>Plovoucí ovládání</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="571"/>
+        <location filename="../prefinterface.cpp" line="572"/>
         <source>Animated</source>
         <translation>Animovat</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="573"/>
+        <location filename="../prefinterface.cpp" line="574"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
         <translation>Je-li tato možnost povolena, plovoucí ovládání se vysune s animací.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="575"/>
+        <location filename="../prefinterface.cpp" line="576"/>
         <source>Width</source>
         <translation>Šířka</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="576"/>
+        <location filename="../prefinterface.cpp" line="577"/>
         <source>Specifies the width of the control (as a percentage).</source>
         <translation>Určuje šířku ovládacího prvku (v procentech).</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="578"/>
+        <location filename="../prefinterface.cpp" line="579"/>
         <source>Margin</source>
         <translation>Odstup</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="582"/>
+        <location filename="../prefinterface.cpp" line="583"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
         <translation>Toto nastavení určuje počet pixelů mezi plovoucím ovládáním a spodním okrajem obrazovky. Vhodné, pokud se jedná o TV obrazovku, jelikož overscan může ořezat ovládací prvky.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="584"/>
+        <location filename="../prefinterface.cpp" line="585"/>
         <source>Display in compact mode too</source>
         <translation>Zobrazit i v kompaktním módu</translation>
     </message>
@@ -5782,12 +5800,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Je-li tato možnost zaškrtnuta, plovoucí ovládání bude zobrazeno také v kompaktním módu. Varování: plovoucí ovládání není primárně určeno pro kompaktní mód a nemusí pracovat správně.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="590"/>
+        <location filename="../prefinterface.cpp" line="591"/>
         <source>Bypass window manager</source>
         <translation>Obejít správce oken</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="593"/>
+        <location filename="../prefinterface.cpp" line="594"/>
         <source>If this option is checked, the control is displayed bypassing the window manager. Disable this option if the floating control doesn&apos;t work well with your window manager.</source>
         <translation>Je-li tato možnost zaškrtnuta, plovoucí ovládání obejde správce oken. Použijte, pokud má plovoucí ovládání problém se správcem oken.</translation>
     </message>
@@ -5832,9 +5850,14 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Obejít sp&amp;rávce oken</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="587"/>
+        <location filename="../prefinterface.cpp" line="588"/>
         <source>If this option is enabled, the floating control will appear in compact mode too. &lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
         <translation>Je-li tato možnost zaškrtnuta, plovoucí ovládání bude zobrazeno také v kompaktním módu. &lt;b&gt;Varování:&lt;/b&gt; plovoucí ovládání není primárně určeno pro kompaktní mód a nemusí pracovat správně.</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="156"/>
+        <source>Mpc GUI</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -6935,37 +6958,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">%1 minut and %2 sekund</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="154"/>
+        <location filename="../clhelp.cpp" line="157"/>
         <source>will show this message and then will exit.</source>
         <translation>zobrazí tuto zprávu a skončí.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="139"/>
+        <location filename="../clhelp.cpp" line="142"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>po skončení přehrávání se hlavní okno ukončí.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="305"/>
+        <location filename="../smplayer.cpp" line="313"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Tohle je SMPlayer v. %1 běžící na systému %2</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="128"/>
+        <location filename="../clhelp.cpp" line="131"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
         <translation>pokusí se připojit k další běžící instanci a poslat zadanou akci. Příklad: -send-action pause. Další příkazy (jsou-li zadány) se ignorují a aplikace se ukončí. Návratová hodnota je 0 při správném ukončení a -1 při chybě.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="136"/>
+        <location filename="../clhelp.cpp" line="139"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
         <translation>seznam_akcí je seznam akcí oddělených mezerami. Akce budou spuštěny ihned po načtení souboru (je-li zadán) ve stejném pořadí, jako byly zadány. Pro akce se stavem je možné přidat parametr true nebo false. Příklad: -actions &quot;fullscreen compact true&quot;. Ubozovky jsou nezbytné tehdy, chcete-li zadat více akcí.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="162"/>
+        <location filename="../clhelp.cpp" line="165"/>
         <source>media</source>
         <translation>média</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="160"/>
+        <location filename="../clhelp.cpp" line="163"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>běží-li již další instance, médium bude přidáno do playlistu této instance. Pokud žádná jiná instance neběží, parametr bude ignorován a soubory budou otevřeny v instanci nové.</translation>
     </message>
@@ -6975,17 +6998,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">specifikuje adresář, kde je uložen konfigurační soubor (smplayer.ini).</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="142"/>
+        <location filename="../clhelp.cpp" line="145"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation>hlavní okno nebude zavřeno při ukončení přehrávání souboru/playlistu.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="145"/>
+        <location filename="../clhelp.cpp" line="148"/>
         <source>the video will be played in fullscreen mode.</source>
         <translation>video se bude přehrávat v režimu celé obrazovky.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="148"/>
+        <location filename="../clhelp.cpp" line="151"/>
         <source>the video will be played in window mode.</source>
         <translation>video se bude přehrávat v okně.</translation>
     </message>
@@ -7005,7 +7028,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Obnoví původní přiřazení a vyčistí registry.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="168"/>
+        <location filename="../clhelp.cpp" line="171"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation>&apos;média&apos; jsou jakýkoli soubor, který SMPlayer umí otevřít. Může to být soubor na disku, DVD (např. dvd://1), internetový stream (např. mms://...) nebo playlist ve formátu m3u nebo pls. Použijete-li parametr -playlist, SMPlayer přepošle tento parametr MPlayeru, který se o playlist postará sám (playlist se tak nedostane do SMPlayeru).</translation>
     </message>
@@ -7030,7 +7053,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>seznam_akcí</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="117"/>
+        <location filename="../clhelp.cpp" line="120"/>
         <source>opens the default gui.</source>
         <translation>použije výchozí GUI.</translation>
     </message>
@@ -7040,7 +7063,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>soubor_s_titulky</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="151"/>
+        <location filename="../clhelp.cpp" line="154"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
         <translation>určuje, který soubor s titulky se má použít pro přehrávané video.</translation>
     </message>
@@ -7068,7 +7091,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>%1 a %2</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="121"/>
+        <location filename="../clhelp.cpp" line="124"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
         <translation>určuje adresář, kam si má SMPlayer ukládat nastavení (smplayer.ini, smplayer_files.ini, ...)</translation>
     </message>
@@ -7089,6 +7112,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>unknown</source>
         <comment>aspect_ratio</comment>
         <translation>neznámý</translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="117"/>
+        <source>opens the mpc gui.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7260,22 +7288,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="378"/>
+        <location filename="../videopreview/videopreview.cpp" line="403"/>
         <source>Video preview</source>
         <translation>Náhled na video</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="70"/>
+        <location filename="../videopreview/videopreview.cpp" line="131"/>
         <source>Cancel</source>
         <translation>Storno</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="82"/>
+        <location filename="../videopreview/videopreview.cpp" line="133"/>
         <source>Generated by SMPlayer</source>
         <translation>Vytvořeno SMPlayerem</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="213"/>
+        <location filename="../videopreview/videopreview.cpp" line="222"/>
         <source>Creating thumbnails...</source>
         <translation>Vytvářím miniatury...</translation>
     </message>
@@ -7285,7 +7313,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Soubor: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="362"/>
+        <location filename="../videopreview/videopreview.cpp" line="387"/>
         <source>Size: %1 MB</source>
         <translation>Velikost: %1 MB</translation>
     </message>
@@ -7295,12 +7323,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Rozlišení: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="364"/>
+        <location filename="../videopreview/videopreview.cpp" line="389"/>
         <source>Length: %1</source>
         <translation>Délka: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="498"/>
+        <location filename="../videopreview/videopreview.cpp" line="523"/>
         <source>Save file</source>
         <translation>Uložit do souboru</translation>
     </message>
@@ -7310,98 +7338,128 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Obrázky (*.png *.jpg)</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="506"/>
+        <location filename="../videopreview/videopreview.cpp" line="531"/>
         <source>Error saving file</source>
         <translation>Chyba při ukládání souboru</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="507"/>
+        <location filename="../videopreview/videopreview.cpp" line="532"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>Tento soubor nemůže být uložen</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="169"/>
+        <location filename="../videopreview/videopreview.cpp" line="178"/>
         <source>Error</source>
         <translation>Chyba</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="170"/>
+        <location filename="../videopreview/videopreview.cpp" line="179"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>Při vytváření miniatur došlo k následující chybě:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="196"/>
+        <location filename="../videopreview/videopreview.cpp" line="205"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>Nelze vytvořit dočasný adresář (%1)</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="302"/>
+        <location filename="../videopreview/videopreview.cpp" line="312"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>Nešlo spustit MPlayer</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="363"/>
+        <location filename="../videopreview/videopreview.cpp" line="388"/>
         <source>Resolution: %1x%2</source>
         <translation>Rozlišení: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="367"/>
+        <location filename="../videopreview/videopreview.cpp" line="392"/>
         <source>Video format: %1</source>
         <translation>Formát videa: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="368"/>
+        <location filename="../videopreview/videopreview.cpp" line="393"/>
         <source>Frames per second: %1</source>
         <translation>Snímků za sekundu: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="369"/>
+        <location filename="../videopreview/videopreview.cpp" line="394"/>
         <source>Aspect ratio: %1</source>
         <translation>Poměr stran: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="372"/>
         <source>Video bitrate: %1 kbps</source>
-        <translation>Rychlost videa: %1 kbps</translation>
+        <translation type="obsolete">Rychlost videa: %1 kbps</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="373"/>
         <source>Audio bitrate: %1 kbps</source>
-        <translation>Rychlost audia: %1 kbps</translation>
+        <translation type="obsolete">Rychlost audia: %1 kbps</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="374"/>
         <source>Audio rate: %1 Hz</source>
-        <translation>Vzorkování zvuku: %1 Hz</translation>
+        <translation type="obsolete">Vzorkování zvuku: %1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="320"/>
+        <location filename="../videopreview/videopreview.cpp" line="330"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>Nelze načíst soubor %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="404"/>
+        <location filename="../videopreview/videopreview.cpp" line="429"/>
         <source>No filename</source>
         <translation>Nezadáno jméno souboru</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="464"/>
+        <location filename="../videopreview/videopreview.cpp" line="489"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>Nešlo spustit MPlayer pro získání informací o videu</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="187"/>
+        <location filename="../videopreview/videopreview.cpp" line="196"/>
         <source>The length of the video is 0</source>
         <translation>Video nulové délky</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="230"/>
+        <location filename="../videopreview/videopreview.cpp" line="240"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>Soubor %1 neexistuje</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="499"/>
+        <location filename="../videopreview/videopreview.cpp" line="524"/>
         <source>Images</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="376"/>
+        <source>No info</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="380"/>
+        <source>%1 kbps</source>
+        <translation type="unfinished">%1 kbps</translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="381"/>
+        <source>%1 Hz</source>
+        <translation type="unfinished">%1 Hz</translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="397"/>
+        <source>Video bitrate: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="398"/>
+        <source>Audio bitrate: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="399"/>
+        <source>Audio rate: %1</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7521,7 +7579,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VolumeSliderAction</name>
     <message>
-        <location filename="../widgetactions.cpp" line="155"/>
+        <location filename="../widgetactions.cpp" line="178"/>
         <source>Volume</source>
         <translation>Hlasitost</translation>
     </message>
