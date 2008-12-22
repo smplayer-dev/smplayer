@@ -3262,7 +3262,14 @@ void Core::resetPanscan() {
 	changePanscan(1.0);
 }
 
-void Core::autoPanscan(double video_aspect) {
+void Core::autoPanscan() {
+	double video_aspect = mset.aspectToNum( (MediaSettings::Aspect) mset.aspect_ratio_id);
+
+	if (video_aspect <= 0) {
+		QSize w = mplayerwindow->videoLayer()->size();
+		video_aspect = (double) w.width() / w.height();
+	}
+
 	double screen_aspect = DesktopInfo::desktop_aspectRatio(mplayerwindow);
 	double zoom_factor;
 
@@ -3278,23 +3285,16 @@ void Core::autoPanscan(double video_aspect) {
 	changePanscan(zoom_factor);
 }
 
-void Core::autoPanscan() {
-	double video_aspect = mset.aspectToNum( (MediaSettings::Aspect) mset.aspect_ratio_id);
-
-	if (video_aspect <= 0) {
-		QSize w = mplayerwindow->videoLayer()->size();
-		video_aspect = (double) w.width() / w.height();
-	}
-
-	autoPanscan(video_aspect);
+void Core::autoPanscanFromLetterbox(double video_aspect) {
+	qDebug("Core::autoPanscanFromLetterbox: %f", video_aspect);
 }
 
 void Core::autoPanscanFor169() {
-	autoPanscan((double) 16 / 9);
+	autoPanscanFromLetterbox((double) 16 / 9);
 }
 
 void Core::autoPanscanFor235() {
-	autoPanscan(2.35);
+	autoPanscanFromLetterbox(2.35);
 }
 
 void Core::incPanscan() {
