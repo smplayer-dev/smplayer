@@ -265,7 +265,7 @@
     <message>
         <location filename="../about.cpp" line="112"/>
         <source>If there&apos;s any omission, please report.</source>
-        <translation>Se houver alguma omissão, reporte-a.</translation>
+        <translation>Se encontrar alguma omissão, reporte-a.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="92"/>
@@ -275,12 +275,12 @@
     <message>
         <location filename="../about.cpp" line="209"/>
         <source>%1, %2, %3 and %4</source>
-        <translation type="unfinished"></translation>
+        <translation>%1, %2, %3 e %4</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="210"/>
         <source>%1, %2, %3, %4 and %5</source>
-        <translation type="unfinished"></translation>
+        <translation>%1, %2, %3, %4 e %5</translation>
     </message>
 </context>
 <context>
@@ -1430,7 +1430,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="3451"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
-        <translation>(O aviso não será mostrado novamente)</translation>
+        <translation>(Este aviso não será apresentado novamente)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1331"/>
@@ -1470,17 +1470,17 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="1442"/>
         <source>&amp;Always</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sempre</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1443"/>
         <source>&amp;Never</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nunca</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1444"/>
         <source>While &amp;playing</source>
-        <translation type="unfinished"></translation>
+        <translation>Ao re&amp;produzir</translation>
     </message>
 </context>
 <context>
@@ -3412,17 +3412,17 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="134"/>
         <source>Control bar</source>
-        <translation type="unfinished">Barra de controle</translation>
+        <translation>Barra de controlo</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="437"/>
         <source>-%1</source>
-        <translation type="unfinished">-%1</translation>
+        <translation>-%1</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="441"/>
         <source>+%1</source>
-        <translation type="unfinished">+%1</translation>
+        <translation>+%1</translation>
     </message>
 </context>
 <context>
@@ -3823,7 +3823,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="426"/>
         <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
-        <translation>Seleccionando esta opção,a janela do MPlayer não será integrada na janela principal do SMPlayer e será mostrada na sua própria. Note que o rato e o teclado serão geridos directamente pelo MPlayer, o que significa que as teclas de atalho não deverão funcionar correctamente.</translation>
+        <translation>Seleccionando esta opção,a janela do MPlayer não será integrada na janela principal do SMPlayer mas sim na sua própria. Note que o rato e o teclado serão geridos directamente pelo MPlayer, o que significa que as teclas de atalho não deverão funcionar correctamente.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="461"/>
@@ -4008,7 +4008,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="513"/>
         <source>Password</source>
-        <translation>Senha</translation>
+        <translation>Palavra-passe</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="515"/>
@@ -4113,12 +4113,12 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="433"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Reconstrói índice de ficheiros se nenhum for encontrado, permitindo a procura. Útil com transferências corrompidas/incompletas ou ficheiros mal criados. Esta opção só funciona se o vídeo subjacente suportar busca (i.e., não com stdin, pipe, etc.). &lt;br&gt; &lt;b&gt;Nota:&lt;/b&gt; a criação do índice pode levar algum tempo.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="515"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Palavra-passe de proxy. &lt;b&gt;Aviso:&lt;/b&gt; a senha será gravada como texto simples, no ficheiro de configurações.</translation>
     </message>
 </context>
 <context>
@@ -4191,7 +4191,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefassociations.cpp" line="224"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation> &lt;b&gt;Nota:&lt;/b&gt; (Restauro não funciona no Windows Vista).</translation>
+        <translation>&lt;b&gt;Nota:&lt;/b&gt; (Restauro não funciona no Windows Vista).</translation>
     </message>
 </context>
 <context>
@@ -4239,7 +4239,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefdrives.ui" line="38"/>
         <source>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
-        <translation>O SMPlayer não escolhe a unidade CD ou DVD. Assim, para reproduzir um CD / DVD, deve seleccionar o dispositivo a utilizar que pode até ser o mesmo.</translation>
+        <translation>O SMPlayer não escolhe os dispositivos CD ou DVD. Assim, para reproduzir um CD / DVD, deve seleccionar o dispositivo a utilizar que poderá até ser o mesmo.</translation>
     </message>
 </context>
 <context>
@@ -4362,7 +4362,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="755"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
-        <translation>Pode marcar esta opção se a sua placa gráfica ou controlador de vídeo não suportarem o equalizador de vídeo.&lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; esta opção poder ser incompatível com alguns controladores de saída vídeo.</translation>
+        <translation>Pode marcar esta opção se o equalizador de vídeo não for suportado pela sua placa gráfica ou controlador de vídeo.&lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; esta opção poder ser incompatível com alguns controladores de saída vídeo.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="775"/>
@@ -4507,7 +4507,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="793"/>
         <source>Volume &amp;normalization by default</source>
-        <translation>&amp;Normalização de volume</translation>
+        <translation>&amp;Normalização de volume como padrão</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="714"/>
@@ -4587,7 +4587,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="836"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
-        <translation>Define a amplificação máxima em percentagem ( padrão: 110). Um valor de 200 permiter-lhe-á ajustar o volume para um valor que, no máximo, será o dobro do actual. Para valores inferiores a 0, o OSD não será mostrado correctamente.</translation>
+        <translation>Define a amplificação máxima em percentagem (padrão: 110). Um valor de 200 permiter-lhe-á ajustar o volume para um valor que, no máximo, será o dobro do actual. Para valores inferiores a 0, o OSD não será mostrado correctamente.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="810"/>
@@ -4602,7 +4602,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="736"/>
         <source>Postprocessing will be used by default on new opened files.</source>
-        <translation>Pós-processamento será usado, como padrão, em novos ficheiros.</translation>
+        <translation>Pós-processamento será usado como padrão, em novos ficheiros.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="877"/>
@@ -4824,7 +4824,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="749"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
-        <translation>Esta opção define o zomm padrão para os novos vídeos.</translation>
+        <translation>Esta opção define o zoom padrão para os novos vídeos.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="398"/>
@@ -4954,17 +4954,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="703"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
-        <translation type="unfinished"></translation>
+        <translation>Se marcar esta opção, o SMPlayer irá lembrar-se da posição temporal do ficheiro na próxima vez que for aberto. Esta opção apenas funciona com ficheiros regulares ( não com DVDs, CDs, URLs...).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="760"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
-        <translation type="unfinished"></translation>
+        <translation>Se seleccionada, activa o processamento directo (não é suportado por todos os codecs vídeo e áudio)&lt;br&gt;&lt;b&gt;Aviso:&lt;/b&gt; Pode causar corrupção OSD/SUB !</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="821"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"></translation>
+        <translation>Pede o número de canais de reprodução. O MPlayer tentará descodificar o áudio no número de canais especificados. Depois, depende do descodificador preencher o requisito. Isto só será importante ao reproduzir vídeos com áudio AC3 (como DVDs). Nestes casos, liba52 descodificará e corrigirá o áudio no número de canais especificados. &lt;b&gt;Nota&lt;/b&gt;: Esta opção apenas será aceite  pelos codecs AC3, pelos filtros surround e pelos drivers de saída áudio OSS.</translation>
     </message>
 </context>
 <context>
@@ -5297,17 +5297,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="71"/>
         <source>Always on top</source>
-        <translation type="unfinished"></translation>
+        <translation>Sempre no topo</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="72"/>
         <source>Never on top</source>
-        <translation type="unfinished"></translation>
+        <translation>Nunca no topo</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="73"/>
         <source>On top while playing</source>
-        <translation type="unfinished"></translation>
+        <translation>No topo ao reproduzir</translation>
     </message>
 </context>
 <context>
@@ -5750,12 +5750,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="588"/>
         <source>If this option is enabled, the floating control will appear in compact mode too. &lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se esta opção estiver activa, o controlo flutuante aparecerá também  no modo compacto. &lt;b&gt;Aviso:&lt;/b&gt; Esta funcionalidade não foi desenvolvida para este método e poderá não funcionar correctamente.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="156"/>
         <source>Mpc GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Mpc GUI</translation>
     </message>
 </context>
 <context>
@@ -5978,7 +5978,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="550"/>
         <source>Cache for &amp;streams:</source>
-        <translation>Cache para &amp;streams</translation>
+        <translation>Cache para &amp;streams:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="64"/>
@@ -5998,7 +5998,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="262"/>
         <source>Loop &amp;filter</source>
-        <translation>Filtro de loop</translation>
+        <translation>&amp;Filtro de loop</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="261"/>
@@ -6073,7 +6073,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="240"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished"></translation>
+        <translation>Estabelece a prioridade do processo mplayer de acordo com as prioridades disponíveis no Windows.&lt;br&gt;&lt;b&gt;Aviso:&lt;/b&gt; Usar a prioridade tempo real pode bloquear o sistema.</translation>
     </message>
 </context>
 <context>
@@ -6732,7 +6732,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="386"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se esta opção estiver seleccionada, as legendas irão aparecer nas capturas. &lt;b&gt;Nota:&lt;/b&gt;pode causar alguns problemas.</translation>
     </message>
 </context>
 <context>
@@ -6922,7 +6922,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="117"/>
         <source>opens the mpc gui.</source>
-        <translation type="unfinished"></translation>
+        <translation>abre o mpc gui.</translation>
     </message>
 </context>
 <context>
@@ -7216,47 +7216,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="196"/>
         <source>The length of the video is 0</source>
-        <translation type="unfinished"></translation>
+        <translation>A duração do vídeo é 0</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="240"/>
         <source>The file %1 doesn&apos;t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>O ficheiro %1 não existe</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="524"/>
         <source>Images</source>
-        <translation type="unfinished"></translation>
+        <translation>Imagens</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="376"/>
         <source>No info</source>
-        <translation type="unfinished"></translation>
+        <translation>Sem info</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="380"/>
         <source>%1 kbps</source>
-        <translation type="unfinished">%1 kbps</translation>
+        <translation>%1 kbps</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="381"/>
         <source>%1 Hz</source>
-        <translation type="unfinished">%1 Hz</translation>
+        <translation>%1 Hz</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="397"/>
         <source>Video bitrate: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Taxa de bits vídeo: %1 </translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="398"/>
         <source>Audio bitrate: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Taxa de bits áudio : %1 </translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="399"/>
         <source>Audio rate: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Taxa áudio : %1 </translation>
     </message>
 </context>
 <context>
@@ -7309,67 +7309,67 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="40"/>
         <source>The preview will be created for the video you specify here.</source>
-        <translation type="unfinished"></translation>
+        <translation>A visualização será criada para o vídeo que especificar aqui.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="43"/>
         <source>The thumbnails will be arranged on a table.</source>
-        <translation type="unfinished"></translation>
+        <translation>As miniaturas serão arranjadas numa tabela.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="42"/>
         <source>This option specifies the number of columns of the table.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opção especifica o número de colunas por tabela.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="43"/>
         <source>This option specifies the number of rows of the table.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opção especifica o número de linhas por tabela.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="44"/>
         <source>If you check this option, the playing time will be displayed at the bottom of each thumbnail.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se marcar esta opção, o tempo de reprodução será apresentado no fundo de cada miniatura.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="45"/>
         <source>If the aspect ratio of the video is wrong, you can specify a different one here.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se o tamanho do vídeo estiver errado, aqui pode especificar um diferente.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
         <source>Usually the first frames are black, so it&apos;s a good idea to skip some seconds at the beginning of the video. This option allows to specify how many seconds will be skipped.</source>
-        <translation type="unfinished"></translation>
+        <translation>Normalmente as primeiras frames são pretas, logo é uma boa idéia saltar alguns segundos no início de cada vídeo. Esta opção permite-lhe especificar quantos segundo serão ignorados.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
         <source>This option specifies the maximum width in pixels that the generated preview image will have.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opção especifica a largura máxima dos pixeis que a imagem gerada terá.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="50"/>
         <source>Some frames will be extracted from the video in order to create the preview. Here you can choose the image format for the extracted frames. PNG may give better quality.</source>
-        <translation type="unfinished"></translation>
+        <translation>Algumas frames serão extraídas do vídeo de modo a criar a pré-visualização. Aqui pode escolher o formato da imagem para as frames extraídas. PNG poderá fornecer uma melhor qualidade.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="113"/>
         <source>Add playing &amp;time to thumbnails</source>
-        <translation type="unfinished"></translation>
+        <translation>Adicionar &amp;tempo de reprodução às miniaturas</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="245"/>
         <source>&amp;Extract frames as</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Extrair frames como</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="41"/>
         <source>Enter here the DVD device or a folder with a DVD image.</source>
-        <translation type="unfinished"></translation>
+        <translation>Introduza aqui o dispositivo DVD ou a pasta com a imagem DVD.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="38"/>
         <source>&amp;DVD device:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dispositivo de &amp;DVD:</translation>
     </message>
 </context>
 <context>
