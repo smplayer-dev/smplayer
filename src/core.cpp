@@ -3302,10 +3302,10 @@ void Core::autoPanscanFromLetterbox(double aspect) {
 	// Calculate size of the video in fullscreen
 	QSize video;
 	video.setHeight( desktop.height() );;
-	video.setWidth( video.height() * video_aspect);
+	video.setWidth( (int) (video.height() * video_aspect) );
 	if (video.width() > desktop.width()) {
 		video.setWidth( desktop.width() );;
-		video.setHeight( video.width() / video_aspect);
+		video.setHeight( (int) (video.width() / video_aspect) );
 	}
 
 	qDebug("Core::autoPanscanFromLetterbox: max. size of video: %d %d", video.width(), video.height());
@@ -3313,7 +3313,7 @@ void Core::autoPanscanFromLetterbox(double aspect) {
 	// Calculate the size of the actual video inside the letterbox
 	QSize actual_video;
 	actual_video.setWidth( video.width() );
-	actual_video.setHeight( actual_video.width() / aspect );
+	actual_video.setHeight( (int) (actual_video.width() / aspect) );
 
 	qDebug("Core::autoPanscanFromLetterbox: calculated size of actual video for aspect %f: %d %d", aspect, actual_video.width(), actual_video.height());
 
