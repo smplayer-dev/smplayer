@@ -80,11 +80,6 @@ private:
 
 	int mplayer_svn;
 
-#if NOTIFY_AUDIO_SUB_CHANGES
-	bool audio_tracks_changed;
-	bool subtitle_tracks_changed;
-#endif
-
 #if GENERIC_CHAPTER_SUPPORT
 	int dvd_current_title;
 #endif
