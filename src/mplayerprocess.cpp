@@ -54,11 +54,6 @@ bool MplayerProcess::start() {
 	mplayer_svn = -1; // Not found yet
 	received_end_of_file = false;
 
-#if NOTIFY_AUDIO_SUB_CHANGES
-	audio_tracks_changed = false;
-	subtitle_tracks_changed = false;
-#endif
-
 #if GENERIC_CHAPTER_SUPPORT
 	dvd_current_title = -1;
 #endif
@@ -278,7 +273,6 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			}
 		}
 
-#if !NOTIFY_AUDIO_SUB_CHANGES
 		// Subtitles
 		if (rx_subtitle.indexIn(line) > -1) {
 			md.subs.process(line);
@@ -291,7 +285,6 @@ void MplayerProcess::parseLine(QByteArray ba) {
 		if (rx_subtitle_file.indexIn(line) > -1) {
 			md.subs.process(line);
 		}
-#endif
 
 		// AO
 		if (rx_ao.indexIn(line) > -1) {
@@ -537,7 +530,6 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			value = rx.cap(2);
 			//qDebug("MplayerProcess::parseLine: tag: %s, value: %s", tag.toUtf8().data(), value.toUtf8().data());
 
-#if !NOTIFY_AUDIO_SUB_CHANGES
 			// Generic audio
 			if (tag == "ID_AUDIO_ID") {
 				int ID = value.toInt();
@@ -545,7 +537,6 @@ void MplayerProcess::parseLine(QByteArray ba) {
 				md.audios.addID( ID );
 			}
 			else
-
 			// Video
 			if (tag == "ID_VIDEO_ID") {
 				int ID = value.toInt();
@@ -553,7 +544,6 @@ void MplayerProcess::parseLine(QByteArray ba) {
 				md.videos.addID( ID );
 			}
 			else
-#endif
 			if (tag == "ID_LENGTH") {
 				md.duration = value.toDouble();
 				qDebug("MplayerProcess::parseLine: md.duration set to %f", md.duration);
