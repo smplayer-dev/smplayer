@@ -321,8 +321,8 @@ protected slots:
 	void initAudioTrack();
 #endif
 #if NOTIFY_SUB_CHANGES
-	void initSubtitleTrack();
-	void setSubtitleTrackAgain();
+	void initSubtitleTrack(const SubTracks &);
+	void setSubtitleTrackAgain(const SubTracks &);
 #endif
 
 protected:

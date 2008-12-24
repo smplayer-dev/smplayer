@@ -153,10 +153,10 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	connect( this, SIGNAL(mediaLoaded()), this, SLOT(initAudioTrack()), Qt::QueuedConnection );
 #endif
 #if NOTIFY_SUB_CHANGES
-	connect( proc, SIGNAL(subtitleInfoChanged()), 
-             this, SLOT(initSubtitleTrack()) );
-	connect( proc, SIGNAL(subtitleInfoReceivedAgain()), 
-             this, SLOT(setSubtitleTrackAgain()) );
+	connect( proc, SIGNAL(subtitleInfoChanged(const SubTracks &)), 
+             this, SLOT(initSubtitleTrack(const SubTracks &)) );
+	connect( proc, SIGNAL(subtitleInfoReceivedAgain(const SubTracks &)), 
+             this, SLOT(setSubtitleTrackAgain(const SubTracks &)) );
 #endif
 	
 	connect( this, SIGNAL(stateChanged(Core::State)), 
@@ -803,6 +803,7 @@ void Core::newMediaPlaying() {
 	}
 #endif
 
+#if !NOTIFY_SUB_CHANGES
 	// Subtitles
 	if (mset.external_subtitles.isEmpty()) {
 		if (pref->autoload_sub) {
@@ -815,6 +816,7 @@ void Core::newMediaPlaying() {
 			changeSubtitle( MediaSettings::SubNone );
 		}
 	}
+#endif
 
 #if GENERIC_CHAPTER_SUPPORT
 	if (mdat.chapters > 0) {
@@ -863,6 +865,7 @@ void Core::finishRestart() {
 		mdat.demuxer = proc->mediaData().demuxer;
 	}
 
+#if !NOTIFY_SUB_CHANGES
 	// Subtitles
 	//if (we_are_restarting) {
 	if ( (just_loaded_external_subs) || (just_unloaded_external_subs) ) {
@@ -915,6 +918,7 @@ void Core::finishRestart() {
 		// Recover current subtitle
 		changeSubtitle( mset.current_sub_id );
 	}
+#endif
 
 	we_are_restarting = false;
 
@@ -3538,29 +3542,83 @@ void Core::initAudioTrack() {
 #endif
 
 #if NOTIFY_SUB_CHANGES
-void Core::initSubtitleTrack() {
+void Core::initSubtitleTrack(const SubTracks & subs) {
 	qDebug("Core::initSubtitleTrack");
 
-	mdat.subs = proc->mediaData().subs;
-	mdat.list();
-	initializeMenus();
+	qDebug("Core::initSubtitleTrack: num_items: %d", mdat.subs.numItems());
 
-	// Subtitles
-	if (mset.external_subtitles.isEmpty()) {
-		if (pref->autoload_sub) {
-			//Select first subtitle if none selected
-			//if (mset.current_sub_id == MediaSettings::NoneSelected) {
-				int sub = mdat.subs.selectOne( pref->subtitle_lang, pref->initial_subtitle_track-1 );
-				changeSubtitle( sub );
-			//}
-		} else {
-			changeSubtitle( MediaSettings::SubNone );
+	bool restore_subs = ((mdat.subs.numItems() > 0) || 
+                         (mset.current_sub_id != MediaSettings::NoneSelected));
+
+	// Save current sub
+	SubData::Type previous_sub_type = SubData::Sub;
+	int previous_sub_id = -1;
+	if (mdat.subs.numItems() > 0) {
+		if ((mset.current_sub_id != MediaSettings::SubNone) && 
+	        (mset.current_sub_id != MediaSettings::NoneSelected)) 
+		{
+			previous_sub_type = mdat.subs.itemAt(mset.current_sub_id).type();
+			previous_sub_id = mdat.subs.itemAt(mset.current_sub_id).ID();
 		}
 	}
+	qDebug("Core::initSubtitleTrack: previous subtitle: type: %d id: %d", previous_sub_type, previous_sub_id);
+
+	mdat.subs = subs;
+
+	initializeMenus();
+
+	if (just_unloaded_external_subs) {
+		qDebug("Core::initSubtitleTrack: just_unloaded_external_subs: true");
+		restore_subs = false;
+		just_unloaded_external_subs = false;
+	}
+	if (just_loaded_external_subs) {
+		qDebug("Core::initSubtitleTrack: just_loaded_external_subs: true");
+		restore_subs = false;
+		just_loaded_external_subs = false;
+	}
+
+	if (!restore_subs) {
+		// Select initial track
+		qDebug("Core::initSubtitleTrack: selecting initial track");
+
+		if (!pref->autoload_sub) {
+			changeSubtitle( MediaSettings::SubNone );
+		} else {
+			//Select first subtitle
+			int sub = mdat.subs.selectOne( pref->subtitle_lang, pref->initial_subtitle_track-1 );
+			changeSubtitle( sub );
+		}
+	} else {
+		// Try to restore previous subtitle track
+		qDebug("Core::initSubtitleTrack: restoring subtitle");
+
+		if (mset.current_sub_id == MediaSettings::SubNone) {
+			changeSubtitle( MediaSettings::SubNone );
+		}
+		else
+		if (mset.current_sub_id != MediaSettings::NoneSelected) {
+			// Try to find old subtitle
+			int item = mset.current_sub_id;
+			if (previous_sub_id != -1) {
+				int sub_item = mdat.subs.find(previous_sub_type, previous_sub_id);
+				if (sub_item > -1) {
+					item = sub_item;
+					qDebug("Core::initSubtitleTrack: previous subtitle found: %d", sub_item);
+				}
+			}
+			if (item > -1) {
+				changeSubtitle(item );
+			} else {
+				qDebug("Core::initSubtitleTrack: previous subtitle not found!");
+			}
+		}
+	}
+	
 	updateWidgets();
 }
 
-void Core::setSubtitleTrackAgain() {
+void Core::setSubtitleTrackAgain(const SubTracks &) {
 	qDebug("Core::setSubtitleTrackAgain");
 	changeSubtitle( mset.current_sub_id );
 }
