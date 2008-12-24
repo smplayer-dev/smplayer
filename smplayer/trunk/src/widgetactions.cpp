@@ -67,7 +67,9 @@ void TimeSliderAction::setPos(int v) {
 	QList<QWidget *> l = createdWidgets();
 	for (int n=0; n < l.count(); n++) {
 		TimeSlider *s = (TimeSlider*) l[n];
+		bool was_blocked= s->blockSignals(true);
 		s->setPos(v);
+		s->blockSignals(was_blocked);
 	}
 }
 
@@ -132,7 +134,9 @@ void VolumeSliderAction::setValue(int v) {
 	QList<QWidget *> l = createdWidgets();
 	for (int n=0; n < l.count(); n++) {
 		MySlider *s = (MySlider*) l[n];
+		bool was_blocked = s->blockSignals(true);
 		s->setValue(v);
+		s->blockSignals(was_blocked);
 	}
 }
 
