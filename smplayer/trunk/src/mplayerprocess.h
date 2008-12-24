@@ -69,10 +69,10 @@ signals:
 
 #if NOTIFY_SUB_CHANGES
 	//! Emitted if a new subtitle has been added or an old one changed
-	void subtitleInfoChanged();
+	void subtitleInfoChanged(const SubTracks &);
 
 	//! Emitted when subtitle info has been received but there wasn't anything new
-	void subtitleInfoReceivedAgain();
+	void subtitleInfoReceivedAgain(const SubTracks &);
 #endif
 
 protected slots:
@@ -91,6 +91,8 @@ private:
 	int mplayer_svn;
 
 #if NOTIFY_SUB_CHANGES
+	SubTracks subs;
+
 	bool subtitle_info_received;
 	bool subtitle_info_changed;
 #endif

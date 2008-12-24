@@ -55,6 +55,8 @@ bool MplayerProcess::start() {
 	received_end_of_file = false;
 
 #if NOTIFY_SUB_CHANGES
+	subs.clear();
+
 	subtitle_info_received = false;
 	subtitle_info_changed = false;
 #endif
@@ -151,12 +153,12 @@ void MplayerProcess::parseLine(QByteArray ba) {
 				qDebug("MplayerProcess::parseLine: subtitle_info_changed");
 				subtitle_info_changed = false;
 				subtitle_info_received = false;
-				emit subtitleInfoChanged();
+				emit subtitleInfoChanged(subs);
 			}
 			if (subtitle_info_received) {
 				qDebug("MplayerProcess::parseLine: subtitle_info_received");
 				subtitle_info_received = false;
-				emit subtitleInfoReceivedAgain();
+				emit subtitleInfoReceivedAgain(subs);
 			}
 		}
 #endif
@@ -179,12 +181,6 @@ void MplayerProcess::parseLine(QByteArray ba) {
 				md.novideo = true;
 				emit receivedNoVideo();
 			}
-#endif
-
-#if NOTIFY_SUB_CHANGES
-			// Don't notify of this initially
-			subtitle_info_changed = false;
-			subtitle_info_received = false;
 #endif
 
 			emit receivedStartingTime(sec);
@@ -287,7 +283,7 @@ void MplayerProcess::parseLine(QByteArray ba) {
 #if NOTIFY_SUB_CHANGES
 		// Subtitles
 		if ((rx_subtitle.indexIn(line) > -1) || (rx_sid.indexIn(line) > -1) || (rx_subtitle_file.indexIn(line) > -1)) {
-			int r = md.subs.parse(line);
+			int r = subs.parse(line);
 			subtitle_info_received = true;
 			subtitle_info_changed = ((r == SubTracks::SubtitleAdded) || (r == SubTracks::SubtitleChanged));
 		}
