@@ -54,6 +54,11 @@ bool MplayerProcess::start() {
 	mplayer_svn = -1; // Not found yet
 	received_end_of_file = false;
 
+#if NOTIFY_SUB_CHANGES
+	subtitle_info_received = false;
+	subtitle_info_changed = false;
+#endif
+
 #if GENERIC_CHAPTER_SUPPORT
 	dvd_current_title = -1;
 #endif
@@ -139,7 +144,23 @@ void MplayerProcess::parseLine(QByteArray ba) {
 		double sec = rx_av.cap(1).toDouble();
 		//qDebug("cap(1): '%s'", rx_av.cap(1).toUtf8().data() );
 		//qDebug("sec: %f", sec);
-		
+
+#if NOTIFY_SUB_CHANGES
+		if (notified_mplayer_is_running) {
+			if (subtitle_info_changed) {
+				qDebug("MplayerProcess::parseLine: subtitle_info_changed");
+				subtitle_info_changed = false;
+				subtitle_info_received = false;
+				emit subtitleInfoChanged();
+			}
+			if (subtitle_info_received) {
+				qDebug("MplayerProcess::parseLine: subtitle_info_received");
+				subtitle_info_received = false;
+				emit subtitleInfoReceivedAgain();
+			}
+		}
+#endif
+
 		if (!notified_mplayer_is_running) {
 			qDebug("MplayerProcess::parseLine: starting sec: %f", sec);
 #if GENERIC_CHAPTER_SUPPORT
@@ -158,6 +179,12 @@ void MplayerProcess::parseLine(QByteArray ba) {
 				md.novideo = true;
 				emit receivedNoVideo();
 			}
+#endif
+
+#if NOTIFY_SUB_CHANGES
+			// Don't notify of this initially
+			subtitle_info_changed = false;
+			subtitle_info_received = false;
 #endif
 
 			emit receivedStartingTime(sec);
@@ -257,6 +284,15 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			emit receivedStreamTitleAndUrl( s, url );
 		}
 
+#if NOTIFY_SUB_CHANGES
+		// Subtitles
+		if ((rx_subtitle.indexIn(line) > -1) || (rx_sid.indexIn(line) > -1) || (rx_subtitle_file.indexIn(line) > -1)) {
+			int r = md.subs.parse(line);
+			subtitle_info_received = true;
+			subtitle_info_changed = ((r == SubTracks::SubtitleAdded) || (r == SubTracks::SubtitleChanged));
+		}
+#endif
+
 		// The following things are not sent when the file has started to play
 		// (or if sent, smplayer will ignore anyway...)
 		// So not process anymore, if video is playing to save some time
@@ -273,19 +309,20 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			}
 		}
 
+#if !NOTIFY_SUB_CHANGES
 		// Subtitles
 		if (rx_subtitle.indexIn(line) > -1) {
-			md.subs.process(line);
+			md.subs.parse(line);
 		}
 		else
 		if (rx_sid.indexIn(line) > -1) {
-			md.subs.process(line);
+			md.subs.parse(line);
 		}
 		else
 		if (rx_subtitle_file.indexIn(line) > -1) {
-			md.subs.process(line);
+			md.subs.parse(line);
 		}
-
+#endif
 		// AO
 		if (rx_ao.indexIn(line) > -1) {
 			emit receivedAO( rx_ao.cap(1) );

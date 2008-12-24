@@ -24,6 +24,8 @@
 #include "mediadata.h"
 #include "config.h"
 
+#define NOTIFY_SUB_CHANGES 1
+
 class QStringList;
 
 class MplayerProcess : public MyProcess 
@@ -65,6 +67,14 @@ signals:
 
 	void failedToParseMplayerVersion(QString line_with_mplayer_version);
 
+#if NOTIFY_SUB_CHANGES
+	//! Emitted if a new subtitle has been added or an old one changed
+	void subtitleInfoChanged();
+
+	//! Emitted when subtitle info has been received but there wasn't anything new
+	void subtitleInfoReceivedAgain();
+#endif
+
 protected slots:
 	void parseLine(QByteArray ba);
 	void processFinished(int exitCode, QProcess::ExitStatus exitStatus);
@@ -79,6 +89,11 @@ private:
 	int last_sub_id;
 
 	int mplayer_svn;
+
+#if NOTIFY_SUB_CHANGES
+	bool subtitle_info_received;
+	bool subtitle_info_changed;
+#endif
 
 #if GENERIC_CHAPTER_SUPPORT
 	int dvd_current_title;

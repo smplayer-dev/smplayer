@@ -1,5 +1,13 @@
 [b]Version 0.6.6[/b]:
 
+(2008-12-23)
+ * Now smplayer tries to update the subtitle tracks if they change during
+   playback. This makes subtitles work if using dvdnav, and seems to fix
+   a problem when selecting the initial track 
+   (see http://sourceforge.net/tracker/index.php?func=detail&aid=2422574&group_id=185512&atid=913573)
+   This is the kind of changes that can break something or produce an 
+   unexpected behaviour...
+
 (2008-12-20)
  * Applied with a few changes the patch customStyleAction.patch by
    matt <matt@endboss.org>. It adds a few more functions for the widgetactions,
