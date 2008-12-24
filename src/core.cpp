@@ -24,7 +24,6 @@
 
 #include <cmath>
 
-#include "mplayerprocess.h"
 #include "mplayerwindow.h"
 #include "desktopinfo.h"
 #include "helper.h"
@@ -152,6 +151,12 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	connect( this, SIGNAL(mediaLoaded()), this, SLOT(checkIfVideoIsHD()), Qt::QueuedConnection );
 #if DELAYED_AUDIO_SETUP_ON_STARTUP
 	connect( this, SIGNAL(mediaLoaded()), this, SLOT(initAudioTrack()), Qt::QueuedConnection );
+#endif
+#if NOTIFY_SUB_CHANGES
+	connect( proc, SIGNAL(subtitleInfoChanged()), 
+             this, SLOT(initSubtitleTrack()) );
+	connect( proc, SIGNAL(subtitleInfoReceivedAgain()), 
+             this, SLOT(setSubtitleTrackAgain()) );
 #endif
 	
 	connect( this, SIGNAL(stateChanged(Core::State)), 
@@ -3529,6 +3534,35 @@ void Core::initAudioTrack() {
 
 		changeAudio( audio );
 	}
+}
+#endif
+
+#if NOTIFY_SUB_CHANGES
+void Core::initSubtitleTrack() {
+	qDebug("Core::initSubtitleTrack");
+
+	mdat.subs = proc->mediaData().subs;
+	mdat.list();
+	initializeMenus();
+
+	// Subtitles
+	if (mset.external_subtitles.isEmpty()) {
+		if (pref->autoload_sub) {
+			//Select first subtitle if none selected
+			//if (mset.current_sub_id == MediaSettings::NoneSelected) {
+				int sub = mdat.subs.selectOne( pref->subtitle_lang, pref->initial_subtitle_track-1 );
+				changeSubtitle( sub );
+			//}
+		} else {
+			changeSubtitle( MediaSettings::SubNone );
+		}
+	}
+	updateWidgets();
+}
+
+void Core::setSubtitleTrackAgain() {
+	qDebug("Core::setSubtitleTrackAgain");
+	changeSubtitle( mset.current_sub_id );
 }
 #endif
 

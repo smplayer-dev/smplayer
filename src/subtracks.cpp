@@ -159,8 +159,10 @@ bool SubTracks::changeFilename( SubData::Type t, int ID, QString filename ) {
 	return true;
 }
 
-void SubTracks::process(QString text) {
-	qDebug("SubTracks::process: '%s'", text.toUtf8().data());
+int SubTracks::parse(QString text) {
+	qDebug("SubTracks::parse: '%s'", text.toUtf8().data());
+
+	ParseResult result = SubtitleUnchanged;
 
 	QRegExp rx_subtitle("^ID_(SUBTITLE|FILE_SUB|VOBSUB)_ID=(\\d+)");
 	QRegExp rx_sid("^ID_(SID|VSID)_(\\d+)_(LANG|NAME)=(.*)");
@@ -178,9 +180,11 @@ void SubTracks::process(QString text) {
 			t = SubData::Sub;
 
 		if (find(t, ID) > -1) {
-			qWarning("SubTracks::process: subtitle type: %d, ID: %d already exists!", t, ID);
+			qWarning("SubTracks::parse: subtitle type: %d, ID: %d already exists!", t, ID);
 		} else {
 			add(t,ID);
+
+			result = SubtitleAdded;
 		}	
 	}
 	else
@@ -194,13 +198,15 @@ void SubTracks::process(QString text) {
 		if (type == "VSID") t = SubData::Vob;
 
 		if (find(t, ID) == -1) {
-			qWarning("SubTracks::process: subtitle type: %d, ID: %d doesn't exist!", t, ID);
+			qWarning("SubTracks::parse: subtitle type: %d, ID: %d doesn't exist!", t, ID);
 		} else {
 			if (attr=="NAME")
 				changeName(t,ID, value);
 			else
 				changeLang(t,ID, value);
-		}	
+
+			result = SubtitleChanged;
+		}
 	}
 	else
 	if (rx_subtitle_file.indexIn(text) > -1) {
@@ -209,9 +215,13 @@ void SubTracks::process(QString text) {
 			int last = subs.count() -1;
 			if (subs[last].type() == SubData::File) {
 				subs[last].setFilename( file );
+
+				result = SubtitleChanged;
 			}
 		}
 	}
+
+	return result;
 }
 
 /*

@@ -80,6 +80,8 @@ typedef QList <SubData> SubList;
 class SubTracks
 {
 public:
+	enum ParseResult { SubtitleUnchanged = 0, SubtitleAdded = 1, SubtitleChanged = 2 };
+
 	SubTracks();
 	~SubTracks();
 
@@ -100,7 +102,8 @@ public:
 	int findLang(QString expr);
 	int selectOne(QString preferred_lang, int default_sub=0);
 
-	void process(QString text);
+	//! Parses a line from mplayer output with subtitle info
+	int parse(QString text);
 
 	void list();
 	void listNames();

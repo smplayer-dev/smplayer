@@ -23,6 +23,7 @@
 #include <QProcess> // For QProcess::ProcessError
 #include "mediadata.h"
 #include "mediasettings.h"
+#include "mplayerprocess.h"
 #include "config.h"
 
 #define NEW_SETTINGS_MANAGEMENT 1
@@ -318,6 +319,10 @@ protected slots:
 
 #if DELAYED_AUDIO_SETUP_ON_STARTUP
 	void initAudioTrack();
+#endif
+#if NOTIFY_SUB_CHANGES
+	void initSubtitleTrack();
+	void setSubtitleTrackAgain();
 #endif
 
 protected:
