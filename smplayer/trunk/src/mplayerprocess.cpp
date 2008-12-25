@@ -30,6 +30,10 @@ using namespace Global;
 
 MplayerProcess::MplayerProcess(QObject * parent) : MyProcess(parent) 
 {
+#if NOTIFY_SUB_CHANGES
+	qRegisterMetaType<SubTracks>("SubTracks");
+#endif
+
 	connect( this, SIGNAL(lineAvailable(QByteArray)),
 			 this, SLOT(parseLine(QByteArray)) );
 
