@@ -154,9 +154,9 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 #endif
 #if NOTIFY_SUB_CHANGES
 	connect( proc, SIGNAL(subtitleInfoChanged(const SubTracks &)), 
-             this, SLOT(initSubtitleTrack(const SubTracks &)) );
+             this, SLOT(initSubtitleTrack(const SubTracks &)), Qt::QueuedConnection );
 	connect( proc, SIGNAL(subtitleInfoReceivedAgain(const SubTracks &)), 
-             this, SLOT(setSubtitleTrackAgain(const SubTracks &)) );
+             this, SLOT(setSubtitleTrackAgain(const SubTracks &)), Qt::QueuedConnection );
 #endif
 	
 	connect( this, SIGNAL(stateChanged(Core::State)), 
@@ -3564,6 +3564,9 @@ void Core::initSubtitleTrack(const SubTracks & subs) {
 	qDebug("Core::initSubtitleTrack: previous subtitle: type: %d id: %d", previous_sub_type, previous_sub_id);
 
 	mdat.subs = subs;
+
+	qDebug("Core::initSubtitleTrack: list of subtitles:");
+	mdat.subs.list();
 
 	initializeMenus();
 
