@@ -30,6 +30,7 @@
 #include <QMenu>
 #include <QAction>
 #include <QClipboard>
+#include <QSettings>
 
 #ifdef DOWNLOAD_SUBS
 #include "filedownloader.h"
@@ -51,6 +52,8 @@ FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
 	: QDialog(parent,f)
 {
 	setupUi(this);
+
+	set = 0; // settings
 
 	subtitles_for_label->setBuddy(file_chooser->lineEdit());
 
@@ -142,6 +145,12 @@ FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
 }
 
 FindSubtitlesWindow::~FindSubtitlesWindow() {
+	if (set) saveSettings();
+}
+
+void FindSubtitlesWindow::setSettings(QSettings * settings) {
+	set = settings;
+	loadSettings();
 }
 
 void FindSubtitlesWindow::setProxy(QNetworkProxy proxy) {
@@ -547,6 +556,26 @@ bool FindSubtitlesWindow::extractFile(QuaZip & zip, const QString & filename, co
 }
 
 #endif
+
+void FindSubtitlesWindow::saveSettings() {
+	qDebug("FindSubtitlesWindow::saveSettings");
+
+	set->beginGroup("findsubtitles");
+
+	set->setValue("language", language());
+
+	set->endGroup();
+}
+
+void FindSubtitlesWindow::loadSettings() {
+	qDebug("FindSubtitlesWindow::loadSettings");
+
+	set->beginGroup("findsubtitles");
+
+	setLanguage( set->value("language", language()).toString() );
+
+	set->endGroup();
+}
 
 #include "moc_findsubtitleswindow.cpp"
 
