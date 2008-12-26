@@ -118,6 +118,8 @@ FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
              this, SLOT(updateDataReadProgress(int, int)) );
 
 #ifdef DOWNLOAD_SUBS
+	include_lang_on_filename = true;
+
 	file_downloader = new FileDownloader(this);
 	file_downloader->setModal(true);
 	connect( file_downloader, SIGNAL(downloadFailed(QString)),
@@ -426,7 +428,9 @@ void FindSubtitlesWindow::archiveDownloaded(const QByteArray & buffer) {
 		}
 
 		QFileInfo fi(file_chooser->text());
-		QString output_name = fi.completeBaseName() +"_"+ lang +"." + extension;
+		QString output_name = fi.completeBaseName();
+		if (include_lang_on_filename) output_name += "_"+ lang;
+		output_name += "." + extension;
 
 		if (!uncompressZip(filename, fi.absolutePath(), output_name)) {
 			status->setText(tr("Download failed"));
@@ -563,6 +567,9 @@ void FindSubtitlesWindow::saveSettings() {
 	set->beginGroup("findsubtitles");
 
 	set->setValue("language", language());
+#ifdef DOWNLOAD_SUBS
+	set->setValue("include_lang_on_filename", includeLangOnFilename());
+#endif
 
 	set->endGroup();
 }
@@ -573,6 +580,9 @@ void FindSubtitlesWindow::loadSettings() {
 	set->beginGroup("findsubtitles");
 
 	setLanguage( set->value("language", language()).toString() );
+#ifdef DOWNLOAD_SUBS
+	setIncludeLangOnFilename( set->value("include_lang_on_filename", includeLangOnFilename()).toBool() );
+#endif
 
 	set->endGroup();
 }
