@@ -46,6 +46,9 @@ public:
 
 	void setProxy(QNetworkProxy proxy);
 	QString language();
+#ifdef DOWNLOAD_SUBS
+	bool includeLangOnFilename() { return include_lang_on_filename; };
+#endif
 
 	void setSettings(QSettings * settings);
 	QSettings * settings() { return set; };
@@ -56,6 +59,9 @@ public slots:
 	void refresh();
 	void download();
 	void copyLink();
+#ifdef DOWNLOAD_SUBS
+	void setIncludeLangOnFilename(bool b) { include_lang_on_filename = b; };
+#endif
 
 protected slots:
 	void applyFilter(const QString & filter);
@@ -107,6 +113,7 @@ protected:
 
 #ifdef DOWNLOAD_SUBS
 	FileDownloader * file_downloader;
+	bool include_lang_on_filename;
 #endif
 
 	QSettings * set;
