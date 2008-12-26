@@ -44,16 +44,19 @@ public:
 	~FindSubtitlesWindow();
 
 	void setProxy(QNetworkProxy proxy);
+	QString language();
 
 public slots:
 	void setMovie(QString filename);
+	void setLanguage(const QString & lang);
 	void refresh();
 	void download();
 	void copyLink();
+
+protected slots:
 	void applyFilter(const QString & filter);
 	void applyCurrentFilter();
 
-protected slots:
 	void showError(QString error);
 	void connecting(QString host);
 	void updateDataReadProgress(int done, int total);
