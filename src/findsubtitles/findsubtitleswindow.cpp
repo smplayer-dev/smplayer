@@ -241,6 +241,17 @@ void FindSubtitlesWindow::applyCurrentFilter() {
 	applyFilter(filter);
 }
 
+void FindSubtitlesWindow::setLanguage(const QString & lang) {
+	int idx = language_filter->findData(lang);
+	if (idx < 0) idx = 0;
+	language_filter->setCurrentIndex(idx);
+}
+
+QString FindSubtitlesWindow::language() {
+	int idx = language_filter->currentIndex();
+	return language_filter->itemData(idx).toString();
+}
+
 void FindSubtitlesWindow::showError(QString error) {
 	QMessageBox::information(this, tr("Error"),
                              tr("Download failed: %1.")
