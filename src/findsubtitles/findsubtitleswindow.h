@@ -28,6 +28,7 @@ class QSortFilterProxyModel;
 class QModelIndex;
 class QMenu;
 class QAction;
+class QSettings;
 
 #ifdef DOWNLOAD_SUBS
 class FileDownloader;
@@ -45,6 +46,9 @@ public:
 
 	void setProxy(QNetworkProxy proxy);
 	QString language();
+
+	void setSettings(QSettings * settings);
+	QSettings * settings() { return set; };
 
 public slots:
 	void setMovie(QString filename);
@@ -79,6 +83,9 @@ protected:
 	virtual void retranslateStrings();
 	virtual void changeEvent(QEvent * event);
 
+	void saveSettings();
+	void loadSettings();
+
 #ifdef DOWNLOAD_SUBS
 signals:
 	void subtitleDownloaded(const QString & filename);
@@ -101,6 +108,8 @@ protected:
 #ifdef DOWNLOAD_SUBS
 	FileDownloader * file_downloader;
 #endif
+
+	QSettings * set;
 };
 
 #endif
