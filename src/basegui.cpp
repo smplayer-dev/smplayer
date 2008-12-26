@@ -4025,6 +4025,7 @@ void BaseGui::showFindSubtitlesDialog() {
 
 	if (!find_subs_dialog) {
 		find_subs_dialog = new FindSubtitlesWindow(0, Qt::Window | Qt::WindowMinMaxButtonsHint);
+		find_subs_dialog->setSettings(Global::settings);
 		find_subs_dialog->setWindowIcon(windowIcon());
 		find_subs_dialog->setProxy( userProxy() );
 #if DOWNLOAD_SUBS
