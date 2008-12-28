@@ -3389,6 +3389,49 @@ void Core::visualizeMotionVectors(bool b) {
 	}
 }
 
+#if DVDNAV_SUPPORT
+// dvdnav buttons
+void Core::dvdnavUp() {
+	qDebug("Core::dvdnavUp");
+	tellmp("dvdnav up");
+}
+
+void Core::dvdnavDown() {
+	qDebug("Core::dvdnavDown");
+	tellmp("dvdnav down");
+}
+
+void Core::dvdnavLeft() {
+	qDebug("Core::dvdnavLeft");
+	tellmp("dvdnav left");
+}
+
+void Core::dvdnavRight() {
+	qDebug("Core::dvdnavRight");
+	tellmp("dvdnav right");
+}
+
+void Core::dvdnavMenu() {
+	qDebug("Core::dvdnavMenu");
+	tellmp("dvdnav menu");
+}
+
+void Core::dvdnavSelect() {
+	qDebug("Core::dvdnavSelect");
+	tellmp("dvdnav select");
+}
+
+void Core::dvdnavPrev() {
+	qDebug("Core::dvdnavPrev");
+	tellmp("dvdnav prev");
+}
+
+void Core::dvdnavMouse() {
+	qDebug("Core::dvdnavMouse");
+	tellmp("dvdnav mouse");
+}
+#endif
+
 void Core::displayMessage(QString text) {
 	qDebug("Core::displayMessage");
 	emit showMessage(text);

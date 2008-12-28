@@ -272,6 +272,18 @@ public slots:
 
 	void visualizeMotionVectors(bool);
 
+#if DVDNAV_SUPPORT
+	// dvdnav buttons
+	void dvdnavUp();
+	void dvdnavDown();
+	void dvdnavLeft();
+	void dvdnavRight();
+	void dvdnavMenu();
+	void dvdnavSelect();
+	void dvdnavPrev();
+	void dvdnavMouse();
+#endif
+
     // Pass a command to mplayer by stdin:
     void tellmp(const QString & command);
 
