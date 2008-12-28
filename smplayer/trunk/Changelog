@@ -1,5 +1,8 @@
 [b]Version 0.6.6[/b]:
 
+(2008-12-27)
+ * (Linux) Added some actions to control the dvdnav buttons.
+
 (2008-12-26)
  * The language filter in the find subtitles dialog is now saved to the ini 
    file.

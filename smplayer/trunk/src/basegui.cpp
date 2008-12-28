@@ -942,6 +942,35 @@ void BaseGui::createActions() {
 	chapterGroup = new MyActionGroup(this);
 	connect( chapterGroup, SIGNAL(activated(int)),
 			 core, SLOT(changeChapter(int)) );
+
+#if DVDNAV_SUPPORT
+	dvdnavUpAct = new MyAction(Qt::SHIFT | Qt::Key_Up, this, "dvdnav_up");
+	connect( dvdnavUpAct, SIGNAL(triggered()), core, SLOT(dvdnavUp()) );
+
+	dvdnavDownAct = new MyAction(Qt::SHIFT | Qt::Key_Down, this, "dvdnav_down");
+	connect( dvdnavDownAct, SIGNAL(triggered()), core, SLOT(dvdnavDown()) );
+
+	dvdnavLeftAct = new MyAction(Qt::SHIFT | Qt::Key_Left, this, "dvdnav_left");
+	connect( dvdnavLeftAct, SIGNAL(triggered()), core, SLOT(dvdnavLeft()) );
+
+	dvdnavRightAct = new MyAction(Qt::SHIFT | Qt::Key_Right, this, "dvdnav_right");
+	connect( dvdnavRightAct, SIGNAL(triggered()), core, SLOT(dvdnavRight()) );
+
+	dvdnavMenuAct = new MyAction(Qt::SHIFT | Qt::Key_Return, this, "dvdnav_menu");
+	connect( dvdnavMenuAct, SIGNAL(triggered()), core, SLOT(dvdnavMenu()) );
+
+	dvdnavSelectAct = new MyAction(Qt::Key_Return, this, "dvdnav_select");
+	connect( dvdnavSelectAct, SIGNAL(triggered()), core, SLOT(dvdnavSelect()) );
+
+	dvdnavPrevAct = new MyAction( this, "dvdnav_prev");
+	connect( dvdnavPrevAct, SIGNAL(triggered()), core, SLOT(dvdnavPrev()) );
+
+	/*
+	dvdnavMouseAct = new MyAction( this, "dvdnav_mouse");
+	connect( dvdnavMouseAct, SIGNAL(triggered()), core, SLOT(dvdnavMouse()) );
+	*/
+#endif
+
 }
 
 #if AUTODISABLE_ACTIONS
