@@ -1601,6 +1601,10 @@ void BaseGui::createCore() {
 
 	connect( core, SIGNAL(mediaLoaded()),
              this, SLOT(enableActionsOnPlaying()) );
+#if NOTIFY_SUB_CHANGES
+	connect( core, SIGNAL(audioTracksChanged()),
+             this, SLOT(enableActionsOnPlaying()) );
+#endif
 	connect( core, SIGNAL(mediaFinished()),
              this, SLOT(disableActionsOnStop()) );
 	connect( core, SIGNAL(mediaStoppedByUser()),

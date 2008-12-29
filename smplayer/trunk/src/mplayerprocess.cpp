@@ -34,6 +34,10 @@ MplayerProcess::MplayerProcess(QObject * parent) : MyProcess(parent)
 	qRegisterMetaType<SubTracks>("SubTracks");
 #endif
 
+#if NOTIFY_AUDIO_CHANGES
+	qRegisterMetaType<Tracks>("Tracks");
+#endif
+
 	connect( this, SIGNAL(lineAvailable(QByteArray)),
 			 this, SLOT(parseLine(QByteArray)) );
 
@@ -60,9 +64,13 @@ bool MplayerProcess::start() {
 
 #if NOTIFY_SUB_CHANGES
 	subs.clear();
-
 	subtitle_info_received = false;
 	subtitle_info_changed = false;
+#endif
+
+#if NOTIFY_AUDIO_CHANGES
+	audios.clear();
+	audio_info_changed = false;
 #endif
 
 #if GENERIC_CHAPTER_SUPPORT
@@ -85,7 +93,9 @@ void MplayerProcess::writeToStdin(QString text) {
 static QRegExp rx_av("^[AV]: *([0-9,:.-]+)");
 static QRegExp rx_frame("^[AV]:.* (\\d+)\\/.\\d+");// [0-9,.]+");
 static QRegExp rx("^(.*)=(.*)");
+#if !NOTIFY_AUDIO_CHANGES
 static QRegExp rx_audio_mat("^ID_AID_(\\d+)_(LANG|NAME)=(.*)");
+#endif
 static QRegExp rx_video("^ID_VID_(\\d+)_(LANG|NAME)=(.*)");
 static QRegExp rx_title("^ID_DVD_TITLE_(\\d+)_(LENGTH|CHAPTERS|ANGLES)=(.*)");
 static QRegExp rx_winresolution("^VO: \\[(.*)\\] (\\d+)x(\\d+) => (\\d+)x(\\d+)");
@@ -116,6 +126,12 @@ static QRegExp rx_cdda("^ID_CDDA_TRACK_(\\d+)_MSF=(.*)");
 static QRegExp rx_subtitle("^ID_(SUBTITLE|FILE_SUB|VOBSUB)_ID=(\\d+)");
 static QRegExp rx_sid("^ID_(SID|VSID)_(\\d+)_(LANG|NAME)=(.*)");
 static QRegExp rx_subtitle_file("^ID_FILE_SUB_FILENAME=(.*)");
+
+// Audio
+#if NOTIFY_AUDIO_CHANGES
+static QRegExp rx_audio("^ID_AUDIO_ID=(\\d+)");
+static QRegExp rx_audio_info("^ID_AID_(\\d+)_(LANG|NAME)=(.*)");
+#endif
 
 //Clip info
 static QRegExp rx_clip_name("^ (name|title): (.*)", Qt::CaseInsensitive);
@@ -163,6 +179,16 @@ void MplayerProcess::parseLine(QByteArray ba) {
 				qDebug("MplayerProcess::parseLine: subtitle_info_received");
 				subtitle_info_received = false;
 				emit subtitleInfoReceivedAgain(subs);
+			}
+		}
+#endif
+
+#if NOTIFY_AUDIO_CHANGES
+		if (notified_mplayer_is_running) {
+			if (audio_info_changed) {
+				qDebug("MplayerProcess::parseLine: audio_info_changed");
+				audio_info_changed = false;
+				emit audioInfoChanged(audios);
 			}
 		}
 #endif
@@ -293,6 +319,51 @@ void MplayerProcess::parseLine(QByteArray ba) {
 		}
 #endif
 
+#if NOTIFY_AUDIO_CHANGES
+		// Audio
+		if (rx_audio.indexIn(line) > -1) {
+			int ID = rx_audio.cap(1).toInt();
+			qDebug("MplayerProcess::parseLine: ID_AUDIO_ID: %d", ID);
+			if (audios.find(ID) == -1) audio_info_changed = true;
+			audios.addID( ID );
+		}
+
+		if (rx_audio_info.indexIn(line) > -1) {
+			int ID = rx_audio_info.cap(1).toInt();
+			QString lang = rx_audio_info.cap(3);
+			QString t = rx_audio_info.cap(2);
+			qDebug("MplayerProcess::parseLine: Audio: ID: %d, Lang: '%s' Type: '%s'", 
+                    ID, lang.toUtf8().data(), t.toUtf8().data());
+
+			int idx = audios.find(ID);
+			if (idx == -1) {
+				qDebug("MplayerProcess::parseLine: audio %d doesn't exist, adding it", ID);
+
+				audio_info_changed = true;
+				if ( t == "NAME" ) 
+					audios.addName(ID, lang);
+				else
+					audios.addLang(ID, lang);
+			} else {
+				qDebug("MplayerProcess::parseLine: audio %d exists, modifing it", ID);
+
+				if (t == "NAME") {
+					//qDebug("MplayerProcess::parseLine: name of audio %d: %s", ID, audios.itemAt(idx).name().toUtf8().constData());
+					if (audios.itemAt(idx).name() != lang) {
+						audio_info_changed = true;
+						audios.addName(ID, lang);
+					}
+				} else {
+					//qDebug("MplayerProcess::parseLine: language of audio %d: %s", ID, audios.itemAt(idx).lang().toUtf8().constData());
+					if (audios.itemAt(idx).lang() != lang) {
+						audio_info_changed = true;
+						audios.addLang(ID, lang);
+					}
+				}
+			}
+		}
+#endif
+
 		// The following things are not sent when the file has started to play
 		// (or if sent, smplayer will ignore anyway...)
 		// So not process anymore, if video is playing to save some time
@@ -329,6 +400,7 @@ void MplayerProcess::parseLine(QByteArray ba) {
 		}
 		else
 
+#if !NOTIFY_AUDIO_CHANGES
 		// Matroska audio
 		if (rx_audio_mat.indexIn(line) > -1) {
 			int ID = rx_audio_mat.cap(1).toInt();
@@ -343,6 +415,7 @@ void MplayerProcess::parseLine(QByteArray ba) {
 				md.audios.addLang(ID, lang);
 		}
 		else
+#endif
 
 		// Video tracks
 		if (rx_video.indexIn(line) > -1) {
@@ -567,6 +640,7 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			value = rx.cap(2);
 			//qDebug("MplayerProcess::parseLine: tag: %s, value: %s", tag.toUtf8().data(), value.toUtf8().data());
 
+#if !NOTIFY_AUDIO_CHANGES
 			// Generic audio
 			if (tag == "ID_AUDIO_ID") {
 				int ID = value.toInt();
@@ -574,6 +648,8 @@ void MplayerProcess::parseLine(QByteArray ba) {
 				md.audios.addID( ID );
 			}
 			else
+#endif
+
 			// Video
 			if (tag == "ID_VIDEO_ID") {
 				int ID = value.toInt();

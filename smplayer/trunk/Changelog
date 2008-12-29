@@ -4,6 +4,8 @@
  * (Linux) Now the options in the dvd menus can be selected with the mouse.
    To do so, select "Activate option in DVD menus" for the left mouse button
    in Preferences -> Keyboard and mouse.
+ * Implemented a different way to select the initial audio track (or restore
+   the old one after a restart). 
 
 (2008-12-27)
  * (Linux) Added some actions to control the dvdnav buttons.

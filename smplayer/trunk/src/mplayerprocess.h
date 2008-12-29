@@ -25,6 +25,7 @@
 #include "config.h"
 
 #define NOTIFY_SUB_CHANGES 1
+#define NOTIFY_AUDIO_CHANGES 1
 
 class QStringList;
 
@@ -74,6 +75,10 @@ signals:
 	//! Emitted when subtitle info has been received but there wasn't anything new
 	void subtitleInfoReceivedAgain(const SubTracks &);
 #endif
+#if NOTIFY_AUDIO_CHANGES
+	//! Emitted if a new audio track been added or an old one changed
+    void audioInfoChanged(const Tracks &);
+#endif
 
 protected slots:
 	void parseLine(QByteArray ba);
@@ -95,6 +100,11 @@ private:
 
 	bool subtitle_info_received;
 	bool subtitle_info_changed;
+#endif
+
+#if NOTIFY_AUDIO_CHANGES
+	Tracks audios;
+	bool audio_info_changed;
 #endif
 
 #if GENERIC_CHAPTER_SUPPORT
