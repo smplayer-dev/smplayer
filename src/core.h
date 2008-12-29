@@ -332,6 +332,9 @@ protected slots:
 #if DELAYED_AUDIO_SETUP_ON_STARTUP
 	void initAudioTrack();
 #endif
+#if NOTIFY_AUDIO_CHANGES
+	void initAudioTrack(const Tracks &);
+#endif
 #if NOTIFY_SUB_CHANGES
 	void initSubtitleTrack(const SubTracks &);
 	void setSubtitleTrackAgain(const SubTracks &);
@@ -383,6 +386,9 @@ signals:
 	void needResize(int w, int h);
 	void noVideo();
 	void volumeChanged(int);
+#if NOTIFY_SUB_CHANGES
+	void audioTracksChanged();
+#endif
 
 	//! MPlayer started but finished with exit code != 0
 	void mplayerFinishedWithError(int exitCode);

@@ -77,7 +77,7 @@
 // if 1, the audio track will be initialized later once the file
 // has begun to play
 
-#define DELAYED_AUDIO_SETUP_ON_STARTUP 1
+#define DELAYED_AUDIO_SETUP_ON_STARTUP 0
 
 
 // CHECK_VIDEO_CODEC_FOR_NO_VIDEO

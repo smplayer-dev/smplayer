@@ -158,6 +158,10 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	connect( proc, SIGNAL(subtitleInfoReceivedAgain(const SubTracks &)), 
              this, SLOT(setSubtitleTrackAgain(const SubTracks &)), Qt::QueuedConnection );
 #endif
+#if NOTIFY_AUDIO_CHANGES
+	connect( proc, SIGNAL(audioInfoChanged(const Tracks &)), 
+             this, SLOT(initAudioTrack(const Tracks &)), Qt::QueuedConnection );
+#endif
 	
 	connect( this, SIGNAL(stateChanged(Core::State)), 
 	         this, SLOT(watchState(Core::State)) );
@@ -777,7 +781,7 @@ void Core::newMediaPlaying() {
 		changeVideo( mdat.videos.itemAt(0).ID(), false ); // Don't allow to restart
 	}
 
-#if !DELAYED_AUDIO_SETUP_ON_STARTUP
+#if !DELAYED_AUDIO_SETUP_ON_STARTUP && !NOTIFY_AUDIO_CHANGES
 	// First audio if none selected
 	if ( (mset.current_audio_id == MediaSettings::NoneSelected) && 
          (mdat.audios.numItems() > 0) ) 
@@ -3561,6 +3565,10 @@ void Core::checkIfVideoIsHD() {
 	}
 }
 
+#if DELAYED_AUDIO_SETUP_ON_STARTUP && NOTIFY_AUDIO_CHANGES
+#error "DELAYED_AUDIO_SETUP_ON_STARTUP and NOTIFY_AUDIO_CHANGES can't be both defined"
+#endif
+
 #if DELAYED_AUDIO_SETUP_ON_STARTUP
 void Core::initAudioTrack() {
 	qDebug("Core::initAudioTrack");
@@ -3585,6 +3593,50 @@ void Core::initAudioTrack() {
 
 		changeAudio( audio );
 	}
+}
+#endif
+
+#if NOTIFY_AUDIO_CHANGES
+void Core::initAudioTrack(const Tracks & audios) {
+	qDebug("Core::initAudioTrack");
+
+	qDebug("Core::initAudioTrack: num_items: %d", mdat.audios.numItems());
+
+	bool restore_audio = ((mdat.audios.numItems() > 0) || 
+                          (mset.current_audio_id != MediaSettings::NoneSelected));
+
+	mdat.audios = audios;
+
+	qDebug("Core::initAudioTrack: list of audios:");
+	mdat.audios.list();
+
+	initializeMenus();
+
+	if (!restore_audio) {
+		// Select initial track
+		qDebug("Core::initAudioTrack: selecting initial track");
+
+		int audio = mdat.audios.itemAt(0).ID(); // First one
+		if (mdat.audios.existsItemAt(pref->initial_audio_track-1)) {
+			audio = mdat.audios.itemAt(pref->initial_audio_track-1).ID();
+		}
+
+		// Check if one of the audio tracks is the user preferred.
+		if (!pref->audio_lang.isEmpty()) {
+			int res = mdat.audios.findLang( pref->audio_lang );
+			if (res != -1) audio = res;
+		}
+
+		changeAudio( audio );
+	} else {
+		// Try to restore previous audio track
+		qDebug("Core::initAudioTrack: restoring audio");
+		// Nothing to do, the audio is already set with -aid
+	}
+
+	updateWidgets();
+
+	emit audioTracksChanged();
 }
 #endif
 
