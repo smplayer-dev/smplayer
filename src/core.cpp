@@ -3428,6 +3428,10 @@ void Core::dvdnavPrev() {
 
 void Core::dvdnavMouse() {
 	qDebug("Core::dvdnavMouse");
+
+	QPoint p = mplayerwindow->videoLayer()->mapFromGlobal(QCursor::pos());
+
+	tellmp(QString("set_mouse_pos %1 %2").arg(p.x()).arg(p.y()));
 	tellmp("dvdnav mouse");
 }
 #endif

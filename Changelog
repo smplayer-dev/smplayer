@@ -1,5 +1,10 @@
 [b]Version 0.6.6[/b]:
 
+(2008-12-28)
+ * (Linux) Now the options in the dvd menus can be selected with the mouse.
+   To do so, select "Activate option in DVD menus" for the left mouse button
+   in Preferences -> Keyboard and mouse.
+
 (2008-12-27)
  * (Linux) Added some actions to control the dvdnav buttons.
 

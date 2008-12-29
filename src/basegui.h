@@ -560,7 +560,7 @@ protected:
 	MyAction * dvdnavMenuAct;
 	MyAction * dvdnavSelectAct;
 	MyAction * dvdnavPrevAct;
-	/* MyAction * dvdnavMouseAct; */
+	MyAction * dvdnavMouseAct;
 #endif
 
 	// MENUS
