@@ -20,7 +20,7 @@
 #include "prefinput.h"
 #include "images.h"
 #include "preferences.h"
-
+#include "config.h"
 #include "guiconfig.h"
 
 PrefInput::PrefInput(QWidget * parent, Qt::WindowFlags f)
@@ -83,6 +83,9 @@ void PrefInput::createMouseCombos() {
 	left_click_combo->addItem( tr("Show video equalizer"), "video_equalizer" );
 	left_click_combo->addItem( tr("Show audio equalizer"), "audio_equalizer" );
 	left_click_combo->addItem( tr("Show context menu"), "show_context_menu" );
+#if DVDNAV_SUPPORT
+	left_click_combo->addItem( tr("Activate option in DVD menus"), "dvdnav_mouse" );
+#endif
 
 	// Copy to other combos
 	for (int n=0; n < left_click_combo->count(); n++) {

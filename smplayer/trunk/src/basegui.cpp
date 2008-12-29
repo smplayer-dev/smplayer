@@ -965,10 +965,8 @@ void BaseGui::createActions() {
 	dvdnavPrevAct = new MyAction( this, "dvdnav_prev");
 	connect( dvdnavPrevAct, SIGNAL(triggered()), core, SLOT(dvdnavPrev()) );
 
-	/*
 	dvdnavMouseAct = new MyAction( this, "dvdnav_mouse");
 	connect( dvdnavMouseAct, SIGNAL(triggered()), core, SLOT(dvdnavMouse()) );
-	*/
 #endif
 
 }
