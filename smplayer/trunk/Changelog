@@ -6,6 +6,7 @@
    in Preferences -> Keyboard and mouse.
  * Implemented a different way to select the initial audio track (or restore
    the old one after a restart). 
+ * (Experimental) New code to show/hide the mouse cursor in the video window.
 
 (2008-12-27)
  * (Linux) Added some actions to control the dvdnav buttons.

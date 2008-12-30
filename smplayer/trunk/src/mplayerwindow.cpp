@@ -43,12 +43,20 @@ Screen::Screen(QWidget* parent, Qt::WindowFlags f) : QWidget(parent, f )
 	setFocusPolicy( Qt::NoFocus );
 	setMinimumSize( QSize(0,0) );
 
+#if NEW_MOUSE_CHECK_POS
+	mouse_last_position = QPoint(0,0);
+#else
 	cursor_pos = QPoint(0,0);
 	last_cursor_pos = QPoint(0,0);
+#endif
 
 	QTimer *timer = new QTimer(this);
 	connect( timer, SIGNAL(timeout()), this, SLOT(checkMousePos()) );
+#if NEW_MOUSE_CHECK_POS
+	timer->start(500);
+#else
 	timer->start(2000);
+#endif
 
 	// Change attributes
 	setAttribute(Qt::WA_NoSystemBackground);
@@ -69,7 +77,19 @@ void Screen::paintEvent( QPaintEvent * e ) {
 	//painter.fillRect( e->rect(), QColor(255,0,0) );
 }
 
+#if NEW_MOUSE_CHECK_POS
+void Screen::checkMousePos() {
+	//qDebug("Screen::checkMousePos");
+	QPoint pos = mapFromGlobal(QCursor::pos());
 
+	if (mouse_last_position != pos) {
+		setCursor(QCursor(Qt::ArrowCursor));
+	} else {
+		setCursor(QCursor(Qt::BlankCursor));
+	}
+	mouse_last_position = pos;
+}
+#else
 void Screen::checkMousePos() {
 	//qDebug("Screen::checkMousePos");
 	
@@ -94,6 +114,7 @@ void Screen::mouseMoveEvent( QMouseEvent * e ) {
 		setCursor(QCursor(Qt::ArrowCursor));
 	}
 }
+#endif
 
 /* ---------------------------------------------------------------------- */
 
