@@ -1,3 +1,28 @@
+Version 0.6.6.
+
+Most important changes since 0.6.5:
+
+* Added an option to generate a preview (thumbnails) of the video.
+* Added a new gui (mpcgui, a media player classic clone) developed by 
+  Matthias Petri.
+* Added some auto zoom options, to display the video without black borders.
+* Implemented a new (and optional) method to save the file settings.
+  This method uses an ini file per each played file. It's faster than the old
+  one.
+* Added a new option in Preferences->Video: add black borders on
+  fullscreen. If this option is enabled, black borders will be added to
+  the image in fullscreen mode. This allows subtitles to be displayed on
+  the black borders.
+* Increased the resolution of the seekbar. Allows a more accurate seeking.
+* Added 3 modes for the stay on top option: always, never and while playing.
+* Added a history to the open URL dialog.
+* Added new action to cycle through all aspect ratios. Assigned by default to 
+  key "A".
+* It's possible to run some specified actions every time a file is loaded.
+* Possibility to set up a proxy for internet connections (used for subtitle
+  downloading).
+
+
 Version 0.6.5.
 
 Most important changes since 0.6.4:
