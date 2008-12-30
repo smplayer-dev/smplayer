@@ -41,6 +41,7 @@ class QTimer;
 #define ZOOM_MIN 0.5
 
 #define DELAYED_RESIZE 0
+#define NEW_MOUSE_CHECK_POS 1
 
 //! Screen is a widget that hides the mouse cursor after some seconds if not moved.
 
@@ -53,14 +54,20 @@ public:
 	~Screen();
 
 protected:
+#if !NEW_MOUSE_CHECK_POS
 	virtual void mouseMoveEvent( QMouseEvent * e );
+#endif
 	virtual void paintEvent ( QPaintEvent * e );
 
 protected slots:
 	virtual void checkMousePos();
 
 private:
+#if NEW_MOUSE_CHECK_POS
+	QPoint mouse_last_position;
+#else
 	QPoint cursor_pos, last_cursor_pos;
+#endif
 };
 
 //! MplayerLayer can be instructed to not delete the background.
