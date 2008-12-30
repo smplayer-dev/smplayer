@@ -3564,7 +3564,7 @@ void BaseGui::dropEvent( QDropEvent *e ) {
 }
 
 void BaseGui::showPopupMenu() {
-	showPopupMenu(mplayerwindow->mapToGlobal(mplayerwindow->mousePosition()));
+	showPopupMenu(QCursor::pos());
 }
 
 void BaseGui::showPopupMenu( QPoint p ) {

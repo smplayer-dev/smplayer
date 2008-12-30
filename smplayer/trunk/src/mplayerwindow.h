@@ -142,8 +142,6 @@ public:
 	void allowVideoMovement(bool b) { allow_video_movement = b; };
 	bool isVideoMovementAllowed() { return allow_video_movement; };
 
-	QPoint mousePosition() { return mouse_position; };
-
 	virtual QSize sizeHint () const;
 	virtual QSize minimumSizeHint() const;
 
@@ -203,8 +201,6 @@ protected:
 	int orig_width, orig_height;
 
 	bool allow_video_movement;
-
-	QPoint mouse_position;
 
 #if DELAYED_RESIZE
 	QTimer * resize_timer;

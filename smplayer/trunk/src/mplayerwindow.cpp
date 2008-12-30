@@ -395,8 +395,6 @@ bool MplayerWindow::eventFilter( QObject * /*watched*/, QEvent * event ) {
          (event->type() == QEvent::MouseButtonRelease) ) 
 	{
 		QMouseEvent *mouse_event = static_cast<QMouseEvent *>(event);
-		mouse_position = mouse_event->pos();
-		//qDebug("pos: %d %d", mouse_position.x(), mouse_position.y());
 
 		if (event->type() == QEvent::MouseMove) {
 			emit mouseMoved(mouse_event->pos());
