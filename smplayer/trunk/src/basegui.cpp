@@ -962,7 +962,7 @@ void BaseGui::createActions() {
 	dvdnavSelectAct = new MyAction(Qt::Key_Return, this, "dvdnav_select");
 	connect( dvdnavSelectAct, SIGNAL(triggered()), core, SLOT(dvdnavSelect()) );
 
-	dvdnavPrevAct = new MyAction( this, "dvdnav_prev");
+	dvdnavPrevAct = new MyAction(Qt::SHIFT | Qt::Key_Escape, this, "dvdnav_prev");
 	connect( dvdnavPrevAct, SIGNAL(triggered()), core, SLOT(dvdnavPrev()) );
 
 	dvdnavMouseAct = new MyAction( this, "dvdnav_mouse");
