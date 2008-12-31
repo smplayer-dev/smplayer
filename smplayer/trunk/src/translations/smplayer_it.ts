@@ -275,12 +275,12 @@
     <message>
         <location filename="../about.cpp" line="209"/>
         <source>%1, %2, %3 and %4</source>
-        <translation type="unfinished"></translation>
+        <translation>%1, %2, %3 e %4</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="210"/>
         <source>%1, %2, %3, %4 and %5</source>
-        <translation type="unfinished"></translation>
+        <translation>%1, %2, %3, %4 e %5</translation>
     </message>
 </context>
 <context>
@@ -1446,12 +1446,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="1213"/>
         <source>Zoom for &amp;16:9</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoom per &amp;16:9</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1214"/>
         <source>Zoom for &amp;2.35:1</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoom per &amp;2,35:1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1205"/>
@@ -1461,17 +1461,17 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="1442"/>
         <source>&amp;Always</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sempre</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1443"/>
         <source>&amp;Never</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mai</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1444"/>
         <source>While &amp;playing</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Durante la riproduzione</translation>
     </message>
 </context>
 <context>
@@ -2769,7 +2769,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="192"/>
         <source>Twi</source>
-        <translation></translation>
+        <translation>Twi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="194"/>
@@ -2799,17 +2799,17 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="202"/>
         <source>Wolof</source>
-        <translation></translation>
+        <translation>Wolof</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="203"/>
         <source>Xhosa</source>
-        <translation></translation>
+        <translation>Xhosa</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="204"/>
         <source>Yiddish</source>
-        <translation></translation>
+        <translation>Yiddish</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="205"/>
@@ -2829,7 +2829,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="208"/>
         <source>Zulu</source>
-        <translation></translation>
+        <translation>Zulu</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="236"/>
@@ -3819,7 +3819,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="150"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
-        <translation>Ridisegna lo sfon&amp;do della finestra video</translation>
+        <translation>Ridisegna lo &amp;sfondo della finestra video</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="495"/>
@@ -3994,7 +3994,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="78"/>
         <source>Socks5</source>
-        <translation type="unfinished"></translation>
+        <translation>SOCKS 5</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="517"/>
@@ -4049,7 +4049,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="433"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ricostruisce l&apos;indice dei file se non ne viene trovato uno, permettendo le ricerche temporali. Utile con download corrotti/incompleti o file creati male. Questa opzione funziona solo se il tipo di file supporta le ricerche temporali (ad es. no stdin, pipe etc.) &lt;br&gt; &lt;b&gt;Nota:&lt;/b&gt; la creazione dell&apos;indice può richiedere un certo tempo.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="515"/>
@@ -5232,17 +5232,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="71"/>
         <source>Always on top</source>
-        <translation type="unfinished"></translation>
+        <translation>Sempre in primo piano</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="72"/>
         <source>Never on top</source>
-        <translation type="unfinished"></translation>
+        <translation>Mai in primo piano</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="73"/>
         <source>On top while playing</source>
-        <translation type="unfinished"></translation>
+        <translation>In primo piano durante la riproduzione</translation>
     </message>
 </context>
 <context>
@@ -6003,7 +6003,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="240"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished"></translation>
+        <translation>Definisce la priorità del processo per mplayer a seconda delle priorità predefinite disponibili in Windows. &lt;br&gt;&lt;b&gt;Attenzione:&lt;/b&gt; Usare la priorità realtime può causare blocchi al sistema.</translation>
     </message>
 </context>
 <context>
@@ -6026,7 +6026,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="86"/>
         <source>Add consecutive files</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="89"/>
@@ -6319,7 +6319,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="449"/>
         <source>Select the font for the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleziona il carattere per i sottotitoli.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="452"/>
@@ -6334,7 +6334,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="455"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se attivato, il testo sarà visualizzato in &lt;b&gt;grassetto&lt;/b&gt;.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="457"/>
@@ -6662,7 +6662,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="386"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Con questa opzione abilitata, i sottotitoli appariranno negli screenshot. &lt;b&gt;Nota:&lt;/b&gt; può causare dei problemi delle volte.</translation>
     </message>
 </context>
 <context>
@@ -7041,7 +7041,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="222"/>
         <source>Creating thumbnails...</source>
-        <translation type="unfinished"></translation>
+        <translation>Creazione miniature...</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="387"/>
@@ -7081,7 +7081,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="179"/>
         <source>The following error has occurred while creating the thumbnails:</source>
-        <translation type="unfinished"></translation>
+        <translation>L&apos;errore seguente si è verificato durante la creazione delle miniature:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="205"/>
@@ -7131,22 +7131,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="196"/>
         <source>The length of the video is 0</source>
-        <translation type="unfinished"></translation>
+        <translation>La durata del video è 0</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="240"/>
         <source>The file %1 doesn&apos;t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>Il file %1 non esiste</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="524"/>
         <source>Images</source>
-        <translation type="unfinished"></translation>
+        <translation>Immagini</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="376"/>
         <source>No info</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="380"/>
@@ -7156,7 +7156,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="381"/>
         <source>%1 Hz</source>
-        <translation type="unfinished">%1 Hz</translation>
+        <translation>%1 Hz</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="397"/>
@@ -7219,67 +7219,67 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="40"/>
         <source>The preview will be created for the video you specify here.</source>
-        <translation type="unfinished"></translation>
+        <translation>L&apos;anteprima sarà creata per il video qui specificato.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="43"/>
         <source>The thumbnails will be arranged on a table.</source>
-        <translation type="unfinished"></translation>
+        <translation>Le miniature saranno disposte su una tabella.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="42"/>
         <source>This option specifies the number of columns of the table.</source>
-        <translation type="unfinished"></translation>
+        <translation>Questa opzione specifica il numero di colonne della tabella.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="43"/>
         <source>This option specifies the number of rows of the table.</source>
-        <translation type="unfinished"></translation>
+        <translation>Questa opzione specifica il numero di righe della tabella.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="44"/>
         <source>If you check this option, the playing time will be displayed at the bottom of each thumbnail.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se si abilita questa opzione, il tempo di riproduzione sarà mostrato sul fondo di ogni miniatura.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="45"/>
         <source>If the aspect ratio of the video is wrong, you can specify a different one here.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se il rapporto d&apos;aspetto del video è errato, se ne può specificare un&apos;altro qui.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
         <source>Usually the first frames are black, so it&apos;s a good idea to skip some seconds at the beginning of the video. This option allows to specify how many seconds will be skipped.</source>
-        <translation type="unfinished"></translation>
+        <translation>In genere i primi fotogrammi sono neri, così è una buona idea saltare alcuni secondi all&apos;inizio del video. L&apos;opzione permette di specificare quanti secondi verranno saltati.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
         <source>This option specifies the maximum width in pixels that the generated preview image will have.</source>
-        <translation type="unfinished"></translation>
+        <translation>Questa opzione specifica la massima larghezza in pixel che l&apos;immagine d&apos;anteprima generata avrà.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="50"/>
         <source>Some frames will be extracted from the video in order to create the preview. Here you can choose the image format for the extracted frames. PNG may give better quality.</source>
-        <translation type="unfinished"></translation>
+        <translation>Alcuni fotogrammi saranno estratti dal video per creare l&apos;anteprima. Il formato immagine per i fotogrammi estratti può essere scelto qui. PNG può fornire miglior qualità.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="113"/>
         <source>Add playing &amp;time to thumbnails</source>
-        <translation type="unfinished"></translation>
+        <translation>Aggiungi &amp;tempo di riproduzione nelle minuature</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="245"/>
         <source>&amp;Extract frames as</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Estrai fotogrammi come</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="41"/>
         <source>Enter here the DVD device or a folder with a DVD image.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inserire qui il dispositivo DVD o una cartella con l&apos;immagine del DVD.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="38"/>
         <source>&amp;DVD device:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dispositivo DVD:</translation>
     </message>
 </context>
 <context>
