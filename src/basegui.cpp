@@ -103,6 +103,7 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	/* Disable screensaver by event */
 	just_stopped = false;
 #endif
+	ignore_show_hide_events = false;
 
 	setWindowTitle( "SMPlayer" );
 
@@ -3837,6 +3838,8 @@ void BaseGui::setStayOnTop(bool b) {
 		return;
 	}
 
+	ignore_show_hide_events = true;
+
 	bool visible = isVisible();
 
 	QPoint old_pos = pos();
@@ -3853,6 +3856,8 @@ void BaseGui::setStayOnTop(bool b) {
 	if (visible) {
 		show();
 	}
+
+	ignore_show_hide_events = false;
 }
 
 void BaseGui::changeStayOnTop(int stay_on_top) {
@@ -3978,6 +3983,8 @@ void BaseGui::saveActions() {
 void BaseGui::showEvent( QShowEvent * ) {
 	qDebug("BaseGui::showEvent");
 
+	if (ignore_show_hide_events) return;
+
 	//qDebug("BaseGui::showEvent: pref->pause_when_hidden: %d", pref->pause_when_hidden);
 	if ((pref->pause_when_hidden) && (core->state() == Core::Paused)) {
 		qDebug("BaseGui::showEvent: unpausing");
@@ -3987,6 +3994,8 @@ void BaseGui::showEvent( QShowEvent * ) {
 
 void BaseGui::hideEvent( QHideEvent * ) {
 	qDebug("BaseGui::hideEvent");
+
+	if (ignore_show_hide_events) return;
 
 	//qDebug("BaseGui::hideEvent: pref->pause_when_hidden: %d", pref->pause_when_hidden);
 	if ((pref->pause_when_hidden) && (core->state() == Core::Playing)) {

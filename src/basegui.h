@@ -641,6 +641,8 @@ private:
 
 	QString mplayer_log;
 	QString smplayer_log;
+
+	bool ignore_show_hide_events;
 };
     
 #endif
