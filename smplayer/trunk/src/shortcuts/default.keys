@@ -35,7 +35,7 @@ fullscreen	F
 compact	Ctrl+C
 video_equalizer	Ctrl+E
 screenshot	S
-on_top	
+video_preview	
 flip	
 mirror	
 postprocessing	
@@ -159,6 +159,17 @@ rotate_clockwise_flip
 rotate_clockwise	
 rotate_counterclockwise	
 rotate_counterclockwise_flip	
+on_top_always	
+on_top_never	
+on_top_playing	
+dvdnav_up	Shift+Up
+dvdnav_down	Shift+Down
+dvdnav_left	Shift+Left
+dvdnav_right	Shift+Right
+dvdnav_menu	Shift+Return
+dvdnav_select	Return
+dvdnav_prev	Shift+Esc
+dvdnav_mouse	
 quit	
 show_tray_icon	
 restore/hide	
