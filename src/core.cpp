@@ -1666,17 +1666,19 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 	}
 
-	if (pref->use_correct_pts) {
-		proc->addArgument("-correct-pts");
-	} else {
-		if (pref->mplayer_detected_version > 0) {
-			if (MplayerVersion::isMplayerAtLeast(26842)) {
-				proc->addArgument("-nocorrect-pts");
-			} else {
-				proc->addArgument("-no-correct-pts");
-			}
+	if (pref->use_correct_pts != Preferences::Detect) {
+		if (pref->use_correct_pts == Preferences::Enabled) {
+			proc->addArgument("-correct-pts");
 		} else {
-			qDebug("Core::startMplayer: unknown version of mplayer, not passing -no(-)correct-pts");
+			if (pref->mplayer_detected_version > 0) {
+				if (MplayerVersion::isMplayerAtLeast(26842)) {
+					proc->addArgument("-nocorrect-pts");
+				} else {
+					proc->addArgument("-no-correct-pts");
+				}
+			} else {
+				qDebug("Core::startMplayer: unknown version of mplayer, not passing -no(-)correct-pts");
+			}
 		}
 	}
 

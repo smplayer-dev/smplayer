@@ -288,12 +288,12 @@ bool PrefAdvanced::useIdx() {
 	return idx_check->isChecked();
 }
 
-void PrefAdvanced::setUseCorrectPts(bool b) {
-	correct_pts_check->setChecked(b);
+void PrefAdvanced::setUseCorrectPts(Preferences::OptionState value) {
+	correct_pts_combo->setState(value);
 }
 
-bool PrefAdvanced::useCorrectPts() {
-	return correct_pts_check->isChecked();
+Preferences::OptionState PrefAdvanced::useCorrectPts() {
+	return correct_pts_combo->state();
 }
 
 void PrefAdvanced::setActionsToRun(QString actions) {
@@ -432,7 +432,7 @@ void PrefAdvanced::createHelp() {
            "seeking (i.e. not with stdin, pipe, etc).<br> "
            "<b>Note:</b> the creation of the index may take some time.") );
 
-	setWhatsThis(correct_pts_check, tr("Correct pts"),
+	setWhatsThis(correct_pts_combo, tr("Correct pts"),
 		tr("Switches MPlayer to an experimental mode where timestamps for "
            "video frames are calculated differently and video filters which "
            "add new frames or modify timestamps of existing ones are "

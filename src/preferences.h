@@ -235,7 +235,7 @@ public:
 	//! in mplayer svn r27665.
 	bool use_pausing_keep_force;
 
-	bool use_correct_pts; //!< Pass -correct-pts to mplayer
+	OptionState use_correct_pts; //!< Pass -correct-pts to mplayer
 
 	QString actions_to_run; //!< List of actions to run every time a video loads.
 

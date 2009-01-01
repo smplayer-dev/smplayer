@@ -1,3 +1,11 @@
+[b]Version 0.6.7[/b]:
+
+(2008-12-31)
+ * Now the correct pts option can have a value of "auto". In this case
+   neither -correct-pts nor -nocorrect-pts are passed to mplayer, the demuxer
+   will decide. Should fix bug #2479566.
+
+
 [b]Version 0.6.6[/b]:
 
 (2008-12-28)
