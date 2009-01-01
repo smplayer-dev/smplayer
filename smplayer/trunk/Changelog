@@ -4,6 +4,8 @@
  * Now the correct pts option can have a value of "auto". In this case
    neither -correct-pts nor -nocorrect-pts are passed to mplayer, the demuxer
    will decide. Should fix bug #2479566.
+ * The proxy settings have been moved to a config dialog inside the find
+   subtitles window.
 
 
 [b]Version 0.6.6[/b]:

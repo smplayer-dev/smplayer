@@ -92,6 +92,7 @@ HEADERS += guiconfig.h \
 	timedialog.h \
 	findsubtitles/simplehttp.h \
 	findsubtitles/osparser.h \
+	findsubtitles/findsubtitlesconfigdialog.h \
 	findsubtitles/findsubtitleswindow.h \
 	videopreview/videopreview.h \
 	videopreview/videopreviewconfigdialog.h \
@@ -181,6 +182,7 @@ SOURCES	+= version.cpp \
 	timedialog.cpp \
 	findsubtitles/simplehttp.cpp \
 	findsubtitles/osparser.cpp \
+	findsubtitles/findsubtitlesconfigdialog.cpp \
 	findsubtitles/findsubtitleswindow.cpp \
 	videopreview/videopreview.cpp \
 	videopreview/videopreviewconfigdialog.cpp \
@@ -210,7 +212,7 @@ FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
         prefplaylist.ui \
         about.ui inputmplayerversion.ui errordialog.ui timedialog.ui \
         playlistpreferences.ui filechooser.ui \
-        findsubtitles/findsubtitleswindow.ui \
+        findsubtitles/findsubtitleswindow.ui findsubtitles/findsubtitlesconfigdialog.ui \
         videopreview/videopreviewconfigdialog.ui
 
 TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_de.ts \

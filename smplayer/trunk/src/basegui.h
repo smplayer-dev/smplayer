@@ -299,9 +299,6 @@ protected:
 	void configureDiscDevices();
 	/* virtual void closeEvent( QCloseEvent * e ); */
 
-	//! Returns a proxy created from the user's preferences
-	QNetworkProxy userProxy();
-
 protected:
 	virtual void wheelEvent( QWheelEvent * e ) ;
 
