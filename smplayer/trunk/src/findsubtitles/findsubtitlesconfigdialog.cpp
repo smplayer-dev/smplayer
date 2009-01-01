@@ -27,6 +27,15 @@ FindSubtitlesConfigDialog::FindSubtitlesConfigDialog( QWidget* parent, Qt::Windo
 	proxy_type_combo->addItem( tr("Http"), QNetworkProxy::HttpProxy);
 	proxy_type_combo->addItem( tr("Socks5"), QNetworkProxy::Socks5Proxy);
 
+	use_proxy_check->setWhatsThis( tr("Enable/disable the use of the proxy.") );
+	proxy_hostname_edit->setWhatsThis( tr("The host name of the proxy.") );
+	proxy_port_spin->setWhatsThis( tr("The port of the proxy.") );
+	proxy_username_edit->setWhatsThis( tr("If the proxy requires authentication, this sets the username.") );
+	proxy_password_edit->setWhatsThis( 
+        tr("The password for the proxy. <b>Warning:</b> the password will be saved "
+           "as plain text in the configuration file.") );
+	proxy_type_combo->setWhatsThis( tr("Select the proxy type to be used.") );
+
 	layout()->setSizeConstraint(QLayout::SetFixedSize);
 }
 
