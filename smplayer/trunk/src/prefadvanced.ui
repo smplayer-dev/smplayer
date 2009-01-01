@@ -131,11 +131,34 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="correct_pts_check" >
-         <property name="text" >
-          <string>C&amp;orrect PTS</string>
-         </property>
-        </widget>
+        <layout class="QHBoxLayout" >
+         <item>
+          <widget class="QLabel" name="label_8" >
+           <property name="text" >
+            <string>C&amp;orrect PTS:</string>
+           </property>
+           <property name="buddy" >
+            <cstring>correct_pts_combo</cstring>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="TristateCombo" name="correct_pts_combo" />
+         </item>
+         <item>
+          <spacer>
+           <property name="orientation" >
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" >
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
        </item>
        <item>
         <widget class="QCheckBox" name="shortnames_check" >
@@ -269,7 +292,7 @@
          <property name="sizeHint" >
           <size>
            <width>489</width>
-           <height>20</height>
+           <height>51</height>
           </size>
          </property>
         </spacer>
@@ -798,13 +821,18 @@ Example: resample=44100:0:0,volnorm</string>
    <extends>QComboBox</extends>
    <header>mycombobox.h</header>
   </customwidget>
+  <customwidget>
+   <class>TristateCombo</class>
+   <extends>QComboBox</extends>
+   <header>tristatecombo.h</header>
+  </customwidget>
  </customwidgets>
  <tabstops>
   <tabstop>advanced_tab</tabstop>
   <tabstop>monitoraspect_combo</tabstop>
   <tabstop>mplayer_use_window_check</tabstop>
   <tabstop>idx_check</tabstop>
-  <tabstop>correct_pts_check</tabstop>
+  <tabstop>correct_pts_combo</tabstop>
   <tabstop>shortnames_check</tabstop>
   <tabstop>repaint_video_background_check</tabstop>
   <tabstop>actions_to_run_edit</tabstop>

@@ -21,7 +21,7 @@
 
 #include "ui_prefadvanced.h"
 #include "prefwidget.h"
-#include "config.h"
+#include "preferences.h"
 
 class Preferences;
 
@@ -91,8 +91,8 @@ protected:
 	void setUseIdx(bool);
 	bool useIdx();
 
-	void setUseCorrectPts(bool b);
-	bool useCorrectPts();
+	void setUseCorrectPts(Preferences::OptionState value);
+	Preferences::OptionState useCorrectPts();
 
 	void setActionsToRun(QString actions);
 	QString actionsToRun();
