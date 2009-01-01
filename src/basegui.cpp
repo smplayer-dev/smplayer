@@ -2243,10 +2243,6 @@ void BaseGui::applyNewPreferences() {
 		mplayerwindow->setMonitorAspect( pref->monitor_aspect_double() );
 	}
 
-	if (advanced->proxyChanged()) {
-		if (find_subs_dialog) find_subs_dialog->setProxy( userProxy() );
-	}
-
 	if (need_update_language) {
 		translator->load(pref->language);
 	}
@@ -4067,7 +4063,6 @@ void BaseGui::showFindSubtitlesDialog() {
 		find_subs_dialog = new FindSubtitlesWindow(0, Qt::Window | Qt::WindowMinMaxButtonsHint);
 		find_subs_dialog->setSettings(Global::settings);
 		find_subs_dialog->setWindowIcon(windowIcon());
-		find_subs_dialog->setProxy( userProxy() );
 #if DOWNLOAD_SUBS
 		connect(find_subs_dialog, SIGNAL(subtitleDownloaded(const QString &)),
                 core, SLOT(loadSub(const QString &)));
@@ -4126,26 +4121,6 @@ void BaseGui::showVideoPreviewDialog() {
 		video_preview->show();
 		video_preview->adjustWindowSize();
 	}
-}
-
-QNetworkProxy BaseGui::userProxy() {
-	QNetworkProxy proxy;
-	if ( (pref->use_proxy) && (!pref->proxy_host.isEmpty()) ) {
-		proxy.setType((QNetworkProxy::ProxyType) pref->proxy_type);
-		proxy.setHostName(pref->proxy_host);
-		proxy.setPort(pref->proxy_port);
-		if ( (!pref->proxy_username.isEmpty()) && (!pref->proxy_password.isEmpty()) ) {
-			proxy.setUser(pref->proxy_username);
-			proxy.setPassword(pref->proxy_password);
-		}
-		qDebug("BaseGui::userProxy: using proxy: host: %s, port: %d, type: %d", 
-               pref->proxy_host.toUtf8().constData(), pref->proxy_port, pref->proxy_type);
-	} else {
-		// No proxy
-		proxy.setType(QNetworkProxy::NoProxy);
-		qDebug("BaseGui::userProxy: no proxy");
-	}
-	return proxy;
 }
 
 // Language change stuff
