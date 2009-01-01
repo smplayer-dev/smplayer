@@ -103,7 +103,7 @@ public:
 	int selectOne(QString preferred_lang, int default_sub=0);
 
 	//! Parses a line from mplayer output with subtitle info
-	int parse(QString text);
+	ParseResult parse(QString text);
 
 	void list();
 	void listNames();
