@@ -44,7 +44,6 @@ public:
 	FindSubtitlesWindow( QWidget * parent = 0, Qt::WindowFlags f = 0 );
 	~FindSubtitlesWindow();
 
-	void setProxy(QNetworkProxy proxy);
 	QString language();
 #ifdef DOWNLOAD_SUBS
 	bool includeLangOnFilename() { return include_lang_on_filename; };
@@ -85,9 +84,14 @@ protected slots:
 	void archiveDownloaded(const QByteArray & buffer);
 #endif
 
+	void on_configure_button_clicked();
+
 protected:
 	virtual void retranslateStrings();
 	virtual void changeEvent(QEvent * event);
+
+	void setProxy(QNetworkProxy proxy);
+	void setupProxy();
 
 	void saveSettings();
 	void loadSettings();
@@ -115,6 +119,14 @@ protected:
 	FileDownloader * file_downloader;
 	bool include_lang_on_filename;
 #endif
+
+	// Proxy
+	bool use_proxy;
+	int proxy_type;
+	QString proxy_host;
+	int proxy_port;
+	QString proxy_username;
+	QString proxy_password;
 
 	QSettings * set;
 };
