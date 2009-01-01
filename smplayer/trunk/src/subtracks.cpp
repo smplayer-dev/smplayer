@@ -159,7 +159,7 @@ bool SubTracks::changeFilename( SubData::Type t, int ID, QString filename ) {
 	return true;
 }
 
-int SubTracks::parse(QString text) {
+SubTracks::ParseResult SubTracks::parse(QString text) {
 	qDebug("SubTracks::parse: '%s'", text.toUtf8().data());
 
 	ParseResult result = SubtitleUnchanged;
