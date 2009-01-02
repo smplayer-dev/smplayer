@@ -53,9 +53,7 @@ Name: "themes"; Description: "Icon Themes"; Types: full custom
 Name: "languages"; Description: "Translations"; Types: full custom
 
 [Files]
-;Source: "mplayer\codecs\*"; DestDir: "{app}\mplayer\codecs"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: codecs
-Source: "mplayer\*"; DestDir: "{app}\mplayer"; Flags: ignoreversion; Components: main
-Source: "mplayer\mplayer\*"; DestDir: "{app}\mplayer\mplayer"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: main
+Source: "mplayer\*"; DestDir: "{app}\mplayer"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: main
 Source: "shortcuts\*"; DestDir: "{app}\shortcuts"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: main
 Source: "docs\*"; DestDir: "{app}\docs"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: main
 Source: "themes\*"; DestDir: "{app}\themes"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: themes
