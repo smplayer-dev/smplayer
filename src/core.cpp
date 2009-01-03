@@ -1304,7 +1304,11 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 #endif
 
-	proc->addArgument( "-zoom");
+#ifndef Q_OS_WIN
+	if (pref->vo.startsWith("x11")) {
+		proc->addArgument( "-zoom");
+	}
+#endif
 	proc->addArgument("-nokeepaspect");
 
 	// Performance options
