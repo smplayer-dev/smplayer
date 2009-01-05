@@ -27,6 +27,7 @@ HEADERS += guiconfig.h \
 	subtracks.h \
 	tracks.h \
 	titletracks.h \
+	discname.h \
 	extensions.h \
 	desktopinfo.h \
 	myprocess.h \
@@ -118,6 +119,7 @@ SOURCES	+= version.cpp \
 	subtracks.cpp \
 	tracks.cpp \
 	titletracks.cpp \
+	discname.cpp \
 	extensions.cpp \
 	desktopinfo.cpp \
 	myprocess.cpp \
