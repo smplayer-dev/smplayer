@@ -1204,6 +1204,8 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument("-nofs");
 	}
 
+	proc->addArgument("-nomouseinput");
+
 	// Demuxer and audio and video codecs:
 	if (!mset.forced_demuxer.isEmpty()) {
 		proc->addArgument("-demuxer");
