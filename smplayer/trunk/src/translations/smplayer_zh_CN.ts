@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="zh">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -15,7 +16,7 @@
     <message>
         <location filename="../about.cpp" line="152"/>
         <source>The following people have contributed with translations:</source>
-        <translation>以下对翻译有贡献:</translation>
+        <translation>以下这些人对翻译有贡献:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="157"/>
@@ -260,27 +261,27 @@
     <message>
         <location filename="../about.cpp" line="99"/>
         <source>The following people have contributed with patches (see the changelog for details):</source>
-        <translation type="unfinished"></translation>
+        <translation>以下这些人贡献了补丁(详见更新日志):</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="117"/>
         <source>If there&apos;s any omission, please report.</source>
-        <translation type="unfinished"></translation>
+        <translation>如有遗漏，请告之。</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="96"/>
         <source>SMPlayer logo by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer logo 由 %1 提供</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="222"/>
         <source>%1, %2, %3 and %4</source>
-        <translation type="unfinished"></translation>
+        <translation>%1, %2, %3 和 %4</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="223"/>
         <source>%1, %2, %3, %4 and %5</source>
-        <translation type="unfinished"></translation>
+        <translation>%1, %2, %3, %4 和 %5</translation>
     </message>
 </context>
 <context>
@@ -1393,7 +1394,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1235"/>
         <source>Mirr&amp;or image</source>
-        <translation type="unfinished"></translation>
+        <translation>镜像(&amp;O)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1349"/>
@@ -1435,42 +1436,42 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1359"/>
         <source>Next aspect ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>下一个外观比例</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1240"/>
         <source>&amp;Auto zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>自动缩放(&amp;A)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1241"/>
         <source>Zoom for &amp;16:9</source>
-        <translation type="unfinished"></translation>
+        <translation>缩放成 16:9 (&amp;1)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1242"/>
         <source>Zoom for &amp;2.35:1</source>
-        <translation type="unfinished"></translation>
+        <translation>缩放成 2.35:1 (&amp;2)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1233"/>
         <source>Pre&amp;view...</source>
-        <translation type="unfinished"></translation>
+        <translation>预览(&amp;V)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1470"/>
         <source>&amp;Always</source>
-        <translation type="unfinished"></translation>
+        <translation>总是(&amp;A)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1471"/>
         <source>&amp;Never</source>
-        <translation type="unfinished"></translation>
+        <translation>从不(&amp;N)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1472"/>
         <source>While &amp;playing</source>
-        <translation type="unfinished"></translation>
+        <translation>当播放时(&amp;P)</translation>
     </message>
 </context>
 <context>
@@ -1551,12 +1552,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="3092"/>
         <source>Aspect ratio: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>外观比例: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3474"/>
         <source>Updating the font cache. This may take some seconds...</source>
-        <translation type="unfinished"></translation>
+        <translation>更新字体缓存。这可能需要几秒钟...</translation>
     </message>
 </context>
 <context>
@@ -1759,82 +1760,82 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>Http</source>
-        <translation type="unfinished"></translation>
+        <translation>Http</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>Socks5</source>
-        <translation type="unfinished"></translation>
+        <translation>Socks5</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>启用/禁用代理。</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
         <source>The host name of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>代理的主机名。</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>代理的端口。</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果代理需要认证，在这里设置用户名。</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="36"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished"></translation>
+        <translation>代理的密码。&lt;b&gt;警告:&lt;/b&gt;密码将以明文的形式保存在配置文件中。</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="37"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择要使用的代理的类型。</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="13"/>
         <source>Advanced options</source>
-        <translation type="unfinished"></translation>
+        <translation>高级选项</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="19"/>
         <source>Proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>代理</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="25"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>启用代理(&amp;E)</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="38"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished"></translation>
+        <translation>主机(&amp;H):</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="51"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>端口(&amp;P):</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="71"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished"></translation>
+        <translation>用户名(&amp;U):</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="84"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished"></translation>
+        <translation>密码(&amp;S):</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="101"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>类型(&amp;T):</translation>
     </message>
 </context>
 <context>
@@ -1982,17 +1983,17 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="448"/>
         <source>Download failed</source>
-        <translation type="unfinished"></translation>
+        <translation>下载失败</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="432"/>
         <source>Temporary file %1</source>
-        <translation type="unfinished"></translation>
+        <translation>临时文件 %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
         <source>&amp;Options</source>
-        <translation type="unfinished"></translation>
+        <translation>选项(&amp;O)</translation>
     </message>
 </context>
 <context>
@@ -3099,47 +3100,47 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="26"/>
         <source>Avestan</source>
-        <translation type="unfinished"></translation>
+        <translation>阿维斯塔语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="28"/>
         <source>Akan</source>
-        <translation type="unfinished"></translation>
+        <translation>阿肯语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="30"/>
         <source>Aragonese</source>
-        <translation type="unfinished"></translation>
+        <translation>阿拉贡语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="33"/>
         <source>Avaric</source>
-        <translation type="unfinished"></translation>
+        <translation>阿瓦尔语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="37"/>
         <source>Belarusian</source>
-        <translation type="unfinished"></translation>
+        <translation>白俄罗斯语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="41"/>
         <source>Bambara</source>
-        <translation type="unfinished"></translation>
+        <translation>班巴拉语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="45"/>
         <source>Bosnian</source>
-        <translation type="unfinished"></translation>
+        <translation>波斯尼亚语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="47"/>
         <source>Chechen</source>
-        <translation type="unfinished"></translation>
+        <translation>车臣语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="49"/>
         <source>Cree</source>
-        <translation type="unfinished"></translation>
+        <translation>克里语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="51"/>
@@ -3149,42 +3150,42 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="52"/>
         <source>Chuvash</source>
-        <translation type="unfinished"></translation>
+        <translation>楚瓦士语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="56"/>
         <source>Divehi</source>
-        <translation type="unfinished"></translation>
+        <translation>迪维希语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="57"/>
         <source>Dzongkha</source>
-        <translation type="unfinished"></translation>
+        <translation>不丹语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="58"/>
         <source>Ewe</source>
-        <translation type="unfinished"></translation>
+        <translation>埃维语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="66"/>
         <source>Fulah</source>
-        <translation type="unfinished"></translation>
+        <translation>富拉语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="68"/>
         <source>Fijian</source>
-        <translation type="unfinished"></translation>
+        <translation>斐济语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="73"/>
         <source>Gaelic</source>
-        <translation type="unfinished"></translation>
+        <translation>盖尔人语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="77"/>
         <source>Manx</source>
-        <translation type="unfinished"></translation>
+        <translation>马恩岛语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="81"/>
@@ -3194,22 +3195,22 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="83"/>
         <source>Haitian</source>
-        <translation type="unfinished"></translation>
+        <translation>海地语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="86"/>
         <source>Herero</source>
-        <translation type="unfinished"></translation>
+        <translation>赫雷罗语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="87"/>
         <source>Chamorro</source>
-        <translation type="unfinished"></translation>
+        <translation>夏莫罗语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="91"/>
         <source>Igbo</source>
-        <translation type="unfinished"></translation>
+        <translation>伊博语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="92"/>
@@ -3219,57 +3220,57 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="93"/>
         <source>Inupiaq</source>
-        <translation type="unfinished"></translation>
+        <translation>依努庇克语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="94"/>
         <source>Ido</source>
-        <translation type="unfinished"></translation>
+        <translation>伊多语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="101"/>
         <source>Kongo</source>
-        <translation type="unfinished"></translation>
+        <translation>刚果语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="102"/>
         <source>Kikuyu</source>
-        <translation type="unfinished"></translation>
+        <translation>吉库尤语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="103"/>
         <source>Kuanyama</source>
-        <translation type="unfinished"></translation>
+        <translation>关琊玛语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="106"/>
         <source>Khmer</source>
-        <translation type="unfinished"></translation>
+        <translation>高棉语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="109"/>
         <source>Kanuri</source>
-        <translation type="unfinished"></translation>
+        <translation>卡努里语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="112"/>
         <source>Komi</source>
-        <translation type="unfinished"></translation>
+        <translation>科米语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="113"/>
         <source>Cornish</source>
-        <translation type="unfinished"></translation>
+        <translation>康沃尔语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="116"/>
         <source>Luxembourgish</source>
-        <translation type="unfinished"></translation>
+        <translation>卢森堡语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="117"/>
         <source>Ganda</source>
-        <translation type="unfinished"></translation>
+        <translation>干达语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="118"/>
@@ -3279,37 +3280,37 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="120"/>
         <source>Lao</source>
-        <translation type="unfinished"></translation>
+        <translation>老挝语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="122"/>
         <source>Luba-Katanga</source>
-        <translation type="unfinished"></translation>
+        <translation>卢巴加丹加语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="125"/>
         <source>Marshallese</source>
-        <translation type="unfinished"></translation>
+        <translation>马绍尔语</translation>
     </message>
     <message encoding="UTF-8">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
-        <translation type="unfinished"></translation>
+        <translation>巴克摩语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="143"/>
         <source>Ndebele</source>
-        <translation type="unfinished"></translation>
+        <translation>恩德贝勒语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="139"/>
         <source>Ndonga</source>
-        <translation type="unfinished"></translation>
+        <translation>恩敦加语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="144"/>
         <source>Navajo</source>
-        <translation type="unfinished"></translation>
+        <translation>纳瓦霍语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="145"/>
@@ -3319,97 +3320,97 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="147"/>
         <source>Ojibwa</source>
-        <translation type="unfinished"></translation>
+        <translation>奥季布瓦语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="148"/>
         <source>Oromo</source>
-        <translation type="unfinished"></translation>
+        <translation>阿曼语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="150"/>
         <source>Ossetian</source>
-        <translation type="unfinished"></translation>
+        <translation>南奥塞梯语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="151"/>
         <source>Panjabi</source>
-        <translation type="unfinished"></translation>
+        <translation>潘贾比语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="152"/>
         <source>Pali</source>
-        <translation type="unfinished"></translation>
+        <translation>巴利语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="154"/>
         <source>Pushto</source>
-        <translation type="unfinished"></translation>
+        <translation>普什图语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="157"/>
         <source>Romansh</source>
-        <translation type="unfinished"></translation>
+        <translation>罗曼什语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="158"/>
         <source>Rundi</source>
-        <translation type="unfinished"></translation>
+        <translation>基隆迪语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="163"/>
         <source>Sardinian</source>
-        <translation type="unfinished"></translation>
+        <translation>撒丁语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="165"/>
         <source>Sami</source>
-        <translation type="unfinished"></translation>
+        <translation>萨米语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="166"/>
         <source>Sango</source>
-        <translation type="unfinished"></translation>
+        <translation>桑格罗语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="167"/>
         <source>Sinhala</source>
-        <translation type="unfinished"></translation>
+        <translation>僧伽罗语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
         <source>Swati</source>
-        <translation type="unfinished"></translation>
+        <translation>辛辛那提语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="176"/>
         <source>Sotho</source>
-        <translation type="unfinished"></translation>
+        <translation>梭托语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="187"/>
         <source>Tswana</source>
-        <translation type="unfinished"></translation>
+        <translation>南非班图语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="193"/>
         <source>Tahitian</source>
-        <translation type="unfinished"></translation>
+        <translation>大溪地语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="198"/>
         <source>Venda</source>
-        <translation type="unfinished"></translation>
+        <translation>文达语</translation>
     </message>
     <message encoding="UTF-8">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
-        <translation type="unfinished"></translation>
+        <translation>沃拉普克语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="201"/>
         <source>Walloon</source>
-        <translation type="unfinished"></translation>
+        <translation>华隆语</translation>
     </message>
 </context>
 <context>
@@ -3488,17 +3489,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="134"/>
         <source>Control bar</source>
-        <translation type="unfinished">控制条</translation>
+        <translation>控制条</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="437"/>
         <source>-%1</source>
-        <translation type="unfinished">-%1</translation>
+        <translation>-%1</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="441"/>
         <source>+%1</source>
-        <translation type="unfinished">+%1</translation>
+        <translation>+%1</translation>
     </message>
 </context>
 <context>
@@ -4044,7 +4045,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="386"/>
         <source>Actions list</source>
-        <translation type="unfinished"></translation>
+        <translation>动作列表</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="392"/>
@@ -4059,22 +4060,22 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="412"/>
         <source>Network</source>
-        <translation type="unfinished"></translation>
+        <translation>网络</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="193"/>
         <source>R&amp;un the following actions every time a file is opened. The actions must be separated with spaces:</source>
-        <translation type="unfinished"></translation>
+        <translation>每次打开文件时运行以下的动作。动作必需以空格分格(&amp;U):</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="526"/>
         <source>&amp;Network</source>
-        <translation type="unfinished"></translation>
+        <translation>网络(&amp;N)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="393"/>
         <source>Example:</source>
-        <translation type="unfinished"></translation>
+        <translation>示例:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="352"/>
@@ -4739,22 +4740,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="767"/>
         <source>Draw video using slices</source>
-        <translation type="unfinished"></translation>
+        <translation>分块绘制视频</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="771"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>启用/禁用按16像素分块绘制视频。如果禁用，整个画面将一次性完全。可能更快或也可能更慢，这取决于视频卡和可用的高速缓存。仅在使用 libmpeg2 和 libavcodec 解码器时有效。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="473"/>
         <source>Dra&amp;w video using slices</source>
-        <translation type="unfinished"></translation>
+        <translation>分块绘制视频(&amp;W)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="186"/>
         <source>&amp;Close when finished playback</source>
-        <translation type="unfinished"></translation>
+        <translation>结束时关闭(&amp;C)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="289"/>
@@ -4769,7 +4770,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="290"/>
         <source>fast - ATI cards</source>
-        <translation>快 - ATI 片</translation>
+        <translation>快 - ATI 显卡</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="330"/>
@@ -4784,7 +4785,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="749"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>此选项将为新的影片设定默认缩放。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="398"/>
@@ -4814,7 +4815,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="800"/>
         <source>%1 is the recommended one. Try to avoid %2 and %3, they are slow and can have an impact on performance.</source>
-        <translation type="unfinished"></translation>
+        <translation>推荐 %1. 尽量避免 %2 和 %3 ，它们是缓慢的并可能影响性能。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="698"/>
@@ -4854,12 +4855,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="849"/>
         <source>If this option is checked the initial volume will be set just before playback starts. This avoids a loud volume on startup. Requires at least MPlayer SVN r27872.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果勾选此选项，将在播放前设置初始音量。这将避免启动时的巨大声音。需要至少 MPlayer SVN r27872。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="777"/>
         <source>Add black borders on fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>在全屏时添加黑边框</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="780"/>
@@ -4869,32 +4870,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="500"/>
         <source>&amp;Add black borders on fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>在全屏时添加黑边框(&amp;A)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="101"/>
         <source>one ini file</source>
-        <translation type="unfinished"></translation>
+        <translation>单独的 ini 文件</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="102"/>
         <source>multiple ini files</source>
-        <translation type="unfinished"></translation>
+        <translation>多个 ini 文件</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="705"/>
         <source>Method to store the file settings</source>
-        <translation type="unfinished"></translation>
+        <translation>文件设置的存放方式</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="707"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
-        <translation type="unfinished"></translation>
+        <translation>这个选项可以改变文件设置的存放方式。可用选项为:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="709"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;单独的 ini 文件&lt;/b&gt;: 所有播放的文件的设置将被存放在一个单独的 ini 文件里(%1)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="712"/>
@@ -4904,22 +4905,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="149"/>
         <source>&amp;Store settings in</source>
-        <translation type="unfinished"></translation>
+        <translation>保存设置(&amp;S)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="711"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;多个 ini 文件&lt;/b&gt;: 对每一个播放过的文件使用一个 ini 文件。这些 ini 文件将存放于目录 %1</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="703"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
-        <translation type="unfinished"></translation>
+        <translation>如果勾选此选项，SMPlayer 将记住文件上一次的播放位置。此选项只对正常文件有效(不包括 DVD, CD, URL)。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="760"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
-        <translation type="unfinished"></translation>
+        <translation>如果被选中,将使用直接呈现(direct rendering)(不是所有的编码和输出驱动都支持的)&lt;br&gt;&lt;b&gt;警告:&lt;/b&gt;可能使 OSD/字幕出错!</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="821"/>
@@ -5257,22 +5258,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="71"/>
         <source>Always on top</source>
-        <translation type="unfinished"></translation>
+        <translation>总在置顶</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="72"/>
         <source>Never on top</source>
-        <translation type="unfinished"></translation>
+        <translation>从不置顶</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="73"/>
         <source>On top while playing</source>
-        <translation type="unfinished"></translation>
+        <translation>播放时置顶</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="87"/>
         <source>Activate option in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>激活 DVD 菜单选项</translation>
     </message>
 </context>
 <context>
@@ -5620,32 +5621,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="570"/>
         <source>Floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>浮动控制条</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="572"/>
         <source>Animated</source>
-        <translation type="unfinished"></translation>
+        <translation>动画</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="574"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果勾选此选项, 浮动工具条将动画出现。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="576"/>
         <source>Width</source>
-        <translation type="unfinished"></translation>
+        <translation>宽度</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="577"/>
         <source>Specifies the width of the control (as a percentage).</source>
-        <translation type="unfinished"></translation>
+        <translation>指定控制条的宽度(百分比)。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="579"/>
         <source>Margin</source>
-        <translation type="unfinished"></translation>
+        <translation>边距</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="583"/>
@@ -5655,67 +5656,67 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="585"/>
         <source>Display in compact mode too</source>
-        <translation type="unfinished"></translation>
+        <translation>在简洁模式中显示</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="591"/>
         <source>Bypass window manager</source>
-        <translation type="unfinished"></translation>
+        <translation>托管给窗口管理器</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="594"/>
         <source>If this option is checked, the control is displayed bypassing the window manager. Disable this option if the floating control doesn&apos;t work well with your window manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果勾选此选项，浮动控制条的显示将托管给窗口管理器。如果浮动控制条在您的窗口管理器里工作不正常，请禁用此选项。</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="794"/>
         <source>&amp;Floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>浮动控制条(&amp;F)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="800"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>在全屏模式中，当鼠标移动到屏幕底部时，浮动工具条将出现。</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="810"/>
         <source>&amp;Animated</source>
-        <translation type="unfinished"></translation>
+        <translation>动画(&amp;A)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="819"/>
         <source>&amp;Width:</source>
-        <translation type="unfinished"></translation>
+        <translation>宽度(&amp;W):</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="878"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation>0</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="852"/>
         <source>&amp;Margin:</source>
-        <translation type="unfinished"></translation>
+        <translation>边距(&amp;M):</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="887"/>
         <source>Display in &amp;compact mode too</source>
-        <translation type="unfinished"></translation>
+        <translation>在简洁模式中显示(&amp;C)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="894"/>
         <source>&amp;Bypass window manager</source>
-        <translation type="unfinished"></translation>
+        <translation>托管给窗口管理器(&amp;B)</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="588"/>
         <source>If this option is enabled, the floating control will appear in compact mode too. &lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果勾选此选项，浮动控制条也将出现在简洁模式中。&lt;b&gt;警告:&lt;/b&gt;浮动控制条不是为简洁模式设计的，工作的可能不够理想。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="156"/>
         <source>Mpc GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Mpc 界面</translation>
     </message>
 </context>
 <context>
@@ -5873,7 +5874,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="286"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
-        <translation>如果勾选这个选项，将尝试用最快的方式定位到章节，但在一些盘片上可能无效。</translation>
+        <translation>如果勾选此选项，将尝试用最快的方式定位到章节，但在一些盘片上可能无效。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="254"/>
@@ -6334,7 +6335,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="198"/>
         <source>Try to a&amp;utodetect for this language:</source>
-        <translation>尝试自动检测此语言(&amp;U)：</translation>
+        <translation>尝试自动检测此语言(&amp;U):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="409"/>
@@ -6344,250 +6345,250 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="487"/>
         <source>Outline</source>
-        <translation type="unfinished"></translation>
+        <translation>Outline</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="449"/>
         <source>Select the font for the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择字幕字体。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="452"/>
         <source>The size in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>大小，以像素为单位。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="454"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>粗体</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="455"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果勾选，文字将以&lt;b&gt;粗体&lt;/b&gt;显示。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="457"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>斜体</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="458"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果勾选，文字将以&lt;i&gt;斜体&lt;/i&gt;显示。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="466"/>
         <source>Left margin</source>
-        <translation type="unfinished"></translation>
+        <translation>左边距</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="467"/>
         <source>Specifies the left margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>指定左边距(以像素为单位)。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="469"/>
         <source>Right margin</source>
-        <translation type="unfinished"></translation>
+        <translation>右边距</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="470"/>
         <source>Specifies the right margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>指定右边距(以像素为单位)。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="472"/>
         <source>Vertical margin</source>
-        <translation type="unfinished"></translation>
+        <translation>垂直边距</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="473"/>
         <source>Specifies the vertical margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>指定垂直边距(以像素为单位)。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="475"/>
         <source>Horizontal alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>横向对齐</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="477"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
-        <translation type="unfinished"></translation>
+        <translation>指定水平对齐。可选值: 左对齐、居中对齐和右对齐。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="479"/>
         <source>Vertical alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>垂直对齐</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="481"/>
         <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
-        <translation type="unfinished"></translation>
+        <translation>指定垂直对齐。可选值: 底部、居中和顶部。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="483"/>
         <source>Border style</source>
-        <translation type="unfinished"></translation>
+        <translation>边框风格</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="485"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
-        <translation type="unfinished"></translation>
+        <translation>指定边框风格。可选的值: outline 和 opaque box。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="491"/>
         <source>Shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>阴影</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="854"/>
         <source>Si&amp;ze:</source>
-        <translation type="unfinished"></translation>
+        <translation>大小(&amp;Z):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="896"/>
         <source>Bol&amp;d</source>
-        <translation type="unfinished"></translation>
+        <translation>粗体(&amp;D)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="903"/>
         <source>&amp;Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>斜体(&amp;L)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="915"/>
         <source>Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>颜色</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="933"/>
         <source>&amp;Text:</source>
-        <translation type="unfinished"></translation>
+        <translation>文字(&amp;T):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="953"/>
         <source>&amp;Border:</source>
-        <translation type="unfinished"></translation>
+        <translation>边框(&amp;B):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="976"/>
         <source>Margins</source>
-        <translation type="unfinished"></translation>
+        <translation>边距</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="994"/>
         <source>L&amp;eft:</source>
-        <translation type="unfinished"></translation>
+        <translation>左边距(&amp;E):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1010"/>
         <source>&amp;Right:</source>
-        <translation type="unfinished"></translation>
+        <translation>右边距(&amp;R):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1026"/>
         <source>Verti&amp;cal:</source>
-        <translation type="unfinished"></translation>
+        <translation>垂直(&amp;C):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1058"/>
         <source>Alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>对齐</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1076"/>
         <source>&amp;Horizontal:</source>
-        <translation type="unfinished"></translation>
+        <translation>横向(&amp;H):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1092"/>
         <source>&amp;Vertical:</source>
-        <translation type="unfinished"></translation>
+        <translation>垂直(&amp;V):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1113"/>
         <source>Border st&amp;yle:</source>
-        <translation type="unfinished"></translation>
+        <translation>边框风格(&amp;Y):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1139"/>
         <source>&amp;Outline:</source>
-        <translation type="unfinished"></translation>
+        <translation>Outline(&amp;O):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1162"/>
         <source>Shado&amp;w:</source>
-        <translation type="unfinished"></translation>
+        <translation>阴影(&amp;W):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="817"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
-        <translation type="unfinished"></translation>
+        <translation>下面的选项允许你为那些没有指定风格的字幕指定风格(srt, sub...)。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="100"/>
         <source>Left</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>左对齐</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="101"/>
         <source>Centered</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>居中对齐</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="102"/>
         <source>Right</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>右对齐</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="107"/>
         <source>Bottom</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished">底部</translation>
+        <translation>底部</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="108"/>
         <source>Middle</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>居中</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="109"/>
         <source>Top</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished">顶部</translation>
+        <translation>顶部</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="114"/>
         <source>Outline</source>
         <comment>border style</comment>
-        <translation type="unfinished"></translation>
+        <translation>Outline</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="115"/>
         <source>Opaque box</source>
         <comment>border style</comment>
-        <translation type="unfinished"></translation>
+        <translation>Opaque box</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="489"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果边框风格为&lt;i&gt;outline&lt;/i&gt;, 这个选项将设定环绕文字的像素宽度。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="493"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果边框风格为&lt;i&gt;outline&lt;/i&gt;, 这个选项将设定文字背后的阴影深度(以像素为单位)。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="396"/>
         <source>Enable normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>启用一般字幕</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="398"/>
@@ -6597,87 +6598,87 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="400"/>
         <source>Enable SSA/ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>启用 SSA/ASS 字幕</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="404"/>
         <source>Normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>一般字幕</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="425"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>这个选项&lt;b&gt;不&lt;/b&gt;会改变当然视频的字幕字体大小。如果需要，可以通过字幕菜单中的&lt;i&gt;大小+&lt;/i&gt;和&lt;i&gt;大小-&lt;/i&gt;来完成。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Default scale</source>
-        <translation type="unfinished"></translation>
+        <translation>默认大小</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="429"/>
         <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>这个选项指定一般字幕的默认大小，将它将用于新打开的文件。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="437"/>
         <source>SSA/ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>SSA/ASS 字幕</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="441"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>这个选项指定 SSA/ASS 字幕的默认大小，将它将用于新打开的文件。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="444"/>
         <source>Line spacing</source>
-        <translation type="unfinished"></translation>
+        <translation>行距</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="446"/>
         <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
-        <translation type="unfinished"></translation>
+        <translation>指定行距。可以是负数。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="280"/>
         <source>&amp;Font and colors</source>
-        <translation type="unfinished"></translation>
+        <translation>字体和颜色(&amp;F)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="286"/>
         <source>Enable &amp;normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>启用一般字幕(&amp;N)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="299"/>
         <source>Enable SSA/&amp;ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>启用 SSA/ASS 字幕(&amp;A)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="544"/>
         <source>Default s&amp;cale:</source>
-        <translation type="unfinished"></translation>
+        <translation>默认大小(&amp;C):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="725"/>
         <source>Defa&amp;ult scale:</source>
-        <translation type="unfinished"></translation>
+        <translation>默认大小(&amp;U):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="764"/>
         <source>&amp;Line spacing:</source>
-        <translation type="unfinished"></translation>
+        <translation>行距(&amp;L):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="402"/>
         <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="unfinished"></translation>
+        <translation>这个选项来启用新的 SSA/ASS 库。这将允许使用多种颜色和字体来显示字幕。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="388"/>
         <source>Freetype support</source>
-        <translation type="unfinished"></translation>
+        <translation>Freetype 支持</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="392"/>
@@ -6687,12 +6688,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="256"/>
         <source>Freet&amp;ype support</source>
-        <translation type="unfinished"></translation>
+        <translation>Freetype 支持(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="386"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果选择这个选项，字幕将会出现在截图里。&lt;b&gt;注意:&lt;/b&gt; 这有时可能会带来一些麻烦。</translation>
     </message>
 </context>
 <context>
@@ -6857,30 +6858,30 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="124"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
-        <translation type="unfinished"></translation>
+        <translation>指定 SMPlayer 存放配置文件(smplayer.ini, smplayer_files.ini...)的目录</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="148"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>禁用</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="156"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>自动</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="157"/>
         <source>unknown</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>未知</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="117"/>
         <source>opens the mpc gui.</source>
-        <translation type="unfinished"></translation>
+        <translation>打开 mpc 界面。</translation>
     </message>
 </context>
 <context>
@@ -7054,147 +7055,147 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="403"/>
         <source>Video preview</source>
-        <translation type="unfinished"></translation>
+        <translation>视频预览</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="131"/>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="133"/>
         <source>Generated by SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>由 SMPlayer 生成</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="222"/>
         <source>Creating thumbnails...</source>
-        <translation type="unfinished"></translation>
+        <translation>生成缩略图...</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="387"/>
         <source>Size: %1 MB</source>
-        <translation type="unfinished"></translation>
+        <translation>大小: %1 MB</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="389"/>
         <source>Length: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>长度: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="523"/>
         <source>Save file</source>
-        <translation type="unfinished"></translation>
+        <translation>保存文件</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="531"/>
         <source>Error saving file</source>
-        <translation type="unfinished">保存文件出错</translation>
+        <translation>保存文件出错</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="532"/>
         <source>The file couldn&apos;t be saved</source>
-        <translation type="unfinished">不能保存文件</translation>
+        <translation>不能保存文件</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="178"/>
         <source>Error</source>
-        <translation type="unfinished">错误</translation>
+        <translation>错误</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="179"/>
         <source>The following error has occurred while creating the thumbnails:</source>
-        <translation type="unfinished"></translation>
+        <translation>在生成缩略图时出现以下错误:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="205"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
-        <translation type="unfinished"></translation>
+        <translation>不能建立临时文件夹 %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="312"/>
         <source>The mplayer process didn&apos;t run</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer 进程没有运行</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="388"/>
         <source>Resolution: %1x%2</source>
-        <translation type="unfinished"></translation>
+        <translation>分辨率: %1x%2</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="392"/>
         <source>Video format: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>视频格式: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="393"/>
         <source>Frames per second: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>帧每秒: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="394"/>
         <source>Aspect ratio: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>外观比例: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="330"/>
         <source>The file %1 can&apos;t be loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>不能加载文件 %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="429"/>
         <source>No filename</source>
-        <translation type="unfinished"></translation>
+        <translation>没有文件名</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="489"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
-        <translation type="unfinished"></translation>
+        <translation>获得视频信息时 MPlayer 进程不能启动</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="196"/>
         <source>The length of the video is 0</source>
-        <translation type="unfinished"></translation>
+        <translation>视频长度为 0</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="240"/>
         <source>The file %1 doesn&apos;t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>文件 %1 不存在</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="524"/>
         <source>Images</source>
-        <translation type="unfinished"></translation>
+        <translation>图片</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="376"/>
         <source>No info</source>
-        <translation type="unfinished"></translation>
+        <translation>无信息</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="380"/>
         <source>%1 kbps</source>
-        <translation type="unfinished">%1 kbps</translation>
+        <translation>%1 kbps</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="381"/>
         <source>%1 Hz</source>
-        <translation type="unfinished">%1 Hz</translation>
+        <translation>%1 Hz</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="397"/>
         <source>Video bitrate: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>视频比特率: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="398"/>
         <source>Audio bitrate: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>音频比特率: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="399"/>
         <source>Audio rate: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>音频率: %1</translation>
     </message>
 </context>
 <context>
@@ -7202,72 +7203,72 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="32"/>
         <source>Default</source>
-        <translation type="unfinished">默认</translation>
+        <translation>默认</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="13"/>
         <source>Video Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>视频预览</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="21"/>
         <source>&amp;File:</source>
-        <translation type="unfinished"></translation>
+        <translation>文件(&amp;F):</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="55"/>
         <source>&amp;Columns:</source>
-        <translation type="unfinished"></translation>
+        <translation>列(&amp;C):</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="91"/>
         <source>&amp;Rows:</source>
-        <translation type="unfinished"></translation>
+        <translation>行(&amp;R):</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="135"/>
         <source>&amp;Aspect ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>外观比例(&amp;A):</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="165"/>
         <source>&amp;Seconds to skip at the beginnning:</source>
-        <translation type="unfinished"></translation>
+        <translation>开始跳过的秒数(&amp;S):</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="195"/>
         <source>&amp;Maximum width:</source>
-        <translation type="unfinished"></translation>
+        <translation>最大宽度(&amp;M):</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="40"/>
         <source>The preview will be created for the video you specify here.</source>
-        <translation type="unfinished"></translation>
+        <translation>将为您指定的视频生成预览。</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="43"/>
         <source>The thumbnails will be arranged on a table.</source>
-        <translation type="unfinished"></translation>
+        <translation>缩略图将被安放表格里。</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="42"/>
         <source>This option specifies the number of columns of the table.</source>
-        <translation type="unfinished"></translation>
+        <translation>这个选项将指定表格的列数。</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="43"/>
         <source>This option specifies the number of rows of the table.</source>
-        <translation type="unfinished"></translation>
+        <translation>这个选项将指定表格的行数。</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="44"/>
         <source>If you check this option, the playing time will be displayed at the bottom of each thumbnail.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果勾选此选项, 时间将被显示在缩略图的底部。</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="45"/>
         <source>If the aspect ratio of the video is wrong, you can specify a different one here.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果外观比例不正确，您可能在这里指定另一个。</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
@@ -7277,7 +7278,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
         <source>This option specifies the maximum width in pixels that the generated preview image will have.</source>
-        <translation type="unfinished"></translation>
+        <translation>这个选项指定生成缩略图时的最大宽度，以像素为单位。</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="50"/>
@@ -7287,22 +7288,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="113"/>
         <source>Add playing &amp;time to thumbnails</source>
-        <translation type="unfinished"></translation>
+        <translation>在缩略图里添加时间(&amp;T)</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="245"/>
         <source>&amp;Extract frames as</source>
-        <translation type="unfinished"></translation>
+        <translation>导出为(&amp;E)</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="41"/>
         <source>Enter here the DVD device or a folder with a DVD image.</source>
-        <translation type="unfinished"></translation>
+        <translation>在这里输入 DVD 设备或着是包含 DVD 镜像的文件夹。</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="38"/>
         <source>&amp;DVD device:</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD 设备(&amp;D):</translation>
     </message>
 </context>
 <context>
