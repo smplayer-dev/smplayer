@@ -48,6 +48,7 @@
 #include "translator.h"
 #include "images.h"
 #include "preferences.h"
+#include "discname.h"
 #include "timeslider.h"
 #include "logwindow.h"
 #include "playlist.h"
@@ -2390,7 +2391,7 @@ void BaseGui::newMediaLoaded() {
 		int first_title = 1;
 		if (core->mdat.type == TYPE_VCD) first_title = pref->vcd_initial_title;
 
-		QString type = "dvd";
+		QString type = "dvd"; // FIXME: support dvdnav
 		if (core->mdat.type == TYPE_VCD) type="vcd";
 		else
 		if (core->mdat.type == TYPE_AUDIO_CD) type="cdda";
@@ -2401,12 +2402,13 @@ void BaseGui::newMediaLoaded() {
 			QString s;
 			QString folder;
 			if (core->mdat.type == TYPE_DVD) {
-				folder = Helper::dvdSplitFolder( core->mdat.filename );
+				DiscData disc_data = DiscName::split(core->mdat.filename);
+				folder = disc_data.device;
 			}
 			for (int n=0; n < core->mdat.titles.numItems(); n++) {
 				s = type + "://" + QString::number(core->mdat.titles.itemAt(n).ID());
 				if ( !folder.isEmpty() ) {
-					s += ":" + folder;
+					s += "/" + folder; // FIXME: dvd names are not created as they should
 				}
 				l.append(s);
 			}
@@ -3090,7 +3092,7 @@ void BaseGui::openDVD() {
 		configureDiscDevices();
 	} else {
 		if (playlist->maybeSave()) {
-			core->openDVD("dvd://1");
+			core->openDVD( DiscName::join(1, pref->dvd_device, false) );
 		}
 	}
 }
@@ -3112,9 +3114,8 @@ void BaseGui::openDVDFromFolder() {
 }
 
 void BaseGui::openDVDFromFolder(QString directory) {
-	//core->openDVD(TRUE, directory);
 	pref->last_dvd_directory = directory;
-	core->openDVD( "dvd://1:" + directory);
+	core->openDVD( DiscName::join(1, directory, false) );
 }
 
 void BaseGui::openDirectory() {
@@ -4093,7 +4094,8 @@ void BaseGui::showVideoPreviewDialog() {
 		// DVD
 		if (core->mdat.type==TYPE_DVD) {
 			QString file = core->mdat.filename;
-			QString dvd_folder = Helper::dvdSplitFolder(file);
+			DiscData disc_data = DiscName::split(file);
+			QString dvd_folder = disc_data.device;
 			if (dvd_folder.isEmpty()) dvd_folder = pref->dvd_device;
 			// Remove trailing "/"
 			if (dvd_folder.endsWith("/")) {
@@ -4105,8 +4107,8 @@ void BaseGui::showVideoPreviewDialog() {
 #endif
 					dvd_folder = dvd_folder.remove( dvd_folder.length()-1, 1);
 			}
-			int dvd_title = Helper::dvdSplitTitle(file);
-			file = "dvd://" + QString::number(dvd_title);
+			int dvd_title = disc_data.title;
+			file = disc_data.protocol + "://" + QString::number(dvd_title);
 
 			video_preview->setVideoFile(file);
 			video_preview->setDVDDevice(dvd_folder);
