@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="uk">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1769,82 +1770,82 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>Http</source>
-        <translation type="unfinished">Http</translation>
+        <translation>Http</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>Socks5</source>
-        <translation type="unfinished">Socks5</translation>
+        <translation>Socks5</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished">Увімкнути/вимкнути використання проксі.</translation>
+        <translation>Увімкнути/вимкнути використання проксі.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
         <source>The host name of the proxy.</source>
-        <translation type="unfinished">Назва серверу проксі.</translation>
+        <translation>Назва серверу проксі.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished">Порт проксі.</translation>
+        <translation>Порт проксі.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="unfinished">Якщо проксі портебую автентифікації, це встановлює ім&apos;я користувача.</translation>
+        <translation>Якщо проксі портебую автентифікації, це встановлює ім&apos;я користувача.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="36"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished">Пароль для проксі. &lt;b&gt;Застереження:&lt;/b&gt; пароль буде збережений як звичайний текст в файлі налаштувань.</translation>
+        <translation>Пароль для проксі. &lt;b&gt;Застереження:&lt;/b&gt; пароль буде збережений як звичайний текст в файлі налаштувань.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="37"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished">Виберіть який використовувати тип проксі.</translation>
+        <translation>Виберіть, який використовувати тип проксі.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="13"/>
         <source>Advanced options</source>
-        <translation type="unfinished"></translation>
+        <translation>Додаткові опції</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="19"/>
         <source>Proxy</source>
-        <translation type="unfinished">Проксі</translation>
+        <translation>Проксі</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="25"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished">&amp;Увімкнути проксі</translation>
+        <translation>&amp;Увімкнути проксі</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="38"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished">&amp;Сервер:</translation>
+        <translation>&amp;Сервер:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="51"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished">П&amp;орт:</translation>
+        <translation>П&amp;орт:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="71"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished">&amp;Ім&apos;я користувача:</translation>
+        <translation>&amp;Ім&apos;я користувача:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="84"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished">П&amp;ароль:</translation>
+        <translation>П&amp;ароль:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="101"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished">&amp;Тип:</translation>
+        <translation>&amp;Тип:</translation>
     </message>
 </context>
 <context>
@@ -2005,7 +2006,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
         <source>&amp;Options</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Опції</translation>
     </message>
 </context>
 <context>
@@ -3332,87 +3333,87 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="147"/>
         <source>Ojibwa</source>
-        <translation type="unfinished"></translation>
+        <translation>Оджибва</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="148"/>
         <source>Oromo</source>
-        <translation type="unfinished"></translation>
+        <translation>Оромо</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="150"/>
         <source>Ossetian</source>
-        <translation type="unfinished"></translation>
+        <translation>Осетинська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="151"/>
         <source>Panjabi</source>
-        <translation type="unfinished"></translation>
+        <translation>Панджабська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="152"/>
         <source>Pali</source>
-        <translation type="unfinished"></translation>
+        <translation>Палі</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="154"/>
         <source>Pushto</source>
-        <translation type="unfinished"></translation>
+        <translation>Пушто</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="157"/>
         <source>Romansh</source>
-        <translation type="unfinished"></translation>
+        <translation>Романшська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="158"/>
         <source>Rundi</source>
-        <translation type="unfinished"></translation>
+        <translation>Рунді</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="163"/>
         <source>Sardinian</source>
-        <translation type="unfinished"></translation>
+        <translation>Сардінська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="165"/>
         <source>Sami</source>
-        <translation type="unfinished"></translation>
+        <translation>Саамська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="166"/>
         <source>Sango</source>
-        <translation type="unfinished"></translation>
+        <translation>Санго</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="167"/>
         <source>Sinhala</source>
-        <translation type="unfinished"></translation>
+        <translation>Сінгальська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
         <source>Swati</source>
-        <translation type="unfinished"></translation>
+        <translation>Сваті</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="176"/>
         <source>Sotho</source>
-        <translation type="unfinished"></translation>
+        <translation>Сото</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="187"/>
         <source>Tswana</source>
-        <translation type="unfinished"></translation>
+        <translation>Тсвана</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="193"/>
         <source>Tahitian</source>
-        <translation type="unfinished"></translation>
+        <translation>Таїтіянська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="198"/>
         <source>Venda</source>
-        <translation type="unfinished"></translation>
+        <translation>Венда</translation>
     </message>
     <message encoding="UTF-8">
         <location filename="../languages.cpp" line="200"/>
@@ -4212,7 +4213,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="138"/>
         <source>C&amp;orrect PTS:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Корегування PTS:</translation>
     </message>
 </context>
 <context>
@@ -5405,7 +5406,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="87"/>
         <source>Activate option in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Увімкнути опцію в меню DVD</translation>
     </message>
 </context>
 <context>
