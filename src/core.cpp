@@ -34,6 +34,7 @@
 #include "mplayerversion.h"
 #include "constants.h"
 #include "colorutils.h"
+#include "discname.h"
 
 #ifdef Q_OS_WIN
 #include <windows.h> // To change app priority
@@ -354,7 +355,7 @@ void Core::open(QString file, int seek) {
 
 	if ( (fi.exists()) && (fi.suffix().toLower()=="iso") ) {
 		qDebug("Core::open: * identified as a dvd iso");
-		openDVD("dvd://1:" + file);
+		openDVD( DiscName::join(1, file, false) );
 	}
 	else
 	if ( (fi.exists()) && (!fi.isDir()) ) {
@@ -371,7 +372,7 @@ void Core::open(QString file, int seek) {
 		file = QFileInfo(file).absoluteFilePath();
 		if (Helper::directoryContainsDVD(file)) {
 			qDebug("Core::open: * directory contains a dvd");
-			openDVD("dvd://1:"+ file);
+			openDVD( DiscName::join(1, file, false) );
 		} else {
 			qDebug("Core::open: * directory doesn't contain a dvd");
 			qDebug("Core::open:   opening nothing");
@@ -586,8 +587,9 @@ void Core::openDVD(QString dvd_url) {
 	qDebug("Core::openDVD: '%s'", dvd_url.toUtf8().data());
 
 	//Checks
-	QString folder = Helper::dvdSplitFolder(dvd_url);
-	int title = Helper::dvdSplitTitle(dvd_url);
+	DiscData disc_data = DiscName::split(dvd_url);
+	QString folder = disc_data.device;
+	int title = disc_data.title;
 
 	if (title == -1) {
 		qWarning("Core::openDVD: title invalid, not playing dvd");
@@ -1149,7 +1151,9 @@ void Core::startMplayer( QString file, double seek ) {
 	QString dvd_folder;
 	int dvd_title = -1;
 	if (mdat.type==TYPE_DVD) {
-		dvd_folder = Helper::dvdSplitFolder(file);
+		DiscData disc_data = DiscName::split(file);
+		dvd_folder = disc_data.device;
+
 		if (dvd_folder.isEmpty()) dvd_folder = pref->dvd_device;
 		// Remove trailing "/"
 		if (dvd_folder.endsWith("/")) {
@@ -1161,8 +1165,8 @@ void Core::startMplayer( QString file, double seek ) {
 #endif
 				dvd_folder = dvd_folder.remove( dvd_folder.length()-1, 1);
 		}
-		dvd_title = Helper::dvdSplitTitle(file);
-		file = "dvd://" + QString::number(dvd_title);
+		dvd_title = disc_data.title;
+		file = disc_data.protocol + "://" + QString::number(dvd_title);
 	}
 
 	// URL
@@ -2948,12 +2952,11 @@ void Core::changeTitle(int ID) {
 	}
 	else
 	if (mdat.type == TYPE_DVD) {
-		QString dvd_url = "dvd://" + QString::number(ID);
-		QString folder = Helper::dvdSplitFolder(mdat.filename);
-		if (!folder.isEmpty()) dvd_url += ":" + folder;
+		DiscData disc_data = DiscName::split(mdat.filename);
+		disc_data.title = ID;
+		QString dvd_url = DiscName::join(disc_data);
 
-		openDVD(dvd_url);
-		//openDVD( ID );
+		openDVD( DiscName::join(disc_data) );
 	}
 }
 

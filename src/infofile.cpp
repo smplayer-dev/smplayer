@@ -19,7 +19,7 @@
 #include "infofile.h"
 #include <QFileInfo>
 #include <QCoreApplication>
-#include "helper.h"
+#include "discname.h"
 #include "constants.h"
 
 
@@ -52,7 +52,8 @@ QString InfoFile::getInfo(MediaData md) {
 	icon = "<img src=\":/icons-png/" + icon + "\"> ";
 
 	if (md.type == TYPE_DVD) {
-		s += title( icon + "dvd://" + QString::number(Helper::dvdSplitTitle(md.filename) ) );
+		DiscData disc_data = DiscName::split(md.filename);
+		s += title( icon + disc_data.protocol + "://" + QString::number(disc_data.title) );
 	} else {
 		s += title( icon + md.displayName() );
 	}

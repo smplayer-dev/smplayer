@@ -52,9 +52,6 @@ public:
 	//! Change filenames like "C:/Program Files/" to "C:\Program Files\"
 	static QString changeSlashes(QString filename);
 
-	static QString dvdSplitFolder(QString dvd_url);
-	static int dvdSplitTitle(QString dvd_url);
-
 	static bool directoryContainsDVD(QString directory);
 
 	//! Returns an int with the version number of Qt at run-time.

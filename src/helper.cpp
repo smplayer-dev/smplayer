@@ -143,27 +143,6 @@ QString Helper::changeSlashes(QString filename) {
 		return filename;
 }
 
-QString Helper::dvdSplitFolder(QString dvd_url) {
-	qDebug("Helper::dvdSplitFolder: '%s'", dvd_url.toUtf8().data());
-	QRegExp s("^dvd://(\\d+):(.*)", Qt::CaseInsensitive);
-	if (s.indexIn(dvd_url)!=-1) {
-		return s.cap(2);
-	} else {
-		return QString::null;
-	}
-}
-
-int Helper::dvdSplitTitle(QString dvd_url) {
-	qDebug("Helper::dvdSplitTitle: '%s'", dvd_url.toUtf8().data());
-	QRegExp s("^dvd://(\\d+)(.*)", Qt::CaseInsensitive);
-	if (s.indexIn(dvd_url)!=-1) {
-		return s.cap(1).toInt();
-	} else {
-		return -1;
-	}
-}
-
-
 bool Helper::directoryContainsDVD(QString directory) {
 	//qDebug("Helper::directoryContainsDVD: '%s'", directory.latin1());
 
