@@ -1179,6 +1179,26 @@
             </widget>
            </item>
            <item>
+            <widget class="Line" name="line_3" >
+             <property name="sizePolicy" >
+              <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="orientation" >
+              <enum>Qt::Horizontal</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="force_ass_styles" >
+             <property name="text" >
+              <string>A&amp;pply styles to ass files too</string>
+             </property>
+            </widget>
+           </item>
+           <item>
             <spacer>
              <property name="orientation" >
               <enum>Qt::Vertical</enum>
@@ -1226,6 +1246,7 @@
   <tabstop>use_enca_check</tabstop>
   <tabstop>enca_lang_combo</tabstop>
   <tabstop>subtitles_on_screeshots_check</tabstop>
+  <tabstop>freetype_check</tabstop>
   <tabstop>normal_subs_button</tabstop>
   <tabstop>ass_subs_button</tabstop>
   <tabstop>ttf_font_button</tabstop>
@@ -1234,6 +1255,7 @@
   <tabstop>fontCombo</tabstop>
   <tabstop>font_autoscale_combo</tabstop>
   <tabstop>font_text_scale_spin</tabstop>
+  <tabstop>sub_pos_slider</tabstop>
   <tabstop>ass_font_scale_spin</tabstop>
   <tabstop>ass_line_spacing_spin</tabstop>
   <tabstop>style_font_combo</tabstop>
@@ -1250,6 +1272,7 @@
   <tabstop>style_border_style_combo</tabstop>
   <tabstop>style_outline_spin</tabstop>
   <tabstop>style_shadow_spin</tabstop>
+  <tabstop>force_ass_styles</tabstop>
  </tabstops>
  <resources/>
  <connections>

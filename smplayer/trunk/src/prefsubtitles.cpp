@@ -151,6 +151,8 @@ void PrefSubtitles::setData(Preferences * pref) {
 	style_marginl_spin->setValue(pref->ass_styles.marginl);
 	style_marginr_spin->setValue(pref->ass_styles.marginr);
 	style_marginv_spin->setValue(pref->ass_styles.marginv);
+
+	setForceAssStyles(pref->force_ass_styles);
 }
 
 void PrefSubtitles::getData(Preferences * pref) {
@@ -190,6 +192,8 @@ void PrefSubtitles::getData(Preferences * pref) {
 	TEST_AND_SET(pref->ass_styles.marginv, style_marginv_spin->value());
 
 	pref->ass_styles.exportStyles( Paths::subtitleStyleFile() );
+
+	TEST_AND_SET(pref->force_ass_styles, forceAssStyles());
 }
 
 void PrefSubtitles::checkBorderStyleCombo( int index ) {
@@ -326,6 +330,14 @@ void PrefSubtitles::setAssLineSpacing(int spacing) {
 
 int PrefSubtitles::assLineSpacing() {
 	return ass_line_spacing_spin->value();
+}
+
+void PrefSubtitles::setForceAssStyles(bool b) {
+	force_ass_styles->setChecked(b);
+}
+
+bool PrefSubtitles::forceAssStyles() {
+	return force_ass_styles->isChecked();
 }
 
 void PrefSubtitles::on_ass_subs_button_toggled(bool b) {
@@ -491,6 +503,10 @@ void PrefSubtitles::createHelp() {
 	setWhatsThis(style_shadow_spin, tr("Shadow"), 
         tr("If border style is set to <i>outline</i>, this option specifies "
            "the depth of the drop shadow behind the text in pixels.") );
+
+	setWhatsThis(force_ass_styles, tr("Apply to ass files too"), 
+        tr("If this option is checked, the style defined above will be "
+           "applied to ass subtitles too.") );
 }
 
 #include "moc_prefsubtitles.cpp"

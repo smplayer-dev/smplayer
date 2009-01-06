@@ -1452,6 +1452,11 @@ void Core::startMplayer( QString file, double seek ) {
 			proc->addArgument("-subfont-text-scale"); // Old versions (like 1.0rc2) need this
 			proc->addArgument(QString::number(pref->ass_styles.fontsize));
 		}
+		// Force styles for ass subtitles too
+		if (pref->force_ass_styles) {
+			proc->addArgument("-ass-force-style");
+			proc->addArgument(pref->ass_styles.toString());
+		}
 	} else {
 		// NO ASS:
 		if (pref->freetype_support) proc->addArgument("-noass");
