@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="zh">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1193,7 +1194,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1235"/>
         <source>Flip i&amp;mage</source>
-        <translation>裁剪图像(&amp;M)</translation>
+        <translation>垂直翻转(&amp;M)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1355"/>
@@ -1393,7 +1394,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1236"/>
         <source>Mirr&amp;or image</source>
-        <translation>镜像(&amp;O)</translation>
+        <translation>水平翻转(&amp;O)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1350"/>
@@ -1460,17 +1461,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1471"/>
         <source>&amp;Always</source>
-        <translation>总是(&amp;A)</translation>
+        <translation>始终置顶(&amp;A)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1472"/>
         <source>&amp;Never</source>
-        <translation>从不(&amp;N)</translation>
+        <translation>不置顶(&amp;N)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1473"/>
         <source>While &amp;playing</source>
-        <translation>当播放时(&amp;P)</translation>
+        <translation>播放时置顶(&amp;P)</translation>
     </message>
 </context>
 <context>
@@ -1774,12 +1775,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
         <source>The host name of the proxy.</source>
-        <translation>代理的主机名。</translation>
+        <translation>代理服务器的主机名。</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
         <source>The port of the proxy.</source>
-        <translation>代理的端口。</translation>
+        <translation>代理服务器的端口。</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
@@ -4899,7 +4900,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="712"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
-        <translation type="unfinished"></translation>
+        <translation>后一种方式对于有很多文件的情况比较高效。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="149"/>
@@ -6697,17 +6698,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="507"/>
         <source>Apply style to ass files too</source>
-        <translation type="unfinished"></translation>
+        <translation>对 ass 文件也使用自定义风格</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="509"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果勾选了此选项，定义的风格也将被应用于 ass 字幕。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1197"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation type="unfinished"></translation>
+        <translation>对 ass 文件也使用自定义风格(&amp;P)</translation>
     </message>
 </context>
 <context>
@@ -7287,7 +7288,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
         <source>Usually the first frames are black, so it&apos;s a good idea to skip some seconds at the beginning of the video. This option allows to specify how many seconds will be skipped.</source>
-        <translation type="unfinished"></translation>
+        <translation>通常开始的几帧总是黑屏，所以可能跳过开头的几秒。这个选项允许指定跳过的秒数。</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
@@ -7297,7 +7298,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="50"/>
         <source>Some frames will be extracted from the video in order to create the preview. Here you can choose the image format for the extracted frames. PNG may give better quality.</source>
-        <translation type="unfinished"></translation>
+        <translation>将从视频中导出几帧来生成预览。在这里您可以指定导出的格式。PNG 将提供更好的画质。</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="113"/>
