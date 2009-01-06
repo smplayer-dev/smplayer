@@ -1759,82 +1759,82 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>Http</source>
-        <translation type="unfinished">Http</translation>
+        <translation>Http</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>Socks5</source>
-        <translation type="unfinished">Socks5</translation>
+        <translation>Socks5</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished">プロキシの使用を有効/無効にします。</translation>
+        <translation>プロキシの使用を有効/無効にします。</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
         <source>The host name of the proxy.</source>
-        <translation type="unfinished">プロキシのホスト名です。</translation>
+        <translation>プロキシのホスト名です。</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished">プロキシのポートです。</translation>
+        <translation>プロキシのポートです。</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="unfinished">プロキシが認証を必要とする場合、これはユーザー名を設定します。</translation>
+        <translation>プロキシが認証を必要とする場合、これはユーザー名を設定します。</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="36"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished">プロキシのパスワードです。&lt;b&gt;警告:&lt;/b&gt; パスワードは構成ファイルにプレーン テキストとして保存されます。</translation>
+        <translation>プロキシのパスワードです。&lt;b&gt;警告:&lt;/b&gt; パスワードは構成ファイルにプレーン テキストとして保存されます。</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="37"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished">使用されるプロキシの種類を選択します。</translation>
+        <translation>使用されるプロキシの種類を選択します。</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="13"/>
         <source>Advanced options</source>
-        <translation type="unfinished"></translation>
+        <translation>高度なオプション</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="19"/>
         <source>Proxy</source>
-        <translation type="unfinished">プロキシ</translation>
+        <translation>プロキシ</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="25"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished">プロキシを有効にする(&amp;E)</translation>
+        <translation>プロキシを有効にする(&amp;E)</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="38"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished">ホスト(&amp;H):</translation>
+        <translation>ホスト(&amp;H):</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="51"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished">ポート(&amp;P):</translation>
+        <translation>ポート(&amp;P):</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="71"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished">ユーザー名(&amp;U):</translation>
+        <translation>ユーザー名(&amp;U):</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="84"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished">パスワード(&amp;S):</translation>
+        <translation>パスワード(&amp;S):</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="101"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished">種類(&amp;T):</translation>
+        <translation>種類(&amp;T):</translation>
     </message>
 </context>
 <context>
@@ -1993,7 +1993,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
         <source>&amp;Options</source>
-        <translation type="unfinished"></translation>
+        <translation>オプション(&amp;O)</translation>
     </message>
 </context>
 <context>
@@ -4200,7 +4200,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="138"/>
         <source>C&amp;orrect PTS:</source>
-        <translation type="unfinished"></translation>
+        <translation>PTS を修正する(&amp;O):</translation>
     </message>
 </context>
 <context>
@@ -4980,7 +4980,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="777"/>
         <source>Add black borders on fullscreen</source>
-        <translation>全画面表示で黒枠を表示する</translation>
+        <translation>全画面表示時に黒枠を追加する</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="780"/>
@@ -4990,7 +4990,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="500"/>
         <source>&amp;Add black borders on fullscreen</source>
-        <translation>全画面表示で黒枠を表示する(&amp;A)</translation>
+        <translation>全画面表示時に黒枠を追加する(&amp;A)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="101"/>
@@ -5393,7 +5393,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="87"/>
         <source>Activate option in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD メニューのオプションをアクティブにする</translation>
     </message>
 </context>
 <context>
@@ -6823,17 +6823,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="507"/>
         <source>Apply style to ass files too</source>
-        <translation type="unfinished"></translation>
+        <translation>ass ファイルにもスタイルを適用する</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="509"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションがチェックされている場合、上で定義されたスタイルは ass 字幕にも適用されます。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1197"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation type="unfinished"></translation>
+        <translation>ass ファイルにもスタイルを適用する(&amp;P)</translation>
     </message>
 </context>
 <context>
