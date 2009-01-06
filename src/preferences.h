@@ -172,6 +172,7 @@ public:
 
 	// ASS styles
 	AssStyles ass_styles;
+	bool force_ass_styles; // Use ass styles even for ass files
 
 	//! If false, options requiring freetype won't be used
 	bool freetype_support;

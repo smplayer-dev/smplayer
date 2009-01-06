@@ -47,6 +47,7 @@ public:
 	void load(QSettings * set);
 
 	bool exportStyles(const QString & filename);
+	QString toString();
 };
 
 #endif

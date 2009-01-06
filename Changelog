@@ -1,5 +1,9 @@
 [b]Version 0.6.7[/b]:
 
+(2009-01-05)
+ * Added an option in Preferences->Subtitles to apply the ass style defined by
+   the user to ass subtitles (overriding the style defined in the ass file).
+
 (2009-01-04)
  * Now the dvd names follow the same scheme as mplayer: 
    dvd://title/device (where device can also be a folder or iso file).

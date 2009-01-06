@@ -189,6 +189,8 @@ void Preferences::reset() {
 	// Nothing to do, default values are given in
 	// AssStyles constructor
 
+	force_ass_styles = false;
+
 	freetype_support = true;
 
 
@@ -536,6 +538,7 @@ void Preferences::save() {
 
 	// ASS styles
 	ass_styles.save(set);
+	set->setValue("force_ass_styles", force_ass_styles);
 
 	set->setValue("freetype_support", freetype_support);
 
@@ -896,6 +899,7 @@ void Preferences::load() {
 
 	// ASS styles
 	ass_styles.load(set);
+	force_ass_styles = set->value("force_ass_styles", force_ass_styles).toBool();
 
 	freetype_support = set->value("freetype_support", freetype_support).toBool();
 

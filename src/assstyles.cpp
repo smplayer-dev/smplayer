@@ -116,3 +116,22 @@ bool AssStyles::exportStyles(const QString & filename) {
 	}
 	return false;
 }
+
+QString AssStyles::toString() {
+	int alignment = halignment;
+	if (valignment == 1) alignment += 8; // Middle
+	else
+	if (valignment == 2) alignment += 4; // Top
+
+	QString s = QString("Name=Default,Fontname=%1,Fontsize=%2,PrimaryColour=&H%3,BackColour=&H%4,"
+                        "Bold=%5,Italic=%6,Alignment=%7,BorderStyle=%8,Outline=%9,")
+                        .arg(fontname).arg(fontsize).arg(ColorUtils::colorToAABBGGRR(primarycolor))
+                        .arg(ColorUtils::colorToAABBGGRR(backcolor))
+                        .arg(bold ? 1 : 0).arg(italic ? 1 : 0)
+                        .arg(alignment).arg(borderstyle).arg(outline);
+
+	s += QString("Shadow=%1,MarginL=%2,MarginR=%3,MarginV=%4")
+                 .arg(shadow).arg(marginl).arg(marginr).arg(marginv);
+
+	return s;
+}

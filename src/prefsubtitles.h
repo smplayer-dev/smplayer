@@ -84,6 +84,9 @@ protected:
 	void setAssLineSpacing(int spacing);
 	int assLineSpacing();
 
+	void setForceAssStyles(bool b);
+	bool forceAssStyles();
+
 	void setFontFuzziness(int n);
 	int fontFuzziness();
 
