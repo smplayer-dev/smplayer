@@ -1426,16 +1426,22 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( "-ass-font-scale");
 		proc->addArgument( QString::number(mset.sub_scale_ass) );
 
-		// Load the styles.ass file
-		if (!QFile::exists(Paths::subtitleStyleFile())) {
-			// If file doesn't exist, create it
-			pref->ass_styles.exportStyles(Paths::subtitleStyleFile());
-		}
-		if (QFile::exists(Paths::subtitleStyleFile())) {
-			proc->addArgument("-ass-styles");
-			proc->addArgument( Paths::subtitleStyleFile() );
+		if (!pref->force_ass_styles) {
+			// Load the styles.ass file
+			if (!QFile::exists(Paths::subtitleStyleFile())) {
+				// If file doesn't exist, create it
+				pref->ass_styles.exportStyles(Paths::subtitleStyleFile());
+			}
+			if (QFile::exists(Paths::subtitleStyleFile())) {
+				proc->addArgument("-ass-styles");
+				proc->addArgument( Paths::subtitleStyleFile() );
+			} else {
+				qWarning("Core::startMplayer: '%s' doesn't exist", Paths::subtitleStyleFile().toUtf8().constData());
+			}
 		} else {
-			qWarning("Core::startMplayer: '%s' doesn't exist", Paths::subtitleStyleFile().toUtf8().constData());
+			// Force styles for ass subtitles too
+			proc->addArgument("-ass-force-style");
+			proc->addArgument(pref->ass_styles.toString());
 		}
 		// Use the same font for OSD
 		if (!pref->ass_styles.fontname.isEmpty()) {
@@ -1451,11 +1457,6 @@ void Core::startMplayer( QString file, double seek ) {
 			proc->addArgument(QString::number(pref->ass_styles.fontsize));
 			proc->addArgument("-subfont-text-scale"); // Old versions (like 1.0rc2) need this
 			proc->addArgument(QString::number(pref->ass_styles.fontsize));
-		}
-		// Force styles for ass subtitles too
-		if (pref->force_ass_styles) {
-			proc->addArgument("-ass-force-style");
-			proc->addArgument(pref->ass_styles.toString());
 		}
 	} else {
 		// NO ASS:
