@@ -1194,7 +1194,7 @@
            <item>
             <widget class="QCheckBox" name="force_ass_styles" >
              <property name="text" >
-              <string>A&amp;pply styles to ass files too</string>
+              <string>A&amp;pply style to ass files too</string>
              </property>
             </widget>
            </item>

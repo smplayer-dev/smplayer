@@ -504,7 +504,7 @@ void PrefSubtitles::createHelp() {
         tr("If border style is set to <i>outline</i>, this option specifies "
            "the depth of the drop shadow behind the text in pixels.") );
 
-	setWhatsThis(force_ass_styles, tr("Apply to ass files too"), 
+	setWhatsThis(force_ass_styles, tr("Apply style to ass files too"), 
         tr("If this option is checked, the style defined above will be "
            "applied to ass subtitles too.") );
 }
