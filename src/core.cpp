@@ -1157,18 +1157,7 @@ void Core::startMplayer( QString file, double seek ) {
 	if (mdat.type==TYPE_DVD) {
 		DiscData disc_data = DiscName::split(file);
 		dvd_folder = disc_data.device;
-
 		if (dvd_folder.isEmpty()) dvd_folder = pref->dvd_device;
-		// Remove trailing "/"
-		if (dvd_folder.endsWith("/")) {
-#ifdef Q_OS_WIN
-			QRegExp r("^[A-Z]:/$");
-			int pos = r.indexIn(dvd_folder);
-			qDebug("Core::startMplayer: drive check: '%s': regexp: %d", dvd_folder.toUtf8().data(), pos);
-			if (pos == -1)
-#endif
-				dvd_folder = dvd_folder.remove( dvd_folder.length()-1, 1);
-		}
 		dvd_title = disc_data.title;
 		file = disc_data.protocol + "://" + QString::number(dvd_title);
 	}
