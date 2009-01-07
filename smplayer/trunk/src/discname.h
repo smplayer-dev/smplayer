@@ -21,6 +21,8 @@
 
 #include <QString>
 
+#define DISCNAME_TEST 0
+
 class DiscData {
 
 public:
@@ -45,10 +47,19 @@ public:
 class DiscName {
 
 public:
+	enum Disc { DVD = 1, DVDNAV = 2, VCD = 3, CDDA = 4 };
 
-	static QString join(int title, const QString & device, bool use_dvdnav = false);
+	static QString join(Disc type, int title, const QString & device);
 	static QString join(const DiscData & d);
-	static DiscData split(const QString & dvd_url, bool *ok = 0);
+	static QString joinDVD(int title, const QString & device, bool use_dvdnav = false);
+	static DiscData split(const QString & disc_url, bool *ok = 0);
+
+#if DISCNAME_TEST
+	static void test();
+#endif
+
+protected:
+	static QString removeTrailingSlash(const QString & device);
 };
 
 #endif

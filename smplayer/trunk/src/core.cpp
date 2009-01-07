@@ -186,6 +186,10 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	// Windows screensaver
 	win_screensaver = new WinScreenSaver();
 #endif
+
+#if DISCNAME_TEST
+	DiscName::test();
+#endif
 }
 
 
@@ -355,7 +359,7 @@ void Core::open(QString file, int seek) {
 
 	if ( (fi.exists()) && (fi.suffix().toLower()=="iso") ) {
 		qDebug("Core::open: * identified as a dvd iso");
-		openDVD( DiscName::join(1, file, false) );
+		openDVD( DiscName::joinDVD(1, file, false) );
 	}
 	else
 	if ( (fi.exists()) && (!fi.isDir()) ) {
@@ -372,7 +376,7 @@ void Core::open(QString file, int seek) {
 		file = QFileInfo(file).absoluteFilePath();
 		if (Helper::directoryContainsDVD(file)) {
 			qDebug("Core::open: * directory contains a dvd");
-			openDVD( DiscName::join(1, file, false) );
+			openDVD( DiscName::joinDVD(1, file, false) );
 		} else {
 			qDebug("Core::open: * directory doesn't contain a dvd");
 			qDebug("Core::open:   opening nothing");
