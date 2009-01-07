@@ -6835,17 +6835,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="507"/>
         <source>Apply style to ass files too</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplicar estilos a ficheiros ass</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="509"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se marcar esta opção, o estilo acima definido será também aplicado às legendas.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1197"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;plicar estilos a ficheiros ass</translation>
     </message>
 </context>
 <context>
