@@ -3092,7 +3092,7 @@ void BaseGui::openDVD() {
 		configureDiscDevices();
 	} else {
 		if (playlist->maybeSave()) {
-			core->openDVD( DiscName::join(1, pref->dvd_device, false) );
+			core->openDVD( DiscName::joinDVD(1, pref->dvd_device, false) );
 		}
 	}
 }
@@ -3115,7 +3115,7 @@ void BaseGui::openDVDFromFolder() {
 
 void BaseGui::openDVDFromFolder(QString directory) {
 	pref->last_dvd_directory = directory;
-	core->openDVD( DiscName::join(1, directory, false) );
+	core->openDVD( DiscName::joinDVD(1, directory, false) );
 }
 
 void BaseGui::openDirectory() {
