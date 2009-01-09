@@ -3092,7 +3092,11 @@ void BaseGui::openDVD() {
 		configureDiscDevices();
 	} else {
 		if (playlist->maybeSave()) {
+#if DVDNAV_SUPPORT
+			core->openDVD( DiscName::joinDVD(pref->use_dvdnav ? 0: 1, pref->dvd_device, pref->use_dvdnav) );
+#else
 			core->openDVD( DiscName::joinDVD(1, pref->dvd_device, false) );
+#endif
 		}
 	}
 }
@@ -3115,7 +3119,11 @@ void BaseGui::openDVDFromFolder() {
 
 void BaseGui::openDVDFromFolder(QString directory) {
 	pref->last_dvd_directory = directory;
+#if DVDNAV_SUPPORT
+	core->openDVD( DiscName::joinDVD(pref->use_dvdnav ? 0: 1, directory, pref->use_dvdnav) );
+#else
 	core->openDVD( DiscName::joinDVD(1, directory, false) );
+#endif
 }
 
 void BaseGui::openDirectory() {
