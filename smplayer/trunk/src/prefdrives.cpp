@@ -46,6 +46,10 @@ PrefDrives::PrefDrives(QWidget * parent, Qt::WindowFlags f)
 {
 	setupUi(this);
 
+#if !DVDNAV_SUPPORT
+	use_dvdnav_check->hide();
+#endif
+
 	// DVD device combo
 	// In windows, insert the drives letters
 #ifdef Q_OS_WIN
@@ -98,6 +102,10 @@ void PrefDrives::retranslateStrings() {
 void PrefDrives::setData(Preferences * pref) {
 	setDVDDevice( pref->dvd_device );
 	setCDRomDevice( pref->cdrom_device );
+
+#if DVDNAV_SUPPORT
+	setUseDVDNav( pref->use_dvdnav );
+#endif
 }
 
 void PrefDrives::getData(Preferences * pref) {
@@ -105,6 +113,10 @@ void PrefDrives::getData(Preferences * pref) {
 
 	pref->dvd_device = dvdDevice();
 	pref->cdrom_device = cdromDevice();
+
+#if DVDNAV_SUPPORT
+	pref->use_dvdnav = useDVDNav();
+#endif
 }
 
 void PrefDrives::setDVDDevice( QString dir ) {
@@ -123,6 +135,16 @@ QString PrefDrives::cdromDevice() {
 	return cdrom_device_combo->currentText();
 }
 
+#if DVDNAV_SUPPORT
+void PrefDrives::setUseDVDNav(bool b) {
+	use_dvdnav_check->setChecked(b);
+}
+
+bool PrefDrives::useDVDNav() {
+	return use_dvdnav_check->isChecked();
+}
+#endif
+
 void PrefDrives::createHelp() {
 	clearHelp();
 
@@ -132,6 +154,18 @@ void PrefDrives::createHelp() {
 
 	setWhatsThis(dvd_device_combo, tr("DVD device"),
 		tr("Choose your DVD device. It will be used to play DVDs.") );
+
+#if DVDNAV_SUPPORT
+	setWhatsThis(use_dvdnav_check, tr("Enable DVD menus"),
+		tr("If this option is checked, smplayer will play DVDs using "
+           "dvdnav. Requires a recent version of mplayer compiled with dvdnav "
+           "support.") +"<br>" +
+        tr("<b>Note 1</b>: cache will be disabled, this can affect performance.") +"<br>"+
+        tr("<b>Note 2</b>: you may want to assign the action "
+           "\"activate option in DVD menus\" to one of the mouse buttons.") + "<br>"+
+        tr("<b>Note 3</b>: this feature is under development, expect a lot of "
+           "issues with it."));
+#endif
 }
 
 #include "moc_prefdrives.cpp"

@@ -359,7 +359,11 @@ void Core::open(QString file, int seek) {
 
 	if ( (fi.exists()) && (fi.suffix().toLower()=="iso") ) {
 		qDebug("Core::open: * identified as a dvd iso");
+#if DVDNAV_SUPPORT
+		openDVD( DiscName::joinDVD(1, file, pref->use_dvdnav) );
+#else
 		openDVD( DiscName::joinDVD(1, file, false) );
+#endif
 	}
 	else
 	if ( (fi.exists()) && (!fi.isDir()) ) {
@@ -376,7 +380,11 @@ void Core::open(QString file, int seek) {
 		file = QFileInfo(file).absoluteFilePath();
 		if (Helper::directoryContainsDVD(file)) {
 			qDebug("Core::open: * directory contains a dvd");
+#if DVDNAV_SUPPORT
+			openDVD( DiscName::joinDVD(1, file, pref->use_dvdnav) );
+#else
 			openDVD( DiscName::joinDVD(1, file, false) );
+#endif
 		} else {
 			qDebug("Core::open: * directory doesn't contain a dvd");
 			qDebug("Core::open:   opening nothing");
@@ -1159,7 +1167,8 @@ void Core::startMplayer( QString file, double seek ) {
 		dvd_folder = disc_data.device;
 		if (dvd_folder.isEmpty()) dvd_folder = pref->dvd_device;
 		dvd_title = disc_data.title;
-		file = disc_data.protocol + "://" + QString::number(dvd_title);
+		file = disc_data.protocol + "://";
+		if (dvd_title > 0) file += QString::number(dvd_title);
 	}
 
 	// URL
@@ -1642,11 +1651,15 @@ void Core::startMplayer( QString file, double seek ) {
 
 	int cache = 0;
 	switch (mdat.type) {
-		case TYPE_FILE : cache = pref->cache_for_files; break;
-		case TYPE_DVD : cache = pref->cache_for_dvds; break;
-		case TYPE_STREAM : cache = pref->cache_for_streams; break;
-		case TYPE_VCD : cache = pref->cache_for_vcds; break;
-		case TYPE_AUDIO_CD : cache = pref->cache_for_audiocds; break;
+		case TYPE_FILE	 	: cache = pref->cache_for_files; break;
+		case TYPE_DVD 		: cache = pref->cache_for_dvds; 
+#if DVDNAV_SUPPORT
+							  if ((file.startsWith("dvdnav")) && (pref->use_dvdnav)) cache = 0;
+#endif
+		                      break;
+		case TYPE_STREAM 	: cache = pref->cache_for_streams; break;
+		case TYPE_VCD 		: cache = pref->cache_for_vcds; break;
+		case TYPE_AUDIO_CD	: cache = pref->cache_for_audiocds; break;
 		default: cache = 0;
 	}
 

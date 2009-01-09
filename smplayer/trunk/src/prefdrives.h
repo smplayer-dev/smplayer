@@ -21,6 +21,7 @@
 
 #include "ui_prefdrives.h"
 #include "prefwidget.h"
+#include "config.h"
 
 class Preferences;
 
@@ -49,6 +50,11 @@ protected:
 
 	void setCDRomDevice( QString dir );
 	QString cdromDevice();
+
+#if DVDNAV_SUPPORT
+	void setUseDVDNav(bool b);
+	bool useDVDNav();
+#endif
 
 protected:
 	virtual void retranslateStrings();

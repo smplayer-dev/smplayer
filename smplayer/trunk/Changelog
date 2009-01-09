@@ -1,5 +1,13 @@
 [b]Version 0.6.7[/b]:
 
+(2009-01-08)
+ * (Linux) Added the option "Enable DVD menus" in Preferences->Drives. If 
+   this option is checked, when you select "DVD from drive" or "DVD from 
+   folder" under the Open menu, the DVD will be played using dvdnav (including 
+   menus).
+   Note: this is experimental, there are still a lot of things to be fixed.
+   Use at own your own risk.
+
 (2009-01-05)
  * Added an option in Preferences->Subtitles to apply the ass style defined by
    the user to ass subtitles (overriding the style defined in the ass file).
