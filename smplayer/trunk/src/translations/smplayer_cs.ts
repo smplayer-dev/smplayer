@@ -1209,12 +1209,12 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="1284"/>
         <source>S&amp;ize -</source>
-        <translation>Zvě&amp;tšit</translation>
+        <translation>Z&amp;menšit</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1285"/>
         <source>Si&amp;ze +</source>
-        <translation>Z&amp;menšit</translation>
+        <translation>Zvě&amp;tšit</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1256"/>
