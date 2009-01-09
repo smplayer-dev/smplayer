@@ -12,7 +12,6 @@
 <li><a href="#smplayer_mplayer">Někdy čtu SMPlayer, jindy MPlayer, čím to je? Jedná se o stejný přehrávač?</a></li>
 <li><a href="#dvd_menus">DVD menu, proč je nevidím?</a></li>
 <li><a href="#output_drivers">Ovladače výstupu audia/videa (directx, xv, x11, gl, alsa, oss, ...) - co to je? Které si mám vybrat?</a></li>
-<li><a href="#nvidia_problems">Mám grafickou kartu nVidia a ovladač gl/gl2 nefunguje, proč?</a></li>
 <li><a href="#screenshot">Chci si pořídit snímek obrazovky, ale tato funkce je zakázána, proč?</a></li>
 <li><a href="#audio_track">Chci změnit zvukovou stopu, ale nc se neděje, zvuk se nezmění. Musím video zasatvit a pustit znovu, aby se změna projevila. Proč?</a></li>
 <li><a href="#shortcuts">Jak změním nastavení klávesových zkratek?</a></li>
@@ -22,7 +21,6 @@
 <li><a href="#audio_cd">Jak můžu přehrávat Audio CD?</a></li>
 <li><a href="#bookmark">Kde jsou záložky?</a></li>
 <li><a href="#mplayer_errors">Když chci přehrát soubor, nic se neděje. Proč?</a></li>
-<li><a href="#audio_equalizer">Našel jsem video-ekvalizér, existuje také audio-ekvalizér?</a></li>
 <li><a href="#tv">Chystá se podpora TV?</a></li>
 <li><a href="#mplayer_restart">Použitím mnoha položek menu způsobuje chvilkové vypadnutí videa. Proč?</a></li>
 <li><a href="#crash">SMPlayer havaroval, ale zvuk stále běží. Proč?</a></li>
@@ -31,6 +29,7 @@
 <li><a href="#subtitles_border">Chci zobrazit titulky v černém pásu pod videem a ne přímo v něm. Jak na to?</a></li>
 <li><a href="#expand_filter">Chci titulky v černém pásu pod videem pro VŠECHNA videa, je to možné?</a></li>
 <li><a href="#monitors">(Windows) Video je vidět pouze na jednom monitoru, ale na druhém ne. Proč?</a></li>
+<li><a href="#screensaver1">Spořič obrazovky se zapne při sledování filmu, proč?</a></li>
 <li><a href="#volume_loud">Při spuštění přehrávání je zvuk příliš hlasitý, co s tím?</a></li>
 <li><a href="#vista">(Windows) Používám Windows Vista a při přehrávání videa se zakáže Aero. Proč?</a></li>
 <li><a href="#config_file">Kde je uložen soubor s nastavením?</a></li>
@@ -52,7 +51,7 @@ SMPlayer je vlastně pouze grafické okno s menu, nastavením atd. (s několika 
 <li><a name="dvd_menus"></a>
 <b>DVD menu, proč je nevidím?</b>
 <p>
-V současné době MPlayer nepodporuje zobrazení DVD menu... I když je možné jej přeložit s podporou dvdnav, není ještě tato funkcionalita dostatečně odladěna.
+V současné době MPlayer nepodporuje zobrazení DVD menu... ale podpora se právě vytváří.
 
 I přes absenci DVD menu je stále možné vybrat si požadovaný titul, kapitolu, zvukovou stopu, titulky apod. pomocí menu SMPlayeru.
 </li>
@@ -75,14 +74,6 @@ Jako zvukový ovladač pro GNU/Linux používejte alsa nebo oss. Ovladače esd a
 Ve windows je možné použít dsound a win32. Ovladač dsound může někdy způsobovat problémy synchronizace zvuku a obrazu, pokud k tomu dochází, použijte raději win32.
 <p>
 Ostatní ovladače slouží k uložení videa do obrázků nebo uložení zvukové stopy na disk. Tyto ovladače nejsou oficiálně podporovány SMPlayerem, použijte je pouze tehdy pokud víte co děláte.
-</li>
-
-<li><a name="nvidia_problems"></a>
-<b>Mám grafickou kartu nVidia a ovladač gl/gl2 nefunguje, proč?</b>
-<p>
-Ovladače nVidia pro Windows nejspíše obsahují chybu. Ovladač gl/gl2 funguje, přehráváte-li video přímo pomocí MPlayeru, ale nefunguje, přehráváte-li video pomocí obslužné aplikace. Řešení zatím není známo, můžete použít ovladač directx namísto gl/gl2 nebo umožnit vykreslení videa do zvláštního okna MPlayeru (<i>Nastavení -> Pokročilé</i>).
-<p>
-<b>Update: problém je vyřešen v MPlayeru verze r25972.</b>
 </li>
 
 <li><a name="screenshot"></a>
@@ -151,16 +142,10 @@ Nejspíše jej nedokáže přehrát MPlayer. Otevřete log MPlayeru (<i>Možnost
 Ve Windows je celkem běžné, že některé kompilace MPlayeru selžou, jelikož nebyly sestaveny s podporou funkce, kterou SMPlayer chce použít. Chybová hlášení by měla poskytnout představu o podstatě problému. Pokud je problémem cache, zkuste ji vypnout v <i>Nastavení -> Výkon</i>. Pokud je problémem fontconfig, zkuste použít ttf fonty namísto systémových.
 </li>
 
-<li><a name="audio_equalizer"></a>
-<b>Našel jsem video-ekvalizér, existuje také audio-ekvalizér?</b>
-<p>
-Ano!! :)
-</li>
-
 <li><a name="tv"></a>
 <b>Chystá se podpora TV?</b>
 <p>
-V nejbližší budoucnosti ne. Nemám k dispozici TV kartu, takže nemám jak danou funkcionalitu implementovat.
+V nejbližší budoucnosti ne, ale např. editor kanálů je v plánu.
 </li>
 
 <li><a name="mplayer_restart"></a>
@@ -180,25 +165,15 @@ Každopádně však prosím, abyste takovou havári nahlásili.
 <li><a name="playlist_problem"></a>
 <b>Při přehrávání playlistu SMPlayer sám nepustí další soubor. Proč?</b>
 <p>
-Nejspíše používáte lokalizovaný MPlayer. SMPlayer čte výstup MPlayeru a hledá v něm data v angličtině. V tomto případě hledá řetězec "Exiting... (End of file)". Lokalizovaný MPlayer vypisuje tuto informaci jinak a SMPlayer pak špatně analyzuje jeho výstup. Naneštěstí jazyk MPlayeru nelze změnit jinak než kompilací. Novější verze SMPlayeru proto umožňuje nastavit řetězec ručně v <i>Nastavení -> Pokročilé -> Jazyk MPlayeru</i>).
-
-looks for some English texts in the output of MPlayer. In this case it
-looks for "Exiting... (End of file)". As MPlayer displays the messages
-in another language SMPlayer fails and won't work properly.
-Unfortunately the language of MPlayer can't be changed without
-recompiling it. But recents versions of SMPlayer allow to change the
-messages that it should look for (<i>Preferences -> Advanced -> MPlayer
-language</i>).
+Použijte SMplayer 0.6.5 a MPlayer SVN r28066 nebo vyšší.
 </li>
 
 <li><a name="mplayer_recommended"></a>
 <b>Jaká je doporučovaná verze MPlayeru?</b>
 <p>
-SMPlayer funguje s MPlayerem 1.0rc1 a vyšší. I to je však hodně zastaralá verze a není dobré ji používat. Novější verze obsahují hodně oprav a nových funkcí, např. přepínání zvukových stop nebo seekování v flv a ogm souborech.
+Osobně doporučuji nejméně MPlayer SVN r25843 nebo vyšší (vydáno 23.01.2008).
 <p>
-Používejte minimálně MPlayer 1.0rc2, ale kvůli novým funkcím doporučuji MPlayer SVN r25843 nebo vyšší (vydáno 23.01.2008).
-<p>
-Na <a href="http://www.mplayerhq.hu/design7/dload.html">stránkách MPlayeru</a> najdete tar.bz2 z SVN připravený ke kompilaci, což je jednoduchá záležitost (v Linuxu, smaozřejmě...).
+SMPlayer nejspíše bude fungovat i se staršími verzemi, ale někteé funkce nebudou fungovat správně.
 </li>
 
 <li><a name="subtitles_border"></a>
@@ -210,17 +185,33 @@ Na <a href="http://www.mplayerhq.hu/design7/dload.html">stránkách MPlayeru</a>
 <li><a name="expand_filter"></a>
 <b>Chci titulky v černém pásu pod videem pro VŠECHNA videa, je to možné?</b>
 <p>
-V současné době je možné přidat video filtr přímo pomocí <b>expand=:::::4/3</b> v <i>Nastavení -> Pokročilé -> Nastavení MPlayeru</i>.
+Může přímo přidat filtro pomocí <b>expand=:::::4/3</b> v <i>Nastavení -> Pokročilé -> Nastavení MPlayeru</i>.
+<p>
+Nebo pomocí jedné z těchto možností:
+	<ul>
+	<li>Zaškrtněte <b>Přidat černé okraje v režimu celé obrazovky</b> v <i>Nastavení -> Obecné -> Video</i></li>
+	<li>Přidejte <b>add_letterbox true</b> do seznamu akcí v <i>Nastavení -> Pokročilé</i></li>
+	</ul>
 </li>
 
 <li><a name="monitors"></a>
 <b>(Windows) Video je vidět pouze na jednom monitoru, ale na druhém ne. Proč?</b>
 <p>
-Pouíváte-li ovladač <i>directx</i> (<i>Nastavení -> Obecné</i>), zobrazí se video pouze na prvním monitoru. Použijete-li ovladače <i>directx:noaccel</i>, <i>gl</i> nebo <i>gl2</i>, zobreazí se video na všech monitorech.
+Pouíváte-li ovladač <i>directx</i> (<i>Nastavení -> Obecné -> Video</i>), zobrazí se video pouze na jednom monitoru. Použijete-li ovladače <i>gl</i>, <i>gl2</i> nebo <i>direct3d</i>, zobrazí se video na všech monitorech.
 <p>
-Majitelé karet nVidia, přečtěte si <a href="#nvidia_problems">toto</a>.
+Pokud preferujete ovladač <i>directx</i>, můžete zvolit obrazovku pomocí menu <i>Video -> Obrazovka</i>.
+</li>
+
+<li><a name="screensaver1"></a>
+<b>Spořič obrazovky se zapne při sledování filmu, proč?</b>
 <p>
-Pokud preferujete ovladač <i>directx</i>, přidejte přepínač <i>-adapter</i> v <i>Nastavení -> Pokročilé -> Nastavení MPlayeru</i>. <b>-adapter 1</b> Zobrazí video na prvním monitoru, <b>-adapter 2</b> jej zobrazí na druhém, atd. (snad).
+Používáte-li novější verzi MPlayeru, zkuste přidat
+<pre>heartbeat-cmd="gnome-screensaver-command -p &"</pre>
+nebo
+<pre>heartbeat-cmd="dcop kdesktop KScreensaverIface enable false &>/dev/null && dcop kdesktop KScreensaverIface enable true &>/dev/null"</pre>
+do svého souboru s nastavením ~/.mplayer/config.
+<p>
+Případně se podívejte do manuálových stránek MPlayeru.
 </li>
 
 <li><a name="volume_loud"></a>
@@ -228,13 +219,13 @@ Pokud preferujete ovladač <i>directx</i>, přidejte přepínač <i>-adapter</i>
 <p>
 Zaškrtněte možnost <i>Změnit hlasitost před přehráváním</i> v <i>Nastavení -> Obecné -> Audio</i>.
 <p>
-Toto nastavení vyžaduje MPlayer, který podporuje přepínač <i>-volume</i>. Poskytovaný balíček pro Windows tento přepínač podporuje. Patch můžete najít <a href="http://smplayer.svn.sourceforge.net/viewvc/*checkout*/smplayer/mplayer-builds/patches/startupvol.diff?revision=467">zde</a>.
+Toto nastavení vyžaduje MPlayer SVN r27872 nebo vyšší.
 </li>
 
 <li><a name="vista"></a>
 <b>(Windows) Používám Windows Vista a při přehrávání videa se zakáže Aero. Proč?</b>
 <p>
-K tomu dochází, pokud používáte ovladač <i>directx</i> (<i>Nastavení -> Obecné</i>). Změňte jej na <i>gl</i> nebo <i>gl2</i> (majitelé karet nVidia, prosím <a href="#nvidia_problems">čtěte</a>).
+K tomu dochází, pokud používáte ovladač <i>directx</i> (<i>Nastavení -> Obecné -> Video</i>). Změňte jej na <i>gl</i>, <i>gl2</i> nebo <i>direct3d</i>.
 </li>
 
 <li><a name="config_file"></a>
