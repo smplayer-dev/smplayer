@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="cs">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1475,17 +1476,17 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="1471"/>
         <source>&amp;Always</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zapnuto</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1472"/>
         <source>&amp;Never</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Vypnuto</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1473"/>
         <source>While &amp;playing</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Při přehrávání</translation>
     </message>
 </context>
 <context>
@@ -1774,82 +1775,82 @@ Příklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>Http</source>
-        <translation type="unfinished">Http</translation>
+        <translation>Http</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>Socks5</source>
-        <translation type="unfinished">Socks5</translation>
+        <translation>Socks5</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished">Povolí/zakáže použití proxy.</translation>
+        <translation>Povolí/zakáže použití proxy.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
         <source>The host name of the proxy.</source>
-        <translation type="unfinished">Název proxy serveru.</translation>
+        <translation>Název proxy serveru.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished">Port na proxy serveru.</translation>
+        <translation>Port na proxy serveru.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="unfinished">Pokud proxy server vyžaduje autentifikaci, použije se toto jméno.</translation>
+        <translation>Pokud proxy server vyžaduje autentifikaci, použije se toto jméno.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="36"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished">Heslo pro připojení k proxy. &lt;b&gt;Varování:&lt;/b&gt; heslo bude uloženo v konfiguračním souboru jako čistý text.</translation>
+        <translation>Heslo pro připojení k proxy. &lt;b&gt;Varování:&lt;/b&gt; heslo bude uloženo v konfiguračním souboru jako čistý text.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="37"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished">Vyberte typ proxy serveru.</translation>
+        <translation>Vyberte typ proxy serveru.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="13"/>
         <source>Advanced options</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokročilé nastavení</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="19"/>
         <source>Proxy</source>
-        <translation type="unfinished">Proxy</translation>
+        <translation>Proxy</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="25"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished">Povolit pro&amp;xy</translation>
+        <translation>Povolit pro&amp;xy</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="38"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished">Se&amp;rver:</translation>
+        <translation>&amp;Server:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="51"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished">&amp;Port:</translation>
+        <translation>&amp;Port:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="71"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished">&amp;Uživatelské jméno:</translation>
+        <translation>&amp;Uživatelské jméno:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="84"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished">H&amp;eslo:</translation>
+        <translation>&amp;Heslo:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="101"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished">&amp;Typ:</translation>
+        <translation>&amp;Typ:</translation>
     </message>
 </context>
 <context>
@@ -2010,7 +2011,7 @@ Zkontrolujte přístupová práva.</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
         <source>&amp;Options</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nastavení</translation>
     </message>
 </context>
 <context>
@@ -3506,17 +3507,17 @@ Chcete jej opravdu přepsat?</translation>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="134"/>
         <source>Control bar</source>
-        <translation type="unfinished">Ovládací panel</translation>
+        <translation>Ovládací panel</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="437"/>
         <source>-%1</source>
-        <translation type="unfinished">-%1</translation>
+        <translation>-%1</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="441"/>
         <source>+%1</source>
-        <translation type="unfinished">+%1</translation>
+        <translation>+%1</translation>
     </message>
 </context>
 <context>
@@ -4254,7 +4255,7 @@ Vysouvací menu by mělo poskytnout standartní možnosti pro několik jazyků.<
     <message>
         <location filename="../prefadvanced.ui" line="138"/>
         <source>C&amp;orrect PTS:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Opravit PTS:</translation>
     </message>
 </context>
 <context>
@@ -5492,22 +5493,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="71"/>
         <source>Always on top</source>
-        <translation type="unfinished"></translation>
+        <translation>Vždy nahoře</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="72"/>
         <source>Never on top</source>
-        <translation type="unfinished"></translation>
+        <translation>Nikdy nahoře</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="73"/>
         <source>On top while playing</source>
-        <translation type="unfinished"></translation>
+        <translation>Nahoře při přehrávání</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="87"/>
         <source>Activate option in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Povolit v menu DVD</translation>
     </message>
 </context>
 <context>
@@ -5955,7 +5956,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="156"/>
         <source>Mpc GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Mpc GUI</translation>
     </message>
 </context>
 <context>
@@ -6952,7 +6953,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="764"/>
         <source>&amp;Line spacing:</source>
-        <translation>Prok&amp;ládání řádků:</translation>
+        <translation>Pro&amp;kládání řádků:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="414"/>
@@ -6982,17 +6983,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="507"/>
         <source>Apply style to ass files too</source>
-        <translation type="unfinished"></translation>
+        <translation>Použít i pro ass soubory</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="509"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation type="unfinished"></translation>
+        <translation>Je-li tato možnost povolena, definovaný styl se použije také pro ass titulky v souboru.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1197"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation type="unfinished"></translation>
+        <translation>Použít st&amp;yl i pro ass soubory</translation>
     </message>
 </context>
 <context>
@@ -7229,7 +7230,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="117"/>
         <source>opens the mpc gui.</source>
-        <translation type="unfinished"></translation>
+        <translation>otevře mpc gui.</translation>
     </message>
 </context>
 <context>
@@ -7543,37 +7544,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="524"/>
         <source>Images</source>
-        <translation type="unfinished"></translation>
+        <translation>Obrázky</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="376"/>
         <source>No info</source>
-        <translation type="unfinished"></translation>
+        <translation>Bez informací</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="380"/>
         <source>%1 kbps</source>
-        <translation type="unfinished">%1 kbps</translation>
+        <translation>%1 kbps</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="381"/>
         <source>%1 Hz</source>
-        <translation type="unfinished">%1 Hz</translation>
+        <translation>%1 Hz</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="397"/>
         <source>Video bitrate: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Rychlost videa: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="398"/>
         <source>Audio bitrate: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Rychlost audia: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="399"/>
         <source>Audio rate: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Vzorkování zvuku: %1</translation>
     </message>
 </context>
 <context>
@@ -7616,7 +7617,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="165"/>
         <source>&amp;Seconds to skip at the beginnning:</source>
-        <translation>Přeskočit prvních &lt;i&gt;n&lt;/i&gt; &amp;sekund:</translation>
+        <translation>Přeskočit prvních &lt;i&gt;&amp;n&lt;/i&gt; sekund:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="195"/>
@@ -7666,27 +7667,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="50"/>
         <source>Some frames will be extracted from the video in order to create the preview. Here you can choose the image format for the extracted frames. PNG may give better quality.</source>
-        <translation type="unfinished"></translation>
+        <translation>Náhled se vytvoří extrahováním snímků videa. Zde můžete určit formát obrázku, do kterého se snímky extrahují. PNG dosahuje lepší kvality.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="113"/>
         <source>Add playing &amp;time to thumbnails</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Vložit čas do miniatur</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="245"/>
         <source>&amp;Extract frames as</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Extrahovat snímky jako</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="41"/>
         <source>Enter here the DVD device or a folder with a DVD image.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zde zadejte DVD zařízení nebo složku s obrazem DVD.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="38"/>
         <source>&amp;DVD device:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;DVD zařízení:</translation>
     </message>
 </context>
 <context>
