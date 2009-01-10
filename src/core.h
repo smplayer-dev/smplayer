@@ -389,7 +389,7 @@ signals:
 	void needResize(int w, int h);
 	void noVideo();
 	void volumeChanged(int);
-#if NOTIFY_SUB_CHANGES
+#if NOTIFY_AUDIO_CHANGES
 	void audioTracksChanged();
 #endif
 
