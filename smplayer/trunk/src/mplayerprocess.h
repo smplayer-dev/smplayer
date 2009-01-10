@@ -80,6 +80,10 @@ signals:
     void audioInfoChanged(const Tracks &);
 #endif
 
+#if DVDNAV_SUPPORT
+	void durationChanged(double);
+#endif
+
 protected slots:
 	void parseLine(QByteArray ba);
 	void processFinished(int exitCode, QProcess::ExitStatus exitStatus);

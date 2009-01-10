@@ -163,6 +163,10 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	connect( proc, SIGNAL(audioInfoChanged(const Tracks &)), 
              this, SLOT(initAudioTrack(const Tracks &)), Qt::QueuedConnection );
 #endif
+#if DVDNAV_SUPPORT
+	connect( proc, SIGNAL(durationChanged(double)), 
+             this, SLOT(durationChanged(double)), Qt::QueuedConnection );
+#endif
 	
 	connect( this, SIGNAL(stateChanged(Core::State)), 
 	         this, SLOT(watchState(Core::State)) );
@@ -3754,6 +3758,13 @@ void Core::initSubtitleTrack(const SubTracks & subs) {
 void Core::setSubtitleTrackAgain(const SubTracks &) {
 	qDebug("Core::setSubtitleTrackAgain");
 	changeSubtitle( mset.current_sub_id );
+}
+#endif
+
+#if DVDNAV_SUPPORT
+void Core::durationChanged(double length) {
+	qDebug("Core::durationChanged: %f", length);
+	mdat.duration = length;
 }
 #endif
 
