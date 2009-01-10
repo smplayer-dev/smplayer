@@ -2970,11 +2970,19 @@ void Core::changeTitle(int ID) {
 	}
 	else
 	if (mdat.type == TYPE_DVD) {
-		DiscData disc_data = DiscName::split(mdat.filename);
-		disc_data.title = ID;
-		QString dvd_url = DiscName::join(disc_data);
+#if DVDNAV_SUPPORT
+		if (pref->use_dvdnav) {
+			tellmp("switch_title " + QString::number(ID));
+		} else {
+#endif
+			DiscData disc_data = DiscName::split(mdat.filename);
+			disc_data.title = ID;
+			QString dvd_url = DiscName::join(disc_data);
 
-		openDVD( DiscName::join(disc_data) );
+			openDVD( DiscName::join(disc_data) );
+#if DVDNAV_SUPPORT
+		}
+#endif
 	}
 }
 
