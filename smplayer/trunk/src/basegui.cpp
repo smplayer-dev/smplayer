@@ -1603,7 +1603,7 @@ void BaseGui::createCore() {
 
 	connect( core, SIGNAL(mediaLoaded()),
              this, SLOT(enableActionsOnPlaying()) );
-#if NOTIFY_SUB_CHANGES
+#if NOTIFY_AUDIO_CHANGES
 	connect( core, SIGNAL(audioTracksChanged()),
              this, SLOT(enableActionsOnPlaying()) );
 #endif
