@@ -309,7 +309,13 @@ will be display the video in the menu <i>Video -> Screen</i>.
 <p>
 If you use a recent version of MPlayer you may need to add a line like this
 in your ~/.mplayer/config:
-<pre>heartbeat-cmd="gnome-screensaver-command -p &"</pre>
+<p>
+(gnome) 
+<pre>heartbeat-cmd="gnome-screensaver-command -p &>/dev/null"</pre>
+<p>
+(kde)
+<pre>heartbeat-cmd="dcop kdesktop KScreensaverIface enable false &>/dev/null && dcop kdesktop KScreensaverIface enable true &>/dev/null"</pre>
+
 <p>Please take a look at the MPlayer manpage for more info.
 </li>
 
