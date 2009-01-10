@@ -114,13 +114,16 @@ static QRegExp rx_endoffile("^Exiting... \\(End of file\\)|^ID_EXIT=EOF");
 static QRegExp rx_mkvchapters("\\[mkv\\] Chapter (\\d+) from");
 static QRegExp rx_aspect2("^Movie-Aspect is ([0-9,.]+):1");
 static QRegExp rx_fontcache("^\\[ass\\] Updating font cache|^\\[ass\\] Init");
+#if DVDNAV_SUPPORT
+static QRegExp rx_dvdnav_switch_title("^DVDNAV, switched to title: (\\d+)");
+static QRegExp rx_dvdnav_length("^ANS_length=(.*)");
+#endif
  
 // VCD
 static QRegExp rx_vcd("^ID_VCD_TRACK_(\\d+)_MSF=(.*)");
 
 // Audio CD
 static QRegExp rx_cdda("^ID_CDDA_TRACK_(\\d+)_MSF=(.*)");
-
 
 //Subtitles
 static QRegExp rx_subtitle("^ID_(SUBTITLE|FILE_SUB|VOBSUB)_ID=(\\d+)");
@@ -361,6 +364,18 @@ void MplayerProcess::parseLine(QByteArray ba) {
 					}
 				}
 			}
+		}
+#endif
+
+#if DVDNAV_SUPPORT
+		// Hack to get the length of dvd titles in dvdnav
+		if (rx_dvdnav_switch_title.indexIn(line) > -1) {
+			writeToStdin("get_property length");
+		}
+		if (rx_dvdnav_length.indexIn(line) > -1) {
+			double length = rx_dvdnav_length.cap(1).toDouble();
+			qDebug("MplayerProcess::parseLine: length: %f", length);
+			emit durationChanged(length);
 		}
 #endif
 

@@ -1,5 +1,8 @@
 [b]Version 0.6.7[/b]:
 
+(2009-01-09)
+ * Now the length of the title is updated when playing a dvd using dvdnav.
+
 (2009-01-08)
  * (Linux) Added the option "Enable DVD menus" in Preferences->Drives. If 
    this option is checked, when you select "DVD from drive" or "DVD from 

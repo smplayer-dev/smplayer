@@ -339,6 +339,9 @@ protected slots:
 	void initSubtitleTrack(const SubTracks &);
 	void setSubtitleTrackAgain(const SubTracks &);
 #endif
+#if DVDNAV_SUPPORT
+	void durationChanged(double);
+#endif
 
 protected:
 	void playNewFile(QString file, int seek=-1);
