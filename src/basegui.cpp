@@ -2600,8 +2600,13 @@ void BaseGui::initializeMenus() {
 
 	// Angles
 	angleGroup->clear(true);
+	int n_angles = 0;
 	if (core->mset.current_angle_id > 0) {
-		for (n=1; n <= core->mdat.titles.item(core->mset.current_title_id).angles(); n++) {
+		int i = core->mdat.titles.find(core->mset.current_angle_id);
+		if (i > -1) n_angles = core->mdat.titles.itemAt(i).angles();
+	}
+	if (n_angles > 0) {
+		for (n=1; n <= n_angles; n++) {
 			QAction *a = new QAction(angleGroup);
 			a->setCheckable(true);
 			a->setText( QString::number(n) );
