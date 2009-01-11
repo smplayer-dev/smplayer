@@ -110,9 +110,7 @@
 // DVDNAV_SUPPORT
 // if 1, smplayer will be compiled with support for mplayer's dvdnav
 
-#ifndef Q_OS_WIN
 #define DVDNAV_SUPPORT 1
-#endif
 
 
 // Adds or not the "Repaint the background of the video window" option.
