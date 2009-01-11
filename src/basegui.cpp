@@ -2388,7 +2388,7 @@ void BaseGui::newMediaLoaded() {
 	bool is_disc = ( (core->mdat.type == TYPE_VCD) || (core->mdat.type == TYPE_DVD) || (core->mdat.type == TYPE_AUDIO_CD) );
 #if DVDNAV_SUPPORT
 	// Don't add the list of titles if using dvdnav
-	if ((core->mdat.type == TYPE_DVD) && (pref->use_dvdnav)) is_disc = false;
+	if ((core->mdat.type == TYPE_DVD) && (core->mdat.filename.startsWith("dvdnav:"))) is_disc = false;
 #endif
 	if (pref->auto_add_to_playlist && is_disc)
 	{

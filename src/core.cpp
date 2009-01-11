@@ -1664,7 +1664,7 @@ void Core::startMplayer( QString file, double seek ) {
 		case TYPE_FILE	 	: cache = pref->cache_for_files; break;
 		case TYPE_DVD 		: cache = pref->cache_for_dvds; 
 #if DVDNAV_SUPPORT
-							  if ((file.startsWith("dvdnav")) && (pref->use_dvdnav)) cache = 0;
+							  if ((file.startsWith("dvdnav:")) && (pref->use_dvdnav)) cache = 0;
 #endif
 		                      break;
 		case TYPE_STREAM 	: cache = pref->cache_for_streams; break;
@@ -2977,7 +2977,7 @@ void Core::changeTitle(int ID) {
 	else
 	if (mdat.type == TYPE_DVD) {
 #if DVDNAV_SUPPORT
-		if (pref->use_dvdnav) {
+		if ((pref->use_dvdnav) && mdat.filename.startsWith("dvdnav:")) {
 			tellmp("switch_title " + QString::number(ID));
 		} else {
 #endif
