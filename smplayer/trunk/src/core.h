@@ -39,7 +39,9 @@ class MplayerWindow;
 class QSettings;
 
 #ifdef Q_OS_WIN
+#ifdef SCREENSAVER_OFF
 class WinScreenSaver;
+#endif
 #endif
 
 class Core : public QObject
@@ -420,7 +422,9 @@ protected:
 #endif
 
 #ifdef Q_OS_WIN
+#ifdef SCREENSAVER_OFF
 	WinScreenSaver * win_screensaver;
+#endif
 #endif
     
 private:
