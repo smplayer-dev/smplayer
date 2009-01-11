@@ -39,7 +39,9 @@
 #ifdef Q_OS_WIN
 #include <windows.h> // To change app priority
 #include <QSysInfo> // To get Windows version
+#ifdef SCREENSAVER_OFF
 #include "screensaver.h"
+#endif
 #endif
 
 #ifndef NO_USE_INI_FILES
@@ -193,8 +195,10 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	mplayerwindow->setMonitorAspect( pref->monitor_aspect_double() );
 
 #ifdef Q_OS_WIN
+#ifdef SCREENSAVER_OFF
 	// Windows screensaver
 	win_screensaver = new WinScreenSaver();
+#endif
 #endif
 
 #if DISCNAME_TEST
@@ -217,7 +221,9 @@ Core::~Core() {
 #endif
 
 #ifdef Q_OS_WIN
+#ifdef SCREENSAVER_OFF
 	delete win_screensaver;
+#endif
 #endif
 }
 
@@ -1092,10 +1098,12 @@ void Core::processFinished()
     qDebug("Core::processFinished");
 
 #ifdef Q_OS_WIN
+#ifdef SCREENSAVER_OFF
 	// Restores the Windows screensaver
 	if (pref->disable_screensaver) {
 		win_screensaver->restore();
 	}
+#endif
 #endif
 
 	qDebug("Core::processFinished: we_are_restarting: %d", we_are_restarting);
@@ -1161,10 +1169,12 @@ void Core::startMplayer( QString file, double seek ) {
     } 
 
 #ifdef Q_OS_WIN
+#ifdef SCREENSAVER_OFF
 	// Disable the Windows screensaver
 	if (pref->disable_screensaver) {
 		win_screensaver->disable();
 	}
+#endif
 #endif
 
 	bool is_mkv = (QFileInfo(file).suffix().toLower() == "mkv");
