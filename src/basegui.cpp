@@ -1512,6 +1512,11 @@ void BaseGui::retranslateStrings() {
 	angles_menu->menuAction()->setText( tr("&Angle") );
 	angles_menu->menuAction()->setIcon( Images::icon("angle") );
 
+#if DVDNAV_SUPPORT
+	dvdnavMenuAct->change(Images::icon("dvdnav_menu"), tr("DVD &menu"));
+	dvdnavPrevAct->change(Images::icon("dvdnav_prev"), tr("DVD &previous menu"));
+#endif
+
 	// Menu Options
 	osd_menu->menuAction()->setText( tr("&OSD") );
 	osd_menu->menuAction()->setIcon( Images::icon("osd") );
@@ -2033,6 +2038,12 @@ void BaseGui::createMenus() {
 	angles_menu = new QMenu(this);
 
 	browseMenu->addMenu(angles_menu);
+
+#if DVDNAV_SUPPORT
+	browseMenu->addSeparator();
+	browseMenu->addAction(dvdnavMenuAct);
+	browseMenu->addAction(dvdnavPrevAct);
+#endif
 
 	// OPTIONS MENU
 	optionsMenu->addAction(showPropertiesAct);
