@@ -1,5 +1,9 @@
 [b]Version 0.6.7[/b]:
 
+(2009-01-10)
+ * Fixed the initialization of the Angles menu when using dvdnav.
+ * Added to the Browse menu the options 'DVD menu' and 'DVD previous menu'.
+
 (2009-01-09)
  * Now the length of the title is updated when playing a dvd using dvdnav.
 
