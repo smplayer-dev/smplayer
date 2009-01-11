@@ -368,14 +368,15 @@ void MplayerProcess::parseLine(QByteArray ba) {
 #endif
 
 #if DVDNAV_SUPPORT
-		// Hack to get the length of dvd titles in dvdnav
 		if (rx_dvdnav_switch_title.indexIn(line) > -1) {
-			writeToStdin("get_property length");
+			int title = rx_dvdnav_switch_title.cap(1).toInt();
+			qDebug("MplayerProcess::parseLine: dvd title: %d", title);
+			emit receivedDVDTitle(title);
 		}
 		if (rx_dvdnav_length.indexIn(line) > -1) {
 			double length = rx_dvdnav_length.cap(1).toDouble();
 			qDebug("MplayerProcess::parseLine: length: %f", length);
-			emit durationChanged(length);
+			emit receivedDuration(length);
 		}
 #endif
 
