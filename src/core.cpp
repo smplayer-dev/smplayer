@@ -164,8 +164,14 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
              this, SLOT(initAudioTrack(const Tracks &)), Qt::QueuedConnection );
 #endif
 #if DVDNAV_SUPPORT
-	connect( proc, SIGNAL(durationChanged(double)), 
+	connect( proc, SIGNAL(receivedDVDTitle(int)), 
+             this, SLOT(dvdTitleChanged(int)), Qt::QueuedConnection );
+	connect( proc, SIGNAL(receivedDuration(double)), 
              this, SLOT(durationChanged(double)), Qt::QueuedConnection );
+
+	QTimer * ask_timer = new QTimer(this);
+	connect( ask_timer, SIGNAL(timeout()), this, SLOT(askForInfo()) );
+	ask_timer->start(5000);
 #endif
 	
 	connect( this, SIGNAL(stateChanged(Core::State)), 
@@ -3770,9 +3776,19 @@ void Core::setSubtitleTrackAgain(const SubTracks &) {
 #endif
 
 #if DVDNAV_SUPPORT
+void Core::dvdTitleChanged(int title) {
+	qDebug("Core::dvdTitleChanged: %d", title);
+}
+
 void Core::durationChanged(double length) {
 	qDebug("Core::durationChanged: %f", length);
 	mdat.duration = length;
+}
+
+void Core::askForInfo() {
+	if ((state() == Playing) && (mdat.filename.startsWith("dvdnav:"))) {
+		tellmp( pausing_prefix() + " get_property length");
+	}
 }
 #endif
 

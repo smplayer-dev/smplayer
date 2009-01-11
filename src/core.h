@@ -340,7 +340,9 @@ protected slots:
 	void setSubtitleTrackAgain(const SubTracks &);
 #endif
 #if DVDNAV_SUPPORT
+	void dvdTitleChanged(int);
 	void durationChanged(double);
+	void askForInfo();
 #endif
 
 protected:

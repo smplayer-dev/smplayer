@@ -81,7 +81,8 @@ signals:
 #endif
 
 #if DVDNAV_SUPPORT
-	void durationChanged(double);
+	void receivedDVDTitle(int);
+	void receivedDuration(double);
 #endif
 
 protected slots:
