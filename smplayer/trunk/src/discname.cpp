@@ -49,6 +49,7 @@ DiscData DiscName::split(const QString & disc_url, bool * ok) {
 	QRegExp rx1("^(dvd|dvdnav|vcd|cdda)://(\\d+)/(.*)");
 	QRegExp rx2("^(dvd|dvdnav|vcd|cdda)://(\\d+)");
 	QRegExp rx3("^(dvd|dvdnav|vcd|cdda):///(.*)");
+	QRegExp rx4("^(dvd|dvdnav|vcd|cdda):(.*)");
 
 	DiscData d;
 
@@ -73,7 +74,14 @@ DiscData DiscName::split(const QString & disc_url, bool * ok) {
 		d.title = 0;
 		d.device = rx3.cap(2);
 		success = true;
-	} 
+	}
+	else
+	if (rx4.indexIn(disc_url) != -1) {
+		d.protocol = rx4.cap(1);
+		d.title = 0;
+		d.device ="";
+		success = true;
+	}
 
 	if (!d.device.isEmpty()) d.device = removeTrailingSlash(d.device);
 
@@ -121,6 +129,7 @@ void DiscName::test() {
 	d = split( "dvd://1/E:" );
 	d = split( "dvd://5" );
 	d = split( "dvd://" );
+	d = split( "dvd:" );
 	d = split( "dvd:////dev/dvdrecorder" );
 
 	d = split( "cdda://1//dev/dvd" );
