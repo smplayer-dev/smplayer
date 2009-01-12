@@ -376,7 +376,10 @@ void MplayerProcess::parseLine(QByteArray ba) {
 		if (rx_dvdnav_length.indexIn(line) > -1) {
 			double length = rx_dvdnav_length.cap(1).toDouble();
 			qDebug("MplayerProcess::parseLine: length: %f", length);
-			emit receivedDuration(length);
+			if (length != md.duration) {
+				md.duration = length;
+				emit receivedDuration(length);
+			}
 		}
 #endif
 
