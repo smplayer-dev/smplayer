@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="cs">
-<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -685,7 +684,7 @@ Opravdu jej chcete přepsat?</translation>
         <translation>&amp;Nastavení</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1519"/>
+        <location filename="../basegui.cpp" line="1524"/>
         <source>&amp;View logs</source>
         <translation>Zobrazit &amp;logy</translation>
     </message>
@@ -785,7 +784,7 @@ Opravdu jej chcete přepsat?</translation>
         <translation>4:3 &amp;na 16:9</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2500"/>
+        <location filename="../basegui.cpp" line="2515"/>
         <source>&amp;None</source>
         <translation>Žá&amp;dné</translation>
     </message>
@@ -860,7 +859,7 @@ Opravdu jej chcete přepsat?</translation>
         <translation>Ú&amp;hel</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1516"/>
+        <location filename="../basegui.cpp" line="1521"/>
         <source>&amp;OSD</source>
         <translation>&amp;OSD</translation>
     </message>
@@ -885,84 +884,84 @@ Opravdu jej chcete přepsat?</translation>
         <translation>Čas + &amp;Celkový čas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1527"/>
+        <location filename="../basegui.cpp" line="1532"/>
         <source>SMPlayer - mplayer log</source>
         <translation>SMPlayer - mplayer log</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1528"/>
+        <location filename="../basegui.cpp" line="1533"/>
         <source>SMPlayer - smplayer log</source>
         <translation>SMPlayer - smplayer log</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2642"/>
+        <location filename="../basegui.cpp" line="2662"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;prázdné&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2999"/>
+        <location filename="../basegui.cpp" line="3019"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3182"/>
+        <location filename="../basegui.cpp" line="3210"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3001"/>
+        <location filename="../basegui.cpp" line="3021"/>
         <source>Playlists</source>
         <translation>Playlisty</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3183"/>
+        <location filename="../basegui.cpp" line="3211"/>
         <source>All files</source>
         <translation>Všechny soubory</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3180"/>
+        <location filename="../basegui.cpp" line="3208"/>
         <source>Choose a file</source>
         <translation>Zvolte soubor</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3049"/>
+        <location filename="../basegui.cpp" line="3069"/>
         <source>SMPlayer - Information</source>
         <translation>SMplayer - informace</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3052"/>
+        <location filename="../basegui.cpp" line="3072"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Mechaniky CDROM / DVD nejsou nastaveny.
 Bude zobrazeno konfigurační okno.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3125"/>
+        <location filename="../basegui.cpp" line="3153"/>
         <source>Choose a directory</source>
         <translation>Zvolte adresář</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3161"/>
+        <location filename="../basegui.cpp" line="3189"/>
         <source>Subtitles</source>
         <translation>Titulky</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3213"/>
+        <location filename="../basegui.cpp" line="3241"/>
         <source>About Qt</source>
         <translation>O Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3642"/>
+        <location filename="../basegui.cpp" line="3670"/>
         <source>Playing %1</source>
         <translation>Přehrávám %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3643"/>
+        <location filename="../basegui.cpp" line="3671"/>
         <source>Pause</source>
         <translation>Pozastaveno</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3644"/>
+        <location filename="../basegui.cpp" line="3672"/>
         <source>Stop</source>
         <translation>Zastaveno</translation>
     </message>
@@ -1037,12 +1036,12 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>P&amp;an &amp;&amp; scan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1542"/>
+        <location filename="../basegui.cpp" line="1547"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1546"/>
+        <location filename="../basegui.cpp" line="1551"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
@@ -1242,7 +1241,7 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>&amp;Argumenty příkazového řádku</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3198"/>
+        <location filename="../basegui.cpp" line="3226"/>
         <source>SMPlayer command line options</source>
         <translation>Argumenty příkazového řádku</translation>
     </message>
@@ -1262,32 +1261,32 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>Vynulovat video-ekvalizér</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4030"/>
+        <location filename="../basegui.cpp" line="4058"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer skončil chybou.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4031"/>
+        <location filename="../basegui.cpp" line="4059"/>
         <source>Exit code: %1</source>
         <translation>Návratová hodnota: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4048"/>
+        <location filename="../basegui.cpp" line="4076"/>
         <source>MPlayer failed to start.</source>
         <translation>Nelze spustit MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4049"/>
+        <location filename="../basegui.cpp" line="4077"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Zkontrolujte cestu k MPlayeru v nastavení.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4051"/>
+        <location filename="../basegui.cpp" line="4079"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer havaroval.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4052"/>
+        <location filename="../basegui.cpp" line="4080"/>
         <source>See the log for more info.</source>
         <translation>Více informací je v logu.</translation>
     </message>
@@ -1332,7 +1331,7 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>Zobraz kontextové menu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2998"/>
+        <location filename="../basegui.cpp" line="3018"/>
         <source>Multimedia</source>
         <translation>Multimédia</translation>
     </message>
@@ -1419,22 +1418,22 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>S&amp;topa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3472"/>
+        <location filename="../basegui.cpp" line="3500"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Varování - Použit starý MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3476"/>
+        <location filename="../basegui.cpp" line="3504"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>Nainstalovaná verze MPlayeru (%1) je zastaralá. SMPlayer nebude pracovat správně: ne všechna nastavení budou funkční, výběr titulků může selhat, ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3479"/>
+        <location filename="../basegui.cpp" line="3507"/>
         <source>Please, update your MPlayer.</source>
         <translation>Prosím, updatujte si MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3480"/>
+        <location filename="../basegui.cpp" line="3508"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Toto varování dále nebude zobrazeno)</translation>
     </message>
@@ -1488,6 +1487,16 @@ Bude zobrazeno konfigurační okno.</translation>
         <source>While &amp;playing</source>
         <translation>&amp;Při přehrávání</translation>
     </message>
+    <message>
+        <location filename="../basegui.cpp" line="1516"/>
+        <source>DVD &amp;menu</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1517"/>
+        <source>DVD &amp;previous menu</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>BaseGuiPlus</name>
@@ -1525,52 +1534,52 @@ Bude zobrazeno konfigurační okno.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2319"/>
+        <location filename="../core.cpp" line="2346"/>
         <source>Brightness: %1</source>
         <translation>Jas: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2334"/>
+        <location filename="../core.cpp" line="2361"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2348"/>
+        <location filename="../core.cpp" line="2375"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2362"/>
+        <location filename="../core.cpp" line="2389"/>
         <source>Hue: %1</source>
         <translation>Odstín: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2376"/>
+        <location filename="../core.cpp" line="2403"/>
         <source>Saturation: %1</source>
         <translation>Saturace: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2496"/>
+        <location filename="../core.cpp" line="2523"/>
         <source>Volume: %1</source>
         <translation>Hlasitost: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3295"/>
+        <location filename="../core.cpp" line="3330"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2613"/>
+        <location filename="../core.cpp" line="2640"/>
         <source>Font scale: %1</source>
         <translation>Velikost písma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3114"/>
+        <location filename="../core.cpp" line="3149"/>
         <source>Aspect ratio: %1</source>
         <translation>Poměr stran: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3496"/>
+        <location filename="../core.cpp" line="3533"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Obnovuji paměť fontů. Může to chvíli trvat...</translation>
     </message>
@@ -4334,49 +4343,79 @@ Vysouvací menu by mělo poskytnout standartní možnosti pro několik jazyků.<
 <context>
     <name>PrefDrives</name>
     <message>
-        <location filename="../prefdrives.ui" line="26"/>
+        <location filename="../prefdrives.ui" line="35"/>
         <source>Drives</source>
         <translation>Mechaniky</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="154"/>
+        <location filename="../prefdrives.ui" line="195"/>
         <source>icon</source>
         <translation>ikona</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="129"/>
+        <location filename="../prefdrives.cpp" line="151"/>
         <source>CD device</source>
         <translation>CD mechanika</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="131"/>
+        <location filename="../prefdrives.cpp" line="153"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
         <translation>Zvolte CD-ROM mechaniku. Bude použita pro přehrávání VCD a Audio CD.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="133"/>
+        <location filename="../prefdrives.cpp" line="155"/>
         <source>DVD device</source>
         <translation>DVD mechanika</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="134"/>
+        <location filename="../prefdrives.cpp" line="156"/>
         <source>Choose your DVD device. It will be used to play DVDs.</source>
         <translation>Zvolte DVD mechaniku. Bude použita pro přehrávání DVD.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="77"/>
+        <location filename="../prefdrives.ui" line="113"/>
         <source>Select your &amp;CD device:</source>
         <translation>Zvolte &amp;CD mechaniku:</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="172"/>
+        <location filename="../prefdrives.ui" line="222"/>
         <source>Select your &amp;DVD device:</source>
         <translation>Zvolte &amp;DVD mechaniku:</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="38"/>
+        <location filename="../prefdrives.ui" line="56"/>
         <source>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
         <translation>SMPlayer si sám neumí vybrat CD-ROM ani DVD mechaniku. Před tím, než je možno CD nebo DVD přehrát, musíte vybrat mechaniku, ze které se budou data číst (mohou být stejné).</translation>
+    </message>
+    <message>
+        <location filename="../prefdrives.cpp" line="159"/>
+        <source>Enable DVD menus</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefdrives.cpp" line="162"/>
+        <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefdrives.cpp" line="163"/>
+        <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefdrives.cpp" line="165"/>
+        <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefdrives.cpp" line="167"/>
+        <source>&lt;b&gt;Note 3&lt;/b&gt;: this feature is under development, expect a lot of issues with it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefdrives.ui" line="271"/>
+        <source>&amp;Enable DVD menus (experimental)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
