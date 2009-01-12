@@ -4,6 +4,8 @@
  * Now it's possible to player a dvd with menus from command line 
    (smplayer dvdnav://) or by selecting "dvdnav://" from the recents menu.
    It'll even work if the option "Enable DVD menus" is not checked.
+ * Now the highlighted option in the DVD menu changes when the mouse is
+   moved.
 
 (2009-01-10)
  * Fixed the initialization of the Angles menu when using dvdnav.

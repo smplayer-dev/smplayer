@@ -188,6 +188,10 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	// Mplayerwindow
 	connect( this, SIGNAL(aboutToStartPlaying()),
              mplayerwindow->videoLayer(), SLOT(playingStarted()) );
+#if DVDNAV_SUPPORT
+	connect( mplayerwindow, SIGNAL(mouseMoved(QPoint)), 
+             this, SLOT(dvdnavUpdateMousePos(QPoint)) );
+#endif
 
 #if REPAINT_BACKGROUND_OPTION
 	mplayerwindow->videoLayer()->setRepaintBackground(pref->repaint_video_background);
@@ -3493,9 +3497,8 @@ void Core::dvdnavMouse() {
 	qDebug("Core::dvdnavMouse");
 
 	if ((state() == Playing) && (mdat.filename.startsWith("dvdnav:"))) {
-		QPoint p = mplayerwindow->videoLayer()->mapFromGlobal(QCursor::pos());
-
-		tellmp(QString("set_mouse_pos %1 %2").arg(p.x()).arg(p.y()));
+		//QPoint p = mplayerwindow->videoLayer()->mapFromGlobal(QCursor::pos());
+		//tellmp(QString("set_mouse_pos %1 %2").arg(p.x()).arg(p.y()));
 		tellmp("dvdnav mouse");
 	}
 }
@@ -3800,6 +3803,15 @@ void Core::durationChanged(double length) {
 void Core::askForInfo() {
 	if ((state() == Playing) && (mdat.filename.startsWith("dvdnav:"))) {
 		tellmp( pausing_prefix() + " get_property length");
+	}
+}
+
+void Core::dvdnavUpdateMousePos(QPoint pos) {
+	if ((state() == Playing) && (mdat.filename.startsWith("dvdnav:"))) {
+		if (mplayerwindow->videoLayer()->underMouse()) {
+			QPoint p = mplayerwindow->videoLayer()->mapFromParent(pos);
+			tellmp(QString("set_mouse_pos %1 %2").arg(p.x()).arg(p.y()));
+		}
 	}
 }
 #endif
