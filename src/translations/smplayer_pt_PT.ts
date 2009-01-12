@@ -1485,12 +1485,12 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="1516"/>
         <source>DVD &amp;menu</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Menu do DVD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1517"/>
         <source>DVD &amp;previous menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Menu &amp;anterior do DVD</translation>
     </message>
 </context>
 <context>
@@ -4347,32 +4347,32 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefdrives.cpp" line="159"/>
         <source>Enable DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Activar menus de DVD</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="162"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se seleccionar esta opção, o SMPlayer irá reproduzir os DVDs utilizando dvdnav. Necessita de uma versão MPlayer compilada com suporte a dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="163"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Nota 1&lt;/b&gt;: a cache será desactivada podendo afectar o desempenho.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="165"/>
         <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Nota 2&lt;/b&gt;: deve querer registar a acção  &quot; activar opções nos menus DVD&quot; a um dos botões do rato.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="167"/>
         <source>&lt;b&gt;Note 3&lt;/b&gt;: this feature is under development, expect a lot of issues with it.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Nota 3&lt;/b&gt;: função em desenvolvimento, apresentando erros.</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="271"/>
         <source>&amp;Enable DVD menus (experimental)</source>
-        <translation type="unfinished"></translation>
+        <translation>Activar menus DVD (&amp;Experimental)</translation>
     </message>
 </context>
 <context>
@@ -4982,7 +4982,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="728"/>
         <source>Select the video output driver. %1 provides the best performance.</source>
-        <translation>Seleccione o driver de saída de vídeo. %1 fornece o melhor desempenho.</translation>
+        <translation>Seleccione o driver de saída de vídeo. %1 apresenta o melhor desempenho.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="800"/>
@@ -6141,7 +6141,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="261"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation>Esta opção permite ignorar o filtro loop (AKA deblocking) durante a descodificação H.264. Desde que a frame filtrada deve ser usada como referência para descodificação de frames dependentes, acontece um efeito pior na qualidade comparativamente ao deblocking. ex.: vídeo MPEG-2. Mas pelo menos para uma taxa de bits HDTV, fornece uma grande velocidade sem perda de qualidade visível.</translation>
+        <translation>Esta opção permite ignorar o filtro loop (AKA deblocking) durante a descodificação H.264. Desde que a frame filtrada deve ser usada como referência para descodificação de frames dependentes, acontece um efeito pior na qualidade comparativamente ao deblocking. ex.: vídeo MPEG-2. No entanto, para uma taxa de bits HDTV, fornece uma grande velocidade sem perda de qualidade visível.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="262"/>
