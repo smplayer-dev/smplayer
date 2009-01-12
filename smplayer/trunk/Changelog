@@ -1,7 +1,7 @@
 [b]Version 0.6.7[/b]:
 
 (2009-01-11)
- * Now it's possible to player a dvd with menus from command line 
+ * Now it's possible to play a dvd with menus from command line 
    (smplayer dvdnav://) or by selecting "dvdnav://" from the recents menu.
    It'll even work if the option "Enable DVD menus" is not checked.
  * Now the highlighted option in the DVD menu changes when the mouse is
