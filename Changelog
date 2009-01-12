@@ -1,5 +1,9 @@
 [b]Version 0.6.7[/b]:
 
+(2009-01-12)
+ * (Fix) When opening an iso file, start to play from the dvd menu instead
+   of title 1.
+
 (2009-01-11)
  * Now it's possible to play a dvd with menus from command line 
    (smplayer dvdnav://) or by selecting "dvdnav://" from the recents menu.

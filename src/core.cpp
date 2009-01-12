@@ -380,7 +380,7 @@ void Core::open(QString file, int seek) {
 	if ( (fi.exists()) && (fi.suffix().toLower()=="iso") ) {
 		qDebug("Core::open: * identified as a dvd iso");
 #if DVDNAV_SUPPORT
-		openDVD( DiscName::joinDVD(1, file, pref->use_dvdnav) );
+		openDVD( DiscName::joinDVD(0, file, pref->use_dvdnav) );
 #else
 		openDVD( DiscName::joinDVD(1, file, false) );
 #endif
