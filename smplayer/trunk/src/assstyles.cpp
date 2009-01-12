@@ -27,6 +27,7 @@ AssStyles::AssStyles() {
 	fontsize = 20;
 	primarycolor = 0xFFFFFF;
 	backcolor = 0;
+	outlinecolor = 0;
 	bold = false;
 	italic = false;
 	halignment = 2; // Centered
@@ -46,6 +47,7 @@ void AssStyles::save(QSettings * set) {
 	set->setValue("styles/fontsize", fontsize);
 	set->setValue("styles/primarycolor", primarycolor);
 	set->setValue("styles/backcolor", backcolor);
+	set->setValue("styles/outlinecolor", outlinecolor);
 	set->setValue("styles/bold", bold);
 	set->setValue("styles/italic", italic);
 	set->setValue("styles/halignment", halignment);
@@ -65,6 +67,7 @@ void AssStyles::load(QSettings * set) {
 	fontsize = set->value("styles/fontsize", fontsize).toInt();
 	primarycolor = set->value("styles/primarycolor", primarycolor).toInt();
 	backcolor = set->value("styles/backcolor", backcolor).toInt();
+	outlinecolor = set->value("styles/outlinecolor", outlinecolor).toInt();
 	bold = set->value("styles/bold", bold).toBool();
 	italic = set->value("styles/italic", italic).toBool();
 	halignment = set->value("styles/halignment", halignment).toInt();
@@ -94,12 +97,13 @@ bool AssStyles::exportStyles(const QString & filename) {
 		out << "Collisions: Normal" << endl;
 		out << endl;
 		out << "[V4+ Styles]" << endl;
-		out << "Format: Name, Fontname, Fontsize, PrimaryColour, BackColour, Bold, Italic, Alignment, BorderStyle, Outline, Shadow, MarginL, MarginR, MarginV" << endl;
+		out << "Format: Name, Fontname, Fontsize, PrimaryColour, BackColour, OutlineColour, Bold, Italic, Alignment, BorderStyle, Outline, Shadow, MarginL, MarginR, MarginV" << endl;
 		out << "Style: Default,";
 		out << fontname << "," ;
 		out << fontsize << "," ;
 		out << "&H" << ColorUtils::colorToAABBGGRR(primarycolor) << "," ;
 		out << "&H" << ColorUtils::colorToAABBGGRR(backcolor) << "," ;
+		out << "&H" << ColorUtils::colorToAABBGGRR(outlinecolor) << "," ;
 		out << (bold ? -1 : 0) << "," ;
 		out << (italic ? -1 : 0) << "," ;
 		out << alignment << "," ;
@@ -126,14 +130,16 @@ QString AssStyles::toString() {
 	QString s = "PlayResX=512,PlayResY=320,"; // Aspect of 1.6, it doesn't look too bad either in 4:3 and 16:9
 
 	s += QString("Name=Default,Fontname=%1,Fontsize=%2,PrimaryColour=&H%3,BackColour=&H%4,"
-                 "Bold=%5,Italic=%6,Alignment=%7,BorderStyle=%8,Outline=%9,")
+                 "OutlineColour=%5,Bold=%6,Italic=%7,Alignment=%8,BorderStyle=%9,")
                  .arg(fontname).arg(fontsize).arg(ColorUtils::colorToAABBGGRR(primarycolor))
                  .arg(ColorUtils::colorToAABBGGRR(backcolor))
+                 .arg(ColorUtils::colorToAABBGGRR(outlinecolor))
                  .arg(bold ? 1 : 0).arg(italic ? 1 : 0)
-                 .arg(alignment).arg(borderstyle).arg(outline);
+                 .arg(alignment).arg(borderstyle);
 
-	s += QString("Shadow=%1,MarginL=%2,MarginR=%3,MarginV=%4")
-                 .arg(shadow).arg(marginl).arg(marginr).arg(marginv);
+	s += QString("Outline=%1,Shadow=%2,MarginL=%3,MarginR=%4,MarginV=%5")
+                 .arg(outline).arg(shadow).arg(marginl).arg(marginr).arg(marginv);
+
 
 	return s;
 }

@@ -32,6 +32,7 @@ public:
 	int fontsize;
 	unsigned int primarycolor;
 	unsigned int backcolor;
+	unsigned int outlinecolor;
 	bool bold;
 	bool italic;
 	int halignment;
