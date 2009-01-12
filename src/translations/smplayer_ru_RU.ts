@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1485,12 +1486,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1516"/>
         <source>DVD &amp;menu</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD-&amp;меню</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1517"/>
         <source>DVD &amp;previous menu</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Предыдущее DVD-меню</translation>
     </message>
 </context>
 <context>
@@ -4348,32 +4349,32 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefdrives.cpp" line="159"/>
         <source>Enable DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить DVD-меню</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="162"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если эта опция отмечена, smaplayer будет воспроизводить DVD используя dvdnav. Требуется последняя версия mplayer, собранная с поддержкой dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="163"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Примечание 1&lt;/b&gt;: кэш будет отключен, это может повлиять на производительность.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="165"/>
         <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Примечание 2&lt;/b&gt;: вы можете захотеть привязать действие &quot;активация опции в DVD-меню&quot; к одной из двух кнопок мыши.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="167"/>
         <source>&lt;b&gt;Note 3&lt;/b&gt;: this feature is under development, expect a lot of issues with it.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Примечание 3&lt;/b&gt;: эта особенность находится в разработке, возможны различные проблемы при её использовании.</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="271"/>
         <source>&amp;Enable DVD menus (experimental)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Включить DVD-меню</translation>
     </message>
 </context>
 <context>
@@ -5445,7 +5446,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="87"/>
         <source>Activate option in DVD menus</source>
-        <translation>Активация DVD-меню</translation>
+        <translation>Активация опции в DVD-меню</translation>
     </message>
 </context>
 <context>
