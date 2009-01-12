@@ -407,7 +407,7 @@ void Core::open(QString file, int seek) {
 		}
 	}
 	else 
-	if (file.toLower().startsWith("dvd:")) {
+	if ((file.toLower().startsWith("dvd:")) || (file.toLower().startsWith("dvdnav:"))) {
 		qDebug("Core::open: * identified as dvd");
 		openDVD(file);
 		/*
