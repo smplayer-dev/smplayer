@@ -345,6 +345,7 @@ protected slots:
 	void dvdTitleChanged(int);
 	void durationChanged(double);
 	void askForInfo();
+	void dvdnavUpdateMousePos(QPoint);
 #endif
 
 protected:
