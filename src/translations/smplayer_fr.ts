@@ -270,7 +270,7 @@
     <message>
         <location filename="../about.cpp" line="96"/>
         <source>SMPlayer logo by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Logo SMPlayer par %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="222"/>
