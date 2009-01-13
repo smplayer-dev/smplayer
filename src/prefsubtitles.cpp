@@ -140,7 +140,8 @@ void PrefSubtitles::setData(Preferences * pref) {
 	style_font_combo->setCurrentText(pref->ass_styles.fontname);
 	style_size_spin->setValue(pref->ass_styles.fontsize);
 	style_text_color_button->setColor(pref->ass_styles.primarycolor);
-	style_border_color_button->setColor(pref->ass_styles.backcolor);
+	style_border_color_button->setColor(pref->ass_styles.outlinecolor);
+	style_shadow_color_button->setColor(pref->ass_styles.backcolor);
 	style_bold_check->setChecked(pref->ass_styles.bold);
 	style_italic_check->setChecked(pref->ass_styles.italic);
 	style_alignment_combo->setCurrentIndex(style_alignment_combo->findData(pref->ass_styles.halignment));
@@ -179,7 +180,8 @@ void PrefSubtitles::getData(Preferences * pref) {
 	TEST_AND_SET(pref->ass_styles.fontname, style_font_combo->currentText());
 	TEST_AND_SET(pref->ass_styles.fontsize, style_size_spin->value());
 	TEST_AND_SET(pref->ass_styles.primarycolor, style_text_color_button->color().rgb());
-	TEST_AND_SET(pref->ass_styles.backcolor, style_border_color_button->color().rgb());
+	TEST_AND_SET(pref->ass_styles.outlinecolor, style_border_color_button->color().rgb());
+	TEST_AND_SET(pref->ass_styles.backcolor, style_shadow_color_button->color().rgb());
 	TEST_AND_SET(pref->ass_styles.bold, style_bold_check->isChecked());
 	TEST_AND_SET(pref->ass_styles.italic, style_italic_check->isChecked());
 	TEST_AND_SET(pref->ass_styles.halignment, style_alignment_combo->itemData(style_alignment_combo->currentIndex()).toInt());
@@ -457,6 +459,12 @@ void PrefSubtitles::createHelp() {
 		tr("This specifies the spacing that will be used to separate "
            "multiple lines. It can have negative values.") );
 
+	/*
+	setWhatsThis(styles_container, tr("SSA/ASS style"), 
+		tr("The following options allows you to define the style to "
+           "be used for non-styled subtitles (srt, sub...).") );
+	*/
+       
 	setWhatsThis(style_font_combo, tr("Font"), 
 		tr("Select the font for the subtitles.") );
 

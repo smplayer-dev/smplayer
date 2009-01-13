@@ -6,7 +6,7 @@
     <x>0</x>
     <y>0</y>
     <width>534</width>
-    <height>469</height>
+    <height>482</height>
    </rect>
   </property>
   <property name="windowTitle" >
@@ -967,6 +967,23 @@
                    </property>
                   </widget>
                  </item>
+                 <item row="2" column="0" >
+                  <widget class="QLabel" name="label_12" >
+                   <property name="text" >
+                    <string>Shadow:</string>
+                   </property>
+                   <property name="alignment" >
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="1" >
+                  <widget class="SelectColorButton" name="style_shadow_color_button" >
+                   <property name="text" >
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
                 </layout>
                </widget>
               </item>
@@ -1264,6 +1281,7 @@
   <tabstop>style_italic_check</tabstop>
   <tabstop>style_text_color_button</tabstop>
   <tabstop>style_border_color_button</tabstop>
+  <tabstop>style_shadow_color_button</tabstop>
   <tabstop>style_marginl_spin</tabstop>
   <tabstop>style_marginr_spin</tabstop>
   <tabstop>style_marginv_spin</tabstop>
