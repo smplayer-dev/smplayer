@@ -459,11 +459,9 @@ void PrefSubtitles::createHelp() {
 		tr("This specifies the spacing that will be used to separate "
            "multiple lines. It can have negative values.") );
 
-	/*
 	setWhatsThis(styles_container, tr("SSA/ASS style"), 
 		tr("The following options allows you to define the style to "
            "be used for non-styled subtitles (srt, sub...).") );
-	*/
        
 	setWhatsThis(style_font_combo, tr("Font"), 
 		tr("Select the font for the subtitles.") );
@@ -482,6 +480,9 @@ void PrefSubtitles::createHelp() {
 
 	setWhatsThis(style_border_color_button, tr("Border color"), 
         tr("Select the color for the border of the subtitles.") );
+
+	setWhatsThis(style_shadow_color_button, tr("Shadow color"), 
+        tr("This color will be used for the shadow of the subtitles.") );
 
 	setWhatsThis(style_marginl_spin, tr("Left margin"), 
         tr("Specifies the left margin in pixels.") );

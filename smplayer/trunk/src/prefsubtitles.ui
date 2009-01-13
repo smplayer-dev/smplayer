@@ -5,8 +5,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>534</width>
-    <height>482</height>
+    <width>541</width>
+    <height>421</height>
    </rect>
   </property>
   <property name="windowTitle" >
@@ -787,41 +787,18 @@
              </property>
              <layout class="QGridLayout" >
               <property name="leftMargin" >
-               <number>4</number>
+               <number>2</number>
               </property>
               <property name="topMargin" >
-               <number>4</number>
+               <number>2</number>
               </property>
               <property name="rightMargin" >
-               <number>4</number>
+               <number>2</number>
               </property>
               <property name="bottomMargin" >
-               <number>4</number>
+               <number>2</number>
               </property>
-              <item row="0" column="0" colspan="2" >
-               <widget class="Line" name="line_2" >
-                <property name="sizePolicy" >
-                 <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="orientation" >
-                 <enum>Qt::Horizontal</enum>
-                </property>
-               </widget>
-              </item>
-              <item row="1" column="0" colspan="2" >
-               <widget class="QLabel" name="label_10" >
-                <property name="text" >
-                 <string>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</string>
-                </property>
-                <property name="wordWrap" >
-                 <bool>true</bool>
-                </property>
-               </widget>
-              </item>
-              <item row="2" column="0" >
+              <item row="0" column="0" >
                <widget class="QGroupBox" name="groupBox_4" >
                 <property name="title" >
                  <string>Font</string>
@@ -909,7 +886,7 @@
                 </layout>
                </widget>
               </item>
-              <item row="2" column="1" >
+              <item row="0" column="1" >
                <widget class="QGroupBox" name="groupBox_7" >
                 <property name="title" >
                  <string>Colors</string>
@@ -942,6 +919,12 @@
                  </item>
                  <item row="0" column="1" >
                   <widget class="SelectColorButton" name="style_text_color_button" >
+                   <property name="sizePolicy" >
+                    <sizepolicy vsizetype="Ignored" hsizetype="Minimum" >
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
                    <property name="text" >
                     <string/>
                    </property>
@@ -962,6 +945,12 @@
                  </item>
                  <item row="1" column="1" >
                   <widget class="SelectColorButton" name="style_border_color_button" >
+                   <property name="sizePolicy" >
+                    <sizepolicy vsizetype="Ignored" hsizetype="Minimum" >
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
                    <property name="text" >
                     <string/>
                    </property>
@@ -979,6 +968,12 @@
                  </item>
                  <item row="2" column="1" >
                   <widget class="SelectColorButton" name="style_shadow_color_button" >
+                   <property name="sizePolicy" >
+                    <sizepolicy vsizetype="Ignored" hsizetype="Minimum" >
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
                    <property name="text" >
                     <string/>
                    </property>
@@ -987,7 +982,7 @@
                 </layout>
                </widget>
               </item>
-              <item row="3" column="0" >
+              <item row="1" column="0" >
                <widget class="QGroupBox" name="groupBox_8" >
                 <property name="title" >
                  <string>Margins</string>
@@ -1069,7 +1064,7 @@
                 </layout>
                </widget>
               </item>
-              <item row="3" column="1" >
+              <item row="1" column="1" >
                <widget class="QGroupBox" name="groupBox_9" >
                 <property name="title" >
                  <string>Alignment</string>
@@ -1122,7 +1117,7 @@
                 </layout>
                </widget>
               </item>
-              <item row="4" column="0" colspan="2" >
+              <item row="2" column="0" colspan="2" >
                <layout class="QHBoxLayout" >
                 <item>
                  <widget class="QLabel" name="label_5" >
