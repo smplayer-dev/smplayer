@@ -121,6 +121,9 @@ bool AssStyles::exportStyles(const QString & filename) {
 	return false;
 }
 
+// Returns a string for -ass-force-style
+// It seems that option ignores "ScriptType: v4.00+" 
+// so the function uses the v4.00 format
 QString AssStyles::toString() {
 	int alignment = halignment;
 	if (valignment == 1) alignment += 8; // Middle
