@@ -133,7 +133,7 @@ QString AssStyles::toString() {
 	QString s = "PlayResX=512,PlayResY=320,"; // Aspect of 1.6, it doesn't look too bad either in 4:3 and 16:9
 
 	s += QString("Name=Default,Fontname=%1,Fontsize=%2,PrimaryColour=&H%3,BackColour=&H%4,"
-                 "OutlineColour=%5,Bold=%6,Italic=%7,Alignment=%8,BorderStyle=%9,")
+                 "OutlineColour=&H%5,Bold=%6,Italic=%7,Alignment=%8,BorderStyle=%9,")
                  .arg(fontname).arg(fontsize).arg(ColorUtils::colorToAABBGGRR(primarycolor))
                  .arg(ColorUtils::colorToAABBGGRR(backcolor))
                  .arg(ColorUtils::colorToAABBGGRR(outlinecolor))
