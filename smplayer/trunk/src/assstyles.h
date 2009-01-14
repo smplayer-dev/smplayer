@@ -48,7 +48,12 @@ public:
 	void load(QSettings * set);
 
 	bool exportStyles(const QString & filename);
+
+	//! Returns a string for -ass-force-style
 	QString toString();
+
+	//! Specifies a style defined by the user to be used with -ass-force-style
+	QString user_forced_style;
 };
 
 #endif

@@ -1,5 +1,11 @@
 [b]Version 0.6.7[/b]:
 
+(2009-01-14)
+ * New option for the config file: styles\user_forced_style under the 
+   [subtitles] section. If the value is not an empty string, it will be
+   passed to mplayer for the -ass-force-style option, overriding the string
+   generated automatically by smplayer.
+
 (2009-01-12)
  * (Fix) When opening an iso file, start to play from the dvd menu instead
    of title 1.
