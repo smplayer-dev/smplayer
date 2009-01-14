@@ -149,6 +149,7 @@ public:
 int main( int argc, char ** argv ) 
 {
 	MyApplication a( argc, argv );
+	a.setQuitOnLastWindowClosed(false);
 	//a.connect( &a, SIGNAL( lastWindowClosed() ), &a, SLOT( quit() ) );
 
 	// Sets the config path
