@@ -1467,11 +1467,7 @@ void Core::startMplayer( QString file, double seek ) {
 		} else {
 			// Force styles for ass subtitles too
 			proc->addArgument("-ass-force-style");
-			if (!pref->ass_styles.user_forced_style.isEmpty()) {
-				proc->addArgument(pref->ass_styles.user_forced_style);
-			} else {
-				proc->addArgument(pref->ass_styles.toString());
-			}
+			proc->addArgument(pref->ass_styles.toString());
 		}
 		// Use the same font for OSD
 		if (!pref->ass_styles.fontname.isEmpty()) {

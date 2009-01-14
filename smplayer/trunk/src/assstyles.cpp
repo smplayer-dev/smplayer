@@ -38,8 +38,6 @@ AssStyles::AssStyles() {
 	marginl = 20;
 	marginr = 20;
 	marginv = 8;
-
-	user_forced_style.clear();
 }
 
 void AssStyles::save(QSettings * set) {
@@ -60,8 +58,6 @@ void AssStyles::save(QSettings * set) {
 	set->setValue("styles/marginl", marginl);
 	set->setValue("styles/marginr", marginr);
 	set->setValue("styles/marginv", marginv);
-
-	set->setValue("styles/user_forced_style", user_forced_style);
 }
 
 void AssStyles::load(QSettings * set) {
@@ -82,8 +78,6 @@ void AssStyles::load(QSettings * set) {
 	marginl = set->value("styles/marginl", marginl).toInt();
 	marginr = set->value("styles/marginr", marginr).toInt();
 	marginv = set->value("styles/marginv", marginv).toInt();
-
-	user_forced_style = set->value("styles/user_forced_style", user_forced_style).toString();
 }
 
 bool AssStyles::exportStyles(const QString & filename) {
