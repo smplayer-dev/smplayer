@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="ru">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -6890,42 +6891,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="381"/>
         <source>Customize SSA/ASS style</source>
-        <translation type="unfinished"></translation>
+        <translation>Настроить стиль субтитров SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="382"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
-        <translation type="unfinished"></translation>
+        <translation>Здесь можно указать предпочитаемый стиль субтитров SSA/ASS.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="383"/>
         <source>Clear the edit line to disable the customized style.</source>
-        <translation type="unfinished"></translation>
+        <translation>Очистите поле ввода, чтобы отменить настройки стиля.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>SSA/ASS style</source>
-        <translation type="unfinished"></translation>
+        <translation>Стиль SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="524"/>
         <source>Shadow color</source>
-        <translation type="unfinished"></translation>
+        <translation>Цвет тени</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="525"/>
         <source>This color will be used for the shadow of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Этот цвет будет использован для тени субтитров.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="962"/>
         <source>Shadow:</source>
-        <translation type="unfinished"></translation>
+        <translation>Тень:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1234"/>
         <source>Custo&amp;mize...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Настроить...</translation>
     </message>
 </context>
 <context>
