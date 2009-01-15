@@ -1204,11 +1204,38 @@
             </widget>
            </item>
            <item>
-            <widget class="QCheckBox" name="force_ass_styles" >
-             <property name="text" >
-              <string>A&amp;pply style to ass files too</string>
-             </property>
-            </widget>
+            <layout class="QHBoxLayout" >
+             <item>
+              <widget class="QCheckBox" name="force_ass_styles" >
+               <property name="text" >
+                <string>A&amp;pply style to ass files too</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer>
+               <property name="orientation" >
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" >
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QPushButton" name="ass_customize_button" >
+               <property name="enabled" >
+                <bool>false</bool>
+               </property>
+               <property name="text" >
+                <string>Custo&amp;mize...</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
            </item>
            <item>
             <spacer>
@@ -1217,8 +1244,8 @@
              </property>
              <property name="sizeHint" >
               <size>
-               <width>479</width>
-               <height>20</height>
+               <width>497</width>
+               <height>16</height>
               </size>
              </property>
             </spacer>
@@ -1286,6 +1313,7 @@
   <tabstop>style_outline_spin</tabstop>
   <tabstop>style_shadow_spin</tabstop>
   <tabstop>force_ass_styles</tabstop>
+  <tabstop>ass_customize_button</tabstop>
  </tabstops>
  <resources/>
  <connections>
@@ -1350,6 +1378,22 @@
     <hint type="destinationlabel" >
      <x>496</x>
      <y>353</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>force_ass_styles</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>ass_customize_button</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>115</x>
+     <y>376</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>474</x>
+     <y>377</y>
     </hint>
    </hints>
   </connection>
