@@ -1569,42 +1569,42 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2346"/>
+        <location filename="../core.cpp" line="2354"/>
         <source>Brightness: %1</source>
         <translation>Helderheid: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2361"/>
+        <location filename="../core.cpp" line="2369"/>
         <source>Contrast: %1</source>
         <translation>Contrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2375"/>
+        <location filename="../core.cpp" line="2383"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2389"/>
+        <location filename="../core.cpp" line="2397"/>
         <source>Hue: %1</source>
         <translation>Tint: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2403"/>
+        <location filename="../core.cpp" line="2411"/>
         <source>Saturation: %1</source>
         <translation>Verzadiging: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2523"/>
+        <location filename="../core.cpp" line="2531"/>
         <source>Volume: %1</source>
         <translation>Volume: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3330"/>
+        <location filename="../core.cpp" line="3338"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2640"/>
+        <location filename="../core.cpp" line="2648"/>
         <source>Font scale: %1</source>
         <translation>Lettertype-schaal: %1</translation>
     </message>
@@ -1621,12 +1621,12 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
         <translation type="obsolete">automatisch</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3149"/>
+        <location filename="../core.cpp" line="3157"/>
         <source>Aspect ratio: %1</source>
         <translation>Aspectverhouding: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3533"/>
+        <location filename="../core.cpp" line="3540"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6394,7 +6394,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefSubtitles</name>
     <message>
-        <location filename="../prefsubtitles.cpp" line="369"/>
+        <location filename="../prefsubtitles.cpp" line="411"/>
         <source>Subtitles</source>
         <translation>Ondertiteling</translation>
     </message>
@@ -6419,7 +6419,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Automatisch laden</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="374"/>
+        <location filename="../prefsubtitles.cpp" line="416"/>
         <source>Select first available subtitle</source>
         <translation>Kies eerst beschikbare ondertiteling</translation>
     </message>
@@ -6459,7 +6459,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Onderaan</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="396"/>
+        <location filename="../prefsubtitles.cpp" line="438"/>
         <source>Include subtitles on screenshots</source>
         <translation>Ondertiteling weergeven op schermafdrukken</translation>
     </message>
@@ -6469,7 +6469,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">&amp;Lettertype</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="827"/>
+        <location filename="../prefsubtitles.ui" line="804"/>
         <source>Font</source>
         <translation>Lettertype</translation>
     </message>
@@ -6519,12 +6519,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Hier kunt u de stijlen voor SSA/ASS ondertiteling aanpassen. Het kan ook gebruikt worden voor de fijnafstelling van de weergave van SRT of SUB-ondertiteling door de SSA/ASS-bibliotheek. Voorbeeld: &lt;b&gt;Bold=1,Outline=2,Shadow=4&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="444"/>
+        <location filename="../prefsubtitles.cpp" line="486"/>
         <source>Subtitle position</source>
         <translation>Ondertitel-positie</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="447"/>
+        <location filename="../prefsubtitles.cpp" line="489"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
         <translation>Deze optie bepaalt de positie van de ondertiteling op het afspeelvenster. &lt;i&gt;100&lt;/i&gt; betekent onderaan en &lt;i&gt;0&lt;/i&gt; betekent bovenaan.</translation>
     </message>
@@ -6629,7 +6629,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">SSA/ASS-bib&amp;liotheek</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="380"/>
+        <location filename="../prefsubtitles.cpp" line="422"/>
         <source>Default subtitle encoding</source>
         <translation>Standaard ondertitel-codering</translation>
     </message>
@@ -6644,7 +6644,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Als deze optie is aangevinkt, zal de ondertiteling in de schermafdrukken worden weergegeven. Let op: het kan soms problemen opleveren.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="418"/>
+        <location filename="../prefsubtitles.cpp" line="460"/>
         <source>TTF font</source>
         <translation>TTF-lettertype</translation>
     </message>
@@ -6654,17 +6654,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Hier kunt u een TTF-lettertype kiezen om voor de ondertiteling te gebruiken. U vindt doorgaans veel TTF-lettertypen in &lt;i&gt;%1&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="428"/>
+        <location filename="../prefsubtitles.cpp" line="470"/>
         <source>System font</source>
         <translation>Systeemlettertype</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="430"/>
+        <location filename="../prefsubtitles.cpp" line="472"/>
         <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
         <translation>Hier kunt u een systeemlettertype opgeven dat voor de ondertiteling en de OSD gebruikt zal worden. &lt;b&gt;Let op:&lt;/b&gt; vereist een MPlayer met fontconfig-ondersteuning.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="432"/>
+        <location filename="../prefsubtitles.cpp" line="474"/>
         <source>Autoscale</source>
         <translation>Automatisch schalen</translation>
     </message>
@@ -6679,62 +6679,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Vink deze optie aan om de SSA/ASS-bibliotheek te activeren. Het biedt mooiere ondertiteling, dus is het een goed idee om te doen.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="472"/>
+        <location filename="../prefsubtitles.cpp" line="518"/>
         <source>Text color</source>
         <translation>Tekstkleur</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="473"/>
+        <location filename="../prefsubtitles.cpp" line="519"/>
         <source>Select the color for the text of the subtitles.</source>
         <translation>Kies de tekstkleur van de ondertiteling.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="475"/>
+        <location filename="../prefsubtitles.cpp" line="521"/>
         <source>Border color</source>
         <translation>Randkleur</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="476"/>
+        <location filename="../prefsubtitles.cpp" line="522"/>
         <source>Select the color for the border of the subtitles.</source>
         <translation>Kies de randkleur van de ondertiteling.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="372"/>
+        <location filename="../prefsubtitles.cpp" line="414"/>
         <source>Select the subtitle autoload method.</source>
         <translation>Kies de methode voor automatisch laden van de ondertiteling.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="378"/>
+        <location filename="../prefsubtitles.cpp" line="420"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>Als er één of meer ondertiteling-sporen beschikbaar zijn, zal één daarvan automatisch worden geselecteerd, doorgaans de eerste, maar als één daarvan overeenkomt met de voorkeurstaal van de gebruiker dan zal die daarvoor in de plaats worden gebruikt.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="433"/>
+        <location filename="../prefsubtitles.cpp" line="475"/>
         <source>Select the subtitle autoscaling method.</source>
         <translation>Kies de methode voor automatisch schalen van de ondertiteling.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="382"/>
+        <location filename="../prefsubtitles.cpp" line="424"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
         <translation>Selecteer de codering die standaard voor ondertitelbestanden zal worden gebruikt.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="384"/>
+        <location filename="../prefsubtitles.cpp" line="426"/>
         <source>Try to autodetect for this language</source>
         <translation>Probeer te autodetecteren voor deze taal</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="389"/>
+        <location filename="../prefsubtitles.cpp" line="431"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
         <translation>Als deze optie aan staat zal de codering voor ondertitels geprobeerd te worden geautodetecteerd voor de gegeven taal. Het zal terugvallen naar standaard codering als dit niet lukt. Deze optie vereist een MPlayer die is gecompileerd met ondersteuning voor ENCA.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="391"/>
+        <location filename="../prefsubtitles.cpp" line="433"/>
         <source>Subtitle language</source>
         <translation>Taal van ondertitel</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="393"/>
+        <location filename="../prefsubtitles.cpp" line="435"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
         <translation>Selecteer de taal waarvan u wilt dat de codering automatisch voor wordt gegokt.</translation>
     </message>
@@ -6749,192 +6749,192 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>A&amp;utomatisch proberen te detecteren voor deze taal:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="421"/>
+        <location filename="../prefsubtitles.cpp" line="463"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
         <translation>Hier kan u een ttf-lettertype selecteren voor de ondertitels. Normaal zal u veel ttf-lettertypes vinden in %1</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="499"/>
+        <location filename="../prefsubtitles.cpp" line="548"/>
         <source>Outline</source>
         <translation>Uitlijning</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="461"/>
+        <location filename="../prefsubtitles.cpp" line="507"/>
         <source>Select the font for the subtitles.</source>
         <translation>Selecteer het lettertype voor de ondertitels.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="464"/>
+        <location filename="../prefsubtitles.cpp" line="510"/>
         <source>The size in pixels.</source>
         <translation>De grootte in pixels.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="466"/>
+        <location filename="../prefsubtitles.cpp" line="512"/>
         <source>Bold</source>
         <translation>Vet</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="467"/>
+        <location filename="../prefsubtitles.cpp" line="513"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
         <translation>Indien aangevinkt zal de tekst &lt;b&gt;vet&lt;/b&gt; worden weergegeven.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="469"/>
+        <location filename="../prefsubtitles.cpp" line="515"/>
         <source>Italic</source>
         <translation>Cursief</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="470"/>
+        <location filename="../prefsubtitles.cpp" line="516"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
         <translation>Indien aangevinkt zal de tekst &lt;i&gt;cursief&lt;/i&gt; worden weergegeven.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="478"/>
+        <location filename="../prefsubtitles.cpp" line="527"/>
         <source>Left margin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="479"/>
+        <location filename="../prefsubtitles.cpp" line="528"/>
         <source>Specifies the left margin in pixels.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="481"/>
+        <location filename="../prefsubtitles.cpp" line="530"/>
         <source>Right margin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="482"/>
+        <location filename="../prefsubtitles.cpp" line="531"/>
         <source>Specifies the right margin in pixels.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="484"/>
+        <location filename="../prefsubtitles.cpp" line="533"/>
         <source>Vertical margin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="485"/>
+        <location filename="../prefsubtitles.cpp" line="534"/>
         <source>Specifies the vertical margin in pixels.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="487"/>
+        <location filename="../prefsubtitles.cpp" line="536"/>
         <source>Horizontal alignment</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="489"/>
+        <location filename="../prefsubtitles.cpp" line="538"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="491"/>
+        <location filename="../prefsubtitles.cpp" line="540"/>
         <source>Vertical alignment</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="493"/>
+        <location filename="../prefsubtitles.cpp" line="542"/>
         <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="495"/>
+        <location filename="../prefsubtitles.cpp" line="544"/>
         <source>Border style</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="497"/>
+        <location filename="../prefsubtitles.cpp" line="546"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="503"/>
+        <location filename="../prefsubtitles.cpp" line="552"/>
         <source>Shadow</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="854"/>
+        <location filename="../prefsubtitles.ui" line="831"/>
         <source>Si&amp;ze:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="896"/>
+        <location filename="../prefsubtitles.ui" line="873"/>
         <source>Bol&amp;d</source>
         <translation>Ve&amp;t</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="903"/>
+        <location filename="../prefsubtitles.ui" line="880"/>
         <source>&amp;Italic</source>
         <translation>C&amp;ursief</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="915"/>
+        <location filename="../prefsubtitles.ui" line="892"/>
         <source>Colors</source>
         <translation>Kleuren</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="933"/>
+        <location filename="../prefsubtitles.ui" line="910"/>
         <source>&amp;Text:</source>
         <translation>&amp;Tekst:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="953"/>
+        <location filename="../prefsubtitles.ui" line="936"/>
         <source>&amp;Border:</source>
         <translation>Ran&amp;d:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="976"/>
+        <location filename="../prefsubtitles.ui" line="988"/>
         <source>Margins</source>
         <translation>Marges</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="994"/>
+        <location filename="../prefsubtitles.ui" line="1006"/>
         <source>L&amp;eft:</source>
         <translation>L&amp;inks:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1010"/>
+        <location filename="../prefsubtitles.ui" line="1022"/>
         <source>&amp;Right:</source>
         <translation>&amp;Rechts:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1026"/>
+        <location filename="../prefsubtitles.ui" line="1038"/>
         <source>Verti&amp;cal:</source>
         <translation>Verti&amp;caal:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1058"/>
+        <location filename="../prefsubtitles.ui" line="1070"/>
         <source>Alignment</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1076"/>
+        <location filename="../prefsubtitles.ui" line="1088"/>
         <source>&amp;Horizontal:</source>
         <translation>&amp;Horizontaal:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1092"/>
+        <location filename="../prefsubtitles.ui" line="1104"/>
         <source>&amp;Vertical:</source>
         <translation>&amp;Vericaal:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1113"/>
+        <location filename="../prefsubtitles.ui" line="1125"/>
         <source>Border st&amp;yle:</source>
         <translation>Randsti&amp;jl:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1139"/>
+        <location filename="../prefsubtitles.ui" line="1151"/>
         <source>&amp;Outline:</source>
         <translation>&amp;Uitlijning:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1162"/>
+        <location filename="../prefsubtitles.ui" line="1174"/>
         <source>Shado&amp;w:</source>
         <translation>Schadu&amp;w:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="817"/>
+        <location filename="../prefsubtitles.cpp" line="504"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
         <translation type="unfinished">Hier kunt u een TTF-lettertype kiezen om voor de ondertiteling te gebruiken. U vindt doorgaans veel TTF-lettertypen in &lt;i&gt;%1&lt;/i&gt;.</translation>
     </message>
@@ -6987,67 +6987,67 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="501"/>
+        <location filename="../prefsubtitles.cpp" line="550"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="505"/>
+        <location filename="../prefsubtitles.cpp" line="554"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="408"/>
+        <location filename="../prefsubtitles.cpp" line="450"/>
         <source>Enable normal subtitles</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="410"/>
+        <location filename="../prefsubtitles.cpp" line="452"/>
         <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="412"/>
+        <location filename="../prefsubtitles.cpp" line="454"/>
         <source>Enable SSA/ASS subtitles</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="416"/>
+        <location filename="../prefsubtitles.cpp" line="458"/>
         <source>Normal subtitles</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="437"/>
+        <location filename="../prefsubtitles.cpp" line="479"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="451"/>
+        <location filename="../prefsubtitles.cpp" line="493"/>
         <source>Default scale</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="441"/>
+        <location filename="../prefsubtitles.cpp" line="483"/>
         <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="449"/>
+        <location filename="../prefsubtitles.cpp" line="491"/>
         <source>SSA/ASS subtitles</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="453"/>
+        <location filename="../prefsubtitles.cpp" line="495"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="456"/>
+        <location filename="../prefsubtitles.cpp" line="498"/>
         <source>Line spacing</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="458"/>
+        <location filename="../prefsubtitles.cpp" line="500"/>
         <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7082,17 +7082,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="414"/>
+        <location filename="../prefsubtitles.cpp" line="456"/>
         <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="400"/>
+        <location filename="../prefsubtitles.cpp" line="442"/>
         <source>Freetype support</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="404"/>
+        <location filename="../prefsubtitles.cpp" line="446"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make that subtitles won&apos;t work at all!&lt;/b&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7102,23 +7102,63 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Ondersteuning voor Freet&amp;ype</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="398"/>
+        <location filename="../prefsubtitles.cpp" line="440"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="507"/>
+        <location filename="../prefsubtitles.cpp" line="556"/>
         <source>Apply style to ass files too</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="509"/>
+        <location filename="../prefsubtitles.cpp" line="558"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1197"/>
+        <location filename="../prefsubtitles.ui" line="1211"/>
         <source>A&amp;pply style to ass files too</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="381"/>
+        <source>Customize SSA/ASS style</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="382"/>
+        <source>Here you can enter your customized SSA/ASS style.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="383"/>
+        <source>Clear the edit line to disable the customized style.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="502"/>
+        <source>SSA/ASS style</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="524"/>
+        <source>Shadow color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="525"/>
+        <source>This color will be used for the shadow of the subtitles.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="962"/>
+        <source>Shadow:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="1234"/>
+        <source>Custo&amp;mize...</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

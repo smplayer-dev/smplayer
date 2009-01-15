@@ -1519,52 +1519,52 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2346"/>
+        <location filename="../core.cpp" line="2354"/>
         <source>Brightness: %1</source>
         <translation>Fényerő: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2361"/>
+        <location filename="../core.cpp" line="2369"/>
         <source>Contrast: %1</source>
         <translation>Kontraszt: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2375"/>
+        <location filename="../core.cpp" line="2383"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2389"/>
+        <location filename="../core.cpp" line="2397"/>
         <source>Hue: %1</source>
         <translation>Színárnyalat: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2403"/>
+        <location filename="../core.cpp" line="2411"/>
         <source>Saturation: %1</source>
         <translation>Telítettség: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2523"/>
+        <location filename="../core.cpp" line="2531"/>
         <source>Volume: %1</source>
         <translation>Hangerő: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3330"/>
+        <location filename="../core.cpp" line="3338"/>
         <source>Zoom: %1</source>
         <translation>Nagyítás: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2640"/>
+        <location filename="../core.cpp" line="2648"/>
         <source>Font scale: %1</source>
         <translation>Betű méret: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3149"/>
+        <location filename="../core.cpp" line="3157"/>
         <source>Aspect ratio: %1</source>
         <translation>Méretarány: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3533"/>
+        <location filename="../core.cpp" line="3540"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Betűkészlet gyorsítótár frissítése. Eltarthat pár másodpercig...</translation>
     </message>
@@ -6246,7 +6246,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefSubtitles</name>
     <message>
-        <location filename="../prefsubtitles.cpp" line="369"/>
+        <location filename="../prefsubtitles.cpp" line="411"/>
         <source>Subtitles</source>
         <translation>Feliratok</translation>
     </message>
@@ -6306,12 +6306,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Lent</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="396"/>
+        <location filename="../prefsubtitles.cpp" line="438"/>
         <source>Include subtitles on screenshots</source>
         <translation>Feliratok beépítése a pillanatképekbe</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="827"/>
+        <location filename="../prefsubtitles.ui" line="804"/>
         <source>Font</source>
         <translation>Betűtípus</translation>
     </message>
@@ -6346,12 +6346,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>A film átlójához megfelelő</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="444"/>
+        <location filename="../prefsubtitles.cpp" line="486"/>
         <source>Subtitle position</source>
         <translation>Felirat pozíciója</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="447"/>
+        <location filename="../prefsubtitles.cpp" line="489"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
         <translation>Ez az opció meghatározza a felirat pozícióját a videó ablakban. &lt;i&gt;100&lt;/i&gt; az alját, míg &lt;i&gt;0&lt;/i&gt; a tetejét jelenti.</translation>
     </message>
@@ -6396,12 +6396,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>A&amp;utomatikus méret:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="374"/>
+        <location filename="../prefsubtitles.cpp" line="416"/>
         <source>Select first available subtitle</source>
         <translation>Az első elérhető felirat kiválasztása</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="380"/>
+        <location filename="../prefsubtitles.cpp" line="422"/>
         <source>Default subtitle encoding</source>
         <translation>Alapértelmezett felirat kódolás</translation>
     </message>
@@ -6411,82 +6411,82 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Ha ez az opció be van jelölve, a feliratok meg fognak jelenni a pillanatképeken. Megjegyzés: néha gondot okozhat.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="418"/>
+        <location filename="../prefsubtitles.cpp" line="460"/>
         <source>TTF font</source>
         <translation>TTF betűtípus</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="428"/>
+        <location filename="../prefsubtitles.cpp" line="470"/>
         <source>System font</source>
         <translation>Rendszer betűtípus</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="430"/>
+        <location filename="../prefsubtitles.cpp" line="472"/>
         <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
         <translation>Itt kiválaszthatja a feliratokhoz és OSD-hez használt rendszer betűtípust. &lt;b&gt;Megjegyzés:&lt;/b&gt; fontconfig-ot támogató MPlayer szükséges.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="432"/>
+        <location filename="../prefsubtitles.cpp" line="474"/>
         <source>Autoscale</source>
         <translation>Automatikus méret</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="472"/>
+        <location filename="../prefsubtitles.cpp" line="518"/>
         <source>Text color</source>
         <translation>Szöveg színe</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="473"/>
+        <location filename="../prefsubtitles.cpp" line="519"/>
         <source>Select the color for the text of the subtitles.</source>
         <translation>Válassza ki a felirat szöveg színét.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="475"/>
+        <location filename="../prefsubtitles.cpp" line="521"/>
         <source>Border color</source>
         <translation>Szegély szín</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="476"/>
+        <location filename="../prefsubtitles.cpp" line="522"/>
         <source>Select the color for the border of the subtitles.</source>
         <translation>Válassza ki a felirat szegély színét.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="372"/>
+        <location filename="../prefsubtitles.cpp" line="414"/>
         <source>Select the subtitle autoload method.</source>
         <translation>Válassza ki a felirat automata betöltés módját.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="378"/>
+        <location filename="../prefsubtitles.cpp" line="420"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>Ha egy vagy több feliratsáv érhető el, akkor automatikusan ki lesz választva az egyik, általában az első, bár ha valamelyik egyezik a felhasználó preferált nyelvével, akkor az lesz használva.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="433"/>
+        <location filename="../prefsubtitles.cpp" line="475"/>
         <source>Select the subtitle autoscaling method.</source>
         <translation>Válassza ki a felirat automata méretezés módját.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="382"/>
+        <location filename="../prefsubtitles.cpp" line="424"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
         <translation>Válassza ki a felirat fájlokhoz használt alapértelmezett kódolást.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="384"/>
+        <location filename="../prefsubtitles.cpp" line="426"/>
         <source>Try to autodetect for this language</source>
         <translation>Automatikus felismerés ehhez a nyelvhez</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="389"/>
+        <location filename="../prefsubtitles.cpp" line="431"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
         <translation>Ha ez az opció aktív, a feliratok kódolásának megállapítása az adott nyelvhez lesz megpróbálva. Ha az automatikus felismerés sikertelen, az alap kódolás lesz használva. Ez az opció ENCA támogatással fordított MPlayert igényel.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="391"/>
+        <location filename="../prefsubtitles.cpp" line="433"/>
         <source>Subtitle language</source>
         <translation>Felirat nyelve</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="393"/>
+        <location filename="../prefsubtitles.cpp" line="435"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
         <translation>Válassza ki az automatikus kódolás megállapításhoz használt nyelvet.</translation>
     </message>
@@ -6501,192 +6501,192 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>A&amp;utomatikus felismerés ehhez a nyelvhez:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="421"/>
+        <location filename="../prefsubtitles.cpp" line="463"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
         <translation>Itt kiválaszthatja a feliratokhoz használt TTF betűtípust. Általában sok TTF betűtípust találhat itt: %1</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="499"/>
+        <location filename="../prefsubtitles.cpp" line="548"/>
         <source>Outline</source>
         <translation>Körvonal</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="461"/>
+        <location filename="../prefsubtitles.cpp" line="507"/>
         <source>Select the font for the subtitles.</source>
         <translation>Válassza ki a betűtípust a feliratokhoz.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="464"/>
+        <location filename="../prefsubtitles.cpp" line="510"/>
         <source>The size in pixels.</source>
         <translation>A méret pixelben.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="466"/>
+        <location filename="../prefsubtitles.cpp" line="512"/>
         <source>Bold</source>
         <translation>Félkövér</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="467"/>
+        <location filename="../prefsubtitles.cpp" line="513"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
         <translation>Ha bejelöli, a szöveg &lt;b&gt;félkövéren&lt;b&gt; jelenik meg.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="469"/>
+        <location filename="../prefsubtitles.cpp" line="515"/>
         <source>Italic</source>
         <translation>Dőlt</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="470"/>
+        <location filename="../prefsubtitles.cpp" line="516"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
         <translation>Ha bejelöli, a szöveg &lt;i&gt;dőlten&lt;i&gt; jelenik meg.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="478"/>
+        <location filename="../prefsubtitles.cpp" line="527"/>
         <source>Left margin</source>
         <translation>Bal margó</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="479"/>
+        <location filename="../prefsubtitles.cpp" line="528"/>
         <source>Specifies the left margin in pixels.</source>
         <translation>Beállítja a bal margót pixelekben.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="481"/>
+        <location filename="../prefsubtitles.cpp" line="530"/>
         <source>Right margin</source>
         <translation>Jobb margó</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="482"/>
+        <location filename="../prefsubtitles.cpp" line="531"/>
         <source>Specifies the right margin in pixels.</source>
         <translation>Beállítja a jobb margót pixelekben.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="484"/>
+        <location filename="../prefsubtitles.cpp" line="533"/>
         <source>Vertical margin</source>
         <translation>Függőleges margó</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="485"/>
+        <location filename="../prefsubtitles.cpp" line="534"/>
         <source>Specifies the vertical margin in pixels.</source>
         <translation>Beállítja a függőleges margót pixelekben.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="487"/>
+        <location filename="../prefsubtitles.cpp" line="536"/>
         <source>Horizontal alignment</source>
         <translation>Vízszintes igazítás</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="489"/>
+        <location filename="../prefsubtitles.cpp" line="538"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
         <translation>Beállítja a vízszintes igazítást. Lehetséges értékek: bal, közép és jobb.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="491"/>
+        <location filename="../prefsubtitles.cpp" line="540"/>
         <source>Vertical alignment</source>
         <translation>Függőleges igazítás</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="493"/>
+        <location filename="../prefsubtitles.cpp" line="542"/>
         <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
         <translation>Beállítja a függőleges igazítást. Lehetséges értékek: lent, középen és fent.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="495"/>
+        <location filename="../prefsubtitles.cpp" line="544"/>
         <source>Border style</source>
         <translation>Szegély stílus</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="497"/>
+        <location filename="../prefsubtitles.cpp" line="546"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
         <translation>Meghatározza a szegély stílusát. Lehetséges értékek: körvonal és átlátszatlan doboz.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="503"/>
+        <location filename="../prefsubtitles.cpp" line="552"/>
         <source>Shadow</source>
         <translation>Árnyék</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="854"/>
+        <location filename="../prefsubtitles.ui" line="831"/>
         <source>Si&amp;ze:</source>
         <translation>&amp;Méret:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="896"/>
+        <location filename="../prefsubtitles.ui" line="873"/>
         <source>Bol&amp;d</source>
         <translation>Fé&amp;lkövér</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="903"/>
+        <location filename="../prefsubtitles.ui" line="880"/>
         <source>&amp;Italic</source>
         <translation>Dő&amp;lt</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="915"/>
+        <location filename="../prefsubtitles.ui" line="892"/>
         <source>Colors</source>
         <translation>Színek</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="933"/>
+        <location filename="../prefsubtitles.ui" line="910"/>
         <source>&amp;Text:</source>
         <translation>&amp;Szöveg:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="953"/>
+        <location filename="../prefsubtitles.ui" line="936"/>
         <source>&amp;Border:</source>
         <translation>Sze&amp;gély:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="976"/>
+        <location filename="../prefsubtitles.ui" line="988"/>
         <source>Margins</source>
         <translation>Margók</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="994"/>
+        <location filename="../prefsubtitles.ui" line="1006"/>
         <source>L&amp;eft:</source>
         <translation>&amp;Bal:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1010"/>
+        <location filename="../prefsubtitles.ui" line="1022"/>
         <source>&amp;Right:</source>
         <translation>&amp;Jobb:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1026"/>
+        <location filename="../prefsubtitles.ui" line="1038"/>
         <source>Verti&amp;cal:</source>
         <translation>Fü&amp;ggőleges:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1058"/>
+        <location filename="../prefsubtitles.ui" line="1070"/>
         <source>Alignment</source>
         <translation>Igazítás</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1076"/>
+        <location filename="../prefsubtitles.ui" line="1088"/>
         <source>&amp;Horizontal:</source>
         <translation>Ví&amp;zszintes:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1092"/>
+        <location filename="../prefsubtitles.ui" line="1104"/>
         <source>&amp;Vertical:</source>
         <translation>&amp;Függőleges:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1113"/>
+        <location filename="../prefsubtitles.ui" line="1125"/>
         <source>Border st&amp;yle:</source>
         <translation>Szegély stíl&amp;us:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1139"/>
+        <location filename="../prefsubtitles.ui" line="1151"/>
         <source>&amp;Outline:</source>
         <translation>Kör&amp;vonal:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1162"/>
+        <location filename="../prefsubtitles.ui" line="1174"/>
         <source>Shado&amp;w:</source>
         <translation>Ár&amp;nyék:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="817"/>
+        <location filename="../prefsubtitles.cpp" line="504"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
         <translation>A következő opciók lehetővé teszik a nem stílusos feliratokhoz (srt, sub...) használt stílus megadását.</translation>
     </message>
@@ -6739,67 +6739,67 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Átlátszatlan doboz</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="501"/>
+        <location filename="../prefsubtitles.cpp" line="550"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
         <translation>Ha a szegély stílusa &lt;i&gt;körvonal&lt;/i&gt;, ez az opció meghatározza a szöveg körüli körvonal vastagságát pixelekben.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="505"/>
+        <location filename="../prefsubtitles.cpp" line="554"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
         <translation>Ha a szegély stílusa &lt;i&gt;körvonal&lt;/i&gt;, ez az opció meghatározza a szöveg mögötti árnyék mélységét pixelekben.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="408"/>
+        <location filename="../prefsubtitles.cpp" line="450"/>
         <source>Enable normal subtitles</source>
         <translation>Normál feliratok engedélyezése</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="410"/>
+        <location filename="../prefsubtitles.cpp" line="452"/>
         <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
         <translation>Kattintson erre a gombra a normál/hagyományos feliratok kiválasztásához. Az ilyen feliratok csak fehér szöveget tudnak megjeleníteni.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="412"/>
+        <location filename="../prefsubtitles.cpp" line="454"/>
         <source>Enable SSA/ASS subtitles</source>
         <translation>SSA/ASS feliratok engedélyezése</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="416"/>
+        <location filename="../prefsubtitles.cpp" line="458"/>
         <source>Normal subtitles</source>
         <translation>Normál feliratok</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="437"/>
+        <location filename="../prefsubtitles.cpp" line="479"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation>Ez az opció NEM változtatja meg a feliratok méretét a jelenlegi videóban. Ahhoz használja a &lt;i&gt;Méret+&lt;/i&gt; és &lt;i&gt;Méret-&lt;/i&gt; parancsokat a felirat menüben.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="451"/>
+        <location filename="../prefsubtitles.cpp" line="493"/>
         <source>Default scale</source>
         <translation>Alap méret</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="441"/>
+        <location filename="../prefsubtitles.cpp" line="483"/>
         <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
         <translation>Ez az opció meghatározza a normál feliratokhoz használt alap betűméretet újonnan megnyitott fájloknál.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="449"/>
+        <location filename="../prefsubtitles.cpp" line="491"/>
         <source>SSA/ASS subtitles</source>
         <translation>SSA/ASS feliratok</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="453"/>
+        <location filename="../prefsubtitles.cpp" line="495"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
         <translation>Ez az opció meghatározza az SSA/ASS feliratokhoz használt alap betűméretet újonnan megnyitott fájloknál.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="456"/>
+        <location filename="../prefsubtitles.cpp" line="498"/>
         <source>Line spacing</source>
         <translation>Sorköz</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="458"/>
+        <location filename="../prefsubtitles.cpp" line="500"/>
         <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
         <translation>Meghatározza a sorokat elválasztó távolságot. Negatív érték is használható.</translation>
     </message>
@@ -6834,17 +6834,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>So&amp;rköz:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="414"/>
+        <location filename="../prefsubtitles.cpp" line="456"/>
         <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
         <translation>Kattintson erre a gombra az új SSA/ASS könyvtár engedélyezéséhez. Ez lehetővé teszi a feliratok megjelenítését több színnel, betűtípussal...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="400"/>
+        <location filename="../prefsubtitles.cpp" line="442"/>
         <source>Freetype support</source>
         <translation>Freetype támogatás</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="404"/>
+        <location filename="../prefsubtitles.cpp" line="446"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make that subtitles won&apos;t work at all!&lt;/b&gt;</source>
         <translation>Általában nem ajánlott letiltani ezt az opciót, kivéve ha az MPlayerje freetype támogatás nélkül lett fordítva. &lt;b&gt;Az opció letiltásával előfordulhat, hogy a feliratok egyáltalán nem fognak működni!&lt;/b&gt;</translation>
     </message>
@@ -6854,24 +6854,64 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Freet&amp;ype támogatás</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="398"/>
+        <location filename="../prefsubtitles.cpp" line="440"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
         <translation>Ha ez az opció be van jelölve, a feliratok meg fognak jelenni a pillanatképeken. &lt;b&gt;Megjegyzés:&lt;/b&gt; néha gondot okozhat.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="507"/>
+        <location filename="../prefsubtitles.cpp" line="556"/>
         <source>Apply style to ass files too</source>
         <translation>Stílus alkalmazása ass fájlokra is</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="509"/>
+        <location filename="../prefsubtitles.cpp" line="558"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation>Ha ez az opció be van jelölve, a fent meghatározott stílus az ass feliratokra is alkalmazva lesz.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1197"/>
+        <location filename="../prefsubtitles.ui" line="1211"/>
         <source>A&amp;pply style to ass files too</source>
         <translation>S&amp;tílus alkalmazása ass fájlokra is</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="381"/>
+        <source>Customize SSA/ASS style</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="382"/>
+        <source>Here you can enter your customized SSA/ASS style.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="383"/>
+        <source>Clear the edit line to disable the customized style.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="502"/>
+        <source>SSA/ASS style</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="524"/>
+        <source>Shadow color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="525"/>
+        <source>This color will be used for the shadow of the subtitles.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="962"/>
+        <source>Shadow:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="1234"/>
+        <source>Custo&amp;mize...</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
