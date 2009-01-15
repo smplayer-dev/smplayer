@@ -5,6 +5,9 @@
    [subtitles] section. If the value is not an empty string, it will be
    passed to mplayer for the -ass-force-style option, overriding the string
    generated automatically by smplayer.
+ * Added a "Customize" button in the SSA/ASS section in preferences to
+   allow the user to customize the SSA/ASS style which will be passed to
+   mplayer with the -ass-force-style option.
 
 (2009-01-12)
  * (Fix) When opening an iso file, start to play from the dvd menu instead

@@ -87,6 +87,9 @@ protected:
 	void setForceAssStyles(bool b);
 	bool forceAssStyles();
 
+	void setCustomizedAssStyle(QString style) { forced_ass_style = style; };
+	QString customizedAssStyle() { return forced_ass_style; };
+
 	void setFontFuzziness(int n);
 	int fontFuzziness();
 
@@ -98,6 +101,7 @@ protected:
 
 protected slots:
 	void on_ass_subs_button_toggled(bool b);
+	void on_ass_customize_button_clicked();
 	void on_freetype_check_toggled(bool b);
 	void checkBorderStyleCombo( int index );
 
@@ -106,6 +110,7 @@ protected:
 
 private:
 	Encodings * encodings;
+	QString forced_ass_style;
 };
 
 #endif

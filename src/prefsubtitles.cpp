@@ -25,7 +25,7 @@
 #include "filedialog.h"
 #include "languages.h"
 
-#include <QColorDialog>
+#include <QInputDialog>
 
 PrefSubtitles::PrefSubtitles(QWidget * parent, Qt::WindowFlags f)
 	: PrefWidget(parent, f )
@@ -154,6 +154,7 @@ void PrefSubtitles::setData(Preferences * pref) {
 	style_marginv_spin->setValue(pref->ass_styles.marginv);
 
 	setForceAssStyles(pref->force_ass_styles);
+	setCustomizedAssStyle(pref->user_forced_ass_style);
 }
 
 void PrefSubtitles::getData(Preferences * pref) {
@@ -196,6 +197,7 @@ void PrefSubtitles::getData(Preferences * pref) {
 	pref->ass_styles.exportStyles( Paths::subtitleStyleFile() );
 
 	TEST_AND_SET(pref->force_ass_styles, forceAssStyles());
+	TEST_AND_SET(pref->user_forced_ass_style, customizedAssStyle());
 }
 
 void PrefSubtitles::checkBorderStyleCombo( int index ) {
@@ -347,6 +349,41 @@ void PrefSubtitles::on_ass_subs_button_toggled(bool b) {
 		stackedWidget->setCurrentIndex(1);
 	 else 
 		stackedWidget->setCurrentIndex(0);
+}
+
+void PrefSubtitles::on_ass_customize_button_clicked() {
+	bool ok;
+
+	QString edit = forced_ass_style;
+
+	if (edit.isEmpty()) {
+		AssStyles ass_styles;
+		ass_styles.fontname = style_font_combo->currentText();
+		ass_styles.fontsize = style_size_spin->value();
+		ass_styles.primarycolor = style_text_color_button->color().rgb();
+		ass_styles.outlinecolor = style_border_color_button->color().rgb();
+		ass_styles.backcolor = style_shadow_color_button->color().rgb();
+		ass_styles.bold = style_bold_check->isChecked();
+		ass_styles.italic = style_italic_check->isChecked();
+		ass_styles.halignment = style_alignment_combo->itemData(style_alignment_combo->currentIndex()).toInt();
+		ass_styles.valignment = style_valignment_combo->currentIndex();
+		ass_styles.borderstyle = style_border_style_combo->itemData(style_border_style_combo->currentIndex()).toInt();
+		ass_styles.outline = style_outline_spin->value();
+		ass_styles.shadow = style_shadow_spin->value();
+		ass_styles.marginl = style_marginl_spin->value();
+		ass_styles.marginr = style_marginr_spin->value();
+		ass_styles.marginv = style_marginv_spin->value();
+		edit = ass_styles.toString();
+	}
+
+	QString s = QInputDialog::getText(this, tr("Customize SSA/ASS style"),
+                                      tr("Here you can enter your customized SSA/ASS style.") +"<br>"+
+                                      tr("Clear the edit line to disable the customized style."), 
+                                      QLineEdit::Normal, 
+                                      edit, &ok );
+	if (ok) {
+		setCustomizedAssStyle(s);
+	}
 }
 
 void PrefSubtitles::setFreetypeSupport(bool b) {
