@@ -3,6 +3,9 @@
 (2009-01-15)
  * (Windows) Now the screensaver is allowed to turn on if the file is
     paused or it's an audio file.
+ * The "it's a playlist" option in the Open URL dialog is automatically
+   checked if the url ends with ".ram", ".asx" or ".m3u" (and unchecked if
+   it ends with another extension).
 
 (2009-01-14)
  * New option for the config file: user_forced_ass_style under the 

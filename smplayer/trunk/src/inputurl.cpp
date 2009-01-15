@@ -31,7 +31,8 @@ InputURL::InputURL( QWidget* parent, Qt::WindowFlags f )
 		tr("If this option is checked, the URL will be treated as a playlist: "
         "it will be opened as text and will play the URLs in it.") );
 
-	connect(url_edit, SIGNAL(currentIndexChanged(int)), this, SLOT(indexChanged()));
+	connect(url_edit, SIGNAL(editTextChanged(const QString &)), this, SLOT(textChanged(const QString &)));
+	connect(url_edit, SIGNAL(currentIndexChanged(int)), this, SLOT(indexChanged(int)));
 	connect(playlist_check, SIGNAL(stateChanged(int)), this, SLOT(playlistChanged(int)));
 }
 
@@ -58,11 +59,18 @@ bool InputURL::isPlaylist() {
 	return playlist_check->isChecked();
 }
 
-void InputURL::indexChanged(void) {
+void InputURL::indexChanged(int) {
+	qDebug("InputURL::indexChanged");
 	int pos = url_edit->currentIndex();
 	if (url_edit->itemText(pos) == url_edit->currentText()) {
 		playlist_check->setChecked( url_edit->itemData(pos).toBool() );
 	}
+}
+
+void InputURL::textChanged(const QString & new_text) {
+	qDebug("InputURL::textChanged");
+	QRegExp rx("\\.ram$|\\.asx$|\\.m3u$", Qt::CaseInsensitive);
+	setPlaylist( (rx.indexIn(new_text) != -1) );
 }
 
 void InputURL::playlistChanged(int state) {
