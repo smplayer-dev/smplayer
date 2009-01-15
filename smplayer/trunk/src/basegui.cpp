@@ -4159,7 +4159,11 @@ bool BaseGui::winEvent ( MSG * m, long * result ) {
 	if (m->message==WM_SYSCOMMAND) {
 		if ((m->wParam & 0xFFF0)==SC_SCREENSAVE || (m->wParam & 0xFFF0)==SC_MONITORPOWER) {
 			qDebug("BaseGui::winEvent: received SC_SCREENSAVE or SC_MONITORPOWER");
-			if ((pref->disable_screensaver) && (core->state()==Core::Playing)) {
+			qDebug("BaseGui::winEvent: disable_screensaver: %d", pref->disable_screensaver);
+			qDebug("BaseGui::winEvent: playing: %d", core->state()==Core::Playing);
+			qDebug("BaseGui::winEvent: video: %d", !core->mdat.novideo);
+			
+			if ((pref->disable_screensaver) && (core->state()==Core::Playing) && (!core->mdat.novideo)) {
 				qDebug("BaseGui::winEvent: not allowing screensaver");
 				(*result) = 0;
 				return true;
