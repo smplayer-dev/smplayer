@@ -1,5 +1,9 @@
 [b]Version 0.6.7[/b]:
 
+(2009-01-15)
+ * (Windows) Now the screensaver is allowed to turn on if the file is
+    paused or it's an audio file.
+
 (2009-01-14)
  * New option for the config file: user_forced_ass_style under the 
    [subtitles] section. If the value is not an empty string, it will be
