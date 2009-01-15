@@ -173,12 +173,7 @@ void Preferences::reset() {
 	subfuzziness = 1;
 	autoload_sub = true;
 
-#ifdef Q_OS_WIN
-	use_ass_subtitles = false;
-#else
 	use_ass_subtitles = true;
-#endif
-
 	ass_line_spacing = 0;
 
 	use_closed_caption_subs = false;
