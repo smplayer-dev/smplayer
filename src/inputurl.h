@@ -37,7 +37,8 @@ public:
 	bool isPlaylist();
 
 protected slots:
-	void indexChanged();
+	void indexChanged(int);
+	void textChanged(const QString &);
 	void playlistChanged(int);
 };
 
