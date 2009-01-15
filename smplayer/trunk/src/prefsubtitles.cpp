@@ -356,23 +356,25 @@ void PrefSubtitles::on_ass_customize_button_clicked() {
 
 	QString edit = forced_ass_style;
 
+	// A copy with the current values in the dialog
+	AssStyles ass_styles;
+	ass_styles.fontname = style_font_combo->currentText();
+	ass_styles.fontsize = style_size_spin->value();
+	ass_styles.primarycolor = style_text_color_button->color().rgb();
+	ass_styles.outlinecolor = style_border_color_button->color().rgb();
+	ass_styles.backcolor = style_shadow_color_button->color().rgb();
+	ass_styles.bold = style_bold_check->isChecked();
+	ass_styles.italic = style_italic_check->isChecked();
+	ass_styles.halignment = style_alignment_combo->itemData(style_alignment_combo->currentIndex()).toInt();
+	ass_styles.valignment = style_valignment_combo->currentIndex();
+	ass_styles.borderstyle = style_border_style_combo->itemData(style_border_style_combo->currentIndex()).toInt();
+	ass_styles.outline = style_outline_spin->value();
+	ass_styles.shadow = style_shadow_spin->value();
+	ass_styles.marginl = style_marginl_spin->value();
+	ass_styles.marginr = style_marginr_spin->value();
+	ass_styles.marginv = style_marginv_spin->value();
+
 	if (edit.isEmpty()) {
-		AssStyles ass_styles;
-		ass_styles.fontname = style_font_combo->currentText();
-		ass_styles.fontsize = style_size_spin->value();
-		ass_styles.primarycolor = style_text_color_button->color().rgb();
-		ass_styles.outlinecolor = style_border_color_button->color().rgb();
-		ass_styles.backcolor = style_shadow_color_button->color().rgb();
-		ass_styles.bold = style_bold_check->isChecked();
-		ass_styles.italic = style_italic_check->isChecked();
-		ass_styles.halignment = style_alignment_combo->itemData(style_alignment_combo->currentIndex()).toInt();
-		ass_styles.valignment = style_valignment_combo->currentIndex();
-		ass_styles.borderstyle = style_border_style_combo->itemData(style_border_style_combo->currentIndex()).toInt();
-		ass_styles.outline = style_outline_spin->value();
-		ass_styles.shadow = style_shadow_spin->value();
-		ass_styles.marginl = style_marginl_spin->value();
-		ass_styles.marginr = style_marginr_spin->value();
-		ass_styles.marginv = style_marginv_spin->value();
 		edit = ass_styles.toString();
 	}
 
@@ -382,6 +384,7 @@ void PrefSubtitles::on_ass_customize_button_clicked() {
                                       QLineEdit::Normal, 
                                       edit, &ok );
 	if (ok) {
+		if (s == ass_styles.toString()) s.clear(); // Clear string if it wasn't changed by the user
 		setCustomizedAssStyle(s);
 	}
 }
