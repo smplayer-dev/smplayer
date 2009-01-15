@@ -1519,52 +1519,52 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2346"/>
+        <location filename="../core.cpp" line="2354"/>
         <source>Brightness: %1</source>
         <translation>亮度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2361"/>
+        <location filename="../core.cpp" line="2369"/>
         <source>Contrast: %1</source>
         <translation>对比度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2375"/>
+        <location filename="../core.cpp" line="2383"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2389"/>
+        <location filename="../core.cpp" line="2397"/>
         <source>Hue: %1</source>
         <translation>色调: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2403"/>
+        <location filename="../core.cpp" line="2411"/>
         <source>Saturation: %1</source>
         <translation>饱和度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2523"/>
+        <location filename="../core.cpp" line="2531"/>
         <source>Volume: %1</source>
         <translation>音量: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3330"/>
+        <location filename="../core.cpp" line="3338"/>
         <source>Zoom: %1</source>
         <translation>缩放: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2640"/>
+        <location filename="../core.cpp" line="2648"/>
         <source>Font scale: %1</source>
         <translation>字体比例: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3149"/>
+        <location filename="../core.cpp" line="3157"/>
         <source>Aspect ratio: %1</source>
         <translation>外观比例: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3533"/>
+        <location filename="../core.cpp" line="3540"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>更新字体缓存。这可能需要几秒钟...</translation>
     </message>
@@ -6122,7 +6122,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefSubtitles</name>
     <message>
-        <location filename="../prefsubtitles.cpp" line="369"/>
+        <location filename="../prefsubtitles.cpp" line="411"/>
         <source>Subtitles</source>
         <translation>字幕</translation>
     </message>
@@ -6147,7 +6147,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>自动加载</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="374"/>
+        <location filename="../prefsubtitles.cpp" line="416"/>
         <source>Select first available subtitle</source>
         <translation>选择第一个可用的字幕</translation>
     </message>
@@ -6187,12 +6187,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>底部</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="396"/>
+        <location filename="../prefsubtitles.cpp" line="438"/>
         <source>Include subtitles on screenshots</source>
         <translation>将字幕包含在截图里</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="827"/>
+        <location filename="../prefsubtitles.ui" line="804"/>
         <source>Font</source>
         <translation>字体</translation>
     </message>
@@ -6227,12 +6227,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>相对于影片的对角线</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="444"/>
+        <location filename="../prefsubtitles.cpp" line="486"/>
         <source>Subtitle position</source>
         <translation>字幕位置</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="447"/>
+        <location filename="../prefsubtitles.cpp" line="489"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
         <translation>这个选项指定字幕在视频窗口里的位置。&lt;i&gt;100&lt;/i&gt;表示底部, &lt;i&gt;0&lt;/i&gt;表示顶部。</translation>
     </message>
@@ -6277,7 +6277,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>自适应比例(&amp;U):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="380"/>
+        <location filename="../prefsubtitles.cpp" line="422"/>
         <source>Default subtitle encoding</source>
         <translation>默认字幕编码</translation>
     </message>
@@ -6287,82 +6287,82 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">如果选择这个选项，字幕将会出现在截图里。注意: 这有时可能会带来一些麻烦。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="418"/>
+        <location filename="../prefsubtitles.cpp" line="460"/>
         <source>TTF font</source>
         <translation>TTF 字体</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="428"/>
+        <location filename="../prefsubtitles.cpp" line="470"/>
         <source>System font</source>
         <translation>系统字体</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="430"/>
+        <location filename="../prefsubtitles.cpp" line="472"/>
         <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
         <translation>在这里您可以选择一个用于字幕和 OSD 的系统字体。&lt;b&gt;注意:&lt;/b&gt; 需要 MPlayer 有　fontconfig 支持。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="432"/>
+        <location filename="../prefsubtitles.cpp" line="474"/>
         <source>Autoscale</source>
         <translation>自适应比例</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="472"/>
+        <location filename="../prefsubtitles.cpp" line="518"/>
         <source>Text color</source>
         <translation>文本颜色</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="473"/>
+        <location filename="../prefsubtitles.cpp" line="519"/>
         <source>Select the color for the text of the subtitles.</source>
         <translation>选择用于字幕文本的颜色。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="475"/>
+        <location filename="../prefsubtitles.cpp" line="521"/>
         <source>Border color</source>
         <translation>边框颜色</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="476"/>
+        <location filename="../prefsubtitles.cpp" line="522"/>
         <source>Select the color for the border of the subtitles.</source>
         <translation>选择用于字幕边框的颜色。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="372"/>
+        <location filename="../prefsubtitles.cpp" line="414"/>
         <source>Select the subtitle autoload method.</source>
         <translation>选择字幕自动加载方式。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="378"/>
+        <location filename="../prefsubtitles.cpp" line="420"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>如果有一个以上的可用字幕, 其中的一个会被自动加载, 一般是第一个, 但如果有和用户首选字幕匹配的，匹配的字幕将被使用。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="433"/>
+        <location filename="../prefsubtitles.cpp" line="475"/>
         <source>Select the subtitle autoscaling method.</source>
         <translation>选择字幕自动加载方式。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="382"/>
+        <location filename="../prefsubtitles.cpp" line="424"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
         <translation>请选择字幕文件的默认编码。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="384"/>
+        <location filename="../prefsubtitles.cpp" line="426"/>
         <source>Try to autodetect for this language</source>
         <translation>尝试自动检测此语言</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="389"/>
+        <location filename="../prefsubtitles.cpp" line="431"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="391"/>
+        <location filename="../prefsubtitles.cpp" line="433"/>
         <source>Subtitle language</source>
         <translation>字幕语言</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="393"/>
+        <location filename="../prefsubtitles.cpp" line="435"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
         <translation>选择您希望自动尝试的编码。</translation>
     </message>
@@ -6377,192 +6377,192 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>尝试自动检测此语言(&amp;U):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="421"/>
+        <location filename="../prefsubtitles.cpp" line="463"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
         <translation>在这里您可能选择一个用于字幕的 TTF 字体。通常您可以在 %1 找到很多 TTF 字体</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="499"/>
+        <location filename="../prefsubtitles.cpp" line="548"/>
         <source>Outline</source>
         <translation>Outline</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="461"/>
+        <location filename="../prefsubtitles.cpp" line="507"/>
         <source>Select the font for the subtitles.</source>
         <translation>选择字幕字体。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="464"/>
+        <location filename="../prefsubtitles.cpp" line="510"/>
         <source>The size in pixels.</source>
         <translation>大小，以像素为单位。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="466"/>
+        <location filename="../prefsubtitles.cpp" line="512"/>
         <source>Bold</source>
         <translation>粗体</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="467"/>
+        <location filename="../prefsubtitles.cpp" line="513"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
         <translation>如果勾选，文字将以&lt;b&gt;粗体&lt;/b&gt;显示。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="469"/>
+        <location filename="../prefsubtitles.cpp" line="515"/>
         <source>Italic</source>
         <translation>斜体</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="470"/>
+        <location filename="../prefsubtitles.cpp" line="516"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
         <translation>如果勾选，文字将以&lt;i&gt;斜体&lt;/i&gt;显示。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="478"/>
+        <location filename="../prefsubtitles.cpp" line="527"/>
         <source>Left margin</source>
         <translation>左边距</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="479"/>
+        <location filename="../prefsubtitles.cpp" line="528"/>
         <source>Specifies the left margin in pixels.</source>
         <translation>指定左边距(以像素为单位)。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="481"/>
+        <location filename="../prefsubtitles.cpp" line="530"/>
         <source>Right margin</source>
         <translation>右边距</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="482"/>
+        <location filename="../prefsubtitles.cpp" line="531"/>
         <source>Specifies the right margin in pixels.</source>
         <translation>指定右边距(以像素为单位)。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="484"/>
+        <location filename="../prefsubtitles.cpp" line="533"/>
         <source>Vertical margin</source>
         <translation>垂直边距</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="485"/>
+        <location filename="../prefsubtitles.cpp" line="534"/>
         <source>Specifies the vertical margin in pixels.</source>
         <translation>指定垂直边距(以像素为单位)。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="487"/>
+        <location filename="../prefsubtitles.cpp" line="536"/>
         <source>Horizontal alignment</source>
         <translation>横向对齐</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="489"/>
+        <location filename="../prefsubtitles.cpp" line="538"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
         <translation>指定水平对齐。可选值: 左对齐、居中对齐和右对齐。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="491"/>
+        <location filename="../prefsubtitles.cpp" line="540"/>
         <source>Vertical alignment</source>
         <translation>垂直对齐</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="493"/>
+        <location filename="../prefsubtitles.cpp" line="542"/>
         <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
         <translation>指定垂直对齐。可选值: 底部、居中和顶部。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="495"/>
+        <location filename="../prefsubtitles.cpp" line="544"/>
         <source>Border style</source>
         <translation>边框风格</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="497"/>
+        <location filename="../prefsubtitles.cpp" line="546"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
         <translation>指定边框风格。可选的值: outline 和 opaque box。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="503"/>
+        <location filename="../prefsubtitles.cpp" line="552"/>
         <source>Shadow</source>
         <translation>阴影</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="854"/>
+        <location filename="../prefsubtitles.ui" line="831"/>
         <source>Si&amp;ze:</source>
         <translation>大小(&amp;Z):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="896"/>
+        <location filename="../prefsubtitles.ui" line="873"/>
         <source>Bol&amp;d</source>
         <translation>粗体(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="903"/>
+        <location filename="../prefsubtitles.ui" line="880"/>
         <source>&amp;Italic</source>
         <translation>斜体(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="915"/>
+        <location filename="../prefsubtitles.ui" line="892"/>
         <source>Colors</source>
         <translation>颜色</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="933"/>
+        <location filename="../prefsubtitles.ui" line="910"/>
         <source>&amp;Text:</source>
         <translation>文字(&amp;T):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="953"/>
+        <location filename="../prefsubtitles.ui" line="936"/>
         <source>&amp;Border:</source>
         <translation>边框(&amp;B):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="976"/>
+        <location filename="../prefsubtitles.ui" line="988"/>
         <source>Margins</source>
         <translation>边距</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="994"/>
+        <location filename="../prefsubtitles.ui" line="1006"/>
         <source>L&amp;eft:</source>
         <translation>左边距(&amp;E):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1010"/>
+        <location filename="../prefsubtitles.ui" line="1022"/>
         <source>&amp;Right:</source>
         <translation>右边距(&amp;R):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1026"/>
+        <location filename="../prefsubtitles.ui" line="1038"/>
         <source>Verti&amp;cal:</source>
         <translation>垂直(&amp;C):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1058"/>
+        <location filename="../prefsubtitles.ui" line="1070"/>
         <source>Alignment</source>
         <translation>对齐</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1076"/>
+        <location filename="../prefsubtitles.ui" line="1088"/>
         <source>&amp;Horizontal:</source>
         <translation>横向(&amp;H):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1092"/>
+        <location filename="../prefsubtitles.ui" line="1104"/>
         <source>&amp;Vertical:</source>
         <translation>垂直(&amp;V):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1113"/>
+        <location filename="../prefsubtitles.ui" line="1125"/>
         <source>Border st&amp;yle:</source>
         <translation>边框风格(&amp;Y):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1139"/>
+        <location filename="../prefsubtitles.ui" line="1151"/>
         <source>&amp;Outline:</source>
         <translation>Outline(&amp;O):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1162"/>
+        <location filename="../prefsubtitles.ui" line="1174"/>
         <source>Shado&amp;w:</source>
         <translation>阴影(&amp;W):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="817"/>
+        <location filename="../prefsubtitles.cpp" line="504"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
         <translation>下面的选项允许你为那些没有指定风格的字幕指定风格(srt, sub...)。</translation>
     </message>
@@ -6615,67 +6615,67 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Opaque box</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="501"/>
+        <location filename="../prefsubtitles.cpp" line="550"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
         <translation>如果边框风格为&lt;i&gt;outline&lt;/i&gt;, 这个选项将设定环绕文字的像素宽度。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="505"/>
+        <location filename="../prefsubtitles.cpp" line="554"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
         <translation>如果边框风格为&lt;i&gt;outline&lt;/i&gt;, 这个选项将设定文字背后的阴影深度(以像素为单位)。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="408"/>
+        <location filename="../prefsubtitles.cpp" line="450"/>
         <source>Enable normal subtitles</source>
         <translation>启用一般字幕</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="410"/>
+        <location filename="../prefsubtitles.cpp" line="452"/>
         <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="412"/>
+        <location filename="../prefsubtitles.cpp" line="454"/>
         <source>Enable SSA/ASS subtitles</source>
         <translation>启用 SSA/ASS 字幕</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="416"/>
+        <location filename="../prefsubtitles.cpp" line="458"/>
         <source>Normal subtitles</source>
         <translation>一般字幕</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="437"/>
+        <location filename="../prefsubtitles.cpp" line="479"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation>这个选项&lt;b&gt;不&lt;/b&gt;会改变当然视频的字幕字体大小。如果需要，可以通过字幕菜单中的&lt;i&gt;大小+&lt;/i&gt;和&lt;i&gt;大小-&lt;/i&gt;来完成。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="451"/>
+        <location filename="../prefsubtitles.cpp" line="493"/>
         <source>Default scale</source>
         <translation>默认大小</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="441"/>
+        <location filename="../prefsubtitles.cpp" line="483"/>
         <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
         <translation>这个选项指定一般字幕的默认大小，将它将用于新打开的文件。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="449"/>
+        <location filename="../prefsubtitles.cpp" line="491"/>
         <source>SSA/ASS subtitles</source>
         <translation>SSA/ASS 字幕</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="453"/>
+        <location filename="../prefsubtitles.cpp" line="495"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
         <translation>这个选项指定 SSA/ASS 字幕的默认大小，将它将用于新打开的文件。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="456"/>
+        <location filename="../prefsubtitles.cpp" line="498"/>
         <source>Line spacing</source>
         <translation>行距</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="458"/>
+        <location filename="../prefsubtitles.cpp" line="500"/>
         <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
         <translation>指定行距。可以是负数。</translation>
     </message>
@@ -6710,17 +6710,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>行距(&amp;L):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="414"/>
+        <location filename="../prefsubtitles.cpp" line="456"/>
         <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
         <translation>这个选项来启用新的 SSA/ASS 库。这将允许使用多种颜色和字体来显示字幕。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="400"/>
+        <location filename="../prefsubtitles.cpp" line="442"/>
         <source>Freetype support</source>
         <translation>Freetype 支持</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="404"/>
+        <location filename="../prefsubtitles.cpp" line="446"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make that subtitles won&apos;t work at all!&lt;/b&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6730,24 +6730,64 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Freetype 支持(&amp;Y)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="398"/>
+        <location filename="../prefsubtitles.cpp" line="440"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
         <translation>如果选择这个选项，字幕将会出现在截图里。&lt;b&gt;注意:&lt;/b&gt; 这有时可能会带来一些麻烦。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="507"/>
+        <location filename="../prefsubtitles.cpp" line="556"/>
         <source>Apply style to ass files too</source>
         <translation>对 ass 文件也使用自定义风格</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="509"/>
+        <location filename="../prefsubtitles.cpp" line="558"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation>如果勾选了此选项，定义的风格也将被应用于 ass 字幕。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1197"/>
+        <location filename="../prefsubtitles.ui" line="1211"/>
         <source>A&amp;pply style to ass files too</source>
         <translation>对 ass 文件也使用自定义风格(&amp;P)</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="381"/>
+        <source>Customize SSA/ASS style</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="382"/>
+        <source>Here you can enter your customized SSA/ASS style.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="383"/>
+        <source>Clear the edit line to disable the customized style.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="502"/>
+        <source>SSA/ASS style</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="524"/>
+        <source>Shadow color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="525"/>
+        <source>This color will be used for the shadow of the subtitles.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="962"/>
+        <source>Shadow:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="1234"/>
+        <source>Custo&amp;mize...</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
