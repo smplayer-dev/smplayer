@@ -177,6 +177,7 @@ public:
 	// ASS styles
 	AssStyles ass_styles;
 	bool force_ass_styles; // Use ass styles even for ass files
+	QString user_forced_ass_style; //!< Specifies a style defined by the user to be used with -ass-force-style
 
 	//! If false, options requiring freetype won't be used
 	bool freetype_support;

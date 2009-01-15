@@ -194,6 +194,7 @@ void Preferences::reset() {
 	// AssStyles constructor
 
 	force_ass_styles = false;
+	user_forced_ass_style.clear();
 
 	freetype_support = true;
 
@@ -547,6 +548,7 @@ void Preferences::save() {
 	// ASS styles
 	ass_styles.save(set);
 	set->setValue("force_ass_styles", force_ass_styles);
+	set->setValue("user_forced_ass_style", user_forced_ass_style);
 
 	set->setValue("freetype_support", freetype_support);
 
@@ -912,6 +914,7 @@ void Preferences::load() {
 	// ASS styles
 	ass_styles.load(set);
 	force_ass_styles = set->value("force_ass_styles", force_ass_styles).toBool();
+	user_forced_ass_style = set->value("user_forced_ass_style", user_forced_ass_style).toString();
 
 	freetype_support = set->value("freetype_support", freetype_support).toBool();
 
