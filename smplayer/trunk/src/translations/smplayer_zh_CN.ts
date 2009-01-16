@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="zh">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -531,7 +532,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1191"/>
         <source>&amp;URL...</source>
-        <translation>&amp;URL...</translation>
+        <translation>URL(&amp;U)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1394"/>
@@ -968,7 +969,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1187"/>
         <source>V&amp;CD</source>
-        <translation>V&amp;CD</translation>
+        <translation>VCD(&amp;C)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1192"/>
@@ -1475,7 +1476,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1516"/>
         <source>DVD &amp;menu</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD 菜单(&amp;M)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1517"/>
@@ -3154,7 +3155,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="51"/>
         <source>Church</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Church</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="52"/>
@@ -3199,7 +3200,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="81"/>
         <source>Hiri</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hiri</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="83"/>
@@ -3224,7 +3225,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="92"/>
         <source>Sichuan</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Sichuan</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="93"/>
@@ -3284,7 +3285,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="118"/>
         <source>Limburgan</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Limburgan</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="120"/>
@@ -3324,7 +3325,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="145"/>
         <source>Chichewa</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Chichewa</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="147"/>
@@ -4059,12 +4060,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="392"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
-        <translation type="unfinished"></translation>
+        <translation>在这里您可以指定一系列的&lt;i&gt;动作&lt;/i&gt;，这些动作将在每个文件打开的时间被执行。您可以在&lt;b&gt;鼠标和键盘&lt;/b&gt;里的快捷键编辑器里找到可用的动作。动作之间必需用空格分格。开关动作后面可以用&lt;i&gt;true&lt;/i&gt;和&lt;i&gt;false&lt;/i&gt;来启用或禁用这个动作。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="396"/>
         <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="unfinished"></translation>
+        <translation>限制: 动作只在文件打开的时候才会执行，MPlayer 的进程重启时则不会(例如您选择了一个音频或视频过滤器)。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="412"/>
@@ -4089,7 +4090,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="352"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
-        <translation type="unfinished"></translation>
+        <translation>在找不到索引的时候重建索引以允许定位。对那些下载不完整或创建失败的文件有用。这个选项只在当前媒体支持定位时有效(例如不包括标准输入和管道输入等)。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt;建立索引当需要一些时间。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="138"/>
@@ -4220,32 +4221,32 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefdrives.cpp" line="159"/>
         <source>Enable DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>启用 DVD 菜单</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="162"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果勾选此选项，SMPlayer 将使用 dvdnav 来播放 DVD。需要最新的带 dvdnav 支持的 MPlayer。</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="163"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;注意1&lt;/b&gt;: 缓存将会失效，这可能会影响性能。</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="165"/>
         <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;注意2&lt;/b&gt;: 您可能会希望将动作 &quot;激活 DVD 菜单&quot; 指派到某个鼠标按键上。</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="167"/>
         <source>&lt;b&gt;Note 3&lt;/b&gt;: this feature is under development, expect a lot of issues with it.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;注意3&lt;/b&gt;: 这个特性正在开发中，可能会有很多问题。</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="271"/>
         <source>&amp;Enable DVD menus (experimental)</source>
-        <translation type="unfinished"></translation>
+        <translation>启用 DVD 菜单(试验) (&amp;E)</translation>
     </message>
 </context>
 <context>
@@ -6632,7 +6633,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="452"/>
         <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>这个选项来选用正常/传统字幕。这种字幕只能显示白色字幕。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="454"/>
@@ -6722,7 +6723,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="446"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make that subtitles won&apos;t work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>您通常不应禁用此选项。这样做只有当您的 MPlayer 没有 freetype 的支持。&lt;b&gt;停用此选项可能使字幕不完全工作！&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="256"/>
@@ -6752,42 +6753,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="381"/>
         <source>Customize SSA/ASS style</source>
-        <translation type="unfinished"></translation>
+        <translation>定制 SSA/ASS 风格</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="382"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
-        <translation type="unfinished"></translation>
+        <translation>这里您可以输入定制的 SSA/ASS 风格。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="383"/>
         <source>Clear the edit line to disable the customized style.</source>
-        <translation type="unfinished"></translation>
+        <translation>清除输入框来禁用定制风格。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>SSA/ASS style</source>
-        <translation type="unfinished"></translation>
+        <translation>SSA/ASS 风格</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="524"/>
         <source>Shadow color</source>
-        <translation type="unfinished"></translation>
+        <translation>阴影颜色</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="525"/>
         <source>This color will be used for the shadow of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>这个颜色将被用作字幕的阴影。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="962"/>
         <source>Shadow:</source>
-        <translation type="unfinished"></translation>
+        <translation>阴影:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1234"/>
         <source>Custo&amp;mize...</source>
-        <translation type="unfinished"></translation>
+        <translation>定制...(&amp;M)</translation>
     </message>
 </context>
 <context>
