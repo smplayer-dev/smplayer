@@ -208,7 +208,13 @@ SMPlayer ¤Ï¸Å¤¤¥Ð¡¼¥¸¥ç¥ó¤Ç¤â¤½¤ì¤Ë±þ¤¸¤ÆÆ°ºî¤·¤Þ¤¹¤¬¡¢°ìÉô¤Î¥ª¥×¥·¥ç¥ó¤¬Æ°ºî¤·¤
 <b>¥¹¥¯¥ê¡¼¥ó¥»¡¼¥Ð¡¼¤¬¥ª¥Õ¤Ë¤Ê¤ê¤Þ¤»¤ó¡¢¤Ê¤¼¤Ç¤¹¤«?</b>
 <p>
 MPlayer ¤ÎºÇ¶á¤Î¥Ð¡¼¥¸¥ç¥ó¤ò¤ª»È¤¤¤ÎÊý¤Ï¡¢~/.mplayer/config ¤Ë°Ê²¼¤Î¤è¤¦¤Ê¹Ô¤òÄÉ²Ã¤·¤Æ¤¯¤À¤µ¤¤:
-<pre>heartbeat-cmd="gnome-screensaver-command -p &"</pre>
+<p>
+(gnome) 
+<pre>heartbeat-cmd="gnome-screensaver-command -p &>/dev/null"</pre>
+<p>
+(kde)
+<pre>heartbeat-cmd="dcop kdesktop KScreensaverIface enable false &>/dev/null && dcop kdesktop KScreensaverIface enable true &>/dev/null"</pre>
+
 <p>¾ÜºÙ¤Ï MPlayer ¤Î manpage ¤ò¤´Í÷¤¯¤À¤µ¤¤¡£
 </li>
 
