@@ -6890,42 +6890,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="381"/>
         <source>Customize SSA/ASS style</source>
-        <translation type="unfinished"></translation>
+        <translation>Personalizar estilo SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="382"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aqui pode introduzir o estilo SSA/ASS personalizado.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="383"/>
         <source>Clear the edit line to disable the customized style.</source>
-        <translation type="unfinished"></translation>
+        <translation>Limpar linha de edição para desactivar estilo personalizado.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>SSA/ASS style</source>
-        <translation type="unfinished"></translation>
+        <translation>Estilo SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="524"/>
         <source>Shadow color</source>
-        <translation type="unfinished"></translation>
+        <translation>Cor da sombra</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="525"/>
         <source>This color will be used for the shadow of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta cor será usada para as sombras das legendas.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="962"/>
         <source>Shadow:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sombra:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1234"/>
         <source>Custo&amp;mize...</source>
-        <translation type="unfinished"></translation>
+        <translation>Perso&amp;nalizar...</translation>
     </message>
 </context>
 <context>
