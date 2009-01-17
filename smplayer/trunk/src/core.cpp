@@ -474,11 +474,24 @@ void Core::openFile(QString filename, int seek) {
 
 
 void Core::loadSub(const QString & sub ) {
-    if ( !sub.isEmpty() ) {
-		//tellmp( "sub_load " + sub );
+    if ( (!sub.isEmpty()) && (QFile::exists(sub)) ) {
+#if NOTIFY_SUB_CHANGES
+		mset.external_subtitles = sub;
+		just_loaded_external_subs = true;
+
+		QFileInfo fi(sub);
+		if (fi.suffix().toLower() != "idx") {
+			tellmp( "sub_load " + sub );
+		} else {
+			restartPlay();
+		}
+#else
 		mset.external_subtitles = sub;
 		just_loaded_external_subs = true;
 		restartPlay();
+#endif
+	} else {
+		qWarning("Core::loadSub: file '%s' is not valid", sub.toUtf8().constData());
 	}
 }
 
@@ -3746,6 +3759,16 @@ void Core::initSubtitleTrack(const SubTracks & subs) {
 		qDebug("Core::initSubtitleTrack: just_loaded_external_subs: true");
 		restore_subs = false;
 		just_loaded_external_subs = false;
+		
+		QFileInfo fi(mset.external_subtitles);
+		if (fi.suffix().toLower() != "idx") {
+			// The loaded subtitle file is the last one, so
+			// try to select that one.
+			if (mdat.subs.numItems() > 0) {
+				changeSubtitle( mdat.subs.numItems()-1 );
+				goto end;
+			}
+		}
 	}
 
 	if (!restore_subs) {
@@ -3784,7 +3807,7 @@ void Core::initSubtitleTrack(const SubTracks & subs) {
 			}
 		}
 	}
-	
+end:
 	updateWidgets();
 }
 

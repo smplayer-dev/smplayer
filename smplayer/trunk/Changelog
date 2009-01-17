@@ -1,5 +1,9 @@
 [b]Version 0.6.7[/b]:
 
+(2009-01-17)
+ * Now the mplayer process is not restarted when loading an external subtitle
+   file (using the sub_load slave command), except for idx/sub subtitles. 
+
 (2009-01-15)
  * (Windows) Now the screensaver is allowed to turn on if the file is
     paused or it's an audio file.
