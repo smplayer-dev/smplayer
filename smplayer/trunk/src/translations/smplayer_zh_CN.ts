@@ -261,7 +261,7 @@
     <message>
         <location filename="../about.cpp" line="99"/>
         <source>The following people have contributed with patches (see the changelog for details):</source>
-        <translation>以下这些人贡献了补丁(详见更新日志):</translation>
+        <translation>以下这些人贡献了补丁(详情请查阅 Changlog):</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="117"/>
@@ -652,7 +652,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1458"/>
         <source>Linear &amp;Blend</source>
-        <translation>Linear &amp;Blend</translation>
+        <translation>线性混合(&amp;B)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1413"/>
@@ -712,7 +712,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1274"/>
         <source>&amp;Karaoke</source>
-        <translation>卡拉O&amp;K</translation>
+        <translation>卡拉OK(&amp;K)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1483"/>
@@ -727,12 +727,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1494"/>
         <source>&amp;4.0 Surround</source>
-        <translation>&amp;4.0 环绕</translation>
+        <translation>4.0 环绕(&amp;4)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1495"/>
         <source>&amp;5.1 Surround</source>
-        <translation>&amp;5.1 环绕</translation>
+        <translation>5.1 环绕(&amp;5)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1486"/>
@@ -762,12 +762,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1265"/>
         <source>Volume &amp;-</source>
-        <translation>音量 &amp;-</translation>
+        <translation>音量 - (&amp;-)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1266"/>
         <source>Volume &amp;+</source>
-        <translation>音量 &amp;+</translation>
+        <translation>音量 + (&amp;+)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1267"/>
@@ -792,12 +792,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1280"/>
         <source>Delay &amp;-</source>
-        <translation>延时 &amp;-</translation>
+        <translation>延时 - (&amp;-)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1281"/>
         <source>Delay &amp;+</source>
-        <translation>延时 &amp;+</translation>
+        <translation>延时 + (&amp;+)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1282"/>
@@ -872,12 +872,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1314"/>
         <source>About &amp;Qt</source>
-        <translation>关于 &amp;Qt</translation>
+        <translation>关于 Qt (&amp;Q)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1315"/>
         <source>About &amp;SMPlayer</source>
-        <translation>关于 &amp;SMPlayer</translation>
+        <translation>关于 SMPlayer (&amp;S)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2662"/>
@@ -4040,12 +4040,107 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="354"/>
         <source>Correct pts</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">正确的 pts</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="362"/>
         <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>切换 MPlayer 到一个试验模式。该模式下视频帧的计算方式不同，增加帧数或修改已有帧时间标记的视频滤镜在该模式下被支持.更精确的时间标记可以在启用 SSA/ASS 库的字幕播放时看到。没有的正确 pts 通常会导致字幕慢数帧。该选项在某些分离器和编译码器工作不正确。</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="547"/>
+        <source>Proxy</source>
+        <translation>代理</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="501"/>
+        <source>Enable proxy</source>
+        <translation>启用代理</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="502"/>
+        <source>Enable/disable the use of the proxy.</source>
+        <translation>启用/禁用代理</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="504"/>
+        <source>Host</source>
+        <translation>主机</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="505"/>
+        <source>The host name of the proxy.</source>
+        <translation>代理主机名</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="507"/>
+        <source>Port</source>
+        <translation>端口</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="508"/>
+        <source>The port of the proxy.</source>
+        <translation>代理端口。</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="510"/>
+        <source>Username</source>
+        <translation>用户名</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="511"/>
+        <source>If the proxy requires authentication, this sets the username.</source>
+        <translation>如果代理需要认证,在这里设定用户名。</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="513"/>
+        <source>Password</source>
+        <translation>密码</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="553"/>
+        <source>You can set a proxy for internet connections (currently only used for subtitle downloading).</source>
+        <translation>您可以为互联网连接设定一个代理(目前仅用于字幕下载).</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="563"/>
+        <source>&amp;Enable proxy</source>
+        <translation>启用代理(&amp;E)</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="576"/>
+        <source>&amp;Host:</source>
+        <translation>主机(&amp;H):</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="589"/>
+        <source>&amp;Port:</source>
+        <translation>端口(&amp;P):</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="609"/>
+        <source>&amp;Username:</source>
+        <translation>用户名(&amp;U):</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="622"/>
+        <source>Pa&amp;ssword:</source>
+        <translation>密码(&amp;S):</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="136"/>
+        <source>C&amp;orrect PTS</source>
+        <translation>正确的 pts(&amp;O)</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="77"/>
+        <source>Http</source>
+        <translation>Http</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="78"/>
+        <source>Socks5</source>
+        <translation>Socks5</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="517"/>
@@ -4095,7 +4190,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="138"/>
         <source>C&amp;orrect PTS:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">正确的 pts(&amp;O):</translation>
     </message>
 </context>
 <context>
@@ -4725,7 +4820,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="95"/>
         <source>Linear Blend</source>
-        <translation>Linear Blend</translation>
+        <translation>线性混合</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="96"/>
@@ -4785,7 +4880,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="771"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
-        <translation>启用/禁用按16像素分块绘制视频。如果禁用，整个画面将一次性完全。可能更快或也可能更慢，这取决于视频卡和可用的高速缓存。仅在使用 libmpeg2 和 libavcodec 解码器时有效。</translation>
+        <translation>启用/禁用按16像素分块绘制视频。如果禁用，整个画面将一次性完成。可能更快也可能更慢，这取决于显卡和可用的高速缓存。仅在使用 libmpeg2 和 libavcodec 解码器时有效。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="473"/>
@@ -4795,7 +4890,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="186"/>
         <source>&amp;Close when finished playback</source>
-        <translation>结束时关闭(&amp;C)</translation>
+        <translation>播放完成时关闭(&amp;C)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="289"/>
@@ -4825,7 +4920,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="749"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
-        <translation>此选项将为新的影片设定默认缩放。</translation>
+        <translation>此选项将为新的视频设定默认缩放。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="398"/>
@@ -4905,7 +5000,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="780"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果该选项被启用，在全屏模式下将会给图像添加黑色边框。这样就可以使字幕显示在黑色边框上。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="500"/>
@@ -4945,7 +5040,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="149"/>
         <source>&amp;Store settings in</source>
-        <translation>保存设置(&amp;S)</translation>
+        <translation>保存设置于(&amp;S)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="711"/>
@@ -4965,7 +5060,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="821"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"></translation>
+        <translation>请求回放通道数。MPlayer 请求解码器按照指定通道数解码音频。将由解码器决定如何满足请求。该选项只在播放带有AC3音频的视频(像DVD)时有重要作用。在那时候，lib52 依默认值解压并按照指定请求的通道数混音音频。&lt;b&gt;注意&lt;/b&gt;:该选项受编译码器(仅AC3)、滤镜(surround)和音频输出驱动(至少OSS)影响。</translation>
     </message>
 </context>
 <context>
@@ -5048,7 +5143,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="266"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
-        <translation type="unfinished"></translation>
+        <translation>该表格允许您改变几乎全部键盘快捷键的动作。双击一个项目或按下回车，或者点击&lt;b&gt;改变快捷键&lt;/b&gt;按钮进入&lt;i&gt;修改快捷键&lt;/i&gt;对话框。有两种改变一个快捷键的方式：如果&lt;b&gt;捕获&lt;/b&gt;按钮打开，那么只需要为指定动作按下新按键或按键组合(遗憾的是并不是所有的按键都支持此方法)。如果&lt;b&gt;捕获&lt;/b&gt;按钮关闭，那么输入按键的全名即可。</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="270"/>
@@ -5621,7 +5716,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="525"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option will take effect the next time you run SMPlayer.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择您偏好的界面。当前有两个选择:默认和Mini(译者注:新增MPC)。&lt;br&gt;&lt;b&gt;默认界面&lt;/b&gt;提供包括工具栏和控制栏的传统界面。&lt;b&gt;Mini界面&lt;/b&gt;提供不包括工具栏和极少按钮控制栏的简单界面。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt;该选项在您下次运行 SMPlayer 时生效。</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="362"/>
@@ -5691,7 +5786,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="583"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation type="unfinished"></translation>
+        <translation>该选项设定浮动控制条距离屏幕底部的像素数。当屏幕是一个电视时有用，因为过扫描可能会挡住控制条。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="585"/>
@@ -5756,7 +5851,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="156"/>
         <source>Mpc GUI</source>
-        <translation>Mpc 界面</translation>
+        <translation>MPC 界面</translation>
     </message>
 </context>
 <context>
@@ -6004,7 +6099,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="261"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation type="unfinished"></translation>
+        <translation>该选项允许在进行H.264解码时跳过循环滤镜(AKA 分块)。因为过滤的帧被用作解码相关帧的参考，所以在例如 MPEG-2的视频上会导致较坏的效果。但是至少在高比特率的 HDTV 上会有较大的速度提升而不会导致可见的效果损失。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="262"/>
@@ -6074,7 +6169,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="240"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished"></translation>
+        <translation>设定在 Windows 系统下 mplayer 的进程优先级。&lt;br&gt;&lt;b&gt;警告:&lt;/b&gt;使用实时优先级可能导致系统锁死。</translation>
     </message>
 </context>
 <context>
@@ -6355,7 +6450,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="431"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
-        <translation type="unfinished"></translation>
+        <translation>当该选项启用时，将尝试自动探测字幕的编码。如果自动探测失败将返回默认编码。该选项要求 MPlayer 编译时包含 ENCA 支持。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="433"/>
@@ -6385,7 +6480,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="548"/>
         <source>Outline</source>
-        <translation>Outline</translation>
+        <translation>轮廓</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="507"/>
@@ -6395,7 +6490,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="510"/>
         <source>The size in pixels.</source>
-        <translation>大小，以像素为单位。</translation>
+        <translation>以像素为单位的大小。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="512"/>
@@ -6450,7 +6545,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="536"/>
         <source>Horizontal alignment</source>
-        <translation>横向对齐</translation>
+        <translation>水平对齐</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="538"/>
@@ -6495,7 +6590,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="880"/>
         <source>&amp;Italic</source>
-        <translation>斜体(&amp;L)</translation>
+        <translation>斜体(&amp;I)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="892"/>
@@ -6505,7 +6600,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="910"/>
         <source>&amp;Text:</source>
-        <translation>文字(&amp;T):</translation>
+        <translation>文本(&amp;T):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="936"/>
@@ -6540,7 +6635,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="1088"/>
         <source>&amp;Horizontal:</source>
-        <translation>横向(&amp;H):</translation>
+        <translation>水平(&amp;H):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1104"/>
@@ -6555,7 +6650,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="1151"/>
         <source>&amp;Outline:</source>
-        <translation>Outline(&amp;O):</translation>
+        <translation>轮廓(&amp;O):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1174"/>
@@ -6607,23 +6702,23 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="114"/>
         <source>Outline</source>
         <comment>border style</comment>
-        <translation>Outline</translation>
+        <translation>轮廓</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="115"/>
         <source>Opaque box</source>
         <comment>border style</comment>
-        <translation>Opaque box</translation>
+        <translation>不透明框</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="550"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
-        <translation>如果边框风格为&lt;i&gt;outline&lt;/i&gt;, 这个选项将设定环绕文字的像素宽度。</translation>
+        <translation>如果边框风格为&lt;i&gt;轮廓&lt;/i&gt;, 这个选项将设定环绕文字的像素宽度。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="554"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
-        <translation>如果边框风格为&lt;i&gt;outline&lt;/i&gt;, 这个选项将设定文字背后的阴影深度(以像素为单位)。</translation>
+        <translation>如果边框风格为&lt;i&gt;轮廓&lt;/i&gt;, 这个选项将设定文字背后的阴影深度(以像素为单位)。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="450"/>
@@ -6633,7 +6728,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="452"/>
         <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
-        <translation>这个选项来选用正常/传统字幕。这种字幕只能显示白色字幕。</translation>
+        <translation>点击此按钮选择一般/传统字幕。该种字幕仅可显示白色字幕。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="454"/>
@@ -6723,7 +6818,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="446"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make that subtitles won&apos;t work at all!&lt;/b&gt;</source>
-        <translation>您通常不应禁用此选项。这样做只有当您的 MPlayer 没有 freetype 的支持。&lt;b&gt;停用此选项可能使字幕不完全工作！&lt;/b&gt;</translation>
+        <translation>您通常不应该禁用此选项。这样做只有当您的 MPlayer 没有 freetype 的支持。&lt;b&gt;停用此选项可能使字幕不完全工作！&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="256"/>
@@ -7225,7 +7320,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="393"/>
         <source>Frames per second: %1</source>
-        <translation>帧每秒: %1</translation>
+        <translation>每秒帧数: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="394"/>
@@ -7260,7 +7355,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="524"/>
         <source>Images</source>
-        <translation>图片</translation>
+        <translation>图像</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="376"/>
@@ -7328,7 +7423,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="165"/>
         <source>&amp;Seconds to skip at the beginnning:</source>
-        <translation>开始跳过的秒数(&amp;S):</translation>
+        <translation>开头跳过的秒数(&amp;S):</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="195"/>
@@ -7343,7 +7438,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="43"/>
         <source>The thumbnails will be arranged on a table.</source>
-        <translation>缩略图将被安放表格里。</translation>
+        <translation>缩略图将被布置成一个表格。</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="42"/>
