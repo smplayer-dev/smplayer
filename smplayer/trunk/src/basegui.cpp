@@ -1076,6 +1076,17 @@ void BaseGui::setActionsEnabled(bool b) {
 	autoZoom169Act->setEnabled(b);
 	autoZoom235Act->setEnabled(b);
 
+#if DVDNAV_SUPPORT
+	dvdnavUpAct->setEnabled(b);
+	dvdnavDownAct->setEnabled(b);
+	dvdnavLeftAct->setEnabled(b);
+	dvdnavRightAct->setEnabled(b);
+	dvdnavMenuAct->setEnabled(b);
+	dvdnavSelectAct->setEnabled(b);
+	dvdnavPrevAct->setEnabled(b);
+	dvdnavMouseAct->setEnabled(b);
+#endif
+
 	// Groups
 	denoiseGroup->setActionsEnabled(b);
 	sizeGroup->setActionsEnabled(b);
@@ -1161,6 +1172,19 @@ void BaseGui::enableActionsOnPlaying() {
 
 #if USE_ADAPTER
 	screenGroup->setActionsEnabled(pref->vo.startsWith(OVERLAY_VO));
+#endif
+
+#if DVDNAV_SUPPORT
+	if (!core->mdat.filename.startsWith("dvdnav:")) {
+		dvdnavUpAct->setEnabled(false);
+		dvdnavDownAct->setEnabled(false);
+		dvdnavLeftAct->setEnabled(false);
+		dvdnavRightAct->setEnabled(false);
+		dvdnavMenuAct->setEnabled(false);
+		dvdnavSelectAct->setEnabled(false);
+		dvdnavPrevAct->setEnabled(false);
+		dvdnavMouseAct->setEnabled(false);
+	}
 #endif
 }
 
