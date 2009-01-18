@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="es">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1485,12 +1486,12 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="1516"/>
         <source>DVD &amp;menu</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Menú del DVD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1517"/>
         <source>DVD &amp;previous menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Menú &amp;previo del DVD</translation>
     </message>
 </context>
 <context>
@@ -4347,32 +4348,32 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefdrives.cpp" line="159"/>
         <source>Enable DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Activar menús DVD</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="162"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si esta opción está activada, SMPlayer reproducirá los DVDs usando dvdnav. Requiere una versión del mplayer compilada con soporte para dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="163"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Nota 1&lt;/b&gt;: se desactivará la caché, lo que puede afectar al rendimiento.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="165"/>
         <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Nota 2&lt;/b&gt;: probablemente querrás asignar la acción &quot;Activar opción en menús DVD&quot; a uno de los botones del ratón.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="167"/>
         <source>&lt;b&gt;Note 3&lt;/b&gt;: this feature is under development, expect a lot of issues with it.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Note 3&lt;/b&gt;: el soporte para menús DVD está todavía en desarrollo, bastantes cosas no funcionarán correctamente.</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="271"/>
         <source>&amp;Enable DVD menus (experimental)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Activar menús DVD (experimental)</translation>
     </message>
 </context>
 <context>
@@ -6890,42 +6891,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="381"/>
         <source>Customize SSA/ASS style</source>
-        <translation type="unfinished"></translation>
+        <translation>Personalizar el estilo SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="382"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aquí puedes introducir tu estilo SSA/ASS personalizado.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="383"/>
         <source>Clear the edit line to disable the customized style.</source>
-        <translation type="unfinished"></translation>
+        <translation>Borra el texto para desactivar el estilo personalizado.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>SSA/ASS style</source>
-        <translation type="unfinished"></translation>
+        <translation>Estilo SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="524"/>
         <source>Shadow color</source>
-        <translation type="unfinished"></translation>
+        <translation>Color de la sombra</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="525"/>
         <source>This color will be used for the shadow of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Este color se usará para la sombra de los subtítulos.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="962"/>
         <source>Shadow:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sombra:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1234"/>
         <source>Custo&amp;mize...</source>
-        <translation type="unfinished"></translation>
+        <translation>Personali&amp;zar...</translation>
     </message>
 </context>
 <context>
