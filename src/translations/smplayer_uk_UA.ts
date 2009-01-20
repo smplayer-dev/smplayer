@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="uk">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1485,12 +1486,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1516"/>
         <source>DVD &amp;menu</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Меню DVD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1517"/>
         <source>DVD &amp;previous menu</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Попереднє меню DVD</translation>
     </message>
 </context>
 <context>
@@ -4348,32 +4349,32 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefdrives.cpp" line="159"/>
         <source>Enable DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Увімкнути меню DVD</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="162"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо ця опція увімкнена, smplayer відтворюватиме меню DVD, використовуючи dvdnav. Потребує останньої версії mplayer скомпільованої з підтримкою dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="163"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Примітка 1&lt;/b&gt;: кеш буде вимкнений, це може вплинути на швидкодію.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="165"/>
         <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Примітка 2&lt;/b&gt;: можливо ви хочете призначити дію &quot;увімкнути опцію в меню DVD&quot; одній з клавіш миші.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="167"/>
         <source>&lt;b&gt;Note 3&lt;/b&gt;: this feature is under development, expect a lot of issues with it.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Примітка 3&lt;/b&gt;: ця можливість в розробці, очікується багато питань з приводу неї.</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="271"/>
         <source>&amp;Enable DVD menus (experimental)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Увімкнути меню DVD (експериментально)</translation>
     </message>
 </context>
 <context>
@@ -6875,57 +6876,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="556"/>
         <source>Apply style to ass files too</source>
-        <translation type="unfinished"></translation>
+        <translation>Примінити стиль також до ass файлів</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="558"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо ця опція увімкнена, стиль визначений нижче буде примінений також до ass файлів.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1211"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation type="unfinished"></translation>
+        <translation>П&amp;римінити стиль також до ass файлів</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="381"/>
         <source>Customize SSA/ASS style</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштувати стиль SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="382"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тут ви можете ввести ваш налаштований стиль SSA/ASS.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="383"/>
         <source>Clear the edit line to disable the customized style.</source>
-        <translation type="unfinished"></translation>
+        <translation>Очистіть рядок для редагування, щоб вимкнути налаштування стилю.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>SSA/ASS style</source>
-        <translation type="unfinished"></translation>
+        <translation>Стиль SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="524"/>
         <source>Shadow color</source>
-        <translation type="unfinished"></translation>
+        <translation>Колір тіні</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="525"/>
         <source>This color will be used for the shadow of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Цей колір буде використаний для тіні субитирів.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="962"/>
         <source>Shadow:</source>
-        <translation type="unfinished"></translation>
+        <translation>Тінь:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1234"/>
         <source>Custo&amp;mize...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Налаштувати...</translation>
     </message>
 </context>
 <context>
