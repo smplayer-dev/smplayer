@@ -206,8 +206,9 @@ Pokud preferujete ovladač <i>directx</i>, můžete zvolit obrazovku pomocí men
 <b>Spořič obrazovky se zapne při sledování filmu, proč?</b>
 <p>
 Používáte-li novější verzi MPlayeru, zkuste přidat
-<pre>heartbeat-cmd="gnome-screensaver-command -p &"</pre>
-nebo
+<p>(gnome)
+<pre>heartbeat-cmd="gnome-screensaver-command -p &>/dev/null"</pre>
+<p>(kde)
 <pre>heartbeat-cmd="dcop kdesktop KScreensaverIface enable false &>/dev/null && dcop kdesktop KScreensaverIface enable true &>/dev/null"</pre>
 do svého souboru s nastavením ~/.mplayer/config.
 <p>

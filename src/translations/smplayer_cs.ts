@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="cs">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1490,12 +1491,12 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="1516"/>
         <source>DVD &amp;menu</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD &amp;menu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1517"/>
         <source>DVD &amp;previous menu</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD &amp;předchozí menu</translation>
     </message>
 </context>
 <context>
@@ -4390,32 +4391,32 @@ Vysouvací menu by mělo poskytnout standartní možnosti pro několik jazyků.<
     <message>
         <location filename="../prefdrives.cpp" line="159"/>
         <source>Enable DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Povolit DVD menu</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="162"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Je-li tato možnost povolena, SMPlayer bude přehrávat DVD pomocí dvdnav. Toto vyžaduje dostatečně novou verzi MPlayeru s dvdnav podporou.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="163"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Poznámka 1:&lt;/b&gt; automaticky zakáže cache, to může ovlivnit výkon.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="165"/>
         <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Poznámka 2:&lt;/b&gt; je vhodné nastavit akci &quot;aktivuj položku DVD menu&quot; pro některé z tlačítek myši.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="167"/>
         <source>&lt;b&gt;Note 3&lt;/b&gt;: this feature is under development, expect a lot of issues with it.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Poznámka 3:&lt;/b&gt; tato možnost se právě vyvíjí, očekávejte problémy.</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="271"/>
         <source>&amp;Enable DVD menus (experimental)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Povolit DVD menu (experimentální)</translation>
     </message>
 </context>
 <context>
@@ -7037,42 +7038,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="381"/>
         <source>Customize SSA/ASS style</source>
-        <translation type="unfinished"></translation>
+        <translation>Upravit SSA/ASS styl</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="382"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zde můžete zadat vlastní upravený styl pro SSA/ASS.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="383"/>
         <source>Clear the edit line to disable the customized style.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vymažte celý řádek, chcete-li styl zakázat.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>SSA/ASS style</source>
-        <translation type="unfinished"></translation>
+        <translation>SSA/ASS styl</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="524"/>
         <source>Shadow color</source>
-        <translation type="unfinished"></translation>
+        <translation>Barva stínu</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="525"/>
         <source>This color will be used for the shadow of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tato barva se použije pro stín pod titulky.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="962"/>
         <source>Shadow:</source>
-        <translation type="unfinished"></translation>
+        <translation>Stín:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1234"/>
         <source>Custo&amp;mize...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Upravit...</translation>
     </message>
 </context>
 <context>
