@@ -5010,7 +5010,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="101"/>
         <source>one ini file</source>
-        <translation>单独的 ini 文件</translation>
+        <translation>单个 ini 文件</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="102"/>
@@ -5030,7 +5030,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="709"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
-        <translation>&lt;b&gt;单独的 ini 文件&lt;/b&gt;: 所有播放的文件的设置将被存放在一个单独的 ini 文件里(%1)</translation>
+        <translation>&lt;b&gt;单个 ini 文件&lt;/b&gt;: 所有播放的文件的设置将被存放在一个 ini 文件里(%1)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="712"/>
