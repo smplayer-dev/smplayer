@@ -268,14 +268,14 @@ bool VideoPreview::runMplayer(int seek, double aspect_ratio) {
 		#ifdef CD_TO_TEMP_DIR
 		<< "png";
 		#else
-		<< "png:outdir="+full_output_dir;
+		<< "png:outdir=\""+full_output_dir+"\"";
 		#endif
 	} else {
 		args << "-vo"
 		#ifdef CD_TO_TEMP_DIR
 		<< "jpeg";
 		#else
-		<< "jpeg:outdir="+full_output_dir;
+		<< "jpeg:outdir=\""+full_output_dir+"\"";
 		#endif
 	}
 
