@@ -17,6 +17,7 @@
 */
 
 #include "videopreviewconfigdialog.h"
+#include <QImageReader>
 
 VideoPreviewConfigDialog::VideoPreviewConfigDialog( QWidget* parent, Qt::WindowFlags f )
 	: QDialog(parent, f)
@@ -34,8 +35,10 @@ VideoPreviewConfigDialog::VideoPreviewConfigDialog( QWidget* parent, Qt::WindowF
 	aspect_ratio_combo->addItem("16:9", (double) 16/9);
 	aspect_ratio_combo->addItem("2.35:1", 2.35);
 
-	format_combo->addItem("jpg", VideoPreview::JPEG);
 	format_combo->addItem("png", VideoPreview::PNG);
+	if (QImageReader::supportedImageFormats().contains("jpg")) {
+		format_combo->addItem("jpg", VideoPreview::JPEG);
+	}
 
 	filename_edit->setWhatsThis( tr("The preview will be created for the video you specify here.") );
 	dvd_device_edit->setWhatsThis( tr("Enter here the DVD device or a folder with a DVD image.") );
