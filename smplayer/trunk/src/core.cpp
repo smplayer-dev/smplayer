@@ -1324,8 +1324,11 @@ void Core::startMplayer( QString file, double seek ) {
 	} else {
 		proc->addArgument("-vo");
 #ifdef Q_OS_WIN
-		// On Windows Vista, the default vo is already set in preferences.cpp
-		proc->addArgument("directx,");
+		if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA) {
+			proc->addArgument("direct3d,");
+		} else {
+			proc->addArgument("directx,");
+		}
 #else
 		proc->addArgument("xv,");
 #endif
