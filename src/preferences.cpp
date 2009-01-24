@@ -65,13 +65,6 @@ void Preferences::reset() {
 	vo = ""; 
 	ao = "";
 
-	// On Windows Vista set vo to gl:yuv=2:force-pbo:ati-hack as default
-#ifdef Q_OS_WIN
-	if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA) {
-		vo = "gl:yuv=2:force-pbo:ati-hack,";
-	}
-#endif
-
 	screenshot_directory="";
 #ifndef PORTABLE_APP
 	if (QFile::exists(Paths::configPath() + "/screenshots")) {
