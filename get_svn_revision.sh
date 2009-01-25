@@ -17,5 +17,5 @@ OLD_REVISION=`cat src/svn_revision.h 2> /dev/null`
 # Update version.h only on revision changes to avoid spurious rebuilds
 if test "$NEW_REVISION" != "$OLD_REVISION"; then
     echo "$NEW_REVISION" > src/svn_revision.h
-	echo "SVN-r${svn_revision}${extra}" > svn_revision
+    echo "SVN-r${svn_revision}${extra}" > svn_revision
 fi
