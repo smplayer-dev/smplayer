@@ -786,7 +786,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1458"/>
         <source>Linear &amp;Blend</source>
-        <translation>&amp;Blend Lineare</translation>
+        <translation>&amp;Blend lineare</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1486"/>
@@ -1780,72 +1780,72 @@ Esempio:resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished">Abilita/disabilita l&apos;uso del proxy.</translation>
+        <translation>Abilita/disabilita l&apos;uso del proxy.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
         <source>The host name of the proxy.</source>
-        <translation type="unfinished">Il nome host del proxy.</translation>
+        <translation>Il nome host del proxy.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished">La porta del proxy.</translation>
+        <translation>La porta del proxy.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="unfinished">Se il proxy richiede l&apos;autenticazione, qui si stabilisce il nome utente.</translation>
+        <translation>Se il proxy richiede l&apos;autenticazione, qui si può impostare il nome utente.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="36"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished">La password per il proxy. &lt;b&gt;Attenzione:&lt;/b&gt; la password verrà salvata come testo semplice nel file di configurazione.</translation>
+        <translation>La password per il proxy. &lt;b&gt;Attenzione:&lt;/b&gt; la password verrà salvata come testo semplice nel file di configurazione.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="37"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished">Seleziona il tipo di proxy da usare.</translation>
+        <translation>Seleziona il tipo di proxy da usare.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="13"/>
         <source>Advanced options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opzioni avanzate</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="19"/>
         <source>Proxy</source>
-        <translation type="unfinished">Proxy</translation>
+        <translation>Proxy</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="25"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished">&amp;Abilita proxy</translation>
+        <translation>&amp;Abilita proxy</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="38"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished">&amp;Host:</translation>
+        <translation>&amp;Host:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="51"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished">&amp;Porta:</translation>
+        <translation>&amp;Porta:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="71"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished">&amp;Nome utente:</translation>
+        <translation>&amp;Nome utente:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="84"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished">Pa&amp;ssword:</translation>
+        <translation>Pa&amp;ssword:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="101"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished">&amp;Tipo:</translation>
+        <translation>&amp;Tipo:</translation>
     </message>
 </context>
 <context>
@@ -2005,7 +2005,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
         <source>&amp;Options</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Opzioni</translation>
     </message>
 </context>
 <context>
@@ -3062,7 +3062,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="26"/>
         <source>Avestan</source>
-        <translation type="unfinished"></translation>
+        <translation>Avestan</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="28"/>
@@ -5818,7 +5818,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="156"/>
         <source>Mpc GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Mpc GUI</translation>
     </message>
 </context>
 <context>
