@@ -1562,8 +1562,11 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	if (mset.current_audio_id != MediaSettings::NoneSelected) {
-		proc->addArgument("-aid");
-		proc->addArgument( QString::number( mset.current_audio_id ) );
+		// Workaround for MPlayer bug #1321 (http://bugzilla.mplayerhq.hu/show_bug.cgi?id=1321)
+		if (mdat.audios.numItems() != 1) {
+			proc->addArgument("-aid");
+			proc->addArgument( QString::number( mset.current_audio_id ) );
+		}
 	}
 
 	if (!initial_subtitle.isEmpty()) {
