@@ -77,7 +77,7 @@ public:
 
 public slots:
 	virtual void open(QString file); // Generic open, autodetect type.
-    virtual void openFile();
+	virtual void openFile();
 	virtual void openFile(QString file);
 	virtual void openFiles(QStringList files);
 	virtual void openURL();
@@ -93,10 +93,10 @@ public slots:
 	virtual void helpFAQ();
 	virtual void helpCLOptions();
 	virtual void helpTips();
-    virtual void helpAbout();
+	virtual void helpAbout();
 	virtual void helpAboutQt();
 
-    virtual void loadSub();
+	virtual void loadSub();
 	virtual void loadAudioFile(); // Load external audio file
 
 	void setInitialSubtitle(const QString & subtitle_file);
@@ -113,7 +113,7 @@ public slots:
 	virtual void showAudioEqualizer();
 	virtual void showAudioEqualizer(bool b);
 	virtual void showMplayerLog();
-    virtual void showLog();
+	virtual void showLog();
 	virtual void showPreferencesDialog();
 	virtual void showFilePropertiesDialog();
 
@@ -121,7 +121,7 @@ public slots:
 
 	virtual void exitFullscreen();
 	virtual void toggleFullscreen();
-    virtual void toggleFullscreen(bool);
+	virtual void toggleFullscreen(bool);
 
 	virtual void toggleCompactMode();
 	virtual void toggleCompactMode(bool);
@@ -148,11 +148,11 @@ protected slots:
 	virtual void exitFullscreenIfNeeded();
 	virtual void playlistHasFinished();
 
-    virtual void displayState(Core::State state);
+	virtual void displayState(Core::State state);
 	virtual void displayMessage(QString message);
 	virtual void gotCurrentTime(double);
 
-    virtual void initializeMenus();
+	virtual void initializeMenus();
 	virtual void updateWidgets();
 	virtual void updateVideoEqualizer();
 	virtual void updateAudioEqualizer();
@@ -404,7 +404,7 @@ protected:
 	// Menu Help
 	MyAction * showFAQAct;
 	MyAction * showCLOptionsAct; // Command line options
-    MyAction * showTipsAct;
+	MyAction * showTipsAct;
 	MyAction * aboutQtAct;
 	MyAction * aboutThisAct;
 
@@ -562,13 +562,13 @@ protected:
 
 	// MENUS
 	QMenu *openMenu;
-    QMenu *playMenu;
-    QMenu *videoMenu;
-    QMenu *audioMenu;
-    QMenu *subtitlesMenu;
-    QMenu *browseMenu;
-    QMenu *optionsMenu;
-    QMenu *helpMenu;
+	QMenu *playMenu;
+	QMenu *videoMenu;
+	QMenu *audioMenu;
+	QMenu *subtitlesMenu;
+	QMenu *browseMenu;
+	QMenu *optionsMenu;
+	QMenu *helpMenu;
 
 	QMenu * subtitlestrack_menu;
 	QMenu * videotrack_menu;
@@ -597,9 +597,9 @@ protected:
 
 	QMenu * popup;
 	QMenu * recentfiles_menu;
-    
-    LogWindow * mplayer_log_window;
-    LogWindow * smplayer_log_window;
+
+	LogWindow * mplayer_log_window;
+	LogWindow * smplayer_log_window;
 	LogWindow * clhelp_window;
 
 	PreferencesDialog *pref_dialog;
@@ -611,7 +611,7 @@ protected:
 	VideoPreview * video_preview;
 
 	Core * core;
-    MplayerWindow *mplayerwindow;
+	MplayerWindow *mplayerwindow;
 
 	MyServer * server;
 
