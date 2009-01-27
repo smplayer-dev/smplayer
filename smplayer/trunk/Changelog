@@ -1,5 +1,9 @@
 [b]Version 0.6.7[/b]:
 
+(2009-01-26)
+ * (Playlist) When a file is added to the playlist, if it was already in
+   the list, it's moved to the end of the list.
+
 (2009-01-24)
  * (Videopreview) Add jpg to the "extract frame as" combobox only if the
    jpg format is available for reading.
