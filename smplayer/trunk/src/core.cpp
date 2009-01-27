@@ -2026,7 +2026,7 @@ void Core::startMplayer( QString file, double seek ) {
 	// Additional options supplied by the user
 	// File
 	if (!mset.mplayer_additional_options.isEmpty()) {
-		QStringList args = mset.mplayer_additional_options.split(" ");
+		QStringList args = MyProcess::splitArguments(mset.mplayer_additional_options);
         QStringList::Iterator it = args.begin();
         while( it != args.end() ) {
  			proc->addArgument( (*it) );
@@ -2035,7 +2035,7 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 	// Global
 	if (!pref->mplayer_additional_options.isEmpty()) {
-		QStringList args = pref->mplayer_additional_options.split(" ");
+		QStringList args = MyProcess::splitArguments(pref->mplayer_additional_options);
         QStringList::Iterator it = args.begin();
         while( it != args.end() ) {
  			proc->addArgument( (*it) );

@@ -1,5 +1,11 @@
 [b]Version 0.6.7[/b]:
 
+(2009-01-28)
+ * Fix: now spaces in arguments for mplayer (in Preferences->Advanced and 
+   Options->View info and properties) are respected if they are between
+   quotes. Now for instance this will work as expected:
+     -heartbeat-cmd "gnome-screensaver-command -p &"
+
 (2009-01-26)
  * (Playlist) When a file is added to the playlist, if it was already in
    the list, it's moved to the end of the list.

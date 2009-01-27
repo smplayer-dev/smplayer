@@ -50,6 +50,8 @@ public:
 	void start();				//!< Start the process
 	bool isRunning();			//!< Return true if the process is running
 
+	static QStringList splitArguments(const QString & args);
+
 signals:
 	//! Emitted when there's a line available
 	void lineAvailable(QByteArray ba);
