@@ -427,11 +427,18 @@ void Playlist::addItem(QString filename, QString name, double duration) {
 	#endif
 
 	// Test if already is in the list
-	bool exists = FALSE;
-	PlaylistItemList::iterator it;
-	for ( it = pl.begin(); it != pl.end(); ++it ) {
-		if ( (*it).filename() == filename ) {
-			exists = TRUE;
+	bool exists = false;
+	for ( int n = 0; n < pl.count(); n++) {
+		if ( pl[n].filename() == filename ) {
+			exists = true;
+			int last_item =  pl.count()-1;
+			pl.move(n, last_item);
+			qDebug("Playlist::addItem: item already in list (%d), moved to %d", n, last_item);
+			if (current_item > -1) {
+				if (current_item > n) current_item--;
+				else
+				if (current_item == n) current_item = last_item;
+			}
 			break;
 		}
 	}
@@ -450,7 +457,7 @@ void Playlist::addItem(QString filename, QString name, double duration) {
 		pl.append( PlaylistItem(filename, name, duration) );
 		//setModified( true ); // Better set the modified on a higher level
 	} else {
-		qDebug(" Not added. File already in the list");
+		qDebug("Playlist::addItem: item not added, already in the list");
 	}
 }
 
