@@ -3353,6 +3353,8 @@ void BaseGui::toggleFullscreen(bool b) {
 	{
 		core->restart();
 	}
+
+	setFocus(); // Needed?
 }
 
 
