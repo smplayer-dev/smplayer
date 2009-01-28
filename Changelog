@@ -5,6 +5,7 @@
    Options->View info and properties) are respected if they are between
    quotes. Now for instance this will work as expected:
      -heartbeat-cmd "gnome-screensaver-command -p &"
+ * Fix: the playlist is not allowed to be docked in fullscreen mode.
 
 (2009-01-26)
  * (Playlist) When a file is added to the playlist, if it was already in
