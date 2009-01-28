@@ -369,6 +369,8 @@ void BaseGuiPlus::aboutToEnterFullscreen() {
 	BaseGui::aboutToEnterFullscreen();
 
 #if DOCK_PLAYLIST
+	playlistdock->setAllowedAreas(Qt::NoDockWidgetArea);
+
 	int playlist_screen = QApplication::desktop()->screenNumber(playlistdock);
 	int mainwindow_screen = QApplication::desktop()->screenNumber(this);
 	qDebug("BaseGuiPlus::aboutToEnterFullscreen: mainwindow screen: %d, playlist screen: %d", mainwindow_screen, playlist_screen);
@@ -394,6 +396,14 @@ void BaseGuiPlus::aboutToExitFullscreen() {
 	BaseGui::aboutToExitFullscreen();
 
 #if DOCK_PLAYLIST
+	playlistdock->setAllowedAreas(Qt::TopDockWidgetArea | 
+                                  Qt::BottomDockWidgetArea
+                                  #if PLAYLIST_ON_SIDES
+                                  | Qt::LeftDockWidgetArea | 
+                                  Qt::RightDockWidgetArea
+                                  #endif
+                                  );
+
 	if (fullscreen_playlist_was_visible) {
 		playlistdock->show();
 	}
