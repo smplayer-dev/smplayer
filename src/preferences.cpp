@@ -261,7 +261,11 @@ void Preferences::reset() {
 	show_frame_counter = FALSE;
 	show_motion_vectors = false;
 
+#if DVDNAV_SUPPORT
+	mouse_left_click_function = "dvdnav_mouse";
+#else
 	mouse_left_click_function = "";
+#endif
 	mouse_right_click_function = "show_context_menu";
 	mouse_double_click_function = "fullscreen";
 	mouse_middle_click_function = "mute";
