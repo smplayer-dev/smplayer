@@ -1537,8 +1537,14 @@ void BaseGui::retranslateStrings() {
 	angles_menu->menuAction()->setIcon( Images::icon("angle") );
 
 #if DVDNAV_SUPPORT
+	dvdnavUpAct->change(Images::icon("dvdnav_up"), tr("DVD menu, move up"));
+	dvdnavDownAct->change(Images::icon("dvdnav_down"), tr("DVD menu, move down"));
+	dvdnavLeftAct->change(Images::icon("dvdnav_left"), tr("DVD menu, move left"));
+	dvdnavRightAct->change(Images::icon("dvdnav_right"), tr("DVD menu, move right"));
 	dvdnavMenuAct->change(Images::icon("dvdnav_menu"), tr("DVD &menu"));
+	dvdnavSelectAct->change(Images::icon("dvdnav_select"), tr("DVD menu, select option"));
 	dvdnavPrevAct->change(Images::icon("dvdnav_prev"), tr("DVD &previous menu"));
+	dvdnavMouseAct->change(Images::icon("dvdnav_mouse"), tr("DVD menu, click option"));
 #endif
 
 	// Menu Options
