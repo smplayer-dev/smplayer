@@ -1485,32 +1485,32 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1540"/>
         <source>DVD menu, move up</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD メニュー、上へ移動</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1541"/>
         <source>DVD menu, move down</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD メニュー、下へ移動</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1542"/>
         <source>DVD menu, move left</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD メニュー、左へ移動</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1543"/>
         <source>DVD menu, move right</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD メニュー、右へ移動</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1545"/>
         <source>DVD menu, select option</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD メニュー、オプションの選択</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1547"/>
         <source>DVD menu, mouse click</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD メニュー、マウス クリック</translation>
     </message>
 </context>
 <context>
@@ -5233,42 +5233,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="87"/>
         <source>Activate option under mouse in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD メニューでマウス下のオプションをアクティブにする</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="88"/>
         <source>Return to main DVD menu</source>
-        <translation type="unfinished"></translation>
+        <translation>メイン DVD メニューに戻る</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="89"/>
         <source>Return to previous menu in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD メニューの前のメニューに戻る</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="90"/>
         <source>Move cursor up in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD メニューのカーソルを上へ移動</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="91"/>
         <source>Move cursor down in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD メニューのカーソルを下へ移動</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="92"/>
         <source>Move cursor left in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD メニューのカーソルを左へ移動</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="93"/>
         <source>Move cursor right in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD メニューのカーソルを右へ移動</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="94"/>
         <source>Activate highlighted option in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD メニューのハイライトされているオプションをアクティブにする</translation>
     </message>
 </context>
 <context>
