@@ -1544,7 +1544,7 @@ void BaseGui::retranslateStrings() {
 	dvdnavMenuAct->change(Images::icon("dvdnav_menu"), tr("DVD &menu"));
 	dvdnavSelectAct->change(Images::icon("dvdnav_select"), tr("DVD menu, select option"));
 	dvdnavPrevAct->change(Images::icon("dvdnav_prev"), tr("DVD &previous menu"));
-	dvdnavMouseAct->change(Images::icon("dvdnav_mouse"), tr("DVD menu, click option"));
+	dvdnavMouseAct->change(Images::icon("dvdnav_mouse"), tr("DVD menu, mouse click"));
 #endif
 
 	// Menu Options
