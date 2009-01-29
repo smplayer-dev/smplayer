@@ -3,6 +3,8 @@
 (2009-01-28)
  * Added names for the rest of dvdnav actions.
  * The dvdnav_mouse action is assigned to the left mouse button by default.
+ * Added all dvdnav actions to the list of actions that can be selected with
+   the mouse buttons.
 
 (2009-01-27)
  * Fix: now spaces in arguments for mplayer (in Preferences->Advanced and 
