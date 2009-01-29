@@ -481,7 +481,7 @@ void Core::loadSub(const QString & sub ) {
 
 		QFileInfo fi(sub);
 		if (fi.suffix().toLower() != "idx") {
-			tellmp( "sub_load " + sub );
+			tellmp( "sub_load \""+ sub +"\"" );
 		} else {
 			restartPlay();
 		}
