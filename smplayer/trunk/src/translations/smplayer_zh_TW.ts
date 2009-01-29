@@ -454,12 +454,12 @@ Do you want to overwrite?</source>
 <context>
     <name>BaseGui</name>
     <message>
-        <location filename="../basegui.cpp" line="1556"/>
+        <location filename="../basegui.cpp" line="1562"/>
         <source>SMPlayer - mplayer log</source>
         <translation>SMPlayer - Mplayer 日誌</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1557"/>
+        <location filename="../basegui.cpp" line="1563"/>
         <source>SMPlayer - smplayer log</source>
         <translation>SMPlayer - SMPlayer 日誌</translation>
     </message>
@@ -639,7 +639,7 @@ Do you want to overwrite?</source>
         <translation>外觀比例(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2539"/>
+        <location filename="../basegui.cpp" line="2545"/>
         <source>&amp;None</source>
         <translation>無(&amp;N)</translation>
     </message>
@@ -854,12 +854,12 @@ Do you want to overwrite?</source>
         <translation>時間 + 總時間(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1545"/>
+        <location filename="../basegui.cpp" line="1551"/>
         <source>&amp;OSD</source>
         <translation>&amp;OSD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1548"/>
+        <location filename="../basegui.cpp" line="1554"/>
         <source>&amp;View logs</source>
         <translation>檢視日誌(&amp;V)</translation>
     </message>
@@ -879,74 +879,74 @@ Do you want to overwrite?</source>
         <translation>關於 &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2686"/>
+        <location filename="../basegui.cpp" line="2692"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;空&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3043"/>
+        <location filename="../basegui.cpp" line="3049"/>
         <source>Video</source>
         <translation>視訊</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3234"/>
+        <location filename="../basegui.cpp" line="3240"/>
         <source>Audio</source>
         <translation>音訊</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3045"/>
+        <location filename="../basegui.cpp" line="3051"/>
         <source>Playlists</source>
         <translation>播放清單</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3235"/>
+        <location filename="../basegui.cpp" line="3241"/>
         <source>All files</source>
         <translation>所有檔案</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3232"/>
+        <location filename="../basegui.cpp" line="3238"/>
         <source>Choose a file</source>
         <translation>選擇一個檔案</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3093"/>
+        <location filename="../basegui.cpp" line="3099"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - 資訊</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3096"/>
+        <location filename="../basegui.cpp" line="3102"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CDROM / DVD 磁碟尚未設置。
 你可以在下面顯現的配置對話框裡設置。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3177"/>
+        <location filename="../basegui.cpp" line="3183"/>
         <source>Choose a directory</source>
         <translation>選擇一個目錄</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3213"/>
+        <location filename="../basegui.cpp" line="3219"/>
         <source>Subtitles</source>
         <translation>字幕</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3265"/>
+        <location filename="../basegui.cpp" line="3271"/>
         <source>About Qt</source>
         <translation>關於 Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3694"/>
+        <location filename="../basegui.cpp" line="3702"/>
         <source>Playing %1</source>
         <translation>播放 %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3695"/>
+        <location filename="../basegui.cpp" line="3703"/>
         <source>Pause</source>
         <translation>暫停</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3696"/>
+        <location filename="../basegui.cpp" line="3704"/>
         <source>Stop</source>
         <translation>停止</translation>
     </message>
@@ -1031,12 +1031,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>後一行字幕(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1571"/>
+        <location filename="../basegui.cpp" line="1577"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1575"/>
+        <location filename="../basegui.cpp" line="1581"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
@@ -1236,7 +1236,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>命令列選項(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3250"/>
+        <location filename="../basegui.cpp" line="3256"/>
         <source>SMPlayer command line options</source>
         <translation>SMPlayer 命令列選項</translation>
     </message>
@@ -1256,32 +1256,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>重設視訊等化器</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4082"/>
+        <location filename="../basegui.cpp" line="4090"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer 意外地結束</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4083"/>
+        <location filename="../basegui.cpp" line="4091"/>
         <source>Exit code: %1</source>
         <translation>結束代碼: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4100"/>
+        <location filename="../basegui.cpp" line="4108"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer 啟動失敗</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4101"/>
+        <location filename="../basegui.cpp" line="4109"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>請檢查MPlayer在偏好設定裡的路徑</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4103"/>
+        <location filename="../basegui.cpp" line="4111"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer 已經當機</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4104"/>
+        <location filename="../basegui.cpp" line="4112"/>
         <source>See the log for more info.</source>
         <translation>更多資訊請參閱日誌</translation>
     </message>
@@ -1326,7 +1326,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>顯示內容功能表</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3042"/>
+        <location filename="../basegui.cpp" line="3048"/>
         <source>Multimedia</source>
         <translation>多媒體</translation>
     </message>
@@ -1413,22 +1413,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished">音軌(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3524"/>
+        <location filename="../basegui.cpp" line="3532"/>
         <source>Warning - Using old MPlayer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3528"/>
+        <location filename="../basegui.cpp" line="3536"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3531"/>
+        <location filename="../basegui.cpp" line="3539"/>
         <source>Please, update your MPlayer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3532"/>
+        <location filename="../basegui.cpp" line="3540"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1473,13 +1473,43 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1540"/>
+        <location filename="../basegui.cpp" line="1544"/>
         <source>DVD &amp;menu</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1541"/>
+        <location filename="../basegui.cpp" line="1546"/>
         <source>DVD &amp;previous menu</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1540"/>
+        <source>DVD menu, move up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1541"/>
+        <source>DVD menu, move down</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1542"/>
+        <source>DVD menu, move left</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1543"/>
+        <source>DVD menu, move right</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1545"/>
+        <source>DVD menu, select option</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1547"/>
+        <source>DVD menu, mouse click</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4874,7 +4904,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>圖示</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="147"/>
+        <location filename="../prefinput.cpp" line="154"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation type="unfinished">在這裡您可以更改任何快捷鍵。通過在一個快捷鍵單元格双擊或鍵入來設定。
 您也可以儲存您的設定，然後分享给他人或載入别的電腦上。</translation>
@@ -4890,27 +4920,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>按鈕功能:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="270"/>
+        <location filename="../prefinput.cpp" line="277"/>
         <source>Left click</source>
         <translation>左擊</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="273"/>
+        <location filename="../prefinput.cpp" line="280"/>
         <source>Double click</source>
         <translation>雙擊</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="136"/>
+        <location filename="../prefinput.cpp" line="143"/>
         <source>Media seeking</source>
         <translation>媒體定位</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="137"/>
+        <location filename="../prefinput.cpp" line="144"/>
         <source>Volume control</source>
         <translation>音量控制</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="138"/>
+        <location filename="../prefinput.cpp" line="145"/>
         <source>Zoom video</source>
         <translation>縮放視訊</translation>
     </message>
@@ -4940,32 +4970,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>滾輪功能(&amp;W):</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="257"/>
+        <location filename="../prefinput.cpp" line="264"/>
         <source>Shortcut editor</source>
         <translation>捷徑編輯器</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="266"/>
+        <location filename="../prefinput.cpp" line="273"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="271"/>
+        <location filename="../prefinput.cpp" line="278"/>
         <source>Select the action for left click on the mouse.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="274"/>
+        <location filename="../prefinput.cpp" line="281"/>
         <source>Select the action for double click on the mouse.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="285"/>
+        <location filename="../prefinput.cpp" line="292"/>
         <source>Wheel function</source>
         <translation>滾輪功能</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="286"/>
+        <location filename="../prefinput.cpp" line="293"/>
         <source>Select the action for the mouse wheel.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5045,12 +5075,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>偏好設定</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="135"/>
+        <location filename="../prefinput.cpp" line="142"/>
         <source>No function</source>
         <translation>無功能</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="139"/>
+        <location filename="../prefinput.cpp" line="146"/>
         <source>Change speed</source>
         <translation>改變速度</translation>
     </message>
@@ -5060,22 +5090,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>正常速度</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="255"/>
+        <location filename="../prefinput.cpp" line="262"/>
         <source>Keyboard</source>
         <translation>鍵盤</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="268"/>
+        <location filename="../prefinput.cpp" line="275"/>
         <source>Mouse</source>
         <translation>滑鼠</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="276"/>
+        <location filename="../prefinput.cpp" line="283"/>
         <source>Middle click</source>
         <translation>中擊</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="277"/>
+        <location filename="../prefinput.cpp" line="284"/>
         <source>Select the action for middle click on the mouse.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5150,22 +5180,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>降低音量</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="279"/>
+        <location filename="../prefinput.cpp" line="286"/>
         <source>X Button 1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="280"/>
+        <location filename="../prefinput.cpp" line="287"/>
         <source>Select the action for the X button 1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="282"/>
+        <location filename="../prefinput.cpp" line="289"/>
         <source>X Button 2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="283"/>
+        <location filename="../prefinput.cpp" line="290"/>
         <source>Select the action for the X button 2.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5196,7 +5226,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefinput.cpp" line="87"/>
-        <source>Activate option in DVD menus</source>
+        <source>Activate option under mouse in DVD menus</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="88"/>
+        <source>Return to main DVD menu</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="89"/>
+        <source>Return to previous menu in DVD menus</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="90"/>
+        <source>Move cursor up in DVD menus</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="91"/>
+        <source>Move cursor down in DVD menus</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="92"/>
+        <source>Move cursor left in DVD menus</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="93"/>
+        <source>Move cursor right in DVD menus</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="94"/>
+        <source>Activate highlighted option in DVD menus</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
