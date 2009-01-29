@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de_DE">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1485,32 +1486,32 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1540"/>
         <source>DVD menu, move up</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD Menue, nach oben</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1541"/>
         <source>DVD menu, move down</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD Menue, nach unten</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1542"/>
         <source>DVD menu, move left</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD Menue, nach links</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1543"/>
         <source>DVD menu, move right</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD Menue, nach rechts</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1545"/>
         <source>DVD menu, select option</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD Menue, Auswahl Option</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1547"/>
         <source>DVD menu, mouse click</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD Menue, Maus-Klick</translation>
     </message>
 </context>
 <context>
@@ -5239,42 +5240,42 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinput.cpp" line="87"/>
         <source>Activate option under mouse in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivieren der Maus unter Option in DVD-Menues</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="88"/>
         <source>Return to main DVD menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Zurück zum Haupt-DVD-Menue</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="89"/>
         <source>Return to previous menu in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Zurück zum vorherigen Menue im DVD-Menue</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="90"/>
         <source>Move cursor up in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Cursor nach oben bewegen in DVD-Menues</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="91"/>
         <source>Move cursor down in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Cursor nach unten bewegen in DVD-Menues</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="92"/>
         <source>Move cursor left in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Cursor nach links bewegen in DVD-Menues</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="93"/>
         <source>Move cursor right in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Cursor nach rechts bewegen in DVD-Menues</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="94"/>
         <source>Activate highlighted option in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivieren der hervorgehobenen Optionen in DVD-Menues</translation>
     </message>
 </context>
 <context>
