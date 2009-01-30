@@ -2580,32 +2580,36 @@ void Core::decVolume() {
 	setVolume(mset.volume-4);
 }
 
+void Core::setSubDelay(int delay) {
+	qDebug("Core::setSubDelay: %d", delay);
+	mset.sub_delay = delay;
+	tellmp("sub_delay " + QString::number( (double) mset.sub_delay/1000 ) +" 1");
+}
+
 void Core::incSubDelay() {
 	qDebug("Core::incSubDelay");
-
-	mset.sub_delay += 100;
-	tellmp("sub_delay " + QString::number( (double) mset.sub_delay/1000 ) +" 1");
+	setSubDelay(mset.sub_delay + 100);
 }
 
 void Core::decSubDelay() {
 	qDebug("Core::decSubDelay");
+	setSubDelay(mset.sub_delay - 100);
+}
 
-	mset.sub_delay -= 100;
-	tellmp("sub_delay " + QString::number( (double) mset.sub_delay/1000 ) +" 1");
+void Core::setAudioDelay(int delay) {
+	qDebug("Core::setAudioDelay: %d", delay);
+	mset.audio_delay = delay;
+	tellmp("audio_delay " + QString::number( (double) mset.audio_delay/1000 ) +" 1");
 }
 
 void Core::incAudioDelay() {
 	qDebug("Core::incAudioDelay");
-
-	mset.audio_delay += 100;
-	tellmp("audio_delay " + QString::number( (double) mset.audio_delay/1000 ) +" 1");
+	setAudioDelay(mset.audio_delay + 100);
 }
 
 void Core::decAudioDelay() {
 	qDebug("Core::decAudioDelay");
-
-	mset.audio_delay -= 100;
-	tellmp("audio_delay " + QString::number( (double) mset.audio_delay/1000 ) +" 1");
+	setAudioDelay(mset.audio_delay - 100);
 }
 
 void Core::incSubPos() {
