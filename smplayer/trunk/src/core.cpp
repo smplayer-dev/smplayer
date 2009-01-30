@@ -481,7 +481,16 @@ void Core::loadSub(const QString & sub ) {
 
 		QFileInfo fi(sub);
 		if (fi.suffix().toLower() != "idx") {
-			tellmp( "sub_load \""+ sub +"\"" );
+			QString sub_file = sub;
+			#ifdef Q_OS_WIN
+			if (pref->use_short_pathnames) {
+				sub_file = Helper::shortPathName(sub);
+				// For some reason it seems it's necessary to change the path separator to unix style
+				// otherwise mplayer fails to load it
+				sub_file = sub_file.replace("\\","/");
+			}
+			#endif
+			tellmp( "sub_load \""+ sub_file +"\"" );
 		} else {
 			restartPlay();
 		}
