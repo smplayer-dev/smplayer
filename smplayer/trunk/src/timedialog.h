@@ -31,10 +31,12 @@ public:
 
 	int time();
 	int maximumTime();
+	QString label();
 
 public slots:
 	void setTime(int seconds);
 	void setMaximumTime( int seconds );
+	void setLabel(const QString & label);
 };
 
 #endif

@@ -9,9 +9,6 @@
     <height>91</height>
    </rect>
   </property>
-  <property name="windowTitle" >
-   <string>SMPlayer - Seek</string>
-  </property>
   <layout class="QVBoxLayout" >
    <property name="spacing" >
     <number>6</number>
@@ -46,7 +43,7 @@
       <number>0</number>
      </property>
      <item>
-      <widget class="QLabel" name="label" >
+      <widget class="QLabel" name="time_label" >
        <property name="sizePolicy" >
         <sizepolicy vsizetype="Preferred" hsizetype="Minimum" >
          <horstretch>0</horstretch>
