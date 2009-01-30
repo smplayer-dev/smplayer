@@ -1,5 +1,9 @@
 [b]Version 0.6.7[/b]:
 
+(2009-01-29)
+ * Added two options (in the audio and subtitle menus) to allow the user to 
+   enter the audio and subtitle delay (in milliseconds).
+
 (2009-01-28)
  * Added names for the rest of dvdnav actions.
  * The dvdnav_mouse action is assigned to the left mouse button by default.

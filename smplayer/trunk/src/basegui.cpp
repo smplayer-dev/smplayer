@@ -36,6 +36,7 @@
 #include <QDragEnterEvent>
 #include <QDropEvent>
 #include <QDesktopServices>
+#include <QInputDialog>
 
 #include <cmath>
 
@@ -518,6 +519,10 @@ void BaseGui::createActions() {
 	connect( incAudioDelayAct, SIGNAL(triggered()),
              core, SLOT(incAudioDelay()) );
 
+	audioDelayAct = new MyAction( this, "audio_delay" );
+	connect( audioDelayAct, SIGNAL(triggered()),
+             this, SLOT(showAudioDelayDialog()) );
+
 	loadAudioAct = new MyAction( this, "load_audio_file" );
 	connect( loadAudioAct, SIGNAL(triggered()),
              this, SLOT(loadAudioFile()) );
@@ -560,6 +565,10 @@ void BaseGui::createActions() {
 	incSubDelayAct = new MyAction( Qt::Key_X, this, "inc_sub_delay" );
 	connect( incSubDelayAct, SIGNAL(triggered()),
              core, SLOT(incSubDelay()) );
+
+	subDelayAct = new MyAction( this, "sub_delay" );
+	connect( subDelayAct, SIGNAL(triggered()),
+             this, SLOT(showSubDelayDialog()) );
 
 	decSubPosAct = new MyAction( Qt::Key_R, this, "dec_sub_pos" );
 	connect( decSubPosAct, SIGNAL(triggered()),
@@ -1024,6 +1033,7 @@ void BaseGui::setActionsEnabled(bool b) {
 	incVolumeAct->setEnabled(b);
 	decAudioDelayAct->setEnabled(b);
 	incAudioDelayAct->setEnabled(b);
+	audioDelayAct->setEnabled(b);
 	extrastereoAct->setEnabled(b);
 	karaokeAct->setEnabled(b);
 	volnormAct->setEnabled(b);
@@ -1035,6 +1045,7 @@ void BaseGui::setActionsEnabled(bool b) {
 	//unloadSubsAct->setEnabled(b);
 	decSubDelayAct->setEnabled(b);
 	incSubDelayAct->setEnabled(b);
+	subDelayAct->setEnabled(b);
 	decSubPosAct->setEnabled(b);
 	incSubPosAct->setEnabled(b);
 	incSubStepAct->setEnabled(b);
@@ -1124,6 +1135,7 @@ void BaseGui::enableActionsOnPlaying() {
 		incVolumeAct->setEnabled(false);
 		decAudioDelayAct->setEnabled(false);
 		incAudioDelayAct->setEnabled(false);
+		audioDelayAct->setEnabled(false);
 		extrastereoAct->setEnabled(false);
 		karaokeAct->setEnabled(false);
 		volnormAct->setEnabled(false);
@@ -1290,6 +1302,7 @@ void BaseGui::retranslateStrings() {
 	incVolumeAct->change( Images::icon("audio_up"), tr("Volume &+") );
 	decAudioDelayAct->change( Images::icon("delay_down"), tr("&Delay -") );
 	incAudioDelayAct->change( Images::icon("delay_up"), tr("D&elay +") );
+	audioDelayAct->change( Images::icon("audio_delay"), tr("Set dela&y...") );
 	loadAudioAct->change( Images::icon("open"), tr("&Load external file...") );
 	unloadAudioAct->change( Images::icon("unload"), tr("U&nload") );
 
@@ -1303,6 +1316,7 @@ void BaseGui::retranslateStrings() {
 	unloadSubsAct->change( Images::icon("unload"), tr("U&nload") );
 	decSubDelayAct->change( Images::icon("delay_down"), tr("Delay &-") );
 	incSubDelayAct->change( Images::icon("delay_up"), tr("Delay &+") );
+	subDelayAct->change( Images::icon("sub_delay"), tr("Se&t delay...") );
 	decSubPosAct->change( Images::icon("sub_up"), tr("&Up") );
 	incSubPosAct->change( Images::icon("sub_down"), tr("&Down") );
 	decSubScaleAct->change( Images::icon("dec_sub_scale"), tr("S&ize -") );
@@ -2022,6 +2036,8 @@ void BaseGui::createMenus() {
 	audioMenu->addSeparator();
 	audioMenu->addAction(decAudioDelayAct);
 	audioMenu->addAction(incAudioDelayAct);
+	audioMenu->addSeparator();
+	audioMenu->addAction(audioDelayAct);
 
 
 	// SUBTITLES MENU
@@ -2035,6 +2051,8 @@ void BaseGui::createMenus() {
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(decSubDelayAct);
 	subtitlesMenu->addAction(incSubDelayAct);
+	subtitlesMenu->addSeparator();
+	subtitlesMenu->addAction(subDelayAct);
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(decSubPosAct);
 	subtitlesMenu->addAction(incSubPosAct);
@@ -2863,6 +2881,7 @@ void BaseGui::updateWidgets() {
 
 	decSubDelayAct->setEnabled(e);
 	incSubDelayAct->setEnabled(e);
+	subDelayAct->setEnabled(e);
 	decSubPosAct->setEnabled(e);
 	incSubPosAct->setEnabled(e);
 	decSubScaleAct->setEnabled(e);
@@ -3279,6 +3298,26 @@ void BaseGui::showGotoDialog() {
 	d.setTime( (int) core->mset.current_sec);
 	if (d.exec() == QDialog::Accepted) {
 		core->goToSec( d.time() );
+	}
+}
+
+void BaseGui::showAudioDelayDialog() {
+	bool ok;
+	int delay = QInputDialog::getInteger(this, tr("SMPlayer - Audio delay"),
+                                         tr("Audio delay (in milliseconds):"), core->mset.audio_delay, 
+                                         -3600000, 3600000, 1, &ok);
+	if (ok) {
+		core->setAudioDelay(delay);
+	}
+}
+
+void BaseGui::showSubDelayDialog() {
+	bool ok;
+	int delay = QInputDialog::getInteger(this, tr("SMPlayer - Subtitle delay"),
+                                         tr("Subtitle delay (in milliseconds):"), core->mset.sub_delay, 
+                                         -3600000, 3600000, 1, &ok);
+	if (ok) {
+		core->setSubDelay(delay);
 	}
 }
 
