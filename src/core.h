@@ -197,9 +197,11 @@ public slots:
 	void incSaturation();
 	void decSaturation();
 
+	void setSubDelay(int delay);
 	void incSubDelay();
 	void decSubDelay();
 
+	void setAudioDelay(int delay);
 	void incAudioDelay();
 	void decAudioDelay();
 
