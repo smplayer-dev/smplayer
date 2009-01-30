@@ -118,6 +118,8 @@ public slots:
 	virtual void showFilePropertiesDialog();
 
 	virtual void showGotoDialog();
+	virtual void showSubDelayDialog();
+	virtual void showAudioDelayDialog();
 
 	virtual void exitFullscreen();
 	virtual void toggleFullscreen();
@@ -369,6 +371,7 @@ protected:
 	MyAction * incVolumeAct;
 	MyAction * decAudioDelayAct;
 	MyAction * incAudioDelayAct;
+	MyAction * audioDelayAct; // Ask for delay
 	MyAction * extrastereoAct;
 	MyAction * karaokeAct;
 	MyAction * volnormAct;
@@ -380,6 +383,7 @@ protected:
 	MyAction * unloadSubsAct;
 	MyAction * decSubDelayAct;
 	MyAction * incSubDelayAct;
+	MyAction * subDelayAct; // Ask for delay
 	MyAction * decSubPosAct;
 	MyAction * incSubPosAct;
 	MyAction * incSubStepAct;
