@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de_DE">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1515,42 +1516,42 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1305"/>
         <source>Set dela&amp;y...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Delay einstellen...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1319"/>
         <source>Se&amp;t delay...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Delay einstellen...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3295"/>
         <source>&amp;Jump to:</source>
-        <translation type="unfinished">&amp;Sprung zu:</translation>
+        <translation>&amp;Sprung zu:</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3296"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished">SMPlayer - Positionierung</translation>
+        <translation>SMPlayer - Positionierung</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3306"/>
         <source>SMPlayer - Audio delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Audio-Delay</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3307"/>
         <source>Audio delay (in milliseconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio-Delay (in Millisekunden):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3316"/>
         <source>SMPlayer - Subtitle delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Untertitel-Delay</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3317"/>
         <source>Subtitle delay (in milliseconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>Untertitel-Delay (in Millisekunden):</translation>
     </message>
 </context>
 <context>
