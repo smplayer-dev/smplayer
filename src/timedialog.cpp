@@ -49,4 +49,12 @@ int TimeDialog::maximumTime() {
 	return t.secsTo(time_edit->maximumTime());
 }
 
+void TimeDialog::setLabel(const QString & label) {
+	time_label->setText(label);
+}
+
+QString TimeDialog::label() {
+	return time_label->text();
+}
+
 #include "moc_timedialog.cpp"
