@@ -1485,72 +1485,72 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="1554"/>
         <source>DVD menu, move up</source>
-        <translation type="unfinished"></translation>
+        <translation>Menu DVD, mover para cima</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1555"/>
         <source>DVD menu, move down</source>
-        <translation type="unfinished"></translation>
+        <translation>Menu DVD, mover para baixo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1556"/>
         <source>DVD menu, move left</source>
-        <translation type="unfinished"></translation>
+        <translation>Menu DVD, mover para esquerda</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1557"/>
         <source>DVD menu, move right</source>
-        <translation type="unfinished"></translation>
+        <translation>Menu DVD, mover para direita</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1559"/>
         <source>DVD menu, select option</source>
-        <translation type="unfinished"></translation>
+        <translation>Menu DVD, opção seleccionar</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1561"/>
         <source>DVD menu, mouse click</source>
-        <translation type="unfinished"></translation>
+        <translation>Menu DVD, clique no rato</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1305"/>
         <source>Set dela&amp;y...</source>
-        <translation type="unfinished"></translation>
+        <translation>Definir at&amp;raso...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1319"/>
         <source>Se&amp;t delay...</source>
-        <translation type="unfinished"></translation>
+        <translation>Definir a&amp;traso...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3295"/>
         <source>&amp;Jump to:</source>
-        <translation type="unfinished">&amp;Ir para:</translation>
+        <translation>&amp;Ir para:</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3296"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished">SMPlayer - Procura</translation>
+        <translation>SMPlayer - Procura</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3306"/>
         <source>SMPlayer - Audio delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Atraso de Áudio </translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3307"/>
         <source>Audio delay (in milliseconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>Atraso de Áudio (em milisegundos):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3316"/>
         <source>SMPlayer - Subtitle delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Atraso de Legendas</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3317"/>
         <source>Subtitle delay (in milliseconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>Atraso de Legendas (em milisegundos):</translation>
     </message>
 </context>
 <context>
@@ -5275,42 +5275,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="87"/>
         <source>Activate option under mouse in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Activar opção de rato nos menus DVD</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="88"/>
         <source>Return to main DVD menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Voltar para menu principal</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="89"/>
         <source>Return to previous menu in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Voltar para menu anterior</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="90"/>
         <source>Move cursor up in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Mover cursor para cima nos menus DVD</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="91"/>
         <source>Move cursor down in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Mover cursor para baixo nos menus DVD</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="92"/>
         <source>Move cursor left in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Mover cursor para a esquerda nos menus DVD</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="93"/>
         <source>Move cursor right in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Mover cursor para a direita nos menus DVD</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="94"/>
         <source>Activate highlighted option in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Ativar a opção realçada em menus de DVD</translation>
     </message>
 </context>
 <context>
