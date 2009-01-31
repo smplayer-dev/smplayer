@@ -5,8 +5,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>428</width>
-    <height>340</height>
+    <width>452</width>
+    <height>380</height>
    </rect>
   </property>
   <property name="windowTitle" >
@@ -269,6 +269,26 @@
    </item>
    <item>
     <widget class="Line" name="line" >
+     <property name="sizePolicy" >
+      <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="orientation" >
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="save_last_directory_check" >
+     <property name="text" >
+      <string>Remember folder used to &amp;save the preview</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="Line" name="line_4" >
      <property name="sizePolicy" >
       <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
        <horstretch>0</horstretch>

@@ -136,6 +136,14 @@ VideoPreview::ExtractFormat VideoPreviewConfigDialog::format() {
 	return (VideoPreview::ExtractFormat) format_combo->itemData(idx).toInt();
 }
 
+void VideoPreviewConfigDialog::setSaveLastDirectory(bool b) {
+	save_last_directory_check->setChecked(b);
+}
+
+bool VideoPreviewConfigDialog::saveLastDirectory() {
+	return save_last_directory_check->isChecked();
+}
+
 void VideoPreviewConfigDialog::filenameChanged(const QString & text) {
 	qDebug("VideoPreviewConfigDialog::filenameChanged");
 

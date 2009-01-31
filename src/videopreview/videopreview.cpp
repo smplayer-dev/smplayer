@@ -47,6 +47,7 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFla
 	setMplayerPath(mplayer_path);
 
 	set = 0; // settings
+	save_last_directory = true;
 
 	prop.input_video.clear();
 	prop.dvd_device.clear();
@@ -485,9 +486,12 @@ void VideoPreview::saveImage() {
 	qDebug("VideoPreview::saveImage");
 
 	// Proposed name
-	QString proposed_name = last_directory;
+	QString proposed_name = "";
+	if (save_last_directory) proposed_name = last_directory;
+
 	QFileInfo fi(prop.input_video);
 	if (fi.exists()) {
+		if (!save_last_directory) proposed_name = fi.absolutePath();
 		QString extension = (extractFormat()==PNG) ? "png" : "jpg";
 		proposed_name += "/"+ fi.completeBaseName() +"_preview."+ extension;
 	}
@@ -531,6 +535,7 @@ bool VideoPreview::showConfigDialog() {
 	d.setDisplayOSD( displayOSD() );
 	d.setAspectRatio( aspectRatio() );
 	d.setFormat( extractFormat() );
+	d.setSaveLastDirectory( save_last_directory );
 
 	if (d.exec() == QDialog::Accepted) {
 		setVideoFile( d.videoFile() );
@@ -542,6 +547,7 @@ bool VideoPreview::showConfigDialog() {
 		setDisplayOSD( d.displayOSD() );
 		setAspectRatio( d.aspectRatio() );
 		setExtractFormat(d.format() );
+		save_last_directory = d.saveLastDirectory();
 
 		return true;
 	}
@@ -560,7 +566,11 @@ void VideoPreview::saveSettings() {
 	set->setValue("max_width", maxWidth());
 	set->setValue("osd", displayOSD());
 	set->setValue("format", extractFormat());
-	set->setValue("last_directory", last_directory);
+	set->setValue("save_last_directory", save_last_directory);
+
+	if (save_last_directory) {
+		set->setValue("last_directory", last_directory);
+	}
 
 	set->setValue("filename", videoFile());
 	set->setValue("dvd_device", DVDDevice());
@@ -579,6 +589,7 @@ void VideoPreview::loadSettings() {
 	setMaxWidth( set->value("max_width", maxWidth()).toInt() );
 	setDisplayOSD( set->value("osd", displayOSD()).toBool() );
 	setExtractFormat( (ExtractFormat) set->value("format", extractFormat()).toInt() );
+	save_last_directory = set->value("save_last_directory", save_last_directory).toBool();
 	last_directory = set->value("last_directory", last_directory).toString();
 
 	setVideoFile( set->value("filename", videoFile()).toString() );

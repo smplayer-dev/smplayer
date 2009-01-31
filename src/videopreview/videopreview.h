@@ -157,6 +157,7 @@ protected:
 	} run;
 
 	QString last_directory;
+	bool save_last_directory;
 	QString error_message;
 };
 
