@@ -57,6 +57,9 @@ public:
 	void setFormat(VideoPreview::ExtractFormat format);
 	VideoPreview::ExtractFormat format();
 
+	void setSaveLastDirectory(bool b);
+	bool saveLastDirectory();
+
 protected slots:
 	void filenameChanged(const QString &);
 };
