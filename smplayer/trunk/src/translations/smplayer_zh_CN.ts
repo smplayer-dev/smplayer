@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="zh">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1480,77 +1481,77 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1560"/>
         <source>DVD &amp;previous menu</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD 前一菜单(&amp;P)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1554"/>
         <source>DVD menu, move up</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">DVD 菜单, 上移</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1555"/>
         <source>DVD menu, move down</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">DVD 菜单, 下移</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1556"/>
         <source>DVD menu, move left</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">DVD 菜单, 左移</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1557"/>
         <source>DVD menu, move right</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">DVD 菜单, 右移</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1559"/>
         <source>DVD menu, select option</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">DVD 菜单, 选项</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1561"/>
         <source>DVD menu, mouse click</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">DVD 菜单, 鼠标点击</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1305"/>
         <source>Set dela&amp;y...</source>
-        <translation type="unfinished"></translation>
+        <translation>设置延时(&amp;Y)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1319"/>
         <source>Se&amp;t delay...</source>
-        <translation type="unfinished"></translation>
+        <translation>设置延时(&amp;T)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3295"/>
         <source>&amp;Jump to:</source>
-        <translation type="unfinished">跳转到(&amp;J):</translation>
+        <translation>跳转到(&amp;J):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3296"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished">SMPlayer - 定位</translation>
+        <translation>SMPlayer - 定位</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3306"/>
         <source>SMPlayer - Audio delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - 音频延时</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3307"/>
         <source>Audio delay (in milliseconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>音频延时(毫秒):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3316"/>
         <source>SMPlayer - Subtitle delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - 字幕延时</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3317"/>
         <source>Subtitle delay (in milliseconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>字幕延时(毫秒):</translation>
     </message>
 </context>
 <context>
@@ -5272,42 +5273,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="87"/>
         <source>Activate option under mouse in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>激活鼠标下的 DVD 菜单选项</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="88"/>
         <source>Return to main DVD menu</source>
-        <translation type="unfinished"></translation>
+        <translation>返回 DVD 主菜单</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="89"/>
         <source>Return to previous menu in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>返回前一个 DVD 菜单</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="90"/>
         <source>Move cursor up in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>在 DVD 菜单中向上移动光标</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="91"/>
         <source>Move cursor down in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>在 DVD 菜单中向下移动光标</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="92"/>
         <source>Move cursor left in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>在 DVD 菜单中向左移动光标</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="93"/>
         <source>Move cursor right in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>在 DVD 菜单中向右移动光标</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="94"/>
         <source>Activate highlighted option in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>激活高亮的 DVD 菜单选项</translation>
     </message>
 </context>
 <context>
