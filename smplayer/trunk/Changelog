@@ -4,6 +4,9 @@
  * (Videopreview) Added a new option to remember the last folder used for
    saving the preview image. If not checked, it will suggest the same
    folder of the video to save the image.
+ * New action toggle_stay_on_top, which toggles between "stay on top always" 
+   and "stay on top never". If "stay on top while playing" is enabled, this
+   action does nothing.
 
 (2009-01-29)
  * Added two options (in the audio and subtitle menus) to allow the user to 

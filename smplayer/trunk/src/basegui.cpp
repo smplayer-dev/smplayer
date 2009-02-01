@@ -900,6 +900,10 @@ void BaseGui::createActions() {
 	connect( onTopActionGroup , SIGNAL(activated(int)),
              this, SLOT(changeStayOnTop(int)) );
 
+	toggleStayOnTopAct = new MyAction( this, "toggle_stay_on_top");
+	connect( toggleStayOnTopAct, SIGNAL(triggered()), this, SLOT(toggleStayOnTop()) );
+
+
 #if USE_ADAPTER
 	screenGroup = new MyActionGroup(this);
 	screenDefaultAct = new MyActionGroupItem(this, screenGroup, "screen_default", -1);
@@ -1509,6 +1513,7 @@ void BaseGui::retranslateStrings() {
 	onTopAlwaysAct->change( tr("&Always") );
 	onTopNeverAct->change( tr("&Never") );
 	onTopWhilePlayingAct->change( tr("While &playing") );
+	toggleStayOnTopAct->change( tr("Toggle stay on top") );
 
 #if USE_ADAPTER
 	screenDefaultAct->change( tr("&Default") );
@@ -3974,6 +3979,14 @@ void BaseGui::checkStayOnTop(Core::State state) {
     if ((!pref->fullscreen) && (pref->stay_on_top == Preferences::WhilePlayingOnTop)) {
 		setStayOnTop((state == Core::Playing));
 	}
+}
+
+void BaseGui::toggleStayOnTop() {
+	if (pref->stay_on_top == Preferences::AlwaysOnTop) 
+		changeStayOnTop(Preferences::NeverOnTop);
+	else
+	if (pref->stay_on_top == Preferences::NeverOnTop) 
+		changeStayOnTop(Preferences::AlwaysOnTop);
 }
 
 // Called when a new window (equalizer, preferences..) is opened.

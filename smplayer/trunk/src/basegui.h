@@ -131,6 +131,7 @@ public slots:
 	void setStayOnTop(bool b);
 	virtual void changeStayOnTop(int);
 	virtual void checkStayOnTop(Core::State);
+	void toggleStayOnTop();
 
 	virtual void toggleFrameCounter();
 	virtual void toggleFrameCounter(bool);
@@ -525,6 +526,7 @@ protected:
 	MyAction * onTopAlwaysAct;
 	MyAction * onTopNeverAct;
 	MyAction * onTopWhilePlayingAct;
+	MyAction * toggleStayOnTopAct;
 
 #if USE_ADAPTER
 	// Screen Group
