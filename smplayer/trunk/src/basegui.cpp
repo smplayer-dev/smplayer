@@ -3965,8 +3965,8 @@ void BaseGui::setStayOnTop(bool b) {
 
 void BaseGui::changeStayOnTop(int stay_on_top) {
 	switch (stay_on_top) {
-		case Preferences::Always : setStayOnTop(true); break;
-		case Preferences::Never  : setStayOnTop(false); break;
+		case Preferences::AlwaysOnTop : setStayOnTop(true); break;
+		case Preferences::NeverOnTop  : setStayOnTop(false); break;
 		case Preferences::WhilePlayingOnTop : setStayOnTop((core->state() == Core::Playing)); break;
 	}
 
