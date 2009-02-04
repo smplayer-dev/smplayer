@@ -1475,82 +1475,82 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../basegui.cpp" line="1558"/>
         <source>DVD &amp;menu</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD &amp;menü</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1560"/>
         <source>DVD &amp;previous menu</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD &amp;előző menü</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1554"/>
         <source>DVD menu, move up</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD menü, fel</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1555"/>
         <source>DVD menu, move down</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD menü, le</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1556"/>
         <source>DVD menu, move left</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD menü, balra</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1557"/>
         <source>DVD menu, move right</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD menü, jobbra</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1559"/>
         <source>DVD menu, select option</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD menü, kiválasztás</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1561"/>
         <source>DVD menu, mouse click</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD menü, egér kattintás</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1305"/>
         <source>Set dela&amp;y...</source>
-        <translation type="unfinished"></translation>
+        <translation>Késleltetés &amp;beállítása...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1319"/>
         <source>Se&amp;t delay...</source>
-        <translation type="unfinished"></translation>
+        <translation>Késlel&amp;tetés beállítása...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3295"/>
         <source>&amp;Jump to:</source>
-        <translation type="unfinished">&amp;Ugrás:</translation>
+        <translation>&amp;Ugrás:</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3296"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished">SMPlayer - Keresés</translation>
+        <translation>SMPlayer - Keresés</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3306"/>
         <source>SMPlayer - Audio delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Hang késleltetés</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3307"/>
         <source>Audio delay (in milliseconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>Hang késleltetés (ezredmásodpercben):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3316"/>
         <source>SMPlayer - Subtitle delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Felirat késleltetés</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3317"/>
         <source>Subtitle delay (in milliseconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>Felirat késleltetés (ezredmásodpercben):</translation>
     </message>
 </context>
 <context>
@@ -4189,32 +4189,32 @@ Például: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefdrives.cpp" line="159"/>
         <source>Enable DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD menük engedélyezése</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="162"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez be van jelölve, az SMPlayer a DVD-ket dvdnav használatával fogja lejátszani. Egy aktuális MPlayer verzió szükséges hozzá, dvdnav támogatással fordítva.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="163"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Megjegyzés 1&lt;/b&gt;: a gyorsítótár ki lesz kapcsolva, ez hatással lehet a teljesítményre.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="165"/>
         <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Megjegyzés 2&lt;/b&gt;: ajánlott az &quot;opció aktiválása DVD menükben&quot; műveletet az egyik egérgombhoz rendelni.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="167"/>
         <source>&lt;b&gt;Note 3&lt;/b&gt;: this feature is under development, expect a lot of issues with it.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Megjegyzés 3&lt;/b&gt;: ez a funkció fejlesztés alatt áll, sok probléma lehet vele.</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="271"/>
         <source>&amp;Enable DVD menus (experimental)</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD m&amp;enük engedélyezése (kísérleti)</translation>
     </message>
 </context>
 <context>
@@ -5271,42 +5271,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="87"/>
         <source>Activate option under mouse in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Kurzor alatti opció aktiválása DVD menükben</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="88"/>
         <source>Return to main DVD menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Visszatérés a fő DVD menübe</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="89"/>
         <source>Return to previous menu in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Visszatérés az előző DVD menübe</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="90"/>
         <source>Move cursor up in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Kurzor mozgatása felfelé DVD menükben</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="91"/>
         <source>Move cursor down in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Kurzor mozgatása lefelé DVD menükben</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="92"/>
         <source>Move cursor left in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Kurzor mozgatása balra DVD menükben</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="93"/>
         <source>Move cursor right in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Kurzor mozgatása jobbra DVD menükben</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="94"/>
         <source>Activate highlighted option in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Kijelölt opció aktiválása DVD menükben</translation>
     </message>
 </context>
 <context>
@@ -6736,42 +6736,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="381"/>
         <source>Customize SSA/ASS style</source>
-        <translation type="unfinished"></translation>
+        <translation>Saját SSA/ASS stílus</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="382"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
-        <translation type="unfinished"></translation>
+        <translation>Itt megadhat egy saját SSA/ASS stílust.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="383"/>
         <source>Clear the edit line to disable the customized style.</source>
-        <translation type="unfinished"></translation>
+        <translation>Törölje ki a szövegdobozt az eredeti stílus visszaállításához.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>SSA/ASS style</source>
-        <translation type="unfinished"></translation>
+        <translation>SSA/ASS stílus</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="524"/>
         <source>Shadow color</source>
-        <translation type="unfinished"></translation>
+        <translation>Árnyék szín</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="525"/>
         <source>This color will be used for the shadow of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez a szín lesz a feliratok árnyékához használva.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="962"/>
         <source>Shadow:</source>
-        <translation type="unfinished"></translation>
+        <translation>Árnyék:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1234"/>
         <source>Custo&amp;mize...</source>
-        <translation type="unfinished"></translation>
+        <translation>Sa&amp;ját...</translation>
     </message>
 </context>
 <context>
