@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="cs">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1018,7 +1019,7 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="1325"/>
         <source>&amp;Previous line in subtitles</source>
-        <translation>&amp;Předešlý řádek tutulků</translation>
+        <translation>&amp;Předešlý řádek titulků</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1327"/>
@@ -1485,72 +1486,72 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="1554"/>
         <source>DVD menu, move up</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD menu, nahoru</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1555"/>
         <source>DVD menu, move down</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD menu, dolů</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1556"/>
         <source>DVD menu, move left</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD menu, doleva</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1557"/>
         <source>DVD menu, move right</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD menu, doprava</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1559"/>
         <source>DVD menu, select option</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD menu, výběr</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1561"/>
         <source>DVD menu, mouse click</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD menu, klik</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1305"/>
         <source>Set dela&amp;y...</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavit zpož&amp;dění...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1319"/>
         <source>Se&amp;t delay...</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastav&amp;it zpoždění...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3295"/>
         <source>&amp;Jump to:</source>
-        <translation type="unfinished">&amp;Jdi na:</translation>
+        <translation>&amp;Jdi na:</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3296"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished">SMPlayer - Pozice</translation>
+        <translation>SMPlayer - Pozice</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3306"/>
         <source>SMPlayer - Audio delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Zpoždění audia</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3307"/>
         <source>Audio delay (in milliseconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>Zpoždění audia (v ms):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3316"/>
         <source>SMPlayer - Subtitle delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Zpoždění titulků</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3317"/>
         <source>Subtitle delay (in milliseconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>Zpoždění titulků (v ms):</translation>
     </message>
 </context>
 <context>
@@ -5275,42 +5276,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="87"/>
         <source>Activate option under mouse in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivovat položku DVD menu pod kurzorem myši</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="88"/>
         <source>Return to main DVD menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Návrat do hlavního menu DVD</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="89"/>
         <source>Return to previous menu in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Návrat do předchozího menu DVD</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="90"/>
         <source>Move cursor up in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Posunout kurzor nahoru v DVD menu</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="91"/>
         <source>Move cursor down in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Posunout kurzor dolů v DVD menu</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="92"/>
         <source>Move cursor left in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Posunout kurzor doleva v DVD menu</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="93"/>
         <source>Move cursor right in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Posunout kurzor doprava v DVD menu</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="94"/>
         <source>Activate highlighted option in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivovat zvýrazněnou položku DVD menu</translation>
     </message>
 </context>
 <context>
