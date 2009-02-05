@@ -522,12 +522,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1225"/>
         <source>&amp;DVD from drive</source>
-        <translation>从设备打开 &amp;DVD</translation>
+        <translation>从设备打开 DVD(&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1226"/>
         <source>D&amp;VD from folder...</source>
-        <translation>从目录打开 D&amp;VD...</translation>
+        <translation>从目录打开 DVD(&amp;V)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1227"/>
@@ -1189,7 +1189,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1328"/>
         <source>Use SSA/&amp;ASS library</source>
-        <translation>使用 SSA/&amp;ASS 库</translation>
+        <translation>使用 SSA/ASS 库(&amp;A)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1271"/>
