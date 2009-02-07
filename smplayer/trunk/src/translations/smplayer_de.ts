@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="de_DE">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1555,7 +1556,7 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1516"/>
         <source>Toggle stay on top</source>
-        <translation type="unfinished"></translation>
+        <translation>Zur Vordergrungansicht wechseln</translation>
     </message>
 </context>
 <context>
@@ -7402,7 +7403,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="286"/>
         <source>Remember folder used to &amp;save the preview</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Order zur Speicherung der Vorschau beibehalten</translation>
     </message>
 </context>
 <context>
