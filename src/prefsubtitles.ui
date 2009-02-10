@@ -1156,15 +1156,12 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QSpinBox" name="style_outline_spin" >
-                  <property name="minimum" >
-                   <number>0</number>
-                  </property>
+                 <widget class="QDoubleSpinBox" name="style_outline_spin" >
                   <property name="maximum" >
-                   <number>4</number>
+                   <double>4.000000000000000</double>
                   </property>
-                  <property name="value" >
-                   <number>0</number>
+                  <property name="singleStep" >
+                   <double>0.100000000000000</double>
                   </property>
                  </widget>
                 </item>
@@ -1179,9 +1176,12 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QSpinBox" name="style_shadow_spin" >
+                 <widget class="QDoubleSpinBox" name="style_shadow_spin" >
                   <property name="maximum" >
-                   <number>4</number>
+                   <double>4.000000000000000</double>
+                  </property>
+                  <property name="singleStep" >
+                   <double>0.100000000000000</double>
                   </property>
                  </widget>
                 </item>
