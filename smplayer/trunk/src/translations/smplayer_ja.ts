@@ -1515,47 +1515,47 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1309"/>
         <source>Set dela&amp;y...</source>
-        <translation type="unfinished"></translation>
+        <translation>遅延の設定(&amp;Y)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1323"/>
         <source>Se&amp;t delay...</source>
-        <translation type="unfinished"></translation>
+        <translation>遅延の設定(&amp;T)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3300"/>
         <source>&amp;Jump to:</source>
-        <translation type="unfinished">ジャンプ先(&amp;J):</translation>
+        <translation>ジャンプ先(&amp;J):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3301"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished">SMPlayer - シーク</translation>
+        <translation>SMPlayer - シーク</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3311"/>
         <source>SMPlayer - Audio delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - オーディオの遅延</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3312"/>
         <source>Audio delay (in milliseconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>オーディオの遅延 (ミリ秒):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3321"/>
         <source>SMPlayer - Subtitle delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - 字幕の遅延</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3322"/>
         <source>Subtitle delay (in milliseconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>字幕の遅延 (ミリ秒):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1516"/>
         <source>Toggle stay on top</source>
-        <translation type="unfinished"></translation>
+        <translation>手前に表示の切り替え</translation>
     </message>
 </context>
 <context>
@@ -7393,7 +7393,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="286"/>
         <source>Remember folder used to &amp;save the preview</source>
-        <translation type="unfinished"></translation>
+        <translation>プレビューの保存に使用されたフォルダーを記憶する(&amp;S)</translation>
     </message>
 </context>
 <context>
