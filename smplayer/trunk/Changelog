@@ -1,5 +1,9 @@
 [b]Version 0.6.7[/b]:
 
+(2009-02-09)
+ * (ASS subtitles) The outline and shadow options now accept values with
+   decimals.
+
 (2009-02-04)
  * Now the default value for the "correct pts" option is auto.
  * Now the default cache for files is 0, as it seems setting a cache

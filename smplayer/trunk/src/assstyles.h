@@ -38,8 +38,8 @@ public:
 	int halignment;
 	int valignment;
 	int borderstyle;
-	int outline;
-	int shadow;
+	double outline;
+	double shadow;
 	int marginl;
 	int marginr;
 	int marginv;

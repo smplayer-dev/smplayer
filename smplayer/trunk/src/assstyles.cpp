@@ -73,8 +73,8 @@ void AssStyles::load(QSettings * set) {
 	halignment = set->value("styles/halignment", halignment).toInt();
 	valignment = set->value("styles/valignment", valignment).toInt();
 	borderstyle = set->value("styles/borderstyle", borderstyle).toInt();
-	outline = set->value("styles/outline", outline).toInt();
-	shadow = set->value("styles/shadow", shadow).toInt();
+	outline = set->value("styles/outline", outline).toDouble();
+	shadow = set->value("styles/shadow", shadow).toDouble();
 	marginl = set->value("styles/marginl", marginl).toInt();
 	marginr = set->value("styles/marginr", marginr).toInt();
 	marginv = set->value("styles/marginv", marginv).toInt();
