@@ -1,3 +1,28 @@
+Version 0.6.7.
+
+Most important changes since 0.6.6:
+
+* Added experimental (and uncomplete) support for dvd menus. Requires a mplayer
+  build compiled with dvdnav support. Please read dvdmenus.txt to know how
+  to enable it.
+* Now loading an external subtitle file doesn't require to restart the mplayer
+  process (except for idx/sub subtitles).
+* (Playlist) When a file is added to the playlist, if it was already in the 
+  list, it's moved to the end of the list.
+* Options for mplayer: finally spaces in arguments between quotes are handled 
+  properly.
+* Added two options (in the audio and subtitle menus) to allow the user to 
+  enter the audio and subtitle delay (in milliseconds).
+* (ASS subtitles) The outline and shadow options now accept values with 
+  decimals.
+* Now the default value for the "correct pts" option is auto.
+* Now the default cache for files is 0, as it seems setting a cache cause 
+  problems with some formats (like mp4 and mov).
+* (Windows) Now the screensaver is allowed to turn on if the file is paused 
+  or it's an audio file.
+* (Windows) The direct3d video output is now the default for Windows Vista.
+
+
 Version 0.6.6.
 
 Most important changes since 0.6.5:
