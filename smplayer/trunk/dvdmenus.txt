@@ -1,0 +1,31 @@
+SMPlayer 0.6.7 adds the possibility to display DVD menus.
+
+In order to enable, you need:
+
+* Check the option "Enable DVD menus" in Preferences->Drives.
+* Assign the action "Activate option in DVD menus" (Preferences->Keyboard and 
+  mouse) to the left mouse button (so you can select the options in the menus 
+  with the mouse).
+
+A recent mplayer build with dvdnav support is required.
+
+WARNING: support for DVD menus is EXPERIMENTAL and NOT complete yet.
+Currently mplayer has a lot of issues/limitations when using dvdnav, and it
+doesn't make things easy for front-ends, so the support for the DVD menus
+in smplayer can't be improved any further for the moment.
+
+Some of the problems I found:
+
+* it seems there's no way to know the current title that it's playing.
+  MPlayer prints a line like this "DVDNAV, switched to title: 1" but
+  unfortunately the title number that appears there may not match the
+  title IDs that mplayer printed before (it may say "switched to title 2"
+  but the actual title may be the 12th). As smplayer doesn't know the
+  title, restoring the previous position after a mplayer restart is
+  impossible.
+
+* if the audio track is changed, when you return to the dvd menu the
+  sound may be lost (while printing a lot of error messages "Too many
+  video packets in the buffer").
+
+* subtitles may disappear after seeking.
