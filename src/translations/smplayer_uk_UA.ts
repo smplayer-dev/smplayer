@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="uk">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1485,77 +1486,77 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1559"/>
         <source>DVD menu, move up</source>
-        <translation type="unfinished"></translation>
+        <translation>Меню DVD, вгору</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1560"/>
         <source>DVD menu, move down</source>
-        <translation type="unfinished"></translation>
+        <translation>Меню DVD, вниз</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1561"/>
         <source>DVD menu, move left</source>
-        <translation type="unfinished"></translation>
+        <translation>Меню DVD, вліво</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1562"/>
         <source>DVD menu, move right</source>
-        <translation type="unfinished"></translation>
+        <translation>Меню DVD, вправо</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1564"/>
         <source>DVD menu, select option</source>
-        <translation type="unfinished"></translation>
+        <translation>Меню DVD, вибрати опцію</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1566"/>
         <source>DVD menu, mouse click</source>
-        <translation type="unfinished"></translation>
+        <translation>Меню DVD, клік мишкою</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1309"/>
         <source>Set dela&amp;y...</source>
-        <translation type="unfinished"></translation>
+        <translation>Встановити &amp;затримку...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1323"/>
         <source>Se&amp;t delay...</source>
-        <translation type="unfinished"></translation>
+        <translation>Вста&amp;новити затримку...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3300"/>
         <source>&amp;Jump to:</source>
-        <translation type="unfinished">&amp;Перейти до:</translation>
+        <translation>&amp;Перейти до:</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3301"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished">SMPlayer - Пошук</translation>
+        <translation>SMPlayer - Пошук</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3311"/>
         <source>SMPlayer - Audio delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - затримка звуку</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3312"/>
         <source>Audio delay (in milliseconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>Затримка звуку (в мілісекундах):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3321"/>
         <source>SMPlayer - Subtitle delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - затримка субтитрів</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3322"/>
         <source>Subtitle delay (in milliseconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>Затримка субтитрів (в мілісекундах):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1516"/>
         <source>Toggle stay on top</source>
-        <translation type="unfinished"></translation>
+        <translation>Завжди зверху</translation>
     </message>
 </context>
 <context>
@@ -5280,42 +5281,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="87"/>
         <source>Activate option under mouse in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Активувати опцію меню DVD під мишкою</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="88"/>
         <source>Return to main DVD menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Повернутися в головне меню DVD</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="89"/>
         <source>Return to previous menu in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Повернутися в попереднє меню DVD</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="90"/>
         <source>Move cursor up in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Курсор вверх в меню DVD</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="91"/>
         <source>Move cursor down in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Курсор вниз в меню DVD</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="92"/>
         <source>Move cursor left in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Курсор вліво в меню DVD</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="93"/>
         <source>Move cursor right in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Курсор вправо в меню DVD</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="94"/>
         <source>Activate highlighted option in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Активувати підсвічену опцію в меню DVD</translation>
     </message>
 </context>
 <context>
@@ -7399,7 +7400,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="286"/>
         <source>Remember folder used to &amp;save the preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Запам&apos;ятати теку для &amp;збереження мініатюр</translation>
     </message>
 </context>
 <context>
