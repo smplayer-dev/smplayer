@@ -1555,7 +1555,7 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="1516"/>
         <source>Toggle stay on top</source>
-        <translation type="unfinished"></translation>
+        <translation>Přepni vždy nahoře</translation>
     </message>
 </context>
 <context>
@@ -5274,11 +5274,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefinput.cpp" line="87"/>
-        <source>Activate option in DVD menus</source>
-        <translation type="obsolete">Povolit v menu DVD</translation>
-    </message>
-    <message>
-        <location filename="../prefinput.cpp" line="87"/>
         <source>Activate option under mouse in DVD menus</source>
         <translation>Aktivovat položku DVD menu pod kurzorem myši</translation>
     </message>
@@ -6550,7 +6545,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>O&amp;brys:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1174"/>
+        <location filename="../prefsubtitles.ui" line="1171"/>
         <source>Shado&amp;w:</source>
         <translation>&amp;Stín:</translation>
     </message>
@@ -7050,11 +7045,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>TimeDialog</name>
     <message>
-        <location filename="../timedialog.ui" line="13"/>
-        <source>SMPlayer - Seek</source>
-        <translation type="obsolete">SMPlayer - Pozice</translation>
-    </message>
-    <message>
         <location filename="../timedialog.ui" line="54"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Jdi na:</translation>
@@ -7399,7 +7389,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="286"/>
         <source>Remember folder used to &amp;save the preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Pamatovat adresář pro &amp;uložení preview</translation>
     </message>
 </context>
 <context>
