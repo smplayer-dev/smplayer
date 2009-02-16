@@ -237,6 +237,9 @@ void MplayerProcess::parseLine(QByteArray ba) {
 		// Emulates mplayer version in Ubuntu:
 		//if (line.startsWith("MPlayer 1.0rc1")) line = "MPlayer 2:1.0~rc1-0ubuntu13.1 (C) 2000-2006 MPlayer Team";
 
+		// Emulates unknown version
+		//if (line.startsWith("MPlayer SVN")) line = "MPlayer lalksklsjjakksja";
+
 		emit lineAvailable(line);
 
 		// Parse other things

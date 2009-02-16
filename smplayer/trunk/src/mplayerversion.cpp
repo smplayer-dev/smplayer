@@ -120,6 +120,7 @@ QString MplayerVersion::toString(int svn_revision) {
 	switch (svn_revision) {
 		case MPLAYER_1_0_RC1_SVN: version = QString("1.0rc1"); break;
 		case MPLAYER_1_0_RC2_SVN: version = QString("1.0rc2"); break;
+		case MPLAYER_1_0_RC3_SVN: version = QString("1.0rc3"); break;
 		default : version =  QString("SVN r%1").arg(svn_revision);
 	}
 
