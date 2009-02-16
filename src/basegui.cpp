@@ -3406,7 +3406,7 @@ void BaseGui::toggleFullscreen(bool b) {
 		core->restart();
 	}
 
-	setFocus(); // Needed?
+	setFocus(); // Fixes bug #2493415
 }
 
 
