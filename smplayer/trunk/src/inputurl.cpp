@@ -69,8 +69,13 @@ void InputURL::indexChanged(int) {
 
 void InputURL::textChanged(const QString & new_text) {
 	qDebug("InputURL::textChanged");
+	QString s = new_text.trimmed();
+	if (s != new_text) {
+		url_edit->setEditText(s);
+		return;
+	}
 	QRegExp rx("\\.ram$|\\.asx$|\\.m3u$", Qt::CaseInsensitive);
-	setPlaylist( (rx.indexIn(new_text) != -1) );
+	setPlaylist( (rx.indexIn(s) != -1) );
 }
 
 void InputURL::playlistChanged(int state) {
