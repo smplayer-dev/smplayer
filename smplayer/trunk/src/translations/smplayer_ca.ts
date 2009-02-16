@@ -2311,34 +2311,39 @@ Please check the permissions of that folder.</source>
         <translation>SMPlayer - Introduïu la versió de MPlayer</translation>
     </message>
     <message>
-        <location filename="../inputmplayerversion.ui" line="26"/>
+        <location filename="../inputmplayerversion.ui" line="35"/>
         <source>SMPlayer couldn&apos;t identify the MPlayer version you&apos;re using.</source>
         <translation>l&apos;SMPlayer no ha pogut identificar la versió de MPlayer que esteu usant.</translation>
     </message>
     <message>
-        <location filename="../inputmplayerversion.ui" line="49"/>
+        <location filename="../inputmplayerversion.ui" line="58"/>
         <source>Version reported by MPlayer:</source>
         <translation>Versió indicada per MPlayer:</translation>
     </message>
     <message>
-        <location filename="../inputmplayerversion.ui" line="84"/>
+        <location filename="../inputmplayerversion.ui" line="102"/>
         <source>Please, &amp;select the correct version:</source>
         <translation>Si us plau, &amp;seleccioneu la versió correcta:</translation>
     </message>
     <message>
-        <location filename="../inputmplayerversion.ui" line="95"/>
+        <location filename="../inputmplayerversion.ui" line="113"/>
         <source>1.0rc1 or older</source>
         <translation>1.0rc1 o anteriors</translation>
     </message>
     <message>
-        <location filename="../inputmplayerversion.ui" line="100"/>
+        <location filename="../inputmplayerversion.ui" line="118"/>
         <source>1.0rc2</source>
         <translation>1.0rc2</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="105"/>
         <source>Greater than 1.0rc2</source>
-        <translation>Més recent que 1.0rc2</translation>
+        <translation type="obsolete">Més recent que 1.0rc2</translation>
+    </message>
+    <message>
+        <location filename="../inputmplayerversion.ui" line="123"/>
+        <source>1.0rc3 or newer</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -6541,7 +6546,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1174"/>
+        <location filename="../prefsubtitles.ui" line="1171"/>
         <source>Shado&amp;w:</source>
         <translation type="unfinished"></translation>
     </message>
