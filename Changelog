@@ -1,5 +1,8 @@
 [b]Version 0.6.7[/b]:
 
+(2009-02-15)
+ * Added preliminary support for the upcoming mplayer 1.0rc3.
+
 (2009-02-09)
  * (ASS subtitles) The outline and shadow options now accept values with
    decimals.

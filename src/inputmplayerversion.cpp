@@ -49,7 +49,7 @@ int InputMplayerVersion::version() {
 	switch (version_combo->currentIndex()) {
 		case 0 : r = MPLAYER_1_0_RC1_SVN; break; // rc1 or older
 		case 1 : r = MPLAYER_1_0_RC2_SVN; break; // rc2
-		case 2 : r = 25844; break; // last svn at the moment of writing this
+		case 2 : r = MPLAYER_1_0_RC3_SVN; break; // rc3
 	}
 	return r;
 }
