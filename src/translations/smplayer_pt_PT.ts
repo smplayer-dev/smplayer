@@ -2313,34 +2313,39 @@ Verifique as permissões de escrita da pasta.</translation>
         <translation>SMPlayer - Introduza a versão do MPlayer</translation>
     </message>
     <message>
-        <location filename="../inputmplayerversion.ui" line="26"/>
+        <location filename="../inputmplayerversion.ui" line="35"/>
         <source>SMPlayer couldn&apos;t identify the MPlayer version you&apos;re using.</source>
         <translation>O SMPlayer não conseguiu identificar a versão do MPlayer.</translation>
     </message>
     <message>
-        <location filename="../inputmplayerversion.ui" line="49"/>
+        <location filename="../inputmplayerversion.ui" line="58"/>
         <source>Version reported by MPlayer:</source>
         <translation>Versão relatada por MPlayer:</translation>
     </message>
     <message>
-        <location filename="../inputmplayerversion.ui" line="84"/>
+        <location filename="../inputmplayerversion.ui" line="102"/>
         <source>Please, &amp;select the correct version:</source>
         <translation>Por favor, &amp;seleccione a versão correcta:</translation>
     </message>
     <message>
-        <location filename="../inputmplayerversion.ui" line="95"/>
+        <location filename="../inputmplayerversion.ui" line="113"/>
         <source>1.0rc1 or older</source>
         <translation>1.0rc1 ou mais recente</translation>
     </message>
     <message>
-        <location filename="../inputmplayerversion.ui" line="100"/>
+        <location filename="../inputmplayerversion.ui" line="118"/>
         <source>1.0rc2</source>
         <translation>1.0rc2</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="105"/>
         <source>Greater than 1.0rc2</source>
-        <translation>Superior à 1.0rc2</translation>
+        <translation type="obsolete">Superior à 1.0rc2</translation>
+    </message>
+    <message>
+        <location filename="../inputmplayerversion.ui" line="123"/>
+        <source>1.0rc3 or newer</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -6550,7 +6555,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Lin&amp;ha externa:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1174"/>
+        <location filename="../prefsubtitles.ui" line="1171"/>
         <source>Shado&amp;w:</source>
         <translation>Som&amp;bra:</translation>
     </message>
