@@ -1,5 +1,8 @@
 [b]Version 0.6.7[/b]:
 
+(2009-02-17)
+ * Using multiple ini files to store the file settings by default now.
+
 (2009-02-15)
  * Added preliminary support for the upcoming mplayer 1.0rc3.
 
