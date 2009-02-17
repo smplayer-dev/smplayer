@@ -97,7 +97,7 @@ void Preferences::reset() {
 	loop = false;
 	osd = None;
 
-	file_settings_method = "normal"; // Possible values: normal & hash
+	file_settings_method = "hash"; // Possible values: normal & hash
 
 
     /* ***************
