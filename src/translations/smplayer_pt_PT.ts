@@ -701,7 +701,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1464"/>
         <source>S&amp;tay on top</source>
-        <translation>&amp;Manter em cima</translation>
+        <translation>&amp;Manter no topo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1314"/>
@@ -1198,7 +1198,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="1397"/>
         <source>&amp;Toggle double size</source>
-        <translation>Articular &amp;Tamanho duplo</translation>
+        <translation>Activar/Desactivar &amp;Tamanho duplo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1326"/>
@@ -1555,7 +1555,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="1516"/>
         <source>Toggle stay on top</source>
-        <translation>Alternar fica em cima</translation>
+        <translation>Activar/Desactivar fica no topo</translation>
     </message>
 </context>
 <context>
@@ -2345,7 +2345,7 @@ Verifique as permissões de escrita da pasta.</translation>
     <message>
         <location filename="../inputmplayerversion.ui" line="123"/>
         <source>1.0rc3 or newer</source>
-        <translation type="unfinished"></translation>
+        <translation>1.0rc3 ou mais recente</translation>
     </message>
 </context>
 <context>
@@ -5698,7 +5698,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="583"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation>Esta opção define o número de pixeis de afastamento do controlo flutuante em relação ao inferior do ecrã. Útil quando o ecrã for uma TV, permitindo assim a correcta visualização do controlo.</translation>
+        <translation>Esta opção define o número de pixeis de afastamento do controlo flutuante em relação ao fundo do ecrã. Útil quando o ecrã for uma TV, permitindo assim a correcta visualização do controlo.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="585"/>
@@ -5723,7 +5723,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="800"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
-        <translation>O controlo flutuante aparece no modo de ecrã completo se mover o rato para o inferior do ecrã.</translation>
+        <translation>O controlo flutuante aparece no modo de ecrã completo se mover o rato para o fundo do ecrã.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="810"/>
@@ -6182,12 +6182,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="665"/>
         <source>Top</source>
-        <translation>Superior</translation>
+        <translation>Topo</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="691"/>
         <source>Bottom</source>
-        <translation>Inferior</translation>
+        <translation>Fundo</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="438"/>
@@ -6237,7 +6237,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="489"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
-        <translation>Esta opção especifica a posição das legendas sobre a janela de vídeo. &lt;i&gt;100&lt;/i&gt; significa a base, enquanto &lt;i&gt;0&lt;/i&gt; é o topo.</translation>
+        <translation>Esta opção especifica a posição das legendas sobre a janela de vídeo. &lt;i&gt;100&lt;/i&gt; significa o fundo, enquanto &lt;i&gt;0&lt;/i&gt; é o topo.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="68"/>
