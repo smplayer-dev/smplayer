@@ -1,5 +1,8 @@
 [b]Version 0.6.7[/b]:
 
+(2009-02-19)
+ * Using software volume by default.
+
 (2009-02-17)
  * Using multiple ini files to store the file settings by default now.
 

@@ -86,8 +86,8 @@ void Preferences::reset() {
 	autoq = 6;
 	add_blackborders_on_fullscreen = false;
 
-	use_soft_vol = false;
-    softvol_max = 110; // 110 = default value in mplayer
+	use_soft_vol = true;
+	softvol_max = 110; // 110 = default value in mplayer
 	use_scaletempo = Detect;
 	dont_change_volume = false;
 	use_hwac3 = false;
