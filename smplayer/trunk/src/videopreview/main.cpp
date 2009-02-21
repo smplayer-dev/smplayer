@@ -47,7 +47,7 @@ int main( int argc, char ** argv )
 	*/
 	//vp.setAspectRatio( 2.35 );
 
-	if ( (vp.showConfigDialog()) && (vp.createThumbnails()) ) {
+	if ( (vp.showConfigDialog(&vp)) && (vp.createThumbnails()) ) {
 		vp.show();
 		vp.adjustWindowSize();
 		return a.exec();

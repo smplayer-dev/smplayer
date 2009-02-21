@@ -4223,7 +4223,7 @@ void BaseGui::showVideoPreviewDialog() {
 
 	video_preview->setMplayerPath(pref->mplayer_bin);
 
-	if ( (video_preview->showConfigDialog()) && (video_preview->createThumbnails()) ) {
+	if ( (video_preview->showConfigDialog(this)) && (video_preview->createThumbnails()) ) {
 		video_preview->show();
 		video_preview->adjustWindowSize();
 	}
