@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="nl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -270,17 +271,17 @@
     <message>
         <location filename="../about.cpp" line="96"/>
         <source>SMPlayer logo by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Logo van %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="222"/>
         <source>%1, %2, %3 and %4</source>
-        <translation type="unfinished"></translation>
+        <translation> %1, %2, %3 en %4</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="223"/>
         <source>%1, %2, %3, %4 and %5</source>
-        <translation type="unfinished"></translation>
+        <translation>%1, %2, %3, %4 en %5</translation>
     </message>
 </context>
 <context>
@@ -1445,7 +1446,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="1274"/>
         <source>Pre&amp;view...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Voorbeeld...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1282"/>
@@ -1460,22 +1461,22 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="1513"/>
         <source>&amp;Always</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Altijd</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1514"/>
         <source>&amp;Never</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nooit</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1515"/>
         <source>While &amp;playing</source>
-        <translation type="unfinished"></translation>
+        <translation>Tijdens het s&amp;pelen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1563"/>
         <source>DVD &amp;menu</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD-&amp;menu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1565"/>
@@ -1525,12 +1526,12 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="3300"/>
         <source>&amp;Jump to:</source>
-        <translation type="unfinished">Sp&amp;ringen naar:</translation>
+        <translation>Spr&amp;ingen naar:</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3301"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished">SMPlayer - Zoeken</translation>
+        <translation>SMPlayer - Zoeken</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3311"/>
@@ -1641,7 +1642,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../core.cpp" line="3572"/>
         <source>Updating the font cache. This may take some seconds...</source>
-        <translation type="unfinished"></translation>
+        <translation>Lettertypebuffer bijwerken. Dit kan even duren...</translation>
     </message>
 </context>
 <context>
@@ -1844,82 +1845,82 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>Http</source>
-        <translation type="unfinished">Http</translation>
+        <translation>Http</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>Socks5</source>
-        <translation type="unfinished">Socks5</translation>
+        <translation>Socks5</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished">Het gebruik van een proxy in-/uitschakelen.</translation>
+        <translation>Het gebruik van een proxy in-/uitschakelen.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
         <source>The host name of the proxy.</source>
-        <translation type="unfinished">De hostnaam van de proxy.</translation>
+        <translation>De hostnaam van de proxy.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished">De poort van de proxy.</translation>
+        <translation>De poort van de proxy.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="unfinished">Indien de proxy authentificatie nodig heeft stelt dit de gebruikersnaam in.</translation>
+        <translation>Indien de proxy authentificatie nodig heeft stelt dit de gebruikersnaam in.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="36"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het wachtwoord voor de proxy. &lt;b&gt;Waarschuwing:&lt;/b&gt; het wachtwoord wordt als gewone tekst in het configuratiebestand opgeslagen.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="37"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished">Selecteer het te gebruiken type proxy.</translation>
+        <translation>Selecteer het te gebruiken type proxy.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="13"/>
         <source>Advanced options</source>
-        <translation type="unfinished"></translation>
+        <translation>Geavanceerde opties</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="19"/>
         <source>Proxy</source>
-        <translation type="unfinished">Proxy</translation>
+        <translation>Proxy</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="25"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished">Proxy inschak&amp;elen</translation>
+        <translation>Proxy inschak&amp;elen</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="38"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished">&amp;Host:</translation>
+        <translation>&amp;Host:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="51"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished">&amp;Poort:</translation>
+        <translation>&amp;Poort:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="71"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished">Gebr&amp;uikersnaam:</translation>
+        <translation>Gebr&amp;uikersnaam:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="84"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished">Wa&amp;chtwoord:</translation>
+        <translation>Wa&amp;chtwoord:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="101"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished">&amp;Type:</translation>
+        <translation>&amp;Type:</translation>
     </message>
 </context>
 <context>
@@ -2079,7 +2080,7 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
         <source>&amp;Options</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Opties</translation>
     </message>
 </context>
 <context>
@@ -2345,7 +2346,7 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
     <message>
         <location filename="../inputmplayerversion.ui" line="123"/>
         <source>1.0rc3 or newer</source>
-        <translation type="unfinished"></translation>
+        <translation>1.0rc3 of nieuwer</translation>
     </message>
 </context>
 <context>
@@ -3490,17 +3491,17 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="134"/>
         <source>Control bar</source>
-        <translation type="unfinished">Controlebalk</translation>
+        <translation>Controlebalk</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="437"/>
         <source>-%1</source>
-        <translation type="unfinished">-%1</translation>
+        <translation>-%1</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="441"/>
         <source>+%1</source>
-        <translation type="unfinished">+%1</translation>
+        <translation>+%1</translation>
     </message>
 </context>
 <context>
@@ -4071,12 +4072,12 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="352"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bouwd de index van bestanden op als er geen index gevonden werd, laat zoeken toe. Handig bij mislukte/incomplete downloads, of slechte bestanden. Deze optie werkt alleen als de media zelf zoeken ondersteunen (dus niet met stdin, pipe...).&lt;br&gt; &lt;b&gt;Merk op:&lt;b&gt; het maken van de index kan wat tijd kosten.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="138"/>
         <source>C&amp;orrect PTS:</source>
-        <translation type="unfinished"></translation>
+        <translation>C&amp;orrecte PTS:</translation>
     </message>
 </context>
 <context>
@@ -6970,7 +6971,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="117"/>
         <source>opens the mpc gui.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">opent </translation>
     </message>
 </context>
 <context>
@@ -7144,92 +7145,92 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="387"/>
         <source>Video preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Video-voorbeeld</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="127"/>
         <source>Cancel</source>
-        <translation type="unfinished">Annuleren</translation>
+        <translation>Annuleren</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="129"/>
         <source>Generated by SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Gemaakt met SMPlayer</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="192"/>
         <source>The length of the video is 0</source>
-        <translation type="unfinished"></translation>
+        <translation>De lengte van de video is 0</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="201"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
-        <translation type="unfinished"></translation>
+        <translation>De tijdelijke map (%1) kan niet worden aangemaakt</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="218"/>
         <source>Creating thumbnails...</source>
-        <translation type="unfinished"></translation>
+        <translation>Miniaturen aanmaken...</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="236"/>
         <source>The file %1 doesn&apos;t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>Het bestand %1 bestaat niet</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="174"/>
         <source>Error</source>
-        <translation type="unfinished">Foutmelding</translation>
+        <translation>Foutmelding</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="175"/>
         <source>The following error has occurred while creating the thumbnails:</source>
-        <translation type="unfinished"></translation>
+        <translation>De volgende fout trad op bij het maken van de miniaturen:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="296"/>
         <source>The mplayer process didn&apos;t run</source>
-        <translation type="unfinished"></translation>
+        <translation>Het mplayer-proces werd niet uitgevoerd</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="314"/>
         <source>The file %1 can&apos;t be loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>Het bestand %1 kan niet worden geladen</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="371"/>
         <source>Size: %1 MB</source>
-        <translation type="unfinished"></translation>
+        <translation>Grootte: %1 MB</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="372"/>
         <source>Resolution: %1x%2</source>
-        <translation type="unfinished"></translation>
+        <translation>Resolutie: %1x%2</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="373"/>
         <source>Length: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Lengte: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="376"/>
         <source>Video format: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Videoformaat: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="377"/>
         <source>Frames per second: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Frames per seconde: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="378"/>
         <source>Aspect ratio: %1</source>
-        <translation type="unfinished">Aspectverhouding: %1</translation>
+        <translation>Aspectverhouding: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="413"/>
         <source>No filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Geen bestandsnaam</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="473"/>
@@ -7244,12 +7245,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="518"/>
         <source>Error saving file</source>
-        <translation type="unfinished">Fout bij opslaan van het bestand</translation>
+        <translation>Fout bij opslaan van het bestand</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="519"/>
         <source>The file couldn&apos;t be saved</source>
-        <translation type="unfinished">Het bestand kon niet worden opgeslagen</translation>
+        <translation>Het bestand kon niet worden opgeslagen</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="511"/>
@@ -7264,12 +7265,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="364"/>
         <source>%1 kbps</source>
-        <translation type="unfinished">%1 kbps</translation>
+        <translation>%1 kbps</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="365"/>
         <source>%1 Hz</source>
-        <translation type="unfinished">%1 Hz</translation>
+        <translation>%1 Hz</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="381"/>
@@ -7292,7 +7293,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="33"/>
         <source>Default</source>
-        <translation type="unfinished">Standaard</translation>
+        <translation>Standaard</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="43"/>
