@@ -154,7 +154,7 @@ void Playlist::createTable() {
 	listView->horizontalHeader()->setResizeMode(COL_TIME, QHeaderView::ResizeToContents);
 	listView->horizontalHeader()->setResizeMode(COL_PLAY, QHeaderView::ResizeToContents);
 	*/
-	listView->setIconSize( Images::icon("ok_small").size() );
+	listView->setIconSize( Images::icon("ok").size() );
 
 #if DRAG_ITEMS
 	listView->setSelectionMode(QAbstractItemView::SingleSelection);
@@ -357,7 +357,7 @@ void Playlist::updateView() {
 		listView->setText(n, COL_TIME, time);
 
 		if (pl[n].played()) {
-			listView->setIcon(n, COL_PLAY, Images::icon("ok_small") );
+			listView->setIcon(n, COL_PLAY, Images::icon("ok") );
 		} else {
 			listView->setIcon(n, COL_PLAY, QPixmap() );
 		}
