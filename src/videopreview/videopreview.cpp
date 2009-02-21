@@ -523,8 +523,8 @@ void VideoPreview::saveImage() {
 	}
 }
 
-bool VideoPreview::showConfigDialog() {
-	VideoPreviewConfigDialog d(this);
+bool VideoPreview::showConfigDialog(QWidget * parent) {
+	VideoPreviewConfigDialog d(parent);
 
 	d.setVideoFile( videoFile() );
 	d.setDVDDevice( DVDDevice() );

@@ -95,7 +95,7 @@ public:
 
 	bool createThumbnails();
 
-	bool showConfigDialog();
+	bool showConfigDialog(QWidget * parent);
 
 	void setSettings(QSettings * settings);
 	QSettings * settings() { return set; };
