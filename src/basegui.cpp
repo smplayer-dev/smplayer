@@ -4175,7 +4175,7 @@ void BaseGui::showFindSubtitlesDialog() {
 	qDebug("BaseGui::showFindSubtitlesDialog");
 
 	if (!find_subs_dialog) {
-		find_subs_dialog = new FindSubtitlesWindow(0, Qt::Window | Qt::WindowMinMaxButtonsHint);
+		find_subs_dialog = new FindSubtitlesWindow(this, Qt::Window | Qt::WindowMinMaxButtonsHint);
 		find_subs_dialog->setSettings(Global::settings);
 		find_subs_dialog->setWindowIcon(windowIcon());
 #if DOWNLOAD_SUBS
@@ -4198,7 +4198,7 @@ void BaseGui::showVideoPreviewDialog() {
 	qDebug("BaseGui::showVideoPreviewDialog");
 
 	if (video_preview == 0) {
-		video_preview = new VideoPreview( pref->mplayer_bin, 0 );
+		video_preview = new VideoPreview( pref->mplayer_bin, this );
 		video_preview->setSettings(Global::settings);
 	}
 
