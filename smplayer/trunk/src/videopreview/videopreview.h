@@ -58,7 +58,7 @@ class VideoPreview : public QWidget
 public:
 	enum ExtractFormat { JPEG = 1, PNG = 2 };
 
-	VideoPreview(QString mplayer_path, QWidget * parent = 0, Qt::WindowFlags f = 0);
+	VideoPreview(QString mplayer_path, QWidget * parent = 0);
 	~VideoPreview();
 
 	void setMplayerPath(QString mplayer_path);

@@ -42,7 +42,7 @@
 
 #define RENAME_PICTURES 0
 
-VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent, Qt::WindowFlags f) : QWidget(parent, f)
+VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent) : QWidget(parent, Qt::Window)
 {
 	setMplayerPath(mplayer_path);
 
