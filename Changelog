@@ -15,8 +15,6 @@
 
 (2009-02-04)
  * Now the default value for the "correct pts" option is auto.
- * Now the default cache for files is 0, as it seems setting a cache
-   cause problems with some formats (like mp4 and mov).
 
 (2009-01-31)
  * (Videopreview) Added a new option to remember the last folder used for
