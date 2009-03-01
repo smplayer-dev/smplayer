@@ -9,6 +9,9 @@ In order to enable, you need:
 
 A recent mplayer build with dvdnav support is required.
 
+Note that cache will be automatically DISABLED (dvd menus won't work with it)
+so this can affect performance.
+
 WARNING: support for DVD menus is EXPERIMENTAL and NOT complete yet.
 Currently mplayer has a lot of issues/limitations when using dvdnav, and it
 doesn't make things easy for front-ends, so the support for the DVD menus
