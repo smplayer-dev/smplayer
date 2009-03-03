@@ -1399,7 +1399,7 @@ void BaseGui::retranslateStrings() {
 	resetAudioEqualizerAct->change( tr("Reset audio equalizer") );
 	showContextMenuAct->change( tr("Show context menu") );
 #if NEW_ASPECT_CODE
-	nextAspectAct->change( tr("Next aspect ratio") );
+	nextAspectAct->change( Images::icon("next_aspect"), tr("Next aspect ratio") );
 #endif
 
 	// Action groups
