@@ -446,7 +446,8 @@ void Playlist::addItem(QString filename, QString name, double duration) {
 	if (!exists) {
 		if (name.isEmpty()) {
 			QFileInfo fi(filename);
-			if (fi.exists()) {
+			// Let's see if it looks like a file (no dvd://1 or something)
+			if (filename.indexOf(QRegExp("^.*://.*")) == -1) {
 				// Local file
 				name = fi.fileName(); //fi.baseName(TRUE);
 			} else {
