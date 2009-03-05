@@ -13,8 +13,8 @@ it can only be compiled with Qt 4.3 or greater.
 
 1) How to make a deb package
 ----------------------------
-Be sure you have installed the following packages: libqt4-dev, fakeroot,
-build-essential, devscripts, debhelper and g++.
+Be sure you have installed the following packages: libqt4-dev, zlib1g-dev,
+fakeroot, build-essential, devscripts, debhelper and g++.
 Now run ./create_deb.sh
 
 
