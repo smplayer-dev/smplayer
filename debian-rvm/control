@@ -2,7 +2,7 @@ Source: smplayer
 Section: graphics
 Priority: extra
 Maintainer: Ricardo Villalba <rvm@escomposlinux.org>
-Build-Depends: debhelper (>= 5), libqt4-dev
+Build-Depends: debhelper (>= 5), libqt4-dev, zlib1g-dev
 Standards-Version: 3.7.2
 
 Package: smplayer
