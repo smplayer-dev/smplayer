@@ -15,9 +15,8 @@ Most important changes since 0.6.6:
   enter the audio and subtitle delay (in milliseconds).
 * (ASS subtitles) The outline and shadow options now accept values with 
   decimals.
+* (ASS subtitles) Possibility to change the color of the border and shadow.
 * Now the default value for the "correct pts" option is auto.
-* Now the default cache for files is 0, as it seems setting a cache cause 
-  problems with some formats (like mp4 and mov).
 * (Windows) Now the screensaver is allowed to turn on if the file is paused 
   or it's an audio file.
 * (Windows) The direct3d video output is now the default for Windows Vista.
