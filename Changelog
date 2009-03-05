@@ -1,5 +1,10 @@
 [b]Version 0.6.7[/b]:
 
+(2009-03-05)
+ * (Playlist) Try to figure out if a file is local (when the file is added
+   to the playlist) not using QFile::exists, as it seems it can be slow
+   with remote files. It might fix bug #2586395, although I can't test.
+
 (2009-02-19)
  * Using software volume by default.
 
