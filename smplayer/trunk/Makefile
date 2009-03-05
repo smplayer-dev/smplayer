@@ -46,7 +46,7 @@ smplayer: src/smplayer
 
 src/smplayer:
 	./get_svn_revision.sh
-	cd src && $(QMAKE) $(QMAKE_OPTS) && $(DEFS) make
+	+cd src && $(QMAKE) $(QMAKE_OPTS) && $(DEFS) make
 
 clean:
 	cd src && make distclean
