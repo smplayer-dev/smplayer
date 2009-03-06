@@ -21,6 +21,7 @@
 #include <QCoreApplication>
 #include "discname.h"
 #include "constants.h"
+#include "images.h"
 
 
 InfoFile::InfoFile() {
@@ -49,7 +50,7 @@ QString InfoFile::getInfo(MediaData md) {
 		case TYPE_STREAM : 	icon = "type_url.png"; break;
 		default 		: 	icon = "type_unknown.png";
 	}
-	icon = "<img src=\":/icons-png/" + icon + "\"> ";
+	icon = "<img src=\"" + Images::file(icon) + "\"> ";
 
 	if (md.type == TYPE_DVD) {
 		DiscData disc_data = DiscName::split(md.filename);
