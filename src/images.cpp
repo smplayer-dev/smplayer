@@ -39,6 +39,28 @@ QString Images::filename(const QString & name, bool png) {
 	return filename;
 }
 
+QString Images::file(const QString & icon_name) {
+	bool ok = false;
+	QString filename;
+
+	if (!pref->iconset.isEmpty()) {
+		filename = Paths::configPath() + "/themes/" + pref->iconset + "/" +  icon_name;
+		if (!QFile::exists(filename)) {
+			filename = Paths::themesPath() + "/" + pref->iconset + "/" +  icon_name;
+		}
+
+		ok = (QFile::exists(filename));
+	}
+
+	if (!ok) {
+		filename = ":/icons-png/" + icon_name;
+	}
+
+	qDebug("Images::file: icon_name: '%s', filename: '%s'", icon_name.toUtf8().constData(), filename.toUtf8().constData());
+
+	return filename;
+}
+
 QPixmap Images::loadIcon(const QString & icon_name) {
 	QPixmap p;
 

@@ -33,6 +33,9 @@ public:
 	static QPixmap resize(QPixmap *p, int size=20);
 	static QPixmap flip(QPixmap *p);
 
+	//! Returns the filename of the icon
+	static QString file(const QString & icon_name);
+
 private:
 	//! Return the filename for the icon
 	static QString filename(const QString & name, bool png);
