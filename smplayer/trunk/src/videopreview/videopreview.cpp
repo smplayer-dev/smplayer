@@ -69,6 +69,7 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent) : QWidget(par
 	w_contents = new QWidget(this);
 	QPalette p = w_contents->palette();
 	p.setColor(w_contents->backgroundRole(), Qt::white);
+	p.setColor(w_contents->foregroundRole(), Qt::black);
 	w_contents->setPalette(p);
 
 	info = new QLabel(this);
