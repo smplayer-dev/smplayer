@@ -178,7 +178,7 @@ QString InfoFile::getInfo(MediaData md) {
 		s += closePar();
 	}
 
-	return "<html><body bgcolor=\"white\">"+ s + "</body></html>";
+	return "<html><body bgcolor=\"white\"><font color=\"black\">"+ s + "</font></body></html>";
 }
 
 QString InfoFile::title(QString text) {
@@ -197,9 +197,9 @@ QString InfoFile::closePar() {
 
 QString InfoFile::openItem() {
 	if (row % 2 == 1)
-		return "<tr bgcolor=\"#c4daf4\">";
+		return "<tr bgcolor=\"lavender\">";
 	else
-		return "<tr bgcolor=\"#ffffc6\">";
+		return "<tr bgcolor=\"powderblue\">";
 }
 
 QString InfoFile::closeItem() {
