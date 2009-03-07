@@ -178,7 +178,7 @@ QString InfoFile::getInfo(MediaData md) {
 		s += closePar();
 	}
 
-	return s;
+	return "<html><body bgcolor=\"white\">"+ s + "</body></html>";
 }
 
 QString InfoFile::title(QString text) {
