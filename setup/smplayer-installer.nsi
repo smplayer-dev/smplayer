@@ -22,7 +22,12 @@
 !define PRODUCT_UNINST_ROOT_KEY "HKLM"
 !define PRODUCT_STARTMENU_GROUP "SMPlayer"
 
+; Memento settings (required for Memento)
+!define MEMENTO_REGISTRY_ROOT HKLM
+!define MEMENTO_REGISTRY_KEY Software\SMPlayer
+
 !include MUI2.nsh
+!include Memento.nsh
 !include WinVer.nsh
 
 ;--------------------------------
@@ -60,6 +65,9 @@
   ShowInstDetails show
   ShowUnInstDetails show
 
+  ;Vista+ XML manifest, does not affect older OSes
+  RequestExecutionLevel admin
+
 ;--------------------------------
 ;Variables
 
@@ -76,8 +84,10 @@
   !define MUI_COMPONENTSPAGE_SMALLDESC
   !define MUI_LICENSEPAGE_CHECKBOX
   !define MUI_FINISHPAGE_RUN $INSTDIR\smplayer.exe
+  !define MUI_FINISHPAGE_RUN_NOTCHECKED
   !define MUI_FINISHPAGE_RUN_PARAMETERS http://88.191.30.130:8050
   !define MUI_FINISHPAGE_SHOWREADME $INSTDIR\Release_notes.txt
+  !define MUI_FINISHPAGE_SHOWREADME_NOTCHECKED
   !define MUI_FINISHPAGE_SHOWREADME_TEXT "View Release Notes"
   !define MUI_WELCOMEFINISHPAGE_BITMAP "${NSISDIR}\Contrib\Graphics\Wizard\orange.bmp"
 
@@ -133,11 +143,11 @@
 
 ;--------------------------------
 ;Reserve Files
-  
+
   ;These files should be inserted before other files in the data block
   ;Keep these lines before any File command
   ;Only for solid compression (by default, solid compression is enabled for BZIP2 and LZMA)
-  
+
   !insertmacro MUI_RESERVEFILE_LANGDLL
 
 ;--------------------------------
@@ -152,7 +162,7 @@
 
 ;--------------------------------
 ; Main SMPlayer files
-Section SMPlayer SEC01
+Section SMPlayer SMPlayer
 
   SectionIn 1 2 RO
   SetOutPath "$INSTDIR"
@@ -236,15 +246,6 @@ Section SMPlayer SEC01
   WriteRegStr ${PRODUCT_UNINST_ROOT_KEY} "${PRODUCT_UNINST_KEY}" "URLUpdateInfo" "${PRODUCT_WEB_SITE}"
   WriteRegStr ${PRODUCT_UNINST_ROOT_KEY} "${PRODUCT_UNINST_KEY}" "Publisher" "${PRODUCT_PUBLISHER}"
 
-  ; If you really just want uninstalled components to show in registry as "0", they are "0" already if the key don't exist
-/*  ${IfNot} ${FileExists} "$INSTDIR\mplayer\mplayer.exe"
-    WriteRegDWORD HKLM Software\SMPlayer Section_mplayer 0x0
-  ${EndIf}
-
-  ${IfNot} ${FileExists} "$INSTDIR\mplayer\codecs\Readme.txt"
-    WriteRegDWORD HKLM Software\SMPlayer Section_codecs 0x0
-  ${EndIf}*/
-
   # Copy 7zip to installer's temp directory
   SetOutPath "$PLUGINSDIR"
   File 7za.exe
@@ -253,30 +254,30 @@ SectionEnd
 
 ;--------------------------------
 ; Desktop shortcut
-  Section "Create Desktop shortcut" SEC02
-    SectionIn 1 2
+${MementoSection} "Create Desktop shortcut" DesktopIcon
+  SectionIn 1 2
 
-    SetOutPath "$INSTDIR"
-    # all = global; current = current user
-    SetShellVarContext all
-    CreateShortCut "$DESKTOP\SMPlayer.lnk" "$INSTDIR\smplayer.exe"
+  SetOutPath "$INSTDIR"
+  # all = global; current = current user
+  SetShellVarContext all
+  CreateShortCut "$DESKTOP\SMPlayer.lnk" "$INSTDIR\smplayer.exe"
 
-  SectionEnd
+${MementoSectionEnd}
 
 ;--------------------------------
 ; Start menu shortcuts
-  Section "Create Start Menu shortcuts" SEC03
-    SectionIn 1 2
+${MementoSection} "Create Start Menu shortcuts" StartMenuIcon
+  SectionIn 1 2
 
-    SetOutPath "$INSTDIR"
-    # Start menu shortcut creation
-    SetShellVarContext all
-    CreateDirectory "$SMPROGRAMS\${PRODUCT_STARTMENU_GROUP}"
-    CreateShortCut "$SMPROGRAMS\${PRODUCT_STARTMENU_GROUP}\${PRODUCT_NAME}.lnk" "$INSTDIR\smplayer.exe"
-    WriteINIStr    "$SMPROGRAMS\${PRODUCT_STARTMENU_GROUP}\SMPlayer on the Web.url" "InternetShortcut" "URL" "${PRODUCT_WEB_SITE}"
-    CreateShortCut "$SMPROGRAMS\${PRODUCT_STARTMENU_GROUP}\Uninstall ${PRODUCT_NAME}.lnk" "$INSTDIR\uninst.exe"
+  SetOutPath "$INSTDIR"
+  # Start menu shortcut creation
+  SetShellVarContext all
+  CreateDirectory "$SMPROGRAMS\${PRODUCT_STARTMENU_GROUP}"
+  CreateShortCut "$SMPROGRAMS\${PRODUCT_STARTMENU_GROUP}\${PRODUCT_NAME}.lnk" "$INSTDIR\smplayer.exe"
+  WriteINIStr    "$SMPROGRAMS\${PRODUCT_STARTMENU_GROUP}\SMPlayer on the Web.url" "InternetShortcut" "URL" "${PRODUCT_WEB_SITE}"
+  CreateShortCut "$SMPROGRAMS\${PRODUCT_STARTMENU_GROUP}\Uninstall ${PRODUCT_NAME}.lnk" "$INSTDIR\uninst.exe"
 
-  SectionEnd
+${MementoSectionEnd}
 
 ;--------------------------------
 ; MPlayer Components
@@ -285,25 +286,25 @@ SectionGroup /e "MPlayer Components"
 ;--------------------------------
 ; MPlayer
 !ifdef WITH_MPLAYER
-  Section MPlayer SEC04A
+  Section MPlayer MPlayer
     SectionIn 1 2 RO
 
     SetOutPath "$INSTDIR"
     File /r "smplayer-build\mplayer"
 
-    WriteRegDWORD HKLM Software\SMPlayer Section_mplayer 0x1
+    WriteRegDWORD HKLM Software\SMPlayer Installed_MPlayer 0x1
 
   SectionEnd
 !else
-  Section MPlayer SEC04A
+  Section MPlayer MPlayer
     SectionIn 1 2 RO
     AddSize 15300
 
-    ReadRegDWORD $0 HKLM Software\SMPlayer Section_mplayer
+    ReadRegDWORD $0 HKLM Software\SMPlayer Installed_MPlayer
 
     IntCmp $0 1 mplayerInstalled mplayerNotInstalled
       mplayerInstalled:
-        MessageBox MB_YESNO "MPlayer is already installed. Re-Download?" IDYES mplayerNotInstalled IDNO skipMplayer
+        MessageBox MB_YESNO "MPlayer is already installed. Re-Download?" IDYES mplayerNotInstalled IDNO done
       mplayerNotInstalled:
         ${IfNot} ${FileExists} "$PLUGINSDIR\version-info"
           Call getVerInfo
@@ -315,7 +316,7 @@ SectionGroup /e "MPlayer Components"
           StrCpy $MPLAYER_VERSION "mplayer-svn-28311"
         ${EndIf}
 
-        DetailPrint "Downloading MPlayer..." 
+        DetailPrint "Downloading MPlayer..."
         inetc::get /timeout 30000 /resume "" /caption "Downloading MPlayer..." /banner "Downloading $MPLAYER_VERSION.7z" \
         "http://downloads.sourceforge.net/smplayer/$MPLAYER_VERSION.7z?big_mirror=0" \
         "$PLUGINSDIR\$MPLAYER_VERSION.7z"
@@ -327,8 +328,6 @@ SectionGroup /e "MPlayer Components"
           MessageBox MB_OK "Failed to download mplayer package: $R0.$\nMPlayer is required for playback!"
           Abort
           mplayerdl1:
-            ClearErrors
-
             # Extract
             nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$MPLAYER_VERSION.7z" -o"$PLUGINSDIR"'
 
@@ -336,34 +335,29 @@ SectionGroup /e "MPlayer Components"
             CreateDirectory "$INSTDIR\mplayer"
             CopyFiles /SILENT "$PLUGINSDIR\$MPLAYER_VERSION\*" "$INSTDIR\mplayer"
 
-            ${If} ${Errors}
-              MessageBox MB_OK "Failed to install MPlayer. MPlayer is required for playback!"
-              Abort
-            ${ElseIfNot} ${Errors}
-              ${AndIf} ${FileExists} "$INSTDIR\mplayer\mplayer.exe"
-                WriteRegDWORD HKLM Software\SMPlayer Section_mplayer 0x1
-            ${ElseIfNot} ${Errors}
-              ${AndIfNot} ${FileExists} "$INSTDIR\mplayer\mplayer.exe"
+            IfFileExists "$INSTDIR\mplayer\mplayer.exe" mplayerInstSuccess mplayerInstFailed
+              mplayerInstFailed:
                 MessageBox MB_OK "Failed to install MPlayer. MPlayer is required for playback!"
                 Abort
-            ${EndIf}
+              mplayerInstSuccess:
+                WriteRegDWORD HKLM Software\SMPlayer Installed_MPlayer 0x1
 
-      skipMplayer:
+    done:
 
   SectionEnd
 !endif
 
 ;--------------------------------
 ; Binary codecs
-  Section /o "Optional Codecs" SEC04B
+  Section /o "Optional Codecs" Codecs
     SectionIn 2
     AddSize 22300
 
-    ReadRegDWORD $1 HKLM Software\SMPlayer Section_codecs
+    ReadRegDWORD $1 HKLM Software\SMPlayer Installed_Codecs
 
     IntCmp $1 1 mplayerCodecsInstalled mplayerCodecsNotInstalled
       mplayerCodecsInstalled:
-        MessageBox MB_YESNO "MPlayer codecs are already installed. Re-Download?" IDYES mplayerCodecsNotInstalled IDNO skipMplayerCodecs
+        MessageBox MB_YESNO "MPlayer codecs are already installed. Re-Download?" IDYES mplayerCodecsNotInstalled IDNO done
       mplayerCodecsNotInstalled:
         ${IfNot} ${FileExists} "$PLUGINSDIR\version-info"
           Call getVerInfo
@@ -385,10 +379,8 @@ SectionGroup /e "MPlayer Components"
         Pop $R0
         StrCmp $R0 OK codecdlSuccess
           MessageBox MB_OK "Failed to download codec package: $R0.$\nCodec installation will be skipped."
-          Goto skipMplayerCodecs
+          Goto done
           codecdlSuccess:
-            ClearErrors
-
             # Extract
             nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$CODEC_VERSION.zip" -o"$PLUGINSDIR"'
 
@@ -396,17 +388,14 @@ SectionGroup /e "MPlayer Components"
             CreateDirectory "$INSTDIR\mplayer\codecs"
             CopyFiles /SILENT "$PLUGINSDIR\$CODEC_VERSION\*" "$INSTDIR\mplayer\codecs"
 
-            ${If} ${Errors}
-              MessageBox MB_OK "Failed to install MPlayer codecs. Re-run setup and try again."
-            ${ElseIfNot} ${Errors}
-              ${AndIf} ${FileExists} "$INSTDIR\mplayer\codecs\Readme.txt"
-                WriteRegDWORD HKLM Software\SMPlayer Section_codecs 0x1
-            ${ElseIfNot} ${Errors}
-              ${AndIfNot} ${FileExists} "$INSTDIR\mplayer\codecs\Readme.txt"
+            IfFileExists "$INSTDIR\mplayer\codecs\Readme.txt" codecsInstSuccess codecsInstFailed
+              codecsInstFailed:
                 MessageBox MB_OK "Failed to install MPlayer codecs. Re-run setup and try again."
-            ${EndIf}
+                Goto done
+              codecsInstSuccess:
+                WriteRegDWORD HKLM Software\SMPlayer Installed_Codecs 0x1
 
-      skipMplayerCodecs:
+    done:
 
 	SectionEnd
 
@@ -414,38 +403,40 @@ SectionGroupEnd
 
 ;--------------------------------
 ; Icon Themes
-Section "Icon Themes" SEC05
+${MementoSection} "Icon Themes" Themes
 
   SectionIn 1 2
   SetOutPath "$INSTDIR"
   File /r "smplayer-build\themes"
 
-SectionEnd
+${MementoSectionEnd}
 
 ;--------------------------------
 ; Translations
-Section Translations SEC06
+${MementoSection} Translations Translations
 
   SectionIn 1 2
   SetOutPath "$INSTDIR"
   File /r "smplayer-build\translations"
 
-SectionEnd
+${MementoSectionEnd}
+
+${MementoSectionDone}
 
 ;--------------------------------
 ; Section descriptions
 !insertmacro MUI_FUNCTION_DESCRIPTION_BEGIN
-  !insertmacro MUI_DESCRIPTION_TEXT ${SEC01} "SMPlayer, shared libraries, and documentation."
-  !insertmacro MUI_DESCRIPTION_TEXT ${SEC02} "Creates a shortcut on the desktop."
-  !insertmacro MUI_DESCRIPTION_TEXT ${SEC03} "Creates start menu shortcuts."
+  !insertmacro MUI_DESCRIPTION_TEXT ${SMPlayer} "SMPlayer, shared libraries, and documentation."
+  !insertmacro MUI_DESCRIPTION_TEXT ${DesktopIcon} "Creates a shortcut on the desktop."
+  !insertmacro MUI_DESCRIPTION_TEXT ${StartMenuIcon} "Creates start menu shortcuts."
 !ifdef WITH_MPLAYER
-  !insertmacro MUI_DESCRIPTION_TEXT ${SEC04A} "The engine behind SMPlayer, required for playback."
+  !insertmacro MUI_DESCRIPTION_TEXT ${MPlayer} "The engine behind SMPlayer, required for playback."
 !else
-  !insertmacro MUI_DESCRIPTION_TEXT ${SEC04A} "Downloads/installs mplayer; requires an active internet connection. Required for playback."
+  !insertmacro MUI_DESCRIPTION_TEXT ${MPlayer} "Downloads/installs mplayer; requires an active internet connection. Required for playback."
 !endif
-  !insertmacro MUI_DESCRIPTION_TEXT ${SEC04B} "Downloads optional codecs that aren't yet implemented in mplayer; e.g. RealVideo and uncommon formats."
-  !insertmacro MUI_DESCRIPTION_TEXT ${SEC05} "Stylish icon themes for SMPlayer."
-  !insertmacro MUI_DESCRIPTION_TEXT ${SEC06} "Translations for SMPlayer."
+  !insertmacro MUI_DESCRIPTION_TEXT ${Codecs} "Downloads optional codecs that aren't yet implemented in mplayer; e.g. RealVideo and uncommon formats."
+  !insertmacro MUI_DESCRIPTION_TEXT ${Themes} "Stylish icon themes for SMPlayer."
+  !insertmacro MUI_DESCRIPTION_TEXT ${Translations} "Translations for SMPlayer."
 !insertmacro MUI_FUNCTION_DESCRIPTION_END
 
 ;--------------------------------
@@ -461,6 +452,14 @@ Function .onInit
     Abort
 
   !insertmacro MUI_LANGDLL_DISPLAY
+
+  ${MementoSectionRestore}
+
+FunctionEnd
+
+Function .onInstSuccess
+
+  ${MementoSectionSave}
 
 FunctionEnd
 
