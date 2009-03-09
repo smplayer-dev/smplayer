@@ -1423,7 +1423,11 @@ void Core::startMplayer( QString file, double seek ) {
 #ifndef Q_OS_WIN
 	if (!pref->use_mplayer_window) {
 		proc->addArgument( "-input" );
-		proc->addArgument( "conf=" + Paths::dataPath() +"/input.conf" );
+		if (MplayerVersion::isMplayerAtLeast(28878)) {
+			proc->addArgument( "nodefault-binds:conf=/dev/null" );
+		} else {
+			proc->addArgument( "conf=" + Paths::dataPath() +"/input.conf" );
+		}
 	}
 #endif
 
