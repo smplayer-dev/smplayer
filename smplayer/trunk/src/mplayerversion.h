@@ -26,7 +26,7 @@
 
 // FIXME: provide the real revision once
 // mplayer 1.0rc3 is released
-#define MPLAYER_1_0_RC3_SVN 28549
+#define MPLAYER_1_0_RC3_SVN 28924
 
 class MplayerVersion {
 public:
