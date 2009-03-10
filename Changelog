@@ -1,9 +1,5 @@
 [b]Version 0.6.7[/b]:
 
-(2009-03-09)
- * (Linux) Using -input nodefault-binds:conf=/dev/null to disable the mplayer 
-   keys if using mplayer >= SVN r28878.
-
 (2009-03-06)
  * The media type icons (type_audio.png, type_dvd.png, type_url.png, 
    type_video.png, type_cdda.png, type_unknown.png and type_vcd.png) which 
