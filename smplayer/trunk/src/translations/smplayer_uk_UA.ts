@@ -6740,17 +6740,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="556"/>
         <source>Apply style to ass files too</source>
-        <translation type="obsolete">Примінити стиль також до ass файлів</translation>
+        <translation type="unfinished">Примінити стиль також до ass файлів</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="558"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation type="obsolete">Якщо ця опція увімкнена, стиль визначений нижче буде примінений також до ass файлів.</translation>
+        <translation type="unfinished">Якщо ця опція увімкнена, стиль визначений нижче буде примінений також до ass файлів.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1211"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation type="obsolete">П&amp;римінити стиль також до ass файлів</translation>
+        <translation type="unfinished">П&amp;римінити стиль також до ass файлів</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="381"/>
@@ -6791,21 +6791,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="1234"/>
         <source>Custo&amp;mize...</source>
         <translation>&amp;Налаштувати...</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="556"/>
-        <source>Apply style to ASS files too</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="558"/>
-        <source>If this option is checked, the style defined above will be applied to ASS subtitles too.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="1211"/>
-        <source>A&amp;pply style to ASS files too</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

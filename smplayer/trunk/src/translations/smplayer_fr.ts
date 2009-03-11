@@ -6776,17 +6776,17 @@ Aucune information pour le moment.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="556"/>
-        <source>Apply style to ASS files too</source>
+        <source>Apply style to ass files too</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="558"/>
-        <source>If this option is checked, the style defined above will be applied to ASS subtitles too.</source>
+        <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1211"/>
-        <source>A&amp;pply style to ASS files too</source>
+        <source>A&amp;pply style to ass files too</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
