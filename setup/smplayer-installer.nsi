@@ -22,6 +22,12 @@
 !define PRODUCT_UNINST_ROOT_KEY "HKLM"
 !define PRODUCT_STARTMENU_GROUP "SMPlayer"
 
+; Default versions
+!define DEFAULT_CODECS_VERSION "windows-essential-20071007"
+!ifndef WITH_MPLAYER
+!define DEFAULT_MPLAYER_VERSION "mplayer-svn-28311"
+!endif
+
 ; Memento settings (required for Memento)
 !define MEMENTO_REGISTRY_ROOT HKLM
 !define MEMENTO_REGISTRY_KEY Software\SMPlayer
@@ -310,11 +316,21 @@ SectionGroup /e "MPlayer Components"
           Call getVerInfo
         ${EndIf}
 
-        ${If} ${FileExists} "$PLUGINSDIR\version-info"
+        IfFileExists "$PLUGINSDIR\version-info" 0 noVerInfo
+          ClearErrors
           ReadINIStr $MPLAYER_VERSION "$PLUGINSDIR\version-info" smplayer mplayer
-        ${Else}
-          StrCpy $MPLAYER_VERSION "mplayer-svn-28311"
-        ${EndIf}
+
+          IfErrors 0 done_ver_info
+            DetailPrint "Version file missing version information. Setup will use a default version."
+            # Default Value if version-info exists but version string is missing from version-info
+            StrCpy $MPLAYER_VERSION ${DEFAULT_MPLAYER_VERSION}
+            Goto done_ver_info
+
+        noVerInfo:
+          # Default Value if version-info doesn't exist
+          StrCpy $MPLAYER_VERSION ${DEFAULT_MPLAYER_VERSION}
+
+    done_ver_info:
 
         DetailPrint "Downloading MPlayer..."
         inetc::get /timeout 30000 /resume "" /caption "Downloading MPlayer..." /banner "Downloading $MPLAYER_VERSION.7z" \
@@ -363,11 +379,21 @@ SectionGroup /e "MPlayer Components"
           Call getVerInfo
         ${EndIf}
 
-        ${If} ${FileExists} "$PLUGINSDIR\version-info"
+        IfFileExists "$PLUGINSDIR\version-info" 0 noVerInfo
+          ClearErrors
           ReadINIStr $CODEC_VERSION "$PLUGINSDIR\version-info" smplayer mplayercodecs
-        ${Else}
-          StrCpy $CODEC_VERSION "windows-essential-20071007"
-        ${EndIf}
+
+          IfErrors 0 done_ver_info
+            DetailPrint "Version file missing version information. Setup will use a default version."
+            # Default Value if version-info exists but version string is missing from version-info
+            StrCpy $CODEC_VERSION ${DEFAULT_CODECS_VERSION}
+            Goto done_ver_info
+
+        noVerInfo:
+          # Default Value if version-info doesn't exist
+          StrCpy $CODEC_VERSION ${DEFAULT_CODECS_VERSION}
+
+    done_ver_info:
 
         DetailPrint "Downloading MPlayer Codecs..."
         inetc::get /timeout 30000 /resume "" /caption "Downloading MPlayer Codecs..." /banner "Downloading $CODEC_VERSION.zip" \
