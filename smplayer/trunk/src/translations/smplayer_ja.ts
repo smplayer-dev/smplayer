@@ -1560,7 +1560,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3877"/>
         <source>Jump to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 へジャンプします</translation>
     </message>
 </context>
 <context>
@@ -2349,7 +2349,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputmplayerversion.ui" line="123"/>
         <source>1.0rc3 or newer</source>
-        <translation type="unfinished"></translation>
+        <translation>1.0rc3 以降</translation>
     </message>
 </context>
 <context>
@@ -6738,17 +6738,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="556"/>
         <source>Apply style to ass files too</source>
-        <translation type="unfinished">ass ファイルにもスタイルを適用する</translation>
+        <translation>ass ファイルにもスタイルを適用する</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="558"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation type="unfinished">このオプションがチェックされている場合、上で定義されたスタイルは ass 字幕にも適用されます。</translation>
+        <translation>このオプションがチェックされている場合、上で定義されたスタイルは ass 字幕にも適用されます。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1211"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation type="unfinished">ass ファイルにもスタイルを適用する(&amp;P)</translation>
+        <translation>ass ファイルにもスタイルを適用する(&amp;P)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="381"/>
