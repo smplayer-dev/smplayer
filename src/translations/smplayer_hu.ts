@@ -1555,7 +1555,7 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../basegui.cpp" line="1516"/>
         <source>Toggle stay on top</source>
-        <translation type="unfinished"></translation>
+        <translation>Mindig felül váltása</translation>
     </message>
 </context>
 <context>
@@ -2342,7 +2342,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputmplayerversion.ui" line="123"/>
         <source>1.0rc3 or newer</source>
-        <translation type="unfinished"></translation>
+        <translation>1.0rc3 vagy újabb</translation>
     </message>
 </context>
 <context>
@@ -7396,7 +7396,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="286"/>
         <source>Remember folder used to &amp;save the preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Az előnézet menté&amp;sekor használt könyvtár megjegyzése</translation>
     </message>
 </context>
 <context>
