@@ -94,7 +94,7 @@ void PrefSubtitles::retranslateStrings() {
 	ttf_font_edit->setCaption(tr("Choose a ttf file"));
 	ttf_font_edit->setFilter(tr("Truetype Fonts") + " (*.ttf)");
 
-	// ASS styles
+	// Ass styles
 	int alignment_item = style_alignment_combo->currentIndex();
 	style_alignment_combo->clear();
 	style_alignment_combo->addItem(tr("Left", "horizontal alignment"), 1);
@@ -136,7 +136,7 @@ void PrefSubtitles::setData(Preferences * pref) {
 	setSubtitlesOnScreenshots( pref->subtitles_on_screenshots );
 	setFreetypeSupport( pref->freetype_support );
 
-	// Load ASS styles
+	// Load ass styles
 	style_font_combo->setCurrentText(pref->ass_styles.fontname);
 	style_size_spin->setValue(pref->ass_styles.fontsize);
 	style_text_color_button->setColor(pref->ass_styles.primarycolor);
@@ -177,7 +177,7 @@ void PrefSubtitles::getData(Preferences * pref) {
 	TEST_AND_SET(pref->subtitles_on_screenshots, subtitlesOnScreenshots());
 	TEST_AND_SET(pref->freetype_support, freetypeSupport());
 
-	// Save ASS styles
+	// Save ass styles
 	TEST_AND_SET(pref->ass_styles.fontname, style_font_combo->currentText());
 	TEST_AND_SET(pref->ass_styles.fontsize, style_size_spin->value());
 	TEST_AND_SET(pref->ass_styles.primarycolor, style_text_color_button->color().rgb());
@@ -553,9 +553,9 @@ void PrefSubtitles::createHelp() {
         tr("If border style is set to <i>outline</i>, this option specifies "
            "the depth of the drop shadow behind the text in pixels.") );
 
-	setWhatsThis(force_ass_styles, tr("Apply style to ASS files too"), 
+	setWhatsThis(force_ass_styles, tr("Apply style to ass files too"), 
         tr("If this option is checked, the style defined above will be "
-           "applied to ASS subtitles too.") );
+           "applied to ass subtitles too.") );
 }
 
 #include "moc_prefsubtitles.cpp"
