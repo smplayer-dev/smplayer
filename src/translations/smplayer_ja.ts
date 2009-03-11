@@ -6738,17 +6738,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="556"/>
         <source>Apply style to ass files too</source>
-        <translation type="obsolete">ass ファイルにもスタイルを適用する</translation>
+        <translation type="unfinished">ass ファイルにもスタイルを適用する</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="558"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation type="obsolete">このオプションがチェックされている場合、上で定義されたスタイルは ass 字幕にも適用されます。</translation>
+        <translation type="unfinished">このオプションがチェックされている場合、上で定義されたスタイルは ass 字幕にも適用されます。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1211"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation type="obsolete">ass ファイルにもスタイルを適用する(&amp;P)</translation>
+        <translation type="unfinished">ass ファイルにもスタイルを適用する(&amp;P)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="381"/>
@@ -6789,21 +6789,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="1234"/>
         <source>Custo&amp;mize...</source>
         <translation>カスタマイズ(&amp;M)...</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="556"/>
-        <source>Apply style to ASS files too</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="558"/>
-        <source>If this option is checked, the style defined above will be applied to ASS subtitles too.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="1211"/>
-        <source>A&amp;pply style to ASS files too</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
