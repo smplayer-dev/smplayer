@@ -1256,32 +1256,32 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
         <translation>Repor equalizador vídeo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4144"/>
+        <location filename="../basegui.cpp" line="4143"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer terminou abruptamente.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4145"/>
+        <location filename="../basegui.cpp" line="4144"/>
         <source>Exit code: %1</source>
         <translation>Código de saída: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4162"/>
+        <location filename="../basegui.cpp" line="4161"/>
         <source>MPlayer failed to start.</source>
         <translation>Falha ao iniciar MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4163"/>
+        <location filename="../basegui.cpp" line="4162"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Por favor verifique o caminho do MPlayer em Preferências.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4165"/>
+        <location filename="../basegui.cpp" line="4164"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer crashou.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4166"/>
+        <location filename="../basegui.cpp" line="4165"/>
         <source>See the log for more info.</source>
         <translation>Veja o log para mais informações.</translation>
     </message>
@@ -1556,6 +1556,11 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
         <location filename="../basegui.cpp" line="1516"/>
         <source>Toggle stay on top</source>
         <translation>Activar/Desactivar fica no topo</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="3877"/>
+        <source>Jump to %1</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2085,199 +2090,199 @@ Verifique as permissões de escrita da pasta.</translation>
 <context>
     <name>InfoFile</name>
     <message>
-        <location filename="../infofile.cpp" line="61"/>
+        <location filename="../infofile.cpp" line="62"/>
         <source>General</source>
         <translation>Geral</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="65"/>
+        <location filename="../infofile.cpp" line="66"/>
         <source>Size</source>
         <translation>Tamanho</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="65"/>
+        <location filename="../infofile.cpp" line="66"/>
         <source>%1 KB (%2 MB)</source>
         <translation>%1 KB (%2 MB)</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="72"/>
+        <location filename="../infofile.cpp" line="73"/>
         <source>URL</source>
         <translation>URL</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="74"/>
+        <location filename="../infofile.cpp" line="75"/>
         <source>Length</source>
         <translation>Duração</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="75"/>
+        <location filename="../infofile.cpp" line="76"/>
         <source>Demuxer</source>
         <translation>Demuxer</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="151"/>
+        <location filename="../infofile.cpp" line="152"/>
         <source>Name</source>
         <translation>Nome</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="81"/>
+        <location filename="../infofile.cpp" line="82"/>
         <source>Artist</source>
         <translation>Artista</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="82"/>
+        <location filename="../infofile.cpp" line="83"/>
         <source>Author</source>
         <translation>Autor</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="83"/>
+        <location filename="../infofile.cpp" line="84"/>
         <source>Album</source>
         <translation>Álbum</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="84"/>
+        <location filename="../infofile.cpp" line="85"/>
         <source>Genre</source>
         <translation>Género</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="85"/>
+        <location filename="../infofile.cpp" line="86"/>
         <source>Date</source>
         <translation>Data</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="86"/>
+        <location filename="../infofile.cpp" line="87"/>
         <source>Track</source>
         <translation>Faixa</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="87"/>
+        <location filename="../infofile.cpp" line="88"/>
         <source>Copyright</source>
         <translation>Copyright</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="88"/>
+        <location filename="../infofile.cpp" line="89"/>
         <source>Comment</source>
         <translation>Comentário</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="89"/>
+        <location filename="../infofile.cpp" line="90"/>
         <source>Software</source>
         <translation>Software</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="94"/>
+        <location filename="../infofile.cpp" line="95"/>
         <source>Clip info</source>
         <translation>Informação do clip</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="101"/>
+        <location filename="../infofile.cpp" line="102"/>
         <source>Video</source>
         <translation>Vídeo</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="102"/>
+        <location filename="../infofile.cpp" line="103"/>
         <source>Resolution</source>
         <translation>Resolução</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="103"/>
+        <location filename="../infofile.cpp" line="104"/>
         <source>Aspect ratio</source>
         <translation>Tamanho do Vídeo</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="113"/>
+        <location filename="../infofile.cpp" line="114"/>
         <source>Format</source>
         <translation>Formato</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="114"/>
+        <location filename="../infofile.cpp" line="115"/>
         <source>Bitrate</source>
         <translation>Taxa de bits</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="114"/>
+        <location filename="../infofile.cpp" line="115"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="106"/>
+        <location filename="../infofile.cpp" line="107"/>
         <source>Frames per second</source>
         <translation>Frames por segundo</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="117"/>
+        <location filename="../infofile.cpp" line="118"/>
         <source>Selected codec</source>
         <translation>Codec seleccionado</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="112"/>
+        <location filename="../infofile.cpp" line="113"/>
         <source>Initial Audio Stream</source>
         <translation>Faixa de áudio inicial</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="115"/>
+        <location filename="../infofile.cpp" line="116"/>
         <source>Rate</source>
         <translation>Taxa</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="115"/>
+        <location filename="../infofile.cpp" line="116"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="116"/>
+        <location filename="../infofile.cpp" line="117"/>
         <source>Channels</source>
         <translation>Canais</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="122"/>
+        <location filename="../infofile.cpp" line="123"/>
         <source>Audio Streams</source>
         <translation>Faixas de áudio</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="151"/>
+        <location filename="../infofile.cpp" line="152"/>
         <source>Language</source>
         <translation>Idioma</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="166"/>
+        <location filename="../infofile.cpp" line="167"/>
         <source>empty</source>
         <translation>vazio</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="146"/>
+        <location filename="../infofile.cpp" line="147"/>
         <source>Subtitles</source>
         <translation>Legendas</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="150"/>
+        <location filename="../infofile.cpp" line="151"/>
         <source>Type</source>
         <translation>Tipo</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="152"/>
+        <location filename="../infofile.cpp" line="153"/>
         <source>ID</source>
         <comment>Info for translators: this is a identification code</comment>
         <translation>ID</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="149"/>
+        <location filename="../infofile.cpp" line="150"/>
         <source>#</source>
         <comment>Info for translators: this is a abbreviation for number</comment>
         <translation>#</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="90"/>
+        <location filename="../infofile.cpp" line="91"/>
         <source>Stream title</source>
         <translation>Título do Stream</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="91"/>
+        <location filename="../infofile.cpp" line="92"/>
         <source>Stream URL</source>
         <translation>URL do Stream</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="64"/>
+        <location filename="../infofile.cpp" line="65"/>
         <source>File</source>
         <translation>Ficheiro</translation>
     </message>
@@ -3526,54 +3531,54 @@ Deseja substituí-lo?</translation>
         <translation>&amp;Editar</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="701"/>
+        <location filename="../playlist.cpp" line="702"/>
         <source>Playlists</source>
         <translation>Listas de reprodução</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="681"/>
+        <location filename="../playlist.cpp" line="682"/>
         <source>Choose a file</source>
         <translation>Escolha um ficheiro</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="699"/>
+        <location filename="../playlist.cpp" line="700"/>
         <source>Choose a filename</source>
         <translation>Escolha um nome de ficheiro</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="710"/>
+        <location filename="../playlist.cpp" line="711"/>
         <source>Confirm overwrite?</source>
         <translation>Confirma substituição?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="712"/>
+        <location filename="../playlist.cpp" line="713"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>O ficheiro %1 já existe.
 Deseja substituí-lo?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="896"/>
+        <location filename="../playlist.cpp" line="897"/>
         <source>All files</source>
         <translation>Todos os ficheiros</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="894"/>
+        <location filename="../playlist.cpp" line="895"/>
         <source>Select one or more files to open</source>
         <translation>Seleccione um ou mais ficheiros a abrir</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="949"/>
+        <location filename="../playlist.cpp" line="950"/>
         <source>Choose a directory</source>
         <translation>Escolha um directório</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1137"/>
+        <location filename="../playlist.cpp" line="1138"/>
         <source>Edit name</source>
         <translation>Editar nome</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1138"/>
+        <location filename="../playlist.cpp" line="1139"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Escreva o nome que este ficheiro irá ter na lista de reprodução:</translation>
     </message>
@@ -3658,12 +3663,12 @@ Deseja substituí-lo?</translation>
         <translation>Remover...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="736"/>
+        <location filename="../playlist.cpp" line="737"/>
         <source>Playlist modified</source>
         <translation>Lista de reprodução modificada</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="737"/>
+        <location filename="../playlist.cpp" line="738"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Existem alterações não guardadas, deseja gravar a lista de reprodução?</translation>
     </message>
@@ -6735,17 +6740,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="556"/>
         <source>Apply style to ass files too</source>
-        <translation>Aplicar estilos a ficheiros ass</translation>
+        <translation type="obsolete">Aplicar estilos a ficheiros ass</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="558"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation>Se marcar esta opção, o estilo acima definido será também aplicado às legendas.</translation>
+        <translation type="obsolete">Se marcar esta opção, o estilo acima definido será também aplicado às legendas.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1211"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation>A&amp;plicar estilos a ficheiros ass</translation>
+        <translation type="obsolete">A&amp;plicar estilos a ficheiros ass</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="381"/>
@@ -6786,6 +6791,21 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="1234"/>
         <source>Custo&amp;mize...</source>
         <translation>Perso&amp;nalizar...</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="556"/>
+        <source>Apply style to ASS files too</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="558"/>
+        <source>If this option is checked, the style defined above will be applied to ASS subtitles too.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="1211"/>
+        <source>A&amp;pply style to ASS files too</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7147,147 +7167,147 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="387"/>
+        <location filename="../videopreview/videopreview.cpp" line="388"/>
         <source>Video preview</source>
         <translation>Pré-visualizar vídeo</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="127"/>
+        <location filename="../videopreview/videopreview.cpp" line="128"/>
         <source>Cancel</source>
         <translation>Cancelar</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="129"/>
+        <location filename="../videopreview/videopreview.cpp" line="130"/>
         <source>Generated by SMPlayer</source>
         <translation>Gerado por SMPlayer</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="218"/>
+        <location filename="../videopreview/videopreview.cpp" line="219"/>
         <source>Creating thumbnails...</source>
         <translation>Criando miniaturas...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="371"/>
+        <location filename="../videopreview/videopreview.cpp" line="372"/>
         <source>Size: %1 MB</source>
         <translation>Tamanho: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="373"/>
+        <location filename="../videopreview/videopreview.cpp" line="374"/>
         <source>Length: %1</source>
         <translation>Duração: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="510"/>
+        <location filename="../videopreview/videopreview.cpp" line="511"/>
         <source>Save file</source>
         <translation>Guardar ficheiro</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="518"/>
+        <location filename="../videopreview/videopreview.cpp" line="519"/>
         <source>Error saving file</source>
         <translation>Erro ao gravar o ficheiro</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="519"/>
+        <location filename="../videopreview/videopreview.cpp" line="520"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>O ficheiro não pôde ser gravado</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="174"/>
+        <location filename="../videopreview/videopreview.cpp" line="175"/>
         <source>Error</source>
         <translation>Erro</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="175"/>
+        <location filename="../videopreview/videopreview.cpp" line="176"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>Ocorreu o seguinte erro ao criar as miniaturas:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="201"/>
+        <location filename="../videopreview/videopreview.cpp" line="202"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>O directório temporário (%1) não pôde ser criado</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="296"/>
+        <location filename="../videopreview/videopreview.cpp" line="297"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>O processo mplayer não foi executado</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="372"/>
+        <location filename="../videopreview/videopreview.cpp" line="373"/>
         <source>Resolution: %1x%2</source>
         <translation>Resolução: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="376"/>
+        <location filename="../videopreview/videopreview.cpp" line="377"/>
         <source>Video format: %1</source>
         <translation>Formato Vídeo: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="377"/>
+        <location filename="../videopreview/videopreview.cpp" line="378"/>
         <source>Frames per second: %1</source>
         <translation>Frames por segundo: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="378"/>
+        <location filename="../videopreview/videopreview.cpp" line="379"/>
         <source>Aspect ratio: %1</source>
         <translation>Tamanho de vídeo : %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="314"/>
+        <location filename="../videopreview/videopreview.cpp" line="315"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>O ficheiro %1 não foi carregado</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="413"/>
+        <location filename="../videopreview/videopreview.cpp" line="414"/>
         <source>No filename</source>
         <translation>Sem nome</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="473"/>
+        <location filename="../videopreview/videopreview.cpp" line="474"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>O processo mplayer não foi iniciado ao tentar obter informações sobre o vídeo</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="192"/>
+        <location filename="../videopreview/videopreview.cpp" line="193"/>
         <source>The length of the video is 0</source>
         <translation>A duração do vídeo é 0</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="236"/>
+        <location filename="../videopreview/videopreview.cpp" line="237"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>O ficheiro %1 não existe</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="511"/>
+        <location filename="../videopreview/videopreview.cpp" line="512"/>
         <source>Images</source>
         <translation>Imagens</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="360"/>
+        <location filename="../videopreview/videopreview.cpp" line="361"/>
         <source>No info</source>
         <translation>Sem info</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="364"/>
+        <location filename="../videopreview/videopreview.cpp" line="365"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="365"/>
+        <location filename="../videopreview/videopreview.cpp" line="366"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="381"/>
+        <location filename="../videopreview/videopreview.cpp" line="382"/>
         <source>Video bitrate: %1</source>
         <translation>Taxa de bits vídeo: %1 </translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="382"/>
+        <location filename="../videopreview/videopreview.cpp" line="383"/>
         <source>Audio bitrate: %1</source>
         <translation>Taxa de bits áudio : %1 </translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="383"/>
+        <location filename="../videopreview/videopreview.cpp" line="384"/>
         <source>Audio rate: %1</source>
         <translation>Taxa áudio : %1 </translation>
     </message>
