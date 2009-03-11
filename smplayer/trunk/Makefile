@@ -39,14 +39,10 @@ QMAKE_OPTS=DEFINES+=KDE_SUPPORT INCLUDEPATH+=$(KDE_INCLUDE_PATH) \
 
 endif
 
-.PHONY : src/smplayer
-
-smplayer: src/smplayer
-	cd src && $(LRELEASE) smplayer.pro
-
 src/smplayer:
 	./get_svn_revision.sh
 	+cd src && $(QMAKE) $(QMAKE_OPTS) && $(DEFS) make
+	cd src && $(LRELEASE) smplayer.pro
 
 clean:
 	cd src && make distclean
