@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="es">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -6745,17 +6746,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="558"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation type="unfinished">Si se activa esta opción, el estilo definido arriba se aplicará también a subtítulos ass.</translation>
+        <translation>Si se activa esta opción, el estilo definido arriba se aplicará también a subtítulos ass.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="556"/>
         <source>Apply style to ass files too</source>
-        <translation type="unfinished">Aplicar el estilo también a ficheros ass</translation>
+        <translation>Aplicar el estilo también a ficheros ass</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1211"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation type="unfinished">Aplicar el estilo también a &amp;ficheros ass</translation>
+        <translation>Aplicar el estilo también a &amp;ficheros ass</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="381"/>
