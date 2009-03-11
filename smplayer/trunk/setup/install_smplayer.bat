@@ -6,8 +6,8 @@ REM Note: it doesn't install mplayer
 
 set OUTPUT_DIR=smplayer-build
 
-set SMPLAYER_DIR=svn\smplayer\trunk
-set SMPLAYER_THEMES_DIR=svn\smplayer-themes\trunk
+set SMPLAYER_DIR=svn\smplayer\
+set SMPLAYER_THEMES_DIR=svn\smplayer-themes\
 
 set QT_DIR=c:\Qt\4.4.2
 set QXT_DIR=c:\libqxt
@@ -23,6 +23,9 @@ copy %QT_DIR%\bin\QtGui4.dll %OUTPUT_DIR%
 copy %QT_DIR%\bin\QtNetwork4.dll %OUTPUT_DIR%
 copy %QT_DIR%\bin\QtXml4.dll %OUTPUT_DIR%
 copy %MINGW_DIR%\bin\mingwm10.dll %OUTPUT_DIR%
+
+mkdir %OUTPUT_DIR%\imageformats
+copy %QT_DIR%\plugins\imageformats\qjpeg4.dll %OUTPUT_DIR%\imageformats\
 
 rem translations
 mkdir %OUTPUT_DIR%\translations
