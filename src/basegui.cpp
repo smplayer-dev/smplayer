@@ -3874,8 +3874,7 @@ void BaseGui::displayGotoTime(int t) {
 #else
 	int jump_time = (int)core->mdat.duration * t / 100;
 #endif
-	//QString s = tr("Jump to %1").arg( Helper::formatTime(jump_time) );
-	QString s = QString("Jump to %1").arg( Helper::formatTime(jump_time) );
+	QString s = tr("Jump to %1").arg( Helper::formatTime(jump_time) );
 	statusBar()->showMessage( s, 1000 );
 
 	if (pref->fullscreen) {
