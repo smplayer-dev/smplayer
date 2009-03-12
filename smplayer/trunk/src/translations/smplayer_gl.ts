@@ -2343,11 +2343,6 @@ Por favor verifica os permisos dese cartafol.</translation>
         <translation>1.0RC2</translation>
     </message>
     <message>
-        <location filename="" line="7536687"/>
-        <source>Greater than 1.0rc2</source>
-        <translation type="obsolete">Máis nova ca 1.0rc2</translation>
-    </message>
-    <message>
         <location filename="../inputmplayerversion.ui" line="123"/>
         <source>1.0rc3 or newer</source>
         <translation type="unfinished"></translation>
@@ -2424,11 +2419,6 @@ Por favor verifica os permisos dese cartafol.</translation>
         <translation>Bashkir</translation>
     </message>
     <message>
-        <location filename="" line="7536687"/>
-        <source>Byelorussian</source>
-        <translation type="obsolete">Bierloruso</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="216"/>
         <source>Bulgarian</source>
         <translation>Búlgaro</translation>
@@ -2489,11 +2479,6 @@ Por favor verifica os permisos dese cartafol.</translation>
         <translation>Alemán</translation>
     </message>
     <message>
-        <location filename="" line="7536687"/>
-        <source>Bhutani</source>
-        <translation type="obsolete">Butaní</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="220"/>
         <source>Greek</source>
         <translation>Grego</translation>
@@ -2534,11 +2519,6 @@ Por favor verifica os permisos dese cartafol.</translation>
         <translation>Finés</translation>
     </message>
     <message>
-        <location filename="" line="7536687"/>
-        <source>Fiji</source>
-        <translation type="obsolete">Fidxi</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="69"/>
         <source>Faroese</source>
         <translation>Feroés</translation>
@@ -2557,11 +2537,6 @@ Por favor verifica os permisos dese cartafol.</translation>
         <location filename="../languages.cpp" line="72"/>
         <source>Irish</source>
         <translation>Irlandés</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>Scots</source>
-        <translation type="obsolete">Escocés (Scots)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="226"/>
@@ -2624,11 +2599,6 @@ Por favor verifica os permisos dese cartafol.</translation>
         <translation>Interlingua</translation>
     </message>
     <message>
-        <location filename="" line="7536687"/>
-        <source>Inupiak</source>
-        <translation type="obsolete">Inupiak</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="95"/>
         <source>Icelandic</source>
         <translation>Islandés</translation>
@@ -2669,11 +2639,6 @@ Por favor verifica os permisos dese cartafol.</translation>
         <translation>Groenlandés</translation>
     </message>
     <message>
-        <location filename="" line="7536687"/>
-        <source>Cambodian</source>
-        <translation type="obsolete">Cambodiano</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="107"/>
         <source>Kannada</source>
         <translation>Canará</translation>
@@ -2707,11 +2672,6 @@ Por favor verifica os permisos dese cartafol.</translation>
         <location filename="../languages.cpp" line="119"/>
         <source>Lingala</source>
         <translation>Lingala</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>Laothian</source>
-        <translation type="obsolete">Laociano</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="121"/>
@@ -2804,19 +2764,9 @@ Por favor verifica os permisos dese cartafol.</translation>
         <translation>Oriya</translation>
     </message>
     <message>
-        <location filename="" line="7536687"/>
-        <source>Punjabi</source>
-        <translation type="obsolete">Punjabi</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="235"/>
         <source>Polish</source>
         <translation>Polaco</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>Pashto</source>
-        <translation type="obsolete">Pashto</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="155"/>
@@ -2827,11 +2777,6 @@ Por favor verifica os permisos dese cartafol.</translation>
         <location filename="../languages.cpp" line="156"/>
         <source>Quechua</source>
         <translation>Quechua</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>Kirundi</source>
-        <translation type="obsolete">Kirundi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="238"/>
@@ -2857,16 +2802,6 @@ Por favor verifica os permisos dese cartafol.</translation>
         <location filename="../languages.cpp" line="164"/>
         <source>Sindhi</source>
         <translation>Sindhi</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>Sangho</source>
-        <translation type="obsolete">Sangho</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>Sinhalese</source>
-        <translation type="obsolete">Cingalés</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="240"/>
@@ -2902,16 +2837,6 @@ Por favor verifica os permisos dese cartafol.</translation>
         <location filename="../languages.cpp" line="242"/>
         <source>Serbian</source>
         <translation>Serbio</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>Siswati</source>
-        <translation type="obsolete">Siswati</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>Sesotho</source>
-        <translation type="obsolete">Sesotho</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="177"/>
@@ -2962,11 +2887,6 @@ Por favor verifica os permisos dese cartafol.</translation>
         <location filename="../languages.cpp" line="186"/>
         <source>Tagalog</source>
         <translation>Tagalog</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>Setswana</source>
-        <translation type="obsolete">Setswana</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="188"/>
@@ -3177,21 +3097,6 @@ Por favor verifica os permisos dese cartafol.</translation>
         <location filename="../languages.cpp" line="278"/>
         <source>Arabic Windows</source>
         <translation>Árabe, Windows</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>Rhaeto-Romance</source>
-        <translation type="obsolete">Reto-Románico</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>Serbo-Croatian</source>
-        <translation type="obsolete">Serbocroata</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>Volap&#xfc;k</source>
-        <translation type="obsolete">Volapük</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="26"/>
@@ -4079,11 +3984,6 @@ Por exemplo: resample=44100:0:0,volnorm</translation>
         <translation>Reconstruir un índice se é preciso</translation>
     </message>
     <message>
-        <location filename="" line="7536687"/>
-        <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; Note: the creation of the index may take some time.</source>
-        <translation type="obsolete">Recontrúe o índice de ficheiros no caso de que non se atope, permitindo a procura. é útil para descargas incompletas, escangalladas ou mal creadas. Esta opción só funciona se o medio permite a procura (p.ex. non con stdin, pipe...).&lt;br&gt;Nota: a creación do índice pode levar algún tempo. </translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="532"/>
         <source>Network Connection</source>
         <translation>Conexión a redes</translation>
@@ -4134,116 +4034,6 @@ Por exemplo: resample=44100:0:0,volnorm</translation>
         <translation>Cambia MPlayer a un modo experimental no que as marcas de tempo para as imaxes de vídeo calcúlanse dun xeito diferente e sopórtanse os filtros de vídeo que engaden novas imaxes ou modifican as marcas de tempo dos existentes. Pódense velas marcas de tempo mais precisas por exemplo cando se reproducen subtítulos sincronizados a cambios de escena coa biblioteca SSA/ASS activada. Sen corrección de pts seguramente a sincronización irá desprazada algunhas imaxes. Esta opción non funciona correctamente con algúns demuxers e codecs.</translation>
     </message>
     <message>
-        <location filename="" line="7536687"/>
-        <source>Proxy</source>
-        <translation type="obsolete">Proxy</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>Enable proxy</source>
-        <translation type="obsolete">Activar proxy</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>Enable/disable the use of the proxy.</source>
-        <translation type="obsolete">Activa ou desactiva o proxy.</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>Host</source>
-        <translation type="obsolete">máquina</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>The host name of the proxy.</source>
-        <translation type="obsolete">Nome de máquina do proxy.</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>Port</source>
-        <translation type="obsolete">Porto</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>The port of the proxy.</source>
-        <translation type="obsolete">O porto do proxy.</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>Username</source>
-        <translation type="obsolete">Nome de usuario</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="obsolete">Se o proxy precisa autenticación, aquí puedese introducir o nome de usuario.</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>Password</source>
-        <translation type="obsolete">Contrasinal</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>You can set a proxy for internet connections (currently only used for subtitle downloading).</source>
-        <translation type="obsolete">Pode establecer un proxy para as conexións a internet (actualmente só se empregan para descarga de subtítulos).</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>&amp;Enable proxy</source>
-        <translation type="obsolete">&amp;Activar proxy</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>&amp;Host:</source>
-        <translation type="obsolete">&amp;Máquina:</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>&amp;Port:</source>
-        <translation type="obsolete">&amp;Porto:</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>&amp;Username:</source>
-        <translation type="obsolete">&amp;Nome de usuario:</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>Pa&amp;ssword:</source>
-        <translation type="obsolete">&amp;Contrasinal:</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>C&amp;orrect PTS</source>
-        <translation type="obsolete">C&amp;orrixir PTS</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>Http</source>
-        <translation type="obsolete">Http</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>Socks5</source>
-        <translation type="obsolete">Socks5</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>Type</source>
-        <translation type="obsolete">Tipo</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>Select the proxy type to be used.</source>
-        <translation type="obsolete">Selecciona o tipo de proxy que se vai a empregar.</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>&amp;Type:</source>
-        <translation type="obsolete">&amp;Tipo:</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="386"/>
         <source>Actions list</source>
         <translation>Lista de accións</translation>
@@ -4282,11 +4072,6 @@ Por exemplo: resample=44100:0:0,volnorm</translation>
         <location filename="../prefadvanced.cpp" line="352"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
         <translation>Reconstrúe o índice dos ficheiros nos que non se atopa, permitindo buscas. É útil con descargas rotas/incompletas, ou ficheiros que están mal creados. Esta opción só funciona si o medio soporta buscas (p.e. non con stdin, pipe, etc).&lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; a creación do índice pode levar algún tempo.</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation type="obsolete">O contrasinal para o proxy. &lt;b&gt;Advertencia:&lt;/b&gt; o contrasinal gardarase como texto plano no ficheiro de configuración.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="138"/>
@@ -4658,11 +4443,6 @@ Por exemplo: resample=44100:0:0,volnorm</translation>
         <translation>Renderizado directo</translation>
     </message>
     <message>
-        <location filename="" line="7536687"/>
-        <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; May cause OSD/SUB corruption!</source>
-        <translation type="obsolete">Se marca esta opción, activase o procesado directo (non tódolas saídas de codec e audio soportan a opción)&lt;br&gt;&lt;b&gt;ADVERTENCIA:&lt;/b&gt; Pode causa-la corrupción de OSD/SUB!</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="762"/>
         <source>Double buffering</source>
         <translation>Dobre buffering</translation>
@@ -4781,11 +4561,6 @@ Por exemplo: resample=44100:0:0,volnorm</translation>
         <location filename="../prefgeneral.cpp" line="810"/>
         <source>Uses hardware AC3 passthrough</source>
         <translation>Usar a pasaxe de hardware AC3</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. NOTE: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="obsolete">Solicita o número de reproducións por canle. MPlayer solicitalle ó descodificador que descodifique o audio en tantas canles coma se especificaran. Logo depende do descodificador cumprir coa petición. Normalmente só é importante esta opción cando se reproducen vídeos con audio AC3, coma os DVDs. Neste caso a liba52 realiza a descodificación por defecto e mestura correctamente o audio co número de canles que se pediu. NOTA: Esta opción só é respectada polos codecs (só AC3), filtros (surround) e controladores de audios (polo menos OSS).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="736"/>
@@ -5305,11 +5080,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinput.cpp" line="70"/>
         <source>Screenshot</source>
         <translation>Captura da pantalla</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>On top</source>
-        <translation type="obsolete">Enriba</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="74"/>
@@ -6068,11 +5838,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Sincronización automática do son e do vídeo</translation>
     </message>
     <message>
-        <location filename="" line="7536687"/>
-        <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;WARNING:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="obsolete">Establece a prioridade para MPlayer segundo as prioridades dispoñibles baixo Windows.&lt;br&gt;&lt;b&gt;ADVERTENCIA:&lt;/b&gt; Empregar a prioridade en tempo real pode provocar que se bloquee o sistema.</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.cpp" line="244"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Saltar algúns fotogramas para manter a sincronización S/V en sistemas lentos.</translation>
@@ -6512,11 +6277,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="438"/>
         <source>Include subtitles on screenshots</source>
         <translation>Incluír subtitulos nas capturas da pantalla</translation>
-    </message>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>If this option is checked, the subtitles will appear in the screenshots. Note: it may cause some troubles sometimes.</source>
-        <translation type="obsolete">Se marca esta opción ps subtítulos aparecen nas capturas de pantalla. Nota: poida que cause problemas algunhas veces.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="460"/>
@@ -7286,11 +7046,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 </context>
 <context>
     <name>TimeDialog</name>
-    <message>
-        <location filename="" line="7536687"/>
-        <source>SMPlayer - Seek</source>
-        <translation type="obsolete">SMPlayer - Busca</translation>
-    </message>
     <message>
         <location filename="../timedialog.ui" line="54"/>
         <source>&amp;Jump to:</source>
