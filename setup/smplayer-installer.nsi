@@ -1,4 +1,22 @@
-; NSIS script created by redxii for RVM's SMPlayer
+/*
+** NSIS Script for SMPlayer
+** by redxii (redxii1234@hotmail.com)
+** Requires NSIS 2.x, tested on: 2.44
+**
+** This Script is set up to compile two different setups:
+** - SMPlayer including MPlayer files
+** - SMPlayer that downloads MPlayer from a remote server
+**
+** To create an installer that downloads MPlayer, no need to
+** do anything special, it will default to that installer.
+**
+** To create an installer with the MPlayer files you need to define WITH_MPLAYER:
+** makensis.exe /DWITH_MPLAYER smplayer-installer.nsi
+** 
+** MakeNSISW (GUI Compiler): Tools -> Settings. Add WITH_MPLAYER in Symbol Name and add to the list.
+** You need to have the smplayer-build\mplayer files present
+*/
+
 ;--------------------------------
 ;Compressor
 
@@ -22,7 +40,7 @@
 !define PRODUCT_UNINST_ROOT_KEY "HKLM"
 !define PRODUCT_STARTMENU_GROUP "SMPlayer"
 
-; Default versions
+; Fallback versions
 !define DEFAULT_CODECS_VERSION "windows-essential-20071007"
 !ifndef WITH_MPLAYER
 !define DEFAULT_MPLAYER_VERSION "mplayer-svn-28311"
@@ -33,6 +51,7 @@
 !define MEMENTO_REGISTRY_KEY Software\SMPlayer
 
 !include MUI2.nsh
+!include Sections.nsh
 !include Memento.nsh
 !include WinVer.nsh
 
@@ -77,11 +96,11 @@
 ;--------------------------------
 ;Variables
 
+  Var CODEC_VERSION
   # Ignore Var MPLAYER_VERSION when including mplayer
 !ifndef WITH_MPLAYER
   Var MPLAYER_VERSION
 !endif
-  Var CODEC_VERSION
 
 ;--------------------------------
 ;Interface Settings
@@ -137,7 +156,6 @@
   !insertmacro MUI_LANGUAGE "Hungarian"
   !insertmacro MUI_LANGUAGE "Italian"
   !insertmacro MUI_LANGUAGE "Norwegian"
-  !insertmacro MUI_LANGUAGE "NorwegianNynorsk"
   !insertmacro MUI_LANGUAGE "Polish"
   !insertmacro MUI_LANGUAGE "Portuguese"
   !insertmacro MUI_LANGUAGE "PortugueseBR"
@@ -145,7 +163,6 @@
   !insertmacro MUI_LANGUAGE "Slovak"
   !insertmacro MUI_LANGUAGE "Slovenian"
   !insertmacro MUI_LANGUAGE "Spanish"
-  !insertmacro MUI_LANGUAGE "SpanishInternational"
 
 ;--------------------------------
 ;Reserve Files
@@ -192,15 +209,15 @@ Section SMPlayer SMPlayer
   # Store installed path
   WriteRegStr HKLM "Software\SMPlayer" "Path" "$INSTDIR"
 
-  # HKEY_CLASSES_ROOT ProgId registration
-  WriteRegStr HKCR "MPlayerFileVideo\DefaultIcon" "" '"$INSTDIR\smplayer.exe",1'
-  WriteRegStr HKCR "MPlayerFileVideo\shell\enqueue" "" "Enqueue in SMPlayer"
-  WriteRegStr HKCR "MPlayerFileVideo\shell\enqueue\command" "" '"$INSTDIR\smplayer.exe" -add-to-playlist "%1"'
-  WriteRegStr HKCR "MPlayerFileVideo\shell\open" "FriendlyAppName" "SMPlayer Media Player"
-  WriteRegStr HKCR "MPlayerFileVideo\shell\open\command" "" '"$INSTDIR\smplayer.exe" "%1"'
-
   # Windows Vista+ Default Programs registration
   ${If} ${AtLeastWinVista}
+  # HKEY_CLASSES_ROOT ProgId registration
+    WriteRegStr HKCR "MPlayerFileVideo\DefaultIcon" "" '"$INSTDIR\smplayer.exe",1'
+    WriteRegStr HKCR "MPlayerFileVideo\shell\enqueue" "" "Enqueue in SMPlayer"
+    WriteRegStr HKCR "MPlayerFileVideo\shell\enqueue\command" "" '"$INSTDIR\smplayer.exe" -add-to-playlist "%1"'
+    WriteRegStr HKCR "MPlayerFileVideo\shell\open" "FriendlyAppName" "SMPlayer Media Player"
+    WriteRegStr HKCR "MPlayerFileVideo\shell\open\command" "" '"$INSTDIR\smplayer.exe" "%1"'
+
     WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities" "ApplicationDescription" "SMPlayer is a complete front-end for MPlayer, from basic features like playing videos, DVDs, VCDs to more advanced features like support for MPlayer filters, edl lists, and more."
     WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities" "ApplicationName" "SMPlayer"
     WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".3gp" "MPlayerFileVideo"
@@ -460,7 +477,7 @@ ${MementoSectionDone}
 !else
   !insertmacro MUI_DESCRIPTION_TEXT ${MPlayer} "Downloads/installs mplayer; requires an active internet connection. Required for playback."
 !endif
-  !insertmacro MUI_DESCRIPTION_TEXT ${Codecs} "Downloads optional codecs that aren't yet implemented in mplayer; e.g. RealVideo and uncommon formats."
+  !insertmacro MUI_DESCRIPTION_TEXT ${Codecs} "Downloads/installs optional codecs for mplayer; requires an active internet connection."
   !insertmacro MUI_DESCRIPTION_TEXT ${Themes} "Stylish icon themes for SMPlayer."
   !insertmacro MUI_DESCRIPTION_TEXT ${Translations} "Translations for SMPlayer."
 !insertmacro MUI_FUNCTION_DESCRIPTION_END
@@ -497,7 +514,6 @@ Function .onInstFailed
   RMDir /r "$SMPROGRAMS\${PRODUCT_STARTMENU_GROUP}"
 
   # Delete directories recursively except for main directory
-  # Nullsoft says it is unsafe to recursively delete $INSTDIR 
   RMDir /r "$INSTDIR\docs"
   RMDir /r "$INSTDIR\imageformats"
   RMDir /r "$INSTDIR\mplayer"
@@ -518,6 +534,20 @@ Function .onInstFailed
   DeleteRegKey HKLM "Software\Clients\Media\SMPlayer"
   DeleteRegValue HKLM "Software\RegisteredApplications" "SMPlayer"
   DeleteRegKey HKLM "Software\SMPlayer"
+
+FunctionEnd
+
+Function .onSelChange
+
+  SectionGetFlags ${Codecs} $R0
+  ${If} $R0 != $R1
+    StrCpy $R1 $R0
+    IntOp $R0 $R0 & ${SF_SELECTED}
+  ${If} $R0 == ${SF_SELECTED}
+    MessageBox MB_OK "The binary codec packages add support for codecs that are not yet implemented natively, like newer RealVideo variants and a lot of uncommon formats. \
+    $\nNote that they are not necessary to play most common formats like DVDs, MPEG-1/2/4, etc."
+  ${EndIf}
+  ${EndIf}
 
 FunctionEnd
 
