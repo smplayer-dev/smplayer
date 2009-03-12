@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="cs">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1560,7 +1561,7 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="3877"/>
         <source>Jump to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Jdi na %1</translation>
     </message>
 </context>
 <context>
@@ -6735,17 +6736,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="556"/>
         <source>Apply style to ass files too</source>
-        <translation type="unfinished">Použít i pro ass soubory</translation>
+        <translation>Použít i pro ass soubory</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="558"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation type="unfinished">Je-li tato možnost povolena, definovaný styl se použije také pro ass titulky v souboru.</translation>
+        <translation>Je-li tato možnost povolena, definovaný styl se použije také pro ass titulky v souboru.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1211"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation type="unfinished">Použít st&amp;yl i pro ass soubory</translation>
+        <translation>Použít st&amp;yl i pro ass soubory</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="381"/>
