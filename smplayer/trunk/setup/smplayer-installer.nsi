@@ -15,6 +15,10 @@
 ** 
 ** MakeNSISW (GUI Compiler): Tools -> Settings. Add WITH_MPLAYER in Symbol Name and add to the list.
 ** You need to have the smplayer-build\mplayer files present
+**
+** Other required files:
+** - 7za.exe (http://www.7zip.org)
+** - inetc plugin (http://nsis.sourceforge.net/Inetc_plug-in)
 */
 
 ;--------------------------------
@@ -587,7 +591,7 @@ FunctionEnd
 
 Function getVerInfo
 
-  DetailPrint "Gathering version information..."
+  DetailPrint "Downloading version information..."
   inetc::get /timeout 30000 /resume "" /silent "http://smplayer.sourceforge.net/mplayer-version-info" \
   "$PLUGINSDIR\version-info"
   Pop $R0
