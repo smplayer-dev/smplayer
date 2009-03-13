@@ -94,13 +94,14 @@
   RequestExecutionLevel admin
 
 ;--------------------------------
-;Variables
+;Installer Variables
 
   Var CODEC_VERSION
-  # Ignore Var MPLAYER_VERSION when including mplayer
+  Var IS_ADMIN
 !ifndef WITH_MPLAYER
   Var MPLAYER_VERSION
 !endif
+  Var USERNAME
 
 ;--------------------------------
 ;Interface Settings
@@ -487,6 +488,14 @@ ${MementoSectionDone}
 
 Function .onInit
 
+  Call getUserInfo
+
+  # Check for admin (mimic old Inno Setup behavior... non-admin installation maybe later..)
+  ${If} $IS_ADMIN == 0
+    MessageBox MB_OK|MB_ICONSTOP "You must be logged in as an administrator when installing this program."
+    Abort
+  ${EndIf}
+
   System::Call 'kernel32::CreateMutexA(i 0, i 0, t "$(^Name)") i .r1 ?e'
   Pop $R0
 
@@ -514,6 +523,7 @@ Function .onInstFailed
   RMDir /r "$SMPROGRAMS\${PRODUCT_STARTMENU_GROUP}"
 
   # Delete directories recursively except for main directory
+  # Do not recursively delete $INSTDIR
   RMDir /r "$INSTDIR\docs"
   RMDir /r "$INSTDIR\imageformats"
   RMDir /r "$INSTDIR\mplayer"
@@ -524,11 +534,11 @@ Function .onInstFailed
   Delete "$INSTDIR\mingwm10.dll"
   Delete "$INSTDIR\Q*.dll"
   Delete "$INSTDIR\smplayer.exe"
-  Delete "$INSTDIR\uninst.exe"
   Delete "$INSTDIR\dxlist.exe"
+  Delete "$INSTDIR\uninst.exe"
   RMDir "$INSTDIR"
 
-  # Delete keys pertaining to SMPlayer
+  # Registry
   DeleteRegKey ${PRODUCT_UNINST_ROOT_KEY} "${PRODUCT_UNINST_KEY}"
   DeleteRegKey HKCR "MPlayerFileVideo"
   DeleteRegKey HKLM "Software\Clients\Media\SMPlayer"
@@ -551,6 +561,30 @@ Function .onSelChange
 
 FunctionEnd
 
+Function getUserInfo
+
+  ClearErrors
+  UserInfo::GetName
+  ${If} ${Errors}
+    StrCpy $IS_ADMIN 1
+    Return
+  ${EndIf}
+
+  Pop $USERNAME
+  UserInfo::GetAccountType
+  Pop $R0
+  ${Switch} $R0
+    ${Case} "Admin"
+    ${Case} "Power"
+      StrCpy $IS_ADMIN 1
+      ${Break}
+    ${Default}
+      StrCpy $IS_ADMIN 0
+      ${Break}
+  ${EndSwitch}
+
+FunctionEnd
+
 Function getVerInfo
 
   DetailPrint "Gathering version information..."
@@ -566,6 +600,15 @@ FunctionEnd
 ;------------------------------------------------------------------------------------------------
 
 ;------------------------------------------------------------------------------------------------
+;UnInstaller
+
+;--------------------------------
+;UnInstaller Variables
+
+  Var un.IS_ADMIN
+  Var un.USERNAME
+
+;--------------------------------
 ;UnInstaller Sections
 
 Section Uninstall
@@ -579,7 +622,7 @@ Section Uninstall
   RMDir /r "$SMPROGRAMS\${PRODUCT_STARTMENU_GROUP}"
 
   # Delete directories recursively except for main directory
-  # Nullsoft says it is unsafe to recursively delete $INSTDIR 
+  # Do not recursively delete $INSTDIR
   RMDir /r "$INSTDIR\docs"
   RMDir /r "$INSTDIR\imageformats"
   RMDir /r "$INSTDIR\mplayer"
@@ -594,7 +637,7 @@ Section Uninstall
   Delete "$INSTDIR\uninst.exe"
   RMDir "$INSTDIR"
 
-  # Delete keys pertaining to SMPlayer
+  # Registry
   DeleteRegKey ${PRODUCT_UNINST_ROOT_KEY} "${PRODUCT_UNINST_KEY}"
   DeleteRegKey HKCR "MPlayerFileVideo"
   DeleteRegKey HKLM "Software\Clients\Media\SMPlayer"
@@ -607,7 +650,16 @@ SectionEnd
 
 ;--------------------------------
 ;UnInstaller Functions
+
 Function un.onInit
+
+  Call un.getUserInfo
+
+  # Check for admin (mimic old Inno Setup behavior... non-admin installation maybe later..)
+  ${If} $un.IS_ADMIN == 0
+    MessageBox MB_OK|MB_ICONSTOP "This installation can only be uninstalled by a user with administrator privileges."
+    Abort
+  ${EndIf}
 
   # Get the stored language preference
   !insertmacro MUI_UNGETLANGUAGE
@@ -621,5 +673,29 @@ Function un.onUninstSuccess
 
   HideWindow
   MessageBox MB_ICONINFORMATION|MB_OK "$(^Name) was successfully removed from your computer."
+
+FunctionEnd
+
+Function un.getUserInfo
+
+  ClearErrors
+  UserInfo::GetName
+  ${If} ${Errors}
+    StrCpy $un.IS_ADMIN 1
+    Return
+  ${EndIf}
+
+  Pop $un.USERNAME
+  UserInfo::GetAccountType
+  Pop $R0
+  ${Switch} $R0
+    ${Case} "Admin"
+    ${Case} "Power"
+      StrCpy $un.IS_ADMIN 1
+      ${Break}
+    ${Default}
+      StrCpy $un.IS_ADMIN 0
+      ${Break}
+  ${EndSwitch}
 
 FunctionEnd
