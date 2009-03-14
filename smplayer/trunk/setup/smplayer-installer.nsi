@@ -177,6 +177,7 @@
   ;Only for solid compression (by default, solid compression is enabled for BZIP2 and LZMA)
 
   !insertmacro MUI_RESERVEFILE_LANGDLL
+  ReserveFile "${NSISDIR}\Plugins\UserInfo.dll"
 
 ;--------------------------------
 ;Installer Types
