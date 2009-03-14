@@ -40,8 +40,7 @@
 !define PRODUCT_PUBLISHER "RVM"
 !define PRODUCT_WEB_SITE "http://smplayer.sf.net"
 !define PRODUCT_FORUM "http://smplayer.sourceforge.net/forums"
-!define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\${PRODUCT_NAME}"
-!define PRODUCT_UNINST_ROOT_KEY "HKLM"
+!define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\SMPlayer"
 !define PRODUCT_STARTMENU_GROUP "SMPlayer"
 
 ; Fallback versions
@@ -126,7 +125,7 @@
   !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\orange-uninstall.ico"
 
   # Language Selection Dialog Settings
-  !define MUI_LANGDLL_REGISTRY_ROOT "${PRODUCT_UNINST_ROOT_KEY}"
+  !define MUI_LANGDLL_REGISTRY_ROOT HKLM
   !define MUI_LANGDLL_REGISTRY_KEY "${PRODUCT_UNINST_KEY}"
   !define MUI_LANGDLL_REGISTRY_VALUENAME "NSIS:Language"
 
@@ -266,14 +265,14 @@ Section SMPlayer SMPlayer
   ${EndIf}
 
   # Registry Uninstall information
-  WriteRegStr ${PRODUCT_UNINST_ROOT_KEY} "${PRODUCT_UNINST_KEY}" "DisplayName" "$(^Name)"
-  WriteRegStr ${PRODUCT_UNINST_ROOT_KEY} "${PRODUCT_UNINST_KEY}" "UninstallString" "$INSTDIR\uninst.exe"
-  WriteRegStr ${PRODUCT_UNINST_ROOT_KEY} "${PRODUCT_UNINST_KEY}" "DisplayIcon" "$INSTDIR\smplayer.exe"
-  WriteRegStr ${PRODUCT_UNINST_ROOT_KEY} "${PRODUCT_UNINST_KEY}" "DisplayVersion" "${PRODUCT_VERSION}"
-  WriteRegStr ${PRODUCT_UNINST_ROOT_KEY} "${PRODUCT_UNINST_KEY}" "HelpLink" "${PRODUCT_FORUM}"
-  WriteRegStr ${PRODUCT_UNINST_ROOT_KEY} "${PRODUCT_UNINST_KEY}" "URLInfoAbout" "${PRODUCT_WEB_SITE}"
-  WriteRegStr ${PRODUCT_UNINST_ROOT_KEY} "${PRODUCT_UNINST_KEY}" "URLUpdateInfo" "${PRODUCT_WEB_SITE}"
-  WriteRegStr ${PRODUCT_UNINST_ROOT_KEY} "${PRODUCT_UNINST_KEY}" "Publisher" "${PRODUCT_PUBLISHER}"
+  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "DisplayName" "$(^Name)"
+  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "UninstallString" "$INSTDIR\uninst.exe"
+  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "DisplayIcon" "$INSTDIR\smplayer.exe"
+  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "DisplayVersion" "${PRODUCT_VERSION}"
+  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "HelpLink" "${PRODUCT_FORUM}"
+  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "URLInfoAbout" "${PRODUCT_WEB_SITE}"
+  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "URLUpdateInfo" "${PRODUCT_WEB_SITE}"
+  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "Publisher" "${PRODUCT_PUBLISHER}"
 
   # Copy 7zip to installer's temp directory
   SetOutPath "$PLUGINSDIR"
@@ -302,9 +301,9 @@ ${MementoSection} "Create Start Menu shortcuts" StartMenuIcon
   # Start menu shortcut creation
   SetShellVarContext all
   CreateDirectory "$SMPROGRAMS\${PRODUCT_STARTMENU_GROUP}"
-  CreateShortCut "$SMPROGRAMS\${PRODUCT_STARTMENU_GROUP}\${PRODUCT_NAME}.lnk" "$INSTDIR\smplayer.exe"
+  CreateShortCut "$SMPROGRAMS\${PRODUCT_STARTMENU_GROUP}\SMPlayer.lnk" "$INSTDIR\smplayer.exe"
   WriteINIStr    "$SMPROGRAMS\${PRODUCT_STARTMENU_GROUP}\SMPlayer on the Web.url" "InternetShortcut" "URL" "${PRODUCT_WEB_SITE}"
-  CreateShortCut "$SMPROGRAMS\${PRODUCT_STARTMENU_GROUP}\Uninstall ${PRODUCT_NAME}.lnk" "$INSTDIR\uninst.exe"
+  CreateShortCut "$SMPROGRAMS\${PRODUCT_STARTMENU_GROUP}\Uninstall SMPlayer.lnk" "$INSTDIR\uninst.exe"
 
 ${MementoSectionEnd}
 
@@ -333,7 +332,7 @@ SectionGroup /e "MPlayer Components"
 
     IntCmp $0 1 mplayerInstalled mplayerNotInstalled
       mplayerInstalled:
-        MessageBox MB_YESNO "MPlayer is already installed. Re-Download?" IDYES mplayerNotInstalled IDNO done
+        MessageBox MB_YESNO "MPlayer is already installed. Re-Download?" /SD IDNO IDYES mplayerNotInstalled IDNO done
       mplayerNotInstalled:
         ${IfNot} ${FileExists} "$PLUGINSDIR\version-info"
           Call getVerInfo
@@ -396,7 +395,7 @@ SectionGroup /e "MPlayer Components"
 
     IntCmp $1 1 mplayerCodecsInstalled mplayerCodecsNotInstalled
       mplayerCodecsInstalled:
-        MessageBox MB_YESNO "MPlayer codecs are already installed. Re-Download?" IDYES mplayerCodecsNotInstalled IDNO done
+        MessageBox MB_YESNO "MPlayer codecs are already installed. Re-Download?" /SD IDNO IDYES mplayerCodecsNotInstalled IDNO done
       mplayerCodecsNotInstalled:
         ${IfNot} ${FileExists} "$PLUGINSDIR\version-info"
           Call getVerInfo
@@ -544,7 +543,7 @@ Function .onInstFailed
   RMDir "$INSTDIR"
 
   # Registry
-  DeleteRegKey ${PRODUCT_UNINST_ROOT_KEY} "${PRODUCT_UNINST_KEY}"
+  DeleteRegKey HKLM "${PRODUCT_UNINST_KEY}"
   DeleteRegKey HKCR "MPlayerFileVideo"
   DeleteRegKey HKLM "Software\Clients\Media\SMPlayer"
   DeleteRegValue HKLM "Software\RegisteredApplications" "SMPlayer"
@@ -643,7 +642,7 @@ Section Uninstall
   RMDir "$INSTDIR"
 
   # Registry
-  DeleteRegKey ${PRODUCT_UNINST_ROOT_KEY} "${PRODUCT_UNINST_KEY}"
+  DeleteRegKey HKLM "${PRODUCT_UNINST_KEY}"
   DeleteRegKey HKCR "MPlayerFileVideo"
   DeleteRegKey HKLM "Software\Clients\Media\SMPlayer"
   DeleteRegValue HKLM "Software\RegisteredApplications" "SMPlayer"
