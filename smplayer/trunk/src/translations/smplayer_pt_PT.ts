@@ -1560,7 +1560,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="3877"/>
         <source>Jump to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ir para %1</translation>
     </message>
 </context>
 <context>
@@ -6740,17 +6740,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="556"/>
         <source>Apply style to ass files too</source>
-        <translation type="unfinished">Aplicar estilos a ficheiros ass</translation>
+        <translation>Aplicar estilos a ficheiros ass</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="558"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation type="unfinished">Se marcar esta opção, o estilo acima definido será também aplicado às legendas.</translation>
+        <translation>Se marcar esta opção, o estilo acima definido será também aplicado às legendas.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1211"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation type="unfinished">A&amp;plicar estilos a ficheiros ass</translation>
+        <translation>A&amp;plicar estilos a ficheiros ass</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="381"/>
