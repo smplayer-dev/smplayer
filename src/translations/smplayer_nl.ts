@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="nl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1450,12 +1451,12 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="1282"/>
         <source>Zoom for &amp;16:9</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoomen voor &amp;16:9</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1283"/>
         <source>Zoom for &amp;2.35:1</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoomen voor  &amp;2.35:1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1513"/>
@@ -1480,47 +1481,47 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="1565"/>
         <source>DVD &amp;previous menu</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Vorig DVD-menu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1559"/>
         <source>DVD menu, move up</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD-menu, omhoog</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1560"/>
         <source>DVD menu, move down</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD-menu, omlaag</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1561"/>
         <source>DVD menu, move left</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD-menu, naar links</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1562"/>
         <source>DVD menu, move right</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD-menu, naar rechts</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1564"/>
         <source>DVD menu, select option</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD-menu, optie selecteren</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1566"/>
         <source>DVD menu, mouse click</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD-menu, muisklik</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1309"/>
         <source>Set dela&amp;y...</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertragin&amp;g instellen...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1323"/>
         <source>Se&amp;t delay...</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertraging ins&amp;tellen...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3300"/>
@@ -1535,32 +1536,32 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="3311"/>
         <source>SMPlayer - Audio delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Geluidsvertraging</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3312"/>
         <source>Audio delay (in milliseconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>Geluidsvertraging (in milliseconden):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3321"/>
         <source>SMPlayer - Subtitle delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Ondertitelvertraging</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3322"/>
         <source>Subtitle delay (in milliseconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>Ondertitelvertraging (in milliseconden):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1516"/>
         <source>Toggle stay on top</source>
-        <translation type="unfinished"></translation>
+        <translation>Bovenaan blijven omschakelen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3877"/>
         <source>Jump to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Naar %1 springen</translation>
     </message>
 </context>
 <context>
@@ -5763,7 +5764,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="156"/>
         <source>Mpc GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Mpc GUI</translation>
     </message>
 </context>
 <context>
@@ -6975,7 +6976,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="117"/>
         <source>opens the mpc gui.</source>
-        <translation type="unfinished">opent </translation>
+        <translation>opent de mpc gui.</translation>
     </message>
 </context>
 <context>
@@ -7244,7 +7245,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="511"/>
         <source>Save file</source>
-        <translation type="unfinished"></translation>
+        <translation>Bestand opslaan</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="519"/>
@@ -7259,12 +7260,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="512"/>
         <source>Images</source>
-        <translation type="unfinished"></translation>
+        <translation>Afbeeldingen</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="361"/>
         <source>No info</source>
-        <translation type="unfinished"></translation>
+        <translation>Geen info</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="365"/>
@@ -7279,17 +7280,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="382"/>
         <source>Video bitrate: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Video bitrate: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="383"/>
         <source>Audio bitrate: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio bitrate: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="384"/>
         <source>Audio rate: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio rate: %1</translation>
     </message>
 </context>
 <context>
@@ -7302,27 +7303,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="43"/>
         <source>The preview will be created for the video you specify here.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het voorbeeld zal worden gemaakt voor de video die u hier instelt.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="46"/>
         <source>The thumbnails will be arranged on a table.</source>
-        <translation type="unfinished"></translation>
+        <translation>De miniaturen zullen op een tabel worden gesorteerd.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="45"/>
         <source>This option specifies the number of columns of the table.</source>
-        <translation type="unfinished"></translation>
+        <translation>Deze optie stelt het aantal kolommen op de tabel in.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="46"/>
         <source>This option specifies the number of rows of the table.</source>
-        <translation type="unfinished"></translation>
+        <translation>Deze optie stelt het aantal rijen op de tabel in.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
         <source>If you check this option, the playing time will be displayed at the bottom of each thumbnail.</source>
-        <translation type="unfinished"></translation>
+        <translation>Indien u deze optie aanvinkt zal de tijd op elke miniatuur worden getoond.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
@@ -7352,17 +7353,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="21"/>
         <source>&amp;File:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bestand:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="55"/>
         <source>&amp;Columns:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kolommen:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="91"/>
         <source>&amp;Rows:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rijen:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="113"/>
@@ -7372,7 +7373,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="135"/>
         <source>&amp;Aspect ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Aspectverhouding:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="165"/>
@@ -7382,7 +7383,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="195"/>
         <source>&amp;Maximum width:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Maximale breedte:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="245"/>
