@@ -112,6 +112,7 @@
   !define MUI_ABORTWARNING
   !define MUI_COMPONENTSPAGE_SMALLDESC
   !define MUI_LICENSEPAGE_CHECKBOX
+  !define MUI_FINISHPAGE_NOREBOOTSUPPORT
   !define MUI_FINISHPAGE_RUN $INSTDIR\smplayer.exe
   !define MUI_FINISHPAGE_RUN_NOTCHECKED
   !define MUI_FINISHPAGE_RUN_PARAMETERS http://88.191.30.130:8050
@@ -266,13 +267,15 @@ Section SMPlayer SMPlayer
 
   # Registry Uninstall information
   WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "DisplayName" "$(^Name)"
-  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "UninstallString" "$INSTDIR\uninst.exe"
   WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "DisplayIcon" "$INSTDIR\smplayer.exe"
   WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "DisplayVersion" "${PRODUCT_VERSION}"
   WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "HelpLink" "${PRODUCT_FORUM}"
+  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "UninstallString" "$INSTDIR\uninst.exe"
   WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "URLInfoAbout" "${PRODUCT_WEB_SITE}"
   WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "URLUpdateInfo" "${PRODUCT_WEB_SITE}"
   WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "Publisher" "${PRODUCT_PUBLISHER}"
+  WriteRegDWORD HKLM "${PRODUCT_UNINST_KEY}" "NoModify" "1"
+  WriteRegDWORD HKLM "${PRODUCT_UNINST_KEY}" "NoRepair" "1"
 
   # Copy 7zip to installer's temp directory
   SetOutPath "$PLUGINSDIR"
@@ -354,31 +357,36 @@ SectionGroup /e "MPlayer Components"
 
     done_ver_info:
 
-        DetailPrint "Downloading MPlayer..."
-        inetc::get /timeout 30000 /resume "" /caption "Downloading MPlayer..." /banner "Downloading $MPLAYER_VERSION.7z" \
-        "http://downloads.sourceforge.net/smplayer/$MPLAYER_VERSION.7z?big_mirror=0" \
-        "$PLUGINSDIR\$MPLAYER_VERSION.7z"
-        /* inetc::get /caption "Downloading MPlayer..." /banner "Downloading $MPLAYER_VERSION.7z" \
-        "ftp://ftp.berlios.de/pub/smplayer/test/$MPLAYER_VERSION.7z" \
-        "$PLUGINSDIR\$MPLAYER_VERSION.7z" */
-        Pop $R0
-        StrCmp $R0 OK mplayerdl1
-          MessageBox MB_OK "Failed to download mplayer package: $R0.$\nMPlayer is required for playback!"
-          Abort
-          mplayerdl1:
-            # Extract
-            nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$MPLAYER_VERSION.7z" -o"$PLUGINSDIR"'
+      DetailPrint "Downloading MPlayer..."
+      inetc::get /timeout 30000 /resume "" /caption "Downloading MPlayer..." /banner "Downloading $MPLAYER_VERSION.7z" \
+      "http://downloads.sourceforge.net/smplayer/$MPLAYER_VERSION.7z?big_mirror=0" \
+      "$PLUGINSDIR\$MPLAYER_VERSION.7z"
+      /* inetc::get /timeout 30000 /resume "" /caption "Downloading MPlayer..." /banner "Downloading $MPLAYER_VERSION.7z" \
+      "ftp://ftp.berlios.de/pub/smplayer/test/$MPLAYER_VERSION.7z" \
+      "$PLUGINSDIR\$MPLAYER_VERSION.7z" */
+      # Result of download; for inetc should equal "OK" if successful
+      Pop $R0
+      StrCmp $R0 OK 0 check_mplayer
 
-            # Copy
-            CreateDirectory "$INSTDIR\mplayer"
-            CopyFiles /SILENT "$PLUGINSDIR\$MPLAYER_VERSION\*" "$INSTDIR\mplayer"
+      # Extract
+      nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$MPLAYER_VERSION.7z" -o"$PLUGINSDIR"'
 
-            IfFileExists "$INSTDIR\mplayer\mplayer.exe" mplayerInstSuccess mplayerInstFailed
-              mplayerInstFailed:
-                MessageBox MB_OK "Failed to install MPlayer. MPlayer is required for playback!"
-                Abort
-              mplayerInstSuccess:
-                WriteRegDWORD HKLM Software\SMPlayer Installed_MPlayer 0x1
+      # Copy
+      CreateDirectory "$INSTDIR\mplayer"
+      CopyFiles /SILENT "$PLUGINSDIR\$MPLAYER_VERSION\*" "$INSTDIR\mplayer"
+
+    check_mplayer:
+      # This label does not necessarily mean there was a download error, so check first
+      ${If} $R0 != "OK"
+        DetailPrint "Failed to download MPlayer: $R0."
+      ${EndIf}
+
+      IfFileExists "$INSTDIR\mplayer\mplayer.exe" mplayerInstSuccess mplayerInstFailed
+        mplayerInstSuccess:
+          WriteRegDWORD HKLM Software\SMPlayer Installed_MPlayer 0x1
+          Goto done
+        mplayerInstFailed:
+          Abort "Failed to install MPlayer. MPlayer is required for playback."
 
     done:
 
@@ -417,31 +425,38 @@ SectionGroup /e "MPlayer Components"
 
     done_ver_info:
 
-        DetailPrint "Downloading MPlayer Codecs..."
-        inetc::get /timeout 30000 /resume "" /caption "Downloading MPlayer Codecs..." /banner "Downloading $CODEC_VERSION.zip" \
-        "http://www.mplayerhq.hu/MPlayer/releases/codecs/$CODEC_VERSION.zip" \
-        "$PLUGINSDIR\$CODEC_VERSION.zip"
-        /* inetc::get /caption "Downloading MPlayer Codecs..." /banner "Downloading ${CODEC_VERSION}.zip" \
-        "ftp://ftp.berlios.de/pub/smplayer/test/${CODEC_VERSION}.zip" \
-        "$PLUGINSDIR\${CODEC_VERSION}.zip" */
-        Pop $R0
-        StrCmp $R0 OK codecdlSuccess
-          MessageBox MB_OK "Failed to download codec package: $R0.$\nCodec installation will be skipped."
+      DetailPrint "Downloading MPlayer codecs..."
+      inetc::get /timeout 30000 /resume "" /caption "Downloading MPlayer codecs..." /banner "Downloading $CODEC_VERSION.zip" \
+      "http://www.mplayerhq.hu/MPlayer/releases/codecs/$CODEC_VERSION.zip" \
+      "$PLUGINSDIR\$CODEC_VERSION.zip"
+      /* inetc::get /timeout 30000 /resume "" /caption "Downloading MPlayer codecs..." /banner "Downloading $CODEC_VERSION.zip" \
+      "ftp://ftp.berlios.de/pub/smplayer/test/$CODEC_VERSION.zip" \
+      "$PLUGINSDIR\$CODEC_VERSION.zip" */
+      # Result of download; for inetc should equal "OK" if successful
+      Pop $R0
+      StrCmp $R0 OK 0 check_codecs
+
+      # Extract
+      nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$CODEC_VERSION.zip" -o"$PLUGINSDIR"'
+
+      # Copy
+      CreateDirectory "$INSTDIR\mplayer\codecs"
+      CopyFiles /SILENT "$PLUGINSDIR\$CODEC_VERSION\*" "$INSTDIR\mplayer\codecs"
+
+    check_codecs:
+      # This label does not necessarily mean there was a download error, so check first
+      ${If} $R0 != "OK"
+        DetailPrint "Failed to download MPlayer codecs: $R0."
+      ${EndIf}
+
+      IfFileExists "$INSTDIR\mplayer\codecs\Readme.txt" codecsInstSuccess codecsInstFailed
+        codecsInstSuccess:
+          WriteRegDWORD HKLM Software\SMPlayer Installed_Codecs 0x1
           Goto done
-          codecdlSuccess:
-            # Extract
-            nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$CODEC_VERSION.zip" -o"$PLUGINSDIR"'
-
-            # Copy
-            CreateDirectory "$INSTDIR\mplayer\codecs"
-            CopyFiles /SILENT "$PLUGINSDIR\$CODEC_VERSION\*" "$INSTDIR\mplayer\codecs"
-
-            IfFileExists "$INSTDIR\mplayer\codecs\Readme.txt" codecsInstSuccess codecsInstFailed
-              codecsInstFailed:
-                MessageBox MB_OK "Failed to install MPlayer codecs. Re-run setup and try again."
-                Goto done
-              codecsInstSuccess:
-                WriteRegDWORD HKLM Software\SMPlayer Installed_Codecs 0x1
+        codecsInstFailed:
+          DetailPrint "Failed to install MPlayer codecs. Re-run setup and try again."
+          # Pause for 2 seconds to see the error message
+          Sleep 2000
 
     done:
 
@@ -492,6 +507,13 @@ ${MementoSectionDone}
 
 Function .onInit
 
+  System::Call 'kernel32::CreateMutexA(i 0, i 0, t "MPlayerSMPlayer") i .r1 ?e'
+  Pop $R0
+
+  StrCmp $R0 0 +3
+    MessageBox MB_OK|MB_ICONEXCLAMATION "The installer is already running."
+    Abort
+
   Call getUserInfo
 
   # Check for admin (mimic old Inno Setup behavior... non-admin installation maybe later..)
@@ -499,13 +521,6 @@ Function .onInit
     MessageBox MB_OK|MB_ICONSTOP "You must be logged in as an administrator when installing this program."
     Abort
   ${EndIf}
-
-  System::Call 'kernel32::CreateMutexA(i 0, i 0, t "$(^Name)") i .r1 ?e'
-  Pop $R0
-
-  StrCmp $R0 0 +3
-    MessageBox MB_OK|MB_ICONEXCLAMATION "The installer is already running."
-    Abort
 
   !insertmacro MUI_LANGDLL_DISPLAY
 
@@ -520,6 +535,17 @@ Function .onInstSuccess
 FunctionEnd
 
 Function .onInstFailed
+
+  SetDetailsPrint textonly
+  DetailPrint "Rolling back changes..."
+  SetDetailsPrint listonly
+
+  # Delete registry keys
+  DeleteRegKey HKLM "${PRODUCT_UNINST_KEY}"
+  DeleteRegKey HKCR "MPlayerFileVideo"
+  DeleteRegKey HKLM "Software\Clients\Media\SMPlayer"
+  DeleteRegValue HKLM "Software\RegisteredApplications" "SMPlayer"
+  DeleteRegKey HKLM "Software\SMPlayer"
 
   # Delete desktop and start menu shortcuts
   SetShellVarContext all
@@ -542,12 +568,7 @@ Function .onInstFailed
   Delete "$INSTDIR\uninst.exe"
   RMDir "$INSTDIR"
 
-  # Registry
-  DeleteRegKey HKLM "${PRODUCT_UNINST_KEY}"
-  DeleteRegKey HKCR "MPlayerFileVideo"
-  DeleteRegKey HKLM "Software\Clients\Media\SMPlayer"
-  DeleteRegValue HKLM "Software\RegisteredApplications" "SMPlayer"
-  DeleteRegKey HKLM "Software\SMPlayer"
+  SetDetailsPrint both
 
 FunctionEnd
 
@@ -617,16 +638,45 @@ FunctionEnd
 
 Section Uninstall
 
-  # Restore all file associations...
+  # Make sure SMPlayer is installed from where the uninstaller is being executed.
+  IfFileExists $INSTDIR\smplayer.exe smplayer_installed
+    MessageBox MB_YESNO "It does not appear that SMPlayer is installed in the directory '$INSTDIR'.$\r$\nContinue anyway (not recommended)?" IDYES smplayer_installed
+    Abort "Uninstall aborted by user."
+
+  smplayer_installed:
+
+  SetDetailsPrint textonly
+  DetailPrint "Restoring file associations..."
+  SetDetailsPrint listonly
+
   ExecWait '"$INSTDIR\smplayer.exe" -uninstall'
 
+  # Delete registry keys
+  SetDetailsPrint textonly
+  DetailPrint "Deleting Registry Keys..."
+  SetDetailsPrint listonly
+
+  DeleteRegKey HKLM "${PRODUCT_UNINST_KEY}"
+  DeleteRegKey HKCR "MPlayerFileVideo"
+  DeleteRegKey HKLM "Software\Clients\Media\SMPlayer"
+  DeleteRegValue HKLM "Software\RegisteredApplications" "SMPlayer"
+  DeleteRegKey HKLM "Software\SMPlayer"
+
   # Delete desktop and start menu shortcuts
+  SetDetailsPrint textonly
+  DetailPrint "Deleting Shortcuts..."
+  SetDetailsPrint listonly
+
   SetShellVarContext all
   Delete "$DESKTOP\SMPlayer.lnk"
   RMDir /r "$SMPROGRAMS\${PRODUCT_STARTMENU_GROUP}"
 
   # Delete directories recursively except for main directory
   # Do not recursively delete $INSTDIR
+  SetDetailsPrint textonly
+  DetailPrint "Deleting Files..."
+  SetDetailsPrint listonly
+
   RMDir /r "$INSTDIR\docs"
   RMDir /r "$INSTDIR\imageformats"
   RMDir /r "$INSTDIR\mplayer"
@@ -641,14 +691,7 @@ Section Uninstall
   Delete "$INSTDIR\uninst.exe"
   RMDir "$INSTDIR"
 
-  # Registry
-  DeleteRegKey HKLM "${PRODUCT_UNINST_KEY}"
-  DeleteRegKey HKCR "MPlayerFileVideo"
-  DeleteRegKey HKLM "Software\Clients\Media\SMPlayer"
-  DeleteRegValue HKLM "Software\RegisteredApplications" "SMPlayer"
-  DeleteRegKey HKLM "Software\SMPlayer"
-
-  SetAutoClose true
+  SetDetailsPrint both
 
 SectionEnd
 
@@ -670,13 +713,6 @@ Function un.onInit
 
   MessageBox MB_ICONQUESTION|MB_YESNO|MB_DEFBUTTON2 "Are you sure you want to completely remove $(^Name) and all of its components?" IDYES +2
   Abort
-
-FunctionEnd
-
-Function un.onUninstSuccess
-
-  HideWindow
-  MessageBox MB_ICONINFORMATION|MB_OK "$(^Name) was successfully removed from your computer."
 
 FunctionEnd
 
