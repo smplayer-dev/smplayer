@@ -2592,7 +2592,7 @@ void Core::decVolume() {
 void Core::setSubDelay(int delay) {
 	qDebug("Core::setSubDelay: %d", delay);
 	mset.sub_delay = delay;
-	tellmp("sub_delay " + QString::number( (double) mset.sub_delay/1000 ) +" 1");
+	tellmp( pausing_prefix() + " sub_delay " + QString::number( (double) mset.sub_delay/1000 ) +" 1");
 }
 
 void Core::incSubDelay() {
