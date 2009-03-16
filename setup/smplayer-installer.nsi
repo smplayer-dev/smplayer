@@ -277,6 +277,18 @@ Section SMPlayer SMPlayer
   WriteRegDWORD HKLM "${PRODUCT_UNINST_KEY}" "NoModify" "1"
   WriteRegDWORD HKLM "${PRODUCT_UNINST_KEY}" "NoRepair" "1"
 
+  # Initialize to 0 if don't exist (based on error flag)
+  ClearErrors
+  ReadRegDWORD $R0 HKLM Software\SMPlayer Installed_MPlayer
+  ${If} ${Errors}
+    WriteRegDWORD HKLM Software\SMPlayer Installed_MPlayer 0x0
+  ${EndIf}
+  ClearErrors
+  ReadRegDWORD $R0 HKLM Software\SMPlayer Installed_Codecs
+  ${If} ${Errors}
+    WriteRegDWORD HKLM Software\SMPlayer Installed_Codecs 0x0
+  ${EndIf}
+
   # Copy 7zip to installer's temp directory
   SetOutPath "$PLUGINSDIR"
   File 7za.exe
@@ -449,14 +461,15 @@ SectionGroup /e "MPlayer Components"
         DetailPrint "Failed to download MPlayer codecs: $R0."
       ${EndIf}
 
-      IfFileExists "$INSTDIR\mplayer\codecs\Readme.txt" codecsInstSuccess codecsInstFailed
+      IfFileExists "$INSTDIR\mplayer\codecs\*.dll" codecsInstSuccess codecsInstFailed
         codecsInstSuccess:
           WriteRegDWORD HKLM Software\SMPlayer Installed_Codecs 0x1
           Goto done
         codecsInstFailed:
           DetailPrint "Failed to install MPlayer codecs. Re-run setup and try again."
-          # Pause for 2 seconds to see the error message
-          Sleep 2000
+          WriteRegDWORD HKLM Software\SMPlayer Installed_Codecs 0x0
+          # Pause for 5 seconds to see the error message
+          Sleep 5000
 
     done:
 
