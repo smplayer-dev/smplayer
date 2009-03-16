@@ -50,29 +50,11 @@ PrefDrives::PrefDrives(QWidget * parent, Qt::WindowFlags f)
 	use_dvdnav_check->hide();
 #endif
 
-	// DVD device combo
-	// In windows, insert the drives letters
-#ifdef Q_OS_WIN
-	QFileInfoList list = QDir::drives();
-	for (int n = 0; n < list.size(); n++) {
-		QString s = list[n].filePath();
-		if (isCDDevice(s)) {
-			if (s.endsWith("/")) s = s.remove( s.length()-1,1);
-			dvd_device_combo->addItem( s );
-			cdrom_device_combo->addItem( s );
-		}
-	}
-#else
-	QDir dev_dir("/dev");
-	QStringList devices = dev_dir.entryList( QStringList() << "dvd*" << "cdrom*" << "cdrw*" << "sr*" << "cdrecorder*" << "acd[0-9]*" << "cd[0-9]*", 
-                                             QDir::Files | QDir::System | QDir::Readable);
-	for (int n=0; n < devices.count(); n++) {
-		QString device_name = "/dev/" + devices[n];
-		qDebug("PrefDrives::PrefDrives: device found: '%s'", device_name.toUtf8().constData());
-		dvd_device_combo->addItem(device_name);
-		cdrom_device_combo->addItem(device_name);
-	}
+#ifndef Q_OS_WIN
+	check_drives_button->hide();
 #endif
+
+	updateDriveCombos();
 
 	retranslateStrings();
 }
@@ -97,6 +79,47 @@ void PrefDrives::retranslateStrings() {
 	dvd_drive_icon->setPixmap( Images::icon("dvd_drive") );
 
 	createHelp();
+}
+
+void PrefDrives::updateDriveCombos(bool detect_cd_devices) {
+	qDebug("PrefDrives::updateDriveCombos: detect_cd_devices: %d", detect_cd_devices);
+
+	// Save current values
+	QString current_dvd_device = dvdDevice();
+	QString current_cd_device = cdromDevice();
+
+	dvd_device_combo->clear();
+	cdrom_device_combo->clear();
+
+	// DVD device combo
+	// In windows, insert the drives letters
+#ifdef Q_OS_WIN
+	QFileInfoList list = QDir::drives();
+	for (int n = 0; n < list.size(); n++) {
+		QString s = list[n].filePath();
+		bool is_cd_device = true;
+		if (detect_cd_devices) is_cd_device = isCDDevice(s);
+		if (is_cd_device) {
+			if (s.endsWith("/")) s = s.remove( s.length()-1,1);
+			dvd_device_combo->addItem( s );
+			cdrom_device_combo->addItem( s );
+		}
+	}
+#else
+	QDir dev_dir("/dev");
+	QStringList devices = dev_dir.entryList( QStringList() << "dvd*" << "cdrom*" << "cdrw*" << "sr*" << "cdrecorder*" << "acd[0-9]*" << "cd[0-9]*", 
+                                             QDir::Files | QDir::System | QDir::Readable);
+	for (int n=0; n < devices.count(); n++) {
+		QString device_name = "/dev/" + devices[n];
+		qDebug("PrefDrives::PrefDrives: device found: '%s'", device_name.toUtf8().constData());
+		dvd_device_combo->addItem(device_name);
+		cdrom_device_combo->addItem(device_name);
+	}
+#endif
+
+	// Restore previous values
+	setDVDDevice( current_dvd_device );
+	setCDRomDevice( current_cd_device );
 }
 
 void PrefDrives::setData(Preferences * pref) {
@@ -144,6 +167,11 @@ bool PrefDrives::useDVDNav() {
 	return use_dvdnav_check->isChecked();
 }
 #endif
+
+void PrefDrives::on_check_drives_button_clicked() {
+	qDebug("PrefDrives::on_check_drives_button_clicked");
+	updateDriveCombos(true);
+}
 
 void PrefDrives::createHelp() {
 	clearHelp();
