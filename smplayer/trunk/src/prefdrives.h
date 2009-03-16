@@ -56,6 +56,11 @@ protected:
 	bool useDVDNav();
 #endif
 
+	void updateDriveCombos(bool detect_cd_devices = false);
+
+protected slots:
+	void on_check_drives_button_clicked();
+
 protected:
 	virtual void retranslateStrings();
 };
