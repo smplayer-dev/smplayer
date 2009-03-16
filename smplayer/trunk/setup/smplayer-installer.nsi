@@ -143,6 +143,7 @@
   !insertmacro MUI_PAGE_FINISH
 
   # UnInstall Pages
+  !insertmacro MUI_UNPAGE_CONFIRM
   !insertmacro MUI_UNPAGE_INSTFILES
 
 ;--------------------------------
@@ -723,9 +724,6 @@ Function un.onInit
 
   # Get the stored language preference
   !insertmacro MUI_UNGETLANGUAGE
-
-  MessageBox MB_ICONQUESTION|MB_YESNO|MB_DEFBUTTON2 "Are you sure you want to completely remove $(^Name) and all of its components?" IDYES +2
-  Abort
 
 FunctionEnd
 
