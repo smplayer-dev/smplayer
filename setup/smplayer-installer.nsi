@@ -197,17 +197,8 @@ Section SMPlayer SMPlayer
   SectionIn 1 2 RO
   SetOutPath "$INSTDIR"
   File "smplayer-build\*"
-
-  # Docs folder
-  SetOutPath "$INSTDIR"
   File /r "smplayer-build\docs"
-
-  # Imageformats folder
-  SetOutPath "$INSTDIR"
   File /r "smplayer-build\imageformats"
-
-  # Shortcuts folder
-  SetOutPath "$INSTDIR"
   File /r "smplayer-build\shortcuts"
 
   # UnInstall file
