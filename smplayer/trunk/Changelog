@@ -2,6 +2,8 @@
 
 (2009-03-18)
  * (Videopreview) Ctrl+H toggles displaying the info about the video.
+ * Don't use "set_property switch_video" when using the nsv demuxer. It makes
+   mplayer stop displaying the video after a few seconds.
 
 (2009-03-16)
  * (Windows) Now by default the combos in Preferences -> Drives will show all
