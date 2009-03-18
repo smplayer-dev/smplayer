@@ -99,7 +99,8 @@ public slots:
     void pause_and_frame_step();
 	void pause();
 	void frameStep();
-	void screenshot();
+	void screenshot();	//!< Take a screenshot of current frame
+	void screenshots();	//!< Start/stop taking screenshot of each frame
 
 	//! Public restart, for the GUI.
 	void restart();

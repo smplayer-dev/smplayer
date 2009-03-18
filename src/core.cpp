@@ -1119,6 +1119,21 @@ void Core::screenshot() {
 	}
 }
 
+void Core::screenshots() {
+	qDebug("Core::screenshots");
+
+	if ( (!pref->screenshot_directory.isEmpty()) && 
+         (QFileInfo(pref->screenshot_directory).isDir()) ) 
+	{
+		tellmp( "screenshot 1");
+	} else {
+		qDebug("Core::screenshots: error: directory for screenshots not valid");
+		QString text = "Screenshots NOT taken, folder not configured";
+		tellmp("osd_show_text \"" + text + "\" 3000 1");
+		emit showMessage(text);
+	}
+}
+
 void Core::processFinished()
 {
     qDebug("Core::processFinished");
