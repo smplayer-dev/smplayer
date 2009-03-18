@@ -48,6 +48,7 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent) : QWidget(par
 
 	set = 0; // settings
 	save_last_directory = true;
+	display_thumbnails_only = false;
 
 	prop.input_video.clear();
 	prop.dvd_device.clear();
@@ -180,6 +181,11 @@ bool VideoPreview::createThumbnails() {
 
 	// Adjust size
 	//resize( w_contents->sizeHint() );
+
+	if (display_thumbnails_only) {
+		info->hide();
+		foot->hide();
+	}
 
 	cleanDir(full_output_dir);
 	return result;
@@ -576,6 +582,8 @@ void VideoPreview::saveSettings() {
 	set->setValue("filename", videoFile());
 	set->setValue("dvd_device", DVDDevice());
 
+	set->setValue("display_thumbnails_only", display_thumbnails_only);
+
 	set->endGroup();
 }
 
@@ -595,6 +603,8 @@ void VideoPreview::loadSettings() {
 
 	setVideoFile( set->value("filename", videoFile()).toString() );
 	setDVDDevice( set->value("dvd_device", DVDDevice()).toString() );
+
+	display_thumbnails_only = set->value("display_thumbnails_only", display_thumbnails_only).toBool();
 
 	set->endGroup();
 }
