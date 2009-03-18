@@ -425,9 +425,15 @@ void BaseGui::createActions() {
 	connect( videoEqualizerAct, SIGNAL(toggled(bool)),
              this, SLOT(showVideoEqualizer(bool)) );
 
+	// Single screenshot
 	screenshotAct = new MyAction( Qt::Key_S, this, "screenshot" );
 	connect( screenshotAct, SIGNAL(triggered()),
              core, SLOT(screenshot()) );
+
+	// Multiple screenshots
+	screenshotsAct = new MyAction( QKeySequence("Shift+D"), this, "multiple_screenshots" );
+	connect( screenshotsAct, SIGNAL(triggered()),
+             core, SLOT(screenshots()) );
 
 	videoPreviewAct = new MyAction( this, "video_preview" );
 	connect( videoPreviewAct, SIGNAL(triggered()),
@@ -1018,6 +1024,7 @@ void BaseGui::setActionsEnabled(bool b) {
 	// Menu Video
 	videoEqualizerAct->setEnabled(b);
 	screenshotAct->setEnabled(b);
+	screenshotsAct->setEnabled(b);
 	flipAct->setEnabled(b);
 	mirrorAct->setEnabled(b);
 	postProcessingAct->setEnabled(b);
@@ -1124,6 +1131,7 @@ void BaseGui::enableActionsOnPlaying() {
 	bool valid_directory = ( (!pref->screenshot_directory.isEmpty()) &&
                              (QFileInfo(pref->screenshot_directory).isDir()) );
 	screenshotAct->setEnabled( valid_directory );
+	screenshotsAct->setEnabled( valid_directory );
 
 	// Disable the compact action if not using video window
 	compactAct->setEnabled( panel->isVisible() );
@@ -1151,6 +1159,7 @@ void BaseGui::enableActionsOnPlaying() {
 	if (core->mdat.novideo) {
 		videoEqualizerAct->setEnabled(false);
 		screenshotAct->setEnabled(false);
+		screenshotsAct->setEnabled(false);
 		flipAct->setEnabled(false);
 		mirrorAct->setEnabled(false);
 		postProcessingAct->setEnabled(false);
@@ -1271,6 +1280,7 @@ void BaseGui::retranslateStrings() {
 	compactAct->change( Images::icon("compact"), tr("&Compact mode") );
 	videoEqualizerAct->change( Images::icon("equalizer"), tr("&Equalizer") );
 	screenshotAct->change( Images::icon("screenshot"), tr("&Screenshot") );
+	screenshotsAct->change( Images::icon("screenshots"), tr("Start/stop takin&g screenshots") );
 	videoPreviewAct->change( Images::icon("video_preview"), tr("Pre&view...") );
 	flipAct->change( Images::icon("flip"), tr("Flip i&mage") );
 	mirrorAct->change( Images::icon("mirror"), tr("Mirr&or image") );
@@ -1992,6 +2002,7 @@ void BaseGui::createMenus() {
 	videoMenu->addSeparator();
 	videoMenu->addAction(videoEqualizerAct);
 	videoMenu->addAction(screenshotAct);
+	videoMenu->addAction(screenshotsAct);
 
 	// Ontop submenu
 	ontop_menu = new QMenu(this);
