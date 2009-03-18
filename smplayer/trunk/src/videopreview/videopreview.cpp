@@ -117,6 +117,13 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent) : QWidget(par
 		write_formats.append(w_formats[n]+" ");
 	}
 	qDebug("VideoPreview::VideoPreview: supported formats for writing: %s", write_formats.toUtf8().constData());
+
+	toggleInfoAct = new QAction(this);
+	toggleInfoAct->setCheckable(true);
+	toggleInfoAct->setChecked(true);
+	toggleInfoAct->setShortcut( QKeySequence("Ctrl+H") );
+	connect( toggleInfoAct, SIGNAL(toggled(bool)), this, SLOT(showInfo(bool)) );
+	addAction(toggleInfoAct);
 }
 
 VideoPreview::~VideoPreview() {
@@ -482,6 +489,11 @@ VideoInfo VideoPreview::getInfo(const QString & mplayer_path, const QString & fi
 	return i;
 }
 
+void VideoPreview::showInfo(bool visible) {
+	qDebug("VideoPreview::showInfo: %d", visible);
+	info->setShown(visible);
+	foot->setShown(visible);
+}
 
 void VideoPreview::saveImage() {
 	qDebug("VideoPreview::saveImage");
@@ -576,6 +588,8 @@ void VideoPreview::saveSettings() {
 	set->setValue("filename", videoFile());
 	set->setValue("dvd_device", DVDDevice());
 
+	set->setValue("show_info", toggleInfoAct->isChecked());
+
 	set->endGroup();
 }
 
@@ -595,6 +609,8 @@ void VideoPreview::loadSettings() {
 
 	setVideoFile( set->value("filename", videoFile()).toString() );
 	setDVDDevice( set->value("dvd_device", DVDDevice()).toString() );
+
+	toggleInfoAct->setChecked(set->value("show_info", true).toBool());
 
 	set->endGroup();
 }
