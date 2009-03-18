@@ -1,3 +1,24 @@
+[b]Version 0.6.8[/b]:
+
+(2009-03-18)
+ * (Videopreview) Ctrl+H toggles displaying the info about the video.
+
+(2009-03-16)
+ * (Windows) Now by default the combos in Preferences -> Drives will show all
+   drives, not only CD/DVD devices, as it has been reported that checking
+   for those devices can be slow if there are network drives. Now there's
+   a button "Scan for CD/DVD devices" to force the detection of CD/DVD devices.
+
+(2009-03-12)
+ * Deleted the obsolete translations from smplayer_gl.ts (caused lrelease
+   to fail with Qt 4.5.0).
+
+(2009-03-11)
+ * Fixed some build problems that could make the installation fail, trying to 
+   recompile everything again with qt3 because QMAKE can be undefined during 
+   make install.
+
+
 [b]Version 0.6.7[/b]:
 
 (2009-03-06)
