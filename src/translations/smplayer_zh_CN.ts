@@ -4163,27 +4163,27 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>设备</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="195"/>
+        <location filename="../prefdrives.ui" line="202"/>
         <source>icon</source>
         <translation>图标</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="151"/>
+        <location filename="../prefdrives.cpp" line="179"/>
         <source>CD device</source>
         <translation>光驱设备</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="153"/>
+        <location filename="../prefdrives.cpp" line="181"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
         <translation>选择您的光驱设备。它将用于播放 VCD 和 音频 CD。</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="155"/>
+        <location filename="../prefdrives.cpp" line="183"/>
         <source>DVD device</source>
         <translation>DVD 设备</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="156"/>
+        <location filename="../prefdrives.cpp" line="184"/>
         <source>Choose your DVD device. It will be used to play DVDs.</source>
         <translation>选择您的 DVD 设备。它将用于播放 DVD。</translation>
     </message>
@@ -4193,7 +4193,7 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>选择你的 CD 设备(&amp;C):</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="222"/>
+        <location filename="../prefdrives.ui" line="229"/>
         <source>Select your &amp;DVD device:</source>
         <translation>选择你的 DVD 设备(&amp;D):</translation>
     </message>
@@ -4203,34 +4203,39 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>SMPlayer 默认不选择任何 CDROM 或 DVD 设备。所以在播放 CD 或 DVD 前, 您必须选择要使用的设备(它们可以相同)。</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="159"/>
+        <location filename="../prefdrives.cpp" line="187"/>
         <source>Enable DVD menus</source>
         <translation>启用 DVD 菜单</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="162"/>
+        <location filename="../prefdrives.cpp" line="190"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
         <translation>如果勾选此选项，SMPlayer 将使用 dvdnav 来播放 DVD。需要最新的带 dvdnav 支持的 MPlayer。</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="163"/>
+        <location filename="../prefdrives.cpp" line="191"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
         <translation>&lt;b&gt;注意1&lt;/b&gt;: 缓存将会失效，这可能会影响性能。</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="165"/>
+        <location filename="../prefdrives.cpp" line="193"/>
         <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
         <translation>&lt;b&gt;注意2&lt;/b&gt;: 您可能会希望将动作 &quot;激活 DVD 菜单&quot; 指派到某个鼠标按键上。</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="167"/>
+        <location filename="../prefdrives.cpp" line="195"/>
         <source>&lt;b&gt;Note 3&lt;/b&gt;: this feature is under development, expect a lot of issues with it.</source>
         <translation>&lt;b&gt;注意3&lt;/b&gt;: 这个特性正在开发中，可能会有很多问题。</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="271"/>
+        <location filename="../prefdrives.ui" line="278"/>
         <source>&amp;Enable DVD menus (experimental)</source>
         <translation>启用 DVD 菜单(试验) (&amp;E)</translation>
+    </message>
+    <message>
+        <location filename="../prefdrives.ui" line="157"/>
+        <source>&amp;Scan for CD/DVD drives</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7147,147 +7152,147 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="388"/>
+        <location filename="../videopreview/videopreview.cpp" line="395"/>
         <source>Video preview</source>
         <translation>视频预览</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="128"/>
+        <location filename="../videopreview/videopreview.cpp" line="135"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="130"/>
+        <location filename="../videopreview/videopreview.cpp" line="137"/>
         <source>Generated by SMPlayer</source>
         <translation>由 SMPlayer 生成</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="219"/>
+        <location filename="../videopreview/videopreview.cpp" line="226"/>
         <source>Creating thumbnails...</source>
         <translation>生成缩略图...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="372"/>
+        <location filename="../videopreview/videopreview.cpp" line="379"/>
         <source>Size: %1 MB</source>
         <translation>大小: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="374"/>
+        <location filename="../videopreview/videopreview.cpp" line="381"/>
         <source>Length: %1</source>
         <translation>长度: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="511"/>
+        <location filename="../videopreview/videopreview.cpp" line="523"/>
         <source>Save file</source>
         <translation>保存文件</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="519"/>
+        <location filename="../videopreview/videopreview.cpp" line="531"/>
         <source>Error saving file</source>
         <translation>保存文件出错</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="520"/>
+        <location filename="../videopreview/videopreview.cpp" line="532"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>不能保存文件</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="175"/>
+        <location filename="../videopreview/videopreview.cpp" line="182"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="176"/>
+        <location filename="../videopreview/videopreview.cpp" line="183"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>在生成缩略图时出现以下错误:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="202"/>
+        <location filename="../videopreview/videopreview.cpp" line="209"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>不能建立临时文件夹 %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="297"/>
+        <location filename="../videopreview/videopreview.cpp" line="304"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>MPlayer 进程没有运行</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="373"/>
+        <location filename="../videopreview/videopreview.cpp" line="380"/>
         <source>Resolution: %1x%2</source>
         <translation>分辨率: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="377"/>
+        <location filename="../videopreview/videopreview.cpp" line="384"/>
         <source>Video format: %1</source>
         <translation>视频格式: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="378"/>
+        <location filename="../videopreview/videopreview.cpp" line="385"/>
         <source>Frames per second: %1</source>
         <translation>每秒帧数: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="379"/>
+        <location filename="../videopreview/videopreview.cpp" line="386"/>
         <source>Aspect ratio: %1</source>
         <translation>外观比例: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="315"/>
+        <location filename="../videopreview/videopreview.cpp" line="322"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>不能加载文件 %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="414"/>
+        <location filename="../videopreview/videopreview.cpp" line="421"/>
         <source>No filename</source>
         <translation>没有文件名</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="474"/>
+        <location filename="../videopreview/videopreview.cpp" line="481"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>获得视频信息时 MPlayer 进程不能启动</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="193"/>
+        <location filename="../videopreview/videopreview.cpp" line="200"/>
         <source>The length of the video is 0</source>
         <translation>视频长度为 0</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="237"/>
+        <location filename="../videopreview/videopreview.cpp" line="244"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>文件 %1 不存在</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="512"/>
+        <location filename="../videopreview/videopreview.cpp" line="524"/>
         <source>Images</source>
         <translation>图像</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="361"/>
+        <location filename="../videopreview/videopreview.cpp" line="368"/>
         <source>No info</source>
         <translation>无信息</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="365"/>
+        <location filename="../videopreview/videopreview.cpp" line="372"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="366"/>
+        <location filename="../videopreview/videopreview.cpp" line="373"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="382"/>
+        <location filename="../videopreview/videopreview.cpp" line="389"/>
         <source>Video bitrate: %1</source>
         <translation>视频比特率: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="383"/>
+        <location filename="../videopreview/videopreview.cpp" line="390"/>
         <source>Audio bitrate: %1</source>
         <translation>音频比特率: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="384"/>
+        <location filename="../videopreview/videopreview.cpp" line="391"/>
         <source>Audio rate: %1</source>
         <translation>音频率: %1</translation>
     </message>

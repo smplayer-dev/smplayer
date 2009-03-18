@@ -4166,27 +4166,27 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>Диски</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="195"/>
+        <location filename="../prefdrives.ui" line="202"/>
         <source>icon</source>
         <translation>піктограма</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="151"/>
+        <location filename="../prefdrives.cpp" line="179"/>
         <source>CD device</source>
         <translation>Пристрій CD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="153"/>
+        <location filename="../prefdrives.cpp" line="181"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
         <translation>Вкажіть Ваш пристрій CDROM. Це потрібно для програвання звукових та VCD дисків.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="155"/>
+        <location filename="../prefdrives.cpp" line="183"/>
         <source>DVD device</source>
         <translation>Пристрій DVD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="156"/>
+        <location filename="../prefdrives.cpp" line="184"/>
         <source>Choose your DVD device. It will be used to play DVDs.</source>
         <translation>Вкажіть Ваш пристрій DVD. Це потрібно для програвання DVD.</translation>
     </message>
@@ -4196,7 +4196,7 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>Виберіть Ваш &amp;CD-пристрій:</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="222"/>
+        <location filename="../prefdrives.ui" line="229"/>
         <source>Select your &amp;DVD device:</source>
         <translation>Виберіть Ваш &amp;DVD-пристрій:</translation>
     </message>
@@ -4206,34 +4206,39 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>SMPlayer не вибирає жодного CD чи DVD пристрою за замовчуванням. Тому перед відтворенням CD чи DVD Ви повині вказати який пристрій хочете використовувати (це може бути один і той самий).</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="159"/>
+        <location filename="../prefdrives.cpp" line="187"/>
         <source>Enable DVD menus</source>
         <translation>Увімкнути меню DVD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="162"/>
+        <location filename="../prefdrives.cpp" line="190"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
         <translation>Якщо ця опція увімкнена, smplayer відтворюватиме меню DVD, використовуючи dvdnav. Потребує останньої версії mplayer скомпільованої з підтримкою dvdnav.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="163"/>
+        <location filename="../prefdrives.cpp" line="191"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
         <translation>&lt;b&gt;Примітка 1&lt;/b&gt;: кеш буде вимкнений, це може вплинути на швидкодію.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="165"/>
+        <location filename="../prefdrives.cpp" line="193"/>
         <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
         <translation>&lt;b&gt;Примітка 2&lt;/b&gt;: можливо ви хочете призначити дію &quot;увімкнути опцію в меню DVD&quot; одній з клавіш миші.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="167"/>
+        <location filename="../prefdrives.cpp" line="195"/>
         <source>&lt;b&gt;Note 3&lt;/b&gt;: this feature is under development, expect a lot of issues with it.</source>
         <translation>&lt;b&gt;Примітка 3&lt;/b&gt;: ця можливість в розробці, очікується багато питань з приводу неї.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="271"/>
+        <location filename="../prefdrives.ui" line="278"/>
         <source>&amp;Enable DVD menus (experimental)</source>
         <translation>&amp;Увімкнути меню DVD (експериментально)</translation>
+    </message>
+    <message>
+        <location filename="../prefdrives.ui" line="157"/>
+        <source>&amp;Scan for CD/DVD drives</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7154,147 +7159,147 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="388"/>
+        <location filename="../videopreview/videopreview.cpp" line="395"/>
         <source>Video preview</source>
         <translation>Попередній перегляд відео</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="128"/>
+        <location filename="../videopreview/videopreview.cpp" line="135"/>
         <source>Cancel</source>
         <translation>Скасувати</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="130"/>
+        <location filename="../videopreview/videopreview.cpp" line="137"/>
         <source>Generated by SMPlayer</source>
         <translation>Згенеровано SMPlayer</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="219"/>
+        <location filename="../videopreview/videopreview.cpp" line="226"/>
         <source>Creating thumbnails...</source>
         <translation>Створення мініатюр...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="372"/>
+        <location filename="../videopreview/videopreview.cpp" line="379"/>
         <source>Size: %1 MB</source>
         <translation>Розмір: %1 Мб</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="374"/>
+        <location filename="../videopreview/videopreview.cpp" line="381"/>
         <source>Length: %1</source>
         <translation>Довжина: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="511"/>
+        <location filename="../videopreview/videopreview.cpp" line="523"/>
         <source>Save file</source>
         <translation>Зберегти файл</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="519"/>
+        <location filename="../videopreview/videopreview.cpp" line="531"/>
         <source>Error saving file</source>
         <translation>Помилка збереження файлу</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="520"/>
+        <location filename="../videopreview/videopreview.cpp" line="532"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>Файл не може бути збережений</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="175"/>
+        <location filename="../videopreview/videopreview.cpp" line="182"/>
         <source>Error</source>
         <translation>Помилка</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="176"/>
+        <location filename="../videopreview/videopreview.cpp" line="183"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>Сталася наступна помилка під час створення мініатюр:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="202"/>
+        <location filename="../videopreview/videopreview.cpp" line="209"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>Тимчасова тека (%1) не може бути створена</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="297"/>
+        <location filename="../videopreview/videopreview.cpp" line="304"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>Процес mplayer не запустився</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="373"/>
+        <location filename="../videopreview/videopreview.cpp" line="380"/>
         <source>Resolution: %1x%2</source>
         <translation>Роздільна здатність: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="377"/>
+        <location filename="../videopreview/videopreview.cpp" line="384"/>
         <source>Video format: %1</source>
         <translation>Формат відео: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="378"/>
+        <location filename="../videopreview/videopreview.cpp" line="385"/>
         <source>Frames per second: %1</source>
         <translation>Кадрів за секунду: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="379"/>
+        <location filename="../videopreview/videopreview.cpp" line="386"/>
         <source>Aspect ratio: %1</source>
         <translation>Співвідношення сторін: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="315"/>
+        <location filename="../videopreview/videopreview.cpp" line="322"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>Файл %1 не може бути завантажений</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="414"/>
+        <location filename="../videopreview/videopreview.cpp" line="421"/>
         <source>No filename</source>
         <translation>Немає назви файлу</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="474"/>
+        <location filename="../videopreview/videopreview.cpp" line="481"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>Процес mplayer не запустився під час спроби отримання інформації про відео</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="193"/>
+        <location filename="../videopreview/videopreview.cpp" line="200"/>
         <source>The length of the video is 0</source>
         <translation>Довжина відео: 0</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="237"/>
+        <location filename="../videopreview/videopreview.cpp" line="244"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>Файл %1 не існує</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="512"/>
+        <location filename="../videopreview/videopreview.cpp" line="524"/>
         <source>Images</source>
         <translation>Зображення</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="361"/>
+        <location filename="../videopreview/videopreview.cpp" line="368"/>
         <source>No info</source>
         <translation>Немає інформації</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="365"/>
+        <location filename="../videopreview/videopreview.cpp" line="372"/>
         <source>%1 kbps</source>
         <translation>%1 кбіт/с</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="366"/>
+        <location filename="../videopreview/videopreview.cpp" line="373"/>
         <source>%1 Hz</source>
         <translation>%1 Гц</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="382"/>
+        <location filename="../videopreview/videopreview.cpp" line="389"/>
         <source>Video bitrate: %1</source>
         <translation>Бітрейт відео: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="383"/>
+        <location filename="../videopreview/videopreview.cpp" line="390"/>
         <source>Audio bitrate: %1</source>
         <translation>Бітрейт аудіо: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="384"/>
+        <location filename="../videopreview/videopreview.cpp" line="391"/>
         <source>Audio rate: %1</source>
         <translation>Частота аудіо: %1</translation>
     </message>

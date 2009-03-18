@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="cs">
-<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -4167,27 +4166,27 @@ Příklad: resample=44100:0:0,volnorm</translation>
         <translation>Mechaniky</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="195"/>
+        <location filename="../prefdrives.ui" line="202"/>
         <source>icon</source>
         <translation>ikona</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="151"/>
+        <location filename="../prefdrives.cpp" line="179"/>
         <source>CD device</source>
         <translation>CD mechanika</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="153"/>
+        <location filename="../prefdrives.cpp" line="181"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
         <translation>Zvolte CD-ROM mechaniku. Bude použita pro přehrávání VCD a Audio CD.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="155"/>
+        <location filename="../prefdrives.cpp" line="183"/>
         <source>DVD device</source>
         <translation>DVD mechanika</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="156"/>
+        <location filename="../prefdrives.cpp" line="184"/>
         <source>Choose your DVD device. It will be used to play DVDs.</source>
         <translation>Zvolte DVD mechaniku. Bude použita pro přehrávání DVD.</translation>
     </message>
@@ -4197,7 +4196,7 @@ Příklad: resample=44100:0:0,volnorm</translation>
         <translation>Zvolte &amp;CD mechaniku:</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="222"/>
+        <location filename="../prefdrives.ui" line="229"/>
         <source>Select your &amp;DVD device:</source>
         <translation>Zvolte &amp;DVD mechaniku:</translation>
     </message>
@@ -4207,34 +4206,39 @@ Příklad: resample=44100:0:0,volnorm</translation>
         <translation>SMPlayer si sám neumí vybrat CD-ROM ani DVD mechaniku. Před tím, než je možno CD nebo DVD přehrát, musíte vybrat mechaniku, ze které se budou data číst (mohou být stejné).</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="159"/>
+        <location filename="../prefdrives.cpp" line="187"/>
         <source>Enable DVD menus</source>
         <translation>Povolit DVD menu</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="162"/>
+        <location filename="../prefdrives.cpp" line="190"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
         <translation>Je-li tato možnost povolena, SMPlayer bude přehrávat DVD pomocí dvdnav. Toto vyžaduje dostatečně novou verzi MPlayeru s dvdnav podporou.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="163"/>
+        <location filename="../prefdrives.cpp" line="191"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
         <translation>&lt;b&gt;Poznámka 1:&lt;/b&gt; automaticky zakáže cache, to může ovlivnit výkon.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="165"/>
+        <location filename="../prefdrives.cpp" line="193"/>
         <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
         <translation>&lt;b&gt;Poznámka 2:&lt;/b&gt; je vhodné nastavit akci &quot;aktivuj položku DVD menu&quot; pro některé z tlačítek myši.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="167"/>
+        <location filename="../prefdrives.cpp" line="195"/>
         <source>&lt;b&gt;Note 3&lt;/b&gt;: this feature is under development, expect a lot of issues with it.</source>
         <translation>&lt;b&gt;Poznámka 3:&lt;/b&gt; tato možnost se právě vyvíjí, očekávejte problémy.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="271"/>
+        <location filename="../prefdrives.ui" line="278"/>
         <source>&amp;Enable DVD menus (experimental)</source>
         <translation>&amp;Povolit DVD menu (experimentální)</translation>
+    </message>
+    <message>
+        <location filename="../prefdrives.ui" line="157"/>
+        <source>&amp;Scan for CD/DVD drives</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7145,147 +7149,147 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="388"/>
+        <location filename="../videopreview/videopreview.cpp" line="395"/>
         <source>Video preview</source>
         <translation>Náhled na video</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="128"/>
+        <location filename="../videopreview/videopreview.cpp" line="135"/>
         <source>Cancel</source>
         <translation>Storno</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="130"/>
+        <location filename="../videopreview/videopreview.cpp" line="137"/>
         <source>Generated by SMPlayer</source>
         <translation>Vytvořeno SMPlayerem</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="219"/>
+        <location filename="../videopreview/videopreview.cpp" line="226"/>
         <source>Creating thumbnails...</source>
         <translation>Vytvářím miniatury...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="372"/>
+        <location filename="../videopreview/videopreview.cpp" line="379"/>
         <source>Size: %1 MB</source>
         <translation>Velikost: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="374"/>
+        <location filename="../videopreview/videopreview.cpp" line="381"/>
         <source>Length: %1</source>
         <translation>Délka: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="511"/>
+        <location filename="../videopreview/videopreview.cpp" line="523"/>
         <source>Save file</source>
         <translation>Uložit do souboru</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="519"/>
+        <location filename="../videopreview/videopreview.cpp" line="531"/>
         <source>Error saving file</source>
         <translation>Chyba při ukládání souboru</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="520"/>
+        <location filename="../videopreview/videopreview.cpp" line="532"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>Tento soubor nemůže být uložen</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="175"/>
+        <location filename="../videopreview/videopreview.cpp" line="182"/>
         <source>Error</source>
         <translation>Chyba</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="176"/>
+        <location filename="../videopreview/videopreview.cpp" line="183"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>Při vytváření miniatur došlo k následující chybě:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="202"/>
+        <location filename="../videopreview/videopreview.cpp" line="209"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>Nelze vytvořit dočasný adresář (%1)</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="297"/>
+        <location filename="../videopreview/videopreview.cpp" line="304"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>Nešlo spustit MPlayer</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="373"/>
+        <location filename="../videopreview/videopreview.cpp" line="380"/>
         <source>Resolution: %1x%2</source>
         <translation>Rozlišení: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="377"/>
+        <location filename="../videopreview/videopreview.cpp" line="384"/>
         <source>Video format: %1</source>
         <translation>Formát videa: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="378"/>
+        <location filename="../videopreview/videopreview.cpp" line="385"/>
         <source>Frames per second: %1</source>
         <translation>Snímků za sekundu: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="379"/>
+        <location filename="../videopreview/videopreview.cpp" line="386"/>
         <source>Aspect ratio: %1</source>
         <translation>Poměr stran: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="315"/>
+        <location filename="../videopreview/videopreview.cpp" line="322"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>Nelze načíst soubor %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="414"/>
+        <location filename="../videopreview/videopreview.cpp" line="421"/>
         <source>No filename</source>
         <translation>Nezadáno jméno souboru</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="474"/>
+        <location filename="../videopreview/videopreview.cpp" line="481"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>Nešlo spustit MPlayer pro získání informací o videu</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="193"/>
+        <location filename="../videopreview/videopreview.cpp" line="200"/>
         <source>The length of the video is 0</source>
         <translation>Video nulové délky</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="237"/>
+        <location filename="../videopreview/videopreview.cpp" line="244"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>Soubor %1 neexistuje</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="512"/>
+        <location filename="../videopreview/videopreview.cpp" line="524"/>
         <source>Images</source>
         <translation>Obrázky</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="361"/>
+        <location filename="../videopreview/videopreview.cpp" line="368"/>
         <source>No info</source>
         <translation>Bez informací</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="365"/>
+        <location filename="../videopreview/videopreview.cpp" line="372"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="366"/>
+        <location filename="../videopreview/videopreview.cpp" line="373"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="382"/>
+        <location filename="../videopreview/videopreview.cpp" line="389"/>
         <source>Video bitrate: %1</source>
         <translation>Rychlost videa: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="383"/>
+        <location filename="../videopreview/videopreview.cpp" line="390"/>
         <source>Audio bitrate: %1</source>
         <translation>Rychlost audia: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="384"/>
+        <location filename="../videopreview/videopreview.cpp" line="391"/>
         <source>Audio rate: %1</source>
         <translation>Vzorkování zvuku: %1</translation>
     </message>
