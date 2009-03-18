@@ -154,7 +154,7 @@
          <item>
           <widget class="QPushButton" name="check_drives_button" >
            <property name="text" >
-            <string>&amp;Look for CD/DVD drives</string>
+            <string>&amp;Scan for CD/DVD drives</string>
            </property>
           </widget>
          </item>
