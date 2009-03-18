@@ -159,8 +159,6 @@ protected:
 	QString last_directory;
 	bool save_last_directory;
 	QString error_message;
-
-	bool display_thumbnails_only;
 };
 
 #endif
