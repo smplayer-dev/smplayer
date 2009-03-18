@@ -29,6 +29,7 @@ class QLabel;
 class QScrollArea;
 class QDialogButtonBox;
 class QSettings;
+class QAction;
 
 class VideoInfo 
 {
@@ -108,6 +109,7 @@ public:
 protected slots:
 	void cancelPressed();
 	void saveImage();
+	void showInfo(bool visible); 
 
 protected:
 	virtual void retranslateStrings();
@@ -142,6 +144,8 @@ protected:
 	bool canceled;
 
 	QSettings * set;
+
+	QAction * toggleInfoAct;
 
 	struct Properties {
 		QString input_video;
