@@ -2992,7 +2992,12 @@ void Core::changeVideo(int ID, bool allow_restart) {
 		if (need_restart) {
 			restartPlay(); 
 		} else {
-			tellmp("set_property switch_video " + QString::number(ID) );
+			if (mdat.demuxer == "nsv") {
+				// Workaround a problem with the nsv demuxer
+				qWarning("Core::changeVideo: not calling set_property switch_video with nsv to prevent mplayer go crazy");
+			} else {
+				tellmp("set_property switch_video " + QString::number(ID) );
+			}
 		}
 	}
 }
