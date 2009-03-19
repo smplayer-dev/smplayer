@@ -1343,8 +1343,8 @@ void BaseGui::retranslateStrings() {
 	useClosedCaptionAct->change( Images::icon("closed_caption"), tr("Enable &closed caption") );
 	useForcedSubsOnlyAct->change( Images::icon("forced_subs"), tr("&Forced subtitles only") );
 
-	showFindSubtitlesDialogAct->change( tr("Find subtitles on &OpenSubtitles.org...") );
-	openUploadSubtitlesPageAct->change( tr("Upload su&btitles to OpenSubtitles.org...") );
+	showFindSubtitlesDialogAct->change( Images::icon("download_subs"), tr("Find subtitles on &OpenSubtitles.org...") );
+	openUploadSubtitlesPageAct->change( Images::icon("upload_subs"), tr("Upload su&btitles to OpenSubtitles.org...") );
 
 	// Menu Options
 	showPlaylistAct->change( Images::icon("playlist"), tr("&Playlist") );
