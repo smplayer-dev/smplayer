@@ -1,5 +1,10 @@
 [b]Version 0.6.8[/b]:
 
+(2009-03-19)
+ * Added some icons for: Help -> Tips, Video -> Preview, Video -> Start/stop
+   taking screenshots, Subtitles -> Find subtitles on opensubtitles.org and
+   updated the Qt logo (taken from the Qt sources).
+
 (2009-03-18)
  * (Videopreview) Ctrl+H toggles displaying the info about the video.
  * Don't use "set_property switch_video" when using the nsv demuxer. It makes
