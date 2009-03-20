@@ -2608,6 +2608,7 @@ void Core::setSubDelay(int delay) {
 	qDebug("Core::setSubDelay: %d", delay);
 	mset.sub_delay = delay;
 	tellmp( pausing_prefix() + " sub_delay " + QString::number( (double) mset.sub_delay/1000 ) +" 1");
+	displayMessage( tr("Subtitle delay: %1 ms").arg(delay) );
 }
 
 void Core::incSubDelay() {
@@ -2623,7 +2624,8 @@ void Core::decSubDelay() {
 void Core::setAudioDelay(int delay) {
 	qDebug("Core::setAudioDelay: %d", delay);
 	mset.audio_delay = delay;
-	tellmp("audio_delay " + QString::number( (double) mset.audio_delay/1000 ) +" 1");
+	tellmp( pausing_prefix() + " audio_delay " + QString::number( (double) mset.audio_delay/1000 ) +" 1");
+	displayMessage( tr("Audio delay: %1 ms").arg(delay) );
 }
 
 void Core::incAudioDelay() {
