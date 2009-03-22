@@ -1,6 +1,7 @@
 <RCC>
     <qresource prefix="/" >
         <file>icons-png/aspect.png</file>
+        <file>icons-png/next_aspect.png</file>
         <file>icons-png/background.png</file>
         <file>icons-png/brightness.png</file>
         <file>icons-png/cdda.png</file>

@@ -1,5 +1,9 @@
 [b]Version 0.6.8[/b]:
 
+(2009-03-22)
+ * Added an icon for the next_aspect action. Contributed by TT 
+   (http://smplayer.berlios.de/forums/viewtopic.php?id=1104).
+
 (2009-03-20)
  * The subtitle and audio delay actions keep now the file paused. They also
    display the current value in the status bar.
