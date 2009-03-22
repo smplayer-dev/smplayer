@@ -373,7 +373,7 @@ SectionGroup /e "MPlayer Components"
       StrCmp $R0 OK 0 check_mplayer
 
       # Extract
-      nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$MPLAYER_VERSION.7z" -o"$PLUGINSDIR"'
+      nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$MPLAYER_VERSION.7z" -y -o"$PLUGINSDIR"'
 
       # Copy
       CreateDirectory "$INSTDIR\mplayer"
@@ -441,7 +441,7 @@ SectionGroup /e "MPlayer Components"
       StrCmp $R0 OK 0 check_codecs
 
       # Extract
-      nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$CODEC_VERSION.zip" -o"$PLUGINSDIR"'
+      nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$CODEC_VERSION.zip" -y -o"$PLUGINSDIR"'
 
       # Copy
       CreateDirectory "$INSTDIR\mplayer\codecs"
