@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="zh">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1560,12 +1561,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3888"/>
         <source>Jump to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>跳转到 %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1283"/>
         <source>Start/stop takin&amp;g screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>开始/停止自动截图(&amp;G)</translation>
     </message>
 </context>
 <context>
@@ -1656,12 +1657,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="2611"/>
         <source>Subtitle delay: %1 ms</source>
-        <translation type="unfinished"></translation>
+        <translation>字幕延时: %1 ms</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2628"/>
         <source>Audio delay: %1 ms</source>
-        <translation type="unfinished"></translation>
+        <translation>音频延时: %1 ms</translation>
     </message>
 </context>
 <context>
@@ -4250,7 +4251,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefdrives.ui" line="157"/>
         <source>&amp;Scan for CD/DVD drives</source>
-        <translation type="unfinished"></translation>
+        <translation>扫描 CD/DVD 设备(&amp;S)</translation>
     </message>
 </context>
 <context>
@@ -6757,17 +6758,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="556"/>
         <source>Apply style to ass files too</source>
-        <translation type="unfinished">对 ass 文件也使用自定义风格</translation>
+        <translation>对 ass 文件也使用自定义风格</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="558"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation type="unfinished">如果勾选了此选项，定义的风格也将被应用于 ass 字幕。</translation>
+        <translation>如果勾选了此选项，定义的风格也将被应用于 ass 字幕。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1211"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation type="unfinished">对 ass 文件也使用自定义风格(&amp;P)</translation>
+        <translation>对 ass 文件也使用自定义风格(&amp;P)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="381"/>
