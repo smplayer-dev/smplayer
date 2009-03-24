@@ -1893,6 +1893,7 @@ void BaseGui::createMenus() {
 
 	// Speed submenu
 	speed_menu = new QMenu(this);
+	speed_menu->menuAction()->setObjectName("speed_menu");
 	speed_menu->addAction(normalSpeedAct);
 	speed_menu->addSeparator();
 	speed_menu->addAction(halveSpeedAct);
@@ -1918,6 +1919,7 @@ void BaseGui::createMenus() {
 	
 	// VIDEO MENU
 	videotrack_menu = new QMenu(this);
+	videotrack_menu->menuAction()->setObjectName("videotrack_menu");
 
 	videoMenu->addMenu(videotrack_menu);
 
@@ -1927,12 +1929,14 @@ void BaseGui::createMenus() {
 #if USE_ADAPTER
 	// Screen submenu
 	screen_menu = new QMenu(this);
+	screen_menu->menuAction()->setObjectName("screen_menu");
 	screen_menu->addActions( screenGroup->actions() );
 	videoMenu->addMenu(screen_menu);
 #endif
 
 	// Size submenu
 	videosize_menu = new QMenu(this);
+	videosize_menu->menuAction()->setObjectName("videosize_menu");
 	videosize_menu->addActions( sizeGroup->actions() );
 	videosize_menu->addSeparator();
 	videosize_menu->addAction(doubleSizeAct);
@@ -1940,6 +1944,7 @@ void BaseGui::createMenus() {
 
 	// Panscan submenu
 	panscan_menu = new QMenu(this);
+	panscan_menu->menuAction()->setObjectName("panscan_menu");
 	panscan_menu->addAction(resetZoomAct);
 	panscan_menu->addSeparator();
 	panscan_menu->addAction(autoZoomAct);
@@ -1958,18 +1963,21 @@ void BaseGui::createMenus() {
 
 	// Aspect submenu
 	aspect_menu = new QMenu(this);
+	aspect_menu->menuAction()->setObjectName("aspect_menu");
 	aspect_menu->addActions( aspectGroup->actions() );
 
 	videoMenu->addMenu(aspect_menu);
 
 	// Deinterlace submenu
 	deinterlace_menu = new QMenu(this);
+	deinterlace_menu->menuAction()->setObjectName("deinterlace_menu");
 	deinterlace_menu->addActions( deinterlaceGroup->actions() );
 
 	videoMenu->addMenu(deinterlace_menu);
 
 	// Video filter submenu
 	videofilter_menu = new QMenu(this);
+	videofilter_menu->menuAction()->setObjectName("videofilter_menu");
 	videofilter_menu->addAction(postProcessingAct);
 	videofilter_menu->addAction(phaseAct);
 	videofilter_menu->addAction(deblockAct);
@@ -1993,6 +2001,7 @@ void BaseGui::createMenus() {
 
 	// Rotate submenu
 	rotate_menu = new QMenu(this);
+	rotate_menu->menuAction()->setObjectName("rotate_menu");
 	rotate_menu->addActions(rotateGroup->actions());
 
 	videoMenu->addMenu(rotate_menu);
@@ -2006,6 +2015,7 @@ void BaseGui::createMenus() {
 
 	// Ontop submenu
 	ontop_menu = new QMenu(this);
+	ontop_menu->menuAction()->setObjectName("ontop_menu");
 	ontop_menu->addActions(onTopActionGroup->actions());
 
 	videoMenu->addMenu(ontop_menu);
@@ -2018,6 +2028,7 @@ void BaseGui::createMenus() {
 
 	// Audio track submenu
 	audiotrack_menu = new QMenu(this);
+	audiotrack_menu->menuAction()->setObjectName("audiotrack_menu");
 
 	audioMenu->addMenu(audiotrack_menu);
 
@@ -2026,6 +2037,7 @@ void BaseGui::createMenus() {
 
 	// Filter submenu
 	audiofilter_menu = new QMenu(this);
+	audiofilter_menu->menuAction()->setObjectName("audiofilter_menu");
 	audiofilter_menu->addAction(extrastereoAct);
 	audiofilter_menu->addAction(karaokeAct);
 	audiofilter_menu->addAction(volnormAct);
@@ -2034,12 +2046,14 @@ void BaseGui::createMenus() {
 
 	// Audio channels submenu
 	audiochannels_menu = new QMenu(this);
+	audiochannels_menu->menuAction()->setObjectName("audiochannels_menu");
 	audiochannels_menu->addActions( channelsGroup->actions() );
 
 	audioMenu->addMenu(audiochannels_menu);
 
 	// Stereo mode submenu
 	stereomode_menu = new QMenu(this);
+	stereomode_menu->menuAction()->setObjectName("stereomode_menu");
 	stereomode_menu->addActions( stereoGroup->actions() );
 
 	audioMenu->addMenu(stereomode_menu);
@@ -2059,6 +2073,7 @@ void BaseGui::createMenus() {
 	// SUBTITLES MENU
 	// Track submenu
 	subtitlestrack_menu = new QMenu(this);
+	subtitlestrack_menu->menuAction()->setObjectName("subtitlestrack_menu");
 
 	subtitlesMenu->addMenu(subtitlestrack_menu);
 
@@ -2090,16 +2105,19 @@ void BaseGui::createMenus() {
 	// BROWSE MENU
 	// Titles submenu
 	titles_menu = new QMenu(this);
+	titles_menu->menuAction()->setObjectName("titles_menu");
 
 	browseMenu->addMenu(titles_menu);
 
 	// Chapters submenu
 	chapters_menu = new QMenu(this);
+	chapters_menu->menuAction()->setObjectName("chapters_menu");
 
 	browseMenu->addMenu(chapters_menu);
 
 	// Angles submenu
 	angles_menu = new QMenu(this);
+	angles_menu->menuAction()->setObjectName("angles_menu");
 
 	browseMenu->addMenu(angles_menu);
 
@@ -2117,6 +2135,7 @@ void BaseGui::createMenus() {
 
 	// OSD submenu
 	osd_menu = new QMenu(this);
+	osd_menu->menuAction()->setObjectName("osd_menu");
 	osd_menu->addActions(osdGroup->actions());
 
 	optionsMenu->addMenu(osd_menu);

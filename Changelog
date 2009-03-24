@@ -1,5 +1,13 @@
 [b]Version 0.6.8[/b]:
 
+(2009-03-23)
+ * (Experimental) Now some of the submenus can be added to the toolbars
+   (actions names: speed_menu, videotrack_menu, screen_menu, videosize_menu, 
+   panscan_menu, aspect_menu, deinterlace_menu, videofilter_menu, rotate_menu, 
+   ontop_menu, audiotrack_menu, audiofilter_menu, audiochannels_menu, 
+   stereomode_menu, subtitlestrack_menu, titles_menu, chapters_menu, 
+   angles_menu, osd_menu).
+
 (2009-03-22)
  * Added an icon for the next_aspect action. Contributed by TT 
    (http://smplayer.berlios.de/forums/viewtopic.php?id=1104).

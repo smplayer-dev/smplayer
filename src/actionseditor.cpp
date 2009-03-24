@@ -233,7 +233,12 @@ void ActionsEditor::addActions(QWidget *widget) {
 	QList<QAction *> actions = widget->findChildren<QAction *>();
 	for (int n=0; n < actions.count(); n++) {
 		action = static_cast<QAction*> (actions[n]);
-		if (!action->objectName().isEmpty() && !action->inherits("QWidgetAction"))
+		/*
+		if (!action->objectName().isEmpty()) {
+			qDebug("ActionsEditor::addActions: action # %d: '%s' menu: %d", n, action->objectName().toUtf8().constData(), action->menu()!=0);
+		}
+		*/
+		if (!action->objectName().isEmpty() && !action->inherits("QWidgetAction") && (action->menu()==0) )
 	        actionsList.append(action);
     }
 
