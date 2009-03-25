@@ -18,6 +18,9 @@
 
 #include "toolbareditor.h"
 
+#include <QToolBar>
+#include <QToolButton>
+
 QStringList ToolbarEditor::save(QWidget * w) {
 	qDebug("ToolbarEditor::save: '%s'", w->objectName().toUtf8().data());
 
@@ -59,6 +62,18 @@ void ToolbarEditor::load(QWidget *w, QStringList l, QList<QAction *> actions_lis
 			action = findAction(l[n], actions_list);
 			if (action) {
 				w->addAction(action);
+				if (action->objectName().endsWith("_menu")) {
+					// If the action is a menu and is in a toolbar, as a toolbutton, change some of its properties
+					QToolBar * toolbar = qobject_cast<QToolBar *>(w);
+					if (toolbar) {
+						QToolButton * button = qobject_cast<QToolButton *>(toolbar->widgetForAction(action));
+						if (button) {
+							//qDebug("ToolbarEditor::load: action %s is a toolbutton", action->objectName().toUtf8().constData());
+							button->setPopupMode(QToolButton::InstantPopup);
+							//button->setToolButtonStyle(Qt::ToolButtonTextUnderIcon);
+						}
+					}
+				}
 			} else {
 				qWarning("ToolbarEditor::load: action %s not found", l[n].toUtf8().data());
 			}
