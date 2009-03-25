@@ -1,5 +1,9 @@
 [b]Version 0.6.8[/b]:
 
+(2009-03-25)
+ * (Linux) Using -input nodefault-binds:conf=/dev/null to disable the mplayer 
+   keys if using mplayer >= SVN r28878.
+
 (2009-03-23)
  * (Experimental) Now some of the submenus can be added to the toolbars
    (actions names: speed_menu, videotrack_menu, screen_menu, videosize_menu, 
