@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="nl">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1565,7 +1566,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="1283"/>
         <source>Start/stop takin&amp;g screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Scherma&amp;fdrukken maken starten/stoppen</translation>
     </message>
 </context>
 <context>
@@ -1656,12 +1657,12 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../core.cpp" line="2611"/>
         <source>Subtitle delay: %1 ms</source>
-        <translation type="unfinished"></translation>
+        <translation>Ondertitelvertraging: %1 ms</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2628"/>
         <source>Audio delay: %1 ms</source>
-        <translation type="unfinished"></translation>
+        <translation>Geluidsvertraging: %1 ms</translation>
     </message>
 </context>
 <context>
@@ -4952,7 +4953,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="703"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
-        <translation type="unfinished"></translation>
+        <translation>Indien u deze optie aanvinkt zal SMPlayer de laatste positie in het bestand onthouden als u het opnieuw opent. Deze optie werkt alleen met normale bestanden (niet met DVD&apos;s, CD&apos;s, URL&apos;s...).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="760"/>
@@ -5290,57 +5291,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="71"/>
         <source>Always on top</source>
-        <translation type="unfinished"></translation>
+        <translation>Altijd bovenaan</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="72"/>
         <source>Never on top</source>
-        <translation type="unfinished"></translation>
+        <translation>Nooit bovenaan</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="73"/>
         <source>On top while playing</source>
-        <translation type="unfinished"></translation>
+        <translation>Bovenaan tijdens spelen</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="87"/>
         <source>Activate option under mouse in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Activatieoptie onder muis in DVD-menu&apos;s</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="88"/>
         <source>Return to main DVD menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Terugkeren naar hoofdmenu in DVD-menu&apos;s</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="89"/>
         <source>Return to previous menu in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Terugkeren naar vorig menu in DVD-menu&apos;s</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="90"/>
         <source>Move cursor up in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Cursor omhoog in DVD-menu&apos;s</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="91"/>
         <source>Move cursor down in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Cursor omlaag in DVD-menu&apos;s</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="92"/>
         <source>Move cursor left in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Cursor naar links in DVD-menu&apos;s</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="93"/>
         <source>Move cursor right in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Cursor naar rechts in DVD-menu&apos;s</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="94"/>
         <source>Activate highlighted option in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Geselecteerde optie in DVD-menu&apos;s accepteren</translation>
     </message>
 </context>
 <context>
@@ -7259,7 +7260,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="481"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
-        <translation type="unfinished"></translation>
+        <translation>Het mplayer-proces startte niet bij het verkrijgen van informatie over de video</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="523"/>
@@ -7347,12 +7348,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
         <source>If the aspect ratio of the video is wrong, you can specify a different one here.</source>
-        <translation type="unfinished"></translation>
+        <translation>Indien de aspectverhouding verkeerd is, kan u hier een nieuwe geven.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="50"/>
         <source>Usually the first frames are black, so it&apos;s a good idea to skip some seconds at the beginning of the video. This option allows to specify how many seconds will be skipped.</source>
-        <translation type="unfinished"></translation>
+        <translation>Meestal zijn de eerste frames zwart, dus het is een goed idee om de eerste seconden van de video over te slaan. Deze optie geeft aan hoeveel seconden dit zullen zijn.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="51"/>
@@ -7367,7 +7368,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="13"/>
         <source>Video Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Videovoorbeeld</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="21"/>
@@ -7387,7 +7388,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="113"/>
         <source>Add playing &amp;time to thumbnails</source>
-        <translation type="unfinished"></translation>
+        <translation>Afspeel&amp;tijd aan miniaturen toevoegen</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="135"/>
@@ -7397,7 +7398,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="165"/>
         <source>&amp;Seconds to skip at the beginnning:</source>
-        <translation type="unfinished"></translation>
+        <translation>Over te slagen &amp;seconden aan het begin:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="195"/>
@@ -7407,7 +7408,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="245"/>
         <source>&amp;Extract frames as</source>
-        <translation type="unfinished"></translation>
+        <translation>Fram&amp;es uitpakken als</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="44"/>
@@ -7417,12 +7418,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="38"/>
         <source>&amp;DVD device:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;DVD-apparaat:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="286"/>
         <source>Remember folder used to &amp;save the preview</source>
-        <translation type="unfinished"></translation>
+        <translation>De map waar het voorbeeld wordt opge&amp;slagen onthouden</translation>
     </message>
 </context>
 <context>
