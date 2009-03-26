@@ -46,7 +46,7 @@ Extensions::Extensions()
            << "mpg" << "mpeg" << "m1v" << "m2v" << "mpv" << "dv" << "3gp"
            << "mov" << "mp4" << "m4v" << "mqv"
            << "dat" << "vcd"
-           << "ogg" << "ogm"
+           << "ogg" << "ogm" << "ogv"
            << "asf" << "wmv"
            << "bin" << "iso" << "vob"
            << "mkv" << "nsv" << "ram" << "flv"

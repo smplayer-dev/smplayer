@@ -1,5 +1,8 @@
 [b]Version 0.6.8[/b]:
 
+(2009-03-26)
+ * Added ogv to the list of extensions (for video).
+
 (2009-03-25)
  * (Linux) Using -input nodefault-bindings:conf=/dev/null to disable the 
    mplayer keys if using mplayer >= SVN r29058.
