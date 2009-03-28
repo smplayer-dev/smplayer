@@ -471,7 +471,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1424"/>
         <source>&amp;Play</source>
-        <translation>Re&amp;produzir</translation>
+        <translation>&amp;Reproduzir</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1425"/>
@@ -481,12 +481,12 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1426"/>
         <source>&amp;Audio</source>
-        <translation>&amp;Áudio</translation>
+        <translation>Á&amp;udio</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1427"/>
         <source>&amp;Subtitles</source>
-        <translation>Legenda&amp;s</translation>
+        <translation>&amp;Legendas</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1428"/>
@@ -501,7 +501,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1430"/>
         <source>&amp;Help</source>
-        <translation>&amp;Ajuda</translation>
+        <translation>A&amp;juda</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1233"/>
@@ -561,7 +561,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1252"/>
         <source>&amp;Frame step</source>
-        <translation>&amp;Avançar frame</translation>
+        <translation>Avançar &amp;Frame</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1268"/>
@@ -601,12 +601,12 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1279"/>
         <source>&amp;Fullscreen</source>
-        <translation>&amp;Ecrã Completo</translation>
+        <translation>Ecrã &amp;Completo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1280"/>
         <source>&amp;Compact mode</source>
-        <translation>&amp;Modo compacto</translation>
+        <translation>&amp;Modo Compacto</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1456"/>
@@ -686,7 +686,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1468"/>
         <source>F&amp;ilters</source>
-        <translation>&amp;Filtros</translation>
+        <translation>F&amp;iltros</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1281"/>
@@ -696,12 +696,12 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1282"/>
         <source>&amp;Screenshot</source>
-        <translation>&amp;Captura</translation>
+        <translation>C&amp;aptura</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1474"/>
         <source>S&amp;tay on top</source>
-        <translation>&amp;Manter no topo</translation>
+        <translation>Manter no &amp;topo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1324"/>
@@ -716,7 +716,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1536"/>
         <source>&amp;Filters</source>
-        <translation>&amp;Filtros</translation>
+        <translation>F&amp;iltros</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1550"/>
@@ -821,7 +821,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1565"/>
         <source>&amp;Angle</source>
-        <translation>&amp;Ângulo</translation>
+        <translation>Â&amp;ngulo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1350"/>
@@ -1168,7 +1168,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="1237"/>
         <source>&amp;Audio CD</source>
-        <translation>CD &amp;Áudio</translation>
+        <translation>CD &amp;Audio</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1514"/>
@@ -1183,7 +1183,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="1513"/>
         <source>Denoise o&amp;ff</source>
-        <translation>Reduzir ruído - &amp;Desligado</translation>
+        <translation>Reduzir ruído - Desli&amp;gado</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1342"/>
@@ -1233,7 +1233,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="1364"/>
         <source>&amp;Command line options</source>
-        <translation>Opções de linha de &amp;comandos</translation>
+        <translation>&amp;Opções de linha de comandos</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3291"/>
@@ -1303,7 +1303,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="1519"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
-        <translation>&amp;Rodar 90º no sentido horário</translation>
+        <translation>Rodar 90º no sentido &amp;horário</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1520"/>
@@ -1348,7 +1348,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="1347"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>Enviar le&amp;gendas para &amp;OpenSubtitles.org...</translation>
+        <translation>Enviar le&amp;gendas para OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1365"/>
@@ -1450,7 +1450,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="1293"/>
         <source>Zoom for &amp;2.35:1</source>
-        <translation>Zoom para&amp;2.35:1</translation>
+        <translation>Zoom para &amp;2.35:1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1284"/>
@@ -1565,7 +1565,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="1283"/>
         <source>Start/stop takin&amp;g screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Iniciar/parar obte&amp;nção de capturas</translation>
     </message>
 </context>
 <context>
@@ -1578,7 +1578,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../baseguiplus.cpp" line="191"/>
         <source>S&amp;how icon in system tray</source>
-        <translation>&amp;Mostrar ícone na área de notificação</translation>
+        <translation>Mostrar ícone na área de &amp;notificação</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="202"/>
@@ -1656,12 +1656,12 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../core.cpp" line="2611"/>
         <source>Subtitle delay: %1 ms</source>
-        <translation type="unfinished"></translation>
+        <translation>Atraso de legendas : %1 ms</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2628"/>
         <source>Audio delay: %1 ms</source>
-        <translation type="unfinished"></translation>
+        <translation>Atraso de áudio : %1 ms</translation>
     </message>
 </context>
 <context>
@@ -4252,7 +4252,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefdrives.ui" line="157"/>
         <source>&amp;Scan for CD/DVD drives</source>
-        <translation type="unfinished"></translation>
+        <translation>Pe&amp;squisar unidades CD/DVD</translation>
     </message>
 </context>
 <context>
@@ -4852,7 +4852,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="728"/>
         <source>Select the video output driver. %1 provides the best performance.</source>
-        <translation>Seleccione o driver de saída de vídeo. %1 apresenta o melhor desempenho.</translation>
+        <translation>Seleccione o controlador de saída vídeo. %1 apresenta o melhor desempenho.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="800"/>
