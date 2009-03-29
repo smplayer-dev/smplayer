@@ -164,11 +164,33 @@
   !insertmacro MUI_LANGUAGE "Norwegian"
   !insertmacro MUI_LANGUAGE "Polish"
   !insertmacro MUI_LANGUAGE "Portuguese"
-  !insertmacro MUI_LANGUAGE "PortugueseBR"
   !insertmacro MUI_LANGUAGE "Russian"
   !insertmacro MUI_LANGUAGE "Slovak"
   !insertmacro MUI_LANGUAGE "Slovenian"
   !insertmacro MUI_LANGUAGE "Spanish"
+
+;--------------------------------
+; Translations
+
+  !insertmacro LANGFILE_INCLUDE "translations\basque.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\catalan.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\czech.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\danish.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\dutch.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\english.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\finnish.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\french.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\german.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\hebrew.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\hungarian.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\italian.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\norwegian.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\polish.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\portuguese.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\russian.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\slovak.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\slovenian.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\spanish.nsh"
 
 ;--------------------------------
 ;Reserve Files
@@ -339,7 +361,7 @@ SectionGroup /e "MPlayer Components"
 
     IntCmp $0 1 mplayerInstalled mplayerNotInstalled
       mplayerInstalled:
-        MessageBox MB_YESNO "MPlayer is already installed. Re-Download?" /SD IDNO IDYES mplayerNotInstalled IDNO done
+        MessageBox MB_YESNO "$(MPLAYER_IS_INSTALLED)" /SD IDNO IDYES mplayerNotInstalled IDNO done
       mplayerNotInstalled:
         ${IfNot} ${FileExists} "$PLUGINSDIR\version-info"
           Call getVerInfo
@@ -350,7 +372,7 @@ SectionGroup /e "MPlayer Components"
           ReadINIStr $MPLAYER_VERSION "$PLUGINSDIR\version-info" smplayer mplayer
 
           IfErrors 0 done_ver_info
-            DetailPrint "Version file missing version information. Setup will use a default version."
+            DetailPrint "$(VERINFO_IS_MISSING)"
             # Default Value if version-info exists but version string is missing from version-info
             StrCpy $MPLAYER_VERSION ${DEFAULT_MPLAYER_VERSION}
             Goto done_ver_info
@@ -361,8 +383,8 @@ SectionGroup /e "MPlayer Components"
 
     done_ver_info:
 
-      DetailPrint "Downloading MPlayer..."
-      inetc::get /timeout 30000 /resume "" /caption "Downloading MPlayer..." /banner "Downloading $MPLAYER_VERSION.7z" \
+      DetailPrint "$(MPLAYER_IS_DOWNLOADING)"
+      inetc::get /timeout 30000 /resume "" /caption "$(MPLAYER_IS_DOWNLOADING)" /banner "Downloading $MPLAYER_VERSION.7z" \
       "http://downloads.sourceforge.net/smplayer/$MPLAYER_VERSION.7z?big_mirror=0" \
       "$PLUGINSDIR\$MPLAYER_VERSION.7z"
       /* inetc::get /timeout 30000 /resume "" /caption "Downloading MPlayer..." /banner "Downloading $MPLAYER_VERSION.7z" \
@@ -382,7 +404,7 @@ SectionGroup /e "MPlayer Components"
     check_mplayer:
       # This label does not necessarily mean there was a download error, so check first
       ${If} $R0 != "OK"
-        DetailPrint "Failed to download MPlayer: $R0."
+        DetailPrint "$(MPLAYER_DL_FAILED)"
       ${EndIf}
 
       IfFileExists "$INSTDIR\mplayer\mplayer.exe" mplayerInstSuccess mplayerInstFailed
@@ -390,7 +412,7 @@ SectionGroup /e "MPlayer Components"
           WriteRegDWORD HKLM Software\SMPlayer Installed_MPlayer 0x1
           Goto done
         mplayerInstFailed:
-          Abort "Failed to install MPlayer. MPlayer is required for playback."
+          Abort "$(MPLAYER_INST_FAILED)"
 
     done:
 
@@ -407,7 +429,7 @@ SectionGroup /e "MPlayer Components"
 
     IntCmp $1 1 mplayerCodecsInstalled mplayerCodecsNotInstalled
       mplayerCodecsInstalled:
-        MessageBox MB_YESNO "MPlayer codecs are already installed. Re-Download?" /SD IDNO IDYES mplayerCodecsNotInstalled IDNO done
+        MessageBox MB_YESNO "$(CODECS_IS_INSTALLED)" /SD IDNO IDYES mplayerCodecsNotInstalled IDNO done
       mplayerCodecsNotInstalled:
         ${IfNot} ${FileExists} "$PLUGINSDIR\version-info"
           Call getVerInfo
@@ -418,7 +440,7 @@ SectionGroup /e "MPlayer Components"
           ReadINIStr $CODEC_VERSION "$PLUGINSDIR\version-info" smplayer mplayercodecs
 
           IfErrors 0 done_ver_info
-            DetailPrint "Version file missing version information. Setup will use a default version."
+            DetailPrint "$(VERINFO_IS_MISSING)"
             # Default Value if version-info exists but version string is missing from version-info
             StrCpy $CODEC_VERSION ${DEFAULT_CODECS_VERSION}
             Goto done_ver_info
@@ -429,8 +451,8 @@ SectionGroup /e "MPlayer Components"
 
     done_ver_info:
 
-      DetailPrint "Downloading MPlayer codecs..."
-      inetc::get /timeout 30000 /resume "" /caption "Downloading MPlayer codecs..." /banner "Downloading $CODEC_VERSION.zip" \
+      DetailPrint "$(CODECS_IS_DOWNLOADING)"
+      inetc::get /timeout 30000 /resume "" /caption "$(CODECS_IS_DOWNLOADING)" /banner "Downloading $CODEC_VERSION.zip" \
       "http://www.mplayerhq.hu/MPlayer/releases/codecs/$CODEC_VERSION.zip" \
       "$PLUGINSDIR\$CODEC_VERSION.zip"
       /* inetc::get /timeout 30000 /resume "" /caption "Downloading MPlayer codecs..." /banner "Downloading $CODEC_VERSION.zip" \
@@ -450,7 +472,7 @@ SectionGroup /e "MPlayer Components"
     check_codecs:
       # This label does not necessarily mean there was a download error, so check first
       ${If} $R0 != "OK"
-        DetailPrint "Failed to download MPlayer codecs: $R0."
+        DetailPrint "$(CODECS_DL_FAILED)"
       ${EndIf}
 
       IfFileExists "$INSTDIR\mplayer\codecs\*.dll" codecsInstSuccess codecsInstFailed
@@ -458,7 +480,7 @@ SectionGroup /e "MPlayer Components"
           WriteRegDWORD HKLM Software\SMPlayer Installed_Codecs 0x1
           Goto done
         codecsInstFailed:
-          DetailPrint "Failed to install MPlayer codecs. Re-run setup and try again."
+          DetailPrint "$(CODECS_INST_FAILED)"
           WriteRegDWORD HKLM Software\SMPlayer Installed_Codecs 0x0
           # Pause for 5 seconds to see the error message
           Sleep 5000
@@ -584,8 +606,7 @@ Function .onSelChange
     StrCpy $R1 $R0
     IntOp $R0 $R0 & ${SF_SELECTED}
   ${If} $R0 == ${SF_SELECTED}
-    MessageBox MB_OK "The binary codec packages add support for codecs that are not yet implemented natively, like newer RealVideo variants and a lot of uncommon formats. \
-    $\nNote that they are not necessary to play most common formats like DVDs, MPEG-1/2/4, etc."
+    MessageBox MB_OK "$(MPLAYER_CODEC_INFORMATION)"
   ${EndIf}
   ${EndIf}
 
@@ -617,12 +638,12 @@ FunctionEnd
 
 Function getVerInfo
 
-  DetailPrint "Downloading version information..."
+  DetailPrint "$(VERINFO_IS_DOWNLOADING)"
   inetc::get /timeout 30000 /resume "" /silent "http://smplayer.sourceforge.net/mplayer-version-info" \
   "$PLUGINSDIR\version-info"
   Pop $R0
   StrCmp $R0 OK +2
-    DetailPrint "Error retrieving version info: $R0. Setup will use a default version."
+    DetailPrint "$(VERINFO_DL_FAILED)"
 
 FunctionEnd
 
