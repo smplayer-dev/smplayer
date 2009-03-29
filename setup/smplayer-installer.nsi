@@ -404,7 +404,7 @@ SectionGroup /e "MPlayer Components"
     check_mplayer:
       # This label does not necessarily mean there was a download error, so check first
       ${If} $R0 != "OK"
-        DetailPrint "$(MPLAYER_DL_FAILED)"
+        DetailPrint "$(MPLAYER_DL_FAILED) $R0."
       ${EndIf}
 
       IfFileExists "$INSTDIR\mplayer\mplayer.exe" mplayerInstSuccess mplayerInstFailed
@@ -472,7 +472,7 @@ SectionGroup /e "MPlayer Components"
     check_codecs:
       # This label does not necessarily mean there was a download error, so check first
       ${If} $R0 != "OK"
-        DetailPrint "$(CODECS_DL_FAILED)"
+        DetailPrint "$(CODECS_DL_FAILED) $R0."
       ${EndIf}
 
       IfFileExists "$INSTDIR\mplayer\codecs\*.dll" codecsInstSuccess codecsInstFailed
@@ -643,7 +643,7 @@ Function getVerInfo
   "$PLUGINSDIR\version-info"
   Pop $R0
   StrCmp $R0 OK +2
-    DetailPrint "$(VERINFO_DL_FAILED)"
+    DetailPrint "$(VERINFO_DL_FAILED) $R0."
 
 FunctionEnd
 
