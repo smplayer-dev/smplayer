@@ -14,16 +14,16 @@ ${LangFileString} MPLAYER_CODEC_INFORMATION "The binary codec packages add suppo
 ; MPlayer Section
 ${LangFileString} MPLAYER_IS_INSTALLED "MPlayer is already installed. Re-Download?"
 ${LangFileString} MPLAYER_IS_DOWNLOADING "Downloading MPlayer..."
-${LangFileString} MPLAYER_DL_FAILED "Failed to download MPlayer: $R0."
+${LangFileString} MPLAYER_DL_FAILED "Failed to download MPlayer:"
 ${LangFileString} MPLAYER_INST_FAILED "Failed to install MPlayer. MPlayer is required for playback."
 
 ; Codecs Section
 ${LangFileString} CODECS_IS_INSTALLED "MPlayer codecs are already installed. Re-Download?"
 ${LangFileString} CODECS_IS_DOWNLOADING "Downloading MPlayer codecs..."
-${LangFileString} CODECS_DL_FAILED "Failed to download MPlayer codecs: $R0."
+${LangFileString} CODECS_DL_FAILED "Failed to download MPlayer codecs:"
 ${LangFileString} CODECS_INST_FAILED "Failed to install MPlayer codecs."
 
 ; Version information
 ${LangFileString} VERINFO_IS_DOWNLOADING "Downloading version information..."
-${LangFileString} VERINFO_DL_FAILED "Error retrieving version info: $R0. Setup will use a default version."
+${LangFileString} VERINFO_DL_FAILED "Failed to download version info:"
 ${LangFileString} VERINFO_IS_MISSING "Version file missing version information. Setup will use a default version."
