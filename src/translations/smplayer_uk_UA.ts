@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="uk">
+<!DOCTYPE TS>
+<TS version="2.0" language="uk">
 <context>
     <name>About</name>
     <message>
@@ -1560,12 +1561,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3888"/>
         <source>Jump to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Перейти до %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1283"/>
         <source>Start/stop takin&amp;g screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Розпочати/зупинити робити &amp;знімки екрану</translation>
     </message>
 </context>
 <context>
@@ -1656,12 +1657,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="2611"/>
         <source>Subtitle delay: %1 ms</source>
-        <translation type="unfinished"></translation>
+        <translation>Затримка субтитрів: %1 мс</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2628"/>
         <source>Audio delay: %1 ms</source>
-        <translation type="unfinished"></translation>
+        <translation>Затримка аудіо: %1 мс</translation>
     </message>
 </context>
 <context>
@@ -3314,7 +3315,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Маршульська</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Букмол</translation>
@@ -3424,7 +3425,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Венда</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Волапюк</translation>
@@ -4253,7 +4254,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefdrives.ui" line="157"/>
         <source>&amp;Scan for CD/DVD drives</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Пошук пристроїв CD/DVD</translation>
     </message>
 </context>
 <context>
@@ -6760,17 +6761,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="556"/>
         <source>Apply style to ass files too</source>
-        <translation type="unfinished">Примінити стиль також до ass файлів</translation>
+        <translation>Застосувати стиль також до ass файлів</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="558"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation type="unfinished">Якщо ця опція увімкнена, стиль визначений нижче буде примінений також до ass файлів.</translation>
+        <translation>Якщо ця опція увімкнена, стиль визначений нижче буде застосований також до ass файлів.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1211"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation type="unfinished">П&amp;римінити стиль також до ass файлів</translation>
+        <translation>&amp;Застосувати стиль також до ass файлів</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="381"/>
