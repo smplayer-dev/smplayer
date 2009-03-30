@@ -5,8 +5,9 @@
 ;;
 ;;  Replace all text between the string with the translation.
 ;;
-
+;;  Do not edit this line!
 !insertmacro LANGFILE_EXT "Dutch"
+;;
 
 ; Components Page
 ${LangFileString} MPLAYER_CODEC_INFORMATION "The binary codec packages add support for codecs that are not yet implemented natively, like newer RealVideo variants and a lot of uncommon formats.$\nNote that they are not necessary to play most common formats like DVDs, MPEG-1/2/4, etc."
