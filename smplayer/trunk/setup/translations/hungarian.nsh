@@ -10,21 +10,21 @@
 ;;
 
 ; Components Page
-${LangFileString} MPLAYER_CODEC_INFORMATION "The binary codec packages add support for codecs that are not yet implemented natively, like newer RealVideo variants and a lot of uncommon formats.$\nNote that they are not necessary to play most common formats like DVDs, MPEG-1/2/4, etc."
+${LangFileString} MPLAYER_CODEC_INFORMATION "A bináris kodek csomagok támogatást nyújtanak natívan még nem támogatott kodekekhez, mint pl. az újabb RealVideo variánsok és sok ritka formátum.$\nNem szükségesek a legtöbb gyakori formátum lejátszásához, mint a DVD-k, MPEG-1/2/4, stb."
 
 ; MPlayer Section
-${LangFileString} MPLAYER_IS_INSTALLED "MPlayer is already installed. Re-Download?"
-${LangFileString} MPLAYER_IS_DOWNLOADING "Downloading MPlayer..."
-${LangFileString} MPLAYER_DL_FAILED "Failed to download MPlayer:"
-${LangFileString} MPLAYER_INST_FAILED "Failed to install MPlayer. MPlayer is required for playback."
+${LangFileString} MPLAYER_IS_INSTALLED "Az MPlayer már telepítve van. Újra letöltsem?"
+${LangFileString} MPLAYER_IS_DOWNLOADING "Az MPlayer letöltése..."
+${LangFileString} MPLAYER_DL_FAILED "Az MPlayer letöltése nem sikerült:"
+${LangFileString} MPLAYER_INST_FAILED "Az MPlayer telepítése nem sikerült. Az MPlayerre szükség van a lejátszáshoz."
 
 ; Codecs Section
-${LangFileString} CODECS_IS_INSTALLED "MPlayer codecs are already installed. Re-Download?"
-${LangFileString} CODECS_IS_DOWNLOADING "Downloading MPlayer codecs..."
-${LangFileString} CODECS_DL_FAILED "Failed to download MPlayer codecs:"
-${LangFileString} CODECS_INST_FAILED "Failed to install MPlayer codecs."
+${LangFileString} CODECS_IS_INSTALLED "Az MPlayer kodekek már telepítve vannak. Újra letöltsem?"
+${LangFileString} CODECS_IS_DOWNLOADING "MPlayer kodekek letöltése..."
+${LangFileString} CODECS_DL_FAILED "Az MPlayer kodekek letöltése nem sikerült:"
+${LangFileString} CODECS_INST_FAILED "Az MPlayer kodekek telepítése nem sikerült."
 
 ; Version information
-${LangFileString} VERINFO_IS_DOWNLOADING "Downloading version information..."
-${LangFileString} VERINFO_DL_FAILED "Failed to download version info:"
-${LangFileString} VERINFO_IS_MISSING "Version file missing version information. Setup will use a default version."
+${LangFileString} VERINFO_IS_DOWNLOADING "Verzió információ letöltése..."
+${LangFileString} VERINFO_DL_FAILED "Verzió információ letöltése nem sikerült:"
+${LangFileString} VERINFO_IS_MISSING "A verzió fájlból hiányzik a verzió információ. A telepítõ egy alapértelmezett verziót fog használni."
