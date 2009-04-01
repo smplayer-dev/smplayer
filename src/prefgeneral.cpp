@@ -138,7 +138,11 @@ void PrefGeneral::setData(Preferences * pref) {
 	QString vo = pref->vo;
 	if (vo.isEmpty()) {
 #ifdef Q_OS_WIN
-		vo = "directx,";
+		if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA) {
+			vo = "direct3d,";
+		} else {
+			vo = "directx,";
+		}
 #else
 		vo = "xv,";
 #endif
