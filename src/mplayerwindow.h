@@ -53,6 +53,14 @@ public:
 	Screen(QWidget* parent = 0, Qt::WindowFlags f = 0);
 	~Screen();
 
+#if NEW_MOUSE_CHECK_POS
+	void setAutoHideCursor(bool b);
+	bool autoHideCursor() { return autohide_cursor; };
+
+	void setAutoHideInterval(int milliseconds) { autohide_interval = milliseconds; };
+	int autoHideInterval() { return autohide_interval; };
+#endif
+
 protected:
 #if !NEW_MOUSE_CHECK_POS
 	virtual void mouseMoveEvent( QMouseEvent * e );
@@ -63,8 +71,11 @@ protected slots:
 	virtual void checkMousePos();
 
 private:
+	QTimer * check_mouse_timer;
 #if NEW_MOUSE_CHECK_POS
 	QPoint mouse_last_position;
+	bool autohide_cursor;
+	int autohide_interval;
 #else
 	QPoint cursor_pos, last_cursor_pos;
 #endif

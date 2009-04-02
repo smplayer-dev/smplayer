@@ -50,12 +50,10 @@ Screen::Screen(QWidget* parent, Qt::WindowFlags f) : QWidget(parent, f )
 	last_cursor_pos = QPoint(0,0);
 #endif
 
-	QTimer *timer = new QTimer(this);
-	connect( timer, SIGNAL(timeout()), this, SLOT(checkMousePos()) );
-#if NEW_MOUSE_CHECK_POS
-	timer->start(500);
-#else
-	timer->start(2000);
+	check_mouse_timer = new QTimer(this);
+	connect( check_mouse_timer, SIGNAL(timeout()), this, SLOT(checkMousePos()) );
+#if !NEW_MOUSE_CHECK_POS
+	check_mouse_timer->start(2000);
 #endif
 
 	// Change attributes
@@ -65,6 +63,11 @@ Screen::Screen(QWidget* parent, Qt::WindowFlags f) : QWidget(parent, f )
 	setAttribute(Qt::WA_PaintOnScreen);
 	setAttribute(Qt::WA_PaintUnclipped);
 	//setAttribute(Qt::WA_PaintOutsidePaintEvent);
+
+#if NEW_MOUSE_CHECK_POS
+	setAutoHideInterval(1000);
+	setAutoHideCursor(false);
+#endif
 }
 
 Screen::~Screen() {
@@ -78,8 +81,26 @@ void Screen::paintEvent( QPaintEvent * e ) {
 }
 
 #if NEW_MOUSE_CHECK_POS
+void Screen::setAutoHideCursor(bool b) {
+	qDebug("Screen::setAutoHideCursor: %d", b);
+
+	autohide_cursor = b;
+	if (autohide_cursor) {
+		check_mouse_timer->setInterval(autohide_interval);
+		check_mouse_timer->start();
+	} else {
+		check_mouse_timer->stop();
+	}
+}
+
 void Screen::checkMousePos() {
 	//qDebug("Screen::checkMousePos");
+
+	if (!autohide_cursor) {
+		setCursor(QCursor(Qt::ArrowCursor));
+		return;
+	}
+
 	QPoint pos = mapFromGlobal(QCursor::pos());
 
 	if (mouse_last_position != pos) {
@@ -149,12 +170,16 @@ void MplayerLayer::playingStarted() {
 	qDebug("MplayerLayer::playingStarted");
 	repaint();
 	playing = true;
+
+	setAutoHideCursor(true);
 }
 
 void MplayerLayer::playingStopped() {
 	qDebug("MplayerLayer::playingStopped");
 	playing = false;
 	repaint();
+
+	setAutoHideCursor(false);
 }
 
 /* ---------------------------------------------------------------------- */
