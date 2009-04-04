@@ -37,21 +37,16 @@
 
 !define PRODUCT_NAME "SMPlayer"
 !define PRODUCT_VERSION "0.6.7"
-!define PRODUCT_PUBLISHER "RVM"
-!define PRODUCT_WEB_SITE "http://smplayer.sf.net"
-!define PRODUCT_FORUM "http://smplayer.sourceforge.net/forums"
 !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\SMPlayer"
 !define PRODUCT_STARTMENU_GROUP "SMPlayer"
+!define MEMENTO_REGISTRY_ROOT HKLM
+!define MEMENTO_REGISTRY_KEY Software\SMPlayer
 
 ; Fallback versions
 !define DEFAULT_CODECS_VERSION "windows-essential-20071007"
 !ifndef WITH_MPLAYER
 !define DEFAULT_MPLAYER_VERSION "mplayer-svn-28311"
 !endif
-
-; Memento settings (required for Memento)
-!define MEMENTO_REGISTRY_ROOT HKLM
-!define MEMENTO_REGISTRY_KEY Software\SMPlayer
 
 !include MUI2.nsh
 !include Sections.nsh
@@ -72,19 +67,18 @@
   ;Version tab properties
   VIProductVersion "${PRODUCT_VERSION}.0"
   VIAddVersionKey "ProductName" "SMPlayer"
+  VIAddVersionKey "ProductVersion" "${PRODUCT_VERSION}"
   VIAddVersionKey "Comments" "This installation was built with NSIS."
-  VIAddVersionKey "LegalTrademarks" "RVM"
-  VIAddVersionKey "LegalCopyright" "RVM"
-  VIAddVersionKey "CompanyName" "RVM"
 !ifdef WITH_MPLAYER
   VIAddVersionKey "FileDescription" "SMPlayer Installer (w/ MPlayer)"
 !else
   VIAddVersionKey "FileDescription" "SMPlayer Installer (w/o MPlayer)"
 !endif
   VIAddVersionKey "FileVersion" "${PRODUCT_VERSION}"
+  VIAddVersionKey "LegalCopyright" ""
 
   /* Sets default install dir to $PROGRAMFILES\SMPlayer.
-  If InstallDirRegKey exists (from a previous installation,
+  If InstallDirRegKey exists (from a previous installation),
   it will default to that directory instead. */
   InstallDir "$PROGRAMFILES\SMPlayer"
   InstallDirRegKey HKLM "Software\SMPlayer" "Path"
@@ -170,7 +164,7 @@
   !insertmacro MUI_LANGUAGE "Spanish"
 
 ;--------------------------------
-; Translations
+; Translations for setup
 
   !insertmacro LANGFILE_INCLUDE "translations\basque.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\catalan.nsh"
@@ -283,11 +277,11 @@ Section SMPlayer SMPlayer
   WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "DisplayName" "$(^Name)"
   WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "DisplayIcon" "$INSTDIR\smplayer.exe"
   WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "DisplayVersion" "${PRODUCT_VERSION}"
-  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "HelpLink" "${PRODUCT_FORUM}"
+  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "HelpLink" "http://smplayer.sourceforge.net/forums"
   WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "UninstallString" "$INSTDIR\uninst.exe"
-  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "URLInfoAbout" "${PRODUCT_WEB_SITE}"
-  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "URLUpdateInfo" "${PRODUCT_WEB_SITE}"
-  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "Publisher" "${PRODUCT_PUBLISHER}"
+  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "URLInfoAbout" "http://smplayer.sf.net"
+  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "URLUpdateInfo" "http://smplayer.sf.net"
+  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "Publisher" "RVM"
   WriteRegDWORD HKLM "${PRODUCT_UNINST_KEY}" "NoModify" "1"
   WriteRegDWORD HKLM "${PRODUCT_UNINST_KEY}" "NoRepair" "1"
 
@@ -331,7 +325,7 @@ ${MementoSection} "Create Start Menu shortcuts" StartMenuIcon
   SetShellVarContext all
   CreateDirectory "$SMPROGRAMS\${PRODUCT_STARTMENU_GROUP}"
   CreateShortCut "$SMPROGRAMS\${PRODUCT_STARTMENU_GROUP}\SMPlayer.lnk" "$INSTDIR\smplayer.exe"
-  WriteINIStr    "$SMPROGRAMS\${PRODUCT_STARTMENU_GROUP}\SMPlayer on the Web.url" "InternetShortcut" "URL" "${PRODUCT_WEB_SITE}"
+  WriteINIStr    "$SMPROGRAMS\${PRODUCT_STARTMENU_GROUP}\SMPlayer on the Web.url" "InternetShortcut" "URL" "http://smplayer.sf.net"
   CreateShortCut "$SMPROGRAMS\${PRODUCT_STARTMENU_GROUP}\Uninstall SMPlayer.lnk" "$INSTDIR\uninst.exe"
 
 ${MementoSectionEnd}
