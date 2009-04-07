@@ -1282,6 +1282,13 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument("-vc");
 		proc->addArgument(mset.forced_video_codec);
 	}
+#ifndef Q_OS_WIN
+	else {
+		if (pref->vo.startsWith("vdpau")) {
+			proc->addArgument( "-vc ffh264vdpau,ffmpeg12vdpau,ffwmv3vdpau,ffvc1vdpau,");
+		}
+	}
+#endif
 
 	if (pref->use_hwac3) {
 		proc->addArgument("-afm");
