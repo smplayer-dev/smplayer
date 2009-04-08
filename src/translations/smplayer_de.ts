@@ -4384,7 +4384,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="793"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
-        <translation>Mit dieser Option erfolgt die Wiedergabe von smplayer im Vollbild-Modus.</translation>
+        <translation>Mit dieser Option erfolgt die Wiedergabe von SMPlayer im Vollbild-Modus.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="845"/>
@@ -4977,7 +4977,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="725"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
-        <translation>Mit dieser Option werden Bildschirmfotos  aktiviert oder deaktivieren.</translation>
+        <translation>Mit dieser Option werden Bildschirmfotos  aktiviert oder deaktiviert.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="730"/>
