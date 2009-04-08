@@ -65,6 +65,7 @@ void Preferences::reset() {
 	vo = ""; 
 	ao = "";
 
+	use_screenshot = true;
 	screenshot_directory="";
 #ifndef PORTABLE_APP
 	if (QFile::exists(Paths::configPath() + "/screenshots")) {
@@ -425,6 +426,7 @@ void Preferences::save() {
 	set->setValue("driver/vo", vo);
 	set->setValue("driver/ao", ao);
 
+	set->setValue("use_screenshot", use_screenshot);
 	set->setValue("screenshot_directory", screenshot_directory);
 
 	set->setValue("dont_remember_media_settings", dont_remember_media_settings);
@@ -790,6 +792,7 @@ void Preferences::load() {
 	vo = set->value("driver/vo", vo).toString();
 	ao = set->value("driver/ao", ao).toString();
 
+	use_screenshot = set->value("use_screenshot", use_screenshot).toBool();
 	screenshot_directory = set->value("screenshot_directory", screenshot_directory).toString();
 
 	dont_remember_media_settings = set->value("dont_remember_media_settings", dont_remember_media_settings).toBool();
