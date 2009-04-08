@@ -1236,8 +1236,9 @@ void Core::startMplayer( QString file, double seek ) {
 	bool url_is_playlist = file.endsWith(IS_PLAYLIST_TAG);
 	if (url_is_playlist) file = file.remove( QRegExp(IS_PLAYLIST_TAG_RX) );
 
-	bool screenshot_enabled = ( (!pref->screenshot_directory.isEmpty()) && 
-                                 (QFileInfo(pref->screenshot_directory).isDir()) );
+	bool screenshot_enabled = ( (pref->use_screenshot) && 
+                                (!pref->screenshot_directory.isEmpty()) && 
+                                (QFileInfo(pref->screenshot_directory).isDir()) );
 
 	proc->clearArguments();
 

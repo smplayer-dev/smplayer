@@ -1128,10 +1128,12 @@ void BaseGui::enableActionsOnPlaying() {
 	setActionsEnabled(true);
 
 	// Screenshot option
-	bool valid_directory = ( (!pref->screenshot_directory.isEmpty()) &&
-                             (QFileInfo(pref->screenshot_directory).isDir()) );
-	screenshotAct->setEnabled( valid_directory );
-	screenshotsAct->setEnabled( valid_directory );
+	bool screenshots_enabled = ( (pref->use_screenshot) && 
+                                 (!pref->screenshot_directory.isEmpty()) &&
+                                 (QFileInfo(pref->screenshot_directory).isDir()) );
+
+	screenshotAct->setEnabled( screenshots_enabled );
+	screenshotsAct->setEnabled( screenshots_enabled );
 
 	// Disable the compact action if not using video window
 	compactAct->setEnabled( panel->isVisible() );

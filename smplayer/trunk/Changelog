@@ -1,5 +1,9 @@
 [b]Version 0.6.8[/b]:
 
+(2009-04-07)
+ * Added an option in preferences to turn on/off the screenshot feature.
+   So no need now to clear the screenshot path to disable it.
+
 (2009-04-06)
  * Pass to mplayer "-vc ffh264vdpau,ffmpeg12vdpau,ffwmv3vdpau,ffvc1vdpau," if
    using vdpau as video driver and not other video codec has been set.

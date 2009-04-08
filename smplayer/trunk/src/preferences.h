@@ -67,6 +67,7 @@ public:
 	QString vo; // video output
 	QString ao; // audio output
 
+	bool use_screenshot;
 	QString screenshot_directory;
 
 	// SMPlayer will remember all media settings for all videos.
