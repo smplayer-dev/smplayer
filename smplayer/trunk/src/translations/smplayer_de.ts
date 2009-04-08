@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="de_DE">
+<!DOCTYPE TS>
+<TS version="2.0" language="de_DE">
 <context>
     <name>About</name>
     <message>
@@ -2085,7 +2086,7 @@ file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Es war nicht möglich, die heruntergeladene Datei 
 im Order %1 zu speichern 
-Bitte die Berechtigung für den Ordner überprüfen</translation>
+Bitte die Berechtigung für den Ordner überprüfen.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="448"/>
@@ -3315,7 +3316,7 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
         <source>Marshallese</source>
         <translation>Marshallese</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmål</translation>
@@ -3425,7 +3426,7 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
@@ -4069,7 +4070,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="396"/>
         <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
-        <translation>Einschränkung: Die Aktionen starten nur, wenn eine Datei geladen worden ist, nicht wenn der MPlayer neu gestartet wird. (z. B. Auswahl Audio-oder Video-Filter)</translation>
+        <translation>Einschränkung: Die Aktionen starten nur, wenn eine Datei geladen worden ist, nicht wenn der MPlayer neu gestartet wird (z. B. Auswahl Audio-oder Video-Filter).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="412"/>
@@ -4971,37 +4972,37 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="723"/>
         <source>Enable screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildschirmfotos aktivieren</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="725"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mit dieser Option werden Bildschirmfotos  aktiviert oder deaktivieren.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="730"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier wird der Speicherort für die Bildschirmfotos bestimmt. Wenn dieser Ordner nicht vorhanden ist, werden Bildschirmfotos deaktiviert.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="43"/>
         <source>&amp;MPlayer executable:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ausführbare Mplayer-Datei:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="150"/>
         <source>Screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildschirmfotos</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="156"/>
         <source>&amp;Enable screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bildschirmfotos aktivieren</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="166"/>
         <source>&amp;Folder:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ordner:</translation>
     </message>
 </context>
 <context>
