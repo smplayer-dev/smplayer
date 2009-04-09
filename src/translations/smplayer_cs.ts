@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="cs">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1565,7 +1566,7 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="1285"/>
         <source>Start/stop takin&amp;g screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;pustit/zastavit snímkování</translation>
     </message>
 </context>
 <context>
@@ -1656,12 +1657,12 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../core.cpp" line="2624"/>
         <source>Subtitle delay: %1 ms</source>
-        <translation type="unfinished"></translation>
+        <translation>Zpoždění titulků: %1 ms</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2641"/>
         <source>Audio delay: %1 ms</source>
-        <translation type="unfinished"></translation>
+        <translation>Zpoždění zvuku: %1 ms</translation>
     </message>
 </context>
 <context>
@@ -4253,7 +4254,7 @@ Příklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefdrives.ui" line="157"/>
         <source>&amp;Scan for CD/DVD drives</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Vyhledat CD/DVD mechaniky</translation>
     </message>
 </context>
 <context>
@@ -4967,37 +4968,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="723"/>
         <source>Enable screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Povolt snímkování</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="725"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zde můžete povolit nebo zakázat možnost snímkování obrazovky.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="730"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>Uveďte adresář, kam má SMPlayer ukládat snímky obrazovky. Nebude-li adresář platný, možnost snímkování bude zakázána.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="43"/>
         <source>&amp;MPlayer executable:</source>
-        <translation type="unfinished"></translation>
+        <translation>Program &amp;Mplayeru:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="150"/>
         <source>Screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Snímkování</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="156"/>
         <source>&amp;Enable screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Povo&amp;lit snímkování</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="166"/>
         <source>&amp;Folder:</source>
-        <translation type="unfinished"></translation>
+        <translation>Adresář:</translation>
     </message>
 </context>
 <context>
