@@ -23,7 +23,7 @@
 
 MyActionGroupItem::MyActionGroupItem(QObject * parent, MyActionGroup *group,
                                      const char * name, 
-                                     QVariant data, bool autoadd)
+                                     int data, bool autoadd)
 	: MyAction(parent, name, autoadd)
 {
 	setData(data);
@@ -34,7 +34,7 @@ MyActionGroupItem::MyActionGroupItem(QObject * parent, MyActionGroup *group,
 MyActionGroupItem::MyActionGroupItem(QObject * parent, MyActionGroup *group,
                                      const QString & text,
                                      const char * name, 
-                                     QVariant data, bool autoadd)
+                                     int data, bool autoadd)
 	: MyAction(parent, name, autoadd)
 {
 	setData(data);
@@ -97,18 +97,11 @@ void MyActionGroup::clear(bool remove) {
 
 void MyActionGroup::itemTriggered(QAction *a) {
 	qDebug("MyActionGroup::itemTriggered: '%s'", a->objectName().toUtf8().data());
+	int value = a->data().toInt();
 
-	if (a->data().type() == QVariant::Int) {
-		int value = a->data().toInt();
-		qDebug("MyActionGroup::itemTriggered: value (int): %d", value);
-		emit activated(value);
-	}
-	else
-	if (a->data().type() == QVariant::Double) {
-		double value = a->data().toDouble();
-		qDebug("MyActionGroup::itemTriggered: value (double): %f", value);
-		emit activated(value);
-	}
+	qDebug("MyActionGroup::itemTriggered: ID: %d", value);
+
+	emit activated(value);
 }
 
 void MyActionGroup::addTo(QWidget *w) {

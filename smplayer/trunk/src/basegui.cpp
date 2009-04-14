@@ -810,15 +810,15 @@ void BaseGui::createActions() {
 
 	// Video size
 	sizeGroup = new MyActionGroup(this);
-	size50 = new MyActionGroupItem(this, sizeGroup, "5&0%", "size_50", QVariant(50));
-	size75 = new MyActionGroupItem(this, sizeGroup, "7&5%", "size_75", QVariant(75));
-	size100 = new MyActionGroupItem(this, sizeGroup, "&100%", "size_100", QVariant(100));
-	size125 = new MyActionGroupItem(this, sizeGroup, "1&25%", "size_125", QVariant(125));
-	size150 = new MyActionGroupItem(this, sizeGroup, "15&0%", "size_150", QVariant(150));
-	size175 = new MyActionGroupItem(this, sizeGroup, "1&75%", "size_175", QVariant(175));
-	size200 = new MyActionGroupItem(this, sizeGroup, "&200%", "size_200", QVariant(200));
-	size300 = new MyActionGroupItem(this, sizeGroup, "&300%", "size_300", QVariant(300));
-	size400 = new MyActionGroupItem(this, sizeGroup, "&400%", "size_400", QVariant(400));
+	size50 = new MyActionGroupItem(this, sizeGroup, "5&0%", "size_50", 50);
+	size75 = new MyActionGroupItem(this, sizeGroup, "7&5%", "size_75", 75);
+	size100 = new MyActionGroupItem(this, sizeGroup, "&100%", "size_100", 100);
+	size125 = new MyActionGroupItem(this, sizeGroup, "1&25%", "size_125", 125);
+	size150 = new MyActionGroupItem(this, sizeGroup, "15&0%", "size_150", 150);
+	size175 = new MyActionGroupItem(this, sizeGroup, "1&75%", "size_175", 175);
+	size200 = new MyActionGroupItem(this, sizeGroup, "&200%", "size_200", 200);
+	size300 = new MyActionGroupItem(this, sizeGroup, "&300%", "size_300", 300);
+	size400 = new MyActionGroupItem(this, sizeGroup, "&400%", "size_400", 400);
 	size100->setShortcut( Qt::CTRL | Qt::Key_1 );
 	size200->setShortcut( Qt::CTRL | Qt::Key_2 );
 	connect( sizeGroup, SIGNAL(activated(int)), core, SLOT(changeSize(int)) );
