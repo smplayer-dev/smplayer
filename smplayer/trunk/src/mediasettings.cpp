@@ -74,13 +74,7 @@ void MediaSettings::reset() {
 	//current_deinterlacer = NoDeinterlace;
 	current_deinterlacer = pref->initial_deinterlace;
 
-#if NEW_ASPECT_CODE
 	add_letterbox = false;
-#else
-	letterbox = NoLetterbox;
-	panscan_filter = "";
-	crop_43to169_filter = "";
-#endif
 
     karaoke_filter = false;
 	extrastereo_filter = false;
@@ -119,8 +113,6 @@ double MediaSettings::win_aspect() {
 	return (double) win_width / win_height;
 }
 
-
-#if NEW_ASPECT_CODE
 double MediaSettings::aspectToNum(Aspect aspect) {
 	double asp;
 
@@ -159,7 +151,6 @@ QString MediaSettings::aspectToString(Aspect aspect) {
 
 	return asp_name;
 }
-#endif
 
 void MediaSettings::list() {
 	qDebug("MediaSettings::list");
@@ -201,13 +192,9 @@ void MediaSettings::list() {
 	qDebug("  upscaling_filter: %d", upscaling_filter);
 
 	qDebug("  current_deinterlacer: %d", current_deinterlacer);
-#if NEW_ASPECT_CODE
+
 	qDebug("  add_letterbox: %d", add_letterbox);
-#else
-	qDebug("  letterbox: %d", letterbox);
-	qDebug("  panscan_filter: '%s'", panscan_filter.toUtf8().data());
-	qDebug("  crop_43to169_filter: '%s'", crop_43to169_filter.toUtf8().data());
-#endif
+
 	qDebug("  karaoke_filter: %d", karaoke_filter);
 	qDebug("  extrastereo_filter: %d", extrastereo_filter);
 	qDebug("  volnorm_filter: %d", volnorm_filter);
@@ -288,13 +275,9 @@ void MediaSettings::save(QSettings * set) {
 	set->setValue( "upscaling_filter", upscaling_filter);
 
 	set->setValue( "current_deinterlacer", current_deinterlacer);
-#if NEW_ASPECT_CODE
+
 	set->setValue( "add_letterbox", add_letterbox );
-#else
-	set->setValue( "letterbox", letterbox );
-	set->setValue( "panscan_filter", panscan_filter);
-	set->setValue( "crop_43to169_filter", crop_43to169_filter);
-#endif
+
 	set->setValue( "karaoke_filter", karaoke_filter);
 	set->setValue( "extrastereo_filter", extrastereo_filter);
 	set->setValue( "volnorm_filter", volnorm_filter);
@@ -376,13 +359,9 @@ void MediaSettings::load(QSettings * set) {
 	upscaling_filter = set->value( "upscaling_filter", upscaling_filter).toBool();
 
 	current_deinterlacer = set->value( "current_deinterlacer", current_deinterlacer ).toInt();
-#if NEW_ASPECT_CODE
+
 	add_letterbox = set->value( "add_letterbox", add_letterbox ).toBool();
-#else
-	letterbox = (LetterboxType) set->value( "letterbox", letterbox ).toInt();
-	panscan_filter = set->value( "panscan_filter", panscan_filter).toString();
-	crop_43to169_filter = set->value( "crop_43to169_filter", crop_43to169_filter).toString();
-#endif
+
 	karaoke_filter = set->value( "karaoke_filter", karaoke_filter).toBool();
 	extrastereo_filter = set->value( "extrastereo_filter", extrastereo_filter).toBool();
 	volnorm_filter = set->value( "volnorm_filter", volnorm_filter).toBool();

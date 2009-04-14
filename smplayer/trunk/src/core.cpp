@@ -982,13 +982,7 @@ void Core::finishRestart() {
 
 	we_are_restarting = false;
 
-#if NEW_ASPECT_CODE
 	changeAspectRatio(mset.aspect_ratio_id);
-#else
-	if (mset.aspect_ratio_id < MediaSettings::Aspect43Letterbox) {
-		changeAspectRatio(mset.aspect_ratio_id);
-	}
-#endif
 
 	bool isMuted = mset.mute;
 	if (!pref->dont_change_volume) {
@@ -1815,20 +1809,6 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 	}
 
-#if !NEW_ASPECT_CODE
-	// Panscan (crop)
-	if (!mset.panscan_filter.isEmpty()) {
-		proc->addArgument( "-vf-add" );
-		proc->addArgument( mset.panscan_filter );
-	}
-
-	// Crop 4:3 to 16:9
-	if (!mset.crop_43to169_filter.isEmpty()) {
-		proc->addArgument( "-vf-add" );
-		proc->addArgument( mset.crop_43to169_filter );
-	}
-#endif
-
 	// Denoise
 	if (mset.current_denoiser != MediaSettings::NoDenoise) {
 		proc->addArgument("-vf-add");
@@ -1876,7 +1856,6 @@ void Core::startMplayer( QString file, double seek ) {
 
 
 	// Letterbox (expand)
-#if NEW_ASPECT_CODE
 	if ((mset.add_letterbox) || (pref->fullscreen && pref->add_blackborders_on_fullscreen)) {
 		proc->addArgument("-vf-add");
 		proc->addArgument( QString("expand=:::::%1,harddup").arg( DesktopInfo::desktop_aspectRatio(mplayerwindow)) );
@@ -1886,17 +1865,6 @@ void Core::startMplayer( QString file, double seek ) {
 		// it will be harmless in mplayer. 
 		// Anyway, if you know a proper way to fix the problem, please tell me.
 	}
-#else
-	if (mset.letterbox == MediaSettings::Letterbox_43) {		
-		proc->addArgument("-vf-add");
-		proc->addArgument("expand=:::::4/3");
-	}
-	else
-	if (mset.letterbox == MediaSettings::Letterbox_169) {
-		proc->addArgument("-vf-add");
-		proc->addArgument("expand=:::::16/9");
-	}
-#endif
 
 	// Software equalizer
 	if ( (pref->use_soft_video_eq) ) {
@@ -3203,7 +3171,6 @@ void Core::changeAngle(int ID) {
 	}
 }
 
-#if NEW_ASPECT_CODE
 void Core::changeAspectRatio( int ID ) {
 	qDebug("Core::changeAspectRatio: %d", ID);
 
@@ -3240,109 +3207,6 @@ void Core::changeLetterbox(bool b) {
 		restartPlay();
 	}
 }
-
-#else
-void Core::changeAspectRatio( int ID ) {
-	qDebug("Core::changeAspectRatio: %d", ID);
-
-	int old_id = mset.aspect_ratio_id;
-	mset.aspect_ratio_id = ID;
-	bool need_restart = FALSE;
-
-    double asp = mdat.video_aspect; // Set a default
-
-    if (ID==MediaSettings::Aspect43Letterbox) {  
-		need_restart = (old_id != MediaSettings::Aspect43Letterbox);
-		asp = (double) 4 / 3;
-        mset.letterbox = MediaSettings::Letterbox_43;
-		mset.panscan_filter = "";
-		mset.crop_43to169_filter = "";
-	}
-	else
-    if (ID==MediaSettings::Aspect169Letterbox) {  
-		need_restart = (old_id != MediaSettings::Aspect169Letterbox);
-		asp = (double) 16 / 9;
-        mset.letterbox = MediaSettings::Letterbox_169;
-		mset.panscan_filter = "";
-		mset.crop_43to169_filter = "";
-	}
-	else
-	if (ID==MediaSettings::Aspect43Panscan) {
-		need_restart = (old_id != MediaSettings::Aspect43Panscan);
-		mset.crop_43to169_filter = "";
-		mset.letterbox = MediaSettings::NoLetterbox;
-
-		asp = (double) 4 / 3;
-		int real_width = (int) round(mdat.video_height * mdat.video_aspect);
-		mset.panscan_filter = QString("scale=%1:%2,").arg(real_width).arg(mdat.video_height);
-		mset.panscan_filter += QString("crop=%1:%2").arg(round(mdat.video_height * 4 /3)).arg(mdat.video_height);
-		//mset.crop = QSize( mdat.video_height * 4 /3, mdat.video_height );
-		qDebug("Core::changeAspectRatio: panscan_filter = '%s'", mset.panscan_filter.toUtf8().data() );
-
-	}
-    else
-	if (ID==MediaSettings::Aspect43To169) {
-		need_restart = (old_id != MediaSettings::Aspect43To169);
-		mset.panscan_filter = "";
-		mset.crop_43to169_filter = "";
-		mset.letterbox = MediaSettings::NoLetterbox;
-
-		int real_width = (int) round(mdat.video_height * mdat.video_aspect);
-		int height = (int) round(real_width * 9 / 16);
-
-		qDebug("Core::changeAspectRatio: video_width: %d, video_height: %d", real_width, mdat.video_height);
-		qDebug("Core::changeAspectRatio: crop: %d, %d", real_width, height );
-
-		if (height > mdat.video_height) {
-			// Invalid size, source video is not 4:3
-			need_restart = FALSE;
-		} else {
-			asp = (double) 16 / 9;
-			mset.crop_43to169_filter = QString("scale=%1:%2,").arg(real_width).arg(mdat.video_height);
-			mset.crop_43to169_filter += QString("crop=%1:%2").arg(real_width).arg(height);
-			qDebug("Core::changeAspectRatio: crop_43to169_filter = '%s'", mset.crop_43to169_filter.toUtf8().data() );
-		}
-	}
-	else
-    {
-		//need_restart = (mset.force_letterbox == TRUE);
-		need_restart = ( (old_id == MediaSettings::Aspect43Letterbox) || 
-                         (old_id == MediaSettings::Aspect169Letterbox) || 
-                         (old_id == MediaSettings::Aspect43Panscan) || 
-                         (old_id == MediaSettings::Aspect43To169) );
-		mset.letterbox = MediaSettings::NoLetterbox;
-		mset.panscan_filter = "";
-		mset.crop_43to169_filter = "";
-        switch (ID) {
-        	//case MediaSettings::AspectAuto: asp = mdat.video_aspect; break;
-			case MediaSettings::AspectAuto: {
-				qDebug("Core::changeAspectRatio: mset.win_width %d, mset.win_height: %d", mset.win_width, mset.win_height);
-                asp = mset.win_aspect(); break;
-			}
-            case MediaSettings::Aspect43: asp = (double) 4 / 3; break;
-            case MediaSettings::Aspect169: asp = (double) 16 / 9; break;
-			case MediaSettings::Aspect149: asp = (double) 14 / 9; break;
-			case MediaSettings::Aspect1610: asp = (double) 16 / 10; break;
-			case MediaSettings::Aspect54: asp = (double) 5 / 4; break;
-            case MediaSettings::Aspect235: asp = 2.35; break;
-		}
-	}
-
-	if (!pref->use_mplayer_window) {
-		mplayerwindow->setAspect( asp );
-	} else {
-		// Using mplayer own window
-		tellmp("switch_ratio " + QString::number(asp));
-	}
-
-	updateWidgets();
-
-    if (need_restart) {
-		/*mdat.calculateWinResolution(mset.force_letterbox);*/
-    	restartPlay();
-	}
-}
-#endif
 
 void Core::changeOSD(int v) {
 	qDebug("Core::changeOSD: %d", v);

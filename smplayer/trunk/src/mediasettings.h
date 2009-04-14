@@ -34,17 +34,9 @@ class MediaSettings {
 
 public:
 	enum Denoise { NoDenoise = 0, DenoiseNormal = 1, DenoiseSoft = 2 };
-#if NEW_ASPECT_CODE
 	enum Aspect { AspectAuto = 1, Aspect43 = 2, Aspect54 = 3, Aspect149 = 4,
                   Aspect169 = 5, Aspect1610 = 6, Aspect235 = 7, Aspect11 = 8, 
                   AspectNone = 0 };
-#else
-	enum Aspect { AspectAuto = 1, Aspect43 = 2, Aspect169 = 3, Aspect235 = 4,
-                  Aspect43Letterbox = 5, Aspect43Panscan = 6, 
-                  Aspect43To169 = 7, Aspect149 = 8, Aspect1610 = 9, 
-                  Aspect54 = 10, Aspect169Letterbox = 11 };
-	enum LetterboxType { NoLetterbox = 0, Letterbox_43 = 1, Letterbox_169 = 2 };
-#endif
 	enum Deinterlace { NoDeinterlace = 0, L5 = 1, Yadif = 2, LB = 3, 
                        Yadif_1 = 4, Kerndeint = 5 };
 	enum AudioChannels { ChDefault = 0, ChStereo = 2, ChSurround = 4, 
@@ -97,13 +89,7 @@ public:
 
 	int current_deinterlacer;
 
-#if NEW_ASPECT_CODE
 	bool add_letterbox;
-#else
-	LetterboxType letterbox; // Force letterbox
-	QString panscan_filter;
-	QString crop_43to169_filter;
-#endif
 
 	// Filters in menu
 	bool phase_filter;
@@ -160,11 +146,9 @@ public:
     int win_height;
     double win_aspect();
 
-#if NEW_ASPECT_CODE
 	//! Returns the aspect as a double. Returns 0 if aspect == AspectNone.
 	double aspectToNum(Aspect aspect);
 	static QString aspectToString(Aspect aspect);
-#endif
 
 	void list();
 

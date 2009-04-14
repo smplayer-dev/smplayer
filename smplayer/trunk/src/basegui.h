@@ -361,9 +361,7 @@ protected:
 	MyAction * deblockAct;
 	MyAction * deringAct;
 	MyAction * addNoiseAct;
-#if NEW_ASPECT_CODE
 	MyAction * addLetterboxAct;
-#endif
 	MyAction * upscaleAct;
 
 	// Menu Audio
@@ -444,9 +442,7 @@ protected:
 	MyAction * resetVideoEqualizerAct;
 	MyAction * resetAudioEqualizerAct;
 	MyAction * showContextMenuAct;
-#if NEW_ASPECT_CODE
 	MyAction * nextAspectAct;
-#endif
 
 	// Moving and zoom
 	MyAction * moveUpAct;
@@ -497,22 +493,14 @@ protected:
 	// Aspect Action Group
 	MyActionGroup * aspectGroup;
 	MyAction * aspectDetectAct;
-#if NEW_ASPECT_CODE
 	MyAction * aspectNoneAct;
 	MyAction * aspect11Act; // 1:1
-#endif
 	MyAction * aspect43Act;
 	MyAction * aspect54Act;
 	MyAction * aspect149Act;
 	MyAction * aspect169Act;
 	MyAction * aspect1610Act;
 	MyAction * aspect235Act;
-#if !NEW_ASPECT_CODE
-	MyAction * aspect43LetterAct;
-	MyAction * aspect169LetterAct;
-	MyAction * aspect43PanscanAct;
-	MyAction * aspect43To169Act;
-#endif
 
 	// Rotate Group
 	MyActionGroup * rotateGroup;

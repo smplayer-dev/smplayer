@@ -147,9 +147,7 @@ public slots:
 	void togglePostprocessing();
 	void togglePostprocessing(bool b);
 	void changeDenoise(int);
-#if NEW_ASPECT_CODE
 	void changeLetterbox(bool);
-#endif
 	void changeUpscale(bool);
 
 	void seek(int secs);
@@ -247,9 +245,7 @@ public slots:
 	void nextChapter();
 	void changeAngle(int);
 	void changeAspectRatio(int);
-#if NEW_ASPECT_CODE
 	void nextAspectRatio();
-#endif
 	void changeOSD(int);
 	void nextOSD();
 

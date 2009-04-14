@@ -475,12 +475,10 @@ void BaseGui::createActions() {
 	connect( addNoiseAct, SIGNAL(toggled(bool)),
              core, SLOT(toggleNoise(bool)) );
 
-#if NEW_ASPECT_CODE
 	addLetterboxAct = new MyAction( this, "add_letterbox" );
 	addLetterboxAct->setCheckable( true );
 	connect( addLetterboxAct, SIGNAL(toggled(bool)),
              core, SLOT(changeLetterbox(bool)) );
-#endif
 
 	upscaleAct = new MyAction( this, "upscaling" );
 	upscaleAct->setCheckable( true );
@@ -788,11 +786,10 @@ void BaseGui::createActions() {
 	connect( showContextMenuAct, SIGNAL(triggered()), 
              this, SLOT(showPopupMenu()) );
 
-#if NEW_ASPECT_CODE
 	nextAspectAct = new MyAction( Qt::Key_A, this, "next_aspect");
 	connect( nextAspectAct, SIGNAL(triggered()), 
              core, SLOT(nextAspectRatio()) );
-#endif
+
 
 	// Group actions
 
@@ -868,23 +865,13 @@ void BaseGui::createActions() {
 	aspect169Act = new MyActionGroupItem(this, aspectGroup, "aspect_16:9", MediaSettings::Aspect169 );
 	aspect1610Act = new MyActionGroupItem(this, aspectGroup, "aspect_16:10", MediaSettings::Aspect1610 );
 	aspect235Act = new MyActionGroupItem(this, aspectGroup, "aspect_2.35:1", MediaSettings::Aspect235 );
-#if NEW_ASPECT_CODE
 	aspect11Act = new MyActionGroupItem(this, aspectGroup, "aspect_1:1", MediaSettings::Aspect11 );
 	{
 		QAction * sep = new QAction(aspectGroup);
 		sep->setSeparator(true);
 	}
 	aspectNoneAct = new MyActionGroupItem(this, aspectGroup, "aspect_none", MediaSettings::AspectNone);
-#endif
 
-#if !NEW_ASPECT_CODE
-	QAction * aspect_separator = new QAction(aspectGroup);
-	aspect_separator->setSeparator(true);
-	aspect43LetterAct = new MyActionGroupItem(this, aspectGroup, "aspect_4:3_letterbox", MediaSettings::Aspect43Letterbox );
-	aspect169LetterAct = new MyActionGroupItem(this, aspectGroup, "aspect_16:9_letterbox", MediaSettings::Aspect169Letterbox );
-	aspect43PanscanAct = new MyActionGroupItem(this, aspectGroup, "aspect_4:3_panscan", MediaSettings::Aspect43Panscan );
-	aspect43To169Act = new MyActionGroupItem(this, aspectGroup, "aspect_4:3_to_16:9", MediaSettings::Aspect43To169 );
-#endif
 	connect( aspectGroup, SIGNAL(activated(int)),
              core, SLOT(changeAspectRatio(int)) );
 
@@ -1032,9 +1019,7 @@ void BaseGui::setActionsEnabled(bool b) {
 	deblockAct->setEnabled(b);
 	deringAct->setEnabled(b);
 	addNoiseAct->setEnabled(b);
-#if NEW_ASPECT_CODE
 	addLetterboxAct->setEnabled(b);
-#endif
 	upscaleAct->setEnabled(b);
 
 	// Menu Audio
@@ -1169,9 +1154,7 @@ void BaseGui::enableActionsOnPlaying() {
 		deblockAct->setEnabled(false);
 		deringAct->setEnabled(false);
 		addNoiseAct->setEnabled(false);
-#if NEW_ASPECT_CODE
 		addLetterboxAct->setEnabled(false);
-#endif
 		upscaleAct->setEnabled(false);
 		doubleSizeAct->setEnabled(false);
 
@@ -1304,9 +1287,7 @@ void BaseGui::retranslateStrings() {
 	deblockAct->change( tr("&Deblock") );
 	deringAct->change( tr("De&ring") );
 	addNoiseAct->change( tr("Add n&oise") );
-#if NEW_ASPECT_CODE
 	addLetterboxAct->change( Images::icon("letterbox"), tr("Add &black borders") );
-#endif
 	upscaleAct->change( Images::icon("upscaling"), tr("Soft&ware scaling") );
 
 	// Menu Audio
@@ -1410,9 +1391,8 @@ void BaseGui::retranslateStrings() {
 	resetVideoEqualizerAct->change( tr("Reset video equalizer") );
 	resetAudioEqualizerAct->change( tr("Reset audio equalizer") );
 	showContextMenuAct->change( tr("Show context menu") );
-#if NEW_ASPECT_CODE
 	nextAspectAct->change( Images::icon("next_aspect"), tr("Next aspect ratio") );
-#endif
+
 
 	// Action groups
 	osdNoneAct->change( tr("&Disabled") );
@@ -1493,17 +1473,8 @@ void BaseGui::retranslateStrings() {
 	aspect169Act->change( "16:&9" );
 	aspect1610Act->change( "1&6:10" );
 	aspect235Act->change( "&2.35:1" );
-#if NEW_ASPECT_CODE
 	aspect11Act->change( "1&:1" );
 	aspectNoneAct->change( tr("&Disabled") );
-#endif
-
-#if !NEW_ASPECT_CODE
-	aspect43LetterAct->change( tr("4:3 &Letterbox") );
-	aspect169LetterAct->change( tr("16:9 L&etterbox") );
-	aspect43PanscanAct->change( tr("4:3 &Panscan") );
-	aspect43To169Act->change( tr("4:3 &to 16:9") );
-#endif
 
 	deinterlaceNoneAct->change( tr("&None") );
 	deinterlaceL5Act->change( tr("&Lowpass5") );
@@ -1985,9 +1956,7 @@ void BaseGui::createMenus() {
 	videofilter_menu->addAction(deblockAct);
 	videofilter_menu->addAction(deringAct);
 	videofilter_menu->addAction(addNoiseAct);
-#if NEW_ASPECT_CODE
 	videofilter_menu->addAction(addLetterboxAct);
-#endif
 	videofilter_menu->addAction(upscaleAct);
 	videofilter_menu->addSeparator();
 	videofilter_menu->addActions(denoiseGroup->actions());
@@ -2816,10 +2785,8 @@ void BaseGui::updateWidgets() {
 	// Add noise
 	addNoiseAct->setChecked( core->mset.noise_filter );
 
-#if NEW_ASPECT_CODE
 	// Letterbox
 	addLetterboxAct->setChecked( core->mset.add_letterbox );
-#endif
 
 	// Upscaling
 	upscaleAct->setChecked( core->mset.upscaling_filter );

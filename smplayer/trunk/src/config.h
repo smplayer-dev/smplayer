@@ -22,11 +22,6 @@
 #include <Qt>
 
 
-// Activate the new code for aspect ratio
-
-#define NEW_ASPECT_CODE 1
-
-
 // STYLE_SWITCHING
 // if 1, the preferences dialog will have an option to switch
 // the Qt style
