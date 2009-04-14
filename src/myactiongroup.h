@@ -35,13 +35,13 @@ public:
 	   the ID of the item. If \autoadd is true the action will be added to
        the parent (if it's a QWidget), so the shortcut could work. */
 	MyActionGroupItem( QObject * parent, MyActionGroup *group,
-                       const char * name, int data, bool autoadd = true );
+                       const char * name, QVariant data, bool autoadd = true );
 
 	//! Creates a new item.
 	/*! \a text is the text that the item will have. */
 	MyActionGroupItem( QObject * parent, MyActionGroup *group,
                        const QString & text, const char * name, 
-                       int data, bool autoadd = true );
+                       QVariant data, bool autoadd = true );
 };
 
 class QAction;
@@ -81,7 +81,8 @@ public:
 
 signals:
 	//! Emitted when an item has been checked
-	void activated(int);
+	void activated(int data);
+	void activated(double data);
 
 protected slots:
 	void itemTriggered(QAction *);
