@@ -35,7 +35,8 @@ build-stamp: configure-stamp
 
 	# Add here commands to compile the package.
 	$(MAKE) PREFIX=/usr QMAKE=qmake-qt4 LRELEASE=lrelease-qt4 \
-            DOC_PATH="\\\"/usr/share/doc/smplayer\\\""
+            DOC_PATH="\\\"/usr/share/doc/smplayer\\\"" \
+            QMAKE_OPTS=DEFINES+=NO_DEBUG_ON_CONSOLE
 
 	touch $@
 
