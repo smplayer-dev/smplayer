@@ -98,21 +98,16 @@ void MyActionGroup::clear(bool remove) {
 void MyActionGroup::itemTriggered(QAction *a) {
 	qDebug("MyActionGroup::itemTriggered: '%s'", a->objectName().toUtf8().data());
 
-	switch (a->data().type()) {
-		case QVariant::Int:
-			{
-				int value = a->data().toInt();
-				qDebug("MyActionGroup::itemTriggered: value (int): %d", value);
-				emit activated(value);
-			}
-			break;
-		case QVariant::Double: 
-			{
-				double value = a->data().toDouble();
-				qDebug("MyActionGroup::itemTriggered: value (double): %f", value);
-				emit activated(value);
-			}
-			break;
+	if (a->data().type() == QVariant::Int) {
+		int value = a->data().toInt();
+		qDebug("MyActionGroup::itemTriggered: value (int): %d", value);
+		emit activated(value);
+	}
+	else
+	if (a->data().type() == QVariant::Double) {
+		double value = a->data().toDouble();
+		qDebug("MyActionGroup::itemTriggered: value (double): %f", value);
+		emit activated(value);
 	}
 }
 
