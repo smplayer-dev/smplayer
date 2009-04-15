@@ -3192,10 +3192,26 @@ void Core::changeAspectRatio( int ID ) {
 }
 
 void Core::nextAspectRatio() {
-	int ID = mset.aspect_ratio_id + 1;
-	if (ID > MediaSettings:: Aspect1410) ID = MediaSettings::AspectNone;
-	changeAspectRatio(ID);
+	// Ordered list
+	QList<int> s;
+	s << MediaSettings::AspectNone 
+      << MediaSettings::AspectAuto
+      << MediaSettings::Aspect11	// 1
+      << MediaSettings::Aspect54	// 1.25
+      << MediaSettings::Aspect43	// 1.33
+      << MediaSettings::Aspect1410	// 1.4
+      << MediaSettings::Aspect32	// 1.5
+      << MediaSettings::Aspect149	// 1.55
+      << MediaSettings::Aspect1610	// 1.6
+      << MediaSettings::Aspect169	// 1.77
+      << MediaSettings::Aspect235;	// 2.35
 
+	int i = s.indexOf( mset.aspect_ratio_id ) + 1;
+	if (i >= s.count()) i = 0;
+
+	int new_aspect_id = s[i];
+
+	changeAspectRatio( new_aspect_id );
 	updateWidgets();
 }
 
