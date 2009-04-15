@@ -494,13 +494,15 @@ protected:
 	MyActionGroup * aspectGroup;
 	MyAction * aspectDetectAct;
 	MyAction * aspectNoneAct;
-	MyAction * aspect11Act; // 1:1
-	MyAction * aspect43Act;
-	MyAction * aspect54Act;
-	MyAction * aspect149Act;
-	MyAction * aspect169Act;
-	MyAction * aspect1610Act;
-	MyAction * aspect235Act;
+	MyAction * aspect11Act;		// 1:1
+	MyAction * aspect32Act;		// 3:2
+	MyAction * aspect43Act;		// 4:3
+	MyAction * aspect54Act;		// 5:4
+	MyAction * aspect149Act;	// 14:9
+	MyAction * aspect1410Act;	// 14:10
+	MyAction * aspect169Act;	// 16:9
+	MyAction * aspect1610Act;	// 16:10
+	MyAction * aspect235Act;	// 2.35:1
 
 	// Rotate Group
 	MyActionGroup * rotateGroup;

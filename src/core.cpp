@@ -3193,7 +3193,7 @@ void Core::changeAspectRatio( int ID ) {
 
 void Core::nextAspectRatio() {
 	int ID = mset.aspect_ratio_id + 1;
-	if (ID > MediaSettings:: Aspect11) ID = MediaSettings::AspectNone;
+	if (ID > MediaSettings:: Aspect1410) ID = MediaSettings::AspectNone;
 	changeAspectRatio(ID);
 
 	updateWidgets();
