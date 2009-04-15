@@ -2,6 +2,7 @@
 
 (2009-04-15)
  * Added two aspect ratios: 3:2 and 14:10.
+ * The next_aspect action changes the aspect ratio in the right order.
 
 (2009-04-07)
  * Added an option in preferences to turn on/off the screenshot feature.
