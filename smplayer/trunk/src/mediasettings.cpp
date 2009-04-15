@@ -125,6 +125,8 @@ double MediaSettings::aspectToNum(Aspect aspect) {
 		case MediaSettings::Aspect54: asp = (double) 5 / 4; break;
 		case MediaSettings::Aspect235: asp = 2.35; break;
 		case MediaSettings::Aspect11: asp = 1; break;
+		case MediaSettings::Aspect32: asp = (double) 3 / 2; break;
+		case MediaSettings::Aspect1410: asp = (double) 14 / 10; break;
 		case MediaSettings::AspectAuto: asp = win_aspect(); break;
 		default: asp = win_aspect(); 
                  qWarning("MediaSettings::aspectToNum: invalid aspect: %d", aspect);
@@ -145,6 +147,8 @@ QString MediaSettings::aspectToString(Aspect aspect) {
 		case MediaSettings::Aspect54: asp_name = "5:4"; break;
 		case MediaSettings::Aspect235: asp_name = "2.35:1"; break;
 		case MediaSettings::Aspect11: asp_name = "1:1"; break;
+		case MediaSettings::Aspect32: asp_name = "3:2"; break;
+		case MediaSettings::Aspect1410: asp_name = "14:10"; break;
 		case MediaSettings::AspectAuto: asp_name = QObject::tr("auto", "aspect_ratio"); break;
 		default: asp_name = QObject::tr("unknown", "aspect_ratio");
 	}

@@ -1,5 +1,8 @@
 [b]Version 0.6.8[/b]:
 
+(2009-04-15)
+ * Added two aspect ratios: 3:2 and 14:10.
+
 (2009-04-07)
  * Added an option in preferences to turn on/off the screenshot feature.
    So no need now to clear the screenshot path to disable it.

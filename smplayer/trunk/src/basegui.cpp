@@ -859,13 +859,15 @@ void BaseGui::createActions() {
 	// Video aspect
 	aspectGroup = new MyActionGroup(this);
 	aspectDetectAct = new MyActionGroupItem(this, aspectGroup, "aspect_detect", MediaSettings::AspectAuto);
+	aspect11Act = new MyActionGroupItem(this, aspectGroup, "aspect_1:1", MediaSettings::Aspect11 );
+	aspect32Act = new MyActionGroupItem(this, aspectGroup, "aspect_3:2", MediaSettings::Aspect32);
 	aspect43Act = new MyActionGroupItem(this, aspectGroup, "aspect_4:3", MediaSettings::Aspect43);
 	aspect54Act = new MyActionGroupItem(this, aspectGroup, "aspect_5:4", MediaSettings::Aspect54 );
 	aspect149Act = new MyActionGroupItem(this, aspectGroup, "aspect_14:9", MediaSettings::Aspect149 );
+	aspect1410Act = new MyActionGroupItem(this, aspectGroup, "aspect_14:10", MediaSettings::Aspect1410 );
 	aspect169Act = new MyActionGroupItem(this, aspectGroup, "aspect_16:9", MediaSettings::Aspect169 );
 	aspect1610Act = new MyActionGroupItem(this, aspectGroup, "aspect_16:10", MediaSettings::Aspect1610 );
 	aspect235Act = new MyActionGroupItem(this, aspectGroup, "aspect_2.35:1", MediaSettings::Aspect235 );
-	aspect11Act = new MyActionGroupItem(this, aspectGroup, "aspect_1:1", MediaSettings::Aspect11 );
 	{
 		QAction * sep = new QAction(aspectGroup);
 		sep->setSeparator(true);
@@ -1467,13 +1469,15 @@ void BaseGui::retranslateStrings() {
 	*/
 
 	aspectDetectAct->change( tr("&Auto") );
+	aspect11Act->change( "1&:1" );
+	aspect32Act->change( "&3:2" );
 	aspect43Act->change( "&4:3" );
 	aspect54Act->change( "&5:4" );
 	aspect149Act->change( "&14:9" );
+	aspect1410Act->change( "1&4:10" );
 	aspect169Act->change( "16:&9" );
 	aspect1610Act->change( "1&6:10" );
 	aspect235Act->change( "&2.35:1" );
-	aspect11Act->change( "1&:1" );
 	aspectNoneAct->change( tr("&Disabled") );
 
 	deinterlaceNoneAct->change( tr("&None") );
