@@ -1019,6 +1019,7 @@ void Core::stop()
 		// if pressed stop twice, reset video to the beginning
 		qDebug("Core::stop: mset.current_sec: %f", mset.current_sec);
 		mset.current_sec = 0;
+		qDebug("Core::stop: mset.current_sec set to 0");
 		emit showTime( mset.current_sec );
 #ifdef SEEKBAR_RESOLUTION
 		emit positionChanged( 0 );
