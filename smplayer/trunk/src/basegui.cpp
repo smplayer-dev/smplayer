@@ -2172,7 +2172,10 @@ void BaseGui::closeEvent( QCloseEvent * e )  {
 void BaseGui::closeWindow() {
 	qDebug("BaseGui::closeWindow");
 
-	core->stop();
+	if (core->state() != Core::Stopped) {
+		core->stop();
+	}
+
 	//qApp->quit();
 	emit quitSolicited();
 }
