@@ -243,6 +243,7 @@ QMap<QString,QString> Languages::translations() {
 	m["sv"] = tr("Swedish");
 	m["tr"] = tr("Turkish");
 	m["uk_UA"] = tr("Ukrainian");
+	m["vi_VN"] = tr("Vietnamese");
 	m["zh_CN"] = tr("Simplified-Chinese");
 	m["zh_TW"] = tr("Traditional Chinese");
 
