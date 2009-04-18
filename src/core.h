@@ -345,6 +345,8 @@ protected slots:
 	void durationChanged(double);
 	void askForInfo();
 	void dvdnavUpdateMousePos(QPoint);
+	void dvdTitleIsMenu();
+	void dvdTitleIsMovie();
 #endif
 
 protected:
@@ -437,6 +439,10 @@ private:
 	bool change_volume_after_unpause;
 
 	QString initial_subtitle;
+
+#if DVDNAV_SUPPORT
+	bool dvdnav_title_is_menu;
+#endif
 };
     
 #endif
