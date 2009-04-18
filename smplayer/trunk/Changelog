@@ -1,5 +1,8 @@
 [b]Version 0.6.8[/b]:
 
+(2009-04-18)
+ * Added the Vietnamese translation, by Lê Xuân Thảo <thaolx@gmail.com>.
+
 (2009-04-16)
  * (Bugfix) Don't stop the file if already stopped when closing smplayer
    to prevent that the current position would reset to 0.
@@ -1038,7 +1041,7 @@
 
 (2008-05-19)
  * Fix: zoom didn't work well with directx.
- * Added the Catalan translation, by Roger Calv� <rcalvoi@yahoo.com>.
+ * Added the Catalan translation, by Roger Calvó <rcalvoi@yahoo.com>.
 
 (2008-05-17)
  * Now the maximum port for the single instance is 99999 instead of 10000.
@@ -1075,7 +1078,7 @@
 (2008-04-28)
  * Hopefully fixed the problem of the ghost playlist, visible for a moment
    on startup.
- * Updated the Portuguese (pt_PT) translation, made by S�rgio Marques 
+ * Updated the Portuguese (pt_PT) translation, made by Sérgio Marques 
    <contatica@netcabo.pt>
  * (Linux) Added the file smplayer_enqueue.desktop which allows to add 
    the selected files in the file browser to the playlist.
