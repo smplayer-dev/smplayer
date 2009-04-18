@@ -4973,37 +4973,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="723"/>
         <source>Enable screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Pillanatképek engedélyezése</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="725"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezzel az opcióval engedélyezheti vagy tilthatja a pillanatképek készítésének lehetőségét.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="730"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>Itt megadhatja a könyvárat ahová az SMPlayer által készítétt pillanatképek mentve lesznek.Ha a könyvtár érvénytelen, a pillanatkép funkció le lesz tiltva.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="43"/>
         <source>&amp;MPlayer executable:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;MPlayer futtatható állomány:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="150"/>
         <source>Screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Pillanatképek</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="156"/>
         <source>&amp;Enable screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Pillanatképek &amp;engedélyezése</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="166"/>
         <source>&amp;Folder:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Könyvtár:</translation>
     </message>
 </context>
 <context>
