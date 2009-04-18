@@ -117,6 +117,8 @@ static QRegExp rx_fontcache("^\\[ass\\] Updating font cache|^\\[ass\\] Init");
 #if DVDNAV_SUPPORT
 static QRegExp rx_dvdnav_switch_title("^DVDNAV, switched to title: (\\d+)");
 static QRegExp rx_dvdnav_length("^ANS_length=(.*)");
+static QRegExp rx_dvdnav_title_is_menu("^DVDNAV_TITLE_IS_MENU");
+static QRegExp rx_dvdnav_title_is_movie("^DVDNAV_TITLE_IS_MOVIE");
 #endif
  
 // VCD
@@ -383,6 +385,12 @@ void MplayerProcess::parseLine(QByteArray ba) {
 				md.duration = length;
 				emit receivedDuration(length);
 			}
+		}
+		if (rx_dvdnav_title_is_menu.indexIn(line) > -1) {
+			emit receivedTitleIsMenu();
+		}
+		if (rx_dvdnav_title_is_movie.indexIn(line) > -1) {
+			emit receivedTitleIsMovie();
 		}
 #endif
 

@@ -3,6 +3,10 @@
 (2009-04-18)
  * Added the Vietnamese translation, by Lê Xuân Thảo <thaolx@gmail.com>.
  * Display the current playback speed in the status bar when it changes.
+ * Added support for the mplayer tags DVDNAV_TITLE_IS_MENU and 
+   DVDNAV_TITLE_IS_MOVIE added in mplayer svn r29156. 
+   It just simply stops sending the set_mouse_pos slave command if not in a 
+   dvd menu.
 
 (2009-04-16)
  * (Bugfix) Don't stop the file if already stopped when closing smplayer

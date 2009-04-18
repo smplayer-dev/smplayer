@@ -65,6 +65,10 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	just_unloaded_external_subs = false;
 	change_volume_after_unpause = false;
 
+#if DVDNAV_SUPPORT
+	dvdnav_title_is_menu = true; // Enabled by default for compatibility with previous versions of mplayer
+#endif
+
 #ifndef NO_USE_INI_FILES
 	// Create file_settings
 	#if NEW_SETTINGS_MANAGEMENT
@@ -174,6 +178,11 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	QTimer * ask_timer = new QTimer(this);
 	connect( ask_timer, SIGNAL(timeout()), this, SLOT(askForInfo()) );
 	ask_timer->start(5000);
+
+	connect( proc, SIGNAL(receivedTitleIsMenu()),
+             this, SLOT(dvdTitleIsMenu()) );
+	connect( proc, SIGNAL(receivedTitleIsMovie()),
+             this, SLOT(dvdTitleIsMovie()) );
 #endif
 	
 	connect( this, SIGNAL(stateChanged(Core::State)), 
@@ -3771,12 +3780,23 @@ void Core::askForInfo() {
 }
 
 void Core::dvdnavUpdateMousePos(QPoint pos) {
-	if ((state() == Playing) && (mdat.filename.startsWith("dvdnav:"))) {
+	if ((state() == Playing) && (mdat.filename.startsWith("dvdnav:")) && (dvdnav_title_is_menu)) {
 		if (mplayerwindow->videoLayer()->underMouse()) {
 			QPoint p = mplayerwindow->videoLayer()->mapFromParent(pos);
 			tellmp(QString("set_mouse_pos %1 %2").arg(p.x()).arg(p.y()));
 		}
 	}
+}
+
+void Core::dvdTitleIsMenu() {
+	qDebug("Core::dvdTitleIsMenu");
+	dvdnav_title_is_menu = true;
+}
+
+void Core::dvdTitleIsMovie() {
+	qDebug("Core::dvdTitleIsMovie");
+	dvdnav_title_is_menu = false;
+
 }
 #endif
 
