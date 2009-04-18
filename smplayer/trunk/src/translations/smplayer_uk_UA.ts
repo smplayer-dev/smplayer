@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="uk">
+<!DOCTYPE TS><TS version="1.1" language="uk">
 <context>
     <name>About</name>
     <message>
@@ -39,7 +38,7 @@
         <translation>Французька</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="221"/>
+        <location filename="../about.cpp" line="222"/>
         <source>%1, %2 and %3</source>
         <translation>%1, %2 та %3</translation>
     </message>
@@ -54,7 +53,7 @@
         <translation>Російська</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="220"/>
+        <location filename="../about.cpp" line="221"/>
         <source>%1 and %2</source>
         <translation>%1 та %2</translation>
     </message>
@@ -144,12 +143,12 @@
         <translation>Фінська</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="243"/>
+        <location filename="../about.cpp" line="244"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="264"/>
+        <location filename="../about.cpp" line="265"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -274,14 +273,19 @@
         <translation>Логотип SMPlayer: %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="222"/>
+        <location filename="../about.cpp" line="223"/>
         <source>%1, %2, %3 and %4</source>
         <translation>%1, %2, %3 та %4</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="223"/>
+        <location filename="../about.cpp" line="224"/>
         <source>%1, %2, %3, %4 and %5</source>
         <translation>%1, %2, %3, %4 та %5</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="204"/>
+        <source>Vietnamese</source>
+        <translation type="unfinished">В&apos;єтнамська</translation>
     </message>
 </context>
 <context>
@@ -455,1116 +459,1116 @@ Do you want to overwrite?</source>
 <context>
     <name>BaseGui</name>
     <message>
-        <location filename="../basegui.cpp" line="1593"/>
+        <location filename="../basegui.cpp" line="1568"/>
         <source>SMPlayer - mplayer log</source>
         <translation>SMPlayer - звіти mplayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1594"/>
+        <location filename="../basegui.cpp" line="1569"/>
         <source>SMPlayer - smplayer log</source>
         <translation>SMPlayer - звіти smplayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1425"/>
+        <location filename="../basegui.cpp" line="1407"/>
         <source>&amp;Open</source>
         <translation>&amp;Відкрити</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1426"/>
+        <location filename="../basegui.cpp" line="1408"/>
         <source>&amp;Play</source>
         <translation>Від&amp;творити</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1427"/>
+        <location filename="../basegui.cpp" line="1409"/>
         <source>&amp;Video</source>
         <translation>&amp;Зображення</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1428"/>
+        <location filename="../basegui.cpp" line="1410"/>
         <source>&amp;Audio</source>
         <translation>Зв&amp;ук</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1429"/>
+        <location filename="../basegui.cpp" line="1411"/>
         <source>&amp;Subtitles</source>
         <translation>Су&amp;бтитри</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1430"/>
+        <location filename="../basegui.cpp" line="1412"/>
         <source>&amp;Browse</source>
         <translation>Ог&amp;ляд</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1431"/>
+        <location filename="../basegui.cpp" line="1413"/>
         <source>Op&amp;tions</source>
         <translation>&amp;Налаштування</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1432"/>
+        <location filename="../basegui.cpp" line="1414"/>
         <source>&amp;Help</source>
         <translation>До&amp;відка</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1235"/>
+        <location filename="../basegui.cpp" line="1220"/>
         <source>&amp;File...</source>
         <translation>&amp;Файл...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1236"/>
+        <location filename="../basegui.cpp" line="1221"/>
         <source>D&amp;irectory...</source>
         <translation>&amp;Тека...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1237"/>
+        <location filename="../basegui.cpp" line="1222"/>
         <source>&amp;Playlist...</source>
         <translation>&amp;Перелік відтворення...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1240"/>
+        <location filename="../basegui.cpp" line="1225"/>
         <source>&amp;DVD from drive</source>
         <translation>&amp;DVD з диску</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1241"/>
+        <location filename="../basegui.cpp" line="1226"/>
         <source>D&amp;VD from folder...</source>
         <translation>D&amp;VD з теки...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1242"/>
+        <location filename="../basegui.cpp" line="1227"/>
         <source>&amp;URL...</source>
         <translation>&amp;URL-адреса...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1448"/>
+        <location filename="../basegui.cpp" line="1430"/>
         <source>&amp;Clear</source>
         <translation>&amp;Очистити</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1446"/>
+        <location filename="../basegui.cpp" line="1428"/>
         <source>&amp;Recent files</source>
         <translation>Ос&amp;танні файли</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1246"/>
+        <location filename="../basegui.cpp" line="1231"/>
         <source>P&amp;lay</source>
         <translation>Від&amp;творення</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1252"/>
+        <location filename="../basegui.cpp" line="1237"/>
         <source>&amp;Pause</source>
         <translation>&amp;Призупинити</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1253"/>
+        <location filename="../basegui.cpp" line="1238"/>
         <source>&amp;Stop</source>
         <translation>&amp;Зупинити</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1254"/>
+        <location filename="../basegui.cpp" line="1239"/>
         <source>&amp;Frame step</source>
         <translation>&amp;Крок кадра</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1270"/>
+        <location filename="../basegui.cpp" line="1255"/>
         <source>&amp;Normal speed</source>
         <translation>&amp;Звичайна швидкість</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1271"/>
+        <location filename="../basegui.cpp" line="1256"/>
         <source>&amp;Halve speed</source>
         <translation>&amp;Половина швидкості</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1272"/>
+        <location filename="../basegui.cpp" line="1257"/>
         <source>&amp;Double speed</source>
         <translation>&amp;Подвійна швидкість</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1273"/>
+        <location filename="../basegui.cpp" line="1258"/>
         <source>Speed &amp;-10%</source>
         <translation>Швидкість &amp;-10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1274"/>
+        <location filename="../basegui.cpp" line="1259"/>
         <source>Speed &amp;+10%</source>
         <translation>Швидкість &amp;+10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1451"/>
+        <location filename="../basegui.cpp" line="1433"/>
         <source>Sp&amp;eed</source>
         <translation>Шв&amp;идкість</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1266"/>
+        <location filename="../basegui.cpp" line="1251"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Повторити</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1281"/>
+        <location filename="../basegui.cpp" line="1266"/>
         <source>&amp;Fullscreen</source>
         <translation>Н&amp;а весь екран</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1282"/>
+        <location filename="../basegui.cpp" line="1267"/>
         <source>&amp;Compact mode</source>
         <translation>&amp;Стислий режим</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1458"/>
+        <location filename="../basegui.cpp" line="1440"/>
         <source>Si&amp;ze</source>
         <translation>Ро&amp;змір</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1502"/>
         <source>4:3 &amp;Letterbox</source>
-        <translation>4:3 &amp;Letterbox</translation>
+        <translation type="obsolete">4:3 &amp;Letterbox</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1503"/>
         <source>16:9 L&amp;etterbox</source>
-        <translation>16:9 L&amp;etterbox</translation>
+        <translation type="obsolete">16:9 L&amp;etterbox</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1504"/>
         <source>4:3 &amp;Panscan</source>
-        <translation>4:3 &amp;Panscan</translation>
+        <translation type="obsolete">4:3 &amp;Panscan</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1505"/>
         <source>4:3 &amp;to 16:9</source>
-        <translation>4:3 &amp;до 16:9</translation>
+        <translation type="obsolete">4:3 &amp;до 16:9</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1464"/>
+        <location filename="../basegui.cpp" line="1446"/>
         <source>&amp;Aspect ratio</source>
         <translation>&amp;Співвідношення сторін</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2600"/>
+        <location filename="../basegui.cpp" line="2576"/>
         <source>&amp;None</source>
         <translation>&amp;Нічого</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1509"/>
+        <location filename="../basegui.cpp" line="1484"/>
         <source>&amp;Lowpass5</source>
         <translation>&amp;Lowpass5</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1512"/>
+        <location filename="../basegui.cpp" line="1487"/>
         <source>Linear &amp;Blend</source>
         <translation>Лінійне &amp;змішування</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1467"/>
+        <location filename="../basegui.cpp" line="1449"/>
         <source>&amp;Deinterlace</source>
         <translation>&amp;Деінтерлейсинг</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1302"/>
+        <location filename="../basegui.cpp" line="1287"/>
         <source>&amp;Postprocessing</source>
         <translation>&amp;Післяобробка</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1303"/>
+        <location filename="../basegui.cpp" line="1288"/>
         <source>&amp;Autodetect phase</source>
         <translation>&amp;Автовизначення фази</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1304"/>
+        <location filename="../basegui.cpp" line="1289"/>
         <source>&amp;Deblock</source>
         <translation>&amp;Гаусове розмиття (Deblock)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1305"/>
+        <location filename="../basegui.cpp" line="1290"/>
         <source>De&amp;ring</source>
         <translation>Видалення к&amp;раєвих спотворень (Dering)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1306"/>
+        <location filename="../basegui.cpp" line="1291"/>
         <source>Add n&amp;oise</source>
         <translation>Додати ш&amp;ум</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1470"/>
+        <location filename="../basegui.cpp" line="1452"/>
         <source>F&amp;ilters</source>
         <translation>Ф&amp;ільтри</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1283"/>
+        <location filename="../basegui.cpp" line="1268"/>
         <source>&amp;Equalizer</source>
         <translation>&amp;Еквалайзер</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1284"/>
+        <location filename="../basegui.cpp" line="1269"/>
         <source>&amp;Screenshot</source>
         <translation>Знімок &amp;екрану</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1476"/>
+        <location filename="../basegui.cpp" line="1458"/>
         <source>S&amp;tay on top</source>
         <translation>З&amp;алишатись зверху</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1326"/>
+        <location filename="../basegui.cpp" line="1309"/>
         <source>&amp;Extrastereo</source>
         <translation>&amp;Розширене стерео</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1327"/>
+        <location filename="../basegui.cpp" line="1310"/>
         <source>&amp;Karaoke</source>
         <translation>&amp;Караоке</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1538"/>
+        <location filename="../basegui.cpp" line="1513"/>
         <source>&amp;Filters</source>
         <translation>&amp;Фільтри</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1552"/>
+        <location filename="../basegui.cpp" line="1527"/>
         <source>&amp;Stereo</source>
         <translation>&amp;Стерео</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1549"/>
+        <location filename="../basegui.cpp" line="1524"/>
         <source>&amp;4.0 Surround</source>
         <translation>&amp;4.0 оточення</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1550"/>
+        <location filename="../basegui.cpp" line="1525"/>
         <source>&amp;5.1 Surround</source>
         <translation>&amp;5.1 оточення</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1541"/>
+        <location filename="../basegui.cpp" line="1516"/>
         <source>&amp;Channels</source>
         <translation>&amp;Канали</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1553"/>
+        <location filename="../basegui.cpp" line="1528"/>
         <source>&amp;Left channel</source>
         <translation>&amp;Лівий канал</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1554"/>
+        <location filename="../basegui.cpp" line="1529"/>
         <source>&amp;Right channel</source>
         <translation>&amp;Правий канал</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1544"/>
+        <location filename="../basegui.cpp" line="1519"/>
         <source>&amp;Stereo mode</source>
         <translation>&amp;Стерео режим</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1316"/>
+        <location filename="../basegui.cpp" line="1299"/>
         <source>&amp;Mute</source>
         <translation>&amp;Вимкнути звук</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1317"/>
+        <location filename="../basegui.cpp" line="1300"/>
         <source>Volume &amp;-</source>
         <translation>Гучність &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1318"/>
+        <location filename="../basegui.cpp" line="1301"/>
         <source>Volume &amp;+</source>
         <translation>Гучність &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1319"/>
+        <location filename="../basegui.cpp" line="1302"/>
         <source>&amp;Delay -</source>
         <translation>&amp;Затримка -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1320"/>
+        <location filename="../basegui.cpp" line="1303"/>
         <source>D&amp;elay +</source>
         <translation>З&amp;атримка +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1557"/>
+        <location filename="../basegui.cpp" line="1532"/>
         <source>&amp;Select</source>
         <translation>&amp;Вибрати</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1331"/>
+        <location filename="../basegui.cpp" line="1314"/>
         <source>&amp;Load...</source>
         <translation>&amp;Завантажити...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1333"/>
+        <location filename="../basegui.cpp" line="1316"/>
         <source>Delay &amp;-</source>
         <translation>Затримка &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1334"/>
+        <location filename="../basegui.cpp" line="1317"/>
         <source>Delay &amp;+</source>
         <translation>Затримка &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1336"/>
+        <location filename="../basegui.cpp" line="1319"/>
         <source>&amp;Up</source>
         <translation>В&amp;гору</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1337"/>
+        <location filename="../basegui.cpp" line="1320"/>
         <source>&amp;Down</source>
         <translation>В&amp;низ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1561"/>
+        <location filename="../basegui.cpp" line="1536"/>
         <source>&amp;Title</source>
         <translation>&amp;Заголовок</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1564"/>
+        <location filename="../basegui.cpp" line="1539"/>
         <source>&amp;Chapter</source>
         <translation>&amp;Розділ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1567"/>
+        <location filename="../basegui.cpp" line="1542"/>
         <source>&amp;Angle</source>
         <translation>&amp;Ракурс</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1352"/>
+        <location filename="../basegui.cpp" line="1335"/>
         <source>&amp;Playlist</source>
         <translation>&amp;Перелік відтворення</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1355"/>
+        <location filename="../basegui.cpp" line="1338"/>
         <source>&amp;Show frame counter</source>
         <translation>&amp;Показати лічильник кадрів</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1498"/>
+        <location filename="../basegui.cpp" line="1481"/>
         <source>&amp;Disabled</source>
         <translation>&amp;Вимкнено</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1419"/>
+        <location filename="../basegui.cpp" line="1401"/>
         <source>&amp;Seek bar</source>
         <translation>&amp;Панель пошуку</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1420"/>
+        <location filename="../basegui.cpp" line="1402"/>
         <source>&amp;Time</source>
         <translation>&amp;Час</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1421"/>
+        <location filename="../basegui.cpp" line="1403"/>
         <source>Time + T&amp;otal time</source>
         <translation>Час + З&amp;агальний час</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1582"/>
+        <location filename="../basegui.cpp" line="1557"/>
         <source>&amp;OSD</source>
         <translation>Екранна &amp;індикація</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1585"/>
+        <location filename="../basegui.cpp" line="1560"/>
         <source>&amp;View logs</source>
         <translation>&amp;Дивитись звіти</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1358"/>
+        <location filename="../basegui.cpp" line="1341"/>
         <source>P&amp;references</source>
         <translation>&amp;Налаштування</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1368"/>
+        <location filename="../basegui.cpp" line="1351"/>
         <source>About &amp;Qt</source>
         <translation>Про &amp;Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1369"/>
+        <location filename="../basegui.cpp" line="1352"/>
         <source>About &amp;SMPlayer</source>
         <translation>Про &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2747"/>
+        <location filename="../basegui.cpp" line="2723"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;нічого&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3105"/>
+        <location filename="../basegui.cpp" line="3079"/>
         <source>Video</source>
         <translation>Зображення</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3296"/>
+        <location filename="../basegui.cpp" line="3270"/>
         <source>Audio</source>
         <translation>Звук</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3107"/>
+        <location filename="../basegui.cpp" line="3081"/>
         <source>Playlists</source>
         <translation>Переліки відтворення</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3297"/>
+        <location filename="../basegui.cpp" line="3271"/>
         <source>All files</source>
         <translation>Всі файли</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3294"/>
+        <location filename="../basegui.cpp" line="3268"/>
         <source>Choose a file</source>
         <translation>Вибрати файл</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3155"/>
+        <location filename="../basegui.cpp" line="3129"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Інформація</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3158"/>
+        <location filename="../basegui.cpp" line="3132"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Приводи CD/DVD ще не налаштовані.
 Ви зможете зробити це у діалозі налаштувань цих пристроїв.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3239"/>
+        <location filename="../basegui.cpp" line="3213"/>
         <source>Choose a directory</source>
         <translation>Вибрати теку</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3275"/>
+        <location filename="../basegui.cpp" line="3249"/>
         <source>Subtitles</source>
         <translation>Субтитри</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3327"/>
+        <location filename="../basegui.cpp" line="3301"/>
         <source>About Qt</source>
         <translation>Про Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3780"/>
+        <location filename="../basegui.cpp" line="3754"/>
         <source>Playing %1</source>
         <translation>Відтворюється %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3781"/>
+        <location filename="../basegui.cpp" line="3755"/>
         <source>Pause</source>
         <translation>Призупинений</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3782"/>
+        <location filename="../basegui.cpp" line="3756"/>
         <source>Stop</source>
         <translation>Зупинений</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1256"/>
+        <location filename="../basegui.cpp" line="1241"/>
         <source>Play / Pause</source>
         <translation>Відтворити / Призупинити</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1262"/>
+        <location filename="../basegui.cpp" line="1247"/>
         <source>Pause / Frame step</source>
         <translation>Призупинка / Крок кадра</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1332"/>
+        <location filename="../basegui.cpp" line="1315"/>
         <source>U&amp;nload</source>
         <translation>В&amp;ивантажити</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1238"/>
+        <location filename="../basegui.cpp" line="1223"/>
         <source>V&amp;CD</source>
         <translation>V&amp;CD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1243"/>
+        <location filename="../basegui.cpp" line="1228"/>
         <source>C&amp;lose</source>
         <translation>З&amp;акрити</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1353"/>
+        <location filename="../basegui.cpp" line="1336"/>
         <source>View &amp;info and properties...</source>
         <translation>Дивитсь &amp;інфо та властивості...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1290"/>
+        <location filename="../basegui.cpp" line="1275"/>
         <source>Zoom &amp;-</source>
         <translation>Масштаб &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1291"/>
+        <location filename="../basegui.cpp" line="1276"/>
         <source>Zoom &amp;+</source>
         <translation>Масштаб &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1292"/>
+        <location filename="../basegui.cpp" line="1277"/>
         <source>&amp;Reset</source>
         <translation>&amp;Скинути</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1296"/>
+        <location filename="../basegui.cpp" line="1281"/>
         <source>Move &amp;left</source>
         <translation>Змістити &amp;ліворуч</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1297"/>
+        <location filename="../basegui.cpp" line="1282"/>
         <source>Move &amp;right</source>
         <translation>Змістити &amp;праворуч</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1298"/>
+        <location filename="../basegui.cpp" line="1283"/>
         <source>Move &amp;up</source>
         <translation>Змістити &amp;вгору</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1299"/>
+        <location filename="../basegui.cpp" line="1284"/>
         <source>Move &amp;down</source>
         <translation>Змістити &amp;вниз</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1461"/>
+        <location filename="../basegui.cpp" line="1443"/>
         <source>&amp;Pan &amp;&amp; scan</source>
         <translation>&amp;Панорамування</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1341"/>
+        <location filename="../basegui.cpp" line="1324"/>
         <source>&amp;Previous line in subtitles</source>
         <translation>&amp;Попередний рядок в субтитрах</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1343"/>
+        <location filename="../basegui.cpp" line="1326"/>
         <source>N&amp;ext line in subtitles</source>
         <translation>Н&amp;аступний рядок в субтитрах</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1608"/>
+        <location filename="../basegui.cpp" line="1583"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1612"/>
+        <location filename="../basegui.cpp" line="1587"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1387"/>
+        <location filename="../basegui.cpp" line="1370"/>
         <source>Dec volume (2)</source>
         <translation>Зменшення гучності (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1388"/>
+        <location filename="../basegui.cpp" line="1371"/>
         <source>Inc volume (2)</source>
         <translation>Збільшення гучності (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1391"/>
+        <location filename="../basegui.cpp" line="1374"/>
         <source>Exit fullscreen</source>
         <translation>Вийти з повноекранного режиму</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1393"/>
+        <location filename="../basegui.cpp" line="1376"/>
         <source>OSD - Next level</source>
         <translation>Екранна індікація - наступний рівень</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1394"/>
+        <location filename="../basegui.cpp" line="1377"/>
         <source>Dec contrast</source>
         <translation>Зменшення контрасту</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1395"/>
+        <location filename="../basegui.cpp" line="1378"/>
         <source>Inc contrast</source>
         <translation>Збільшення контрасту</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1396"/>
+        <location filename="../basegui.cpp" line="1379"/>
         <source>Dec brightness</source>
         <translation>Зменшення яскравості</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1397"/>
+        <location filename="../basegui.cpp" line="1380"/>
         <source>Inc brightness</source>
         <translation>Збільшення яскравості</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1398"/>
+        <location filename="../basegui.cpp" line="1381"/>
         <source>Dec hue</source>
         <translation>Зменшення кольору</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1399"/>
+        <location filename="../basegui.cpp" line="1382"/>
         <source>Inc hue</source>
         <translation>Збільшення кольору</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1400"/>
+        <location filename="../basegui.cpp" line="1383"/>
         <source>Dec saturation</source>
         <translation>Зменшення насиченості</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1402"/>
+        <location filename="../basegui.cpp" line="1385"/>
         <source>Dec gamma</source>
         <translation>Зменшення гами</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1405"/>
+        <location filename="../basegui.cpp" line="1388"/>
         <source>Next audio</source>
         <translation>Наступне аудіо</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1406"/>
+        <location filename="../basegui.cpp" line="1389"/>
         <source>Next subtitle</source>
         <translation>Наступні субтитри</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1407"/>
+        <location filename="../basegui.cpp" line="1390"/>
         <source>Next chapter</source>
         <translation>Наступний розділ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1408"/>
+        <location filename="../basegui.cpp" line="1391"/>
         <source>Previous chapter</source>
         <translation>Попередній розділ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1401"/>
+        <location filename="../basegui.cpp" line="1384"/>
         <source>Inc saturation</source>
         <translation>Збільшення насиченості</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1403"/>
+        <location filename="../basegui.cpp" line="1386"/>
         <source>Inc gamma</source>
         <translation>Збільшення гами</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1322"/>
+        <location filename="../basegui.cpp" line="1305"/>
         <source>&amp;Load external file...</source>
         <translation>&amp;Завантажити зовнішній файл...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1513"/>
+        <location filename="../basegui.cpp" line="1488"/>
         <source>&amp;Kerndeint</source>
         <translation>&amp;Ядерний деінтерлейсер</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1510"/>
+        <location filename="../basegui.cpp" line="1485"/>
         <source>&amp;Yadif (normal)</source>
         <translation>&amp;Yadif (простий)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1511"/>
+        <location filename="../basegui.cpp" line="1486"/>
         <source>Y&amp;adif (double framerate)</source>
         <translation>Y&amp;adif (подвійна частота кадрів)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1372"/>
+        <location filename="../basegui.cpp" line="1355"/>
         <source>&amp;Next</source>
         <translation>&amp;Наступний</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1373"/>
+        <location filename="../basegui.cpp" line="1356"/>
         <source>Pre&amp;vious</source>
         <translation>Поп&amp;ередній</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1328"/>
+        <location filename="../basegui.cpp" line="1311"/>
         <source>Volume &amp;normalization</source>
         <translation>Нормалізація &amp;гучності</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1239"/>
+        <location filename="../basegui.cpp" line="1224"/>
         <source>&amp;Audio CD</source>
         <translation>&amp;Звуковий CD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1516"/>
+        <location filename="../basegui.cpp" line="1491"/>
         <source>Denoise nor&amp;mal</source>
         <translation>Усунення шуму (зви&amp;чайний)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1517"/>
+        <location filename="../basegui.cpp" line="1492"/>
         <source>Denoise &amp;soft</source>
         <translation>Усунення шуму (&amp;програмний)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1515"/>
+        <location filename="../basegui.cpp" line="1490"/>
         <source>Denoise o&amp;ff</source>
         <translation>Б&amp;ез усунення шуму</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1344"/>
+        <location filename="../basegui.cpp" line="1327"/>
         <source>Use SSA/&amp;ASS library</source>
         <translation>Використовувати бібліотеку SSA/&amp;ASS</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1287"/>
+        <location filename="../basegui.cpp" line="1272"/>
         <source>Flip i&amp;mage</source>
         <translation>Повернути з&amp;ображення</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1409"/>
+        <location filename="../basegui.cpp" line="1392"/>
         <source>&amp;Toggle double size</source>
         <translation>Перемкнути по&amp;двійний розмір</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1338"/>
+        <location filename="../basegui.cpp" line="1321"/>
         <source>S&amp;ize -</source>
         <translation>Р&amp;озмір -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1339"/>
+        <location filename="../basegui.cpp" line="1322"/>
         <source>Si&amp;ze +</source>
         <translation>Ро&amp;змір +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1308"/>
+        <location filename="../basegui.cpp" line="1292"/>
         <source>Add &amp;black borders</source>
         <translation>Додати &amp;чорні границі</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1310"/>
+        <location filename="../basegui.cpp" line="1293"/>
         <source>Soft&amp;ware scaling</source>
         <translation>Про&amp;грамне масштабування</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1365"/>
+        <location filename="../basegui.cpp" line="1348"/>
         <source>&amp;FAQ</source>
         <translation>&amp;ЧаПи</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1357"/>
+        <location filename="../basegui.cpp" line="1340"/>
         <source>Visualize &amp;motion vectors</source>
         <translation>Візуалізувати &amp;вектори руху</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1366"/>
+        <location filename="../basegui.cpp" line="1349"/>
         <source>&amp;Command line options</source>
         <translation>&amp;Опції командного рядка</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3312"/>
+        <location filename="../basegui.cpp" line="3286"/>
         <source>SMPlayer command line options</source>
         <translation>Опції командного рядка SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1267"/>
+        <location filename="../basegui.cpp" line="1252"/>
         <source>&amp;Jump to...</source>
         <translation>&amp;Перейти до...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1345"/>
+        <location filename="../basegui.cpp" line="1328"/>
         <source>Enable &amp;closed caption</source>
         <translation>Увімкнути &amp;субтитри</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1346"/>
+        <location filename="../basegui.cpp" line="1329"/>
         <source>&amp;Forced subtitles only</source>
         <translation>Субтитри тільки &amp;примусово</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1410"/>
+        <location filename="../basegui.cpp" line="1393"/>
         <source>Reset video equalizer</source>
         <translation>Скинути еквалайзер відео</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1473"/>
+        <location filename="../basegui.cpp" line="1455"/>
         <source>&amp;Rotate</source>
         <translation>По&amp;вернути</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1519"/>
+        <location filename="../basegui.cpp" line="1494"/>
         <source>&amp;Off</source>
         <translation>&amp;Вимк</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1520"/>
+        <location filename="../basegui.cpp" line="1495"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
         <translation>&amp;90 градусів за годинниковою стрілкою та переворот</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1521"/>
+        <location filename="../basegui.cpp" line="1496"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
         <translation>90 градусів за &amp;годинниковою стрілкою</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1522"/>
+        <location filename="../basegui.cpp" line="1497"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
         <translation>90 градусів &amp;проти годинникової стрілки</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1523"/>
+        <location filename="../basegui.cpp" line="1498"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
         <translation>90 градусів проти &amp;годинникової стрілки та переворот</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4175"/>
+        <location filename="../basegui.cpp" line="4149"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>Несподіване завершення MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4176"/>
+        <location filename="../basegui.cpp" line="4150"/>
         <source>Exit code: %1</source>
         <translation>Код виходу: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4193"/>
+        <location filename="../basegui.cpp" line="4167"/>
         <source>MPlayer failed to start.</source>
         <translation>Помилка старту MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4194"/>
+        <location filename="../basegui.cpp" line="4168"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Перевірте шлях до MPlayer у налаштуваннях.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4196"/>
+        <location filename="../basegui.cpp" line="4170"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer зламався.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4197"/>
+        <location filename="../basegui.cpp" line="4171"/>
         <source>See the log for more info.</source>
         <translation>Дивіться звіт для детальної інформації.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1412"/>
+        <location filename="../basegui.cpp" line="1395"/>
         <source>Show context menu</source>
         <translation>Показати контекстне меню</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3104"/>
+        <location filename="../basegui.cpp" line="3078"/>
         <source>Multimedia</source>
         <translation>Мультимедіа</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1313"/>
+        <location filename="../basegui.cpp" line="1296"/>
         <source>E&amp;qualizer</source>
         <translation>&amp;Еквалайзер</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1411"/>
+        <location filename="../basegui.cpp" line="1394"/>
         <source>Reset audio equalizer</source>
         <translation>Скинути аудіоеквалайзер</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1348"/>
+        <location filename="../basegui.cpp" line="1331"/>
         <source>Find subtitles on &amp;OpenSubtitles.org...</source>
         <translation>Шукати субтитри на &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1349"/>
+        <location filename="../basegui.cpp" line="1332"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
         <translation>&amp;Завантажити субтитри на OpenSubtitles.org...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1367"/>
+        <location filename="../basegui.cpp" line="1350"/>
         <source>&amp;Tips</source>
         <translation>&amp;Підказки</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1275"/>
+        <location filename="../basegui.cpp" line="1260"/>
         <source>Speed -&amp;4%</source>
         <translation>Швидкість -&amp;4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1276"/>
+        <location filename="../basegui.cpp" line="1261"/>
         <source>&amp;Speed +4%</source>
         <translation>Швидкість +&amp;4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1277"/>
+        <location filename="../basegui.cpp" line="1262"/>
         <source>Speed -&amp;1%</source>
         <translation>Швидкість -&amp;1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1278"/>
+        <location filename="../basegui.cpp" line="1263"/>
         <source>S&amp;peed +1%</source>
         <translation>Швидкість +&amp;1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1288"/>
+        <location filename="../basegui.cpp" line="1273"/>
         <source>Mirr&amp;or image</source>
         <translation>Від&amp;дзеркалити зображення</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1480"/>
+        <location filename="../basegui.cpp" line="1462"/>
         <source>Scree&amp;n</source>
         <translation>&amp;Екран</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1489"/>
+        <location filename="../basegui.cpp" line="1471"/>
         <source>&amp;Auto</source>
         <translation>&amp;Автоматично</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1531"/>
+        <location filename="../basegui.cpp" line="1506"/>
         <source>&amp;Default</source>
         <translation>За &amp;замовчуванням</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1404"/>
+        <location filename="../basegui.cpp" line="1387"/>
         <source>Next video</source>
         <translation>Наступне відео</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1455"/>
+        <location filename="../basegui.cpp" line="1437"/>
         <source>&amp;Track</source>
         <comment>video</comment>
         <translation>&amp;Доріжка</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1535"/>
+        <location filename="../basegui.cpp" line="1510"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
         <translation>&amp;Доріжка</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3610"/>
+        <location filename="../basegui.cpp" line="3584"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Застереження: використовується старий MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3614"/>
+        <location filename="../basegui.cpp" line="3588"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>Збірка MPlayer (%1), що встановлена у вашій системі, застаріла. SMPlayer не може вірно працювати з нею: деякі опції не будуть працювати, вибір субтитрів може бути невдалим...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3617"/>
+        <location filename="../basegui.cpp" line="3591"/>
         <source>Please, update your MPlayer.</source>
         <translation>Будь ласка, оновіть ваш MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3618"/>
+        <location filename="../basegui.cpp" line="3592"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Це застереження не буде більше показуватись)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1414"/>
+        <location filename="../basegui.cpp" line="1396"/>
         <source>Next aspect ratio</source>
         <translation>Нове співвідношення сторін</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1293"/>
+        <location filename="../basegui.cpp" line="1278"/>
         <source>&amp;Auto zoom</source>
         <translation>&amp;Автоматичний масштаб</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1294"/>
+        <location filename="../basegui.cpp" line="1279"/>
         <source>Zoom for &amp;16:9</source>
         <translation>Масштаб для &amp;16:9</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1295"/>
+        <location filename="../basegui.cpp" line="1280"/>
         <source>Zoom for &amp;2.35:1</source>
         <translation>Масштаб для &amp;2.35:1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1286"/>
+        <location filename="../basegui.cpp" line="1271"/>
         <source>Pre&amp;view...</source>
         <translation>&amp;Попередній перегляд...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1525"/>
+        <location filename="../basegui.cpp" line="1500"/>
         <source>&amp;Always</source>
         <translation>&amp;Завжди</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1526"/>
+        <location filename="../basegui.cpp" line="1501"/>
         <source>&amp;Never</source>
         <translation>&amp;Ніколи</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1527"/>
+        <location filename="../basegui.cpp" line="1502"/>
         <source>While &amp;playing</source>
         <translation>Коли &amp;відтворюється</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1575"/>
+        <location filename="../basegui.cpp" line="1550"/>
         <source>DVD &amp;menu</source>
         <translation>&amp;Меню DVD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1577"/>
+        <location filename="../basegui.cpp" line="1552"/>
         <source>DVD &amp;previous menu</source>
         <translation>&amp;Попереднє меню DVD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1571"/>
+        <location filename="../basegui.cpp" line="1546"/>
         <source>DVD menu, move up</source>
         <translation>Меню DVD, вгору</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1572"/>
+        <location filename="../basegui.cpp" line="1547"/>
         <source>DVD menu, move down</source>
         <translation>Меню DVD, вниз</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1573"/>
+        <location filename="../basegui.cpp" line="1548"/>
         <source>DVD menu, move left</source>
         <translation>Меню DVD, вліво</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1574"/>
+        <location filename="../basegui.cpp" line="1549"/>
         <source>DVD menu, move right</source>
         <translation>Меню DVD, вправо</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1576"/>
+        <location filename="../basegui.cpp" line="1551"/>
         <source>DVD menu, select option</source>
         <translation>Меню DVD, вибрати опцію</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1578"/>
+        <location filename="../basegui.cpp" line="1553"/>
         <source>DVD menu, mouse click</source>
         <translation>Меню DVD, клік мишкою</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1321"/>
+        <location filename="../basegui.cpp" line="1304"/>
         <source>Set dela&amp;y...</source>
         <translation>Встановити &amp;затримку...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1335"/>
+        <location filename="../basegui.cpp" line="1318"/>
         <source>Se&amp;t delay...</source>
         <translation>Вста&amp;новити затримку...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3332"/>
+        <location filename="../basegui.cpp" line="3306"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Перейти до:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3333"/>
+        <location filename="../basegui.cpp" line="3307"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - Пошук</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3343"/>
+        <location filename="../basegui.cpp" line="3317"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - затримка звуку</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3344"/>
+        <location filename="../basegui.cpp" line="3318"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>Затримка звуку (в мілісекундах):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3353"/>
+        <location filename="../basegui.cpp" line="3327"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - затримка субтитрів</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3354"/>
+        <location filename="../basegui.cpp" line="3328"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>Затримка субтитрів (в мілісекундах):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1528"/>
+        <location filename="../basegui.cpp" line="1503"/>
         <source>Toggle stay on top</source>
         <translation>Завжди зверху</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3909"/>
+        <location filename="../basegui.cpp" line="3883"/>
         <source>Jump to %1</source>
         <translation>Перейти до %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1285"/>
+        <location filename="../basegui.cpp" line="1270"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>Розпочати/зупинити робити &amp;знімки екрану</translation>
     </message>
@@ -1605,64 +1609,69 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2410"/>
+        <location filename="../core.cpp" line="2379"/>
         <source>Brightness: %1</source>
         <translation>Яскравість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2425"/>
+        <location filename="../core.cpp" line="2394"/>
         <source>Contrast: %1</source>
         <translation>Контрасність: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2439"/>
+        <location filename="../core.cpp" line="2408"/>
         <source>Gamma: %1</source>
         <translation>Гама: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2453"/>
+        <location filename="../core.cpp" line="2422"/>
         <source>Hue: %1</source>
         <translation>Колір: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2467"/>
+        <location filename="../core.cpp" line="2436"/>
         <source>Saturation: %1</source>
         <translation>Насиченість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2587"/>
+        <location filename="../core.cpp" line="2558"/>
         <source>Volume: %1</source>
         <translation>Гучність: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3405"/>
+        <location filename="../core.cpp" line="3288"/>
         <source>Zoom: %1</source>
         <translation>Масштаб: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2710"/>
+        <location filename="../core.cpp" line="2681"/>
         <source>Font scale: %1</source>
         <translation>Масштаб шрифта: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3224"/>
+        <location filename="../core.cpp" line="3194"/>
         <source>Aspect ratio: %1</source>
         <translation>Співвідношення сторін: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3607"/>
+        <location filename="../core.cpp" line="3490"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Оновити кеш шрифтів. Це може потребувати декількох секунд...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2624"/>
+        <location filename="../core.cpp" line="2595"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Затримка субтитрів: %1 мс</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2641"/>
+        <location filename="../core.cpp" line="2612"/>
         <source>Audio delay: %1 ms</source>
         <translation>Затримка аудіо: %1 мс</translation>
+    </message>
+    <message>
+        <location filename="../core.cpp" line="2490"/>
+        <source>Speed: %1</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2416,7 +2425,7 @@ Please check the permissions of that folder.</source>
         <translation>Амхарська</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="263"/>
+        <location filename="../languages.cpp" line="264"/>
         <source>Arabic</source>
         <translation>Арабська</translation>
     </message>
@@ -2806,7 +2815,7 @@ Please check the permissions of that folder.</source>
         <translation>Румунська</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="269"/>
+        <location filename="../languages.cpp" line="270"/>
         <source>Russian</source>
         <translation>Російська</translation>
     </message>
@@ -2916,7 +2925,7 @@ Please check the permissions of that folder.</source>
         <translation>Тонга</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="265"/>
+        <location filename="../languages.cpp" line="266"/>
         <source>Turkish</source>
         <translation>Турецька</translation>
     </message>
@@ -2956,7 +2965,7 @@ Please check the permissions of that folder.</source>
         <translation>Узбецька</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="199"/>
+        <location filename="../languages.cpp" line="246"/>
         <source>Vietnamese</source>
         <translation>В&apos;єтнамська</translation>
     </message>
@@ -3006,117 +3015,117 @@ Please check the permissions of that folder.</source>
         <translation>Португальська (Португалія)</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="246"/>
+        <location filename="../languages.cpp" line="247"/>
         <source>Simplified-Chinese</source>
         <translation>Спрощена китайська</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="247"/>
+        <location filename="../languages.cpp" line="248"/>
         <source>Traditional Chinese</source>
         <translation>Традиційна Китайська</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="255"/>
+        <location filename="../languages.cpp" line="256"/>
         <source>Unicode</source>
         <translation>Юнікод</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="256"/>
+        <location filename="../languages.cpp" line="257"/>
         <source>UTF-8</source>
         <translation>UTF-8</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="257"/>
+        <location filename="../languages.cpp" line="258"/>
         <source>Western European Languages</source>
         <translation>Східна Європа</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="258"/>
+        <location filename="../languages.cpp" line="259"/>
         <source>Western European Languages with Euro</source>
         <translation>Східна Європа з Євро</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="259"/>
+        <location filename="../languages.cpp" line="260"/>
         <source>Slavic/Central European Languages</source>
         <translation>Кирилиця/Центральна Європа</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="260"/>
+        <location filename="../languages.cpp" line="261"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
         <translation>Есперанто, Галісійська, Мальтійська, Турецька</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="261"/>
+        <location filename="../languages.cpp" line="262"/>
         <source>Old Baltic charset</source>
         <translation>Балтійська стара</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="262"/>
+        <location filename="../languages.cpp" line="263"/>
         <source>Cyrillic</source>
         <translation>Кирилиця</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="264"/>
+        <location filename="../languages.cpp" line="265"/>
         <source>Modern Greek</source>
         <translation>Грецька нова</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="266"/>
+        <location filename="../languages.cpp" line="267"/>
         <source>Baltic</source>
         <translation>Балтійська</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="267"/>
+        <location filename="../languages.cpp" line="268"/>
         <source>Celtic</source>
         <translation>Кельтська</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="268"/>
+        <location filename="../languages.cpp" line="269"/>
         <source>Hebrew charsets</source>
         <translation>Іврит</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="270"/>
+        <location filename="../languages.cpp" line="271"/>
         <source>Ukrainian, Belarusian</source>
         <translation>Українська, Білоруська</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="271"/>
+        <location filename="../languages.cpp" line="272"/>
         <source>Simplified Chinese charset</source>
         <translation>Китайська спрощена</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="272"/>
+        <location filename="../languages.cpp" line="273"/>
         <source>Traditional Chinese charset</source>
         <translation>Китайська традиційна</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="273"/>
+        <location filename="../languages.cpp" line="274"/>
         <source>Japanese charsets</source>
         <translation>Японська</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="274"/>
+        <location filename="../languages.cpp" line="275"/>
         <source>Korean charset</source>
         <translation>Корейська</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="275"/>
+        <location filename="../languages.cpp" line="276"/>
         <source>Thai charset</source>
         <translation>Тайська</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="276"/>
+        <location filename="../languages.cpp" line="277"/>
         <source>Cyrillic Windows</source>
         <translation>Кирилиця Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="277"/>
+        <location filename="../languages.cpp" line="278"/>
         <source>Slavic/Central European Windows</source>
         <translation>Кирилиця/Центральна Європа Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="278"/>
+        <location filename="../languages.cpp" line="279"/>
         <source>Arabic Windows</source>
         <translation>Арабська Windows</translation>
     </message>
@@ -3315,7 +3324,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Маршульська</translation>
     </message>
-    <message utf8="true">
+    <message encoding="UTF-8">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Букмол</translation>
@@ -3425,7 +3434,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Венда</translation>
     </message>
-    <message utf8="true">
+    <message encoding="UTF-8">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Волапюк</translation>
@@ -7018,19 +7027,19 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>визначає теку, де smplayer зберігатиме свої файли налаштувань (smplayer.ini, smplayer_files.ini...)</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="148"/>
+        <location filename="../mediasettings.cpp" line="142"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
         <translation>вимкнено</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="156"/>
+        <location filename="../mediasettings.cpp" line="152"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
         <translation>автоматично</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="157"/>
+        <location filename="../mediasettings.cpp" line="153"/>
         <source>unknown</source>
         <comment>aspect_ratio</comment>
         <translation>невідомо</translation>
