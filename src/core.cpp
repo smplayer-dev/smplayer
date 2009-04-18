@@ -2486,6 +2486,8 @@ void Core::setSpeed( double value ) {
 
 	mset.speed = value;
 	tellmp( "speed_set " + QString::number( value ) );
+
+	displayMessage( tr("Speed: %1").arg(value) );
 }
 
 void Core::incSpeed10() {
