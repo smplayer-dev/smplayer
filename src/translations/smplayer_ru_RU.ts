@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="ru">
+<!DOCTYPE TS>
+<TS version="2.0" language="ru">
 <context>
     <name>About</name>
     <message>
@@ -285,7 +286,7 @@
     <message>
         <location filename="../about.cpp" line="204"/>
         <source>Vietnamese</source>
-        <translation type="unfinished">Вьетнамский</translation>
+        <translation>Вьетнамский</translation>
     </message>
 </context>
 <context>
@@ -1671,7 +1672,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="2490"/>
         <source>Speed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Скорость: %1</translation>
     </message>
 </context>
 <context>
@@ -3324,7 +3325,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Маршалльский</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Букмол</translation>
@@ -3434,7 +3435,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Венда</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Волапюк</translation>
