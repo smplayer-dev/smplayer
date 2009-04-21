@@ -285,7 +285,7 @@
     <message>
         <location filename="../about.cpp" line="204"/>
         <source>Vietnamese</source>
-        <translation type="unfinished">Vietnamita</translation>
+        <translation>Vietnamita</translation>
     </message>
 </context>
 <context>
@@ -1671,7 +1671,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../core.cpp" line="2490"/>
         <source>Speed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Velocidade: %1</translation>
     </message>
 </context>
 <context>
