@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="zh">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -285,7 +286,7 @@
     <message>
         <location filename="../about.cpp" line="204"/>
         <source>Vietnamese</source>
-        <translation type="unfinished">越南语</translation>
+        <translation>越南语</translation>
     </message>
 </context>
 <context>
@@ -1671,7 +1672,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="2490"/>
         <source>Speed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>速度: %1</translation>
     </message>
 </context>
 <context>
