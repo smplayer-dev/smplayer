@@ -993,11 +993,17 @@ void Core::finishRestart() {
 
 	changeAspectRatio(mset.aspect_ratio_id);
 
-	bool isMuted = mset.mute;
-	if (!pref->dont_change_volume) {
-		 setVolume( mset.volume, TRUE );
+	if (pref->global_volume) {
+		bool was_muted = pref->mute;
+		setVolume( pref->volume, true);
+		if (was_muted) mute(true);
+	} else {
+		bool was_muted = mset.mute;
+		if (!pref->dont_change_volume) {
+			 setVolume( mset.volume, true );
+		}
+		if (was_muted) mute(true);
 	}
-	if (isMuted) mute(TRUE);
 
 	if (pref->change_video_equalizer_on_startup && (mset.gamma != 0)) {
 		int gamma = mset.gamma;
@@ -1693,13 +1699,20 @@ void Core::startMplayer( QString file, double seek ) {
 	if (pref->use_volume_option == Preferences::Detect) {
 		use_volume_option = (MplayerVersion::isMplayerAtLeast(27872));
 	}
-	if ((use_volume_option) && (!pref->dont_change_volume)) {
-		proc->addArgument("-volume");
-		// Note: mset.volume may not be right, it can be the volume of the previous video if
-		// playing a new one, but I think it's better to use anyway the current volume on
-		// startup than set it to 0 or something.
-		// The right volume will be set later, when the video starts to play.
-		proc->addArgument( QString::number( mset.volume ) );
+	if (pref->global_volume) {
+		if (use_volume_option) {
+			proc->addArgument("-volume");
+			proc->addArgument( QString::number( pref->volume ) );
+		}
+	} else {
+		if ((use_volume_option) && (!pref->dont_change_volume)) {
+			proc->addArgument("-volume");
+			// Note: mset.volume may not be right, it can be the volume of the previous video if
+			// playing a new one, but I think it's better to use anyway the current volume on
+			// startup than set it to 0 or something.
+			// The right volume will be set later, when the video starts to play.
+			proc->addArgument( QString::number( mset.volume ) );
+		}
 	}
 
 
@@ -2546,11 +2559,13 @@ void Core::normalSpeed() {
 void Core::setVolume(int volume, bool force) {
 	qDebug("Core::setVolume: %d", volume);
 
-	if ((volume==mset.volume) && (!force)) return;
+	int current_volume = (pref->global_volume ? pref->volume : mset.volume);
 
-	mset.volume = volume;
-	if (mset.volume > 100 ) mset.volume = 100;
-	if (mset.volume < 0 ) mset.volume = 0;
+	if ((volume == current_volume) && (!force)) return;
+
+	current_volume = volume;
+	if (current_volume > 100 ) current_volume = 100;
+	if (current_volume < 0 ) current_volume = 0;
 
 	if (state() == Paused) {
 		// Change volume later, after quiting pause
@@ -2559,13 +2574,18 @@ void Core::setVolume(int volume, bool force) {
 		tellmp("volume " + QString::number(volume) + " 1");
 	}
 
-	//if (mset.mute) mute(TRUE);
-	mset.mute=false;
+	if (pref->global_volume) {
+		pref->volume = volume;
+		pref->mute = false;
+	} else {
+		mset.volume = volume;
+		mset.mute = false;
+	}
 
 	updateWidgets();
 
-	displayMessage( tr("Volume: %1").arg(mset.volume) );
-	emit volumeChanged( mset.volume );
+	displayMessage( tr("Volume: %1").arg(volume) );
+	emit volumeChanged( volume );
 }
 
 void Core::switchMute() {
@@ -2578,11 +2598,14 @@ void Core::switchMute() {
 void Core::mute(bool b) {
 	qDebug("Core::mute");
 
-	mset.mute = b;
-
-	int v = 0;
-	if (mset.mute) v = 1;
+	int v = (b ? 1 : 0);
 	tellmp( pausing_prefix() + " mute " + QString::number(v) );
+
+	if (pref->global_volume) {
+		pref->mute = b;
+	} else {
+		mset.mute = b;
+	}
 
 	updateWidgets();
 }
@@ -2954,17 +2977,21 @@ void Core::changeAudio(int ID, bool allow_restart) {
 			restartPlay(); 
 		} else {
 			tellmp("switch_audio " + QString::number(ID) );
-			//#ifdef Q_OS_WIN
 			// Workaround for a mplayer problem in windows,
 			// volume is too loud after changing audio.
 
 			// Workaround too for a mplayer problem in linux,
 			// the volume is reduced if using -softvol-max.
-			if (!pref->dont_change_volume) {
-				setVolume( mset.volume, true );
+
+			if (pref->global_volume) {
+				setVolume( pref->volume, true);
+				if (pref->mute) mute(true);
+			} else {
+				if (!pref->dont_change_volume) {
+					setVolume( mset.volume, true );
+				}
+				if (mset.mute) mute(true); // if muted, mute again
 			}
-			//#endif
-			if (mset.mute) mute(true); // if muted, mute again
 			updateWidgets();
 		}
 	}
@@ -3567,7 +3594,8 @@ void Core::watchState(Core::State state) {
 	{
 		// Delayed volume change
 		qDebug("Core::watchState: delayed volume change");
-		tellmp("volume " + QString::number(mset.volume) + " 1");
+		int volume = (pref->global_volume ? pref->volume : mset.volume);
+		tellmp("volume " + QString::number(volume) + " 1");
 		change_volume_after_unpause = false;
 	}
 }

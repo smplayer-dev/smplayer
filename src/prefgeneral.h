@@ -115,6 +115,9 @@ protected:
 	void setAutoq(int n);
 	int autoq();
 
+	void setGlobalVolume(bool b);
+	bool globalVolume();
+
 	void setSoftVol(bool b);
 	bool softVol();
 

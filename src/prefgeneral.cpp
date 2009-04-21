@@ -169,6 +169,7 @@ void PrefGeneral::setData(Preferences * pref) {
 
 	setEq2( pref->use_soft_video_eq );
 	setUseAudioEqualizer( pref->use_audio_equalizer );
+	setGlobalVolume( pref->global_volume );
 	setSoftVol( pref->use_soft_vol );
 	setAc3DTSPassthrough( pref->use_hwac3 );
 	setInitialVolNorm( pref->initial_volnorm );
@@ -214,8 +215,10 @@ void PrefGeneral::getData(Preferences * pref) {
 
 	bool dont_remember_ms = !rememberSettings();
     TEST_AND_SET(pref->dont_remember_media_settings, dont_remember_ms);
+
 	bool dont_remember_time = !rememberTimePos();
     TEST_AND_SET(pref->dont_remember_time_pos, dont_remember_time);
+
 	if (pref->file_settings_method != fileSettingsMethod()) {
 		pref->file_settings_method = fileSettingsMethod();
 		filesettings_method_changed = true;
@@ -232,6 +235,7 @@ void PrefGeneral::getData(Preferences * pref) {
 
 	TEST_AND_SET(pref->use_soft_video_eq, eq2());
 	TEST_AND_SET(pref->use_soft_vol, softVol());
+	pref->global_volume = globalVolume();
 	TEST_AND_SET(pref->use_audio_equalizer, useAudioEqualizer());
 	TEST_AND_SET(pref->use_hwac3, Ac3DTSPassthrough());
 	pref->initial_volnorm = initialVolNorm();
@@ -496,6 +500,14 @@ bool PrefGeneral::eq2() {
 
 void PrefGeneral::setSoftVol(bool b) {
 	softvol_check->setChecked(b);
+}
+
+void PrefGeneral::setGlobalVolume(bool b) {
+	global_volume_check->setChecked(b);
+}
+
+bool PrefGeneral::globalVolume() {
+	return global_volume_check->isChecked();
 }
 
 bool PrefGeneral::softVol() {
@@ -855,6 +867,12 @@ void PrefGeneral::createHelp() {
 
 	setWhatsThis(volnorm_check, tr("Volume normalization by default"),
 		tr("Maximizes the volume without distorting the sound.") );
+
+	setWhatsThis(global_volume_check, tr("Global volume"),
+		tr("If this option is checked, the same volume will be used for "
+           "all files you play. If the option is not checked each "
+           "file uses its own volume.") + "<br>" +
+        tr("This option also applies for the mute control.") );
 
 	setWhatsThis(change_volume_check, tr("Change volume"),
 		tr("If checked, SMPlayer will remember the volume for every file "

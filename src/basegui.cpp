@@ -2821,7 +2821,7 @@ void BaseGui::updateWidgets() {
 	*/
 
 	// Mute menu option
-	muteAct->setChecked( core->mset.mute );
+	muteAct->setChecked( (pref->global_volume ? pref->mute : core->mset.mute) );
 
 	// Karaoke menu option
 	karaokeAct->setChecked( core->mset.karaoke_filter );
