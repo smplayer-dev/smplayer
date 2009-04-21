@@ -96,6 +96,10 @@ public:
 	bool use_audio_equalizer;
 	OptionState use_volume_option; //!< Use -volume in command line
 
+	bool global_volume;
+	int volume;
+	bool mute;
+
 	// Misc
 	bool loop; 	//!< Loop. If true repeat the file
 	int osd;

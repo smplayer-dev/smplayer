@@ -1,5 +1,15 @@
 [b]Version 0.6.8[/b]:
 
+(2009-04-20)
+ * (Experimental) Added the new option "Global volume" (Preferences -> General
+   -> Audio). If the option is checked, the volume and mute are global
+   options. If not checked, the volume and mute options are independent for
+   each file.
+   Known issues: the default value is 50, it doesn't honor the "default volume"
+   setting. On the other hand, the option "change volume before playing" is
+   honored even if that option is shown disabled when the "global volume" is
+   checked.
+
 (2009-04-18)
  * Added the Vietnamese translation, by Lê Xuân Thảo <thaolx@gmail.com>.
  * Display the current playback speed in the status bar when it changes.
