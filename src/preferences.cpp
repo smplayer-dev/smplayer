@@ -35,6 +35,7 @@ using namespace Global;
 Preferences::Preferences() {
 	history_recents = new Recents;
 	history_urls = new URLHistory;
+	filters = new Filters;
 
 	reset();
 
@@ -50,6 +51,7 @@ Preferences::~Preferences() {
 
 	delete history_recents;
 	delete history_urls;
+	delete filters;
 }
 
 void Preferences::reset() {
@@ -418,7 +420,7 @@ void Preferences::reset() {
        Filters
        ******* */
 
-	filters = new Filters;
+	filters->list.clear();
 }
 
 #ifndef NO_USE_INI_FILES
