@@ -39,6 +39,7 @@ HEADERS += guiconfig.h \
 	audioequalizerlist.h \
 	mediasettings.h \
 	assstyles.h \
+	filters.h \
 	preferences.h \
 	filesettingsbase.h \
 	filesettings.h \
@@ -130,6 +131,7 @@ SOURCES	+= version.cpp \
 	mediadata.cpp \
 	mediasettings.cpp \
 	assstyles.cpp \
+	filters.cpp \
 	preferences.cpp \
 	filesettingsbase.cpp \
 	filesettings.cpp \

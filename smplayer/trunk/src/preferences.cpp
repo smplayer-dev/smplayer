@@ -22,6 +22,7 @@
 #include "mediasettings.h"
 #include "recents.h"
 #include "urlhistory.h"
+#include "filters.h"
 
 #include <QSettings>
 #include <QFileInfo>
@@ -411,6 +412,13 @@ void Preferences::reset() {
 
 	history_recents->clear();
 	history_urls->clear();
+
+
+    /* *******
+       Filters
+       ******* */
+
+	filters = new Filters;
 }
 
 #ifndef NO_USE_INI_FILES
@@ -780,6 +788,14 @@ void Preferences::save() {
 	set->setValue("urls", history_urls->toStringList());
 	set->setValue("urls/max_items", history_urls->maxItems());
 	set->endGroup(); // history
+
+
+    /* *******
+       Filters
+       ******* */
+
+	filters->save(set);
+
 
 	set->sync();
 }
@@ -1154,6 +1170,13 @@ void Preferences::load() {
 	history_urls->fromStringList( set->value("urls", history_urls->toStringList()).toStringList() );
 	history_urls->setMaxItems( set->value("urls/max_items", history_urls->maxItems()).toInt() );;
 	set->endGroup(); // history
+
+
+    /* *******
+       Filters
+       ******* */
+
+	filters->load(set);
 }
 
 #endif // NO_USE_INI_FILES

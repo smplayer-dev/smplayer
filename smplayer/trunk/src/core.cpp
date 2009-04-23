@@ -35,6 +35,7 @@
 #include "constants.h"
 #include "colorutils.h"
 #include "discname.h"
+#include "filters.h"
 
 #ifdef Q_OS_WIN
 #include <windows.h> // To change app priority
@@ -1845,7 +1846,7 @@ void Core::startMplayer( QString file, double seek ) {
 	// Deblock
 	if (mset.deblock_filter) {
 		proc->addArgument("-vf-add");
-		proc->addArgument( "pp=vb/hb" );
+		proc->addArgument( pref->filters->list["deblock"].filter() );
 	}
 
 	// Dering
@@ -1865,8 +1866,9 @@ void Core::startMplayer( QString file, double seek ) {
 
 	// Addnoise
 	if (mset.noise_filter) {
+		QString opt = "noise";
 		proc->addArgument("-vf-add");
-		proc->addArgument( "noise=9ah:5ah" );
+		proc->addArgument( pref->filters->list["noise"].filter() );
 	}
 
 	// Postprocessing
@@ -1988,7 +1990,7 @@ void Core::startMplayer( QString file, double seek ) {
 
 	if (mset.volnorm_filter) {
 		if (!af.isEmpty()) af += ",";
-		af += "volnorm=2";
+		af += pref->filters->list["volnorm"].filter();
 	}
 
 	bool use_scaletempo = (pref->use_scaletempo == Preferences::Enabled);
