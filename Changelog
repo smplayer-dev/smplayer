@@ -1,5 +1,12 @@
 [b]Version 0.6.8[/b]:
 
+(2009-04-23)
+ * Started to implement the possibility to customize the options for the
+   audio/video filters passed to mplayer (in the section [filter_options] 
+   in smplayer.ini).
+   Currently 3 filters can be customized: noise, volnorm and deblock.
+   BTW, the volnorm filter has changed its default value from 2 to 1.
+
 (2009-04-20)
  * (Experimental) Added the new option "Global volume" (Preferences -> General
    -> Audio). If the option is checked, the volume and mute are global
