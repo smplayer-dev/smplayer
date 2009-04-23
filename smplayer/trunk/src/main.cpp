@@ -90,7 +90,7 @@ void myMessageOutput( QtMsgType type, const char *msg ) {
 
 	if (line2.isEmpty()) return;
 
-	line2 = "["+ QTime::currentTime().toString() +"] "+ line2;
+	line2 = "["+ QTime::currentTime().toString("hh:mm:ss:zzz") +"] "+ line2;
 
 	if (basegui_instance) {
 		if (!saved_lines.isEmpty()) {
