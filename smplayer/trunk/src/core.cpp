@@ -1866,7 +1866,6 @@ void Core::startMplayer( QString file, double seek ) {
 
 	// Addnoise
 	if (mset.noise_filter) {
-		QString opt = "noise";
 		proc->addArgument("-vf-add");
 		proc->addArgument( pref->filters->list["noise"].filter() );
 	}
