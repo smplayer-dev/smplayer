@@ -92,7 +92,6 @@ public:
 	bool use_soft_vol;
 	int softvol_max;
 	OptionState use_scaletempo;
-	bool dont_change_volume; // Don't change volume on startup
 	bool use_hwac3; // -afm hwac3
 	bool use_audio_equalizer;
 

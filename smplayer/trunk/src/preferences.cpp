@@ -93,7 +93,6 @@ void Preferences::reset() {
 	use_soft_vol = true;
 	softvol_max = 110; // 110 = default value in mplayer
 	use_scaletempo = Detect;
-	dont_change_volume = false;
 	use_hwac3 = false;
 	use_audio_equalizer = true;
 
@@ -459,7 +458,6 @@ void Preferences::save() {
 	set->setValue("use_soft_vol", use_soft_vol);
 	set->setValue("softvol_max", softvol_max);
 	set->setValue("use_scaletempo", use_scaletempo);
-	set->setValue("dont_change_volume", dont_change_volume );
 	set->setValue("use_hwac3", use_hwac3 );
 	set->setValue("use_audio_equalizer", use_audio_equalizer );
 
@@ -836,7 +834,6 @@ void Preferences::load() {
 	use_soft_vol = set->value("use_soft_vol", use_soft_vol).toBool();
 	softvol_max = set->value("softvol_max", softvol_max).toInt();
 	use_scaletempo = (OptionState) set->value("use_scaletempo", use_scaletempo).toInt();
-	dont_change_volume = set->value("dont_change_volume", dont_change_volume ).toBool();
 	use_hwac3 = set->value("use_hwac3", use_hwac3 ).toBool();
 	use_audio_equalizer = set->value("use_audio_equalizer", use_audio_equalizer ).toBool();
 
