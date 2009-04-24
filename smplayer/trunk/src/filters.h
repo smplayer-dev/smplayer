@@ -50,16 +50,24 @@ protected:
 	QString _tr_name, _name, _options;
 };
 
+typedef QMap<QString,Filter> FilterMap;
+
 class Filters : public QObject {
 public:
 	Filters(QObject * parent = 0);
 
-	void reset();
+	void init();
+
+	Filter item(const QString & key);
+
+	void setFilters(FilterMap filters) { list = filters; };
+	FilterMap filters() { return list; };
 
 	void save(QSettings *set);
 	void load(QSettings *set);
 
-	QMap<QString,Filter> list;
+protected:
+	FilterMap list;
 };
 
 #endif

@@ -21,18 +21,24 @@
 
 Filters::Filters(QObject * parent) : QObject(parent) 
 {
-	reset();
+	init();
 }
 
-void Filters::reset() {
+void Filters::init() {
 	list.clear();
 
 	// Video
-	list["noise"] = Filter(tr("noise"), "noise", "9ah:5ah");
+	list["noise"] = Filter(tr("add noise"), "noise", "9ah:5ah");
 	list["deblock"] = Filter(tr("deblock"), "pp", "vb/hb");
+	list["denoise_normal"] = Filter(tr("normal denoise"), "hqdn3d");
+	list["denoise_soft"] = Filter(tr("soft denoise"), "hqdn3d", "2:1:2");
 
 	// Audio
-	list["volnorm"] = Filter(tr("volnorm"), "volnorm", "1");
+	list["volnorm"] = Filter(tr("volume normalization"), "volnorm", "1");
+}
+
+Filter Filters::item(const QString & key) {
+	return list[key];
 }
 
 void Filters::save(QSettings *set) {

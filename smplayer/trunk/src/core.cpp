@@ -1837,16 +1837,16 @@ void Core::startMplayer( QString file, double seek ) {
 	if (mset.current_denoiser != MediaSettings::NoDenoise) {
 		proc->addArgument("-vf-add");
 		if (mset.current_denoiser==MediaSettings::DenoiseSoft) {
-			proc->addArgument( "hqdn3d=2:1:2" );
+			proc->addArgument( pref->filters->item("denoise_soft").filter() );
 		} else {
-			proc->addArgument( "hqdn3d" );
+			proc->addArgument( pref->filters->item("denoise_normal").filter() );
 		}
 	}
 
 	// Deblock
 	if (mset.deblock_filter) {
 		proc->addArgument("-vf-add");
-		proc->addArgument( pref->filters->list["deblock"].filter() );
+		proc->addArgument( pref->filters->item("deblock").filter() );
 	}
 
 	// Dering
@@ -1867,7 +1867,7 @@ void Core::startMplayer( QString file, double seek ) {
 	// Addnoise
 	if (mset.noise_filter) {
 		proc->addArgument("-vf-add");
-		proc->addArgument( pref->filters->list["noise"].filter() );
+		proc->addArgument( pref->filters->item("noise").filter() );
 	}
 
 	// Postprocessing
@@ -1989,7 +1989,7 @@ void Core::startMplayer( QString file, double seek ) {
 
 	if (mset.volnorm_filter) {
 		if (!af.isEmpty()) af += ",";
-		af += pref->filters->list["volnorm"].filter();
+		af += pref->filters->item("volnorm").filter();
 	}
 
 	bool use_scaletempo = (pref->use_scaletempo == Preferences::Enabled);

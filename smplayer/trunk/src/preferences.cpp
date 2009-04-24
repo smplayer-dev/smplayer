@@ -420,7 +420,7 @@ void Preferences::reset() {
        Filters
        ******* */
 
-	filters->reset();
+	filters->init();
 }
 
 #ifndef NO_USE_INI_FILES
