@@ -1696,10 +1696,8 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	// Set volume, requires mplayer svn r27872
-	bool use_volume_option = (pref->use_volume_option == Preferences::Enabled);
-	if (pref->use_volume_option == Preferences::Detect) {
-		use_volume_option = (MplayerVersion::isMplayerAtLeast(27872));
-	}
+	bool use_volume_option = (MplayerVersion::isMplayerAtLeast(27872));
+
 	if (pref->global_volume) {
 		if (use_volume_option) {
 			proc->addArgument("-volume");

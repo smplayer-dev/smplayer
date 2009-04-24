@@ -95,8 +95,8 @@ public:
 	bool dont_change_volume; // Don't change volume on startup
 	bool use_hwac3; // -afm hwac3
 	bool use_audio_equalizer;
-	OptionState use_volume_option; //!< Use -volume in command line
 
+	// Global volume options
 	bool global_volume;
 	int volume;
 	bool mute;
