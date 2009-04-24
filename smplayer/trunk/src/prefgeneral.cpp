@@ -187,7 +187,6 @@ void PrefGeneral::setData(Preferences * pref) {
 
 	setInitialVolume( pref->initial_volume );
 	setDontChangeVolume( pref->dont_change_volume );
-	setUseVolume( pref->use_volume_option );
 	setAudioChannels( pref->initial_audio_channels );
 	setScaleTempoFilter( pref->use_scaletempo );
 }
@@ -256,7 +255,6 @@ void PrefGeneral::getData(Preferences * pref) {
 
 	pref->initial_volume = initialVolume();
 	pref->dont_change_volume = dontChangeVolume();
-	pref->use_volume_option = useVolume();
 	pref->initial_audio_channels = audioChannels();
 	TEST_AND_SET(pref->use_scaletempo, scaleTempoFilter());
 }
@@ -638,14 +636,6 @@ bool PrefGeneral::dontChangeVolume() {
 	return !change_volume_check->isChecked();
 }
 
-void PrefGeneral::setUseVolume(Preferences::OptionState value) {
-	use_volume_combo->setState(value);
-}
-
-Preferences::OptionState PrefGeneral::useVolume() {
-	return use_volume_combo->state();
-}
-
 void PrefGeneral::setStartInFullscreen(bool b) {
 	start_fullscreen_check->setChecked(b);
 }
@@ -878,11 +868,6 @@ void PrefGeneral::createHelp() {
 		tr("If checked, SMPlayer will remember the volume for every file "
            "and will restore it when played again. For new files the default "
            "volume will be used.") );
-
-	setWhatsThis(use_volume_combo, tr("Change volume just before playing"),
-		tr("If this option is checked the initial volume will be set just "
-           "before playback starts. This avoids a loud volume on startup. "
-           "Requires at least MPlayer SVN r27872."));
 
 	setWhatsThis(initial_volume_slider, tr("Default volume"),
 		tr("Sets the initial volume that new files will use.") );

@@ -96,7 +96,6 @@ void Preferences::reset() {
 	dont_change_volume = false;
 	use_hwac3 = false;
 	use_audio_equalizer = true;
-	use_volume_option = Detect; 
 
 	global_volume = true;
 	volume = 50;
@@ -463,7 +462,6 @@ void Preferences::save() {
 	set->setValue("dont_change_volume", dont_change_volume );
 	set->setValue("use_hwac3", use_hwac3 );
 	set->setValue("use_audio_equalizer", use_audio_equalizer );
-	set->setValue("use_volume_option", use_volume_option);
 
 	set->setValue("global_volume", global_volume);
 	set->setValue("volume", volume);
@@ -841,7 +839,6 @@ void Preferences::load() {
 	dont_change_volume = set->value("dont_change_volume", dont_change_volume ).toBool();
 	use_hwac3 = set->value("use_hwac3", use_hwac3 ).toBool();
 	use_audio_equalizer = set->value("use_audio_equalizer", use_audio_equalizer ).toBool();
-	use_volume_option = (OptionState) set->value("use_volume_option", use_volume_option).toInt();
 
 	global_volume = set->value("global_volume", global_volume).toBool();
 	volume = set->value("volume", volume).toInt();
