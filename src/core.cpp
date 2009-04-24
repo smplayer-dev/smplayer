@@ -1000,9 +1000,7 @@ void Core::finishRestart() {
 		if (was_muted) mute(true);
 	} else {
 		bool was_muted = mset.mute;
-		if (!pref->dont_change_volume) {
-			 setVolume( mset.volume, true );
-		}
+		 setVolume( mset.volume, true );
 		if (was_muted) mute(true);
 	}
 
@@ -1704,7 +1702,7 @@ void Core::startMplayer( QString file, double seek ) {
 			proc->addArgument( QString::number( pref->volume ) );
 		}
 	} else {
-		if ((use_volume_option) && (!pref->dont_change_volume)) {
+		if (use_volume_option) {
 			proc->addArgument("-volume");
 			// Note: mset.volume may not be right, it can be the volume of the previous video if
 			// playing a new one, but I think it's better to use anyway the current volume on
@@ -2986,9 +2984,7 @@ void Core::changeAudio(int ID, bool allow_restart) {
 				setVolume( pref->volume, true);
 				if (pref->mute) mute(true);
 			} else {
-				if (!pref->dont_change_volume) {
-					setVolume( mset.volume, true );
-				}
+				setVolume( mset.volume, true );
 				if (mset.mute) mute(true); // if muted, mute again
 			}
 			updateWidgets();

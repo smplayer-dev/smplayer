@@ -151,12 +151,6 @@ protected:
 	void setAmplification(int n);
 	int amplification();
 
-	void setInitialVolume(int v);
-	int initialVolume();
-
-	void setDontChangeVolume(bool b);
-	bool dontChangeVolume();
-
 	void setAudioChannels(int ID);
 	int audioChannels();
 

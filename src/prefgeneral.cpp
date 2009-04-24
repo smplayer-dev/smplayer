@@ -80,8 +80,6 @@ QPixmap PrefGeneral::sectionIcon() {
 void PrefGeneral::retranslateStrings() {
 	retranslateUi(this);
 
-    initial_volume_label->setNum( initial_volume_slider->value() );
-
 	channels_combo->setItemText(0, tr("2 (Stereo)") );
 	channels_combo->setItemText(1, tr("4 (4.0 Surround)") );
 	channels_combo->setItemText(2, tr("6 (5.1 Surround)") );
@@ -185,8 +183,6 @@ void PrefGeneral::setData(Preferences * pref) {
 	setBlackbordersOnFullscreen( pref->add_blackborders_on_fullscreen );
 	setAutoq( pref->autoq );
 
-	setInitialVolume( pref->initial_volume );
-	setDontChangeVolume( pref->dont_change_volume );
 	setAudioChannels( pref->initial_audio_channels );
 	setScaleTempoFilter( pref->use_scaletempo );
 }
@@ -253,8 +249,6 @@ void PrefGeneral::getData(Preferences * pref) {
 	}
 	TEST_AND_SET(pref->autoq, autoq());
 
-	pref->initial_volume = initialVolume();
-	pref->dont_change_volume = dontChangeVolume();
 	pref->initial_audio_channels = audioChannels();
 	TEST_AND_SET(pref->use_scaletempo, scaleTempoFilter());
 }
@@ -602,14 +596,6 @@ int PrefGeneral::amplification() {
 	return softvol_max_spin->value();
 }
 
-void PrefGeneral::setInitialVolume(int v) {
-	initial_volume_slider->setValue(v);
-}
-
-int PrefGeneral::initialVolume() {
-	return initial_volume_slider->value();
-}
-
 void PrefGeneral::setAudioChannels(int ID) {
 	int pos = channels_combo->findData(ID);
 	if (pos != -1) {
@@ -626,14 +612,6 @@ int PrefGeneral::audioChannels() {
 		qWarning("PrefGeneral::audioChannels: no item selected");
 		return 0;
 	}
-}
-
-void PrefGeneral::setDontChangeVolume(bool b) {
-	change_volume_check->setChecked(!b);
-}
-
-bool PrefGeneral::dontChangeVolume() {
-	return !change_volume_check->isChecked();
 }
 
 void PrefGeneral::setStartInFullscreen(bool b) {
@@ -863,14 +841,6 @@ void PrefGeneral::createHelp() {
            "all files you play. If the option is not checked each "
            "file uses its own volume.") + "<br>" +
         tr("This option also applies for the mute control.") );
-
-	setWhatsThis(change_volume_check, tr("Change volume"),
-		tr("If checked, SMPlayer will remember the volume for every file "
-           "and will restore it when played again. For new files the default "
-           "volume will be used.") );
-
-	setWhatsThis(initial_volume_slider, tr("Default volume"),
-		tr("Sets the initial volume that new files will use.") );
 
 
 	addSectionTitle(tr("Preferred audio and subtitles"));

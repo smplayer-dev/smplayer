@@ -5,6 +5,12 @@
    General -> Audio). That option had sense when a patch was required for the
    -volume option, but not now.
    Now it will just use -volume if using mplayer >= SVN r27872.
+ * Deleted the option "Change volume on every file" (Preferences -> 
+   General -> Audio). It did more or less the same now it does the "Global
+   volume" option.
+ * Deleted the "Default volume" slider in (Preferences -> General -> Audio).
+   With time it lost its original meaning. It's still possible to configure 
+   the default volume in smplayer.ini.
 
 (2009-04-23)
  * Started to implement the possibility to customize the options for the

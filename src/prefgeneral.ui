@@ -789,105 +789,6 @@
             </property>
            </widget>
           </item>
-          <item>
-           <widget class="QWidget" native="1" name="change_volume_container" >
-            <layout class="QVBoxLayout" >
-             <property name="leftMargin" >
-              <number>0</number>
-             </property>
-             <property name="topMargin" >
-              <number>0</number>
-             </property>
-             <property name="rightMargin" >
-              <number>0</number>
-             </property>
-             <property name="bottomMargin" >
-              <number>0</number>
-             </property>
-             <item>
-              <widget class="QCheckBox" name="change_volume_check" >
-               <property name="text" >
-                <string>&amp;Change volume on every file</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <layout class="QHBoxLayout" >
-               <property name="spacing" >
-                <number>6</number>
-               </property>
-               <property name="leftMargin" >
-                <number>0</number>
-               </property>
-               <property name="topMargin" >
-                <number>0</number>
-               </property>
-               <property name="rightMargin" >
-                <number>0</number>
-               </property>
-               <property name="bottomMargin" >
-                <number>0</number>
-               </property>
-               <item>
-                <spacer>
-                 <property name="orientation" >
-                  <enum>Qt::Horizontal</enum>
-                 </property>
-                 <property name="sizeType" >
-                  <enum>QSizePolicy::Fixed</enum>
-                 </property>
-                 <property name="sizeHint" >
-                  <size>
-                   <width>20</width>
-                   <height>20</height>
-                  </size>
-                 </property>
-                </spacer>
-               </item>
-               <item>
-                <widget class="QLabel" name="default_volume_label" >
-                 <property name="enabled" >
-                  <bool>false</bool>
-                 </property>
-                 <property name="text" >
-                  <string>&amp;Default volume:</string>
-                 </property>
-                 <property name="wordWrap" >
-                  <bool>false</bool>
-                 </property>
-                 <property name="buddy" >
-                  <cstring>initial_volume_slider</cstring>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QSlider" name="initial_volume_slider" >
-                 <property name="enabled" >
-                  <bool>false</bool>
-                 </property>
-                 <property name="maximum" >
-                  <number>100</number>
-                 </property>
-                 <property name="orientation" >
-                  <enum>Qt::Horizontal</enum>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QLabel" name="initial_volume_label" >
-                 <property name="enabled" >
-                  <bool>false</bool>
-                 </property>
-                 <property name="text" >
-                  <string>0</string>
-                 </property>
-                </widget>
-               </item>
-              </layout>
-             </item>
-            </layout>
-           </widget>
-          </item>
          </layout>
         </widget>
        </item>
@@ -1215,8 +1116,6 @@ For translators: don't translate this text, it will be replaced with another one
   <tabstop>softvol_max_spin</tabstop>
   <tabstop>volnorm_check</tabstop>
   <tabstop>global_volume_check</tabstop>
-  <tabstop>change_volume_check</tabstop>
-  <tabstop>initial_volume_slider</tabstop>
   <tabstop>audio_lang_edit</tabstop>
   <tabstop>subtitle_lang_edit</tabstop>
   <tabstop>audio_track_spin</tabstop>
@@ -1269,70 +1168,6 @@ For translators: don't translate this text, it will be replaced with another one
     <hint type="destinationlabel" >
      <x>293</x>
      <y>355</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>change_volume_check</sender>
-   <signal>toggled(bool)</signal>
-   <receiver>default_volume_label</receiver>
-   <slot>setEnabled(bool)</slot>
-   <hints>
-    <hint type="sourcelabel" >
-     <x>211</x>
-     <y>342</y>
-    </hint>
-    <hint type="destinationlabel" >
-     <x>305</x>
-     <y>344</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>change_volume_check</sender>
-   <signal>toggled(bool)</signal>
-   <receiver>initial_volume_slider</receiver>
-   <slot>setEnabled(bool)</slot>
-   <hints>
-    <hint type="sourcelabel" >
-     <x>118</x>
-     <y>341</y>
-    </hint>
-    <hint type="destinationlabel" >
-     <x>431</x>
-     <y>345</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>change_volume_check</sender>
-   <signal>toggled(bool)</signal>
-   <receiver>initial_volume_label</receiver>
-   <slot>setEnabled(bool)</slot>
-   <hints>
-    <hint type="sourcelabel" >
-     <x>231</x>
-     <y>349</y>
-    </hint>
-    <hint type="destinationlabel" >
-     <x>524</x>
-     <y>341</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>initial_volume_slider</sender>
-   <signal>valueChanged(int)</signal>
-   <receiver>initial_volume_label</receiver>
-   <slot>setNum(int)</slot>
-   <hints>
-    <hint type="sourcelabel" >
-     <x>463</x>
-     <y>338</y>
-    </hint>
-    <hint type="destinationlabel" >
-     <x>515</x>
-     <y>338</y>
     </hint>
    </hints>
   </connection>
@@ -1397,22 +1232,6 @@ For translators: don't translate this text, it will be replaced with another one
     <hint type="destinationlabel" >
      <x>254</x>
      <y>288</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>global_volume_check</sender>
-   <signal>toggled(bool)</signal>
-   <receiver>change_volume_container</receiver>
-   <slot>setDisabled(bool)</slot>
-   <hints>
-    <hint type="sourcelabel" >
-     <x>229</x>
-     <y>307</y>
-    </hint>
-    <hint type="destinationlabel" >
-     <x>218</x>
-     <y>374</y>
     </hint>
    </hints>
   </connection>
