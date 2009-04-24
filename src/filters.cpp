@@ -21,6 +21,12 @@
 
 Filters::Filters(QObject * parent) : QObject(parent) 
 {
+	reset();
+}
+
+void Filters::reset() {
+	list.clear();
+
 	// Video
 	list["noise"] = Filter(tr("noise"), "noise", "9ah:5ah");
 	list["deblock"] = Filter(tr("deblock"), "pp", "vb/hb");

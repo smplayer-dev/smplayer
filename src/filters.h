@@ -54,6 +54,8 @@ class Filters : public QObject {
 public:
 	Filters(QObject * parent = 0);
 
+	void reset();
+
 	void save(QSettings *set);
 	void load(QSettings *set);
 
