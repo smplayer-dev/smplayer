@@ -53,6 +53,8 @@ protected:
 typedef QMap<QString,Filter> FilterMap;
 
 class Filters : public QObject {
+	Q_OBJECT
+
 public:
 	Filters(QObject * parent = 0);
 
