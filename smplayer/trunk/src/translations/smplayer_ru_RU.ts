@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="ru">
+<!DOCTYPE TS>
+<TS version="2.0" language="ru">
 <context>
     <name>About</name>
     <message>
@@ -1874,27 +1875,27 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../filters.cpp" line="31"/>
         <source>add noise</source>
-        <translation type="unfinished"></translation>
+        <translation>добавление шума</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="32"/>
         <source>deblock</source>
-        <translation type="unfinished"></translation>
+        <translation>смазывание границ квадратов</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="33"/>
         <source>normal denoise</source>
-        <translation type="unfinished"></translation>
+        <translation>нормальное понижение шумов</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="34"/>
         <source>soft denoise</source>
-        <translation type="unfinished"></translation>
+        <translation>мягкое понижение шумов</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="37"/>
         <source>volume normalization</source>
-        <translation type="unfinished"></translation>
+        <translation>нормализация громкости</translation>
     </message>
 </context>
 <context>
@@ -3352,7 +3353,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Маршалльский</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Букмол</translation>
@@ -3462,7 +3463,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Венда</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Волапюк</translation>
@@ -5040,22 +5041,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="839"/>
         <source>Global volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Общая громкость</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="842"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
-        <translation type="unfinished"></translation>
+        <translation>При включении этой опции будет использоваться общая громкость для всех файлов. Если опция отключена, для каждого файла будет использована своя громкость.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="843"/>
         <source>This option also applies for the mute control.</source>
-        <translation type="unfinished"></translation>
+        <translation>Эта опция также применяется для приглушением (mute) звука.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="788"/>
         <source>Glo&amp;bal volume</source>
-        <translation type="unfinished"></translation>
+        <translation>О&amp;бщая громкость</translation>
     </message>
 </context>
 <context>
