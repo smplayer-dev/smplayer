@@ -2561,28 +2561,28 @@ void Core::setVolume(int volume, bool force) {
 	if ((volume == current_volume) && (!force)) return;
 
 	current_volume = volume;
-	if (current_volume > 100 ) current_volume = 100;
-	if (current_volume < 0 ) current_volume = 0;
+	if (current_volume > 100) current_volume = 100;
+	if (current_volume < 0) current_volume = 0;
 
 	if (state() == Paused) {
 		// Change volume later, after quiting pause
 		change_volume_after_unpause = true;
 	} else {
-		tellmp("volume " + QString::number(volume) + " 1");
+		tellmp("volume " + QString::number(current_volume) + " 1");
 	}
 
 	if (pref->global_volume) {
-		pref->volume = volume;
+		pref->volume = current_volume;
 		pref->mute = false;
 	} else {
-		mset.volume = volume;
+		mset.volume = current_volume;
 		mset.mute = false;
 	}
 
 	updateWidgets();
 
-	displayMessage( tr("Volume: %1").arg(volume) );
-	emit volumeChanged( volume );
+	displayMessage( tr("Volume: %1").arg(current_volume) );
+	emit volumeChanged( current_volume );
 }
 
 void Core::switchMute() {
@@ -2609,12 +2609,14 @@ void Core::mute(bool b) {
 
 void Core::incVolume() {
 	qDebug("Core::incVolume");
-	setVolume(mset.volume + 4);
+	int new_vol = (pref->global_volume ? pref->volume + 4 : mset.volume + 4);
+	setVolume(new_vol);
 }
 
 void Core::decVolume() {
 	qDebug("Core::incVolume");
-	setVolume(mset.volume-4);
+	int new_vol = (pref->global_volume ? pref->volume - 4 : mset.volume - 4);
+	setVolume(new_vol);
 }
 
 void Core::setSubDelay(int delay) {
