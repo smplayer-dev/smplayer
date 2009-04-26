@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="cs">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -285,7 +286,7 @@
     <message>
         <location filename="../about.cpp" line="204"/>
         <source>Vietnamese</source>
-        <translation type="unfinished">Vietnamština</translation>
+        <translation>Vietnamština</translation>
     </message>
 </context>
 <context>
@@ -1671,7 +1672,7 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../core.cpp" line="2509"/>
         <source>Speed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Rychlost: %1</translation>
     </message>
 </context>
 <context>
@@ -1874,27 +1875,27 @@ Příklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../filters.cpp" line="31"/>
         <source>add noise</source>
-        <translation type="unfinished"></translation>
+        <translation>přidat šum</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="32"/>
         <source>deblock</source>
-        <translation type="unfinished"></translation>
+        <translation>deblock</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="33"/>
         <source>normal denoise</source>
-        <translation type="unfinished"></translation>
+        <translation>normální odstranění šumu</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="34"/>
         <source>soft denoise</source>
-        <translation type="unfinished"></translation>
+        <translation>měkké odstranění šumu</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="37"/>
         <source>volume normalization</source>
-        <translation type="unfinished"></translation>
+        <translation>normalizace hlasitosti</translation>
     </message>
 </context>
 <context>
@@ -5040,22 +5041,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="839"/>
         <source>Global volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Globální hlasitost</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="842"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
-        <translation type="unfinished"></translation>
+        <translation>Je-li tato možnost zaškrtnuta, všechny soubory budou mít nastavenu stejnou hlasitost. V opačném případě použije každý soubor vlastní nastavení.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="843"/>
         <source>This option also applies for the mute control.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tato možnost zahrnuje i nastavení ztlumení.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="788"/>
         <source>Glo&amp;bal volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Glo&amp;bální hlasitost</translation>
     </message>
 </context>
 <context>

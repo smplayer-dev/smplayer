@@ -10,21 +10,21 @@
 ;;
 
 ; Components Page
-${LangFileString} MPLAYER_CODEC_INFORMATION "The binary codec packages add support for codecs that are not yet implemented natively, like newer RealVideo variants and a lot of uncommon formats.$\nNote that they are not necessary to play most common formats like DVDs, MPEG-1/2/4, etc."
+${LangFileString} MPLAYER_CODEC_INFORMATION "Binární kodeky podporují formáty, které zatím nejsou implementovány nativně, např. novější varianty RealVideo a jiné málo používané formáty.$\nPro většinu běžných formátů nejsou potřeba (DVD, MPEG-1/2/4, apod.)."
 
 ; MPlayer Section
-${LangFileString} MPLAYER_IS_INSTALLED "MPlayer is already installed. Re-Download?"
-${LangFileString} MPLAYER_IS_DOWNLOADING "Downloading MPlayer..."
-${LangFileString} MPLAYER_DL_FAILED "Failed to download MPlayer:"
-${LangFileString} MPLAYER_INST_FAILED "Failed to install MPlayer. MPlayer is required for playback."
+${LangFileString} MPLAYER_IS_INSTALLED "MPlayer je již nainstalován. Stáhnout znovu?"
+${LangFileString} MPLAYER_IS_DOWNLOADING "Stahuji MPlayer..."
+${LangFileString} MPLAYER_DL_FAILED "Nepovedlo se stáhnout MPlayer:"
+${LangFileString} MPLAYER_INST_FAILED "Nepovedlo se nainstalovat MPlayer. MPlayer je potřebný pro přehrávání."
 
 ; Codecs Section
-${LangFileString} CODECS_IS_INSTALLED "MPlayer codecs are already installed. Re-Download?"
-${LangFileString} CODECS_IS_DOWNLOADING "Downloading MPlayer codecs..."
-${LangFileString} CODECS_DL_FAILED "Failed to download MPlayer codecs:"
-${LangFileString} CODECS_INST_FAILED "Failed to install MPlayer codecs."
+${LangFileString} CODECS_IS_INSTALLED "Kodeky MPlayeru jsou již nainstalovány. Stáhnout znovu?"
+${LangFileString} CODECS_IS_DOWNLOADING "Instaluji kodeky MPlayeru..."
+${LangFileString} CODECS_DL_FAILED "Nepovedlo se stáhnout kodeky MPlayeru:"
+${LangFileString} CODECS_INST_FAILED "Nepovedlo se nainstalovat kodeky MPlayeru."
 
 ; Version information
-${LangFileString} VERINFO_IS_DOWNLOADING "Downloading version information..."
-${LangFileString} VERINFO_DL_FAILED "Failed to download version info:"
-${LangFileString} VERINFO_IS_MISSING "Version file missing version information. Setup will use a default version."
+${LangFileString} VERINFO_IS_DOWNLOADING "Stahuji informace o verzích..."
+${LangFileString} VERINFO_DL_FAILED "Nepovedlo se stáhnout informace o verzích:"
+${LangFileString} VERINFO_IS_MISSING "Verzovací soubor neobsahuje správné informace. Bude použita výchozí verze."
