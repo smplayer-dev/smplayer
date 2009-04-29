@@ -818,20 +818,22 @@ void PrefGeneral::createHelp() {
            "subtitles automatically in the black borders.") */ );
 
 #ifdef Q_OS_WIN
+	setWhatsThis(turn_screensaver_off_check, tr("Switch screensaver off"),
+		tr("This option switches the screensaver off just before starting to "
+           "play a file and switches it on when playback finishes. If this "
+           "option is enabled, the screensaver won't appear even if playing "
+           "audio files or when a file is paused."));
+
 	setWhatsThis(avoid_screensaver_check, tr("Avoid screensaver"),
-		tr("When this option is checked, SMPlayer will try to prevent the screensaver to be shown "
-		   "when playing a video file. The screensaver will be allowed to be shown if playing an "
-		   "audio file or in pause mode. This option only works if the SMPlayer window is in "
+		tr("When this option is checked, SMPlayer will try to prevent the "
+           "screensaver to be shown when playing a video file. The screensaver "
+           "will be allowed to be shown if playing an audio file or in pause "
+           "mode. This option only works if the SMPlayer window is in "
 		   "the foreground."));
-	setWhatsThis(turn_screensaver_off_check, tr("Turn screensaver off"),
-		tr("This options turns the screensaver off just before starting to play a file and turns "
-		   "it on when playback finishes. This option can't prevent the screensaver to appear "
-		   "when playing audio files or when a file is paused."));
 #else
 	setWhatsThis(screensaver_check, tr("Disable screensaver"),
 		tr("Check this option to disable the screensaver while playing.<br>"
            "The screensaver will enabled again when play finishes.")
-           //+ tr("<br><b>Note:</b> This option works only in X11 and Windows.")
 		);
 #endif
 
