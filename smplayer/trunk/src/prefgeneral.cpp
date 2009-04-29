@@ -56,6 +56,7 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 #ifdef Q_OS_WIN
 	screensaver_check->hide();
 #else
+	screensaver_group->hide();
 #endif
 
 	// Channels combo
@@ -189,6 +190,8 @@ void PrefGeneral::setData(Preferences * pref) {
 	setAutoq( pref->autoq );
 
 #ifdef Q_OS_WIN
+	setAvoidScreensaver( pref->avoid_screensaver );
+	setTurnScreensaverOff( pref->turn_screensaver_off );
 #else
 	setDisableScreensaver( pref->disable_screensaver );
 #endif
@@ -259,6 +262,8 @@ void PrefGeneral::getData(Preferences * pref) {
 	TEST_AND_SET(pref->autoq, autoq());
 
 #ifdef Q_OS_WIN
+	pref->avoid_screensaver = avoidScreensaver();
+	TEST_AND_SET(pref->turn_screensaver_off, turnScreensaverOff());
 #else
 	TEST_AND_SET(pref->disable_screensaver, disableScreensaver());
 #endif
@@ -637,6 +642,21 @@ bool PrefGeneral::startInFullscreen() {
 }
 
 #ifdef Q_OS_WIN
+void PrefGeneral::setAvoidScreensaver(bool b) {
+	avoid_screensaver_check->setChecked(b);
+}
+
+bool PrefGeneral::avoidScreensaver() {
+	return avoid_screensaver_check->isChecked();
+}
+
+void PrefGeneral::setTurnScreensaverOff(bool b) {
+	turn_screensaver_off_check->setChecked(b);
+}
+
+bool PrefGeneral::turnScreensaverOff() {
+	return turn_screensaver_off_check->isChecked();
+}
 #else
 void PrefGeneral::setDisableScreensaver(bool b) {
 	screensaver_check->setChecked(b);
@@ -798,6 +818,15 @@ void PrefGeneral::createHelp() {
            "subtitles automatically in the black borders.") */ );
 
 #ifdef Q_OS_WIN
+	setWhatsThis(avoid_screensaver_check, tr("Avoid screensaver"),
+		tr("When this option is checked, SMPlayer will try to prevent the screensaver to be shown "
+		   "when playing a video file. The screensaver will be allowed to be shown if playing an "
+		   "audio file or in pause mode. This option only works if the SMPlayer window is in "
+		   "the foreground."));
+	setWhatsThis(turn_screensaver_off_check, tr("Turn screensaver off"),
+		tr("This options turns the screensaver off just before starting to play a file and turns "
+		   "it on when playback finishes. This option can't prevent the screensaver to appear "
+		   "when playing audio files or when a file is paused."));
 #else
 	setWhatsThis(screensaver_check, tr("Disable screensaver"),
 		tr("Check this option to disable the screensaver while playing.<br>"
