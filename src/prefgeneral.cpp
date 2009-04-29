@@ -52,6 +52,12 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 	xv_adaptors = DeviceInfo::xvAdaptors();
 #endif
 
+	// Screensaver
+#ifdef Q_OS_WIN
+	screensaver_check->hide();
+#else
+#endif
+
 	// Channels combo
 	channels_combo->addItem( "2", MediaSettings::ChStereo );
 	channels_combo->addItem( "4", MediaSettings::ChSurround );
@@ -179,9 +185,13 @@ void PrefGeneral::setData(Preferences * pref) {
 	setDoubleBuffer( pref->use_double_buffer );
 	setUseSlices( pref->use_slices );
 	setStartInFullscreen( pref->start_in_fullscreen );
-	setDisableScreensaver( pref->disable_screensaver );
 	setBlackbordersOnFullscreen( pref->add_blackborders_on_fullscreen );
 	setAutoq( pref->autoq );
+
+#ifdef Q_OS_WIN
+#else
+	setDisableScreensaver( pref->disable_screensaver );
+#endif
 
 	setAudioChannels( pref->initial_audio_channels );
 	setScaleTempoFilter( pref->use_scaletempo );
@@ -242,12 +252,16 @@ void PrefGeneral::getData(Preferences * pref) {
 	TEST_AND_SET(pref->use_double_buffer, doubleBuffer());
 	TEST_AND_SET(pref->use_slices, useSlices());
 	pref->start_in_fullscreen = startInFullscreen();
-	TEST_AND_SET(pref->disable_screensaver, disableScreensaver());
 	if (pref->add_blackborders_on_fullscreen != blackbordersOnFullscreen()) {
 		pref->add_blackborders_on_fullscreen = blackbordersOnFullscreen();
 		if (pref->fullscreen) requires_restart = true;
 	}
 	TEST_AND_SET(pref->autoq, autoq());
+
+#ifdef Q_OS_WIN
+#else
+	TEST_AND_SET(pref->disable_screensaver, disableScreensaver());
+#endif
 
 	pref->initial_audio_channels = audioChannels();
 	TEST_AND_SET(pref->use_scaletempo, scaleTempoFilter());
@@ -622,6 +636,8 @@ bool PrefGeneral::startInFullscreen() {
 	return start_fullscreen_check->isChecked();
 }
 
+#ifdef Q_OS_WIN
+#else
 void PrefGeneral::setDisableScreensaver(bool b) {
 	screensaver_check->setChecked(b);
 }
@@ -629,6 +645,7 @@ void PrefGeneral::setDisableScreensaver(bool b) {
 bool PrefGeneral::disableScreensaver() {
 	return screensaver_check->isChecked();
 }
+#endif
 
 void PrefGeneral::setBlackbordersOnFullscreen(bool b) {
 	blackborders_on_fs_check->setChecked(b);
@@ -780,11 +797,14 @@ void PrefGeneral::createHelp() {
            "some video drivers (like gl) are already able to display the "
            "subtitles automatically in the black borders.") */ );
 
+#ifdef Q_OS_WIN
+#else
 	setWhatsThis(screensaver_check, tr("Disable screensaver"),
 		tr("Check this option to disable the screensaver while playing.<br>"
            "The screensaver will enabled again when play finishes.")
            //+ tr("<br><b>Note:</b> This option works only in X11 and Windows.")
 		);
+#endif
 
 	// Audio tab
 	addSectionTitle(tr("Audio"));

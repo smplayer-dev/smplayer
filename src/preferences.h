@@ -82,11 +82,17 @@ public:
 	// Video
 	bool use_direct_rendering;
 	bool use_double_buffer;
-	bool disable_screensaver;
 	bool use_soft_video_eq;
 	bool use_slices;
 	int autoq; 	//!< Postprocessing quality
 	bool add_blackborders_on_fullscreen;
+
+#ifdef Q_OS_WIN
+	bool turn_screensaver_off;
+	bool avoid_screensaver;
+#else
+	bool disable_screensaver;
+#endif
 
 	// Audio
 	bool use_soft_vol;

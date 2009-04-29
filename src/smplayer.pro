@@ -297,7 +297,7 @@ unix {
 }
 
 win32 {
-	#DEFINES += SCREENSAVER_OFF
+	DEFINES += SCREENSAVER_OFF
 	contains( DEFINES, SCREENSAVER_OFF ) {
 		HEADERS += screensaver.h
 		SOURCES += screensaver.cpp
