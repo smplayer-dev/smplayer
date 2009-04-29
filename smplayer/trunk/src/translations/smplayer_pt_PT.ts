@@ -1874,27 +1874,27 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../filters.cpp" line="31"/>
         <source>add noise</source>
-        <translation type="unfinished"></translation>
+        <translation>adicionar ruído</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="32"/>
         <source>deblock</source>
-        <translation type="unfinished"></translation>
+        <translation>deblock</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="33"/>
         <source>normal denoise</source>
-        <translation type="unfinished"></translation>
+        <translation>redução normal</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="34"/>
         <source>soft denoise</source>
-        <translation type="unfinished"></translation>
+        <translation>redução suave</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="37"/>
         <source>volume normalization</source>
-        <translation type="unfinished"></translation>
+        <translation>normalização de volume</translation>
     </message>
 </context>
 <context>
@@ -5040,22 +5040,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="839"/>
         <source>Global volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Volume global</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="842"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se marcar esta opção, será utilizado o mesmo volume em todos os ficheiros que reproduzir. Se não marcar, cada ficheiro utilizará o seu volume.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="843"/>
         <source>This option also applies for the mute control.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opção também se aplica ao controlo silenciar.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="788"/>
         <source>Glo&amp;bal volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Volume glo&amp;bal</translation>
     </message>
 </context>
 <context>
