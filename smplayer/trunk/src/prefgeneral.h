@@ -106,8 +106,11 @@ protected:
 	void setStartInFullscreen(bool b);
 	bool startInFullscreen();
 
+#ifdef Q_OS_WIN
+#else
 	void setDisableScreensaver(bool b);
 	bool disableScreensaver();
+#endif
 
 	void setBlackbordersOnFullscreen(bool b);
 	bool blackbordersOnFullscreen();

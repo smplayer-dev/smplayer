@@ -1150,7 +1150,7 @@ void Core::processFinished()
 #ifdef Q_OS_WIN
 #ifdef SCREENSAVER_OFF
 	// Restores the Windows screensaver
-	if (pref->disable_screensaver) {
+	if (pref->turn_screensaver_off) {
 		win_screensaver->restore();
 	}
 #endif
@@ -1221,7 +1221,7 @@ void Core::startMplayer( QString file, double seek ) {
 #ifdef Q_OS_WIN
 #ifdef SCREENSAVER_OFF
 	// Disable the Windows screensaver
-	if (pref->disable_screensaver) {
+	if (pref->turn_screensaver_off) {
 		win_screensaver->disable();
 	}
 #endif
