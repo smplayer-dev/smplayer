@@ -6,7 +6,7 @@
     <x>0</x>
     <y>0</y>
     <width>486</width>
-    <height>501</height>
+    <height>503</height>
    </rect>
   </property>
   <layout class="QVBoxLayout" >
@@ -518,16 +518,16 @@
          </property>
          <layout class="QVBoxLayout" >
           <item>
-           <widget class="QCheckBox" name="avoid_screensaver_check" >
+           <widget class="QCheckBox" name="turn_screensaver_off_check" >
             <property name="text" >
-             <string>Avoid &amp;screensaver</string>
+             <string>Swit&amp;ch screensaver off</string>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QCheckBox" name="turn_screensaver_off_check" >
+           <widget class="QCheckBox" name="avoid_screensaver_check" >
             <property name="text" >
-             <string>Turn screensave&amp;r off</string>
+             <string>Avoid &amp;screensaver</string>
             </property>
            </widget>
           </item>
@@ -1129,8 +1129,8 @@ For translators: don't translate this text, it will be replaced with another one
   <tabstop>start_fullscreen_check</tabstop>
   <tabstop>blackborders_on_fs_check</tabstop>
   <tabstop>screensaver_check</tabstop>
-  <tabstop>avoid_screensaver_check</tabstop>
   <tabstop>turn_screensaver_off_check</tabstop>
+  <tabstop>avoid_screensaver_check</tabstop>
   <tabstop>ao_combo</tabstop>
   <tabstop>ao_user_defined_edit</tabstop>
   <tabstop>audio_equalizer_check</tabstop>
