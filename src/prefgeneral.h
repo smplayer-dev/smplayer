@@ -107,6 +107,11 @@ protected:
 	bool startInFullscreen();
 
 #ifdef Q_OS_WIN
+	void setAvoidScreensaver(bool b);
+	bool avoidScreensaver();
+	
+	void setTurnScreensaverOff(bool b);
+	bool turnScreensaverOff();
 #else
 	void setDisableScreensaver(bool b);
 	bool disableScreensaver();
