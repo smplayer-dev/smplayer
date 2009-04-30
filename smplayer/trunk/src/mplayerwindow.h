@@ -61,6 +61,13 @@ public:
 	int autoHideInterval() { return autohide_interval; };
 #endif
 
+public slots:
+	//! Should be called when a file has started. 
+	virtual void playingStarted();
+
+	//! Should be called when a file has stopped.
+	virtual void playingStopped();
+
 protected:
 #if !NEW_MOUSE_CHECK_POS
 	virtual void mouseMoveEvent( QMouseEvent * e );
@@ -103,9 +110,9 @@ public:
 public slots:
 	//! Should be called when a file has started. 
     /*! It's needed to know if the background has to be cleared or not. */
-	void playingStarted();
+	virtual void playingStarted();
 	//! Should be called when a file has stopped.
-	void playingStopped();
+	virtual void playingStopped();
 
 #if REPAINT_BACKGROUND_OPTION
 protected:
