@@ -96,6 +96,14 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	connect( proc, SIGNAL(error(QProcess::ProcessError)),
              mplayerwindow->videoLayer(), SLOT(playingStopped()) );
 
+	// Necessary to hide/unhide mouse cursor on black borders
+	connect( proc, SIGNAL(processExited()),
+             mplayerwindow, SLOT(playingStopped()) );
+
+	connect( proc, SIGNAL(error(QProcess::ProcessError)),
+             mplayerwindow, SLOT(playingStopped()) );
+
+
 	connect( proc, SIGNAL(receivedCurrentSec(double)),
              this, SLOT(changeCurrentSec(double)) );
 
@@ -198,6 +206,11 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	// Mplayerwindow
 	connect( this, SIGNAL(aboutToStartPlaying()),
              mplayerwindow->videoLayer(), SLOT(playingStarted()) );
+
+	// Necessary to hide/unhide mouse cursor on black borders
+	connect( this, SIGNAL(aboutToStartPlaying()),
+             mplayerwindow, SLOT(playingStarted()) );
+
 #if DVDNAV_SUPPORT
 	connect( mplayerwindow, SIGNAL(mouseMoved(QPoint)), 
              this, SLOT(dvdnavUpdateMousePos(QPoint)) );

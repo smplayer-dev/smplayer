@@ -103,6 +103,8 @@ void Screen::checkMousePos() {
 
 	QPoint pos = mapFromGlobal(QCursor::pos());
 
+	//qDebug("Screen::checkMousePos: x: %d, y: %d", pos.x(), pos.y());
+
 	if (mouse_last_position != pos) {
 		setCursor(QCursor(Qt::ArrowCursor));
 	} else {
@@ -136,6 +138,20 @@ void Screen::mouseMoveEvent( QMouseEvent * e ) {
 	}
 }
 #endif
+
+void Screen::playingStarted() {
+#if NEW_MOUSE_CHECK_POS
+	qDebug("Screen::playingStarted");
+	setAutoHideCursor(true);
+#endif
+}
+
+void Screen::playingStopped() {
+#if NEW_MOUSE_CHECK_POS
+	qDebug("Screen::playingStopped");
+	setAutoHideCursor(false);
+#endif
+}
 
 /* ---------------------------------------------------------------------- */
 
@@ -171,9 +187,7 @@ void MplayerLayer::playingStarted() {
 	repaint();
 	playing = true;
 
-#if NEW_MOUSE_CHECK_POS
-	setAutoHideCursor(true);
-#endif
+	Screen::playingStarted();
 }
 
 void MplayerLayer::playingStopped() {
@@ -181,9 +195,7 @@ void MplayerLayer::playingStopped() {
 	playing = false;
 	repaint();
 
-#if NEW_MOUSE_CHECK_POS
-	setAutoHideCursor(false);
-#endif
+	Screen::playingStopped();
 }
 
 /* ---------------------------------------------------------------------- */
