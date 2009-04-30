@@ -171,7 +171,9 @@ void MplayerLayer::playingStarted() {
 	repaint();
 	playing = true;
 
+#if NEW_MOUSE_CHECK_POS
 	setAutoHideCursor(true);
+#endif
 }
 
 void MplayerLayer::playingStopped() {
@@ -179,7 +181,9 @@ void MplayerLayer::playingStopped() {
 	playing = false;
 	repaint();
 
+#if NEW_MOUSE_CHECK_POS
 	setAutoHideCursor(false);
+#endif
 }
 
 /* ---------------------------------------------------------------------- */
