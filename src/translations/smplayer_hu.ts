@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="hu_HU">
+<!DOCTYPE TS>
+<TS version="2.0" language="hu_HU">
 <context>
     <name>About</name>
     <message>
@@ -285,7 +286,7 @@
     <message>
         <location filename="../about.cpp" line="204"/>
         <source>Vietnamese</source>
-        <translation type="unfinished">Vietnami</translation>
+        <translation>Vietnami</translation>
     </message>
 </context>
 <context>
@@ -1671,7 +1672,7 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../core.cpp" line="2509"/>
         <source>Speed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Sebesség: %1</translation>
     </message>
 </context>
 <context>
@@ -1874,27 +1875,27 @@ Például: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../filters.cpp" line="31"/>
         <source>add noise</source>
-        <translation type="unfinished"></translation>
+        <translation>Noise hozzáadása</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="32"/>
         <source>deblock</source>
-        <translation type="unfinished"></translation>
+        <translation>deblock</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="33"/>
         <source>normal denoise</source>
-        <translation type="unfinished"></translation>
+        <translation>normál denoise</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="34"/>
         <source>soft denoise</source>
-        <translation type="unfinished"></translation>
+        <translation>lágy denoise</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="37"/>
         <source>volume normalization</source>
-        <translation type="unfinished"></translation>
+        <translation>hangerő normalizálás</translation>
     </message>
 </context>
 <context>
@@ -3348,7 +3349,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Marshall-szigeteki</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmal</translation>
@@ -3458,7 +3459,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
@@ -5036,22 +5037,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="839"/>
         <source>Global volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Globális hangerő</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="842"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció aktív, minden fájl ugyanazzal a hangerővel lesz lejátszva. Ha nem aktív, minden fájl a saját hangerejét használja.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="843"/>
         <source>This option also applies for the mute control.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez az opció a némítás vezérlésére is vonatkozik.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="788"/>
         <source>Glo&amp;bal volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Glo&amp;bális hangerő</translation>
     </message>
 </context>
 <context>
