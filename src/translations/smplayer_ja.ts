@@ -285,7 +285,7 @@
     <message>
         <location filename="../about.cpp" line="204"/>
         <source>Vietnamese</source>
-        <translation type="unfinished">ベトナム語</translation>
+        <translation>ベトナム語</translation>
     </message>
 </context>
 <context>
@@ -1671,7 +1671,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="2509"/>
         <source>Speed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>速度: %1</translation>
     </message>
 </context>
 <context>
@@ -1874,27 +1874,27 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../filters.cpp" line="31"/>
         <source>add noise</source>
-        <translation type="unfinished"></translation>
+        <translation>ノイズの追加</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="32"/>
         <source>deblock</source>
-        <translation type="unfinished"></translation>
+        <translation>ブロック除去</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="33"/>
         <source>normal denoise</source>
-        <translation type="unfinished"></translation>
+        <translation>通常のノイズ除去</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="34"/>
         <source>soft denoise</source>
-        <translation type="unfinished"></translation>
+        <translation>ソフトなノイズ除去</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="37"/>
         <source>volume normalization</source>
-        <translation type="unfinished"></translation>
+        <translation>音量の通常化</translation>
     </message>
 </context>
 <context>
@@ -5038,22 +5038,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="839"/>
         <source>Global volume</source>
-        <translation type="unfinished"></translation>
+        <translation>グローバル音量</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="842"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションがチェックされている場合、同じボリュームが再生するすべてのファイルに使用されます。オプションがチェックされていない場合はそれぞれのファイルがその音量を使用します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="843"/>
         <source>This option also applies for the mute control.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションはミュート コントロールにも適用します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="788"/>
         <source>Glo&amp;bal volume</source>
-        <translation type="unfinished"></translation>
+        <translation>グローバル音量(&amp;B)</translation>
     </message>
 </context>
 <context>
