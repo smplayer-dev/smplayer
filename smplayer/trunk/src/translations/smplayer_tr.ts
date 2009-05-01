@@ -1609,67 +1609,67 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2398"/>
+        <location filename="../core.cpp" line="2419"/>
         <source>Brightness: %1</source>
         <translation>Parlaklık: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2413"/>
+        <location filename="../core.cpp" line="2434"/>
         <source>Contrast: %1</source>
         <translation>Zıtlık: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2427"/>
+        <location filename="../core.cpp" line="2448"/>
         <source>Gamma: %1</source>
         <translation>Gama: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2441"/>
+        <location filename="../core.cpp" line="2462"/>
         <source>Hue: %1</source>
         <translation>Renk tonu: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2455"/>
+        <location filename="../core.cpp" line="2476"/>
         <source>Saturation: %1</source>
         <translation>Doygunluk: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2584"/>
+        <location filename="../core.cpp" line="2605"/>
         <source>Volume: %1</source>
         <translation>Ses: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3319"/>
+        <location filename="../core.cpp" line="3342"/>
         <source>Zoom: %1</source>
         <translation>Yakınlık: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2710"/>
+        <location filename="../core.cpp" line="2733"/>
         <source>Font scale: %1</source>
         <translation>Font ölçeği: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3225"/>
+        <location filename="../core.cpp" line="3248"/>
         <source>Aspect ratio: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3521"/>
+        <location filename="../core.cpp" line="3544"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2624"/>
+        <location filename="../core.cpp" line="2647"/>
         <source>Subtitle delay: %1 ms</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2641"/>
+        <location filename="../core.cpp" line="2664"/>
         <source>Audio delay: %1 ms</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2509"/>
+        <location filename="../core.cpp" line="2530"/>
         <source>Speed: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4296,112 +4296,112 @@ Example: resample=44100:0:0,volnorm</source>
 <context>
     <name>PrefGeneral</name>
     <message>
-        <location filename="../prefgeneral.cpp" line="674"/>
+        <location filename="../prefgeneral.cpp" line="711"/>
         <source>General</source>
         <translation>Genel</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="111"/>
+        <location filename="../prefgeneral.cpp" line="118"/>
         <source>Select the mplayer executable</source>
         <translation>Çalıştırılabilir mplayer dosyasını seçin</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="113"/>
+        <location filename="../prefgeneral.cpp" line="120"/>
         <source>Executables</source>
         <translation>Çalıştırılabilirler</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="115"/>
+        <location filename="../prefgeneral.cpp" line="122"/>
         <source>All files</source>
         <translation>Tüm dosyalar</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="117"/>
+        <location filename="../prefgeneral.cpp" line="124"/>
         <source>Select a directory</source>
         <translation>Bir klasör seçin</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="676"/>
+        <location filename="../prefgeneral.cpp" line="713"/>
         <source>MPlayer executable</source>
         <translation>Çalıştırılabilir MPlayer dosyası</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="707"/>
+        <location filename="../prefgeneral.cpp" line="744"/>
         <source>Screenshots folder</source>
         <translation>Yakalanan ekran görüntülerinin klasörü</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="724"/>
+        <location filename="../prefgeneral.cpp" line="761"/>
         <source>Video output driver</source>
         <translation>Video çıktısı sürücüsü</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="792"/>
+        <location filename="../prefgeneral.cpp" line="843"/>
         <source>Audio output driver</source>
         <translation>Ses çıktısı sürücüsü</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="794"/>
+        <location filename="../prefgeneral.cpp" line="845"/>
         <source>Select the audio output driver.</source>
         <translation>Ses çıktısı içim sürücü seçin.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="684"/>
+        <location filename="../prefgeneral.cpp" line="721"/>
         <source>Remember settings</source>
         <translation>Ayarları hatırla</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="848"/>
+        <location filename="../prefgeneral.cpp" line="899"/>
         <source>Preferred audio language</source>
         <translation>Tercih edilen ses dili</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="858"/>
+        <location filename="../prefgeneral.cpp" line="909"/>
         <source>Preferred subtitle language</source>
         <translation>Tercih edilen alt yazı dili</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="749"/>
+        <location filename="../prefgeneral.cpp" line="786"/>
         <source>Software video equalizer</source>
         <translation>Yazılım video dengeleyici</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="753"/>
+        <location filename="../prefgeneral.cpp" line="790"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>Eğer video eşitleyici özelliği ekran kartınız veya seçtiğiniz video çıktısı sürücüsü tarafından desteklenmiyorsa bu seçeneği işaretleyin.&lt;br&gt;&lt;b&gt;Not:&lt;/b&gt; Bu seçenek bazı video çıktısı sürücüleri ile uyumsuzluk gösterebilir.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="736"/>
+        <location filename="../prefgeneral.cpp" line="773"/>
         <source>Postprocessing quality</source>
         <translation>Ardişlem kalitesi</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="739"/>
+        <location filename="../prefgeneral.cpp" line="776"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>Atıl işlemci gücüne bağlı olarak önişlem seviyesini değiştir. Belirlediğiniz sayı en yüksek seviye kabul edilecektir. Genellikle büyük bir sayı seçebilirsiniz.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="771"/>
+        <location filename="../prefgeneral.cpp" line="808"/>
         <source>Start videos in fullscreen</source>
         <translation>Videoları tam ekran başlat</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="773"/>
+        <location filename="../prefgeneral.cpp" line="810"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>Bu seçeneği işaretlerseniz, videolar tam ekran olarak açılacak.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="783"/>
+        <location filename="../prefgeneral.cpp" line="834"/>
         <source>Disable screensaver</source>
         <translation>Ekran koruyucuyu devredışı bırak</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="825"/>
+        <location filename="../prefgeneral.cpp" line="876"/>
         <source>Software volume control</source>
         <translation>Yazılım ses kontrolü</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="827"/>
+        <location filename="../prefgeneral.cpp" line="878"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>Eğer ses kartı tabanlı değil yazılım tabanlı karıştırıcı (mixer) kullanıyorsanız bu seçeneği işaretleyin.</translation>
     </message>
@@ -4421,22 +4421,22 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>Ortam ayarları</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="846"/>
+        <location filename="../prefgeneral.cpp" line="897"/>
         <source>Preferred audio and subtitles</source>
         <translation>Tercih edilen ses ve alt yazılar</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="722"/>
+        <location filename="../prefgeneral.cpp" line="759"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="790"/>
+        <location filename="../prefgeneral.cpp" line="841"/>
         <source>Audio</source>
         <translation>Ses</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="807"/>
+        <location filename="../prefgeneral.cpp" line="858"/>
         <source>AC3/DTS pass-through S/PDIF</source>
         <translation>AC3/DTS&apos;den S/PDIF&apos;ye düzgeçiş</translation>
     </message>
@@ -4471,7 +4471,7 @@ Example: resample=44100:0:0,volnorm</source>
         <translation type="obsolete">Yakalan ekran görüntülerinin tutulacağı &amp;klasör:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="909"/>
+        <location filename="../prefgeneral.ui" line="932"/>
         <source>&amp;Audio:</source>
         <translation>&amp;Ses:</translation>
     </message>
@@ -4481,7 +4481,7 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>&amp;Tüm dosyalar için ayarları hatırla (ses izi, alt yazı...)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="928"/>
+        <location filename="../prefgeneral.ui" line="951"/>
         <source>Su&amp;btitles:</source>
         <translation>&amp;Alt yazılar:</translation>
     </message>
@@ -4506,27 +4506,27 @@ Example: resample=44100:0:0,volnorm</source>
         <translation type="obsolete">Varsayılan ses &amp;düzeyi:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="730"/>
+        <location filename="../prefgeneral.ui" line="753"/>
         <source>Use s&amp;oftware volume control</source>
         <translation>Yazılıma bağlı ses kontr&amp;olü kullan</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="753"/>
+        <location filename="../prefgeneral.ui" line="776"/>
         <source>Ma&amp;x. Amplification:</source>
         <translation>Azami Ku&amp;vvetlendirme:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="603"/>
+        <location filename="../prefgeneral.ui" line="626"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
         <translation>&amp;AC3/DTS&apos;den S/PDIF&apos;ye düzgeçiş</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="755"/>
+        <location filename="../prefgeneral.cpp" line="792"/>
         <source>Direct rendering</source>
         <translation>Doğrudan oluşturma</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="760"/>
+        <location filename="../prefgeneral.cpp" line="797"/>
         <source>Double buffering</source>
         <translation>2 x ara belleğe alma</translation>
     </message>
@@ -4541,7 +4541,7 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>2 x ara &amp;belleğe alma</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="763"/>
+        <location filename="../prefgeneral.cpp" line="800"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>2 x ara belleğe alma hafızada aynı anda iki kare tutarak titremeleri engeller ve bir kareyi gösterirken diğerinin kodunu çözer. Devredışı bırakılırsa OSD&apos;yi olumsuz etkileyebilir.</translation>
     </message>
@@ -4551,37 +4551,37 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>Ardişl&amp;em her zaman uygulansın</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="781"/>
+        <location filename="../prefgeneral.ui" line="804"/>
         <source>Volume &amp;normalization by default</source>
         <translation>Ses &amp;normalleştirme her zaman uygulansın</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="712"/>
+        <location filename="../prefgeneral.cpp" line="749"/>
         <source>Close when finished</source>
         <translation>Bittiği zaman kapat</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="714"/>
+        <location filename="../prefgeneral.cpp" line="751"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>Bunu seçerseniz, şu an oynatılan dosya/oynatma listesi bittiği zaman programın ana penceresi otomatik olarak kapatılacak.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="83"/>
+        <location filename="../prefgeneral.cpp" line="90"/>
         <source>2 (Stereo)</source>
         <translation>2 (Stereo)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="84"/>
+        <location filename="../prefgeneral.cpp" line="91"/>
         <source>4 (4.0 Surround)</source>
         <translation>4 (4.0 Surround)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="85"/>
+        <location filename="../prefgeneral.cpp" line="92"/>
         <source>6 (5.1 Surround)</source>
         <translation>6 (5.1 Surround)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="627"/>
+        <location filename="../prefgeneral.ui" line="650"/>
         <source>C&amp;hannels by default:</source>
         <translation>Varsa&amp;yılı kanallar:</translation>
     </message>
@@ -4591,27 +4591,27 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>Simge durumuna küçültüldüğünde &amp;duraklat</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="716"/>
+        <location filename="../prefgeneral.cpp" line="753"/>
         <source>Pause when minimized</source>
         <translation>Simge durumuna küçültüldüğünde duraklat</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="733"/>
+        <location filename="../prefgeneral.cpp" line="770"/>
         <source>Enable postprocessing by default</source>
         <translation>Ardişlem her zaman uygulansın</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="829"/>
+        <location filename="../prefgeneral.cpp" line="880"/>
         <source>Max. Amplification</source>
         <translation>Azami Kuvvetlendirme</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="836"/>
+        <location filename="../prefgeneral.cpp" line="887"/>
         <source>Volume normalization by default</source>
         <translation>Ses normalleştirme her zaman uygulansın</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="837"/>
+        <location filename="../prefgeneral.cpp" line="888"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>Sesi bozmadan en yüksek seviyeye getirir.</translation>
     </message>
@@ -4626,93 +4626,93 @@ Example: resample=44100:0:0,volnorm</source>
         <translation type="obsolete">Yeni açılan dosyalarda kullanılacak ses düzeyini belirler.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="810"/>
+        <location filename="../prefgeneral.cpp" line="861"/>
         <source>Channels by default</source>
         <translation>Varsayılı kanallar</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="834"/>
+        <location filename="../prefgeneral.cpp" line="885"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>Azami kuvvetlendirme seviyesini belirler (varsayılan: 110). Seviyeyi 200&apos;e getirirseniz sesi şu andaki düzeyin 2 katına getirmeniz mümkün olacaktır. 100&apos;ün altındaki değerlerin seçilmesi başlangıçtaki sesin (%100) azami seviyenin üstünde kalmasına sebep olacaktır ve OSD bu durumda seviyeyi düzgün gösteremez.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="808"/>
+        <location filename="../prefgeneral.cpp" line="859"/>
         <source>Uses hardware AC3 passthrough</source>
         <translation>Uses hardware AC3 passthrough</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="734"/>
+        <location filename="../prefgeneral.cpp" line="771"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>Yeni açılan dosyalarda ardişlem varsayılı olarak uygulanır.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="868"/>
+        <location filename="../prefgeneral.cpp" line="919"/>
         <source>Audio track</source>
         <translation>Ses izi</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="872"/>
+        <location filename="../prefgeneral.cpp" line="923"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Yeni açılan dosyaların  oynatılmasında kullanılacak varsayılı ses izini belirler. Eğer bu ses izi mevcut değilse, bulunan ilk iz kullanılacaktır. &lt;br&gt;&lt;b&gt;Not:&lt;/b&gt; &lt;i&gt;&quot;tercih edilen ses dili&quot;&lt;/i&gt; kullanılacak ses izini seçmede kullanılır.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="874"/>
+        <location filename="../prefgeneral.cpp" line="925"/>
         <source>Subtitle track</source>
         <translation>Alt yazı izi</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="878"/>
+        <location filename="../prefgeneral.cpp" line="929"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Yeni açılan dosyaların  oynatılmasında kullanılacak varsayılı alt yazı izini belirler. Eğer bu ses izi mevcut değilse, bulunan ilk iz kullanılacaktır. &lt;br&gt;&lt;b&gt;Not:&lt;/b&gt; &lt;i&gt;&quot;tercih edilen alt yazı dili&quot;&lt;/i&gt; kullanılacak alt yazı izini seçmede kullanılır.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1049"/>
+        <location filename="../prefgeneral.ui" line="1072"/>
         <source>Or choose a track number:</source>
         <translation>Veya bir iz numarası seçiniz:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="990"/>
+        <location filename="../prefgeneral.ui" line="1013"/>
         <source>Audi&amp;o:</source>
         <translation>S&amp;es:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="944"/>
+        <location filename="../prefgeneral.ui" line="967"/>
         <source>Preferred language:</source>
         <translation>Tercih edilen dil:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="815"/>
+        <location filename="../prefgeneral.ui" line="838"/>
         <source>Preferre&amp;d audio and subtitles</source>
         <translation>Tercih e&amp;dilen ses ve alt yazılar</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1003"/>
+        <location filename="../prefgeneral.ui" line="1026"/>
         <source>&amp;Subtitle:</source>
         <translation>&amp;Alt yazı:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="127"/>
+        <location filename="../prefgeneral.cpp" line="134"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Burada ses akışları için tercih ettiğiniz dili seçebilirsiniz. Birden fazla ses akışı içeren bir ortam bulunduğunda, SMPlayer tercih edilen dildekini kullanmaya çalışacaktır.&lt;br&gt;Bu özellik sadece ses akışlarının dili hakkında bilgi içeren, DVDler, mkv dosyaları gibi ortamlar için geçerlidir.&lt;br&gt;Diller için alışılagelmiş kısaltmaları kullanabilirsiniz. Örnek: &lt;b&gt;es|esp|spa&lt;/b&gt; yazdığınızda SMPlayer mümkünse &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; veya &lt;i&gt;spa&lt;/i&gt; içeren ses izlerini kullanacaktır.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="836"/>
+        <location filename="../prefgeneral.ui" line="859"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="672"/>
+        <location filename="../prefgeneral.ui" line="695"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>Ses perdesini &amp;değiştirmeden hızlı oynatma</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="821"/>
+        <location filename="../prefgeneral.cpp" line="872"/>
         <source>High speed playback without altering pitch</source>
         <translation>Ses perdesini değiştirmeden hızlı oynatma</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="823"/>
+        <location filename="../prefgeneral.cpp" line="874"/>
         <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
         <translation>Oynatma hızının ses perdesi aynıyken değiştirilmesini sağlar.En az MPlayer dev-SVN-r24924 sürümünü gerektirir.</translation>
     </message>
@@ -4732,42 +4732,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Yazılım tabanlı vide&amp;o dengeleyici kullan</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="531"/>
+        <location filename="../prefgeneral.ui" line="554"/>
         <source>A&amp;udio</source>
         <translation>S&amp;es</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="707"/>
+        <location filename="../prefgeneral.ui" line="730"/>
         <source>Volume</source>
         <translation>Ses</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="89"/>
+        <location filename="../prefgeneral.cpp" line="96"/>
         <source>None</source>
         <translation>Hiçbiri</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="90"/>
+        <location filename="../prefgeneral.cpp" line="97"/>
         <source>Lowpass5</source>
         <translation>Lowpass5</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="91"/>
+        <location filename="../prefgeneral.cpp" line="98"/>
         <source>Yadif (normal)</source>
         <translation>Yadif (normal)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="92"/>
+        <location filename="../prefgeneral.cpp" line="99"/>
         <source>Yadif (double framerate)</source>
         <translation>Yadif (2 x kare sayısı)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="93"/>
+        <location filename="../prefgeneral.cpp" line="100"/>
         <source>Linear Blend</source>
         <translation>Doğrusal karıştırma</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="94"/>
+        <location filename="../prefgeneral.cpp" line="101"/>
         <source>Kerndeint</source>
         <translation>Kerndeint</translation>
     </message>
@@ -4777,17 +4777,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Varsayıla&amp;n görüntü ayrıştırıcı:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="741"/>
+        <location filename="../prefgeneral.cpp" line="778"/>
         <source>Deinterlace by default</source>
         <translation>Görüntü ayrıştırma varsayılı</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="743"/>
+        <location filename="../prefgeneral.cpp" line="780"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation>Yeni açılan dosyalarda kullanılacak görüntü ayrıştırma süzgecini seçiniz.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="689"/>
+        <location filename="../prefgeneral.cpp" line="726"/>
         <source>Remember time position</source>
         <translation>İzlerken kalınan yeri hatırla</translation>
     </message>
@@ -4802,27 +4802,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Ses düzeyini oynatmaya baş&amp;lamadan hemen önce değiştir</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="804"/>
+        <location filename="../prefgeneral.cpp" line="855"/>
         <source>Enable the audio equalizer</source>
         <translation>Ses dengeleyiciyi etkinleştir</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="805"/>
+        <location filename="../prefgeneral.cpp" line="856"/>
         <source>Check this option if you want to use the audio equalizer.</source>
         <translation>Ses dengeleyici kullanmak istiyorsanız işaretleyiniz.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="596"/>
+        <location filename="../prefgeneral.ui" line="619"/>
         <source>&amp;Enable the audio equalizer</source>
         <translation>Ses dengeleyiciyi &amp;etkinleştir</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="765"/>
+        <location filename="../prefgeneral.cpp" line="802"/>
         <source>Draw video using slices</source>
         <translation>Videoyu kesitler halinde oluşturur</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="769"/>
+        <location filename="../prefgeneral.cpp" line="806"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
         <translation>Videonun 16 piksel yüksekliğinde kesitler kullanılması etkin/edilgin. Edilginken tüm görüntü karesi tek seferde oluşturulur. Ön bellek miktarına ve ekran kartına bağlı olarak daha hızlı veya yavaş olabilir. Sadece libmpeg2 ve libavcodec kodlayıcıları kullanıldığında işe yarar.</translation>
     </message>
@@ -4837,32 +4837,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Oynatma bittiğinde kapat</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="292"/>
+        <location filename="../prefgeneral.cpp" line="311"/>
         <source>fast</source>
         <translation>hızlı</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="288"/>
+        <location filename="../prefgeneral.cpp" line="307"/>
         <source>slow</source>
         <translation>yavaş</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="293"/>
+        <location filename="../prefgeneral.cpp" line="312"/>
         <source>fast - ATI cards</source>
         <translation>hızlı - ATI kartlar</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="333"/>
+        <location filename="../prefgeneral.cpp" line="352"/>
         <source>User defined...</source>
         <translation>Kullanıcı tarafından belirlenen...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="745"/>
+        <location filename="../prefgeneral.cpp" line="782"/>
         <source>Default zoom</source>
         <translation>Geçerli yakınlaştırma</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="747"/>
+        <location filename="../prefgeneral.cpp" line="784"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
         <translation>Yeni açılan videolar için kullanılacak geçerli yakınlaştırmayı belirler.</translation>
     </message>
@@ -4872,12 +4872,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Geçerli &amp;yakınlaştırma:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="680"/>
+        <location filename="../prefgeneral.cpp" line="717"/>
         <source>Here you must specify the mplayer executable that SMPlayer will use.&lt;br&gt;SMPlayer requires at least MPlayer 1.0rc1 (although a recent revision from SVN is highly recommended).</source>
         <translation>Burada SMPlayer&apos;ın kullanacağı çalıştırılabilir MPlayer dosyasını seçmelisiniz.&lt;br&gt;SMPlayer en azından MPlayer 1.0rc1&apos;e gerek duymaktadır (SVN şiddetle tavsiye edilir).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="682"/>
+        <location filename="../prefgeneral.cpp" line="719"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
         <translation>Bu ayar doğru olmazsa SMPlayer hiçbir dosyayı oynatamaz!</translation>
     </message>
@@ -4887,52 +4887,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Burada yakaladığınız ekran görüntülerinin tutulacağı klasörü belirleyebilirsiniz. Eğer bir klasör seçmezseniz görüntü yakalama özelliği devredışı bırakılacak.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="726"/>
+        <location filename="../prefgeneral.cpp" line="763"/>
         <source>Select the video output driver. %1 provides the best performance.</source>
         <translation>Video çıktı sürücüsünü seçiniz. %1 en iy başarımı sağlar.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="798"/>
+        <location filename="../prefgeneral.cpp" line="849"/>
         <source>%1 is the recommended one. Try to avoid %2 and %3, they are slow and can have an impact on performance.</source>
         <translation>%1 tavsiye edilir. %2 ve %3 yavaş oldukları için ve başarım üzerinde olumsuz etkileri olabileceğinden kullanmaktan kaçınınız.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="687"/>
+        <location filename="../prefgeneral.cpp" line="724"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
         <translation>Smplayer çoğu dosya için belirlediğiniz ayarları (seçilen ses izi, ses, süzgeçler...) hatırlayacaktır. Eğer bu özelliği istemiyorsanız işareti kaldırın.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="719"/>
+        <location filename="../prefgeneral.cpp" line="756"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
         <translation>Seçilirse, ana pencere gizlendiğinde dosya duraklatılır. Pencere eski boyutuna getirildiğinde oynatma devam eder.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="787"/>
+        <location filename="../prefgeneral.cpp" line="837"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>Herhangi bir dosya oynatılırken ekran koruyucuyu devredışı bırakmak için bu seçeneği işaretleyin.&lt;br&gt;Oynatma işlemi bittiğinde ekran koruyucu tekrar çalıştırılacak.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="856"/>
+        <location filename="../prefgeneral.cpp" line="907"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Burada ses akışları için tercih ettiğiniz dili seçebilirsiniz. Birden fazla ses akışı içeren bir ortam bulunduğunda, SMPlayer tercih edilen dildekini kullanmaya çalışacaktır.&lt;br&gt;Bu özellik sadece ses akışlarının dili hakkında bilgi içeren, DVDler, mkv dosyaları gibi ortamlar için geçerlidir.&lt;br&gt;Diller için alışılagelmiş kısaltmaları kullanabilirsiniz. Örnek: &lt;b&gt;es|esp|spa&lt;/b&gt; yazdığınızda SMPlayer mümkünse &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; veya &lt;i&gt;spa&lt;/i&gt; içeren ses izlerini kullanacaktır.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="866"/>
+        <location filename="../prefgeneral.cpp" line="917"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Burada alt yazılar için tercih ettiğiniz dili seçebilirsiniz. Birden fazla alt yazı içeren bir ortam bulunduğunda, SMPlayer tercih edilen dildekini kullanmaya çalışacaktır.&lt;br&gt;Bu özellik sadece alt yazıların dili hakkında bilgi içeren, DVDler, mkv dosyaları gibi ortamlar için geçerlidir.&lt;br&gt;Diller için alışılagelmiş kısaltmaları kullanabilirsiniz. Örnek: &lt;b&gt;es|esp|spa&lt;/b&gt; yazdığınızda SMPlayer mümkünse &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; veya &lt;i&gt;spa&lt;/i&gt; içeren alt yazıları kullanacaktır.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="539"/>
+        <location filename="../prefgeneral.ui" line="562"/>
         <source>Ou&amp;tput driver:</source>
         <translation>&amp;Çıktı sürücüsü:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="775"/>
+        <location filename="../prefgeneral.cpp" line="812"/>
         <source>Add black borders on fullscreen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="778"/>
+        <location filename="../prefgeneral.cpp" line="815"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4942,32 +4942,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="99"/>
+        <location filename="../prefgeneral.cpp" line="106"/>
         <source>one ini file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="100"/>
+        <location filename="../prefgeneral.cpp" line="107"/>
         <source>multiple ini files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="694"/>
+        <location filename="../prefgeneral.cpp" line="731"/>
         <source>Method to store the file settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="696"/>
+        <location filename="../prefgeneral.cpp" line="733"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="698"/>
+        <location filename="../prefgeneral.cpp" line="735"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="701"/>
+        <location filename="../prefgeneral.cpp" line="738"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4977,37 +4977,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="700"/>
+        <location filename="../prefgeneral.cpp" line="737"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="692"/>
+        <location filename="../prefgeneral.cpp" line="729"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="758"/>
+        <location filename="../prefgeneral.cpp" line="795"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="819"/>
+        <location filename="../prefgeneral.cpp" line="870"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="703"/>
+        <location filename="../prefgeneral.cpp" line="740"/>
         <source>Enable screenshots</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="705"/>
+        <location filename="../prefgeneral.cpp" line="742"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="710"/>
+        <location filename="../prefgeneral.cpp" line="747"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5032,23 +5032,58 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="839"/>
+        <location filename="../prefgeneral.cpp" line="890"/>
         <source>Global volume</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="842"/>
+        <location filename="../prefgeneral.cpp" line="893"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="843"/>
+        <location filename="../prefgeneral.cpp" line="894"/>
         <source>This option also applies for the mute control.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="788"/>
+        <location filename="../prefgeneral.ui" line="811"/>
         <source>Glo&amp;bal volume</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="821"/>
+        <source>Switch screensaver off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="825"/>
+        <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="827"/>
+        <source>Avoid screensaver</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="832"/>
+        <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="517"/>
+        <source>Screensaver</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="523"/>
+        <source>Swit&amp;ch screensaver off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="530"/>
+        <source>Avoid &amp;screensaver</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5876,7 +5911,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="233"/>
+        <location filename="../prefperformance.cpp" line="243"/>
         <source>Performance</source>
         <translation>Başarım</translation>
     </message>
@@ -5886,37 +5921,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Öncelik</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="289"/>
+        <location filename="../prefperformance.cpp" line="302"/>
         <source>Cache</source>
         <translation>Ön bellek</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="243"/>
+        <location filename="../prefperformance.cpp" line="253"/>
         <source>Allow frame drop</source>
         <translation>Kare es geçmeye izin ver</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="244"/>
+        <location filename="../prefperformance.cpp" line="254"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Yavaş sistemlerde ses/görüntü uyumunu sağlamak için bazı kareleri atla.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="246"/>
+        <location filename="../prefperformance.cpp" line="256"/>
         <source>Allow hard frame drop</source>
         <translation>Yoğun kare es geçme</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="248"/>
+        <location filename="../prefperformance.cpp" line="258"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>Daha yoğun kare es geçme (kod çözmeyi bozar). Görüntünün bozulmasına yol açar!</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="270"/>
+        <location filename="../prefperformance.cpp" line="283"/>
         <source>Audio/video auto synchronization</source>
         <translation>Otomatik ses/görüntü uyumu</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="272"/>
+        <location filename="../prefperformance.cpp" line="285"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>Ses gecikmesi hesaplamalarına dayanarak, ses/görüntü uyumunu aşama aşama gerçekleştir.</translation>
     </message>
@@ -5961,27 +5996,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>âtıl</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="637"/>
+        <location filename="../prefperformance.ui" line="648"/>
         <source>KB</source>
         <translation>KB</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="530"/>
+        <location filename="../prefperformance.ui" line="541"/>
         <source>Setting a cache may improve performance on slow media</source>
         <translation>Ön belleği kullanmak başarımı arttırabilir</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="291"/>
+        <location filename="../prefperformance.ui" line="302"/>
         <source>Synchronization</source>
         <translation>Uyum</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="274"/>
+        <location filename="../prefperformance.cpp" line="287"/>
         <source>Fast audio track switching</source>
         <translation>Ses izini hızlı değiştirebilme</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="284"/>
+        <location filename="../prefperformance.cpp" line="297"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>DVD bölümlerini hızlı gezinebilme</translation>
     </message>
@@ -6001,32 +6036,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Yoğun kare es &amp;geçmeye izin ver (görüntünün bozulmasına yol açabilir)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="312"/>
+        <location filename="../prefperformance.ui" line="323"/>
         <source>Audio/&amp;video auto synchronization</source>
         <translation>Otomatik ses/&amp;video uyumu sağlama</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="355"/>
+        <location filename="../prefperformance.ui" line="366"/>
         <source>Fact&amp;or:</source>
         <translation>Etk&amp;en:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="406"/>
+        <location filename="../prefperformance.ui" line="417"/>
         <source>&amp;Fast audio track switching</source>
         <translation>&amp;Ses izini hızlı değiştirebilme</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="434"/>
+        <location filename="../prefperformance.ui" line="445"/>
         <source>Fast &amp;seek to chapters in dvds</source>
         <translation>&amp;DVD bölümlerini hızlı gezinebilme</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="286"/>
+        <location filename="../prefperformance.cpp" line="299"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Seçilirse bölümleri gezinebilmek için en hızlı yöntem denenecek. Bazı disklerde çalışmayabilir.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="254"/>
+        <location filename="../prefperformance.cpp" line="267"/>
         <source>Skip loop filter</source>
         <translation>Döngü süzgecini atla</translation>
     </message>
@@ -6036,57 +6071,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="281"/>
+        <location filename="../prefperformance.cpp" line="294"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>Olası değerler: &lt;br&gt; &lt;b&gt;Evet&lt;/b&gt;: Ses izlerini değiştirmek için en hızlı yöntemi dener (bazı biçimlerle çalışmayabilir). &lt;br&gt; &lt;b&gt;Hayır&lt;/b&gt;: ses izini her değiştirdiğinizde MPlayer yeniden başlatılır. &lt;br&gt; &lt;b&gt;Otomatik&lt;/b&gt;: MPlayer sürümüne göre SMPlayer ne yapılacağına karar verir.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="291"/>
+        <location filename="../prefperformance.cpp" line="304"/>
         <source>Cache for files</source>
         <translation>Dosyalar için ön bellek</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="293"/>
+        <location filename="../prefperformance.cpp" line="306"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>Dosyaları ön belleğe almak için ne kadar bellek (kByte olarak) kullanılacağını belirler.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="295"/>
+        <location filename="../prefperformance.cpp" line="308"/>
         <source>Cache for streams</source>
         <translation>Akışlar için ön bellek</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="297"/>
+        <location filename="../prefperformance.cpp" line="310"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>URL&apos;leri ön belleğe almak için ne kadar bellek (kByte olarak) kullanılacağını belirler.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="299"/>
+        <location filename="../prefperformance.cpp" line="312"/>
         <source>Cache for DVDs</source>
         <translation>DVD&apos;ler için ön bellek</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="302"/>
+        <location filename="../prefperformance.cpp" line="315"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>DVD&apos;leri ön belleğe almak için ne kadar bellek (kByte olarak) kullanılacağını belirler.&lt;br&gt;&lt;b&gt;Uyarı:&lt;/b&gt; DVD&apos;ler için ön bellek kullanıldığı durumda bölümler arasında ve bölüm içinde gezinme düzgün çalışmayabilir.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="455"/>
+        <location filename="../prefperformance.ui" line="466"/>
         <source>&amp;Cache</source>
         <translation>&amp;Ön bellek</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="520"/>
+        <location filename="../prefperformance.ui" line="531"/>
         <source>Cache for &amp;DVDs:</source>
         <translation>&amp;DVD&apos;ler için ön bellek:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="540"/>
+        <location filename="../prefperformance.ui" line="551"/>
         <source>Cache for &amp;local files:</source>
         <translation>Bilgisayardaki dosya&amp;lar için ön bellek:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="550"/>
+        <location filename="../prefperformance.ui" line="561"/>
         <source>Cache for &amp;streams:</source>
         <translation>&amp;Akışlar için ön bellek:</translation>
     </message>
@@ -6106,72 +6141,72 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Sadece HD videoları atla</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="262"/>
+        <location filename="../prefperformance.ui" line="264"/>
         <source>Loop &amp;filter</source>
         <translation>Döngü &amp;süzgeci</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="261"/>
+        <location filename="../prefperformance.cpp" line="274"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>H.264 kod çözümü esnasında döngü süzgecinin es geçilmesine izin verir. HDTV&apos;lerde görüntü kaybı olmadan büyük hızlanma sağlar.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="262"/>
+        <location filename="../prefperformance.cpp" line="275"/>
         <source>Possible values:</source>
         <translation>Olası değerler:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="263"/>
+        <location filename="../prefperformance.cpp" line="276"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>&lt;b&gt;Etkin&lt;/b&gt;: döngü süzgeci es geçilmez</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="265"/>
+        <location filename="../prefperformance.cpp" line="278"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;Atla (her zaman)&lt;/b&gt;: döngü süzgeci videonun çözünürlüğü ne olursa olsun es geçilir</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="268"/>
+        <location filename="../prefperformance.cpp" line="281"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;Sadece HD videoları atla&lt;/b&gt;: döngü süzgeci sadece %1 veya daha fazla çözünürlükteki videolar için es geçilir.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="304"/>
+        <location filename="../prefperformance.cpp" line="317"/>
         <source>Cache for audio CDs</source>
         <translation>Müzik CD&apos;leri için ön bellek</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="306"/>
+        <location filename="../prefperformance.cpp" line="319"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation>Müzik CD&apos;lerini ön belleğe almak için ne kadar bellek (kByte olarak) kullanılacağını belirler.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="620"/>
+        <location filename="../prefperformance.ui" line="631"/>
         <source>Cache for &amp;audio CDs:</source>
         <translation>&amp;Müzik CD&apos;leri için ön bellek:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="308"/>
+        <location filename="../prefperformance.cpp" line="321"/>
         <source>Cache for VCDs</source>
         <translation>VCD&apos;ler için ön bellek</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="310"/>
+        <location filename="../prefperformance.cpp" line="323"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation>VCD&apos;leri ön belleğe almak için ne kadar bellek (kByte olarak) kullanılacağını belirler.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="664"/>
+        <location filename="../prefperformance.ui" line="675"/>
         <source>Cache for &amp;VCDs:</source>
         <translation>&amp;VCD&apos;ler için ön bellek:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="250"/>
+        <location filename="../prefperformance.cpp" line="260"/>
         <source>Threads for decoding</source>
         <translation>Kod çözme dizileri</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="252"/>
+        <location filename="../prefperformance.cpp" line="262"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
         <translation>Sadece MPEG-1/2 ve H.264 için kod çözmede kullanılacak dizi sayısını belirler</translation>
     </message>
@@ -6181,8 +6216,23 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Kod çözme dizileri (Sadece MPEG-1/2 ve H.264):</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="240"/>
+        <location filename="../prefperformance.cpp" line="250"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="264"/>
+        <source>Use CoreAVC if no other codec specified</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="265"/>
+        <source>Try to use non-free CoreAVC codec with no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="292"/>
+        <source>&amp;Use CoreAVC if no other codec specified</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
