@@ -81,6 +81,7 @@ void PrefPerformance::setData(Preferences * pref) {
 	setPriority( pref->priority );
 	setFrameDrop( pref->frame_drop );
 	setHardFrameDrop( pref->hard_frame_drop );
+	setCoreavcUsage( pref->coreavc );
 	setSkipLoop( pref->h264_skip_loop_filter );
 	setAutoSyncActivated( pref->autosync );
 	setAutoSyncFactor( pref->autosync_factor );
@@ -103,6 +104,7 @@ void PrefPerformance::getData(Preferences * pref) {
 	TEST_AND_SET(pref->priority, priority());
 	TEST_AND_SET(pref->frame_drop, frameDrop());
 	TEST_AND_SET(pref->hard_frame_drop, hardFrameDrop());
+	TEST_AND_SET(pref->coreavc, coreavcUsage())
 	TEST_AND_SET(pref->h264_skip_loop_filter, skipLoop());
 	TEST_AND_SET(pref->autosync, autoSyncActivated());
 	TEST_AND_SET(pref->autosync_factor, autoSyncFactor());
@@ -175,6 +177,14 @@ void PrefPerformance::setHardFrameDrop(bool b) {
 
 bool PrefPerformance::hardFrameDrop() {
 	return hardframedrop_check->isChecked();
+}
+
+void PrefPerformance::setCoreavcUsage(bool b) {
+	coreavc_check->setChecked(b);
+}
+
+bool PrefPerformance::coreavcUsage() {
+	return coreavc_check->isChecked();
 }
 
 void PrefPerformance::setSkipLoop(Preferences::H264LoopFilter value) {
@@ -250,6 +260,9 @@ void PrefPerformance::createHelp() {
 	setWhatsThis(threads_spin, tr("Threads for decoding"),
 		tr("Sets the number of threads to use for decoding. Only for "
            "MPEG-1/2 and H.264") );
+
+	setWhatsThis(coreavc_check, tr("Use CoreAVC if no other codec specified"),
+		tr("Try to use non-free CoreAVC codec with no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support."));
 
 	setWhatsThis(loopfilter_combo, tr("Skip loop filter"),
 		tr("This option allows to skips the loop filter (AKA deblocking) "
