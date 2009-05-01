@@ -89,6 +89,9 @@ protected:
 	void setThreads(int v);
 	int threads();
 
+	void setCoreavcUsage(bool b);
+	bool coreavcUsage();
+
 protected:
 	virtual void retranslateStrings();
 };

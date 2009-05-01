@@ -141,6 +141,7 @@ public:
 	bool autosync;
 	int autosync_factor;
 
+	bool coreavc;
 	H264LoopFilter h264_skip_loop_filter;
 	int HD_height; //!< An HD is a video which height is equal or greater than this.
 

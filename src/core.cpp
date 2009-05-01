@@ -1311,6 +1311,14 @@ void Core::startMplayer( QString file, double seek ) {
 			proc->addArgument("-vc");
 			proc->addArgument("ffh264vdpau,ffmpeg12vdpau,ffwmv3vdpau,ffvc1vdpau,");
 		}
+#endif	
+		else {
+			if (pref->coreavc) {
+				proc->addArgument("-vc");
+				proc->addArgument("coreserve,");
+			}
+		}
+#ifndef Q_OS_WIN
 	}
 #endif
 

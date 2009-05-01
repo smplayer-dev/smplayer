@@ -5,7 +5,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>454</width>
+    <width>475</width>
     <height>591</height>
    </rect>
   </property>
@@ -240,7 +240,7 @@
          <property name="title" >
           <string>H.264</string>
          </property>
-         <layout class="QHBoxLayout" >
+         <layout class="QVBoxLayout" >
           <property name="spacing" >
            <number>6</number>
           </property>
@@ -257,30 +257,41 @@
            <number>9</number>
           </property>
           <item>
-           <widget class="QLabel" name="label_8" >
+           <layout class="QHBoxLayout" >
+            <item>
+             <widget class="QLabel" name="label_8" >
+              <property name="text" >
+               <string>Loop &amp;filter</string>
+              </property>
+              <property name="buddy" >
+               <cstring>loopfilter_combo</cstring>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="loopfilter_combo" />
+            </item>
+            <item>
+             <spacer>
+              <property name="orientation" >
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" >
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="coreavc_check" >
             <property name="text" >
-             <string>Loop &amp;filter</string>
-            </property>
-            <property name="buddy" >
-             <cstring>loopfilter_combo</cstring>
+             <string>&amp;Use CoreAVC if no other codec specified</string>
             </property>
            </widget>
-          </item>
-          <item>
-           <widget class="QComboBox" name="loopfilter_combo" />
-          </item>
-          <item>
-           <spacer>
-            <property name="orientation" >
-             <enum>Qt::Horizontal</enum>
-            </property>
-            <property name="sizeHint" >
-             <size>
-              <width>40</width>
-              <height>20</height>
-             </size>
-            </property>
-           </spacer>
           </item>
          </layout>
         </widget>
@@ -701,6 +712,7 @@
   <tabstop>hardframedrop_check</tabstop>
   <tabstop>threads_spin</tabstop>
   <tabstop>loopfilter_combo</tabstop>
+  <tabstop>coreavc_check</tabstop>
   <tabstop>autosync_check</tabstop>
   <tabstop>autosync_spin</tabstop>
   <tabstop>fast_audio_combo</tabstop>
