@@ -1,5 +1,24 @@
 [b]Version 0.6.8[/b]:
 
+(2009-05-01)
+ * Applied patch coreavc.patch by Shurygin Egor.
+   It adds a checkbox in performance settings to switch coreavc usage.
+   When checked passes to mplayer "-vc coreavc," unless vdpau video driver is
+   used and any other video codec has been set explicitly.
+
+(2009-04-30)
+ * Bugfix: hide the mouse cursor when it's over the black borders.
+
+(2009-04-29)
+ * (Windows) New options for smplayer.ini: turn_screensaver_off (false by
+   default) and avoid_screensaver (true by default). The option
+   disable_screensaver won't be used on windows anymore.
+   turn_screensaver_off disables the screensaver from the control panel,
+   while avoid_screensaver prevents the screensaver to appear when windows
+   requests for it in an event.
+ * Added checkboxes in preferences->general->video to allow to configure
+   the avoid_screensaver and turn_screensaver_off options.
+
 (2009-04-24)
  * Deleted the option "Change volume just before playing" (Preferences -> 
    General -> Audio). That option had sense when a patch was required for the
