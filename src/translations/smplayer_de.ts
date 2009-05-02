@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="de_DE">
+<!DOCTYPE TS>
+<TS version="2.0" language="de_DE">
 <context>
     <name>About</name>
     <message>
@@ -3353,7 +3354,7 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
         <source>Marshallese</source>
         <translation>Marshallese</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmål</translation>
@@ -3463,7 +3464,7 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
@@ -5064,37 +5065,37 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="821"/>
         <source>Switch screensaver off</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildschirmschoner ausschalten</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="825"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
-        <translation type="unfinished"></translation>
+        <translation>Diese Option deaktiviert den Bildschirmschoner vor der Wiedergabe und aktiviert ihn nach Beendigung der Wiedergabe. Wenn diese Option aktiviert ist, wird der Bildschirmschoner bei keiner Datei aktiv, das gilt auch für Audio, oder wenn eine Datei pausiert.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="827"/>
         <source>Avoid screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>Vermeide Bildschirmschoner</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="832"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mit dieser Option wird SMPlayer versuchen den Bildschirmschoner, während der Wiedergabe einer Videodatei, zu vermeiden. Der Bildschirmschoner wird aktiv während der Wiedergabe einer Audiodatei, oder im Modus Pause. Diese Option funktioniert nur, wenn das SMPlayer Fenster im Vordergrund ist.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="517"/>
         <source>Screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildschirmschoner</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="523"/>
         <source>Swit&amp;ch screensaver off</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bildschirmschoner ausschalten</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="530"/>
         <source>Avoid &amp;screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Vermeide Bildschirmschoner</translation>
     </message>
 </context>
 <context>
@@ -6238,17 +6239,17 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="264"/>
         <source>Use CoreAVC if no other codec specified</source>
-        <translation type="unfinished"></translation>
+        <translation>Anwendung von  CoreAVC, wenn kein anderer Codec spezifiziert ist</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="265"/>
         <source>Try to use non-free CoreAVC codec with no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Versuche den nicht freien CoreAVC anzuwenden, wenn kein anderer Codec spezifiziert ist und kein VDPAU-Video-Ausgang gewählt wurde. Benötigt MPlayer-Build mit VDPAU Unterstützung. </translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="292"/>
         <source>&amp;Use CoreAVC if no other codec specified</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Anwendung von  CoreAVC, wenn kein anderer Codec spezifiziert ist</translation>
     </message>
 </context>
 <context>
