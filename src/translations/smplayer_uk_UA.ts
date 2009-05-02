@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="uk">
+<!DOCTYPE TS>
+<TS version="2.0" language="uk">
 <context>
     <name>About</name>
     <message>
@@ -285,7 +286,7 @@
     <message>
         <location filename="../about.cpp" line="204"/>
         <source>Vietnamese</source>
-        <translation type="unfinished">В&apos;єтнамська</translation>
+        <translation>В&apos;єтнамська</translation>
     </message>
 </context>
 <context>
@@ -461,12 +462,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1568"/>
         <source>SMPlayer - mplayer log</source>
-        <translation>SMPlayer - звіти mplayer</translation>
+        <translation>SMPlayer - журнали mplayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1569"/>
         <source>SMPlayer - smplayer log</source>
-        <translation>SMPlayer - звіти smplayer</translation>
+        <translation>SMPlayer - журнали smplayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1407"/>
@@ -866,7 +867,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1560"/>
         <source>&amp;View logs</source>
-        <translation>&amp;Дивитись звіти</translation>
+        <translation>&amp;Дивитись журнали</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1341"/>
@@ -1323,7 +1324,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4171"/>
         <source>See the log for more info.</source>
-        <translation>Дивіться звіт для детальної інформації.</translation>
+        <translation>Дивіться журнал для детальної інформації.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1395"/>
@@ -1671,7 +1672,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="2530"/>
         <source>Speed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Швидкість: %1</translation>
     </message>
 </context>
 <context>
@@ -1720,12 +1721,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../errordialog.cpp" line="55"/>
         <source>Hide log</source>
-        <translation>Сховати звіт</translation>
+        <translation>Сховати журнал</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="87"/>
         <source>Show log</source>
-        <translation>Показати звіт</translation>
+        <translation>Показати журнал</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="13"/>
@@ -1874,27 +1875,27 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../filters.cpp" line="31"/>
         <source>add noise</source>
-        <translation type="unfinished"></translation>
+        <translation>додати шум</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="32"/>
         <source>deblock</source>
-        <translation type="unfinished"></translation>
+        <translation>гаусове розмиття (Deblock)</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="33"/>
         <source>normal denoise</source>
-        <translation type="unfinished"></translation>
+        <translation>звичайне усунення шуму</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="34"/>
         <source>soft denoise</source>
-        <translation type="unfinished"></translation>
+        <translation>легке усунення шуму</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="37"/>
         <source>volume normalization</source>
-        <translation type="unfinished"></translation>
+        <translation>нормалізація гучності</translation>
     </message>
 </context>
 <context>
@@ -3352,7 +3353,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Маршульська</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Букмол</translation>
@@ -3462,7 +3463,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Венда</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Волапюк</translation>
@@ -3500,12 +3501,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../logwindow.cpp" line="126"/>
         <source>The log couldn&apos;t be saved</source>
-        <translation>Неможливо зберегти звіт</translation>
+        <translation>Неможливо зберегти журнал</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="100"/>
         <source>Logs</source>
-        <translation>Звіти</translation>
+        <translation>Журнали</translation>
     </message>
 </context>
 <context>
@@ -3513,7 +3514,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../logwindowbase.ui" line="14"/>
         <source>Log Window</source>
-        <translation>Вікно звіту</translation>
+        <translation>Вікно журналу</translation>
     </message>
     <message>
         <location filename="../logwindowbase.ui" line="60"/>
@@ -3820,12 +3821,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="429"/>
         <source>Log MPlayer output</source>
-        <translation>Вихідний звіт MPlayer</translation>
+        <translation>Вихідний журнал MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="422"/>
         <source>Log SMPlayer output</source>
-        <translation>Вихідний звіт SMPlayer</translation>
+        <translation>Вихідний журнал SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="652"/>
@@ -3840,7 +3841,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="445"/>
         <source>Filter for SMPlayer logs</source>
-        <translation>Фильтр для звітів SMPlayer</translation>
+        <translation>Фильтр для журналів SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="65"/>
@@ -3875,12 +3876,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="605"/>
         <source>Log &amp;SMPlayer output</source>
-        <translation>Вести звіт виведення &amp;SMPlayer</translation>
+        <translation>Вести журнал виведення &amp;SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="662"/>
         <source>&amp;Filter for SMPlayer logs:</source>
-        <translation>&amp;Фільтр для звітів SMPlayer:</translation>
+        <translation>&amp;Фільтр для журналів SMPlayer:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="262"/>
@@ -3890,12 +3891,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="420"/>
         <source>Logs</source>
-        <translation>Звіти</translation>
+        <translation>Журнали</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="612"/>
         <source>Log MPlayer &amp;output</source>
-        <translation>Вести звіт &amp;вивидення MPlayer</translation>
+        <translation>Вести журнал &amp;вивидення MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="304"/>
@@ -3905,27 +3906,27 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="435"/>
         <source>Autosave MPlayer log</source>
-        <translation>Автозбереження звіту MPlayer</translation>
+        <translation>Автоматичне збереження журналу MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="439"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation>Якщо увімкнено, звіт MPlayer буде збережено у вказаний файл кожного разу при початку відтворення нового файлу. Це призначається для зовнішніх програм, які таким чином можуть отримати інформацію про файл, що відтворюється.</translation>
+        <translation>Якщо увімкнено, журнал MPlayer буде збережений у вказаний файл кожного разу при початку відтворення нового файлу. Це призначене для зовнішніх програм, які таким чином можуть отримати інформацію про файл, що відтворюється.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="441"/>
         <source>Autosave MPlayer log filename</source>
-        <translation>Назва файлу для автозбереження звіту MPlayer</translation>
+        <translation>Назва файлу для автоматичного збереження журналу MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="443"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
-        <translation>Введіть шлях та назву файлу, в який буде збережено звіт MPlayer.</translation>
+        <translation>Введіть шлях та назву файлу, в який буде збережено журнал MPlayer.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="619"/>
         <source>A&amp;utosave MPlayer log to file</source>
-        <translation>А&amp;втозбереження звіту MPlayer в файл</translation>
+        <translation>А&amp;втоматичне збереження журналу MPlayer в файл</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="365"/>
@@ -4065,22 +4066,22 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="584"/>
         <source>Lo&amp;gs</source>
-        <translation>&amp;Звіти</translation>
+        <translation>&amp;Журнали</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="427"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation>Якщо увімкнено, SMPlayer зберігатиме повідомлення налагодження (ви можете переглянути звіт в &lt;b&gt;Налаштування -&gt; Дивитись звіти -&gt; SMPlayer&lt;/b&gt;). Ця інформація може бути корисною для розробників у випадку, коли ви знайдете помилку.</translation>
+        <translation>Якщо увімкнено, SMPlayer зберігатиме повідомлення зневадження (ви можете переглянути журнал в &lt;b&gt;Налаштування -&gt; Дивитись журнали -&gt; SMPlayer&lt;/b&gt;). Ця інформація може бути корисною для розробників у випадку, коли ви знайдете помилку.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="433"/>
         <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation>Якщо увімкнено, SMPlayer буде зберігати повідомлення MPlayer (їх можна побачити у &lt;b&gt;Налаштування-&gt;Дивитись звіти-&gt;mplayer&lt;/b&gt;). У випадку проблем ці звіти можут містити важливу інформацію, так що радимо увімкнути.</translation>
+        <translation>Якщо увімкнено, SMPlayer буде зберігати повідомлення MPlayer (їх можна побачити у &lt;b&gt;Налаштування-&gt;Дивитись журнали-&gt;mplayer&lt;/b&gt;). У випадку проблем ці журнали можут містити важливу інформацію, так що радимо увімкнути.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="449"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
-        <translation>Ця опція дозволяє фільтрувати повідомлення SMPlayer, які будуть збережені у звіті. Тут Ви можете написати будь-який регулярний вираз.&lt;br&gt;Наприклад: &lt;i&gt;^Core::.*&lt;/i&gt; відобразить лише рядки, що починаються з &lt;i&gt;Core::&lt;/i&gt;</translation>
+        <translation>Ця опція дозволяє фільтрувати повідомлення SMPlayer, які будуть збережені у журналі. Тут Ви можете написати будь-який регулярний вираз.&lt;br&gt;Наприклад: &lt;i&gt;^Core::.*&lt;/i&gt; відобразить лише рядки, що починаються з &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="354"/>
@@ -4950,12 +4951,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="106"/>
         <source>one ini file</source>
-        <translation>один файл ini</translation>
+        <translation>одному файлі ini</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="107"/>
         <source>multiple ini files</source>
-        <translation>багато файлів ini</translation>
+        <translation>багатьох файлах ini</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="731"/>
@@ -4980,7 +4981,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="113"/>
         <source>&amp;Store settings in</source>
-        <translation>&amp;Зберігати налаштування у</translation>
+        <translation>&amp;Зберігати налаштування в</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="737"/>
@@ -5040,57 +5041,58 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="890"/>
         <source>Global volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Загальна гучність</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="893"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо ця опція увімкнена, один і той же рівень гучності буде використаний для відтворення всіх файлів. Якщо вимкнена, кожен файл буде мати свою гучність.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="894"/>
         <source>This option also applies for the mute control.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ця опція також застосовується для керування вимкненням звуку.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="811"/>
         <source>Glo&amp;bal volume</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Загальна гучність</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="821"/>
         <source>Switch screensaver off</source>
-        <translation type="unfinished"></translation>
+        <translation>Вимкнути зберігач екрану</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="825"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ця опція вимикає зберігач екрану тільки перед програванням файлу та вмикає його, коли програвання буде завершене. Якщо ця опція увімкнена, зберігач екрану не з&apos;являтиметься навіть коли програються аудіофайли або програвання призупинене.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="827"/>
         <source>Avoid screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>Уникати запуск зберігача екрану</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="832"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо ця опція увімкнена, SMPlayer намагатиметься попередити показ зберігача екрану під час відтворення відеофайлу. Показ зберігача екрану буде дозволений, якщо відтворюється аудіофайл або відтворення призупинене. Ця опція працює тільки якщо вікно SMPlayer розрорнуте.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="517"/>
         <source>Screensaver</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Зберігач екрану</translatorcomment>
+        <translation></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="523"/>
         <source>Swit&amp;ch screensaver off</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Вимкнути зберігач екрану</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="530"/>
         <source>Avoid &amp;screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Уникати запуск зберігача екрану</translation>
     </message>
 </context>
 <context>
@@ -6234,17 +6236,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="264"/>
         <source>Use CoreAVC if no other codec specified</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовувати CoreAVC, якщо не визначено жодного іншого кодека</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="265"/>
         <source>Try to use non-free CoreAVC codec with no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Спробувати використати невільний кодек CoreAVC, коли не визначено жодного іншого та вибраний відеовихід non-VDPAU. Потребує, щоб MPlayer був зібраний з підтримкою CoreAVC.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="292"/>
         <source>&amp;Use CoreAVC if no other codec specified</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Використовувати CoreAVC, якщо не визначено жодного іншого</translation>
     </message>
 </context>
 <context>
