@@ -36,7 +36,7 @@
 ;Defines & includes
 
 !define PRODUCT_NAME "SMPlayer"
-!define PRODUCT_VERSION "0.6.7"
+!define PRODUCT_VERSION "0.6.8"
 !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\SMPlayer"
 !define PRODUCT_STARTMENU_GROUP "SMPlayer"
 !define MEMENTO_REGISTRY_ROOT HKLM
@@ -528,6 +528,9 @@ ${MementoSectionDone}
 
 Function .onInit
 
+  /******************************************/
+  /*** Check if setup is already running ****/
+  /******************************************/
   System::Call 'kernel32::CreateMutexA(i 0, i 0, t "MPlayerSMPlayer") i .r1 ?e'
   Pop $R0
 
@@ -535,6 +538,9 @@ Function .onInit
     MessageBox MB_OK|MB_ICONEXCLAMATION "The installer is already running."
     Abort
 
+  /******************************************/
+  /************ Privileges Check ************/
+  /******************************************/
   Call getUserInfo
 
   # Check for admin (mimic old Inno Setup behavior... non-admin installation maybe later..)
@@ -542,6 +548,19 @@ Function .onInit
     MessageBox MB_OK|MB_ICONSTOP "You must be logged in as an administrator when installing this program."
     Abort
   ${EndIf}
+
+  /******************************************/
+  /******** Uninstall previous version ******/
+  /******************************************/
+  ReadRegStr $R0 HKLM "${PRODUCT_UNINST_KEY}" "UninstallString"
+  StrCmp $R0 "" nouninst
+
+  MessageBox MB_YESNO|MB_ICONEXCLAMATION \
+  "SMPlayer has already been installed.$\nDo you want to remove the previous version before installing SMPlayer ${PRODUCT_VERSION}?" IDNO nouninst
+
+  ClearErrors
+  ExecWait '$R0 _?=$INSTDIR' ;Do not copy the uninstaller to a temp file
+  nouninst:
 
   !insertmacro MUI_LANGDLL_DISPLAY
 
