@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="zh">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1874,7 +1875,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../filters.cpp" line="31"/>
         <source>add noise</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">升噪</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="32"/>
@@ -1884,17 +1885,17 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../filters.cpp" line="33"/>
         <source>normal denoise</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">降噪(正常)</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="34"/>
         <source>soft denoise</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">降噪(软件)</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="37"/>
         <source>volume normalization</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">规范化声音</translation>
     </message>
 </context>
 <context>
@@ -5037,57 +5038,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="890"/>
         <source>Global volume</source>
-        <translation type="unfinished"></translation>
+        <translation>全局音量</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="893"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果被勾选，所有的文件将用相同的音量播放。否则，每个文件使用独立的设置。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="894"/>
         <source>This option also applies for the mute control.</source>
-        <translation type="unfinished"></translation>
+        <translation>这个选项对静音操作也有效。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="811"/>
         <source>Glo&amp;bal volume</source>
-        <translation type="unfinished"></translation>
+        <translation>全局音量(&amp;B)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="821"/>
         <source>Switch screensaver off</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">关闭屏保(强)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="825"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
-        <translation type="unfinished"></translation>
+        <translation>这个选项将在播放开始前关闭屏保，并在播放结束后重新启用。在此选项启用时，播放音频文件或暂停时屏保都不会出现。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="827"/>
         <source>Avoid screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">关闭屏保(弱)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="832"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
-        <translation type="unfinished"></translation>
+        <translation>在此选项启用时，SMPlayer 将防止屏保在播放视频文件时出现。但屏保允许在播放音频文件或暂停时出现。此选项只在 SMPlayer 的窗口在最前方时有效。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="517"/>
         <source>Screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>屏保</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="523"/>
         <source>Swit&amp;ch screensaver off</source>
-        <translation type="unfinished"></translation>
+        <translation>关闭屏保(强)(&amp;C)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="530"/>
         <source>Avoid &amp;screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>关闭屏保(弱)(&amp;S)</translation>
     </message>
 </context>
 <context>
@@ -6231,17 +6232,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="264"/>
         <source>Use CoreAVC if no other codec specified</source>
-        <translation type="unfinished"></translation>
+        <translation>在没有指定解码器时使用 CoreAVC</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="265"/>
         <source>Try to use non-free CoreAVC codec with no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
+        <translation>在没有指定别的解码器和 non-VDPAU 视频输出时，尝试使用非自由的 CoreAVC 解码器。需要带 CoreAVC 支持的 MPlayer 。</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="292"/>
         <source>&amp;Use CoreAVC if no other codec specified</source>
-        <translation type="unfinished"></translation>
+        <translation>在没有指定解码器时使用 CoreAVC (&amp;U)</translation>
     </message>
 </context>
 <context>
