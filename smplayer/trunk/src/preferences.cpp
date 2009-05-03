@@ -147,6 +147,7 @@ void Preferences::reset() {
 	autosync = false;
 	autosync_factor = 100;
 
+	coreavc = false;
 	h264_skip_loop_filter = LoopEnabled;
 	HD_height = 720;
 
@@ -520,6 +521,7 @@ void Preferences::save() {
 	set->setValue("autosync", autosync);
 	set->setValue("autosync_factor", autosync_factor);
 
+	set->setValue("coreavc", coreavc);
 	set->setValue("h264_skip_loop_filter", h264_skip_loop_filter);
 	set->setValue("HD_height", HD_height);
 
@@ -903,6 +905,7 @@ void Preferences::load() {
 	autosync = set->value("autosync", autosync).toBool();
 	autosync_factor = set->value("autosync_factor", autosync_factor).toInt();
 
+	coreavc = set->value("coreavc", coreavc).toBool();
 	h264_skip_loop_filter = (H264LoopFilter) set->value("h264_skip_loop_filter", h264_skip_loop_filter).toInt();
 	HD_height = set->value("HD_height", HD_height).toInt();
 
