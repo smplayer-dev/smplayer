@@ -200,8 +200,9 @@
 ;Installer Types
 ;First in list is #1, second in list in #2, etc
 
-  InstType "Standard installation"
-  InstType "Full installation"
+  InstType "Recommended"
+  InstType "Minimum"
+  InstType "Full"
 
 ;------------------------------------------------------------------------------------------------
 ;Installer Sections
@@ -210,7 +211,7 @@
 ; Main SMPlayer files
 Section SMPlayer SMPlayer
 
-  SectionIn 1 2 RO
+  SectionIn 1 2 3 RO
   SetOutPath "$INSTDIR"
   File "smplayer-build\*"
   File /r "smplayer-build\docs"
@@ -304,21 +305,9 @@ Section SMPlayer SMPlayer
 SectionEnd
 
 ;--------------------------------
-; Desktop shortcut
-${MementoSection} "Create Desktop shortcut" DesktopIcon
-  SectionIn 1 2
-
-  SetOutPath "$INSTDIR"
-  # all = global; current = current user
-  SetShellVarContext all
-  CreateShortCut "$DESKTOP\SMPlayer.lnk" "$INSTDIR\smplayer.exe"
-
-${MementoSectionEnd}
-
-;--------------------------------
 ; Start menu shortcuts
-${MementoSection} "Create Start Menu shortcuts" StartMenuIcon
-  SectionIn 1 2
+${MementoSection} "Start Menu Shortcut" StartMenuIcon
+  SectionIn 1 3
 
   SetOutPath "$INSTDIR"
   # Start menu shortcut creation
@@ -331,6 +320,18 @@ ${MementoSection} "Create Start Menu shortcuts" StartMenuIcon
 ${MementoSectionEnd}
 
 ;--------------------------------
+; Desktop shortcut
+${MementoSection} "Desktop Shortcut" DesktopIcon
+  SectionIn 1 3
+
+  SetOutPath "$INSTDIR"
+  # all = global; current = current user
+  SetShellVarContext all
+  CreateShortCut "$DESKTOP\SMPlayer.lnk" "$INSTDIR\smplayer.exe"
+
+${MementoSectionEnd}
+
+;--------------------------------
 ; MPlayer Components
 SectionGroup /e "MPlayer Components"
 
@@ -338,7 +339,7 @@ SectionGroup /e "MPlayer Components"
 ; MPlayer
 !ifdef WITH_MPLAYER
   Section MPlayer MPlayer
-    SectionIn 1 2 RO
+    SectionIn 1 2 3 RO
 
     SetOutPath "$INSTDIR"
     File /r "smplayer-build\mplayer"
@@ -348,14 +349,14 @@ SectionGroup /e "MPlayer Components"
   SectionEnd
 !else
   Section MPlayer MPlayer
-    SectionIn 1 2 RO
+    SectionIn 1 2 3 RO
     AddSize 15300
 
     ReadRegDWORD $0 HKLM Software\SMPlayer Installed_MPlayer
 
     IntCmp $0 1 mplayerInstalled mplayerNotInstalled
       mplayerInstalled:
-        MessageBox MB_YESNO "$(MPLAYER_IS_INSTALLED)" /SD IDNO IDYES mplayerNotInstalled IDNO done
+        MessageBox MB_YESNO $(MPLAYER_IS_INSTALLED) /SD IDNO IDYES mplayerNotInstalled IDNO done
       mplayerNotInstalled:
         ${IfNot} ${FileExists} "$PLUGINSDIR\version-info"
           Call getVerInfo
@@ -366,7 +367,7 @@ SectionGroup /e "MPlayer Components"
           ReadINIStr $MPLAYER_VERSION "$PLUGINSDIR\version-info" smplayer mplayer
 
           IfErrors 0 done_ver_info
-            DetailPrint "$(VERINFO_IS_MISSING)"
+            DetailPrint $(VERINFO_IS_MISSING)
             # Default Value if version-info exists but version string is missing from version-info
             StrCpy $MPLAYER_VERSION ${DEFAULT_MPLAYER_VERSION}
             Goto done_ver_info
@@ -377,13 +378,10 @@ SectionGroup /e "MPlayer Components"
 
     done_ver_info:
 
-      DetailPrint "$(MPLAYER_IS_DOWNLOADING)"
-      inetc::get /timeout 30000 /resume "" /caption "$(MPLAYER_IS_DOWNLOADING)" /banner "Downloading $MPLAYER_VERSION.7z" \
+      DetailPrint $(MPLAYER_IS_DOWNLOADING)
+      inetc::get /timeout 30000 /resume "" /caption $(MPLAYER_IS_DOWNLOADING) /banner "Downloading $MPLAYER_VERSION.7z" \
       "http://downloads.sourceforge.net/smplayer/$MPLAYER_VERSION.7z?big_mirror=0" \
       "$PLUGINSDIR\$MPLAYER_VERSION.7z"
-      /* inetc::get /timeout 30000 /resume "" /caption "Downloading MPlayer..." /banner "Downloading $MPLAYER_VERSION.7z" \
-      "ftp://ftp.berlios.de/pub/smplayer/test/$MPLAYER_VERSION.7z" \
-      "$PLUGINSDIR\$MPLAYER_VERSION.7z" */
       # Result of download; for inetc should equal "OK" if successful
       Pop $R0
       StrCmp $R0 OK 0 check_mplayer
@@ -406,7 +404,7 @@ SectionGroup /e "MPlayer Components"
           WriteRegDWORD HKLM Software\SMPlayer Installed_MPlayer 0x1
           Goto done
         mplayerInstFailed:
-          Abort "$(MPLAYER_INST_FAILED)"
+          Abort $(MPLAYER_INST_FAILED)
 
     done:
 
@@ -416,14 +414,14 @@ SectionGroup /e "MPlayer Components"
 ;--------------------------------
 ; Binary codecs
   Section /o "Optional Codecs" Codecs
-    SectionIn 2
+    SectionIn 3
     AddSize 22300
 
     ReadRegDWORD $1 HKLM Software\SMPlayer Installed_Codecs
 
     IntCmp $1 1 mplayerCodecsInstalled mplayerCodecsNotInstalled
       mplayerCodecsInstalled:
-        MessageBox MB_YESNO "$(CODECS_IS_INSTALLED)" /SD IDNO IDYES mplayerCodecsNotInstalled IDNO done
+        MessageBox MB_YESNO $(CODECS_IS_INSTALLED) /SD IDNO IDYES mplayerCodecsNotInstalled IDNO done
       mplayerCodecsNotInstalled:
         ${IfNot} ${FileExists} "$PLUGINSDIR\version-info"
           Call getVerInfo
@@ -434,7 +432,7 @@ SectionGroup /e "MPlayer Components"
           ReadINIStr $CODEC_VERSION "$PLUGINSDIR\version-info" smplayer mplayercodecs
 
           IfErrors 0 done_ver_info
-            DetailPrint "$(VERINFO_IS_MISSING)"
+            DetailPrint $(VERINFO_IS_MISSING)
             # Default Value if version-info exists but version string is missing from version-info
             StrCpy $CODEC_VERSION ${DEFAULT_CODECS_VERSION}
             Goto done_ver_info
@@ -445,13 +443,10 @@ SectionGroup /e "MPlayer Components"
 
     done_ver_info:
 
-      DetailPrint "$(CODECS_IS_DOWNLOADING)"
-      inetc::get /timeout 30000 /resume "" /caption "$(CODECS_IS_DOWNLOADING)" /banner "Downloading $CODEC_VERSION.zip" \
+      DetailPrint $(CODECS_IS_DOWNLOADING)
+      inetc::get /timeout 30000 /resume "" /caption $(CODECS_IS_DOWNLOADING) /banner "Downloading $CODEC_VERSION.zip" \
       "http://www.mplayerhq.hu/MPlayer/releases/codecs/$CODEC_VERSION.zip" \
       "$PLUGINSDIR\$CODEC_VERSION.zip"
-      /* inetc::get /timeout 30000 /resume "" /caption "Downloading MPlayer codecs..." /banner "Downloading $CODEC_VERSION.zip" \
-      "ftp://ftp.berlios.de/pub/smplayer/test/$CODEC_VERSION.zip" \
-      "$PLUGINSDIR\$CODEC_VERSION.zip" */
       # Result of download; for inetc should equal "OK" if successful
       Pop $R0
       StrCmp $R0 OK 0 check_codecs
@@ -474,7 +469,7 @@ SectionGroup /e "MPlayer Components"
           WriteRegDWORD HKLM Software\SMPlayer Installed_Codecs 0x1
           Goto done
         codecsInstFailed:
-          DetailPrint "$(CODECS_INST_FAILED)"
+          DetailPrint $(CODECS_INST_FAILED)
           WriteRegDWORD HKLM Software\SMPlayer Installed_Codecs 0x0
           # Pause for 5 seconds to see the error message
           Sleep 5000
@@ -489,7 +484,7 @@ SectionGroupEnd
 ; Icon Themes
 ${MementoSection} "Icon Themes" Themes
 
-  SectionIn 1 2
+  SectionIn 1 3
   SetOutPath "$INSTDIR"
   File /r "smplayer-build\themes"
 
@@ -499,7 +494,7 @@ ${MementoSectionEnd}
 ; Translations
 ${MementoSection} Translations Translations
 
-  SectionIn 1 2
+  SectionIn 1 3
   SetOutPath "$INSTDIR"
   File /r "smplayer-build\translations"
 
@@ -556,7 +551,7 @@ Function .onInit
   StrCmp $R0 "" nouninst
 
   MessageBox MB_YESNO|MB_ICONEXCLAMATION \
-  "SMPlayer has already been installed.$\nDo you want to remove the previous version before installing SMPlayer ${PRODUCT_VERSION}?" IDNO nouninst
+  "SMPlayer has already been installed.$\nDo you want to remove the previous version before installing $(^Name)?" IDNO nouninst
 
   ClearErrors
   ExecWait '$R0 _?=$INSTDIR' ;Do not copy the uninstaller to a temp file
@@ -619,7 +614,7 @@ Function .onSelChange
     StrCpy $R1 $R0
     IntOp $R0 $R0 & ${SF_SELECTED}
   ${If} $R0 == ${SF_SELECTED}
-    MessageBox MB_OK "$(MPLAYER_CODEC_INFORMATION)"
+    MessageBox MB_OK $(MPLAYER_CODEC_INFORMATION)
   ${EndIf}
   ${EndIf}
 
@@ -651,7 +646,7 @@ FunctionEnd
 
 Function getVerInfo
 
-  DetailPrint "$(VERINFO_IS_DOWNLOADING)"
+  DetailPrint $(VERINFO_IS_DOWNLOADING)
   inetc::get /timeout 30000 /resume "" /silent "http://smplayer.sourceforge.net/mplayer-version-info" \
   "$PLUGINSDIR\version-info"
   Pop $R0
