@@ -1283,6 +1283,10 @@ void Core::startMplayer( QString file, double seek ) {
 
 	proc->addArgument("-noquiet");
 
+	if (pref->verbose_log) {
+		proc->addArgument("-v");
+	}
+
 	if (pref->fullscreen && pref->use_mplayer_window) {
 		proc->addArgument("-fs");
 	} else {

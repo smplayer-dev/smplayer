@@ -99,6 +99,9 @@ protected:
 	void setLogMplayer(bool b);
 	bool logMplayer();
 
+	void setMplayerLogVerbose(bool b);
+	bool mplayerLogVerbose();
+
 	void setLogSmplayer(bool b);
 	bool logSmplayer();
 

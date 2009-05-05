@@ -1,5 +1,9 @@
 [b]Version 0.6.8[/b]:
 
+(2009-05-04)
+ * Added an option in Preferences -> Advanced -> Logs to make the mplayer logs
+   more verbose (passes -v to mplayer).
+
 (2009-05-01)
  * Applied patch coreavc.patch by Shurygin Egor.
    It adds a checkbox in performance settings to switch coreavc usage.

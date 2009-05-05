@@ -93,6 +93,7 @@ void PrefAdvanced::setData(Preferences * pref) {
 	setActionsToRun( pref->actions_to_run );
 
 	setLogMplayer( pref->log_mplayer );
+	setMplayerLogVerbose( pref->verbose_log );
 	setLogSmplayer( pref->log_smplayer );
 	setLogFilter( pref->log_filter );
 
@@ -143,6 +144,7 @@ void PrefAdvanced::getData(Preferences * pref) {
 	}
 #endif
 	pref->log_mplayer = logMplayer();
+	TEST_AND_SET( pref->verbose_log, mplayerLogVerbose() );
 	pref->log_smplayer = logSmplayer();
 	pref->log_filter = logFilter();
     pref->autosave_mplayer_log = saveMplayerLog();
@@ -292,6 +294,14 @@ void PrefAdvanced::setLogMplayer(bool b) {
 
 bool PrefAdvanced::logMplayer() {
 	return log_mplayer_check->isChecked();
+}
+
+void PrefAdvanced::setMplayerLogVerbose(bool b) {
+	verbose_check->setChecked(b);
+}
+
+bool PrefAdvanced::mplayerLogVerbose() {
+	return verbose_check->isChecked();
 }
 
 void PrefAdvanced::setLogSmplayer(bool b) {
