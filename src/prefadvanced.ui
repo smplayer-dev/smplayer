@@ -584,21 +584,6 @@ Example: resample=44100:0:0,volnorm</string>
        <string>Lo&amp;gs</string>
       </attribute>
       <layout class="QVBoxLayout" >
-       <property name="spacing" >
-        <number>6</number>
-       </property>
-       <property name="leftMargin" >
-        <number>9</number>
-       </property>
-       <property name="topMargin" >
-        <number>9</number>
-       </property>
-       <property name="rightMargin" >
-        <number>9</number>
-       </property>
-       <property name="bottomMargin" >
-        <number>9</number>
-       </property>
        <item>
         <widget class="QCheckBox" name="log_smplayer_check" >
          <property name="text" >
@@ -614,17 +599,61 @@ Example: resample=44100:0:0,volnorm</string>
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="log_mplayer_save_check" >
-         <property name="text" >
-          <string>A&amp;utosave MPlayer log to file</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLineEdit" name="log_mplayer_save_name" >
+        <widget class="QWidget" native="1" name="mplayer_log_container" >
          <property name="enabled" >
           <bool>false</bool>
          </property>
+         <layout class="QGridLayout" >
+          <property name="leftMargin" >
+           <number>0</number>
+          </property>
+          <property name="topMargin" >
+           <number>0</number>
+          </property>
+          <property name="rightMargin" >
+           <number>0</number>
+          </property>
+          <property name="bottomMargin" >
+           <number>0</number>
+          </property>
+          <item rowspan="3" row="0" column="0" >
+           <spacer>
+            <property name="orientation" >
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeType" >
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" >
+             <size>
+              <width>21</width>
+              <height>61</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="1" >
+           <widget class="QCheckBox" name="verbose_check" >
+            <property name="text" >
+             <string>&amp;Verbose</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1" >
+           <widget class="QCheckBox" name="log_mplayer_save_check" >
+            <property name="text" >
+             <string>A&amp;utosave MPlayer log to file</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1" >
+           <widget class="QLineEdit" name="log_mplayer_save_name" >
+            <property name="enabled" >
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
         </widget>
        </item>
        <item>
@@ -721,6 +750,7 @@ Example: resample=44100:0:0,volnorm</string>
   <tabstop>ipv6_button</tabstop>
   <tabstop>log_smplayer_check</tabstop>
   <tabstop>log_mplayer_check</tabstop>
+  <tabstop>verbose_check</tabstop>
   <tabstop>log_mplayer_save_check</tabstop>
   <tabstop>log_mplayer_save_name</tabstop>
   <tabstop>log_filter_edit</tabstop>
@@ -738,8 +768,24 @@ Example: resample=44100:0:0,volnorm</string>
      <y>180</y>
     </hint>
     <hint type="destinationlabel" >
-     <x>249</x>
-     <y>212</y>
+     <x>279</x>
+     <y>174</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>log_mplayer_check</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>mplayer_log_container</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>255</x>
+     <y>73</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>255</x>
+     <y>143</y>
     </hint>
    </hints>
   </connection>

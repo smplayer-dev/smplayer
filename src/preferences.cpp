@@ -226,6 +226,7 @@ void Preferences::reset() {
 	log_mplayer = true;
 	log_smplayer = true;
 	log_filter = ".*";
+	verbose_log = false;
 
     //mplayer log autosaving
     autosave_mplayer_log = false;
@@ -605,6 +606,7 @@ void Preferences::save() {
 	set->setValue("log_mplayer", log_mplayer);
 	set->setValue("log_smplayer", log_smplayer);
 	set->setValue("log_filter", log_filter);
+	set->setValue("verbose_log", verbose_log);
 
     //mplayer log autosaving
     set->setValue("autosave_mplayer_log", autosave_mplayer_log);
@@ -995,6 +997,7 @@ void Preferences::load() {
 	log_mplayer = set->value("log_mplayer", log_mplayer).toBool();
 	log_smplayer = set->value("log_smplayer", log_smplayer).toBool();
 	log_filter = set->value("log_filter", log_filter).toString();
+	verbose_log = set->value("verbose_log", verbose_log).toBool();
 
     //mplayer log autosaving
     autosave_mplayer_log = set->value("autosave_mplayer_log", autosave_mplayer_log).toBool();
