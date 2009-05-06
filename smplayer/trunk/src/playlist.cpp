@@ -80,6 +80,8 @@ Playlist::Playlist( Core *c, QWidget * parent, Qt::WindowFlags f)
 #endif
 	play_files_from_start = true;
 
+	row_spacing = -1; // Default height
+
 	modified = false;
 
 	core = c;
@@ -361,6 +363,8 @@ void Playlist::updateView() {
 		} else {
 			listView->setIcon(n, COL_PLAY, QPixmap() );
 		}
+
+		if (row_spacing > -1) listView->setRowHeight(n, listView->font().pointSize() + row_spacing);
 	}
 	//listView->resizeColumnsToContents();
 	listView->resizeColumnToContents(COL_PLAY);
@@ -1248,6 +1252,8 @@ void Playlist::saveSettings() {
 	set->setValue( "save_playlist_in_config", save_playlist_in_config );
 	set->setValue( "play_files_from_start", play_files_from_start );
 
+	set->setValue( "row_spacing", row_spacing );
+
 #if !DOCK_PLAYLIST
 	set->setValue( "size", size() );
 #endif
@@ -1286,6 +1292,8 @@ void Playlist::loadSettings() {
 	recursive_add_directory = set->value( "recursive_add_directory", recursive_add_directory ).toBool();
 	save_playlist_in_config = set->value( "save_playlist_in_config", save_playlist_in_config ).toBool();
 	play_files_from_start = set->value( "play_files_from_start", play_files_from_start ).toBool();
+
+	row_spacing = set->value( "row_spacing", row_spacing ).toInt();
 
 #if !DOCK_PLAYLIST
 	resize( set->value("size", size()).toSize() );

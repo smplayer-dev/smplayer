@@ -217,6 +217,7 @@ private:
 	bool automatically_get_info;
 	bool save_playlist_in_config;
 	bool play_files_from_start; 
+	int row_spacing;
 };
 
 
