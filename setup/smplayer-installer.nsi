@@ -58,6 +58,7 @@
 
   ;General
   Name "${PRODUCT_NAME} ${PRODUCT_VERSION}"
+  BrandingText "SMPlayer for Windows v${PRODUCT_VERSION}"
 !ifdef WITH_MPLAYER
   OutFile "smplayer_${PRODUCT_VERSION}_setup.exe"
 !else
@@ -523,9 +524,7 @@ ${MementoSectionDone}
 
 Function .onInit
 
-  /******************************************/
-  /*** Check if setup is already running ****/
-  /******************************************/
+  /* Check if setup is already running */
   System::Call 'kernel32::CreateMutexA(i 0, i 0, t "MPlayerSMPlayer") i .r1 ?e'
   Pop $R0
 
@@ -533,9 +532,14 @@ Function .onInit
     MessageBox MB_OK|MB_ICONEXCLAMATION "The installer is already running."
     Abort
 
-  /******************************************/
-  /************ Privileges Check ************/
-  /******************************************/
+  /* Check unsupported Windows OSes */
+  ${Unless} ${AtLeastWin2000}
+    MessageBox MB_YESNO|MB_ICONSTOP "Unsupported operating system.$\n$(^Name) requires at least Windows 2000 and may not work correctly on your system.$\nDo you really want to continue with the installation?" /SD IDNO IDYES installonoldwindows
+    Abort
+    installonoldwindows:
+  ${EndUnless}
+
+  /* Privileges Check */
   Call getUserInfo
 
   # Check for admin (mimic old Inno Setup behavior... non-admin installation maybe later..)
@@ -544,9 +548,7 @@ Function .onInit
     Abort
   ${EndIf}
 
-  /******************************************/
-  /******** Uninstall previous version ******/
-  /******************************************/
+  /* Uninstall previous version */
   ReadRegStr $R0 HKLM "${PRODUCT_UNINST_KEY}" "UninstallString"
   StrCmp $R0 "" nouninst
 
