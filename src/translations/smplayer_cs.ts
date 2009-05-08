@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="cs">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -5060,37 +5061,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="821"/>
         <source>Switch screensaver off</source>
-        <translation type="unfinished"></translation>
+        <translation>Vypnout spořič obrazovky</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="825"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
-        <translation type="unfinished"></translation>
+        <translation>Toto nastavení vypne spořič obrazovky před spuštěním přehrávání a po jeho dokončení spořič opět zapne. Takto nebude spořič spuštěn ani při přehrávání audio souborů nebo při pozastaveném přehrávání.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="827"/>
         <source>Avoid screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>Přerušit spořič obrazovky</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="832"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
-        <translation type="unfinished"></translation>
+        <translation>Toto nastavení zabrání spuštění spořiče obrazovky při přehrávání video souborů. Při přehrávání audio souborů nebo při pozastaveném přehrávání může být spořič spuštěn. Nastavení je funkční pouze v případě, že je okno SMPlayeru v popředí.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="517"/>
         <source>Screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>Spořič obrazovky</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="523"/>
         <source>Swit&amp;ch screensaver off</source>
-        <translation type="unfinished"></translation>
+        <translation>V&amp;ypnout spořič obrazovky</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="530"/>
         <source>Avoid &amp;screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>Př&amp;erušit spořič obrazovky</translation>
     </message>
 </context>
 <context>
@@ -6229,17 +6230,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="264"/>
         <source>Use CoreAVC if no other codec specified</source>
-        <translation type="unfinished"></translation>
+        <translation>Použít CoreAVC, není-li zvolen jiný kodek</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="265"/>
         <source>Try to use non-free CoreAVC codec with no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Použije proprietární kodek CoreAVC, není-li zvolen jiný kodek a je zapnutý jiný video výstup než VDPAU. Vyžaduje Mplayer s podporou CoreAVC.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="292"/>
         <source>&amp;Use CoreAVC if no other codec specified</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Použít CoreAVC, není-li zvolen jiný kodek</translation>
     </message>
 </context>
 <context>
