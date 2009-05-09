@@ -23,39 +23,52 @@
 WinScreenSaver::WinScreenSaver() {
 	lowpower = poweroff = screensaver = 0;
 	state_saved = false;
+	
+	retrieveState();
 }
 
 WinScreenSaver::~WinScreenSaver() {
+	restoreState();
 }
 
-void WinScreenSaver::disable() {
-	qDebug("WinScreenSaver::disable");
-
+void WinScreenSaver::retrieveState() {
+	qDebug("WinScreenSaver::retrieveState");
+	
 	if (!state_saved) {
 		SystemParametersInfo(SPI_GETLOWPOWERTIMEOUT, 0, &lowpower, 0);
 		SystemParametersInfo(SPI_GETPOWEROFFTIMEOUT, 0, &poweroff, 0);
 		SystemParametersInfo(SPI_GETSCREENSAVETIMEOUT, 0, &screensaver, 0);
 		state_saved = true;
+		
+		qDebug("WinScreenSaver::retrieveState: lowpower: %d, poweroff: %d, screensaver: %d", lowpower, poweroff, screensaver);
+	} else {
+		qDebug("WinScreenSaver::retrieveState: state already saved previously, doing nothing");
 	}
-
-	qDebug("WinScreenSaver::disable: lowpower: %d", lowpower);
-	qDebug("WinScreenSaver::disable: poweroff: %d", poweroff);
-	qDebug("WinScreenSaver::disable: screensaver: %d", screensaver);
-
-	if (lowpower != 0) SystemParametersInfo(SPI_SETLOWPOWERTIMEOUT, 0, NULL, 0);
-	if (poweroff != 0) SystemParametersInfo(SPI_SETPOWEROFFTIMEOUT, 0, NULL, 0);
-	if (screensaver != 0) SystemParametersInfo(SPI_SETSCREENSAVETIMEOUT, 0, NULL, 0);
 }
 
-void WinScreenSaver::restore() {
-	qDebug("WinScreenSaver::restore");
-
+void WinScreenSaver::restoreState() {
 	if (state_saved) {
-		if (lowpower != 0) SystemParametersInfo(SPI_SETLOWPOWERTIMEOUT, lowpower, NULL, 0);
-		if (poweroff != 0) SystemParametersInfo(SPI_SETPOWEROFFTIMEOUT, poweroff, NULL, 0);
-		if (screensaver != 0) SystemParametersInfo(SPI_SETSCREENSAVETIMEOUT, screensaver, NULL, 0);
+		SystemParametersInfo(SPI_SETLOWPOWERTIMEOUT, lowpower, NULL, 0);
+		SystemParametersInfo(SPI_SETPOWEROFFTIMEOUT, poweroff, NULL, 0);
+		SystemParametersInfo(SPI_SETSCREENSAVETIMEOUT, screensaver, NULL, 0);
+		
+		qDebug("WinScreenSaver::restoreState: lowpower: %d, poweroff: %d, screensaver: %d", lowpower, poweroff, screensaver);
 	} else {
-		qWarning("WinScreenSaver::restore: screensaver can't be restored");
+		qWarning("WinScreenSaver::restoreState: no data, doing nothing");
 	}
+}
+	
+void WinScreenSaver::disable() {
+	qDebug("WinScreenSaver::disable");
+
+	SystemParametersInfo(SPI_SETLOWPOWERTIMEOUT, 0, NULL, 0);
+	SystemParametersInfo(SPI_SETPOWEROFFTIMEOUT, 0, NULL, 0);
+	SystemParametersInfo(SPI_SETSCREENSAVETIMEOUT, 0, NULL, 0);
+}
+
+void WinScreenSaver::enable() {
+	qDebug("WinScreenSaver::enable");
+
+	restoreState();
 }
 

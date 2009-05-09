@@ -1164,7 +1164,7 @@ void Core::processFinished()
 #ifdef SCREENSAVER_OFF
 	// Restores the Windows screensaver
 	if (pref->turn_screensaver_off) {
-		win_screensaver->restore();
+		win_screensaver->enable();
 	}
 #endif
 #endif

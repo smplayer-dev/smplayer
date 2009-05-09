@@ -28,7 +28,11 @@ public:
 	~WinScreenSaver();
 
 	void disable();
-	void restore();
+	void enable();
+
+private:
+	void retrieveState();
+	void restoreState();
 
 private:
 	int lowpower, poweroff, screensaver;
