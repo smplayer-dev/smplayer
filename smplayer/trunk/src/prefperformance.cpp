@@ -83,8 +83,6 @@ void PrefPerformance::setData(Preferences * pref) {
 	setHardFrameDrop( pref->hard_frame_drop );
 	setCoreavcUsage( pref->coreavc );
 	setSkipLoop( pref->h264_skip_loop_filter );
-	setAutoSyncActivated( pref->autosync );
-	setAutoSyncFactor( pref->autosync_factor );
 #if !SMART_DVD_CHAPTERS
 	setFastChapterSeeking( pref->fast_chapter_change );
 #endif
@@ -106,8 +104,6 @@ void PrefPerformance::getData(Preferences * pref) {
 	TEST_AND_SET(pref->hard_frame_drop, hardFrameDrop());
 	TEST_AND_SET(pref->coreavc, coreavcUsage())
 	TEST_AND_SET(pref->h264_skip_loop_filter, skipLoop());
-	TEST_AND_SET(pref->autosync, autoSyncActivated());
-	TEST_AND_SET(pref->autosync_factor, autoSyncFactor());
 #if !SMART_DVD_CHAPTERS
 	TEST_AND_SET(pref->fast_chapter_change, fastChapterSeeking());
 #endif
@@ -195,22 +191,6 @@ Preferences::H264LoopFilter PrefPerformance::skipLoop() {
 	return (Preferences::H264LoopFilter) loopfilter_combo->itemData(loopfilter_combo->currentIndex()).toInt();
 }
 
-void PrefPerformance::setAutoSyncFactor(int factor) {
-	autosync_spin->setValue(factor);
-}
-
-int PrefPerformance::autoSyncFactor() {
-	return autosync_spin->value();
-}
-
-void PrefPerformance::setAutoSyncActivated(bool b) {
-	autosync_check->setChecked(b);
-}
-
-bool PrefPerformance::autoSyncActivated() {
-	return autosync_check->isChecked();
-}
-
 #if !SMART_DVD_CHAPTERS
 void PrefPerformance::setFastChapterSeeking(bool b) {
 	fast_chapter_check->setChecked(b);
@@ -279,10 +259,6 @@ void PrefPerformance::createHelp() {
            tr("<b>Skip only on HD videos</b>: the loop filter will be "
            "skipped only on videos which height is %1 or "
            "greater.").arg(pref->HD_height) +"<br>" );
-
-	setWhatsThis(autosync_check, tr("Audio/video auto synchronization"),
-		tr("Gradually adjusts the A/V sync based on audio delay "
-           "measurements.") );
 
 	setWhatsThis(fast_audio_combo, tr("Fast audio track switching"),
 		tr("Possible values:<br> "

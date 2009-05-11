@@ -198,6 +198,9 @@ void PrefGeneral::setData(Preferences * pref) {
 
 	setAudioChannels( pref->initial_audio_channels );
 	setScaleTempoFilter( pref->use_scaletempo );
+
+	setAutoSyncActivated( pref->autosync );
+	setAutoSyncFactor( pref->autosync_factor );
 }
 
 void PrefGeneral::getData(Preferences * pref) {
@@ -270,6 +273,9 @@ void PrefGeneral::getData(Preferences * pref) {
 
 	pref->initial_audio_channels = audioChannels();
 	TEST_AND_SET(pref->use_scaletempo, scaleTempoFilter());
+
+	TEST_AND_SET(pref->autosync, autoSyncActivated());
+	TEST_AND_SET(pref->autosync_factor, autoSyncFactor());
 }
 
 void PrefGeneral::updateDriverCombos() {
@@ -523,6 +529,22 @@ bool PrefGeneral::globalVolume() {
 
 bool PrefGeneral::softVol() {
 	return softvol_check->isChecked();
+}
+
+void PrefGeneral::setAutoSyncFactor(int factor) {
+	autosync_spin->setValue(factor);
+}
+
+int PrefGeneral::autoSyncFactor() {
+	return autosync_spin->value();
+}
+
+void PrefGeneral::setAutoSyncActivated(bool b) {
+	autosync_check->setChecked(b);
+}
+
+bool PrefGeneral::autoSyncActivated() {
+	return autosync_check->isChecked();
 }
 
 void PrefGeneral::setUseAudioEqualizer(bool b) {
@@ -873,6 +895,12 @@ void PrefGeneral::createHelp() {
 		tr("Allows to change the playback speed without altering pitch. "
            "Requires at least MPlayer dev-SVN-r24924.") );
 
+	setWhatsThis(global_volume_check, tr("Global volume"),
+		tr("If this option is checked, the same volume will be used for "
+           "all files you play. If the option is not checked each "
+           "file uses its own volume.") + "<br>" +
+        tr("This option also applies for the mute control.") );
+
 	setWhatsThis(softvol_check, tr("Software volume control"),
 		tr("Check this option to use the software mixer, instead of "
            "using the sound card mixer.") );
@@ -887,12 +915,9 @@ void PrefGeneral::createHelp() {
 	setWhatsThis(volnorm_check, tr("Volume normalization by default"),
 		tr("Maximizes the volume without distorting the sound.") );
 
-	setWhatsThis(global_volume_check, tr("Global volume"),
-		tr("If this option is checked, the same volume will be used for "
-           "all files you play. If the option is not checked each "
-           "file uses its own volume.") + "<br>" +
-        tr("This option also applies for the mute control.") );
-
+	setWhatsThis(autosync_check, tr("Audio/video auto synchronization"),
+		tr("Gradually adjusts the A/V sync based on audio delay "
+           "measurements.") );
 
 	addSectionTitle(tr("Preferred audio and subtitles"));
 
