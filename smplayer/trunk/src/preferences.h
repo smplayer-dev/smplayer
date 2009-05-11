@@ -106,6 +106,9 @@ public:
 	int volume;
 	bool mute;
 
+	bool autosync;
+	int autosync_factor;
+
 	// Misc
 	bool loop; 	//!< Loop. If true repeat the file
 	int osd;
@@ -138,9 +141,6 @@ public:
 	int priority;
 	bool frame_drop;
 	bool hard_frame_drop;
-	bool autosync;
-	int autosync_factor;
-
 	bool coreavc;
 	H264LoopFilter h264_skip_loop_filter;
 	int HD_height; //!< An HD is a video which height is equal or greater than this.

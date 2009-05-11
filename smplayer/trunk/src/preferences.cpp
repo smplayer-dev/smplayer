@@ -107,6 +107,9 @@ void Preferences::reset() {
 	volume = 50;
 	mute = false;
 
+	autosync = false;
+	autosync_factor = 100;
+
 	loop = false;
 	osd = None;
 
@@ -144,9 +147,6 @@ void Preferences::reset() {
 	priority = AboveNormal; // Option only for windows
 	frame_drop = true;
 	hard_frame_drop = false;
-	autosync = false;
-	autosync_factor = 100;
-
 	coreavc = false;
 	h264_skip_loop_filter = LoopEnabled;
 	HD_height = 720;
@@ -480,6 +480,9 @@ void Preferences::save() {
 	set->setValue("volume", volume);
 	set->setValue("mute", mute);
 
+	set->setValue("autosync", autosync);
+	set->setValue("autosync_factor", autosync_factor);
+
 	set->setValue("loop", loop);
 	set->setValue("osd", osd);
 
@@ -519,9 +522,6 @@ void Preferences::save() {
 	set->setValue("priority", priority);
 	set->setValue("frame_drop", frame_drop);
 	set->setValue("hard_frame_drop", hard_frame_drop);
-	set->setValue("autosync", autosync);
-	set->setValue("autosync_factor", autosync_factor);
-
 	set->setValue("coreavc", coreavc);
 	set->setValue("h264_skip_loop_filter", h264_skip_loop_filter);
 	set->setValue("HD_height", HD_height);
@@ -865,6 +865,9 @@ void Preferences::load() {
 	volume = set->value("volume", volume).toInt();
 	mute = set->value("mute", mute).toBool();
 
+	autosync = set->value("autosync", autosync).toBool();
+	autosync_factor = set->value("autosync_factor", autosync_factor).toInt();
+
 	loop = set->value("loop", loop).toBool();
 	osd = set->value("osd", osd).toInt();
 
@@ -904,9 +907,6 @@ void Preferences::load() {
 	priority = set->value("priority", priority).toInt();
 	frame_drop = set->value("frame_drop", frame_drop).toBool();
 	hard_frame_drop = set->value("hard_frame_drop", hard_frame_drop).toBool();
-	autosync = set->value("autosync", autosync).toBool();
-	autosync_factor = set->value("autosync_factor", autosync_factor).toInt();
-
 	coreavc = set->value("coreavc", coreavc).toBool();
 	h264_skip_loop_filter = (H264LoopFilter) set->value("h264_skip_loop_filter", h264_skip_loop_filter).toInt();
 	HD_height = set->value("HD_height", HD_height).toInt();
