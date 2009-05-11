@@ -111,7 +111,7 @@ public:
 
 	// For the -mc option
 	bool use_mc;
-	int mc_value;
+	double mc_value;
 
 	// Misc
 	bool loop; 	//!< Loop. If true repeat the file
