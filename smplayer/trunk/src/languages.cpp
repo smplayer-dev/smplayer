@@ -220,6 +220,7 @@ QMap<QString,QString> Languages::translations() {
 	m["el_GR"] = tr("Greek");
 	m["en_US"] = tr("English");
 	m["es"] = tr("Spanish");
+	m["et"] = tr("Estonian");
 	m["eu"] = tr("Basque");
 	m["fi"] = tr("Finnish");
 	m["fr"] = tr("French");
