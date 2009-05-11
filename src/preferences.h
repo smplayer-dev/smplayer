@@ -109,6 +109,10 @@ public:
 	bool autosync;
 	int autosync_factor;
 
+	// For the -mc option
+	bool use_mc;
+	int mc_value;
+
 	// Misc
 	bool loop; 	//!< Loop. If true repeat the file
 	int osd;

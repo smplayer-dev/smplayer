@@ -1466,6 +1466,11 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( QString::number( pref->autosync_factor ) );
 	}
 
+	if (pref->use_mc) {
+		proc->addArgument("-mc");
+		proc->addArgument( QString::number( pref->mc_value ) );
+	}
+
 	if (pref->use_direct_rendering) {
 		proc->addArgument("-dr");
 	} else {
