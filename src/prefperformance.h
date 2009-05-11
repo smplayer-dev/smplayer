@@ -72,12 +72,6 @@ protected:
 	void setSkipLoop(Preferences::H264LoopFilter value);
 	Preferences::H264LoopFilter skipLoop();
 
-	void setAutoSyncFactor(int factor);
-	int autoSyncFactor();
-
-	void setAutoSyncActivated(bool b);
-	bool autoSyncActivated();
-
 #if !SMART_DVD_CHAPTERS
 	void setFastChapterSeeking(bool b);
 	bool fastChapterSeeking();

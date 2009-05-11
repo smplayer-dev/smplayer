@@ -126,6 +126,12 @@ protected:
 	void setGlobalVolume(bool b);
 	bool globalVolume();
 
+	void setAutoSyncFactor(int factor);
+	int autoSyncFactor();
+
+	void setAutoSyncActivated(bool b);
+	bool autoSyncActivated();
+
 	void setSoftVol(bool b);
 	bool softVol();
 
