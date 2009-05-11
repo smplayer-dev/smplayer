@@ -875,7 +875,7 @@ void Preferences::load() {
 	autosync_factor = set->value("autosync_factor", autosync_factor).toInt();
 
 	use_mc = set->value("use_mc", use_mc).toBool();
-	mc_value = set->value("mc_value", mc_value).toInt();
+	mc_value = set->value("mc_value", mc_value).toDouble();
 
 	loop = set->value("loop", loop).toBool();
 	osd = set->value("osd", osd).toInt();
