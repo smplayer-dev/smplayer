@@ -110,6 +110,9 @@ void Preferences::reset() {
 	autosync = false;
 	autosync_factor = 100;
 
+	use_mc = false;
+	mc_value = 0;
+
 	loop = false;
 	osd = None;
 
@@ -482,6 +485,9 @@ void Preferences::save() {
 
 	set->setValue("autosync", autosync);
 	set->setValue("autosync_factor", autosync_factor);
+
+	set->setValue("use_mc", use_mc);
+	set->setValue("mc_value", mc_value);
 
 	set->setValue("loop", loop);
 	set->setValue("osd", osd);
@@ -867,6 +873,9 @@ void Preferences::load() {
 
 	autosync = set->value("autosync", autosync).toBool();
 	autosync_factor = set->value("autosync_factor", autosync_factor).toInt();
+
+	use_mc = set->value("use_mc", use_mc).toBool();
+	mc_value = set->value("mc_value", mc_value).toInt();
 
 	loop = set->value("loop", loop).toBool();
 	osd = set->value("osd", osd).toInt();
