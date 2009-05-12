@@ -201,6 +201,9 @@ void PrefGeneral::setData(Preferences * pref) {
 
 	setAutoSyncActivated( pref->autosync );
 	setAutoSyncFactor( pref->autosync_factor );
+
+	setMcActivated( pref->use_mc );
+	setMc( pref->mc_value );
 }
 
 void PrefGeneral::getData(Preferences * pref) {
@@ -276,6 +279,9 @@ void PrefGeneral::getData(Preferences * pref) {
 
 	TEST_AND_SET(pref->autosync, autoSyncActivated());
 	TEST_AND_SET(pref->autosync_factor, autoSyncFactor());
+
+	TEST_AND_SET(pref->use_mc, mcActivated());
+	TEST_AND_SET(pref->mc_value, mc());
 }
 
 void PrefGeneral::updateDriverCombos() {
@@ -545,6 +551,22 @@ void PrefGeneral::setAutoSyncActivated(bool b) {
 
 bool PrefGeneral::autoSyncActivated() {
 	return autosync_check->isChecked();
+}
+
+void PrefGeneral::setMc(double value) {
+	mc_spin->setValue(value);
+}
+
+double PrefGeneral::mc() {
+	return mc_spin->value();
+}
+
+void PrefGeneral::setMcActivated(bool b) {
+	use_mc_check->setChecked(b);
+}
+
+bool PrefGeneral::mcActivated() {
+	return use_mc_check->isChecked();
 }
 
 void PrefGeneral::setUseAudioEqualizer(bool b) {
@@ -918,6 +940,9 @@ void PrefGeneral::createHelp() {
 	setWhatsThis(autosync_check, tr("Audio/video auto synchronization"),
 		tr("Gradually adjusts the A/V sync based on audio delay "
            "measurements.") );
+
+	setWhatsThis(mc_spin, tr("A-V sync correction"),
+		tr("Maximum A-V sync correction per frame (in seconds)") );
 
 	addSectionTitle(tr("Preferred audio and subtitles"));
 
