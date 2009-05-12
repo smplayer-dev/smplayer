@@ -1,5 +1,12 @@
 [b]Version 0.6.8[/b]:
 
+(2009-05-11)
+ * Added the Estonian translation, by olav mägi <olav.magi@hotmail.com>
+ * The option "Audio/video auto synchronization" has been moved from 
+   Preferences -> Performance to Preferences -> General -> Audio.
+ * Added the new option "A-V sync correction" in Preferences -> General -> 
+   Audio (for the mplayer option -mc).
+
 (2009-05-05)
  * New option for smplayer.ini: row_spacing (in the [playlist] section). It
    specifies the spacing between rows in the playlist. If the value is -1
@@ -10,7 +17,7 @@
    more verbose (passes -v to mplayer).
 
 (2009-05-01)
- * Applied patch coreavc.patch by Shurygin Egor.
+ * Applied patch coreavc.patch by Shurygin Egor <qdiesel@users.sourceforge.net>
    It adds a checkbox in performance settings to switch coreavc usage.
    When checked passes to mplayer "-vc coreavc," unless vdpau video driver is
    used and any other video codec has been set explicitly.
