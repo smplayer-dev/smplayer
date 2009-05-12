@@ -132,6 +132,12 @@ protected:
 	void setAutoSyncActivated(bool b);
 	bool autoSyncActivated();
 
+	void setMc(double value);
+	double mc();
+
+	void setMcActivated(bool b);
+	bool mcActivated();
+
 	void setSoftVol(bool b);
 	bool softVol();
 

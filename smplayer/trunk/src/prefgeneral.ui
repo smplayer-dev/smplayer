@@ -730,6 +730,18 @@
           <string>Volume</string>
          </property>
          <layout class="QVBoxLayout" >
+          <property name="leftMargin" >
+           <number>4</number>
+          </property>
+          <property name="topMargin" >
+           <number>4</number>
+          </property>
+          <property name="rightMargin" >
+           <number>4</number>
+          </property>
+          <property name="bottomMargin" >
+           <number>4</number>
+          </property>
           <item>
            <widget class="QCheckBox" name="global_volume_check" >
             <property name="text" >
@@ -820,53 +832,35 @@
          <property name="title" >
           <string>Synchronization</string>
          </property>
-         <layout class="QHBoxLayout" >
-          <property name="spacing" >
-           <number>6</number>
-          </property>
+         <layout class="QVBoxLayout" >
           <property name="leftMargin" >
-           <number>9</number>
+           <number>4</number>
           </property>
           <property name="topMargin" >
-           <number>9</number>
+           <number>4</number>
           </property>
           <property name="rightMargin" >
-           <number>9</number>
+           <number>4</number>
           </property>
           <property name="bottomMargin" >
-           <number>9</number>
+           <number>4</number>
           </property>
           <item>
-           <widget class="QCheckBox" name="autosync_check" >
-            <property name="text" >
-             <string>Audio/video auto &amp;synchronization</string>
-            </property>
-           </widget>
-          </item>
-          <item>
            <layout class="QHBoxLayout" >
-            <property name="spacing" >
-             <number>6</number>
-            </property>
-            <property name="leftMargin" >
-             <number>0</number>
-            </property>
-            <property name="topMargin" >
-             <number>0</number>
-            </property>
-            <property name="rightMargin" >
-             <number>0</number>
-            </property>
-            <property name="bottomMargin" >
-             <number>0</number>
-            </property>
+            <item>
+             <widget class="QCheckBox" name="autosync_check" >
+              <property name="text" >
+               <string>Audio/video auto &amp;synchronization</string>
+              </property>
+             </widget>
+            </item>
             <item>
              <spacer>
               <property name="orientation" >
                <enum>Qt::Horizontal</enum>
               </property>
               <property name="sizeType" >
-               <enum>QSizePolicy::Preferred</enum>
+               <enum>QSizePolicy::Expanding</enum>
               </property>
               <property name="sizeHint" >
                <size>
@@ -913,6 +907,56 @@
             </item>
            </layout>
           </item>
+          <item>
+           <layout class="QHBoxLayout" >
+            <item>
+             <widget class="QCheckBox" name="use_mc_check" >
+              <property name="text" >
+               <string>A-V sync &amp;correction</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer>
+              <property name="orientation" >
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" >
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QLabel" name="mc_label" >
+              <property name="enabled" >
+               <bool>false</bool>
+              </property>
+              <property name="text" >
+               <string>&amp;Max. correction:</string>
+              </property>
+              <property name="buddy" >
+               <cstring>mc_spin</cstring>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QDoubleSpinBox" name="mc_spin" >
+              <property name="enabled" >
+               <bool>false</bool>
+              </property>
+              <property name="maximum" >
+               <double>100.000000000000000</double>
+              </property>
+              <property name="singleStep" >
+               <double>0.100000000000000</double>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
          </layout>
         </widget>
        </item>
@@ -927,7 +971,7 @@
          <property name="sizeHint" >
           <size>
            <width>464</width>
-           <height>31</height>
+           <height>20</height>
           </size>
          </property>
         </spacer>
@@ -1244,6 +1288,8 @@ For translators: don't translate this text, it will be replaced with another one
   <tabstop>volnorm_check</tabstop>
   <tabstop>autosync_check</tabstop>
   <tabstop>autosync_spin</tabstop>
+  <tabstop>use_mc_check</tabstop>
+  <tabstop>mc_spin</tabstop>
   <tabstop>audio_lang_edit</tabstop>
   <tabstop>subtitle_lang_edit</tabstop>
   <tabstop>audio_track_spin</tabstop>
@@ -1392,6 +1438,38 @@ For translators: don't translate this text, it will be replaced with another one
     <hint type="destinationlabel" >
      <x>361</x>
      <y>386</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>use_mc_check</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>mc_label</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>90</x>
+     <y>406</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>341</x>
+     <y>407</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>use_mc_check</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>mc_spin</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>90</x>
+     <y>406</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>432</x>
+     <y>407</y>
     </hint>
    </hints>
   </connection>
