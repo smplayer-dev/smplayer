@@ -290,7 +290,7 @@
     <message>
         <location filename="../about.cpp" line="205"/>
         <source>Estonian</source>
-        <translation type="unfinished">エストニア語</translation>
+        <translation>エストニア語</translation>
     </message>
 </context>
 <context>
@@ -4143,7 +4143,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="638"/>
         <source>&amp;Verbose</source>
-        <translation type="unfinished"></translation>
+        <translation>詳細(&amp;V)</translation>
     </message>
 </context>
 <context>
@@ -4274,7 +4274,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefdrives.cpp" line="190"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation>このオプションがチェックされている場合、smplayer は dvdnav を使用して DVD を再生します。dvdnav サポートでコンパイルされた mplayer の最近のバージョンを必要とします。</translation>
+        <translation>このオプションがチェックされている場合、smplayer は dvdnav を使用して DVD を再生します。dvdnav サポート付きでコンパイルされた mplayer の最近のバージョンを必要とします。</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="191"/>
@@ -5068,82 +5068,82 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="865"/>
         <source>Switch screensaver off</source>
-        <translation type="unfinished"></translation>
+        <translation>スクリーンセーバーをオフにする</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="869"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションはファイルの再生を開始する直前にスクリーンセーバーをオフにして再生の完了時にオンにします。このオプションが有効である場合、スクリーンセーバーはオーディオ ファイルの再生中またはファイルが一時停止中でも表示されません。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="871"/>
         <source>Avoid screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>スクリーンセーバーを回避する</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="876"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションがチェックされている場合、SMPlayer はビデオ ファイルの再生中のスクリーンセーバーの表示の防止を試行します。スクリーンセーバーはオーディオ ファイルの再生中または一時停止モードの場合に許可されます。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="517"/>
         <source>Screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>スクリーンセーバー</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="523"/>
         <source>Swit&amp;ch screensaver off</source>
-        <translation type="unfinished"></translation>
+        <translation>スクリーンセーバーをオフにする(&amp;C)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="530"/>
         <source>Avoid &amp;screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>スクリーンセーバーを回避する(&amp;S)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="940"/>
         <source>Audio/video auto synchronization</source>
-        <translation type="unfinished">オーディオ/ビデオの自動同期化</translation>
+        <translation>オーディオ/ビデオの自動同期化</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="942"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
-        <translation type="unfinished">徐々にオーディオの遅延測定を基準にして A/V 同期を調整します。</translation>
+        <translation>オーディオの遅延測定に基づいて A/V 同期を徐々に調整します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="944"/>
         <source>A-V sync correction</source>
-        <translation type="unfinished"></translation>
+        <translation>A-V 同期の修正</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="945"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
-        <translation type="unfinished"></translation>
+        <translation>1 フレームあたりの 最大 A-V 同期の修正です (秒)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="833"/>
         <source>Synchronization</source>
-        <translation type="unfinished">同期化</translation>
+        <translation>同期化</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="853"/>
         <source>Audio/video auto &amp;synchronization</source>
-        <translation type="unfinished"></translation>
+        <translation>オーディオ/ビデオの自動同期化(&amp;S)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="879"/>
         <source>&amp;Factor:</source>
-        <translation type="unfinished"></translation>
+        <translation>倍数(&amp;F):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="915"/>
         <source>A-V sync &amp;correction</source>
-        <translation type="unfinished"></translation>
+        <translation>A-V 同期の修正(&amp;C)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="938"/>
         <source>&amp;Max. correction:</source>
-        <translation type="unfinished"></translation>
+        <translation>修正の最大値(&amp;M):</translation>
     </message>
 </context>
 <context>
@@ -6287,17 +6287,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="244"/>
         <source>Use CoreAVC if no other codec specified</source>
-        <translation type="unfinished"></translation>
+        <translation>その他のコーデックが指定されていない場合は CoreAVC を使用する</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="245"/>
         <source>Try to use non-free CoreAVC codec with no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
+        <translation>その他のコーデックが指定されておらず非 VDPAU ビデオ出力が選択されている非フリーの CoreAVC コーデックの使用を試行します。CoreAVC サポート付きの MPlayer ビルドを必要とします。</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="292"/>
         <source>&amp;Use CoreAVC if no other codec specified</source>
-        <translation type="unfinished"></translation>
+        <translation>その他のコーデックが指定されていない場合は CoreAVC を使用する(&amp;U)</translation>
     </message>
 </context>
 <context>
@@ -6518,7 +6518,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="472"/>
         <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
-        <translation>ここでは字幕と OSD に使用されるシステム フォントを選択できます。&lt;b&gt;注意:&lt;/b&gt; fontconfig サポートのある MPlayer を必要とします。</translation>
+        <translation>ここでは字幕と OSD に使用されるシステム フォントを選択できます。&lt;b&gt;注意:&lt;/b&gt; fontconfig サポート付きの MPlayer を必要とします。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="474"/>
@@ -6573,7 +6573,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="431"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
-        <translation>このオプションがオンだと、字幕のエンコードは与えられた言語の自動検出に試行されます。自動検出が失敗する場合は既定のエンコードに戻ります。このオプションは ENCA サポートでコンパイルされた MPlayer を必要とします。</translation>
+        <translation>このオプションがオンだと、字幕のエンコードは与えられた言語の自動検出に試行されます。自動検出が失敗する場合は既定のエンコードに戻ります。このオプションは ENCA サポート付きでコンパイルされた MPlayer を必要とします。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="433"/>
@@ -6941,7 +6941,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="446"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make that subtitles won&apos;t work at all!&lt;/b&gt;</source>
-        <translation>通常はこのオプションを無効にしません。お使いの MPlayer が freetype サポートなしでコンパイルされている場合のみしてください。&lt;b&gt;このオプションを無効にすると字幕が全く動作しなくなります!&lt;/b&gt;</translation>
+        <translation>通常このオプションを無効にしてはなりません。お使いの MPlayer が freetype サポートなしでコンパイルされている場合のみしてください。&lt;b&gt;このオプションを無効にすると字幕が全く動作しなくなります!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="256"/>
