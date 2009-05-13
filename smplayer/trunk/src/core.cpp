@@ -1391,7 +1391,7 @@ void Core::startMplayer( QString file, double seek ) {
 	} else {
 		proc->addArgument("-vo");
 #ifdef Q_OS_WIN
-		if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA) {
+		if (QSysInfo::WindowsVersion >= QSysInfo::WV_VISTA) {
 			proc->addArgument("direct3d,");
 		} else {
 			proc->addArgument("directx,");
