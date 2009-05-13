@@ -1824,7 +1824,7 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation>Hier können zusätzliche mplayer-Optionen angeben werden. 
+        <translation>Hier können zusätzliche MPlayer-Optionen angeben werden. 
 Angaben werden durch Leerzeichen getrennt .
 Beispiel: -flip -nosound</translation>
     </message>
@@ -3804,7 +3804,7 @@ Do you want to overwrite?</source>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation>Hier können zusätzliche mplayer-Optionen angeben werden. 
+        <translation>Hier können zusätzliche MPlayer-Optionen angeben werden. 
 Angaben werden durch Leerzeichen getrennt .
 Beispiel: -flip -nosound</translation>
     </message>
@@ -3828,7 +3828,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="439"/>
         <source>Log MPlayer output</source>
-        <translation>Log mplayer Ausgabe</translation>
+        <translation>Log MPlayer Ausgabe</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="432"/>
@@ -3943,7 +3943,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="379"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
-        <translation>Gegenwärtig kann MPlayer keine Dateinamen öffnen, die Charaktere außerhalb des lokalen Zeichensatzes enthalten. SMplayer leitet mit dieser Option, die Version der kurzen Dateinamen an MPlayer weiter und er wird auf diese Art in der Lage sein, sie auch zu öffnen.</translation>
+        <translation>Gegenwärtig kann MPlayer keine Dateinamen öffnen, die Charaktere außerhalb des lokalen Zeichensatzes enthalten. SMPlayer leitet mit dieser Option, die Version der kurzen Dateinamen an MPlayer weiter und er wird auf diese Art in der Lage sein, sie auch zu öffnen.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="166"/>
@@ -4382,7 +4382,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="757"/>
         <source>MPlayer executable</source>
-        <translation>Ausführbare Mplayer-Datei </translation>
+        <translation>Ausführbare MPlayer-Datei </translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="788"/>
@@ -5015,7 +5015,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="914"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation>Anfrage der Anzahl von Playback Kanälen. Mplayer fragt den Decoder, den Ton in die angebenen Anzahl der Känäle zu decodieren. Damit sind die Bedingungen für den Decoder erfüllt. Das ist hauptsächlich wichtig, bei Videos mit  AC3 Ton (meist DVD). In diesem Fall decodiert liba52 und sorgt für den korrekten Downmix der Kanäle, wie angefordert. Hinweis: Diese Option wird ermöglicht durch AC3 Codecs, Filter für Surround, und Audio-Ausgabe-Treibern (mindestens OSS).</translation>
+        <translation>Anfrage der Anzahl von Playback Kanälen. MPlayer fragt den Decoder, den Ton in die angebenen Anzahl der Känäle zu decodieren. Damit sind die Bedingungen für den Decoder erfüllt. Das ist hauptsächlich wichtig, bei Videos mit  AC3 Ton (meist DVD). In diesem Fall decodiert liba52 und sorgt für den korrekten Downmix der Kanäle, wie angefordert. Hinweis: Diese Option wird ermöglicht durch AC3 Codecs, Filter für Surround, und Audio-Ausgabe-Treibern (mindestens OSS).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="784"/>
@@ -5035,7 +5035,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefgeneral.ui" line="43"/>
         <source>&amp;MPlayer executable:</source>
-        <translation>&amp;Ausführbare Mplayer-Datei:</translation>
+        <translation>&amp;Ausführbare MPlayer-Datei:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="150"/>
@@ -5999,7 +5999,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefperformance.ui" line="77"/>
         <source>Select the priority for the MPlayer process.</source>
-        <translation>Auswahl der Prozessorpriorität für mplayer.</translation>
+        <translation>Auswahl der Prozessorpriorität für MPlayer.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="118"/>
@@ -6144,7 +6144,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="270"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
-        <translation>Mögliche Werte:&lt;br&gt; &lt;b&gt; Ja &lt;/ b&gt;: wird versuchen die schnellste Methode zum Wechseln des Audio-Tracks zu finden (evt funktioniert es nicht, mit einigen Formaten).&lt;br&gt; &lt;b&gt; Nein &lt;/ b&gt;: der Mplayer Prozeß startet erneut, wenn der Audio-Track gewechselt wird.&lt;br&gt; &lt;b&gt; Automatisch &lt;/ b&gt;: SMPlayer wird entscheiden was zu tun ist, je nach MPlayer Version. </translation>
+        <translation>Mögliche Werte:&lt;br&gt; &lt;b&gt; Ja &lt;/ b&gt;: wird versuchen die schnellste Methode zum Wechseln des Audio-Tracks zu finden (evt funktioniert es nicht, mit einigen Formaten).&lt;br&gt; &lt;b&gt; Nein &lt;/ b&gt;: der MPlayer Prozeß startet erneut, wenn der Audio-Track gewechselt wird.&lt;br&gt; &lt;b&gt; Automatisch &lt;/ b&gt;: SMPlayer wird entscheiden was zu tun ist, je nach MPlayer Version. </translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="280"/>
