@@ -43,7 +43,6 @@ PrefAssociations::PrefAssociations(QWidget * parent, Qt::WindowFlags f)
 	connect(listWidget, SIGNAL(itemClicked(QListWidgetItem*)), this, SLOT(listItemClicked(QListWidgetItem*))); 
 	connect(listWidget, SIGNAL(itemPressed(QListWidgetItem*)), this, SLOT(listItemPressed(QListWidgetItem*))); 
 
-#ifdef Q_OS_WIN
 	if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA)
 	{
 		//Hide Select None - One cannot restore an association in Vista. Go figure.
@@ -52,7 +51,6 @@ PrefAssociations::PrefAssociations(QWidget * parent, Qt::WindowFlags f)
 		//hboxLayout->addWidget(lpbButton); 
 		//connect(lpbButton, SIGNAL(clicked(bool)), this, SLOT(launchAppDefaults()));
 	}
-#endif
 
 	Extensions e;
 	for (int n=0; n < e.multimedia().count(); n++) {
@@ -132,11 +130,9 @@ void PrefAssociations::refreshList()
 				pItem->setCheckState(Qt::Checked);
 				//Don't allow de-selection in windows VISTA if extension is registered.
 				//VISTA doesn't seem to support extension 'restoration' in the API.
-#ifdef Q_OS_WIN
 				if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA) {
 					pItem->setFlags(0);
 				}
-#endif
 			}
 			else
 			{
