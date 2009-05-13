@@ -43,7 +43,7 @@ PrefAssociations::PrefAssociations(QWidget * parent, Qt::WindowFlags f)
 	connect(listWidget, SIGNAL(itemClicked(QListWidgetItem*)), this, SLOT(listItemClicked(QListWidgetItem*))); 
 	connect(listWidget, SIGNAL(itemPressed(QListWidgetItem*)), this, SLOT(listItemPressed(QListWidgetItem*))); 
 
-	if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA)
+	if (QSysInfo::WindowsVersion >= QSysInfo::WV_VISTA)
 	{
 		//Hide Select None - One cannot restore an association in Vista. Go figure.
 		selectNone->hide(); 
@@ -130,7 +130,7 @@ void PrefAssociations::refreshList()
 				pItem->setCheckState(Qt::Checked);
 				//Don't allow de-selection in windows VISTA if extension is registered.
 				//VISTA doesn't seem to support extension 'restoration' in the API.
-				if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA) {
+				if (QSysInfo::WindowsVersion >= QSysInfo::WV_VISTA) {
 					pItem->setFlags(0);
 				}
 			}

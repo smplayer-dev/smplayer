@@ -52,7 +52,7 @@ WinFileAssoc::WinFileAssoc( const QString ClassId, const QString AppName )
 //Returns number of extensions processed successfully. 
 int WinFileAssoc::CreateFileAssociations(const QStringList& fileExtensions)
 {
-	if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA)
+	if (QSysInfo::WindowsVersion >= QSysInfo::WV_VISTA)
 	{
 		return VistaSetAppsAsDefault(fileExtensions); 
 	}
@@ -136,7 +136,7 @@ bool WinFileAssoc::GetRegisteredExtensions( const QStringList& extensionsToCheck
 {
 	registeredExtensions.clear(); 
 
-	if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA)
+	if (QSysInfo::WindowsVersion >= QSysInfo::WV_VISTA)
 	{
 		return VistaGetDefaultApps(extensionsToCheck, registeredExtensions); 
 	}
@@ -196,7 +196,7 @@ bool WinFileAssoc::GetRegisteredExtensions( const QStringList& extensionsToCheck
 //Returns number of extensions successfully processed (error if fileExtensions.count() != return value && count > 0).
 int WinFileAssoc::RestoreFileAssociations(const QStringList& fileExtensions)
 {
-	if (QSysInfo::WindowsVersion == QSysInfo::WV_VISTA)
+	if (QSysInfo::WindowsVersion >= QSysInfo::WV_VISTA)
 		return 0; //Not supported by the API
 
 	QSettings RegCR ("HKEY_CLASSES_ROOT", QSettings::NativeFormat);
