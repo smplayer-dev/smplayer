@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="es">
+<!DOCTYPE TS>
+<TS version="2.0" language="es">
 <defaultcodec></defaultcodec>
 <context>
     <name>About</name>
@@ -3362,7 +3363,7 @@ Por favor verifica los permisos de esa carpeta.</translation>
         <source>Marshallese</source>
         <translation type="unfinished"></translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation type="unfinished"></translation>
@@ -3472,7 +3473,7 @@ Por favor verifica los permisos de esa carpeta.</translation>
         <source>Venda</source>
         <translation type="unfinished"></translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
@@ -5076,22 +5077,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="865"/>
         <source>Switch screensaver off</source>
-        <translation type="unfinished"></translation>
+        <translation>Desactivar salvapantallas</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="869"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opción desactiva el salvapantallas antes de empezar la reproducción de un archivo y lo vuelve a activar al acabar. Si esta opción está activada, el salvapantallas no aparecerá ni siquiera cuando se reproducen archivos de audio o cuando se está en pausa.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="871"/>
         <source>Avoid screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>Evitar salvapantallas</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="876"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si esta opción está marcada, SMPlayer tratará de evitar que el salvapantallas aparezca cuando se reproduce un video. Sin embargo el salvapantallas sí aparecerá cuando se esté reproduciendo un archivo de audio o cuando se está en pausa. Esta opción solo funciona si la ventana del SMPlayer está en primer plano.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="517"/>
@@ -5101,12 +5102,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="523"/>
         <source>Swit&amp;ch screensaver off</source>
-        <translation type="unfinished"></translation>
+        <translation>Desactivar sa&amp;lvapantallas</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="530"/>
         <source>Avoid &amp;screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>Evitar &amp;salvapantallas</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="940"/>
