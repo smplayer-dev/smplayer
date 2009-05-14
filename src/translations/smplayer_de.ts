@@ -3858,7 +3858,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="122"/>
         <source>&amp;Run MPlayer in its own window</source>
-        <translation>&amp;Wiedergabe im Mplayer-Fenster</translation>
+        <translation>&amp;Wiedergabe im MPlayer-Fenster</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="357"/>
