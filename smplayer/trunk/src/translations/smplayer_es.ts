@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="es">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -290,7 +291,7 @@
     <message>
         <location filename="../about.cpp" line="205"/>
         <source>Estonian</source>
-        <translation type="unfinished">Estonio</translation>
+        <translation>Estonio</translation>
     </message>
 </context>
 <context>
@@ -4149,7 +4150,7 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="638"/>
         <source>&amp;Verbose</source>
-        <translation type="unfinished"></translation>
+        <translation>Añadir más &amp;información (verbose)</translation>
     </message>
 </context>
 <context>
@@ -5055,22 +5056,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="920"/>
         <source>Global volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Volumen global</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="923"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si esta opción está marcada, se usará el mismo control de volumen para todos los archivos que se reproduzcan. Si la opción no está marcada entonces cada archivo usa su propio volumen.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="924"/>
         <source>This option also applies for the mute control.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opción también se aplica para el control de silenciar.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="748"/>
         <source>Glo&amp;bal volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Volumen glo&amp;bal</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="865"/>
@@ -5095,7 +5096,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="517"/>
         <source>Screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvapantallas</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="523"/>
@@ -5110,47 +5111,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="940"/>
         <source>Audio/video auto synchronization</source>
-        <translation type="unfinished">Sincronización automática de audio y vídeo</translation>
+        <translation>Sincronización automática de audio y vídeo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="942"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
-        <translation type="unfinished">Ajusta gradualmente la sincronización audio/vídeo basada en medidas de retardo de audio.</translation>
+        <translation>Ajusta gradualmente la sincronización audio/vídeo basada en medidas de retardo de audio.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="944"/>
         <source>A-V sync correction</source>
-        <translation type="unfinished"></translation>
+        <translation>Corrección de sincronización audio-vídeo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="945"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
-        <translation type="unfinished"></translation>
+        <translation>Máxima sincronización audio-vídeo por fotograma (en segundos)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="833"/>
         <source>Synchronization</source>
-        <translation type="unfinished">Sincronización</translation>
+        <translation>Sincronización</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="853"/>
         <source>Audio/video auto &amp;synchronization</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sincronización automática de audio y vídeo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="879"/>
         <source>&amp;Factor:</source>
-        <translation type="unfinished"></translation>
+        <translation>F&amp;actor:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="915"/>
         <source>A-V sync &amp;correction</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Corrección de sincronización audio-vídeo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="938"/>
         <source>&amp;Max. correction:</source>
-        <translation type="unfinished"></translation>
+        <translation>Corrección &amp;max.:</translation>
     </message>
 </context>
 <context>
@@ -6294,17 +6295,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="244"/>
         <source>Use CoreAVC if no other codec specified</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar CoreAVC si no se ha especificado otro códec</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="245"/>
         <source>Try to use non-free CoreAVC codec with no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se intentará usar el códec de pago CoreAVC si no se ha especificado ningún otro códec ni se ha seleccionado la salida de vídeo VDPAU. Requiere un MPlayer con soporte para CoreAVC.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="292"/>
         <source>&amp;Use CoreAVC if no other codec specified</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Usar CoreAVC si no se ha especificado otro códec</translation>
     </message>
 </context>
 <context>
