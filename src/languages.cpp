@@ -235,7 +235,7 @@ QMap<QString,QString> Languages::translations() {
 	m["nl"] = tr("Dutch");
 	m["pl"] = tr("Polish");
 	m["pt_BR"] = tr("Portuguese - Brazil");
-	m["pt_PT"] = tr("Portuguese - Portugal");
+	m["pt"] = tr("Portuguese - Portugal");
 	m["ro_RO"] = tr("Romanian");
 	m["ru_RU"] = tr("Russian");
 	m["sk"] = tr("Slovak");
