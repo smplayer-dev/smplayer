@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="ru">
+<!DOCTYPE TS>
+<TS version="2.0" language="ru">
 <context>
     <name>About</name>
     <message>
@@ -290,7 +291,7 @@
     <message>
         <location filename="../about.cpp" line="205"/>
         <source>Estonian</source>
-        <translation type="unfinished">Эстонский</translation>
+        <translation>Эстонский</translation>
     </message>
 </context>
 <context>
@@ -3357,7 +3358,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Маршалльский</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Букмол</translation>
@@ -3467,7 +3468,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Венда</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Волапюк</translation>
@@ -4145,7 +4146,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="638"/>
         <source>&amp;Verbose</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Подробный отчёт</translation>
     </message>
 </context>
 <context>
@@ -4514,7 +4515,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.ui" line="772"/>
         <source>Use s&amp;oftware volume control</source>
-        <translation>Использовать програ&amp;ммное управление громкостью</translation>
+        <translation>Програ&amp;ммное управление громкостью</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="795"/>
@@ -4559,7 +4560,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.ui" line="823"/>
         <source>Volume &amp;normalization by default</source>
-        <translation>Разрешить &amp;нормализацию громкости по умолчанию</translation>
+        <translation>&amp;Нормализация громкости по умолчанию</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="793"/>
@@ -4704,7 +4705,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="134"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Здесь можно указать предпочитаемый для аудио и субтитров язык. Если воспроизводимый файл содержит дорожки субтитров или аудиодорожки на разных языках, то SMPlayer будет выбирать из них, соответствующие вашим предпочтениям.&lt;br&gt;Сказанное выше верно для тех типов данных мультимедиа, которые содержат информацию о языке аудиодорожек и субтитров, таких как DVD или mkv.&lt;br&gt;Также можно использовать регулярные выражения. Например: &lt;b&gt;ru|rus&lt;/b&gt; означает, что будут выбраны дорожки, содержащие в названии &lt;i&gt;ru&lt;/i&gt; или &lt;i&gt;rus&lt;/i&gt;.</translation>
+        <translation>Здесь можно указать предпочитаемый для аудио и субтитров язык. Если воспроизводимый файл содержит дорожки субтитров или аудиодорожки на разных языках, то SMPlayer будет выбирать из них соответствующие вашим предпочтениям.&lt;br&gt;Сказанное выше верно для тех типов данных мультимедиа, которые содержат информацию о языке аудиодорожек и субтитров, таких как DVD или mkv.&lt;br&gt;Также можно использовать регулярные выражения. Например: &lt;b&gt;ru|rus&lt;/b&gt; означает, что будут выбраны дорожки, содержащие в названии &lt;i&gt;ru&lt;/i&gt; или &lt;i&gt;rus&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1004"/>
@@ -5105,47 +5106,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="940"/>
         <source>Audio/video auto synchronization</source>
-        <translation type="unfinished">Автосинхронизация звука/видео</translation>
+        <translation>Автосинхронизация звука/видео</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="942"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
-        <translation type="unfinished">Плавная аудио/видео синхронизация, основанная на изменении длины звуковой дорожки.</translation>
+        <translation>Плавно подстраивает A/V-синхронизацию за счёт измерений задержки аудио.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="944"/>
         <source>A-V sync correction</source>
-        <translation type="unfinished"></translation>
+        <translation>Коррекция A/V-синхронизации</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="945"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
-        <translation type="unfinished"></translation>
+        <translation>Максимальная коррекция A/V-синхронизации на фрейм (в секундах)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="833"/>
         <source>Synchronization</source>
-        <translation type="unfinished">Синхронизация</translation>
+        <translation>Синхронизация</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="853"/>
         <source>Audio/video auto &amp;synchronization</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматическая син&amp;хронизация аудио/видео</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="879"/>
         <source>&amp;Factor:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Фактор:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="915"/>
         <source>A-V sync &amp;correction</source>
-        <translation type="unfinished"></translation>
+        <translation>Ко&amp;ррекция A/V-синхронизации</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="938"/>
         <source>&amp;Max. correction:</source>
-        <translation type="unfinished"></translation>
+        <translation>Макс. коррек&amp;ция:</translation>
     </message>
 </context>
 <context>
@@ -5931,7 +5932,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="800"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
-        <translation>Плавающая панель управления появляется в полноэкранном режиме, когда указатель мыши перемещается к низу экрана.</translation>
+        <translation>Плавающая панель управления появляется в полноэкранном режиме, когда указатель мыши перемещается в нижнюю часть экрана.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="810"/>
