@@ -190,7 +190,7 @@
     <message>
         <location filename="../about.cpp" line="64"/>
         <source>Get help in our forum:</source>
-        <translation>Obtenha ajuda no forum:</translation>
+        <translation>Obtenha ajuda no fórum:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="66"/>
@@ -290,7 +290,7 @@
     <message>
         <location filename="../about.cpp" line="205"/>
         <source>Estonian</source>
-        <translation type="unfinished">Estónio</translation>
+        <translation>Estónio</translation>
     </message>
 </context>
 <context>
@@ -438,12 +438,12 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="87"/>
         <source>&amp;Set as default values</source>
-        <translation>&amp;Definir como valores padrão</translation>
+        <translation>&amp;Definir como valores por omissão</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="91"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation>Usar os valores actuais como padrão para os novos vídeos.</translation>
+        <translation>Usar os valores actuais como omissão para os novos vídeos.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="93"/>
@@ -458,7 +458,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="112"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation>Os valores actuais foram guardados para serem usados como padrão.</translation>
+        <translation>Os valores actuais foram guardados para serem usados por omissão.</translation>
     </message>
 </context>
 <context>
@@ -1398,7 +1398,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../basegui.cpp" line="1506"/>
         <source>&amp;Default</source>
-        <translation>&amp;Padrão</translation>
+        <translation>&amp;Omissão</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1273"/>
@@ -1709,7 +1709,7 @@ O diálogo de configuração irá ser mostrado agora, para que o possa fazer.</t
     <message>
         <location filename="../defaultgui.cpp" line="380"/>
         <source>&amp;Toolbars</source>
-        <translation>&amp;Barras de ferramentas</translation>
+        <translation>&amp;Barra de ferramentas</translation>
     </message>
 </context>
 <context>
@@ -4144,7 +4144,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="638"/>
         <source>&amp;Verbose</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Detalhe</translation>
     </message>
 </context>
 <context>
@@ -4558,12 +4558,12 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="302"/>
         <source>&amp;Enable postprocessing by default</source>
-        <translation>Activar pós-proc&amp;essamento como padrão</translation>
+        <translation>Activar pós-proc&amp;essamento por omissão</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="823"/>
         <source>Volume &amp;normalization by default</source>
-        <translation>&amp;Normalização de volume como padrão</translation>
+        <translation>&amp;Normalização de volume por omissão</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="793"/>
@@ -4593,7 +4593,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="650"/>
         <source>C&amp;hannels by default:</source>
-        <translation>Ca&amp;nais padrão:</translation>
+        <translation>Ca&amp;nais por omissão:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="196"/>
@@ -4608,7 +4608,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="814"/>
         <source>Enable postprocessing by default</source>
-        <translation>Activar pós-processamento como padrão</translation>
+        <translation>Activar pós-processamento por omissão</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="930"/>
@@ -4618,7 +4618,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="937"/>
         <source>Volume normalization by default</source>
-        <translation>Normalização de volume padrão</translation>
+        <translation>Normalização de volume por omissão</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="938"/>
@@ -4653,7 +4653,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="815"/>
         <source>Postprocessing will be used by default on new opened files.</source>
-        <translation>Pós-processamento será usado como padrão, em novos ficheiros.</translation>
+        <translation>Pós-processamento será usado por omissão em novos ficheiros.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="969"/>
@@ -4785,12 +4785,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="364"/>
         <source>Dei&amp;nterlace by default:</source>
-        <translation>Dese&amp;ntrelaçar como padrão:</translation>
+        <translation>Dese&amp;ntrelaçar por omissão:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="822"/>
         <source>Deinterlace by default</source>
-        <translation>Desentrelaçar como padrão</translation>
+        <translation>Desentrelaçar por omissão</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="824"/>
@@ -4870,17 +4870,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="826"/>
         <source>Default zoom</source>
-        <translation>Zoom Padrão</translation>
+        <translation>Zoom por omissão</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="828"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
-        <translation>Esta opção define o zoom padrão para os novos vídeos.</translation>
+        <translation>Esta opção define o zoom por omissão para os novos vídeos.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="401"/>
         <source>Default &amp;zoom:</source>
-        <translation>&amp;Zoom Padrão:</translation>
+        <translation>&amp;Zoom por omissão:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="761"/>
@@ -5070,82 +5070,82 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="865"/>
         <source>Switch screensaver off</source>
-        <translation type="unfinished"></translation>
+        <translation>Mudar protecção para desligado</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="869"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opção desliga o protector de ecrã antes de iniciar a reprodução do ficheiro e liga-o ao acabar a reprodução. Se activar esta opção, o protector de ecrã não aparecerá mesmo que esteja a reproduzir ficheiros áudio ou se pausar o ficheiro.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="871"/>
         <source>Avoid screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>Evitar protector de ecrã</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="876"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se marcar esta opção, o SMPlayer tentará que o protector de ecrã não apareça ao reproduzir um vídeo. O protector poderá aparecer se estiver a reproduzir áudio ou em modo de pausa. Esta opção só funciona se o SMPlayer estiver em primeiro plano.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="517"/>
         <source>Screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>Protector de ecrã</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="523"/>
         <source>Swit&amp;ch screensaver off</source>
-        <translation type="unfinished"></translation>
+        <translation>Mudar prote&amp;cção para desligado</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="530"/>
         <source>Avoid &amp;screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>E&amp;vitar protector de ecrã</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="940"/>
         <source>Audio/video auto synchronization</source>
-        <translation type="unfinished">Sincronizaçao automática áudio/vídeo</translation>
+        <translation>Sincronizaçao automática áudio/vídeo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="942"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
-        <translation type="unfinished">Ajusta a sincronização A/V gradualmente baseado em cálculos do atraso áudio.</translation>
+        <translation>Ajustar gradualmente a sincronização A/V baseado no atraso de áudio.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="944"/>
         <source>A-V sync correction</source>
-        <translation type="unfinished"></translation>
+        <translation>Correcção de sincronização A-V</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="945"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
-        <translation type="unfinished"></translation>
+        <translation>Sincronização A-V máxima por frame (em segundos)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="833"/>
         <source>Synchronization</source>
-        <translation type="unfinished">Sincronização</translation>
+        <translation>Sincronização</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="853"/>
         <source>Audio/video auto &amp;synchronization</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sincronizaçao automática áudio/vídeo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="879"/>
         <source>&amp;Factor:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Factor:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="915"/>
         <source>A-V sync &amp;correction</source>
-        <translation type="unfinished"></translation>
+        <translation>Corre&amp;cção de sincronização A-V</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="938"/>
         <source>&amp;Max. correction:</source>
-        <translation type="unfinished"></translation>
+        <translation>Corecção &amp;Máxima:</translation>
     </message>
 </context>
 <context>
@@ -5546,7 +5546,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="149"/>
         <source>Default</source>
-        <translation>Padrão</translation>
+        <translation>Omissão</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="35"/>
@@ -5651,7 +5651,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="427"/>
         <source>Default font:</source>
-        <translation>Fonte padrão:</translation>
+        <translation>Fonte por omissão:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="441"/>
@@ -5736,7 +5736,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="527"/>
         <source>Default font</source>
-        <translation>Fonte padrão</translation>
+        <translation>Fonte por omissão</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="528"/>
@@ -5816,12 +5816,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="566"/>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. You can change the port in case the default one is used by another application.</source>
-        <translation>SMPlayer precisa escutar uma porta para receber comandos de outras instâncias. Você pode alterar a porta, caso o padrão seja usado por outra aplicação.</translation>
+        <translation>SMPlayer precisa escutar uma porta para receber comandos de outras instâncias. Você pode alterar a porta, caso a omissa seja usada por outra aplicação.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="154"/>
         <source>Default GUI</source>
-        <translation>GUI Padrão</translation>
+        <translation>GUI por Omissão</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="155"/>
@@ -6289,17 +6289,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="244"/>
         <source>Use CoreAVC if no other codec specified</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar CoreAVC se não especificar outo codec</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="245"/>
         <source>Try to use non-free CoreAVC codec with no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tente usar um codec CoreAVC não livre se não especificar outro codec ou uma saída de vídeo non-VDPAU. Requer um MPlayer com suporte a CoreAVC.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="292"/>
         <source>&amp;Use CoreAVC if no other codec specified</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Usar CoreAVC se não especificar outo codec</translation>
     </message>
 </context>
 <context>
@@ -6475,12 +6475,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="149"/>
         <source>&amp;Default subtitle encoding:</source>
-        <translation>Co&amp;dificação padrão para legendas:</translation>
+        <translation>Co&amp;dificação por omissão para legendas:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="581"/>
         <source>Default &amp;position of the subtitles on screen</source>
-        <translation>Posição &amp;padrão para legendas no ecrã</translation>
+        <translation>Posição &amp;por omissão para legendas no ecrã</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="236"/>
@@ -6505,7 +6505,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="422"/>
         <source>Default subtitle encoding</source>
-        <translation>Codificação padrão das legendas</translation>
+        <translation>Codificação por omissão das legendas</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="460"/>
@@ -6565,7 +6565,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="424"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
-        <translation>Seleccione a codificação padrão a usar em ficheiros de legendas.</translation>
+        <translation>Seleccione a codificação por omissão a usar em ficheiros de legendas.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="426"/>
@@ -6575,7 +6575,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="431"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
-        <translation>Se activar esta opção, a codificação de legendas tentará detectar o idioma escolhido, voltando para a codificação padrão se a primeira falhar. Esta opção requer que o MPlayer tenha sido compilado com suporte ENCA.</translation>
+        <translation>Se activar esta opção, a codificação de legendas tentará detectar o idioma escolhido, voltando para a codificação omissa se a primeira falhar. Esta opção requer que o MPlayer tenha sido compilado com suporte ENCA.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="433"/>
@@ -6873,12 +6873,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="493"/>
         <source>Default scale</source>
-        <translation>Escala padrão</translation>
+        <translation>Escala por omissão</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="483"/>
         <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation>Esta opção especifica a escala de fontes padrão para legendas normais, que serão utilizadas para novos vídeos abertos.</translation>
+        <translation>Esta opção especifica a escala de fontes por omissão para legendas normais, que serão utilizadas para novos vídeos abertos.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="491"/>
@@ -6888,7 +6888,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
-        <translation>Esta opção especifica a escala de fontes padrão para legendas SSA/ASS que serão utilizadas para novos vídeos abertos.</translation>
+        <translation>Esta opção especifica a escala de fontes por omissão para legendas SSA/ASS que serão utilizadas para novos vídeos abertos.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="498"/>
@@ -6918,7 +6918,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="544"/>
         <source>Default s&amp;cale:</source>
-        <translation>Es&amp;cala padrão:</translation>
+        <translation>Es&amp;cala por omissão:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="725"/>
@@ -7104,7 +7104,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="114"/>
         <source>opens the mini gui instead of the default one.</source>
-        <translation>abre o mini ecrã ao invés do padrão.</translation>
+        <translation>abre o mini ecrã ao invés do omisso.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="111"/>
@@ -7139,7 +7139,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="120"/>
         <source>opens the default gui.</source>
-        <translation>abre o GUI Padrão.</translation>
+        <translation>abre o GUI omisso.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="96"/>
@@ -7339,12 +7339,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.cpp" line="93"/>
         <source>&amp;Set as default values</source>
-        <translation>&amp;Usar como padrão</translation>
+        <translation>&amp;Usar por omissão</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="97"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation>Usa os valores actuais como valores padrão para novos vídeos.</translation>
+        <translation>Usa os valores actuais como omissos para novos vídeos.</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="99"/>
@@ -7364,7 +7364,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.cpp" line="120"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation>Os valores actuais foram guardados para serem usados como padrão.</translation>
+        <translation>Os valores actuais foram guardados para serem usados por omissão.</translation>
     </message>
 </context>
 <context>
@@ -7520,7 +7520,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="33"/>
         <source>Default</source>
-        <translation>Padrão</translation>
+        <translation>Omissão</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="13"/>
