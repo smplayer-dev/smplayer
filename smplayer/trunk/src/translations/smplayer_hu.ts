@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="hu_HU">
+<!DOCTYPE TS>
+<TS version="2.0" language="hu_HU">
 <context>
     <name>About</name>
     <message>
@@ -290,7 +291,7 @@
     <message>
         <location filename="../about.cpp" line="205"/>
         <source>Estonian</source>
-        <translation type="unfinished">Észt</translation>
+        <translation>Észt</translation>
     </message>
 </context>
 <context>
@@ -3353,7 +3354,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Marshall-szigeteki</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmal</translation>
@@ -3463,7 +3464,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
@@ -3846,12 +3847,12 @@ Például: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="65"/>
         <source>&amp;Monitor aspect:</source>
-        <translation>&amp;Monitor képarány:</translation>
+        <translation>Monitor &amp;képarány:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="122"/>
         <source>&amp;Run MPlayer in its own window</source>
-        <translation>&amp;MPlayer futtatása saját ablakban</translation>
+        <translation>M&amp;Player futtatása saját ablakban</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="357"/>
@@ -3861,12 +3862,12 @@ Például: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="426"/>
         <source>V&amp;ideo filters:</source>
-        <translation>V&amp;ideó szűrők:</translation>
+        <translation>&amp;Videó szűrők:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="494"/>
         <source>Audio &amp;filters:</source>
-        <translation>Ha&amp;ng szűrők:</translation>
+        <translation>Hang &amp;szűrők:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="239"/>
@@ -3896,12 +3897,12 @@ Például: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="597"/>
         <source>Log MPlayer &amp;output</source>
-        <translation>MPl&amp;ayer kimenet naplózása</translation>
+        <translation>M&amp;Player kimenet naplózása</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="304"/>
         <source>Options for MP&amp;layer</source>
-        <translation>MP&amp;layer opciók</translation>
+        <translation>&amp;MPlayer opciók</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="445"/>
@@ -3926,7 +3927,7 @@ Például: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="645"/>
         <source>A&amp;utosave MPlayer log to file</source>
-        <translation>MPlayer napló a&amp;utomatikus mentése fájlba</translation>
+        <translation>MPlayer &amp;napló automatikus mentése fájlba</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="375"/>
@@ -4016,7 +4017,7 @@ Például: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="173"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
-        <translation>Vi&amp;deóablak hátterének újrafestése</translation>
+        <translation>&amp;Videóablak hátterének újrafestése</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="424"/>
@@ -4116,7 +4117,7 @@ Például: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="193"/>
         <source>R&amp;un the following actions every time a file is opened. The actions must be separated with spaces:</source>
-        <translation>A következő műveletek f&amp;uttatása minden fájl megnyitásakor. A műveleteket szóközzel kell elválasztani:</translation>
+        <translation>&amp;A következő műveletek futtatása minden fájl megnyitásakor. A műveleteket szóközzel kell elválasztani:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="526"/>
@@ -4141,7 +4142,7 @@ Például: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="638"/>
         <source>&amp;Verbose</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Részletes</translation>
     </message>
 </context>
 <context>
@@ -4510,7 +4511,7 @@ Például: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="772"/>
         <source>Use s&amp;oftware volume control</source>
-        <translation>&amp;Szoftveres hangerőszabályzó használata</translation>
+        <translation>Sz&amp;oftveres hangerőszabályzó használata</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="795"/>
@@ -4540,7 +4541,7 @@ Például: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="469"/>
         <source>Dou&amp;ble buffering</source>
-        <translation>Dupla &amp;bufferelés</translation>
+        <translation>D&amp;upla bufferelés</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="844"/>
@@ -4590,7 +4591,7 @@ Például: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="650"/>
         <source>C&amp;hannels by default:</source>
-        <translation>&amp;Alapértelmezett csatornák:</translation>
+        <translation>A&amp;lapértelmezett csatornák:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="797"/>
@@ -4680,7 +4681,7 @@ Például: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="1158"/>
         <source>Audi&amp;o:</source>
-        <translation>Ha&amp;ng:</translation>
+        <translation>H&amp;ang:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1112"/>
@@ -4695,7 +4696,7 @@ Például: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="1171"/>
         <source>&amp;Subtitle:</source>
-        <translation>&amp;Felirat:</translation>
+        <translation>F&amp;elirat:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="134"/>
@@ -4711,7 +4712,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="695"/>
         <source>High speed &amp;playback without altering pitch</source>
-        <translation>Gyors &amp;visszajátszás, hangmagasság változása nélkül</translation>
+        <translation>&amp;Gyors visszajátszás, hangmagasság változása nélkül</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="916"/>
@@ -4781,7 +4782,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="364"/>
         <source>Dei&amp;nterlace by default:</source>
-        <translation>Alap dei&amp;nterlace:</translation>
+        <translation>Alap &amp;deinterlace:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="822"/>
@@ -4836,7 +4837,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="476"/>
         <source>Dra&amp;w video using slices</source>
-        <translation>&amp;Videó rajzolása szeletek használatával</translation>
+        <translation>Videó raj&amp;zolása szeletek használatával</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="189"/>
@@ -4876,7 +4877,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="401"/>
         <source>Default &amp;zoom:</source>
-        <translation>Alap &amp;nagyítás:</translation>
+        <translation>Ala&amp;p nagyítás:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="761"/>
@@ -4931,7 +4932,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="562"/>
         <source>Ou&amp;tput driver:</source>
-        <translation>Kimene&amp;ti meghajtó:</translation>
+        <translation>Kim&amp;eneti meghajtó:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="867"/>
@@ -5066,82 +5067,82 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="865"/>
         <source>Switch screensaver off</source>
-        <translation type="unfinished"></translation>
+        <translation>Képernyővédő kikapcsolása</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="869"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez az opció letiltja a képernyővédőt egy fájl lejátszása közben és visszakapcsolja a lejátszás végén. Ha ez be van kapcsolva, a képernyővédő nem jelenik meg még hangfájlok lejátszása vagy a lejátszás szüneteltetése közben sem.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="871"/>
         <source>Avoid screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>Képernyővédő elkerülése</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="876"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció be van jelölve, az SMPlayer megpróbálja megakadályozni a képernyővédő megjelenését videó lejátszása közben. A képernyővédő megjelenhet hangfájl lejátszása vagy szüneteltetés közben. Ez az opció csak akkor működik ha az SMPlayer ablak van az előtérben.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="517"/>
         <source>Screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>Képernyővédő</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="523"/>
         <source>Swit&amp;ch screensaver off</source>
-        <translation type="unfinished"></translation>
+        <translation>Képernyővédő kikap&amp;csolása</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="530"/>
         <source>Avoid &amp;screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>Képernyővédő elkerülé&amp;se</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="940"/>
         <source>Audio/video auto synchronization</source>
-        <translation type="unfinished">Automatikus hang/videó szinkronizálás</translation>
+        <translation>Hang/videó automatikus szinkronizálás</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="942"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
-        <translation type="unfinished">Fokozatosan igazítja az A/V szinkront a mért hang késleltetés alapján.</translation>
+        <translation>Fokozatosan igazítja az A/V szinkront a mért hang késleltetés alapján.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="944"/>
         <source>A-V sync correction</source>
-        <translation type="unfinished"></translation>
+        <translation>A-V szinkron korrekció</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="945"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
-        <translation type="unfinished"></translation>
+        <translation>Maximális A-V szinkron korrekció képkockánként (másodpercben)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="833"/>
         <source>Synchronization</source>
-        <translation type="unfinished">Szinkronizáció</translation>
+        <translation>Szinkronizáció</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="853"/>
         <source>Audio/video auto &amp;synchronization</source>
-        <translation type="unfinished"></translation>
+        <translation>Hang/videó automatikus &amp;szinkronizálás</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="879"/>
         <source>&amp;Factor:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tényező:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="915"/>
         <source>A-V sync &amp;correction</source>
-        <translation type="unfinished"></translation>
+        <translation>A-V szinkron &amp;korrekció</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="938"/>
         <source>&amp;Max. correction:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Max. korrekció:</translation>
     </message>
 </context>
 <context>
@@ -5204,7 +5205,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="286"/>
         <source>&amp;Left click</source>
-        <translation>&amp;Bal kattintás</translation>
+        <translation>B&amp;al kattintás</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="142"/>
@@ -5369,7 +5370,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="187"/>
         <source>M&amp;iddle click</source>
-        <translation>Középső katt&amp;intás</translation>
+        <translation>&amp;Középső kattintás</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="213"/>
@@ -5632,7 +5633,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="254"/>
         <source>L&amp;anguage:</source>
-        <translation>Ny&amp;elv:</translation>
+        <translation>&amp;Nyelv:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="56"/>
@@ -5682,12 +5683,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="464"/>
         <source>&amp;Seeking</source>
-        <translation>Kere&amp;sés</translation>
+        <translation>&amp;Keresés</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="621"/>
         <source>Ins&amp;tances</source>
-        <translation>Példá&amp;nyok</translation>
+        <translation>&amp;Példányok</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="495"/>
@@ -5837,7 +5838,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="362"/>
         <source>&amp;GUI</source>
-        <translation>&amp;Felület</translation>
+        <translation>Fel&amp;ület</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="558"/>
@@ -6110,7 +6111,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="319"/>
         <source>&amp;Fast audio track switching</source>
-        <translation>&amp;Gyors hangsávváltás</translation>
+        <translation>G&amp;yors hangsávváltás</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="347"/>
@@ -6285,17 +6286,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="244"/>
         <source>Use CoreAVC if no other codec specified</source>
-        <translation type="unfinished"></translation>
+        <translation>CoreAVC használata ha nincs más kodek beállítva</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="245"/>
         <source>Try to use non-free CoreAVC codec with no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
+        <translation>A nem szabad szoftver CoreAVC kodek használata ha nincs más kodek beállítva és nem VDPAU video kimenet van kiválasztva. CoreAVC-t támogató MPlayer buildet igényel.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="292"/>
         <source>&amp;Use CoreAVC if no other codec specified</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;CoreAVC használata ha nincs más kodek beállítva</translation>
     </message>
 </context>
 <context>
@@ -6328,17 +6329,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.ui" line="32"/>
         <source>&amp;Playlist</source>
-        <translation>Lejátszási l&amp;ista</translation>
+        <translation>&amp;Lejátszási lista</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="38"/>
         <source>&amp;Automatically add files to playlist</source>
-        <translation>Fájlok &amp;automatikus hozzáadása a lejátszási listához</translation>
+        <translation>&amp;Fájlok automatikus hozzáadása a lejátszási listához</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="72"/>
         <source>Add &amp;consecutive files</source>
-        <translation>Soron &amp;következő fájok hozzáadása</translation>
+        <translation>&amp;Soron következő fájok hozzáadása</translation>
     </message>
 </context>
 <context>
@@ -6476,7 +6477,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="236"/>
         <source>&amp;Include subtitles on screenshots</source>
-        <translation>&amp;Feliratok beépítése a pillanatképekbe</translation>
+        <translation>Feliratok beépítése a &amp;pillanatképekbe</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="418"/>
