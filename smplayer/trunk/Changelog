@@ -1,5 +1,10 @@
 [b]Version 0.6.8[/b]:
 
+(2009-05-18)
+ * New option in the subtitle menu: "subtitle visibility". If the option
+   is checked (default) subtitles are visible, otherwise the subtitles won't
+   appear in the screen. This is a global option.
+
 (2009-05-11)
  * Added the Estonian translation, by olav mägi <olav.magi@hotmail.com>
  * The option "Audio/video auto synchronization" has been moved from 
