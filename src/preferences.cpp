@@ -189,6 +189,8 @@ void Preferences::reset() {
 	use_closed_caption_subs = false;
 	use_forced_subs_only = false;
 
+	sub_visibility = true;
+
 	subtitles_on_screenshots = false;
 
 	use_new_sub_commands = Detect;
@@ -569,6 +571,8 @@ void Preferences::save() {
 	set->setValue("ass_line_spacing", ass_line_spacing);
 	set->setValue("use_closed_caption_subs", use_closed_caption_subs);
 	set->setValue("use_forced_subs_only", use_forced_subs_only);
+
+	set->setValue("sub_visibility", sub_visibility);
 
 	set->setValue("subtitles_on_screenshots", subtitles_on_screenshots);
 
@@ -958,6 +962,8 @@ void Preferences::load() {
 
 	use_closed_caption_subs = set->value("use_closed_caption_subs", use_closed_caption_subs).toBool();
 	use_forced_subs_only = set->value("use_forced_subs_only", use_forced_subs_only).toBool();
+
+	sub_visibility = set->value("sub_visibility", sub_visibility).toBool();
 
 	subtitles_on_screenshots = set->value("subtitles_on_screenshots", subtitles_on_screenshots).toBool();
 

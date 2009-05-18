@@ -216,6 +216,8 @@ public slots:
 	//! Select previous line in subtitle file
 	void decSubStep();
 
+	void changeSubVisibility(bool visible);
+
 	//! Audio equalizer
 	void setAudioEqualizer(AudioEqualizerList values, bool restart = false);
 	void setAudioAudioEqualizerRestart(AudioEqualizerList values) { setAudioEqualizer(values, true); };

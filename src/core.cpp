@@ -1028,6 +1028,9 @@ void Core::finishRestart() {
 
 	changePanscan(mset.panscan_factor);
 
+	// Toggle subtitle visibility
+	changeSubVisibility(pref->sub_visibility);
+
 	emit mediaLoaded();
 	emit mediaInfoChanged();
 
@@ -2774,6 +2777,17 @@ void Core::incSubStep() {
 void Core::decSubStep() {
 	qDebug("Core::decSubStep");
 	tellmp("sub_step -1");
+}
+
+void Core::changeSubVisibility(bool visible) {
+	qDebug("Core::changeSubVisilibity: %d", visible);
+	pref->sub_visibility = visible;
+	tellmp(QString("sub_visibility %1").arg(pref->sub_visibility ? 1 : 0));
+
+	if (pref->sub_visibility) 
+		displayMessage( tr("Subtitles on") );
+	else
+		displayMessage( tr("Subtitles off") );
 }
 
 // Audio equalizer functions

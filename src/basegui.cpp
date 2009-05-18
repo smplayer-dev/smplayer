@@ -609,6 +609,10 @@ void BaseGui::createActions() {
 	useForcedSubsOnlyAct->setCheckable(true);
 	connect( useForcedSubsOnlyAct, SIGNAL(toggled(bool)), core, SLOT(toggleForcedSubsOnly(bool)) );
 
+	subVisibilityAct = new MyAction(Qt::Key_V, this, "subtitle_visibility");
+	subVisibilityAct->setCheckable(true);
+	connect( subVisibilityAct, SIGNAL(toggled(bool)), core, SLOT(changeSubVisibility(bool)) );
+
 	showFindSubtitlesDialogAct = new MyAction( this, "show_find_sub_dialog" );
 	connect( showFindSubtitlesDialogAct, SIGNAL(triggered()), 
              this, SLOT(showFindSubtitlesDialog()) );
@@ -1327,6 +1331,8 @@ void BaseGui::retranslateStrings() {
 	useAssAct->change( Images::icon("use_ass_lib"), tr("Use SSA/&ASS library") );
 	useClosedCaptionAct->change( Images::icon("closed_caption"), tr("Enable &closed caption") );
 	useForcedSubsOnlyAct->change( Images::icon("forced_subs"), tr("&Forced subtitles only") );
+
+	subVisibilityAct->change( Images::icon("sub_visibility"), tr("Subtitle &visibility") );
 
 	showFindSubtitlesDialogAct->change( Images::icon("download_subs"), tr("Find subtitles on &OpenSubtitles.org...") );
 	openUploadSubtitlesPageAct->change( Images::icon("upload_subs"), tr("Upload su&btitles to OpenSubtitles.org...") );
@@ -2071,6 +2077,8 @@ void BaseGui::createMenus() {
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(useClosedCaptionAct);
 	subtitlesMenu->addAction(useForcedSubsOnlyAct);
+	subtitlesMenu->addSeparator();
+	subtitlesMenu->addAction(subVisibilityAct);
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(useAssAct);
 	subtitlesMenu->addSeparator(); //turbos
@@ -2883,6 +2891,9 @@ void BaseGui::updateWidgets() {
 	// Closed caption and forces subs
 	useClosedCaptionAct->setChecked( pref->use_closed_caption_subs );
 	useForcedSubsOnlyAct->setChecked( pref->use_forced_subs_only );
+
+	// Subtitle visibility
+	subVisibilityAct->setChecked(pref->sub_visibility);
 
 	// Enable or disable subtitle options
 	bool e = ((core->mset.current_sub_id != MediaSettings::SubNone) &&

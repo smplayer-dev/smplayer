@@ -393,6 +393,7 @@ protected:
 	MyAction * useAssAct;
 	MyAction * useClosedCaptionAct;
 	MyAction * useForcedSubsOnlyAct;
+	MyAction * subVisibilityAct;
 	MyAction * showFindSubtitlesDialogAct;
 	MyAction * openUploadSubtitlesPageAct;//turbos  
 
