@@ -3780,7 +3780,18 @@ void Core::initSubtitleTrack(const SubTracks & subs) {
 			// The loaded subtitle file is the last one, so
 			// try to select that one.
 			if (mdat.subs.numItems() > 0) {
-				changeSubtitle( mdat.subs.numItems()-1 );
+				int selected_subtitle = mdat.subs.numItems()-1; // If everything fails, use the last one
+
+				// Try to find the subtitle file in the list
+				for (int n = 0; n < mdat.subs.numItems(); n++) {
+					SubData sub = mdat.subs.itemAt(n);
+					if ((sub.type() == SubData::File) && (sub.filename() == mset.external_subtitles)) {
+						selected_subtitle = n;
+						qDebug("Core::initSubtitleTrack: external subtitle found: #%d", n);
+						break;
+					}
+				}
+				changeSubtitle( selected_subtitle );
 				goto end;
 			}
 		}

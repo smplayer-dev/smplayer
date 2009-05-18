@@ -4,6 +4,9 @@
  * New option in the subtitle menu: "subtitle visibility". If the option
    is checked (default) subtitles are visible, otherwise the subtitles won't
    appear in the screen. This is a global option.
+ * In the subtitle initialization function, try to find the external subtitle
+   using its filename, and not assuming that it's always the last one. 
+   It should make the -sub command line option to work as expected.
 
 (2009-05-11)
  * Added the Estonian translation, by olav mägi <olav.magi@hotmail.com>
