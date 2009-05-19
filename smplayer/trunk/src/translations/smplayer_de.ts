@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="de_DE">
+<!DOCTYPE TS>
+<TS version="2.0" language="de_DE">
 <context>
     <name>About</name>
     <message>
@@ -1580,7 +1581,7 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1335"/>
         <source>Subtitle &amp;visibility</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sichtbarkeit Untertitel</translation>
     </message>
 </context>
 <context>
@@ -1686,12 +1687,12 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../core.cpp" line="2788"/>
         <source>Subtitles on</source>
-        <translation type="unfinished"></translation>
+        <translation>Untertitel An</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2790"/>
         <source>Subtitles off</source>
-        <translation type="unfinished"></translation>
+        <translation>Untertitel Aus</translation>
     </message>
 </context>
 <context>
@@ -3373,7 +3374,7 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
         <source>Marshallese</source>
         <translation>Marshallese</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmål</translation>
@@ -3483,7 +3484,7 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
