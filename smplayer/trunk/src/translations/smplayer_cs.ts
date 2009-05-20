@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="cs">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -290,7 +291,7 @@
     <message>
         <location filename="../about.cpp" line="205"/>
         <source>Estonian</source>
-        <translation type="unfinished">Estonština</translation>
+        <translation>Estonština</translation>
     </message>
 </context>
 <context>
@@ -1258,7 +1259,7 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="1333"/>
         <source>&amp;Forced subtitles only</source>
-        <translation>Pouze &amp;vynucené titulky</translation>
+        <translation>Pouze v&amp;ynucené titulky</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1399"/>
@@ -1580,7 +1581,7 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="1335"/>
         <source>Subtitle &amp;visibility</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zobrazit titulky</translation>
     </message>
 </context>
 <context>
@@ -1686,12 +1687,12 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../core.cpp" line="2788"/>
         <source>Subtitles on</source>
-        <translation type="unfinished"></translation>
+        <translation>Titulky zapnuty</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2790"/>
         <source>Subtitles off</source>
-        <translation type="unfinished"></translation>
+        <translation>Titulky vypnuty</translation>
     </message>
 </context>
 <context>
@@ -4160,7 +4161,7 @@ Příklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="638"/>
         <source>&amp;Verbose</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Více podrobný</translation>
     </message>
 </context>
 <context>
@@ -4529,7 +4530,7 @@ Příklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="772"/>
         <source>Use s&amp;oftware volume control</source>
-        <translation>Používat s&amp;oftwarové ovladání hlasitosti</translation>
+        <translation>Používat sof&amp;twarové ovladání hlasitosti</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="795"/>
@@ -5120,47 +5121,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="940"/>
         <source>Audio/video auto synchronization</source>
-        <translation type="unfinished">Automatická synchronizace zvuku a obrazu</translation>
+        <translation>Automatická synchronizace zvuku a obrazu</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="942"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
-        <translation type="unfinished">Postupně mění A/V synchronizaci podle zpoždění zvuku.</translation>
+        <translation>Postupně mění A/V synchronizaci podle zpoždění zvuku.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="944"/>
         <source>A-V sync correction</source>
-        <translation type="unfinished"></translation>
+        <translation>Oprava synchronizace A/V</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="945"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
-        <translation type="unfinished"></translation>
+        <translation>Maximální hodnota opravy na jeden snímek (v sekundách)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="833"/>
         <source>Synchronization</source>
-        <translation type="unfinished">Synchronizace</translation>
+        <translation>Synchronizace</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="853"/>
         <source>Audio/video auto &amp;synchronization</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatická &amp;synchronizace zvuku a obrazu</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="879"/>
         <source>&amp;Factor:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Faktor:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="915"/>
         <source>A-V sync &amp;correction</source>
-        <translation type="unfinished"></translation>
+        <translation>O&amp;prava synchronizace A/V</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="938"/>
         <source>&amp;Max. correction:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Max. hodnota:</translation>
     </message>
 </context>
 <context>
