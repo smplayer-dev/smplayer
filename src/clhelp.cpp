@@ -86,14 +86,15 @@ QString CLHelp::help(bool html) {
 	QString options = QString("%1 [-minigui] [-defaultgui] [-mpcgui] [-config-path %2] "
                         "[-send-action %3] [-actions %4] "
                         "[-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] "
-                        "[-sub %5] "
+                        "[-sub %5] [-pos x y] [-size %6 %7] "
                         "[-add-to-playlist] [-help|--help|-h|-?] "
-                        "[[-playlist] %6] [[-playlist] %6]...")
+                        "[[-playlist] %8] [[-playlist] %8]...")
                         .arg(app_name)
                         .arg(QObject::tr("directory"))
                         .arg(QObject::tr("action_name"))
                         .arg(QObject::tr("action_list"))
                         .arg(QObject::tr("subtitle_file"))
+                        .arg(QObject::tr("width")).arg(QObject::tr("height"))
                         .arg(QObject::tr("media"));
 
 	QString s;
@@ -152,6 +153,12 @@ QString CLHelp::help(bool html) {
 
 	s += formatHelp( "-sub", QObject::tr(
 		"specifies the subtitle file to be loaded for the first video."), html );
+
+	s += formatHelp( "-pos", QObject::tr(
+		"specifies the coordinates where the main window will be displayed."), html );
+
+	s += formatHelp( "-size", QObject::tr(
+		"specifies the size of the main window."), html );
 
 	s += formatHelp( "-help", QObject::tr(
 		"will show this message and then will exit."), html );

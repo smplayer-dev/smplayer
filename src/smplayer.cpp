@@ -49,6 +49,9 @@ SMPlayer::SMPlayer(const QString & config_path, QObject * parent )
 	main_window = 0;
 	gui_to_use = "DefaultGui";
 
+	move_gui = false;
+	resize_gui = false;
+
     Paths::setAppPath( qApp->applicationDirPath() );
 
 #ifndef PORTABLE_APP
@@ -80,7 +83,17 @@ BaseGui * SMPlayer::gui() {
 			main_window = new MpcGui(0);
 		else
 			main_window = new DefaultGui(0);
+
+		if (move_gui) {
+			qDebug("SMPlayer::gui: moving main window to %d %d", gui_position.x(), gui_position.y());
+			main_window->move(gui_position);
+		}
+		if (resize_gui) {
+			qDebug("SMPlayer::gui: resizing main window to %dx%d", gui_size.width(), gui_size.height());
+			main_window->resize(gui_size);
+		}
 	}
+
 	return main_window;
 }
 
@@ -150,6 +163,34 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 				}
 			} else {
 				printf("Error: expected parameter for -sub\r\n");
+				return ErrorArgument;
+			}
+		}
+		else
+		if (argument == "-pos") {
+			if (n+2 < args.count()) {
+				bool ok_x, ok_y;
+				n++;
+				gui_position.setX( args[n].toInt(&ok_x) );
+				n++;
+				gui_position.setY( args[n].toInt(&ok_y) );
+				if (ok_x && ok_y) move_gui = true;
+			} else {
+				printf("Error: expected parameter for -pos\r\n");
+				return ErrorArgument;
+			}
+		}
+		else
+		if (argument == "-size") {
+			if (n+2 < args.count()) {
+				bool ok_width, ok_height;
+				n++;
+				gui_size.setWidth( args[n].toInt(&ok_width) );
+				n++;
+				gui_size.setHeight( args[n].toInt(&ok_height) );
+				if (ok_width && ok_height) resize_gui = true;
+			} else {
+				printf("Error: expected parameter for -resize\r\n");
 				return ErrorArgument;
 			}
 		}

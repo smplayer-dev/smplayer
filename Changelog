@@ -1,5 +1,11 @@
 [b]Version 0.6.8[/b]:
 
+(2009-05-21)
+ * Two new options for the command line have been added: -pos and -size. Both 
+   options expect two arguments. -pos specifies the coordinates (x, y) where 
+   the main window will be displayed, -size specifies the size (width, height).
+   If any of the values is invalid, the option will be silently ignored.
+
 (2009-05-18)
  * New option in the subtitle menu: "subtitle visibility". If the option
    is checked (default) subtitles are visible, otherwise the subtitles won't

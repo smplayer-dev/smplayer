@@ -51,6 +51,13 @@ private:
     QString subtitle_file;
     QString actions_list; //!< Actions to be run on startup
 	QString gui_to_use;
+
+	// Change position and size
+	bool move_gui;
+	QPoint gui_position;
+
+	bool resize_gui;
+	QSize gui_size;
 };
 
 #endif
