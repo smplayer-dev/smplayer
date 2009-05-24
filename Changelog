@@ -1,5 +1,9 @@
 [b]Version 0.6.8[/b]:
 
+(2009-05-24)
+ * Bugfix: now the color tags from the mplayer output are really removed
+   (linux only).
+
 (2009-05-21)
  * Two new options for the command line have been added: -pos and -size. Both 
    options expect two arguments. -pos specifies the coordinates (x, y) where 
