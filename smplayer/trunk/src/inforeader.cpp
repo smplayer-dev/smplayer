@@ -21,7 +21,7 @@
 #include <QApplication>
 #include <QRegExp>
 
-#include "helper.h"
+#include "colorutils.h"
 #include "global.h"
 #include "preferences.h"
 #include "mplayerversion.h"
@@ -126,7 +126,7 @@ static QRegExp rx_codec("^([A-Z,a-z,0-9]+)\\s+([A-Z,a-z,0-9]+)\\s+([A-Z,a-z,0-9]
 
 void InfoReader::readLine(QByteArray ba) {
 #if COLOR_OUTPUT_SUPPORT
-    QString line = Helper::stripColorsTags(QString::fromLocal8Bit(ba));
+    QString line = ColorUtils::stripColorsTags(QString::fromLocal8Bit(ba));
 #else
 	QString line = QString::fromLocal8Bit(ba);
 #endif
