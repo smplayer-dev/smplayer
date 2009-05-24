@@ -533,12 +533,12 @@ Function .onInit
   Pop $R0
 
   StrCmp $R0 0 +3
-    MessageBox MB_OK|MB_ICONEXCLAMATION "The installer is already running."
+    MessageBox MB_OK|MB_ICONEXCLAMATION $(SMPLAYER_INSTALLER_IS_RUNNING)
     Abort
 
   /* Check unsupported Windows OSes */
   ${Unless} ${AtLeastWin2000}
-    MessageBox MB_YESNO|MB_ICONSTOP "Unsupported operating system.$\n$(^Name) requires at least Windows 2000 and may not work correctly on your system.$\nDo you really want to continue with the installation?" /SD IDNO IDYES installonoldwindows
+    MessageBox MB_YESNO|MB_ICONSTOP $(SMPLAYER_INSTALLER_UNSUPPORTED_OS) /SD IDNO IDYES installonoldwindows
     Abort
     installonoldwindows:
   ${EndUnless}
@@ -548,7 +548,7 @@ Function .onInit
 
   # Check for admin (mimic old Inno Setup behavior... non-admin installation maybe later..)
   ${If} $IS_ADMIN == 0
-    MessageBox MB_OK|MB_ICONSTOP "You must be logged in as an administrator when installing this program."
+    MessageBox MB_OK|MB_ICONSTOP $(SMPLAYER_INSTALLER_NO_ADMIN)
     Abort
   ${EndIf}
 
@@ -556,8 +556,7 @@ Function .onInit
   ReadRegStr $R0 HKLM "${PRODUCT_UNINST_KEY}" "UninstallString"
   StrCmp $R0 "" nouninst
 
-  MessageBox MB_YESNO|MB_ICONEXCLAMATION \
-  "SMPlayer has already been installed.$\nDo you want to remove the previous version before installing $(^Name)?" IDNO nouninst
+  MessageBox MB_YESNO|MB_ICONEXCLAMATION $(SMPLAYER_INSTALLER_PREV_VERSION) IDNO nouninst
 
   ClearErrors
   ExecWait '$R0 _?=$INSTDIR' ;Do not copy the uninstaller to a temp file
@@ -702,7 +701,7 @@ Section Uninstall
 
   # Make sure SMPlayer is installed from where the uninstaller is being executed.
   IfFileExists $INSTDIR\smplayer.exe smplayer_installed
-    MessageBox MB_YESNO "It does not appear that SMPlayer is installed in the directory '$INSTDIR'.$\r$\nContinue anyway (not recommended)?" IDYES smplayer_installed
+    MessageBox MB_YESNO $(SMPLAYER_NOT_INSTALLED) IDYES smplayer_installed
     Abort "Uninstall aborted by user."
 
   smplayer_installed:
@@ -729,7 +728,7 @@ Function un.onInit
 
   # Check for admin (mimic old Inno Setup behavior... non-admin installation maybe later..)
   ${If} $IS_ADMIN == 0
-    MessageBox MB_OK|MB_ICONSTOP "This installation can only be uninstalled by a user with administrator privileges."
+    MessageBox MB_OK|MB_ICONSTOP $(UNINSTALL_NO_ADMIN)
     Abort
   ${EndIf}
 

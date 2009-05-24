@@ -7,6 +7,12 @@
 ;;  Author: 
 ;;
 
+; Startup
+LangString SMPLAYER_INSTALLER_IS_RUNNING ${LANG_SLOVENIAN} "The installer is already running."
+LangString SMPLAYER_INSTALLER_UNSUPPORTED_OS ${LANG_SLOVENIAN} "Unsupported operating system.$\n$(^Name) requires at least Windows 2000 and may not work correctly on your system.$\nDo you really want to continue with the installation?"
+LangString SMPLAYER_INSTALLER_NO_ADMIN ${LANG_SLOVENIAN} "You must be logged in as an administrator when installing this program."
+LangString SMPLAYER_INSTALLER_PREV_VERSION ${LANG_SLOVENIAN} "SMPlayer has already been installed.$\nDo you want to remove the previous version before installing $(^Name)?"
+
 ; Components Page
 LangString MPLAYER_CODEC_INFORMATION ${LANG_SLOVENIAN} "The binary codec packages add support for codecs that are not yet implemented natively, like newer RealVideo variants and a lot of uncommon formats.$\nNote that they are not necessary to play most common formats like DVDs, MPEG-1/2/4, etc."
 
@@ -26,3 +32,7 @@ LangString CODECS_INST_FAILED ${LANG_SLOVENIAN} "Failed to install MPlayer codec
 LangString VERINFO_IS_DOWNLOADING ${LANG_SLOVENIAN} "Downloading version information..."
 LangString VERINFO_DL_FAILED ${LANG_SLOVENIAN} "Failed to download version info:"
 LangString VERINFO_IS_MISSING ${LANG_SLOVENIAN} "Version file missing version information. Setup will use a default version."
+
+; Uninstaller
+LangString UNINSTALL_NO_ADMIN ${LANG_SLOVENIAN} "This installation can only be uninstalled by a user with administrator privileges."
+LangString SMPLAYER_NOT_INSTALLED ${LANG_SLOVENIAN} "It does not appear that SMPlayer is installed in the directory '$INSTDIR'.$\r$\nContinue anyway (not recommended)?"
