@@ -1,30 +1,28 @@
 ;;
 ;;  czech.nsh
 ;;
-;;  Default language strings for the Windows SMPlayer NSIS installer.
+;;  Czech language strings for the Windows SMPlayer NSIS installer.
+;;  Save file with ANSI encoding
 ;;
-;;  Replace all text between the string with the translation.
-;;
-;;  Do not edit this line!
-!insertmacro LANGFILE_EXT "Czech"
+;;  Author: 
 ;;
 
 ; Components Page
-${LangFileString} MPLAYER_CODEC_INFORMATION "Bin√°rn√≠ kodeky podporuj√≠ form√°ty, kter√© zat√≠m nejsou implementov√°ny nativnƒõ, nap≈ô. novƒõj≈°√≠ varianty RealVideo a jin√© m√°lo pou≈æ√≠van√© form√°ty.$\nPro vƒõt≈°inu bƒõ≈æn√Ωch form√°t≈Ø nejsou pot≈ôeba (DVD, MPEG-1/2/4, apod.)."
+LangString MPLAYER_CODEC_INFORMATION ${LANG_CZECH} "Bin·rnÌ kodeky podporujÌ form·ty, kterÈ zatÌm nejsou implementov·ny nativne, napr. novejöÌ varianty RealVideo a jinÈ m·lo pouûÌvanÈ form·ty.$\nPro vetöinu beûn˝ch form·tu nejsou potreba (DVD, MPEG-1/2/4, apod.)."
 
 ; MPlayer Section
-${LangFileString} MPLAYER_IS_INSTALLED "MPlayer je ji≈æ nainstalov√°n. St√°hnout znovu?"
-${LangFileString} MPLAYER_IS_DOWNLOADING "Stahuji MPlayer..."
-${LangFileString} MPLAYER_DL_FAILED "Nepovedlo se st√°hnout MPlayer:"
-${LangFileString} MPLAYER_INST_FAILED "Nepovedlo se nainstalovat MPlayer. MPlayer je pot≈ôebn√Ω pro p≈ôehr√°v√°n√≠."
+LangString MPLAYER_IS_INSTALLED ${LANG_CZECH} "MPlayer je jiû nainstalov·n. St·hnout znovu?"
+LangString MPLAYER_IS_DOWNLOADING ${LANG_CZECH} "Stahuji MPlayer..."
+LangString MPLAYER_DL_FAILED ${LANG_CZECH} "Nepovedlo se st·hnout MPlayer:"
+LangString MPLAYER_INST_FAILED ${LANG_CZECH} "Nepovedlo se nainstalovat MPlayer. MPlayer je potrebn˝ pro prehr·v·nÌ."
 
 ; Codecs Section
-${LangFileString} CODECS_IS_INSTALLED "Kodeky MPlayeru jsou ji≈æ nainstalov√°ny. St√°hnout znovu?"
-${LangFileString} CODECS_IS_DOWNLOADING "Instaluji kodeky MPlayeru..."
-${LangFileString} CODECS_DL_FAILED "Nepovedlo se st√°hnout kodeky MPlayeru:"
-${LangFileString} CODECS_INST_FAILED "Nepovedlo se nainstalovat kodeky MPlayeru."
+LangString CODECS_IS_INSTALLED ${LANG_CZECH} "Kodeky MPlayeru jsou jiû nainstalov·ny. St·hnout znovu?"
+LangString CODECS_IS_DOWNLOADING ${LANG_CZECH} "Instaluji kodeky MPlayeru..."
+LangString CODECS_DL_FAILED ${LANG_CZECH} "Nepovedlo se st·hnout kodeky MPlayeru:"
+LangString CODECS_INST_FAILED ${LANG_CZECH} "Nepovedlo se nainstalovat kodeky MPlayeru."
 
 ; Version information
-${LangFileString} VERINFO_IS_DOWNLOADING "Stahuji informace o verz√≠ch..."
-${LangFileString} VERINFO_DL_FAILED "Nepovedlo se st√°hnout informace o verz√≠ch:"
-${LangFileString} VERINFO_IS_MISSING "Verzovac√≠ soubor neobsahuje spr√°vn√© informace. Bude pou≈æita v√Ωchoz√≠ verze."
+LangString VERINFO_IS_DOWNLOADING ${LANG_CZECH} "Stahuji informace o verzÌch..."
+LangString VERINFO_DL_FAILED ${LANG_CZECH} "Nepovedlo se st·hnout informace o verzÌch:"
+LangString VERINFO_IS_MISSING ${LANG_CZECH} "VerzovacÌ soubor neobsahuje spr·vnÈ informace. Bude pouûita v˝chozÌ verze."

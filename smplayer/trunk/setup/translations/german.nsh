@@ -1,30 +1,28 @@
 ;;
 ;;  german.nsh
 ;;
-;;  Default language strings for the Windows SMPlayer NSIS installer.
+;;  German language strings for the Windows SMPlayer NSIS installer.
+;;  Save file with ANSI encoding
 ;;
-;;  Replace all text between the string with the translation.
-;;
-;;  Do not edit this line!
-!insertmacro LANGFILE_EXT "German"
+;;  Author: 
 ;;
 
 ; Components Page
-${LangFileString} MPLAYER_CODEC_INFORMATION "BinÃ¤re Codec-Pakete werden eingesetzt fÃ¼r Codecs, die noch nicht nativ implementiert sind, wie neuere Varianten von RealVideo und viele ungewÃ¶hnliche Formate.$\nAchtung, nicht notwendig um die gÃ¤ngisten Formate wiederzugeben, wie DVD, MPEG-1/2/4 , etc."
+LangString MPLAYER_CODEC_INFORMATION ${LANG_GERMAN} "Binäre Codec-Pakete werden eingesetzt für Codecs, die noch nicht nativ implementiert sind, wie neuere Varianten von RealVideo und viele ungewöhnliche Formate.$\nAchtung, nicht notwendig um die gängisten Formate wiederzugeben, wie DVD, MPEG-1/2/4 , etc."
 
 ; MPlayer Section
-${LangFileString} MPLAYER_IS_INSTALLED "MPlayer ist bereits installiert. Erneut herunterladen?"
-${LangFileString} MPLAYER_IS_DOWNLOADING "Lade MPlayer herunter..."
-${LangFileString} MPLAYER_DL_FAILED "Fehler beim Herunterladen von MPlayer:"
-${LangFileString} MPLAYER_INST_FAILED "Fehler beim Installieren von MPlayer. MPlayer ist erforderlich fÃ¼r die Wiedergabe."
+LangString MPLAYER_IS_INSTALLED ${LANG_GERMAN} "MPlayer ist bereits installiert. Erneut herunterladen?"
+LangString MPLAYER_IS_DOWNLOADING ${LANG_GERMAN} "Lade MPlayer herunter..."
+LangString MPLAYER_DL_FAILED ${LANG_GERMAN} "Fehler beim Herunterladen von MPlayer:"
+LangString MPLAYER_INST_FAILED ${LANG_GERMAN} "Fehler beim Installieren von MPlayer. MPlayer ist erforderlich für die Wiedergabe."
 
 ; Codecs Section
-${LangFileString} CODECS_IS_INSTALLED "MPlayer-Codecs sind bereits installiert. Erneut herunterladen?"
-${LangFileString} CODECS_IS_DOWNLOADING "Lade MPlayer Codecs runter..."
-${LangFileString} CODECS_DL_FAILED "Fehler beim Herunterladen der MPlayer Codecs:"
-${LangFileString} CODECS_INST_FAILED "Fehler beim Installieren der MPlayer Codecs."
+LangString CODECS_IS_INSTALLED ${LANG_GERMAN} "MPlayer-Codecs sind bereits installiert. Erneut herunterladen?"
+LangString CODECS_IS_DOWNLOADING ${LANG_GERMAN} "Lade MPlayer Codecs runter..."
+LangString CODECS_DL_FAILED ${LANG_GERMAN} "Fehler beim Herunterladen der MPlayer Codecs:"
+LangString CODECS_INST_FAILED ${LANG_GERMAN} "Fehler beim Installieren der MPlayer Codecs."
 
 ; Version information
-${LangFileString} VERINFO_IS_DOWNLOADING "Lade Informationen der Version runter..."
-${LangFileString} VERINFO_DL_FAILED "Fehler beim Herunterladen der Versionsinfo:"
-${LangFileString} VERINFO_IS_MISSING "Versionsdatei fehlen Informationen Ã¼ber die Version. Setup nimmt Standardversion."
+LangString VERINFO_IS_DOWNLOADING ${LANG_GERMAN} "Lade Informationen der Version runter..."
+LangString VERINFO_DL_FAILED ${LANG_GERMAN} "Fehler beim Herunterladen der Versionsinfo:"
+LangString VERINFO_IS_MISSING ${LANG_GERMAN} "Versionsdatei fehlen Informationen über die Version. Setup nimmt Standardversion."

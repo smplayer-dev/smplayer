@@ -1,30 +1,28 @@
 ;;
 ;;  hungarian.nsh
 ;;
-;;  Default language strings for the Windows SMPlayer NSIS installer.
+;;  Hungarian language strings for the Windows SMPlayer NSIS installer.
+;;  Save file with ANSI encoding
 ;;
-;;  Replace all text between the string with the translation.
-;;
-;;  Do not edit this line!
-!insertmacro LANGFILE_EXT "Hungarian"
+;;  Author: 
 ;;
 
 ; Components Page
-${LangFileString} MPLAYER_CODEC_INFORMATION "A binÃ¡ris kodek csomagok tÃ¡mogatÃ¡st nyÃºjtanak natÃ­van mÃ©g nem tÃ¡mogatott kodekekhez, mint pl. az Ãºjabb RealVideo variÃ¡nsok Ã©s sok ritka formÃ¡tum.$\nNem szÃ¼ksÃ©gesek a legtÃ¶bb gyakori formÃ¡tum lejÃ¡tszÃ¡sÃ¡hoz, mint a DVD-k, MPEG-1/2/4, stb."
+LangString MPLAYER_CODEC_INFORMATION ${LANG_HUNGARIAN} "A bináris kodek csomagok támogatást nyújtanak natívan még nem támogatott kodekekhez, mint pl. az újabb RealVideo variánsok és sok ritka formátum.$\nNem szükségesek a legtöbb gyakori formátum lejátszásához, mint a DVD-k, MPEG-1/2/4, stb."
 
 ; MPlayer Section
-${LangFileString} MPLAYER_IS_INSTALLED "Az MPlayer mÃ¡r telepÃ­tve van. Ãšjra letÃ¶ltsem?"
-${LangFileString} MPLAYER_IS_DOWNLOADING "Az MPlayer letÃ¶ltÃ©se..."
-${LangFileString} MPLAYER_DL_FAILED "Az MPlayer letÃ¶ltÃ©se nem sikerÃ¼lt:"
-${LangFileString} MPLAYER_INST_FAILED "Az MPlayer telepÃ­tÃ©se nem sikerÃ¼lt. Az MPlayerre szÃ¼ksÃ©g van a lejÃ¡tszÃ¡shoz."
+LangString MPLAYER_IS_INSTALLED ${LANG_HUNGARIAN} "Az MPlayer már telepítve van. Újra letöltsem?"
+LangString MPLAYER_IS_DOWNLOADING ${LANG_HUNGARIAN} "Az MPlayer letöltése..."
+LangString MPLAYER_DL_FAILED ${LANG_HUNGARIAN} "Az MPlayer letöltése nem sikerült:"
+LangString MPLAYER_INST_FAILED ${LANG_HUNGARIAN} "Az MPlayer telepítése nem sikerült. Az MPlayerre szükség van a lejátszáshoz."
 
 ; Codecs Section
-${LangFileString} CODECS_IS_INSTALLED "Az MPlayer kodekek mÃ¡r telepÃ­tve vannak. Ãšjra letÃ¶ltsem?"
-${LangFileString} CODECS_IS_DOWNLOADING "MPlayer kodekek letÃ¶ltÃ©se..."
-${LangFileString} CODECS_DL_FAILED "Az MPlayer kodekek letÃ¶ltÃ©se nem sikerÃ¼lt:"
-${LangFileString} CODECS_INST_FAILED "Az MPlayer kodekek telepÃ­tÃ©se nem sikerÃ¼lt."
+LangString CODECS_IS_INSTALLED ${LANG_HUNGARIAN} "Az MPlayer kodekek már telepítve vannak. Újra letöltsem?"
+LangString CODECS_IS_DOWNLOADING ${LANG_HUNGARIAN} "MPlayer kodekek letöltése..."
+LangString CODECS_DL_FAILED ${LANG_HUNGARIAN} "Az MPlayer kodekek letöltése nem sikerült:"
+LangString CODECS_INST_FAILED ${LANG_HUNGARIAN} "Az MPlayer kodekek telepítése nem sikerült."
 
 ; Version information
-${LangFileString} VERINFO_IS_DOWNLOADING "VerziÃ³ informÃ¡ciÃ³ letÃ¶ltÃ©se..."
-${LangFileString} VERINFO_DL_FAILED "VerziÃ³ informÃ¡ciÃ³ letÃ¶ltÃ©se nem sikerÃ¼lt:"
-${LangFileString} VERINFO_IS_MISSING "A verziÃ³ fÃ¡jlbÃ³l hiÃ¡nyzik a verziÃ³ informÃ¡ciÃ³. A telepÃ­tÃµ egy alapÃ©rtelmezett verziÃ³t fog hasznÃ¡lni."
+LangString VERINFO_IS_DOWNLOADING ${LANG_HUNGARIAN} "Verzió információ letöltése..."
+LangString VERINFO_DL_FAILED ${LANG_HUNGARIAN} "Verzió információ letöltése nem sikerült:"
+LangString VERINFO_IS_MISSING ${LANG_HUNGARIAN} "A verzió fájlból hiányzik a verzió információ. A telepítõ egy alapértelmezett verziót fog használni."
