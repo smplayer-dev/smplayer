@@ -1580,7 +1580,7 @@ A janela de configuração irá ser mostrada agora para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1335"/>
         <source>Subtitle &amp;visibility</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Visibilidade das legendas</translation>
     </message>
 </context>
 <context>
@@ -1686,12 +1686,12 @@ A janela de configuração irá ser mostrada agora para que o possa fazer.</tran
     <message>
         <location filename="../core.cpp" line="2788"/>
         <source>Subtitles on</source>
-        <translation type="unfinished"></translation>
+        <translation>Ligar legendas</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2790"/>
         <source>Subtitles off</source>
-        <translation type="unfinished"></translation>
+        <translation>Desligar legendas</translation>
     </message>
 </context>
 <context>
