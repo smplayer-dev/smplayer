@@ -73,7 +73,7 @@
 !ifdef WITH_MPLAYER
   VIAddVersionKey "FileDescription" "SMPlayer Installer (w/ MPlayer)"
 !else
-  VIAddVersionKey "FileDescription" "SMPlayer Installer (w/o MPlayer)"
+  VIAddVersionKey "FileDescription" "SMPlayer Installer (MPlayer Web Downloader)"
 !endif
   VIAddVersionKey "FileVersion" "${PRODUCT_VERSION}"
   VIAddVersionKey "LegalCopyright" ""
@@ -106,7 +106,7 @@
 
   !define MUI_ABORTWARNING
   !define MUI_COMPONENTSPAGE_SMALLDESC
-  !define MUI_LICENSEPAGE_CHECKBOX
+  !define MUI_LICENSEPAGE_RADIOBUTTONS
   !define MUI_FINISHPAGE_NOREBOOTSUPPORT
   !define MUI_FINISHPAGE_RUN $INSTDIR\smplayer.exe
   !define MUI_FINISHPAGE_RUN_NOTCHECKED
@@ -312,6 +312,17 @@ Section SMPlayer SMPlayer
 SectionEnd
 
 ;--------------------------------
+; Desktop shortcut
+${MementoSection} "Desktop Shortcut" DesktopIcon
+  SectionIn 1 3
+
+  SetOutPath "$INSTDIR"
+  SetShellVarContext all
+  CreateShortCut "$DESKTOP\SMPlayer.lnk" "$INSTDIR\smplayer.exe"
+
+${MementoSectionEnd}
+
+;--------------------------------
 ; Start menu shortcuts
 ${MementoSection} "Start Menu Shortcut" StartMenuIcon
   SectionIn 1 3
@@ -322,17 +333,6 @@ ${MementoSection} "Start Menu Shortcut" StartMenuIcon
   CreateShortCut "$SMPROGRAMS\${PRODUCT_STARTMENU_GROUP}\SMPlayer.lnk" "$INSTDIR\smplayer.exe"
   WriteINIStr    "$SMPROGRAMS\${PRODUCT_STARTMENU_GROUP}\SMPlayer on the Web.url" "InternetShortcut" "URL" "http://smplayer.sf.net"
   CreateShortCut "$SMPROGRAMS\${PRODUCT_STARTMENU_GROUP}\Uninstall SMPlayer.lnk" "$INSTDIR\uninst.exe"
-
-${MementoSectionEnd}
-
-;--------------------------------
-; Desktop shortcut
-${MementoSection} "Desktop Shortcut" DesktopIcon
-  SectionIn 1 3
-
-  SetOutPath "$INSTDIR"
-  SetShellVarContext all
-  CreateShortCut "$DESKTOP\SMPlayer.lnk" "$INSTDIR\smplayer.exe"
 
 ${MementoSectionEnd}
 
