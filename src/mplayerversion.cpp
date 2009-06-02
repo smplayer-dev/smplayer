@@ -62,6 +62,8 @@ int MplayerVersion::mplayerVersion(QString string) {
 		QString version = rx_mplayer_version.cap(1);
 		qDebug("MplayerVersion::mplayerVersion: MPlayer version found: %s", version.toUtf8().data());
 		mplayer_svn = 0;
+		if (version == "1.0rc3") mplayer_svn = MPLAYER_1_0_RC3_SVN;
+		else
 		if (version == "1.0rc2") mplayer_svn = MPLAYER_1_0_RC2_SVN;
 		else
 		if (version == "1.0rc1") mplayer_svn = MPLAYER_1_0_RC1_SVN;
