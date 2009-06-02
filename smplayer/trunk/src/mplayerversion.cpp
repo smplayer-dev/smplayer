@@ -28,6 +28,7 @@ int MplayerVersion::mplayerVersion(QString string) {
 	//static QRegExp rx_mplayer_revision("^MPlayer (\\S+)-SVN-r(\\d+)-(.*)");
 	static QRegExp rx_mplayer_revision("^MPlayer (.*)-r(\\d+)(.*)");
 	static QRegExp rx_mplayer_version("^MPlayer ([a-z,0-9,.]+)-(.*)");
+	static QRegExp rx_mplayer_git("^MPlayer GIT(.*)");
 #ifndef Q_OS_WIN
 	static QRegExp rx_mplayer_version_ubuntu("^MPlayer (\\d):(\\d)\\.(\\d)~(.*)");
 #endif
@@ -65,6 +66,11 @@ int MplayerVersion::mplayerVersion(QString string) {
 		else
 		if (version == "1.0rc1") mplayer_svn = MPLAYER_1_0_RC1_SVN;
 		else qWarning("MplayerVersion::mplayerVersion: unknown MPlayer version");
+	}
+	else
+	if (rx_mplayer_git.indexIn(string) > -1) {
+		qDebug("MplayerVersion::mplayerVersion: MPlayer from git. Assuming >= 1.0rc3");
+		mplayer_svn = MPLAYER_1_0_RC3_SVN;
 	}
 
 	if (pref) {
