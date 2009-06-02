@@ -362,6 +362,9 @@ void SMPlayer::showInfo() {
 		case QSysInfo::WV_XP: win_ver = "Windows XP"; break;
 		case QSysInfo::WV_2003: win_ver = "Windows Server 2003"; break;
 		case QSysInfo::WV_VISTA: win_ver = "Windows Vista"; break;
+		#if QT_VERSION >= 0x040501
+		case QSysInfo::WV_WINDOWS7: win_ver = "Windows 7"; break;
+		#endif
 		default: win_ver = QString("other: %1").arg(QSysInfo::WindowsVersion);
 	}
 #endif
