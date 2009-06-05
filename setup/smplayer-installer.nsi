@@ -1,7 +1,7 @@
 /*
 ** NSIS Script for SMPlayer
-** by redxii (redxii1234@hotmail.com)
-** Requires NSIS 2.x, tested on: 2.44
+** by redxii (redxii1234 ( at ) hotmail.com)
+** Requires NSIS 2.x
 **
 ** This Script is set up to compile two different setups:
 ** - SMPlayer including MPlayer files
@@ -19,6 +19,13 @@
 ** Other required files:
 ** - 7za.exe (http://www.7zip.org)
 ** - inetc plugin (http://nsis.sourceforge.net/Inetc_plug-in)
+**
+** Other required defines:
+** VER_MAJOR
+** VER_MINOR
+** VER_BUILD
+** VER_REVISION (only if non-zero)
+**
 */
 
 ;--------------------------------
@@ -35,23 +42,27 @@
 ;--------------------------------
 ;Defines & includes
 
-!define PRODUCT_NAME "SMPlayer"
-!define PRODUCT_VERSION "0.6.8"
-!define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\SMPlayer"
-!define PRODUCT_STARTMENU_GROUP "SMPlayer"
-!define MEMENTO_REGISTRY_ROOT HKLM
-!define MEMENTO_REGISTRY_KEY Software\SMPlayer
+  !define PRODUCT_NAME "SMPlayer"
+!ifdef VER_REVISION
+  !define PRODUCT_VERSION "${VER_MAJOR}.${VER_MINOR}.${VER_BUILD}.${VER_REVISION}"
+!else
+  !define PRODUCT_VERSION "${VER_MAJOR}.${VER_MINOR}.${VER_BUILD}"
+!endif
+  !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\SMPlayer"
+  !define PRODUCT_STARTMENU_GROUP "SMPlayer"
+  !define MEMENTO_REGISTRY_ROOT HKLM
+  !define MEMENTO_REGISTRY_KEY Software\SMPlayer
 
-; Fallback versions
-!define DEFAULT_CODECS_VERSION "windows-essential-20071007"
+  ; Fallback versions
+  !define DEFAULT_CODECS_VERSION "windows-essential-20071007"
 !ifndef WITH_MPLAYER
-!define DEFAULT_MPLAYER_VERSION "mplayer-svn-28311"
+  !define DEFAULT_MPLAYER_VERSION "mplayer-svn-28311"
 !endif
 
-!include MUI2.nsh
-!include Sections.nsh
-!include Memento.nsh
-!include WinVer.nsh
+  !include MUI2.nsh
+  !include Sections.nsh
+  !include Memento.nsh
+  !include WinVer.nsh
 
 ;--------------------------------
 ;Configuration
@@ -66,7 +77,11 @@
 !endif
 
   ;Version tab properties
+!ifdef VER_REVISION
+  VIProductVersion "${PRODUCT_VERSION}"
+!else
   VIProductVersion "${PRODUCT_VERSION}.0"
+!endif
   VIAddVersionKey "ProductName" "SMPlayer"
   VIAddVersionKey "ProductVersion" "${PRODUCT_VERSION}"
   VIAddVersionKey "Comments" "This installation was built with NSIS."
