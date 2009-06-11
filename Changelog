@@ -1,5 +1,15 @@
 [b]Version 0.6.8[/b]:
 
+(2009-06-02)
+ * (Windows) smplayer should recognize now Windows 7, if using Qt 4.5.1 
+   (untested).
+ * (Windows, portable version) The default screenshot directory is 
+   ./screenshots, and the default additional option for mplayer is 
+   -nofontconfig. This way it's not necessary to supply a customized 
+   smplayer.ini in the portable package.
+ * Recognize the multithreaded mplayer build from kovensky (checks for 
+   'MPlayer GIT*'). It assumes it's version 1.0rc3.
+
 (2009-05-24)
  * Bugfix: now the color tags from the mplayer output are really removed
    (linux only).
